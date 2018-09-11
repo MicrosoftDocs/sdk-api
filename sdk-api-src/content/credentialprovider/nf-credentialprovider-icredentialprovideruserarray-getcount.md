@@ -4,17 +4,16 @@ title: ICredentialProviderUserArray::GetCount
 author: windows-sdk-content
 description: Retrieves the number of ICredentialProviderUser objects in the user array.
 old-location: shell\ICredentialProviderUserArray_GetCount.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 524A9FA1-5106-42d2-A4B6-5D3B83E3A6BA
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetCount method, ICredentialProviderUserArray.GetCount, ICredentialProviderUserArray::GetCount, credentialprovider/ICredentialProviderUserArray::GetCount, shell.ICredentialProviderUserArray_GetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: CredentialProvider.lib
+req.dll: Authui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderUserArray.GetCount
 product: Windows
 targetos: Windows
-req.lib: CredentialProvider.lib
-req.dll: Authui.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderUserArray::GetCount

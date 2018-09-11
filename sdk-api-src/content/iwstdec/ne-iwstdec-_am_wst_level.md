@@ -4,7 +4,7 @@ title: "_AM_WST_LEVEL"
 author: windows-sdk-content
 description: The AM_WST_LEVEL enumeration is not supported.
 old-location: dshow\am_wst_level.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e9186beb-5496-49c3-a76c-febb38b5b344
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iwstdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_WST_LEVEL, *PAM_WST_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_WST_LEVEL
 product: Windows
 targetos: Windows
-req.lib: Wscapi.lib
-req.dll: Wscapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: AM_WST_LEVEL, *PAM_WST_LEVEL
+req.redist: 
 ---
 
 # _AM_WST_LEVEL enumeration

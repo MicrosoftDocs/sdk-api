@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_UIAnimation_0000_0001_0001"
 author: windows-sdk-content
 description: Defines the rounding modes to be used when the value of an animation variable is converted from a floating-point type to an integer type.
 old-location: uianimation\ui_animation_rounding_mode.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 0221207b-4583-44b8-85aa-dc6cd4cd9d25
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_ANIMATION_ROUNDING_CEILING, UI_ANIMATION_ROUNDING_FLOOR, UI_ANIMATION_ROUNDING_MODE, UI_ANIMATION_ROUNDING_MODE enumeration [Windows Animation], UI_ANIMATION_ROUNDING_NEAREST, __MIDL___MIDL_itf_UIAnimation_0000_0001_0001, uianimation.ui_animation_rounding_mode, uianimation/UI_ANIMATION_ROUNDING_CEILING, uianimation/UI_ANIMATION_ROUNDING_FLOOR, uianimation/UI_ANIMATION_ROUNDING_MODE, uianimation/UI_ANIMATION_ROUNDING_NEAREST
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_ROUNDING_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_ANIMATION_ROUNDING_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_ANIMATION_ROUNDING_MODE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_UIAnimation_0000_0001_0001 enumeration

@@ -4,17 +4,16 @@ title: IRawCDImageCreator::AddSubcodeRWGenerator
 author: windows-sdk-content
 description: Allows the addition of custom R-W subcode, provided by the IStream. The provided object must have a size equal to the number of sectors in the raw disc image * 96 bytes when the final image is created.
 old-location: imapi\irawcdimagecreator_addsubcoderwgenerator.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: b952d31e-812e-41b0-98b0-0f9afbe4b01e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AddSubcodeRWGenerator, AddSubcodeRWGenerator method [IMAPI], AddSubcodeRWGenerator method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddSubcodeRWGenerator method, IRawCDImageCreator.AddSubcodeRWGenerator, IRawCDImageCreator::AddSubcodeRWGenerator, imapi.irawcdimagecreator_addsubcoderwgenerator, imapi2/IRawCDImageCreator::AddSubcodeRWGenerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageCreator.AddSubcodeRWGenerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageCreator::AddSubcodeRWGenerator

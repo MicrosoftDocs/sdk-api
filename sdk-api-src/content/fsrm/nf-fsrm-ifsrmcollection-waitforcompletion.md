@@ -4,17 +4,16 @@ title: IFsrmCollection::WaitForCompletion
 author: windows-sdk-content
 description: Limits the time that an asynchronous collection can take to collect the objects.
 old-location: fsrm\ifsrmcollection_waitforcompletion.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 83b9feb5-5f10-4c27-be3e-b267a0356aa2
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],WaitForCompletion method, IFsrmCollection.WaitForCompletion, IFsrmCollection::WaitForCompletion, WaitForCompletion, WaitForCompletion method [File Server Resource Manager], WaitForCompletion method [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection_waitforcompletion, fsrm.ifsrmcollection_waitforcompletion, fsrm/IFsrmCollection::WaitForCompletion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmCollection.WaitForCompletion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmCollection::WaitForCompletion

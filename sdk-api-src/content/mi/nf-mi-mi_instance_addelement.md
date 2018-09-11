@@ -4,17 +4,16 @@ title: MI_Instance_AddElement function
 author: windows-sdk-content
 description: Adds a new property to a dynamic instance (supported only by dynamic instances whose schema may be extended at run time).
 old-location: wmi_v2\mi_instance_addelement.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 51a26894-f391-4281-9e06-2e70fb662aa2
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_ANY, MI_FLAG_BORROW, MI_FLAG_IN, MI_FLAG_KEY, MI_FLAG_NULL, MI_FLAG_OUT, MI_FLAG_REQUIRED, MI_FLAG_STREAM, MI_Instance_AddElement, MI_Instance_AddElement function [Windows Management Infrastructure (MI)], mi/MI_Instance_AddElement, wmi_v2.mi_instance_addelement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_Type
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_Instance_AddElement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # MI_Instance_AddElement function

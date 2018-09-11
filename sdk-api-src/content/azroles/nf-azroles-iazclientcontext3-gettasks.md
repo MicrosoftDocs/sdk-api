@@ -4,17 +4,16 @@ title: IAzClientContext3::GetTasks
 author: windows-sdk-content
 description: Returns a collection of the tasks, within the specified scope, that the principal represented by the current client context has permission to perform.
 old-location: security\iazclientcontext3_gettasks_method.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 285f0e9a-8604-4475-8a73-ed33581f87f4
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetTasks, GetTasks method [Security], GetTasks method [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],GetTasks method, IAzClientContext3.GetTasks, IAzClientContext3::GetTasks, azroles/IAzClientContext3::GetTasks, security.iazclientcontext3_gettasks_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzClientContext3.GetTasks
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzClientContext3::GetTasks

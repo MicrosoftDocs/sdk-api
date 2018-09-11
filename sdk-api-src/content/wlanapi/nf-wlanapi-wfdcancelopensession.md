@@ -4,17 +4,16 @@ title: WFDCancelOpenSession function
 author: windows-sdk-content
 description: Indicates that the application wants to cancel a pending WFDStartOpenSession function that has not completed.
 old-location: nwifi\wfdcancelopensession.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 0BE3DAED-C9B1-492B-BDFC-CB32BE23E700
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WFDCancelOpenSession, WFDCancelOpenSession function [NativeWIFI], nwifi.wfdcancelopensession, wlanapi/WFDCancelOpenSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WFDCancelOpenSession
 product: Windows
 targetos: Windows
-req.lib: Wlanapi.lib
-req.dll: Wlanapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WFDCancelOpenSession function

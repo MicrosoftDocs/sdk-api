@@ -4,17 +4,16 @@ title: IContextMenuProvider::ShowContextMenu
 author: windows-sdk-content
 description: The IContextMenuProvider::ShowContextMenu method displays a context menu.
 old-location: mmc\icontextmenuprovider_showcontextmenu.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 8fe9f474-c47b-4b53-8cbc-d658c82d7591
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IContextMenuProvider interface [MMC],ShowContextMenu method, IContextMenuProvider.ShowContextMenu, IContextMenuProvider::ShowContextMenu, ShowContextMenu, ShowContextMenu method [MMC], ShowContextMenu method [MMC],IContextMenuProvider interface, _slate_icontextmenuprovider_showcontextmenu, mmc.icontextmenuprovider_showcontextmenu, mmc/IContextMenuProvider::ShowContextMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContextMenuProvider.ShowContextMenu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContextMenuProvider::ShowContextMenu

@@ -4,17 +4,16 @@ title: IBitmapData::GetStride
 author: windows-sdk-content
 description: Gets the stride of the data. This is the length in bytes of each row of the bitmap.
 old-location: xaml_diagnostics\ibitmapdata_getstride.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 8D4EAB0A-1976-4A40-932C-AAE67F524B94
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetStride, GetStride method, GetStride method,IBitmapData interface, IBitmapData interface,GetStride method, IBitmapData.GetStride, IBitmapData::GetStride, xaml_diagnostics.ibitmapdata_getstride, xamlom/IBitmapData::GetStride
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBitmapData.GetStride
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IBitmapData::GetStride

@@ -4,17 +4,16 @@ title: ID3D10Texture2D
 author: windows-sdk-content
 description: A 2D texture interface manages texel data, which is structured memory.
 old-location: direct3d10\id3d10texture2d.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture2d.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 9a2f06c7-c0b0-a077-da90-1fba199f3a88, ID3D10Texture2D, ID3D10Texture2D interface [Direct3D 10], ID3D10Texture2D interface [Direct3D 10],described, d3d10/ID3D10Texture2D, direct3d10.id3d10texture2d
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_USAGE
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D10Texture2D
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Texture2D interface

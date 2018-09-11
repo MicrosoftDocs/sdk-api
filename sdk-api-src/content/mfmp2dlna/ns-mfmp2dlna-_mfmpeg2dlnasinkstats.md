@@ -4,7 +4,7 @@ title: "_MFMPEG2DLNASINKSTATS"
 author: windows-sdk-content
 description: Contains encoding statistics from the Digital Living Network Alliance (DLNA) media sink.
 old-location: mf\mfmpeg2dlnasinkstats.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 40d7db61-cf27-4c27-8774-d565ebee2c93
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfmp2dlna.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFMPEG2DLNASINKSTATS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFMPEG2DLNASINKSTATS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFMPEG2DLNASINKSTATS
+req.redist: 
 ---
 
 # _MFMPEG2DLNASINKSTATS structure

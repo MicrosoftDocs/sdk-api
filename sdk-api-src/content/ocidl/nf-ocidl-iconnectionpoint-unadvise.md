@@ -4,17 +4,16 @@ title: IConnectionPoint::Unadvise
 author: windows-sdk-content
 description: Terminates an advisory connection previously established between a connection point object and a client's sink.
 old-location: com\iconnectionpoint_unadvise.htm
-old-project: com
+tech.root: com
 ms.assetid: 71641bad-2fd1-4d94-a6d0-116f5687a95b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IConnectionPoint interface [COM],Unadvise method, IConnectionPoint.Unadvise, IConnectionPoint::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IConnectionPoint interface, _com_iconnectionpoint_unadvise, com.iconnectionpoint_unadvise, ocidl/IConnectionPoint::Unadvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConnectionPoint.Unadvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IConnectionPoint::Unadvise

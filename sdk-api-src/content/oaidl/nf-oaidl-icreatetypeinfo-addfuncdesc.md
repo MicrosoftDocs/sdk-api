@@ -4,17 +4,16 @@ title: ICreateTypeInfo::AddFuncDesc
 author: windows-sdk-content
 description: Adds a function description to the type description.
 old-location: automat\icreatetypeinfo_addfuncdesc.htm
-old-project: automat
+tech.root: automat
 ms.assetid: f6816778-86f6-4e59-8eb2-444fd7bd6354
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddFuncDesc, AddFuncDesc method [Automation], AddFuncDesc method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddFuncDesc method, ICreateTypeInfo.AddFuncDesc, ICreateTypeInfo::AddFuncDesc, _oa96_ICreateTypeInfo_AddFuncDesc, automat.icreatetypeinfo_addfuncdesc, oaidl/ICreateTypeInfo::AddFuncDesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo.AddFuncDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo::AddFuncDesc

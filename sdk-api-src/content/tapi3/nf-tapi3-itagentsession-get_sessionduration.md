@@ -4,17 +4,16 @@ title: ITAgentSession::get_SessionDuration
 author: windows-sdk-content
 description: The get_SessionDuration method gets the duration of the Agent session in seconds. This duration is for the active period only; timing stops when a session enters the ASST_SESSION_ENDED state of AGENT_SESSION_STATE.
 old-location: tapi3\itagentsession_get_sessionduration.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: e5cb6bd2-3b3e-442a-b766-bdd9254475dc
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_SessionDuration method, ITAgentSession.get_SessionDuration, ITAgentSession::get_SessionDuration, _tapi3_itagentsession_get_sessionduration, get_SessionDuration, get_SessionDuration method [TAPI 2.2], get_SessionDuration method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_sessionduration, tapi3cc/ITAgentSession::get_SessionDuration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentSession.get_SessionDuration
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentSession::get_SessionDuration

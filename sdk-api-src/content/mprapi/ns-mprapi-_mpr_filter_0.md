@@ -4,17 +4,16 @@ title: "_MPR_FILTER_0"
 author: windows-sdk-content
 description: Contains static filter configuration information.
 old-location: rras\mpr_filter_0.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: f930b145-554b-40ea-ace0-60978ed428c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMPR_FILTER_0, MPR_FILTER_0, MPR_FILTER_0 structure [RAS], PMPR_FILTER_0, PMPR_FILTER_0 structure pointer [RAS], _MPR_FILTER_0, mprapi/MPR_FILTER_0, mprapi/PMPR_FILTER_0, rras.mpr_filter_0"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR_FILTER_0, *PMPR_FILTER_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPR_FILTER_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPR_FILTER_0, *PMPR_FILTER_0
+req.redist: 
 ---
 
 # _MPR_FILTER_0 structure

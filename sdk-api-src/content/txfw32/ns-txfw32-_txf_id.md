@@ -4,7 +4,7 @@ title: "_TXF_ID"
 author: windows-sdk-content
 description: Represents a unique identifier within the context of the Resource Manager.
 old-location: fs\txf_id.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: b7bdb226-69ce-4226-b826-baf9c732ec52
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: txfw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TXF_ID, *PTXF_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TXF_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TXF_ID, *PTXF_ID
+req.redist: 
 ---
 
 # _TXF_ID structure

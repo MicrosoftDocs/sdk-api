@@ -4,17 +4,16 @@ title: IVideoProcAmp::get_PowerlineFrequency
 author: windows-sdk-content
 description: The get_PowerlineFrequency method returns the camera's power line frequency setting. This setting enables the camera to perform anti-flicker processing.
 old-location: dshow\ivideoprocamp_get_powerlinefrequency.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8c7bfc4a-895f-45a6-9619-868d1e7bc674
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_PowerlineFrequency method, IVideoProcAmp.get_PowerlineFrequency, IVideoProcAmp::get_PowerlineFrequency, IVideoProcAmpget_PowerlineFrequency, dshow.ivideoprocamp_get_powerlinefrequency, get_PowerlineFrequency, get_PowerlineFrequency method [DirectShow], get_PowerlineFrequency method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_PowerlineFrequency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoProcAmp.get_PowerlineFrequency
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoProcAmp::get_PowerlineFrequency

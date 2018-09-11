@@ -4,17 +4,16 @@ title: TSPI_lineForward function
 author: windows-sdk-content
 description: The TSPI_lineForward function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions.
 old-location: tspi\tspi_lineforward.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: fd70bf7f-653c-47db-bf81-6a620f47e5bc
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineForward, TSPI_lineForward function [TAPI 2.2], _tspi_tspi_lineforward, tspi.tspi_lineforward, tspi/TSPI_lineForward
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineForward
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineForward function

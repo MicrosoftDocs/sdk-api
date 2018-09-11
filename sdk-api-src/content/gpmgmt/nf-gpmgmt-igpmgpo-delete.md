@@ -4,17 +4,16 @@ title: IGPMGPO::Delete
 author: windows-sdk-content
 description: Deletes a Group Policy object (GPO) from the directory service and from the system volume folder (SYSVOL).
 old-location: gpmc\igpmgpo_delete.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 63a29bf5-bac5-43af-87ec-01c3c2a5b3af
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],GPMGPO class, Delete method [GPMC],IGPMGPO interface, GPMGPO class [GPMC],Delete method, IGPMGPO interface [GPMC],Delete method, IGPMGPO.Delete, IGPMGPO::Delete, _win32_igpmgpo_delete, gpmc.igpmgpo_delete, gpmgmt/IGPMGPO::Delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMGPO.Delete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMGPO::Delete

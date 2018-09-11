@@ -4,17 +4,16 @@ title: WINTRUST_SGNR_INFO_
 author: windows-sdk-content
 description: Used when calling WinVerifyTrust to verify a CMSG_SIGNER_INFO structure.
 old-location: security\wintrust_sgnr_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 04e62bfa-efe4-428a-ae6b-58c2377fd5ba
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWINTRUST_SGNR_INFO, PWINTRUST_SGNR_INFO, PWINTRUST_SGNR_INFO structure pointer [Security], WINTRUST_SGNR_INFO, WINTRUST_SGNR_INFO structure [Security], WINTRUST_SGNR_INFO_, _win32_wintrust_sgnr_info, security.wintrust_sgnr_info, wintrust/PWINTRUST_SGNR_INFO, wintrust/WINTRUST_SGNR_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINTRUST_SGNR_INFO, *PWINTRUST_SGNR_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINTRUST_SGNR_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WINTRUST_SGNR_INFO, *PWINTRUST_SGNR_INFO
+req.redist: 
 ---
 
 # WINTRUST_SGNR_INFO_ structure

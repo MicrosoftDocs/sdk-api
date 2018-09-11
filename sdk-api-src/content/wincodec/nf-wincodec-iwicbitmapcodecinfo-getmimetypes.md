@@ -4,17 +4,16 @@ title: IWICBitmapCodecInfo::GetMimeTypes
 author: windows-sdk-content
 description: Retrieves a comma delimited sequence of mime types associated with the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getmimetypes.htm
-old-project: wic
+tech.root: wic
 ms.assetid: fbca8068-a57d-402b-85e1-0dd284824efa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMimeTypes, GetMimeTypes method [Windows Imaging Component], GetMimeTypes method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetMimeTypes method, IWICBitmapCodecInfo.GetMimeTypes, IWICBitmapCodecInfo::GetMimeTypes, _wic_codec_iwicbitmapcodecinfo_getmimetypes, wic._wic_codec_iwicbitmapcodecinfo_getmimetypes, wincodec/IWICBitmapCodecInfo::GetMimeTypes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapCodecInfo.GetMimeTypes
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapCodecInfo::GetMimeTypes

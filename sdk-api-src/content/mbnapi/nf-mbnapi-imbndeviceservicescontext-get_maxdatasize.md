@@ -4,17 +4,16 @@ title: IMbnDeviceServicesContext::get_MaxDataSize
 author: windows-sdk-content
 description: The maximum length, in bytes, of data that can be written to or read from a device service session.
 old-location: mbn\imbndeviceservicescontext_maxdatasize.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: E6E29974-083D-4EC8-A4FF-5AACE7435444
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnDeviceServicesContext interface [Microsoft Broadband Networks],MaxDataSize property, IMbnDeviceServicesContext.MaxDataSize, IMbnDeviceServicesContext.get_MaxDataSize, IMbnDeviceServicesContext::MaxDataSize, IMbnDeviceServicesContext::get_MaxDataSize, MaxDataSize property [Microsoft Broadband Networks], MaxDataSize property [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, get_MaxDataSize, mbn.imbndeviceservicescontext_maxdatasize, mbnapi/IMbnDeviceServicesContext::MaxDataSize, mbnapi/IMbnDeviceServicesContext::get_MaxDataSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnDeviceServicesContext.get_MaxDataSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnDeviceServicesContext::get_MaxDataSize

@@ -4,7 +4,7 @@ title: tagWMMPEG2VIDEOINFO
 author: windows-sdk-content
 description: The WMMPEG2VIDEOINFO structure describes an MPEG-2 video stream.
 old-location: wmformat\wmmpeg2videoinfo.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: e5907b04-200c-4459-971b-3680989a564f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMMPEG2VIDEOINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMMPEG2VIDEOINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMMPEG2VIDEOINFO
+req.redist: 
 ---
 
 # tagWMMPEG2VIDEOINFO structure

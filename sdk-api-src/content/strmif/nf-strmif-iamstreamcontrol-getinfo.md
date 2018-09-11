@@ -4,17 +4,16 @@ title: IAMStreamControl::GetInfo
 author: windows-sdk-content
 description: The GetInfo method retrieves information about the current stream-control settings, including the start and stop times.
 old-location: dshow\iamstreamcontrol_getinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9993534c-ec93-4c15-b977-6a0933d23a72
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IAMStreamControl interface, IAMStreamControl interface [DirectShow],GetInfo method, IAMStreamControl.GetInfo, IAMStreamControl::GetInfo, IAMStreamControlGetInfo, dshow.iamstreamcontrol_getinfo, strmif/IAMStreamControl::GetInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMStreamControl.GetInfo
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMStreamControl::GetInfo

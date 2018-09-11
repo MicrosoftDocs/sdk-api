@@ -4,17 +4,16 @@ title: "_CLUSTER_IP_ENTRY"
 author: windows-sdk-content
 description: Describes an IP address for a cluster.
 old-location: mscs\cluster_ip_entry.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 9c2bc2ca-41e5-4e07-a3a2-d762ea5565e1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUSTER_IP_ENTRY, CLUSTER_IP_ENTRY, CLUSTER_IP_ENTRY structure [Failover Cluster], PCLUSTER_IP_ENTRY, PCLUSTER_IP_ENTRY structure pointer [Failover Cluster], _CLUSTER_IP_ENTRY, clusapi/CLUSTER_IP_ENTRY, clusapi/PCLUSTER_IP_ENTRY, mscs.cluster_ip_entry"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_IP_ENTRY, *PCLUSTER_IP_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSTER_IP_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_IP_ENTRY, *PCLUSTER_IP_ENTRY
+req.redist: 
 ---
 
 # _CLUSTER_IP_ENTRY structure

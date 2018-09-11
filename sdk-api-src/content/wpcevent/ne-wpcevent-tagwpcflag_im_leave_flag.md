@@ -4,7 +4,7 @@ title: tagWPCFLAG_IM_LEAVE_FLAG
 author: windows-sdk-content
 description: Indicates information about when a participant leaves the instant messaging interaction.
 old-location: parcon\wpcflag_im_leave_flag.htm
-old-project: parcon
+tech.root: parcon
 ms.assetid: d1ca0b51-5d58-4df2-877b-73a02fe1c67d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wpcevent.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WPCFLAG_IM_LEAVE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WPCFLAG_IM_LEAVE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WPCFLAG_IM_LEAVE
+req.redist: 
 ---
 
 # tagWPCFLAG_IM_LEAVE_FLAG enumeration

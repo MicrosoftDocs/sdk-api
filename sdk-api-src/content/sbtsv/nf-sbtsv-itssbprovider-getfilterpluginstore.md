@@ -4,17 +4,16 @@ title: ITsSbProvider::GetFilterPluginStore
 author: windows-sdk-content
 description: Retrieves a FilterPluginStore instance of the filter plugin store.
 old-location: termserv\itssbprovider_getfilterpluginstore.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 39ba9d60-7dde-4aa1-b95e-ec26aef731ca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFilterPluginStore, GetFilterPluginStore method [Remote Desktop Services], GetFilterPluginStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetFilterPluginStore method, ITsSbProvider.GetFilterPluginStore, ITsSbProvider::GetFilterPluginStore, sbtsv/ITsSbProvider::GetFilterPluginStore, termserv.itssbprovider_getfilterpluginstore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbProvider.GetFilterPluginStore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbProvider::GetFilterPluginStore

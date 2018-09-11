@@ -4,17 +4,16 @@ title: IAppxContentGroupFilesEnumerator::GetCurrent
 author: windows-sdk-content
 description: Gets the file from the content group at the current position of the enumerator.
 old-location: appxpkg\iappxcontentgroupfilesenumerator__getcurrent.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: B8BD3A9A-5330-4328-9FFD-69BF07CA93C7
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxContentGroupFilesEnumerator interface, IAppxContentGroupFilesEnumerator interface [App packaging and management],GetCurrent method, IAppxContentGroupFilesEnumerator.GetCurrent, IAppxContentGroupFilesEnumerator::GetCurrent, appxpackaging/IAppxContentGroupFilesEnumerator::GetCurrent, appxpkg.iappxcontentgroupfilesenumerator__getcurrent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxContentGroupFilesEnumerator.GetCurrent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxContentGroupFilesEnumerator::GetCurrent

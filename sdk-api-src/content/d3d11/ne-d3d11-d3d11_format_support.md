@@ -4,7 +4,7 @@ title: D3D11_FORMAT_SUPPORT
 author: windows-sdk-content
 description: Which resources are supported for a given format and given device (see ID3D11Device::CheckFormatSupport and ID3D11Device::CheckFeatureSupport).
 old-location: direct3d11\d3d11_format_support.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 8c7f62fd-e0fe-4f4d-8c88-ccf1372842f9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_FORMAT_SUPPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_FORMAT_SUPPORT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_FORMAT_SUPPORT
+req.redist: 
 ---
 
 # D3D11_FORMAT_SUPPORT enumeration

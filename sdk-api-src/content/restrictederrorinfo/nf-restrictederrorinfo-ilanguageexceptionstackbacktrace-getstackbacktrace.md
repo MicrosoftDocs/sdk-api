@@ -4,17 +4,16 @@ title: ILanguageExceptionStackBackTrace::GetStackBackTrace
 author: windows-sdk-content
 description: Retrieves the back stack trace.
 old-location: winrt\ilanguageexceptionstackbacktrace_getstackbacktrace.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 6EB89F76-C518-41A3-A1F8-EC480B0FC68B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetStackBackTrace, GetStackBackTrace method [Windows Runtime], GetStackBackTrace method [Windows Runtime],ILanguageExceptionStackBackTrace interface, ILanguageExceptionStackBackTrace interface [Windows Runtime],GetStackBackTrace method, ILanguageExceptionStackBackTrace.GetStackBackTrace, ILanguageExceptionStackBackTrace::GetStackBackTrace, restrictederrorinfo/ILanguageExceptionStackBackTrace::GetStackBackTrace, winrt.ilanguageexceptionstackbacktrace_getstackbacktrace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: restrictederrorinfo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILanguageExceptionStackBackTrace.GetStackBackTrace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ILanguageExceptionStackBackTrace::GetStackBackTrace

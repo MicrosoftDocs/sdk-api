@@ -4,17 +4,16 @@ title: "_INTERNET_BUFFERSW"
 author: windows-sdk-content
 description: Contains both the data and header information.
 old-location: wininet\internet_buffers.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 9381184d-17f4-46ad-bd09-15c7e653d1b9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPINTERNET_BUFFERSW, INTERNET_BUFFERS, INTERNET_BUFFERS structure [WinINet], INTERNET_BUFFERSA, INTERNET_BUFFERSW, LPINTERNET_BUFFERS, LPINTERNET_BUFFERS structure pointer [WinINet], _INTERNET_BUFFERSW, _win32_internet_buffers, wininet.internet_buffers, wininet/ LPINTERNET_BUFFERS, wininet/INTERNET_BUFFERS, wininet/INTERNET_BUFFERSA, wininet/INTERNET_BUFFERSW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_BUFFERSW, *LPINTERNET_BUFFERSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INTERNET_BUFFERSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: INTERNET_BUFFERSW, *LPINTERNET_BUFFERSW
+req.redist: 
 ---
 
 # _INTERNET_BUFFERSW structure

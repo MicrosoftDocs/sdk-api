@@ -4,17 +4,16 @@ title: StringCchVPrintf_lA function
 author: windows-sdk-content
 description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 old-location: menurc\stringcchvprintf_l.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: 90c83405-f2c8-480b-883c-c3ce258016cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StringCchVPrintf_l, StringCchVPrintf_l function [Menus and Other Resources], StringCchVPrintf_lA, StringCchVPrintf_lW, menurc.stringcchvprintf_l, strsafe/StringCchVPrintf_l, strsafe/StringCchVPrintf_lA, strsafe/StringCchVPrintf_lW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVD_RENDERSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - StringCchVPrintf_lW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # StringCchVPrintf_lA function

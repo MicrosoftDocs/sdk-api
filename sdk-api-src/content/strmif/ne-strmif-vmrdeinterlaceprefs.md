@@ -4,7 +4,7 @@ title: VMRDeinterlacePrefs
 author: windows-sdk-content
 description: The VMRDeinterlacePrefs enumeration type describes the deinterlacing method that the Video Mixing Renderer Filter 7 (VMR-7) uses if the method set by the application cannot be used.
 old-location: dshow\vmrdeinterlaceprefs.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3f88abac-fc57-4f31-9a4c-cf0f7317d6f8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMRDeinterlacePrefs
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VMRDeinterlacePrefs
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: VMRDeinterlacePrefs
+req.redist: 
 req.product: Windows XP with SP1
 ---
 

@@ -4,17 +4,16 @@ title: TerminateLogArchive function
 author: windows-sdk-content
 description: Deallocates system resources that are allocated originally for a log archive context by PrepareLogArchive.
 old-location: fs\terminatelogarchive.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 885356e1-f7c4-4f3f-98c3-fb9b1d339e22
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: TerminateLogArchive, TerminateLogArchive function [Files], clfsw32/TerminateLogArchive, fs.terminatelogarchive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TerminateLogArchive
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # TerminateLogArchive function

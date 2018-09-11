@@ -4,17 +4,16 @@ title: IDWriteRenderingParams3
 author: windows-sdk-content
 description: Represents text rendering settings for glyph rasterization and filtering.
 old-location: directwrite\idwriterenderingparams3.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: A083377C-7315-40F4-AD94-9B65B98DE0D6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteRenderingParams3, IDWriteRenderingParams3 interface [Direct Write], IDWriteRenderingParams3 interface [Direct Write],described, directwrite.idwriterenderingparams3, dwrite_3/IDWriteRenderingParams3
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteRenderingParams3
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteRenderingParams3 interface

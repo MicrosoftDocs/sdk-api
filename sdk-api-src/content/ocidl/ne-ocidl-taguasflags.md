@@ -4,17 +4,16 @@ title: tagUASFLAGS
 author: windows-sdk-content
 description: Provides information about the parent undo unit.
 old-location: com\uasflags.htm
-old-project: com
+tech.root: com
 ms.assetid: cf711180-e38a-4cff-bd2d-2cfca41b376d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: UASFLAGS, UASFLAGS enumeration [COM], UAS_BLOCKED, UAS_MASK, UAS_NOPARENTENABLE, UAS_NORMAL, _ole_UASFLAGS, com.uasflags, ocidl/UASFLAGS, ocidl/UAS_BLOCKED, ocidl/UAS_MASK, ocidl/UAS_NOPARENTENABLE, ocidl/UAS_NORMAL, tagUASFLAGS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UASFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UASFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: UASFLAGS
+req.redist: 
 ---
 
 # tagUASFLAGS enumeration

@@ -4,17 +4,16 @@ title: "_RSVP_FILTERSPEC_V6"
 author: windows-sdk-content
 description: The RSVP_FILTERSPEC_V6 structure stores information for a FILTERSPEC on an IPv6 address.
 old-location: qos\rsvp_filterspec_v6.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 7e567714-1d91-4dd4-a560-2b57876c837c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPRSVP_FILTERSPEC_V6, RSVP_FILTERSPEC_V6, RSVP_FILTERSPEC_V6 structure [QOS], _RSVP_FILTERSPEC_V6, qos.rsvp_filterspec_v6, qossp/RSVP_FILTERSPEC_V6"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_FILTERSPEC_V6, *LPRSVP_FILTERSPEC_V6
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RSVP_FILTERSPEC_V6
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RSVP_FILTERSPEC_V6, *LPRSVP_FILTERSPEC_V6
+req.redist: 
 ---
 
 # _RSVP_FILTERSPEC_V6 structure

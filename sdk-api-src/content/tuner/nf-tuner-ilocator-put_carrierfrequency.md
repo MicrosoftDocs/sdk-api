@@ -4,17 +4,16 @@ title: ILocator::put_CarrierFrequency
 author: windows-sdk-content
 description: The put_CarrierFrequency method sets the frequency of the RF signal.
 old-location: mstv\ilocator_put_carrierfrequency.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 74617c08-dabc-48d7-a9da-d1631d7df961
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],put_CarrierFrequency method, ILocator.put_CarrierFrequency, ILocator::put_CarrierFrequency, ILocatorput_CarrierFrequency, mstv.ilocator_put_carrierfrequency, put_CarrierFrequency, put_CarrierFrequency method [Microsoft TV Technologies], put_CarrierFrequency method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_CarrierFrequency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocator.put_CarrierFrequency
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ILocator::put_CarrierFrequency

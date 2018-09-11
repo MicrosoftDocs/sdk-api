@@ -4,17 +4,16 @@ title: IMFMediaEngineEx::GetStereo3DFramePackingMode
 author: windows-sdk-content
 description: For stereoscopic 3D video, gets the layout of the two views within a video frame.
 old-location: mf\imfmediaengineex_getstereo3dframepackingmode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 003204DB-DDAD-4F72-BA25-015B033BAC92
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStereo3DFramePackingMode, GetStereo3DFramePackingMode method [Media Foundation], GetStereo3DFramePackingMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStereo3DFramePackingMode method, IMFMediaEngineEx.GetStereo3DFramePackingMode, IMFMediaEngineEx::GetStereo3DFramePackingMode, mf.imfmediaengineex_getstereo3dframepackingmode, mfmediaengine/IMFMediaEngineEx::GetStereo3DFramePackingMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineEx.GetStereo3DFramePackingMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineEx::GetStereo3DFramePackingMode

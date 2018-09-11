@@ -4,17 +4,16 @@ title: "_VDS_PATH_INFO"
 author: windows-sdk-content
 description: Defines the information for a LUN path. This structure is returned in the ppPaths parameter of the IVdsLunMpio::GetPathInfo method.
 old-location: base\vds_path_info.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 14444252-11ca-4614-81d1-9a15e76d0186
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_PATH_INFO, VDS_PATH_INFO structure, _VDS_PATH_INFO, base.vds_path_info, vds/VDS_PATH_INFO, vdshwprv/VDS_PATH_INFO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PATH_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_PATH_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PATH_INFO
+req.redist: VDS 1.1
 ---
 
 # _VDS_PATH_INFO structure

@@ -4,17 +4,16 @@ title: IMFSourceReader::SetCurrentMediaType
 author: windows-sdk-content
 description: Sets the media type for a stream.
 old-location: mf\imfsourcereader_setcurrentmediatype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 54caec4d-1393-487b-94ee-78563b2b4645
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFSourceReader interface [Media Foundation],SetCurrentMediaType method, IMFSourceReader.SetCurrentMediaType, IMFSourceReader::SetCurrentMediaType, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, SetCurrentMediaType, SetCurrentMediaType method [Media Foundation], SetCurrentMediaType method [Media Foundation],IMFSourceReader interface, mf.imfsourcereader_setcurrentmediatype, mfreadwrite/IMFSourceReader::SetCurrentMediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update Supplement for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSourceReader.SetCurrentMediaType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSourceReader::SetCurrentMediaType

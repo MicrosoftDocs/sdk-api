@@ -4,17 +4,16 @@ title: ITextFont2::GetScaling
 author: windows-sdk-content
 description: Gets the font horizontal scaling percentage.
 old-location: controls\itextfont2_getscaling.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 4508d079-6f75-4842-a7e6-c2b9a99c826c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetScaling, GetScaling method [Windows Controls], GetScaling method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetScaling method, ITextFont2.GetScaling, ITextFont2::GetScaling, controls.itextfont2_getscaling, tom/ITextFont2::GetScaling
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont2.GetScaling
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont2::GetScaling

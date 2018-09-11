@@ -4,7 +4,7 @@ title: AppPolicyWindowingModel
 author: windows-sdk-content
 description: The AppPolicyWindowingModel enumeration indicates whether a process uses a CoreWindow-based, or a HWND-based, windowing model.
 old-location: appxpkg\apppolicywindowingmodel_enumeration.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 236BCD35-6778-43A4-8B5E-59E9A49002FA
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AppPolicyWindowingModel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AppPolicyWindowingModel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AppPolicyWindowingModel
+req.redist: 
 ---
 
 # AppPolicyWindowingModel enumeration

@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::get_Applications
 author: windows-sdk-content
 description: Retrieves an IAzApplications object that is used to enumerate IAzApplication objects from the policy store.
 old-location: security\azauthorizationstore_applications.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7475fe41-b2fc-4a2c-a0db-c8c00bcc3ba4
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: Applications property [Security], Applications property [Security],AzAuthorizationStore object, Applications property [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],Applications property, IAzAuthorizationStore interface [Security],Applications property, IAzAuthorizationStore.Applications, IAzAuthorizationStore.get_Applications, IAzAuthorizationStore::Applications, IAzAuthorizationStore::get_Applications, azroles/IAzAuthorizationStore::Applications, azroles/IAzAuthorizationStore::get_Applications, get_Applications, security.azauthorizationstore_applications
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzAuthorizationStore.Applications
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::get_Applications

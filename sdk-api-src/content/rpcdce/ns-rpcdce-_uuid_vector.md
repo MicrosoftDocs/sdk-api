@@ -4,17 +4,16 @@ title: "_UUID_VECTOR"
 author: windows-sdk-content
 description: The UUID_VECTOR structure contains a list of UUIDs.
 old-location: rpc\uuid_vector.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 6fc7216b-023b-4aca-a572-35cc22202522
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: UUID_VECTOR, UUID_VECTOR structure [RPC], _UUID_VECTOR, _rpc_uuid_vector, rpc.uuid_vector, rpcdce/UUID_VECTOR
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UUID_VECTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UUID_VECTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: UUID_VECTOR
+req.redist: 
 ---
 
 # _UUID_VECTOR structure

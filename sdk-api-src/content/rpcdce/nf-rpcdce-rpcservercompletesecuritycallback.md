@@ -4,17 +4,16 @@ title: RpcServerCompleteSecurityCallback function
 author: windows-sdk-content
 description: The RpcServerCompleteSecurityCallback function completes an asynchronous security callback.
 old-location: rpc\rpcservercompletesecuritycallback.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 4DF613C7-CF82-47DB-9D6A-F820373534E6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcServerCompleteSecurityCallback, RpcServerCompleteSecurityCallback function [RPC], rpc.rpcservercompletesecuritycallback, rpcdce/RpcServerCompleteSecurityCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcServerCompleteSecurityCallback
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcServerCompleteSecurityCallback function

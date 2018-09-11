@@ -4,17 +4,16 @@ title: IBackgroundCopyFile6::UpdateDownloadPosition
 author: windows-sdk-content
 description: Specifies a position to prioritize downloading missing data from.
 old-location: bits\ibackgroundcopyfile6_updatedownloadposition.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 243F9D5A-32D8-4D39-A9B2-E452CF745844
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyFile6 interface [BITS],UpdateDownloadPosition method, IBackgroundCopyFile6.UpdateDownloadPosition, IBackgroundCopyFile6::UpdateDownloadPosition, UpdateDownloadPosition, UpdateDownloadPosition method [BITS], UpdateDownloadPosition method [BITS],IBackgroundCopyFile6 interface, bits.ibackgroundcopyfile6_updatedownloadposition, bits10_1/IBackgroundCopyFile6::UpdateDownloadPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits10_1.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_TIMES
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyFile6.UpdateDownloadPosition
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyFile6::UpdateDownloadPosition
@@ -62,7 +61,7 @@ Specifies a position to prioritize downloading missing data from.
 
 ### -param offset
 
-
+TBD
 
 
 

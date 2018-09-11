@@ -4,17 +4,16 @@ title: IESLicenseRenewalResultEvent::GetCASFailureCode
 author: windows-sdk-content
 description: Gets a code from a LicenseRenewalResult event that indicates the reason for the failure in the conditional access system (CAS).
 old-location: mstv\ieslicenserenewalresultevent_getcasfailurecode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d3569a5e-6bde-4daf-bf52-094f56b0891c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCASFailureCode, GetCASFailureCode method [DirectShow], GetCASFailureCode method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetCASFailureCode method, IESLicenseRenewalResultEvent.GetCASFailureCode, IESLicenseRenewalResultEvent::GetCASFailureCode, mstv.ieslicenserenewalresultevent_getcasfailurecode, tuner/IESLicenseRenewalResultEvent::GetCASFailureCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESLicenseRenewalResultEvent.GetCASFailureCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESLicenseRenewalResultEvent::GetCASFailureCode

@@ -4,17 +4,16 @@ title: ISectionList::GetProgramIdentifier
 author: windows-sdk-content
 description: The GetProgramIdentifier method retrieves the program identifier (PID) of the packets that this object is receiving.
 old-location: mstv\isectionlist_getprogramidentifier.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 25a4bd3c-ef02-4685-8c83-06025ce4410c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetProgramIdentifier, GetProgramIdentifier method [Microsoft TV Technologies], GetProgramIdentifier method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetProgramIdentifier method, ISectionList.GetProgramIdentifier, ISectionList::GetProgramIdentifier, ISectionListGetProgramIdentifier, mpeg2data/ISectionList::GetProgramIdentifier, mstv.isectionlist_getprogramidentifier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2data.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISectionList.GetProgramIdentifier
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISectionList::GetProgramIdentifier

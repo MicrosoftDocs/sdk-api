@@ -4,17 +4,16 @@ title: ITfComposition::GetRange
 author: windows-sdk-content
 description: ITfComposition::GetRange method
 old-location: tsf\itfcomposition_getrange.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 14a726c3-6531-4d49-9f22-20460be02b81
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetRange, GetRange method [Text Services Framework], GetRange method [Text Services Framework],ITfComposition interface, ITfComposition interface [Text Services Framework],GetRange method, ITfComposition.GetRange, ITfComposition::GetRange, _tsf_itfcomposition_getrange_ref, msctf/ITfComposition::GetRange, tsf.itfcomposition_getrange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfComposition.GetRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfComposition::GetRange

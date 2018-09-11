@@ -4,17 +4,16 @@ title: IComObjectConstruction2Events
 author: windows-sdk-content
 description: Notifies the subscriber if a constructed object is created.
 old-location: cos\icomobjectconstruction2events.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 976b8c1a-5ccd-48e2-a77c-10d4de9a4ffa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComObjectConstruction2Events, IComObjectConstruction2Events interface [COM+], IComObjectConstruction2Events interface [COM+],described, _dtc_icomobjectconstruction2events, comsvcs/IComObjectConstruction2Events, cos.icomobjectconstruction2events
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComObjectConstruction2Events
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComObjectConstruction2Events interface

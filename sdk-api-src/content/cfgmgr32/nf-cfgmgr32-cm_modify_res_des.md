@@ -4,17 +4,16 @@ title: CM_Modify_Res_Des function
 author: windows-sdk-content
 description: The CM_Modify_Res_Des function modifies a specified resource descriptor on the local machine.
 old-location: devinst\cm_modify_res_des.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 9320c396-4da8-4b35-a620-4bb7cbd80e9a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Modify_Res_Des, CM_Modify_Res_Des function [Device and Driver Installation], cfgmgr32/CM_Modify_Res_Des, cfgmgrfn_7bf5dade-d4e6-4460-8b3c-a4b99458ed28.xml, devinst.cm_modify_res_des
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CM_Modify_Res_Des
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: Cfgmgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Modify_Res_Des function

@@ -4,17 +4,16 @@ title: IComTransactionEvents::OnTransactionStart
 author: windows-sdk-content
 description: Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction starts.
 old-location: cos\icomtransactionevents_ontransactionstart.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ef9d7adc-69ed-4582-9ce7-c66c947d48a6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComTransactionEvents interface [COM+],OnTransactionStart method, IComTransactionEvents.OnTransactionStart, IComTransactionEvents::OnTransactionStart, OnTransactionStart, OnTransactionStart method [COM+], OnTransactionStart method [COM+],IComTransactionEvents interface, _dtc_IComTransactionEvents_OnTransactionStart, comsvcs/IComTransactionEvents::OnTransactionStart, cos.icomtransactionevents_ontransactionstart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComTransactionEvents.OnTransactionStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComTransactionEvents::OnTransactionStart

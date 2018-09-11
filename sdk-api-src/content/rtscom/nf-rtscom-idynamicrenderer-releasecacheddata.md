@@ -4,17 +4,16 @@ title: IDynamicRenderer::ReleaseCachedData
 author: windows-sdk-content
 description: Releases specified stroke data from the temporal data held by DynamicRenderer Class.
 old-location: tablet\idynamicrenderer_releasecacheddata.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 691de815-a5be-4982-a59a-b904c070ede8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 691de815-a5be-4982-a59a-b904c070ede8, IDynamicRenderer interface [Tablet PC],ReleaseCachedData method, IDynamicRenderer.ReleaseCachedData, IDynamicRenderer::ReleaseCachedData, ReleaseCachedData, ReleaseCachedData method [Tablet PC], ReleaseCachedData method [Tablet PC],IDynamicRenderer interface, rtscom/IDynamicRenderer::ReleaseCachedData, tablet.idynamicrenderer_releasecacheddata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDynamicRenderer.ReleaseCachedData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDynamicRenderer::ReleaseCachedData

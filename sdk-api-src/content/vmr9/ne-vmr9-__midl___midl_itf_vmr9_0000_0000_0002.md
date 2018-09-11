@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_vmr9_0000_0000_0002"
 author: windows-sdk-content
 description: The VMR9PresentationFlags enumeration type contains flags that describe the status of a video sample. These flags are used in the VMR9PresentationInfo structure.
 old-location: dshow\vmr9presentationflags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 97db420f-a6a5-4c87-9c7f-9733a1ce2b46
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9PresentationFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9PresentationFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9PresentationFlags
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_vmr9_0000_0000_0002 enumeration

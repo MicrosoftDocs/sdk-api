@@ -4,17 +4,16 @@ title: IOleClientSite::GetMoniker
 author: windows-sdk-content
 description: Retrieves a moniker for the object's client site. An object can force the assignment of its own or its container's moniker by specifying a value for dwAssign.
 old-location: com\ioleclientsite_getmoniker.htm
-old-project: com
+tech.root: com
 ms.assetid: 9ca3e997-9a96-43c3-a213-de8c8440cd54
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetMoniker, GetMoniker method [COM], GetMoniker method [COM],IOleClientSite interface, IOleClientSite interface [COM],GetMoniker method, IOleClientSite.GetMoniker, IOleClientSite::GetMoniker, _ole_ioleclientsite_getmoniker, com.ioleclientsite_getmoniker, oleidl/IOleClientSite::GetMoniker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleClientSite.GetMoniker
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleClientSite::GetMoniker

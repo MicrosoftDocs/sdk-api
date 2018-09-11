@@ -4,17 +4,16 @@ title: IAMTVAudio::get_TVAudioMode
 author: windows-sdk-content
 description: The get_TVAudioMode method retrieves the current TV audio mode.
 old-location: dshow\iamtvaudio_get_tvaudiomode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fa2e71f3-3aa0-4260-925d-579006459a09
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMTVAudio interface [DirectShow],get_TVAudioMode method, IAMTVAudio.get_TVAudioMode, IAMTVAudio::get_TVAudioMode, IAMTVAudioget_TVAudioMode, dshow.iamtvaudio_get_tvaudiomode, get_TVAudioMode, get_TVAudioMode method [DirectShow], get_TVAudioMode method [DirectShow],IAMTVAudio interface, strmif/IAMTVAudio::get_TVAudioMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTVAudio.get_TVAudioMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTVAudio::get_TVAudioMode
@@ -66,7 +64,7 @@ The <code>get_TVAudioMode</code> method retrieves the current TV audio mode.
 
 ### -param plMode
 
-
+TBD
 
 
 

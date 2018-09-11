@@ -4,17 +4,16 @@ title: ColorF::ColorF(UINT32,FLOAT)
 author: windows-sdk-content
 description: Instantiates a new instance of the ColorF class that contains the specified RGB and alpha values.
 old-location: direct2d\colorf_colorf_uint32_rgb__float_a_.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 1edb46b1-9700-4c0d-b987-660034e8fb55
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ColorF, ColorF interface [Direct2D],ColorF(UINT32,FLOAT) constructor, ColorF(UINT32,FLOAT) constructor [Direct2D], ColorF(UINT32,FLOAT) constructor [Direct2D],ColorF interface, ColorF.ColorF, ColorF.ColorF(UINT32,FLOAT), ColorF::ColorF, ColorF::ColorF(UINT32,FLOAT), ColorF::ColorF(UINT32,FLOAT)(UINT32,FLOAT), D2D1.ColorF.ColorF(UINT32,FLOAT), D2D1::ColorF::ColorF(UINT32,FLOAT), d2d1helper/ColorF::ColorF(UINT32,FLOAT), direct2d.colorf_colorf_uint32_rgb__float_a_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1helper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: D2D1
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VIGNETTE_PROP
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ColorF.ColorF(UINT32, FLOAT)
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ColorF::ColorF(UINT32,FLOAT)

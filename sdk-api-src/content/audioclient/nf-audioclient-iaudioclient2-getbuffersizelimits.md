@@ -4,17 +4,16 @@ title: IAudioClient2::GetBufferSizeLimits
 author: windows-sdk-content
 description: The GetBufferSizeLimits method returns the buffer size limits of the hardware audio engine in 100-nanosecond units.
 old-location: coreaudio\iaudioclient2_getbuffersizelimits.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: BCB6066E-2672-4E56-83EA-7EBEC3C7F3DD
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetBufferSizeLimits, GetBufferSizeLimits method [Core Audio], GetBufferSizeLimits method [Core Audio],IAudioClient2 interface, IAudioClient2 interface [Core Audio],GetBufferSizeLimits method, IAudioClient2.GetBufferSizeLimits, IAudioClient2::GetBufferSizeLimits, audioclient/IAudioClient2::GetBufferSizeLimits, coreaudio.getbuffersizelimits_iaudioclient2__getbuffersizelimits, coreaudio.iaudioclient2_getbuffersizelimits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioClient2.GetBufferSizeLimits
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioClient2::GetBufferSizeLimits

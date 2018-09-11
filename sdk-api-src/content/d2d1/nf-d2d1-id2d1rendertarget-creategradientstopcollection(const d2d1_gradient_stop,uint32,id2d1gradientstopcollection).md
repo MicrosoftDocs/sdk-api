@@ -4,17 +4,16 @@ title: ID2D1RenderTarget::CreateGradientStopCollection(const D2D1_GRADIENT_STOP,
 author: windows-sdk-content
 description: Creates an ID2D1GradientStopCollection from the specified array of D2D1_GRADIENT_STOP structures.
 old-location: direct2d\id2d1rendertarget_creategradientstopcollection.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 674ffba5-18c5-46bf-8813-d8d13e5ba903
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateGradientStopCollection, CreateGradientStopCollection methods [Direct2D], ID2D1RenderTarget.CreateGradientStopCollection, ID2D1RenderTarget.CreateGradientStopCollection(const D2D1_GRADIENT_STOP,UINT32,ID2D1GradientStopCollection), ID2D1RenderTarget::CreateGradientStopCollection, ID2D1RenderTarget::CreateGradientStopCollection(const D2D1_GRADIENT_STOP,UINT32,ID2D1GradientStopCollection), d2d1_1/CreateGradientStopCollection, direct2d.id2d1rendertarget_creategradientstopcollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: D2d1.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1RenderTarget::CreateGradientStopCollection
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1RenderTarget::CreateGradientStopCollection(const D2D1_GRADIENT_STOP,UINT32,ID2D1GradientStopCollection)

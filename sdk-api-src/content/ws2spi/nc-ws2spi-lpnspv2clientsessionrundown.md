@@ -4,17 +4,16 @@ title: LPNSPV2CLIENTSESSIONRUNDOWN
 author: windows-sdk-content
 description: Notifies a namespace service provider version-2 (NSPv2) provider that the client session is terminating.
 old-location: winsock\nspv2clientsessionrundown.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 7379b502-129a-4dac-b7eb-e6fae8fb23f8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: LPNSPV2CLIENTSESSIONRUNDOWN, NSPv2ClientSessionRundown, NSPv2ClientSessionRundown function [Winsock], winsock.nspv2clientsessionrundown, ws2spi/NSPv2ClientSessionRundown
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_INET, *PSOCKADDR_INET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NSPv2ClientSessionRundown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # LPNSPV2CLIENTSESSIONRUNDOWN callback function

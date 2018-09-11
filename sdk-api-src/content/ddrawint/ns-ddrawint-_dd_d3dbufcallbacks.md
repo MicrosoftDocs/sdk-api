@@ -4,7 +4,7 @@ title: "_DD_D3DBUFCALLBACKS"
 author: windows-sdk-content
 description: The DD_D3DBUFCALLBACKS structure is used only by drivers that implement driver level allocation of command and vertex buffers.
 old-location: display\dd_d3dbufcallbacks.htm
-old-project: display
+tech.root: display
 ms.assetid: 59fa4043-6238-49f7-b9d6-58c1f215865a
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DD_D3DBUFCALLBACKS, *PDD_D3DBUFCALLBACKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_D3DBUFCALLBACKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DD_D3DBUFCALLBACKS, *PDD_D3DBUFCALLBACKS
+req.redist: 
 ---
 
 # _DD_D3DBUFCALLBACKS structure

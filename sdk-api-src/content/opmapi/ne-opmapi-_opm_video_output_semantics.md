@@ -4,7 +4,7 @@ title: "_OPM_VIDEO_OUTPUT_SEMANTICS"
 author: windows-sdk-content
 description: Specifies whether the IOPMVideoOutput interface will use Output Protection Manager (OPM) semantics or Certified Output Protection Protocol (COPP) semantics.
 old-location: mf\opm_video_output_semantics.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d52fbc40-072b-4b7a-87c2-b928563100bb
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: opmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Opmapi.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPM_VIDEO_OUTPUT_SEMANTICS
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
+req.redist: 
 ---
 
 # _OPM_VIDEO_OUTPUT_SEMANTICS enumeration

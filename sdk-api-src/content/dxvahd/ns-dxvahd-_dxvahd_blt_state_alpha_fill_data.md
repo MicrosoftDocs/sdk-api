@@ -4,7 +4,7 @@ title: "_DXVAHD_BLT_STATE_ALPHA_FILL_DATA"
 author: windows-sdk-content
 description: Specifies how the output alpha values are calculated for blit operations when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_blt_state_alpha_fill_data.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: dcd42210-d5f8-42c7-aac0-08f0ce4b7ac9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_BLT_STATE_ALPHA_FILL_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVAHD_BLT_STATE_ALPHA_FILL_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVAHD_BLT_STATE_ALPHA_FILL_DATA
+req.redist: 
 ---
 
 # _DXVAHD_BLT_STATE_ALPHA_FILL_DATA structure

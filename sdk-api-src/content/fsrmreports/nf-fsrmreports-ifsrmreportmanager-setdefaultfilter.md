@@ -4,17 +4,16 @@ title: IFsrmReportManager::SetDefaultFilter
 author: windows-sdk-content
 description: Sets the default report filter value to use with the specified report type.
 old-location: fsrm\ifsrmreportmanager_setdefaultfilter.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 5a3165a9-8161-4dad-b8b9-d0c3f54f1803
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],SetDefaultFilter method, IFsrmReportManager interface [File Server Resource Manager],SetDefaultFilter method, IFsrmReportManager.SetDefaultFilter, IFsrmReportManager::SetDefaultFilter, SetDefaultFilter, SetDefaultFilter method [File Server Resource Manager], SetDefaultFilter method [File Server Resource Manager],FsrmReportManager class, SetDefaultFilter method [File Server Resource Manager],IFsrmReportManager interface, fs.ifsrmreportmanager_setdefaultfilter, fsrm.ifsrmreportmanager_setdefaultfilter, fsrmreports/IFsrmReportManager::SetDefaultFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmReportManager.SetDefaultFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportManager::SetDefaultFilter

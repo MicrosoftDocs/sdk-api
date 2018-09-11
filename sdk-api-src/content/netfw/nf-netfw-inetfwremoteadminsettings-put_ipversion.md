@@ -4,17 +4,16 @@ title: INetFwRemoteAdminSettings::put_IpVersion
 author: windows-sdk-content
 description: Specifies the IP version.
 old-location: ics\inetfwremoteadminsettings_ipversion.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 55303549-84d7-42d1-b722-a281acd50648
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwRemoteAdminSettings interface [ICS/ICF],IpVersion property, INetFwRemoteAdminSettings.IpVersion, INetFwRemoteAdminSettings.put_IpVersion, INetFwRemoteAdminSettings::IpVersion, INetFwRemoteAdminSettings::get_IpVersion, INetFwRemoteAdminSettings::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF],INetFwRemoteAdminSettings interface, ics.inetfwremoteadminsettings_ipversion, netfw/INetFwRemoteAdminSettings::IpVersion, netfw/INetFwRemoteAdminSettings::get_IpVersion, netfw/INetFwRemoteAdminSettings::put_IpVersion, put_IpVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwRemoteAdminSettings.put_IpVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRemoteAdminSettings::put_IpVersion

@@ -4,17 +4,16 @@ title: IXpsOMBrush::SetOpacity
 author: windows-sdk-content
 description: Sets the opacity of the brush.
 old-location: xps\ixpsombrush_setopacity.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: e0249796-298f-4e26-a767-cd57903e5da0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMBrush interface [XPS Documents and Packaging],SetOpacity method, IXpsOMBrush.SetOpacity, IXpsOMBrush::SetOpacity, SetOpacity, SetOpacity method [XPS Documents and Packaging], SetOpacity method [XPS Documents and Packaging],IXpsOMBrush interface, xps.ixpsombrush_setopacity, xpsobjectmodel/IXpsOMBrush::SetOpacity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMBrush.SetOpacity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMBrush::SetOpacity

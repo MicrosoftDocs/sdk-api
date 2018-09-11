@@ -4,17 +4,16 @@ title: IBackgroundCopyJob::SetNoProgressTimeout
 author: windows-sdk-content
 description: Sets the length of time that BITS tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
 old-location: bits\ibackgroundcopyjob_setnoprogresstimeout.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 3fcf46ed-197f-46ad-ac62-2c4a2e8b27ef
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetNoProgressTimeout method, IBackgroundCopyJob.SetNoProgressTimeout, IBackgroundCopyJob::SetNoProgressTimeout, SetNoProgressTimeout, SetNoProgressTimeout method [BITS], SetNoProgressTimeout method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setnoprogresstimeout, bits.ibackgroundcopyjob_setnoprogresstimeout, bits/IBackgroundCopyJob::SetNoProgressTimeout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob.SetNoProgressTimeout
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob::SetNoProgressTimeout
@@ -61,7 +60,7 @@ Sets the length of time that BITS tries to transfer the file after a transient e
 
 ### -param Seconds
 
-
+TBD
 
 
 

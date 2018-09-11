@@ -4,17 +4,16 @@ title: IDvdInfo2::GetTotalTitleTime
 author: windows-sdk-content
 description: The GetTotalTitleTime method retrieves the total playback time for the current title.
 old-location: dshow\idvdinfo2_gettotaltitletime.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 90768da1-592a-49ec-99b0-56f463c322e8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetTotalTitleTime, GetTotalTitleTime method [DirectShow], GetTotalTitleTime method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTotalTitleTime method, IDvdInfo2.GetTotalTitleTime, IDvdInfo2::GetTotalTitleTime, IDvdInfo2GetTotalTitleTime, dshow.idvdinfo2_gettotaltitletime, strmif/IDvdInfo2::GetTotalTitleTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdInfo2.GetTotalTitleTime
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo2::GetTotalTitleTime
@@ -72,7 +70,7 @@ Pointer to a <a href="https://msdn.microsoft.com/8f2990f6-a8f5-4b16-ae30-d51ea55
 
 ### -param ulTimeCodeFlags
 
-
+TBD
 
 
 

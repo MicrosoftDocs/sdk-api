@@ -4,17 +4,16 @@ title: IXMLElementCollection::item
 author: windows-sdk-content
 description: Retrieves the child elements from a collection using their index, name, or both.
 old-location: winprog\ixmlelementcollection_item.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 3851fe72-b826-4948-ba74-638229429345
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IXMLElementCollection interface [Windows API],item method, IXMLElementCollection.item, IXMLElementCollection::item, item, item method [Windows API], item method [Windows API],IXMLElementCollection interface, msxml/IXMLElementCollection::item, winprog.ixmlelementcollection_item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Msxml.tlb
-tech.root: 
-req.typenames: RIO_BUF, *PRIO_BUF
+req.lib: 
+req.dll: Msxml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXMLElementCollection.item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msxml.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXMLElementCollection::item
@@ -72,7 +70,7 @@ A valid index numeric value (within the length of <a href="https://msdn.microsof
 
 ### -param ppDisp
 
-
+TBD
 
 
 

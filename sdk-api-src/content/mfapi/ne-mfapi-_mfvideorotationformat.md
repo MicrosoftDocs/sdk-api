@@ -4,7 +4,7 @@ title: "_MFVideoRotationFormat"
 author: windows-sdk-content
 description: Describes the rotation of the video image in the counter-clockwise direction.
 old-location: mf\mfvideorotationformat.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: E2760742-3914-4B5C-87FB-38F2EF3025C3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoRotationFormat
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFVideoRotationFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFVideoRotationFormat
+req.redist: 
 ---
 
 # _MFVideoRotationFormat enumeration

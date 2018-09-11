@@ -4,7 +4,7 @@ title: ASF_SELECTION_STATUS
 author: windows-sdk-content
 description: Defines the selection options for an ASF stream.
 old-location: mf\asf_selection_status.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1571650b-4d5c-49ae-9e6d-77ef4ae7ae59
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_SELECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ASF_SELECTION_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ASF_SELECTION_STATUS
+req.redist: 
 ---
 
 # ASF_SELECTION_STATUS enumeration

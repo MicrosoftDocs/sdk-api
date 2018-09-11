@@ -4,17 +4,16 @@ title: Metafile::GetMetafileHeader(IN HENHMETAFILE,OUT MetafileHeader)
 author: windows-sdk-content
 description: This topic lists the GetMetafileHeader methods of the Metafile class. For a complete list of methods for the Metafile class, see Metafile Methods.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_GetMetafileHeader_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafilegetmetafileheadermethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetMetafileHeader, GetMetafileHeader methods [GDI+], Metafile.GetMetafileHeader, Metafile.GetMetafileHeader(IN HENHMETAFILE,OUT MetafileHeader), Metafile::GetMetafileHeader, Metafile::GetMetafileHeader(IN HENHMETAFILE,OUT MetafileHeader), _gdiplus_CLASS_Metafile_GetMetafileHeader_Methods, gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_Methods, gdiplusheaders/GetMetafileHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Metafile.GetMetafileHeader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Metafile::GetMetafileHeader(IN HENHMETAFILE,OUT MetafileHeader)

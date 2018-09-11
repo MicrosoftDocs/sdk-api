@@ -4,17 +4,16 @@ title: IFsrmRule::get_ModuleDefinitionName
 author: windows-sdk-content
 description: The name of the module definition that you want to run this rule.
 old-location: fsrm\ifsrmrule_moduledefinitionname.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: b003b31b-fe40-446d-9db8-619dfcecc6c7
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],ModuleDefinitionName property, IFsrmRule.ModuleDefinitionName, IFsrmRule.get_ModuleDefinitionName, IFsrmRule::ModuleDefinitionName, IFsrmRule::get_ModuleDefinitionName, IFsrmRule::put_ModuleDefinitionName, ModuleDefinitionName property [File Server Resource Manager], ModuleDefinitionName property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_moduledefinitionname, fsrm.ifsrmrule_moduledefinitionname, fsrmpipeline/IFsrmRule::ModuleDefinitionName, fsrmpipeline/IFsrmRule::get_ModuleDefinitionName, fsrmpipeline/IFsrmRule::put_ModuleDefinitionName, get_ModuleDefinitionName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmRule.put_ModuleDefinitionName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmRule::get_ModuleDefinitionName

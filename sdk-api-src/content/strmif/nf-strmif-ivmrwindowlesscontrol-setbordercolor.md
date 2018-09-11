@@ -4,17 +4,16 @@ title: IVMRWindowlessControl::SetBorderColor
 author: windows-sdk-content
 description: The SetBorderColor method sets the border color to be used by the VMR.
 old-location: dshow\ivmrwindowlesscontrol_setbordercolor.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d58ce18f-ddc4-4d91-b086-8829056f4508
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetBorderColor method, IVMRWindowlessControl.SetBorderColor, IVMRWindowlessControl::SetBorderColor, IVMRWindowlessControlSetBorderColor, SetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setbordercolor, strmif/IVMRWindowlessControl::SetBorderColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRWindowlessControl.SetBorderColor
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRWindowlessControl::SetBorderColor

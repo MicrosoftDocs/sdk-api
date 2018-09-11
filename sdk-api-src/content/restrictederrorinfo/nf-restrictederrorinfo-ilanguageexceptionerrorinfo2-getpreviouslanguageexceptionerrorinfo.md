@@ -4,17 +4,16 @@ title: ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo
 author: windows-sdk-content
 description: Retrieves the previous language exception error information object.
 old-location: winrt\ilanguageexceptionerrorinfo2_getpreviouslanguageexceptionerrorinfo.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 10A45EF1-AF8F-498D-B95B-FCE9EF8AB203
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetPreviousLanguageExceptionErrorInfo, GetPreviousLanguageExceptionErrorInfo method [Windows Runtime], GetPreviousLanguageExceptionErrorInfo method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],GetPreviousLanguageExceptionErrorInfo method, ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo, ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, restrictederrorinfo/ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, winrt.ilanguageexceptionerrorinfo2_getpreviouslanguageexceptionerrorinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: restrictederrorinfo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo

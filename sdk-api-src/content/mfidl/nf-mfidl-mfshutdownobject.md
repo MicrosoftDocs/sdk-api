@@ -4,17 +4,16 @@ title: MFShutdownObject function
 author: windows-sdk-content
 description: Shuts down a Media Foundation object and releases all resources associated with the object.
 old-location: mf\mfshutdownobject.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFShutdownObject, MFShutdownObject function [Media Foundation], a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587, mf.mfshutdownobject, mfidl/MFShutdownObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFShutdownObject
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFShutdownObject function

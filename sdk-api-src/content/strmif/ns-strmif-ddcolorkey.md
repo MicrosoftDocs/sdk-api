@@ -4,7 +4,7 @@ title: DDCOLORKEY
 author: windows-sdk-content
 description: Describes a color key as a range of values.
 old-location: dshow\ddcolorkey.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: bd360860-94e3-4f91-a455-5fdb227368b3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDCOLORKEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDCOLORKEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: DDCOLORKEY
+req.redist: 
 ---
 
 # DDCOLORKEY structure

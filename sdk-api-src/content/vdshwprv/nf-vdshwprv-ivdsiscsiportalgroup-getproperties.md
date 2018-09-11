@@ -4,17 +4,16 @@ title: IVdsIscsiPortalGroup::GetProperties
 author: windows-sdk-content
 description: Returns the properties of a portal group.
 old-location: base\ivdsiscsiportalgroup_getproperties.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 7257101e-04a5-41d5-b4fa-401106610dcf
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],GetProperties method, IVdsIscsiPortalGroup.GetProperties, IVdsIscsiPortalGroup::GetProperties, base.ivdsiscsiportalgroup_getproperties, vds/IVdsIscsiPortalGroup::GetProperties, vdshwprv/IVdsIscsiPortalGroup::GetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiPortalGroup.GetProperties
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiPortalGroup::GetProperties

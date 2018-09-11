@@ -4,17 +4,16 @@ title: ICDrawOpen macro
 author: windows-sdk-content
 description: The ICDrawOpen macro opens a driver that can draw images with the specified format.
 old-location: multimedia\icdrawopen.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: b625a5f7-8212-4339-a1a6-37736def40a0
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICDrawOpen, ICDrawOpen macro [Windows Multimedia], _win32_ICDrawOpen, multimedia.icdrawopen, vfw/ICDrawOpen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDrawOpen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICDrawOpen macro

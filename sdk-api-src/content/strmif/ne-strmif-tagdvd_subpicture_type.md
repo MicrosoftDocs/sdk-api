@@ -4,7 +4,7 @@ title: tagDVD_SUBPICTURE_TYPE
 author: windows-sdk-content
 description: Defines flags used to determine what kind of content the subpicture stream contains.
 old-location: dshow\dvd_subpicture_type.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c4c5eb83-4773-464d-8b0c-b46b13c3b6d3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_SUBPICTURE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_SUBPICTURE_TYPE
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DVD_SUBPICTURE_TYPE
+req.redist: 
 ---
 
 # tagDVD_SUBPICTURE_TYPE enumeration

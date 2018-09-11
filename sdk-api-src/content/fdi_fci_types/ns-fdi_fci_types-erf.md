@@ -4,17 +4,16 @@ title: ERF
 author: windows-sdk-content
 description: The ERF structure contains error information from FCI/FDI. The caller should not modify this structure.
 old-location: winprog\erf.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PERF, ERF, ERF FAR *PERF, ERF FAR *PERF structure [Windows API], ERF structure [Windows API], FCIERR_ALLOC_FAIL, FCIERR_BAD_COMPR_TYPE, FCIERR_CAB_FILE, FCIERR_CAB_FORMAT_LIMIT, FCIERR_MCI_FAIL, FCIERR_NONE, FCIERR_OPEN_SRC, FCIERR_READ_SRC, FCIERR_TEMP_FILE, FCIERR_USER_ABORT, FDIERROR_ALLOC_FAIL, FDIERROR_BAD_COMPR_TYPE, FDIERROR_CABINET_NOT_FOUND, FDIERROR_CORRUPT_CABINET, FDIERROR_MDI_FAIL, FDIERROR_NONE, FDIERROR_NOT_A_CABINET, FDIERROR_RESERVE_MISMATCH, FDIERROR_TARGET_FILE, FDIERROR_UNKNOWN_CABINET_VERSION, FDIERROR_USER_ABORT, FDIERROR_WRONG_CABINET, fdi_fci_types/ERF, winprog.erf"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: fdi_fci_types.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ERF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ERF FAR *PERF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: ERF
+req.redist: 
 ---
 
 # ERF structure

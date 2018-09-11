@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CachedItemStatus
 author: windows-sdk-content
 description: Retrieves a cached description of the status of an item within an element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedItemStatus.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 29a7e815-9d86-49e3-81b0-bf9398f27cad
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedItemStatus property [Windows Accessibility], CachedItemStatus property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedItemStatus property, IUIAutomationElement.CachedItemStatus, IUIAutomationElement.get_CachedItemStatus, IUIAutomationElement::CachedItemStatus, IUIAutomationElement::get_CachedItemStatus, get_CachedItemStatus, uiauto.uiauto_IUIAutomationElement_CachedItemStatus, uiauto_IUIAutomationElement_CachedItemStatus, uiautomationclient/IUIAutomationElement::CachedItemStatus, uiautomationclient/IUIAutomationElement::get_CachedItemStatus, winauto.uiauto_IUIAutomationElement_CachedItemStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CachedItemStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CachedItemStatus

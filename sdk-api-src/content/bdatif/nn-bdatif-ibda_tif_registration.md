@@ -4,7 +4,7 @@ title: IBDA_TIF_REGISTRATION
 author: windows-sdk-content
 description: The IBDA_TIF_REGISTRATION interface is exposed by the BDA Network Provider.
 old-location: mstv\ibda_tif_registration.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 96c76a81-57c9-4c4b-a5f6-7b9862757847
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_TIF_REGISTRATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_TIF_REGISTRATION interface

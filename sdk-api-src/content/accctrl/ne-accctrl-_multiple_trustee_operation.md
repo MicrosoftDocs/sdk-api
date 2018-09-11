@@ -4,17 +4,16 @@ title: "_MULTIPLE_TRUSTEE_OPERATION"
 author: windows-sdk-content
 description: Contains values that indicate whether a TRUSTEE structure is an impersonation trustee.
 old-location: security\multiple_trustee_operation.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 00b00678-5c87-4aa9-8232-5f0f1cb48e24
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: MULTIPLE_TRUSTEE_OPERATION, MULTIPLE_TRUSTEE_OPERATION enumeration [Security], NO_MULTIPLE_TRUSTEE, TRUSTEE_IS_IMPERSONATE, _MULTIPLE_TRUSTEE_OPERATION, _win32_multiple_trustee_operation_str, accctrl/MULTIPLE_TRUSTEE_OPERATION, accctrl/NO_MULTIPLE_TRUSTEE, accctrl/TRUSTEE_IS_IMPERSONATE, security.multiple_trustee_operation
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MULTIPLE_TRUSTEE_OPERATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,6 +40,8 @@ api_name:
  - MULTIPLE_TRUSTEE_OPERATION
 product: Windows
 targetos: Windows
+req.typenames: MULTIPLE_TRUSTEE_OPERATION
+req.redist: 
 ---
 
 # _MULTIPLE_TRUSTEE_OPERATION enumeration

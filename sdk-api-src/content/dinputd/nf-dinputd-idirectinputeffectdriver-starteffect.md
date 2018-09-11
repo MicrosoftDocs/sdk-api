@@ -4,17 +4,16 @@ title: IDirectInputEffectDriver::StartEffect
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::StartEffect method begins the playback of an effect. If the effect is already playing, it is restarted from the beginning.
 old-location: hid\idirectinputeffectdriver_starteffect.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 2c1865c2-ded4-47ce-a743-8ac48986dc5f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],StartEffect method, IDirectInputEffectDriver.StartEffect, IDirectInputEffectDriver::StartEffect, StartEffect, StartEffect method [Human Input Devices], StartEffect method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_f30aed74-b4e3-41da-b5c7-f153d6f30b40.xml, dinputd/IDirectInputEffectDriver::StartEffect, hid.idirectinputeffectdriver_starteffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputEffectDriver.StartEffect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputEffectDriver::StartEffect
@@ -59,9 +58,24 @@ The <b>IDirectInputEffectDriver::StartEffect</b> method begins the playback of a
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
 
 
 

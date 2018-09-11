@@ -4,17 +4,16 @@ title: GetEnabledUnicodeRanges function
 author: windows-sdk-content
 description: Retrieves a list of Unicode point ranges enabled on the context. If you do not call the SetEnabledUnicodeRanges function to specify the enabled ranges, this function returns the recognizer's default Unicode point ranges.
 old-location: tablet\getenabledunicoderanges.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 047a72f9-a627-4c8b-b271-13d3c873abc9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 047a72f9-a627-4c8b-b271-13d3c873abc9, GetEnabledUnicodeRanges, GetEnabledUnicodeRanges function [Tablet PC], recapis/GetEnabledUnicodeRanges, tablet.getenabledunicoderanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetEnabledUnicodeRanges
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetEnabledUnicodeRanges function

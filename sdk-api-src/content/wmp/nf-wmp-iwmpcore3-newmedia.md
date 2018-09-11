@@ -4,17 +4,16 @@ title: IWMPCore3::newMedia
 author: windows-sdk-content
 description: The newMedia method retrieves a pointer to an IWMPMedia interface for a new media item.
 old-location: wmp\iwmpcore3_newmedia.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: d0ae488f-cdc8-4688-bfc5-b7821216da37
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCore3 interface [Windows Media Player],newMedia method, IWMPCore3.newMedia, IWMPCore3::newMedia, IWMPCore3newMedia, newMedia, newMedia method [Windows Media Player], newMedia method [Windows Media Player],IWMPCore3 interface, wmp.iwmpcore3_newmedia, wmp/IWMPCore3::newMedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCore3.newMedia
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCore3::newMedia

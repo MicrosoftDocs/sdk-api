@@ -4,7 +4,7 @@ title: D3D11_DEPTH_STENCIL_VIEW_DESC
 author: windows-sdk-content
 description: Specifies the subresources of a texture that are accessible from a depth-stencil view.
 old-location: direct3d11\d3d11_depth_stencil_view_desc.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: f073a798-edd5-4e6a-a8a7-1592721ce35d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_DEPTH_STENCIL_VIEW_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_DEPTH_STENCIL_VIEW_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_DEPTH_STENCIL_VIEW_DESC
+req.redist: 
 ---
 
 # D3D11_DEPTH_STENCIL_VIEW_DESC structure

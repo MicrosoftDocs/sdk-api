@@ -4,17 +4,16 @@ title: IShellFolder::BindToStorage
 author: windows-sdk-content
 description: Requests a pointer to an object's storage interface.
 old-location: shell\IShellFolder_BindToStorage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6abd12bb-5c85-4f3b-a6ad-a7c05ce02ce3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: BindToStorage, BindToStorage method [Windows Shell], BindToStorage method [Windows Shell],IShellFolder interface, BindToStorage method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],BindToStorage method, IShellFolder.BindToStorage, IShellFolder2 interface [Windows Shell],BindToStorage method, IShellFolder2::BindToStorage, IShellFolder::BindToStorage, _win32_IShellFolder_BindToStorage, shell.IShellFolder_BindToStorage, shobjidl_core/IShellFolder2::BindToStorage, shobjidl_core/IShellFolder::BindToStorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IShellFolder2.BindToStorage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolder::BindToStorage
@@ -85,7 +83,7 @@ The IID of the requested storage interface. To retrieve an <a href="https://msdn
 
 ### -param ppv
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IMSVidCtl::get_OutputsAvailable
 author: windows-sdk-content
 description: The get_OutputsAvailable method retrieves the output devices that are available in a specified category.
 old-location: mstv\imsvidctl_get_outputsavailable.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f45b752c-6b7f-4803-93fe-92ec44cd9509
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_OutputsAvailable method, IMSVidCtl.get_OutputsAvailable, IMSVidCtl::get_OutputsAvailable, IMSVidCtlget_OutputsAvailable, get_OutputsAvailable, get_OutputsAvailable method [Microsoft TV Technologies], get_OutputsAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_outputsavailable, msvidctl/IMSVidCtl::get_OutputsAvailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.get_OutputsAvailable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::get_OutputsAvailable
@@ -67,7 +65,7 @@ The <b>get_OutputsAvailable</b> method retrieves the output devices that are ava
 
 ### -param pVal
 
-
+TBD
 
 
 

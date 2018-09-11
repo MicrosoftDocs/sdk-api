@@ -4,17 +4,16 @@ title: IMFMediaEngine::GetSeekable
 author: windows-sdk-content
 description: Gets the time ranges to which the Media Engine can currently seek.
 old-location: mf\imfmediaengine_getseekable.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: FB238892-B172-4E31-B4E5-68C96E135345
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetSeekable, GetSeekable method [Media Foundation], GetSeekable method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetSeekable method, IMFMediaEngine.GetSeekable, IMFMediaEngine::GetSeekable, mf.imfmediaengine_getseekable, mfmediaengine/IMFMediaEngine::GetSeekable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngine.GetSeekable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngine::GetSeekable
@@ -62,7 +60,7 @@ Gets the time ranges to which the Media Engine can currently seek.
 
 ### -param ppSeekable
 
-
+TBD
 
 
 

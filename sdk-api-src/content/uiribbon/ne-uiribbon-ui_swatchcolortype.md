@@ -4,17 +4,16 @@ title: UI_SWATCHCOLORTYPE
 author: windows-sdk-content
 description: Specifies the values that identify how a color swatch in a DropDownColorPicker or a FontControl color picker (Text color or Text highlight) is filled.Note  These are recommendations only.
 old-location: windowsribbon\windowsribbon_ui_swatchcolortype.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_swatchcolortype.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_SWATCHCOLORTYPE, UI_SWATCHCOLORTYPE enumeration [Windows Ribbon], UI_SWATCHCOLORTYPE_AUTOMATIC, UI_SWATCHCOLORTYPE_NOCOLOR, UI_SWATCHCOLORTYPE_RGB, scenicintent_UI_SWATCHCOLORTYPE, uiribbon/UI_SWATCHCOLORTYPE, uiribbon/UI_SWATCHCOLORTYPE_AUTOMATIC, uiribbon/UI_SWATCHCOLORTYPE_NOCOLOR, uiribbon/UI_SWATCHCOLORTYPE_RGB, windowsribbon.windowsribbon_ui_swatchcolortype
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_SWATCHCOLORTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_SWATCHCOLORTYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_SWATCHCOLORTYPE
+req.redist: 
 ---
 
 # UI_SWATCHCOLORTYPE enumeration

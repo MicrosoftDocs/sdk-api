@@ -4,17 +4,16 @@ title: IBackgroundCopyJob1::AddFiles
 author: windows-sdk-content
 description: Use the AddFiles method to add one or more files to download to the job.
 old-location: bits\ibackgroundcopyjob1_addfiles.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 4a9860da-3977-4b97-957f-dd4de1e775cb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AddFiles, AddFiles method [BITS], AddFiles method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],AddFiles method, IBackgroundCopyJob1.AddFiles, IBackgroundCopyJob1::AddFiles, bits.ibackgroundcopyjob1_addfiles, qmgr/IBackgroundCopyJob1::AddFiles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyJob1.AddFiles
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob1::AddFiles
@@ -69,7 +67,7 @@ Number of files in <i>pFileInfo</i> to add to the job.
 
 ### -param ppFileSet
 
-
+TBD
 
 
 

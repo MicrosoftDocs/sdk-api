@@ -4,17 +4,16 @@ title: IInkOverlay::GetGestureStatus
 author: windows-sdk-content
 description: Retrieves a value that determines whether the InkCollector or InkOverlay object is interested in a particular application gesture.
 old-location: tablet\inkoverlay_getgesturestatus.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: fdf4ce5b-0a3f-441b-bead-6297ea6c8f5e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 31973709-1702-4ec1-8228-b0d1bdb64bc8, GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],GetGestureStatus method, IInkOverlay.GetGestureStatus, IInkOverlay::GetGestureStatus, msinkaut/IInkOverlay::GetGestureStatus, tablet.inkoverlay_getgesturestatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkOverlay.GetGestureStatus
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::GetGestureStatus

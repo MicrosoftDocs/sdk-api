@@ -4,17 +4,16 @@ title: protoent
 author: windows-sdk-content
 description: The protoent structure contains the name and protocol numbers that correspond to a given protocol name.
 old-location: winsock\protoent_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 8fc729dd-5a73-42a1-9c3f-adc68d83d863
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPPROTOENT, *PPROTOENT, PROTOENT, _win32_protoent_2, protoent, protoent structure [Winsock], winsock.protoent_2, winsock/protoent"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROTOENT, *PPROTOENT, *LPPROTOENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - protoent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PROTOENT, *PPROTOENT, *LPPROTOENT
+req.redist: 
 ---
 
 # protoent structure

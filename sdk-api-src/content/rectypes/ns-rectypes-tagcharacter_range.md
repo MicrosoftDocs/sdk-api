@@ -4,17 +4,16 @@ title: tagCHARACTER_RANGE
 author: windows-sdk-content
 description: Specifies a range of Unicode points (characters).
 old-location: tablet\character_range.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 51d13adf-170e-4172-b752-c9dac5a96fa5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: "*PCHARACTER_RANGE, 51d13adf-170e-4172-b752-c9dac5a96fa5, CHARACTER_RANGE, CHARACTER_RANGE structure [Tablet PC], rectypes/CHARACTER_RANGE, tablet.character_range, tagCHARACTER_RANGE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHARACTER_RANGE, *PCHARACTER_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHARACTER_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CHARACTER_RANGE, *PCHARACTER_RANGE
+req.redist: 
 ---
 
 # tagCHARACTER_RANGE structure

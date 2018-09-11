@@ -4,17 +4,16 @@ title: PSCreatePropertyChangeArray function
 author: windows-sdk-content
 description: Creates a container for a set of IPropertyChange objects. This container can be used with IFileOperation to apply a set of property changes to a set of files.
 old-location: properties\PSCreatePropertyChangeArray.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 5e0fdf09-a688-4297-9abe-2f1d67fce1a2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSCreatePropertyChangeArray, PSCreatePropertyChangeArray function [Windows Properties], _shell_PSCreatePropertyChangeArray, properties.PSCreatePropertyChangeArray, propsys/PSCreatePropertyChangeArray, shell.PSCreatePropertyChangeArray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSCreatePropertyChangeArray
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PSCreatePropertyChangeArray function

@@ -4,17 +4,16 @@ title: PSPropertyBag_ReadStr function
 author: windows-sdk-content
 description: Reads the string data value of a property in a property bag.
 old-location: properties\PSPropertyBag_ReadStr.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 2E3E86D6-B070-49fc-AAF0-D6DCF0EA16B7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_ReadStr, PSPropertyBag_ReadStr function [Windows Properties], properties.PSPropertyBag_ReadStr, propsys/PSPropertyBag_ReadStr, shell.PSPropertyBag_ReadStr, shell_PSPropertyBag_ReadStr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSPropertyBag_ReadStr
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSPropertyBag_ReadStr function

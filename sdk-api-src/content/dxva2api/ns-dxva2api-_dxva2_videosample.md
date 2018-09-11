@@ -4,7 +4,7 @@ title: "_DXVA2_VideoSample"
 author: windows-sdk-content
 description: Specifies an input sample for the IDirectXVideoProcessor::VideoProcessBlt method.
 old-location: mf\dxva2_videosample.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 040ade10-8573-4375-829d-938efa750a12
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_VideoSample
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA2_VideoSample
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVA2_VideoSample
+req.redist: 
 ---
 
 # _DXVA2_VideoSample structure

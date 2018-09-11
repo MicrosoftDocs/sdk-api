@@ -4,17 +4,16 @@ title: PstGetCertificates function
 author: windows-sdk-content
 description: Retrieves certificate chains that specify certificates that can be used to authenticate a user on the specified server.
 old-location: security\pstgetcertificates.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 3dfe3a7b-aefd-487a-a826-065e80f21eb5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: PstGetCertificates, PstGetCertificates function [Security], certpoleng/PstGetCertificates, security.pstgetcertificates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: certpoleng.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509SCEPFailInfo
+req.lib: Certpoleng.lib
+req.dll: Certpoleng.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PstGetCertificates
 product: Windows
 targetos: Windows
-req.lib: Certpoleng.lib
-req.dll: Certpoleng.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PstGetCertificates function

@@ -4,17 +4,16 @@ title: BluetoothGATTBeginReliableWrite function
 author: windows-sdk-content
 description: The BluetoothGATTBeginReliableWrite function specifies that reliable writes are about to begin.
 old-location: bltooth\bluetoothgattbeginreliablewrite.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: D053FD0C-3088-4C56-A4EA-F41079FAAF20
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BluetoothGATTBeginReliableWrite, BluetoothGATTBeginReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattbeginreliablewrite, bluetoothleapis/BluetoothGATTBeginReliableWrite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA
+req.lib: BluetoothAPIs.lib
+req.dll: BluetoothAPIs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BluetoothGATTBeginReliableWrite
 product: Windows
 targetos: Windows
-req.lib: BluetoothAPIs.lib
-req.dll: BluetoothAPIs.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothGATTBeginReliableWrite function

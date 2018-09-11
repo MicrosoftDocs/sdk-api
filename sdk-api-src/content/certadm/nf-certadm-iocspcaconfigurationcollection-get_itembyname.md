@@ -4,17 +4,16 @@ title: IOCSPCAConfigurationCollection::get_ItemByName
 author: windows-sdk-content
 description: Gets a certification authority (CA) configuration identified by name in the configuration set.
 old-location: security\iocspcaconfigurationcollection_itembyname_method.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 78c2ce21-b7f9-48ec-b192-e4cd8be46cc6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IOCSPCAConfigurationCollection interface [Security],ItemByName property, IOCSPCAConfigurationCollection.ItemByName, IOCSPCAConfigurationCollection.get_ItemByName, IOCSPCAConfigurationCollection::ItemByName, IOCSPCAConfigurationCollection::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::ItemByName, certadm/IOCSPCAConfigurationCollection::get_ItemByName, get_ItemByName, security.iocspcaconfigurationcollection_itembyname_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOCSPCAConfigurationCollection.get_ItemByName
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfigurationCollection::get_ItemByName

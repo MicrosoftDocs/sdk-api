@@ -4,17 +4,16 @@ title: IMediaObject::Discontinuity
 author: windows-sdk-content
 description: The Discontinuity method signals a discontinuity on the specified input stream.
 old-location: dshow\imediaobject_discontinuity.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1a8e51e2-5d19-423d-acd2-8f1c0a143cf3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: Discontinuity, Discontinuity method [DirectShow], Discontinuity method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],Discontinuity method, IMediaObject.Discontinuity, IMediaObject::Discontinuity, IMediaObjectDiscontinuity, dshow.imediaobject_discontinuity, mediaobj/IMediaObject::Discontinuity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaObject.Discontinuity
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObject::Discontinuity

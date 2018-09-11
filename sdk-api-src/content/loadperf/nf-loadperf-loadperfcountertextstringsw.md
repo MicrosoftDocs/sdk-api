@@ -4,17 +4,16 @@ title: LoadPerfCounterTextStringsW function
 author: windows-sdk-content
 description: Loads onto the computer the performance objects and counters defined in the specified initialization file.
 old-location: perf\loadperfcountertextstrings.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 19f6989a-708a-485d-94c0-ab617707ced4
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: LoadPerfCounterTextStrings, LoadPerfCounterTextStrings function [Perf], LoadPerfCounterTextStringsA, LoadPerfCounterTextStringsW, _win32_loadperfcountertextstrings, base.loadperfcountertextstrings, loadperf/LoadPerfCounterTextStrings, loadperf/LoadPerfCounterTextStringsA, loadperf/LoadPerfCounterTextStringsW, perf.loadperfcountertextstrings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: loadperf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
+req.lib: Loadperf.lib
+req.dll: Loadperf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - LoadPerfCounterTextStringsW
 product: Windows
 targetos: Windows
-req.lib: Loadperf.lib
-req.dll: Loadperf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LoadPerfCounterTextStringsW function

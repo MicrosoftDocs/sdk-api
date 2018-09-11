@@ -4,17 +4,16 @@ title: IFsrmClassificationRule::get_Value
 author: windows-sdk-content
 description: The value that this rule will set the property to.
 old-location: fsrm\ifsrmclassificationrule_value.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: c243cf7a-23f5-4d81-acea-9bf6ed66967d
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmClassificationRule interface [File Server Resource Manager],Value property, IFsrmClassificationRule.Value, IFsrmClassificationRule.get_Value, IFsrmClassificationRule::Value, IFsrmClassificationRule::get_Value, IFsrmClassificationRule::put_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager],IFsrmClassificationRule interface, fs.ifsrmclassificationrule_value, fsrm.ifsrmclassificationrule_value, fsrmpipeline/IFsrmClassificationRule::Value, fsrmpipeline/IFsrmClassificationRule::get_Value, fsrmpipeline/IFsrmClassificationRule::put_Value, get_Value
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmClassificationRule.put_Value
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationRule::get_Value

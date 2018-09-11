@@ -4,17 +4,16 @@ title: "_CRYPT_KEY_SIGN_MESSAGE_PARA"
 author: windows-sdk-content
 description: Contains information about the cryptographic service provider (CSP) and algorithms used to sign a message.
 old-location: security\crypt_key_sign_message_para.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: d5426ad6-2181-42ce-99f2-cc6cc83e20a8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_KEY_SIGN_MESSAGE_PARA, AT_KEYEXCHANGE, AT_SIGNATURE, CRYPT_KEY_SIGN_MESSAGE_PARA, CRYPT_KEY_SIGN_MESSAGE_PARA structure [Security], PCRYPT_KEY_SIGN_MESSAGE_PARA, PCRYPT_KEY_SIGN_MESSAGE_PARA structure pointer [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _CRYPT_KEY_SIGN_MESSAGE_PARA, security.crypt_key_sign_message_para, wincrypt/CRYPT_KEY_SIGN_MESSAGE_PARA, wincrypt/PCRYPT_KEY_SIGN_MESSAGE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_KEY_SIGN_MESSAGE_PARA, *PCRYPT_KEY_SIGN_MESSAGE_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_KEY_SIGN_MESSAGE_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_KEY_SIGN_MESSAGE_PARA, *PCRYPT_KEY_SIGN_MESSAGE_PARA
+req.redist: 
 ---
 
 # _CRYPT_KEY_SIGN_MESSAGE_PARA structure

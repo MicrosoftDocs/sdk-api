@@ -4,7 +4,7 @@ title: "_WTS_DISPLAY_IOCTL"
 author: windows-sdk-content
 description: Contains information about the client display.
 old-location: termserv\wts_display_ioctl.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 1a052b7c-8c15-4921-8548-8fa461210e9a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_DISPLAY_IOCTL, *PWTS_DISPLAY_IOCTL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTS_DISPLAY_IOCTL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTS_DISPLAY_IOCTL, *PWTS_DISPLAY_IOCTL
+req.redist: 
 ---
 
 # _WTS_DISPLAY_IOCTL structure

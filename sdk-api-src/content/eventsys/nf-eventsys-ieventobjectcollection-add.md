@@ -4,17 +4,16 @@ title: IEventObjectCollection::Add
 author: windows-sdk-content
 description: Adds an event object to the collection.
 old-location: cos\ieventobjectcollection_add.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ca08e56a-2ade-4209-a61a-b9dae021e888
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Add, Add method [COM+], Add method [COM+],IEventObjectCollection interface, IEventObjectCollection interface [COM+],Add method, IEventObjectCollection.Add, IEventObjectCollection::Add, _cos_IEventObjectCollection_Add, cos.ieventobjectcollection_add, eventsys/IEventObjectCollection::Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventObjectCollection.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventObjectCollection::Add

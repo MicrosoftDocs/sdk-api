@@ -4,17 +4,16 @@ title: ICoreInputInterop::put_MessageHandled
 author: windows-sdk-content
 description: Sets whether or not the message to the CoreWindow has been handled.
 old-location: winrt\icoreinputinterop_messagehandled.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 94575082-014D-42E3-8191-F79912CBDB2A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICoreInputInterop interface [Windows Runtime],MessageHandled property, ICoreInputInterop.MessageHandled, ICoreInputInterop.put_MessageHandled, ICoreInputInterop::MessageHandled, ICoreInputInterop::put_MessageHandled, MessageHandled property [Windows Runtime], MessageHandled property [Windows Runtime],ICoreInputInterop interface, corewindow/ICoreInputInterop::MessageHandled, corewindow/ICoreInputInterop::put_MessageHandled, put_MessageHandled, winrt.icoreinputinterop_messagehandled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: corewindow.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICoreInputInterop.put_MessageHandled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICoreInputInterop::put_MessageHandled

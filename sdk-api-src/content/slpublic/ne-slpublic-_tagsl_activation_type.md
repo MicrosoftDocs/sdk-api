@@ -4,17 +4,16 @@ title: "_tagSL_ACTIVATION_TYPE"
 author: windows-sdk-content
 description: Represents the type of offline activation for a license.
 old-location: security\sl_activation_type.htm
-old-project: secslapi
+tech.root: SecSLApi
 ms.assetid: e16a4e43-f7ef-43a3-a268-5f644340274c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SL_ACTIVATION_TYPE, SL_ACTIVATION_TYPE enumeration [Security], SL_ACTIVATION_TYPE_ACTIVE_DIRECTORY, SL_ACTIVATION_TYPE_DEFAULT, _tagSL_ACTIVATION_TYPE, security.sl_activation_type, slpublic/SL_ACTIVATION_TYPE, slpublic/SL_ACTIVATION_TYPE_ACTIVE_DIRECTORY, slpublic/SL_ACTIVATION_TYPE_DEFAULT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Shtypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_ACTIVATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SL_ACTIVATION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SL_ACTIVATION_TYPE
+req.redist: 
 ---
 
 # _tagSL_ACTIVATION_TYPE enumeration

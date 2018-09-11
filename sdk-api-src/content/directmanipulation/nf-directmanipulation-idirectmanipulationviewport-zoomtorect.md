@@ -4,17 +4,16 @@ title: IDirectManipulationViewport::ZoomToRect
 author: windows-sdk-content
 description: Moves the viewport to a specific area of the primary content and specifies whether to animate the transition.
 old-location: directmanipulation\idirectmanipulationviewport_zoomtorect.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: ce87521d-bbce-43d3-920b-89eca101d260
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],ZoomToRect method, IDirectManipulationViewport.ZoomToRect, IDirectManipulationViewport::ZoomToRect, ZoomToRect, ZoomToRect method [Direct Manipulation], ZoomToRect method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_zoomtorect, directmanipulation/IDirectManipulationViewport::ZoomToRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationViewport.ZoomToRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationViewport::ZoomToRect

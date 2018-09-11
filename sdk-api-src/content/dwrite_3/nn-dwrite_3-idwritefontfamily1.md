@@ -4,17 +4,16 @@ title: IDWriteFontFamily1
 author: windows-sdk-content
 description: Represents a family of related fonts.
 old-location: directwrite\idwritefontfamily1.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 0642C2FA-03D0-4233-B8C4-27E4549B30BB
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFontFamily1, IDWriteFontFamily1 interface [Direct Write], IDWriteFontFamily1 interface [Direct Write],described, directwrite.idwritefontfamily1, dwrite_3/IDWriteFontFamily1
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFamily1
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFamily1 interface

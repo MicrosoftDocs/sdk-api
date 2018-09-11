@@ -4,17 +4,16 @@ title: IPhotoAcquireItem::SetProperty
 author: windows-sdk-content
 description: The SetProperty method sets a property for an item.
 old-location: picacq\iphotoacquireitem_setproperty.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 24c8ee32-eb10-416f-81bd-ddccb0f81fd9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoAcquireItem interface [Picture Acquisition],SetProperty method, IPhotoAcquireItem.SetProperty, IPhotoAcquireItem::SetProperty, IPhotoAcquireItemSetProperty, SetProperty, SetProperty method [Picture Acquisition], SetProperty method [Picture Acquisition],IPhotoAcquireItem interface, photoacquire/IPhotoAcquireItem::SetProperty, picacq.iphotoacquireitem_setproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireItem.SetProperty
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireItem::SetProperty

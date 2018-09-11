@@ -4,17 +4,16 @@ title: IDistributorNotify::Stop
 author: windows-sdk-content
 description: The Stop method is called when the filter graph is entering a stopped state.
 old-location: dshow\idistributornotify_stop.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 21312954-bc48-402b-a03c-954c01b53231
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Stop method, IDistributorNotify.Stop, IDistributorNotify::Stop, IDistributorNotifyStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_stop, strmif/IDistributorNotify::Stop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDistributorNotify.Stop
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDistributorNotify::Stop

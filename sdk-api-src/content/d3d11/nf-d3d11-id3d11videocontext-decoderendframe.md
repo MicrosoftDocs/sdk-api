@@ -4,17 +4,16 @@ title: ID3D11VideoContext::DecoderEndFrame
 author: windows-sdk-content
 description: Signals the end of a decoding operation.
 old-location: mf\id3d11videocontext_decoderendframe.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3596B70C-4BED-49C4-A0E4-8702DA219B01
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: DecoderEndFrame, DecoderEndFrame method [Media Foundation], DecoderEndFrame method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecoderEndFrame method, ID3D11VideoContext.DecoderEndFrame, ID3D11VideoContext::DecoderEndFrame, d3d11/ID3D11VideoContext::DecoderEndFrame, mf.id3d11videocontext_decoderendframe
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.DecoderEndFrame
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::DecoderEndFrame

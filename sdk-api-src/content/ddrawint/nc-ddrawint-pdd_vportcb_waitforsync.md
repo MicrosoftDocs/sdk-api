@@ -4,7 +4,7 @@ title: PDD_VPORTCB_WAITFORSYNC
 author: windows-sdk-content
 description: The DdVideoPortWaitForSync callback function waits until the next vertical synch occurs.
 old-location: display\ddvideoportwaitforsync.htm
-old-project: display
+tech.root: display
 ms.assetid: 0834f49b-89c4-47cc-b591-d2b90d21ee72
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdVideoPortWaitForSync
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PDD_VPORTCB_WAITFORSYNC callback function

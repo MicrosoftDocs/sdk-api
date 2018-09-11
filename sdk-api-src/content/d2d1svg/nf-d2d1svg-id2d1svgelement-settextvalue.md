@@ -4,17 +4,16 @@ title: ID2D1SvgElement::SetTextValue
 author: windows-sdk-content
 description: Sets the value of a text content element.
 old-location: direct2d\id2d1svgelement_settextvalue.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 569257CB-1B85-458D-92F4-EBE6C3FF0639
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],SetTextValue method, ID2D1SvgElement.SetTextValue, ID2D1SvgElement::SetTextValue, SetTextValue, SetTextValue method [Direct2D], SetTextValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetTextValue, direct2d.id2d1svgelement_settextvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgElement.SetTextValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgElement::SetTextValue

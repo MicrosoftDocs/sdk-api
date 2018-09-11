@@ -4,7 +4,7 @@ title: "_MIB_TCP6ROW2"
 author: windows-sdk-content
 description: Contains information that describes an IPv6 TCP connection.
 old-location: mib\mib_tcp6row2.htm
-old-project: mib
+tech.root: mib
 ms.assetid: bbec3397-0317-40f7-926f-2ec48cf5386d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_TCP6ROW2, *PMIB_TCP6ROW2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_TCP6ROW2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MIB_TCP6ROW2, *PMIB_TCP6ROW2
+req.redist: 
 ---
 
 # _MIB_TCP6ROW2 structure

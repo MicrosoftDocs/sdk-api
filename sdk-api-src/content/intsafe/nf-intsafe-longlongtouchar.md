@@ -4,17 +4,16 @@ title: LongLongToUChar function
 author: windows-sdk-content
 description: Converts a value of type LONGLONG to a value of type UCHAR.
 old-location: shell\LongLongToUChar.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5c8440fa-aefe-4f63-877c-4b1ebdc59138
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: LongLongToUChar, LongLongToUChar function [Windows Shell], intsafe/LongLongToUChar, shell.LongLongToUChar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LongLongToUChar
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LongLongToUChar function

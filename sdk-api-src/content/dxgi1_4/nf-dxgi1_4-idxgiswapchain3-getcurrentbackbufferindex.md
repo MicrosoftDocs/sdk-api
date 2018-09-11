@@ -4,17 +4,16 @@ title: IDXGISwapChain3::GetCurrentBackBufferIndex
 author: windows-sdk-content
 description: Gets the index of the swap chain's current back buffer.
 old-location: direct3ddxgi\idxgiswapchain3_getcurrentbackbufferindex.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: C19D56AC-4094-4D4A-B992-8FE8348A7DE2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetCurrentBackBufferIndex, GetCurrentBackBufferIndex method [DXGI], GetCurrentBackBufferIndex method [DXGI],IDXGISwapChain3 interface, IDXGISwapChain3 interface [DXGI],GetCurrentBackBufferIndex method, IDXGISwapChain3.GetCurrentBackBufferIndex, IDXGISwapChain3::GetCurrentBackBufferIndex, direct3ddxgi.idxgiswapchain3_getcurrentbackbufferindex, dxgi1_4/IDXGISwapChain3::GetCurrentBackBufferIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGISwapChain3.GetCurrentBackBufferIndex
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGISwapChain3::GetCurrentBackBufferIndex

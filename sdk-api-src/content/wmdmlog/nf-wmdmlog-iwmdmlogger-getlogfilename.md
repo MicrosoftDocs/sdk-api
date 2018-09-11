@@ -4,17 +4,16 @@ title: IWMDMLogger::GetLogFileName
 author: windows-sdk-content
 description: The GetLogFileName method returns the full path to the current log file.
 old-location: wmdm\iwmdmlogger_getlogfilename.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 094761e6-539c-43ca-b882-f3dd7a19a243
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetLogFileName, GetLogFileName method [windows Media Device Manager], GetLogFileName method [windows Media Device Manager],IWMDMLogger interface, IWMDMLogger interface [windows Media Device Manager],GetLogFileName method, IWMDMLogger.GetLogFileName, IWMDMLogger::GetLogFileName, IWMDMLoggerGetLogFileName, wmdm.iwmdmlogger_getlogfilename, wmdmlog/IWMDMLogger::GetLogFileName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmdmlog.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_INDEX_IDENTIFIER
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMLogger.GetLogFileName
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMLogger::GetLogFileName

@@ -4,17 +4,16 @@ title: BCryptProcessMultiOperations function
 author: windows-sdk-content
 description: The BCryptProcessMultiOperations function processes a sequence of operations on a multi-object state.
 old-location: security\bcryptprocessmultioperation.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 5FD28AC3-46D2-4F06-BF06-F5FEF8E531F5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCryptProcessMultiOperations, BCryptProcessMultiOperations function [Security], bcrypt/BCryptProcessMultiOperations, security.bcryptprocessmultioperation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 Update [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 Update [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BCryptProcessMultiOperations
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptProcessMultiOperations function

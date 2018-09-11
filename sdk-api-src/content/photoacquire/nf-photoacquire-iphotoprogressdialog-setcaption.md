@@ -4,17 +4,16 @@ title: IPhotoProgressDialog::SetCaption
 author: windows-sdk-content
 description: Sets the caption of the progress dialog box.
 old-location: picacq\iphotoprogressdialog_setcaption.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 01689aa9-e3ae-48b4-b105-25880097a112
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCaption method, IPhotoProgressDialog.SetCaption, IPhotoProgressDialog::SetCaption, IPhotoProgressDialogSetCaption, SetCaption, SetCaption method [Picture Acquisition], SetCaption method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCaption, picacq.iphotoprogressdialog_setcaption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoProgressDialog.SetCaption
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoProgressDialog::SetCaption

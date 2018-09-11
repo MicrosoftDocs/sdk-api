@@ -4,17 +4,16 @@ title: CInstance::SetDOUBLE
 author: windows-sdk-content
 description: CInstance::SetDOUBLE method
 old-location: wmi\cinstance_setdouble.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 5b6e2dcf-6feb-454a-a56a-79ae1506b4f9
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetDOUBLE method, CInstance.SetDOUBLE, CInstance::SetDOUBLE, SetDOUBLE, SetDOUBLE method [Windows Management Instrumentation], SetDOUBLE method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setdouble, instance/CInstance::SetDOUBLE, wmi.cinstance_setdouble
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CInstance.SetDOUBLE
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::SetDOUBLE
@@ -72,7 +70,7 @@ Name of the <b>DOUBLE</b> property that is set.
 
 ### -param dub
 
-
+TBD
 
 
 

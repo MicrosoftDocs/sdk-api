@@ -4,17 +4,16 @@ title: "_MONTHLYDATE"
 author: windows-sdk-content
 description: Defines the day of the month the task will run.
 old-location: taskschd\monthlydate.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 51d010c9-4e16-49b7-8034-dfb27761c6a6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MONTHLYDATE, MONTHLYDATE structure [Task Scheduler], TASK_APRIL, TASK_AUGUST, TASK_DECEMBER, TASK_FEBRUARY, TASK_JANUARY, TASK_JULY, TASK_JUNE, TASK_MARCH, TASK_MAY, TASK_NOVEMBER, TASK_OCTOBER, TASK_SEPTEMBER, _MONTHLYDATE, _msb_monthlydate, mstask/MONTHLYDATE, taskschd.monthlydate, triggers [Task Scheduler],structures,MONTHLYDATE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstask.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MONTHLYDATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MONTHLYDATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MONTHLYDATE
+req.redist: 
 ---
 
 # _MONTHLYDATE structure

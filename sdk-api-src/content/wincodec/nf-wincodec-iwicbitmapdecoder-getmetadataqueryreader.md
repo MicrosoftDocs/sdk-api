@@ -4,17 +4,16 @@ title: IWICBitmapDecoder::GetMetadataQueryReader
 author: windows-sdk-content
 description: Retrieves the metadata query reader from the decoder.
 old-location: wic\_wic_codec_iwicbitmapdecoder_getmetadataqueryreader.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 353ce6d8-ef33-44b6-ab8a-7c5903a024f6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMetadataQueryReader, GetMetadataQueryReader method [Windows Imaging Component], GetMetadataQueryReader method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetMetadataQueryReader method, IWICBitmapDecoder.GetMetadataQueryReader, IWICBitmapDecoder::GetMetadataQueryReader, _wic_codec_iwicbitmapdecoder_getmetadataqueryreader, wic._wic_codec_iwicbitmapdecoder_getmetadataqueryreader, wincodec/IWICBitmapDecoder::GetMetadataQueryReader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapDecoder.GetMetadataQueryReader
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapDecoder::GetMetadataQueryReader

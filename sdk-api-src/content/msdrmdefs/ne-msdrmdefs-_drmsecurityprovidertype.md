@@ -4,7 +4,7 @@ title: "_DRMSECURITYPROVIDERTYPE"
 author: windows-sdk-content
 description: The DRMSECURITYPROVIDERTYPE enumeration specifies the type of secure DRM environment used.
 old-location: rm\drmsecurityprovidertype.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: e8b81e48-d13a-4b7d-b7a4-a197dc81dc6b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msdrmdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRMSECURITYPROVIDERTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMSECURITYPROVIDERTYPE
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
+req.typenames: DRMSECURITYPROVIDERTYPE
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

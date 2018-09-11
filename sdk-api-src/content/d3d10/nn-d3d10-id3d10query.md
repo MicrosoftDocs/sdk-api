@@ -4,17 +4,16 @@ title: ID3D10Query
 author: windows-sdk-content
 description: A query interface queries information from the GPU.
 old-location: direct3d10\id3d10query.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10query.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 44824060-7dfe-0b44-7549-6ab5b12a7e8f, ID3D10Query, ID3D10Query interface [Direct3D 10], ID3D10Query interface [Direct3D 10],described, d3d10/ID3D10Query, direct3d10.id3d10query
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_USAGE
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D10Query
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Query interface

@@ -4,17 +4,16 @@ title: SrpSetTokenEnterpriseId function
 author: windows-sdk-content
 description: Sets a data intent on a token. The caller process should be enterprise allowed for the provided enterprise ID.
 old-location: edp\srpsettokenenterpriseid.htm
-old-project: EDP
+tech.root: EDP
 ms.assetid: A96E6977-5637-4E3E-A2AE-7892DC61FB08
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EDP.srpsettokenenterpriseid, SrpSetTokenEnterpriseId, SrpSetTokenEnterpriseId function, srpapi/SrpSetTokenEnterpriseId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: srpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENTERPRISE_DATA_POLICIES
+req.lib: Srpapi.lib
+req.dll: Srpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SrpSetTokenEnterpriseId
 product: Windows
 targetos: Windows
-req.lib: Srpapi.lib
-req.dll: Srpapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SrpSetTokenEnterpriseId function

@@ -4,17 +4,16 @@ title: IAudioSessionManager::GetSimpleAudioVolume
 author: windows-sdk-content
 description: The GetSimpleAudioVolume method retrieves a simple audio volume control.
 old-location: coreaudio\iaudiosessionmanager_getsimpleaudiovolume.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 2f3c5a40-308f-48b4-b35c-aebd0cc6b849
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetSimpleAudioVolume, GetSimpleAudioVolume method [Core Audio], GetSimpleAudioVolume method [Core Audio],IAudioSessionManager interface, IAudioSessionManager interface [Core Audio],GetSimpleAudioVolume method, IAudioSessionManager.GetSimpleAudioVolume, IAudioSessionManager::GetSimpleAudioVolume, IAudioSessionManagerGetSimpleAudioVolume, audiopolicy/IAudioSessionManager::GetSimpleAudioVolume, coreaudio.iaudiosessionmanager_getsimpleaudiovolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionManager.GetSimpleAudioVolume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionManager::GetSimpleAudioVolume
@@ -69,7 +68,7 @@ Pointer to a session GUID. If the GUID does not identify a session that has been
 
 ### -param StreamFlags
 
-
+TBD
 
 
 ### -param AudioVolume [out]

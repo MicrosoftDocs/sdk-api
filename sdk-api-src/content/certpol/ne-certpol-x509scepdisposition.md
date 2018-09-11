@@ -4,17 +4,16 @@ title: X509SCEPDisposition
 author: windows-sdk-content
 description: Describes the resulting disposition of a request to process a response message.
 old-location: security\x509scepdisposition.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 635AAD37-261F-4F38-AD00-B3E8A5C55ABF
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: SCEPDispositionFailure, SCEPDispositionPending, SCEPDispositionSuccess, X509SCEPDisposition, X509SCEPDisposition enumeration [Security], certpol/SCEPDispositionFailure, certpol/SCEPDispositionPending, certpol/SCEPDispositionSuccess, certpol/X509SCEPDisposition, security.x509scepdisposition
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certpol.h
 req.include-header: CertEnroll.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509SCEPDisposition
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509SCEPDisposition
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: 
-req.irql: 
+req.typenames: X509SCEPDisposition
+req.redist: 
 ---
 
 # X509SCEPDisposition enumeration

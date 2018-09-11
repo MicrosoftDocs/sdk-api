@@ -4,7 +4,7 @@ title: tag_GPOBROWSEINFO
 author: windows-sdk-content
 description: The GPOBROWSEINFO structure contains information that the BrowseForGPO function uses to initialize a GPO browser dialog box. After the user closes the dialog box, the system returns information about the user's actions in this structure.
 old-location: policy\gpobrowseinfo_str.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: a0d038f2-66f1-4a79-b9e7-189cb57b80a9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPOBROWSEINFO, *LPGPOBROWSEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GPOBROWSEINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: GPOBROWSEINFO, *LPGPOBROWSEINFO
+req.redist: 
 ---
 
 # tag_GPOBROWSEINFO structure

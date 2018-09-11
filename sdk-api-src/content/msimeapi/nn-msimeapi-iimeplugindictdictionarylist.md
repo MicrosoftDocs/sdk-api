@@ -4,7 +4,7 @@ title: IImePlugInDictDictionaryList
 author: windows-sdk-content
 description: Provides access to the list of IME plug-in dictionaries.
 old-location: intl\iimeplugindictdictionarylist.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: EF14E963-26DF-4E72-9BDF-3AE99D0B7273
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msimeapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POSTBL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IImePlugInDictDictionaryList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IImePlugInDictDictionaryList interface

@@ -4,17 +4,16 @@ title: IMediaSample::GetActualDataLength
 author: windows-sdk-content
 description: The GetActualDataLength method retrieves the length of the valid data in the buffer.
 old-location: dshow\imediasample_getactualdatalength.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d89dbaef-01ff-4379-b696-cdd1a6a9801b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetActualDataLength, GetActualDataLength method [DirectShow], GetActualDataLength method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetActualDataLength method, IMediaSample.GetActualDataLength, IMediaSample::GetActualDataLength, IMediaSampleGetActualDataLength, dshow.imediasample_getactualdatalength, strmif/IMediaSample::GetActualDataLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: Quartz.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMediaSample.GetActualDataLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Quartz.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaSample::GetActualDataLength

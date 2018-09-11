@@ -4,17 +4,16 @@ title: IOfflineFilesEventsFilter::GetPathFilter
 author: windows-sdk-content
 description: Retrieves a UNC path string and a scope indicator describing which path-based events should be delivered to this event sink.
 old-location: of\iofflinefileseventsfilter_getpathfilter.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 0b9d8339-3daa-4f0c-8a52-59e06b663163
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPathFilter, GetPathFilter method [Offline Files], GetPathFilter method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetPathFilter method, IOfflineFilesEventsFilter.GetPathFilter, IOfflineFilesEventsFilter::GetPathFilter, cscobj/IOfflineFilesEventsFilter::GetPathFilter, of.iofflinefileseventsfilter_getpathfilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesEventsFilter.GetPathFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesEventsFilter::GetPathFilter

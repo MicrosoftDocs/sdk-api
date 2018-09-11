@@ -4,17 +4,16 @@ title: IAzApplicationGroups::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IAzApplicationGroup objects in the collection.
 old-location: security\iazapplicationgroups_count.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: d57e4428-3666-4eb0-8157-8b35acfc517b
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzApplicationGroups object [Security],Count property, Count property [Security], Count property [Security],AzApplicationGroups object, Count property [Security],IAzApplicationGroups interface, IAzApplicationGroups interface [Security],Count property, IAzApplicationGroups.Count, IAzApplicationGroups.get_Count, IAzApplicationGroups::Count, IAzApplicationGroups::get_Count, azroles/IAzApplicationGroups::Count, azroles/IAzApplicationGroups::get_Count, get_Count, security.iazapplicationgroups_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzApplicationGroups.Count
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplicationGroups::get_Count

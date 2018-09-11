@@ -4,17 +4,16 @@ title: "_WS_XML_QNAME_DESCRIPTION"
 author: windows-sdk-content
 description: This type description is used with WS_XML_QNAME_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_xml_qname_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 300c5fd1-1a66-40b8-9f26-0f0711f7a527
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_QNAME_DESCRIPTION, WS_XML_QNAME_DESCRIPTION structure [Web Services for Windows], _WS_XML_QNAME_DESCRIPTION, webservices/WS_XML_QNAME_DESCRIPTION, wsw.ws_xml_qname_description
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_QNAME_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_QNAME_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_QNAME_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_XML_QNAME_DESCRIPTION structure

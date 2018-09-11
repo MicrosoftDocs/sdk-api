@@ -4,17 +4,16 @@ title: IFsrmReportManager::IsFilterValidForReportType
 author: windows-sdk-content
 description: Retrieves a value that determines whether a specified report filter is configurable for the specified report type.
 old-location: fsrm\ifsrmreportmanager_isfiltervalidforreporttype.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: e9f93b97-c8ac-441a-9f6b-87d45bd10cdf
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],IsFilterValidForReportType method, IFsrmReportManager interface [File Server Resource Manager],IsFilterValidForReportType method, IFsrmReportManager.IsFilterValidForReportType, IFsrmReportManager::IsFilterValidForReportType, IsFilterValidForReportType, IsFilterValidForReportType method [File Server Resource Manager], IsFilterValidForReportType method [File Server Resource Manager],FsrmReportManager class, IsFilterValidForReportType method [File Server Resource Manager],IFsrmReportManager interface, fs.ifsrmreportmanager_isfiltervalidforreporttype, fsrm.ifsrmreportmanager_isfiltervalidforreporttype, fsrmreports/IFsrmReportManager::IsFilterValidForReportType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmReportManager.IsFilterValidForReportType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportManager::IsFilterValidForReportType

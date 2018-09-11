@@ -4,7 +4,7 @@ title: "_IMAPI_MODE_PAGE_TYPE"
 author: windows-sdk-content
 description: Defines values for the mode pages that are supported by CD and DVD devices.
 old-location: imapi\imapi_mode_page_type.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: da6262a0-2b21-4568-9da1-dc8ca1ba2b4a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_MODE_PAGE_TYPE, *PIMAPI_MODE_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMAPI_MODE_PAGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IMAPI_MODE_PAGE_TYPE, *PIMAPI_MODE_PAGE_TYPE
+req.redist: 
 ---
 
 # _IMAPI_MODE_PAGE_TYPE enumeration

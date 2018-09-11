@@ -4,7 +4,7 @@ title: D3D11_FEATURE_DATA_D3D11_OPTIONS4
 author: windows-sdk-content
 description: Describes Direct3D 11.4 feature options in the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_d3d11_options4.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: BC0DD66C-3452-440D-87EA-1504EFF89E3F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_4.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_FEATURE_DATA_D3D11_OPTIONS4
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_FEATURE_DATA_D3D11_OPTIONS4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_FEATURE_DATA_D3D11_OPTIONS4
+req.redist: 
 ---
 
 # D3D11_FEATURE_DATA_D3D11_OPTIONS4 structure

@@ -4,17 +4,16 @@ title: WS_OPERATION_CONTEXT_PROPERTY_ID
 author: windows-sdk-content
 description: The properties available on the Context. Not all properties may be available at a given point on a context. All context properties are available through WsGetOperationContextProperty.
 old-location: wsw\ws_operation_context_property_id.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 71f7d0fe-c120-4667-93de-a0dfb94fccc1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_OPERATION_CONTEXT_PROPERTY_CHANNEL, WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE, WS_OPERATION_CONTEXT_PROPERTY_CONTRACT_DESCRIPTION, WS_OPERATION_CONTEXT_PROPERTY_HEAP, WS_OPERATION_CONTEXT_PROPERTY_HOST_USER_STATE, WS_OPERATION_CONTEXT_PROPERTY_ID, WS_OPERATION_CONTEXT_PROPERTY_ID enumeration [Web Services for Windows], WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, WS_OPERATION_CONTEXT_PROPERTY_OUTPUT_MESSAGE, webservices/WS_OPERATION_CONTEXT_PROPERTY_CHANNEL, webservices/WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE, webservices/WS_OPERATION_CONTEXT_PROPERTY_CONTRACT_DESCRIPTION, webservices/WS_OPERATION_CONTEXT_PROPERTY_HEAP, webservices/WS_OPERATION_CONTEXT_PROPERTY_HOST_USER_STATE, webservices/WS_OPERATION_CONTEXT_PROPERTY_ID, webservices/WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, webservices/WS_OPERATION_CONTEXT_PROPERTY_OUTPUT_MESSAGE, wsw.ws_operation_context_property_id
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_OPERATION_CONTEXT_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_OPERATION_CONTEXT_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_OPERATION_CONTEXT_PROPERTY_ID
+req.redist: 
 ---
 
 # WS_OPERATION_CONTEXT_PROPERTY_ID enumeration

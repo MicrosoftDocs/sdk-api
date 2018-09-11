@@ -4,17 +4,16 @@ title: IUIAnimationVariable2::GetFinalVectorValue
 author: windows-sdk-content
 description: Gets the final value of the animation variable for the specified dimension. This is the value after all currently scheduled animations have completed.
 old-location: uianimation\iuianimationvariable2_getfinalvectorvalue.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 2794B65F-0461-4E0F-832D-CEC9BEE60B6E
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetFinalVectorValue, GetFinalVectorValue method [Windows Animation], GetFinalVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetFinalVectorValue method, IUIAnimationVariable2.GetFinalVectorValue, IUIAnimationVariable2::GetFinalVectorValue, uianimation.iuianimationvariable2_getfinalvectorvalue, uianimation/IUIAnimationVariable2::GetFinalVectorValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationVariable2.GetFinalVectorValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationVariable2::GetFinalVectorValue

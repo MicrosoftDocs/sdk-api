@@ -4,17 +4,16 @@ title: "_SSTP_CERT_INFO"
 author: windows-sdk-content
 description: Contains information about a Secure Socket Tunneling Protocool (SSTP) based certificate.
 old-location: rras\sstp_cert_info.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 004fce6d-c617-4356-9a8f-f7b4fbb3d4c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSSTP_CERT_INFO, SSTP_CERT_INFO, SSTP_CERT_INFO structure [RAS], _SSTP_CERT_INFO, mprapi/SSTP_CERT_INFO, rras.sstp_cert_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CERT_INFO, *PSSTP_CERT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SSTP_CERT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SSTP_CERT_INFO, *PSSTP_CERT_INFO
+req.redist: 
 ---
 
 # _SSTP_CERT_INFO structure

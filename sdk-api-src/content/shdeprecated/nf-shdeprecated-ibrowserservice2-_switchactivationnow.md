@@ -4,17 +4,16 @@ title: IBrowserService2::_SwitchActivationNow
 author: windows-sdk-content
 description: Deprecated. Coordinates state updates while switching between current and pending browser views.
 old-location: shell\IBrowserService2__SwitchActivationNow.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4e0a74cf-e554-4be4-8221-5a64addff12d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_SwitchActivationNow method, IBrowserService2._SwitchActivationNow, IBrowserService2::_SwitchActivationNow, _SwitchActivationNow, _SwitchActivationNow method [Windows Shell], _SwitchActivationNow method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_SwitchActivationNow, shell.IBrowserService2__SwitchActivationNow, zone_IBrowserService2__SwitchActivationNow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2._SwitchActivationNow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

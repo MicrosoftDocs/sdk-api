@@ -4,17 +4,16 @@ title: IFsrmReport::put_Description
 author: windows-sdk-content
 description: Retrieves or sets the description of the report.
 old-location: fsrm\ifsrmreport_description.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: b91a770d-8118-4a7e-adb5-36f6d59ea484
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],Description property, IFsrmReport.Description, IFsrmReport.put_Description, IFsrmReport::Description, IFsrmReport::get_Description, IFsrmReport::put_Description, fs.ifsrmreport_description, fsrm.ifsrmreport_description, fsrmreports/IFsrmReport::Description, fsrmreports/IFsrmReport::get_Description, fsrmreports/IFsrmReport::put_Description, put_Description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmReport.put_Description
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReport::put_Description

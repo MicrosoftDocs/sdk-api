@@ -4,7 +4,7 @@ title: D2D1_SVG_PATH_COMMAND
 author: windows-sdk-content
 description: Represents a path commmand. Each command may reference floats from the segment data. Commands ending in _ABSOLUTE interpret data as absolute coordinate. Commands ending in _RELATIVE interpret data as being relative to the previous point.
 old-location: direct2d\d2d1_svg_path_command.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: E0A5F435-F4FB-4CD3-84B3-962CB7B96446
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_PATH_COMMAND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_SVG_PATH_COMMAND
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_SVG_PATH_COMMAND
+req.redist: 
 ---
 
 # D2D1_SVG_PATH_COMMAND enumeration

@@ -4,17 +4,16 @@ title: IOpcRelationshipSelectorEnumerator::MoveNext
 author: windows-sdk-content
 description: Moves the current position of the enumerator to the next IOpcRelationshipSelectorinterface pointer.
 old-location: opc\iopcrelationshipselectorenumerator_movenext.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: a958f62d-3e9a-47d9-8ac2-a92a21a74ed1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcRelationshipSelectorEnumerator.MoveNext, IOpcRelationshipSelectorEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, msopc/IOpcRelationshipSelectorEnumerator::MoveNext, opc.iopcrelationshipselectorenumerator_movenext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcRelationshipSelectorEnumerator.MoveNext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcRelationshipSelectorEnumerator::MoveNext

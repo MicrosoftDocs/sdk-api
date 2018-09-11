@@ -4,17 +4,16 @@ title: CStdStubBuffer_AddRef function
 author: windows-sdk-content
 description: The CStdStubBuffer_AddRef function implements the IRpcStubBuffer::AddRef method.
 old-location: rpc\cstdstubbuffer_addref.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 4dbef7a0-6332-4307-8d22-40414a1df4f5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CStdStubBuffer_AddRef, CStdStubBuffer_AddRef function [RPC], rpc.cstdstubbuffer_addref, rpcproxy/CStdStubBuffer_AddRef
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CStdStubBuffer_AddRef
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CStdStubBuffer_AddRef function

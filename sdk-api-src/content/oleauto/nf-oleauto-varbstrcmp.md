@@ -4,17 +4,16 @@ title: VarBstrCmp function
 author: windows-sdk-content
 description: Compares two variants of type BSTR.
 old-location: automat\varbstrcmp.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 0b7d8735-19d5-4f6e-8b55-05f2c73ef3f8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNOREKASHIDA, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, VarBstrCmp, VarBstrCmp function [Automation], _oa96_VarBstrCmp, automat.varbstrcmp, oleauto/VarBstrCmp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarBstrCmp
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarBstrCmp function

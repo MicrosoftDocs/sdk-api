@@ -4,17 +4,16 @@ title: "_USER_INFO_1005"
 author: windows-sdk-content
 description: The USER_INFO_1005 structure contains a privilege level to assign to a user network account. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1005_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: a953b48f-bda0-4dce-a153-d4db912de533
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPUSER_INFO_1005, *PUSER_INFO_1005, LPUSER_INFO_1005, LPUSER_INFO_1005 structure pointer [Network Management], PUSER_INFO_1005, PUSER_INFO_1005 structure pointer [Network Management], USER_INFO_1005, USER_INFO_1005 structure [Network Management], USER_PRIV_ADMIN, USER_PRIV_GUEST, USER_PRIV_USER, _USER_INFO_1005, _win32_user_info_1005_str, lmaccess/LPUSER_INFO_1005, lmaccess/PUSER_INFO_1005, lmaccess/USER_INFO_1005, netmgmt.user_info_1005_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INFO_1005, *PUSER_INFO_1005, *LPUSER_INFO_1005
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_INFO_1005
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USER_INFO_1005, *PUSER_INFO_1005, *LPUSER_INFO_1005
+req.redist: 
 ---
 
 # _USER_INFO_1005 structure

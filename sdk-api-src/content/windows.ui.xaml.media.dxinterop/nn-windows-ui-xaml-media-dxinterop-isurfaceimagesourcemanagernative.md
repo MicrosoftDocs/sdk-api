@@ -4,17 +4,16 @@ title: ISurfaceImageSourceManagerNative
 author: windows-sdk-content
 description: Enables performing bulk operations across all SurfaceImageSource objects created in the same process.
 old-location: winrt\isurfaceimagesourcemanagernative.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 6DFC7A3D-0C29-421B-ADB0-360017DE7433
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISurfaceImageSourceManagerNative, ISurfaceImageSourceManagerNative interface [Windows Runtime], ISurfaceImageSourceManagerNative interface [Windows Runtime],described, windows/ISurfaceImageSourceManagerNative, winrt.isurfaceimagesourcemanagernative
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISurfaceImageSourceManagerNative
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.Xaml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISurfaceImageSourceManagerNative interface

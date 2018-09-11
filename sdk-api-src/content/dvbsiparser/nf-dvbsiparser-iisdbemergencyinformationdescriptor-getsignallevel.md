@@ -4,17 +4,16 @@ title: IIsdbEmergencyInformationDescriptor::GetSignalLevel
 author: windows-sdk-content
 description: Gets a flag that indicates the emergency alarm signal type from an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getsignallevel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: cf0c8d51-4ec8-4dad-8ef3-f18339ed0c0c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSignalLevel, GetSignalLevel method [Microsoft TV Technologies], GetSignalLevel method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetSignalLevel method, IIsdbEmergencyInformationDescriptor.GetSignalLevel, IIsdbEmergencyInformationDescriptor::GetSignalLevel, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetSignalLevel, mstv.iisdbemergencyinformationdescriptor_getsignallevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbEmergencyInformationDescriptor.GetSignalLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbEmergencyInformationDescriptor::GetSignalLevel

@@ -4,17 +4,16 @@ title: IMFMediaEngine::GetReadyState
 author: windows-sdk-content
 description: Gets the ready state, which indicates whether the current media resource can be rendered.
 old-location: mf\imfmediaengine_getreadystate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: B8C9B600-87FD-4DE6-8794-5C1E41449554
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetReadyState, GetReadyState method [Media Foundation], GetReadyState method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetReadyState method, IMFMediaEngine.GetReadyState, IMFMediaEngine::GetReadyState, mf.imfmediaengine_getreadystate, mfmediaengine/IMFMediaEngine::GetReadyState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngine.GetReadyState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngine::GetReadyState

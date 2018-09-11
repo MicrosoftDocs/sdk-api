@@ -4,17 +4,16 @@ title: IPropertyUI::GetDisplayName
 author: windows-sdk-content
 description: Developers should use IPropertyDescription instead. Gets a string specifying the name of the property suitable for display to users.
 old-location: properties\IPropertyUI_GetDisaplayName.htm
-old-project: properties
+tech.root: properties
 ms.assetid: F1B97A0C-B21F-45d6-8B2D-02BFF74C9CEE
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Windows Properties], GetDisplayName method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetDisplayName method, IPropertyUI.GetDisplayName, IPropertyUI::GetDisplayName, PUIFNF_DEFAULT, PUIFNF_MNEMONIC, _shell_IPropertyUI_GetDisaplayName, properties.IPropertyUI_GetDisaplayName, shell.IPropertyUI_GetDisaplayName, shobjidl_core/IPropertyUI::GetDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyUI.GetDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyUI::GetDisplayName

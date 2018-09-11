@@ -4,17 +4,16 @@ title: IDCompositionTurbulenceEffect::SetSeed
 author: windows-sdk-content
 description: Sets the seed for the pseudo random generator.
 old-location: directcomp\idcompositionturbulenceeffect_setseed.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: FF980DF7-9DD2-4B98-AE84-CB4CA3A1226B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetSeed method, IDCompositionTurbulenceEffect.SetSeed, IDCompositionTurbulenceEffect::SetSeed, SetSeed, SetSeed method [DirectComposition], SetSeed method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetSeed, directcomp.idcompositionturbulenceeffect_setseed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionTurbulenceEffect.SetSeed
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionTurbulenceEffect::SetSeed

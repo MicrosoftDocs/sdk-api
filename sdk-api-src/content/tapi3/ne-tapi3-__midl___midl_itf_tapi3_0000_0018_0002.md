@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_tapi3_0000_0018_0002"
 author: windows-sdk-content
 description: The MSP_CALL_EVENT constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_CALL_EVENT.
 old-location: tapi3\msp_call_event.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c1bbc75e-04ad-4db4-9730-abbbf89306dd
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_CALL_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSP_CALL_EVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MSP_CALL_EVENT
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_tapi3_0000_0018_0002 enumeration

@@ -4,17 +4,16 @@ title: ICatalogCollection::Populate
 author: windows-sdk-content
 description: Populates the collection with data for all items contained in the collection.
 old-location: cos\icatalogcollection_populate.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 817f203c-ddc6-47bd-a946-2393067eca44
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICatalogCollection interface [COM+],Populate method, ICatalogCollection.Populate, ICatalogCollection::Populate, Populate, Populate method [COM+], Populate method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_Populate, comadmin/ICatalogCollection::Populate, cos.icatalogcollection_populate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICatalogCollection.Populate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatalogCollection::Populate

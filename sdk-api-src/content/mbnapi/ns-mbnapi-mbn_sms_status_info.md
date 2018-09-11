@@ -4,17 +4,16 @@ title: MBN_SMS_STATUS_INFO
 author: windows-sdk-content
 description: The MBN_SMS_STATUS_INFO structure contains the status of the SMS message store of a device.
 old-location: mbn\mbn_sms_status_info.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 9146d230-c96c-4d70-9bc5-e91896e19d35
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_SMS_STATUS_INFO, MBN_SMS_STATUS_INFO structure [Microsoft Broadband Networks], mbn.mbn_sms_status_info, mbnapi/MBN_SMS_STATUS_INFO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_SMS_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_SMS_STATUS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_SMS_STATUS_INFO
+req.redist: 
 ---
 
 # MBN_SMS_STATUS_INFO structure

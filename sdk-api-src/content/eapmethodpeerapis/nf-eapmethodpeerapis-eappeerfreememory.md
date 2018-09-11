@@ -4,17 +4,16 @@ title: EapPeerFreeMemory function
 author: windows-sdk-content
 description: Releases all memory associated with an opaque user interface context data buffer.
 old-location: eaphost\eappeerfreememory.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 544d999c-d857-4ca5-b5f8-b15780fc7019
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapPeerFreeMemory, EapPeerFreeMemory function [EAPHost], eaphost.eappeerfreememory, eapmethodpeerapis/EapPeerFreeMemory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapPeerFreeMemory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapPeerFreeMemory function

@@ -4,17 +4,16 @@ title: DWRITE_SCRIPT_SHAPES
 author: windows-sdk-content
 description: Indicates additional shaping requirements for text.
 old-location: directwrite\dwrite_script_shapes.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 81ec0f3a-4dab-4497-893f-d791d9d9be6a
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_SCRIPT_SHAPES, DWRITE_SCRIPT_SHAPES enumeration [Direct Write], DWRITE_SCRIPT_SHAPES_DEFAULT, DWRITE_SCRIPT_SHAPES_NO_VISUAL, directwrite.dwrite_script_shapes, dwrite/DWRITE_SCRIPT_SHAPES, dwrite/DWRITE_SCRIPT_SHAPES_DEFAULT, dwrite/DWRITE_SCRIPT_SHAPES_NO_VISUAL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_SCRIPT_SHAPES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_SCRIPT_SHAPES enumeration

@@ -4,17 +4,16 @@ title: IFsrmReportManager::GetOutputDirectory
 author: windows-sdk-content
 description: Retrieves the local directory path where the reports with the specified context are stored.
 old-location: fsrm\ifsrmreportmanager_getoutputdirectory.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 90df1a6e-e2e6-4095-8337-61bfd172e203
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],GetOutputDirectory method, GetOutputDirectory, GetOutputDirectory method [File Server Resource Manager], GetOutputDirectory method [File Server Resource Manager],FsrmReportManager class, GetOutputDirectory method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetOutputDirectory method, IFsrmReportManager.GetOutputDirectory, IFsrmReportManager::GetOutputDirectory, fs.ifsrmreportmanager_getoutputdirectory, fsrm.ifsrmreportmanager_getoutputdirectory, fsrmreports/IFsrmReportManager::GetOutputDirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmReportManager.GetOutputDirectory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportManager::GetOutputDirectory

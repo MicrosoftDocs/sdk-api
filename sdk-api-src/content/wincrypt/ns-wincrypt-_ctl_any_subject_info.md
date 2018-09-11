@@ -4,17 +4,16 @@ title: "_CTL_ANY_SUBJECT_INFO"
 author: windows-sdk-content
 description: Contains a SubjectAlgorithm to be matched in the certificate trust list (CTL) and the SubjectIdentifier to be matched in one of the CTL entries in calls to CertFindSubjectInCTL.
 old-location: security\ctl_any_subject_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 367e9914-b69b-47ad-a20a-3dd067708787
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCTL_ANY_SUBJECT_INFO, CTL_ANY_SUBJECT_INFO, CTL_ANY_SUBJECT_INFO structure [Security], PCTL_ANY_SUBJECT_INFO, PCTL_ANY_SUBJECT_INFO structure pointer [Security], _CTL_ANY_SUBJECT_INFO, _crypto2_ctl_any_subject_info, security.ctl_any_subject_info, wincrypt/CTL_ANY_SUBJECT_INFO, wincrypt/PCTL_ANY_SUBJECT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CTL_ANY_SUBJECT_INFO, *PCTL_ANY_SUBJECT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CTL_ANY_SUBJECT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CTL_ANY_SUBJECT_INFO, *PCTL_ANY_SUBJECT_INFO
+req.redist: 
 ---
 
 # _CTL_ANY_SUBJECT_INFO structure

@@ -4,17 +4,16 @@ title: DWRITE_FONT_STRETCH
 author: windows-sdk-content
 description: Represents the degree to which a font has been stretched compared to a font's normal aspect ratio.
 old-location: directwrite\dwrite_font_stretch.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 10b3a703-239b-4fb1-9a20-e466b123b060
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_FONT_STRETCH, DWRITE_FONT_STRETCH enumeration [Direct Write], DWRITE_FONT_STRETCH_CONDENSED, DWRITE_FONT_STRETCH_EXPANDED, DWRITE_FONT_STRETCH_EXTRA_CONDENSED, DWRITE_FONT_STRETCH_EXTRA_EXPANDED, DWRITE_FONT_STRETCH_MEDIUM, DWRITE_FONT_STRETCH_NORMAL, DWRITE_FONT_STRETCH_SEMI_CONDENSED, DWRITE_FONT_STRETCH_SEMI_EXPANDED, DWRITE_FONT_STRETCH_ULTRA_CONDENSED, DWRITE_FONT_STRETCH_ULTRA_EXPANDED, DWRITE_FONT_STRETCH_UNDEFINED, directwrite.dwrite_font_stretch, dwrite/DWRITE_FONT_STRETCH, dwrite/DWRITE_FONT_STRETCH_CONDENSED, dwrite/DWRITE_FONT_STRETCH_EXPANDED, dwrite/DWRITE_FONT_STRETCH_EXTRA_CONDENSED, dwrite/DWRITE_FONT_STRETCH_EXTRA_EXPANDED, dwrite/DWRITE_FONT_STRETCH_MEDIUM, dwrite/DWRITE_FONT_STRETCH_NORMAL, dwrite/DWRITE_FONT_STRETCH_SEMI_CONDENSED, dwrite/DWRITE_FONT_STRETCH_SEMI_EXPANDED, dwrite/DWRITE_FONT_STRETCH_ULTRA_CONDENSED, dwrite/DWRITE_FONT_STRETCH_ULTRA_EXPANDED, dwrite/DWRITE_FONT_STRETCH_UNDEFINED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_FONT_STRETCH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_FONT_STRETCH enumeration

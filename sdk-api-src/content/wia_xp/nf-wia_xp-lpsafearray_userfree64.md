@@ -4,17 +4,16 @@ title: LPSAFEARRAY_UserFree64 function
 author: windows-sdk-content
 description: Frees resources on the server side when called by RPC stub files.
 old-location: automat\lpsafearray_userfree64.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 79D73C90-4F31-4F18-B47D-2FBB4D9ED45C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LPSAFEARRAY_UserFree64, LPSAFEARRAY_UserFree64 function [Automation], automat.lpsafearray_userfree64, wia_xp/LPSAFEARRAY_UserFree64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIAVIDEO_STATE
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LPSAFEARRAY_UserFree64
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LPSAFEARRAY_UserFree64 function
@@ -60,7 +58,12 @@ Frees resources on the server side when called by RPC stub files.
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

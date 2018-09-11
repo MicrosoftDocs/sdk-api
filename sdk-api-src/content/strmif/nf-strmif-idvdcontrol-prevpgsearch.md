@@ -4,17 +4,16 @@ title: IDvdControl::PrevPGSearch
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current program and starts playback from the previous program within the program chain (PGC).
 old-location: dshow\idvdcontrol_prevpgsearch.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8e2d0531-23be-471b-8094-d21771209c79
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl interface [DirectShow],PrevPGSearch method, IDvdControl.PrevPGSearch, IDvdControl::PrevPGSearch, IDvdControlPrevPGSearch, PrevPGSearch, PrevPGSearch method [DirectShow], PrevPGSearch method [DirectShow],IDvdControl interface, dshow.idvdcontrol_prevpgsearch, strmif/IDvdControl::PrevPGSearch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdControl.PrevPGSearch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl::PrevPGSearch

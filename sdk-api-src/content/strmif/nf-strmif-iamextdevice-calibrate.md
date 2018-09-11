@@ -4,17 +4,16 @@ title: IAMExtDevice::Calibrate
 author: windows-sdk-content
 description: The Calibrate method calibrates an external device's transport mechanism.
 old-location: dshow\iamextdevice_calibrate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0c760669-c494-45bb-994e-5b4599db7de4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: Calibrate, Calibrate method [DirectShow], Calibrate method [DirectShow],IAMExtDevice interface, IAMExtDevice interface [DirectShow],Calibrate method, IAMExtDevice.Calibrate, IAMExtDevice::Calibrate, IAMExtDeviceCalibrate, dshow.iamextdevice_calibrate, strmif/IAMExtDevice::Calibrate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMExtDevice.Calibrate
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtDevice::Calibrate

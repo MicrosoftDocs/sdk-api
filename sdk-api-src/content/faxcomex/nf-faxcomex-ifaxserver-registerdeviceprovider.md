@@ -1,0 +1,137 @@
+---
+UID: NF:faxcomex.IFaxServer.RegisterDeviceProvider
+title: IFaxServer::RegisterDeviceProvider
+author: windows-sdk-content
+description: The IFaxServer::RegisterDeviceProvider method registers a fax service provider (FSP) with the fax service. Registration takes place after the fax service restarts.
+old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_registerdeviceprovider_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_59ki.htm
+ms.author: windowssdkdev
+ms.date: 08/03/2018
+ms.keywords: IFaxServer interface [Fax Service],RegisterDeviceProvider method, IFaxServer.RegisterDeviceProvider, IFaxServer::RegisterDeviceProvider, RegisterDeviceProvider, RegisterDeviceProvider method [Fax Service], RegisterDeviceProvider method [Fax Service],IFaxServer interface, _mfax_faxserver.registerdeviceprovider, fax._mfax_faxserver_cpp_mfax_faxserver_registerdeviceprovider_cpp, fax._mfax_faxserver_registerdeviceprovider, faxcomex/IFaxServer::RegisterDeviceProvider
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: faxcomex.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxServer.RegisterDeviceProvider
+ - IFaxServer.RegisterDeviceProvider
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# IFaxServer::RegisterDeviceProvider
+
+
+## -description
+
+
+The <b>IFaxServer::RegisterDeviceProvider</b> method registers a fax service provider (FSP) with the fax service. Registration takes place after the fax service restarts.
+
+
+## -parameters
+
+
+
+
+### -param bstrGUID
+
+Type: <b>BSTR</b>
+
+Null-terminated string that contains the GUID that uniquely identifies the FSP that is registering.
+
+
+### -param bstrFriendlyName
+
+Type: <b>BSTR</b>
+
+Null-terminated string that contains the user-friendly name to display for the FSP that is registering.
+
+
+### -param bstrImageName
+
+Type: <b>BSTR</b>
+
+Null-terminated string that contains the fully qualified path and file name of the FSPÂ DLL.
+
+
+### -param TspName
+
+TBD
+
+
+### -param lFSPIVersion
+
+Type: <b>long</b>
+
+A <b>long</b> value that indicates the version of the FSP. Should be equal to 0x00010000.
+
+
+#### - bstrTempName
+
+Type: <b>BSTR</b>
+
+Null-terminated string that contains the name of the telephony service provider associated with the devices for the FSP.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Only an administrator can register a FSP.
+
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farMANAGE_CONFIG</a> access right.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
+ 
+
+ 
+

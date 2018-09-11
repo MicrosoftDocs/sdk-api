@@ -4,17 +4,16 @@ title: VarR8FromBool function
 author: windows-sdk-content
 description: Converts a Boolean value to a double value.
 old-location: automat\varr8frombool.htm
-old-project: automat
+tech.root: automat
 ms.assetid: f1625830-72c6-4efc-b234-f4def897aae6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarR8FromBool, VarR8FromBool function [Automation], _oa96_VarR8FromBool, automat.varr8frombool, oleauto/VarR8FromBool
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarR8FromBool
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarR8FromBool function

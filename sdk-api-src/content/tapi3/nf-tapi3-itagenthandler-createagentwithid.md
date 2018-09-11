@@ -4,17 +4,16 @@ title: ITAgentHandler::CreateAgentWithID
 author: windows-sdk-content
 description: The CreateAgentWithID method creates an Agent object based on an agent identifier.
 old-location: tapi3\itagenthandler_createagentwithid.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 95c70e48-b990-47c7-a8b8-5fa3a84ec5ba
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CreateAgentWithID, CreateAgentWithID method [TAPI 2.2], CreateAgentWithID method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],CreateAgentWithID method, ITAgentHandler.CreateAgentWithID, ITAgentHandler::CreateAgentWithID, _tapi3_itagenthandler_createagentwithid, tapi3.itagenthandler_createagentwithid, tapi3cc/ITAgentHandler::CreateAgentWithID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentHandler.CreateAgentWithID
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentHandler::CreateAgentWithID

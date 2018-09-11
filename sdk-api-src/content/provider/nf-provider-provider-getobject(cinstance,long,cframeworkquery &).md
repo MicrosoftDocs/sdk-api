@@ -4,17 +4,16 @@ title: Provider::GetObject(CInstance,long,CFrameworkQuery &)
 author: windows-sdk-content
 description: The GetObject method is called by WMI to retrieve an instance of a class.
 old-location: wmi\provider_getobject.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: c8e2633a-cbea-422c-9598-1b1b1104bbc2
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z, ?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z, GetObject, GetObject method [Windows Management Instrumentation], GetObject method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetObject method, Provider.GetObject, Provider.GetObject(CInstance,long,CFrameworkQuery &), Provider::GetObject, Provider::GetObject(CInstance,long,CFrameworkQuery &), _hmm_provider_getobject, provider/Provider::GetObject, wmi.provider_getobject"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # Provider::GetObject(CInstance,long,CFrameworkQuery &)
@@ -86,7 +84,7 @@ The following flags are handled by (and filtered out) by WMI:
 <li><b>WBEM_FLAG_RETURN_IMMEDIATELY</b></li>
 </ul>
 
-### -param Query [ref]
+#### - Query [ref]
 
 Query object that indicates the set of properties to be populated, as requested by a call to <b>Provider::GetObject</b>.
 

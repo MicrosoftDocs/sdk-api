@@ -4,17 +4,16 @@ title: IAzRole::get_MembersName
 author: windows-sdk-content
 description: Retrieves the account names of accounts that belong to the role.
 old-location: security\iazrole_membersname.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: defaefa8-2d76-49c6-bd1c-8b386f9dc5f1
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzRole object [Security],MembersName property, IAzRole interface [Security],MembersName property, IAzRole.MembersName, IAzRole.get_MembersName, IAzRole::MembersName, IAzRole::get_MembersName, MembersName property [Security], MembersName property [Security],AzRole object, MembersName property [Security],IAzRole interface, azroles/IAzRole::MembersName, azroles/IAzRole::get_MembersName, get_MembersName, security.iazrole_membersname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzRole.MembersName
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzRole::get_MembersName

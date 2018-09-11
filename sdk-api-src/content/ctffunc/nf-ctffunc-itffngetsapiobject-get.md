@@ -4,17 +4,16 @@ title: ITfFnGetSAPIObject::Get
 author: windows-sdk-content
 description: ITfFnGetSAPIObject::Get method
 old-location: tsf\itffngetsapiobject_get.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 4dfa2bd2-e25c-4481-ab07-2f764434504d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Get, Get method [Text Services Framework], Get method [Text Services Framework],ITfFnGetSAPIObject interface, ITfFnGetSAPIObject interface [Text Services Framework],Get method, ITfFnGetSAPIObject.Get, ITfFnGetSAPIObject::Get, _tsf_itffngetsapiobject_get_ref, ctffunc/ITfFnGetSAPIObject::Get, tsf.itffngetsapiobject_get
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnGetSAPIObject.Get
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfFnGetSAPIObject::Get

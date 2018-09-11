@@ -4,17 +4,16 @@ title: DnsRecordSetCompare function
 author: windows-sdk-content
 description: The DnsRecordSetCompare function compares two RR sets.
 old-location: dns\dnsrecordsetcompare.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 008cf2ba-ccb2-430a-85d9-68d424b6938f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DnsRecordSetCompare, DnsRecordSetCompare function [DNS], _dns_dnsrecordsetcompare, dns.dnsrecordsetcompare, windns/DnsRecordSetCompare
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_FREE_TYPE
+req.lib: Dnsapi.lib
+req.dll: Dnsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DnsRecordSetCompare
 product: Windows
 targetos: Windows
-req.lib: Dnsapi.lib
-req.dll: Dnsapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DnsRecordSetCompare function

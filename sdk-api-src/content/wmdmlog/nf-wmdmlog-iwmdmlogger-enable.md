@@ -4,17 +4,16 @@ title: IWMDMLogger::Enable
 author: windows-sdk-content
 description: The Enable method enables or disables logging. Logging is enabled by default.
 old-location: wmdm\iwmdmlogger_enable.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 6b0e48ff-ea34-4bcc-93e8-5ef0f5c39b06
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Enable, Enable method [windows Media Device Manager], Enable method [windows Media Device Manager],IWMDMLogger interface, IWMDMLogger interface [windows Media Device Manager],Enable method, IWMDMLogger.Enable, IWMDMLogger::Enable, IWMDMLoggerEnable, wmdm.iwmdmlogger_enable, wmdmlog/IWMDMLogger::Enable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmdmlog.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_INDEX_IDENTIFIER
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMLogger.Enable
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMLogger::Enable

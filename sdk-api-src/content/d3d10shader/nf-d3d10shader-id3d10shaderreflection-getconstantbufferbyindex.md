@@ -4,17 +4,16 @@ title: ID3D10ShaderReflection::GetConstantBufferByIndex
 author: windows-sdk-content
 description: Get a constant buffer by index.
 old-location: direct3d10\id3d10shaderreflection_getconstantbufferbyindex.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection_getconstantbufferbyindex.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetConstantBufferByIndex, GetConstantBufferByIndex method [Direct3D 10], GetConstantBufferByIndex method [Direct3D 10],ID3D10ShaderReflection interface, ID3D10ShaderReflection interface [Direct3D 10],GetConstantBufferByIndex method, ID3D10ShaderReflection.GetConstantBufferByIndex, ID3D10ShaderReflection::GetConstantBufferByIndex, d3d10shader/ID3D10ShaderReflection::GetConstantBufferByIndex, df0b7d8a-d6eb-ab55-7076-d5723df0ee5d, direct3d10.id3d10shaderreflection_getconstantbufferbyindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_MESSAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10ShaderReflection.GetConstantBufferByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10ShaderReflection::GetConstantBufferByIndex

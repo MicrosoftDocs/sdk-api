@@ -4,17 +4,16 @@ title: IMFTimedText::GetTextTracks
 author: windows-sdk-content
 description: Gets the list of all the timed-text tracks in the timed-text component.
 old-location: mf\imftimedtext_gettexttracks.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 75F2874A-67E0-4167-9B5D-A8B90C3509E0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetTextTracks, GetTextTracks method [Media Foundation], GetTextTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetTextTracks method, IMFTimedText.GetTextTracks, IMFTimedText::GetTextTracks, mf.imftimedtext_gettexttracks, mfmediaengine/IMFTimedText::GetTextTracks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedText.GetTextTracks
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedText::GetTextTracks
@@ -62,7 +60,7 @@ Gets the list of all the timed-text tracks in the timed-text component.
 
 ### -param textTracks
 
-
+TBD
 
 
 

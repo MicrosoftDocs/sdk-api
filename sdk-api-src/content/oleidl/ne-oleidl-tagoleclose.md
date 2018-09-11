@@ -4,31 +4,31 @@ title: tagOLECLOSE
 author: windows-sdk-content
 description: Indicates whether an object should be saved before closing.
 old-location: com\oleclose.htm
-old-project: com
+tech.root: com
 ms.assetid: 386f24a4-11d7-4471-960e-1a3ff67ba3c5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OLECLOSE, OLECLOSE enumeration [COM], OLECLOSE_NOSAVE, OLECLOSE_PROMPTSAVE, OLECLOSE_SAVEIFDIRTY, _ole_OLECLOSE, com.oleclose, ole/OLECLOSE, ole/OLECLOSE_NOSAVE, ole/OLECLOSE_PROMPTSAVE, ole/OLECLOSE_SAVEIFDIRTY, tagOLECLOSE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: OleIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: OLEUIVIEWPROPSW (Unicode) and OLEUIVIEWPROPSA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLECLOSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OLECLOSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLECLOSE
+req.redist: 
 ---
 
 # tagOLECLOSE enumeration

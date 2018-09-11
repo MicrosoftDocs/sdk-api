@@ -4,17 +4,16 @@ title: IEnumPublishedApps::Reset
 author: windows-sdk-content
 description: Resets the enumeration of IPublishedApp objects to the first item.
 old-location: shell\IEnumPublishedApps_Reset.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 007f6636-725a-4af5-ad3f-578f8183a088
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IEnumPublishedApps interface [Windows Shell],Reset method, IEnumPublishedApps.Reset, IEnumPublishedApps::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumPublishedApps interface, inet_IEnumPublishedApps_Reset, shappmgr/IEnumPublishedApps::Reset, shell.IEnumPublishedApps_Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PUBAPPINFOFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumPublishedApps.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumPublishedApps::Reset

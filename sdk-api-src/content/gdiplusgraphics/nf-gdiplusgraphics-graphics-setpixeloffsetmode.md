@@ -4,17 +4,16 @@ title: Graphics::SetPixelOffsetMode
 author: windows-sdk-content
 description: The Graphics::SetPixelOffsetMode method sets the pixel offset mode of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetPixelOffsetMode_pixelOffsetMode_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setpixeloffsetmode.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Graphics class [GDI+],SetPixelOffsetMode method, Graphics.SetPixelOffsetMode, Graphics::SetPixelOffsetMode, SetPixelOffsetMode, SetPixelOffsetMode method [GDI+], SetPixelOffsetMode method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetPixelOffsetMode_pixelOffsetMode_, gdiplus._gdiplus_CLASS_Graphics_SetPixelOffsetMode_pixelOffsetMode_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Graphics.SetPixelOffsetMode
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

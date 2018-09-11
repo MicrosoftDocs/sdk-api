@@ -4,17 +4,16 @@ title: IUIAnimationTransitionLibrary2::CreateLinearTransition
 author: windows-sdk-content
 description: Creates a linear scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createlineartransition.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: BD0A9D4E-0306-4C76-8CC2-AA1A747C4538
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateLinearTransition, CreateLinearTransition method [Windows Animation], CreateLinearTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateLinearTransition method, IUIAnimationTransitionLibrary2.CreateLinearTransition, IUIAnimationTransitionLibrary2::CreateLinearTransition, uianimation.iuianimationtransitionlibrary2_createlineartransition, uianimation/IUIAnimationTransitionLibrary2::CreateLinearTransition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTransitionLibrary2.CreateLinearTransition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTransitionLibrary2::CreateLinearTransition

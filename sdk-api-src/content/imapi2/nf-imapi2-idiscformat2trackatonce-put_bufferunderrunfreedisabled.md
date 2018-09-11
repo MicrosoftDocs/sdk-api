@@ -4,17 +4,16 @@ title: IDiscFormat2TrackAtOnce::put_BufferUnderrunFreeDisabled
 author: windows-sdk-content
 description: Determines if Buffer Underrun Free Recording is enabled.
 old-location: imapi\idiscformat2trackatonce_put_bufferunderrunfreedisabled.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 93a19bd7-9302-49f5-a5e5-573bf72725a3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],put_BufferUnderrunFreeDisabled method, IDiscFormat2TrackAtOnce.put_BufferUnderrunFreeDisabled, IDiscFormat2TrackAtOnce::put_BufferUnderrunFreeDisabled, imapi.idiscformat2trackatonce_put_bufferunderrunfreedisabled, imapi2/IDiscFormat2TrackAtOnce::put_BufferUnderrunFreeDisabled, put_BufferUnderrunFreeDisabled, put_BufferUnderrunFreeDisabled method [IMAPI], put_BufferUnderrunFreeDisabled method [IMAPI],IDiscFormat2TrackAtOnce interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2TrackAtOnce.put_BufferUnderrunFreeDisabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2TrackAtOnce::put_BufferUnderrunFreeDisabled

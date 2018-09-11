@@ -4,7 +4,7 @@ title: ldapcontrolA
 author: windows-sdk-content
 description: Represents both client-side and server controls.
 old-location: ldap\ldapcontrol.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: c0b4d712-021d-46f3-8bda-aaf660ec1acc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LDAPControlA, *PLDAPControlA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - LDAPControlW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LDAPControlA, *PLDAPControlA
+req.redist: 
 ---
 
 # ldapcontrolA structure

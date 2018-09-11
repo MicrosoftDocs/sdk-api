@@ -4,7 +4,7 @@ title: "_GLYPHPOS"
 author: windows-sdk-content
 description: The GLYPHPOS structure is used by GDI to provide a graphics driver with a glyph's description and position.
 old-location: display\glyphpos.htm
-old-project: display
+tech.root: display
 ms.assetid: 1eb80e7a-93f5-474c-bed9-5b19f6657788
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GLYPHPOS, *PGLYPHPOS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GLYPHPOS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GLYPHPOS, *PGLYPHPOS
+req.redist: 
 ---
 
 # _GLYPHPOS structure

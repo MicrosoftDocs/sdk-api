@@ -4,17 +4,16 @@ title: "_ID_PARAMETERS"
 author: windows-sdk-content
 description: Represents the format schema for the group of IDs that are used to identify entities in a synchronization session.
 old-location: winsync\id_parameters.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 7391689a-5546-409a-9fff-2ceced1850fe
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ID_PARAMETERS, ID_PARAMETERS structure [Windows Sync], _ID_PARAMETERS, winsync.id_parameters, winsync/ID_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ID_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ID_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ID_PARAMETERS
+req.redist: 
 ---
 
 # _ID_PARAMETERS structure

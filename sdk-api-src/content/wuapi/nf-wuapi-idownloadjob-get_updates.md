@@ -4,17 +4,16 @@ title: IDownloadJob::get_Updates
 author: windows-sdk-content
 description: Gets an interface that contains a read-only collection of the updates that are specified in a download.
 old-location: wua\idownloadjob_updates.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 43ceffc8-f045-4cac-976a-2357ab0d1283
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDownloadJob interface [Windows Update Agent],Updates property, IDownloadJob.Updates, IDownloadJob.get_Updates, IDownloadJob::Updates, IDownloadJob::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IDownloadJob interface, get_Updates, wua.idownloadjob_updates, wuapi/IDownloadJob::Updates, wuapi/IDownloadJob::get_Updates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDownloadJob.get_Updates
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IDownloadJob::get_Updates

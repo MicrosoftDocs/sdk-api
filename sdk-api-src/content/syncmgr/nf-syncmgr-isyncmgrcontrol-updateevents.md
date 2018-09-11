@@ -4,17 +4,16 @@ title: ISyncMgrControl::UpdateEvents
 author: windows-sdk-content
 description: Informs Sync Center that events have been added for a specific handler or item.
 old-location: shell\ISyncMgrControl_UpdateEvents.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 72848e6a-eec3-45fc-b599-a5a8da2e1070
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateEvents method, ISyncMgrControl.UpdateEvents, ISyncMgrControl::UpdateEvents, UpdateEvents, UpdateEvents method [Windows Shell], UpdateEvents method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateEvents, shell.ISyncMgrControl_UpdateEvents, syncmgr/ISyncMgrControl::UpdateEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrControl.UpdateEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrControl::UpdateEvents

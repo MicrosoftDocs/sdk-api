@@ -4,17 +4,16 @@ title: IMbnSms::SmsSendCdma
 author: windows-sdk-content
 description: Sends a message in CDMA format.
 old-location: mbn\imbnsms_smssendcdma.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 5a370e00-929f-4ff9-861f-d0edc880f51d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsSendCdma method, IMbnSms.SmsSendCdma, IMbnSms::SmsSendCdma, SmsSendCdma, SmsSendCdma method [Microsoft Broadband Networks], SmsSendCdma method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smssendcdma, mbnapi/IMbnSms::SmsSendCdma
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnSms.SmsSendCdma
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSms::SmsSendCdma

@@ -4,17 +4,16 @@ title: IDirectInputEffectDriver::SendForceFeedbackCommand
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::SendForceFeedbackCommand method changes the force-feedback state for the device.
 old-location: hid\idirectinputeffectdriver_sendforcefeedbackcommand.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 9a872712-32aa-40b6-9d0f-c51d841342cb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],SendForceFeedbackCommand method, IDirectInputEffectDriver.SendForceFeedbackCommand, IDirectInputEffectDriver::SendForceFeedbackCommand, SendForceFeedbackCommand, SendForceFeedbackCommand method [Human Input Devices], SendForceFeedbackCommand method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_48773665-821d-428e-a637-7dc77a85cd39.xml, dinputd/IDirectInputEffectDriver::SendForceFeedbackCommand, hid.idirectinputeffectdriver_sendforcefeedbackcommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputEffectDriver.SendForceFeedbackCommand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputEffectDriver::SendForceFeedbackCommand
@@ -59,9 +58,14 @@ The <b>IDirectInputEffectDriver::SendForceFeedbackCommand </b>method changes the
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

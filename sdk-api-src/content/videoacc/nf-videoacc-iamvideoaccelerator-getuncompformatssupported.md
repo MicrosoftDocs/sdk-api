@@ -4,17 +4,16 @@ title: IAMVideoAccelerator::GetUncompFormatsSupported
 author: windows-sdk-content
 description: The GetUncompFormatsSupported method gets a list of uncompressed pixel formats that can be rendered using a specified DirectX Video Acceleration (DXVA) profile.
 old-location: dshow\iamvideoaccelerator_getuncompformatssupported.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 33f9a4ee-4de9-4853-9581-808d7a07bfc4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetUncompFormatsSupported, GetUncompFormatsSupported method [DirectShow], GetUncompFormatsSupported method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetUncompFormatsSupported method, IAMVideoAccelerator.GetUncompFormatsSupported, IAMVideoAccelerator::GetUncompFormatsSupported, IAMVideoAcceleratorGetUncompFormatsSupported, dshow.iamvideoaccelerator_getuncompformatssupported, videoacc/IAMVideoAccelerator::GetUncompFormatsSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMVideoAccelerator.GetUncompFormatsSupported
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAMVideoAccelerator::GetUncompFormatsSupported

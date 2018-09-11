@@ -4,17 +4,16 @@ title: MBN_ACTIVATION_STATE
 author: windows-sdk-content
 description: The MBN_ACTIVATION_STATE enumerated type indicates the current data connection state.
 old-location: mbn\mbn_activation_state.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 712b9ead-8e38-45b1-8dff-b8906056d3d6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_ACTIVATION_STATE, MBN_ACTIVATION_STATE enumeration [Microsoft Broadband Networks], MBN_ACTIVATION_STATE_ACTIVATED, MBN_ACTIVATION_STATE_ACTIVATING, MBN_ACTIVATION_STATE_DEACTIVATED, MBN_ACTIVATION_STATE_DEACTIVATING, MBN_ACTIVATION_STATE_NONE, mbn.mbn_activation_state, mbnapi/MBN_ACTIVATION_STATE, mbnapi/MBN_ACTIVATION_STATE_ACTIVATED, mbnapi/MBN_ACTIVATION_STATE_ACTIVATING, mbnapi/MBN_ACTIVATION_STATE_DEACTIVATED, mbnapi/MBN_ACTIVATION_STATE_DEACTIVATING, mbnapi/MBN_ACTIVATION_STATE_NONE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_ACTIVATION_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_ACTIVATION_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_ACTIVATION_STATE
+req.redist: 
 ---
 
 # MBN_ACTIVATION_STATE enumeration

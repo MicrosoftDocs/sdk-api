@@ -4,17 +4,16 @@ title: PeerGraphEnumConnections function
 author: windows-sdk-content
 description: The PeerGraphEnumConnections function creates and returns an enumeration handle used to enumerate the connections of a local node.
 old-location: p2p\peergraphenumconnections.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: ef4ea3e2-fd71-48d8-a9a8-db38ef06df20
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerGraphEnumConnections, PeerGraphEnumConnections function [Peer Networking], p2p.peergraphenumconnections, p2p/PeerGraphEnumConnections
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2PGraph.lib
+req.dll: P2PGraph.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerGraphEnumConnections
 product: Windows
 targetos: Windows
-req.lib: P2PGraph.lib
-req.dll: P2PGraph.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerGraphEnumConnections function

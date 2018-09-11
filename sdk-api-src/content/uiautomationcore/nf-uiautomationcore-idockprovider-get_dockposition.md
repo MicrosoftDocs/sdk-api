@@ -4,17 +4,16 @@ title: IDockProvider::get_DockPosition
 author: windows-sdk-content
 description: Indicates the current docking position of this element.
 old-location: winauto\uiauto_IDockProvider_DockPosition.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: aa170dec-a4e1-48ac-8434-a24b79006653
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DockPosition property [Windows Accessibility], DockPosition property [Windows Accessibility],IDockProvider interface, IDockProvider interface [Windows Accessibility],DockPosition property, IDockProvider.DockPosition, IDockProvider.get_DockPosition, IDockProvider::DockPosition, IDockProvider::get_DockPosition, get_DockPosition, uiauto.uiauto_IDockProvider_DockPosition, uiauto_IDockProvider_DockPosition, uiautomationcore/IDockProvider::DockPosition, uiautomationcore/IDockProvider::get_DockPosition, winauto.uiauto_IDockProvider_DockPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDockProvider.get_DockPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDockProvider::get_DockPosition

@@ -4,17 +4,16 @@ title: IMFMediaEngineNeedKeyNotify::NeedKey
 author: windows-sdk-content
 description: Notifies the application that a key or keys are needed along with any initialization data.
 old-location: mf\imfmediaengineneedkeynotify_needkey.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2b9a64d6-1a0f-4375-973a-42734ac5658e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaEngineNeedKeyNotify interface [Media Foundation],NeedKey method, IMFMediaEngineNeedKeyNotify.NeedKey, IMFMediaEngineNeedKeyNotify::NeedKey, NeedKey, NeedKey method [Media Foundation], NeedKey method [Media Foundation],IMFMediaEngineNeedKeyNotify interface, mf.imfmediaengineneedkeynotify_needkey, mfmediaengine/IMFMediaEngineNeedKeyNotify::NeedKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineNeedKeyNotify.NeedKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineNeedKeyNotify::NeedKey

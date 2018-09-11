@@ -4,17 +4,16 @@ title: IQueueCommand::InvokeAtStreamTime
 author: windows-sdk-content
 description: The InvokeAtStreamTime method queues a method or property change for execution at a specified stream time (that is, presentation time relative to the current stream time offset).
 old-location: dshow\iqueuecommand_invokeatstreamtime.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 350b6842-207c-47db-a3f8-9e2784d9da67
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IQueueCommand interface [DirectShow],InvokeAtStreamTime method, IQueueCommand.InvokeAtStreamTime, IQueueCommand::InvokeAtStreamTime, IQueueCommandInvokeAtStreamTime, InvokeAtStreamTime, InvokeAtStreamTime method [DirectShow], InvokeAtStreamTime method [DirectShow],IQueueCommand interface, control/IQueueCommand::InvokeAtStreamTime, dshow.iqueuecommand_invokeatstreamtime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IQueueCommand.InvokeAtStreamTime
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IQueueCommand::InvokeAtStreamTime
@@ -80,7 +79,7 @@ Pointer to the interface identifier (IID) of interface.
 
 ### -param dispidMethod
 
-
+TBD
 
 
 ### -param wFlags [in]

@@ -4,17 +4,16 @@ title: ldap_next_attributeW function
 author: windows-sdk-content
 description: Returns the next attribute.
 old-location: ldap\ldap_next_attribute.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 4df50d80-0d01-4d7f-b542-865b84bac2a5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_next_attribute, ldap.ldap__next__attribute, ldap.ldap_next_attribute, ldap_next_attribute, ldap_next_attribute function [LDAP], ldap_next_attributeA, ldap_next_attributeW, winldap/ldap_next_attribute, winldap/ldap_next_attributeA, winldap/ldap_next_attributeW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_next_attributeW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_next_attributeW function

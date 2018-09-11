@@ -4,17 +4,16 @@ title: IContactProperties::GetDate
 author: windows-sdk-content
 description: Retrieves the date and time value at a specified property into a caller's FILETIME structure. All times are stored and returned as Coordinated Universal Time (UTC).
 old-location: wincontacts\_wincontacts_IContactProperties_GetDate.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: 0ee9a870-ad51-4528-b830-bee72586b936
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetDate, GetDate method [Windows Contacts], GetDate method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetDate method, IContactProperties.GetDate, IContactProperties::GetDate, _wincontacts_IContactProperties_GetDate, icontact/IContactProperties::GetDate, wincontacts._wincontacts_IContactProperties_GetDate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactProperties.GetDate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContactProperties::GetDate

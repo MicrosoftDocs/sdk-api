@@ -4,17 +4,16 @@ title: IAnalogRadioTuningSpace::get_MinFrequency
 author: windows-sdk-content
 description: The get_MinFrequency method retrieves the minimum frequency for this tuning space.
 old-location: mstv\ianalogradiotuningspace_get_minfrequency.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9e26360b-b00b-4741-a3c6-814843ff93e7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],get_MinFrequency method, IAnalogRadioTuningSpace.get_MinFrequency, IAnalogRadioTuningSpace::get_MinFrequency, IAnalogRadioTuningSpaceget_MinFrequency, get_MinFrequency, get_MinFrequency method [Microsoft TV Technologies], get_MinFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, mstv.ianalogradiotuningspace_get_minfrequency, tuner/IAnalogRadioTuningSpace::get_MinFrequency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnalogRadioTuningSpace.get_MinFrequency
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAnalogRadioTuningSpace::get_MinFrequency
@@ -62,7 +60,7 @@ The <b>get_MinFrequency</b> method retrieves the minimum frequency for this tuni
 
 ### -param MinFrequencyVal
 
-
+TBD
 
 
 

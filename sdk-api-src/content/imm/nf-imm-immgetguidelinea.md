@@ -4,17 +4,16 @@ title: ImmGetGuideLineA function
 author: windows-sdk-content
 description: Retrieves information about errors. Applications use the information for user notifications.
 old-location: intl\immgetguideline.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: f6639061-0ad9-4f42-b5d4-66ad3f6298aa
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GGL_INDEX, GGL_LEVEL, GGL_PRIVATE, GGL_STRING, ImmGetGuideLine, ImmGetGuideLine function [Internationalization for Windows Applications], ImmGetGuideLineA, ImmGetGuideLineW, _win32_ImmGetGuideLine, imm/ImmGetGuideLine, imm/ImmGetGuideLineA, imm/ImmGetGuideLineW, intl.immgetguideline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ImmGetGuideLineW
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmGetGuideLineA function
@@ -62,9 +60,9 @@ Retrieves information about errors. Applications use the information for user no
 
 
 
-### -param param [in]
+### -param arg1
 
-Handle to the input context.
+TBD
 
 
 ### -param dwIndex [in]
@@ -128,6 +126,11 @@ Pointer to a buffer in which the function retrieves the error message string. Th
 ### -param dwBufLen [in]
 
 Size, in bytes, of the output buffer. The application sets this parameter to 0 if the function is to return the buffer size needed to receive the error message string, not including the terminating null character.
+
+
+#### - param [in]
+
+Handle to the input context.
 
 
 ## -returns

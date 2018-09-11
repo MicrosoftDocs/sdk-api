@@ -4,17 +4,16 @@ title: IOfflineFilesEvents2::BackgroundSyncEnd
 author: windows-sdk-content
 description: Reports that the Offline Files service completed a background synchronization pass.
 old-location: of\iofflinefilesevents2_backgroundsyncend.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: d41a2152-8100-47a7-a994-a0fe9fae4dc4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BackgroundSyncEnd, BackgroundSyncEnd method [Offline Files], BackgroundSyncEnd method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],BackgroundSyncEnd method, IOfflineFilesEvents2.BackgroundSyncEnd, IOfflineFilesEvents2::BackgroundSyncEnd, cscobj/IOfflineFilesEvents2::BackgroundSyncEnd, of.iofflinefilesevents2_backgroundsyncend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesEvents2.BackgroundSyncEnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesEvents2::BackgroundSyncEnd

@@ -4,7 +4,7 @@ title: VIRTUALCHANNELCLOSE
 author: windows-sdk-content
 description: Closes the client end of a virtual channel.
 old-location: termserv\virtualchannelclose.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 96fd8910-6cc7-460c-9f63-3363fbbae0b1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: cchannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VirtualChannelClose
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # VIRTUALCHANNELCLOSE callback function

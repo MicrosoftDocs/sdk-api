@@ -4,17 +4,16 @@ title: ISecurityCallContext::get_Item
 author: windows-sdk-content
 description: Retrieves a specified property in the security call context collection.
 old-location: cos\isecuritycallcontext_get_item.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: e6561b89-8af6-46cc-aeab-2b007d48fe26
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISecurityCallContext interface [COM+],get_Item method, ISecurityCallContext.get_Item, ISecurityCallContext::get_Item, _cos_ISecurityCallContext_get_Item, comsvcs/ISecurityCallContext::get_Item, cos.isecuritycallcontext_get_item, get_Item, get_Item method [COM+], get_Item method [COM+],ISecurityCallContext interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityCallContext.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityCallContext::get_Item

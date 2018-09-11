@@ -4,7 +4,7 @@ title: PSS_PERFORMANCE_COUNTERS
 author: windows-sdk-content
 description: Holds performance counters returned by PssQuerySnapshot.
 old-location: proc_snap\pss_performance_counters.htm
-old-project: proc_snap
+tech.root: proc_snap
 ms.assetid: 298C1FC8-D19D-4DB3-84AA-3870D06B16A1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSS_PERFORMANCE_COUNTERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSS_PERFORMANCE_COUNTERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PSS_PERFORMANCE_COUNTERS
+req.redist: 
 ---
 
 # PSS_PERFORMANCE_COUNTERS structure

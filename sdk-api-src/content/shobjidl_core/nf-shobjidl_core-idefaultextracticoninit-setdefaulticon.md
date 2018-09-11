@@ -4,17 +4,16 @@ title: IDefaultExtractIconInit::SetDefaultIcon
 author: windows-sdk-content
 description: Sets the default icon.
 old-location: shell\IDefaultExtractIconInit_SetDefaultIcon.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7a834c1e-602a-4736-8807-7dd04c6dc5c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetDefaultIcon method, IDefaultExtractIconInit.SetDefaultIcon, IDefaultExtractIconInit::SetDefaultIcon, SetDefaultIcon, SetDefaultIcon method [Windows Shell], SetDefaultIcon method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetDefaultIcon, shell.IDefaultExtractIconInit_SetDefaultIcon, shobjidl_core/IDefaultExtractIconInit::SetDefaultIcon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDefaultExtractIconInit.SetDefaultIcon
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDefaultExtractIconInit::SetDefaultIcon

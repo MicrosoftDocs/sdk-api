@@ -4,7 +4,7 @@ title: "_SYSTEM_LOGICAL_PROCESSOR_INFORMATION"
 author: windows-sdk-content
 description: Describes the relationship between the specified processor set. This structure is used with the GetLogicalProcessorInformation function.
 old-location: base\system_logical_processor_information.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 32ef5dd8-c00d-44ee-a291-a18653beb1b9
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_LOGICAL_PROCESSOR_INFORMATION, *PSYSTEM_LOGICAL_PROCESSOR_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYSTEM_LOGICAL_PROCESSOR_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SYSTEM_LOGICAL_PROCESSOR_INFORMATION, *PSYSTEM_LOGICAL_PROCESSOR_INFORMATION
+req.redist: 
 ---
 
 # _SYSTEM_LOGICAL_PROCESSOR_INFORMATION structure

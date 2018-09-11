@@ -4,17 +4,16 @@ title: CoCreateActivity function
 author: windows-sdk-content
 description: Creates an activity to do synchronous or asynchronous batch work that can use COM+ services without needing to create a COM+ component.
 old-location: cos\cocreateactivity.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 3009eb4f-e3f3-497b-ba05-5b750d8a40d0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoCreateActivity, CoCreateActivity function [COM+], _cos_CoCreateActivity, comsvcs/CoCreateActivity, cos.cocreateactivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: ComSvcs.lib
+req.dll: ComSvcs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CoCreateActivity
 product: Windows
 targetos: Windows
-req.lib: ComSvcs.lib
-req.dll: ComSvcs.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoCreateActivity function

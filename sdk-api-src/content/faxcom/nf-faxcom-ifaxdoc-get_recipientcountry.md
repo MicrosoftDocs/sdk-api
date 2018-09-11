@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.get_RecipientCountry
 title: IFaxDoc::get_RecipientCountry
 author: windows-sdk-content
 description: Sets or retrieves the RecipientCountry property of a FaxDoc object. The RecipientCountry property is a null-terminated string that contains the country/region of the recipient of the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_recipientcountry_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcountry_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7ybd.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxDoc object [Fax Service],RecipientCountry property, FaxDoc.RecipientCountry, IFaxDoc.get_RecipientCountry, IFaxDoc::get_RecipientCountry, RecipientCountry property [Fax Service], RecipientCountry property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_get_recipientcountry_vb, get_RecipientCountry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxDoc interface [Fax Service],RecipientCountry property, IFaxDoc.RecipientCountry, IFaxDoc.get_RecipientCountry, IFaxDoc::RecipientCountry, IFaxDoc::get_RecipientCountry, IFaxDoc::put_RecipientCountry, RecipientCountry property [Fax Service], RecipientCountry property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcountry_cpp, faxcom/IFaxDoc::RecipientCountry, faxcom/IFaxDoc::get_RecipientCountry, faxcom/IFaxDoc::put_RecipientCountry, get_RecipientCountry
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.RecipientCountry
+ - IFaxDoc.RecipientCountry
+ - IFaxDoc.get_RecipientCountry
+ - IFaxDoc.put_RecipientCountry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::get_RecipientCountry
@@ -81,10 +81,6 @@ The <b>get_RecipientCountry</b> method allocates the memory required for the buf
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690707(v=VS.85).aspx">FaxDoc</a>
 
 
 

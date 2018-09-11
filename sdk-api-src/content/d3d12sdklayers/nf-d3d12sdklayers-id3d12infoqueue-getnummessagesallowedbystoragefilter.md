@@ -4,17 +4,16 @@ title: ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter
 author: windows-sdk-content
 description: Get the number of messages that were allowed to pass through a storage filter.
 old-location: direct3d12\id3d12infoqueue_getnummessagesallowedbystoragefilter.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 15B4F5B7-0590-45CC-9499-8ACF1B41E7C2
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetNumMessagesAllowedByStorageFilter, GetNumMessagesAllowedByStorageFilter method, GetNumMessagesAllowedByStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumMessagesAllowedByStorageFilter method, ID3D12InfoQueue.GetNumMessagesAllowedByStorageFilter, ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter, direct3d12.id3d12infoqueue_getnummessagesallowedbystoragefilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12InfoQueue.GetNumMessagesAllowedByStorageFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter

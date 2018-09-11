@@ -4,17 +4,16 @@ title: UnregisterWaitUntilOOBECompleted function
 author: windows-sdk-content
 description: Unregisters the callback previously registered via RegisterWaitUntilOOBECompleted.
 old-location: windowssetupandmigration\unregisterwaituntiloobecompleted.htm
-old-project: WNF
+tech.root: WNF
 ms.assetid: 966803DF-744A-430F-86C0-F6ACA754C603
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: UnregisterWaitUntilOOBECompleted, UnregisterWaitUntilOOBECompleted function, oobenotification/UnregisterWaitUntilOOBECompleted, windowssetupandmigration.unregisterwaituntiloobecompleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oobenotification.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_INTERFACE_CONTEXT_TABLE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - UnregisterWaitUntilOOBECompleted
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # UnregisterWaitUntilOOBECompleted function

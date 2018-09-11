@@ -4,17 +4,16 @@ title: ISimilarity::FindSimilarFileId
 author: windows-sdk-content
 description: Returns a list of files that are similar to a given file.
 old-location: rdc\isimilarity_findsimilarfileid.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 70a205fc-d90a-43fc-88f4-2f3a573c5a82
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: FindSimilarFileId, FindSimilarFileId method [Remote Differential Compression], FindSimilarFileId method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],FindSimilarFileId method, ISimilarity.FindSimilarFileId, ISimilarity::FindSimilarFileId, fs.isimilarity_findsimilarfileid, msrdc/ISimilarity::FindSimilarFileId, rdc.isimilarity_findsimilarfileid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarity.FindSimilarFileId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarity::FindSimilarFileId
@@ -67,7 +65,7 @@ A pointer to a <a href="https://msdn.microsoft.com/33fdb48c-6f33-44e8-83b1-6029b
 
 ### -param numberOfMatchesRequired
 
-
+TBD
 
 
 ### -param resultsSize [in]

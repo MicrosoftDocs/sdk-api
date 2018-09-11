@@ -4,17 +4,16 @@ title: "_CRYPT_PROVIDER_FUNCTIONS"
 author: windows-sdk-content
 description: Defines the functions used by a cryptographic service provider (CSP) for WinTrust operations.
 old-location: security\crypt_provider_functions.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 2c00f8ec-e262-4df8-8984-a2702a4162bf
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVIDER_FUNCTIONS structure [Security], PCRYPT_PROVIDER_FUNCTIONS, PCRYPT_PROVIDER_FUNCTIONS structure pointer [Security], _CRYPT_PROVIDER_FUNCTIONS, security.crypt_provider_functions, wintrust/CRYPT_PROVIDER_FUNCTIONS, wintrust/PCRYPT_PROVIDER_FUNCTIONS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_PROVIDER_FUNCTIONS, *PCRYPT_PROVIDER_FUNCTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_PROVIDER_FUNCTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CRYPT_PROVIDER_FUNCTIONS, *PCRYPT_PROVIDER_FUNCTIONS
+req.redist: 
 ---
 
 # _CRYPT_PROVIDER_FUNCTIONS structure

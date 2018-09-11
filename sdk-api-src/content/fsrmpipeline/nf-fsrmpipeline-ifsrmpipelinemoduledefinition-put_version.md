@@ -4,17 +4,16 @@ title: IFsrmPipelineModuleDefinition::put_Version
 author: windows-sdk-content
 description: The version of the module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_version.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 02dbd15f-d3a2-4a81-a1e3-1f18676c2f5c
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Version property, IFsrmPipelineModuleDefinition.Version, IFsrmPipelineModuleDefinition.put_Version, IFsrmPipelineModuleDefinition::Version, IFsrmPipelineModuleDefinition::get_Version, IFsrmPipelineModuleDefinition::put_Version, Version property [File Server Resource Manager], Version property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_version, fsrm.ifsrmpipelinemoduledefinition_version, fsrmpipeline/IFsrmPipelineModuleDefinition::Version, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Version, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Version, put_Version
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmPipelineModuleDefinition.put_Version
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPipelineModuleDefinition::put_Version

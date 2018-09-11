@@ -4,17 +4,16 @@ title: ISyncMgrConflictItems::GetItem
 author: windows-sdk-content
 description: Gets a specified conflict data item.
 old-location: shell\ISyncMgrConflictItems_GetItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f75a0cc5-1f82-426a-bb66-f34000219300
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetItem, GetItem method [Windows Shell], GetItem method [Windows Shell],ISyncMgrConflictItems interface, ISyncMgrConflictItems interface [Windows Shell],GetItem method, ISyncMgrConflictItems.GetItem, ISyncMgrConflictItems::GetItem, _shell_ISyncMgrConflictItems_GetItem, shell.ISyncMgrConflictItems_GetItem, syncmgr/ISyncMgrConflictItems::GetItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrConflictItems.GetItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrConflictItems::GetItem

@@ -4,17 +4,16 @@ title: "_SP_FILE_COPY_PARAMS_A"
 author: windows-sdk-content
 description: The SP_FILE_COPY_PARAMS structure describes a single file copy operation.
 old-location: setup\sp_file_copy_params.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 4c4d418d-e279-40ea-9ec1-42ced523db34
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSP_FILE_COPY_PARAMS_A, PSP_FILE_COPY_PARAMS, PSP_FILE_COPY_PARAMS structure pointer [Setup API], SP_COPY_DELETESOURCE, SP_COPY_FORCE_IN_USE, SP_COPY_FORCE_NEWER, SP_COPY_FORCE_NOOVERWRITE, SP_COPY_IN_USE_NEEDS_REBOOT, SP_COPY_LANGUAGEAWARE, SP_COPY_NEWER_ONLY, SP_COPY_NEWER_OR_SAME, SP_COPY_NODECOMP, SP_COPY_NOOVERWRITE, SP_COPY_NOSKIP, SP_COPY_REPLACEONLY, SP_COPY_SOURCEPATH_ABSOLUTE, SP_COPY_SOURCE_ABSOLUTE, SP_COPY_WARNIFSKIP, SP_FILE_COPY_PARAMS, SP_FILE_COPY_PARAMS structure [Setup API], SP_FILE_COPY_PARAMS_A, _SP_FILE_COPY_PARAMS_A, _setupapi_sp_file_copy_params, setup.sp_file_copy_params, setupapi/PSP_FILE_COPY_PARAMS, setupapi/SP_FILE_COPY_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_FILE_COPY_PARAMS_A, *PSP_FILE_COPY_PARAMS_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_FILE_COPY_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_FILE_COPY_PARAMS_A, *PSP_FILE_COPY_PARAMS_A
+req.redist: 
 ---
 
 # _SP_FILE_COPY_PARAMS_A structure

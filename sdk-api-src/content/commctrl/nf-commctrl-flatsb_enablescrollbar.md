@@ -4,17 +4,16 @@ title: FlatSB_EnableScrollBar function
 author: windows-sdk-content
 description: Enables or disables one or both flat scroll bar direction buttons. If flat scroll bars are not initialized for the window, this function calls the standard EnableScrollBar function.
 old-location: controls\FlatSB_EnableScrollBar.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_enablescrollbar.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_LTUP, ESB_DISABLE_RIGHT, ESB_DISABLE_RTDN, ESB_DISABLE_UP, ESB_ENABLE_BOTH, FlatSB_EnableScrollBar, FlatSB_EnableScrollBar function [Windows Controls], SB_BOTH, SB_HORZ, SB_VERT, _win32_FlatSB_EnableScrollBar, _win32_FlatSB_EnableScrollBar_cpp, commctrl/FlatSB_EnableScrollBar, controls.FlatSB_EnableScrollBar, controls._win32_FlatSB_EnableScrollBar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - FlatSB_EnableScrollBar
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll (version 4.71 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # FlatSB_EnableScrollBar function
@@ -59,7 +58,17 @@ Enables or disables one or both flat scroll bar direction buttons. If flat scrol
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 

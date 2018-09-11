@@ -4,7 +4,7 @@ title: "_COPP_TVProtectionStandard"
 author: windows-sdk-content
 description: Defines a list of TV protection standards for Certified Output Protection Protocol (COPP).
 old-location: dshow\copp_tvprotectionstandard.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3a724f93-8625-4594-a45b-c2e4c882b579
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva9typ.h
 req.include-header: Dxva.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COPP_TVProtectionStandard
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COPP_TVProtectionStandard
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: COPP_TVProtectionStandard
+req.redist: 
 ---
 
 # _COPP_TVProtectionStandard enumeration

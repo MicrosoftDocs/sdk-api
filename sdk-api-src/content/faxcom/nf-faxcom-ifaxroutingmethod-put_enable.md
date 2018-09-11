@@ -2,19 +2,18 @@
 UID: NF:faxcom.IFaxRoutingMethod.put_Enable
 title: IFaxRoutingMethod::put_Enable
 author: windows-sdk-content
-description: The Enable property is a Boolean value that indicates whether a fax routing method is enabled on a particular fax port.
-old-location: fax\_mfax_ifaxroutingmethod_get_enable_vb.htm
-old-project: Fax
+description: The IFaxRoutingMethod::get_Enable property is a Boolean value that indicates whether a fax routing method is enabled on a particular fax port.
+old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_enable_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1vmt.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Enable property [Fax Service], Enable property [Fax Service],FaxRoutingMethod object, FaxRoutingMethod object [Fax Service],Enable property, FaxRoutingMethod.Enable, IFaxRoutingMethod.put_Enable, IFaxRoutingMethod::put_Enable, _mfax_ifaxroutingmethod_get_enable, fax._mfax_ifaxroutingmethod_get_enable, fax._mfax_ifaxroutingmethod_get_enable_vb, put_Enable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Enable property [Fax Service], Enable property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],Enable property, IFaxRoutingMethod.Enable, IFaxRoutingMethod.put_Enable, IFaxRoutingMethod::Enable, IFaxRoutingMethod::get_Enable, IFaxRoutingMethod::put_Enable, _mfax_ifaxroutingmethod_get_enable, fax._mfax_ifaxroutingmethod_get_enable, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_enable_cpp, faxcom/IFaxRoutingMethod::Enable, faxcom/IFaxRoutingMethod::get_Enable, faxcom/IFaxRoutingMethod::put_Enable, put_Enable
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxRoutingMethod.Enable
+ - IFaxRoutingMethod.Enable
+ - IFaxRoutingMethod.get_Enable
+ - IFaxRoutingMethod.put_Enable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxRoutingMethod::put_Enable
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Enable</b> property is a Boolean value that indicates whether a fax routing method is enabled on a particular fax port.
+The <b>IFaxRoutingMethod::get_Enable</b> property is a Boolean value that indicates whether a fax routing method is enabled on a particular fax port.
 
 
 This property is read/write.
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-If a fax client application passes a value of TRUE to the <b>Enable</b> property, the property enables the routing method for inbound faxes on the parent port.
+If a fax client application passes a value of <b>TRUE</b> to the <b>IFaxRoutingMethod::get_Enable</b> property, the property enables the routing method for inbound faxes on the parent port.
 
 
 
@@ -75,7 +75,7 @@ If a fax client application passes a value of TRUE to the <b>Enable</b> property
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692798(v=VS.85).aspx">CanModify</a>
+<a href="https://msdn.microsoft.com/b09b6e5f-fa1d-4d0b-8581-e0ba779b72bb">CanModify</a>
 
 
 
@@ -84,10 +84,6 @@ If a fax client application passes a value of TRUE to the <b>Enable</b> property
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690703(v=VS.85).aspx">FaxRoutingMethod</a>
 
 
 

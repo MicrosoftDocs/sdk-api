@@ -4,17 +4,16 @@ title: "_tagSYNCMGRHANDLERINFO"
 author: windows-sdk-content
 description: Provides information about the handler for use in the ISyncMgrSynchronize::GetHandlerInfo method.
 old-location: shell\syncmgr_syncmgrhandlerinfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8640796c-e5d0-48c8-b82b-7a153201e7de
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPSYNCMGRHANDLERINFO, LPSYNCMGRHANDLERINFO, LPSYNCMGRHANDLERINFO structure pointer [Windows Shell], SYNCMGRHANDLERINFO, SYNCMGRHANDLERINFO structure [Windows Shell], _tagSYNCMGRHANDLERINFO, mobsync/LPSYNCMGRHANDLERINFO, mobsync/SYNCMGRHANDLERINFO, shell.syncmgr_syncmgrhandlerinfo, syncmgr.syncmgrhandlerinfo"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRHANDLERINFO, *LPSYNCMGRHANDLERINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGRHANDLERINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SYNCMGRHANDLERINFO, *LPSYNCMGRHANDLERINFO
+req.redist: 
 ---
 
 # _tagSYNCMGRHANDLERINFO structure

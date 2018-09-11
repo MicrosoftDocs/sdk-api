@@ -4,17 +4,16 @@ title: IDWriteFactory2::CreateFontFallbackBuilder
 author: windows-sdk-content
 description: Creates a font fallback builder object.
 old-location: directwrite\idwritefactory2_createfontfallbackbuilder.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 98A6DE80-0084-4D28-B456-8E572D565915
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: CreateFontFallbackBuilder, CreateFontFallbackBuilder method [Direct Write], CreateFontFallbackBuilder method [Direct Write],IDWriteFactory2 interface, IDWriteFactory2 interface [Direct Write],CreateFontFallbackBuilder method, IDWriteFactory2.CreateFontFallbackBuilder, IDWriteFactory2::CreateFontFallbackBuilder, directwrite.idwritefactory2_createfontfallbackbuilder, dwrite_2/IDWriteFactory2::CreateFontFallbackBuilder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFactory2.CreateFontFallbackBuilder
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory2::CreateFontFallbackBuilder

@@ -4,17 +4,16 @@ title: "_ASSOCIATE_NAMERES_CONTEXT_INPUT"
 author: windows-sdk-content
 description: Contains the transport setting ID and handle to a fully qualified domain name.
 old-location: winsock\associate_nameres_context_input.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 8B6EB9A4-47B9-40C3-B647-BB05B657B7CE
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PASSOCIATE_NAMERES_CONTEXT_INPUT, ASSOCIATE_NAMERES_CONTEXT_INPUT, ASSOCIATE_NAMERES_CONTEXT_INPUT structure [Winsock], PASSOCIATE_NAMERES_CONTEXT_INPUT, PASSOCIATE_NAMERES_CONTEXT_INPUT structure pointer [Winsock], _ASSOCIATE_NAMERES_CONTEXT_INPUT, mstcpip/ASSOCIATE_NAMERES_CONTEXT_INPUT, mstcpip/PASSOCIATE_NAMERES_CONTEXT_INPUT, winsock.associate_nameres_context_input"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASSOCIATE_NAMERES_CONTEXT_INPUT, *PASSOCIATE_NAMERES_CONTEXT_INPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ASSOCIATE_NAMERES_CONTEXT_INPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: ASSOCIATE_NAMERES_CONTEXT_INPUT, *PASSOCIATE_NAMERES_CONTEXT_INPUT
+req.redist: 
 ---
 
 # _ASSOCIATE_NAMERES_CONTEXT_INPUT structure

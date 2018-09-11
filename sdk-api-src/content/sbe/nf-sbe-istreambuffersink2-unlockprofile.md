@@ -4,17 +4,16 @@ title: IStreamBufferSink2::UnlockProfile
 author: windows-sdk-content
 description: The UnlockProfile method unlocks the Stream Buffer Sink filter's profile. After the profile is unlocked, you can change the name of the stub file.
 old-location: mstv\istreambuffersink2_unlockprofile.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 71214ca2-2613-4dbe-a72b-37d4f768ab6b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IStreamBufferSink2 interface [Microsoft TV Technologies],UnlockProfile method, IStreamBufferSink2.UnlockProfile, IStreamBufferSink2::UnlockProfile, IStreamBufferSink2UnlockProfile, UnlockProfile, UnlockProfile method [Microsoft TV Technologies], UnlockProfile method [Microsoft TV Technologies],IStreamBufferSink2 interface, mstv.istreambuffersink2_unlockprofile, sbe/IStreamBufferSink2::UnlockProfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferSink2.UnlockProfile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferSink2::UnlockProfile

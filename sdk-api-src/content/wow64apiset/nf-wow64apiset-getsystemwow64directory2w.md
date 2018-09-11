@@ -4,17 +4,16 @@ title: GetSystemWow64Directory2W function
 author: windows-sdk-content
 description: Retrieves the path of the system directory used by WOW64, using the specified image file machine type.
 old-location: base\getsystemwow64directory2.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 938370BE-6EAB-4198-9AF3-ED8889E1E41F
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetSystemWow64Directory2, GetSystemWow64Directory2 function, GetSystemWow64Directory2A, GetSystemWow64Directory2W, base.getsystemwow64directory2, wow64apiset/GetSystemWow64Directory2, wow64apiset/GetSystemWow64Directory2A, wow64apiset/GetSystemWow64Directory2W
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wow64apiset.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1511 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: Kernel32.dll
+req.dll: Kernel32.lib
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetSystemWow64Directory2W
 product: Windows
 targetos: Windows
-req.lib: Kernel32.dll
-req.dll: Kernel32.lib
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetSystemWow64Directory2W function

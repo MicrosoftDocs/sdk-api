@@ -4,17 +4,16 @@ title: IVMRMonitorConfig::GetDefaultMonitor
 author: windows-sdk-content
 description: The GetDefaultMonitor method retrieves the default monitor that all future instances of the VMR will use for video playback.
 old-location: dshow\ivmrmonitorconfig_getdefaultmonitor.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 354b7f6e-35f8-4824-b5b5-24a37166462b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDefaultMonitor, GetDefaultMonitor method [DirectShow], GetDefaultMonitor method [DirectShow],IVMRMonitorConfig interface, IVMRMonitorConfig interface [DirectShow],GetDefaultMonitor method, IVMRMonitorConfig.GetDefaultMonitor, IVMRMonitorConfig::GetDefaultMonitor, IVMRMonitorConfigGetDefaultMonitor, dshow.ivmrmonitorconfig_getdefaultmonitor, strmif/IVMRMonitorConfig::GetDefaultMonitor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRMonitorConfig.GetDefaultMonitor
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRMonitorConfig::GetDefaultMonitor

@@ -4,7 +4,7 @@ title: D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS
 author: windows-sdk-content
 description: Option flags controlling primary conversion performed by CreateImageSourceFromDxgi, if any.
 old-location: direct2d\d2d1_image_source_from_dxgi_options.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 39458E66-D924-4E7A-9B99-A7E258AFB4E5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS
+req.redist: 
 ---
 
 # D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS enumeration

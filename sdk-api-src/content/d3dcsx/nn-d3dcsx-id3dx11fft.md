@@ -4,7 +4,7 @@ title: ID3DX11FFT
 author: windows-sdk-content
 description: Encapsulates forward and inverse FFTs.
 old-location: direct3d11\id3dx11fft.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 6979aea4-5121-4a65-85f6-4b5753083715
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3dcsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DX11_SCAN_OPCODE
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3DX11FFT
 product: Windows
 targetos: Windows
-req.lib: D3dcsx.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3DX11FFT interface

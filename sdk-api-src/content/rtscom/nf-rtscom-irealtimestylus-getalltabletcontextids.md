@@ -4,17 +4,16 @@ title: IRealTimeStylus::GetAllTabletContextIds
 author: windows-sdk-content
 description: Retrieves an array containing all of the currently active tablet context identifiers.
 old-location: tablet\irealtimestylus_getalltabletcontextids.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1fac0624-2e1c-44b2-8a11-82b746a18356
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 1fac0624-2e1c-44b2-8a11-82b746a18356, GetAllTabletContextIds, GetAllTabletContextIds method [Tablet PC], GetAllTabletContextIds method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetAllTabletContextIds method, IRealTimeStylus.GetAllTabletContextIds, IRealTimeStylus::GetAllTabletContextIds, rtscom/IRealTimeStylus::GetAllTabletContextIds, tablet.irealtimestylus_getalltabletcontextids
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRealTimeStylus.GetAllTabletContextIds
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylus::GetAllTabletContextIds

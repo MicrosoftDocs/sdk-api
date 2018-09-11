@@ -4,7 +4,7 @@ title: "_DD_GETVPORTINPUTFORMATDATA"
 author: windows-sdk-content
 description: The DD_GETVPORTINPUTFORMATDATA structure contains the information required for the driver to return the input formats that the video port extensions (VPE) object can accept.
 old-location: display\dd_getvportinputformatdata.htm
-old-project: display
+tech.root: display
 ms.assetid: d8cdfb24-0914-4e1f-bbdd-7bba31976ba0
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_GETVPORTINPUTFORMATDATA, DD_GETVPORTINPUTFORMATDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_GETVPORTINPUTFORMATDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_GETVPORTINPUTFORMATDATA, DD_GETVPORTINPUTFORMATDATA"
+req.redist: 
 ---
 
 # _DD_GETVPORTINPUTFORMATDATA structure

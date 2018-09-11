@@ -4,17 +4,16 @@ title: ISettingsEngine::RegisterNamespace
 author: windows-sdk-content
 description: Registers a namespace from a stream.
 old-location: smi\isettingsengine_registernamespace.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: 9b9ffba8-b2b7-469e-96d2-78b086987fae
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISettingsEngine interface [SMI],RegisterNamespace method, ISettingsEngine.RegisterNamespace, ISettingsEngine::RegisterNamespace, RegisterNamespace, RegisterNamespace method [SMI], RegisterNamespace method [SMI],ISettingsEngine interface, smi.isettingsengine_registernamespace, wcmconfig/ISettingsEngine::RegisterNamespace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsEngine.RegisterNamespace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsEngine::RegisterNamespace

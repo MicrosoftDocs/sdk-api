@@ -4,7 +4,7 @@ title: CF_PLACEHOLDER_RANGE_INFO_CLASS
 author: windows-sdk-content
 description: Types of the range of placeholder file data.
 old-location: cloudapi\_cf_placeholder_range_info_class.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 04533C98-894C-422F-9BE5-F2746BF13567
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_PLACEHOLDER_RANGE_INFO_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_PLACEHOLDER_RANGE_INFO_CLASS
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: CF_PLACEHOLDER_RANGE_INFO_CLASS
+req.redist: 
 ---
 
 # CF_PLACEHOLDER_RANGE_INFO_CLASS enumeration

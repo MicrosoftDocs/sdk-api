@@ -4,17 +4,16 @@ title: Rect::Offset(IN INT,IN INT)
 author: windows-sdk-content
 description: This topic lists the Offset methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Offset_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectoffsetmethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Offset, Offset methods [GDI+], Rect.Offset, Rect.Offset(IN INT,IN INT), Rect::Offset, Rect::Offset(IN INT,IN INT), _gdiplus_CLASS_Rect_Offset_Methods, gdiplus._gdiplus_CLASS_Rect_Offset_Methods, gdiplustypes/Offset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Rect.Offset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Rect::Offset(IN INT,IN INT)

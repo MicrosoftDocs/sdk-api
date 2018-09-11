@@ -4,7 +4,7 @@ title: "_DHCP_SCAN_LIST"
 author: windows-sdk-content
 description: Defines a list of all desynchronized client lease IP address on a DHCPv4 server that must be fixed.
 old-location: dhcp\dhcp_scan_list.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 9dc20612-1c08-4493-aab3-b524d8d88251
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_SCAN_LIST, *LPDHCP_SCAN_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_SCAN_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_SCAN_LIST, *LPDHCP_SCAN_LIST
+req.redist: 
 ---
 
 # _DHCP_SCAN_LIST structure

@@ -4,17 +4,16 @@ title: CLUSTER_QUORUM_TYPE
 author: windows-sdk-content
 description: The type of quorum resource to be created.
 old-location: mscs\cluster_quorum_type.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2a1d24ab-236e-4fee-b411-cafc2cbd1832
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_QUORUM_TYPE, CLUSTER_QUORUM_TYPE enumeration [Failover Cluster], ModifyQuorum, OperationalQuorum, _CLUSTER_QUORUM_TYPE, _CLUSTER_QUORUM_TYPE enumeration [Failover Cluster], clusapi/CLUSTER_QUORUM_TYPE, clusapi/ModifyQuorum, clusapi/OperationalQuorum, clusapi/_CLUSTER_QUORUM_TYPE, msclus/CLUSTER_QUORUM_TYPE, msclus/ModifyQuorum, msclus/OperationalQuorum, msclus/_CLUSTER_QUORUM_TYPE, mscs.cluster_quorum_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_QUORUM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - CLUSTER_QUORUM_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_QUORUM_TYPE
+req.redist: 
 ---
 
 # CLUSTER_QUORUM_TYPE enumeration

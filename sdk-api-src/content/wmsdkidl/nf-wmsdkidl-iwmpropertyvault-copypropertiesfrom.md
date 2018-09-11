@@ -4,17 +4,16 @@ title: IWMPropertyVault::CopyPropertiesFrom
 author: windows-sdk-content
 description: The CopyPropertiesFrom method copies all of the properties from another property vault to this one.
 old-location: wmformat\iwmpropertyvault_copypropertiesfrom.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 34708ff4-a416-4f2a-abeb-18b9c24c4e7c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CopyPropertiesFrom, CopyPropertiesFrom method [windows Media Format], CopyPropertiesFrom method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],CopyPropertiesFrom method, IWMPropertyVault.CopyPropertiesFrom, IWMPropertyVault::CopyPropertiesFrom, IWMPropertyVaultCopyPropertiesFrom, wmformat.iwmpropertyvault_copypropertiesfrom, wmsdkidl/IWMPropertyVault::CopyPropertiesFrom
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMPropertyVault.CopyPropertiesFrom
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPropertyVault::CopyPropertiesFrom

@@ -4,17 +4,16 @@ title: CRYPT_XML_KEYINFO_SPEC
 author: windows-sdk-content
 description: Specifies values for the dwKeyInfoSpec parameter in the CryptXmlSign function.
 old-location: security\crypt_xml_keyinfo_spec.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 83467875-1ccf-4c02-9b0a-6faf7305950e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_XML_KEYINFO_SPEC, CRYPT_XML_KEYINFO_SPEC enumeration [Security], CRYPT_XML_KEYINFO_SPEC_ENCODED, CRYPT_XML_KEYINFO_SPEC_NONE, CRYPT_XML_KEYINFO_SPEC_PARAM, cryptxml/CRYPT_XML_KEYINFO_SPEC, cryptxml/CRYPT_XML_KEYINFO_SPEC_ENCODED, cryptxml/CRYPT_XML_KEYINFO_SPEC_NONE, cryptxml/CRYPT_XML_KEYINFO_SPEC_PARAM, security.crypt_xml_keyinfo_spec
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_KEYINFO_SPEC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_KEYINFO_SPEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_KEYINFO_SPEC
+req.redist: 
 ---
 
 # CRYPT_XML_KEYINFO_SPEC enumeration

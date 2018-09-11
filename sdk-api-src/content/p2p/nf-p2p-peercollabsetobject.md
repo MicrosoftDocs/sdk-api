@@ -4,17 +4,16 @@ title: PeerCollabSetObject function
 author: windows-sdk-content
 description: Creates or updates a peer data object used in a peer collaboration network.
 old-location: p2p\peercollabsetobject.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 99a3e206-7d76-4773-956c-bbd101766392
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerCollabSetObject, PeerCollabSetObject function [Peer Networking], p2p.peercollabsetobject, p2p/PeerCollabSetObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerCollabSetObject
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerCollabSetObject function

@@ -4,17 +4,16 @@ title: IWdsTransportSetupManager::get_InstalledFeatures
 author: windows-sdk-content
 description: Receives a value that indicates which WDS features are installed on the server.
 old-location: wds\iwdstransportsetupmanager_installedfeatures.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 885b6e96-2f42-4388-9859-845b715dbe70
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],InstalledFeatures property, IWdsTransportSetupManager.InstalledFeatures, IWdsTransportSetupManager.get_InstalledFeatures, IWdsTransportSetupManager::InstalledFeatures, IWdsTransportSetupManager::get_InstalledFeatures, IWdsTransportSetupManager::put_InstalledFeatures, InstalledFeatures property [Windows Deployment Services], InstalledFeatures property [Windows Deployment Services],IWdsTransportSetupManager interface, get_InstalledFeatures, wds.iwdstransportsetupmanager_installedfeatures, wdstptmgmt/IWdsTransportSetupManager::InstalledFeatures, wdstptmgmt/IWdsTransportSetupManager::get_InstalledFeatures, wdstptmgmt/IWdsTransportSetupManager::put_InstalledFeatures
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWdsTransportSetupManager.put_InstalledFeatures
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportSetupManager::get_InstalledFeatures

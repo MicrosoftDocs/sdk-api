@@ -4,17 +4,16 @@ title: WS_SERVICE_STUB_CALLBACK
 author: windows-sdk-content
 description: Invoked by service model to delegate to the service operation call.
 old-location: wsw\ws_service_stub_callback.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 3f561dfa-e83f-44f0-91b9-626b5b6036bd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SERVICE_STUB_CALLBACK, WS_SERVICE_STUB_CALLBACK callback, WS_SERVICE_STUB_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_STUB_CALLBACK, wsw.ws_service_stub_callback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SERVICE_STUB_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WS_SERVICE_STUB_CALLBACK callback function

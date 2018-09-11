@@ -4,7 +4,7 @@ title: IPSEC_AUTH_TRANSFORM_ID0_
 author: windows-sdk-content
 description: Is used to uniquely identify the hash algorithm used in an IPsec security association (SA).
 old-location: fwp\ipsec_auth_transform_id0_struct.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: b8474e98-451d-4347-9369-367f16f83cf6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_AUTH_TRANSFORM_ID0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_AUTH_TRANSFORM_ID0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_AUTH_TRANSFORM_ID0
+req.redist: 
 ---
 
 # IPSEC_AUTH_TRANSFORM_ID0_ structure

@@ -4,17 +4,16 @@ title: DhcpGetClientInfoV6 function
 author: windows-sdk-content
 description: Retrieves IPv6 address lease information for a specific IPv6 client reservation from the DHCPv6 server.
 old-location: dhcp\dhcpgetclientinfov6.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 6ed68064-9f12-472e-8647-87cc50345199
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpGetClientInfoV6, DhcpGetClientInfoV6 function [DHCP], dhcp.dhcpgetclientinfov6, dhcpsapi/DhcpGetClientInfoV6
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpGetClientInfoV6
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpGetClientInfoV6 function

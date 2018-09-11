@@ -4,17 +4,16 @@ title: IXpsOMPackageWriter::IsClosed
 author: windows-sdk-content
 description: Gets the status of the IXpsOMPackageWriter interface.
 old-location: xps\ixpsompackagewriter_isclosed.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 7f782432-3d36-466c-b265-9da99d97565e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FALSE, IXpsOMPackageWriter interface [XPS Documents and Packaging],IsClosed method, IXpsOMPackageWriter.IsClosed, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],IsClosed method, IXpsOMPackageWriter3D::IsClosed, IXpsOMPackageWriter::IsClosed, IsClosed, IsClosed method [XPS Documents and Packaging], IsClosed method [XPS Documents and Packaging],IXpsOMPackageWriter interface, IsClosed method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, TRUE, xps.ixpsompackagewriter_isclosed, xpsobjectmodel/IXpsOMPackageWriter3D::IsClosed, xpsobjectmodel/IXpsOMPackageWriter::IsClosed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IXpsOMPackageWriter3D.IsClosed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPackageWriter::IsClosed

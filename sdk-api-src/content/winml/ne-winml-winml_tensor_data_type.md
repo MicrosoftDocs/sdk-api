@@ -4,7 +4,7 @@ title: WINML_TENSOR_DATA_TYPE
 author: windows-sdk-content
 description: Specifies the different data types of WinML tensors.
 old-location: machinelearning\winml_tensor_data_type.htm
-old-project: MachineLearning
+tech.root: MachineLearning
 ms.assetid: A8EB60A1-F769-460F-8C94-5D1DE3A1820F
 ms.author: windowssdkdev
 ms.date: 03/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_TENSOR_DATA_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINML_TENSOR_DATA_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINML_TENSOR_DATA_TYPE
+req.redist: 
 ---
 
 # WINML_TENSOR_DATA_TYPE enumeration

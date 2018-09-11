@@ -4,17 +4,16 @@ title: "_JChColorF"
 author: windows-sdk-content
 description: TBD.
 old-location: wcs\jchcolorf.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: a7bf9e3c-b718-437b-a4d9-3edaef29f3ff
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: JChColorF, JChColorF structure [Windows Color System], _JChColorF, wcs.jchcolorf, wcsplugin/JChColorF
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: JChColorF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - JChColorF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: JChColorF
+req.redist: 
 ---
 
 # _JChColorF structure

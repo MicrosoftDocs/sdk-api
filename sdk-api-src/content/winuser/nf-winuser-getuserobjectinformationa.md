@@ -4,17 +4,16 @@ title: GetUserObjectInformationA function
 author: windows-sdk-content
 description: Retrieves information about the specified window station or desktop object.
 old-location: winstation\getuserobjectinformation.htm
-old-project: winstation
+tech.root: winstation
 ms.assetid: 64f7361d-1a94-4d5b-86f1-a2a21737668a
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 08/29/2018
 ms.keywords: GetUserObjectInformation, GetUserObjectInformation function [Windows Stations and Desktops], GetUserObjectInformationA, GetUserObjectInformationW, UOI_FLAGS, UOI_HEAPSIZE, UOI_IO, UOI_NAME, UOI_TYPE, UOI_USER_SID, _win32_getuserobjectinformation, base.getuserobjectinformation, winstation.getuserobjectinformation, winuser/GetUserObjectInformation, winuser/GetUserObjectInformationA, winuser/GetUserObjectInformationW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - GetUserObjectInformationW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetUserObjectInformationA function

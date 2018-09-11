@@ -4,17 +4,16 @@ title: DsReplicaGetInfoW function
 author: windows-sdk-content
 description: Retrieves replication state data from the directory service.
 old-location: ad\dsreplicagetinfo.htm
-old-project: ad
+tech.root: ad
 ms.assetid: b7ab22fe-ed92-4213-9b66-2dd5526286fa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DS_REPL_INFO_CURSORS_FOR_NC, DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FAILURES, DS_REPL_INFO_METADATA_FOR_OBJ, DS_REPL_INFO_NEIGHBORS, DS_REPL_INFO_PENDING_OPS, DsReplicaGetInfo, DsReplicaGetInfo function [Active Directory], DsReplicaGetInfoW, _glines_dsreplicagetinfo, ad.dsreplicagetinfo, ntdsapi/DsReplicaGetInfo, ntdsapi/DsReplicaGetInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - DsReplicaGetInfoW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsReplicaGetInfoW function

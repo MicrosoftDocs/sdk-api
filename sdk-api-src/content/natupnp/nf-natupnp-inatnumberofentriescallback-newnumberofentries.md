@@ -4,17 +4,16 @@ title: INATNumberOfEntriesCallback::NewNumberOfEntries
 author: windows-sdk-content
 description: The system calls the NewNumberOfEntries method if the total number of NAT port mappings changes.
 old-location: ics\inatnumberofentriescallback_newnumberofentries.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 55998538-ddce-4a83-8d21-387f3c1f3b6a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INATNumberOfEntriesCallback interface [ICS/ICF],NewNumberOfEntries method, INATNumberOfEntriesCallback.NewNumberOfEntries, INATNumberOfEntriesCallback::NewNumberOfEntries, NewNumberOfEntries, NewNumberOfEntries method [ICS/ICF], NewNumberOfEntries method [ICS/ICF],INATNumberOfEntriesCallback interface, _ics_inatnumberofentriescallback_newnumberofentries, ics.inatnumberofentriescallback_newnumberofentries, natupnp/INATNumberOfEntriesCallback::NewNumberOfEntries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemHealthAgentState
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INATNumberOfEntriesCallback.NewNumberOfEntries
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INATNumberOfEntriesCallback::NewNumberOfEntries

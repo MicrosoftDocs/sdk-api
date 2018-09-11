@@ -4,7 +4,7 @@ title: IKEEXT_SA_ENUM_TEMPLATE0_
 author: windows-sdk-content
 description: Is an enumeration template used for enumerating IKE/AuthIP security associations (SAs).
 old-location: fwp\ikeext_sa_enum_template0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 69bb80de-e512-4fbd-a62f-40bb211e6b26
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_SA_ENUM_TEMPLATE0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_SA_ENUM_TEMPLATE0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_SA_ENUM_TEMPLATE0
+req.redist: 
 ---
 
 # IKEEXT_SA_ENUM_TEMPLATE0_ structure

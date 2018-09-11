@@ -4,7 +4,7 @@ title: IDirectManipulationDragDropEventHandler
 author: windows-sdk-content
 description: Defines methods to handle drag-drop behavior events.
 old-location: directmanipulation\idirectmanipulationdragdropeventhandler.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: B0F4120F-E64C-4224-A1C5-00DBEE63949B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationDragDropEventHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationDragDropEventHandler interface

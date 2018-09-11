@@ -4,17 +4,16 @@ title: IEnumMcastScope::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienummcastscope_clone.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 96b2a09f-8a02-471d-a738-f81a8132e0c1
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumMcastScope interface, IEnumMcastScope interface [TAPI 2.2],Clone method, IEnumMcastScope.Clone, IEnumMcastScope::Clone, _tapi3_ienummcastscope_clone, mdhcp/IEnumMcastScope::Clone, tapi3.ienummcastscope_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumMcastScope.Clone
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Mdhcp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumMcastScope::Clone

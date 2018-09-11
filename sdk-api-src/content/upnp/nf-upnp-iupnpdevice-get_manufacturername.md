@@ -4,17 +4,16 @@ title: IUPnPDevice::get_ManufacturerName
 author: windows-sdk-content
 description: The ManufacturerName property specifies a human-readable form of the manufacturer name of the device.
 old-location: upnp\iupnpdevice_manufacturername.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: b62ba17d-4d0f-4609-ae34-0d8bd350f761
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ManufacturerName method, IUPnPDevice.get_ManufacturerName, IUPnPDevice::get_ManufacturerName, _upnp_iupnpdevice_manufacturername, get_ManufacturerName, get_ManufacturerName method [UPnP APIs], get_ManufacturerName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_manufacturername, upnp/IUPnPDevice::get_ManufacturerName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDevice.get_ManufacturerName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevice::get_ManufacturerName

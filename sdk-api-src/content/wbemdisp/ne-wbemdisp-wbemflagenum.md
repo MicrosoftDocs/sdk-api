@@ -4,17 +4,16 @@ title: WbemFlagEnum
 author: windows-sdk-content
 description: Defines constants that are used by SWbemServices.ExecQuery, SWbemServices.ExecQueryAsync, SWbemServices.SubclassesOf, and SWbemServices.InstancesOf.
 old-location: wmi\wbemflagenum.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 51c54f70-9067-4523-9108-89af731b9d55
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WbemFlagEnum, WbemFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemflagenum, wbemFlagBidirectional, wbemFlagDontSendStatus, wbemFlagForwardOnly, wbemFlagNoErrorObject, wbemFlagReturnErrorObject, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagSendStatus, wbemFlagUseAmendedQualifiers, wbemdisp/WbemFlagEnum, wbemdisp/wbemFlagBidirectional, wbemdisp/wbemFlagDontSendStatus, wbemdisp/wbemFlagForwardOnly, wbemdisp/wbemFlagNoErrorObject, wbemdisp/wbemFlagReturnErrorObject, wbemdisp/wbemFlagReturnImmediately, wbemdisp/wbemFlagReturnWhenComplete, wbemdisp/wbemFlagSendStatus, wbemdisp/wbemFlagUseAmendedQualifiers, wmi.wbemflagenum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemFlagEnum
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WbemFlagEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WbemFlagEnum
+req.redist: 
 ---
 
 # WbemFlagEnum enumeration

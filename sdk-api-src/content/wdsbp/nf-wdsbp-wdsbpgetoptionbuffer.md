@@ -4,17 +4,16 @@ title: WdsBpGetOptionBuffer function
 author: windows-sdk-content
 description: Copies information into a buffer that should be added to your DHCP packet options.
 old-location: wds\wdsbpgetoptionbuffer.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 2bd4105d-0066-4c6b-a1c0-fe9b633a6ad6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WdsBpGetOptionBuffer, WdsBpGetOptionBuffer function [Windows Deployment Services], wds.wdsbpgetoptionbuffer, wdsbp/WdsBpGetOptionBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdsbp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: Wdsbp.lib
+req.dll: Wdsbp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsBpGetOptionBuffer
 product: Windows
 targetos: Windows
-req.lib: Wdsbp.lib
-req.dll: Wdsbp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsBpGetOptionBuffer function

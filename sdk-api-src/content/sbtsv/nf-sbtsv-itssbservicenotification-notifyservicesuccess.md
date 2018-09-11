@@ -4,17 +4,16 @@ title: ITsSbServiceNotification::NotifyServiceSuccess
 author: windows-sdk-content
 description: Notifies registered plug-ins that the Remote Desktop Connection Broker (RD Connection Broker) service has started.
 old-location: termserv\itssbservicenotification_notifyservicesuccess.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 063ed950-f168-491c-85db-14f35741c129
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbServiceNotification interface [Remote Desktop Services],NotifyServiceSuccess method, ITsSbServiceNotification.NotifyServiceSuccess, ITsSbServiceNotification::NotifyServiceSuccess, NotifyServiceSuccess, NotifyServiceSuccess method [Remote Desktop Services], NotifyServiceSuccess method [Remote Desktop Services],ITsSbServiceNotification interface, sbtsv/ITsSbServiceNotification::NotifyServiceSuccess, termserv.itssbservicenotification_notifyservicesuccess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbServiceNotification.NotifyServiceSuccess
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbServiceNotification::NotifyServiceSuccess

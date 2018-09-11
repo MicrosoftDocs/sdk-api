@@ -4,17 +4,16 @@ title: FDINOTIFICATION
 author: windows-sdk-content
 description: The FDINOTIFICATION structure to provide information to FNFDINOTIFY.
 old-location: winprog\fdinotification.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 8b92226e-b19a-4624-925e-4a98d037637d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PFDINOTIFICATION, FDIERROR_ALLOC_FAIL, FDIERROR_BAD_COMPR_TYPE, FDIERROR_CABINET_NOT_FOUND, FDIERROR_CORRUPT_CABINET, FDIERROR_MDI_FAIL, FDIERROR_NONE, FDIERROR_NOT_A_CABINET, FDIERROR_RESERVE_MISMATCH, FDIERROR_TARGET_FILE, FDIERROR_UNKNOWN_CABINET_VERSION, FDIERROR_USER_ABORT, FDIERROR_WRONG_CABINET, FDINOTIFICATION, FDINOTIFICATION structure [Windows API], PFDINOTIFICATION, PFDINOTIFICATION structure pointer [Windows API], fdi/FDINOTIFICATION, fdi/PFDINOTIFICATION, winprog.fdinotification"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: fdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FDINOTIFICATION, *PFDINOTIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FDINOTIFICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FDINOTIFICATION, *PFDINOTIFICATION
+req.redist: 
 ---
 
 # FDINOTIFICATION structure

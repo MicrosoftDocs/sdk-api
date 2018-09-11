@@ -4,17 +4,16 @@ title: IDirect3DAuthenticatedChannel9::Query
 author: windows-sdk-content
 description: Sends a query to the authenticated channel.
 old-location: mf\idirect3dauthenticatedchannel9_query.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 370ed31d-5b75-4767-b8d8-33cb2ff49fee
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IDirect3DAuthenticatedChannel9 interface [Media Foundation],Query method, IDirect3DAuthenticatedChannel9.Query, IDirect3DAuthenticatedChannel9::Query, Query, Query method [Media Foundation], Query method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, d3d9/IDirect3DAuthenticatedChannel9::Query, mf.idirect3dauthenticatedchannel9_query
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirect3DAuthenticatedChannel9.Query
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DAuthenticatedChannel9::Query

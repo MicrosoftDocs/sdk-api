@@ -4,17 +4,16 @@ title: IPerPropertyBrowsing::GetDisplayString
 author: windows-sdk-content
 description: Retrieves a text string describing the specified property.
 old-location: com\iperpropertybrowsing_getdisplaystring.htm
-old-project: com
+tech.root: com
 ms.assetid: 949d7d12-de59-441d-ac0f-e18f050d005d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetDisplayString, GetDisplayString method [COM], GetDisplayString method [COM],IPerPropertyBrowsing interface, IPerPropertyBrowsing interface [COM],GetDisplayString method, IPerPropertyBrowsing.GetDisplayString, IPerPropertyBrowsing::GetDisplayString, _ctrl_iperpropertybrowsing_getdisplaystring, com.iperpropertybrowsing_getdisplaystring, ocidl/IPerPropertyBrowsing::GetDisplayString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPerPropertyBrowsing.GetDisplayString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPerPropertyBrowsing::GetDisplayString

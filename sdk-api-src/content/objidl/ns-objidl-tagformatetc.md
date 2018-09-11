@@ -4,17 +4,16 @@ title: tagFORMATETC
 author: windows-sdk-content
 description: Represents a generalized clipboard format.
 old-location: com\formatetc.htm
-old-project: com
+tech.root: com
 ms.assetid: 4478eb9a-84a1-4f3a-8290-94b8dd20c081
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPFORMATETC, FORMATETC, FORMATETC structure [COM], LPFORMATETC, LPFORMATETC structure pointer [COM], _ole_FORMATETC, com.formatetc, objidl/FORMATETC, objidl/LPFORMATETC, tagFORMATETC"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ObjIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FORMATETC, *LPFORMATETC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FORMATETC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FORMATETC, *LPFORMATETC
+req.redist: 
 ---
 
 # tagFORMATETC structure

@@ -4,17 +4,16 @@ title: IDirect3DDeviceManager9::TestDevice
 author: windows-sdk-content
 description: Tests whether a Direct3D device handle is valid.
 old-location: mf\idirect3ddevicemanager9_testdevice.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e97acc5d-1b6a-43ae-a057-9c650d7126ab
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IDirect3DDeviceManager9 interface [Media Foundation],TestDevice method, IDirect3DDeviceManager9.TestDevice, IDirect3DDeviceManager9::TestDevice, TestDevice, TestDevice method [Media Foundation], TestDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::TestDevice, e97acc5d-1b6a-43ae-a057-9c650d7126ab, mf.idirect3ddevicemanager9_testdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirect3DDeviceManager9.TestDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDeviceManager9::TestDevice

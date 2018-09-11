@@ -4,17 +4,16 @@ title: IX509CertificateRequestPkcs10::get_CryptAttributes
 author: windows-sdk-content
 description: Retrieves an ICryptAttributes collection of optional certificate attributes.
 old-location: security\ix509certificaterequestpkcs10_cryptattributes_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 078b6c55-8b56-4075-a8fa-b3230041ded0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CryptAttributes property [Security], CryptAttributes property [Security],IX509CertificateRequestPkcs10 interface, IX509CertificateRequestPkcs10 interface [Security],CryptAttributes property, IX509CertificateRequestPkcs10.CryptAttributes, IX509CertificateRequestPkcs10.get_CryptAttributes, IX509CertificateRequestPkcs10::CryptAttributes, IX509CertificateRequestPkcs10::get_CryptAttributes, certenroll/IX509CertificateRequestPkcs10::CryptAttributes, certenroll/IX509CertificateRequestPkcs10::get_CryptAttributes, get_CryptAttributes, security.ix509certificaterequestpkcs10_cryptattributes_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509CertificateRequestPkcs10.get_CryptAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestPkcs10::get_CryptAttributes

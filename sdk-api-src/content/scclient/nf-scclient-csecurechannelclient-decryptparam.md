@@ -4,17 +4,16 @@ title: CSecureChannelClient::DecryptParam
 author: windows-sdk-content
 description: The DecryptParam method decrypts data received through a parameter. Encryption is performed in-place on the encrypted data.
 old-location: wmdm\csecurechannelclient_decryptparam.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 4e19b86c-9efc-4c20-bac9-8cd6b944f69e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],DecryptParam method, CSecureChannelClient.DecryptParam, CSecureChannelClient::DecryptParam, CSecureChannelClientDecryptParam, DecryptParam, DecryptParam method [windows Media Device Manager], DecryptParam method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::DecryptParam, wmdm.csecurechannelclient_decryptparam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: scclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CSecureChannelClient.DecryptParam
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CSecureChannelClient::DecryptParam

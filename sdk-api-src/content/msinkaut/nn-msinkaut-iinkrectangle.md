@@ -4,17 +4,16 @@ title: IInkRectangle
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkrectangle.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 9E438012-0991-46AA-8D0F-2C561F523EC2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkRectangle, IInkRectangle interface [Tablet PC], IInkRectangle interface [Tablet PC],described, msinkaut/IInkRectangle, tablet.iinkrectangle
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInkRectangle
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRectangle interface

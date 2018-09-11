@@ -4,17 +4,16 @@ title: IMetaDataAssemblyImport::FindAssembliesByName
 author: windows-sdk-content
 description: Gets an array of assemblies with the specified name, using the standard rules employed by the common language runtime (CLR) for resolving references.
 old-location: winrt\imetadataassemblyimport_findassembliesbyname.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 147158ba-060e-404e-9721-3d0c2498f5c9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FindAssembliesByName, FindAssembliesByName method [Windows Runtime], FindAssembliesByName method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],FindAssembliesByName method, IMetaDataAssemblyImport.FindAssembliesByName, IMetaDataAssemblyImport::FindAssembliesByName, rometadataapi/IMetaDataAssemblyImport::FindAssembliesByName, winrt.imetadataassemblyimport_findassembliesbyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataAssemblyImport.FindAssembliesByName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataAssemblyImport::FindAssembliesByName

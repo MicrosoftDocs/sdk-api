@@ -4,7 +4,7 @@ title: ip_option_information
 author: windows-sdk-content
 description: Describes the options to be included in the header of an IP packet.
 old-location: iphlp\ip_option_information.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 4341d0a4-65d8-4677-b208-2cde5ff36f14
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_OPTION_INFORMATION, *PIP_OPTION_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_OPTION_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IP_OPTION_INFORMATION, *PIP_OPTION_INFORMATION
+req.redist: 
 ---
 
 # ip_option_information structure

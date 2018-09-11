@@ -4,17 +4,16 @@ title: IMPEG2ComponentType::get_StreamType
 author: windows-sdk-content
 description: The get_StreamType method retrieves the stream type.
 old-location: mstv\impeg2componenttype_get_streamtype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c3aa2a63-aa02-41c3-bbdf-f155346eea0a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMPEG2ComponentType interface [Microsoft TV Technologies],get_StreamType method, IMPEG2ComponentType.get_StreamType, IMPEG2ComponentType::get_StreamType, IMPEG2ComponentTypeget_StreamType, get_StreamType, get_StreamType method [Microsoft TV Technologies], get_StreamType method [Microsoft TV Technologies],IMPEG2ComponentType interface, mstv.impeg2componenttype_get_streamtype, tuner/IMPEG2ComponentType::get_StreamType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMPEG2ComponentType.get_StreamType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2ComponentType::get_StreamType
@@ -65,7 +63,7 @@ The <b>get_StreamType</b> method retrieves the stream type.
 
 ### -param MP2StreamType
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: WNetCancelConnectionW function
 author: windows-sdk-content
 description: The WNetCancelConnection function cancels an existing network connection.
 old-location: wnet\wnetcancelconnection.htm
-old-project: wnet
+tech.root: WNet
 ms.assetid: e180d497-5e14-459a-8cf6-5664dfb88419
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WNetCancelConnection, WNetCancelConnection function [Windows Networking (WNet)], WNetCancelConnectionA, WNetCancelConnectionW, _win32_wnetcancelconnection, winnetwk/WNetCancelConnection, winnetwk/WNetCancelConnectionA, winnetwk/WNetCancelConnectionW, wnet.wnetcancelconnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WNetCancelConnectionW
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetCancelConnectionW function

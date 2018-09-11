@@ -4,17 +4,16 @@ title: IAzScope2::get_RoleAssignments
 author: windows-sdk-content
 description: Retrieves an IAzRoleAssignments object that represents the collection of IAzRoleAssignment objects associated with this scope.
 old-location: security\iazscope2_roleassignments.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9f844f6b-8c31-4cec-ae72-a3fd4e947d49
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzScope2 interface [Security],RoleAssignments property, IAzScope2.RoleAssignments, IAzScope2.get_RoleAssignments, IAzScope2::RoleAssignments, IAzScope2::get_RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzScope2 interface, azroles/IAzScope2::RoleAssignments, azroles/IAzScope2::get_RoleAssignments, get_RoleAssignments, security.iazscope2_roleassignments
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAzScope2.get_RoleAssignments
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzScope2::get_RoleAssignments

@@ -4,17 +4,16 @@ title: IUPnPNAT::get_StaticPortMappingCollection
 author: windows-sdk-content
 description: The get_StaticPortMappingCollection method retrieves an interface for the collection of static port mappings on the NAT used by the local computer.
 old-location: ics\iupnpnat_get_staticportmappingcollection.htm
-old-project: ics
+tech.root: ics
 ms.assetid: ba4d0735-f04e-47d1-a54c-e01cf338d737
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUPnPNAT interface [ICS/ICF],get_StaticPortMappingCollection method, IUPnPNAT.get_StaticPortMappingCollection, IUPnPNAT::get_StaticPortMappingCollection, _ics_iupnpnat_get_staticportmappingcollection, get_StaticPortMappingCollection, get_StaticPortMappingCollection method [ICS/ICF], get_StaticPortMappingCollection method [ICS/ICF],IUPnPNAT interface, ics.iupnpnat_get_staticportmappingcollection, natupnp/IUPnPNAT::get_StaticPortMappingCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemHealthAgentState
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPNAT.get_StaticPortMappingCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPNAT::get_StaticPortMappingCollection

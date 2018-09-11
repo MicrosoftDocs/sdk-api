@@ -4,17 +4,16 @@ title: IDVBSTuningSpace::put_SpectralInversion
 author: windows-sdk-content
 description: The put_SpectralInversion method sets a value indicating the spectral inversion.
 old-location: mstv\idvbstuningspace_put_spectralinversion.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c3fd3237-6c10-419d-b1ce-7cb00ebb3442
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_SpectralInversion method, IDVBSTuningSpace.put_SpectralInversion, IDVBSTuningSpace::put_SpectralInversion, IDVBSTuningSpaceput_SpectralInversion, mstv.idvbstuningspace_put_spectralinversion, put_SpectralInversion, put_SpectralInversion method [Microsoft TV Technologies], put_SpectralInversion method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_SpectralInversion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVBSTuningSpace.put_SpectralInversion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBSTuningSpace::put_SpectralInversion
@@ -65,7 +63,7 @@ The <b>put_SpectralInversion</b> method sets a value indicating the spectral inv
 
 ### -param SpectralInversionVal
 
-
+TBD
 
 
 

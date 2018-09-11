@@ -4,17 +4,16 @@ title: PropVariantGetUInt64Elem function
 author: windows-sdk-content
 description: Extracts a single unsigned Int64 element from a PROPVARIANT structure of type VT_UI8, VT_VECTOR | VT_UI8, or VT_ARRAY | VT_UI8.
 old-location: properties\PropVariantGetUInt64Elem.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 35955104-b567-4c4f-850a-0a4778673ce8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PropVariantGetUInt64Elem, PropVariantGetUInt64Elem function [Windows Properties], _shell_PropVariantGetUInt64Elem, properties.PropVariantGetUInt64Elem, propvarutil/PropVariantGetUInt64Elem, shell.PropVariantGetUInt64Elem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropVariantGetUInt64Elem
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PropVariantGetUInt64Elem function

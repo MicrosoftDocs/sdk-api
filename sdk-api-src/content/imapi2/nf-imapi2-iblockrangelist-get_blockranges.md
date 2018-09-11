@@ -4,17 +4,16 @@ title: IBlockRangeList::get_BlockRanges
 author: windows-sdk-content
 description: Returns the list of sector ranges in the form of a safe array of variants of type VT_Dispatch.
 old-location: imapi\iblockrangelist_get_blockranges.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: b9c7e4ee-0fb2-4a15-8277-8db82a4f3afe
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBlockRangeList interface [IMAPI],get_BlockRanges method, IBlockRangeList.get_BlockRanges, IBlockRangeList::get_BlockRanges, get_BlockRanges, get_BlockRanges method [IMAPI], get_BlockRanges method [IMAPI],IBlockRangeList interface, imapi.iblockrangelist_get_blockranges, imapi2/IBlockRangeList::get_BlockRanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBlockRangeList.get_BlockRanges
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IBlockRangeList::get_BlockRanges

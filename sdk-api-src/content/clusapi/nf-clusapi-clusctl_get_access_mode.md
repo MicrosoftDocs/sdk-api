@@ -4,17 +4,16 @@ title: CLUSCTL_GET_ACCESS_MODE macro
 author: windows-sdk-content
 description: Extracts the access code from a control code. For more information on the various codes that comprise a control code, see Control Code Architecture.
 old-location: mscs\clusctl_get_access_mode.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 75544022-6c6b-4a04-83cc-427307eaf3ea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSCTL_GET_ACCESS_MODE, CLUSCTL_GET_ACCESS_MODE macro [Failover Cluster], _wolf_clusctl_get_access_mode, clusapi/CLUSCTL_GET_ACCESS_MODE, mscs.clusctl_get_access_mode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSCTL_GET_ACCESS_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CLUSCTL_GET_ACCESS_MODE macro

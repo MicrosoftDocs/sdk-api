@@ -4,17 +4,16 @@ title: ISyncMgrHandlerInfo::GetLastSyncTime
 author: windows-sdk-content
 description: Gets the date and time when the handler was last synchronized.
 old-location: shell\ISyncMgrHandlerInfo_GetLastSyncTime.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 12b670e1-2da1-4a67-bff0-6945b13c3335
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetLastSyncTime, GetLastSyncTime method [Windows Shell], GetLastSyncTime method [Windows Shell],ISyncMgrHandlerInfo interface, ISyncMgrHandlerInfo interface [Windows Shell],GetLastSyncTime method, ISyncMgrHandlerInfo.GetLastSyncTime, ISyncMgrHandlerInfo::GetLastSyncTime, _shell_ISyncMgrHandlerInfo_GetLastSyncTime, shell.ISyncMgrHandlerInfo_GetLastSyncTime, syncmgr/ISyncMgrHandlerInfo::GetLastSyncTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrHandlerInfo.GetLastSyncTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrHandlerInfo::GetLastSyncTime

@@ -4,17 +4,16 @@ title: ISyncKnowledge2::CompareToKnowledgeCookie
 author: windows-sdk-content
 description: Performs a fast comparison between the specified knowledge cookie and this knowledge object.
 old-location: winsync\isyncknowledge2_comparetoknowledgecookie.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: f1649f70-8c8b-4eea-8ecb-7ea5a657eabe
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CompareToKnowledgeCookie, CompareToKnowledgeCookie method [Windows Sync], CompareToKnowledgeCookie method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],CompareToKnowledgeCookie method, ISyncKnowledge2.CompareToKnowledgeCookie, ISyncKnowledge2::CompareToKnowledgeCookie, winsync.isyncknowledge2_comparetoknowledgecookie, winsync/ISyncKnowledge2::CompareToKnowledgeCookie
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncKnowledge2.CompareToKnowledgeCookie
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncKnowledge2::CompareToKnowledgeCookie

@@ -4,17 +4,16 @@ title: IFsrmReportJob::get_LastGeneratedInDirectory
 author: windows-sdk-content
 description: Retrieves the local directory path where the reports were stored the last time the reports were run.
 old-location: fsrm\ifsrmreportjob_lastgeneratedindirectory.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: b72ce871-41e0-4321-8c9c-0ae77a02c7ff
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],LastGeneratedInDirectory property, IFsrmReportJob.LastGeneratedInDirectory, IFsrmReportJob.get_LastGeneratedInDirectory, IFsrmReportJob::LastGeneratedInDirectory, IFsrmReportJob::get_LastGeneratedInDirectory, LastGeneratedInDirectory property [File Server Resource Manager], LastGeneratedInDirectory property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_lastgeneratedindirectory, fsrm.ifsrmreportjob_lastgeneratedindirectory, fsrmreports/IFsrmReportJob::LastGeneratedInDirectory, fsrmreports/IFsrmReportJob::get_LastGeneratedInDirectory, get_LastGeneratedInDirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmReportJob.get_LastGeneratedInDirectory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportJob::get_LastGeneratedInDirectory

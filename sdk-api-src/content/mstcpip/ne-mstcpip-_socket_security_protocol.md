@@ -4,17 +4,16 @@ title: "_SOCKET_SECURITY_PROTOCOL"
 author: windows-sdk-content
 description: Indicates the type of security protocol to be used on a socket to secure network traffic.
 old-location: winsock\socket_security_protocol.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: ae77ac61-5035-401e-a4b6-345c1be7b2b7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SOCKET_SECURITY_PROTOCOL, SOCKET_SECURITY_PROTOCOL enumeration [Winsock], SOCKET_SECURITY_PROTOCOL_DEFAULT, SOCKET_SECURITY_PROTOCOL_INVALID, SOCKET_SECURITY_PROTOCOL_IPSEC, _SOCKET_SECURITY_PROTOCOL, mstcpip/SOCKET_SECURITY_PROTOCOL, mstcpip/SOCKET_SECURITY_PROTOCOL_DEFAULT, mstcpip/SOCKET_SECURITY_PROTOCOL_INVALID, mstcpip/SOCKET_SECURITY_PROTOCOL_IPSEC, winsock.socket_security_protocol
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mstcpip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKET_SECURITY_PROTOCOL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SOCKET_SECURITY_PROTOCOL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SOCKET_SECURITY_PROTOCOL
+req.redist: 
 ---
 
 # _SOCKET_SECURITY_PROTOCOL enumeration

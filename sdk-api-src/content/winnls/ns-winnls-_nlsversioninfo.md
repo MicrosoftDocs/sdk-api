@@ -4,7 +4,7 @@ title: "_nlsversioninfo"
 author: windows-sdk-content
 description: Deprecated. Contains version information about an NLS capability.
 old-location: intl\nlsversioninfo.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 6afc8972-373c-4198-ac54-c2a6172b3b39
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLSVERSIONINFO, *LPNLSVERSIONINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NLSVERSIONINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: NLSVERSIONINFO, *LPNLSVERSIONINFO
+req.redist: 
 ---
 
 # _nlsversioninfo structure

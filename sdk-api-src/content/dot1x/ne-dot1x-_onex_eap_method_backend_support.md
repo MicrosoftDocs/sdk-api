@@ -4,7 +4,7 @@ title: "_ONEX_EAP_METHOD_BACKEND_SUPPORT"
 author: windows-sdk-content
 description: Specifies the possible values for whether the EAP method configured on the supplicant for 802.1X authentication is supported on the authentication server.
 old-location: nwifi\onex_eap_method_backend_support.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: ae0c30c3-331e-4b57-aa5f-f6b1f73dc69d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dot1x.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ONEX_EAP_METHOD_BACKEND_SUPPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ONEX_EAP_METHOD_BACKEND_SUPPORT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ONEX_EAP_METHOD_BACKEND_SUPPORT
+req.redist: 
 ---
 
 # _ONEX_EAP_METHOD_BACKEND_SUPPORT enumeration

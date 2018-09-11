@@ -4,17 +4,16 @@ title: ICameraUIControl::GetSelectedItems
 author: windows-sdk-content
 description: Gets the selected items.
 old-location: winprog\icamerauicontrol_getselecteditems.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 572cbf23-b9b5-441c-9bde-55ef856397ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows API], GetSelectedItems method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],GetSelectedItems method, ICameraUIControl.GetSelectedItems, ICameraUIControl::GetSelectedItems, camerauicontrol/ICameraUIControl::GetSelectedItems, winprog.icamerauicontrol_getselecteditems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_MARSHALCONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICameraUIControl.GetSelectedItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraUIControl::GetSelectedItems

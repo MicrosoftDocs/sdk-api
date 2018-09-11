@@ -4,17 +4,16 @@ title: IDirectorySearch::GetColumn
 author: windows-sdk-content
 description: The IDirectorySearch::GetColumn method gets data from a named column of the search result.
 old-location: adsi\idirectorysearch_getcolumn.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 3bcacb24-a4b4-4fad-ab7c-79ef7a67064d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetColumn, GetColumn method [ADSI], GetColumn method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetColumn method, IDirectorySearch.GetColumn, IDirectorySearch::GetColumn, _ds_idirectorysearch_getcolumn, adsi.idirectorysearch__getcolumn, adsi.idirectorysearch_getcolumn, iads/IDirectorySearch::GetColumn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDirectorySearch.GetColumn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectorySearch::GetColumn
@@ -64,7 +62,7 @@ The <b>IDirectorySearch::GetColumn</b> method gets data from a named column of t
 
 ### -param hSearchResult
 
-
+TBD
 
 
 ### -param szColumnName [in]

@@ -4,17 +4,16 @@ title: VDS_REPARSE_POINT_PROP
 author: windows-sdk-content
 description: Defines the reparse-point properties of a volume object.
 old-location: base\vds_reparse_point_prop.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 7e224f49-c51f-447e-bc0b-6af3843e01ae
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVDS_REPARSE_POINT_PROP, PVDS_REPARSE_POINT_PROP, PVDS_REPARSE_POINT_PROP structure pointer [VDS], VDS_REPARSE_POINT_PROP, VDS_REPARSE_POINT_PROP structure [VDS], base.vds_reparse_point_prop, vds/PVDS_REPARSE_POINT_PROP, vds/VDS_REPARSE_POINT_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_REPARSE_POINT_PROP, *PVDS_REPARSE_POINT_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_REPARSE_POINT_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_REPARSE_POINT_PROP, *PVDS_REPARSE_POINT_PROP
+req.redist: 
 ---
 
 # VDS_REPARSE_POINT_PROP structure

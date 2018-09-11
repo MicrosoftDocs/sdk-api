@@ -4,17 +4,16 @@ title: ldap_stop_tls_s function
 author: windows-sdk-content
 description: Stops the encryption operation started by a call to ldap_start_tls_s.
 old-location: ldap\ldap_stop_tls_s.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 7b82e79f-009e-4224-b4ce-12b60e0c1011
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ldap.ldap_stop_tls_s, ldap_stop_tls_s, ldap_stop_tls_s function [LDAP], winldap/ldap_stop_tls_s
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ldap_stop_tls_s
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_stop_tls_s function

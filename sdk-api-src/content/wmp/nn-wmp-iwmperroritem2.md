@@ -4,7 +4,7 @@ title: IWMPErrorItem2
 author: windows-sdk-content
 description: The IWMPErrorItem2 interface provides a method that supplements the IWMPErrorItem interface.
 old-location: wmp\iwmperroritem2.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: b71d06db-c9bc-44fc-9e23-a16f89c56c1c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPErrorItem2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPErrorItem2 interface

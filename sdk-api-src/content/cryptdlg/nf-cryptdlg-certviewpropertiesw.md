@@ -4,17 +4,16 @@ title: CertViewPropertiesW function
 author: windows-sdk-content
 description: The CertViewProperties function displays the properties for a certificate in a user interface (UI) dialog box. This function has no associated import library. You must use the LoadLibrary and GetProcAddress functions to dynamically link to CryptDlg.dll.
 old-location: security\certviewproperties.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5df840ab-fff6-4c7e-b799-51e4de4c644a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CertViewProperties, CertViewProperties function [Security], CertViewPropertiesA, CertViewPropertiesW, cryptdlg/CertViewProperties, cryptdlg/CertViewPropertiesA, cryptdlg/CertViewPropertiesW, security.certviewproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cryptdlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_ClientCreds, *PSecPkgContext_ClientCreds
+req.lib: 
+req.dll: CryptDlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CertViewPropertiesW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CryptDlg.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CertViewPropertiesW function

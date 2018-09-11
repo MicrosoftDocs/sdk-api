@@ -4,7 +4,7 @@ title: "_BTH_LE_GATT_SERVICE"
 author: windows-sdk-content
 description: The BTH_LE_GATT_SERVICE structure describes a Bluetooth Low Energy (LE) generic attribute (GATT) profile service.
 old-location: bltooth\bth_le_gatt_service.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: B4433D0F-7938-4C6D-994F-D99393EC013A
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BTH_LE_GATT_SERVICE, *PBTH_LE_GATT_SERVICE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BTH_LE_GATT_SERVICE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BTH_LE_GATT_SERVICE, *PBTH_LE_GATT_SERVICE
+req.redist: 
 ---
 
 # _BTH_LE_GATT_SERVICE structure

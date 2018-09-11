@@ -4,7 +4,7 @@ title: "_MI_DestinationOptions"
 author: windows-sdk-content
 description: Represents a set of destination options. Destination options are a set of configurations that define the way an operation communicates with the server.
 old-location: wmi_v2\mi_destinationoptions.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 7f835ff4-3917-497c-bfe9-ca335cc35938
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,   Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_DestinationOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_DestinationOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MI_DestinationOptions
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,   Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # _MI_DestinationOptions structure

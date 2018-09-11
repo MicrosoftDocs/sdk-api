@@ -4,17 +4,16 @@ title: TaskDialog function
 author: windows-sdk-content
 description: The TaskDialog function creates, displays, and operates a task dialog.
 old-location: controls\TaskDialog.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialog.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TDCBF_CANCEL_BUTTON, TDCBF_CLOSE_BUTTON, TDCBF_NO_BUTTON, TDCBF_OK_BUTTON, TDCBF_RETRY_BUTTON, TDCBF_YES_BUTTON, TD_ERROR_ICON, TD_INFORMATION_ICON, TD_SHIELD_ICON, TD_WARNING_ICON, TaskDialog, TaskDialog function [Windows Controls], _shell_TaskDialog, _shell_TaskDialog_cpp, commctrl/TaskDialog, controls.TaskDialog, controls._shell_TaskDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: Commctrl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll (version 6)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TaskDialog
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll (version 6)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # TaskDialog function

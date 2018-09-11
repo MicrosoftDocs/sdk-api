@@ -4,17 +4,16 @@ title: IUIAutomationSelectionPattern2::get_CurrentItemCount
 author: windows-sdk-content
 description: Gets an integer value indicating the number of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CurrentItemCount.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 8138B67B-09CE-4FE4-93D5-54094ECA2365
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentItemCount property [Windows Accessibility], CurrentItemCount property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CurrentItemCount property, IUIAutomationSelectionPattern2.CurrentItemCount, IUIAutomationSelectionPattern2.get_CurrentItemCount, IUIAutomationSelectionPattern2::CurrentItemCount, IUIAutomationSelectionPattern2::get_CurrentItemCount, get_CurrentItemCount, uiautomationclient/IUIAutomationSelectionPattern2::CurrentItemCount, uiautomationclient/IUIAutomationSelectionPattern2::get_CurrentItemCount, winauto.uiauto_IUIAutomationSelectionPattern2_CurrentItemCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationSelectionPattern2.get_CurrentItemCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationSelectionPattern2::get_CurrentItemCount

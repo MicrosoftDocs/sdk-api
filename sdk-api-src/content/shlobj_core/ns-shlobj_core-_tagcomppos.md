@@ -4,17 +4,16 @@ title: "_tagCOMPPOS"
 author: windows-sdk-content
 description: Holds information about a component's position and size.
 old-location: shell\COMPPOS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 622bdf51-d605-4eb9-a692-09be028bbff8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPCOMPPOS, COMPPOS, COMPPOS structure [Windows Shell], LPCOMPPOS, LPCOMPPOS structure pointer [Windows Shell], _tagCOMPPOS, _win32_COMPPOS, shell.COMPPOS, shlobj_core/COMPPOS, shlobj_core/LPCOMPPOS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPPOS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COMPPOS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: COMPPOS
+req.redist: 
 ---
 
 # _tagCOMPPOS structure

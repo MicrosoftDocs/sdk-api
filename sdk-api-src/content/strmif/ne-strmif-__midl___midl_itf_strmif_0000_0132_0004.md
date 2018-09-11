@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_strmif_0000_0132_0004"
 author: windows-sdk-content
 description: Identifies the four directional buttons used for DVD menu navigation and other operations.
 old-location: dshow\dvd_relative_button.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f2641b5c-08a4-44a1-8f53-fad636a03c45
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_RELATIVE_BUTTON
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: DVD_RELATIVE_BUTTON
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_strmif_0000_0132_0004 enumeration

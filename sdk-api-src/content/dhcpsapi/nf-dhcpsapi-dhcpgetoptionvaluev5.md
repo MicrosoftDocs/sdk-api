@@ -4,17 +4,16 @@ title: DhcpGetOptionValueV5 function
 author: windows-sdk-content
 description: The DhcpGetOptionValueV5 function retrieves a DHCP option value (the option code and associated data) for a particular scope.
 old-location: dhcp\dhcpgetoptionvaluev5.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: afb598fd-b63f-4dd3-bd6e-287016c5fe57
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionValueV5, DhcpGetOptionValueV5 function [DHCP], dhcp.dhcpgetoptionvaluev5, dhcpsapi/DhcpGetOptionValueV5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpGetOptionValueV5
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpGetOptionValueV5 function

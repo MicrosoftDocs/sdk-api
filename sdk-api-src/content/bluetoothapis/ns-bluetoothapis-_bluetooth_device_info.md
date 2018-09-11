@@ -4,7 +4,7 @@ title: "_BLUETOOTH_DEVICE_INFO"
 author: windows-sdk-content
 description: The BLUETOOTH_DEVICE_INFO structure provides information about a Bluetooth device.
 old-location: bluetooth\bluetooth_device_info.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 41b14980-8217-4948-b084-1f44051d12f7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_DEVICE_INFO_STRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BLUETOOTH_DEVICE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BLUETOOTH_DEVICE_INFO_STRUCT
+req.redist: 
 ---
 
 # _BLUETOOTH_DEVICE_INFO structure

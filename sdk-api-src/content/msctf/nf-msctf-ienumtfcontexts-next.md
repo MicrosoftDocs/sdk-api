@@ -4,17 +4,16 @@ title: IEnumTfContexts::Next
 author: windows-sdk-content
 description: IEnumTfContexts::Next method
 old-location: tsf\ienumtfcontexts_next.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 0727ae8b-a66f-42a7-bc74-4c01bfff3855
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumTfContexts interface [Text Services Framework],Next method, IEnumTfContexts.Next, IEnumTfContexts::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfContexts interface, _tsf_ienumtfcontexts_next_ref, msctf/IEnumTfContexts::Next, tsf.ienumtfcontexts_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumTfContexts.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IEnumTfContexts::Next

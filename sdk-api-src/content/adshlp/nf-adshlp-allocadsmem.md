@@ -4,17 +4,16 @@ title: AllocADsMem function
 author: windows-sdk-content
 description: Allocates a block of memory of the specified size.
 old-location: adsi\allocadsmem.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: df98a728-596b-4541-974a-5690e510ad9f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AllocADsMem, AllocADsMem function [ADSI], _ds_allocadsmem, adshlp/AllocADsMem, adsi.allocadsmem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: Activeds.lib
+req.dll: Activeds.dll; AdsLdpc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AllocADsMem
 product: Windows
 targetos: Windows
-req.lib: Activeds.lib
-req.dll: Activeds.dll; AdsLdpc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AllocADsMem function

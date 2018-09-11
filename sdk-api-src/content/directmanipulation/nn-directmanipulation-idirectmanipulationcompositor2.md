@@ -4,7 +4,7 @@ title: IDirectManipulationCompositor2
 author: windows-sdk-content
 description: Represents a compositor object that associates manipulated content with drawing surfaces across multiple processes.
 old-location: directmanipulation\idirectmanipulationcompositor2.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: e428ddaa-3913-498a-a3fd-bed10289cd8d
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationCompositor2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationCompositor2 interface

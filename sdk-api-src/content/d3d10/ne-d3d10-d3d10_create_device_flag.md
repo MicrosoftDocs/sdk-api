@@ -4,17 +4,16 @@ title: D3D10_CREATE_DEVICE_FLAG
 author: windows-sdk-content
 description: Device creation flags.
 old-location: direct3d10\d3d10_create_device_flag.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_create_device_flag.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 3a55fe0a-90a0-6ccb-7720-5039c4fbf12b, D3D10_CREATE_DEVICE_ALLOW_NULL_FROM_MAP, D3D10_CREATE_DEVICE_BGRA_SUPPORT, D3D10_CREATE_DEVICE_DEBUG, D3D10_CREATE_DEVICE_DEBUGGABLE, D3D10_CREATE_DEVICE_FLAG, D3D10_CREATE_DEVICE_FLAG enumeration [Direct3D 10], D3D10_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY, D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS, D3D10_CREATE_DEVICE_SINGLETHREADED, D3D10_CREATE_DEVICE_STRICT_VALIDATION, D3D10_CREATE_DEVICE_SWITCH_TO_REF, d3d10/D3D10_CREATE_DEVICE_ALLOW_NULL_FROM_MAP, d3d10/D3D10_CREATE_DEVICE_BGRA_SUPPORT, d3d10/D3D10_CREATE_DEVICE_DEBUG, d3d10/D3D10_CREATE_DEVICE_DEBUGGABLE, d3d10/D3D10_CREATE_DEVICE_FLAG, d3d10/D3D10_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY, d3d10/D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS, d3d10/D3D10_CREATE_DEVICE_SINGLETHREADED, d3d10/D3D10_CREATE_DEVICE_STRICT_VALIDATION, d3d10/D3D10_CREATE_DEVICE_SWITCH_TO_REF, direct3d10.d3d10_create_device_flag
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_CREATE_DEVICE_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_CREATE_DEVICE_FLAG
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D3D10_CREATE_DEVICE_FLAG
+req.redist: 
 ---
 
 # D3D10_CREATE_DEVICE_FLAG enumeration

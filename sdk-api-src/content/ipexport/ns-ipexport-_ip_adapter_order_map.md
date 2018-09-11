@@ -4,7 +4,7 @@ title: "_IP_ADAPTER_ORDER_MAP"
 author: windows-sdk-content
 description: The IP_ADAPTER_ORDER_MAP structure stores an array of information about adapters and their relative priority on the local computer.
 old-location: iphlp\ip_adapter_order_map.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 0bbd008e-67d4-4557-bff7-f0404a8878ff
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_ADAPTER_ORDER_MAP, *PIP_ADAPTER_ORDER_MAP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_ADAPTER_ORDER_MAP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IP_ADAPTER_ORDER_MAP, *PIP_ADAPTER_ORDER_MAP
+req.redist: 
 ---
 
 # _IP_ADAPTER_ORDER_MAP structure

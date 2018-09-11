@@ -4,17 +4,16 @@ title: WS_XML_CANONICALIZATION_PROPERTY_ID
 author: windows-sdk-content
 description: Identifies each XML canonicalization property and its associated value. This enumeration is used within the WS_XML_CANONICALIZATION_PROPERTY structure, which is used as a parameter to WsStartReaderCanonicalization and WsStartWriterCanonicalization.
 old-location: wsw\ws_xml_canonicalization_property_id.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: af96e1e7-d7e8-4e38-a8ae-f8f28cf0eda9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM, WS_XML_CANONICALIZATION_PROPERTY_ID, WS_XML_CANONICALIZATION_PROPERTY_ID enumeration [Web Services for Windows], WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES, WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT, WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE, webservices/WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM, webservices/WS_XML_CANONICALIZATION_PROPERTY_ID, webservices/WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES, webservices/WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT, webservices/WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE, wsw.ws_xml_canonicalization_property_id
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_CANONICALIZATION_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_CANONICALIZATION_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_CANONICALIZATION_PROPERTY_ID
+req.redist: 
 ---
 
 # WS_XML_CANONICALIZATION_PROPERTY_ID enumeration

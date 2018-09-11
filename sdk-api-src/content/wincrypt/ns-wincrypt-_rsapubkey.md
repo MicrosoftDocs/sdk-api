@@ -4,17 +4,16 @@ title: "_RSAPUBKEY"
 author: windows-sdk-content
 description: The RSAPUBKEY structure contains information specific to the particular public key contained in the key BLOB.
 old-location: security\rsapubkey.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 34b3d591-5d51-484b-accc-9a923d7492b9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: RSAPUBKEY, RSAPUBKEY structure [Security], _RSAPUBKEY, _crypto2_rsapubkey, security.rsapubkey, wincrypt/RSAPUBKEY
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSAPUBKEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RSAPUBKEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: RSAPUBKEY
+req.redist: 
 ---
 
 # _RSAPUBKEY structure

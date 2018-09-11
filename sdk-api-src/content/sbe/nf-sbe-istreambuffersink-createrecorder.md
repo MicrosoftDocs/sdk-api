@@ -4,17 +4,16 @@ title: IStreamBufferSink::CreateRecorder
 author: windows-sdk-content
 description: This topic applies only to Windows XP Service Pack 1 or later.
 old-location: mstv\istreambuffersink_createrecorder.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: a9f3b7e1-4f54-4802-af24-4b791ee646fc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CreateRecorder, CreateRecorder method [Microsoft TV Technologies], CreateRecorder method [Microsoft TV Technologies],IStreamBufferSink interface, IStreamBufferSink interface [Microsoft TV Technologies],CreateRecorder method, IStreamBufferSink.CreateRecorder, IStreamBufferSink::CreateRecorder, IStreamBufferSinkCreateRecorder, mstv.istreambuffersink_createrecorder, sbe/IStreamBufferSink::CreateRecorder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferSink.CreateRecorder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferSink::CreateRecorder
@@ -73,7 +71,7 @@ Pointer to a null-terminated wide-character string that contains the file name f
 
 ### -param dwRecordType
 
-
+TBD
 
 
 ### -param pRecordingIUnknown [out]

@@ -4,17 +4,16 @@ title: CVssWriterEx::GetIdentifyInformation
 author: windows-sdk-content
 description: Obtains the metadata that the writer's OnIdentify or OnIdentifyEx method previously reported.
 old-location: base\cvsswriterex_getidentifyinformation.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 995f353b-d0dc-425a-861d-46b7ee6062da
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CVssWriterEx interface,GetIdentifyInformation method, CVssWriterEx.GetIdentifyInformation, CVssWriterEx::GetIdentifyInformation, GetIdentifyInformation, GetIdentifyInformation method, GetIdentifyInformation method,CVssWriterEx interface, base.cvsswriterex_getidentifyinformation, vswriter/CVssWriterEx::GetIdentifyInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriterEx.GetIdentifyInformation
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriterEx::GetIdentifyInformation

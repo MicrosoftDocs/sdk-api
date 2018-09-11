@@ -4,17 +4,16 @@ title: IUIAutomation2::put_ConnectionTimeout
 author: windows-sdk-content
 description: Specifies the length of time that UI Automation will wait for a provider to respond to a client request for an automation element.
 old-location: winauto\uiauto_iuiautomation2_connectiontimeout.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 636838C8-A5F6-4757-923D-2C69282B04EF
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ConnectionTimeout property [Windows Accessibility], ConnectionTimeout property [Windows Accessibility],IUIAutomation2 interface, IUIAutomation2 interface [Windows Accessibility],ConnectionTimeout property, IUIAutomation2.ConnectionTimeout, IUIAutomation2.put_ConnectionTimeout, IUIAutomation2::ConnectionTimeout, IUIAutomation2::get_ConnectionTimeout, IUIAutomation2::put_ConnectionTimeout, put_ConnectionTimeout, uiautomationclient/IUIAutomation2::ConnectionTimeout, uiautomationclient/IUIAutomation2::get_ConnectionTimeout, uiautomationclient/IUIAutomation2::put_ConnectionTimeout, winauto.uiauto_iuiautomation2_connectiontimeout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IUIAutomation2.put_ConnectionTimeout
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation2::put_ConnectionTimeout

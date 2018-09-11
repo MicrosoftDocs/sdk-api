@@ -4,17 +4,16 @@ title: IVisualTreeService3::ResolveResource
 author: windows-sdk-content
 description: Resolves a resource for an element in the tree and applies the resource to the property provided by the specified property index.
 old-location: xaml_diagnostics\ivisualtreeservice3_resolveresource.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 7DDF1FD0-AD9B-4679-831D-CEDF6524181B
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVisualTreeService3 interface,ResolveResource method, IVisualTreeService3.ResolveResource, IVisualTreeService3::ResolveResource, ResolveResource, ResolveResource method, ResolveResource method,IVisualTreeService3 interface, xaml_diagnostics.ivisualtreeservice3_resolveresource, xamlom/IVisualTreeService3::ResolveResource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualTreeService3.ResolveResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualTreeService3::ResolveResource

@@ -4,17 +4,16 @@ title: "_CMSG_ENVELOPED_ENCODE_INFO"
 author: windows-sdk-content
 description: Contains information needed to encode an enveloped message. It is passed to CryptMsgOpenToEncode if the dwMsgType parameter is CMSG_ENVELOPED.
 old-location: security\cmsg_enveloped_encode_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 87712541-2806-4709-a7cf-c9ba966c96fd
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCMSG_ENVELOPED_ENCODE_INFO, All other encryption algorithms, CALG_3DES, CALG_DES, CMSG_ENVELOPED_ENCODE_INFO, CMSG_ENVELOPED_ENCODE_INFO structure [Security], PCMSG_ENVELOPED_ENCODE_INFO, PCMSG_ENVELOPED_ENCODE_INFO structure pointer [Security], RC2, RC4, SP3 or compatible, _CMSG_ENVELOPED_ENCODE_INFO, _crypto2_cmsg_enveloped_encode_info, security.cmsg_enveloped_encode_info, wincrypt/CMSG_ENVELOPED_ENCODE_INFO, wincrypt/PCMSG_ENVELOPED_ENCODE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_ENVELOPED_ENCODE_INFO, *PCMSG_ENVELOPED_ENCODE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_ENVELOPED_ENCODE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_ENVELOPED_ENCODE_INFO, *PCMSG_ENVELOPED_ENCODE_INFO
+req.redist: 
 ---
 
 # _CMSG_ENVELOPED_ENCODE_INFO structure

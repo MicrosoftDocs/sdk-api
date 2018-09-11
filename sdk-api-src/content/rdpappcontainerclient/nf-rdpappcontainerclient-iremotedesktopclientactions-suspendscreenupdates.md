@@ -4,17 +4,16 @@ title: IRemoteDesktopClientActions::SuspendScreenUpdates
 author: windows-sdk-content
 description: Suspends screen updates being sent to the client.
 old-location: termserv\iremotedesktopclientactions_suspendscreenupdates.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 0161ee5f-5e67-4bc9-b822-800c2b23ec44
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRemoteDesktopClientActions interface [Remote Desktop Services],SuspendScreenUpdates method, IRemoteDesktopClientActions.SuspendScreenUpdates, IRemoteDesktopClientActions::SuspendScreenUpdates, SuspendScreenUpdates, SuspendScreenUpdates method [Remote Desktop Services], SuspendScreenUpdates method [Remote Desktop Services],IRemoteDesktopClientActions interface, rdpappcontainerclient/IRemoteDesktopClientActions::SuspendScreenUpdates, termserv.iremotedesktopclientactions_suspendscreenupdates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: SnapshotFormatType
+req.lib: 
+req.dll: MsTscAx.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRemoteDesktopClientActions.SuspendScreenUpdates
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRemoteDesktopClientActions::SuspendScreenUpdates

@@ -4,7 +4,7 @@ title: ISCSI_TARGET_PORTAL_INFO_EXA
 author: windows-sdk-content
 description: The ISCSI_TARGET_PORTAL_INFO_EX structure contains information about login credentials to a target portal.
 old-location: iscsidisc\iscsi_target_portal_info_ex.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 1c7035db-a71d-43b5-8595-82097ae5433d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ISCSI_TARGET_PORTAL_INFO_EXA, *PISCSI_TARGET_PORTAL_INFO_EXA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ISCSI_TARGET_PORTAL_INFO_EXW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ISCSI_TARGET_PORTAL_INFO_EXA, *PISCSI_TARGET_PORTAL_INFO_EXA
+req.redist: 
 ---
 
 # ISCSI_TARGET_PORTAL_INFO_EXA structure

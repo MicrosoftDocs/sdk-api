@@ -4,7 +4,7 @@ title: MARK_HANDLE_INFO32
 author: windows-sdk-content
 description: Contains information that is used to mark a specified file or directory, and its update sequence number (USN) change journal record with data about changes.
 old-location: fs\mark_handle_info32.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 8ef16cfd-7adc-469f-8bf6-9fd45366cded
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 (64-bit only) [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MARK_HANDLE_INFO32, *PMARK_HANDLE_INFO32
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MARK_HANDLE_INFO32
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: MARK_HANDLE_INFO32, *PMARK_HANDLE_INFO32
+req.redist: 
 ---
 
 # MARK_HANDLE_INFO32 structure

@@ -4,17 +4,16 @@ title: RasEapGetIdentity function
 author: windows-sdk-content
 description: The RAS connection manager calls the RasEapGetIdentity function to obtain identity information for the user requesting authentication.
 old-location: eap\raseapgetidentity.htm
-old-project: eap
+tech.root: eap
 ms.assetid: 66bc34d2-54b9-46eb-b952-6ad66868c8ce
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_FIRST_LINK, RAS_EAP_FLAG_LOGON, RAS_EAP_FLAG_MACHINE_AUTH, RAS_EAP_FLAG_NON_INTERACTIVE, RAS_EAP_FLAG_PREVIEW, RAS_EAP_FLAG_ROUTER, RasEapGetIdentity, RasEapGetIdentity callback, RasEapGetIdentity callback function [EAP], _eap_raseapgetidentity, eap.raseapgetidentity, raseapif/RasEapGetIdentity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: raseapif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_AUTH_ATTRIBUTE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasEapGetIdentity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasEapGetIdentity function

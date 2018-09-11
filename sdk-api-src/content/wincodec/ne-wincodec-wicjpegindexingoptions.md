@@ -4,7 +4,7 @@ title: WICJpegIndexingOptions
 author: windows-sdk-content
 description: Specifies the options for indexing a JPEG image.
 old-location: wic\wicjpegindexingoptions.htm
-old-project: wic
+tech.root: wic
 ms.assetid: AFA9CC1B-847A-4237-9942-EC721FA86E4E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wincodec.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICJpegIndexingOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICJpegIndexingOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICJpegIndexingOptions
+req.redist: 
 ---
 
 # WICJpegIndexingOptions enumeration

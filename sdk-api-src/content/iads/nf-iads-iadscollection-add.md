@@ -4,17 +4,16 @@ title: IADsCollection::Add
 author: windows-sdk-content
 description: Adds a named item to the collection.
 old-location: adsi\iadscollection_add.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: c4f0dc3e-238c-4fd3-adb7-9d467efc8c3d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Add, Add method [ADSI], Add method [ADSI],IADsCollection interface, IADsCollection interface [ADSI],Add method, IADsCollection.Add, IADsCollection::Add, _ds_iadscollection_add, adsi.iadscollection__add, adsi.iadscollection_add, iads/IADsCollection::Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsCollection.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsCollection::Add
@@ -67,7 +65,7 @@ The <b>BSTR</b> value that specifies the item name.  <a href="https://msdn.micro
 
 ### -param vItem
 
-
+TBD
 
 
 

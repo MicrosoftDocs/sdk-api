@@ -4,17 +4,16 @@ title: IAzApplicationGroup::get_Name
 author: windows-sdk-content
 description: Sets or retrieves the name of the application group.
 old-location: security\iazapplicationgroup_name.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: a42fb625-d04e-4884-b644-2007f6dc52ba
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzApplicationGroup object [Security],Name property, IAzApplicationGroup interface [Security],Name property, IAzApplicationGroup.Name, IAzApplicationGroup.get_Name, IAzApplicationGroup::Name, IAzApplicationGroup::get_Name, IAzApplicationGroup::put_Name, Name property [Security], Name property [Security],AzApplicationGroup object, Name property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Name, azroles/IAzApplicationGroup::get_Name, azroles/IAzApplicationGroup::put_Name, get_Name, security.iazapplicationgroup_name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - AzApplicationGroup.Name
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplicationGroup::get_Name

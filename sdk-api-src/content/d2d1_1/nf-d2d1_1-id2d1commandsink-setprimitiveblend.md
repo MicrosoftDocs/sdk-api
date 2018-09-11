@@ -4,17 +4,16 @@ title: ID2D1CommandSink::SetPrimitiveBlend
 author: windows-sdk-content
 description: Sets a new primitive blend mode.
 old-location: direct2d\id2d1commandsink_setprimitiveblend.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 80b7047f-1200-4dc9-bc64-96678524a449
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],SetPrimitiveBlend method, ID2D1CommandSink.SetPrimitiveBlend, ID2D1CommandSink::SetPrimitiveBlend, SetPrimitiveBlend, SetPrimitiveBlend method [Direct2D], SetPrimitiveBlend method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::SetPrimitiveBlend, direct2d.id2d1commandsink_setprimitiveblend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1CommandSink.SetPrimitiveBlend
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1CommandSink::SetPrimitiveBlend

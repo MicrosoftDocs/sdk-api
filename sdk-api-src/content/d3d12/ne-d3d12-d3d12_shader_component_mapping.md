@@ -4,7 +4,7 @@ title: D3D12_SHADER_COMPONENT_MAPPING
 author: windows-sdk-content
 description: Specifies how memory gets routed by a shader resource view (SRV).
 old-location: direct3d12\d3d12_shader_component_mapping.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 654E43DA-03C3-4BFB-8575-0BB48CB4FB81
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SHADER_COMPONENT_MAPPING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_SHADER_COMPONENT_MAPPING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_SHADER_COMPONENT_MAPPING
+req.redist: 
 ---
 
 # D3D12_SHADER_COMPONENT_MAPPING enumeration

@@ -4,7 +4,7 @@ title: "_tag_AMVABUFFERINFO"
 author: windows-sdk-content
 description: The AMVABUFFERINFO structure specifies a buffer for the IAMVideoAccelerator::Execute method.
 old-location: dshow\amvabufferinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8b018c40-44ae-4033-97b3-efa4b4c1bfb2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVABUFFERINFO, *LPAMVABUFFERINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AMVABUFFERINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AMVABUFFERINFO, *LPAMVABUFFERINFO
+req.redist: 
 ---
 
 # _tag_AMVABUFFERINFO structure

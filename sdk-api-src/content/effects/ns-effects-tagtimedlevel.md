@@ -4,7 +4,7 @@ title: tagTimedLevel
 author: windows-sdk-content
 description: The TimedLevel structure holds data returned from the spectrum filter.
 old-location: wmp\timedlevel.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: a33d4cd1-e888-4ecd-9e6c-113febfefd99
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player version 7.0 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimedLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TimedLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: TimedLevel
+req.redist: 
 ---
 
 # tagTimedLevel structure

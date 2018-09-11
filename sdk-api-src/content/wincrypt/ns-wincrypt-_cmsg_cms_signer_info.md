@@ -4,17 +4,16 @@ title: "_CMSG_CMS_SIGNER_INFO"
 author: windows-sdk-content
 description: Contains the content of the defined SignerInfo in signed or signed and enveloped messages.
 old-location: security\cmsg_cms_signer_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 177323ef-4e26-4681-a474-1a99fb6900af
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCMSG_CMS_SIGNER_INFO, CMSG_CMS_SIGNER_INFO, CMSG_CMS_SIGNER_INFO structure [Security], PCMSG_CMS_SIGNER_INFO, PCMSG_CMS_SIGNER_INFO structure pointer [Security], _CMSG_CMS_SIGNER_INFO, _crypto2_cmsg_cms_signer_info, security.cmsg_cms_signer_info, wincrypt/CMSG_CMS_SIGNER_INFO, wincrypt/PCMSG_CMS_SIGNER_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_CMS_SIGNER_INFO, *PCMSG_CMS_SIGNER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_CMS_SIGNER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_CMS_SIGNER_INFO, *PCMSG_CMS_SIGNER_INFO
+req.redist: 
 ---
 
 # _CMSG_CMS_SIGNER_INFO structure

@@ -4,17 +4,16 @@ title: IFsiItem::get_LastModifiedTime
 author: windows-sdk-content
 description: Retrieves the date and time that the directory or file item was last modified in the file system image.
 old-location: imapi\ifsiitem_get_lastmodifiedtime.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: ec7a3b44-817c-4420-81d5-61905aa4f2cf
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFsiItem interface [IMAPI],get_LastModifiedTime method, IFsiItem.get_LastModifiedTime, IFsiItem::get_LastModifiedTime, get_LastModifiedTime, get_LastModifiedTime method [IMAPI], get_LastModifiedTime method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_lastmodifiedtime, imapi2fs/IFsiItem::get_LastModifiedTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiItem.get_LastModifiedTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiItem::get_LastModifiedTime

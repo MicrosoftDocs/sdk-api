@@ -4,17 +4,16 @@ title: QueryServiceLockStatusW function
 author: windows-sdk-content
 description: Retrieves the lock status of the specified service control manager database.
 old-location: base\queryservicelockstatus.htm
-old-project: services
+tech.root: Services
 ms.assetid: 5139d31b-65f1-41ba-852a-91eab1dc366e
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: QueryServiceLockStatus, QueryServiceLockStatus function, QueryServiceLockStatusA, QueryServiceLockStatusW, _win32_queryservicelockstatus, base.queryservicelockstatus, winsvc/QueryServiceLockStatus, winsvc/QueryServiceLockStatusA, winsvc/QueryServiceLockStatusW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - QueryServiceLockStatusW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # QueryServiceLockStatusW function

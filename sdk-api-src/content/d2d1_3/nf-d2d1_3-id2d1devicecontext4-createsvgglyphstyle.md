@@ -4,17 +4,16 @@ title: ID2D1DeviceContext4::CreateSvgGlyphStyle
 author: windows-sdk-content
 description: Creates an SVG glyph style object.
 old-location: direct2d\id2d1devicecontext4_createsvgglyphstyle.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 56E357D3-D361-4A56-990F-1CD4051BD4F1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateSvgGlyphStyle, CreateSvgGlyphStyle method [Direct2D], CreateSvgGlyphStyle method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],CreateSvgGlyphStyle method, ID2D1DeviceContext4.CreateSvgGlyphStyle, ID2D1DeviceContext4::CreateSvgGlyphStyle, d2d1_3/ID2D1DeviceContext4::CreateSvgGlyphStyle, direct2d.id2d1devicecontext4_createsvgglyphstyle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext4.CreateSvgGlyphStyle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext4::CreateSvgGlyphStyle

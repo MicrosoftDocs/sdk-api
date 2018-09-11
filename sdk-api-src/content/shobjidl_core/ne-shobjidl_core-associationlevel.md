@@ -4,17 +4,16 @@ title: ASSOCIATIONLEVEL
 author: windows-sdk-content
 description: Specifies the source of the default association for a file name extension. Used by methods of the IApplicationAssociationRegistration interface.
 old-location: shell\ASSOCIATIONLEVEL.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 846ce9f4-092a-420d-be73-0951efc4368f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: AL_EFFECTIVE, AL_MACHINE, AL_USER, ASSOCIATIONLEVEL, ASSOCIATIONLEVEL enumeration [Windows Shell], _shell_ASSOCIATIONLEVEL, shell.ASSOCIATIONLEVEL, shobjidl_core/AL_EFFECTIVE, shobjidl_core/AL_MACHINE, shobjidl_core/AL_USER, shobjidl_core/ASSOCIATIONLEVEL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASSOCIATIONLEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ASSOCIATIONLEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: ASSOCIATIONLEVEL
+req.redist: 
 ---
 
 # ASSOCIATIONLEVEL enumeration

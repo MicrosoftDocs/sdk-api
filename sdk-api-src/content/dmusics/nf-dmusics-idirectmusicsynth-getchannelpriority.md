@@ -4,17 +4,16 @@ title: IDirectMusicSynth::GetChannelPriority
 author: windows-sdk-content
 description: The GetChannelPriority method outputs the priority of a MIDI channel.
 old-location: audio\idirectmusicsynth_getchannelpriority.htm
-old-project: audio
+tech.root: audio
 ms.assetid: be49f7eb-f0ab-48b3-9776-79811309fcee
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetChannelPriority, GetChannelPriority method [Audio Devices], GetChannelPriority method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetChannelPriority method, IDirectMusicSynth.GetChannelPriority, IDirectMusicSynth::GetChannelPriority, audio.idirectmusicsynth_getchannelpriority, audmp-routines_9590c152-c9c3-4d0a-aad2-a0884716f681.xml, dmusics/IDirectMusicSynth::GetChannelPriority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectMusicSynth.GetChannelPriority
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectMusicSynth::GetChannelPriority

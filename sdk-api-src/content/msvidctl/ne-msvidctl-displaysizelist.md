@@ -4,7 +4,7 @@ title: DisplaySizeList
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\displaysizelist.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2e939cbc-fc75-41d7-9fcb-32da5173f9bc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msvidctl.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DisplaySizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DisplaySizeList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: DisplaySizeList
+req.redist: 
 ---
 
 # DisplaySizeList enumeration

@@ -4,17 +4,16 @@ title: IOpenControlPanel::GetCurrentView
 author: windows-sdk-content
 description: Gets the most recent Control Panel view:\_Classic view or Category view.
 old-location: shell\IOpenControlPanel_GetCurrentView.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ed539638-7953-471f-ac90-ebd4c3929e8e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CPVIEW_ALLITEMS, CPVIEW_CATEGORY, CPVIEW_CLASSIC, CPVIEW_HOME, GetCurrentView, GetCurrentView method [Windows Shell], GetCurrentView method [Windows Shell],IOpenControlPanel interface, IOpenControlPanel interface [Windows Shell],GetCurrentView method, IOpenControlPanel.GetCurrentView, IOpenControlPanel::GetCurrentView, _shell_IOpenControlPanel_GetCurrentView, shell.IOpenControlPanel_GetCurrentView, shobjidl_core/IOpenControlPanel::GetCurrentView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpenControlPanel.GetCurrentView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOpenControlPanel::GetCurrentView

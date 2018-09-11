@@ -4,7 +4,7 @@ title: "_HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM"
 author: windows-sdk-content
 description: Used to specify an IP address to be added to or deleted from the list of IP addresses to which the HTTP service binds.
 old-location: http\http_service_config_ip_listen_param.htm
-old-project: http
+tech.root: http
 ms.assetid: a45fd5e4-0ae4-47fc-bb50-931e0947a6bc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM, *PHTTP_SERVICE_CONFIG_IP_LISTEN_PARAM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM, *PHTTP_SERVICE_CONFIG_IP_LISTEN_PARAM
+req.redist: 
 ---
 
 # _HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM structure

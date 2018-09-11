@@ -4,7 +4,7 @@ title: "_HARDWARE_COUNTER_TYPE"
 author: windows-sdk-content
 description: Defines the types of hardware counters being profiled.
 old-location: hcp\hardware_counter_type.htm
-old-project: hcp
+tech.root: hcp
 ms.assetid: 250dd9f1-b409-4b17-bb84-bf7eba14d36e
 ms.author: windowssdkdev
 ms.date: 03/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HARDWARE_COUNTER_TYPE, *PHARDWARE_COUNTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HARDWARE_COUNTER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: HARDWARE_COUNTER_TYPE, *PHARDWARE_COUNTER_TYPE
+req.redist: 
 ---
 
 # _HARDWARE_COUNTER_TYPE enumeration

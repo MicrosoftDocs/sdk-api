@@ -4,17 +4,16 @@ title: "_IMAGE_LOAD_CONFIG_DIRECTORY64"
 author: windows-sdk-content
 description: Contains the load configuration data of an image.
 old-location: base\image_load_config_directory64_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: ebd42f1a-a5aa-4179-a2d0-61c50469d5c0
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PIMAGE_LOAD_CONFIG_DIRECTORY64, IMAGE_LOAD_CONFIG_DIRECTORY, IMAGE_LOAD_CONFIG_DIRECTORY32, IMAGE_LOAD_CONFIG_DIRECTORY64, IMAGE_LOAD_CONFIG_DIRECTORY64 structure, PIMAGE_LOAD_CONFIG_DIRECTORY64, PIMAGE_LOAD_CONFIG_DIRECTORY64 structure pointer, _IMAGE_LOAD_CONFIG_DIRECTORY64, base.image_load_config_directory64_str, winnt/IMAGE_LOAD_CONFIG_DIRECTORY64, winnt/PIMAGE_LOAD_CONFIG_DIRECTORY64"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGE_LOAD_CONFIG_DIRECTORY64, *PIMAGE_LOAD_CONFIG_DIRECTORY64
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMAGE_LOAD_CONFIG_DIRECTORY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IMAGE_LOAD_CONFIG_DIRECTORY64, *PIMAGE_LOAD_CONFIG_DIRECTORY64
+req.redist: 
 ---
 
 # _IMAGE_LOAD_CONFIG_DIRECTORY64 structure

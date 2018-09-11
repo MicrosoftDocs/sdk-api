@@ -4,7 +4,7 @@ title: peer_group_event_data_tag
 author: windows-sdk-content
 description: The PEER_GROUP_EVENT_DATA structure contains information about a specific peer group event that has occurred.
 old-location: p2p\peer_group_event_data.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 5cdae832-e6a7-481c-9784-1c1c07d689dd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_GROUP_EVENT_DATA, *PPEER_GROUP_EVENT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_GROUP_EVENT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_GROUP_EVENT_DATA, *PPEER_GROUP_EVENT_DATA
+req.redist: 
 ---
 
 # peer_group_event_data_tag structure

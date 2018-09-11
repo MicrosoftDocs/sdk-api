@@ -4,17 +4,16 @@ title: IExplorerCommandState
 author: windows-sdk-content
 description: Exposes a single method that allows retrieval of the command state.
 old-location: shell\IExplorerCommandState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 020a6f6f-1d45-44bd-a57f-ef8000976b5b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IExplorerCommandState, IExplorerCommandState interface [Windows Shell], IExplorerCommandState interface [Windows Shell],described, _shell_IExplorerCommandState, shell.IExplorerCommandState, shobjidl_core/IExplorerCommandState
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExplorerCommandState
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExplorerCommandState interface

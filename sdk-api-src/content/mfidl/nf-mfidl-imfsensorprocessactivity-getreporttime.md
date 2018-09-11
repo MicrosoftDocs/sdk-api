@@ -4,17 +4,16 @@ title: IMFSensorProcessActivity::GetReportTime
 author: windows-sdk-content
 description: Gets the time associated with the sensor activity report.
 old-location: mf\imfsensorprocessactivity_getreporttime.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5C13F0ED-B2A6-43AC-92AA-87BF995DEFD7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetReportTime, GetReportTime method [Media Foundation], GetReportTime method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetReportTime method, IMFSensorProcessActivity.GetReportTime, IMFSensorProcessActivity::GetReportTime, mf.imfsensorprocessactivity_getreporttime, mfidl/IMFSensorProcessActivity::GetReportTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorProcessActivity.GetReportTime
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorProcessActivity::GetReportTime

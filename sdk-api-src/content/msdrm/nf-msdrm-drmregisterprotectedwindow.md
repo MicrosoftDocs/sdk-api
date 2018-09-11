@@ -4,17 +4,16 @@ title: DRMRegisterProtectedWindow function
 author: windows-sdk-content
 description: Registers a window in the protected environment.
 old-location: rm\drmregisterprotectedwindow.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 4801ea8b-4437-4c2b-bec0-60aefaaa1251
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DRMRegisterProtectedWindow, DRMRegisterProtectedWindow function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRegisterProtectedWindow, rm.drmregisterprotectedwindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_SELECTIONSTYLE
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DRMRegisterProtectedWindow
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.typenames: 
+req.redist: 
 ---
 
 # DRMRegisterProtectedWindow function

@@ -4,17 +4,16 @@ title: "_ROUTER_IKEv2_IF_CUSTOM_CONFIG0"
 author: windows-sdk-content
 description: Gets or sets IKEv2 tunnel configuration parameter for IKEv2 tunnel based demand dial interfaces.
 old-location: rras\router_ikev2_if_custom_config0.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: c81611c6-3bad-4965-b4fb-b2c8074cee28
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure pointer [RAS], ROUTER_IKEv2_IF_CUSTOM_CONFIG0, ROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure [RAS], _ROUTER_IKEv2_IF_CUSTOM_CONFIG0, mprapi/PROUTER_IKEv2_IF_CUSTOM_CONFIG0, mprapi/ROUTER_IKEv2_IF_CUSTOM_CONFIG0, rras.router_ikev2_if_custom_config0"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_IKEv2_IF_CUSTOM_CONFIG0, *PROUTER_IKEv2_IF_CUSTOM_CONFIG0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ROUTER_IKEv2_IF_CUSTOM_CONFIG0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ROUTER_IKEv2_IF_CUSTOM_CONFIG0, *PROUTER_IKEv2_IF_CUSTOM_CONFIG0
+req.redist: 
 ---
 
 # _ROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure

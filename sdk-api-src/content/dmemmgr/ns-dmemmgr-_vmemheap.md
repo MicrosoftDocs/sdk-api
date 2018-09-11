@@ -4,7 +4,7 @@ title: "_VMEMHEAP"
 author: windows-sdk-content
 description: The VMEMHEAP structure contains information about the heap.
 old-location: display\vmemheap.htm
-old-project: display
+tech.root: display
 ms.assetid: bcc5eb95-a438-427f-bb16-7489e9485cd5
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dmemmgr.h
 req.include-header: Dmemmgr.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMEMHEAP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VMEMHEAP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: VMEMHEAP
+req.redist: 
 ---
 
 # _VMEMHEAP structure

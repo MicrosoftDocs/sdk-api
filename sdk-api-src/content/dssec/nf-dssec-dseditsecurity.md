@@ -4,17 +4,16 @@ title: DSEditSecurity function
 author: windows-sdk-content
 description: Displays a modal dialog box for editing security on a Directory Services (DS) object.
 old-location: security\dseditsecurity.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: e440e696-37a5-4853-b205-a4701b2c9beb
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: DSEditSecurity, DSEditSecurity function [Security], dssec/DSEditSecurity, security.dseditsecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dssec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: DSSec.lib
+req.dll: DSSec.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSEditSecurity
 product: Windows
 targetos: Windows
-req.lib: DSSec.lib
-req.dll: DSSec.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DSEditSecurity function

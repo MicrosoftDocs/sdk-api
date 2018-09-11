@@ -4,17 +4,16 @@ title: IXpsSignatureRequest::SetSigningLocale
 author: windows-sdk-content
 description: Sets the legal jurisdiction of the package signing location.
 old-location: xps\ixpssignaturerequest_setsigninglocale.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 03d93f1a-2d49-4179-b706-20a688e2467d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetSigningLocale method, IXpsSignatureRequest.SetSigningLocale, IXpsSignatureRequest::SetSigningLocale, SetSigningLocale, SetSigningLocale method [XPS Documents and Packaging], SetSigningLocale method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setsigninglocale, xpsdigitalsignature/IXpsSignatureRequest::SetSigningLocale
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignatureRequest.SetSigningLocale
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignatureRequest::SetSigningLocale

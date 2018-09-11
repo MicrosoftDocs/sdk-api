@@ -4,17 +4,16 @@ title: IBackgroundCopyGroup::GetJob
 author: windows-sdk-content
 description: Use the GetJob method to retrieve a job from the group.
 old-location: bits\ibackgroundcopygroup_getjob.htm
-old-project: bits
+tech.root: bits
 ms.assetid: c392e9e2-0489-457b-b21a-dfff9e2c0f39
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetJob, GetJob method [BITS], GetJob method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetJob method, IBackgroundCopyGroup.GetJob, IBackgroundCopyGroup::GetJob, bits.ibackgroundcopygroup_getjob, qmgr/IBackgroundCopyGroup::GetJob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyGroup.GetJob
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyGroup::GetJob
@@ -64,7 +62,7 @@ Use the <b>GetJob</b> method to retrieve a job from the group.
 
 ### -param jobID
 
-
+TBD
 
 
 ### -param ppJob [out]

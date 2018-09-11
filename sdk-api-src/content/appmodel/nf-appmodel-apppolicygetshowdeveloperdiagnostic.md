@@ -4,17 +4,16 @@ title: AppPolicyGetShowDeveloperDiagnostic function
 author: windows-sdk-content
 description: Retrieves the method used for a process to surface developer information, such as asserts, to the user.
 old-location: appxpkg\apppolicygetshowdeveloperdiagnostic_function.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: A6F794BE-7F40-4216-9E26-63D06B57FDD1
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: AppPolicyGetShowDeveloperDiagnostic, AppPolicyGetShowDeveloperDiagnostic function [App packaging and management], appmodel/AppPolicyGetShowDeveloperDiagnostic, appxpkg.apppolicygetshowdeveloperdiagnostic_function
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: OneCoreUap.lib
+req.dll: Api-ms-win-appmodel-runtime-l1-1-2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - AppPolicyGetShowDeveloperDiagnostic
 product: Windows
 targetos: Windows
-req.lib: OneCoreUap.lib
-req.dll: Api-ms-win-appmodel-runtime-l1-1-2.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AppPolicyGetShowDeveloperDiagnostic function

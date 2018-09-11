@@ -4,17 +4,16 @@ title: ID3D11FunctionLinkingGraph::CreateModuleInstance
 author: windows-sdk-content
 description: Initializes a shader module from the function-linking-graph object.
 old-location: direct3d11\id3d11functionlinkinggraph_createmoduleinstance.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 7E854D31-3E34-43A7-ABEB-7FBAC94217F3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateModuleInstance, CreateModuleInstance method [Direct3D 11], CreateModuleInstance method [Direct3D 11],ID3D11FunctionLinkingGraph interface, ID3D11FunctionLinkingGraph interface [Direct3D 11],CreateModuleInstance method, ID3D11FunctionLinkingGraph.CreateModuleInstance, ID3D11FunctionLinkingGraph::CreateModuleInstance, d3d11shader/ID3D11FunctionLinkingGraph::CreateModuleInstance, direct3d11.id3d11functionlinkinggraph_createmoduleinstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_VERSION_TYPE
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11FunctionLinkingGraph.CreateModuleInstance
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11FunctionLinkingGraph::CreateModuleInstance

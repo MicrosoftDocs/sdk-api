@@ -4,17 +4,16 @@ title: ImageList_Destroy function
 author: windows-sdk-content
 description: Destroys an image list.
 old-location: controls\ImageList_Destroy.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_destroy.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ImageList_Destroy, ImageList_Destroy function [Windows Controls], _win32_ImageList_Destroy, _win32_ImageList_Destroy_cpp, commctrl/ImageList_Destroy, controls.ImageList_Destroy, controls._win32_ImageList_Destroy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ImageList_Destroy
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ImageList_Destroy function

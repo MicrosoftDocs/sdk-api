@@ -4,17 +4,16 @@ title: IMFPMediaPlayer::SetAspectRatioMode
 author: windows-sdk-content
 description: Specifies whether the aspect ratio of the video is preserved during playback.
 old-location: mf\imfpmediaplayer_setaspectratiomode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b100a422-548f-4c38-afeb-4d4c1d9a9140
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetAspectRatioMode method, IMFPMediaPlayer.SetAspectRatioMode, IMFPMediaPlayer::SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [Media Foundation], SetAspectRatioMode method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setaspectratiomode, mfplay/IMFPMediaPlayer::SetAspectRatioMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaPlayer.SetAspectRatioMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaPlayer::SetAspectRatioMode

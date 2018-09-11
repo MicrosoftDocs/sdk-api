@@ -4,7 +4,7 @@ title: "_DXVAHD_COLOR_RGBA"
 author: windows-sdk-content
 description: Specifies an RGB color value.
 old-location: mf\dxvahd_color_rgba.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 60a167cb-f95e-4eb5-995f-be4cceaee47d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_COLOR_RGBA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVAHD_COLOR_RGBA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVAHD_COLOR_RGBA
+req.redist: 
 ---
 
 # _DXVAHD_COLOR_RGBA structure

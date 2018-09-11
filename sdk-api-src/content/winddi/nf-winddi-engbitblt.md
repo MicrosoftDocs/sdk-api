@@ -4,17 +4,16 @@ title: EngBitBlt function
 author: windows-sdk-content
 description: The EngBitBlt function provides general bit-block transfer capabilities either between device-managed surfaces, or between a device-managed surface and a GDI-managed standard format bitmap.
 old-location: display\engbitblt.htm
-old-project: display
+tech.root: display
 ms.assetid: e99dbe54-485b-4a56-9956-2965f04020db
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngBitBlt, EngBitBlt function [Display Devices], display.engbitblt, gdifncs_ec19b94a-e653-4ecb-9c5a-2ddc8d1745c6.xml, winddi/EngBitBlt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - EngBitBlt
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngBitBlt function

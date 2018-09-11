@@ -4,17 +4,16 @@ title: IActionProgress::ResetCancel
 author: windows-sdk-content
 description: Resets progress dialog after a cancellation has been completed.
 old-location: shell\IActionProgress_ResetCancel.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 28a2ee51-0a7a-4802-be55-f111be3a4d2d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IActionProgress interface [Windows Shell],ResetCancel method, IActionProgress.ResetCancel, IActionProgress::ResetCancel, ResetCancel, ResetCancel method [Windows Shell], ResetCancel method [Windows Shell],IActionProgress interface, shell.IActionProgress_ResetCancel, shell_IActionProgress_ResetCancel, shobjidl_core/IActionProgress::ResetCancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shobjidl.idl
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActionProgress.ResetCancel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shobjidl.idl
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActionProgress::ResetCancel

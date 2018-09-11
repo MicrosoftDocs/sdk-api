@@ -4,17 +4,16 @@ title: "_PARAM_BUFFER"
 author: windows-sdk-content
 description: The PARAM_BUFFER structure describes the format of the parameter buffer that can be included in the CONTROL_SERVICE structure.
 old-location: qos\param_buffer.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: b5078f3b-ab7f-4194-aed7-de5ebb4f7fb8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPPARAM_BUFFER, *LPPARAM_BUFFER structure [QOS], PARAM_BUFFER, PARAM_BUFFER structure [QOS], _PARAM_BUFFER, qos.param_buffer, qossp/*LPPARAM_BUFFER, qossp/PARAM_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PARAM_BUFFER, *LPPARAM_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PARAM_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PARAM_BUFFER, *LPPARAM_BUFFER
+req.redist: 
 ---
 
 # _PARAM_BUFFER structure

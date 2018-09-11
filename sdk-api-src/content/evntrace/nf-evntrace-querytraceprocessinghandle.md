@@ -4,17 +4,16 @@ title: QueryTraceProcessingHandle function
 author: windows-sdk-content
 description: Queries the system for the trace processing handle.
 old-location: etw\querytraceprocessinghandle.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 87666275-8752-4EC8-9C01-16D36AE4C5E8
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: QueryTraceProcessingHandle, QueryTraceProcessingHandle function [ETW], etw.querytraceprocessinghandle, evntrace/QueryTraceProcessingHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: AdvAPI32.lib
+req.dll: AdvAPI32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - QueryTraceProcessingHandle
 product: Windows
 targetos: Windows
-req.lib: AdvAPI32.lib
-req.dll: AdvAPI32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # QueryTraceProcessingHandle function

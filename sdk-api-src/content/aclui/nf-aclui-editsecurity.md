@@ -4,17 +4,16 @@ title: EditSecurity function
 author: windows-sdk-content
 description: Displays a property sheet that contains a basic security property page. This property page enables the user to view and edit the access rights allowed or denied by the ACEs in an object's DACL.
 old-location: security\editsecurity.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 756c94b0-946f-47eb-b4b4-db3e6e89fe46
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: EditSecurity, EditSecurity function [Security], _win32_editsecurity, aclui/EditSecurity, security.editsecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: Aclui.lib
+req.dll: Aclui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EditSecurity
 product: Windows
 targetos: Windows
-req.lib: Aclui.lib
-req.dll: Aclui.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # EditSecurity function

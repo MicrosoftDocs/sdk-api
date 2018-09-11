@@ -4,7 +4,7 @@ title: tagOFFLINEFILES_ITEM_TYPE
 author: windows-sdk-content
 description: Identifies the type of an item in the Offline Files cache.
 old-location: of\offlinefiles_item_type.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: cf8bb079-d691-4b37-b408-d1af1746ed37
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_ITEM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OFFLINEFILES_ITEM_TYPE
 product: Windows
 targetos: Windows
-req.lib: CscApi.lib
-req.dll: CscApi.dll
-req.irql: 
+req.typenames: OFFLINEFILES_ITEM_TYPE
+req.redist: 
 ---
 
 # tagOFFLINEFILES_ITEM_TYPE enumeration

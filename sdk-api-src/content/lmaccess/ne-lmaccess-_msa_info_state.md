@@ -4,17 +4,16 @@ title: "_MSA_INFO_STATE"
 author: windows-sdk-content
 description: Indicates the state of a managed service account.
 old-location: security\msa_info_state.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: 3cba6c6a-1d63-4795-b009-1fcdf86cc2ef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMSA_INFO_STATE, MSA_INFO_STATE, MSA_INFO_STATE enumeration [Security], MsaInfoCanInstall, MsaInfoCannotInstall, MsaInfoInstalled, MsaInfoNotExist, MsaInfoNotService, _MSA_INFO_STATE, lmaccess/MSA_INFO_STATE, lmaccess/MsaInfoCanInstall, lmaccess/MsaInfoCannotInstall, lmaccess/MsaInfoInstalled, lmaccess/MsaInfoNotExist, lmaccess/MsaInfoNotService, security.msa_info_state"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: lmaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSA_INFO_STATE
 product: Windows
 targetos: Windows
-req.lib: WindowsApp.lib
-req.dll: Api-ms-win-core-libraryloader-l1-1-1.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+req.redist: 
 ---
 
 # _MSA_INFO_STATE enumeration

@@ -4,7 +4,7 @@ title: tagDOT11_ADHOC_AUTH_ALGORITHM
 author: windows-sdk-content
 description: Specifies the authentication algorithm for user or machine authentication on an ad hoc network.
 old-location: nwifi\dot11_adhoc_auth_algorithm.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 6e28fb8f-a429-4b6c-a057-737bbadb0a95
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_AUTH_ALGORITHM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DOT11_ADHOC_AUTH_ALGORITHM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DOT11_ADHOC_AUTH_ALGORITHM
+req.redist: 
 ---
 
 # tagDOT11_ADHOC_AUTH_ALGORITHM enumeration

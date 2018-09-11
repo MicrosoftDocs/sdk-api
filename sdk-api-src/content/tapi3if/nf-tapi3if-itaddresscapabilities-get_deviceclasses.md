@@ -4,17 +4,16 @@ title: ITAddressCapabilities::get_DeviceClasses
 author: windows-sdk-content
 description: The get_DeviceClasses method gets device classes. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
 old-location: tapi3\itaddresscapabilities_get_deviceclasses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 34c662c6-4166-470f-aaaf-001da4ed048a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_DeviceClasses method, ITAddressCapabilities.get_DeviceClasses, ITAddressCapabilities::get_DeviceClasses, _tapi3_itaddresscapabilities_get_deviceclasses, get_DeviceClasses, get_DeviceClasses method [TAPI 2.2], get_DeviceClasses method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_deviceclasses, tapi3if/ITAddressCapabilities::get_DeviceClasses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddressCapabilities.get_DeviceClasses
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddressCapabilities::get_DeviceClasses

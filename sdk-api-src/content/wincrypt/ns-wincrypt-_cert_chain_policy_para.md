@@ -4,17 +4,16 @@ title: "_CERT_CHAIN_POLICY_PARA"
 author: windows-sdk-content
 description: Contains information used in CertVerifyCertificateChainPolicy to establish policy criteria for the verification of certificate chains.
 old-location: security\cert_chain_policy_para.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5e4fffcb-132b-42c0-81b2-9f866e274c32
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_CHAIN_POLICY_PARA, BASIC_CONSTRAINTS_CERT_CHAIN_POLICY_CA_FLAG, BASIC_CONSTRAINTS_CERT_CHAIN_POLICY_END_ENTITY_FLAG, CERT_CHAIN_POLICY_ALLOW_TESTROOT_FLAG, CERT_CHAIN_POLICY_ALLOW_UNKNOWN_CA_FLAG, CERT_CHAIN_POLICY_IGNORE_ALL_NOT_TIME_VALID_FLAGS, CERT_CHAIN_POLICY_IGNORE_ALL_REV_UNKNOWN_FLAGS, CERT_CHAIN_POLICY_IGNORE_CA_REV_UNKNOWN_FLAG, CERT_CHAIN_POLICY_IGNORE_CTL_NOT_TIME_VALID_FLAG, CERT_CHAIN_POLICY_IGNORE_CTL_SIGNER_REV_UNKNOWN_FLAG, CERT_CHAIN_POLICY_IGNORE_END_REV_UNKNOWN_FLAG, CERT_CHAIN_POLICY_IGNORE_INVALID_BASIC_CONSTRAINTS_FLAG, CERT_CHAIN_POLICY_IGNORE_INVALID_NAME_FLAG, CERT_CHAIN_POLICY_IGNORE_INVALID_POLICY_FLAG, CERT_CHAIN_POLICY_IGNORE_NOT_SUPPORTED_CRITICAL_EXT_FLAG, CERT_CHAIN_POLICY_IGNORE_NOT_TIME_NESTED_FLAG, CERT_CHAIN_POLICY_IGNORE_NOT_TIME_VALID_FLAG, CERT_CHAIN_POLICY_IGNORE_PEER_TRUST_FLAG, CERT_CHAIN_POLICY_IGNORE_ROOT_REV_UNKNOWN_FLAG, CERT_CHAIN_POLICY_IGNORE_WRONG_USAGE_FLAG, CERT_CHAIN_POLICY_PARA, CERT_CHAIN_POLICY_PARA structure [Security], CERT_CHAIN_POLICY_TRUST_TESTROOT_FLAG, MICROSOFT_ROOT_CERT_CHAIN_POLICY_ENABLE_TEST_ROOT_FLAG, PCERT_CHAIN_POLICY_PARA, PCERT_CHAIN_POLICY_PARA structure pointer [Security], _CERT_CHAIN_POLICY_PARA, _crypto2_cert_chain_policy_para, security.cert_chain_policy_para, wincrypt/CERT_CHAIN_POLICY_PARA, wincrypt/PCERT_CHAIN_POLICY_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_CHAIN_POLICY_PARA, *PCERT_CHAIN_POLICY_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_CHAIN_POLICY_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_CHAIN_POLICY_PARA, *PCERT_CHAIN_POLICY_PARA
+req.redist: 
 ---
 
 # _CERT_CHAIN_POLICY_PARA structure

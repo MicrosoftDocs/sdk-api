@@ -4,7 +4,7 @@ title: tagENHMETARECORD
 author: windows-sdk-content
 description: The ENHMETARECORD structure contains data that describes a graphics device interface (GDI) function used to create part of a picture in an enhanced-format metafile.
 old-location: gdi\enhmetarecord.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: efe49094-fe61-40e1-873e-3302c595717e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENHMETARECORD, *PENHMETARECORD, *LPENHMETARECORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ENHMETARECORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ENHMETARECORD, *PENHMETARECORD, *LPENHMETARECORD
+req.redist: 
 ---
 
 # tagENHMETARECORD structure

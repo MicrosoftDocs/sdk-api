@@ -4,7 +4,7 @@ title: "_WTSCLIENTA"
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Connection (RDC) client.
 old-location: termserv\wtsclient.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 864b7560-3f19-4a73-a02b-b82caa88b2de
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSCLIENTA, *PWTSCLIENTA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WTSCLIENTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTSCLIENTA, *PWTSCLIENTA
+req.redist: 
 ---
 
 # _WTSCLIENTA structure

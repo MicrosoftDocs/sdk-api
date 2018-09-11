@@ -4,17 +4,16 @@ title: DhcpServerSetDnsRegCredentialsV5 function
 author: windows-sdk-content
 description: Sets the credentials used by the DHCP server to create Domain Name System (DNS) registrations for the DHCP client lease record.
 old-location: dhcp\dhcpserversetdnsregcredentialsv5.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 7fed2635-43a6-417a-996f-fff8d0692924
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpServerSetDnsRegCredentialsV5, DhcpServerSetDnsRegCredentialsV5 function [DHCP], dhcp.dhcpserversetdnsregcredentialsv5, dhcpsapi/DhcpServerSetDnsRegCredentialsV5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpServerSetDnsRegCredentialsV5
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpServerSetDnsRegCredentialsV5 function

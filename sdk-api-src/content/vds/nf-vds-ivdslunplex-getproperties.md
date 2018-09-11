@@ -4,17 +4,16 @@ title: IVdsLunPlex::GetProperties
 author: windows-sdk-content
 description: Returns the properties of the LUN plex.
 old-location: base\ivdslunplex_getproperties.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: ded24edd-fa6a-48f3-a448-690078f034bb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],GetProperties method, IVdsLunPlex.GetProperties, IVdsLunPlex::GetProperties, base.ivdslunplex_getproperties, vds/IVdsLunPlex::GetProperties, vdshwprv/IVdsLunPlex::GetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLunPlex.GetProperties
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLunPlex::GetProperties

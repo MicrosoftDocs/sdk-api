@@ -4,7 +4,7 @@ title: "_DXVA2_VideoTransferFunction"
 author: windows-sdk-content
 description: Specifies the conversion function from linear RGB to non-linear RGB (R'G'B').
 old-location: mf\dxva2_videotransferfunction.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 43b99d5f-ea28-4de2-b118-e2277f283dee
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_VideoTransferFunction
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA2_VideoTransferFunction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVA2_VideoTransferFunction
+req.redist: 
 ---
 
 # _DXVA2_VideoTransferFunction enumeration

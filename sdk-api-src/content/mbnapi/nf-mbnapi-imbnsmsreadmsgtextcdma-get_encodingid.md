@@ -4,17 +4,16 @@ title: IMbnSmsReadMsgTextCdma::get_EncodingID
 author: windows-sdk-content
 description: The data encoding used in the message.
 old-location: mbn\imbnsmsreadmsgtextcdma_encodingid.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 46a06e03-31de-40a6-ae05-b9b1384bac65
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: EncodingID property [Microsoft Broadband Networks], EncodingID property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],EncodingID property, IMbnSmsReadMsgTextCdma.EncodingID, IMbnSmsReadMsgTextCdma.get_EncodingID, IMbnSmsReadMsgTextCdma::EncodingID, IMbnSmsReadMsgTextCdma::get_EncodingID, get_EncodingID, mbn.imbnsmsreadmsgtextcdma_encodingid, mbnapi/IMbnSmsReadMsgTextCdma::EncodingID, mbnapi/IMbnSmsReadMsgTextCdma::get_EncodingID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnSmsReadMsgTextCdma.get_EncodingID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsReadMsgTextCdma::get_EncodingID

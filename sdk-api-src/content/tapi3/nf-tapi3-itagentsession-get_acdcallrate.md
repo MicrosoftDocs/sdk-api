@@ -4,17 +4,16 @@ title: ITAgentSession::get_ACDCallRate
 author: windows-sdk-content
 description: The get_ACDCallRate method gets the all rate per agent session, in calls per hour.
 old-location: tapi3\itagentsession_get_acdcallrate.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 49737945-7e27-4c88-94c5-29db7dccfc97
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_ACDCallRate method, ITAgentSession.get_ACDCallRate, ITAgentSession::get_ACDCallRate, _tapi3_itagentsession_get_acdcallrate, get_ACDCallRate, get_ACDCallRate method [TAPI 2.2], get_ACDCallRate method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_acdcallrate, tapi3cc/ITAgentSession::get_ACDCallRate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentSession.get_ACDCallRate
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentSession::get_ACDCallRate

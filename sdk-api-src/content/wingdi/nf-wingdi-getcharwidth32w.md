@@ -4,17 +4,16 @@ title: GetCharWidth32W function
 author: windows-sdk-content
 description: The GetCharWidth32 function retrieves the widths, in logical coordinates, of consecutive characters in a specified range from the current font.
 old-location: gdi\getcharwidth32.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: f7d6e9b3-72aa-42d8-8346-b230b9e98237
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCharWidth32, GetCharWidth32 function [Windows GDI], GetCharWidth32A, GetCharWidth32W, _win32_GetCharWidth32, gdi.getcharwidth32, wingdi/GetCharWidth32, wingdi/GetCharWidth32A, wingdi/GetCharWidth32W
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetCharWidth32W
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetCharWidth32W function

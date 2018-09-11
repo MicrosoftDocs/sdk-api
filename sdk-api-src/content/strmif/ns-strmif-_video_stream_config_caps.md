@@ -4,7 +4,7 @@ title: "_VIDEO_STREAM_CONFIG_CAPS"
 author: windows-sdk-content
 description: The VIDEO_STREAM_CONFIG_CAPS structure describes a range of video formats. Video compression and video capture filters use this structure to describe what formats they can produce.
 old-location: dshow\video_stream_config_caps.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c4e68065-79d0-4e2e-abe5-2e5b6a51bd40
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEO_STREAM_CONFIG_CAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VIDEO_STREAM_CONFIG_CAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP
+req.typenames: VIDEO_STREAM_CONFIG_CAPS
+req.redist: 
 ---
 
 # _VIDEO_STREAM_CONFIG_CAPS structure

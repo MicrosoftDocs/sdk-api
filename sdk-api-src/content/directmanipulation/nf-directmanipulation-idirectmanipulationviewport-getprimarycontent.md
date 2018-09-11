@@ -4,17 +4,16 @@ title: IDirectManipulationViewport::GetPrimaryContent
 author: windows-sdk-content
 description: Gets the primary content of a viewport that implements IDirectManipulationContent and IDirectManipulationPrimaryContent.
 old-location: directmanipulation\idirectmanipulationviewport_getprimarycontent.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 1aa70be3-9e95-4c35-8cca-45c1b238961e
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetPrimaryContent, GetPrimaryContent method [Direct Manipulation], GetPrimaryContent method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetPrimaryContent method, IDirectManipulationViewport.GetPrimaryContent, IDirectManipulationViewport::GetPrimaryContent, directmanipulation.idirectmanipulationviewport_getprimarycontent, directmanipulation/IDirectManipulationViewport::GetPrimaryContent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationViewport.GetPrimaryContent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationViewport::GetPrimaryContent

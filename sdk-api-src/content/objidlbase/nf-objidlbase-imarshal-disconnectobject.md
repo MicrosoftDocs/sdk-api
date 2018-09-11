@@ -4,17 +4,16 @@ title: IMarshal::DisconnectObject
 author: windows-sdk-content
 description: Releases all connections to an object. The object's server calls the object's implementation of this method prior to shutting down.
 old-location: com\imarshal_disconnectobject.htm
-old-project: com
+tech.root: com
 ms.assetid: 1a087fe2-d1ad-4ed9-b6f2-12389656e384
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DisconnectObject, DisconnectObject method [COM], DisconnectObject method [COM],IMarshal interface, IMarshal interface [COM],DisconnectObject method, IMarshal.DisconnectObject, IMarshal::DisconnectObject, _com_imarshal_disconnectobject, com.imarshal_disconnectobject, objidlbase/IMarshal::DisconnectObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMarshal.DisconnectObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMarshal::DisconnectObject

@@ -4,17 +4,16 @@ title: IPortableDeviceConnector::GetPnPID
 author: windows-sdk-content
 description: Retrieves the connector's Plug and Play (PnP) device identifier.
 old-location: wpdsdk\iportabledeviceconnector_getpnpid.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 39e7702a-f23e-4f04-8524-06a0fcc025a1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPnPID, GetPnPID method [Windows Portable Devices SDK], GetPnPID method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],GetPnPID method, IPortableDeviceConnector.GetPnPID, IPortableDeviceConnector::GetPnPID, devpkey/IPortableDeviceConnector::GetPnPID, portabledeviceconnectapi/IPortableDeviceConnector::GetPnPID, wpdsdk.iportabledeviceconnector_getpnpid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceconnectapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGuids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceConnector.GetPnPID
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGuids.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceConnector::GetPnPID

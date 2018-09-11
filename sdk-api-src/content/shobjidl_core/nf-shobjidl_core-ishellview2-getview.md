@@ -4,17 +4,16 @@ title: IShellView2::GetView
 author: windows-sdk-content
 description: Requests the current or default Shell view, together with all other valid view identifiers (VIDs) supported by this implementation of IShellView2.
 old-location: shell\IShellView2_GetView.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 74fe42fe-33de-483a-88e4-50da9c1f77c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetView, GetView method [Windows Shell], GetView method [Windows Shell],IShellView2 interface, IShellView2 interface [Windows Shell],GetView method, IShellView2.GetView, IShellView2::GetView, SV2GV_CURRENTVIEW, SV2GV_DEFAULTVIEW, VID_Details, VID_LargeIcons, VID_List, VID_SmallIcons, VID_Tile, _win32_IShellView2_GetView, shell.IShellView2_GetView, shobjidl_core/IShellView2::GetView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellView2.GetView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellView2::GetView

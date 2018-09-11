@@ -4,17 +4,16 @@ title: CFrameworkQuery
 author: windows-sdk-content
 description: The CFrameworkQuery class is used to parse and manipulate a query. It contains methods that return specific property values and methods that test the query to determine the particular properties that are included.
 old-location: wmi\cframeworkquery.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 60a7d83c-cfea-41fa-8d97-321127d33c43
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CFrameworkQuery, CFrameworkQuery class [Windows Management Instrumentation], CFrameworkQuery class [Windows Management Instrumentation],described, _hmm_cframeworkquery, frquery/CFrameworkQuery, wmi.cframeworkquery
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: class
 req.header: frquery.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CFrameworkQuery
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # CFrameworkQuery class

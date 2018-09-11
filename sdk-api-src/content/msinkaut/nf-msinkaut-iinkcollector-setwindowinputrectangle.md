@@ -4,17 +4,16 @@ title: IInkCollector::SetWindowInputRectangle
 author: windows-sdk-content
 description: Sets the window rectangle, in pixels, within which ink is drawn.
 old-location: tablet\inkcollector_setwindowinputrectangle.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b46139db-0473-4cd3-8f1b-d303f3430470
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkCollector interface [Tablet PC],SetWindowInputRectangle method, IInkCollector.SetWindowInputRectangle, IInkCollector::SetWindowInputRectangle, SetWindowInputRectangle, SetWindowInputRectangle method [Tablet PC], SetWindowInputRectangle method [Tablet PC],IInkCollector interface, b46139db-0473-4cd3-8f1b-d303f3430470, msinkaut/IInkCollector::SetWindowInputRectangle, tablet.inkcollector_setwindowinputrectangle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkCollector.SetWindowInputRectangle
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCollector::SetWindowInputRectangle

@@ -4,7 +4,7 @@ title: SBE_PIN_DATA
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 2 only. The STREAMBUFFER_ATTRIBUTE structure contains performance data for the stream buffer filters.
 old-location: mstv\sbe_pin_data.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 727aa921-5156-4b7a-a184-b0744acfa6fb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SBE_PIN_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SBE_PIN_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SBE_PIN_DATA
+req.redist: 
 ---
 
 # SBE_PIN_DATA structure

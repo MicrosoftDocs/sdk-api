@@ -4,7 +4,7 @@ title: PHONECAPS_LONG
 author: windows-sdk-content
 description: The PHONECAPS_LONG enum is used by methods that set or get phone capabilities described by a long value.
 old-location: tapi3\phonecaps_long.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 7a73d5ff-d08a-46e6-b4ad-4f3b973967a7
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PHONECAPS_LONG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PHONECAPS_LONG
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PHONECAPS_LONG
+req.redist: 
 ---
 
 # PHONECAPS_LONG enumeration

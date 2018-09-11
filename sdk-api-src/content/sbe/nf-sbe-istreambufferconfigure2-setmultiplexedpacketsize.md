@@ -4,17 +4,16 @@ title: IStreamBufferConfigure2::SetMultiplexedPacketSize
 author: windows-sdk-content
 description: The SetMultiplexedPacketSize method sets the size of the multiplexed packets in the backing files for the Stream Buffer Engine.
 old-location: mstv\istreambufferconfigure2_setmultiplexedpacketsize.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9133331b-cf0c-4dfb-8bb6-101742d194c7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IStreamBufferConfigure2 interface [Microsoft TV Technologies],SetMultiplexedPacketSize method, IStreamBufferConfigure2.SetMultiplexedPacketSize, IStreamBufferConfigure2::SetMultiplexedPacketSize, IStreamBufferConfigure2SetMultiplexedPacketSize, SetMultiplexedPacketSize, SetMultiplexedPacketSize method [Microsoft TV Technologies], SetMultiplexedPacketSize method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, mstv.istreambufferconfigure2_setmultiplexedpacketsize, sbe/IStreamBufferConfigure2::SetMultiplexedPacketSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferConfigure2.SetMultiplexedPacketSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferConfigure2::SetMultiplexedPacketSize

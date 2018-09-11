@@ -4,17 +4,16 @@ title: ID3D10ShaderReflectionType
 author: windows-sdk-content
 description: This shader-reflection interface provides access to variable type.
 old-location: direct3d10\id3d10shaderreflectiontype.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectiontype.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 07410292-1cdc-6e8c-f5a7-81000df37961, ID3D10ShaderReflectionType, ID3D10ShaderReflectionType interface [Direct3D 10], ID3D10ShaderReflectionType interface [Direct3D 10],described, d3d10shader/ID3D10ShaderReflectionType, direct3d10.id3d10shaderreflectiontype
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_MESSAGE
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D10ShaderReflectionType
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10ShaderReflectionType interface

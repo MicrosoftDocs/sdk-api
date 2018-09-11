@@ -4,17 +4,16 @@ title: CryptCATEnumerateCatAttr function
 author: windows-sdk-content
 description: Enumerates the attributes associated with a catalog. This function has no associated import library.
 old-location: security\cryptcatenumeratecatattr.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 57b6ff5c-e47e-41ac-8ec8-01a47ea77acf
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptCATEnumerateCatAttr, CryptCATEnumerateCatAttr function [Security], mscat/CryptCATEnumerateCatAttr, security.cryptcatenumeratecatattr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSP_PINMODE, *PKSP_PINMODE
+req.lib: Wintrust.lib
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptCATEnumerateCatAttr
 product: Windows
 targetos: Windows
-req.lib: Wintrust.lib
-req.dll: Wintrust.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CryptCATEnumerateCatAttr function

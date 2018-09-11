@@ -4,7 +4,7 @@ title: MFP_EVENT_HEADER
 author: windows-sdk-content
 description: Contains information that is common to every type of MFPlay event.
 old-location: mf\mfp_event_header.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ed9d3790-845a-4392-b755-6a5ce6e20de5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFP_EVENT_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFP_EVENT_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFP_EVENT_HEADER
+req.redist: 
 ---
 
 # MFP_EVENT_HEADER structure

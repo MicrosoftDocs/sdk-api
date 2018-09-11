@@ -4,17 +4,16 @@ title: IDirectDraw7::GetMonitorFrequency
 author: windows-sdk-content
 description: Retrieves the frequency of the monitor that the DirectDraw object controls.
 old-location: directdraw\idirectdraw7_getmonitorfrequency.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 13f8e5c2-b957-43ce-9fc8-5554c2321bdd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMonitorFrequency, GetMonitorFrequency method [DirectDraw], GetMonitorFrequency method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetMonitorFrequency method, IDirectDraw7.GetMonitorFrequency, IDirectDraw7::GetMonitorFrequency, ddraw/IDirectDraw7::GetMonitorFrequency, directdraw.idirectdraw7_getmonitorfrequency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDraw7.GetMonitorFrequency
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDraw7::GetMonitorFrequency

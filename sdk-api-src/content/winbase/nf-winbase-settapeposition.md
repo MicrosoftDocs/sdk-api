@@ -4,17 +4,16 @@ title: SetTapePosition function
 author: windows-sdk-content
 description: Sets the tape position on the specified device.
 old-location: backup\settapeposition.htm
-old-project: backup
+tech.root: backup
 ms.assetid: e1962aa5-c187-4fef-886c-36a8b096829f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: SetTapePosition, SetTapePosition function [Backup], TAPE_ABSOLUTE_BLOCK, TAPE_LOGICAL_BLOCK, TAPE_REWIND, TAPE_SPACE_END_OF_DATA, TAPE_SPACE_FILEMARKS, TAPE_SPACE_RELATIVE_BLOCKS, TAPE_SPACE_SEQUENTIAL_FMKS, TAPE_SPACE_SEQUENTIAL_SMKS, TAPE_SPACE_SETMARKS, _win32_settapeposition, backup.settapeposition, base.settapeposition, winbase/SetTapePosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetTapePosition
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetTapePosition function

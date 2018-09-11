@@ -4,17 +4,16 @@ title: ID3DX11Scan::SetScanDirection
 author: windows-sdk-content
 description: Sets which direction to perform scans in.
 old-location: direct3d11\id3dx11scan_setscandirection.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: f26b0e71-0803-4c57-b1bc-cefad5c449b7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID3DX11Scan interface [Direct3D 11],SetScanDirection method, ID3DX11Scan.SetScanDirection, ID3DX11Scan::SetScanDirection, SetScanDirection, SetScanDirection method [Direct3D 11], SetScanDirection method [Direct3D 11],ID3DX11Scan interface, d3dcsx/ID3DX11Scan::SetScanDirection, direct3d11.id3dx11scan_setscandirection, f86c1216-b196-31a2-2a44-3b56262de095
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3dcsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DX11_SCAN_OPCODE
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3DX11Scan.SetScanDirection
 product: Windows
 targetos: Windows
-req.lib: D3dcsx.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3DX11Scan::SetScanDirection

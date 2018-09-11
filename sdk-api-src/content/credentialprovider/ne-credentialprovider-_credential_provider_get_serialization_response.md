@@ -4,17 +4,16 @@ title: "_CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE"
 author: windows-sdk-content
 description: Describes the response when a credential provider attempts to serialize credentials.
 old-location: shell\CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 73615129-62f2-4bc9-acf6-058a6641f4e2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CPGSR_NO_CREDENTIAL_FINISHED, CPGSR_NO_CREDENTIAL_NOT_FINISHED, CPGSR_RETURN_CREDENTIAL_FINISHED, CPGSR_RETURN_NO_CREDENTIAL_FINISHED, CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE, CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE enumeration [Windows Shell], _CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE, _shell_CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE, credentialprovider/CPGSR_NO_CREDENTIAL_FINISHED, credentialprovider/CPGSR_NO_CREDENTIAL_NOT_FINISHED, credentialprovider/CPGSR_RETURN_CREDENTIAL_FINISHED, credentialprovider/CPGSR_RETURN_NO_CREDENTIAL_FINISHED, credentialprovider/CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE, shell.CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
+req.redist: 
 ---
 
 # _CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE enumeration

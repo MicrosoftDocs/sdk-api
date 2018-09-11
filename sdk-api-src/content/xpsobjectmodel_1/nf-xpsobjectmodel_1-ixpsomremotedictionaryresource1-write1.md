@@ -4,17 +4,16 @@ title: IXpsOMRemoteDictionaryResource1::Write1
 author: windows-sdk-content
 description: Serializes the remote dictionary resource to a stream.
 old-location: xps\ixpsomremotedictionaryresource1_write1.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 5C5C2DC9-1F03-44F9-9466-7AFD1BD5D098
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging],Write1 method, IXpsOMRemoteDictionaryResource1.Write1, IXpsOMRemoteDictionaryResource1::Write1, Write1, Write1 method [XPS Documents and Packaging], Write1 method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource1 interface, xps.ixpsomremotedictionaryresource1_write1, xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1::Write1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_DOCUMENT_TYPE
+req.lib: None
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IXpsOMRemoteDictionaryResource1.Write1
 product: Windows
 targetos: Windows
-req.lib: None
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMRemoteDictionaryResource1::Write1

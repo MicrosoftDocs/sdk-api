@@ -4,7 +4,7 @@ title: "_MIB_IPNET_ROW2"
 author: windows-sdk-content
 description: Stores information about a neighbor IP address.
 old-location: mib\mib_ipnet_row2.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 164dbd93-4464-40f9-989a-17597102b1d8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPNET_ROW2, *PMIB_IPNET_ROW2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_IPNET_ROW2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MIB_IPNET_ROW2, *PMIB_IPNET_ROW2
+req.redist: 
 ---
 
 # _MIB_IPNET_ROW2 structure

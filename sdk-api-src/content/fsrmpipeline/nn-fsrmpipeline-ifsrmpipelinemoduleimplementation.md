@@ -4,7 +4,7 @@ title: IFsrmPipelineModuleImplementation
 author: windows-sdk-content
 description: Abstract interface for IFsrmClassifierModuleImplementation and IFsrmStorageModuleImplementation.
 old-location: fsrm\ifsrmpipelinemoduleimplementation.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: a4420b1e-e2e5-460c-948c-3c5f97d7a0e7
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmPipelineModuleImplementation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPipelineModuleImplementation interface

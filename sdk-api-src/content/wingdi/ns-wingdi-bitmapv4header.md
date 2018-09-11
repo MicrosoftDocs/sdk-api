@@ -4,7 +4,7 @@ title: BITMAPV4HEADER
 author: windows-sdk-content
 description: The BITMAPV4HEADER structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.Applications can use the BITMAPV5HEADER structure for added functionality.
 old-location: gdi\bitmapv4header.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 17c50d55-1c95-4178-82ba-7f504aa63c83
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAPV4HEADER, *LPBITMAPV4HEADER, *PBITMAPV4HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BITMAPV4HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: BITMAPV4HEADER, *LPBITMAPV4HEADER, *PBITMAPV4HEADER
+req.redist: 
 ---
 
 # BITMAPV4HEADER structure

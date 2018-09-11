@@ -4,17 +4,16 @@ title: IMetaDataImport2::GetGenericParamConstraintProps
 author: windows-sdk-content
 description: Gets the metadata associated with the generic parameter constraint represented by the specified constraint token.
 old-location: winrt\imetadataimport2_getgenericparamconstraintprops.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 307b4ab5-733d-4340-a400-3a13039099b0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetGenericParamConstraintProps, GetGenericParamConstraintProps method [Windows Runtime], GetGenericParamConstraintProps method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetGenericParamConstraintProps method, IMetaDataImport2.GetGenericParamConstraintProps, IMetaDataImport2::GetGenericParamConstraintProps, rometadataapi/IMetaDataImport2::GetGenericParamConstraintProps, winrt.imetadataimport2_getgenericparamconstraintprops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport2.GetGenericParamConstraintProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport2::GetGenericParamConstraintProps

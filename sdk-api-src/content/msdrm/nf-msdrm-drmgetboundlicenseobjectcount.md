@@ -4,17 +4,16 @@ title: DRMGetBoundLicenseObjectCount function
 author: windows-sdk-content
 description: Retrieves the number of occurrences of an object within a specified branch of a license.
 old-location: rm\drmgetboundlicenseobjectcount.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 1bb9a9b7-f254-4c2b-a7b0-5e9b99c92488
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DRMGetBoundLicenseObjectCount, DRMGetBoundLicenseObjectCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseObjectCount, rm.drmgetboundlicenseobjectcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_SELECTIONSTYLE
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMGetBoundLicenseObjectCount
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

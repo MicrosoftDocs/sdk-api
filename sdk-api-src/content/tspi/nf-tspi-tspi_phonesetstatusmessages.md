@@ -4,17 +4,16 @@ title: TSPI_phoneSetStatusMessages function
 author: windows-sdk-content
 description: The TSPI_phoneSetStatusMessages function causes the service provider to filter status messages that are not currently of interest to any application.
 old-location: tspi\tspi_phonesetstatusmessages.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 19e240e5-ba75-4806-a271-dc87235ba598
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_phoneSetStatusMessages, TSPI_phoneSetStatusMessages function [TAPI 2.2], _tspi_tspi_phonesetstatusmessages, tspi.tspi_phonesetstatusmessages, tspi/TSPI_phoneSetStatusMessages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_phoneSetStatusMessages
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_phoneSetStatusMessages function

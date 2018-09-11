@@ -4,17 +4,16 @@ title: ID2D1PrintControl::Close
 author: windows-sdk-content
 description: Passes all remaining resources to the print sub-system, then clean up and close the current print job.
 old-location: direct2d\id2d1printcontrol_close.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 2ADCA373-C461-4737-A292-AF29977B148C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Close, Close method [Direct2D], Close method [Direct2D],ID2D1PrintControl interface, ID2D1PrintControl interface [Direct2D],Close method, ID2D1PrintControl.Close, ID2D1PrintControl::Close, d2d1_1/ID2D1PrintControl::Close, direct2d.id2d1printcontrol_close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: D2d1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1PrintControl.Close
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1PrintControl::Close

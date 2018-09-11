@@ -4,7 +4,7 @@ title: "_DHCP_CLIENT_INFO_PB"
 author: windows-sdk-content
 description: The DHCP_CLIENT_INFO_PB structure defines information about a DHCPv4 client, including filter status information and any policies that resulted in the IPv4 address assignment.
 old-location: dhcp\dhcp_client_info_pb.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 3ee224fb-650f-4468-848b-960424202ac3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_CLIENT_INFO_PB, *LPDHCP_CLIENT_INFO_PB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_CLIENT_INFO_PB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_CLIENT_INFO_PB, *LPDHCP_CLIENT_INFO_PB
+req.redist: 
 ---
 
 # _DHCP_CLIENT_INFO_PB structure

@@ -4,17 +4,16 @@ title: "_MINIDUMP_EXCEPTION"
 author: windows-sdk-content
 description: Contains exception information.
 old-location: base\minidump_exception_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: edbb87a7-1b99-46bd-8797-c806861ec73a
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PMINIDUMP_EXCEPTION, EXCEPTION_ACCESS_VIOLATION, EXCEPTION_ARRAY_BOUNDS_EXCEEDED, EXCEPTION_BREAKPOINT, EXCEPTION_DATATYPE_MISALIGNMENT, EXCEPTION_FLT_DENORMAL_OPERAND, EXCEPTION_FLT_DIVIDE_BY_ZERO, EXCEPTION_FLT_INEXACT_RESULT, EXCEPTION_FLT_INVALID_OPERATION, EXCEPTION_FLT_OVERFLOW, EXCEPTION_FLT_STACK_CHECK, EXCEPTION_FLT_UNDERFLOW, EXCEPTION_ILLEGAL_INSTRUCTION, EXCEPTION_INT_DIVIDE_BY_ZERO, EXCEPTION_INT_OVERFLOW, EXCEPTION_INVALID_DISPOSITION, EXCEPTION_IN_PAGE_ERROR, EXCEPTION_NONCONTINUABLE_EXCEPTION, EXCEPTION_PRIV_INSTRUCTION, EXCEPTION_SINGLE_STEP, EXCEPTION_STACK_OVERFLOW, MINIDUMP_EXCEPTION, MINIDUMP_EXCEPTION structure, PMINIDUMP_EXCEPTION, PMINIDUMP_EXCEPTION structure pointer, _MINIDUMP_EXCEPTION, _win32_minidump_exception_str, base.minidump_exception_str, minidumpapiset/MINIDUMP_EXCEPTION, minidumpapiset/PMINIDUMP_EXCEPTION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_EXCEPTION, *PMINIDUMP_EXCEPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_EXCEPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_EXCEPTION, *PMINIDUMP_EXCEPTION
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_EXCEPTION structure

@@ -4,17 +4,16 @@ title: IThumbnailCachePrimer::PageInThumbnail
 author: windows-sdk-content
 description: "."
 old-location: shell\IThumbnailCachePrimer_PageInThumbnail.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 395C1158-84CC-4400-AA8C-A2B3008AFECF
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IThumbnailCachePrimer interface [Windows Shell],PageInThumbnail method, IThumbnailCachePrimer.PageInThumbnail, IThumbnailCachePrimer::PageInThumbnail, PageInThumbnail, PageInThumbnail method [Windows Shell], PageInThumbnail method [Windows Shell],IThumbnailCachePrimer interface, shell.IThumbnailCachePrimer_PageInThumbnail, thumbcache/IThumbnailCachePrimer::PageInThumbnail
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: thumbcache.h
 req.include-header: Thumbcache.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IThumbnailCachePrimer.PageInThumbnail
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IThumbnailCachePrimer::PageInThumbnail

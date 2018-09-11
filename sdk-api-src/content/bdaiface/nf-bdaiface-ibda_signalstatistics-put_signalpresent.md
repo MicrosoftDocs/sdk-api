@@ -4,17 +4,16 @@ title: IBDA_SignalStatistics::put_SignalPresent
 author: windows-sdk-content
 description: The put_SignalPresent method specifies whether a signal is present.
 old-location: mstv\ibda_signalstatistics_put_signalpresent.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9d27dd06-a180-4ee6-bb52-34a8f434ab6a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],put_SignalPresent method, IBDA_SignalStatistics.put_SignalPresent, IBDA_SignalStatistics::put_SignalPresent, IBDA_SignalStatisticsput_SignalPresent, bdaiface/IBDA_SignalStatistics::put_SignalPresent, mstv.ibda_signalstatistics_put_signalpresent, put_SignalPresent, put_SignalPresent method [Microsoft TV Technologies], put_SignalPresent method [Microsoft TV Technologies],IBDA_SignalStatistics interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_SignalStatistics.put_SignalPresent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_SignalStatistics::put_SignalPresent

@@ -4,7 +4,7 @@ title: LPDHCP_DROP_SEND
 author: windows-sdk-content
 description: LPDHCP_DROP_SEND callback function
 old-location: dhcp\dhcppktdrophook.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 29fa3266-a0a7-4e17-bf15-35a454f78b12
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dhcpssdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCOPE_MIB_INFO_V5, *LPSCOPE_MIB_INFO_V5
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LPDHCP_DROP_SEND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LPDHCP_DROP_SEND callback function

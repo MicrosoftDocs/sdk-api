@@ -4,17 +4,16 @@ title: IPropertyDescription::GetSortDescription
 author: windows-sdk-content
 description: Gets the current sort description flags for the property, which indicate the particular wordings of sort offerings.
 old-location: properties\IPropertyDescription_GetSortDescription.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 71f565b3-cf77-498c-b2a5-3a49a71c102f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSortDescription, GetSortDescription method [Windows Properties], GetSortDescription method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetSortDescription method, IPropertyDescription.GetSortDescription, IPropertyDescription::GetSortDescription, PDSD_A_Z, PDSD_GENERAL, PDSD_LOWEST_HIGHEST, PDSD_OLDEST_NEWEST, PDSD_SMALLEST_BIGGEST, properties.IPropertyDescription_GetSortDescription, propsys/IPropertyDescription::GetSortDescription, shell.IPropertyDescription_GetSortDescription, shell_IPropertyDescription_GetSortDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.GetSortDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::GetSortDescription

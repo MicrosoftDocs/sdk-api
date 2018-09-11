@@ -4,17 +4,16 @@ title: "_ROUTER_CUSTOM_IKEv2_POLICY0"
 author: windows-sdk-content
 description: Contains the IKEv2 main mode and quick mode policy configuration.
 old-location: rras\router_custom_ikev2_policy0.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 46ea7b05-0d2d-4ba1-b3c3-fab67eabf552
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PROUTER_CUSTOM_IKEv2_POLICY0, *PROUTER_CUSTOM_L2TP_POLICY0, PROUTER_CUSTOM_IKEv2_POLICY0, PROUTER_CUSTOM_IKEv2_POLICY0 structure pointer [RAS], ROUTER_CUSTOM_IKEv2_POLICY0, ROUTER_CUSTOM_IKEv2_POLICY0 structure [RAS], ROUTER_CUSTOM_L2TP_POLICY0, _ROUTER_CUSTOM_IKEv2_POLICY0, mprapi/PROUTER_CUSTOM_IKEv2_POLICY0, mprapi/ROUTER_CUSTOM_IKEv2_POLICY0, rras.router_custom_ikev2_policy0"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_CUSTOM_IKEv2_POLICY0, *PROUTER_CUSTOM_IKEv2_POLICY0, ROUTER_CUSTOM_L2TP_POLICY0, *PROUTER_CUSTOM_L2TP_POLICY0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ROUTER_CUSTOM_IKEv2_POLICY0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ROUTER_CUSTOM_IKEv2_POLICY0, *PROUTER_CUSTOM_IKEv2_POLICY0, ROUTER_CUSTOM_L2TP_POLICY0, *PROUTER_CUSTOM_L2TP_POLICY0
+req.redist: 
 ---
 
 # _ROUTER_CUSTOM_IKEv2_POLICY0 structure

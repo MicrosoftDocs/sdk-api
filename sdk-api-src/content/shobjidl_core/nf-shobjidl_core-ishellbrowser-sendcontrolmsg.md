@@ -4,17 +4,16 @@ title: IShellBrowser::SendControlMsg
 author: windows-sdk-content
 description: Sends control messages to either the toolbar or the status bar in a Windows Explorer window.
 old-location: shell\IShellBrowser_SendControlMsg.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4494870b-45a8-478a-807a-7ed3674f69f3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellBrowser interface [Windows Shell],SendControlMsg method, IShellBrowser.SendControlMsg, IShellBrowser::SendControlMsg, SendControlMsg, SendControlMsg method [Windows Shell], SendControlMsg method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SendControlMsg, shell.IShellBrowser_SendControlMsg, shobjidl_core/IShellBrowser::SendControlMsg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellBrowser.SendControlMsg
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellBrowser::SendControlMsg

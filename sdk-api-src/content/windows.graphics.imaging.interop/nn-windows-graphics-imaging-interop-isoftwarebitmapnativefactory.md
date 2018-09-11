@@ -4,17 +4,16 @@ title: ISoftwareBitmapNativeFactory
 author: windows-sdk-content
 description: Creates instances of ISoftwareBitmapNative.
 old-location: winrt\isoftwarebitmapnativefactory.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 613BFE81-AC55-4786-B6BD-0FFB7506D7F1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISoftwareBitmapNativeFactory, ISoftwareBitmapNativeFactory interface [Windows Runtime], ISoftwareBitmapNativeFactory interface [Windows Runtime],described, windows/ISoftwareBitmapNativeFactory, winrt.isoftwarebitmapnativefactory
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISoftwareBitmapNativeFactory
 product: Windows
 targetos: Windows
-req.lib: Windows.graphics.imaging.interop.lib
-req.dll: Windows.graphics.imaging.interop.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISoftwareBitmapNativeFactory interface

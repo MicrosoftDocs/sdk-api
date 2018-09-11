@@ -4,17 +4,16 @@ title: IsNormalizedString function
 author: windows-sdk-content
 description: Verifies that a string is normalized according to Unicode 4.0 TR#15. For more information, see Using Unicode Normalization to Represent Strings.
 old-location: intl\isnormalizedstring.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 5a1d3977-9fe9-457f-b0a2-46b32bcc27db
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IsNormalizedString, IsNormalizedString function [Internationalization for Windows Applications], _win32_IsNormalizedString, intl.isnormalizedstring, winnls/IsNormalizedString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later, orWindows Server 2003 with SP1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: 
+req.dll: Normaliz.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IsNormalizedString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Normaliz.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later, orWindows Server 2003 with SP1
 ---
 
 # IsNormalizedString function

@@ -4,17 +4,16 @@ title: "_XINPUT_VIBRATION"
 author: windows-sdk-content
 description: Specifies motor speed levels for the vibration function of a controller.
 old-location: xinput\xinput_vibration.htm
-old-project: xinput
+tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_VIBRATION
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: "*PXINPUT_VIBRATION, PXINPUT_VIBRATION, PXINPUT_VIBRATION structure pointer [XInput Game Controller APIs], XINPUT_VIBRATION, XINPUT_VIBRATION structure [XInput Game Controller APIs], _XINPUT_VIBRATION, xinput.xinput_vibration, xinput/PXINPUT_VIBRATION, xinput/XINPUT_VIBRATION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: xinput.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XINPUT_VIBRATION, *PXINPUT_VIBRATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XINPUT_VIBRATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XINPUT_VIBRATION, *PXINPUT_VIBRATION
+req.redist: 
 ---
 
 # _XINPUT_VIBRATION structure

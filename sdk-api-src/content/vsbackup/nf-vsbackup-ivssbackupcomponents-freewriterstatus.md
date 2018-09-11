@@ -4,17 +4,16 @@ title: IVssBackupComponents::FreeWriterStatus
 author: windows-sdk-content
 description: The FreeWriterStatus method frees system resources allocated during the call to IVssBackupComponents::GatherWriterStatus.
 old-location: base\ivssbackupcomponents_freewriterstatus.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 2bf4c575-f94d-43df-b141-94ed5a55294b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FreeWriterStatus, FreeWriterStatus method [VSS], FreeWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],FreeWriterStatus method, IVssBackupComponents.FreeWriterStatus, IVssBackupComponents::FreeWriterStatus, _win32_ivssbackupcomponents_freewriterstatus, base.ivssbackupcomponents_freewriterstatus, vsbackup/IVssBackupComponents::FreeWriterStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.FreeWriterStatus
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::FreeWriterStatus

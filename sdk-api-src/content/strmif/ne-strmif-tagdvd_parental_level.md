@@ -4,7 +4,7 @@ title: tagDVD_PARENTAL_LEVEL
 author: windows-sdk-content
 description: Identifies flags for the generic parental levels defined in the DVD specification.
 old-location: dshow\dvd_parental_level.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0b18b5e8-f859-427e-b25f-2f4452492eb9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_PARENTAL_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_PARENTAL_LEVEL
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DVD_PARENTAL_LEVEL
+req.redist: 
 ---
 
 # tagDVD_PARENTAL_LEVEL enumeration

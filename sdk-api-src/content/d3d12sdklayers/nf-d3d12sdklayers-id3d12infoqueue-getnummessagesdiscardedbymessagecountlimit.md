@@ -4,17 +4,16 @@ title: ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit
 author: windows-sdk-content
 description: Get the number of messages that were discarded due to the message count limit.
 old-location: direct3d12\id3d12infoqueue_getnummessagesdiscardedbymessagecountlimit.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: EB6C6D7F-7B28-4E5B-9E35-332A9D957102
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetNumMessagesDiscardedByMessageCountLimit, GetNumMessagesDiscardedByMessageCountLimit method, GetNumMessagesDiscardedByMessageCountLimit method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumMessagesDiscardedByMessageCountLimit method, ID3D12InfoQueue.GetNumMessagesDiscardedByMessageCountLimit, ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, direct3d12.id3d12infoqueue_getnummessagesdiscardedbymessagecountlimit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12InfoQueue.GetNumMessagesDiscardedByMessageCountLimit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit

@@ -4,17 +4,16 @@ title: IMSVidEVR::put_Presenter
 author: windows-sdk-content
 description: The put_Presenter method sets the presenter object for the Enhanced Video Renderer (EVR) filter.
 old-location: mstv\imsvidevr_put_presenter.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 602d92fc-e948-4cea-9bbf-8968c5e31257
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],put_Presenter method, IMSVidEVR.put_Presenter, IMSVidEVR::put_Presenter, IMSVidEVRput_Presenter, mstv.imsvidevr_put_presenter, put_Presenter, put_Presenter method [Microsoft TV Technologies], put_Presenter method [Microsoft TV Technologies],IMSVidEVR interface, segment/IMSVidEVR::put_Presenter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidEVR.put_Presenter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidEVR::put_Presenter

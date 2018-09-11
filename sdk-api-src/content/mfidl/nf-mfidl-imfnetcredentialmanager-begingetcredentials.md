@@ -4,17 +4,16 @@ title: IMFNetCredentialManager::BeginGetCredentials
 author: windows-sdk-content
 description: Begins an asynchronous request to retrieve the user's credentials.
 old-location: mf\imfnetcredentialmanager_begingetcredentials.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ff11ff99-18bf-4c4c-93fd-31c06309f105
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: BeginGetCredentials, BeginGetCredentials method [Media Foundation], BeginGetCredentials method [Media Foundation],IMFNetCredentialManager interface, IMFNetCredentialManager interface [Media Foundation],BeginGetCredentials method, IMFNetCredentialManager.BeginGetCredentials, IMFNetCredentialManager::BeginGetCredentials, ff11ff99-18bf-4c4c-93fd-31c06309f105, mf.imfnetcredentialmanager_begingetcredentials, mfidl/IMFNetCredentialManager::BeginGetCredentials
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFNetCredentialManager.BeginGetCredentials
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFNetCredentialManager::BeginGetCredentials

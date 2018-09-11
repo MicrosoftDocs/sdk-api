@@ -4,17 +4,16 @@ title: IMetaDataAssemblyImport::EnumFiles
 author: windows-sdk-content
 description: Enumerates the files referenced in the current assembly manifest.
 old-location: winrt\imetadataassemblyimport_enumfiles.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 4039432e-bcf1-4460-8be7-9f02c250ecc6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumFiles, EnumFiles method [Windows Runtime], EnumFiles method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumFiles method, IMetaDataAssemblyImport.EnumFiles, IMetaDataAssemblyImport::EnumFiles, rometadataapi/IMetaDataAssemblyImport::EnumFiles, winrt.imetadataassemblyimport_enumfiles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataAssemblyImport.EnumFiles
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataAssemblyImport::EnumFiles

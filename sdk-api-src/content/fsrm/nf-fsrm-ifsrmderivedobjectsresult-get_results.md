@@ -4,17 +4,16 @@ title: IFsrmDerivedObjectsResult::get_Results
 author: windows-sdk-content
 description: Retrieves the HRESULT values that indicate the success or failure of the update for each derived object.
 old-location: fsrm\ifsrmderivedobjectsresult_results.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: b5946160-565b-4c94-ba2e-18f270eb1af1
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmDerivedObjectsResult interface [File Server Resource Manager],Results property, IFsrmDerivedObjectsResult.Results, IFsrmDerivedObjectsResult.get_Results, IFsrmDerivedObjectsResult::Results, IFsrmDerivedObjectsResult::get_Results, Results property [File Server Resource Manager], Results property [File Server Resource Manager],IFsrmDerivedObjectsResult interface, fs.ifsrmderivedobjectsresult_results, fsrm.ifsrmderivedobjectsresult_results, fsrm/IFsrmDerivedObjectsResult::Results, fsrm/IFsrmDerivedObjectsResult::get_Results, get_Results
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmDerivedObjectsResult.get_Results
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmDerivedObjectsResult::get_Results

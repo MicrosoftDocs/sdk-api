@@ -4,17 +4,16 @@ title: ITMediaPlayback::get_PlayList
 author: windows-sdk-content
 description: The get_PlayList method gets the list of files to play.
 old-location: tapi3\itmediaplayback_get_playlist.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 57bc8373-0015-4652-bad7-21497d1fd6ff
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITMediaPlayback interface [TAPI 2.2],get_PlayList method, ITMediaPlayback.get_PlayList, ITMediaPlayback::get_PlayList, _tapi3_itmediaplayback_get_playlist, get_PlayList, get_PlayList method [TAPI 2.2], get_PlayList method [TAPI 2.2],ITMediaPlayback interface, tapi3.itmediaplayback_get_playlist, tapi3if/ITMediaPlayback::get_PlayList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITMediaPlayback.get_PlayList
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITMediaPlayback::get_PlayList

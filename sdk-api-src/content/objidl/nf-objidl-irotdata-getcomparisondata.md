@@ -4,17 +4,16 @@ title: IROTData::GetComparisonData
 author: windows-sdk-content
 description: Retrieves data from a moniker that can be used to test the moniker for equality against another moniker.
 old-location: com\irotdata_getcomparisondata.htm
-old-project: com
+tech.root: com
 ms.assetid: e7f2d3a6-2517-47bc-aa6a-509d72881a0b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetComparisonData, GetComparisonData method [COM], GetComparisonData method [COM],IROTData interface, IROTData interface [COM],GetComparisonData method, IROTData.GetComparisonData, IROTData::GetComparisonData, _com_irotdata_getcomparisondata, com.irotdata_getcomparisondata, objidl/IROTData::GetComparisonData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IROTData.GetComparisonData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IROTData::GetComparisonData

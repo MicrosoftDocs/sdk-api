@@ -4,17 +4,16 @@ title: IGetVBAObject::GetObject
 author: windows-sdk-content
 description: Gets a pointer to an interface on the VBA object.
 old-location: com\igetvbaobject_getobject.htm
-old-project: com
+tech.root: com
 ms.assetid: 0701c4e7-9a35-42fe-893c-ca898b3716ea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IGetVBAObject interface, IGetVBAObject interface [COM],GetObject method, IGetVBAObject.GetObject, IGetVBAObject::GetObject, _com_IGetVBAObject_GetObject, com.igetvbaobject_getobject, vbinterf/IGetVBAObject::GetObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vbinterf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGetVBAObject.GetObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IGetVBAObject::GetObject

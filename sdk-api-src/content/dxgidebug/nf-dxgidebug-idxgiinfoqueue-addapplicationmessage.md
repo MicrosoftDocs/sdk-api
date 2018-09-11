@@ -4,17 +4,16 @@ title: IDXGIInfoQueue::AddApplicationMessage
 author: windows-sdk-content
 description: Adds a user-defined message to the message queue and sends that message to the debug output.
 old-location: direct3ddxgi\idxgiinfoqueue_addapplicationmessage.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 30245BF0-C0AF-4780-A55F-D55A331427FA
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: AddApplicationMessage, AddApplicationMessage method [DXGI], AddApplicationMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddApplicationMessage method, IDXGIInfoQueue.AddApplicationMessage, IDXGIInfoQueue::AddApplicationMessage, direct3ddxgi.idxgiinfoqueue_addapplicationmessage, dxgidebug/IDXGIInfoQueue::AddApplicationMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+req.lib: 
+req.dll: DXGIDebug.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIInfoQueue.AddApplicationMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DXGIDebug.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIInfoQueue::AddApplicationMessage

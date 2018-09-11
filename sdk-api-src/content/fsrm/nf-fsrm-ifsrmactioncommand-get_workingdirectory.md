@@ -4,17 +4,16 @@ title: IFsrmActionCommand::get_WorkingDirectory
 author: windows-sdk-content
 description: Retrieves or sets the working directory in which the executable program will run.
 old-location: fsrm\ifsrmactioncommand_workingdirectory.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 6844b6c3-11b4-4544-bd4e-bf2b89af00b7
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],WorkingDirectory property, IFsrmActionCommand.WorkingDirectory, IFsrmActionCommand.get_WorkingDirectory, IFsrmActionCommand::WorkingDirectory, IFsrmActionCommand::get_WorkingDirectory, IFsrmActionCommand::put_WorkingDirectory, WorkingDirectory property [File Server Resource Manager], WorkingDirectory property [File Server Resource Manager],IFsrmActionCommand interface, fs.ifsrmactioncommand_workingdirectory, fsrm.ifsrmactioncommand_workingdirectory, fsrm/IFsrmActionCommand::WorkingDirectory, fsrm/IFsrmActionCommand::get_WorkingDirectory, fsrm/IFsrmActionCommand::put_WorkingDirectory, get_WorkingDirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmActionCommand.put_WorkingDirectory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmActionCommand::get_WorkingDirectory

@@ -4,17 +4,16 @@ title: IBitsPeerCacheRecord::GetOriginUrl
 author: windows-sdk-content
 description: Gets the origin URL of the cached file.
 old-location: bits\ibitspeercacherecord_getoriginurl.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 9d74df3a-89e0-4a3a-82f3-c2e79c609b21
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetOriginUrl, GetOriginUrl method [BITS], GetOriginUrl method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetOriginUrl method, IBitsPeerCacheRecord.GetOriginUrl, IBitsPeerCacheRecord::GetOriginUrl, bits.ibitspeercacherecord_getoriginurl, bits3_0/IBitsPeerCacheRecord::GetOriginUrl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBitsPeerCacheRecord.GetOriginUrl
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBitsPeerCacheRecord::GetOriginUrl
@@ -62,7 +61,7 @@ Gets the origin URL of the cached file.
 
 ### -param pVal
 
-
+TBD
 
 
 

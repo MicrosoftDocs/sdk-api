@@ -4,17 +4,16 @@ title: eDisplayTypeConstant
 author: windows-sdk-content
 description: Determines how the performance counter data is graphed, for example, as a line graph or a histogram.
 old-location: sysmon\displaytypeconstants.htm
-old-project: sysmon
+tech.root: SysMon
 ms.assetid: c0f991cc-c547-4d4c-ae8f-9f672e11f010
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: DisplayTypeConstants, DisplayTypeConstants enumeration [SysMon], base.displaytypeconstants, eDisplayTypeConstant, isysmon/DisplayTypeConstants, isysmon/sysmonChartArea, isysmon/sysmonChartStackedArea, isysmon/sysmonHistogram, isysmon/sysmonLineGraph, isysmon/sysmonReport, sysmon.displaytypeconstants, sysmonChartArea, sysmonChartStackedArea, sysmonHistogram, sysmonLineGraph, sysmonReport
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: isysmon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DisplayTypeConstants
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DisplayTypeConstants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DisplayTypeConstants
+req.redist: 
 ---
 
 # eDisplayTypeConstant enumeration

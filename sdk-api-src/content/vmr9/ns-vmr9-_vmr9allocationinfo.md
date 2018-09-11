@@ -4,7 +4,7 @@ title: "_VMR9AllocationInfo"
 author: windows-sdk-content
 description: The VMR9AllocationInfo structure describes the Direct3D surfaces that a VMR-9 Allocator-Presenter object should allocate.
 old-location: dshow\vmr9allocationinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d263b004-30e6-4dff-9df2-f4ca492f09f7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9AllocationInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9AllocationInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9AllocationInfo
+req.redist: 
 ---
 
 # _VMR9AllocationInfo structure

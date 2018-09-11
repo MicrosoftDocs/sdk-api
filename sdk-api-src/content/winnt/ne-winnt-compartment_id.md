@@ -4,7 +4,7 @@ title: COMPARTMENT_ID
 author: windows-sdk-content
 description: The COMPARTMENT_ID enumeration indicates the network routing compartment identifier.
 old-location: kernel\compartment_id.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 751abf09-1e65-49df-b439-5a2c48fc7a2e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPARTMENT_ID, *PCOMPARTMENT_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COMPARTMENT_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: COMPARTMENT_ID, *PCOMPARTMENT_ID
+req.redist: 
 ---
 
 # COMPARTMENT_ID enumeration

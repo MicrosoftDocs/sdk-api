@@ -4,17 +4,16 @@ title: ID3D11VideoContext::VideoProcessorGetStreamExtension
 author: windows-sdk-content
 description: Gets a driver-specific state for a video processing stream.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamextension.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 33A2DC3D-4B92-45B5-B67A-7F3AA55F061B
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamExtension method, ID3D11VideoContext.VideoProcessorGetStreamExtension, ID3D11VideoContext::VideoProcessorGetStreamExtension, VideoProcessorGetStreamExtension, VideoProcessorGetStreamExtension method [Media Foundation], VideoProcessorGetStreamExtension method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamExtension, mf.id3d11videocontext_videoprocessorgetstreamextension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.VideoProcessorGetStreamExtension
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::VideoProcessorGetStreamExtension

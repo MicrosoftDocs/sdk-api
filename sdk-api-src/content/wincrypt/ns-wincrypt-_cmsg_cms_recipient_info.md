@@ -4,17 +4,16 @@ title: "_CMSG_CMS_RECIPIENT_INFO"
 author: windows-sdk-content
 description: Used with the CryptMsgGetParam function to get information on a key transport, key agreement, or mail list envelope message recipient.
 old-location: security\cmsg_cms_recipient_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 27ce2430-d240-49f7-bff7-32be1695c8c0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCMSG_CMS_RECIPIENT_INFO, CMSG_CMS_RECIPIENT_INFO, CMSG_CMS_RECIPIENT_INFO structure [Security], CMSG_KEY_AGREE_RECIPIENT, CMSG_KEY_TRANS_RECIPIENT, CMSG_MAIL_LIST_RECIPIENT, PCMSG_CMS_RECIPIENT_INFO, PCMSG_CMS_RECIPIENT_INFO structure pointer [Security], _CMSG_CMS_RECIPIENT_INFO, _crypto2_cmsg_cms_recipient_info, security.cmsg_cms_recipient_info, wincrypt/CMSG_CMS_RECIPIENT_INFO, wincrypt/PCMSG_CMS_RECIPIENT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_CMS_RECIPIENT_INFO, *PCMSG_CMS_RECIPIENT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_CMS_RECIPIENT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_CMS_RECIPIENT_INFO, *PCMSG_CMS_RECIPIENT_INFO
+req.redist: 
 ---
 
 # _CMSG_CMS_RECIPIENT_INFO structure

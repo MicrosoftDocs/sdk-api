@@ -4,17 +4,16 @@ title: ISearchRoot::put_AuthenticationType
 author: windows-sdk-content
 description: Sets the type of authentication required to access the URLs under this search root.
 old-location: search\_search_ISearchRoot_put_AuthenticationType.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_authenticationtype.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ISearchRoot interface [search],put_AuthenticationType method, ISearchRoot.put_AuthenticationType, ISearchRoot::put_AuthenticationType, _search_ISearchRoot_put_AuthenticationType, put_AuthenticationType, put_AuthenticationType method [search], put_AuthenticationType method [search],ISearchRoot interface, search._search_ISearchRoot_put_AuthenticationType, searchapi/ISearchRoot::put_AuthenticationType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchRoot.put_AuthenticationType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchRoot::put_AuthenticationType

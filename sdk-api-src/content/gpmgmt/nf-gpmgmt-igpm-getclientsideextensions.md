@@ -4,17 +4,16 @@ title: IGPM::GetClientSideExtensions
 author: windows-sdk-content
 description: Creates and returns a GPMCSECollection object that allows you to enumerate Group Policy client-side extensions (CSEs) that are registered on the local computer.
 old-location: gpmc\igpm_getclientsideextensions.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 5bcf76f5-f216-4a33-9ac1-4cb98eb26db5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPM object [GPMC],GetClientSideExtensions method, GetClientSideExtensions, GetClientSideExtensions method [GPMC], GetClientSideExtensions method [GPMC],GPM object, GetClientSideExtensions method [GPMC],IGPM interface, IGPM interface [GPMC],GetClientSideExtensions method, IGPM.GetClientSideExtensions, IGPM::GetClientSideExtensions, _win32_igpm_getclientsideextensions, gpmc.igpm_getclientsideextensions, gpmgmt/IGPM::GetClientSideExtensions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPM.GetClientSideExtensions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPM::GetClientSideExtensions

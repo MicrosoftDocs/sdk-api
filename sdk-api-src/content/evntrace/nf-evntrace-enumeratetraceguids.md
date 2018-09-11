@@ -4,17 +4,16 @@ title: EnumerateTraceGuids function
 author: windows-sdk-content
 description: The EnumerateTraceGuids function retrieves information about registered event trace providers that are running on the computer.
 old-location: etw\enumeratetraceguids.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 9a9e2f53-9916-4a9c-a08e-c8affd5fc4c9
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: EnumerateTraceGuids, EnumerateTraceGuids function [ETW], _evt_enumeratetraceguids, base.enumeratetraceguids, etw.enumeratetraceguids, evntrace/EnumerateTraceGuids
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - EnumerateTraceGuids
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # EnumerateTraceGuids function

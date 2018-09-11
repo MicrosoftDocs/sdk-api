@@ -4,7 +4,7 @@ title: tagCOLORKEY
 author: windows-sdk-content
 description: The COLORKEY structure communicates color key information between the renderer and another filter.
 old-location: dshow\colorkey.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1563488a-e4e5-472d-b665-5bbcb13fad1a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COLORKEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COLORKEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: COLORKEY
+req.redist: 
 ---
 
 # tagCOLORKEY structure

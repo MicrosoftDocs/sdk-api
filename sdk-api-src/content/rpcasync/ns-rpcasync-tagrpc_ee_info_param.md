@@ -4,17 +4,16 @@ title: tagRPC_EE_INFO_PARAM
 author: windows-sdk-content
 description: The RPC_EE_INFO_PARAM structure is used to store extended error information.
 old-location: rpc\rpc_ee_info_param.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: a201f8f3-6e74-4550-9738-d5415340994b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RPC_EE_INFO_PARAM, RPC_EE_INFO_PARAM structure [RPC], _rpc_rpc_ee_info_param, rpc.rpc_ee_info_param, rpcasync/RPC_EE_INFO_PARAM, tagRPC_EE_INFO_PARAM
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_EE_INFO_PARAM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_EE_INFO_PARAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_EE_INFO_PARAM
+req.redist: 
 ---
 
 # tagRPC_EE_INFO_PARAM structure

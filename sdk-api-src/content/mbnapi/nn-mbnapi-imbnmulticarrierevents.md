@@ -4,17 +4,16 @@ title: IMbnMultiCarrierEvents
 author: windows-sdk-content
 description: This interface is a notification interface used to handle asynchronous IMbnMultiCarrier method calls.
 old-location: mbn\imbnmulticarrierevents.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: F7CAF21B-F487-4F35-806B-312B5246C1B2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnMultiCarrierEvents, IMbnMultiCarrierEvents interface [Microsoft Broadband Networks], IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],described, mbn.imbnmulticarrierevents, mbnapi/IMbnMultiCarrierEvents
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnMultiCarrierEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnMultiCarrierEvents interface

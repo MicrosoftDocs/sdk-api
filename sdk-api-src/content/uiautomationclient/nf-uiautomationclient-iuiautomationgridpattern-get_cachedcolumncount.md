@@ -4,17 +4,16 @@ title: IUIAutomationGridPattern::get_CachedColumnCount
 author: windows-sdk-content
 description: Retrieves the cached number of columns in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_CachedColumnCount.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: d425d767-3ae4-4644-a8bb-b901462c6c4b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedColumnCount property [Windows Accessibility], CachedColumnCount property [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],CachedColumnCount property, IUIAutomationGridPattern.CachedColumnCount, IUIAutomationGridPattern.get_CachedColumnCount, IUIAutomationGridPattern::CachedColumnCount, IUIAutomationGridPattern::get_CachedColumnCount, get_CachedColumnCount, uiauto.uiauto_IUIAutomationGridPattern_CachedColumnCount, uiauto_IUIAutomationGridPattern_CachedColumnCount, uiautomationclient/IUIAutomationGridPattern::CachedColumnCount, uiautomationclient/IUIAutomationGridPattern::get_CachedColumnCount, winauto.uiauto_IUIAutomationGridPattern_CachedColumnCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationGridPattern.get_CachedColumnCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationGridPattern::get_CachedColumnCount

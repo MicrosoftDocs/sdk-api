@@ -4,17 +4,16 @@ title: IXpsOMPage1::GetDocumentType
 author: windows-sdk-content
 description: Gets the type of FixedPage markup that was used to initialize this page. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see XPS Documents.
 old-location: xps\ixpsompage1_getdocumenttype.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: b2456ffc-7a9d-41c2-b693-eb71909ccf3d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMPage1 interface, IXpsOMPage1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMPage1.GetDocumentType, IXpsOMPage1::GetDocumentType, xps.ixpsompage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPage1::GetDocumentType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_DOCUMENT_TYPE
+req.lib: None
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IXpsOMPage1.GetDocumentType
 product: Windows
 targetos: Windows
-req.lib: None
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPage1::GetDocumentType

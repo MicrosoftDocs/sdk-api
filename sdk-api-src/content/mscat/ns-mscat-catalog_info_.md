@@ -4,17 +4,16 @@ title: CATALOG_INFO_
 author: windows-sdk-content
 description: The CATALOG_INFO structure contains the name of a catalog file. This structure is used by the CryptCATCatalogInfoFromContext function.
 old-location: security\catalog_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: f6e66412-3ed2-48d9-a377-5df11500db59
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CATALOG_INFO, CATALOG_INFO structure [Security], CATALOG_INFO_, mscat/CATALOG_INFO, security.catalog_info
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mscat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CATALOG_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CATALOG_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CATALOG_INFO
+req.redist: 
 ---
 
 # CATALOG_INFO_ structure

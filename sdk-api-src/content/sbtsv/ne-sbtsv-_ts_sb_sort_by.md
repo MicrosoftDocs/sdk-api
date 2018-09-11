@@ -4,7 +4,7 @@ title: "_TS_SB_SORT_BY"
 author: windows-sdk-content
 description: Specifies sort order. It is used as a parameter in the EnumerateTargets method.
 old-location: termserv\ts_sb_sort_by.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 50945048-5E79-4423-8983-543085E3D953
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TS_SB_SORT_BY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: TS_SB_SORT_BY
+req.redist: 
 ---
 
 # _TS_SB_SORT_BY enumeration

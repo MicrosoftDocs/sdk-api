@@ -4,17 +4,16 @@ title: NetDfsAdd function
 author: windows-sdk-content
 description: Creates a new Distributed File System (DFS) link or adds targets to an existing link in a DFS namespace.
 old-location: dfs\netdfsadd.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: 2c8816b2-5489-486e-b749-605932ba9fe9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DFS_ADD_VOLUME, DFS_RESTORE_VOLUME, NetDfsAdd, NetDfsAdd function [Distributed File System], _win32_netdfsadd, dfs.netdfsadd, fs.netdfsadd, lmdfs/NetDfsAdd, netmgmt.netdfsadd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_TARGET_PRIORITY_CLASS
+req.lib: NetApi32.lib
+req.dll: NetApi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetDfsAdd
 product: Windows
 targetos: Windows
-req.lib: NetApi32.lib
-req.dll: NetApi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetDfsAdd function

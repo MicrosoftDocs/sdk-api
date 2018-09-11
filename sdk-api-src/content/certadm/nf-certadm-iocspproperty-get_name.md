@@ -4,17 +4,16 @@ title: IOCSPProperty::get_Name
 author: windows-sdk-content
 description: Gets the identifier part of the name-value pair represented by an OCSPProperty object.
 old-location: security\iocspproperty_name_method.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 33980a7c-0ae5-470b-a55a-f3e19c8846a6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IOCSPProperty interface [Security],Name property, IOCSPProperty.Name, IOCSPProperty.get_Name, IOCSPProperty::Name, IOCSPProperty::get_Name, Name property [Security], Name property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Name, certadm/IOCSPProperty::get_Name, get_Name, security.iocspproperty_name_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOCSPProperty.get_Name
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPProperty::get_Name

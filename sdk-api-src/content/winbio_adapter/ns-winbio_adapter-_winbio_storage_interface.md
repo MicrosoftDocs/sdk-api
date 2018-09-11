@@ -4,17 +4,16 @@ title: "_WINBIO_STORAGE_INTERFACE"
 author: windows-sdk-content
 description: Contains pointers to your custom storage adapter functions.
 old-location: secbiomet\winbio_storage_interface.htm
-old-project: secbiomet
+tech.root: SecBioMet
 ms.assetid: 1cc7ce07-66df-43d9-9db2-50558a0f5f47
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWINBIO_STORAGE_INTERFACE, PWINBIO_STORAGE_INTERFACE, PWINBIO_STORAGE_INTERFACE structure pointer [Windows Biometric Framework API], WINBIO_STORAGE_INTERFACE, WINBIO_STORAGE_INTERFACE structure [Windows Biometric Framework API], _WINBIO_STORAGE_INTERFACE, secbiomet.winbio_storage_interface, winbio_adapter/PWINBIO_STORAGE_INTERFACE, winbio_adapter/WINBIO_STORAGE_INTERFACE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbio_adapter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PWINBIO_STORAGE_INTERFACE, WINBIO_STORAGE_INTERFACE"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINBIO_STORAGE_INTERFACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: "*PWINBIO_STORAGE_INTERFACE, WINBIO_STORAGE_INTERFACE"
+req.redist: 
 ---
 
 # _WINBIO_STORAGE_INTERFACE structure

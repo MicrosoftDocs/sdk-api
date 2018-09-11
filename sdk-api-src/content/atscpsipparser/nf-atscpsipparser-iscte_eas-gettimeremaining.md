@@ -4,17 +4,16 @@ title: ISCTE_EAS::GetTimeRemaining
 author: windows-sdk-content
 description: The GetTimeRemaining method returns the time that remains in the alert message.
 old-location: mstv\iscte_eas_gettimeremaining.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 4d04408f-a1ff-41cf-8ab0-1f30e700b07b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTimeRemaining, GetTimeRemaining method [Microsoft TV Technologies], GetTimeRemaining method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetTimeRemaining method, ISCTE_EAS.GetTimeRemaining, ISCTE_EAS::GetTimeRemaining, ISCTE_EASGetTimeRemaining, atscpsipparser/ISCTE_EAS::GetTimeRemaining, mstv.iscte_eas_gettimeremaining
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISCTE_EAS.GetTimeRemaining
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISCTE_EAS::GetTimeRemaining

@@ -4,17 +4,16 @@ title: IRealTimeStylus::GetStylusSyncPluginCount
 author: windows-sdk-content
 description: Retrieves the number of plug-ins in the synchronous plug-in collection.
 old-location: tablet\irealtimestylus_getstylussyncplugincount.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1f8d9097-6f17-4c62-a624-98583ac26f98
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 1f8d9097-6f17-4c62-a624-98583ac26f98, GetStylusSyncPluginCount, GetStylusSyncPluginCount method [Tablet PC], GetStylusSyncPluginCount method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusSyncPluginCount method, IRealTimeStylus.GetStylusSyncPluginCount, IRealTimeStylus::GetStylusSyncPluginCount, rtscom/IRealTimeStylus::GetStylusSyncPluginCount, tablet.irealtimestylus_getstylussyncplugincount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRealTimeStylus.GetStylusSyncPluginCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylus::GetStylusSyncPluginCount

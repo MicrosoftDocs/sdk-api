@@ -4,17 +4,16 @@ title: PeerCollabShutdown function
 author: windows-sdk-content
 description: Shuts down the Peer Collaboration infrastructure and releases any resources associated with it.
 old-location: p2p\peercollabshutdown.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 4e328188-c8a1-4ba9-817b-3d130a64b985
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerCollabShutdown, PeerCollabShutdown function [Peer Networking], p2p.peercollabshutdown, p2p/PeerCollabShutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerCollabShutdown
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerCollabShutdown function

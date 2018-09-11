@@ -4,17 +4,16 @@ title: IHolder::UntrackResourceS
 author: windows-sdk-content
 description: Stops tracking a resource (string version).
 old-location: cos\iholder_untrackresources.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 03e54d2d-9dfb-46cf-abb9-d3f37784c449
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IHolder interface [COM+],UntrackResourceS method, IHolder.UntrackResourceS, IHolder::UntrackResourceS, UntrackResourceS, UntrackResourceS method [COM+], UntrackResourceS method [COM+],IHolder interface, _dtc_IHolder_UntrackResourceS, comsvcs/IHolder::UntrackResourceS, cos.iholder_untrackresources
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IHolder.UntrackResourceS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IHolder::UntrackResourceS
@@ -61,12 +60,12 @@ Stops tracking a resource (string version).
 
 ### -param __MIDL__IHolder0007
 
-
+TBD
 
 
 ### -param __MIDL__IHolder0008
 
-
+TBD
 
 
 

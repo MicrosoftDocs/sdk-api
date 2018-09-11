@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0003"
 author: windows-sdk-content
 description: The EndpointFormFactor enumeration defines constants that indicate the general physical attributes of an audio endpoint device.
 old-location: coreaudio\endpointformfactor.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 3fd3782b-c0fc-4d75-8627-d898e7fae436
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: DigitalAudioDisplayDevice, EndpointFormFactor, EndpointFormFactor , EndpointFormFactor enumeration [Core Audio], EndpointFormFactor_enum_count, Handset, Headphones, Headset, LineLevel, Microphone, RemoteNetworkDevice, SPDIF, Speakers, UnknownDigitalPassthrough, UnknownFormFactor, __MIDL___MIDL_itf_mmdeviceapi_0000_0000_0003, coreaudio.endpointformfactor, mmdeviceapi/DigitalAudioDisplayDevice, mmdeviceapi/EndpointFormFactor, mmdeviceapi/EndpointFormFactor_enum_count, mmdeviceapi/Handset, mmdeviceapi/Headphones, mmdeviceapi/Headset, mmdeviceapi/LineLevel, mmdeviceapi/Microphone, mmdeviceapi/RemoteNetworkDevice, mmdeviceapi/SPDIF, mmdeviceapi/Speakers, mmdeviceapi/UnknownDigitalPassthrough, mmdeviceapi/UnknownFormFactor
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EndpointFormFactor
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EndpointFormFactor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: EndpointFormFactor
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mmdeviceapi_0000_0000_0003 enumeration

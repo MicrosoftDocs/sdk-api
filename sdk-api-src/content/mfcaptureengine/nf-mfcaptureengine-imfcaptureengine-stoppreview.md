@@ -4,17 +4,16 @@ title: IMFCaptureEngine::StopPreview
 author: windows-sdk-content
 description: Stops preview.
 old-location: mf\imfcaptureengine_stoppreview.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 36DE5079-D4D5-4FC5-8CF6-1F5B3F9E8B66
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StopPreview method, IMFCaptureEngine.StopPreview, IMFCaptureEngine::StopPreview, StopPreview, StopPreview method [Media Foundation], StopPreview method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_stoppreview, mfcaptureengine/IMFCaptureEngine::StopPreview
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCaptureEngine.StopPreview
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCaptureEngine::StopPreview

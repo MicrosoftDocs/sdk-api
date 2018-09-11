@@ -4,7 +4,7 @@ title: tagXFORM
 author: windows-sdk-content
 description: The XFORM structure specifies a world-space to page-space transformation.
 old-location: gdi\xform.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 49f0d7ee-77fa-415e-af00-b8930253a3a9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XFORM, *PXFORM, *LPXFORM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XFORM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: XFORM, *PXFORM, *LPXFORM
+req.redist: 
 ---
 
 # tagXFORM structure

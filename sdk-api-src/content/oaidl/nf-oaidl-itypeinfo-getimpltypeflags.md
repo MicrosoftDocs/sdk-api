@@ -4,17 +4,16 @@ title: ITypeInfo::GetImplTypeFlags
 author: windows-sdk-content
 description: Retrieves the IMPLTYPEFLAGS enumeration for one implemented interface or base interface in a type description.
 old-location: automat\itypeinfo_getimpltypeflags.htm
-old-project: automat
+tech.root: automat
 ms.assetid: b3773111-b09d-4ae0-9a91-3c4adff5b803
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetImplTypeFlags, GetImplTypeFlags method [Automation], GetImplTypeFlags method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetImplTypeFlags method, ITypeInfo.GetImplTypeFlags, ITypeInfo::GetImplTypeFlags, _oa96_ITypeInfo_GetImplTypeFlags, automat.itypeinfo_getimpltypeflags, oaidl/ITypeInfo::GetImplTypeFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo.GetImplTypeFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::GetImplTypeFlags

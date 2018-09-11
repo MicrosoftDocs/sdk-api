@@ -4,17 +4,16 @@ title: STROBJ_vEnumStart function
 author: windows-sdk-content
 description: The STROBJ_vEnumStart function defines the form, or type, for data that will be returned from GDI in subsequent calls to STROBJ_bEnum.
 old-location: display\strobj_venumstart.htm
-old-project: display
+tech.root: display
 ms.assetid: 568af273-2b9d-4782-849f-6cb9c49952e0
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: STROBJ_vEnumStart, STROBJ_vEnumStart function [Display Devices], display.strobj_venumstart, gdifncs_f0be3fdf-8725-4f9c-8487-0aaa95a13ede.xml, winddi/STROBJ_vEnumStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STROBJ_vEnumStart
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # STROBJ_vEnumStart function

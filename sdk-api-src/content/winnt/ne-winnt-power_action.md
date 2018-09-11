@@ -4,7 +4,7 @@ title: POWER_ACTION
 author: windows-sdk-content
 description: Defines values that are used to specify system power action types.
 old-location: base\power_action.htm
-old-project: power
+tech.root: power
 ms.assetid: 815e1f2d-0fc9-446c-ae83-5d5cfea57ab7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POWER_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.redist: 
 ---
 
 # POWER_ACTION enumeration

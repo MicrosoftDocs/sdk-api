@@ -4,17 +4,16 @@ title: ITTAPI2::EnumeratePhones
 author: windows-sdk-content
 description: The EnumeratePhones method enumerates the phone objects corresponding to the phone devices. If there are no phones available that can be used with the address, this method produces an empty enumeration and returns S_OK.
 old-location: tapi3\ittapi2_enumeratephones.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6b6aba8d-fbf7-459f-9bc8-79647194b989
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumeratePhones, EnumeratePhones method [TAPI 2.2], EnumeratePhones method [TAPI 2.2],ITTAPI2 interface, ITTAPI2 interface [TAPI 2.2],EnumeratePhones method, ITTAPI2.EnumeratePhones, ITTAPI2::EnumeratePhones, _tapi3_ittapi2_enumeratephones, tapi3.ittapi2_enumeratephones, tapi3if/ITTAPI2::EnumeratePhones
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPI2.EnumeratePhones
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPI2::EnumeratePhones

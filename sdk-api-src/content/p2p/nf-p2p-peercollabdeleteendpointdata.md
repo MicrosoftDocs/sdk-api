@@ -4,17 +4,16 @@ title: PeerCollabDeleteEndpointData function
 author: windows-sdk-content
 description: Deletes the peer endpoint data on the calling peer node that matches the supplied endpoint data.
 old-location: p2p\peercollabdeleteendpointdata.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: bafaef04-d7f6-4873-bd38-db156817b0c8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerCollabDeleteEndpointData, PeerCollabDeleteEndpointData function [Peer Networking], p2p.peercollabdeleteendpointdata, p2p/PeerCollabDeleteEndpointData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerCollabDeleteEndpointData
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerCollabDeleteEndpointData function

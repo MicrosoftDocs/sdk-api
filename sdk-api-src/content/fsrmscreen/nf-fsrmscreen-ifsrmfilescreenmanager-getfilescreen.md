@@ -4,17 +4,16 @@ title: IFsrmFileScreenManager::GetFileScreen
 author: windows-sdk-content
 description: Retrieves the specified file screen.
 old-location: fsrm\ifsrmfilescreenmanager_getfilescreen.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 9af0d9a7-80a2-4cc8-a703-c1af8ac5b7c9
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmFileScreenManager class [File Server Resource Manager],GetFileScreen method, GetFileScreen, GetFileScreen method [File Server Resource Manager], GetFileScreen method [File Server Resource Manager],FsrmFileScreenManager class, GetFileScreen method [File Server Resource Manager],IFsrmFileScreenManager interface, IFsrmFileScreenManager interface [File Server Resource Manager],GetFileScreen method, IFsrmFileScreenManager.GetFileScreen, IFsrmFileScreenManager::GetFileScreen, fs.ifsrmfilescreenmanager_getfilescreen, fsrm.ifsrmfilescreenmanager_getfilescreen, fsrmscreen/IFsrmFileScreenManager::GetFileScreen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmFileScreenManager.GetFileScreen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreenManager::GetFileScreen

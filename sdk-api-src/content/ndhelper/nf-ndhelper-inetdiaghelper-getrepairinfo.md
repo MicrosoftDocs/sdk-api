@@ -4,17 +4,16 @@ title: INetDiagHelper::GetRepairInfo
 author: windows-sdk-content
 description: Retrieves the repair information that the Helper Class Extension has for a given problem type.
 old-location: ndf\inetdiaghelpe_getrepairinfo.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: a14b1f61-1ac7-4ee7-ad82-e0821f43a17d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetRepairInfo, GetRepairInfo method [NDF], GetRepairInfo method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetRepairInfo method, INetDiagHelper.GetRepairInfo, INetDiagHelper::GetRepairInfo, ndf.inetdiaghelpe_getrepairinfo, ndhelper/INetDiagHelper::GetRepairInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetDiagHelper.GetRepairInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetDiagHelper::GetRepairInfo

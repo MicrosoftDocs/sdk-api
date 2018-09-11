@@ -4,17 +4,16 @@ title: ISyncProviderConfigUIInfo::GetSyncProviderConfigUI
 author: windows-sdk-content
 description: Creates an instance of a synchronization provider configuration UI.
 old-location: winsync\isyncproviderconfiguiinfo_getsyncproviderconfigui.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: eb9a2f2f-4c9f-405c-90f6-b251ab1a652d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSyncProviderConfigUI, GetSyncProviderConfigUI method [Windows Sync], GetSyncProviderConfigUI method [Windows Sync],ISyncProviderConfigUIInfo interface, ISyncProviderConfigUIInfo interface [Windows Sync],GetSyncProviderConfigUI method, ISyncProviderConfigUIInfo.GetSyncProviderConfigUI, ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, syncregistration/ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, winsync.isyncproviderconfiguiinfo_getsyncproviderconfigui
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncProviderConfigUIInfo.GetSyncProviderConfigUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncProviderConfigUIInfo::GetSyncProviderConfigUI

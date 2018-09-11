@@ -4,17 +4,16 @@ title: ILegacyIAccessibleProvider::get_Role
 author: windows-sdk-content
 description: Specifies the role identifier of this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Role.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: de2c0101-61fd-4a2d-8bef-dc7e30d0d9f4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],Role property, ILegacyIAccessibleProvider.Role, ILegacyIAccessibleProvider.get_Role, ILegacyIAccessibleProvider::Role, ILegacyIAccessibleProvider::get_Role, Role property [Windows Accessibility], Role property [Windows Accessibility],ILegacyIAccessibleProvider interface, get_Role, uiauto.uiauto_ILegacyIAccessibleProvider_Role, uiauto_ILegacyIAccessibleProvider_Role, uiautomationcore/ILegacyIAccessibleProvider::Role, uiautomationcore/ILegacyIAccessibleProvider::get_Role, winauto.uiauto_ILegacyIAccessibleProvider_Role
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UiAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ILegacyIAccessibleProvider.get_Role
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UiAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ILegacyIAccessibleProvider::get_Role

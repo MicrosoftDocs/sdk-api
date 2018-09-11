@@ -4,17 +4,16 @@ title: SetPrivateObjectSecurity function
 author: windows-sdk-content
 description: Modifies a private object's security descriptor.
 old-location: security\setprivateobjectsecurity.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 726994c8-7813-4f1a-b7d7-a25e79202c33
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: SetPrivateObjectSecurity, SetPrivateObjectSecurity function [Security], _win32_setprivateobjectsecurity, security.setprivateobjectsecurity, securitybaseapi/SetPrivateObjectSecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - SetPrivateObjectSecurity
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetPrivateObjectSecurity function

@@ -4,17 +4,16 @@ title: IWordBreaker::BreakText
 author: windows-sdk-content
 description: Parses text to identify words and phrases and provides the results to the IWordSink and IPhraseSink objects.
 old-location: search\_search_IWordBreaker_BreakText.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\breaktext.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BreakText, BreakText method [search], BreakText method [search],IWordBreaker interface, IWordBreaker interface [search],BreakText method, IWordBreaker.BreakText, IWordBreaker::BreakText, _search_IWordBreaker_BreakText, indexsrv/IWordBreaker::BreakText, search._search_IWordBreaker_BreakText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 
-req.redist: Windows NT 4.0 Option Pack
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDREP_BREAK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWordBreaker.BreakText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows NT 4.0 Option Pack
 ---
 
 # IWordBreaker::BreakText

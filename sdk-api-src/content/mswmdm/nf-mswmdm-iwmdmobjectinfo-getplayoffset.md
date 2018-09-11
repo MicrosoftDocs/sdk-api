@@ -4,17 +4,16 @@ title: IWMDMObjectInfo::GetPlayOffset
 author: windows-sdk-content
 description: The GetPlayOffset method retrieves the play offset of the object, in units appropriate to the format. This is the starting point for the next invocation of Play.
 old-location: wmdm\iwmdmobjectinfo_getplayoffset.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 8642404a-33ff-40b7-b05a-f193e8feadf5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPlayOffset, GetPlayOffset method [windows Media Device Manager], GetPlayOffset method [windows Media Device Manager],IWMDMObjectInfo interface, IWMDMObjectInfo interface [windows Media Device Manager],GetPlayOffset method, IWMDMObjectInfo.GetPlayOffset, IWMDMObjectInfo::GetPlayOffset, IWMDMObjectInfoGetPlayOffset, mswmdm/IWMDMObjectInfo::GetPlayOffset, wmdm.iwmdmobjectinfo_getplayoffset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMObjectInfo.GetPlayOffset
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMObjectInfo::GetPlayOffset

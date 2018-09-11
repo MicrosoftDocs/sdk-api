@@ -4,17 +4,16 @@ title: AvRtLeaveThreadOrderingGroup function
 author: windows-sdk-content
 description: Enables client threads to leave a thread ordering group.
 old-location: base\avrtleavethreadorderinggroup.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: b618c312-0a43-4815-ad32-8820c658dc0b
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: AvRtLeaveThreadOrderingGroup, AvRtLeaveThreadOrderingGroup function, avrt/AvRtLeaveThreadOrderingGroup, base.avrtleavethreadorderinggroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: avrt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVRF_HEAP_ALLOCATION, *PAVRF_HEAP_ALLOCATION
+req.lib: Avrt.lib
+req.dll: Avrt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AvRtLeaveThreadOrderingGroup
 product: Windows
 targetos: Windows
-req.lib: Avrt.lib
-req.dll: Avrt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AvRtLeaveThreadOrderingGroup function

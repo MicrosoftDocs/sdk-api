@@ -4,17 +4,16 @@ title: ICertificationAuthorities::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\icertificationauthorities__newenum.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 8e83859c-8f61-4864-8b4d-5056c604d219
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertificationAuthorities interface [Security],_NewEnum property, ICertificationAuthorities._NewEnum, ICertificationAuthorities.get__NewEnum, ICertificationAuthorities::_NewEnum, ICertificationAuthorities::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertificationAuthorities interface, certenroll/ICertificationAuthorities::_NewEnum, certenroll/ICertificationAuthorities::get__NewEnum, get__NewEnum, security.icertificationauthorities__newenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertificationAuthorities.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificationAuthorities::get__NewEnum

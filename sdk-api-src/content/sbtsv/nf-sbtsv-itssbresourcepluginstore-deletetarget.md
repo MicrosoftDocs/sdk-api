@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::DeleteTarget
 author: windows-sdk-content
 description: Deletes a target.
 old-location: termserv\itssbresourcepluginstore_deletetarget.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: d8114126-f518-4a43-8f6e-900fe84052e5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DeleteTarget, DeleteTarget method [Remote Desktop Services], DeleteTarget method [Remote Desktop Services],ITsSbResourcePluginStore interface, DeleteTarget method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],DeleteTarget method, ITsSbResourcePluginStore.DeleteTarget, ITsSbResourcePluginStore::DeleteTarget, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],DeleteTarget method, ITsSbResourcePluginStoreEx::DeleteTarget, sbtsv/ITsSbResourcePluginStore::DeleteTarget, sbtsv/ITsSbResourcePluginStoreEx::DeleteTarget, termserv.itssbresourcepluginstore_deletetarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbResourcePluginStoreEx.DeleteTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::DeleteTarget

@@ -4,17 +4,16 @@ title: IWMPControls3::put_currentAudioLanguage
 author: windows-sdk-content
 description: The put_currentAudioLanguage method specifies the locale identifier (LCID) of the audio language for playback.
 old-location: wmp\iwmpcontrols3_put_currentaudiolanguage.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 7050ed77-f4bd-4c20-a661-fb0ea26af3a3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],put_currentAudioLanguage method, IWMPControls3.put_currentAudioLanguage, IWMPControls3::put_currentAudioLanguage, IWMPControls3put_currentAudioLanguage, put_currentAudioLanguage, put_currentAudioLanguage method [Windows Media Player], put_currentAudioLanguage method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_put_currentaudiolanguage, wmp/IWMPControls3::put_currentAudioLanguage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPControls3.put_currentAudioLanguage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPControls3::put_currentAudioLanguage

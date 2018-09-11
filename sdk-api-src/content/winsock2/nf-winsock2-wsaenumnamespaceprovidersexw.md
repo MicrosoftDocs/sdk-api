@@ -4,17 +4,16 @@ title: WSAEnumNameSpaceProvidersExW function
 author: windows-sdk-content
 description: Retrieves information on available namespace providers.
 old-location: winsock\wsaenumnamespaceprovidersex.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 34bc96aa-63f7-4ab8-9376-6f4b979225ca
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSAEnumNameSpaceProvidersEx, WSAEnumNameSpaceProvidersEx function [Winsock], WSAEnumNameSpaceProvidersExA, WSAEnumNameSpaceProvidersExW, winsock.wsaenumnamespaceprovidersex, winsock2/WSAEnumNameSpaceProvidersEx, winsock2/WSAEnumNameSpaceProvidersExA, winsock2/WSAEnumNameSpaceProvidersExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSAEnumNameSpaceProvidersExW
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSAEnumNameSpaceProvidersExW function

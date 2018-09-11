@@ -4,17 +4,16 @@ title: IDCompositionMatrixTransform::SetMatrixElement(int,int,IDCompositionAnima
 author: windows-sdk-content
 description: Changes the value of one element of the matrix of this transform.
 old-location: directcomp\idcompositionmatrixtransform_setmatrixelement.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: E95F44EC-532C-472C-8C1A-6B008CA97DC0
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionMatrixTransform interface [DirectComposition],SetMatrixElement method, IDCompositionMatrixTransform.SetMatrixElement, IDCompositionMatrixTransform.SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform::SetMatrixElement, IDCompositionMatrixTransform::SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform::SetMatrixElement(int,int,float), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionMatrixTransform interface, dcomp/IDCompositionMatrixTransform::SetMatrixElement, directcomp.idcompositionmatrixtransform_setmatrixelement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionMatrixTransform.SetMatrixElement
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionMatrixTransform::SetMatrixElement(int,int,IDCompositionAnimation)
@@ -75,7 +74,7 @@ The column index of the element to change. This value must be between 0 and 1, i
 
 ### -param animation
 
-
+TBD
 
 
 

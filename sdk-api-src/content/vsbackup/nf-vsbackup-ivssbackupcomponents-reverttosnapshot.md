@@ -4,17 +4,16 @@ title: IVssBackupComponents::RevertToSnapshot
 author: windows-sdk-content
 description: Reverts a volume to a previous shadow copy.
 old-location: base\ivssbackupcomponents_reverttosnapshot.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 9976195e-3448-4b0e-82b2-1ae061c75b17
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],RevertToSnapshot method, IVssBackupComponents.RevertToSnapshot, IVssBackupComponents::RevertToSnapshot, RevertToSnapshot, RevertToSnapshot method [VSS], RevertToSnapshot method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_reverttosnapshot, base.ivssbackupcomponents_reverttosnapshot, vsbackup/IVssBackupComponents::RevertToSnapshot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.RevertToSnapshot
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::RevertToSnapshot

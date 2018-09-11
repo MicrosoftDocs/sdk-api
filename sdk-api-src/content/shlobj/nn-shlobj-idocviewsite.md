@@ -4,17 +4,16 @@ title: IDocViewSite
 author: windows-sdk-content
 description: Used as a site object by the IShellView interface.
 old-location: shell\IDocViewSite.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 031e0079-842e-4357-acb2-5d1160094e18
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IDocViewSite, IDocViewSite interface [Windows Shell], IDocViewSite interface [Windows Shell],described, _win32_IDocViewSite, shell.IDocViewSite, shlobj/IDocViewSite
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDocViewSite
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDocViewSite interface

@@ -4,17 +4,16 @@ title: GetAllUsersProfileDirectoryW function
 author: windows-sdk-content
 description: Retrieves the path to the root of the directory that contains program data shared by all users.
 old-location: shell\GetAllUsersProfileDirectory.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bd08947a-df57-4dd9-b9ba-a01b315bfdf1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetAllUsersProfileDirectory, GetAllUsersProfileDirectory function [Windows Shell], GetAllUsersProfileDirectoryA, GetAllUsersProfileDirectoryW, _shell_GetAllUsersProfileDirectory, shell.GetAllUsersProfileDirectory, userenv/GetAllUsersProfileDirectory, userenv/GetAllUsersProfileDirectoryA, userenv/GetAllUsersProfileDirectoryW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetAllUsersProfileDirectoryW
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetAllUsersProfileDirectoryW function

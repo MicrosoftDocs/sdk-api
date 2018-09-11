@@ -4,17 +4,16 @@ title: ISettingsResult::GetLine
 author: windows-sdk-content
 description: Returns the line number where the error has occurred.
 old-location: smi\isettingsresult_getline.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: c74beea9-5e81-4cd2-ade2-c812b6a035a1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetLine, GetLine method [SMI], GetLine method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetLine method, ISettingsResult.GetLine, ISettingsResult::GetLine, smi.isettingsresult_getline, wcmconfig/ISettingsResult::GetLine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsResult.GetLine
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsResult::GetLine

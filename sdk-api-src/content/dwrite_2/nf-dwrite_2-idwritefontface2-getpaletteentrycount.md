@@ -4,17 +4,16 @@ title: IDWriteFontFace2::GetPaletteEntryCount
 author: windows-sdk-content
 description: Get the number of entries in each color palette.
 old-location: directwrite\idwritefontface2_getpaletteentrycount.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 7DFB0D3F-18E8-44AA-A7DA-4B9D971D3C35
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetPaletteEntryCount, GetPaletteEntryCount method [Direct Write], GetPaletteEntryCount method [Direct Write],IDWriteFontFace2 interface, IDWriteFontFace2 interface [Direct Write],GetPaletteEntryCount method, IDWriteFontFace2.GetPaletteEntryCount, IDWriteFontFace2::GetPaletteEntryCount, directwrite.idwritefontface2_getpaletteentrycount, dwrite_2/IDWriteFontFace2::GetPaletteEntryCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace2.GetPaletteEntryCount
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace2::GetPaletteEntryCount

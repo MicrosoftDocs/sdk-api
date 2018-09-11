@@ -4,7 +4,7 @@ title: "_tag_AMVAInternalMemInfo"
 author: windows-sdk-content
 description: The AMVAInternalMemInfo structure specifies the amount of scratch memory the hardware abstraction layer (HAL) will allocate for its private use.
 old-location: dshow\amvainternalmeminfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8ce27daa-cd8e-4dbd-a949-0c07c370d504
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAInternalMemInfo, *LPAMVAInternalMemInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AMVAInternalMemInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AMVAInternalMemInfo, *LPAMVAInternalMemInfo
+req.redist: 
 ---
 
 # _tag_AMVAInternalMemInfo structure

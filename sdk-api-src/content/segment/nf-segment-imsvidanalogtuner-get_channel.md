@@ -4,17 +4,16 @@ title: IMSVidAnalogTuner::get_Channel
 author: windows-sdk-content
 description: The get_Channel method retrieves the tuner's current channel.
 old-location: mstv\imsvidanalogtuner_get_channel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9d62cd70-02cf-4454-b5b7-da2d623ec95d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_Channel method, IMSVidAnalogTuner.get_Channel, IMSVidAnalogTuner::get_Channel, IMSVidAnalogTunerget_Channel, get_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_channel, segment/IMSVidAnalogTuner::get_Channel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidAnalogTuner.get_Channel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidAnalogTuner::get_Channel
@@ -62,7 +60,7 @@ The <b>get_Channel</b> method retrieves the tuner's current channel.
 
 ### -param Channel
 
-
+TBD
 
 
 

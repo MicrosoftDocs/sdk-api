@@ -4,17 +4,16 @@ title: IExplorerCommand::GetToolTip
 author: windows-sdk-content
 description: Gets the tooltip string associated with a specified Windows Explorer command item.
 old-location: shell\IExplorerCommand_GetToolTip.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f2c54602-2ffc-45bc-ba00-d7b9d4cf2343
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetToolTip, GetToolTip method [Windows Shell], GetToolTip method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetToolTip method, IExplorerCommand.GetToolTip, IExplorerCommand::GetToolTip, _shell_IExplorerCommand_GetToolTip, shell.IExplorerCommand_GetToolTip, shobjidl_core/IExplorerCommand::GetToolTip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExplorerCommand.GetToolTip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExplorerCommand::GetToolTip

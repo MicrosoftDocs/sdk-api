@@ -4,17 +4,16 @@ title: ID3D11DeviceContext1::SwapDeviceContextState
 author: windows-sdk-content
 description: Activates the given context state object and changes the current device behavior to Direct3D 11, Direct3D 10.1, or Direct3D 10.
 old-location: direct3d11\id3d11devicecontext1_swapdevicecontextstate.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 4E267E86-602F-459C-A6F9-4660EC8FA752
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID3D11DeviceContext1 interface [Direct3D 11],SwapDeviceContextState method, ID3D11DeviceContext1.SwapDeviceContextState, ID3D11DeviceContext1::SwapDeviceContextState, SwapDeviceContextState, SwapDeviceContextState method [Direct3D 11], SwapDeviceContextState method [Direct3D 11],ID3D11DeviceContext1 interface, d3d11_1/ID3D11DeviceContext1::SwapDeviceContextState, direct3d11.id3d11devicecontext1_swapdevicecontextstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext1.SwapDeviceContextState
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext1::SwapDeviceContextState

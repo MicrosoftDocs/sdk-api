@@ -4,17 +4,16 @@ title: OpenPackageInfoByFullName function
 author: windows-sdk-content
 description: Opens the package information of the specified package.
 old-location: appxpkg\openpackageinfobyfullname.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 9ECFC757-1CB3-43A1-BA45-9AF72CAB240E
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: OpenPackageInfoByFullName, OpenPackageInfoByFullName function [App packaging and management], appmodel/OpenPackageInfoByFullName, appxpkg.openpackageinfobyfullname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,9 +48,8 @@ api_name:
  - OpenPackageInfoByFullName
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # OpenPackageInfoByFullName function

@@ -4,17 +4,16 @@ title: IRemoteDesktopClientSettings::SetRdpProperty
 author: windows-sdk-content
 description: Sets the value of a single named RDP property.
 old-location: termserv\iremotedesktopclientsettings_setrdpproperty.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 3c1a9e70-3e77-4f21-b3a1-8e4c3c5cf148
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRemoteDesktopClientSettings interface [Remote Desktop Services],SetRdpProperty method, IRemoteDesktopClientSettings.SetRdpProperty, IRemoteDesktopClientSettings::SetRdpProperty, SetRdpProperty, SetRdpProperty method [Remote Desktop Services], SetRdpProperty method [Remote Desktop Services],IRemoteDesktopClientSettings interface, WinRTEncryptedPassword, WinRTPasswordEncoding, Workspace Id, administrative session, allow font smoothing, alternate full address, audiocapturemode, audiomode, authentication level, connection type, cookie based authentication server address, desktopheight, desktopwidth, disable full window drag, disable menu anims, disable themes, disable wallpaper, domain, enablecredsspsupport, full address, gatewaycredentialssource, gatewayhostname, gatewayprofileusagemethod, gatewayusagemethod, high resolution mouse, loadbalanceinfo, login web page address, pre-authentication server address, prompt for credentials, promptcredentialonce, rdpappcontainerclient/IRemoteDesktopClientSettings::SetRdpProperty, redirectclipboard, redirectprinters, require pre-authentication, support url, termserv.iremotedesktopclientsettings_setrdpproperty, use redirection server name, username
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: SnapshotFormatType
+req.lib: 
+req.dll: MsTscAx.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRemoteDesktopClientSettings.SetRdpProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRemoteDesktopClientSettings::SetRdpProperty
@@ -738,7 +736,7 @@ Specifies the identifier of the RemoteApp and Desktop Connection workspace which
 
 ### -param value
 
-
+TBD
 
 
 

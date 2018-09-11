@@ -4,17 +4,16 @@ title: "_FH_TARGET_PROPERTY_TYPE"
 author: windows-sdk-content
 description: Specifies the type of a property of a backup target.
 old-location: winprog\fh_target_property_type.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 0A39626B-942F-4BD6-930D-15E9D401F0FF
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PFH_TARGET_PROPERTY_TYPE, FH_TARGET_DRIVE_TYPE, FH_TARGET_NAME, FH_TARGET_PROPERTY_TYPE, FH_TARGET_PROPERTY_TYPE enumeration [Windows API], FH_TARGET_URL, MAX_TARGET_PROPERTY, _FH_TARGET_PROPERTY_TYPE, fhcfg/FH_TARGET_DRIVE_TYPE, fhcfg/FH_TARGET_NAME, fhcfg/FH_TARGET_PROPERTY_TYPE, fhcfg/FH_TARGET_URL, fhcfg/MAX_TARGET_PROPERTY, winprog.fh_target_property_type"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FH_TARGET_PROPERTY_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.redist: 
 ---
 
 # _FH_TARGET_PROPERTY_TYPE enumeration

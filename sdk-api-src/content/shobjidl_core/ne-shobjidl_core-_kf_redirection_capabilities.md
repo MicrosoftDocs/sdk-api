@@ -4,17 +4,16 @@ title: "_KF_REDIRECTION_CAPABILITIES"
 author: windows-sdk-content
 description: Flags that specify the current redirection capabilities of a known folder. Used by IKnownFolder::GetRedirectionCapabilities.
 old-location: shell\KF_REDIRECTION_CAPABILITIES.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3c9830fc-75cd-4b11-bfb4-55b66063614b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: KF_REDIRECTION_CAPABILITIES, KF_REDIRECTION_CAPABILITIES enumeration [Windows Shell], KF_REDIRECTION_CAPABILITIES_ALLOW_ALL, KF_REDIRECTION_CAPABILITIES_DENY_ALL, KF_REDIRECTION_CAPABILITIES_DENY_PERMISSIONS, KF_REDIRECTION_CAPABILITIES_DENY_POLICY, KF_REDIRECTION_CAPABILITIES_DENY_POLICY_REDIRECTED, KF_REDIRECTION_CAPABILITIES_REDIRECTABLE, _KF_REDIRECTION_CAPABILITIES, _shell_KF_REDIRECTION_CAPABILITIES, shell.KF_REDIRECTION_CAPABILITIES, shobjidl_core/KF_REDIRECTION_CAPABILITIES, shobjidl_core/KF_REDIRECTION_CAPABILITIES_ALLOW_ALL, shobjidl_core/KF_REDIRECTION_CAPABILITIES_DENY_ALL, shobjidl_core/KF_REDIRECTION_CAPABILITIES_DENY_PERMISSIONS, shobjidl_core/KF_REDIRECTION_CAPABILITIES_DENY_POLICY, shobjidl_core/KF_REDIRECTION_CAPABILITIES_DENY_POLICY_REDIRECTED, shobjidl_core/KF_REDIRECTION_CAPABILITIES_REDIRECTABLE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KF_REDIRECTION_CAPABILITIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # _KF_REDIRECTION_CAPABILITIES enumeration

@@ -4,17 +4,16 @@ title: IAMMediaContent::get_Copyright
 author: windows-sdk-content
 description: The get_Copyright method retrieves copyright information.
 old-location: dshow\iammediacontent_get_copyright.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f63dc869-6b95-4923-80a6-22b5d8b81fa0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Copyright method, IAMMediaContent.get_Copyright, IAMMediaContent::get_Copyright, IAMMediaContentget_Copyright, dshow.iammediacontent_get_copyright, get_Copyright, get_Copyright method [DirectShow], get_Copyright method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Copyright
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMMediaContent.get_Copyright
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaContent::get_Copyright

@@ -4,7 +4,7 @@ title: "_CHANGER_ELEMENT"
 author: windows-sdk-content
 description: Represents a changer element.
 old-location: base\changer_element_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 96e9803b-16c4-415c-940a-f5df3edff3b3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANGER_ELEMENT, *PCHANGER_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHANGER_ELEMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CHANGER_ELEMENT, *PCHANGER_ELEMENT
+req.redist: 
 ---
 
 # _CHANGER_ELEMENT structure

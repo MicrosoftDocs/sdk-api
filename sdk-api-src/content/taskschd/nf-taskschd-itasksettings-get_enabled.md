@@ -4,17 +4,16 @@ title: ITaskSettings::get_Enabled
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the task is enabled. The task can be performed only when this setting is True.
 old-location: taskschd\itasksettings_enabled.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 6c6e7f51-9591-4b84-b06b-124cd88a0345
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],Enabled property, ITaskSettings.Enabled, ITaskSettings.get_Enabled, ITaskSettings::Enabled, ITaskSettings::get_Enabled, get_Enabled, taskschd.itasksettings_enabled, taskschd/ITaskSettings::Enabled, taskschd/ITaskSettings::get_Enabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITaskSettings.get_Enabled
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskSettings::get_Enabled

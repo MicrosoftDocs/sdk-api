@@ -4,17 +4,16 @@ title: "_FILESHARE_CHANGE"
 author: windows-sdk-content
 description: Describes the format for an entry in an event notification list.
 old-location: mscs\fileshare_change.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: f317f162-49b2-43df-a298-e2de707e089a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PFILESHARE_CHANGE, FILESHARE_CHANGE, FILESHARE_CHANGE structure [Failover Cluster], FILESHARE_CHANGE_ADD, FILESHARE_CHANGE_DEL, FILESHARE_CHANGE_MODIFY, PFILESHARE_CHANGE, PFILESHARE_CHANGE structure pointer [Failover Cluster], _FILESHARE_CHANGE, clusapi/FILESHARE_CHANGE, clusapi/PFILESHARE_CHANGE, mscs.fileshare_change"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILESHARE_CHANGE, *PFILESHARE_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - FILESHARE_CHANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: FILESHARE_CHANGE, *PFILESHARE_CHANGE
+req.redist: 
 ---
 
 # _FILESHARE_CHANGE structure

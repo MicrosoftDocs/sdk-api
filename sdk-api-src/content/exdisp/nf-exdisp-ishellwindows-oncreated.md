@@ -4,17 +4,16 @@ title: IShellWindows::OnCreated
 author: windows-sdk-content
 description: Occurs when a new Shell window is created for a frame.
 old-location: shell\IShellWindows_OnCreated.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ef2f75fe-dc93-403d-af1a-c08c45e2d818
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellWindows interface [Windows Shell],OnCreated method, IShellWindows.OnCreated, IShellWindows::OnCreated, OnCreated, OnCreated method [Windows Shell], OnCreated method [Windows Shell],IShellWindows interface, _win32_IShellWindows_OnCreated, exdisp/IShellWindows::OnCreated, shell.IShellWindows_OnCreated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IShellWindows.OnCreated
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5
 ---
 

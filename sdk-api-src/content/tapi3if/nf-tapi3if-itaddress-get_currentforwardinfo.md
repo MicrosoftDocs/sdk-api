@@ -4,17 +4,16 @@ title: ITAddress::get_CurrentForwardInfo
 author: windows-sdk-content
 description: The get_CurrentForwardInfo method gets a pointer to the current forwarding information object.
 old-location: tapi3\itaddress_get_currentforwardinfo.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 7817ac03-d9fc-4042-ae7d-350ee6cbef53
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_CurrentForwardInfo method, ITAddress.get_CurrentForwardInfo, ITAddress::get_CurrentForwardInfo, _tapi3_itaddress_get_currentforwardinfo, get_CurrentForwardInfo, get_CurrentForwardInfo method [TAPI 2.2], get_CurrentForwardInfo method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_currentforwardinfo, tapi3if/ITAddress::get_CurrentForwardInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddress.get_CurrentForwardInfo
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddress::get_CurrentForwardInfo

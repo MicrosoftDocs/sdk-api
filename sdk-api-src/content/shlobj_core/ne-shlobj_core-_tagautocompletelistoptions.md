@@ -4,17 +4,16 @@ title: "_tagAUTOCOMPLETELISTOPTIONS"
 author: windows-sdk-content
 description: Specifies which objects are enumerated for autocompletion lists.
 old-location: shell\AUTOCOMPLETELISTOPTIONS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9bcd031c-afcd-4e3d-97d0-fb2095f9d0fc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ACLO_CURRENTDIR, ACLO_DESKTOP, ACLO_FAVORITES, ACLO_FILESYSDIRS, ACLO_FILESYSONLY, ACLO_MYCOMPUTER, ACLO_NONE, ACLO_VIRTUALNAMESPACE, AUTOCOMPLETELISTOPTIONS, AUTOCOMPLETELISTOPTIONS enumeration [Windows Shell], _shell_AUTOCOMPLETELISTOPTIONS, _tagAUTOCOMPLETELISTOPTIONS, shell.AUTOCOMPLETELISTOPTIONS, shlobj_core/ACLO_CURRENTDIR, shlobj_core/ACLO_DESKTOP, shlobj_core/ACLO_FAVORITES, shlobj_core/ACLO_FILESYSDIRS, shlobj_core/ACLO_FILESYSONLY, shlobj_core/ACLO_MYCOMPUTER, shlobj_core/ACLO_NONE, shlobj_core/ACLO_VIRTUALNAMESPACE, shlobj_core/AUTOCOMPLETELISTOPTIONS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUTOCOMPLETELISTOPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: AUTOCOMPLETELISTOPTIONS
+req.redist: 
 ---
 
 # _tagAUTOCOMPLETELISTOPTIONS enumeration

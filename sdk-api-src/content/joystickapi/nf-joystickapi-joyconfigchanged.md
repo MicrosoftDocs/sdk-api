@@ -4,17 +4,16 @@ title: joyConfigChanged function
 author: windows-sdk-content
 description: The joyConfigChanged function informs the joystick driver that the configuration has changed and should be reloaded from the registry.
 old-location: multimedia\joyconfigchanged.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 3cdc7888-2d66-4fb9-abad-86e891f4ebe4
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_joyConfigChanged, joyConfigChanged, joyConfigChanged function [Windows Multimedia], joystickapi/joyConfigChanged, multimedia.joyconfigchanged"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: joystickapi.h
 req.include-header: Dinput.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: JOBOBJECT_IO_RATE_CONTROL_INFORMATION
+req.lib: Winmm.lib
+req.dll: Winmm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - joyConfigChanged
 product: Windows
 targetos: Windows
-req.lib: Winmm.lib
-req.dll: Winmm.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # joyConfigChanged function

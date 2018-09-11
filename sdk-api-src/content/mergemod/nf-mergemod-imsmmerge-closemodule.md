@@ -4,17 +4,16 @@ title: IMsmMerge::CloseModule
 author: windows-sdk-content
 description: The CloseModule method closes the currently open Windows Installer merge module. For more information, see the CloseModule method of the Merge object.
 old-location: setup\imsmmerge_closemodule.htm
-old-project: msi
+tech.root: msi
 ms.assetid: bbe8ab14-3d8e-441c-a9bf-0319a9b3a5de
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CloseModule, CloseModule method, CloseModule method,IMsmMerge interface, IMsmMerge interface,CloseModule method, IMsmMerge.CloseModule, IMsmMerge::CloseModule, _msi_closemodule_function, mergemod/IMsmMerge::CloseModule, setup.imsmmerge_closemodule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 1.0 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMsmMerge.CloseModule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mergemod.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMsmMerge::CloseModule

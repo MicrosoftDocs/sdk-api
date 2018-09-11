@@ -4,17 +4,16 @@ title: IMFMediaEvent::GetStatus
 author: windows-sdk-content
 description: Retrieves an HRESULT that specifies the event status.
 old-location: mf\imfmediaevent_getstatus.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e2fc6c81-11c0-4947-b647-3e74a73ee5a2
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStatus, GetStatus method [Media Foundation], GetStatus method [Media Foundation],IMFMediaEvent interface, IMFMediaEvent interface [Media Foundation],GetStatus method, IMFMediaEvent.GetStatus, IMFMediaEvent::GetStatus, e2fc6c81-11c0-4947-b647-3e74a73ee5a2, mf.imfmediaevent_getstatus, mfobjects/IMFMediaEvent::GetStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaEvent.GetStatus
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEvent::GetStatus

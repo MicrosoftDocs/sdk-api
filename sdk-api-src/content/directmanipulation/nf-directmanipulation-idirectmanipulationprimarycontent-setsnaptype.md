@@ -4,17 +4,16 @@ title: IDirectManipulationPrimaryContent::SetSnapType
 author: windows-sdk-content
 description: Specifies the type of snap point.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setsnaptype.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 0f1ad54d-8c9a-4b3c-a78b-fe02cb889ca9
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapType method, IDirectManipulationPrimaryContent.SetSnapType, IDirectManipulationPrimaryContent::SetSnapType, SetSnapType, SetSnapType method [Direct Manipulation], SetSnapType method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnaptype, directmanipulation/IDirectManipulationPrimaryContent::SetSnapType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationPrimaryContent.SetSnapType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationPrimaryContent::SetSnapType

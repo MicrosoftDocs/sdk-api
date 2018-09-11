@@ -4,7 +4,7 @@ title: "_SHRINK_VOLUME_INFORMATION"
 author: windows-sdk-content
 description: Specifies the volume shrink operation to perform.
 old-location: fs\shrink_volume_information.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 91e2c4a1-7b95-49d9-9f28-c3ce4355f1ea
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHRINK_VOLUME_INFORMATION, *PSHRINK_VOLUME_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHRINK_VOLUME_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: SHRINK_VOLUME_INFORMATION, *PSHRINK_VOLUME_INFORMATION
+req.redist: 
 ---
 
 # _SHRINK_VOLUME_INFORMATION structure

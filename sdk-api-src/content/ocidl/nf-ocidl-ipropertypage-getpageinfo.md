@@ -4,17 +4,16 @@ title: IPropertyPage::GetPageInfo
 author: windows-sdk-content
 description: Retrieves information about the property page.
 old-location: com\ipropertypage_getpageinfo.htm
-old-project: com
+tech.root: com
 ms.assetid: 3cb7168c-bb05-4e01-a73b-11a52c5e690b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetPageInfo, GetPageInfo method [COM], GetPageInfo method [COM],IPropertyPage interface, IPropertyPage interface [COM],GetPageInfo method, IPropertyPage.GetPageInfo, IPropertyPage::GetPageInfo, _ctrl_ipropertypage_getpageinfo, com.ipropertypage_getpageinfo, ocidl/IPropertyPage::GetPageInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyPage.GetPageInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyPage::GetPageInfo

@@ -4,7 +4,7 @@ title: DCOMPOSITION_OPACITY_MODE
 author: windows-sdk-content
 description: Specifies how the effective opacity value of a visual is applied to that visual’s content and children.
 old-location: directcomp\dcomposition_opacity_mode.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: D768F699-39F6-4ED5-B3D7-D509871BCEAB
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dcomptypes.h
 req.include-header: DComp.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: DcompAnimation.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DCOMPOSITION_OPACITY_MODE
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DCOMPOSITION_OPACITY_MODE enumeration

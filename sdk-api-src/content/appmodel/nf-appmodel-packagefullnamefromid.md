@@ -4,17 +4,16 @@ title: PackageFullNameFromId function
 author: windows-sdk-content
 description: Gets the package full name for the specified package identifier (ID).
 old-location: appxpkg\packagefullnamefromid.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 0024AF55-295E-49B1-90C2-9144D336529B
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: PackageFullNameFromId, PackageFullNameFromId function [App packaging and management], appmodel/PackageFullNameFromId, appxpkg.packagefullnamefromid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,9 +48,8 @@ api_name:
  - PackageFullNameFromId
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PackageFullNameFromId function

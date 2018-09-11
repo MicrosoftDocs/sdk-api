@@ -4,7 +4,7 @@ title: PlayerState
 author: windows-sdk-content
 description: The PlayerState enumeration type provides some basic states of Windows Media Player.
 old-location: wmp\playerstate.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 7cd17639-e491-4066-838a-236554733874
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player version 7.0 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PlayerState
 product: Windows
 targetos: Windows
-req.lib: Efswrt.h
-req.dll: Efswrt.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # PlayerState enumeration

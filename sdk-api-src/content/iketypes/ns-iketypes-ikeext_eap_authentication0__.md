@@ -4,7 +4,7 @@ title: IKEEXT_EAP_AUTHENTICATION0__
 author: windows-sdk-content
 description: Stores information needed for Extensible Authentication Protocol (EAP) authentication.
 old-location: fwp\ikeext_eap_authentication0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 86029526-ea87-4962-b5f5-f535c7034c60
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_EAP_AUTHENTICATION0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_EAP_AUTHENTICATION0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_EAP_AUTHENTICATION0
+req.redist: 
 ---
 
 # IKEEXT_EAP_AUTHENTICATION0__ structure

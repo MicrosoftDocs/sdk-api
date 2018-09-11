@@ -4,17 +4,16 @@ title: "_CRYPT_XML_KEYINFO_PARAM"
 author: windows-sdk-content
 description: Is used by the CryptXmlSign function to specify the members of the KeyInfo element to be encoded.
 old-location: security\crypt_xml_keyinfo_param.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: cbde3f67-d948-452a-9958-52563dc7a8b5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_XML_KEYINFO_PARAM, CRYPT_XML_KEYINFO_PARAM structure [Security], _CRYPT_XML_KEYINFO_PARAM, cryptxml/CRYPT_XML_KEYINFO_PARAM, security.crypt_xml_keyinfo_param
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_KEYINFO_PARAM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_KEYINFO_PARAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_KEYINFO_PARAM
+req.redist: 
 ---
 
 # _CRYPT_XML_KEYINFO_PARAM structure

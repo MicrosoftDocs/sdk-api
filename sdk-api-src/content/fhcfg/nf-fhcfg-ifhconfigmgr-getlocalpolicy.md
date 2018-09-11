@@ -4,17 +4,16 @@ title: IFhConfigMgr::GetLocalPolicy
 author: windows-sdk-content
 description: Retrieves the numeric parameter for a local policy for the File History feature.
 old-location: winprog\ifhconfigmgr_getlocalpolicy.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 380B77C3-CA93-48D6-9915-FB788CF24C99
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FhConfigMgr class [Windows API],GetLocalPolicy method, GetLocalPolicy, GetLocalPolicy method [Windows API], GetLocalPolicy method [Windows API],FhConfigMgr class, GetLocalPolicy method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetLocalPolicy method, IFhConfigMgr.GetLocalPolicy, IFhConfigMgr::GetLocalPolicy, fhcfg/IFhConfigMgr::GetLocalPolicy, winprog.ifhconfigmgr_getlocalpolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FhConfigMgr.GetLocalPolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFhConfigMgr::GetLocalPolicy

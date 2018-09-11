@@ -4,7 +4,7 @@ title: "_CLIPLINE"
 author: windows-sdk-content
 description: The CLIPLINE structure gives the driver access to a portion of a line between two clip regions used for drawing.
 old-location: display\clipline.htm
-old-project: display
+tech.root: display
 ms.assetid: ec938519-3c0c-4664-9e9a-b7fb338920f5
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLIPLINE, *PCLIPLINE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLIPLINE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CLIPLINE, *PCLIPLINE
+req.redist: 
 ---
 
 # _CLIPLINE structure

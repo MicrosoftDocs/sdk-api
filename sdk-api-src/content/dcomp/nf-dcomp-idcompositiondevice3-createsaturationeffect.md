@@ -4,17 +4,16 @@ title: IDCompositionDevice3::CreateSaturationEffect
 author: windows-sdk-content
 description: Creates an instance of IDCompositionSaturationEffect.
 old-location: directcomp\idcompositiondevice3_createsaturationeffect.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 19613AF4-6EC0-4918-9FC1-147A04D321CA
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateSaturationEffect, CreateSaturationEffect method [DirectComposition], CreateSaturationEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateSaturationEffect method, IDCompositionDevice3.CreateSaturationEffect, IDCompositionDevice3::CreateSaturationEffect, dcomp/IDCompositionDevice3::CreateSaturationEffect, directcomp.idcompositiondevice3_createsaturationeffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice3.CreateSaturationEffect
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice3::CreateSaturationEffect

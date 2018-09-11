@@ -4,17 +4,16 @@ title: ICreateProcessInputs::SetEnvironmentVariable
 author: windows-sdk-content
 description: Sets a variable in the environment of the created process.
 old-location: shell\icreateprocessinputs_setenvironmentvariable.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5898B21B-5D3B-4950-9DB4-5B7FD19C9187
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ICreateProcessInputs interface [Windows Shell],SetEnvironmentVariable method, ICreateProcessInputs.SetEnvironmentVariable, ICreateProcessInputs::SetEnvironmentVariable, SetEnvironmentVariable, SetEnvironmentVariable method [Windows Shell], SetEnvironmentVariable method [Windows Shell],ICreateProcessInputs interface, shell.icreateprocessinputs_setenvironmentvariable, shobjidl_core/ICreateProcessInputs::SetEnvironmentVariable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateProcessInputs.SetEnvironmentVariable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateProcessInputs::SetEnvironmentVariable

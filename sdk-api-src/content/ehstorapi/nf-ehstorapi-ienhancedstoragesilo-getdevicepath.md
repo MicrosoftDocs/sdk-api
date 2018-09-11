@@ -4,17 +4,16 @@ title: IEnhancedStorageSilo::GetDevicePath
 author: windows-sdk-content
 description: Retrieves the path to the silo device node. The returned string is suitable for passing to Windows System APIs such as CreateFile or SetupDiOpenDeviceInterface.
 old-location: enstor\ienhancedstoragesilo_getdevicepath.htm
-old-project: enstor
+tech.root: enstor
 ms.assetid: 98ef04a1-d14d-4de3-b24a-0f044335d75b
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: GetDevicePath, GetDevicePath method [Enhanced Storage], GetDevicePath method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetDevicePath method, IEnhancedStorageSilo.GetDevicePath, IEnhancedStorageSilo::GetDevicePath, ehstorapi/IEnhancedStorageSilo::GetDevicePath, enstor.ienhancedstoragesilo_getdevicepath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimedLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnhancedStorageSilo.GetDevicePath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnhancedStorageSilo::GetDevicePath

@@ -4,17 +4,16 @@ title: "_AUTHZ_ACCESS_REPLY"
 author: windows-sdk-content
 description: Defines an access check reply.
 old-location: security\authz_access_reply.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7162bf80-3730-46d7-a603-2a55b969c9ba
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PAUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY structure [Security], AUTHZ_GENERATE_FAILURE_AUDIT, AUTHZ_GENERATE_SUCCESS_AUDIT, ERROR_ACCESS_DENIED, ERROR_PRIVILEGE_NOT_HELD, ERROR_SUCCESS, PAUTHZ_ACCESS_REPLY, PAUTHZ_ACCESS_REPLY structure pointer [Security], _AUTHZ_ACCESS_REPLY, _win32_authz_access_reply, authz/AUTHZ_ACCESS_REPLY, authz/PAUTHZ_ACCESS_REPLY, security.authz_access_reply"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: authz.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_ACCESS_REPLY, *PAUTHZ_ACCESS_REPLY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AUTHZ_ACCESS_REPLY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AUTHZ_ACCESS_REPLY, *PAUTHZ_ACCESS_REPLY
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # _AUTHZ_ACCESS_REPLY structure

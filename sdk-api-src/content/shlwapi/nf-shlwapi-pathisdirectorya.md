@@ -4,17 +4,16 @@ title: PathIsDirectoryA function
 author: windows-sdk-content
 description: Verifies that a path is a valid directory.
 old-location: shell\PathIsDirectory.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9af3e3da-6b3a-4e81-ba50-ff7aeeb73c44
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PathIsDirectory, PathIsDirectory function [Windows Shell], PathIsDirectoryA, PathIsDirectoryW, _win32_PathIsDirectory, shell.PathIsDirectory, shlwapi/PathIsDirectory, shlwapi/PathIsDirectoryA, shlwapi/PathIsDirectoryW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - PathIsDirectoryW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathIsDirectoryA function

@@ -4,17 +4,16 @@ title: SHARE_ROLE
 author: windows-sdk-content
 description: Specifies the access permissions assigned to the Users or Public folder. Used in CreateShare and GetSharePermissions.
 old-location: shell\SHARE_ROLE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d1c8764d-002e-4fbd-a0a6-1f469f8b1fbb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHARE_ROLE, SHARE_ROLE enumeration [Windows Shell], SHARE_ROLE_CONTRIBUTOR, SHARE_ROLE_CO_OWNER, SHARE_ROLE_CUSTOM, SHARE_ROLE_INVALID, SHARE_ROLE_MIXED, SHARE_ROLE_OWNER, SHARE_ROLE_READER, _shell_SHARE_ROLE, shell.SHARE_ROLE, shobjidl_core/SHARE_ROLE, shobjidl_core/SHARE_ROLE_CONTRIBUTOR, shobjidl_core/SHARE_ROLE_CO_OWNER, shobjidl_core/SHARE_ROLE_CUSTOM, shobjidl_core/SHARE_ROLE_INVALID, shobjidl_core/SHARE_ROLE_MIXED, shobjidl_core/SHARE_ROLE_OWNER, shobjidl_core/SHARE_ROLE_READER
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARE_ROLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHARE_ROLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: SHARE_ROLE
+req.redist: 
 ---
 
 # SHARE_ROLE enumeration

@@ -4,17 +4,16 @@ title: IUIAutomationProxyFactory::get_ProxyFactoryId
 author: windows-sdk-content
 description: Retrieves the identifier of the proxy factory.
 old-location: winauto\uiauto_IUIAutomationProxyFactory_ProxyFactoryId.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 6ca12f18-7826-469c-8d4d-517c54a44138
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationProxyFactory interface [Windows Accessibility],ProxyFactoryId property, IUIAutomationProxyFactory.ProxyFactoryId, IUIAutomationProxyFactory.get_ProxyFactoryId, IUIAutomationProxyFactory::ProxyFactoryId, IUIAutomationProxyFactory::get_ProxyFactoryId, ProxyFactoryId property [Windows Accessibility], ProxyFactoryId property [Windows Accessibility],IUIAutomationProxyFactory interface, get_ProxyFactoryId, uiauto.uiauto_IUIAutomationProxyFactory_ProxyFactoryId, uiauto_IUIAutomationProxyFactory_ProxyFactoryId, uiautomationclient/IUIAutomationProxyFactory::ProxyFactoryId, uiautomationclient/IUIAutomationProxyFactory::get_ProxyFactoryId, winauto.uiauto_IUIAutomationProxyFactory_ProxyFactoryId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationProxyFactory.get_ProxyFactoryId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationProxyFactory::get_ProxyFactoryId

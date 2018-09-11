@@ -4,17 +4,16 @@ title: IWindowProvider::get_CanMinimize
 author: windows-sdk-content
 description: Indicates whether the window can be minimized.
 old-location: winauto\uiauto_IWindowProvider_CanMinimize.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 0dc62d89-adf7-4fb5-b77d-07c9682c11af
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CanMinimize property [Windows Accessibility], CanMinimize property [Windows Accessibility],IWindowProvider interface, IWindowProvider interface [Windows Accessibility],CanMinimize property, IWindowProvider.CanMinimize, IWindowProvider.get_CanMinimize, IWindowProvider::CanMinimize, IWindowProvider::get_CanMinimize, get_CanMinimize, uiauto.uiauto_IWindowProvider_CanMinimize, uiauto_IWindowProvider_CanMinimize, uiautomationcore/IWindowProvider::CanMinimize, uiautomationcore/IWindowProvider::get_CanMinimize, winauto.uiauto_IWindowProvider_CanMinimize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWindowProvider.get_CanMinimize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowProvider::get_CanMinimize

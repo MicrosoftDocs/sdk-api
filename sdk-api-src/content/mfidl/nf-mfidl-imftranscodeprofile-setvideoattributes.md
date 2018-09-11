@@ -4,17 +4,16 @@ title: IMFTranscodeProfile::SetVideoAttributes
 author: windows-sdk-content
 description: Sets video stream configuration settings in the transcode profile.
 old-location: mf\imftranscodeprofile_setvideoattributes.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e68653c5-5663-4839-a482-2244e147f4b9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFTranscodeProfile interface [Media Foundation],SetVideoAttributes method, IMFTranscodeProfile.SetVideoAttributes, IMFTranscodeProfile::SetVideoAttributes, SetVideoAttributes, SetVideoAttributes method [Media Foundation], SetVideoAttributes method [Media Foundation],IMFTranscodeProfile interface, mf.imftranscodeprofile_setvideoattributes, mfidl/IMFTranscodeProfile::SetVideoAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTranscodeProfile.SetVideoAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTranscodeProfile::SetVideoAttributes

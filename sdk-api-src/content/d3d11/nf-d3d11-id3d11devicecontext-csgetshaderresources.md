@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::CSGetShaderResources
 author: windows-sdk-content
 description: Get the compute-shader resources.
 old-location: direct3d11\id3d11devicecontext_csgetshaderresources.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 872dac3b-8461-4150-b51f-ce02f7356754
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 8504e79a-bae1-cad5-dbaa-31ce196070b2, CSGetShaderResources, CSGetShaderResources method [Direct3D 11], CSGetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSGetShaderResources method, ID3D11DeviceContext.CSGetShaderResources, ID3D11DeviceContext::CSGetShaderResources, d3d11/ID3D11DeviceContext::CSGetShaderResources, direct3d11.id3d11devicecontext_csgetshaderresources
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.CSGetShaderResources
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::CSGetShaderResources

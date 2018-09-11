@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.get_SenderHomePhone
 title: IFaxDoc::get_SenderHomePhone
 author: windows-sdk-content
 description: Sets or retrieves the SenderHomePhone property of a FaxDoc object. The SenderHomePhone property is a null-terminated string that contains the home telephone number of the sender of the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_senderhomephone_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderhomephone_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_93l1.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxDoc object [Fax Service],SenderHomePhone property, FaxDoc.SenderHomePhone, IFaxDoc.get_SenderHomePhone, IFaxDoc::get_SenderHomePhone, SenderHomePhone property [Fax Service], SenderHomePhone property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_senderhomephone, fax._mfax_ifaxdoc_get_senderhomephone, fax._mfax_ifaxdoc_get_senderhomephone_vb, get_SenderHomePhone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxDoc interface [Fax Service],SenderHomePhone property, IFaxDoc.SenderHomePhone, IFaxDoc.get_SenderHomePhone, IFaxDoc::SenderHomePhone, IFaxDoc::get_SenderHomePhone, IFaxDoc::put_SenderHomePhone, SenderHomePhone property [Fax Service], SenderHomePhone property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_senderhomephone, fax._mfax_ifaxdoc_get_senderhomephone, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderhomephone_cpp, faxcom/IFaxDoc::SenderHomePhone, faxcom/IFaxDoc::get_SenderHomePhone, faxcom/IFaxDoc::put_SenderHomePhone, get_SenderHomePhone
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.SenderHomePhone
+ - IFaxDoc.SenderHomePhone
+ - IFaxDoc.get_SenderHomePhone
+ - IFaxDoc.put_SenderHomePhone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::get_SenderHomePhone
@@ -81,10 +81,6 @@ The <b>get_SenderHomePhone</b> method allocates the memory required for the buff
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690707(v=VS.85).aspx">FaxDoc</a>
 
 
 

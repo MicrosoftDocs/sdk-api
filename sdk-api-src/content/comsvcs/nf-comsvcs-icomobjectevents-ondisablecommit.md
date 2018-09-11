@@ -4,17 +4,16 @@ title: IComObjectEvents::OnDisableCommit
 author: windows-sdk-content
 description: Generated when the client calls DisableCommit on a context.
 old-location: cos\icomobjectevents_ondisablecommit.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 413d7216-294c-4e46-b24c-abe1d1a09239
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComObjectEvents interface [COM+],OnDisableCommit method, IComObjectEvents.OnDisableCommit, IComObjectEvents::OnDisableCommit, OnDisableCommit, OnDisableCommit method [COM+], OnDisableCommit method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnDisableCommit, comsvcs/IComObjectEvents::OnDisableCommit, cos.icomobjectevents_ondisablecommit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComObjectEvents.OnDisableCommit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComObjectEvents::OnDisableCommit

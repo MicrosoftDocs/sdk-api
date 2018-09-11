@@ -4,17 +4,16 @@ title: PFN_CERT_ENUM_PHYSICAL_STORE
 author: windows-sdk-content
 description: The CertEnumPhysicalStoreCallback callback function formats and presents information on each physical store found by a call to CertEnumPhysicalStore.
 old-location: security\certenumphysicalstorecallback.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 0651730a-39f2-4598-a81c-d05e6d282e6c
 ms.author: windowssdkdev
-ms.date: 08/15/2018
-ms.keywords: CertEnumPhysicalStoreCallback, CertEnumPhysicalStoreCallback callback, CertEnumPhysicalStoreCallback callback function [Security], PFN_CERT_ENUM_PHYSICAL_STORE, PFN_CERT_ENUM_PHYSICAL_STORE callback function [Security], security.certenumphysicalstorecallback, wincrypt/CertEnumPhysicalStoreCallback, wincrypt/PFN_CERT_ENUM_PHYSICAL_STORE
+ms.date: 08/29/2018
+ms.keywords: CertEnumPhysicalStoreCallback, PFN_CERT_ENUM_PHYSICAL_STORE, PFN_CERT_ENUM_PHYSICAL_STORE callback, PFN_CERT_ENUM_PHYSICAL_STORE callback function [Security], security.certenumphysicalstorecallback, wincrypt/PFN_CERT_ENUM_PHYSICAL_STORE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,11 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - CertEnumPhysicalStoreCallback
+ - PFN_CERT_ENUM_PHYSICAL_STORE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_CERT_ENUM_PHYSICAL_STORE callback function

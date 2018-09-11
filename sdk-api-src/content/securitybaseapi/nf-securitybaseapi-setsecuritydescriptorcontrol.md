@@ -4,17 +4,16 @@ title: SetSecurityDescriptorControl function
 author: windows-sdk-content
 description: Sets the control bits of a security descriptor. The function can set only the control bits that relate to automatic inheritance of ACEs.
 old-location: security\setsecuritydescriptorcontrol.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 672406af-ae04-4939-82a4-069a91e61b3f
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: SetSecurityDescriptorControl, SetSecurityDescriptorControl function [Security], _win32_setsecuritydescriptorcontrol, security.setsecuritydescriptorcontrol, securitybaseapi/SetSecurityDescriptorControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SetSecurityDescriptorControl
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetSecurityDescriptorControl function

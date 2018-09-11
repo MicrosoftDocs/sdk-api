@@ -4,17 +4,16 @@ title: IDiskQuotaControl::CreateUserBatch
 author: windows-sdk-content
 description: Creates a batching object for optimizing updates to the quota settings of multiple users simultaneously.
 old-location: fs\idiskquotacontrol_createuserbatch.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: c1c5a71f-4a2f-4bf9-b28f-11b87a558771
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateUserBatch, CreateUserBatch method [Files], CreateUserBatch method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],CreateUserBatch method, IDiskQuotaControl.CreateUserBatch, IDiskQuotaControl::CreateUserBatch, _win32_idiskquotacontrol_createuserbatch, base.idiskquotacontrol_createuserbatch, dskquota/IDiskQuotaControl::CreateUserBatch, fs.idiskquotacontrol_createuserbatch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaControl.CreateUserBatch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaControl::CreateUserBatch

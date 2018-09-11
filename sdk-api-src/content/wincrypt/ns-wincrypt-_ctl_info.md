@@ -4,17 +4,16 @@ title: "_CTL_INFO"
 author: windows-sdk-content
 description: Contains the information stored in a Certificate Trust List (CTL).
 old-location: security\ctl_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 83b015b5-a650-4a81-a9f0-c3e8a9805c81
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCTL_INFO, CTL_INFO, CTL_INFO structure [Security], CTL_V1, PCTL_INFO, PCTL_INFO structure pointer [Security], _CTL_INFO, _crypto2_ctl_info, security.ctl_info, wincrypt/CTL_INFO, wincrypt/PCTL_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CTL_INFO, *PCTL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CTL_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CTL_INFO, *PCTL_INFO
+req.redist: 
 ---
 
 # _CTL_INFO structure

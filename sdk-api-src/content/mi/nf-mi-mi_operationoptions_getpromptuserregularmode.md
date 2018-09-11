@@ -4,17 +4,16 @@ title: MI_OperationOptions_GetPromptUserRegularMode function
 author: windows-sdk-content
 description: Gets the value that tells the server how to respond to a provider's call to MI_Context_PromptUser.
 old-location: wmi_v2\mi_operationoptions_getpromptuserregularmode.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 10c22de2-3f07-4d91-aa95-c59285d6087f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: MI_OperationOptions_GetPromptUserRegularMode, MI_OperationOptions_GetPromptUserRegularMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetPromptUserRegularMode, wmi_v2.mi_operationoptions_getpromptuserregularmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_Type
+req.lib: Mi.lib
+req.dll: Mi.dll
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - MI_OperationOptions_GetPromptUserRegularMode
 product: Windows
 targetos: Windows
-req.lib: Mi.lib
-req.dll: Mi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MI_OperationOptions_GetPromptUserRegularMode function

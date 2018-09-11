@@ -4,17 +4,16 @@ title: IInkEdit::get_SelAlignment
 author: windows-sdk-content
 description: Gets or sets a value that controls the alignment of the paragraphs in an InkEdit control.
 old-location: tablet\inkedit_selalignment.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 62755220-b8e4-4f26-b5f4-8a1b4b7adc01
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 0, 1, 2, IInkEdit interface [Tablet PC],SelAlignment property, IInkEdit.SelAlignment, IInkEdit.get_SelAlignment, IInkEdit::SelAlignment, IInkEdit::get_SelAlignment, IInkEdit::put_SelAlignment, InkEdit.get_SelAlignment, InkEdit.put_SelAlignment, NULL, SelAlignment property [Tablet PC], SelAlignment property [Tablet PC],IInkEdit interface, get_SelAlignment, inked/IInkEdit::SelAlignment, inked/IInkEdit::get_SelAlignment, inked/IInkEdit::put_SelAlignment, put_SelAlignment, tablet.inkedit_selalignment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_SelAlignment
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::get_SelAlignment

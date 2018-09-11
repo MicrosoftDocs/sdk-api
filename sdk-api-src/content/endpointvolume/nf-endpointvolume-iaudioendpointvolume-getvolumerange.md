@@ -4,17 +4,16 @@ title: IAudioEndpointVolume::GetVolumeRange
 author: windows-sdk-content
 description: The GetVolumeRange method gets the volume range, in decibels, of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getvolumerange.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: a0e98ed8-36e2-4abc-aa83-008cc89e3a56
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetVolumeRange, GetVolumeRange method [Core Audio], GetVolumeRange method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetVolumeRange method, IAudioEndpointVolume.GetVolumeRange, IAudioEndpointVolume::GetVolumeRange, IAudioEndpointVolumeGetVolumeRange, coreaudio.iaudioendpointvolume_getvolumerange, endpointvolume/IAudioEndpointVolume::GetVolumeRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioEndpointVolume.GetVolumeRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpointVolume::GetVolumeRange
@@ -65,17 +63,17 @@ The <b>GetVolumeRange</b> method gets the volume range, in decibels, of the audi
 
 ### -param pflVolumeMindB
 
-
+TBD
 
 
 ### -param pflVolumeMaxdB
 
-
+TBD
 
 
 ### -param pflVolumeIncrementdB
 
-
+TBD
 
 
 

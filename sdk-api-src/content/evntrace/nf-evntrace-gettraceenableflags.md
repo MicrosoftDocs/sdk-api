@@ -4,17 +4,16 @@ title: GetTraceEnableFlags function
 author: windows-sdk-content
 description: The GetTraceEnableFlags function retrieves the enable flags passed by the controller to indicate which category of events to trace.Providers can only call this function from their ControlCallback function.
 old-location: etw\gettraceenableflags.htm
-old-project: etw
+tech.root: etw
 ms.assetid: e5c0f2bf-34da-4555-9556-4c79ee9a73ab
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: GetTraceEnableFlags, GetTraceEnableFlags function [ETW], _evt_gettraceenableflags, base.gettraceenableflags, etw.gettraceenableflags, evntrace/GetTraceEnableFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - GetTraceEnableFlags
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetTraceEnableFlags function

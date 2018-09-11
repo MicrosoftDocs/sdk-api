@@ -4,7 +4,7 @@ title: CF_HYDRATION_POLICY
 author: windows-sdk-content
 description: Specifies the primary hydration policy and its modifier.
 old-location: cloudapi\cf_hydration_policy.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 1541E108-7AE4-4899-8940-94FD264C1B10
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_HYDRATION_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_HYDRATION_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CF_HYDRATION_POLICY
+req.redist: 
 ---
 
 # CF_HYDRATION_POLICY structure

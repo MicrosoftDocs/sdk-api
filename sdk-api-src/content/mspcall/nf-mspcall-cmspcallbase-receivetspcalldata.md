@@ -4,17 +4,16 @@ title: CMSPCallBase::ReceiveTSPCallData
 author: windows-sdk-content
 description: The ReceiveTSPCallData method is called by the MSP address object's ReceiveTSPData method to dispatch TSP data to the correct call.
 old-location: tapi3\cmspcallbase_receivetspcalldata.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8f5c31cd-7d74-47d4-9e96-8a965843210c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],ReceiveTSPCallData method, CMSPCallBase.ReceiveTSPCallData, CMSPCallBase::ReceiveTSPCallData, ReceiveTSPCallData, ReceiveTSPCallData method [TAPI 2.2], ReceiveTSPCallData method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_receivetspcalldata, mspcall/CMSPCallBase::ReceiveTSPCallData, tapi3.cmspcallbase_receivetspcalldata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mspcall.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSPCallBase.ReceiveTSPCallData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CMSPCallBase::ReceiveTSPCallData

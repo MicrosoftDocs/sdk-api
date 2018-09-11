@@ -4,17 +4,16 @@ title: "_POLICY_PRIMARY_DOMAIN_INFO"
 author: windows-sdk-content
 description: The PolicyPrimaryDomainInformation value and POLICY_PRIMARY_DOMAIN_INFO structure are obsolete. Use the PolicyDnsDomainInformation and POLICY_DNS_DOMAIN_INFO structure instead.
 old-location: security\policy_primary_domain_info.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: 20102da1-bc05-4ea5-9a2d-a50ecba5fd88
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPOLICY_PRIMARY_DOMAIN_INFO, POLICY_PRIMARY_DOMAIN_INFO, POLICY_PRIMARY_DOMAIN_INFO structure [Security], PPOLICY_PRIMARY_DOMAIN_INFO, PPOLICY_PRIMARY_DOMAIN_INFO structure pointer [Security], _POLICY_PRIMARY_DOMAIN_INFO, _lsa_policy_primary_domain_info, ntsecapi/POLICY_PRIMARY_DOMAIN_INFO, ntsecapi/PPOLICY_PRIMARY_DOMAIN_INFO, security.policy_primary_domain_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_PRIMARY_DOMAIN_INFO, *PPOLICY_PRIMARY_DOMAIN_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POLICY_PRIMARY_DOMAIN_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: POLICY_PRIMARY_DOMAIN_INFO, *PPOLICY_PRIMARY_DOMAIN_INFO
+req.redist: 
 ---
 
 # _POLICY_PRIMARY_DOMAIN_INFO structure

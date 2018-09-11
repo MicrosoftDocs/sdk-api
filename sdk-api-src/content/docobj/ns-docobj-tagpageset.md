@@ -4,17 +4,16 @@ title: tagPAGESET
 author: windows-sdk-content
 description: Identifies one or more page-ranges to be printed and, optionally, identifies only the even or odd pages as part of a pageset.
 old-location: com\pageset.htm
-old-project: com
+tech.root: com
 ms.assetid: 9639c743-2509-4611-833b-16d16fce420a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PAGESET, PAGESET structure [COM], _ctrl_PAGESET, com.pageset, docobj/PAGESET, tagPAGESET
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: DocObj.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PAGESET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PAGESET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: PAGESET
+req.redist: 
 ---
 
 # tagPAGESET structure

@@ -4,17 +4,16 @@ title: ISettingsNamespace
 author: windows-sdk-content
 description: Performs operations to set, retrieve, and validate settings, and save changes for a namespace instance.
 old-location: smi\isettingsnamespace.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: a5d7b9ff-eb6f-40be-b246-17189cad92be
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISettingsNamespace, ISettingsNamespace interface [SMI], ISettingsNamespace interface [SMI],described, smi.isettingsnamespace, wcmconfig/ISettingsNamespace
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsNamespace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsNamespace interface

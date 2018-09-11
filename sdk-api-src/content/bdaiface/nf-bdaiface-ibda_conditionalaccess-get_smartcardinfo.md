@@ -4,17 +4,16 @@ title: IBDA_ConditionalAccess::get_SmartCardInfo
 author: windows-sdk-content
 description: The get_SmartCardInfo method retrieves information about the smart card.
 old-location: mstv\ibda_conditionalaccess_get_smartcardinfo.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0c9143e7-1e59-4f64-84b8-2bbac18cf787
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_SmartCardInfo method, IBDA_ConditionalAccess.get_SmartCardInfo, IBDA_ConditionalAccess::get_SmartCardInfo, IBDA_ConditionalAccessget_SmartCardInfo, bdaiface/IBDA_ConditionalAccess::get_SmartCardInfo, get_SmartCardInfo, get_SmartCardInfo method [Microsoft TV Technologies], get_SmartCardInfo method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_smartcardinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_ConditionalAccess.get_SmartCardInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_ConditionalAccess::get_SmartCardInfo

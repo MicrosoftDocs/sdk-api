@@ -4,7 +4,7 @@ title: "_MMC_TASK_DISPLAY_BITMAP"
 author: windows-sdk-content
 description: The MMC_TASK_DISPLAY_BITMAP structure is introduced in MMC 1.1.
 old-location: mmc\mmc_task_display_bitmap.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 9895eef1-7870-4092-8bf9-c13f38b74173
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_TASK_DISPLAY_BITMAP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_TASK_DISPLAY_BITMAP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_TASK_DISPLAY_BITMAP
+req.redist: 
 ---
 
 # _MMC_TASK_DISPLAY_BITMAP structure

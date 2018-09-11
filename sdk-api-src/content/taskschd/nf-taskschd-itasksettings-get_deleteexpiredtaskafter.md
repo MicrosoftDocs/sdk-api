@@ -4,17 +4,16 @@ title: ITaskSettings::get_DeleteExpiredTaskAfter
 author: windows-sdk-content
 description: Gets or sets the amount of time that the Task Scheduler will wait before deleting the task after it expires.
 old-location: taskschd\itasksettings_deleteexpiredtaskafter.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: c6a2a12d-a41a-4fd8-a328-bce0fe19deba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DeleteExpiredTaskAfter property [Task Scheduler], DeleteExpiredTaskAfter property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],DeleteExpiredTaskAfter property, ITaskSettings.DeleteExpiredTaskAfter, ITaskSettings.get_DeleteExpiredTaskAfter, ITaskSettings::DeleteExpiredTaskAfter, ITaskSettings::get_DeleteExpiredTaskAfter, ITaskSettings::put_DeleteExpiredTaskAfter, get_DeleteExpiredTaskAfter, taskschd.itasksettings_deleteexpiredtaskafter, taskschd/ITaskSettings::DeleteExpiredTaskAfter, taskschd/ITaskSettings::get_DeleteExpiredTaskAfter, taskschd/ITaskSettings::put_DeleteExpiredTaskAfter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITaskSettings.put_DeleteExpiredTaskAfter
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskSettings::get_DeleteExpiredTaskAfter

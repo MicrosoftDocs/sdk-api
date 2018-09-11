@@ -4,17 +4,16 @@ title: IDirectDrawClipper::SetHWnd
 author: windows-sdk-content
 description: Sets the window handle that the clipper object uses to obtain clipping information.
 old-location: directdraw\idirectdrawclipper_sethwnd.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 7683bccd-3f5c-4098-9041-9c66853cda0e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],SetHWnd method, IDirectDrawClipper.SetHWnd, IDirectDrawClipper::SetHWnd, SetHWnd, SetHWnd method [DirectDraw], SetHWnd method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::SetHWnd, directdraw.idirectdrawclipper_sethwnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawClipper.SetHWnd
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawClipper::SetHWnd
@@ -59,9 +58,14 @@ Sets the window handle that the clipper object uses to obtain clipping informati
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

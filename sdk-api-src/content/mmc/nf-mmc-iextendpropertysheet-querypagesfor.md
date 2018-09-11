@@ -4,17 +4,16 @@ title: IExtendPropertySheet::QueryPagesFor
 author: windows-sdk-content
 description: Determines whether the object requires pages.
 old-location: mmc\iextendpropertysheet_querypagesfor.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: F21A0AA2-8F79-4AEA-A5B1-8D650BE14C9F
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IExtendPropertySheet interface [MMC],QueryPagesFor method, IExtendPropertySheet.QueryPagesFor, IExtendPropertySheet::QueryPagesFor, QueryPagesFor, QueryPagesFor method [MMC], QueryPagesFor method [MMC],IExtendPropertySheet interface, mmc.iextendpropertysheet_querypagesfor, mmc/IExtendPropertySheet::QueryPagesFor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExtendPropertySheet.QueryPagesFor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IExtendPropertySheet::QueryPagesFor

@@ -4,17 +4,16 @@ title: "_CERT_ID"
 author: windows-sdk-content
 description: Is used as a flexible means of uniquely identifying a certificate.
 old-location: security\cert_id.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 9e33f661-c365-4725-8c3f-27b6cdd9a84e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_ID, CERT_ID, CERT_ID structure [Security], CERT_ID_ISSUER_SERIAL_NUMBER, CERT_ID_KEY_IDENTIFIER, CERT_ID_SHA1_HASH, PCERT_ID, PCERT_ID structure pointer [Security], _CERT_ID, _crypto2_cert_id, security.cert_id, wincrypt/CERT_ID, wincrypt/PCERT_ID"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_ID, *PCERT_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_ID, *PCERT_ID
+req.redist: 
 ---
 
 # _CERT_ID structure

@@ -4,17 +4,16 @@ title: ISyncProviderRegistration::RegisterForEvent
 author: windows-sdk-content
 description: Registers the user to receive notification of the arrival of new registration events that oocur when changes are made to the registration store.
 old-location: winsync\isyncproviderregistration_registerforevent.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: b636a3b4-2ac2-4400-b8ed-4430f598db7b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],RegisterForEvent method, ISyncProviderRegistration.RegisterForEvent, ISyncProviderRegistration::RegisterForEvent, RegisterForEvent, RegisterForEvent method [Windows Sync], RegisterForEvent method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::RegisterForEvent, winsync.isyncproviderregistration_registerforevent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncProviderRegistration.RegisterForEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncProviderRegistration::RegisterForEvent

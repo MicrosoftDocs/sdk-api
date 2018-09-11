@@ -4,7 +4,7 @@ title: "_DDSETSTATEOUTINFO"
 author: windows-sdk-content
 description: The DDSETSTATEOUTINFO structure contains the state information for the video port extensions (VPE) object.
 old-location: display\ddsetstateoutinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 11cd0d5e-6fe2-47eb-a410-0aa7ada30f87
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDSETSTATEOUTINFO, *PDDSETSTATEOUTINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDSETSTATEOUTINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDSETSTATEOUTINFO, *PDDSETSTATEOUTINFO
+req.redist: 
 ---
 
 # _DDSETSTATEOUTINFO structure

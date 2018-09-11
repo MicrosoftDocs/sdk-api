@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer::get_OverScan
 author: windows-sdk-content
 description: The get_OverScan method retrieves the amount of clipping to perform on all sides of the video frame, in order to cut off random video noise.
 old-location: mstv\imsvidvideorenderer_get_overscan.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2c4946e6-b25c-4e6a-b640-73982c0da871
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_OverScan method, IMSVidVideoRenderer.get_OverScan, IMSVidVideoRenderer::get_OverScan, IMSVidVideoRendererget_OverScan, get_OverScan, get_OverScan method [Microsoft TV Technologies], get_OverScan method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_overscan, segment/IMSVidVideoRenderer::get_OverScan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer.get_OverScan
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer::get_OverScan

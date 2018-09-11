@@ -4,17 +4,16 @@ title: IWbemObjectAccess::WriteDWORD
 author: windows-sdk-content
 description: The WriteDWORD method writes 32 bits of data to a property identified by a property handle.
 old-location: wmi\iwbemobjectaccess_writedword.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: a1716599-69ba-44fb-be68-b22578f6c6b2
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],WriteDWORD method, IWbemObjectAccess.WriteDWORD, IWbemObjectAccess::WriteDWORD, WriteDWORD, WriteDWORD method [Windows Management Instrumentation], WriteDWORD method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_writedword, wbemcli/IWbemObjectAccess::WriteDWORD, wmi.iwbemobjectaccess_writedword
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWbemObjectAccess.WriteDWORD
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemObjectAccess::WriteDWORD

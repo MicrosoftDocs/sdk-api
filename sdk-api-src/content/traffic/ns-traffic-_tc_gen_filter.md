@@ -4,17 +4,16 @@ title: "_TC_GEN_FILTER"
 author: windows-sdk-content
 description: The TC_GEN_FILTER structure creates a filter that matches a certain set of packet attributes or criteria, which can subsequently be used to associate packets that meet the attribute criteria with a particular flow.
 old-location: qos\tc_gen_filter.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 979bfa2d-50da-43a6-8ead-d338159e31cf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTC_GEN_FILTER, TC_GEN_FILTER, TC_GEN_FILTER structure [QOS], TC_GEN_FILTER), TC_GEN_FILTER) structure [QOS], _TC_GEN_FILTER, _gqos_tc_gen_filter, qos.tc_gen_filter, traffic/TC_GEN_FILTER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TC_GEN_FILTER, *PTC_GEN_FILTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TC_GEN_FILTER)
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TC_GEN_FILTER, *PTC_GEN_FILTER
+req.redist: 
 ---
 
 # _TC_GEN_FILTER structure

@@ -4,17 +4,16 @@ title: "_WLX_DISPATCH_VERSION_1_3"
 author: windows-sdk-content
 description: Defines the format of the Winlogon version 1.3 function dispatch table passed to your GINA DLL in the WlxInitialize call.
 old-location: security\wlx_dispatch_version_1_3.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 47e343b8-ee54-45de-98c6-0ec75b45aa90
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWLX_DISPATCH_VERSION_1_3, PWLX_DISPATCH_VERSION_1_3, PWLX_DISPATCH_VERSION_1_3 structure pointer [Security], WLX_DISPATCH_VERSION_1_3, WLX_DISPATCH_VERSION_1_3 structure [Security], _WLX_DISPATCH_VERSION_1_3, _gina_wlx_dispatch_version_1_3, security.wlx_dispatch_version_1_3, winwlx/PWLX_DISPATCH_VERSION_1_3, winwlx/WLX_DISPATCH_VERSION_1_3"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLX_DISPATCH_VERSION_1_3, *PWLX_DISPATCH_VERSION_1_3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLX_DISPATCH_VERSION_1_3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLX_DISPATCH_VERSION_1_3, *PWLX_DISPATCH_VERSION_1_3
+req.redist: 
 ---
 
 # _WLX_DISPATCH_VERSION_1_3 structure

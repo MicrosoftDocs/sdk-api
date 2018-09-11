@@ -4,17 +4,16 @@ title: IDesktopWallpaper::GetMonitorDevicePathAt
 author: windows-sdk-content
 description: Retrieves the unique ID of one of the system's monitors.
 old-location: shell\IDesktopWallpaper_GetMonitorDevicePathAt.htm
-old-project: shell
+tech.root: shell
 ms.assetid: CE0C6B07-F9D1-4221-9D9D-8D17CF6780E6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetMonitorDevicePathAt, GetMonitorDevicePathAt method [Windows Shell], GetMonitorDevicePathAt method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetMonitorDevicePathAt method, IDesktopWallpaper.GetMonitorDevicePathAt, IDesktopWallpaper::GetMonitorDevicePathAt, shell.IDesktopWallpaper_GetMonitorDevicePathAt, shobjidl_core/IDesktopWallpaper::GetMonitorDevicePathAt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDesktopWallpaper.GetMonitorDevicePathAt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDesktopWallpaper::GetMonitorDevicePathAt

@@ -4,17 +4,16 @@ title: IInkRecognizerContext::get_Recognizer
 author: windows-sdk-content
 description: Gets the IInkRecognizer object used by the InkRecognizerContext object.
 old-location: tablet\inkrecognizercontext_recognizer.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: a15234b1-1ac2-4241-b1cd-eb9702ee2a49
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkRecognizerContext interface [Tablet PC],Recognizer property, IInkRecognizerContext.Recognizer, IInkRecognizerContext.get_Recognizer, IInkRecognizerContext::Recognizer, IInkRecognizerContext::get_Recognizer, InkRecognizerContext.get_Recognizer, Recognizer property [Tablet PC], Recognizer property [Tablet PC],IInkRecognizerContext interface, a15234b1-1ac2-4241-b1cd-eb9702ee2a49, get_Recognizer, msinkaut/IInkRecognizerContext::Recognizer, msinkaut/IInkRecognizerContext::get_Recognizer, put_Recognizer, tablet.inkrecognizercontext_recognizer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkRecognizerContext.get_Recognizer
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerContext::get_Recognizer

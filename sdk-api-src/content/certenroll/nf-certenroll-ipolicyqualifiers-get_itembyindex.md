@@ -4,17 +4,16 @@ title: IPolicyQualifiers::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an object from the collection by index number.
 old-location: security\ipolicyqualifiers_itembyindex.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 89d6ce10-8425-4ee9-a957-88f9a2daba74
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPolicyQualifiers interface [Security],ItemByIndex property, IPolicyQualifiers.ItemByIndex, IPolicyQualifiers.get_ItemByIndex, IPolicyQualifiers::ItemByIndex, IPolicyQualifiers::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::ItemByIndex, certenroll/IPolicyQualifiers::get_ItemByIndex, get_ItemByIndex, security.ipolicyqualifiers_itembyindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IPolicyQualifiers.get_ItemByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPolicyQualifiers::get_ItemByIndex

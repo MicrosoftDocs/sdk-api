@@ -4,17 +4,16 @@ title: ID3D12CommandQueue::BeginEvent
 author: windows-sdk-content
 description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command queue.
 old-location: direct3d12\id3d12commandqueue_beginevent.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 09586D24-6D52-49BA-B6C0-793219FAE80C
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: BeginEvent, BeginEvent method, BeginEvent method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,BeginEvent method, ID3D12CommandQueue.BeginEvent, ID3D12CommandQueue::BeginEvent, d3d12/ID3D12CommandQueue::BeginEvent, direct3d12.id3d12commandqueue_beginevent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12CommandQueue.BeginEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12CommandQueue::BeginEvent

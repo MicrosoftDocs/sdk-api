@@ -4,17 +4,16 @@ title: IPersistStorage::IsDirty
 author: windows-sdk-content
 description: Determines whether an object has changed since it was last saved to its current storage.
 old-location: com\ipersiststorage_isdirty.htm
-old-project: com
+tech.root: com
 ms.assetid: 604e044f-cede-486e-8b17-c62a1cfd1d28
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPersistStorage interface [COM],IsDirty method, IPersistStorage.IsDirty, IPersistStorage::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistStorage interface, _com_ipersiststorage_isdirty, com.ipersiststorage_isdirty, objidl/IPersistStorage::IsDirty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistStorage.IsDirty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistStorage::IsDirty

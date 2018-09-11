@@ -4,17 +4,16 @@ title: "_VSS_HARDWARE_OPTIONS"
 author: windows-sdk-content
 description: Defines shadow copy LUN flags.
 old-location: base\_vss_hardware_options.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 545977ae-7f62-4a8e-9d2f-936224f413b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_HARDWARE_OPTIONS, PVSS_HARDWARE_OPTIONS, PVSS_HARDWARE_OPTIONS enumeration pointer, VSS_BREAKEX_FLAG_MAKE_READ_WRITE, VSS_BREAKEX_FLAG_MASK_LUNS, VSS_BREAKEX_FLAG_REVERT_IDENTITY_ALL, VSS_BREAKEX_FLAG_REVERT_IDENTITY_NONE, VSS_HARDWARE_OPTIONS, VSS_HARDWARE_OPTIONS enumeration, VSS_ONLUNSTATECHANGE_DO_MASK_LUNS, VSS_ONLUNSTATECHANGE_NOTIFY_LUN_POST_RECOVERY, VSS_ONLUNSTATECHANGE_NOTIFY_LUN_PRE_RECOVERY, VSS_ONLUNSTATECHANGE_NOTIFY_READ_WRITE, _VSS_HARDWARE_OPTIONS, _VSS_HARDWARE_OPTIONS enumeration, base._vss_hardware_options, vss/PVSS_HARDWARE_OPTIONS, vss/VSS_BREAKEX_FLAG_MAKE_READ_WRITE, vss/VSS_BREAKEX_FLAG_MASK_LUNS, vss/VSS_BREAKEX_FLAG_REVERT_IDENTITY_ALL, vss/VSS_BREAKEX_FLAG_REVERT_IDENTITY_NONE, vss/VSS_ONLUNSTATECHANGE_DO_MASK_LUNS, vss/VSS_ONLUNSTATECHANGE_NOTIFY_LUN_POST_RECOVERY, vss/VSS_ONLUNSTATECHANGE_NOTIFY_LUN_PRE_RECOVERY, vss/VSS_ONLUNSTATECHANGE_NOTIFY_READ_WRITE, vss/_VSS_HARDWARE_OPTIONS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_HARDWARE_OPTIONS, *PVSS_HARDWARE_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_HARDWARE_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_HARDWARE_OPTIONS, *PVSS_HARDWARE_OPTIONS
+req.redist: 
 ---
 
 # _VSS_HARDWARE_OPTIONS enumeration

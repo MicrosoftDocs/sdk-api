@@ -4,17 +4,16 @@ title: NPFormatNetworkName function
 author: windows-sdk-content
 description: Formats a network name in a provider-specific format for display in a control.
 old-location: security\npformatnetworkname.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: a1d599fb-7b1c-4828-9cd7-bd520513f5be
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: NPFormatNetworkName, NPFormatNetworkName function [Security], WNFMT_ABBREVIATED, WNFMT_INENUM, WNFMT_MULTILINE, _mnp_npformatnetworkname, npapi/NPFormatNetworkName, security.npformatnetworkname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NPFormatNetworkName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NPFormatNetworkName function

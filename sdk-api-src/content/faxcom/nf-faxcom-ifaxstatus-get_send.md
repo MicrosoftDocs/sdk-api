@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxStatus.get_Send
 title: IFaxStatus::get_Send
 author: windows-sdk-content
 description: Retrieves the Send property for the FaxStatus object of a parent FaxPort object. The Send property is a Boolean value that indicates whether a specified fax port is currently sending a fax.
-old-location: fax\_mfax_ifaxstatus_get_send_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_send_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_58f8.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxStatus object [Fax Service],Send property, FaxStatus.Send, IFaxStatus.get_Send, IFaxStatus::get_Send, Send property [Fax Service], Send property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_get_send_vb, get_Send
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxStatus interface [Fax Service],Send property, IFaxStatus.Send, IFaxStatus.get_Send, IFaxStatus::Send, IFaxStatus::get_Send, Send property [Fax Service], Send property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_send_cpp, faxcom/IFaxStatus::Send, faxcom/IFaxStatus::get_Send, get_Send
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxStatus.Send
+ - IFaxStatus.Send
+ - IFaxStatus.get_Send
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxStatus::get_Send
@@ -64,7 +63,7 @@ This property is read-only.
 
 
 
-You can call the <a href="https://msdn.microsoft.com/en-us/library/ms691932(v=VS.85).aspx">IFaxStatus::get_Receive</a> method to determine if a specified port is currently receiving a fax.
+You can call the <a href="https://msdn.microsoft.com/e7a63893-d8df-4253-80b0-3faab13934fd">IFaxStatus::get_Receive</a> method to determine if a specified port is currently receiving a fax.
 
 
 
@@ -82,10 +81,6 @@ You can call the <a href="https://msdn.microsoft.com/en-us/library/ms691932(v=VS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690310(v=VS.85).aspx">FaxStatus</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms691281(v=VS.85).aspx">IFaxPort</a>
 
 
@@ -98,7 +93,7 @@ You can call the <a href="https://msdn.microsoft.com/en-us/library/ms691932(v=VS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691932(v=VS.85).aspx">Receive</a>
+<a href="https://msdn.microsoft.com/e7a63893-d8df-4253-80b0-3faab13934fd">IFaxStatus::get_Receive</a>
  
 
  

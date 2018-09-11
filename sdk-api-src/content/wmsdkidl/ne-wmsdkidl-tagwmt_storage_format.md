@@ -4,7 +4,7 @@ title: tagWMT_STORAGE_FORMAT
 author: windows-sdk-content
 description: The WMT_STORAGE_FORMAT enumeration type defines the file types that can be manipulated with this SDK.
 old-location: wmformat\wmt_storage_format.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 49f49ca8-8953-47a6-97c3-fd011d5f88cd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMT_STORAGE_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMT_STORAGE_FORMAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMT_STORAGE_FORMAT
+req.redist: 
 ---
 
 # tagWMT_STORAGE_FORMAT enumeration

@@ -4,17 +4,16 @@ title: "_USER_MODALS_INFO_3"
 author: windows-sdk-content
 description: The USER_MODALS_INFO_3 structure contains lockout information for users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\user_modals_info_3_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 39f85712-1afd-4e34-8e7b-0938a7a48234
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPUSER_MODALS_INFO_3, *PUSER_MODALS_INFO_3, LPUSER_MODALS_INFO_3, LPUSER_MODALS_INFO_3 structure pointer [Network Management], PUSER_MODALS_INFO_3, PUSER_MODALS_INFO_3 structure pointer [Network Management], USER_MODALS_INFO_3, USER_MODALS_INFO_3 structure [Network Management], _USER_MODALS_INFO_3, _win32_user_modals_info_3_str, lmaccess/LPUSER_MODALS_INFO_3, lmaccess/PUSER_MODALS_INFO_3, lmaccess/USER_MODALS_INFO_3, netmgmt.user_modals_info_3_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_MODALS_INFO_3, *PUSER_MODALS_INFO_3, *LPUSER_MODALS_INFO_3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_MODALS_INFO_3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USER_MODALS_INFO_3, *PUSER_MODALS_INFO_3, *LPUSER_MODALS_INFO_3
+req.redist: 
 ---
 
 # _USER_MODALS_INFO_3 structure

@@ -4,17 +4,16 @@ title: IWICPalette::InitializeCustom
 author: windows-sdk-content
 description: Initializes a palette to the custom color entries provided.
 old-location: wic\_wic_codec_iwicpalette_initializecustom.htm
-old-project: wic
+tech.root: wic
 ms.assetid: eef17030-13eb-4d59-ac47-a49ffe2c80c8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeCustom method, IWICPalette.InitializeCustom, IWICPalette::InitializeCustom, InitializeCustom, InitializeCustom method [Windows Imaging Component], InitializeCustom method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializecustom, wic._wic_codec_iwicpalette_initializecustom, wincodec/IWICPalette::InitializeCustom
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICPalette.InitializeCustom
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICPalette::InitializeCustom
@@ -69,7 +67,7 @@ Pointer to the color array.
 
 ### -param cCount
 
-
+TBD
 
 
 

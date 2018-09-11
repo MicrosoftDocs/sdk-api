@@ -4,7 +4,7 @@ title: "_SCOPE_MIB_INFO"
 author: windows-sdk-content
 description: Defines information about an available scope for use within returned DHCP-specific SNMP Management Information Block (MIB) data.
 old-location: dhcp\scope_mib_info.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 54f54734-3e4a-489f-a61d-85fd436d28ad
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCOPE_MIB_INFO, *LPSCOPE_MIB_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SCOPE_MIB_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SCOPE_MIB_INFO, *LPSCOPE_MIB_INFO
+req.redist: 
 ---
 
 # _SCOPE_MIB_INFO structure

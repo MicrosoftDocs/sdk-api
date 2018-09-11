@@ -4,17 +4,16 @@ title: IVssHardwareSnapshotProviderEx
 author: windows-sdk-content
 description: Provides an additional method used by VSS to notify hardware providers of LUN state changes.
 old-location: base\ivsshardwaresnapshotproviderex.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: aaf94823-845b-49cb-8599-962229fef4cb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssHardwareSnapshotProviderEx, IVssHardwareSnapshotProviderEx interface, IVssHardwareSnapshotProviderEx interface,described, base.ivsshardwaresnapshotproviderex, vsprov/IVssHardwareSnapshotProviderEx
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssHardwareSnapshotProviderEx
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssHardwareSnapshotProviderEx interface

@@ -4,17 +4,16 @@ title: IVdsDiskPartitionMF::GetPartitionFileSystemProperties
 author: windows-sdk-content
 description: Returns property details about the file system on a partition on the disk at a specified byte offset.
 old-location: base\ivdsdiskpartitionmf_getpartitionfilesystemproperties.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 1b49ffba-00df-4d8f-a90f-5e26a5c898dd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPartitionFileSystemProperties, GetPartitionFileSystemProperties method, GetPartitionFileSystemProperties method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,GetPartitionFileSystemProperties method, IVdsDiskPartitionMF.GetPartitionFileSystemProperties, IVdsDiskPartitionMF::GetPartitionFileSystemProperties, base.ivdsdiskpartitionmf_getpartitionfilesystemproperties, vds/IVdsDiskPartitionMF::GetPartitionFileSystemProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDiskPartitionMF.GetPartitionFileSystemProperties
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDiskPartitionMF::GetPartitionFileSystemProperties

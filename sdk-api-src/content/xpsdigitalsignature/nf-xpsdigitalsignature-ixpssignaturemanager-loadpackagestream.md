@@ -4,17 +4,16 @@ title: IXpsSignatureManager::LoadPackageStream
 author: windows-sdk-content
 description: Loads an XPS package from a stream into the digital signature manager.
 old-location: xps\ixpssignaturemanager_loadpackagestream.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 755bbd41-0941-4956-a99d-45b39f9b030f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],LoadPackageStream method, IXpsSignatureManager.LoadPackageStream, IXpsSignatureManager::LoadPackageStream, LoadPackageStream, LoadPackageStream method [XPS Documents and Packaging], LoadPackageStream method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_loadpackagestream, xpsdigitalsignature/IXpsSignatureManager::LoadPackageStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignatureManager.LoadPackageStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignatureManager::LoadPackageStream

@@ -4,7 +4,7 @@ title: "_DSROLE_MACHINE_ROLE"
 author: windows-sdk-content
 description: Used with the MachineRole member of the DSROLE_PRIMARY_DOMAIN_INFO_BASIC structure to specify the computer role.
 old-location: ad\dsrole_machine_role.htm
-old-project: ad
+tech.root: ad
 ms.assetid: d5255070-71dd-4510-8bec-a84726a241c6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dsrole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_MACHINE_ROLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSROLE_MACHINE_ROLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DSROLE_MACHINE_ROLE
+req.redist: 
 ---
 
 # _DSROLE_MACHINE_ROLE enumeration

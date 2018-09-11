@@ -4,17 +4,16 @@ title: IDCompositionDevice::CreateTransformGroup
 author: windows-sdk-content
 description: Creates a 2D transform group object that holds an array of 2D transform objects.
 old-location: directcomp\idcompositiondevice_createtransformgroup.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 9d080bd1-f8ea-4a86-89bc-f4a801917335
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateTransformGroup, CreateTransformGroup method [DirectComposition], CreateTransformGroup method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTransformGroup method, IDCompositionDevice.CreateTransformGroup, IDCompositionDevice::CreateTransformGroup, dcomp/IDCompositionDevice::CreateTransformGroup, directcomp.idcompositiondevice_createtransformgroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice.CreateTransformGroup
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice::CreateTransformGroup

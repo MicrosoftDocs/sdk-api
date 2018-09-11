@@ -4,17 +4,16 @@ title: PxeProviderSetAttribute function
 author: windows-sdk-content
 description: Specifies attributes for the provider.
 old-location: wds\pxeprovidersetattribute.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 01f7b50b-966b-4ff9-b933-851eaf1f1411
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PXE_PROV_ATTR_FILTER, PXE_PROV_ATTR_FILTER_IPV6, PXE_PROV_ATTR_IPV6_CAPABLE, PXE_PROV_FILTER_ALL, PXE_PROV_FILTER_DHCP_ONLY, PXE_PROV_FILTER_PXE_ONLY, PxeProviderSetAttribute, PxeProviderSetAttribute function [Windows Deployment Services], wds.pxeprovidersetattribute, wdspxe/PxeProviderSetAttribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDS_CLI_CRED, *PWDS_CLI_CRED, *LPWDS_CLI_CRED
+req.lib: WdsPxe.lib
+req.dll: WdsPxe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PxeProviderSetAttribute
 product: Windows
 targetos: Windows
-req.lib: WdsPxe.lib
-req.dll: WdsPxe.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PxeProviderSetAttribute function

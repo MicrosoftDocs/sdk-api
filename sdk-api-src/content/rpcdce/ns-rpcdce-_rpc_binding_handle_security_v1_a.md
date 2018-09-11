@@ -4,17 +4,16 @@ title: "_RPC_BINDING_HANDLE_SECURITY_V1_A"
 author: windows-sdk-content
 description: Contains the basic security options with which to create an RPC binding handle.
 old-location: rpc\rpc_binding_handle_security_v1.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: b8ea2e96-2e7e-428c-a5cd-dfe9dd341063
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRPC_BINDING_HANDLE_SECURITY_V1_A, RPC_BINDING_HANDLE_SECURITY, RPC_BINDING_HANDLE_SECURITY structure [RPC], RPC_BINDING_HANDLE_SECURITY_V1, RPC_BINDING_HANDLE_SECURITY_V1 structure [RPC], RPC_BINDING_HANDLE_SECURITY_V1_A, _RPC_BINDING_HANDLE_SECURITY_V1_A, _RPC_BINDING_HANDLE_SECURITY_V1_W, rpc.rpc_binding_handle_security_v1, rpcdce/RPC_BINDING_HANDLE_SECURITY, rpcdce/RPC_BINDING_HANDLE_SECURITY_V1"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_BINDING_HANDLE_SECURITY_V1_A, *PRPC_BINDING_HANDLE_SECURITY_V1_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_BINDING_HANDLE_SECURITY_V1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_BINDING_HANDLE_SECURITY_V1_A, *PRPC_BINDING_HANDLE_SECURITY_V1_A
+req.redist: 
 ---
 
 # _RPC_BINDING_HANDLE_SECURITY_V1_A structure

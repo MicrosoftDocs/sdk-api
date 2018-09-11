@@ -4,17 +4,16 @@ title: IDirectXVideoDecoder::GetCreationParameters
 author: windows-sdk-content
 description: Retrieves the parameters that were used to create this device.
 old-location: mf\idirectxvideodecoder_getcreationparameters.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5e1a4f6b-22f3-40ae-8990-88ecb5b16d44
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 5e1a4f6b-22f3-40ae-8990-88ecb5b16d44, GetCreationParameters, GetCreationParameters method [Media Foundation], GetCreationParameters method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],GetCreationParameters method, IDirectXVideoDecoder.GetCreationParameters, IDirectXVideoDecoder::GetCreationParameters, dxva2api/IDirectXVideoDecoder::GetCreationParameters, mf.idirectxvideodecoder_getcreationparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectXVideoDecoder.GetCreationParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectXVideoDecoder::GetCreationParameters
@@ -78,7 +76,7 @@ Pointer to a <a href="https://msdn.microsoft.com/1515cfa9-24ff-4c65-adca-f4143d3
 
 ### -param pDecoderRenderTargets
 
-
+TBD
 
 
 ### -param pNumSurfaces [out]

@@ -4,17 +4,16 @@ title: IApplicationDesignModeSettings2::GetApplicationViewOrientation
 author: windows-sdk-content
 description: Gets the orientation of the application design mode window.
 old-location: shell\IApplicationDesignModeSettings2_GetApplicationViewOrientation.htm
-old-project: shell
+tech.root: shell
 ms.assetid: D6DF8432-7D37-4D39-9E08-2F5B874A0BCB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetApplicationViewOrientation, GetApplicationViewOrientation method [Windows Shell], GetApplicationViewOrientation method [Windows Shell],IApplicationDesignModeSettings2 interface, IApplicationDesignModeSettings2 interface [Windows Shell],GetApplicationViewOrientation method, IApplicationDesignModeSettings2.GetApplicationViewOrientation, IApplicationDesignModeSettings2::GetApplicationViewOrientation, shell.IApplicationDesignModeSettings2_GetApplicationViewOrientation, shobjidl_core/IApplicationDesignModeSettings2::GetApplicationViewOrientation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Twinapi.lib
+req.dll: Twinapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationDesignModeSettings2.GetApplicationViewOrientation
 product: Windows
 targetos: Windows
-req.lib: Twinapi.lib
-req.dll: Twinapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationDesignModeSettings2::GetApplicationViewOrientation
@@ -62,7 +60,7 @@ Gets the orientation of the application design mode window.
 
 ### -param applicationSizePixels
 
-
+TBD
 
 
 ### -param viewOrientation [out]

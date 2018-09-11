@@ -4,17 +4,16 @@ title: IPersistTuneXml::InitNew
 author: windows-sdk-content
 description: This method is not implemented in the current release. It was created to make the IPersistTuneXml interface compatible with the IPersistStreamInit interface and is reserved for future use.
 old-location: mstv\ipersisttunexml_initnew.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 75485d59-118c-4098-974b-40f7a36dbd91
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPersistTuneXml interface [Microsoft TV Technologies],InitNew method, IPersistTuneXml.InitNew, IPersistTuneXml::InitNew, InitNew, InitNew method [Microsoft TV Technologies], InitNew method [Microsoft TV Technologies],IPersistTuneXml interface, mstv.ipersisttunexml_initnew, tuner/IPersistTuneXml::InitNew
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistTuneXml.InitNew
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistTuneXml::InitNew

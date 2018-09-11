@@ -4,17 +4,16 @@ title: "_WS_CUSTOM_CHANNEL_CALLBACKS"
 author: windows-sdk-content
 description: A structure that is used to specify a set of callbacks that form the implementation of a custom channel.
 old-location: wsw\ws_custom_channel_callbacks.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 8df774fd-7cfc-4006-84ad-b81737770b6e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_CUSTOM_CHANNEL_CALLBACKS, WS_CUSTOM_CHANNEL_CALLBACKS structure [Web Services for Windows], _WS_CUSTOM_CHANNEL_CALLBACKS, webservices/WS_CUSTOM_CHANNEL_CALLBACKS, wsw.ws_custom_channel_callbacks
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_CUSTOM_CHANNEL_CALLBACKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_CUSTOM_CHANNEL_CALLBACKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_CUSTOM_CHANNEL_CALLBACKS
+req.redist: 
 ---
 
 # _WS_CUSTOM_CHANNEL_CALLBACKS structure

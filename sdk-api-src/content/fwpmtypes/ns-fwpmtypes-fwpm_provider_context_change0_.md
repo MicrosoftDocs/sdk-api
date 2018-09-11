@@ -4,7 +4,7 @@ title: FWPM_PROVIDER_CONTEXT_CHANGE0_
 author: windows-sdk-content
 description: Change notification dispatched to subscribers.
 old-location: fwp\fwpm_provider_context_change0_struct.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 78786d91-1e2f-4846-9636-8d5d6acf5a7d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Fwpmtypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_PROVIDER_CONTEXT_CHANGE0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_PROVIDER_CONTEXT_CHANGE0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_PROVIDER_CONTEXT_CHANGE0
+req.redist: 
 ---
 
 # FWPM_PROVIDER_CONTEXT_CHANGE0_ structure

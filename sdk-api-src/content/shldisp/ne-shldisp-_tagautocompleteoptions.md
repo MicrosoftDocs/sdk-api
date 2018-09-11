@@ -4,17 +4,16 @@ title: "_tagAUTOCOMPLETEOPTIONS"
 author: windows-sdk-content
 description: Specifies values used by IAutoComplete2::GetOptions and IAutoComplete2::SetOptions for options surrounding autocomplete.
 old-location: shell\AUTOCOMPLETEOPTIONS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e0a583da-c2bd-4757-868d-a63e697142e2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ACO_AUTOAPPEND, ACO_AUTOSUGGEST, ACO_FILTERPREFIXES, ACO_NONE, ACO_NOPREFIXFILTERING, ACO_RTLREADING, ACO_SEARCH, ACO_UPDOWNKEYDROPSLIST, ACO_USETAB, ACO_WORD_FILTER, AUTOCOMPLETEOPTIONS, AUTOCOMPLETEOPTIONS enumeration [Windows Shell], _shell_AUTOCOMPLETEOPTIONS, _tagAUTOCOMPLETEOPTIONS, shell.AUTOCOMPLETEOPTIONS, shldisp/ACO_AUTOAPPEND, shldisp/ACO_AUTOSUGGEST, shldisp/ACO_FILTERPREFIXES, shldisp/ACO_NONE, shldisp/ACO_NOPREFIXFILTERING, shldisp/ACO_RTLREADING, shldisp/ACO_SEARCH, shldisp/ACO_UPDOWNKEYDROPSLIST, shldisp/ACO_USETAB, shldisp/ACO_WORD_FILTER, shldisp/AUTOCOMPLETEOPTIONS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUTOCOMPLETEOPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: AUTOCOMPLETEOPTIONS
+req.redist: 
 ---
 
 # _tagAUTOCOMPLETEOPTIONS enumeration

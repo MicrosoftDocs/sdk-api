@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0001"
 author: windows-sdk-content
 description: Defines the level of control that an attendee has on a session.
 old-location: rdp\ctrl_level.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: f97b0493-82bf-487e-adc1-2dc40eeeb36c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CTRL_LEVEL, CTRL_LEVEL enumeration [RDP], CTRL_LEVEL_INTERACTIVE, CTRL_LEVEL_INVALID, CTRL_LEVEL_MAX, CTRL_LEVEL_MIN, CTRL_LEVEL_NONE, CTRL_LEVEL_REQCTRL_INTERACTIVE, CTRL_LEVEL_REQCTRL_VIEW, CTRL_LEVEL_VIEW, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0001, rdp.ctrl_level, rdpencomapi/CTRL_LEVEL, rdpencomapi/CTRL_LEVEL_INTERACTIVE, rdpencomapi/CTRL_LEVEL_INVALID, rdpencomapi/CTRL_LEVEL_MAX, rdpencomapi/CTRL_LEVEL_MIN, rdpencomapi/CTRL_LEVEL_NONE, rdpencomapi/CTRL_LEVEL_REQCTRL_INTERACTIVE, rdpencomapi/CTRL_LEVEL_REQCTRL_VIEW, rdpencomapi/CTRL_LEVEL_VIEW
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -26,9 +25,10 @@ req.idl: Rdpencomapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: CTRL_LEVEL
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CTRL_LEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: CTRL_LEVEL
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_rdpencomapi_0000_0000_0001 enumeration

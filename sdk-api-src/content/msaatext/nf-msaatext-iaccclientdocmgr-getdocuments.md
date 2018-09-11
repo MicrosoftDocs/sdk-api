@@ -4,17 +4,16 @@ title: IAccClientDocMgr::GetDocuments
 author: windows-sdk-content
 description: Clients call IAccClientDocMgr::GetDocuments to get a list of all documents that have been registered with the Microsoft Active Accessibility run time.
 old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__getdocuments.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 490a202b-1fb4-4f2e-a8f2-f9134a8a9daf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDocuments, GetDocuments method [Windows Accessibility], GetDocuments method [Windows Accessibility],IAccClientDocMgr interface, IAccClientDocMgr interface [Windows Accessibility],GetDocuments method, IAccClientDocMgr.GetDocuments, IAccClientDocMgr::GetDocuments, _msaa_IAccClientDocMgr_GetDocuments, msaa.iaccclientdocmgr_iaccclientdocmgr__getdocuments, msaatext/IAccClientDocMgr::GetDocuments, winauto.iaccclientdocmgr_iaccclientdocmgr__getdocuments
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msaatext.h
 req.include-header: 
-req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: 
+req.dll: Msaatext.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccClientDocMgr.GetDocuments
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msaatext.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 ---
 
 # IAccClientDocMgr::GetDocuments

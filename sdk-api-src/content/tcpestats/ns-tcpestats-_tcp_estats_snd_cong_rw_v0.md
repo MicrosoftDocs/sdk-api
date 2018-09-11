@@ -4,7 +4,7 @@ title: "_TCP_ESTATS_SND_CONG_RW_v0"
 author: windows-sdk-content
 description: Contains read/write configuration information for extended TCP statistics on sender congestion for a TCP connection.
 old-location: iphlp\tcp_estats_snd_cong_rw_v0.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 7fc7fb6a-4486-450f-b60e-8cf07b33c79a
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpestats.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCP_ESTATS_SND_CONG_RW_v0, *PTCP_ESTATS_SND_CONG_RW_v0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TCP_ESTATS_SND_CONG_RW_v0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TCP_ESTATS_SND_CONG_RW_v0, *PTCP_ESTATS_SND_CONG_RW_v0
+req.redist: 
 ---
 
 # _TCP_ESTATS_SND_CONG_RW_v0 structure

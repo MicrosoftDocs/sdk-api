@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxOutboundRouting.GetRules
 title: IFaxOutboundRouting::GetRules
 author: windows-sdk-content
-description: The GetRules method retrieves the collection of outbound routing groups.
-old-location: fax\_mfax_faxoutboundrouting_getrules.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_2v1v.htm
+description: The IFaxOutboundRouting::GetRules method retrieves an interface that represents a collection of outbound routing groups.
+old-location: fax\_mfax_faxoutboundrouting_getrules_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_2v1v_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxOutboundRouting object [Fax Service],GetRules method, FaxOutboundRouting.GetRules, GetRules, GetRules method [Fax Service], GetRules method [Fax Service],FaxOutboundRouting object, IFaxOutboundRouting.GetRules, IFaxOutboundRouting::GetRules, _mfax_faxoutboundrouting.getrules, fax._mfax_faxoutboundrouting_getrules
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: GetRules, GetRules method [Fax Service], GetRules method [Fax Service],IFaxOutboundRouting interface, IFaxOutboundRouting interface [Fax Service],GetRules method, IFaxOutboundRouting.GetRules, IFaxOutboundRouting::GetRules, _mfax_faxoutboundrouting.getrules_cpp, fax._mfax_faxoutboundrouting_getrules_cpp, faxcomex/IFaxOutboundRouting::GetRules
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutboundRouting.GetRules
  - IFaxOutboundRouting.GetRules
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutboundRouting::GetRules
@@ -53,7 +50,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>GetRules</b> method retrieves the collection of outbound routing groups.
+The <b>IFaxOutboundRouting::GetRules</b> method retrieves an interface that represents a collection of outbound routing groups.
 
 
 ## -parameters
@@ -61,20 +58,20 @@ The <b>GetRules</b> method retrieves the collection of outbound routing groups.
 
 
 
-### -param pFaxOutboundRoutingRules
+### -param pFaxOutboundRoutingRules [out, retval]
 
+Type: <b><a href="https://msdn.microsoft.com/bd059904-b5b6-4485-a64e-0beaa4de7379">IFaxOutboundRoutingRules</a>**</b>
 
-
-
+An address of a pointer that receives an <a href="https://msdn.microsoft.com/bd059904-b5b6-4485-a64e-0beaa4de7379">IFaxOutboundRoutingRules</a> interface.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a>**</b>
+Type: <b>HRESULT</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> object.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
@@ -90,10 +87,6 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690136(v=VS.85).aspx">FaxOutboundRouting</a>
 
 
 

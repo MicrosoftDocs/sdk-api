@@ -4,17 +4,16 @@ title: IsWow64Message function
 author: windows-sdk-content
 description: Determines whether the last message read from the current thread's queue originated from a WOW64 process.
 old-location: base\iswow64message.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: bc0ac424-3c5b-41bf-9dae-bcb405d5b548
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: IsWow64Message, IsWow64Message function, base.iswow64message, winuser/IsWow64Message
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IsWow64Message
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IsWow64Message function

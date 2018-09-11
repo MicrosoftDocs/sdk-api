@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0013"
 author: windows-sdk-content
 description: Contains the file index information that the ISimilarityTraitsTable::FindSimilarFileIndex method returned for a matching file.
 old-location: rdc\findsimilarfileindexresults.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 2e0d39ab-d491-496e-8753-e7223a5c5029
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: FindSimilarFileIndexResults, FindSimilarFileIndexResults structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0013, fs.findsimilarfileindexresults, msrdc/FindSimilarFileIndexResults, rdc.findsimilarfileindexresults
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FindSimilarFileIndexResults
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FindSimilarFileIndexResults
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: FindSimilarFileIndexResults
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msrdc_0000_0000_0013 structure

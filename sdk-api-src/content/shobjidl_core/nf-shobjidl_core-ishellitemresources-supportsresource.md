@@ -4,17 +4,16 @@ title: IShellItemResources::SupportsResource
 author: windows-sdk-content
 description: Retrieves whether an item supports a specified resource.
 old-location: shell\IShellItemResources_SupportsResource.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d4ef7190-0056-423b-b958-bf746a66462d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellItemResources interface [Windows Shell],SupportsResource method, IShellItemResources.SupportsResource, IShellItemResources::SupportsResource, SupportsResource, SupportsResource method [Windows Shell], SupportsResource method [Windows Shell],IShellItemResources interface, _shell_IShellItemResources_SupportsResource, shell.IShellItemResources_SupportsResource, shobjidl_core/IShellItemResources::SupportsResource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItemResources.SupportsResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItemResources::SupportsResource

@@ -4,7 +4,7 @@ title: "_DISK_GEOMETRY"
 author: windows-sdk-content
 description: Describes the geometry of disk devices and media.
 old-location: fs\disk_geometry_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 5e5955b4-1319-42c9-9df8-9910c05dec69
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISK_GEOMETRY, *PDISK_GEOMETRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISK_GEOMETRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISK_GEOMETRY, *PDISK_GEOMETRY
+req.redist: 
 ---
 
 # _DISK_GEOMETRY structure

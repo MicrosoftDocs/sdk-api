@@ -4,7 +4,7 @@ title: "_DD_COLORCONTROLDATA"
 author: windows-sdk-content
 description: The DD_COLORCONTROLDATA structure contains the color control information for the specified overlay.
 old-location: display\dd_colorcontroldata.htm
-old-project: display
+tech.root: display
 ms.assetid: 7c983faa-de9d-4a04-ac8d-d37fb182a662
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_COLORCONTROLDATA, DD_COLORCONTROLDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_COLORCONTROLDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_COLORCONTROLDATA, DD_COLORCONTROLDATA"
+req.redist: 
 ---
 
 # _DD_COLORCONTROLDATA structure

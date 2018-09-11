@@ -4,17 +4,16 @@ title: IUpdateDownloader::get_ClientApplicationID
 author: windows-sdk-content
 description: Gets and sets the current client application.
 old-location: wua\iupdatedownloader_clientapplicationid.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 97feda21-b592-49af-8c3a-90abd086c190
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],ClientApplicationID property, IUpdateDownloader.ClientApplicationID, IUpdateDownloader.get_ClientApplicationID, IUpdateDownloader::ClientApplicationID, IUpdateDownloader::get_ClientApplicationID, IUpdateDownloader::put_ClientApplicationID, get_ClientApplicationID, wua.iupdatedownloader_clientapplicationid, wuapi/IUpdateDownloader::ClientApplicationID, wuapi/IUpdateDownloader::get_ClientApplicationID, wuapi/IUpdateDownloader::put_ClientApplicationID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IUpdateDownloader.put_ClientApplicationID
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateDownloader::get_ClientApplicationID

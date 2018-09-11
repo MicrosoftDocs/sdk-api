@@ -4,17 +4,16 @@ title: IDataCollectorSet::get_DataManager
 author: windows-sdk-content
 description: Retrieves the data manager associated with this data collector set.
 old-location: pla\idatacollectorset_get_datamanager.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 739cf386-c5fb-454c-9919-e3997944d68c
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: DataManager property [PLA], DataManager property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DataManager property, IDataCollectorSet.DataManager, IDataCollectorSet.get_DataManager, IDataCollectorSet::DataManager, IDataCollectorSet::get_DataManager, base.idatacollectorset_get_datamanager, get_DataManager, pla.idatacollectorset_get_datamanager, pla/IDataCollectorSet::DataManager, pla/IDataCollectorSet::get_DataManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDataCollectorSet.get_DataManager
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::get_DataManager

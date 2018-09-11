@@ -4,7 +4,7 @@ title: tagDVD_TITLE_APPMODE
 author: windows-sdk-content
 description: Indicates whether a DVD title is a karaoke title. This enumeration is a member of the DVD_TitleAttributes structure, which is filled when an application calls the IDvdInfo2::GetTitleAttributes method.
 old-location: dshow\dvd_title_appmode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f0a12b00-89a5-4b70-9a78-519ae36d1bac
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_TITLE_APPMODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_TITLE_APPMODE
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DVD_TITLE_APPMODE
+req.redist: 
 ---
 
 # tagDVD_TITLE_APPMODE enumeration

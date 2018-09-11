@@ -4,17 +4,16 @@ title: IStorageProviderPropertyHandler::RetrieveProperties
 author: windows-sdk-content
 description: Gets the properties managed by the sync engine.
 old-location: shell\istorageproviderpropertyhandler_retrieveproperties.htm
-old-project: shell
+tech.root: shell
 ms.assetid: C1E21E6E-A651-4AB3-A4C1-ADDF874DCCC7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IStorageProviderPropertyHandler interface [Windows Shell],RetrieveProperties method, IStorageProviderPropertyHandler.RetrieveProperties, IStorageProviderPropertyHandler::RetrieveProperties, RetrieveProperties, RetrieveProperties method [Windows Shell], RetrieveProperties method [Windows Shell],IStorageProviderPropertyHandler interface, shell.istorageproviderpropertyhandler_retrieveproperties, storageprovider/IStorageProviderPropertyHandler::RetrieveProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: storageprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR50_SERVICE_CHARACTERISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStorageProviderPropertyHandler.RetrieveProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IStorageProviderPropertyHandler::RetrieveProperties
@@ -72,7 +70,7 @@ The number of properties to retrieve.
 
 ### -param retrievedProperties
 
-
+TBD
 
 
 

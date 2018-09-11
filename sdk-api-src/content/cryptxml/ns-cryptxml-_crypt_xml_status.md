@@ -4,17 +4,16 @@ title: "_CRYPT_XML_STATUS"
 author: windows-sdk-content
 description: Returns information about the signature validation status, summary status information about a SignedInfo element, or summary status information about an array of Reference elements.
 old-location: security\crypt_xml_status.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 1d49429e-9c81-4bf0-92d8-4effe9795dc9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_XML_STATUS, CRYPT_XML_STATUS, CRYPT_XML_STATUS structure [Security], CRYPT_XML_STATUS_DIGESTING, CRYPT_XML_STATUS_DIGEST_VALID, CRYPT_XML_STATUS_ERROR_DIGEST_INVALID, CRYPT_XML_STATUS_ERROR_KEYINFO_NOT_PARSED, CRYPT_XML_STATUS_ERROR_NOT_RESOLVED, CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_ALGORITHM, CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_TRANSFORM, CRYPT_XML_STATUS_ERROR_SIGNATURE_INVALID, CRYPT_XML_STATUS_INTERNAL_REFERENCE, CRYPT_XML_STATUS_KEY_AVAILABLE, CRYPT_XML_STATUS_OPENED_TO_ENCODE, CRYPT_XML_STATUS_SIGNATURE_VALID, PCRYPT_XML_STATUS, PCRYPT_XML_STATUS structure pointer [Security], _CRYPT_XML_STATUS, cryptxml/CRYPT_XML_STATUS, cryptxml/PCRYPT_XML_STATUS, security.crypt_xml_status"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_STATUS, *PCRYPT_XML_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_STATUS, *PCRYPT_XML_STATUS
+req.redist: 
 ---
 
 # _CRYPT_XML_STATUS structure

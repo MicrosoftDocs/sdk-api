@@ -4,7 +4,7 @@ title: ExportListOptions
 author: windows-sdk-content
 description: The ExportListOptions enumeration is used by the View.ExportList method and specifies options when writing list view contents to a file.
 old-location: mmc\exportlistoptions.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: cfdb5648-8573-4c5a-85c2-7a5d3d63a5f3
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmcobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: MmcObj.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_ExportListOptions, EXPORTLISTOPTIONS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _ExportListOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: "_ExportListOptions, EXPORTLISTOPTIONS"
+req.redist: 
 ---
 
 # ExportListOptions enumeration

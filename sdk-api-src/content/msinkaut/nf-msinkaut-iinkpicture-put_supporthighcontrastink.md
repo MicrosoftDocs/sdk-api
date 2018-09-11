@@ -4,17 +4,16 @@ title: IInkPicture::put_SupportHighContrastInk
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether ink is rendered as just one color when the system is in High Contrast mode.
 old-location: tablet\inkpicture_supporthighcontrastink.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 9f57e1fe-8224-43ef-bd26-2d15da625725
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkPicture interface [Tablet PC],SupportHighContrastInk property, IInkPicture.SupportHighContrastInk, IInkPicture.put_SupportHighContrastInk, IInkPicture::SupportHighContrastInk, IInkPicture::get_SupportHighContrastInk, IInkPicture::put_SupportHighContrastInk, InkPicture.get_SupportHighContrastInk, InkPicture.put_SupportHighContrastInk, SupportHighContrastInk property [Tablet PC], SupportHighContrastInk property [Tablet PC],IInkPicture interface, get_SupportHighContrastInk, msinkaut/IInkPicture::SupportHighContrastInk, msinkaut/IInkPicture::get_SupportHighContrastInk, msinkaut/IInkPicture::put_SupportHighContrastInk, put_SupportHighContrastInk, putt_SupportHighContrastInk, tablet.inkpicture_supporthighcontrastink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkPicture.put_SupportHighContrastInk
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::put_SupportHighContrastInk

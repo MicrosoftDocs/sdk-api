@@ -4,7 +4,7 @@ title: "_STORAGE_PHYSICAL_NODE_DATA"
 author: windows-sdk-content
 description: Specifies the physical device data of a storage node.
 old-location: fs\storage_physical_node_data.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 66B5C1F8-A741-4CAD-B717-CB91B0D5655F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_PHYSICAL_NODE_DATA, *PSTORAGE_PHYSICAL_NODE_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_PHYSICAL_NODE_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_PHYSICAL_NODE_DATA, *PSTORAGE_PHYSICAL_NODE_DATA
+req.redist: 
 ---
 
 # _STORAGE_PHYSICAL_NODE_DATA structure

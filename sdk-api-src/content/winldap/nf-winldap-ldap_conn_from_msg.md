@@ -4,17 +4,16 @@ title: ldap_conn_from_msg function
 author: windows-sdk-content
 description: Returns the LDAP session handle (connection pointer) for a particular message.
 old-location: ldap\ldap_conn_from_msg.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 0f536c42-06c1-43d9-a298-4a9e9bf96a46
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_conn_from_msg, ldap.ldap__conn__from__msg, ldap.ldap_conn_from_msg, ldap_conn_from_msg, ldap_conn_from_msg function [LDAP], winldap/ldap_conn_from_msg"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ldap_conn_from_msg
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_conn_from_msg function

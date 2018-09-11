@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mmstream_0000_0000_0002"
 author: windows-sdk-content
 description: Note  This API is deprecated. New applications should not use it. Describes the state of the stream.
 old-location: dshow\stream_state.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0be95819-0a42-4459-a891-194aacd26e2e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STREAM_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: STREAM_STATE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mmstream_0000_0000_0002 enumeration

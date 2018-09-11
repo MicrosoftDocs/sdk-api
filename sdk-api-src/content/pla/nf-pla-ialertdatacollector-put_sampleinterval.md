@@ -4,17 +4,16 @@ title: IAlertDataCollector::put_SampleInterval
 author: windows-sdk-content
 description: Retrieves or sets the time interval to wait between sampling counter data.
 old-location: pla\ialertdatacollector_sampleinterval.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 657a5449-acb6-45cb-a862-815fa8cabdc2
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IAlertDataCollector interface [PLA],SampleInterval property, IAlertDataCollector.SampleInterval, IAlertDataCollector.put_SampleInterval, IAlertDataCollector::SampleInterval, IAlertDataCollector::get_SampleInterval, IAlertDataCollector::put_SampleInterval, SampleInterval property [PLA], SampleInterval property [PLA],IAlertDataCollector interface, base.ialertdatacollector_sampleinterval, pla.ialertdatacollector_sampleinterval, pla/IAlertDataCollector::SampleInterval, pla/IAlertDataCollector::get_SampleInterval, pla/IAlertDataCollector::put_SampleInterval, put_SampleInterval
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IAlertDataCollector.put_SampleInterval
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAlertDataCollector::put_SampleInterval

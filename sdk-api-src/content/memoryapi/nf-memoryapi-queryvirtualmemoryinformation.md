@@ -4,17 +4,16 @@ title: QueryVirtualMemoryInformation function
 author: windows-sdk-content
 description: The QueryVirtualMemoryInformation function returns information about a page or a set of pages within the virtual address space of the specified process.
 old-location: base\queryvirtualmemoryinformation.htm
-old-project: memory
+tech.root: memory
 ms.assetid: D887FB6E-2594-4822-BA5E-803F9B12DCBC
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: QueryVirtualMemoryInformation, QueryVirtualMemoryInformation function, base.queryvirtualmemoryinformation, memoryapi/QueryVirtualMemoryInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MP_PARAMINFO
+req.lib: Onecore.lib
+req.dll: Api-ms-win-core-memory-l1-1-4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QueryVirtualMemoryInformation
 product: Windows
 targetos: Windows
-req.lib: Onecore.lib
-req.dll: Api-ms-win-core-memory-l1-1-4.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # QueryVirtualMemoryInformation function

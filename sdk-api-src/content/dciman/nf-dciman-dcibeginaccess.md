@@ -4,17 +4,16 @@ title: DCIBeginAccess function
 author: windows-sdk-content
 description: Obtains an access pointer to display frame buffer based on the given rectangle.
 old-location: winprog\_dciman_dcibeginaccess.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcibeginaccess.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DCIBeginAccess, DCIBeginAccess function [Windows API], _dciman_dcibeginaccess, dciman/DCIBeginAccess, winprog._dciman_dcibeginaccess, winui._dciman_dcibeginaccess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dciman.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEV_BROADCAST_VOLUME
+req.lib: Dciman32.lib
+req.dll: Dciman32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DCIBeginAccess
 product: Windows
 targetos: Windows
-req.lib: Dciman32.lib
-req.dll: Dciman32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DCIBeginAccess function

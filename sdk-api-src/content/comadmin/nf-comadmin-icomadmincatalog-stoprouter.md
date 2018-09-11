@@ -4,17 +4,16 @@ title: ICOMAdminCatalog::StopRouter
 author: windows-sdk-content
 description: Stops the component load balancing service if the service is currently installed.
 old-location: cos\icomadmincatalog_stoprouter.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 23b0e4af-bdab-4f58-b3ab-82aab5516b48
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],StopRouter method, ICOMAdminCatalog.StopRouter, ICOMAdminCatalog::StopRouter, StopRouter, StopRouter method [COM+], StopRouter method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_StopRouter, comadmin/ICOMAdminCatalog::StopRouter, cos.icomadmincatalog_stoprouter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog.StopRouter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog::StopRouter

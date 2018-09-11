@@ -4,7 +4,7 @@ title: "_MIB_IPFORWARDNUMBER"
 author: windows-sdk-content
 description: Stores the number of routes in a particular IP routing table.
 old-location: mib\mib_ipforwardnumber.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 71508d8e-3265-4c08-913c-248af2d8bbd6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPFORWARDNUMBER, *PMIB_IPFORWARDNUMBER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_IPFORWARDNUMBER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_IPFORWARDNUMBER, *PMIB_IPFORWARDNUMBER
+req.redist: 
 ---
 
 # _MIB_IPFORWARDNUMBER structure

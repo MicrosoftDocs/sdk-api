@@ -4,17 +4,16 @@ title: "_COAUTHINFO"
 author: windows-sdk-content
 description: Contains the authentication settings used while making a remote activation request from the client computer to the server computer.
 old-location: com\coauthinfo.htm
-old-project: com
+tech.root: com
 ms.assetid: 8cbe27b6-c676-49f2-8341-9e180c335636
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: COAUTHINFO, COAUTHINFO structure [COM], _COAUTHINFO, _com_COAUTHINFO, com.coauthinfo, wtypesbase/COAUTHINFO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtypesbase.h
 req.include-header: WTypes.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COAUTHINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COAUTHINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: COAUTHINFO
+req.redist: 
 ---
 
 # _COAUTHINFO structure

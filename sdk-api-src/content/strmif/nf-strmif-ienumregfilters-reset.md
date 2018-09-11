@@ -4,17 +4,16 @@ title: IEnumRegFilters::Reset
 author: windows-sdk-content
 description: Note  The IEnumRegFilters interface is deprecated. Resets the enumerator so that the next call to the IEnumRegFilters::Next method begins again at the first filter, if any.
 old-location: dshow\ienumregfilters_reset.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 095d0102-c845-48ba-a1f5-e0262a924b50
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IEnumRegFilters interface [DirectShow],Reset method, IEnumRegFilters.Reset, IEnumRegFilters::Reset, IEnumRegFiltersReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumRegFilters interface, dshow.ienumregfilters_reset, strmif/IEnumRegFilters::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumRegFilters.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumRegFilters::Reset

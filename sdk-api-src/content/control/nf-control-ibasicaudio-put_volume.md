@@ -4,17 +4,16 @@ title: IBasicAudio::put_Volume
 author: windows-sdk-content
 description: The put_Volume method sets the volume (amplitude) of the audio signal.
 old-location: dshow\ibasicaudio_put_volume.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 95171b87-e558-450b-8a48-f43a19069218
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBasicAudio interface [DirectShow],put_Volume method, IBasicAudio.put_Volume, IBasicAudio::put_Volume, IBasicAudioput_Volume, control/IBasicAudio::put_Volume, dshow.ibasicaudio_put_volume, put_Volume, put_Volume method [DirectShow], put_Volume method [DirectShow],IBasicAudio interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBasicAudio.put_Volume
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBasicAudio::put_Volume

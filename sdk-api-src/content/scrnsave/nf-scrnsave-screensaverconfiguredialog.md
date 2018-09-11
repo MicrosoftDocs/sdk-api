@@ -4,17 +4,16 @@ title: ScreenSaverConfigureDialog function
 author: windows-sdk-content
 description: Receives messages sent to a screen saver's configuration dialog box. A screen saver that allows user configuration must define this function.
 old-location: shell\ScreenSaverConfigureDialog.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 84c2966f-8f01-4f8d-9cec-c7fef657bff0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ScreenSaverConfigureDialog, ScreenSaverConfigureDialog function [Windows Shell], _win32_ScreenSaverConfigureDialog, scrnsave/ScreenSaverConfigureDialog, shell.ScreenSaverConfigureDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: scrnsave.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
+req.lib: Scrnsave.lib
+req.dll: None
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ScreenSaverConfigureDialog
 product: Windows
 targetos: Windows
-req.lib: Scrnsave.lib
-req.dll: None
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ScreenSaverConfigureDialog function

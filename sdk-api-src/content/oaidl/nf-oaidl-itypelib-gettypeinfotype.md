@@ -4,17 +4,16 @@ title: ITypeLib::GetTypeInfoType
 author: windows-sdk-content
 description: Retrieves the type of a type description.
 old-location: automat\itypelib_gettypeinfotype.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 2e0924ee-41f1-4f0a-a491-40b92bd0711e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTypeInfoType, GetTypeInfoType method [Automation], GetTypeInfoType method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfoType method, ITypeLib.GetTypeInfoType, ITypeLib::GetTypeInfoType, _oa96_ITypeLib_GetTypeInfoType, automat.itypelib_gettypeinfotype, oaidl/ITypeLib::GetTypeInfoType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeLib.GetTypeInfoType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeLib::GetTypeInfoType

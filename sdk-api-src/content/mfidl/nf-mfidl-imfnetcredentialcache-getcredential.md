@@ -4,17 +4,16 @@ title: IMFNetCredentialCache::GetCredential
 author: windows-sdk-content
 description: Retrieves the credential object for the specified URL.
 old-location: mf\imfnetcredentialcache_getcredential.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7e095445-354a-4fbb-b354-bf87eb77552f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 7e095445-354a-4fbb-b354-bf87eb77552f, GetCredential, GetCredential method [Media Foundation], GetCredential method [Media Foundation],IMFNetCredentialCache interface, IMFNetCredentialCache interface [Media Foundation],GetCredential method, IMFNetCredentialCache.GetCredential, IMFNetCredentialCache::GetCredential, mf.imfnetcredentialcache_getcredential, mfidl/IMFNetCredentialCache::GetCredential
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFNetCredentialCache.GetCredential
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFNetCredentialCache::GetCredential
@@ -86,7 +84,7 @@ Receives a pointer to the <a href="https://msdn.microsoft.com/d202e7bc-9ce0-4861
 
 ### -param pdwRequirementsFlags
 
-
+TBD
 
 
 

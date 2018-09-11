@@ -4,17 +4,16 @@ title: ITfLangBarEventSink::GetItemFloatingRect
 author: windows-sdk-content
 description: ITfLangBarEventSink::GetItemFloatingRect method
 old-location: tsf\itflangbareventsink_getitemfloatingrect.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 05747d41-1342-4189-b654-ceb8fadcadd5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetItemFloatingRect, GetItemFloatingRect method [Text Services Framework], GetItemFloatingRect method [Text Services Framework],ITfLangBarEventSink interface, ITfLangBarEventSink interface [Text Services Framework],GetItemFloatingRect method, ITfLangBarEventSink.GetItemFloatingRect, ITfLangBarEventSink::GetItemFloatingRect, _tsf_itflangbareventsink_getitemfloatingrect_ref, ctfutb/ITfLangBarEventSink::GetItemFloatingRect, tsf.itflangbareventsink_getitemfloatingrect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msutb.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarEventSink.GetItemFloatingRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msutb.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarEventSink::GetItemFloatingRect

@@ -4,17 +4,16 @@ title: IScheduleCollection::Add
 author: windows-sdk-content
 description: Adds a schedule to the collection.
 old-location: pla\ischedulecollection_add.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 92586c08-2f37-4462-b7cb-af58b6cfcecf
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Add method, IScheduleCollection.Add, IScheduleCollection::Add, base.ischedulecollection_add, pla.ischedulecollection_add, pla/IScheduleCollection::Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScheduleCollection.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IScheduleCollection::Add

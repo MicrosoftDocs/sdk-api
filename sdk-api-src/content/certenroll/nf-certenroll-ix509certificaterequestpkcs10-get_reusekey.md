@@ -4,17 +4,16 @@ title: IX509CertificateRequestPkcs10::get_ReuseKey
 author: windows-sdk-content
 description: Retrieves a Boolean value that indicates whether an existing private key was used to sign the request.
 old-location: security\ix509certificaterequestpkcs10_reusekey_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: b6788885-1036-4edd-bbb9-4d9808771d95
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],ReuseKey property, IX509CertificateRequestPkcs10.ReuseKey, IX509CertificateRequestPkcs10.get_ReuseKey, IX509CertificateRequestPkcs10::ReuseKey, IX509CertificateRequestPkcs10::get_ReuseKey, ReuseKey property [Security], ReuseKey property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::ReuseKey, certenroll/IX509CertificateRequestPkcs10::get_ReuseKey, get_ReuseKey, security.ix509certificaterequestpkcs10_reusekey_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509CertificateRequestPkcs10.get_ReuseKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestPkcs10::get_ReuseKey

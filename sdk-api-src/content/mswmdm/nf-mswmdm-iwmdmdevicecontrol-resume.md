@@ -4,17 +4,16 @@ title: IWMDMDeviceControl::Resume
 author: windows-sdk-content
 description: The Resume method resumes the current play or record operation from the file position saved during the call to Pause.
 old-location: wmdm\iwmdmdevicecontrol_resume.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 24ee343c-09ed-4a5f-b7be-eba15dcc4b36
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Resume method, IWMDMDeviceControl.Resume, IWMDMDeviceControl::Resume, IWMDMDeviceControlResume, Resume, Resume method [windows Media Device Manager], Resume method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Resume, wmdm.iwmdmdevicecontrol_resume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMDeviceControl.Resume
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMDeviceControl::Resume

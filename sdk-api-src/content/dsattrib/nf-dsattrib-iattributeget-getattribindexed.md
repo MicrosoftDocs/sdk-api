@@ -4,17 +4,16 @@ title: IAttributeGet::GetAttribIndexed
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iattributeget_getattribindexed.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 30fdd27f-99df-4ed6-b9ce-514b0e358854
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetAttribIndexed, GetAttribIndexed method [Microsoft TV Technologies], GetAttribIndexed method [Microsoft TV Technologies],IAttributeGet interface, IAttributeGet interface [Microsoft TV Technologies],GetAttribIndexed method, IAttributeGet.GetAttribIndexed, IAttributeGet::GetAttribIndexed, IAttributeGetGetAttribIndexed, dsattrib/IAttributeGet::GetAttribIndexed, mstv.iattributeget_getattribindexed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsattrib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAttributeGet.GetAttribIndexed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAttributeGet::GetAttribIndexed

@@ -4,7 +4,7 @@ title: "_DD_GETMOCOMPFORMATSDATA"
 author: windows-sdk-content
 description: The DD_GETMOCOMPFORMATSDATA structure contains the uncompressed format information.
 old-location: display\dd_getmocompformatsdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 1effebea-1cdb-46e9-a783-5a68863a2756
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_GETMOCOMPFORMATSDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA"
+req.redist: 
 ---
 
 # _DD_GETMOCOMPFORMATSDATA structure

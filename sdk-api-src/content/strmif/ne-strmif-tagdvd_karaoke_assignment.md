@@ -4,7 +4,7 @@ title: tagDVD_KARAOKE_ASSIGNMENT
 author: windows-sdk-content
 description: Defines the speaker configuration for an audio stream.
 old-location: dshow\dvd_karaoke_assignment.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: cdfd05b9-7a4a-49cc-ab50-bbe83ed9e0f0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_KARAOKE_ASSIGNMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_KARAOKE_ASSIGNMENT
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DVD_KARAOKE_ASSIGNMENT
+req.redist: 
 ---
 
 # tagDVD_KARAOKE_ASSIGNMENT enumeration

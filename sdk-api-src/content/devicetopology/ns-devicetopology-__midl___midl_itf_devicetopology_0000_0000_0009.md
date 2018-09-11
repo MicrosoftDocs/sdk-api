@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_devicetopology_0000_0000_0009"
 author: windows-sdk-content
 description: The KSJACK_DESCRIPTION structure describes an audio jack.
 old-location: coreaudio\ksjack_description.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 4ee9fedf-4241-4678-b621-549a06e8949a
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: "*PKSJACK_DESCRIPTION, KSJACK_DESCRIPTION, KSJACK_DESCRIPTION structure [Core Audio], PKSJACK_DESCRIPTION, PKSJACK_DESCRIPTION structure pointer [Core Audio], __MIDL___MIDL_itf_devicetopology_0000_0000_0009, coreaudio.ksjack_description, devicetopology/KSJACK_DESCRIPTION, devicetopology/PKSJACK_DESCRIPTION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSJACK_DESCRIPTION, *PKSJACK_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - KSJACK_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: KSJACK_DESCRIPTION, *PKSJACK_DESCRIPTION
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_devicetopology_0000_0000_0009 structure

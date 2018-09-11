@@ -4,17 +4,16 @@ title: IDirectorySearch::ExecuteSearch
 author: windows-sdk-content
 description: The IDirectorySearch::ExecuteSearch method executes a search and passes the results to the caller.
 old-location: adsi\idirectorysearch_executesearch.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 7514b372-1a7a-4a42-a814-af70a727c477
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ExecuteSearch, ExecuteSearch method [ADSI], ExecuteSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],ExecuteSearch method, IDirectorySearch.ExecuteSearch, IDirectorySearch::ExecuteSearch, _ds_idirectorysearch_executesearch, adsi.idirectorysearch__executesearch, adsi.idirectorysearch_executesearch, iads/IDirectorySearch::ExecuteSearch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDirectorySearch.ExecuteSearch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectorySearch::ExecuteSearch
@@ -79,7 +77,7 @@ The size of the <i>pAttributeNames</i> array. The special value 0xFFFFFFFF indic
 
 ### -param phSearchResult
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IMoniker::CommonPrefixWith
 author: windows-sdk-content
 description: Creates a new moniker based on the prefix that this moniker has in common with the specified moniker.
 old-location: com\imoniker_commonprefixwith.htm
-old-project: com
+tech.root: com
 ms.assetid: ef2a3191-7b7c-4e51-ab55-cf601f444561
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CommonPrefixWith, CommonPrefixWith method [COM], CommonPrefixWith method [COM],IMoniker interface, IMoniker interface [COM],CommonPrefixWith method, IMoniker.CommonPrefixWith, IMoniker::CommonPrefixWith, _com_imoniker_commonprefixwith, com.imoniker_commonprefixwith, objidl/IMoniker::CommonPrefixWith
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.CommonPrefixWith
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::CommonPrefixWith

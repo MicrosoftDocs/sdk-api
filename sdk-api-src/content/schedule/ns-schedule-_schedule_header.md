@@ -4,7 +4,7 @@ title: "_SCHEDULE_HEADER"
 author: windows-sdk-content
 description: Used to contain the replication schedule data for a replication source.
 old-location: ad\schedule_header.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 5453927e-306e-4442-a855-916005dc8e3b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: schedule.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCHEDULE_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
+req.redist: 
 ---
 
 # _SCHEDULE_HEADER structure

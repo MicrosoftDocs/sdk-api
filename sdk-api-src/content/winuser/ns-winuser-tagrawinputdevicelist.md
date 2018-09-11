@@ -4,17 +4,16 @@ title: tagRAWINPUTDEVICELIST
 author: windows-sdk-content
 description: Contains information about a raw input device.
 old-location: inputdev\rawinputdevicelist.htm
-old-project: inputdev
+tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawinputdevicelist.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*PRAWINPUTDEVICELIST, PRAWINPUTDEVICELIST, PRAWINPUTDEVICELIST structure pointer [Keyboard and Mouse Input], RAWINPUTDEVICELIST, RAWINPUTDEVICELIST structure [Keyboard and Mouse Input], RIM_TYPEHID, RIM_TYPEKEYBOARD, RIM_TYPEMOUSE, _win32_RAWINPUTDEVICELIST_str, _win32_rawinputdevicelist_str_cpp, inputdev.rawinputdevicelist, tagRAWINPUTDEVICELIST, winui._win32_rawinputdevicelist_str, winuser/PRAWINPUTDEVICELIST, winuser/RAWINPUTDEVICELIST"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAWINPUTDEVICELIST, *PRAWINPUTDEVICELIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAWINPUTDEVICELIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: RAWINPUTDEVICELIST, *PRAWINPUTDEVICELIST
+req.redist: 
 ---
 
 # tagRAWINPUTDEVICELIST structure

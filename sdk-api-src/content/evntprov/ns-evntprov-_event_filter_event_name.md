@@ -4,7 +4,7 @@ title: "_EVENT_FILTER_EVENT_NAME"
 author: windows-sdk-content
 description: Defines event IDs used in an EVENT_FILTER_DESCRIPTOR structure for an event name or stalk walk name filter.
 old-location: etw\event_filter_event_name.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 85E8C8F8-31D4-42F1-9267-15F74E473D57
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_FILTER_EVENT_NAME, *PEVENT_FILTER_EVENT_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_FILTER_EVENT_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EVENT_FILTER_EVENT_NAME, *PEVENT_FILTER_EVENT_NAME
+req.redist: 
 ---
 
 # _EVENT_FILTER_EVENT_NAME structure

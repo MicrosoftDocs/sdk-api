@@ -4,17 +4,16 @@ title: IXMLHTTPRequest2Callback::OnRedirect
 author: windows-sdk-content
 description: Occurs when a client sends an HTTP request that the server redirects to a new URL.
 old-location: ixhr2\ixmlhttprequest2callback_onredirect.htm
-old-project: ixhr2
+tech.root: ixhr2
 ms.assetid: 8492FFD5-99C8-4545-B5FD-465CC01D0038
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnRedirect method, IXMLHTTPRequest2Callback.OnRedirect, IXMLHTTPRequest2Callback::OnRedirect, OnRedirect, OnRedirect method [XMLHttpRequest2], OnRedirect method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onredirect, msxml6/IXMLHTTPRequest2Callback::OnRedirect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps],MSXML 6.0 and later
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XHR_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXMLHTTPRequest2Callback.OnRedirect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXMLHTTPRequest2Callback::OnRedirect

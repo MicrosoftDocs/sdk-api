@@ -4,17 +4,16 @@ title: IAVIEditStream::Cut
 author: windows-sdk-content
 description: The Cut method removes a portion of a stream and places it in a temporary stream. Called when an application uses the EditStreamCut function.
 old-location: multimedia\iavieditstream_cut.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: e889d435-5c33-402d-bd69-c9122670e404
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: Cut, Cut method [Windows Multimedia], Cut method [Windows Multimedia],IAVIEditStream interface, IAVIEditStream interface [Windows Multimedia],Cut method, IAVIEditStream.Cut, IAVIEditStream::Cut, _win32_IAVIEditStream_Cut, multimedia.iavieditstream_cut, vfw/IAVIEditStream::Cut
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAVIEditStream.Cut
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAVIEditStream::Cut

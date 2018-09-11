@@ -4,7 +4,7 @@ title: "_EAP_METHOD_INFO"
 author: windows-sdk-content
 description: Contains information about an EAP method.
 old-location: eaphost\eap_method_info.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 89b5dcbd-afa9-40a8-ab04-2caee01ce0a3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_METHOD_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_METHOD_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_METHOD_INFO
+req.redist: 
 ---
 
 # _EAP_METHOD_INFO structure

@@ -4,17 +4,16 @@ title: INetFwRemoteAdminSettings::put_RemoteAddresses
 author: windows-sdk-content
 description: Specifies a set of remote addresses from which remote administration is allowed.
 old-location: ics\inetfwremoteadminsettings_remoteaddresses.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 9166617b-3e61-4d83-bd2f-92682ea5df82
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwRemoteAdminSettings interface [ICS/ICF],RemoteAddresses property, INetFwRemoteAdminSettings.RemoteAddresses, INetFwRemoteAdminSettings.put_RemoteAddresses, INetFwRemoteAdminSettings::RemoteAddresses, INetFwRemoteAdminSettings::get_RemoteAddresses, INetFwRemoteAdminSettings::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwRemoteAdminSettings interface, ics.inetfwremoteadminsettings_remoteaddresses, netfw/INetFwRemoteAdminSettings::RemoteAddresses, netfw/INetFwRemoteAdminSettings::get_RemoteAddresses, netfw/INetFwRemoteAdminSettings::put_RemoteAddresses, put_RemoteAddresses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwRemoteAdminSettings.put_RemoteAddresses
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRemoteAdminSettings::put_RemoteAddresses

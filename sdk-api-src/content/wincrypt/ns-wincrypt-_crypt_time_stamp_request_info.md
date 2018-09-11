@@ -4,17 +4,16 @@ title: "_CRYPT_TIME_STAMP_REQUEST_INFO"
 author: windows-sdk-content
 description: Used for time stamping.
 old-location: security\crypt_time_stamp_request_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 876527dd-1ec5-4783-a7ad-20a0e2d2367a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_TIME_STAMP_REQUEST_INFO, CRYPT_TIME_STAMP_REQUEST_INFO, CRYPT_TIME_STAMP_REQUEST_INFO structure [Security], PCRYPT_TIME_STAMP_REQUEST_INFO, PCRYPT_TIME_STAMP_REQUEST_INFO structure pointer [Security], _CRYPT_TIME_STAMP_REQUEST_INFO, _crypto2_crypt_time_stamp_request_info, security.crypt_time_stamp_request_info, wincrypt/CRYPT_TIME_STAMP_REQUEST_INFO, wincrypt/PCRYPT_TIME_STAMP_REQUEST_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_TIME_STAMP_REQUEST_INFO, *PCRYPT_TIME_STAMP_REQUEST_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_TIME_STAMP_REQUEST_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_TIME_STAMP_REQUEST_INFO, *PCRYPT_TIME_STAMP_REQUEST_INFO
+req.redist: 
 ---
 
 # _CRYPT_TIME_STAMP_REQUEST_INFO structure

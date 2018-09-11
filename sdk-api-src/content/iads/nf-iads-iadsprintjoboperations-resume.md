@@ -4,17 +4,16 @@ title: IADsPrintJobOperations::Resume
 author: windows-sdk-content
 description: The IADsPrintJobOperations::Resume method continues the print job halted by the IADsPrintJobOperations::Pause method.
 old-location: adsi\iadsprintjoboperations_resume.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: aed5f1be-36b6-413a-a1c0-c61823a31571
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsPrintJobOperations interface [ADSI],Resume method, IADsPrintJobOperations.Resume, IADsPrintJobOperations::Resume, Resume, Resume method [ADSI], Resume method [ADSI],IADsPrintJobOperations interface, _ds_iadsprintjoboperations_resume, adsi.iadsprintjoboperations__resume, adsi.iadsprintjoboperations_resume, iads/IADsPrintJobOperations::Resume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPrintJobOperations.Resume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPrintJobOperations::Resume

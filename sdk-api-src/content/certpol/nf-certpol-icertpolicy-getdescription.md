@@ -4,17 +4,16 @@ title: ICertPolicy::GetDescription
 author: windows-sdk-content
 description: Returns a human-readable description of the policy module and its function.
 old-location: security\icertpolicy2_getdescription.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 38b85fa8-f5e7-4ac8-9f38-1cad83417797
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertPolicy object [Security],GetDescription method, GetDescription, GetDescription method [Security], GetDescription method [Security],CCertPolicy object, GetDescription method [Security],ICertPolicy interface, GetDescription method [Security],ICertPolicy2 interface, ICertPolicy interface [Security],GetDescription method, ICertPolicy.GetDescription, ICertPolicy2 interface [Security],GetDescription method, ICertPolicy2::GetDescription, ICertPolicy::GetDescription, _certsrv_icertpolicy_getdescription, certpol/ICertPolicy2::GetDescription, certpol/ICertPolicy::GetDescription, security.icertpolicy2_getdescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certpol.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509SCEPFailInfo
+req.lib: Certidl.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - CCertPolicy.GetDescription
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPolicy::GetDescription

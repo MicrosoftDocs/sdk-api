@@ -4,17 +4,16 @@ title: X3DAUDIO_CONE
 author: windows-sdk-content
 description: Specifies directionality for a single-channel non-LFE emitter by scaling DSP behavior with respect to the emitter's orientation.
 old-location: xaudio2\x3daudio_cone.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_CONE
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPX3DAUDIO_CONE, LPX3DAUDIO_CONE, LPX3DAUDIO_CONE structure pointer [XAudio2 Audio Mixing APIs], X3DAUDIO_CONE, X3DAUDIO_CONE structure [XAudio2 Audio Mixing APIs], x3daudio/LPX3DAUDIO_CONE, x3daudio/X3DAUDIO_CONE, xaudio2.x3daudio_cone"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: x3daudio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X3DAUDIO_CONE, *LPX3DAUDIO_CONE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - X3DAUDIO_CONE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: X3DAUDIO_CONE, *LPX3DAUDIO_CONE
+req.redist: 
 ---
 
 # X3DAUDIO_CONE structure

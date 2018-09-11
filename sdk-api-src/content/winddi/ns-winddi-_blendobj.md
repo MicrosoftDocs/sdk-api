@@ -4,7 +4,7 @@ title: "_BLENDOBJ"
 author: windows-sdk-content
 description: The BLENDOBJ structure controls blending by specifying the blending functions for source and destination bitmaps.
 old-location: display\blendobj.htm
-old-project: display
+tech.root: display
 ms.assetid: 1bbe5cb6-8722-45bb-ae43-01bc4460f08d
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLENDOBJ, *PBLENDOBJ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BLENDOBJ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: BLENDOBJ, *PBLENDOBJ
+req.redist: 
 ---
 
 # _BLENDOBJ structure

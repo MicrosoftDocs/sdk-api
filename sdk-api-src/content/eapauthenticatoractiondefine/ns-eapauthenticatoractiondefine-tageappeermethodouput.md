@@ -4,7 +4,7 @@ title: tagEapPeerMethodOuput
 author: windows-sdk-content
 description: Contains the action information returned by an EAP peer method.
 old-location: eaphost\eappeermethodoutput.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: fb3d423e-8509-4478-87d5-86bcbd90a8e7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EapPeerMethodOutput
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapPeerMethodOutput
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EapPeerMethodOutput
+req.redist: 
 ---
 
 # tagEapPeerMethodOuput structure

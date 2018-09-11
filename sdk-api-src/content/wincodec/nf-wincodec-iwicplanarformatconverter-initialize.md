@@ -4,17 +4,16 @@ title: IWICPlanarFormatConverter::Initialize
 author: windows-sdk-content
 description: Initializes a format converter with a planar source, and specifies the interleaved output pixel format.
 old-location: wic\iwicplanarformatconverter_initialize.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 0EEF6940-627A-4615-90C0-196AAB36843E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICPlanarFormatConverter interface [Windows Imaging Component],Initialize method, IWICPlanarFormatConverter.Initialize, IWICPlanarFormatConverter::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICPlanarFormatConverter interface, wic.iwicplanarformatconverter_initialize, wincodec/IWICPlanarFormatConverter::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICPlanarFormatConverter.Initialize
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICPlanarFormatConverter::Initialize

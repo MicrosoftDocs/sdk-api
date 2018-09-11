@@ -4,17 +4,16 @@ title: IDirectInputJoyConfig8::SendNotify
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::SendNotify method notifies device drivers and applications that changes to the device configuration have been made.
 old-location: hid\idirectinputjoyconfig8_sendnotify.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 8ca09ce2-82cc-4aee-be96-5123cb0f1f3a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SendNotify method, IDirectInputJoyConfig8.SendNotify, IDirectInputJoyConfig8::SendNotify, SendNotify, SendNotify method [Human Input Devices], SendNotify method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_0dc1b65b-edf9-409c-8611-cf3aee61e28a.xml, dinputd/IDirectInputJoyConfig8::SendNotify, hid.idirectinputjoyconfig8_sendnotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputJoyConfig8.SendNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputJoyConfig8::SendNotify

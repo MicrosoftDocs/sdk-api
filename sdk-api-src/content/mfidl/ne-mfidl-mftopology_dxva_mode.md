@@ -4,7 +4,7 @@ title: MFTOPOLOGY_DXVA_MODE
 author: windows-sdk-content
 description: Specifies whether the topology loader enables Microsoft DirectX Video Acceleration (DXVA) in the topology.
 old-location: mf\mftopology_dxva_mode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c47f505a-1b98-4309-b462-5b911e1f591f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFTOPOLOGY_DXVA_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFTOPOLOGY_DXVA_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFTOPOLOGY_DXVA_MODE
+req.redist: 
 ---
 
 # MFTOPOLOGY_DXVA_MODE enumeration

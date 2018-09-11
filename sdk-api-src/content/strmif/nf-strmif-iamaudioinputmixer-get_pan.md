@@ -4,17 +4,16 @@ title: IAMAudioInputMixer::get_Pan
 author: windows-sdk-content
 description: The get_Pan method retrieves the pan level.
 old-location: dshow\iamaudioinputmixer_get_pan.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: aa1aae16-484e-4f78-901e-2fdb0d8e365c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Pan method, IAMAudioInputMixer.get_Pan, IAMAudioInputMixer::get_Pan, IAMAudioInputMixerget_Pan, dshow.iamaudioinputmixer_get_pan, get_Pan, get_Pan method [DirectShow], get_Pan method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Pan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMAudioInputMixer.get_Pan
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMAudioInputMixer::get_Pan

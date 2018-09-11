@@ -4,17 +4,16 @@ title: IInkOverlay::put_DesiredPacketDescription
 author: windows-sdk-content
 description: Gets or sets the desired packet description of the InkCollector.
 old-location: tablet\inkoverlay_desiredpacketdescription.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 5330adba-6e19-41dd-8f00-ba62be166aad
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: DesiredPacketDescription property [Tablet PC], DesiredPacketDescription property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],DesiredPacketDescription property, IInkOverlay.DesiredPacketDescription, IInkOverlay.put_DesiredPacketDescription, IInkOverlay::DesiredPacketDescription, IInkOverlay::get_DesiredPacketDescription, IInkOverlay::put_DesiredPacketDescription, InkOverlay.get_DesiredPacketDescription, InkOverlay.put_DesiredPacketDescription, get_DesiredPacketDescription, msinkaut/IInkOverlay::DesiredPacketDescription, msinkaut/IInkOverlay::get_DesiredPacketDescription, msinkaut/IInkOverlay::put_DesiredPacketDescription, put_DesiredPacketDescription, tablet.inkoverlay_desiredpacketdescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkOverlay.put_DesiredPacketDescription
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::put_DesiredPacketDescription

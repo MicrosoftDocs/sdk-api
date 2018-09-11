@@ -4,17 +4,16 @@ title: IMDSPObject::Rename
 author: windows-sdk-content
 description: The Rename method renames the associated object which can be a file or a folder.
 old-location: wmdm\imdspobject_rename.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 3da6a4a4-6e3b-4907-a466-5a5bd34f4374
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Rename method, IMDSPObject.Rename, IMDSPObject::Rename, IMDSPObjectRename, Rename, Rename method [windows Media Device Manager], Rename method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Rename, wmdm.imdspobject_rename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPObject.Rename
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPObject::Rename

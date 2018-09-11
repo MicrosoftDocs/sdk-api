@@ -4,7 +4,7 @@ title: tagWPCFLAG_ISBLOCKED
 author: windows-sdk-content
 description: Indicates information about what events are blocked from use and what controls are in place.
 old-location: parcon\wpcflag_isblocked.htm
-old-project: parcon
+tech.root: parcon
 ms.assetid: d8ddea59-04be-4d03-a792-866d8f920e17
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wpcevent.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WPCFLAG_ISBLOCKED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WPCFLAG_ISBLOCKED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WPCFLAG_ISBLOCKED
+req.redist: 
 ---
 
 # tagWPCFLAG_ISBLOCKED enumeration

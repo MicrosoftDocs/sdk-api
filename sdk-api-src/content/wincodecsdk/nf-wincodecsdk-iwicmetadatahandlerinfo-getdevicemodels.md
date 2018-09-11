@@ -4,17 +4,16 @@ title: IWICMetadataHandlerInfo::GetDeviceModels
 author: windows-sdk-content
 description: Retrieves the device models that support the metadata handler.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getdevicemodels.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 8ab47616-8097-441f-9d8e-6f1518246759
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDeviceModels, GetDeviceModels method [Windows Imaging Component], GetDeviceModels method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetDeviceModels method, IWICMetadataHandlerInfo.GetDeviceModels, IWICMetadataHandlerInfo::GetDeviceModels, _wic_codec_iwicmetadatahandlerinfo_getdevicemodels, wic._wic_codec_iwicmetadatahandlerinfo_getdevicemodels, wincodecsdk/IWICMetadataHandlerInfo::GetDeviceModels
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICMetadataHandlerInfo.GetDeviceModels
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICMetadataHandlerInfo::GetDeviceModels

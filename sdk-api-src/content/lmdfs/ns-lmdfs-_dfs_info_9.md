@@ -4,7 +4,7 @@ title: "_DFS_INFO_9"
 author: windows-sdk-content
 description: Contains the name, status, GUID, time-out, property flags, metadata size, DFS target information, link reparse point security descriptor, and a list of DFS targets for a root or link.
 old-location: dfs\dfs_info_9.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: d09ebaa7-4ec7-4d25-8b77-fe568264e6b9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_INFO_9, *PDFS_INFO_9, *LPDFS_INFO_9
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFS_INFO_9
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DFS_INFO_9, *PDFS_INFO_9, *LPDFS_INFO_9
+req.redist: 
 ---
 
 # _DFS_INFO_9 structure

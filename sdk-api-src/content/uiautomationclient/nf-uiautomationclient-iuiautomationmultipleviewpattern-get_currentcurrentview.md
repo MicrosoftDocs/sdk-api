@@ -4,17 +4,16 @@ title: IUIAutomationMultipleViewPattern::get_CurrentCurrentView
 author: windows-sdk-content
 description: Retrieves the control-specific identifier of the current view of the control.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 87cda32c-00ed-40d9-8123-f3cf78eff43f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentCurrentView property [Windows Accessibility], CurrentCurrentView property [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],CurrentCurrentView property, IUIAutomationMultipleViewPattern.CurrentCurrentView, IUIAutomationMultipleViewPattern.get_CurrentCurrentView, IUIAutomationMultipleViewPattern::CurrentCurrentView, IUIAutomationMultipleViewPattern::get_CurrentCurrentView, get_CurrentCurrentView, uiauto.uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView, uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::CurrentCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::get_CurrentCurrentView, winauto.uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationMultipleViewPattern.get_CurrentCurrentView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationMultipleViewPattern::get_CurrentCurrentView

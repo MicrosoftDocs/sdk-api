@@ -4,17 +4,16 @@ title: IATSCLocator2::get_ProgramNumber
 author: windows-sdk-content
 description: The get_ProgramNumber method retrieves the program number.
 old-location: mstv\iatsclocator2_get_programnumber.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 66f92cb0-a89e-4c34-8995-a94eb1bc33dc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IATSCLocator2 interface [Microsoft TV Technologies],get_ProgramNumber method, IATSCLocator2.get_ProgramNumber, IATSCLocator2::get_ProgramNumber, IATSCLocator2get_ProgramNumber, get_ProgramNumber, get_ProgramNumber method [Microsoft TV Technologies], get_ProgramNumber method [Microsoft TV Technologies],IATSCLocator2 interface, mstv.iatsclocator2_get_programnumber, tuner/IATSCLocator2::get_ProgramNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IATSCLocator2.get_ProgramNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IATSCLocator2::get_ProgramNumber

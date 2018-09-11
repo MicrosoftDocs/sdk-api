@@ -4,17 +4,16 @@ title: IMDSPObjectInfo::SetPlayOffset
 author: windows-sdk-content
 description: The SetPlayOffset method sets the play offset of the object, in the units pertinent to the object. This specifies the starting point for the next invocation of IMDSPDeviceControl::Play.
 old-location: wmdm\imdspobjectinfo_setplayoffset.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: f61ce3b5-3cd9-41e6-9a29-42b9832ec55a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPObjectInfo interface [windows Media Device Manager],SetPlayOffset method, IMDSPObjectInfo.SetPlayOffset, IMDSPObjectInfo::SetPlayOffset, IMDSPObjectInfoSetPlayOffset, SetPlayOffset, SetPlayOffset method [windows Media Device Manager], SetPlayOffset method [windows Media Device Manager],IMDSPObjectInfo interface, mswmdm/IMDSPObjectInfo::SetPlayOffset, wmdm.imdspobjectinfo_setplayoffset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPObjectInfo.SetPlayOffset
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPObjectInfo::SetPlayOffset

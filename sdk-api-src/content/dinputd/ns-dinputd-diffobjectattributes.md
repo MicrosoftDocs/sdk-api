@@ -4,7 +4,7 @@ title: DIFFOBJECTATTRIBUTES
 author: windows-sdk-content
 description: The DIFFOBJECTATTRIBUTES structure describes the information contained in the &#0034;FFAttributes&#0034; value of the registry key for each &#0034;object&#0034; on a force-feedback device.
 old-location: hid\diffobjectattributes.htm
-old-project: hid
+tech.root: hid
 ms.assetid: b5006cf1-619d-4521-b902-ab89a3f079a4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIFFOBJECTATTRIBUTES, *LPDIFFOBJECTATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIFFOBJECTATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIFFOBJECTATTRIBUTES, *LPDIFFOBJECTATTRIBUTES
+req.redist: 
 ---
 
 # DIFFOBJECTATTRIBUTES structure

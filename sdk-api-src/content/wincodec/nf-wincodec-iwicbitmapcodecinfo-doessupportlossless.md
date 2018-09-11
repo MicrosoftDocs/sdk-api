@@ -4,17 +4,16 @@ title: IWICBitmapCodecInfo::DoesSupportLossless
 author: windows-sdk-content
 description: Retrieves a value indicating whether the codec supports lossless formats.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportlossless.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 90a1f4cf-2641-4033-a369-ad6bf6fe5f43
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DoesSupportLossless, DoesSupportLossless method [Windows Imaging Component], DoesSupportLossless method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],DoesSupportLossless method, IWICBitmapCodecInfo.DoesSupportLossless, IWICBitmapCodecInfo::DoesSupportLossless, _wic_codec_iwicbitmapcodecinfo_doessupportlossless, wic._wic_codec_iwicbitmapcodecinfo_doessupportlossless, wincodec/IWICBitmapCodecInfo::DoesSupportLossless
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapCodecInfo.DoesSupportLossless
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapCodecInfo::DoesSupportLossless

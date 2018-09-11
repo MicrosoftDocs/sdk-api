@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported
 author: windows-sdk-content
 description: Indicates whether the software required for application instance dumps is installed.
 old-location: cos\icomadmincatalog2_isapplicationinstancedumpsupported.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: d290ec47-a2df-4de3-8719-cceeb893557d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],IsApplicationInstanceDumpSupported property, ICOMAdminCatalog2.IsApplicationInstanceDumpSupported, ICOMAdminCatalog2.get_IsApplicationInstanceDumpSupported, ICOMAdminCatalog2::IsApplicationInstanceDumpSupported, ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported, IsApplicationInstanceDumpSupported property [COM+], IsApplicationInstanceDumpSupported property [COM+],ICOMAdminCatalog2 interface, _cos_IComAdminCatalog2_get_IsApplicationInstanceDumpSupported, comadmin/ICOMAdminCatalog2::IsApplicationInstanceDumpSupported, comadmin/ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported, cos.icomadmincatalog2_isapplicationinstancedumpsupported, get_IsApplicationInstanceDumpSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICOMAdminCatalog2.get_IsApplicationInstanceDumpSupported
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported

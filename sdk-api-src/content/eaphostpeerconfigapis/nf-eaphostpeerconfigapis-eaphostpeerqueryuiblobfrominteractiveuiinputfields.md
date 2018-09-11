@@ -4,17 +4,16 @@ title: EapHostPeerQueryUIBlobFromInteractiveUIInputFields function
 author: windows-sdk-content
 description: Converts user information into a user BLOB that can be consumed by EAPHost run-time functions.
 old-location: eaphost\eaphostpeerqueryuiblobfrominteractiveuiinputfields.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 2c4b1a0b-8c3f-47c5-8829-2f9c9bfda946
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EAPHOST_PEER_API_VERSION, EapHostPeerQueryUIBlobFromInteractiveUIInputFields, EapHostPeerQueryUIBlobFromInteractiveUIInputFields function [EAPHost], eaphost.eaphostpeerqueryuiblobfrominteractiveuiinputfields, eaphostpeerconfigapis/EapHostPeerQueryUIBlobFromInteractiveUIInputFields
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_SEND_TIMEOUT
+req.lib: Eappcfg.lib
+req.dll: Eappcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapHostPeerQueryUIBlobFromInteractiveUIInputFields
 product: Windows
 targetos: Windows
-req.lib: Eappcfg.lib
-req.dll: Eappcfg.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapHostPeerQueryUIBlobFromInteractiveUIInputFields function

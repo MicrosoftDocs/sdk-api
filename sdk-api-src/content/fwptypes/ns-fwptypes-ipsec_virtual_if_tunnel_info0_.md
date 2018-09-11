@@ -4,7 +4,7 @@ title: IPSEC_VIRTUAL_IF_TUNNEL_INFO0_
 author: windows-sdk-content
 description: Is used to store information specific to virtual interface tunneling.
 old-location: fwp\ipsec_virtual_if_tunnel_info0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 91af0790-865f-44f5-b6c8-fd048bf99125
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: Ipsectypes.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_VIRTUAL_IF_TUNNEL_INFO0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_VIRTUAL_IF_TUNNEL_INFO0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: IPSEC_VIRTUAL_IF_TUNNEL_INFO0
+req.redist: 
 ---
 
 # IPSEC_VIRTUAL_IF_TUNNEL_INFO0_ structure

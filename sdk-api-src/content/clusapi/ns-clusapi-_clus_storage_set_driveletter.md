@@ -4,17 +4,16 @@ title: "_CLUS_STORAGE_SET_DRIVELETTER"
 author: windows-sdk-content
 description: Supplies drive letter information for a disk partition associated with a storage class resource.
 old-location: mscs\clus_storage_set_driveletter.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 71f3a009-c4af-4c7a-973d-4bd2eba25b94
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUS_STORAGE_SET_DRIVELETTER, CLUS_STORAGE_SET_DRIVELETTER, CLUS_STORAGE_SET_DRIVELETTER structure [Failover Cluster], PCLUS_STORAGE_SET_DRIVELETTER, PCLUS_STORAGE_SET_DRIVELETTER structure pointer [Failover Cluster], _CLUS_STORAGE_SET_DRIVELETTER, clusapi/CLUS_STORAGE_SET_DRIVELETTER, clusapi/PCLUS_STORAGE_SET_DRIVELETTER, mscs.clus_storage_set_driveletter"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_STORAGE_SET_DRIVELETTER, *PCLUS_STORAGE_SET_DRIVELETTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_STORAGE_SET_DRIVELETTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_STORAGE_SET_DRIVELETTER, *PCLUS_STORAGE_SET_DRIVELETTER
+req.redist: 
 ---
 
 # _CLUS_STORAGE_SET_DRIVELETTER structure

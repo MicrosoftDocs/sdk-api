@@ -4,17 +4,16 @@ title: INTERNET_CONNECTED_INFO
 author: windows-sdk-content
 description: Contains the information to set the global online/offline state.
 old-location: wininet\internet_connected_info.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 585dbacb-33b1-4655-9ae3-5dacf30a70da
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPINTERNET_CONNECTED_INFO, INTERNET_CONNECTED_INFO, INTERNET_CONNECTED_INFO structure [WinINet], INTERNET_STATE_BUSY, INTERNET_STATE_CONNECTED, INTERNET_STATE_DISCONNECTED, INTERNET_STATE_DISCONNECTED_BY_USER, INTERNET_STATE_IDLE, LPINTERNET_CONNECTED_INFO, LPINTERNET_CONNECTED_INFO structure pointer [WinINet], _inet_internet_connected_info_structure, wininet.internet_connected_info, wininet/ LPINTERNET_CONNECTED_INFO, wininet/INTERNET_CONNECTED_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_CONNECTED_INFO, *LPINTERNET_CONNECTED_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERNET_CONNECTED_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: INTERNET_CONNECTED_INFO, *LPINTERNET_CONNECTED_INFO
+req.redist: 
 ---
 
 # INTERNET_CONNECTED_INFO structure

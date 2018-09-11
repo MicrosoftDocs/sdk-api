@@ -4,17 +4,16 @@ title: "_WOW64_CONTEXT"
 author: windows-sdk-content
 description: Represents a context frame on WOW64.
 old-location: base\wow64_context.htm
-old-project: debug
+tech.root: debug
 ms.assetid: b27205a2-2c33-4f45-8948-9919bcd2355a
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PWOW64_CONTEXT, PWOW64_CONTEXT, PWOW64_CONTEXT structure pointer, WOW64_CONTEXT, WOW64_CONTEXT structure, _WOW64_CONTEXT, base.wow64_context, winnt/PWOW64_CONTEXT, winnt/WOW64_CONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOW64_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WOW64_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WOW64_CONTEXT
+req.redist: 
 ---
 
 # _WOW64_CONTEXT structure

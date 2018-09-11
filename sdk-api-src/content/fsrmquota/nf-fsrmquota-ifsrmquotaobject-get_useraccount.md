@@ -4,17 +4,16 @@ title: IFsrmQuotaObject::get_UserAccount
 author: windows-sdk-content
 description: Retrieves the string form of the user account that is associated with the object.
 old-location: fsrm\ifsrmquotaobject_useraccount.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 02545dfb-6c71-4412-9376-81c9304efaa8
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],UserAccount property, IFsrmQuotaObject.UserAccount, IFsrmQuotaObject.get_UserAccount, IFsrmQuotaObject::UserAccount, IFsrmQuotaObject::get_UserAccount, UserAccount property [File Server Resource Manager], UserAccount property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_useraccount, fsrm.ifsrmquotaobject_useraccount, fsrmquota/IFsrmQuotaObject::UserAccount, fsrmquota/IFsrmQuotaObject::get_UserAccount, get_UserAccount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmQuotaObject.get_UserAccount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaObject::get_UserAccount

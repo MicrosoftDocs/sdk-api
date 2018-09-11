@@ -4,17 +4,16 @@ title: ITPrivateEvent::get_EventInterface
 author: windows-sdk-content
 description: The get_EventInterface method returns a pointer to the IDispatch interface of the private object's event handler.
 old-location: tapi3\itprivateevent_get_eventinterface.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c5620930-5cda-4f2e-8059-12af2d7f0a02
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_EventInterface method, ITPrivateEvent.get_EventInterface, ITPrivateEvent::get_EventInterface, _tapi3_itprivateevent_get_eventinterface, get_EventInterface, get_EventInterface method [TAPI 2.2], get_EventInterface method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_eventinterface, tapi3if/ITPrivateEvent::get_EventInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPrivateEvent.get_EventInterface
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPrivateEvent::get_EventInterface

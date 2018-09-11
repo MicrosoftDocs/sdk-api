@@ -4,17 +4,16 @@ title: IUIAutomationTogglePattern::get_CachedToggleState
 author: windows-sdk-content
 description: Retrieves the cached state of the control.
 old-location: winauto\uiauto_IUIAutomationTogglePattern_CachedToggleState.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 49d32394-d7e0-43be-b1f5-db57c6cbe3c4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedToggleState property [Windows Accessibility], CachedToggleState property [Windows Accessibility],IUIAutomationTogglePattern interface, IUIAutomationTogglePattern interface [Windows Accessibility],CachedToggleState property, IUIAutomationTogglePattern.CachedToggleState, IUIAutomationTogglePattern.get_CachedToggleState, IUIAutomationTogglePattern::CachedToggleState, IUIAutomationTogglePattern::get_CachedToggleState, get_CachedToggleState, uiauto.uiauto_IUIAutomationTogglePattern_CachedToggleState, uiauto_IUIAutomationTogglePattern_CachedToggleState, uiautomationclient/IUIAutomationTogglePattern::CachedToggleState, uiautomationclient/IUIAutomationTogglePattern::get_CachedToggleState, winauto.uiauto_IUIAutomationTogglePattern_CachedToggleState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationTogglePattern.get_CachedToggleState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTogglePattern::get_CachedToggleState

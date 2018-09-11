@@ -4,17 +4,16 @@ title: IFEDictionary::SetHeader
 author: windows-sdk-content
 description: Sets a dictionary header in a dictionary file.
 old-location: intl\ifedictionary_setheader.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 8666DDE7-D90E-4423-984B-EF526FC34320
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],SetHeader method, IFEDictionary.SetHeader, IFEDictionary::SetHeader, SetHeader, SetHeader method [Internationalization for Windows Applications], SetHeader method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_setheader, msime/IFEDictionary::SetHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFEDictionary.SetHeader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFEDictionary::SetHeader

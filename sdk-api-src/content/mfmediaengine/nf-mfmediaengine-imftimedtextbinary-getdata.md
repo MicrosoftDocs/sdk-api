@@ -4,17 +4,16 @@ title: IMFTimedTextBinary::GetData
 author: windows-sdk-content
 description: Gets the data content of the timed-text object.
 old-location: mf\imftimedtextbinary_getdata.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: F8A0770D-87DD-4253-81F6-A002BEB8B896
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFTimedTextBinary interface, IMFTimedTextBinary interface [Media Foundation],GetData method, IMFTimedTextBinary.GetData, IMFTimedTextBinary::GetData, mf.imftimedtextbinary_getdata, mfmediaengine/IMFTimedTextBinary::GetData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextBinary.GetData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextBinary::GetData
@@ -62,12 +60,12 @@ Gets the data content of the timed-text object.
 
 ### -param data
 
-
+TBD
 
 
 ### -param length
 
-
+TBD
 
 
 

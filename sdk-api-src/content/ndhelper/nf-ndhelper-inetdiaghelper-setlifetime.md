@@ -4,17 +4,16 @@ title: INetDiagHelper::SetLifeTime
 author: windows-sdk-content
 description: The Helper Class Extension can limit its diagnosis to events within that time period.
 old-location: ndf\inetdiaghelpe_setlifetime.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: a211c885-364f-4ba5-a4c9-88a87b30cdc7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INetDiagHelper interface [NDF],SetLifeTime method, INetDiagHelper.SetLifeTime, INetDiagHelper::SetLifeTime, SetLifeTime, SetLifeTime method [NDF], SetLifeTime method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_setlifetime, ndhelper/INetDiagHelper::SetLifeTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetDiagHelper.SetLifeTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetDiagHelper::SetLifeTime

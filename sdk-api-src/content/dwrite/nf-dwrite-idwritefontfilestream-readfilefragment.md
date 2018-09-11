@@ -4,17 +4,16 @@ title: IDWriteFontFileStream::ReadFileFragment
 author: windows-sdk-content
 description: Reads a fragment from a font file.
 old-location: directwrite\IDWriteFontFileStream_ReadFileFragment.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: b5bf3300-cfa0-43db-b513-6c0d695c564e
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFontFileStream interface [Direct Write],ReadFileFragment method, IDWriteFontFileStream.ReadFileFragment, IDWriteFontFileStream::ReadFileFragment, ReadFileFragment, ReadFileFragment method [Direct Write], ReadFileFragment method [Direct Write],IDWriteFontFileStream interface, directwrite.IDWriteFontFileStream_ReadFileFragment, dwrite/IDWriteFontFileStream::ReadFileFragment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFileStream.ReadFileFragment
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFileStream::ReadFileFragment

@@ -4,17 +4,16 @@ title: IContactCollection::GetCurrent
 author: windows-sdk-content
 description: Retrieves the current contact in the enumeration.
 old-location: wincontacts\_wincontacts_IContactCollection_GetCurrent.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: e5a5d27d-121a-4755-892e-53d148facd74
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetCurrent, GetCurrent method [Windows Contacts], GetCurrent method [Windows Contacts],IContactCollection interface, IContactCollection interface [Windows Contacts],GetCurrent method, IContactCollection.GetCurrent, IContactCollection::GetCurrent, _wincontacts_IContactCollection_GetCurrent, icontact/IContactCollection::GetCurrent, wincontacts._wincontacts_IContactCollection_GetCurrent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactCollection.GetCurrent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContactCollection::GetCurrent

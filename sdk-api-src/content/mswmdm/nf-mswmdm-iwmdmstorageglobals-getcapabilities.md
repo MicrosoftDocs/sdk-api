@@ -4,17 +4,16 @@ title: IWMDMStorageGlobals::GetCapabilities
 author: windows-sdk-content
 description: The GetCapabilities method retrieves the capabilities of the root storage medium.
 old-location: wmdm\iwmdmstorageglobals_getcapabilities.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 0eea5448-f43d-4181-a497-476957fa7a08
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetCapabilities method, IWMDMStorageGlobals.GetCapabilities, IWMDMStorageGlobals::GetCapabilities, IWMDMStorageGlobalsGetCapabilities, mswmdm/IWMDMStorageGlobals::GetCapabilities, wmdm.iwmdmstorageglobals_getcapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMStorageGlobals.GetCapabilities
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorageGlobals::GetCapabilities

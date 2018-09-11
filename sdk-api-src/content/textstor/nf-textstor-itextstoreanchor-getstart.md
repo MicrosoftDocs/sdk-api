@@ -4,17 +4,16 @@ title: ITextStoreAnchor::GetStart
 author: windows-sdk-content
 description: The ITextStoreAnchor::GetStart method returns an anchor positioned at the start of the text stream.
 old-location: tsf\itextstoreanchor_getstart.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 431ca3b0-920b-4a4e-b475-32175555a789
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStart, GetStart method [Text Services Framework], GetStart method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetStart method, ITextStoreAnchor.GetStart, ITextStoreAnchor::GetStart, textstor/ITextStoreAnchor::GetStart, tsf.itextstoreanchor_getstart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreAnchor.GetStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreAnchor::GetStart

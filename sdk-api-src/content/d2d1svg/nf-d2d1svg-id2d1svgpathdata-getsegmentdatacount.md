@@ -4,17 +4,16 @@ title: ID2D1SvgPathData::GetSegmentDataCount
 author: windows-sdk-content
 description: Gets the size of the segment data array.
 old-location: direct2d\id2d1svgpathdata_getsegmentdatacount.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 93D41E54-8D09-46E9-A83F-87C84F26B9C4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSegmentDataCount, GetSegmentDataCount method [Direct2D], GetSegmentDataCount method [Direct2D],ID2D1SvgPathData interface, ID2D1SvgPathData interface [Direct2D],GetSegmentDataCount method, ID2D1SvgPathData.GetSegmentDataCount, ID2D1SvgPathData::GetSegmentDataCount, d2d1svg/ID2D1SvgPathData::GetSegmentDataCount, direct2d.id2d1svgpathdata_getsegmentdatacount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgPathData.GetSegmentDataCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgPathData::GetSegmentDataCount

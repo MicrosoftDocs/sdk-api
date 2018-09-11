@@ -4,17 +4,16 @@ title: RedrawWindow function
 author: windows-sdk-content
 description: The RedrawWindow function updates the specified rectangle or region in a window's client area.
 old-location: gdi\redrawwindow.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: c6cb7f74-237e-4d3e-a852-894da36e990c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RDW_ALLCHILDREN, RDW_ERASE, RDW_ERASENOW, RDW_FRAME, RDW_INTERNALPAINT, RDW_INVALIDATE, RDW_NOCHILDREN, RDW_NOERASE, RDW_NOFRAME, RDW_NOINTERNALPAINT, RDW_UPDATENOW, RDW_VALIDATE, RedrawWindow, RedrawWindow function [Windows GDI], _win32_RedrawWindow, gdi.redrawwindow, winuser/RedrawWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - RedrawWindow
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RedrawWindow function

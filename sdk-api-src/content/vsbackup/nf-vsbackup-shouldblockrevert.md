@@ -4,17 +4,16 @@ title: ShouldBlockRevert function
 author: windows-sdk-content
 description: Checks the registry for writers that should block revert operations on the specified volume.
 old-location: base\shouldblockrevert.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: ec5d62f0-e1af-44e4-a8ca-4c98c1be1dc7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ShouldBlockRevert, ShouldBlockRevert function, base.shouldblockrevert, vsbackup/ShouldBlockRevert
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: VssApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ShouldBlockRevert
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: VssApi.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ShouldBlockRevert function

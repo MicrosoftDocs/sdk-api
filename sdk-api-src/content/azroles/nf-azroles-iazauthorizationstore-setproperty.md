@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::SetProperty
 author: windows-sdk-content
 description: Sets the specified value to the AzAuthorizationStore object property with the specified property ID.
 old-location: security\azauthorizationstore_setproperty.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: c71a022f-8244-4263-8ff6-6c2d9562fcd1
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_APPLY_STORE_SACL, AZ_PROP_AZSTORE_DOMAIN_TIMEOUT, AZ_PROP_AZSTORE_MAX_SCRIPT_ENGINES, AZ_PROP_AZSTORE_SCRIPT_ENGINE_TIMEOUT, AZ_PROP_DESCRIPTION, AZ_PROP_GENERATE_AUDITS, AzAuthorizationStore object [Security],SetProperty method, IAzAuthorizationStore interface [Security],SetProperty method, IAzAuthorizationStore.SetProperty, IAzAuthorizationStore::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzAuthorizationStore object, SetProperty method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::SetProperty, security.azauthorizationstore_setproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAzAuthorizationStore.SetProperty
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::SetProperty

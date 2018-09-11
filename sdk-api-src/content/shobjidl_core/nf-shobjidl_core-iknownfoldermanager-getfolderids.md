@@ -4,17 +4,16 @@ title: IKnownFolderManager::GetFolderIds
 author: windows-sdk-content
 description: Gets an array of all registered known folder IDs. This can be used in enumerating all known folders.
 old-location: shell\IKnownFolderManager_GetFolderIds.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3ac09fc4-15c4-4346-94ad-2a4617c463d1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetFolderIds, GetFolderIds method [Windows Shell], GetFolderIds method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],GetFolderIds method, IKnownFolderManager.GetFolderIds, IKnownFolderManager::GetFolderIds, _shell_IKnownFolderManager_GetFolderIds, shell.IKnownFolderManager_GetFolderIds, shobjidl_core/IKnownFolderManager::GetFolderIds
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKnownFolderManager.GetFolderIds
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IKnownFolderManager::GetFolderIds

@@ -4,17 +4,16 @@ title: IDirect3D9ExOverlayExtension::CheckDeviceOverlayType
 author: windows-sdk-content
 description: Queries the overlay hardware capabilities of a Direct3D device.
 old-location: mf\idirect3d9exoverlayextension_checkdeviceoverlaytype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 83880b6f-f8a0-4be4-a400-ea86ca41f9e7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CheckDeviceOverlayType, CheckDeviceOverlayType method [Media Foundation], CheckDeviceOverlayType method [Media Foundation],IDirect3D9ExOverlayExtension interface, IDirect3D9ExOverlayExtension interface [Media Foundation],CheckDeviceOverlayType method, IDirect3D9ExOverlayExtension.CheckDeviceOverlayType, IDirect3D9ExOverlayExtension::CheckDeviceOverlayType, d3d9/IDirect3D9ExOverlayExtension::CheckDeviceOverlayType, mf.idirect3d9exoverlayextension_checkdeviceoverlaytype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirect3D9ExOverlayExtension.CheckDeviceOverlayType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3D9ExOverlayExtension::CheckDeviceOverlayType

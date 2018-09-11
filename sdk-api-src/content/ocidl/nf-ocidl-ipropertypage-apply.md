@@ -4,17 +4,16 @@ title: IPropertyPage::Apply
 author: windows-sdk-content
 description: Applies the current values to the underlying objects associated with the property page as previously passed to IPropertyPage::SetObjects.
 old-location: com\ipropertypage_apply.htm
-old-project: com
+tech.root: com
 ms.assetid: af0a1b49-54c3-453f-bd6a-70b63d625acb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Apply, Apply method [COM], Apply method [COM],IPropertyPage interface, IPropertyPage interface [COM],Apply method, IPropertyPage.Apply, IPropertyPage::Apply, _ctrl_ipropertypage_apply, com.ipropertypage_apply, ocidl/IPropertyPage::Apply
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyPage.Apply
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyPage::Apply

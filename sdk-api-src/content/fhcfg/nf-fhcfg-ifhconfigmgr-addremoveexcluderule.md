@@ -4,17 +4,16 @@ title: IFhConfigMgr::AddRemoveExcludeRule
 author: windows-sdk-content
 description: Adds an exclusion rule to the exclusion list or removes a rule from the list.
 old-location: winprog\ifhconfigmgr_addremoveexcluderule.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 8900944D-3B73-49AB-AE26-F0B2D5842B02
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddRemoveExcludeRule, AddRemoveExcludeRule method [Windows API], AddRemoveExcludeRule method [Windows API],FhConfigMgr class, AddRemoveExcludeRule method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],AddRemoveExcludeRule method, IFhConfigMgr interface [Windows API],AddRemoveExcludeRule method, IFhConfigMgr.AddRemoveExcludeRule, IFhConfigMgr::AddRemoveExcludeRule, fhcfg/IFhConfigMgr::AddRemoveExcludeRule, winprog.ifhconfigmgr_addremoveexcluderule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FhConfigMgr.AddRemoveExcludeRule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFhConfigMgr::AddRemoveExcludeRule

@@ -4,17 +4,16 @@ title: IGPMStarterGPO::Save
 author: windows-sdk-content
 description: Saves all Starter GPO settings into a single CAB file.
 old-location: gpmc\igpmstartergpo_save.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 3262513c-9909-47b9-a425-41f913204f16
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IGPMStarterGPO interface [GPMC],Save method, IGPMStarterGPO.Save, IGPMStarterGPO::Save, Save, Save method [GPMC], Save method [GPMC],IGPMStarterGPO interface, gpmc.igpmstartergpo_save, gpmgmt/IGPMStarterGPO::Save
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPMStarterGPO.Save
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMStarterGPO::Save

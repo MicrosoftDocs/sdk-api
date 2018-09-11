@@ -4,7 +4,7 @@ title: KSPROPERTY_AUDIOEFFECTSDISCOVERY
 author: windows-sdk-content
 description: The KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration defines a constant that is used by the list of audio processing objects (APOs).
 old-location: audio\ksproperty_audioeffectsdiscovery.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 35151A3F-3F33-4811-B50C-3F1EB197B7D8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msapofxproxy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSPROPERTY_AUDIOEFFECTSDISCOVERY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KSPROPERTY_AUDIOEFFECTSDISCOVERY
 product: Windows
 targetos: Windows
-req.lib: MSAJApi.lib
-req.dll: MSAJApi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: KSPROPERTY_AUDIOEFFECTSDISCOVERY
+req.redist: 
 ---
 
 # KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration

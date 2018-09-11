@@ -4,17 +4,16 @@ title: "_GENERIC_MAPPING"
 author: windows-sdk-content
 description: Defines the mapping of generic access rights to specific and standard access rights for an object.
 old-location: security\generic_mapping.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: e3c49b47-9bc7-4000-a131-449345ebb9cd
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PGENERIC_MAPPING, GENERIC_MAPPING, GENERIC_MAPPING structure [Security], PGENERIC_MAPPING, PGENERIC_MAPPING structure pointer [Security], _GENERIC_MAPPING, _win32_generic_mapping_str, security.generic_mapping, winnt/GENERIC_MAPPING, winnt/PGENERIC_MAPPING"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GENERIC_MAPPING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GENERIC_MAPPING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: GENERIC_MAPPING
+req.redist: 
 ---
 
 # _GENERIC_MAPPING structure

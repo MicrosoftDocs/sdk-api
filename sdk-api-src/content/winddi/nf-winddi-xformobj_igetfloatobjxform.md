@@ -4,17 +4,16 @@ title: XFORMOBJ_iGetFloatObjXform function
 author: windows-sdk-content
 description: The XFORMOBJ_iGetFloatObjXform function downloads a FLOATOBJ transform to the driver.
 old-location: display\xformobj_igetfloatobjxform.htm
-old-project: display
+tech.root: display
 ms.assetid: 761c6061-841b-4187-a826-575d2a5086db
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: XFORMOBJ_iGetFloatObjXform, XFORMOBJ_iGetFloatObjXform function [Display Devices], display.xformobj_igetfloatobjxform, gdifncs_26b564b5-f2ca-448a-9ca8-f34e7f8fb57a.xml, winddi/XFORMOBJ_iGetFloatObjXform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XFORMOBJ_iGetFloatObjXform
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # XFORMOBJ_iGetFloatObjXform function

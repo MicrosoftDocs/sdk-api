@@ -4,17 +4,16 @@ title: IEventSystem::Store
 author: windows-sdk-content
 description: Creates or modifies an event or subscription object within the event system.
 old-location: cos\ieventsystem_store.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: a9999ba1-9ae1-4fc0-9613-be31961fb514
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEventSystem interface [COM+],Store method, IEventSystem.Store, IEventSystem::Store, Store, Store method [COM+], Store method [COM+],IEventSystem interface, _cos_IEventSystem_Store, cos.ieventsystem_store, eventsys/IEventSystem::Store
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventSystem.Store
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventSystem::Store

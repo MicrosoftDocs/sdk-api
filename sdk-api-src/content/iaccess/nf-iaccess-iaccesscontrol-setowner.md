@@ -4,17 +4,16 @@ title: IAccessControl::SetOwner
 author: windows-sdk-content
 description: Sets the owner or the group of an item.
 old-location: com\iaccesscontrol_setowner.htm
-old-project: com
+tech.root: com
 ms.assetid: 92406043-f4a4-43e4-9b17-087066823ce4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAccessControl interface [COM],SetOwner method, IAccessControl.SetOwner, IAccessControl::SetOwner, SetOwner, SetOwner method [COM], SetOwner method [COM],IAccessControl interface, _com_iaccesscontrol_setowner, com.iaccesscontrol_setowner, iaccess/IAccessControl::SetOwner
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERSION, *PHTTP_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessControl.SetOwner
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAccessControl::SetOwner

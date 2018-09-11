@@ -4,17 +4,16 @@ title: IRawElementProviderSimple::get_HostRawElementProvider
 author: windows-sdk-content
 description: Specifies the host provider for this element.
 old-location: winauto\uiauto_IRawElementProviderSimple_HostRawElementProvider.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: fcbd3dc8-5bc7-48ae-bc21-009876b3e673
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HostRawElementProvider property [Windows Accessibility], HostRawElementProvider property [Windows Accessibility],IRawElementProviderSimple interface, IRawElementProviderSimple interface [Windows Accessibility],HostRawElementProvider property, IRawElementProviderSimple.HostRawElementProvider, IRawElementProviderSimple.get_HostRawElementProvider, IRawElementProviderSimple::HostRawElementProvider, IRawElementProviderSimple::get_HostRawElementProvider, get_HostRawElementProvider, uiauto.uiauto_IRawElementProviderSimple_HostRawElementProvider, uiauto_IRawElementProviderSimple_HostRawElementProvider, uiautomationcore/IRawElementProviderSimple::HostRawElementProvider, uiautomationcore/IRawElementProviderSimple::get_HostRawElementProvider, winauto.uiauto_IRawElementProviderSimple_HostRawElementProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRawElementProviderSimple.get_HostRawElementProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRawElementProviderSimple::get_HostRawElementProvider

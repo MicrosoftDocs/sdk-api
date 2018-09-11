@@ -4,17 +4,16 @@ title: IMediaStreamFilter::WaitUntil
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The WaitUntil method causes the filter to block until a specified stream time. The filter's pins call this method. They can interrupt the wait by flushing the filter.
 old-location: dshow\imediastreamfilter_waituntil.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 5669a3c6-b060-49e8-b8e6-2e3617b44d62
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaStreamFilter interface [DirectShow],WaitUntil method, IMediaStreamFilter.WaitUntil, IMediaStreamFilter::WaitUntil, IMediaStreamFilterWaitUntil, WaitUntil, WaitUntil method [DirectShow], WaitUntil method [DirectShow],IMediaStreamFilter interface, amstream/IMediaStreamFilter::WaitUntil, dshow.imediastreamfilter_waituntil
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMediaStreamFilter.WaitUntil
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaStreamFilter::WaitUntil

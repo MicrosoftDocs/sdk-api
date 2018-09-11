@@ -4,17 +4,16 @@ title: IDWriteFontFace3::AreGlyphsLocal
 author: windows-sdk-content
 description: Determines whether the specified glyphs are local.
 old-location: directwrite\idwritefontface3_areglyphslocal.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: e8d5b51d-c5b5-6ea5-eda0-36cc9ec425d3
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: AreGlyphsLocal, AreGlyphsLocal method [Direct Write], AreGlyphsLocal method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],AreGlyphsLocal method, IDWriteFontFace3.AreGlyphsLocal, IDWriteFontFace3::AreGlyphsLocal, directwrite.idwritefontface3_areglyphslocal, dwrite_3/IDWriteFontFace3::AreGlyphsLocal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace3.AreGlyphsLocal
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace3::AreGlyphsLocal

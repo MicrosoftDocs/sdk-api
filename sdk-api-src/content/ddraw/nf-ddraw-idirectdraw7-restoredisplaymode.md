@@ -4,17 +4,16 @@ title: IDirectDraw7::RestoreDisplayMode
 author: windows-sdk-content
 description: Resets the mode of the display device hardware for the primary surface to what it was before the IDirectDraw7::SetDisplayMode method was called. Exclusive-level access is required to use this method.
 old-location: directdraw\idirectdraw7_restoredisplaymode.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 7538339a-8886-4b40-9779-17c8ebe81446
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],RestoreDisplayMode method, IDirectDraw7.RestoreDisplayMode, IDirectDraw7::RestoreDisplayMode, RestoreDisplayMode, RestoreDisplayMode method [DirectDraw], RestoreDisplayMode method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::RestoreDisplayMode, directdraw.idirectdraw7_restoredisplaymode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDraw7.RestoreDisplayMode
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDraw7::RestoreDisplayMode

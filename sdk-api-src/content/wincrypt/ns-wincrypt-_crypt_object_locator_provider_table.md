@@ -4,17 +4,16 @@ title: "_CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE"
 author: windows-sdk-content
 description: Contains pointers to functions implemented by an object location provider.
 old-location: security\crypt_object_locator_provider_table.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 4B319A83-C230-4BFE-AF21-1395ED2D234B
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure [Security], PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure pointer [Security], _CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, security.crypt_object_locator_provider_table, wincrypt/CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, wincrypt/PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, *PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, *PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
+req.redist: 
 ---
 
 # _CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure

@@ -4,17 +4,16 @@ title: IInkDivisionUnits::get_Count
 author: windows-sdk-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkdivisionunits_count.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 049c91a6-7eeb-452b-a53e-30e44cda0f92
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkDivisionUnits interface, IInkDivisionUnits interface [Tablet PC],Count property, IInkDivisionUnits.Count, IInkDivisionUnits.get_Count, IInkDivisionUnits::Count, IInkDivisionUnits::get_Count, get_Count, msinkaut15/IInkDivisionUnits::Count, msinkaut15/IInkDivisionUnits::get_Count, tablet.iinkdivisionunits_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Inkdiv.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkDivisionUnits.get_Count
 product: Windows
 targetos: Windows
-req.lib: Inkdiv.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDivisionUnits::get_Count

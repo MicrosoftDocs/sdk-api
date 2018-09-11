@@ -4,17 +4,16 @@ title: ITfInputScope::GetPhrase
 author: windows-sdk-content
 description: ITfInputScope::GetPhrase method
 old-location: tsf\itfinputscope_getphrase.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 9a97dab0-2e3d-4921-80a6-0f2c79fbf4aa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPhrase, GetPhrase method [Text Services Framework], GetPhrase method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetPhrase method, ITfInputScope.GetPhrase, ITfInputScope::GetPhrase, inputscope/ITfInputScope::GetPhrase, tsf.itfinputscope_getphrase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inputscope.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InputScope
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfInputScope.GetPhrase
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITfInputScope::GetPhrase

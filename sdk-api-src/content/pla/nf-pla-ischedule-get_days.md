@@ -4,17 +4,16 @@ title: ISchedule::get_Days
 author: windows-sdk-content
 description: Retrieves or sets the days on which the data collector set runs.
 old-location: pla\ischedule_days.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 2986032f-647a-457a-ac7b-48439fd229a6
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Days property [PLA], Days property [PLA],ISchedule interface, ISchedule interface [PLA],Days property, ISchedule.Days, ISchedule.get_Days, ISchedule::Days, ISchedule::get_Days, ISchedule::put_Days, base.ischedule_days, get_Days, pla.ischedule_days, pla/ISchedule::Days, pla/ISchedule::get_Days, pla/ISchedule::put_Days
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ISchedule.put_Days
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISchedule::get_Days

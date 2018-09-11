@@ -4,17 +4,16 @@ title: IExecuteCommand::Execute
 author: windows-sdk-content
 description: Invoke the verb on the selected items. Call this method after you have called the other methods of this interface.
 old-location: shell\IExecuteCommand_Execute.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 388136bb-a5c0-48c0-adfc-f5154910fd72
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Execute, Execute method [Windows Shell], Execute method [Windows Shell],IExecuteCommand interface, IExecuteCommand interface [Windows Shell],Execute method, IExecuteCommand.Execute, IExecuteCommand::Execute, _shell_IExecuteCommand_Execute, shell.IExecuteCommand_Execute, shobjidl_core/IExecuteCommand::Execute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExecuteCommand.Execute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExecuteCommand::Execute

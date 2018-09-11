@@ -4,17 +4,16 @@ title: IX500DistinguishedName::get_Name
 author: windows-sdk-content
 description: Retrieves a distinguished name.
 old-location: security\ix500distinguishedname_name_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 1335c726-c16a-4a15-b231-8a3bd212f4ec
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX500DistinguishedName interface [Security],Name property, IX500DistinguishedName.Name, IX500DistinguishedName.get_Name, IX500DistinguishedName::Name, IX500DistinguishedName::get_Name, Name property [Security], Name property [Security],IX500DistinguishedName interface, certenroll/IX500DistinguishedName::Name, certenroll/IX500DistinguishedName::get_Name, get_Name, security.ix500distinguishedname_name_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX500DistinguishedName.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX500DistinguishedName::get_Name

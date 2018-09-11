@@ -4,17 +4,16 @@ title: ICommDlgBrowser2::GetViewFlags
 author: windows-sdk-content
 description: Called when the view must determine if special customization needs to be made for the common dialog browser.
 old-location: shell\ICommDlgBrowser2_GetViewFlags.htm
-old-project: shell
+tech.root: shell
 ms.assetid: cb22504c-9f76-44c4-b81d-fc15d1b95143
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CDB2GVF_ADDSHIELD, CDB2GVF_ALLOWPREVIEWPANE, CDB2GVF_ISFILESAVE, CDB2GVF_ISFOLDERPICKER, CDB2GVF_NOINCLUDEITEM, CDB2GVF_NOSELECTVERB, CDB2GVF_SHOWALLFILES, GetViewFlags, GetViewFlags method [Windows Shell], GetViewFlags method [Windows Shell],ICommDlgBrowser2 interface, ICommDlgBrowser2 interface [Windows Shell],GetViewFlags method, ICommDlgBrowser2.GetViewFlags, ICommDlgBrowser2::GetViewFlags, _win32_ICommDlgBrowser2_GetViewFlags, shell.ICommDlgBrowser2_GetViewFlags, shobjidl_core/ICommDlgBrowser2::GetViewFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICommDlgBrowser2.GetViewFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICommDlgBrowser2::GetViewFlags

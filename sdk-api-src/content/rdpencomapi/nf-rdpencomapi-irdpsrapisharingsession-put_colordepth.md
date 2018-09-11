@@ -4,17 +4,16 @@ title: IRDPSRAPISharingSession::put_ColorDepth
 author: windows-sdk-content
 description: Retrieves or sets the color depth for the shared session.
 old-location: rdp\irdpsrapisharingsession_colordepth.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 8835a79c-281a-4f50-ba41-c9d4a0a8d7bd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ColorDepth property [RDP], ColorDepth property [RDP],IRDPSRAPISharingSession interface, ColorDepth property [RDP],IRDPSRAPISharingSession2 interface, ColorDepth property [RDP],RDPSession object, IRDPSRAPISharingSession interface [RDP],ColorDepth property, IRDPSRAPISharingSession.ColorDepth, IRDPSRAPISharingSession.put_ColorDepth, IRDPSRAPISharingSession2 interface [RDP],ColorDepth property, IRDPSRAPISharingSession2.ColorDepth, IRDPSRAPISharingSession2::ColorDepth, IRDPSRAPISharingSession2::get_ColorDepth, IRDPSRAPISharingSession2::put_ColorDepth, IRDPSRAPISharingSession::get_ColorDepth, IRDPSRAPISharingSession::put_ColorDepth, RDPSession object [RDP],ColorDepth property, put_ColorDepth, rdp.irdpsrapisharingsession_colordepth, rdpencomapi/IRDPSRAPISharingSession2::ColorDepth, rdpencomapi/IRDPSRAPISharingSession2::get_ColorDepth, rdpencomapi/IRDPSRAPISharingSession2::put_ColorDepth, rdpencomapi/IRDPSRAPISharingSession::ColorDepth, rdpencomapi/IRDPSRAPISharingSession::get_ColorDepth, rdpencomapi/IRDPSRAPISharingSession::put_ColorDepth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - RDPSession.ColorDepth
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPISharingSession::put_ColorDepth

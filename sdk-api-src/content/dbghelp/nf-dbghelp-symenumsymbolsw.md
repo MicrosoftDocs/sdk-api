@@ -4,17 +4,16 @@ title: SymEnumSymbolsW function
 author: windows-sdk-content
 description: Enumerates all symbols in a process.
 old-location: base\symenumsymbols.htm
-old-project: debug
+tech.root: debug
 ms.assetid: e1232657-baf6-4e5b-9995-a382aa1391c2
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*!*, SymEnumSymbols, SymEnumSymbols function, SymEnumSymbolsW, _win32_symenumsymbols, base.symenumsymbols, dbghelp/SymEnumSymbols, dbghelp/SymEnumSymbolsW, foo, foo*!bar, foo?"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - SymEnumSymbolsW
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # SymEnumSymbolsW function

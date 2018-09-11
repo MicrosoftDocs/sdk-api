@@ -4,17 +4,16 @@ title: IComponentData::CompareObjects
 author: windows-sdk-content
 description: The IComponentData::CompareObjects method enables a snap-in to compare two data objects acquired through QueryDataObject. Be aware that the data objects can be acquired from two different instances of IComponentData.
 old-location: mmc\icomponentdata_compareobjects.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: d6ca3957-3d0c-492d-9e47-fc898981720b
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: CompareObjects, CompareObjects method [MMC], CompareObjects method [MMC],IComponentData interface, IComponentData interface [MMC],CompareObjects method, IComponentData.CompareObjects, IComponentData::CompareObjects, _slate_icomponentdata_compareobjects, mmc.icomponentdata_compareobjects, mmc/IComponentData::CompareObjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponentData.CompareObjects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IComponentData::CompareObjects

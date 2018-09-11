@@ -4,17 +4,16 @@ title: IWMReaderPlaylistBurn::GetInitResults
 author: windows-sdk-content
 description: The GetInitResults method retrieves the results of the playlist file check.
 old-location: wmformat\iwmreaderplaylistburn_getinitresults.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 9f9db03b-0bcc-4442-b97e-f6a2f8d179fa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetInitResults, GetInitResults method [windows Media Format], GetInitResults method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],GetInitResults method, IWMReaderPlaylistBurn.GetInitResults, IWMReaderPlaylistBurn::GetInitResults, IWMReaderPlaylistBurnGetInitResults, wmformat.iwmreaderplaylistburn_getinitresults, wmsdkidl/IWMReaderPlaylistBurn::GetInitResults
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMReaderPlaylistBurn.GetInitResults
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderPlaylistBurn::GetInitResults

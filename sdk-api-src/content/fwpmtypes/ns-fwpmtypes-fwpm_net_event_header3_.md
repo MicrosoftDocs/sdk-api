@@ -4,7 +4,7 @@ title: FWPM_NET_EVENT_HEADER3_
 author: windows-sdk-content
 description: Contains information common to all events.
 old-location: fwp\fwpm_net_event_header3.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 1AAC1649-B9F2-40E6-956B-6179A3E1C112
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_NET_EVENT_HEADER3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_NET_EVENT_HEADER3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_NET_EVENT_HEADER3
+req.redist: 
 ---
 
 # FWPM_NET_EVENT_HEADER3_ structure

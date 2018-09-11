@@ -4,17 +4,16 @@ title: IMFVideoProcessor::GetProcAmpValues
 author: windows-sdk-content
 description: Retrieves the current settings for one or more color adjustment (ProcAmp) settings.
 old-location: mf\imfvideoprocessor_getprocampvalues.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d1d6f6a4-fe3b-4acf-a004-d02ece41a302
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetProcAmpValues, GetProcAmpValues method [Media Foundation], GetProcAmpValues method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetProcAmpValues method, IMFVideoProcessor.GetProcAmpValues, IMFVideoProcessor::GetProcAmpValues, d1d6f6a4-fe3b-4acf-a004-d02ece41a302, evr9/IMFVideoProcessor::GetProcAmpValues, mf.imfvideoprocessor_getprocampvalues
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoAlphaBitmapFlags
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoProcessor.GetProcAmpValues
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoProcessor::GetProcAmpValues
@@ -71,7 +69,7 @@ Bitwise <b>OR</b> of one or more flags, specifying which operations to query. Fo
 
 ### -param Values
 
-
+TBD
 
 
 

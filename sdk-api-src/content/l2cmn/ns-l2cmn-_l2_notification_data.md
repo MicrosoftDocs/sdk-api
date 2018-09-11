@@ -4,7 +4,7 @@ title: "_L2_NOTIFICATION_DATA"
 author: windows-sdk-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\l2_notification_data.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 4b67b6c0-2b73-4816-8e85-d6b00227a33c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: l2cmn.h
 req.include-header: Wlanihv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: L2_NOTIFICATION_DATA, *PL2_NOTIFICATION_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - L2_NOTIFICATION_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: L2_NOTIFICATION_DATA, *PL2_NOTIFICATION_DATA
+req.redist: 
 ---
 
 # _L2_NOTIFICATION_DATA structure

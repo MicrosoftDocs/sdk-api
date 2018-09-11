@@ -4,17 +4,16 @@ title: IDVB_EIT2::GetRecordSection
 author: windows-sdk-content
 description: Gets the number of a section containing an event information table (EIT) record.
 old-location: mstv\idvb_eit2_getrecordsection.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 249c93f2-53d7-4110-9db3-34f3b0296b48
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordSection, GetRecordSection method [Microsoft TV Technologies], GetRecordSection method [Microsoft TV Technologies],IDVB_EIT2 interface, IDVB_EIT2 interface [Microsoft TV Technologies],GetRecordSection method, IDVB_EIT2.GetRecordSection, IDVB_EIT2::GetRecordSection, dvbsiparser/IDVB_EIT2::GetRecordSection, mstv.idvb_eit2_getrecordsection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVB_EIT2.GetRecordSection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVB_EIT2::GetRecordSection

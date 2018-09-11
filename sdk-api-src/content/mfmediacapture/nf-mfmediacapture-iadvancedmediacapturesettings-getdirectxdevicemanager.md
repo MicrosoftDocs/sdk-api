@@ -4,17 +4,16 @@ title: IAdvancedMediaCaptureSettings::GetDirectxDeviceManager
 author: windows-sdk-content
 description: Gets the DirectX device manager.
 old-location: mf\iadvancedmediacapturesettings_getdirectxdevicemanager.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3fd6ead4-bc37-4ac9-bbdd-e7e2fbbcbcde
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetDirectxDeviceManager, GetDirectxDeviceManager method [Media Foundation], GetDirectxDeviceManager method [Media Foundation],IAdvancedMediaCaptureSettings interface, IAdvancedMediaCaptureSettings interface [Media Foundation],GetDirectxDeviceManager method, IAdvancedMediaCaptureSettings.GetDirectxDeviceManager, IAdvancedMediaCaptureSettings::GetDirectxDeviceManager, mf.iadvancedmediacapturesettings_getdirectxdevicemanager, mfmediacapture/IAdvancedMediaCaptureSettings::GetDirectxDeviceManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediacapture.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_BYTE_STREAM_CACHE_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAdvancedMediaCaptureSettings.GetDirectxDeviceManager
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAdvancedMediaCaptureSettings::GetDirectxDeviceManager

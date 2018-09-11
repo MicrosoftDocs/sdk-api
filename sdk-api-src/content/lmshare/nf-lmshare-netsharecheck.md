@@ -4,17 +4,16 @@ title: NetShareCheck function
 author: windows-sdk-content
 description: Checks whether or not a server is sharing a device.
 old-location: fs\netsharecheck.htm
-old-project: netshare
+tech.root: netshare
 ms.assetid: 8453dcd2-5c58-4fe4-9426-0fd51647394d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: NetShareCheck, NetShareCheck function [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_netsharecheck, fs.netsharecheck, lmshare/NetShareCheck, netmgmt.netsharecheck
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetShareCheck
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetShareCheck function

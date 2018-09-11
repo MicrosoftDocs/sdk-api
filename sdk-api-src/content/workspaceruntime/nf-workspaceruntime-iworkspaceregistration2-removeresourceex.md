@@ -4,17 +4,16 @@ title: IWorkspaceRegistration2::RemoveResourceEx
 author: windows-sdk-content
 description: Notifies the RemoteApp and Desktop Connection runtime that the client is disconnecting the connection.
 old-location: termserv\iworkspaceregistration2_removeresourceex.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: dc8b7374-4a64-43a8-947e-0088aa26444e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWorkspaceRegistration2 interface [Remote Desktop Services],RemoveResourceEx method, IWorkspaceRegistration2.RemoveResourceEx, IWorkspaceRegistration2::RemoveResourceEx, RemoveResourceEx, RemoveResourceEx method [Remote Desktop Services], RemoveResourceEx method [Remote Desktop Services],IWorkspaceRegistration2 interface, RemoveResourceEx method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],RemoveResourceEx method, termserv.iworkspaceregistration2_removeresourceex, workspaceruntime/IWorkspaceRegistration2::RemoveResourceEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: Workspaceruntime.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: WkspRt.exe
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - IWorkspaceRegistration2::RemoveResourceEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceRegistration2::RemoveResourceEx

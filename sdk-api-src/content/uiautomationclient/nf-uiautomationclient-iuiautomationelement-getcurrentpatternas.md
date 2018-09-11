@@ -4,17 +4,16 @@ title: IUIAutomationElement::GetCurrentPatternAs
 author: windows-sdk-content
 description: Retrieves the control pattern interface of the specified pattern on this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCurrentPatternAs.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 98b0f647-7f6e-4e07-8530-1dae781507bc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCurrentPatternAs, GetCurrentPatternAs method [Windows Accessibility], GetCurrentPatternAs method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCurrentPatternAs method, IUIAutomationElement.GetCurrentPatternAs, IUIAutomationElement::GetCurrentPatternAs, uiauto.uiauto_IUIAutomationElement_GetCurrentPatternAs, uiauto_IUIAutomationElement_GetCurrentPatternAs, uiautomationclient/IUIAutomationElement::GetCurrentPatternAs, winauto.uiauto_IUIAutomationElement_GetCurrentPatternAs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationElement.GetCurrentPatternAs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::GetCurrentPatternAs
@@ -76,7 +74,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>.
 
 ### -param patternObject
 
-
+TBD
 
 
 

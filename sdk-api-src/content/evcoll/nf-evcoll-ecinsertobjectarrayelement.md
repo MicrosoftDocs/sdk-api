@@ -4,17 +4,16 @@ title: EcInsertObjectArrayElement function
 author: windows-sdk-content
 description: Inserts an empty object into an array of property values for the event sources of a subscription.
 old-location: wec\ecinsertobjectarrayelement.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: 65b0db2f-f929-4d7e-8804-c93b9e127323
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcInsertObjectArrayElement, EcInsertObjectArrayElement function, evcoll/EcInsertObjectArrayElement, wec.ecinsertobjectarrayelement, wes.ecinsertobjectarrayelement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_VARIANT_TYPE
+req.lib: Wecapi.lib
+req.dll: Wecapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EcInsertObjectArrayElement
 product: Windows
 targetos: Windows
-req.lib: Wecapi.lib
-req.dll: Wecapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EcInsertObjectArrayElement function
@@ -74,7 +72,7 @@ An array index indicating where to insert the object.
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

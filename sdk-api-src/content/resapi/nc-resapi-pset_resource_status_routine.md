@@ -4,17 +4,16 @@ title: PSET_RESOURCE_STATUS_ROUTINE
 author: windows-sdk-content
 description: Called to update the status of a resource.
 old-location: mscs\setresourcestatus.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 8ddb4578-f8c4-462e-af04-8c537d585e8b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PSET_RESOURCE_STATUS_ROUTINE, PSET_RESOURCE_STATUS_ROUTINE callback function [Failover Cluster], SetResourceStatus, SetResourceStatus callback, SetResourceStatus callback function [Failover Cluster], _wolf_setresourcestatus, mscs.setresourcestatus, resapi/PSET_RESOURCE_STATUS_ROUTINE, resapi/SetResourceStatus
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetResourceStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSET_RESOURCE_STATUS_ROUTINE callback function

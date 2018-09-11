@@ -4,17 +4,16 @@ title: IBackgroundCopyJob::SetMinimumRetryDelay
 author: windows-sdk-content
 description: Sets the minimum length of time that BITS waits after encountering a transient error condition before trying to transfer the file.
 old-location: bits\ibackgroundcopyjob_setminimumretrydelay.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 52d2b7a1-6f68-424e-9c0b-a9f8df4a5ad6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetMinimumRetryDelay method, IBackgroundCopyJob.SetMinimumRetryDelay, IBackgroundCopyJob::SetMinimumRetryDelay, SetMinimumRetryDelay, SetMinimumRetryDelay method [BITS], SetMinimumRetryDelay method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setminimumretrydelay, bits.ibackgroundcopyjob_setminimumretrydelay, bits/IBackgroundCopyJob::SetMinimumRetryDelay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob.SetMinimumRetryDelay
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob::SetMinimumRetryDelay
@@ -61,7 +60,7 @@ Sets the minimum length of time that BITS waits after encountering a transient e
 
 ### -param Seconds
 
-
+TBD
 
 
 

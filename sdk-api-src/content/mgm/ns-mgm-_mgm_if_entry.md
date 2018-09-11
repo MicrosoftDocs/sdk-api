@@ -4,17 +4,16 @@ title: "_MGM_IF_ENTRY"
 author: windows-sdk-content
 description: The MGM_IF_ENTRY structure describes a router interface.
 old-location: rras\mgm_if_entry_str.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: df3d18fe-1f73-47fd-aab8-818f83c7fcb9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMGM_IF_ENTRY, MGM_IF_ENTRY, MGM_IF_ENTRY structure [RAS], PMGM_IF_ENTRY, PMGM_IF_ENTRY structure pointer [RAS], _MGM_IF_ENTRY, _mpr_mgm_if_entry_str, mgm/MGM_IF_ENTRY, mgm/PMGM_IF_ENTRY, rras.mgm_if_entry_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mgm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MGM_IF_ENTRY, *PMGM_IF_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MGM_IF_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MGM_IF_ENTRY, *PMGM_IF_ENTRY
+req.redist: 
 ---
 
 # _MGM_IF_ENTRY structure

@@ -4,7 +4,7 @@ title: "_NDK_ADAPTER_INFO"
 author: windows-sdk-content
 description: The NDK_ADAPTER_INFO structure specifies information about limits and capabilities of an NDK adapter.
 old-location: netvista\ndk_adapter_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 3F8EAA7F-20CE-4948-9F10-E23025B174E7
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndkinfo.h
 req.include-header: Ndkpi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
 req.target-min-winversvr: Windows Server 2012
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ndhelper.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDK_ADAPTER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NDK_ADAPTER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NDK_ADAPTER_INFO
+req.redist: 
 ---
 
 # _NDK_ADAPTER_INFO structure

@@ -4,17 +4,16 @@ title: ITextStoreACP2::InsertTextAtSelection
 author: windows-sdk-content
 description: Inserts text at the insertion point or selection. A caller must have a read/write lock on the document before inserting text.
 old-location: tsf\itextstoreacp2_inserttextatselection.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 5e1e0893-53be-4753-ba49-32e69597a130
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],InsertTextAtSelection method, ITextStoreACP2.InsertTextAtSelection, ITextStoreACP2::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::InsertTextAtSelection, tsf.itextstoreacp2_inserttextatselection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACP2.InsertTextAtSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStoreACP2::InsertTextAtSelection

@@ -4,17 +4,16 @@ title: VarBstrFromUI2 function
 author: windows-sdk-content
 description: Converts an unsigned short value to a BSTR value.
 old-location: automat\varbstrfromui2.htm
-old-project: automat
+tech.root: automat
 ms.assetid: ee5c6582-f040-4b65-8ed7-3ba571d3a348
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromUI2, VarBstrFromUI2 function [Automation], _oa96_VarBstrFromUI2, automat.varbstrfromui2, oleauto/VarBstrFromUI2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarBstrFromUI2
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarBstrFromUI2 function

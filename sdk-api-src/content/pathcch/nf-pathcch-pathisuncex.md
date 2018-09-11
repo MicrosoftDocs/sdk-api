@@ -4,17 +4,16 @@ title: PathIsUNCEx function
 author: windows-sdk-content
 description: Determines if a path string is a valid Universal Naming Convention (UNC) path, as opposed to a path based on a drive letter.This function differs from PathIsUNC in that it also allows you to extract the name of the server from the path.
 old-location: shell\PathIsUNCEx.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3b2a4158-63ec-49eb-a031-7493d02f2caa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PathIsUNCEx, PathIsUNCEx function [Windows Shell], pathcch/PathIsUNCEx, shell.PathIsUNCEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_VERSION_DATA, *PPEER_VERSION_DATA
+req.lib: Pathcch.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PathIsUNCEx
 product: Windows
 targetos: Windows
-req.lib: Pathcch.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PathIsUNCEx function

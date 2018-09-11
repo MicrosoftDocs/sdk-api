@@ -4,17 +4,16 @@ title: CWbemProviderGlue::GetNamespaceConnection(LPCWSTR,MethodContext)
 author: windows-sdk-content
 description: The GetNameSpaceConnection method is used to retrieve a namespace connection.
 old-location: wmi\cwbemproviderglue_getnamespaceconnection.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: abbc7099-400d-47a0-9673-3d102effa897
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z, ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetNameSpaceConnection method, CWbemProviderGlue.GetNamespaceConnection, CWbemProviderGlue.GetNamespaceConnection(LPCWSTR,MethodContext), CWbemProviderGlue::GetNameSpaceConnection, CWbemProviderGlue::GetNamespaceConnection, CWbemProviderGlue::GetNamespaceConnection(LPCWSTR,MethodContext), GetNameSpaceConnection method [Windows Management Instrumentation], GetNameSpaceConnection method [Windows Management Instrumentation],CWbemProviderGlue interface, GetNamespaceConnection, _hmm_cwbemproviderglue_getnamespaceconnection, wbemglue/CWbemProviderGlue::GetNameSpaceConnection, wmi.cwbemproviderglue_getnamespaceconnection"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CWbemProviderGlue::GetNamespaceConnection(LPCWSTR,MethodContext)
@@ -71,12 +69,12 @@ The <b>GetNameSpaceConnection</b> method is used to retrieve a namespace connect
 
 ### -param NameSpace
 
-
+TBD
 
 
 ### -param pMethodContext
 
-
+TBD
 
 
 

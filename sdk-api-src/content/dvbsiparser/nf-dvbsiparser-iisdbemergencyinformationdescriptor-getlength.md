@@ -4,17 +4,16 @@ title: IIsdbEmergencyInformationDescriptor::GetLength
 author: windows-sdk-content
 description: Gets the body length of an emergency information descriptor, in bytes.
 old-location: mstv\iisdbemergencyinformationdescriptor_getlength.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 22520f2f-8a7f-45f3-86b1-a747fb33d7dc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbEmergencyInformationDescriptor.GetLength, IIsdbEmergencyInformationDescriptor::GetLength, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetLength, mstv.iisdbemergencyinformationdescriptor_getlength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbEmergencyInformationDescriptor.GetLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbEmergencyInformationDescriptor::GetLength

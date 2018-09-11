@@ -4,17 +4,16 @@ title: ITAddress::get_Calls
 author: windows-sdk-content
 description: The get_Calls method creates a collection of calls currently active on the address. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateCalls method.
 old-location: tapi3\itaddress_get_calls.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b0b16578-0530-4ff9-a7ce-d36527ed2da9
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_Calls method, ITAddress.get_Calls, ITAddress::get_Calls, _tapi3_itaddress_get_calls, get_Calls, get_Calls method [TAPI 2.2], get_Calls method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_calls, tapi3if/ITAddress::get_Calls
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddress.get_Calls
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddress::get_Calls

@@ -4,17 +4,16 @@ title: "_CERT_STORE_PROV_INFO"
 author: windows-sdk-content
 description: Contains information returned by the installed CertDllOpenStoreProv function when a store is opened by using the CertOpenStore function.
 old-location: security\cert_store_prov_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: dc6789a7-09a5-467a-b2e4-16acfa25b5f6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_STORE_PROV_INFO, CERT_STORE_PROV_CLOSE_FUNC, CERT_STORE_PROV_CONTROL_FUNC, CERT_STORE_PROV_DELETED_FLAG, CERT_STORE_PROV_DELETE_CERT_FUNC, CERT_STORE_PROV_DELETE_CRL_FUNC, CERT_STORE_PROV_DELETE_CTL_FUNC, CERT_STORE_PROV_EXTERNAL_FLAG, CERT_STORE_PROV_FIND_CERT_FUNC, CERT_STORE_PROV_FIND_CRL_FUNC, CERT_STORE_PROV_FIND_CTL_FUNC, CERT_STORE_PROV_FREE_FIND_CERT_FUNC, CERT_STORE_PROV_FREE_FIND_CRL_FUNC, CERT_STORE_PROV_FREE_FIND_CTL_FUNC, CERT_STORE_PROV_GET_CERT_PROPERTY_FUNC, CERT_STORE_PROV_GET_CRL_PROPERTY_FUNC, CERT_STORE_PROV_GET_CTL_PROPERTY_FUNC, CERT_STORE_PROV_INFO, CERT_STORE_PROV_INFO structure [Security], CERT_STORE_PROV_LM_SYSTEM_STORE_FLAG, CERT_STORE_PROV_NO_PERSIST_FLAG, CERT_STORE_PROV_READ_CERT_FUNC, CERT_STORE_PROV_READ_CRL_FUNC, CERT_STORE_PROV_READ_CTL_FUNC, CERT_STORE_PROV_SET_CERT_PROPERTY_FUNC, CERT_STORE_PROV_SET_CRL_PROPERTY_FUNC, CERT_STORE_PROV_SET_CTL_PROPERTY_FUNC, CERT_STORE_PROV_SYSTEM_STORE_FLAG, CERT_STORE_PROV_WRITE_CERT_FUNC, CERT_STORE_PROV_WRITE_CRL_FUNC, CERT_STORE_PROV_WRITE_CTL_FUNC, PCERT_STORE_PROV_INFO, PCERT_STORE_PROV_INFO structure pointer [Security], _CERT_STORE_PROV_INFO, _crypto2_cert_store_prov_info, security.cert_store_prov_info, wincrypt/CERT_STORE_PROV_INFO, wincrypt/PCERT_STORE_PROV_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_STORE_PROV_INFO, *PCERT_STORE_PROV_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_STORE_PROV_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_STORE_PROV_INFO, *PCERT_STORE_PROV_INFO
+req.redist: 
 ---
 
 # _CERT_STORE_PROV_INFO structure

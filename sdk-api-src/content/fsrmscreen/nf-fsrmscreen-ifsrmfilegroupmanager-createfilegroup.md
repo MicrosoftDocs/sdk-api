@@ -4,17 +4,16 @@ title: IFsrmFileGroupManager::CreateFileGroup
 author: windows-sdk-content
 description: Creates a file group object.
 old-location: fsrm\ifsrmfilegroupmanager_createfilegroup.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 7e2c3672-fbb9-4da5-9e20-25c66213843c
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CreateFileGroup, CreateFileGroup method [File Server Resource Manager], CreateFileGroup method [File Server Resource Manager],FsrmFileGroupManager class, CreateFileGroup method [File Server Resource Manager],IFsrmFileGroupManager interface, FsrmFileGroupManager class [File Server Resource Manager],CreateFileGroup method, IFsrmFileGroupManager interface [File Server Resource Manager],CreateFileGroup method, IFsrmFileGroupManager.CreateFileGroup, IFsrmFileGroupManager::CreateFileGroup, fs.ifsrmfilegroupmanager_createfilegroup, fsrm.ifsrmfilegroupmanager_createfilegroup, fsrmscreen/IFsrmFileGroupManager::CreateFileGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmFileGroupManager.CreateFileGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileGroupManager::CreateFileGroup

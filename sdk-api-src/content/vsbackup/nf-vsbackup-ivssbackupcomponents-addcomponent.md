@@ -4,17 +4,16 @@ title: IVssBackupComponents::AddComponent
 author: windows-sdk-content
 description: Used to explicitly add to the backup set.
 old-location: base\ivssbackupcomponents_addcomponent.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 50cb0b16-9ed3-4496-962a-9c845c10986c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddComponent, AddComponent method [VSS], AddComponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddComponent method, IVssBackupComponents.AddComponent, IVssBackupComponents::AddComponent, _win32_ivssbackupcomponents_addcomponent, base.ivssbackupcomponents_addcomponent, vsbackup/IVssBackupComponents::AddComponent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.AddComponent
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::AddComponent
@@ -78,7 +76,7 @@ Writer class identifier.
 
 ### -param ct
 
-
+TBD
 
 
 ### -param wszLogicalPath [in]

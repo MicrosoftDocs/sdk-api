@@ -4,17 +4,16 @@ title: IWICComponentInfo::GetVendorGUID
 author: windows-sdk-content
 description: Retrieves the vendor GUID.
 old-location: wic\_wic_codec_iwiccomponentinfo_getvendorguid.htm
-old-project: wic
+tech.root: wic
 ms.assetid: e1ef7bac-6845-4e7f-8cb6-bb3270b344d6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetVendorGUID, GetVendorGUID method [Windows Imaging Component], GetVendorGUID method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetVendorGUID method, IWICComponentInfo.GetVendorGUID, IWICComponentInfo::GetVendorGUID, _wic_codec_iwiccomponentinfo_getvendorguid, wic._wic_codec_iwiccomponentinfo_getvendorguid, wincodec/IWICComponentInfo::GetVendorGUID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICComponentInfo.GetVendorGUID
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICComponentInfo::GetVendorGUID

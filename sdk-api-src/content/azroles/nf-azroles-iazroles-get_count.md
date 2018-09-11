@@ -4,17 +4,16 @@ title: IAzRoles::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IAzRole objects in the collection.
 old-location: security\iazroles_count.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4bf2c00e-dc33-4718-a6d1-f8c3ccccbae8
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzRoles object [Security],Count property, Count property [Security], Count property [Security],AzRoles object, Count property [Security],IAzRoles interface, IAzRoles interface [Security],Count property, IAzRoles.Count, IAzRoles.get_Count, IAzRoles::Count, IAzRoles::get_Count, azroles/IAzRoles::Count, azroles/IAzRoles::get_Count, get_Count, security.iazroles_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzRoles.Count
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzRoles::get_Count

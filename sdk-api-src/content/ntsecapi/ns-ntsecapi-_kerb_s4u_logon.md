@@ -4,17 +4,16 @@ title: "_KERB_S4U_LOGON"
 author: windows-sdk-content
 description: Contains information about a service for user (S4U) logon.
 old-location: security\kerb_s4u_logon.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: ab94c36b-7aba-452d-abc0-220c91ffacca
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PKERB_S4U_LOGON, KERB_S4U_LOGON, KERB_S4U_LOGON structure [Security], KERB_S4U_LOGON_FLAG_CHECK_LOGONHOURS, KERB_S4U_LOGON_FLAG_IDENTITY, PKERB_S4U_LOGON, PKERB_S4U_LOGON structure pointer [Security], _KERB_S4U_LOGON, ntsecapi/KERB_S4U_LOGON, ntsecapi/PKERB_S4U_LOGON, security.kerb_s4u_logon"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_S4U_LOGON, *PKERB_S4U_LOGON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_S4U_LOGON
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_S4U_LOGON, *PKERB_S4U_LOGON
+req.redist: 
 ---
 
 # _KERB_S4U_LOGON structure

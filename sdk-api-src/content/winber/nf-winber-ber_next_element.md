@@ -4,17 +4,16 @@ title: ber_next_element function
 author: windows-sdk-content
 description: The ber_next_element function is used along with ber_first_element to traverse a SET, SET OF, SEQUENCE or SEQUENCE OF data value stored in the supplied BerElement structure. It returns the tag and length of the next element in the constructed type.
 old-location: ldap\ber_next_element.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 3daf33c9-730d-4032-a0fc-21de4c425209
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ber_next_element, ber_next_element, ber_next_element function [LDAP], ldap.ber__next__element, ldap.ber_next_element, winber/ber_next_element"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winber.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ber_next_element
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ber_next_element function

@@ -4,17 +4,16 @@ title: MBN_DEVICE_SERVICES_INTERFACE_STATE
 author: windows-sdk-content
 description: "."
 old-location: mbn\mbn_device_services_interface_state.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 0EDED390-CB60-4D6C-9E62-87B3BF6F9050
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_ARRIVAL, MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_REMOVAL, MBN_DEVICE_SERVICES_INTERFACE_STATE, MBN_DEVICE_SERVICES_INTERFACE_STATE enumeration [Microsoft Broadband Networks], mbn.mbn_device_services_interface_state, mbnapi/MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_ARRIVAL, mbnapi/MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_REMOVAL, mbnapi/MBN_DEVICE_SERVICES_INTERFACE_STATE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_DEVICE_SERVICES_INTERFACE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_DEVICE_SERVICES_INTERFACE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_DEVICE_SERVICES_INTERFACE_STATE
+req.redist: 
 ---
 
 # MBN_DEVICE_SERVICES_INTERFACE_STATE enumeration

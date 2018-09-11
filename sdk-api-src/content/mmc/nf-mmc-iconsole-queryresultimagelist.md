@@ -4,17 +4,16 @@ title: IConsole::QueryResultImageList
 author: windows-sdk-content
 description: Retrieves the console-provided result-view image list. This image list should be used only if the snap-in is using the default list view.
 old-location: mmc\iconsole_queryresultimagelist.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 86F2A9ED-4023-4425-8C0A-7593660C623C
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IConsole interface [MMC],QueryResultImageList method, IConsole.QueryResultImageList, IConsole::QueryResultImageList, QueryResultImageList, QueryResultImageList method [MMC], QueryResultImageList method [MMC],IConsole interface, mmc.iconsole_queryresultimagelist, mmc/IConsole::QueryResultImageList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConsole.QueryResultImageList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConsole::QueryResultImageList

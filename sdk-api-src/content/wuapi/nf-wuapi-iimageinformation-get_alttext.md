@@ -4,17 +4,16 @@ title: IImageInformation::get_AltText
 author: windows-sdk-content
 description: Gets the alternate text for the image.
 old-location: wua\iimageinformation_alttext.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: b64f1d4f-6f37-4728-b2e5-f9c408d9909e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AltText property [Windows Update Agent], AltText property [Windows Update Agent],IImageInformation interface, IImageInformation interface [Windows Update Agent],AltText property, IImageInformation.AltText, IImageInformation.get_AltText, IImageInformation::AltText, IImageInformation::get_AltText, get_AltText, wua.iimageinformation_alttext, wuapi/IImageInformation::AltText, wuapi/IImageInformation::get_AltText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IImageInformation.get_AltText
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IImageInformation::get_AltText

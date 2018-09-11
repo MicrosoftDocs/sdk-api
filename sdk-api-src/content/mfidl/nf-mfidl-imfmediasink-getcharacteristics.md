@@ -4,17 +4,16 @@ title: IMFMediaSink::GetCharacteristics
 author: windows-sdk-content
 description: Gets the characteristics of the media sink.
 old-location: mf\imfmediasink_getcharacteristics.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: a7e8e2af-8b10-47f5-8b09-a7147ace5ba1
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetCharacteristics, GetCharacteristics method [Media Foundation], GetCharacteristics method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetCharacteristics method, IMFMediaSink.GetCharacteristics, IMFMediaSink::GetCharacteristics, MEDIASINK_CANNOT_MATCH_CLOCK, MEDIASINK_CAN_PREROLL, MEDIASINK_CLOCK_REQUIRED, MEDIASINK_FIXED_STREAMS, MEDIASINK_RATELESS, MEDIASINK_REQUIRE_REFERENCE_MEDIATYPE, a7e8e2af-8b10-47f5-8b09-a7147ace5ba1, mf.imfmediasink_getcharacteristics, mfidl/IMFMediaSink::GetCharacteristics
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaSink.GetCharacteristics
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSink::GetCharacteristics

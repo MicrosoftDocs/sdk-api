@@ -4,17 +4,16 @@ title: "_CRL_DIST_POINT"
 author: windows-sdk-content
 description: Identifies a single certificate revocation list (CRL) distribution point that a certificate user can reference to determine whether certificates have been revoked.
 old-location: security\crl_dist_point.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: ec7ccc54-0aaa-4c32-8aa1-dcbaf59f9991
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRL_DIST_POINT, CRL_DIST_POINT, CRL_DIST_POINT structure [Security], PCRL_DIST_POINT, PCRL_DIST_POINT structure pointer [Security], _CRL_DIST_POINT, _crypto2_crl_dist_point, security.crl_dist_point, wincrypt/CRL_DIST_POINT, wincrypt/PCRL_DIST_POINT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRL_DIST_POINT, *PCRL_DIST_POINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRL_DIST_POINT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRL_DIST_POINT, *PCRL_DIST_POINT
+req.redist: 
 ---
 
 # _CRL_DIST_POINT structure

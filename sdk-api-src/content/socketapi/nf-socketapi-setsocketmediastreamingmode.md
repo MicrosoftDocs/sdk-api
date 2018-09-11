@@ -4,17 +4,16 @@ title: SetSocketMediaStreamingMode function
 author: windows-sdk-content
 description: Indicates whether the network is to be used for transferring streaming media that requires quality of service.
 old-location: winsock\setsocketmediastreamingmode.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 5D1C18FC-2F25-44C0-AD3C-F1E7744C4963
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SetSocketMediaStreamingMode, SetSocketMediaStreamingMode function [Winsock], socketapi/SetSocketMediaStreamingMode, winsock.setsocketmediastreamingmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: socketapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SnmpVarBindList
+req.lib: Windows.Networking.lib
+req.dll: Windows.Networking.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetSocketMediaStreamingMode
 product: Windows
 targetos: Windows
-req.lib: Windows.Networking.lib
-req.dll: Windows.Networking.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetSocketMediaStreamingMode function

@@ -4,17 +4,16 @@ title: "_INTERFACE_INFO_EX"
 author: windows-sdk-content
 description: The INTERFACE_INFO_EX structure is used in conjunction with the SIO_GET_INTERFACE_LIST IOCTL command to obtain information about an interface IP address.
 old-location: winsock\interface_info_ex.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: d13a4b5d-9f61-464f-be50-ceda596cbb65
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPINTERFACE_INFO_EX, IFF_BROADCAST, IFF_LOOPBACK, IFF_MULTICAST, IFF_POINTTOPOINT, IFF_UP, INTERFACE_INFO_EX, INTERFACE_INFO_EX structure [Winsock], INTERFACE_INFO_EX,FAR * _LPINTERFACE_INFO_EX, INTERFACE_INFO_EX,FAR * _LPINTERFACE_INFO_EX structure [Winsock], _INTERFACE_INFO_EX, winsock.interface_info_ex, ws2ipdef/INTERFACE_INFO_EX, ws2tcpip/INTERFACE_INFO_EX"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERFACE_INFO_EX, *LPINTERFACE_INFO_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - INTERFACE_INFO_EX, FAR * _LPINTERFACE_INFO_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: INTERFACE_INFO_EX, *LPINTERFACE_INFO_EX
+req.redist: 
 ---
 
 # _INTERFACE_INFO_EX structure

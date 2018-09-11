@@ -4,17 +4,16 @@ title: "_CMSG_HASHED_ENCODE_INFO"
 author: windows-sdk-content
 description: Used with hashed messages. It is passed to the CryptMsgOpenToEncode function if the CryptMsgOpenToEncode function's dwMsgType parameter is CMSG_ENVELOPED.
 old-location: security\cmsg_hashed_encode_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 05dfeda0-a8a1-4203-a68a-af92903ab215
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCMSG_HASHED_ENCODE_INFO, CMSG_HASHED_ENCODE_INFO, CMSG_HASHED_ENCODE_INFO structure [Security], PCMSG_HASHED_ENCODE_INFO, PCMSG_HASHED_ENCODE_INFO structure pointer [Security], _CMSG_HASHED_ENCODE_INFO, _crypto2_cmsg_hashed_encode_info, security.cmsg_hashed_encode_info, wincrypt/CMSG_HASHED_ENCODE_INFO, wincrypt/PCMSG_HASHED_ENCODE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_HASHED_ENCODE_INFO, *PCMSG_HASHED_ENCODE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_HASHED_ENCODE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_HASHED_ENCODE_INFO, *PCMSG_HASHED_ENCODE_INFO
+req.redist: 
 ---
 
 # _CMSG_HASHED_ENCODE_INFO structure

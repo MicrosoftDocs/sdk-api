@@ -4,17 +4,16 @@ title: IViewObjectEx::GetViewStatus
 author: windows-sdk-content
 description: Retrieves information about the opacity of the object, and what drawing aspects are supported.
 old-location: com\iviewobjectex_getviewstatus.htm
-old-project: com
+tech.root: com
 ms.assetid: cf8ec90c-07bb-4f60-93c9-4cee3fb5a056
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetViewStatus, GetViewStatus method [COM], GetViewStatus method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetViewStatus method, IViewObjectEx.GetViewStatus, IViewObjectEx::GetViewStatus, _ole_iviewobjectex_getviewstatus, com.iviewobjectex_getviewstatus, ocidl/IViewObjectEx::GetViewStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IViewObjectEx.GetViewStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IViewObjectEx::GetViewStatus

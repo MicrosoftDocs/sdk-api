@@ -4,17 +4,16 @@ title: IADsADSystemInfo::RefreshSchemaCache
 author: windows-sdk-content
 description: The IADsADSystemInfo::RefreshSchemaCache method refreshes the Active Directory schema cache.
 old-location: adsi\iadsadsysteminfo_refreshschemacache.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 4531c041-a5a7-4de1-a3c4-c544cb4d6820
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsADSystemInfo interface [ADSI],RefreshSchemaCache method, IADsADSystemInfo.RefreshSchemaCache, IADsADSystemInfo::RefreshSchemaCache, RefreshSchemaCache, RefreshSchemaCache method [ADSI], RefreshSchemaCache method [ADSI],IADsADSystemInfo interface, _ds_iadsadsysteminfo_refreshschemacache, adsi.iadsadsysteminfo__refreshschemacache, adsi.iadsadsysteminfo_refreshschemacache, iads/IADsADSystemInfo::RefreshSchemaCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsADSystemInfo.RefreshSchemaCache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsADSystemInfo::RefreshSchemaCache

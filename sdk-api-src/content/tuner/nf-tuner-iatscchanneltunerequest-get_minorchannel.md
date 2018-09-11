@@ -4,17 +4,16 @@ title: IATSCChannelTuneRequest::get_MinorChannel
 author: windows-sdk-content
 description: The get_MinorChannel method gets the current minor channel.
 old-location: mstv\iatscchanneltunerequest_get_minorchannel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2b8aa006-faba-472b-836b-0ff1ae134232
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IATSCChannelTuneRequest interface [Microsoft TV Technologies],get_MinorChannel method, IATSCChannelTuneRequest.get_MinorChannel, IATSCChannelTuneRequest::get_MinorChannel, IATSCChannelTuneRequestget_MinorChannel, get_MinorChannel, get_MinorChannel method [Microsoft TV Technologies], get_MinorChannel method [Microsoft TV Technologies],IATSCChannelTuneRequest interface, mstv.iatscchanneltunerequest_get_minorchannel, tuner/IATSCChannelTuneRequest::get_MinorChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IATSCChannelTuneRequest.get_MinorChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IATSCChannelTuneRequest::get_MinorChannel
@@ -65,7 +63,7 @@ The <b>get_MinorChannel</b> method gets the current minor channel.
 
 ### -param MinorChannel
 
-
+TBD
 
 
 

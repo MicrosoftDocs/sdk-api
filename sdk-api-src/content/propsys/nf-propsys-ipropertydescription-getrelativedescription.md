@@ -4,17 +4,16 @@ title: IPropertyDescription::GetRelativeDescription
 author: windows-sdk-content
 description: Compares two property values in the manner specified by the property description. Returns two display strings that describe how the two properties compare.
 old-location: properties\IPropertyDescription_GetRelativeDescription.htm
-old-project: properties
+tech.root: properties
 ms.assetid: d98cc2de-8f1c-4827-99b9-2b770d1270e3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetRelativeDescription, GetRelativeDescription method [Windows Properties], GetRelativeDescription method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetRelativeDescription method, IPropertyDescription.GetRelativeDescription, IPropertyDescription::GetRelativeDescription, properties.IPropertyDescription_GetRelativeDescription, propsys/IPropertyDescription::GetRelativeDescription, shell.IPropertyDescription_GetRelativeDescription, shell_IPropertyDescription_GetRelativeDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.GetRelativeDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::GetRelativeDescription

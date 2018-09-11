@@ -4,17 +4,16 @@ title: IIsdbCADescriptor::GetLength
 author: windows-sdk-content
 description: Gets the body length of a conditional access (CA) descriptor, in bytes.
 old-location: mstv\iisdbcadescriptor_getlength.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 25331811-51d4-4009-8fc2-825a8de33dcf
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbCADescriptor.GetLength, IIsdbCADescriptor::GetLength, dvbsiparser/IIsdbCADescriptor::GetLength, mstv.iisdbcadescriptor_getlength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbCADescriptor.GetLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbCADescriptor::GetLength

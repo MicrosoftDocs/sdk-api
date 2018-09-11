@@ -4,17 +4,16 @@ title: IMFVideoRenderer::InitializeRenderer
 author: windows-sdk-content
 description: Sets a new mixer or presenter for the enhanced video renderer (EVR).
 old-location: mf\imfvideorenderer_initializerenderer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e46a9596-9f3f-4430-8d45-bbc9c240be3b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFVideoRenderer interface [Media Foundation],InitializeRenderer method, IMFVideoRenderer.InitializeRenderer, IMFVideoRenderer::InitializeRenderer, InitializeRenderer, InitializeRenderer method [Media Foundation], InitializeRenderer method [Media Foundation],IMFVideoRenderer interface, e46a9596-9f3f-4430-8d45-bbc9c240be3b, evr/IMFVideoRenderer::InitializeRenderer, mf.imfvideorenderer_initializerenderer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoRenderer.InitializeRenderer
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoRenderer::InitializeRenderer

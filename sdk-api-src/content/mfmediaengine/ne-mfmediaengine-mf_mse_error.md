@@ -4,7 +4,7 @@ title: MF_MSE_ERROR
 author: windows-sdk-content
 description: Defines the different error states of the Media Source Extension.
 old-location: mf\mf_mse_error.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8FD54833-F60B-49E8-A673-6130F3B06160
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MSE_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_MSE_ERROR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_MSE_ERROR
+req.redist: 
 ---
 
 # MF_MSE_ERROR enumeration

@@ -4,7 +4,7 @@ title: D3D11_TEX2D_ARRAY_RTV1
 author: windows-sdk-content
 description: Describes the subresources from an array of 2D textures to use in a render-target view.
 old-location: direct3d11\d3d11_tex2d_array_rtv1.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: AD1C80E6-B2C7-4110-B3C0-6A2B2063198B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TEX2D_ARRAY_RTV1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_TEX2D_ARRAY_RTV1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_TEX2D_ARRAY_RTV1
+req.redist: 
 ---
 
 # D3D11_TEX2D_ARRAY_RTV1 structure

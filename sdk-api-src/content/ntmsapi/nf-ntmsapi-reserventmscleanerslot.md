@@ -4,17 +4,16 @@ title: ReserveNtmsCleanerSlot function
 author: windows-sdk-content
 description: The ReserveNtmsCleanerSlot function reserves a single slot in a library unit for a drive cleaner cartridge.
 old-location: fs\reserventmscleanerslot.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 17e5acf8-c6b3-42a8-a9fe-fdda53779b67
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: ReserveNtmsCleanerSlot, ReserveNtmsCleanerSlot function [Files], _zaw_reserventmscleanerslot, base.reserventmscleanerslot, fs.reserventmscleanerslot, ntmsapi/ReserveNtmsCleanerSlot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ReserveNtmsCleanerSlot
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ReserveNtmsCleanerSlot function

@@ -4,17 +4,16 @@ title: IBDA_IPV4Filter::GetMulticastList
 author: windows-sdk-content
 description: The GetMulticastList method retrieves the list of multicast addresses on the Network Provider.
 old-location: mstv\ibda_ipv4filter_getmulticastlist.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 020a4053-76ba-4e67-afa8-27abcf70c456
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetMulticastList, GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies],IBDA_IPV4Filter interface, IBDA_IPV4Filter interface [Microsoft TV Technologies],GetMulticastList method, IBDA_IPV4Filter.GetMulticastList, IBDA_IPV4Filter::GetMulticastList, IBDA_IPV4FilterGetMulticastList, bdaiface/IBDA_IPV4Filter::GetMulticastList, mstv.ibda_ipv4filter_getmulticastlist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_IPV4Filter.GetMulticastList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_IPV4Filter::GetMulticastList
@@ -64,7 +63,7 @@ The <b>GetMulticastList</b> method retrieves the list of multicast addresses on 
 
 ### -param pulcbAddresses
 
-
+TBD
 
 
 ### -param pAddressList [out]

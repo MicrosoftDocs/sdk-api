@@ -4,17 +4,16 @@ title: IWICPlanarBitmapFrameEncode::WriteSource
 author: windows-sdk-content
 description: Writes lines from the source planes to the encoded format.
 old-location: wic\iwicplanarbitmapframeencode_writesource.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 220D9216-1053-48E1-B7FD-5E3E46001562
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICPlanarBitmapFrameEncode interface [Windows Imaging Component],WriteSource method, IWICPlanarBitmapFrameEncode.WriteSource, IWICPlanarBitmapFrameEncode::WriteSource, WriteSource, WriteSource method [Windows Imaging Component], WriteSource method [Windows Imaging Component],IWICPlanarBitmapFrameEncode interface, wic.iwicplanarbitmapframeencode_writesource, wincodec/IWICPlanarBitmapFrameEncode::WriteSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICPlanarBitmapFrameEncode.WriteSource
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICPlanarBitmapFrameEncode::WriteSource

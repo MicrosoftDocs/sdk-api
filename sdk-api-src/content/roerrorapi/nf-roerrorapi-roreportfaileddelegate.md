@@ -4,17 +4,16 @@ title: RoReportFailedDelegate function
 author: windows-sdk-content
 description: Triggers the Global Error Handler when a delegate failure occurs.
 old-location: winrt\roreportfaileddelegate.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 0A35A174-9020-438E-94CF-3A790D158144
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RoReportFailedDelegate, RoReportFailedDelegate function [Windows Runtime], roerrorapi/RoReportFailedDelegate, winrt.roreportfaileddelegate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: RuntimeObject.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - RoReportFailedDelegate
 product: Windows
 targetos: Windows
-req.lib: RuntimeObject.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RoReportFailedDelegate function

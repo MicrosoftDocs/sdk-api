@@ -4,17 +4,16 @@ title: IDVBTLocator2::get_PhysicalLayerPipeId
 author: windows-sdk-content
 description: Identifies a Physical Layer Pipe (PLP) that carries a T2 logical data stream.
 old-location: mstv\idvbtlocator2_physicallayerpipeid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b8292803-6fde-497e-9add-cf9cafc73a96
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBTLocator2 interface [Microsoft TV Technologies],PhysicalLayerPipeId property, IDVBTLocator2.PhysicalLayerPipeId, IDVBTLocator2.get_PhysicalLayerPipeId, IDVBTLocator2::PhysicalLayerPipeId, IDVBTLocator2::get_PhysicalLayerPipeId, IDVBTLocator2::put_PhysicalLayerPipeId, PhysicalLayerPipeId property [Microsoft TV Technologies], PhysicalLayerPipeId property [Microsoft TV Technologies],IDVBTLocator2 interface, get_PhysicalLayerPipeId, mstv.idvbtlocator2_physicallayerpipeid, tuner/IDVBTLocator2::PhysicalLayerPipeId, tuner/IDVBTLocator2::get_PhysicalLayerPipeId, tuner/IDVBTLocator2::put_PhysicalLayerPipeId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDVBTLocator2.put_PhysicalLayerPipeId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBTLocator2::get_PhysicalLayerPipeId

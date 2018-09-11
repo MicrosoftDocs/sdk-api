@@ -4,17 +4,16 @@ title: UninitializeFlatSB function
 author: windows-sdk-content
 description: Uninitializes flat scroll bars for a particular window. The specified window will revert to standard scroll bars.
 old-location: controls\UninitializeFlatSB.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\uninitializeflatsb.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UninitializeFlatSB, UninitializeFlatSB function [Windows Controls], _win32_UninitializeFlatSB, _win32_UninitializeFlatSB_cpp, commctrl/UninitializeFlatSB, controls.UninitializeFlatSB, controls._win32_UninitializeFlatSB
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - UninitializeFlatSB
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll (version 4.71 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # UninitializeFlatSB function

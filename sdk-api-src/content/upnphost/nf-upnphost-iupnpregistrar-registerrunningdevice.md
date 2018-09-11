@@ -4,17 +4,16 @@ title: IUPnPRegistrar::RegisterRunningDevice
 author: windows-sdk-content
 description: The RegisterRunningDevice method registers a running device with the device host.
 old-location: upnp\iupnpregistrar_registerrunningdevice.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 4b494b7e-4fcc-4de0-bdcc-96c68a5e0688
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],RegisterRunningDevice method, IUPnPRegistrar.RegisterRunningDevice, IUPnPRegistrar::RegisterRunningDevice, RegisterRunningDevice, RegisterRunningDevice method [UPnP APIs], RegisterRunningDevice method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_registerrunningdevice, upnp.iupnpregistrar_registerrunningdevice, upnphost/IUPnPRegistrar::RegisterRunningDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPRegistrar.RegisterRunningDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnphost.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPRegistrar::RegisterRunningDevice

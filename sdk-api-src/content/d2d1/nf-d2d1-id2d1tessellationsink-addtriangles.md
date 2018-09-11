@@ -4,17 +4,16 @@ title: ID2D1TessellationSink::AddTriangles
 author: windows-sdk-content
 description: Copies the specified triangles to the sink.
 old-location: direct2d\ID2D1TessellationSink_AddTriangles.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 45084e57-d022-4bdb-9001-83e4e88c9c55
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddTriangles, AddTriangles method [Direct2D], AddTriangles method [Direct2D],ID2D1TessellationSink interface, ID2D1TessellationSink interface [Direct2D],AddTriangles method, ID2D1TessellationSink.AddTriangles, ID2D1TessellationSink::AddTriangles, d2d1/ID2D1TessellationSink::AddTriangles, direct2d.ID2D1TessellationSink_AddTriangles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1TessellationSink.AddTriangles
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1TessellationSink::AddTriangles

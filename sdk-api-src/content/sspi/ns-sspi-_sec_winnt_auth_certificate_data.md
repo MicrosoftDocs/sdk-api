@@ -4,17 +4,16 @@ title: "_SEC_WINNT_AUTH_CERTIFICATE_DATA"
 author: windows-sdk-content
 description: Specifies serialized certificate information.
 old-location: security\sec_winnt_auth_certificate_data.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 08dc5062-2925-4ec2-aef3-c7ff1cba9544
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA structure pointer [Security], SEC_WINNT_AUTH_CERTIFICATE_DATA, SEC_WINNT_AUTH_CERTIFICATE_DATA structure [Security], _SEC_WINNT_AUTH_CERTIFICATE_DATA, security.sec_winnt_auth_certificate_data, sspi/PSEC_WINNT_AUTH_CERTIFICATE_DATA, sspi/SEC_WINNT_AUTH_CERTIFICATE_DATA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_WINNT_AUTH_CERTIFICATE_DATA, *PSEC_WINNT_AUTH_CERTIFICATE_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEC_WINNT_AUTH_CERTIFICATE_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SEC_WINNT_AUTH_CERTIFICATE_DATA, *PSEC_WINNT_AUTH_CERTIFICATE_DATA
+req.redist: 
 ---
 
 # _SEC_WINNT_AUTH_CERTIFICATE_DATA structure

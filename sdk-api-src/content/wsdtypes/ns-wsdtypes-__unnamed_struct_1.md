@@ -4,17 +4,16 @@ title: REQUESTBODY_Subscribe
 author: windows-sdk-content
 description: Represents a WS-Eventing Subscribe request message.
 old-location: ncd\requestbody_subscribe_struct.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 28e7ee55-ad82-4ee6-9716-80951525ca96
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: REQUESTBODY_Subscribe, REQUESTBODY_Subscribe structure, ncd.requestbody_subscribe_struct, wsdtypes/REQUESTBODY_Subscribe
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REQUESTBODY_Subscribe
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REQUESTBODY_Subscribe
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: REQUESTBODY_Subscribe
+req.redist: 
 ---
 
 # REQUESTBODY_Subscribe structure

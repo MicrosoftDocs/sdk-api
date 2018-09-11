@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::HSGetConstantBuffers
 author: windows-sdk-content
 description: Get the constant buffers used by the hull-shader stage.
 old-location: direct3d11\id3d11devicecontext_hsgetconstantbuffers.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 82987afa-fcb4-4d87-ab53-916a9dac3609
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 46eee6d7-9ce0-ef7b-68bd-2f0c8f0b3136, HSGetConstantBuffers, HSGetConstantBuffers method [Direct3D 11], HSGetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSGetConstantBuffers method, ID3D11DeviceContext.HSGetConstantBuffers, ID3D11DeviceContext::HSGetConstantBuffers, d3d11/ID3D11DeviceContext::HSGetConstantBuffers, direct3d11.id3d11devicecontext_hsgetconstantbuffers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.HSGetConstantBuffers
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::HSGetConstantBuffers

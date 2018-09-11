@@ -4,17 +4,16 @@ title: IColumnData::GetColumnConfigData
 author: windows-sdk-content
 description: The IColumnData::GetColumnConfigData method enables a snap-in to retrieve the current width, order, and hidden status of each column in a column set that is stored in memory by MMC.
 old-location: mmc\icolumndata_getcolumnconfigdata.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 197804a2-63e5-4f0c-9d6d-4abc751a8a82
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetColumnConfigData, GetColumnConfigData method [MMC], GetColumnConfigData method [MMC],IColumnData interface, IColumnData interface [MMC],GetColumnConfigData method, IColumnData.GetColumnConfigData, IColumnData::GetColumnConfigData, _slate_icolumndata_getcolumnconfigdata, mmc.icolumndata_getcolumnconfigdata, mmc/IColumnData::GetColumnConfigData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IColumnData.GetColumnConfigData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IColumnData::GetColumnConfigData

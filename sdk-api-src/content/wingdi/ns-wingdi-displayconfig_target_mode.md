@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_TARGET_MODE
 author: windows-sdk-content
 description: The DISPLAYCONFIG_TARGET_MODE structure describes a display path target mode.
 old-location: display\displayconfig_target_mode.htm
-old-project: display
+tech.root: display
 ms.assetid: c81768f0-67d3-4ddd-94c8-013b1e4cf83e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_TARGET_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_TARGET_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_TARGET_MODE
+req.redist: 
 ---
 
 # DISPLAYCONFIG_TARGET_MODE structure

@@ -4,17 +4,16 @@ title: MCIWndGetInactiveTimer macro
 author: windows-sdk-content
 description: The MCIWndGetInactiveTimer macro retrieves the update period used when the MCIWnd window is the inactive window. You can use this macro or explicitly send the MCIWNDM_GETINACTIVETIMER message.
 old-location: multimedia\mciwndgetinactivetimer.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: a9683a34-7fbd-4878-a547-4421d5888308
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndGetInactiveTimer, MCIWndGetInactiveTimer macro [Windows Multimedia], _win32_MCIWndGetInactiveTimer, multimedia.mciwndgetinactivetimer, vfw/MCIWndGetInactiveTimer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndGetInactiveTimer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndGetInactiveTimer macro

@@ -4,17 +4,16 @@ title: ISpatialAudioMetadataWriter::Close
 author: windows-sdk-content
 description: Completes any needed operations on the metadata buffer and releases the specified ISpatialAudioMetadataItems object.
 old-location: coreaudio\ispatialaudiometadatawriter_close.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 2417E624-6535-49E2-9CF4-F927F731BE41
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: Close, Close method [Core Audio], Close method [Core Audio],ISpatialAudioMetadataWriter interface, ISpatialAudioMetadataWriter interface [Core Audio],Close method, ISpatialAudioMetadataWriter.Close, ISpatialAudioMetadataWriter::Close, coreaudio.ispatialaudiometadatawriter_close, spatialaudiometadata/ISpatialAudioMetadataWriter::Close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioMetadataWriter.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioMetadataWriter::Close

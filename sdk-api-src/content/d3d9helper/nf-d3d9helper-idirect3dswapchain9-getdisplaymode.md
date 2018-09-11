@@ -4,17 +4,16 @@ title: IDirect3DSwapChain9::GetDisplayMode
 author: windows-sdk-content
 description: Retrieves the display mode's spatial resolution, color resolution, and refresh frequency.
 old-location: direct3d9\idirect3dswapchain9__getdisplaymode.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__getdisplaymode.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetDisplayMode, GetDisplayMode method [Direct3D 9], GetDisplayMode method [Direct3D 9],IDirect3DSwapChain9 interface, IDirect3DSwapChain9 interface [Direct3D 9],GetDisplayMode method, IDirect3DSwapChain9.GetDisplayMode, IDirect3DSwapChain9::GetDisplayMode, b01c04d0-2b7a-e281-bf1a-9932194412c6, d3d9helper/IDirect3DSwapChain9::GetDisplayMode, direct3d9.idirect3dswapchain9__getdisplaymode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DSwapChain9.GetDisplayMode
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DSwapChain9::GetDisplayMode

@@ -4,17 +4,16 @@ title: PGET_GLOBAL_INFO
 author: windows-sdk-content
 description: The GetGlobalInfo function retrieves global (as opposed to interface-specific) configuration information kept by the routing protocol.
 old-location: rras\getglobalinfo.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 89d4ca42-8f78-40bd-96f0-ad10181cb2d4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetGlobalInfo, GetGlobalInfo callback function [RAS], PGET_GLOBAL_INFO, PGET_GLOBAL_INFO callback, _mpr_getglobalinfo, routprot/GetGlobalInfo, rras.getglobalinfo
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetGlobalInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PGET_GLOBAL_INFO callback function

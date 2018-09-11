@@ -4,17 +4,16 @@ title: DWRITE_FACTORY_TYPE
 author: windows-sdk-content
 description: Specifies the type of DirectWrite factory object.
 old-location: directwrite\dwrite_factory_type.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: ce51d8cd-3125-49e3-878c-9d4b446e2422
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_FACTORY_TYPE, DWRITE_FACTORY_TYPE enumeration [Direct Write], DWRITE_FACTORY_TYPE_ISOLATED, DWRITE_FACTORY_TYPE_SHARED, directwrite.dwrite_factory_type, dwrite/DWRITE_FACTORY_TYPE, dwrite/DWRITE_FACTORY_TYPE_ISOLATED, dwrite/DWRITE_FACTORY_TYPE_SHARED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_FACTORY_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_FACTORY_TYPE enumeration

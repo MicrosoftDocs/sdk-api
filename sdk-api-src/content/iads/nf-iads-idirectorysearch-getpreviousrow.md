@@ -4,17 +4,16 @@ title: IDirectorySearch::GetPreviousRow
 author: windows-sdk-content
 description: The IDirectorySearch::GetPreviousRow method gets the previous row of the search result. If the provider does not provide cursor support, it should return E_NOTIMPL.
 old-location: adsi\idirectorysearch_getpreviousrow.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: fccc9763-c64d-474b-a0c0-9bc9d4e34d65
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetPreviousRow, GetPreviousRow method [ADSI], GetPreviousRow method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetPreviousRow method, IDirectorySearch.GetPreviousRow, IDirectorySearch::GetPreviousRow, _ds_idirectorysearch_getpreviousrow, adsi.idirectorysearch__getpreviousrow, adsi.idirectorysearch_getpreviousrow, iads/IDirectorySearch::GetPreviousRow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDirectorySearch.GetPreviousRow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectorySearch::GetPreviousRow
@@ -64,7 +62,7 @@ The <b>IDirectorySearch::GetPreviousRow</b> method gets the previous row of the 
 
 ### -param hSearchResult
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: GetPointerFrameTouchInfoHistory function
 author: windows-sdk-content
 description: Gets the entire frame of touch-based information (including coalesced input frames) for the specified pointers (of type PT_TOUCH) associated with the current message.
 old-location: inputmsg\getpointerframetouchinfohistory.htm
-old-project: InputMsg
+tech.root: InputMsg
 ms.assetid: f2521a67-9850-46e9-bc8b-75bf5b6cc263
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetPointerFrameTouchInfoHistory, GetPointerFrameTouchInfoHistory function [Input Messages and Notifications], inputmsg.getpointerframetouchinfohistory, winuser/GetPointerFrameTouchInfoHistory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetPointerFrameTouchInfoHistory
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetPointerFrameTouchInfoHistory function

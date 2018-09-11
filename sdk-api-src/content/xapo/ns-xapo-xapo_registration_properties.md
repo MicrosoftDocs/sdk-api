@@ -4,17 +4,16 @@ title: XAPO_REGISTRATION_PROPERTIES
 author: windows-sdk-content
 description: Describes general characteristics of an XAPO. Used with IXAPO::GetRegistrationProperties, CXAPOParametersBase::CXAPOParametersBase, and CXAPOBase::CXAPOBase.
 old-location: xaudio2\xapo_registration_properties.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_REGISTRATION_PROPERTIES
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: XAPO_REGISTRATION_PROPERTIES, XAPO_REGISTRATION_PROPERTIES structure [XAudio2 Audio Mixing APIs], xapo/XAPO_REGISTRATION_PROPERTIES, xaudio2.xapo_registration_properties
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: xapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAPO_REGISTRATION_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XAPO_REGISTRATION_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XAPO_REGISTRATION_PROPERTIES
+req.redist: 
 ---
 
 # XAPO_REGISTRATION_PROPERTIES structure

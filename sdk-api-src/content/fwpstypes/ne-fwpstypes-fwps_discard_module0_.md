@@ -4,7 +4,7 @@ title: FWPS_DISCARD_MODULE0_
 author: windows-sdk-content
 description: The FWPS_DISCARD_MODULE0 enumeration type specifies the type of module that discarded the data.Note  FWPS_DISCARD_MODULE0 is a specific version of FWPS_DISCARD_MODULE.
 old-location: netvista\fwps_discard_module0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d9237268-a5e1-4b1c-91f7-9e894876ca87
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows Vista.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPS_DISCARD_MODULE0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPS_DISCARD_MODULE0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPS_DISCARD_MODULE0
+req.redist: 
 ---
 
 # FWPS_DISCARD_MODULE0_ enumeration

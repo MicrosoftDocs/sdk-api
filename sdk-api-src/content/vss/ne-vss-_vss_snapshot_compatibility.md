@@ -4,17 +4,16 @@ title: "_VSS_SNAPSHOT_COMPATIBILITY"
 author: windows-sdk-content
 description: The VSS_SNAPSHOT_COMPATIBILITY enumeration indicates which volume control or file I/O operations are disabled for the volume that has been shadow copied.
 old-location: base\vss_snapshot_compatibility.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 105d7bd6-0e95-4803-ae39-f03af40daa8e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: VSS_SC_DISABLE_CONTENTINDEX, VSS_SC_DISABLE_DEFRAG, VSS_SNAPSHOT_COMPATIBILITY, VSS_SNAPSHOT_COMPATIBILITY enumeration [VSS], _VSS_SNAPSHOT_COMPATIBILITY, _win32_vss_snapshot_compatibility, base.vss_snapshot_compatibility, vss/VSS_SC_DISABLE_CONTENTINDEX, vss/VSS_SC_DISABLE_DEFRAG, vss/VSS_SNAPSHOT_COMPATIBILITY
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_SNAPSHOT_COMPATIBILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_SNAPSHOT_COMPATIBILITY
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_SNAPSHOT_COMPATIBILITY
+req.redist: 
 ---
 
 # _VSS_SNAPSHOT_COMPATIBILITY enumeration

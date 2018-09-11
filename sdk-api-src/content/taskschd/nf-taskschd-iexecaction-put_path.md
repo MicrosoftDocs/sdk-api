@@ -4,17 +4,16 @@ title: IExecAction::put_Path
 author: windows-sdk-content
 description: Gets or sets the path to an executable file.
 old-location: taskschd\iexecaction_path.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 307e59e9-5460-40aa-bac7-fa8cb4755d35
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IExecAction interface [Task Scheduler],Path property, IExecAction.Path, IExecAction.put_Path, IExecAction::Path, IExecAction::get_Path, IExecAction::put_Path, Path property [Task Scheduler], Path property [Task Scheduler],IExecAction interface, put_Path, taskschd.iexecaction_path, taskschd/IExecAction::Path, taskschd/IExecAction::get_Path, taskschd/IExecAction::put_Path
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IExecAction.put_Path
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IExecAction::put_Path

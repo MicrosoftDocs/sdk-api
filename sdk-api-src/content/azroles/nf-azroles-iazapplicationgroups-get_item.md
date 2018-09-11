@@ -4,17 +4,16 @@ title: IAzApplicationGroups::get_Item
 author: windows-sdk-content
 description: Retrieves the IAzApplicationGroup object at the specified index into the IAzApplicationGroups collection.
 old-location: security\iazapplicationgroups_item.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9b895379-9b2f-45f5-997e-b589f08d7d6e
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzApplicationGroups object [Security],Item property, IAzApplicationGroups interface [Security],Item property, IAzApplicationGroups.Item, IAzApplicationGroups.get_Item, IAzApplicationGroups::Item, IAzApplicationGroups::get_Item, Item property [Security], Item property [Security],AzApplicationGroups object, Item property [Security],IAzApplicationGroups interface, azroles/IAzApplicationGroups::Item, azroles/IAzApplicationGroups::get_Item, get_Item, security.iazapplicationgroups_item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzApplicationGroups.Item
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplicationGroups::get_Item

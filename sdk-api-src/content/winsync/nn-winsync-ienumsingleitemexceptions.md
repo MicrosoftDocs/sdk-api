@@ -4,17 +4,16 @@ title: IEnumSingleItemExceptions
 author: windows-sdk-content
 description: Enumerates single-item exceptions that are stored in a knowledge object.
 old-location: winsync\ienumsingleitemexceptions.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: fed8a258-bc23-454b-9d8a-e3873481b33b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumSingleItemExceptions, IEnumSingleItemExceptions interface [Windows Sync], IEnumSingleItemExceptions interface [Windows Sync],described, winsync.ienumsingleitemexceptions, winsync/IEnumSingleItemExceptions
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSingleItemExceptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSingleItemExceptions interface

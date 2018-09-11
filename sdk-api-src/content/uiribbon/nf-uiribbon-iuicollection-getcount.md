@@ -4,17 +4,16 @@ title: IUICollection::GetCount
 author: windows-sdk-content
 description: Retrieves the number of items contained in the IUICollection.
 old-location: windowsribbon\windowsribbon_iuicollection_getcount.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\getcount.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetCount, GetCount method [Windows Ribbon], GetCount method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],GetCount method, IUICollection.GetCount, IUICollection::GetCount, scenicintent_IUICollection_GetCount, uiribbon/IUICollection::GetCount, windowsribbon.windowsribbon_iuicollection_getcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUICollection.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mshtml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows UI
 ---
 

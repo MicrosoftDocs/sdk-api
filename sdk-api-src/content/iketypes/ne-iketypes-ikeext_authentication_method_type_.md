@@ -4,7 +4,7 @@ title: IKEEXT_AUTHENTICATION_METHOD_TYPE_
 author: windows-sdk-content
 description: Specifies the type of authentication method used by Internet Key Exchange (IKE), Authenticated Internet Protocol (AuthIP), or IKEv2.
 old-location: fwp\ikeext_authentication_method_type.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 582ec1ea-9390-4f86-9a3c-25d4e805a218
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_AUTHENTICATION_METHOD_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_AUTHENTICATION_METHOD_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_AUTHENTICATION_METHOD_TYPE
+req.redist: 
 ---
 
 # IKEEXT_AUTHENTICATION_METHOD_TYPE_ enumeration

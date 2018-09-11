@@ -4,7 +4,7 @@ title: PDD_SURFCB_ADDATTACHEDSURFACE
 author: windows-sdk-content
 description: The DdAddAttachedSurface callback function attaches a surface to another surface.
 old-location: display\ddaddattachedsurface.htm
-old-project: display
+tech.root: display
 ms.assetid: 53f146e6-f521-4c95-b98b-0e8acb994c9d
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdAddAttachedSurface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PDD_SURFCB_ADDATTACHEDSURFACE callback function

@@ -4,7 +4,7 @@ title: IKEEXT_CREDENTIAL2_
 author: windows-sdk-content
 description: Is used to store credential information used for the authentication.
 old-location: fwp\ikeext_credential2.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: b27689ef-5e2a-4163-a4d7-40f8939d4c66
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_CREDENTIAL2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_CREDENTIAL2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_CREDENTIAL2
+req.redist: 
 ---
 
 # IKEEXT_CREDENTIAL2_ structure

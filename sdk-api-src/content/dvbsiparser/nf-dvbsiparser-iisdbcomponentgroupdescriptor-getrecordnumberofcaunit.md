@@ -4,17 +4,16 @@ title: IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit
 author: windows-sdk-content
 description: Gets the number of conditional access unit records in a component group from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordnumberofcaunit.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 239d952f-908d-4aa9-86c0-f58f7616987f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordNumberOfCAUnit, GetRecordNumberOfCAUnit method [Microsoft TV Technologies], GetRecordNumberOfCAUnit method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordNumberOfCAUnit method, IIsdbComponentGroupDescriptor.GetRecordNumberOfCAUnit, IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit, mstv.iisdbcomponentgroupdescriptor_getrecordnumberofcaunit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbComponentGroupDescriptor.GetRecordNumberOfCAUnit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit

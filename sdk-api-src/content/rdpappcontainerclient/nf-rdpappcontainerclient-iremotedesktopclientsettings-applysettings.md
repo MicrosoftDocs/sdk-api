@@ -4,17 +4,16 @@ title: IRemoteDesktopClientSettings::ApplySettings
 author: windows-sdk-content
 description: Stores the specified contents in the RDP file.
 old-location: termserv\iremotedesktopclientsettings_applysettings.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 24f17f50-6cb0-422a-88c6-77bae48af392
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ApplySettings, ApplySettings method [Remote Desktop Services], ApplySettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, IRemoteDesktopClientSettings interface [Remote Desktop Services],ApplySettings method, IRemoteDesktopClientSettings.ApplySettings, IRemoteDesktopClientSettings::ApplySettings, rdpappcontainerclient/IRemoteDesktopClientSettings::ApplySettings, termserv.iremotedesktopclientsettings_applysettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: SnapshotFormatType
+req.lib: 
+req.dll: MsTscAx.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRemoteDesktopClientSettings.ApplySettings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRemoteDesktopClientSettings::ApplySettings
@@ -65,7 +63,7 @@ Stores the specified contents in the RDP file.
 
 ### -param rdpFileContents
 
-
+TBD
 
 
 

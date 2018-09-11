@@ -4,17 +4,16 @@ title: tagTRACKMOUSEEVENT
 author: windows-sdk-content
 description: Used by the TrackMouseEvent function to track when the mouse pointer leaves a window or hovers over a window for a specified amount of time.
 old-location: inputdev\trackmouseevent_str.htm
-old-project: inputdev
+tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputstructures\trackmouseevent.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPTRACKMOUSEEVENT, LPTRACKMOUSEEVENT, LPTRACKMOUSEEVENT structure pointer [Keyboard and Mouse Input], TME_CANCEL, TME_HOVER, TME_LEAVE, TME_NONCLIENT, TME_QUERY, TRACKMOUSEEVENT, TRACKMOUSEEVENT structure [Keyboard and Mouse Input], _win32_TRACKMOUSEEVENT_str, _win32_trackmouseevent_str_cpp, inputdev.trackmouseevent_str, tagTRACKMOUSEEVENT, winui._win32_trackmouseevent_str, winuser/LPTRACKMOUSEEVENT, winuser/TRACKMOUSEEVENT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKMOUSEEVENT, *LPTRACKMOUSEEVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRACKMOUSEEVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TRACKMOUSEEVENT, *LPTRACKMOUSEEVENT
+req.redist: 
 ---
 
 # tagTRACKMOUSEEVENT structure

@@ -4,17 +4,16 @@ title: DateTime_SetSystemtime macro
 author: windows-sdk-content
 description: Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the DTM_SETSYSTEMTIME message explicitly.
 old-location: controls\DateTime_SetSystemtime.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setsystemtime.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DateTime_SetSystemtime, DateTime_SetSystemtime macro [Windows Controls], GDT_NONE, GDT_VALID, _win32_DateTime_SetSystemtime, _win32_DateTime_SetSystemtime_cpp, commctrl/DateTime_SetSystemtime, controls.DateTime_SetSystemtime, controls._win32_DateTime_SetSystemtime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DateTime_SetSystemtime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DateTime_SetSystemtime macro

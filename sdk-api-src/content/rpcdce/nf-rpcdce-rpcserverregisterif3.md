@@ -4,17 +4,16 @@ title: RpcServerRegisterIf3 function
 author: windows-sdk-content
 description: The RpcServerRegisterIf3 function registers an interface with the RPC run-time library.
 old-location: rpc\rpcserverregisterif3.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: D685B7A6-7E22-419F-B476-F0372836D16A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcServerRegisterIf3, RpcServerRegisterIf3 function [RPC], rpc.rpcserverregisterif3, rpcdce/RpcServerRegisterIf3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcServerRegisterIf3
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcServerRegisterIf3 function

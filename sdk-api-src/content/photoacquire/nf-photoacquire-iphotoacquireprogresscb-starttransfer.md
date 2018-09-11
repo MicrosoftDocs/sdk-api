@@ -4,17 +4,16 @@ title: IPhotoAcquireProgressCB::StartTransfer
 author: windows-sdk-content
 description: The StartTransfer method provides additional processing when transfer of items from the device begins. The application provides the implementation of the StartTransfer method.
 old-location: picacq\iphotoacquireprogresscb_starttransfer.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 8fff67d0-5d0a-4d8d-bc59-55cb65b77147
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartTransfer method, IPhotoAcquireProgressCB.StartTransfer, IPhotoAcquireProgressCB::StartTransfer, IPhotoAcquireProgressCBStartTransfer, StartTransfer, StartTransfer method [Picture Acquisition], StartTransfer method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartTransfer, picacq.iphotoacquireprogresscb_starttransfer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireProgressCB.StartTransfer
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireProgressCB::StartTransfer

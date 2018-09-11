@@ -4,17 +4,16 @@ title: IMFVideoProcessorControl2::GetSupportedHardwareEffects
 author: windows-sdk-content
 description: Returns the list of supported effects in the currently configured video processor.
 old-location: mf\imfvideoprocessorcontrol2_getsupportedhardwareeffects.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0D5FE2B8-B8DD-40DE-8B41-40E773976BE6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetSupportedHardwareEffects, GetSupportedHardwareEffects method [Media Foundation], GetSupportedHardwareEffects method [Media Foundation],IMFVideoProcessorControl2 interface, IMFVideoProcessorControl2 interface [Media Foundation],GetSupportedHardwareEffects method, IMFVideoProcessorControl2.GetSupportedHardwareEffects, IMFVideoProcessorControl2::GetSupportedHardwareEffects, mf.imfvideoprocessorcontrol2_getsupportedhardwareeffects, mfidl/IMFVideoProcessorControl2::GetSupportedHardwareEffects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFVideoProcessorControl2.GetSupportedHardwareEffects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoProcessorControl2::GetSupportedHardwareEffects

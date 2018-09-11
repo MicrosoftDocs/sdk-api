@@ -4,17 +4,16 @@ title: AcquireDeveloperLicense function
 author: windows-sdk-content
 description: Acquires a developer license.
 old-location: devlic\acquiredeveloperlicense.htm
-old-project: devlic
+tech.root: devlic
 ms.assetid: 0F6316B4-3FE2-405E-B8C0-AB371F95BCE1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AcquireDeveloperLicense, AcquireDeveloperLicense function, devlic.acquiredeveloperlicense, wsdevlicensing/AcquireDeveloperLicense
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wsdevlicensing.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: WSClient.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AcquireDeveloperLicense
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: WSClient.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # AcquireDeveloperLicense function

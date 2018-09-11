@@ -4,17 +4,16 @@ title: IDirectMusicSynth::Close
 author: windows-sdk-content
 description: The Close method closes a DirectMusic &#0034;port&#0034;, which is a DirectMusic term for a device that sends or receives music data.
 old-location: audio\idirectmusicsynth_close.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 275d9ad3-9dde-4cfb-a67f-24da3a0ad2ce
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Close, Close method [Audio Devices], Close method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Close method, IDirectMusicSynth.Close, IDirectMusicSynth::Close, audio.idirectmusicsynth_close, audmp-routines_e0ff55d1-46e2-42a0-afe4-a4129e663ddd.xml, dmusics/IDirectMusicSynth::Close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectMusicSynth.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectMusicSynth::Close

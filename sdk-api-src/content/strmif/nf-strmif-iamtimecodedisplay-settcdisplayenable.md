@@ -4,17 +4,16 @@ title: IAMTimecodeDisplay::SetTCDisplayEnable
 author: windows-sdk-content
 description: The SetTCDisplayEnable method enables or disables an external device's timecode character output generator.
 old-location: dshow\iamtimecodedisplay_settcdisplayenable.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ae4eeeaa-1c73-4e3a-82b1-a073d9c7d667
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMTimecodeDisplay interface [DirectShow],SetTCDisplayEnable method, IAMTimecodeDisplay.SetTCDisplayEnable, IAMTimecodeDisplay::SetTCDisplayEnable, IAMTimecodeDisplaySetTCDisplayEnable, SetTCDisplayEnable, SetTCDisplayEnable method [DirectShow], SetTCDisplayEnable method [DirectShow],IAMTimecodeDisplay interface, dshow.iamtimecodedisplay_settcdisplayenable, strmif/IAMTimecodeDisplay::SetTCDisplayEnable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTimecodeDisplay.SetTCDisplayEnable
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTimecodeDisplay::SetTCDisplayEnable

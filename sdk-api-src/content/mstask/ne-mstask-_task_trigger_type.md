@@ -4,17 +4,16 @@ title: "_TASK_TRIGGER_TYPE"
 author: windows-sdk-content
 description: Defines the types of triggers associated with a task.
 old-location: taskschd\task_trigger_type.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 07cba55c-47af-4879-b7be-12952763e016
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTASK_TRIGGER_TYPE, PTASK_TRIGGER_TYPE, PTASK_TRIGGER_TYPE enumeration pointer [Task Scheduler], TASK_EVENT_TRIGGER_AT_LOGON, TASK_EVENT_TRIGGER_AT_SYSTEMSTART, TASK_EVENT_TRIGGER_ON_IDLE, TASK_TIME_TRIGGER_DAILY, TASK_TIME_TRIGGER_MONTHLYDATE, TASK_TIME_TRIGGER_MONTHLYDOW, TASK_TIME_TRIGGER_ONCE, TASK_TIME_TRIGGER_WEEKLY, TASK_TRIGGER_TYPE, TASK_TRIGGER_TYPE enumeration [Task Scheduler], _TASK_TRIGGER_TYPE, _msb_task_trigger_type, mstask/PTASK_TRIGGER_TYPE, mstask/TASK_EVENT_TRIGGER_AT_LOGON, mstask/TASK_EVENT_TRIGGER_AT_SYSTEMSTART, mstask/TASK_EVENT_TRIGGER_ON_IDLE, mstask/TASK_TIME_TRIGGER_DAILY, mstask/TASK_TIME_TRIGGER_MONTHLYDATE, mstask/TASK_TIME_TRIGGER_MONTHLYDOW, mstask/TASK_TIME_TRIGGER_ONCE, mstask/TASK_TIME_TRIGGER_WEEKLY, mstask/TASK_TRIGGER_TYPE, taskschd.task_trigger_type"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mstask.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TASK_TRIGGER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.redist: 
 ---
 
 # _TASK_TRIGGER_TYPE enumeration

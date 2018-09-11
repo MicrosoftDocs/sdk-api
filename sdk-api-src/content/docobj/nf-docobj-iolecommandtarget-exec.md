@@ -4,17 +4,16 @@ title: IOleCommandTarget::Exec
 author: windows-sdk-content
 description: Executes the specified command or displays help for the command.
 old-location: com\iolecommandtarget_exec.htm
-old-project: com
+tech.root: com
 ms.assetid: a2071ca9-8675-4f53-b30e-8c7198c2acca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Exec, Exec method [COM], Exec method [COM],IOleCommandTarget interface, IOleCommandTarget interface [COM],Exec method, IOleCommandTarget.Exec, IOleCommandTarget::Exec, _ole_iolecommandtarget_exec, com.iolecommandtarget_exec, docobj/IOleCommandTarget::Exec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOleCommandTarget.Exec
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOleCommandTarget::Exec

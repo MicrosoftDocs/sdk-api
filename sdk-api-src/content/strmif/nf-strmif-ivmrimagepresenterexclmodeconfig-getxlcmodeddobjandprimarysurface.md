@@ -4,17 +4,16 @@ title: IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
 author: windows-sdk-content
 description: The GetXlcModeDDObjAndPrimarySurface method retrieves the DirectDraw object and primary surface currently being used by a VMR that has been configured for DirectDraw Exclusive Mode using the SetXlcModeDDObjAndPrimarySurface method.
 old-location: dshow\ivmrimagepresenterexclmodeconfig_getxlcmodeddobjandprimarysurface.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 09b756de-7fd2-44d8-9ef3-6b5dc56cb8b3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetXlcModeDDObjAndPrimarySurface, GetXlcModeDDObjAndPrimarySurface method [DirectShow], GetXlcModeDDObjAndPrimarySurface method [DirectShow],IVMRImagePresenterExclModeConfig interface, IVMRImagePresenterExclModeConfig interface [DirectShow],GetXlcModeDDObjAndPrimarySurface method, IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface, IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface, dshow.ivmrimagepresenterexclmodeconfig_getxlcmodeddobjandprimarysurface, strmif/IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface

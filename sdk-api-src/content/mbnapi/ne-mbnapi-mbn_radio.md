@@ -4,17 +4,16 @@ title: MBN_RADIO
 author: windows-sdk-content
 description: The MBN_RADIO enumerated type indicates whether the device radio is on or off.
 old-location: mbn\mbn_radio.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 4655b909-7c30-4781-8171-7d7ba0e934ec
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_RADIO, MBN_RADIO enumeration [Microsoft Broadband Networks], MBN_RADIO_OFF, MBN_RADIO_ON, mbn.mbn_radio, mbnapi/MBN_RADIO, mbnapi/MBN_RADIO_OFF, mbnapi/MBN_RADIO_ON
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_RADIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_RADIO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_RADIO
+req.redist: 
 ---
 
 # MBN_RADIO enumeration

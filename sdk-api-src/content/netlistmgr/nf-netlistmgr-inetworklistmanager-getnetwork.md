@@ -4,17 +4,16 @@ title: INetworkListManager::GetNetwork
 author: windows-sdk-content
 description: The GetNetwork method retrieves a network based on a supplied network ID.
 old-location: nla\inetworklistmanager_getnetwork.htm
-old-project: nla
+tech.root: nla
 ms.assetid: a4418884-8df6-4f5b-b9ef-c3cae2bcee47
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetNetwork, GetNetwork method [Network Awareness], GetNetwork method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetwork method, INetworkListManager.GetNetwork, INetworkListManager::GetNetwork, netlistmgr/INetworkListManager::GetNetwork, nla.inetworklistmanager_getnetwork
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetworkListManager.GetNetwork
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkListManager::GetNetwork

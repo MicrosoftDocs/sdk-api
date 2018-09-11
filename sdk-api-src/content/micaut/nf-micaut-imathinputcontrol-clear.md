@@ -4,17 +4,16 @@ title: IMathInputControl::Clear
 author: windows-sdk-content
 description: Clears all ink from the control.
 old-location: tablet\imathinputcontrol_clear.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: e9482f82-a08a-498d-bad0-3a1438231b23
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: Clear, Clear method [Tablet PC], Clear method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],Clear method, IMathInputControl.Clear, IMathInputControl::Clear, micaut/IMathInputControl::Clear, tablet.imathinputcontrol_clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMathInputControl.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMathInputControl::Clear

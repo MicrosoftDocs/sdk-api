@@ -4,17 +4,16 @@ title: IMFTimedTextCue::GetLine
 author: windows-sdk-content
 description: Gets a line of text in the cue from the index of the line.
 old-location: mf\imftimedtextcue_getline.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: CD29A63D-8D40-43E6-972C-7050E63EA7D3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetLine, GetLine method [Media Foundation], GetLine method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetLine method, IMFTimedTextCue.GetLine, IMFTimedTextCue::GetLine, mf.imftimedtextcue_getline, mfmediaengine/IMFTimedTextCue::GetLine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextCue.GetLine
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextCue::GetLine
@@ -62,12 +60,12 @@ Gets a line of text in the cue from the index of the line.
 
 ### -param index
 
-
+TBD
 
 
 ### -param line
 
-
+TBD
 
 
 

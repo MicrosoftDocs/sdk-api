@@ -4,17 +4,16 @@ title: IVssWriterComponents::GetWriterInfo
 author: windows-sdk-content
 description: The GetWriterInfo method gets the instance and class identifier of the writer responsible for the components.
 old-location: base\ivsswritercomponents_getwriterinfo.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 22a539ac-1440-4fe9-b68e-feec97cab6c8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetWriterInfo, GetWriterInfo method [VSS], GetWriterInfo method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetWriterInfo method, IVssWriterComponents.GetWriterInfo, IVssWriterComponents::GetWriterInfo, _win32_ivsswritercomponents_getwriterinfo, base.ivsswritercomponents_getwriterinfo, vswriter/IVssWriterComponents::GetWriterInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssWriterComponents.GetWriterInfo
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssWriterComponents::GetWriterInfo

@@ -4,17 +4,16 @@ title: OnlineClusterResourceEx function
 author: windows-sdk-content
 description: Brings an offline or failed resource online.
 old-location: mscs\onlineclusterresourceex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 8A41D266-0FBD-4063-9C79-E22924129989
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSAPI_GROUP_ONLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_RESOURCE_ONLINE_BEST_POSSIBLE_NODE, CLUSAPI_RESOURCE_ONLINE_DO_NOT_UPDATE_PERSISTENT_STATE, CLUSAPI_RESOURCE_ONLINE_NECESSARY_FOR_QUORUM, OnlineClusterResourceEx, OnlineClusterResourceEx function [Failover Cluster], clusapi/OnlineClusterResourceEx, mscs.onlineclusterresourceex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - OnlineClusterResourceEx
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # OnlineClusterResourceEx function

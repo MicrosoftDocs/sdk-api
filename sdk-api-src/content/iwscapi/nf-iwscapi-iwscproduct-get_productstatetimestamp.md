@@ -4,17 +4,16 @@ title: IWscProduct::get_ProductStateTimestamp
 author: windows-sdk-content
 description: Returns the current time stamp for the security product.
 old-location: winprog\iwscproduct_producttimestamp.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 3BE70437-8BBE-47DF-8C5E-390353073580
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWscProduct interface [Windows API],get_ProductStateTimeStamp method, IWscProduct.get_ProductStateTimestamp, IWscProduct::get_ProductStateTimeStamp, IWscProduct::get_ProductStateTimestamp, get_ProductStateTimeStamp, get_ProductStateTimeStamp method [Windows API], get_ProductStateTimeStamp method [Windows API],IWscProduct interface, get_ProductStateTimestamp, iwscapi/IWscProduct::get_ProductStateTimeStamp, winprog.iwscproduct_producttimestamp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iwscapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_SECURITY_SIGNATURE_STATUS
+req.lib: Wscapi.lib
+req.dll: Wscapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWscProduct.get_ProductStateTimeStamp
 product: Windows
 targetos: Windows
-req.lib: Wscapi.lib
-req.dll: Wscapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IWscProduct::get_ProductStateTimestamp

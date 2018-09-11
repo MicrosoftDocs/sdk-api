@@ -4,17 +4,16 @@ title: IRdcGenerator
 author: windows-sdk-content
 description: Used to process the input data and read the parameters used by the generator.
 old-location: rdc\irdcgenerator.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 0288318a-0974-4870-b423-87c52090eb33
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IRdcGenerator, IRdcGenerator interface [Remote Differential Compression], IRdcGenerator interface [Remote Differential Compression],described, fs.irdcgenerator, msrdc/IRdcGenerator, rdc.irdcgenerator
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcGenerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcGenerator interface

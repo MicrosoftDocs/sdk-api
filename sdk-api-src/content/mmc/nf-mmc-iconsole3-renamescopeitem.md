@@ -4,17 +4,16 @@ title: IConsole3::RenameScopeItem
 author: windows-sdk-content
 description: The RenameScopeItem method programmatically puts the specified scope item in rename mode. Subsequently, the user can manually enter the new name.
 old-location: mmc\iconsole3_renamescopeitem.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: ebbdc395-e94f-4e86-965c-59bf7a49bbeb
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IConsole3 interface [MMC],RenameScopeItem method, IConsole3.RenameScopeItem, IConsole3::RenameScopeItem, RenameScopeItem, RenameScopeItem method [MMC], RenameScopeItem method [MMC],IConsole3 interface, _slate_iconsole3_renamescopeitem, mmc.iconsole3_renamescopeitem, mmc/IConsole3::RenameScopeItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: Mmc.lib
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConsole3.RenameScopeItem
 product: Windows
 targetos: Windows
-req.lib: Mmc.lib
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConsole3::RenameScopeItem

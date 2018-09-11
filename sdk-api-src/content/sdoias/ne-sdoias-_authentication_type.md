@@ -4,7 +4,7 @@ title: "_AUTHENTICATION_TYPE"
 author: windows-sdk-content
 description: The values of the AUTHENTICATION_TYPE enumerated type are used to specify the authentication method.
 old-location: nps\sdo_authentication_type.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 55254986-8dfe-4ae1-84a1-3dc66b4e1190
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.unicode-ansi: 
 req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHENTICATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUTHENTICATION_TYPE
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: AUTHENTICATION_TYPE
+req.redist: 
 ---
 
 # _AUTHENTICATION_TYPE enumeration

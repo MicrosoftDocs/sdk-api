@@ -4,17 +4,16 @@ title: IAudioEndpointControl::Reset
 author: windows-sdk-content
 description: Resets the endpoint stream.
 old-location: termserv\iaudioendpointcontrol_reset.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: f21a245c-b47b-425d-8054-330e265f16f1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAudioEndpointControl interface [Remote Desktop Services],Reset method, IAudioEndpointControl.Reset, IAudioEndpointControl::Reset, Reset, Reset method [Remote Desktop Services], Reset method [Remote Desktop Services],IAudioEndpointControl interface, audioengineendpoint/IAudioEndpointControl::Reset, termserv.iaudioendpointcontrol_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioEndpointControl.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpointControl::Reset

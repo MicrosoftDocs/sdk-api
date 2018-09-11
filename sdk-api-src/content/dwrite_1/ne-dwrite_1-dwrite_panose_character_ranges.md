@@ -4,17 +4,16 @@ title: DWRITE_PANOSE_CHARACTER_RANGES
 author: windows-sdk-content
 description: The DWRITE_PANOSE_CHARACTER_RANGES enumeration contains values that specify the type of characters available in the font.
 old-location: directwrite\dwrite_panose_character_ranges.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: A50F0296-D977-47C5-9E41-9567980B16A6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_PANOSE_CHARACTER_RANGES, DWRITE_PANOSE_CHARACTER_RANGES enumeration [Direct Write], DWRITE_PANOSE_CHARACTER_RANGES_ANY, DWRITE_PANOSE_CHARACTER_RANGES_EXTENDED_COLLECTION, DWRITE_PANOSE_CHARACTER_RANGES_LITERALS, DWRITE_PANOSE_CHARACTER_RANGES_NO_FIT, DWRITE_PANOSE_CHARACTER_RANGES_NO_LOWER_CASE, DWRITE_PANOSE_CHARACTER_RANGES_SMALL_CAPS, directwrite.dwrite_panose_character_ranges, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_ANY, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_EXTENDED_COLLECTION, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_LITERALS, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_NO_FIT, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_NO_LOWER_CASE, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_SMALL_CAPS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_PANOSE_CHARACTER_RANGES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_PANOSE_CHARACTER_RANGES enumeration

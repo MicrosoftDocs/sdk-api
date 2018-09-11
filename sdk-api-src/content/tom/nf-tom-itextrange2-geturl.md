@@ -4,17 +4,16 @@ title: ITextRange2::GetURL
 author: windows-sdk-content
 description: Returns the URL text associated with a range.
 old-location: controls\itextrange2_geturl.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 0d23f261-0b44-4532-86da-0ca40561bfe0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetURL, GetURL method [Windows Controls], GetURL method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetURL method, ITextRange2.GetURL, ITextRange2::GetURL, controls.itextrange2_geturl, tom/ITextRange2::GetURL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange2.GetURL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange2::GetURL

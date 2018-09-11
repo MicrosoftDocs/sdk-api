@@ -4,17 +4,16 @@ title: ID3D11Buffer::GetDesc
 author: windows-sdk-content
 description: Get the properties of a buffer resource.
 old-location: direct3d11\id3d11buffer_getdesc.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 8db8b50c-4e92-4255-a6b9-04caa685b78b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 136b2c3a-1bef-0fe6-e772-112ed493fb11, GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11Buffer interface, ID3D11Buffer interface [Direct3D 11],GetDesc method, ID3D11Buffer.GetDesc, ID3D11Buffer::GetDesc, d3d11/ID3D11Buffer::GetDesc, direct3d11.id3d11buffer_getdesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Buffer.GetDesc
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Buffer::GetDesc

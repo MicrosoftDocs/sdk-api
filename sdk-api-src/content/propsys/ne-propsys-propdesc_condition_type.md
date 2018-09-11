@@ -4,7 +4,7 @@ title: PROPDESC_CONDITION_TYPE
 author: windows-sdk-content
 description: Describes the condition type to use when displaying the property in the query builder UI in Windows Vista, but not in Windows 7 and later.
 old-location: properties\PROPDESC_CONDITION_TYPE.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 35ed3b49-8b36-4681-bad6-1669c0da94e0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPDESC_CONDITION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPDESC_CONDITION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROPDESC_CONDITION_TYPE
+req.redist: 
 ---
 
 # PROPDESC_CONDITION_TYPE enumeration

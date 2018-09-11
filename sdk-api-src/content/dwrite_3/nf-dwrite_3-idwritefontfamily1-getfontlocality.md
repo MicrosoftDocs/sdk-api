@@ -4,17 +4,16 @@ title: IDWriteFontFamily1::GetFontLocality
 author: windows-sdk-content
 description: Gets the current location of a font given its zero-based index.
 old-location: directwrite\idwritefontfamily1_getfontlocality.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 9D262E5C-4407-4110-A315-F529B809EDE2
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFontLocality, GetFontLocality method [Direct Write], GetFontLocality method [Direct Write],IDWriteFontFamily1 interface, IDWriteFontFamily1 interface [Direct Write],GetFontLocality method, IDWriteFontFamily1.GetFontLocality, IDWriteFontFamily1::GetFontLocality, directwrite.idwritefontfamily1_getfontlocality, dwrite_3/IDWriteFontFamily1::GetFontLocality
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFamily1.GetFontLocality
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFamily1::GetFontLocality

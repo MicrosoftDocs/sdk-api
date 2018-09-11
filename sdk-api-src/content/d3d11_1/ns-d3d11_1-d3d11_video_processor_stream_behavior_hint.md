@@ -4,7 +4,7 @@ title: D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT
 author: windows-sdk-content
 description: Provides information about the input streams passed into the ID3DVideoContext1::VideoProcessorGetBehaviorHints method.
 old-location: mf\d3d11_video_processor_stream_behavior_hint.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0B90AB2C-3F62-49FF-A1DB-FCB07A33F482
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT
+req.redist: 
 ---
 
 # D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT structure

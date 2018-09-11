@@ -4,17 +4,16 @@ title: IIdentityProvider::GetIdentityEnum
 author: windows-sdk-content
 description: Retrieves an IEnumUnknown interface pointer that can be used to enumerate identities.
 old-location: security\iidentityprovider_getidentityenum.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 9e216959-7038-43cf-a57d-bee85d521f58
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: GetIdentityEnum, GetIdentityEnum method [Security], GetIdentityEnum method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],GetIdentityEnum method, IIdentityProvider.GetIdentityEnum, IIdentityProvider::GetIdentityEnum, identityprovider/IIdentityProvider::GetIdentityEnum, security.iidentityprovider_getidentityenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IDENTITY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIdentityProvider.GetIdentityEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IIdentityProvider::GetIdentityEnum

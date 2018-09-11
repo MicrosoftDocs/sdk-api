@@ -4,17 +4,16 @@ title: ITAllocatorProperties::SetBufferSize
 author: windows-sdk-content
 description: The SetBufferSize method sets the size of the allocator buffer.
 old-location: tapi3\itallocatorproperties_setbuffersize.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 5aea70fd-2078-4f51-909f-c51cb997f5ea
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAllocatorProperties interface [TAPI 2.2],SetBufferSize method, ITAllocatorProperties.SetBufferSize, ITAllocatorProperties::SetBufferSize, SetBufferSize, SetBufferSize method [TAPI 2.2], SetBufferSize method [TAPI 2.2],ITAllocatorProperties interface, _tapi3_itallocatorproperties_setbuffersize, tapi3.itallocatorproperties_setbuffersize, tapi3ds/ITAllocatorProperties::SetBufferSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAllocatorProperties.SetBufferSize
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAllocatorProperties::SetBufferSize

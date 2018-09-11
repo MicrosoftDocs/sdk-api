@@ -4,17 +4,16 @@ title: eHANDLE_TRACE_OPERATIONS
 author: windows-sdk-content
 description: Identifies the type of handle operation that has occurred.
 old-location: winprog\ehandle_trace_operations.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: bcaaa52a-8eb1-4ad7-9ee5-97cca91a2238
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OperationDbBADREF, OperationDbCLOSE, OperationDbOPEN, OperationDbUnused, avrfsdk/OperationDbBADREF, avrfsdk/OperationDbCLOSE, avrfsdk/OperationDbOPEN, avrfsdk/OperationDbUnused, avrfsdk/eHANDLE_TRACE_OPERATIONS, base.ehandle_trace_operations, eHANDLE_TRACE_OPERATIONS, eHANDLE_TRACE_OPERATIONS enumeration [Windows API], winprog.ehandle_trace_operations
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: avrfsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - eHANDLE_TRACE_OPERATIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # eHANDLE_TRACE_OPERATIONS enumeration

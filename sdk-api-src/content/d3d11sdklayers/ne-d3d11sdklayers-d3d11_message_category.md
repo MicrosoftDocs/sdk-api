@@ -4,7 +4,7 @@ title: D3D11_MESSAGE_CATEGORY
 author: windows-sdk-content
 description: Categories of debug messages.
 old-location: direct3d11\d3d11_message_category.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: e4af5bf6-cbbe-488a-ad8e-3a4409f2591d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_MESSAGE_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_MESSAGE_CATEGORY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_MESSAGE_CATEGORY
+req.redist: 
 ---
 
 # D3D11_MESSAGE_CATEGORY enumeration

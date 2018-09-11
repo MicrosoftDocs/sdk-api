@@ -4,17 +4,16 @@ title: IVssBackupComponents::BreakSnapshotSet
 author: windows-sdk-content
 description: The BreakSnapshotSet method causes the existence of a shadow copy set to be &#0034;forgotten&#0034; by VSS.
 old-location: base\ivssbackupcomponents_breaksnapshotset.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 8c366f19-b10f-46cd-b5dc-cc3c77c5a008
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BreakSnapshotSet, BreakSnapshotSet method [VSS], BreakSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],BreakSnapshotSet method, IVssBackupComponents.BreakSnapshotSet, IVssBackupComponents::BreakSnapshotSet, _win32_ivssbackupcomponents_breaksnapshotset, base.ivssbackupcomponents_breaksnapshotset, vsbackup/IVssBackupComponents::BreakSnapshotSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.BreakSnapshotSet
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::BreakSnapshotSet

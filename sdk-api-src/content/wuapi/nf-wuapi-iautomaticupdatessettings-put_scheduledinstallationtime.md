@@ -4,17 +4,16 @@ title: IAutomaticUpdatesSettings::put_ScheduledInstallationTime
 author: windows-sdk-content
 description: Gets and sets the time at which Automatic Updates installs or uninstalls updates.
 old-location: wua\iautomaticupdatessettings_scheduledinstallationtime.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 1b1adefc-785e-46ad-8984-d2beb1c2202c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],ScheduledInstallationTime property, IAutomaticUpdatesSettings.ScheduledInstallationTime, IAutomaticUpdatesSettings.put_ScheduledInstallationTime, IAutomaticUpdatesSettings::ScheduledInstallationTime, IAutomaticUpdatesSettings::get_ScheduledInstallationTime, IAutomaticUpdatesSettings::put_ScheduledInstallationTime, ScheduledInstallationTime property [Windows Update Agent], ScheduledInstallationTime property [Windows Update Agent],IAutomaticUpdatesSettings interface, put_ScheduledInstallationTime, wua.iautomaticupdatessettings_scheduledinstallationtime, wuapi/IAutomaticUpdatesSettings::ScheduledInstallationTime, wuapi/IAutomaticUpdatesSettings::get_ScheduledInstallationTime, wuapi/IAutomaticUpdatesSettings::put_ScheduledInstallationTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IAutomaticUpdatesSettings.put_ScheduledInstallationTime
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAutomaticUpdatesSettings::put_ScheduledInstallationTime

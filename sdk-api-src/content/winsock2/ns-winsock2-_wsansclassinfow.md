@@ -4,17 +4,16 @@ title: "_WSANSClassInfoW"
 author: windows-sdk-content
 description: The WSANSCLASSINFO structure provides individual parameter information for a specific Windows Sockets namespace.
 old-location: winsock\wsansclassinfo.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: b4f811ad-7967-45bd-b563-a28bb1633596
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSANSCLASSINFOW, *PWSANSCLASSINFO,*LPWSANSCLASSINFO, *PWSANSCLASSINFO,*LPWSANSCLASSINFO structure [Winsock], *PWSANSCLASSINFOW, WSANSCLASSINFO, WSANSCLASSINFO structure [Winsock], WSANSCLASSINFOW, _WSANSClassInfoW, winsock.wsansclassinfo, winsock2/*PWSANSCLASSINFO,*LPWSANSCLASSINFO, winsock2/WSANSCLASSINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSANSCLASSINFOW, *PWSANSCLASSINFOW, *LPWSANSCLASSINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSANSCLASSINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSANSCLASSINFOW, *PWSANSCLASSINFOW, *LPWSANSCLASSINFOW
+req.redist: 
 ---
 
 # _WSANSClassInfoW structure

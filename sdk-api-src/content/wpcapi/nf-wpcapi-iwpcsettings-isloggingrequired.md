@@ -4,17 +4,16 @@ title: IWPCSettings::IsLoggingRequired
 author: windows-sdk-content
 description: Determines whether activity logging should be performed when obtaining the IWPCSettings interface.
 old-location: parcon\iwpcsettings_isloggingrequired.htm
-old-project: parcon
+tech.root: parcon
 ms.assetid: bfe04843-af23-4146-bc45-f91d6ad36c1a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWPCSettings interface,IsLoggingRequired method, IWPCSettings.IsLoggingRequired, IWPCSettings::IsLoggingRequired, IsLoggingRequired, IsLoggingRequired method, IsLoggingRequired method,IWPCSettings interface, parcon.iwpcsettings_isloggingrequired, wpcapi/IWPCSettings::IsLoggingRequired
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWPCSettings.IsLoggingRequired
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWPCSettings::IsLoggingRequired

@@ -4,17 +4,16 @@ title: BatteryClassSystemControl function
 author: windows-sdk-content
 description: The BatteryClassSystemControl routine processes WMI IRPs on behalf of a battery miniclass driver.
 old-location: battery\batteryclasssystemcontrol.htm
-old-project: battery
+tech.root: battery
 ms.assetid: d462c51d-e175-4fc8-88b9-515ba648fab4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BatteryClassSystemControl, BatteryClassSystemControl routine [Battery Devices], bat-rtn_4e2bda63-ff7a-420f-96af-fa0d5041479b.xml, batclass/BatteryClassSystemControl, battery.batteryclasssystemcontrol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: batclass.h
 req.include-header: Batclass.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Battc.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BatteryClassSystemControl
 product: Windows
 targetos: Windows
-req.lib: Battc.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BatteryClassSystemControl function

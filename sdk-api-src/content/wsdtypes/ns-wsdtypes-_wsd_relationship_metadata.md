@@ -4,17 +4,16 @@ title: "_WSD_RELATIONSHIP_METADATA"
 author: windows-sdk-content
 description: Provides metadata about the relationship between two or more services.
 old-location: ncd\wsd_relationship_metadata.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 232ea033-f368-4a37-9bec-ba5dc0d9b60f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSD_RELATIONSHIP_METADATA, WSD_RELATIONSHIP_METADATA structure, _WSD_RELATIONSHIP_METADATA, ncd.wsd_relationship_metadata, wsdtypes/WSD_RELATIONSHIP_METADATA
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_RELATIONSHIP_METADATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_RELATIONSHIP_METADATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_RELATIONSHIP_METADATA
+req.redist: 
 ---
 
 # _WSD_RELATIONSHIP_METADATA structure

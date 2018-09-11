@@ -4,17 +4,16 @@ title: IFsrmPropertyCondition::Delete
 author: windows-sdk-content
 description: Removes this property condition from the collection of property conditions specified for the file management job.
 old-location: fsrm\ifsrmpropertycondition_delete.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 1d177c1c-e36e-4e69-868b-ade55e2378aa
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: Delete, Delete method [File Server Resource Manager], Delete method [File Server Resource Manager],IFsrmPropertyCondition interface, IFsrmPropertyCondition interface [File Server Resource Manager],Delete method, IFsrmPropertyCondition.Delete, IFsrmPropertyCondition::Delete, fs.ifsrmpropertycondition_delete, fsrm.ifsrmpropertycondition_delete, fsrmreports/IFsrmPropertyCondition::Delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmPropertyCondition.Delete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPropertyCondition::Delete

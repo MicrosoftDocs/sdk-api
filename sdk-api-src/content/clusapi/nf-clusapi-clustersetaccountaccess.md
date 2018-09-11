@@ -4,17 +4,16 @@ title: ClusterSetAccountAccess function
 author: windows-sdk-content
 description: Updates an account access list (ACL) for a cluster.
 old-location: mscs\clustersetaccountaccess.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: E0038A7B-291F-4A30-86BD-D9BD2404D3B5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSAPI_ALL_ACCESS, CLUSAPI_CHANGE_ACCESS, CLUSAPI_NO_ACCESS, CLUSAPI_READ_ACCESS, CLUSTER_DELETE_ACCESS_CONTROL_ENTRY, CLUSTER_SET_ACCESS_TYPE_ALLOWED, CLUSTER_SET_ACCESS_TYPE_DENIED, ClusterSetAccountAccess, ClusterSetAccountAccess function [Failover Cluster], PCLUSTER_SET_ACCOUNT_ACCESS, PCLUSTER_SET_ACCOUNT_ACCESS function [Failover Cluster], clusapi/ClusterSetAccountAccess, clusapi/PCLUSTER_SET_ACCOUNT_ACCESS, mscs.clustersetaccountaccess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ClusterSetAccountAccess
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterSetAccountAccess function

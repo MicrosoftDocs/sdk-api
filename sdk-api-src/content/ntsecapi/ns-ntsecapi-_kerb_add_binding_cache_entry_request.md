@@ -4,17 +4,16 @@ title: "_KERB_ADD_BINDING_CACHE_ENTRY_REQUEST"
 author: windows-sdk-content
 description: Specifies a message to add a binding cache entry.
 old-location: security\kerb_add_binding_cache_entry_request.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 2EFB8F01-0665-4031-B02A-8ECB5B9C7C21
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST, DS_INET_ADDRESS, DS_NETBIOS_ADDRESS, KERB_ADD_BINDING_CACHE_ENTRY_REQUEST, KERB_ADD_BINDING_CACHE_ENTRY_REQUEST structure [Security], PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST, PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST structure pointer [Security], _KERB_ADD_BINDING_CACHE_ENTRY_REQUEST, ntsecapi/KERB_ADD_BINDING_CACHE_ENTRY_REQUEST, ntsecapi/PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST, security.kerb_add_binding_cache_entry_request"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_ADD_BINDING_CACHE_ENTRY_REQUEST, *PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_ADD_BINDING_CACHE_ENTRY_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_ADD_BINDING_CACHE_ENTRY_REQUEST, *PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST
+req.redist: 
 ---
 
 # _KERB_ADD_BINDING_CACHE_ENTRY_REQUEST structure

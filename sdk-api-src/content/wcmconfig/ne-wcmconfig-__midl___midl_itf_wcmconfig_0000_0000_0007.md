@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_wcmconfig_0000_0000_0007"
 author: windows-sdk-content
 description: Describes the options passed to the ISettingsEngine::GetNamespace method to choose how the namespace must be accessed.
 old-location: smi\wcmnamespaceaccess.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: 11918eab-2f5d-4050-81c6-d4c465b68ce3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ReadOnlyAccess, ReadWriteAccess, WcmNamespaceAccess, WcmNamespaceAccess enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0007, smi.wcmnamespaceaccess, wcmconfig/ReadOnlyAccess, wcmconfig/ReadWriteAccess, wcmconfig/WcmNamespaceAccess
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WcmNamespaceAccess
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WcmNamespaceAccess
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_wcmconfig_0000_0000_0007 enumeration

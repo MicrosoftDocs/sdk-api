@@ -4,17 +4,16 @@ title: IMbnRadio::get_SoftwareRadioState
 author: windows-sdk-content
 description: The software radio state of a Mobile Broadband device.
 old-location: mbn\imbnradio_softwareradiostate.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 8e8cd410-0c8b-4e62-ab8e-65e67f7a81a5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnRadio interface [Microsoft Broadband Networks],SoftwareRadioState property, IMbnRadio.SoftwareRadioState, IMbnRadio.get_SoftwareRadioState, IMbnRadio::SoftwareRadioState, IMbnRadio::get_SoftwareRadioState, SoftwareRadioState property [Microsoft Broadband Networks], SoftwareRadioState property [Microsoft Broadband Networks],IMbnRadio interface, get_SoftwareRadioState, mbn.imbnradio_softwareradiostate, mbnapi/IMbnRadio::SoftwareRadioState, mbnapi/IMbnRadio::get_SoftwareRadioState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnRadio.get_SoftwareRadioState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnRadio::get_SoftwareRadioState

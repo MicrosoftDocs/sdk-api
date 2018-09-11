@@ -4,7 +4,7 @@ title: D3D11_SO_DECLARATION_ENTRY
 author: windows-sdk-content
 description: Description of a vertex element in a vertex buffer in an output slot.
 old-location: direct3d11\d3d11_so_declaration_entry.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: c40e8db6-e26f-4c61-a812-f60eae43e86b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SO_DECLARATION_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_SO_DECLARATION_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_SO_DECLARATION_ENTRY
+req.redist: 
 ---
 
 # D3D11_SO_DECLARATION_ENTRY structure

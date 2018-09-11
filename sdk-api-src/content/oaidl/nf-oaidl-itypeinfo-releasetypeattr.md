@@ -4,17 +4,16 @@ title: ITypeInfo::ReleaseTypeAttr
 author: windows-sdk-content
 description: Releases a TYPEATTR previously returned by ITypeInfo::GetTypeAttr.
 old-location: automat\itypeinfo_releasetypeattr.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 86827f7f-d5c7-4297-8eb9-af7b03d16121
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseTypeAttr method, ITypeInfo.ReleaseTypeAttr, ITypeInfo::ReleaseTypeAttr, ReleaseTypeAttr, ReleaseTypeAttr method [Automation], ReleaseTypeAttr method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseTypeAttr, automat.itypeinfo_releasetypeattr, oaidl/ITypeInfo::ReleaseTypeAttr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo.ReleaseTypeAttr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::ReleaseTypeAttr

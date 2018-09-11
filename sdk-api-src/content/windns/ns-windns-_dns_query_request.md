@@ -4,7 +4,7 @@ title: "_DNS_QUERY_REQUEST"
 author: windows-sdk-content
 description: The DNS_QUERY_REQUEST structure contains the DNS query parameters used in a call to DnsQueryEx.
 old-location: dns\dns_query_request.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 9C382800-DE71-4481-AC8D-9F89D6F59EE6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_QUERY_REQUEST, *PDNS_QUERY_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_QUERY_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_QUERY_REQUEST, *PDNS_QUERY_REQUEST
+req.redist: 
 ---
 
 # _DNS_QUERY_REQUEST structure

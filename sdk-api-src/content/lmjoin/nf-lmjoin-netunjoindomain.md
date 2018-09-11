@@ -4,17 +4,16 @@ title: NetUnjoinDomain function
 author: windows-sdk-content
 description: The NetUnjoinDomain function unjoins a computer from a workgroup or a domain.
 old-location: netmgmt\netunjoindomain.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: cc755c22-1fd6-4787-999e-a43258287a05
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetUnjoinDomain, NetUnjoinDomain function [Network Management], _win32_netunjoindomain, lmjoin/NetUnjoinDomain, netmgmt.netunjoindomain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmjoin.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetUnjoinDomain
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetUnjoinDomain function

@@ -4,17 +4,16 @@ title: IDispenserManager::GetContext
 author: windows-sdk-content
 description: Determines the current context.
 old-location: cos\idispensermanager_getcontext.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: cc3095a3-df4c-4112-a3cb-308e8962b51f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetContext, GetContext method [COM+], GetContext method [COM+],IDispenserManager interface, IDispenserManager interface [COM+],GetContext method, IDispenserManager.GetContext, IDispenserManager::GetContext, _dtc_IDispenserManager_GetContext, comsvcs/IDispenserManager::GetContext, cos.idispensermanager_getcontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDispenserManager.GetContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDispenserManager::GetContext
@@ -61,12 +60,12 @@ Determines the current context.
 
 ### -param __MIDL__IDispenserManager0002
 
-
+TBD
 
 
 ### -param __MIDL__IDispenserManager0003
 
-
+TBD
 
 
 

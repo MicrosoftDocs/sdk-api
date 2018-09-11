@@ -4,7 +4,7 @@ title: D3D12_VIEW_INSTANCE_LOCATION
 author: windows-sdk-content
 description: Specifies the viewport/stencil and render target associated with a view instance.
 old-location: direct3d12\d3d12_view_instance_location.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 10E5956E-6DFB-447D-8D1A-C1A41A1C4A03
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_VIEW_INSTANCE_LOCATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_VIEW_INSTANCE_LOCATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_VIEW_INSTANCE_LOCATION
+req.redist: 
 ---
 
 # D3D12_VIEW_INSTANCE_LOCATION structure

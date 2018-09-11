@@ -4,7 +4,7 @@ title: "_DNS_WIRE_RECORD"
 author: windows-sdk-content
 description: The DNS_WIRE_RECORD structure contains information about a DNS wire record transmitted across the network as specified in section 4.1.3 of RFC 1035.
 old-location: dns\dns_wire_record.htm
-old-project: dns
+tech.root: dns
 ms.assetid: fb36930c-dd43-427a-8034-078c99497a3e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_WIRE_RECORD, *PDNS_WIRE_RECORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_WIRE_RECORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_WIRE_RECORD, *PDNS_WIRE_RECORD
+req.redist: 
 ---
 
 # _DNS_WIRE_RECORD structure

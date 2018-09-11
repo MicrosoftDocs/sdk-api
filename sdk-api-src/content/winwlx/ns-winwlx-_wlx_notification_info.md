@@ -4,17 +4,16 @@ title: "_WLX_NOTIFICATION_INFO"
 author: windows-sdk-content
 description: This structure stores information about a Winlogon event.
 old-location: security\wlx_notification_info.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 12584a05-b8dc-40a2-83b7-fbecb93ea6f2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWLX_NOTIFICATION_INFO, PWLX_NOTIFICATION_INFO, PWLX_NOTIFICATION_INFO structure pointer [Security], WLX_NOTIFICATION_INFO, WLX_NOTIFICATION_INFO structure [Security], _WLX_NOTIFICATION_INFO, _gina_wlx_notification_info, security.wlx_notification_info, winwlx/PWLX_NOTIFICATION_INFO, winwlx/WLX_NOTIFICATION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLX_NOTIFICATION_INFO, *PWLX_NOTIFICATION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLX_NOTIFICATION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLX_NOTIFICATION_INFO, *PWLX_NOTIFICATION_INFO
+req.redist: 
 ---
 
 # _WLX_NOTIFICATION_INFO structure

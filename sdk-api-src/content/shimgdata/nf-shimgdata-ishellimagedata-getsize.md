@@ -4,17 +4,16 @@ title: IShellImageData::GetSize
 author: windows-sdk-content
 description: Gets the dimensions of the image file.
 old-location: shell\IShellImageData_GetSize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 50294d95-801d-4cd6-94ae-8b48c68af50f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetSize, GetSize method [Windows Shell], GetSize method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetSize method, IShellImageData.GetSize, IShellImageData::GetSize, _shell_IShellImageData_GetSize, shell.IShellImageData_GetSize, shimgdata/IShellImageData::GetSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageData.GetSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageData::GetSize

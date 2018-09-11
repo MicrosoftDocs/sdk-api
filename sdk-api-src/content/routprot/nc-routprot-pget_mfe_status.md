@@ -4,17 +4,16 @@ title: PGET_MFE_STATUS
 author: windows-sdk-content
 description: The router manager calls the GetMfeStatus function to obtain the status of the multicast forwarding entry (MFE) for the specified interface, group address, and source address.
 old-location: rras\getmfestatus.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 518eb335-13b9-4980-90fc-11cdd7ef8f1a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetMfeStatus, GetMfeStatus callback function [RAS], MFE_NO_ERROR, MFE_OIF_PRUNED, MFE_OLD_ROUTER, MFE_PRUNED_UPSTREAM, MFE_REACHED_CORE, PGET_MFE_STATUS, PGET_MFE_STATUS callback, _mpr_getmfestatus, routprot/GetMfeStatus, rras.getmfestatus
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetMfeStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PGET_MFE_STATUS callback function

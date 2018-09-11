@@ -4,7 +4,7 @@ title: "_GET_DISK_ATTRIBUTES"
 author: windows-sdk-content
 description: Contains the attributes of a disk device.
 old-location: fs\get_disk_attributes.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: c6a0461d-cc23-4191-a0ff-c4279c1b097e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GET_DISK_ATTRIBUTES, *PGET_DISK_ATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GET_DISK_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GET_DISK_ATTRIBUTES, *PGET_DISK_ATTRIBUTES
+req.redist: 
 ---
 
 # _GET_DISK_ATTRIBUTES structure

@@ -4,17 +4,16 @@ title: IFileSystemImage::ChooseImageDefaults
 author: windows-sdk-content
 description: Sets the default file system types and the image size based on the current media.
 old-location: imapi\ifilesystemimage_chooseimagedefaults.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 9211b8af-9331-4d0d-a6f5-f52f8db42e8c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ChooseImageDefaults, ChooseImageDefaults method [IMAPI], ChooseImageDefaults method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],ChooseImageDefaults method, IFileSystemImage.ChooseImageDefaults, IFileSystemImage::ChooseImageDefaults, imapi.ifilesystemimage_chooseimagedefaults, imapi2fs/IFileSystemImage::ChooseImageDefaults
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage.ChooseImageDefaults
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage::ChooseImageDefaults

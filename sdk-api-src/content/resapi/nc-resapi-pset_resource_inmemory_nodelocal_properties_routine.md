@@ -4,17 +4,16 @@ title: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\setresourceinmemorynodelocalproperties.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 9263E130-49DE-465C-A852-34E2D93A4211
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function [Failover Cluster], SetResourceInMemoryNodeLocalProperties, SetResourceInMemoryNodeLocalProperties callback, SetResourceInMemoryNodeLocalProperties callback function [Failover Cluster], mscs.setresourceinmemorynodelocalproperties, resapi/PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, resapi/SetResourceInMemoryNodeLocalProperties
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - SetResourceInMemoryNodeLocalProperties callback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function

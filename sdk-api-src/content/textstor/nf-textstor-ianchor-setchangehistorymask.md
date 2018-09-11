@@ -4,17 +4,16 @@ title: IAnchor::SetChangeHistoryMask
 author: windows-sdk-content
 description: This method has not been implemented.
 old-location: tsf\ianchor_setchangehistorymask.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: b6be9a29-5d39-4719-a7e3-0c0921ecd89a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAnchor interface [Text Services Framework],SetChangeHistoryMask method, IAnchor.SetChangeHistoryMask, IAnchor::SetChangeHistoryMask, SetChangeHistoryMask, SetChangeHistoryMask method [Text Services Framework], SetChangeHistoryMask method [Text Services Framework],IAnchor interface, textstor/IAnchor::SetChangeHistoryMask, tsf.ianchor_setchangehistorymask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnchor.SetChangeHistoryMask
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IAnchor::SetChangeHistoryMask

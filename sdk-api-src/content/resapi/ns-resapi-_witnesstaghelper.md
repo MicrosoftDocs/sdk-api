@@ -4,17 +4,16 @@ title: "_WitnessTagHelper"
 author: windows-sdk-content
 description: Contains information used to validate a PaxosTagCStruct structure.
 old-location: mscs\witnesstaghelper.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: FFE7EF63-4025-4CC5-B3F8-FF07FA67AFD1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PWitnessTagHelper, PWitnessTagHelper structure pointer [Failover Cluster], WitnessTagHelper, WitnessTagHelper structure [Failover Cluster], _WitnessTagHelper, mscs.witnesstaghelper, resapi/PWitnessTagHelper, resapi/WitnessTagHelper
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WitnessTagHelper
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WitnessTagHelper
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: WitnessTagHelper
+req.redist: 
 ---
 
 # _WitnessTagHelper structure

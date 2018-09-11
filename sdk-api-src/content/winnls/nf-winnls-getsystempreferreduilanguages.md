@@ -4,17 +4,16 @@ title: GetSystemPreferredUILanguages function
 author: windows-sdk-content
 description: Retrieves the system preferred UI languages. For more information, see User Interface Language Management.
 old-location: intl\getsystempreferreduilanguages.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 2948b495-c400-4227-94fb-7c4f5171ecae
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetSystemPreferredUILanguages, GetSystemPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_MACHINE_LANGUAGE_SETTINGS, _win32_GetSystemPreferredUILanguages, intl.getsystempreferreduilanguages, winnls/GetSystemPreferredUILanguages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetSystemPreferredUILanguages
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetSystemPreferredUILanguages function

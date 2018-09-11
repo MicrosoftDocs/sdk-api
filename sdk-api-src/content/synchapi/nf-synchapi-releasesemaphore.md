@@ -4,17 +4,16 @@ title: ReleaseSemaphore function
 author: windows-sdk-content
 description: Increases the count of the specified semaphore object by a specified amount.
 old-location: base\releasesemaphore.htm
-old-project: sync
+tech.root: Sync
 ms.assetid: 9d444318-4d66-4ec3-a65d-bd3b75db9d9b
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: ReleaseSemaphore, ReleaseSemaphore function, _win32_releasesemaphore, base.releasesemaphore, synchapi/ReleaseSemaphore, winbase/ReleaseSemaphore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ITEMPROP, *LPITEMPROP
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - ReleaseSemaphore
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ReleaseSemaphore function

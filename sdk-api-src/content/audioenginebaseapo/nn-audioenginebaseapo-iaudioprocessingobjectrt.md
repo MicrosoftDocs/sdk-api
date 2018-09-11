@@ -4,7 +4,7 @@ title: IAudioProcessingObjectRT
 author: windows-sdk-content
 description: This interface can operate in real-time mode and its methods can be called form real-time processing threads.
 old-location: audio\iaudioprocessingobjectrt.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 640ac817-16f2-47c8-87e9-1ae0136e6e55
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APO_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioProcessingObjectRT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: All levels.
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioProcessingObjectRT interface

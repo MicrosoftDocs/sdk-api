@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::GetBltStatus
 author: windows-sdk-content
 description: Obtains status about a bit block transfer (bitblt) operation.
 old-location: directdraw\idirectdrawsurface7_getbltstatus.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 1f446300-065b-47c1-9778-fb4a5b2ea4bd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DDGBS_CANBLT, DDGBS_ISBLTDONE, GetBltStatus, GetBltStatus method [DirectDraw], GetBltStatus method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetBltStatus method, IDirectDrawSurface7.GetBltStatus, IDirectDrawSurface7::GetBltStatus, ddraw/IDirectDrawSurface7::GetBltStatus, directdraw.idirectdrawsurface7_getbltstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.GetBltStatus
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::GetBltStatus

@@ -4,17 +4,16 @@ title: AvRtCreateThreadOrderingGroup function
 author: windows-sdk-content
 description: Creates a thread ordering group.
 old-location: base\avrtcreatethreadorderinggroup.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: c334a861-7dd6-4fc9-90ce-5923d053d325
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: AvRtCreateThreadOrderingGroup, AvRtCreateThreadOrderingGroup function, avrt/AvRtCreateThreadOrderingGroup, base.avrtcreatethreadorderinggroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: avrt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVRF_HEAP_ALLOCATION, *PAVRF_HEAP_ALLOCATION
+req.lib: Avrt.lib
+req.dll: Avrt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AvRtCreateThreadOrderingGroup
 product: Windows
 targetos: Windows
-req.lib: Avrt.lib
-req.dll: Avrt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AvRtCreateThreadOrderingGroup function

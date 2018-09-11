@@ -4,17 +4,16 @@ title: IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats
 author: windows-sdk-content
 description: Gets a list of substream formats supported by a specified video processor device.
 old-location: mf\idirectxvideoprocessorservice_getvideoprocessorsubstreamformats.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 10ad4d8d-9b5e-4f77-8244-c29a0e14a5b1
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 10ad4d8d-9b5e-4f77-8244-c29a0e14a5b1, GetVideoProcessorSubStreamFormats, GetVideoProcessorSubStreamFormats method [Media Foundation], GetVideoProcessorSubStreamFormats method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorSubStreamFormats method, IDirectXVideoProcessorService.GetVideoProcessorSubStreamFormats, IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats, mf.idirectxvideoprocessorservice_getvideoprocessorsubstreamformats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectXVideoProcessorService.GetVideoProcessorSubStreamFormats
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats
@@ -87,7 +85,7 @@ Receives the number of elements returned in the <i>ppFormats</i> array.
 
 ### -param pFormats
 
-
+TBD
 
 
 

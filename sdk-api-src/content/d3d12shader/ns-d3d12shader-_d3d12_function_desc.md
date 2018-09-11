@@ -4,7 +4,7 @@ title: "_D3D12_FUNCTION_DESC"
 author: windows-sdk-content
 description: Describes a function.
 old-location: direct3d12\d3d12_function_desc.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 6FF99C49-B5B1-4969-86E2-828D584D1EA9
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_FUNCTION_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_FUNCTION_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_FUNCTION_DESC
+req.redist: 
 ---
 
 # _D3D12_FUNCTION_DESC structure

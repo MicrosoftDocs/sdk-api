@@ -4,7 +4,7 @@ title: ID3D11Device5
 author: windows-sdk-content
 description: The device interface represents a virtual adapter; it is used to create resources. ID3D11Device5 adds new methods to those in ID3D11Device4.
 old-location: direct3d11\id3d11device5.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: C077BAD4-08D2-4F1F-8313-5066F68F014C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_4.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_UNORDERED_ACCESS_VIEW_DESC1
+req.lib: D3d11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device5
 product: Windows
 targetos: Windows
-req.lib: D3d11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device5 interface

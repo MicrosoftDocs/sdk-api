@@ -4,17 +4,16 @@ title: ID2D1CommandSink3::DrawSpriteBatch
 author: windows-sdk-content
 description: Renders part or all of the given sprite batch to the device context using the specified drawing options.
 old-location: direct2d\id2d1commandsink3_drawspritebatch.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 9227A78E-B53A-4191-87F8-BA239E0CF8ED
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawSpriteBatch, DrawSpriteBatch method [Direct2D], DrawSpriteBatch method [Direct2D],ID2D1CommandSink3 interface, ID2D1CommandSink3 interface [Direct2D],DrawSpriteBatch method, ID2D1CommandSink3.DrawSpriteBatch, ID2D1CommandSink3::DrawSpriteBatch, d2d1_3/ID2D1CommandSink3::DrawSpriteBatch, direct2d.id2d1commandsink3_drawspritebatch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1CommandSink3.DrawSpriteBatch
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1CommandSink3::DrawSpriteBatch

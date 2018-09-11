@@ -4,17 +4,16 @@ title: ITfThreadMgrEventSink::OnPushContext
 author: windows-sdk-content
 description: ITfThreadMgrEventSink::OnPushContext method
 old-location: tsf\itfthreadmgreventsink_onpushcontext.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 80fbb861-1a12-4a9a-8f96-332c2f736f2d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnPushContext method, ITfThreadMgrEventSink.OnPushContext, ITfThreadMgrEventSink::OnPushContext, OnPushContext, OnPushContext method [Text Services Framework], OnPushContext method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onpushcontext_ref, msctf/ITfThreadMgrEventSink::OnPushContext, tsf.itfthreadmgreventsink_onpushcontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfThreadMgrEventSink.OnPushContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfThreadMgrEventSink::OnPushContext

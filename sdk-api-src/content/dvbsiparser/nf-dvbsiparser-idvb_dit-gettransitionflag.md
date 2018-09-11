@@ -4,17 +4,16 @@ title: IDVB_DIT::GetTransitionFlag
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_dit_gettransitionflag.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 3db3ee1e-7fff-442d-9e78-7862b19c339a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTransitionFlag, GetTransitionFlag method [Microsoft TV Technologies], GetTransitionFlag method [Microsoft TV Technologies],IDVB_DIT interface, IDVB_DIT interface [Microsoft TV Technologies],GetTransitionFlag method, IDVB_DIT.GetTransitionFlag, IDVB_DIT::GetTransitionFlag, IDVB_DITGetTransitionFlag, dvbsiparser/IDVB_DIT::GetTransitionFlag, mstv.idvb_dit_gettransitionflag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVB_DIT.GetTransitionFlag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVB_DIT::GetTransitionFlag

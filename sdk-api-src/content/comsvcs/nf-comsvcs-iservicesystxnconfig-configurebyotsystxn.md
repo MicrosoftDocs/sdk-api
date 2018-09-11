@@ -4,17 +4,16 @@ title: IServiceSysTxnConfig::ConfigureBYOTSysTxn
 author: windows-sdk-content
 description: Enables you to run the enclosed code in the scope of an existing transaction that you specify with a transaction proxy.
 old-location: cos\iservicesystxnconfig_configurebyotsystxn.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6023e756-7797-489b-96fd-9cf2d9f2cb2b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ConfigureBYOTSysTxn, ConfigureBYOTSysTxn method [COM+], ConfigureBYOTSysTxn method [COM+],IServiceSysTxnConfig interface, IServiceSysTxnConfig interface [COM+],ConfigureBYOTSysTxn method, IServiceSysTxnConfig.ConfigureBYOTSysTxn, IServiceSysTxnConfig::ConfigureBYOTSysTxn, comsvcs/IServiceSysTxnConfig::ConfigureBYOTSysTxn, cos.iservicesystxnconfig_configurebyotsystxn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceSysTxnConfig.ConfigureBYOTSysTxn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceSysTxnConfig::ConfigureBYOTSysTxn

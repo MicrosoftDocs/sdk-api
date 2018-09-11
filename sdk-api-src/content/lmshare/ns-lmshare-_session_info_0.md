@@ -4,7 +4,7 @@ title: "_SESSION_INFO_0"
 author: windows-sdk-content
 description: Contains the name of the computer that established the session.
 old-location: fs\session_info_0_str.htm
-old-project: netshare
+tech.root: netshare
 ms.assetid: 6b39df47-f25c-41dd-ba15-6e6806c4ec89
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SESSION_INFO_0, *PSESSION_INFO_0, *LPSESSION_INFO_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SESSION_INFO_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SESSION_INFO_0, *PSESSION_INFO_0, *LPSESSION_INFO_0
+req.redist: 
 ---
 
 # _SESSION_INFO_0 structure

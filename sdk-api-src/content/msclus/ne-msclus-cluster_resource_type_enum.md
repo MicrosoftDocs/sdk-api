@@ -4,17 +4,16 @@ title: CLUSTER_RESOURCE_TYPE_ENUM
 author: windows-sdk-content
 description: Describes the type of cluster object being enumerated by the ClusterResourceTypeEnum and ClusterResourceTypeOpenEnum functions.
 old-location: mscs\cluster_resource_type_enum.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: f8356cb3-303c-4294-a634-d91d5141004a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_RESOURCE_TYPE_ENUM, CLUSTER_RESOURCE_TYPE_ENUM enumeration [Failover Cluster], CLUSTER_RESOURCE_TYPE_ENUM_ALL, CLUSTER_RESOURCE_TYPE_ENUM_NODES, CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, _CLUSTER_RESOURCE_TYPE_ENUM, _CLUSTER_RESOURCE_TYPE_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_TYPE_ENUM, clusapi/CLUSTER_RESOURCE_TYPE_ENUM_ALL, clusapi/CLUSTER_RESOURCE_TYPE_ENUM_NODES, clusapi/CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, clusapi/_CLUSTER_RESOURCE_TYPE_ENUM, msclus/CLUSTER_RESOURCE_TYPE_ENUM, msclus/CLUSTER_RESOURCE_TYPE_ENUM_ALL, msclus/CLUSTER_RESOURCE_TYPE_ENUM_NODES, msclus/CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, msclus/_CLUSTER_RESOURCE_TYPE_ENUM, mscs.cluster_resource_type_enum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_RESOURCE_TYPE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_RESOURCE_TYPE_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_RESOURCE_TYPE_ENUM
+req.redist: 
 ---
 
 # CLUSTER_RESOURCE_TYPE_ENUM enumeration

@@ -4,17 +4,16 @@ title: IDirectManipulationManager::CreateContent
 author: windows-sdk-content
 description: The factory method that is used to create an instance of secondary content (such as a panning indicator) inside a viewport.
 old-location: directmanipulation\idirectmanipulationmanager_createcontent.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: f8a2fbb2-f662-4eb7-88fb-64286205f19e
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateContent, CreateContent method [Direct Manipulation], CreateContent method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],CreateContent method, IDirectManipulationManager.CreateContent, IDirectManipulationManager::CreateContent, directmanipulation.idirectmanipulationmanager_createcontent, directmanipulation/IDirectManipulationManager::CreateContent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationManager.CreateContent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationManager::CreateContent

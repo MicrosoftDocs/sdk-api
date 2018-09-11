@@ -4,17 +4,16 @@ title: WdsTransportServerTrace function
 author: windows-sdk-content
 description: Sends a debugging message.
 old-location: wds\wdstransportservertrace.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 6b0d6b1a-4a77-43f8-affd-6489f9a65050
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WDS_MC_TRACE_ERROR, WDS_MC_TRACE_FATAL, WDS_MC_TRACE_INFO, WDS_MC_TRACE_VERBOSE, WDS_MC_TRACE_WARNING, WdsTransportServerTrace, WdsTransportServerTrace function [Windows Deployment Services], wds.wdstransportservertrace, wdstpdi/WdsTransportServerTrace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORTPROVIDER_CALLBACK_ID, *PTRANSPORTPROVIDER_CALLBACK_ID
+req.lib: Wdsmc.lib
+req.dll: Wdsmc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsTransportServerTrace
 product: Windows
 targetos: Windows
-req.lib: Wdsmc.lib
-req.dll: Wdsmc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsTransportServerTrace function
@@ -95,7 +93,7 @@ Severity level of the message.
 A pointer to a null-terminated string value that contains a formatted string. 
 
 
-### -param param
+### -param arg1
 
 TBD
 

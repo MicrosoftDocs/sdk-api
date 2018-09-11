@@ -4,7 +4,7 @@ title: "_DOT11_NETWORK"
 author: windows-sdk-content
 description: Contains information about an available wireless network.
 old-location: nwifi\dot11_network.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 95f58433-deef-4c47-8f6c-a9e7b0d52dad
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 
-req.redist: Wireless LAN API for Windows XP with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_NETWORK, *PDOT11_NETWORK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DOT11_NETWORK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: DOT11_NETWORK, *PDOT11_NETWORK
+req.redist: Wireless LAN API for Windows XP with SP2
 ---
 
 # _DOT11_NETWORK structure

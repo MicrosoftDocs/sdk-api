@@ -2,7 +2,7 @@
 UID: NA:mmddk
 ms.assetid: d726c483-c014-3bf4-b4d2-d089fe169693
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

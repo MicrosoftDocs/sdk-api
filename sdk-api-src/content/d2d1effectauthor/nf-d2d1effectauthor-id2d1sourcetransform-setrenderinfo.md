@@ -4,17 +4,16 @@ title: ID2D1SourceTransform::SetRenderInfo
 author: windows-sdk-content
 description: Sets the render information for the transform.
 old-location: direct2d\id2d1sourcetransform_setrenderinfo.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 7082A748-E1DF-4805-BBB5-9EF50841B36D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1SourceTransform interface [Direct2D],SetRenderInfo method, ID2D1SourceTransform.SetRenderInfo, ID2D1SourceTransform::SetRenderInfo, SetRenderInfo, SetRenderInfo method [Direct2D], SetRenderInfo method [Direct2D],ID2D1SourceTransform interface, d2d1effectauthor/ID2D1SourceTransform::SetRenderInfo, direct2d.id2d1sourcetransform_setrenderinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2d1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1SourceTransform.SetRenderInfo
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SourceTransform::SetRenderInfo

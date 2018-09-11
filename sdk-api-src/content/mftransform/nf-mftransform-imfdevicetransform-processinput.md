@@ -4,17 +4,16 @@ title: IMFDeviceTransform::ProcessInput
 author: windows-sdk-content
 description: The ProcessInput method delivers data to an input stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_processinput.htm
-old-project: stream
+tech.root: stream
 ms.assetid: EB4197BA-5963-45E7-B196-94F907637EBB
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessInput method, IMFDeviceTransform.ProcessInput, IMFDeviceTransform::ProcessInput, ProcessInput, ProcessInput method [Streaming Media Devices], ProcessInput method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessInput, stream.imfdevicetransform_processinput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDeviceTransform.ProcessInput
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDeviceTransform::ProcessInput
@@ -62,7 +60,7 @@ The <b>ProcessInput</b> method delivers data to an input stream on this Media Fo
 
 ### -param dwInputStreamID
 
-
+TBD
 
 
 ### -param pSample [in]

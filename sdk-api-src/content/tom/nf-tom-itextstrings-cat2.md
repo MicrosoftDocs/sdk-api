@@ -4,17 +4,16 @@ title: ITextStrings::Cat2
 author: windows-sdk-content
 description: Concatenates two strings.
 old-location: controls\itextstrings_cat2.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 9691d04f-5c87-42a3-81f2-efb051e2ed30
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Cat2, Cat2 method [Windows Controls], Cat2 method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],Cat2 method, ITextStrings.Cat2, ITextStrings::Cat2, controls.itextstrings_cat2, tom/ITextStrings::Cat2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStrings.Cat2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStrings::Cat2

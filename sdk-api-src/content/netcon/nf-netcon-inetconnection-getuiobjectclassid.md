@@ -4,17 +4,16 @@ title: INetConnection::GetUiObjectClassId
 author: windows-sdk-content
 description: The GetUiObjectClassId method retrieves the class identifier of the user interface object for this connection.
 old-location: ics\inetconnection_getuiobjectclassid.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 33d69dff-8137-4901-9529-31130803b19f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetUiObjectClassId, GetUiObjectClassId method [ICS/ICF], GetUiObjectClassId method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],GetUiObjectClassId method, INetConnection.GetUiObjectClassId, INetConnection::GetUiObjectClassId, _ics_inetconnection_getuiobjectclassid, ics.inetconnection_getuiobjectclassid, netcon/INetConnection::GetUiObjectClassId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetConnection.GetUiObjectClassId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetConnection::GetUiObjectClassId

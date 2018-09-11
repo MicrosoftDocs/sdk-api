@@ -4,7 +4,7 @@ title: "_PNRP_CLOUD_ID"
 author: windows-sdk-content
 description: The PNRP_CLOUD_ID structure contains the values that define a network cloud.
 old-location: p2p\pnrp_cloud_id.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 8187ce9e-e1a9-4dce-902e-8a1c43b4b047
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pnrpdef.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Pnpxassoc.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRP_CLOUD_ID, *PPNRP_CLOUD_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PNRP_CLOUD_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PNRP_CLOUD_ID, *PPNRP_CLOUD_ID
+req.redist: 
 ---
 
 # _PNRP_CLOUD_ID structure

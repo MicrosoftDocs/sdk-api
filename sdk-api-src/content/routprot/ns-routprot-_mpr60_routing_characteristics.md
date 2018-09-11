@@ -4,17 +4,16 @@ title: "_MPR60_ROUTING_CHARACTERISTICS"
 author: windows-sdk-content
 description: The MPR_ROUTING_CHARACTERISTICS structure contains information used to register routing protocols with the router manager.
 old-location: rras\mpr_routing_characteristics.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 7046c4c2-b0bd-4459-b361-e46ce876823f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMPR_ROUTING_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, MPR50_ROUTING_CHARACTERISTICS, MPR50_ROUTING_CHARACTERISTICS structure [RAS], MPR60_ROUTING_CHARACTERISTICS, MPR_ROUTING_CHARACTERISTICS, MPR_ROUTING_CHARACTERISTICS structure [RAS], PMPR_ROUTING_CHARACTERISTICS, PMPR_ROUTING_CHARACTERISTICS structure pointer [RAS], ROUTING, SERVICES, _MPR60_ROUTING_CHARACTERISTICS, _mpr_mpr_routing_characteristics, routprot/MPR_ROUTING_CHARACTERISTICS, routprot/PMPR_ROUTING_CHARACTERISTICS, rras.mpr_routing_characteristics"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR60_ROUTING_CHARACTERISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPR50_ROUTING_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MPR60_ROUTING_CHARACTERISTICS
+req.redist: 
 ---
 
 # _MPR60_ROUTING_CHARACTERISTICS structure

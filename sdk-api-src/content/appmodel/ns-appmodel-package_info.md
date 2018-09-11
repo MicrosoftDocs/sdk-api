@@ -4,7 +4,7 @@ title: PACKAGE_INFO
 author: windows-sdk-content
 description: Represents package identification information that includes the package identifier, full name, and install location.
 old-location: appxpkg\package_info.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 0DDE00D1-9C5F-4F2B-8110-A92B1FFA1B64
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PACKAGE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PACKAGE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: PACKAGE_INFO
+req.redist: 
 ---
 
 # PACKAGE_INFO structure

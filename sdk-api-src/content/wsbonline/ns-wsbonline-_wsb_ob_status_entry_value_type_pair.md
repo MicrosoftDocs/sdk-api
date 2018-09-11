@@ -4,17 +4,16 @@ title: "_WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR"
 author: windows-sdk-content
 description: Contains the value and value type for a parameter used to expand the value resource string.
 old-location: wsb\wsb_ob_status_entry_value_type_pair.htm
-old-project: wsb
+tech.root: wsb
 ms.assetid: FA92796E-7C26-4FD0-8AC2-F84F8F5E5A6C
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR, WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR structure [Windows Server Backup], _WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR, wsb.wsb_ob_status_entry_value_type_pair, wsbonline/WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsbonline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
+req.redist: 
 ---
 
 # _WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR structure

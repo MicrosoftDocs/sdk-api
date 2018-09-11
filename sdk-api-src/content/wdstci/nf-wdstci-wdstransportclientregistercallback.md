@@ -4,17 +4,16 @@ title: WdsTransportClientRegisterCallback function
 author: windows-sdk-content
 description: Registers a callback with the multicast client.
 old-location: wds\wdstransportclientregistercallback.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: e3c809c4-5681-4979-8633-bb8d3dbde35b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WdsTransportClientRegisterCallback, WdsTransportClientRegisterCallback function [Windows Deployment Services], wds.wdstransportclientregistercallback, wdstci/WdsTransportClientRegisterCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdstci.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORTCLIENT_CALLBACK_ID, *PTRANSPORTCLIENT_CALLBACK_ID
+req.lib: Wdstptc.lib
+req.dll: Wdstptc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsTransportClientRegisterCallback
 product: Windows
 targetos: Windows
-req.lib: Wdstptc.lib
-req.dll: Wdstptc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsTransportClientRegisterCallback function

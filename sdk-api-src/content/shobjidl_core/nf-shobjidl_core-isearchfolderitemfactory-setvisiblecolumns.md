@@ -4,17 +4,16 @@ title: ISearchFolderItemFactory::SetVisibleColumns
 author: windows-sdk-content
 description: Creates a new column list whose columns are all visible, given an array of PROPERTYKEY structures. The default is based on FolderTypeID.
 old-location: shell\ISearchFolderItemFactory_SetVisibleColumns.htm
-old-project: shell
+tech.root: shell
 ms.assetid: be18218e-a117-4256-936e-3a5eb36c3654
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetVisibleColumns method, ISearchFolderItemFactory.SetVisibleColumns, ISearchFolderItemFactory::SetVisibleColumns, SetVisibleColumns, SetVisibleColumns method [Windows Shell], SetVisibleColumns method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetVisibleColumns, shell.ISearchFolderItemFactory_SetVisibleColumns, shobjidl_core/ISearchFolderItemFactory::SetVisibleColumns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchFolderItemFactory.SetVisibleColumns
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchFolderItemFactory::SetVisibleColumns

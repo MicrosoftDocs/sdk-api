@@ -4,17 +4,16 @@ title: IntToUShort function
 author: windows-sdk-content
 description: Converts a value of type INT to a value of type USHORT.
 old-location: shell\IntToUShort.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7e350beb-3cf4-44e1-a9fe-6864bb82d679
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IntToUShort, IntToUShort function [Windows Shell], IntToWord, _shell_IntToUShort, intsafe/IntToUShort, shell.IntToUShort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntToUShort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IntToUShort function

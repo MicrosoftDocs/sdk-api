@@ -4,7 +4,7 @@ title: tagWMT_MUSICSPEECH_CLASS_MODE
 author: windows-sdk-content
 description: The WMT_MUSICSPEECH_CLASS_MODE enumeration type defines the types of compression supported by the Windows Media Audio 9 Voice codec.
 old-location: wmformat\wmt_musicspeech_class_mode.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 9ca744a1-1d85-4609-8f5f-d074e46cef45
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMT_MUSICSPEECH_CLASS_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMT_MUSICSPEECH_CLASS_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMT_MUSICSPEECH_CLASS_MODE
+req.redist: 
 ---
 
 # tagWMT_MUSICSPEECH_CLASS_MODE enumeration

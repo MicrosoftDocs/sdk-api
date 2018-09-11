@@ -4,17 +4,16 @@ title: IUIAutomationRangeValuePattern::get_CachedIsReadOnly
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the value of the element can be changed.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedIsReadOnly.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 93e8df1a-8e07-4efa-8f0e-81aa7f4a3171
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedIsReadOnly property [Windows Accessibility], CachedIsReadOnly property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedIsReadOnly property, IUIAutomationRangeValuePattern.CachedIsReadOnly, IUIAutomationRangeValuePattern.get_CachedIsReadOnly, IUIAutomationRangeValuePattern::CachedIsReadOnly, IUIAutomationRangeValuePattern::get_CachedIsReadOnly, get_CachedIsReadOnly, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedIsReadOnly, uiauto_IUIAutomationRangeValuePattern_CachedIsReadOnly, uiautomationclient/IUIAutomationRangeValuePattern::CachedIsReadOnly, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedIsReadOnly, winauto.uiauto_IUIAutomationRangeValuePattern_CachedIsReadOnly
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationRangeValuePattern.get_CachedIsReadOnly
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationRangeValuePattern::get_CachedIsReadOnly

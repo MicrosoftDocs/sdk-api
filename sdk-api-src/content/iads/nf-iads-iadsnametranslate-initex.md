@@ -4,17 +4,16 @@ title: IADsNameTranslate::InitEx
 author: windows-sdk-content
 description: Initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the specified user credential.
 old-location: adsi\iadsnametranslate_initex.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 169e1e0d-26c0-484d-b461-8817d37d17b8
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsNameTranslate interface [ADSI],InitEx method, IADsNameTranslate.InitEx, IADsNameTranslate::InitEx, InitEx, InitEx method [ADSI], InitEx method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_initex, adsi.iadsnametranslate__initex, adsi.iadsnametranslate_initex, iads/IADsNameTranslate::InitEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsNameTranslate.InitEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsNameTranslate::InitEx
@@ -64,7 +62,7 @@ The <b>IADsNameTranslate::InitEx</b> method initializes the object by setting th
 
 ### -param lnSetType
 
-
+TBD
 
 
 ### -param bstrADsPath

@@ -4,17 +4,16 @@ title: "_SVSIF"
 author: windows-sdk-content
 description: Indicates flags used by IFolderView, IFolderView2, IShellView and IShellView2 to specify a type of selection to apply.
 old-location: shell\SVSIF.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3b0a7ec3-f365-48ec-86b0-ffd4c345deaf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SVSI_CHECK, SVSI_CHECK2, SVSI_DESELECT, SVSI_DESELECTOTHERS, SVSI_EDIT, SVSI_ENSUREVISIBLE, SVSI_FOCUSED, SVSI_KEYBOARDSELECT, SVSI_NOTAKEFOCUS, SVSI_POSITIONITEM, SVSI_SELECT, SVSI_SELECTIONMARK, SVSI_TRANSLATEPT, _SVSIF, _SVSIF enumeration [Windows Shell], _shell_SVSIF, shell.SVSIF, shobjidl_core/SVSI_CHECK, shobjidl_core/SVSI_CHECK2, shobjidl_core/SVSI_DESELECT, shobjidl_core/SVSI_DESELECTOTHERS, shobjidl_core/SVSI_EDIT, shobjidl_core/SVSI_ENSUREVISIBLE, shobjidl_core/SVSI_FOCUSED, shobjidl_core/SVSI_KEYBOARDSELECT, shobjidl_core/SVSI_NOTAKEFOCUS, shobjidl_core/SVSI_POSITIONITEM, shobjidl_core/SVSI_SELECT, shobjidl_core/SVSI_SELECTIONMARK, shobjidl_core/SVSI_TRANSLATEPT, shobjidl_core/_SVSIF
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_SVSIF"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _SVSIF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: "_SVSIF"
+req.redist: 
 ---
 
 # _SVSIF enumeration

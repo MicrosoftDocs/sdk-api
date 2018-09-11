@@ -4,7 +4,7 @@ title: "_DISK_GROW_PARTITION"
 author: windows-sdk-content
 description: Contains information used to increase the size of a partition.
 old-location: fs\disk_grow_partition_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 17ff8bbb-45a6-4ddd-a871-8519500c03a9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISK_GROW_PARTITION, *PDISK_GROW_PARTITION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISK_GROW_PARTITION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISK_GROW_PARTITION, *PDISK_GROW_PARTITION
+req.redist: 
 ---
 
 # _DISK_GROW_PARTITION structure

@@ -4,7 +4,7 @@ title: "_DDVIDEOPORTBANDWIDTH"
 author: windows-sdk-content
 description: The DDVIDEOPORTBANDWIDTH structure describes the bandwidth characteristics of an overlay when used with a particular video port extensions (VPE) object/pixel format configuration.
 old-location: display\ddvideoportbandwidth.htm
-old-project: display
+tech.root: display
 ms.assetid: 3e13874d-294e-4161-8131-f78799b2e90e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvp.h
 req.include-header: Dvp.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDVIDEOPORTBANDWIDTH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: "*LPDDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH"
+req.redist: 
 ---
 
 # _DDVIDEOPORTBANDWIDTH structure

@@ -4,17 +4,16 @@ title: DXGI_DECODE_SWAP_CHAIN_DESC
 author: windows-sdk-content
 description: Used with IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle to describe a decode swap chain.
 old-location: direct3ddxgi\dxgi_decode_swap_chain_desc.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 9AAF8E99-E5BC-49B3-8CA6-1F4FC0190B54
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGI_DECODE_SWAP_CHAIN_DESC, DXGI_DECODE_SWAP_CHAIN_DESC structure [DXGI], direct3ddxgi.dxgi_decode_swap_chain_desc, dxgi1_3/DXGI_DECODE_SWAP_CHAIN_DESC
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_DECODE_SWAP_CHAIN_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_DECODE_SWAP_CHAIN_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_DECODE_SWAP_CHAIN_DESC
+req.redist: 
 ---
 
 # DXGI_DECODE_SWAP_CHAIN_DESC structure

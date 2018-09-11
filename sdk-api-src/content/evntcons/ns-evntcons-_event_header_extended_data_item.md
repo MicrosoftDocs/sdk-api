@@ -4,7 +4,7 @@ title: "_EVENT_HEADER_EXTENDED_DATA_ITEM"
 author: windows-sdk-content
 description: Defines the extended data that ETW collects as part of the event data.
 old-location: etw\event_header_extended_data_item.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 130dc14b-7488-48ab-a31d-310c0f4ee13f
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntcons.h
 req.include-header: Evntcons.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_HEADER_EXTENDED_DATA_ITEM, *PEVENT_HEADER_EXTENDED_DATA_ITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_HEADER_EXTENDED_DATA_ITEM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EVENT_HEADER_EXTENDED_DATA_ITEM, *PEVENT_HEADER_EXTENDED_DATA_ITEM
+req.redist: 
 ---
 
 # _EVENT_HEADER_EXTENDED_DATA_ITEM structure

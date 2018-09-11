@@ -4,7 +4,7 @@ title: CF_CALLBACK_OPEN_COMPLETION_FLAGS
 author: windows-sdk-content
 description: Callback flags for notifying a sync provider that a placeholder was successfully opened for read/write/delete access.
 old-location: cloudapi\cf_callback_open_completion_flags.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: FF7EA010-B90A-46F8-A373-5C128B31FE70
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_CALLBACK_OPEN_COMPLETION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_CALLBACK_OPEN_COMPLETION_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: CF_CALLBACK_OPEN_COMPLETION_FLAGS
+req.redist: 
 ---
 
 # CF_CALLBACK_OPEN_COMPLETION_FLAGS enumeration

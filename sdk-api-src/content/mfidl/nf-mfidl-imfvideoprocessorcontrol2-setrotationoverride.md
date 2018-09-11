@@ -4,17 +4,16 @@ title: IMFVideoProcessorControl2::SetRotationOverride
 author: windows-sdk-content
 description: Overrides the rotation operation that is performed in the video processor.
 old-location: mf\imfvideoprocessorcontrol2_setrotationoverride.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 408048CF-0443-4F09-8AB9-A9A2827EA749
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFVideoProcessorControl2 interface [Media Foundation],SetRotationOverride method, IMFVideoProcessorControl2.SetRotationOverride, IMFVideoProcessorControl2::SetRotationOverride, SetRotationOverride, SetRotationOverride method [Media Foundation], SetRotationOverride method [Media Foundation],IMFVideoProcessorControl2 interface, mf.imfvideoprocessorcontrol2_setrotationoverride, mfidl/IMFVideoProcessorControl2::SetRotationOverride
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFVideoProcessorControl2.SetRotationOverride
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoProcessorControl2::SetRotationOverride

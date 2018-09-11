@@ -4,17 +4,16 @@ title: RESOURCE_FAILURE_INFO
 author: windows-sdk-content
 description: Represents information about the Failover attempts for a resource. This structure is used by the RESOURCE_FAILURE_INFO_BUFFER structure.
 old-location: mscs\resource_failure_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 3FE0CC0E-B097-48FC-882F-F6B236BB0CCB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE_INFO structure pointer [Failover Cluster], RESOURCE_FAILURE_INFO, RESOURCE_FAILURE_INFO structure [Failover Cluster], clusapi/PRESOURCE_FAILURE_INFO, clusapi/RESOURCE_FAILURE_INFO, msclus/PRESOURCE_FAILURE_INFO, msclus/RESOURCE_FAILURE_INFO, mscs.resource_failure_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: MsClus.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsClus.tlb
-tech.root: 
-req.typenames: RESOURCE_FAILURE_INFO, *PRESOURCE_FAILURE_INFO
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - RESOURCE_FAILURE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RESOURCE_FAILURE_INFO, *PRESOURCE_FAILURE_INFO
+req.redist: 
 ---
 
 # RESOURCE_FAILURE_INFO structure

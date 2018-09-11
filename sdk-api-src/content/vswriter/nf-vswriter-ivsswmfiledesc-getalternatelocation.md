@@ -4,17 +4,16 @@ title: IVssWMFiledesc::GetAlternateLocation
 author: windows-sdk-content
 description: The GetAlternateLocation method obtains an alternate location for a file set.
 old-location: base\ivsswmfiledesc_getalternatelocation.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 3bb787eb-ac15-40d0-9901-b869442399c5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetAlternateLocation, GetAlternateLocation method [VSS], GetAlternateLocation method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetAlternateLocation method, IVssWMFiledesc.GetAlternateLocation, IVssWMFiledesc::GetAlternateLocation, _win32_ivsswmfiledesc_getalternatelocation, base.ivsswmfiledesc_getalternatelocation, vswriter/IVssWMFiledesc::GetAlternateLocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssWMFiledesc.GetAlternateLocation
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssWMFiledesc::GetAlternateLocation

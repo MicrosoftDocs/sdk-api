@@ -4,17 +4,16 @@ title: OperationStart function
 author: windows-sdk-content
 description: Notifies the system that the application is about to start an operation.
 old-location: oprec\operationstart.htm
-old-project: oprec
+tech.root: oprec
 ms.assetid: 3E67057E-D09F-48BA-A95A-5D00F4783D9C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: OperationStart, OperationStart function [Operation Recorder], oprec.operationstart, winbase/OperationStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OperationStart
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # OperationStart function

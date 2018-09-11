@@ -4,17 +4,16 @@ title: IPropertyDescription::GetPropertyType
 author: windows-sdk-content
 description: Gets the variant type of the property.
 old-location: properties\IPropertyDescription_GetPropertyType.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 88f960b0-4b83-48d9-af24-ad6995ade550
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPropertyType, GetPropertyType method [Windows Properties], GetPropertyType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetPropertyType method, IPropertyDescription.GetPropertyType, IPropertyDescription::GetPropertyType, VT_BLOB, VT_BOOL, VT_CLSID, VT_FILETIME, VT_I2, VT_I4, VT_I8, VT_LPWSTR, VT_NULL, VT_R8, VT_STREAM, VT_UI1, VT_UI2, VT_UI4, VT_UI8, VT_UNKNOWN, properties.IPropertyDescription_GetPropertyType, propsys/IPropertyDescription::GetPropertyType, shell.IPropertyDescription_GetPropertyType, shell_IPropertyDescription_GetPropertyType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.GetPropertyType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::GetPropertyType

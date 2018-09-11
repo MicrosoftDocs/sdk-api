@@ -4,17 +4,16 @@ title: IFileDialogControlEvents::OnCheckButtonToggled
 author: windows-sdk-content
 description: Called when the user changes the state of a check button (check box).
 old-location: shell\IFileDialogControlEvents_OnCheckButtonToggled.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 97e6cb2a-1ffc-43ca-abb6-f1b259e8fcd2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnCheckButtonToggled method, IFileDialogControlEvents.OnCheckButtonToggled, IFileDialogControlEvents::OnCheckButtonToggled, OnCheckButtonToggled, OnCheckButtonToggled method [Windows Shell], OnCheckButtonToggled method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnCheckButtonToggled, shell_IFileDialogControlEvents_OnCheckButtonToggled, shobjidl/IFileDialogControlEvents::OnCheckButtonToggled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogControlEvents.OnCheckButtonToggled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogControlEvents::OnCheckButtonToggled

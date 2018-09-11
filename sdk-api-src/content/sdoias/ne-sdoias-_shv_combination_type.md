@@ -4,7 +4,7 @@ title: "_SHV_COMBINATION_TYPE"
 author: windows-sdk-content
 description: The SHV_COMBINATION_TYPE enumeration type specifies the type of a System Health Validator (SHV) combination.
 old-location: nps\SDO_shv_combination_type.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 444c2223-3ff5-4e13-8d8d-f993979f3c46
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.unicode-ansi: 
 req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHV_COMBINATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHV_COMBINATION_TYPE
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: SHV_COMBINATION_TYPE
+req.redist: 
 ---
 
 # _SHV_COMBINATION_TYPE enumeration

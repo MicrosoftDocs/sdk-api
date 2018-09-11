@@ -4,17 +4,16 @@ title: IGPMSOMCollection::get_Item
 author: windows-sdk-content
 description: Given an index, returns a SOM from the collection.
 old-location: gpmc\igpmsomcollection_get_item.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: c1dae546-bee3-425c-a436-0931ac837f15
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMSOMCollection class [GPMC],Item property, IGPMSOMCollection interface [GPMC],Item property, IGPMSOMCollection.Item, IGPMSOMCollection.get_Item, IGPMSOMCollection::Item, IGPMSOMCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMSOMCollection class, Item property [GPMC],IGPMSOMCollection interface, _win32_igpmsomcollection_get_item, get_Item, gpmc.igpmsomcollection_get_item, gpmgmt/IGPMSOMCollection::Item, gpmgmt/IGPMSOMCollection::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GPMSOMCollection.Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMSOMCollection::get_Item

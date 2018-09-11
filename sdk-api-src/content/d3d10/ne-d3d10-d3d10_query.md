@@ -4,17 +4,16 @@ title: D3D10_QUERY
 author: windows-sdk-content
 description: Query types.
 old-location: direct3d10\d3d10_query.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: D3D10_QUERY, D3D10_QUERY enumeration [Direct3D 10], D3D10_QUERY_EVENT, D3D10_QUERY_OCCLUSION, D3D10_QUERY_OCCLUSION_PREDICATE, D3D10_QUERY_PIPELINE_STATISTICS, D3D10_QUERY_SO_OVERFLOW_PREDICATE, D3D10_QUERY_SO_STATISTICS, D3D10_QUERY_TIMESTAMP, D3D10_QUERY_TIMESTAMP_DISJOINT, d3d10/D3D10_QUERY, d3d10/D3D10_QUERY_EVENT, d3d10/D3D10_QUERY_OCCLUSION, d3d10/D3D10_QUERY_OCCLUSION_PREDICATE, d3d10/D3D10_QUERY_PIPELINE_STATISTICS, d3d10/D3D10_QUERY_SO_OVERFLOW_PREDICATE, d3d10/D3D10_QUERY_SO_STATISTICS, d3d10/D3D10_QUERY_TIMESTAMP, d3d10/D3D10_QUERY_TIMESTAMP_DISJOINT, direct3d10.d3d10_query, e40f5532-bdd2-10c8-b69c-1b328c82ae9c
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_QUERY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_QUERY
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D3D10_QUERY
+req.redist: 
 ---
 
 # D3D10_QUERY enumeration

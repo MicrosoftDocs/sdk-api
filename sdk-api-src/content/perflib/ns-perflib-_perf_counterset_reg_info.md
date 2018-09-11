@@ -4,7 +4,7 @@ title: "_PERF_COUNTERSET_REG_INFO"
 author: windows-sdk-content
 description: Contains information about the PERF_COUNTERSET_REG_INFO block that contains the structure.
 old-location: perf\perf_counterset_reg_info.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: D220426F-7849-47DF-A411-5381FC39CA80
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_COUNTERSET_REG_INFO, *PPERF_COUNTERSET_REG_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERF_COUNTERSET_REG_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PERF_COUNTERSET_REG_INFO, *PPERF_COUNTERSET_REG_INFO
+req.redist: 
 ---
 
 # _PERF_COUNTERSET_REG_INFO structure

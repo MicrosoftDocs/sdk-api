@@ -4,17 +4,16 @@ title: VarR8FromStr function
 author: windows-sdk-content
 description: Converts an OLECHAR string to a double value.
 old-location: automat\varr8fromstr.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 8c22ce8a-0161-4d58-9902-724333292911
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarR8FromStr, VarR8FromStr function [Automation], _oa96_VarR8FromStr, automat.varr8fromstr, oleauto/VarR8FromStr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarR8FromStr
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarR8FromStr function

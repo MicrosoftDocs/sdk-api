@@ -4,7 +4,7 @@ title: "_FILE_DISPOSITION_INFO"
 author: windows-sdk-content
 description: Indicates whether a file should be deleted. Used for any handles.
 old-location: fs\file_disposition_info.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 07095f62-323a-463a-a33e-7e4ca9adcb69
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_DISPOSITION_INFO, *PFILE_DISPOSITION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FILE_DISPOSITION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_DISPOSITION_INFO, *PFILE_DISPOSITION_INFO
+req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
 ---
 
 # _FILE_DISPOSITION_INFO structure

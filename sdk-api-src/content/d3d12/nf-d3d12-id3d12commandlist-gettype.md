@@ -4,17 +4,16 @@ title: ID3D12CommandList::GetType
 author: windows-sdk-content
 description: Gets the type of the command list, such as direct, bundle, compute, or copy.
 old-location: direct3d12\id3d12commandlist_gettype.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 39F9EF96-9761-410A-B5DD-A088F6863923
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetType, GetType method, GetType method,ID3D12CommandList interface, ID3D12CommandList interface,GetType method, ID3D12CommandList.GetType, ID3D12CommandList::GetType, d3d12/ID3D12CommandList::GetType, direct3d12.id3d12commandlist_gettype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12CommandList.GetType
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12CommandList::GetType

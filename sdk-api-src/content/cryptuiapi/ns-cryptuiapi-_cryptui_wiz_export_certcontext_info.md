@@ -4,17 +4,16 @@ title: "_CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO"
 author: windows-sdk-content
 description: Contains information that controls the operation of the CryptUIWizExport function when a certificate is the object being exported.
 old-location: security\cryptui_wiz_export_certcontext_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 6be86c4f-0ac7-43c2-81fb-9767279ebeaf
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure [Security], CRYPTUI_WIZ_EXPORT_FORMAT_BASE64, CRYPTUI_WIZ_EXPORT_FORMAT_CRL, CRYPTUI_WIZ_EXPORT_FORMAT_CTL, CRYPTUI_WIZ_EXPORT_FORMAT_DER, CRYPTUI_WIZ_EXPORT_FORMAT_PFX, CRYPTUI_WIZ_EXPORT_FORMAT_PKCS7, PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure pointer [Security], _CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, cryptuiapi/CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, cryptuiapi/PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, security.cryptui_wiz_export_certcontext_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, *PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, *PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
+req.redist: 
 ---
 
 # _CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure

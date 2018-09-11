@@ -4,17 +4,16 @@ title: IUpdate::get_EulaAccepted
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the Microsoft Software License Terms that are associated with the update are accepted for the computer.
 old-location: wua\iupdate_eulaaccepted.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: c62967c1-d72a-4ae0-ad02-94e948985b87
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EulaAccepted property [Windows Update Agent], EulaAccepted property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],EulaAccepted property, IUpdate.EulaAccepted, IUpdate.get_EulaAccepted, IUpdate::EulaAccepted, IUpdate::get_EulaAccepted, get_EulaAccepted, wua.iupdate_eulaaccepted, wuapi/IUpdate::EulaAccepted, wuapi/IUpdate::get_EulaAccepted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUpdate.get_EulaAccepted
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdate::get_EulaAccepted

@@ -4,17 +4,16 @@ title: IMpeg2Data::GetTable
 author: windows-sdk-content
 description: GetTable is no longer available for use as of Windows 7.
 old-location: mstv\impeg2data_gettable.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c76a9117-5dd7-46fc-8390-3f1ec80f6499
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies],IMpeg2Data interface, IMpeg2Data interface [Microsoft TV Technologies],GetTable method, IMpeg2Data.GetTable, IMpeg2Data::GetTable, IMpeg2DataGetTable, mpeg2data/IMpeg2Data::GetTable, mstv.impeg2data_gettable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2data.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMpeg2Data.GetTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMpeg2Data::GetTable

@@ -4,7 +4,7 @@ title: tag_SCRIPT_TABDEF
 author: windows-sdk-content
 description: Contains definitions of the tab positions for ScriptStringAnalyse.
 old-location: intl\script_tabdef.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 023ec258-b3f9-4ea2-8c9d-838df1442068
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 
-req.redist: Internet Explorer 5 or later onWindows Me/98/95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_TABDEF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCRIPT_TABDEF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: SCRIPT_TABDEF
+req.redist: Internet Explorer 5 or later onWindows Me/98/95
 ---
 
 # tag_SCRIPT_TABDEF structure

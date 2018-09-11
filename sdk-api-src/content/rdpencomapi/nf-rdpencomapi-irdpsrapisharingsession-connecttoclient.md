@@ -4,17 +4,16 @@ title: IRDPSRAPISharingSession::ConnectToClient
 author: windows-sdk-content
 description: Used for reverse connect mode, where the sharer connects to the viewer.
 old-location: rdp\irdpsrapisharingsession_connecttoclient.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 18651433-90cb-4ebd-afaf-480800dfe033
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ConnectToClient, ConnectToClient method [RDP], ConnectToClient method [RDP],IRDPSRAPISharingSession interface, ConnectToClient method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession interface [RDP],ConnectToClient method, IRDPSRAPISharingSession.ConnectToClient, IRDPSRAPISharingSession2 interface [RDP],ConnectToClient method, IRDPSRAPISharingSession2::ConnectToClient, IRDPSRAPISharingSession::ConnectToClient, rdp.irdpsrapisharingsession_connecttoclient, rdpencomapi/IRDPSRAPISharingSession2::ConnectToClient, rdpencomapi/IRDPSRAPISharingSession::ConnectToClient
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRDPSRAPISharingSession.ConnectToClient
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPISharingSession::ConnectToClient

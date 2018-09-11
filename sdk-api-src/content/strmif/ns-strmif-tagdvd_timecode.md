@@ -4,7 +4,7 @@ title: tagDVD_TIMECODE
 author: windows-sdk-content
 description: The DVD_TIMECODE structure contains DVD timecode in hours, minutes, seconds, and frames.
 old-location: dshow\dvd_timecode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7ad0b11e-5bb7-426f-9a2c-fbc34b2f45b4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_TIMECODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_TIMECODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: DVD_TIMECODE
+req.redist: 
 ---
 
 # tagDVD_TIMECODE structure

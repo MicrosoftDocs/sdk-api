@@ -4,17 +4,16 @@ title: "_tagSYNCMGRITEM"
 author: windows-sdk-content
 description: Provides information about items being enumerated by the ISyncMgrEnumItems interface.
 old-location: shell\syncmgr_syncmgritem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 84fa1d81-d1b9-44d7-be97-14511ef95528
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPSYNCMGRITEM, LPSYNCMGRITEM, LPSYNCMGRITEM structure pointer [Windows Shell], SYNCMGRITEM, SYNCMGRITEM structure [Windows Shell], SYNCMGRITEMSTATE_CHECKED, SYNCMGRITEMSTATE_UNCHECKED, _tagSYNCMGRITEM, mobsync/LPSYNCMGRITEM, mobsync/SYNCMGRITEM, shell.syncmgr_syncmgritem, syncmgr.syncmgritem"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRITEM, *LPSYNCMGRITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGRITEM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SYNCMGRITEM, *LPSYNCMGRITEM
+req.redist: 
 ---
 
 # _tagSYNCMGRITEM structure

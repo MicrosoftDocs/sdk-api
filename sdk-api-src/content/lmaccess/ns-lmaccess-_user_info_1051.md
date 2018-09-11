@@ -4,17 +4,16 @@ title: "_USER_INFO_1051"
 author: windows-sdk-content
 description: The USER_INFO_1051 structure contains the relative ID (RID) associated with the user account. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1051_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: dbd7c63b-c383-48dd-98f2-087f2b41fc52
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPUSER_INFO_1051, *PUSER_INFO_1051, LPUSER_INFO_1051, LPUSER_INFO_1051 structure pointer [Network Management], PUSER_INFO_1051, PUSER_INFO_1051 structure pointer [Network Management], USER_INFO_1051, USER_INFO_1051 structure [Network Management], _USER_INFO_1051, _win32_user_info_1051_str, lmaccess/LPUSER_INFO_1051, lmaccess/PUSER_INFO_1051, lmaccess/USER_INFO_1051, netmgmt.user_info_1051_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INFO_1051, *PUSER_INFO_1051, *LPUSER_INFO_1051
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_INFO_1051
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USER_INFO_1051, *PUSER_INFO_1051, *LPUSER_INFO_1051
+req.redist: 
 ---
 
 # _USER_INFO_1051 structure

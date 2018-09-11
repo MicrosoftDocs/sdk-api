@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::put_OperationType
 author: windows-sdk-content
 description: The type of file management job. The type determines the operation to perform on a file when all conditions are met.
 old-location: fsrm\ifsrmfilemanagementjob_operationtype.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 98816ea0-7651-42ef-8893-13c568ed859a
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],OperationType property, IFsrmFileManagementJob.OperationType, IFsrmFileManagementJob.put_OperationType, IFsrmFileManagementJob::OperationType, IFsrmFileManagementJob::get_OperationType, IFsrmFileManagementJob::put_OperationType, OperationType property [File Server Resource Manager], OperationType property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_operationtype, fsrm.ifsrmfilemanagementjob_operationtype, fsrmreports/IFsrmFileManagementJob::OperationType, fsrmreports/IFsrmFileManagementJob::get_OperationType, fsrmreports/IFsrmFileManagementJob::put_OperationType, put_OperationType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileManagementJob.put_OperationType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::put_OperationType

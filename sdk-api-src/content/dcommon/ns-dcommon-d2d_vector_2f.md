@@ -4,7 +4,7 @@ title: D2D_VECTOR_2F
 author: windows-sdk-content
 description: A vector of 2 FLOAT values (x, y).
 old-location: direct2d\d2d1_vector_2f.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: DD180090-D2F4-4DF3-8652-101713C01AE4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_2F
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - D2D_VECTOR_2F
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D_VECTOR_2F
+req.redist: 
 ---
 
 # D2D_VECTOR_2F structure

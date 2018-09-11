@@ -4,17 +4,16 @@ title: IEnumBackgroundCopyGroups::Clone
 author: windows-sdk-content
 description: Use the Clone method to create another IEnumBackgroundCopyGroups enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbackgroundcopygroups_clone.htm
-old-project: bits
+tech.root: bits
 ms.assetid: f2743edd-9fc5-451b-b1ff-17f4591923ba
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBackgroundCopyGroups interface, IEnumBackgroundCopyGroups interface [BITS],Clone method, IEnumBackgroundCopyGroups.Clone, IEnumBackgroundCopyGroups::Clone, bits.ienumbackgroundcopygroups_clone, qmgr/IEnumBackgroundCopyGroups::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumBackgroundCopyGroups.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumBackgroundCopyGroups::Clone

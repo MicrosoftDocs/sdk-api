@@ -4,17 +4,16 @@ title: ICertPropertyArchivedKeyHash::Initialize
 author: windows-sdk-content
 description: Initializes the object from a byte array that contains the hash.
 old-location: security\icertpropertyarchivedkeyhash_initialize_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 1f201b37-6f3a-4f1c-83b8-2f1dbb1d4d07
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertPropertyArchivedKeyHash interface [Security],Initialize method, ICertPropertyArchivedKeyHash.Initialize, ICertPropertyArchivedKeyHash::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyArchivedKeyHash interface, certenroll/ICertPropertyArchivedKeyHash::Initialize, security.icertpropertyarchivedkeyhash_initialize_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertPropertyArchivedKeyHash.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyArchivedKeyHash::Initialize

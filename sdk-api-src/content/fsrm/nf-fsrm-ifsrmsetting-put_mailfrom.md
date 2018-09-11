@@ -4,17 +4,16 @@ title: IFsrmSetting::put_MailFrom
 author: windows-sdk-content
 description: Retrieves or sets the default email address from which email messages are sent.
 old-location: fsrm\ifsrmsetting_mailfrom.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 62296c6c-d75b-4669-a665-a0c4321218b6
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmSetting class [File Server Resource Manager],MailFrom property, IFsrmSetting interface [File Server Resource Manager],MailFrom property, IFsrmSetting.MailFrom, IFsrmSetting.put_MailFrom, IFsrmSetting::MailFrom, IFsrmSetting::get_MailFrom, IFsrmSetting::put_MailFrom, MailFrom property [File Server Resource Manager], MailFrom property [File Server Resource Manager],FsrmSetting class, MailFrom property [File Server Resource Manager],IFsrmSetting interface, fs.ifsrmsetting_mailfrom, fsrm.ifsrmsetting_mailfrom, fsrm/IFsrmSetting::MailFrom, fsrm/IFsrmSetting::get_MailFrom, fsrm/IFsrmSetting::put_MailFrom, put_MailFrom
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - FsrmSetting.MailFrom
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmSetting::put_MailFrom

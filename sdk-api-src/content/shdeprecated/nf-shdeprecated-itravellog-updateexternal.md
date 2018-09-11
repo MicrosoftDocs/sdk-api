@@ -4,17 +4,16 @@ title: ITravelLog::UpdateExternal
 author: windows-sdk-content
 description: Deprecated. Updates an entry that originated out of the current procedure through IHlinkFrame.
 old-location: shell\ITravelLog_UpdateExternal.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2fda446d-8652-455b-9233-aa02f2a85e7f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITravelLog interface [Windows Shell],UpdateExternal method, ITravelLog.UpdateExternal, ITravelLog::UpdateExternal, UpdateExternal, UpdateExternal method [Windows Shell], UpdateExternal method [Windows Shell],ITravelLog interface, shdeprecated/ITravelLog::UpdateExternal, shell.ITravelLog_UpdateExternal, zone_ITravelLog_UpdateExternal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITravelLog.UpdateExternal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

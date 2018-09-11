@@ -4,17 +4,16 @@ title: tagCPLINFO
 author: windows-sdk-content
 description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
 old-location: shell\CPLINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 707950c9-c242-43b2-b665-c97a89e632c5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPCPLINFO, CPLINFO, CPLINFO structure [Windows Shell], _win32_CPLINFO, cpl/CPLINFO, shell.CPLINFO, tagCPLINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cpl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CPLINFO, *LPCPLINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CPLINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CPLINFO, *LPCPLINFO
+req.redist: 
 ---
 
 # tagCPLINFO structure

@@ -4,17 +4,16 @@ title: "_SP_SELECTDEVICE_PARAMS_W"
 author: windows-sdk-content
 description: An SP_SELECTDEVICE_PARAMS structure corresponds to a DIF_SELECTDEVICE installation request.
 old-location: devinst\sp_selectdevice_params.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 7d1168dd-0b61-44fb-928d-38f2c57c1092
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PSP_SELECTDEVICE_PARAMS_W, PSP_SELECTDEVICE_PARAMS, PSP_SELECTDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_SELECTDEVICE_PARAMS, SP_SELECTDEVICE_PARAMS structure [Device and Driver Installation], SP_SELECTDEVICE_PARAMS_W, _SP_SELECTDEVICE_PARAMS_W, devinst.sp_selectdevice_params, di-struct_897a5d1d-5ff3-4d70-b39d-3763b81d54bf.xml, setupapi/PSP_SELECTDEVICE_PARAMS, setupapi/SP_SELECTDEVICE_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_SELECTDEVICE_PARAMS_W, *PSP_SELECTDEVICE_PARAMS_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_SELECTDEVICE_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_SELECTDEVICE_PARAMS_W, *PSP_SELECTDEVICE_PARAMS_W
+req.redist: 
 ---
 
 # _SP_SELECTDEVICE_PARAMS_W structure

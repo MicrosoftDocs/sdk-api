@@ -4,17 +4,16 @@ title: IObjectControl::CanBePooled
 author: windows-sdk-content
 description: Notifies the COM+ run-time environment whether the object can be pooled for reuse when it is deactivated.
 old-location: cos\iobjectcontrol_canbepooled.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 97f585f1-e9c2-4122-a5e9-0a10b874b06e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CanBePooled, CanBePooled method [COM+], CanBePooled method [COM+],IObjectControl interface, IObjectControl interface [COM+],CanBePooled method, IObjectControl.CanBePooled, IObjectControl::CanBePooled, _cos_IObjectControl_CanBePooled, comsvcs/IObjectControl::CanBePooled, cos.iobjectcontrol_canbepooled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectControl.CanBePooled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectControl::CanBePooled

@@ -4,17 +4,16 @@ title: IMSVidCtl::put_AudioRendererActive
 author: windows-sdk-content
 description: The put_AudioRendererActive method specifies the active audio renderer.
 old-location: mstv\imsvidctl_put_audiorendereractive.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1f6498ce-fb53-4d57-b6bd-6696ba57de3b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_AudioRendererActive method, IMSVidCtl.put_AudioRendererActive, IMSVidCtl::put_AudioRendererActive, IMSVidCtlput_AudioRendererActive, mstv.imsvidctl_put_audiorendereractive, msvidctl/IMSVidCtl::put_AudioRendererActive, put_AudioRendererActive, put_AudioRendererActive method [Microsoft TV Technologies], put_AudioRendererActive method [Microsoft TV Technologies],IMSVidCtl interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.put_AudioRendererActive
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::put_AudioRendererActive

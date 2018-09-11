@@ -4,7 +4,7 @@ title: tACMFORMATCHOOSE
 author: windows-sdk-content
 description: The ACMFORMATCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio format selection dialog box.
 old-location: multimedia\acmformatchoose_struct.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: b5e36dbd-9eaf-479a-af4c-ce07e4b6f042
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msacm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACMFORMATCHOOSE, *PACMFORMATCHOOSE, *LPACMFORMATCHOOSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACMFORMATCHOOSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ACMFORMATCHOOSE, *PACMFORMATCHOOSE, *LPACMFORMATCHOOSE
+req.redist: 
 ---
 
 # tACMFORMATCHOOSE structure

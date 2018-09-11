@@ -4,17 +4,16 @@ title: PBEGIN_RESCALL_ROUTINE
 author: windows-sdk-content
 description: Starts a call to a resource control code. The PBEGIN_RESCALL_ROUTINE type defines a pointer to this callback function.
 old-location: mscs\beginresourcecontrol.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 1B95607F-658A-469D-8935-DF7E537D1509
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BeginResourceControl, BeginResourceControl callback, BeginResourceControl callback function [Failover Cluster], PBEGIN_RESCALL_ROUTINE, PBEGIN_RESCALL_ROUTINE callback function [Failover Cluster], mscs.beginresourcecontrol, resapi/BeginResourceControl, resapi/PBEGIN_RESCALL_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BeginResourceControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PBEGIN_RESCALL_ROUTINE callback function

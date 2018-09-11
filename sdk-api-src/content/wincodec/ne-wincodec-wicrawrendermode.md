@@ -4,7 +4,7 @@ title: WICRawRenderMode
 author: windows-sdk-content
 description: Specifies the render intent of the next CopyPixels call.
 old-location: wic\_wic_codec_wicrawrendermode.htm
-old-project: wic
+tech.root: wic
 ms.assetid: dc020c78-a018-42ee-a500-65a743b96107
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICRawRenderMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICRawRenderMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICRawRenderMode
+req.redist: 
 ---
 
 # WICRawRenderMode enumeration

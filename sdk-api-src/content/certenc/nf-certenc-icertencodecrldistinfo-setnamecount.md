@@ -4,17 +4,16 @@ title: ICertEncodeCRLDistInfo::SetNameCount
 author: windows-sdk-content
 description: Sets a name count for the specified distribution point in a certificate revocation list (CRL) distribution information array.
 old-location: security\icertencodecrldistinfo_setnamecount.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: ce27adfd-e21a-4e8d-882e-72041f97958a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],SetNameCount method, ICertEncodeCRLDistInfo interface [Security],SetNameCount method, ICertEncodeCRLDistInfo.SetNameCount, ICertEncodeCRLDistInfo::SetNameCount, SetNameCount, SetNameCount method [Security], SetNameCount method [Security],CCertEncodeCRLDistInfo object, SetNameCount method [Security],ICertEncodeCRLDistInfo interface, _certsrv_icertencodecrldistinfo_setnamecount, certenc/ICertEncodeCRLDistInfo::SetNameCount, security.icertencodecrldistinfo_setnamecount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeCRLDistInfo.SetNameCount
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeCRLDistInfo::SetNameCount

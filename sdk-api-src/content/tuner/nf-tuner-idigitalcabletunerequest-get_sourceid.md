@@ -4,17 +4,16 @@ title: IDigitalCableTuneRequest::get_SourceID
 author: windows-sdk-content
 description: The get_SourceID method retrieves the source identifier, which maps to a physical channel.
 old-location: mstv\idigitalcabletunerequest_get_sourceid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 3767a8b4-f318-4242-9b30-f1293b3f7091
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],get_SourceID method, IDigitalCableTuneRequest.get_SourceID, IDigitalCableTuneRequest::get_SourceID, IDigitalCableTuneRequestget_SourceID, get_SourceID, get_SourceID method [Microsoft TV Technologies], get_SourceID method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, mstv.idigitalcabletunerequest_get_sourceid, tuner/IDigitalCableTuneRequest::get_SourceID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDigitalCableTuneRequest.get_SourceID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDigitalCableTuneRequest::get_SourceID

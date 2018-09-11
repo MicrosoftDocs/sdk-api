@@ -4,17 +4,16 @@ title: ShutdownTextServices function
 author: windows-sdk-content
 description: Disconnects a host from a text services instance.
 old-location: controls\shutdowntextservices.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 3367D22B-1F9E-4D70-8907-0F218A23AE7E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ShutdownTextServices, ShutdownTextServices function [Windows Controls], controls.shutdowntextservices, textserv/ShutdownTextServices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ShutdownTextServices
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ShutdownTextServices function

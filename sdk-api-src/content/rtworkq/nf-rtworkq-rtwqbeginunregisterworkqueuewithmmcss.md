@@ -4,17 +4,16 @@ title: RtwqBeginUnregisterWorkQueueWithMMCSS function
 author: windows-sdk-content
 description: Unregisters a work queue from a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: base\rtwqbeginunregisterworkqueuewithmmcss.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 1faa9661-9b65-472a-b1d5-c99b10b149e9
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: RtwqBeginUnregisterWorkQueueWithMMCSS, RtwqBeginUnregisterWorkQueueWithMMCSS function, base.rtwqbeginunregisterworkqueuewithmmcss, rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtwqBeginUnregisterWorkQueueWithMMCSS
 product: Windows
 targetos: Windows
-req.lib: Rtworkq.lib
-req.dll: RTWorkQ.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtwqBeginUnregisterWorkQueueWithMMCSS function

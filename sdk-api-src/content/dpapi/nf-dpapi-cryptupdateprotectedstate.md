@@ -4,17 +4,16 @@ title: CryptUpdateProtectedState function
 author: windows-sdk-content
 description: Migrates the current user's master keys after the user's security identifier (SID) has changed.
 old-location: security\cryptupdateprotectedstate.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: f32e8fcd-6b5b-4a43-b3f9-77e17c84deca
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptUpdateProtectedState, CryptUpdateProtectedState function [Security], dpapi/CryptUpdateProtectedState, security.cryptupdateprotectedstate, wincrypt/CryptUpdateProtectedState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ONEX_VARIABLE_BLOB, *PONEX_VARIABLE_BLOB
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CryptUpdateProtectedState
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CryptUpdateProtectedState function

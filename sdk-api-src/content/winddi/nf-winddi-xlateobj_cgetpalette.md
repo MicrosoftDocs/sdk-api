@@ -4,17 +4,16 @@ title: XLATEOBJ_cGetPalette function
 author: windows-sdk-content
 description: The XLATEOBJ_cGetPalette function retrieves RGB colors or the bitfields format from the specified palette.
 old-location: display\xlateobj_cgetpalette.htm
-old-project: display
+tech.root: display
 ms.assetid: eec6a5ec-398a-484f-b70f-e6baaedc6abd
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: XLATEOBJ_cGetPalette, XLATEOBJ_cGetPalette function [Display Devices], display.xlateobj_cgetpalette, gdifncs_739e9529-598b-4489-85ff-0057e244617e.xml, winddi/XLATEOBJ_cGetPalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XLATEOBJ_cGetPalette
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # XLATEOBJ_cGetPalette function

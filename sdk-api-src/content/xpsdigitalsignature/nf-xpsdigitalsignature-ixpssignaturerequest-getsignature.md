@@ -4,17 +4,16 @@ title: IXpsSignatureRequest::GetSignature
 author: windows-sdk-content
 description: Gets a pointer to an IXpsSignature interface that contains the XPS digital signature with the same unique identifier as the signature request.
 old-location: xps\ixpssignaturerequest_getsignature.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 649ab92f-9195-47a9-8a02-546825245e2b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSignature, GetSignature method [XPS Documents and Packaging], GetSignature method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSignature method, IXpsSignatureRequest.GetSignature, IXpsSignatureRequest::GetSignature, xps.ixpssignaturerequest_getsignature, xpsdigitalsignature/IXpsSignatureRequest::GetSignature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignatureRequest.GetSignature
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignatureRequest::GetSignature

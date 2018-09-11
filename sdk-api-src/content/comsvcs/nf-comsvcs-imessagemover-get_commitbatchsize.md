@@ -4,17 +4,16 @@ title: IMessageMover::get_CommitBatchSize
 author: windows-sdk-content
 description: Retrieves the commit batch size.
 old-location: cos\imessagemover_get_commitbatchsize.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 7c0b5ebb-00dc-4c9a-9c0c-6d92cd13f534
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMessageMover interface [COM+],get_CommitBatchSize method, IMessageMover.get_CommitBatchSize, IMessageMover::get_CommitBatchSize, comsvcs/IMessageMover::get_CommitBatchSize, cos.imessagemover_get_commitbatchsize, get_CommitBatchSize, get_CommitBatchSize method [COM+], get_CommitBatchSize method [COM+],IMessageMover interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMessageMover.get_CommitBatchSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMessageMover::get_CommitBatchSize

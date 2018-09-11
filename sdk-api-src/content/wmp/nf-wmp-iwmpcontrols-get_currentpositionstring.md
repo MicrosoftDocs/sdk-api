@@ -4,17 +4,16 @@ title: IWMPControls::get_currentPositionString
 author: windows-sdk-content
 description: The get_currentPositionString method retrieves the current position in the media item as a BSTR formatted as HH:MM:SS (hours, minutes, and seconds).
 old-location: wmp\iwmpcontrols_get_currentpositionstring.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 8843852b-f98a-469f-8541-44b3c51ebd6c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentPositionString method, IWMPControls.get_currentPositionString, IWMPControls::get_currentPositionString, IWMPControlsget_currentPositionString, get_currentPositionString, get_currentPositionString method [Windows Media Player], get_currentPositionString method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentpositionstring, wmp/IWMPControls::get_currentPositionString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPControls.get_currentPositionString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPControls::get_currentPositionString

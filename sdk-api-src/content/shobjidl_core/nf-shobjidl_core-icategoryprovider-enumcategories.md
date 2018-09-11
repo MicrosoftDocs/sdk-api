@@ -4,17 +4,16 @@ title: ICategoryProvider::EnumCategories
 author: windows-sdk-content
 description: Gets the enumerator for the list of GUIDs that represent categories.
 old-location: shell\ICategoryProvider_EnumCategories.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5008ce75-7a90-4f30-84e0-13d00cc1e58e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: EnumCategories, EnumCategories method [Windows Shell], EnumCategories method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],EnumCategories method, ICategoryProvider.EnumCategories, ICategoryProvider::EnumCategories, inet_ICategoryProvider_EnumCategories, shell.ICategoryProvider_EnumCategories, shobjidl_core/ICategoryProvider::EnumCategories
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICategoryProvider.EnumCategories
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICategoryProvider::EnumCategories

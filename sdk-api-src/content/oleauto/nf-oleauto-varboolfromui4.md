@@ -4,17 +4,16 @@ title: VarBoolFromUI4 function
 author: windows-sdk-content
 description: Converts an unsigned long value to a Boolean value.
 old-location: automat\varboolfromui4.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 942aafda-3c7e-4130-ac64-ed32f1cd66f7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarBoolFromUI4, VarBoolFromUI4 function [Automation], _oa96_VarBoolFromUI4, automat.varboolfromui4, oleauto/VarBoolFromUI4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarBoolFromUI4
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarBoolFromUI4 function

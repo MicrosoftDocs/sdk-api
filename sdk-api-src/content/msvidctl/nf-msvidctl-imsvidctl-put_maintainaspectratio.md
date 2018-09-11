@@ -4,17 +4,16 @@ title: IMSVidCtl::put_MaintainAspectRatio
 author: windows-sdk-content
 description: The put_MaintainAspectRatio method specifies whether the Video Control maintains the aspect ratio of the source video.
 old-location: mstv\imsvidctl_put_maintainaspectratio.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7f0943b1-3cb9-46dc-8aaf-be22e2464092
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_MaintainAspectRatio method, IMSVidCtl.put_MaintainAspectRatio, IMSVidCtl::put_MaintainAspectRatio, IMSVidCtlput_MaintainAspectRatio, mstv.imsvidctl_put_maintainaspectratio, msvidctl/IMSVidCtl::put_MaintainAspectRatio, put_MaintainAspectRatio, put_MaintainAspectRatio method [Microsoft TV Technologies], put_MaintainAspectRatio method [Microsoft TV Technologies],IMSVidCtl interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.put_MaintainAspectRatio
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::put_MaintainAspectRatio

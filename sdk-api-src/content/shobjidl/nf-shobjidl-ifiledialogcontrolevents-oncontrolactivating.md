@@ -4,17 +4,16 @@ title: IFileDialogControlEvents::OnControlActivating
 author: windows-sdk-content
 description: Called when an Open button drop-down list customized through EnableOpenDropDown or a Tools menu is about to display its contents.
 old-location: shell\IFileDialogControlEvents_OnControlActivating.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 12efb183-65b9-4095-be57-7c7802bda2ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnControlActivating method, IFileDialogControlEvents.OnControlActivating, IFileDialogControlEvents::OnControlActivating, OnControlActivating, OnControlActivating method [Windows Shell], OnControlActivating method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnControlActivating, shell_IFileDialogControlEvents_OnControlActivating, shobjidl/IFileDialogControlEvents::OnControlActivating
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogControlEvents.OnControlActivating
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogControlEvents::OnControlActivating

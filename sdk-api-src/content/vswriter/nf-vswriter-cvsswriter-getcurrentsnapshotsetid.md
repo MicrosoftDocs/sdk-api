@@ -4,17 +4,16 @@ title: CVssWriter::GetCurrentSnapshotSetId
 author: windows-sdk-content
 description: The GetCurrentSnapshotSetId method returns the unique identifier of the shadow copy set.
 old-location: base\cvsswriter_getcurrentsnapshotsetid.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: c9327bfc-02e5-402c-b445-15eed4433176
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CVssWriter interface [VSS],GetCurrentSnapshotSetId method, CVssWriter.GetCurrentSnapshotSetId, CVssWriter::GetCurrentSnapshotSetId, GetCurrentSnapshotSetId, GetCurrentSnapshotSetId method [VSS], GetCurrentSnapshotSetId method [VSS],CVssWriter interface, _win32_cvsswriter_getcurrentsnapshotsetid, base.cvsswriter_getcurrentsnapshotsetid, vswriter/CVssWriter::GetCurrentSnapshotSetId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriter.GetCurrentSnapshotSetId
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriter::GetCurrentSnapshotSetId

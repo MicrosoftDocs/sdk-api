@@ -4,17 +4,16 @@ title: IInertiaProcessor::Reset
 author: windows-sdk-content
 description: The Reset method initializes the processor with initial timestamp and restarts inertia.
 old-location: wintouch\iinertiaprocessor_reset.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 69ce260d-0674-4ff0-8610-bc814976bd3d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],Reset method, IInertiaProcessor.Reset, IInertiaProcessor::Reset, Reset, Reset method [Windows Touch], Reset method [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::Reset, wintouch.iinertiaprocessor_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInertiaProcessor.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInertiaProcessor::Reset

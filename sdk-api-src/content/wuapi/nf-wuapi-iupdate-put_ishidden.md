@@ -4,17 +4,16 @@ title: IUpdate::put_IsHidden
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update is hidden by a user.
 old-location: wua\iupdate_ishidden.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 229fbb68-cc99-440e-89e1-b9c4e69dd0b3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsHidden property, IUpdate.IsHidden, IUpdate.put_IsHidden, IUpdate::IsHidden, IUpdate::get_IsHidden, IUpdate::put_IsHidden, IsHidden property [Windows Update Agent], IsHidden property [Windows Update Agent],IUpdate interface, put_IsHidden, wua.iupdate_ishidden, wuapi/IUpdate::IsHidden, wuapi/IUpdate::get_IsHidden, wuapi/IUpdate::put_IsHidden
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IUpdate.put_IsHidden
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdate::put_IsHidden

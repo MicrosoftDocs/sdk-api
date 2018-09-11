@@ -4,17 +4,16 @@ title: ITTAPI::SetCallHubTracking
 author: windows-sdk-content
 description: The SetCallHubTracking method enables or disables CallHub tracking.
 old-location: tapi3\ittapi_setcallhubtracking.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8c33a294-ed45-4353-91ed-fa0d3d66e5da
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],SetCallHubTracking method, ITTAPI.SetCallHubTracking, ITTAPI::SetCallHubTracking, SetCallHubTracking, SetCallHubTracking method [TAPI 2.2], SetCallHubTracking method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_setcallhubtracking, tapi3.ittapi_setcallhubtracking, tapi3if/ITTAPI::SetCallHubTracking
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPI.SetCallHubTracking
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPI::SetCallHubTracking

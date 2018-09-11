@@ -4,7 +4,7 @@ title: D3D12_FEATURE_DATA_EXISTING_HEAPS
 author: windows-sdk-content
 description: Used to determinine whether the adapter supports creating heaps from existing system memory.
 old-location: direct3d12\d3d12_feature_data_existing_heaps.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 7F0D0FAD-BF29-43AD-95FA-85B9719C4782
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_FEATURE_DATA_EXISTING_HEAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_FEATURE_DATA_EXISTING_HEAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_FEATURE_DATA_EXISTING_HEAPS
+req.redist: 
 ---
 
 # D3D12_FEATURE_DATA_EXISTING_HEAPS structure

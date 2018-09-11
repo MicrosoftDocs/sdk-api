@@ -4,7 +4,7 @@ title: "_DXVA2_DecodeExecuteParams"
 author: windows-sdk-content
 description: Contains parameters for the IDirectXVideoDecoder::Execute method.
 old-location: mf\dxva2_decodeexecuteparams.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e0e95e9b-6d53-4b90-a933-243023dc31ef
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_DecodeExecuteParams
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA2_DecodeExecuteParams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVA2_DecodeExecuteParams
+req.redist: 
 ---
 
 # _DXVA2_DecodeExecuteParams structure

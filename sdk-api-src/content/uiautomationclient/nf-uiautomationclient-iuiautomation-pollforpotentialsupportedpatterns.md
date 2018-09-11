@@ -4,17 +4,16 @@ title: IUIAutomation::PollForPotentialSupportedPatterns
 author: windows-sdk-content
 description: Retrieves the control patterns that might be supported on a UI Automation element.
 old-location: winauto\uiauto_IUIAutomation_PollForPotentialSupportedPatterns.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 1319420e-17d6-4d0f-81c5-46b22b644e68
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],PollForPotentialSupportedPatterns method, IUIAutomation.PollForPotentialSupportedPatterns, IUIAutomation::PollForPotentialSupportedPatterns, PollForPotentialSupportedPatterns, PollForPotentialSupportedPatterns method [Windows Accessibility], PollForPotentialSupportedPatterns method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_PollForPotentialSupportedPatterns, uiauto_IUIAutomation_PollForPotentialSupportedPatterns, uiautomationclient/IUIAutomation::PollForPotentialSupportedPatterns, winauto.uiauto_IUIAutomation_PollForPotentialSupportedPatterns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomation.PollForPotentialSupportedPatterns
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation::PollForPotentialSupportedPatterns

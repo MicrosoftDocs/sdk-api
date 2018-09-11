@@ -4,17 +4,16 @@ title: IToolbar::AddButtons
 author: windows-sdk-content
 description: Enables a snap-in to add an array of buttons to the toolbar.
 old-location: mmc\itoolbar_addbuttons.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 9d37d0bc-d7c3-4d23-8dd4-c5a6c4af15ee
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: AddButtons, AddButtons method [MMC], AddButtons method [MMC],IToolbar interface, IToolbar interface [MMC],AddButtons method, IToolbar.AddButtons, IToolbar::AddButtons, _slate_itoolbar_addbuttons, mmc.itoolbar_addbuttons, mmc/IToolbar::AddButtons
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IToolbar.AddButtons
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IToolbar::AddButtons

@@ -4,17 +4,16 @@ title: ITypeInfo::GetFuncDesc
 author: windows-sdk-content
 description: Retrieves the FUNCDESC structure that contains information about a specified function.
 old-location: automat\itypeinfo_getfuncdesc.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 1e3331a2-0156-4d8f-aa7f-e32cecd3eb74
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFuncDesc, GetFuncDesc method [Automation], GetFuncDesc method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetFuncDesc method, ITypeInfo.GetFuncDesc, ITypeInfo::GetFuncDesc, _oa96_ITypeInfo_GetFuncDesc, automat.itypeinfo_getfuncdesc, oaidl/ITypeInfo::GetFuncDesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo.GetFuncDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::GetFuncDesc

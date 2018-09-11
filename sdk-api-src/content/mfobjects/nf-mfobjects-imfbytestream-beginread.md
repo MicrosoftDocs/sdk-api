@@ -4,17 +4,16 @@ title: IMFByteStream::BeginRead
 author: windows-sdk-content
 description: Begins an asynchronous read operation from the stream.
 old-location: mf\imfbytestream_beginread.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ed4aaf2a-270c-4518-b04d-cdac966bf9a5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: BeginRead, BeginRead method [Media Foundation], BeginRead method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],BeginRead method, IMFByteStream.BeginRead, IMFByteStream::BeginRead, ed4aaf2a-270c-4518-b04d-cdac966bf9a5, mf.imfbytestream_beginread, mfobjects/IMFByteStream::BeginRead
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFByteStream.BeginRead
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFByteStream::BeginRead

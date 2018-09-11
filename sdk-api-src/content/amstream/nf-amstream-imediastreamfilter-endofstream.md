@@ -4,17 +4,16 @@ title: IMediaStreamFilter::EndOfStream
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The EndOfStream method signals the end of a stream. The Media Stream filter's input pins call this method on the filter.
 old-location: dshow\imediastreamfilter_endofstream.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ceec4ead-e439-4206-ab30-ae37d15c5b44
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: EndOfStream, EndOfStream method [DirectShow], EndOfStream method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],EndOfStream method, IMediaStreamFilter.EndOfStream, IMediaStreamFilter::EndOfStream, IMediaStreamFilterEndOfStream, amstream/IMediaStreamFilter::EndOfStream, dshow.imediastreamfilter_endofstream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMediaStreamFilter.EndOfStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaStreamFilter::EndOfStream

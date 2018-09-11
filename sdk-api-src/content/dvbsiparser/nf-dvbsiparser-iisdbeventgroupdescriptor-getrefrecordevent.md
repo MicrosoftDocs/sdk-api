@@ -4,17 +4,16 @@ title: IIsdbEventGroupDescriptor::GetRefRecordEvent
 author: windows-sdk-content
 description: Gets data from a related event record in an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor_getrefrecordevent.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fede6a0e-5ac1-472e-aaa8-9d31737a8a1d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRefRecordEvent, GetRefRecordEvent method [Microsoft TV Technologies], GetRefRecordEvent method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetRefRecordEvent method, IIsdbEventGroupDescriptor.GetRefRecordEvent, IIsdbEventGroupDescriptor::GetRefRecordEvent, dvbsiparser/IIsdbEventGroupDescriptor::GetRefRecordEvent, mstv.iisdbeventgroupdescriptor_getrefrecordevent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbEventGroupDescriptor.GetRefRecordEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbEventGroupDescriptor::GetRefRecordEvent

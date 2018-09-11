@@ -4,17 +4,16 @@ title: IFont::put_Weight
 author: windows-sdk-content
 description: Sets the font's Weight property.
 old-location: com\ifont_put_weight.htm
-old-project: com
+tech.root: com
 ms.assetid: 716c77f3-6224-40d7-abea-46ed5eedb08a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IFont interface [COM],put_Weight method, IFont.put_Weight, IFont::put_Weight, _ctrl_ifont_put_weight, com.ifont_put_weight, ocidl/IFont::put_Weight, put_Weight, put_Weight method [COM], put_Weight method [COM],IFont interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFont.put_Weight
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFont::put_Weight

@@ -4,17 +4,16 @@ title: DhcpAuditLogSetParams function
 author: windows-sdk-content
 description: Sets the parameters for audit log generation on a DHCP server.
 old-location: dhcp\dhcpauditlogsetparams.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: ea7fc321-3e7c-4d1f-9a39-6a25d0d1c5b2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpAuditLogSetParams, DhcpAuditLogSetParams function [DHCP], dhcp.dhcpauditlogsetparams, dhcpsapi/DhcpAuditLogSetParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpAuditLogSetParams
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpAuditLogSetParams function

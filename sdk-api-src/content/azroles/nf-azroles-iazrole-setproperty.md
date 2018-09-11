@@ -4,17 +4,16 @@ title: IAzRole::SetProperty
 author: windows-sdk-content
 description: Sets the specified value to the IAzRole object property with the specified property ID.
 old-location: security\iazrole_setproperty.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0f1c4abe-69cc-4672-8a74-eaaf55fc6e88
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AzRole object [Security],SetProperty method, IAzRole interface [Security],SetProperty method, IAzRole.SetProperty, IAzRole::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzRole object, SetProperty method [Security],IAzRole interface, azroles/IAzRole::SetProperty, security.iazrole_setproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzRole.SetProperty
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzRole::SetProperty

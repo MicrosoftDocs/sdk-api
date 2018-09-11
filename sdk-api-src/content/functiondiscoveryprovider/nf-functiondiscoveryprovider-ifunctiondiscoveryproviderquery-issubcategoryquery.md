@@ -4,17 +4,16 @@ title: IFunctionDiscoveryProviderQuery::IsSubcategoryQuery
 author: windows-sdk-content
 description: Determines whether a query is for function instances in a specific subcategory.
 old-location: ncd\ifunctiondiscoveryproviderquery_issubcategoryquery.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: fa262e62-2e34-4881-915d-995d66fa6841
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFunctionDiscoveryProviderQuery interface,IsSubcategoryQuery method, IFunctionDiscoveryProviderQuery.IsSubcategoryQuery, IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, IsSubcategoryQuery, IsSubcategoryQuery method, IsSubcategoryQuery method,IFunctionDiscoveryProviderQuery interface, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, ncd.ifunctiondiscoveryproviderquery_issubcategoryquery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionDiscoveryProviderQuery.IsSubcategoryQuery
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionDiscoveryProviderQuery::IsSubcategoryQuery
@@ -64,7 +62,7 @@ Determines whether a query is for function instances in a specific subcategory.
 
 ### -param pisSubcategoryQuery
 
-
+TBD
 
 
 ### -param ppszConstraintValue [out]

@@ -4,17 +4,16 @@ title: IPersistQuery::ReadStruct
 author: windows-sdk-content
 description: Reads a structure from the query store.
 old-location: ad\ipersistquery_readstruct.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 47d1b733-7e37-42f8-b344-909a6e48b381
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPersistQuery interface [Active Directory],ReadStruct method, IPersistQuery.ReadStruct, IPersistQuery::ReadStruct, ReadStruct, ReadStruct method [Active Directory], ReadStruct method [Active Directory],IPersistQuery interface, _glines_ipersistquery_readstruct, ad.ipersistquery__readstruct, ad.ipersistquery_readstruct, cmnquery/IPersistQuery::ReadStruct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cmnquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uuid.lib
+req.dll: Dsquery.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPersistQuery.ReadStruct
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Dsquery.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistQuery::ReadStruct

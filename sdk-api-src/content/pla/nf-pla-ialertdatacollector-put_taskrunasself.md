@@ -4,17 +4,16 @@ title: IAlertDataCollector::put_TaskRunAsSelf
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether the task runs as the data collector set user or as the user specified in the task.
 old-location: pla\ialertdatacollector_taskrunasself.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 2fb36767-5471-4015-a236-23dcc15a38d1
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IAlertDataCollector interface [PLA],TaskRunAsSelf property, IAlertDataCollector.TaskRunAsSelf, IAlertDataCollector.put_TaskRunAsSelf, IAlertDataCollector::TaskRunAsSelf, IAlertDataCollector::get_TaskRunAsSelf, IAlertDataCollector::put_TaskRunAsSelf, TaskRunAsSelf property [PLA], TaskRunAsSelf property [PLA],IAlertDataCollector interface, pla.ialertdatacollector_taskrunasself, pla/IAlertDataCollector::TaskRunAsSelf, pla/IAlertDataCollector::get_TaskRunAsSelf, pla/IAlertDataCollector::put_TaskRunAsSelf, put_TaskRunAsSelf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IAlertDataCollector.put_TaskRunAsSelf
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAlertDataCollector::put_TaskRunAsSelf

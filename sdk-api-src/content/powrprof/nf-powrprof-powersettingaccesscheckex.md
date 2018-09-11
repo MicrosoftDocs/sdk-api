@@ -4,17 +4,16 @@ title: PowerSettingAccessCheckEx function
 author: windows-sdk-content
 description: Queries for a group policy override for specified power settings and specifies the requested access for the setting.
 old-location: base\powersettingaccesscheckex.htm
-old-project: power
+tech.root: power
 ms.assetid: dad9cca9-5961-48b5-b7d0-4828eca3364b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ACCESS_ACTIVE_SCHEME, ACCESS_AC_POWER_SETTING_INDEX, ACCESS_CREATE_SCHEME, ACCESS_DC_POWER_SETTING_INDEX, ACCESS_SCHEME, KEY_READ, KEY_WRITE, PowerSettingAccessCheckEx, PowerSettingAccessCheckEx function, base.powersettingaccesscheckex, powrprof/PowerSettingAccessCheckEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: Powrprof.lib
+req.dll: Powrprof.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PowerSettingAccessCheckEx
 product: Windows
 targetos: Windows
-req.lib: Powrprof.lib
-req.dll: Powrprof.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PowerSettingAccessCheckEx function

@@ -4,17 +4,16 @@ title: ISensLogon2::SessionReconnect
 author: windows-sdk-content
 description: The session was reconnected. The SessionReconnect method is used when you reconnect to a Fast User Switching session or a Remote Desktop Connection. This is different from logging on to a new session.
 old-location: sens\isenslogon2_sessionreconnect.htm
-old-project: sens
+tech.root: Sens
 ms.assetid: b789a75d-e842-40b4-9e8d-b9374b5ba6b0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISensLogon2 interface [SENS],SessionReconnect method, ISensLogon2.SessionReconnect, ISensLogon2::SessionReconnect, SessionReconnect, SessionReconnect method [SENS], SessionReconnect method [SENS],ISensLogon2 interface, _zaw_isenslogon2_sessionreconnect, sens.isenslogon2_sessionreconnect, sensevts/ISensLogon2::SessionReconnect, syncmgr.isenslogon2_sessionreconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensLogon2.SessionReconnect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sens.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensLogon2::SessionReconnect

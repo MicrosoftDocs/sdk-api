@@ -4,17 +4,16 @@ title: DWRITE_RENDERING_MODE1
 author: windows-sdk-content
 description: Specifies how glyphs are rendered.
 old-location: directwrite\dwrite_rendering_mode1.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: CAA88479-FE39-48D0-89D8-CEA0C922428A
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_RENDERING_MODE1, DWRITE_RENDERING_MODE1 enumeration [Direct Write], DWRITE_RENDERING_MODE1_ALIASED, DWRITE_RENDERING_MODE1_DEFAULT, DWRITE_RENDERING_MODE1_GDI_CLASSIC, DWRITE_RENDERING_MODE1_GDI_NATURAL, DWRITE_RENDERING_MODE1_NATURAL, DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC, DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC_DOWNSAMPLED, DWRITE_RENDERING_MODE1_OUTLINE, directwrite.dwrite_rendering_mode1, dwrite_3/DWRITE_RENDERING_MODE1, dwrite_3/DWRITE_RENDERING_MODE1_ALIASED, dwrite_3/DWRITE_RENDERING_MODE1_DEFAULT, dwrite_3/DWRITE_RENDERING_MODE1_GDI_CLASSIC, dwrite_3/DWRITE_RENDERING_MODE1_GDI_NATURAL, dwrite_3/DWRITE_RENDERING_MODE1_NATURAL, dwrite_3/DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC, dwrite_3/DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC_DOWNSAMPLED, dwrite_3/DWRITE_RENDERING_MODE1_OUTLINE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_RENDERING_MODE1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_RENDERING_MODE1 enumeration

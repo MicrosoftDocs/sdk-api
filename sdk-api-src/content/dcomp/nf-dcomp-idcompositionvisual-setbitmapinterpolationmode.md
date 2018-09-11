@@ -4,17 +4,16 @@ title: IDCompositionVisual::SetBitmapInterpolationMode
 author: windows-sdk-content
 description: Sets the BitmapInterpolationMode property, which specifies the mode for Microsoft DirectComposition to use when interpolating pixels from bitmaps that are not axis-aligned or drawn exactly at scale.
 old-location: directcomp\idcompositionvisual_setbitmapinterpolationmode.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: F45A3619-556B-4D2C-BCB0-8D55A1397579
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetBitmapInterpolationMode method, IDCompositionVisual.SetBitmapInterpolationMode, IDCompositionVisual::SetBitmapInterpolationMode, SetBitmapInterpolationMode, SetBitmapInterpolationMode method [DirectComposition], SetBitmapInterpolationMode method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetBitmapInterpolationMode, directcomp.idcompositionvisual_setbitmapinterpolationmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionVisual.SetBitmapInterpolationMode
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionVisual::SetBitmapInterpolationMode

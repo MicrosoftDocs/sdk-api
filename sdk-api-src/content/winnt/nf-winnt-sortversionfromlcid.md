@@ -4,17 +4,16 @@ title: SORTVERSIONFROMLCID macro
 author: windows-sdk-content
 description: Retrieves the sort version from a locale identifier.
 old-location: intl\sortversionfromlcid.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 2a851ec1-ccb9-42d3-bbb5-70cb9cf02cc7
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: SORTVERSIONFROMLCID, SORTVERSIONFROMLCID macro [Internationalization for Windows Applications], _win32_SORTVERSIONFROMLCID, intl.sortversionfromlcid, winnt/SORTVERSIONFROMLCID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SORTVERSIONFROMLCID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SORTVERSIONFROMLCID macro

@@ -4,17 +4,16 @@ title: "_CRYPT_PRIVATE_KEY_INFO"
 author: windows-sdk-content
 description: Contains a clear-text private key in the PrivateKey field (DER encoded). CRYPT_PRIVATE_KEY_INFO contains the information in a PKCS #8 PrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
 old-location: security\crypt_private_key_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 63a5d1c2-88b3-45fa-94d3-2179cb8802c9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_PRIVATE_KEY_INFO, CRYPT_PRIVATE_KEY_INFO, CRYPT_PRIVATE_KEY_INFO structure [Security], PCRYPT_PRIVATE_KEY_INFO, PCRYPT_PRIVATE_KEY_INFO structure pointer [Security], _CRYPT_PRIVATE_KEY_INFO, security.crypt_private_key_info, wincrypt/CRYPT_PRIVATE_KEY_INFO, wincrypt/PCRYPT_PRIVATE_KEY_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_PRIVATE_KEY_INFO, *PCRYPT_PRIVATE_KEY_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_PRIVATE_KEY_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_PRIVATE_KEY_INFO, *PCRYPT_PRIVATE_KEY_INFO
+req.redist: 
 ---
 
 # _CRYPT_PRIVATE_KEY_INFO structure

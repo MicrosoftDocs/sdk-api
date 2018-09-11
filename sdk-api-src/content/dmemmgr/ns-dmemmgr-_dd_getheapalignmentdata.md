@@ -4,7 +4,7 @@ title: "_DD_GETHEAPALIGNMENTDATA"
 author: windows-sdk-content
 description: The DD_GETHEAPALIGNMENTDATA structure contains data on required alignments from a particular heap.
 old-location: display\dd_getheapalignmentdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 5bdc13e3-396d-45f6-8c90-a831bbb23628
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dmemmgr.h
 req.include-header: Dmemmgr.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DD_GETHEAPALIGNMENTDATA, *PDD_GETHEAPALIGNMENTDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_GETHEAPALIGNMENTDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DD_GETHEAPALIGNMENTDATA, *PDD_GETHEAPALIGNMENTDATA
+req.redist: 
 ---
 
 # _DD_GETHEAPALIGNMENTDATA structure

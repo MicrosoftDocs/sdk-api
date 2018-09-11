@@ -4,17 +4,16 @@ title: D3DX11CreateFFT1DReal function
 author: windows-sdk-content
 description: Creates an ID3DX11FFT COM interface object.
 old-location: direct3d11\d3dx11createfft1dreal.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 49186642-2591-4943-b686-83bf24f470dd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 542c01f8-d563-c1ab-aa89-495a7e96e411, D3DX11CreateFFT1DReal, D3DX11CreateFFT1DReal function [Direct3D 11], d3dcsx/D3DX11CreateFFT1DReal, direct3d11.d3dx11createfft1dreal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3dcsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DX11_SCAN_OPCODE
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - D3DX11CreateFFT1DReal
 product: Windows
 targetos: Windows
-req.lib: D3dcsx.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3DX11CreateFFT1DReal function

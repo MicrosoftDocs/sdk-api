@@ -4,17 +4,16 @@ title: WinUsb_QueryInterfaceSettings function
 author: windows-sdk-content
 description: The WinUsb_QueryInterfaceSettings function retrieves the interface descriptor for the specified alternate interface settings for a particular interface handle.
 old-location: buses\winusb_queryinterfacesettings.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: fe36e441-60eb-4df3-8100-6c441c599a60
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WinUsb_QueryInterfaceSettings, WinUsb_QueryInterfaceSettings function [Buses], buses.winusb_queryinterfacesettings, winusb/WinUsb_QueryInterfaceSettings, winusbfunc_e69535c0-faad-4708-823c-f343e8ae2e9d.xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinUsb_QueryInterfaceSettings
 product: Windows
 targetos: Windows
-req.lib: Winusb.lib
-req.dll: Winusb.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WinUsb_QueryInterfaceSettings function

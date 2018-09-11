@@ -4,17 +4,16 @@ title: ITuningSpace::EnumCategoryGUIDs
 author: windows-sdk-content
 description: Currently not implemented.
 old-location: mstv\ituningspace_enumcategoryguids.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d9efbbda-fa95-46ea-aedc-7be5b13d16b5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: EnumCategoryGUIDs, EnumCategoryGUIDs method [Microsoft TV Technologies], EnumCategoryGUIDs method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],EnumCategoryGUIDs method, ITuningSpace.EnumCategoryGUIDs, ITuningSpace::EnumCategoryGUIDs, ITuningSpaceEnumCategoryGUIDs, mstv.ituningspace_enumcategoryguids, tuner/ITuningSpace::EnumCategoryGUIDs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuningSpace.EnumCategoryGUIDs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuningSpace::EnumCategoryGUIDs

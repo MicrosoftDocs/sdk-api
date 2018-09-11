@@ -4,17 +4,16 @@ title: DispInvoke function
 author: windows-sdk-content
 description: Automatically calls member functions on an interface, given the type information for the interface.
 old-location: automat\dispinvoke.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 69b89e5c-2a04-4a6a-beb0-18e68f8866ac
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, DispInvoke, DispInvoke function [Automation], _oa96_DispInvoke, automat.dispinvoke, oleauto/DispInvoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DispInvoke
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DispInvoke function

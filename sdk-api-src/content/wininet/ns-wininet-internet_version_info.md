@@ -4,17 +4,16 @@ title: INTERNET_VERSION_INFO
 author: windows-sdk-content
 description: Contains the HTTP version number of the server. This structure is used when passing the INTERNET_OPTION_VERSION flag to the InternetQueryOption function.
 old-location: wininet\internet_version_info.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 6d979829-2451-47fa-a95f-81f447c93567
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPINTERNET_VERSION_INFO, INTERNET_VERSION_INFO, INTERNET_VERSION_INFO structure [WinINet], LPINTERNET_VERSION_INFO, LPINTERNET_VERSION_INFO structure pointer [WinINet], _inet_internet_verion_info_structure, wininet.internet_version_info, wininet/ LPINTERNET_VERSION_INFO, wininet/INTERNET_VERSION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_VERSION_INFO, *LPINTERNET_VERSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERNET_VERSION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: INTERNET_VERSION_INFO, *LPINTERNET_VERSION_INFO
+req.redist: 
 ---
 
 # INTERNET_VERSION_INFO structure

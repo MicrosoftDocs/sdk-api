@@ -4,17 +4,16 @@ title: PdhGetDefaultPerfCounterHA function
 author: windows-sdk-content
 description: Retrieves the name of the default counter for the specified object.
 old-location: perf\pdhgetdefaultperfcounterh.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: d1b3de9a-99ab-4339-8e9f-906f5a5d291d
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PdhGetDefaultPerfCounterH, PdhGetDefaultPerfCounterH function [Perf], PdhGetDefaultPerfCounterHA, PdhGetDefaultPerfCounterHW, _win32_pdhgetdefaultperfcounterh, base.pdhgetdefaultperfcounterh, pdh/PdhGetDefaultPerfCounterH, pdh/PdhGetDefaultPerfCounterHA, pdh/PdhGetDefaultPerfCounterHW, perf.pdhgetdefaultperfcounterh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PdhGetDefaultPerfCounterHW
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhGetDefaultPerfCounterHA function

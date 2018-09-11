@@ -4,17 +4,16 @@ title: IDWriteFactory3::GetSystemFontCollection
 author: windows-sdk-content
 description: Retrieves a weight/width/slope tree of system fonts.
 old-location: directwrite\idwritefactory3_getsystemfontcollection.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: f6e983b5-5c5f-a2de-59f8-722f967bb992
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetSystemFontCollection, GetSystemFontCollection method [Direct Write], GetSystemFontCollection method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetSystemFontCollection method, IDWriteFactory3.GetSystemFontCollection, IDWriteFactory3::GetSystemFontCollection, directwrite.idwritefactory3_getsystemfontcollection, dwrite_3/IDWriteFactory3::GetSystemFontCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFactory3.GetSystemFontCollection
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory3::GetSystemFontCollection
@@ -83,7 +81,7 @@ Holds the newly created font collection object, or NULL in case of failure.
 
 ### -param checkForUpdates
 
-
+TBD
 
 
 

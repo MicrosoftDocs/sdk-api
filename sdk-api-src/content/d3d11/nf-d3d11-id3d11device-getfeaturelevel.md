@@ -4,17 +4,16 @@ title: ID3D11Device::GetFeatureLevel
 author: windows-sdk-content
 description: Gets the feature level of the hardware device.
 old-location: direct3d11\id3d11device_getfeaturelevel.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 746d7cdf-b054-4bfa-a116-5b884fc9bc96
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 956236c4-681b-5005-2e10-fa583bce3b30, GetFeatureLevel, GetFeatureLevel method [Direct3D 11], GetFeatureLevel method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],GetFeatureLevel method, ID3D11Device.GetFeatureLevel, ID3D11Device::GetFeatureLevel, d3d11/ID3D11Device::GetFeatureLevel, direct3d11.id3d11device_getfeaturelevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device.GetFeatureLevel
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device::GetFeatureLevel

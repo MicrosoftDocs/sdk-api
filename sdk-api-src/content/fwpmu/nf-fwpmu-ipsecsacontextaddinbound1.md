@@ -4,17 +4,16 @@ title: IPsecSaContextAddInbound1 function
 author: windows-sdk-content
 description: The IPsecSaContextAddInbound1 function adds an inbound IPsec security association (SA) bundle to an existing SA context.Note  IPsecSaContextAddInbound1 is the specific implementation of IPsecSaContextAddInbound used in Windows 7 and later.
 old-location: fwp\ipsecsacontextaddinbound1.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: a6717ff9-41f9-4cbc-9493-b9d80a137571
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPsecSaContextAddInbound1, IPsecSaContextAddInbound1 function [Filtering], fwp.ipsecsacontextaddinbound1, fwpmu/IPsecSaContextAddInbound1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPsecSaContextAddInbound1
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IPsecSaContextAddInbound1 function

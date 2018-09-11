@@ -4,17 +4,16 @@ title: IDCompositionShadowEffect::SetGreen(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the green value for the color of the shadow.
 old-location: directcomp\idcompositionshadoweffect_setgreen.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: AFBDF412-D0B3-440F-92E2-25BE3083C40B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetGreen method, IDCompositionShadowEffect.SetGreen, IDCompositionShadowEffect.SetGreen(IDCompositionAnimation), IDCompositionShadowEffect::SetGreen, IDCompositionShadowEffect::SetGreen(IDCompositionAnimation), SetGreen, SetGreen method [DirectComposition], SetGreen method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetGreen, directcomp.idcompositionshadoweffect_setgreen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionShadowEffect.SetGreen
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionShadowEffect::SetGreen(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Sets the green value for the color of the shadow.
 
 ### -param animation
 
-
+TBD
 
 
 

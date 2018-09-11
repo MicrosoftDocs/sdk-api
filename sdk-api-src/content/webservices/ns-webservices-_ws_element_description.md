@@ -4,17 +4,16 @@ title: "_WS_ELEMENT_DESCRIPTION"
 author: windows-sdk-content
 description: Represents a mapping between a C data type and an XML element.
 old-location: wsw\ws_element_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 17035b64-9b2c-40d3-bdce-45e9b132e9f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_ELEMENT_DESCRIPTION, WS_ELEMENT_DESCRIPTION structure [Web Services for Windows], _WS_ELEMENT_DESCRIPTION, webservices/WS_ELEMENT_DESCRIPTION, wsw.ws_element_description
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_ELEMENT_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_ELEMENT_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_ELEMENT_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_ELEMENT_DESCRIPTION structure

@@ -4,17 +4,16 @@ title: "_VDS_PACK_FLAG"
 author: windows-sdk-content
 description: Defines the set of valid flags for a pack object.
 old-location: base\vds_pack_flag.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 65b7e65d-5d20-49ff-af35-bd3529f5c858
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_PACK_FLAG, VDS_PACK_FLAG enumeration [VDS], VDS_PKF_CORRUPTED, VDS_PKF_FOREIGN, VDS_PKF_NOQUORUM, VDS_PKF_ONLINE_ERROR, VDS_PKF_POLICY, _VDS_PACK_FLAG, base.vds_pack_flag, vds/VDS_PACK_FLAG, vds/VDS_PKF_CORRUPTED, vds/VDS_PKF_FOREIGN, vds/VDS_PKF_NOQUORUM, vds/VDS_PKF_ONLINE_ERROR, vds/VDS_PKF_POLICY
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PACK_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_PACK_FLAG
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PACK_FLAG
+req.redist: 
 ---
 
 # _VDS_PACK_FLAG enumeration

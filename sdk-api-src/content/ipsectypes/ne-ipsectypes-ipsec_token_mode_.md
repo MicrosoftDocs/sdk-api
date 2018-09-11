@@ -4,7 +4,7 @@ title: IPSEC_TOKEN_MODE_
 author: windows-sdk-content
 description: Different IPsec modes in which a token can be obtained.
 old-location: fwp\ipsec_token_mode.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 5f90e473-39e1-4eed-9ea1-1f20929d5a07
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_TOKEN_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_TOKEN_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_TOKEN_MODE
+req.redist: 
 ---
 
 # IPSEC_TOKEN_MODE_ enumeration

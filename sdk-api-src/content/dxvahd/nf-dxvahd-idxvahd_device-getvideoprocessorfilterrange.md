@@ -4,17 +4,16 @@ title: IDXVAHD_Device::GetVideoProcessorFilterRange
 author: windows-sdk-content
 description: Gets the range of values for an image filter that the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device supports.
 old-location: mf\idxvahd_device_getvideoprocessorfilterrange.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: cff587a5-04ed-4f3e-bd05-0cb8d83fffb7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetVideoProcessorFilterRange, GetVideoProcessorFilterRange method [Media Foundation], GetVideoProcessorFilterRange method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorFilterRange method, IDXVAHD_Device.GetVideoProcessorFilterRange, IDXVAHD_Device::GetVideoProcessorFilterRange, dxvahd/IDXVAHD_Device::GetVideoProcessorFilterRange, mf.idxvahd_device_getvideoprocessorfilterrange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_SURFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXVAHD_Device.GetVideoProcessorFilterRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXVAHD_Device::GetVideoProcessorFilterRange

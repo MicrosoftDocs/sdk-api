@@ -4,17 +4,16 @@ title: IVirtualSurfaceImageSourceNative::xaml
 author: windows-sdk-content
 description: Gets the total number of regions of the surface that must be updated.
 old-location: winrt\ivirtualsurfaceimagesourcenative_getupdaterectcount.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: AE717587-0156-4DEC-B7B2-FF8937117D5A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetUpdateRectCount, GetUpdateRectCount method [Windows Runtime], GetUpdateRectCount method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, IVirtualSurfaceImageSourceNative interface [Windows Runtime],GetUpdateRectCount method, IVirtualSurfaceImageSourceNative.GetUpdateRectCount, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::GetUpdateRectCount, IVirtualSurfaceImageSourceNative::xaml, windows/IVirtualSurfaceImageSourceNative::GetUpdateRectCount, winrt.ivirtualsurfaceimagesourcenative_getupdaterectcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [UWP apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [UWP apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVirtualSurfaceImageSourceNative.GetUpdateRectCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.Xaml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IVirtualSurfaceImageSourceNative::xaml
@@ -62,7 +60,7 @@ Gets the total number of regions of the surface that must be updated.
 
 ### -param count
 
-
+TBD
 
 
 

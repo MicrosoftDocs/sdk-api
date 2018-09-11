@@ -4,17 +4,16 @@ title: IFsrmClassificationManager::GetPropertyDefinition
 author: windows-sdk-content
 description: Retrieves the specified property definition.
 old-location: fsrm\ifsrmclassificationmanager_getpropertydefinition.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: de89524d-70b7-4f0a-add0-d34d54bd32a7
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetPropertyDefinition method, GetPropertyDefinition, GetPropertyDefinition method [File Server Resource Manager], GetPropertyDefinition method [File Server Resource Manager],FsrmClassificationManager class, GetPropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, GetPropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetPropertyDefinition method, IFsrmClassificationManager.GetPropertyDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],GetPropertyDefinition method, IFsrmClassificationManager2::GetPropertyDefinition, IFsrmClassificationManager::GetPropertyDefinition, fs.ifsrmclassificationmanager_getpropertydefinition, fsrm.ifsrmclassificationmanager_getpropertydefinition, fsrmpipeline/IFsrmClassificationManager2::GetPropertyDefinition, fsrmpipeline/IFsrmClassificationManager::GetPropertyDefinition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmClassificationManager.GetPropertyDefinition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationManager::GetPropertyDefinition

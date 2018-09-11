@@ -4,17 +4,16 @@ title: "_tagSL_ACTIVATION_INFO_HEADER"
 author: windows-sdk-content
 description: Specifies the product activation information.
 old-location: security\sl_activation_info_header.htm
-old-project: secslapi
+tech.root: SecSLApi
 ms.assetid: 8209652d-c40e-419b-9929-647f03fed79c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SL_ACTIVATION_INFO_HEADER, SL_ACTIVATION_INFO_HEADER structure [Security], _tagSL_ACTIVATION_INFO_HEADER, security.sl_activation_info_header, slpublic/SL_ACTIVATION_INFO_HEADER
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_ACTIVATION_INFO_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SL_ACTIVATION_INFO_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SL_ACTIVATION_INFO_HEADER
+req.redist: 
 ---
 
 # _tagSL_ACTIVATION_INFO_HEADER structure

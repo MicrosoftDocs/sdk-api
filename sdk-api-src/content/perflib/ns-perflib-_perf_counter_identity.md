@@ -4,7 +4,7 @@ title: "_PERF_COUNTER_IDENTITY"
 author: windows-sdk-content
 description: Defines the counter that is sent to a provider's callback when the consumer adds or removes a counter from the query.
 old-location: perf\perf_counter_identity.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: a18d2546-642b-4e83-be05-4b4aae1f2d2c
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_COUNTER_IDENTITY, *PPERF_COUNTER_IDENTITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERF_COUNTER_IDENTITY, *PPERF_COUNTER_IDENTITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PERF_COUNTER_IDENTITY, *PPERF_COUNTER_IDENTITY
+req.redist: 
 ---
 
 # _PERF_COUNTER_IDENTITY structure

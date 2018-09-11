@@ -4,17 +4,16 @@ title: VarCyMul function
 author: windows-sdk-content
 description: Multiplies two variants of type currency.
 old-location: automat\varcymul.htm
-old-project: automat
+tech.root: automat
 ms.assetid: a7cc06b2-5a19-4ffe-b055-4756a0d305ef
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarCyMul, VarCyMul function [Automation], _oa96_VarCyMul, automat.varcymul, oleauto/VarCyMul
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarCyMul
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarCyMul function

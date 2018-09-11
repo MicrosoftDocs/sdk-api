@@ -4,17 +4,16 @@ title: ISensLogon::StartScreenSaver
 author: windows-sdk-content
 description: The StartScreenSaver method notifies an application that a screen saver is started.
 old-location: sens\isenslogon_startscreensaver.htm
-old-project: sens
+tech.root: Sens
 ms.assetid: 47531e1f-e2d4-4475-a109-e213c903a7ba
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISensLogon interface [SENS],StartScreenSaver method, ISensLogon.StartScreenSaver, ISensLogon::StartScreenSaver, StartScreenSaver, StartScreenSaver method [SENS], StartScreenSaver method [SENS],ISensLogon interface, _zaw_isenslogon_startscreensaver, sens.isenslogon_startscreensaver, sensevts/ISensLogon::StartScreenSaver, syncmgr.isenslogon_startscreensaver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensLogon.StartScreenSaver
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sens.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensLogon::StartScreenSaver

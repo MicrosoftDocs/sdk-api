@@ -4,7 +4,7 @@ title: IPSEC_TUNNEL_POLICY1_
 author: windows-sdk-content
 description: Stores the quick mode negotiation policy for tunnel mode IPsec.
 old-location: fwp\ipsec_tunnel_policy1_struct.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: b51d330f-3f10-43e2-9018-eb6fd35ffe25
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_TUNNEL_POLICY1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_TUNNEL_POLICY1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_TUNNEL_POLICY1
+req.redist: 
 ---
 
 # IPSEC_TUNNEL_POLICY1_ structure

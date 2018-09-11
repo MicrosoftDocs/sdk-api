@@ -4,17 +4,16 @@ title: IManagedActivationEvents::CreateManagedStub
 author: windows-sdk-content
 description: Creates a stub for a managed object within the current COM+ context.
 old-location: cos\imanagedactivationevents_createmanagedstub.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: a2ba7ece-ac17-42fb-b22f-976ad849eca5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateManagedStub, CreateManagedStub method [COM+], CreateManagedStub method [COM+],IManagedActivationEvents interface, IManagedActivationEvents interface [COM+],CreateManagedStub method, IManagedActivationEvents.CreateManagedStub, IManagedActivationEvents::CreateManagedStub, _cos_IManagedActivationEvents_CreateManagedStub, comsvcs/IManagedActivationEvents::CreateManagedStub, cos.imanagedactivationevents_createmanagedstub
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IManagedActivationEvents.CreateManagedStub
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IManagedActivationEvents::CreateManagedStub

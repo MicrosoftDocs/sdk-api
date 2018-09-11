@@ -4,17 +4,16 @@ title: IKsJackSinkInformation::GetJackSinkInformation
 author: windows-sdk-content
 description: The GetJackSinkInformation method retrieves the sink information for the specified jack.
 old-location: coreaudio\iksjacksinkinformation_getjacksinkinformation.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: ca4165ce-433a-4a8f-9853-bbe812de90ca
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetJackSinkInformation, GetJackSinkInformation method [Core Audio], GetJackSinkInformation method [Core Audio],IKsJackSinkInformation interface, IKsJackSinkInformation interface [Core Audio],GetJackSinkInformation method, IKsJackSinkInformation.GetJackSinkInformation, IKsJackSinkInformation::GetJackSinkInformation, coreaudio.iksjacksinkinformation_getjacksinkinformation, devicetopology/IKsJackSinkInformation::GetJackSinkInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IKsJackSinkInformation.GetJackSinkInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IKsJackSinkInformation::GetJackSinkInformation

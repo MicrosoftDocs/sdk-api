@@ -4,7 +4,7 @@ title: "_DHCP_SCAN_FLAG"
 author: windows-sdk-content
 description: The DHCP_SCAN_FLAG enumeration defines the set of possible targets of synchronization during a database scan operation.
 old-location: dhcp\dhcp_scan_flag.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 825a0e64-b0c2-453e-8e00-52f84c40bef3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_SCAN_FLAG, *LPDHCP_SCAN_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_SCAN_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_SCAN_FLAG, *LPDHCP_SCAN_FLAG
+req.redist: 
 ---
 
 # _DHCP_SCAN_FLAG enumeration

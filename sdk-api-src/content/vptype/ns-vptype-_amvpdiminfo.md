@@ -4,7 +4,7 @@ title: "_AMVPDIMINFO"
 author: windows-sdk-content
 description: The AMVPDIMINFO structure specifies the dimensional characteristics of a video port (VP) input stream.
 old-location: dshow\amvpdiminfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e39cbb85-33f0-4810-aa32-cc96676da123
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vptype.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPDIMINFO, *LPAMVPDIMINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AMVPDIMINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: AMVPDIMINFO, *LPAMVPDIMINFO
+req.redist: 
 ---
 
 # _AMVPDIMINFO structure

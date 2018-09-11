@@ -4,17 +4,16 @@ title: IDWriteAsyncResult::GetWaitHandle
 author: windows-sdk-content
 description: Returns a handle that can be used to wait for the asynchronous operation to complete. The handle remains valid until the interface is released.
 old-location: directwrite\idwriteasyncresult_getwaithandle.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: BF7F7A94-AD3E-48DB-9A01-D4E615063A8F
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetWaitHandle, GetWaitHandle method [Direct Write], GetWaitHandle method [Direct Write],IDWriteAsyncResult interface, IDWriteAsyncResult interface [Direct Write],GetWaitHandle method, IDWriteAsyncResult.GetWaitHandle, IDWriteAsyncResult::GetWaitHandle, directwrite.idwriteasyncresult_getwaithandle, dwrite_3/IDWriteAsyncResult::GetWaitHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDWriteAsyncResult.GetWaitHandle
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteAsyncResult::GetWaitHandle

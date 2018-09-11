@@ -4,17 +4,16 @@ title: EapPeerConfigXml2Blob function
 author: windows-sdk-content
 description: Converts XML into the configuration BLOB.
 old-location: eaphost\eappeerconfigxml2blob.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: d568da63-1d12-4c02-8d84-f06fa3f8d39f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapPeerConfigXml2Blob, EapPeerConfigXml2Blob function [EAPHost], eaphost.eappeerconfigxml2blob, eapmethodpeerapis/EapPeerConfigXml2Blob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapPeerConfigXml2Blob
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapPeerConfigXml2Blob function

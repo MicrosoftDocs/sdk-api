@@ -4,17 +4,16 @@ title: TSPI_lineMonitorMedia function
 author: windows-sdk-content
 description: The TSPI_lineMonitorMedia function enables and disables the detection of media types on the specified call. When a media type is detected, a LINE_MONITORMEDIA message is sent to TAPI.
 old-location: tspi\tspi_linemonitormedia.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 56a7207a-0ddf-49e6-91f9-e47db6df3b61
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineMonitorMedia, TSPI_lineMonitorMedia function [TAPI 2.2], _tspi_tspi_linemonitormedia, tspi.tspi_linemonitormedia, tspi/TSPI_lineMonitorMedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineMonitorMedia
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineMonitorMedia function

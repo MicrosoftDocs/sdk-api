@@ -4,17 +4,16 @@ title: IETFilter::GetCurrLicenseExpDate
 author: windows-sdk-content
 description: This method is currently not supported.
 old-location: mstv\ietfilter_getcurrlicenseexpdate.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d2ec57fc-ad5b-4f7b-a6d7-68f5ee0607b6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCurrLicenseExpDate, GetCurrLicenseExpDate method [Microsoft TV Technologies], GetCurrLicenseExpDate method [Microsoft TV Technologies],IETFilter interface, IETFilter interface [Microsoft TV Technologies],GetCurrLicenseExpDate method, IETFilter.GetCurrLicenseExpDate, IETFilter::GetCurrLicenseExpDate, IETFilterGetCurrLicenseExpDate, encdec/IETFilter::GetCurrLicenseExpDate, mstv.ietfilter_getcurrlicenseexpdate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IETFilter.GetCurrLicenseExpDate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IETFilter::GetCurrLicenseExpDate

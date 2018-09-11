@@ -4,17 +4,16 @@ title: "_SecBufferDesc"
 author: windows-sdk-content
 description: The SecBufferDesc structure describes an array of SecBuffer structures to pass from a transport application to a security package.
 old-location: security\secbufferdesc.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: fc6ef09c-3ba9-4bcb-a3c2-07422af8eaa9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecBufferDesc, PSecBufferDesc, PSecBufferDesc structure pointer [Security], SecBufferDesc, SecBufferDesc structure [Security], _SecBufferDesc, _ssp_secbufferdesc, security.secbufferdesc, sspi/PSecBufferDesc, sspi/SecBufferDesc"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecBufferDesc, *PSecBufferDesc
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecBufferDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecBufferDesc, *PSecBufferDesc
+req.redist: 
 ---
 
 # _SecBufferDesc structure

@@ -4,17 +4,16 @@ title: ITBasicAudioTerminal::get_Volume
 author: windows-sdk-content
 description: The get_Volume method gets the volume.
 old-location: tapi3\itbasicaudioterminal_get_volume.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 2d3a64fa-41b6-44c4-a67e-08113e771cc7
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITBasicAudioTerminal interface [TAPI 2.2],get_Volume method, ITBasicAudioTerminal.get_Volume, ITBasicAudioTerminal::get_Volume, _tapi3_itbasicaudioterminal_get_volume, get_Volume, get_Volume method [TAPI 2.2], get_Volume method [TAPI 2.2],ITBasicAudioTerminal interface, tapi3.itbasicaudioterminal_get_volume, tapi3if/ITBasicAudioTerminal::get_Volume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITBasicAudioTerminal.get_Volume
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITBasicAudioTerminal::get_Volume

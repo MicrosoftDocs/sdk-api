@@ -4,17 +4,16 @@ title: IAzApplicationGroup2
 author: windows-sdk-content
 description: Extends the IAzApplicationGroup interface by adding support for the BizRule group type.
 old-location: security\iazapplicationgroup2.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 948357d7-4e59-48d2-9e3b-7d88a4c81023
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzApplicationGroup2, IAzApplicationGroup2 interface [Security], IAzApplicationGroup2 interface [Security],described, azroles/IAzApplicationGroup2, security.iazapplicationgroup2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzApplicationGroup2
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzApplicationGroup2 interface

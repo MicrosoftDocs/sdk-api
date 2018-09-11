@@ -4,17 +4,16 @@ title: IUIRibbon::SaveSettingsToStream
 author: windows-sdk-content
 description: Writes ribbon settings to a binary stream.
 old-location: windowsribbon\windowsribbon_iuiribbon_savesettingstostream.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiribbon\savesettingstostream.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIRibbon interface [Windows Ribbon],SaveSettingsToStream method, IUIRibbon.SaveSettingsToStream, IUIRibbon::SaveSettingsToStream, SaveSettingsToStream, SaveSettingsToStream method [Windows Ribbon], SaveSettingsToStream method [Windows Ribbon],IUIRibbon interface, scenicintent_IUIRibbon_SaveSettingsToStream, uiribbon/IUIRibbon::SaveSettingsToStream, windowsribbon.windowsribbon_iuiribbon_savesettingstostream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUIRibbon.SaveSettingsToStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mshtml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows UI
 ---
 

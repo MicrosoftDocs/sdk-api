@@ -4,17 +4,16 @@ title: tagWCN_VALUE_TYPE_CONFIG_METHODS
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_CONFIG_METHODS enumeration defines the configuration methods supported by the Enrollee or Registrar.
 old-location: wcn\wcn_value_type_config_methods.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: 7fa4ff2a-4ba2-43ac-9ebc-5baf04e802bc
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: WCN_VALUE_CM_DISPLAY, WCN_VALUE_CM_ETHERNET, WCN_VALUE_CM_EXTERNAL_NFC, WCN_VALUE_CM_INTEGRATED_NFC, WCN_VALUE_CM_KEYPAD, WCN_VALUE_CM_LABEL, WCN_VALUE_CM_NFC_INTERFACE, WCN_VALUE_CM_PHYS_DISPLAY, WCN_VALUE_CM_PHYS_PUSHBUTTON, WCN_VALUE_CM_PUSHBUTTON, WCN_VALUE_CM_USBA, WCN_VALUE_CM_VIRT_DISPLAY, WCN_VALUE_CM_VIRT_PUSHBUTTON, WCN_VALUE_TYPE_CONFIG_METHODS, WCN_VALUE_TYPE_CONFIG_METHODS enumeration [Windows Connect Now], tagWCN_VALUE_TYPE_CONFIG_METHODS, wcn.wcn_value_type_config_methods, wcntypes/WCN_VALUE_CM_DISPLAY, wcntypes/WCN_VALUE_CM_ETHERNET, wcntypes/WCN_VALUE_CM_EXTERNAL_NFC, wcntypes/WCN_VALUE_CM_INTEGRATED_NFC, wcntypes/WCN_VALUE_CM_KEYPAD, wcntypes/WCN_VALUE_CM_LABEL, wcntypes/WCN_VALUE_CM_NFC_INTERFACE, wcntypes/WCN_VALUE_CM_PHYS_DISPLAY, wcntypes/WCN_VALUE_CM_PHYS_PUSHBUTTON, wcntypes/WCN_VALUE_CM_PUSHBUTTON, wcntypes/WCN_VALUE_CM_USBA, wcntypes/WCN_VALUE_CM_VIRT_DISPLAY, wcntypes/WCN_VALUE_CM_VIRT_PUSHBUTTON, wcntypes/WCN_VALUE_TYPE_CONFIG_METHODS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcntypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wcndevice.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VALUE_TYPE_CONFIG_METHODS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCN_VALUE_TYPE_CONFIG_METHODS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCN_VALUE_TYPE_CONFIG_METHODS
+req.redist: 
 ---
 
 # tagWCN_VALUE_TYPE_CONFIG_METHODS enumeration

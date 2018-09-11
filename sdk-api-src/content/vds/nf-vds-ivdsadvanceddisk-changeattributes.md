@@ -4,17 +4,16 @@ title: IVdsAdvancedDisk::ChangeAttributes
 author: windows-sdk-content
 description: Modifies the attributes of the partition.
 old-location: base\ivdsadvanceddisk_changeattributes.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 0345a4b1-bbe1-4e59-9a04-bb40ff6db954
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ChangeAttributes, ChangeAttributes method [VDS], ChangeAttributes method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],ChangeAttributes method, IVdsAdvancedDisk.ChangeAttributes, IVdsAdvancedDisk::ChangeAttributes, base.ivdsadvanceddisk_changeattributes, vds/IVdsAdvancedDisk::ChangeAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsAdvancedDisk.ChangeAttributes
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsAdvancedDisk::ChangeAttributes

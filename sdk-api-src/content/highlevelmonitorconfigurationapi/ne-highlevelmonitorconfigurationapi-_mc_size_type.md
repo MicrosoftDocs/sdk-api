@@ -4,7 +4,7 @@ title: "_MC_SIZE_TYPE"
 author: windows-sdk-content
 description: Specifies whether to get or set the width or height of a monitor's display area.
 old-location: monitor\mc_size_type.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: 6a917b7d-b91d-478a-b84e-7586d743522a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_SIZE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MC_SIZE_TYPE
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MC_SIZE_TYPE
+req.redist: 
 ---
 
 # _MC_SIZE_TYPE enumeration

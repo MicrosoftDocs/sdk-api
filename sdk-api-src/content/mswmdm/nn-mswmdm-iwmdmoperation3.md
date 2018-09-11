@@ -4,17 +4,16 @@ title: IWMDMOperation3
 author: windows-sdk-content
 description: The optional, application-implemented IWMDMOperation3 interface extends IWMDMOperation by providing a new method for transferring data unencrypted for added efficiency.
 old-location: wmdm\iwmdmoperation3.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 5ab4fdd2-d0bf-4e2c-b529-331ffa4c8403
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMOperation3, IWMDMOperation3 interface [windows Media Device Manager], IWMDMOperation3 interface [windows Media Device Manager],described, IWMDMOperation3Interface, mswmdm/IWMDMOperation3, wmdm.iwmdmoperation3
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMDMOperation3
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMOperation3 interface

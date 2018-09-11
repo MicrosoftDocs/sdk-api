@@ -4,17 +4,16 @@ title: IPrincipal2::get_RequiredPrivilege
 author: windows-sdk-content
 description: Gets the required privilege of the task by index.
 old-location: taskschd\iprincipal2_requiredprivilege.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 701ff07e-2dd1-4985-8fc4-f570749c5834
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPrincipal2 interface [Task Scheduler],RequiredPrivilege property, IPrincipal2.RequiredPrivilege, IPrincipal2.get_RequiredPrivilege, IPrincipal2::RequiredPrivilege, IPrincipal2::get_RequiredPrivilege, RequiredPrivilege property [Task Scheduler], RequiredPrivilege property [Task Scheduler],IPrincipal2 interface, get_RequiredPrivilege, taskschd.iprincipal2_requiredprivilege, taskschd/IPrincipal2::RequiredPrivilege, taskschd/IPrincipal2::get_RequiredPrivilege
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPrincipal2.get_RequiredPrivilege
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IPrincipal2::get_RequiredPrivilege

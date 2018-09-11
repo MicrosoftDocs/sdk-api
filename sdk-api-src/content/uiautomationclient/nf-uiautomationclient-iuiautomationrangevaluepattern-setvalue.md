@@ -4,17 +4,16 @@ title: IUIAutomationRangeValuePattern::SetValue
 author: windows-sdk-content
 description: Sets the value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_SetValue.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 599cb788-9c1f-4b8e-819c-b82c4edba29b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationRangeValuePattern interface [Windows Accessibility],SetValue method, IUIAutomationRangeValuePattern.SetValue, IUIAutomationRangeValuePattern::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IUIAutomationRangeValuePattern interface, uiauto.uiauto_IUIAutomationRangeValuePattern_SetValue, uiauto_IUIAutomationRangeValuePattern_SetValue, uiautomationclient/IUIAutomationRangeValuePattern::SetValue, winauto.uiauto_IUIAutomationRangeValuePattern_SetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationRangeValuePattern.SetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationRangeValuePattern::SetValue

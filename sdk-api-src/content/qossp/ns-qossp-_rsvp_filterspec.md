@@ -4,17 +4,16 @@ title: "_RSVP_FILTERSPEC"
 author: windows-sdk-content
 description: The RSVP_FILTERSPEC structure provides RSVP FILTERSPEC information.
 old-location: qos\rsvp_filterspec.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: ce4af25d-6c31-43a2-a30a-1d28b18e8f8b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPRSVP_FILTERSPEC, *LPRSVP_FILTERSPEC structure [QOS], RSVP_FILTERSPEC, RSVP_FILTERSPEC structure [QOS], _RSVP_FILTERSPEC, qos.rsvp_filterspec, qossp/*LPRSVP_FILTERSPEC, qossp/RSVP_FILTERSPEC"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_FILTERSPEC, *LPRSVP_FILTERSPEC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RSVP_FILTERSPEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RSVP_FILTERSPEC, *LPRSVP_FILTERSPEC
+req.redist: 
 ---
 
 # _RSVP_FILTERSPEC structure

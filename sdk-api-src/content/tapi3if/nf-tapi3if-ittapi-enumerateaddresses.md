@@ -4,17 +4,16 @@ title: ITTAPI::EnumerateAddresses
 author: windows-sdk-content
 description: The EnumerateAddresses method enumerates the addresses that are currently available. Provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Addresses method.
 old-location: tapi3\ittapi_enumerateaddresses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b40a2071-24bf-470c-bfba-de23317e8652
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateAddresses, EnumerateAddresses method [TAPI 2.2], EnumerateAddresses method [TAPI 2.2],ITTAPI interface, ITTAPI interface [TAPI 2.2],EnumerateAddresses method, ITTAPI.EnumerateAddresses, ITTAPI::EnumerateAddresses, _tapi3_ittapi_enumerateaddresses, tapi3.ittapi_enumerateaddresses, tapi3if/ITTAPI::EnumerateAddresses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPI.EnumerateAddresses
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPI::EnumerateAddresses

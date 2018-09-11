@@ -4,17 +4,16 @@ title: IUPnPRegistrar::GetUniqueDeviceName
 author: windows-sdk-content
 description: The GetUniqueDeviceName method retrieves the UDN for the specified device.
 old-location: upnp\iupnpregistrar_getuniquedevicename.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: dcffee59-8b2f-443c-915f-6d823018eadd
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: GetUniqueDeviceName, GetUniqueDeviceName method [UPnP APIs], GetUniqueDeviceName method [UPnP APIs],IUPnPRegistrar interface, IUPnPRegistrar interface [UPnP APIs],GetUniqueDeviceName method, IUPnPRegistrar.GetUniqueDeviceName, IUPnPRegistrar::GetUniqueDeviceName, _upnp_iupnpregistrar_getuniquedevicename, upnp.iupnpregistrar_getuniquedevicename, upnphost/IUPnPRegistrar::GetUniqueDeviceName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPRegistrar.GetUniqueDeviceName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnphost.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPRegistrar::GetUniqueDeviceName

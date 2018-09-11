@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0012"
 author: windows-sdk-content
 description: Contains the similarity data for a file.
 old-location: rdc\similaritydata.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 33fdb48c-6f33-44e8-83b1-6029b1eace1d
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: SimilarityData, SimilarityData structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0012, fs.similaritydata, msrdc/SimilarityData, rdc.similaritydata
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SimilarityData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SimilarityData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SimilarityData
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msrdc_0000_0000_0012 structure

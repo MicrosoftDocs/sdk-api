@@ -4,7 +4,7 @@ title: "_DD_SURFACE_GLOBAL"
 author: windows-sdk-content
 description: The DD_SURFACE_GLOBAL structure contains global surface-related data that can be shared between multiple surfaces.
 old-location: display\dd_surface_global.htm
-old-project: display
+tech.root: display
 ms.assetid: 11e0a6b9-16b9-4fc3-8e17-776f56c12196
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_SURFACE_GLOBAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL"
+req.redist: 
 ---
 
 # _DD_SURFACE_GLOBAL structure

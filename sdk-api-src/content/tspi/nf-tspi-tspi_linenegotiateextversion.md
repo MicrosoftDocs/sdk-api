@@ -4,17 +4,16 @@ title: TSPI_lineNegotiateExtVersion function
 author: windows-sdk-content
 description: The TSPI_lineNegotiateExtVersion function returns the highest extension version number the service provider can operate under for this device, given the range of possible extension versions.
 old-location: tspi\tspi_linenegotiateextversion.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: cd7cc421-3efb-4fe1-858c-4d894f4d9377
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineNegotiateExtVersion, TSPI_lineNegotiateExtVersion function [TAPI 2.2], _tspi_tspi_linenegotiateextversion, tspi.tspi_linenegotiateextversion, tspi/TSPI_lineNegotiateExtVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineNegotiateExtVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineNegotiateExtVersion function

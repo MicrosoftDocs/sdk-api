@@ -4,17 +4,16 @@ title: IIsdbHierarchicalTransmissionDescriptor::GetTag
 author: windows-sdk-content
 description: Gets the tag that identifies a hierarchical transmission descriptor.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_gettag.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1aed2424-567b-4a6b-ae32-b3c74ce75026
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbHierarchicalTransmissionDescriptor.GetTag, IIsdbHierarchicalTransmissionDescriptor::GetTag, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetTag, mstv.iisdbhierarchicaltransmissiondescriptor_gettag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbHierarchicalTransmissionDescriptor.GetTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbHierarchicalTransmissionDescriptor::GetTag

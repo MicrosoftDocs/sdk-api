@@ -4,17 +4,16 @@ title: IUIAutomationTextPattern2::GetCaretRange
 author: windows-sdk-content
 description: Retrieves a zero-length text range at the location of the caret that belongs to the text-based control.
 old-location: winauto\uiauto_IUIAutomationTextPattern2_GetCaretRange.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: EDB53C04-142E-4DCC-8DD7-F7DD4BC6A67F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCaretRange, GetCaretRange method [Windows Accessibility], GetCaretRange method [Windows Accessibility],IUIAutomationTextPattern2 interface, IUIAutomationTextPattern2 interface [Windows Accessibility],GetCaretRange method, IUIAutomationTextPattern2.GetCaretRange, IUIAutomationTextPattern2::GetCaretRange, uiautomationclient/IUIAutomationTextPattern2::GetCaretRange, winauto.uiauto_IUIAutomationTextPattern2_GetCaretRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTextPattern2.GetCaretRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTextPattern2::GetCaretRange
@@ -69,7 +67,7 @@ Type: <b>BOOL*</b>
 
 ### -param range
 
-
+TBD
 
 
 

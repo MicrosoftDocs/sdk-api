@@ -4,7 +4,7 @@ title: D2D1_BITMAP_BRUSH_PROPERTIES1
 author: windows-sdk-content
 description: Describes the extend modes and the interpolation mode of an ID2D1BitmapBrush.
 old-location: direct2d\d2d1_bitmap_brush_properties1.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 0FECAD03-C35C-4729-9BBE-40DE11B34068
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_BITMAP_BRUSH_PROPERTIES1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_BITMAP_BRUSH_PROPERTIES1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_BITMAP_BRUSH_PROPERTIES1
+req.redist: 
 ---
 
 # D2D1_BITMAP_BRUSH_PROPERTIES1 structure

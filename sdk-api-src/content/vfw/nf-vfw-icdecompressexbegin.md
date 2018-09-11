@@ -4,17 +4,16 @@ title: ICDecompressExBegin function
 author: windows-sdk-content
 description: The ICDecompressExBegin function prepares a decompressor for decompressing data.
 old-location: multimedia\icdecompressexbegin.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 35277938-6fae-4207-8b91-439af2b481e8
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICDecompressExBegin, ICDecompressExBegin function [Windows Multimedia], _win32_ICDecompressExBegin, multimedia.icdecompressexbegin, vfw/ICDecompressExBegin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDecompressExBegin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICDecompressExBegin function

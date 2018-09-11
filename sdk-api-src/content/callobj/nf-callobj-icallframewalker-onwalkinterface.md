@@ -4,17 +4,16 @@ title: ICallFrameWalker::OnWalkInterface
 author: windows-sdk-content
 description: Walks through a call frame to look for the specified interface in the call frame. The interface can be manipulated or replaced by paying close attention to the reference count.
 old-location: com\icallframewalker_onwalkinterface.htm
-old-project: com
+tech.root: com
 ms.assetid: e599536f-87a3-4f71-ac0e-21bdafafd029
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICallFrameWalker interface [COM],OnWalkInterface method, ICallFrameWalker.OnWalkInterface, ICallFrameWalker::OnWalkInterface, OnWalkInterface, OnWalkInterface method [COM], OnWalkInterface method [COM],ICallFrameWalker interface, _com_icallframewalker_onwalkinterface, callobj/ICallFrameWalker::OnWalkInterface, com.icallframewalker_onwalkinterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallFrameWalker.OnWalkInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallFrameWalker::OnWalkInterface

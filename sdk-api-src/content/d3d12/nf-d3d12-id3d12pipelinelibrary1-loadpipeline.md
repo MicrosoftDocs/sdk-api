@@ -4,17 +4,16 @@ title: ID3D12PipelineLibrary1::LoadPipeline
 author: windows-sdk-content
 description: Retrieves the requested PSO from the library. The pipeline stream description is matched against the library database and remembered in order to prevent duplication of PSO contents.
 old-location: direct3d12\id3d12pipelinelibrary1_loadpipeline.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 842092FF-906D-4595-8C43-07F0349CA1A3
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12PipelineLibrary1 interface,LoadPipeline method, ID3D12PipelineLibrary1.LoadPipeline, ID3D12PipelineLibrary1::LoadPipeline, LoadPipeline, LoadPipeline method, LoadPipeline method,ID3D12PipelineLibrary1 interface, d3d12/ID3D12PipelineLibrary1::LoadPipeline, direct3d12.id3d12pipelinelibrary1_loadpipeline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12PipelineLibrary1.LoadPipeline
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12PipelineLibrary1::LoadPipeline

@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::VSGetConstantBuffers
 author: windows-sdk-content
 description: Get the constant buffers used by the vertex shader pipeline stage.
 old-location: direct3d11\id3d11devicecontext_vsgetconstantbuffers.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: d31bff37-4109-40af-bc75-7e73582d6fa1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 195aec78-0809-915e-4807-c20139d72b2b, ID3D11DeviceContext interface [Direct3D 11],VSGetConstantBuffers method, ID3D11DeviceContext.VSGetConstantBuffers, ID3D11DeviceContext::VSGetConstantBuffers, VSGetConstantBuffers, VSGetConstantBuffers method [Direct3D 11], VSGetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::VSGetConstantBuffers, direct3d11.id3d11devicecontext_vsgetconstantbuffers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.VSGetConstantBuffers
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::VSGetConstantBuffers

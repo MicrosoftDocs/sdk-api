@@ -4,17 +4,16 @@ title: "_EVT_SEEK_FLAGS"
 author: windows-sdk-content
 description: Defines the relative position in the result set from which to seek.
 old-location: wes\evt_seek_flags.htm
-old-project: wes
+tech.root: WES
 ms.assetid: 5340815b-b94a-488b-bfa1-01dcbc15e505
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EVT_SEEK_FLAGS, EVT_SEEK_FLAGS enumeration [EventLog], EvtSeekOriginMask, EvtSeekRelativeToBookmark, EvtSeekRelativeToCurrent, EvtSeekRelativeToFirst, EvtSeekRelativeToLast, EvtSeekStrict, _EVT_SEEK_FLAGS, wes.evt_seek_flags, winevt/EVT_SEEK_FLAGS, winevt/EvtSeekOriginMask, winevt/EvtSeekRelativeToBookmark, winevt/EvtSeekRelativeToCurrent, winevt/EvtSeekRelativeToFirst, winevt/EvtSeekRelativeToLast, winevt/EvtSeekStrict
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_SEEK_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_SEEK_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_SEEK_FLAGS
+req.redist: 
 ---
 
 # _EVT_SEEK_FLAGS enumeration

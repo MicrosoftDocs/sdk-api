@@ -4,17 +4,16 @@ title: IAudioInputSelector::GetSelection
 author: windows-sdk-content
 description: The GetSelection method gets the local ID of the part that is connected to the selector input that is currently selected.
 old-location: coreaudio\iaudioinputselector_getselection.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 38288a63-62a3-4b06-b2e6-dbe8c27e09ad
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetSelection, GetSelection method [Core Audio], GetSelection method [Core Audio],IAudioInputSelector interface, IAudioInputSelector interface [Core Audio],GetSelection method, IAudioInputSelector.GetSelection, IAudioInputSelector::GetSelection, IAudioInputSelectorGetSelection, coreaudio.iaudioinputselector_getselection, devicetopology/IAudioInputSelector::GetSelection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioInputSelector.GetSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioInputSelector::GetSelection

@@ -4,17 +4,16 @@ title: IDiskQuotaUser::GetAccountStatus
 author: windows-sdk-content
 description: Retrieves the status of the user object's account.
 old-location: fs\idiskquotauser_getaccountstatus.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: d4027660-beb1-45eb-9dd3-f4c12df28051
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DISKQUOTA_USER_ABLE, DISKQUOTA_USER_ACCOUNT_DELETED, DISKQUOTA_USER_ACCOUNT_INVALID, DISKQUOTA_USER_ACCOUNT_RESOLVED, DISKQUOTA_USER_ACCOUNT_UNKNOWN, DISKQUOTA_USER_ACCOUNT_UNRESOLVED, GetAccountStatus, GetAccountStatus method [Files], GetAccountStatus method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetAccountStatus method, IDiskQuotaUser.GetAccountStatus, IDiskQuotaUser::GetAccountStatus, _win32_idiskquotauser_getaccountstatus, base.idiskquotauser_getaccountstatus, dskquota/IDiskQuotaUser::GetAccountStatus, fs.idiskquotauser_getaccountstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaUser.GetAccountStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaUser::GetAccountStatus

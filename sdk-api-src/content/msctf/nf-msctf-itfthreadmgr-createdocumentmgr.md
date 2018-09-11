@@ -4,17 +4,16 @@ title: ITfThreadMgr::CreateDocumentMgr
 author: windows-sdk-content
 description: ITfThreadMgr::CreateDocumentMgr method
 old-location: tsf\itfthreadmgr_createdocumentmgr.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 0f90a359-61e7-46e5-9d0b-ab6fe24f3136
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateDocumentMgr, CreateDocumentMgr method [Text Services Framework], CreateDocumentMgr method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],CreateDocumentMgr method, ITfThreadMgr.CreateDocumentMgr, ITfThreadMgr::CreateDocumentMgr, _tsf_itfthreadmgr_createdocumentmgr_ref, msctf/ITfThreadMgr::CreateDocumentMgr, tsf.itfthreadmgr_createdocumentmgr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfThreadMgr.CreateDocumentMgr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfThreadMgr::CreateDocumentMgr

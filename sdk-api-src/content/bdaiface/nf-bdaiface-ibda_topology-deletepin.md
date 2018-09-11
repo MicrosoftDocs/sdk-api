@@ -4,17 +4,16 @@ title: IBDA_Topology::DeletePin
 author: windows-sdk-content
 description: The DeletePin method deletes a pin from the filter's topology.
 old-location: mstv\ibda_topology_deletepin.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7ec81e3a-e4f2-4809-9574-8efe6240cfba
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: DeletePin, DeletePin method [Microsoft TV Technologies], DeletePin method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],DeletePin method, IBDA_Topology.DeletePin, IBDA_Topology::DeletePin, IBDA_TopologyDeletePin, bdaiface/IBDA_Topology::DeletePin, mstv.ibda_topology_deletepin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_Topology.DeletePin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_Topology::DeletePin

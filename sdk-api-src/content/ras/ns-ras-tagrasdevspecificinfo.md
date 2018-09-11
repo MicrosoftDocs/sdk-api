@@ -4,17 +4,16 @@ title: tagRASDEVSPECIFICINFO
 author: windows-sdk-content
 description: Used to send a cookie for server validation and bypass point-to-point (PPP) authentication.
 old-location: rras\rasdevspecificinfo.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 0dee3f10-d49b-4059-8cfb-c28af6b8b371
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO structure pointer [RAS], RASDEVSPECIFICINFO, RASDEVSPECIFICINFO structure [RAS], ras/PRASDEVSPECIFICINFO, ras/RASDEVSPECIFICINFO, rras.rasdevspecificinfo, tagRASDEVSPECIFICINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASDEVSPECIFICINFO, *PRASDEVSPECIFICINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RASDEVSPECIFICINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RASDEVSPECIFICINFO, *PRASDEVSPECIFICINFO
+req.redist: 
 ---
 
 # tagRASDEVSPECIFICINFO structure

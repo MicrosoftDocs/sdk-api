@@ -4,17 +4,16 @@ title: IVssWMComponent::GetComponentInfo
 author: windows-sdk-content
 description: The GetComponentInfo method obtains basic information about the specified writer metadata component.
 old-location: base\ivsswmcomponent_getcomponentinfo.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: ac01bfea-e60f-4f50-a865-5bb7e372fbf2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetComponentInfo, GetComponentInfo method [VSS], GetComponentInfo method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetComponentInfo method, IVssWMComponent.GetComponentInfo, IVssWMComponent::GetComponentInfo, _win32_ivsswmcomponent_getcomponentinfo, base.ivsswmcomponent_getcomponentinfo, vsbackup/IVssWMComponent::GetComponentInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssWMComponent.GetComponentInfo
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssWMComponent::GetComponentInfo

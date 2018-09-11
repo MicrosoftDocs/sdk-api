@@ -4,17 +4,16 @@ title: CMSPCallBase::CreateStreamObject
 author: windows-sdk-content
 description: The CreateStreamObject method is called by InternalCreateStream.
 old-location: tapi3\cmspcallbase_createstreamobject.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ac98dd08-4250-40f6-91a8-e1f67b94b51f
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],CreateStreamObject method, CMSPCallBase.CreateStreamObject, CMSPCallBase::CreateStreamObject, CreateStreamObject, CreateStreamObject method [TAPI 2.2], CreateStreamObject method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_createstreamobject, mspcall/CMSPCallBase::CreateStreamObject, tapi3.cmspcallbase_createstreamobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mspcall.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSPCallBase.CreateStreamObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CMSPCallBase::CreateStreamObject

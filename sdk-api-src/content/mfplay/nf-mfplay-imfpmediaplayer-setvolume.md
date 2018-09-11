@@ -4,17 +4,16 @@ title: IMFPMediaPlayer::SetVolume
 author: windows-sdk-content
 description: Sets the audio volume.
 old-location: mf\imfpmediaplayer_setvolume.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: feee2812-7c7e-4c27-86be-8f7316854222
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetVolume method, IMFPMediaPlayer.SetVolume, IMFPMediaPlayer::SetVolume, SetVolume, SetVolume method [Media Foundation], SetVolume method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setvolume, mfplay/IMFPMediaPlayer::SetVolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaPlayer.SetVolume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaPlayer::SetVolume

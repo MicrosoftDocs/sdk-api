@@ -4,17 +4,16 @@ title: tagWCN_VALUE_TYPE_VERSION
 author: windows-sdk-content
 description: Defines the supported version of Wi-Fi Protected Setup (WPS).
 old-location: wcn\wcn_value_type_version.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: 7EE57CB6-EC32-4C90-AC48-56B10FEBE929
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: WCN_VALUE_TYPE_VERSION, WCN_VALUE_TYPE_VERSION enumeration [Windows Connect Now], WCN_VALUE_VERSION_1_0, WCN_VALUE_VERSION_2_0, tagWCN_VALUE_TYPE_VERSION, wcn.wcn_value_type_version, wcntypes/WCN_VALUE_TYPE_VERSION, wcntypes/WCN_VALUE_VERSION_1_0, wcntypes/WCN_VALUE_VERSION_2_0
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcntypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wcndevice.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VALUE_TYPE_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCN_VALUE_TYPE_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCN_VALUE_TYPE_VERSION
+req.redist: 
 ---
 
 # tagWCN_VALUE_TYPE_VERSION enumeration

@@ -4,17 +4,16 @@ title: IFileSystemImage::get_ISO9660InterchangeLevelsSupported
 author: windows-sdk-content
 description: Retrieves the supported ISO9660 compatibility levels.
 old-location: imapi\ifilesystemimage_get_iso9660interchangelevelssupported.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: fd19c3ce-ef84-4f15-9032-679115b8b21f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_ISO9660InterchangeLevelsSupported method, IFileSystemImage.get_ISO9660InterchangeLevelsSupported, IFileSystemImage::get_ISO9660InterchangeLevelsSupported, get_ISO9660InterchangeLevelsSupported, get_ISO9660InterchangeLevelsSupported method [IMAPI], get_ISO9660InterchangeLevelsSupported method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_iso9660interchangelevelssupported, imapi2fs/IFileSystemImage::get_ISO9660InterchangeLevelsSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage.get_ISO9660InterchangeLevelsSupported
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage::get_ISO9660InterchangeLevelsSupported

@@ -4,17 +4,16 @@ title: "_CONTROL_SERVICE"
 author: windows-sdk-content
 description: The CONTROL_SERVICE structure contains supported RSVP service types.
 old-location: qos\control_service.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 604d7be8-955b-40a3-9cb4-6cbfbeeaa105
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPCONTROL_SERVICE, *LPCONTROL_SERVICE structure [QOS], CONTROL_SERVICE, CONTROL_SERVICE structure [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GENERAL_INFORMATION, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NETWORK_UNAVAILABLE, SERVICETYPE_NOCHANGE, SERVICETYPE_NONCONFORMING, SERVICETYPE_NOTRAFFIC, SERVICETYPE_QUALITATIVE, _CONTROL_SERVICE, qos.control_service, qossp/*LPCONTROL_SERVICE, qossp/CONTROL_SERVICE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONTROL_SERVICE, *LPCONTROL_SERVICE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CONTROL_SERVICE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CONTROL_SERVICE, *LPCONTROL_SERVICE
+req.redist: 
 ---
 
 # _CONTROL_SERVICE structure

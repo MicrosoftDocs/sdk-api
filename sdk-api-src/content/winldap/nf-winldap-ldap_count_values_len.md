@@ -4,17 +4,16 @@ title: ldap_count_values_len function
 author: windows-sdk-content
 description: Counts the number of values in a list.
 old-location: ldap\ldap_count_values_len.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: fab632c7-3ec6-4968-a48d-5865e7f43d0b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_count_values_len, ldap.ldap__count__values__len, ldap.ldap_count_values_len, ldap_count_values_len, ldap_count_values_len function [LDAP], winldap/ldap_count_values_len"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ldap_count_values_len
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_count_values_len function

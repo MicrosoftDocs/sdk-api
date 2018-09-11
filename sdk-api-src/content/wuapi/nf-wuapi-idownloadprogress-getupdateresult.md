@@ -4,17 +4,16 @@ title: IDownloadProgress::GetUpdateResult
 author: windows-sdk-content
 description: Returns the result of the download of a specified update.
 old-location: wua\idownloadprogress_getupdateresult.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: e7474a0a-98dc-4dd6-b5b8-8f88f0539f9a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetUpdateResult, GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],GetUpdateResult method, IDownloadProgress.GetUpdateResult, IDownloadProgress::GetUpdateResult, wua.idownloadprogress_getupdateresult, wuapi/IDownloadProgress::GetUpdateResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDownloadProgress.GetUpdateResult
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IDownloadProgress::GetUpdateResult

@@ -4,17 +4,16 @@ title: StringFormat::GetHotkeyPrefix
 author: windows-sdk-content
 description: The StringFormat::GetHotkeyPrefix method gets an element of the HotkeyPrefix enumeration that indicates the type of processing that is performed on a string when a hot key prefix, an ampersand (&), is encountered.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetHotkeyPrefix_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gethotkeyprefix.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetHotkeyPrefix, GetHotkeyPrefix method [GDI+], GetHotkeyPrefix method [GDI+],StringFormat class, StringFormat class [GDI+],GetHotkeyPrefix method, StringFormat.GetHotkeyPrefix, StringFormat::GetHotkeyPrefix, _gdiplus_CLASS_StringFormat_GetHotkeyPrefix_, gdiplus._gdiplus_CLASS_StringFormat_GetHotkeyPrefix_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - StringFormat.GetHotkeyPrefix
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

@@ -4,17 +4,16 @@ title: ICaptionServiceDescriptor::GetNumberOfServices
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icaptionservicedescriptor_getnumberofservices.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 50c2baff-a355-45a4-8a05-a193e695c448
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetNumberOfServices, GetNumberOfServices method [Microsoft TV Technologies], GetNumberOfServices method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetNumberOfServices method, ICaptionServiceDescriptor.GetNumberOfServices, ICaptionServiceDescriptor::GetNumberOfServices, ICaptionServiceDescriptorGetNumberOfServices, atscpsipparser/ICaptionServiceDescriptor::GetNumberOfServices, mstv.icaptionservicedescriptor_getnumberofservices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICaptionServiceDescriptor.GetNumberOfServices
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICaptionServiceDescriptor::GetNumberOfServices

@@ -4,7 +4,7 @@ title: phoneextensionid_tag
 author: windows-sdk-content
 description: The PHONEEXTENSIONID structure describes an extension identifier.
 old-location: tapi2\phoneextensionid_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 61f376fd-2287-4425-9445-163f71aebf04
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PHONEEXTENSIONID, *LPPHONEEXTENSIONID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PHONEEXTENSIONID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PHONEEXTENSIONID, *LPPHONEEXTENSIONID
+req.redist: 
 ---
 
 # phoneextensionid_tag structure

@@ -4,17 +4,16 @@ title: IStreamBufferConfigure2::GetMultiplexedPacketSize
 author: windows-sdk-content
 description: The GetMultiplexedPacketSize method returns the size of the multiplexed packets in the backing files for the Stream Buffer Engine.
 old-location: mstv\istreambufferconfigure2_getmultiplexedpacketsize.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 36b5cd06-ba6a-4546-98b6-4c8b47f7f62b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetMultiplexedPacketSize, GetMultiplexedPacketSize method [Microsoft TV Technologies], GetMultiplexedPacketSize method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, IStreamBufferConfigure2 interface [Microsoft TV Technologies],GetMultiplexedPacketSize method, IStreamBufferConfigure2.GetMultiplexedPacketSize, IStreamBufferConfigure2::GetMultiplexedPacketSize, IStreamBufferConfigure2GetMultiplexedPacketSize, mstv.istreambufferconfigure2_getmultiplexedpacketsize, sbe/IStreamBufferConfigure2::GetMultiplexedPacketSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferConfigure2.GetMultiplexedPacketSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferConfigure2::GetMultiplexedPacketSize

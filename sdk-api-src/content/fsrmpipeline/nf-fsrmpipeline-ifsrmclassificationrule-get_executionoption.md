@@ -4,17 +4,16 @@ title: IFsrmClassificationRule::get_ExecutionOption
 author: windows-sdk-content
 description: Determines how to apply the rule to the file.
 old-location: fsrm\ifsrmclassificationrule_executionoption.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: e084c056-18b1-4089-bab9-fce2ef58cd05
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: ExecutionOption property [File Server Resource Manager], ExecutionOption property [File Server Resource Manager],IFsrmClassificationRule interface, IFsrmClassificationRule interface [File Server Resource Manager],ExecutionOption property, IFsrmClassificationRule.ExecutionOption, IFsrmClassificationRule.get_ExecutionOption, IFsrmClassificationRule::ExecutionOption, IFsrmClassificationRule::get_ExecutionOption, IFsrmClassificationRule::put_ExecutionOption, fs.ifsrmclassificationrule_executionoption, fsrm.ifsrmclassificationrule_executionoption, fsrmpipeline/IFsrmClassificationRule::ExecutionOption, fsrmpipeline/IFsrmClassificationRule::get_ExecutionOption, fsrmpipeline/IFsrmClassificationRule::put_ExecutionOption, get_ExecutionOption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmClassificationRule.put_ExecutionOption
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationRule::get_ExecutionOption

@@ -4,17 +4,16 @@ title: ITsSbSession::get_ClientDisplay
 author: windows-sdk-content
 description: Retrieves or specifies information about the display device of the client computer.
 old-location: termserv\itssbsession_clientdisplay.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: cde688e4-b477-4e55-aa99-14d3f03de204
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ClientDisplay property [Remote Desktop Services], ClientDisplay property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],ClientDisplay property, ITsSbSession.ClientDisplay, ITsSbSession.get_ClientDisplay, ITsSbSession::ClientDisplay, ITsSbSession::get_ClientDisplay, ITsSbSession::put_ClientDisplay, get_ClientDisplay, sbtsv/ITsSbSession::ClientDisplay, sbtsv/ITsSbSession::get_ClientDisplay, sbtsv/ITsSbSession::put_ClientDisplay, termserv.itssbsession_clientdisplay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITsSbSession.put_ClientDisplay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbSession::get_ClientDisplay

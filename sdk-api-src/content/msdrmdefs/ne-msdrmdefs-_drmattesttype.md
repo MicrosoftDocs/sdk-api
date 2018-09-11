@@ -4,7 +4,7 @@ title: "_DRMATTESTTYPE"
 author: windows-sdk-content
 description: The DRMATTESTTYPE enumeration specifies what kind of signature to create for a data blob.
 old-location: rm\drmattesttype.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: adbf8718-e707-4ab9-a961-f8b4b4e1fe6a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msdrmdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRMATTESTTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMATTESTTYPE
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
+req.typenames: DRMATTESTTYPE
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

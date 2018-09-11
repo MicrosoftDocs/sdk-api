@@ -4,17 +4,16 @@ title: IComSecurityEvents::OnAuthenticate
 author: windows-sdk-content
 description: Generated when a method call level authentication succeeds.
 old-location: cos\icomsecurityevents_onauthenticate.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 4be635c6-9601-419d-933e-555b2ae6b73d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComSecurityEvents interface [COM+],OnAuthenticate method, IComSecurityEvents.OnAuthenticate, IComSecurityEvents::OnAuthenticate, OnAuthenticate, OnAuthenticate method [COM+], OnAuthenticate method [COM+],IComSecurityEvents interface, _dtc_IComSecurityEvents_OnAuthenticate, comsvcs/IComSecurityEvents::OnAuthenticate, cos.icomsecurityevents_onauthenticate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComSecurityEvents.OnAuthenticate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComSecurityEvents::OnAuthenticate

@@ -4,17 +4,16 @@ title: tagCrmTransactionState
 author: windows-sdk-content
 description: Represents the current transaction state of the transaction.
 old-location: cos\crmtransactionstate.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ae096ba2-3347-4d8c-89af-ee4517554a91
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CrmTransactionState, CrmTransactionState enumeration [COM+], TxState_Aborted, TxState_Active, TxState_Committed, TxState_Indoubt, _cos_CrmTransactionState, comsvcs/CrmTransactionState, comsvcs/TxState_Aborted, comsvcs/TxState_Active, comsvcs/TxState_Committed, comsvcs/TxState_Indoubt, cos.crmtransactionstate, tagCrmTransactionState
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CrmTransactionState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CrmTransactionState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CrmTransactionState
+req.redist: 
 ---
 
 # tagCrmTransactionState enumeration

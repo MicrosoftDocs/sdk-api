@@ -4,17 +4,16 @@ title: IUIAutomationTransformPattern2::get_CachedZoomMaximum
 author: windows-sdk-content
 description: Retrieves the cached maximum zoom level of the control's viewport.
 old-location: winauto\uiauto_iuiautomationtransformpattern2_cachedzoommaximum.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 482C482F-299D-4948-A794-79F3F7465F8D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedZoomMaximum property [Windows Accessibility], CachedZoomMaximum property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CachedZoomMaximum property, IUIAutomationTransformPattern2.CachedZoomMaximum, IUIAutomationTransformPattern2.get_CachedZoomMaximum, IUIAutomationTransformPattern2::CachedZoomMaximum, IUIAutomationTransformPattern2::get_CachedZoomMaximum, get_CachedZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::CachedZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::get_CachedZoomMaximum, winauto.uiauto_iuiautomationtransformpattern2_cachedzoommaximum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationTransformPattern2.get_CachedZoomMaximum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTransformPattern2::get_CachedZoomMaximum

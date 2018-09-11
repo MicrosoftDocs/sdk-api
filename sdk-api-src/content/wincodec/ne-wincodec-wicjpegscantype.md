@@ -4,7 +4,7 @@ title: WICJpegScanType
 author: windows-sdk-content
 description: Specifies the memory layout of pixel data in a JPEG image scan.
 old-location: wic\wicjpegscantype.htm
-old-project: wic
+tech.root: wic
 ms.assetid: DC8B42F0-66D3-4425-9AA8-6B8F0D9B8568
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wincodec.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICJpegScanType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICJpegScanType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICJpegScanType
+req.redist: 
 ---
 
 # WICJpegScanType enumeration

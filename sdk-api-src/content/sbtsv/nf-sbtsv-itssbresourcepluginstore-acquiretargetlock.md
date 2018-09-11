@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::AcquireTargetLock
 author: windows-sdk-content
 description: Locks a target.
 old-location: termserv\itssbresourcepluginstore_acquiretargetlock.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: ee6f22cf-c111-4a11-ab84-b52904a148b6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AcquireTargetLock, AcquireTargetLock method [Remote Desktop Services], AcquireTargetLock method [Remote Desktop Services],ITsSbResourcePluginStore interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AcquireTargetLock method, ITsSbResourcePluginStore.AcquireTargetLock, ITsSbResourcePluginStore::AcquireTargetLock, sbtsv/ITsSbResourcePluginStore::AcquireTargetLock, termserv.itssbresourcepluginstore_acquiretargetlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbResourcePluginStore.AcquireTargetLock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::AcquireTargetLock

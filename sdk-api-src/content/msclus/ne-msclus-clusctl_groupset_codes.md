@@ -4,17 +4,16 @@ title: CLUSCTL_GROUPSET_CODES
 author: windows-sdk-content
 description: Enumerates groupset control codes used by the ClusterGroupSetControl function.
 old-location: mscs\clusctl_collection_codes.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2c160770-5ced-4914-bcca-c8f7405ad0b0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSCTL_GROUPSET_CODES, CLUSCTL_GROUPSET_CODES enumeration [Failover Cluster], CLUSCTL_GROUPSET_GET_COMMON_PROPERTIES, CLUSCTL_GROUPSET_GET_GROUPS, CLUSCTL_GROUPSET_GET_PROVIDER_GROUPS, CLUSCTL_GROUPSET_GET_PROVIDER_GROUPSETS, CLUSCTL_GROUPSET_GET_RO_COMMON_PROPERTIES, CLUSCTL_GROUPSET_SET_COMMON_PROPERTIES, CLUSCTL_GROUP_GET_ID, CLUSCTL_GROUP_GET_PROVIDER_GROUPS, CLUSCTL_GROUP_GET_PROVIDER_GROUPSETS, msclus/CLUSCTL_GROUPSET_CODES, msclus/CLUSCTL_GROUPSET_GET_COMMON_PROPERTIES, msclus/CLUSCTL_GROUPSET_GET_GROUPS, msclus/CLUSCTL_GROUPSET_GET_PROVIDER_GROUPS, msclus/CLUSCTL_GROUPSET_GET_PROVIDER_GROUPSETS, msclus/CLUSCTL_GROUPSET_GET_RO_COMMON_PROPERTIES, msclus/CLUSCTL_GROUPSET_SET_COMMON_PROPERTIES, msclus/CLUSCTL_GROUP_GET_ID, msclus/CLUSCTL_GROUP_GET_PROVIDER_GROUPS, msclus/CLUSCTL_GROUP_GET_PROVIDER_GROUPSETS, mscs.clusctl_collection_codes
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: Clusapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSCTL_GROUPSET_CODES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLUSCTL_GROUPSET_CODES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSCTL_GROUPSET_CODES
+req.redist: 
 ---
 
 # CLUSCTL_GROUPSET_CODES enumeration

@@ -4,7 +4,7 @@ title: "_NS_REQS"
 author: windows-sdk-content
 description: Specifies the number of events.
 old-location: netshell\ns_reqs.htm
-old-project: netshell
+tech.root: netshell
 ms.assetid: f8510cef-9b7d-4827-8b09-7584bf32b220
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: netsh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NS_REQS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NS_REQS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NS_REQS
+req.redist: 
 ---
 
 # _NS_REQS enumeration

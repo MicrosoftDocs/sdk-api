@@ -4,17 +4,16 @@ title: IDCompositionVisual3::SetVisible
 author: windows-sdk-content
 description: Changes the value of the visual's Visible property.
 old-location: directcomp\idcompositionvisual3_setvisible.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 2D1BE2C4-2F7D-42C7-BB01-93366382B843
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetVisible method, IDCompositionVisual3.SetVisible, IDCompositionVisual3::SetVisible, SetVisible, SetVisible method [DirectComposition], SetVisible method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetVisible, directcomp.idcompositionvisual3_setvisible
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionVisual3.SetVisible
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionVisual3::SetVisible

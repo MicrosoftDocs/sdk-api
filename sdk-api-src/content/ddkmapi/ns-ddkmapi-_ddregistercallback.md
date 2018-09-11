@@ -4,7 +4,7 @@ title: "_DDREGISTERCALLBACK"
 author: windows-sdk-content
 description: The DDREGISTERCALLBACK structure contains the register callback information. This structure is used by both the DD_DXAPI_REGISTER_CALLBACK and DD_DXAPI_UNREGISTER_CALLBACK function identifiers of the DxApi function.
 old-location: display\ddregistercallback.htm
-old-project: display
+tech.root: display
 ms.assetid: 35b82122-0cff-4a19-9723-28ce38896f2a
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDREGISTERCALLBACK, *LPDDREGISTERCALLBACK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDREGISTERCALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDREGISTERCALLBACK, *LPDDREGISTERCALLBACK
+req.redist: 
 ---
 
 # _DDREGISTERCALLBACK structure

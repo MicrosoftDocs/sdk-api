@@ -4,17 +4,16 @@ title: IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode
 author: windows-sdk-content
 description: Determines if a DVD recording session includes tasks that can increase the chance that a device can play the DVD.
 old-location: imapi\idiscformat2data_put_disableconsumerdvdcompatibilitymode.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: d32bbb33-0cb6-46cd-8a06-7ddd6e94a7b3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_DisableConsumerDvdCompatibilityMode method, IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode, IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode, imapi.idiscformat2data_put_disableconsumerdvdcompatibilitymode, imapi2/IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode, put_DisableConsumerDvdCompatibilityMode, put_DisableConsumerDvdCompatibilityMode method [IMAPI], put_DisableConsumerDvdCompatibilityMode method [IMAPI],IDiscFormat2Data interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode

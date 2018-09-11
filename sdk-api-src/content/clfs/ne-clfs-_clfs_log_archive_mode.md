@@ -4,7 +4,7 @@ title: "_CLFS_LOG_ARCHIVE_MODE"
 author: windows-sdk-content
 description: Specifies whether a log is ephemeral.
 old-location: fs\clfs_log_archive_mode.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 448d79cd-d959-4585-877e-0f70b44f3172
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clfs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_LOG_ARCHIVE_MODE, *PCLFS_LOG_ARCHIVE_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLFS_LOG_ARCHIVE_MODE
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: CLFS_LOG_ARCHIVE_MODE, *PCLFS_LOG_ARCHIVE_MODE
+req.redist: 
 ---
 
 # _CLFS_LOG_ARCHIVE_MODE enumeration

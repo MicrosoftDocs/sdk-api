@@ -4,17 +4,16 @@ title: "_WS_SECURITY_ALGORITHM_SUITE"
 author: windows-sdk-content
 description: Defines the security algorithms and key lengths to be used with WS-Security. This setting is relevant to message security bindings and mixed-mode security bindings.
 old-location: wsw\ws_security_algorithm_suite.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: aa2bb951-47ba-4241-b29a-2f54b92da4cb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SECURITY_ALGORITHM_SUITE, WS_SECURITY_ALGORITHM_SUITE structure [Web Services for Windows], _WS_SECURITY_ALGORITHM_SUITE, webservices/WS_SECURITY_ALGORITHM_SUITE, wsw.ws_security_algorithm_suite
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_SUITE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_ALGORITHM_SUITE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_ALGORITHM_SUITE
+req.redist: 
 ---
 
 # _WS_SECURITY_ALGORITHM_SUITE structure

@@ -4,17 +4,16 @@ title: IMDSPStorage4::SetReferences
 author: windows-sdk-content
 description: The SetReferences method sets the references contained in a storage that has references (such as playlist/album), overwriting any previously existing references contained in this storage.
 old-location: wmdm\imdspstorage4_setreferences.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 45fd9efa-b03d-46de-9d8c-85ed04d446dd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPStorage4 interface [windows Media Device Manager],SetReferences method, IMDSPStorage4.SetReferences, IMDSPStorage4::SetReferences, IMDSPStorage4SetReferences, SetReferences, SetReferences method [windows Media Device Manager], SetReferences method [windows Media Device Manager],IMDSPStorage4 interface, mswmdm/IMDSPStorage4::SetReferences, wmdm.imdspstorage4_setreferences
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPStorage4.SetReferences
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPStorage4::SetReferences
@@ -71,7 +69,7 @@ Count of <b>IMDSPStorage</b> interface pointers contained in the passed-in array
 
 ### -param ppISPStorage
 
-
+TBD
 
 
 

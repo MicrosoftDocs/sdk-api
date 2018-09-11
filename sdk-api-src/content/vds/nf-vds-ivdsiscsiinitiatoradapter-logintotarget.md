@@ -4,17 +4,16 @@ title: IVdsIscsiInitiatorAdapter::LoginToTarget
 author: windows-sdk-content
 description: Performs a manual login to an iSCSI target.
 old-location: base\ivdsiscsiinitiatoradapter_logintotarget.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 74d6ddd0-1b78-446a-9bce-6816eb34a2b9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsIscsiInitiatorAdapter interface [VDS],LoginToTarget method, IVdsIscsiInitiatorAdapter.LoginToTarget, IVdsIscsiInitiatorAdapter::LoginToTarget, LoginToTarget, LoginToTarget method [VDS], LoginToTarget method [VDS],IVdsIscsiInitiatorAdapter interface, base.ivdsiscsiinitiatoradapter_logintotarget, vds/IVdsIscsiInitiatorAdapter::LoginToTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiInitiatorAdapter.LoginToTarget
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiInitiatorAdapter::LoginToTarget

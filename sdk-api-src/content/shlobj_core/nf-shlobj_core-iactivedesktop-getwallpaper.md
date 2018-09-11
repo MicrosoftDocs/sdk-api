@@ -4,17 +4,16 @@ title: IActiveDesktop::GetWallpaper
 author: windows-sdk-content
 description: Gets the current wallpaper.
 old-location: lwef\iactivedesktop_getwallpaper.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: b56cf857-5f3c-47f0-a1c2-e578c44c971b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AD_GETWP_BMP, AD_GETWP_IMAGE, AD_GETWP_LAST_APPLIED, GetWallpaper, GetWallpaper method [Legacy Windows Environment Features], GetWallpaper method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetWallpaper method, IActiveDesktop.GetWallpaper, IActiveDesktop::GetWallpaper, _win32_IActiveDesktop_GetWallpaper, lwef.iactivedesktop_getwallpaper, shell.iactivedesktop_getwallpaper, shlobj_core/IActiveDesktop::GetWallpaper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActiveDesktop.GetWallpaper
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActiveDesktop::GetWallpaper

@@ -4,17 +4,16 @@ title: IMediaObject::ProcessOutput
 author: windows-sdk-content
 description: The ProcessOutput method generates output from the current input data.
 old-location: dshow\imediaobject_processoutput.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1a3b1192-f1e9-4f04-b543-d38692502b8e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaObject interface [DirectShow],ProcessOutput method, IMediaObject.ProcessOutput, IMediaObject::ProcessOutput, IMediaObjectProcessOutput, ProcessOutput, ProcessOutput method [DirectShow], ProcessOutput method [DirectShow],IMediaObject interface, dshow.imediaobject_processoutput, mediaobj/IMediaObject::ProcessOutput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaObject.ProcessOutput
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObject::ProcessOutput

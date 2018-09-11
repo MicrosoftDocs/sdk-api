@@ -4,17 +4,16 @@ title: IVdsLunMpio
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a LUN with MPIO extensions.
 old-location: base\ivdslunmpio.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 0c7ab50a-306e-44f8-976d-0e65e36b0fea
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsLunMpio, IVdsLunMpio interface [VDS], IVdsLunMpio interface [VDS],described, base.ivdslunmpio, vds/IVdsLunMpio, vdshwprv/IVdsLunMpio
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLunMpio
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLunMpio interface

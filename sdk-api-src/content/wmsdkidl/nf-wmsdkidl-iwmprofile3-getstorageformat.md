@@ -4,17 +4,16 @@ title: IWMProfile3::GetStorageFormat
 author: windows-sdk-content
 description: The GetStorageFormat method is not implemented.
 old-location: wmformat\iwmprofile3_getstorageformat.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 42aea1df-63cd-4eda-86c8-3cebe92d5c82
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStorageFormat, GetStorageFormat method [windows Media Format], GetStorageFormat method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetStorageFormat method, IWMProfile3.GetStorageFormat, IWMProfile3::GetStorageFormat, IWMProfile3GetStorageFormat, wmformat.iwmprofile3_getstorageformat, wmsdkidl/IWMProfile3::GetStorageFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMProfile3.GetStorageFormat
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMProfile3::GetStorageFormat

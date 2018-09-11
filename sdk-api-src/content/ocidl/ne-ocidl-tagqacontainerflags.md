@@ -4,17 +4,16 @@ title: tagQACONTAINERFLAGS
 author: windows-sdk-content
 description: Indicates ambient properties supplied by the container. It is used in the dwAmbientFlags member of the QACONTAINER structure.
 old-location: com\qacontainerflags.htm
-old-project: com
+tech.root: com
 ms.assetid: bcca4762-7c4b-4062-8d41-6b2027045886
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: QACONTAINERFLAGS, QACONTAINERFLAGS enumeration [COM], QACONTAINER_AUTOCLIP, QACONTAINER_DISPLAYASDEFAULT, QACONTAINER_MESSAGEREFLECT, QACONTAINER_SHOWGRABHANDLES, QACONTAINER_SHOWHATCHING, QACONTAINER_SUPPORTSMNEMONICS, QACONTAINER_UIDEAD, QACONTAINER_USERMODE, _ctrl_QACONTAINERFLAGS, com.qacontainerflags, ocidl/QACONTAINERFLAGS, ocidl/QACONTAINER_AUTOCLIP, ocidl/QACONTAINER_DISPLAYASDEFAULT, ocidl/QACONTAINER_MESSAGEREFLECT, ocidl/QACONTAINER_SHOWGRABHANDLES, ocidl/QACONTAINER_SHOWHATCHING, ocidl/QACONTAINER_SUPPORTSMNEMONICS, ocidl/QACONTAINER_UIDEAD, ocidl/QACONTAINER_USERMODE, tagQACONTAINERFLAGS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTAINERFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QACONTAINERFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QACONTAINERFLAGS
+req.redist: 
 ---
 
 # tagQACONTAINERFLAGS enumeration

@@ -4,17 +4,16 @@ title: LPM_DeleteState function
 author: windows-sdk-content
 description: The LPM_DeleteState function is called by the PCM to delete the LPMs' RSVP state information.
 old-location: qos\lpm_deletestate.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 54251572-22a6-4652-a88c-7ed696911c18
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ADM_CTRL_FAILED, FLOW_DURATION, LPM_DeleteState, LPM_DeleteState callback, LPM_DeleteState callback function [QOS], RCVD_PATH_TEAR, RCVD_RESV_TEAR, STATE_TIMEOUT, _gqos_lpm_deletestate, lpmapi/LPM_DeleteState, qos.lpm_deletestate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LPM_DeleteState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LPM_DeleteState function

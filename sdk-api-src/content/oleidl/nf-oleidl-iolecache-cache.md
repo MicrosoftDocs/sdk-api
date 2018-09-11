@@ -4,17 +4,16 @@ title: IOleCache::Cache
 author: windows-sdk-content
 description: Specifies the format and other data to be cached inside an embedded object.
 old-location: com\iolecache_cache.htm
-old-project: com
+tech.root: com
 ms.assetid: 2a86063a-3ee6-4fc2-a6e0-6e9ffa658348
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Cache, Cache method [COM], Cache method [COM],IOleCache interface, IOleCache interface [COM],Cache method, IOleCache.Cache, IOleCache::Cache, _ole_iolecache_cache, com.iolecache_cache, oleidl/IOleCache::Cache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleCache.Cache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleCache::Cache

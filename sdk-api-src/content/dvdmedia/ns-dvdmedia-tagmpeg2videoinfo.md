@@ -4,7 +4,7 @@ title: tagMPEG2VIDEOINFO
 author: windows-sdk-content
 description: The MPEG2VIDEOINFO structure describes an MPEG-2 video stream.
 old-location: dshow\mpeg2videoinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1a6ab686-99a1-40c2-addf-7fa215e2311a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG2VIDEOINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPEG2VIDEOINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: MPEG2VIDEOINFO
+req.redist: 
 ---
 
 # tagMPEG2VIDEOINFO structure

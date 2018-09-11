@@ -4,7 +4,7 @@ title: "_TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE"
 author: windows-sdk-content
 description: Specifies the type of assignment for a personal desktop resolution.
 old-location: termserv\tspub_plugin_pd_assignment_type.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 8a55d72c-215e-4f72-90dd-0f68c107a635
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tspubplugin2com.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
+req.redist: 
 ---
 
 # _TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE enumeration

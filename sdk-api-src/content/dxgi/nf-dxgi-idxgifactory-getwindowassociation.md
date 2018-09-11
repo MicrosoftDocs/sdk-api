@@ -4,17 +4,16 @@ title: IDXGIFactory::GetWindowAssociation
 author: windows-sdk-content
 description: Get the window through which the user controls the transition to and from full screen.
 old-location: direct3ddxgi\idxgifactory_getwindowassociation.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_getwindowassociation.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetWindowAssociation, GetWindowAssociation method [DXGI], GetWindowAssociation method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],GetWindowAssociation method, IDXGIFactory.GetWindowAssociation, IDXGIFactory::GetWindowAssociation, b199d248-a0a8-e257-1b89-68baeb809572, direct3ddxgi.idxgifactory_getwindowassociation, dxgi/IDXGIFactory::GetWindowAssociation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIFactory.GetWindowAssociation
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactory::GetWindowAssociation

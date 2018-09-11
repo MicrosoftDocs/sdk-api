@@ -4,17 +4,16 @@ title: SetTextColor function
 author: windows-sdk-content
 description: The SetTextColor function sets the text color for the specified device context to the specified color.
 old-location: gdi\settextcolor.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 3875a247-7c32-4917-bf6d-50b2a49848a6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetTextColor, SetTextColor function [Windows GDI], _win32_SetTextColor, gdi.settextcolor, wingdi/SetTextColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - SetTextColor
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetTextColor function

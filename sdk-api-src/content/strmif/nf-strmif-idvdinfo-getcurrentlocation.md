@@ -4,17 +4,16 @@ title: IDvdInfo::GetCurrentLocation
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current playback location.
 old-location: dshow\idvdinfo_getcurrentlocation.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 27913630-d0c2-4bc1-9d6a-623f7aa631ec
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCurrentLocation, GetCurrentLocation method [DirectShow], GetCurrentLocation method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentLocation method, IDvdInfo.GetCurrentLocation, IDvdInfo::GetCurrentLocation, IDvdInfoGetCurrentLocation, dshow.idvdinfo_getcurrentlocation, strmif/IDvdInfo::GetCurrentLocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdInfo.GetCurrentLocation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo::GetCurrentLocation

@@ -4,17 +4,16 @@ title: IAppxManifestDeviceCapabilitiesEnumerator::MoveNext
 author: windows-sdk-content
 description: Advances the position of the enumerator to the next device capability.
 old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator_movenext.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 2FD0F98C-2B20-47B2-8F86-F59E3E9B9086
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],MoveNext method, IAppxManifestDeviceCapabilitiesEnumerator.MoveNext, IAppxManifestDeviceCapabilitiesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestDeviceCapabilitiesEnumerator interface, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::MoveNext, appxpkg.iappxmanifestdevicecapabilitiesenumerator_movenext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxManifestDeviceCapabilitiesEnumerator.MoveNext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxManifestDeviceCapabilitiesEnumerator::MoveNext

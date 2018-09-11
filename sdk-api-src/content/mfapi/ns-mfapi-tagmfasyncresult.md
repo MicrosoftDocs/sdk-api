@@ -4,7 +4,7 @@ title: tagMFASYNCRESULT
 author: windows-sdk-content
 description: Contains data that is needed to implement the IMFAsyncResult interface.
 old-location: mf\mfasyncresult.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: fffa32d6-5e9f-42a1-9978-04f5726528bc
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFASYNCRESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFASYNCRESULT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFASYNCRESULT
+req.redist: 
 ---
 
 # tagMFASYNCRESULT structure

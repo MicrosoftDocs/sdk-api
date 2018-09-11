@@ -4,17 +4,16 @@ title: DsQuerySitesByCostA function
 author: windows-sdk-content
 description: Gets the communication cost between one site and one or more other sites.
 old-location: ad\dsquerysitesbycost.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 7a4cbd1c-8445-4882-8559-d44b6e5693e7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsQuerySitesByCost, DsQuerySitesByCost function [Active Directory], DsQuerySitesByCostA, DsQuerySitesByCostW, ad.dsquerysitesbycost, ntdsapi/DsQuerySitesByCost, ntdsapi/DsQuerySitesByCostA, ntdsapi/DsQuerySitesByCostW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsQuerySitesByCostW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsQuerySitesByCostA function

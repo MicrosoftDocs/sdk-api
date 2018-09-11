@@ -4,17 +4,16 @@ title: IEnumDot11AdHocNetworks::Next
 author: windows-sdk-content
 description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.
 old-location: nwifi\ienumdot11adhocnetworks_next.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: a695c8dd-5bde-41ff-8214-046e0a8cc26f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumDot11AdHocNetworks interface [NativeWIFI],Next method, IEnumDot11AdHocNetworks.Next, IEnumDot11AdHocNetworks::Next, Next, Next method [NativeWIFI], Next method [NativeWIFI],IEnumDot11AdHocNetworks interface, adhoc/IEnumDot11AdHocNetworks::Next, nwifi.ienumdot11adhocnetworks_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumDot11AdHocNetworks.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumDot11AdHocNetworks::Next

@@ -4,7 +4,7 @@ title: "_DHCP_POLICY"
 author: windows-sdk-content
 description: The DHCP_POLICY structure defines a DHCP server policy.
 old-location: dhcp\dhcp_policy.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 7e62d2f3-275a-45ab-baab-648fe135d0fc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_POLICY, *PDHCP_POLICY, *LPDHCP_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_POLICY, *PDHCP_POLICY, *LPDHCP_POLICY
+req.redist: 
 ---
 
 # _DHCP_POLICY structure

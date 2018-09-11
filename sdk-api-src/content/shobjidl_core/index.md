@@ -2,7 +2,7 @@
 UID: NA:shobjidl_core
 ms.assetid: 73c069a9-9e15-357c-9c84-3dd7166c825c
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

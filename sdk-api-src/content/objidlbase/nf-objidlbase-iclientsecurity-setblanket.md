@@ -4,17 +4,16 @@ title: IClientSecurity::SetBlanket
 author: windows-sdk-content
 description: Sets the authentication information (the security blanket) that will be used to make calls on the specified proxy.
 old-location: com\iclientsecurity_setblanket.htm
-old-project: com
+tech.root: com
 ms.assetid: adb35089-2846-4782-8c96-d3d1e14beed9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IClientSecurity interface [COM],SetBlanket method, IClientSecurity.SetBlanket, IClientSecurity::SetBlanket, SetBlanket, SetBlanket method [COM], SetBlanket method [COM],IClientSecurity interface, _com_iclientsecurity_setblanket, com.iclientsecurity_setblanket, objidlbase/IClientSecurity::SetBlanket
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IClientSecurity.SetBlanket
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IClientSecurity::SetBlanket

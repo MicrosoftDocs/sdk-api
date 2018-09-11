@@ -4,17 +4,16 @@ title: IDataManager::get_MaxSize
 author: windows-sdk-content
 description: Retrieves or sets the maximum disk space to be used by all data collectors in the set.
 old-location: pla\idatamanager_maxsize.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: a9508617-acb5-4e11-8f4a-72c8e5cb4cba
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataManager interface [PLA],MaxSize property, IDataManager.MaxSize, IDataManager.get_MaxSize, IDataManager::MaxSize, IDataManager::get_MaxSize, IDataManager::put_MaxSize, MaxSize property [PLA], MaxSize property [PLA],IDataManager interface, base.idatamanager_maxsize, get_MaxSize, pla.idatamanager_maxsize, pla/IDataManager::MaxSize, pla/IDataManager::get_MaxSize, pla/IDataManager::put_MaxSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataManager.put_MaxSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataManager::get_MaxSize

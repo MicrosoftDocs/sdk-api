@@ -4,17 +4,16 @@ title: VSS_COMPONENT_FLAGS
 author: windows-sdk-content
 description: Used by writers to indicate support for auto-recovery.
 old-location: base\vss_component_flags.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 91b7fbab-82f8-48cc-8078-f8f71c48a70b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: VSS_CF_APP_ROLLBACK_RECOVERY, VSS_CF_BACKUP_RECOVERY, VSS_CF_NOT_SYSTEM_STATE, VSS_COMPONENT_FLAGS, VSS_COMPONENT_FLAGS enumeration [VSS], _win32_vss_component_flags, base.vss_component_flags, enumeration [VSS], vswriter/VSS_CF_APP_ROLLBACK_RECOVERY, vswriter/VSS_CF_BACKUP_RECOVERY, vswriter/VSS_CF_NOT_SYSTEM_STATE, vswriter/VSS_COMPONENT_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_COMPONENT_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_COMPONENT_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_COMPONENT_FLAGS
+req.redist: 
 ---
 
 # VSS_COMPONENT_FLAGS enumeration

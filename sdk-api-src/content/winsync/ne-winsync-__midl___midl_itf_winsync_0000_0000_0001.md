@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_winsync_0000_0000_0001"
 author: windows-sdk-content
 description: Represents the role of a provider, relative to the other provider in the synchronization session.
 old-location: winsync\sync_provider_role.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 2409c8bf-c4fc-4986-8dde-cc11f0d52ed4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: SPR_DESTINATION, SPR_SOURCE, SYNC_PROVIDER_ROLE, SYNC_PROVIDER_ROLE enumeration [Windows Sync], __MIDL___MIDL_itf_winsync_0000_0000_0001, winsync.sync_provider_role, winsync/SPR_DESTINATION, winsync/SPR_SOURCE, winsync/SYNC_PROVIDER_ROLE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_PROVIDER_ROLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNC_PROVIDER_ROLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SYNC_PROVIDER_ROLE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_winsync_0000_0000_0001 enumeration

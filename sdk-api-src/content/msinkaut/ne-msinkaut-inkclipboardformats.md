@@ -4,17 +4,16 @@ title: InkClipboardFormats
 author: windows-sdk-content
 description: Specifies the format of ink that is stored on the Clipboard.
 old-location: tablet\inkclipboardformats.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: bedee31c-d957-4162-83d9-f1c8df9428cd
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: ICF_Bitmap, ICF_CopyMask, ICF_Default, ICF_EnhancedMetafile, ICF_InkSerializedFormat, ICF_Metafile, ICF_None, ICF_PasteMask, ICF_SketchInk, ICF_TextInk, InkClipboardFormatFlags, InkClipboardFormatFlags enumeration [Tablet PC], InkClipboardFormats, InkClipboardFormats enumeration [Tablet PC], bedee31c-d957-4162-83d9-f1c8df9428cd, msinkaut/ICF_Bitmap, msinkaut/ICF_CopyMask, msinkaut/ICF_Default, msinkaut/ICF_EnhancedMetafile, msinkaut/ICF_InkSerializedFormat, msinkaut/ICF_Metafile, msinkaut/ICF_None, msinkaut/ICF_PasteMask, msinkaut/ICF_SketchInk, msinkaut/ICF_TextInk, msinkaut/InkClipboardFormats, tablet.inkclipboardformats
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkClipboardFormats
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkClipboardFormatFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkClipboardFormats
+req.redist: 
 ---
 
 # InkClipboardFormats enumeration

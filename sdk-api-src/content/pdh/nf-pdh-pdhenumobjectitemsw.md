@@ -4,17 +4,16 @@ title: PdhEnumObjectItemsW function
 author: windows-sdk-content
 description: Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectItemsH function.
 old-location: perf\pdhenumobjectitems.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: b3efdd31-44e6-47ff-bd0e-d31451c32818
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjectItems, PdhEnumObjectItems function [Perf], PdhEnumObjectItemsA, PdhEnumObjectItemsW, _win32_pdhenumobjectitems, base.pdhenumobjectitems, pdh/PdhEnumObjectItems, pdh/PdhEnumObjectItemsA, pdh/PdhEnumObjectItemsW, perf.pdhenumobjectitems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PdhEnumObjectItemsW
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhEnumObjectItemsW function

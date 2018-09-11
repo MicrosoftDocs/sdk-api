@@ -4,17 +4,16 @@ title: CoLeaveServiceDomain function
 author: windows-sdk-content
 description: Used to leave code that uses COM+ services.
 old-location: cos\coleaveservicedomain.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: b67b3cf6-4462-4578-b61b-c5c61d809822
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoLeaveServiceDomain, CoLeaveServiceDomain function [COM+], _cos_CoLeaveServiceDomain, comsvcs/CoLeaveServiceDomain, cos.coleaveservicedomain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: ComSvcs.lib
+req.dll: ComSvcs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CoLeaveServiceDomain
 product: Windows
 targetos: Windows
-req.lib: ComSvcs.lib
-req.dll: ComSvcs.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoLeaveServiceDomain function

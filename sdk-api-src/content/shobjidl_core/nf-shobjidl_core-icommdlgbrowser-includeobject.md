@@ -4,17 +4,16 @@ title: ICommDlgBrowser::IncludeObject
 author: windows-sdk-content
 description: Allows the common dialog box to filter objects that the view displays.
 old-location: shell\ICommDlgBrowser_IncludeObject.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f483dda2-5384-42b5-97ca-c7c6793d19a7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ICommDlgBrowser interface [Windows Shell],IncludeObject method, ICommDlgBrowser.IncludeObject, ICommDlgBrowser::IncludeObject, IncludeObject, IncludeObject method [Windows Shell], IncludeObject method [Windows Shell],ICommDlgBrowser interface, _win32_ICommDlgBrowser_IncludeObject, shell.ICommDlgBrowser_IncludeObject, shobjidl_core/ICommDlgBrowser::IncludeObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICommDlgBrowser.IncludeObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICommDlgBrowser::IncludeObject

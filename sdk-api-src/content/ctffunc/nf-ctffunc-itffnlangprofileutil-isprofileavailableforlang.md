@@ -4,17 +4,16 @@ title: ITfFnLangProfileUtil::IsProfileAvailableForLang
 author: windows-sdk-content
 description: ITfFnLangProfileUtil::IsProfileAvailableForLang method
 old-location: tsf\itffnlangprofileutil_isprofileavailableforlang.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: a0525a1b-e23c-49af-954d-e2d190c2f520
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfFnLangProfileUtil interface [Text Services Framework],IsProfileAvailableForLang method, ITfFnLangProfileUtil.IsProfileAvailableForLang, ITfFnLangProfileUtil::IsProfileAvailableForLang, IsProfileAvailableForLang, IsProfileAvailableForLang method [Text Services Framework], IsProfileAvailableForLang method [Text Services Framework],ITfFnLangProfileUtil interface, _tsf_itffnlangprofileutil_isprofileavailableforlang_ref, ctffunc/ITfFnLangProfileUtil::IsProfileAvailableForLang, tsf.itffnlangprofileutil_isprofileavailableforlang
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnLangProfileUtil.IsProfileAvailableForLang
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfFnLangProfileUtil::IsProfileAvailableForLang

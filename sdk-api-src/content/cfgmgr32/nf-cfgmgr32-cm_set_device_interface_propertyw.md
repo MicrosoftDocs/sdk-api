@@ -4,17 +4,16 @@ title: CM_Set_Device_Interface_PropertyW function
 author: windows-sdk-content
 description: The CM_Set_Device_Interface_Property function sets a device property of a device interface.
 old-location: devinst\cm_set_device_interface_property.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: EB009652-2B20-43C2-A373-AB17F1FBC1B2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Set_Device_Interface_Property, CM_Set_Device_Interface_Property function [Device and Driver Installation], CM_Set_Device_Interface_PropertyW, cfgmgr32/CM_Set_Device_Interface_Property, cfgmgr32/CM_Set_Device_Interface_PropertyW, devinst.cm_set_device_interface_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CM_Set_Device_Interface_PropertyW
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Set_Device_Interface_PropertyW function

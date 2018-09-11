@@ -4,17 +4,16 @@ title: "_SCHANNEL_CERT_HASH_STORE"
 author: windows-sdk-content
 description: Contains the hash store data for the certificate that Schannel uses in kernel-mode.
 old-location: security\schannel_cert_hash_store.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 26902BD9-9426-4061-AC70-67A4F4063511
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSCHANNEL_CERT_HASH_STORE, PSCHANNEL_CERT_HASH_STORE, PSCHANNEL_CERT_HASH_STORE structure pointer [Security], SCHANNEL_CERT_HASH_STORE, SCHANNEL_CERT_HASH_STORE structure [Security], SCH_MACHINE_CERT_HASH, _SCHANNEL_CERT_HASH_STORE, schannel/PSCHANNEL_CERT_HASH_STORE, schannel/SCHANNEL_CERT_HASH_STORE, security.schannel_cert_hash_store"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHANNEL_CERT_HASH_STORE, *PSCHANNEL_CERT_HASH_STORE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCHANNEL_CERT_HASH_STORE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SCHANNEL_CERT_HASH_STORE, *PSCHANNEL_CERT_HASH_STORE
+req.redist: 
 ---
 
 # _SCHANNEL_CERT_HASH_STORE structure

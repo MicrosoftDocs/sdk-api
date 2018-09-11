@@ -4,17 +4,16 @@ title: IRpcStubBuffer::DebugServerQueryInterface
 author: windows-sdk-content
 description: Retrieves a pointer to the interface that a stub represents.
 old-location: com\irpcstubbuffer_debugserverqueryinterface.htm
-old-project: com
+tech.root: com
 ms.assetid: c735a99f-c67a-44eb-ae60-950dc4e68e74
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DebugServerQueryInterface, DebugServerQueryInterface method [COM], DebugServerQueryInterface method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],DebugServerQueryInterface method, IRpcStubBuffer.DebugServerQueryInterface, IRpcStubBuffer::DebugServerQueryInterface, _com_irpcstubbuffer_debugserverqueryinterface, com.irpcstubbuffer_debugserverqueryinterface, objidlbase/IRpcStubBuffer::DebugServerQueryInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRpcStubBuffer.DebugServerQueryInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRpcStubBuffer::DebugServerQueryInterface

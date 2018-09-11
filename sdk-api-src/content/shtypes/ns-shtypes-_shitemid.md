@@ -4,17 +4,16 @@ title: "_SHITEMID"
 author: windows-sdk-content
 description: Defines an item identifier.
 old-location: shell\SHITEMID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 794c8425-2319-4339-881c-c5083ab05638
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPSHITEMID, SHITEMID, SHITEMID structure [Windows Shell], _SHITEMID, _win32_SHITEMID, shell.SHITEMID, shtypes/SHITEMID"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHITEMID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHITEMID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SHITEMID
+req.redist: 
 ---
 
 # _SHITEMID structure

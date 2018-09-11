@@ -4,17 +4,16 @@ title: DWRITE_PANOSE_SYMBOL_KIND
 author: windows-sdk-content
 description: The DWRITE_PANOSE_SYMBOL_KIND enumeration contains values that specify the kind of symbol set.
 old-location: directwrite\dwrite_panose_symbol_kind.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 474F3CF8-2C94-4267-91A1-4BCDC651DC48
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_PANOSE_SYMBOL_KIND, DWRITE_PANOSE_SYMBOL_KIND enumeration [Direct Write], DWRITE_PANOSE_SYMBOL_KIND_ANY, DWRITE_PANOSE_SYMBOL_KIND_BOARDERS, DWRITE_PANOSE_SYMBOL_KIND_EXPERT, DWRITE_PANOSE_SYMBOL_KIND_ICONS, DWRITE_PANOSE_SYMBOL_KIND_INDUSTRY_SPECIFIC, DWRITE_PANOSE_SYMBOL_KIND_LOGOS, DWRITE_PANOSE_SYMBOL_KIND_MONTAGES, DWRITE_PANOSE_SYMBOL_KIND_MUSIC, DWRITE_PANOSE_SYMBOL_KIND_NO_FIT, DWRITE_PANOSE_SYMBOL_KIND_PATTERNS, DWRITE_PANOSE_SYMBOL_KIND_PICTURES, DWRITE_PANOSE_SYMBOL_KIND_SCIENTIFIC, DWRITE_PANOSE_SYMBOL_KIND_SHAPES, directwrite.dwrite_panose_symbol_kind, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND_ANY, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND_BOARDERS, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND_EXPERT, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND_ICONS, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND_INDUSTRY_SPECIFIC, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND_LOGOS, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND_MONTAGES, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND_MUSIC, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND_NO_FIT, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND_PATTERNS, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND_PICTURES, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND_SCIENTIFIC, dwrite_1/DWRITE_PANOSE_SYMBOL_KIND_SHAPES
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_PANOSE_SYMBOL_KIND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_PANOSE_SYMBOL_KIND enumeration

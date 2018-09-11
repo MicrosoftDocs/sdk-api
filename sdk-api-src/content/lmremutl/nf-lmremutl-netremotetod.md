@@ -4,17 +4,16 @@ title: NetRemoteTOD function
 author: windows-sdk-content
 description: The NetRemoteTOD function returns the time of day information from a specified server.
 old-location: netmgmt\netremotetod.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 5a935e09-f188-4ee1-b998-c67488475baa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetRemoteTOD, NetRemoteTOD function [Network Management], _win32_netremotetod, lmremutl/NetRemoteTOD, netmgmt.netremotetod
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmremutl.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSG_INFO_1, *PMSG_INFO_1, *LPMSG_INFO_1
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetRemoteTOD
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetRemoteTOD function

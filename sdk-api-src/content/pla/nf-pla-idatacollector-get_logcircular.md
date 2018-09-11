@@ -4,17 +4,16 @@ title: IDataCollector::get_LogCircular
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should create a circular file.
 old-location: pla\idatacollector_logcircular.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: d1b35b02-cfda-42a4-bd1d-d837a91861d6
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollector interface [PLA],LogCircular property, IDataCollector.LogCircular, IDataCollector.get_LogCircular, IDataCollector::LogCircular, IDataCollector::get_LogCircular, IDataCollector::put_LogCircular, LogCircular property [PLA], LogCircular property [PLA],IDataCollector interface, base.idatacollector_logcircular, get_LogCircular, pla.idatacollector_logcircular, pla/IDataCollector::LogCircular, pla/IDataCollector::get_LogCircular, pla/IDataCollector::put_LogCircular
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollector.put_LogCircular
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollector::get_LogCircular

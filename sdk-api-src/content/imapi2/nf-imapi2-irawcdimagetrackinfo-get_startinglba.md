@@ -4,17 +4,16 @@ title: IRawCDImageTrackInfo::get_StartingLba
 author: windows-sdk-content
 description: Retrieves the LBA of the first user sectors in this track.
 old-location: imapi\irawcdimagetrackinfo_get_startinglba.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 5e1d1404-c52d-4e27-970a-bc1b59995a87
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_StartingLba method, IRawCDImageTrackInfo.get_StartingLba, IRawCDImageTrackInfo::get_StartingLba, get_StartingLba, get_StartingLba method [IMAPI], get_StartingLba method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_startinglba, imapi2/IRawCDImageTrackInfo::get_StartingLba
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageTrackInfo.get_StartingLba
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageTrackInfo::get_StartingLba

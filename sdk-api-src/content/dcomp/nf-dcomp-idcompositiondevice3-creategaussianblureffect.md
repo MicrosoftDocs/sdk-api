@@ -4,17 +4,16 @@ title: IDCompositionDevice3::CreateGaussianBlurEffect
 author: windows-sdk-content
 description: Creates an instance of IDCompositionGaussianBlurEffect.
 old-location: directcomp\idcompositiondevice3_creategaussianblureffect.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: D05C7A70-107A-4246-9391-7B00ECAA0B80
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateGaussianBlurEffect, CreateGaussianBlurEffect method [DirectComposition], CreateGaussianBlurEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateGaussianBlurEffect method, IDCompositionDevice3.CreateGaussianBlurEffect, IDCompositionDevice3::CreateGaussianBlurEffect, dcomp/IDCompositionDevice3::CreateGaussianBlurEffect, directcomp.idcompositiondevice3_creategaussianblureffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice3.CreateGaussianBlurEffect
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice3::CreateGaussianBlurEffect

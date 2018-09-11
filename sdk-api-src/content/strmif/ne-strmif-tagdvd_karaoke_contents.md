@@ -4,7 +4,7 @@ title: tagDVD_KARAOKE_CONTENTS
 author: windows-sdk-content
 description: Specifies flags that, when used in a bitwise OR operation, describe the contents of each channel of an audio stream in a karaoke title.
 old-location: dshow\dvd_karaoke_contents.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9d02b0bf-237a-42bf-b946-588b899cd3d9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_KARAOKE_CONTENTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_KARAOKE_CONTENTS
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DVD_KARAOKE_CONTENTS
+req.redist: 
 ---
 
 # tagDVD_KARAOKE_CONTENTS enumeration

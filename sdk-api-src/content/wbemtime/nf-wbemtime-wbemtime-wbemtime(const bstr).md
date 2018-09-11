@@ -4,17 +4,16 @@ title: WBEMTime::WBEMTime(const BSTR)
 author: windows-sdk-content
 description: The WBEMTime class constructor facilitates conversions between various Windows and ANSI C run-time time formats.
 old-location: wmi\wbemtime_wbemtime.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 8b0ce221-2186-4aed-a474-00f88cef6350
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WBEMTime, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const BSTR), WBEMTime::WBEMTime, WBEMTime::WBEMTime constructors [Windows Management Instrumentation], WBEMTime::WBEMTime(const BSTR), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WBEMTime::WBEMTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WBEMTime::WBEMTime(const BSTR)

@@ -4,17 +4,16 @@ title: IDiscRecorder2Ex::SendCommandNoData
 author: windows-sdk-content
 description: Sends a MMC command to the recording device. Use this function when no data buffer is sent to nor received from the device.
 old-location: imapi\idiscrecorder2ex_sendcommandnodata.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 7dc645d5-795d-4f31-a4cf-30875e930e10
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],SendCommandNoData method, IDiscRecorder2Ex.SendCommandNoData, IDiscRecorder2Ex::SendCommandNoData, SendCommandNoData, SendCommandNoData method [IMAPI], SendCommandNoData method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_sendcommandnodata, imapi2/IDiscRecorder2Ex::SendCommandNoData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder2Ex.SendCommandNoData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder2Ex::SendCommandNoData

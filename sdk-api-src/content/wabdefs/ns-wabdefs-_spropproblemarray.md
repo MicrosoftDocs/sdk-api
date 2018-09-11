@@ -4,17 +4,16 @@ title: "_SPropProblemArray"
 author: windows-sdk-content
 description: Do not use. Contains an array of one or more SPropProblem structures.
 old-location: wab\_wab_SPropProblemArray.htm
-old-project: wab
+tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropproblemarray.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSPropProblemArray, SPropProblemArray, SPropProblemArray structure [Windows Address Book], _SPropProblemArray, _wab_SPropProblemArray, wab._wab_SPropProblemArray, wabdefs/SPropProblemArray"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SPropProblemArray, *LPSPropProblemArray
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SPropProblemArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SPropProblemArray, *LPSPropProblemArray
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

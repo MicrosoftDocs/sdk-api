@@ -4,17 +4,16 @@ title: IPhotoProgressDialog::Create
 author: windows-sdk-content
 description: The Create method creates and displays a progress dialog box that can be shown during image enumeration and acquisition.
 old-location: picacq\iphotoprogressdialog_create.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: e68ac203-f97b-4459-b344-c845f0ac0f1b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Create, Create method [Picture Acquisition], Create method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],Create method, IPhotoProgressDialog.Create, IPhotoProgressDialog::Create, IPhotoProgressDialogCreate, photoacquire/IPhotoProgressDialog::Create, picacq.iphotoprogressdialog_create
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoProgressDialog.Create
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoProgressDialog::Create

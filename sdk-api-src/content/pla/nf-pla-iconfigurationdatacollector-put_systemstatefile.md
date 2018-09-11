@@ -4,17 +4,16 @@ title: IConfigurationDataCollector::put_SystemStateFile
 author: windows-sdk-content
 description: Retrieves or sets the name of the file that contains the saved system state.
 old-location: pla\iconfigurationdatacollector_systemstatefile.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: e8e4ec1f-4b43-4252-8a31-55b2ed2dca36
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IConfigurationDataCollector interface [PLA],SystemStateFile property, IConfigurationDataCollector.SystemStateFile, IConfigurationDataCollector.put_SystemStateFile, IConfigurationDataCollector::SystemStateFile, IConfigurationDataCollector::get_SystemStateFile, IConfigurationDataCollector::put_SystemStateFile, SystemStateFile property [PLA], SystemStateFile property [PLA],IConfigurationDataCollector interface, pla.iconfigurationdatacollector_systemstatefile, pla/IConfigurationDataCollector::SystemStateFile, pla/IConfigurationDataCollector::get_SystemStateFile, pla/IConfigurationDataCollector::put_SystemStateFile, put_SystemStateFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IConfigurationDataCollector.put_SystemStateFile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IConfigurationDataCollector::put_SystemStateFile

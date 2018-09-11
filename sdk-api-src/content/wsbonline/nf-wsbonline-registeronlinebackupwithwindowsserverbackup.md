@@ -4,17 +4,16 @@ title: RegisterOnlineBackupWithWindowsServerBackup function
 author: windows-sdk-content
 description: Registers a Cloud backup provider with Windows Server Backup.
 old-location: wsb\registeronlinebackupwithwindowsserverbackup.htm
-old-project: wsb
+tech.root: wsb
 ms.assetid: F6BBE44C-E735-47E9-8AD1-A7F1FBAC0330
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: RegisterOnlineBackupWithWindowsServerBackup, RegisterOnlineBackupWithWindowsServerBackup function [Windows Server Backup], wsb.registeronlinebackupwithwindowsserverbackup, wsbonline/RegisterOnlineBackupWithWindowsServerBackup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wsbonline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSB_OB_STATUS_ENTRY_PAIR_TYPE
+req.lib: 
+req.dll: WsbOnline.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RegisterOnlineBackupWithWindowsServerBackup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: WsbOnline.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterOnlineBackupWithWindowsServerBackup function

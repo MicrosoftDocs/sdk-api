@@ -4,17 +4,16 @@ title: ISyncMgrSessionCreator::CreateSession
 author: windows-sdk-content
 description: Notifies Sync Center that synchronization of the specified items has begun.
 old-location: shell\ISyncMgrSessionCreator_CreateSession.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d1df43b6-406c-4da0-89f0-a17e51101520
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CreateSession, CreateSession method [Windows Shell], CreateSession method [Windows Shell],ISyncMgrSessionCreator interface, ISyncMgrSessionCreator interface [Windows Shell],CreateSession method, ISyncMgrSessionCreator.CreateSession, ISyncMgrSessionCreator::CreateSession, _shell_ISyncMgrSessionCreator_CreateSession, shell.ISyncMgrSessionCreator_CreateSession, syncmgr/ISyncMgrSessionCreator::CreateSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSessionCreator.CreateSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSessionCreator::CreateSession

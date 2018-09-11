@@ -4,17 +4,16 @@ title: ReserveAndAppendLogAligned function
 author: windows-sdk-content
 description: Reserves space for log buffers, or appends a log record to the log, or both.
 old-location: fs\reserveandappendlogaligned.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: fce678e3-3b30-4bb9-ab61-d7c8b24fd1d7
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: CLFS_FLAG_FORCE_APPEND, CLFS_FLAG_FORCE_FLUSH, CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, ReserveAndAppendLogAligned, ReserveAndAppendLogAligned function [Files], clfsw32/ReserveAndAppendLogAligned, fs.reserveandappendlogaligned
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ReserveAndAppendLogAligned
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ReserveAndAppendLogAligned function

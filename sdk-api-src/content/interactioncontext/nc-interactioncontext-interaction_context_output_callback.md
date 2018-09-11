@@ -4,7 +4,7 @@ title: INTERACTION_CONTEXT_OUTPUT_CALLBACK
 author: windows-sdk-content
 description: Callback that receives events from an Interaction Context object.
 old-location: input_intcontext\interaction_context_output_callback.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: 7d2badad-5b98-4717-9409-5ee75d8fa213
 ms.author: windowssdkdev
 ms.date: 05/09/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERACTION_CONTEXT_OUTPUT_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function

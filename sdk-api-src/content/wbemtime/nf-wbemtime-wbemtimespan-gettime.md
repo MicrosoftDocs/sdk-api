@@ -4,17 +4,16 @@ title: WBEMTimeSpan::GetTime
 author: windows-sdk-content
 description: The GetTime method returns the time span as a 64-bit integer.
 old-location: wmi\wbemtimespan_gettime.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 58ea0741-1927-4cbf-abfb-059e4490accc
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetTime, GetTime method [Windows Management Instrumentation], GetTime method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],GetTime method, WBEMTimeSpan.GetTime, WBEMTimeSpan::GetTime, _hmm_wbemtimespan_gettime, wbemtime/WBEMTimeSpan::GetTime, wmi.wbemtimespan_gettime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WBEMTimeSpan.GetTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WBEMTimeSpan::GetTime

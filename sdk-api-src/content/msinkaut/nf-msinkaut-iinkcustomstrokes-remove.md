@@ -4,17 +4,16 @@ title: IInkCustomStrokes::Remove
 author: windows-sdk-content
 description: Removes the InkStrokes collection from the IInkCustomStrokes collection.
 old-location: tablet\iinkcustromstrokes_remove.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 11cd07f2-0f02-42d6-8bab-b95456ed1926
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 11cd07f2-0f02-42d6-8bab-b95456ed1926, IInkCustomStrokes interface [Tablet PC],Remove method, IInkCustomStrokes.Remove, IInkCustomStrokes::Remove, Remove, Remove method [Tablet PC], Remove method [Tablet PC],IInkCustomStrokes interface, msinkaut/IInkCustomStrokes::Remove, tablet.iinkcustromstrokes_remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkCustomStrokes.Remove
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCustomStrokes::Remove

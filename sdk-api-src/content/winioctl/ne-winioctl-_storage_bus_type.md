@@ -4,7 +4,7 @@ title: "_STORAGE_BUS_TYPE"
 author: windows-sdk-content
 description: Specifies the various types of storage buses.
 old-location: base\storage_bus_type.htm
-old-project: devio
+tech.root: devio
 ms.assetid: fb5a17f7-8ddb-4738-83e1-f00abc3555d2
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_BUS_TYPE, *PSTORAGE_BUS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_BUS_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_BUS_TYPE, *PSTORAGE_BUS_TYPE
+req.redist: 
 ---
 
 # _STORAGE_BUS_TYPE enumeration

@@ -4,17 +4,16 @@ title: IFsrmReportScheduler::CreateScheduleTask
 author: windows-sdk-content
 description: Creates a scheduled task that is used to trigger a report job.
 old-location: fsrm\ifsrmreportscheduler_createscheduletask.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 983a6d05-417f-4aea-9652-955fd96e78f0
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CreateScheduleTask, CreateScheduleTask method [File Server Resource Manager], CreateScheduleTask method [File Server Resource Manager],FsrmReportScheduler class, CreateScheduleTask method [File Server Resource Manager],IFsrmReportScheduler interface, FsrmReportScheduler class [File Server Resource Manager],CreateScheduleTask method, IFsrmReportScheduler interface [File Server Resource Manager],CreateScheduleTask method, IFsrmReportScheduler.CreateScheduleTask, IFsrmReportScheduler::CreateScheduleTask, fs.ifsrmreportscheduler_createscheduletask, fsrm.ifsrmreportscheduler_createscheduletask, fsrmreports/IFsrmReportScheduler::CreateScheduleTask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmReportScheduler.CreateScheduleTask
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportScheduler::CreateScheduleTask

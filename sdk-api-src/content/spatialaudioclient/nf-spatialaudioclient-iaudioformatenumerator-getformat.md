@@ -4,17 +4,16 @@ title: IAudioFormatEnumerator::GetFormat
 author: windows-sdk-content
 description: Gets the format with the specified index in the list. The formats are listed in order of importance. The most preferable format is first in the list.
 old-location: coreaudio\iaudioformatenumerator_getformat.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 9949F688-51D1-418B-947D-2607C90CA4E4
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetFormat, GetFormat method [Core Audio], GetFormat method [Core Audio],IAudioFormatEnumerator interface, IAudioFormatEnumerator interface [Core Audio],GetFormat method, IAudioFormatEnumerator.GetFormat, IAudioFormatEnumerator::GetFormat, coreaudio.iaudioformatenumerator_getformat, spatialaudioclient/IAudioFormatEnumerator::GetFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioFormatEnumerator.GetFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioFormatEnumerator::GetFormat

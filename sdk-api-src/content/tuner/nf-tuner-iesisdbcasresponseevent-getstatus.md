@@ -4,17 +4,16 @@ title: IESIsdbCasResponseEvent::GetStatus
 author: windows-sdk-content
 description: Gets the response status returned in an IsdbCasResponse event.
 old-location: mstv\iesisdbcasresponseevent_getstatus.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 63cf3d47-5aac-4bce-8562-f67df47f83b2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IESIsdbCasResponseEvent interface, IESIsdbCasResponseEvent interface [DirectShow],GetStatus method, IESIsdbCasResponseEvent.GetStatus, IESIsdbCasResponseEvent::GetStatus, mstv.iesisdbcasresponseevent_getstatus, tuner/IESIsdbCasResponseEvent::GetStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESIsdbCasResponseEvent.GetStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESIsdbCasResponseEvent::GetStatus

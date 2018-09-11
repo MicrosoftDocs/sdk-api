@@ -4,17 +4,16 @@ title: IXMLHTTPRequest2::SetRequestHeader
 author: windows-sdk-content
 description: Specifies the name of an HTTP header to be sent to the server along with the default request headers.
 old-location: ixhr2\ixmlhttprequest2_setrequestheader.htm
-old-project: ixhr2
+tech.root: ixhr2
 ms.assetid: FBEEB04C-7976-4017-B56C-17815FC01831
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetRequestHeader method, IXMLHTTPRequest2.SetRequestHeader, IXMLHTTPRequest2::SetRequestHeader, SetRequestHeader, SetRequestHeader method [XMLHttpRequest2], SetRequestHeader method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_setrequestheader, msxml6/IXMLHTTPRequest2::SetRequestHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps],MSXML 6.0 and later
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XHR_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXMLHTTPRequest2.SetRequestHeader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXMLHTTPRequest2::SetRequestHeader

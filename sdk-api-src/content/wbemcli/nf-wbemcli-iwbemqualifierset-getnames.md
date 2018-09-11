@@ -4,17 +4,16 @@ title: IWbemQualifierSet::GetNames
 author: windows-sdk-content
 description: The IWbemQualifierSet::GetNames method retrieves the names of all of the qualifiers available from the current object or property. Alternately, depending on the filter value of IFlags, this method retrieves the names of certain qualifiers.
 old-location: wmi\iwbemqualifierset_getnames.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: b1e7f6b2-a204-4e00-87eb-686bf8696082
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: 0 (Zero), GetNames, GetNames method [Windows Management Instrumentation], GetNames method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],GetNames method, IWbemQualifierSet.GetNames, IWbemQualifierSet::GetNames, WBEM_FLAG_LOCAL_ONLY, WBEM_FLAG_PROPAGATED_ONLY, _hmm_iwbemqualifierset_getnames, wbemcli/IWbemQualifierSet::GetNames, wmi.iwbemqualifierset_getnames
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWbemQualifierSet.GetNames
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemQualifierSet::GetNames
@@ -92,7 +90,7 @@ Return only the names of qualifiers propagated from another object. For example,
 
 ### -param pNames
 
-
+TBD
 
 
 

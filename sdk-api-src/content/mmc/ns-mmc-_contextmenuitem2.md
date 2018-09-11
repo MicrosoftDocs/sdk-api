@@ -4,7 +4,7 @@ title: "_CONTEXTMENUITEM2"
 author: windows-sdk-content
 description: The CONTEXTMENUITEM2 structure is introduced in MMC 2.0.
 old-location: mmc\contextmenuitem2.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 5ed4429c-e147-4097-8d52-11f5319dce2a
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONTEXTMENUITEM2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CONTEXTMENUITEM2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CONTEXTMENUITEM2
+req.redist: 
 ---
 
 # _CONTEXTMENUITEM2 structure

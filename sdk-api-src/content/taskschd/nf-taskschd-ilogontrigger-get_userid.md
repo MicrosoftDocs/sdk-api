@@ -4,17 +4,16 @@ title: ILogonTrigger::get_UserId
 author: windows-sdk-content
 description: Gets or sets the identifier of the user.
 old-location: taskschd\ilogontrigger_userid.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 22d69609-1400-41eb-ae25-4ca05c4733ba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ILogonTrigger interface [Task Scheduler],UserId property, ILogonTrigger.UserId, ILogonTrigger.get_UserId, ILogonTrigger::UserId, ILogonTrigger::get_UserId, ILogonTrigger::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler],ILogonTrigger interface, get_UserId, taskschd.ilogontrigger_userid, taskschd/ILogonTrigger::UserId, taskschd/ILogonTrigger::get_UserId, taskschd/ILogonTrigger::put_UserId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ILogonTrigger.put_UserId
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ILogonTrigger::get_UserId

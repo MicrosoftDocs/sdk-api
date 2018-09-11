@@ -4,17 +4,16 @@ title: IMFMuxStreamSampleManager::GetStreamConfiguration
 author: windows-sdk-content
 description: Gets the active stream configuration for the media source, which defines the set of substreams that are included the multiplexed output.
 old-location: mf\imfmuxstreamsamplemanager_getstreamconfiguration.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4EC64809-4647-4AEE-98ED-2EB6CC0329DB
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStreamConfiguration, GetStreamConfiguration method [Media Foundation], GetStreamConfiguration method [Media Foundation],IMFMuxStreamSampleManager interface, IMFMuxStreamSampleManager interface [Media Foundation],GetStreamConfiguration method, IMFMuxStreamSampleManager.GetStreamConfiguration, IMFMuxStreamSampleManager::GetStreamConfiguration, mf.imfmuxstreamsamplemanager_getstreamconfiguration, mfobjects/IMFMuxStreamSampleManager::GetStreamConfiguration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFMuxStreamSampleManager.GetStreamConfiguration
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMuxStreamSampleManager::GetStreamConfiguration

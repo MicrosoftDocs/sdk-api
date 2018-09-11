@@ -4,17 +4,16 @@ title: IDXGIOutput::ReleaseOwnership
 author: windows-sdk-content
 description: Releases ownership of the output.
 old-location: direct3ddxgi\idxgioutput_releaseownership.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_releaseownership.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 85bdbad9-3499-5766-c623-04b46be2a80a, IDXGIOutput interface [DXGI],ReleaseOwnership method, IDXGIOutput.ReleaseOwnership, IDXGIOutput::ReleaseOwnership, ReleaseOwnership, ReleaseOwnership method [DXGI], ReleaseOwnership method [DXGI],IDXGIOutput interface, direct3ddxgi.idxgioutput_releaseownership, dxgi/IDXGIOutput::ReleaseOwnership
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIOutput.ReleaseOwnership
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIOutput::ReleaseOwnership

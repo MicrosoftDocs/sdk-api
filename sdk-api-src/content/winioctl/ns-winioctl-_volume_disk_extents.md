@@ -4,7 +4,7 @@ title: "_VOLUME_DISK_EXTENTS"
 author: windows-sdk-content
 description: Represents a physical location on a disk.
 old-location: fs\volume_disk_extents_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 3f38f03c-1b99-4072-904c-dca1b98a245c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_DISK_EXTENTS, *PVOLUME_DISK_EXTENTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VOLUME_DISK_EXTENTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: VOLUME_DISK_EXTENTS, *PVOLUME_DISK_EXTENTS
+req.redist: 
 ---
 
 # _VOLUME_DISK_EXTENTS structure

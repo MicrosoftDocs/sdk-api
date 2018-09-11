@@ -4,17 +4,16 @@ title: NetAddr_GetAllowType macro
 author: windows-sdk-content
 description: Retrieves the network address types that a specified network address control accepts.
 old-location: shell\NetAddr_GetAllowType.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 21533513-86c2-418b-ab62-3c1b2db9bc2f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: NetAddr_GetAllowType, NetAddr_GetAllowType macro [Windows Shell], _shell_NetAddr_GetAllowType, shell.NetAddr_GetAllowType, shellapi/NetAddr_GetAllowType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetAddr_GetAllowType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # NetAddr_GetAllowType macro

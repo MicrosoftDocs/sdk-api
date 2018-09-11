@@ -4,17 +4,16 @@ title: "_SERVICE_NOTIFY_2W"
 author: windows-sdk-content
 description: Represents service status notification information.
 old-location: base\service_notify.htm
-old-project: services
+tech.root: Services
 ms.assetid: 52ede72e-eb50-48e2-b5c1-125816f6fe57
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSERVICE_NOTIFYW, *PSERVICE_NOTIFY_2W, PFN_SC_NOTIFY_CALLBACK, PSERVICE_NOTIFY, PSERVICE_NOTIFY structure pointer, SERVICE_NOTIFY, SERVICE_NOTIFY structure, SERVICE_NOTIFYA, SERVICE_NOTIFYW, SERVICE_NOTIFY_2, SERVICE_NOTIFY_2W, _SERVICE_NOTIFY_2W, base.service_notify, winsvc/PSERVICE_NOTIFY, winsvc/SERVICE_NOTIFY, winsvc/SERVICE_NOTIFYA, winsvc/SERVICE_NOTIFYW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_NOTIFY_2W, *PSERVICE_NOTIFY_2W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SERVICE_NOTIFYW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVICE_NOTIFY_2W, *PSERVICE_NOTIFY_2W
+req.redist: 
 ---
 
 # _SERVICE_NOTIFY_2W structure

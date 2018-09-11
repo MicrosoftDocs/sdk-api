@@ -4,17 +4,16 @@ title: OleMetafilePictFromIconAndLabel function
 author: windows-sdk-content
 description: Creates a metafile in which the specified icon and label are drawn.
 old-location: com\olemetafilepictfromiconandlabel.htm
-old-project: com
+tech.root: com
 ms.assetid: 627a79eb-46dd-4df7-a0d6-cab37b73387a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleMetafilePictFromIconAndLabel, OleMetafilePictFromIconAndLabel function [COM], _ole_OleMetafilePictFromIconAndLabel, com.olemetafilepictfromiconandlabel, ole2/OleMetafilePictFromIconAndLabel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OleMetafilePictFromIconAndLabel
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleMetafilePictFromIconAndLabel function

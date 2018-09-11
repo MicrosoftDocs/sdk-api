@@ -4,7 +4,7 @@ title: D3D11_VIDEO_PROCESSOR_FEATURE_CAPS
 author: windows-sdk-content
 description: Defines features that a Microsoft Direct3D 11 video processor can support.
 old-location: mf\d3d11_video_processor_feature_caps.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: A40E33D4-E8F3-4348-9135-DD56BABBFA85
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_FEATURE_CAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VIDEO_PROCESSOR_FEATURE_CAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VIDEO_PROCESSOR_FEATURE_CAPS
+req.redist: 
 ---
 
 # D3D11_VIDEO_PROCESSOR_FEATURE_CAPS enumeration

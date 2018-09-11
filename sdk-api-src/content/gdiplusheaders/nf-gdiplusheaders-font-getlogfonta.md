@@ -4,17 +4,16 @@ title: Font::GetLogFontA
 author: windows-sdk-content
 description: The Font::GetLogFontA method uses a LOGFONTA structure to get the attributes of this Font object.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetLogFontA_g_logfontA_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getlogfonta.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Font class [GDI+],GetLogFontA method, Font.GetLogFontA, Font::GetLogFontA, GetLogFontA, GetLogFontA method [GDI+], GetLogFontA method [GDI+],Font class, _gdiplus_CLASS_Font_GetLogFontA_g_logfontA_, gdiplus._gdiplus_CLASS_Font_GetLogFontA_g_logfontA_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Font.GetLogFontA
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

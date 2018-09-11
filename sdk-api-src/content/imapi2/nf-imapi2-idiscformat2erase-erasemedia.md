@@ -4,17 +4,16 @@ title: IDiscFormat2Erase::EraseMedia
 author: windows-sdk-content
 description: Erases the media in the active disc recorder.
 old-location: imapi\idiscformat2erase_erasemedia.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: dc71d1bf-b068-42c0-a87d-ae8fac279a58
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EraseMedia, EraseMedia method [IMAPI], EraseMedia method [IMAPI],IDiscFormat2Erase interface, IDiscFormat2Erase interface [IMAPI],EraseMedia method, IDiscFormat2Erase.EraseMedia, IDiscFormat2Erase::EraseMedia, imapi.idiscformat2erase_erasemedia, imapi2/IDiscFormat2Erase::EraseMedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2Erase.EraseMedia
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2Erase::EraseMedia

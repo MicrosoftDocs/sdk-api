@@ -4,17 +4,16 @@ title: PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
 author: windows-sdk-content
 description: An application-defined callback function that allows the application to filter certificates that might be added to the certificate chain.
 old-location: security\certchainfindbyissuercallback.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 004c4caa-0063-41a3-8d6d-8b3a769b4112
 ms.author: windowssdkdev
-ms.date: 08/15/2018
-ms.keywords: CertChainFindByIssuerCallback, CertChainFindByIssuerCallback callback, CertChainFindByIssuerCallback callback function [Security], PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback function [Security], security.certchainfindbyissuercallback, wincrypt/CertChainFindByIssuerCallback, wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
+ms.date: 08/29/2018
+ms.keywords: CertChainFindByIssuerCallback, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback function [Security], security.certchainfindbyissuercallback, wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,11 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - CertChainFindByIssuerCallback
+ - PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback function

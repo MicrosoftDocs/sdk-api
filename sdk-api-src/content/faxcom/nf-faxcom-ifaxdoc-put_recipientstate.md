@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.put_RecipientState
 title: IFaxDoc::put_RecipientState
 author: windows-sdk-content
 description: Sets or retrieves the RecipientState property of a FaxDoc object. The RecipientState property is a null-terminated string that contains the state of the recipient of the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_recipientstate_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientstate_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3vqd.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxDoc object [Fax Service],RecipientState property, FaxDoc.RecipientState, IFaxDoc.put_RecipientState, IFaxDoc::put_RecipientState, RecipientState property [Fax Service], RecipientState property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientstate, fax._mfax_ifaxdoc_get_recipientstate, fax._mfax_ifaxdoc_get_recipientstate_vb, put_RecipientState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxDoc interface [Fax Service],RecipientState property, IFaxDoc.RecipientState, IFaxDoc.put_RecipientState, IFaxDoc::RecipientState, IFaxDoc::get_RecipientState, IFaxDoc::put_RecipientState, RecipientState property [Fax Service], RecipientState property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientstate, fax._mfax_ifaxdoc_get_recipientstate, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientstate_cpp, faxcom/IFaxDoc::RecipientState, faxcom/IFaxDoc::get_RecipientState, faxcom/IFaxDoc::put_RecipientState, put_RecipientState
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.RecipientState
+ - IFaxDoc.RecipientState
+ - IFaxDoc.get_RecipientState
+ - IFaxDoc.put_RecipientState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::put_RecipientState

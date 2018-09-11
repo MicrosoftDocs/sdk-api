@@ -4,17 +4,16 @@ title: IConditionGenerator::Initialize
 author: windows-sdk-content
 description: Resets all states of the interface to default values and retrieves any necessary information from the schema.
 old-location: search\_search_IConditionGenerator_Initialize.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\initialize.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IConditionGenerator interface [search],Initialize method, IConditionGenerator.Initialize, IConditionGenerator::Initialize, Initialize, Initialize method [search], Initialize method [search],IConditionGenerator interface, _search_IConditionGenerator_Initialize, search._search_IConditionGenerator_Initialize, structuredquery/IConditionGenerator::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConditionGenerator.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IConditionGenerator::Initialize

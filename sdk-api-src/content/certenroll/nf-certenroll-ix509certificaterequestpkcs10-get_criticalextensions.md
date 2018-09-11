@@ -4,17 +4,16 @@ title: IX509CertificateRequestPkcs10::get_CriticalExtensions
 author: windows-sdk-content
 description: Retrieves an IObjectIds collection that identifies the version 3 certificate extensions marked as critical.
 old-location: security\ix509certificaterequestpkcs10_criticalextensions_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 7ecde7cb-1a73-4fee-a949-c4bb36e61547
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CriticalExtensions property [Security], CriticalExtensions property [Security],IX509CertificateRequestPkcs10 interface, IX509CertificateRequestPkcs10 interface [Security],CriticalExtensions property, IX509CertificateRequestPkcs10.CriticalExtensions, IX509CertificateRequestPkcs10.get_CriticalExtensions, IX509CertificateRequestPkcs10::CriticalExtensions, IX509CertificateRequestPkcs10::get_CriticalExtensions, certenroll/IX509CertificateRequestPkcs10::CriticalExtensions, certenroll/IX509CertificateRequestPkcs10::get_CriticalExtensions, get_CriticalExtensions, security.ix509certificaterequestpkcs10_criticalextensions_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509CertificateRequestPkcs10.get_CriticalExtensions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestPkcs10::get_CriticalExtensions

@@ -4,17 +4,16 @@ title: ISensorManager::RequestPermissions
 author: windows-sdk-content
 description: Opens a system dialog box to request user permission to access sensor data.
 old-location: winsensors_com_ref\Isensormanager_requestpermissions.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 6a21820c-4f13-4220-ad13-34d0226597b6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: FALSE, ISensorManager interface,RequestPermissions method, ISensorManager.RequestPermissions, ISensorManager::RequestPermissions, RequestPermissions, RequestPermissions method, RequestPermissions method,ISensorManager interface, TRUE, sensorsapi/ISensorManager::RequestPermissions, winsensors_com_ref.Isensormanager_requestpermissions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensorManager.RequestPermissions
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensorManager::RequestPermissions

@@ -4,7 +4,7 @@ title: WICBitmapCreateCacheOption
 author: windows-sdk-content
 description: Specifies the desired cache usage.
 old-location: wic\_wic_codec_wicbitmapcreatecacheoption.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 121d394d-e818-44c5-bf44-3b01df61c780
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICBitmapCreateCacheOption
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICBitmapCreateCacheOption
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICBitmapCreateCacheOption
+req.redist: 
 ---
 
 # WICBitmapCreateCacheOption enumeration

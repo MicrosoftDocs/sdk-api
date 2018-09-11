@@ -4,17 +4,16 @@ title: IVdsLun
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a logical unit number (LUN).
 old-location: base\ivdslun.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: e2fbebc0-593e-437c-a401-80e35a43da94
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsLun, IVdsLun interface [VDS], IVdsLun interface [VDS],described, base.ivdslun, vds/IVdsLun, vdshwprv/IVdsLun
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLun
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLun interface

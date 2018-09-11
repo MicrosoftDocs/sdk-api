@@ -4,7 +4,7 @@ title: "_DD_NTCALLBACKS"
 author: windows-sdk-content
 description: The DD_NTCALLBACKS structure contains entry pointers to Microsoft Windows 2000 and later Microsoft DirectDraw callback functions that a device driver supports.
 old-location: display\dd_ntcallbacks.htm
-old-project: display
+tech.root: display
 ms.assetid: 9d226b1c-6959-4cc8-9e60-b57a324d9a8a
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DD_NTCALLBACKS, *PDD_NTCALLBACKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_NTCALLBACKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DD_NTCALLBACKS, *PDD_NTCALLBACKS
+req.redist: 
 ---
 
 # _DD_NTCALLBACKS structure

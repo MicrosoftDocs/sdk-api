@@ -4,17 +4,16 @@ title: ITaskbarList::SetActiveAlt
 author: windows-sdk-content
 description: Marks a taskbar item as active but does not visually activate it.
 old-location: shell\ITaskbarList_SetActiveAlt.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b9d08a72-6a4d-483b-bf12-3f78e1d2237a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITaskbarList interface [Windows Shell],SetActiveAlt method, ITaskbarList.SetActiveAlt, ITaskbarList::SetActiveAlt, SetActiveAlt, SetActiveAlt method [Windows Shell], SetActiveAlt method [Windows Shell],ITaskbarList interface, _win32_ITaskbarList_SetActiveAlt, shell.ITaskbarList_SetActiveAlt, shobjidl_core/ITaskbarList::SetActiveAlt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskbarList.SetActiveAlt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskbarList::SetActiveAlt

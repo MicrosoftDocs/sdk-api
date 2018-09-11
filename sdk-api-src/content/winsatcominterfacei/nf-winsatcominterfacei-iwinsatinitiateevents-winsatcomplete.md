@@ -4,17 +4,16 @@ title: IWinSATInitiateEvents::WinSATComplete
 author: windows-sdk-content
 description: Receives notification when an assessment succeeds, fails, or is canceled.
 old-location: winsat\iwinsatinitiateevents_winsatcomplete.htm
-old-project: winsat
+tech.root: WinSAT
 ms.assetid: a7bcd7e6-b8d7-4ec3-84e8-8ccbcd0b4ada
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWinSATInitiateEvents interface [WinSAT],WinSATComplete method, IWinSATInitiateEvents.WinSATComplete, IWinSATInitiateEvents::WinSATComplete, WINSAT_ERROR_ACCESS_DENIED, WINSAT_ERROR_ASSESSMENT_INTERFERENCE, WINSAT_ERROR_COMMAND_LINE_INVALID, WINSAT_ERROR_COMPLETED_ERROR, WINSAT_ERROR_WINSAT_ALREADY_RUNNING, WINSAT_ERROR_WINSAT_CANCELED, WINSAT_STATUS_COMPLETED_SUCCESS, WinSATComplete, WinSATComplete method [WinSAT], WinSATComplete method [WinSAT],IWinSATInitiateEvents interface, winsat.iwinsatinitiateevents_winsatcomplete, winsatcominterfacei/IWinSATInitiateEvents::WinSATComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWinSATInitiateEvents.WinSATComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Winsatapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWinSATInitiateEvents::WinSATComplete

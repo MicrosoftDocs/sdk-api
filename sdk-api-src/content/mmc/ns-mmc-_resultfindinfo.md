@@ -4,7 +4,7 @@ title: "_RESULTFINDINFO"
 author: windows-sdk-content
 description: Used by the IResultOwnerData::FindItem method to support keyboard navigation in virtual lists in the result pane.
 old-location: mmc\resultfindinfo.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: e52c3437-45ac-4397-ab8f-70bc4d5f44f5
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESULTFINDINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESULTFINDINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RESULTFINDINFO
+req.redist: 
 ---
 
 # _RESULTFINDINFO structure

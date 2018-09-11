@@ -4,17 +4,16 @@ title: ITsSbTaskInfo::get_Context
 author: windows-sdk-content
 description: Retrieves the context bytes associated with the task.
 old-location: termserv\itssbtaskinfo_context.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: ce55ce2a-957f-4b50-b632-42079277102b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Context property [Remote Desktop Services], Context property [Remote Desktop Services],ITsSbTaskInfo interface, ITsSbTaskInfo interface [Remote Desktop Services],Context property, ITsSbTaskInfo.Context, ITsSbTaskInfo.get_Context, ITsSbTaskInfo::Context, ITsSbTaskInfo::get_Context, get_Context, sbtsv/ITsSbTaskInfo::Context, sbtsv/ITsSbTaskInfo::get_Context, termserv.itssbtaskinfo_context
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbTaskInfo.get_Context
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTaskInfo::get_Context

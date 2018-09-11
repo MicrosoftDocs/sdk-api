@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mfobjects_0000_0017_0003"
 author: windows-sdk-content
 description: Specifies the behavior when opening a file.
 old-location: mf\mf_file_flags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1e1c906e-c832-4df1-96f5-86e690c3c34e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_FILE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_FILE_FLAGS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mfobjects_0000_0017_0003 enumeration

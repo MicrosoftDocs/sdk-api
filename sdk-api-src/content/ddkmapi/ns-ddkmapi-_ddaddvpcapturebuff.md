@@ -4,7 +4,7 @@ title: "_DDADDVPCAPTUREBUFF"
 author: windows-sdk-content
 description: The DDADDVPCAPTUREBUFF structure contains the information required to add a new buffer to the internal capture queue.
 old-location: display\ddaddvpcapturebuff.htm
-old-project: display
+tech.root: display
 ms.assetid: 7ee3f5ce-987a-42c9-8681-5bcb9028178a
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDADDVPCAPTUREBUFF, *LPDDADDVPCAPTUREBUFF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDADDVPCAPTUREBUFF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDADDVPCAPTUREBUFF, *LPDDADDVPCAPTUREBUFF
+req.redist: 
 ---
 
 # _DDADDVPCAPTUREBUFF structure

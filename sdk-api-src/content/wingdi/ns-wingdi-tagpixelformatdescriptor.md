@@ -4,7 +4,7 @@ title: tagPIXELFORMATDESCRIPTOR
 author: windows-sdk-content
 description: The PIXELFORMATDESCRIPTOR structure describes the pixel format of a drawing surface.
 old-location: opengl\pixelformatdescriptor.htm
-old-project: OpenGL
+tech.root: OpenGL
 ms.assetid: 1480dea3-ae74-4e8b-b4de-fca8de5d8395
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PIXELFORMATDESCRIPTOR, *PPIXELFORMATDESCRIPTOR, *LPPIXELFORMATDESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PIXELFORMATDESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PIXELFORMATDESCRIPTOR, *PPIXELFORMATDESCRIPTOR, *LPPIXELFORMATDESCRIPTOR
+req.redist: 
 ---
 
 # tagPIXELFORMATDESCRIPTOR structure

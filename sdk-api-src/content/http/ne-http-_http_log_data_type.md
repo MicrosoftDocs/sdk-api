@@ -4,7 +4,7 @@ title: "_HTTP_LOG_DATA_TYPE"
 author: windows-sdk-content
 description: Identifies the type of log data.
 old-location: http\http_log_data_type.htm
-old-project: http
+tech.root: http
 ms.assetid: 8c53a3e6-5001-4e72-bff4-a6eab007aa9c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_LOG_DATA_TYPE, *PHTTP_LOG_DATA_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_LOG_DATA_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_LOG_DATA_TYPE, *PHTTP_LOG_DATA_TYPE
+req.redist: 
 ---
 
 # _HTTP_LOG_DATA_TYPE enumeration

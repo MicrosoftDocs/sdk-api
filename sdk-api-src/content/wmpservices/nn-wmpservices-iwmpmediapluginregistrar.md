@@ -4,7 +4,7 @@ title: IWMPMediaPluginRegistrar
 author: windows-sdk-content
 description: The IWMPMediaPluginRegistrar interface manages plug-in registration.
 old-location: wmp\iwmpmediapluginregistrar.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 4b99d227-39e8-4986-93ed-6df73a3a3e08
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmpservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPServices_StreamState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPMediaPluginRegistrar
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPMediaPluginRegistrar interface

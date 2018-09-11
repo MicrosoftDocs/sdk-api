@@ -4,7 +4,7 @@ title: "_STORAGE_HOTPLUG_INFO"
 author: windows-sdk-content
 description: Provides information about the hotplug information of a device.
 old-location: base\storage_hotplug_info_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 861e6067-9f37-427a-8d3b-8cb9d0f95c40
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_HOTPLUG_INFO, *PSTORAGE_HOTPLUG_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_HOTPLUG_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_HOTPLUG_INFO, *PSTORAGE_HOTPLUG_INFO
+req.redist: 
 ---
 
 # _STORAGE_HOTPLUG_INFO structure

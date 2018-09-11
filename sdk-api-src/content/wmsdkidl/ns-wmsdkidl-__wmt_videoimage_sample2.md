@@ -4,7 +4,7 @@ title: "__WMT_VIDEOIMAGE_SAMPLE2"
 author: windows-sdk-content
 description: The WMT_VIDEOIMAGE_SAMPLE2 structure describes a sample for a Video Image stream.
 old-location: wmformat\wmt_videoimage_sample2.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 0c4fa9e2-9b7b-4c9e-be58-e28da408337d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMT_VIDEOIMAGE_SAMPLE2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMT_VIDEOIMAGE_SAMPLE2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMT_VIDEOIMAGE_SAMPLE2
+req.redist: 
 ---
 
 # __WMT_VIDEOIMAGE_SAMPLE2 structure

@@ -4,17 +4,16 @@ title: IDirect3DDevice9::SetSoftwareVertexProcessing
 author: windows-sdk-content
 description: Use this method to switch between software and hardware vertex processing.
 old-location: direct3d9\idirect3ddevice9__setsoftwarevertexprocessing.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setsoftwarevertexprocessing.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetSoftwareVertexProcessing method, IDirect3DDevice9.SetSoftwareVertexProcessing, IDirect3DDevice9::SetSoftwareVertexProcessing, SetSoftwareVertexProcessing, SetSoftwareVertexProcessing method [Direct3D 9], SetSoftwareVertexProcessing method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetSoftwareVertexProcessing, direct3d9.idirect3ddevice9__setsoftwarevertexprocessing, f140124d-0bf1-92be-8e64-ee7d8f661302
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9.SetSoftwareVertexProcessing
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9::SetSoftwareVertexProcessing

@@ -4,7 +4,7 @@ title: PFN_AUTHENTICATION_CALLBACK
 author: windows-sdk-content
 description: Used in conjunction with the BluetoothRegisterForAuthentication function.
 old-location: bluetooth\pfn_authentication_callback.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 756bfea7-ad03-4fba-b591-42796e7d52ff
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITS_FILE_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PFN_AUTHENTICATION_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_AUTHENTICATION_CALLBACK callback function

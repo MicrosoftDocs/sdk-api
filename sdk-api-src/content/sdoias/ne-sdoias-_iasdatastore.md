@@ -4,7 +4,7 @@ title: "_IASDATASTORE"
 author: windows-sdk-content
 description: The values of the IASDATASTORE enumeration indicate the possible storage locations for SDO data.
 old-location: nps\SDO_iasdatastore.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 1eec69f9-b82e-48e5-a471-0a0626d91957
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.unicode-ansi: 
 req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IASDATASTORE, *PIASDATASTORE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IASDATASTORE
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: IASDATASTORE, *PIASDATASTORE
+req.redist: 
 ---
 
 # _IASDATASTORE enumeration

@@ -4,7 +4,7 @@ title: DSCLASSCREATIONINFO
 author: windows-sdk-content
 description: Used with the IDsDisplaySpecifier::GetClassCreationInfo method to hold data about the class creation wizard objects for an object class.
 old-location: ad\dsclasscreationinfo.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 5c1551f7-f651-4b87-829a-ec9a07fb0ec2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSCLASSCREATIONINFO, *LPDSCLASSCREATIONINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DSCLASSCREATIONINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DSCLASSCREATIONINFO, *LPDSCLASSCREATIONINFO
+req.redist: 
 ---
 
 # DSCLASSCREATIONINFO structure

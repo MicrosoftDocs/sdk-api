@@ -4,17 +4,16 @@ title: IUIAutomation::get_ContentViewCondition
 author: windows-sdk-content
 description: Retrieves a predefined IUIAutomationCondition interface that selects content elements.
 old-location: winauto\uiauto_IUIAutomation_ContentViewCondition.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: d674a8c5-cb09-49a6-b457-5e7486b0e178
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ContentViewCondition property [Windows Accessibility], ContentViewCondition property [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ContentViewCondition property, IUIAutomation.ContentViewCondition, IUIAutomation.get_ContentViewCondition, IUIAutomation::ContentViewCondition, IUIAutomation::get_ContentViewCondition, get_ContentViewCondition, uiauto.uiauto_IUIAutomation_ContentViewCondition, uiauto_IUIAutomation_ContentViewCondition, uiautomationclient/IUIAutomation::ContentViewCondition, uiautomationclient/IUIAutomation::get_ContentViewCondition, winauto.uiauto_IUIAutomation_ContentViewCondition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomation.get_ContentViewCondition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation::get_ContentViewCondition

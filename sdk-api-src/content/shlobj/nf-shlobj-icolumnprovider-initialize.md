@@ -4,17 +4,16 @@ title: IColumnProvider::Initialize
 author: windows-sdk-content
 description: Initializes an IColumnProvider interface.
 old-location: shell\IColumnProvider_Initialize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4975042d-549e-4032-9f42-468dc7e3c20e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IColumnProvider interface [Windows Shell],Initialize method, IColumnProvider.Initialize, IColumnProvider::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IColumnProvider interface, _win32_IColumnProvider_Initialize, shell.IColumnProvider_Initialize, shlobj/IColumnProvider::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IColumnProvider.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IColumnProvider::Initialize

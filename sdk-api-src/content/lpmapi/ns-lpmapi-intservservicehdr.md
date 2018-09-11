@@ -4,17 +4,16 @@ title: IntServServiceHdr
 author: windows-sdk-content
 description: The IntServServiceHdr structure is a header for Integrated Services service objects.
 old-location: qos\intservservicehdr.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 63e6a944-f16e-4b90-ab77-22e5c8ef3fb2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IntServServiceHdr, IntServServiceHdr structure [QOS], lpmapi/IntServServiceHdr, qos.intservservicehdr
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IntServServiceHdr
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntServServiceHdr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IntServServiceHdr
+req.redist: 
 ---
 
 # IntServServiceHdr structure

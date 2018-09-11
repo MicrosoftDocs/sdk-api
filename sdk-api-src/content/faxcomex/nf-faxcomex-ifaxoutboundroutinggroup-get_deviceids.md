@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxOutboundRoutingGroup.get_DeviceIds
 title: IFaxOutboundRoutingGroup::get_DeviceIds
 author: windows-sdk-content
-description: The DeviceIds property retrieves the ordered collection of device IDs that participate in the outbound routing group. The order of the devices in the collection determines the relative order in which available devices send outgoing transmissions.
-old-location: fax\_mfax_faxoutboundroutinggroup_deviceids.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_4var.htm
+description: The DeviceIds property retrieves an interface that represents the ordered collection of device IDs that participate in the outbound routing group.
+old-location: fax\_mfax_faxoutboundroutinggroup_deviceids_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_4var_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: DeviceIds property [Fax Service], DeviceIds property [Fax Service],FaxOutboundRoutingGroup object, FaxOutboundRoutingGroup object [Fax Service],DeviceIds property, FaxOutboundRoutingGroup.DeviceIds, IFaxOutboundRoutingGroup.get_DeviceIds, IFaxOutboundRoutingGroup::get_DeviceIds, _mfax_faxoutboundroutinggroup.deviceids, fax._mfax_faxoutboundroutinggroup_deviceids, get_DeviceIds
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: DeviceIds property [Fax Service], DeviceIds property [Fax Service],IFaxOutboundRoutingGroup interface, IFaxOutboundRoutingGroup interface [Fax Service],DeviceIds property, IFaxOutboundRoutingGroup.DeviceIds, IFaxOutboundRoutingGroup.get_DeviceIds, IFaxOutboundRoutingGroup::DeviceIds, IFaxOutboundRoutingGroup::get_DeviceIds, _mfax_faxoutboundroutinggroup.deviceids_cpp, fax._mfax_faxoutboundroutinggroup_deviceids_cpp, faxcomex/IFaxOutboundRoutingGroup::DeviceIds, faxcomex/IFaxOutboundRoutingGroup::get_DeviceIds, get_DeviceIds
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutboundRoutingGroup.DeviceIds
+ - IFaxOutboundRoutingGroup.DeviceIds
  - IFaxOutboundRoutingGroup.get_DeviceIds
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutboundRoutingGroup::get_DeviceIds
@@ -53,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>DeviceIds</b> property retrieves the ordered collection of device IDs that participate in the outbound routing group. The order of the devices in the collection determines the relative order in which available devices send outgoing transmissions.
+The <b>DeviceIds</b> property retrieves an interface that represents the ordered collection of device IDs that participate in the outbound routing group. The order of the devices in the collection determines the relative order in which available devices send outgoing transmissions.
 
 This property is read-only.
 
@@ -63,10 +61,6 @@ This property is read-only.
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms689098(v=VS.85).aspx">FaxOutboundRoutingGroup</a>
 
 
 

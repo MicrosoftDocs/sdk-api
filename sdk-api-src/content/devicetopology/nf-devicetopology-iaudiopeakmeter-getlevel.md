@@ -4,17 +4,16 @@ title: IAudioPeakMeter::GetLevel
 author: windows-sdk-content
 description: The GetLevel method gets the peak level that the peak meter recorded for the specified channel since the peak level for that channel was previously read.
 old-location: coreaudio\iaudiopeakmeter_getlevel.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: c5d7d941-b001-49a9-b421-a999f90ddb22
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetLevel, GetLevel method [Core Audio], GetLevel method [Core Audio],IAudioPeakMeter interface, IAudioPeakMeter interface [Core Audio],GetLevel method, IAudioPeakMeter.GetLevel, IAudioPeakMeter::GetLevel, IAudioPeakMeterGetLevel, coreaudio.iaudiopeakmeter_getlevel, devicetopology/IAudioPeakMeter::GetLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioPeakMeter.GetLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioPeakMeter::GetLevel

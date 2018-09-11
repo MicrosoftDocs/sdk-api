@@ -4,17 +4,16 @@ title: IQueryForm::AddPages
 author: windows-sdk-content
 description: Called to allow a query form object to add pages to an existing form.
 old-location: ad\iqueryform_addpages.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 797496fd-67db-4ec2-beec-224664d5d330
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddPages, AddPages method [Active Directory], AddPages method [Active Directory],IQueryForm interface, IQueryForm interface [Active Directory],AddPages method, IQueryForm.AddPages, IQueryForm::AddPages, _glines_iqueryform_addpages, ad.iqueryform__addpages, ad.iqueryform_addpages, cmnquery/IQueryForm::AddPages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cmnquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uuid.lib
+req.dll: Dsquery.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IQueryForm.AddPages
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Dsquery.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryForm::AddPages

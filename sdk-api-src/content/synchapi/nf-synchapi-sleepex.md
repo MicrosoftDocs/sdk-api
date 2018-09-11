@@ -4,17 +4,16 @@ title: SleepEx function
 author: windows-sdk-content
 description: Suspends the current thread until the specified condition is met.
 old-location: base\sleepex.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: a73cff94-ad63-4110-9f01-6469481c3d55
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SleepEx, SleepEx function, _win32_sleepex, base.sleepex, synchapi/SleepEx, winbase/SleepEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ITEMPROP, *LPITEMPROP
+req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
+req.dll: KernelBase.dll on Windows Phone 8.1; Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - SleepEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
-req.dll: KernelBase.dll on Windows Phone 8.1; Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # SleepEx function

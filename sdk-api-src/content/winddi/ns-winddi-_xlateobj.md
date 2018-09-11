@@ -4,7 +4,7 @@ title: "_XLATEOBJ"
 author: windows-sdk-content
 description: The XLATEOBJ structure is used to translate color indexes from one palette to another.
 old-location: display\xlateobj.htm
-old-project: display
+tech.root: display
 ms.assetid: 08bdead0-290a-4b23-8118-5f1f941e439f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XLATEOBJ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XLATEOBJ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: XLATEOBJ
+req.redist: 
 ---
 
 # _XLATEOBJ structure

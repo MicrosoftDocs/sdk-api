@@ -4,17 +4,16 @@ title: IMFASFStreamSelector::GetOutputCount
 author: windows-sdk-content
 description: Retrieves the number of outputs for the Advanced Systems Format (ASF) content.
 old-location: mf\imfasfstreamselector_getoutputcount.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 09f00f52-f897-46f0-afb9-ae59913e04a1
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 09f00f52-f897-46f0-afb9-ae59913e04a1, GetOutputCount, GetOutputCount method [Media Foundation], GetOutputCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputCount method, IMFASFStreamSelector.GetOutputCount, IMFASFStreamSelector::GetOutputCount, mf.imfasfstreamselector_getoutputcount, wmcontainer/IMFASFStreamSelector::GetOutputCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFStreamSelector.GetOutputCount
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFStreamSelector::GetOutputCount

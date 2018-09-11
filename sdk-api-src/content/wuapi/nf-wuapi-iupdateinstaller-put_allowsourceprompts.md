@@ -4,17 +4,16 @@ title: IUpdateInstaller::put_AllowSourcePrompts
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether to show source prompts to the user when installing the updates.
 old-location: wua\iupdateinstaller_allowsourceprompts.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 6975fdc7-48db-4e34-986b-5504687fc53f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AllowSourcePrompts property [Windows Update Agent], AllowSourcePrompts property [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],AllowSourcePrompts property, IUpdateInstaller.AllowSourcePrompts, IUpdateInstaller.put_AllowSourcePrompts, IUpdateInstaller::AllowSourcePrompts, IUpdateInstaller::get_AllowSourcePrompts, IUpdateInstaller::put_AllowSourcePrompts, put_AllowSourcePrompts, wua.iupdateinstaller_allowsourceprompts, wuapi/IUpdateInstaller::AllowSourcePrompts, wuapi/IUpdateInstaller::get_AllowSourcePrompts, wuapi/IUpdateInstaller::put_AllowSourcePrompts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IUpdateInstaller.put_AllowSourcePrompts
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateInstaller::put_AllowSourcePrompts

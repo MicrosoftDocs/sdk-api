@@ -4,17 +4,16 @@ title: NdrClientCall4 function
 author: windows-sdk-content
 description: NdrClientCall4 may be altered or unavailable.
 old-location: rpc\ndrclientcall4.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: AD2B9995-B092-498E-8D54-204B213D555D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdrClientCall4, NdrClientCall4 function [RPC], rpc.ndrclientcall4, rpcndr/NdrClientCall4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrClientCall4
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrClientCall4 function
@@ -72,7 +70,14 @@ Reserved.
 Reserved.
 
 
-### -param param [in, out]
+### -param arg1
+
+TBD
+
+
+
+
+#### - param [in, out]
 
 Reserved.
 

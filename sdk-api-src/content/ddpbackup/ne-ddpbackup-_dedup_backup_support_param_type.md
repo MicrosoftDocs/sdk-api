@@ -4,7 +4,7 @@ title: "_DEDUP_BACKUP_SUPPORT_PARAM_TYPE"
 author: windows-sdk-content
 description: Indicates whether Data Deduplication should perform an unoptimized or optimized restore.
 old-location: dedup\dedup_backup_support_param_type.htm
-old-project: dedup
+tech.root: dedup
 ms.assetid: 654663C4-1E28-435A-9D81-1E390BC66B62
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ddpbackup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DEDUP_BACKUP_SUPPORT_PARAM_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
+req.redist: 
 ---
 
 # _DEDUP_BACKUP_SUPPORT_PARAM_TYPE enumeration

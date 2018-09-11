@@ -4,17 +4,16 @@ title: tagSTATFLAG
 author: windows-sdk-content
 description: Indicate whether the method should try to return a name in the pwcsName member of the STATSTG structure.
 old-location: stg\statflag.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: 9070b517-8ca5-455f-baee-0647b1895c08
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: STATFLAG, STATFLAG enumeration [Structured Storage], STATFLAG_DEFAULT, STATFLAG_NONAME, STATFLAG_NOOPEN, _stg_statflag, stg.statflag, tagSTATFLAG, wtypes/STATFLAG, wtypes/STATFLAG_DEFAULT, wtypes/STATFLAG_NONAME, wtypes/STATFLAG_NOOPEN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STATFLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STATFLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: STATFLAG
+req.redist: 
 ---
 
 # tagSTATFLAG enumeration

@@ -4,17 +4,16 @@ title: IShellImageData::DisplayName
 author: windows-sdk-content
 description: Gets the name of the file if IShellImageData was initialized on a file path. Otherwise, gets the name of the data stream.
 old-location: shell\IShellImageData_DisplayName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d2e95a44-2bf7-43e1-9a29-950acc34d2a4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DisplayName, DisplayName method [Windows Shell], DisplayName method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],DisplayName method, IShellImageData.DisplayName, IShellImageData::DisplayName, _shell_IShellImageData_DisplayName, shell.IShellImageData_DisplayName, shimgdata/IShellImageData::DisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageData.DisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageData::DisplayName

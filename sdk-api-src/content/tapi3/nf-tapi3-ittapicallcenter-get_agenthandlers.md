@@ -4,17 +4,16 @@ title: ITTAPICallCenter::get_AgentHandlers
 author: windows-sdk-content
 description: The get_AgentHandlers method creates a collection of agent handlers that are currently associated with the call center.
 old-location: tapi3\ittapicallcenter_get_agenthandlers.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 61972ea2-d3ab-4893-8fc6-cd3c10f8584e
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTAPICallCenter interface [TAPI 2.2],get_AgentHandlers method, ITTAPICallCenter.get_AgentHandlers, ITTAPICallCenter::get_AgentHandlers, _tapi3_ittapicallcenter_get_agenthandlers, get_AgentHandlers, get_AgentHandlers method [TAPI 2.2], get_AgentHandlers method [TAPI 2.2],ITTAPICallCenter interface, tapi3.ittapicallcenter_get_agenthandlers, tapi3cc/ITTAPICallCenter::get_AgentHandlers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPICallCenter.get_AgentHandlers
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPICallCenter::get_AgentHandlers

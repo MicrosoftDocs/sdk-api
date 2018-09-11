@@ -4,17 +4,16 @@ title: ITuningSpace::get_NetworkType
 author: windows-sdk-content
 description: The get_NetworkType method retrieves the network type of the tuning space as a BSTR.
 old-location: mstv\ituningspace_get_networktype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f264b6b3-98ae-44bc-8922-ab35c3b7a0d1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_NetworkType method, ITuningSpace.get_NetworkType, ITuningSpace::get_NetworkType, ITuningSpaceget_NetworkType, get_NetworkType, get_NetworkType method [Microsoft TV Technologies], get_NetworkType method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_networktype, tuner/ITuningSpace::get_NetworkType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuningSpace.get_NetworkType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuningSpace::get_NetworkType
@@ -67,7 +65,7 @@ This method is intended for Automation clients, because it returns the CLSID as 
 
 ### -param NetworkTypeGuid
 
-
+TBD
 
 
 

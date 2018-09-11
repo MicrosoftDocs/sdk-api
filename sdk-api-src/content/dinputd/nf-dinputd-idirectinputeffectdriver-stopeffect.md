@@ -4,17 +4,16 @@ title: IDirectInputEffectDriver::StopEffect
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::StopEffect method halts the playback of an effect.
 old-location: hid\idirectinputeffectdriver_stopeffect.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 613cb68f-1fa8-4122-a1c9-feabde2dfbc9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],StopEffect method, IDirectInputEffectDriver.StopEffect, IDirectInputEffectDriver::StopEffect, StopEffect, StopEffect method [Human Input Devices], StopEffect method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_8aed81a3-c45d-4b8e-bcfb-2c17e1a708a2.xml, dinputd/IDirectInputEffectDriver::StopEffect, hid.idirectinputeffectdriver_stopeffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputEffectDriver.StopEffect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputEffectDriver::StopEffect
@@ -59,9 +58,14 @@ The <b>IDirectInputEffectDriver::StopEffect </b>method halts the playback of an 
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

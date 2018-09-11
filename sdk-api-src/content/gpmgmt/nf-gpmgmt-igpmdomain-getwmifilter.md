@@ -4,17 +4,16 @@ title: IGPMDomain::GetWMIFilter
 author: windows-sdk-content
 description: Retrieves a GPMWMIFilter object for the specified path.
 old-location: gpmc\igpmdomain_getwmifilter.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 093fba1a-69b3-4045-891a-de9c6a78e166
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMDomain object [GPMC],GetWMIFilter method, GetWMIFilter, GetWMIFilter method [GPMC], GetWMIFilter method [GPMC],GPMDomain object, GetWMIFilter method [GPMC],IGPMDomain interface, IGPMDomain interface [GPMC],GetWMIFilter method, IGPMDomain.GetWMIFilter, IGPMDomain::GetWMIFilter, _win32_igpmdomain_getwmifilter, gpmc.igpmdomain_getwmifilter, gpmgmt/IGPMDomain::GetWMIFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMDomain.GetWMIFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMDomain::GetWMIFilter

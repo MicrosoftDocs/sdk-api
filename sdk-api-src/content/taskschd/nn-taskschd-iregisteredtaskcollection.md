@@ -4,17 +4,16 @@ title: IRegisteredTaskCollection
 author: windows-sdk-content
 description: Contains all the tasks that are registered.
 old-location: taskschd\iregisteredtaskcollection.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 97403825-5762-477c-9695-3775bb5bc9e4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRegisteredTaskCollection, IRegisteredTaskCollection interface [Task Scheduler], IRegisteredTaskCollection interface [Task Scheduler],described, taskschd.iregisteredtaskcollection, taskschd/IRegisteredTaskCollection
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRegisteredTaskCollection
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRegisteredTaskCollection interface

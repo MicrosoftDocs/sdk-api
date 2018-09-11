@@ -4,17 +4,16 @@ title: IDCompositionRectangleClip::SetBottom(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of the Bottom property of a clip object.
 old-location: directcomp\idcompositionrectangleclip_setbottom_float.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: BE07DF2B-6588-4ACD-8FB6-E467C9943710
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetBottom method, IDCompositionRectangleClip.SetBottom, IDCompositionRectangleClip.SetBottom(IDCompositionAnimation), IDCompositionRectangleClip::SetBottom, IDCompositionRectangleClip::SetBottom(IDCompositionAnimation), IDCompositionRectangleClip::SetBottom(float), SetBottom, SetBottom method [DirectComposition], SetBottom method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetBottom, directcomp.idcompositionrectangleclip_setbottom_float
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionRectangleClip.SetBottom
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionRectangleClip::SetBottom(IDCompositionAnimation)
@@ -62,7 +61,7 @@ Changes the value of the Bottom property of a clip object. The Bottom property s
 
 ### -param animation
 
-
+TBD
 
 
 

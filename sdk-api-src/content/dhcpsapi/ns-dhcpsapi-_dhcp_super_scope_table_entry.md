@@ -4,7 +4,7 @@ title: "_DHCP_SUPER_SCOPE_TABLE_ENTRY"
 author: windows-sdk-content
 description: Defines a subnet entry within the superscope table.
 old-location: dhcp\dhcp_super_scope_table_entry.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: affaa0b0-3bd1-4d17-adec-518d2cb7e5b6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_SUPER_SCOPE_TABLE_ENTRY, *LPDHCP_SUPER_SCOPE_TABLE_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_SUPER_SCOPE_TABLE_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_SUPER_SCOPE_TABLE_ENTRY, *LPDHCP_SUPER_SCOPE_TABLE_ENTRY
+req.redist: 
 ---
 
 # _DHCP_SUPER_SCOPE_TABLE_ENTRY structure

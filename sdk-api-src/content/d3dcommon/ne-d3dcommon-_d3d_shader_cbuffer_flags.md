@@ -4,7 +4,7 @@ title: "_D3D_SHADER_CBUFFER_FLAGS"
 author: windows-sdk-content
 description: Values that identify the indended use of a constant-data buffer.
 old-location: direct3d11\d3d_shader_cbuffer_flags.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: f641b3ec-5492-4835-9cf6-e41447e4b6b6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_CBUFFER_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D_SHADER_CBUFFER_FLAGS
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: 
-req.irql: 
+req.typenames: D3D_SHADER_CBUFFER_FLAGS
+req.redist: 
 ---
 
 # _D3D_SHADER_CBUFFER_FLAGS enumeration

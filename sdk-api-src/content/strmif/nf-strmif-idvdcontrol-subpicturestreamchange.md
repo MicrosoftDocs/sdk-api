@@ -4,17 +4,16 @@ title: IDvdControl::SubpictureStreamChange
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the new subpicture stream and enables or disables it for display.
 old-location: dshow\idvdcontrol_subpicturestreamchange.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 527031fa-bab9-49f5-89b1-f0c5c5812a76
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl interface [DirectShow],SubpictureStreamChange method, IDvdControl.SubpictureStreamChange, IDvdControl::SubpictureStreamChange, IDvdControlSubpictureStreamChange, SubpictureStreamChange, SubpictureStreamChange method [DirectShow], SubpictureStreamChange method [DirectShow],IDvdControl interface, dshow.idvdcontrol_subpicturestreamchange, strmif/IDvdControl::SubpictureStreamChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdControl.SubpictureStreamChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl::SubpictureStreamChange
@@ -67,7 +65,7 @@ Selects the new subpicture stream and enables or disables it for display.
 
 ### -param ulSubPicture
 
-
+TBD
 
 
 ### -param bDisplay

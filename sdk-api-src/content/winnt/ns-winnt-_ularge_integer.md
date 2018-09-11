@@ -4,17 +4,16 @@ title: "_ULARGE_INTEGER"
 author: windows-sdk-content
 description: Represents a 64-bit unsigned integer value.
 old-location: winprog\ularge_integer_str.htm
-old-project: winprog
+tech.root: WinProg
 ms.assetid: 83a10c12-2cd1-449a-af3f-b2138fc50ee0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PULARGE_INTEGER, PULARGE_INTEGER, PULARGE_INTEGER union pointer [Windows API], ULARGE_INTEGER, ULARGE_INTEGER union [Windows API], _ULARGE_INTEGER, _win32_ularge_integer_str, winnt/PULARGE_INTEGER, winnt/ULARGE_INTEGER, winprog.ularge_integer_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ULARGE_INTEGER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ULARGE_INTEGER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ULARGE_INTEGER
+req.redist: 
 ---
 
 # _ULARGE_INTEGER structure
@@ -53,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 Represents a 64-bit unsigned integer value.
-<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="https://msdn.microsoft.com/52fafae2-003c-4eae-b6e1-a49f69db204e">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
+<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="https://msdn.microsoft.com/">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
 
 ## -struct-fields
 

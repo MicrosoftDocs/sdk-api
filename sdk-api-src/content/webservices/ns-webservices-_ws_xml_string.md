@@ -4,17 +4,16 @@ title: "_WS_XML_STRING"
 author: windows-sdk-content
 description: Represents a string that optionally has dictionary information associated with it. The xml APIs use WS_XML_STRINGs to identify prefixes, localNames and namespaces.
 old-location: wsw\ws_xml_string.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 3daa656f-7f97-4e29-a556-7ff72206f01c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_STRING, WS_XML_STRING structure [Web Services for Windows], _WS_XML_STRING, webservices/WS_XML_STRING, wsw.ws_xml_string
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_STRING
+req.redist: 
 ---
 
 # _WS_XML_STRING structure

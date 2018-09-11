@@ -4,17 +4,16 @@ title: PeerCollabParseContact function
 author: windows-sdk-content
 description: Parses a Unicode string buffer containing contact XML data into a PEER_CONTACT data structure.
 old-location: p2p\peercollabparsecontact.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: c50954b2-0e63-412e-85ca-5149ed73791f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerCollabParseContact, PeerCollabParseContact function [Peer Networking], p2p.peercollabparsecontact, p2p/PeerCollabParseContact
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerCollabParseContact
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerCollabParseContact function

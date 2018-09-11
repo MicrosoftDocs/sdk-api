@@ -4,17 +4,16 @@ title: IMcastScope::get_TTL
 author: windows-sdk-content
 description: The get_TTL method obtains the time to live value for the multicast scope.
 old-location: tapi3\imcastscope_get_ttl.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 68e402e5-87ae-49fd-9149-8eb79a0a8aee
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_TTL method, IMcastScope.get_TTL, IMcastScope::get_TTL, _tapi3_imcastscope_get_ttl, get_TTL, get_TTL method [TAPI 2.2], get_TTL method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_TTL, tapi3.imcastscope_get_ttl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMcastScope.get_TTL
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Mdhcp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMcastScope::get_TTL

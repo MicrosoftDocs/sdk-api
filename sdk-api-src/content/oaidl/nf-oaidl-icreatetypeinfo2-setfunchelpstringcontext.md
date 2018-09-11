@@ -4,17 +4,16 @@ title: ICreateTypeInfo2::SetFuncHelpStringContext
 author: windows-sdk-content
 description: Sets a Help context value for a specified function.
 old-location: automat\icreatetypeinfo2_setfunchelpstringcontext.htm
-old-project: automat
+tech.root: automat
 ms.assetid: ee0fad66-632e-48f7-bd38-b17c82be555b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetFuncHelpStringContext method, ICreateTypeInfo2.SetFuncHelpStringContext, ICreateTypeInfo2::SetFuncHelpStringContext, SetFuncHelpStringContext, SetFuncHelpStringContext method [Automation], SetFuncHelpStringContext method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetFuncHelpStringContext, automat.icreatetypeinfo2_setfunchelpstringcontext, oaidl/ICreateTypeInfo2::SetFuncHelpStringContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo2.SetFuncHelpStringContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo2::SetFuncHelpStringContext

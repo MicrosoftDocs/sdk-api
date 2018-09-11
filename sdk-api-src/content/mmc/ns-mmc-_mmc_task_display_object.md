@@ -4,7 +4,7 @@ title: "_MMC_TASK_DISPLAY_OBJECT"
 author: windows-sdk-content
 description: Specifies the type of image and all the data required to use that image to display a task or the background on a taskpad.
 old-location: mmc\mmc_task_display_object.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: ff43f0ea-2f33-4ed9-b5a5-484db2ffe3ad
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_TASK_DISPLAY_OBJECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_TASK_DISPLAY_OBJECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_TASK_DISPLAY_OBJECT
+req.redist: 
 ---
 
 # _MMC_TASK_DISPLAY_OBJECT structure

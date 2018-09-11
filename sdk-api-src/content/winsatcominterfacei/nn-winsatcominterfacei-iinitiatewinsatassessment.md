@@ -4,17 +4,16 @@ title: IInitiateWinSATAssessment
 author: windows-sdk-content
 description: Initiates an assessment.
 old-location: winsat\iinitiatewinsatassessment.htm
-old-project: winsat
+tech.root: WinSAT
 ms.assetid: 0b299477-50a4-4f61-a0e5-fdbae239503b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IInitiateWinSATAssessment, IInitiateWinSATAssessment interface [WinSAT], IInitiateWinSATAssessment interface [WinSAT],described, winsat.iinitiatewinsatassessment, winsatcominterfacei/IInitiateWinSATAssessment
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInitiateWinSATAssessment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Winsatapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IInitiateWinSATAssessment interface

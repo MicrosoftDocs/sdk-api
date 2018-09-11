@@ -4,7 +4,7 @@ title: linemediacontrolcallstate_tag
 author: windows-sdk-content
 description: The LINEMEDIACONTROLCALLSTATE structure describes a media action to be executed when detecting transitions into one or more call states. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
 old-location: tapi2\linemediacontrolcallstate_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c0768c2a-3015-41af-b32f-0b228a0f2ee6
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEMEDIACONTROLCALLSTATE, *LPLINEMEDIACONTROLCALLSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEMEDIACONTROLCALLSTATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEMEDIACONTROLCALLSTATE, *LPLINEMEDIACONTROLCALLSTATE
+req.redist: 
 ---
 
 # linemediacontrolcallstate_tag structure

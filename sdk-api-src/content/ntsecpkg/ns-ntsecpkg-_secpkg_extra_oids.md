@@ -4,17 +4,16 @@ title: "_SECPKG_EXTRA_OIDS"
 author: windows-sdk-content
 description: Contains the object identifiers (OIDs) for the extended security package.
 old-location: security\secpkg_extra_oids.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 188EB248-F056-40F4-8A27-6BEC75F14154
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECPKG_EXTRA_OIDS, PSECPKG_EXTRA_OIDS, PSECPKG_EXTRA_OIDS structure pointer [Security], SECPKG_EXTRA_OIDS, SECPKG_EXTRA_OIDS structure [Security], _SECPKG_EXTRA_OIDS, ntsecpkg/PSECPKG_EXTRA_OIDS, ntsecpkg/SECPKG_EXTRA_OIDS, security.secpkg_extra_oids"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_EXTRA_OIDS, *PSECPKG_EXTRA_OIDS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_EXTRA_OIDS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_EXTRA_OIDS, *PSECPKG_EXTRA_OIDS
+req.redist: 
 ---
 
 # _SECPKG_EXTRA_OIDS structure

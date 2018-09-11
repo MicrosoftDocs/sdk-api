@@ -4,17 +4,16 @@ title: "_CERT_CHAIN_ENGINE_CONFIG"
 author: windows-sdk-content
 description: Sets parameters for building a non-default certificate chain engine. The engine used determines the ways that certificate chains are built.
 old-location: security\cert_chain_engine_config.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 9e010eb9-2cbb-4fca-ba5c-4a5a50f23786
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_CHAIN_ENGINE_CONFIG, CERT_CHAIN_CACHE_END_CERT, CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL, CERT_CHAIN_DISABLE_AIA, CERT_CHAIN_ENABLE_CACHE_AUTO_UPDATE, CERT_CHAIN_ENABLE_SHARE_STORE, CERT_CHAIN_ENGINE_CONFIG, CERT_CHAIN_ENGINE_CONFIG structure [Security], CERT_CHAIN_EXCLUSIVE_ENABLE_CA_FLAG, CERT_CHAIN_USE_LOCAL_MACHINE_STORE, PCERT_CHAIN_ENGINE_CONFIG, PCERT_CHAIN_ENGINE_CONFIG structure pointer [Security], _CERT_CHAIN_ENGINE_CONFIG, _crypto2_cert_chain_engine_config, security.cert_chain_engine_config, wincrypt/CERT_CHAIN_ENGINE_CONFIG, wincrypt/PCERT_CHAIN_ENGINE_CONFIG"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_CHAIN_ENGINE_CONFIG, *PCERT_CHAIN_ENGINE_CONFIG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_CHAIN_ENGINE_CONFIG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_CHAIN_ENGINE_CONFIG, *PCERT_CHAIN_ENGINE_CONFIG
+req.redist: 
 ---
 
 # _CERT_CHAIN_ENGINE_CONFIG structure

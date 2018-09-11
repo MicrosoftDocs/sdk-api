@@ -4,17 +4,16 @@ title: CreateControlInputEx function
 author: windows-sdk-content
 description: Creates a ICoreInputSourceBase object in a worker thread or the UI thread.
 old-location: winrt\createcontrolinputex.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: AF12DA9F-7E5A-43B0-8B4D-7E41C4C1361F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateControlInputEx, CreateControlInputEx function [Windows Runtime], corewindow/CreateControlInputEx, winrt.createcontrolinputex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: corewindow.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: 
+req.dll: Windows.UI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CreateControlInputEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CreateControlInputEx function

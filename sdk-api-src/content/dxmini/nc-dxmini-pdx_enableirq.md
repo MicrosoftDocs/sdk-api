@@ -4,7 +4,7 @@ title: PDX_ENABLEIRQ
 author: windows-sdk-content
 description: The DxEnableIRQ callback function indicates to the video miniport driver which IRQs should be enabled or disabled.
 old-location: display\dxenableirq.htm
-old-project: display
+tech.root: display
 ms.assetid: 31762a21-e604-4c95-b46c-224b39ab5ac8
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DxEnableIRQ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # PDX_ENABLEIRQ callback function

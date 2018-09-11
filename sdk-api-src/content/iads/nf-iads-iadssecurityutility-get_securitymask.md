@@ -4,17 +4,16 @@ title: IADsSecurityUtility::get_SecurityMask
 author: windows-sdk-content
 description: Determines which elements of the security descriptor to retrieve or set.
 old-location: adsi\iadssecurityutility_securitymask.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: b54ebe68-f7ce-484e-9378-04662b7a1051
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsSecurityUtility interface [ADSI],SecurityMask property, IADsSecurityUtility.SecurityMask, IADsSecurityUtility.get_SecurityMask, IADsSecurityUtility::SecurityMask, IADsSecurityUtility::get_SecurityMask, IADsSecurityUtility::put_SecurityMask, SecurityMask property [ADSI], SecurityMask property [ADSI],IADsSecurityUtility interface, adsi.iadssecurityutility_securitymask, get_SecurityMask, iads/IADsSecurityUtility::SecurityMask, iads/IADsSecurityUtility::get_SecurityMask, iads/IADsSecurityUtility::put_SecurityMask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IADsSecurityUtility.put_SecurityMask
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsSecurityUtility::get_SecurityMask

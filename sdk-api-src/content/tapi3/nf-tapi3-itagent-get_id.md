@@ -4,17 +4,16 @@ title: ITAgent::get_ID
 author: windows-sdk-content
 description: The get_ID method gets an agent's ID.
 old-location: tapi3\itagent_get_id.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: e5045dd7-5a12-415e-b68a-f483f77f4887
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_ID method, ITAgent.get_ID, ITAgent::get_ID, _tapi3_itagent_get_id, get_ID, get_ID method [TAPI 2.2], get_ID method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_id, tapi3cc/ITAgent::get_ID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgent.get_ID
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgent::get_ID

@@ -4,17 +4,16 @@ title: IEVRVideoStreamControl::SetStreamActiveState
 author: windows-sdk-content
 description: IEVRVideoStreamControl::SetStreamActiveState method
 old-location: mf\ievrvideostreamcontrol_setstreamactivestate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 85f711f1-1536-4ab0-90b7-79e22c210198
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 85f711f1-1536-4ab0-90b7-79e22c210198, IEVRVideoStreamControl interface [Media Foundation],SetStreamActiveState method, IEVRVideoStreamControl.SetStreamActiveState, IEVRVideoStreamControl::SetStreamActiveState, SetStreamActiveState, SetStreamActiveState method [Media Foundation], SetStreamActiveState method [Media Foundation],IEVRVideoStreamControl interface, evr9/IEVRVideoStreamControl::SetStreamActiveState, mf.ievrvideostreamcontrol_setstreamactivestate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoAlphaBitmapFlags
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEVRVideoStreamControl.SetStreamActiveState
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEVRVideoStreamControl::SetStreamActiveState

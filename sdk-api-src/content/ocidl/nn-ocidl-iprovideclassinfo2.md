@@ -4,17 +4,16 @@ title: IProvideClassInfo2
 author: windows-sdk-content
 description: An extension to IProvideClassInfo that makes is faster and easier to retrieve an object's outgoing interface IID for its default event set.
 old-location: com\iprovideclassinfo2.htm
-old-project: com
+tech.root: com
 ms.assetid: e62785e4-994c-48cc-b5b9-7ec2b07c9d63
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IProvideClassInfo2, IProvideClassInfo2 interface [COM], IProvideClassInfo2 interface [COM],described, _com_iprovideclassinfo2, com.iprovideclassinfo2, ocidl/IProvideClassInfo2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProvideClassInfo2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IProvideClassInfo2 interface

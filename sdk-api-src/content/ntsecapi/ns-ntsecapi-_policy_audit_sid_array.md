@@ -4,17 +4,16 @@ title: "_POLICY_AUDIT_SID_ARRAY"
 author: windows-sdk-content
 description: Specifies an array of SID structures that represent Windows users or groups.
 old-location: security\policy_audit_sid_array.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 22f4255c-331a-4327-84d8-e905c7e419b6
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPOLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY structure [Security], PPOLICY_AUDIT_SID_ARRAY, PPOLICY_AUDIT_SID_ARRAY structure pointer [Security], _POLICY_AUDIT_SID_ARRAY, ntsecapi/POLICY_AUDIT_SID_ARRAY, ntsecapi/PPOLICY_AUDIT_SID_ARRAY, security.policy_audit_sid_array"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_AUDIT_SID_ARRAY, *PPOLICY_AUDIT_SID_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POLICY_AUDIT_SID_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: POLICY_AUDIT_SID_ARRAY, *PPOLICY_AUDIT_SID_ARRAY
+req.redist: 
 ---
 
 # _POLICY_AUDIT_SID_ARRAY structure

@@ -4,17 +4,16 @@ title: IAzApplication::get_Scopes
 author: windows-sdk-content
 description: Retrieves an IAzScopes object that is used to enumerate IAzScope objects from the policy data.
 old-location: security\iazapplication_scopes.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: cb56e48c-5c36-49f5-927e-417bfb59f940
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzApplication object [Security],Scopes property, IAzApplication interface [Security],Scopes property, IAzApplication.Scopes, IAzApplication.get_Scopes, IAzApplication::Scopes, IAzApplication::get_Scopes, Scopes property [Security], Scopes property [Security],AzApplication object, Scopes property [Security],IAzApplication interface, azroles/IAzApplication::Scopes, azroles/IAzApplication::get_Scopes, get_Scopes, security.iazapplication_scopes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzApplication.Scopes
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::get_Scopes

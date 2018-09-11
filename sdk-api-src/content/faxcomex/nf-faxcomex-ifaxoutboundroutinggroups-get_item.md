@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.get_Item
 title: IFaxOutboundRoutingGroups::get_Item
 author: windows-sdk-content
-description: The Item property returns a FaxOutboundRoutingGroup object from the FaxOutboundRoutingGroups collection.
-old-location: fax\_mfax_faxoutboundroutinggroups_item.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_8l9p.htm
+description: The IFaxOutboundRoutingGroups::get_Item method returns a IFaxOutboundRoutingGroup interface from the collection.
+old-location: fax\_mfax_faxoutboundroutinggroups_item_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_8l9p_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxOutboundRoutingGroups object [Fax Service],Item property, FaxOutboundRoutingGroups.Item, IFaxOutboundRoutingGroups.get_Item, IFaxOutboundRoutingGroups::get_Item, Item property [Fax Service], Item property [Fax Service],FaxOutboundRoutingGroups object, _mfax_faxoutboundroutinggroups.item, fax._mfax_faxoutboundroutinggroups_item, get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxOutboundRoutingGroups interface [Fax Service],get_Item method, IFaxOutboundRoutingGroups.get_Item, IFaxOutboundRoutingGroups::get_Item, _mfax_faxoutboundroutinggroups.item_cpp, fax._mfax_faxoutboundroutinggroups_item_cpp, faxcomex/IFaxOutboundRoutingGroups::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxOutboundRoutingGroups interface
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutboundRoutingGroups.Item
  - IFaxOutboundRoutingGroups.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutboundRoutingGroups::get_Item
@@ -53,12 +50,44 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The Item property returns a <a href="https://msdn.microsoft.com/en-us/library/ms689098(v=VS.85).aspx">FaxOutboundRoutingGroup</a> object from the <a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection.
-
-This property is read-only.
+The <b>IFaxOutboundRoutingGroups::get_Item</b> method returns a <a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a> interface from the collection.
 
 
 ## -parameters
+
+
+
+
+### -param vIndex [in]
+
+Type: <b>VARIANT</b>
+
+
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">Variant</a> that specifies the item to retrieve from the collection. 
+
+
+
+
+If this parameter is type VT_I2 or VT_I4, the parameter specifies the index of the item to retrieve from the collection. The index is 1-based. If this parameter is type VT_BSTR, the parameter is a unique name that identifies the outbound routing group to retrieve. Other types are not supported.
+
+
+
+### -param pFaxOutboundRoutingGroup [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a>**</b>
+
+An address of a pointer that receives the <a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a> interface.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
 
 
 ## -remarks
@@ -73,10 +102,6 @@ To return the group consisting of all of the devices, set <i>vIndex</i> equal to
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a>
 
 
 

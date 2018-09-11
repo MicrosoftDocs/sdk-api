@@ -4,17 +4,16 @@ title: INetworkListManagerEvents::ConnectivityChanged
 author: windows-sdk-content
 description: The NetworkConnectivityChanged method is called when network connectivity related changes occur.
 old-location: nla\inetworklistmanagerevents_connectivitychanged.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 12e15b56-61cd-4fc8-bc0c-9942d40bb2da
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ConnectivityChanged, ConnectivityChanged method [Network Awareness], ConnectivityChanged method [Network Awareness],INetworkListManagerEvents interface, INetworkListManagerEvents interface [Network Awareness],ConnectivityChanged method, INetworkListManagerEvents.ConnectivityChanged, INetworkListManagerEvents::ConnectivityChanged, netlistmgr/INetworkListManagerEvents::ConnectivityChanged, nla.inetworklistmanagerevents_connectivitychanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetworkListManagerEvents.ConnectivityChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkListManagerEvents::ConnectivityChanged
@@ -62,7 +60,7 @@ The <b>NetworkConnectivityChanged</b> method is called when network connectivity
 
 ### -param newConnectivity
 
-
+TBD
 
 
 

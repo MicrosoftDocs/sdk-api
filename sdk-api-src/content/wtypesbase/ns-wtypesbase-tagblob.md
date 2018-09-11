@@ -4,17 +4,16 @@ title: tagBLOB
 author: windows-sdk-content
 description: The BLOB structure, derived from Binary Large Object, contains information about a block of data.
 old-location: winsock\blob_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: eb1ff7d1-79db-478f-9f3e-48507d333c76
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPBLOB, BLOB, BLOB structure [Winsock], _win32_blob_2, tagBLOB, winsock.blob_2, wtypesbase/BLOB"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtypesbase.h
 req.include-header: Wtypes.h, Nspapi.h, Winsock2.h, Wtypes.h, Nspapi.h, Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLOB, *LPBLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: BLOB, *LPBLOB
+req.redist: 
 ---
 
 # tagBLOB structure

@@ -4,17 +4,16 @@ title: IDirectXVideoProcessor::GetVideoProcessorService
 author: windows-sdk-content
 description: Retrieves the DirectX Video Acceleration (DXVA) video processor service that created this video processor device.
 old-location: mf\idirectxvideoprocessor_getvideoprocessorservice.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 920bc584-16ea-4f66-b507-2fe63bfd4fd5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 920bc584-16ea-4f66-b507-2fe63bfd4fd5, GetVideoProcessorService, GetVideoProcessorService method [Media Foundation], GetVideoProcessorService method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetVideoProcessorService method, IDirectXVideoProcessor.GetVideoProcessorService, IDirectXVideoProcessor::GetVideoProcessorService, dxva2api/IDirectXVideoProcessor::GetVideoProcessorService, mf.idirectxvideoprocessor_getvideoprocessorservice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectXVideoProcessor.GetVideoProcessorService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectXVideoProcessor::GetVideoProcessorService
@@ -65,7 +63,7 @@ Retrieves the DirectX Video Acceleration (DXVA) video processor service that cre
 
 ### -param ppService
 
-
+TBD
 
 
 

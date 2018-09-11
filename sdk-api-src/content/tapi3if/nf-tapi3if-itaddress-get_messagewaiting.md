@@ -4,17 +4,16 @@ title: ITAddress::get_MessageWaiting
 author: windows-sdk-content
 description: The get_MessageWaiting method determines if the address has a message waiting.
 old-location: tapi3\itaddress_get_messagewaiting.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 4ddb49d9-dde7-498b-a243-f8c5b1294a87
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_MessageWaiting method, ITAddress.get_MessageWaiting, ITAddress::get_MessageWaiting, _tapi3_itaddress_get_messagewaiting, get_MessageWaiting, get_MessageWaiting method [TAPI 2.2], get_MessageWaiting method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_messagewaiting, tapi3if/ITAddress::get_MessageWaiting
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddress.get_MessageWaiting
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddress::get_MessageWaiting

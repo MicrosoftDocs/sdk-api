@@ -4,17 +4,16 @@ title: ITfInputScope2::EnumWordList
 author: windows-sdk-content
 description: ITfInputScope2::EnumWordList method
 old-location: tsf\itfinputscope2_enumwordlist.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 89379dab-6f96-4a86-8433-b6b0a8e45516
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnumWordList, EnumWordList method [Text Services Framework], EnumWordList method [Text Services Framework],ITfInputScope2 interface, ITfInputScope2 interface [Text Services Framework],EnumWordList method, ITfInputScope2.EnumWordList, ITfInputScope2::EnumWordList, _tsf_itfinputscope2_enumwordlist_ref, inputscope/ITfInputScope2::EnumWordList, tsf.itfinputscope2_enumwordlist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inputscope.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InputScope
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfInputScope2.EnumWordList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITfInputScope2::EnumWordList

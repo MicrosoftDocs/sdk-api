@@ -4,17 +4,16 @@ title: IUserInputString::GetMaxLength
 author: windows-sdk-content
 description: The GetMaxLength method retrieves the maximum string length the user interface (UI) should allow.
 old-location: picacq\iuserinputstring_getmaxlength.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 474b32f5-e8b3-49d2-a2de-a78244b9066e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetMaxLength, GetMaxLength method [Picture Acquisition], GetMaxLength method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetMaxLength method, IUserInputString.GetMaxLength, IUserInputString::GetMaxLength, IUserInputStringGetMaxLength, photoacquire/IUserInputString::GetMaxLength, picacq.iuserinputstring_getmaxlength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUserInputString.GetMaxLength
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IUserInputString::GetMaxLength

@@ -4,7 +4,7 @@ title: AMOVERLAYFX
 author: windows-sdk-content
 description: Specifies effects on a DirectDraw hardware overlay surface.
 old-location: dshow\amoverlayfx.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fa984504-5175-4b94-8a75-d294cd9546a4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AMOVERLAYFX
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # AMOVERLAYFX enumeration

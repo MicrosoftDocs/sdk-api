@@ -4,7 +4,7 @@ title: IRadialControllerInterop
 author: windows-sdk-content
 description: Enables interoperability with a Universal Windows Platform (UWP)&#160;RadialController object and provides access to RadialController members for customizing the interaction experience.
 old-location: input_radial\iradialcontrollerinterop.htm
-old-project: Input_Radial
+tech.root: Input_Radial
 ms.assetid: ed701930-fae7-4c42-9e6b-b1cb3fac861c
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: radialcontrollerinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRadialControllerInterop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRadialControllerInterop interface

@@ -4,17 +4,16 @@ title: DrvAssertMode function
 author: windows-sdk-content
 description: The DrvAssertMode function sets the mode of the specified physical device to either the mode specified when the PDEV was initialized or to the default mode of the hardware.
 old-location: display\drvassertmode.htm
-old-project: display
+tech.root: display
 ms.assetid: 29846ffd-b721-4d61-9983-07a2575f9fe8
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvAssertMode, DrvAssertMode function [Display Devices], ddifncs_2ff05b29-d53b-44b9-a7fc-2c050f1ba778.xml, display.drvassertmode, winddi/DrvAssertMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvAssertMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvAssertMode function

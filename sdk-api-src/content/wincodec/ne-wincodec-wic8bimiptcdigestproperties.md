@@ -4,7 +4,7 @@ title: WIC8BIMIptcDigestProperties
 author: windows-sdk-content
 description: Specifies the identifiers of the metadata items in an 8BIM IPTC digest metadata block.
 old-location: wic\_wic_codec_wic8bimiptcdigestproperties.htm
-old-project: wic
+tech.root: wic
 ms.assetid: b0dbd1fa-face-4f6f-a943-60d108388b97
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIC8BIMIptcDigestProperties
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WIC8BIMIptcDigestProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WIC8BIMIptcDigestProperties
+req.redist: 
 ---
 
 # WIC8BIMIptcDigestProperties enumeration

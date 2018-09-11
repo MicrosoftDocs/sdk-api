@@ -4,17 +4,16 @@ title: INetSharingConfiguration::EnableSharing
 author: windows-sdk-content
 description: The EnableSharing method enables sharing on this connection.
 old-location: ics\inetsharingconfiguration_enablesharing.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 40b2a2ff-50f4-484c-bf79-ae99a348644f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EnableSharing, EnableSharing method [ICS/ICF], EnableSharing method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],EnableSharing method, INetSharingConfiguration.EnableSharing, INetSharingConfiguration::EnableSharing, _ics_inetsharingconfiguration_enablesharing, ics.inetsharingconfiguration_enablesharing, netcon/INetSharingConfiguration::EnableSharing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingConfiguration.EnableSharing
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingConfiguration::EnableSharing

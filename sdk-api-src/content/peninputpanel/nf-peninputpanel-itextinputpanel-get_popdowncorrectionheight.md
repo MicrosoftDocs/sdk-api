@@ -4,17 +4,16 @@ title: ITextInputPanel::get_PopDownCorrectionHeight
 author: windows-sdk-content
 description: Gets the height of the Post-Insertion correction comb when it is positioned below Input Panel.
 old-location: tablet\itextinputpanel_popdowncorrectionheight.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 525e5406-75ff-4f3c-a3f2-a542e04ca203
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 525e5406-75ff-4f3c-a3f2-a542e04ca203, ITextInputPanel interface [Tablet PC],PopDownCorrectionHeight property, ITextInputPanel.PopDownCorrectionHeight, ITextInputPanel.get_PopDownCorrectionHeight, ITextInputPanel::PopDownCorrectionHeight, ITextInputPanel::get_PopDownCorrectionHeight, PopDownCorrectionHeight property [Tablet PC], PopDownCorrectionHeight property [Tablet PC],ITextInputPanel interface, get_PopDownCorrectionHeight, peninputpanel/ITextInputPanel::PopDownCorrectionHeight, peninputpanel/ITextInputPanel::get_PopDownCorrectionHeight, tablet.itextinputpanel_popdowncorrectionheight
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITextInputPanel.get_PopDownCorrectionHeight
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanel::get_PopDownCorrectionHeight

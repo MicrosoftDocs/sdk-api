@@ -4,17 +4,16 @@ title: ICivicAddressReport::GetDetailLevel
 author: windows-sdk-content
 description: Reserved.
 old-location: winlocation_com_ref\icivicaddressreport_getdetaillevel.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: ec32dee1-e9ce-40a0-bca0-6f5f767b7604
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetDetailLevel, GetDetailLevel method [WinLocation], GetDetailLevel method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetDetailLevel method, ICivicAddressReport.GetDetailLevel, ICivicAddressReport::GetDetailLevel, WinLocation_COM_Ref.icivicaddressreport_getdetaillevel, locationapi/ICivicAddressReport::GetDetailLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICivicAddressReport.GetDetailLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ICivicAddressReport::GetDetailLevel

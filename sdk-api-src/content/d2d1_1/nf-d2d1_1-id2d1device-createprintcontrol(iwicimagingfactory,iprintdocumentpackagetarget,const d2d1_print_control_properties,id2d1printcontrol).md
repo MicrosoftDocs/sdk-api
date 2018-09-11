@@ -4,17 +4,16 @@ title: ID2D1Device::CreatePrintControl(IWICImagingFactory,IPrintDocumentPackageT
 author: windows-sdk-content
 description: Creates an ID2D1PrintControl object that converts Direct2D primitives stored in ID2D1CommandList into a fixed page representation. The print sub-system then consumes the primitives.
 old-location: direct2d\id2d1device_createprintcontrol.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: C8860AEE-807A-435E-9F44-B50545320EDA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreatePrintControl, CreatePrintControl methods [Direct2D], ID2D1Device.CreatePrintControl, ID2D1Device.CreatePrintControl(IWICImagingFactory,IPrintDocumentPackageTarget,const D2D1_PRINT_CONTROL_PROPERTIES,ID2D1PrintControl), ID2D1Device::CreatePrintControl, ID2D1Device::CreatePrintControl(IWICImagingFactory,IPrintDocumentPackageTarget,const D2D1_PRINT_CONTROL_PROPERTIES,ID2D1PrintControl), d2d1_1/CreatePrintControl, direct2d.id2d1device_createprintcontrol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Device::CreatePrintControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Device::CreatePrintControl(IWICImagingFactory,IPrintDocumentPackageTarget,const D2D1_PRINT_CONTROL_PROPERTIES,ID2D1PrintControl)

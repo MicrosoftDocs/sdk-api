@@ -4,17 +4,16 @@ title: acmStreamPrepareHeader function
 author: windows-sdk-content
 description: The acmStreamPrepareHeader function prepares an ACMSTREAMHEADER structure for an ACM stream conversion.
 old-location: multimedia\acmstreamprepareheader.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: ab90ac5f-6f39-4d26-96fc-5258d4e353cd
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_acmStreamPrepareHeader, acmStreamPrepareHeader, acmStreamPrepareHeader function [Windows Multimedia], msacm/acmStreamPrepareHeader, multimedia.acmstreamprepareheader"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: Msacm32.lib
+req.dll: Msacm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - acmStreamPrepareHeader
 product: Windows
 targetos: Windows
-req.lib: Msacm32.lib
-req.dll: Msacm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # acmStreamPrepareHeader function

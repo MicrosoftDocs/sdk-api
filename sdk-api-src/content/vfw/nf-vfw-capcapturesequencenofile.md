@@ -4,17 +4,16 @@ title: capCaptureSequenceNoFile macro
 author: windows-sdk-content
 description: The capCaptureSequenceNoFile macro initiates streaming video capture without writing data to a file. You can use this macro or explicitly send the WM_CAP_SEQUENCE_NOFILE message.
 old-location: multimedia\capcapturesequencenofile.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 40af5582-f801-4437-b782-8d03ffffcb82
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capCaptureSequenceNoFile, capCaptureSequenceNoFile, capCaptureSequenceNoFile macro [Windows Multimedia], multimedia.capcapturesequencenofile, vfw/capCaptureSequenceNoFile"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capCaptureSequenceNoFile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capCaptureSequenceNoFile macro

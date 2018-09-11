@@ -4,17 +4,16 @@ title: TSPI_lineMonitorTones function
 author: windows-sdk-content
 description: The TSPI_lineMonitorTones function enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the client application through TAPI.
 old-location: tspi\tspi_linemonitortones.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8b16dda3-bcb4-4a89-b2e5-b9330be3eb01
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineMonitorTones, TSPI_lineMonitorTones function [TAPI 2.2], _tspi_tspi_linemonitortones, tspi.tspi_linemonitortones, tspi/TSPI_lineMonitorTones
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineMonitorTones
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineMonitorTones function

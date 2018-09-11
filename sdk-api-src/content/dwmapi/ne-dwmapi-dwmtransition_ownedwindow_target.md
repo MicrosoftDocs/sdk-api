@@ -4,7 +4,7 @@ title: DWMTRANSITION_OWNEDWINDOW_TARGET
 author: windows-sdk-content
 description: Identifies the target.
 old-location: dwm\dwmtransition_ownedwindow_target.htm
-old-project: dwm
+tech.root: dwm
 ms.assetid: 01164EBA-EAD1-47EB-9ED6-F4791DAF7E00
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWMTRANSITION_OWNEDWINDOW_TARGET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWMTRANSITION_OWNEDWINDOW_TARGET enumeration

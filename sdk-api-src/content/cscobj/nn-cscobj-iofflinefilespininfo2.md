@@ -4,7 +4,7 @@ title: IOfflineFilesPinInfo2
 author: windows-sdk-content
 description: Defines a method to determine whether an item in the Offline Files cache is partly pinned.
 old-location: of\iofflinefilespininfo2.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 80aa7e38-dbd7-42c6-b4b8-df4f104dfdc8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesPinInfo2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesPinInfo2 interface

@@ -4,17 +4,16 @@ title: "_SEC_WINNT_AUTH_IDENTITY_A"
 author: windows-sdk-content
 description: Allows you to pass a particular user name and password to the run-time library for the purpose of authentication.
 old-location: security\sec_winnt_auth_identity.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: a9c9471b-2134-4173-af86-18b277627d2a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSEC_WINNT_AUTH_IDENTITY_A, PSEC_WINNT_AUTH_IDENTITY, PSEC_WINNT_AUTH_IDENTITY structure pointer [Security], SEC_WINNT_AUTH_IDENTITY, SEC_WINNT_AUTH_IDENTITY structure [Security], SEC_WINNT_AUTH_IDENTITY_A, SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_UNICODE, _SEC_WINNT_AUTH_IDENTITY_A, _SEC_WINNT_AUTH_IDENTITY_W, _ssp_sec_winnt_auth_identity, security.sec_winnt_auth_identity, sspi/PSEC_WINNT_AUTH_IDENTITY, sspi/SEC_WINNT_AUTH_IDENTITY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_WINNT_AUTH_IDENTITY_A, *PSEC_WINNT_AUTH_IDENTITY_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEC_WINNT_AUTH_IDENTITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SEC_WINNT_AUTH_IDENTITY_A, *PSEC_WINNT_AUTH_IDENTITY_A
+req.redist: 
 ---
 
 # _SEC_WINNT_AUTH_IDENTITY_A structure

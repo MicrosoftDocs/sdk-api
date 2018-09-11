@@ -4,17 +4,16 @@ title: ISyncMgrSynchronizeCallback::DeleteLogError
 author: windows-sdk-content
 description: Called by the registered application's handler to delete a previously logged ErrorInformation, warning, or error message in the error tab on the synchronization manager status dialog box.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_deletelogerror.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 06e90b81-14cc-4b3e-9d2d-30e60eeb8eb2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DeleteLogError, DeleteLogError method [Windows Shell], DeleteLogError method [Windows Shell],ISyncMgrSynchronizeCallback interface, ISyncMgrSynchronizeCallback interface [Windows Shell],DeleteLogError method, ISyncMgrSynchronizeCallback.DeleteLogError, ISyncMgrSynchronizeCallback::DeleteLogError, mobsync/ISyncMgrSynchronizeCallback::DeleteLogError, shell.syncmgr_isyncmgrsynchronizecallback_deletelogerror, syncmgr.isyncmgrsynchronizecallback_deletelogerror
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRSTATUS
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSynchronizeCallback.DeleteLogError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mobsync.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSynchronizeCallback::DeleteLogError

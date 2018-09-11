@@ -4,17 +4,16 @@ title: ISyncMgrSynchronizeInvoke::UpdateItems
 author: windows-sdk-content
 description: Programmatically starts an update for specified items.
 old-location: shell\syncmgr_isyncmgrsynchronizeinvoke_updateitems.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7a646d11-a84c-44c1-b52b-ffd364cc2ac3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateItems method, ISyncMgrSynchronizeInvoke.UpdateItems, ISyncMgrSynchronizeInvoke::UpdateItems, UpdateItems, UpdateItems method [Windows Shell], UpdateItems method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateItems, shell.syncmgr_isyncmgrsynchronizeinvoke_updateitems, syncmgr.isyncmgrsynchronizeinvoke_updateitems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRSTATUS
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSynchronizeInvoke.UpdateItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mobsync.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSynchronizeInvoke::UpdateItems
@@ -69,7 +67,7 @@ Specifies how an item should be invoked using the <a href="https://msdn.microsof
 
 ### -param clsid
 
-
+TBD
 
 
 ### -param cbCookie [in]

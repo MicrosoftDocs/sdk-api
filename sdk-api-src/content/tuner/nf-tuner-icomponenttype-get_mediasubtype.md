@@ -4,17 +4,16 @@ title: IComponentType::get_MediaSubType
 author: windows-sdk-content
 description: The get_MediaSubType method retrieves the DirectShow media subtype as a BSTR.
 old-location: mstv\icomponenttype_get_mediasubtype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 470b7960-b016-4807-858b-61a53daf2396
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaSubType method, IComponentType.get_MediaSubType, IComponentType::get_MediaSubType, IComponentTypeget_MediaSubType, get_MediaSubType, get_MediaSubType method [Microsoft TV Technologies], get_MediaSubType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediasubtype, tuner/IComponentType::get_MediaSubType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponentType.get_MediaSubType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponentType::get_MediaSubType
@@ -65,7 +63,7 @@ The <b>get_MediaSubType</b> method retrieves the DirectShow media subtype as a B
 
 ### -param MediaSubType
 
-
+TBD
 
 
 

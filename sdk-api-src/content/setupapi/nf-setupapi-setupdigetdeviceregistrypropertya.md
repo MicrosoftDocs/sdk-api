@@ -4,17 +4,16 @@ title: SetupDiGetDeviceRegistryPropertyA function
 author: windows-sdk-content
 description: The SetupDiGetDeviceRegistryProperty function retrieves a specified Plug and Play device property.
 old-location: devinst\setupdigetdeviceregistryproperty.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: d42269dc-57b5-4303-94d9-02f6ee16a96f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiGetDeviceRegistryProperty, SetupDiGetDeviceRegistryProperty function [Device and Driver Installation], SetupDiGetDeviceRegistryPropertyA, SetupDiGetDeviceRegistryPropertyW, devinst.setupdigetdeviceregistryproperty, di-rtns_a60fa017-1c15-45bf-a178-37516bc0aea1.xml, setupapi/SetupDiGetDeviceRegistryProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_DevNode_Registry_Property
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiGetDeviceRegistryProperty
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetDeviceRegistryPropertyA function

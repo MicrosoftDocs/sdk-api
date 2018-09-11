@@ -4,17 +4,16 @@ title: IExplorerCommand::GetTitle
 author: windows-sdk-content
 description: Gets the title text of the button or menu item that launches a specified Windows Explorer command item.
 old-location: shell\IExplorerCommand_GetTitle.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d03ca4c5-80a5-4b7d-a47b-a67c72b7883c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetTitle, GetTitle method [Windows Shell], GetTitle method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetTitle method, IExplorerCommand.GetTitle, IExplorerCommand::GetTitle, _shell_IExplorerCommand_GetTitle, shell.IExplorerCommand_GetTitle, shobjidl_core/IExplorerCommand::GetTitle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExplorerCommand.GetTitle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExplorerCommand::GetTitle

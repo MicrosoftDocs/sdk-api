@@ -4,17 +4,16 @@ title: "_WSPPROC_TABLE"
 author: windows-sdk-content
 description: Contains a table of pointers to service provider functions.
 old-location: winsock\wspproc_table.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: f6fbf6da-58c5-4cef-8897-789a1e02aabb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSPPROC_TABLE, FAR * LPWSPPROC_TABLE, FAR * LPWSPPROC_TABLE structure [Winsock], WSPPROC_TABLE, WSPPROC_TABLE structure [Winsock], _WSPPROC_TABLE, winsock.wspproc_table, ws2spi/FAR * LPWSPPROC_TABLE, ws2spi/WSPPROC_TABLE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSPPROC_TABLE, *LPWSPPROC_TABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSPPROC_TABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSPPROC_TABLE, *LPWSPPROC_TABLE
+req.redist: 
 ---
 
 # _WSPPROC_TABLE structure

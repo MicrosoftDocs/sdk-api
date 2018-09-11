@@ -4,17 +4,16 @@ title: SetupSetDirectoryIdExA function
 author: windows-sdk-content
 description: The SetupSetDirectoryIdEx function associates a directory identifier in an INF file with a specific directory.
 old-location: setup\setupsetdirectoryidex.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 0f8f3fa0-cb98-42da-82dd-9114e6753e61
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupSetDirectoryIdEx, SetupSetDirectoryIdEx function [Setup API], SetupSetDirectoryIdExA, SetupSetDirectoryIdExW, setup.setupsetdirectoryidex, setupapi/SetupSetDirectoryIdEx, setupapi/SetupSetDirectoryIdExA, setupapi/SetupSetDirectoryIdExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupSetDirectoryIdExW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupSetDirectoryIdExA function

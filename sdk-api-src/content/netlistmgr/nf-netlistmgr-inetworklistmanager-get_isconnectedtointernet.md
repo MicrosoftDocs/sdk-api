@@ -4,17 +4,16 @@ title: INetworkListManager::get_IsConnectedToInternet
 author: windows-sdk-content
 description: The get_IsConnectedToInternet property specifies if the local machine has internet connectivity.
 old-location: nla\inetworklistmanager_get_isconnectedtointernet.htm
-old-project: nla
+tech.root: nla
 ms.assetid: b3f06da5-c0e2-4c56-87af-b180aa87c827
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INetworkListManager interface [Network Awareness],get_IsConnectedToInternet method, INetworkListManager.get_IsConnectedToInternet, INetworkListManager::get_IsConnectedToInternet, get_IsConnectedToInternet, get_IsConnectedToInternet method [Network Awareness], get_IsConnectedToInternet method [Network Awareness],INetworkListManager interface, netlistmgr/INetworkListManager::get_IsConnectedToInternet, nla.inetworklistmanager_get_isconnectedtointernet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetworkListManager.get_IsConnectedToInternet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkListManager::get_IsConnectedToInternet

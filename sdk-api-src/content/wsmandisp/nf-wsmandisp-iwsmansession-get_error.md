@@ -4,17 +4,16 @@ title: IWSManSession::get_Error
 author: windows-sdk-content
 description: Gets additional error information in an XML stream for the preceding call to an IWSManSession object method.
 old-location: winrm\iwsmansession_error.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: 9fa89b5d-60c3-4a0d-9d4b-62a266e884aa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Error property, IWSManSession.Error, IWSManSession.get_Error, IWSManSession::Error, IWSManSession::get_Error, get_Error, winrm.iwsmansession_error, wsmandisp/IWSManSession::Error, wsmandisp/IWSManSession::get_Error
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWSManSession.get_Error
 product: Windows
 targetos: Windows
-req.lib: WSManDisp.tlb
-req.dll: WSMAuto.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSManSession::get_Error

@@ -4,7 +4,7 @@ title: "_BATTERY_WMI_TEMPERATURE"
 author: windows-sdk-content
 description: Defines information about temperature of the battery for use with the BatteryClassQueryWmiDataBlock function.
 old-location: battery\battery_wmi_temperature.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 341DA703-EB96-4680-AFB8-68043988AF56
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BATTERY_WMI_TEMPERATURE, *PBATTERY_WMI_TEMPERATURE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BATTERY_WMI_TEMPERATURE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BATTERY_WMI_TEMPERATURE, *PBATTERY_WMI_TEMPERATURE
+req.redist: 
 ---
 
 # _BATTERY_WMI_TEMPERATURE structure

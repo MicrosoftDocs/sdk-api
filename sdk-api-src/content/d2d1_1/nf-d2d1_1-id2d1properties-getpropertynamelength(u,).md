@@ -4,17 +4,16 @@ title: ID2D1Properties::GetPropertyNameLength(U,)
 author: windows-sdk-content
 description: Gets the number of characters for the given property name.
 old-location: direct2d\id2d1properties_getpropertynamelength.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 9c4b86d1-db5b-41cd-9dd4-85a8bb03dd20
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPropertyNameLength, GetPropertyNameLength method [Direct2D], GetPropertyNameLength method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyNameLength method, ID2D1Properties.GetPropertyNameLength, ID2D1Properties.GetPropertyNameLength(U,), ID2D1Properties::GetPropertyNameLength, ID2D1Properties::GetPropertyNameLength(U,), ID2D1Properties::GetPropertyNameLength(UINT32), d2d1_1/ID2D1Properties::GetPropertyNameLength, direct2d.id2d1properties_getpropertynamelength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Properties.GetPropertyNameLength
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Properties::GetPropertyNameLength(U,)
@@ -66,9 +65,9 @@ Type: <b>UINT32</b>
 The index of the property name to retrieve.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 

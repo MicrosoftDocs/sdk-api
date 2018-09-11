@@ -4,17 +4,16 @@ title: IWICMetadataReader::GetMetadataFormat
 author: windows-sdk-content
 description: Gets the metadata format associated with the reader.
 old-location: wic\_wic_codec_iwicmetadatareader_getmetadataformat.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 5dcbfac4-9a77-4453-be1e-3c42e94d548e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMetadataFormat, GetMetadataFormat method [Windows Imaging Component], GetMetadataFormat method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetMetadataFormat method, IWICMetadataReader.GetMetadataFormat, IWICMetadataReader::GetMetadataFormat, _wic_codec_iwicmetadatareader_getmetadataformat, wic._wic_codec_iwicmetadatareader_getmetadataformat, wincodecsdk/IWICMetadataReader::GetMetadataFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICMetadataReader.GetMetadataFormat
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICMetadataReader::GetMetadataFormat

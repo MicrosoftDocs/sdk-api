@@ -4,17 +4,16 @@ title: IImageList::Add
 author: windows-sdk-content
 description: Adds an image or images to an image list.
 old-location: controls\IImageList_Add.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\add.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Add, Add method [Windows Controls], Add method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Add method, IImageList.Add, IImageList::Add, comctl_IImageList_Add, comctl_IImageList_Add_cpp, commoncontrols/IImageList::Add, controls.IImageList_Add, controls.comctl_IImageList_Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IImageList.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll (version 6.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IImageList::Add

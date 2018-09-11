@@ -4,17 +4,16 @@ title: IEnumResources::Clone
 author: windows-sdk-content
 description: Clones a resource enumerator.
 old-location: shell\IEnumResources_Clone.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 660243ba-263d-4f4a-b26f-ab831f60d76b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumResources interface, IEnumResources interface [Windows Shell],Clone method, IEnumResources.Clone, IEnumResources::Clone, _shell_IEnumResources_Clone, shell.IEnumResources_Clone, shobjidl_core/IEnumResources::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumResources.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumResources::Clone

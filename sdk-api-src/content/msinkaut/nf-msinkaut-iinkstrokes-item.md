@@ -4,17 +4,16 @@ title: IInkStrokes::Item
 author: windows-sdk-content
 description: Retrieves the IInkStrokeDisp object at the specified index within the InkStrokes collection.
 old-location: tablet\inkstrokes_item.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: ecffbdf0-4b1c-46de-bc4c-c44812dae27a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Item method, IInkStrokes.Item, IInkStrokes::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkStrokes interface, ecffbdf0-4b1c-46de-bc4c-c44812dae27a, msinkaut/IInkStrokes::Item, tablet.inkstrokes_item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkStrokes.Item
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokes::Item

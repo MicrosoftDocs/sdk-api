@@ -4,17 +4,16 @@ title: IInsertItem
 author: windows-sdk-content
 description: IInsertItem may be altered or unavailable.
 old-location: shell\IInsertItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f90fdd7b-1f51-4f92-8c1a-68e8b76f723f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IInsertItem, IInsertItem interface [Windows Shell], IInsertItem interface [Windows Shell],described, shell.IInsertItem, shell_IInsertItem, shobjidl/IInsertItem
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInsertItem
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Shimgvw.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IInsertItem interface

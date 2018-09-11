@@ -4,17 +4,16 @@ title: IAMPhysicalPinInfo::GetPhysicalType
 author: windows-sdk-content
 description: Note  The IAMPhysicalPinInfo interface is deprecated. Retrieves the type and name of the physical pin.
 old-location: dshow\iamphysicalpininfo_getphysicaltype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e18be591-64c7-4da0-aa28-c51dca7901b7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetPhysicalType, GetPhysicalType method [DirectShow], GetPhysicalType method [DirectShow],IAMPhysicalPinInfo interface, IAMPhysicalPinInfo interface [DirectShow],GetPhysicalType method, IAMPhysicalPinInfo.GetPhysicalType, IAMPhysicalPinInfo::GetPhysicalType, IAMPhysicalPinInfoGetPhysicalType, dshow.iamphysicalpininfo_getphysicaltype, strmif/IAMPhysicalPinInfo::GetPhysicalType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMPhysicalPinInfo.GetPhysicalType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMPhysicalPinInfo::GetPhysicalType

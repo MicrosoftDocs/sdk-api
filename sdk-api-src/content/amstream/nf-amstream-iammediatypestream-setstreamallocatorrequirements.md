@@ -4,17 +4,16 @@ title: IAMMediaTypeStream::SetStreamAllocatorRequirements
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetStreamAllocatorRequirements sets the allocator requirements for the stream. This method is not currently implemented.
 old-location: dshow\iammediatypestream_setstreamallocatorrequirements.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d34a00dd-e863-4356-97f9-da3776ecb47b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMMediaTypeStream interface [DirectShow],SetStreamAllocatorRequirements method, IAMMediaTypeStream.SetStreamAllocatorRequirements, IAMMediaTypeStream::SetStreamAllocatorRequirements, IAMMediaTypeStreamSetStreamAllocatorRequirements, SetStreamAllocatorRequirements, SetStreamAllocatorRequirements method [DirectShow], SetStreamAllocatorRequirements method [DirectShow],IAMMediaTypeStream interface, amstream/IAMMediaTypeStream::SetStreamAllocatorRequirements, dshow.iammediatypestream_setstreamallocatorrequirements
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAMMediaTypeStream.SetStreamAllocatorRequirements
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaTypeStream::SetStreamAllocatorRequirements

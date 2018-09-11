@@ -4,17 +4,16 @@ title: DhcpV4FailoverCreateRelationship function
 author: windows-sdk-content
 description: Creates a new DHCPv4 failover relationship between two servers.
 old-location: dhcp\dhcpv4failovercreaterelationship.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 6e360dd4-b4a0-4652-8754-17c3c284271c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpV4FailoverCreateRelationship, DhcpV4FailoverCreateRelationship function [DHCP], dhcp.dhcpv4failovercreaterelationship, dhcpsapi/DhcpV4FailoverCreateRelationship
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpV4FailoverCreateRelationship
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpV4FailoverCreateRelationship function

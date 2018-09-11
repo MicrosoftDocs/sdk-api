@@ -4,17 +4,16 @@ title: TTDeleteEmbeddedFont function
 author: windows-sdk-content
 description: Releases memory used by an embedded font, hFontReference.
 old-location: gdi\ttdeleteembeddedfont.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: cbd0945a-3f78-43d2-87f7-18e6e9d00096
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TTDELETE_DONTREMOVEFONT, TTDeleteEmbeddedFont, TTDeleteEmbeddedFont function [Windows GDI], _win32_TTDeleteEmbeddedFont, gdi.ttdeleteembeddedfont, t2embapi/TTDeleteEmbeddedFont
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_INFO, *LPSYSTEM_INFO
+req.lib: T2embed.lib
+req.dll: T2embed.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TTDeleteEmbeddedFont
 product: Windows
 targetos: Windows
-req.lib: T2embed.lib
-req.dll: T2embed.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TTDeleteEmbeddedFont function

@@ -4,7 +4,7 @@ title: NLM_CONNECTION_PROPERTY_CHANGE
 author: windows-sdk-content
 description: The NLM_CONNECTION PROPERTY_CHANGE enumeration is a set of flags that define changes made to the properties of a network connection.
 old-location: nla\nlm_connection_property_change.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 75cc1876-e6e0-4c39-a0af-5c47e7501c98
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_CONNECTION_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NLM_CONNECTION_PROPERTY_CHANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NLM_CONNECTION_PROPERTY_CHANGE
+req.redist: 
 ---
 
 # NLM_CONNECTION_PROPERTY_CHANGE enumeration

@@ -4,17 +4,16 @@ title: PropSheet_SetWizButtons macro
 author: windows-sdk-content
 description: Enables or disables the Back, Next, and Finish buttons in a wizard by posting a PSM_SETWIZBUTTONS message. You can use this macro or send the PSM_SETWIZBUTTONS message explicitly.
 old-location: controls\PropSheet_SetWizButtons.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setwizbuttons.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_DISABLEDFINISH, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_SetWizButtons, PropSheet_SetWizButtons macro [Windows Controls], _win32_PropSheet_SetWizButtons, _win32_PropSheet_SetWizButtons_cpp, controls.PropSheet_SetWizButtons, controls._win32_PropSheet_SetWizButtons, prsht/PropSheet_SetWizButtons
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropSheet_SetWizButtons
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PropSheet_SetWizButtons macro

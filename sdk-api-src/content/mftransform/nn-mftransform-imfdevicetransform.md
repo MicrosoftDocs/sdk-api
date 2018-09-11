@@ -4,17 +4,16 @@ title: IMFDeviceTransform
 author: windows-sdk-content
 description: This section contains reference information for the IMFDeviceTransform interface.
 old-location: stream\imfdevicetransform.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 375293FA-8017-4F74-A93C-C15FED8F19AF
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IMFDeviceTransform, IMFDeviceTransform interface [Streaming Media Devices], IMFDeviceTransform interface [Streaming Media Devices],described, mftransform/IMFDeviceTransform, stream.imfdevicetransform
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDeviceTransform
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDeviceTransform interface

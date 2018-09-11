@@ -4,17 +4,16 @@ title: tagNCCALCSIZE_PARAMS
 author: windows-sdk-content
 description: Contains information that an application can use while processing the WM_NCCALCSIZE message to calculate the size, position, and valid contents of the client area of a window.
 old-location: winmsg\nccalcsize_params.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\nccalcsize_params.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPNCCALCSIZE_PARAMS, LPNCCALCSIZE_PARAMS, LPNCCALCSIZE_PARAMS structure pointer [Windows and Messages], NCCALCSIZE_PARAMS, NCCALCSIZE_PARAMS structure [Windows and Messages], _win32_NCCALCSIZE_PARAMS_str, _win32_nccalcsize_params_str_cpp, tagNCCALCSIZE_PARAMS, winmsg.nccalcsize_params, winui._win32_nccalcsize_params_str, winuser/LPNCCALCSIZE_PARAMS, winuser/NCCALCSIZE_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NCCALCSIZE_PARAMS, *LPNCCALCSIZE_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCCALCSIZE_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: NCCALCSIZE_PARAMS, *LPNCCALCSIZE_PARAMS
+req.redist: 
 ---
 
 # tagNCCALCSIZE_PARAMS structure

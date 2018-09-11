@@ -4,17 +4,16 @@ title: ID3DX11FFT::GetForwardScale
 author: windows-sdk-content
 description: Gets the scale for forward transforms.
 old-location: direct3d11\id3dx11fft_getforwardscale.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: d66cef71-df1e-40fa-80ba-9e0813608ee2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetForwardScale, GetForwardScale method [Direct3D 11], GetForwardScale method [Direct3D 11],ID3DX11FFT interface, ID3DX11FFT interface [Direct3D 11],GetForwardScale method, ID3DX11FFT.GetForwardScale, ID3DX11FFT::GetForwardScale, d15a8e9c-685b-8592-6a11-8c6add9d890d, d3dcsx/ID3DX11FFT::GetForwardScale, direct3d11.id3dx11fft_getforwardscale
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3dcsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DX11_SCAN_OPCODE
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3DX11FFT.GetForwardScale
 product: Windows
 targetos: Windows
-req.lib: D3dcsx.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3DX11FFT::GetForwardScale

@@ -4,17 +4,16 @@ title: IAMNetShowConfig::put_BufferingTime
 author: windows-sdk-content
 description: The put_BufferingTime method specifies the buffering time.
 old-location: dshow\iamnetshowconfig_put_bufferingtime.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 60dea6f3-b45f-44a1-ba21-eb71206b2fb5
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_BufferingTime method, IAMNetShowConfig.put_BufferingTime, IAMNetShowConfig::put_BufferingTime, IAMNetShowConfigput_BufferingTime, dshow.iamnetshowconfig_put_bufferingtime, put_BufferingTime, put_BufferingTime method [DirectShow], put_BufferingTime method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_BufferingTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetShowConfig.put_BufferingTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetShowConfig::put_BufferingTime

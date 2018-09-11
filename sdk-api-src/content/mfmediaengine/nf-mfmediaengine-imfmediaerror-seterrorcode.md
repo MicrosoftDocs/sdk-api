@@ -4,17 +4,16 @@ title: IMFMediaError::SetErrorCode
 author: windows-sdk-content
 description: Sets the error code.
 old-location: mf\imfmediaerror_seterrorcode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0CEFC8A5-CCEA-43CF-80AB-C9862B0DAEDA
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaError interface [Media Foundation],SetErrorCode method, IMFMediaError.SetErrorCode, IMFMediaError::SetErrorCode, SetErrorCode, SetErrorCode method [Media Foundation], SetErrorCode method [Media Foundation],IMFMediaError interface, mf.imfmediaerror_seterrorcode, mfmediaengine/IMFMediaError::SetErrorCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaError.SetErrorCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaError::SetErrorCode

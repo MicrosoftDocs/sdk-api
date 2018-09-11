@@ -4,17 +4,16 @@ title: TSPI_lineMonitorDigits function
 author: windows-sdk-content
 description: The TSPI_lineMonitorDigits function enables and disables the unbuffered detection of digits received on the call.
 old-location: tspi\tspi_linemonitordigits.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 3153eb0e-32e9-40bf-b6aa-de594f6edbf6
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineMonitorDigits, TSPI_lineMonitorDigits function [TAPI 2.2], _tspi_tspi_linemonitordigits, tspi.tspi_linemonitordigits, tspi/TSPI_lineMonitorDigits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineMonitorDigits
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineMonitorDigits function

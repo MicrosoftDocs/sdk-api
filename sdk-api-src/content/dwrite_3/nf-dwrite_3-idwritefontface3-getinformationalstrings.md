@@ -4,17 +4,16 @@ title: IDWriteFontFace3::GetInformationalStrings
 author: windows-sdk-content
 description: Gets a localized strings collection that contains the specified informational strings, indexed by locale name.
 old-location: directwrite\idwritefontface3_getinformationalstrings.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: F3CF5E9E-C0EA-4A29-8D42-11873DF5A9F2
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetInformationalStrings, GetInformationalStrings method [Direct Write], GetInformationalStrings method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetInformationalStrings method, IDWriteFontFace3.GetInformationalStrings, IDWriteFontFace3::GetInformationalStrings, directwrite.idwritefontface3_getinformationalstrings, dwrite_3/IDWriteFontFace3::GetInformationalStrings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace3.GetInformationalStrings
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace3::GetInformationalStrings

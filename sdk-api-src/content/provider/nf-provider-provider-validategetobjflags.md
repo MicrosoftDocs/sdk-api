@@ -4,17 +4,16 @@ title: Provider::ValidateGetObjFlags
 author: windows-sdk-content
 description: The ValidateGetObjFlags method determines whether a set of flags is valid for an instance retrieval operation.
 old-location: wmi\provider_validategetobjflags.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 5090c47b-062b-4359-b03b-0d05c225447d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?ValidateGetObjFlags@Provider@@MAEJJ@Z, ?ValidateGetObjFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateGetObjFlags method, Provider.ValidateGetObjFlags, Provider::ValidateGetObjFlags, ValidateGetObjFlags, ValidateGetObjFlags method [Windows Management Instrumentation], ValidateGetObjFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validategetobjflags, provider/Provider::ValidateGetObjFlags, wmi.provider_validategetobjflags"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?ValidateGetObjFlags@Provider@@MEAAJJ@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # Provider::ValidateGetObjFlags

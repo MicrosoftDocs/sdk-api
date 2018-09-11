@@ -4,17 +4,16 @@ title: "_CRYPT_AES_256_KEY_STATE"
 author: windows-sdk-content
 description: Specifies the 256-bit symmetric key information for an Advanced Encryption Standard (AES) cipher.
 old-location: security\crypt_aes_256_key_state.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 3df59645-4175-4df0-a04d-ca1cde3eb910
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_AES_256_KEY_STATE, CRYPT_AES_256_KEY_STATE, CRYPT_AES_256_KEY_STATE structure [Security], PCRYPT_AES_256_KEY_STATE, PCRYPT_AES_256_KEY_STATE structure pointer [Security], _CRYPT_AES_256_KEY_STATE, security.crypt_aes_256_key_state, wincrypt/CRYPT_AES_256_KEY_STATE, wincrypt/PCRYPT_AES_256_KEY_STATE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_AES_256_KEY_STATE, *PCRYPT_AES_256_KEY_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_AES_256_KEY_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_AES_256_KEY_STATE, *PCRYPT_AES_256_KEY_STATE
+req.redist: 
 ---
 
 # _CRYPT_AES_256_KEY_STATE structure

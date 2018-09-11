@@ -4,17 +4,16 @@ title: WICMapGuidToShortName function
 author: windows-sdk-content
 description: Obtains the short name associated with a given GUID.
 old-location: wic\_wic_codec_wicmapguidtoshortname.htm
-old-project: wic
+tech.root: wic
 ms.assetid: ae1e4680-2c20-4a3e-b931-206d26f4d09c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WICMapGuidToShortName, WICMapGuidToShortName function [Windows Imaging Component], _wic_codec_wicmapguidtoshortname, wic._wic_codec_wicmapguidtoshortname, wincodec/WICMapGuidToShortName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: WindowsCodecs.lib
+req.dll: WindowsCodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICMapGuidToShortName
 product: Windows
 targetos: Windows
-req.lib: WindowsCodecs.lib
-req.dll: WindowsCodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WICMapGuidToShortName function

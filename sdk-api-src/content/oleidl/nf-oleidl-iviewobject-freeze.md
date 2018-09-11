@@ -4,17 +4,16 @@ title: IViewObject::Freeze
 author: windows-sdk-content
 description: Freezes the drawn representation of an object so that it will not change until the IViewObject::Unfreeze method is called. The most common use of this method is for banded printing.
 old-location: com\iviewobject_freeze.htm
-old-project: com
+tech.root: com
 ms.assetid: 943faf31-7de4-45da-887b-7ded479ac732
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Freeze, Freeze method [COM], Freeze method [COM],IViewObject interface, IViewObject interface [COM],Freeze method, IViewObject.Freeze, IViewObject::Freeze, _ole_iviewobject_freeze, com.iviewobject_freeze, oleidl/IViewObject::Freeze
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IViewObject.Freeze
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IViewObject::Freeze

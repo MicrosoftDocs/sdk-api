@@ -4,7 +4,7 @@ title: NLM_SIMULATED_PROFILE_INFO
 author: windows-sdk-content
 description: Used to specify values that are used by SetSimulatedProfileInfo to override current internet connection profile values in an RDP Child Session to support the simulation of specific metered internet connection conditions.
 old-location: nla\nlm_simulated_profile_info.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 1DC80EB0-E63A-4352-8269-D795E1573851
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_SIMULATED_PROFILE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NLM_SIMULATED_PROFILE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NLM_SIMULATED_PROFILE_INFO
+req.redist: 
 ---
 
 # NLM_SIMULATED_PROFILE_INFO structure

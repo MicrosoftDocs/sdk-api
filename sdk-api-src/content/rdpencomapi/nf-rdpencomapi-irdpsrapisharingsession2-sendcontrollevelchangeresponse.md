@@ -4,17 +4,16 @@ title: IRDPSRAPISharingSession2::SendControlLevelChangeResponse
 author: windows-sdk-content
 description: Sends an OnControlLevelChangeResponse event.
 old-location: rdp\irdpsrapisharingsession2_sendcontrollevelchangeresponse.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: d10c8f2b-b1ee-4966-9e96-21e78124874b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPISharingSession2 interface [RDP],SendControlLevelChangeResponse method, IRDPSRAPISharingSession2.SendControlLevelChangeResponse, IRDPSRAPISharingSession2::SendControlLevelChangeResponse, SendControlLevelChangeResponse, SendControlLevelChangeResponse method [RDP], SendControlLevelChangeResponse method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession2_sendcontrollevelchangeresponse, rdpencomapi/IRDPSRAPISharingSession2::SendControlLevelChangeResponse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPISharingSession2.SendControlLevelChangeResponse
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPISharingSession2::SendControlLevelChangeResponse

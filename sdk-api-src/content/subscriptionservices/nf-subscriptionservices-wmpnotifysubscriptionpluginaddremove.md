@@ -4,17 +4,16 @@ title: WMPNotifySubscriptionPluginAddRemove function
 author: windows-sdk-content
 description: The WMPNotifySubscriptionPluginAddRemove function notifies Windows Media Player that a COM object has been installed or uninstalled.
 old-location: wmp\wmpnotifysubscriptionpluginaddremove.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 5217142d-fe1a-4d9f-a4e4-5d9e103ee573
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: WMPNotifyPluginAddRemove_Subscriptions, WMPNotifySubscriptionPluginAddRemove, WMPNotifySubscriptionPluginAddRemove function [Windows Media Player], contentpartner/WMPNotifySubscriptionPluginAddRemove, wmp.wmpnotifysubscriptionpluginaddremove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: subscriptionservices.h
 req.include-header: Subscriptionservices.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSubscriptionServiceEvent
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMPNotifySubscriptionPluginAddRemove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # WMPNotifySubscriptionPluginAddRemove function

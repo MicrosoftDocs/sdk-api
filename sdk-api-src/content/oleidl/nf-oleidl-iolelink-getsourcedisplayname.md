@@ -4,17 +4,16 @@ title: IOleLink::GetSourceDisplayName
 author: windows-sdk-content
 description: Retrieves the display name of the link source of the linked object.
 old-location: com\iolelink_getsourcedisplayname.htm
-old-project: com
+tech.root: com
 ms.assetid: a4c5bc82-f423-4a02-b8d4-49b38a9c0f42
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetSourceDisplayName, GetSourceDisplayName method [COM], GetSourceDisplayName method [COM],IOleLink interface, IOleLink interface [COM],GetSourceDisplayName method, IOleLink.GetSourceDisplayName, IOleLink::GetSourceDisplayName, _ole_iolelink_getsourcedisplayname, com.iolelink_getsourcedisplayname, oleidl/IOleLink::GetSourceDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleLink.GetSourceDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleLink::GetSourceDisplayName

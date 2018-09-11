@@ -4,17 +4,16 @@ title: IFsrmClassificationManager::CreateModuleDefinition
 author: windows-sdk-content
 description: Creates a module definition of the specified type.
 old-location: fsrm\ifsrmclassificationmanager_createmoduledefinition.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 1964f4b6-b4e0-45a2-aca1-2e3dc44745a4
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CreateModuleDefinition, CreateModuleDefinition method [File Server Resource Manager], CreateModuleDefinition method [File Server Resource Manager],FsrmClassificationManager class, CreateModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, CreateModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],CreateModuleDefinition method, IFsrmClassificationManager interface [File Server Resource Manager],CreateModuleDefinition method, IFsrmClassificationManager.CreateModuleDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],CreateModuleDefinition method, IFsrmClassificationManager2::CreateModuleDefinition, IFsrmClassificationManager::CreateModuleDefinition, fs.ifsrmclassificationmanager_createmoduledefinition, fsrm.ifsrmclassificationmanager_createmoduledefinition, fsrmpipeline/IFsrmClassificationManager2::CreateModuleDefinition, fsrmpipeline/IFsrmClassificationManager::CreateModuleDefinition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmClassificationManager.CreateModuleDefinition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationManager::CreateModuleDefinition

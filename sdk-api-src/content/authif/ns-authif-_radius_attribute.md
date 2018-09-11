@@ -4,7 +4,7 @@ title: "_RADIUS_ATTRIBUTE"
 author: windows-sdk-content
 description: The RADIUS_ATTRIBUTE structure represents a RADIUS attribute or an extended attribute.
 old-location: nps\IAS_radius_attribute.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 7c6e1a41-9736-4bd3-b709-779d871ead57
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: authif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RADIUS_ATTRIBUTE, *PRADIUS_ATTRIBUTE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RADIUS_ATTRIBUTE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: RADIUS_ATTRIBUTE, *PRADIUS_ATTRIBUTE
+req.redist: 
 ---
 
 # _RADIUS_ATTRIBUTE structure

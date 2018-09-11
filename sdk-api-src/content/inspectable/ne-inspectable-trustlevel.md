@@ -4,17 +4,16 @@ title: TrustLevel
 author: windows-sdk-content
 description: Represents the trust level of an activatable class.
 old-location: winrt\trustlevel.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 75E30E4B-EE5F-41C4-AC22-91D542E920EB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BaseTrust, FullTrust, PartialTrust, RegisteredTrustLevel, TrustLevel, TrustLevel enumeration [Windows Runtime], inspectable/BaseTrust, inspectable/FullTrust, inspectable/PartialTrust, inspectable/TrustLevel, winrt.trustlevel
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: inspectable.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TrustLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TrustLevel
+req.redist: 
 ---
 
 # TrustLevel enumeration

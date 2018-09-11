@@ -4,17 +4,16 @@ title: IAzBizRuleParameters::RemoveAll
 author: windows-sdk-content
 description: Removes all parameters from the list of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_removeall_method.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 5ec13e1b-6b83-4178-a5a5-b278fe7c8c3c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzBizRuleParameters interface [Security],RemoveAll method, IAzBizRuleParameters.RemoveAll, IAzBizRuleParameters::RemoveAll, RemoveAll, RemoveAll method [Security], RemoveAll method [Security],IAzBizRuleParameters interface, azroles/IAzBizRuleParameters::RemoveAll, security.iazbizruleparameters_removeall_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzBizRuleParameters.RemoveAll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzBizRuleParameters::RemoveAll

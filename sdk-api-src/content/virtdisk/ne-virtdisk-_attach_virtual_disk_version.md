@@ -4,17 +4,16 @@ title: "_ATTACH_VIRTUAL_DISK_VERSION"
 author: windows-sdk-content
 description: Contains the version of the virtual hard disk (VHD) ATTACH_VIRTUAL_DISK_PARAMETERS structure to use in calls to VHD functions.
 old-location: vhd\attach_virtual_disk_version.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 2cd4fda7-a005-49c6-a525-81b7605a189a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ATTACH_VIRTUAL_DISK_VERSION, ATTACH_VIRTUAL_DISK_VERSION enumeration [VHD], ATTACH_VIRTUAL_DISK_VERSION_1, ATTACH_VIRTUAL_DISK_VERSION_UNSPECIFIED, _ATTACH_VIRTUAL_DISK_VERSION, vdssys/ATTACH_VIRTUAL_DISK_VERSION, vdssys/ATTACH_VIRTUAL_DISK_VERSION_1, vdssys/ATTACH_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.attach_virtual_disk_version, vhd.surface_virtual_disk_version, virtdisk/ATTACH_VIRTUAL_DISK_VERSION, virtdisk/ATTACH_VIRTUAL_DISK_VERSION_1, virtdisk/ATTACH_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ATTACH_VIRTUAL_DISK_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ATTACH_VIRTUAL_DISK_VERSION
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: ATTACH_VIRTUAL_DISK_VERSION
+req.redist: 
 ---
 
 # _ATTACH_VIRTUAL_DISK_VERSION enumeration

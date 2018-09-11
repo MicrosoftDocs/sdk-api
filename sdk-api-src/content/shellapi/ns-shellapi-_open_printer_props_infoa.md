@@ -4,17 +4,16 @@ title: "_OPEN_PRINTER_PROPS_INFOA"
 author: windows-sdk-content
 description: Identifies a particular property sheet in a printer's property pages and whether that property sheet should be modal. Optionally used with the SHInvokePrinterCommand function.
 old-location: shell\OPEN_PRINTER_PROPS_INFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c5cabb04-20a2-40ce-aa4d-180b73db8eac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*POPEN_PRINTER_PROPS_INFOA, OPEN_PRINTER_PROPS_INFO, OPEN_PRINTER_PROPS_INFO structure [Windows Shell], OPEN_PRINTER_PROPS_INFOA, OPEN_PRINTER_PROPS_INFOW, POPEN_PRINTER_PROPS_INFO, POPEN_PRINTER_PROPS_INFO structure pointer [Windows Shell], _OPEN_PRINTER_PROPS_INFOA, _shell_OPEN_PRINTER_PROPS_INFO, shell.OPEN_PRINTER_PROPS_INFO, shellapi/OPEN_PRINTER_PROPS_INFO, shellapi/OPEN_PRINTER_PROPS_INFOA, shellapi/OPEN_PRINTER_PROPS_INFOW, shellapi/POPEN_PRINTER_PROPS_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPEN_PRINTER_PROPS_INFOA, *POPEN_PRINTER_PROPS_INFOA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OPEN_PRINTER_PROPS_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: OPEN_PRINTER_PROPS_INFOA, *POPEN_PRINTER_PROPS_INFOA
+req.redist: 
 ---
 
 # _OPEN_PRINTER_PROPS_INFOA structure

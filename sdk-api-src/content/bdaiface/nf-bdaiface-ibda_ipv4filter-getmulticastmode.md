@@ -4,17 +4,16 @@ title: IBDA_IPV4Filter::GetMulticastMode
 author: windows-sdk-content
 description: The GetMulticastMode method retrieves the multicast mode.
 old-location: mstv\ibda_ipv4filter_getmulticastmode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 231c20f6-3204-48a3-ad07-3df9c6d87bd7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetMulticastMode, GetMulticastMode method [Microsoft TV Technologies], GetMulticastMode method [Microsoft TV Technologies],IBDA_IPV4Filter interface, IBDA_IPV4Filter interface [Microsoft TV Technologies],GetMulticastMode method, IBDA_IPV4Filter.GetMulticastMode, IBDA_IPV4Filter::GetMulticastMode, IBDA_IPV4FilterGetMulticastMode, bdaiface/IBDA_IPV4Filter::GetMulticastMode, mstv.ibda_ipv4filter_getmulticastmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_IPV4Filter.GetMulticastMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_IPV4Filter::GetMulticastMode

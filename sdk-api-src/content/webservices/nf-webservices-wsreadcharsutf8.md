@@ -4,17 +4,16 @@ title: WsReadCharsUtf8 function
 author: windows-sdk-content
 description: Reads a specified number of text characters from the reader and returns them encoded in UTF-8.
 old-location: wsw\wsreadcharsutf8.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 03326291-a61b-457b-80ca-dbe5bef6bf9d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsReadCharsUtf8, WsReadCharsUtf8 function [Web Services for Windows], webservices/WsReadCharsUtf8, wsw.wsreadcharsutf8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsReadCharsUtf8
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsReadCharsUtf8 function

@@ -4,17 +4,16 @@ title: IFont::get_Name
 author: windows-sdk-content
 description: Retrieves the name of the font family.
 old-location: com\ifont_get_name.htm
-old-project: com
+tech.root: com
 ms.assetid: 04ce50a6-b833-4476-91a9-0d1ca7296314
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IFont interface [COM],get_Name method, IFont.get_Name, IFont::get_Name, _ctrl_ifont_get_name, com.ifont_get_name, get_Name, get_Name method [COM], get_Name method [COM],IFont interface, ocidl/IFont::get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFont.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFont::get_Name

@@ -4,17 +4,16 @@ title: IVdsLun::QueryHints
 author: windows-sdk-content
 description: Returns the hints currently applied to the LUN.
 old-location: base\ivdslun_queryhints.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 6cdbbf17-fcee-4cd4-bf5c-d994886262da
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsLun interface [VDS],QueryHints method, IVdsLun.QueryHints, IVdsLun::QueryHints, QueryHints, QueryHints method [VDS], QueryHints method [VDS],IVdsLun interface, base.ivdslun_queryhints, vds/IVdsLun::QueryHints, vdshwprv/IVdsLun::QueryHints
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLun.QueryHints
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLun::QueryHints

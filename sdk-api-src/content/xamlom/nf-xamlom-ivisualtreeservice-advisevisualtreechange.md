@@ -4,17 +4,16 @@ title: IVisualTreeService::AdviseVisualTreeChange
 author: windows-sdk-content
 description: Starts listening for changes to the visual tree.
 old-location: xaml_diagnostics\ivisualtreeservice_advisevisualtreechange.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 83971154-4E40-474C-91AD-2436B1D02CB8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AdviseVisualTreeChange, AdviseVisualTreeChange method, AdviseVisualTreeChange method,IVisualTreeService interface, IVisualTreeService interface,AdviseVisualTreeChange method, IVisualTreeService.AdviseVisualTreeChange, IVisualTreeService::AdviseVisualTreeChange, xaml_diagnostics.ivisualtreeservice_advisevisualtreechange, xamlom/IVisualTreeService::AdviseVisualTreeChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualTreeService.AdviseVisualTreeChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualTreeService::AdviseVisualTreeChange
@@ -62,7 +60,7 @@ Starts listening for changes to the visual tree.
 
 ### -param pCallback
 
-
+TBD
 
 
 

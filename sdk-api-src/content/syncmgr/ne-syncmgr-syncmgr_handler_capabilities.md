@@ -4,17 +4,16 @@ title: SYNCMGR_HANDLER_CAPABILITIES
 author: windows-sdk-content
 description: Specifies the capabilities of a handler regarding the actions that can be performed against it.
 old-location: shell\SYNCMGR_HANDLER_CAPABILITIES.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 99b0bebf-8131-49d0-bc9d-18fdf41c1371
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SYNCMGR_HANDLER_CAPABILITIES, SYNCMGR_HANDLER_CAPABILITIES enumeration [Windows Shell], SYNCMGR_HCM_CAN_BROWSE_CONTENT, SYNCMGR_HCM_CAN_SHOW_SCHEDULE, SYNCMGR_HCM_CONFLICT_STORE, SYNCMGR_HCM_EVENT_STORE, SYNCMGR_HCM_NONE, SYNCMGR_HCM_PROVIDES_ICON, SYNCMGR_HCM_QUERY_BEFORE_ACTIVATE, SYNCMGR_HCM_QUERY_BEFORE_DEACTIVATE, SYNCMGR_HCM_QUERY_BEFORE_DISABLE, SYNCMGR_HCM_QUERY_BEFORE_ENABLE, SYNCMGR_HCM_SUPPORTS_CONCURRENT_SESSIONS, SYNCMGR_HCM_VALID_MASK, shell.SYNCMGR_HANDLER_CAPABILITIES, shell_SYNCMGR_HANDLER_CAPABILITIES, syncmgr/SYNCMGR_HANDLER_CAPABILITIES, syncmgr/SYNCMGR_HCM_CAN_BROWSE_CONTENT, syncmgr/SYNCMGR_HCM_CAN_SHOW_SCHEDULE, syncmgr/SYNCMGR_HCM_CONFLICT_STORE, syncmgr/SYNCMGR_HCM_EVENT_STORE, syncmgr/SYNCMGR_HCM_NONE, syncmgr/SYNCMGR_HCM_PROVIDES_ICON, syncmgr/SYNCMGR_HCM_QUERY_BEFORE_ACTIVATE, syncmgr/SYNCMGR_HCM_QUERY_BEFORE_DEACTIVATE, syncmgr/SYNCMGR_HCM_QUERY_BEFORE_DISABLE, syncmgr/SYNCMGR_HCM_QUERY_BEFORE_ENABLE, syncmgr/SYNCMGR_HCM_SUPPORTS_CONCURRENT_SESSIONS, syncmgr/SYNCMGR_HCM_VALID_MASK
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_HANDLER_CAPABILITIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGR_HANDLER_CAPABILITIES
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SYNCMGR_HANDLER_CAPABILITIES
+req.redist: 
 ---
 
 # SYNCMGR_HANDLER_CAPABILITIES enumeration

@@ -4,17 +4,16 @@ title: GetPointerFramePenInfo function
 author: windows-sdk-content
 description: Gets the entire frame of pen-based information for the specified pointers (of type PT_PEN) associated with the current message.
 old-location: inputmsg\getpointerframepeninfo.htm
-old-project: InputMsg
+tech.root: InputMsg
 ms.assetid: 52db9b96-7f9e-41d7-88f7-b9c7691a6511
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetPointerFramePenInfo, GetPointerFramePenInfo function [Input Messages and Notifications], inputmsg.getpointerframepeninfo, winuser/GetPointerFramePenInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GetPointerFramePenInfo
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetPointerFramePenInfo function

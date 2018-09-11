@@ -4,7 +4,7 @@ title: ICDECOMPRESSEX
 author: windows-sdk-content
 description: The ICDECOMPRESSEX structure contains decompression parameters used with the ICM_DECOMPRESSEX message.
 old-location: multimedia\icdecompressex_struct.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: a07a7d1b-9967-4c52-9dd6-7616c3545b95
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICDECOMPRESSEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDECOMPRESSEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: ICDECOMPRESSEX
+req.redist: 
 ---
 
 # ICDECOMPRESSEX structure

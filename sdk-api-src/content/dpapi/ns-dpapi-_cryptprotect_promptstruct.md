@@ -4,17 +4,16 @@ title: "_CRYPTPROTECT_PROMPTSTRUCT"
 author: windows-sdk-content
 description: Provides the text of a prompt and information about when and where that prompt is to be displayed when using the CryptProtectData and CryptUnprotectData functions.
 old-location: security\cryptprotect_promptstruct.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 412ce598-a7c9-446d-bd98-6583a20d6cd7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPTPROTECT_PROMPTSTRUCT, CRYPTPROTECT_PROMPTSTRUCT, CRYPTPROTECT_PROMPTSTRUCT structure [Security], CRYPTPROTECT_PROMPT_ON_PROTECT, CRYPTPROTECT_PROMPT_ON_UNPROTECT, PCRYPTPROTECT_PROMPTSTRUCT, PCRYPTPROTECT_PROMPTSTRUCT structure pointer [Security], _CRYPTPROTECT_PROMPTSTRUCT, _crypto2_cryptprotect_promptstruct, dpapi/CRYPTPROTECT_PROMPTSTRUCT, dpapi/PCRYPTPROTECT_PROMPTSTRUCT, security.cryptprotect_promptstruct, wincrypt/CRYPTPROTECT_PROMPTSTRUCT, wincrypt/PCRYPTPROTECT_PROMPTSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CRYPTPROTECT_PROMPTSTRUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.redist: 
 ---
 
 # _CRYPTPROTECT_PROMPTSTRUCT structure

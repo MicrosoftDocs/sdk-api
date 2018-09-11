@@ -4,17 +4,16 @@ title: IDWriteRenderingParams::GetGamma
 author: windows-sdk-content
 description: Gets the gamma value used for gamma correction. Valid values must be greater than zero and cannot exceed 256.
 old-location: directwrite\IDWriteRenderingParams_GetGamma.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: f83adfd6-055d-4b73-89a8-e0fe5af0b661
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetGamma, GetGamma method [Direct Write], GetGamma method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetGamma method, IDWriteRenderingParams.GetGamma, IDWriteRenderingParams::GetGamma, directwrite.IDWriteRenderingParams_GetGamma, dwrite/IDWriteRenderingParams::GetGamma
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteRenderingParams.GetGamma
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteRenderingParams::GetGamma

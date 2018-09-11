@@ -4,7 +4,7 @@ title: DNS_PROXY_INFORMATION
 author: windows-sdk-content
 description: Contains the proxy information for a DNS server's name resolution policy table.
 old-location: dns\dns_proxy_information.htm
-old-project: dns
+tech.root: dns
 ms.assetid: cfe7653f-7e68-4e50-ba67-bd441f837ef8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_PROXY_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_PROXY_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_PROXY_INFORMATION
+req.redist: 
 ---
 
 # DNS_PROXY_INFORMATION structure

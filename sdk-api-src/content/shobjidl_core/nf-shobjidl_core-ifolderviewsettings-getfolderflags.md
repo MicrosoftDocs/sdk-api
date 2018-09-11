@@ -4,17 +4,16 @@ title: IFolderViewSettings::GetFolderFlags
 author: windows-sdk-content
 description: Gets folder view options flags.
 old-location: shell\IFolderViewSettings_GetFolderFlags.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a3b21d20-179c-4d6c-ac2e-9001d6358e52
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetFolderFlags, GetFolderFlags method [Windows Shell], GetFolderFlags method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetFolderFlags method, IFolderViewSettings.GetFolderFlags, IFolderViewSettings::GetFolderFlags, _shell_IFolderViewSettings_GetFolderFlags, shell.IFolderViewSettings_GetFolderFlags, shobjidl_core/IFolderViewSettings::GetFolderFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderViewSettings.GetFolderFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderViewSettings::GetFolderFlags

@@ -4,17 +4,16 @@ title: IUPnPServiceAsync::BeginQueryStateVariable
 author: windows-sdk-content
 description: BeginQueryStateVariable method initiates an asynchronous request for the state variable value from a specific service.
 old-location: upnp\iupnpserviceasync_beginquerystatevariable.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 1E97589C-A06B-4012-A2A2-C88BBE9B2530
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: BeginQueryStateVariable, BeginQueryStateVariable method [UPnP APIs], BeginQueryStateVariable method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginQueryStateVariable method, IUPnPServiceAsync.BeginQueryStateVariable, IUPnPServiceAsync::BeginQueryStateVariable, upnp.iupnpserviceasync_beginquerystatevariable, upnp/IUPnPServiceAsync::BeginQueryStateVariable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPServiceAsync.BeginQueryStateVariable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPServiceAsync::BeginQueryStateVariable

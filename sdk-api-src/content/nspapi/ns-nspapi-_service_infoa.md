@@ -4,17 +4,16 @@ title: "_SERVICE_INFOA"
 author: windows-sdk-content
 description: Contains information about a network service or a network service type.
 old-location: winsock\service_info_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: e76e0c1b-8cbf-45ad-a685-fb672801c24d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVICE_INFOA, *PSERVICE_INFOA, RESOURCEDISPLAYTYPE_DOMAIN, RESOURCEDISPLAYTYPE_FILE, RESOURCEDISPLAYTYPE_GENERIC, RESOURCEDISPLAYTYPE_GROUP, RESOURCEDISPLAYTYPE_SERVER, RESOURCEDISPLAYTYPE_SHARE, RESOURCEDISPLAYTYPE_TREE, SERVICE_INFO, SERVICE_INFO structure [Winsock], SERVICE_INFOA, SERVICE_INFOW, _SERVICE_INFOA, _win32_service_info_2, nspapi/SERVICE_INFO, nspapi/SERVICE_INFOA, nspapi/SERVICE_INFOW, winsock.service_info_2"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: nspapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_INFOA, *PSERVICE_INFOA, *LPSERVICE_INFOA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SERVICE_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SERVICE_INFOA, *PSERVICE_INFOA, *LPSERVICE_INFOA
+req.redist: 
 ---
 
 # _SERVICE_INFOA structure

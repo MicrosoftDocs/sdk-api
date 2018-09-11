@@ -4,17 +4,16 @@ title: IMaintenanceSettings::put_Period
 author: windows-sdk-content
 description: Gets or sets the amount of time the task needs to be once executed during regular Automatic maintenance.
 old-location: taskschd\imaintenancesettings_period.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 7499C35C-AE46-4F9C-9D81-1FC00B953DFB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMaintenanceSettings interface [Task Scheduler],Period property, IMaintenanceSettings.Period, IMaintenanceSettings.put_Period, IMaintenanceSettings::Period, IMaintenanceSettings::get_Period, IMaintenanceSettings::put_Period, Period property [Task Scheduler], Period property [Task Scheduler],IMaintenanceSettings interface, put_Period, taskschd.imaintenancesettings_period, taskschd/IMaintenanceSettings::Period, taskschd/IMaintenanceSettings::get_Period, taskschd/IMaintenanceSettings::put_Period
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IMaintenanceSettings.put_Period
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMaintenanceSettings::put_Period

@@ -4,17 +4,16 @@ title: IDsAdminCreateObj::Initialize
 author: windows-sdk-content
 description: The IDsAdminCreateObj::Initialize method initializes an IDsAdminCreateObj object with data about the container where the object will be created, the class of the object to be created and, possibly, the source object to copy from.
 old-location: ad\idsadmincreateobj_initialize.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 811863e7-25d2-48d0-bf97-61b49a224c98
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDsAdminCreateObj interface [Active Directory],Initialize method, IDsAdminCreateObj.Initialize, IDsAdminCreateObj::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminCreateObj interface, _glines_idsadmincreateobj_initialize, ad.idsadmincreateobj__initialize, ad.idsadmincreateobj_initialize, dsadmin/IDsAdminCreateObj::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsAdminCreateObj.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DSAdmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsAdminCreateObj::Initialize

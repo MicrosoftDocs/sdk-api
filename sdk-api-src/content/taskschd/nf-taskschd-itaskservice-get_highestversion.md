@@ -4,17 +4,16 @@ title: ITaskService::get_HighestVersion
 author: windows-sdk-content
 description: Indicates the highest version of Task Scheduler that a computer supports.
 old-location: taskschd\itaskservice_highestversion.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 27b08a17-fdd9-4c28-b498-e10e80ae49f0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HighestVersion property [Task Scheduler], HighestVersion property [Task Scheduler],ITaskService interface, HighestVersion property [Task Scheduler],TBD object, ITaskService interface [Task Scheduler],HighestVersion property, ITaskService.HighestVersion, ITaskService.get_HighestVersion, ITaskService::HighestVersion, ITaskService::get_HighestVersion, TBD object [Task Scheduler],HighestVersion property, get_HighestVersion, taskschd.itaskservice_highestversion, taskschd/ITaskService::HighestVersion, taskschd/ITaskService::get_HighestVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - TBD.HighestVersion
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskService::get_HighestVersion

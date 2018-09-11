@@ -4,17 +4,16 @@ title: IMFAttributes::SetItem
 author: windows-sdk-content
 description: Adds an attribute value with a specified key.
 old-location: mf\imfattributes_setitem.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1ac6e1c3-cf78-4cff-a992-4f92f243c443
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 1ac6e1c3-cf78-4cff-a992-4f92f243c443, IMFAttributes interface [Media Foundation],SetItem method, IMFAttributes.SetItem, IMFAttributes::SetItem, SetItem, SetItem method [Media Foundation], SetItem method [Media Foundation],IMFAttributes interface, mf.imfattributes_setitem, mfobjects/IMFAttributes::SetItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAttributes.SetItem
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAttributes::SetItem

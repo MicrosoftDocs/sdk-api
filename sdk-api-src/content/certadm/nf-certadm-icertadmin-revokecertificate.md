@@ -4,17 +4,16 @@ title: ICertAdmin::RevokeCertificate
 author: windows-sdk-content
 description: Revokes a certificate either on a specified date or immediately. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_revokecertificate.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: d44ff8c1-a248-4e2a-a73f-55fbea9fce03
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertAdmin interface [Security],RevokeCertificate method, CRL_REASON_AFFILIATION_CHANGED, CRL_REASON_CA_COMPROMISE, CRL_REASON_CERTIFICATE_HOLD, CRL_REASON_CESSATION_OF_OPERATION, CRL_REASON_KEY_COMPROMISE, CRL_REASON_SUPERSEDED, CRL_REASON_UNSPECIFIED, ICertAdmin interface [Security],RevokeCertificate method, ICertAdmin.RevokeCertificate, ICertAdmin2 interface [Security],RevokeCertificate method, ICertAdmin2::RevokeCertificate, ICertAdmin::RevokeCertificate, RevokeCertificate, RevokeCertificate method [Security], RevokeCertificate method [Security],CCertAdmin interface, RevokeCertificate method [Security],ICertAdmin interface, RevokeCertificate method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::RevokeCertificate, certadm/ICertAdmin::RevokeCertificate, security.icertadmin2_revokecertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertAdmin.RevokeCertificate
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertAdmin::RevokeCertificate

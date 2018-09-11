@@ -4,17 +4,16 @@ title: IMFAttributes::GetAllocatedBlob
 author: windows-sdk-content
 description: Retrieves a byte array associated with a key. This method allocates the memory for the array.
 old-location: mf\imfattributes_getallocatedblob.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 380e0e3a-b5c5-4d31-8793-417262377fef
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 380e0e3a-b5c5-4d31-8793-417262377fef, GetAllocatedBlob, GetAllocatedBlob method [Media Foundation], GetAllocatedBlob method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetAllocatedBlob method, IMFAttributes.GetAllocatedBlob, IMFAttributes::GetAllocatedBlob, mf.imfattributes_getallocatedblob, mfobjects/IMFAttributes::GetAllocatedBlob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAttributes.GetAllocatedBlob
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAttributes::GetAllocatedBlob

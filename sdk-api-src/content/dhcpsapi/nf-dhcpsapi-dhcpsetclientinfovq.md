@@ -4,17 +4,16 @@ title: DhcpSetClientInfoVQ function
 author: windows-sdk-content
 description: Sets or modifies an existing DHCP client lease record in the DHCP server record database.
 old-location: dhcp\dhcpsetclientinfovq.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: c12ae8f5-8629-494f-905c-cbae57dcf3f1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpSetClientInfoVQ, DhcpSetClientInfoVQ function [DHCP], dhcp.dhcpsetclientinfovq, dhcpsapi/DhcpSetClientInfoVQ
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpSetClientInfoVQ
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpSetClientInfoVQ function

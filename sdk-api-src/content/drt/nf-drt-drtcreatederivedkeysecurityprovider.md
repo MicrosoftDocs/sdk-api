@@ -4,17 +4,16 @@ title: DrtCreateDerivedKeySecurityProvider function
 author: windows-sdk-content
 description: DrtCreateDerivedKeySecurityProvider function creates the derived key security provider for a Distributed Routing Table.
 old-location: p2p\drtcreatederivedkeysecurityprovider.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: e4cc8326-e2bc-459f-97dd-a00cfd1ed35e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtCreateDerivedKeySecurityProvider, DrtCreateDerivedKeySecurityProvider function [Peer Networking], drt/DrtCreateDerivedKeySecurityProvider, p2p.drtcreatederivedkeysecurityprovider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drtprov.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtCreateDerivedKeySecurityProvider
 product: Windows
 targetos: Windows
-req.lib: Drtprov.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtCreateDerivedKeySecurityProvider function

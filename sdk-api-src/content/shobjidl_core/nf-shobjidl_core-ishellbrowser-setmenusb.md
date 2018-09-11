@@ -4,17 +4,16 @@ title: IShellBrowser::SetMenuSB
 author: windows-sdk-content
 description: Installs the composite menu in the view window.
 old-location: shell\IShellBrowser_SetMenuSB.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ae6fe864-7fa1-4c74-a27f-d428bdeccc3d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellBrowser interface [Windows Shell],SetMenuSB method, IShellBrowser.SetMenuSB, IShellBrowser::SetMenuSB, SetMenuSB, SetMenuSB method [Windows Shell], SetMenuSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SetMenuSB, shell.IShellBrowser_SetMenuSB, shobjidl_core/IShellBrowser::SetMenuSB
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellBrowser.SetMenuSB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellBrowser::SetMenuSB

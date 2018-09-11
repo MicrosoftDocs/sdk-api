@@ -4,7 +4,7 @@ title: ITfIntegratableCandidateListUIElement
 author: windows-sdk-content
 description: Enables text services and Input Method Editors (IMEs) to adjust UI-less mode behavior.
 old-location: tsf\itfintegratablecandidatelistuielement.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: F9AB2037-6806-42FC-BD41-F6B6BA047908
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfIntegratableCandidateListUIElement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITfIntegratableCandidateListUIElement interface

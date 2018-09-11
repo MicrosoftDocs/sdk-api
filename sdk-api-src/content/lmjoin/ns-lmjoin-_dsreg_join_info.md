@@ -4,17 +4,16 @@ title: "_DSREG_JOIN_INFO"
 author: windows-sdk-content
 description: Contains information about how a device is joined to Microsoft Azure Active Directory.
 old-location: netmgmt\dsreg_join_info.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 9B0F7BE3-BDCD-437E-9157-9A646A2A20E2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PDSREG_JOIN_INFO, DSREG_JOIN_INFO, DSREG_JOIN_INFO structure [Network Management], PDSREG_JOIN_INFO, PDSREG_JOIN_INFO structure pointer [Network Management], _DSREG_JOIN_INFO, lmjoin/DSREG_JOIN_INFO, lmjoin/PDSREG_JOIN_INFO, netmgmt.dsreg_join_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmjoin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSREG_JOIN_INFO, *PDSREG_JOIN_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSREG_JOIN_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DSREG_JOIN_INFO, *PDSREG_JOIN_INFO
+req.redist: 
 ---
 
 # _DSREG_JOIN_INFO structure

@@ -4,17 +4,16 @@ title: "_RPC_SECURITY_QOS_V2_W"
 author: windows-sdk-content
 description: The RPC_SECURITY_QOS_V2 structure defines version 2 security quality-of-service settings on a binding handle. See Remarks for version availability on Windows editions.
 old-location: rpc\rpc_security_qos_v2.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 4499a522-2911-444f-9fa4-e5a73c3b4391
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRPC_SECURITY_QOS_V2_W, 0, PRPC_SECURITY_QOS_V2, PRPC_SECURITY_QOS_V2 structure pointer [RPC], RPC_C_AUTHN_INFO_TYPE_HTTP, RPC_C_IMP_LEVEL_ANONYMOUS, RPC_C_IMP_LEVEL_DEFAULT, RPC_C_IMP_LEVEL_DELEGATE, RPC_C_IMP_LEVEL_IDENTIFY, RPC_C_IMP_LEVEL_IMPERSONATE, RPC_C_QOS_CAPABILITIES_ANY_AUTHORITY, RPC_C_QOS_CAPABILITIES_DEFAULT, RPC_C_QOS_CAPABILITIES_IGNORE_DELEGATE_FAILURE, RPC_C_QOS_CAPABILITIES_LOCAL_MA_HINT, RPC_C_QOS_CAPABILITIES_MAKE_FULLSIC, RPC_C_QOS_CAPABILITIES_MUTUAL_AUTH, RPC_C_QOS_IDENTITY_DYNAMIC, RPC_C_QOS_IDENTITY_STATIC, RPC_SECURITY_QOS_V2, RPC_SECURITY_QOS_V2 structure [RPC], RPC_SECURITY_QOS_V2_W, _RPC_SECURITY_QOS_V2_A, _RPC_SECURITY_QOS_V2_W, rpc.rpc_security_qos_v2, rpcdce/PRPC_SECURITY_QOS_V2, rpcdce/RPC_SECURITY_QOS_V2"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_SECURITY_QOS_V2_W, *PRPC_SECURITY_QOS_V2_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_SECURITY_QOS_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_SECURITY_QOS_V2_W, *PRPC_SECURITY_QOS_V2_W
+req.redist: 
 ---
 
 # _RPC_SECURITY_QOS_V2_W structure

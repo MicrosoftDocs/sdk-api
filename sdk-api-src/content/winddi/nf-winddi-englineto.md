@@ -4,17 +4,16 @@ title: EngLineTo function
 author: windows-sdk-content
 description: The EngLineTo function draws a single, solid, integer-only cosmetic line.
 old-location: display\englineto.htm
-old-project: display
+tech.root: display
 ms.assetid: 989ac941-496e-4433-a871-f541fdced45f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngLineTo, EngLineTo function [Display Devices], display.englineto, gdifncs_7f51ef7a-df4c-4482-a411-101dff0711d7.xml, winddi/EngLineTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngLineTo
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngLineTo function

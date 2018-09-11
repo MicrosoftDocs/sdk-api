@@ -4,17 +4,16 @@ title: IWindowsDriverUpdate2::CopyToCache
 author: windows-sdk-content
 description: Copies the external update binaries to an update.
 old-location: wua\iwindowsdriverupdate2_copytocache.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 3ad3f1bf-8da3-4d7d-8ed9-508422782861
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CopyToCache, CopyToCache method [Windows Update Agent], CopyToCache method [Windows Update Agent],IWindowsDriverUpdate2 interface, IWindowsDriverUpdate2 interface [Windows Update Agent],CopyToCache method, IWindowsDriverUpdate2.CopyToCache, IWindowsDriverUpdate2::CopyToCache, wua.iwindowsdriverupdate2_copytocache, wuapi/IWindowsDriverUpdate2::CopyToCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowsDriverUpdate2.CopyToCache
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsDriverUpdate2::CopyToCache

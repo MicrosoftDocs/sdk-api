@@ -4,17 +4,16 @@ title: DrtDeleteDnsBootstrapResolver function
 author: windows-sdk-content
 description: DrtDeleteDnsBootstrapResolver function deletes a DNS Bootstrap Provider instance.
 old-location: p2p\drtdeletednsbootstrapresolver.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: fc3d0b6a-1bf3-41f9-82b6-965c285bc6c7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtDeleteDnsBootstrapResolver, DrtDeleteDnsBootstrapResolver function [Distributed Routing Tables], drt/DrtDeleteDnsBootstrapResolver, p2p.drtdeletednsbootstrapresolver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drtprov.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtDeleteDnsBootstrapResolver
 product: Windows
 targetos: Windows
-req.lib: Drtprov.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtDeleteDnsBootstrapResolver function

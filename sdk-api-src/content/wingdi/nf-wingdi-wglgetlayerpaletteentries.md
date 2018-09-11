@@ -4,17 +4,16 @@ title: wglGetLayerPaletteEntries function
 author: windows-sdk-content
 description: Retrieves the palette entries from a given color-index layer plane for a specified device context.
 old-location: opengl\wglgetlayerpaletteentries.htm
-old-project: OpenGL
+tech.root: OpenGL
 ms.assetid: 9f2d6f59-f1c6-44a5-8741-1ea4d84f5b2c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ogl_wglGetLayerPaletteEntries, opengl.wglgetlayerpaletteentries, wglGetLayerPaletteEntries, wglGetLayerPaletteEntries function [OpenGL], wingdi/wglGetLayerPaletteEntries"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Opengl32.lib
+req.dll: Opengl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - wglGetLayerPaletteEntries
 product: Windows
 targetos: Windows
-req.lib: Opengl32.lib
-req.dll: Opengl32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # wglGetLayerPaletteEntries function
@@ -60,7 +58,27 @@ Retrieves the palette entries from a given color-index layer plane for a specifi
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
+
+
+### -param arg5
 
 TBD
 

@@ -4,17 +4,16 @@ title: UnregisterServerForPMP function
 author: windows-sdk-content
 description: Registers a COM Server CLSID and a class factory that were previously registered for Protected Media Process (PMP) usage.
 old-location: winprog\unregisterserverforpmp.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: FF89301E-FE17-4B14-872E-271BDB85A784
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: UnregisterServerForPMP, UnregisterServerForPMP function [Windows API], comppkgsup/UnregisterServerForPMP, winprog.unregisterserverforpmp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: comppkgsup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGELISTDRAWPARAMS
+req.lib: Comppkgsup.lib
+req.dll: CompPkgSup.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - UnregisterServerForPMP
 product: Windows
 targetos: Windows
-req.lib: Comppkgsup.lib
-req.dll: CompPkgSup.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # UnregisterServerForPMP function

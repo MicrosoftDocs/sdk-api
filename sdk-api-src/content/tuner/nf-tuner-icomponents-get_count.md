@@ -4,17 +4,16 @@ title: IComponents::get_Count
 author: windows-sdk-content
 description: The get_Count method gets the number of Component objects in the collection.
 old-location: mstv\icomponents_get_count.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ba198e27-c699-4c93-aa2d-b8be8c40380c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],get_Count method, IComponents.get_Count, IComponents::get_Count, IComponentsget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IComponents interface, mstv.icomponents_get_count, tuner/IComponents::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponents.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponents::get_Count
@@ -65,7 +63,7 @@ The <b>get_Count</b> method gets the number of <b>Component</b> objects in the c
 
 ### -param Count
 
-
+TBD
 
 
 

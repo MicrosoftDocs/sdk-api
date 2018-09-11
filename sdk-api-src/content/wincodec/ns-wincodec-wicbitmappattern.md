@@ -4,7 +4,7 @@ title: WICBitmapPattern
 author: windows-sdk-content
 description: Contains members that identify a pattern within an image file which can be used to identify a particular format.
 old-location: wic\_wic_codec_wicbitmappattern.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 6f0cd639-c0db-46e4-b3a3-bc21222d97ee
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICBitmapPattern
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICBitmapPattern
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICBitmapPattern
+req.redist: 
 ---
 
 # WICBitmapPattern structure

@@ -4,17 +4,16 @@ title: IStreamSample::CompletionStatus
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the status of the current sample's latest asynchronous update. If the update isn't complete, you can force it to complete.
 old-location: dshow\istreamsample_completionstatus.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: bfc3fd16-20b1-4581-abb0-66781aa3d584
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: CompletionStatus, CompletionStatus method [DirectShow], CompletionStatus method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],CompletionStatus method, IStreamSample.CompletionStatus, IStreamSample::CompletionStatus, IStreamSampleCompletionStatus, dshow.istreamsample_completionstatus, mmstream/IStreamSample::CompletionStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamSample.CompletionStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamSample::CompletionStatus

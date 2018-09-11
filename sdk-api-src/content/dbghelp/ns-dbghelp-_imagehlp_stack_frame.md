@@ -4,17 +4,16 @@ title: "_IMAGEHLP_STACK_FRAME"
 author: windows-sdk-content
 description: Contains the stack frame information.
 old-location: base\imagehlp_stack_frame_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: b6c89cf2-b108-4518-9f4c-4a3684b3f0a7
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PIMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME structure, PIMAGEHLP_STACK_FRAME, PIMAGEHLP_STACK_FRAME structure pointer, _IMAGEHLP_STACK_FRAME, _win32_imagehlp_stack_frame_str, base.imagehlp_stack_frame_str, dbghelp/IMAGEHLP_STACK_FRAME, dbghelp/PIMAGEHLP_STACK_FRAME"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_STACK_FRAME, *PIMAGEHLP_STACK_FRAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMAGEHLP_STACK_FRAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IMAGEHLP_STACK_FRAME, *PIMAGEHLP_STACK_FRAME
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _IMAGEHLP_STACK_FRAME structure

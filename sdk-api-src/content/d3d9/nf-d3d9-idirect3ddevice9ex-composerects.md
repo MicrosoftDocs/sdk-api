@@ -4,17 +4,16 @@ title: IDirect3DDevice9Ex::ComposeRects
 author: windows-sdk-content
 description: Copy a text string to one surface using an alphabet of glyphs on another surface. Composition is done by the GPU using bitwise operations.
 old-location: direct3d9\idirect3ddevice9ex_composerect.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_composerect.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 097e4733-c996-6415-2d0b-16df84b70922, ComposeRects, ComposeRects method [Direct3D 9], ComposeRects method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],ComposeRects method, IDirect3DDevice9Ex.ComposeRects, IDirect3DDevice9Ex::ComposeRects, d3d9/IDirect3DDevice9Ex::ComposeRects, direct3d9.idirect3ddevice9ex_composerect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9Ex.ComposeRects
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9Ex::ComposeRects
@@ -62,17 +61,17 @@ Copy a text string to one surface using an alphabet of glyphs on another surface
 
 ### -param pSrc
 
-
+TBD
 
 
 ### -param pDst
 
-
+TBD
 
 
 ### -param pSrcRectDescs
 
-
+TBD
 
 
 ### -param NumRects [in]
@@ -84,7 +83,7 @@ The number of rectangles or glyphs that are used in the operation. The number ap
 
 ### -param pDstRectDescs
 
-
+TBD
 
 
 ### -param Operation [in]
@@ -96,12 +95,12 @@ Specifies how to combine the source and destination surfaces. See <a href="https
 
 ### -param Xoffset
 
-
+TBD
 
 
 ### -param Yoffset
 
-
+TBD
 
 
 

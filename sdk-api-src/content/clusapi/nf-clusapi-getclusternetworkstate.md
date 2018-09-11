@@ -4,17 +4,16 @@ title: GetClusterNetworkState function
 author: windows-sdk-content
 description: Current state of a network.
 old-location: mscs\getclusternetworkstate.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 7fdbc0cf-fa7b-4b48-bd3c-46f174fc514a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetClusterNetworkState, GetClusterNetworkState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NETWORK_STATE, PCLUSAPI_GET_CLUSTER_NETWORK_STATE function [Failover Cluster], _wolf_getclusternetworkstate, clusapi/GetClusterNetworkState, clusapi/PCLUSAPI_GET_CLUSTER_NETWORK_STATE, mscs.getclusternetworkstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GetClusterNetworkState
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetClusterNetworkState function

@@ -4,17 +4,16 @@ title: tagOLEUIINSERTOBJECTW
 author: windows-sdk-content
 description: Contains information that the OLE User Interface Library uses to initialize the Insert Object dialog box, and space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuiinsertobject_struct.htm
-old-project: com
+tech.root: com
 ms.assetid: b14df159-ed62-4745-8cac-c31364d0de7b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPOLEUIINSERTOBJECTW, *POLEUIINSERTOBJECTW, IOF_CHECKDISPLAYASICON, IOF_CHECKLINK, IOF_CREATEFILEOBJECT, IOF_CREATELINKOBJECT, IOF_CREATENEWOBJECT, IOF_DISABLEDISPLAYASICON, IOF_DISABLELINK, IOF_HIDECHANGEICON, IOF_SELECTCREATECONTROL, IOF_SELECTCREATEFROMFILE, IOF_SELECTCREATENEW, IOF_SHOWHELP, IOF_SHOWINSERTCONTROL, IOF_VERIFYSERVERSEXIST, LPOLEUIINSERTOBJECT, LPOLEUIINSERTOBJECT structure pointer [COM], OLEUIINSERTOBJECT, OLEUIINSERTOBJECT structure [COM], OLEUIINSERTOBJECTA, OLEUIINSERTOBJECTW, POLEUIINSERTOBJECT, POLEUIINSERTOBJECT structure pointer [COM], _ole_OLEUIINSERTOBJECT_str, com.oleuiinsertobject_struct, oledlg/LPOLEUIINSERTOBJECT, oledlg/OLEUIINSERTOBJECT, oledlg/OLEUIINSERTOBJECTA, oledlg/OLEUIINSERTOBJECTW, oledlg/POLEUIINSERTOBJECT, tagOLEUIINSERTOBJECTW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIINSERTOBJECTW, *POLEUIINSERTOBJECTW, *LPOLEUIINSERTOBJECTW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OLEUIINSERTOBJECTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEUIINSERTOBJECTW, *POLEUIINSERTOBJECTW, *LPOLEUIINSERTOBJECTW
+req.redist: 
 ---
 
 # tagOLEUIINSERTOBJECTW structure

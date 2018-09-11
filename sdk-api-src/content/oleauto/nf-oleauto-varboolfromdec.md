@@ -4,17 +4,16 @@ title: VarBoolFromDec function
 author: windows-sdk-content
 description: Converts a decimal value to a Boolean value.
 old-location: automat\varboolfromdec.htm
-old-project: automat
+tech.root: automat
 ms.assetid: f7397feb-8ef4-4734-875a-0ef2bb818caa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarBoolFromDec, VarBoolFromDec function [Automation], _oa96_VarBoolFromDec, automat.varboolfromdec, oleauto/VarBoolFromDec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarBoolFromDec
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarBoolFromDec function

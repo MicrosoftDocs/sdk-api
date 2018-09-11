@@ -4,17 +4,16 @@ title: GraphicsPathIterator::NextPathType
 author: windows-sdk-content
 description: The GraphicsPathIterator::NextPathType method gets the starting index and the ending index of the next group of data points that all have the same type.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_startIndex_endIndex_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\nextpathtype.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GraphicsPathIterator class [GDI+],NextPathType method, GraphicsPathIterator.NextPathType, GraphicsPathIterator::NextPathType, NextPathType, NextPathType method [GDI+], NextPathType method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_startIndex_endIndex_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_startIndex_endIndex_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WmfPlaceableFileHeader
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GraphicsPathIterator.NextPathType
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

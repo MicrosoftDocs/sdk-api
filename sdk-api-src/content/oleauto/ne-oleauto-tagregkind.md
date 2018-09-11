@@ -4,7 +4,7 @@ title: tagREGKIND
 author: windows-sdk-content
 description: Controls how a type library is registered.
 old-location: automat\regkind.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 2ca13d58-59d2-4e5d-8094-9f1c03bf463c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REGKIND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: REGKIND
+req.redist: 
 ---
 
 # tagREGKIND enumeration

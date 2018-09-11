@@ -4,17 +4,16 @@ title: IAMStreamConfig::GetFormat
 author: windows-sdk-content
 description: The GetFormat method retrieves the current or preferred output format.
 old-location: dshow\iamstreamconfig_getformat.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 5443141b-eb2c-412c-8bd1-7175e724b602
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetFormat method, IAMStreamConfig.GetFormat, IAMStreamConfig::GetFormat, IAMStreamConfigGetFormat, dshow.iamstreamconfig_getformat, strmif/IAMStreamConfig::GetFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMStreamConfig.GetFormat
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMStreamConfig::GetFormat
@@ -66,7 +64,7 @@ The <code>GetFormat</code> method retrieves the current or preferred output form
 
 ### -param ppmt
 
-
+TBD
 
 
 

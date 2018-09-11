@@ -4,17 +4,16 @@ title: IFsrmPropertyBag::get_VolumeName
 author: windows-sdk-content
 description: The name of the volume on which the file exists.
 old-location: fsrm\ifsrmpropertybag_volumename.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 65b47ad3-eb81-468e-a4fb-8a52d6b99998
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],VolumeName property, IFsrmPropertyBag.VolumeName, IFsrmPropertyBag.get_VolumeName, IFsrmPropertyBag::VolumeName, IFsrmPropertyBag::get_VolumeName, VolumeName property [File Server Resource Manager], VolumeName property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_volumename, fsrm.ifsrmpropertybag_volumename, fsrmpipeline/IFsrmPropertyBag::VolumeName, fsrmpipeline/IFsrmPropertyBag::get_VolumeName, get_VolumeName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmPropertyBag.get_VolumeName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPropertyBag::get_VolumeName

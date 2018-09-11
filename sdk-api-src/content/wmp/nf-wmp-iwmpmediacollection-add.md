@@ -4,17 +4,16 @@ title: IWMPMediaCollection::add
 author: windows-sdk-content
 description: The add method adds a new media item or playlist to the library.
 old-location: wmp\iwmpmediacollection_add.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: f9dfefbc-c240-41c0-abb9-4bc5012c147c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],add method, IWMPMediaCollection.add, IWMPMediaCollection::add, IWMPMediaCollectionadd, add, add method [Windows Media Player], add method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_add, wmp/IWMPMediaCollection::add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPMediaCollection.add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPMediaCollection::add

@@ -4,17 +4,16 @@ title: ITaskScheduler::AddWorkItem
 author: windows-sdk-content
 description: The AddWorkItem method adds a task to the schedule of tasks.
 old-location: taskschd\itaskscheduler_addworkitem.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 5d776e19-c40e-4e0a-8ae1-a14c4f23b442
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddWorkItem, AddWorkItem method [Task Scheduler], AddWorkItem method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],AddWorkItem method, ITaskScheduler.AddWorkItem, ITaskScheduler::AddWorkItem, _msb_itaskscheduler_addworkitem, mstask/ITaskScheduler::AddWorkItem, taskschd.itaskscheduler_addworkitem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 
-req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskScheduler.AddWorkItem
 product: Windows
 targetos: Windows
-req.lib: Mstask.lib
-req.dll: Mstask.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ---
 
 # ITaskScheduler::AddWorkItem

@@ -4,17 +4,16 @@ title: SLREFERRALTYPE
 author: windows-sdk-content
 description: Represents the types of information that can be queried with the SLGetReferralInformation function.
 old-location: security\slreferraltype.htm
-old-project: secslapi
+tech.root: SecSLApi
 ms.assetid: 350a28bd-cbdf-46f2-a404-aa16550a4711
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLREFERRALTYPE, SLREFERRALTYPE enumeration [Security], SL_REFERRALTYPE_APPID, SL_REFERRALTYPE_BEST_MATCH, SL_REFERRALTYPE_OVERRIDE_APPID, SL_REFERRALTYPE_OVERRIDE_SKUID, SL_REFERRALTYPE_SKUID, security.slreferraltype, slpublic/SLREFERRALTYPE, slpublic/SL_REFERRALTYPE_APPID, slpublic/SL_REFERRALTYPE_BEST_MATCH, slpublic/SL_REFERRALTYPE_OVERRIDE_APPID, slpublic/SL_REFERRALTYPE_OVERRIDE_SKUID, slpublic/SL_REFERRALTYPE_SKUID
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Shtypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SLREFERRALTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SLREFERRALTYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SLREFERRALTYPE
+req.redist: 
 ---
 
 # SLREFERRALTYPE enumeration

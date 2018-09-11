@@ -4,7 +4,7 @@ title: ASF_MUX_STATISTICS
 author: windows-sdk-content
 description: Contains statistics about the progress of the ASF multiplexer.
 old-location: mf\asf_mux_statistics.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 353ee03d-b706-4a70-9eaf-c14b47b5159a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_MUX_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ASF_MUX_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ASF_MUX_STATISTICS
+req.redist: 
 ---
 
 # ASF_MUX_STATISTICS structure

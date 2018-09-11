@@ -4,17 +4,16 @@ title: ITypeInfo::CreateInstance
 author: windows-sdk-content
 description: Creates a new instance of a type that describes a component object class (coclass).
 old-location: automat\itypeinfo_createinstance.htm
-old-project: automat
+tech.root: automat
 ms.assetid: b11c51e6-8ae7-482d-87eb-8175ca98eb63
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateInstance, CreateInstance method [Automation], CreateInstance method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],CreateInstance method, ITypeInfo.CreateInstance, ITypeInfo::CreateInstance, _oa96_ITypeInfo_CreateInstance, automat.itypeinfo_createinstance, oaidl/ITypeInfo::CreateInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo.CreateInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::CreateInstance

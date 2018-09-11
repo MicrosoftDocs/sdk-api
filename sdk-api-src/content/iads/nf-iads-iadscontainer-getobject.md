@@ -4,17 +4,16 @@ title: IADsContainer::GetObject
 author: windows-sdk-content
 description: Retrieves an interface for a directory object in the container.
 old-location: adsi\iadscontainer_getobject.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: df8b1eae-1138-4e55-af6e-17c6105ca9c1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],GetObject method, IADsContainer.GetObject, IADsContainer::GetObject, _ds_iadscontainer_getobject, adsi.iadscontainer__getobject, adsi.iadscontainer_getobject, iads/IADsContainer::GetObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsContainer.GetObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsContainer::GetObject
@@ -63,17 +61,17 @@ interface for a directory object in the container.
 
 ### -param ClassName
 
-
+TBD
 
 
 ### -param RelativeName
 
-
+TBD
 
 
 ### -param ppObject
 
-
+TBD
 
 
 

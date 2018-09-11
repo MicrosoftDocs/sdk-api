@@ -4,17 +4,16 @@ title: EnclaveGetEnclaveInformation function
 author: windows-sdk-content
 description: Gets information about the currently executing enclave.
 old-location: base\enclavegetenclaveinformation.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 26349C3C-4B73-430C-B002-ED262DB0304F
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: EnclaveGetEnclaveInformation, EnclaveGetEnclaveInformation function, base.enclavegetenclaveinformation, winenclaveapi/EnclaveGetEnclaveInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winenclaveapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENCRYPTION_CERTIFICATE_LIST, *PENCRYPTION_CERTIFICATE_LIST
+req.lib: Vertdll.lib
+req.dll: Vertdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EnclaveGetEnclaveInformation
 product: Windows
 targetos: Windows
-req.lib: Vertdll.lib
-req.dll: Vertdll.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EnclaveGetEnclaveInformation function

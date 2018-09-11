@@ -4,17 +4,16 @@ title: ITSGAuthenticateUserSink::DisconnectUser
 author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) that it should disconnect the client.
 old-location: termserv\itsgauthenticateusersink_disconnectuser.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 03385453-066d-40a9-bcbb-9623e4fdfadc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DisconnectUser, DisconnectUser method [Remote Desktop Services], DisconnectUser method [Remote Desktop Services],ITSGAuthenticateUserSink interface, ITSGAuthenticateUserSink interface [Remote Desktop Services],DisconnectUser method, ITSGAuthenticateUserSink.DisconnectUser, ITSGAuthenticateUserSink::DisconnectUser, termserv.itsgauthenticateusersink_disconnectuser, tsgauthenticationengine/ITSGAuthenticateUserSink::DisconnectUser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsgauthenticationengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSGAuthenticateUserSink.DisconnectUser
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSGAuthenticateUserSink::DisconnectUser

@@ -4,17 +4,16 @@ title: IInkTransform::put_eDx
 author: windows-sdk-content
 description: Gets or sets the element in the third row, first column of the affine transform matrix that is represented by an InkTransform object.
 old-location: tablet\inktransform_edx.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: f2e6fabc-4a8a-4225-b518-438e1d0ca196
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkTransform interface [Tablet PC],eDx property, IInkTransform.eDx, IInkTransform.put_eDx, IInkTransform::eDx, IInkTransform::get_eDx, IInkTransform::put_eDx, InkTransform.get_eDx, InkTransform.put_eDx, eDx property [Tablet PC], eDx property [Tablet PC],IInkTransform interface, f2e6fabc-4a8a-4225-b518-438e1d0ca196, get_eDx, msinkaut/IInkTransform::eDx, msinkaut/IInkTransform::get_eDx, msinkaut/IInkTransform::put_eDx, put_eDx, tablet.inktransform_edx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkTransform.put_eDx
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTransform::put_eDx

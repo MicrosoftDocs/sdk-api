@@ -4,7 +4,7 @@ title: "_DWORD_DWORD"
 author: windows-sdk-content
 description: The DWORD_DWORD structure defines a 64-bit integer value.
 old-location: dhcp\dword_dword.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: a7e61aa6-a8ab-4792-bb93-b492e904b098
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DWORD_DWORD, *LPDWORD_DWORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DWORD_DWORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DWORD_DWORD, *LPDWORD_DWORD
+req.redist: 
 ---
 
 # _DWORD_DWORD structure

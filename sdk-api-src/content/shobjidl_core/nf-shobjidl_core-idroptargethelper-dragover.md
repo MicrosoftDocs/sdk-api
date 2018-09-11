@@ -4,17 +4,16 @@ title: IDropTargetHelper::DragOver
 author: windows-sdk-content
 description: Notifies the drag-image manager that the drop target's IDropTarget::DragOver method has been called.
 old-location: shell\IDropTargetHelper_DragOver.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 92550642-ca77-4a32-ba97-93419b4e5ac7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DragOver, DragOver method [Windows Shell], DragOver method [Windows Shell],IDropTargetHelper interface, IDropTargetHelper interface [Windows Shell],DragOver method, IDropTargetHelper.DragOver, IDropTargetHelper::DragOver, _win32_IDropTargetHelper_DragOver, shell.IDropTargetHelper_DragOver, shobjidl_core/IDropTargetHelper::DragOver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDropTargetHelper.DragOver
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDropTargetHelper::DragOver

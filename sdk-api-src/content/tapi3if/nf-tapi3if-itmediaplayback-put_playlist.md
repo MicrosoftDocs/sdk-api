@@ -4,17 +4,16 @@ title: ITMediaPlayback::put_PlayList
 author: windows-sdk-content
 description: The put_PlayList method provides the file playback terminal with the list of files to play.
 old-location: tapi3\itmediaplayback_put_playlist.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 685712ef-100f-4f8d-9b1f-c43170c0f197
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITMediaPlayback interface [TAPI 2.2],put_PlayList method, ITMediaPlayback.put_PlayList, ITMediaPlayback::put_PlayList, _tapi3_itmediaplayback_put_playlist, put_PlayList, put_PlayList method [TAPI 2.2], put_PlayList method [TAPI 2.2],ITMediaPlayback interface, tapi3.itmediaplayback_put_playlist, tapi3if/ITMediaPlayback::put_PlayList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITMediaPlayback.put_PlayList
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITMediaPlayback::put_PlayList

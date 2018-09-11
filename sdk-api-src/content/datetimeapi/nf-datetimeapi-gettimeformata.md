@@ -4,17 +4,16 @@ title: GetTimeFormatA function
 author: windows-sdk-content
 description: Formats time as a time string for a locale specified by identifier. The function formats either a specified time or the local system time.
 old-location: intl\gettimeformat.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 3db91d29-df97-4660-b3cd-0db5b42cfd01
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetTimeFormat, GetTimeFormat function [Internationalization for Windows Applications], GetTimeFormatA, GetTimeFormatW, _win32_GetTimeFormat, datetimeapi/GetTimeFormat, datetimeapi/GetTimeFormatA, datetimeapi/GetTimeFormatW, intl.gettimeformat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: datetimeapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DX11_FFT_DESC
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,9 +48,8 @@ api_name:
  - GetTimeFormatW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetTimeFormatA function

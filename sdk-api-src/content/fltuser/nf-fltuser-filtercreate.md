@@ -4,17 +4,16 @@ title: FilterCreate function
 author: windows-sdk-content
 description: The FilterCreate function creates a handle for the given minifilter.
 old-location: ifsk\filtercreate.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 950e0b5b-4ee3-4eed-9039-823a6942cd38
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: FilterCreate, FilterCreate function [Installable File System Drivers], FltWin32ApiRef_1f318282-a1f9-40a7-8272-448727603f04.xml, fltuser/FilterCreate, ifsk.filtercreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterCreate
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterCreate function

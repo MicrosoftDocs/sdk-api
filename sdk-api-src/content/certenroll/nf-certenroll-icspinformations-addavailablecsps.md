@@ -4,17 +4,16 @@ title: ICspInformations::AddAvailableCsps
 author: windows-sdk-content
 description: Adds the providers installed on the computer to the collection.
 old-location: security\icspinformations_addavailablecsps_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: f44af323-41fb-46d6-88ed-15d465fc8815
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AddAvailableCsps, AddAvailableCsps method [Security], AddAvailableCsps method [Security],ICspInformations interface, ICspInformations interface [Security],AddAvailableCsps method, ICspInformations.AddAvailableCsps, ICspInformations::AddAvailableCsps, certenroll/ICspInformations::AddAvailableCsps, security.icspinformations_addavailablecsps_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICspInformations.AddAvailableCsps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspInformations::AddAvailableCsps

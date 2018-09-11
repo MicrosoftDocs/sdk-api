@@ -4,17 +4,16 @@ title: IFsrmPropertyBag::SetFileProperty
 author: windows-sdk-content
 description: Sets the specified property in the property bag.
 old-location: fsrm\ifsrmpropertybag_setfileproperty.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: d3322907-c832-49ef-bf21-2e4581251a88
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],SetFileProperty method, IFsrmPropertyBag.SetFileProperty, IFsrmPropertyBag::SetFileProperty, SetFileProperty, SetFileProperty method [File Server Resource Manager], SetFileProperty method [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_setfileproperty, fsrm.ifsrmpropertybag_setfileproperty, fsrmpipeline/IFsrmPropertyBag::SetFileProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmPropertyBag.SetFileProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPropertyBag::SetFileProperty

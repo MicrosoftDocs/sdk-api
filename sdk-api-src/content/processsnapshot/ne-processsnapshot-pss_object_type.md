@@ -4,7 +4,7 @@ title: PSS_OBJECT_TYPE
 author: windows-sdk-content
 description: Specifies the object type in a PSS_HANDLE_ENTRY structure.
 old-location: proc_snap\pss_object_type.htm
-old-project: proc_snap
+tech.root: proc_snap
 ms.assetid: 3AF2AE47-6E1A-4B20-B6A3-36C1DDB80674
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: processsnapshot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSS_OBJECT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSS_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.lib: Prntvpt.lib
-req.dll: Prntvpt.dll
-req.irql: 
-req.product: ADAM
+req.typenames: PSS_OBJECT_TYPE
+req.redist: 
 ---
 
 # PSS_OBJECT_TYPE enumeration

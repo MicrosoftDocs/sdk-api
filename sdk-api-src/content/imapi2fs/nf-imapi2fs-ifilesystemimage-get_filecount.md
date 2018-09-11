@@ -4,17 +4,16 @@ title: IFileSystemImage::get_FileCount
 author: windows-sdk-content
 description: Retrieves the number of files in the file system image.
 old-location: imapi\ifilesystemimage_get_filecount.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: b2545f85-84c9-4f01-98d7-fd6b37fcda5a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FileCount method, IFileSystemImage.get_FileCount, IFileSystemImage::get_FileCount, get_FileCount, get_FileCount method [IMAPI], get_FileCount method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_filecount, imapi2fs/IFileSystemImage::get_FileCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage.get_FileCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage::get_FileCount

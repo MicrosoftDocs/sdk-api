@@ -4,17 +4,16 @@ title: IFsrmPropertyDefinitionValue::get_Name
 author: windows-sdk-content
 description: Name of the classification property definition value.
 old-location: fsrm\ifsrmpropertydefinitionvalue_name.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: d7839713-61a8-4cb4-bc1d-0cc2b2234fd4
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmPropertyDefinitionValue interface [File Server Resource Manager],Name property, IFsrmPropertyDefinitionValue.Name, IFsrmPropertyDefinitionValue.get_Name, IFsrmPropertyDefinitionValue::Name, IFsrmPropertyDefinitionValue::get_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPropertyDefinitionValue interface, fs.ifsrmpropertydefinitionvalue_name, fsrm.ifsrmpropertydefinitionvalue_name, fsrmpipeline/IFsrmPropertyDefinitionValue::Name, fsrmpipeline/IFsrmPropertyDefinitionValue::get_Name, get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmPropertyDefinitionValue.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPropertyDefinitionValue::get_Name

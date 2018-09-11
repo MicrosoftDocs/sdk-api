@@ -4,7 +4,7 @@ title: IOCTL_EMI_GET_VERSION
 author: windows-sdk-content
 description: The IOCTL_EMI_GET_VERSION control code retrieves the current version of the EMI interface supported by the device.
 old-location: powermeter\ioctl_emi_get_version.htm
-old-project: powermeter
+tech.root: powermeter
 ms.assetid: 6B27B70C-DB3C-4EF9-B8FF-8074B0285F87
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: emi.h
 req.include-header: Emi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMI_MEASUREMENT_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_EMI_GET_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_EMI_GET_VERSION IOCTL

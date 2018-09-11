@@ -4,17 +4,16 @@ title: IBitsPeerCacheRecord::GetId
 author: windows-sdk-content
 description: Gets the identifier that uniquely identifies the record in the cache.
 old-location: bits\ibitspeercacherecord_getid.htm
-old-project: bits
+tech.root: bits
 ms.assetid: a1894ab3-0b3f-492b-8ed7-51f3b4ee1eaa
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetId, GetId method [BITS], GetId method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetId method, IBitsPeerCacheRecord.GetId, IBitsPeerCacheRecord::GetId, bits.ibitspeercacherecord_getid, bits3_0/IBitsPeerCacheRecord::GetId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBitsPeerCacheRecord.GetId
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBitsPeerCacheRecord::GetId
@@ -62,7 +61,7 @@ Gets the identifier that uniquely identifies the record in the cache.
 
 ### -param pVal
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IFsrmActionEmail::put_MailBcc
 author: windows-sdk-content
 description: Retrieves or sets the blind carbon copy (Bcc) email address to which email is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_mailbcc.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 4c05fcd2-ec94-4ed3-a027-ac91e4452e59
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailBcc property, IFsrmActionEmail.MailBcc, IFsrmActionEmail.put_MailBcc, IFsrmActionEmail2 interface [File Server Resource Manager],MailBcc property, IFsrmActionEmail2.MailBcc, IFsrmActionEmail2::MailBcc, IFsrmActionEmail2::get_MailBcc, IFsrmActionEmail2::put_MailBcc, IFsrmActionEmail::get_MailBcc, IFsrmActionEmail::put_MailBcc, MailBcc property [File Server Resource Manager], MailBcc property [File Server Resource Manager],IFsrmActionEmail interface, MailBcc property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailbcc, fsrm.ifsrmactionemail_mailbcc, fsrm/IFsrmActionEmail2::MailBcc, fsrm/IFsrmActionEmail2::get_MailBcc, fsrm/IFsrmActionEmail2::put_MailBcc, fsrm/IFsrmActionEmail::MailBcc, fsrm/IFsrmActionEmail::get_MailBcc, fsrm/IFsrmActionEmail::put_MailBcc, put_MailBcc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - IFsrmActionEmail.put_MailBcc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmActionEmail::put_MailBcc

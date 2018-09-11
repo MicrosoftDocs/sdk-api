@@ -4,7 +4,7 @@ title: EPrintTicketScope
 author: windows-sdk-content
 description: Specifies the scope of a print ticket.
 old-location: gdi\eprintticketscope.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 7a817f43-c8da-4df1-91c8-6bb1c93c3abc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: prntvpt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EPrintTicketScope
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EPrintTicketScope
 product: Windows
 targetos: Windows
-req.lib: WinSpool.lib
-req.dll: Spoolss.dll
-req.irql: 
-req.product: ADAM
+req.typenames: EPrintTicketScope
+req.redist: 
 ---
 
 # EPrintTicketScope enumeration

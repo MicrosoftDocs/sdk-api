@@ -4,7 +4,7 @@ title: "_MIB_IPSTATS_W2K"
 author: windows-sdk-content
 description: Stores information about the IP protocol running on a particular computer.
 old-location: mib\mib_ipstats.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 920e71b6-247c-4442-9f66-704a6c878feb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPSTATS_W2K, *PMIB_IPSTATS_W2K
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_IPSTATS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_IPSTATS_W2K, *PMIB_IPSTATS_W2K
+req.redist: 
 ---
 
 # _MIB_IPSTATS_W2K structure

@@ -4,17 +4,16 @@ title: CLUSTER_CHANGE_REGISTRY_V2
 author: windows-sdk-content
 description: Defines the notifications that are generated for a registry key.
 old-location: mscs\cluster_change_registry_v2.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 830A866B-D260-406B-B8E7-651F5149078E
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_CHANGE_REGISTRY_ALL_V2, CLUSTER_CHANGE_REGISTRY_ATTRIBUTES_V2, CLUSTER_CHANGE_REGISTRY_HANDLE_CLOSE_V2, CLUSTER_CHANGE_REGISTRY_NAME_V2, CLUSTER_CHANGE_REGISTRY_SUBTREE_V2, CLUSTER_CHANGE_REGISTRY_V2, CLUSTER_CHANGE_REGISTRY_V2 enumeration [Failover Cluster], CLUSTER_CHANGE_REGISTRY_VALUE_V2, clusapi/CLUSTER_CHANGE_REGISTRY_ALL_V2, clusapi/CLUSTER_CHANGE_REGISTRY_ATTRIBUTES_V2, clusapi/CLUSTER_CHANGE_REGISTRY_HANDLE_CLOSE_V2, clusapi/CLUSTER_CHANGE_REGISTRY_NAME_V2, clusapi/CLUSTER_CHANGE_REGISTRY_SUBTREE_V2, clusapi/CLUSTER_CHANGE_REGISTRY_V2, clusapi/CLUSTER_CHANGE_REGISTRY_VALUE_V2, msclus/CLUSTER_CHANGE_REGISTRY_ALL_V2, msclus/CLUSTER_CHANGE_REGISTRY_ATTRIBUTES_V2, msclus/CLUSTER_CHANGE_REGISTRY_HANDLE_CLOSE_V2, msclus/CLUSTER_CHANGE_REGISTRY_NAME_V2, msclus/CLUSTER_CHANGE_REGISTRY_SUBTREE_V2, msclus/CLUSTER_CHANGE_REGISTRY_V2, msclus/CLUSTER_CHANGE_REGISTRY_VALUE_V2, mscs.cluster_change_registry_v2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_CHANGE_REGISTRY_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_CHANGE_REGISTRY_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_CHANGE_REGISTRY_V2
+req.redist: 
 ---
 
 # CLUSTER_CHANGE_REGISTRY_V2 enumeration

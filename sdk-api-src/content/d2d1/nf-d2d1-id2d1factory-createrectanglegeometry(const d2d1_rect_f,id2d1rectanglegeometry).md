@@ -4,17 +4,16 @@ title: ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeo
 author: windows-sdk-content
 description: Creates an ID2D1RectangleGeometry.
 old-location: direct2d\id2d1factory_createrectanglegeometry.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 4c8f4950-7b5a-4f77-9a5b-513916f83d0c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateRectangleGeometry, CreateRectangleGeometry methods [Direct2D], ID2D1Factory.CreateRectangleGeometry, ID2D1Factory.CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeometry), ID2D1Factory::CreateRectangleGeometry, ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeometry), d2d1/CreateRectangleGeometry, direct2d.id2d1factory_createrectanglegeometry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Factory::CreateRectangleGeometry
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeometry)

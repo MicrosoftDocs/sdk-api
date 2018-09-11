@@ -4,17 +4,16 @@ title: IDWriteFontFileStream
 author: windows-sdk-content
 description: Loads font file data from a custom font file loader.
 old-location: directwrite\IDWriteFontFileStream.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 792ab9be-853f-427d-a762-2da8e81423f8
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFontFileStream, IDWriteFontFileStream interface [Direct Write], IDWriteFontFileStream interface [Direct Write],described, directwrite.IDWriteFontFileStream, dwrite/IDWriteFontFileStream
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFileStream
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFileStream interface

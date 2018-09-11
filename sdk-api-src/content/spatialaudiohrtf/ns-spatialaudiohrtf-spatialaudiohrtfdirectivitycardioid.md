@@ -4,17 +4,16 @@ title: SpatialAudioHrtfDirectivityCardioid
 author: windows-sdk-content
 description: Represents a cardioid-shaped directivity model for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivitycardioid.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 71E2E152-14DC-472B-B582-82D4412EAA85
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: PSpatialAudioHrtfDirectivityCardioid, PSpatialAudioHrtfDirectivityCardioid structure pointer [Core Audio], SpatialAudioHrtfDirectivityCardioid, SpatialAudioHrtfDirectivityCardioid structure [Core Audio], coreaudio.spatialaudiohrtfdirectivitycardioid, spatialaudiohrtf/PSpatialAudioHrtfDirectivityCardioid, spatialaudiohrtf/SpatialAudioHrtfDirectivityCardioid
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudiohrtf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioHrtfDirectivityCardioid
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SpatialAudioHrtfDirectivityCardioid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SpatialAudioHrtfDirectivityCardioid
+req.redist: 
 ---
 
 # SpatialAudioHrtfDirectivityCardioid structure

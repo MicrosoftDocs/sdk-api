@@ -4,17 +4,16 @@ title: ITILSConfig::get_Port
 author: windows-sdk-content
 description: The get_Port method gets the port number used to connect to the server of a given ILS directory.
 old-location: tapi3\itilsconfig_get_port.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 7aa0a8e7-6799-4685-92a0-c2ce610d0e06
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITILSConfig interface [TAPI 2.2],get_Port method, ITILSConfig.get_Port, ITILSConfig::get_Port, _tapi3_itilsconfig_get_port, get_Port, get_Port method [TAPI 2.2], get_Port method [TAPI 2.2],ITILSConfig interface, rend/ITILSConfig::get_Port, tapi3.itilsconfig_get_port
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITILSConfig.get_Port
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITILSConfig::get_Port

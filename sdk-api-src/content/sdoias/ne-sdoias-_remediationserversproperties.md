@@ -4,7 +4,7 @@ title: "_REMEDIATIONSERVERSPROPERTIES"
 author: windows-sdk-content
 description: The values of the REMEDIATIONSERVERSPROPERTIES enumeration type enumerate the properties of a set of remediation server groups.
 old-location: nps\SDO_remediationserversproperties.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 6cee6264-4cb7-47cc-81ba-a06d22f0528d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.unicode-ansi: 
 req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REMEDIATIONSERVERSPROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REMEDIATIONSERVERSPROPERTIES
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: REMEDIATIONSERVERSPROPERTIES
+req.redist: 
 ---
 
 # _REMEDIATIONSERVERSPROPERTIES enumeration

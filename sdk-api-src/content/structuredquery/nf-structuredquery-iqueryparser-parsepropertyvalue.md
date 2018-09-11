@@ -4,17 +4,16 @@ title: IQueryParser::ParsePropertyValue
 author: windows-sdk-content
 description: Parses a condition for a specified property.
 old-location: search\_search_IQueryParser_ParsePropertyValue.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\parsepropertyvalue.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IQueryParser interface [search],ParsePropertyValue method, IQueryParser.ParsePropertyValue, IQueryParser::ParsePropertyValue, ParsePropertyValue, ParsePropertyValue method [search], ParsePropertyValue method [search],IQueryParser interface, _search_IQueryParser_ParsePropertyValue, search._search_IQueryParser_ParsePropertyValue, structuredquery/IQueryParser::ParsePropertyValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQueryParser.ParsePropertyValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IQueryParser::ParsePropertyValue

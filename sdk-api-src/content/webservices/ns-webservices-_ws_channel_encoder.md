@@ -4,17 +4,16 @@ title: "_WS_CHANNEL_ENCODER"
 author: windows-sdk-content
 description: A structure that is used to specify a set of callbacks that can transform the content type and encoded bytes of a sent message.
 old-location: wsw\ws_channel_encoder.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 94ff7082-5cc7-46f3-8eec-d38565bbdb23
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_CHANNEL_ENCODER, WS_CHANNEL_ENCODER structure [Web Services for Windows], _WS_CHANNEL_ENCODER, webservices/WS_CHANNEL_ENCODER, wsw.ws_channel_encoder
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_CHANNEL_ENCODER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_CHANNEL_ENCODER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_CHANNEL_ENCODER
+req.redist: 
 ---
 
 # _WS_CHANNEL_ENCODER structure

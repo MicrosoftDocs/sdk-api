@@ -4,17 +4,16 @@ title: IShellFolder2::EnumSearches
 author: windows-sdk-content
 description: Requests a pointer to an interface that allows a client to enumerate the available search objects.
 old-location: shell\IShellFolder2_EnumSearches.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ed7b0e3c-f679-491b-98a2-542fcf5d2077
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: EnumSearches, EnumSearches method [Windows Shell], EnumSearches method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],EnumSearches method, IShellFolder2.EnumSearches, IShellFolder2::EnumSearches, _win32_IShellFolder2_EnumSearches, shell.IShellFolder2_EnumSearches, shobjidl_core/IShellFolder2::EnumSearches
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolder2.EnumSearches
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolder2::EnumSearches
@@ -62,7 +60,7 @@ Requests a pointer to an interface that allows a client to enumerate the availab
 
 ### -param ppenum
 
-
+TBD
 
 
 

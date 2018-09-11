@@ -4,7 +4,7 @@ title: "_BATTERY_WMI_FULL_CHARGED_CAPACITY"
 author: windows-sdk-content
 description: Defines information about the capacity of a battery for use with the BatteryClassQueryWmiDataBlock).
 old-location: battery\battery_wmi_full_charged_capacity.htm
-old-project: battery
+tech.root: battery
 ms.assetid: BE01DF36-71A8-464A-977B-499325DDB37E
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BATTERY_WMI_FULL_CHARGED_CAPACITY, *PBATTERY_WMI_FULL_CHARGED_CAPACITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BATTERY_WMI_FULL_CHARGED_CAPACITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BATTERY_WMI_FULL_CHARGED_CAPACITY, *PBATTERY_WMI_FULL_CHARGED_CAPACITY
+req.redist: 
 ---
 
 # _BATTERY_WMI_FULL_CHARGED_CAPACITY structure

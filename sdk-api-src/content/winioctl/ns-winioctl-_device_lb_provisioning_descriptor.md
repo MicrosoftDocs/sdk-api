@@ -4,7 +4,7 @@ title: "_DEVICE_LB_PROVISIONING_DESCRIPTOR"
 author: windows-sdk-content
 description: Contains the thin provisioning capabilities for a storage device.
 old-location: fs\device_lb_provisioning_descriptor.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: dbc46b33-9e9d-4ccf-9bc9-1df70738fa73
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVICE_LB_PROVISIONING_DESCRIPTOR, *PDEVICE_LB_PROVISIONING_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEVICE_LB_PROVISIONING_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DEVICE_LB_PROVISIONING_DESCRIPTOR, *PDEVICE_LB_PROVISIONING_DESCRIPTOR
+req.redist: 
 ---
 
 # _DEVICE_LB_PROVISIONING_DESCRIPTOR structure

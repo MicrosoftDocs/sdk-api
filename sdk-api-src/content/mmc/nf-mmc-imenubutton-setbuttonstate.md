@@ -4,17 +4,16 @@ title: IMenuButton::SetButtonState
 author: windows-sdk-content
 description: The IMenuButton::SetButtonState method enables a user to change the state of a menu button.
 old-location: mmc\imenubutton_setbuttonstate.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 28f4faf7-9fb2-4be0-84b6-e3e8f7450c34
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: ENABLED, HIDDEN, IMenuButton interface [MMC],SetButtonState method, IMenuButton.SetButtonState, IMenuButton::SetButtonState, SetButtonState, SetButtonState method [MMC], SetButtonState method [MMC],IMenuButton interface, _slate_imenubutton_setbuttonstate, mmc.imenubutton_setbuttonstate, mmc/IMenuButton::SetButtonState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMenuButton.SetButtonState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMenuButton::SetButtonState

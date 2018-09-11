@@ -4,17 +4,16 @@ title: IHeaderCtrl2::GetColumnFilter
 author: windows-sdk-content
 description: The IHeaderCtrl2::GetColumnFilter method retrieves the filter value set on the specified column.
 old-location: mmc\iheaderctrl2_getcolumnfilter.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 2daf15ac-4de2-422d-9ac0-b592090468ed
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetColumnFilter, GetColumnFilter method [MMC], GetColumnFilter method [MMC],IHeaderCtrl2 interface, IHeaderCtrl2 interface [MMC],GetColumnFilter method, IHeaderCtrl2.GetColumnFilter, IHeaderCtrl2::GetColumnFilter, _slate_iheaderctrl2_getcolumnfilter, mmc.iheaderctrl2_getcolumnfilter, mmc/IHeaderCtrl2::GetColumnFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IHeaderCtrl2.GetColumnFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IHeaderCtrl2::GetColumnFilter

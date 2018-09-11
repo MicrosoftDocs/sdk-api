@@ -4,7 +4,7 @@ title: "_DDP_FILE_EXTENT"
 author: windows-sdk-content
 description: DDP_FILE_EXTENT represents the extent of data in a file that is to be read in a pending call to ReadBackupFile.
 old-location: dedup\ddp_file_extent.htm
-old-project: dedup
+tech.root: dedup
 ms.assetid: B4AB7297-6FFE-4B93-ABDE-C15D7C90FA5B
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddpbackup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDP_FILE_EXTENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDP_FILE_EXTENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDP_FILE_EXTENT
+req.redist: 
 ---
 
 # _DDP_FILE_EXTENT structure

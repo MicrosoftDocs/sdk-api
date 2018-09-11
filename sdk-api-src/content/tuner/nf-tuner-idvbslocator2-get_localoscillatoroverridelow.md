@@ -4,17 +4,16 @@ title: IDVBSLocator2::get_LocalOscillatorOverrideLow
 author: windows-sdk-content
 description: Specifies the low oscillator frequency of a Digital Video Broadcasting (DVB) system, in kHz.
 old-location: mstv\idvbslocator2_localoscillatoroverridelow.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 141295c9-1129-4996-84e9-5ad63d70da05
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],LocalOscillatorOverrideLow property, IDVBSLocator2.LocalOscillatorOverrideLow, IDVBSLocator2.get_LocalOscillatorOverrideLow, IDVBSLocator2::LocalOscillatorOverrideLow, IDVBSLocator2::get_LocalOscillatorOverrideLow, IDVBSLocator2::put_LocalOscillatorOverrideLow, LocalOscillatorOverrideLow property [Microsoft TV Technologies], LocalOscillatorOverrideLow property [Microsoft TV Technologies],IDVBSLocator2 interface, get_LocalOscillatorOverrideLow, mstv.idvbslocator2_localoscillatoroverridelow, tuner/IDVBSLocator2::LocalOscillatorOverrideLow, tuner/IDVBSLocator2::get_LocalOscillatorOverrideLow, tuner/IDVBSLocator2::put_LocalOscillatorOverrideLow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDVBSLocator2.put_LocalOscillatorOverrideLow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBSLocator2::get_LocalOscillatorOverrideLow

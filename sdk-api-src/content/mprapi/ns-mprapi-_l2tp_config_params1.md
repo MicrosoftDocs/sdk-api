@@ -4,17 +4,16 @@ title: "_L2TP_CONFIG_PARAMS1"
 author: windows-sdk-content
 description: Used to get and set the device configuration for Layer 2 Tunneling Protocool (L2TP) on a RAS Server.
 old-location: rras\l2tp_config_params.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 7459054f-62c6-4ead-b969-884efc75ea80
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PL2TP_CONFIG_PARAMS1, L2TP_CONFIG_PARAMS, L2TP_CONFIG_PARAMS structure [RAS], L2TP_CONFIG_PARAMS1, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, _L2TP_CONFIG_PARAMS0, _L2TP_CONFIG_PARAMS1, mprapi/L2TP_CONFIG_PARAMS, rras.l2tp_config_params"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: L2TP_CONFIG_PARAMS1, *PL2TP_CONFIG_PARAMS1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - L2TP_CONFIG_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: L2TP_CONFIG_PARAMS1, *PL2TP_CONFIG_PARAMS1
+req.redist: 
 ---
 
 # _L2TP_CONFIG_PARAMS1 structure

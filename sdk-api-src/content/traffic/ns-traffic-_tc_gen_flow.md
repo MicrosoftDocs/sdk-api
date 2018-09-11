@@ -4,17 +4,16 @@ title: "_TC_GEN_FLOW"
 author: windows-sdk-content
 description: The TC_GEN_FLOW structure creates a generic flow for use with the traffic control interface. The flow is customized through the members of this structure.
 old-location: qos\tc_gen_flow.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 88b162d9-003c-42ce-8f82-91ee1aa9e32e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTC_GEN_FLOW, PTC_GEN_FLOW, PTC_GEN_FLOW structure pointer [QOS], TC_GEN_FLOW, TC_GEN_FLOW structure [QOS], _TC_GEN_FLOW, _gqos_tc_gen_flow, qos.tc_gen_flow, traffic/PTC_GEN_FLOW, traffic/TC_GEN_FLOW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TC_GEN_FLOW, *PTC_GEN_FLOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TC_GEN_FLOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TC_GEN_FLOW, *PTC_GEN_FLOW
+req.redist: 
 ---
 
 # _TC_GEN_FLOW structure

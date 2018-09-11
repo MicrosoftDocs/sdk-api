@@ -4,17 +4,16 @@ title: IContactManager::SetMeContact
 author: windows-sdk-content
 description: Sets the local user account concept of 'me' to specified user.
 old-location: wincontacts\_wincontacts_IContactManager_SetMeContact.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: 3922ea46-da14-44ad-a9bf-8a10480722da
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IContactManager interface [Windows Contacts],SetMeContact method, IContactManager.SetMeContact, IContactManager::SetMeContact, SetMeContact, SetMeContact method [Windows Contacts], SetMeContact method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_SetMeContact, icontact/IContactManager::SetMeContact, wincontacts._wincontacts_IContactManager_SetMeContact
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactManager.SetMeContact
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContactManager::SetMeContact

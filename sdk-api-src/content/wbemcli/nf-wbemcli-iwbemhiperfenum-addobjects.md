@@ -4,17 +4,16 @@ title: IWbemHiPerfEnum::AddObjects
 author: windows-sdk-content
 description: The IWbemHiPerfEnum::AddObjects method adds the supplied instance objects to the enumerator.
 old-location: wmi\iwbemhiperfenum_addobjects.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 6a6cd0f9-c6ed-4c9c-aa0f-7af2ac0fe73a
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: AddObjects, AddObjects method [Windows Management Instrumentation], AddObjects method [Windows Management Instrumentation],IWbemHiPerfEnum interface, IWbemHiPerfEnum interface [Windows Management Instrumentation],AddObjects method, IWbemHiPerfEnum.AddObjects, IWbemHiPerfEnum::AddObjects, _hmm_iwbemhiperfenum_addobjects, wbemcli/IWbemHiPerfEnum::AddObjects, wmi.iwbemhiperfenum_addobjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWbemHiPerfEnum.AddObjects
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemHiPerfEnum::AddObjects

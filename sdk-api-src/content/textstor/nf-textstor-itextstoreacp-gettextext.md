@@ -4,17 +4,16 @@ title: ITextStoreACP::GetTextExt
 author: windows-sdk-content
 description: The ITextStoreACP::GetTextExt method returns the bounding box, in screen coordinates, of the text at a specified character position. The caller must have a read-only lock on the document before calling this method.
 old-location: tsf\itextstoreacp_gettextext.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: d621e96b-d357-4468-8a89-89445fb1ca9e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetTextExt method, ITextStoreACP.GetTextExt, ITextStoreACP::GetTextExt, _tsf_itextstoreacp_gettextext_ref, textstor/ITextStoreACP::GetTextExt, tsf.itextstoreacp_gettextext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACP.GetTextExt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreACP::GetTextExt

@@ -4,17 +4,16 @@ title: tagUSEROBJECTFLAGS
 author: windows-sdk-content
 description: Contains information about a window station or desktop handle.
 old-location: winstation\userobjectflags_str.htm
-old-project: winstation
+tech.root: winstation
 ms.assetid: 5a973d45-5ff4-47e7-a927-72d3fdd61dc9
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 08/29/2018
 ms.keywords: "*PUSEROBJECTFLAGS, DF_ALLOWOTHERACCOUNTHOOK, PUSEROBJECTFLAGS, PUSEROBJECTFLAGS structure pointer [Windows Stations and Desktops], USEROBJECTFLAGS, USEROBJECTFLAGS structure [Windows Stations and Desktops], WSF_VISIBLE, _win32_userobjectflags_str, base.userobjectflags_str, tagUSEROBJECTFLAGS, winstation.userobjectflags_str, winuser/PUSEROBJECTFLAGS, winuser/USEROBJECTFLAGS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USEROBJECTFLAGS, *PUSEROBJECTFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USEROBJECTFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: USEROBJECTFLAGS, *PUSEROBJECTFLAGS
+req.redist: 
 ---
 
 # tagUSEROBJECTFLAGS structure

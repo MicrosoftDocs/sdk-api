@@ -4,17 +4,16 @@ title: "_CLUSTER_GROUP_ENUM_ITEM"
 author: windows-sdk-content
 description: Contains the properties of a cluster group.
 old-location: mscs\cluster_group_enum_item.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: B6436F83-2A10-4E93-8141-9BCFF744E41B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUSTER_GROUP_ENUM_ITEM, CLUSTER_GROUP_ENUM_ITEM, CLUSTER_GROUP_ENUM_ITEM structure [Failover Cluster], PCLUSTER_GROUP_ENUM_ITEM, PCLUSTER_GROUP_ENUM_ITEM structure pointer [Failover Cluster], _CLUSTER_GROUP_ENUM_ITEM, _CLUSTER_GROUP_ENUM_ITEM structure [Failover Cluster], clusapi/CLUSTER_GROUP_ENUM_ITEM, clusapi/PCLUSTER_GROUP_ENUM_ITEM, clusapi/_CLUSTER_GROUP_ENUM_ITEM, msclus/CLUSTER_GROUP_ENUM_ITEM, msclus/PCLUSTER_GROUP_ENUM_ITEM, msclus/_CLUSTER_GROUP_ENUM_ITEM, mscs.cluster_group_enum_item"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: MsClus.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsClus.tlb
-tech.root: 
-req.typenames: CLUSTER_GROUP_ENUM_ITEM, *PCLUSTER_GROUP_ENUM_ITEM
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_GROUP_ENUM_ITEM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_GROUP_ENUM_ITEM, *PCLUSTER_GROUP_ENUM_ITEM
+req.redist: 
 ---
 
 # _CLUSTER_GROUP_ENUM_ITEM structure

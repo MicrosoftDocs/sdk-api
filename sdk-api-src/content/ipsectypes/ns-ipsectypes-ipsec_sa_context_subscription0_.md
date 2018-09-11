@@ -4,7 +4,7 @@ title: IPSEC_SA_CONTEXT_SUBSCRIPTION0_
 author: windows-sdk-content
 description: Stores information used to subscribe to notifications about a particular IPsec security association (SA) context.
 old-location: fwp\ipsec_sa_context_subscription0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: d729f4e2-621a-4a39-beed-e339b76f53fc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_SA_CONTEXT_SUBSCRIPTION0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_SA_CONTEXT_SUBSCRIPTION0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_SA_CONTEXT_SUBSCRIPTION0
+req.redist: 
 ---
 
 # IPSEC_SA_CONTEXT_SUBSCRIPTION0_ structure

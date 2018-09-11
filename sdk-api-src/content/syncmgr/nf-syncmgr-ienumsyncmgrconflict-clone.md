@@ -4,17 +4,16 @@ title: IEnumSyncMgrConflict::Clone
 author: windows-sdk-content
 description: Not used. Clones an IEnumSyncMgrConflict object.
 old-location: shell\IEnumSyncMgrConflict_Clone.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2eb0f1c1-71e2-45e6-bef7-1b480efb4ab7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumSyncMgrConflict interface, IEnumSyncMgrConflict interface [Windows Shell],Clone method, IEnumSyncMgrConflict.Clone, IEnumSyncMgrConflict::Clone, _shell_IEnumSyncMgrConflict_Clone, shell.IEnumSyncMgrConflict_Clone, syncmgr/IEnumSyncMgrConflict::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSyncMgrConflict.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSyncMgrConflict::Clone

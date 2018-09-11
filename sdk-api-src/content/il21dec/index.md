@@ -2,7 +2,7 @@
 UID: NA:il21dec
 ms.assetid: a99d40bb-e04b-359d-8304-c854291e1de2
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

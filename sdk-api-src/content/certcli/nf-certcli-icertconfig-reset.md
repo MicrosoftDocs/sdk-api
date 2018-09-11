@@ -4,17 +4,16 @@ title: ICertConfig::Reset
 author: windows-sdk-content
 description: Resets the configuration query state to point at the Certificate Services server configuration indexed on the specified configuration point. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_reset.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 62c24bda-463a-4238-be70-14e28bcbfb39
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertConfig object [Security],Reset method, ICertConfig interface [Security],Reset method, ICertConfig.Reset, ICertConfig2 interface [Security],Reset method, ICertConfig2::Reset, ICertConfig::Reset, Reset, Reset method [Security], Reset method [Security],CCertConfig object, Reset method [Security],ICertConfig interface, Reset method [Security],ICertConfig2 interface, _certsrv_icertconfig_reset, certcli/ICertConfig2::Reset, certcli/ICertConfig::Reset, security.icertconfig2_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertConfig.Reset
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertConfig::Reset

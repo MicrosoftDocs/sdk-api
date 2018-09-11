@@ -4,7 +4,7 @@ title: COPYFILE2_EXTENDED_PARAMETERS
 author: windows-sdk-content
 description: Contains extended parameters for the CopyFile2 function.
 old-location: fs\copyfile2_extended_parameters.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: a8da62e5-bc49-4aff-afaa-e774393b7120
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COPYFILE2_EXTENDED_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COPYFILE2_EXTENDED_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: COPYFILE2_EXTENDED_PARAMETERS
+req.redist: 
 ---
 
 # COPYFILE2_EXTENDED_PARAMETERS structure

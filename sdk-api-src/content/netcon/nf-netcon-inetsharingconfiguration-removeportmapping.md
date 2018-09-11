@@ -4,17 +4,16 @@ title: INetSharingConfiguration::RemovePortMapping
 author: windows-sdk-content
 description: The RemovePortMapping method removes a service port mapping from the list of mappings for this connection.
 old-location: ics\inetsharingconfiguration_removeportmapping.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 2790aced-a3a9-425d-9e0f-fe8df4fcb934
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingConfiguration interface [ICS/ICF],RemovePortMapping method, INetSharingConfiguration.RemovePortMapping, INetSharingConfiguration::RemovePortMapping, RemovePortMapping, RemovePortMapping method [ICS/ICF], RemovePortMapping method [ICS/ICF],INetSharingConfiguration interface, _ics_inetsharingconfiguration_removeportmapping, ics.inetsharingconfiguration_removeportmapping, netcon/INetSharingConfiguration::RemovePortMapping
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingConfiguration.RemovePortMapping
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingConfiguration::RemovePortMapping

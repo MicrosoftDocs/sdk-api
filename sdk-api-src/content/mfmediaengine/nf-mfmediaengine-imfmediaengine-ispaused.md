@@ -4,17 +4,16 @@ title: IMFMediaEngine::IsPaused
 author: windows-sdk-content
 description: Queries whether playback is currently paused.
 old-location: mf\imfmediaengine_ispaused.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: A2E9C498-FEEB-4506-9E69-59028A6B4EE5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],IsPaused method, IMFMediaEngine.IsPaused, IMFMediaEngine::IsPaused, IsPaused, IsPaused method [Media Foundation], IsPaused method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_ispaused, mfmediaengine/IMFMediaEngine::IsPaused
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngine.IsPaused
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngine::IsPaused

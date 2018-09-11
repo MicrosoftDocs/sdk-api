@@ -4,17 +4,16 @@ title: ICertView::GetColumnIndex
 author: windows-sdk-content
 description: Retrieves the zero-based index of a column.
 old-location: security\icertview2_getcolumnindex.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 3d869db9-b4df-4fcd-85e7-19fe773b4262
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertView object [Security],GetColumnIndex method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, GetColumnIndex, GetColumnIndex method [Security], GetColumnIndex method [Security],CCertView object, GetColumnIndex method [Security],ICertView interface, GetColumnIndex method [Security],ICertView2 interface, ICertView interface [Security],GetColumnIndex method, ICertView.GetColumnIndex, ICertView2 interface [Security],GetColumnIndex method, ICertView2::GetColumnIndex, ICertView::GetColumnIndex, certview/ICertView2::GetColumnIndex, certview/ICertView::GetColumnIndex, security.icertview2_getcolumnindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertView.GetColumnIndex
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertView::GetColumnIndex

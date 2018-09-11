@@ -4,17 +4,16 @@ title: ADsBuildVarArrayInt function
 author: windows-sdk-content
 description: The ADsBuildVarArrayInt function builds a variant array of integers from an array of DWORD values.
 old-location: adsi\adsbuildvararrayint.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 61b8a3c1-b8ea-4909-b2a6-f1ce342f396d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ADsBuildVarArrayInt, ADsBuildVarArrayInt function [ADSI], _ds_adsbuildvararrayint, adshlp/ADsBuildVarArrayInt, adsi.adsbuildvararrayint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: Activeds.lib
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ADsBuildVarArrayInt
 product: Windows
 targetos: Windows
-req.lib: Activeds.lib
-req.dll: Activeds.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ADsBuildVarArrayInt function

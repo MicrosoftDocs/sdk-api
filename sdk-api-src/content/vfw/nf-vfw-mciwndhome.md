@@ -4,17 +4,16 @@ title: MCIWndHome macro
 author: windows-sdk-content
 description: The MCIWndHome macro moves the current position to the beginning of the content. You can use this macro or explicitly send the MCI_SEEK command.
 old-location: multimedia\mciwndhome.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: c028732d-7ead-4417-b3d5-a0df756ad623
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndHome, MCIWndHome macro [Windows Multimedia], _win32_MCIWndHome, multimedia.mciwndhome, vfw/MCIWndHome
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndHome
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndHome macro

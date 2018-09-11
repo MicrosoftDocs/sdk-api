@@ -4,17 +4,16 @@ title: IMSVidInputDevice::View
 author: windows-sdk-content
 description: The View method configures this input device to view the specified tune request.
 old-location: mstv\imsvidinputdevice_view.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f106e520-86e5-4b7e-8e16-1f82797f128f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidInputDevice interface [Microsoft TV Technologies],View method, IMSVidInputDevice.View, IMSVidInputDevice::View, IMSVidInputDeviceView, View, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies],IMSVidInputDevice interface, mstv.imsvidinputdevice_view, segment/IMSVidInputDevice::View
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidInputDevice.View
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidInputDevice::View
@@ -62,7 +60,7 @@ The <b>View</b> method configures this input device to view the specified tune r
 
 ### -param v
 
-
+TBD
 
 
 

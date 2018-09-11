@@ -4,17 +4,16 @@ title: IScanningTuner::SeekDown
 author: windows-sdk-content
 description: The SeekDown method changes the channel to the next lower channel with valid programming.
 old-location: mstv\iscanningtuner_seekdown.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ef78bae1-238f-4774-ab9a-b3681ba53656
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IScanningTuner interface [Microsoft TV Technologies],SeekDown method, IScanningTuner.SeekDown, IScanningTuner::SeekDown, IScanningTunerSeekDown, SeekDown, SeekDown method [Microsoft TV Technologies], SeekDown method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_seekdown, tuner/IScanningTuner::SeekDown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScanningTuner.SeekDown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IScanningTuner::SeekDown

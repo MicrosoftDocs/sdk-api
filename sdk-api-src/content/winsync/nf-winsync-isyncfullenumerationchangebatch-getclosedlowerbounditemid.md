@@ -4,17 +4,16 @@ title: ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId
 author: windows-sdk-content
 description: Gets the closed lower bound on item IDs that require destination versions.
 old-location: winsync\isyncfullenumerationchangebatch_getclosedlowerbounditemid.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: d0cc8564-f87a-4642-b085-5149c85279dd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetClosedLowerBoundItemId, GetClosedLowerBoundItemId method [Windows Sync], GetClosedLowerBoundItemId method [Windows Sync],ISyncFullEnumerationChangeBatch interface, ISyncFullEnumerationChangeBatch interface [Windows Sync],GetClosedLowerBoundItemId method, ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId, ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId, winsync.isyncfullenumerationchangebatch_getclosedlowerbounditemid, winsync/ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId

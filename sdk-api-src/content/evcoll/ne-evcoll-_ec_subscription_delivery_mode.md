@@ -4,17 +4,16 @@ title: "_EC_SUBSCRIPTION_DELIVERY_MODE"
 author: windows-sdk-content
 description: Defines values that indicate how events are delivered in a subscription.
 old-location: wec\ec_subscription_delivery_mode.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: ece884d6-df3c-44d0-a10c-affcf3107148
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EC_SUBSCRIPTION_DELIVERY_MODE, EC_SUBSCRIPTION_DELIVERY_MODE enumeration, EcDeliveryModePull, EcDeliveryModePush, _EC_SUBSCRIPTION_DELIVERY_MODE, evcoll/EC_SUBSCRIPTION_DELIVERY_MODE, evcoll/EcDeliveryModePull, evcoll/EcDeliveryModePush, wec.ec_subscription_delivery_mode, wes.ec_subscription_delivery_mode
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_SUBSCRIPTION_DELIVERY_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EC_SUBSCRIPTION_DELIVERY_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EC_SUBSCRIPTION_DELIVERY_MODE
+req.redist: 
 ---
 
 # _EC_SUBSCRIPTION_DELIVERY_MODE enumeration

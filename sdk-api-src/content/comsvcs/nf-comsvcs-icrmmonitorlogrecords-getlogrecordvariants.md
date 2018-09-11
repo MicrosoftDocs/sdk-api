@@ -4,17 +4,16 @@ title: ICrmMonitorLogRecords::GetLogRecordVariants
 author: windows-sdk-content
 description: Retrieves a structured log record given its numeric index.
 old-location: cos\icrmmonitorlogrecords_getlogrecordvariants.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 4f020d2d-ea2d-48c2-ab79-7b412e77b39f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetLogRecordVariants, GetLogRecordVariants method [COM+], GetLogRecordVariants method [COM+],ICrmMonitorLogRecords interface, ICrmMonitorLogRecords interface [COM+],GetLogRecordVariants method, ICrmMonitorLogRecords.GetLogRecordVariants, ICrmMonitorLogRecords::GetLogRecordVariants, _dtc_ICrmMonitorLogRecords_GetLogRecordVariants, comsvcs/ICrmMonitorLogRecords::GetLogRecordVariants, cos.icrmmonitorlogrecords_getlogrecordvariants
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmMonitorLogRecords.GetLogRecordVariants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmMonitorLogRecords::GetLogRecordVariants

@@ -4,17 +4,16 @@ title: SHRunControlPanel function
 author: windows-sdk-content
 description: Opens a Control Panel item.
 old-location: shell\SHRunControlPanel.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 393a1f63-071e-4655-b6fb-7b0abca7818c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHRunControlPanel, SHRunControlPanel function [Windows Shell], _shell_SHRunControlPanel, shell.SHRunControlPanel, shlobj/SHRunControlPanel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHRunControlPanel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHRunControlPanel function

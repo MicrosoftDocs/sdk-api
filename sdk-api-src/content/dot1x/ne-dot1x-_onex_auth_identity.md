@@ -4,7 +4,7 @@ title: "_ONEX_AUTH_IDENTITY"
 author: windows-sdk-content
 description: Specifies the possible values of the identity used for 802.1X authentication status.
 old-location: nwifi\onex_auth_identity.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: c51ab620-7e44-4798-8206-8ae9bbcd6614
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dot1x.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ONEX_AUTH_IDENTITY, PONEX_AUTH_IDENTITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ONEX_AUTH_IDENTITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ONEX_AUTH_IDENTITY, PONEX_AUTH_IDENTITY
+req.redist: 
 ---
 
 # _ONEX_AUTH_IDENTITY enumeration

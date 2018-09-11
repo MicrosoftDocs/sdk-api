@@ -4,17 +4,16 @@ title: FreeMUILibrary function
 author: windows-sdk-content
 description: Releases the handle to a resource module loaded by LoadMUILibrary.
 old-location: intl\freemuilibrary.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 38a0d7cb-46a9-449b-8f7e-4c573e400e75
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: FreeMUILibrary, FreeMUILibrary function [Internationalization for Windows Applications], _win32_FreeMUILibrary, intl.freemuilibrary, muiload/FreeMUILibrary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: muiload.h
 req.include-header: 
-req.redist: Muiload.lib, included in theWindows SDKforWindows VistaonWindows 2000 Professional,Windows Me/98/95.  Not supported onWindows NT 4.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MTP_COMMAND_DATA_OUT, *PMTP_COMMAND_DATA_OUT
+req.lib: Muiload.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FreeMUILibrary
 product: Windows
 targetos: Windows
-req.lib: Muiload.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: Muiload.lib, included in theWindows SDKforWindows VistaonWindows 2000 Professional,Windows Me/98/95.  Not supported onWindows NT 4.0
 ---
 
 # FreeMUILibrary function

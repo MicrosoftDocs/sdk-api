@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxTiff.get_ReceiveTime
 title: IFaxTiff::get_ReceiveTime
 author: windows-sdk-content
 description: Retrieves the ReceiveTime property for a FaxTiff object.
-old-location: fax\_mfax_ifaxtiff_get_receivetime_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_receivetime_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5spx.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxTiff object [Fax Service],ReceiveTime property, FaxTiff.ReceiveTime, IFaxTiff.get_ReceiveTime, IFaxTiff::get_ReceiveTime, ReceiveTime property [Fax Service], ReceiveTime property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_receivetime, fax._mfax_ifaxtiff_get_receivetime, fax._mfax_ifaxtiff_get_receivetime_vb, get_ReceiveTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxTiff interface [Fax Service],ReceiveTime property, IFaxTiff.ReceiveTime, IFaxTiff.get_ReceiveTime, IFaxTiff::ReceiveTime, IFaxTiff::get_ReceiveTime, ReceiveTime property [Fax Service], ReceiveTime property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_receivetime, fax._mfax_ifaxtiff_get_receivetime, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_receivetime_cpp, faxcom/IFaxTiff::ReceiveTime, faxcom/IFaxTiff::get_ReceiveTime, get_ReceiveTime
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxTiff.ReceiveTime
+ - IFaxTiff.ReceiveTime
+ - IFaxTiff.get_ReceiveTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxTiff::get_ReceiveTime
@@ -64,7 +63,7 @@ This property is read-only.
 
 
 
-A fax client application must  set the <a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/en-us/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
+A fax client application must  set the <a href="https://msdn.microsoft.com/c993c276-eb77-4173-bfc5-0c82decb2b52">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/en-us/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
 
 The <b>get_ReceiveTime</b> method sets the <i>pVal</i> parameter to the time at which reception began for an inbound fax file, if it is available. If the information is not available, the method returns an empty string.
 
@@ -76,7 +75,7 @@ The fax service formats the string according to the user's locale. It is a conca
 
 10/02/98@10:15AM
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms692842(v=VS.85).aspx">RawReceiveTime</a> property contains the time expressed in Coordinated Universal Time (UTC).
+The <a href="https://msdn.microsoft.com/1bc248b7-a8ff-430a-9ab7-1bad9186696c">RawReceiveTime</a> property contains the time expressed in Coordinated Universal Time (UTC).
 
 
 
@@ -94,19 +93,15 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms692842(v=VS.85).aspx">Ra
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690285(v=VS.85).aspx">FaxTiff</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms691802(v=VS.85).aspx">IFaxTiff</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/c993c276-eb77-4173-bfc5-0c82decb2b52">IFaxTiff::get_Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692842(v=VS.85).aspx">RawReceiveTime</a>
+<a href="https://msdn.microsoft.com/1bc248b7-a8ff-430a-9ab7-1bad9186696c">IFaxTiff::get_RawReceiveTime</a>
 
 
 

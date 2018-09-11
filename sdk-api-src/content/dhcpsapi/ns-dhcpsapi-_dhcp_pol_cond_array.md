@@ -4,7 +4,7 @@ title: "_DHCP_POL_COND_ARRAY"
 author: windows-sdk-content
 description: The DHCP_POL_COND_ARRAY structure defines an array of DHCP server policy conditions.
 old-location: dhcp\dhcp_pol_cond_array.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 2A084E80-92F8-43F5-89C8-22F08CE449E9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_POL_COND_ARRAY, *PDHCP_POL_COND_ARRAY, *LPDHCP_POL_COND_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_POL_COND_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_POL_COND_ARRAY, *PDHCP_POL_COND_ARRAY, *LPDHCP_POL_COND_ARRAY
+req.redist: 
 ---
 
 # _DHCP_POL_COND_ARRAY structure

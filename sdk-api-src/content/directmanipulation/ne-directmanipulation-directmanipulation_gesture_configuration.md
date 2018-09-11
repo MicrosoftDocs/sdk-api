@@ -4,7 +4,7 @@ title: DIRECTMANIPULATION_GESTURE_CONFIGURATION
 author: windows-sdk-content
 description: Defines the gestures that can be passed to SetManualGesture.
 old-location: directmanipulation\directmanipulation_gesture_configuration.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: B8EE991B-6DBF-42DE-966F-FA5CB397562C
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_GESTURE_CONFIGURATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIRECTMANIPULATION_GESTURE_CONFIGURATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIRECTMANIPULATION_GESTURE_CONFIGURATION
+req.redist: 
 ---
 
 # DIRECTMANIPULATION_GESTURE_CONFIGURATION enumeration

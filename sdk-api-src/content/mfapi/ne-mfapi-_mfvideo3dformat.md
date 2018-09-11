@@ -4,7 +4,7 @@ title: "_MFVideo3DFormat"
 author: windows-sdk-content
 description: Specifies how 3D video frames are stored in memory.
 old-location: mf\mfvideo3dformat.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0E31BC98-E69D-405E-9EA6-026916123091
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideo3DFormat
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFVideo3DFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFVideo3DFormat
+req.redist: 
 ---
 
 # _MFVideo3DFormat enumeration

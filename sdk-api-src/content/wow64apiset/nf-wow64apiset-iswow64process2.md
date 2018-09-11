@@ -4,17 +4,16 @@ title: IsWow64Process2 function
 author: windows-sdk-content
 description: Determines whether the specified process is running under WOW64; also returns additional machine process and architecture information.
 old-location: base\iswow64process2.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 77B4E3C8-F9DE-4674-9CEA-9C81AEEB393C
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: IsWow64Process2, IsWow64Process2 function, base.iswow64process2, wow64apiset/IsWow64Process2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wow64apiset.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1511 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - IsWow64Process2
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IsWow64Process2 function

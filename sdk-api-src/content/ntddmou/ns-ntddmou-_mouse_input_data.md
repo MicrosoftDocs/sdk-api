@@ -4,7 +4,7 @@ title: "_MOUSE_INPUT_DATA"
 author: windows-sdk-content
 description: MOUSE_INPUT_DATA contains one packet of mouse input data.
 old-location: hid\mouse_input_data.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 363699d5-e91c-43ea-bae3-8ed997487e31
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddmou.h
 req.include-header: Ntddmou.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MOUSE_INPUT_DATA, *PMOUSE_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MOUSE_INPUT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MOUSE_INPUT_DATA, *PMOUSE_INPUT_DATA
+req.redist: 
 ---
 
 # _MOUSE_INPUT_DATA structure

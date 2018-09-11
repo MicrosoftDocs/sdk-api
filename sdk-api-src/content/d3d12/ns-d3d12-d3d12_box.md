@@ -4,7 +4,7 @@ title: D3D12_BOX
 author: windows-sdk-content
 description: Describes a 3D box.
 old-location: direct3d12\d3d12_box.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: DD3973CC-043E-486E-9403-B46D8B7DE644
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_BOX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_BOX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_BOX
+req.redist: 
 ---
 
 # D3D12_BOX structure

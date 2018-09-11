@@ -4,17 +4,16 @@ title: IDirect3DQuery9::GetData
 author: windows-sdk-content
 description: Polls a queried resource to get the query state or a query result. For more information about queries, see Queries (Direct3D 9).
 old-location: direct3d9\idirect3dquery9__getdata.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9__getdata.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 61a50651-865a-2305-3acc-ca22ba941030, GetData, GetData method [Direct3D 9], GetData method [Direct3D 9],IDirect3DQuery9 interface, IDirect3DQuery9 interface [Direct3D 9],GetData method, IDirect3DQuery9.GetData, IDirect3DQuery9::GetData, d3d9helper/IDirect3DQuery9::GetData, direct3d9.idirect3dquery9__getdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DQuery9.GetData
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DQuery9::GetData

@@ -4,17 +4,16 @@ title: "_QOS_DS_CLASS"
 author: windows-sdk-content
 description: The traffic control object QOS_DS_CLASS enables application developers to override the default Diffserv code point (DSCP) value for the IP packets associated with a given flow. By default, the DSCP value is derived from the flow's ServiceType.
 old-location: qos\qos_ds_class.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 56eca8ef-2b6e-4380-869c-bf1a4c8fdb1f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPQOS_DS_CLASS, LPQOS_DS_CLASS, LPQOS_DS_CLASS structure pointer [QOS], QOS_DS_CLASS, QOS_DS_CLASS structure [QOS], _QOS_DS_CLASS, _gqos_qos_ds_class, qos.qos_ds_class, qosobjs/LPQOS_DS_CLASS, qosobjs/QOS_DS_CLASS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: qosobjs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_DS_CLASS, *LPQOS_DS_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOS_DS_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QOS_DS_CLASS, *LPQOS_DS_CLASS
+req.redist: 
 ---
 
 # _QOS_DS_CLASS structure

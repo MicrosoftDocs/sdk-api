@@ -4,7 +4,7 @@ title: "_MMC_SORT_SET_DATA"
 author: windows-sdk-content
 description: Used with setting and retrieving list view column sets whose sort data is stored persistently.
 old-location: mmc\mmc_sort_set_data.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: bb16061d-a6bb-4816-b52d-c63097638f58
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_SORT_SET_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_SORT_SET_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_SORT_SET_DATA
+req.redist: 
 ---
 
 # _MMC_SORT_SET_DATA structure

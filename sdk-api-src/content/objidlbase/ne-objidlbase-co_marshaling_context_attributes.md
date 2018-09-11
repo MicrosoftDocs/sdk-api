@@ -4,17 +4,16 @@ title: CO_MARSHALING_CONTEXT_ATTRIBUTES
 author: windows-sdk-content
 description: Identifies one of the marshaling context attributes that you can query by using the GetMarshalingContextAttribute method.
 old-location: com\co_marshaling_context_attributes.htm
-old-project: com
+tech.root: com
 ms.assetid: EF020513-8E03-474C-BC14-9E9D6EFE7318
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CO_MARSHALING_CONTEXT_ATTRIBUTES, CO_MARSHALING_CONTEXT_ATTRIBUTES enumeration [COM], CO_MARSHALING_SOURCE_IS_APP_CONTAINER, com.co_marshaling_context_attributes, objidl/CO_MARSHALING_CONTEXT_ATTRIBUTES, objidl/CO_MARSHALING_SOURCE_IS_APP_CONTAINER
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CO_MARSHALING_CONTEXT_ATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CO_MARSHALING_CONTEXT_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CO_MARSHALING_CONTEXT_ATTRIBUTES
+req.redist: 
 ---
 
 # CO_MARSHALING_CONTEXT_ATTRIBUTES enumeration

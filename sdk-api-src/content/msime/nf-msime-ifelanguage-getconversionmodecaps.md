@@ -4,17 +4,16 @@ title: IFELanguage::GetConversionModeCaps
 author: windows-sdk-content
 description: Gets the conversion mode capability of the IFELanguage object.
 old-location: intl\ifelanguage_getconversionmodecaps.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: B1A3D121-C650-4D04-9278-791A12F73A2E
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: FELANG_CMODE_AUTOMATIC, FELANG_CMODE_BESTFIRST, FELANG_CMODE_BOPOMOFO, FELANG_CMODE_CONVERSATION, FELANG_CMODE_FULLWIDTHOUT, FELANG_CMODE_HALFWIDTHOUT, FELANG_CMODE_HANGUL, FELANG_CMODE_HIRAGANAOUT, FELANG_CMODE_KATAKANAOUT, FELANG_CMODE_MERGECAND, FELANG_CMODE_MONORUBY, FELANG_CMODE_NAME, FELANG_CMODE_NOINVISIBLECHAR, FELANG_CMODE_NONE, FELANG_CMODE_NOPRUNING, FELANG_CMODE_PHRASEPREDICT, FELANG_CMODE_PINYIN, FELANG_CMODE_PLAURALCLAUSE, FELANG_CMODE_PRECONV, FELANG_CMODE_RADICAL, FELANG_CMODE_ROMAN, FELANG_CMODE_SINGLECONVERT, FELANG_CMODE_UNKNOWNREADING, FELANG_CMODE_USENOREVWORDS, GetConversionModeCaps, GetConversionModeCaps method [Internationalization for Windows Applications], GetConversionModeCaps method [Internationalization for Windows Applications],IFELanguage interface, IFELanguage interface [Internationalization for Windows Applications],GetConversionModeCaps method, IFELanguage.GetConversionModeCaps, IFELanguage::GetConversionModeCaps, intl.ifelanguage_getconversionmodecaps, msime/IFELanguage::GetConversionModeCaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFELanguage.GetConversionModeCaps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFELanguage::GetConversionModeCaps

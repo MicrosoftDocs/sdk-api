@@ -4,17 +4,16 @@ title: IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,I
 author: windows-sdk-content
 description: Sets an element of the transform matrix of the effect.
 old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrixelement.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: C673951B-2347-4A71-9413-68670B6E11CB
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetTransformMatrixElement method, IDCompositionAffineTransform2DEffect.SetTransformMatrixElement, IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int,int,IDCompositionAnimation), IDCompositionAffineTransform2DEffect::SetTransformMatrixElement, IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,IDCompositionAnimation), SetTransformMatrixElement, SetTransformMatrixElement method [DirectComposition], SetTransformMatrixElement method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetTransformMatrixElement, directcomp.idcompositionaffinetransform2deffect_settransformmatrixelement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionAffineTransform2DEffect.SetTransformMatrixElement
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,IDCompositionAnimation)
@@ -75,7 +74,7 @@ The column of the element.
 
 ### -param animation
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IDVBTLocator::put_Guard
 author: windows-sdk-content
 description: The put_Guard method sets the guard interval.
 old-location: mstv\idvbtlocator_put_guard.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: af0accaf-ef33-4074-ac04-2bd09f3ad879
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_Guard method, IDVBTLocator.put_Guard, IDVBTLocator::put_Guard, IDVBTLocatorput_Guard, mstv.idvbtlocator_put_guard, put_Guard, put_Guard method [Microsoft TV Technologies], put_Guard method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_Guard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVBTLocator.put_Guard
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBTLocator::put_Guard

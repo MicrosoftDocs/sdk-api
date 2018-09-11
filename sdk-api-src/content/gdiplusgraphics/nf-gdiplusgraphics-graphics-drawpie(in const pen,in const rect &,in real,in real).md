@@ -4,17 +4,16 @@ title: Graphics::DrawPie(IN const Pen,IN const Rect &,IN REAL,IN REAL)
 author: windows-sdk-content
 description: This topic lists the DrawPie methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPie_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawpiemethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: DrawPie, DrawPie methods [GDI+], Graphics.DrawPie, Graphics.DrawPie(IN const Pen,IN const Rect &,IN REAL,IN REAL), Graphics::DrawPie, Graphics::DrawPie(IN const Pen,IN const Rect &,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_DrawPie_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawPie_Methods, gdiplusgraphics/DrawPie
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Graphics.DrawPie
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Graphics::DrawPie(IN const Pen,IN const Rect &,IN REAL,IN REAL)

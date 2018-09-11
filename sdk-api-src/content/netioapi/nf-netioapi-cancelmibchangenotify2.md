@@ -4,17 +4,16 @@ title: CancelMibChangeNotify2 function
 author: windows-sdk-content
 description: Deregisters for change notifications for IP interface changes, IP address changes, IP route changes, Teredo port changes, and when the unicast IP address table is stable and can be retrieved.
 old-location: iphlp\cancelmibchangenotify2.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 81492118-7513-49a2-9c61-3ecfaf84cc2d
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: CancelMibChangeNotify2, CancelMibChangeNotify2 function [IP Helper], iphlp.cancelmibchangenotify2, netioapi/CancelMibChangeNotify2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CancelMibChangeNotify2
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CancelMibChangeNotify2 function

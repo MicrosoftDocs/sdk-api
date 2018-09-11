@@ -4,7 +4,7 @@ title: D2D1_RENDERING_CONTROLS
 author: windows-sdk-content
 description: Describes limitations to be applied to an imaging effect renderer.
 old-location: direct2d\d2d1_rendering_controls.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: e563cbb0-2ee0-43d8-978c-0bde1950a926
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: D2D1.lib
-tech.root: 
-req.typenames: D2D1_RENDERING_CONTROLS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_RENDERING_CONTROLS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_RENDERING_CONTROLS
+req.redist: 
 ---
 
 # D2D1_RENDERING_CONTROLS structure

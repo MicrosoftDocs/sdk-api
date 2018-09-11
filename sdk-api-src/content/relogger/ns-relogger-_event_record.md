@@ -4,7 +4,7 @@ title: "_EVENT_RECORD"
 author: windows-sdk-content
 description: Defines the layout of an event that ETW delivers.
 old-location: etw\event_record.htm
-old-project: etw
+tech.root: etw
 ms.assetid: e352c1a7-39a2-43e3-a723-5fc6a3921ee8
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: relogger.h
 req.include-header: Evntcons.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Relogger.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_RECORD, *PEVENT_RECORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_RECORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: EVENT_RECORD, *PEVENT_RECORD
+req.redist: 
 ---
 
 # _EVENT_RECORD structure

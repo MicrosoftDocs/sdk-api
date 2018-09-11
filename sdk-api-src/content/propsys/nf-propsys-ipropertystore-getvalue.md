@@ -4,17 +4,16 @@ title: IPropertyStore::GetValue
 author: windows-sdk-content
 description: This method retrieves the data for a specific property.
 old-location: audio\ipropertystore_getvalue.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 11204335-0f00-4af8-8787-93e91248e5bd
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetValue, GetValue (IPropertyStore), GetValue method [Audio Devices], GetValue method [Audio Devices],IPropertyStore interface, IPropertyStore interface [Audio Devices],GetValue method, IPropertyStore.GetValue, IPropertyStore::GetValue, audio.ipropertystore_getvalue, audio_syseffects_r_5540088b-f979-440e-93b8-feb9db17001c.xml, propsys/IPropertyStore::GetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.idl
+req.dll: 
+req.irql: All levels
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPropertyStore.GetValue
 product: Windows
 targetos: Windows
-req.lib: Propsys.idl
-req.dll: 
-req.irql: All levels
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyStore::GetValue
@@ -63,7 +61,7 @@ This method retrieves the data for a specific property.
 
 ### -param key
 
-
+TBD
 
 
 ### -param pv

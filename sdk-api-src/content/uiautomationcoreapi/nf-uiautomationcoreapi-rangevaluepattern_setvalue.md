@@ -4,17 +4,16 @@ title: RangeValuePattern_SetValue function
 author: windows-sdk-content
 description: Sets the value of a control that has a numerical range.
 old-location: winauto\uiauto_RangeValuePattern_SetValueConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9a001826-fb0f-4e68-ba0f-54736d6ca1bd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RangeValuePattern_SetValue, RangeValuePattern_SetValue function [Windows Accessibility], uiauto.uiauto_RangeValuePattern_SetValueConPat, uiauto_RangeValuePattern_SetValueConPat, uiautomationcoreapi/RangeValuePattern_SetValue, winauto.uiauto_RangeValuePattern_SetValueConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RangeValuePattern_SetValue
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # RangeValuePattern_SetValue function

@@ -4,7 +4,7 @@ title: "_MFBYTESTREAM_BUFFERING_PARAMS"
 author: windows-sdk-content
 description: Specifies the buffering parameters for a network byte stream.
 old-location: mf\mfbytestream_buffering_params.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6667d32c-36a8-414e-a546-02d00a447b70
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFBYTESTREAM_BUFFERING_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFBYTESTREAM_BUFFERING_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFBYTESTREAM_BUFFERING_PARAMS
+req.redist: 
 ---
 
 # _MFBYTESTREAM_BUFFERING_PARAMS structure

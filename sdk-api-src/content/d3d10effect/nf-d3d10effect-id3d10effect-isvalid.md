@@ -4,17 +4,16 @@ title: ID3D10Effect::IsValid
 author: windows-sdk-content
 description: Test an effect to see if it contains valid syntax.
 old-location: direct3d10\id3d10effect_isvalid.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_isvalid.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: ID3D10Effect interface [Direct3D 10],IsValid method, ID3D10Effect.IsValid, ID3D10Effect::IsValid, IsValid, IsValid method [Direct3D 10], IsValid method [Direct3D 10],ID3D10Effect interface, d3d10effect/ID3D10Effect::IsValid, d84d4878-14e4-0af4-cf30-82cba30bb91c, direct3d10.id3d10effect_isvalid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10Effect.IsValid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Effect::IsValid

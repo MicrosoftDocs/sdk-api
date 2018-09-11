@@ -4,17 +4,16 @@ title: "_MSV1_0_LM20_LOGON_PROFILE"
 author: windows-sdk-content
 description: Contains information about a network logon session.
 old-location: security\msv1_0_lm20_logon_profile.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 4bf69171-1f92-40df-ab0f-cd6790ce34f1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMSV1_0_LM20_LOGON_PROFILE, LOGON_CACHED_ACCOUNT, LOGON_EXTRA_SIDS, LOGON_GUEST, LOGON_NOENCRYPTION, LOGON_PROFILE_PATH_RETURNED, LOGON_RESOURCE_GROUPS, LOGON_SERVER_TRUST_ACCOUNT, LOGON_SUBAUTH_SESSION_KEY, LOGON_USED_LM_PASSWORD, MSV1_0_LM20_LOGON_PROFILE, MSV1_0_LM20_LOGON_PROFILE structure [Security], PMSV1_0_LM20_LOGON_PROFILE, PMSV1_0_LM20_LOGON_PROFILE structure pointer [Security], _MSV1_0_LM20_LOGON_PROFILE, _lsa_msv1_0_lm20_logon_profile, ntsecapi/MSV1_0_LM20_LOGON_PROFILE, ntsecapi/PMSV1_0_LM20_LOGON_PROFILE, security.msv1_0_lm20_logon_profile"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSV1_0_LM20_LOGON_PROFILE, *PMSV1_0_LM20_LOGON_PROFILE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSV1_0_LM20_LOGON_PROFILE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MSV1_0_LM20_LOGON_PROFILE, *PMSV1_0_LM20_LOGON_PROFILE
+req.redist: 
 ---
 
 # _MSV1_0_LM20_LOGON_PROFILE structure

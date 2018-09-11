@@ -4,17 +4,16 @@ title: IMFTimedTextCue::GetStartTime
 author: windows-sdk-content
 description: Gets the start time of the cue in the track.
 old-location: mf\imftimedtextcue_getstarttime.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: A5D7766E-7692-449A-86CE-93A787DBDCDC
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStartTime, GetStartTime method [Media Foundation], GetStartTime method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetStartTime method, IMFTimedTextCue.GetStartTime, IMFTimedTextCue::GetStartTime, mf.imftimedtextcue_getstarttime, mfmediaengine/IMFTimedTextCue::GetStartTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextCue.GetStartTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextCue::GetStartTime

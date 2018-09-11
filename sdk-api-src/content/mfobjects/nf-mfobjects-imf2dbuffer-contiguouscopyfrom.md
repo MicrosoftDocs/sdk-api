@@ -4,17 +4,16 @@ title: IMF2DBuffer::ContiguousCopyFrom
 author: windows-sdk-content
 description: Copies data to this buffer from a buffer that has a contiguous format.
 old-location: mf\imf2dbuffer_contiguouscopyfrom.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 84634782-7805-4e2b-a043-7e49adef5c2a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 84634782-7805-4e2b-a043-7e49adef5c2a, ContiguousCopyFrom, ContiguousCopyFrom method [Media Foundation], ContiguousCopyFrom method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],ContiguousCopyFrom method, IMF2DBuffer.ContiguousCopyFrom, IMF2DBuffer::ContiguousCopyFrom, mf.imf2dbuffer_contiguouscopyfrom, mfobjects/IMF2DBuffer::ContiguousCopyFrom
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMF2DBuffer.ContiguousCopyFrom
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMF2DBuffer::ContiguousCopyFrom

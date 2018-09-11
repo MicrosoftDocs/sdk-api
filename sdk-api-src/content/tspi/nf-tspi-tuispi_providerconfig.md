@@ -4,17 +4,16 @@ title: TUISPI_providerConfig function
 author: windows-sdk-content
 description: The TUISPI_providerConfig function implements the UI elements that must execute in the context of the calling application. This function makes the TSPI_providerConfig function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
 old-location: tspi\tuispi_providerconfig.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 9730f61a-8da7-4693-9fd2-94650e36ce8a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TUISPI_providerConfig, TUISPI_providerConfig function [TAPI 2.2], _tspi_tuispi_providerconfig, tspi.tuispi_providerconfig, tspi/TUISPI_providerConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TUISPI_providerConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TUISPI_providerConfig function

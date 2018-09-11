@@ -4,17 +4,16 @@ title: IX509Enrollment::CreateRequest
 author: windows-sdk-content
 description: Retrieves an encoded certificate request.
 old-location: security\ix509enrollment_createrequest_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: bc01a648-04c7-411e-8f7a-80f19433a200
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateRequest, CreateRequest method [Security], CreateRequest method [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CreateRequest method, IX509Enrollment.CreateRequest, IX509Enrollment::CreateRequest, certenroll/IX509Enrollment::CreateRequest, security.ix509enrollment_createrequest_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509Enrollment.CreateRequest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Enrollment::CreateRequest

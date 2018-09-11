@@ -4,17 +4,16 @@ title: SetProviderStatusInfo
 author: windows-sdk-content
 description: A structure that is used by the SetProviderStatusFunc function.
 old-location: base\setproviderstatusinfo_str.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 8e0a79ba-f76a-435a-9b0b-c3a2d9c390da
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: SetProviderStatusInfo, SetProviderStatusInfo structure, TPC_Error, TPS_Running, _win32_setproviderstatusinfo_str, base.setproviderstatusinfo_str, timeprov/SetProviderStatusInfo
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: timeprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SetProviderStatusInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetProviderStatusInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SetProviderStatusInfo
+req.redist: 
 ---
 
 # SetProviderStatusInfo structure

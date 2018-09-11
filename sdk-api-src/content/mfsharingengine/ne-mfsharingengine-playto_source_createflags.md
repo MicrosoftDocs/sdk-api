@@ -4,7 +4,7 @@ title: PLAYTO_SOURCE_CREATEFLAGS
 author: windows-sdk-content
 description: Contains flags for the IPlayToSourceClassFactory::CreateInstance method.
 old-location: mf\playto_source_createflags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 15B632DD-586B-40E4-9B63-05CCC6AFB93A
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfsharingengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PLAYTO_SOURCE_CREATEFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+req.redist: 
 ---
 
 # PLAYTO_SOURCE_CREATEFLAGS enumeration

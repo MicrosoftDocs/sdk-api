@@ -4,7 +4,7 @@ title: ICMP6_TYPE
 author: windows-sdk-content
 description: Defines the set of Internet Control Message Protocol for IP version 6.0 (ICMPv6) message types.
 old-location: mib\icmp6_type.htm
-old-project: mib
+tech.root: mib
 ms.assetid: d20f72a3-4e9e-43ea-b7b1-c21940c219fc
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICMP6_TYPE, *PICMP6_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICMP6_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ICMP6_TYPE, *PICMP6_TYPE
+req.redist: 
 ---
 
 # ICMP6_TYPE enumeration

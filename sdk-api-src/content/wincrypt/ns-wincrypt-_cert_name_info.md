@@ -4,17 +4,16 @@ title: "_CERT_NAME_INFO"
 author: windows-sdk-content
 description: Contains subject or issuer names.
 old-location: security\cert_name_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 402d1051-d91a-4a79-96f6-10ed96a32d5c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_NAME_INFO, CERT_NAME_INFO, CERT_NAME_INFO structure [Security], PCERT_NAME_INFO, PCERT_NAME_INFO structure pointer [Security], _CERT_NAME_INFO, _crypto2_cert_name_info, security.cert_name_info, wincrypt/CERT_NAME_INFO, wincrypt/PCERT_NAME_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_NAME_INFO, *PCERT_NAME_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_NAME_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_NAME_INFO, *PCERT_NAME_INFO
+req.redist: 
 ---
 
 # _CERT_NAME_INFO structure

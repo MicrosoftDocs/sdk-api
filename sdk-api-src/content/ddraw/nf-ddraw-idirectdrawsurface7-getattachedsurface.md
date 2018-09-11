@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::GetAttachedSurface
 author: windows-sdk-content
 description: Obtains the attached surface that has the specified capabilities, and increments the reference count of the retrieved interface.
 old-location: directdraw\idirectdrawsurface7_getattachedsurface.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 0eae7e55-5ff7-41f6-ac6a-ce7fb6d809b9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAttachedSurface, GetAttachedSurface method [DirectDraw], GetAttachedSurface method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetAttachedSurface method, IDirectDrawSurface7.GetAttachedSurface, IDirectDrawSurface7::GetAttachedSurface, ddraw/IDirectDrawSurface7::GetAttachedSurface, directdraw.idirectdrawsurface7_getattachedsurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.GetAttachedSurface
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::GetAttachedSurface
@@ -59,9 +58,14 @@ Obtains the attached surface that has the specified capabilities, and increments
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

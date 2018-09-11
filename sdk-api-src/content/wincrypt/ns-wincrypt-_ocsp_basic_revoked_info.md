@@ -4,17 +4,16 @@ title: "_OCSP_BASIC_REVOKED_INFO"
 author: windows-sdk-content
 description: Contains the reason a certificate was revoked.
 old-location: security\ocsp_basic_revoked_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 4475cf2a-bf25-427d-8e53-5e5b96dd676a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*POCSP_BASIC_REVOKED_INFO, CRL_REASON_AFFILIATION_CHANGED, CRL_REASON_CA_COMPROMISE, CRL_REASON_CERTIFICATE_HOLD, CRL_REASON_CESSATION_OF_OPERATION, CRL_REASON_KEY_COMPROMISE, CRL_REASON_REMOVE_FROM_CRL, CRL_REASON_SUPERSEDED, CRL_REASON_UNSPECIFIED, OCSP_BASIC_REVOKED_INFO, OCSP_BASIC_REVOKED_INFO structure [Security], POCSP_BASIC_REVOKED_INFO, POCSP_BASIC_REVOKED_INFO structure pointer [Security], _OCSP_BASIC_REVOKED_INFO, security.ocsp_basic_revoked_info, wincrypt/OCSP_BASIC_REVOKED_INFO, wincrypt/POCSP_BASIC_REVOKED_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OCSP_BASIC_REVOKED_INFO, *POCSP_BASIC_REVOKED_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OCSP_BASIC_REVOKED_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: OCSP_BASIC_REVOKED_INFO, *POCSP_BASIC_REVOKED_INFO
+req.redist: 
 ---
 
 # _OCSP_BASIC_REVOKED_INFO structure

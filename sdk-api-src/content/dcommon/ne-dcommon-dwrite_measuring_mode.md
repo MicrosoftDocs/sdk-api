@@ -4,17 +4,16 @@ title: DWRITE_MEASURING_MODE
 author: windows-sdk-content
 description: Indicates the measuring method used for text layout.
 old-location: directwrite\dwrite_text_measuring_method.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 99e89754-8bc2-457d-bfdb-a3c9ccfe00c1
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_MEASURING_MODE, DWRITE_MEASURING_MODE enumeration [Direct Write], DWRITE_MEASURING_MODE_GDI_CLASSIC, DWRITE_MEASURING_MODE_GDI_NATURAL, DWRITE_MEASURING_MODE_NATURAL, dcommon/DWRITE_MEASURING_MODE, dcommon/DWRITE_MEASURING_MODE_GDI_CLASSIC, dcommon/DWRITE_MEASURING_MODE_GDI_NATURAL, dcommon/DWRITE_MEASURING_MODE_NATURAL, directwrite.dwrite_text_measuring_method
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dcommon.h
 req.include-header: Dwrite.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DWRITE_MEASURING_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DWRITE_MEASURING_MODE
 product: Windows
 targetos: Windows
-req.lib: Dciman32.lib
-req.dll: Dciman32.dll
-req.irql: 
+req.typenames: DWRITE_MEASURING_MODE
+req.redist: 
 ---
 
 # DWRITE_MEASURING_MODE enumeration

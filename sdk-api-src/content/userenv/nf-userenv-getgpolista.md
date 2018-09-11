@@ -4,17 +4,16 @@ title: GetGPOListA function
 author: windows-sdk-content
 description: The GetGPOList function retrieves the list of GPOs for the specified user or computer.
 old-location: policy\getgpolist.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 26c54ac5-23d7-40ed-94a9-70d25e14431f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetGPOList, GetGPOList function [Group Policy], GetGPOListA, GetGPOListW, _win32_getgpolist, policy.getgpolist, userenv/GetGPOList, userenv/GetGPOListA, userenv/GetGPOListW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetGPOListW
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetGPOListA function

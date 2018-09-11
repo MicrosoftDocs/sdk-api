@@ -4,7 +4,7 @@ title: D3D12_HEAP_FLAGS
 author: windows-sdk-content
 description: Specifies heap options, such as whether the heap can contain textures, and whether resources are shared across adapters.
 old-location: direct3d12\d3d12_heap_flags.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: C3C1B611-714C-49DB-8034-9C9B7D6772E4
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_HEAP_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_HEAP_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_HEAP_FLAGS
+req.redist: 
 ---
 
 # D3D12_HEAP_FLAGS enumeration

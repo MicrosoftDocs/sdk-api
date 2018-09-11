@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxOutboundRoutingGroups.get_Count
 title: IFaxOutboundRoutingGroups::get_Count
 author: windows-sdk-content
 description: The Count property represents the number of objects in the FaxOutboundRoutingGroups collection. This is the total number of outbound routing groups associated with the fax server.
-old-location: fax\_mfax_faxoutboundroutinggroups_count_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxoutboundroutinggroups_cpp_mfax_faxoutboundroutinggroups_count_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5kac.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxOutboundRoutingGroups object, FaxOutboundRoutingGroups object [Fax Service],Count property, FaxOutboundRoutingGroups.Count, IFaxOutboundRoutingGroups.get_Count, IFaxOutboundRoutingGroups::get_Count, _mfax_faxoutboundroutinggroups.count, fax._mfax_faxoutboundroutinggroups_count, fax._mfax_faxoutboundroutinggroups_count_vb, get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxOutboundRoutingGroups interface, IFaxOutboundRoutingGroups interface [Fax Service],Count property, IFaxOutboundRoutingGroups.Count, IFaxOutboundRoutingGroups.get_Count, IFaxOutboundRoutingGroups::Count, IFaxOutboundRoutingGroups::get_Count, _mfax_faxoutboundroutinggroups.count, fax._mfax_faxoutboundroutinggroups_count, fax._mfax_faxoutboundroutinggroups_cpp_mfax_faxoutboundroutinggroups_count_cpp, faxcomex/IFaxOutboundRoutingGroups::Count, faxcomex/IFaxOutboundRoutingGroups::get_Count, get_Count
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutboundRoutingGroups.Count
+ - IFaxOutboundRoutingGroups.Count
+ - IFaxOutboundRoutingGroups.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutboundRoutingGroups::get_Count

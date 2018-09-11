@@ -4,17 +4,16 @@ title: IResultsFolder::AddItem
 author: windows-sdk-content
 description: Adds an item to a results folder.
 old-location: shell\IResultsFolder_AddItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 005f7125-8dc2-4d9c-a860-1bb56b4d0b63
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: AddItem, AddItem method [Windows Shell], AddItem method [Windows Shell],IResultsFolder interface, IResultsFolder interface [Windows Shell],AddItem method, IResultsFolder.AddItem, IResultsFolder::AddItem, _shell_IResultsFolder_AddItem, shell.IResultsFolder_AddItem, shobjidl/IResultsFolder::AddItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IResultsFolder.AddItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IResultsFolder::AddItem

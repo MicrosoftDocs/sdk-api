@@ -4,17 +4,16 @@ title: StrSpnW function
 author: windows-sdk-content
 description: Obtains the length of a substring within a string that consists entirely of characters contained in a specified buffer.
 old-location: shell\StrSpn.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1a57da7f-76e7-49f2-aa31-50c224376e95
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrSpn, StrSpn function [Windows Shell], StrSpnA, StrSpnW, _win32_StrSpn, shell.StrSpn, shlwapi/StrSpn, shlwapi/StrSpnA, shlwapi/StrSpnW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - StrSpnW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # StrSpnW function

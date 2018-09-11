@@ -4,17 +4,16 @@ title: IInputPanelConfiguration
 author: windows-sdk-content
 description: Provides functionality for desktop apps to opt in to the focus tracking mechanism used in Windows Store apps.
 old-location: shell\iinputpanelconfiguration.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 81E54703-095E-4810-A8A0-2ACBE7F3D634
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IInputPanelConfiguration, IInputPanelConfiguration interface [Windows Shell], IInputPanelConfiguration interface [Windows Shell],described, inputpanelconfiguration/IInputPanelConfiguration, shell.iinputpanelconfiguration
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: inputpanelconfiguration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInputPanelConfiguration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInputPanelConfiguration interface

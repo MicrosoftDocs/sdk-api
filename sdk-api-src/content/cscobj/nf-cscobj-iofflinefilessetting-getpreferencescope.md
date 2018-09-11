@@ -4,17 +4,16 @@ title: IOfflineFilesSetting::GetPreferenceScope
 author: windows-sdk-content
 description: Indicates the scope of the preference associated with this setting.
 old-location: of\iofflinefilessetting_getpreferencescope.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 618a83b7-a86d-4356-8312-7aba8923e8a4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPreferenceScope, GetPreferenceScope method [Offline Files], GetPreferenceScope method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPreferenceScope method, IOfflineFilesSetting.GetPreferenceScope, IOfflineFilesSetting::GetPreferenceScope, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPreferenceScope, of.iofflinefilessetting_getpreferencescope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesSetting.GetPreferenceScope
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesSetting::GetPreferenceScope

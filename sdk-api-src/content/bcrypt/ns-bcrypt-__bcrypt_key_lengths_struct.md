@@ -4,17 +4,16 @@ title: "__BCRYPT_KEY_LENGTHS_STRUCT"
 author: windows-sdk-content
 description: Defines the range of key sizes that are supported by the provider.
 old-location: security\bcrypt_key_lengths_struct.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 0ce50187-6376-4e14-aaa8-ecc401c7a973
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCRYPT_AUTH_TAG_LENGTHS_STRUCT, BCRYPT_AUTH_TAG_LENGTHS_STRUCT structure [Security], BCRYPT_KEY_LENGTHS_STRUCT, BCRYPT_KEY_LENGTHS_STRUCT structure [Security], __BCRYPT_KEY_LENGTHS_STRUCT, bcrypt/BCRYPT_AUTH_TAG_LENGTHS_STRUCT, bcrypt/BCRYPT_KEY_LENGTHS_STRUCT, security.bcrypt_key_lengths_struct
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_KEY_LENGTHS_STRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_KEY_LENGTHS_STRUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_KEY_LENGTHS_STRUCT
+req.redist: 
 ---
 
 # __BCRYPT_KEY_LENGTHS_STRUCT structure

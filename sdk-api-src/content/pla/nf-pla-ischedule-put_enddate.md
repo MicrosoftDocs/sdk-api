@@ -4,17 +4,16 @@ title: ISchedule::put_EndDate
 author: windows-sdk-content
 description: Retrieves or sets the last date that the schedule is valid.
 old-location: pla\ischedule_enddate.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 80a5c1a9-2d0a-4700-824b-1333b5c7c374
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: EndDate property [PLA], EndDate property [PLA],ISchedule interface, ISchedule interface [PLA],EndDate property, ISchedule.EndDate, ISchedule.put_EndDate, ISchedule::EndDate, ISchedule::get_EndDate, ISchedule::put_EndDate, base.ischedule_enddate, pla.ischedule_enddate, pla/ISchedule::EndDate, pla/ISchedule::get_EndDate, pla/ISchedule::put_EndDate, put_EndDate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ISchedule.put_EndDate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISchedule::put_EndDate

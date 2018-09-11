@@ -4,17 +4,16 @@ title: PropVariantToInt64VectorAlloc function
 author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a newly-allocated LONGLONG vector.
 old-location: properties\PropVariantToInt64VectorAlloc.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 06f82bf5-5009-4c8b-9f99-4325328bc2e2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PropVariantToInt64VectorAlloc, PropVariantToInt64VectorAlloc function [Windows Properties], _shell_PropVariantToInt64VectorAlloc, properties.PropVariantToInt64VectorAlloc, propvarutil/PropVariantToInt64VectorAlloc, shell.PropVariantToInt64VectorAlloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropVariantToInt64VectorAlloc
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PropVariantToInt64VectorAlloc function

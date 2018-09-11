@@ -4,17 +4,16 @@ title: SYNCMGR_CANCEL_REQUEST
 author: windows-sdk-content
 description: Describes a request by the user to cancel a synchronization.
 old-location: shell\SYNCMGR_CANCEL_REQUEST.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 81cf8dcc-c847-41e0-82e2-b5f547fc03cf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SYNCMGR_CANCEL_REQUEST, SYNCMGR_CANCEL_REQUEST enumeration [Windows Shell], SYNCMGR_CR_CANCEL_ALL, SYNCMGR_CR_CANCEL_ITEM, SYNCMGR_CR_MAX, SYNCMGR_CR_NONE, shell.SYNCMGR_CANCEL_REQUEST, shell_SYNCMGR_CANCEL_REQUEST, syncmgr/SYNCMGR_CANCEL_REQUEST, syncmgr/SYNCMGR_CR_CANCEL_ALL, syncmgr/SYNCMGR_CR_CANCEL_ITEM, syncmgr/SYNCMGR_CR_MAX, syncmgr/SYNCMGR_CR_NONE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_CANCEL_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGR_CANCEL_REQUEST
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SYNCMGR_CANCEL_REQUEST
+req.redist: 
 ---
 
 # SYNCMGR_CANCEL_REQUEST enumeration

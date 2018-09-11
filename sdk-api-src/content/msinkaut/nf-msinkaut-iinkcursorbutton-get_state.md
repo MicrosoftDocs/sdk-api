@@ -4,17 +4,16 @@ title: IInkCursorButton::get_State
 author: windows-sdk-content
 description: Gets the state of a cursor button, such as whether the button is unavailable, up, or down.
 old-location: tablet\iinkcursorbutton_state.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 166bffdc-ec72-427a-a4bd-35ff16e8eb60
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 166bffdc-ec72-427a-a4bd-35ff16e8eb60, IInkCursorButton interface [Tablet PC],State property, IInkCursorButton.State, IInkCursorButton.get_State, IInkCursorButton::State, IInkCursorButton::get_State, State property [Tablet PC], State property [Tablet PC],IInkCursorButton interface, get_State, msinkaut/IInkCursorButton::State, msinkaut/IInkCursorButton::get_State, tablet.iinkcursorbutton_state
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkCursorButton.get_State
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCursorButton::get_State

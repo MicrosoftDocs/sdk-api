@@ -4,17 +4,16 @@ title: WS_DECODER_GET_CONTENT_TYPE_CALLBACK
 author: windows-sdk-content
 description: Gets the content type of the message.
 old-location: wsw\ws_decoder_get_content_type_callback.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 8920259f-e52d-4141-87ff-0e1ac1396517
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_DECODER_GET_CONTENT_TYPE_CALLBACK, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_GET_CONTENT_TYPE_CALLBACK, wsw.ws_decoder_get_content_type_callback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_DECODER_GET_CONTENT_TYPE_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback function

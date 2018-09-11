@@ -4,7 +4,7 @@ title: "_DHCP_FILTER_ADD_INFOV4"
 author: windows-sdk-content
 description: Contains information regarding the link-layer filter to be added to the allow and deny filter list.
 old-location: dhcp\dhcp_filter_add_info.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: eed7fffa-a48c-4ebc-ba3a-a118d2b0e20b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_FILTER_ADD_INFO, *LPDHCP_FILTER_ADD_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_FILTER_ADD_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_FILTER_ADD_INFO, *LPDHCP_FILTER_ADD_INFO
+req.redist: 
 ---
 
 # _DHCP_FILTER_ADD_INFOV4 structure

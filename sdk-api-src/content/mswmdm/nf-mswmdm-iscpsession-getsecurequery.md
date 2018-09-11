@@ -4,17 +4,16 @@ title: ISCPSession::GetSecureQuery
 author: windows-sdk-content
 description: The GetSecureQuery method is used to obtain a secure query object for the session.
 old-location: wmdm\iscpsession_getsecurequery.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: c725f0ae-1f37-412d-ac2b-0833989d1bd6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSecureQuery, GetSecureQuery method [windows Media Device Manager], GetSecureQuery method [windows Media Device Manager],ISCPSession interface, ISCPSession interface [windows Media Device Manager],GetSecureQuery method, ISCPSession.GetSecureQuery, ISCPSession::GetSecureQuery, ISCPSessionGetSecureQuerry, mswmdm/ISCPSession::GetSecureQuery, wmdm.iscpsession_getsecurequery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISCPSession.GetSecureQuery
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISCPSession::GetSecureQuery

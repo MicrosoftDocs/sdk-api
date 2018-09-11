@@ -4,17 +4,16 @@ title: IInkRecognizer::get_Capabilities
 author: windows-sdk-content
 description: Gets the capabilities of the IInkRecognizer object.
 old-location: tablet\iinkrecognizer_capabilities.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: c8662817-0a33-4828-8de7-c4ce259738a7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: Capabilities property [Tablet PC], Capabilities property [Tablet PC],IInkRecognizer interface, IInkRecognizer interface [Tablet PC],Capabilities property, IInkRecognizer.Capabilities, IInkRecognizer.get_Capabilities, IInkRecognizer::Capabilities, IInkRecognizer::get_Capabilities, c8662817-0a33-4828-8de7-c4ce259738a7, get_Capabilities, msinkaut/IInkRecognizer::Capabilities, msinkaut/IInkRecognizer::get_Capabilities, tablet.iinkrecognizer_capabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkRecognizer.get_Capabilities
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizer::get_Capabilities

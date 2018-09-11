@@ -4,17 +4,16 @@ title: IDirect3DDevice9Video::CreateAuthenticatedChannel
 author: windows-sdk-content
 description: Creates a channel to communicate with the Direct3D device or the graphics driver.
 old-location: mf\idirect3ddevice9video_createauthenticatedchannel.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e0dcfc3f-ede3-4917-8806-6bd343154cf8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateAuthenticatedChannel, CreateAuthenticatedChannel method [Media Foundation], CreateAuthenticatedChannel method [Media Foundation],IDirect3DDevice9Video interface, IDirect3DDevice9Video interface [Media Foundation],CreateAuthenticatedChannel method, IDirect3DDevice9Video.CreateAuthenticatedChannel, IDirect3DDevice9Video::CreateAuthenticatedChannel, d3d9/IDirect3DDevice9Video::CreateAuthenticatedChannel, mf.idirect3ddevice9video_createauthenticatedchannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirect3DDevice9Video.CreateAuthenticatedChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9Video::CreateAuthenticatedChannel

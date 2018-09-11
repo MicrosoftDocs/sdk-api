@@ -4,17 +4,16 @@ title: tagOLEUICHANGEICONA
 author: windows-sdk-content
 description: Contains information that the OLE User Interface Library uses to initialize the Change Icon dialog box, and it contains space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuichangeicon_struct.htm
-old-project: com
+tech.root: com
 ms.assetid: 2c4ba340-541a-405b-889c-bc51d1d20cc9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPOLEUICHANGEICONA, *POLEUICHANGEICONA, CIF_SELECTCURRENT, CIF_SELECTDEFAULT, CIF_SELECTFROMFILE, CIF_SHOWHELP, CIF_USEICONEXE, LPOLEUICHANGEICON, LPOLEUICHANGEICON structure pointer [COM], OLEUICHANGEICON, OLEUICHANGEICON structure [COM], OLEUICHANGEICONA, POLEUICHANGEICON, POLEUICHANGEICON structure pointer [COM], _ole_OLEUICHANGEICON_str, com.oleuichangeicon_struct, oledlg/LPOLEUICHANGEICON, oledlg/POLEUICHANGEICON, oledlg/tagOLEUICHANGEICON, oledlg/tagOLEUICHANGEICONA, oledlg/tagOLEUICHANGEICONW, tagOLEUICHANGEICON, tagOLEUICHANGEICON structure [COM], tagOLEUICHANGEICONA, tagOLEUICHANGEICONW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUICHANGEICONA, *POLEUICHANGEICONA, *LPOLEUICHANGEICONA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - tagOLEUICHANGEICONW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEUICHANGEICONA, *POLEUICHANGEICONA, *LPOLEUICHANGEICONA
+req.redist: 
 ---
 
 # tagOLEUICHANGEICONA structure

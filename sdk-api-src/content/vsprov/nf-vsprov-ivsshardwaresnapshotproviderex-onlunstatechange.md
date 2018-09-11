@@ -4,17 +4,16 @@ title: IVssHardwareSnapshotProviderEx::OnLunStateChange
 author: windows-sdk-content
 description: The VSS service calls this method to notify hardware providers of a LUN state change.
 old-location: base\ivsshardwaresnapshotproviderex_onlunstatechange.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 7546eca0-db52-4c4b-9b5a-a3cfdf2a98af
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssHardwareSnapshotProviderEx interface,OnLunStateChange method, IVssHardwareSnapshotProviderEx.OnLunStateChange, IVssHardwareSnapshotProviderEx::OnLunStateChange, OnLunStateChange, OnLunStateChange method, OnLunStateChange method,IVssHardwareSnapshotProviderEx interface, VSS_ONLUNSTATECHANGE_DO_MASK_LUNS, VSS_ONLUNSTATECHANGE_NOTIFY_LUN_POST_RECOVERY, VSS_ONLUNSTATECHANGE_NOTIFY_LUN_PRE_RECOVERY, VSS_ONLUNSTATECHANGE_NOTIFY_READ_WRITE, base.ivsshardwaresnapshotproviderex_onlunstatechange, vsprov/IVssHardwareSnapshotProviderEx::OnLunStateChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssHardwareSnapshotProviderEx.OnLunStateChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssHardwareSnapshotProviderEx::OnLunStateChange

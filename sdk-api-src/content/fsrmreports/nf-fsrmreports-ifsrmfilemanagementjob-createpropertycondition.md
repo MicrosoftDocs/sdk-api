@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::CreatePropertyCondition
 author: windows-sdk-content
 description: Creates a new property condition and adds it to the collection of property conditions.
 old-location: fsrm\ifsrmfilemanagementjob_createpropertycondition.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 1b264e9c-4ba0-4de2-acdc-94338519c5af
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CreatePropertyCondition, CreatePropertyCondition method [File Server Resource Manager], CreatePropertyCondition method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],CreatePropertyCondition method, IFsrmFileManagementJob.CreatePropertyCondition, IFsrmFileManagementJob::CreatePropertyCondition, fs.ifsrmfilemanagementjob_createpropertycondition, fsrm.ifsrmfilemanagementjob_createpropertycondition, fsrmreports/IFsrmFileManagementJob::CreatePropertyCondition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmFileManagementJob.CreatePropertyCondition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::CreatePropertyCondition
@@ -74,7 +72,7 @@ The name of the property definition that the condition applies to. To enumerate 
 
 ### -param propertyCondition
 
-
+TBD
 
 
 

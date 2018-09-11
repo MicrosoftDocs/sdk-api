@@ -4,17 +4,16 @@ title: WINTRUST_SIGNATURE_SETTINGS_
 author: windows-sdk-content
 description: Can be used to specify the signatures on a file.
 old-location: security\wintrust_signature_settings.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: E0F526B4-AFDE-4481-B49F-EE7467F97A46
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWINTRUST_SIGNATURE_SETTINGS, PWINTRUST_SIGNATURE_SETTINGS, PWINTRUST_SIGNATURE_SETTINGS structure pointer [Security], WINTRUST_SIGNATURE_SETTINGS, WINTRUST_SIGNATURE_SETTINGS structure [Security], WINTRUST_SIGNATURE_SETTINGS_, WSS_GET_SECONDARY_SIG_COUNT, WSS_VERIFY_SPECIFIC, security.wintrust_signature_settings, wintrust/PWINTRUST_SIGNATURE_SETTINGS, wintrust/WINTRUST_SIGNATURE_SETTINGS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINTRUST_SIGNATURE_SETTINGS, *PWINTRUST_SIGNATURE_SETTINGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINTRUST_SIGNATURE_SETTINGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WINTRUST_SIGNATURE_SETTINGS, *PWINTRUST_SIGNATURE_SETTINGS
+req.redist: 
 ---
 
 # WINTRUST_SIGNATURE_SETTINGS_ structure

@@ -4,17 +4,16 @@ title: ITMediaSupport::get_MediaTypes
 author: windows-sdk-content
 description: The get_MediaTypes method gets the media type or types supported on the current address.
 old-location: tapi3\itmediasupport_get_mediatypes.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8fc3d82e-6d6f-4442-9232-87f8d7605870
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITMediaSupport interface [TAPI 2.2],get_MediaTypes method, ITMediaSupport.get_MediaTypes, ITMediaSupport::get_MediaTypes, _tapi3_itmediasupport_get_mediatypes, get_MediaTypes, get_MediaTypes method [TAPI 2.2], get_MediaTypes method [TAPI 2.2],ITMediaSupport interface, tapi3.itmediasupport_get_mediatypes, tapi3if/ITMediaSupport::get_MediaTypes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITMediaSupport.get_MediaTypes
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITMediaSupport::get_MediaTypes

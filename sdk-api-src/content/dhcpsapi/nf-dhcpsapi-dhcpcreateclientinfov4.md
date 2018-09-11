@@ -4,17 +4,16 @@ title: DhcpCreateClientInfoV4 function
 author: windows-sdk-content
 description: Creates a client information record on the DHCP server, extending the functionality of DhcpCreateClientInfo by including the client type (DHCP or BOOTP) in the record.
 old-location: dhcp\dhcpcreateclientinfov4.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 0657e107-bf3d-4bcd-88a1-84a6cd7f934d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpCreateClientInfoV4, DhcpCreateClientInfoV4 function [DHCP], dhcp.dhcpcreateclientinfov4, dhcpsapi/DhcpCreateClientInfoV4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpCreateClientInfoV4
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpCreateClientInfoV4 function

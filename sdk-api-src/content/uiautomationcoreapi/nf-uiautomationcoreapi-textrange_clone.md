@@ -4,17 +4,16 @@ title: TextRange_Clone function
 author: windows-sdk-content
 description: Copies a text range.
 old-location: winauto\uiauto_TextRange_CloneConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: df067f6b-f15f-48cf-979a-d1a9bfbdc05f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TextRange_Clone, TextRange_Clone function [Windows Accessibility], uiauto.uiauto_TextRange_CloneConPat, uiauto_TextRange_CloneConPat, uiautomationcoreapi/TextRange_Clone, winauto.uiauto_TextRange_CloneConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TextRange_Clone
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TextRange_Clone function

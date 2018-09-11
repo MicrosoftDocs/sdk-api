@@ -4,17 +4,16 @@ title: NotifyWinEvent function
 author: windows-sdk-content
 description: Signals the system that a predefined event occurred. If any client applications have registered a hook function for the event, the system calls the client's hook function.
 old-location: winauto\notifywinevent.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 08e74d45-95b6-44c2-a2e0-5ba6ffdcd56a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: NotifyWinEvent, NotifyWinEvent function [Windows Accessibility], _msaa_NotifyWinEvent, msaa.notifywinevent, winauto.notifywinevent, winuser/NotifyWinEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - NotifyWinEvent
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # NotifyWinEvent function

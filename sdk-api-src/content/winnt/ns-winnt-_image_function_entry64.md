@@ -4,17 +4,16 @@ title: "_IMAGE_FUNCTION_ENTRY64"
 author: windows-sdk-content
 description: Represents an entry in the function table.
 old-location: base\image_function_entry_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: ced956ec-7a12-4548-8e38-a1c1057c05e8
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PIMAGE_FUNCTION_ENTRY64, IMAGE_FUNCTION_ENTRY, IMAGE_FUNCTION_ENTRY structure, IMAGE_FUNCTION_ENTRY64, PIMAGE_FUNCTION_ENTRY, PIMAGE_FUNCTION_ENTRY structure pointer, _IMAGE_FUNCTION_ENTRY, _IMAGE_FUNCTION_ENTRY64, _win32_image_function_entry_str, base.image_function_entry_str, winnt/IMAGE_FUNCTION_ENTRY, winnt/PIMAGE_FUNCTION_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGE_FUNCTION_ENTRY64, *PIMAGE_FUNCTION_ENTRY64
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMAGE_FUNCTION_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IMAGE_FUNCTION_ENTRY64, *PIMAGE_FUNCTION_ENTRY64
+req.redist: 
 ---
 
 # _IMAGE_FUNCTION_ENTRY64 structure

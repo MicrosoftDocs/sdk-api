@@ -4,17 +4,16 @@ title: IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm
 author: windows-sdk-content
 description: Gets the cipher algorithm associated with the security settings.
 old-location: nwifi\idot11adhocsecuritysettings_getdot11cipheralgorithm.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 46bf39e3-351f-41c2-8f68-886fce8a83bd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDot11CipherAlgorithm, GetDot11CipherAlgorithm method [NativeWIFI], GetDot11CipherAlgorithm method [NativeWIFI],IDot11AdHocSecuritySettings interface, IDot11AdHocSecuritySettings interface [NativeWIFI],GetDot11CipherAlgorithm method, IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm, IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm, adhoc/IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm, nwifi.idot11adhocsecuritysettings_getdot11cipheralgorithm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm

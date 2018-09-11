@@ -4,17 +4,16 @@ title: GetFriendlyIfIndex function
 author: windows-sdk-content
 description: Takes an interface index and returns a backward-compatible interface index, that is, an index that uses only the lower 24 bits.
 old-location: iphlp\getfriendlyifindex.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 2c5b0b63-cbbb-4e89-be27-8e148a891542
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: GetFriendlyIfIndex, GetFriendlyIfIndex function [IP Helper], _iphlp_getfriendlyifindex, iphlp.getfriendlyifindex, iphlpapi/GetFriendlyIfIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetFriendlyIfIndex
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetFriendlyIfIndex function

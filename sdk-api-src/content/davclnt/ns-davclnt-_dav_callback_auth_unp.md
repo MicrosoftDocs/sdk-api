@@ -4,17 +4,16 @@ title: "_DAV_CALLBACK_AUTH_UNP"
 author: windows-sdk-content
 description: Stores user name and password information that was retrieved by the DavAuthCallback callback function.
 old-location: webdav\dav_callback_auth_unp.htm
-old-project: webdav
+tech.root: WebDAV
 ms.assetid: 47420a67-bf3f-40d9-bfc4-ac2cb2776a40
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PDAV_CALLBACK_AUTH_UNP, DAV_CALLBACK_AUTH_UNP, DAV_CALLBACK_AUTH_UNP structure [WebDAV], PDAV_CALLBACK_AUTH_UNP, PDAV_CALLBACK_AUTH_UNP structure pointer [WebDAV], _DAV_CALLBACK_AUTH_UNP, davclnt/DAV_CALLBACK_AUTH_UNP, davclnt/PDAV_CALLBACK_AUTH_UNP, webdav.dav_callback_auth_unp"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: davclnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DAV_CALLBACK_AUTH_UNP, *PDAV_CALLBACK_AUTH_UNP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DAV_CALLBACK_AUTH_UNP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DAV_CALLBACK_AUTH_UNP, *PDAV_CALLBACK_AUTH_UNP
+req.redist: 
 ---
 
 # _DAV_CALLBACK_AUTH_UNP structure

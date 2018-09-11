@@ -4,17 +4,16 @@ title: IUIAutomationDockPattern::get_CachedDockPosition
 author: windows-sdk-content
 description: Retrieves the cached dock position of this element within its docking container.
 old-location: winauto\uiauto_IUIAutomationDockPattern_CachedDockPosition.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 351fbcaf-161e-4d1c-a06b-7df92d6c44d9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedDockPosition property [Windows Accessibility], CachedDockPosition property [Windows Accessibility],IUIAutomationDockPattern interface, IUIAutomationDockPattern interface [Windows Accessibility],CachedDockPosition property, IUIAutomationDockPattern.CachedDockPosition, IUIAutomationDockPattern.get_CachedDockPosition, IUIAutomationDockPattern::CachedDockPosition, IUIAutomationDockPattern::get_CachedDockPosition, get_CachedDockPosition, uiauto.uiauto_IUIAutomationDockPattern_CachedDockPosition, uiauto_IUIAutomationDockPattern_CachedDockPosition, uiautomationclient/IUIAutomationDockPattern::CachedDockPosition, uiautomationclient/IUIAutomationDockPattern::get_CachedDockPosition, winauto.uiauto_IUIAutomationDockPattern_CachedDockPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationDockPattern.get_CachedDockPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationDockPattern::get_CachedDockPosition

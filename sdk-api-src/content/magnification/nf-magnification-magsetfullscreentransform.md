@@ -4,17 +4,16 @@ title: MagSetFullscreenTransform function
 author: windows-sdk-content
 description: Changes the magnification settings for the full-screen magnifier.
 old-location: magapi\magapi_magsetfullscreentransform.htm
-old-project: magapi
+tech.root: magapi
 ms.assetid: B02C2A37-6BA6-4DF8-92C1-748BF7B25B96
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MagSetFullscreenTransform, MagSetFullscreenTransform function [Magnification API], magapi.magapi_magsetfullscreentransform, magnification/MagSetFullscreenTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: magnification.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MCAST_SCOPE_ENTRY, *PMCAST_SCOPE_ENTRY
+req.lib: Magnification.lib
+req.dll: Magnification.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MagSetFullscreenTransform
 product: Windows
 targetos: Windows
-req.lib: Magnification.lib
-req.dll: Magnification.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MagSetFullscreenTransform function

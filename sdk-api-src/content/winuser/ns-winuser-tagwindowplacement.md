@@ -4,17 +4,16 @@ title: tagWINDOWPLACEMENT
 author: windows-sdk-content
 description: Contains information about the placement of a window on the screen.
 old-location: winmsg\windowplacement.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\windowplacement.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWINDOWPLACEMENT, LPWINDOWPLACEMENT, LPWINDOWPLACEMENT structure pointer [Windows and Messages], PWINDOWPLACEMENT, PWINDOWPLACEMENT structure pointer [Windows and Messages], SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, WINDOWPLACEMENT, WINDOWPLACEMENT structure [Windows and Messages], WPF_ASYNCWINDOWPLACEMENT, WPF_RESTORETOMAXIMIZED, WPF_SETMINPOSITION, _win32_WINDOWPLACEMENT_str, _win32_windowplacement_str_cpp, tagWINDOWPLACEMENT, winmsg.windowplacement, winui._win32_windowplacement_str, winuser/LPWINDOWPLACEMENT, winuser/PWINDOWPLACEMENT, winuser/WINDOWPLACEMENT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINDOWPLACEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINDOWPLACEMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WINDOWPLACEMENT
+req.redist: 
 ---
 
 # tagWINDOWPLACEMENT structure

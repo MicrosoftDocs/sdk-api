@@ -4,7 +4,7 @@ title: IOCTL_USB_USER_REQUEST
 author: windows-sdk-content
 description: The IOCTL_USB_USER_REQUEST I/O control request is available to both user-mode applications and kernel-mode drivers.
 old-location: buses\ioctl_usb_user_request.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 6aba5cf4-a9fa-4d10-a212-acc79e00fa9b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: usbuser.h
 req.include-header: Usbuser.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDMUSB_POWER_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_USB_USER_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_USB_USER_REQUEST IOCTL

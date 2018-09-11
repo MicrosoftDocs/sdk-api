@@ -4,17 +4,16 @@ title: IGPMGPO::CopyTo
 author: windows-sdk-content
 description: Copies the current Group Policy object (GPO) to the specified domain and then returns a pointer to the copy of the GPO.
 old-location: gpmc\igpmgpo_copyto.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 17f4c6b2-6c75-4d4c-88c5-6d9ef2cb7a07
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CopyTo, CopyTo method [GPMC], CopyTo method [GPMC],GPMGPO object, CopyTo method [GPMC],IGPMGPO interface, GPMGPO object [GPMC],CopyTo method, IGPMGPO interface [GPMC],CopyTo method, IGPMGPO.CopyTo, IGPMGPO::CopyTo, _win32_igpmgpo_copyto, gpmc.igpmgpo_copyto, gpmgmt/IGPMGPO::CopyTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMGPO.CopyTo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMGPO::CopyTo

@@ -4,17 +4,16 @@ title: VarUI4FromI1 function
 author: windows-sdk-content
 description: Converts a char value to an unsigned long value.
 old-location: automat\varui4fromi1.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 60a950a5-abfc-40f7-b155-787ba9b5cf4d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarUI4FromI1, VarUI4FromI1 function [Automation], _oa96_VarUI4FromI1, automat.varui4fromi1, oleauto/VarUI4FromI1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarUI4FromI1
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarUI4FromI1 function

@@ -4,17 +4,16 @@ title: "_ADDRESS_LIST_DESCRIPTOR"
 author: windows-sdk-content
 description: The ADDRESS_LIST_DESCRIPTOR structure provides network address descriptor information for a given interface.
 old-location: qos\address_list_descriptor.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: d891b82a-999e-4d59-a676-a90648e17699
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PADDRESS_LIST_DESCRIPTOR, ADDRESS_LIST_DESCRIPTOR, ADDRESS_LIST_DESCRIPTOR structure [QOS], PADDRESS_LIST_DESCRIPTOR, PADDRESS_LIST_DESCRIPTOR structure pointer [QOS], _ADDRESS_LIST_DESCRIPTOR, _gqos_address_list_descriptor, qos.address_list_descriptor, traffic/ADDRESS_LIST_DESCRIPTOR, traffic/PADDRESS_LIST_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADDRESS_LIST_DESCRIPTOR, *PADDRESS_LIST_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADDRESS_LIST_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: ADDRESS_LIST_DESCRIPTOR, *PADDRESS_LIST_DESCRIPTOR
+req.redist: 
 ---
 
 # _ADDRESS_LIST_DESCRIPTOR structure

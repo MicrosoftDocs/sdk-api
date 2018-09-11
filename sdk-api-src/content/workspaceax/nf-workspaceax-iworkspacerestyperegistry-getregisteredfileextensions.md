@@ -4,17 +4,16 @@ title: IWorkspaceResTypeRegistry::GetRegisteredFileExtensions
 author: windows-sdk-content
 description: Retrieves the third-party file name extensions that are registered with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_getregisteredfileextensions.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: e86c93d4-d5da-4d44-b1ea-641cb1fcceb4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetRegisteredFileExtensions, GetRegisteredFileExtensions method [Remote Desktop Services], GetRegisteredFileExtensions method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, GetRegisteredFileExtensions method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],GetRegisteredFileExtensions method, IWorkspaceResTypeRegistry.GetRegisteredFileExtensions, IWorkspaceResTypeRegistry::GetRegisteredFileExtensions, Workspace object [Remote Desktop Services],GetRegisteredFileExtensions method, termserv.iworkspacerestyperegistry_getregisteredfileextensions, workspaceax/IWorkspaceResTypeRegistry::GetRegisteredFileExtensions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceax.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: TSWorkspace.dll
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: TSWorkspace.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - Workspace.GetRegisteredFileExtensions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: TSWorkspace.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceResTypeRegistry::GetRegisteredFileExtensions

@@ -4,17 +4,16 @@ title: "_VDS_DISK_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a disk.
 old-location: base\vds_disk_status.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 7691347d-49a6-4078-9c6c-af59a48af692
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_DISK_STATUS, VDS_DISK_STATUS enumeration [VDS], VDS_DS_FAILED, VDS_DS_MISSING, VDS_DS_NOT_READY, VDS_DS_NO_MEDIA, VDS_DS_OFFLINE, VDS_DS_ONLINE, VDS_DS_UNKNOWN, _VDS_DISK_STATUS, base.vds_disk_status, vds/VDS_DISK_STATUS, vds/VDS_DS_FAILED, vds/VDS_DS_MISSING, vds/VDS_DS_NOT_READY, vds/VDS_DS_NO_MEDIA, vds/VDS_DS_OFFLINE, vds/VDS_DS_ONLINE, vds/VDS_DS_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_DISK_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_DISK_STATUS
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_DISK_STATUS
+req.redist: 
 ---
 
 # _VDS_DISK_STATUS enumeration

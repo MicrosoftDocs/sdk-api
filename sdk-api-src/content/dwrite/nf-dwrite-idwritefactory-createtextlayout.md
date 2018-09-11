@@ -4,17 +4,16 @@ title: IDWriteFactory::CreateTextLayout
 author: windows-sdk-content
 description: Takes a string, text format, and associated constraints, and produces an object that represents the fully analyzed and formatted result.
 old-location: directwrite\IDWriteFactory_CreateTextLayout.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: f76f85df-112f-4bc3-b922-a0d7940d2954
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: CreateTextLayout, CreateTextLayout method [Direct Write], CreateTextLayout method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTextLayout method, IDWriteFactory.CreateTextLayout, IDWriteFactory::CreateTextLayout, directwrite.IDWriteFactory_CreateTextLayout, dwrite/IDWriteFactory::CreateTextLayout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFactory.CreateTextLayout
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory::CreateTextLayout

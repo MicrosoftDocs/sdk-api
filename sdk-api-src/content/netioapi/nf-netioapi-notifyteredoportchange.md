@@ -4,17 +4,16 @@ title: NotifyTeredoPortChange function
 author: windows-sdk-content
 description: Registers to be notified for changes to the UDP port number used by the Teredo client for the Teredo service port on a local computer.
 old-location: iphlp\notifyteredoportchange.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: c0c23531-7629-41c9-acf2-9d2f5e98e02c
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: NotifyTeredoPortChange, NotifyTeredoPortChange function [IP Helper], iphlp.notifyteredoportchange, netioapi/NotifyTeredoPortChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NotifyTeredoPortChange
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NotifyTeredoPortChange function

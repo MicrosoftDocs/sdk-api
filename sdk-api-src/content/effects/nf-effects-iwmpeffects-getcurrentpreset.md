@@ -4,17 +4,16 @@ title: IWMPEffects::GetCurrentPreset
 author: windows-sdk-content
 description: The GetCurrentPreset method gets the current preset, by number, from the visualization and provides it to Windows Media Player.
 old-location: wmp\iwmpeffects_getcurrentpreset.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 09ad671b-612d-4e00-8fa9-d9d76954a010
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EffectsGetCurrentPreset, GetCurrentPreset, GetCurrentPreset method [Windows Media Player], GetCurrentPreset method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetCurrentPreset method, IWMPEffects.GetCurrentPreset, IWMPEffects::GetCurrentPreset, effects/IWMPEffects::GetCurrentPreset, wmp.iwmpeffects_getcurrentpreset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player version 7.0 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEffects.GetCurrentPreset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEffects::GetCurrentPreset
@@ -65,7 +63,7 @@ The <b>GetCurrentPreset</b> method gets the current preset, by number, from the 
 
 ### -param pnPreset
 
-
+TBD
 
 
 

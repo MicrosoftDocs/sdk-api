@@ -4,17 +4,16 @@ title: IPointerInactive::OnInactiveMouseMove
 author: windows-sdk-content
 description: Notifies the object that the mouse pointer has moved over it so the object can fire mouse events. This method is called by the container on receipt of a WM_MOUSEMOVE method when an inactive object is under the mouse pointer.
 old-location: com\ipointerinactive_oninactivemousemove.htm
-old-project: com
+tech.root: com
 ms.assetid: d026c570-b51b-456f-b121-eb2be08e2cac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPointerInactive interface [COM],OnInactiveMouseMove method, IPointerInactive.OnInactiveMouseMove, IPointerInactive::OnInactiveMouseMove, OnInactiveMouseMove, OnInactiveMouseMove method [COM], OnInactiveMouseMove method [COM],IPointerInactive interface, _ctrl_ipointerinactive_oninactivemousemove, com.ipointerinactive_oninactivemousemove, ocidl/IPointerInactive::OnInactiveMouseMove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPointerInactive.OnInactiveMouseMove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPointerInactive::OnInactiveMouseMove

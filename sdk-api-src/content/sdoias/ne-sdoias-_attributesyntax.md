@@ -4,7 +4,7 @@ title: "_ATTRIBUTESYNTAX"
 author: windows-sdk-content
 description: Each value from the ATTRIBUTESYNTAX enumeration type specifies a possible attribute syntax.
 old-location: nps\SDO_attributesyntax.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 50d56c43-6552-4bb0-a204-a0cfc3ee7202
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.unicode-ansi: 
 req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ATTRIBUTESYNTAX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ATTRIBUTESYNTAX
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: ATTRIBUTESYNTAX
+req.redist: 
 ---
 
 # _ATTRIBUTESYNTAX enumeration

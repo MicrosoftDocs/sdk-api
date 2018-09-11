@@ -4,17 +4,16 @@ title: ITfCandidateListUIElement::GetCurrentPage
 author: windows-sdk-content
 description: The ITfCandidateListUIElement::GetCurrentPage method returns the current page.
 old-location: tsf\itfcandidatelistuielement_getcurrentpage.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 551c73ff-8fbd-47e5-a6e8-90d58141c7c0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCurrentPage, GetCurrentPage method [Text Services Framework], GetCurrentPage method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetCurrentPage method, ITfCandidateListUIElement.GetCurrentPage, ITfCandidateListUIElement::GetCurrentPage, msctf/ITfCandidateListUIElement::GetCurrentPage, tsf.itfcandidatelistuielement_getcurrentpage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfCandidateListUIElement.GetCurrentPage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfCandidateListUIElement::GetCurrentPage

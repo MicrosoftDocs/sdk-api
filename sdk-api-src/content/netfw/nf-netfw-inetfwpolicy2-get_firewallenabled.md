@@ -4,17 +4,16 @@ title: INetFwPolicy2::get_FirewallEnabled
 author: windows-sdk-content
 description: Indicates whether a firewall is enabled locally (the effective result may differ due to group policy settings).
 old-location: ics\inetfwpolicy2_firewallenabled.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 6c3ca9dd-a562-454f-bb9a-856beba772f3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: FirewallEnabled property [ICS/ICF], FirewallEnabled property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],FirewallEnabled property, INetFwPolicy2.FirewallEnabled, INetFwPolicy2.get_FirewallEnabled, INetFwPolicy2::FirewallEnabled, INetFwPolicy2::get_FirewallEnabled, INetFwPolicy2::put_FirewallEnabled, get_FirewallEnabled, ics.inetfwpolicy2_firewallenabled, netfw/INetFwPolicy2::FirewallEnabled, netfw/INetFwPolicy2::get_FirewallEnabled, netfw/INetFwPolicy2::put_FirewallEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwPolicy2.put_FirewallEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwPolicy2::get_FirewallEnabled

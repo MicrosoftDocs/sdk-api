@@ -4,17 +4,16 @@ title: IShellMenu::SetMenu
 author: windows-sdk-content
 description: Appends a static menu to the menu band.
 old-location: shell\IShellMenu_SetMenu.htm
-old-project: shell
+tech.root: shell
 ms.assetid: afa393eb-05a0-478e-88a2-7c31b4a48930
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellMenu interface [Windows Shell],SetMenu method, IShellMenu.SetMenu, IShellMenu::SetMenu, SMSET_BOTTOM, SMSET_DONTOWN, SMSET_TOP, SetMenu, SetMenu method [Windows Shell], SetMenu method [Windows Shell],IShellMenu interface, _shell_IShellMenu_SetMenu, shell.IShellMenu_SetMenu, shobjidl_core/IShellMenu::SetMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellMenu.SetMenu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellMenu::SetMenu

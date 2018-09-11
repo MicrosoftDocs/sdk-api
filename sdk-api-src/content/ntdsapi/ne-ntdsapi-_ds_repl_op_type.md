@@ -4,7 +4,7 @@ title: "_DS_REPL_OP_TYPE"
 author: windows-sdk-content
 description: Used to indicate the type of replication operation that a given entry in the replication queue represents.
 old-location: ad\ds_repl_op_type.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 81d9f464-90f4-405c-b014-0a61f5a5b816
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_REPL_OP_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: Any level
-req.product: Rights Management Services client 1.0 or later
+req.typenames: DS_REPL_OP_TYPE
+req.redist: 
 ---
 
 # _DS_REPL_OP_TYPE enumeration

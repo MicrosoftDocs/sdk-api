@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CurrentItemType
 author: windows-sdk-content
 description: Retrieves a description of the type of UI item represented by the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentItemType.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 773960d8-40f2-4015-9b9d-6bfc05a72115
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentItemType property [Windows Accessibility], CurrentItemType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentItemType property, IUIAutomationElement.CurrentItemType, IUIAutomationElement.get_CurrentItemType, IUIAutomationElement::CurrentItemType, IUIAutomationElement::get_CurrentItemType, get_CurrentItemType, uiauto.uiauto_IUIAutomationElement_CurrentItemType, uiauto_IUIAutomationElement_CurrentItemType, uiautomationclient/IUIAutomationElement::CurrentItemType, uiautomationclient/IUIAutomationElement::get_CurrentItemType, winauto.uiauto_IUIAutomationElement_CurrentItemType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CurrentItemType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CurrentItemType

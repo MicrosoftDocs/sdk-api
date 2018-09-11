@@ -4,17 +4,16 @@ title: "_INFCONTEXT"
 author: windows-sdk-content
 description: The INFCONTEXT structure stores context information that functions such as SetupGetLineText use to navigate INF files.
 old-location: setup\infcontext_str.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 5b3d32a8-e651-4017-aaa7-b532ec47da53
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: "*PINFCONTEXT, INFCONTEXT, INFCONTEXT structure [Setup API], PINFCONTEXT, PINFCONTEXT structure pointer [Setup API], _INFCONTEXT, _setupapi_infcontext_str, setup.infcontext_str, setupapi/INFCONTEXT, setupapi/PINFCONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INFCONTEXT, *PINFCONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INFCONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: INFCONTEXT, *PINFCONTEXT
+req.redist: 
 ---
 
 # _INFCONTEXT structure

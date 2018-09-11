@@ -4,17 +4,16 @@ title: IWMStatusCallback::OnStatus
 author: windows-sdk-content
 description: The OnStatus method is called when status information must be communicated to the application.
 old-location: wmformat\iwmstatuscallback_onstatus.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 7b8cdb21-96e1-4cf9-8422-72bce693afb1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMStatusCallback interface [windows Media Format],OnStatus method, IWMStatusCallback.OnStatus, IWMStatusCallback::OnStatus, IWMStatusCallbackOnStatus, OnStatus, OnStatus method [windows Media Format], OnStatus method [windows Media Format],IWMStatusCallback interface, wmformat.iwmstatuscallback_onstatus, wmsdkidl/IWMStatusCallback::OnStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMStatusCallback.OnStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMStatusCallback::OnStatus

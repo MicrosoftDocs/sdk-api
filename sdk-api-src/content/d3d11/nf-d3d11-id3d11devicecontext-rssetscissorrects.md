@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::RSSetScissorRects
 author: windows-sdk-content
 description: Bind an array of scissor rectangles to the rasterizer stage.
 old-location: direct3d11\id3d11devicecontext_rssetscissorrects.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 80bee89d-1743-475c-a284-8137cfacdac2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 28026545-0d38-beff-91cf-a929caef1657, ID3D11DeviceContext interface [Direct3D 11],RSSetScissorRects method, ID3D11DeviceContext.RSSetScissorRects, ID3D11DeviceContext::RSSetScissorRects, RSSetScissorRects, RSSetScissorRects method [Direct3D 11], RSSetScissorRects method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::RSSetScissorRects, direct3d11.id3d11devicecontext_rssetscissorrects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.RSSetScissorRects
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::RSSetScissorRects

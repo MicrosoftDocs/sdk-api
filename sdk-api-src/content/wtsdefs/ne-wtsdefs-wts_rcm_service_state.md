@@ -4,7 +4,7 @@ title: WTS_RCM_SERVICE_STATE
 author: windows-sdk-content
 description: Contains information about the state of the Remote Desktop Services service.
 old-location: termserv\wts_rcm_service_state.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 5f022d92-b048-4c87-918c-6e8f297cc1a6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: WTS_SESSION_INFO_1W (Unicode) and WTS_SESSION_INFO_1A (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_RCM_SERVICE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTS_RCM_SERVICE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTS_RCM_SERVICE_STATE
+req.redist: 
 ---
 
 # WTS_RCM_SERVICE_STATE enumeration

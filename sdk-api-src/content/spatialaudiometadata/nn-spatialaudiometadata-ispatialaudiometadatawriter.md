@@ -4,17 +4,16 @@ title: ISpatialAudioMetadataWriter
 author: windows-sdk-content
 description: Provides methods for storing spatial audio metadata items positioned within a range of corresponding audio frames.
 old-location: coreaudio\ispatialaudiometadatawriter.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: F8CD8B79-9442-46D0-ABF5-5F6734474B01
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: ISpatialAudioMetadataWriter, ISpatialAudioMetadataWriter interface [Core Audio], ISpatialAudioMetadataWriter interface [Core Audio],described, coreaudio.ispatialaudiometadatawriter, spatialaudiometadata/ISpatialAudioMetadataWriter
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioMetadataWriter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioMetadataWriter interface

@@ -4,7 +4,7 @@ title: "_AM_DVD_STREAM_FLAGS"
 author: windows-sdk-content
 description: Describes a DVD stream type (video, audio, or subpicture).
 old-location: dshow\am_dvd_stream_flags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3fb3e57f-7c0b-4a49-b83d-798c84b2d5d1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVD_STREAM_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_DVD_STREAM_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: AM_DVD_STREAM_FLAGS
+req.redist: 
 ---
 
 # _AM_DVD_STREAM_FLAGS enumeration

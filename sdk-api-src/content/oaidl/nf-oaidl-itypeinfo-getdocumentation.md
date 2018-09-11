@@ -4,17 +4,16 @@ title: ITypeInfo::GetDocumentation
 author: windows-sdk-content
 description: Retrieves the documentation string, the complete Help file name and path, and the context ID for the Help topic for a specified type description.
 old-location: automat\itypeinfo_getdocumentation.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 64d2cb0c-d0ca-499b-b089-44525f7f9749
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDocumentation, GetDocumentation method [Automation], GetDocumentation method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetDocumentation method, ITypeInfo.GetDocumentation, ITypeInfo::GetDocumentation, _oa96_ITypeInfo_GetDocumentation, automat.itypeinfo_getdocumentation, oaidl/ITypeInfo::GetDocumentation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo.GetDocumentation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::GetDocumentation

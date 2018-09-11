@@ -4,17 +4,16 @@ title: ExpandCollapsePattern_Expand function
 author: windows-sdk-content
 description: Expands a control on the screen so that it shows more information.
 old-location: winauto\uiauto_ExpandCollapsePattern_ExpandConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 7a5c1a39-e1e1-44e1-a7eb-fd053d305289
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ExpandCollapsePattern_Expand, ExpandCollapsePattern_Expand function [Windows Accessibility], uiauto.uiauto_ExpandCollapsePattern_ExpandConPat, uiauto_ExpandCollapsePattern_ExpandConPat, uiautomationcoreapi/ExpandCollapsePattern_Expand, winauto.uiauto_ExpandCollapsePattern_ExpandConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ExpandCollapsePattern_Expand
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ExpandCollapsePattern_Expand function

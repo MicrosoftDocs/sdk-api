@@ -4,17 +4,16 @@ title: IEventSubscription::put_Description
 author: windows-sdk-content
 description: A displayable text description of the subscription.
 old-location: cos\ieventsubscription_description.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 59648682-12c4-4c55-83f6-57c6ec5d6d02
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Description property [COM+], Description property [COM+],IEventSubscription interface, IEventSubscription interface [COM+],Description property, IEventSubscription.Description, IEventSubscription.put_Description, IEventSubscription::Description, IEventSubscription::get_Description, IEventSubscription::put_Description, cos.ieventsubscription_description, eventsys/IEventSubscription::Description, eventsys/IEventSubscription::get_Description, eventsys/IEventSubscription::put_Description, put_Description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEventSubscription.put_Description
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventSubscription::put_Description

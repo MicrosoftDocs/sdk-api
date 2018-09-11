@@ -4,17 +4,16 @@ title: tagCHANGEFILTERSTRUCT
 author: windows-sdk-content
 description: Contains extended result information obtained by calling the ChangeWindowMessageFilterEx function.
 old-location: winmsg\changefilterstruct.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\changefilterstruct.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCHANGEFILTERSTRUCT, CHANGEFILTERSTRUCT, CHANGEFILTERSTRUCT structure [Windows and Messages], MSGFLTINFO_ALLOWED_HIGHER, MSGFLTINFO_ALREADYALLOWED_FORWND, MSGFLTINFO_ALREADYDISALLOWED_FORWND, MSGFLTINFO_NONE, PCHANGEFILTERSTRUCT, PCHANGEFILTERSTRUCT structure pointer [Windows and Messages], _win32_CHANGEFILTERSTRUCT_str, _win32_changefilterstruct_str_cpp, tagCHANGEFILTERSTRUCT, winmsg.changefilterstruct, winui._win32_changefilterstruct_str, winuser/CHANGEFILTERSTRUCT, winuser/PCHANGEFILTERSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANGEFILTERSTRUCT, *PCHANGEFILTERSTRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHANGEFILTERSTRUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CHANGEFILTERSTRUCT, *PCHANGEFILTERSTRUCT
+req.redist: 
 ---
 
 # tagCHANGEFILTERSTRUCT structure

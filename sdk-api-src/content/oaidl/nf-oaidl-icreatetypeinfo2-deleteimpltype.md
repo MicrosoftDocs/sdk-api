@@ -4,17 +4,16 @@ title: ICreateTypeInfo2::DeleteImplType
 author: windows-sdk-content
 description: Deletes the IMPLTYPE flags for the indexed interface.
 old-location: automat\icreatetypeinfo2_deleteimpltype.htm
-old-project: automat
+tech.root: automat
 ms.assetid: c64b70eb-6047-4572-9d5e-f40b3c302f31
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DeleteImplType, DeleteImplType method [Automation], DeleteImplType method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteImplType method, ICreateTypeInfo2.DeleteImplType, ICreateTypeInfo2::DeleteImplType, _oa96_ICreateTypeInfo2_DeleteImplType, automat.icreatetypeinfo2_deleteimpltype, oaidl/ICreateTypeInfo2::DeleteImplType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo2.DeleteImplType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo2::DeleteImplType

@@ -4,17 +4,16 @@ title: IWICImagingFactory2::CreateImageEncoder
 author: windows-sdk-content
 description: Creates a new image encoder object.
 old-location: wic\iwicimagingfactory2_createimageencoder.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 1F75030F-68B0-4333-B3CF-C4ABD8969448
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateImageEncoder, CreateImageEncoder method [Windows Imaging Component], CreateImageEncoder method [Windows Imaging Component],IWICImagingFactory2 interface, IWICImagingFactory2 interface [Windows Imaging Component],CreateImageEncoder method, IWICImagingFactory2.CreateImageEncoder, IWICImagingFactory2::CreateImageEncoder, wic.iwicimagingfactory2_createimageencoder, wincodec/IWICImagingFactory2::CreateImageEncoder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICImagingFactory2.CreateImageEncoder
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICImagingFactory2::CreateImageEncoder

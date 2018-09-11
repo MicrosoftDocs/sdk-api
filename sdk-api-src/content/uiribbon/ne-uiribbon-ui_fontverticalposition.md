@@ -4,17 +4,16 @@ title: UI_FONTVERTICALPOSITION
 author: windows-sdk-content
 description: Specifies values that identify the vertical-alignment state of a FontControl.
 old-location: windowsribbon\windowsribbon_ui_fontverticalposition.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontverticalposition.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_FONTVERTICALPOSITION, UI_FONTVERTICALPOSITION enumeration [Windows Ribbon], UI_FONTVERTICALPOSITION_NOTAVAILABLE, UI_FONTVERTICALPOSITION_NOTSET, UI_FONTVERTICALPOSITION_SUBSCRIPT, UI_FONTVERTICALPOSITION_SUPERSCRIPT, scenicintent_UI_FONTVERTICALPOSITION, uiribbon/UI_FONTVERTICALPOSITION, uiribbon/UI_FONTVERTICALPOSITION_NOTAVAILABLE, uiribbon/UI_FONTVERTICALPOSITION_NOTSET, uiribbon/UI_FONTVERTICALPOSITION_SUBSCRIPT, uiribbon/UI_FONTVERTICALPOSITION_SUPERSCRIPT, windowsribbon.windowsribbon_ui_fontverticalposition
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_FONTVERTICALPOSITION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_FONTVERTICALPOSITION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_FONTVERTICALPOSITION
+req.redist: 
 ---
 
 # UI_FONTVERTICALPOSITION enumeration

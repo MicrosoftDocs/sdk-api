@@ -4,17 +4,16 @@ title: DEF_SHARE_ID
 author: windows-sdk-content
 description: Values that specify the folder being acted on by methods of the ISharingConfigurationManager interface.
 old-location: shell\DEF_SHARE_ID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 02d3b664-eeef-4214-99e8-246241103c4e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DEFSHAREID_PUBLIC, DEFSHAREID_USERS, DEF_SHARE_ID, DEF_SHARE_ID enumeration [Windows Shell], _shell_DEF_SHARE_ID, shell.DEF_SHARE_ID, shobjidl_core/DEFSHAREID_PUBLIC, shobjidl_core/DEFSHAREID_USERS, shobjidl_core/DEF_SHARE_ID
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEF_SHARE_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEF_SHARE_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: DEF_SHARE_ID
+req.redist: 
 ---
 
 # DEF_SHARE_ID enumeration

@@ -4,7 +4,7 @@ title: PackageOrigin
 author: windows-sdk-content
 description: Specifies the origin of a package.
 old-location: appxpkg\packageorigin.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 0CB9CE97-8A54-4BE7-B054-00F29D36CAB2
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PackageOrigin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: PackageOrigin
+req.redist: 
 ---
 
 # PackageOrigin enumeration

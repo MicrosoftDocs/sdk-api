@@ -4,17 +4,16 @@ title: IDeviceTopology::GetConnectorCount
 author: windows-sdk-content
 description: The GetConnectorCount method gets the number of connectors in the device-topology object.
 old-location: coreaudio\idevicetopology_getconnectorcount.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 0b7f3b14-4c99-497b-a00e-a24535a621b7
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetConnectorCount, GetConnectorCount method [Core Audio], GetConnectorCount method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetConnectorCount method, IDeviceTopology.GetConnectorCount, IDeviceTopology::GetConnectorCount, IDeviceTopologyGetConnectorCount, coreaudio.idevicetopology_getconnectorcount, devicetopology/IDeviceTopology::GetConnectorCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDeviceTopology.GetConnectorCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceTopology::GetConnectorCount

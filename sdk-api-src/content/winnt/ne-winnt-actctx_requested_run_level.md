@@ -4,17 +4,16 @@ title: ACTCTX_REQUESTED_RUN_LEVEL
 author: windows-sdk-content
 description: The ACTCTX_REQUESTED_RUN_LEVEL enumeration describes the requested run level of the activation context.
 old-location: setup\actctx_requested_run_level.htm
-old-project: sbscs
+tech.root: SbsCs
 ms.assetid: 3bf75a4d-a209-43e4-9fe2-f7da1602fc6c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ACTCTX_REQUESTED_RUN_LEVEL, ACTCTX_REQUESTED_RUN_LEVEL enumeration [Side-by-side Assemblies], ACTCTX_RUN_LEVEL_AS_INVOKER, ACTCTX_RUN_LEVEL_HIGHEST_AVAILABLE, ACTCTX_RUN_LEVEL_NUMBERS, ACTCTX_RUN_LEVEL_REQUIRE_ADMIN, ACTCTX_RUN_LEVEL_UNSPECIFIED, setup.actctx_requested_run_level, winnt/ACTCTX_REQUESTED_RUN_LEVEL, winnt/ACTCTX_RUN_LEVEL_AS_INVOKER, winnt/ACTCTX_RUN_LEVEL_HIGHEST_AVAILABLE, winnt/ACTCTX_RUN_LEVEL_NUMBERS, winnt/ACTCTX_RUN_LEVEL_REQUIRE_ADMIN, winnt/ACTCTX_RUN_LEVEL_UNSPECIFIED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACTCTX_REQUESTED_RUN_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACTCTX_REQUESTED_RUN_LEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ACTCTX_REQUESTED_RUN_LEVEL
+req.redist: 
 ---
 
 # ACTCTX_REQUESTED_RUN_LEVEL enumeration

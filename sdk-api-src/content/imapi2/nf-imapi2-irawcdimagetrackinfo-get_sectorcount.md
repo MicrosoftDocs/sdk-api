@@ -4,17 +4,16 @@ title: IRawCDImageTrackInfo::get_SectorCount
 author: windows-sdk-content
 description: Retrieves the number of user sectors in this track.
 old-location: imapi\irawcdimagetrackinfo_get_sectorcount.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 1762620b-b429-4674-85e2-f6f206de1a4f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_SectorCount method, IRawCDImageTrackInfo.get_SectorCount, IRawCDImageTrackInfo::get_SectorCount, get_SectorCount, get_SectorCount method [IMAPI], get_SectorCount method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_sectorcount, imapi2/IRawCDImageTrackInfo::get_SectorCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageTrackInfo.get_SectorCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageTrackInfo::get_SectorCount

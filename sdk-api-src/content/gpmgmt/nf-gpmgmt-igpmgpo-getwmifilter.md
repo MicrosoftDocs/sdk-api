@@ -4,17 +4,16 @@ title: IGPMGPO::GetWMIFilter
 author: windows-sdk-content
 description: Retrieves the GPMWMIFilter object linked to the Group Policy object (GPO).
 old-location: gpmc\igpmgpo_getwmifilter.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: eca1dffb-1e92-42a1-b950-c6c6c88bd064
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMGPO class [GPMC],GetWMIFilter method, GetWMIFilter, GetWMIFilter method [GPMC], GetWMIFilter method [GPMC],GPMGPO class, GetWMIFilter method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GetWMIFilter method, IGPMGPO.GetWMIFilter, IGPMGPO::GetWMIFilter, _win32_igpmgpo_getwmifilter, gpmc.igpmgpo_getwmifilter, gpmgmt/IGPMGPO::GetWMIFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMGPO.GetWMIFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMGPO::GetWMIFilter

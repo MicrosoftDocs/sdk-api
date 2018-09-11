@@ -4,17 +4,16 @@ title: IEffectivePermission::GetEffectivePermission
 author: windows-sdk-content
 description: Returns the effective permission for an object type.
 old-location: security\ieffectivepermission_geteffectivepermission.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: fef2dfe0-3c56-4502-9e8d-900aea84318b
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetEffectivePermission, GetEffectivePermission method [Security], GetEffectivePermission method [Security],IEffectivePermission interface, IEffectivePermission interface [Security],GetEffectivePermission method, IEffectivePermission.GetEffectivePermission, IEffectivePermission::GetEffectivePermission, aclui/IEffectivePermission::GetEffectivePermission, security.ieffectivepermission_geteffectivepermission
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEffectivePermission.GetEffectivePermission
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEffectivePermission::GetEffectivePermission

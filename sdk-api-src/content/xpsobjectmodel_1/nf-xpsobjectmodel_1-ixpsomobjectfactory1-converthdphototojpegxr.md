@@ -4,17 +4,16 @@ title: IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR
 author: windows-sdk-content
 description: Converts an image resource from an HD Photo to a JpegXR.
 old-location: xps\ixpsomobjectfactory1_converthdphototojpegxr.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 07994e2b-b87b-49de-949d-eb7d771f0345
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ConvertHDPhotoToJpegXR, ConvertHDPhotoToJpegXR method [XPS Documents and Packaging], ConvertHDPhotoToJpegXR method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],ConvertHDPhotoToJpegXR method, IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR, IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR, xps.ixpsomobjectfactory1_converthdphototojpegxr, xpsobjectmodel_1/IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_DOCUMENT_TYPE
+req.lib: None
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR
 product: Windows
 targetos: Windows
-req.lib: None
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR

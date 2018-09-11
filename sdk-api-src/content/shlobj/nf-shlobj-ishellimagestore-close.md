@@ -4,17 +4,16 @@ title: IShellImageStore::Close
 author: windows-sdk-content
 description: Closes the image cache.
 old-location: shell\IShellImageStore_Close.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6228228a-1c12-467c-849c-b360d79ee5ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Close, Close method [Windows Shell], Close method [Windows Shell],IShellImageStore interface, IShellImageStore interface [Windows Shell],Close method, IShellImageStore.Close, IShellImageStore::Close, _win32_IShellImageStore_Close, shell.IShellImageStore_Close, shlobj/IShellImageStore::Close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageStore.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageStore::Close
@@ -62,7 +60,7 @@ Closes the image cache.
 
 ### -param pdwLock
 
-
+TBD
 
 
 

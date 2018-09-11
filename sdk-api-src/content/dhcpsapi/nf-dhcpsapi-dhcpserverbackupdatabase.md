@@ -4,17 +4,16 @@ title: DhcpServerBackupDatabase function
 author: windows-sdk-content
 description: Backs up the DHCP server database configuration, settings, and DHCP client lease record to a specified file location.
 old-location: dhcp\dhcpserverbackupdatabase.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 90e37a33-6d58-4bfc-99e7-e1c244f927ed
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpServerBackupDatabase, DhcpServerBackupDatabase function [DHCP], dhcp.dhcpserverbackupdatabase, dhcpsapi/DhcpServerBackupDatabase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpServerBackupDatabase
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpServerBackupDatabase function

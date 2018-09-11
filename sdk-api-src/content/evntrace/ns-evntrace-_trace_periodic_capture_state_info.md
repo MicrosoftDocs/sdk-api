@@ -4,7 +4,7 @@ title: "_TRACE_PERIODIC_CAPTURE_STATE_INFO"
 author: windows-sdk-content
 description: Information relating to a periodic capture state.
 old-location: etw\trace_periodic_capture_state_info.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 6C032D97-4B37-48D2-BD1A-35B8BA48B8AB
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_PERIODIC_CAPTURE_STATE_INFO, *PTRACE_PERIODIC_CAPTURE_STATE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TRACE_PERIODIC_CAPTURE_STATE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: TRACE_PERIODIC_CAPTURE_STATE_INFO, *PTRACE_PERIODIC_CAPTURE_STATE_INFO
+req.redist: 
 ---
 
 # _TRACE_PERIODIC_CAPTURE_STATE_INFO structure

@@ -4,17 +4,16 @@ title: SaferComputeTokenFromLevel function
 author: windows-sdk-content
 description: Restricts a token using restrictions specified by a SAFER_LEVEL_HANDLE.
 old-location: security\safercomputetokenfromlevel.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: 39406331-3101-48f2-8b92-e049849b2b38
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SAFER_TOKEN_COMPARE_ONLY, SAFER_TOKEN_MAKE_INERT, SAFER_TOKEN_NULL_IF_EQUAL, SAFER_TOKEN_WANT_FLAGS, SaferComputeTokenFromLevel, SaferComputeTokenFromLevel function [Security], security.safercomputetokenfromlevel, winsafer/SaferComputeTokenFromLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsafer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SAFER_POLICY_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SaferComputeTokenFromLevel
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SaferComputeTokenFromLevel function

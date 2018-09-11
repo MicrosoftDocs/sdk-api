@@ -4,17 +4,16 @@ title: ITBasicCallControl::HandoffDirect
 author: windows-sdk-content
 description: The HandoffDirect method hands off the call to another application. This indicates that the application no longer requires ownership of the call.
 old-location: tapi3\itbasiccallcontrol_handoffdirect.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: a96a3790-ee5d-4983-b69a-30c7af96afd9
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: HandoffDirect, HandoffDirect method [TAPI 2.2], HandoffDirect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],HandoffDirect method, ITBasicCallControl.HandoffDirect, ITBasicCallControl::HandoffDirect, _tapi3_itbasiccallcontrol_handoffdirect, tapi3.itbasiccallcontrol_handoffdirect, tapi3if/ITBasicCallControl::HandoffDirect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITBasicCallControl.HandoffDirect
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITBasicCallControl::HandoffDirect

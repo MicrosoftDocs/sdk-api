@@ -4,7 +4,7 @@ title: tagDDDEVICEIDENTIFIER2
 author: windows-sdk-content
 description: The DDDEVICEIDENTIFIER2 structure is passed to the IDirectDraw7::GetDeviceIdentifier method to obtain information about a device.
 old-location: directdraw\dddeviceidentifier2.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 3fdec953-72d4-48f8-b540-e2e6ca770b3c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDDEVICEIDENTIFIER2, *LPDDDEVICEIDENTIFIER2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDDEVICEIDENTIFIER2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDDEVICEIDENTIFIER2, *LPDDDEVICEIDENTIFIER2
+req.redist: 
 ---
 
 # tagDDDEVICEIDENTIFIER2 structure

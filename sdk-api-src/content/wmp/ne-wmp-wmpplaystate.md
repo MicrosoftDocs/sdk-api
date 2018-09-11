@@ -4,7 +4,7 @@ title: WMPPlayState
 author: windows-sdk-content
 description: The WMPPlayState enumeration type defines the possible operational states of Windows Media Player as it plays a digital media file.
 old-location: wmp\wmpplaystate.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 15787d18-bc38-4fc7-a920-539d66252035
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPPlayState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMPPlayState
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMPPlayState
+req.redist: 
 ---
 
 # WMPPlayState enumeration

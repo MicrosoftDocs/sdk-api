@@ -4,7 +4,7 @@ title: DIDRIVERVERSIONS
 author: windows-sdk-content
 description: The DIDRIVERVERSIONS structure is used by the DirectInput effect driver to report version information back to DirectInput.
 old-location: hid\didriverversions.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 28e24657-a75e-49d1-88b0-3e40ba8851ae
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIDRIVERVERSIONS, *LPDIDRIVERVERSIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIDRIVERVERSIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIDRIVERVERSIONS, *LPDIDRIVERVERSIONS
+req.redist: 
 ---
 
 # DIDRIVERVERSIONS structure

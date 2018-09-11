@@ -4,17 +4,16 @@ title: IHWEventHandler2
 author: windows-sdk-content
 description: Extends the IHWEventHandler interface to address User Account Control (UAC) elevation for device handlers.
 old-location: shell\IHWEventHandler2.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2885bce8-3139-4158-b178-d36bb13aff0f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IHWEventHandler2, IHWEventHandler2 interface [Windows Shell], IHWEventHandler2 interface [Windows Shell],described, _shell_IHWEventHandler2, shell.IHWEventHandler2, shobjidl/IHWEventHandler2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IHWEventHandler2
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IHWEventHandler2 interface

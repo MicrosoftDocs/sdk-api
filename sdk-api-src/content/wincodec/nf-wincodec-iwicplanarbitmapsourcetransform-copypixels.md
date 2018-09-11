@@ -4,17 +4,16 @@ title: IWICPlanarBitmapSourceTransform::CopyPixels
 author: windows-sdk-content
 description: Copies pixels into the destination planes. Configured by the supplied input parameters.
 old-location: wic\iwicplanarbitmapsourcetransform_copypixels.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 0D6FB12B-B5C5-4A36-93FC-AF96BF03ED01
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICPlanarBitmapSourceTransform interface, IWICPlanarBitmapSourceTransform interface [Windows Imaging Component],CopyPixels method, IWICPlanarBitmapSourceTransform.CopyPixels, IWICPlanarBitmapSourceTransform::CopyPixels, wic.iwicplanarbitmapsourcetransform_copypixels, wincodec/IWICPlanarBitmapSourceTransform::CopyPixels
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICPlanarBitmapSourceTransform.CopyPixels
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICPlanarBitmapSourceTransform::CopyPixels

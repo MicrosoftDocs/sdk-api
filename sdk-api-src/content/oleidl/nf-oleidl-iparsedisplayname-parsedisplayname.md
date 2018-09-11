@@ -4,17 +4,16 @@ title: IParseDisplayName::ParseDisplayName
 author: windows-sdk-content
 description: Parses the specified display name and creates a corresponding moniker.
 old-location: com\iparsedisplayname_parsedisplayname.htm
-old-project: com
+tech.root: com
 ms.assetid: bf18320c-1ff3-4280-bd67-70f6c2998285
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IParseDisplayName interface [COM],ParseDisplayName method, IParseDisplayName.ParseDisplayName, IParseDisplayName::ParseDisplayName, ParseDisplayName, ParseDisplayName method [COM], ParseDisplayName method [COM],IParseDisplayName interface, _com_iparsedisplayname_parsedisplayname, com.iparsedisplayname_parsedisplayname, oleidl/IParseDisplayName::ParseDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IParseDisplayName.ParseDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IParseDisplayName::ParseDisplayName

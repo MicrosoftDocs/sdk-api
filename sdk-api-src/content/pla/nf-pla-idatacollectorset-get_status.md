@@ -4,17 +4,16 @@ title: IDataCollectorSet::get_Status
 author: windows-sdk-content
 description: Retrieves the status of the data collector set.
 old-location: pla\idatacollectorset_get_status.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: d957d34d-5455-486a-bd54-28afd7e6f979
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],Status property, IDataCollectorSet.Status, IDataCollectorSet.get_Status, IDataCollectorSet::Status, IDataCollectorSet::get_Status, Status property [PLA], Status property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_status, get_Status, pla.idatacollectorset_get_status, pla/IDataCollectorSet::Status, pla/IDataCollectorSet::get_Status
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDataCollectorSet.get_Status
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::get_Status

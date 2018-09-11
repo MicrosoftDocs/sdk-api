@@ -4,17 +4,16 @@ title: IMFTimedTextNotify::TrackSelected
 author: windows-sdk-content
 description: Called when a track is selected or deselected.
 old-location: mf\imftimedtextnotify_trackselected.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: C4757863-3D92-4D49-A2CA-8AD7C65461E6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFTimedTextNotify interface [Media Foundation],TrackSelected method, IMFTimedTextNotify.TrackSelected, IMFTimedTextNotify::TrackSelected, TrackSelected, TrackSelected method [Media Foundation], TrackSelected method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_trackselected, mfmediaengine/IMFTimedTextNotify::TrackSelected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextNotify.TrackSelected
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextNotify::TrackSelected
@@ -62,12 +60,12 @@ Called when a track is selected or deselected.
 
 ### -param trackId
 
-
+TBD
 
 
 ### -param selected
 
-
+TBD
 
 
 

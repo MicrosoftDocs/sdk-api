@@ -4,17 +4,16 @@ title: IDiskQuotaUser::GetQuotaThresholdText
 author: windows-sdk-content
 description: Retrieves the user's warning threshold for the volume.
 old-location: fs\idiskquotauser_getquotathresholdtext.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 19391a9e-e64c-4e6f-8b52-efe59ed45ae5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetQuotaThresholdText, GetQuotaThresholdText method [Files], GetQuotaThresholdText method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaThresholdText method, IDiskQuotaUser.GetQuotaThresholdText, IDiskQuotaUser::GetQuotaThresholdText, _win32_idiskquotauser_getquotathresholdtext, base.idiskquotauser_getquotathresholdtext, dskquota/IDiskQuotaUser::GetQuotaThresholdText, fs.idiskquotauser_getquotathresholdtext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaUser.GetQuotaThresholdText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaUser::GetQuotaThresholdText

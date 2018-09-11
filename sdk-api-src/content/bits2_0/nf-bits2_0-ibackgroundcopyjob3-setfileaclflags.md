@@ -4,17 +4,16 @@ title: IBackgroundCopyJob3::SetFileACLFlags
 author: windows-sdk-content
 description: Specifies the owner and ACL information to maintain when using SMB to download or upload a file.
 old-location: bits\ibackgroundcopyjob3_setfileaclflags.htm
-old-project: bits
+tech.root: bits
 ms.assetid: de218e3d-8c42-4cf3-94b9-94dbc5edbb47
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BG_COPY_FILE_ALL, BG_COPY_FILE_DACL, BG_COPY_FILE_GROUP, BG_COPY_FILE_OWNER, BG_COPY_FILE_SACL, IBackgroundCopyJob3 interface [BITS],SetFileACLFlags method, IBackgroundCopyJob3.SetFileACLFlags, IBackgroundCopyJob3::SetFileACLFlags, SetFileACLFlags, SetFileACLFlags method [BITS], SetFileACLFlags method [BITS],IBackgroundCopyJob3 interface, bits.ibackgroundcopyjob3_setfileaclflags, bits2_0/IBackgroundCopyJob3::SetFileACLFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits2_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2,KB842773 on  Windows Server 2003,  and Windows XP
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_AUTH_CREDENTIALS
+req.lib: Bits.lib
+req.dll: BitsPrx3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob3.SetFileACLFlags
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx3.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob3::SetFileACLFlags

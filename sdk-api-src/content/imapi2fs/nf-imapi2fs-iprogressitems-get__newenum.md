@@ -4,17 +4,16 @@ title: IProgressItems::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the list of progress items from the collection.
 old-location: imapi\iprogressitems_get__newenum.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 24528fad-b88c-429a-b5c9-e232e62d3aeb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IProgressItems interface [IMAPI],get__NewEnum method, IProgressItems.get__NewEnum, IProgressItems::get__NewEnum, get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI],IProgressItems interface, imapi.iprogressitems_get__newenum, imapi2fs/IProgressItems::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProgressItems.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IProgressItems::get__NewEnum

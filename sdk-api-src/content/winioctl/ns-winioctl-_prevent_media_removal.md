@@ -4,7 +4,7 @@ title: "_PREVENT_MEDIA_REMOVAL"
 author: windows-sdk-content
 description: Provides removable media locking data. It is used by the IOCTL_STORAGE_MEDIA_REMOVAL control code.
 old-location: base\prevent_media_removal_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: a5f55555-5226-46a7-8869-df4d1c4e7352
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PREVENT_MEDIA_REMOVAL, *PPREVENT_MEDIA_REMOVAL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PREVENT_MEDIA_REMOVAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PREVENT_MEDIA_REMOVAL, *PPREVENT_MEDIA_REMOVAL
+req.redist: 
 ---
 
 # _PREVENT_MEDIA_REMOVAL structure

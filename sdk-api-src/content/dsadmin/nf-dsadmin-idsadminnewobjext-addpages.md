@@ -4,17 +4,16 @@ title: IDsAdminNewObjExt::AddPages
 author: windows-sdk-content
 description: The IDsAdminNewObjExt::AddPages method is called to enable the object creation wizard extension to add the desired pages to the wizard.
 old-location: ad\idsadminnewobjext_addpages.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 4e16385f-b38a-4961-95ec-c81fd538ae2b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddPages, AddPages method [Active Directory], AddPages method [Active Directory],IDsAdminNewObjExt interface, IDsAdminNewObjExt interface [Active Directory],AddPages method, IDsAdminNewObjExt.AddPages, IDsAdminNewObjExt::AddPages, _glines_idsadminnewobjext_addpages, ad.idsadminnewobjext__addpages, ad.idsadminnewobjext_addpages, dsadmin/IDsAdminNewObjExt::AddPages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsAdminNewObjExt.AddPages
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DSAdmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsAdminNewObjExt::AddPages

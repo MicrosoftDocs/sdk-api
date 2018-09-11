@@ -4,7 +4,7 @@ title: "_cpinfoexA"
 author: windows-sdk-content
 description: Contains information about a code page. This structure is used by the GetCPInfoEx function.
 old-location: intl\cpinfoex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 9639bb11-477e-45ee-b9fb-d5d099925e00
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CPINFOEXA, *LPCPINFOEXA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CPINFOEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CPINFOEXA, *LPCPINFOEXA
+req.redist: 
 ---
 
 # _cpinfoexA structure

@@ -4,17 +4,16 @@ title: NODE_CLUSTER_STATE
 author: windows-sdk-content
 description: Indicates the state of the cluster.
 old-location: mscs\node_cluster_state.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: cc3b5bdc-79d7-4578-bfa5-8e57df4670e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_CONFIGURED, CLUSTER_INSTALLED, CLUSTER_RUNNING, ClusterStateNotConfigured, ClusterStateNotInstalled, ClusterStateNotRunning, ClusterStateRunning, NODE_CLUSTER_STATE, NODE_CLUSTER_STATE enumeration [Failover Cluster], _NODE_CLUSTER_STATE, _NODE_CLUSTER_STATE enumeration [Failover Cluster], clusapi/ClusterStateNotConfigured, clusapi/ClusterStateNotInstalled, clusapi/ClusterStateNotRunning, clusapi/ClusterStateRunning, clusapi/NODE_CLUSTER_STATE, clusapi/_NODE_CLUSTER_STATE, msclus/ClusterStateNotConfigured, msclus/ClusterStateNotInstalled, msclus/ClusterStateNotRunning, msclus/ClusterStateRunning, msclus/NODE_CLUSTER_STATE, msclus/_NODE_CLUSTER_STATE, mscs.node_cluster_state
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NODE_CLUSTER_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - NODE_CLUSTER_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NODE_CLUSTER_STATE
+req.redist: 
 ---
 
 # NODE_CLUSTER_STATE enumeration

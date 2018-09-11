@@ -4,7 +4,7 @@ title: tagKERNINGPAIR
 author: windows-sdk-content
 description: The KERNINGPAIR structure defines a kerning pair.
 old-location: gdi\kerningpair.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: af7bfcf7-467b-4ea9-87c5-3622303b1d8b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERNINGPAIR, *LPKERNINGPAIR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERNINGPAIR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: KERNINGPAIR, *LPKERNINGPAIR
+req.redist: 
 ---
 
 # tagKERNINGPAIR structure

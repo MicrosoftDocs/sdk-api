@@ -4,17 +4,16 @@ title: IWMDMDevice3::GetProperty
 author: windows-sdk-content
 description: The GetProperty method retrieves a specific device metadata property.
 old-location: wmdm\iwmdmdevice3_getproperty.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: f1c8406f-f0cb-4def-bc26-399908ecbf83
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Device Manager], GetProperty method [windows Media Device Manager],IWMDMDevice3 interface, IWMDMDevice3 interface [windows Media Device Manager],GetProperty method, IWMDMDevice3.GetProperty, IWMDMDevice3::GetProperty, IWMDMDevice3GetProperty, mswmdm/IWMDMDevice3::GetProperty, wmdm.iwmdmdevice3_getproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMDevice3.GetProperty
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMDevice3::GetProperty

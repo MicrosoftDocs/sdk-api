@@ -4,17 +4,16 @@ title: "_WSANAMESPACE_INFOW"
 author: windows-sdk-content
 description: Contains all registration information for a namespace provider.
 old-location: winsock\wsanamespace_info_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: a5c76657-df62-471a-95e9-8017cad47b00
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSANAMESPACE_INFOW, *PWSANAMESPACE_INFOW, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, PWSANAMESPACE_INFO, PWSANAMESPACE_INFO structure pointer [Winsock], WSANAMESPACE_INFO, WSANAMESPACE_INFO structure [Winsock], WSANAMESPACE_INFOA, WSANAMESPACE_INFOW, _WSANAMESPACE_INFOW, _win32_wsanamespace_info_2, winsock.wsanamespace_info_2, winsock2/PWSANAMESPACE_INFO, winsock2/WSANAMESPACE_INFO, winsock2/WSANAMESPACE_INFOA, winsock2/WSANAMESPACE_INFOW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSANAMESPACE_INFOW, *PWSANAMESPACE_INFOW, *LPWSANAMESPACE_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSANAMESPACE_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSANAMESPACE_INFOW, *PWSANAMESPACE_INFOW, *LPWSANAMESPACE_INFOW
+req.redist: 
 ---
 
 # _WSANAMESPACE_INFOW structure

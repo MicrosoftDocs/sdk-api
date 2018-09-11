@@ -4,17 +4,16 @@ title: IContextState::GetMyTransactionVote
 author: windows-sdk-content
 description: Retrieves the value of the consistent flag.
 old-location: cos\icontextstate_getmytransactionvote.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 72384c53-ce4a-413e-8ff6-33925c8cd0df
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetMyTransactionVote, GetMyTransactionVote method [COM+], GetMyTransactionVote method [COM+],IContextState interface, IContextState interface [COM+],GetMyTransactionVote method, IContextState.GetMyTransactionVote, IContextState::GetMyTransactionVote, _cos_IContextState_GetMyTransactionVote, comsvcs/IContextState::GetMyTransactionVote, cos.icontextstate_getmytransactionvote
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IContextState.GetMyTransactionVote
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IContextState::GetMyTransactionVote

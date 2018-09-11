@@ -4,7 +4,7 @@ title: "_OPM_ACP_AND_CGMSA_SIGNALING"
 author: windows-sdk-content
 description: Contains the result from an OPM_GET_ACP_AND_CGMSA_SIGNALING query.
 old-location: mf\opm_acp_and_cgmsa_signaling.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7388bdd9-a8bc-45f4-8539-a175190fb3c3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_ACP_AND_CGMSA_SIGNALING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPM_ACP_AND_CGMSA_SIGNALING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OPM_ACP_AND_CGMSA_SIGNALING
+req.redist: 
 ---
 
 # _OPM_ACP_AND_CGMSA_SIGNALING structure

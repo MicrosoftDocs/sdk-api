@@ -4,17 +4,16 @@ title: IACList2::SetOptions
 author: windows-sdk-content
 description: Sets the current autocomplete options.
 old-location: shell\IACList2_SetOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 963428b3-408f-4bdd-b230-9e73f21247a7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ACLO_CURRENTDIR, ACLO_DESKTOP, ACLO_FAVORITES, ACLO_FILESYSDIRS, ACLO_FILESYSONLY, ACLO_MYCOMPUTER, ACLO_NONE, IACList2 interface [Windows Shell],SetOptions method, IACList2.SetOptions, IACList2::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IACList2 interface, _win32_IACList2_SetOptions, shell.IACList2_SetOptions, shlobj_core/IACList2::SetOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IACList2.SetOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IACList2::SetOptions

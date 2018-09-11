@@ -4,17 +4,16 @@ title: IWbemQualifierSet::Put
 author: windows-sdk-content
 description: The IWbemQualifierSet::Put method writes the named qualifier and value. The new qualifier overwrites the previous value of the same name. If the qualifier does not exist, it is created.
 old-location: wmi\iwbemqualifierset_put.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: ad602440-dc19-45cf-bf10-a30f514e00bb
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemQualifierSet interface [Windows Management Instrumentation],Put method, IWbemQualifierSet.Put, IWbemQualifierSet::Put, Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation],IWbemQualifierSet interface, WBEM_FLAVOR_AMENDED, WBEM_FLAVOR_FLAG_PROPAGATE_TO_DERIVED_CLASS, WBEM_FLAVOR_FLAG_PROPAGATE_TO_INSTANCE, WBEM_FLAVOR_NOT_OVERRIDABLE, WBEM_FLAVOR_OVERRIDABLE, _hmm_iwbemqualifierset_put, wbemcli/IWbemQualifierSet::Put, wmi.iwbemqualifierset_put
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWbemQualifierSet.Put
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemQualifierSet::Put

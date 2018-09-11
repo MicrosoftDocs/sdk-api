@@ -4,17 +4,16 @@ title: IGPMSecurityInfo::get_Count
 author: windows-sdk-content
 description: Returns the number of GPMPermission objects in the collection.
 old-location: gpmc\igpmsecurityinfo_get_count.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: e3e3b906-9045-4697-80ae-509b22094790
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMSecurityInfo class, Count property [GPMC],IGPMSecurityInfo interface, GPMSecurityInfo class [GPMC],Count property, IGPMSecurityInfo interface [GPMC],Count property, IGPMSecurityInfo.Count, IGPMSecurityInfo.get_Count, IGPMSecurityInfo::Count, IGPMSecurityInfo::get_Count, _win32_igpmsecurityinfo_get_count, get_Count, gpmc.igpmsecurityinfo_get_count, gpmgmt/IGPMSecurityInfo::Count, gpmgmt/IGPMSecurityInfo::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GPMSecurityInfo.Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMSecurityInfo::get_Count

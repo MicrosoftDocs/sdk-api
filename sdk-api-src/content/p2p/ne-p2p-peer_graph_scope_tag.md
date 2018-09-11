@@ -4,7 +4,7 @@ title: peer_graph_scope_tag
 author: windows-sdk-content
 description: The PEER_GRAPH_SCOPE enumeration specifies the network scope of a peer graph.
 old-location: p2p\peer_graph_scope.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 103f0493-05b9-46a6-8304-0c38ec7dc674
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_GRAPH_SCOPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_GRAPH_SCOPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_GRAPH_SCOPE
+req.redist: 
 ---
 
 # peer_graph_scope_tag enumeration

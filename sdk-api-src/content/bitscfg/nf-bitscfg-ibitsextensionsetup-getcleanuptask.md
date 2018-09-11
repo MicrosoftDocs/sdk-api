@@ -4,17 +4,16 @@ title: IBITSExtensionSetup::GetCleanupTask
 author: windows-sdk-content
 description: Use the GetCleanupTask method to retrieve an interface pointer to the cleanup task associated with the virtual directory.
 old-location: bits\ibitsextensionsetup_getcleanuptask.htm
-old-project: bits
+tech.root: bits
 ms.assetid: ffa89d5b-7ba1-433b-a93d-032012906258
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetCleanupTask, GetCleanupTask method [BITS], GetCleanupTask method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],GetCleanupTask method, IBITSExtensionSetup.GetCleanupTask, IBITSExtensionSetup::GetCleanupTask, _drz_ibitsextensionsetup_getcleanuptask, bits.ibitsextensionsetup_getcleanuptask, bitscfg/IBITSExtensionSetup::GetCleanupTask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bitscfg.h
 req.include-header: 
-req.redist: BITS 1.5 on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITS_FILE_PROPERTY_VALUE
+req.lib: 
+req.dll: BitsMgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBITSExtensionSetup.GetCleanupTask
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: BitsMgr.dll
-req.irql: 
+req.typenames: 
+req.redist: BITS 1.5 on Windows XP
 ---
 
 # IBITSExtensionSetup::GetCleanupTask
@@ -68,7 +67,7 @@ Identifies the task scheduler interface to return in <i>ppTask</i>. For a list o
 
 ### -param ppUnk
 
-
+TBD
 
 
 

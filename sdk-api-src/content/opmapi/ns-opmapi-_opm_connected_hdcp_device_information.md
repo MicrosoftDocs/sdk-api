@@ -4,7 +4,7 @@ title: "_OPM_CONNECTED_HDCP_DEVICE_INFORMATION"
 author: windows-sdk-content
 description: Contains the result from an OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION query.
 old-location: mf\opm_connected_hdcp_device_information.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1fb59959-782b-44e8-81b1-eca3c32a0783
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_CONNECTED_HDCP_DEVICE_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OPM_CONNECTED_HDCP_DEVICE_INFORMATION
+req.redist: 
 ---
 
 # _OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure

@@ -4,17 +4,16 @@ title: IDVB_RST::GetRecordTransportStreamId
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_rst_getrecordtransportstreamid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 40fd889e-eae8-4532-935e-07a7a5b2b6c2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordTransportStreamId, GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetRecordTransportStreamId method, IDVB_RST.GetRecordTransportStreamId, IDVB_RST::GetRecordTransportStreamId, IDVB_RSTGetRecordTransportStreamId, dvbsiparser/IDVB_RST::GetRecordTransportStreamId, mstv.idvb_rst_getrecordtransportstreamid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVB_RST.GetRecordTransportStreamId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVB_RST::GetRecordTransportStreamId

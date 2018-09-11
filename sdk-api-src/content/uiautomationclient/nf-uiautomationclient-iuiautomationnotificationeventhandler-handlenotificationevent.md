@@ -4,17 +4,16 @@ title: IUIAutomationNotificationEventHandler::HandleNotificationEvent
 author: windows-sdk-content
 description: Handles a Microsoft UI Automation notification event.
 old-location: winauto\IUIAutomationNotificationEventHandler_HandleNotificationEvent.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: A5FC58D4-B624-4EB1-9AC4-CD7C6F3BBFAE
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HandleNotificationEvent, HandleNotificationEvent method [Windows Accessibility], HandleNotificationEvent method [Windows Accessibility],IUIAutomationNotificationEventHandler interface, IUIAutomationNotificationEventHandler interface [Windows Accessibility],HandleNotificationEvent method, IUIAutomationNotificationEventHandler.HandleNotificationEvent, IUIAutomationNotificationEventHandler::HandleNotificationEvent, uiautomationclient/IUIAutomationNotificationEventHandler::HandleNotificationEvent, winauto.IUIAutomationNotificationEventHandler_HandleNotificationEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationNotificationEventHandler.HandleNotificationEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationNotificationEventHandler::HandleNotificationEvent
@@ -65,9 +63,14 @@ Handles a Microsoft UI Automation notification event.
 A pointer to the element that raised the event.
 
 
-### -param param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 ### -param displayString

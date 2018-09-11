@@ -4,17 +4,16 @@ title: CVssWriter::Subscribe
 author: windows-sdk-content
 description: The Subscribe method subscribes the writer with VSS.
 old-location: base\cvsswriter_subscribe.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: ab9520c9-bd6b-4c81-87fc-f5cda6ee9c94
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CVssWriter interface [VSS],Subscribe method, CVssWriter.Subscribe, CVssWriter::Subscribe, Subscribe, Subscribe method [VSS], Subscribe method [VSS],CVssWriter interface, _win32_cvsswriter_subscribe, base.cvsswriter_subscribe, vswriter/CVssWriter::Subscribe
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriter.Subscribe
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriter::Subscribe

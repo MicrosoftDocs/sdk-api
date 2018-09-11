@@ -4,17 +4,16 @@ title: PowerCreateRequest function
 author: windows-sdk-content
 description: Creates a new power request object.
 old-location: base\powercreaterequest.htm
-old-project: power
+tech.root: power
 ms.assetid: 2122bf00-9e6b-48ab-89b0-f53dd6804902
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PowerCreateRequest, PowerCreateRequest function, base.powercreaterequest, winbase/PowerCreateRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - PowerCreateRequest
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PowerCreateRequest function

@@ -4,17 +4,16 @@ title: IMFPMediaPlayer::GetMute
 author: windows-sdk-content
 description: Queries whether the audio is muted.
 old-location: mf\imfpmediaplayer_getmute.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2a628608-37ea-48f3-aed4-0344d47ede9f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetMute, GetMute method [Media Foundation], GetMute method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetMute method, IMFPMediaPlayer.GetMute, IMFPMediaPlayer::GetMute, mf.imfpmediaplayer_getmute, mfplay/IMFPMediaPlayer::GetMute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaPlayer.GetMute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaPlayer::GetMute

@@ -4,17 +4,16 @@ title: IFsrmAction::get_Id
 author: windows-sdk-content
 description: Retrieves the identifier of the action.
 old-location: fsrm\ifsrmaction_id.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 7add9be2-75ae-4da7-a6b1-8d39a8ff374c
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmAction interface [File Server Resource Manager],Id property, IFsrmAction.Id, IFsrmAction.get_Id, IFsrmAction::Id, IFsrmAction::get_Id, Id property [File Server Resource Manager], Id property [File Server Resource Manager],IFsrmAction interface, fs.ifsrmaction_id, fsrm.ifsrmaction_id, fsrm/IFsrmAction::Id, fsrm/IFsrmAction::get_Id, get_Id
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmAction.get_Id
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmAction::get_Id

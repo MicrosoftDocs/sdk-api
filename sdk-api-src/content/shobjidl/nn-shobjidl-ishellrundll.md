@@ -4,17 +4,16 @@ title: IShellRunDll
 author: windows-sdk-content
 description: Not supported.
 old-location: shell\IShellRunDll.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e2e62966-dfe2-4458-8c3f-fc88669b3aeb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellRunDll, IShellRunDll interface [Windows Shell], IShellRunDll interface [Windows Shell],described, _shell_IShellRunDll, shell.IShellRunDll, shobjidl/IShellRunDll
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellRunDll
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Explorerframe.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IShellRunDll interface

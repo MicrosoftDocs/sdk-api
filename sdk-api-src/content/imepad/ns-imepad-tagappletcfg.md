@@ -4,7 +4,7 @@ title: tagAPPLETCFG
 author: windows-sdk-content
 description: Used to specify and set applet configuration in IImePad.
 old-location: intl\imeappletcfg.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 2680231A-0A9C-4723-8E7D-73184C209050
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: imepad.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEAPPLETCFG, *LPIMEAPPLETCFG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMEAPPLETCFG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IMEAPPLETCFG, *LPIMEAPPLETCFG
+req.redist: 
 ---
 
 # tagAPPLETCFG structure

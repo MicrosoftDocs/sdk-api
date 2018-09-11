@@ -4,17 +4,16 @@ title: IDCompositionTranslateTransform3D::SetOffsetX(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of the OffsetX property of a 3D translation transform effect. The OffsetX property specifies the distance to translate along the x-axis.
 old-location: directcomp\idcompositiontranslatetransform3d_setoffsetx_float.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 1C31C4B1-A31E-4131-A305-91AF4E6EF1B5
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionTranslateTransform3D interface [DirectComposition],SetOffsetX method, IDCompositionTranslateTransform3D.SetOffsetX, IDCompositionTranslateTransform3D.SetOffsetX(IDCompositionAnimation), IDCompositionTranslateTransform3D::SetOffsetX, IDCompositionTranslateTransform3D::SetOffsetX(IDCompositionAnimation), IDCompositionTranslateTransform3D::SetOffsetX(float), SetOffsetX, SetOffsetX method [DirectComposition], SetOffsetX method [DirectComposition],IDCompositionTranslateTransform3D interface, dcomp/IDCompositionTranslateTransform3D::SetOffsetX, directcomp.idcompositiontranslatetransform3d_setoffsetx_float
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionTranslateTransform3D.SetOffsetX
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionTranslateTransform3D::SetOffsetX(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Changes the value of the OffsetX property of a 3D translation transform effect. 
 
 ### -param animation
 
-
+TBD
 
 
 

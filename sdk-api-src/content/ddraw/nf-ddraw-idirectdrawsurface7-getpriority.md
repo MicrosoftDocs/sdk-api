@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::GetPriority
 author: windows-sdk-content
 description: Retrieves the texture-management priority for this texture. This method succeeds only on managed textures.
 old-location: directdraw\idirectdrawsurface7_getpriority.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 59a47305-92d5-42a3-9ad1-11c80e3744df
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPriority, GetPriority method [DirectDraw], GetPriority method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetPriority method, IDirectDrawSurface7.GetPriority, IDirectDrawSurface7::GetPriority, ddraw/IDirectDrawSurface7::GetPriority, directdraw.idirectdrawsurface7_getpriority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.GetPriority
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::GetPriority

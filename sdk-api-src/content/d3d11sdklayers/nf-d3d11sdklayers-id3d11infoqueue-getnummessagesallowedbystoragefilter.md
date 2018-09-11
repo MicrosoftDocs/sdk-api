@@ -4,17 +4,16 @@ title: ID3D11InfoQueue::GetNumMessagesAllowedByStorageFilter
 author: windows-sdk-content
 description: Get the number of messages that were allowed to pass through a storage filter.
 old-location: direct3d11\id3d11infoqueue_getnummessagesallowedbystoragefilter.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 13e9caed-4c26-4b5e-b0c7-c6ef44ed688d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetNumMessagesAllowedByStorageFilter, GetNumMessagesAllowedByStorageFilter method [Direct3D 11], GetNumMessagesAllowedByStorageFilter method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetNumMessagesAllowedByStorageFilter method, ID3D11InfoQueue.GetNumMessagesAllowedByStorageFilter, ID3D11InfoQueue::GetNumMessagesAllowedByStorageFilter, b3463b92-b74f-e638-4c8c-f02a25560668, d3d11sdklayers/ID3D11InfoQueue::GetNumMessagesAllowedByStorageFilter, direct3d11.id3d11infoqueue_getnummessagesallowedbystoragefilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11InfoQueue.GetNumMessagesAllowedByStorageFilter
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11InfoQueue::GetNumMessagesAllowedByStorageFilter

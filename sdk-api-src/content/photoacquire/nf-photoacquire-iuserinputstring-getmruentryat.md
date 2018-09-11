@@ -4,17 +4,16 @@ title: IUserInputString::GetMruEntryAt
 author: windows-sdk-content
 description: The GetMruEntryAt method retrieves the entry at the given index in the most recently used list.
 old-location: picacq\iuserinputstring_getmruentryat.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: d03c3eba-e55c-421d-acfa-fea6aa645cc5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetMruEntryAt, GetMruEntryAt method [Picture Acquisition], GetMruEntryAt method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetMruEntryAt method, IUserInputString.GetMruEntryAt, IUserInputString::GetMruEntryAt, IUserInputStringGetMruEntryAt, photoacquire/IUserInputString::GetMruEntryAt, picacq.iuserinputstring_getmruentryat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUserInputString.GetMruEntryAt
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IUserInputString::GetMruEntryAt

@@ -4,17 +4,16 @@ title: "_PERFORMANCE_INFORMATION"
 author: windows-sdk-content
 description: Contains performance information.
 old-location: psapi\performance_information_str.htm
-old-project: psapi
+tech.root: psapi
 ms.assetid: efc47f6e-1a60-4e77-9e5d-c725f9042ab8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPERFORMACE_INFORMATION, *PPERFORMANCE_INFORMATION, PERFORMACE_INFORMATION, PERFORMANCE_INFORMATION, PERFORMANCE_INFORMATION structure [PSAPI], PPERFORMANCE_INFORMATION, PPERFORMANCE_INFORMATION structure pointer [PSAPI], _PERFORMANCE_INFORMATION, _win32_performance_information_str, base.performance_information_str, psapi.performance_information_str, psapi/PERFORMANCE_INFORMATION, psapi/PPERFORMANCE_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: psapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERFORMANCE_INFORMATION, *PPERFORMANCE_INFORMATION, PERFORMACE_INFORMATION, *PPERFORMACE_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERFORMANCE_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PERFORMANCE_INFORMATION, *PPERFORMANCE_INFORMATION, PERFORMACE_INFORMATION, *PPERFORMACE_INFORMATION
+req.redist: 
 ---
 
 # _PERFORMANCE_INFORMATION structure

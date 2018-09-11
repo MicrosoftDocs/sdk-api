@@ -4,7 +4,7 @@ title: "_MT_CUSTOM_VIDEO_PRIMARIES"
 author: windows-sdk-content
 description: Defines custom color primaries for a video source. The color primaries define how to convert colors from RGB color space to CIE XYZ color space.
 old-location: mf\mt_custom_video_primaries.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2c26e906-e428-4a76-b10a-10a18f300ebe
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MT_CUSTOM_VIDEO_PRIMARIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MT_CUSTOM_VIDEO_PRIMARIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MT_CUSTOM_VIDEO_PRIMARIES
+req.redist: 
 ---
 
 # _MT_CUSTOM_VIDEO_PRIMARIES structure

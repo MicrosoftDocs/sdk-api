@@ -4,17 +4,16 @@ title: IWorkspace::GetProcessId
 author: windows-sdk-content
 description: Retrieves the process ID of the current connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspace_getprocessid.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: f703dfac-a896-472e-847c-cf44a96d9d9e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetProcessId, GetProcessId method [Remote Desktop Services], GetProcessId method [Remote Desktop Services],IWorkspace interface, GetProcessId method [Remote Desktop Services],IWorkspace2 interface, GetProcessId method [Remote Desktop Services],IWorkspace3 interface, GetProcessId method [Remote Desktop Services],Workspace object, IWorkspace interface [Remote Desktop Services],GetProcessId method, IWorkspace.GetProcessId, IWorkspace2 interface [Remote Desktop Services],GetProcessId method, IWorkspace2::GetProcessId, IWorkspace3 interface [Remote Desktop Services],GetProcessId method, IWorkspace3::GetProcessId, IWorkspace::GetProcessId, Workspace object [Remote Desktop Services],GetProcessId method, termserv.iworkspace_getprocessid, workspaceruntime/IWorkspace2::GetProcessId, workspaceruntime/IWorkspace3::GetProcessId, workspaceruntime/IWorkspace::GetProcessId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wksprt.exe
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - Workspace.GetProcessId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspace::GetProcessId

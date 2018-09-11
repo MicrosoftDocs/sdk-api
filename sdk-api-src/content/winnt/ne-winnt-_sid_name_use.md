@@ -4,17 +4,16 @@ title: "_SID_NAME_USE"
 author: windows-sdk-content
 description: Contains values that specify the type of a security identifier (SID).
 old-location: security\sid_name_use.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4e6af6bd-056b-4f5a-b223-57a673c3fcfa
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSID_NAME_USE, PSID_NAME_USE, PSID_NAME_USE enumeration pointer [Security], SID_NAME_USE, SID_NAME_USE enumeration [Security], SidTypeAlias, SidTypeComputer, SidTypeDeletedAccount, SidTypeDomain, SidTypeGroup, SidTypeInvalid, SidTypeLabel, SidTypeUnknown, SidTypeUser, SidTypeWellKnownGroup, _SID_NAME_USE, _win32_sid_name_use_str, security.sid_name_use, winnt/PSID_NAME_USE, winnt/SID_NAME_USE, winnt/SidTypeAlias, winnt/SidTypeComputer, winnt/SidTypeDeletedAccount, winnt/SidTypeDomain, winnt/SidTypeGroup, winnt/SidTypeInvalid, winnt/SidTypeLabel, winnt/SidTypeUnknown, winnt/SidTypeUser, winnt/SidTypeWellKnownGroup"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SID_NAME_USE, *PSID_NAME_USE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SID_NAME_USE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: SID_NAME_USE, *PSID_NAME_USE
+req.redist: 
 ---
 
 # _SID_NAME_USE enumeration

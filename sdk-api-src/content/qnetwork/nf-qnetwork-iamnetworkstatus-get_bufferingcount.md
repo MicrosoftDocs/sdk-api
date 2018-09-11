@@ -4,17 +4,16 @@ title: IAMNetworkStatus::get_BufferingCount
 author: windows-sdk-content
 description: The get_BufferingCount method retrieves the number of times the network source has buffered the data.
 old-location: dshow\iamnetworkstatus_get_bufferingcount.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 82c1994b-9326-48a7-8ff5-2b2df274b3e2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_BufferingCount method, IAMNetworkStatus.get_BufferingCount, IAMNetworkStatus::get_BufferingCount, IAMNetworkStatusget_BufferingCount, dshow.iamnetworkstatus_get_bufferingcount, get_BufferingCount, get_BufferingCount method [DirectShow], get_BufferingCount method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_BufferingCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetworkStatus.get_BufferingCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetworkStatus::get_BufferingCount

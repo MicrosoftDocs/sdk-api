@@ -4,17 +4,16 @@ title: IVssAdmin::UnregisterProvider
 author: windows-sdk-content
 description: Unregisters an existing provider.
 old-location: base\ivssadmin_unregisterprovider.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: d31ed47f-6850-4f4b-aea2-5171722db7db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssAdmin interface [VSS],UnregisterProvider method, IVssAdmin.UnregisterProvider, IVssAdmin::UnregisterProvider, UnregisterProvider, UnregisterProvider method [VSS], UnregisterProvider method [VSS],IVssAdmin interface, base.ivssadmin_unregisterprovider, vsadmin/IVssAdmin::UnregisterProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssAdmin.UnregisterProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssAdmin::UnregisterProvider

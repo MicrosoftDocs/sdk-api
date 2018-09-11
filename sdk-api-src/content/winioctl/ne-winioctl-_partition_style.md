@@ -4,7 +4,7 @@ title: "_PARTITION_STYLE"
 author: windows-sdk-content
 description: Represents the format of a partition.
 old-location: fs\partition_style_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PARTITION_STYLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PARTITION_STYLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PARTITION_STYLE
+req.redist: 
 ---
 
 # _PARTITION_STYLE enumeration

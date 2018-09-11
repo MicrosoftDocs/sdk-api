@@ -4,17 +4,16 @@ title: IMSVidCtl::get_AudioRendererActive
 author: windows-sdk-content
 description: The get_AudioRendererActive method retrieves the audio renderer that is currently active.
 old-location: mstv\imsvidctl_get_audiorendereractive.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 4ac78904-18ca-4bcb-9c0e-15595a756ecd
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_AudioRendererActive method, IMSVidCtl.get_AudioRendererActive, IMSVidCtl::get_AudioRendererActive, IMSVidCtlget_AudioRendererActive, get_AudioRendererActive, get_AudioRendererActive method [Microsoft TV Technologies], get_AudioRendererActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_audiorendereractive, msvidctl/IMSVidCtl::get_AudioRendererActive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.get_AudioRendererActive
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::get_AudioRendererActive
@@ -62,7 +60,7 @@ The <b>get_AudioRendererActive</b> method retrieves the audio renderer that is c
 
 ### -param pVal
 
-
+TBD
 
 
 

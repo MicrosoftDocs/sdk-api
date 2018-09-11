@@ -4,17 +4,16 @@ title: DhcpAddSubnetElement function
 author: windows-sdk-content
 description: Adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database.
 old-location: dhcp\dhcpaddsubnetelement.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 4f93d4e8-f41e-4df8-98cc-70a11be75eab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpAddSubnetElement, DhcpAddSubnetElement function [DHCP], dhcp.dhcpaddsubnetelement, dhcpsapi/DhcpAddSubnetElement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpAddSubnetElement
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpAddSubnetElement function

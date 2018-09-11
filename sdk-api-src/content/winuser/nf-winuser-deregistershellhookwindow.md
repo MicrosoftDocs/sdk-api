@@ -4,17 +4,16 @@ title: DeregisterShellHookWindow function
 author: windows-sdk-content
 description: Unregisters a specified Shell window that is registered to receive Shell hook messages.
 old-location: winmsg\deregistershellhookwindow.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\deregistershellhookwindow.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: DeregisterShellHookWindow, DeregisterShellHookWindow function [Windows and Messages], _win32_DeregisterShellHookWindow, _win32_deregistershellhookwindow_cpp, winmsg.deregistershellhookwindow, winui._win32_deregistershellhookwindow, winuser/DeregisterShellHookWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - DeregisterShellHookWindow
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # DeregisterShellHookWindow function

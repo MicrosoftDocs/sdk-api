@@ -4,17 +4,16 @@ title: DWRITE_TEXTURE_TYPE
 author: windows-sdk-content
 description: Identifies a type of alpha texture.
 old-location: directwrite\dwrite_texture_type.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: c97ee0fd-2743-4f72-aa69-bf5e3780aa33
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_TEXTURE_ALIASED_1x1, DWRITE_TEXTURE_CLEARTYPE_3x1, DWRITE_TEXTURE_TYPE, DWRITE_TEXTURE_TYPE enumeration [Direct Write], directwrite.dwrite_texture_type, dwrite/DWRITE_TEXTURE_ALIASED_1x1, dwrite/DWRITE_TEXTURE_CLEARTYPE_3x1, dwrite/DWRITE_TEXTURE_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_TEXTURE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_TEXTURE_TYPE enumeration

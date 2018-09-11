@@ -4,17 +4,16 @@ title: IMFSensorProfileCollection::AddProfile
 author: windows-sdk-content
 description: Adds the specified profile to the collection.
 old-location: mf\imfsensorprofilecollection_addprofile.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4997E69B-6444-4603-ABCF-4E2526B5AC23
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: AddProfile, AddProfile method [Media Foundation], AddProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],AddProfile method, IMFSensorProfileCollection.AddProfile, IMFSensorProfileCollection::AddProfile, mf.imfsensorprofilecollection_addprofile, mfidl/IMFSensorProfileCollection::AddProfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfsensorgroup.lib
+req.dll: Mfsensorgroup.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSensorProfileCollection.AddProfile
 product: Windows
 targetos: Windows
-req.lib: Mfsensorgroup.lib
-req.dll: Mfsensorgroup.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorProfileCollection::AddProfile

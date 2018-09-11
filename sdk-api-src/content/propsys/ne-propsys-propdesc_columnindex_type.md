@@ -4,7 +4,7 @@ title: PROPDESC_COLUMNINDEX_TYPE
 author: windows-sdk-content
 description: Indicates whether or how a property can be indexed.
 old-location: properties\PROPDESC_COLUMNINDEX_TYPE.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 71ba7578-a902-47ee-883c-0947751d278c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPDESC_COLUMNINDEX_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPDESC_COLUMNINDEX_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROPDESC_COLUMNINDEX_TYPE
+req.redist: 
 ---
 
 # PROPDESC_COLUMNINDEX_TYPE enumeration

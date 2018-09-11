@@ -4,7 +4,7 @@ title: IPSEC_AGGREGATE_SA_STATISTICS0_
 author: windows-sdk-content
 description: Stores aggregate IPsec kernel security association (SA) statistics.
 old-location: fwp\ipsec_aggregate_sa_statistics0_struct.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: f0318061-40f9-4380-9681-34db70659c49
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_AGGREGATE_SA_STATISTICS0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_AGGREGATE_SA_STATISTICS0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_AGGREGATE_SA_STATISTICS0
+req.redist: 
 ---
 
 # IPSEC_AGGREGATE_SA_STATISTICS0_ structure

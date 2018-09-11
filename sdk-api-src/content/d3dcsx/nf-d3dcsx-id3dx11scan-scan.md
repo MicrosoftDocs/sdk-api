@@ -4,17 +4,16 @@ title: ID3DX11Scan::Scan
 author: windows-sdk-content
 description: Performs an unsegmented scan of a sequence.
 old-location: direct3d11\id3dx11scan_scan.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 42b91efd-3d84-4c76-bb9f-da0f398da6c7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 4ae96918-c884-060a-690a-7632d7df6622, ID3DX11Scan interface [Direct3D 11],Scan method, ID3DX11Scan.Scan, ID3DX11Scan::Scan, Scan, Scan method [Direct3D 11], Scan method [Direct3D 11],ID3DX11Scan interface, d3dcsx/ID3DX11Scan::Scan, direct3d11.id3dx11scan_scan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3dcsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DX11_SCAN_OPCODE
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3DX11Scan.Scan
 product: Windows
 targetos: Windows
-req.lib: D3dcsx.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3DX11Scan::Scan

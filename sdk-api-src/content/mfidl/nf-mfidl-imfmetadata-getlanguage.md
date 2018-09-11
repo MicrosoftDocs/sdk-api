@@ -4,17 +4,16 @@ title: IMFMetadata::GetLanguage
 author: windows-sdk-content
 description: Gets the current language setting.
 old-location: mf\imfmetadata_getlanguage.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 75295c93-a389-42c4-aa56-debc36a5f532
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 75295c93-a389-42c4-aa56-debc36a5f532, GetLanguage, GetLanguage method [Media Foundation], GetLanguage method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetLanguage method, IMFMetadata.GetLanguage, IMFMetadata::GetLanguage, mf.imfmetadata_getlanguage, mfidl/IMFMetadata::GetLanguage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMetadata.GetLanguage
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMetadata::GetLanguage

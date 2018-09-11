@@ -4,17 +4,16 @@ title: RTM_IPV4_SET_ADDR_AND_LEN macro
 author: windows-sdk-content
 description: The RTM_IPV4_SET_ADDR_AND_LEN macro converts an IPv4 address and a length to a generic RTM_NET_ADDRESS structure.
 old-location: rras\rtm_ipv4_set_addr_and_len.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: c6f60346-51ff-4e1e-9edb-b326184f79cf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RTM_IPV4_SET_ADDR_AND_LEN, RTM_IPV4_SET_ADDR_AND_LEN macro [RAS], _rtmv2ref_rtm_ipv4_set_addr_and_len, rras.rtm_ipv4_set_addr_and_len, rtmv2/RTM_IPV4_SET_ADDR_AND_LEN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTM_IPV4_SET_ADDR_AND_LEN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RTM_IPV4_SET_ADDR_AND_LEN macro

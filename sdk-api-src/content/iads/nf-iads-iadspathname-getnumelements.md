@@ -4,17 +4,16 @@ title: IADsPathname::GetNumElements
 author: windows-sdk-content
 description: Retrieves the number of elements in the path.
 old-location: adsi\iadspathname_getnumelements.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: ad6518c8-d379-4062-888f-cbf84995fc39
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetNumElements, GetNumElements method [ADSI], GetNumElements method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetNumElements method, IADsPathname.GetNumElements, IADsPathname::GetNumElements, _ds_iadspathname_getnumelements, adsi.iadspathname__getnumelements, adsi.iadspathname_getnumelements, iads/IADsPathname::GetNumElements
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPathname.GetNumElements
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPathname::GetNumElements
@@ -62,7 +60,7 @@ The <b>IADsPathname::GetNumElements</b> method retrieves the number of elements 
 
 ### -param plnNumPathElements
 
-
+TBD
 
 
 

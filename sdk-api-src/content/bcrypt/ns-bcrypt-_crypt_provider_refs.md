@@ -4,17 +4,16 @@ title: "_CRYPT_PROVIDER_REFS"
 author: windows-sdk-content
 description: Contains a collection of provider references.
 old-location: security\crypt_provider_refs.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: e2aaaa02-96e3-4447-b19b-b9db07b49135
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_PROVIDER_REFS, CRYPT_PROVIDER_REFS, CRYPT_PROVIDER_REFS structure [Security], PCRYPT_PROVIDER_REFS, PCRYPT_PROVIDER_REFS structure pointer [Security], _CRYPT_PROVIDER_REFS, bcrypt/CRYPT_PROVIDER_REFS, bcrypt/PCRYPT_PROVIDER_REFS, security.crypt_provider_refs"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_PROVIDER_REFS, *PCRYPT_PROVIDER_REFS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_PROVIDER_REFS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_PROVIDER_REFS, *PCRYPT_PROVIDER_REFS
+req.redist: 
 ---
 
 # _CRYPT_PROVIDER_REFS structure

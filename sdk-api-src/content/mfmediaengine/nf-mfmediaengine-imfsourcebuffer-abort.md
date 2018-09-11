@@ -4,17 +4,16 @@ title: IMFSourceBuffer::Abort
 author: windows-sdk-content
 description: Aborts the processing of the current media segment.
 old-location: mf\imfsourcebuffer_abort.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 31253d0d-c53f-47bd-823a-fc564cb63b78
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: Abort, Abort method [Media Foundation], Abort method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],Abort method, IMFSourceBuffer.Abort, IMFSourceBuffer::Abort, mf.imfsourcebuffer_abort, mfmediaengine/IMFSourceBuffer::Abort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSourceBuffer.Abort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSourceBuffer::Abort

@@ -4,17 +4,16 @@ title: PeerCollabSignin function
 author: windows-sdk-content
 description: Signs the peer into a hosted Internet (serverless presence) or subnet (&#0034;People Near Me&#0034;) peer collaboration network presence provider.
 old-location: p2p\peercollabsignin.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 927cccfa-2711-439c-833f-348087927c09
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerCollabSignin, PeerCollabSignin function [Peer Networking], p2p.peercollabsignin, p2p/PeerCollabSignin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerCollabSignin
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerCollabSignin function

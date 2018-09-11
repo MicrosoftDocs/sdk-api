@@ -4,17 +4,16 @@ title: "_VDS_VOLUME_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a volume.
 old-location: base\vds_volume_status.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 16159d33-08e0-47a4-a4b6-06e5f2916ea8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_VOLUME_STATUS, VDS_VOLUME_STATUS enumeration [VDS], VDS_VS_FAILED, VDS_VS_NO_MEDIA, VDS_VS_OFFLINE, VDS_VS_ONLINE, VDS_VS_UNKNOWN, _VDS_VOLUME_STATUS, base.vds_volume_status, vds/VDS_VOLUME_STATUS, vds/VDS_VS_FAILED, vds/VDS_VS_NO_MEDIA, vds/VDS_VS_OFFLINE, vds/VDS_VS_ONLINE, vds/VDS_VS_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_VOLUME_STATUS
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_VOLUME_STATUS
+req.redist: 
 ---
 
 # _VDS_VOLUME_STATUS enumeration

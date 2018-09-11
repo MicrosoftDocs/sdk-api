@@ -4,17 +4,16 @@ title: IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange
 author: windows-sdk-content
 description: Creates a sinusoidal-range transition, with a specified range of oscillation.
 old-location: uianimation\iuianimationtransitionlibrary_createsinusoidaltransitionfromrange.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 7164bcac-3de3-4b52-8eb3-d38156573feb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateSinusoidalTransitionFromRange, CreateSinusoidalTransitionFromRange method [Windows Animation], CreateSinusoidalTransitionFromRange method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateSinusoidalTransitionFromRange method, IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange, IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange, uianimation.iuianimationtransitionlibrary_createsinusoidaltransitionfromrange, uianimation/IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange

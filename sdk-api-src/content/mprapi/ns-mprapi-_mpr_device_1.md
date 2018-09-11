@@ -4,17 +4,16 @@ title: "_MPR_DEVICE_1"
 author: windows-sdk-content
 description: The MPR_DEVICE_1 structure stores information about a device used for a link in a multilinked demand dial interface. In addition to the information in MPR_DEVICE_0, MPR_DEVICE_1 contains phone-number information.
 old-location: rras\mpr_device_1.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 99245e45-114d-4933-9189-cd45a1c22a96
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMPR_DEVICE_1, MPR_DEVICE_1, MPR_DEVICE_1 structure [RAS], PMPR_DEVICE_1, PMPR_DEVICE_1 structure pointer [RAS], _MPR_DEVICE_1, _mpr_mpr_device_1, mprapi/MPR_DEVICE_1, mprapi/PMPR_DEVICE_1, rras.mpr_device_1"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR_DEVICE_1, *PMPR_DEVICE_1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPR_DEVICE_1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPR_DEVICE_1, *PMPR_DEVICE_1
+req.redist: 
 ---
 
 # _MPR_DEVICE_1 structure

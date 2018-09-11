@@ -4,17 +4,16 @@ title: "_SR_SECURITY_DESCRIPTOR"
 author: windows-sdk-content
 description: The SR_SECURITY_DESCRIPTOR structure contains information about the security privileges of the user.
 old-location: security\sr_security_descriptor.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 000ffbbe-5750-449b-8237-27c8d3c45454
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR structure pointer [Security], SR_SECURITY_DESCRIPTOR, SR_SECURITY_DESCRIPTOR structure [Security], _SR_SECURITY_DESCRIPTOR, _lsa_sr_security_descriptor, security.sr_security_descriptor, subauth/PSR_SECURITY_DESCRIPTOR, subauth/SR_SECURITY_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: subauth.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_SECURITY_DESCRIPTOR, *PSR_SECURITY_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SR_SECURITY_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SR_SECURITY_DESCRIPTOR, *PSR_SECURITY_DESCRIPTOR
+req.redist: 
 ---
 
 # _SR_SECURITY_DESCRIPTOR structure

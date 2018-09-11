@@ -4,17 +4,16 @@ title: ID3D12Device1::SetResidencyPriority
 author: windows-sdk-content
 description: This method sets residency priorities of a specified list of objects.
 old-location: direct3d12\id3d12device1_setresidencypriority.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: C489AA41-B2FC-418D-8268-9C02E5E10E0D
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12Device1 interface,SetResidencyPriority method, ID3D12Device1.SetResidencyPriority, ID3D12Device1::SetResidencyPriority, SetResidencyPriority, SetResidencyPriority method, SetResidencyPriority method,ID3D12Device1 interface, d3d12/ID3D12Device1::SetResidencyPriority, direct3d12.id3d12device1_setresidencypriority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12Device1.SetResidencyPriority
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12Device1::SetResidencyPriority

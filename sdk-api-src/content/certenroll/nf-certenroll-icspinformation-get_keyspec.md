@@ -4,17 +4,16 @@ title: ICspInformation::get_KeySpec
 author: windows-sdk-content
 description: Retrieves a value that specifies the intended use of the algorithms supported by the provider.
 old-location: security\icspinformation_keyspec_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: f66f2f5c-7f50-4be6-973e-844d6cb76f61
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICspInformation interface [Security],KeySpec property, ICspInformation.KeySpec, ICspInformation.get_KeySpec, ICspInformation::KeySpec, ICspInformation::get_KeySpec, KeySpec property [Security], KeySpec property [Security],ICspInformation interface, XCN_AT_KEYEXCHANGE (1), XCN_AT_SIGNATURE (2), certenroll/ICspInformation::KeySpec, certenroll/ICspInformation::get_KeySpec, get_KeySpec, security.icspinformation_keyspec_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspInformation.get_KeySpec
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspInformation::get_KeySpec

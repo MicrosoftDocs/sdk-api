@@ -4,17 +4,16 @@ title: ITypeInfo::ReleaseFuncDesc
 author: windows-sdk-content
 description: Releases a FUNCDESC previously returned by ITypeInfo::GetFuncDesc.
 old-location: automat\itypeinfo_releasefuncdesc.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 5c407301-87fd-4f79-89e1-c6db5d1cf36b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseFuncDesc method, ITypeInfo.ReleaseFuncDesc, ITypeInfo::ReleaseFuncDesc, ReleaseFuncDesc, ReleaseFuncDesc method [Automation], ReleaseFuncDesc method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseFuncDesc, automat.itypeinfo_releasefuncdesc, oaidl/ITypeInfo::ReleaseFuncDesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo.ReleaseFuncDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::ReleaseFuncDesc

@@ -4,17 +4,16 @@ title: ICatalogObject::get_Valid
 author: windows-sdk-content
 description: Indicates whether all properties were successfully read from the catalog data store.
 old-location: cos\icatalogobject_valid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: c2fdeae4-e8f0-45c1-b42a-0bd088c26d6f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICatalogObject interface [COM+],Valid property, ICatalogObject.Valid, ICatalogObject.get_Valid, ICatalogObject::Valid, ICatalogObject::get_Valid, Valid property [COM+], Valid property [COM+],ICatalogObject interface, _cos_ICatalogObject_get_Valid, comadmin/ICatalogObject::Valid, comadmin/ICatalogObject::get_Valid, cos.icatalogobject_valid, get_Valid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICatalogObject.get_Valid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatalogObject::get_Valid

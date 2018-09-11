@@ -4,17 +4,16 @@ title: tagUAL_DATA_BLOB
 author: windows-sdk-content
 description: Specifies information about a User Access Logging (UAL) session.
 old-location: ual\ual_data_blob.htm
-old-project: ual
+tech.root: ual
 ms.assetid: 5C191327-0D15-41D7-8218-73F387740FDF
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PUAL_DATA_BLOB, PUAL_DATA_BLOB, PUAL_DATA_BLOB structure pointer [User Access Logging], UAL_DATA_BLOB, UAL_DATA_BLOB structure [User Access Logging], tagUAL_DATA_BLOB, ual.ual_data_blob, ual/PUAL_DATA_BLOB, ual/UAL_DATA_BLOB"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ual.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UAL_DATA_BLOB, *PUAL_DATA_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UAL_DATA_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UAL_DATA_BLOB, *PUAL_DATA_BLOB
+req.redist: 
 ---
 
 # tagUAL_DATA_BLOB structure

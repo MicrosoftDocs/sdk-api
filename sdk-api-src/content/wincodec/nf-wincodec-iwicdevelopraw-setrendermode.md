@@ -4,17 +4,16 @@ title: IWICDevelopRaw::SetRenderMode
 author: windows-sdk-content
 description: Sets the current WICRawRenderMode.
 old-location: wic\_wic_codec_iwicdevelopraw_setrendermode.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 3150abb3-795d-416d-b3eb-0001796f510d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetRenderMode method, IWICDevelopRaw.SetRenderMode, IWICDevelopRaw::SetRenderMode, SetRenderMode, SetRenderMode method [Windows Imaging Component], SetRenderMode method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setrendermode, wic._wic_codec_iwicdevelopraw_setrendermode, wincodec/IWICDevelopRaw::SetRenderMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWICDevelopRaw.SetRenderMode
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICDevelopRaw::SetRenderMode

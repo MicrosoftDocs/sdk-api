@@ -4,7 +4,7 @@ title: "_NDIS_INTERFACE_INFORMATION"
 author: windows-sdk-content
 description: The NDIS_INTERFACE_INFORMATION structure provides information about a network interface for the OID_GEN_INTERFACE_INFO OID.
 old-location: netvista\ndis_interface_information_str.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 9bfcd319-faff-4bae-8653-511154c19863
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ifdef.h
 req.include-header: Ndis.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported for NDIS 6.0 drivers in Windows Vista.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDIS_INTERFACE_INFORMATION, *PNDIS_INTERFACE_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NDIS_INTERFACE_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NDIS_INTERFACE_INFORMATION, *PNDIS_INTERFACE_INFORMATION
+req.redist: 
 ---
 
 # _NDIS_INTERFACE_INFORMATION structure

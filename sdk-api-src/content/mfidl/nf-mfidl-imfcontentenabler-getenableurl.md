@@ -4,17 +4,16 @@ title: IMFContentEnabler::GetEnableURL
 author: windows-sdk-content
 description: Retrieves a URL for performing a manual content enabling action.
 old-location: mf\imfcontentenabler_getenableurl.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1a44216d-36e5-4b5c-9585-5297d5e429f9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 1a44216d-36e5-4b5c-9585-5297d5e429f9, GetEnableURL, GetEnableURL method [Media Foundation], GetEnableURL method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],GetEnableURL method, IMFContentEnabler.GetEnableURL, IMFContentEnabler::GetEnableURL, mf.imfcontentenabler_getenableurl, mfidl/IMFContentEnabler::GetEnableURL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFContentEnabler.GetEnableURL
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFContentEnabler::GetEnableURL

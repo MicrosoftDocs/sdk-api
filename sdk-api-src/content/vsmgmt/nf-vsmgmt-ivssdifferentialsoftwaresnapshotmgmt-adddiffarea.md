@@ -4,17 +4,16 @@ title: IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
 author: windows-sdk-content
 description: Adds a shadow copy storage area association for the specified volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_adddiffarea.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 7b58331c-b8a2-4333-a05d-563395d5f0c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddDiffArea, AddDiffArea method [VSS], AddDiffArea method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, IVssDifferentialSoftwareSnapshotMgmt interface [VSS],AddDiffArea method, IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea, IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea, base.ivssdifferentialsoftwaresnapshotmgmt_adddiffarea, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea

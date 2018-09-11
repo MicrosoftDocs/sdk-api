@@ -4,17 +4,16 @@ title: "_REAL_TIME_NOTIFICATION_SETTING_OUTPUT"
 author: windows-sdk-content
 description: Provides the output settings from a query for the REAL_TIME_NOTIFICATION_CAPABILITY transport setting for a TCP socket that is used with ControlChannelTrigger to receive background network notifications in a Windows Store app.
 old-location: winsock\real_time_notification_setting_output.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 7585CA60-8C7B-4187-A311-72DFA38EB577
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PREAL_TIME_NOTIFICATION_SETTING_OUTPUT, PREAL_TIME_NOTIFICATION_SETTING_OUTPUT, PREAL_TIME_NOTIFICATION_SETTING_OUTPUT structure pointer [Winsock], REAL_TIME_NOTIFICATION_SETTING_OUTPUT, REAL_TIME_NOTIFICATION_SETTING_OUTPUT structure [Winsock], _REAL_TIME_NOTIFICATION_SETTING_OUTPUT, mstcpip/PREAL_TIME_NOTIFICATION_SETTING_OUTPUT, mstcpip/REAL_TIME_NOTIFICATION_SETTING_OUTPUT, winsock.real_time_notification_setting_output"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REAL_TIME_NOTIFICATION_SETTING_OUTPUT, *PREAL_TIME_NOTIFICATION_SETTING_OUTPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REAL_TIME_NOTIFICATION_SETTING_OUTPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: REAL_TIME_NOTIFICATION_SETTING_OUTPUT, *PREAL_TIME_NOTIFICATION_SETTING_OUTPUT
+req.redist: 
 ---
 
 # _REAL_TIME_NOTIFICATION_SETTING_OUTPUT structure

@@ -4,7 +4,7 @@ title: tagTLIBATTR
 author: windows-sdk-content
 description: Contains information about a type library. Information from this structure is used to identify the type library and to provide national language support for member names.
 old-location: automat\tlibattr.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 7715a862-1e20-4035-a146-2c9aa134f929
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OaIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TLIBATTR, *LPTLIBATTR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TLIBATTR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: TLIBATTR, *LPTLIBATTR
+req.redist: 
 ---
 
 # tagTLIBATTR structure

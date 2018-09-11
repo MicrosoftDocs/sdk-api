@@ -4,7 +4,7 @@ title: MPEG_HEADER_BITS
 author: windows-sdk-content
 description: The MPEG_HEADER_BITS structure contains the first 16 bits that follow the table_id in a generic MPEG-2 section header.
 old-location: mstv\mpeg_header_bits.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e25d36af-ee72-4986-8d96-2bce8b19ac80
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpeg2bits.h
 req.include-header: Mpeg2Structs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_BITS, *PMPEG_HEADER_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPEG_HEADER_BITS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPEG_HEADER_BITS, *PMPEG_HEADER_BITS
+req.redist: 
 ---
 
 # MPEG_HEADER_BITS structure

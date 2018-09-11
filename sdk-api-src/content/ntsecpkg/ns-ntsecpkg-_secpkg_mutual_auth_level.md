@@ -4,17 +4,16 @@ title: "_SECPKG_MUTUAL_AUTH_LEVEL"
 author: windows-sdk-content
 description: The SECPKG_MUTUAL_AUTH_LEVEL structure contains the authentication level used by a security package.
 old-location: security\secpkg_mutual_auth_level.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: f56cd322-8f82-43d7-a666-7067bf23b0a7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECPKG_MUTUAL_AUTH_LEVEL, PSECPKG_MUTUAL_AUTH_LEVEL, PSECPKG_MUTUAL_AUTH_LEVEL structure pointer [Security], SECPKG_MUTUAL_AUTH_LEVEL, SECPKG_MUTUAL_AUTH_LEVEL structure [Security], _SECPKG_MUTUAL_AUTH_LEVEL, _ssp_secpkg_mutual_auth_level, ntsecpkg/PSECPKG_MUTUAL_AUTH_LEVEL, ntsecpkg/SECPKG_MUTUAL_AUTH_LEVEL, security.secpkg_mutual_auth_level"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_MUTUAL_AUTH_LEVEL, *PSECPKG_MUTUAL_AUTH_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_MUTUAL_AUTH_LEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_MUTUAL_AUTH_LEVEL, *PSECPKG_MUTUAL_AUTH_LEVEL
+req.redist: 
 ---
 
 # _SECPKG_MUTUAL_AUTH_LEVEL structure

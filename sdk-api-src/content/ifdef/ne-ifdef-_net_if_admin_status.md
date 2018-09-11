@@ -4,7 +4,7 @@ title: "_NET_IF_ADMIN_STATUS"
 author: windows-sdk-content
 description: The NET_IF_ADMIN_STATUS enumeration type specifies the NDIS network interface administrative status, as described in RFC 2863.
 old-location: netvista\net_if_admin_status.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 9f6978a9-a779-49c6-b642-c411fa764972
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_IF_ADMIN_STATUS, *PNET_IF_ADMIN_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_IF_ADMIN_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_IF_ADMIN_STATUS, *PNET_IF_ADMIN_STATUS
+req.redist: 
 ---
 
 # _NET_IF_ADMIN_STATUS enumeration

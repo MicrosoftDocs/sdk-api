@@ -4,17 +4,16 @@ title: IMFMediaEngine::GetDefaultPlaybackRate
 author: windows-sdk-content
 description: Gets the default playback rate.
 old-location: mf\imfmediaengine_getdefaultplaybackrate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: FF7E9E76-B85E-40BB-88BD-5033FCE31177
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetDefaultPlaybackRate, GetDefaultPlaybackRate method [Media Foundation], GetDefaultPlaybackRate method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetDefaultPlaybackRate method, IMFMediaEngine.GetDefaultPlaybackRate, IMFMediaEngine::GetDefaultPlaybackRate, mf.imfmediaengine_getdefaultplaybackrate, mfmediaengine/IMFMediaEngine::GetDefaultPlaybackRate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngine.GetDefaultPlaybackRate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngine::GetDefaultPlaybackRate

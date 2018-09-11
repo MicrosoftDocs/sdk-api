@@ -4,7 +4,7 @@ title: drt_security_provider_tag
 author: windows-sdk-content
 description: DRT_SECURITY_PROVIDER structure defines the DRT interface that must be implemented by a security provider.
 old-location: p2p\drt_security_provider.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 1eedfff3-d561-462e-bad0-45e7bc46fb1a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_SECURITY_PROVIDER, *PDRT_SECURITY_PROVIDER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRT_SECURITY_PROVIDER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRT_SECURITY_PROVIDER, *PDRT_SECURITY_PROVIDER
+req.redist: 
 ---
 
 # drt_security_provider_tag structure

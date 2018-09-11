@@ -4,17 +4,16 @@ title: IBrowserService4::SaveViewState
 author: windows-sdk-content
 description: Deprecated.
 old-location: shell\IBrowserService4_SaveViewState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8f43aa2b-9bae-4eda-823b-0dc036185ca8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService4 interface [Windows Shell],SaveViewState method, IBrowserService4.SaveViewState, IBrowserService4::SaveViewState, SaveViewState, SaveViewState method [Windows Shell], SaveViewState method [Windows Shell],IBrowserService4 interface, _shell_IBrowserService4_SaveViewState, shdeprecated/IBrowserService4::SaveViewState, shell.IBrowserService4_SaveViewState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBrowserService4.SaveViewState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IBrowserService4::SaveViewState

@@ -4,17 +4,16 @@ title: ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstants
 author: windows-sdk-content
 description: Sets a group of constants in the graphics root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setgraphicsroot32bitconstants.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 509B8AA0-8128-4216-A9E2-67C027488E4A
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRoot32BitConstants method, ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstants, ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstants, SetGraphicsRoot32BitConstants, SetGraphicsRoot32BitConstants method, SetGraphicsRoot32BitConstants method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstants, direct3d12.id3d12graphicscommandlist_setgraphicsroot32bitconstants
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstants
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstants

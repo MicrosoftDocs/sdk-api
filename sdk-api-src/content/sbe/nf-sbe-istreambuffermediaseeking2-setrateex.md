@@ -4,17 +4,16 @@ title: IStreamBufferMediaSeeking2::SetRateEx
 author: windows-sdk-content
 description: "."
 old-location: mstv\istreambuffermediaseeking2_setrateex.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 37b80d0d-561d-4ef3-b0ad-70fb43530026
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies],SetRateEx method, IStreamBufferMediaSeeking2.SetRateEx, IStreamBufferMediaSeeking2::SetRateEx, IStreamBufferMediaSeeking2SetRateEx, SetRateEx, SetRateEx method [Microsoft TV Technologies], SetRateEx method [Microsoft TV Technologies],IStreamBufferMediaSeeking2 interface, mstv.istreambuffermediaseeking2_setrateex, sbe/IStreamBufferMediaSeeking2::SetRateEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferMediaSeeking2.SetRateEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferMediaSeeking2::SetRateEx

@@ -4,7 +4,7 @@ title: "_GLOBAL_USER_POWER_POLICY"
 author: windows-sdk-content
 description: Contains global user power policy settings that apply to all power schemes for a user.
 old-location: base\global_user_power_policy_str.htm
-old-project: power
+tech.root: power
 ms.assetid: 0e89ae66-a889-4929-b028-125fcef5c89c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GLOBAL_USER_POWER_POLICY, *PGLOBAL_USER_POWER_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GLOBAL_USER_POWER_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: GLOBAL_USER_POWER_POLICY, *PGLOBAL_USER_POWER_POLICY
+req.redist: 
 ---
 
 # _GLOBAL_USER_POWER_POLICY structure

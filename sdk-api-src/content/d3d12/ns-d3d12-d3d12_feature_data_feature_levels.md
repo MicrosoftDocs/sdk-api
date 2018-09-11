@@ -4,7 +4,7 @@ title: D3D12_FEATURE_DATA_FEATURE_LEVELS
 author: windows-sdk-content
 description: Describes info about the feature levels supported by the current graphics driver.
 old-location: direct3d12\d3d12_feature_data_feature_levels.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 8C709889-0C7E-4D6D-84BD-1449BB8EA96A
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_FEATURE_DATA_FEATURE_LEVELS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_FEATURE_DATA_FEATURE_LEVELS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_FEATURE_DATA_FEATURE_LEVELS
+req.redist: 
 ---
 
 # D3D12_FEATURE_DATA_FEATURE_LEVELS structure

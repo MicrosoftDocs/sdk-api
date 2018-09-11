@@ -4,17 +4,16 @@ title: tagCHOOSEFONTW
 author: windows-sdk-content
 description: Contains information that the ChooseFont function uses to initialize the Font dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 old-location: dlgbox\choosefont_str.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\choosefont.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPCHOOSEFONTW, BOLD_FONTTYPE, CF_ANSIONLY, CF_APPLY, CF_BOTH, CF_EFFECTS, CF_ENABLEHOOK, CF_ENABLETEMPLATE, CF_ENABLETEMPLATEHANDLE, CF_FIXEDPITCHONLY, CF_FORCEFONTEXIST, CF_INACTIVEFONTS, CF_INITTOLOGFONTSTRUCT, CF_LIMITSIZE, CF_NOFACESEL, CF_NOOEMFONTS, CF_NOSCRIPTSEL, CF_NOSIMULATIONS, CF_NOSIZESEL, CF_NOSTYLESEL, CF_NOVECTORFONTS, CF_NOVERTFONTS, CF_PRINTERFONTS, CF_SCALABLEONLY, CF_SCREENFONTS, CF_SCRIPTSONLY, CF_SELECTSCRIPT, CF_SHOWHELP, CF_TTONLY, CF_USESTYLE, CF_WYSIWYG, CHOOSEFONT, CHOOSEFONT structure [Dialog Boxes], CHOOSEFONTA, CHOOSEFONTW, ITALIC_FONTTYPE, LPCHOOSEFONT, LPCHOOSEFONT structure pointer [Dialog Boxes], PRINTER_FONTTYPE, REGULAR_FONTTYPE, SCREEN_FONTTYPE, SIMULATED_FONTTYPE, _win32_CHOOSEFONT_str, _win32_choosefont_str_cpp, commdlg/CHOOSEFONT, commdlg/CHOOSEFONTA, commdlg/CHOOSEFONTW, commdlg/LPCHOOSEFONT, dlgbox.choosefont_str, tagCHOOSEFONTA, tagCHOOSEFONTW, winui._win32_choosefont_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHOOSEFONTW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CHOOSEFONTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CHOOSEFONTW
+req.redist: 
 ---
 
 # tagCHOOSEFONTW structure

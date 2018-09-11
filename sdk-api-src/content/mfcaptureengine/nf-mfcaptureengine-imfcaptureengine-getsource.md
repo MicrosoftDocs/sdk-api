@@ -4,17 +4,16 @@ title: IMFCaptureEngine::GetSource
 author: windows-sdk-content
 description: Gets a pointer to the capture source object.
 old-location: mf\imfcaptureengine_getsource.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9DED11CA-BDBB-4E1A-BAD1-2EB6216543F9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetSource, GetSource method [Media Foundation], GetSource method [Media Foundation],IMFCaptureEngine interface, IMFCaptureEngine interface [Media Foundation],GetSource method, IMFCaptureEngine.GetSource, IMFCaptureEngine::GetSource, mf.imfcaptureengine_getsource, mfcaptureengine/IMFCaptureEngine::GetSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCaptureEngine.GetSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCaptureEngine::GetSource

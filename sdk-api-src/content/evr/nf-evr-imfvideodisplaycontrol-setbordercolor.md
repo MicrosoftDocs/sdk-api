@@ -4,17 +4,16 @@ title: IMFVideoDisplayControl::SetBorderColor
 author: windows-sdk-content
 description: Sets the border color for the video.
 old-location: mf\imfvideodisplaycontrol_setbordercolor.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71, IMFVideoDisplayControl interface [Media Foundation],SetBorderColor method, IMFVideoDisplayControl.SetBorderColor, IMFVideoDisplayControl::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetBorderColor, mf.imfvideodisplaycontrol_setbordercolor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoDisplayControl.SetBorderColor
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoDisplayControl::SetBorderColor

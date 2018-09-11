@@ -4,17 +4,16 @@ title: ICertRequest2::GetCAPropertyFlags
 author: windows-sdk-content
 description: Retrieves the property flags for a certification authority (CA) property.
 old-location: security\icertrequest2_getcapropertyflags.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: bdc6ab73-a0b4-44cd-9e46-c453dcb45a41
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertRequest object [Security],GetCAPropertyFlags method, GetCAPropertyFlags, GetCAPropertyFlags method [Security], GetCAPropertyFlags method [Security],CCertRequest object, GetCAPropertyFlags method [Security],ICertRequest interface, GetCAPropertyFlags method [Security],ICertRequest2 interface, GetCAPropertyFlags method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCAPropertyFlags method, ICertRequest2 interface [Security],GetCAPropertyFlags method, ICertRequest2.GetCAPropertyFlags, ICertRequest2::GetCAPropertyFlags, ICertRequest3 interface [Security],GetCAPropertyFlags method, ICertRequest3::GetCAPropertyFlags, ICertRequest::GetCAPropertyFlags, _certsrv_icertrequest2_getcapropertyflags, certcli/ICertRequest2::GetCAPropertyFlags, certcli/ICertRequest3::GetCAPropertyFlags, certcli/ICertRequest::GetCAPropertyFlags, security.icertrequest2_getcapropertyflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - CCertRequest.GetCAPropertyFlags
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertRequest2::GetCAPropertyFlags

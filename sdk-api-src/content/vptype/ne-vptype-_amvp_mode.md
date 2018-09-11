@@ -4,7 +4,7 @@ title: "_AMVP_MODE"
 author: windows-sdk-content
 description: Specifies the various modes for video ports.
 old-location: dshow\amvp_mode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 73d63ca2-17fb-4e27-9ea5-62686117254a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vptype.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVP_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AMVP_MODE
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: AMVP_MODE
+req.redist: 
 ---
 
 # _AMVP_MODE enumeration

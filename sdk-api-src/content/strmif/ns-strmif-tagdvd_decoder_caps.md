@@ -4,7 +4,7 @@ title: tagDVD_DECODER_CAPS
 author: windows-sdk-content
 description: The DVD_DECODER_CAPS structure indicates the capabilities of a DVD decoder.
 old-location: dshow\dvd_decoder_caps.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7bfe5922-5d84-4ec8-87a0-e9bad102508b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_DECODER_CAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_DECODER_CAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: DVD_DECODER_CAPS
+req.redist: 
 ---
 
 # tagDVD_DECODER_CAPS structure

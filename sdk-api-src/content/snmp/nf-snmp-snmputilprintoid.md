@@ -4,17 +4,16 @@ title: SnmpUtilPrintOid function
 author: windows-sdk-content
 description: The SnmpUtilPrintOid function formats the specified object identifier (OID) and prints the result to the standard output device. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilprintoid.htm
-old-project: snmp
+tech.root: SNMP
 ms.assetid: 8d5e9b79-83a5-49ed-8621-f12cbf9c59d0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpUtilPrintOid, SnmpUtilPrintOid function [SNMP], _snmp_snmputilprintoid, snmp.snmputilprintoid, snmp/SnmpUtilPrintOid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_NONGENUINE_UI_OPTIONS
+req.lib: Snmpapi.lib
+req.dll: Snmpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpUtilPrintOid
 product: Windows
 targetos: Windows
-req.lib: Snmpapi.lib
-req.dll: Snmpapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpUtilPrintOid function

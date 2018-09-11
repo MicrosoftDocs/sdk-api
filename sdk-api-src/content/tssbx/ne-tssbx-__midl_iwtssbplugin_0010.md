@@ -4,7 +4,7 @@ title: "__MIDL_IWTSSBPlugin_0010"
 author: windows-sdk-content
 description: Contains values that indicate the type of status change that occurred on a Remote Desktop Session Host (RD Session Host) server or a user session.
 old-location: termserv\wtssbx_notification_type.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 06da6e20-a4de-4e2d-8f42-6d99b738226c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tssbx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_NOTIFICATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTSSBX_NOTIFICATION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: WTSSBX_NOTIFICATION_TYPE
+req.redist: 
 ---
 
 # __MIDL_IWTSSBPlugin_0010 enumeration

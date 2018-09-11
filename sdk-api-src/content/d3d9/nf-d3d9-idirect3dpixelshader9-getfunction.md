@@ -4,17 +4,16 @@ title: IDirect3DPixelShader9::GetFunction
 author: windows-sdk-content
 description: Gets a pointer to the shader data.
 old-location: direct3d9\idirect3dpixelshader9__getfunction.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dpixelshader9__getfunction.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 3fd5e480-51b4-f6cc-c9eb-1fa92415018a, GetFunction, GetFunction method [Direct3D 9], GetFunction method [Direct3D 9],IDirect3DPixelShader9 interface, IDirect3DPixelShader9 interface [Direct3D 9],GetFunction method, IDirect3DPixelShader9.GetFunction, IDirect3DPixelShader9::GetFunction, d3d9helper/IDirect3DPixelShader9::GetFunction, direct3d9.idirect3dpixelshader9__getfunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DPixelShader9.GetFunction
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DPixelShader9::GetFunction
@@ -60,9 +59,9 @@ Gets a pointer to the shader data.
 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param pSizeOfData [in, out]

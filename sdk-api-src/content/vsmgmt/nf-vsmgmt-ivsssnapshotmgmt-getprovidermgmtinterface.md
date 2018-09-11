@@ -4,17 +4,16 @@ title: IVssSnapshotMgmt::GetProviderMgmtInterface
 author: windows-sdk-content
 description: Returns an interface to further configure the system provider.
 old-location: base\ivsssnapshotmgmt_getprovidermgmtinterface.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 814c6e2c-a5f8-4f44-b508-3a2e95bb1c54
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetProviderMgmtInterface, GetProviderMgmtInterface method [VSS], GetProviderMgmtInterface method [VSS],IVssSnapshotMgmt interface, IVssSnapshotMgmt interface [VSS],GetProviderMgmtInterface method, IVssSnapshotMgmt.GetProviderMgmtInterface, IVssSnapshotMgmt::GetProviderMgmtInterface, base.ivsssnapshotmgmt_getprovidermgmtinterface, vsmgmt/IVssSnapshotMgmt::GetProviderMgmtInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssSnapshotMgmt.GetProviderMgmtInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssSnapshotMgmt::GetProviderMgmtInterface

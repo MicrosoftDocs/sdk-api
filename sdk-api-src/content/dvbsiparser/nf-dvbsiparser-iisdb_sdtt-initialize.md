@@ -4,17 +4,16 @@ title: IISDB_SDTT::Initialize
 author: windows-sdk-content
 description: Initializes the object by using captured table section data from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_initialize.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f1018e3a-00dd-4964-b491-0193a71e7d51
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IISDB_SDTT interface [Microsoft TV Technologies],Initialize method, IISDB_SDTT.Initialize, IISDB_SDTT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_SDTT interface, dvbsiparser/IISDB_SDTT::Initialize, mstv.iisdb_sdtt_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_SDTT.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_SDTT::Initialize

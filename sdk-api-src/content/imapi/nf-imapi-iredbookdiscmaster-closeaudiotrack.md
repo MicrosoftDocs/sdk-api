@@ -4,17 +4,16 @@ title: IRedbookDiscMaster::CloseAudioTrack
 author: windows-sdk-content
 description: Closes a currently open audio track. All audio tracks must be closed before the IDiscMaster::RecordDisc method can be called.
 old-location: imapi\iredbookdiscmaster_closeaudiotrack.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 01ec0eba-d592-46eb-8029-86cb678b8b34
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CloseAudioTrack, CloseAudioTrack method [IMAPI], CloseAudioTrack method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],CloseAudioTrack method, IRedbookDiscMaster.CloseAudioTrack, IRedbookDiscMaster::CloseAudioTrack, _win32_iredbookdiscmaster_closeaudiotrack, base.iredbookdiscmaster_closeaudiotrack, imapi.iredbookdiscmaster_closeaudiotrack, imapi/IRedbookDiscMaster::CloseAudioTrack
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRedbookDiscMaster.CloseAudioTrack
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRedbookDiscMaster::CloseAudioTrack

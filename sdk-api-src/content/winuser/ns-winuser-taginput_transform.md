@@ -4,7 +4,7 @@ title: tagINPUT_TRANSFORM
 author: windows-sdk-content
 description: Defines the matrix that represents a transform on a message consumer.
 old-location: inputmsg\input_transform.htm
-old-project: InputMsg
+tech.root: InputMsg
 ms.assetid: DE6854F0-17D8-4E4B-97CB-A135910A300C
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INPUT_TRANSFORM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INPUT_TRANSFORM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: INPUT_TRANSFORM
+req.redist: 
 ---
 
 # tagINPUT_TRANSFORM structure

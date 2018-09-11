@@ -4,17 +4,16 @@ title: InnerRequestLevel
 author: windows-sdk-content
 description: Specifies the containment level of a certificate request within a PKCS #7 or Certificate Management over CMS (CMC) request.
 old-location: security\innerrequestlevel_enum.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 57b16024-5347-4218-90a7-d85e403aacf0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: InnerRequestLevel, InnerRequestLevel enumeration [Security], LevelInnermost, LevelNext, certenroll/InnerRequestLevel, certenroll/LevelInnermost, certenroll/LevelNext, security.innerrequestlevel_enum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InnerRequestLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - InnerRequestLevel
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: InnerRequestLevel
+req.redist: 
 ---
 
 # InnerRequestLevel enumeration

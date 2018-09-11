@@ -4,17 +4,16 @@ title: IVideoProcAmp::put_Gamma
 author: windows-sdk-content
 description: The put_Gamma method sets the camera's gamma setting.
 old-location: dshow\ivideoprocamp_put_gamma.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f4efe538-75c5-4c52-9ad2-dc6badee74f2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Gamma method, IVideoProcAmp.put_Gamma, IVideoProcAmp::put_Gamma, IVideoProcAmpput_Gamma, dshow.ivideoprocamp_put_gamma, put_Gamma, put_Gamma method [DirectShow], put_Gamma method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Gamma
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoProcAmp.put_Gamma
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoProcAmp::put_Gamma

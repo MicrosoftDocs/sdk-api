@@ -4,17 +4,16 @@ title: IDirectManipulationContent::GetContentTransform
 author: windows-sdk-content
 description: Retrieves the transform applied to the content.
 old-location: directmanipulation\idirectmanipulationcontent_getcontenttransform.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 9db4f521-227c-4e2f-8c7d-44ae4a25651e
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetContentTransform, GetContentTransform method [Direct Manipulation], GetContentTransform method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetContentTransform method, IDirectManipulationContent.GetContentTransform, IDirectManipulationContent::GetContentTransform, directmanipulation.idirectmanipulationcontent_getcontenttransform, directmanipulation/IDirectManipulationContent::GetContentTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationContent.GetContentTransform
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationContent::GetContentTransform

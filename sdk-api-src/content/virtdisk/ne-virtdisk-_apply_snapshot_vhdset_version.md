@@ -4,17 +4,16 @@ title: "_APPLY_SNAPSHOT_VHDSET_VERSION"
 author: windows-sdk-content
 description: Enumerates the possible versions for parameters for the ApplySnapshotVhdSet function.
 old-location: vhd\apply_snapshot_vhdset_version.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 3146B123-5118-495E-A640-11026DAD84C4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: APPLY_SNAPSHOT_VHDSET_VERSION, APPLY_SNAPSHOT_VHDSET_VERSION enumeration [VHD], APPLY_SNAPSHOT_VHDSET_VERSION_1, APPLY_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED, _APPLY_SNAPSHOT_VHDSET_VERSION, vdssys/APPLY_SNAPSHOT_VHDSET_VERSION, vdssys/APPLY_SNAPSHOT_VHDSET_VERSION_1, vdssys/APPLY_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED, vhd.apply_snapshot_vhdset_version, virtdisk/APPLY_SNAPSHOT_VHDSET_VERSION, virtdisk/APPLY_SNAPSHOT_VHDSET_VERSION_1, virtdisk/APPLY_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPLY_SNAPSHOT_VHDSET_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - APPLY_SNAPSHOT_VHDSET_VERSION
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: APPLY_SNAPSHOT_VHDSET_VERSION
+req.redist: 
 ---
 
 # _APPLY_SNAPSHOT_VHDSET_VERSION enumeration

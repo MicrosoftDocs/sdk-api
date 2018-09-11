@@ -4,17 +4,16 @@ title: IDataCollectorSet::get_DescriptionUnresolved
 author: windows-sdk-content
 description: Retrieves the description of the data collector set in its original form.
 old-location: pla\idatacollectorset_descriptionunresolved.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 153159b2-54dc-477a-92eb-18328ea3351b
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: DescriptionUnresolved property [PLA], DescriptionUnresolved property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DescriptionUnresolved property, IDataCollectorSet.DescriptionUnresolved, IDataCollectorSet.get_DescriptionUnresolved, IDataCollectorSet::DescriptionUnresolved, IDataCollectorSet::get_DescriptionUnresolved, get_DescriptionUnresolved, pla.idatacollectorset_descriptionunresolved, pla/IDataCollectorSet::DescriptionUnresolved, pla/IDataCollectorSet::get_DescriptionUnresolved
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDataCollectorSet.get_DescriptionUnresolved
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::get_DescriptionUnresolved

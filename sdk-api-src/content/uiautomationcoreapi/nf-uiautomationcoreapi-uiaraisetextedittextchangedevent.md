@@ -4,17 +4,16 @@ title: UiaRaiseTextEditTextChangedEvent function
 author: windows-sdk-content
 description: Called by a provider to notify the Microsoft UI Automation core that a text control has programmatically changed text.
 old-location: winauto\uiauto_UiaRaiseTextEditTextChangedEventFunction.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 19E7C2C1-D0D5-672F-FC6F-8E1B8CC19819
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaRaiseTextEditTextChangedEvent, UiaRaiseTextEditTextChangedEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseTextEditTextChangedEvent, winauto.uiauto_UiaRaiseTextEditTextChangedEventFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - UiaRaiseTextEditTextChangedEvent
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaRaiseTextEditTextChangedEvent function

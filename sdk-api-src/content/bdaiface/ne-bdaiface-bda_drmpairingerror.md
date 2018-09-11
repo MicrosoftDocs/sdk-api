@@ -4,7 +4,7 @@ title: BDA_DrmPairingError
 author: windows-sdk-content
 description: Specifies the status of a DRM handshake between a tuner and the user's computer.
 old-location: mstv\bda_drmpairingerror.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d1b100e5-497e-4cb1-9cb8-38424c9eecf8
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BDA_DrmPairingError
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BDA_DrmPairingError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BDA_DrmPairingError
+req.redist: 
 ---
 
 # BDA_DrmPairingError enumeration

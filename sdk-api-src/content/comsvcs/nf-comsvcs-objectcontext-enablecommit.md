@@ -4,17 +4,16 @@ title: ObjectContext::EnableCommit
 author: windows-sdk-content
 description: Declares that the current object's work is not necessarily finished but that its transactional updates are consistent and could be committed in their present form.
 old-location: cos\objectcontext_enablecommit.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: c625d3e2-8a12-4049-8997-6e57c3423acc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnableCommit, EnableCommit method [COM+], EnableCommit method [COM+],ObjectContext interface, ObjectContext interface [COM+],EnableCommit method, ObjectContext.EnableCommit, ObjectContext::EnableCommit, _cos_ObjectContext_EnableCommit, comsvcs/ObjectContext::EnableCommit, cos.objectcontext_enablecommit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ObjectContext.EnableCommit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ObjectContext::EnableCommit

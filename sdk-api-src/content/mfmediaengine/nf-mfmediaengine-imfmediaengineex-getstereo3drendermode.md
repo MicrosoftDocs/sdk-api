@@ -4,17 +4,16 @@ title: IMFMediaEngineEx::GetStereo3DRenderMode
 author: windows-sdk-content
 description: For stereoscopic 3D video, queries how the Media Engine renders the 3D video content.
 old-location: mf\imfmediaengineex_getstereo3drendermode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 204C9B35-860F-46FD-AF3F-7BC7E1EE12EF
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStereo3DRenderMode, GetStereo3DRenderMode method [Media Foundation], GetStereo3DRenderMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStereo3DRenderMode method, IMFMediaEngineEx.GetStereo3DRenderMode, IMFMediaEngineEx::GetStereo3DRenderMode, mf.imfmediaengineex_getstereo3drendermode, mfmediaengine/IMFMediaEngineEx::GetStereo3DRenderMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineEx.GetStereo3DRenderMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineEx::GetStereo3DRenderMode

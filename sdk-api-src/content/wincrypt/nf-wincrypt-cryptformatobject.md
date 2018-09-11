@@ -4,17 +4,16 @@ title: CryptFormatObject function
 author: windows-sdk-content
 description: The CryptFormatObject function formats the encoded data and returns a Unicode string in the allocated buffer according to the certificate encoding type.
 old-location: security\cryptformatobject.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 307e0bd5-b8a6-4d85-9775-65aae99e8dc6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: 0, CRYPT_FORMAT_STR_MULTI_LINE, CRYPT_FORMAT_STR_NO_HEX, CryptFormatObject, CryptFormatObject function [Security], SPC_FINANCIAL_CRITERIA_OBJID, SPC_SP_AGENCY_INFO_OBJID, _crypto2_cryptformatobject, security.cryptformatobject, szOID_AUTHORITY_INFO_ACCESS, szOID_AUTHORITY_KEY_IDENTIFIER2, szOID_BASIC_CONSTRAINTS2, szOID_CERT_POLICIES, szOID_CRL_DIST_POINTS, szOID_CRL_REASON_CODE, szOID_ENHANCED_KEY_USAGE, szOID_ISSUER_ALT_NAME2, szOID_KEY_ATTRIBUTES, szOID_KEY_USAGE, szOID_KEY_USAGE_RESTRICTION, szOID_NEXT_UPDATE_LOCATION, szOID_RSA_SMIMECapabilities, szOID_SUBJECT_ALT_NAME2, szOID_SUBJECT_KEY_IDENTIFIER, wincrypt/CryptFormatObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptFormatObject
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptFormatObject function

@@ -4,17 +4,16 @@ title: VarUI4FromStr function
 author: windows-sdk-content
 description: Converts an OLECHAR string to an unsigned long value.
 old-location: automat\varui4fromstr.htm
-old-project: automat
+tech.root: automat
 ms.assetid: ff6e3dd0-3bb6-4197-aba4-dd4240af918f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarUI4FromStr, VarUI4FromStr function [Automation], _oa96_VarUI4FromStr, automat.varui4fromstr, oleauto/VarUI4FromStr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarUI4FromStr
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarUI4FromStr function

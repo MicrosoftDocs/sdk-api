@@ -4,7 +4,7 @@ title: "_DD_QUERYMOCOMPSTATUSDATA"
 author: windows-sdk-content
 description: The DD_QUERYMOCOMPSTATUSDATA structure contains information required to query the status of the previous frame.
 old-location: display\dd_querymocompstatusdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 53e2c8c7-dc6b-4c0b-9555-9aac07bd9186
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_QUERYMOCOMPSTATUSDATA, DD_QUERYMOCOMPSTATUSDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_QUERYMOCOMPSTATUSDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_QUERYMOCOMPSTATUSDATA, DD_QUERYMOCOMPSTATUSDATA"
+req.redist: 
 ---
 
 # _DD_QUERYMOCOMPSTATUSDATA structure

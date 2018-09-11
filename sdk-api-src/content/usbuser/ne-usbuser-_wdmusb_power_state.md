@@ -4,7 +4,7 @@ title: "_WDMUSB_POWER_STATE"
 author: windows-sdk-content
 description: The WDMUSB_POWER_STATE enumeration indicates the power state of a host controller or root hub.
 old-location: buses\wdmusb_power_state.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 2f64bd5b-507c-4824-b50c-dbc228e8671a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: usbuser.h
 req.include-header: Usbuser.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDMUSB_POWER_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WDMUSB_POWER_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: WDMUSB_POWER_STATE
+req.redist: 
 ---
 
 # _WDMUSB_POWER_STATE enumeration

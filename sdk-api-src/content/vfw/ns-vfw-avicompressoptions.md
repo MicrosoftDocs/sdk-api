@@ -4,7 +4,7 @@ title: AVICOMPRESSOPTIONS
 author: windows-sdk-content
 description: The AVICOMPRESSOPTIONS structure contains information about a stream and how it is compressed and saved. This structure passes data to the AVIMakeCompressedStream function (or the AVISave function, which uses AVIMakeCompressedStream).
 old-location: multimedia\avicompressoptions.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 8084adc3-792f-4a6c-b407-51e0e435e629
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVICOMPRESSOPTIONS, *LPAVICOMPRESSOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVICOMPRESSOPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: AVICOMPRESSOPTIONS, *LPAVICOMPRESSOPTIONS
+req.redist: 
 ---
 
 # AVICOMPRESSOPTIONS structure

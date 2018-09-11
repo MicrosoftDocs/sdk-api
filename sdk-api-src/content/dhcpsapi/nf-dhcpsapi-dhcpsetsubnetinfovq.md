@@ -4,17 +4,16 @@ title: DhcpSetSubnetInfoVQ function
 author: windows-sdk-content
 description: Sets information about a subnet defined on the DHCP server.
 old-location: dhcp\dhcpsetsubnetinfovq.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 1e584377-aded-4888-9641-8b9e5b8d2f98
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpSetSubnetInfoVQ, DhcpSetSubnetInfoVQ function [DHCP], dhcp.dhcpsetsubnetinfovq, dhcpsapi/DhcpSetSubnetInfoVQ
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpSetSubnetInfoVQ
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpSetSubnetInfoVQ function

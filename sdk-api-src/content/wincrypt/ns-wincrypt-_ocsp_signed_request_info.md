@@ -4,17 +4,16 @@ title: "_OCSP_SIGNED_REQUEST_INFO"
 author: windows-sdk-content
 description: Contains information for an online certificate status protocol (OCSP) request with optional signature information.
 old-location: security\ocsp_signed_request_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: b3ff0843-77d8-4a9e-a3ba-97e9c398919a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*POCSP_SIGNED_REQUEST_INFO, OCSP_SIGNED_REQUEST_INFO, OCSP_SIGNED_REQUEST_INFO structure [Security], POCSP_SIGNED_REQUEST_INFO, POCSP_SIGNED_REQUEST_INFO structure pointer [Security], _OCSP_SIGNED_REQUEST_INFO, security.ocsp_signed_request_info, wincrypt/OCSP_SIGNED_REQUEST_INFO, wincrypt/POCSP_SIGNED_REQUEST_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OCSP_SIGNED_REQUEST_INFO, *POCSP_SIGNED_REQUEST_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OCSP_SIGNED_REQUEST_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: OCSP_SIGNED_REQUEST_INFO, *POCSP_SIGNED_REQUEST_INFO
+req.redist: 
 ---
 
 # _OCSP_SIGNED_REQUEST_INFO structure

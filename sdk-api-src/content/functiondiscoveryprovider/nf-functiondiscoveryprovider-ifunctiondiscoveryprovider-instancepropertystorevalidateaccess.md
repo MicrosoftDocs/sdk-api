@@ -4,17 +4,16 @@ title: IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess
 author: windows-sdk-content
 description: Verifies that the provider supports the requested access.
 old-location: ncd\ifunctiondiscoveryprovider_instancepropertystorevalidateaccess.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 0ee8d65d-0be3-4171-946a-10a15b8f8eb7
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreValidateAccess method, IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess, IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess, InstancePropertyStoreValidateAccess, InstancePropertyStoreValidateAccess method, InstancePropertyStoreValidateAccess method,IFunctionDiscoveryProvider interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess, ncd.ifunctiondiscoveryprovider_instancepropertystorevalidateaccess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess

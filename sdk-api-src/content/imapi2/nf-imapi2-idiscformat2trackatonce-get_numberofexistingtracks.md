@@ -4,17 +4,16 @@ title: IDiscFormat2TrackAtOnce::get_NumberOfExistingTracks
 author: windows-sdk-content
 description: Retrieves the number of existing audio tracks on the media.
 old-location: imapi\idiscformat2trackatonce_get_numberofexistingtracks.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 6a8bcfe2-d09a-4eec-8e68-5e0dfc868033
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_NumberOfExistingTracks method, IDiscFormat2TrackAtOnce.get_NumberOfExistingTracks, IDiscFormat2TrackAtOnce::get_NumberOfExistingTracks, get_NumberOfExistingTracks, get_NumberOfExistingTracks method [IMAPI], get_NumberOfExistingTracks method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_numberofexistingtracks, imapi2/IDiscFormat2TrackAtOnce::get_NumberOfExistingTracks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2TrackAtOnce.get_NumberOfExistingTracks
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2TrackAtOnce::get_NumberOfExistingTracks

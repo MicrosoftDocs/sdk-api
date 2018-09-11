@@ -4,17 +4,16 @@ title: IADsPropertyList::Skip
 author: windows-sdk-content
 description: Skips a specified number of items, counting from the current cursor position, in the property list.
 old-location: adsi\iadspropertylist_skip.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 3bbdf1e8-444c-4d5e-83df-95a1f4fd7508
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsPropertyList interface [ADSI],Skip method, IADsPropertyList.Skip, IADsPropertyList::Skip, Skip, Skip method [ADSI], Skip method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_skip, adsi.iadspropertylist__skip, adsi.iadspropertylist_skip, iads/IADsPropertyList::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPropertyList.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPropertyList::Skip

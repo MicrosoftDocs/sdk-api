@@ -4,17 +4,16 @@ title: CRYPT_XML_PROPERTY_ID
 author: windows-sdk-content
 description: Specifies the type and usage of the XML property.
 old-location: security\crypt_xml_property_id.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 7b396245-6dc5-4018-821e-a70db5f0d068
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_XML_PROPERTY_DOC_DECLARATION, CRYPT_XML_PROPERTY_ID, CRYPT_XML_PROPERTY_ID enumeration [Security], CRYPT_XML_PROPERTY_MAX_HEAP_SIZE, CRYPT_XML_PROPERTY_MAX_SIGNATURES, CRYPT_XML_PROPERTY_SIGNATURE_LOCATION, CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET, cryptxml/CRYPT_XML_PROPERTY_DOC_DECLARATION, cryptxml/CRYPT_XML_PROPERTY_ID, cryptxml/CRYPT_XML_PROPERTY_MAX_HEAP_SIZE, cryptxml/CRYPT_XML_PROPERTY_MAX_SIGNATURES, cryptxml/CRYPT_XML_PROPERTY_SIGNATURE_LOCATION, cryptxml/CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET, security.crypt_xml_property_id
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_PROPERTY_ID
+req.redist: 
 ---
 
 # CRYPT_XML_PROPERTY_ID enumeration

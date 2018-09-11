@@ -4,17 +4,16 @@ title: "_PrimaryXYZColors"
 author: windows-sdk-content
 description: This structure contains eight primary colors in XYZ coordinates.
 old-location: wcs\primaryxyzcolors.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 386d71ae-5997-4086-b034-7de356eed0a9
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: PrimaryXYZColors, PrimaryXYZColors structure [Windows Color System], _PrimaryXYZColors, _color_PrimaryXYZColors_str, wcs.primaryxyzcolors, wcsplugin/PrimaryXYZColors
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrimaryXYZColors
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PrimaryXYZColors
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PrimaryXYZColors
+req.redist: 
 ---
 
 # _PrimaryXYZColors structure

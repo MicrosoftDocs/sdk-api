@@ -4,17 +4,16 @@ title: IEnumExplorerCommand::Clone
 author: windows-sdk-content
 description: Not currently implemented.
 old-location: shell\IEnumExplorerCommand_Clone.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2ef3311a-6c88-463c-8c25-9ccb22f3e4e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumExplorerCommand interface, IEnumExplorerCommand interface [Windows Shell],Clone method, IEnumExplorerCommand.Clone, IEnumExplorerCommand::Clone, _shell_IEnumExplorerCommand_Clone, shell.IEnumExplorerCommand_Clone, shobjidl_core/IEnumExplorerCommand::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumExplorerCommand.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumExplorerCommand::Clone

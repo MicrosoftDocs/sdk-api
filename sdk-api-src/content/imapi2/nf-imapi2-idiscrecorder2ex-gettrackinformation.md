@@ -4,17 +4,16 @@ title: IDiscRecorder2Ex::GetTrackInformation
 author: windows-sdk-content
 description: Retrieves the track information from the media.
 old-location: imapi\idiscrecorder2ex_gettrackinformation.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: bfb8c7b0-8fe4-4e41-8e71-31ea0af57619
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetTrackInformation, GetTrackInformation method [IMAPI], GetTrackInformation method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetTrackInformation method, IDiscRecorder2Ex.GetTrackInformation, IDiscRecorder2Ex::GetTrackInformation, imapi.idiscrecorder2ex_gettrackinformation, imapi2/IDiscRecorder2Ex::GetTrackInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder2Ex.GetTrackInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder2Ex::GetTrackInformation

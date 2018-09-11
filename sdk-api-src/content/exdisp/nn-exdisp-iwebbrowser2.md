@@ -4,17 +4,16 @@ title: IWebBrowser2
 author: windows-sdk-content
 description: Exposes methods that are implemented by the WebBrowser control (Microsoft ActiveX control) or implemented by an instance of the InternetExplorer application (OLE Automation).
 old-location: winprog\iwebbrowser2.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: AFED694C-8D7B-4539-9A1A-B2DA546F3A07
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWebBrowser2, IWebBrowser2 interface [Windows API], IWebBrowser2 interface [Windows API],described, exdisp/IWebBrowser2, winprog.iwebbrowser2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: exdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: Shdocvw.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWebBrowser2
 product: Windows
 targetos: Windows
-req.lib: Shdocvw.dll
-req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IWebBrowser2 interface

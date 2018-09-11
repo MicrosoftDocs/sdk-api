@@ -4,17 +4,16 @@ title: IEnumVdsObject::Reset
 author: windows-sdk-content
 description: Resets to the beginning of the enumeration.
 old-location: base\ienumvdsobject_reset.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: cdc13cd3-bd6f-422e-89fe-244e7a7540bd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumVdsObject interface [VDS],Reset method, IEnumVdsObject.Reset, IEnumVdsObject::Reset, Reset, Reset method [VDS], Reset method [VDS],IEnumVdsObject interface, base.ienumvdsobject_reset, vds/IEnumVdsObject::Reset, vdshwprv/IEnumVdsObject::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEnumVdsObject.Reset
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumVdsObject::Reset

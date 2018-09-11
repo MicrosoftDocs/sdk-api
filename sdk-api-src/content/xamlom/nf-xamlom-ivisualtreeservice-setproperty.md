@@ -4,17 +4,16 @@ title: IVisualTreeService::SetProperty
 author: windows-sdk-content
 description: Sets a property value on a XAML element.
 old-location: xaml_diagnostics\ivisualtreeservice_setproperty.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: A9C6C67F-7767-454C-BA05-86C6B1E5D712
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVisualTreeService interface,SetProperty method, IVisualTreeService.SetProperty, IVisualTreeService::SetProperty, SetProperty, SetProperty method, SetProperty method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_setproperty, xamlom/IVisualTreeService::SetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualTreeService.SetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualTreeService::SetProperty

@@ -4,17 +4,16 @@ title: IRequiredExtensions::GetNextExtension
 author: windows-sdk-content
 description: Enables the snap-in to specify the next extension snap-in in its list of required extension snap-ins.
 old-location: mmc\irequiredextensions_getnextextension.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 09372a73-e67d-4f1f-805d-b64ca1501976
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetNextExtension, GetNextExtension method [MMC], GetNextExtension method [MMC],IRequiredExtensions interface, IRequiredExtensions interface [MMC],GetNextExtension method, IRequiredExtensions.GetNextExtension, IRequiredExtensions::GetNextExtension, _slate_irequiredextensions_getnextextension, mmc.irequiredextensions_getnextextension, mmc/IRequiredExtensions::GetNextExtension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRequiredExtensions.GetNextExtension
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRequiredExtensions::GetNextExtension

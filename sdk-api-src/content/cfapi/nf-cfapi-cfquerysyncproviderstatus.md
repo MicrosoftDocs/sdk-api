@@ -4,17 +4,16 @@ title: CfQuerySyncProviderStatus function
 author: windows-sdk-content
 description: Queries a sync provider to get the status of the provider.
 old-location: cloudapi\cfquerysyncproviderstatus.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 02E6197B-D84A-4E3F-A74C-F5DACAA60AF9
 ms.author: windowssdkdev
 ms.date: 02/27/2018
 ms.keywords: CfQuerySyncProviderStatus, CfQuerySyncProviderStatus function, cfapi/CfQuerySyncProviderStatus, cloudApi.cfquerysyncproviderstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_UPDATE_FLAGS
+req.lib: CldApi.lib
+req.dll: CldApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CfQuerySyncProviderStatus
 product: Windows
 targetos: Windows
-req.lib: CldApi.lib
-req.dll: CldApi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CfQuerySyncProviderStatus function

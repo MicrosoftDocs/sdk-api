@@ -4,17 +4,16 @@ title: IWTSVirtualChannelCallback::OnClose
 author: windows-sdk-content
 description: Notifies the user that the channel has been closed.
 old-location: termserv\iwtsvirtualchannelcallback_onclose.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 5038f2f9-980b-4383-a718-eb4e07e9cfe9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSVirtualChannelCallback interface [Remote Desktop Services],OnClose method, IWTSVirtualChannelCallback.OnClose, IWTSVirtualChannelCallback::OnClose, OnClose, OnClose method [Remote Desktop Services], OnClose method [Remote Desktop Services],IWTSVirtualChannelCallback interface, termserv.iwtsvirtualchannelcallback_onclose, tsvirtualchannels/IWTSVirtualChannelCallback::OnClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsvirtualchannels.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSVirtualChannelCallback.OnClose
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSVirtualChannelCallback::OnClose

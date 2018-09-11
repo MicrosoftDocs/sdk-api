@@ -4,17 +4,16 @@ title: IUpdateSearcher::GetTotalHistoryCount
 author: windows-sdk-content
 description: Returns the number of update events on the computer.
 old-location: wua\iupdatesearchergettotalhistorycount.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 895f60c2-c106-4088-9a4f-7c1d159d8a9b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetTotalHistoryCount, GetTotalHistoryCount method [Windows Update Agent], GetTotalHistoryCount method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],GetTotalHistoryCount method, IUpdateSearcher.GetTotalHistoryCount, IUpdateSearcher::GetTotalHistoryCount, wua.iupdatesearchergettotalhistorycount, wuapi/IUpdateSearcher::GetTotalHistoryCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUpdateSearcher.GetTotalHistoryCount
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateSearcher::GetTotalHistoryCount

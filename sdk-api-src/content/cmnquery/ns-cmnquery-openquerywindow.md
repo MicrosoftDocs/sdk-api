@@ -4,7 +4,7 @@ title: OPENQUERYWINDOW
 author: windows-sdk-content
 description: Used with the ICommonQuery::OpenQueryWindow method to initialize the directory service query dialog box.
 old-location: ad\openquerywindow.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 07ef2af1-230e-41d9-ad19-d002d0579d66
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cmnquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPENQUERYWINDOW, *LPOPENQUERYWINDOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OPENQUERYWINDOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: OPENQUERYWINDOW, *LPOPENQUERYWINDOW
+req.redist: 
 ---
 
 # OPENQUERYWINDOW structure

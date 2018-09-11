@@ -4,17 +4,16 @@ title: ID2D1RenderTarget::GetDpi
 author: windows-sdk-content
 description: Return the render target's dots per inch (DPI).
 old-location: direct2d\ID2D1RenderTarget_GetDpi.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 72a25b78-96fd-42bf-9e71-6bb80efea0ac
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDpi, GetDpi method [Direct2D], GetDpi method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetDpi method, ID2D1RenderTarget.GetDpi, ID2D1RenderTarget::GetDpi, d2d1/ID2D1RenderTarget::GetDpi, direct2d.ID2D1RenderTarget_GetDpi
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1RenderTarget.GetDpi
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1RenderTarget::GetDpi

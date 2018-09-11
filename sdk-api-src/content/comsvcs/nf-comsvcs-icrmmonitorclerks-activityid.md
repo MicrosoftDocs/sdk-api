@@ -4,17 +4,16 @@ title: ICrmMonitorClerks::ActivityId
 author: windows-sdk-content
 description: Retrieves the activity ID of the CRM Worker for the specified index.
 old-location: cos\icrmmonitorclerks_activityid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 19a242a6-ce21-4ce5-984e-cc2220476e2b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ActivityId, ActivityId method [COM+], ActivityId method [COM+],ICrmMonitorClerks interface, ICrmMonitorClerks interface [COM+],ActivityId method, ICrmMonitorClerks.ActivityId, ICrmMonitorClerks::ActivityId, _dtc_ICrmMonitorClerks_ActivityId, comsvcs/ICrmMonitorClerks::ActivityId, cos.icrmmonitorclerks_activityid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmMonitorClerks.ActivityId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmMonitorClerks::ActivityId

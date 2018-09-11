@@ -4,17 +4,16 @@ title: IFsrmPropertyDefinition2::get_PropertyDefinitionFlags
 author: windows-sdk-content
 description: Contains the flags for the property definition.
 old-location: fsrm\ifsrmpropertydefinition2_propertydefinitionflags.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 35eb6597-b358-4084-99dc-931bad8a4425
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmPropertyDefinition2 interface [File Server Resource Manager],PropertyDefinitionFlags property, IFsrmPropertyDefinition2.PropertyDefinitionFlags, IFsrmPropertyDefinition2.get_PropertyDefinitionFlags, IFsrmPropertyDefinition2::PropertyDefinitionFlags, IFsrmPropertyDefinition2::get_PropertyDefinitionFlags, PropertyDefinitionFlags property [File Server Resource Manager], PropertyDefinitionFlags property [File Server Resource Manager],IFsrmPropertyDefinition2 interface, fs.ifsrmpropertydefinition2_propertydefinitionflags, fsrm.ifsrmpropertydefinition2_propertydefinitionflags, fsrmpipeline/IFsrmPropertyDefinition2::PropertyDefinitionFlags, fsrmpipeline/IFsrmPropertyDefinition2::get_PropertyDefinitionFlags, get_PropertyDefinitionFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmPropertyDefinition2.get_PropertyDefinitionFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPropertyDefinition2::get_PropertyDefinitionFlags

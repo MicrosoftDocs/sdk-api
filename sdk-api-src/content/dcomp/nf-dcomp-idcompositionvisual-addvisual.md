@@ -4,17 +4,16 @@ title: IDCompositionVisual::AddVisual
 author: windows-sdk-content
 description: Adds a new child visual to the children list of this visual.
 old-location: directcomp\idcompositionvisual_addvisual.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: e1124df5-7795-49c3-a640-f218cfdd4f1d
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: AddVisual, AddVisual method [DirectComposition], AddVisual method [DirectComposition],IDCompositionVisual interface, IDCompositionVisual interface [DirectComposition],AddVisual method, IDCompositionVisual.AddVisual, IDCompositionVisual::AddVisual, dcomp/IDCompositionVisual::AddVisual, directcomp.idcompositionvisual_addvisual
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionVisual.AddVisual
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionVisual::AddVisual

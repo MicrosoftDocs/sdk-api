@@ -4,17 +4,16 @@ title: ISettingsResult::GetErrorCode
 author: windows-sdk-content
 description: Returns the HRESULT error code value.
 old-location: smi\isettingsresult_geterrorcode.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: c0044133-480e-4b40-ad3f-b3d65e259029
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetErrorCode, GetErrorCode method [SMI], GetErrorCode method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetErrorCode method, ISettingsResult.GetErrorCode, ISettingsResult::GetErrorCode, smi.isettingsresult_geterrorcode, wcmconfig/ISettingsResult::GetErrorCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsResult.GetErrorCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsResult::GetErrorCode

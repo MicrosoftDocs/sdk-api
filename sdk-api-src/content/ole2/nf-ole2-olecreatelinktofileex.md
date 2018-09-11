@@ -4,17 +4,16 @@ title: OleCreateLinkToFileEx function
 author: windows-sdk-content
 description: Extends OleCreateLinkToFile functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentations or data, instead of the single format supported by OleCreateLinkToFile.
 old-location: com\olecreatelinktofileex.htm
-old-project: com
+tech.root: com
 ms.assetid: 9a333bac-8ee3-4941-8e4b-78a2befceff8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleCreateLinkToFileEx, OleCreateLinkToFileEx function [COM], _ole_OleCreateLinkToFileEx, com.olecreatelinktofileex, ole2/OleCreateLinkToFileEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OleCreateLinkToFileEx
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleCreateLinkToFileEx function

@@ -4,17 +4,16 @@ title: "_DXGI_OFFER_RESOURCE_PRIORITY"
 author: windows-sdk-content
 description: Identifies the importance of a resource’s content when you call the IDXGIDevice2::OfferResources method to offer the resource.
 old-location: direct3ddxgi\_dxgi_offer_resource_priority.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: BDC0AAA3-2B72-4732-82CE-458C14B0D993
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGI_OFFER_RESOURCE_PRIORITY, DXGI_OFFER_RESOURCE_PRIORITY enumeration [DXGI], DXGI_OFFER_RESOURCE_PRIORITY_HIGH, DXGI_OFFER_RESOURCE_PRIORITY_LOW, DXGI_OFFER_RESOURCE_PRIORITY_NORMAL, _DXGI_OFFER_RESOURCE_PRIORITY, direct3ddxgi._dxgi_offer_resource_priority, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_HIGH, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_LOW, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_NORMAL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_OFFER_RESOURCE_PRIORITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.redist: 
 ---
 
 # _DXGI_OFFER_RESOURCE_PRIORITY enumeration

@@ -4,17 +4,16 @@ title: ID2D1DeviceContext1::CreateStrokedGeometryRealization
 author: windows-sdk-content
 description: Creates a device-dependent representation of the stroke of a geometry that can be subsequently rendered.
 old-location: direct2d\id2d1devicecontext1_createstrokedgeometryrealization.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 455EE223-4CEA-4FBA-8885-B0BA6B465C05
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateStrokedGeometryRealization, CreateStrokedGeometryRealization method [Direct2D], CreateStrokedGeometryRealization method [Direct2D],ID2D1DeviceContext1 interface, ID2D1DeviceContext1 interface [Direct2D],CreateStrokedGeometryRealization method, ID2D1DeviceContext1.CreateStrokedGeometryRealization, ID2D1DeviceContext1::CreateStrokedGeometryRealization, d2d1_2/ID2D1DeviceContext1::CreateStrokedGeometryRealization, direct2d.id2d1devicecontext1_createstrokedgeometryrealization
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_RENDERING_PRIORITY
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext1.CreateStrokedGeometryRealization
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext1::CreateStrokedGeometryRealization

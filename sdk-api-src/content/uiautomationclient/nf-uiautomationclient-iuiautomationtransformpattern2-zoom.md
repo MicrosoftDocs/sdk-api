@@ -4,17 +4,16 @@ title: IUIAutomationTransformPattern2::Zoom
 author: windows-sdk-content
 description: Zooms the viewport of the control.
 old-location: winauto\uiauto_IUIAutomationTransformPattern2_Zoom.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 7CCDDF69-32FA-486C-B319-4D2F7A2407B4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationTransformPattern2 interface [Windows Accessibility],Zoom method, IUIAutomationTransformPattern2.Zoom, IUIAutomationTransformPattern2::Zoom, Zoom, Zoom method [Windows Accessibility], Zoom method [Windows Accessibility],IUIAutomationTransformPattern2 interface, uiautomationclient/IUIAutomationTransformPattern2::Zoom, winauto.uiauto_IUIAutomationTransformPattern2_Zoom
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTransformPattern2.Zoom
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTransformPattern2::Zoom
@@ -62,7 +60,7 @@ Zooms the viewport of the control.
 
 ### -param zoomValue
 
-
+TBD
 
 
 

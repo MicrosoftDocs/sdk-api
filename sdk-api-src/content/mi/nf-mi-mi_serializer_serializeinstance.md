@@ -4,17 +4,16 @@ title: MI_Serializer_SerializeInstance function
 author: windows-sdk-content
 description: Serializes an MI_Instance into a buffer in the format specified when the serializer was created. Options can be passed into the flags to control if the class is also serialized into the buffer as well as the instance.
 old-location: wmi_v2\mi_serializer_serializeinstance.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 45c5033a-b2ef-4fb6-a09e-54b3cd9fc99f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: MI_Serializer_SerializeInstance, MI_Serializer_SerializeInstance function [Windows Management Infrastructure (MI)], mi/MI_Serializer_SerializeInstance, wmi_v2.mi_serializer_serializeinstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_Type
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_Serializer_SerializeInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # MI_Serializer_SerializeInstance function

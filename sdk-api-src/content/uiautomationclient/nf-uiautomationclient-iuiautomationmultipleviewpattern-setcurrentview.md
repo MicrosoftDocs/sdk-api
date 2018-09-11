@@ -4,17 +4,16 @@ title: IUIAutomationMultipleViewPattern::SetCurrentView
 author: windows-sdk-content
 description: Sets the view of the control.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_SetCurrentView.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 43da5f4a-e6ce-4cc3-8981-85189d5e5158
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationMultipleViewPattern interface [Windows Accessibility],SetCurrentView method, IUIAutomationMultipleViewPattern.SetCurrentView, IUIAutomationMultipleViewPattern::SetCurrentView, SetCurrentView, SetCurrentView method [Windows Accessibility], SetCurrentView method [Windows Accessibility],IUIAutomationMultipleViewPattern interface, uiauto.uiauto_IUIAutomationMultipleViewPattern_SetCurrentView, uiauto_IUIAutomationMultipleViewPattern_SetCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::SetCurrentView, winauto.uiauto_IUIAutomationMultipleViewPattern_SetCurrentView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationMultipleViewPattern.SetCurrentView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationMultipleViewPattern::SetCurrentView

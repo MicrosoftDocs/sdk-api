@@ -4,7 +4,7 @@ title: "_IP_INTERFACE_INFO"
 author: windows-sdk-content
 description: The IP_INTERFACE_INFO structure contains a list of the network interface adapters with IPv4 enabled on the local system.
 old-location: iphlp\ip_interface_info.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 287a4574-0a0f-4f20-932b-22bb6f40401d
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_INTERFACE_INFO, *PIP_INTERFACE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_INTERFACE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IP_INTERFACE_INFO, *PIP_INTERFACE_INFO
+req.redist: 
 ---
 
 # _IP_INTERFACE_INFO structure

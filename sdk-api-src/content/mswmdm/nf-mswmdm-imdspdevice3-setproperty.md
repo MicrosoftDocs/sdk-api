@@ -4,17 +4,16 @@ title: IMDSPDevice3::SetProperty
 author: windows-sdk-content
 description: The SetProperty method sets a specific device property that is writable.
 old-location: wmdm\imdspdevice3_setproperty.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 72bbf8c3-a7e1-4289-b5b0-a57f50d6f46e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPDevice3 interface [windows Media Device Manager],SetProperty method, IMDSPDevice3.SetProperty, IMDSPDevice3::SetProperty, IMDSPDevice3TransferSessionEnd, SetProperty, SetProperty method [windows Media Device Manager], SetProperty method [windows Media Device Manager],IMDSPDevice3 interface, mswmdm/IMDSPDevice3::SetProperty, wmdm.imdspdevice3_setproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPDevice3.SetProperty
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDevice3::SetProperty

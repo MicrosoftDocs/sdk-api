@@ -4,17 +4,16 @@ title: IX509PolicyServerListManager::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IX509PolicyServerUrl objects in the collection.
 old-location: security\ix509policyserverlistmanager_count.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 77211dd5-c6df-428b-8f2d-410485109548
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Count property [Security], Count property [Security],IX509PolicyServerListManager interface, IX509PolicyServerListManager interface [Security],Count property, IX509PolicyServerListManager.Count, IX509PolicyServerListManager.get_Count, IX509PolicyServerListManager::Count, IX509PolicyServerListManager::get_Count, certenroll/IX509PolicyServerListManager::Count, certenroll/IX509PolicyServerListManager::get_Count, get_Count, security.ix509policyserverlistmanager_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509PolicyServerListManager.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PolicyServerListManager::get_Count

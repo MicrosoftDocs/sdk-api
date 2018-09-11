@@ -4,17 +4,16 @@ title: IMoniker::IsRunning
 author: windows-sdk-content
 description: Determines whether the object identified by this moniker is currently loaded and running.
 old-location: com\imoniker_isrunning.htm
-old-project: com
+tech.root: com
 ms.assetid: 081b394c-1fe8-4519-999e-b3985a77bd9c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMoniker interface [COM],IsRunning method, IMoniker.IsRunning, IMoniker::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IMoniker interface, _com_imoniker_isrunning, com.imoniker_isrunning, objidl/IMoniker::IsRunning
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.IsRunning
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::IsRunning

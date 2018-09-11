@@ -4,17 +4,16 @@ title: PeerIdentityDelete function
 author: windows-sdk-content
 description: The PeerIdentityDelete function permanently deletes a peer identity. This includes removing all certificates, private keys, and all group information associated with a specified peer identity.
 old-location: p2p\peeridentitydelete.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 9738f6b1-cd88-4950-bab1-f97613a49e03
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerIdentityDelete, PeerIdentityDelete function [Peer Networking], p2p.peeridentitydelete, p2p/PeerIdentityDelete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerIdentityDelete
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerIdentityDelete function

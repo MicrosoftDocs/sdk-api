@@ -4,17 +4,16 @@ title: IShellFolder::EnumObjects
 author: windows-sdk-content
 description: Enables a client to determine the contents of a folder by creating an item identifier enumeration object and returning its IEnumIDList interface. The methods supported by that interface can then be used to enumerate the folder's contents.
 old-location: shell\IShellFolder_EnumObjects.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 248bec8b-0bf4-47d5-adb3-31a685a2c359
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: EnumObjects, EnumObjects method [Windows Shell], EnumObjects method [Windows Shell],IShellFolder interface, EnumObjects method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],EnumObjects method, IShellFolder.EnumObjects, IShellFolder2 interface [Windows Shell],EnumObjects method, IShellFolder2::EnumObjects, IShellFolder::EnumObjects, _win32_IShellFolder_EnumObjects, shell.IShellFolder_EnumObjects, shobjidl_core/IShellFolder2::EnumObjects, shobjidl_core/IShellFolder::EnumObjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IShellFolder2.EnumObjects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolder::EnumObjects
@@ -63,7 +61,7 @@ Enables a client to determine the contents of a folder by creating an item ident
 
 ### -param hwnd
 
-
+TBD
 
 
 ### -param grfFlags [in]

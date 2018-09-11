@@ -4,7 +4,7 @@ title: USN_RECORD_V3
 author: windows-sdk-content
 description: Contains the information for an update sequence number (USN) change journal version 3.0 record.
 old-location: fs\usn_record_v3.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 6d95c5d1-6c6b-498f-a00d-eaa540e8b15b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USN_RECORD_V3, *PUSN_RECORD_V3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USN_RECORD_V3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: USN_RECORD_V3, *PUSN_RECORD_V3
+req.redist: 
 ---
 
 # USN_RECORD_V3 structure

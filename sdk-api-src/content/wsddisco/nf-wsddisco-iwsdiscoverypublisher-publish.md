@@ -4,17 +4,16 @@ title: IWSDiscoveryPublisher::Publish
 author: windows-sdk-content
 description: Announces the presence of a network host by sending a Hello message.
 old-location: ncd\iwsdiscoverypublisher_publish_method.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 71c6e4af-128a-4418-9c3b-f64aa734fb50
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDiscoveryPublisher interface,Publish method, IWSDiscoveryPublisher.Publish, IWSDiscoveryPublisher::Publish, Publish, Publish method, Publish method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_publish_method, wsddisco/IWSDiscoveryPublisher::Publish
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDiscoveryPublisher.Publish
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDiscoveryPublisher::Publish

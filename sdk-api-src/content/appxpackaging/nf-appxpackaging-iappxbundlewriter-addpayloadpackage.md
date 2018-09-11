@@ -4,17 +4,16 @@ title: IAppxBundleWriter::AddPayloadPackage
 author: windows-sdk-content
 description: Adds a new app package to the bundle.
 old-location: appxpkg\iappxbundlewriter_addpayloadpackage.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 4772621D-2A8E-439B-8AD7-01A5BD31002B
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: AddPayloadPackage, AddPayloadPackage method [App packaging and management], AddPayloadPackage method [App packaging and management],IAppxBundleWriter interface, IAppxBundleWriter interface [App packaging and management],AddPayloadPackage method, IAppxBundleWriter.AddPayloadPackage, IAppxBundleWriter::AddPayloadPackage, appxpackaging/IAppxBundleWriter::AddPayloadPackage, appxpkg.iappxbundlewriter_addpayloadpackage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBundleWriter.AddPayloadPackage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBundleWriter::AddPayloadPackage

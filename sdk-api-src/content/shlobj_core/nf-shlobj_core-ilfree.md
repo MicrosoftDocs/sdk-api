@@ -4,17 +4,16 @@ title: ILFree function
 author: windows-sdk-content
 description: Frees an ITEMIDLIST structure allocated by the Shell.
 old-location: shell\ILFree.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3457f36e-fdfd-44a4-90ca-a86f00bc9f36
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: HashTable_CoTaskMemFreeCB, ILFree, ILFree function [Windows Shell], _win32_ILFree, shell.ILFree, shlobj_core/HashTable_CoTaskMemFreeCB, shlobj_core/ILFree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - HashTable_CoTaskMemFreeCB
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ILFree function

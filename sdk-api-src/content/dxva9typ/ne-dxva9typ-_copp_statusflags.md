@@ -4,7 +4,7 @@ title: "_COPP_StatusFlags"
 author: windows-sdk-content
 description: Specifies the status of a Certified Output Protection Protocol (COPP) session.
 old-location: dshow\copp_statusflags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9109bb2c-1422-4629-b2df-ac877d3cd86e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva9typ.h
 req.include-header: Dxva.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COPP_StatusFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COPP_StatusFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: COPP_StatusFlags
+req.redist: 
 ---
 
 # _COPP_StatusFlags enumeration

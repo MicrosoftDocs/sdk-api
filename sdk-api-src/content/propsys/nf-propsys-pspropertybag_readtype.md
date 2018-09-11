@@ -4,17 +4,16 @@ title: PSPropertyBag_ReadType function
 author: windows-sdk-content
 description: Reads the type of data value of a property that is stored in a property bag.
 old-location: properties\PSPropertyBag_ReadType.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 826038F7-FD93-474e-BCA7-910E214F3E01
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_ReadType, PSPropertyBag_ReadType function [Windows Properties], properties.PSPropertyBag_ReadType, propsys/PSPropertyBag_ReadType, shell.PSPropertyBag_ReadType, shell_PSPropertyBag_ReadType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSPropertyBag_ReadType
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSPropertyBag_ReadType function

@@ -4,17 +4,16 @@ title: DhcpSetServerBindingInfo function
 author: windows-sdk-content
 description: The DhcpSetServerBindingInfo function sets endpoint bindings for the DHCP server.
 old-location: dhcp\dhcpsetserverbindinginfo.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 6291e266-e9d5-4899-8b34-53695f49a1b8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DHCP_ENDPOINT_FLAG_CANT_MODIFY, DhcpSetServerBindingInfo, DhcpSetServerBindingInfo function [DHCP], dhcp.dhcpsetserverbindinginfo, dhcpsapi/DhcpSetServerBindingInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpSetServerBindingInfo
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpSetServerBindingInfo function

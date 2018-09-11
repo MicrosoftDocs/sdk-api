@@ -4,17 +4,16 @@ title: MonikerCommonPrefixWith function
 author: windows-sdk-content
 description: Creates a new moniker based on the common prefix that this moniker (the one comprising the data of this moniker object) shares with another moniker.
 old-location: com\monikercommonprefixwith.htm
-old-project: com
+tech.root: com
 ms.assetid: 6caa8c2e-c3d6-45d5-8efe-74d6a2c4a926
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MonikerCommonPrefixWith, MonikerCommonPrefixWith function [COM], _com_MonikerCommonPrefixWith, com.monikercommonprefixwith, objbase/MonikerCommonPrefixWith
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MonikerCommonPrefixWith
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # MonikerCommonPrefixWith function

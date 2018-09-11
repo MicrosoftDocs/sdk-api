@@ -4,17 +4,16 @@ title: DrtDeleteIpv6UdpTransport function
 author: windows-sdk-content
 description: DrtDeleteIpv6UdpTransport function deletes a transport based on the IPv6 UDP protocol.
 old-location: p2p\drtdeleteipv6udptransport.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 9b078f63-36b1-448b-b0c2-d452699157d8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtDeleteIpv6UdpTransport, DrtDeleteIpv6UdpTransport function [Peer Networking], drt/DrtDeleteIpv6UdpTransport, p2p.drtdeleteipv6udptransport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drttransport.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtDeleteIpv6UdpTransport
 product: Windows
 targetos: Windows
-req.lib: Drttransport.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtDeleteIpv6UdpTransport function

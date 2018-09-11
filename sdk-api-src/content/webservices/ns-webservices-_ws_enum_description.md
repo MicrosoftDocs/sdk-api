@@ -4,17 +4,16 @@ title: "_WS_ENUM_DESCRIPTION"
 author: windows-sdk-content
 description: A type description that is used with WS_ENUM_TYPE and is required. It provides information used in serializing and deserializing values of an enumeration.
 old-location: wsw\ws_enum_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: cf7c9254-c806-4ada-8852-beb6be5e81d9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_ENUM_DESCRIPTION, WS_ENUM_DESCRIPTION structure [Web Services for Windows], _WS_ENUM_DESCRIPTION, webservices/WS_ENUM_DESCRIPTION, wsw.ws_enum_description
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_ENUM_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_ENUM_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_ENUM_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_ENUM_DESCRIPTION structure

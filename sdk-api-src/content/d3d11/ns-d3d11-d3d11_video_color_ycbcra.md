@@ -4,7 +4,7 @@ title: D3D11_VIDEO_COLOR_YCbCrA
 author: windows-sdk-content
 description: Specifies a YCbCr color value.
 old-location: mf\d3d11_video_color_ycbcra.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 242D6032-62E5-4915-B074-6E595A12F912
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_COLOR_YCbCrA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VIDEO_COLOR_YCbCrA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VIDEO_COLOR_YCbCrA
+req.redist: 
 ---
 
 # D3D11_VIDEO_COLOR_YCbCrA structure

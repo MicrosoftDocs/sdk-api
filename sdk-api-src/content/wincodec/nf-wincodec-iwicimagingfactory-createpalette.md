@@ -4,17 +4,16 @@ title: IWICImagingFactory::CreatePalette
 author: windows-sdk-content
 description: Creates a new instance of the IWICPalette class.
 old-location: wic\_wic_codec_iwicimagingfactory_createpalette.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 135440ee-ea70-40da-9ee1-618a8e10170a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreatePalette, CreatePalette method [Windows Imaging Component], CreatePalette method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreatePalette method, IWICImagingFactory.CreatePalette, IWICImagingFactory::CreatePalette, _wic_codec_iwicimagingfactory_createpalette, wic._wic_codec_iwicimagingfactory_createpalette, wincodec/IWICImagingFactory::CreatePalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICImagingFactory.CreatePalette
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICImagingFactory::CreatePalette

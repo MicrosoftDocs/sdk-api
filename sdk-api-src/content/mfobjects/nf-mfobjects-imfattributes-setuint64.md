@@ -4,17 +4,16 @@ title: IMFAttributes::SetUINT64
 author: windows-sdk-content
 description: Associates a UINT64 value with a key.
 old-location: mf\imfattributes_setuint64.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 817ed1c1-16ad-4520-a1a0-a93563936b50
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 817ed1c1-16ad-4520-a1a0-a93563936b50, IMFAttributes interface [Media Foundation],SetUINT64 method, IMFAttributes.SetUINT64, IMFAttributes::SetUINT64, SetUINT64, SetUINT64 method [Media Foundation], SetUINT64 method [Media Foundation],IMFAttributes interface, mf.imfattributes_setuint64, mfobjects/IMFAttributes::SetUINT64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAttributes.SetUINT64
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAttributes::SetUINT64

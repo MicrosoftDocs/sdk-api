@@ -4,7 +4,7 @@ title: MF_SOURCE_READER_FLAG
 author: windows-sdk-content
 description: Contains flags that indicate the status of the IMFSourceReader::ReadSample method.
 old-location: mf\mf_source_reader_flag.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8981a682-3c0b-458b-910a-d1462ed73e64
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_SOURCE_READER_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_SOURCE_READER_FLAG
+req.redist: 
 ---
 
 # MF_SOURCE_READER_FLAG enumeration

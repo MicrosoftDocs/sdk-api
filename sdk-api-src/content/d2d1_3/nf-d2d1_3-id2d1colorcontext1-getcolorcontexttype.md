@@ -4,17 +4,16 @@ title: ID2D1ColorContext1::GetColorContextType
 author: windows-sdk-content
 description: Retrieves the color context type.
 old-location: direct2d\id2d1colorcontext1_getcolorcontexttype.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 9A9E4EE4-943B-4332-B9F1-269CF629A8FA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetColorContextType, GetColorContextType method [Direct2D], GetColorContextType method [Direct2D],ID2D1ColorContext1 interface, ID2D1ColorContext1 interface [Direct2D],GetColorContextType method, ID2D1ColorContext1.GetColorContextType, ID2D1ColorContext1::GetColorContextType, d2d1_3/ID2D1ColorContext1::GetColorContextType, direct2d.id2d1colorcontext1_getcolorcontexttype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1ColorContext1.GetColorContextType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1ColorContext1::GetColorContextType

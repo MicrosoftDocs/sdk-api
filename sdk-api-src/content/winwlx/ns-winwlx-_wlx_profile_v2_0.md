@@ -4,17 +4,16 @@ title: "_WLX_PROFILE_V2_0"
 author: windows-sdk-content
 description: Contains profile information in addition to the information provided by WLX_PROFILE_V1_0.
 old-location: security\wlx_profile_v2_0.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 6ecec95f-e663-4fb3-b2d4-82984f31cb62
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWLX_PROFILE_V2_0, PWLX_PROFILE_V2_0, PWLX_PROFILE_V2_0 structure pointer [Security], WLX_PROFILE_V2_0, WLX_PROFILE_V2_0 structure [Security], _WLX_PROFILE_V2_0, _gina_wlx_profile_v2_0, security.wlx_profile_v2_0, winwlx/PWLX_PROFILE_V2_0, winwlx/WLX_PROFILE_V2_0"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLX_PROFILE_V2_0, *PWLX_PROFILE_V2_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLX_PROFILE_V2_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLX_PROFILE_V2_0, *PWLX_PROFILE_V2_0
+req.redist: 
 ---
 
 # _WLX_PROFILE_V2_0 structure

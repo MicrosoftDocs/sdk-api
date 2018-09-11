@@ -4,17 +4,16 @@ title: ISyncMgrSynchronizeCallback
 author: windows-sdk-content
 description: Exposes methods that manage the synchronization process.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1c817a21-be91-43af-86c8-aa7909ae2fa2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], ISyncMgrSynchronizeCallback interface [Windows Shell],described, mobsync/ISyncMgrSynchronizeCallback, shell.syncmgr_isyncmgrsynchronizecallback, syncmgr.isyncmgrsynchronizecallback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRSTATUS
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSynchronizeCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mobsync.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSynchronizeCallback interface

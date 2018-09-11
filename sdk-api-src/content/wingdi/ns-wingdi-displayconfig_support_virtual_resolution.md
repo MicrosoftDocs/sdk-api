@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 author: windows-sdk-content
 description: The DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure contains information on the state of virtual resolution support for the monitor.
 old-location: display\displayconfig_support_virtual_resolution.htm
-old-project: display
+tech.root: display
 ms.assetid: D9208D00-F437-4B2E-8C39-044F75088659
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10 Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
+req.redist: 
 ---
 
 # DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure

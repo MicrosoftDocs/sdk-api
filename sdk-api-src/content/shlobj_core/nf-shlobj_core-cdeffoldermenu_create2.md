@@ -4,17 +4,16 @@ title: CDefFolderMenu_Create2 function
 author: windows-sdk-content
 description: Creates a context menu for a selected group of file folder objects.
 old-location: shell\CDefFolderMenu_Create2.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7b5e012d-1c8b-42c5-8181-9923fd389fc5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CDefFolderMenu_Create2, CDefFolderMenu_Create2 function [Windows Shell], _win32_CDefFolderMenu_Create2, shell.CDefFolderMenu_Create2, shlobj_core/CDefFolderMenu_Create2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CDefFolderMenu_Create2
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.00 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CDefFolderMenu_Create2 function

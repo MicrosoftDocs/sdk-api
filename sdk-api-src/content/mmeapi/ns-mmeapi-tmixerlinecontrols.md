@@ -4,7 +4,7 @@ title: tMIXERLINECONTROLS
 author: windows-sdk-content
 description: The MIXERLINECONTROLS structure contains information about the controls of an audio line.
 old-location: multimedia\mixerlinecontrols.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: a028785b-2d58-41da-825b-32e98fb44405
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIXERLINECONTROLS, *PMIXERLINECONTROLS, *LPMIXERLINECONTROLS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIXERLINECONTROLS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIXERLINECONTROLS, *PMIXERLINECONTROLS, *LPMIXERLINECONTROLS
+req.redist: 
 ---
 
 # tMIXERLINECONTROLS structure

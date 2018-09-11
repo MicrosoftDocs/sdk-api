@@ -4,7 +4,7 @@ title: IOCTL_DISK_REASSIGN_BLOCKS
 author: windows-sdk-content
 description: Directs the disk device to map one or more blocks to its spare-block pool.
 old-location: fs\ioctl_disk_reassign_blocks.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 57343bc9-9dd4-47a3-8130-07ea330eb4d3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_THROUGH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_DISK_REASSIGN_BLOCKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_DISK_REASSIGN_BLOCKS IOCTL

@@ -4,17 +4,16 @@ title: "_NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG"
 author: windows-sdk-content
 description: A client application passes the NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG structure to the NetValidatePasswordPolicy function when the application requests a password change validation.
 old-location: netmgmt\net_validate_password_change_input_arg.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 09404998-81c5-400c-9d99-a0a4bb4095bf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG structure [Network Management], PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG structure pointer [Network Management], _NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, lmaccess/NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, lmaccess/PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, netmgmt.net_validate_password_change_input_arg"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, *PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, *PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG
+req.redist: 
 ---
 
 # _NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG structure

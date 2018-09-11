@@ -4,7 +4,7 @@ title: ADDRESS_CAPABILITY_STRING
 author: windows-sdk-content
 description: The ADDRESS_CAPABILITY_STRING enum is used to check on address capabilities which are described by strings.
 old-location: tapi3\address_capability_string.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c0afe710-ae6d-4f32-a691-956f8d6fea05
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADDRESS_CAPABILITY_STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADDRESS_CAPABILITY_STRING
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: ADDRESS_CAPABILITY_STRING
+req.redist: 
 ---
 
 # ADDRESS_CAPABILITY_STRING enumeration

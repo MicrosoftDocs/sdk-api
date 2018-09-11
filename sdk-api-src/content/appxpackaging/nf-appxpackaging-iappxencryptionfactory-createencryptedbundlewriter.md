@@ -4,17 +4,16 @@ title: IAppxEncryptionFactory::CreateEncryptedBundleWriter
 author: windows-sdk-content
 description: Creates a write-only bundle object to which encrypted Windows app packages can be added.
 old-location: appxpkg\iappxencryptionfactory_createencryptedbundlewriter.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 01FF3DF1-CCA8-49BF-9876-57A4DDA658D0
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: CreateEncryptedBundleWriter, CreateEncryptedBundleWriter method [App packaging and management], CreateEncryptedBundleWriter method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],CreateEncryptedBundleWriter method, IAppxEncryptionFactory.CreateEncryptedBundleWriter, IAppxEncryptionFactory::CreateEncryptedBundleWriter, appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleWriter, appxpkg.iappxencryptionfactory_createencryptedbundlewriter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxEncryptionFactory.CreateEncryptedBundleWriter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxEncryptionFactory::CreateEncryptedBundleWriter
@@ -81,7 +80,7 @@ Key info containing the base encryption key and key ID for decrypting the bundle
 
 ### -param exemptedFiles
 
-
+TBD
 
 
 ### -param bundleWriter [out, retval]

@@ -4,7 +4,7 @@ title: "_FSCTL_QUERY_STORAGE_CLASSES_OUTPUT"
 author: windows-sdk-content
 description: Contains information for all tiers of a specific volume.
 old-location: fs\fsctl_query_storage_classes_output.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 376B457C-2D54-47D0-A80A-16A03DA6A2EA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, *PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, *PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+req.redist: 
 ---
 
 # _FSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure

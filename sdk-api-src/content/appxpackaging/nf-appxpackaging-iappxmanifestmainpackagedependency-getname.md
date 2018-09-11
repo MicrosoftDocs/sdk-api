@@ -4,17 +4,16 @@ title: IAppxManifestMainPackageDependency::GetName
 author: windows-sdk-content
 description: Gets the name of the main package dependency from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifestmainpackagedependency_getname.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 0D891C01-F149-4BF0-99E7-E2AAD6D781AD
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxManifestMainPackageDependency interface, IAppxManifestMainPackageDependency interface [App packaging and management],GetName method, IAppxManifestMainPackageDependency.GetName, IAppxManifestMainPackageDependency::GetName, appxpackaging/IAppxManifestMainPackageDependency::GetName, appxpkg.iappxmanifestmainpackagedependency_getname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxManifestMainPackageDependency.GetName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxManifestMainPackageDependency::GetName

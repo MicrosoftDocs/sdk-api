@@ -4,17 +4,16 @@ title: IRemoteDesktopClientSettings::RetrieveSettings
 author: windows-sdk-content
 description: Retrieves the entire RDP file as a string.
 old-location: termserv\iremotedesktopclientsettings_retrievesettings.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 5c28a172-42f3-4abd-9983-ee5acb1c9c78
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRemoteDesktopClientSettings interface [Remote Desktop Services],RetrieveSettings method, IRemoteDesktopClientSettings.RetrieveSettings, IRemoteDesktopClientSettings::RetrieveSettings, RetrieveSettings, RetrieveSettings method [Remote Desktop Services], RetrieveSettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, rdpappcontainerclient/IRemoteDesktopClientSettings::RetrieveSettings, termserv.iremotedesktopclientsettings_retrievesettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: SnapshotFormatType
+req.lib: 
+req.dll: MsTscAx.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRemoteDesktopClientSettings.RetrieveSettings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRemoteDesktopClientSettings::RetrieveSettings
@@ -65,7 +63,7 @@ Retrieves the entire RDP file as a string.
 
 ### -param rdpFileContents
 
-
+TBD
 
 
 

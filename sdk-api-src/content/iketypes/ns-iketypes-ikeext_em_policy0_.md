@@ -4,7 +4,7 @@ title: IKEEXT_EM_POLICY0_
 author: windows-sdk-content
 description: Is used to store AuthIP's extended mode negotiation policy.
 old-location: fwp\ikeext_em_policy0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 954a2bb8-eb54-4f41-8a0c-3f2af1190f57
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_EM_POLICY0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_EM_POLICY0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_EM_POLICY0
+req.redist: 
 ---
 
 # IKEEXT_EM_POLICY0_ structure

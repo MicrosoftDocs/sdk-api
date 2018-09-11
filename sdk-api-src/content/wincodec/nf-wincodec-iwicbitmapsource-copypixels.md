@@ -4,17 +4,16 @@ title: IWICBitmapSource::CopyPixels
 author: windows-sdk-content
 description: Instructs the object to produce pixels.
 old-location: wic\_wic_codec_iwicbitmapsource_copypixels.htm
-old-project: wic
+tech.root: wic
 ms.assetid: d4908a75-e7de-4b8f-bdc8-d86cf6b49f8c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],CopyPixels method, IWICBitmapSource.CopyPixels, IWICBitmapSource::CopyPixels, _wic_codec_iwicbitmapsource_copypixels, wic._wic_codec_iwicbitmapsource_copypixels, wincodec/IWICBitmapSource::CopyPixels
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapSource.CopyPixels
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapSource::CopyPixels

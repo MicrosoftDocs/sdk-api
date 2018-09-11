@@ -4,17 +4,16 @@ title: IDvbFrequencyListDescriptor::GetTag
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbfrequencylistdescriptor_gettag.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 05c607b4-c5de-4a57-93c0-412c85d9f2fa
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbFrequencyListDescriptor.GetTag, IDvbFrequencyListDescriptor::GetTag, IDvbFrequencyListDescriptorGetTag, dvbsiparser/IDvbFrequencyListDescriptor::GetTag, mstv.idvbfrequencylistdescriptor_gettag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbFrequencyListDescriptor.GetTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbFrequencyListDescriptor::GetTag

@@ -4,17 +4,16 @@ title: "_SECURITY_LOGON_TYPE"
 author: windows-sdk-content
 description: Indicates the type of logon requested by a logon process.
 old-location: security\security_logon_type.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: d775d782-9403-47b2-bb43-8f677db49eb9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECURITY_LOGON_TYPE, Batch, CachedInteractive, CachedRemoteInteractive, CachedUnlock, Interactive, Network, NetworkCleartext, NewCredentials, PSECURITY_LOGON_TYPE, PSECURITY_LOGON_TYPE enumeration pointer [Security], Proxy, RemoteInteractive, SECURITY_LOGON_TYPE, SECURITY_LOGON_TYPE enumeration [Security], Service, Unlock, _SECURITY_LOGON_TYPE, _lsa_security_logon_type, ntsecapi/Batch, ntsecapi/CachedInteractive, ntsecapi/CachedRemoteInteractive, ntsecapi/CachedUnlock, ntsecapi/Interactive, ntsecapi/Network, ntsecapi/NetworkCleartext, ntsecapi/NewCredentials, ntsecapi/PSECURITY_LOGON_TYPE, ntsecapi/Proxy, ntsecapi/RemoteInteractive, ntsecapi/SECURITY_LOGON_TYPE, ntsecapi/Service, ntsecapi/Unlock, security.security_logon_type"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECURITY_LOGON_TYPE, *PSECURITY_LOGON_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECURITY_LOGON_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECURITY_LOGON_TYPE, *PSECURITY_LOGON_TYPE
+req.redist: 
 ---
 
 # _SECURITY_LOGON_TYPE enumeration

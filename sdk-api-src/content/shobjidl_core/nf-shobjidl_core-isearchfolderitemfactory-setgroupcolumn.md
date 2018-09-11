@@ -4,17 +4,16 @@ title: ISearchFolderItemFactory::SetGroupColumn
 author: windows-sdk-content
 description: Sets a group column, as specified. If no group column is specified, no grouping occurs.
 old-location: shell\ISearchFolderItemFactory_SetGroupColumn.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 52967ebe-3a8c-4696-aa5d-251a4cf58469
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetGroupColumn method, ISearchFolderItemFactory.SetGroupColumn, ISearchFolderItemFactory::SetGroupColumn, SetGroupColumn, SetGroupColumn method [Windows Shell], SetGroupColumn method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetGroupColumn, shell.ISearchFolderItemFactory_SetGroupColumn, shobjidl_core/ISearchFolderItemFactory::SetGroupColumn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchFolderItemFactory.SetGroupColumn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchFolderItemFactory::SetGroupColumn

@@ -4,7 +4,7 @@ title: ID3D12DebugCommandQueue
 author: windows-sdk-content
 description: Provides methods to monitor and debug a command queue.
 old-location: direct3d12\id3d12debugcommandqueue.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 383F3B25-10C6-464C-AB79-D35F6FD3E879
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12DebugCommandQueue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12DebugCommandQueue interface

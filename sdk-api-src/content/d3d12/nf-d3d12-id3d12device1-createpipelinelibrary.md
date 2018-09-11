@@ -4,17 +4,16 @@ title: ID3D12Device1::CreatePipelineLibrary
 author: windows-sdk-content
 description: Creates a cached pipeline library.
 old-location: direct3d12\id3d12device1_createpipelinelibrary.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 572A95A6-A02F-4512-9BDE-2A8CA58A0A27
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreatePipelineLibrary, CreatePipelineLibrary method, CreatePipelineLibrary method,ID3D12Device1 interface, ID3D12Device1 interface,CreatePipelineLibrary method, ID3D12Device1.CreatePipelineLibrary, ID3D12Device1::CreatePipelineLibrary, d3d12/ID3D12Device1::CreatePipelineLibrary, direct3d12.id3d12device1_createpipelinelibrary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12Device1.CreatePipelineLibrary
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12Device1::CreatePipelineLibrary

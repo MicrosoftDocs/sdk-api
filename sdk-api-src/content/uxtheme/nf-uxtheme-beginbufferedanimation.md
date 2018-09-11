@@ -4,17 +4,16 @@ title: BeginBufferedAnimation function
 author: windows-sdk-content
 description: Begins a buffered animation operation. The animation consists of a cross-fade between the contents of two buffers over a specified period of time.
 old-location: controls\BeginBufferedAnimation.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginbufferedanimation.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BeginBufferedAnimation, BeginBufferedAnimation function [Windows Controls], _shell_BeginBufferedAnimation, _shell_BeginBufferedAnimation_cpp, controls.BeginBufferedAnimation, controls._shell_BeginBufferedAnimation, uxtheme/BeginBufferedAnimation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: 
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BeginBufferedAnimation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # BeginBufferedAnimation function

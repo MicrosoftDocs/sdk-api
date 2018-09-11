@@ -4,17 +4,16 @@ title: IWorkspaceReportMessage::RegisterErrorEvent
 author: windows-sdk-content
 description: Registers the specified error event message to use in the UI.
 old-location: termserv\iworkspacereportmessage_registererrorevent.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: d8c85912-7766-4d1c-8004-d9104a4dbc09
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWorkspaceReportMessage interface [Remote Desktop Services],RegisterErrorEvent method, IWorkspaceReportMessage.RegisterErrorEvent, IWorkspaceReportMessage::RegisterErrorEvent, RegisterErrorEvent, RegisterErrorEvent method [Remote Desktop Services], RegisterErrorEvent method [Remote Desktop Services],IWorkspaceReportMessage interface, RegisterErrorEvent method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],RegisterErrorEvent method, termserv.iworkspacereportmessage_registererrorevent, workspaceruntime/IWorkspaceReportMessage::RegisterErrorEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: WkspRt.exe
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - Workspace.RegisterErrorEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceReportMessage::RegisterErrorEvent

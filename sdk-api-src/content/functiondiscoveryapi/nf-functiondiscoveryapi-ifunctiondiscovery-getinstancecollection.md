@@ -4,17 +4,16 @@ title: IFunctionDiscovery::GetInstanceCollection
 author: windows-sdk-content
 description: Gets the specified collection of function instances, based on category and subcategory.
 old-location: ncd\ifunctiondiscovery_getinstancecollection_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 615d252c-7365-4ef5-9e4f-94a49783a1bb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetInstanceCollection, GetInstanceCollection method, GetInstanceCollection method,IFunctionDiscovery interface, IFunctionDiscovery interface,GetInstanceCollection method, IFunctionDiscovery.GetInstanceCollection, IFunctionDiscovery::GetInstanceCollection, functiondiscoveryapi/IFunctionDiscovery::GetInstanceCollection, ncd.ifunctiondiscovery_getinstancecollection_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemVisibilityFlags
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionDiscovery.GetInstanceCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FunDisc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionDiscovery::GetInstanceCollection

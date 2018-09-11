@@ -4,17 +4,16 @@ title: ITPhone::put_RingVolume
 author: windows-sdk-content
 description: The put_RingVolume method requests that the phone change its ring volume.
 old-location: tapi3\itphone_put_ringvolume.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 858ca6a8-a53b-4858-b4b0-985230ec8ea0
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_RingVolume method, ITPhone.put_RingVolume, ITPhone::put_RingVolume, _tapi3_itphone_put_ringvolume, put_RingVolume, put_RingVolume method [TAPI 2.2], put_RingVolume method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_ringvolume, tapi3if/ITPhone::put_RingVolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPhone.put_RingVolume
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPhone::put_RingVolume

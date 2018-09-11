@@ -4,17 +4,16 @@ title: ITextPara::SetWidowControl
 author: windows-sdk-content
 description: Controls the suppression of widows and orphans.
 old-location: controls\ITextPara_SetWidowControl.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setwidowcontrol.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextPara interface [Windows Controls],SetWidowControl method, ITextPara.SetWidowControl, ITextPara::SetWidowControl, SetWidowControl, SetWidowControl method [Windows Controls], SetWidowControl method [Windows Controls],ITextPara interface, _win32_ITextPara_SetWidowControl, _win32_ITextPara_SetWidowControl_cpp, controls.ITextPara_SetWidowControl, controls._win32_ITextPara_SetWidowControl, tom/ITextPara::SetWidowControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara.SetWidowControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara::SetWidowControl
@@ -62,7 +60,7 @@ Controls the suppression of widows and orphans.
 
 ### -param Value
 
-
+TBD
 
 
 

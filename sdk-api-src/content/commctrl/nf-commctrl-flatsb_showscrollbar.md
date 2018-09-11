@@ -4,17 +4,16 @@ title: FlatSB_ShowScrollBar function
 author: windows-sdk-content
 description: Shows or hides a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard ShowScrollBar function.
 old-location: controls\FlatSB_ShowScrollBar.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_showscrollbar.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FlatSB_ShowScrollBar, FlatSB_ShowScrollBar function [Windows Controls], SB_BOTH, SB_HORZ, SB_VERT, _win32_FlatSB_ShowScrollBar, _win32_FlatSB_ShowScrollBar_cpp, commctrl/FlatSB_ShowScrollBar, controls.FlatSB_ShowScrollBar, controls._win32_FlatSB_ShowScrollBar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - FlatSB_ShowScrollBar
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll (version 4.71 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # FlatSB_ShowScrollBar function
@@ -59,11 +58,9 @@ Shows or hides a flat scroll bar. If flat scroll bars are not initialized for th
 
 
 
-### -param param
+### -param arg1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
+TBD
 
 
 ### -param code
@@ -111,11 +108,25 @@ Shows or hides the vertical scroll bar.
  
 
 
+### -param arg2
+
+TBD
+
+
+
+
 #### - fShow
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Specifies whether the scroll bar should be shown or hidden. If this parameter is nonzero, the scroll bar will be shown; if it is zero, the scroll bar will be hidden. 
+
+
+#### - param
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
 
 
 ## -returns

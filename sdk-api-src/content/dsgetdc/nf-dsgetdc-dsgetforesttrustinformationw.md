@@ -4,17 +4,16 @@ title: DsGetForestTrustInformationW function
 author: windows-sdk-content
 description: Obtains forest trust data for a specified domain.
 old-location: ad\dsgetforesttrustinformationw.htm
-old-project: ad
+tech.root: ad
 ms.assetid: c94fdc5b-920b-4807-9cbf-3172ec1c7386
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DS_GFTI_UPDATE_TDO, DsGetForestTrustInformationW, DsGetForestTrustInformationW function [Active Directory], ad.dsgetforesttrustinformationw, dsgetdc/DsGetForestTrustInformationW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DsGetForestTrustInformationW
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DsGetForestTrustInformationW function

@@ -4,17 +4,16 @@ title: PolicyServerUrlPropertyID
 author: windows-sdk-content
 description: Contains values that specify the type of property value to be returned by the GetStringProperty method or set by the SetStringProperty method on the IX509PolicyServerUrl interface.
 old-location: security\policyserverurlpropertyid.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 7b2f898d-9730-4f86-a7b2-dd625889c00a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: PolicyServerUrlPropertyID, PolicyServerUrlPropertyID enumeration [Security], PsFriendlyName, PsPolicyID, certenroll/PolicyServerUrlPropertyID, certenroll/PsFriendlyName, certenroll/PsPolicyID, security.policyserverurlpropertyid
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PolicyServerUrlPropertyID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PolicyServerUrlPropertyID
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: PolicyServerUrlPropertyID
+req.redist: 
 ---
 
 # PolicyServerUrlPropertyID enumeration

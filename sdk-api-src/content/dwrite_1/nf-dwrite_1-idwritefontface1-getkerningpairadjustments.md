@@ -4,17 +4,16 @@ title: IDWriteFontFace1::GetKerningPairAdjustments
 author: windows-sdk-content
 description: Retrieves the kerning pair adjustments from the font's kern table.
 old-location: directwrite\idwritefontface1_getkerningpairadjustments.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: DA837B04-85BC-4A3B-A6FE-24D5AFD21B14
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetKerningPairAdjustments, GetKerningPairAdjustments method [Direct Write], GetKerningPairAdjustments method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetKerningPairAdjustments method, IDWriteFontFace1.GetKerningPairAdjustments, IDWriteFontFace1::GetKerningPairAdjustments, directwrite.idwritefontface1_getkerningpairadjustments, dwrite_1/IDWriteFontFace1::GetKerningPairAdjustments
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite_1.lib
+req.dll: Dwrite_1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace1.GetKerningPairAdjustments
 product: Windows
 targetos: Windows
-req.lib: Dwrite_1.lib
-req.dll: Dwrite_1.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace1::GetKerningPairAdjustments

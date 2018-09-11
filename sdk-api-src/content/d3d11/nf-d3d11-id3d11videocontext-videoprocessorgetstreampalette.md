@@ -4,17 +4,16 @@ title: ID3D11VideoContext::VideoProcessorGetStreamPalette
 author: windows-sdk-content
 description: Gets the color-palette entries for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreampalette.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 009568EA-7230-42C0-B35F-AB0A1AF8EC2A
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamPalette method, ID3D11VideoContext.VideoProcessorGetStreamPalette, ID3D11VideoContext::VideoProcessorGetStreamPalette, VideoProcessorGetStreamPalette, VideoProcessorGetStreamPalette method [Media Foundation], VideoProcessorGetStreamPalette method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamPalette, mf.id3d11videocontext_videoprocessorgetstreampalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.VideoProcessorGetStreamPalette
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::VideoProcessorGetStreamPalette

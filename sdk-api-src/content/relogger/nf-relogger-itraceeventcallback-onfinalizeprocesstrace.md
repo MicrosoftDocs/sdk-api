@@ -4,17 +4,16 @@ title: ITraceEventCallback::OnFinalizeProcessTrace
 author: windows-sdk-content
 description: Indicates that a trace is about to end so that relogging can be finalized.
 old-location: etw\ieventcallback_onfinalizeprocesstrace.htm
-old-project: etw
+tech.root: etw
 ms.assetid: b152b6fd-4af5-4781-9c88-c71364ef86ff
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: ITraceEventCallback interface [ETW],OnFinalizeProcessTrace method, ITraceEventCallback.OnFinalizeProcessTrace, ITraceEventCallback::OnFinalizeProcessTrace, OnFinalizeProcessTrace, OnFinalizeProcessTrace method [ETW], OnFinalizeProcessTrace method [ETW],ITraceEventCallback interface, etw.ieventcallback_onfinalizeprocesstrace, relogger/ITraceEventCallback::OnFinalizeProcessTrace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceEventCallback.OnFinalizeProcessTrace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceEventCallback::OnFinalizeProcessTrace

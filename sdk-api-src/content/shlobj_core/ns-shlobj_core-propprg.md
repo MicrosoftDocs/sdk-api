@@ -4,7 +4,7 @@ title: PROPPRG
 author: windows-sdk-content
 description: This structure contains information from a .pif file. It is used by PifMgr_GetProperties.
 old-location: properties\PROPPRG.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 603f990b-efb8-4d72-bc96-27bda4ffcbd8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPPRG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPPRG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: PROPPRG
+req.redist: 
 ---
 
 # PROPPRG structure

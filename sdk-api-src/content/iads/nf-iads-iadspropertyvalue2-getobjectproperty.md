@@ -4,17 +4,16 @@ title: IADsPropertyValue2::GetObjectProperty
 author: windows-sdk-content
 description: Retrieves an attribute value.
 old-location: adsi\iadspropertyvalue2_getobjectproperty.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: a189f106-23dc-441b-8d97-c03d4c49a4a1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetObjectProperty, GetObjectProperty method [ADSI], GetObjectProperty method [ADSI],IADsPropertyValue2 interface, IADsPropertyValue2 interface [ADSI],GetObjectProperty method, IADsPropertyValue2.GetObjectProperty, IADsPropertyValue2::GetObjectProperty, _ds_iadspropertyvalue2_getobjectproperty, adsi.iadspropertyvalue2__getobjectproperty, adsi.iadspropertyvalue2_getobjectproperty, iads/IADsPropertyValue2::GetObjectProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPropertyValue2.GetObjectProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPropertyValue2::GetObjectProperty

@@ -4,7 +4,7 @@ title: NLM_CONNECTIVITY
 author: windows-sdk-content
 description: The NLM_Connectivity enumeration is a set of flags that provide notification whenever connectivity related parameters have changed.
 old-location: nla\nlm_connectivity.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 72d1f049-3c8d-4332-9bf1-9f49b47cd315
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_CONNECTIVITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NLM_CONNECTIVITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NLM_CONNECTIVITY
+req.redist: 
 ---
 
 # NLM_CONNECTIVITY enumeration

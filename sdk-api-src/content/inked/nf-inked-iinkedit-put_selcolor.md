@@ -4,17 +4,16 @@ title: IInkEdit::put_SelColor
 author: windows-sdk-content
 description: Gets or sets the text color of the current text selection or insertion point (run time only).
 old-location: tablet\inkedit_selcolor.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 06a4ed72-e2c2-4422-8796-39a65b19415e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelColor property, IInkEdit.SelColor, IInkEdit.put_SelColor, IInkEdit::SelColor, IInkEdit::get_SelColor, IInkEdit::put_SelColor, InkEdit.get_SelColor, InkEdit.put_SelColor, SelColor property [Tablet PC], SelColor property [Tablet PC],IInkEdit interface, get_SelColor, inked/IInkEdit::SelColor, inked/IInkEdit::get_SelColor, inked/IInkEdit::put_SelColor, put_SelColor, tablet.inkedit_selcolor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - InkEdit.put_SelColor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::put_SelColor

@@ -4,17 +4,16 @@ title: DXGI_SAMPLE_DESC
 author: windows-sdk-content
 description: Describes multi-sampling parameters for a resource.
 old-location: direct3ddxgi\dxgi_sample_desc.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_sample_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 3b41465a-e6b5-e6d1-981e-8fb841dbb6f4, DXGI_SAMPLE_DESC, DXGI_SAMPLE_DESC structure [DXGI], direct3ddxgi.dxgi_sample_desc, dxgicommon/DXGI_SAMPLE_DESC
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgicommon.h
 req.include-header: DXGI.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SAMPLE_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_SAMPLE_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_SAMPLE_DESC
+req.redist: 
 ---
 
 # DXGI_SAMPLE_DESC structure

@@ -4,17 +4,16 @@ title: SHGetFolderLocation function
 author: windows-sdk-content
 description: Deprecated. Retrieves the path of a folder as an ITEMIDLIST structure.
 old-location: shell\SHGetFolderLocation.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6fcac066-1ab0-443a-9994-b68ead3bbc20
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHGetFolderLocation, SHGetFolderLocation function [Windows Shell], _win32_SHGetFolderLocation, shell.SHGetFolderLocation, shlobj_core/SHGetFolderLocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - SHGetFolderLocation
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHGetFolderLocation function

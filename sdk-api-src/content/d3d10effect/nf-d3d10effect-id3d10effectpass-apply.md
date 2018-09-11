@@ -4,17 +4,16 @@ title: ID3D10EffectPass::Apply
 author: windows-sdk-content
 description: Set the state contained in a pass to the device.
 old-location: direct3d10\id3d10effectpass_apply.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_apply.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: Apply, Apply method [Direct3D 10], Apply method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],Apply method, ID3D10EffectPass.Apply, ID3D10EffectPass::Apply, a6935571-9a69-c70b-86b7-67c76b5c85fe, d3d10effect/ID3D10EffectPass::Apply, direct3d10.id3d10effectpass_apply
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10EffectPass.Apply
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10EffectPass::Apply

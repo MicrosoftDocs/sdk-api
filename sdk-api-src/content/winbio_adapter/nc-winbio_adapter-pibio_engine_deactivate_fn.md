@@ -4,17 +4,16 @@ title: PIBIO_ENGINE_DEACTIVATE_FN
 author: windows-sdk-content
 description: Gives the Engine Adapter the chance to perform any work needed to put the sensor component into an idle state.
 old-location: secbiomet\engineadapterdeactivate.htm
-old-project: secbiomet
+tech.root: SecBioMet
 ms.assetid: A7FDB75C-146C-47E9-AB3B-8457EA3304BF
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterDeactivate, EngineAdapterDeactivate callback function [Windows Biometric Framework API], PIBIO_ENGINE_DEACTIVATE_FN, PIBIO_ENGINE_DEACTIVATE_FN callback, secbiomet.engineadapterdeactivate, winbio_adapter/EngineAdapterDeactivate
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngineAdapterDeactivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PIBIO_ENGINE_DEACTIVATE_FN callback function

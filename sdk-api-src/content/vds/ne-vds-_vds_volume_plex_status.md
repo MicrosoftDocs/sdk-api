@@ -4,17 +4,16 @@ title: "_VDS_VOLUME_PLEX_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a volume plex.
 old-location: base\vds_volume_plex_status.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 2e382a68-876a-4287-a7df-d7eadd8ce037
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_VOLUME_PLEX_STATUS, VDS_VOLUME_PLEX_STATUS enumeration [VDS], VDS_VPS_FAILED, VDS_VPS_NO_MEDIA, VDS_VPS_ONLINE, VDS_VPS_UNKNOWN, _VDS_VOLUME_PLEX_STATUS, base.vds_volume_plex_status, vds/VDS_VOLUME_PLEX_STATUS, vds/VDS_VPS_FAILED, vds/VDS_VPS_NO_MEDIA, vds/VDS_VPS_ONLINE, vds/VDS_VPS_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_PLEX_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_VOLUME_PLEX_STATUS
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_VOLUME_PLEX_STATUS
+req.redist: 
 ---
 
 # _VDS_VOLUME_PLEX_STATUS enumeration

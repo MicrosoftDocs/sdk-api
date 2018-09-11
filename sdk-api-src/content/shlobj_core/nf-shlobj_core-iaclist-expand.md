@@ -4,17 +4,16 @@ title: IACList::Expand
 author: windows-sdk-content
 description: Requests that the autocompletion client generate candidate strings associated with a specified item in its namespace.
 old-location: shell\IACList_Expand.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0d4ff090-dac7-4918-bea9-312be1d960e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Expand, Expand method [Windows Shell], Expand method [Windows Shell],IACList interface, IACList interface [Windows Shell],Expand method, IACList.Expand, IACList::Expand, _win32_IACList_Expand, shell.IACList_Expand, shlobj_core/IACList::Expand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IACList.Expand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IACList::Expand

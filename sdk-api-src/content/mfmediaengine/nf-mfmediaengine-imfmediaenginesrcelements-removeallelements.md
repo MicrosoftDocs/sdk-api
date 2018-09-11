@@ -4,17 +4,16 @@ title: IMFMediaEngineSrcElements::RemoveAllElements
 author: windows-sdk-content
 description: Removes all of the source elements from the list.
 old-location: mf\imfmediaenginesrcelements_removeallelements.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4E867439-CBBA-4D36-9E0F-9034D3803688
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaEngineSrcElements interface [Media Foundation],RemoveAllElements method, IMFMediaEngineSrcElements.RemoveAllElements, IMFMediaEngineSrcElements::RemoveAllElements, RemoveAllElements, RemoveAllElements method [Media Foundation], RemoveAllElements method [Media Foundation],IMFMediaEngineSrcElements interface, mf.imfmediaenginesrcelements_removeallelements, mfmediaengine/IMFMediaEngineSrcElements::RemoveAllElements
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineSrcElements.RemoveAllElements
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineSrcElements::RemoveAllElements

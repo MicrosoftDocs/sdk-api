@@ -4,17 +4,16 @@ title: LoadEnclaveData function
 author: windows-sdk-content
 description: Loads data into an uninitialized enclave that you created by calling CreateEnclave.
 old-location: base\loadenclavedata.htm
-old-project: memory
+tech.root: memory
 ms.assetid: CC696026-FB74-4D91-BB40-17610DF41F8F
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: LoadEnclaveData, LoadEnclaveData function, base.loadenclavedata, enclaveapi/LoadEnclaveData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: enclaveapi.h
 req.include-header: Winbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: Kernel32.lib
+req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - LoadEnclaveData
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # LoadEnclaveData function

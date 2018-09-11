@@ -4,17 +4,16 @@ title: ID3D10EffectPass::ComputeStateBlockMask
 author: windows-sdk-content
 description: Generate a mask for allowing/preventing state changes.
 old-location: direct3d10\id3d10effectpass_computestateblockmask.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_computestateblockmask.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 50c69f93-7d81-a766-082e-21f700d2f1ec, ComputeStateBlockMask, ComputeStateBlockMask method [Direct3D 10], ComputeStateBlockMask method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],ComputeStateBlockMask method, ID3D10EffectPass.ComputeStateBlockMask, ID3D10EffectPass::ComputeStateBlockMask, d3d10effect/ID3D10EffectPass::ComputeStateBlockMask, direct3d10.id3d10effectpass_computestateblockmask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10EffectPass.ComputeStateBlockMask
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10EffectPass::ComputeStateBlockMask

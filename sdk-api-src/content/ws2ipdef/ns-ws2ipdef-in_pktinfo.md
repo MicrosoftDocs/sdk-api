@@ -4,17 +4,16 @@ title: in_pktinfo
 author: windows-sdk-content
 description: The in_pktinfo structure is used to store received packet address information, and is used by Windows to return information about received packets and also allows specifying the local IPv4 address to use for sending packets.
 old-location: winsock\in_pktinfo_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: a20cb3ff-38fb-471d-b940-7265c114e209
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PIN_PKTINFO, IN_PKTINFO, IN_PKTINFO structure [Winsock], PIN_PKTINFO, PIN_PKTINFO structure pointer [Winsock], _win32_in_pktinfo_2, in_pktinfo, in_pktinfo structure [Winsock], winsock.in_pktinfo_2, ws2ipdef/PIN_PKTINFO, ws2ipdef/in_pktinfo, ws2tcpip/PIN_PKTINFO, ws2tcpip/in_pktinfo"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IN_PKTINFO, *PIN_PKTINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IN_PKTINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IN_PKTINFO, *PIN_PKTINFO
+req.redist: 
 ---
 
 # in_pktinfo structure

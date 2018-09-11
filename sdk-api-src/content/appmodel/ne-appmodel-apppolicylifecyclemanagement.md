@@ -4,7 +4,7 @@ title: AppPolicyLifecycleManagement
 author: windows-sdk-content
 description: The AppPolicyLifecycleManagement enumeration indicates whether a process is lifecycle-managed or not.
 old-location: appxpkg\apppolicylifecyclemanagement_enumeration.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 42BD1BA6-AD5B-4CD0-8860-20A85048D19A
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AppPolicyLifecycleManagement
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AppPolicyLifecycleManagement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AppPolicyLifecycleManagement
+req.redist: 
 ---
 
 # AppPolicyLifecycleManagement enumeration

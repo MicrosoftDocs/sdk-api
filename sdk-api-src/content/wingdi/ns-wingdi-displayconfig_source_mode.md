@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_SOURCE_MODE
 author: windows-sdk-content
 description: The DISPLAYCONFIG_SOURCE_MODE structure represents a point or an offset in a two-dimensional space.
 old-location: display\displayconfig_source_mode.htm
-old-project: display
+tech.root: display
 ms.assetid: 413d63e5-da9d-4906-80a9-049da6e85275
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_SOURCE_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_SOURCE_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_SOURCE_MODE
+req.redist: 
 ---
 
 # DISPLAYCONFIG_SOURCE_MODE structure

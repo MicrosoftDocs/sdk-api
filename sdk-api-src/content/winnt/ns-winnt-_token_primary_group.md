@@ -4,17 +4,16 @@ title: "_TOKEN_PRIMARY_GROUP"
 author: windows-sdk-content
 description: Specifies a group security identifier (SID) for an access token.
 old-location: security\token_primary_group.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: d23ebe6c-36a3-434a-a0fa-fcdf50dd19a0
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP structure pointer [Security], TOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP structure [Security], _TOKEN_PRIMARY_GROUP, _win32_token_primary_group_str, security.token_primary_group, winnt/PTOKEN_PRIMARY_GROUP, winnt/TOKEN_PRIMARY_GROUP"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKEN_PRIMARY_GROUP, *PTOKEN_PRIMARY_GROUP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKEN_PRIMARY_GROUP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TOKEN_PRIMARY_GROUP, *PTOKEN_PRIMARY_GROUP
+req.redist: 
 ---
 
 # _TOKEN_PRIMARY_GROUP structure

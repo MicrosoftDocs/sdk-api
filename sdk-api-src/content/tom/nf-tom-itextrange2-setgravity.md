@@ -4,17 +4,16 @@ title: ITextRange2::SetGravity
 author: windows-sdk-content
 description: Sets the gravity of this range.
 old-location: controls\itextrange2_setgravity.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 10214543-36da-46e3-b926-0ba088f84a7b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetGravity method, ITextRange2.SetGravity, ITextRange2::SetGravity, SetGravity, SetGravity method [Windows Controls], SetGravity method [Windows Controls],ITextRange2 interface, controls.itextrange2_setgravity, tom/ITextRange2::SetGravity, tomGravityBack, tomGravityFore, tomGravityIn, tomGravityOut, tomGravityUI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange2.SetGravity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange2::SetGravity

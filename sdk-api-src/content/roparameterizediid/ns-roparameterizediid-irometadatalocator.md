@@ -4,17 +4,16 @@ title: IRoMetaDataLocator
 author: windows-sdk-content
 description: Enables the RoGetParameterizedTypeInstanceIID function to access run-time metadata.
 old-location: winrt\irometadatalocator_struct.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: A1004454-1C9F-46AF-8C88-BB8204FA0410
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRoMetaDataLocator, IRoMetaDataLocator structure [Windows Runtime], PIRoMetaDataLocator, PIRoMetaDataLocator structure pointer [Windows Runtime], roparameterizediid/IRoMetaDataLocator, roparameterizediid/PIRoMetaDataLocator, winrt.irometadatalocator_struct
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: roparameterizediid.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRoMetaDataLocator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRoMetaDataLocator structure

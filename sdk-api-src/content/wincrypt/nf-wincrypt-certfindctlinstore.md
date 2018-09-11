@@ -4,17 +4,16 @@ title: CertFindCTLInStore function
 author: windows-sdk-content
 description: Finds the first or next certificate trust list (CTL) context that matches search criteria established by the dwFindType and its associated pvFindPara.
 old-location: security\certfindctlinstore.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: e5ed3b22-e96f-4e7d-a20e-eebed0a84d3c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CTL_FIND_ANY, CTL_FIND_EXISTING, CTL_FIND_MD5_HASH, CTL_FIND_SAME_USAGE_FLAG, CTL_FIND_SHA1_HASH, CTL_FIND_SUBJECT, CTL_FIND_USAGE, CertFindCTLInStore, CertFindCTLInStore function [Security], _crypto2_certfindctlinstore, security.certfindctlinstore, wincrypt/CertFindCTLInStore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertFindCTLInStore
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertFindCTLInStore function

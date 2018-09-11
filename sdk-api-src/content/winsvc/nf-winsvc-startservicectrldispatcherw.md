@@ -4,17 +4,16 @@ title: StartServiceCtrlDispatcherW function
 author: windows-sdk-content
 description: Connects the main thread of a service process to the service control manager, which causes the thread to be the service control dispatcher thread for the calling process.
 old-location: base\startservicectrldispatcher.htm
-old-project: services
+tech.root: Services
 ms.assetid: 8e275eb7-a8af-4bd7-bb39-0eac4f3735ad
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: StartServiceCtrlDispatcher, StartServiceCtrlDispatcher function, StartServiceCtrlDispatcherA, StartServiceCtrlDispatcherW, _win32_startservicectrldispatcher, base.startservicectrldispatcher, winsvc/StartServiceCtrlDispatcher, winsvc/StartServiceCtrlDispatcherA, winsvc/StartServiceCtrlDispatcherW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - StartServiceCtrlDispatcherW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # StartServiceCtrlDispatcherW function

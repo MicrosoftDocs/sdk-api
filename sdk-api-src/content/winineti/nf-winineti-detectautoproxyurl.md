@@ -4,17 +4,16 @@ title: DetectAutoProxyUrl function
 author: windows-sdk-content
 description: Attempts to determine the location of a WPAD autoproxy script.
 old-location: wininet\detectautoproxyurl.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 4e94ab0c-0f39-4e6e-a272-6beff61e97c6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: DetectAutoProxyUrl, DetectAutoProxyUrl function [WinINet], PROXY_AUTO_DETECT_TYPE_DHCP, PROXY_AUTO_DETECT_TYPE_DNS_A, _inet_detectautoproxyurl_function, wininet.detectautoproxyurl, winineti/DetectAutoProxyUrl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winineti.h
 req.include-header: Wininet.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_AUTH_NOTIFY_DATA
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DetectAutoProxyUrl
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DetectAutoProxyUrl function

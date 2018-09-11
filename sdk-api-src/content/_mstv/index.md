@@ -2,7 +2,7 @@
 UID: TP:mstv
 ms.assetid: c2a5b070-2d31-379e-bb1b-8084848a387c
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -34,5 +34,5 @@ To develop Microsoft TV Technologies, you need these headers:
  * [tvratings.h](../tvratings/index.md)
 
 For programming guidance for this technology, see:
-* [Microsoft TV Technologies](/previous-versions/windows/desktop/api/_mstv/index)
+* [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv)
 

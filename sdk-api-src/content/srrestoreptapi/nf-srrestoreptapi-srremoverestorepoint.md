@@ -4,17 +4,16 @@ title: SRRemoveRestorePoint function
 author: windows-sdk-content
 description: Deletes the specified restore point.
 old-location: sr\srremoverestorepoint.htm
-old-project: sr
+tech.root: sr
 ms.assetid: e0f27947-7d88-4d15-8a92-85f88c3b60d4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: SRRemoveRestorePoint, SRRemoveRestorePoint function [System Restore], _sr_srremoverestorepoint, sr.srremoverestorepoint, srrestoreptapi/SRRemoveRestorePoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: srrestoreptapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENTERPRISE_DATA_POLICIES
+req.lib: 
+req.dll: SrClient.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SRRemoveRestorePoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrClient.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SRRemoveRestorePoint function

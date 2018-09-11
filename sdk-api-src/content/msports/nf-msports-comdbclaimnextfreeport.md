@@ -4,17 +4,16 @@ title: ComDBClaimNextFreePort function
 author: windows-sdk-content
 description: ComDBClaimNextFreePort returns the lowest COM port number that is not already in use.
 old-location: serports\comdbclaimnextfreeport.htm
-old-project: serports
+tech.root: serports
 ms.assetid: b32b42e8-d38c-4bb5-bf8a-96538a03cb5b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ComDBClaimNextFreePort, ComDBClaimNextFreePort function [Serial Ports], comdb_ed1e04f0-bebb-4d9f-8603-20e7d15b7644.xml, msports/ComDBClaimNextFreePort, serports.comdbclaimnextfreeport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: Msports.lib
+req.dll: Msports.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ComDBClaimNextFreePort
 product: Windows
 targetos: Windows
-req.lib: Msports.lib
-req.dll: Msports.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ComDBClaimNextFreePort function

@@ -4,7 +4,7 @@ title: DIEFFESCAPE
 author: windows-sdk-content
 description: The DIEFFESCAPE structure passes hardware-specific data directly to the device driver.
 old-location: hid\dieffescape.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 97d452b2-aa25-46a9-a755-dc835270c818
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinput.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Shtypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIEFFESCAPE, *LPDIEFFESCAPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.redist: 
 ---
 
 # DIEFFESCAPE structure

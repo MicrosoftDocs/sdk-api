@@ -4,7 +4,7 @@ title: "_COPP_CGMSA_Protection_Level"
 author: windows-sdk-content
 description: Specifies the CGMS-A protection level.
 old-location: dshow\copp_cgmsa_protection_level.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 37b453fa-c976-4b13-b94a-1eebd8ecd44b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva9typ.h
 req.include-header: Dxva.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COPP_CGMSA_Protection_Level
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COPP_CGMSA_Protection_Level
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: COPP_CGMSA_Protection_Level
+req.redist: 
 ---
 
 # _COPP_CGMSA_Protection_Level enumeration

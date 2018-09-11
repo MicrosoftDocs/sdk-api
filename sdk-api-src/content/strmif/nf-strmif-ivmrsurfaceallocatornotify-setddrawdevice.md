@@ -4,17 +4,16 @@ title: IVMRSurfaceAllocatorNotify::SetDDrawDevice
 author: windows-sdk-content
 description: The SetDDrawDevice method sets the initial DirectDraw device and monitor to be used for video playback.
 old-location: dshow\ivmrsurfaceallocatornotify_setddrawdevice.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3e6bd77e-8b2d-4cd8-9bd3-40a3fe9373f3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],SetDDrawDevice method, IVMRSurfaceAllocatorNotify.SetDDrawDevice, IVMRSurfaceAllocatorNotify::SetDDrawDevice, IVMRSurfaceAllocatorNotifySetDDrawDevice, SetDDrawDevice, SetDDrawDevice method [DirectShow], SetDDrawDevice method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_setddrawdevice, strmif/IVMRSurfaceAllocatorNotify::SetDDrawDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRSurfaceAllocatorNotify.SetDDrawDevice
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRSurfaceAllocatorNotify::SetDDrawDevice
@@ -66,7 +64,7 @@ The <code>SetDDrawDevice</code> method sets the initial DirectDraw device and mo
 
 ### -param lpDDrawDevice
 
-
+TBD
 
 
 ### -param hMonitor [in]

@@ -4,17 +4,16 @@ title: INetDiagHelper::GetAttributes
 author: windows-sdk-content
 description: Retrieves additional information about a problem that the helper class extension has diagnosed.
 old-location: ndf\inetdiaghelpe_getattributes.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 4f1f371a-853f-4022-808b-eea01aee4a52
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAttributes, GetAttributes method [NDF], GetAttributes method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetAttributes method, INetDiagHelper.GetAttributes, INetDiagHelper::GetAttributes, ndf.inetdiaghelpe_getattributes, ndhelper/INetDiagHelper::GetAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetDiagHelper.GetAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetDiagHelper::GetAttributes

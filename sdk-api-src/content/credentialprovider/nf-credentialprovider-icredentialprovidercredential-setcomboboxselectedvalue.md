@@ -4,17 +4,16 @@ title: ICredentialProviderCredential::SetComboBoxSelectedValue
 author: windows-sdk-content
 description: Enables a Logon UI and Credential UI to indicate that a combo box value has been selected.
 old-location: shell\ICredentialProviderCredential_SetComboBoxSelectedValue.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fe33500b-ab34-4f28-b244-692e62d6d30c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetComboBoxSelectedValue method, ICredentialProviderCredential.SetComboBoxSelectedValue, ICredentialProviderCredential::SetComboBoxSelectedValue, SetComboBoxSelectedValue, SetComboBoxSelectedValue method [Windows Shell], SetComboBoxSelectedValue method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetComboBoxSelectedValue, credentialprovider/ICredentialProviderCredential::SetComboBoxSelectedValue, shell.ICredentialProviderCredential_SetComboBoxSelectedValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderCredential.SetComboBoxSelectedValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderCredential::SetComboBoxSelectedValue

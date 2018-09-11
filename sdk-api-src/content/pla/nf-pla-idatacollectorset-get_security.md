@@ -4,17 +4,16 @@ title: IDataCollectorSet::get_Security
 author: windows-sdk-content
 description: Retrieves or sets access control information that determines who can access this data collector set.
 old-location: pla\idatacollectorset_get_security.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: cd915df3-2823-4d3e-bfd0-545c24f95267
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],Security property, IDataCollectorSet.Security, IDataCollectorSet.get_Security, IDataCollectorSet::Security, IDataCollectorSet::get_Security, IDataCollectorSet::put_Security, Security property [PLA], Security property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_security, get_Security, pla.idatacollectorset_get_security, pla/IDataCollectorSet::Security, pla/IDataCollectorSet::get_Security, pla/IDataCollectorSet::put_Security
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollectorSet.put_Security
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::get_Security

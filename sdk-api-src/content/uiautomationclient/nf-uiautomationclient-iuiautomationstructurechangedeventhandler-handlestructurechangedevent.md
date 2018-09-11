@@ -4,17 +4,16 @@ title: IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent
 author: windows-sdk-content
 description: Handles an event that is raised when the Microsoft UI Automation tree structure has changed.
 old-location: winauto\uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 0fdaf2d3-cfd1-4c93-a7cd-94ec83b3e812
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HandleStructureChangedEvent, HandleStructureChangedEvent method [Windows Accessibility], HandleStructureChangedEvent method [Windows Accessibility],IUIAutomationStructureChangedEventHandler interface, IUIAutomationStructureChangedEventHandler interface [Windows Accessibility],HandleStructureChangedEvent method, IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent, IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent, uiauto.uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent, uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent, uiautomationclient/IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent, winauto.uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent
@@ -67,9 +65,9 @@ Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a4027701220
 A pointer to the element that raised the event.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param runtimeId [in]

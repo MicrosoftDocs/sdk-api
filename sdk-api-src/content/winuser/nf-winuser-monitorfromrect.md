@@ -4,17 +4,16 @@ title: MonitorFromRect function
 author: windows-sdk-content
 description: The MonitorFromRect function retrieves a handle to the display monitor that has the largest area of intersection with a specified rectangle.
 old-location: gdi\monitorfromrect.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 81c3fffb-bbc9-4adb-bb6b-edd59f7a77b4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromRect, MonitorFromRect function [Windows GDI], _win32_MonitorFromRect, gdi.monitorfromrect, winuser/MonitorFromRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - MonitorFromRect
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # MonitorFromRect function

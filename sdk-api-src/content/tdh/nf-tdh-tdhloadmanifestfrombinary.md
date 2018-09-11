@@ -4,17 +4,16 @@ title: TdhLoadManifestFromBinary function
 author: windows-sdk-content
 description: Takes a NULL-terminated path to a binary file that contains metadata resources needed to decode a specific event provider.
 old-location: etw\tdhloadmanifestfrombinary.htm
-old-project: etw
+tech.root: etw
 ms.assetid: e152d25c-bbc9-4573-9575-9cf9583433a7
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: TdhLoadManifestFromBinary, TdhLoadManifestFromBinary function [ETW], etw.tdhloadmanifestfrombinary, tdh/TdhLoadManifestFromBinary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEMPLATE_FLAGS
+req.lib: Tdh.lib
+req.dll: Tdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - TdhLoadManifestFromBinary
 product: Windows
 targetos: Windows
-req.lib: Tdh.lib
-req.dll: Tdh.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TdhLoadManifestFromBinary function

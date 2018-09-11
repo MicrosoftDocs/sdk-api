@@ -4,17 +4,16 @@ title: ITPluggableTerminalSuperclassRegistration::get_TerminalClasses
 author: windows-sdk-content
 description: The get_TerminalClasses method gets the terminal classes for this pluggable terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_get_terminalclasses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 414ce7fe-e664-4915-84d6-0d4b6c750cf3
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],get_TerminalClasses method, ITPluggableTerminalSuperclassRegistration.get_TerminalClasses, ITPluggableTerminalSuperclassRegistration::get_TerminalClasses, _tapi3_itpluggableterminalsuperclassregistration_get_terminalclasses, get_TerminalClasses, get_TerminalClasses method [TAPI 2.2], get_TerminalClasses method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, tapi3.itpluggableterminalsuperclassregistration_get_terminalclasses, termmgr/ITPluggableTerminalSuperclassRegistration::get_TerminalClasses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPluggableTerminalSuperclassRegistration.get_TerminalClasses
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPluggableTerminalSuperclassRegistration::get_TerminalClasses

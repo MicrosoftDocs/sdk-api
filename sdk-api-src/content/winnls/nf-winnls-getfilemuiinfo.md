@@ -4,17 +4,16 @@ title: GetFileMUIInfo function
 author: windows-sdk-content
 description: Retrieves resource-related information about a file.
 old-location: intl\getfilemuiinfo.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: df1eee13-012a-47e6-a6de-8ddb8ecc6036
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetFileMUIInfo, GetFileMUIInfo function [Internationalization for Windows Applications], MUI_QUERY_CHECKSUM, MUI_QUERY_LANGUAGE_NAME, MUI_QUERY_RESOURCE_TYPES, MUI_QUERY_TYPE, _win32_GetFileMUIInfo, intl.getfilemuiinfo, winnls/GetFileMUIInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetFileMUIInfo
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetFileMUIInfo function

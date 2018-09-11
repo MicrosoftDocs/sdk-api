@@ -4,17 +4,16 @@ title: IDWriteTypography::GetFontFeatureCount
 author: windows-sdk-content
 description: Gets the number of OpenType font features for the current font.
 old-location: directwrite\IDWriteTypography_GetFontFeatureCount.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 434ea913-00c9-4051-b13c-68f9d67ebd84
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFontFeatureCount, GetFontFeatureCount method [Direct Write], GetFontFeatureCount method [Direct Write],IDWriteTypography interface, IDWriteTypography interface [Direct Write],GetFontFeatureCount method, IDWriteTypography.GetFontFeatureCount, IDWriteTypography::GetFontFeatureCount, directwrite.IDWriteTypography_GetFontFeatureCount, dwrite/IDWriteTypography::GetFontFeatureCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTypography.GetFontFeatureCount
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTypography::GetFontFeatureCount

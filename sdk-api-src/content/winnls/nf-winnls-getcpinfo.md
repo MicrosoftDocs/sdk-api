@@ -4,17 +4,16 @@ title: GetCPInfo function
 author: windows-sdk-content
 description: Retrieves information about any valid installed or available code page.
 old-location: intl\getcpinfo.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: f7401cd5-d0ed-49b1-b8fc-dda8df99e6b6
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetCPInfo, GetCPInfo function [Internationalization for Windows Applications], _win32_GetCPInfo, intl.getcpinfo, winnls/GetCPInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetCPInfo
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetCPInfo function

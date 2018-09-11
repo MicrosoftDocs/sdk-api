@@ -4,17 +4,16 @@ title: ITAgentSession::get_Agent
 author: windows-sdk-content
 description: The get_Agent method gets a pointer to the ITAgent interface associated with this session.
 old-location: tapi3\itagentsession_get_agent.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 1378f7f1-020e-492c-8f1a-f4e8a9c7c3e2
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_Agent method, ITAgentSession.get_Agent, ITAgentSession::get_Agent, _tapi3_itagentsession_get_agent, get_Agent, get_Agent method [TAPI 2.2], get_Agent method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_agent, tapi3cc/ITAgentSession::get_Agent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentSession.get_Agent
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentSession::get_Agent

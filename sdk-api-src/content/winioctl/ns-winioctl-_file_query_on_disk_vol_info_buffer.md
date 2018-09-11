@@ -4,7 +4,7 @@ title: "_FILE_QUERY_ON_DISK_VOL_INFO_BUFFER"
 author: windows-sdk-content
 description: Receives the volume information from a call to FSCTL_QUERY_ON_DISK_VOLUME_INFO.
 old-location: fs\file_query_on_disk_vol_info_buffer.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 812c8840-5e69-4a85-ad93-3be5bf09b917
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, *PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, *PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER
+req.redist: 
 ---
 
 # _FILE_QUERY_ON_DISK_VOL_INFO_BUFFER structure

@@ -4,7 +4,7 @@ title: tagCaptureParms
 author: windows-sdk-content
 description: The CAPTUREPARMS structure contains parameters that control the streaming video capture process. This structure is used to get and set parameters that affect the capture rate, the number of buffers to use while capturing, and how capture is terminated.
 old-location: multimedia\captureparms.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 6bf7e374-5991-4a7b-984a-628d3e77b2d7
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CAPTUREPARMS, *PCAPTUREPARMS, *LPCAPTUREPARMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CAPTUREPARMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: CAPTUREPARMS, *PCAPTUREPARMS, *LPCAPTUREPARMS
+req.redist: 
 ---
 
 # tagCaptureParms structure

@@ -4,7 +4,7 @@ title: "_WIM_EXTERNAL_FILE_INFO"
 author: windows-sdk-content
 description: Defines metadata specific to files provided by WOF_PROVIDER_WIM.
 old-location: fs\wim_external_file_info.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: BB40922B-C9D3-451C-B2D1-1740105C4BAB
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wofapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIM_EXTERNAL_FILE_INFO, *PWIM_EXTERNAL_FILE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WIM_EXTERNAL_FILE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WIM_EXTERNAL_FILE_INFO, *PWIM_EXTERNAL_FILE_INFO
+req.redist: 
 ---
 
 # _WIM_EXTERNAL_FILE_INFO structure

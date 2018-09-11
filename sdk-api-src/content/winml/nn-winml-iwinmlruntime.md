@@ -4,7 +4,7 @@ title: IWinMLRuntime
 author: windows-sdk-content
 description: Represents the runtime to load and evaluate a WinML model.
 old-location: machinelearning\iwinmlruntime.htm
-old-project: MachineLearning
+tech.root: MachineLearning
 ms.assetid: C2FD74A1-EE38-46B1-98A8-43557485F92E
 ms.author: windowssdkdev
 ms.date: 03/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_TENSOR_DATA_TYPE
+req.lib: Winml.lib
+req.dll: Winml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWinMLRuntime
 product: Windows
 targetos: Windows
-req.lib: Winml.lib
-req.dll: Winml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWinMLRuntime interface

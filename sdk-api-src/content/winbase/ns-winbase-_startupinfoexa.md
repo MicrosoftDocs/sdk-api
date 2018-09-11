@@ -4,7 +4,7 @@ title: "_STARTUPINFOEXA"
 author: windows-sdk-content
 description: Specifies the window station, desktop, standard handles, and attributes for a new process. It is used with the CreateProcess and CreateProcessAsUser functions.
 old-location: base\startupinfoex.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 61203f57-292d-4ea1-88f4-a3b05012d7a3
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STARTUPINFOEXA, *LPSTARTUPINFOEXA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - STARTUPINFOEXW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STARTUPINFOEXA, *LPSTARTUPINFOEXA
+req.redist: 
 ---
 
 # _STARTUPINFOEXA structure

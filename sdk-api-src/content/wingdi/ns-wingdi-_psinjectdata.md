@@ -4,7 +4,7 @@ title: "_PSINJECTDATA"
 author: windows-sdk-content
 description: The PSINJECTDATA structure is a header for the input buffer used with the POSTSCRIPT_INJECTION printer escape function.
 old-location: gdi\psinjectdata.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: f42c8f69-7fe9-4740-b295-32ef2a5b714c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSINJECTDATA, *PPSINJECTDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSINJECTDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PSINJECTDATA, *PPSINJECTDATA
+req.redist: 
 ---
 
 # _PSINJECTDATA structure

@@ -4,17 +4,16 @@ title: ICEnroll::createFilePKCS10
 author: windows-sdk-content
 description: Creates a base64-encoded PKCS #10 certificate request and saves it in a file. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_createfilepkcs10.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 074c7321-6117-4261-836a-a2055c9e029d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CEnroll object [Security],createFilePKCS10 method, ICEnroll interface [Security],createFilePKCS10 method, ICEnroll.createFilePKCS10, ICEnroll2 interface [Security],createFilePKCS10 method, ICEnroll2::createFilePKCS10, ICEnroll3 interface [Security],createFilePKCS10 method, ICEnroll3::createFilePKCS10, ICEnroll4 interface [Security],createFilePKCS10 method, ICEnroll4::createFilePKCS10, ICEnroll::createFilePKCS10, createFilePKCS10, createFilePKCS10 method [Security], createFilePKCS10 method [Security],CEnroll object, createFilePKCS10 method [Security],ICEnroll interface, createFilePKCS10 method [Security],ICEnroll2 interface, createFilePKCS10 method [Security],ICEnroll3 interface, createFilePKCS10 method [Security],ICEnroll4 interface, security.icenroll4_createfilepkcs10, xenroll/ICEnroll2::createFilePKCS10, xenroll/ICEnroll3::createFilePKCS10, xenroll/ICEnroll4::createFilePKCS10, xenroll/ICEnroll::createFilePKCS10
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CEnroll.createFilePKCS10
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ICEnroll::createFilePKCS10

@@ -4,17 +4,16 @@ title: TTGetEmbeddingType function
 author: windows-sdk-content
 description: Obtains the embedding privileges of a font.
 old-location: gdi\ttgetembeddingtype.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: c442447f-221d-4bce-9749-fb9fbe333808
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTGetEmbeddingType, TTGetEmbeddingType function [Windows GDI], _win32_TTGetEmbeddingType, gdi.ttgetembeddingtype, t2embapi/TTGetEmbeddingType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_INFO, *LPSYSTEM_INFO
+req.lib: T2embed.lib
+req.dll: T2embed.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TTGetEmbeddingType
 product: Windows
 targetos: Windows
-req.lib: T2embed.lib
-req.dll: T2embed.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TTGetEmbeddingType function

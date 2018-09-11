@@ -4,17 +4,16 @@ title: "_WCM_PROFILE_INFO"
 author: windows-sdk-content
 description: Contains information about a specific profile.
 old-location: wcm\wcm_profile_info.htm
-old-project: wcm
+tech.root: wcm
 ms.assetid: bf917afa-c6c5-408a-bd34-b4a4c7b991b9
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWCM_PROFILE_INFO, PWCM_PROFILE_INFO, PWCM_PROFILE_INFO structure pointer [Windows Connection Manager], WCM_PROFILE_INFO, WCM_PROFILE_INFO structure [Windows Connection Manager], _WCM_PROFILE_INFO, wcm.wcm_profile_info, wcmapi/PWCM_PROFILE_INFO, wcmapi/WCM_PROFILE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCM_PROFILE_INFO, *PWCM_PROFILE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCM_PROFILE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCM_PROFILE_INFO, *PWCM_PROFILE_INFO
+req.redist: 
 ---
 
 # _WCM_PROFILE_INFO structure

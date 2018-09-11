@@ -4,7 +4,7 @@ title: D2D1_POINTDIFFUSE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Point-diffuse lighting effect.
 old-location: direct2d\d2d1_pointdiffuse_prop.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: D5FD5E6E-A50C-4434-9F68-F0B41E79267A
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_POINTDIFFUSE_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_POINTDIFFUSE_PROP
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_POINTDIFFUSE_PROP
+req.redist: 
 ---
 
 # D2D1_POINTDIFFUSE_PROP enumeration

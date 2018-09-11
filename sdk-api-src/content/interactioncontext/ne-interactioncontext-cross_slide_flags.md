@@ -4,7 +4,7 @@ title: CROSS_SLIDE_FLAGS
 author: windows-sdk-content
 description: Specifies the state of the cross-slide interaction.
 old-location: input_intcontext\cross_slide_flags.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: 3be72ad1-87da-4c08-84fd-a84d4c03d33b
 ms.author: windowssdkdev
 ms.date: 05/09/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CROSS_SLIDE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CROSS_SLIDE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CROSS_SLIDE_FLAGS
+req.redist: 
 ---
 
 # CROSS_SLIDE_FLAGS enumeration

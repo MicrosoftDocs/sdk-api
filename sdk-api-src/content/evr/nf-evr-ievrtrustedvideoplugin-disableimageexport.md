@@ -4,17 +4,16 @@ title: IEVRTrustedVideoPlugin::DisableImageExport
 author: windows-sdk-content
 description: Enables or disables the ability of the plug-in to export the video image.
 old-location: mf\ievrtrustedvideoplugin_disableimageexport.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: dd9811f7-7a9f-4b7e-8425-cb25efe0a71d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: DisableImageExport, DisableImageExport method [Media Foundation], DisableImageExport method [Media Foundation],IEVRTrustedVideoPlugin interface, IEVRTrustedVideoPlugin interface [Media Foundation],DisableImageExport method, IEVRTrustedVideoPlugin.DisableImageExport, IEVRTrustedVideoPlugin::DisableImageExport, dd9811f7-7a9f-4b7e-8425-cb25efe0a71d, evr/IEVRTrustedVideoPlugin::DisableImageExport, mf.ievrtrustedvideoplugin_disableimageexport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEVRTrustedVideoPlugin.DisableImageExport
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEVRTrustedVideoPlugin::DisableImageExport

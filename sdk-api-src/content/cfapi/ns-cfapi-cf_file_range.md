@@ -4,7 +4,7 @@ title: CF_FILE_RANGE
 author: windows-sdk-content
 description: Specifies a range of data in a placeholder file.
 old-location: cloudapi\cf_file_range.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: DAE43446-725E-490B-AE1B-EA6CB31F4358
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_FILE_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_FILE_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CF_FILE_RANGE
+req.redist: 
 ---
 
 # CF_FILE_RANGE structure

@@ -4,17 +4,16 @@ title: "_WKSTA_INFO_101"
 author: windows-sdk-content
 description: Contains information about a workstation environment, including platform-specific information, the name of the domain and the local computer, and information concerning the operating system.
 old-location: netmgmt\wksta_info_101_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 2b692d40-6229-45ef-9ec6-ee464bba0696
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWKSTA_INFO_101, *PWKSTA_INFO_101, LPWKSTA_INFO_101, LPWKSTA_INFO_101 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PWKSTA_INFO_101, PWKSTA_INFO_101 structure pointer [Network Management], WKSTA_INFO_101, WKSTA_INFO_101 structure [Network Management], _WKSTA_INFO_101, _win32_wksta_info_101_str, lmwksta/LPWKSTA_INFO_101, lmwksta/PWKSTA_INFO_101, lmwksta/WKSTA_INFO_101, netmgmt.wksta_info_101_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmwksta.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WKSTA_INFO_101, *PWKSTA_INFO_101, *LPWKSTA_INFO_101
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WKSTA_INFO_101
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: WKSTA_INFO_101, *PWKSTA_INFO_101, *LPWKSTA_INFO_101
+req.redist: 
 ---
 
 # _WKSTA_INFO_101 structure

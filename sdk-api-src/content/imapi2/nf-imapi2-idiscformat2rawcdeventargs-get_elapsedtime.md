@@ -4,17 +4,16 @@ title: IDiscFormat2RawCDEventArgs::get_ElapsedTime
 author: windows-sdk-content
 description: Retrieves the total elapsed time of the write operation.
 old-location: imapi\idiscformat2rawcdeventargs_get_elapsedtime.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 87a1b606-f91b-4a14-b3b0-17d224d841fc
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2RawCDEventArgs interface [IMAPI],get_ElapsedTime method, IDiscFormat2RawCDEventArgs.get_ElapsedTime, IDiscFormat2RawCDEventArgs::get_ElapsedTime, get_ElapsedTime, get_ElapsedTime method [IMAPI], get_ElapsedTime method [IMAPI],IDiscFormat2RawCDEventArgs interface, imapi.idiscformat2rawcdeventargs_get_elapsedtime, imapi2/IDiscFormat2RawCDEventArgs::get_ElapsedTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2RawCDEventArgs.get_ElapsedTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2RawCDEventArgs::get_ElapsedTime

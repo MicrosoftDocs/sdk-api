@@ -4,17 +4,16 @@ title: EventRegistrationToken
 author: windows-sdk-content
 description: Identifies an event handler that has been registered with an event source.
 old-location: winrt\eventregistrationtoken.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: A98FE485-B3D8-4CD5-950F-765939F4672B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EventRegistrationToken, EventRegistrationToken structure [Windows Runtime], eventtoken/EventRegistrationToken, winrt.eventregistrationtoken
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: eventtoken.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventRegistrationToken
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EventRegistrationToken
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EventRegistrationToken
+req.redist: 
 ---
 
 # EventRegistrationToken structure

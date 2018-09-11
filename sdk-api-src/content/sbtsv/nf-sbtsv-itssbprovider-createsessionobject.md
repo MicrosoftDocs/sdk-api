@@ -4,17 +4,16 @@ title: ITsSbProvider::CreateSessionObject
 author: windows-sdk-content
 description: Plug-ins can use the CreateSessionObject method to create an ITsSbSession session object.
 old-location: termserv\itssbprovider_createsessionobject.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 14c800f8-a3d6-4d12-b568-94ef2d8e0aaf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateSessionObject, CreateSessionObject method [Remote Desktop Services], CreateSessionObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateSessionObject method, ITsSbProvider.CreateSessionObject, ITsSbProvider::CreateSessionObject, sbtsv/ITsSbProvider::CreateSessionObject, termserv.itssbprovider_createsessionobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbProvider.CreateSessionObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbProvider::CreateSessionObject

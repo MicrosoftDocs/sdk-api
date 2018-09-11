@@ -4,17 +4,16 @@ title: ITextInputPanel::get_CurrentInteractionMode
 author: windows-sdk-content
 description: Gets the positioning of the Tablet PC Input Panel as specified by the InteractionMode Enumeration.
 old-location: tablet\itextinputpanel_currentinteractionmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: dd28dad3-4b04-4597-9627-8fd27c75a207
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: CurrentInteractionMode property [Tablet PC], CurrentInteractionMode property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentInteractionMode property, ITextInputPanel.CurrentInteractionMode, ITextInputPanel.get_CurrentInteractionMode, ITextInputPanel::CurrentInteractionMode, ITextInputPanel::get_CurrentInteractionMode, dd28dad3-4b04-4597-9627-8fd27c75a207, get_CurrentInteractionMode, peninputpanel/ITextInputPanel::CurrentInteractionMode, peninputpanel/ITextInputPanel::get_CurrentInteractionMode, tablet.itextinputpanel_currentinteractionmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITextInputPanel.get_CurrentInteractionMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanel::get_CurrentInteractionMode

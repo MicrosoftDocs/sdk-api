@@ -4,17 +4,16 @@ title: IAudioFormatEnumerator::GetCount
 author: windows-sdk-content
 description: Gets the number of supported audio formats in the list.
 old-location: coreaudio\iaudioformatenumerator_getcount.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: A2523D52-6641-4876-A263-E0D02A815522
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IAudioFormatEnumerator interface, IAudioFormatEnumerator interface [Core Audio],GetCount method, IAudioFormatEnumerator.GetCount, IAudioFormatEnumerator::GetCount, coreaudio.iaudioformatenumerator_getcount, spatialaudioclient/IAudioFormatEnumerator::GetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioFormatEnumerator.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioFormatEnumerator::GetCount

@@ -4,17 +4,16 @@ title: ID3D11VideoProcessorEnumerator1::CheckVideoProcessorFormatConversion
 author: windows-sdk-content
 description: Indicates whether the driver supports the specified combination of format and colorspace conversions.
 old-location: mf\id3d11videoprocessorenumerator1_checkvideoprocessorformatconversion.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 97DDE2C9-ABF2-47FB-B77C-BD1BC7AC5F2F
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CheckVideoProcessorFormatConversion, CheckVideoProcessorFormatConversion method [Media Foundation], CheckVideoProcessorFormatConversion method [Media Foundation],ID3D11VideoProcessorEnumerator1 interface, ID3D11VideoProcessorEnumerator1 interface [Media Foundation],CheckVideoProcessorFormatConversion method, ID3D11VideoProcessorEnumerator1.CheckVideoProcessorFormatConversion, ID3D11VideoProcessorEnumerator1::CheckVideoProcessorFormatConversion, d3d11_1/ID3D11VideoProcessorEnumerator1::CheckVideoProcessorFormatConversion, mf.id3d11videoprocessorenumerator1_checkvideoprocessorformatconversion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoProcessorEnumerator1.CheckVideoProcessorFormatConversion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoProcessorEnumerator1::CheckVideoProcessorFormatConversion

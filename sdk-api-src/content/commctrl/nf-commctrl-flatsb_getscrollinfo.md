@@ -4,17 +4,16 @@ title: FlatSB_GetScrollInfo function
 author: windows-sdk-content
 description: Gets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard GetScrollInfo function.
 old-location: controls\FlatSB_GetScrollInfo.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollinfo.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FlatSB_GetScrollInfo, FlatSB_GetScrollInfo function [Windows Controls], SB_HORZ, SB_VERT, SIF_ALL, SIF_PAGE, SIF_POS, SIF_RANGE, _win32_FlatSB_GetScrollInfo, _win32_FlatSB_GetScrollInfo_cpp, commctrl/FlatSB_GetScrollInfo, controls.FlatSB_GetScrollInfo, controls._win32_FlatSB_GetScrollInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - FlatSB_GetScrollInfo
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll (version 4.71 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # FlatSB_GetScrollInfo function
@@ -59,11 +58,9 @@ Gets the information for a flat scroll bar. If flat scroll bars are not initiali
 
 
 
-### -param param
+### -param arg1
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
-
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
+TBD
 
 
 ### -param code
@@ -99,6 +96,13 @@ Retrieves the information for the vertical scroll bar.
 </tr>
 </table>
  
+
+
+### -param arg2
+
+TBD
+
+
 
 
 #### - lpsi
@@ -155,6 +159,13 @@ A combination of SIF_PAGE, SIF_POS, and SIF_RANGE.
 </tr>
 </table>
  
+
+
+#### - param
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
 
 
 ## -returns

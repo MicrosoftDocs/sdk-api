@@ -4,17 +4,16 @@ title: IRDPSRAPIAudioStream::FreeBuffer
 author: windows-sdk-content
 description: Releases the hold on the buffer after the GetBuffer method is called.
 old-location: rdp\irdpsrapiaudiostream_freebuffer.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 03926ABF-D5D0-4D13-B081-0085EC698E9F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FreeBuffer, FreeBuffer method [RDP], FreeBuffer method [RDP],IRDPSRAPIAudioStream interface, IRDPSRAPIAudioStream interface [RDP],FreeBuffer method, IRDPSRAPIAudioStream.FreeBuffer, IRDPSRAPIAudioStream::FreeBuffer, rdp.irdpsrapiaudiostream_freebuffer, rdpencomapi/IRDPSRAPIAudioStream::FreeBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPIAudioStream.FreeBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIAudioStream::FreeBuffer

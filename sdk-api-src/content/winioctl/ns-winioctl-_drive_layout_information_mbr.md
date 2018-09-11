@@ -4,7 +4,7 @@ title: "_DRIVE_LAYOUT_INFORMATION_MBR"
 author: windows-sdk-content
 description: Provides information about a drive's master boot record (MBR) partitions.
 old-location: fs\drive_layout_information_mbr_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 71c361fe-8c85-4915-9776-8ad3f5837e11
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DRIVE_LAYOUT_INFORMATION_MBR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR
+req.redist: 
 ---
 
 # _DRIVE_LAYOUT_INFORMATION_MBR structure

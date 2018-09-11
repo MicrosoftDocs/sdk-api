@@ -4,17 +4,16 @@ title: IFilterGraph2::AddSourceFilterForMoniker
 author: windows-sdk-content
 description: The AddSourceFilterForMoniker method creates a source filter from an IMoniker pointer and adds the filter to the graph.
 old-location: dshow\ifiltergraph2_addsourcefilterformoniker.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7e398df6-7cb7-4028-be34-3040a2cd1c2b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: AddSourceFilterForMoniker, AddSourceFilterForMoniker method [DirectShow], AddSourceFilterForMoniker method [DirectShow],IFilterGraph2 interface, IFilterGraph2 interface [DirectShow],AddSourceFilterForMoniker method, IFilterGraph2.AddSourceFilterForMoniker, IFilterGraph2::AddSourceFilterForMoniker, IFilterGraph2AddSourceFilterForMoniker, dshow.ifiltergraph2_addsourcefilterformoniker, strmif/IFilterGraph2::AddSourceFilterForMoniker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFilterGraph2.AddSourceFilterForMoniker
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IFilterGraph2::AddSourceFilterForMoniker

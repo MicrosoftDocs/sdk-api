@@ -4,7 +4,7 @@ title: IGPMMapEntryCollection
 author: windows-sdk-content
 description: The IGPMMapEntryCollection interface enables applications to access map entry objects.
 old-location: gpmc\igpmmapentrycollection.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: a017ff4b-ab3c-4da9-b6c9-b4ccd24230eb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GPMMapEntryCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMMapEntryCollection interface

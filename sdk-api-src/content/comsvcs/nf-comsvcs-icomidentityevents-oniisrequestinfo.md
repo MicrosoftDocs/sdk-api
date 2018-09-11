@@ -4,17 +4,16 @@ title: IComIdentityEvents::OnIISRequestInfo
 author: windows-sdk-content
 description: Generated when an activity is part of an ASP page.
 old-location: cos\icomidentityevents_oniisrequestinfo.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 88beaef9-d042-4836-8223-6063c87ba06a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComIdentityEvents interface [COM+],OnIISRequestInfo method, IComIdentityEvents.OnIISRequestInfo, IComIdentityEvents::OnIISRequestInfo, OnIISRequestInfo, OnIISRequestInfo method [COM+], OnIISRequestInfo method [COM+],IComIdentityEvents interface, _dtc_IComIdentityEvents_OnIISRequestInfo, comsvcs/IComIdentityEvents::OnIISRequestInfo, cos.icomidentityevents_oniisrequestinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComIdentityEvents.OnIISRequestInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComIdentityEvents::OnIISRequestInfo

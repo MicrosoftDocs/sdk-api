@@ -4,7 +4,7 @@ title: "_HTTP_SERVICE_BINDING_W"
 author: windows-sdk-content
 description: HTTP_SERVICE_BINDING_W.
 old-location: http\http_service_binding_w.htm
-old-project: http
+tech.root: http
 ms.assetid: 0d840097-82d3-4ee3-b0d9-bcac4cf3e935
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_SERVICE_BINDING_W, *PHTTP_SERVICE_BINDING_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_SERVICE_BINDING_W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_SERVICE_BINDING_W, *PHTTP_SERVICE_BINDING_W
+req.redist: 
 ---
 
 # _HTTP_SERVICE_BINDING_W structure

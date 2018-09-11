@@ -4,17 +4,16 @@ title: IInitializeSpy::PostUninitialize
 author: windows-sdk-content
 description: Performs cleanup steps required after calling the CoUninitialize function.
 old-location: com\iinitializespy_postuninitialize.htm
-old-project: com
+tech.root: com
 ms.assetid: f91a1a4a-4d0b-491e-a7c6-01596b5b9712
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IInitializeSpy interface [COM],PostUninitialize method, IInitializeSpy.PostUninitialize, IInitializeSpy::PostUninitialize, PostUninitialize, PostUninitialize method [COM], PostUninitialize method [COM],IInitializeSpy interface, _com_iinitializespy_postuninitialize, com.iinitializespy_postuninitialize, objidl/IInitializeSpy::PostUninitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInitializeSpy.PostUninitialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IInitializeSpy::PostUninitialize

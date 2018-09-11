@@ -4,17 +4,16 @@ title: CertGetCertificateChain function
 author: windows-sdk-content
 description: Builds a certificate chain context starting from an end certificate and going back, if possible, to a trusted root certificate.
 old-location: security\certgetcertificatechain.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 8c93036c-0b93-40d4-b0e3-ba1f2fc72db1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CERT_CHAIN_CACHE_END_CERT, CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL, CERT_CHAIN_DISABLE_AIA, CERT_CHAIN_DISABLE_AUTH_ROOT_AUTO_UPDATE, CERT_CHAIN_DISABLE_MY_PEER_TRUST, CERT_CHAIN_DISABLE_PASS1_QUALITY_FILTERING, CERT_CHAIN_ENABLE_PEER_TRUST, CERT_CHAIN_OPT_IN_WEAK_SIGNATURE, CERT_CHAIN_RETURN_LOWER_QUALITY_CONTEXTS, CERT_CHAIN_REVOCATION_ACCUMULATIVE_TIMEOUT, CERT_CHAIN_REVOCATION_CHECK_CACHE_ONLY, CERT_CHAIN_REVOCATION_CHECK_CHAIN, CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, CERT_CHAIN_REVOCATION_CHECK_END_CERT, CERT_CHAIN_REVOCATION_CHECK_OCSP_CERT, CERT_CHAIN_TIMESTAMP_TIME, CertGetCertificateChain, CertGetCertificateChain function [Security], _crypto2_certgetcertificatechain, security.certgetcertificatechain, wincrypt/CertGetCertificateChain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertGetCertificateChain
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertGetCertificateChain function

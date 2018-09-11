@@ -4,7 +4,7 @@ title: tagPOINT
 author: windows-sdk-content
 description: The POINT structure defines the x- and y-coordinates of a point.
 old-location: display\point.htm
-old-project: display
+tech.root: display
 ms.assetid: 6fb3bd3f-f810-4043-812b-94495f38a6aa
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windef.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POINT, *PPOINT, *NPPOINT, *LPPOINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POINT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: POINT, *PPOINT, *NPPOINT, *LPPOINT
+req.redist: 
 ---
 
 # tagPOINT structure

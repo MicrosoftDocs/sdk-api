@@ -4,17 +4,16 @@ title: CustomLineCap::SetStrokeJoin
 author: windows-sdk-content
 description: The CustomLineCap::SetStrokeJoin method sets the style of line join for the stroke. The line join specifies how two lines that intersect within the GraphicsPath object that makes up the custom line cap are joined.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_SetStrokeJoin_lineJoin_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\setstrokejoin.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CustomLineCap class [GDI+],SetStrokeJoin method, CustomLineCap.SetStrokeJoin, CustomLineCap::SetStrokeJoin, SetStrokeJoin, SetStrokeJoin method [GDI+], SetStrokeJoin method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_SetStrokeJoin_lineJoin_, gdiplus._gdiplus_CLASS_CustomLineCap_SetStrokeJoin_lineJoin_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CustomLineCap.SetStrokeJoin
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

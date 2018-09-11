@@ -4,17 +4,16 @@ title: IDot11AdHocInterface::IsAdHocCapable
 author: windows-sdk-content
 description: Specifies whether a NIC supports the creation or use of an ad hoc network.
 old-location: nwifi\idot11adhocinterface_isadhoccapable.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 18e3419f-500e-40bb-b7f1-125e95c55690
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsAdHocCapable method, IDot11AdHocInterface.IsAdHocCapable, IDot11AdHocInterface::IsAdHocCapable, IsAdHocCapable, IsAdHocCapable method [NativeWIFI], IsAdHocCapable method [NativeWIFI],IDot11AdHocInterface interface, adhoc/IDot11AdHocInterface::IsAdHocCapable, nwifi.idot11adhocinterface_isadhoccapable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocInterface.IsAdHocCapable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocInterface::IsAdHocCapable

@@ -4,17 +4,16 @@ title: WsGetReaderPosition function
 author: windows-sdk-content
 description: Returns the current position of the reader. This can only be used on a reader that is set to an XmlBuffer.
 old-location: wsw\wsgetreaderposition.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 91e543f3-7325-4a90-9b99-c98918478853
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsGetReaderPosition, WsGetReaderPosition function [Web Services for Windows], webservices/WsGetReaderPosition, wsw.wsgetreaderposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsGetReaderPosition
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsGetReaderPosition function

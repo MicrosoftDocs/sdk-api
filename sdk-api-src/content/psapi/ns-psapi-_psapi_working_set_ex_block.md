@@ -4,17 +4,16 @@ title: "_PSAPI_WORKING_SET_EX_BLOCK"
 author: windows-sdk-content
 description: Contains extended working set information for a page.
 old-location: psapi\psapi_working_set_ex_block.htm
-old-project: psapi
+tech.root: psapi
 ms.assetid: 4ba17fa0-2aed-4099-9380-fc13f1b826ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPSAPI_WORKING_SET_EX_BLOCK, PPSAPI_WORKING_SET_EX_BLOCK, PPSAPI_WORKING_SET_EX_BLOCK union pointer [PSAPI], PSAPI_WORKING_SET_EX_BLOCK, PSAPI_WORKING_SET_EX_BLOCK union [PSAPI], _PSAPI_WORKING_SET_EX_BLOCK, base.psapi_working_set_ex_block, psapi.psapi_working_set_ex_block, psapi/PPSAPI_WORKING_SET_EX_BLOCK, psapi/PSAPI_WORKING_SET_EX_BLOCK"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: psapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSAPI_WORKING_SET_EX_BLOCK, *PPSAPI_WORKING_SET_EX_BLOCK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSAPI_WORKING_SET_EX_BLOCK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PSAPI_WORKING_SET_EX_BLOCK, *PPSAPI_WORKING_SET_EX_BLOCK
+req.redist: 
 ---
 
 # _PSAPI_WORKING_SET_EX_BLOCK structure

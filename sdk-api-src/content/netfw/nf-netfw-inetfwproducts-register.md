@@ -4,17 +4,16 @@ title: INetFwProducts::Register
 author: windows-sdk-content
 description: The Register method registers a third-party firewall product.
 old-location: ics\inetfwproducts_register.htm
-old-project: ics
+tech.root: ics
 ms.assetid: eea30680-f1c7-454d-896c-5116209fdc2c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwProducts interface [ICS/ICF],Register method, INetFwProducts.Register, INetFwProducts::Register, Register, Register method [ICS/ICF], Register method [ICS/ICF],INetFwProducts interface, ics.inetfwproducts_register, netfw/INetFwProducts::Register
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetFwProducts.Register
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwProducts::Register

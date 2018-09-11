@@ -4,7 +4,7 @@ title: "_CSV_CONTROL_PARAM"
 author: windows-sdk-content
 description: Represents a type of CSV control operation.
 old-location: fs\csv_control_param.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: B984F8CA-3548-4442-8D3B-B2F469F699E1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CSV_CONTROL_PARAM, *PCSV_CONTROL_PARAM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CSV_CONTROL_PARAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CSV_CONTROL_PARAM, *PCSV_CONTROL_PARAM
+req.redist: 
 ---
 
 # _CSV_CONTROL_PARAM structure

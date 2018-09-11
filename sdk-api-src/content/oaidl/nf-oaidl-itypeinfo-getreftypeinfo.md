@@ -4,17 +4,16 @@ title: ITypeInfo::GetRefTypeInfo
 author: windows-sdk-content
 description: If a type description references other type descriptions, it retrieves the referenced type descriptions.
 old-location: automat\itypeinfo_getreftypeinfo.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 61d3b31d-6591-4e55-9e82-5246a168be00
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetRefTypeInfo, GetRefTypeInfo method [Automation], GetRefTypeInfo method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetRefTypeInfo method, ITypeInfo.GetRefTypeInfo, ITypeInfo::GetRefTypeInfo, _oa96_ITypeInfo_GetRefTypeInfo, automat.itypeinfo_getreftypeinfo, oaidl/ITypeInfo::GetRefTypeInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo.GetRefTypeInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::GetRefTypeInfo

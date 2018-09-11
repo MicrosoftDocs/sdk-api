@@ -4,17 +4,16 @@ title: IDataRetrieverCallback::LoadChangeDataError
 author: windows-sdk-content
 description: Indicates that an IAsynchronousDataRetriever method failed.
 old-location: winsync\idataretrievercallback_loadchangedataerror.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 93185b3d-458d-4254-af2d-02cf7b1c5be7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IDataRetrieverCallback interface [Windows Sync],LoadChangeDataError method, IDataRetrieverCallback.LoadChangeDataError, IDataRetrieverCallback::LoadChangeDataError, LoadChangeDataError, LoadChangeDataError method [Windows Sync], LoadChangeDataError method [Windows Sync],IDataRetrieverCallback interface, winsync.idataretrievercallback_loadchangedataerror, winsync/IDataRetrieverCallback::LoadChangeDataError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataRetrieverCallback.LoadChangeDataError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IDataRetrieverCallback::LoadChangeDataError

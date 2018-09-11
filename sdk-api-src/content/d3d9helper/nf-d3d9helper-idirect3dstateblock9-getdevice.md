@@ -4,17 +4,16 @@ title: IDirect3DStateBlock9::GetDevice
 author: windows-sdk-content
 description: Gets the device.
 old-location: direct3d9\idirect3dstateblock9__getdevice.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dstateblock9__getdevice.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetDevice, GetDevice method [Direct3D 9], GetDevice method [Direct3D 9],IDirect3DStateBlock9 interface, IDirect3DStateBlock9 interface [Direct3D 9],GetDevice method, IDirect3DStateBlock9.GetDevice, IDirect3DStateBlock9::GetDevice, d3d9helper/IDirect3DStateBlock9::GetDevice, df9ae4d3-a81f-bc7b-9ed3-3e0f1df28568, direct3d9.idirect3dstateblock9__getdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DStateBlock9.GetDevice
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DStateBlock9::GetDevice

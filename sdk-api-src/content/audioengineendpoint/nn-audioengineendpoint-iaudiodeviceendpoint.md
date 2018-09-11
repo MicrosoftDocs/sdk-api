@@ -4,7 +4,7 @@ title: IAudioDeviceEndpoint
 author: windows-sdk-content
 description: Initializes a device endpoint object and gets the capabilities of the device that it represents.
 old-location: termserv\iaudiodeviceendpoint.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 3112bc7e-e138-4b42-8f82-61fdf19f7e94
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioDeviceEndpoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioDeviceEndpoint interface

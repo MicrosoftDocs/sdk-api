@@ -4,17 +4,16 @@ title: IEventClass
 author: windows-sdk-content
 description: Associates a class of event objects with the event interface those objects implement.
 old-location: cos\ieventclass.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: e8c1fcd1-59fb-49d6-94b9-52b7c8551651
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEventClass, IEventClass interface [COM+], IEventClass interface [COM+],described, _cos_IEventClass, cos.ieventclass, eventsys/IEventClass
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventClass
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventClass interface

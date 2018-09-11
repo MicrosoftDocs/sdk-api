@@ -4,17 +4,16 @@ title: IDefaultFolderMenuInitialize::SetHandlerClsid
 author: windows-sdk-content
 description: "."
 old-location: shell\IDefaultFolderMenuInitialize_SetHandlerClsid.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 90D861DA-33B7-4054-888E-86B504B2C5D1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],SetHandlerClsid method, IDefaultFolderMenuInitialize.SetHandlerClsid, IDefaultFolderMenuInitialize::SetHandlerClsid, SetHandlerClsid, SetHandlerClsid method [Windows Shell], SetHandlerClsid method [Windows Shell],IDefaultFolderMenuInitialize interface, shell.IDefaultFolderMenuInitialize_SetHandlerClsid, shobjidl_core/IDefaultFolderMenuInitialize::SetHandlerClsid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDefaultFolderMenuInitialize.SetHandlerClsid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDefaultFolderMenuInitialize::SetHandlerClsid

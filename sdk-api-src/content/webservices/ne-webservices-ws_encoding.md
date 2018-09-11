@@ -4,17 +4,16 @@ title: WS_ENCODING
 author: windows-sdk-content
 description: The different encodings (message formats).
 old-location: wsw\ws_encoding.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 37858df7-ae76-41c1-8fd2-fc810b8927bf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_ENCODING, WS_ENCODING enumeration [Web Services for Windows], WS_ENCODING_XML_BINARY_1, WS_ENCODING_XML_BINARY_SESSION_1, WS_ENCODING_XML_MTOM_UTF16BE, WS_ENCODING_XML_MTOM_UTF16LE, WS_ENCODING_XML_MTOM_UTF8, WS_ENCODING_XML_UTF16BE, WS_ENCODING_XML_UTF16LE, WS_ENCODING_XML_UTF8, webservices/WS_ENCODING, webservices/WS_ENCODING_XML_BINARY_1, webservices/WS_ENCODING_XML_BINARY_SESSION_1, webservices/WS_ENCODING_XML_MTOM_UTF16BE, webservices/WS_ENCODING_XML_MTOM_UTF16LE, webservices/WS_ENCODING_XML_MTOM_UTF8, webservices/WS_ENCODING_XML_UTF16BE, webservices/WS_ENCODING_XML_UTF16LE, webservices/WS_ENCODING_XML_UTF8, wsw.ws_encoding
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_ENCODING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_ENCODING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_ENCODING
+req.redist: 
 ---
 
 # WS_ENCODING enumeration

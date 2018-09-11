@@ -4,17 +4,16 @@ title: GetUserDefaultLangID function
 author: windows-sdk-content
 description: Returns the language identifier of the Region Format setting for the current user.
 old-location: intl\getuserdefaultlangid.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: b1f25fc1-9435-4e9b-b8d0-a670a198ab3a
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetUserDefaultLangID, GetUserDefaultLangID function [Internationalization for Windows Applications], _win32_GetUserDefaultLangID, intl.getuserdefaultlangid, winnls/GetUserDefaultLangID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetUserDefaultLangID
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetUserDefaultLangID function

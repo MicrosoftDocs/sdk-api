@@ -4,7 +4,7 @@ title: HTTP_SERVICE_CONFIG_CACHE_SET
 author: windows-sdk-content
 description: Used in the pConfigInformation parameter of the HttpSetServiceConfiguration function.
 old-location: http\http_service_config_cache_set.htm
-old-project: http
+tech.root: http
 ms.assetid: e868822a-95f8-4dbe-bffb-c5b5c151fa41
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_SERVICE_CONFIG_CACHE_SET, *PHTTP_SERVICE_CONFIG_CACHE_SET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_SERVICE_CONFIG_CACHE_SET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_SERVICE_CONFIG_CACHE_SET, *PHTTP_SERVICE_CONFIG_CACHE_SET
+req.redist: 
 ---
 
 # HTTP_SERVICE_CONFIG_CACHE_SET structure

@@ -4,17 +4,16 @@ title: "_WS_STRING"
 author: windows-sdk-content
 description: An array of Unicode characters and a length.
 old-location: wsw\ws_string.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: eb6c7397-6b15-4e79-89ec-585861113edf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_STRING, WS_STRING structure [Web Services for Windows], _WS_STRING, webservices/WS_STRING, wsw.ws_string
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_STRING
+req.redist: 
 ---
 
 # _WS_STRING structure

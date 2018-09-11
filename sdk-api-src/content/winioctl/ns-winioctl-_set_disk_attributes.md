@@ -4,7 +4,7 @@ title: "_SET_DISK_ATTRIBUTES"
 author: windows-sdk-content
 description: Specifies the attributes to be set on a disk device.
 old-location: fs\set_disk_attributes.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 2caa79aa-24f9-481d-bbe3-ecd3e49bf316
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SET_DISK_ATTRIBUTES, *PSET_DISK_ATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SET_DISK_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: SET_DISK_ATTRIBUTES, *PSET_DISK_ATTRIBUTES
+req.redist: 
 ---
 
 # _SET_DISK_ATTRIBUTES structure

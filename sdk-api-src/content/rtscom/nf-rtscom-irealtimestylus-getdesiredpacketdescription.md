@@ -4,17 +4,16 @@ title: IRealTimeStylus::GetDesiredPacketDescription
 author: windows-sdk-content
 description: Retrieves the list of properties that have been requested to be included in the packet stream.
 old-location: tablet\irealtimestylus_getdesiredpacketdescription.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 8799eb17-8ad0-49c1-a278-40b3bff9d281
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 8799eb17-8ad0-49c1-a278-40b3bff9d281, GetDesiredPacketDescription, GetDesiredPacketDescription method [Tablet PC], GetDesiredPacketDescription method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetDesiredPacketDescription method, IRealTimeStylus.GetDesiredPacketDescription, IRealTimeStylus::GetDesiredPacketDescription, rtscom/IRealTimeStylus::GetDesiredPacketDescription, tablet.irealtimestylus_getdesiredpacketdescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRealTimeStylus.GetDesiredPacketDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylus::GetDesiredPacketDescription

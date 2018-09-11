@@ -4,7 +4,7 @@ title: "_DHCP_POL_COND"
 author: windows-sdk-content
 description: The DHCP_POL_COND structure defines the DHCP server policy condition.
 old-location: dhcp\dhcp_pol_cond.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 99A36029-1CBD-4A93-B25A-A0239D1C08D7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_POL_COND, *PDHCP_POL_COND, *LPDHCP_POL_COND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_POL_COND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_POL_COND, *PDHCP_POL_COND, *LPDHCP_POL_COND
+req.redist: 
 ---
 
 # _DHCP_POL_COND structure

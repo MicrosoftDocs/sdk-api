@@ -4,7 +4,7 @@ title: D3D_TESSELLATOR_DOMAIN
 author: windows-sdk-content
 description: Domain options for tessellator data.
 old-location: direct3d11\d3d11_tessellator_domain.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: d0c9ea8a-a1e2-44c3-a4ac-bdc43e5171b5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_TESSELLATOR_DOMAIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - D3D11_TESSELLATOR_DOMAIN
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: 
-req.irql: 
+req.typenames: D3D_TESSELLATOR_DOMAIN
+req.redist: 
 ---
 
 # D3D_TESSELLATOR_DOMAIN enumeration

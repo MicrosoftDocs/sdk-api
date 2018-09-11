@@ -4,7 +4,7 @@ title: D3D11_TRACE_GS_INPUT_PRIMITIVE
 author: windows-sdk-content
 description: Identifies the type of geometry shader input primitive.
 old-location: direct3d11\d3d11_trace_gs_input_primitive.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 9719D3B0-3E2E-4C0A-8CCA-4D7DA00E8FE9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11shadertracing.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TRACE_GS_INPUT_PRIMITIVE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_TRACE_GS_INPUT_PRIMITIVE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_TRACE_GS_INPUT_PRIMITIVE
+req.redist: 
 ---
 
 # D3D11_TRACE_GS_INPUT_PRIMITIVE enumeration

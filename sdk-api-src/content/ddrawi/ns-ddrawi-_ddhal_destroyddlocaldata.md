@@ -4,7 +4,7 @@ title: "_DDHAL_DESTROYDDLOCALDATA"
 author: windows-sdk-content
 description: DDHAL_DESTROYDDLOCALDATA contains the information required for the driver to destroy a set of surfaces associated to a given local DirectDraw object.
 old-location: display\ddhal_destroyddlocaldata.htm
-old-project: display
+tech.root: display
 ms.assetid: 9d1d14b8-ceaf-4845-a388-a084aa0472a7
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawi.h
 req.include-header: D3dhal.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDHAL_DESTROYDDLOCALDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.redist: 
 ---
 
 # _DDHAL_DESTROYDDLOCALDATA structure

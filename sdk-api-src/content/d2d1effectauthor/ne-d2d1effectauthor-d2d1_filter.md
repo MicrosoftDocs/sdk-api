@@ -4,7 +4,7 @@ title: D2D1_FILTER
 author: windows-sdk-content
 description: Represents filtering modes that a transform may select to use on input textures.
 old-location: direct2d\d2d1_filter.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: cd978d3c-ae41-4321-95dd-46b186acf002
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: D2d1.lib; D2d1.dll
-tech.root: 
-req.typenames: D2D1_FILTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - D2D1_FILTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_FILTER
+req.redist: 
 ---
 
 # D2D1_FILTER enumeration

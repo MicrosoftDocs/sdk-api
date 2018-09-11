@@ -4,17 +4,16 @@ title: IDCompositionDevice2::Commit
 author: windows-sdk-content
 description: Commits all DirectComposition commands that are pending on this device.
 old-location: directcomp\idcompositiondevice2_commit.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 8C24DE03-CF1E-4DC4-8C27-913DAD278579
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: Commit, Commit method [DirectComposition], Commit method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],Commit method, IDCompositionDevice2.Commit, IDCompositionDevice2::Commit, dcomp/IDCompositionDevice2::Commit, directcomp.idcompositiondevice2_commit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice2.Commit
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice2::Commit

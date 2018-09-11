@@ -4,7 +4,7 @@ title: "_STRING_BUFFER_HEADER"
 author: windows-sdk-content
 description: Provides information about the PERF_STRING_BUFFER_HEADER block that contains the structure.
 old-location: perf\perf_string_buffer_header.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 874A97BA-708E-4001-A7CA-1C3114577D7D
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_STRING_BUFFER_HEADER, *PPERF_STRING_BUFFER_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERF_STRING_BUFFER_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PERF_STRING_BUFFER_HEADER, *PPERF_STRING_BUFFER_HEADER
+req.redist: 
 ---
 
 # _STRING_BUFFER_HEADER structure

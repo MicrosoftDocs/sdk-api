@@ -4,17 +4,16 @@ title: IADsTSUserEx::get_TerminalServicesProfilePath
 author: windows-sdk-content
 description: The roaming or mandatory profile path to be used when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iadstsuserex_terminalservicesprofilepath.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 282c20ab-378d-4205-90d3-6d28b0770adc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesProfilePath property, IADsTSUserEx.TerminalServicesProfilePath, IADsTSUserEx.get_TerminalServicesProfilePath, IADsTSUserEx::TerminalServicesProfilePath, IADsTSUserEx::get_TerminalServicesProfilePath, IADsTSUserEx::put_TerminalServicesProfilePath, TerminalServicesProfilePath property [Remote Desktop Services], TerminalServicesProfilePath property [Remote Desktop Services],IADsTSUserEx interface, get_TerminalServicesProfilePath, termserv.iadstsuserex_terminalservicesprofilepath, tsuserex/IADsTSUserEx::TerminalServicesProfilePath, tsuserex/IADsTSUserEx::get_TerminalServicesProfilePath, tsuserex/IADsTSUserEx::put_TerminalServicesProfilePath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Tsuserex.tlb
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: Tsuserex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IADsTSUserEx.put_TerminalServicesProfilePath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tsuserex.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IADsTSUserEx::get_TerminalServicesProfilePath

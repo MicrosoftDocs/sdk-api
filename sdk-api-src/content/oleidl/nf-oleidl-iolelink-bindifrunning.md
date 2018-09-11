@@ -4,17 +4,16 @@ title: IOleLink::BindIfRunning
 author: windows-sdk-content
 description: Activates the connection between the linked object and the link source if the link source is already running.
 old-location: com\iolelink_bindifrunning.htm
-old-project: com
+tech.root: com
 ms.assetid: 791fbb3c-6b73-490c-a69b-ba58fd386de4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BindIfRunning, BindIfRunning method [COM], BindIfRunning method [COM],IOleLink interface, IOleLink interface [COM],BindIfRunning method, IOleLink.BindIfRunning, IOleLink::BindIfRunning, _ole_iolelink_bindifrunning, com.iolelink_bindifrunning, oleidl/IOleLink::BindIfRunning
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleLink.BindIfRunning
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleLink::BindIfRunning

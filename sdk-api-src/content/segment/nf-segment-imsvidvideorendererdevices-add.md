@@ -4,17 +4,16 @@ title: IMSVidVideoRendererDevices::Add
 author: windows-sdk-content
 description: The Add method adds a video renderer to the collection.
 old-location: mstv\imsvidvideorendererdevices_add.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 650b7895-4e4b-494a-bc06-dafb67fca391
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, IMSVidVideoRendererDevices interface [Microsoft TV Technologies],Add method, IMSVidVideoRendererDevices.Add, IMSVidVideoRendererDevices::Add, IMSVidVideoRendererDevicesAdd, mstv.imsvidvideorendererdevices_add, segment/IMSVidVideoRendererDevices::Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRendererDevices.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRendererDevices::Add

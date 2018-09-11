@@ -4,17 +4,16 @@ title: INetFwIcmpSettings::get_AllowOutboundSourceQuench
 author: windows-sdk-content
 description: Indicates whether outbound source quench is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundsourcequench.htm
-old-project: ics
+tech.root: ics
 ms.assetid: a70cdff7-5e93-4120-9000-424a91d522ea
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AllowOutboundSourceQuench property [ICS/ICF], AllowOutboundSourceQuench property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundSourceQuench property, INetFwIcmpSettings.AllowOutboundSourceQuench, INetFwIcmpSettings.get_AllowOutboundSourceQuench, INetFwIcmpSettings::AllowOutboundSourceQuench, INetFwIcmpSettings::get_AllowOutboundSourceQuench, INetFwIcmpSettings::put_AllowOutboundSourceQuench, get_AllowOutboundSourceQuench, ics.inetfwicmpsettings_allowoutboundsourcequench, netfw/INetFwIcmpSettings::AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::get_AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::put_AllowOutboundSourceQuench
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwIcmpSettings.put_AllowOutboundSourceQuench
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwIcmpSettings::get_AllowOutboundSourceQuench

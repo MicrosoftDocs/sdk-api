@@ -4,17 +4,16 @@ title: IFolderView2::GetSelectedItem
 author: windows-sdk-content
 description: Locates the currently selected item at or after a given index.
 old-location: shell\IFolderView2_GetSelectedItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fca9fd45-05ce-4300-aecf-a2843614a11d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetSelectedItem, GetSelectedItem method [Windows Shell], GetSelectedItem method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSelectedItem method, IFolderView2.GetSelectedItem, IFolderView2::GetSelectedItem, _shell_IFolderView2_GetSelectedItem, shell.IFolderView2_GetSelectedItem, shobjidl_core/IFolderView2::GetSelectedItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderView2.GetSelectedItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderView2::GetSelectedItem

@@ -4,17 +4,16 @@ title: tagUPDATELAYEREDWINDOWINFO
 author: windows-sdk-content
 description: Used by UpdateLayeredWindowIndirect to provide position, size, shape, content, and translucency information for a layered window.
 old-location: winmsg\updatelayeredwindowinfo.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\updatelayeredwindowinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*PUPDATELAYEREDWINDOWINFO, PUPDATELAYEREDWINDOWINFO, PUPDATELAYEREDWINDOWINFO structure pointer [Windows and Messages], ULW_ALPHA, ULW_COLORKEY, ULW_EX_NORESIZE, ULW_OPAQUE, UPDATELAYEREDWINDOWINFO, UPDATELAYEREDWINDOWINFO structure [Windows and Messages], _win32_UPDATELAYEREDWINDOWINFO, _win32_updatelayeredwindowinfo_cpp, tagUPDATELAYEREDWINDOWINFO, winmsg.updatelayeredwindowinfo, winui._win32_updatelayeredwindowinfo, winuser/PUPDATELAYEREDWINDOWINFO, winuser/UPDATELAYEREDWINDOWINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UPDATELAYEREDWINDOWINFO, *PUPDATELAYEREDWINDOWINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UPDATELAYEREDWINDOWINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: UPDATELAYEREDWINDOWINFO, *PUPDATELAYEREDWINDOWINFO
+req.redist: 
 ---
 
 # tagUPDATELAYEREDWINDOWINFO structure

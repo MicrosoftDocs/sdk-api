@@ -4,17 +4,16 @@ title: ISdo::ResetProperty
 author: windows-sdk-content
 description: The ResetProperty method resets the specified property to its default value.
 old-location: nps\SDO_isdo_resetproperty.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 650df0aa-6331-4a3f-b965-d48fd68fd31d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISdo interface [Network Policy Server],ResetProperty method, ISdo.ResetProperty, ISdo::ResetProperty, ResetProperty, ResetProperty method [Network Policy Server], ResetProperty method [Network Policy Server],ISdo interface, _sdo_isdo_resetproperty, nps.SDO_isdo_resetproperty, sdo.isdo_resetproperty, sdoias/ISdo::ResetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VENDORPROPERTIES
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISdo.ResetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISdo::ResetProperty

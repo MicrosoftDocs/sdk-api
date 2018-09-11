@@ -4,17 +4,16 @@ title: IAnchor::Shift
 author: windows-sdk-content
 description: The IAnchor::Shift method shifts the anchor forward or backward within a text stream.
 old-location: tsf\ianchor_shift.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: e57a78e6-42e6-4a2b-b4e1-20bb64add872
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAnchor interface [Text Services Framework],Shift method, IAnchor.Shift, IAnchor::Shift, Shift, Shift method [Text Services Framework], Shift method [Text Services Framework],IAnchor interface, TS_SHIFT_COUNT_ONLY, textstor/IAnchor::Shift, tsf.ianchor_shift
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnchor.Shift
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IAnchor::Shift

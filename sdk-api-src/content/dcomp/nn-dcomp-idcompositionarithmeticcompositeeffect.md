@@ -4,7 +4,7 @@ title: IDCompositionArithmeticCompositeEffect
 author: windows-sdk-content
 description: The arithmetic composite effect is used to combine 2 images using a weighted sum of pixels from the input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 06430DD6-B6BF-4F55-A99C-13860B800444
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionArithmeticCompositeEffect
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionArithmeticCompositeEffect interface

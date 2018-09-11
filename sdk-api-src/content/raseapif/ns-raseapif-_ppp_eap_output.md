@@ -4,7 +4,7 @@ title: "_PPP_EAP_OUTPUT"
 author: windows-sdk-content
 description: The authentication protocol uses the PPP_EAP_OUTPUT structure to communicate requests and status information to the Connection Manager on return from calls to RasEapMakeMessage.
 old-location: eap\ppp_eap_output.htm
-old-project: eap
+tech.root: eap
 ms.assetid: d1634973-f6af-4be3-914a-513098c5fccf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: raseapif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PPP_EAP_OUTPUT, *PPPP_EAP_OUTPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PPP_EAP_OUTPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PPP_EAP_OUTPUT, *PPPP_EAP_OUTPUT
+req.redist: 
 ---
 
 # _PPP_EAP_OUTPUT structure

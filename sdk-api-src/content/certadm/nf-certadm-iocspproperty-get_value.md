@@ -4,17 +4,16 @@ title: IOCSPProperty::get_Value
 author: windows-sdk-content
 description: Gets or sets the data part of the name-value pair represented by an OCSPProperty object.
 old-location: security\iocspproperty_value_method.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IOCSPProperty interface [Security],Value property, IOCSPProperty.Value, IOCSPProperty.get_Value, IOCSPProperty::Value, IOCSPProperty::get_Value, IOCSPProperty::put_Value, Value property [Security], Value property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Value, certadm/IOCSPProperty::get_Value, certadm/IOCSPProperty::put_Value, get_Value, security.iocspproperty_value_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IOCSPProperty.put_Value
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPProperty::get_Value

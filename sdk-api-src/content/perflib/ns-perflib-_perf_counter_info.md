@@ -4,7 +4,7 @@ title: "_PERF_COUNTER_INFO"
 author: windows-sdk-content
 description: Defines information about a counter that a provider uses. The CTRPP tool automatically generates this structure based on the schema you specify.
 old-location: perf\perf_counter_info.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: f1fb6ad5-ad38-46d0-b76d-803887ba3d97
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_COUNTER_INFO, *PPERF_COUNTER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERF_COUNTER_INFO, *PPERF_COUNTER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PERF_COUNTER_INFO, *PPERF_COUNTER_INFO
+req.redist: 
 ---
 
 # _PERF_COUNTER_INFO structure

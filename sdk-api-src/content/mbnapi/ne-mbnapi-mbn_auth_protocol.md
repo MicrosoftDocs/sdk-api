@@ -4,17 +4,16 @@ title: MBN_AUTH_PROTOCOL
 author: windows-sdk-content
 description: The MBN_AUTH_PROTOCOL enumerated type specifies the authentication protocol used for Packet Data Protocol (PDP) activation.
 old-location: mbn\mbn_auth_protocol.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 7a1858d4-3415-490d-b264-3033cd8f5af7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_AUTH_PROTOCOL, MBN_AUTH_PROTOCOL enumeration [Microsoft Broadband Networks], MBN_AUTH_PROTOCOL_CHAP, MBN_AUTH_PROTOCOL_MSCHAPV2, MBN_AUTH_PROTOCOL_NONE, MBN_AUTH_PROTOCOL_PAP, mbn.mbn_auth_protocol, mbnapi/MBN_AUTH_PROTOCOL, mbnapi/MBN_AUTH_PROTOCOL_CHAP, mbnapi/MBN_AUTH_PROTOCOL_MSCHAPV2, mbnapi/MBN_AUTH_PROTOCOL_NONE, mbnapi/MBN_AUTH_PROTOCOL_PAP
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_AUTH_PROTOCOL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_AUTH_PROTOCOL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_AUTH_PROTOCOL
+req.redist: 
 ---
 
 # MBN_AUTH_PROTOCOL enumeration

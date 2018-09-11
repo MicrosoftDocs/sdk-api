@@ -4,17 +4,16 @@ title: IWbemClassObject::GetPropertyOrigin
 author: windows-sdk-content
 description: The IWbemClassObject::GetPropertyOrigin method retrieves the name of the class in which a particular property was introduced.
 old-location: wmi\iwbemclassobject_getpropertyorigin.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 05228d88-baa2-4e89-a8c8-139f9ffea86c
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetPropertyOrigin, GetPropertyOrigin method [Windows Management Instrumentation], GetPropertyOrigin method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetPropertyOrigin method, IWbemClassObject.GetPropertyOrigin, IWbemClassObject::GetPropertyOrigin, _hmm_iwbemclassobject_getpropertyorigin, wbemcli/IWbemClassObject::GetPropertyOrigin, wmi.iwbemclassobject_getpropertyorigin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: WbemUuid.lib
+req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - IWbemClassObject.GetPropertyOrigin
 product: Windows
 targetos: Windows
-req.lib: WbemUuid.lib
-req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemClassObject::GetPropertyOrigin

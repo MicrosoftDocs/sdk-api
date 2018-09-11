@@ -4,7 +4,7 @@ title: D3D12_CLEAR_VALUE
 author: windows-sdk-content
 description: Describes a value used to optimize clear operations for a particular resource.
 old-location: direct3d12\d3d12_clear_value.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 03B67F91-C150-4719-8C43-D04F51DC9C06
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_CLEAR_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_CLEAR_VALUE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_CLEAR_VALUE
+req.redist: 
 ---
 
 # D3D12_CLEAR_VALUE structure

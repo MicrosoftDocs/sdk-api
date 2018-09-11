@@ -4,17 +4,16 @@ title: MBN_CONTEXT
 author: windows-sdk-content
 description: The MBN_CONTEXT structure stores information about the connection context.
 old-location: mbn\mbn_context.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 949b1bb3-8cad-45b4-81b7-1f70a76b6c8c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_CONTEXT, MBN_CONTEXT structure [Microsoft Broadband Networks], mbn.mbn_context, mbnapi/MBN_CONTEXT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_CONTEXT
+req.redist: 
 ---
 
 # MBN_CONTEXT structure

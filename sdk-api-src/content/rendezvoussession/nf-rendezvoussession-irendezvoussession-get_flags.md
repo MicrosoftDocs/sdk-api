@@ -4,17 +4,16 @@ title: IRendezvousSession::get_Flags
 author: windows-sdk-content
 description: Retrieves a value that indicates session information. For example, the session flag can indicate whether the user is the inviter or the invitee.
 old-location: remoteassist\remoteassist_IRendezvousSession_Flags.htm
-old-project: remoteassist
+tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\flags.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: Flags property [Remote Assistance], Flags property [Remote Assistance],IRendezvousSession interface, IRendezvousSession interface [Remote Assistance],Flags property, IRendezvousSession.Flags, IRendezvousSession.get_Flags, IRendezvousSession::Flags, IRendezvousSession::get_Flags, get_Flags, remoteassist.remoteassist_IRendezvousSession_Flags, remoteassist_IRendezvousSession_Flags, rendezvoussession/IRendezvousSession::Flags, rendezvoussession/IRendezvousSession::get_Flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rendezvoussession.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RendezvousSession.tlb
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRendezvousSession.get_Flags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRendezvousSession::get_Flags

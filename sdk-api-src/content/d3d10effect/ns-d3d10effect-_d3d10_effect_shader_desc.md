@@ -4,17 +4,16 @@ title: "_D3D10_EFFECT_SHADER_DESC"
 author: windows-sdk-content
 description: Describes an effect shader.
 old-location: direct3d10\d3d10_effect_shader_desc.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_effect_shader_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 7f99dca9-036c-f8a6-79ea-5316af7e1124, D3D10_EFFECT_SHADER_DESC, D3D10_EFFECT_SHADER_DESC structure [Direct3D 10], _D3D10_EFFECT_SHADER_DESC, d3d10effect/D3D10_EFFECT_SHADER_DESC, direct3d10.d3d10_effect_shader_desc
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10effect.h
 req.include-header: D3D10.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_EFFECT_SHADER_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_EFFECT_SHADER_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_EFFECT_SHADER_DESC
+req.redist: 
 ---
 
 # _D3D10_EFFECT_SHADER_DESC structure

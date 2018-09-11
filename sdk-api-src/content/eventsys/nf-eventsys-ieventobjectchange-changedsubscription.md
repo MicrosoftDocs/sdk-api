@@ -4,17 +4,16 @@ title: IEventObjectChange::ChangedSubscription
 author: windows-sdk-content
 description: Indicates that a subscription object has been added, modified, or deleted.
 old-location: cos\ieventobjectchange_changedsubscription.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 61d67705-b225-4f9e-98a5-cb636989f44f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ChangedSubscription, ChangedSubscription method [COM+], ChangedSubscription method [COM+],IEventObjectChange interface, IEventObjectChange interface [COM+],ChangedSubscription method, IEventObjectChange.ChangedSubscription, IEventObjectChange::ChangedSubscription, _cos_IEventObjectChange_ChangedSubscription, cos.ieventobjectchange_changedsubscription, eventsys/IEventObjectChange::ChangedSubscription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventObjectChange.ChangedSubscription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventObjectChange::ChangedSubscription

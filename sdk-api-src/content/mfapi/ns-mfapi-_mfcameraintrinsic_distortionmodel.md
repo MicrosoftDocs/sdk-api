@@ -4,7 +4,7 @@ title: "_MFCameraIntrinsic_DistortionModel"
 author: windows-sdk-content
 description: Represents a polynomial lens distortion model.
 old-location: mf\mfcameraintrinsic_distortionmodel.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0D2410DC-E67E-4B5E-B55F-6B47A0B72290
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFCameraIntrinsic_DistortionModel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCameraIntrinsic_DistortionModel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFCameraIntrinsic_DistortionModel
+req.redist: 
 ---
 
 # _MFCameraIntrinsic_DistortionModel structure

@@ -4,17 +4,16 @@ title: "_SecPkgContext_SessionAppData"
 author: windows-sdk-content
 description: Stores application data for a session context.
 old-location: security\secpkgcontext_sessionappdata.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 7bda791a-dd60-4651-bfe8-13333017d6a3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_SessionAppData, SecPkgContext_SessionAppData, SecPkgContext_SessionAppData structure [Security], _SecPkgContext_SessionAppData, schannel/SecPkgContext_SessionAppData, security.secpkgcontext_sessionappdata"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: Schnlsp.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_SessionAppData, *PSecPkgContext_SessionAppData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_SessionAppData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SecPkgContext_SessionAppData, *PSecPkgContext_SessionAppData
+req.redist: 
 ---
 
 # _SecPkgContext_SessionAppData structure

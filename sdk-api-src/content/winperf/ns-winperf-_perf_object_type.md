@@ -4,7 +4,7 @@ title: "_PERF_OBJECT_TYPE"
 author: windows-sdk-content
 description: Describes object-specific performance information, for example, the number of instances of the object and the number of counters that the object defines.
 old-location: perf\perf_object_type_str.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 9ed4f890-6256-45fd-a310-b5963a6131ae
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winperf.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERF_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.redist: 
 ---
 
 # _PERF_OBJECT_TYPE structure

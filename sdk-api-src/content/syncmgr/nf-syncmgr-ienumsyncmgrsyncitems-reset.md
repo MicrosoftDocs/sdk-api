@@ -4,17 +4,16 @@ title: IEnumSyncMgrSyncItems::Reset
 author: windows-sdk-content
 description: Resets the current position in the enumeration to 0.
 old-location: shell\IEnumSyncMgrSyncItems_Reset.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8144b47e-0419-4bc8-a57d-dc5c2b743f62
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IEnumSyncMgrSyncItems interface [Windows Shell],Reset method, IEnumSyncMgrSyncItems.Reset, IEnumSyncMgrSyncItems::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumSyncMgrSyncItems interface, _shell_IEnumSyncMgrSyncItems_Reset, shell.IEnumSyncMgrSyncItems_Reset, syncmgr/IEnumSyncMgrSyncItems::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSyncMgrSyncItems.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSyncMgrSyncItems::Reset

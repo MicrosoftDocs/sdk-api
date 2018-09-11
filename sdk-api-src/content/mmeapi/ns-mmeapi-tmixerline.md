@@ -4,7 +4,7 @@ title: tMIXERLINE
 author: windows-sdk-content
 description: The MIXERLINE structure describes the state and metrics of an audio line.
 old-location: multimedia\mixerline.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: a314cdcd-dd52-49f1-92b4-c8e3775dcbe2
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIXERLINE, *PMIXERLINE, *LPMIXERLINE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIXERLINE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIXERLINE, *PMIXERLINE, *LPMIXERLINE
+req.redist: 
 ---
 
 # tMIXERLINE structure

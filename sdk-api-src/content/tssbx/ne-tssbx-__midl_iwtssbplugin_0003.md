@@ -4,7 +4,7 @@ title: "__MIDL_IWTSSBPlugin_0003"
 author: windows-sdk-content
 description: Contains values that indicate the address family of a network address that is being used for redirection.
 old-location: termserv\wtssbx_address_family.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 8fe243ef-f52b-4b1a-8300-0b8a5a8a4c8d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tssbx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_ADDRESS_FAMILY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTSSBX_ADDRESS_FAMILY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: WTSSBX_ADDRESS_FAMILY
+req.redist: 
 ---
 
 # __MIDL_IWTSSBPlugin_0003 enumeration

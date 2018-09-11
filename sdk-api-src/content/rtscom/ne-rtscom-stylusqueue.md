@@ -4,17 +4,16 @@ title: StylusQueue
 author: windows-sdk-content
 description: Specifies the queue to which stylus data is added.
 old-location: tablet\stylusqueue.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 245f1c78-a6e9-4138-bddb-c0c890583aea
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 245f1c78-a6e9-4138-bddb-c0c890583aea, AsyncStylusQueue, AsyncStylusQueueImmediate, StylusQueue, StylusQueue enumeration [Tablet PC], SyncStylusQueue, rtscom/AsyncStylusQueue, rtscom/AsyncStylusQueueImmediate, rtscom/StylusQueue, rtscom/SyncStylusQueue, tablet.stylusqueue
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - StylusQueue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: StylusQueue
+req.redist: 
 ---
 
 # StylusQueue enumeration

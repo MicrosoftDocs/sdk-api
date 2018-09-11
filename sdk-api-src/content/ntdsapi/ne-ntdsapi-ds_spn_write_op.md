@@ -4,7 +4,7 @@ title: DS_SPN_WRITE_OP
 author: windows-sdk-content
 description: The DS_SPN_WRITE_OP enumeration identifies the type of write operation that should be performed by the DsWriteAccountSpn function.
 old-location: ad\ds_spn_write_op.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 8367bdaf-3d8d-46b3-9d03-b9753e8e5a1a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_SPN_WRITE_OP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_SPN_WRITE_OP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: Any level
-req.product: Rights Management Services client 1.0 or later
+req.typenames: DS_SPN_WRITE_OP
+req.redist: 
 ---
 
 # DS_SPN_WRITE_OP enumeration

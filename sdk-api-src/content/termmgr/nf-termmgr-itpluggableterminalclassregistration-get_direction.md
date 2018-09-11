@@ -4,17 +4,16 @@ title: ITPluggableTerminalClassRegistration::get_Direction
 author: windows-sdk-content
 description: The get_Direction method gets the direction supported by the terminal.
 old-location: tapi3\itpluggableterminalclassregistration_get_direction.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 67f2f241-2389-476f-a412-af456c1c3376
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_Direction method, ITPluggableTerminalClassRegistration.get_Direction, ITPluggableTerminalClassRegistration::get_Direction, _tapi3_itpluggableterminalclassregistration_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_direction, termmgr/ITPluggableTerminalClassRegistration::get_Direction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPluggableTerminalClassRegistration.get_Direction
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPluggableTerminalClassRegistration::get_Direction

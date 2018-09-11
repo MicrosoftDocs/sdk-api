@@ -4,17 +4,16 @@ title: DhcpServerSetConfigV6 function
 author: windows-sdk-content
 description: Sets the DHCPv6 server configuration data at the scope or server level.
 old-location: dhcp\dhcpserversetconfigv6.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 6e24b1d8-ae76-4834-9c44-f1dcae946fa9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpServerSetConfigV6, DhcpServerSetConfigV6 function [DHCP], Set_AuditLogState, Set_PreferredLifetime, Set_PreferredLifetimeIATA, Set_RapidCommitFlag, Set_T1, Set_T2, Set_UnicastFlag, Set_ValidLifetime, Set_ValidLifetimeIATA, dhcp.dhcpserversetconfigv6, dhcpsapi/DhcpServerSetConfigV6
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpServerSetConfigV6
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpServerSetConfigV6 function

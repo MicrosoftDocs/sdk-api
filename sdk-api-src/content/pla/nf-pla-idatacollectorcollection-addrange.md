@@ -4,17 +4,16 @@ title: IDataCollectorCollection::AddRange
 author: windows-sdk-content
 description: Adds one or more data collectors to the collection.
 old-location: pla\idatacollectorcollection_addrange.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: e7482bc4-18a4-4267-9ceb-1552dd71391c
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],AddRange method, IDataCollectorCollection.AddRange, IDataCollectorCollection::AddRange, base.idatacollectorcollection_addrange, pla.idatacollectorcollection_addrange, pla/IDataCollectorCollection::AddRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataCollectorCollection.AddRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorCollection::AddRange
@@ -62,7 +60,7 @@ Adds one or more data collectors to the collection.
 
 ### -param collectors
 
-
+TBD
 
 
 

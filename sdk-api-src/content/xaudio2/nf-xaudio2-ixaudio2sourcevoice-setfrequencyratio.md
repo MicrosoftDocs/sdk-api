@@ -4,17 +4,16 @@ title: IXAudio2SourceVoice::SetFrequencyRatio
 author: windows-sdk-content
 description: Sets the frequency adjustment ratio of the voice.
 old-location: xaudio2\ixaudio2sourcevoice_interface_setfrequencyratio.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SetFrequencyRatio(float,UINT32)
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SetFrequencyRatio method, IXAudio2SourceVoice.SetFrequencyRatio, IXAudio2SourceVoice::SetFrequencyRatio, SetFrequencyRatio, SetFrequencyRatio method [XAudio2 Audio Mixing APIs], SetFrequencyRatio method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_setfrequencyratio, xaudio2/IXAudio2SourceVoice::SetFrequencyRatio
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_FILTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAudio2SourceVoice.SetFrequencyRatio
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXAudio2SourceVoice::SetFrequencyRatio
@@ -67,7 +65,7 @@ Frequency adjustment ratio. This value must be between XAUDIO2_MIN_FREQ_RATIO an
 
 ### -param X2DEFAULT
 
-
+TBD
 
 
 

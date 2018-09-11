@@ -4,17 +4,16 @@ title: "_EC_SUBSCRIPTION_CONFIGURATION_MODE"
 author: windows-sdk-content
 description: Specifies different configuration modes that change the default settings for a subscription.
 old-location: wec\ec_subscription_configuration_mode.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: ec2c3006-c452-4dec-b3ed-a7a11f6456b3
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EC_SUBSCRIPTION_CONFIGURATION_MODE, EC_SUBSCRIPTION_CONFIGURATION_MODE enumeration, EcConfigurationModeCustom, EcConfigurationModeMinBandwidth, EcConfigurationModeMinLatency, EcConfigurationModeNormal, _EC_SUBSCRIPTION_CONFIGURATION_MODE, evcoll/EC_SUBSCRIPTION_CONFIGURATION_MODE, evcoll/EcConfigurationModeCustom, evcoll/EcConfigurationModeMinBandwidth, evcoll/EcConfigurationModeMinLatency, evcoll/EcConfigurationModeNormal, wec.ec_subscription_configuration_mode, wes.ec_subscription_configuration_mode
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_SUBSCRIPTION_CONFIGURATION_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EC_SUBSCRIPTION_CONFIGURATION_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EC_SUBSCRIPTION_CONFIGURATION_MODE
+req.redist: 
 ---
 
 # _EC_SUBSCRIPTION_CONFIGURATION_MODE enumeration

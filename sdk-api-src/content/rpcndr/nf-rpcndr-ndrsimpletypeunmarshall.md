@@ -4,17 +4,16 @@ title: NdrSimpleTypeUnmarshall function
 author: windows-sdk-content
 description: The NdrSimpleTypeUnmarshall function unmarshalls a simple type.
 old-location: rpc\ndrsimpletypeunmarshall.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: f1ed9bdc-3ff6-4947-b77f-cb95fe8c3e85
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdrSimpleTypeUnmarshall, NdrSimpleTypeUnmarshall function [RPC], rpc.ndrsimpletypeunmarshall, rpcndr/NdrSimpleTypeUnmarshall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrSimpleTypeUnmarshall
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrSimpleTypeUnmarshall function

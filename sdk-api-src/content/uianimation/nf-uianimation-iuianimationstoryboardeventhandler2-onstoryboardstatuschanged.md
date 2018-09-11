@@ -4,17 +4,16 @@ title: IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged
 author: windows-sdk-content
 description: Handles storyboard status change events.
 old-location: uianimation\iuianimationstoryboardeventhandler2_onstoryboardstatuschanged.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 6C428A75-755D-4171-A714-83FC65A9D972
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationStoryboardEventHandler2 interface [Windows Animation],OnStoryboardStatusChanged method, IUIAnimationStoryboardEventHandler2.OnStoryboardStatusChanged, IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged, OnStoryboardStatusChanged, OnStoryboardStatusChanged method [Windows Animation], OnStoryboardStatusChanged method [Windows Animation],IUIAnimationStoryboardEventHandler2 interface, uianimation.iuianimationstoryboardeventhandler2_onstoryboardstatuschanged, uianimation/IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationStoryboardEventHandler2.OnStoryboardStatusChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged

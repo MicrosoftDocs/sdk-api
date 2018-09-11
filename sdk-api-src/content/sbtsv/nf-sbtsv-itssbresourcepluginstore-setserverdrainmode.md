@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::SetServerDrainMode
 author: windows-sdk-content
 description: Sets the drain mode of the specified server.
 old-location: termserv\itssbresourcepluginstore_setserverdrainmode.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: E0213889-7CC9-446A-9EFF-7C8B02E4A35D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetServerDrainMode method, ITsSbResourcePluginStore.SetServerDrainMode, ITsSbResourcePluginStore::SetServerDrainMode, SetServerDrainMode, SetServerDrainMode method [Remote Desktop Services], SetServerDrainMode method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetServerDrainMode, termserv.itssbresourcepluginstore_setserverdrainmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbResourcePluginStore.SetServerDrainMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::SetServerDrainMode

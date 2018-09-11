@@ -4,17 +4,16 @@ title: SetIScsiInitiatorNodeNameW function
 author: windows-sdk-content
 description: SetIscsiInitiatorNodeName function establishes an initiator node name for the computer. This name is utilized by any initiator nodes on the computer that are communicating with other nodes.
 old-location: iscsidisc\setiscsiinitiatornodename.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 4758fbde-da94-4da2-9c04-d2bec2c61752
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetIScsiInitiatorNodeNameW, SetIscsiInitiatorNodeName, SetIscsiInitiatorNodeName function [iSCSI Discovery Library API], SetIscsiInitiatorNodeNameA, SetIscsiInitiatorNodeNameW, iscsidisc.setiscsiinitiatornodename, iscsidsc/SetIscsiInitiatorNodeName, iscsidsc/SetIscsiInitiatorNodeNameA, iscsidsc/SetIscsiInitiatorNodeNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetIscsiInitiatorNodeNameW
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetIScsiInitiatorNodeNameW function

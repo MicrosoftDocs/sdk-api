@@ -4,17 +4,16 @@ title: IFhConfigMgr::SetLocalPolicy
 author: windows-sdk-content
 description: Changes the numeric parameter value of a local policy in an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_setlocalpolicy.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: A1106349-6B14-4A44-B845-7853FA1919D6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FhConfigMgr class [Windows API],SetLocalPolicy method, IFhConfigMgr interface [Windows API],SetLocalPolicy method, IFhConfigMgr.SetLocalPolicy, IFhConfigMgr::SetLocalPolicy, SetLocalPolicy, SetLocalPolicy method [Windows API], SetLocalPolicy method [Windows API],FhConfigMgr class, SetLocalPolicy method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::SetLocalPolicy, winprog.ifhconfigmgr_setlocalpolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FhConfigMgr.SetLocalPolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFhConfigMgr::SetLocalPolicy

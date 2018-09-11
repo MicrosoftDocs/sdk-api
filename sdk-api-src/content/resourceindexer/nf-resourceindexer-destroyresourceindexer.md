@@ -4,17 +4,16 @@ title: DestroyResourceIndexer function
 author: windows-sdk-content
 description: Frees the computational resources associated with the specified resource indexer.
 old-location: menurc\destroyresourceindexer.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: 42DCE463-B883-4564-9B7E-DEFF0A17CC1C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DestroyResourceIndexer, DestroyResourceIndexer function [Menus and Other Resources], menurc.destroyresourceindexer, resourceindexer/DestroyResourceIndexer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resourceindexer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WitnessTagUpdateHelper
+req.lib: Mrmsupport.lib
+req.dll: Mrmsupport.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DestroyResourceIndexer
 product: Windows
 targetos: Windows
-req.lib: Mrmsupport.lib
-req.dll: Mrmsupport.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DestroyResourceIndexer function

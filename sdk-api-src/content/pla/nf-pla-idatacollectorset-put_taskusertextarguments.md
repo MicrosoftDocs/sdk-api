@@ -4,17 +4,16 @@ title: IDataCollectorSet::put_TaskUserTextArguments
 author: windows-sdk-content
 description: Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in the IDataCollectorSet::TaskArguments property.
 old-location: pla\idatacollectorset_taskusertextarguments.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 99fb2ed4-525b-4733-a652-b164b2c19980
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],TaskUserTextArguments property, IDataCollectorSet.TaskUserTextArguments, IDataCollectorSet.put_TaskUserTextArguments, IDataCollectorSet::TaskUserTextArguments, IDataCollectorSet::get_TaskUserTextArguments, IDataCollectorSet::put_TaskUserTextArguments, TaskUserTextArguments property [PLA], TaskUserTextArguments property [PLA],IDataCollectorSet interface, pla.idatacollectorset_taskusertextarguments, pla/IDataCollectorSet::TaskUserTextArguments, pla/IDataCollectorSet::get_TaskUserTextArguments, pla/IDataCollectorSet::put_TaskUserTextArguments, put_TaskUserTextArguments
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollectorSet.put_TaskUserTextArguments
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::put_TaskUserTextArguments

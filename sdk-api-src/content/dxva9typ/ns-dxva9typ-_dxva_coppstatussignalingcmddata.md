@@ -4,7 +4,7 @@ title: "_DXVA_COPPStatusSignalingCmdData"
 author: windows-sdk-content
 description: Contains the result from a Signaling query in Certified Output Protection Protocol (COPP).
 old-location: dshow\dxva_coppstatussignalingcmddata.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c6bc7d84-3e4d-41f9-8309-5817029477dd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva9typ.h
 req.include-header: Dxva.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA_COPPStatusSignalingCmdData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA_COPPStatusSignalingCmdData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVA_COPPStatusSignalingCmdData
+req.redist: 
 ---
 
 # _DXVA_COPPStatusSignalingCmdData structure

@@ -4,17 +4,16 @@ title: ID3D12Fence::SetEventOnCompletion
 author: windows-sdk-content
 description: Specifies an event that should be fired when the fence reaches a certain value.
 old-location: direct3d12\id3d12fence_seteventoncompletion.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: DBC5A1FD-F3D0-4C9B-965B-1967151093F7
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12Fence interface,SetEventOnCompletion method, ID3D12Fence.SetEventOnCompletion, ID3D12Fence::SetEventOnCompletion, SetEventOnCompletion, SetEventOnCompletion method, SetEventOnCompletion method,ID3D12Fence interface, d3d12/ID3D12Fence::SetEventOnCompletion, direct3d12.id3d12fence_seteventoncompletion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12Fence.SetEventOnCompletion
 product: Windows
 targetos: Windows
-req.lib: D3D12.lib
-req.dll: D3D12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12Fence::SetEventOnCompletion

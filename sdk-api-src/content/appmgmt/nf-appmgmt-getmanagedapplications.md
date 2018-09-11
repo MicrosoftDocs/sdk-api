@@ -4,17 +4,16 @@ title: GetManagedApplications function
 author: windows-sdk-content
 description: The GetManagedApplications function gets a list of applications that are displayed in the Add pane of Add/Remove Programs (ARP) for a specified user context.
 old-location: policy\getmanagedapplications.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 62e32f36-cbb2-4557-9773-8bd454870d55
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetManagedApplications, GetManagedApplications function [Group Policy], MANAGED_APPS_FROMCATEGORY, MANAGED_APPS_USERAPPLICATIONS, appmgmt/GetManagedApplications, policy.getmanagedapplications
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INSTALLSPECTYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GetManagedApplications
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetManagedApplications function

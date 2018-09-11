@@ -4,17 +4,16 @@ title: IWsbApplicationAsync::QueryStatus
 author: windows-sdk-content
 description: Queries the status of an asynchronous operation.
 old-location: wsb\iwsbapplicationasync_querystatus.htm
-old-project: wsb
+tech.root: wsb
 ms.assetid: 0705e4a8-b65e-4740-b073-7fb24e5d02ef
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IWsbApplicationAsync interface [Windows Server Backup],QueryStatus method, IWsbApplicationAsync.QueryStatus, IWsbApplicationAsync::QueryStatus, QueryStatus, QueryStatus method [Windows Server Backup], QueryStatus method [Windows Server Backup],IWsbApplicationAsync interface, S_OK, WSBAPP_ASYNC_IN_PROGRESS, wsb.iwsbapplicationasync_querystatus, wsbapp/IWsbApplicationAsync::QueryStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsbapp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWsbApplicationAsync.QueryStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWsbApplicationAsync::QueryStatus

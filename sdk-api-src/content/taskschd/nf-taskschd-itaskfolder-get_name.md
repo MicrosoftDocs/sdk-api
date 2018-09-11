@@ -4,17 +4,16 @@ title: ITaskFolder::get_Name
 author: windows-sdk-content
 description: Gets the name that is used to identify the folder that contains a task.
 old-location: taskschd\itaskfolder_name.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 092d1d40-e97a-44a3-aff0-41b2b6df8d6d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITaskFolder interface [Task Scheduler],Name property, ITaskFolder.Name, ITaskFolder.get_Name, ITaskFolder::Name, ITaskFolder::get_Name, Name property [Task Scheduler], Name property [Task Scheduler],ITaskFolder interface, get_Name, taskschd.itaskfolder_name, taskschd/ITaskFolder::Name, taskschd/ITaskFolder::get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITaskFolder.get_Name
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskFolder::get_Name

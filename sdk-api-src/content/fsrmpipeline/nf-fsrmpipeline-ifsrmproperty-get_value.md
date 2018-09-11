@@ -4,17 +4,16 @@ title: IFsrmProperty::get_Value
 author: windows-sdk-content
 description: The value of the property.
 old-location: fsrm\ifsrmproperty_value.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: dc49c1d4-9f37-48f0-9e0b-9fd79a106301
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmProperty interface [File Server Resource Manager],Value property, IFsrmProperty.Value, IFsrmProperty.get_Value, IFsrmProperty::Value, IFsrmProperty::get_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager],IFsrmProperty interface, fs.ifsrmproperty_value, fsrm.ifsrmproperty_value, fsrmpipeline/IFsrmProperty::Value, fsrmpipeline/IFsrmProperty::get_Value, get_Value
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmProperty.get_Value
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmProperty::get_Value

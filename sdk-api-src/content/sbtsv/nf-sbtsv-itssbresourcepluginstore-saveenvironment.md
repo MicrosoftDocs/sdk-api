@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::SaveEnvironment
 author: windows-sdk-content
 description: Saves an environment.
 old-location: termserv\itssbresourcepluginstore_saveenvironment.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 941d5040-e6e4-4f7e-be31-2b52eb16fa9f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SaveEnvironment method, ITsSbResourcePluginStore.SaveEnvironment, ITsSbResourcePluginStore::SaveEnvironment, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SaveEnvironment method, ITsSbResourcePluginStoreEx::SaveEnvironment, SaveEnvironment, SaveEnvironment method [Remote Desktop Services], SaveEnvironment method [Remote Desktop Services],ITsSbResourcePluginStore interface, SaveEnvironment method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SaveEnvironment, sbtsv/ITsSbResourcePluginStoreEx::SaveEnvironment, termserv.itssbresourcepluginstore_saveenvironment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbResourcePluginStoreEx.SaveEnvironment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::SaveEnvironment

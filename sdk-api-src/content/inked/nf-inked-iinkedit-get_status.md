@@ -4,17 +4,16 @@ title: IInkEdit::get_Status
 author: windows-sdk-content
 description: Gets a value that specifies whether the InkEdit control is idle, collecting ink, or recognizing ink.
 old-location: tablet\inkedit_status.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 47a41d5c-2598-4dfc-a5b5-af4df7fdaa6d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 47a41d5c-2598-4dfc-a5b5-af4df7fdaa6d, Collecting, IInkEdit interface [Tablet PC],Status property, IInkEdit.Status, IInkEdit.get_Status, IInkEdit::Status, IInkEdit::get_Status, Idle, InkEdit.get_Status, Recognizing, Status property [Tablet PC], Status property [Tablet PC],IInkEdit interface, get_Status, inked/IInkEdit::Status, inked/IInkEdit::get_Status, put_Status, tablet.inkedit_status
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkEdit.get_Status
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::get_Status

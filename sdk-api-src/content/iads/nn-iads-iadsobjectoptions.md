@@ -4,7 +4,7 @@ title: IADsObjectOptions
 author: windows-sdk-content
 description: Provides a direct mechanism to specify and obtain provider-specific options for manipulating an ADSI object.
 old-location: adsi\iadsobjectoptions.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 1884efe5-86f5-4579-a25e-2ff9c9a6ec2a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsObjectOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsObjectOptions interface

@@ -4,17 +4,16 @@ title: "_CERT_USAGE_MATCH"
 author: windows-sdk-content
 description: Provides criteria for identifying issuer certificates to be used to build a certificate chain.
 old-location: security\cert_usage_match.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 6154f1f7-4293-4b8e-91ab-9f57bb6f5743
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_USAGE_MATCH, CERT_USAGE_MATCH, CERT_USAGE_MATCH structure [Security], PCERT_USAGE_MATCH, PCERT_USAGE_MATCH structure pointer [Security], USAGE_MATCH_TYPE_AND, USAGE_MATCH_TYPE_OR, _CERT_USAGE_MATCH, _crypto2_cert_usage_match, security.cert_usage_match, wincrypt/CERT_USAGE_MATCH, wincrypt/PCERT_USAGE_MATCH"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_USAGE_MATCH, *PCERT_USAGE_MATCH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_USAGE_MATCH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_USAGE_MATCH, *PCERT_USAGE_MATCH
+req.redist: 
 ---
 
 # _CERT_USAGE_MATCH structure

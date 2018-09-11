@@ -4,17 +4,16 @@ title: IShellFolder::CompareIDs
 author: windows-sdk-content
 description: Determines the relative order of two file objects or folders, given their item identifier lists.
 old-location: shell\IShellFolder_CompareIDs.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 54d805cc-5396-4892-9347-cafc2d90779f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CompareIDs, CompareIDs method [Windows Shell], CompareIDs method [Windows Shell],IShellFolder interface, CompareIDs method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],CompareIDs method, IShellFolder.CompareIDs, IShellFolder2 interface [Windows Shell],CompareIDs method, IShellFolder2::CompareIDs, IShellFolder::CompareIDs, SHCIDS_ALLFIELDS, SHCIDS_CANONICALONLY, _win32_IShellFolder_CompareIDs, shell.IShellFolder_CompareIDs, shobjidl_core/IShellFolder2::CompareIDs, shobjidl_core/IShellFolder::CompareIDs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IShellFolder2.CompareIDs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolder::CompareIDs

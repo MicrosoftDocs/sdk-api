@@ -4,17 +4,16 @@ title: IUPnPEventSource::Unadvise
 author: windows-sdk-content
 description: The Unadvise method is invoked by the device host to stop receiving events. The device host passes in the same pointer that it did when it invoked the IUPnPEventSource::Advise method.
 old-location: upnp\iupnpeventsource_unadvise.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 6ae9c53f-eb82-4396-ba85-c95e252911c8
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPEventSource interface [UPnP APIs],Unadvise method, IUPnPEventSource.Unadvise, IUPnPEventSource::Unadvise, Unadvise, Unadvise method [UPnP APIs], Unadvise method [UPnP APIs],IUPnPEventSource interface, _upnp_iupnpeventsource_unadvise, upnp.iupnpeventsource_unadvise, upnphost/IUPnPEventSource::Unadvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPEventSource.Unadvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnphost.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPEventSource::Unadvise
@@ -66,7 +64,7 @@ After this method is invoked, the hosted service releases the reference to the e
 
 ### -param pesSubscriber
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IWMPRemoteMediaServices::GetServiceType
 author: windows-sdk-content
 description: The GetServiceType method is called by Windows Media Player to determine whether a host program wants to run its embedded control remotely.
 old-location: wmp\iwmpremotemediaservices_getservicetype.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 866e7ee7-5df1-4e6b-8b41-85c6ff8b64d5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetServiceType, GetServiceType method [Windows Media Player], GetServiceType method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetServiceType method, IWMPRemoteMediaServices.GetServiceType, IWMPRemoteMediaServices::GetServiceType, IWMPRemoteMediaServicesGetServiceType, wmp.iwmpremotemediaservices_getservicetype, wmp/IWMPRemoteMediaServices::GetServiceType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later. Use of the RemoteNoDialogs value requires Windows Media Player 9 Series update 819756 or later. Use of the NoDialogs, NoDeviceSupport, or FindFolders values requires Windows Media Player 10.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPRemoteMediaServices.GetServiceType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPRemoteMediaServices::GetServiceType

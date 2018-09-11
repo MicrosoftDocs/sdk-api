@@ -4,17 +4,16 @@ title: IProgressDialog::SetCancelMsg
 author: windows-sdk-content
 description: Sets a message to be displayed if the user cancels the operation.
 old-location: shell\IProgressDialog_SetCancelMsg.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 520e11c0-f356-45e1-a300-cc14e88eb42e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetCancelMsg method, IProgressDialog.SetCancelMsg, IProgressDialog::SetCancelMsg, SetCancelMsg, SetCancelMsg method [Windows Shell], SetCancelMsg method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetCancelMsg, shell.IProgressDialog_SetCancelMsg, shlobj_core/IProgressDialog::SetCancelMsg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProgressDialog.SetCancelMsg
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IProgressDialog::SetCancelMsg
@@ -69,7 +67,7 @@ A pointer to a null-terminated Unicode string that contains the message to be di
 
 ### -param pvResevered
 
-
+TBD
 
 
 

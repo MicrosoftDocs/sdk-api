@@ -4,17 +4,16 @@ title: IEnumDot11AdHocSecuritySettings::Clone
 author: windows-sdk-content
 description: Creates a new enumeration interface.
 old-location: nwifi\ienumdot11adhocsecuritysettings_clone.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 27ef4cab-9aa5-4aa2-9e2e-fb16aae99045
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [NativeWIFI], Clone method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Clone method, IEnumDot11AdHocSecuritySettings.Clone, IEnumDot11AdHocSecuritySettings::Clone, adhoc/IEnumDot11AdHocSecuritySettings::Clone, nwifi.ienumdot11adhocsecuritysettings_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumDot11AdHocSecuritySettings.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumDot11AdHocSecuritySettings::Clone

@@ -4,17 +4,16 @@ title: "_WS_XML_DICTIONARY"
 author: windows-sdk-content
 description: Represents a set of unique strings. This information is used by the binary encoding to write a more compact xml document.
 old-location: wsw\ws_xml_dictionary.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 2cba47fd-a049-4e50-99dd-20ccf91c9e0f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_DICTIONARY, WS_XML_DICTIONARY structure [Web Services for Windows], _WS_XML_DICTIONARY, webservices/WS_XML_DICTIONARY, wsw.ws_xml_dictionary
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_DICTIONARY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_DICTIONARY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_DICTIONARY
+req.redist: 
 ---
 
 # _WS_XML_DICTIONARY structure

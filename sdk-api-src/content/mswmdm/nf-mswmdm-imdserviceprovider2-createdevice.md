@@ -4,17 +4,16 @@ title: IMDServiceProvider2::CreateDevice
 author: windows-sdk-content
 description: The CreateDevice method is called by the Windows Media Device Manager to get the IMDSPDevice object(s) corresponding to the canonical device obtained from the PnP subsystem.
 old-location: wmdm\imdserviceprovider2_createdevice.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: f724ef14-c572-41ca-a56b-fde85d7620e0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateDevice, CreateDevice method [windows Media Device Manager], CreateDevice method [windows Media Device Manager],IMDServiceProvider2 interface, IMDServiceProvider2 interface [windows Media Device Manager],CreateDevice method, IMDServiceProvider2.CreateDevice, IMDServiceProvider2::CreateDevice, IMDServiceProvider2GetDevicesFromDevicePath, mswmdm/IMDServiceProvider2::CreateDevice, wmdm.imdserviceprovider2_createdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDServiceProvider2.CreateDevice
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDServiceProvider2::CreateDevice

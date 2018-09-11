@@ -4,17 +4,16 @@ title: ShellFolderViewOptions
 author: windows-sdk-content
 description: Specifies the view options returned by the ViewOptions property.
 old-location: shell\ShellFolderViewOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7028ff38-7596-4126-aa98-c0be519243c9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SFVVO_DESKTOPHTML, SFVVO_DOUBLECLICKINWEBVIEW, SFVVO_SHOWALLOBJECTS, SFVVO_SHOWCOMPCOLOR, SFVVO_SHOWEXTENSIONS, SFVVO_SHOWSYSFILES, SFVVO_WIN95CLASSIC, ShellFolderViewOptions, ShellFolderViewOptions enumeration [Windows Shell], _win32_ShellFolderViewOptions, shell.ShellFolderViewOptions, shldisp/SFVVO_DESKTOPHTML, shldisp/SFVVO_DOUBLECLICKINWEBVIEW, shldisp/SFVVO_SHOWALLOBJECTS, shldisp/SFVVO_SHOWCOMPCOLOR, shldisp/SFVVO_SHOWEXTENSIONS, shldisp/SFVVO_SHOWSYSFILES, shldisp/SFVVO_WIN95CLASSIC, shldisp/ShellFolderViewOptions
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellFolderViewOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ShellFolderViewOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: ShellFolderViewOptions
+req.redist: 
 ---
 
 # ShellFolderViewOptions enumeration

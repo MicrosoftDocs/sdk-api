@@ -4,17 +4,16 @@ title: IEnumExtraSearch::Skip
 author: windows-sdk-content
 description: Skip a specified number of objects.
 old-location: shell\IEnumExtraSearch_Skip.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f77983e2-bae4-4350-8950-b4e76fc46365
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IEnumExtraSearch interface [Windows Shell],Skip method, IEnumExtraSearch.Skip, IEnumExtraSearch::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumExtraSearch interface, _win32_IEnumExtraSearch_Skip, shell.IEnumExtraSearch_Skip, shobjidl_core/IEnumExtraSearch::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumExtraSearch.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumExtraSearch::Skip

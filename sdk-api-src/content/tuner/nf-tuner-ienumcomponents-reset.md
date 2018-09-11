@@ -4,17 +4,16 @@ title: IEnumComponents::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumerator to the beginning of the collection.
 old-location: mstv\ienumcomponents_reset.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 753c9f74-3a97-4a8f-ba76-21e7b1d77a70
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IEnumComponents interface [Microsoft TV Technologies],Reset method, IEnumComponents.Reset, IEnumComponents::Reset, IEnumComponentsReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumComponents interface, mstv.ienumcomponents_reset, tuner/IEnumComponents::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumComponents.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumComponents::Reset

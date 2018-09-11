@@ -4,17 +4,16 @@ title: GetFeatureEnabledState function
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\getfeatureenabledstate.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: F07DFA37-6155-473F-A426-7D15F3ED46B1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetFeatureEnabledState, GetFeatureEnabledState function [Windows API], featurestagingapi/GetFeatureEnabledState, winprog.getfeatureenabledstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: featurestagingapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FEATURE_ENABLED_STATE
+req.lib: Shcore.lib
+req.dll: Api-ms-win-core-featurestaging-l1-1-0.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetFeatureEnabledState
 product: Windows
 targetos: Windows
-req.lib: Shcore.lib
-req.dll: Api-ms-win-core-featurestaging-l1-1-0.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # GetFeatureEnabledState function

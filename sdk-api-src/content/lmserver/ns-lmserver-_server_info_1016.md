@@ -4,17 +4,16 @@ title: "_SERVER_INFO_1016"
 author: windows-sdk-content
 description: The SERVER_INFO_1016 structure contains information about whether the server is visible to other computers in the same network domain.
 old-location: netmgmt\server_info_1016_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: a4c2afaf-05a4-4b71-9b36-91c603cba9d7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVER_INFO_1016, *PSERVER_INFO_1016, LPSERVER_INFO_1016, LPSERVER_INFO_1016 structure pointer [Network Management], PSERVER_INFO_1016, PSERVER_INFO_1016 structure pointer [Network Management], SERVER_INFO_1016, SERVER_INFO_1016 structure [Network Management], SV_HIDDEN, SV_VISIBLE, _SERVER_INFO_1016, _win32_server_info_1016_str, lmserver/LPSERVER_INFO_1016, lmserver/PSERVER_INFO_1016, lmserver/SERVER_INFO_1016, netmgmt.server_info_1016_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_INFO_1016, *PSERVER_INFO_1016, *LPSERVER_INFO_1016
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVER_INFO_1016
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SERVER_INFO_1016, *PSERVER_INFO_1016, *LPSERVER_INFO_1016
+req.redist: 
 ---
 
 # _SERVER_INFO_1016 structure

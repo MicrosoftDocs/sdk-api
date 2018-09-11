@@ -4,17 +4,16 @@ title: IMetaDataAssemblyImport::CloseEnum
 author: windows-sdk-content
 description: Releases a reference to the specified enumeration instance.
 old-location: winrt\imetadataassemblyimport_closeenum.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 95adc5b3-19f1-4be1-bb77-a481f81f5d3e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CloseEnum, CloseEnum method [Windows Runtime], CloseEnum method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],CloseEnum method, IMetaDataAssemblyImport.CloseEnum, IMetaDataAssemblyImport::CloseEnum, rometadataapi/IMetaDataAssemblyImport::CloseEnum, winrt.imetadataassemblyimport_closeenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataAssemblyImport.CloseEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataAssemblyImport::CloseEnum

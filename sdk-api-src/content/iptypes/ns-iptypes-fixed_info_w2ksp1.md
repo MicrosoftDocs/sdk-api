@@ -4,7 +4,7 @@ title: FIXED_INFO_W2KSP1
 author: windows-sdk-content
 description: The FIXED_INFO structure contains information that is the same across all the interfaces on a computer.
 old-location: iphlp\fixed_info.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 6dcf33c6-33dc-4583-9b04-5231948d3d9a
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ipsectypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FIXED_INFO_W2KSP1, *PFIXED_INFO_W2KSP1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FIXED_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: FIXED_INFO_W2KSP1, *PFIXED_INFO_W2KSP1
+req.redist: 
 ---
 
 # FIXED_INFO_W2KSP1 structure

@@ -4,17 +4,16 @@ title: IX509Extensions
 author: windows-sdk-content
 description: The IX509Extensions interface defines the following methods and properties to manage a collection of IX509Extension objects.
 old-location: security\ix509extensions.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: d6bdbcff-1d6b-4813-8269-b75061a42de8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509Extensions, IX509Extensions interface [Security], IX509Extensions interface [Security],described, certenroll/IX509Extensions, security.ix509extensions
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509Extensions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Extensions interface

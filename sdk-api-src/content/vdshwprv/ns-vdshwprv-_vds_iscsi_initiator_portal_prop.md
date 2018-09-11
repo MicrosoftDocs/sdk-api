@@ -4,17 +4,16 @@ title: "_VDS_ISCSI_INITIATOR_PORTAL_PROP"
 author: windows-sdk-content
 description: Defines the properties of an iSCSI initiator portal.
 old-location: base\vds_iscsi_initiator_portal_prop.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 58fffdb4-71c4-4f84-ad0e-7efe5bdb78a7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_ISCSI_INITIATOR_PORTAL_PROP, VDS_ISCSI_INITIATOR_PORTAL_PROP structure [VDS], _VDS_ISCSI_INITIATOR_PORTAL_PROP, base.vds_iscsi_initiator_portal_prop, vds/VDS_ISCSI_INITIATOR_PORTAL_PROP, vdshwprv/VDS_ISCSI_INITIATOR_PORTAL_PROP
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_ISCSI_INITIATOR_PORTAL_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_ISCSI_INITIATOR_PORTAL_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_ISCSI_INITIATOR_PORTAL_PROP
+req.redist: VDS 1.1
 ---
 
 # _VDS_ISCSI_INITIATOR_PORTAL_PROP structure

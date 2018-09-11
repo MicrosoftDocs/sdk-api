@@ -4,7 +4,7 @@ title: IXpsDocumentPackageTarget
 author: windows-sdk-content
 description: The IXpsDocumentPackageTarget interface contains the elements needed for printing XPS content in the Document Printing model.
 old-location: xps\ixpsdocumentpackagetarget.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: B8B43CE5-2222-428B-8E78-C7049D027EE1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_DOCUMENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsDocumentPackageTarget
 product: Windows
 targetos: Windows
-req.lib: None
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsDocumentPackageTarget interface

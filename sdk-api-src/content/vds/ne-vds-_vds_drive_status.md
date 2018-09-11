@@ -4,17 +4,16 @@ title: "_VDS_DRIVE_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a drive.
 old-location: base\vds_drive_status.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: fff84c91-d207-44fc-bcd6-03e34eaed9e3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVDS_DRIVE_STATUS, VDS_DRIVE_STATUS, VDS_DRIVE_STATUS enumeration [VDS], VDS_DRS_FAILED, VDS_DRS_NOT_READY, VDS_DRS_OFFLINE, VDS_DRS_ONLINE, VDS_DRS_REMOVED, VDS_DRS_UNKNOWN, _VDS_DRIVE_STATUS, base.vds_drive_status, vds/VDS_DRIVE_STATUS, vds/VDS_DRS_FAILED, vds/VDS_DRS_NOT_READY, vds/VDS_DRS_OFFLINE, vds/VDS_DRS_ONLINE, vds/VDS_DRS_REMOVED, vds/VDS_DRS_UNKNOWN, vdshwprv/VDS_DRIVE_STATUS, vdshwprv/VDS_DRS_FAILED, vdshwprv/VDS_DRS_NOT_READY, vdshwprv/VDS_DRS_OFFLINE, vdshwprv/VDS_DRS_ONLINE, vdshwprv/VDS_DRS_REMOVED, vdshwprv/VDS_DRS_UNKNOWN"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_DRIVE_STATUS, *PVDS_DRIVE_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_DRIVE_STATUS
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_DRIVE_STATUS, *PVDS_DRIVE_STATUS
+req.redist: 
 ---
 
 # _VDS_DRIVE_STATUS enumeration

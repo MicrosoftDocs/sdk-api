@@ -4,17 +4,16 @@ title: "_WS_LISTENER_PROPERTY"
 author: windows-sdk-content
 description: Specifies a listener specific setting.
 old-location: wsw\ws_listener_property.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 52e4a5d3-e584-40d1-b71f-b4ef61104883
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_LISTENER_PROPERTY, WS_LISTENER_PROPERTY structure [Web Services for Windows], _WS_LISTENER_PROPERTY, webservices/WS_LISTENER_PROPERTY, wsw.ws_listener_property
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_LISTENER_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_LISTENER_PROPERTY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_LISTENER_PROPERTY
+req.redist: 
 ---
 
 # _WS_LISTENER_PROPERTY structure

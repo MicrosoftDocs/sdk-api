@@ -4,17 +4,16 @@ title: ITextRange::Cut
 author: windows-sdk-content
 description: Cuts the plain or rich text to a data object or to the Clipboard, depending on the pVar parameter.
 old-location: controls\ITextRange_Cut.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\cut.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Cut, Cut method [Windows Controls], Cut method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Cut method, ITextRange.Cut, ITextRange::Cut, _win32_ITextRange_Cut, _win32_ITextRange_Cut_cpp, controls.ITextRange_Cut, controls._win32_ITextRange_Cut, tom/ITextRange::Cut
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.Cut
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::Cut

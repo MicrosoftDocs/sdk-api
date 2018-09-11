@@ -4,7 +4,7 @@ title: "_FILE_QUERY_SPARING_BUFFER"
 author: windows-sdk-content
 description: Contains defect management properties.
 old-location: fs\file_query_sparing_buffer.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 4b9b44ec-9e8e-4ebd-b192-952bbb71005d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_QUERY_SPARING_BUFFER, *PFILE_QUERY_SPARING_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILE_QUERY_SPARING_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_QUERY_SPARING_BUFFER, *PFILE_QUERY_SPARING_BUFFER
+req.redist: 
 ---
 
 # _FILE_QUERY_SPARING_BUFFER structure

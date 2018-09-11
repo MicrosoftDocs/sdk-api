@@ -4,17 +4,16 @@ title: IWdsTransportServicePolicy::put_EndIpAddress
 author: windows-sdk-content
 description: Enables a WDS client computer to configure the end of a multicast IP address range for a specified type of IP address.
 old-location: wds\iwdstransportservicepolicy_endipaddress.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 9900acb3-a66b-4279-becc-6ad1a040d534
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EndIpAddress property [Windows Deployment Services], EndIpAddress property [Windows Deployment Services],IWdsTransportServicePolicy interface, IWdsTransportServicePolicy interface [Windows Deployment Services],EndIpAddress property, IWdsTransportServicePolicy.EndIpAddress, IWdsTransportServicePolicy.put_EndIpAddress, IWdsTransportServicePolicy::EndIpAddress, IWdsTransportServicePolicy::get_EndIpAddress, IWdsTransportServicePolicy::put_EndIpAddress, put_EndIpAddress, wds.iwdstransportservicepolicy_endipaddress, wdstptmgmt/IWdsTransportServicePolicy::EndIpAddress, wdstptmgmt/IWdsTransportServicePolicy::get_EndIpAddress, wdstptmgmt/IWdsTransportServicePolicy::put_EndIpAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWdsTransportServicePolicy.put_EndIpAddress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportServicePolicy::put_EndIpAddress

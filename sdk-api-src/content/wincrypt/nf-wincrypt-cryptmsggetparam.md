@@ -4,17 +4,16 @@ title: CryptMsgGetParam function
 author: windows-sdk-content
 description: Acquires a message parameter after a cryptographic message has been encoded or decoded.
 old-location: security\cryptmsggetparam.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5a05eb09-208f-4e94-abfa-c2f14c0a3164
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CMSG_ATTR_CERT_COUNT_PARAM, CMSG_ATTR_CERT_PARAM, CMSG_BARE_CONTENT_PARAM, CMSG_CERT_COUNT_PARAM, CMSG_CERT_PARAM, CMSG_CMS_RECIPIENT_COUNT_PARAM, CMSG_CMS_RECIPIENT_ENCRYPTED_KEY_INDEX_PARAM, CMSG_CMS_RECIPIENT_INDEX_PARAM, CMSG_CMS_RECIPIENT_INFO_PARAM, CMSG_CMS_SIGNER_INFO_PARAM, CMSG_COMPUTED_HASH_PARAM, CMSG_CONTENT_PARAM, CMSG_CRL_COUNT_PARAM, CMSG_CRL_PARAM, CMSG_ENCODED_MESSAGE, CMSG_ENCODED_SIGNER, CMSG_ENCRYPTED_DIGEST, CMSG_ENCRYPT_PARAM, CMSG_ENVELOPE_ALGORITHM_PARAM, CMSG_HASH_ALGORITHM_PARAM, CMSG_HASH_DATA_PARAM, CMSG_INNER_CONTENT_TYPE_PARAM, CMSG_RECIPIENT_COUNT_PARAM, CMSG_RECIPIENT_INDEX_PARAM, CMSG_RECIPIENT_INFO_PARAM, CMSG_SIGNER_AUTH_ATTR_PARAM, CMSG_SIGNER_CERT_ID_PARAM, CMSG_SIGNER_CERT_INFO_PARAM, CMSG_SIGNER_COUNT_PARAM, CMSG_SIGNER_HASH_ALGORITHM_PARAM, CMSG_SIGNER_INFO_PARAM, CMSG_SIGNER_UNAUTH_ATTR_PARAM, CMSG_TYPE_PARAM, CMSG_UNPROTECTED_ATTR_PARAM, CMSG_VERSION_PARAM, CryptMsgGetParam, CryptMsgGetParam function [Security], _crypto2_cryptmsggetparam, security.cryptmsggetparam, wincrypt/CryptMsgGetParam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptMsgGetParam
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptMsgGetParam function

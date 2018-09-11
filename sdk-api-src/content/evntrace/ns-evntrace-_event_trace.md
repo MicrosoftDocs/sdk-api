@@ -4,7 +4,7 @@ title: "_EVENT_TRACE"
 author: windows-sdk-content
 description: The EVENT_TRACE structure is used to deliver event information to an event trace consumer.
 old-location: etw\event_trace.htm
-old-project: etw
+tech.root: etw
 ms.assetid: d8a6b63e-0cd4-4d19-b0b3-16bb0d33e4c0
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_TRACE, *PEVENT_TRACE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EVENT_TRACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: EVENT_TRACE, *PEVENT_TRACE
+req.redist: 
 ---
 
 # _EVENT_TRACE structure

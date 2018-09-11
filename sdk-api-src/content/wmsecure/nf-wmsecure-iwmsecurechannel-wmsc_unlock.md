@@ -4,17 +4,16 @@ title: IWMSecureChannel::WMSC_Unlock
 author: windows-sdk-content
 description: The WMSC_Unlock method unlocks access to the secure connection.
 old-location: wmformat\iwmsecurechannel_wmsc_unlock.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 3127a3bb-380d-46f9-82a3-d584705b1c60
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Unlock method, IWMSecureChannel.WMSC_Unlock, IWMSecureChannel::WMSC_Unlock, WMSC_Unlock, WMSC_Unlock method [windows Media Format], WMSC_Unlock method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_unlock, wmsecure/IWMSecureChannel::WMSC_Unlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMT_WATERMARK_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMSecureChannel.WMSC_Unlock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSecureChannel::WMSC_Unlock

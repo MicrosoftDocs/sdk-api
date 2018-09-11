@@ -4,17 +4,16 @@ title: IVdsServiceIscsi
 author: windows-sdk-content
 description: Provides methods to interface with the local initiator service, including the ability to set CHAP security settings and to log into targets.
 old-location: base\ivdsserviceiscsi.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 07bbfb4b-f054-4ec2-8f0b-3910115db5c1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsServiceIscsi, IVdsServiceIscsi interface [VDS], IVdsServiceIscsi interface [VDS],described, base.ivdsserviceiscsi, vds/IVdsServiceIscsi
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsServiceIscsi
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsServiceIscsi interface

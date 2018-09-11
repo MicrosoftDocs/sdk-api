@@ -4,17 +4,16 @@ title: TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter(co
 author: windows-sdk-content
 description: Creates a new TraceLoggingThreadActivityIdSetter object.
 old-location: tracelogging\traceloggingthreadactivityidsetter_traceloggingthreadactivityidsetter.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: F950256A-27A8-4C8F-B4A3-974F0E095103
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter interface,TraceLoggingThreadActivityIdSetter method, TraceLoggingThreadActivityIdSetter method, TraceLoggingThreadActivityIdSetter method,TraceLoggingThreadActivityIdSetter interface, TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter(const GUID &), TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter(const GUID &), tracelogging.traceloggingthreadactivityidsetter_traceloggingthreadactivityidsetter, traceloggingactivity/TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: traceloggingactivity.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter(const GUID &)

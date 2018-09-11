@@ -4,7 +4,7 @@ title: "_DD_DIRECTDRAW_LOCAL"
 author: windows-sdk-content
 description: The DD_DIRECTDRAW_LOCAL structure contains driver information that is relevant to the current DirectDraw process only.
 old-location: display\dd_directdraw_local.htm
-old-project: display
+tech.root: display
 ms.assetid: 58e378b7-863a-46d4-91cb-904ed4e892a3
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_DIRECTDRAW_LOCAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL"
+req.redist: 
 ---
 
 # _DD_DIRECTDRAW_LOCAL structure

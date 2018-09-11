@@ -4,17 +4,16 @@ title: IValueMap::Add
 author: windows-sdk-content
 description: Adds an item to the collection.
 old-location: pla\ivaluemap_add.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 4a6f074d-8d18-44ea-bbbc-8d3a7f6c033a
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IValueMap interface, IValueMap interface [PLA],Add method, IValueMap.Add, IValueMap::Add, base.ivaluemap_add, pla.ivaluemap_add, pla/IValueMap::Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IValueMap.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IValueMap::Add
@@ -62,7 +60,7 @@ Adds an item to the collection.
 
 ### -param value
 
-
+TBD
 
 
 

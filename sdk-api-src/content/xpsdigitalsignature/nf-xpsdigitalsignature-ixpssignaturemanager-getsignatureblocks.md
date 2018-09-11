@@ -4,17 +4,16 @@ title: IXpsSignatureManager::GetSignatureBlocks
 author: windows-sdk-content
 description: Gets a pointer to an IXpsSignatureBlockCollection interface that contains a collection of signature blocks.
 old-location: xps\ixpssignaturemanager_getsignatureblocks.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 6f7ba22f-7c3b-47bf-8cb5-2e4e4a548dc2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSignatureBlocks, GetSignatureBlocks method [XPS Documents and Packaging], GetSignatureBlocks method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatureBlocks method, IXpsSignatureManager.GetSignatureBlocks, IXpsSignatureManager::GetSignatureBlocks, xps.ixpssignaturemanager_getsignatureblocks, xpsdigitalsignature/IXpsSignatureManager::GetSignatureBlocks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignatureManager.GetSignatureBlocks
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignatureManager::GetSignatureBlocks

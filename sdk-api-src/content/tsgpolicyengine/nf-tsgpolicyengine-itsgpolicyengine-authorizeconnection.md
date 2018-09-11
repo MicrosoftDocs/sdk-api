@@ -4,17 +4,16 @@ title: ITSGPolicyEngine::AuthorizeConnection
 author: windows-sdk-content
 description: Determines whether the specified connection is authorized to connect to Remote Desktop Gateway (RD Gateway).
 old-location: termserv\itsgpolicyengine_authorizeconnection.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 41a61eef-c8fe-4e08-b793-a58553f31646
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AuthorizeConnection, AuthorizeConnection method [Remote Desktop Services], AuthorizeConnection method [Remote Desktop Services],ITSGPolicyEngine interface, ITSGPolicyEngine interface [Remote Desktop Services],AuthorizeConnection method, ITSGPolicyEngine.AuthorizeConnection, ITSGPolicyEngine::AuthorizeConnection, termserv.itsgpolicyengine_authorizeconnection, tsgpolicyengine/ITSGPolicyEngine::AuthorizeConnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsgpolicyengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PolicyAttributeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSGPolicyEngine.AuthorizeConnection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSGPolicyEngine::AuthorizeConnection

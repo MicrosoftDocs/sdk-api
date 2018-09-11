@@ -4,17 +4,16 @@ title: MoDuplicateMediaType function
 author: windows-sdk-content
 description: The MoDuplicateMediaType function duplicates a media type structure.
 old-location: dshow\moduplicatemediatype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8804ec3f-98c7-4305-a02c-67f5e560b4f7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: MoDuplicateMediaType, MoDuplicateMediaType function [DirectShow], dmort/MoDuplicateMediaType, dshow.moduplicatemediatype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dmort.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: Msdmo.lib
+req.dll: Msdmo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MoDuplicateMediaType
 product: Windows
 targetos: Windows
-req.lib: Msdmo.lib
-req.dll: Msdmo.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # MoDuplicateMediaType function

@@ -4,17 +4,16 @@ title: IPersistFile::Save
 author: windows-sdk-content
 description: Saves a copy of the object to the specified file.
 old-location: com\ipersistfile_save.htm
-old-project: com
+tech.root: com
 ms.assetid: da9581e8-98c7-4592-8ee1-a1bc8232635b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPersistFile interface [COM],Save method, IPersistFile.Save, IPersistFile::Save, Save, Save method [COM], Save method [COM],IPersistFile interface, _com_ipersistfile_save, com.ipersistfile_save, objidl/IPersistFile::Save
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistFile.Save
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistFile::Save

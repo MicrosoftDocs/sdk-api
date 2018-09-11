@@ -4,17 +4,16 @@ title: IOpcDigitalSignature::GetPackageObjectReference
 author: windows-sdk-content
 description: Gets an IOpcSignatureReference interface pointer that represents the reference to the package-specific Object element that has been signed.
 old-location: opc\iopcdigitalsignature_getpackageobjectreference.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 67f4404f-518c-4a47-8c8e-b5b8d13e18cb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetPackageObjectReference, GetPackageObjectReference method [Open Packaging Conventions], GetPackageObjectReference method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetPackageObjectReference method, IOpcDigitalSignature.GetPackageObjectReference, IOpcDigitalSignature::GetPackageObjectReference, msopc/IOpcDigitalSignature::GetPackageObjectReference, opc.iopcdigitalsignature_getpackageobjectreference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcDigitalSignature.GetPackageObjectReference
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcDigitalSignature::GetPackageObjectReference

@@ -4,7 +4,7 @@ title: lineagentactivityentry_tag
 author: windows-sdk-content
 description: The LINEAGENTACTIVITYENTRY structure describes a single ACD agent activity. The LINEAGENTACTIVITYLIST structure can contain an array of LINEAGENTACTIVITYENTRY structures.
 old-location: tapi2\lineagentactivityentry_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: e4f869a9-608c-4119-863b-b29e8b0d9680
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEAGENTACTIVITYENTRY, *LPLINEAGENTACTIVITYENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEAGENTACTIVITYENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEAGENTACTIVITYENTRY, *LPLINEAGENTACTIVITYENTRY
+req.redist: 
 ---
 
 # lineagentactivityentry_tag structure

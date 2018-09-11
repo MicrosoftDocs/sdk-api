@@ -4,7 +4,7 @@ title: "_STORAGE_SPEC_VERSION"
 author: windows-sdk-content
 description: Storage specification version.
 old-location: fs\storage_spec_version.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 470DBBC0-A7D7-42A6-97D0-44AEAC990576
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_SPEC_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION
+req.redist: 
 ---
 
 # _STORAGE_SPEC_VERSION structure

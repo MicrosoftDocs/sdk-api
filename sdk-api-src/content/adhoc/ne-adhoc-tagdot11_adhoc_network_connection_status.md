@@ -4,7 +4,7 @@ title: tagDOT11_ADHOC_NETWORK_CONNECTION_STATUS
 author: windows-sdk-content
 description: Specifies the connection state of an ad hoc network.
 old-location: nwifi\dot11_adhoc_network_connection_status.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 194179b9-9bd2-4c2f-ab22-c6b95eebfb43
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DOT11_ADHOC_NETWORK_CONNECTION_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.redist: 
 ---
 
 # tagDOT11_ADHOC_NETWORK_CONNECTION_STATUS enumeration

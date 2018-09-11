@@ -4,17 +4,16 @@ title: ITocEntry::SetSubEntries
 author: windows-sdk-content
 description: The SetSubEntries identifies a set of entries as being subentries of this entry.
 old-location: mf\itocentry_setsubentries.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4b3f4038-483c-4f00-a819-ace83d99da58
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetSubEntries method, ITocEntry.SetSubEntries, ITocEntry::SetSubEntries, SetSubEntries, SetSubEntries method [Media Foundation], SetSubEntries method [Media Foundation],ITocEntry interface, codecapi.itocentry_setsubentries, mf.itocentry_setsubentries, wmcodecdsp/ITocEntry::SetSubEntries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITocEntry.SetSubEntries
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ITocEntry::SetSubEntries

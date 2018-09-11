@@ -4,17 +4,16 @@ title: IAlternativeNames::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an object from the collection by index number.
 old-location: security\ialternativenames_itembyindex_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 778ea065-9a92-4244-be16-23e716ccbb8a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IAlternativeNames interface [Security],ItemByIndex property, IAlternativeNames.ItemByIndex, IAlternativeNames.get_ItemByIndex, IAlternativeNames::ItemByIndex, IAlternativeNames::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IAlternativeNames interface, certenroll/IAlternativeNames::ItemByIndex, certenroll/IAlternativeNames::get_ItemByIndex, get_ItemByIndex, security.ialternativenames_itembyindex_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAlternativeNames.get_ItemByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAlternativeNames::get_ItemByIndex

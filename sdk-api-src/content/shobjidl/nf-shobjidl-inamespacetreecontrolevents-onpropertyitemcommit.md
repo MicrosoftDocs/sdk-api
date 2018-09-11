@@ -4,17 +4,16 @@ title: INameSpaceTreeControlEvents::OnPropertyItemCommit
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\INameSpaceTreeControlEvents_OnPropertyItemCommit.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 85d0c2f1-b641-4437-90a4-285cfce62c60
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnPropertyItemCommit method, INameSpaceTreeControlEvents.OnPropertyItemCommit, INameSpaceTreeControlEvents::OnPropertyItemCommit, OnPropertyItemCommit, OnPropertyItemCommit method [Windows Shell], OnPropertyItemCommit method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnPropertyItemCommit, shell.INameSpaceTreeControlEvents_OnPropertyItemCommit, shobjidl/INameSpaceTreeControlEvents::OnPropertyItemCommit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlEvents.OnPropertyItemCommit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlEvents::OnPropertyItemCommit

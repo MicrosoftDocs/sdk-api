@@ -4,17 +4,16 @@ title: ITextFont::SetName
 author: windows-sdk-content
 description: Sets the font name.
 old-location: controls\ITextFont_SetName.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setname.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextFont interface [Windows Controls],SetName method, ITextFont.SetName, ITextFont::SetName, SetName, SetName method [Windows Controls], SetName method [Windows Controls],ITextFont interface, _win32_ITextFont_SetName, _win32_ITextFont_SetName_cpp, controls.ITextFont_SetName, controls._win32_ITextFont_SetName, tom/ITextFont::SetName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont.SetName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont::SetName
@@ -62,7 +60,7 @@ Sets the font name.
 
 ### -param bstr
 
-
+TBD
 
 
 

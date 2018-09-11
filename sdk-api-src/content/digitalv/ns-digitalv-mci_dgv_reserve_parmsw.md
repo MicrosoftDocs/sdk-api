@@ -4,7 +4,7 @@ title: MCI_DGV_RESERVE_PARMSW
 author: windows-sdk-content
 description: The MCI_DGV_RESERVE_PARMS structure contains information for the MCI_RESERVE command for digital-video devices.
 old-location: multimedia\mci_dgv_reserve_parms.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: f3105822-bdef-4e8d-912c-9d4b8d78cc47
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MCI_DGV_RESERVE_PARMSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MCI_DGV_RESERVE_PARMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: MCI_DGV_RESERVE_PARMSW
+req.redist: 
 ---
 
 # MCI_DGV_RESERVE_PARMSW structure

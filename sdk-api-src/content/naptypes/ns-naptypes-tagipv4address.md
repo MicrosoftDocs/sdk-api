@@ -4,7 +4,7 @@ title: tagIpv4Address
 author: windows-sdk-content
 description: Defines an IPv4 address.
 old-location: nap\ipv4address_struct.htm
-old-project: nap
+tech.root: nap
 ms.assetid: 75f1c6db-c1d5-46dd-b455-ffe49af921d2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Ipv4Address
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Ipv4Address
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: Ipv4Address
+req.redist: 
 ---
 
 # tagIpv4Address structure

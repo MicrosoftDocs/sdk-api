@@ -4,17 +4,16 @@ title: IVMRFilterConfig9::SetImageCompositor
 author: windows-sdk-content
 description: The SetImageCompositor method installs an application-provided image compositor object.
 old-location: dshow\ivmrfilterconfig9_setimagecompositor.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8e4a66e8-d4ab-49e0-8773-c79b5965124b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetImageCompositor method, IVMRFilterConfig9.SetImageCompositor, IVMRFilterConfig9::SetImageCompositor, IVMRFilterConfig9SetImageCompositor, SetImageCompositor, SetImageCompositor method [DirectShow], SetImageCompositor method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setimagecompositor, vmr9/IVMRFilterConfig9::SetImageCompositor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRFilterConfig9.SetImageCompositor
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRFilterConfig9::SetImageCompositor

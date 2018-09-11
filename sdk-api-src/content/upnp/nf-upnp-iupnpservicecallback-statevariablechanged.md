@@ -4,17 +4,16 @@ title: IUPnPServiceCallback::StateVariableChanged
 author: windows-sdk-content
 description: The StateVariableChanged method is invoked when a state variable has changed.
 old-location: upnp\iupnpservicecallback_statevariablechanged.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 68dac38e-535b-491e-a9a5-0f6bccb7fcc1
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPServiceCallback interface [UPnP APIs],StateVariableChanged method, IUPnPServiceCallback.StateVariableChanged, IUPnPServiceCallback::StateVariableChanged, StateVariableChanged, StateVariableChanged method [UPnP APIs], StateVariableChanged method [UPnP APIs],IUPnPServiceCallback interface, _upnp_iupnpservicecallback_statevariablechanged, upnp.iupnpservicecallback_statevariablechanged, upnp/IUPnPServiceCallback::StateVariableChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPServiceCallback.StateVariableChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPServiceCallback::StateVariableChanged
@@ -74,7 +72,7 @@ Reference to a string that specifies the name of the state variable that has cha
 
 ### -param vaValue
 
-
+TBD
 
 
 

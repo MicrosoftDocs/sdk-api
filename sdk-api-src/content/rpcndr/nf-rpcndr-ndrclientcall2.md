@@ -4,17 +4,16 @@ title: NdrClientCall2 function
 author: windows-sdk-content
 description: The NdrClientCall2 function is the client-side entry point for the /Oicf mode stub.
 old-location: rpc\ndrclientcall2.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 136b6461-048a-41ee-8514-0dea0861b2c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdrClientCall2, NdrClientCall2 function [RPC], rpc.ndrclientcall2, rpcndr/NdrClientCall2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrClientCall2
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrClientCall2 function
@@ -52,7 +50,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>NdrClientCall2</b> function is the client-side entry point for the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode stub.
+The <b>NdrClientCall2</b> function is the client-side entry point for the <a href="https://msdn.microsoft.com/">/Oicf</a> mode stub.
 
 
 ## -parameters
@@ -70,7 +68,14 @@ Pointer to the MIDL-generated <a href="https://msdn.microsoft.com/e3178aaa-a30a-
 Pointer to the MIDL-generated procedure format string that describes the method and parameters.
 
 
-### -param param [in, out]
+### -param arg1
+
+TBD
+
+
+
+
+#### - param [in, out]
 
 Pointer to the client-side calling stack.
 
@@ -90,7 +95,7 @@ Depending on the method definition, this function can throw an exception if ther
 
 
 
-The <b>NdrClientCall2</b> function is used by all <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode client-side stubs. The <b>NdrClientCall2</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
+The <b>NdrClientCall2</b> function is used by all <a href="https://msdn.microsoft.com/">/Oicf</a> mode client-side stubs. The <b>NdrClientCall2</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
 
 
 

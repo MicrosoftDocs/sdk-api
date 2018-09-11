@@ -4,17 +4,16 @@ title: "_KF_DEFINITION_FLAGS"
 author: windows-sdk-content
 description: Flags that specify certain known folder behaviors. Used with the KNOWNFOLDER_DEFINITION structure.
 old-location: shell\KF_DEFINITION_FLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c5267aea-19b7-4e4a-a443-24674a6ae608
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: KFDF_LOCAL_REDIRECT_ONLY, KFDF_NO_REDIRECT_UI, KFDF_PRECREATE, KFDF_PUBLISHEXPANDEDPATH, KFDF_ROAMABLE, KFDF_STREAM, KF_DEFINITION_FLAGS, KF_DEFINITION_FLAGS enumeration [Windows Shell], _KF_DEFINITION_FLAGS, _shell_KF_DEFINITION_FLAGS, shell.KF_DEFINITION_FLAGS, shobjidl_core/KFDF_LOCAL_REDIRECT_ONLY, shobjidl_core/KFDF_NO_REDIRECT_UI, shobjidl_core/KFDF_PRECREATE, shobjidl_core/KFDF_PUBLISHEXPANDEDPATH, shobjidl_core/KFDF_ROAMABLE, shobjidl_core/KFDF_STREAM, shobjidl_core/KF_DEFINITION_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KF_DEFINITION_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # _KF_DEFINITION_FLAGS enumeration

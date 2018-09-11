@@ -4,17 +4,16 @@ title: ITAgent::get_TotalACDCallTime
 author: windows-sdk-content
 description: The get_TotalACDCallTime gets the number of seconds spent on ACD calls by this agent (across all sessions). This value includes the time spent on the phone plus wrap-up time.
 old-location: tapi3\itagent_get_totalacdcalltime.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 432e22b7-16c3-447d-bbec-59ab7713039c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_TotalACDCallTime method, ITAgent.get_TotalACDCallTime, ITAgent::get_TotalACDCallTime, _tapi3_itagent_get_totalacdcalltime, get_TotalACDCallTime, get_TotalACDCallTime method [TAPI 2.2], get_TotalACDCallTime method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_totalacdcalltime, tapi3cc/ITAgent::get_TotalACDCallTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgent.get_TotalACDCallTime
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgent::get_TotalACDCallTime

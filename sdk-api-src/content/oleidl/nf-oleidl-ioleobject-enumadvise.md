@@ -4,17 +4,16 @@ title: IOleObject::EnumAdvise
 author: windows-sdk-content
 description: Retrieves a pointer to an enumerator that can be used to enumerate the advisory connections registered for an object, so a container can know what to release prior to closing down.
 old-location: com\ioleobject_enumadvise.htm
-old-project: com
+tech.root: com
 ms.assetid: 4e1d6d9e-ebf2-4cd6-b7b4-00f9e7bd9bdc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IOleObject interface, IOleObject interface [COM],EnumAdvise method, IOleObject.EnumAdvise, IOleObject::EnumAdvise, _ole_ioleobject_enumadvise, com.ioleobject_enumadvise, oleidl/IOleObject::EnumAdvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.EnumAdvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::EnumAdvise

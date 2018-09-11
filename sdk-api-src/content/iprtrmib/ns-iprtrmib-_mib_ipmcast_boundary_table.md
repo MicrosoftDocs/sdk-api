@@ -4,7 +4,7 @@ title: "_MIB_IPMCAST_BOUNDARY_TABLE"
 author: windows-sdk-content
 description: Contains a list of a router's scoped IPv4 multicast address boundaries.
 old-location: mib\mib_ipmcast_boundary_table.htm
-old-project: mib
+tech.root: mib
 ms.assetid: afa93943-efc7-430f-b8d0-4e79132278e2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPMCAST_BOUNDARY_TABLE, *PMIB_IPMCAST_BOUNDARY_TABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_IPMCAST_BOUNDARY_TABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_IPMCAST_BOUNDARY_TABLE, *PMIB_IPMCAST_BOUNDARY_TABLE
+req.redist: 
 ---
 
 # _MIB_IPMCAST_BOUNDARY_TABLE structure

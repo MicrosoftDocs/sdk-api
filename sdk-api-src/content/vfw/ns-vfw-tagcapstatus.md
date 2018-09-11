@@ -4,7 +4,7 @@ title: tagCapStatus
 author: windows-sdk-content
 description: The CAPSTATUS structure defines the current state of the capture window.
 old-location: multimedia\capstatus.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 65ad6e33-c601-4026-a5a4-2c68576d7ab7
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CAPSTATUS, *PCAPSTATUS, *LPCAPSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CAPSTATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: CAPSTATUS, *PCAPSTATUS, *LPCAPSTATUS
+req.redist: 
 ---
 
 # tagCapStatus structure

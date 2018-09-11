@@ -4,17 +4,16 @@ title: IWMPContentContainer::GetType
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetType method retrieves the type of the content container.
 old-location: wmp\iwmpcontentcontainer_gettype.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 34c8ab5a-1f9f-4a71-9bf8-3b762d065da9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetType, GetType method [Windows Media Player], GetType method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetType method, IWMPContentContainer.GetType, IWMPContentContainer::GetType, IWMPContentContainerGetType, contentpartner/IWMPContentContainer::GetType, wmp.iwmpcontentcontainer_gettype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPTransactionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWMPContentContainer.GetType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPContentContainer::GetType

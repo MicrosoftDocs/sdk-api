@@ -4,17 +4,16 @@ title: DrvQueryAdvanceWidths function
 author: windows-sdk-content
 description: The DrvQueryAdvanceWidths function returns character advance widths for a specified set of glyphs.
 old-location: display\drvqueryadvancewidths.htm
-old-project: display
+tech.root: display
 ms.assetid: b97114b5-6cc7-4af6-badb-d6aa5fc581ef
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvQueryAdvanceWidths, DrvQueryAdvanceWidths function [Display Devices], ddifncs_f97d4a54-b5e9-45b7-9d42-ece9073640a4.xml, display.drvqueryadvancewidths, winddi/DrvQueryAdvanceWidths
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvQueryAdvanceWidths
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvQueryAdvanceWidths function

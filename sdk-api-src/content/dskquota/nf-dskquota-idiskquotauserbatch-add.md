@@ -4,17 +4,16 @@ title: IDiskQuotaUserBatch::Add
 author: windows-sdk-content
 description: Adds an IDiskQuotaUser pointer to the batch list.
 old-location: fs\idiskquotauserbatch_add.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 8b0876d2-55ba-4eaa-b317-8ea1d2f5ff4f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Add, Add method [Files], Add method [Files],IDiskQuotaUserBatch interface, IDiskQuotaUserBatch interface [Files],Add method, IDiskQuotaUserBatch.Add, IDiskQuotaUserBatch::Add, _win32_idiskquotauserbatch_add, base.idiskquotauserbatch_add, dskquota/IDiskQuotaUserBatch::Add, fs.idiskquotauserbatch_add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaUserBatch.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaUserBatch::Add

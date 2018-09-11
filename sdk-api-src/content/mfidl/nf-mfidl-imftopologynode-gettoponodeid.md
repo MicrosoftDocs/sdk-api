@@ -4,17 +4,16 @@ title: IMFTopologyNode::GetTopoNodeID
 author: windows-sdk-content
 description: Retrieves the identifier of the node.
 old-location: mf\imftopologynode_gettoponodeid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9c0e5be9-6481-4132-ad5b-9db13fb07391
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 9c0e5be9-6481-4132-ad5b-9db13fb07391, GetTopoNodeID, GetTopoNodeID method [Media Foundation], GetTopoNodeID method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetTopoNodeID method, IMFTopologyNode.GetTopoNodeID, IMFTopologyNode::GetTopoNodeID, mf.imftopologynode_gettoponodeid, mfidl/IMFTopologyNode::GetTopoNodeID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopologyNode.GetTopoNodeID
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopologyNode::GetTopoNodeID

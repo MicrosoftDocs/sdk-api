@@ -4,7 +4,7 @@ title: "_MF_FLOAT3"
 author: windows-sdk-content
 description: A vector with three components.
 old-location: mf\mf_float3.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: F284993C-A149-4C89-866D-5E46E6AD2CCC
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FLOAT3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_FLOAT3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_FLOAT3
+req.redist: 
 ---
 
 # _MF_FLOAT3 structure

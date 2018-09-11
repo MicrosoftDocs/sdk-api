@@ -4,17 +4,16 @@ title: ITaskbarList3::SetOverlayIcon
 author: windows-sdk-content
 description: Applies an overlay to a taskbar button to indicate application status or a notification to the user.
 old-location: shell\ITaskbarList3_SetOverlayIcon.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 77857109-64b6-428e-b2b1-ee757784532a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetOverlayIcon method, ITaskbarList3.SetOverlayIcon, ITaskbarList3::SetOverlayIcon, SetOverlayIcon, SetOverlayIcon method [Windows Shell], SetOverlayIcon method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetOverlayIcon, shell.ITaskbarList3_SetOverlayIcon, shobjidl_core/ITaskbarList3::SetOverlayIcon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Explorerframe.lib
+req.dll: Explorerframe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskbarList3.SetOverlayIcon
 product: Windows
 targetos: Windows
-req.lib: Explorerframe.lib
-req.dll: Explorerframe.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskbarList3::SetOverlayIcon

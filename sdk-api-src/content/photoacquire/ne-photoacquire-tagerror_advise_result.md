@@ -4,7 +4,7 @@ title: tagERROR_ADVISE_RESULT
 author: windows-sdk-content
 description: The ERROR_ADVISE_RESULT enumeration type indicates the type of error values that can be assigned to the pnErrorAdviseResult parameter of IPhotoAcquireProgressCB::ErrorAdvise.
 old-location: picacq\error_advise_result.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: a3cb2a2d-049a-4607-beaf-41ea6f0d4704
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ERROR_ADVISE_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ERROR_ADVISE_RESULT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: ERROR_ADVISE_RESULT
+req.redist: 
 ---
 
 # tagERROR_ADVISE_RESULT enumeration

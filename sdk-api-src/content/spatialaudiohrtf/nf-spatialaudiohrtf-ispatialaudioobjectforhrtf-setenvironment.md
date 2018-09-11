@@ -4,17 +4,16 @@ title: ISpatialAudioObjectForHrtf::SetEnvironment
 author: windows-sdk-content
 description: Sets the type of acoustic environment that is simulated when audio is processed for the ISpatialAudioObjectForHrtf.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setenvironment.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 6D96F854-0FAE-4B8B-9033-E2AEB471B38B
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetEnvironment method, ISpatialAudioObjectForHrtf.SetEnvironment, ISpatialAudioObjectForHrtf::SetEnvironment, SetEnvironment, SetEnvironment method [Core Audio], SetEnvironment method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setenvironment, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetEnvironment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiohrtf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioHrtfEnvironmentType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectForHrtf.SetEnvironment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectForHrtf::SetEnvironment

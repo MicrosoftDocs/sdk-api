@@ -4,17 +4,16 @@ title: "_RESIZE_VIRTUAL_DISK_VERSION"
 author: windows-sdk-content
 description: Enumerates the possible versions for parameters for the ResizeVirtualDisk function.
 old-location: vstor\resize_virtual_disk_version.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 779381fb-4433-46c5-8caf-b830cd015c95
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RESIZE_VIRTUAL_DISK_VERSION, RESIZE_VIRTUAL_DISK_VERSION enumeration [Virtual Storage], RESIZE_VIRTUAL_DISK_VERSION_1, RESIZE_VIRTUAL_DISK_VERSION_UNSPECIFIED, _RESIZE_VIRTUAL_DISK_VERSION, virtdisk/RESIZE_VIRTUAL_DISK_VERSION, virtdisk/RESIZE_VIRTUAL_DISK_VERSION_1, virtdisk/RESIZE_VIRTUAL_DISK_VERSION_UNSPECIFIED, vstor.resize_virtual_disk_version
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESIZE_VIRTUAL_DISK_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESIZE_VIRTUAL_DISK_VERSION
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: RESIZE_VIRTUAL_DISK_VERSION
+req.redist: 
 ---
 
 # _RESIZE_VIRTUAL_DISK_VERSION enumeration

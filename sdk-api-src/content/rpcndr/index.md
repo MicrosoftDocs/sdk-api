@@ -2,7 +2,7 @@
 UID: NA:rpcndr
 ms.assetid: 94d2ad6f-f235-3269-ab39-c3bf3e799b2b
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

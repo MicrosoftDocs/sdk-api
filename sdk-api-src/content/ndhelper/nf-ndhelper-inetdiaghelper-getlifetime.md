@@ -4,17 +4,16 @@ title: INetDiagHelper::GetLifeTime
 author: windows-sdk-content
 description: Retrieves the lifetime of the Helper Class Extension instance.
 old-location: ndf\inetdiaghelpe_getlifetime.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 0710b8d3-04d6-434f-9b0a-22049bf00ba0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetLifeTime, GetLifeTime method [NDF], GetLifeTime method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetLifeTime method, INetDiagHelper.GetLifeTime, INetDiagHelper::GetLifeTime, ndf.inetdiaghelpe_getlifetime, ndhelper/INetDiagHelper::GetLifeTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetDiagHelper.GetLifeTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetDiagHelper::GetLifeTime

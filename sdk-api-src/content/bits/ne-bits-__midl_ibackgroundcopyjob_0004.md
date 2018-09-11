@@ -4,7 +4,7 @@ title: "__MIDL_IBackgroundCopyJob_0004"
 author: windows-sdk-content
 description: The BG_JOB_PROXY_USAGE enumeration defines constant values that specify which proxy to use for file transfers. You can define different proxy settings for each job.
 old-location: bits\bg_job_proxy_usage.htm
-old-project: bits
+tech.root: bits
 ms.assetid: e066b6c8-905f-4e18-9be7-aa3c134f9e13
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BG_JOB_PROXY_USAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BG_JOB_PROXY_USAGE
+req.redist: 
 ---
 
 # __MIDL_IBackgroundCopyJob_0004 enumeration

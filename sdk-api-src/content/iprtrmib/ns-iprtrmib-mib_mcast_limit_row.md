@@ -4,7 +4,7 @@ title: MIB_MCAST_LIMIT_ROW
 author: windows-sdk-content
 description: The MIB_MCAST_LIMIT_ROW structure contains the configurable limit information from a corresponding MIB_IPMCAST_IF_ENTRY structure.
 old-location: mib\mib_mcast_limit_row.htm
-old-project: mib
+tech.root: mib
 ms.assetid: dc5be2f4-5c6e-43c7-95e8-6a74938ce063
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_MCAST_LIMIT_ROW, *PMIB_MCAST_LIMIT_ROW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_MCAST_LIMIT_ROW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_MCAST_LIMIT_ROW, *PMIB_MCAST_LIMIT_ROW
+req.redist: 
 ---
 
 # MIB_MCAST_LIMIT_ROW structure

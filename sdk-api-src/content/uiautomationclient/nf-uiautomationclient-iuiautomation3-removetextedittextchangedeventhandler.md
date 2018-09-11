@@ -4,17 +4,16 @@ title: IUIAutomation3::RemoveTextEditTextChangedEventHandler
 author: windows-sdk-content
 description: Removes a programmatic text-edit event handler.
 old-location: winauto\uiauto_IUIAutomation3_RemoveTextEditTextChangedEventHandler.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: CCB8C8FC-B0CF-2C3D-64B5-9CCF1BB64058
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomation3 interface [Windows Accessibility],RemoveTextEditTextChangedEventHandler method, IUIAutomation3.RemoveTextEditTextChangedEventHandler, IUIAutomation3::RemoveTextEditTextChangedEventHandler, RemoveTextEditTextChangedEventHandler, RemoveTextEditTextChangedEventHandler method [Windows Accessibility], RemoveTextEditTextChangedEventHandler method [Windows Accessibility],IUIAutomation3 interface, uiautomationclient/IUIAutomation3::RemoveTextEditTextChangedEventHandler, winauto.uiauto_IUIAutomation3_RemoveTextEditTextChangedEventHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomation3.RemoveTextEditTextChangedEventHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation3::RemoveTextEditTextChangedEventHandler

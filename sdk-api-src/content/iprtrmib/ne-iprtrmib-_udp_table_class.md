@@ -4,7 +4,7 @@ title: "_UDP_TABLE_CLASS"
 author: windows-sdk-content
 description: Defines the set of values used to indicate the type of table returned by calls to GetExtendedUdpTable.
 old-location: iphlp\udp_table_class.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 2e7304d1-b89c-46d4-9121-936a1c38cc51
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UDP_TABLE_CLASS, *PUDP_TABLE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - UDP_TABLE_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: UDP_TABLE_CLASS, *PUDP_TABLE_CLASS
+req.redist: 
 ---
 
 # _UDP_TABLE_CLASS enumeration

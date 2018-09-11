@@ -4,17 +4,16 @@ title: IDvbContentIdentifierDescriptor::GetRecordCrid
 author: windows-sdk-content
 description: Gets the content reference identifier (CRID) from a Digital Video Broadcast (DVB) content identifier descriptor.
 old-location: mstv\idvbcontentidentifierdescriptor_getrecordcrid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: de3593a6-f39c-4c4a-9ddf-1343186d98e3
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordCrid, GetRecordCrid method [Microsoft TV Technologies], GetRecordCrid method [Microsoft TV Technologies],IDvbContentIdentifierDescriptor interface, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies],GetRecordCrid method, IDvbContentIdentifierDescriptor.GetRecordCrid, IDvbContentIdentifierDescriptor::GetRecordCrid, dvbsiparser/IDvbContentIdentifierDescriptor::GetRecordCrid, mstv.idvbcontentidentifierdescriptor_getrecordcrid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbContentIdentifierDescriptor.GetRecordCrid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbContentIdentifierDescriptor::GetRecordCrid

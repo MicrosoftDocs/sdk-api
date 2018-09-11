@@ -4,17 +4,16 @@ title: IDirectMusicSynth::Unload
 author: windows-sdk-content
 description: The Unload method unloads a DLS resource (waveform or articulation data for a MIDI instrument) that was previously downloaded by a call to IDirectMusicSynth::Download.
 old-location: audio\idirectmusicsynth_unload.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 608ebffe-873a-40ed-a411-245e8b6ceabd
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],Unload method, IDirectMusicSynth.Unload, IDirectMusicSynth::Unload, Unload, Unload method [Audio Devices], Unload method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_unload, audmp-routines_7a0213c4-3cd1-4c6f-ab4a-064d08782629.xml, dmusics/IDirectMusicSynth::Unload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectMusicSynth.Unload
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectMusicSynth::Unload

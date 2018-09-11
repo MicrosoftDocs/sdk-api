@@ -4,17 +4,16 @@ title: ID2D1Factory6::CreateDevice
 author: windows-sdk-content
 description: Creates a new Direct2D device from the given IDXGIDevice.
 old-location: direct2d\id2d1factory6_createdevice.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 980F35D2-7BAB-4F6B-B75B-9582A3CCCAEB
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateDevice, CreateDevice method [Direct2D], CreateDevice method [Direct2D],ID2D1Factory6 interface, ID2D1Factory6 interface [Direct2D],CreateDevice method, ID2D1Factory6.CreateDevice, ID2D1Factory6::CreateDevice, d2d1_3/ID2D1Factory6::CreateDevice, direct2d.id2d1factory6_createdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Factory6.CreateDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Factory6::CreateDevice

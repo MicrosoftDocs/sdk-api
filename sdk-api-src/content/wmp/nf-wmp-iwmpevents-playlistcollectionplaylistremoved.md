@@ -4,17 +4,16 @@ title: IWMPEvents::PlaylistCollectionPlaylistRemoved
 author: windows-sdk-content
 description: The PlaylistCollectionPlaylistRemoved event occurs when a playlist is removed from the playlist collection.
 old-location: wmp\iwmpevents_iwmpevents__playlistcollectionplaylistremoved.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 53b7e883-f392-4a07-8952-ab7a6e9c436e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistCollectionPlaylistRemoved method, IWMPEvents.PlaylistCollectionPlaylistRemoved, IWMPEvents::PlaylistCollectionPlaylistRemoved, IWMPEventsPlaylistCollectionPlaylistRemoved, PlaylistCollectionPlaylistRemoved, PlaylistCollectionPlaylistRemoved method [Windows Media Player], PlaylistCollectionPlaylistRemoved method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playlistcollectionplaylistremoved, wmp/IWMPEvents::PlaylistCollectionPlaylistRemoved
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEvents.PlaylistCollectionPlaylistRemoved
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEvents::PlaylistCollectionPlaylistRemoved

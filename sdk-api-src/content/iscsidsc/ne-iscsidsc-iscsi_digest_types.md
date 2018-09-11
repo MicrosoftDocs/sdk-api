@@ -4,7 +4,7 @@ title: ISCSI_DIGEST_TYPES
 author: windows-sdk-content
 description: ISCSI_DIGEST_TYPES enumeration indicates the digest type.
 old-location: iscsidisc\iscsi_digest_types.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 7c89cc19-28ae-472f-9400-9bd8d0f10c63
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ipsectypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ISCSI_DIGEST_TYPES, *PISCSI_DIGEST_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISCSI_DIGEST_TYPES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ISCSI_DIGEST_TYPES, *PISCSI_DIGEST_TYPES
+req.redist: 
 ---
 
 # ISCSI_DIGEST_TYPES enumeration

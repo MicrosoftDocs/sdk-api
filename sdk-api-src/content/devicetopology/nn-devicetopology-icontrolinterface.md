@@ -4,17 +4,16 @@ title: IControlInterface
 author: windows-sdk-content
 description: The IControlInterface interface represents a control interface on a part (connector or subunit) in a device topology. The client obtains a reference to a part's IControlInterface interface by calling the IPart::GetControlInterface method.
 old-location: coreaudio\icontrolinterface.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: fdd91f65-e45c-4f14-a55c-a44be1661950
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IControlInterface, IControlInterface interface [Core Audio], IControlInterface interface [Core Audio],described, coreaudio.icontrolinterface, devicetopology/IControlInterface
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IControlInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IControlInterface interface

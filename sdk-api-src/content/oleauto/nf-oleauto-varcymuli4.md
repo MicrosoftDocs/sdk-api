@@ -4,17 +4,16 @@ title: VarCyMulI4 function
 author: windows-sdk-content
 description: Multiplies a currency value by a 32-bit integer.
 old-location: automat\varcymuli4.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 2adfa078-c00c-48df-bd31-e36bcab64cbf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarCyMulI4, VarCyMulI4 function [Automation], _oa96_VarCyMulI4, automat.varcymuli4, oleauto/VarCyMulI4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarCyMulI4
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarCyMulI4 function

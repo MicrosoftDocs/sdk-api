@@ -4,17 +4,16 @@ title: MFGetAttributeUINT32 function
 author: windows-sdk-content
 description: Returns a UINT32 value from an attribute store, or a default value if the attribute is not present.
 old-location: mf\mfgetattributeuint32.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b79f3b2c-6293-41b2-afe7-4a0b2c27b34f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFGetAttributeUINT32, MFGetAttributeUINT32 function [Media Foundation], b79f3b2c-6293-41b2-afe7-4a0b2c27b34f, mf.mfgetattributeuint32, mfapi/MFGetAttributeUINT32
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFGetAttributeUINT32
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFGetAttributeUINT32 function

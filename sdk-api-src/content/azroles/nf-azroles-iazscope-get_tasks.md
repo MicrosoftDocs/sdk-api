@@ -4,17 +4,16 @@ title: IAzScope::get_Tasks
 author: windows-sdk-content
 description: Retrieves an IAzTasks object that is used to enumerate IAzTask objects from the policy data.
 old-location: security\iazscope_tasks.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4b8a5280-570d-46eb-a6cb-2723cde3eb15
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzScope object [Security],Tasks property, IAzScope interface [Security],Tasks property, IAzScope.Tasks, IAzScope.get_Tasks, IAzScope::Tasks, IAzScope::get_Tasks, Tasks property [Security], Tasks property [Security],AzScope object, Tasks property [Security],IAzScope interface, azroles/IAzScope::Tasks, azroles/IAzScope::get_Tasks, get_Tasks, security.iazscope_tasks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzScope.Tasks
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzScope::get_Tasks

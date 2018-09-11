@@ -4,17 +4,16 @@ title: IMFRemoteProxy::GetRemoteObject
 author: windows-sdk-content
 description: Retrieves a pointer to the remote object for which this object is a proxy.
 old-location: mf\imfremoteproxy_getremoteobject.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3, GetRemoteObject, GetRemoteObject method [Media Foundation], GetRemoteObject method [Media Foundation],IMFRemoteProxy interface, IMFRemoteProxy interface [Media Foundation],GetRemoteObject method, IMFRemoteProxy.GetRemoteObject, IMFRemoteProxy::GetRemoteObject, mf.imfremoteproxy_getremoteobject, mfidl/IMFRemoteProxy::GetRemoteObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFRemoteProxy.GetRemoteObject
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFRemoteProxy::GetRemoteObject

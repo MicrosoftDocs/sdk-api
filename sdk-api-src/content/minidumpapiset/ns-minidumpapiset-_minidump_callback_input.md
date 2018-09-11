@@ -4,17 +4,16 @@ title: "_MINIDUMP_CALLBACK_INPUT"
 author: windows-sdk-content
 description: Contains information used by the MiniDumpCallback function.
 old-location: base\minidump_callback_input_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 0ce3083c-21c9-48a4-9099-1dab31afcafa
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PMINIDUMP_CALLBACK_INPUT, MINIDUMP_CALLBACK_INPUT, MINIDUMP_CALLBACK_INPUT structure, PMINIDUMP_CALLBACK_INPUT, PMINIDUMP_CALLBACK_INPUT structure pointer, _MINIDUMP_CALLBACK_INPUT, _win32_minidump_callback_input_str, base.minidump_callback_input_str, minidumpapiset/MINIDUMP_CALLBACK_INPUT, minidumpapiset/PMINIDUMP_CALLBACK_INPUT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_CALLBACK_INPUT, *PMINIDUMP_CALLBACK_INPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_CALLBACK_INPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_CALLBACK_INPUT, *PMINIDUMP_CALLBACK_INPUT
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_CALLBACK_INPUT structure

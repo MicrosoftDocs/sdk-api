@@ -4,7 +4,7 @@ title: DD_KERNELCALLBACKS
 author: windows-sdk-content
 description: The DD_KERNELCALLBACKS structure contains entry pointers to the DirectDraw kernel-mode callback functions that the driver supports.
 old-location: display\dd_kernelcallbacks.htm
-old-project: display
+tech.root: display
 ms.assetid: 85dcb71b-ad1f-4b83-8ead-db502d9f294e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DD_KERNELCALLBACKS, *PDD_KERNELCALLBACKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_KERNELCALLBACKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DD_KERNELCALLBACKS, *PDD_KERNELCALLBACKS
+req.redist: 
 ---
 
 # DD_KERNELCALLBACKS structure

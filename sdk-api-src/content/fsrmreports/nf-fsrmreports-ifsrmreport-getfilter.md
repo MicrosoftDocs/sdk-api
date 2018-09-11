@@ -4,17 +4,16 @@ title: IFsrmReport::GetFilter
 author: windows-sdk-content
 description: Retrieves the value of the specified report filter.
 old-location: fsrm\ifsrmreport_getfilter.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 991b0009-7ed9-4d75-af03-1b76aa8be70c
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: GetFilter, GetFilter method [File Server Resource Manager], GetFilter method [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],GetFilter method, IFsrmReport.GetFilter, IFsrmReport::GetFilter, fs.ifsrmreport_getfilter, fsrm.ifsrmreport_getfilter, fsrmreports/IFsrmReport::GetFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmReport.GetFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReport::GetFilter

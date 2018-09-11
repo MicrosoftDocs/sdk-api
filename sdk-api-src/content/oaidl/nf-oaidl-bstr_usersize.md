@@ -4,17 +4,16 @@ title: BSTR_UserSize function
 author: windows-sdk-content
 description: Calculates the wire size of the BSTR object, and gets its handle and data.
 old-location: automat\bstr_usersize.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 16c349b4-21e1-45bb-8b24-d299adb36e14
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BSTR_UserSize, BSTR_UserSize function [Automation], _oa96_BSTR_UserSize, automat.bstr_usersize, oaidl/BSTR_UserSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BSTR_UserSize
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # BSTR_UserSize function
@@ -60,7 +58,17 @@ Calculates the wire size of the <a href="https://msdn.microsoft.com/1b2d7d2c-47a
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 

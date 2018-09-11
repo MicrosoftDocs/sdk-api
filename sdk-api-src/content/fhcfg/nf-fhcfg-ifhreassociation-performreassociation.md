@@ -4,17 +4,16 @@ title: IFhReassociation::PerformReassociation
 author: windows-sdk-content
 description: This method re-establishes relationship between the current user and the configuration selected previously via the IFhReassociation::SelectConfiguration method and prepares the target device for accepting backup data from the current computer.
 old-location: winprog\ifhreassociation_performreassociation.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 2E80F25E-2DB6-4522-8F3C-7E6359104CCA
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FhReassociation class [Windows API],PerformReassociation method, IFhReassociation interface [Windows API],PerformReassociation method, IFhReassociation.PerformReassociation, IFhReassociation::PerformReassociation, PerformReassociation, PerformReassociation method [Windows API], PerformReassociation method [Windows API],FhReassociation class, PerformReassociation method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::PerformReassociation, winprog.ifhreassociation_performreassociation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FhReassociation.PerformReassociation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFhReassociation::PerformReassociation

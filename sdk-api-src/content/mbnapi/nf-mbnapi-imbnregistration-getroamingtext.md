@@ -4,17 +4,16 @@ title: IMbnRegistration::GetRoamingText
 author: windows-sdk-content
 description: Gets the roaming text describing the roaming provider.
 old-location: mbn\imbnregistration_getroamingtext.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: a2911387-7497-43c5-bc1c-db093f31186c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetRoamingText, GetRoamingText method [Microsoft Broadband Networks], GetRoamingText method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRoamingText method, IMbnRegistration.GetRoamingText, IMbnRegistration::GetRoamingText, mbn.imbnregistration_getroamingtext, mbnapi/IMbnRegistration::GetRoamingText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnRegistration.GetRoamingText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnRegistration::GetRoamingText

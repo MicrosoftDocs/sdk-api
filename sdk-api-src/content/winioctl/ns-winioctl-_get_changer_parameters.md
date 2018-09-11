@@ -4,7 +4,7 @@ title: "_GET_CHANGER_PARAMETERS"
 author: windows-sdk-content
 description: Represents the parameters of a changer.
 old-location: base\get_changer_parameters_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: ad5b6cc3-19f1-4196-9f03-791f342d0cf9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GET_CHANGER_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
+req.redist: 
 ---
 
 # _GET_CHANGER_PARAMETERS structure

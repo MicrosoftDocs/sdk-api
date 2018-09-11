@@ -4,17 +4,16 @@ title: IFillLockBytes::Terminate
 author: windows-sdk-content
 description: The Terminate method informs the byte array that the download has been terminated, either successfully or unsuccessfully.
 old-location: stg\ifilllockbytes_terminate.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: 21ea78c7-51f1-4418-915c-79db47c25715
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IFillLockBytes interface [Structured Storage],Terminate method, IFillLockBytes.Terminate, IFillLockBytes::Terminate, Terminate, Terminate method [Structured Storage], Terminate method [Structured Storage],IFillLockBytes interface, _stg_ifilllockbytes_terminate, objidl/IFillLockBytes::Terminate, stg.ifilllockbytes_terminate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFillLockBytes.Terminate
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFillLockBytes::Terminate

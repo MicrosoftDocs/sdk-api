@@ -4,17 +4,16 @@ title: IToolbar::GetButtonState
 author: windows-sdk-content
 description: Enables a snap-in to obtain an attribute of a button.
 old-location: mmc\itoolbar_getbuttonstate.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 94c41b13-f1ab-4368-8cfa-960caeea796e
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: BUTTONPRESSED, CHECKED, ENABLED, GetButtonState, GetButtonState method [MMC], GetButtonState method [MMC],IToolbar interface, HIDDEN, INDETERMINATE, IToolbar interface [MMC],GetButtonState method, IToolbar.GetButtonState, IToolbar::GetButtonState, _slate_itoolbar_getbuttonstate, mmc.itoolbar_getbuttonstate, mmc/IToolbar::GetButtonState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IToolbar.GetButtonState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IToolbar::GetButtonState

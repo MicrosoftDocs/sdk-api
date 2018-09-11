@@ -4,17 +4,16 @@ title: IX509ExtensionCertificatePolicies::get_Policies
 author: windows-sdk-content
 description: Retrieves a collection of certificate policies.
 old-location: security\ix509extensioncertificatepolicies_policies_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: eefb515d-62dc-4ad7-b0c4-c65a4da5742e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509ExtensionCertificatePolicies interface [Security],Policies property, IX509ExtensionCertificatePolicies.Policies, IX509ExtensionCertificatePolicies.get_Policies, IX509ExtensionCertificatePolicies::Policies, IX509ExtensionCertificatePolicies::get_Policies, Policies property [Security], Policies property [Security],IX509ExtensionCertificatePolicies interface, certenroll/IX509ExtensionCertificatePolicies::Policies, certenroll/IX509ExtensionCertificatePolicies::get_Policies, get_Policies, security.ix509extensioncertificatepolicies_policies_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509ExtensionCertificatePolicies.get_Policies
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509ExtensionCertificatePolicies::get_Policies

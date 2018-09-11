@@ -4,17 +4,16 @@ title: IMFTransform::GetInputAvailableType
 author: windows-sdk-content
 description: Gets an available media type for an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getinputavailabletype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ed4cfdd0-28d5-4775-aa32-c17c6b13e5bf
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetInputAvailableType, GetInputAvailableType method [Media Foundation], GetInputAvailableType method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputAvailableType method, IMFTransform.GetInputAvailableType, IMFTransform::GetInputAvailableType, ed4cfdd0-28d5-4775-aa32-c17c6b13e5bf, mf.imftransform_getinputavailabletype, mftransform/IMFTransform::GetInputAvailableType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTransform.GetInputAvailableType
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTransform::GetInputAvailableType

@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxDeviceIds.get_Item
 title: IFaxDeviceIds::get_Item
 author: windows-sdk-content
-description: The Item property represents a device ID from the FaxDeviceIds collection.
-old-location: fax\_mfax_faxdeviceids_item.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinta_n_0xt9.htm
+description: The IFaxDeviceIds::get_Item method represents a device ID from the FaxDeviceIds collection.
+old-location: fax\_mfax_faxdeviceids_item_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinta_n_0xt9_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxDeviceIds object [Fax Service],Item property, FaxDeviceIds.Item, IFaxDeviceIds.get_Item, IFaxDeviceIds.put_Item, IFaxDeviceIds::get_Item, Item property [Fax Service], Item property [Fax Service],FaxDeviceIds object, _mfax_faxdeviceids.item, fax._mfax_faxdeviceids_item, get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxDeviceIds interface [Fax Service],get_Item method, IFaxDeviceIds.get_Item, IFaxDeviceIds::get_Item, _mfax_faxdeviceids.item_cpp, fax._mfax_faxdeviceids_item_cpp, faxcomex/IFaxDeviceIds::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxDeviceIds interface
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,15 +37,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxDeviceIds.Item
  - IFaxDeviceIds.get_Item
- - IFaxDeviceIds.put_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDeviceIds::get_Item
@@ -54,12 +50,37 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Item</b> property represents a device ID from the <a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection.
-
-This property is read/write.
+The <b>IFaxDeviceIds::get_Item</b> method represents a device ID from the <a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection.
 
 
 ## -parameters
+
+
+
+
+### -param lIndex [in]
+
+Type: <b>long</b>
+
+A value specifying the item to retrieve from the collection. Valid values for this parameter are in the range from 1 to n, where n is the number of devices returned by a call to the <a href="https://msdn.microsoft.com/d47b51e0-d228-467b-acb3-b84e3cebb76d">IFaxDeviceIds::get_Count</a> method.
+
+
+### -param plDeviceId [out, retval]
+
+Type: <b>long*</b>
+
+Pointer to a value that receives the item requested.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
 
 
 ## -see-also

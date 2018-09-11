@@ -4,17 +4,16 @@ title: IDCompositionLinearTransferEffect::SetClampOutput
 author: windows-sdk-content
 description: Specifies whether the effect clamps color values to between 0 and 1 before the effect passes the values to the next effect in the graph.
 old-location: directcomp\idcompositionlineartransfereffect_setclampoutput.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: D56B3B15-6437-46A3-B1F9-88F5BC4A9BB2
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetClampOutput method, IDCompositionLinearTransferEffect.SetClampOutput, IDCompositionLinearTransferEffect::SetClampOutput, SetClampOutput, SetClampOutput method [DirectComposition], SetClampOutput method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetClampOutput, directcomp.idcompositionlineartransfereffect_setclampoutput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionLinearTransferEffect.SetClampOutput
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionLinearTransferEffect::SetClampOutput

@@ -4,7 +4,7 @@ title: "_LUID"
 author: windows-sdk-content
 description: The LUID structure is an opaque structure that specifies an identifier that is guaranteed to be unique on the local machine. For more information, see the reference page for LUID in the Microsoft Windows SDK documentation.
 old-location: kernel\luid.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 974536eb-5cb3-4056-9c43-c6df170f6bf7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LUID, *PLUID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LUID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: Any level
-req.product: Rights Management Services client 1.0 or later
+req.typenames: LUID, *PLUID
+req.redist: 
 ---
 
 # _LUID structure

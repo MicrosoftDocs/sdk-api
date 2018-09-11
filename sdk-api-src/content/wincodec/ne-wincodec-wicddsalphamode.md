@@ -4,7 +4,7 @@ title: WICDdsAlphaMode
 author: windows-sdk-content
 description: Specifies the the meaning of pixel color component values contained in the DDS image.
 old-location: wic\wicddsalphamode.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 67C9B07F-5259-4032-9EBF-CBC3B8637343
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICDdsAlphaMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICDdsAlphaMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICDdsAlphaMode
+req.redist: 
 ---
 
 # WICDdsAlphaMode enumeration

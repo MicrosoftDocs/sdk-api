@@ -4,17 +4,16 @@ title: IGPMStarterGPOBackupCollection::get_Item
 author: windows-sdk-content
 description: Given an index, returns an GPMStarterGPOBackup object from the collection.
 old-location: gpmc\igpmstartergpobackupcollection_get_item.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 295b00ed-856e-4199-8b93-7c676a5ab8bb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IGPMStarterGPOBackupCollection interface [GPMC],Item property, IGPMStarterGPOBackupCollection.Item, IGPMStarterGPOBackupCollection.get_Item, IGPMStarterGPOBackupCollection::Item, IGPMStarterGPOBackupCollection::get_Item, Item property [GPMC], Item property [GPMC],IGPMStarterGPOBackupCollection interface, get_Item, gpmc.igpmstartergpobackupcollection_get_item, gpmgmt/IGPMStarterGPOBackupCollection::Item, gpmgmt/IGPMStarterGPOBackupCollection::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: GPMC on Windows Server 2008 or Windows Vista
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGPMStarterGPOBackupCollection.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: GPMC on Windows Server 2008 or Windows Vista
 ---
 
 # IGPMStarterGPOBackupCollection::get_Item

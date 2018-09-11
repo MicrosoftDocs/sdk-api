@@ -4,17 +4,16 @@ title: "_VDS_DISK_PROP"
 author: windows-sdk-content
 description: Defines the properties of a disk object.
 old-location: base\vds_disk_prop.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: c7c09f95-9489-46fd-8b03-cabdee4521cf
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVDS_DISK_PROP, PVDS_DISK_PROP, PVDS_DISK_PROP structure pointer [VDS], VDS_DISK_PROP, VDS_DISK_PROP structure [VDS], VDS_H_FAILED, VDS_H_FAILING, VDS_H_HEALTHY, VDS_H_UNKNOWN, _VDS_DISK_PROP, base.vds_disk_prop, vds/PVDS_DISK_PROP, vds/_VDS_DISK_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_DISK_PROP, *PVDS_DISK_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_DISK_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_DISK_PROP, *PVDS_DISK_PROP
+req.redist: 
 ---
 
 # _VDS_DISK_PROP structure

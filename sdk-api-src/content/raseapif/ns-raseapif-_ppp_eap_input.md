@@ -4,7 +4,7 @@ title: "_PPP_EAP_INPUT"
 author: windows-sdk-content
 description: The PPP_EAP_INPUT structure is used in the interaction between the RAS Connection Manager Service PPP implementation and the EAP.
 old-location: eap\ppp_eap_input.htm
-old-project: eap
+tech.root: eap
 ms.assetid: 80a8f118-323d-4040-91f7-202eeee6d227
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: raseapif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PPP_EAP_INPUT, *PPPP_EAP_INPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PPP_EAP_INPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PPP_EAP_INPUT, *PPPP_EAP_INPUT
+req.redist: 
 ---
 
 # _PPP_EAP_INPUT structure

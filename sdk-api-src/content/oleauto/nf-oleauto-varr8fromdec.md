@@ -4,17 +4,16 @@ title: VarR8FromDec function
 author: windows-sdk-content
 description: Converts a decimal value to a double value.
 old-location: automat\varr8fromdec.htm
-old-project: automat
+tech.root: automat
 ms.assetid: be9d02c5-c6ce-421c-a4dd-1fd453d2be4b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarR8FromDec, VarR8FromDec function [Automation], _oa96_VarR8FromDec, automat.varr8fromdec, oleauto/VarR8FromDec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarR8FromDec
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarR8FromDec function

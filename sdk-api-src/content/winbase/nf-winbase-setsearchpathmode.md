@@ -4,17 +4,16 @@ title: SetSearchPathMode function
 author: windows-sdk-content
 description: Sets the per-process mode that the SearchPath function uses when locating files.
 old-location: fs\setsearchpathmode.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 1874933d-92c3-4945-a3e4-e6dede232d5e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BASE_SEARCH_PATH_DISABLE_SAFE_SEARCHMODE, BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE, BASE_SEARCH_PATH_PERMANENT, SetSearchPathMode, SetSearchPathMode function [Files], fs.setsearchpathmode, winbase/SetSearchPathMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: KB959426 on      Windows XP with SP2 and later and Windows Server 2003 with SP1 and later
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetSearchPathMode
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: KB959426 on      Windows XP with SP2 and later and Windows Server 2003 with SP1 and later
 ---
 
 # SetSearchPathMode function

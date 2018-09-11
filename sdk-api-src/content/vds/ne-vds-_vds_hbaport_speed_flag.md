@@ -4,17 +4,16 @@ title: "_VDS_HBAPORT_SPEED_FLAG"
 author: windows-sdk-content
 description: Defines the set of valid flags for determining the speeds supported by an HBA port.
 old-location: base\vds_hbaport_speed_flag.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: b44a51b5-7aca-4e95-88ec-60ff026c411f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_HBAPORT_SPEED_FLAG, VDS_HBAPORT_SPEED_FLAG enumeration [VDS], VDS_HSF_10GBIT, VDS_HSF_1GBIT, VDS_HSF_2GBIT, VDS_HSF_4GBIT, VDS_HSF_NOT_NEGOTIATED, VDS_HSF_UNKNOWN, _VDS_HBAPORT_SPEED_FLAG, base.vds_hbaport_speed_flag, vds/VDS_HBAPORT_SPEED_FLAG, vds/VDS_HSF_10GBIT, vds/VDS_HSF_1GBIT, vds/VDS_HSF_2GBIT, vds/VDS_HSF_4GBIT, vds/VDS_HSF_NOT_NEGOTIATED, vds/VDS_HSF_UNKNOWN, vdshwprv/VDS_HBAPORT_SPEED_FLAG, vdshwprv/VDS_HSF_10GBIT, vdshwprv/VDS_HSF_1GBIT, vdshwprv/VDS_HSF_2GBIT, vdshwprv/VDS_HSF_4GBIT, vdshwprv/VDS_HSF_NOT_NEGOTIATED, vdshwprv/VDS_HSF_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_HBAPORT_SPEED_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_HBAPORT_SPEED_FLAG
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_HBAPORT_SPEED_FLAG
+req.redist: VDS 1.1
 ---
 
 # _VDS_HBAPORT_SPEED_FLAG enumeration

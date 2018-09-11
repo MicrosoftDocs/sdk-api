@@ -4,17 +4,16 @@ title: IAudioMediaType::GetAudioFormat
 author: windows-sdk-content
 description: The GetAudioFormat method returns the WAVEFORMATEX structure for the audio data format.
 old-location: audio\iaudiomediatype_getaudioformat.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 5e00e566-3209-435a-85ae-2c209f0e0eb3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetAudioFormat, GetAudioFormat method [Audio Devices], GetAudioFormat method [Audio Devices],IAudioMediaType interface, IAudioMediaType interface [Audio Devices],GetAudioFormat method, IAudioMediaType.GetAudioFormat, IAudioMediaType::GetAudioFormat, audio.iaudiomediatype_getaudioformat, audio_syseffects_r_9859bef7-75b8-45eb-acc2-90c5d7ef5ee1.xml, audiomediatype/IAudioMediaType::GetAudioFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.lib: Audiomediatype.idl
+req.dll: 
+req.irql: All levels
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAudioMediaType.GetAudioFormat
 product: Windows
 targetos: Windows
-req.lib: Audiomediatype.idl
-req.dll: 
-req.irql: All levels
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioMediaType::GetAudioFormat

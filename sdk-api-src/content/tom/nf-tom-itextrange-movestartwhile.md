@@ -4,17 +4,16 @@ title: ITextRange::MoveStartWhile
 author: windows-sdk-content
 description: Moves the start position of the range either Count characters, or just past all contiguous characters that are found in the set of characters specified by Cset, whichever is less.
 old-location: controls\ITextRange_MoveStartWhile.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movestartwhile.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveStartWhile method, ITextRange.MoveStartWhile, ITextRange::MoveStartWhile, MoveStartWhile, MoveStartWhile method [Windows Controls], MoveStartWhile method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveStartWhile, _win32_ITextRange_MoveStartWhile_cpp, controls.ITextRange_MoveStartWhile, controls._win32_ITextRange_MoveStartWhile, tom/ITextRange::MoveStartWhile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.MoveStartWhile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::MoveStartWhile

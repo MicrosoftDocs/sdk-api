@@ -4,17 +4,16 @@ title: IRecoverableErrorData::GetItemDisplayName
 author: windows-sdk-content
 description: Gets the display name of the item that caused the error.
 old-location: winsync\irecoverableerrordata_getitemdisplayname.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 6b40d528-18dc-4924-959a-cde5f02d18b1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetItemDisplayName, GetItemDisplayName method [Windows Sync], GetItemDisplayName method [Windows Sync],IRecoverableErrorData interface, IRecoverableErrorData interface [Windows Sync],GetItemDisplayName method, IRecoverableErrorData.GetItemDisplayName, IRecoverableErrorData::GetItemDisplayName, winsync.irecoverableerrordata_getitemdisplayname, winsync/IRecoverableErrorData::GetItemDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRecoverableErrorData.GetItemDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IRecoverableErrorData::GetItemDisplayName

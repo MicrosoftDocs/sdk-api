@@ -4,17 +4,16 @@ title: ISCTE_EAS::GetDuration
 author: windows-sdk-content
 description: The GetDuration method returns the expected duration of the alert.
 old-location: mstv\iscte_eas_getduration.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: de644588-6247-44d2-9d19-53272af8529b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDuration, GetDuration method [Microsoft TV Technologies], GetDuration method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDuration method, ISCTE_EAS.GetDuration, ISCTE_EAS::GetDuration, ISCTE_EASGetDuration, atscpsipparser/ISCTE_EAS::GetDuration, mstv.iscte_eas_getduration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISCTE_EAS.GetDuration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISCTE_EAS::GetDuration

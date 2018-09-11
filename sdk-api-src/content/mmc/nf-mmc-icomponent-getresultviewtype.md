@@ -4,17 +4,16 @@ title: IComponent::GetResultViewType
 author: windows-sdk-content
 description: The IComponent::GetResultViewType method determines what the result pane view should be.
 old-location: mmc\icomponent_getresultviewtype.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: d2575f79-d646-41b5-84a5-768402cfb826
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetResultViewType, GetResultViewType method [MMC], GetResultViewType method [MMC],IComponent interface, IComponent interface [MMC],GetResultViewType method, IComponent.GetResultViewType, IComponent::GetResultViewType, MMC_VIEW_OPTIONS_CREATENEW, MMC_VIEW_OPTIONS_EXCLUDE_SCOPE_ITEMS_FROM_LIST, MMC_VIEW_OPTIONS_FILTERED, MMC_VIEW_OPTIONS_LEXICAL_SORT, MMC_VIEW_OPTIONS_MULTISELECT, MMC_VIEW_OPTIONS_NOLISTVIEWS, MMC_VIEW_OPTIONS_NONE, MMC_VIEW_OPTIONS_OWNERDATALIST, MMC_VIEW_OPTIONS_USEFONTLINKING, _slate_icomponent_getresultviewtype, mmc.icomponent_getresultviewtype, mmc/IComponent::GetResultViewType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponent.GetResultViewType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IComponent::GetResultViewType

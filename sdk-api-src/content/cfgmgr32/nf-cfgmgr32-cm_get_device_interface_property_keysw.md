@@ -4,17 +4,16 @@ title: CM_Get_Device_Interface_Property_KeysW function
 author: windows-sdk-content
 description: The CM_Get_Device_Interface_Property_Keys function retrieves an array of device property keys that represent the device properties that are set for a device interface.
 old-location: devinst\cm_get_device_interface_property_keys.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 0C0FE652-57DE-45DE-B1F2-84EB1BD14285
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Get_Device_Interface_Property_Keys, CM_Get_Device_Interface_Property_Keys function [Device and Driver Installation], CM_Get_Device_Interface_Property_KeysW, cfgmgr32/CM_Get_Device_Interface_Property_Keys, cfgmgr32/CM_Get_Device_Interface_Property_KeysW, devinst.cm_get_device_interface_property_keys
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CM_Get_Device_Interface_Property_KeysW
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Get_Device_Interface_Property_KeysW function

@@ -4,17 +4,16 @@ title: BluetoothSendAuthenticationResponse function
 author: windows-sdk-content
 description: The BluetoothSendAuthenticationResponse function is called when an authentication request to send the passkey response is received.
 old-location: bluetooth\bluetoothsendauthenticationresponse.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 4483f04e-09a2-4bd4-879c-c3a263c685de
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BluetoothSendAuthenticationResponse, BluetoothSendAuthenticationResponse function [Bluetooth], bluetooth.bluetoothsendauthenticationresponse, bluetoothapis/BluetoothSendAuthenticationResponse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_IO_CAPABILITY
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BluetoothSendAuthenticationResponse
 product: Windows
 targetos: Windows
-req.lib: Bthprops.lib
-req.dll: Bthprops.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothSendAuthenticationResponse function

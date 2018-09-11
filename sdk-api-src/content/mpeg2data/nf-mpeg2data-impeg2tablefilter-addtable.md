@@ -4,17 +4,16 @@ title: IMpeg2TableFilter::AddTable
 author: windows-sdk-content
 description: The AddTable method adds a table identifier (TID) to the list of MPEG-2 table sections that the filter sends.
 old-location: mstv\impeg2tablefilter_addtable.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b789bfda-bb7e-4a7b-999e-0e2e798df4d5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AddTable, AddTable method [Microsoft TV Technologies], AddTable method [Microsoft TV Technologies],IMpeg2TableFilter interface, IMpeg2TableFilter interface [Microsoft TV Technologies],AddTable method, IMpeg2TableFilter.AddTable, IMpeg2TableFilter::AddTable, IMpeg2TableFilterAddTable, mpeg2data/IMpeg2TableFilter::AddTable, mstv.impeg2tablefilter_addtable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2data.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMpeg2TableFilter.AddTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMpeg2TableFilter::AddTable

@@ -4,17 +4,16 @@ title: IStreamBufferConfigure3::SetNamespace
 author: windows-sdk-content
 description: The SetNamespace method specifies a prefix that is added to the names of the synchronization objects that the Stream Buffer Engine uses to synchronize the reader and writer.
 old-location: mstv\istreambufferconfigure3_setnamespace.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e009e078-99f5-4da1-88ce-c07e9588c5e8
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IStreamBufferConfigure3 interface [Microsoft TV Technologies],SetNamespace method, IStreamBufferConfigure3.SetNamespace, IStreamBufferConfigure3::SetNamespace, IStreamBufferConfigure3SetNamespace, SetNamespace, SetNamespace method [Microsoft TV Technologies], SetNamespace method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, mstv.istreambufferconfigure3_setnamespace, sbe/IStreamBufferConfigure3::SetNamespace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferConfigure3.SetNamespace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferConfigure3::SetNamespace

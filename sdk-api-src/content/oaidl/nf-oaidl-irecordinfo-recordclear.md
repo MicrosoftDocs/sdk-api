@@ -4,17 +4,16 @@ title: IRecordInfo::RecordClear
 author: windows-sdk-content
 description: Releases object references and other values of a record without deallocating the record.
 old-location: automat\irecordinfo_recordclear.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 979b0702-3342-4036-8113-c84728436ab6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRecordInfo interface [Automation],RecordClear method, IRecordInfo.RecordClear, IRecordInfo::RecordClear, RecordClear, RecordClear method [Automation], RecordClear method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordClear, automat.irecordinfo_recordclear, oaidl/IRecordInfo::RecordClear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRecordInfo.RecordClear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRecordInfo::RecordClear

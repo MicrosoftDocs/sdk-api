@@ -4,17 +4,16 @@ title: IXMLHTTPRequest2Callback::OnResponseReceived
 author: windows-sdk-content
 description: Occurs when a client has received a complete response from the server.
 old-location: ixhr2\ixmlhttprequest2callback_onresponsereceived.htm
-old-project: ixhr2
+tech.root: ixhr2
 ms.assetid: 5D1D4D4B-CC49-4A63-A0D5-B29D618E80DE
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnResponseReceived method, IXMLHTTPRequest2Callback.OnResponseReceived, IXMLHTTPRequest2Callback::OnResponseReceived, OnResponseReceived, OnResponseReceived method [XMLHttpRequest2], OnResponseReceived method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onresponsereceived, msxml6/IXMLHTTPRequest2Callback::OnResponseReceived
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps],MSXML 6.0 and later
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XHR_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXMLHTTPRequest2Callback.OnResponseReceived
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXMLHTTPRequest2Callback::OnResponseReceived

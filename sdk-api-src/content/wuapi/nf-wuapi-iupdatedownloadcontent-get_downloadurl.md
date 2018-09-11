@@ -4,17 +4,16 @@ title: IUpdateDownloadContent::get_DownloadUrl
 author: windows-sdk-content
 description: Gets the location of the download content on the server that hosts the update.
 old-location: wua\iupdatedownloadcontent_downloadurl.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: bcdc751c-6af6-49f0-93da-c73b2091d7f6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DownloadUrl property [Windows Update Agent], DownloadUrl property [Windows Update Agent],IUpdateDownloadContent interface, IUpdateDownloadContent interface [Windows Update Agent],DownloadUrl property, IUpdateDownloadContent.DownloadUrl, IUpdateDownloadContent.get_DownloadUrl, IUpdateDownloadContent::DownloadUrl, IUpdateDownloadContent::get_DownloadUrl, get_DownloadUrl, wua.iupdatedownloadcontent_downloadurl, wuapi/IUpdateDownloadContent::DownloadUrl, wuapi/IUpdateDownloadContent::get_DownloadUrl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IUpdateDownloadContent.get_DownloadUrl
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 

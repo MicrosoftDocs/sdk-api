@@ -4,17 +4,16 @@ title: ICertEncodeDateArray::Encode
 author: windows-sdk-content
 description: Returns an Abstract Syntax Notation One (ASN.1)-encoded string of the date array stored in this object.
 old-location: security\icertencodedatearray_encode.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 102ca165-c320-4e18-986f-7375fbc617e0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertEncodeDateArray object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeDateArray object, Encode method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],Encode method, ICertEncodeDateArray.Encode, ICertEncodeDateArray::Encode, _certsrv_icertencodedatearray_encode, certenc/ICertEncodeDateArray::Encode, security.icertencodedatearray_encode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeDateArray.Encode
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeDateArray::Encode
@@ -68,7 +67,7 @@ Before using this method, you must call both the
 
 ### -param pstrBinary
 
-
+TBD
 
 
 

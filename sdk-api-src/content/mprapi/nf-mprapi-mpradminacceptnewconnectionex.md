@@ -4,17 +4,16 @@ title: MprAdminAcceptNewConnectionEx function
 author: windows-sdk-content
 description: Remote Access Service (RAS) calls the MprAdminAcceptNewConnectionEx function each time a new user dials in and successfully completes a RAS authentication. MprAdminAcceptNewConnectionEx determines whether the user is allowed to connect.
 old-location: rras\mpradminacceptnewconnectionex.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 398dd922-dd83-402f-b7ad-ce9438f15ca9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminAcceptNewConnectionEx, MprAdminAcceptNewConnectionEx callback, MprAdminAcceptNewConnectionEx callback function [RAS], mprapi/MprAdminAcceptNewConnectionEx, rras.mpradminacceptnewconnectionex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminAcceptNewConnectionEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminAcceptNewConnectionEx function

@@ -4,7 +4,7 @@ title: tagCALLCONV
 author: windows-sdk-content
 description: Identifies the calling convention used by a member function described in the METHODDATA structure.
 old-location: automat\callconv.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 1dadd0e2-5b99-49ea-965f-9bdfd3b904fb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLCONV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CALLCONV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CALLCONV
+req.redist: 
 ---
 
 # tagCALLCONV enumeration

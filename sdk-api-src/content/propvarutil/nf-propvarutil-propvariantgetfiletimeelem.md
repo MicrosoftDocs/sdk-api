@@ -4,17 +4,16 @@ title: PropVariantGetFileTimeElem function
 author: windows-sdk-content
 description: Extracts a single FILETIME element from a PROPVARIANT structure of type VT_FILETIME, VT_VECTOR | VT_FILETIME, or VT_ARRAY | VT_FILETIME.
 old-location: properties\PropVariantGetFileTimeElem.htm
-old-project: properties
+tech.root: properties
 ms.assetid: e38b16ed-84cb-4444-bfbd-1165595bc9b5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PropVariantGetFileTimeElem, PropVariantGetFileTimeElem function [Windows Properties], _shell_PropVariantGetFileTimeElem, properties.PropVariantGetFileTimeElem, propvarutil/PropVariantGetFileTimeElem, shell.PropVariantGetFileTimeElem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropVariantGetFileTimeElem
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PropVariantGetFileTimeElem function

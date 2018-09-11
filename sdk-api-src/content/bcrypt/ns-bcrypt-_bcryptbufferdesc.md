@@ -4,17 +4,16 @@ title: "_BCryptBufferDesc"
 author: windows-sdk-content
 description: Used to receieve a collection of NCryptBuffer structures.
 old-location: security\ncryptbufferdesc_struct.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: ae4673ab-81cd-4604-bafa-8d8c66003aba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PBCryptBufferDesc, BCryptBufferDesc, NCRYPTBUFFER_VERSION, NCryptBufferDesc, NCryptBufferDesc structure [Security], PNCryptBufferDesc, PNCryptBufferDesc structure pointer [Security], _BCryptBufferDesc, bcrypt/NCryptBufferDesc, bcrypt/PNCryptBufferDesc, security.ncryptbufferdesc_struct"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCryptBufferDesc, *PBCryptBufferDesc
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - NCryptBufferDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCryptBufferDesc, *PBCryptBufferDesc
+req.redist: 
 ---
 
 # _BCryptBufferDesc structure

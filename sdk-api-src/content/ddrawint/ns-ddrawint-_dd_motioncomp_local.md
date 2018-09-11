@@ -4,7 +4,7 @@ title: "_DD_MOTIONCOMP_LOCAL"
 author: windows-sdk-content
 description: The DD_MOTIONCOMP_LOCAL structure contains local data for each individual Microsoft DirectDraw motion compensation object.
 old-location: display\dd_motioncomp_local.htm
-old-project: display
+tech.root: display
 ms.assetid: 41cde03a-f9da-4701-a0df-0dba0c17ba26
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_MOTIONCOMP_LOCAL, DD_MOTIONCOMP_LOCAL"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_MOTIONCOMP_LOCAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_MOTIONCOMP_LOCAL, DD_MOTIONCOMP_LOCAL"
+req.redist: 
 ---
 
 # _DD_MOTIONCOMP_LOCAL structure

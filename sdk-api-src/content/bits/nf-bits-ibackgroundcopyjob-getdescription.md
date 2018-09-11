@@ -4,17 +4,16 @@ title: IBackgroundCopyJob::GetDescription
 author: windows-sdk-content
 description: Retrieves the description of the job.
 old-location: bits\ibackgroundcopyjob_getdescription.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 1a791390-2bd8-4732-98a2-74f740cfd822
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetDescription, GetDescription method [BITS], GetDescription method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetDescription method, IBackgroundCopyJob.GetDescription, IBackgroundCopyJob::GetDescription, _drz_ibackgroundcopyjob_getdescription, bits.ibackgroundcopyjob_getdescription, bits/IBackgroundCopyJob::GetDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob.GetDescription
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob::GetDescription
@@ -61,7 +60,7 @@ Retrieves the description of the job.
 
 ### -param pVal
 
-
+TBD
 
 
 

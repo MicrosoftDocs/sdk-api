@@ -4,17 +4,16 @@ title: IRelationship::IsReal
 author: windows-sdk-content
 description: Reports whether a relationship is real.
 old-location: search\_search_IRelationship_IsReal.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\isreal.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IRelationship interface [search],IsReal method, IRelationship.IsReal, IRelationship::IsReal, IsReal, IsReal method [search], IsReal method [search],IRelationship interface, _search_IRelationship_IsReal, search._search_IRelationship_IsReal, structuredquery/IRelationship::IsReal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRelationship.IsReal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IRelationship::IsReal

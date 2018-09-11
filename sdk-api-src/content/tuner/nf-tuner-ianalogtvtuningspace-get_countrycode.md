@@ -4,17 +4,16 @@ title: IAnalogTVTuningSpace::get_CountryCode
 author: windows-sdk-content
 description: The get_CountryCode method gets the country/region code of the tuning space (based on TAPI country/region codes).
 old-location: mstv\ianalogtvtuningspace_get_countrycode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f74f31cc-8e3a-41b8-bf27-f60b9cbcfcdb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_CountryCode method, IAnalogTVTuningSpace.get_CountryCode, IAnalogTVTuningSpace::get_CountryCode, IAnalogTVTuningSpaceget_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_countrycode, tuner/IAnalogTVTuningSpace::get_CountryCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnalogTVTuningSpace.get_CountryCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAnalogTVTuningSpace::get_CountryCode
@@ -65,7 +63,7 @@ The <b>get_CountryCode</b> method gets the country/region code of the tuning spa
 
 ### -param CountryCodeVal
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IConfigurationDataCollector::get_FileMaxCount
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of files to collect.
 old-location: pla\iconfigurationdatacollector_filemaxcount.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 20089bc0-8af4-48b4-85aa-51ab2e4bf5be
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: FileMaxCount property [PLA], FileMaxCount property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],FileMaxCount property, IConfigurationDataCollector.FileMaxCount, IConfigurationDataCollector.get_FileMaxCount, IConfigurationDataCollector::FileMaxCount, IConfigurationDataCollector::get_FileMaxCount, IConfigurationDataCollector::put_FileMaxCount, base.iconfigurationdatacollector_filemaxcount, get_FileMaxCount, pla.iconfigurationdatacollector_filemaxcount, pla/IConfigurationDataCollector::FileMaxCount, pla/IConfigurationDataCollector::get_FileMaxCount, pla/IConfigurationDataCollector::put_FileMaxCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IConfigurationDataCollector.put_FileMaxCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IConfigurationDataCollector::get_FileMaxCount

@@ -4,17 +4,16 @@ title: "_NOTIFYADD"
 author: windows-sdk-content
 description: The NOTIFYADD structure contains the details of a network connect operation. It is used by the AddConnectNotify function.
 old-location: security\notifyadd.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 23698bd9-12f6-4c1f-b833-bd5fddeba048
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPNOTIFYADD, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, LPNOTIFYADD, LPNOTIFYADD structure pointer [Security], NOTIFYADD, NOTIFYADD structure [Security], _NOTIFYADD, _mnp_notifyadd, npapi/LPNOTIFYADD, npapi/NOTIFYADD, security.notifyadd"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFYADD, *LPNOTIFYADD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NOTIFYADD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NOTIFYADD, *LPNOTIFYADD
+req.redist: 
 ---
 
 # _NOTIFYADD structure

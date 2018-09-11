@@ -4,17 +4,16 @@ title: IEnumCATEGORYINFO::Skip
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumcategoryinfo_skip.htm
-old-project: com
+tech.root: com
 ms.assetid: 405a506b-8bce-47ea-a5a7-6cd7146dcef3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumCATEGORYINFO interface [COM],Skip method, IEnumCATEGORYINFO.Skip, IEnumCATEGORYINFO::Skip, Skip, Skip method [COM], Skip method [COM],IEnumCATEGORYINFO interface, _com_ienumcategoryinfo_skip, com.ienumcategoryinfo_skip, comcat/IEnumCATEGORYINFO::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerInformation, *PServerInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumCATEGORYINFO.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumCATEGORYINFO::Skip

@@ -4,17 +4,16 @@ title: ITAddressTranslationInfo::get_DisplayableString
 author: windows-sdk-content
 description: The get_DisplayableString method gets a string that contains a displayable version of the dialable number.
 old-location: tapi3\itaddresstranslationinfo_get_displayablestring.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c88474ee-5a7e-4966-8dc2-5f839069b2d2
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_DisplayableString method, ITAddressTranslationInfo.get_DisplayableString, ITAddressTranslationInfo::get_DisplayableString, _tapi3_itaddresstranslationinfo_get_displayablestring, get_DisplayableString, get_DisplayableString method [TAPI 2.2], get_DisplayableString method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_displayablestring, tapi3if/ITAddressTranslationInfo::get_DisplayableString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddressTranslationInfo.get_DisplayableString
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddressTranslationInfo::get_DisplayableString

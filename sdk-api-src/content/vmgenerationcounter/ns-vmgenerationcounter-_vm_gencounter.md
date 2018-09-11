@@ -4,7 +4,7 @@ title: "_VM_GENCOUNTER"
 author: windows-sdk-content
 description: Describes a virtual machine generation identifier.
 old-location: hyperv\vm_gencounter.htm
-old-project: HyperV_v2
+tech.root: HyperV_v2
 ms.assetid: F1F2C867-2607-40AD-92B7-E7C07304D885
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmgenerationcounter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VM_GENCOUNTER, *PVM_GENCOUNTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VM_GENCOUNTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VM_GENCOUNTER, *PVM_GENCOUNTER
+req.redist: 
 ---
 
 # _VM_GENCOUNTER structure

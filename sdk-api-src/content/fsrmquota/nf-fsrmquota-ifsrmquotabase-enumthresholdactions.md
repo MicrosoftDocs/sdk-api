@@ -4,17 +4,16 @@ title: IFsrmQuotaBase::EnumThresholdActions
 author: windows-sdk-content
 description: Enumerates all the actions for the specified threshold.
 old-location: fsrm\ifsrmquotabase_enumthresholdactions.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: ce4f85a9-f2e0-42df-adb4-7c21256d5305
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: EnumThresholdActions, EnumThresholdActions method [File Server Resource Manager], EnumThresholdActions method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],EnumThresholdActions method, IFsrmQuotaBase.EnumThresholdActions, IFsrmQuotaBase::EnumThresholdActions, fs.ifsrmquotabase_enumthresholdactions, fsrm.ifsrmquotabase_enumthresholdactions, fsrmquota/IFsrmQuotaBase::EnumThresholdActions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmQuotaBase.EnumThresholdActions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaBase::EnumThresholdActions

@@ -4,17 +4,16 @@ title: "_WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION"
 author: windows-sdk-content
 description: This type description is used with template APIs to describe the templates generated accordingly to input policy setting.
 old-location: wsw\ws_http_header_auth_security_binding_policy_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: a8e879ef-f154-43f4-9191-db62baa504f7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION, WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION, webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_http_header_auth_security_binding_policy_description
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_HTTP_HEADER_AUTH_SECURITY_BINDING_POLICY_DESCRIPTION structure

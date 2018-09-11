@@ -4,17 +4,16 @@ title: IObjectIds::get_Count
 author: windows-sdk-content
 description: Retrieves the number of objects in the collection.
 old-location: security\iobjectids_count_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 21beb41d-ebbf-4925-8e21-4506cdaefb97
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Count property [Security], Count property [Security],IObjectIds interface, IObjectIds interface [Security],Count property, IObjectIds.Count, IObjectIds.get_Count, IObjectIds::Count, IObjectIds::get_Count, certenroll/IObjectIds::Count, certenroll/IObjectIds::get_Count, get_Count, security.iobjectids_count_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IObjectIds.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectIds::get_Count

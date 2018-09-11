@@ -4,17 +4,16 @@ title: Bitmap::Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat)
 author: windows-sdk-content
 description: This topic lists the Clone methods of the Bitmap class. For a complete list of methods for the Bitmap class, see Bitmap Methods.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Clone_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\bitmapclonemethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Bitmap.Clone, Bitmap.Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat), Bitmap::Clone, Bitmap::Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat), Clone, Clone methods [GDI+], _gdiplus_CLASS_Bitmap_Clone_Methods, gdiplus._gdiplus_CLASS_Bitmap_Clone_Methods, gdiplusheaders/Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Bitmap.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Bitmap::Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat)

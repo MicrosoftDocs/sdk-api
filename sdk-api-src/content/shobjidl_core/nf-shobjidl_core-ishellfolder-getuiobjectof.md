@@ -4,17 +4,16 @@ title: IShellFolder::GetUIObjectOf
 author: windows-sdk-content
 description: Gets an object that can be used to carry out actions on the specified file objects or folders.
 old-location: shell\IShellFolder_GetUIObjectOf.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ec863dbf-8ec9-4952-8912-575125e6dd09
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetUIObjectOf, GetUIObjectOf method [Windows Shell], GetUIObjectOf method [Windows Shell],IShellFolder interface, GetUIObjectOf method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],GetUIObjectOf method, IShellFolder.GetUIObjectOf, IShellFolder2 interface [Windows Shell],GetUIObjectOf method, IShellFolder2::GetUIObjectOf, IShellFolder::GetUIObjectOf, _win32_IShellFolder_GetUIObjectOf, shell.IShellFolder_GetUIObjectOf, shobjidl_core/IShellFolder2::GetUIObjectOf, shobjidl_core/IShellFolder::GetUIObjectOf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IShellFolder2.GetUIObjectOf
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolder::GetUIObjectOf

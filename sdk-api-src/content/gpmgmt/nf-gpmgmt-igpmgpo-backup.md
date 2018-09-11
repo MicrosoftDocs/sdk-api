@@ -4,17 +4,16 @@ title: IGPMGPO::Backup
 author: windows-sdk-content
 description: Backs up a Group Policy object (GPO) to the specified directory.
 old-location: gpmc\igpmgpo_backup.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 5ba8d2f7-4989-4882-9ceb-4f77b8745442
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Backup, Backup method [GPMC], Backup method [GPMC],GPMGPO object, Backup method [GPMC],IGPMGPO interface, GPMGPO object [GPMC],Backup method, IGPMGPO interface [GPMC],Backup method, IGPMGPO.Backup, IGPMGPO::Backup, _win32_igpmgpo_backup, gpmc.igpmgpo_backup, gpmgmt/IGPMGPO::Backup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMGPO.Backup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMGPO::Backup

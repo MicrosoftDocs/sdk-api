@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_MODE_INFO
 author: windows-sdk-content
 description: The DISPLAYCONFIG_MODE_INFO structure contains either source mode or target mode information.
 old-location: display\displayconfig_mode_info.htm
-old-project: display
+tech.root: display
 ms.assetid: 39ffe49b-96d3-4d8b-94a7-01c388448b82
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_MODE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_MODE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_MODE_INFO
+req.redist: 
 ---
 
 # DISPLAYCONFIG_MODE_INFO structure

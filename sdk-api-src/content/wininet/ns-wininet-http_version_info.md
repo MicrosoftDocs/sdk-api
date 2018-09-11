@@ -4,17 +4,16 @@ title: HTTP_VERSION_INFO
 author: windows-sdk-content
 description: Contains the global HTTP version.
 old-location: wininet\http_version_info.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 446da4aa-08be-4b2c-a436-dc8fa923a3a8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPHTTP_VERSION_INFO, HTTP_VERSION_INFO, HTTP_VERSION_INFO structure [WinINet], LPHTTP_VERSION_INFO, LPHTTP_VERSION_INFO structure pointer [WinINet], _inet_http_version_info_structure, wininet.http_version_info, wininet/HTTP_VERSION_INFO, wininet/LPHTTP_VERSION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERSION_INFO, *LPHTTP_VERSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_VERSION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: HTTP_VERSION_INFO, *LPHTTP_VERSION_INFO
+req.redist: 
 ---
 
 # HTTP_VERSION_INFO structure

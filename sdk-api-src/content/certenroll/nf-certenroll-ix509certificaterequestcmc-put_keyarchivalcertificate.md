@@ -4,17 +4,16 @@ title: IX509CertificateRequestCmc::put_KeyArchivalCertificate
 author: windows-sdk-content
 description: Specifies or retrieves a certification authority (CA) encryption certificate.
 old-location: security\ix509certificaterequestcmc_keyarchivalcertificate_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 93f71fd7-33bb-4352-b184-7270bca1363f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],KeyArchivalCertificate property, IX509CertificateRequestCmc.KeyArchivalCertificate, IX509CertificateRequestCmc.put_KeyArchivalCertificate, IX509CertificateRequestCmc::KeyArchivalCertificate, IX509CertificateRequestCmc::get_KeyArchivalCertificate, IX509CertificateRequestCmc::put_KeyArchivalCertificate, KeyArchivalCertificate property [Security], KeyArchivalCertificate property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::KeyArchivalCertificate, certenroll/IX509CertificateRequestCmc::get_KeyArchivalCertificate, certenroll/IX509CertificateRequestCmc::put_KeyArchivalCertificate, put_KeyArchivalCertificate, security.ix509certificaterequestcmc_keyarchivalcertificate_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509CertificateRequestCmc.put_KeyArchivalCertificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestCmc::put_KeyArchivalCertificate

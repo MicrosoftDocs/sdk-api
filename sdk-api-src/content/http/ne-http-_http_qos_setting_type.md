@@ -4,7 +4,7 @@ title: "_HTTP_QOS_SETTING_TYPE"
 author: windows-sdk-content
 description: Identifies the type of a QOS setting contained in a HTTP_QOS_SETTING_INFO structure.
 old-location: http\http_qos_setting_type.htm
-old-project: http
+tech.root: http
 ms.assetid: d1593670-9f5c-48a9-93d9-d5ff744cfc8b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_QOS_SETTING_TYPE, *PHTTP_QOS_SETTING_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_QOS_SETTING_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_QOS_SETTING_TYPE, *PHTTP_QOS_SETTING_TYPE
+req.redist: 
 ---
 
 # _HTTP_QOS_SETTING_TYPE enumeration

@@ -4,17 +4,16 @@ title: D3D10_TEX1D_RTV
 author: windows-sdk-content
 description: Specifies the subresource from a 1D texture to use in a render-target view.
 old-location: direct3d10\d3d10_tex1d_rtv.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_rtv.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 591d1483-fde1-2aee-60bb-56aa133a09e4, D3D10_TEX1D_RTV, D3D10_TEX1D_RTV structure [Direct3D 10], d3d10/D3D10_TEX1D_RTV, direct3d10.d3d10_tex1d_rtv
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_TEX1D_RTV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_TEX1D_RTV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_TEX1D_RTV
+req.redist: 
 ---
 
 # D3D10_TEX1D_RTV structure

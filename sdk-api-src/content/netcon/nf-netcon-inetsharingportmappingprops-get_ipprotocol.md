@@ -4,17 +4,16 @@ title: INetSharingPortMappingProps::get_IPProtocol
 author: windows-sdk-content
 description: The get_IPProtocol method retrieves the IP Protocol associated with this port mapping.
 old-location: ics\inetsharingportmappingprops_get_ipprotocol.htm
-old-project: ics
+tech.root: ics
 ms.assetid: a227074e-014b-4b76-b1d7-e1728bd99270
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_IPProtocol method, INetSharingPortMappingProps.get_IPProtocol, INetSharingPortMappingProps::get_IPProtocol, _ics_inetsharingportmappingprops_get_ipprotocol, get_IPProtocol, get_IPProtocol method [ICS/ICF], get_IPProtocol method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_ipprotocol, netcon/INetSharingPortMappingProps::get_IPProtocol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingPortMappingProps.get_IPProtocol
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingPortMappingProps::get_IPProtocol

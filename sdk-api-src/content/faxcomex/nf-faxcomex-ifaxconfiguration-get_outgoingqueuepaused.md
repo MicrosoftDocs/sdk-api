@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxConfiguration.get_OutgoingQueuePaused
 title: IFaxConfiguration::get_OutgoingQueuePaused
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the outgoing queue has been paused.
-old-location: fax\_mfax_FaxConfiguration_PauseOutgoingQueue_vb.htm
-old-project: Fax
+old-location: fax\_mfax_IFaxConfiguration_PauseOutgoingQueue.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\pauseoutgoingqueue.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxConfiguration object [Fax Service],OutgoingQueuePaused property, FaxConfiguration.OutgoingQueuePaused, IFaxConfiguration.get_OutgoingQueuePaused, IFaxConfiguration::get_OutgoingQueuePaused, OutgoingQueuePaused property [Fax Service], OutgoingQueuePaused property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_PauseOutgoingQueue, fax._mfax_FaxConfiguration_PauseOutgoingQueue_vb, get_OutgoingQueuePaused
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxConfiguration interface [Fax Service],OutgoingQueuePaused property, IFaxConfiguration.OutgoingQueuePaused, IFaxConfiguration.get_OutgoingQueuePaused, IFaxConfiguration::OutgoingQueuePaused, IFaxConfiguration::get_OutgoingQueuePaused, IFaxConfiguration::put_OutgoingQueuePaused, OutgoingQueuePaused property [Fax Service], OutgoingQueuePaused property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_PauseOutgoingQueue, fax._mfax_IFaxConfiguration_PauseOutgoingQueue, faxcomex/IFaxConfiguration::OutgoingQueuePaused, faxcomex/IFaxConfiguration::get_OutgoingQueuePaused, faxcomex/IFaxConfiguration::put_OutgoingQueuePaused, get_OutgoingQueuePaused
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Faxcomex.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxConfiguration.OutgoingQueuePaused
+ - IFaxConfiguration.OutgoingQueuePaused
+ - IFaxConfiguration.get_OutgoingQueuePaused
+ - IFaxConfiguration.put_OutgoingQueuePaused
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxConfiguration::get_OutgoingQueuePaused
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a>
+<a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a>
  
 
  

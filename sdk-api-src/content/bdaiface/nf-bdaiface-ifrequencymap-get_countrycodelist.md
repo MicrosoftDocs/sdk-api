@@ -4,17 +4,16 @@ title: IFrequencyMap::get_CountryCodeList
 author: windows-sdk-content
 description: The get_CountryCodeList method returns a list of all the country/region codes for which the Network Provider has a frequency table.
 old-location: mstv\ifrequencymap_get_countrycodelist.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: cc9e2f2e-3187-446e-b1e6-ae32da4413b9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_CountryCodeList method, IFrequencyMap.get_CountryCodeList, IFrequencyMap::get_CountryCodeList, IFrequencyMapget_CountryCodeList, bdaiface/IFrequencyMap::get_CountryCodeList, get_CountryCodeList, get_CountryCodeList method [Microsoft TV Technologies], get_CountryCodeList method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_countrycodelist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IFrequencyMap.get_CountryCodeList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IFrequencyMap::get_CountryCodeList

@@ -4,17 +4,16 @@ title: IVssCreateExpressWriterMetadata::SetBackupSchema
 author: windows-sdk-content
 description: Used by an express writer to indicate in its Writer Metadata Document the types of backup operations it can participate in.
 old-location: base\ivsscreateexpresswritermetadata_setbackupschema.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: b270424d-61e1-4984-a487-4dcb4e113985
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssCreateExpressWriterMetadata interface,SetBackupSchema method, IVssCreateExpressWriterMetadata.SetBackupSchema, IVssCreateExpressWriterMetadata::SetBackupSchema, SetBackupSchema, SetBackupSchema method, SetBackupSchema method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_setbackupschema, vswriter/IVssCreateExpressWriterMetadata::SetBackupSchema
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssCreateExpressWriterMetadata.SetBackupSchema
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssCreateExpressWriterMetadata::SetBackupSchema
@@ -63,7 +61,7 @@ Used by an express writer to indicate in its Writer Metadata Document the types 
 
 ### -param dwSchemaMask
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IITDatabase::Close
 author: windows-sdk-content
 description: Closes a database.
 old-location: htmlhelp\iitdatabase_close.htm
-old-project: htmlhelp
+tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabaseclose.htm
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Close, Close method [HTML Help Workshop], Close method [HTML Help Workshop],IITDatabase interface, IITDatabase interface [HTML Help Workshop],Close method, IITDatabase.Close, IITDatabase::Close, htmlhelp.iitdatabase_close, infotech/IITDatabase::Close, refIITDatabaseClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IITDatabase.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IITDatabase::Close

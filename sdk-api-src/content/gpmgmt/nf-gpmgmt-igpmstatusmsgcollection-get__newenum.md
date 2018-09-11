@@ -4,17 +4,16 @@ title: IGPMStatusMsgCollection::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmstatusmsgcollection_get__newenum.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 2972c146-3e18-42e8-ab87-0b5530149eae
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IGPMStatusMsgCollection interface [GPMC],get__NewEnum method, IGPMStatusMsgCollection.get__NewEnum, IGPMStatusMsgCollection::get__NewEnum, _win32_igpmstatusmsgcollection_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMStatusMsgCollection interface, gpmc.igpmstatusmsgcollection_get__newenum, gpmgmt/IGPMStatusMsgCollection::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPMStatusMsgCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMStatusMsgCollection::get__NewEnum

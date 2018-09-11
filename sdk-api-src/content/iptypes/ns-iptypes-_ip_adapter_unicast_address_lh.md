@@ -4,7 +4,7 @@ title: "_IP_ADAPTER_UNICAST_ADDRESS_LH"
 author: windows-sdk-content
 description: The IP_ADAPTER_UNICAST_ADDRESS structure stores a single unicast IP address in a linked list of IP addresses for a particular adapter.
 old-location: iphlp\ip_adapter_unicast_address.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 65c3648c-89bd-417b-8a9b-feefa6149c4a
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ipsectypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_ADAPTER_UNICAST_ADDRESS_LH, *PIP_ADAPTER_UNICAST_ADDRESS_LH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_ADAPTER_UNICAST_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IP_ADAPTER_UNICAST_ADDRESS_LH, *PIP_ADAPTER_UNICAST_ADDRESS_LH
+req.redist: 
 ---
 
 # _IP_ADAPTER_UNICAST_ADDRESS_LH structure

@@ -4,17 +4,16 @@ title: IMFDeviceTransform::FlushInputStream
 author: windows-sdk-content
 description: The FlushInputStream method flushes a Device MFT’s input stream.
 old-location: stream\imfdevicetransform_flushinputstream.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 646A9446-B87A-40B5-8A0F-9DE67286825B
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: FlushInputStream, FlushInputStream method [Streaming Media Devices], FlushInputStream method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],FlushInputStream method, IMFDeviceTransform.FlushInputStream, IMFDeviceTransform::FlushInputStream, mftransform/IMFDeviceTransform::FlushInputStream, stream.imfdevicetransform_flushinputstream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDeviceTransform.FlushInputStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDeviceTransform::FlushInputStream
@@ -62,12 +60,12 @@ The <b>FlushInputStream</b> method flushes a Device MFT’s input stream.
 
 ### -param dwStreamIndex
 
-
+TBD
 
 
 ### -param dwFlags
 
-
+TBD
 
 
 

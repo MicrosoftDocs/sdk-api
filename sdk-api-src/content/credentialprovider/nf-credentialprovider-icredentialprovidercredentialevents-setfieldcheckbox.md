@@ -4,17 +4,16 @@ title: ICredentialProviderCredentialEvents::SetFieldCheckbox
 author: windows-sdk-content
 description: Communicates to the Logon UI or Credential UI that a checkbox field has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldCheckbox.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a2d5e08f-6a23-4633-beef-8507ab66b102
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldCheckbox method, ICredentialProviderCredentialEvents.SetFieldCheckbox, ICredentialProviderCredentialEvents::SetFieldCheckbox, SetFieldCheckbox, SetFieldCheckbox method [Windows Shell], SetFieldCheckbox method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldCheckbox, credentialprovider/ICredentialProviderCredentialEvents::SetFieldCheckbox, shell.ICredentialProviderCredentialEvents_SetFieldCheckbox
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderCredentialEvents.SetFieldCheckbox
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderCredentialEvents::SetFieldCheckbox

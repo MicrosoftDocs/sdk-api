@@ -4,17 +4,16 @@ title: IInspectable::GetTrustLevel
 author: windows-sdk-content
 description: Gets the trust level of the current Windows Runtime object.
 old-location: winrt\iinspectable_gettrustlevel.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: E7E8AFD1-A8B7-4023-9F8B-573E0D2622F6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetTrustLevel, GetTrustLevel method [Windows Runtime], GetTrustLevel method [Windows Runtime],IInputPaneInterop interface, GetTrustLevel method [Windows Runtime],IInspectable interface, IInputPaneInterop interface [Windows Runtime],GetTrustLevel method, IInputPaneInterop::GetTrustLevel, IInspectable interface [Windows Runtime],GetTrustLevel method, IInspectable.GetTrustLevel, IInspectable::GetTrustLevel, inspectable/IInputPaneInterop::GetTrustLevel, inspectable/IInspectable::GetTrustLevel, winrt.iinspectable_gettrustlevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inspectable.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInputPaneInterop.GetTrustLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInspectable::GetTrustLevel

@@ -4,17 +4,16 @@ title: IDirectXVideoDecoderService::GetDecoderDeviceGuids
 author: windows-sdk-content
 description: Retrieves an array of GUIDs that identifies the decoder devices supported by the graphics hardware.
 old-location: mf\idirectxvideodecoderservice_getdecoderdeviceguids.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 53980b1f-2be1-4267-a581-a4b09255b89f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 53980b1f-2be1-4267-a581-a4b09255b89f, GetDecoderDeviceGuids, GetDecoderDeviceGuids method [Media Foundation], GetDecoderDeviceGuids method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],GetDecoderDeviceGuids method, IDirectXVideoDecoderService.GetDecoderDeviceGuids, IDirectXVideoDecoderService::GetDecoderDeviceGuids, dxva2api/IDirectXVideoDecoderService::GetDecoderDeviceGuids, mf.idirectxvideodecoderservice_getdecoderdeviceguids
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectXVideoDecoderService.GetDecoderDeviceGuids
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectXVideoDecoderService::GetDecoderDeviceGuids
@@ -65,7 +63,7 @@ Retrieves an array of GUIDs that identifies the decoder devices supported by the
 
 ### -param pCount
 
-
+TBD
 
 
 ### -param pGuids [out]

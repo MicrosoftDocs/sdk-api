@@ -4,17 +4,16 @@ title: IMediaStreamFilter::SupportSeeking
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SupportSeeking method initializes the filter to support seeking. The multimedia stream object calls this method.
 old-location: dshow\imediastreamfilter_supportseeking.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7cb15898-8a22-4621-a6e5-bb5d17640749
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaStreamFilter interface [DirectShow],SupportSeeking method, IMediaStreamFilter.SupportSeeking, IMediaStreamFilter::SupportSeeking, IMediaStreamFilterSupportSeeking, SupportSeeking, SupportSeeking method [DirectShow], SupportSeeking method [DirectShow],IMediaStreamFilter interface, amstream/IMediaStreamFilter::SupportSeeking, dshow.imediastreamfilter_supportseeking
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMediaStreamFilter.SupportSeeking
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaStreamFilter::SupportSeeking

@@ -4,17 +4,16 @@ title: "_EXPLICIT_ACCESS_W"
 author: windows-sdk-content
 description: Defines access control information for a specified trustee.
 old-location: security\explicit_access.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6fe09542-10dd-439c-adf8-a4e06943ddb2
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PEXPLICIT_ACCESSW, *PEXPLICIT_ACCESS_W, CONTAINER_INHERIT_ACE, EXPLICIT_ACCESS, EXPLICIT_ACCESS structure [Security], EXPLICIT_ACCESSW, EXPLICIT_ACCESS_, EXPLICIT_ACCESS_A, EXPLICIT_ACCESS_W, INHERIT_NO_PROPAGATE, INHERIT_ONLY, INHERIT_ONLY_ACE, NO_INHERITANCE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, PEXPLICIT_ACCESS, PEXPLICIT_ACCESS structure pointer [Security], SUB_CONTAINERS_AND_OBJECTS_INHERIT, SUB_CONTAINERS_ONLY_INHERIT, SUB_OBJECTS_ONLY_INHERIT, _EXPLICIT_ACCESS_A, _EXPLICIT_ACCESS_W, _win32_explicit_access_str, accctrl/EXPLICIT_ACCESS, accctrl/EXPLICIT_ACCESS_A, accctrl/EXPLICIT_ACCESS_W, accctrl/PEXPLICIT_ACCESS, security.explicit_access"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXPLICIT_ACCESS_W, *PEXPLICIT_ACCESS_W, EXPLICIT_ACCESSW, *PEXPLICIT_ACCESSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,8 +42,8 @@ api_name:
  - EXPLICIT_ACCESS_W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.typenames: EXPLICIT_ACCESS_W, *PEXPLICIT_ACCESS_W, EXPLICIT_ACCESSW, *PEXPLICIT_ACCESSW
+req.redist: 
 ---
 
 # _EXPLICIT_ACCESS_W structure

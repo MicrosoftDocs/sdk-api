@@ -4,17 +4,16 @@ title: IADsContainer::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an enumerator object for the container.
 old-location: adsi\iadscontainer_get__newenum.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: b268efb8-59cd-41ef-b96c-583ae476432e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsContainer interface [ADSI],get__NewEnum method, IADsContainer.get__NewEnum, IADsContainer::get__NewEnum, _ds_iadscontainer_get__newenum, adsi.iadscontainer__get____newenum, adsi.iadscontainer_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsContainer interface, iads/IADsContainer::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsContainer.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsContainer::get__NewEnum
@@ -63,7 +61,7 @@ The <b>IADsContainer::get__NewEnum</b> method Retrieves an enumerator object for
 
 ### -param retval
 
-
+TBD
 
 
 

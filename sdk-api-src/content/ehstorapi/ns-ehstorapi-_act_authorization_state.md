@@ -4,7 +4,7 @@ title: "_ACT_AUTHORIZATION_STATE"
 author: windows-sdk-content
 description: ACT_AUTHORIZATION_STATE structure contains data that describes the current authorization state of a Addressable Command Target (ACT).
 old-location: enstor\act_authorization_state.htm
-old-project: enstor
+tech.root: enstor
 ms.assetid: 385b2f9d-659e-451d-97da-15be70180e1f
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ehstorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACT_AUTHORIZATION_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACT_AUTHORIZATION_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: ACT_AUTHORIZATION_STATE
+req.redist: 
 ---
 
 # _ACT_AUTHORIZATION_STATE structure

@@ -4,17 +4,16 @@ title: ID2D1BorderTransform::GetExtendModeX
 author: windows-sdk-content
 description: Gets the extend mode in the x direction.
 old-location: direct2d\id2d1bordertransform_getextendmodex.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: FAF8DE8A-3A05-496F-A03B-971DFDCF669E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetExtendModeX, GetExtendModeX method [Direct2D], GetExtendModeX method [Direct2D],ID2D1BorderTransform interface, ID2D1BorderTransform interface [Direct2D],GetExtendModeX method, ID2D1BorderTransform.GetExtendModeX, ID2D1BorderTransform::GetExtendModeX, d2d1effectauthor/ID2D1BorderTransform::GetExtendModeX, direct2d.id2d1bordertransform_getextendmodex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2d1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1BorderTransform.GetExtendModeX
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1BorderTransform::GetExtendModeX

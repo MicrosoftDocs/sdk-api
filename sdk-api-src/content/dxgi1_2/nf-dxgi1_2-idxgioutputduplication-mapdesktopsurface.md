@@ -4,17 +4,16 @@ title: IDXGIOutputDuplication::MapDesktopSurface
 author: windows-sdk-content
 description: Provides the CPU with efficient access to a desktop image if that desktop image is already in system memory.
 old-location: direct3ddxgi\idxgioutputduplication_mapdesktopsurface.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 1FFFF954-0AD2-418E-B0CC-D674994C3CCE
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],MapDesktopSurface method, IDXGIOutputDuplication.MapDesktopSurface, IDXGIOutputDuplication::MapDesktopSurface, MapDesktopSurface, MapDesktopSurface method [DXGI], MapDesktopSurface method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_mapdesktopsurface, dxgi1_2/IDXGIOutputDuplication::MapDesktopSurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIOutputDuplication.MapDesktopSurface
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIOutputDuplication::MapDesktopSurface

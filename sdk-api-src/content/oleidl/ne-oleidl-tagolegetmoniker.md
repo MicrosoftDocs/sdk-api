@@ -4,31 +4,31 @@ title: tagOLEGETMONIKER
 author: windows-sdk-content
 description: Controls aspects of the behavior of the IOleObject::GetMoniker and IOleClientSite::GetMoniker methods.
 old-location: com\olegetmoniker.htm
-old-project: com
+tech.root: com
 ms.assetid: b69e3213-08c4-45f8-b1b3-4ca78e966251
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OLEGETMONIKER, OLEGETMONIKER enumeration [COM], OLEGETMONIKER_FORCEASSIGN, OLEGETMONIKER_ONLYIFTHERE, OLEGETMONIKER_TEMPFORUSER, OLEGETMONIKER_UNASSIGN, _ole_OLEGETMONIKER, com.olegetmoniker, oleidl/OLEGETMONIKER, oleidl/OLEGETMONIKER_FORCEASSIGN, oleidl/OLEGETMONIKER_ONLYIFTHERE, oleidl/OLEGETMONIKER_TEMPFORUSER, oleidl/OLEGETMONIKER_UNASSIGN, tagOLEGETMONIKER
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: OLEUIVIEWPROPSW (Unicode) and OLEUIVIEWPROPSA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEGETMONIKER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OLEGETMONIKER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEGETMONIKER
+req.redist: 
 ---
 
 # tagOLEGETMONIKER enumeration

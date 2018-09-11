@@ -4,7 +4,7 @@ title: "_AUDIO_STREAM_CONFIG_CAPS"
 author: windows-sdk-content
 description: The AUDIO_STREAM_CONFIG_CAPS structure describes a range of audio formats. Audio compression and capture filters use this structure to describe the formats they can produce.
 old-location: dshow\audio_stream_config_caps.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8a923e8e-173e-4258-ba81-7d398bd9c5fe
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_STREAM_CONFIG_CAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUDIO_STREAM_CONFIG_CAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP
+req.typenames: AUDIO_STREAM_CONFIG_CAPS
+req.redist: 
 ---
 
 # _AUDIO_STREAM_CONFIG_CAPS structure

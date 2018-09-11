@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mfidl_0000_0109_0002"
 author: windows-sdk-content
 description: Specifies whether a stream associated with an IMFSensorDevice is an input or an output stream.
 old-location: mf\mfsensorstreamtype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 598AE9EC-3B8D-419A-A6A9-02DCDD459162
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mfidl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorStreamType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFSensorStreamType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFSensorStreamType
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mfidl_0000_0109_0002 enumeration

@@ -4,17 +4,16 @@ title: SHGetPropertyStoreFromIDList function
 author: windows-sdk-content
 description: Retrieves an object that supports IPropertyStore or related interfaces from a pointer to an item identifier list (PIDL).
 old-location: properties\SHGetPropertyStoreFromIDList.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 2a3c3c80-1bfc-4da0-ba6e-ac9e9a5c3e5b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SHGetPropertyStoreFromIDList, SHGetPropertyStoreFromIDList function [Windows Properties], _shell_SHGetPropertyStoreFromIDList, properties.SHGetPropertyStoreFromIDList, shell.SHGetPropertyStoreFromIDList, shobjidl_core/SHGetPropertyStoreFromIDList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHGetPropertyStoreFromIDList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHGetPropertyStoreFromIDList function

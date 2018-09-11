@@ -4,7 +4,7 @@ title: tagSIZE
 author: windows-sdk-content
 description: The SIZE structure defines the width and height of a rectangle.
 old-location: display\size.htm
-old-project: display
+tech.root: display
 ms.assetid: 08d81096-069f-4554-9bb9-d4a37c0950ac
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windef.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SIZE, *PSIZE, *LPSIZE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SIZE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: SIZE, *PSIZE, *LPSIZE
+req.redist: 
 ---
 
 # tagSIZE structure

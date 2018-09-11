@@ -4,17 +4,16 @@ title: IEVRTrustedVideoPlugin::CanConstrict
 author: windows-sdk-content
 description: Queries whether the plug-in can limit the effective video resolution.
 old-location: mf\ievrtrustedvideoplugin_canconstrict.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 16bb31c3-51f7-4d9b-946c-f366fb6e5dee
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 16bb31c3-51f7-4d9b-946c-f366fb6e5dee, CanConstrict, CanConstrict method [Media Foundation], CanConstrict method [Media Foundation],IEVRTrustedVideoPlugin interface, IEVRTrustedVideoPlugin interface [Media Foundation],CanConstrict method, IEVRTrustedVideoPlugin.CanConstrict, IEVRTrustedVideoPlugin::CanConstrict, evr/IEVRTrustedVideoPlugin::CanConstrict, mf.ievrtrustedvideoplugin_canconstrict
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEVRTrustedVideoPlugin.CanConstrict
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEVRTrustedVideoPlugin::CanConstrict

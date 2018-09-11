@@ -4,7 +4,7 @@ title: "_CREATE_DISK_MBR"
 author: windows-sdk-content
 description: Contains information that the IOCTL_DISK_CREATE_DISK control code uses to initialize master boot record (MBR) disks.
 old-location: fs\create_disk_mbr_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 6b475622-371d-4097-9de1-6ef31af76322
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_DISK_MBR, *PCREATE_DISK_MBR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CREATE_DISK_MBR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CREATE_DISK_MBR, *PCREATE_DISK_MBR
+req.redist: 
 ---
 
 # _CREATE_DISK_MBR structure

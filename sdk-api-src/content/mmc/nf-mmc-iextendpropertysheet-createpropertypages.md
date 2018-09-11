@@ -4,17 +4,16 @@ title: IExtendPropertySheet::CreatePropertyPages
 author: windows-sdk-content
 description: Adds pages to a property sheet.
 old-location: mmc\iextendpropertysheet_createpropertypages.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 8B99EC8D-AFE1-4944-AF61-BFE93C0AF7DE
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: CreatePropertyPages, CreatePropertyPages method [MMC], CreatePropertyPages method [MMC],IExtendPropertySheet interface, IExtendPropertySheet interface [MMC],CreatePropertyPages method, IExtendPropertySheet.CreatePropertyPages, IExtendPropertySheet::CreatePropertyPages, mmc.iextendpropertysheet_createpropertypages, mmc/IExtendPropertySheet::CreatePropertyPages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExtendPropertySheet.CreatePropertyPages
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IExtendPropertySheet::CreatePropertyPages

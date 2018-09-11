@@ -4,17 +4,16 @@ title: "_IMAGEHLP_SYMBOL_TYPE_INFO"
 author: windows-sdk-content
 description: Identifies the type of symbol information to be retrieved.
 old-location: base\imagehlp_symbol_type_info.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 1b21c8dc-240f-4202-bd61-8f9dae0d053a
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: IMAGEHLP_SYMBOL_TYPE_INFO, IMAGEHLP_SYMBOL_TYPE_INFO enumeration, TI_FINDCHILDREN, TI_GET_ADDRESS, TI_GET_ADDRESSOFFSET, TI_GET_ARRAYINDEXTYPEID, TI_GET_BASETYPE, TI_GET_BITPOSITION, TI_GET_CALLING_CONVENTION, TI_GET_CHILDRENCOUNT, TI_GET_CLASSPARENTID, TI_GET_COUNT, TI_GET_DATAKIND, TI_GET_INDIRECTVIRTUALBASECLASS, TI_GET_IS_REFERENCE, TI_GET_LENGTH, TI_GET_LEXICALPARENT, TI_GET_NESTED, TI_GET_OFFSET, TI_GET_SYMINDEX, TI_GET_SYMNAME, TI_GET_SYMTAG, TI_GET_THISADJUST, TI_GET_TYPE, TI_GET_TYPEID, TI_GET_UDTKIND, TI_GET_VALUE, TI_GET_VIRTUALBASECLASS, TI_GET_VIRTUALBASEDISPINDEX, TI_GET_VIRTUALBASEOFFSET, TI_GET_VIRTUALBASEPOINTEROFFSET, TI_GET_VIRTUALTABLESHAPEID, TI_GTIEX_REQS_VALID, TI_IS_CLOSE_EQUIV_TO, TI_IS_EQUIV_TO, _IMAGEHLP_SYMBOL_TYPE_INFO, base.imagehlp_symbol_type_info, dbghelp/IMAGEHLP_SYMBOL_TYPE_INFO, dbghelp/TI_FINDCHILDREN, dbghelp/TI_GET_ADDRESS, dbghelp/TI_GET_ADDRESSOFFSET, dbghelp/TI_GET_ARRAYINDEXTYPEID, dbghelp/TI_GET_BASETYPE, dbghelp/TI_GET_BITPOSITION, dbghelp/TI_GET_CALLING_CONVENTION, dbghelp/TI_GET_CHILDRENCOUNT, dbghelp/TI_GET_CLASSPARENTID, dbghelp/TI_GET_COUNT, dbghelp/TI_GET_DATAKIND, dbghelp/TI_GET_INDIRECTVIRTUALBASECLASS, dbghelp/TI_GET_IS_REFERENCE, dbghelp/TI_GET_LENGTH, dbghelp/TI_GET_LEXICALPARENT, dbghelp/TI_GET_NESTED, dbghelp/TI_GET_OFFSET, dbghelp/TI_GET_SYMINDEX, dbghelp/TI_GET_SYMNAME, dbghelp/TI_GET_SYMTAG, dbghelp/TI_GET_THISADJUST, dbghelp/TI_GET_TYPE, dbghelp/TI_GET_TYPEID, dbghelp/TI_GET_UDTKIND, dbghelp/TI_GET_VALUE, dbghelp/TI_GET_VIRTUALBASECLASS, dbghelp/TI_GET_VIRTUALBASEDISPINDEX, dbghelp/TI_GET_VIRTUALBASEOFFSET, dbghelp/TI_GET_VIRTUALBASEPOINTEROFFSET, dbghelp/TI_GET_VIRTUALTABLESHAPEID, dbghelp/TI_GTIEX_REQS_VALID, dbghelp/TI_IS_CLOSE_EQUIV_TO, dbghelp/TI_IS_EQUIV_TO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMAGEHLP_SYMBOL_TYPE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _IMAGEHLP_SYMBOL_TYPE_INFO enumeration

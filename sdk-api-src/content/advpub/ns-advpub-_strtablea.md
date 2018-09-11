@@ -4,17 +4,16 @@ title: "_StrTableA"
 author: windows-sdk-content
 description: Represents a table of registry string replacements.
 old-location: winprog\_strtablea.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: BCDD9AE4-6ADF-4018-A9C0-7924DE30B954
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSTRTABLEA, LPSTRTABLEA, LPSTRTABLEA structure pointer [Windows API], STRTABLE, STRTABLEA, STRTABLEA structure [Windows API], _StrTableA, _StrTableA structure [Windows API], advpub/LPSTRTABLEA, advpub/_StrTableA, winprog._strtablea"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: advpub.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Advpack.lib
-tech.root: 
-req.typenames: STRTABLEA, *LPSTRTABLEA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - STRTABLEA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: STRTABLEA, *LPSTRTABLEA
+req.redist: 
 ---
 
 # _StrTableA structure

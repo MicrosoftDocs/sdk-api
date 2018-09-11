@@ -4,17 +4,16 @@ title: Region::Union(IN const GraphicsPath)
 author: windows-sdk-content
 description: This topic lists the Union methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 old-location: gdiplus\_gdiplus_CLASS_Region_Union_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionunionmethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Region.Union, Region.Union(IN const GraphicsPath), Region::Union, Region::Union(IN const GraphicsPath), Union, Union methods [GDI+], _gdiplus_CLASS_Region_Union_Methods, gdiplus._gdiplus_CLASS_Region_Union_Methods, gdiplusheaders/Union
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Region.Union
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Region::Union(IN const GraphicsPath)

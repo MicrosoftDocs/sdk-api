@@ -4,7 +4,7 @@ title: joyreghwvalues_tag
 author: windows-sdk-content
 description: The JOYREGHWVALUES structure contains the range of values returned by the hardware (filled in by calibration).
 old-location: hid\joyreghwvalues.htm
-old-project: hid
+tech.root: hid
 ms.assetid: cd59611f-7bf2-4bba-80dc-f54c815af3e6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmddk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: JOYREGHWVALUES, *LPJOYREGHWVALUES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - JOYREGHWVALUES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: JOYREGHWVALUES, *LPJOYREGHWVALUES
+req.redist: 
 ---
 
 # joyreghwvalues_tag structure

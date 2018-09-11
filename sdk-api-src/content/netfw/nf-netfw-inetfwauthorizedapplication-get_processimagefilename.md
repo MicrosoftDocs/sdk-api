@@ -4,17 +4,16 @@ title: INetFwAuthorizedApplication::get_ProcessImageFileName
 author: windows-sdk-content
 description: Specifies the process image file name for this application.
 old-location: ics\inetfwauthorizedapplication_processimagefilename.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 14e7c8e1-088c-4eae-8f93-7ee41bfa484b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],ProcessImageFileName property, INetFwAuthorizedApplication.ProcessImageFileName, INetFwAuthorizedApplication.get_ProcessImageFileName, INetFwAuthorizedApplication::ProcessImageFileName, INetFwAuthorizedApplication::get_ProcessImageFileName, INetFwAuthorizedApplication::put_ProcessImageFileName, ProcessImageFileName property [ICS/ICF], ProcessImageFileName property [ICS/ICF],INetFwAuthorizedApplication interface, get_ProcessImageFileName, ics.inetfwauthorizedapplication_processimagefilename, netfw/INetFwAuthorizedApplication::ProcessImageFileName, netfw/INetFwAuthorizedApplication::get_ProcessImageFileName, netfw/INetFwAuthorizedApplication::put_ProcessImageFileName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwAuthorizedApplication.put_ProcessImageFileName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwAuthorizedApplication::get_ProcessImageFileName

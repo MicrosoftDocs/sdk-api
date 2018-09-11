@@ -4,7 +4,7 @@ title: "_MMC_TASK_DISPLAY_TYPE"
 author: windows-sdk-content
 description: The MMC_TASK_DISPLAY_TYPE enumeration is introduced in MMC 1.1.
 old-location: mmc\mmc_task_display_type.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 55d90530-5cd0-42ae-8a5d-417f7f49edac
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_TASK_DISPLAY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_TASK_DISPLAY_TYPE
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_TASK_DISPLAY_TYPE
+req.redist: 
 ---
 
 # _MMC_TASK_DISPLAY_TYPE enumeration

@@ -4,17 +4,16 @@ title: ISnapinAbout::GetProvider
 author: windows-sdk-content
 description: The ISnapinAbout::GetProvider method enables the console to obtain the snap-in provider name.
 old-location: mmc\isnapinabout_getprovider.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: a1e0d99c-3485-4a24-aff0-7391ec5f8f6b
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetProvider, GetProvider method [MMC], GetProvider method [MMC],ISnapinAbout interface, ISnapinAbout interface [MMC],GetProvider method, ISnapinAbout.GetProvider, ISnapinAbout::GetProvider, _slate_isnapinabout_getprovider, mmc.isnapinabout_getprovider, mmc/ISnapinAbout::GetProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISnapinAbout.GetProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISnapinAbout::GetProvider

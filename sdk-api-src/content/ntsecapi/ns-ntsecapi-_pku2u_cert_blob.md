@@ -4,17 +4,16 @@ title: "_PKU2U_CERT_BLOB"
 author: windows-sdk-content
 description: Specifies PKU2U certificate data.
 old-location: security\pku2u_cert_blob.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: f840e81e-3fed-4d05-8ac4-b19ce0267517
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPKU2U_CERT_BLOB, PKU2U_CERT_BLOB, PKU2U_CERT_BLOB structure [Security], PPKU2U_CERT_BLOB, PPKU2U_CERT_BLOB structure pointer [Security], _PKU2U_CERT_BLOB, ntsecapi/PKU2U_CERT_BLOB, ntsecapi/PPKU2U_CERT_BLOB, security.pku2u_cert_blob"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PKU2U_CERT_BLOB, *PPKU2U_CERT_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PKU2U_CERT_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PKU2U_CERT_BLOB, *PPKU2U_CERT_BLOB
+req.redist: 
 ---
 
 # _PKU2U_CERT_BLOB structure

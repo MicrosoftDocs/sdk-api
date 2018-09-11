@@ -4,17 +4,16 @@ title: UnloadPerfCounterTextStringsW function
 author: windows-sdk-content
 description: Unloads performance objects and counters from the computer for the specified application.
 old-location: perf\unloadperfcountertextstrings.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: f78858ca-d8d0-4178-9f9a-731b89cf5a61
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: UnloadPerfCounterTextStrings, UnloadPerfCounterTextStrings function [Perf], UnloadPerfCounterTextStringsA, UnloadPerfCounterTextStringsW, _win32_unloadperfcountertextstrings, base.unloadperfcountertextstrings, loadperf/UnloadPerfCounterTextStrings, loadperf/UnloadPerfCounterTextStringsA, loadperf/UnloadPerfCounterTextStringsW, perf.unloadperfcountertextstrings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: loadperf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
+req.lib: Loadperf.lib
+req.dll: Loadperf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - UnloadPerfCounterTextStringsW
 product: Windows
 targetos: Windows
-req.lib: Loadperf.lib
-req.dll: Loadperf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # UnloadPerfCounterTextStringsW function

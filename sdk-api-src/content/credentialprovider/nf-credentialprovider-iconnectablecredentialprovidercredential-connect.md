@@ -4,17 +4,16 @@ title: IConnectableCredentialProviderCredential::Connect
 author: windows-sdk-content
 description: Connects an IConnectableCredentialProviderCredential object. This method is called after the user clicks the Submit button within the Pre-Logon-Access Provider screen and before ICredentialProviderCredential::GetSerialization is called.
 old-location: shell\IConnectableCredentialProviderCredential_Connect.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0fe91d1a-811a-4956-bb2f-47712ae2a155
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Connect, Connect method [Windows Shell], Connect method [Windows Shell],IConnectableCredentialProviderCredential interface, IConnectableCredentialProviderCredential interface [Windows Shell],Connect method, IConnectableCredentialProviderCredential.Connect, IConnectableCredentialProviderCredential::Connect, _shell_IConnectableCredentialProviderCredential_Connect, credentialprovider/IConnectableCredentialProviderCredential::Connect, shell.IConnectableCredentialProviderCredential_Connect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IConnectableCredentialProviderCredential.Connect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IConnectableCredentialProviderCredential::Connect

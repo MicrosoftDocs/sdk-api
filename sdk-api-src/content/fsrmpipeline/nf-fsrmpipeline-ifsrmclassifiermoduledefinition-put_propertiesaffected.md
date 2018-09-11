@@ -4,17 +4,16 @@ title: IFsrmClassifierModuleDefinition::put_PropertiesAffected
 author: windows-sdk-content
 description: The list of property names that the classifier can affect.
 old-location: fsrm\ifsrmclassifiermoduledefinition_propertiesaffected.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 69f288d1-cc78-4af0-891b-c5c3ed8d2659
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmClassifierModuleDefinition interface [File Server Resource Manager],PropertiesAffected property, IFsrmClassifierModuleDefinition.PropertiesAffected, IFsrmClassifierModuleDefinition.put_PropertiesAffected, IFsrmClassifierModuleDefinition::PropertiesAffected, IFsrmClassifierModuleDefinition::get_PropertiesAffected, IFsrmClassifierModuleDefinition::put_PropertiesAffected, PropertiesAffected property [File Server Resource Manager], PropertiesAffected property [File Server Resource Manager],IFsrmClassifierModuleDefinition interface, fs.ifsrmclassifiermoduledefinition_propertiesaffected, fsrm.ifsrmclassifiermoduledefinition_propertiesaffected, fsrmpipeline/IFsrmClassifierModuleDefinition::PropertiesAffected, fsrmpipeline/IFsrmClassifierModuleDefinition::get_PropertiesAffected, fsrmpipeline/IFsrmClassifierModuleDefinition::put_PropertiesAffected, put_PropertiesAffected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmClassifierModuleDefinition.put_PropertiesAffected
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassifierModuleDefinition::put_PropertiesAffected

@@ -4,17 +4,16 @@ title: IBDAComparable::HashExactIncremental
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable_hashexactincremental.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 4ddf2545-83a6-4b5d-94ba-7034aed61f08
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: HashExactIncremental, HashExactIncremental method [Microsoft TV Technologies], HashExactIncremental method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashExactIncremental method, IBDAComparable.HashExactIncremental, IBDAComparable::HashExactIncremental, IBDAComparableHashExactIncremental, mstv.ibdacomparable_hashexactincremental, tuner/IBDAComparable::HashExactIncremental
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBDAComparable.HashExactIncremental
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IBDAComparable::HashExactIncremental

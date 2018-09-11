@@ -4,17 +4,16 @@ title: AvRtCreateThreadOrderingGroupExA function
 author: windows-sdk-content
 description: Creates a thread ordering group and associates the server thread with a task.
 old-location: base\avrtcreatethreadorderinggroupex.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: b1ada400-54d9-4238-8d22-97eaa55dcd50
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: AvRtCreateThreadOrderingGroupEx, AvRtCreateThreadOrderingGroupEx function, AvRtCreateThreadOrderingGroupExA, AvRtCreateThreadOrderingGroupExW, avrt/AvRtCreateThreadOrderingGroupEx, avrt/AvRtCreateThreadOrderingGroupExA, avrt/AvRtCreateThreadOrderingGroupExW, base.avrtcreatethreadorderinggroupex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: avrt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVRF_HEAP_ALLOCATION, *PAVRF_HEAP_ALLOCATION
+req.lib: Avrt.lib
+req.dll: Avrt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AvRtCreateThreadOrderingGroupExW
 product: Windows
 targetos: Windows
-req.lib: Avrt.lib
-req.dll: Avrt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AvRtCreateThreadOrderingGroupExA function

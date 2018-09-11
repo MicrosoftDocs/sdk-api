@@ -4,17 +4,16 @@ title: IMDSPEnumStorage::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of storage interface(s) in the enumeration sequence.
 old-location: wmdm\imdspenumstorage_skip.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 68025a40-a423-4a11-87c6-ae8c2d7b3765
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPEnumStorage interface [windows Media Device Manager],Skip method, IMDSPEnumStorage.Skip, IMDSPEnumStorage::Skip, IMDSPEnumStorageSkip, Skip, Skip method [windows Media Device Manager], Skip method [windows Media Device Manager],IMDSPEnumStorage interface, mswmdm/IMDSPEnumStorage::Skip, wmdm.imdspenumstorage_skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPEnumStorage.Skip
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPEnumStorage::Skip

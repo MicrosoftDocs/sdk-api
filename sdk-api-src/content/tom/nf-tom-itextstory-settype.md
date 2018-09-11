@@ -4,17 +4,16 @@ title: ITextStory::SetType
 author: windows-sdk-content
 description: Sets the story type.
 old-location: controls\itextstory_settype.htm
-old-project: controls
+tech.root: controls
 ms.assetid: b1fda663-cbfa-4972-bc40-004b82631f92
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStory interface [Windows Controls],SetType method, ITextStory.SetType, ITextStory::SetType, SetType, SetType method [Windows Controls], SetType method [Windows Controls],ITextStory interface, controls.itextstory_settype, tom/ITextStory::SetType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStory.SetType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStory::SetType

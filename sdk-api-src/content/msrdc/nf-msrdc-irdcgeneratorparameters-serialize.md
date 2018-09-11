@@ -4,17 +4,16 @@ title: IRdcGeneratorParameters::Serialize
 author: windows-sdk-content
 description: Serializes the parameter data into a block of memory.
 old-location: rdc\irdcgeneratorparameters_serialize.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: ba0d09b0-417f-494a-a5e8-dccd08e5280a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IRdcGeneratorParameters interface [Remote Differential Compression],Serialize method, IRdcGeneratorParameters.Serialize, IRdcGeneratorParameters::Serialize, Serialize, Serialize method [Remote Differential Compression], Serialize method [Remote Differential Compression],IRdcGeneratorParameters interface, fs.irdcgeneratorparameters_serialize, msrdc/IRdcGeneratorParameters::Serialize, rdc.irdcgeneratorparameters_serialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsRdc.dll
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcGeneratorParameters.Serialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcGeneratorParameters::Serialize

@@ -4,17 +4,16 @@ title: policy_decision
 author: windows-sdk-content
 description: The POLICY_DECISION structure contains RSVP policy decision information.
 old-location: qos\policy_decision.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 6896031d-a8b4-46c5-bb52-61808bbb23f2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: POLICY_DECISION, POLICY_DECISION structure [QOS], lpmapi/POLICY_DECISION, policy_decision, qos.policy_decision
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_DECISION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POLICY_DECISION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: POLICY_DECISION
+req.redist: 
 ---
 
 # policy_decision structure

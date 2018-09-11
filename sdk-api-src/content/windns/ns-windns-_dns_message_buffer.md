@@ -4,7 +4,7 @@ title: "_DNS_MESSAGE_BUFFER"
 author: windows-sdk-content
 description: The DNS_MESSAGE_BUFFER structure stores message information for DNS queries.
 old-location: dns\dns_message_buffer.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 2a6fdf8f-ac30-4e32-9cde-67d41ddef8af
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_MESSAGE_BUFFER, *PDNS_MESSAGE_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_MESSAGE_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_MESSAGE_BUFFER, *PDNS_MESSAGE_BUFFER
+req.redist: 
 ---
 
 # _DNS_MESSAGE_BUFFER structure

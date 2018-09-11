@@ -4,17 +4,16 @@ title: IComponentData::QueryDataObject
 author: windows-sdk-content
 description: The IComponentData::QueryDataObject method returns a data object that can be used to retrieve the context information for the specified cookie.
 old-location: mmc\icomponentdata_querydataobject.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 567d068e-5447-438c-9719-93227807263a
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: CCT_RESULT = 0x8001, CCT_SCOPE = 0x8000, CCT_SNAPIN_MANAGER = 0x8002, CCT_UNINITIALIZED = 0xFFFF, IComponentData interface [MMC],QueryDataObject method, IComponentData.QueryDataObject, IComponentData::QueryDataObject, QueryDataObject, QueryDataObject method [MMC], QueryDataObject method [MMC],IComponentData interface, _slate_icomponentdata_querydataobject, mmc.icomponentdata_querydataobject, mmc/IComponentData::QueryDataObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponentData.QueryDataObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IComponentData::QueryDataObject

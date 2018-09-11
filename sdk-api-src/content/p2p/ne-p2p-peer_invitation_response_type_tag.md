@@ -4,7 +4,7 @@ title: peer_invitation_response_type_tag
 author: windows-sdk-content
 description: Defines the type of response received to an invitation to start a Peer Collaboration activity.
 old-location: p2p\peer_invitation_response_type.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: ad456eb5-a28c-4826-976f-e38e2f269ff0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_INVITATION_RESPONSE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_INVITATION_RESPONSE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_INVITATION_RESPONSE_TYPE
+req.redist: 
 ---
 
 # peer_invitation_response_type_tag enumeration

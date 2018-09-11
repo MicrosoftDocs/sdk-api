@@ -4,17 +4,16 @@ title: EngMultiByteToUnicodeN function
 author: windows-sdk-content
 description: The EngMultiByteToUnicodeN function converts the specified ANSI source string into a Unicode string using the current ANSI code page.
 old-location: display\engmultibytetounicoden.htm
-old-project: display
+tech.root: display
 ms.assetid: fa7a4e64-46be-49c8-9862-04348b9dc79e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngMultiByteToUnicodeN, EngMultiByteToUnicodeN function [Display Devices], display.engmultibytetounicoden, gdifncs_ad2cf58d-ac6c-438f-b9be-74e2617a857c.xml, winddi/EngMultiByteToUnicodeN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - EngMultiByteToUnicodeN
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngMultiByteToUnicodeN function

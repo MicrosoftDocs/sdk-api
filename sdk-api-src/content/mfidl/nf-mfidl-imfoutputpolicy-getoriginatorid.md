@@ -4,17 +4,16 @@ title: IMFOutputPolicy::GetOriginatorID
 author: windows-sdk-content
 description: Retrieives a GUID identifying the input trust authority (ITA) that created this output policy object.
 old-location: mf\imfoutputpolicy_getoriginatorid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3412bb81-c4b8-4e10-9a8e-8eae413ca82d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 3412bb81-c4b8-4e10-9a8e-8eae413ca82d, GetOriginatorID, GetOriginatorID method [Media Foundation], GetOriginatorID method [Media Foundation],IMFOutputPolicy interface, IMFOutputPolicy interface [Media Foundation],GetOriginatorID method, IMFOutputPolicy.GetOriginatorID, IMFOutputPolicy::GetOriginatorID, mf.imfoutputpolicy_getoriginatorid, mfidl/IMFOutputPolicy::GetOriginatorID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFOutputPolicy.GetOriginatorID
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFOutputPolicy::GetOriginatorID

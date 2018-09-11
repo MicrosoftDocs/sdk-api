@@ -4,17 +4,16 @@ title: ITfUIElementMgr::GetUIElement
 author: windows-sdk-content
 description: The ITfUIElementMgr::GetUIElement method gets the ITfUIElement interface of the element id.
 old-location: tsf\itfuielementmgr_getuielement.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: e3a2a7ae-1ca2-4c1e-83af-207821966147
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetUIElement, GetUIElement method [Text Services Framework], GetUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],GetUIElement method, ITfUIElementMgr.GetUIElement, ITfUIElementMgr::GetUIElement, msctf/ITfUIElementMgr::GetUIElement, tsf.itfuielementmgr_getuielement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfUIElementMgr.GetUIElement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfUIElementMgr::GetUIElement
@@ -62,7 +60,7 @@ The <b>ITfUIElementMgr::GetUIElement</b> method gets the <a href="https://msdn.m
 
 ### -param dwUIELementId
 
-
+TBD
 
 
 ### -param ppElement [out]

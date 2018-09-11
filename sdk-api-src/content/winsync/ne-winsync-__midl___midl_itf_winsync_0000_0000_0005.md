@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_winsync_0000_0000_0005"
 author: windows-sdk-content
 description: Represents actions that are taken to resolve a specific concurrency conflict.
 old-location: winsync\sync_resolve_action.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 6549eee1-6bf4-46b0-97d1-bb2c0f1b59a4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: SRA_ACCEPT_DESTINATION_PROVIDER, SRA_ACCEPT_SOURCE_PROVIDER, SRA_DEFER, SRA_LAST, SRA_MERGE, SRA_TRANSFER_AND_DEFER, SYNC_RESOLVE_ACTION, SYNC_RESOLVE_ACTION enumeration [Windows Sync], __MIDL___MIDL_itf_winsync_0000_0000_0005, winsync.sync_resolve_action, winsync/SRA_ACCEPT_DESTINATION_PROVIDER, winsync/SRA_ACCEPT_SOURCE_PROVIDER, winsync/SRA_DEFER, winsync/SRA_LAST, winsync/SRA_MERGE, winsync/SRA_TRANSFER_AND_DEFER, winsync/SYNC_RESOLVE_ACTION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_RESOLVE_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNC_RESOLVE_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SYNC_RESOLVE_ACTION
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_winsync_0000_0000_0005 enumeration

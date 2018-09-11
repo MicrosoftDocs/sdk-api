@@ -4,17 +4,16 @@ title: EvtUpdateBookmark function
 author: windows-sdk-content
 description: Updates the bookmark with information that identifies the specified event.
 old-location: wes\evtupdatebookmark.htm
-old-project: wes
+tech.root: WES
 ms.assetid: aa31f0cf-b37a-40bb-922e-2b987b8a9dcf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtUpdateBookmark, EvtUpdateBookmark function [EventLog], wes.evtupdatebookmark, winevt/EvtUpdateBookmark
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_VARIANT_TYPE
+req.lib: Wevtapi.lib
+req.dll: Wevtapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EvtUpdateBookmark
 product: Windows
 targetos: Windows
-req.lib: Wevtapi.lib
-req.dll: Wevtapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EvtUpdateBookmark function

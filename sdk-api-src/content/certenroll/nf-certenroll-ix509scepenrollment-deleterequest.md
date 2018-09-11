@@ -4,17 +4,16 @@ title: IX509SCEPEnrollment::DeleteRequest
 author: windows-sdk-content
 description: Delete any certificates or keys created for the request.
 old-location: security\ix509scepenrollment_deleterequest.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: d709dd46-b6ed-4471-a601-e140a139f57e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: DeleteRequest, DeleteRequest method [Security], DeleteRequest method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],DeleteRequest method, IX509SCEPEnrollment.DeleteRequest, IX509SCEPEnrollment::DeleteRequest, certenroll/IX509SCEPEnrollment::DeleteRequest, security.ix509scepenrollment_deleterequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509SCEPEnrollment.DeleteRequest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509SCEPEnrollment::DeleteRequest

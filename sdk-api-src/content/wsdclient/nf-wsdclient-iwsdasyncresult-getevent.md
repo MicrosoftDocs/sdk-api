@@ -4,17 +4,16 @@ title: IWSDAsyncResult::GetEvent
 author: windows-sdk-content
 description: Retrieves a WSD_EVENT structure that contains the result of the event.
 old-location: ncd\iwsdasyncresult_getevent_method.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: de201c8b-9052-42f9-b95d-3b65cf0c86a3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetEvent, GetEvent method, GetEvent method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetEvent method, IWSDAsyncResult.GetEvent, IWSDAsyncResult::GetEvent, ncd.iwsdasyncresult_getevent_method, wsdclient/IWSDAsyncResult::GetEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDAsyncResult.GetEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDAsyncResult::GetEvent

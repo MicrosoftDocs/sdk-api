@@ -4,17 +4,16 @@ title: WTSGetListenerSecurityA function
 author: windows-sdk-content
 description: Retrieves the security descriptor of a Remote Desktop Services listener.
 old-location: termserv\wtsgetlistenersecurity.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 6e49df9a-679d-4cc1-9297-90cf1e3509fa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSGetListenerSecurity, WTSGetListenerSecurity function [Remote Desktop Services], WTSGetListenerSecurityA, WTSGetListenerSecurityW, WTS_SECURITY_ALL_ACCESS, WTS_SECURITY_CONNECT, WTS_SECURITY_CURRENT_GUEST_ACCESS, WTS_SECURITY_CURRENT_USER_ACCESS, WTS_SECURITY_DISCONNECT, WTS_SECURITY_GUEST_ACCESS, WTS_SECURITY_LOGOFF, WTS_SECURITY_LOGON, WTS_SECURITY_MESSAGE, WTS_SECURITY_QUERY_INFORMATION, WTS_SECURITY_REMOTE_CONTROL, WTS_SECURITY_RESET, WTS_SECURITY_SET_INFORMATION, WTS_SECURITY_USER_ACCESS, WTS_SECURITY_VIRTUAL_CHANNELS, termserv.wtsgetlistenersecurity, wtsapi32/WTSGetListenerSecurity, wtsapi32/WTSGetListenerSecurityA, wtsapi32/WTSGetListenerSecurityW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WTSGetListenerSecurityW
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSGetListenerSecurityA function

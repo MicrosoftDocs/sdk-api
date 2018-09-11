@@ -4,17 +4,16 @@ title: IFileOperationProgressSink
 author: windows-sdk-content
 description: Exposes methods that provide a rich notification system used by callers of IFileOperation to monitor the details of the operations they are performing through that interface.
 old-location: shell\IFileOperationProgressSink.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 24b20e05-d8be-4060-a966-7b32d9225403
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileOperationProgressSink, IFileOperationProgressSink interface [Windows Shell], IFileOperationProgressSink interface [Windows Shell],described, _shell_IFileOperationProgressSink, shell.IFileOperationProgressSink, shobjidl_core/IFileOperationProgressSink
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperationProgressSink
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.0.6000 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperationProgressSink interface

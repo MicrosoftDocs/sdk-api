@@ -4,17 +4,16 @@ title: DXGI_OUTDUPL_DESC
 author: windows-sdk-content
 description: The DXGI_OUTDUPL_DESC structure describes the dimension of the output and the surface that contains the desktop image. The format of the desktop image is always DXGI_FORMAT_B8G8R8A8_UNORM.
 old-location: direct3ddxgi\dxgi_outdupl_desc.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 003014E3-4322-4253-8D69-AE315CDFDA75
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGI_OUTDUPL_DESC, DXGI_OUTDUPL_DESC structure [DXGI], direct3ddxgi.dxgi_outdupl_desc, dxgi1_2/DXGI_OUTDUPL_DESC
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OUTDUPL_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_OUTDUPL_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_OUTDUPL_DESC
+req.redist: 
 ---
 
 # DXGI_OUTDUPL_DESC structure

@@ -4,17 +4,16 @@ title: GetDurationFormatEx function
 author: windows-sdk-content
 description: Formats a duration of time as a time string for a locale specified by name.
 old-location: intl\getdurationformatex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 82027deb-ffaa-43ec-981e-ffbedb204bcb
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetDurationFormatEx, GetDurationFormatEx function [Internationalization for Windows Applications], _win32_GetDurationFormatEx, d, f, h or H, hh or HH, intl.getdurationformatex, m, mm, s, ss, winnls/GetDurationFormatEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - GetDurationFormatEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetDurationFormatEx function

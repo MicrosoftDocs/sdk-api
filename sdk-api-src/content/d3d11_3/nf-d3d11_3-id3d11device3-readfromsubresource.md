@@ -4,17 +4,16 @@ title: ID3D11Device3::ReadFromSubresource
 author: windows-sdk-content
 description: Copies data from a D3D11_USAGE_DEFAULTtexture which was mapped using ID3D11DeviceContext3::Mapwhile providing a NULL D3D11_MAPPED_SUBRESOURCEparameter.
 old-location: direct3d11\id3d11device3_readfromsubresource.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 060B9627-3A95-4DBD-B3E6-3989D8D9C79E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID3D11Device3 interface [Direct3D 11],ReadFromSubresource method, ID3D11Device3.ReadFromSubresource, ID3D11Device3::ReadFromSubresource, ReadFromSubresource, ReadFromSubresource method [Direct3D 11], ReadFromSubresource method [Direct3D 11],ID3D11Device3 interface, d3d11_3/ID3D11Device3::ReadFromSubresource, direct3d11.id3d11device3_readfromsubresource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TEXTURE_LAYOUT
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device3.ReadFromSubresource
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device3::ReadFromSubresource

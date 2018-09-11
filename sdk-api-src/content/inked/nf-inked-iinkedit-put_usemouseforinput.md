@@ -4,17 +4,16 @@ title: IInkEdit::put_UseMouseForInput
 author: windows-sdk-content
 description: Gets or sets a value that indicates whether the mouse can be used as an input device.
 old-location: tablet\inkedit_usemouseforinput.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: e4a425db-6a81-494d-818f-50a53d8c124b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkEdit interface [Tablet PC],UseMouseForInput property, IInkEdit.UseMouseForInput, IInkEdit.put_UseMouseForInput, IInkEdit::UseMouseForInput, IInkEdit::get_UseMouseForInput, IInkEdit::put_UseMouseForInput, InkEdit.get_UseMouseForInput, InkEdit.put_UseMouseForInput, UseMouseForInput property [Tablet PC], UseMouseForInput property [Tablet PC],IInkEdit interface, e4a425db-6a81-494d-818f-50a53d8c124b, get_UseMouseForInput, inked/IInkEdit::UseMouseForInput, inked/IInkEdit::get_UseMouseForInput, inked/IInkEdit::put_UseMouseForInput, put_UseMouseForInput, tablet.inkedit_usemouseforinput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_UseMouseForInput
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::put_UseMouseForInput

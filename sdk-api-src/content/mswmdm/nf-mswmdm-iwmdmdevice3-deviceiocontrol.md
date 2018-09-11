@@ -4,17 +4,16 @@ title: IWMDMDevice3::DeviceIoControl
 author: windows-sdk-content
 description: The DeviceIoControl method sends a Device I/O Control (IOCTL) code to the device. This is a pass-through method; Windows Media Device Manager just forwards the call to the service provider after validating the parameters.
 old-location: wmdm\iwmdmdevice3_deviceiocontrol.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 3ef6a95d-d4e2-4608-9a02-98b497e1fdbb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: DeviceIoControl, DeviceIoControl method [windows Media Device Manager], DeviceIoControl method [windows Media Device Manager],IWMDMDevice3 interface, IWMDMDevice3 interface [windows Media Device Manager],DeviceIoControl method, IWMDMDevice3.DeviceIoControl, IWMDMDevice3::DeviceIoControl, IWMDMDevice3DeviceToControl, mswmdm/IWMDMDevice3::DeviceIoControl, wmdm.iwmdmdevice3_deviceiocontrol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMDevice3.DeviceIoControl
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMDevice3::DeviceIoControl

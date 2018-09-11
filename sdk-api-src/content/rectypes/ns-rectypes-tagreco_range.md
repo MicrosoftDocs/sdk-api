@@ -4,17 +4,16 @@ title: tagRECO_RANGE
 author: windows-sdk-content
 description: The structure is obsolete.
 old-location: tablet\reco_range.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 212de1c5-b61e-4e6e-a781-cba63b820504
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 212de1c5-b61e-4e6e-a781-cba63b820504, RECO_RANGE, RECO_RANGE structure [Tablet PC], rectypes/RECO_RANGE, tablet.reco_range, tagRECO_RANGE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RECO_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RECO_RANGE
+req.redist: 
 ---
 
 # tagRECO_RANGE structure

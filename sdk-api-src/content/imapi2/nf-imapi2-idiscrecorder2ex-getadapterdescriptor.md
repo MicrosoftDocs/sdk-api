@@ -4,17 +4,16 @@ title: IDiscRecorder2Ex::GetAdapterDescriptor
 author: windows-sdk-content
 description: Retrieves the adapter descriptor for the device.
 old-location: imapi\idiscrecorder2ex_getadapterdescriptor.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 3922243c-97cf-43e3-a437-a5157ed73559
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetAdapterDescriptor, GetAdapterDescriptor method [IMAPI], GetAdapterDescriptor method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetAdapterDescriptor method, IDiscRecorder2Ex.GetAdapterDescriptor, IDiscRecorder2Ex::GetAdapterDescriptor, imapi.idiscrecorder2ex_getadapterdescriptor, imapi2/IDiscRecorder2Ex::GetAdapterDescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder2Ex.GetAdapterDescriptor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder2Ex::GetAdapterDescriptor

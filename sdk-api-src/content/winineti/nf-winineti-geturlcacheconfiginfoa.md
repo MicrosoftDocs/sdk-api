@@ -4,17 +4,16 @@ title: GetUrlCacheConfigInfoA function
 author: windows-sdk-content
 description: Retrieves information about cache configuration.
 old-location: wininet\geturlcacheconfiginfo.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 93a29a4f-57bf-497c-a7b1-3960935590f9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CACHE_CONFIG_CONTENT_PATHS_FC, CACHE_CONFIG_CONTENT_USAGE_FC, CACHE_CONFIG_COOKIES_PATHS_FC, CACHE_CONFIG_DISK_CACHE_PATHS_FC, CACHE_CONFIG_FORCE_CLEANUP_FC, CACHE_CONFIG_HISTORY_PATHS_FC, CACHE_CONFIG_QUOTA_FC, CACHE_CONFIG_STICKY_CONTENT_USAGE_FC, CACHE_CONFIG_SYNC_MODE_FC, CACHE_CONFIG_USER_MODE_FC, GetUrlCacheConfigInfo, GetUrlCacheConfigInfo function [WinINet], GetUrlCacheConfigInfoA, GetUrlCacheConfigInfoW, wininet.geturlcacheconfiginfo, winineti/GetUrlCacheConfigInfo, winineti/GetUrlCacheConfigInfoA, winineti/GetUrlCacheConfigInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winineti.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP4 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP4 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_AUTH_NOTIFY_DATA
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetUrlCacheConfigInfoW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetUrlCacheConfigInfoA function

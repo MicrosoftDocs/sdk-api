@@ -4,17 +4,16 @@ title: IQueryForm::Initialize
 author: windows-sdk-content
 description: Initializes the query form extension object.
 old-location: ad\iqueryform_initialize.htm
-old-project: ad
+tech.root: ad
 ms.assetid: d1250c69-f29b-44f1-b123-13818d26e322
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IQueryForm interface [Active Directory],Initialize method, IQueryForm.Initialize, IQueryForm::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IQueryForm interface, _glines_iqueryform_initialize, ad.iqueryform__initialize, ad.iqueryform_initialize, cmnquery/IQueryForm::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cmnquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uuid.lib
+req.dll: Dsquery.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IQueryForm.Initialize
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Dsquery.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryForm::Initialize

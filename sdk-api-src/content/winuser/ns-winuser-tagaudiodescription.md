@@ -4,17 +4,16 @@ title: tagAUDIODESCRIPTION
 author: windows-sdk-content
 description: Contains information associated with audio descriptions. This structure is used with the SystemParametersInfo function when the SPI_GETAUDIODESCRIPTION or SPI_SETAUDIODESCRIPTION action value is specified.
 old-location: winmsg\audiodescription.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: 20eb48da-cd2b-4af8-b3a7-5ee3f39b1387
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPAUDIODESCRIPTION, AUDIODESCRIPTION, AUDIODESCRIPTION structure [Windows and Messages], LPAUDIODESCRIPTION, LPAUDIODESCRIPTION structure pointer [Windows and Messages], audiodescription_cpp, base.audiodescription, tagAUDIODESCRIPTION, winmsg.audiodescription, winui.audiodescription, winuser/AUDIODESCRIPTION, winuser/LPAUDIODESCRIPTION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIODESCRIPTION, *LPAUDIODESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUDIODESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: AUDIODESCRIPTION, *LPAUDIODESCRIPTION
+req.redist: 
 ---
 
 # tagAUDIODESCRIPTION structure

@@ -4,17 +4,16 @@ title: MsiGetPatchInfoExA function
 author: windows-sdk-content
 description: Queries for information about the application of a patch to a specified instance of a product.
 old-location: setup\msigetpatchinfoex.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 18acad03-7794-4c29-8cac-1dd3ea64369a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: INSTALLPROPERTY_DISPLAYNAME, INSTALLPROPERTY_INSTALLDATE, INSTALLPROPERTY_LOCALPACKAGE, INSTALLPROPERTY_MOREINFOURL, INSTALLPROPERTY_PATCHSTATE, INSTALLPROPERTY_TRANSFORMS, INSTALLPROPERTY_UNINSTALLABLE, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetPatchInfoEx, MsiGetPatchInfoEx function, MsiGetPatchInfoExA, MsiGetPatchInfoExW, NULL, User SID, msi/MsiGetPatchInfoEx, msi/MsiGetPatchInfoExA, msi/MsiGetPatchInfoExW, setup.msigetpatchinfoex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - MsiGetPatchInfoExW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiGetPatchInfoExA function

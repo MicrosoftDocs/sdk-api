@@ -4,17 +4,16 @@ title: IDataCollector::put_LatestOutputLocation
 author: windows-sdk-content
 description: Retrieves or sets the fully decorated file name that PLA used the last time it created the file.
 old-location: pla\idatacollector_latestoutputlocation.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: e451c3a7-aec3-4fa7-9313-730bfac55f19
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollector interface [PLA],LatestOutputLocation property, IDataCollector.LatestOutputLocation, IDataCollector.put_LatestOutputLocation, IDataCollector::LatestOutputLocation, IDataCollector::get_LatestOutputLocation, IDataCollector::put_LatestOutputLocation, LatestOutputLocation property [PLA], LatestOutputLocation property [PLA],IDataCollector interface, base.idatacollector_latestoutputlocation, pla.idatacollector_latestoutputlocation, pla/IDataCollector::LatestOutputLocation, pla/IDataCollector::get_LatestOutputLocation, pla/IDataCollector::put_LatestOutputLocation, put_LatestOutputLocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollector.put_LatestOutputLocation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollector::put_LatestOutputLocation

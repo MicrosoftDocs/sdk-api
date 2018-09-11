@@ -4,17 +4,16 @@ title: PeerDistClientAddData function
 author: windows-sdk-content
 description: The PeerDistClientAddData function is used to supply content to the local cache.
 old-location: p2p\peerdistclientadddata.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: f1fdd398-ed84-4819-b0e8-e9b653bd6848
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerDistClientAddData, PeerDistClientAddData function [Peer Networking], p2p.peerdistclientadddata, peerdist/PeerDistClientAddData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, *PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
+req.lib: PeerDist.lib
+req.dll: PeerDist.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerDistClientAddData
 product: Windows
 targetos: Windows
-req.lib: PeerDist.lib
-req.dll: PeerDist.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerDistClientAddData function

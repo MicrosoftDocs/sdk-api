@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.get_SenderOffice
 title: IFaxDoc::get_SenderOffice
 author: windows-sdk-content
 description: Sets or retrieves the SenderOffice property of a FaxDoc object. The SenderOffice property is a null-terminated string that contains the office of the sender of the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_senderoffice_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderoffice_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7gv9.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxDoc object [Fax Service],SenderOffice property, FaxDoc.SenderOffice, IFaxDoc.get_SenderOffice, IFaxDoc::get_SenderOffice, SenderOffice property [Fax Service], SenderOffice property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_get_senderoffice_vb, get_SenderOffice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxDoc interface [Fax Service],SenderOffice property, IFaxDoc.SenderOffice, IFaxDoc.get_SenderOffice, IFaxDoc::SenderOffice, IFaxDoc::get_SenderOffice, IFaxDoc::put_SenderOffice, SenderOffice property [Fax Service], SenderOffice property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderoffice_cpp, faxcom/IFaxDoc::SenderOffice, faxcom/IFaxDoc::get_SenderOffice, faxcom/IFaxDoc::put_SenderOffice, get_SenderOffice
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.SenderOffice
+ - IFaxDoc.SenderOffice
+ - IFaxDoc.get_SenderOffice
+ - IFaxDoc.put_SenderOffice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::get_SenderOffice
@@ -81,10 +81,6 @@ The <b>get_SenderOffice</b> method allocates the memory required for the buffer 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690707(v=VS.85).aspx">FaxDoc</a>
 
 
 

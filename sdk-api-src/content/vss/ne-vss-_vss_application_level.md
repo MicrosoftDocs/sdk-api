@@ -4,17 +4,16 @@ title: "_VSS_APPLICATION_LEVEL"
 author: windows-sdk-content
 description: Indicates the application level, the point in the course of the creation of a shadow copy that a writer is notified of a freeze.
 old-location: base\vss_application_level.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: fc7fbaee-d223-4557-987d-2c09f3877ec2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_APPLICATION_LEVEL, PVSS_APPLICATION_LEVEL, PVSS_APPLICATION_LEVEL enumeration pointer [VSS], VSS_APPLICATION_LEVEL, VSS_APPLICATION_LEVEL enumeration [VSS], VSS_APP_AUTO, VSS_APP_BACK_END, VSS_APP_FRONT_END, VSS_APP_SYSTEM, VSS_APP_UNKNOWN, _VSS_APPLICATION_LEVEL, _win32_vss_application_level, base.vss_application_level, vss/PVSS_APPLICATION_LEVEL, vss/VSS_APPLICATION_LEVEL, vss/VSS_APP_AUTO, vss/VSS_APP_BACK_END, vss/VSS_APP_FRONT_END, vss/VSS_APP_SYSTEM, vss/VSS_APP_UNKNOWN"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_APPLICATION_LEVEL, *PVSS_APPLICATION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_APPLICATION_LEVEL
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_APPLICATION_LEVEL, *PVSS_APPLICATION_LEVEL
+req.redist: 
 ---
 
 # _VSS_APPLICATION_LEVEL enumeration

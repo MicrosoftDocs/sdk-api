@@ -4,17 +4,16 @@ title: IAzClientContext::GetProperty
 author: windows-sdk-content
 description: Returns the IAzClientContext object property with the specified property ID.
 old-location: security\iazclientcontext_getproperty.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4be02b6d-5eeb-46e6-9339-3edd904f3606
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AZ_PROP_CHILD_CREATE, AZ_PROP_CLIENT_CONTEXT_ROLE_FOR_ACCESS_CHECK, AZ_PROP_CLIENT_CONTEXT_USER_CANONICAL, AZ_PROP_CLIENT_CONTEXT_USER_DISPLAY, AZ_PROP_CLIENT_CONTEXT_USER_DN, AZ_PROP_CLIENT_CONTEXT_USER_DNS_SAM_COMPAT, AZ_PROP_CLIENT_CONTEXT_USER_GUID, AZ_PROP_CLIENT_CONTEXT_USER_SAM_COMPAT, AZ_PROP_CLIENT_CONTEXT_USER_UPN, AzClientContext object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzClientContext object, GetProperty method [Security],IAzClientContext interface, IAzClientContext interface [Security],GetProperty method, IAzClientContext.GetProperty, IAzClientContext::GetProperty, azroles/IAzClientContext::GetProperty, security.iazclientcontext_getproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzClientContext.GetProperty
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzClientContext::GetProperty

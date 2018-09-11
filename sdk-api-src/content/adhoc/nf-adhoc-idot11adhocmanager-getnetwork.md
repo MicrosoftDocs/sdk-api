@@ -4,17 +4,16 @@ title: IDot11AdHocManager::GetNetwork
 author: windows-sdk-content
 description: Returns the network associated with a signature.
 old-location: nwifi\idot11adhocmanager_getnetwork.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 971703dc-1a3c-4c9a-a9e2-c547c96beacd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetNetwork, GetNetwork method [NativeWIFI], GetNetwork method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],GetNetwork method, IDot11AdHocManager.GetNetwork, IDot11AdHocManager::GetNetwork, adhoc/IDot11AdHocManager::GetNetwork, nwifi.idot11adhocmanager_getnetwork
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocManager.GetNetwork
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocManager::GetNetwork

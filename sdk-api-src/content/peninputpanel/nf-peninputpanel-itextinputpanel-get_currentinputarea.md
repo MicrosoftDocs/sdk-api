@@ -4,17 +4,16 @@ title: ITextInputPanel::get_CurrentInputArea
 author: windows-sdk-content
 description: Gets the current input area as specified by the PanelInputArea Enumeration.
 old-location: tablet\itextinputpanel_currentinputarea.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 47ffdda4-bfe2-4ee0-bfda-cad73a346b1e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 47ffdda4-bfe2-4ee0-bfda-cad73a346b1e, CurrentInputArea property [Tablet PC], CurrentInputArea property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentInputArea property, ITextInputPanel.CurrentInputArea, ITextInputPanel.get_CurrentInputArea, ITextInputPanel::CurrentInputArea, ITextInputPanel::get_CurrentInputArea, get_CurrentInputArea, peninputpanel/ITextInputPanel::CurrentInputArea, peninputpanel/ITextInputPanel::get_CurrentInputArea, tablet.itextinputpanel_currentinputarea
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITextInputPanel.get_CurrentInputArea
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanel::get_CurrentInputArea

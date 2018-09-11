@@ -4,7 +4,7 @@ title: "_CHANGER_MOVE_MEDIUM"
 author: windows-sdk-content
 description: Contains information that the IOCTL_CHANGER_MOVE_MEDIUM control code uses to move a piece of media to a destination.
 old-location: base\changer_move_medium_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 9a837686-c081-4365-9560-be64c5d343cb
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANGER_MOVE_MEDIUM, *PCHANGER_MOVE_MEDIUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHANGER_MOVE_MEDIUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CHANGER_MOVE_MEDIUM, *PCHANGER_MOVE_MEDIUM
+req.redist: 
 ---
 
 # _CHANGER_MOVE_MEDIUM structure

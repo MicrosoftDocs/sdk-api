@@ -4,7 +4,7 @@ title: MF_TIMED_TEXT_ERROR_CODE
 author: windows-sdk-content
 description: Specifies the kind error that occurred with a timed text track.
 old-location: mf\mf_timed_text_error_code.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D59B2063-5632-4115-BA8C-503181B5DF08
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mfmediaengine.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_TIMED_TEXT_ERROR_CODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_TIMED_TEXT_ERROR_CODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_TIMED_TEXT_ERROR_CODE
+req.redist: 
 ---
 
 # MF_TIMED_TEXT_ERROR_CODE enumeration

@@ -4,17 +4,16 @@ title: ICreatePropBagOnRegKey::Create
 author: windows-sdk-content
 description: The Create method creates a property bag that can store information in the system registry.
 old-location: mstv\icreatepropbagonregkey_create.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d6410ead-7364-4db4-a4c9-cafe5fbf2e84
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Create, Create method [Microsoft TV Technologies], Create method [Microsoft TV Technologies],ICreatePropBagOnRegKey interface, ICreatePropBagOnRegKey interface [Microsoft TV Technologies],Create method, ICreatePropBagOnRegKey.Create, ICreatePropBagOnRegKey::Create, ICreatePropBagOnRegKeyCreate, mstv.icreatepropbagonregkey_create, regbag/ICreatePropBagOnRegKey::Create
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: regbag.h
 req.include-header: Tuner.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreatePropBagOnRegKey.Create
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreatePropBagOnRegKey::Create

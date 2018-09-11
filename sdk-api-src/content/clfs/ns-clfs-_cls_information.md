@@ -4,7 +4,7 @@ title: "_CLS_INFORMATION"
 author: windows-sdk-content
 description: Describes general information about a log.
 old-location: fs\clfs_information.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 06f5919e-b98f-4502-9653-9ef42c1ebe5a
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLFS_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION
+req.redist: 
 ---
 
 # _CLS_INFORMATION structure

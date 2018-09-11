@@ -4,17 +4,16 @@ title: "_RSVP_POLICY"
 author: windows-sdk-content
 description: The RSVP_POLICY structure stores one or more undefined policy elements.
 old-location: qos\rsvp_policy.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: e23cd113-6fa1-479b-85c2-7690055e57e7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPRSVP_POLICY, *LPRSVP_POLICY structure [QOS], RSVP_POLICY, RSVP_POLICY structure [QOS], _RSVP_POLICY, qos.rsvp_policy, qossp/*LPRSVP_POLICY, qossp/RSVP_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_POLICY, *LPRSVP_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RSVP_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RSVP_POLICY, *LPRSVP_POLICY
+req.redist: 
 ---
 
 # _RSVP_POLICY structure

@@ -4,7 +4,7 @@ title: "_TAPE_WRITE_MARKS"
 author: windows-sdk-content
 description: Describes the type and number of tapemarks to write.
 old-location: backup\tape_write_marks_str.htm
-old-project: backup
+tech.root: backup
 ms.assetid: fd2f2a69-7683-430a-a60b-0fc70c1ab60f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TAPE_WRITE_MARKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.redist: 
 ---
 
 # _TAPE_WRITE_MARKS structure

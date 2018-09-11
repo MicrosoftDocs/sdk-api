@@ -4,7 +4,7 @@ title: "_PERFORMANCE_DATA"
 author: windows-sdk-content
 description: Contains the thread profiling and hardware counter data that you requested.
 old-location: hcp\performance_data.htm
-old-project: hcp
+tech.root: hcp
 ms.assetid: 468060cc-7b17-4ef4-8ae0-74d2bfcd5e4a
 ms.author: windowssdkdev
 ms.date: 03/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERFORMANCE_DATA, *PPERFORMANCE_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERFORMANCE_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PERFORMANCE_DATA, *PPERFORMANCE_DATA
+req.redist: 
 ---
 
 # _PERFORMANCE_DATA structure

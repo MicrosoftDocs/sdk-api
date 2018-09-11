@@ -4,17 +4,16 @@ title: "_VDS_HINTS2"
 author: windows-sdk-content
 description: Contains the automagic hints for a LUN in a storage pool.
 old-location: base\vds_hints2.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: e24935ac-17c8-4338-99cb-2408ca61da8a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVDS_HINTS2, PVDS_HINTS2, PVDS_HINTS2 structure pointer, VDS_HINTS2, VDS_HINTS2 structure, VDS_HINT_ALLOCATEHOTSPARE, VDS_HINT_BUSTYPE, VDS_HINT_CONSISTENCYCHECKENABLED, VDS_HINT_FASTCRASHRECOVERYREQUIRED, VDS_HINT_HARDWARECHECKSUMENABLED, VDS_HINT_ISYANKABLE, VDS_HINT_MEDIASCANENABLED, VDS_HINT_MOSTLYREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALWRITES, VDS_HINT_READBACKVERIFYENABLED, VDS_HINT_READCACHINGENABLED, VDS_HINT_REMAPENABLED, VDS_HINT_USEMIRROREDCACHE, VDS_HINT_WRITECACHINGENABLED, VDS_HINT_WRITETHROUGHCACHINGENABLED, _VDS_HINTS2, base.vds_hints2, vds/PVDS_HINTS2, vds/VDS_HINTS2, vdshwprv/PVDS_HINTS2, vdshwprv/VDS_HINTS2"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_HINTS2, *PVDS_HINTS2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_HINTS2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_HINTS2, *PVDS_HINTS2
+req.redist: 
 ---
 
 # _VDS_HINTS2 structure

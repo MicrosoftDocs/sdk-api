@@ -4,17 +4,16 @@ title: NdrComplexArrayUnmarshall function
 author: windows-sdk-content
 description: The NdrComplexArrayUnmarshall function unmarshals the complex array from the network buffer to memory.
 old-location: winprog\ndrcomplexarrayunmarshall.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 2b702bec-e5f4-4bf3-a2d4-d4b901929e53
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdrComplexArrayUnmarshall, NdrComplexArrayUnmarshall function [Windows API], rpcndr/NdrComplexArrayUnmarshall, winprog.ndrcomplexarrayunmarshall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrComplexArrayUnmarshall
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrComplexArrayUnmarshall function

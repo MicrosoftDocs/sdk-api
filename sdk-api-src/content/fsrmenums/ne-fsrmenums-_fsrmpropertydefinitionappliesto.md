@@ -4,7 +4,7 @@ title: "_FsrmPropertyDefinitionAppliesTo"
 author: windows-sdk-content
 description: Flags that indicate what a FSRM classification property can be applied to.
 old-location: fsrm\fsrmpropertydefinitionappliesto.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: deca10b5-fd5f-446f-ab88-1731402a550c
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmPropertyDefinitionAppliesTo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FsrmPropertyDefinitionAppliesTo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FsrmPropertyDefinitionAppliesTo
+req.redist: 
 ---
 
 # _FsrmPropertyDefinitionAppliesTo enumeration

@@ -4,7 +4,7 @@ title: IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
 author: windows-sdk-content
 description: Sets the output signal period of a Pulse Width Modulation (PWM) controller to a suggested value.
 old-location: base\ioctl_pwm_controller_set_desired_period.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 7E25B3C8-8C73-4808-B460-DFC408A2482F
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PWM_POLARITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD IOCTL

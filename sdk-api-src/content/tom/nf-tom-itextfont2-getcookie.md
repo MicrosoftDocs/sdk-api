@@ -4,17 +4,16 @@ title: ITextFont2::GetCookie
 author: windows-sdk-content
 description: Gets the client cookie.
 old-location: controls\itextfont2_getcookie.htm
-old-project: controls
+tech.root: controls
 ms.assetid: f3e36338-8c88-4aaf-bbd0-c07a2228cb23
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCookie, GetCookie method [Windows Controls], GetCookie method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetCookie method, ITextFont2.GetCookie, ITextFont2::GetCookie, controls.itextfont2_getcookie, tom/ITextFont2::GetCookie
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont2.GetCookie
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont2::GetCookie

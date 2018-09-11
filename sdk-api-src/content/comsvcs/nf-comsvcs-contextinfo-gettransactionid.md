@@ -4,17 +4,16 @@ title: ContextInfo::GetTransactionId
 author: windows-sdk-content
 description: Retrieves the transaction identifier associated with the object context. Objects in the same transaction share the same transaction identifier.
 old-location: cos\contextinfo_gettransactionid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 9eb77a13-14f0-4d45-a6de-4ae28d6bcac4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ContextInfo interface [COM+],GetTransactionId method, ContextInfo.GetTransactionId, ContextInfo::GetTransactionId, GetTransactionId, GetTransactionId method [COM+], GetTransactionId method [COM+],ContextInfo interface, _cos_ContextInfo_GetTransactionId, comsvcs/ContextInfo::GetTransactionId, cos.contextinfo_gettransactionid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ContextInfo.GetTransactionId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ContextInfo::GetTransactionId

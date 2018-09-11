@@ -4,17 +4,16 @@ title: IMpegAudioDecoder::get_IntegerDecode
 author: windows-sdk-content
 description: Returns whether the decoder is currently using integer-based decoding as opposed to floating point decoding.
 old-location: dshow\impegaudiodecoder_get_integerdecode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3cb73c5a-8bca-4dc3-a48c-cac57f3d7fbf
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_IntegerDecode method, IMpegAudioDecoder.get_IntegerDecode, IMpegAudioDecoder::get_IntegerDecode, IMpegAudioDecodergetIntegerDecode, dshow.impegaudiodecoder_get_integerdecode, get_IntegerDecode, get_IntegerDecode method [DirectShow], get_IntegerDecode method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_IntegerDecode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_CONTEXT, *PMPEG_CONTEXT
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMpegAudioDecoder.get_IntegerDecode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMpegAudioDecoder::get_IntegerDecode

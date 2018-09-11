@@ -4,17 +4,16 @@ title: tag_VDS_PARTITION_STYLE
 author: windows-sdk-content
 description: This enumeration is not for explicit use.
 old-location: base\tag_vds_partition_style.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: d994715e-1735-4841-98be-5f22de0670f0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_PARTITION_STYLE_GPT, VDS_PARTITION_STYLE_MBR, VDS_PARTITION_STYLE_RAW, __VDS_PARTITION_STYLE, __VDS_PARTITION_STYLE enumeration [VDS], base.tag_vds_partition_style, tag_VDS_PARTITION_STYLE, tag_VDS_PARTITION_STYLE enumeration [VDS], vds/VDS_PARTITION_STYLE_GPT, vds/VDS_PARTITION_STYLE_MBR, vds/VDS_PARTITION_STYLE_RAW, vds/tag_VDS_PARTITION_STYLE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "__VDS_PARTITION_STYLE"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - __VDS_PARTITION_STYLE
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: "__VDS_PARTITION_STYLE"
+req.redist: 
 ---
 
 # tag_VDS_PARTITION_STYLE enumeration

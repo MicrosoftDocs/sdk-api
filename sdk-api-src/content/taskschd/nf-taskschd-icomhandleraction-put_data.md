@@ -4,17 +4,16 @@ title: IComHandlerAction::put_Data
 author: windows-sdk-content
 description: Gets or sets additional data that is associated with the handler.
 old-location: taskschd\icomhandleraction_data.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 3ce35108-91ed-4df8-8eb3-5a9ebf781567
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Data property [Task Scheduler], Data property [Task Scheduler],IComHandlerAction interface, IComHandlerAction interface [Task Scheduler],Data property, IComHandlerAction.Data, IComHandlerAction.put_Data, IComHandlerAction::Data, IComHandlerAction::get_Data, IComHandlerAction::put_Data, put_Data, taskschd.icomhandleraction_data, taskschd/IComHandlerAction::Data, taskschd/IComHandlerAction::get_Data, taskschd/IComHandlerAction::put_Data
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IComHandlerAction.put_Data
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComHandlerAction::put_Data

@@ -4,17 +4,16 @@ title: ProtectFileToEnterpriseIdentity function
 author: windows-sdk-content
 description: Protects the data in a file to an enterprise identity, so that only users who are associated with that enterprise identity can access the data. The application can then use standard APIs to read or write from the file.
 old-location: edp\protectfiletoenterpriseidentity.htm
-old-project: EDP
+tech.root: EDP
 ms.assetid: 91993A9E-AC1D-4F3E-BCFC-9DE79F1C2C8D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EDP.protectfiletoenterpriseidentity, ProtectFileToEnterpriseIdentity, ProtectFileToEnterpriseIdentity function, edpwin32/ProtectFileToEnterpriseIdentity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: edpwin32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_TYPE
+req.lib: Efswrt.h
+req.dll: Efswrt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ProtectFileToEnterpriseIdentity
 product: Windows
 targetos: Windows
-req.lib: Efswrt.h
-req.dll: Efswrt.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # ProtectFileToEnterpriseIdentity function

@@ -4,17 +4,16 @@ title: ID3D11VideoContext::VideoProcessorBlt
 author: windows-sdk-content
 description: Performs a video processing operation on one or more input samples and writes the result to a Direct3D surface.
 old-location: mf\id3d11videocontext_videoprocessorblt.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D526BB31-A4B9-4BBD-BAE3-43FDFF58A32A
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorBlt method, ID3D11VideoContext.VideoProcessorBlt, ID3D11VideoContext::VideoProcessorBlt, VideoProcessorBlt, VideoProcessorBlt method [Media Foundation], VideoProcessorBlt method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorBlt, mf.id3d11videocontext_videoprocessorblt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.VideoProcessorBlt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::VideoProcessorBlt

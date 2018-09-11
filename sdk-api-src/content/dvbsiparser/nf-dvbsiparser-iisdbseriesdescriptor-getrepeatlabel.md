@@ -4,17 +4,16 @@ title: IIsdbSeriesDescriptor::GetRepeatLabel
 author: windows-sdk-content
 description: Gets a label that identifies a series repeat from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getrepeatlabel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 04b47836-0c27-41da-b71d-6c4abca6dd56
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRepeatLabel, GetRepeatLabel method [Microsoft TV Technologies], GetRepeatLabel method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetRepeatLabel method, IIsdbSeriesDescriptor.GetRepeatLabel, IIsdbSeriesDescriptor::GetRepeatLabel, dvbsiparser/IIsdbSeriesDescriptor::GetRepeatLabel, mstv.iisdbseriesdescriptor_getrepeatlabel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbSeriesDescriptor.GetRepeatLabel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbSeriesDescriptor::GetRepeatLabel

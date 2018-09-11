@@ -4,17 +4,16 @@ title: IStreamBufferConfigure::SetDirectory
 author: windows-sdk-content
 description: The SetDirectory method sets the directory where backing files are saved.
 old-location: mstv\istreambufferconfigure_setdirectory.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ff0604d4-bbcd-409e-8e3d-a132218dc3a9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IStreamBufferConfigure interface [Microsoft TV Technologies],SetDirectory method, IStreamBufferConfigure.SetDirectory, IStreamBufferConfigure::SetDirectory, IStreamBufferConfigureSetDirectory, SetDirectory, SetDirectory method [Microsoft TV Technologies], SetDirectory method [Microsoft TV Technologies],IStreamBufferConfigure interface, mstv.istreambufferconfigure_setdirectory, sbe/IStreamBufferConfigure::SetDirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferConfigure.SetDirectory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferConfigure::SetDirectory

@@ -4,7 +4,7 @@ title: "_RADIUS_ATTRIBUTE_ARRAY"
 author: windows-sdk-content
 description: The RADIUS_ATTRIBUTE_ARRAY structure represents an array of attributes.
 old-location: nps\IAS_radius_attribute_array.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 2eec8b05-c74d-4876-a475-0be7f60014d0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: authif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RADIUS_ATTRIBUTE_ARRAY, *PRADIUS_ATTRIBUTE_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RADIUS_ATTRIBUTE_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: RADIUS_ATTRIBUTE_ARRAY, *PRADIUS_ATTRIBUTE_ARRAY
+req.redist: 
 ---
 
 # _RADIUS_ATTRIBUTE_ARRAY structure

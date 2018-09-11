@@ -4,17 +4,16 @@ title: IRichEditUiaInformation::GetBoundaryRectangle
 author: windows-sdk-content
 description: Retrieves the bounding rectangle of a windowless rich edit control.
 old-location: controls\irichedituiainformation_getboundaryrectangle.htm
-old-project: controls
+tech.root: controls
 ms.assetid: DCDE0730-25C4-4856-AC20-36C36E20AFB1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetBoundaryRectangle, GetBoundaryRectangle method [Windows Controls], GetBoundaryRectangle method [Windows Controls],IRichEditUiaInformation interface, IRichEditUiaInformation interface [Windows Controls],GetBoundaryRectangle method, IRichEditUiaInformation.GetBoundaryRectangle, IRichEditUiaInformation::GetBoundaryRectangle, controls.irichedituiainformation_getboundaryrectangle, textserv/IRichEditUiaInformation::GetBoundaryRectangle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRichEditUiaInformation.GetBoundaryRectangle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRichEditUiaInformation::GetBoundaryRectangle
@@ -62,7 +60,7 @@ Retrieves the bounding rectangle of a windowless rich edit control.
 
 ### -param pUiaRect
 
-
+TBD
 
 
 

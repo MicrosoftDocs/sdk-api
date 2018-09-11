@@ -4,17 +4,16 @@ title: IResultDataCompareEx::Compare
 author: windows-sdk-content
 description: Provides a way for a primary snap-in to compare items for the purpose of sorting the scope and result items that it inserts in the result pane.
 old-location: mmc\iresultdatacompareex_compare.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 0e3a8094-0d09-4a9c-8211-a0eb6a89ad55
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: Compare, Compare method [MMC], Compare method [MMC],IResultDataCompareEx interface, IResultDataCompareEx interface [MMC],Compare method, IResultDataCompareEx.Compare, IResultDataCompareEx::Compare, _slate_iresultdatacompareex_compare, mmc.iresultdatacompareex_compare, mmc/IResultDataCompareEx::Compare
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IResultDataCompareEx.Compare
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IResultDataCompareEx::Compare

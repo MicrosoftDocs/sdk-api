@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CurrentFlowsTo
 author: windows-sdk-content
 description: Retrieves an array of elements that indicates the reading order after the current element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentFlowsTo.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 4b807101-1a80-4f2b-a1d3-a08cd654ec44
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentFlowsTo property [Windows Accessibility], CurrentFlowsTo property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentFlowsTo property, IUIAutomationElement.CurrentFlowsTo, IUIAutomationElement.get_CurrentFlowsTo, IUIAutomationElement::CurrentFlowsTo, IUIAutomationElement::get_CurrentFlowsTo, get_CurrentFlowsTo, uiauto.uiauto_IUIAutomationElement_CurrentFlowsTo, uiauto_IUIAutomationElement_CurrentFlowsTo, uiautomationclient/IUIAutomationElement::CurrentFlowsTo, uiautomationclient/IUIAutomationElement::get_CurrentFlowsTo, winauto.uiauto_IUIAutomationElement_CurrentFlowsTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CurrentFlowsTo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CurrentFlowsTo

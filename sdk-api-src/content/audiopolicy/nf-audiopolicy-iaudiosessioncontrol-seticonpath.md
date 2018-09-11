@@ -4,17 +4,16 @@ title: IAudioSessionControl::SetIconPath
 author: windows-sdk-content
 description: The SetIconPath method assigns a display icon to the current session.
 old-location: coreaudio\iaudiosessioncontrol_seticonpath.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 25b27a65-7204-4a12-ae4e-ad216a22e4e1
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],SetIconPath method, IAudioSessionControl.SetIconPath, IAudioSessionControl::SetIconPath, IAudioSessionControlSetIconPath, SetIconPath, SetIconPath method [Core Audio], SetIconPath method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::SetIconPath, coreaudio.iaudiosessioncontrol_seticonpath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionControl.SetIconPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionControl::SetIconPath

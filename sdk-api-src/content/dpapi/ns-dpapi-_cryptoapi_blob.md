@@ -4,17 +4,16 @@ title: "_CRYPTOAPI_BLOB"
 author: windows-sdk-content
 description: The CryptoAPI CRYPT_INTEGER_BLOB structure is used for an arbitrary array of bytes. It is declared in Wincrypt.h and provides flexibility for objects that can contain various data types.
 old-location: security\cryptoapi_blob.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 1c2a07b8-f702-47f3-8d4c-6ac0cbc63f0f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_BLOB, *PCERT_NAME_BLOB, *PCERT_RDN_VALUE_BLOB, *PCRL_BLOB, *PCRYPT_ATTR_BLOB, *PCRYPT_DATA_BLOB, *PCRYPT_DER_BLOB, *PCRYPT_DIGEST_BLOB, *PCRYPT_HASH_BLOB, *PCRYPT_INTEGER_BLOB, *PCRYPT_OBJID_BLOB, *PCRYPT_UINT_BLOB, *PDATA_BLOB, CERT_BLOB, CERT_BLOB structure [Security], CERT_NAME_BLOB, CERT_NAME_BLOB structure [Security], CERT_RDN_VALUE_BLOB, CERT_RDN_VALUE_BLOB structure [Security], CRL_BLOB, CRL_BLOB structure [Security], CRYPTOAPI_BLOB, CRYPTOAPI_BLOB structure [Security], CRYPT_ATTR_BLOB, CRYPT_ATTR_BLOB structure [Security], CRYPT_DATA_BLOB, CRYPT_DATA_BLOB structure [Security], CRYPT_DER_BLOB, CRYPT_DER_BLOB structure [Security], CRYPT_DIGEST_BLOB, CRYPT_DIGEST_BLOB structure [Security], CRYPT_HASH_BLOB, CRYPT_HASH_BLOB structure [Security], CRYPT_INTEGER_BLOB, CRYPT_INTEGER_BLOB structure [Security], CRYPT_OBJID_BLOB, CRYPT_OBJID_BLOB structure [Security], CRYPT_UINT_BLOB, CRYPT_UINT_BLOB structure [Security], DATA_BLOB, DATA_BLOB structure [Security], PCERT_BLOB, PCERT_BLOB structure pointer [Security], PCERT_NAME_BLOB, PCERT_NAME_BLOB structure pointer [Security], PCERT_RDN_VALUE_BLOB, PCERT_RDN_VALUE_BLOB structure pointer [Security], PCRL_BLOB, PCRL_BLOB structure pointer [Security], PCRYPT_ATTR_BLOB, PCRYPT_ATTR_BLOB structure pointer [Security], PCRYPT_DATA_BLOB, PCRYPT_DATA_BLOB structure pointer [Security], PCRYPT_DER_BLOB, PCRYPT_DER_BLOB structure pointer [Security], PCRYPT_DIGEST_BLOB, PCRYPT_DIGEST_BLOB structure pointer [Security], PCRYPT_HASH_BLOB, PCRYPT_HASH_BLOB structure pointer [Security], PCRYPT_INTEGER_BLOB, PCRYPT_INTEGER_BLOB structure pointer [Security], PCRYPT_OBJID_BLOB, PCRYPT_OBJID_BLOB structure pointer [Security], PCRYPT_UINT_BLOB, PCRYPT_UINT_BLOB structure pointer [Security], PDATA_BLOB, PDATA_BLOB structure pointer [Security], _CRYPTOAPI_BLOB, _crypto2_cryptoapi_blob, dpapi/CERT_BLOB, dpapi/CERT_NAME_BLOB, dpapi/CERT_RDN_VALUE_BLOB, dpapi/CRL_BLOB, dpapi/CRYPTOAPI_BLOB, dpapi/CRYPT_ATTR_BLOB, dpapi/CRYPT_DATA_BLOB, dpapi/CRYPT_DER_BLOB, dpapi/CRYPT_DIGEST_BLOB, dpapi/CRYPT_HASH_BLOB, dpapi/CRYPT_OBJID_BLOB, dpapi/CRYPT_UINT_BLOB, dpapi/DATA_BLOB, dpapi/PCERT_BLOB, dpapi/PCERT_NAME_BLOB, dpapi/PCERT_RDN_VALUE_BLOB, dpapi/PCRL_BLOB, dpapi/PCRYPT_ATTR_BLOB, dpapi/PCRYPT_DATA_BLOB, dpapi/PCRYPT_DER_BLOB, dpapi/PCRYPT_DIGEST_BLOB, dpapi/PCRYPT_HASH_BLOB, dpapi/PCRYPT_INTEGER_BLOB, dpapi/PCRYPT_OBJID_BLOB, dpapi/PCRYPT_UINT_BLOB, dpapi/PDATA_BLOB, security.cryptoapi_blob"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_INTEGER_BLOB, *PCRYPT_INTEGER_BLOB, CRYPT_UINT_BLOB, *PCRYPT_UINT_BLOB, CRYPT_OBJID_BLOB, *PCRYPT_OBJID_BLOB, CERT_NAME_BLOB, *PCERT_NAME_BLOB, CERT_RDN_VALUE_BLOB, *PCERT_RDN_VALUE_BLOB, CERT_BLOB, *PCERT_BLOB, CRL_BLOB, *PCRL_BLOB, DATA_BLOB, *PDATA_BLOB, CRYPT_DATA_BLOB, *PCRYPT_DATA_BLOB, CRYPT_HASH_BLOB, *PCRYPT_HASH_BLOB, CRYPT_DIGEST_BLOB, *PCRYPT_DIGEST_BLOB, CRYPT_DER_BLOB, *PCRYPT_DER_BLOB, CRYPT_ATTR_BLOB, *PCRYPT_ATTR_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_INTEGER_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_INTEGER_BLOB, *PCRYPT_INTEGER_BLOB, CRYPT_UINT_BLOB, *PCRYPT_UINT_BLOB, CRYPT_OBJID_BLOB, *PCRYPT_OBJID_BLOB, CERT_NAME_BLOB, *PCERT_NAME_BLOB, CERT_RDN_VALUE_BLOB, *PCERT_RDN_VALUE_BLOB, CERT_BLOB, *PCERT_BLOB, CRL_BLOB, *PCRL_BLOB, DATA_BLOB, *PDATA_BLOB, CRYPT_DATA_BLOB, *PCRYPT_DATA_BLOB, CRYPT_HASH_BLOB, *PCRYPT_HASH_BLOB, CRYPT_DIGEST_BLOB, *PCRYPT_DIGEST_BLOB, CRYPT_DER_BLOB, *PCRYPT_DER_BLOB, CRYPT_ATTR_BLOB, *PCRYPT_ATTR_BLOB
+req.redist: 
 ---
 
 # _CRYPTOAPI_BLOB structure

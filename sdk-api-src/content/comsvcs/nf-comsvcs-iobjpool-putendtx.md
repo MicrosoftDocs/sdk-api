@@ -4,17 +4,16 @@ title: IObjPool::PutEndTx
 author: windows-sdk-content
 description: Destroys the pooled object when the transaction ends.
 old-location: cos\iobjpool_putendtx.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 24a80209-6ed8-426e-a645-463393a3a37e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IObjPool interface [COM+],PutEndTx method, IObjPool.PutEndTx, IObjPool::PutEndTx, PutEndTx, PutEndTx method [COM+], PutEndTx method [COM+],IObjPool interface, _cos_IObjPool_PutEndTx, comsvcs/IObjPool::PutEndTx, cos.iobjpool_putendtx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjPool.PutEndTx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjPool::PutEndTx

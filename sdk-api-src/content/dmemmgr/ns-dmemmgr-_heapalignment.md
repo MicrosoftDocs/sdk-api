@@ -4,7 +4,7 @@ title: "_HEAPALIGNMENT"
 author: windows-sdk-content
 description: The HEAPALIGNMENT structure contains data specifying the alignment requirements for a given display memory heap.
 old-location: display\heapalignment.htm
-old-project: display
+tech.root: display
 ms.assetid: 546029c7-c92e-4940-841f-235c7dc50e8e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dmemmgr.h
 req.include-header: Dmemmgr.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HEAPALIGNMENT, *LPHEAPALIGNMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - HEAPALIGNMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: HEAPALIGNMENT, *LPHEAPALIGNMENT
+req.redist: 
 ---
 
 # _HEAPALIGNMENT structure

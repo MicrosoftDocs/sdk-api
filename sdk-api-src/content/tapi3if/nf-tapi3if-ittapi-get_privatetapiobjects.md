@@ -4,17 +4,16 @@ title: ITTAPI::get_PrivateTAPIObjects
 author: windows-sdk-content
 description: The get_PrivateTAPIObjects method of the ITTAPI interface is not implemented and will return E_NOTIMPL.
 old-location: tapi3\ittapi_get_privatetapiobjects.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: a196e6cc-d8a3-49a2-8bda-e99675806dd7
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_PrivateTAPIObjects method, ITTAPI.get_PrivateTAPIObjects, ITTAPI::get_PrivateTAPIObjects, _tapi3_ittapi_get_privatetapiobjects, get_PrivateTAPIObjects, get_PrivateTAPIObjects method [TAPI 2.2], get_PrivateTAPIObjects method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_privatetapiobjects, tapi3if/ITTAPI::get_PrivateTAPIObjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPI.get_PrivateTAPIObjects
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPI::get_PrivateTAPIObjects

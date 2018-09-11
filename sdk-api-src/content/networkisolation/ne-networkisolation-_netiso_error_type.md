@@ -4,7 +4,7 @@ title: "_NETISO_ERROR_TYPE"
 author: windows-sdk-content
 description: Specifies the type of error related to a network isolation operation.
 old-location: ics\netiso_error_type.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 0daa9d07-8a65-4254-b197-a37e6e04ce32
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: networkisolation.h
 req.include-header: Netfw.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NETISO_ERROR_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NETISO_ERROR_TYPE
+req.redist: 
 ---
 
 # _NETISO_ERROR_TYPE enumeration

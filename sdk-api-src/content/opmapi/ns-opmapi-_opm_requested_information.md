@@ -4,7 +4,7 @@ title: "_OPM_REQUESTED_INFORMATION"
 author: windows-sdk-content
 description: Contains the result of an Output Protection Manager (OPM) status request.
 old-location: mf\opm_requested_information.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 84ffa808-1bdb-47c8-a18c-6dfa6fcf90de
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: Opmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_REQUESTED_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPM_REQUESTED_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OPM_REQUESTED_INFORMATION
+req.redist: 
 ---
 
 # _OPM_REQUESTED_INFORMATION structure

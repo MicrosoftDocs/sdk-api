@@ -4,17 +4,16 @@ title: ITextDocument2::GetTypographyOptions
 author: windows-sdk-content
 description: Gets the typography options.
 old-location: controls\itextdocument2_gettypographyoptions.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 3433954c-818b-4811-9e38-4bc8ab3ee7f9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTypographyOptions, GetTypographyOptions method [Windows Controls], GetTypographyOptions method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetTypographyOptions method, ITextDocument2.GetTypographyOptions, ITextDocument2::GetTypographyOptions, TO_ADVANCEDTYPOGRAPHY, TO_SIMPLELINEBREAK, controls.itextdocument2_gettypographyoptions, tom/ITextDocument2::GetTypographyOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextDocument2.GetTypographyOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextDocument2::GetTypographyOptions

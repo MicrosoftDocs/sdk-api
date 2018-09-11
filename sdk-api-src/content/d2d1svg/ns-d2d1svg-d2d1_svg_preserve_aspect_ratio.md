@@ -4,7 +4,7 @@ title: D2D1_SVG_PRESERVE_ASPECT_RATIO
 author: windows-sdk-content
 description: Represents all SVG preserveAspectRatio settings.
 old-location: direct2d\d2d1_svg_preserve_aspect_ratio.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 3DA4DEBF-ACCE-4F43-9C75-DF32A2F88ACD
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_PRESERVE_ASPECT_RATIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_SVG_PRESERVE_ASPECT_RATIO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_SVG_PRESERVE_ASPECT_RATIO
+req.redist: 
 ---
 
 # D2D1_SVG_PRESERVE_ASPECT_RATIO structure

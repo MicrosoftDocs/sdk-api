@@ -4,17 +4,16 @@ title: IValueMap::get_Count
 author: windows-sdk-content
 description: Retrieves the number of items in the collection.
 old-location: pla\ivaluemap_count.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 990b48d8-357f-4157-a3d2-1ea1c80e1887
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Count property [PLA], Count property [PLA],IValueMap interface, IValueMap interface [PLA],Count property, IValueMap.Count, IValueMap.get_Count, IValueMap::Count, IValueMap::get_Count, base.ivaluemap_count, get_Count, pla.ivaluemap_count, pla/IValueMap::Count, pla/IValueMap::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IValueMap.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IValueMap::get_Count

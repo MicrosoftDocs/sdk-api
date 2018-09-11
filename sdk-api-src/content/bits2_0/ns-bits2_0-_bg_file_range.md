@@ -4,7 +4,7 @@ title: "_BG_FILE_RANGE"
 author: windows-sdk-content
 description: The BG_FILE_RANGE structure identifies a range of bytes to download from a file.
 old-location: bits\bg_file_range.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 4ed20321-fb89-410b-906e-9f2c4366645a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits2_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2,KB842773 on   Windows Server 2003 and  Windows XP
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_FILE_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BG_FILE_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BG_FILE_RANGE
+req.redist: 
 ---
 
 # _BG_FILE_RANGE structure

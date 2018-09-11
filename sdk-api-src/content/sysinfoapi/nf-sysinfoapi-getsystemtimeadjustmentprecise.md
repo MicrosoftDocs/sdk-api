@@ -4,17 +4,16 @@ title: GetSystemTimeAdjustmentPrecise function
 author: windows-sdk-content
 description: Determines whether the system is applying periodic, programmed time adjustments to its time-of-day clock, and obtains the value and period of any such adjustments.
 old-location: base\getsystemtimeadjustmentprecise.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 95EEE23D-01D8-49E1-BA64-49C07E8B1619
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetSystemTimeAdjustmentPrecise, GetSystemTimeAdjustmentPrecise function, base.getsystemtimeadjustmentprecise, sysinfoapi/GetSystemTimeAdjustmentPrecise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Mincore.lib
+req.dll: Api-ms-win-core-version-l1-2-3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetSystemTimeAdjustmentPrecise
 product: Windows
 targetos: Windows
-req.lib: Mincore.lib
-req.dll: Api-ms-win-core-version-l1-2-3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # GetSystemTimeAdjustmentPrecise function

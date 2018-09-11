@@ -4,17 +4,16 @@ title: "_RTM_ENTITY_EXPORT_METHODS"
 author: windows-sdk-content
 description: The RTM_ENTITY_EXPORT_METHODS structure contains the set of methods exported by a client.
 old-location: rras\rtm_entity_export_methods.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 8198cfad-9188-4f49-92ab-1750ec16aec4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRTM_ENTITY_EXPORT_METHODS, PRTM_ENTITY_EXPORT_METHODS, PRTM_ENTITY_EXPORT_METHODS structure pointer [RAS], RTM_ENTITY_EXPORT_METHODS, RTM_ENTITY_EXPORT_METHODS structure [RAS], _RTM_ENTITY_EXPORT_METHODS, _rtmv2ref_rtm_entity_export_methods, rras.rtm_entity_export_methods, rtmv2/PRTM_ENTITY_EXPORT_METHODS, rtmv2/RTM_ENTITY_EXPORT_METHODS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_ENTITY_EXPORT_METHODS, *PRTM_ENTITY_EXPORT_METHODS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTM_ENTITY_EXPORT_METHODS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RTM_ENTITY_EXPORT_METHODS, *PRTM_ENTITY_EXPORT_METHODS
+req.redist: 
 ---
 
 # _RTM_ENTITY_EXPORT_METHODS structure

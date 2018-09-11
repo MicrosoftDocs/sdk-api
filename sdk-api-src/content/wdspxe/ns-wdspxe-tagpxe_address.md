@@ -4,17 +4,16 @@ title: tagPXE_ADDRESS
 author: windows-sdk-content
 description: Specifies the network address for a packet.
 old-location: wds\pxe_address.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: ee961e38-331c-4da0-80d1-68d5503f07ea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPXE_ADDRESS, PPXE_ADDRESS, PPXE_ADDRESS structure pointer [Windows Deployment Services], PXE_ADDRESS, PXE_ADDRESS structure [Windows Deployment Services], PXE_ADDR_BROADCAST, PXE_ADDR_USE_ADDR, PXE_ADDR_USE_DHCP_RULES, PXE_ADDR_USE_PORT, tagPXE_ADDRESS, wds.pxe_address, wdspxe/PPXE_ADDRESS, wdspxe/PXE_ADDRESS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wdspxe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PXE_ADDRESS, *PPXE_ADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PXE_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PXE_ADDRESS, *PPXE_ADDRESS
+req.redist: 
 ---
 
 # tagPXE_ADDRESS structure

@@ -4,17 +4,16 @@ title: PdhSetQueryTimeRange function
 author: windows-sdk-content
 description: Limits the samples that you can read from a log file to those within the specified time range, inclusively.
 old-location: perf\pdhsetquerytimerange.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: ed0e100e-9f82-48c0-b4bb-72820c5eeaa8
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PdhSetQueryTimeRange, PdhSetQueryTimeRange function [Perf], _win32_pdhsetquerytimerange, base.pdhsetquerytimerange, pdh/PdhSetQueryTimeRange, perf.pdhsetquerytimerange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PdhSetQueryTimeRange
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhSetQueryTimeRange function

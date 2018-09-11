@@ -4,17 +4,16 @@ title: IMFMediaEngineSrcElementsEx::AddElementEx
 author: windows-sdk-content
 description: Provides an enhanced version of IMFMediaEngineSrcElements::AddElement to add the key system intended to be used with content to an element.
 old-location: mf\imfmediaenginesrcelementsex_addelementex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ad799c61-3ffb-4879-a875-d218c0b56e1c
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: AddElementEx, AddElementEx method [Media Foundation], AddElementEx method [Media Foundation],IMFMediaEngineSrcElementsEx interface, IMFMediaEngineSrcElementsEx interface [Media Foundation],AddElementEx method, IMFMediaEngineSrcElementsEx.AddElementEx, IMFMediaEngineSrcElementsEx::AddElementEx, mf.imfmediaenginesrcelementsex_addelementex, mfmediaengine/IMFMediaEngineSrcElementsEx::AddElementEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineSrcElementsEx.AddElementEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineSrcElementsEx::AddElementEx

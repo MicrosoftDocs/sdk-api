@@ -4,17 +4,16 @@ title: IMSVidRect::put_Left
 author: windows-sdk-content
 description: The put_Left method specifies the left x-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_put_left.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 8e61fd8a-9ea0-48c1-8749-780b0363c12d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Left method, IMSVidRect.put_Left, IMSVidRect::put_Left, IMSVidRectput_Left, mstv.imsvidrect_put_left, put_Left, put_Left method [Microsoft TV Technologies], put_Left method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Left
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidRect.put_Left
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidRect::put_Left

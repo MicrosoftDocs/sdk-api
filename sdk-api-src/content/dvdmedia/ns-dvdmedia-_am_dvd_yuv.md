@@ -4,7 +4,7 @@ title: "_AM_DVD_YUV"
 author: windows-sdk-content
 description: Contains DVD YUV subpicture data.
 old-location: dshow\am_dvd_yuv.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fb954bc2-4ef1-4a5f-b795-a3b2a8aae8d4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVD_YUV, *PAM_DVD_YUV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_DVD_YUV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: AM_DVD_YUV, *PAM_DVD_YUV
+req.redist: 
 ---
 
 # _AM_DVD_YUV structure

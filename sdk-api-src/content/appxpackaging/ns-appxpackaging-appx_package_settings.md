@@ -4,7 +4,7 @@ title: APPX_PACKAGE_SETTINGS
 author: windows-sdk-content
 description: Represents package settings used to create a package.
 old-location: appxpkg\appx_package_settings.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 85874BCD-44EF-4442-96B8-F22AC4247DB4
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_SETTINGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APPX_PACKAGE_SETTINGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: APPX_PACKAGE_SETTINGS
+req.redist: 
 ---
 
 # APPX_PACKAGE_SETTINGS structure

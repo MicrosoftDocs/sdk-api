@@ -4,17 +4,16 @@ title: SVUIA_STATUS
 author: windows-sdk-content
 description: Used with the IBrowserService2::_UIActivateView method to set the state of a browser view.
 old-location: shell\SVUIA_STATUS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 04cb4259-4d16-44d0-8186-bce21ceab887
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SVUIA_ACTIVATE_FOCUS, SVUIA_ACTIVATE_NOFOCUS, SVUIA_DEACTIVATE, SVUIA_INPLACEACTIVATE, SVUIA_STATUS, SVUIA_STATUS enumeration [Windows Shell], _win32_SVUIA_STATUS, shell.SVUIA_STATUS, shobjidl_core/SVUIA_ACTIVATE_FOCUS, shobjidl_core/SVUIA_ACTIVATE_NOFOCUS, shobjidl_core/SVUIA_DEACTIVATE, shobjidl_core/SVUIA_INPLACEACTIVATE, shobjidl_core/SVUIA_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SVUIA_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SVUIA_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: SVUIA_STATUS
+req.redist: 
 ---
 
 # SVUIA_STATUS enumeration

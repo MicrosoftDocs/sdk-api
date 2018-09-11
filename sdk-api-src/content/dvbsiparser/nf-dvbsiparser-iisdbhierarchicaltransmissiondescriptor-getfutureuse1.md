@@ -4,17 +4,16 @@ title: IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1
 author: windows-sdk-content
 description: Gets the value of the 7-bit reserved_future_use field from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getfutureuse1.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 853885cf-36cc-402a-96a8-bc44701fc0a4
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetFutureUse1, GetFutureUse1 method [Microsoft TV Technologies], GetFutureUse1 method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetFutureUse1 method, IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1, IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1, mstv.iisdbhierarchicaltransmissiondescriptor_getfutureuse1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1

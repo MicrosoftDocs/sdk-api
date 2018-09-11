@@ -4,17 +4,16 @@ title: IAppxBlockMapReader::GetHashMethod
 author: windows-sdk-content
 description: Retrieves the URI for the hash algorithm used to create block hashes in the block map.
 old-location: appxpkg\iappxblockmapreader_gethashmethod.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 661E4F12-E426-4811-81FA-4F065C6E488A
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetHashMethod, GetHashMethod method [App packaging and management], GetHashMethod method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetHashMethod method, IAppxBlockMapReader.GetHashMethod, IAppxBlockMapReader::GetHashMethod, appxpackaging/IAppxBlockMapReader::GetHashMethod, appxpkg.iappxblockmapreader_gethashmethod
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBlockMapReader.GetHashMethod
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBlockMapReader::GetHashMethod

@@ -4,17 +4,16 @@ title: IAzRole::get_Tasks
 author: windows-sdk-content
 description: Retrieves the tasks associated with the role.
 old-location: security\iazrole_tasks.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 60342e8f-1947-4949-b25e-01db473712ac
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzRole object [Security],Tasks property, IAzRole interface [Security],Tasks property, IAzRole.Tasks, IAzRole.get_Tasks, IAzRole::Tasks, IAzRole::get_Tasks, Tasks property [Security], Tasks property [Security],AzRole object, Tasks property [Security],IAzRole interface, azroles/IAzRole::Tasks, azroles/IAzRole::get_Tasks, get_Tasks, security.iazrole_tasks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzRole.Tasks
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzRole::get_Tasks

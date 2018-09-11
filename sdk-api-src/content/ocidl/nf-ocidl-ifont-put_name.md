@@ -4,17 +4,16 @@ title: IFont::put_Name
 author: windows-sdk-content
 description: Specifies a new name for the font family.
 old-location: com\ifont_put_name.htm
-old-project: com
+tech.root: com
 ms.assetid: 3593d5c9-e2b7-4d85-b8f7-94f01a901030
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IFont interface [COM],put_Name method, IFont.put_Name, IFont::put_Name, _ctrl_ifont_put_name, com.ifont_put_name, ocidl/IFont::put_Name, put_Name, put_Name method [COM], put_Name method [COM],IFont interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFont.put_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFont::put_Name

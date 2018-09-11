@@ -4,17 +4,16 @@ title: IDot11AdHocInterface::GetActiveNetwork
 author: windows-sdk-content
 description: Gets the network that is currently active on the interface.
 old-location: nwifi\idot11adhocinterface_getactivenetwork.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: aefe605a-720d-40da-8d0f-b1d5dd5b306e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetActiveNetwork, GetActiveNetwork method [NativeWIFI], GetActiveNetwork method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetActiveNetwork method, IDot11AdHocInterface.GetActiveNetwork, IDot11AdHocInterface::GetActiveNetwork, adhoc/IDot11AdHocInterface::GetActiveNetwork, nwifi.idot11adhocinterface_getactivenetwork
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocInterface.GetActiveNetwork
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocInterface::GetActiveNetwork

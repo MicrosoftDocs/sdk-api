@@ -4,7 +4,7 @@ title: D3D11_MESSAGE_ID
 author: windows-sdk-content
 description: Debug messages for setting up an info-queue filter (see D3D11_INFO_QUEUE_FILTER); use these messages to allow or deny message categories to pass through the storage and retrieval filters.
 old-location: direct3d11\d3d11_message_id.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 50dde92d-9856-4010-8848-485a8d92b145
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_MESSAGE_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_MESSAGE_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_MESSAGE_ID
+req.redist: 
 ---
 
 # D3D11_MESSAGE_ID enumeration

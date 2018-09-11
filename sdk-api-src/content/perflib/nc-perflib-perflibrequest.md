@@ -4,7 +4,7 @@ title: PERFLIBREQUEST
 author: windows-sdk-content
 description: Providers can implement this function to receive notification when consumers perform certain actions, such as adding or removing counters from a query.
 old-location: perf\controlcallback_perflibv2.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 0f771ab7-af42-481b-b2da-20dcdf49b82b
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ControlCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PERFLIBREQUEST callback function

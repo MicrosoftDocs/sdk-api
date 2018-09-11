@@ -4,17 +4,16 @@ title: GetDriveTypeW function
 author: windows-sdk-content
 description: Determines whether a disk drive is a removable, fixed, CD-ROM, RAM disk, or network drive.
 old-location: fs\getdrivetype.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: b3989a3f-fc90-4ea0-8d3e-8e57068a08bc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDriveType, GetDriveType function [Files], GetDriveTypeA, GetDriveTypeW, _win32_getdrivetype, base.getdrivetype, fileapi/GetDriveType, fileapi/GetDriveTypeA, fileapi/GetDriveTypeW, fs.getdrivetype, winbase/GetDriveType, winbase/GetDriveTypeA, winbase/GetDriveTypeW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - GetDriveTypeW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # GetDriveTypeW function

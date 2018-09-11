@@ -4,17 +4,16 @@ title: IDataCollector::get_Xml
 author: windows-sdk-content
 description: Retrieves an XML string that describes the values of the data collector properties.
 old-location: pla\idatacollector_xml.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: c362cd5f-2db3-40ad-8f5e-e75a40db204c
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollector interface [PLA],Xml property, IDataCollector.Xml, IDataCollector.get_Xml, IDataCollector::Xml, IDataCollector::get_Xml, Xml property [PLA], Xml property [PLA],IDataCollector interface, base.idatacollector_xml, get_Xml, pla.idatacollector_xml, pla/IDataCollector::Xml, pla/IDataCollector::get_Xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDataCollector.get_Xml
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollector::get_Xml

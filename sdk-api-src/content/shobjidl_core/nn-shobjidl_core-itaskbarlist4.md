@@ -4,17 +4,16 @@ title: ITaskbarList4
 author: windows-sdk-content
 description: Extends ITaskbarList3 by providing a method that allows the caller to control two property values for the tab thumbnail and peek feature.
 old-location: shell\ITaskbarList4.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7fc2c615-0bb0-4c03-9775-eee566c71088
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITaskbarList4, ITaskbarList4 interface [Windows Shell], ITaskbarList4 interface [Windows Shell],described, _shell_ITaskbarList4, shell.ITaskbarList4, shobjidl_core/ITaskbarList4
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Explorerframe.lib
+req.dll: Explorerframe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskbarList4
 product: Windows
 targetos: Windows
-req.lib: Explorerframe.lib
-req.dll: Explorerframe.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskbarList4 interface

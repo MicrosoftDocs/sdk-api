@@ -4,17 +4,16 @@ title: capSetScrollPos macro
 author: windows-sdk-content
 description: The capSetScrollPos macro defines the portion of the video frame to display in the capture window.
 old-location: multimedia\capsetscrollpos.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: a5af0d75-ae9f-41f2-90cb-8ede7c2f454a
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capSetScrollPos, capSetScrollPos, capSetScrollPos macro [Windows Multimedia], multimedia.capsetscrollpos, vfw/capSetScrollPos"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capSetScrollPos
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capSetScrollPos macro

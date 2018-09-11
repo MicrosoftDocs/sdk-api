@@ -4,17 +4,16 @@ title: IMFSensorGroup::GetFlags
 author: windows-sdk-content
 description: Gets the flags set for the sensor group.
 old-location: mf\imfsensorgroup_getflags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 99143CFD-930A-405C-A8FB-8DBF52CD9BB5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetFlags method, IMFSensorGroup.GetFlags, IMFSensorGroup::GetFlags, mf.imfsensorgroup_getflags, mfidl/IMFSensorGroup::GetFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorGroup.GetFlags
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorGroup::GetFlags

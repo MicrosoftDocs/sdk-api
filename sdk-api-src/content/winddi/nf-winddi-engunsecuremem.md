@@ -4,17 +4,16 @@ title: EngUnsecureMem function
 author: windows-sdk-content
 description: The EngUnsecureMem function unlocks an address range that is locked down in memory.
 old-location: display\engunsecuremem.htm
-old-project: display
+tech.root: display
 ms.assetid: ceb011cf-7c4c-4f28-a805-9554c0597063
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngUnsecureMem, EngUnsecureMem function [Display Devices], display.engunsecuremem, gdifncs_3e27ea5f-a5a9-40c8-8540-79499664f97d.xml, winddi/EngUnsecureMem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngUnsecureMem
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngUnsecureMem function

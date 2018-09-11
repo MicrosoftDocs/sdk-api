@@ -4,7 +4,7 @@ title: "_MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS"
 author: windows-sdk-content
 description: Contains parameters for the IMFInputTrustAuthority::BindAccess or IMFInputTrustAuthority::UpdateAccess method.
 old-location: mf\mfinputtrustauthority_access_params.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5ff3ec3a-a7b1-4378-8e8b-d59a6f5bb28d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
+req.redist: 
 ---
 
 # _MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS structure

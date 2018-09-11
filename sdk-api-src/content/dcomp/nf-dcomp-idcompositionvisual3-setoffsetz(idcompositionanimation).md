@@ -4,17 +4,16 @@ title: IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of OffsetZ property.
 old-location: directcomp\idcompositionvisual3_setoffsetz.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 21408127-9A6E-410B-BB75-759D9384DE4F
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetOffsetZ method, IDCompositionVisual3.SetOffsetZ, IDCompositionVisual3.SetOffsetZ(IDCompositionAnimation), IDCompositionVisual3::SetOffsetZ, IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation), IDCompositionVisual3::SetOffsetZ(float), SetOffsetZ, SetOffsetZ method [DirectComposition], SetOffsetZ method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetOffsetZ, directcomp.idcompositionvisual3_setoffsetz
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionVisual3.SetOffsetZ
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Changes the value of OffsetZ property.
 
 ### -param animation
 
-
+TBD
 
 
 

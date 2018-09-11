@@ -4,17 +4,16 @@ title: ResUtilGetResourceDependencyEx function
 author: windows-sdk-content
 description: Enumerates the dependencies of a specified resource and returns a handle to a dependency of a specified type. The PRESUTIL_GET_RESOURCE_DEPENDENCY_EX type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependencyex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 8F5BB021-83FB-44CD-94B4-33FC8E398C5B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_EX, PRESUTIL_GET_RESOURCE_DEPENDENCY_EX function [Failover Cluster], ResUtilGetResourceDependencyEx, ResUtilGetResourceDependencyEx function [Failover Cluster], mscs.resutilgetresourcedependencyex, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_EX, resapi/ResUtilGetResourceDependencyEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilGetResourceDependencyEx
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilGetResourceDependencyEx function

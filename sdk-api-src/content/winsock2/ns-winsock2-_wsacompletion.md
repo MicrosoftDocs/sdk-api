@@ -4,17 +4,16 @@ title: "_WSACOMPLETION"
 author: windows-sdk-content
 description: Specifies completion notification settings for I/O control calls made to a registered namespace.
 old-location: winsock\wsacompletion.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 5af4b4d1-6dcb-4fc8-a730-53a8cb92fee4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSACOMPLETION, *PWSACOMPLETION, WSACOMPLETION, WSACOMPLETION structure [Winsock], _WSACOMPLETION, winsock.wsacompletion, winsock2/WSACOMPLETION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSACOMPLETION, *PWSACOMPLETION, *LPWSACOMPLETION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSACOMPLETION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSACOMPLETION, *PWSACOMPLETION, *LPWSACOMPLETION
+req.redist: 
 ---
 
 # _WSACOMPLETION structure

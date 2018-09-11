@@ -4,17 +4,16 @@ title: IEventSystem::RemoveS
 author: windows-sdk-content
 description: Removes one or more subscription or event objects from the event data store.
 old-location: cos\ieventsystem_removes.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6c3d2972-bfc4-43f2-a131-f3b3010a3c91
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEventSystem interface [COM+],RemoveS method, IEventSystem.RemoveS, IEventSystem::RemoveS, RemoveS, RemoveS method [COM+], RemoveS method [COM+],IEventSystem interface, _cos_IEventSystem_RemoveS, cos.ieventsystem_removes, eventsys/IEventSystem::RemoveS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventSystem.RemoveS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventSystem::RemoveS

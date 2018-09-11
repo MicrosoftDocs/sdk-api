@@ -4,17 +4,16 @@ title: RpcNsEntryExpandNameA function
 author: windows-sdk-content
 description: The RpcNsEntryExpandName function expands a name-service entry name. This function is supported by Active Directory.
 old-location: rpc\rpcnsentryexpandname.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: a93052c2-3fb1-448a-b4bf-70b9676de69a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcNsEntryExpandName, RpcNsEntryExpandName function [RPC], RpcNsEntryExpandNameA, RpcNsEntryExpandNameW, _rpc_rpcnsentryexpandname, rpc.rpcnsentryexpandname, rpcnsi/RpcNsEntryExpandName, rpcnsi/RpcNsEntryExpandNameA, rpcnsi/RpcNsEntryExpandNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcNsEntryExpandNameW
 product: Windows
 targetos: Windows
-req.lib: Rpcns4.lib
-req.dll: Rpcns4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsEntryExpandNameA function

@@ -4,17 +4,16 @@ title: MBN_CELLULAR_CLASS
 author: windows-sdk-content
 description: The MBN_CELLULAR_CLASS enumerated type defines the type of cellular device.
 old-location: mbn\mbn_cellular_class.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 2d75c20b-1ae4-4824-8918-41c20327a007
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_CELLULAR_CLASS, MBN_CELLULAR_CLASS enumeration [Microsoft Broadband Networks], MBN_CELLULAR_CLASS_CDMA, MBN_CELLULAR_CLASS_GSM, MBN_CELLULAR_CLASS_NONE, mbn.mbn_cellular_class, mbnapi/MBN_CELLULAR_CLASS, mbnapi/MBN_CELLULAR_CLASS_CDMA, mbnapi/MBN_CELLULAR_CLASS_GSM, mbnapi/MBN_CELLULAR_CLASS_NONE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_CELLULAR_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_CELLULAR_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_CELLULAR_CLASS
+req.redist: 
 ---
 
 # MBN_CELLULAR_CLASS enumeration

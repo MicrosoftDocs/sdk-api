@@ -4,17 +4,16 @@ title: MiniDumpReadDumpStream function
 author: windows-sdk-content
 description: Reads a stream from a user-mode minidump file.
 old-location: base\minidumpreaddumpstream.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 56df69aa-55b6-451b-a003-3ee88dc934f9
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: MiniDumpReadDumpStream, MiniDumpReadDumpStream function, _win32_minidumpreaddumpstream, base.minidumpreaddumpstream, minidumpapiset/MiniDumpReadDumpStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
-req.redist: DbgHelp.dll and Dbgcore.dll
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THREAD_WRITE_FLAGS
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll; Dbgcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - MiniDumpReadDumpStream
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll; Dbgcore.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: DbgHelp.dll and Dbgcore.dll
 ---
 
 # MiniDumpReadDumpStream function

@@ -4,17 +4,16 @@ title: ICOMAdminCatalog::BackupREGDB
 author: windows-sdk-content
 description: Backs up the COM+ class registration database to a specified file.
 old-location: cos\icomadmincatalog_backupregdb.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: dd350abd-3b59-4a5d-b2e4-1ddeec2b1953
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BackupREGDB, BackupREGDB method [COM+], BackupREGDB method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],BackupREGDB method, ICOMAdminCatalog.BackupREGDB, ICOMAdminCatalog::BackupREGDB, _cos_ICOMAdminCatalog_BackupREGDB, comadmin/ICOMAdminCatalog::BackupREGDB, cos.icomadmincatalog_backupregdb
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog.BackupREGDB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog::BackupREGDB

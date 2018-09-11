@@ -4,17 +4,16 @@ title: MIMEAssociationDialogW function
 author: windows-sdk-content
 description: Runs the unregistered MIME content type dialog box.Note  Windows XP Service Pack 2 (SP2) or later:\_This function is no longer supported.
 old-location: shell\MIMEAssociationDialog.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0f8ee95a-3f95-47ee-822b-740ba134cd3c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: MIMEAssociationDialog, MIMEAssociationDialog function [Windows Shell], MIMEAssociationDialogA, MIMEAssociationDialogW, _win32_MIMEAssociationDialog, intshcut/MIMEAssociationDialog, intshcut/MIMEAssociationDialogA, intshcut/MIMEAssociationDialogW, shell.MIMEAssociationDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intshcut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
+req.lib: 
+req.dll: Url.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MIMEAssociationDialogW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Url.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MIMEAssociationDialogW function

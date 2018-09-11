@@ -4,17 +4,16 @@ title: ITypeComp::BindType
 author: windows-sdk-content
 description: Binds to the type descriptions contained within a type library.
 old-location: automat\itypecomp_bindtype.htm
-old-project: automat
+tech.root: automat
 ms.assetid: e1b6eb9c-aa5a-41b9-bc97-afa82206ccef
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BindType, BindType method [Automation], BindType method [Automation],ITypeComp interface, ITypeComp interface [Automation],BindType method, ITypeComp.BindType, ITypeComp::BindType, _oa96_ITypeComp_BindType, automat.itypecomp_bindtype, oaidl/ITypeComp::BindType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeComp.BindType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeComp::BindType

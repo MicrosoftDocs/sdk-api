@@ -4,17 +4,16 @@ title: IMPEG2TuneRequest::put_ProgNo
 author: windows-sdk-content
 description: The put_ProgNo method sets the program number ID.
 old-location: mstv\impeg2tunerequest_put_progno.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 08fc9cc1-52b7-4782-96a1-af00a76ff6c6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],put_ProgNo method, IMPEG2TuneRequest.put_ProgNo, IMPEG2TuneRequest::put_ProgNo, IMPEG2TuneRequestput_ProgNo, mstv.impeg2tunerequest_put_progno, put_ProgNo, put_ProgNo method [Microsoft TV Technologies], put_ProgNo method [Microsoft TV Technologies],IMPEG2TuneRequest interface, tuner/IMPEG2TuneRequest::put_ProgNo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMPEG2TuneRequest.put_ProgNo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2TuneRequest::put_ProgNo

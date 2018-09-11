@@ -4,7 +4,7 @@ title: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
 author: windows-sdk-content
 description: Specifies the type of process that is identified in the D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT structure.
 old-location: mf\d3d11_authenticated_process_identifier_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: A8FFBBF1-7893-4D42-A8FB-1B7E56834603
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
+req.redist: 
 ---
 
 # D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE enumeration

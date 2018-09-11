@@ -4,17 +4,16 @@ title: EnumDateFormatsExW function
 author: windows-sdk-content
 description: Enumerates the long date, short date, or year/month formats that are available for a specified locale.Note  Any application that runs only on Windows Vista and later should use EnumDateFormatsExEx in preference to this function.
 old-location: intl\enumdateformatsex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 523ef50f-722a-48b9-a2ce-20786b7c79e1
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: EnumDateFormatsEx, EnumDateFormatsEx function [Internationalization for Windows Applications], EnumDateFormatsExA, EnumDateFormatsExW, _win32_EnumDateFormatsEx, intl.enumdateformatsex, winnls/EnumDateFormatsEx, winnls/EnumDateFormatsExA, winnls/EnumDateFormatsExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - EnumDateFormatsExW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EnumDateFormatsExW function

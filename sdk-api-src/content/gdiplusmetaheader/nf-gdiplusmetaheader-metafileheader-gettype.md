@@ -4,17 +4,16 @@ title: MetafileHeader::GetType
 author: windows-sdk-content
 description: The MetafileHeader::GetType method gets the type of the associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetType_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\gettype_36.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetType, GetType method [GDI+], GetType method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetType method, MetafileHeader.GetType, MetafileHeader::GetType, _gdiplus_CLASS_MetafileHeader_GetType_, gdiplus._gdiplus_CLASS_MetafileHeader_GetType_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MetafileHeader.GetType
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

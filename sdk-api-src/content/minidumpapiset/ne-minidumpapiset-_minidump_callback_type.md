@@ -4,17 +4,16 @@ title: "_MINIDUMP_CALLBACK_TYPE"
 author: windows-sdk-content
 description: Identifies the type of information returned by the MiniDumpCallback function.
 old-location: base\minidump_callback_type.htm
-old-project: debug
+tech.root: debug
 ms.assetid: c970564d-e1f0-4317-bf66-752b98767451
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: CancelCallback, IncludeModuleCallback, IncludeThreadCallback, IncludeVmRegionCallback, IoFinishCallback, IoStartCallback, IoWriteAllCallback, IsProcessSnapshotCallback, KernelMinidumpStatusCallback, MINIDUMP_CALLBACK_TYPE, MINIDUMP_CALLBACK_TYPE enumeration, MemoryCallback, ModuleCallback, ReadMemoryFailureCallback, RemoveMemoryCallback, SecondaryFlagsCallback, ThreadCallback, ThreadExCallback, VmPostReadCallback, VmPreReadCallback, VmQueryCallback, VmStartCallback, WriteKernelMinidumpCallback, _MINIDUMP_CALLBACK_TYPE, _win32_minidump_callback_type, base.minidump_callback_type, minidumpapiset/CancelCallback, minidumpapiset/IncludeModuleCallback, minidumpapiset/IncludeThreadCallback, minidumpapiset/IncludeVmRegionCallback, minidumpapiset/IoFinishCallback, minidumpapiset/IoStartCallback, minidumpapiset/IoWriteAllCallback, minidumpapiset/IsProcessSnapshotCallback, minidumpapiset/KernelMinidumpStatusCallback, minidumpapiset/MINIDUMP_CALLBACK_TYPE, minidumpapiset/MemoryCallback, minidumpapiset/ModuleCallback, minidumpapiset/ReadMemoryFailureCallback, minidumpapiset/RemoveMemoryCallback, minidumpapiset/SecondaryFlagsCallback, minidumpapiset/ThreadCallback, minidumpapiset/ThreadExCallback, minidumpapiset/VmPostReadCallback, minidumpapiset/VmPreReadCallback, minidumpapiset/VmQueryCallback, minidumpapiset/VmStartCallback, minidumpapiset/WriteKernelMinidumpCallback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mileffects.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_CALLBACK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_CALLBACK_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_CALLBACK_TYPE
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_CALLBACK_TYPE enumeration

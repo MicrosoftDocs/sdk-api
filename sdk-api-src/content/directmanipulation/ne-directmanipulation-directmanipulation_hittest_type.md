@@ -4,7 +4,7 @@ title: DIRECTMANIPULATION_HITTEST_TYPE
 author: windows-sdk-content
 description: Defines how hit testing is handled by Direct Manipulation when using a dedicated hit-test thread registered through RegisterHitTestTarget.
 old-location: directmanipulation\directmanipulation_hittest_type.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 68e65695-9f28-4da4-9080-4030ed10c6ed
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_HITTEST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIRECTMANIPULATION_HITTEST_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIRECTMANIPULATION_HITTEST_TYPE
+req.redist: 
 ---
 
 # DIRECTMANIPULATION_HITTEST_TYPE enumeration

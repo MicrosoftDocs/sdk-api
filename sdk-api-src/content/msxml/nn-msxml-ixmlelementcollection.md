@@ -4,17 +4,16 @@ title: IXMLElementCollection
 author: windows-sdk-content
 description: Supports collection of XML elements for indexed access.
 old-location: winprog\ixmlelementcollection.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 1d27e5fc-0491-44ee-9134-40f9f909b1cb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IXMLElementCollection, IXMLElementCollection interface [Windows API], IXMLElementCollection interface [Windows API],described, msxml/IXMLElementCollection, winprog.ixmlelementcollection
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: msxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Msxml.tlb
-tech.root: 
-req.typenames: RIO_BUF, *PRIO_BUF
+req.lib: 
+req.dll: Msxml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXMLElementCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msxml.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXMLElementCollection interface

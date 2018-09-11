@@ -4,17 +4,16 @@ title: CoDecrementMTAUsage function
 author: windows-sdk-content
 description: Releases the increment made by a previous call to the CoIncrementMTAUsage function.
 old-location: com\codecrementmtausage.htm
-old-project: com
+tech.root: com
 ms.assetid: 66AA2783-7F24-41BB-911B-D452DF54C003
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoDecrementMTAUsage, CoDecrementMTAUsage function [COM], com.codecrementmtausage, combaseapi/CoDecrementMTAUsage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - CoDecrementMTAUsage
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoDecrementMTAUsage function

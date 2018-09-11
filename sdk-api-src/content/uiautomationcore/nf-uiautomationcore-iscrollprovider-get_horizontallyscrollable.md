@@ -4,17 +4,16 @@ title: IScrollProvider::get_HorizontallyScrollable
 author: windows-sdk-content
 description: Indicates whether the control can scroll horizontally.
 old-location: winauto\uiauto_IScrollProvider_HorizontallyScrollable.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: f9d073c0-b51a-4e62-ab67-872538a6a0e1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HorizontallyScrollable property [Windows Accessibility], HorizontallyScrollable property [Windows Accessibility],IScrollProvider interface, IScrollProvider interface [Windows Accessibility],HorizontallyScrollable property, IScrollProvider.HorizontallyScrollable, IScrollProvider.get_HorizontallyScrollable, IScrollProvider::HorizontallyScrollable, IScrollProvider::get_HorizontallyScrollable, get_HorizontallyScrollable, uiauto.uiauto_IScrollProvider_HorizontallyScrollable, uiauto_IScrollProvider_HorizontallyScrollable, uiautomationcore/IScrollProvider::HorizontallyScrollable, uiautomationcore/IScrollProvider::get_HorizontallyScrollable, winauto.uiauto_IScrollProvider_HorizontallyScrollable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IScrollProvider.get_HorizontallyScrollable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IScrollProvider::get_HorizontallyScrollable

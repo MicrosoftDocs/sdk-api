@@ -4,17 +4,16 @@ title: ISyncKnowledge::ConvertVersion
 author: windows-sdk-content
 description: Converts a version from another replica into one that is compatible with the replica that owns this knowledge.
 old-location: winsync\isyncknowledge_convertversion.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: f41edaa3-7c4e-4b2c-9897-474b3e7bfb67
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ConvertVersion, ConvertVersion method [Windows Sync], ConvertVersion method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ConvertVersion method, ISyncKnowledge.ConvertVersion, ISyncKnowledge::ConvertVersion, winsync.isyncknowledge_convertversion, winsync/ISyncKnowledge::ConvertVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncKnowledge.ConvertVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncKnowledge::ConvertVersion

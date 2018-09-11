@@ -4,17 +4,16 @@ title: DWRITE_GLYPH_IMAGE_DATA
 author: windows-sdk-content
 description: Data for a single glyph from GetGlyphImageData.
 old-location: directwrite\dwrite_glyph_image_data.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 4BBA8B7A-E2DA-445B-AE56-FFA7629E3D06
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_GLYPH_IMAGE_DATA, DWRITE_GLYPH_IMAGE_DATA structure [Direct Write], directwrite.dwrite_glyph_image_data, dwrite_3/DWRITE_GLYPH_IMAGE_DATA
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_GLYPH_IMAGE_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_GLYPH_IMAGE_DATA structure

@@ -4,17 +4,16 @@ title: IMDSPDevice::GetStatus
 author: windows-sdk-content
 description: The GetStatus method retrieves all the device status information that the device can provide.
 old-location: wmdm\imdspdevice_getstatus.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 76c5ee43-4d21-436e-b193-8a8e034651f0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetStatus, GetStatus method [windows Media Device Manager], GetStatus method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetStatus method, IMDSPDevice.GetStatus, IMDSPDevice::GetStatus, IMDSPDeviceGetStatus, mswmdm/IMDSPDevice::GetStatus, wmdm.imdspdevice_getstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPDevice.GetStatus
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDevice::GetStatus

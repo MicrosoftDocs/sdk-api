@@ -4,17 +4,16 @@ title: IConstructReplicaKeyMap::FindOrAddReplica
 author: windows-sdk-content
 description: Adds entries to or finds entries in an IReplicaKeyMap object.
 old-location: winsync\iconstructreplicakeymap_findoraddreplica.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 10cf616c-a082-4a74-99bb-1b0b364291e5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: FindOrAddReplica, FindOrAddReplica method [Windows Sync], FindOrAddReplica method [Windows Sync],IConstructReplicaKeyMap interface, IConstructReplicaKeyMap interface [Windows Sync],FindOrAddReplica method, IConstructReplicaKeyMap.FindOrAddReplica, IConstructReplicaKeyMap::FindOrAddReplica, winsync.iconstructreplicakeymap_findoraddreplica, winsync/IConstructReplicaKeyMap::FindOrAddReplica
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConstructReplicaKeyMap.FindOrAddReplica
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IConstructReplicaKeyMap::FindOrAddReplica

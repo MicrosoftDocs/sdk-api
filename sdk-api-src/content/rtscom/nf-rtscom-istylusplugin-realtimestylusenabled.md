@@ -4,17 +4,16 @@ title: IStylusPlugin::RealTimeStylusEnabled
 author: windows-sdk-content
 description: Notifies the implementing plug-in that the RealTimeStylus Class (RTS) object is enabled.
 old-location: tablet\istylusplugin_realtimestylusenabled.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: bd5689c1-32e2-4a37-8dd2-4525b16f4662
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],RealTimeStylusEnabled method, IStylusPlugin.RealTimeStylusEnabled, IStylusPlugin::RealTimeStylusEnabled, RealTimeStylusEnabled, RealTimeStylusEnabled method [Tablet PC], RealTimeStylusEnabled method [Tablet PC],IStylusPlugin interface, bd5689c1-32e2-4a37-8dd2-4525b16f4662, rtscom/IStylusPlugin::RealTimeStylusEnabled, tablet.istylusplugin_realtimestylusenabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStylusPlugin.RealTimeStylusEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStylusPlugin::RealTimeStylusEnabled

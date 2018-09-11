@@ -4,17 +4,16 @@ title: ITfSpeechUIServer::ShowUI
 author: windows-sdk-content
 description: ITfSpeechUIServer::ShowUI method
 old-location: tsf\itfspeechuiserver_showui.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 4491a3f0-b748-45a8-a8bd-c8fa78d49fa7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],ShowUI method, ITfSpeechUIServer.ShowUI, ITfSpeechUIServer::ShowUI, ShowUI, ShowUI method [Text Services Framework], ShowUI method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::ShowUI, tsf.itfspeechuiserver_showui
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfspui.h
 req.include-header: Ctfutb.h
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_LMLATTELEMENT
+req.lib: 
+req.dll: Sptip.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfSpeechUIServer.ShowUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sptip.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfSpeechUIServer::ShowUI

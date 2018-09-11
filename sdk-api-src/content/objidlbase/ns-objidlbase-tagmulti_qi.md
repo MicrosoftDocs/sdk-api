@@ -4,17 +4,16 @@ title: tagMULTI_QI
 author: windows-sdk-content
 description: Represents an interface in a query for multiple interfaces.
 old-location: com\multi_qi.htm
-old-project: com
+tech.root: com
 ms.assetid: 845040c9-fad4-4ac8-856d-d35edbf48ec9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MULTI_QI, MULTI_QI structure [COM], _com_MULTI_QI, com.multi_qi, objidlbase/MULTI_QI, tagMULTI_QI
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidlbase.h
 req.include-header: Objidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ObjIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MULTI_QI
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MULTI_QI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MULTI_QI
+req.redist: 
 ---
 
 # tagMULTI_QI structure

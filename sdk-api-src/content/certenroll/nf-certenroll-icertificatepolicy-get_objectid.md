@@ -4,17 +4,16 @@ title: ICertificatePolicy::get_ObjectId
 author: windows-sdk-content
 description: Retrieves an object identifier (OID) for the policy object.
 old-location: security\icertificatepolicy_objectid_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 42d1689d-c086-4d67-8e16-997ecd515ae2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertificatePolicy interface [Security],ObjectId property, ICertificatePolicy.ObjectId, ICertificatePolicy.get_ObjectId, ICertificatePolicy::ObjectId, ICertificatePolicy::get_ObjectId, ObjectId property [Security], ObjectId property [Security],ICertificatePolicy interface, certenroll/ICertificatePolicy::ObjectId, certenroll/ICertificatePolicy::get_ObjectId, get_ObjectId, security.icertificatepolicy_objectid_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertificatePolicy.get_ObjectId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificatePolicy::get_ObjectId

@@ -4,17 +4,16 @@ title: DsInheritSecurityIdentityW function
 author: windows-sdk-content
 description: Appends the objectSid and sidHistory attributes of SrcPrincipal to the sidHistory of DstPrincipal and then deletes SrcPrincipal, all in a single transaction.
 old-location: ad\dsinheritsecurityidentity.htm
-old-project: ad
+tech.root: ad
 ms.assetid: ea467069-f886-4e22-896c-16e6e01f3968
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsInheritSecurityIdentity, DsInheritSecurityIdentity function [Active Directory], DsInheritSecurityIdentityA, DsInheritSecurityIdentityW, _glines_dsinheritsecurityidentity, ad.dsinheritsecurityidentity, ntdsapi/DsInheritSecurityIdentity, ntdsapi/DsInheritSecurityIdentityA, ntdsapi/DsInheritSecurityIdentityW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsInheritSecurityIdentityW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsInheritSecurityIdentityW function

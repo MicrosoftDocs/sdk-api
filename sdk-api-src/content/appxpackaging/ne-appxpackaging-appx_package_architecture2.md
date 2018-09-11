@@ -4,7 +4,7 @@ title: APPX_PACKAGE_ARCHITECTURE2
 author: windows-sdk-content
 description: Specifies the processor architectures supported by a package.
 old-location: appxpkg\appx_package_architecture2.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 86E1C7DE-01AD-4682-89C3-20A5A699CBE7
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APPX_PACKAGE_ARCHITECTURE2
 product: Windows
 targetos: Windows
-req.lib: Appnotify.lib
-req.dll: Twinapi.core.dll
-req.irql: 
+req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.redist: 
 ---
 
 # APPX_PACKAGE_ARCHITECTURE2 enumeration

@@ -4,17 +4,16 @@ title: ID3D12DescriptorHeap::GetDesc
 author: windows-sdk-content
 description: Gets the descriptor heap description.
 old-location: direct3d12\id3d12descriptorheap_getdesc.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: DDDDA9AB-841A-41A4-806C-82A596AFDB61
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,GetDesc method, ID3D12DescriptorHeap.GetDesc, ID3D12DescriptorHeap::GetDesc, d3d12/ID3D12DescriptorHeap::GetDesc, direct3d12.id3d12descriptorheap_getdesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12DescriptorHeap.GetDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12DescriptorHeap::GetDesc

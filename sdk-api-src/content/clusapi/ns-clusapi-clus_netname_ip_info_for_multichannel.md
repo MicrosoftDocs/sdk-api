@@ -4,17 +4,16 @@ title: CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
 author: windows-sdk-content
 description: Represents IP information for a NetName resource that has Multichannel enabled.
 old-location: mscs\clus_netname_ip_info_for_multichannel.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 724FD774-00F4-4617-B761-87509AD61AF4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL structure [Failover Cluster], PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL structure pointer [Failover Cluster], clusapi/CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, clusapi/PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, mscs.clus_netname_ip_info_for_multichannel"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, *PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, *PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
+req.redist: 
 ---
 
 # CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL structure

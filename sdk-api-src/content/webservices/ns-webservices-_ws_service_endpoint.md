@@ -4,17 +4,16 @@ title: "_WS_SERVICE_ENDPOINT"
 author: windows-sdk-content
 description: Represents an individual endpoint on a service host. The properties on the endpoint are used to specify the address, binding and contract.
 old-location: wsw\ws_service_endpoint.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 6b15fc3f-5e4b-4eb3-b337-0170b0ca746f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SERVICE_ENDPOINT, WS_SERVICE_ENDPOINT structure [Web Services for Windows], _WS_SERVICE_ENDPOINT, webservices/WS_SERVICE_ENDPOINT, wsw.ws_service_endpoint
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SERVICE_ENDPOINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SERVICE_ENDPOINT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SERVICE_ENDPOINT
+req.redist: 
 ---
 
 # _WS_SERVICE_ENDPOINT structure

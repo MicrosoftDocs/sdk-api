@@ -4,17 +4,16 @@ title: IATSC_STT::GetSystemTime
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_stt_getsystemtime.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 4add19d8-9626-468f-8b15-993fb51f3c13
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSystemTime, GetSystemTime method [Microsoft TV Technologies], GetSystemTime method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetSystemTime method, IATSC_STT.GetSystemTime, IATSC_STT::GetSystemTime, IATSC_STTGetSystemTime, atscpsipparser/IATSC_STT::GetSystemTime, mstv.iatsc_stt_getsystemtime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IATSC_STT.GetSystemTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IATSC_STT::GetSystemTime

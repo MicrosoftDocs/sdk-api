@@ -4,17 +4,16 @@ title: IFhConfigMgr::ProvisionAndSetNewTarget
 author: windows-sdk-content
 description: Provisions a certain storage device or network share as a File History backup target and assigns it as the default backup target for the current user.
 old-location: winprog\ifhconfigmgr_provisionandsetnewtarget.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 9C9FA696-CFB2-4814-96D5-2B9B6A2AB426
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FhConfigMgr class [Windows API],ProvisionAndSetNewTarget method, IFhConfigMgr interface [Windows API],ProvisionAndSetNewTarget method, IFhConfigMgr.ProvisionAndSetNewTarget, IFhConfigMgr::ProvisionAndSetNewTarget, ProvisionAndSetNewTarget, ProvisionAndSetNewTarget method [Windows API], ProvisionAndSetNewTarget method [Windows API],FhConfigMgr class, ProvisionAndSetNewTarget method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::ProvisionAndSetNewTarget, winprog.ifhconfigmgr_provisionandsetnewtarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FhConfigMgr.ProvisionAndSetNewTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFhConfigMgr::ProvisionAndSetNewTarget

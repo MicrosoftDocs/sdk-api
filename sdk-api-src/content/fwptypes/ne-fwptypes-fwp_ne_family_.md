@@ -4,7 +4,7 @@ title: FWP_NE_FAMILY_
 author: windows-sdk-content
 description: The FWP_AF enumerated type.
 old-location: fwp\fwp_af.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 358305a6-e0a6-4d01-92be-fd88b3bd32a0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWP_AF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWP_AF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWP_AF
+req.redist: 
 ---
 
 # FWP_NE_FAMILY_ enumeration

@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::UpdateSubresource
 author: windows-sdk-content
 description: The CPU copies data from memory to a subresource created in non-mappable memory.
 old-location: direct3d11\id3d11devicecontext_updatesubresource.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 2d8ef5a2-204a-434d-918a-104419050233
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],UpdateSubresource method, ID3D11DeviceContext.UpdateSubresource, ID3D11DeviceContext::UpdateSubresource, UpdateSubresource, UpdateSubresource method [Direct3D 11], UpdateSubresource method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::UpdateSubresource, direct3d11.id3d11devicecontext_updatesubresource, f9813ce8-3ca5-fd5e-fac2-bd93631ecbc8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.UpdateSubresource
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::UpdateSubresource

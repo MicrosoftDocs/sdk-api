@@ -4,17 +4,16 @@ title: ICategoryProvider::CanCategorizeOnSCID
 author: windows-sdk-content
 description: Determines whether a column can be used as a category.
 old-location: shell\ICategoryProvider_CanCategorizeOnSCID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e0b10007-7b25-4ddf-8cb9-76d85f8fb4df
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CanCategorizeOnSCID, CanCategorizeOnSCID method [Windows Shell], CanCategorizeOnSCID method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],CanCategorizeOnSCID method, ICategoryProvider.CanCategorizeOnSCID, ICategoryProvider::CanCategorizeOnSCID, inet_ICategoryProvider_CanCategorizeOnSCID, shell.ICategoryProvider_CanCategorizeOnSCID, shobjidl_core/ICategoryProvider::CanCategorizeOnSCID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICategoryProvider.CanCategorizeOnSCID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICategoryProvider::CanCategorizeOnSCID

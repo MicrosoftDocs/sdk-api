@@ -4,17 +4,16 @@ title: IContextState::SetDeactivateOnReturn
 author: windows-sdk-content
 description: Sets the done flag, which controls whether the object deactivates on method return.
 old-location: cos\icontextstate_setdeactivateonreturn.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 29dfeb6f-1961-4d6f-b5c4-fcd0eb4a7bec
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IContextState interface [COM+],SetDeactivateOnReturn method, IContextState.SetDeactivateOnReturn, IContextState::SetDeactivateOnReturn, SetDeactivateOnReturn, SetDeactivateOnReturn method [COM+], SetDeactivateOnReturn method [COM+],IContextState interface, _cos_IContextState_SetDeactivateOnReturn, comsvcs/IContextState::SetDeactivateOnReturn, cos.icontextstate_setdeactivateonreturn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IContextState.SetDeactivateOnReturn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IContextState::SetDeactivateOnReturn

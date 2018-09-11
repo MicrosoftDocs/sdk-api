@@ -4,17 +4,16 @@ title: ID2D1RenderTarget::DrawRectangle(const D2D1_RECT_F &,ID2D1Brush,FLOAT,ID2
 author: windows-sdk-content
 description: Draws the outline of a rectangle that has the specified dimensions and stroke style.
 old-location: direct2d\id2d1rendertarget_drawrectangle.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 3f8c0754-fa68-4b5b-812f-24d8b544ba6e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawRectangle, DrawRectangle methods [Direct2D], ID2D1RenderTarget.DrawRectangle, ID2D1RenderTarget.DrawRectangle(const D2D1_RECT_F &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), ID2D1RenderTarget::DrawRectangle, ID2D1RenderTarget::DrawRectangle(const D2D1_RECT_F &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), d2d1_1/DrawRectangle, direct2d.id2d1rendertarget_drawrectangle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: D2d1.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1RenderTarget::DrawRectangle
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1RenderTarget::DrawRectangle(const D2D1_RECT_F &,ID2D1Brush,FLOAT,ID2D1StrokeStyle)

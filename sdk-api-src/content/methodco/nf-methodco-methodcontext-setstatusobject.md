@@ -4,17 +4,16 @@ title: MethodContext::SetStatusObject
 author: windows-sdk-content
 description: The SetStatusObject method sets an internal pointer to IWbemClassObject information. WMI does not implement any functionality based on the pointer.
 old-location: wmi\methodcontext_setstatusobject.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 5fe1f1af-61a9-490b-95e0-c3a3efe2392d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?SetStatusObject@MethodContext@@QAE_NPAUIWbemClassObject@@@Z, ?SetStatusObject@MethodContext@@QEAA_NPEAUIWbemClassObject@@@Z, MethodContext interface [Windows Management Instrumentation],SetStatusObject method, MethodContext.SetStatusObject, MethodContext::SetStatusObject, SetStatusObject, SetStatusObject method [Windows Management Instrumentation], SetStatusObject method [Windows Management Instrumentation],MethodContext interface, methodco/MethodContext::SetStatusObject, wmi.methodcontext_setstatusobject"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: methodco.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ?SetStatusObject@MethodContext@@QEAA_NPEAUIWbemClassObject@@@Z
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MethodContext::SetStatusObject

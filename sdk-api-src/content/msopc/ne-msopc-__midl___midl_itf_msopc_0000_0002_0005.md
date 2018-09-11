@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_msopc_0000_0002_0005"
 author: windows-sdk-content
 description: Describes the encoding method that is used by the serialization object to produce the package.
 old-location: opc\opc_write_flags.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 12006b4a-98e1-4761-bce3-32b83b54a2cb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_WRITE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPC_WRITE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: OPC_WRITE_FLAGS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msopc_0000_0002_0005 enumeration

@@ -4,17 +4,16 @@ title: eWINDOW_ADVANCE_METHOD
 author: windows-sdk-content
 description: The eWINDOW_ADVANCE_METHOD enumeration specifies the window advance mode used for Reliable Multicast.
 old-location: winsock\ewindow_advance_method.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: cd6f0809-ca6b-4a83-ae21-aea1cb4a101a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: E_WINDOW_ADVANCE_BY_TIME, E_WINDOW_USE_AS_DATA_CACHE, eWINDOW_ADVANCE_METHOD, eWINDOW_ADVANCE_METHOD enumeration [Winsock], winsock.ewindow_advance_method, wsrm/E_WINDOW_ADVANCE_BY_TIME, wsrm/E_WINDOW_USE_AS_DATA_CACHE, wsrm/eWINDOW_ADVANCE_METHOD
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wsrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WSManDisp.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - eWINDOW_ADVANCE_METHOD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # eWINDOW_ADVANCE_METHOD enumeration

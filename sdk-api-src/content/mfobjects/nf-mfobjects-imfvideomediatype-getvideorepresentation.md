@@ -4,17 +4,16 @@ title: IMFVideoMediaType::GetVideoRepresentation
 author: windows-sdk-content
 description: Retrieves an alternative representation of the media type.
 old-location: mf\imfvideomediatype_getvideorepresentation.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2f8fddef-b9b8-4473-a8d0-d6e44ad32648
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 2f8fddef-b9b8-4473-a8d0-d6e44ad32648, GetVideoRepresentation, GetVideoRepresentation method [Media Foundation], GetVideoRepresentation method [Media Foundation],IMFVideoMediaType interface, IMFVideoMediaType interface [Media Foundation],GetVideoRepresentation method, IMFVideoMediaType.GetVideoRepresentation, IMFVideoMediaType::GetVideoRepresentation, mf.imfvideomediatype_getvideorepresentation, mfobjects/IMFVideoMediaType::GetVideoRepresentation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoMediaType.GetVideoRepresentation
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoMediaType::GetVideoRepresentation

@@ -4,7 +4,7 @@ title: TTVALIDATIONTESTSPARAMS
 author: windows-sdk-content
 description: The TTVALIDATIONTESTSPARAMS structure contains parameters for testing a Microsoft OpenType font.
 old-location: gdi\ttvalidationtestparams.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 901fd8e5-1602-4e20-9269-d0c3fe661e45
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: t2embapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TTVALIDATIONTESTSPARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TTVALIDATIONTESTSPARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TTVALIDATIONTESTSPARAMS
+req.redist: 
 ---
 
 # TTVALIDATIONTESTSPARAMS structure

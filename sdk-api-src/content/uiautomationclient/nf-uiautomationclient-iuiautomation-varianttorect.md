@@ -4,17 +4,16 @@ title: IUIAutomation::VariantToRect
 author: windows-sdk-content
 description: Converts a VARIANT containing rectangle coordinates to a RECT.
 old-location: winauto\uiauto_IUIAutomation_VariantToRect.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: ef8bb8eb-c6f1-4797-b64f-f4f9d41db2bb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],VariantToRect method, IUIAutomation.VariantToRect, IUIAutomation::VariantToRect, VariantToRect, VariantToRect method [Windows Accessibility], VariantToRect method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_VariantToRect, uiauto_IUIAutomation_VariantToRect, uiautomationclient/IUIAutomation::VariantToRect, winauto.uiauto_IUIAutomation_VariantToRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomation.VariantToRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation::VariantToRect

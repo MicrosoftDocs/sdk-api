@@ -4,7 +4,7 @@ title: "_ABC"
 author: windows-sdk-content
 description: The ABC structure contains the width of a character in a TrueType font.
 old-location: gdi\abc.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 00000000-0000-0000-0000-000000000001
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ABC, *PABC, *NPABC, *LPABC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ABC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ABC, *PABC, *NPABC, *LPABC
+req.redist: 
 ---
 
 # _ABC structure

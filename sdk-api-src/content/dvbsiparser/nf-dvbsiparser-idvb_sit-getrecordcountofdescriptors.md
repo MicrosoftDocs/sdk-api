@@ -4,17 +4,16 @@ title: IDVB_SIT::GetRecordCountOfDescriptors
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_getrecordcountofdescriptors.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2b268a08-a09c-4fb0-88ac-25af25654c7a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IDVB_SIT.GetRecordCountOfDescriptors, IDVB_SIT::GetRecordCountOfDescriptors, IDVB_SITGetRecordCountOfDescriptors, dvbsiparser/IDVB_SIT::GetRecordCountOfDescriptors, mstv.idvb_sit_getrecordcountofdescriptors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVB_SIT.GetRecordCountOfDescriptors
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVB_SIT::GetRecordCountOfDescriptors

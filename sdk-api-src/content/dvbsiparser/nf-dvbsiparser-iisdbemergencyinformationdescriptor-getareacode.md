@@ -4,17 +4,16 @@ title: IIsdbEmergencyInformationDescriptor::GetAreaCode
 author: windows-sdk-content
 description: Gets the area codes from an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getareacode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7bf09adf-6a04-4c3a-8c66-aea4e96c6936
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetAreaCode, GetAreaCode method [Microsoft TV Technologies], GetAreaCode method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetAreaCode method, IIsdbEmergencyInformationDescriptor.GetAreaCode, IIsdbEmergencyInformationDescriptor::GetAreaCode, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetAreaCode, mstv.iisdbemergencyinformationdescriptor_getareacode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbEmergencyInformationDescriptor.GetAreaCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbEmergencyInformationDescriptor::GetAreaCode

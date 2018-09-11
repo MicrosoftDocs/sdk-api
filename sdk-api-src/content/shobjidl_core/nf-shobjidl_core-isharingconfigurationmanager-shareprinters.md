@@ -4,17 +4,16 @@ title: ISharingConfigurationManager::SharePrinters
 author: windows-sdk-content
 description: Shares all local printers connected to a computer, enabling them to be discovered by other computers on the network.
 old-location: shell\ISharingConfigurationManager_SharePrinters.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bc8d3b2b-88b6-4c2d-a3c2-94bba245708c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISharingConfigurationManager interface [Windows Shell],SharePrinters method, ISharingConfigurationManager.SharePrinters, ISharingConfigurationManager::SharePrinters, SharePrinters, SharePrinters method [Windows Shell], SharePrinters method [Windows Shell],ISharingConfigurationManager interface, _shell_ISharingConfigurationManager_SharePrinters, shell.ISharingConfigurationManager_SharePrinters, shobjidl_core/ISharingConfigurationManager::SharePrinters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISharingConfigurationManager.SharePrinters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISharingConfigurationManager::SharePrinters

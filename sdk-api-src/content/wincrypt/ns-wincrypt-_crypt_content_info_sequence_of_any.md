@@ -4,17 +4,16 @@ title: "_CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY"
 author: windows-sdk-content
 description: Contains information representing the Netscape certificate sequence of certificates.
 old-location: security\crypt_content_info_sequence_of_any.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: b47cc15d-b92d-4e8a-a8b8-6217d07a0495
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY structure [Security], PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY structure pointer [Security], _CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, _crypto2_crypt_content_info_sequence_of_any, security.crypt_content_info_sequence_of_any, wincrypt/CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, wincrypt/PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, *PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, *PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
+req.redist: 
 ---
 
 # _CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY structure

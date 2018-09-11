@@ -4,7 +4,7 @@ title: D3D11_COUNTER_DESC
 author: windows-sdk-content
 description: Describes a counter.
 old-location: direct3d11\d3d11_counter_desc.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: a0816409-fbe1-4b45-9b69-6f85b20008cb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_COUNTER_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_COUNTER_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_COUNTER_DESC
+req.redist: 
 ---
 
 # D3D11_COUNTER_DESC structure

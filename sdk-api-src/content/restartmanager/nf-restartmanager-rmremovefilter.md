@@ -4,17 +4,16 @@ title: RmRemoveFilter function
 author: windows-sdk-content
 description: Removes any modifications to shutdown or restart actions that have been applied using the RmAddFilter function.
 old-location: rstmgr\rmremovefilter.htm
-old-project: rstmgr
+tech.root: RstMgr
 ms.assetid: fb1baa7b-0dfb-4bd1-8a3f-cfaf9bf4079f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RmRemoveFilter, RmRemoveFilter function [Restart Mgr], restartmanager/RmRemoveFilter, rstmgr.rmremovefilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: restartmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_SHUTDOWN_TYPE
+req.lib: Rstrtmgr.lib
+req.dll: Rstrtmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RmRemoveFilter
 product: Windows
 targetos: Windows
-req.lib: Rstrtmgr.lib
-req.dll: Rstrtmgr.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RmRemoveFilter function

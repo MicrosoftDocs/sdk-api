@@ -4,17 +4,16 @@ title: IXpsOMPageReferenceCollection::InsertAt
 author: windows-sdk-content
 description: Inserts an IXpsOMPageReference interface pointer at a specified location in the collection.
 old-location: xps\ixpsompagereferencecollection_insertat.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 829d0b81-90e2-4051-a9a7-7f71602f8c13
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMPageReferenceCollection.InsertAt, IXpsOMPageReferenceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, xps.ixpsompagereferencecollection_insertat, xpsobjectmodel/IXpsOMPageReferenceCollection::InsertAt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMPageReferenceCollection.InsertAt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPageReferenceCollection::InsertAt

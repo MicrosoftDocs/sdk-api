@@ -4,17 +4,16 @@ title: IPSFactoryBuffer
 author: windows-sdk-content
 description: Provides custom methods for the creation of COM object proxies and stubs. This interface is not marshalable.
 old-location: com\ipsfactorybuffer.htm
-old-project: com
+tech.root: com
 ms.assetid: ffe85701-a4fa-4cf3-9b86-85f3a0cb63e9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPSFactoryBuffer, IPSFactoryBuffer interface [COM], IPSFactoryBuffer interface [COM],described, _com_ipsfactorybuffer, com.ipsfactorybuffer, objidlbase/IPSFactoryBuffer
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSFactoryBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPSFactoryBuffer interface

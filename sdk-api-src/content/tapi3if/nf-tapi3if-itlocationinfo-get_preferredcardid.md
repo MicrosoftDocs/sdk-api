@@ -4,17 +4,16 @@ title: ITLocationInfo::get_PreferredCardID
 author: windows-sdk-content
 description: The get_PreferredCardID method gets the preferred calling card identifier for dialing from the current location.
 old-location: tapi3\itlocationinfo_get_preferredcardid.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 7881a005-1bab-47a1-a657-31584d3f2713
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_PreferredCardID method, ITLocationInfo.get_PreferredCardID, ITLocationInfo::get_PreferredCardID, _tapi3_itlocationinfo_get_preferredcardid, get_PreferredCardID, get_PreferredCardID method [TAPI 2.2], get_PreferredCardID method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_preferredcardid, tapi3if/ITLocationInfo::get_PreferredCardID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITLocationInfo.get_PreferredCardID
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITLocationInfo::get_PreferredCardID

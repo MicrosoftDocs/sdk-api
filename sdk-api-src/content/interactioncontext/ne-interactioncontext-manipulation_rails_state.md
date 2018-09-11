@@ -4,7 +4,7 @@ title: MANIPULATION_RAILS_STATE
 author: windows-sdk-content
 description: Specifies the rail states for an interaction.
 old-location: input_intcontext\manipulation_rails_state.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: b4978408-e124-482e-b552-7a6db76a40ad
 ms.author: windowssdkdev
 ms.date: 05/09/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_RAILS_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MANIPULATION_RAILS_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MANIPULATION_RAILS_STATE
+req.redist: 
 ---
 
 # MANIPULATION_RAILS_STATE enumeration

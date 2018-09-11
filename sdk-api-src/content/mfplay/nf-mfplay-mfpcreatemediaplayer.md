@@ -4,17 +4,16 @@ title: MFPCreateMediaPlayer function
 author: windows-sdk-content
 description: Creates a new instance of the MFPlay player object.
 old-location: mf\mfpcreatemediaplayer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 80c668e2-5e93-4af2-871c-646228e18717
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFPCreateMediaPlayer, MFPCreateMediaPlayer function [Media Foundation], mf.mfpcreatemediaplayer, mfplay/MFPCreateMediaPlayer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: Mfplay.lib
+req.dll: Mfplay.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFPCreateMediaPlayer
 product: Windows
 targetos: Windows
-req.lib: Mfplay.lib
-req.dll: Mfplay.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFPCreateMediaPlayer function

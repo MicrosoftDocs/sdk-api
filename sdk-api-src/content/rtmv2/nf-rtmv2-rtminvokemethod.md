@@ -4,17 +4,16 @@ title: RtmInvokeMethod function
 author: windows-sdk-content
 description: The RtmInvokeMethod function invokes a method exported by another client.
 old-location: rras\rtminvokemethod.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 97506565-2fa7-4ff7-b397-7ab712759a5d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RtmInvokeMethod, RtmInvokeMethod function [RAS], _rtmv2ref_rtminvokemethod, rras.rtminvokemethod, rtmv2/RtmInvokeMethod
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmInvokeMethod
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmInvokeMethod function

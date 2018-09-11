@@ -4,17 +4,16 @@ title: IMathInputControl
 author: windows-sdk-content
 description: Exposes methods that turn ink input into interpreted math output.
 old-location: tablet\imathinputcontrol.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 3d6a6289-7be5-4cf0-8cb7-9095c4ee7149
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], IMathInputControl interface [Tablet PC],described, micaut/IMathInputControl, tablet.imathinputcontrol
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: micaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMathInputControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMathInputControl interface

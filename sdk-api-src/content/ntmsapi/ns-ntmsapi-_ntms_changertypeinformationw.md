@@ -4,17 +4,16 @@ title: "_NTMS_CHANGERTYPEINFORMATIONW"
 author: windows-sdk-content
 description: The NTMS_CHANGERTYPEINFORMATION structure defines the properties specific to a type of robotic changer supported by RSM.
 old-location: fs\ntms_changertypeinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 49c219d7-5772-4868-80dd-ab1e1f1471b1
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: FILE_DEVICE_CHANGER, NTMS_CHANGERTYPEINFORMATION, NTMS_CHANGERTYPEINFORMATION structure [Files], NTMS_CHANGERTYPEINFORMATIONW, _NTMS_CHANGERTYPEINFORMATIONA, _NTMS_CHANGERTYPEINFORMATIONW, _zaw_ntms_changertypeinformation, base.ntms_changertypeinformation, fs.ntms_changertypeinformation, ntmsapi/NTMS_CHANGERTYPEINFORMATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_CHANGERTYPEINFORMATIONW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_CHANGERTYPEINFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_CHANGERTYPEINFORMATIONW
+req.redist: 
 ---
 
 # _NTMS_CHANGERTYPEINFORMATIONW structure

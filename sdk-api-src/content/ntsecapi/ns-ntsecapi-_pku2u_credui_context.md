@@ -4,17 +4,16 @@ title: "_PKU2U_CREDUI_CONTEXT"
 author: windows-sdk-content
 description: Specifies a PKU2U client context.
 old-location: security\pku2u_credui_context.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 38de5472-27f2-40d4-90e8-7b59d3982f03
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPKU2U_CREDUI_CONTEXT, PKU2U_CREDUI_CONTEXT, PKU2U_CREDUI_CONTEXT structure [Security], PPKU2U_CREDUI_CONTEXT, PPKU2U_CREDUI_CONTEXT structure pointer [Security], _PKU2U_CREDUI_CONTEXT, ntsecapi/PKU2U_CREDUI_CONTEXT, ntsecapi/PPKU2U_CREDUI_CONTEXT, security.pku2u_credui_context"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PKU2U_CREDUI_CONTEXT, *PPKU2U_CREDUI_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PKU2U_CREDUI_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PKU2U_CREDUI_CONTEXT, *PPKU2U_CREDUI_CONTEXT
+req.redist: 
 ---
 
 # _PKU2U_CREDUI_CONTEXT structure

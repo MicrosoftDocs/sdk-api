@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::get_PropertyConditions
 author: windows-sdk-content
 description: A list of property conditions specified for the job.
 old-location: fsrm\ifsrmfilemanagementjob_propertyconditions.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 49435c4b-211e-4aae-a6b3-ad40de811526
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],PropertyConditions property, IFsrmFileManagementJob.PropertyConditions, IFsrmFileManagementJob.get_PropertyConditions, IFsrmFileManagementJob::PropertyConditions, IFsrmFileManagementJob::get_PropertyConditions, PropertyConditions property [File Server Resource Manager], PropertyConditions property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_propertyconditions, fsrm.ifsrmfilemanagementjob_propertyconditions, fsrmreports/IFsrmFileManagementJob::PropertyConditions, fsrmreports/IFsrmFileManagementJob::get_PropertyConditions, get_PropertyConditions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmFileManagementJob.get_PropertyConditions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::get_PropertyConditions

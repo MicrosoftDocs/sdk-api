@@ -4,17 +4,16 @@ title: LPWSPGETQOSBYNAME
 author: windows-sdk-content
 description: The WSPGetQOSByName function initializes a QOS structure based on a named template, or retrieves an enumeration of the available template names.
 old-location: winsock\wspgetqosbyname_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 2e218a9b-6db5-4c5a-94e1-207886c401a5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: LPWSPGETQOSBYNAME, WSPGetQOSByName, WSPGetQOSByName function [Winsock], _win32_wspgetqosbyname_2, winsock.wspgetqosbyname_2, ws2spi/WSPGetQOSByName
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_INET, *PSOCKADDR_INET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSPGetQOSByName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # LPWSPGETQOSBYNAME callback function

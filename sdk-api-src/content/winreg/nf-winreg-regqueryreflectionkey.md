@@ -4,17 +4,16 @@ title: RegQueryReflectionKey function
 author: windows-sdk-content
 description: Determines whether reflection has been disabled or enabled for the specified key.
 old-location: base\regqueryreflectionkey.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: d7516eab-dbcf-4ece-931e-d7bb2a983503
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: RegQueryReflectionKey, RegQueryReflectionKey function, base.regqueryreflectionkey, winreg/RegQueryReflectionKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: AdvApi32.lib
+req.dll: AdvApi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RegQueryReflectionKey
 product: Windows
 targetos: Windows
-req.lib: AdvApi32.lib
-req.dll: AdvApi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegQueryReflectionKey function

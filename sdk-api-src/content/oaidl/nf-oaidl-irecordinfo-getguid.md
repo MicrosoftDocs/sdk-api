@@ -4,17 +4,16 @@ title: IRecordInfo::GetGuid
 author: windows-sdk-content
 description: Gets the GUID of the record type.
 old-location: automat\irecordinfo_getguid.htm
-old-project: automat
+tech.root: automat
 ms.assetid: e28ed38a-5cd6-4edb-871e-e69283e4d47e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetGuid, GetGuid method [Automation], GetGuid method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetGuid method, IRecordInfo.GetGuid, IRecordInfo::GetGuid, _oa96_IRecordInfo_GetGuid, automat.irecordinfo_getguid, oaidl/IRecordInfo::GetGuid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRecordInfo.GetGuid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRecordInfo::GetGuid

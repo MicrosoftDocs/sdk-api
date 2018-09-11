@@ -4,7 +4,7 @@ title: "_PROCESSOR_NUMBER"
 author: windows-sdk-content
 description: Represents a logical processor in a processor group.
 old-location: base\processor_number.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 9005c6d4-07a9-4ce0-9ee2-54880d7244c3
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROCESSOR_NUMBER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
+req.redist: 
 ---
 
 # _PROCESSOR_NUMBER structure

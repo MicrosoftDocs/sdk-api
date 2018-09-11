@@ -4,17 +4,16 @@ title: "_SecPkgContext_TargetInformation"
 author: windows-sdk-content
 description: Returns information about the credential used for the security context.
 old-location: security\secpkgcontext_targetinformation.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 8a5a6bd6-8678-4544-a631-5ee4347bc685
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation structure pointer [Security], SecPkgContext_TargetInformation, SecPkgContext_TargetInformation structure [Security], _SecPkgContext_TargetInformation, security.secpkgcontext_targetinformation, sspi/PSecPkgContext_TargetInformation, sspi/SecPkgContext_TargetInformation"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_TargetInformation, *PSecPkgContext_TargetInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_TargetInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecPkgContext_TargetInformation, *PSecPkgContext_TargetInformation
+req.redist: 
 ---
 
 # _SecPkgContext_TargetInformation structure

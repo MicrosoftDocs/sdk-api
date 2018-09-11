@@ -4,17 +4,16 @@ title: IBackgroundCopyJob::GetDisplayName
 author: windows-sdk-content
 description: Retrieves the display name for the job. Typically, you use the display name to identify the job in a user interface.
 old-location: bits\ibackgroundcopyjob_getdisplayname.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 934cff3e-d4b8-4b76-96e1-fd7ded1842eb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetDisplayName, GetDisplayName method [BITS], GetDisplayName method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetDisplayName method, IBackgroundCopyJob.GetDisplayName, IBackgroundCopyJob::GetDisplayName, _drz_ibackgroundcopyjob_getdisplayname, bits.ibackgroundcopyjob_getdisplayname, bits/IBackgroundCopyJob::GetDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob.GetDisplayName
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob::GetDisplayName
@@ -61,7 +60,7 @@ Retrieves the display name for the job. Typically, you use the display name to i
 
 ### -param pVal
 
-
+TBD
 
 
 

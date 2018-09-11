@@ -4,17 +4,16 @@ title: IDvdControl::SetRoot
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the root directory containing the DVD-Video volume.
 old-location: dshow\idvdcontrol_setroot.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3068edc0-c052-4f44-9f62-453320af20a3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl interface [DirectShow],SetRoot method, IDvdControl.SetRoot, IDvdControl::SetRoot, IDvdControlSetRoot, SetRoot, SetRoot method [DirectShow], SetRoot method [DirectShow],IDvdControl interface, dshow.idvdcontrol_setroot, strmif/IDvdControl::SetRoot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdControl.SetRoot
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl::SetRoot

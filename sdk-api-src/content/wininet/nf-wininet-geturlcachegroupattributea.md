@@ -4,17 +4,16 @@ title: GetUrlCacheGroupAttributeA function
 author: windows-sdk-content
 description: Retrieves the attribute information of the specified cache group.
 old-location: wininet\geturlcachegroupattribute.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 5e4e5666-1999-4bea-9b3e-f435f5dcfff8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: GetUrlCacheGroupAttribute, GetUrlCacheGroupAttribute function [WinINet], GetUrlCacheGroupAttributeA, GetUrlCacheGroupAttributeW, _inet_geturlcachegroupattribute_function, wininet.geturlcachegroupattribute, wininet/GetUrlCacheGroupAttribute, wininet/GetUrlCacheGroupAttributeA, wininet/GetUrlCacheGroupAttributeW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetUrlCacheGroupAttributeW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetUrlCacheGroupAttributeA function

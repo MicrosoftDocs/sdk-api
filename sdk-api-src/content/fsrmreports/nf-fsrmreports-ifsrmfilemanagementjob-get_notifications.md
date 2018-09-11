@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::get_Notifications
 author: windows-sdk-content
 description: The list of notification periods defined for the job.
 old-location: fsrm\ifsrmfilemanagementjob_notifications.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: f0aee951-12f3-40d0-bbf4-c72af117952f
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Notifications property, IFsrmFileManagementJob.Notifications, IFsrmFileManagementJob.get_Notifications, IFsrmFileManagementJob::Notifications, IFsrmFileManagementJob::get_Notifications, Notifications property [File Server Resource Manager], Notifications property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_notifications, fsrm.ifsrmfilemanagementjob_notifications, fsrmreports/IFsrmFileManagementJob::Notifications, fsrmreports/IFsrmFileManagementJob::get_Notifications, get_Notifications
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmFileManagementJob.get_Notifications
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::get_Notifications

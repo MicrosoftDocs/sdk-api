@@ -4,7 +4,7 @@ title: "_DFS_INFO_200"
 author: windows-sdk-content
 description: Contains the name of a domain-based Distributed File System (DFS) namespace.
 old-location: dfs\dfs_info_200_str.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: a37a97b2-f2f2-45fc-9466-da75e273b075
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_INFO_200, *PDFS_INFO_200, *LPDFS_INFO_200
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFS_INFO_200
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DFS_INFO_200, *PDFS_INFO_200, *LPDFS_INFO_200
+req.redist: 
 ---
 
 # _DFS_INFO_200 structure

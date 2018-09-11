@@ -4,7 +4,7 @@ title: tagINPUT_MESSAGE_ORIGIN_ID
 author: windows-sdk-content
 description: The ID of the input message source.
 old-location: input_sourceid\input_message_origin_id.htm
-old-project: Input_SourceId
+tech.root: Input_SourceId
 ms.assetid: 5637bf3a-9fd8-4c89-acd0-4e0e47c0a3bf
 ms.author: windowssdkdev
 ms.date: 03/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INPUT_MESSAGE_ORIGIN_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INPUT_MESSAGE_ORIGIN_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: INPUT_MESSAGE_ORIGIN_ID
+req.redist: 
 ---
 
 # tagINPUT_MESSAGE_ORIGIN_ID enumeration

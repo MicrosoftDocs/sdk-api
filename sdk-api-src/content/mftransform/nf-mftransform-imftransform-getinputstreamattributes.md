@@ -4,17 +4,16 @@ title: IMFTransform::GetInputStreamAttributes
 author: windows-sdk-content
 description: Gets the attribute store for an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getinputstreamattributes.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2698da30-6913-41a9-9d98-f124cf31e591
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 2698da30-6913-41a9-9d98-f124cf31e591, GetInputStreamAttributes, GetInputStreamAttributes method [Media Foundation], GetInputStreamAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStreamAttributes method, IMFTransform.GetInputStreamAttributes, IMFTransform::GetInputStreamAttributes, mf.imftransform_getinputstreamattributes, mftransform/IMFTransform::GetInputStreamAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTransform.GetInputStreamAttributes
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTransform::GetInputStreamAttributes
@@ -70,7 +68,7 @@ Input stream identifier. To get the list of stream identifiers, call <a href="ht
 
 ### -param pAttributes
 
-
+TBD
 
 
 

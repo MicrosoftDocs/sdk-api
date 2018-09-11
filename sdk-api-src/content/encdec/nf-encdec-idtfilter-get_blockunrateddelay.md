@@ -4,17 +4,16 @@ title: IDTFilter::get_BlockUnRatedDelay
 author: windows-sdk-content
 description: The get_BlockUnRatedDelay method retrieves that length of time the filter waits before it blocks unrated content.
 old-location: mstv\idtfilter_get_blockunrateddelay.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6852f376-35ab-4628-9068-51a2ca2ea31f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_BlockUnRatedDelay method, IDTFilter.get_BlockUnRatedDelay, IDTFilter::get_BlockUnRatedDelay, IDTFilterget_BlockUnRatedDelay, encdec/IDTFilter::get_BlockUnRatedDelay, get_BlockUnRatedDelay, get_BlockUnRatedDelay method [Microsoft TV Technologies], get_BlockUnRatedDelay method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_blockunrateddelay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDTFilter.get_BlockUnRatedDelay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDTFilter::get_BlockUnRatedDelay

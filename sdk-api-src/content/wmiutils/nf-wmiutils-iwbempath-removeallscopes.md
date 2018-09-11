@@ -4,17 +4,16 @@ title: IWbemPath::RemoveAllScopes
 author: windows-sdk-content
 description: The IWbemPath::RemoveAllScopes method removes all scopes from the path.
 old-location: wmi\iwbempath_removeallscopes.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 46c3215f-d038-4d0b-a9ce-b58e9381059e
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],RemoveAllScopes method, IWbemPath.RemoveAllScopes, IWbemPath::RemoveAllScopes, RemoveAllScopes, RemoveAllScopes method [Windows Management Instrumentation], RemoveAllScopes method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_removeallscopes, wmi.iwbempath_removeallscopes, wmiutils/IWbemPath::RemoveAllScopes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMIQ_ASSOCQ_FLAGS
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemPath.RemoveAllScopes
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiutils.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemPath::RemoveAllScopes

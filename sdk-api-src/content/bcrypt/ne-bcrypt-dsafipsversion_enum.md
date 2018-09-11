@@ -4,17 +4,16 @@ title: DSAFIPSVERSION_ENUM
 author: windows-sdk-content
 description: Contains FIPS version information.
 old-location: security\dsafipsversion_enum.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 6797D7C0-3451-464E-9261-61217ADAB9C1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DSAFIPSVERSION_ENUM, DSAFIPSVERSION_ENUM enumeration [Security], DSA_FIPS186_2, DSA_FIPS186_3, bcrypt/DSAFIPSVERSION_ENUM, bcrypt/DSA_FIPS186_2, bcrypt/DSA_FIPS186_3, security.dsafipsversion_enum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSAFIPSVERSION_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DSAFIPSVERSION_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DSAFIPSVERSION_ENUM
+req.redist: 
 ---
 
 # DSAFIPSVERSION_ENUM enumeration

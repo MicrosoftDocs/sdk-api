@@ -4,17 +4,16 @@ title: UrlGetPartA function
 author: windows-sdk-content
 description: Accepts a URL string and returns a specified part of that URL.
 old-location: shell\UrlGetPart.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5f43dedd-c543-46b2-b90e-f0af576d2605
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: URL_PARTFLAG_KEEPSCHEME, URL_PART_HOSTNAME, URL_PART_PASSWORD, URL_PART_PORT, URL_PART_QUERY, URL_PART_SCHEME, URL_PART_USERNAME, UrlGetPart, UrlGetPart function [Windows Shell], UrlGetPartA, UrlGetPartW, _win32_UrlGetPart, shell.UrlGetPart, shlwapi/UrlGetPart, shlwapi/UrlGetPartA, shlwapi/UrlGetPartW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - UrlGetPartW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # UrlGetPartA function

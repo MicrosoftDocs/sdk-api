@@ -4,17 +4,16 @@ title: PowerDeterminePlatformRoleEx function
 author: windows-sdk-content
 description: Determines the computer role for the specified platform.
 old-location: base\powerdetermineplatformroleex.htm
-old-project: power
+tech.root: power
 ms.assetid: 64b597d3-ca7a-4ff7-8527-72c3625147cd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: POWER_PLATFORM_ROLE_V1, POWER_PLATFORM_ROLE_V2, POWER_PLATFORM_ROLE_VERSION, PowerDeterminePlatformRoleEx, PowerDeterminePlatformRoleEx function, base.powerdetermineplatformroleex, powerbase/PowerDeterminePlatformRoleEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powerbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: Powrprof.lib
+req.dll: Powrprof.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - PowerDeterminePlatformRoleEx
 product: Windows
 targetos: Windows
-req.lib: Powrprof.lib
-req.dll: Powrprof.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PowerDeterminePlatformRoleEx function

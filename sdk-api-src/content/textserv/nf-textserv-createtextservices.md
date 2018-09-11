@@ -4,17 +4,16 @@ title: CreateTextServices function
 author: windows-sdk-content
 description: The CreateTextServices function creates an instance of a text services object. The text services object supports a variety of interfaces, including ITextServices and the Text Object Model (TOM).
 old-location: controls\CreateTextServices.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolfunctions\createtextservices.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateTextServices, CreateTextServices function [Windows Controls], _win32_CreateTextServices, _win32_CreateTextServices_cpp, controls.CreateTextServices, controls._win32_CreateTextServices, textserv/CreateTextServices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: Riched20.lib
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateTextServices
 product: Windows
 targetos: Windows
-req.lib: Riched20.lib
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # CreateTextServices function

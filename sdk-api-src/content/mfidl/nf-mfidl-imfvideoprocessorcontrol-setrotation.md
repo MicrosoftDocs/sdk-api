@@ -4,17 +4,16 @@ title: IMFVideoProcessorControl::SetRotation
 author: windows-sdk-content
 description: Specifies whether to rotate the video to the correct orientation.
 old-location: mf\imfvideoprocessorcontrol_setrotation.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 452FE057-EC1A-430E-A5C8-C9B84A4B1B17
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetRotation method, IMFVideoProcessorControl.SetRotation, IMFVideoProcessorControl::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setrotation, mfidl/IMFVideoProcessorControl::SetRotation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFVideoProcessorControl.SetRotation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoProcessorControl::SetRotation

@@ -4,17 +4,16 @@ title: "_SERVICE_TYPE_INFO_ABSW"
 author: windows-sdk-content
 description: The SERVICE_TYPE_INFO_ABS structure contains information about a network service type. Use SERVICE_TYPE_INFO_ABS to add a network service type to a namespace.
 old-location: winsock\service_type_info_abs_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 9adf92b0-1268-48c1-91e4-d05ad696ff06
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVICE_TYPE_INFO_ABSW, *PSERVICE_TYPE_INFO_ABSW, SERVICE_TYPE_INFO_ABS, SERVICE_TYPE_INFO_ABS structure [Winsock], SERVICE_TYPE_INFO_ABSA, SERVICE_TYPE_INFO_ABSW, _SERVICE_TYPE_INFO_ABSW, _win32_service_type_info_abs_2, nspapi/SERVICE_TYPE_INFO_ABS, nspapi/SERVICE_TYPE_INFO_ABSA, nspapi/SERVICE_TYPE_INFO_ABSW, winsock.service_type_info_abs_2"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: nspapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_TYPE_INFO_ABSW, *PSERVICE_TYPE_INFO_ABSW, *LPSERVICE_TYPE_INFO_ABSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SERVICE_TYPE_INFO_ABSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SERVICE_TYPE_INFO_ABSW, *PSERVICE_TYPE_INFO_ABSW, *LPSERVICE_TYPE_INFO_ABSW
+req.redist: 
 ---
 
 # _SERVICE_TYPE_INFO_ABSW structure

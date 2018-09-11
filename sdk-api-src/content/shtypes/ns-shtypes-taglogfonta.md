@@ -4,17 +4,16 @@ title: tagLOGFONTA
 author: windows-sdk-content
 description: Defines the attributes of a font.
 old-location: shell\LOGFONT.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 759c54d9-5b8f-4b48-8380-79e7bcae5bdb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: LOGFONT, LOGFONT structure [Windows Shell], LOGFONTA, LOGFONTW, _shell_LOGFONT, _shell_LOGFONT_cpp, dimm/LOGFONT, dimm/LOGFONTA, dimm/LOGFONTW, shell.LOGFONT, tagLOGFONTA
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shtypes.h
 req.include-header: Shtypes.h, Dimm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOGFONTA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - LOGFONTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: LOGFONTA
+req.redist: 
 ---
 
 # tagLOGFONTA structure

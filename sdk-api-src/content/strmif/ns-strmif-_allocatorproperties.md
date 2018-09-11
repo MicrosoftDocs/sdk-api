@@ -4,7 +4,7 @@ title: "_AllocatorProperties"
 author: windows-sdk-content
 description: The ALLOCATOR_PROPERTIES structure describes an allocator's count, size, alignment, and prefix properties.
 old-location: dshow\allocator_properties.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 813e4693-b549-4045-aff5-08f2dd754b6e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ALLOCATOR_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ALLOCATOR_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP
+req.typenames: ALLOCATOR_PROPERTIES
+req.redist: 
 ---
 
 # _AllocatorProperties structure

@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::HSGetShader
 author: windows-sdk-content
 description: Get the hull shader currently set on the device.
 old-location: direct3d11\id3d11devicecontext_hsgetshader.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 2ac2d88f-8c66-490e-add8-95ecaadf0147
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 86d0e4a8-a23d-ed0e-3574-68679ce095a8, HSGetShader, HSGetShader method [Direct3D 11], HSGetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSGetShader method, ID3D11DeviceContext.HSGetShader, ID3D11DeviceContext::HSGetShader, d3d11/ID3D11DeviceContext::HSGetShader, direct3d11.id3d11devicecontext_hsgetshader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.HSGetShader
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::HSGetShader

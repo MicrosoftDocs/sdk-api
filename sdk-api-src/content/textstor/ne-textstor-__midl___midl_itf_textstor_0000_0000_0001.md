@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_textstor_0000_0000_0001"
 author: windows-sdk-content
 description: Elements of the TsActiveSelEnd enumeration specify which end of a text store selection is active.
 old-location: tsf\tsactiveselend.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 95695f10-2296-41fe-b2b4-efae548292bb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsActiveSelEnd
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TsActiveSelEnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TsActiveSelEnd
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # __MIDL___MIDL_itf_textstor_0000_0000_0001 enumeration

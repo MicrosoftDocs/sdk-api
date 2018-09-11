@@ -4,17 +4,16 @@ title: IO_Des_s
 author: windows-sdk-content
 description: The IO_DES structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
 old-location: devinst\io_des.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 4b2ae544-0254-4221-80df-e2df4a23d15f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PIO_DES, IO_DES, IO_DES structure [Device and Driver Installation], IO_Des_s, PIO_DES, PIO_DES structure pointer [Device and Driver Installation], cfgmgr32/IO_DES, cfgmgr32/PIO_DES, cfgmgrst_027e9190-0074-48e2-89cd-aa86e8a08165.xml, devinst.io_des"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IO_DES, *PIO_DES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IO_DES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IO_DES, *PIO_DES
+req.redist: 
 ---
 
 # IO_Des_s structure

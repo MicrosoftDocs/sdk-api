@@ -4,17 +4,16 @@ title: ITSubStream::StartSubStream
 author: windows-sdk-content
 description: The StartSubStream method starts the substream. See the Remarks section under ITStream::StartStream for additional information.
 old-location: tapi3\itsubstream_startsubstream.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 603cb667-a108-4e47-9808-99fddad5d894
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],StartSubStream method, ITSubStream.StartSubStream, ITSubStream::StartSubStream, StartSubStream, StartSubStream method [TAPI 2.2], StartSubStream method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_startsubstream, tapi3.itsubstream_startsubstream, tapi3if/ITSubStream::StartSubStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSubStream.StartSubStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSubStream::StartSubStream

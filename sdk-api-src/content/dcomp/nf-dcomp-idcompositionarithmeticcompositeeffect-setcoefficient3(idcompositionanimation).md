@@ -4,17 +4,16 @@ title: IDCompositionArithmeticCompositeEffect::SetCoefficient3(IDCompositionAnim
 author: windows-sdk-content
 description: Sets the third coefficient for the equation used to composite the two input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient3.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: B7A5698B-486A-4C8D-8FD0-22EA237DFBC1
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient3 method, IDCompositionArithmeticCompositeEffect.SetCoefficient3, IDCompositionArithmeticCompositeEffect.SetCoefficient3(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient3, IDCompositionArithmeticCompositeEffect::SetCoefficient3(IDCompositionAnimation), SetCoefficient3, SetCoefficient3 method [DirectComposition], SetCoefficient3 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient3, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionArithmeticCompositeEffect.SetCoefficient3
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionArithmeticCompositeEffect::SetCoefficient3(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Sets the third coefficient for the equation used to composite the two input imag
 
 ### -param animation
 
-
+TBD
 
 
 

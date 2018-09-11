@@ -4,17 +4,16 @@ title: IAMExtTransport::GetChase
 author: windows-sdk-content
 description: The GetChase method retrieves the status of chase mode.
 old-location: dshow\iamexttransport_getchase.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9ef12fa0-2ec9-45e5-9c22-20f810dac73b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetChase, GetChase method [DirectShow], GetChase method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetChase method, IAMExtTransport.GetChase, IAMExtTransport::GetChase, IAMExtTransportGetChase, dshow.iamexttransport_getchase, strmif/IAMExtTransport::GetChase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMExtTransport.GetChase
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtTransport::GetChase

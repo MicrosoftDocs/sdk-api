@@ -4,17 +4,16 @@ title: "_WSMAN_FRAGMENT"
 author: windows-sdk-content
 description: WSMAN_FRAGMENT is reserved for future use.
 old-location: winrm\wsman_fragment.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: 2aa4ee38-6991-4f95-90fd-867b188fc9ff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSMAN_FRAGMENT, WSMAN_FRAGMENT structure [Windows Remote Management], _WSMAN_FRAGMENT, winrm.wsman_fragment, wsman/WSMAN_FRAGMENT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 
-req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSMAN_FRAGMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSMAN_FRAGMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSMAN_FRAGMENT
+req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 ---
 
 # _WSMAN_FRAGMENT structure

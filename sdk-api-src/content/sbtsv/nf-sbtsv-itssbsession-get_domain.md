@@ -4,17 +4,16 @@ title: ITsSbSession::get_Domain
 author: windows-sdk-content
 description: Retrieves the domain name of the user.
 old-location: termserv\itssbsession_domain.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: bbb9a805-7270-4555-8fee-130a46bc3903
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Domain property [Remote Desktop Services], Domain property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],Domain property, ITsSbSession.Domain, ITsSbSession.get_Domain, ITsSbSession::Domain, ITsSbSession::get_Domain, get_Domain, sbtsv/ITsSbSession::Domain, sbtsv/ITsSbSession::get_Domain, termserv.itssbsession_domain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbSession.get_Domain
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbSession::get_Domain

@@ -4,17 +4,16 @@ title: IFillLockBytes::SetFillSize
 author: windows-sdk-content
 description: The SetFillSize method sets the expected size of the byte array.
 old-location: stg\ifilllockbytes_setfillsize.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: 1336079e-02d2-4799-a58f-d097ec80c03b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IFillLockBytes interface [Structured Storage],SetFillSize method, IFillLockBytes.SetFillSize, IFillLockBytes::SetFillSize, SetFillSize, SetFillSize method [Structured Storage], SetFillSize method [Structured Storage],IFillLockBytes interface, _stg_ifilllockbytes_setfillsize, objidl/IFillLockBytes::SetFillSize, stg.ifilllockbytes_setfillsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFillLockBytes.SetFillSize
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFillLockBytes::SetFillSize
@@ -63,7 +61,7 @@ The
 
 ### -param ulSize
 
-
+TBD
 
 
 

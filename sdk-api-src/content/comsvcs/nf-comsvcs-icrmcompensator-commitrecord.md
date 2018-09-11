@@ -4,17 +4,16 @@ title: ICrmCompensator::CommitRecord
 author: windows-sdk-content
 description: Delivers a log record in forward order during the commit phase.
 old-location: cos\icrmcompensator_commitrecord.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: d444973d-d069-480e-b459-405057717776
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CommitRecord, CommitRecord method [COM+], CommitRecord method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],CommitRecord method, ICrmCompensator.CommitRecord, ICrmCompensator::CommitRecord, _dtc_ICrmCompensator_CommitRecord, comsvcs/ICrmCompensator::CommitRecord, cos.icrmcompensator_commitrecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmCompensator.CommitRecord
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmCompensator::CommitRecord

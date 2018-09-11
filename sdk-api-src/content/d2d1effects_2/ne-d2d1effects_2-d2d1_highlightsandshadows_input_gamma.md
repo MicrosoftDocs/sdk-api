@@ -4,7 +4,7 @@ title: D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA
 author: windows-sdk-content
 description: Values for the D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA property of the Highlights and Shadows effect.
 old-location: direct2d\d2d1_highlightsandshadows_input_gamma.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: F56C9933-B340-4E8B-85BE-CE04E90C9ADC
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA
+req.redist: 
 ---
 
 # D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA enumeration

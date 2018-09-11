@@ -4,17 +4,16 @@ title: CVssWriterEx2::GetSessionId
 author: windows-sdk-content
 description: Returns the writer's session identifier.
 old-location: base\cvsswriterex2_getsessionid.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: bea5ba9c-538b-453f-ae6d-12b94b8edeb6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CVssWriterEx2 interface,GetSessionId method, CVssWriterEx2.GetSessionId, CVssWriterEx2::GetSessionId, GetSessionId, GetSessionId method, GetSessionId method,CVssWriterEx2 interface, base.cvsswriterex2_getsessionid, vswriter/CVssWriterEx2::GetSessionId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriterEx2.GetSessionId
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriterEx2::GetSessionId

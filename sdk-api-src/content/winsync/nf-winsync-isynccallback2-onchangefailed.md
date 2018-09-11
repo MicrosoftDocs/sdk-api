@@ -4,17 +4,16 @@ title: ISyncCallback2::OnChangeFailed
 author: windows-sdk-content
 description: Occurs after a change fails to apply.
 old-location: winsync\isynccallback2_onchangefailed.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 69064507-414b-49be-91a5-3523160f3a01
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISyncCallback2 interface [Windows Sync],OnChangeFailed method, ISyncCallback2.OnChangeFailed, ISyncCallback2::OnChangeFailed, OnChangeFailed, OnChangeFailed method [Windows Sync], OnChangeFailed method [Windows Sync],ISyncCallback2 interface, winsync.isynccallback2_onchangefailed, winsync/ISyncCallback2::OnChangeFailed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncCallback2.OnChangeFailed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncCallback2::OnChangeFailed

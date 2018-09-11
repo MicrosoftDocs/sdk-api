@@ -4,17 +4,16 @@ title: IMFTimedTextRegion::GetBackgroundColor
 author: windows-sdk-content
 description: Gets the background color of the region.
 old-location: mf\imftimedtextregion_getbackgroundcolor.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: E92FFB7E-C364-43C8-82CF-C3B4116C4187
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [Media Foundation], GetBackgroundColor method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetBackgroundColor method, IMFTimedTextRegion.GetBackgroundColor, IMFTimedTextRegion::GetBackgroundColor, mf.imftimedtextregion_getbackgroundcolor, mfmediaengine/IMFTimedTextRegion::GetBackgroundColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextRegion.GetBackgroundColor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextRegion::GetBackgroundColor
@@ -62,7 +60,7 @@ Gets the background color of the region.
 
 ### -param bgColor
 
-
+TBD
 
 
 

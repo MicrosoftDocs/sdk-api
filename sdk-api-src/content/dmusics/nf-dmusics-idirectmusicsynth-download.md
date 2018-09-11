@@ -4,17 +4,16 @@ title: IDirectMusicSynth::Download
 author: windows-sdk-content
 description: The Download method downloads a wave or instrument definition to the synthesizer.
 old-location: audio\idirectmusicsynth_download.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 2f36654c-25bf-47c3-a4d6-990d427bd1fc
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Download, Download method [Audio Devices], Download method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Download method, IDirectMusicSynth.Download, IDirectMusicSynth::Download, audio.idirectmusicsynth_download, audmp-routines_5b59a66c-53b7-429c-81d1-8924f712b884.xml, dmusics/IDirectMusicSynth::Download
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectMusicSynth.Download
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectMusicSynth::Download

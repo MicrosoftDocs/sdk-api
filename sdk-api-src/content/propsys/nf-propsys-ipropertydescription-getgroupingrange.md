@@ -4,17 +4,16 @@ title: IPropertyDescription::GetGroupingRange
 author: windows-sdk-content
 description: Gets the grouping method to be used when a view is grouped by a property, and retrieves the grouping type.
 old-location: properties\IPropertyDescription_GetGroupingRange.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 9533c43f-1b51-4aa0-9579-0a3053102b24
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetGroupingRange, GetGroupingRange method [Windows Properties], GetGroupingRange method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetGroupingRange method, IPropertyDescription.GetGroupingRange, IPropertyDescription::GetGroupingRange, PDGR_ALPHANUMERIC, PDGR_DATE, PDGR_DISCRETE, PDGR_DYNAMIC, PDGR_ENUMERATED, PDGR_PERCENT, PDGR_SIZE, properties.IPropertyDescription_GetGroupingRange, propsys/IPropertyDescription::GetGroupingRange, shell.IPropertyDescription_GetGroupingRange, shell_IPropertyDescription_GetGroupingRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.GetGroupingRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::GetGroupingRange

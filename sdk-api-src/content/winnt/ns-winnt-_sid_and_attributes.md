@@ -4,17 +4,16 @@ title: "_SID_AND_ATTRIBUTES"
 author: windows-sdk-content
 description: Represents a security identifier (SID) and its attributes.
 old-location: security\sid_and_attributes.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: d15d5a3f-6b38-4b92-b59c-ff0d27d111d9
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSID_AND_ATTRIBUTES, PSID_AND_ATTRIBUTES, PSID_AND_ATTRIBUTES structure pointer [Security], SID_AND_ATTRIBUTES, SID_AND_ATTRIBUTES structure [Security], _SID_AND_ATTRIBUTES, _win32_sid_and_attributes_str, security.sid_and_attributes, winnt/PSID_AND_ATTRIBUTES, winnt/SID_AND_ATTRIBUTES"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SID_AND_ATTRIBUTES, *PSID_AND_ATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SID_AND_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SID_AND_ATTRIBUTES, *PSID_AND_ATTRIBUTES
+req.redist: 
 ---
 
 # _SID_AND_ATTRIBUTES structure

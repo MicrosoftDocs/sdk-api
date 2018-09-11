@@ -4,17 +4,16 @@ title: INetwork::SetCategory
 author: windows-sdk-content
 description: The SetCategory method sets the category of a network. Changes made take effect immediately. Callers of this API must be members of the Administrators group.
 old-location: nla\inetwork_setcategory.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 6cbaa23e-f57c-4608-814b-9ccff1ec515f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INetwork interface [Network Awareness],SetCategory method, INetwork.SetCategory, INetwork::SetCategory, SetCategory, SetCategory method [Network Awareness], SetCategory method [Network Awareness],INetwork interface, netlistmgr/INetwork::SetCategory, nla.inetwork_setcategory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetwork.SetCategory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetwork::SetCategory

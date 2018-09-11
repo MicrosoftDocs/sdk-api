@@ -4,7 +4,7 @@ title: "_MFP_CREDENTIAL_FLAGS"
 author: windows-sdk-content
 description: Contains flags for the MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure.
 old-location: mf\_mfp_credential_flags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5aa13072-239a-41b6-a0b6-a2729bab2db4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_CREDENTIAL_FLAGS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _MFP_CREDENTIAL_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: "_MFP_CREDENTIAL_FLAGS"
+req.redist: 
 ---
 
 # _MFP_CREDENTIAL_FLAGS enumeration

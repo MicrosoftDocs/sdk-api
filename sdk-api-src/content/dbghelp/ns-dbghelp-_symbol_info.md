@@ -4,17 +4,16 @@ title: "_SYMBOL_INFO"
 author: windows-sdk-content
 description: Contains symbol information.
 old-location: base\symbol_info_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 785a9702-8b77-4ce1-99df-143ce78490ab
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PSYMBOL_INFO, PSYMBOL_INFO, PSYMBOL_INFO structure pointer, SYMBOL_INFO, SYMBOL_INFO structure, SYMBOL_INFOW, SYMFLAG_CLR_TOKEN, SYMFLAG_CONSTANT, SYMFLAG_EXPORT, SYMFLAG_FORWARDER, SYMFLAG_FRAMEREL, SYMFLAG_FUNCTION, SYMFLAG_ILREL, SYMFLAG_LOCAL, SYMFLAG_METADATA, SYMFLAG_PARAMETER, SYMFLAG_REGISTER, SYMFLAG_REGREL, SYMFLAG_SLOT, SYMFLAG_THUNK, SYMFLAG_TLSREL, SYMFLAG_VALUEPRESENT, SYMFLAG_VIRTUAL, _SYMBOL_INFO, _SYMBOL_INFOW, _win32_symbol_info_str, base.symbol_info_str, dbghelp/PSYMBOL_INFO, dbghelp/SYMBOL_INFO, dbghelp/SYMBOL_INFOW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYMBOL_INFO, *PSYMBOL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - SYMBOL_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SYMBOL_INFO, *PSYMBOL_INFO
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _SYMBOL_INFO structure

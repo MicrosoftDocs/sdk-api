@@ -4,17 +4,16 @@ title: XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS
 author: windows-sdk-content
 description: Defines stream buffer parameters that remain constant while an XAPO is locked. Used with the IXAPO::LockForProcess method.
 old-location: xaudio2\xapo_lockforprocess_buffer_parameters.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_LOCKFORPROCESS_PARAMETERS
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS, XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS structure [XAudio2 Audio Mixing APIs], XAPO_LOCKFORPROCESS_PARAMETERS, XAPO_LOCKFORPROCESS_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapo/XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS, xaudio2.xapo_lockforprocess_buffer_parameters
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: xapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAPO_LOCKFORPROCESS_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XAPO_LOCKFORPROCESS_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XAPO_LOCKFORPROCESS_PARAMETERS
+req.redist: 
 ---
 
 # XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS structure

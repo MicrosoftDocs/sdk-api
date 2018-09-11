@@ -4,17 +4,16 @@ title: IS_LOW_SURROGATE macro
 author: windows-sdk-content
 description: Determines if a character is a UTF-16 low surrogate code point, ranging from 0xdc00 to 0xdfff, inclusive.
 old-location: intl\is_low_surrogate.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 5f60b88b-4e3d-4e0a-803d-ab407425d92a
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IS_LOW_SURROGATE, IS_LOW_SURROGATE macro [Internationalization for Windows Applications], _win32_IS_LOW_SURROGATE, intl.is_low_surrogate, winnls/IS_LOW_SURROGATE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IS_LOW_SURROGATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IS_LOW_SURROGATE macro

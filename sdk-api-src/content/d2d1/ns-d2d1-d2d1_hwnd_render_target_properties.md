@@ -4,7 +4,7 @@ title: D2D1_HWND_RENDER_TARGET_PROPERTIES
 author: windows-sdk-content
 description: Contains the HWND, pixel size, and presentation options for an ID2D1HwndRenderTarget.
 old-location: direct2d\D2D1_HWND_RENDER_TARGET_PROPERTIES.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 4300843a-a24f-4f9e-a396-67172f083638
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_HWND_RENDER_TARGET_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_HWND_RENDER_TARGET_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_HWND_RENDER_TARGET_PROPERTIES
+req.redist: 
 ---
 
 # D2D1_HWND_RENDER_TARGET_PROPERTIES structure

@@ -4,7 +4,7 @@ title: tagDOT11_ADHOC_CONNECT_FAIL_REASON
 author: windows-sdk-content
 description: Specifies the reason why a connection attempt failed.
 old-location: nwifi\dot11_adhoc_connect_fail_reason.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: ea95f0b8-14ce-40a6-b5a3-853c414c52af
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_CONNECT_FAIL_REASON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DOT11_ADHOC_CONNECT_FAIL_REASON
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DOT11_ADHOC_CONNECT_FAIL_REASON
+req.redist: 
 ---
 
 # tagDOT11_ADHOC_CONNECT_FAIL_REASON enumeration

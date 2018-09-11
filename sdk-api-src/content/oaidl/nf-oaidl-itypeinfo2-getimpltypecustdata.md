@@ -4,17 +4,16 @@ title: ITypeInfo2::GetImplTypeCustData
 author: windows-sdk-content
 description: Gets the custom data of the implementation type.
 old-location: automat\itypeinfo2_getimpltypecustdata.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 1cb30f35-8ef0-482a-bd1f-83445c97fb1f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetImplTypeCustData, GetImplTypeCustData method [Automation], GetImplTypeCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetImplTypeCustData method, ITypeInfo2.GetImplTypeCustData, ITypeInfo2::GetImplTypeCustData, _oa96_ITypeInfo2_GetImplTypeCustData, automat.itypeinfo2_getimpltypecustdata, oaidl/ITypeInfo2::GetImplTypeCustData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo2.GetImplTypeCustData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo2::GetImplTypeCustData

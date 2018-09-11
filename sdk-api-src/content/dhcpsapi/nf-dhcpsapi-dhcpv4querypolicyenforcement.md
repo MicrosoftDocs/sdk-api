@@ -4,17 +4,16 @@ title: DhcpV4QueryPolicyEnforcement function
 author: windows-sdk-content
 description: Retrieves the policy enforcement state on the server or the specified IPv4 subnet from the DHCP Server.
 old-location: dhcp\dhcpv4querypolicyenforcement.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: a622d83c-bb18-4482-be8d-fdd96382a5e1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpV4QueryPolicyEnforcement, DhcpV4QueryPolicyEnforcement function [DHCP], dhcp.dhcpv4querypolicyenforcement, dhcpsapi/DhcpV4QueryPolicyEnforcement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpV4QueryPolicyEnforcement
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpV4QueryPolicyEnforcement function

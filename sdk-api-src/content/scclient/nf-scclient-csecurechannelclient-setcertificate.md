@@ -4,17 +4,16 @@ title: CSecureChannelClient::SetCertificate
 author: windows-sdk-content
 description: The SetCertificate method specifies the certificate and private key of the secure authenticated channel (SAC) client.
 old-location: wmdm\csecurechannelclient_setcertificate.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 58e8f428-f9b9-438b-8f92-e901537e1076
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],SetCertificate method, CSecureChannelClient.SetCertificate, CSecureChannelClient::SetCertificate, CSecureChannelClientSetCertificate, SetCertificate, SetCertificate method [windows Media Device Manager], SetCertificate method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::SetCertificate, wmdm.csecurechannelclient_setcertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: scclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CSecureChannelClient.SetCertificate
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CSecureChannelClient::SetCertificate

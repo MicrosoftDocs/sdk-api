@@ -4,7 +4,7 @@ title: IDirectManipulationManager2
 author: windows-sdk-content
 description: Extends the IDirectManipulationManager interface that provides access to all the Direct Manipulation features and APIs available to the client application.
 old-location: directmanipulation\idirectmanipulationmanager2.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 094C6C7D-F973-45AC-9B83-43DB9D46AF23
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationManager2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationManager2 interface

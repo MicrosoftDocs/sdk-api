@@ -4,17 +4,16 @@ title: MergeFontPackage function
 author: windows-sdk-content
 description: The MergeFontPackage function manipulates fonts created by CreateFontPackage.
 old-location: gdi\mergefontpackage.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: c51110a0-286c-4d97-9da5-4186ebf8f9b8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MergeFontPackage, MergeFontPackage function [Windows GDI], TTFMFP_DELTA, TTFMFP_SUBSET, TTFMFP_SUBSET1, _win32_MergeFontPackage, fontsub/MergeFontPackage, gdi.mergefontpackage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fontsub.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FontSub.lib
+req.dll: FontSub.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MergeFontPackage
 product: Windows
 targetos: Windows
-req.lib: FontSub.lib
-req.dll: FontSub.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # MergeFontPackage function

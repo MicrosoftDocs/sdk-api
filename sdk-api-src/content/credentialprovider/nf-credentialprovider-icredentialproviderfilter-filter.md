@@ -4,17 +4,16 @@ title: ICredentialProviderFilter::Filter
 author: windows-sdk-content
 description: Evaluates whether a list of credential providers should be allowed to provide credential tiles.
 old-location: shell\ICredentialProviderFilter_Filter.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3ba60965-6f18-427f-851d-b92c71eb03d2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE_ADMINS, CREDUIWIN_ENUMERATE_CURRENT_USER, CREDUIWIN_GENERIC, CREDUIWIN_IN_CRED_ONLY, CREDUIWIN_PACK_32_WOW, Filter, Filter method [Windows Shell], Filter method [Windows Shell],ICredentialProviderFilter interface, ICredentialProviderFilter interface [Windows Shell],Filter method, ICredentialProviderFilter.Filter, ICredentialProviderFilter::Filter, _shell_ICredentialProviderFilter_Filter, credentialprovider/ICredentialProviderFilter::Filter, shell.ICredentialProviderFilter_Filter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderFilter.Filter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderFilter::Filter

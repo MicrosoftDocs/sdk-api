@@ -4,17 +4,16 @@ title: IWMWriterFileSink3::GetAutoIndexing
 author: windows-sdk-content
 description: The GetAutoIndexing method retrieves the current state of automatic indexing for the file.
 old-location: wmformat\iwmwriterfilesink3_getautoindexing.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: a6412ce4-03ac-4777-8eb2-ef9f265a6d6c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAutoIndexing, GetAutoIndexing method [windows Media Format], GetAutoIndexing method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],GetAutoIndexing method, IWMWriterFileSink3.GetAutoIndexing, IWMWriterFileSink3::GetAutoIndexing, IWMWriterFileSink3GetAutoIndexing, wmformat.iwmwriterfilesink3_getautoindexing, wmsdkidl/IWMWriterFileSink3::GetAutoIndexing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMWriterFileSink3.GetAutoIndexing
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMWriterFileSink3::GetAutoIndexing

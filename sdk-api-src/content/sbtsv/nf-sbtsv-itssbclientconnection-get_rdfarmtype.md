@@ -4,17 +4,16 @@ title: ITsSbClientConnection::get_RdFarmType
 author: windows-sdk-content
 description: Rd Farm Type.
 old-location: termserv\itssbclientconnection_rdfarmtype.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: a4dd43fe-2421-4666-a6ff-974555e44e60
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],RdFarmType property, ITsSbClientConnection.RdFarmType, ITsSbClientConnection.get_RdFarmType, ITsSbClientConnection::RdFarmType, ITsSbClientConnection::get_RdFarmType, RdFarmType property [Remote Desktop Services], RdFarmType property [Remote Desktop Services],ITsSbClientConnection interface, get_RdFarmType, sbtsv/ITsSbClientConnection::RdFarmType, sbtsv/ITsSbClientConnection::get_RdFarmType, termserv.itssbclientconnection_rdfarmtype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbClientConnection.get_RdFarmType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbClientConnection::get_RdFarmType

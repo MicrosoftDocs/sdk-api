@@ -4,17 +4,16 @@ title: IBackgroundCopyCallback1::OnStatus
 author: windows-sdk-content
 description: Implement the OnStatus method to receive notification when the group is complete or an error occurs.
 old-location: bits\ibackgroundcopycallback1_onstatus.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 88f75a65-8d27-4413-8b00-4caf11fbcc5e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyCallback1 interface [BITS],OnStatus method, IBackgroundCopyCallback1.OnStatus, IBackgroundCopyCallback1::OnStatus, OnStatus, OnStatus method [BITS], OnStatus method [BITS],IBackgroundCopyCallback1 interface, bits.ibackgroundcopycallback1_onstatus, qmgr/IBackgroundCopyCallback1::OnStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyCallback1.OnStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyCallback1::OnStatus
@@ -84,7 +82,7 @@ The state of the group. The state of the group is either complete (all jobs in t
 
 ### -param dwNumOfRetries
 
-
+TBD
 
 
 ### -param dwWin32Result [in]

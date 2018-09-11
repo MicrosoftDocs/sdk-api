@@ -4,17 +4,16 @@ title: IWMPPlaylist::put_name
 author: windows-sdk-content
 description: The put_name method specifies the name of the playlist.
 old-location: wmp\iwmpplaylist_put_name.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 749dae2f-d9c3-4bbb-9a2f-042388f5ce0c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],put_name method, IWMPPlaylist.put_name, IWMPPlaylist::put_name, IWMPPlaylistput_name, put_name, put_name method [Windows Media Player], put_name method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_put_name, wmp/IWMPPlaylist::put_name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPPlaylist.put_name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPPlaylist::put_name

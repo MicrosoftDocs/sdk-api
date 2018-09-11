@@ -4,17 +4,16 @@ title: IDirectManipulationDragDropEventHandler::OnDragDropStatusChange
 author: windows-sdk-content
 description: Called when a status change happens in the viewport that the drag-and-drop behavior is attached to.
 old-location: directmanipulation\idirectmanipulationdragdropeventhandler_ondragdropstatuschange.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 4AC5DB55-57EF-4182-B4B9-3A4F1DE0E6B0
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDirectManipulationDragDropEventHandler interface [Direct Manipulation],OnDragDropStatusChange method, IDirectManipulationDragDropEventHandler.OnDragDropStatusChange, IDirectManipulationDragDropEventHandler::OnDragDropStatusChange, OnDragDropStatusChange, OnDragDropStatusChange method [Direct Manipulation], OnDragDropStatusChange method [Direct Manipulation],IDirectManipulationDragDropEventHandler interface, directmanipulation.idirectmanipulationdragdropeventhandler_ondragdropstatuschange, directmanipulation/IDirectManipulationDragDropEventHandler::OnDragDropStatusChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationDragDropEventHandler.OnDragDropStatusChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationDragDropEventHandler::OnDragDropStatusChange

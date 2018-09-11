@@ -4,17 +4,16 @@ title: IAppxManifestOptionalPackageInfo::GetMainPackageName
 author: windows-sdk-content
 description: Gets the main package name from the optional package.
 old-location: appxpkg\iappxmanifestoptionalpackageinfo_getmainpackagename.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 95CD6739-06B2-4862-8313-4133AFBFD583
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetMainPackageName, GetMainPackageName method [App packaging and management], GetMainPackageName method [App packaging and management],IAppxManifestOptionalPackageInfo interface, IAppxManifestOptionalPackageInfo interface [App packaging and management],GetMainPackageName method, IAppxManifestOptionalPackageInfo.GetMainPackageName, IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpackaging/IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpkg.iappxmanifestoptionalpackageinfo_getmainpackagename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxManifestOptionalPackageInfo.GetMainPackageName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxManifestOptionalPackageInfo::GetMainPackageName

@@ -4,17 +4,16 @@ title: ID3D11Device1::CreateDeferredContext1
 author: windows-sdk-content
 description: Creates a deferred context, which can record command lists.
 old-location: direct3d11\id3d11device1_createdeferredcontext1.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 2F7E343F-2A25-44F2-9352-5F378718D6F6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateDeferredContext1, CreateDeferredContext1 method [Direct3D 11], CreateDeferredContext1 method [Direct3D 11],ID3D11Device1 interface, ID3D11Device1 interface [Direct3D 11],CreateDeferredContext1 method, ID3D11Device1.CreateDeferredContext1, ID3D11Device1::CreateDeferredContext1, d3d11_1/ID3D11Device1::CreateDeferredContext1, direct3d11.id3d11device1_createdeferredcontext1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device1.CreateDeferredContext1
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device1::CreateDeferredContext1

@@ -4,17 +4,16 @@ title: IDynamicRenderer::get_DrawingAttributes
 author: windows-sdk-content
 description: Gets or sets the DrawingAttributes object used by the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_drawingattributes.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: d67a85e7-6dfc-4444-bb69-a46e1234d021
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],DrawingAttributes property, IDynamicRenderer.DrawingAttributes, IDynamicRenderer.get_DrawingAttributes, IDynamicRenderer.put_DrawingAttributes, IDynamicRenderer::DrawingAttributes, IDynamicRenderer::get_DrawingAttributes, IDynamicRenderer::put_DrawingAttributes, d67a85e7-6dfc-4444-bb69-a46e1234d021, get_DrawingAttributes, rtscom/IDynamicRenderer::DrawingAttributes, rtscom/IDynamicRenderer::get_DrawingAttributes, rtscom/IDynamicRenderer::put_DrawingAttributes, tablet.idynamicrenderer_drawingattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - IDynamicRenderer.put_DrawingAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDynamicRenderer::get_DrawingAttributes

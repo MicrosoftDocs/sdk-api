@@ -4,17 +4,16 @@ title: "_CLUSTER_SETUP_PHASE_TYPE"
 author: windows-sdk-content
 description: Describes the progress of the cluster setup process.
 old-location: mscs\cluster_setup_phase_type.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 515fe36d-84a0-41f1-80fa-a8c12718bdf5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_SETUP_PHASE_TYPE, CLUSTER_SETUP_PHASE_TYPE enumeration [Failover Cluster], ClusterSetupPhaseContinue, ClusterSetupPhaseEnd, ClusterSetupPhaseStart, _CLUSTER_SETUP_PHASE_TYPE, clusapi/CLUSTER_SETUP_PHASE_TYPE, clusapi/ClusterSetupPhaseContinue, clusapi/ClusterSetupPhaseEnd, clusapi/ClusterSetupPhaseStart, mscs.cluster_setup_phase_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CluAdmEx.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_SETUP_PHASE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSTER_SETUP_PHASE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_SETUP_PHASE_TYPE
+req.redist: 
 ---
 
 # _CLUSTER_SETUP_PHASE_TYPE enumeration

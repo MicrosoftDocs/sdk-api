@@ -4,17 +4,16 @@ title: IScheduleCollection::Clear
 author: windows-sdk-content
 description: Removes all schedules from the collection.
 old-location: pla\ischedulecollection_clear.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: e9a3afb8-0049-425b-a231-bbb5b56eced7
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Clear method, IScheduleCollection.Clear, IScheduleCollection::Clear, base.ischedulecollection_clear, pla.ischedulecollection_clear, pla/IScheduleCollection::Clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScheduleCollection.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IScheduleCollection::Clear

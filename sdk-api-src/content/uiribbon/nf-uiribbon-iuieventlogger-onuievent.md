@@ -4,17 +4,16 @@ title: IUIEventLogger::OnUIEvent
 author: windows-sdk-content
 description: Receives notifications that a ribbon event has occurred.
 old-location: windowsribbon\onuievent.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: 1BE6F914-C57D-4A8F-A286-C47BFD48B310
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIEventLogger interface [Windows Ribbon],OnUIEvent method, IUIEventLogger.OnUIEvent, IUIEventLogger::OnUIEvent, OnUIEvent, OnUIEvent method [Windows Ribbon], OnUIEvent method [Windows Ribbon],IUIEventLogger interface, uiribbon/IUIEventLogger::OnUIEvent, windowsribbon.onuievent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIEventLogger.OnUIEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUIEventLogger::OnUIEvent

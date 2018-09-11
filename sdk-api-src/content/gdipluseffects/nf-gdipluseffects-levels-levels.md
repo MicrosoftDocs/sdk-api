@@ -4,17 +4,16 @@ title: Levels::Levels
 author: windows-sdk-content
 description: Creates a Levels object.
 old-location: gdiplus\_gdiplus_CLASS_Levels_Levels_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsconstructors\levels.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Levels, Levels class [GDI+],Levels constructor, Levels constructor [GDI+], Levels constructor [GDI+],Levels class, Levels.Levels, Levels::Levels, _gdiplus_CLASS_Levels_Levels_, gdiplus._gdiplus_CLASS_Levels_Levels_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Levels.Levels
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.1
 ---
 

@@ -4,17 +4,16 @@ title: "_GROUP_USERS_INFO_0"
 author: windows-sdk-content
 description: The GROUP_USERS_INFO_0 structure contains global group member information.
 old-location: netmgmt\group_users_info_0_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: cc0e5d27-91f1-4640-bb80-e73899fabba9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPGROUP_USERS_INFO_0, *PGROUP_USERS_INFO_0, GROUP_USERS_INFO_0, GROUP_USERS_INFO_0 structure [Network Management], LPGROUP_USERS_INFO_0, LPGROUP_USERS_INFO_0 structure pointer [Network Management], PGROUP_USERS_INFO_0, PGROUP_USERS_INFO_0 structure pointer [Network Management], _GROUP_USERS_INFO_0, _win32_group_users_info_0_str, lmaccess/GROUP_USERS_INFO_0, lmaccess/LPGROUP_USERS_INFO_0, lmaccess/PGROUP_USERS_INFO_0, netmgmt.group_users_info_0_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUP_USERS_INFO_0, *PGROUP_USERS_INFO_0, *LPGROUP_USERS_INFO_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GROUP_USERS_INFO_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: GROUP_USERS_INFO_0, *PGROUP_USERS_INFO_0, *LPGROUP_USERS_INFO_0
+req.redist: 
 ---
 
 # _GROUP_USERS_INFO_0 structure

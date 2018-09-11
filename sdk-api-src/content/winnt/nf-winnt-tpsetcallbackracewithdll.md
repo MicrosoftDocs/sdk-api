@@ -4,17 +4,16 @@ title: TpSetCallbackRaceWithDll function
 author: windows-sdk-content
 description: Ensures that the specified DLL remains loaded as long as there are outstanding callbacks.
 old-location: base\tpsetcallbackracewithdll.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 14519064-450C-409E-AA2D-B4EF4D43C180
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: TpSetCallbackRaceWithDll, TpSetCallbackRaceWithDll function, base.tpsetcallbackracewithdll, winnt/TpSetCallbackRaceWithDll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TpSetCallbackRaceWithDll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # TpSetCallbackRaceWithDll function

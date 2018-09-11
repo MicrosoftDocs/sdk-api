@@ -4,7 +4,7 @@ title: "_DRM_CLIENT_VERSION_INFO"
 author: windows-sdk-content
 description: Receives information about the version of the Active Directory Rights Management Services (AD RMS) client and the hierarchy, such as Production or Pre-production.
 old-location: rm\drm_client_version_info.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 5f1fdd8a-dbe1-4b07-888b-b5af0f593fd3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msdrmdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_CLIENT_VERSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRM_CLIENT_VERSION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRM_CLIENT_VERSION_INFO
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

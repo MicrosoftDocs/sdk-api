@@ -4,17 +4,16 @@ title: ITypeLib2::GetLibStatistics
 author: windows-sdk-content
 description: Returns statistics about a type library that are required for efficient sizing of hash tables.
 old-location: automat\itypelib2_getlibstatistics.htm
-old-project: automat
+tech.root: automat
 ms.assetid: b6ee47f7-eca6-48f6-b984-ff8c83a4ca46
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetLibStatistics, GetLibStatistics method [Automation], GetLibStatistics method [Automation],ITypeLib2 interface, ITypeLib2 interface [Automation],GetLibStatistics method, ITypeLib2.GetLibStatistics, ITypeLib2::GetLibStatistics, _oa96_ITypeLib2_GetLibStatistics, automat.itypelib2_getlibstatistics, oaidl/ITypeLib2::GetLibStatistics
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeLib2.GetLibStatistics
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeLib2::GetLibStatistics

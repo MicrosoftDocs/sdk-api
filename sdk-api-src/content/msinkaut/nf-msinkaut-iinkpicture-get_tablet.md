@@ -4,17 +4,16 @@ title: IInkPicture::get_Tablet
 author: windows-sdk-content
 description: Gets either the IInkTablet object to which a cursor belongs or the IInkTablet object that an object or control is currently using to collect input.
 old-location: tablet\inkpicture_tablet.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b3fbfec6-dba8-43bd-b3b0-7c435a2cf407
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkPicture interface [Tablet PC],Tablet property, IInkPicture.Tablet, IInkPicture.get_Tablet, IInkPicture::Tablet, IInkPicture::get_Tablet, InkPicture.get_Tablet, Tablet property [Tablet PC], Tablet property [Tablet PC],IInkPicture interface, get_Tablet, msinkaut/IInkPicture::Tablet, msinkaut/IInkPicture::get_Tablet, tablet.inkpicture_tablet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkPicture.get_Tablet
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::get_Tablet

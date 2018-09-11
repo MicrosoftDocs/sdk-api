@@ -4,17 +4,16 @@ title: IPhotoAcquirePlugin::ProcessItem
 author: windows-sdk-content
 description: The ProcessItem method provides additional functionality each time an item is processed. The application provides the implementation of the ProcessItem method.
 old-location: picacq\iphotoacquireplugin_processitem.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: f8a9144e-a728-48b7-a729-eec6d4db6d9e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],ProcessItem method, IPhotoAcquirePlugin.ProcessItem, IPhotoAcquirePlugin::ProcessItem, IPhotoAcquirePluginProcessItem, ProcessItem, ProcessItem method [Picture Acquisition], ProcessItem method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::ProcessItem, picacq.iphotoacquireplugin_processitem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquirePlugin.ProcessItem
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquirePlugin::ProcessItem

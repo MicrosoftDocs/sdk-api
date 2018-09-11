@@ -4,17 +4,16 @@ title: ITfMenu::AddMenuItem
 author: windows-sdk-content
 description: ITfMenu::AddMenuItem method
 old-location: tsf\itfmenu_addmenuitem.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: c00048d1-d7c1-4ea3-a132-5f5aa570148f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddMenuItem, AddMenuItem method [Text Services Framework], AddMenuItem method [Text Services Framework],ITfMenu interface, ITfMenu interface [Text Services Framework],AddMenuItem method, ITfMenu.AddMenuItem, ITfMenu::AddMenuItem, _tsf_itfmenu_addmenuitem_ref, ctfutb/ITfMenu::AddMenuItem, tsf.itfmenu_addmenuitem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfMenu.AddMenuItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfMenu::AddMenuItem

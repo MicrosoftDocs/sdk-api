@@ -4,17 +4,16 @@ title: IMFByteStream::IsEndOfStream
 author: windows-sdk-content
 description: Queries whether the current position has reached the end of the stream.
 old-location: mf\imfbytestream_isendofstream.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5e5c02ea-d3fc-4d8d-aa8b-87aa033a3644
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 5e5c02ea-d3fc-4d8d-aa8b-87aa033a3644, IMFByteStream interface [Media Foundation],IsEndOfStream method, IMFByteStream.IsEndOfStream, IMFByteStream::IsEndOfStream, IsEndOfStream, IsEndOfStream method [Media Foundation], IsEndOfStream method [Media Foundation],IMFByteStream interface, mf.imfbytestream_isendofstream, mfobjects/IMFByteStream::IsEndOfStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFByteStream.IsEndOfStream
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFByteStream::IsEndOfStream

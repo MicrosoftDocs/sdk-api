@@ -4,17 +4,16 @@ title: IDirect3DCubeTexture9::UnlockRect
 author: windows-sdk-content
 description: Unlocks a rectangle on a cube texture resource.
 old-location: direct3d9\idirect3dcubetexture9__unlockrect.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dcubetexture9__unlockrect.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDirect3DCubeTexture9 interface [Direct3D 9],UnlockRect method, IDirect3DCubeTexture9.UnlockRect, IDirect3DCubeTexture9::UnlockRect, UnlockRect, UnlockRect method [Direct3D 9], UnlockRect method [Direct3D 9],IDirect3DCubeTexture9 interface, d3d9helper/IDirect3DCubeTexture9::UnlockRect, direct3d9.idirect3dcubetexture9__unlockrect, f5fb42b3-5c6a-7e4c-83fd-575e49595447
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DCubeTexture9.UnlockRect
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DCubeTexture9::UnlockRect

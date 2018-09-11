@@ -4,17 +4,16 @@ title: IInitializeWithFile
 author: windows-sdk-content
 description: Exposes a method to initialize a handler, such as a property handler, thumbnail handler, or preview handler, with a file path.
 old-location: shell\IInitializeWithFile.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 323181ab-1dc2-4b2a-a91f-3eccd7968bcd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IInitializeWithFile, IInitializeWithFile interface [Windows Shell], IInitializeWithFile interface [Windows Shell],described, propsys/IInitializeWithFile, shell.IInitializeWithFile, shell_IInitializeWithFile
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInitializeWithFile
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IInitializeWithFile interface

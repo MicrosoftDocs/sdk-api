@@ -4,17 +4,16 @@ title: ICertificateAttestationChallenge::get_RequestID
 author: windows-sdk-content
 description: Gets the request ID from the Certificate Management over CMS (CMC) response.
 old-location: security\icertificateattestationchallenge_requestid.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: c3ca69cf-12e0-4341-b3a6-f668155ea3ff
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertificateAttestationChallenge interface [Security],RequestID property, ICertificateAttestationChallenge.RequestID, ICertificateAttestationChallenge.get_RequestID, ICertificateAttestationChallenge::RequestID, ICertificateAttestationChallenge::get_RequestID, RequestID property [Security], RequestID property [Security],ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::RequestID, certenroll/ICertificateAttestationChallenge::get_RequestID, get_RequestID, security.icertificateattestationchallenge_requestid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertificateAttestationChallenge.get_RequestID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificateAttestationChallenge::get_RequestID

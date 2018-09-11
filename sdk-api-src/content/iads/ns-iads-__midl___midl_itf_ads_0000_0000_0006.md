@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_ads_0000_0000_0006"
 author: windows-sdk-content
 description: The ADS_POSTALADDRESS structure is an ADSI representation of the Postal Address attribute.
 old-location: adsi\ads_postaladdress.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: ae56f4ca-e6f1-4199-83b2-6d810d24fb4a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_POSTALADDRESS, *PADS_POSTALADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_POSTALADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_POSTALADDRESS, *PADS_POSTALADDRESS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_ads_0000_0000_0006 structure

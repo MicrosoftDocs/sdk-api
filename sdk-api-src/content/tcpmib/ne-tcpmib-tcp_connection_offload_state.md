@@ -4,7 +4,7 @@ title: TCP_CONNECTION_OFFLOAD_STATE
 author: windows-sdk-content
 description: Defines the possible TCP offload states for a TCP connection.
 old-location: mib\tcp_connection_offload_state.htm
-old-project: mib
+tech.root: mib
 ms.assetid: cef633e7-1577-4f10-bd14-8d8e85aa78e6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCP_CONNECTION_OFFLOAD_STATE, *PTCP_CONNECTION_OFFLOAD_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - TCP_CONNECTION_OFFLOAD_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TCP_CONNECTION_OFFLOAD_STATE, *PTCP_CONNECTION_OFFLOAD_STATE
+req.redist: 
 ---
 
 # TCP_CONNECTION_OFFLOAD_STATE enumeration

@@ -4,17 +4,16 @@ title: ISnapinAbout::GetSnapinDescription
 author: windows-sdk-content
 description: Enables the console to obtain the text for the snap-in's description box.
 old-location: mmc\isnapinabout_getsnapindescription.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 9f97d504-baba-4c9a-ab0b-ef585d2fe12c
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetSnapinDescription, GetSnapinDescription method [MMC], GetSnapinDescription method [MMC],ISnapinAbout interface, ISnapinAbout interface [MMC],GetSnapinDescription method, ISnapinAbout.GetSnapinDescription, ISnapinAbout::GetSnapinDescription, _slate_isnapinabout_getsnapindescription, mmc.isnapinabout_getsnapindescription, mmc/ISnapinAbout::GetSnapinDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISnapinAbout.GetSnapinDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISnapinAbout::GetSnapinDescription

@@ -4,17 +4,16 @@ title: IExplorerBrowserEvents::OnNavigationFailed
 author: windows-sdk-content
 description: Notifies clients that the Explorer browser has failed to navigate to a Shell folder.
 old-location: shell\IExplorerBrowserEvents_OnNavigationFailed.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d4de3b81-4482-47c8-bb47-593aba484952
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnNavigationFailed method, IExplorerBrowserEvents.OnNavigationFailed, IExplorerBrowserEvents::OnNavigationFailed, OnNavigationFailed, OnNavigationFailed method [Windows Shell], OnNavigationFailed method [Windows Shell],IExplorerBrowserEvents interface, _shell_IExplorerBrowserEvents_OnNavigationFailed, shell.IExplorerBrowserEvents_OnNavigationFailed, shobjidl_core/IExplorerBrowserEvents::OnNavigationFailed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExplorerBrowserEvents.OnNavigationFailed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExplorerBrowserEvents::OnNavigationFailed

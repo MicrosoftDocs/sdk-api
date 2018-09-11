@@ -4,7 +4,7 @@ title: "_BLUETOOTH_PIN_INFO"
 author: windows-sdk-content
 description: BLUETOOTH_PIN_INFO structure contains information used for authentication via PIN.
 old-location: bluetooth\bluetooth_pin_info.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 9fae3b95-eeed-4f06-af27-762b8de615ed
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_PIN_INFO, *PBLUETOOTH_PIN_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BLUETOOTH_PIN_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BLUETOOTH_PIN_INFO, *PBLUETOOTH_PIN_INFO
+req.redist: 
 ---
 
 # _BLUETOOTH_PIN_INFO structure

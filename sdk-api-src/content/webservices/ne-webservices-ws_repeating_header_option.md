@@ -4,17 +4,16 @@ title: WS_REPEATING_HEADER_OPTION
 author: windows-sdk-content
 description: This enum is used to specify whether a header is expected to appear more than once in a message.
 old-location: wsw\ws_repeating_header_option.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 7bbe5aba-e7b6-483d-8782-714a38ef4a99
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_REPEATING_HEADER, WS_REPEATING_HEADER_OPTION, WS_REPEATING_HEADER_OPTION enumeration [Web Services for Windows], WS_SINGLETON_HEADER, webservices/WS_REPEATING_HEADER, webservices/WS_REPEATING_HEADER_OPTION, webservices/WS_SINGLETON_HEADER, wsw.ws_repeating_header_option
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_REPEATING_HEADER_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_REPEATING_HEADER_OPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_REPEATING_HEADER_OPTION
+req.redist: 
 ---
 
 # WS_REPEATING_HEADER_OPTION enumeration

@@ -4,7 +4,7 @@ title: "_COPP_HDCP_Protection_Level"
 author: windows-sdk-content
 description: Specifies the HDCP protection level.
 old-location: dshow\copp_hdcp_protection_level.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 902ea4c6-8eba-4bfd-b986-5e7a5a2a5971
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva9typ.h
 req.include-header: Dxva.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COPP_HDCP_Protection_Level
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COPP_HDCP_Protection_Level
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: COPP_HDCP_Protection_Level
+req.redist: 
 ---
 
 # _COPP_HDCP_Protection_Level enumeration

@@ -4,17 +4,16 @@ title: ITypeChangeEvents::AfterTypeChange
 author: windows-sdk-content
 description: Raised after a type has been changed.
 old-location: automat\itypechangeevents_aftertypechange.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 902663be-4cdb-47e5-916a-004483d6758e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AfterTypeChange, AfterTypeChange method [Automation], AfterTypeChange method [Automation],ITypeChangeEvents interface, CHANGEKIND_ADDMEMBER, CHANGEKIND_CHANGEFAILED, CHANGEKIND_DELETEMEMBER, CHANGEKIND_GENERAL, CHANGEKIND_INVALIDATE, CHANGEKIND_SETDOCUMENTATION, CHANGEKIND_SETNAMES, ITypeChangeEvents interface [Automation],AfterTypeChange method, ITypeChangeEvents.AfterTypeChange, ITypeChangeEvents::AfterTypeChange, _oa96_ITypeChangeEvents_AfterTypeChange, automat.itypechangeevents_aftertypechange, oaidl/ITypeChangeEvents::AfterTypeChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeChangeEvents.AfterTypeChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeChangeEvents::AfterTypeChange

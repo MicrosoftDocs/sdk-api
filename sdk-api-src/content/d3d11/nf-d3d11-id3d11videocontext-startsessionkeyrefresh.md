@@ -4,17 +4,16 @@ title: ID3D11VideoContext::StartSessionKeyRefresh
 author: windows-sdk-content
 description: Gets a random number that can be used to refresh the session key.
 old-location: mf\id3d11videocontext_startsessionkeyrefresh.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 63376BFE-BA84-4268-8AA8-128BEB83AE78
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],StartSessionKeyRefresh method, ID3D11VideoContext.StartSessionKeyRefresh, ID3D11VideoContext::StartSessionKeyRefresh, StartSessionKeyRefresh, StartSessionKeyRefresh method [Media Foundation], StartSessionKeyRefresh method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::StartSessionKeyRefresh, mf.id3d11videocontext_startsessionkeyrefresh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.StartSessionKeyRefresh
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::StartSessionKeyRefresh

@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::put_DaysSinceFileLastModified
 author: windows-sdk-content
 description: The number of days that have elapsed since a file was last modified.
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilelastmodified.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 3ee02d60-50c7-4643-9604-b72ca1da01f6
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: DaysSinceFileLastModified property [File Server Resource Manager], DaysSinceFileLastModified property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DaysSinceFileLastModified property, IFsrmFileManagementJob.DaysSinceFileLastModified, IFsrmFileManagementJob.put_DaysSinceFileLastModified, IFsrmFileManagementJob::DaysSinceFileLastModified, IFsrmFileManagementJob::get_DaysSinceFileLastModified, IFsrmFileManagementJob::put_DaysSinceFileLastModified, fs.ifsrmfilemanagementjob_dayssincefilelastmodified, fsrm.ifsrmfilemanagementjob_dayssincefilelastmodified, fsrmreports/IFsrmFileManagementJob::DaysSinceFileLastModified, fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileLastModified, fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileLastModified, put_DaysSinceFileLastModified
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileManagementJob.put_DaysSinceFileLastModified
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::put_DaysSinceFileLastModified

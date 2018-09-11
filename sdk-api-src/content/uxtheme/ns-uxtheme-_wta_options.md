@@ -4,7 +4,7 @@ title: "_WTA_OPTIONS"
 author: windows-sdk-content
 description: Defines options that are used to set window visual style attributes.
 old-location: controls\WTA_OPTIONS.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\structures\wta_options.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTA_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
+req.redist: 
 ---
 
 # _WTA_OPTIONS structure

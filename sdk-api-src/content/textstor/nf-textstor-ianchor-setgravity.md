@@ -4,17 +4,16 @@ title: IAnchor::SetGravity
 author: windows-sdk-content
 description: IAnchor::SetGravity method
 old-location: tsf\ianchor_setgravity.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: c532abcf-9ae0-4566-80f7-0bb4ae908fce
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAnchor interface [Text Services Framework],SetGravity method, IAnchor.SetGravity, IAnchor::SetGravity, SetGravity, SetGravity method [Text Services Framework], SetGravity method [Text Services Framework],IAnchor interface, textstor/IAnchor::SetGravity, tsf.ianchor_setgravity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnchor.SetGravity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IAnchor::SetGravity

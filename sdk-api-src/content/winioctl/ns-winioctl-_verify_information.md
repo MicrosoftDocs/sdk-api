@@ -4,7 +4,7 @@ title: "_VERIFY_INFORMATION"
 author: windows-sdk-content
 description: Contains information used to verify a disk extent.
 old-location: fs\verify_information_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: bf987bb5-b3d8-4d5b-af44-d05fbe4c0a5c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VERIFY_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
+req.redist: 
 ---
 
 # _VERIFY_INFORMATION structure

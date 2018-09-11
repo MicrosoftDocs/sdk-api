@@ -4,17 +4,16 @@ title: ITraceEvent::SetProcessId
 author: windows-sdk-content
 description: Assigns an event to a specific process.
 old-location: etw\ievent_setprocessid.htm
-old-project: etw
+tech.root: etw
 ms.assetid: c2e5e6bf-cdff-42fa-9352-2f234f39849d
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: ITraceEvent interface [ETW],SetProcessId method, ITraceEvent.SetProcessId, ITraceEvent::SetProcessId, SetProcessId, SetProcessId method [ETW], SetProcessId method [ETW],ITraceEvent interface, etw.ievent_setprocessid, relogger/ITraceEvent::SetProcessId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceEvent.SetProcessId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceEvent::SetProcessId

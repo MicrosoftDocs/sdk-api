@@ -4,7 +4,7 @@ title: "_MFOffset"
 author: windows-sdk-content
 description: Specifies an offset as a fixed-point real number.
 old-location: mf\mfoffset.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e93539fe-3e4a-4b34-8d6a-b3f300a70ffc
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFOffset
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFOffset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFOffset
+req.redist: 
 ---
 
 # _MFOffset structure

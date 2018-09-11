@@ -4,17 +4,16 @@ title: IAppPublisher::GetCategories
 author: windows-sdk-content
 description: Retrieves a structure listing the categories provided by an application publisher.
 old-location: shell\IAppPublisher_GetCategories.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 139a5094-8bb3-4b5d-938d-ba4af5d52d94
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetCategories, GetCategories method [Windows Shell], GetCategories method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],GetCategories method, IAppPublisher.GetCategories, IAppPublisher::GetCategories, inet_IAppPublisher_GetCategories, shappmgr/IAppPublisher::GetCategories, shell.IAppPublisher_GetCategories
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PUBAPPINFOFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAppPublisher.GetCategories
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAppPublisher::GetCategories
@@ -62,7 +60,7 @@ Retrieves a structure listing the categories provided by an application publishe
 
 ### -param pAppCategoryList
 
-
+TBD
 
 
 

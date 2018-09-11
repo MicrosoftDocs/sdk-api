@@ -4,17 +4,16 @@ title: IAlternativeNames::Add
 author: windows-sdk-content
 description: Adds an object to the collection.
 old-location: security\ialternativenames_add_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 02085a1c-0821-4b11-95ad-e1c3a69f4e80
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Add method, IAlternativeNames.Add, IAlternativeNames::Add, certenroll/IAlternativeNames::Add, security.ialternativenames_add_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAlternativeNames.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAlternativeNames::Add

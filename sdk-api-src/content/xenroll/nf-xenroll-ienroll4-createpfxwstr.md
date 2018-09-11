@@ -4,17 +4,16 @@ title: IEnroll4::createPFXWStr
 author: windows-sdk-content
 description: Saves the accepted certificate chain and private key in a Personal Information Exchange (PFX) format string. The PFX format is also known as PKCS #12.
 old-location: security\ienroll4_createpfxwstr.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 38ab5b07-2a84-484b-b413-58f0e11599e9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IEnroll4 interface [Security],createPFXWStr method, IEnroll4.createPFXWStr, IEnroll4::createPFXWStr, createPFXWStr, createPFXWStr method [Security], createPFXWStr method [Security],IEnroll4 interface, security.ienroll4_createpfxwstr, xenroll/IEnroll4::createPFXWStr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnroll4.createPFXWStr
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll4::createPFXWStr

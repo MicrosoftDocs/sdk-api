@@ -4,7 +4,7 @@ title: APPX_ENCRYPTED_PACKAGE_OPTIONS
 author: windows-sdk-content
 description: Encrypted app package options.
 old-location: appxpkg\appx_encrypted_package_options.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: BEF0AA21-AC0F-4DA5-BA5C-404E54B67953
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_ENCRYPTED_PACKAGE_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APPX_ENCRYPTED_PACKAGE_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: Appnotify.lib
-req.dll: Twinapi.core.dll
-req.irql: 
+req.typenames: APPX_ENCRYPTED_PACKAGE_OPTIONS
+req.redist: 
 ---
 
 # APPX_ENCRYPTED_PACKAGE_OPTIONS enumeration

@@ -4,17 +4,16 @@ title: IUIAnimationManager2::SetTrimPriorityComparison
 author: windows-sdk-content
 description: Sets the priority comparison handler that determines whether a scheduled storyboard can be trimmed.
 old-location: uianimation\iuianimationmanager2_settrimprioritycomparison.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 742BCD19-FC1D-46DE-9CBC-716793259947
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetTrimPriorityComparison method, IUIAnimationManager2.SetTrimPriorityComparison, IUIAnimationManager2::SetTrimPriorityComparison, SetTrimPriorityComparison, SetTrimPriorityComparison method [Windows Animation], SetTrimPriorityComparison method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_settrimprioritycomparison, uianimation/IUIAnimationManager2::SetTrimPriorityComparison
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationManager2.SetTrimPriorityComparison
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationManager2::SetTrimPriorityComparison

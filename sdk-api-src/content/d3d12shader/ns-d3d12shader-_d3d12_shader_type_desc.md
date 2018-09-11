@@ -4,7 +4,7 @@ title: "_D3D12_SHADER_TYPE_DESC"
 author: windows-sdk-content
 description: Describes a shader-variable type.
 old-location: direct3d12\d3d12_shader_type_desc.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: B0AF7987-B25B-4496-9B8F-1D9C16DF5E50
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SHADER_TYPE_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_SHADER_TYPE_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_SHADER_TYPE_DESC
+req.redist: 
 ---
 
 # _D3D12_SHADER_TYPE_DESC structure

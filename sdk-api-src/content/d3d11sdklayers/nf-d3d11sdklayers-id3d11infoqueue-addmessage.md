@@ -4,17 +4,16 @@ title: ID3D11InfoQueue::AddMessage
 author: windows-sdk-content
 description: Add a debug message to the message queue and send that message to debug output.
 old-location: direct3d11\id3d11infoqueue_addmessage.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 7265a273-327a-482b-9d47-6931e031cff8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 1ac22c4e-5bd3-bec5-0c6b-508a2b311005, AddMessage, AddMessage method [Direct3D 11], AddMessage method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],AddMessage method, ID3D11InfoQueue.AddMessage, ID3D11InfoQueue::AddMessage, d3d11sdklayers/ID3D11InfoQueue::AddMessage, direct3d11.id3d11infoqueue_addmessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11InfoQueue.AddMessage
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11InfoQueue::AddMessage

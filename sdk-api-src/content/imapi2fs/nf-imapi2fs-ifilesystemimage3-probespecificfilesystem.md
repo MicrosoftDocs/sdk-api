@@ -4,17 +4,16 @@ title: IFileSystemImage3::ProbeSpecificFileSystem
 author: windows-sdk-content
 description: Determines if a specific file system on the current media is appendable through the IMAPI.
 old-location: imapi\ifilesystemimage3_probespecificfilesystem.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 0594c2e4-30ba-4d02-948e-09ec6a4ec352
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImage3 interface [IMAPI],ProbeSpecificFileSystem method, IFileSystemImage3.ProbeSpecificFileSystem, IFileSystemImage3::ProbeSpecificFileSystem, ProbeSpecificFileSystem, ProbeSpecificFileSystem method [IMAPI], ProbeSpecificFileSystem method [IMAPI],IFileSystemImage3 interface, imapi.ifilesystemimage3_probespecificfilesystem, imapi2fs/IFileSystemImage3::ProbeSpecificFileSystem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage3.ProbeSpecificFileSystem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage3::ProbeSpecificFileSystem

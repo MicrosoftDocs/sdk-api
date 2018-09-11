@@ -4,17 +4,16 @@ title: IMFMediaEngineClassFactoryEx::CreateMediaKeys
 author: windows-sdk-content
 description: Creates a media keys object based on the specified key system.
 old-location: mf\imfmediaengineclassfactoryex_createmediakeys.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 40b2b978-f12c-4066-acf5-e0c68b0fa928
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateMediaKeys, CreateMediaKeys method [Media Foundation], CreateMediaKeys method [Media Foundation],IMFMediaEngineClassFactoryEx interface, IMFMediaEngineClassFactoryEx interface [Media Foundation],CreateMediaKeys method, IMFMediaEngineClassFactoryEx.CreateMediaKeys, IMFMediaEngineClassFactoryEx::CreateMediaKeys, mf.imfmediaengineclassfactoryex_createmediakeys, mfmediaengine/IMFMediaEngineClassFactoryEx::CreateMediaKeys
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineClassFactoryEx.CreateMediaKeys
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineClassFactoryEx::CreateMediaKeys

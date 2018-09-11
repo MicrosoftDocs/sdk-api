@@ -4,7 +4,7 @@ title: "_PDH_RAW_COUNTER"
 author: windows-sdk-content
 description: The PDH_RAW_COUNTER structure returns the data as it was collected from the counter provider. No translation, formatting, or other interpretation is performed on the data.
 old-location: perf\pdh_raw_counter_str.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 237a3c82-0ab4-45cb-bd93-2f308178c573
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDH_RAW_COUNTER, *PPDH_RAW_COUNTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PDH_RAW_COUNTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PDH_RAW_COUNTER, *PPDH_RAW_COUNTER
+req.redist: 
 ---
 
 # _PDH_RAW_COUNTER structure

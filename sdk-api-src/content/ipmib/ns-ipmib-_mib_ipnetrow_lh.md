@@ -4,7 +4,7 @@ title: "_MIB_IPNETROW_LH"
 author: windows-sdk-content
 description: Contains information for an Address Resolution Protocol (ARP) table entry for an IPv4 address.
 old-location: mib\mib_ipnetrow.htm
-old-project: mib
+tech.root: mib
 ms.assetid: aa9aa9f9-2334-4b08-896f-f4a77caa0f7f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPNETROW_LH, *PMIB_IPNETROW_LH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_IPNETROW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_IPNETROW_LH, *PMIB_IPNETROW_LH
+req.redist: 
 ---
 
 # _MIB_IPNETROW_LH structure

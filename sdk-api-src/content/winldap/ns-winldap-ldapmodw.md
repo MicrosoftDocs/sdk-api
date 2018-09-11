@@ -4,7 +4,7 @@ title: ldapmodW
 author: windows-sdk-content
 description: Holds data required to perform a modification operation.
 old-location: ldap\ldapmod.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 07761668-e0d9-4ab0-b8ce-ce8626389e03
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LDAPModW, *PLDAPModW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldapmodW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LDAPModW, *PLDAPModW
+req.redist: 
 ---
 
 # ldapmodW structure

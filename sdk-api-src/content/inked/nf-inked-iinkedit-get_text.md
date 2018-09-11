@@ -4,17 +4,16 @@ title: IInkEdit::get_Text
 author: windows-sdk-content
 description: Gets or sets the current text in the InkEdit control.
 old-location: tablet\inkedit_text.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1b0b2354-7aa5-4e3f-8f7f-9e613c923f9f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkEdit interface [Tablet PC],Text property, IInkEdit.Text, IInkEdit.get_Text, IInkEdit::Text, IInkEdit::get_Text, IInkEdit::put_Text, InkEdit.get_Text, InkEdit.put_Text, Text property [Tablet PC], Text property [Tablet PC],IInkEdit interface, get_Text, inked/IInkEdit::Text, inked/IInkEdit::get_Text, inked/IInkEdit::put_Text, put_Text, tablet.inkedit_text
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_Text
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::get_Text

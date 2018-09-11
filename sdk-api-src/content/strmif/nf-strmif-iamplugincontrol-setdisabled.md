@@ -4,17 +4,16 @@ title: IAMPluginControl::SetDisabled
 author: windows-sdk-content
 description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list.
 old-location: dshow\iamplugincontrol_setdisabled.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3ac4b3b5-0882-4e30-b3fa-1dcee33a74d3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMPluginControl interface [DirectShow],SetDisabled method, IAMPluginControl.SetDisabled, IAMPluginControl::SetDisabled, SetDisabled, SetDisabled method [DirectShow], SetDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_setdisabled, strmif/IAMPluginControl::SetDisabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMPluginControl.SetDisabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMPluginControl::SetDisabled

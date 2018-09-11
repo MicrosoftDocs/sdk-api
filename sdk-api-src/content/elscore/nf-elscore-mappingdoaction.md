@@ -4,17 +4,16 @@ title: MappingDoAction function
 author: windows-sdk-content
 description: Causes an ELS service to perform an action after text recognition has occurred. For example, a phone dialer service first must recognize phone numbers and then can perform the &#0034;action&#0034; of dialing a number.
 old-location: intl\mappingdoaction.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: c3903d10-3429-4707-82b5-33efa6b2dc4c
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MappingDoAction, MappingDoAction function [Internationalization for Windows Applications], elscore/MappingDoAction, intl.mappingdoaction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: elscore.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, *PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
+req.lib: Elscore.lib
+req.dll: Elscore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MappingDoAction
 product: Windows
 targetos: Windows
-req.lib: Elscore.lib
-req.dll: Elscore.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # MappingDoAction function

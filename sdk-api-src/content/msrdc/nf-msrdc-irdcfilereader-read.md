@@ -4,17 +4,16 @@ title: IRdcFileReader::Read
 author: windows-sdk-content
 description: Reads the specified amount of data starting at the specified position.
 old-location: rdc\irdcfilereader_read.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 194944c8-94a8-4f9b-9970-012392e069b1
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IRdcFileReader interface [Remote Differential Compression],Read method, IRdcFileReader.Read, IRdcFileReader::Read, Read, Read method [Remote Differential Compression], Read method [Remote Differential Compression],IRdcFileReader interface, fs.irdcfilereader_read, msrdc/IRdcFileReader::Read, rdc.irdcfilereader_read
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsRdc.dll
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcFileReader.Read
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcFileReader::Read

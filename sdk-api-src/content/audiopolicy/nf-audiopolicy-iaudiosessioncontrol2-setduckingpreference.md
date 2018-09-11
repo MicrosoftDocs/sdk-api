@@ -4,17 +4,16 @@ title: IAudioSessionControl2::SetDuckingPreference
 author: windows-sdk-content
 description: The SetDuckingPreference method enables or disables the default stream attenuation experience (auto-ducking) provided by the system.
 old-location: coreaudio\iaudiosessioncontrol2_setduckingpreference.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 6689d7e4-9c45-483d-9f46-14d157726b02
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioSessionControl2 interface [Core Audio],SetDuckingPreference method, IAudioSessionControl2.SetDuckingPreference, IAudioSessionControl2::SetDuckingPreference, SetDuckingPreference, SetDuckingPreference method [Core Audio], SetDuckingPreference method [Core Audio],IAudioSessionControl2 interface, audiopolicy/IAudioSessionControl2::SetDuckingPreference, coreaudio.iaudiosessioncontrol2_setduckingpreference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionControl2.SetDuckingPreference
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionControl2::SetDuckingPreference

@@ -4,17 +4,16 @@ title: IDataCollector::get_DataCollectorType
 author: windows-sdk-content
 description: Retrieves the type of this data collector, for example, a performance data collector.
 old-location: pla\idatacollector_datacollectortype.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: a5ec0e60-555c-4a95-b13d-a22cc8db7c28
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: DataCollectorType property [PLA], DataCollectorType property [PLA],IDataCollector interface, IDataCollector interface [PLA],DataCollectorType property, IDataCollector.DataCollectorType, IDataCollector.get_DataCollectorType, IDataCollector::DataCollectorType, IDataCollector::get_DataCollectorType, base.idatacollector_datacollectortype, get_DataCollectorType, pla.idatacollector_datacollectortype, pla/IDataCollector::DataCollectorType, pla/IDataCollector::get_DataCollectorType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDataCollector.get_DataCollectorType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollector::get_DataCollectorType

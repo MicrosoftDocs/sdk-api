@@ -4,7 +4,7 @@ title: ID2D1GdiMetafileSink1
 author: windows-sdk-content
 description: This interface performs all the same functions as the existing ID2D1GdiMetafileSink interface. It also enables access to metafile records.
 old-location: direct2d\id2d1gdimetafilesink1.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 7772034c-0dfe-6c9b-99bb-6222a5517524
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1GdiMetafileSink1
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1GdiMetafileSink1 interface

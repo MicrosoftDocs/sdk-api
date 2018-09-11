@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_msp_0000_0000_0005"
 author: windows-sdk-content
 description: The MSP_EVENT_INFO structure defines the type of event returned by the GetEvent method.
 old-location: tapi3\msp_event_info.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 5286fbe6-3553-42f1-82e6-5bb6f75f3305
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msp.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSP_EVENT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MSP_EVENT_INFO
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msp_0000_0000_0005 structure

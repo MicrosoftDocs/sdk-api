@@ -4,17 +4,16 @@ title: ID3D12InfoQueue::PushCopyOfStorageFilter
 author: windows-sdk-content
 description: Push a copy of storage filter currently on the top of the storage-filter stack onto the storage-filter stack.
 old-location: direct3d12\id3d12infoqueue_pushcopyofstoragefilter.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: BA8D2BAC-4947-4ED7-A397-5102F74A65BD
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12InfoQueue interface,PushCopyOfStorageFilter method, ID3D12InfoQueue.PushCopyOfStorageFilter, ID3D12InfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method, PushCopyOfStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushCopyOfStorageFilter, direct3d12.id3d12infoqueue_pushcopyofstoragefilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12InfoQueue.PushCopyOfStorageFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12InfoQueue::PushCopyOfStorageFilter

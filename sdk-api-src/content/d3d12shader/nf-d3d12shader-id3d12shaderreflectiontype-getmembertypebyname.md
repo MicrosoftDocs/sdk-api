@@ -4,17 +4,16 @@ title: ID3D12ShaderReflectionType::GetMemberTypeByName
 author: windows-sdk-content
 description: Gets a shader-reflection-variable type by name.
 old-location: direct3d12\id3d12shaderreflectiontype_getmembertypebyname.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 1A05A112-3975-4424-AED7-55F9CFBF8771
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetMemberTypeByName, GetMemberTypeByName method, GetMemberTypeByName method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetMemberTypeByName method, ID3D12ShaderReflectionType.GetMemberTypeByName, ID3D12ShaderReflectionType::GetMemberTypeByName, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeByName, direct3d12.id3d12shaderreflectiontype_getmembertypebyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SHADER_VERSION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12ShaderReflectionType.GetMemberTypeByName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12ShaderReflectionType::GetMemberTypeByName

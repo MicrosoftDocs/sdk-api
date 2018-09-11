@@ -4,17 +4,16 @@ title: ITsSbClientConnection::get_UserSidString
 author: windows-sdk-content
 description: User SID as a string.
 old-location: termserv\itssbclientconnection_usersidstring.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: b04eeeca-de53-4b29-a5e8-15018ac11dc5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],UserSidString property, ITsSbClientConnection.UserSidString, ITsSbClientConnection.get_UserSidString, ITsSbClientConnection::UserSidString, ITsSbClientConnection::get_UserSidString, UserSidString property [Remote Desktop Services], UserSidString property [Remote Desktop Services],ITsSbClientConnection interface, get_UserSidString, sbtsv/ITsSbClientConnection::UserSidString, sbtsv/ITsSbClientConnection::get_UserSidString, termserv.itssbclientconnection_usersidstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbClientConnection.get_UserSidString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbClientConnection::get_UserSidString

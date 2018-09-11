@@ -4,17 +4,16 @@ title: "_FH_LOCAL_POLICY_TYPE"
 author: windows-sdk-content
 description: Specifies the type of a local policy for the File History feature. Each local policy has a numeric parameter associated with it.
 old-location: winprog\fh_local_policy_type.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 59C54A67-91A3-495F-95F2-50EB373D442C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PFH_LOCAL_POLICY_TYPE, FH_FREQUENCY, FH_LOCAL_POLICY_TYPE, FH_LOCAL_POLICY_TYPE enumeration [Windows API], FH_RETENTION_AGE, FH_RETENTION_TYPE, MAX_LOCAL_POLICY, _FH_LOCAL_POLICY_TYPE, fhcfg/FH_FREQUENCY, fhcfg/FH_LOCAL_POLICY_TYPE, fhcfg/FH_RETENTION_AGE, fhcfg/FH_RETENTION_TYPE, fhcfg/MAX_LOCAL_POLICY, winprog.fh_local_policy_type"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_LOCAL_POLICY_TYPE, *PFH_LOCAL_POLICY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FH_LOCAL_POLICY_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FH_LOCAL_POLICY_TYPE, *PFH_LOCAL_POLICY_TYPE
+req.redist: 
 ---
 
 # _FH_LOCAL_POLICY_TYPE enumeration

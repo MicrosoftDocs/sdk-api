@@ -4,17 +4,16 @@ title: "_WSD_EVENTING_FILTER_ACTION"
 author: windows-sdk-content
 description: Represents a boolean expression used for filtering events.
 old-location: ncd\wsd_eventing_filter_action.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: d6fc39ec-f57a-4b20-8c8a-7e370ee3f377
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSD_EVENTING_FILTER_ACTION, WSD_EVENTING_FILTER_ACTION structure, _WSD_EVENTING_FILTER_ACTION, ncd.wsd_eventing_filter_action, wsdtypes/WSD_EVENTING_FILTER_ACTION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_EVENTING_FILTER_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_EVENTING_FILTER_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_EVENTING_FILTER_ACTION
+req.redist: 
 ---
 
 # _WSD_EVENTING_FILTER_ACTION structure

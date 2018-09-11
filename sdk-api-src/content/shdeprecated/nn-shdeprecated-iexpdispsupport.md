@@ -4,17 +4,16 @@ title: IExpDispSupport
 author: windows-sdk-content
 description: Deprecated. Exposes methods that allow the retrieval of properties, translation of keyboard accelerators, and determination of a connection point for certain events.
 old-location: shell\IExpDispSupport.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ddc71eaf-2c3a-4d70-80f1-6d499bf31b6d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IExpDispSupport, IExpDispSupport interface [Windows Shell], IExpDispSupport interface [Windows Shell],described, shdeprecated/IExpDispSupport, shell.IExpDispSupport, zone_IExpDispSupport
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IExpDispSupport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

@@ -4,17 +4,16 @@ title: IDataAdviseHolder::Advise
 author: windows-sdk-content
 description: Creates a connection between an advise sink and a data object for receiving notifications.
 old-location: com\idataadviseholder_advise.htm
-old-project: com
+tech.root: com
 ms.assetid: 3b72a50b-a18f-4ec0-9d1d-52b07eb84faf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ADVF_DATAONSTOP, ADVF_NODATA, ADVF_ONLYONCE, ADVF_PRIMEFIRST, Advise, Advise method [COM], Advise method [COM],IDataAdviseHolder interface, IDataAdviseHolder interface [COM],Advise method, IDataAdviseHolder.Advise, IDataAdviseHolder::Advise, _ole_idataadviseholder_advise, com.idataadviseholder_advise, objidl/IDataAdviseHolder::Advise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataAdviseHolder.Advise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataAdviseHolder::Advise

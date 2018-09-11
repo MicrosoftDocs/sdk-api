@@ -4,17 +4,16 @@ title: DrvStartBanding function
 author: windows-sdk-content
 description: The DrvStartBanding function is called by GDI when it is ready to start sending bands of a physical page to the driver for rendering.
 old-location: display\drvstartbanding.htm
-old-project: display
+tech.root: display
 ms.assetid: c9006dd1-055b-4fb0-92e8-c7b6bc294941
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvStartBanding, DrvStartBanding function [Display Devices], ddifncs_d0cd5c63-cf46-472a-be6c-8d9dd124a2b2.xml, display.drvstartbanding, winddi/DrvStartBanding
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvStartBanding
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvStartBanding function

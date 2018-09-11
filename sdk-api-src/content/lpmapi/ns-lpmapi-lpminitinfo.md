@@ -4,17 +4,16 @@ title: lpminitinfo
 author: windows-sdk-content
 description: The LPM_INIT_INFO structure contains local policy module initialization information.
 old-location: qos\lpm_init_info.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 7eab2cf0-97e6-4298-99c3-09ce8c09fb87
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: LPM_INIT_INFO, LPM_INIT_INFO structure [QOS], lpmapi/LPM_INIT_INFO, lpminitinfo, qos.lpm_init_info
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LPM_INIT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LPM_INIT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: LPM_INIT_INFO
+req.redist: 
 ---
 
 # lpminitinfo structure

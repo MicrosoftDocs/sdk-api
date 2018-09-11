@@ -4,17 +4,16 @@ title: TTEmbedFontFromFileA function
 author: windows-sdk-content
 description: Creates a font structure containing the subsetted wide-character (16-bit) font. An external file provides the font information.
 old-location: gdi\ttembedfontfromfilea.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 8bd742e7-e51c-468e-a963-4a90be21a815
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CHARSET_SYMBOL, CHARSET_UNICODE, EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTEMBED_EMBEDEUDC, TTEMBED_RAW, TTEMBED_SUBSET, TTEMBED_TTCOMPRESSED, TTEmbedFontFromFileA, TTEmbedFontFromFileA function [Windows GDI], _win32_TTEmbedFontFromFileA, gdi.ttembedfontfromfilea, t2embapi/TTEmbedFontFromFileA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_INFO, *LPSYSTEM_INFO
+req.lib: T2embed.lib
+req.dll: T2embed.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TTEmbedFontFromFileA
 product: Windows
 targetos: Windows
-req.lib: T2embed.lib
-req.dll: T2embed.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TTEmbedFontFromFileA function

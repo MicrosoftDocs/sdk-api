@@ -4,17 +4,16 @@ title: IntServFlowSpec
 author: windows-sdk-content
 description: The IntServFlowSpec structure contains information about Integrated Services flowspecs.
 old-location: qos\intservflowspec.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: c16115ba-03fa-4363-bf16-5341da54f792
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IntServFlowSpec, IntServFlowSpec structure [QOS], lpmapi/IntServFlowSpec, qos.intservflowspec
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IntServFlowSpec
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntServFlowSpec
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IntServFlowSpec
+req.redist: 
 ---
 
 # IntServFlowSpec structure

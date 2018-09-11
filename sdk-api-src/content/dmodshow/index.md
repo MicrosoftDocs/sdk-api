@@ -2,7 +2,7 @@
 UID: NA:dmodshow
 ms.assetid: 5e688754-5233-34e2-ac36-4541282d7afa
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

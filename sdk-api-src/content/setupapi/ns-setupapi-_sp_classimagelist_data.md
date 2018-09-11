@@ -4,17 +4,16 @@ title: "_SP_CLASSIMAGELIST_DATA"
 author: windows-sdk-content
 description: An SP_CLASSIMAGELIST_DATA structure describes a class image list.
 old-location: devinst\sp_classimagelist_data.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 89ed9dbd-3c5e-43ff-bbd0-fd6cc8c6e6ab
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PSP_CLASSIMAGELIST_DATA, PSP_CLASSIMAGELIST_DATA, PSP_CLASSIMAGELIST_DATA structure pointer [Device and Driver Installation], SP_CLASSIMAGELIST_DATA, SP_CLASSIMAGELIST_DATA structure [Device and Driver Installation], _SP_CLASSIMAGELIST_DATA, devinst.sp_classimagelist_data, di-struct_2d2e73bd-5f18-49d1-96ad-639bc0ad658e.xml, setupapi/PSP_CLASSIMAGELIST_DATA, setupapi/SP_CLASSIMAGELIST_DATA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_CLASSIMAGELIST_DATA, *PSP_CLASSIMAGELIST_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_CLASSIMAGELIST_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_CLASSIMAGELIST_DATA, *PSP_CLASSIMAGELIST_DATA
+req.redist: 
 ---
 
 # _SP_CLASSIMAGELIST_DATA structure

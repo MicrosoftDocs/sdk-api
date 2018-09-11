@@ -4,17 +4,16 @@ title: IOpcSigningOptions::SetSignatureId
 author: windows-sdk-content
 description: Sets the value of the Id attribute of the Signature element.
 old-location: opc\iopcsigningoptions_setsignatureid.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: c723d6e8-6af3-41a2-b6dd-d26897495965
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetSignatureId method, IOpcSigningOptions.SetSignatureId, IOpcSigningOptions::SetSignatureId, SetSignatureId, SetSignatureId method [Open Packaging Conventions], SetSignatureId method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetSignatureId, opc.iopcsigningoptions_setsignatureid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcSigningOptions.SetSignatureId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcSigningOptions::SetSignatureId

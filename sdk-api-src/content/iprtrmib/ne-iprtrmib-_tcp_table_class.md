@@ -4,7 +4,7 @@ title: "_TCP_TABLE_CLASS"
 author: windows-sdk-content
 description: Defines the set of values used to indicate the type of table returned by calls to GetExtendedTcpTable.
 old-location: iphlp\tcp_table_class.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: abfaf7e5-7739-4f23-bfb4-09206111599f
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCP_TABLE_CLASS, *PTCP_TABLE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - TCP_TABLE_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TCP_TABLE_CLASS, *PTCP_TABLE_CLASS
+req.redist: 
 ---
 
 # _TCP_TABLE_CLASS enumeration

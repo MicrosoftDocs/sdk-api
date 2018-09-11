@@ -4,17 +4,16 @@ title: "_IMAGE_SECTION_HEADER"
 author: windows-sdk-content
 description: Represents the image section header format.
 old-location: base\image_section_header_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 81ddf56d-66cc-4a0c-9cff-a84376a3223d
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PIMAGE_SECTION_HEADER, IMAGE_SCN_ALIGN_1024BYTES, IMAGE_SCN_ALIGN_128BYTES, IMAGE_SCN_ALIGN_16BYTES, IMAGE_SCN_ALIGN_1BYTES, IMAGE_SCN_ALIGN_2048BYTES, IMAGE_SCN_ALIGN_256BYTES, IMAGE_SCN_ALIGN_2BYTES, IMAGE_SCN_ALIGN_32BYTES, IMAGE_SCN_ALIGN_4096BYTES, IMAGE_SCN_ALIGN_4BYTES, IMAGE_SCN_ALIGN_512BYTES, IMAGE_SCN_ALIGN_64BYTES, IMAGE_SCN_ALIGN_8192BYTES, IMAGE_SCN_ALIGN_8BYTES, IMAGE_SCN_CNT_CODE, IMAGE_SCN_CNT_INITIALIZED_DATA, IMAGE_SCN_CNT_UNINITIALIZED_DATA, IMAGE_SCN_GPREL, IMAGE_SCN_LNK_COMDAT, IMAGE_SCN_LNK_INFO, IMAGE_SCN_LNK_NRELOC_OVFL, IMAGE_SCN_LNK_OTHER, IMAGE_SCN_LNK_REMOVE, IMAGE_SCN_MEM_DISCARDABLE, IMAGE_SCN_MEM_EXECUTE, IMAGE_SCN_MEM_LOCKED, IMAGE_SCN_MEM_NOT_CACHED, IMAGE_SCN_MEM_NOT_PAGED, IMAGE_SCN_MEM_PRELOAD, IMAGE_SCN_MEM_PURGEABLE, IMAGE_SCN_MEM_READ, IMAGE_SCN_MEM_SHARED, IMAGE_SCN_MEM_WRITE, IMAGE_SCN_NO_DEFER_SPEC_EXC, IMAGE_SCN_TYPE_NO_PAD, IMAGE_SECTION_HEADER, IMAGE_SECTION_HEADER structure, PIMAGE_SECTION_HEADER, PIMAGE_SECTION_HEADER structure pointer, _IMAGE_SECTION_HEADER, _win32_image_section_header_str, base.image_section_header_str, winnt/IMAGE_SECTION_HEADER, winnt/PIMAGE_SECTION_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGE_SECTION_HEADER, *PIMAGE_SECTION_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMAGE_SECTION_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IMAGE_SECTION_HEADER, *PIMAGE_SECTION_HEADER
+req.redist: 
 ---
 
 # _IMAGE_SECTION_HEADER structure

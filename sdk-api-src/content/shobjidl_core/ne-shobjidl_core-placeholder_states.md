@@ -4,7 +4,7 @@ title: PLACEHOLDER_STATES
 author: windows-sdk-content
 description: Specifies the states that a placeholder file can have. Retrieve this value through the System.FilePlaceholderStatus (PKEY_FilePlaceholderStatus) property.
 old-location: properties\PLACEHOLDER_STATES.htm
-old-project: properties
+tech.root: properties
 ms.assetid: BF4E0A9F-CD78-4D29-AD0C-7DF14AE88447
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLACEHOLDER_STATES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PLACEHOLDER_STATES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: PLACEHOLDER_STATES
+req.redist: 
 ---
 
 # PLACEHOLDER_STATES enumeration

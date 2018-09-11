@@ -4,17 +4,16 @@ title: SYNCMGR_ITEM_CAPABILITIES
 author: windows-sdk-content
 description: Specifies the actions that can be performed against an item.
 old-location: shell\SYNCMGR_ITEM_CAPABILITIES.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 55f72e18-fba6-4a59-b553-06c6c7c3ee52
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SYNCMGR_ICM_CAN_BROWSE_CONTENT, SYNCMGR_ICM_CAN_DELETE, SYNCMGR_ICM_CONFLICT_STORE, SYNCMGR_ICM_EVENT_STORE, SYNCMGR_ICM_NONE, SYNCMGR_ICM_PROVIDES_ICON, SYNCMGR_ICM_QUERY_BEFORE_DELETE, SYNCMGR_ICM_QUERY_BEFORE_DISABLE, SYNCMGR_ICM_QUERY_BEFORE_ENABLE, SYNCMGR_ICM_VALID_MASK, SYNCMGR_ITEM_CAPABILITIES, SYNCMGR_ITEM_CAPABILITIES enumeration [Windows Shell], shell.SYNCMGR_ITEM_CAPABILITIES, shell_SYNCMGR_ITEM_CAPABILITIES, syncmgr/SYNCMGR_ICM_CAN_BROWSE_CONTENT, syncmgr/SYNCMGR_ICM_CAN_DELETE, syncmgr/SYNCMGR_ICM_CONFLICT_STORE, syncmgr/SYNCMGR_ICM_EVENT_STORE, syncmgr/SYNCMGR_ICM_NONE, syncmgr/SYNCMGR_ICM_PROVIDES_ICON, syncmgr/SYNCMGR_ICM_QUERY_BEFORE_DELETE, syncmgr/SYNCMGR_ICM_QUERY_BEFORE_DISABLE, syncmgr/SYNCMGR_ICM_QUERY_BEFORE_ENABLE, syncmgr/SYNCMGR_ICM_VALID_MASK, syncmgr/SYNCMGR_ITEM_CAPABILITIES
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_ITEM_CAPABILITIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGR_ITEM_CAPABILITIES
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SYNCMGR_ITEM_CAPABILITIES
+req.redist: 
 ---
 
 # SYNCMGR_ITEM_CAPABILITIES enumeration

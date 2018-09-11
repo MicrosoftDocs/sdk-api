@@ -4,7 +4,7 @@ title: "_MFStandardVideoFormat"
 author: windows-sdk-content
 description: Contains values that specify common video formats.
 old-location: mf\mfstandardvideoformat.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 559ea2e9-308b-428a-ae24-bf3fdc27e24e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFStandardVideoFormat
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFStandardVideoFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFStandardVideoFormat
+req.redist: 
 ---
 
 # _MFStandardVideoFormat enumeration

@@ -4,17 +4,16 @@ title: IBrowserService3
 author: windows-sdk-content
 description: Deprecated.
 old-location: shell\IBrowserService3.htm
-old-project: shell
+tech.root: shell
 ms.assetid: efca41df-0aae-469e-8b56-77798eb8af19
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService3, IBrowserService3 interface [Windows Shell], IBrowserService3 interface [Windows Shell],described, shdeprecated/IBrowserService3, shell.IBrowserService3, zone_IBrowserService3
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 6.0
 ---
 

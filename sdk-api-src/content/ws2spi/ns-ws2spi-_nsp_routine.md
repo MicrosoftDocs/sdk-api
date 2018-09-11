@@ -4,17 +4,16 @@ title: "_NSP_ROUTINE"
 author: windows-sdk-content
 description: Contains information regarding the functions implemented by a namespace service provider version 1 (NSPv1) provider.
 old-location: winsock\nsp_routine.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 8f7736d5-ea77-472a-a94f-e422398fae3f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPNSP_ROUTINE, NSP_ROUTINE, NSP_ROUTINE structure [Winsock], NSP_ROUTINE,FAR * LPNSP_ROUTINE, NSP_ROUTINE,FAR * LPNSP_ROUTINE structure [Winsock], _NSP_ROUTINE, winsock.nsp_routine, ws2spi/NSP_ROUTINE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NSP_ROUTINE, *LPNSP_ROUTINE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NSP_ROUTINE, FAR * LPNSP_ROUTINE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: NSP_ROUTINE, *LPNSP_ROUTINE
+req.redist: 
 ---
 
 # _NSP_ROUTINE structure

@@ -4,17 +4,16 @@ title: ILanguageExceptionErrorInfo2::GetPropagationContextHead
 author: windows-sdk-content
 description: Retrieves the propagation context head.
 old-location: winrt\ilanguageexceptionerrorinfo2_getpropagationcontexthead.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 1E5C74AE-C8C6-4D95-A836-DD47E50CF25D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetPropagationContextHead, GetPropagationContextHead method [Windows Runtime], GetPropagationContextHead method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],GetPropagationContextHead method, ILanguageExceptionErrorInfo2.GetPropagationContextHead, ILanguageExceptionErrorInfo2::GetPropagationContextHead, restrictederrorinfo/ILanguageExceptionErrorInfo2::GetPropagationContextHead, winrt.ilanguageexceptionerrorinfo2_getpropagationcontexthead
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: restrictederrorinfo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILanguageExceptionErrorInfo2.GetPropagationContextHead
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ILanguageExceptionErrorInfo2::GetPropagationContextHead

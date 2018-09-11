@@ -4,17 +4,16 @@ title: IInkStrokes::get_Count
 author: windows-sdk-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\inkstrokes_count.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: e0148627-11fc-47ee-8b77-1aa5700343cb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],Count property, IInkStrokes.Count, IInkStrokes.get_Count, IInkStrokes::Count, IInkStrokes::get_Count, InkStrokes.get_Count, get_Count, msinkaut/IInkStrokes::Count, msinkaut/IInkStrokes::get_Count, tablet.inkstrokes_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkStrokes.get_Count
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokes::get_Count

@@ -4,7 +4,7 @@ title: "_AM_DVD_GRAPH_FLAGS"
 author: windows-sdk-content
 description: The AM_DVD_GRAPH_FLAGS enumeration specifies how the DVD Navigator builds a DVD playback graph. These flags are used with the IDvdGraphBuilder::RenderDvdVideoVolume method.
 old-location: dshow\am_dvd_graph_flags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2a0ec036-d34c-407e-9b6d-c3bd3881a0af
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVD_GRAPH_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_DVD_GRAPH_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: AM_DVD_GRAPH_FLAGS
+req.redist: 
 ---
 
 # _AM_DVD_GRAPH_FLAGS enumeration

@@ -4,17 +4,16 @@ title: GetGlyphOutlineW function
 author: windows-sdk-content
 description: The GetGlyphOutline function retrieves the outline or bitmap for a character in the TrueType font that is selected into the specified device context.
 old-location: gdi\getglyphoutline.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 08f06007-5b21-44ab-b234-21a58c94ed4e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GGO_BEZIER, GGO_BITMAP, GGO_GLYPH_INDEX, GGO_GRAY2_BITMAP, GGO_GRAY4_BITMAP, GGO_GRAY8_BITMAP, GGO_METRICS, GGO_NATIVE, GGO_UNHINTED, GetGlyphOutline, GetGlyphOutline function [Windows GDI], GetGlyphOutlineA, GetGlyphOutlineW, _win32_GetGlyphOutline, gdi.getglyphoutline, wingdi/GetGlyphOutline, wingdi/GetGlyphOutlineA, wingdi/GetGlyphOutlineW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetGlyphOutlineW
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetGlyphOutlineW function

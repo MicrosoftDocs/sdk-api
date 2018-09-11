@@ -4,17 +4,16 @@ title: IPublishedApp2::Install2
 author: windows-sdk-content
 description: Installs an application published by an application publisher, while preventing multiple windows from being active on the same thread.
 old-location: shell\IPublishedApp2_Install2.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ce2319d0-e4e8-49a8-9803-ef386c6969a9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IPublishedApp2 interface [Windows Shell],Install2 method, IPublishedApp2.Install2, IPublishedApp2::Install2, Install2, Install2 method [Windows Shell], Install2 method [Windows Shell],IPublishedApp2 interface, _shell_IPublishedApp2_Install2, shappmgr/IPublishedApp2::Install2, shell.IPublishedApp2_Install2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PUBAPPINFOFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPublishedApp2.Install2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPublishedApp2::Install2

@@ -4,17 +4,16 @@ title: IADesktopP2::UpdateAllDesktopSubscriptions
 author: windows-sdk-content
 description: Calls the UpdateAllDesktopSubscriptions function to update desktop subscriptions.
 old-location: lwef\iadesktopp2_updatealldesktopsubscriptions.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: 9028beee-295a-422a-904a-cbb73332dc81
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADesktopP2 interface [Legacy Windows Environment Features],UpdateAllDesktopSubscriptions method, IADesktopP2.UpdateAllDesktopSubscriptions, IADesktopP2::UpdateAllDesktopSubscriptions, UpdateAllDesktopSubscriptions, UpdateAllDesktopSubscriptions method [Legacy Windows Environment Features], UpdateAllDesktopSubscriptions method [Legacy Windows Environment Features],IADesktopP2 interface, _win32_IADesktopP2_UpdateAllDesktopSubscriptions, lwef.iadesktopp2_updatealldesktopsubscriptions, shell.iadesktopp2_updatealldesktopsubscriptions, shlobj/IADesktopP2::UpdateAllDesktopSubscriptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADesktopP2.UpdateAllDesktopSubscriptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.00 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IADesktopP2::UpdateAllDesktopSubscriptions

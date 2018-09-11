@@ -4,17 +4,16 @@ title: IAccessible::get_accChildCount
 author: windows-sdk-content
 description: The IAccessible::get_accChildCount method retrieves the number of children that belong to this object. All objects must support this property.
 old-location: winauto\iaccessible_iaccessible__get_accchildcount.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: d80d59c0-7694-4cc6-9887-2fec7186f32e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accChildCount method, IAccessible.get_accChildCount, IAccessible::get_accChildCount, _msaa_IAccessible_get_accChildCount, get_accChildCount, get_accChildCount method [Windows Accessibility], get_accChildCount method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accchildcount, oleacc/IAccessible::get_accChildCount, winauto.iaccessible_iaccessible__get_accchildcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessible.get_accChildCount
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # IAccessible::get_accChildCount

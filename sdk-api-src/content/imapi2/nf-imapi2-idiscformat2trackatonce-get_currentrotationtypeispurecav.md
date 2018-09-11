@@ -4,17 +4,16 @@ title: IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV
 author: windows-sdk-content
 description: Retrieves the current rotational-speed control used by the recorder.
 old-location: imapi\idiscformat2trackatonce_get_currentrotationtypeispurecav.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 3a80eee3-6b85-432a-878c-c8e4cade7be1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_CurrentRotationTypeIsPureCAV method, IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV, IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV method [IMAPI], get_CurrentRotationTypeIsPureCAV method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_currentrotationtypeispurecav, imapi2/IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV

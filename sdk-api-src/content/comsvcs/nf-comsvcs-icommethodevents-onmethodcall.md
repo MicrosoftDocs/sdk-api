@@ -4,17 +4,16 @@ title: IComMethodEvents::OnMethodCall
 author: windows-sdk-content
 description: Generated when an object's method is called.
 old-location: cos\icommethodevents_onmethodcall.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 5d68fe2c-7032-46d2-b88d-0b4f81c74760
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComMethodEvents interface [COM+],OnMethodCall method, IComMethodEvents.OnMethodCall, IComMethodEvents::OnMethodCall, OnMethodCall, OnMethodCall method [COM+], OnMethodCall method [COM+],IComMethodEvents interface, _dtc_IComMethodEvents_OnMethodCall, comsvcs/IComMethodEvents::OnMethodCall, cos.icommethodevents_onmethodcall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComMethodEvents.OnMethodCall
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComMethodEvents::OnMethodCall

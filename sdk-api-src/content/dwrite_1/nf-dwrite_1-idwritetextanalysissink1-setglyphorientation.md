@@ -4,17 +4,16 @@ title: IDWriteTextAnalysisSink1::SetGlyphOrientation
 author: windows-sdk-content
 description: The text analyzer calls back to this to report the actual orientation of each character for shaping and drawing.
 old-location: directwrite\idwritetextanalysissink1_setglyphorientation.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 81BD4C36-273B-4C28-A89E-88BABCAD511A
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteTextAnalysisSink1 interface [Direct Write],SetGlyphOrientation method, IDWriteTextAnalysisSink1.SetGlyphOrientation, IDWriteTextAnalysisSink1::SetGlyphOrientation, SetGlyphOrientation, SetGlyphOrientation method [Direct Write], SetGlyphOrientation method [Direct Write],IDWriteTextAnalysisSink1 interface, directwrite.idwritetextanalysissink1_setglyphorientation, dwrite_1/IDWriteTextAnalysisSink1::SetGlyphOrientation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextAnalysisSink1.SetGlyphOrientation
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextAnalysisSink1::SetGlyphOrientation

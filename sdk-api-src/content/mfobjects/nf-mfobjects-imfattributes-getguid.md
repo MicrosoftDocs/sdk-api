@@ -4,17 +4,16 @@ title: IMFAttributes::GetGUID
 author: windows-sdk-content
 description: Retrieves a GUID value associated with a key.
 old-location: mf\imfattributes_getguid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6ded35e1-2d1c-4e68-ad0f-2bd5ba469853
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 6ded35e1-2d1c-4e68-ad0f-2bd5ba469853, GetGUID, GetGUID method [Media Foundation], GetGUID method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetGUID method, IMFAttributes.GetGUID, IMFAttributes::GetGUID, mf.imfattributes_getguid, mfobjects/IMFAttributes::GetGUID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAttributes.GetGUID
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAttributes::GetGUID

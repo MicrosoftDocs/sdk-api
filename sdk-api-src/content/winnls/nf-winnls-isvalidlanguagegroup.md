@@ -4,17 +4,16 @@ title: IsValidLanguageGroup function
 author: windows-sdk-content
 description: Determines if a language group is installed or supported on the operating system. For more information, see NLS Terminology.
 old-location: intl\isvalidlanguagegroup.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 68cf09f8-fe97-4035-94b6-886ca26bbf3e
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IsValidLanguageGroup, IsValidLanguageGroup function [Internationalization for Windows Applications], LGRPID_INSTALLED, LGRPID_SUPPORTED, _win32_IsValidLanguageGroup, intl.isvalidlanguagegroup, winnls/IsValidLanguageGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - IsValidLanguageGroup
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IsValidLanguageGroup function

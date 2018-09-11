@@ -4,17 +4,16 @@ title: IDataCollectorSet::put_Duration
 author: windows-sdk-content
 description: Retrieves and sets the duration that the data collector set runs.
 old-location: pla\idatacollectorset_get_duration.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: afa8f8f2-52a7-481f-ba7e-19f9b757aeb8
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Duration property [PLA], Duration property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Duration property, IDataCollectorSet.Duration, IDataCollectorSet.put_Duration, IDataCollectorSet::Duration, IDataCollectorSet::get_Duration, IDataCollectorSet::put_Duration, base.idatacollectorset_get_duration, pla.idatacollectorset_get_duration, pla/IDataCollectorSet::Duration, pla/IDataCollectorSet::get_Duration, pla/IDataCollectorSet::put_Duration, put_Duration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollectorSet.put_Duration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::put_Duration

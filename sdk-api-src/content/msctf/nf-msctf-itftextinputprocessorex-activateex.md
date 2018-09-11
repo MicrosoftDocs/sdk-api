@@ -4,17 +4,16 @@ title: ITfTextInputProcessorEx::ActivateEx
 author: windows-sdk-content
 description: The ITfTextInputProcessorEx::ActivateEx method activates a text service when a user session starts. If the text service implements ITfTextInputProcessorEx and ActivateEx is called, ITfTextInputProcessor::Activate will not be called.
 old-location: tsf\itftextinputprocessorex_activateex.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: b628e803-ea94-4e69-9919-94e4164d5b36
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ActivateEx, ActivateEx method [Text Services Framework], ActivateEx method [Text Services Framework],ITfTextInputProcessorEx interface, ITfTextInputProcessorEx interface [Text Services Framework],ActivateEx method, ITfTextInputProcessorEx.ActivateEx, ITfTextInputProcessorEx::ActivateEx, TF_TMAE_COMLESS, TF_TMAE_CONSOLE, TF_TMAE_SECUREMODE, TF_TMAE_WOW16, msctf/ITfTextInputProcessorEx::ActivateEx, tsf.itftextinputprocessorex_activateex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfTextInputProcessorEx.ActivateEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfTextInputProcessorEx::ActivateEx

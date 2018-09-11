@@ -4,17 +4,16 @@ title: IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJo
 author: windows-sdk-content
 description: Acts as the entry point for creating an IPrintDocumentPackageTarget object.
 old-location: xps\iprintdocumentpackagetargetfactory_createdocumentpackagetargetforprintjob.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: F611305F-B577-403F-AD8A-402ABE8F6768
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateDocumentPackageTargetForPrintJob, CreateDocumentPackageTargetForPrintJob method [XPS Documents and Packaging], CreateDocumentPackageTargetForPrintJob method [XPS Documents and Packaging],IPrintDocumentPackageTargetFactory interface, IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging],CreateDocumentPackageTargetForPrintJob method, IPrintDocumentPackageTargetFactory.CreateDocumentPackageTargetForPrintJob, IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob, documenttarget/IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob, xps.iprintdocumentpackagetargetfactory_createdocumentpackagetargetforprintjob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: documenttarget.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrintDocumentPackageCompletion
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPrintDocumentPackageTargetFactory.CreateDocumentPackageTargetForPrintJob
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob

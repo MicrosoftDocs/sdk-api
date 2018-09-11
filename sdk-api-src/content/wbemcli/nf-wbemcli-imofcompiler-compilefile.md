@@ -4,17 +4,16 @@ title: IMofCompiler::CompileFile
 author: windows-sdk-content
 description: The IMofCompiler::CompileFile method compiles a MOF file (including binary MOFs) and stores the information in the WMI repository.
 old-location: wmi\imofcompiler_compilefile.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: caf13a5c-2aca-4acb-8210-909737bf1022
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CompileFile, CompileFile method [Windows Management Instrumentation], CompileFile method [Windows Management Instrumentation],IMofCompiler interface, IMofCompiler interface [Windows Management Instrumentation],CompileFile method, IMofCompiler.CompileFile, IMofCompiler::CompileFile, WBEM_FLAG_AUTORECOVER, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CONSOLE_PRINT, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_DONT_ADD_TO_LIST, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, _hmm_imofcompiler_compilefile, wbemcli/IMofCompiler::CompileFile, wmi.imofcompiler_compilefile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Mofd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMofCompiler.CompileFile
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Mofd.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IMofCompiler::CompileFile

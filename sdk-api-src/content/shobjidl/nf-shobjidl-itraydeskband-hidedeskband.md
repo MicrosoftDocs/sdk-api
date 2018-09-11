@@ -4,17 +4,16 @@ title: ITrayDeskBand::HideDeskBand
 author: windows-sdk-content
 description: Hides a specified deskband.
 old-location: shell\ITrayDeskBand_HideDeskBand.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 586ead4b-94fe-4da1-b78e-d4f1c61b9ee2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: HideDeskBand, HideDeskBand method [Windows Shell], HideDeskBand method [Windows Shell],ITrayDeskBand interface, ITrayDeskBand interface [Windows Shell],HideDeskBand method, ITrayDeskBand.HideDeskBand, ITrayDeskBand::HideDeskBand, _shell_ITrayDeskBand_HideDeskBand, shell.ITrayDeskBand_HideDeskBand, shobjidl/ITrayDeskBand::HideDeskBand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITrayDeskBand.HideDeskBand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # ITrayDeskBand::HideDeskBand

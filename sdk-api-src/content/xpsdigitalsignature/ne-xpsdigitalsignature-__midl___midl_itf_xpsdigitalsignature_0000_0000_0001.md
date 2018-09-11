@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0001"
 author: windows-sdk-content
 description: Describes the status of a document's digital signature.
 old-location: xps\xps_signature_status.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 8c03749c-49cf-4d9c-90be-a75412f044ec
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGNATURE_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XPS_SIGNATURE_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XPS_SIGNATURE_STATUS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0001 enumeration

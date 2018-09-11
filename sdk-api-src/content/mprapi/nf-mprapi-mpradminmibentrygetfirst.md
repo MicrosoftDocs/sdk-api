@@ -4,17 +4,16 @@ title: MprAdminMIBEntryGetFirst function
 author: windows-sdk-content
 description: The MprAdminMIBEntryGetFirst function retrieves the first variable of some set of variables exported by a protocol or router manager. The module that services the call defines first.
 old-location: rras\mpradminmibentrygetfirst.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: e3c3ac47-d47c-4fd4-a064-b737bc40f190
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminMIBEntryGetFirst, MprAdminMIBEntryGetFirst function [RAS], _mpr_mpradminmibentrygetfirst, mprapi/MprAdminMIBEntryGetFirst, rras.mpradminmibentrygetfirst
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminMIBEntryGetFirst
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminMIBEntryGetFirst function

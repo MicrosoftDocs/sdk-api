@@ -4,17 +4,16 @@ title: IVMRWindowlessControl::SetVideoClippingWindow
 author: windows-sdk-content
 description: The SetVideoClippingWindow method specifies the container window that video should be clipped to.
 old-location: dshow\ivmrwindowlesscontrol_setvideoclippingwindow.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 82589745-8f79-4e0e-b28c-5a395390ba64
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetVideoClippingWindow method, IVMRWindowlessControl.SetVideoClippingWindow, IVMRWindowlessControl::SetVideoClippingWindow, IVMRWindowlessControlSetVideoClippingWindow, SetVideoClippingWindow, SetVideoClippingWindow method [DirectShow], SetVideoClippingWindow method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setvideoclippingwindow, strmif/IVMRWindowlessControl::SetVideoClippingWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRWindowlessControl.SetVideoClippingWindow
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRWindowlessControl::SetVideoClippingWindow

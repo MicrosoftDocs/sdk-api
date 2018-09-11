@@ -4,17 +4,16 @@ title: MTSCreateActivity function
 author: windows-sdk-content
 description: Creates an activity in a single-threaded apartment to do synchronous or asynchronous batch work.
 old-location: cos\mtscreateactivity.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 25ae1f2e-f937-4d06-9709-ded2fc8c5777
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MTSCreateActivity, MTSCreateActivity function [COM+], _cos_MTSCreateActivity, comsvcs/MTSCreateActivity, cos.mtscreateactivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: ComSvcs.lib
+req.dll: ComSvcs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MTSCreateActivity
 product: Windows
 targetos: Windows
-req.lib: ComSvcs.lib
-req.dll: ComSvcs.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # MTSCreateActivity function

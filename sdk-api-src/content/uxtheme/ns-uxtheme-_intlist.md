@@ -4,7 +4,7 @@ title: "_INTLIST"
 author: windows-sdk-content
 description: Contains an array or list of int data items from a visual style.
 old-location: controls\INTLIST.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\structures\intlist.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTLIST, *PINTLIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTLIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: INTLIST, *PINTLIST
+req.redist: 
 ---
 
 # _INTLIST structure

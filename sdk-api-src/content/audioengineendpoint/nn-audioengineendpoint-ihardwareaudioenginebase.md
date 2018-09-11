@@ -4,17 +4,16 @@ title: IHardwareAudioEngineBase
 author: windows-sdk-content
 description: The IHardwareAudioEngineBase interface is implemented by audio endpoints for the audio stack to use to configure and retrieve information about the hardware audio engine.
 old-location: coreaudio\ihardwareaudioenginebase.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 6FB9BEDB-111B-4F0A-B8BB-B0BA2024EB24
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IHardwareAudioEngineBase, IHardwareAudioEngineBase interface [Core Audio], IHardwareAudioEngineBase interface [Core Audio],described, audioengineendpoint/IHardwareAudioEngineBase, coreaudio.ihardwareaudioenginebase
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IHardwareAudioEngineBase
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IHardwareAudioEngineBase interface

@@ -4,17 +4,16 @@ title: "_StrEntryA"
 author: windows-sdk-content
 description: Represents a registry string replacement.
 old-location: winprog\_strentrya.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: BE4239CA-68D5-4E5A-BA53-087001ACD7BB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSTRENTRYA, LPSTRENTRYA, LPSTRENTRYA structure pointer [Windows API], STRENTRY, STRENTRYA, STRENTRYA structure [Windows API], _StrEntryA, _StrEntryA structure [Windows API], advpub/LPSTRENTRYA, advpub/_StrEntryA, winprog._strentrya"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: advpub.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Advpack.lib
-tech.root: 
-req.typenames: STRENTRYA, *LPSTRENTRYA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - STRENTRYA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: STRENTRYA, *LPSTRENTRYA
+req.redist: 
 ---
 
 # _StrEntryA structure

@@ -4,17 +4,16 @@ title: TdhQueryProviderFieldInformation function
 author: windows-sdk-content
 description: Retrieves information for the specified field from the event descriptions for those field values that match the given value.
 old-location: etw\tdhqueryproviderfieldinformation_func.htm
-old-project: etw
+tech.root: etw
 ms.assetid: ca3c1519-0b86-4bdb-b027-9c662df5466e
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: TdhQueryProviderFieldInformation, TdhQueryProviderFieldInformation function [ETW], etw.tdhqueryproviderfieldinformation_func, tdh.tdhqueryproviderfieldinformation_func, tdh/TdhQueryProviderFieldInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEMPLATE_FLAGS
+req.lib: Tdh.lib
+req.dll: Tdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - TdhQueryProviderFieldInformation
 product: Windows
 targetos: Windows
-req.lib: Tdh.lib
-req.dll: Tdh.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TdhQueryProviderFieldInformation function

@@ -4,17 +4,16 @@ title: IFsrmQuotaManager::GetQuota
 author: windows-sdk-content
 description: Retrieves the quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_getquota.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 1c595714-20c9-4ca5-96a2-64b7a7c6f84e
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmQuotaManager class [File Server Resource Manager],GetQuota method, GetQuota, GetQuota method [File Server Resource Manager], GetQuota method [File Server Resource Manager],FsrmQuotaManager class, GetQuota method [File Server Resource Manager],IFsrmQuotaManager interface, GetQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, IFsrmQuotaManager interface [File Server Resource Manager],GetQuota method, IFsrmQuotaManager.GetQuota, IFsrmQuotaManager::GetQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],GetQuota method, IFsrmQuotaManagerEx::GetQuota, fs.ifsrmquotamanager_getquota, fsrm.ifsrmquotamanager_getquota, fsrmquota/IFsrmQuotaManager::GetQuota, fsrmquota/IFsrmQuotaManagerEx::GetQuota
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmQuotaManager.GetQuota
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaManager::GetQuota

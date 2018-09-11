@@ -4,17 +4,16 @@ title: ITextPara::GetHyphenation
 author: windows-sdk-content
 description: Determines whether automatic hyphenation is enabled for the range.
 old-location: controls\ITextPara_GetHyphenation.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gethyphenation.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetHyphenation, GetHyphenation method [Windows Controls], GetHyphenation method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetHyphenation method, ITextPara.GetHyphenation, ITextPara::GetHyphenation, _win32_ITextPara_GetHyphenation, _win32_ITextPara_GetHyphenation_cpp, controls.ITextPara_GetHyphenation, controls._win32_ITextPara_GetHyphenation, tom/ITextPara::GetHyphenation, tomFalse, tomTrue, tomUndefined
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara.GetHyphenation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara::GetHyphenation
@@ -62,7 +60,7 @@ Determines whether automatic hyphenation is enabled for the range.
 
 ### -param pValue
 
-
+TBD
 
 
 

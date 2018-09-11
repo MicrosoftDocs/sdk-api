@@ -4,7 +4,7 @@ title: PSS_PROCESS_INFORMATION
 author: windows-sdk-content
 description: Holds process information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_process_information.htm
-old-project: proc_snap
+tech.root: proc_snap
 ms.assetid: D629FA42-B501-4A0E-9B53-6D70E580B687
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSS_PROCESS_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSS_PROCESS_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PSS_PROCESS_INFORMATION
+req.redist: 
 ---
 
 # PSS_PROCESS_INFORMATION structure

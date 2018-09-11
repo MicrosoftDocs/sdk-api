@@ -4,7 +4,7 @@ title: "_DD_DIRECTDRAW_GLOBAL"
 author: windows-sdk-content
 description: The DD_DIRECTDRAW_GLOBAL structure contains driver information that describes the driver's device.
 old-location: display\dd_directdraw_global.htm
-old-project: display
+tech.root: display
 ms.assetid: a59f064b-48cf-4491-82cd-84f59467af87
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_DIRECTDRAW_GLOBAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL"
+req.redist: 
 ---
 
 # _DD_DIRECTDRAW_GLOBAL structure

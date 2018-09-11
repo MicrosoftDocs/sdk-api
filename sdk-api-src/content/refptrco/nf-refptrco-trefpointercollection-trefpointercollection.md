@@ -4,17 +4,16 @@ title: TRefPointerCollection::TRefPointerCollection
 author: windows-sdk-content
 description: This constructor initializes a new TRefPointerCollection object.
 old-location: wmi\trefpointercollection_trefpointercollection.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: f4fcfe31-49ce-434c-a6e4-cf60e0a435e6
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation],TRefPointerCollection method, TRefPointerCollection method [Windows Management Instrumentation], TRefPointerCollection method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection.TRefPointerCollection, TRefPointerCollection::TRefPointerCollection, _hmm_trefpointercollection_trefpointercollection, refptrco/TRefPointerCollection::TRefPointerCollection, wmi.trefpointercollection_trefpointercollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: refptrco.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - TRefPointerCollection.TRefPointerCollection
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # TRefPointerCollection::TRefPointerCollection

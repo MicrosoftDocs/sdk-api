@@ -4,17 +4,16 @@ title: "_RM_SEND_WINDOW"
 author: windows-sdk-content
 description: The RM_SEND_WINDOW structure specifies the Reliable Multicast send window. This structure is used with the RM_RATE_WINDOW_SIZE socket option.
 old-location: winsock\rm_send_window.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 7ce84d2e-a52f-4652-b24a-55c94b7c120b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: RM_SEND_WINDOW, RM_SEND_WINDOW structure [Winsock], _RM_SEND_WINDOW, winsock.rm_send_window, wsrm/RM_SEND_WINDOW
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WSManDisp.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_SEND_WINDOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RM_SEND_WINDOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: RM_SEND_WINDOW
+req.redist: 
 ---
 
 # _RM_SEND_WINDOW structure

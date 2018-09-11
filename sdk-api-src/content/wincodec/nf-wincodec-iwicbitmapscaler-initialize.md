@@ -4,17 +4,16 @@ title: IWICBitmapScaler::Initialize
 author: windows-sdk-content
 description: Initializes the bitmap scaler with the provided parameters.
 old-location: wic\_wic_codec_iwicbitmapscaler_initialize.htm
-old-project: wic
+tech.root: wic
 ms.assetid: e783389e-4702-4774-a501-b86ec4bc6cbe
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICBitmapScaler interface [Windows Imaging Component],Initialize method, IWICBitmapScaler.Initialize, IWICBitmapScaler::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapScaler interface, _wic_codec_iwicbitmapscaler_initialize, wic._wic_codec_iwicbitmapscaler_initialize, wincodec/IWICBitmapScaler::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapScaler.Initialize
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapScaler::Initialize

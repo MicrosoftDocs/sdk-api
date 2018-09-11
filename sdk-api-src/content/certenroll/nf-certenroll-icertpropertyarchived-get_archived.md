@@ -4,17 +4,16 @@ title: ICertPropertyArchived::get_Archived
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the certificate has been archived.
 old-location: security\icertpropertyarchived_archived_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: c4154d9e-5a37-4a6c-9fc3-5935d8c54dc4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Archived property [Security], Archived property [Security],ICertPropertyArchived interface, ICertPropertyArchived interface [Security],Archived property, ICertPropertyArchived.Archived, ICertPropertyArchived.get_Archived, ICertPropertyArchived::Archived, ICertPropertyArchived::get_Archived, certenroll/ICertPropertyArchived::Archived, certenroll/ICertPropertyArchived::get_Archived, get_Archived, security.icertpropertyarchived_archived_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertPropertyArchived.get_Archived
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyArchived::get_Archived

@@ -4,17 +4,16 @@ title: "_SERVICE_FAILURE_ACTIONSW"
 author: windows-sdk-content
 description: Represents the action the service controller should take on each failure of a service. A service is considered failed when it terminates without reporting a status of SERVICE_STOPPED to the service controller.
 old-location: base\service_failure_actions_str.htm
-old-project: services
+tech.root: Services
 ms.assetid: 180ca6d9-f2c3-4ea1-b2c6-319d08ef88ee
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVICE_FAILURE_ACTIONSW, LPSERVICE_FAILURE_ACTIONS, LPSERVICE_FAILURE_ACTIONS structure pointer, SERVICE_FAILURE_ACTIONS, SERVICE_FAILURE_ACTIONS structure, SERVICE_FAILURE_ACTIONSA, SERVICE_FAILURE_ACTIONSW, _SERVICE_FAILURE_ACTIONSW, _win32_service_failure_actions_str, base.service_failure_actions_str, winsvc/LPSERVICE_FAILURE_ACTIONS, winsvc/SERVICE_FAILURE_ACTIONS, winsvc/SERVICE_FAILURE_ACTIONSA, winsvc/SERVICE_FAILURE_ACTIONSW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_FAILURE_ACTIONSW, *LPSERVICE_FAILURE_ACTIONSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SERVICE_FAILURE_ACTIONSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVICE_FAILURE_ACTIONSW, *LPSERVICE_FAILURE_ACTIONSW
+req.redist: 
 ---
 
 # _SERVICE_FAILURE_ACTIONSW structure

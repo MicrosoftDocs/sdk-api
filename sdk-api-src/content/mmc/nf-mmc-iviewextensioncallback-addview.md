@@ -4,17 +4,16 @@ title: IViewExtensionCallback::AddView
 author: windows-sdk-content
 description: Adds a view to the result pane.
 old-location: mmc\iviewextensioncallback_addview.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 3e794787-d328-4cbf-822e-8846fed81a57
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: AddView, AddView method [MMC], AddView method [MMC],IViewExtensionCallback interface, IViewExtensionCallback interface [MMC],AddView method, IViewExtensionCallback.AddView, IViewExtensionCallback::AddView, _slate_iviewextensioncallback_addview, mmc.iviewextensioncallback_addview, mmc/IViewExtensionCallback::AddView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: Mmc.lib
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IViewExtensionCallback.AddView
 product: Windows
 targetos: Windows
-req.lib: Mmc.lib
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IViewExtensionCallback::AddView

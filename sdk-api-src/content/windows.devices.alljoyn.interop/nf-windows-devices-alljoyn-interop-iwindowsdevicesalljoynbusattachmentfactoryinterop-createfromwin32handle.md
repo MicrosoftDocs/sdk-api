@@ -4,17 +4,16 @@ title: IWindowsDevicesAllJoynBusAttachmentFactoryInterop::alljoyn
 author: windows-sdk-content
 description: Constructs an AllJoynBusAttachment over an existing alljoyn_busattachment instance without taking ownership.
 old-location: alljoyn\iwindowsdevicesalljoynbusattachmentfactoryinterop_createfromwin32handle.htm
-old-project: AllJoyn
+tech.root: AllJoyn
 ms.assetid: AB33FA90-7A74-4B0D-8E99-EF304E508FCB
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: CreateFromWin32Handle, CreateFromWin32Handle method [AllJoyn API], CreateFromWin32Handle method [AllJoyn API],IInspectable interface, CreateFromWin32Handle method [AllJoyn API],IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface, IInspectable ::CreateFromWin32Handle, IInspectable interface [AllJoyn API],CreateFromWin32Handle method, IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API],CreateFromWin32Handle method, IWindowsDevicesAllJoynBusAttachmentFactoryInterop.CreateFromWin32Handle, IWindowsDevicesAllJoynBusAttachmentFactoryInterop.alljoyn, IWindowsDevicesAllJoynBusAttachmentFactoryInterop::CreateFromWin32Handle, IWindowsDevicesAllJoynBusAttachmentFactoryInterop::alljoyn, alljoyn.iwindowsdevicesalljoynbusattachmentfactoryinterop_createfromwin32handle, windows/IInspectable ::CreateFromWin32Handle, windows/IWindowsDevicesAllJoynBusAttachmentFactoryInterop::CreateFromWin32Handle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.devices.alljoyn.interop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInspectable .CreateFromWin32Handle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsDevicesAllJoynBusAttachmentFactoryInterop::alljoyn

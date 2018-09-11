@@ -4,17 +4,16 @@ title: IAVIFile::CreateStream
 author: windows-sdk-content
 description: The CreateStream method creates a stream for writing. Called when an application uses the AVIFileCreateStream function.
 old-location: multimedia\iavifile_createstream.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 5c922bb0-53ca-4285-861a-4701503b0445
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: CreateStream, CreateStream method [Windows Multimedia], CreateStream method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],CreateStream method, IAVIFile.CreateStream, IAVIFile::CreateStream, _win32_IAVIFile_CreateStream, multimedia.iavifile_createstream, vfw/IAVIFile::CreateStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAVIFile.CreateStream
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAVIFile::CreateStream
@@ -66,7 +64,7 @@ The <b>CreateStream</b> method creates a stream for writing. Called when an appl
 
 ### -param ppStream
 
-
+TBD
 
 
 ### -param psi

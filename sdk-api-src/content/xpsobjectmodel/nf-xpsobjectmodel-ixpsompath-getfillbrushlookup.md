@@ -4,17 +4,16 @@ title: IXpsOMPath::GetFillBrushLookup
 author: windows-sdk-content
 description: Gets the lookup key of the brush that is stored in a resource dictionary and used as the fill brush for the path.
 old-location: xps\ixpsompath_getfillbrushlookup.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 89433357-fa39-41e9-bd21-ff3c076261db
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFillBrushLookup, GetFillBrushLookup method [XPS Documents and Packaging], GetFillBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetFillBrushLookup method, IXpsOMPath.GetFillBrushLookup, IXpsOMPath::GetFillBrushLookup, xps.ixpsompath_getfillbrushlookup, xpsobjectmodel/IXpsOMPath::GetFillBrushLookup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMPath.GetFillBrushLookup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPath::GetFillBrushLookup

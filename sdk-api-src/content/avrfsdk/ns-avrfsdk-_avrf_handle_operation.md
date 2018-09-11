@@ -4,17 +4,16 @@ title: "_AVRF_HANDLE_OPERATION"
 author: windows-sdk-content
 description: Contains information required to collect handle trace information.
 old-location: winprog\avrf_handle_operation.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 9268d24d-5000-4ac5-a3c5-895613ccbb9a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PAVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION structure [Windows API], _AVRF_HANDLE_OPERATION, avrfsdk/AVRF_HANDLE_OPERATION, base.avrf_handle_operation, winprog.avrf_handle_operation"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: avrfsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVRF_HANDLE_OPERATION, *PAVRF_HANDLE_OPERATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AVRF_HANDLE_OPERATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AVRF_HANDLE_OPERATION, *PAVRF_HANDLE_OPERATION
+req.redist: 
 ---
 
 # _AVRF_HANDLE_OPERATION structure

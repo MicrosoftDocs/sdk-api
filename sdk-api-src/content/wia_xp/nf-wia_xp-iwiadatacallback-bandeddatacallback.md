@@ -4,17 +4,16 @@ title: IWiaDataCallback::BandedDataCallback
 author: windows-sdk-content
 description: Provides data transfer status notifications. Windows Image Acquisition (WIA) data transfer methods of the IWiaDataTransfer interface periodically call this method.
 old-location: wia\_wia_IWiaDataCallback_BandedDataCallback.htm
-old-project: wia
+tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatacallback\bandeddatacallback.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: BandedDataCallback, BandedDataCallback method [WIA], BandedDataCallback method [WIA],IWiaDataCallback interface, IT_MSG_DATA, IT_MSG_DATA_HEADER, IT_MSG_DEVICE_STATUS, IT_MSG_FILE_PREVIEW_DATA, IT_MSG_FILE_PREVIEW_DATA_HEADER, IT_MSG_NEW_PAGE, IT_MSG_STATUS, IT_MSG_TERMINATION, IT_STATUS_PROCESSING_DATA, IT_STATUS_TRANSFER_FROM_DEVICE, IT_STATUS_TRANSFER_TO_CLIENT, IWiaDataCallback interface [WIA],BandedDataCallback method, IWiaDataCallback.BandedDataCallback, IWiaDataCallback::BandedDataCallback, _wia_IWiaDataCallback_BandedDataCallback, wia._wia_IWiaDataCallback_BandedDataCallback, wia_xp/IWiaDataCallback::BandedDataCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIAVIDEO_STATE
+req.lib: Wiaguid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWiaDataCallback.BandedDataCallback
 product: Windows
 targetos: Windows
-req.lib: Wiaguid.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWiaDataCallback::BandedDataCallback

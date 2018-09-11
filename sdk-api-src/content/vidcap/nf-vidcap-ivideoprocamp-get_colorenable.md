@@ -4,17 +4,16 @@ title: IVideoProcAmp::get_ColorEnable
 author: windows-sdk-content
 description: The get_ColorEnable method returns the camera's color-enable setting.
 old-location: dshow\ivideoprocamp_get_colorenable.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6097b8cf-b46e-443d-8f32-46eb4a8f4de6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_ColorEnable method, IVideoProcAmp.get_ColorEnable, IVideoProcAmp::get_ColorEnable, IVideoProcAmpget_ColorEnable, dshow.ivideoprocamp_get_colorenable, get_ColorEnable, get_ColorEnable method [DirectShow], get_ColorEnable method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_ColorEnable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoProcAmp.get_ColorEnable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoProcAmp::get_ColorEnable

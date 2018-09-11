@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSink::put_SinkName
 author: windows-sdk-content
 description: The put_SinkName method sets the name of the stub file that points to the backing files.
 old-location: mstv\imsvidstreambuffersink_put_sinkname.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 5269ab81-0963-4a86-9592-d670cca6016f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],put_SinkName method, IMSVidStreamBufferSink.put_SinkName, IMSVidStreamBufferSink::put_SinkName, IMSVidStreamBufferSinkput_SinkName, mstv.imsvidstreambuffersink_put_sinkname, put_SinkName, put_SinkName method [Microsoft TV Technologies], put_SinkName method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, segment/IMSVidStreamBufferSink::put_SinkName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSink.put_SinkName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSink::put_SinkName

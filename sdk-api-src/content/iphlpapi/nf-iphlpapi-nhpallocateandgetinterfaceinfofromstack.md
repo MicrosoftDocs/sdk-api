@@ -4,17 +4,16 @@ title: NhpAllocateAndGetInterfaceInfoFromStack function
 author: windows-sdk-content
 description: The NhpAllocateAndGetInterfaceInfoFromStack function obtains adapter information about the local computer.
 old-location: iphlp\nhpallocateandgetinterfaceinfofromstack.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: a5ba8b28-4c15-4646-91d0-b6ef9e0f1e89
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: NhpAllocateAndGetInterfaceInfoFromStack, NhpAllocateAndGetInterfaceInfoFromStack function [IP Helper], iphlp.nhpallocateandgetinterfaceinfofromstack, iphlpapi/NhpAllocateAndGetInterfaceInfoFromStack
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NhpAllocateAndGetInterfaceInfoFromStack
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NhpAllocateAndGetInterfaceInfoFromStack function

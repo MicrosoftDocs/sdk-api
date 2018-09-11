@@ -4,17 +4,16 @@ title: INetFwPolicy::get_CurrentProfile
 author: windows-sdk-content
 description: Retrieves the current firewall profile.
 old-location: ics\inetfwpolicy_currentprofile.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 2ee59a3e-a4e3-4714-aba7-9d72bfacfb34
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CurrentProfile property [ICS/ICF], CurrentProfile property [ICS/ICF],INetFwPolicy interface, INetFwPolicy interface [ICS/ICF],CurrentProfile property, INetFwPolicy.CurrentProfile, INetFwPolicy.get_CurrentProfile, INetFwPolicy::CurrentProfile, INetFwPolicy::get_CurrentProfile, get_CurrentProfile, ics.inetfwpolicy_currentprofile, netfw/INetFwPolicy::CurrentProfile, netfw/INetFwPolicy::get_CurrentProfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwPolicy.get_CurrentProfile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwPolicy::get_CurrentProfile

@@ -4,17 +4,16 @@ title: CLIPOBJ_bEnum function
 author: windows-sdk-content
 description: The CLIPOBJ_bEnum function enumerates a batch of rectangles from a specified clip region; a prior call to CLIPOBJ_cEnumStart determines the order of enumeration.
 old-location: display\clipobj_benum.htm
-old-project: display
+tech.root: display
 ms.assetid: d54e6e2a-4869-45d6-9ad1-4e9aca5f5e77
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: CLIPOBJ_bEnum, CLIPOBJ_bEnum function [Display Devices], display.clipobj_benum, gdifncs_8f383214-6bb4-4099-bdf7-c019a28ef8ac.xml, winddi/CLIPOBJ_bEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLIPOBJ_bEnum
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CLIPOBJ_bEnum function

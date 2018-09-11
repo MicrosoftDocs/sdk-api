@@ -4,17 +4,16 @@ title: IFsrmSetting::get_EnableScreeningAudit
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether FSRM keeps audit records of the file screen violations.
 old-location: fsrm\ifsrmsetting_enablescreeningaudit.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 6d185eca-6c14-4cd9-bb12-95499cde1050
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: EnableScreeningAudit property [File Server Resource Manager], EnableScreeningAudit property [File Server Resource Manager],FsrmSetting class, EnableScreeningAudit property [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],EnableScreeningAudit property, IFsrmSetting interface [File Server Resource Manager],EnableScreeningAudit property, IFsrmSetting.EnableScreeningAudit, IFsrmSetting.get_EnableScreeningAudit, IFsrmSetting::EnableScreeningAudit, IFsrmSetting::get_EnableScreeningAudit, IFsrmSetting::put_EnableScreeningAudit, fs.ifsrmsetting_enablescreeningaudit, fsrm.ifsrmsetting_enablescreeningaudit, fsrm/IFsrmSetting::EnableScreeningAudit, fsrm/IFsrmSetting::get_EnableScreeningAudit, fsrm/IFsrmSetting::put_EnableScreeningAudit, get_EnableScreeningAudit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - FsrmSetting.EnableScreeningAudit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmSetting::get_EnableScreeningAudit

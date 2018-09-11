@@ -4,17 +4,16 @@ title: IWICImagingFactory::CreateComponentInfo
 author: windows-sdk-content
 description: Creates a new instance of the IWICComponentInfo class for the given component class identifier (CLSID).
 old-location: wic\_wic_codec_iwicimagingfactory_createcomponentinfo.htm
-old-project: wic
+tech.root: wic
 ms.assetid: c4feebf7-500f-4ab8-85fa-689edfe31846
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateComponentInfo, CreateComponentInfo method [Windows Imaging Component], CreateComponentInfo method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateComponentInfo method, IWICImagingFactory.CreateComponentInfo, IWICImagingFactory::CreateComponentInfo, _wic_codec_iwicimagingfactory_createcomponentinfo, wic._wic_codec_iwicimagingfactory_createcomponentinfo, wincodec/IWICImagingFactory::CreateComponentInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICImagingFactory.CreateComponentInfo
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICImagingFactory::CreateComponentInfo

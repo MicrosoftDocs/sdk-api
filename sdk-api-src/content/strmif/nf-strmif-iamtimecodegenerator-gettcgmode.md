@@ -4,17 +4,16 @@ title: IAMTimecodeGenerator::GetTCGMode
 author: windows-sdk-content
 description: The GetTCGMode method retrieves the SMPTE timecode generator properties.
 old-location: dshow\iamtimecodegenerator_gettcgmode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 76a754e3-4071-437a-bd98-99a94e2594a3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetTCGMode, GetTCGMode method [DirectShow], GetTCGMode method [DirectShow],IAMTimecodeGenerator interface, IAMTimecodeGenerator interface [DirectShow],GetTCGMode method, IAMTimecodeGenerator.GetTCGMode, IAMTimecodeGenerator::GetTCGMode, IAMTimecodeGeneratorGetTCGMode, dshow.iamtimecodegenerator_gettcgmode, strmif/IAMTimecodeGenerator::GetTCGMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTimecodeGenerator.GetTCGMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTimecodeGenerator::GetTCGMode

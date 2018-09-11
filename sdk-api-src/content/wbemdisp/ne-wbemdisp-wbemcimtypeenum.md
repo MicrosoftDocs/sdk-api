@@ -4,17 +4,16 @@ title: WbemCimtypeEnum
 author: windows-sdk-content
 description: Define the valid CIM types of a property value.
 old-location: wmi\wbemcimtypeenum.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: d9929464-742e-4f6c-b631-a6c191167858
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WbemCimTypeEnum, WbemCimTypeEnum enumeration [Windows Management Instrumentation], WbemCimtypeEnum, _hmm_wbemcimtypeenum, wbemCimtypeBoolean, wbemCimtypeChar16, wbemCimtypeDatetime, wbemCimtypeObject, wbemCimtypeReal32, wbemCimtypeReal64, wbemCimtypeReference, wbemCimtypeSint16, wbemCimtypeSint32, wbemCimtypeSint64, wbemCimtypeSint8, wbemCimtypeString, wbemCimtypeUint16, wbemCimtypeUint32, wbemCimtypeUint64, wbemCimtypeUint8, wbemdisp/WbemCimTypeEnum, wbemdisp/wbemCimtypeBoolean, wbemdisp/wbemCimtypeChar16, wbemdisp/wbemCimtypeDatetime, wbemdisp/wbemCimtypeObject, wbemdisp/wbemCimtypeReal32, wbemdisp/wbemCimtypeReal64, wbemdisp/wbemCimtypeReference, wbemdisp/wbemCimtypeSint16, wbemdisp/wbemCimtypeSint32, wbemdisp/wbemCimtypeSint64, wbemdisp/wbemCimtypeSint8, wbemdisp/wbemCimtypeString, wbemdisp/wbemCimtypeUint16, wbemdisp/wbemCimtypeUint32, wbemdisp/wbemCimtypeUint64, wbemdisp/wbemCimtypeUint8, wmi.wbemcimtypeenum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemCimtypeEnum
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WbemCimTypeEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WbemCimtypeEnum
+req.redist: 
 ---
 
 # WbemCimtypeEnum enumeration

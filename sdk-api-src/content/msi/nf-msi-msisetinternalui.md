@@ -4,17 +4,16 @@ title: MsiSetInternalUI function
 author: windows-sdk-content
 description: The MsiSetInternalUI function enables the installer's internal user interface. Then this user interface is used for all subsequent calls to user-interface-generating installer functions in this process. For more information, see User Interface Levels.
 old-location: setup\msisetinternalui.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 303c2ea9-4c8f-46d3-b587-7c50e2810c28
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: INSTALLUILEVEL_BASIC, INSTALLUILEVEL_DEFAULT, INSTALLUILEVEL_ENDDIALOG, INSTALLUILEVEL_FULL, INSTALLUILEVEL_HIDECANCEL, INSTALLUILEVEL_NOCHANGE, INSTALLUILEVEL_NONE, INSTALLUILEVEL_PROGRESSONLY, INSTALLUILEVEL_REDUCED, INSTALLUILEVEL_SOURCERESONLY, MsiSetInternalUI, MsiSetInternalUI function, _msi_msisetinternalui, msi/MsiSetInternalUI, setup.msisetinternalui
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - MsiSetInternalUI
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiSetInternalUI function

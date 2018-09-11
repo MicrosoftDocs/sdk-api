@@ -4,17 +4,16 @@ title: IGPMCSECollection::get_Count
 author: windows-sdk-content
 description: Returns the number of client side extensions (CSEs) in the collection.
 old-location: gpmc\igpmcsecollection_get_count.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: de930618-f740-40d1-847d-b290c8ecc6d2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMCSECollection object, Count property [GPMC],IGPMCSECollection interface, GPMCSECollection object [GPMC],Count property, IGPMCSECollection interface [GPMC],Count property, IGPMCSECollection.Count, IGPMCSECollection.get_Count, IGPMCSECollection::Count, IGPMCSECollection::get_Count, _win32_igpmcsecollection_get_count, get_Count, gpmc.igpmcsecollection_get_count, gpmgmt/IGPMCSECollection::Count, gpmgmt/IGPMCSECollection::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GPMCSECollection.Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMCSECollection::get_Count

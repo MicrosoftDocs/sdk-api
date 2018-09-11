@@ -4,7 +4,7 @@ title: "_BG_JOB_REPLY_PROGRESS"
 author: windows-sdk-content
 description: The BG_JOB_REPLY_PROGRESS structure provides progress information related to the reply portion of an upload-reply job.
 old-location: bits\bg_job_reply_progress.htm
-old-project: bits
+tech.root: bits
 ms.assetid: ea78ee22-87b2-4859-bd49-dd309c8aa234
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits1_5.h
 req.include-header: Bits.h
-req.redist: BITS 1.5 on  Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_REPLY_PROGRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BG_JOB_REPLY_PROGRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BG_JOB_REPLY_PROGRESS
+req.redist: BITS 1.5 on  Windows XP
 ---
 
 # _BG_JOB_REPLY_PROGRESS structure

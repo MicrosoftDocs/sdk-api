@@ -4,17 +4,16 @@ title: IFileOpenDialog::GetSelectedItems
 author: windows-sdk-content
 description: Gets the currently selected items in the dialog. These items may be items selected in the view, or text selected in the file name edit box.
 old-location: shell\IFileOpenDialog_GetSelectedItems.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5fc53607-60d2-4d23-b11e-779c26c02b0f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows Shell], GetSelectedItems method [Windows Shell],IFileOpenDialog interface, IFileOpenDialog interface [Windows Shell],GetSelectedItems method, IFileOpenDialog.GetSelectedItems, IFileOpenDialog::GetSelectedItems, shell.IFileOpenDialog_GetSelectedItems, shell_IFileOpenDialog_GetSelectedItems, shobjidl_core/IFileOpenDialog::GetSelectedItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOpenDialog.GetSelectedItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOpenDialog::GetSelectedItems

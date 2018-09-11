@@ -4,17 +4,16 @@ title: ITSGAuthenticateUserSink::OnUserAuthenticated
 author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) that the authentication plug-in has successfully authenticated the user.
 old-location: termserv\itsgauthenticateusersink_onuserauthenticated.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 2f3dd498-661c-4787-8db4-bcc43bd76294
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],OnUserAuthenticated method, ITSGAuthenticateUserSink.OnUserAuthenticated, ITSGAuthenticateUserSink::OnUserAuthenticated, OnUserAuthenticated, OnUserAuthenticated method [Remote Desktop Services], OnUserAuthenticated method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_onuserauthenticated, tsgauthenticationengine/ITSGAuthenticateUserSink::OnUserAuthenticated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsgauthenticationengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSGAuthenticateUserSink.OnUserAuthenticated
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSGAuthenticateUserSink::OnUserAuthenticated

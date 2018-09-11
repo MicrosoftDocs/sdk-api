@@ -4,17 +4,16 @@ title: IFsrmQuotaManager::EnumAutoApplyQuotas
 author: windows-sdk-content
 description: Enumerates the automatic quotas that are associated with the specified directory.
 old-location: fsrm\ifsrmquotamanager_enumautoapplyquotas.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 6542bc4e-535f-4e6c-aaa8-ba6963490811
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: EnumAutoApplyQuotas, EnumAutoApplyQuotas method [File Server Resource Manager], EnumAutoApplyQuotas method [File Server Resource Manager],FsrmQuotaManager class, EnumAutoApplyQuotas method [File Server Resource Manager],IFsrmQuotaManager interface, EnumAutoApplyQuotas method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],EnumAutoApplyQuotas method, IFsrmQuotaManager interface [File Server Resource Manager],EnumAutoApplyQuotas method, IFsrmQuotaManager.EnumAutoApplyQuotas, IFsrmQuotaManager::EnumAutoApplyQuotas, IFsrmQuotaManagerEx interface [File Server Resource Manager],EnumAutoApplyQuotas method, IFsrmQuotaManagerEx::EnumAutoApplyQuotas, fs.ifsrmquotamanager_enumautoapplyquotas, fsrm.ifsrmquotamanager_enumautoapplyquotas, fsrmquota/IFsrmQuotaManager::EnumAutoApplyQuotas, fsrmquota/IFsrmQuotaManagerEx::EnumAutoApplyQuotas
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmQuotaManager.EnumAutoApplyQuotas
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaManager::EnumAutoApplyQuotas

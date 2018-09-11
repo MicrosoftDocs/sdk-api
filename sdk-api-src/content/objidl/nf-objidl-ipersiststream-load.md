@@ -4,17 +4,16 @@ title: IPersistStream::Load
 author: windows-sdk-content
 description: Initializes an object from the stream where it was saved previously.
 old-location: com\ipersiststream_load.htm
-old-project: com
+tech.root: com
 ms.assetid: 351e1187-9959-4542-8778-925457c3b8e3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPersistStream interface [COM],Load method, IPersistStream.Load, IPersistStream::Load, Load, Load method [COM], Load method [COM],IPersistStream interface, _com_ipersiststream_load, com.ipersiststream_load, objidl/IPersistStream::Load
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistStream.Load
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistStream::Load

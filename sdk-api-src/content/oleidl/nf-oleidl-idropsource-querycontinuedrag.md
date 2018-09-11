@@ -4,17 +4,16 @@ title: IDropSource::QueryContinueDrag
 author: windows-sdk-content
 description: Determines whether a drag-and-drop operation should be continued, canceled, or completed. You do not call this method directly. The OLE DoDragDrop function calls this method during a drag-and-drop operation.
 old-location: com\idropsource_querycontinuedrag.htm
-old-project: com
+tech.root: com
 ms.assetid: 96ea44fc-5046-4e31-abfc-659d8ef3ca8f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IDropSource interface [COM],QueryContinueDrag method, IDropSource.QueryContinueDrag, IDropSource::QueryContinueDrag, QueryContinueDrag, QueryContinueDrag method [COM], QueryContinueDrag method [COM],IDropSource interface, _ole_idropsource_querycontinuedrag, com.idropsource_querycontinuedrag, oleidl/IDropSource::QueryContinueDrag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDropSource.QueryContinueDrag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDropSource::QueryContinueDrag

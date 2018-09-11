@@ -4,17 +4,16 @@ title: IParentAndItem::GetParentAndItem
 author: windows-sdk-content
 description: Gets the parent of an item and the parent's child ID.
 old-location: shell\IParentAndItem_GetParentAndItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 351ad043-949c-46e1-a6cd-bcc15016f42a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetParentAndItem, GetParentAndItem method [Windows Shell], GetParentAndItem method [Windows Shell],IParentAndItem interface, IParentAndItem interface [Windows Shell],GetParentAndItem method, IParentAndItem.GetParentAndItem, IParentAndItem::GetParentAndItem, _shell_IParentAndItem_GetParentAndItem, shell.IParentAndItem_GetParentAndItem, shobjidl_core/IParentAndItem::GetParentAndItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IParentAndItem.GetParentAndItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IParentAndItem::GetParentAndItem

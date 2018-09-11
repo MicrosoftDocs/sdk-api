@@ -4,17 +4,16 @@ title: IUIAnimationManager::GetVariableFromTag
 author: windows-sdk-content
 description: Gets the animation variable with the specified tag.
 old-location: uianimation\iuianimationmanager_getvariablefromtag.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 611c5341-f225-461d-9718-a2432d796764
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetVariableFromTag, GetVariableFromTag method [Windows Animation], GetVariableFromTag method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],GetVariableFromTag method, IUIAnimationManager.GetVariableFromTag, IUIAnimationManager::GetVariableFromTag, uianimation.iuianimationmanager_getvariablefromtag, uianimation/IUIAnimationManager::GetVariableFromTag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationManager.GetVariableFromTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationManager::GetVariableFromTag

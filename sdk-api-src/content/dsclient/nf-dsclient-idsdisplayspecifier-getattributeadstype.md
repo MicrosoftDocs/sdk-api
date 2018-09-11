@@ -4,17 +4,16 @@ title: IDsDisplaySpecifier::GetAttributeADsType
 author: windows-sdk-content
 description: Retrieves the attribute type for a given attribute.
 old-location: ad\idsdisplayspecifier_getattributeadstype.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 4e9ecbee-b298-42a4-ad02-28bab9d99b6b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAttributeADsType, GetAttributeADsType method [Active Directory], GetAttributeADsType method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetAttributeADsType method, IDsDisplaySpecifier.GetAttributeADsType, IDsDisplaySpecifier::GetAttributeADsType, _glines_idsdisplayspecifier_getattributeadstype, ad.idsdisplayspecifier__getattributeadstype, ad.idsdisplayspecifier_getattributeadstype, dsclient/IDsDisplaySpecifier::GetAttributeADsType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: Dsadmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsDisplaySpecifier.GetAttributeADsType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dsadmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsDisplaySpecifier::GetAttributeADsType

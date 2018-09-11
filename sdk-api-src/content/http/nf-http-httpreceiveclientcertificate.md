@@ -4,17 +4,16 @@ title: HttpReceiveClientCertificate function
 author: windows-sdk-content
 description: The HttpReceiveClientCertificate function is used by a server application to retrieve a client SSL certificate or channel binding token (CBT).
 old-location: http\httpreceiveclientcertificate.htm
-old-project: http
+tech.root: http
 ms.assetid: f0cf7b77-2868-4142-a663-32d6ea7df9e9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HTTP_RECEIVE_SECURE_CHANNEL_TOKEN, HttpReceiveClientCertificate, HttpReceiveClientCertificate function [HTTP], _http_httpreceiveclientcertificate, http.httpreceiveclientcertificate, http/HttpReceiveClientCertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HttpReceiveClientCertificate
 product: Windows
 targetos: Windows
-req.lib: Httpapi.lib
-req.dll: Httpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HttpReceiveClientCertificate function

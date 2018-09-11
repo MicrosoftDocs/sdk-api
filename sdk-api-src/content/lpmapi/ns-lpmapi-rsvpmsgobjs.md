@@ -4,17 +4,16 @@ title: rsvpmsgobjs
 author: windows-sdk-content
 description: The RSVP_MSG_OBJS structure contains RSVP message objects.
 old-location: qos\rsvp_msg_objs.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 4ca0bfbc-7c1b-4395-b0fb-487e5c36b5d8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RSVP_MSG_OBJS, RSVP_MSG_OBJS structure [QOS], lpmapi/RSVP_MSG_OBJS, qos.rsvp_msg_objs, rsvpmsgobjs
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_MSG_OBJS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RSVP_MSG_OBJS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RSVP_MSG_OBJS
+req.redist: 
 ---
 
 # rsvpmsgobjs structure

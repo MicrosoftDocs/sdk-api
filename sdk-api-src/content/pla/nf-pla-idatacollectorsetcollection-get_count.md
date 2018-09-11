@@ -4,17 +4,16 @@ title: IDataCollectorSetCollection::get_Count
 author: windows-sdk-content
 description: Retrieves the number of data collector sets in the collection.
 old-location: pla\idatacollectorsetcollection_count.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: b43f7cc5-9780-4ae7-b542-7ca887f09087
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Count property [PLA], Count property [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],Count property, IDataCollectorSetCollection.Count, IDataCollectorSetCollection.get_Count, IDataCollectorSetCollection::Count, IDataCollectorSetCollection::get_Count, base.idatacollectorsetcollection_count, get_Count, pla.idatacollectorsetcollection_count, pla/IDataCollectorSetCollection::Count, pla/IDataCollectorSetCollection::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDataCollectorSetCollection.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSetCollection::get_Count

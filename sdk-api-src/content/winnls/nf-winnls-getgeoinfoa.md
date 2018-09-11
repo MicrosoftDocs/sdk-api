@@ -4,17 +4,16 @@ title: GetGeoInfoA function
 author: windows-sdk-content
 description: Retrieves information about a specified geographical location.
 old-location: intl\getgeoinfo.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 73827ed9-bdc5-4b34-b849-fb44b3c5bd6e
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetGeoInfo, GetGeoInfo function [Internationalization for Windows Applications], GetGeoInfoA, GetGeoInfoW, _win32_GetGeoInfo, intl.getgeoinfo, winnls/GetGeoInfo, winnls/GetGeoInfoA, winnls/GetGeoInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - GetGeoInfoW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetGeoInfoA function

@@ -4,17 +4,16 @@ title: IUIAutomationTableItemPattern::GetCurrentRowHeaderItems
 author: windows-sdk-content
 description: Retrieves the row headers associated with a table item or cell.
 old-location: winauto\uiauto_IUIAutomationTableItemPattern_GetCurrentRowHeaderItems.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 6ae074c6-1855-4aea-845c-284a7bbc3f3f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCurrentRowHeaderItems, GetCurrentRowHeaderItems method [Windows Accessibility], GetCurrentRowHeaderItems method [Windows Accessibility],IUIAutomationTableItemPattern interface, IUIAutomationTableItemPattern interface [Windows Accessibility],GetCurrentRowHeaderItems method, IUIAutomationTableItemPattern.GetCurrentRowHeaderItems, IUIAutomationTableItemPattern::GetCurrentRowHeaderItems, uiauto.uiauto_IUIAutomationTableItemPattern_GetCurrentRowHeaderItems, uiauto_IUIAutomationTableItemPattern_GetCurrentRowHeaderItems, uiautomationclient/IUIAutomationTableItemPattern::GetCurrentRowHeaderItems, winauto.uiauto_IUIAutomationTableItemPattern_GetCurrentRowHeaderItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTableItemPattern.GetCurrentRowHeaderItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTableItemPattern::GetCurrentRowHeaderItems

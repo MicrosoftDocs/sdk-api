@@ -4,7 +4,7 @@ title: "_DHCP_SUBNET_ELEMENT_TYPE_V5"
 author: windows-sdk-content
 description: The DHCP_SUBNET_ELEMENT_TYPE enumeration defines the set of possible subnet element types.
 old-location: dhcp\dhcp_subnet_element_type.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 291be329-0588-4b67-835f-4f2b2369772a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_SUBNET_ELEMENT_TYPE, *LPDHCP_SUBNET_ELEMENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_SUBNET_ELEMENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_SUBNET_ELEMENT_TYPE, *LPDHCP_SUBNET_ELEMENT_TYPE
+req.redist: 
 ---
 
 # _DHCP_SUBNET_ELEMENT_TYPE_V5 enumeration

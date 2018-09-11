@@ -4,17 +4,16 @@ title: "_MINIDUMP_MISC_INFO"
 author: windows-sdk-content
 description: Contains a variety of information.
 old-location: base\minidump_misc_info_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: c80bb631-b26b-40d4-ae35-1cf38ce45d51
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PMINIDUMP_MISC_INFO, MINIDUMP_MISC1_PROCESS_ID, MINIDUMP_MISC1_PROCESS_TIMES, MINIDUMP_MISC_INFO, MINIDUMP_MISC_INFO structure, PMINIDUMP_MISC_INFO, PMINIDUMP_MISC_INFO structure pointer, _MINIDUMP_MISC_INFO, _win32_minidump_misc_info_str, base.minidump_misc_info_str, minidumpapiset/MINIDUMP_MISC_INFO, minidumpapiset/PMINIDUMP_MISC_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 6.0 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_MISC_INFO, *PMINIDUMP_MISC_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_MISC_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_MISC_INFO, *PMINIDUMP_MISC_INFO
+req.redist: DbgHelp.dll 6.0 or later
 ---
 
 # _MINIDUMP_MISC_INFO structure

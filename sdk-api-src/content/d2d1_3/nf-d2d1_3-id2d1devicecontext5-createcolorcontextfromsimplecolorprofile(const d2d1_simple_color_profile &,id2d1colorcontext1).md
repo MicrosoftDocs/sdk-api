@@ -4,17 +4,16 @@ title: ID2D1DeviceContext5::CreateColorContextFromSimpleColorProfile(const D2D1_
 author: windows-sdk-content
 description: Creates a color context from a simple color profile. It is only valid to use this with the Color Management Effect in 'Best' mode.
 old-location: direct2d\id2d1devicecontext5_createcolorcontextfromsimplecolorprofile.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 27727A6C-2DF2-432B-AFBF-CF63BD9E5B53
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateColorContextFromSimpleColorProfile, CreateColorContextFromSimpleColorProfile method [Direct2D], CreateColorContextFromSimpleColorProfile method [Direct2D],ID2D1DeviceContext5 interface, ID2D1DeviceContext5 interface [Direct2D],CreateColorContextFromSimpleColorProfile method, ID2D1DeviceContext5.CreateColorContextFromSimpleColorProfile, ID2D1DeviceContext5.CreateColorContextFromSimpleColorProfile(const D2D1_SIMPLE_COLOR_PROFILE &,ID2D1ColorContext1), ID2D1DeviceContext5::CreateColorContextFromSimpleColorProfile, ID2D1DeviceContext5::CreateColorContextFromSimpleColorProfile(const D2D1_SIMPLE_COLOR_PROFILE &,ID2D1ColorContext1), d2d1_3/ID2D1DeviceContext5::CreateColorContextFromSimpleColorProfile, direct2d.id2d1devicecontext5_createcolorcontextfromsimplecolorprofile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext5.CreateColorContextFromSimpleColorProfile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext5::CreateColorContextFromSimpleColorProfile(const D2D1_SIMPLE_COLOR_PROFILE &,ID2D1ColorContext1)

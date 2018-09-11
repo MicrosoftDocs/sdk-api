@@ -4,17 +4,16 @@ title: IEnumExplorerCommand::Reset
 author: windows-sdk-content
 description: Resets the enumeration to 0.
 old-location: shell\IEnumExplorerCommand_Reset.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 296ff94a-81ec-49ac-95a3-92c7ca76c9bf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IEnumExplorerCommand interface [Windows Shell],Reset method, IEnumExplorerCommand.Reset, IEnumExplorerCommand::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumExplorerCommand interface, _shell_IEnumExplorerCommand_Reset, shell.IEnumExplorerCommand_Reset, shobjidl_core/IEnumExplorerCommand::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumExplorerCommand.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumExplorerCommand::Reset

@@ -4,17 +4,16 @@ title: WTSEnumerateSessionsExA function
 author: windows-sdk-content
 description: Retrieves a list of sessions on a specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
 old-location: termserv\wtsenumeratesessionsex.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: b903cf07-d3bd-4b65-9e57-88d9e1f74e0b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSEnumerateSessionsEx, WTSEnumerateSessionsEx function [Remote Desktop Services], WTSEnumerateSessionsExA, WTSEnumerateSessionsExW, termserv.wtsenumeratesessionsex, wtsapi32/WTSEnumerateSessionsEx, wtsapi32/WTSEnumerateSessionsExA, wtsapi32/WTSEnumerateSessionsExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WTSEnumerateSessionsExW
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSEnumerateSessionsExA function

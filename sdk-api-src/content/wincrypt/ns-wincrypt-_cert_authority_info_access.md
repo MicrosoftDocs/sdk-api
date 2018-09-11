@@ -4,17 +4,16 @@ title: "_CERT_AUTHORITY_INFO_ACCESS"
 author: windows-sdk-content
 description: Represents authority information access and subject information access certificate extensions and specifies how to access additional information and services for the subject or the issuer of a certificate.
 old-location: security\cert_authority_info_access.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5f4abb15-3057-4d20-a319-550cec45d1f1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_AUTHORITY_INFO_ACCESS, *PCERT_SUBJECT_INFO_ACCESS, CERT_AUTHORITY_INFO_ACCESS, CERT_AUTHORITY_INFO_ACCESS structure [Security], CERT_SUBJECT_INFO_ACCESS, CERT_SUBJECT_INFO_ACCESS structure [Security], PCERT_AUTHORITY_INFO_ACCESS, PCERT_AUTHORITY_INFO_ACCESS structure pointer [Security], PCERT_SUBJECT_INFO_ACCESS, PCERT_SUBJECT_INFO_ACCESS structure pointer [Security], _CERT_AUTHORITY_INFO_ACCESS, _crypto2_cert_authority_info_access, security.cert_authority_info_access, wincrypt/CERT_AUTHORITY_INFO_ACCESS, wincrypt/CERT_SUBJECT_INFO_ACCESS, wincrypt/PCERT_AUTHORITY_INFO_ACCESS, wincrypt/PCERT_SUBJECT_INFO_ACCESS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_AUTHORITY_INFO_ACCESS, *PCERT_AUTHORITY_INFO_ACCESS, CERT_SUBJECT_INFO_ACCESS, *PCERT_SUBJECT_INFO_ACCESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_AUTHORITY_INFO_ACCESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_AUTHORITY_INFO_ACCESS, *PCERT_AUTHORITY_INFO_ACCESS, CERT_SUBJECT_INFO_ACCESS, *PCERT_SUBJECT_INFO_ACCESS
+req.redist: 
 ---
 
 # _CERT_AUTHORITY_INFO_ACCESS structure

@@ -4,7 +4,7 @@ title: PLOG_UNPINNED_CALLBACK
 author: windows-sdk-content
 description: The LOG_UNPINNED_CALLBACK function is an application-defined callback function that receives notification that the log has become unpinned.
 old-location: fs\log_unpinned_callback.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: ab3b5ffb-01a5-4678-bcfa-7e71b1f4c0f3
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: clfsmgmtw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LOG_UNPINNED_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PLOG_UNPINNED_CALLBACK callback function

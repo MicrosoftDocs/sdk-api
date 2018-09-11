@@ -4,17 +4,16 @@ title: ICertConfig::GetConfig
 author: windows-sdk-content
 description: Retrieves the configuration string for a Certificate Services server. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_getconfig.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 3a35b2a0-f8e4-496d-b76a-a7310842cc4c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CC_DEFAULTCONFIG, CC_FIRSTCONFIG, CC_LOCALACTIVECONFIG, CC_LOCALCONFIG, CC_UIPICKCONFIG, CC_UIPICKCONFIGSKIPLOCALCA, CCertConfig object [Security],GetConfig method, GetConfig, GetConfig method [Security], GetConfig method [Security],CCertConfig object, GetConfig method [Security],ICertConfig interface, GetConfig method [Security],ICertConfig2 interface, ICertConfig interface [Security],GetConfig method, ICertConfig.GetConfig, ICertConfig2 interface [Security],GetConfig method, ICertConfig2::GetConfig, ICertConfig::GetConfig, _certsrv_icertconfig_getconfig, certcli/ICertConfig2::GetConfig, certcli/ICertConfig::GetConfig, security.icertconfig2_getconfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertConfig.GetConfig
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertConfig::GetConfig
@@ -144,7 +143,7 @@ Displays a user interface that allows the user to select a certification authori
 
 ### -param pstrOut
 
-
+TBD
 
 
 

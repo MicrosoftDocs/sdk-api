@@ -4,17 +4,16 @@ title: IIsdbCAContractInformationDescriptor::GetCASystemId
 author: windows-sdk-content
 description: Gets the value of the CA_system_id field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field identifies the conditional access system associated with the contract information.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcasystemid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: cb9f55c1-7967-43e4-9cb3-1d7cdf20c70a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCASystemId, GetCASystemId method [Microsoft TV Technologies], GetCASystemId method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetCASystemId method, IIsdbCAContractInformationDescriptor.GetCASystemId, IIsdbCAContractInformationDescriptor::GetCASystemId, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCASystemId, mstv.iisdbcacontractinformationdescriptor_getcasystemid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbCAContractInformationDescriptor.GetCASystemId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbCAContractInformationDescriptor::GetCASystemId

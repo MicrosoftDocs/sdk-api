@@ -4,17 +4,16 @@ title: PFN_CERT_STORE_PROV_WRITE_CRL
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertAddEncodedCRLToStore, CertAddCRLContextToStore and CertAddSerializedElementToStore before adding to the store.
 old-location: security\certstoreprovwritecrlcallback.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: ba259770-4462-4d1e-bd60-8572612fe032
 ms.author: windowssdkdev
-ms.date: 08/15/2018
-ms.keywords: CertStoreProvWriteCRLCallback, CertStoreProvWriteCRLCallback callback, CertStoreProvWriteCRLCallback callback function [Security], PFN_CERT_STORE_PROV_WRITE_CRL, PFN_CERT_STORE_PROV_WRITE_CRL callback function [Security], _crypto2_certstoreprovwritecrlcallback, security.certstoreprovwritecrlcallback, wincrypt/CertStoreProvWriteCRLCallback, wincrypt/PFN_CERT_STORE_PROV_WRITE_CRL
+ms.date: 08/29/2018
+ms.keywords: CertStoreProvWriteCRLCallback, PFN_CERT_STORE_PROV_WRITE_CRL, PFN_CERT_STORE_PROV_WRITE_CRL callback, PFN_CERT_STORE_PROV_WRITE_CRL callback function [Security], _crypto2_certstoreprovwritecrlcallback, security.certstoreprovwritecrlcallback, wincrypt/PFN_CERT_STORE_PROV_WRITE_CRL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,11 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - CertStoreProvWriteCRLCallback
+ - PFN_CERT_STORE_PROV_WRITE_CRL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_CERT_STORE_PROV_WRITE_CRL callback function

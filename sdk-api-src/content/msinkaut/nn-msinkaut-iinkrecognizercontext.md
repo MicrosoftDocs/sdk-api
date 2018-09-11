@@ -4,17 +4,16 @@ title: IInkRecognizerContext
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkrecognizercontext.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: D3DC08E9-19CC-4281-9C71-CB9B8CBDDB7F
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC], IInkRecognizerContext interface [Tablet PC],described, msinkaut/IInkRecognizerContext, tablet.iinkrecognizercontext
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInkRecognizerContext
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerContext interface

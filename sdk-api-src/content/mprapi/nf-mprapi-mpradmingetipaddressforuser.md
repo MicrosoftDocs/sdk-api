@@ -4,17 +4,16 @@ title: MprAdminGetIpAddressForUser function
 author: windows-sdk-content
 description: RAS calls the MprAdminGetIpAddressForUser function once for each user that requires an IP address.
 old-location: rras\mpradmingetipaddressforuser.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 79deeb39-1916-4bb0-b701-8f0a05dc55af
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminGetIpAddressForUser, MprAdminGetIpAddressForUser callback, MprAdminGetIpAddressForUser callback function [RAS], _mpr_mpradmingetipaddressforuser, mprapi/MprAdminGetIpAddressForUser, rras.mpradmingetipaddressforuser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminGetIpAddressForUser
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminGetIpAddressForUser function

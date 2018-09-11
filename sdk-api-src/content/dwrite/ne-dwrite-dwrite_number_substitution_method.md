@@ -4,17 +4,16 @@ title: DWRITE_NUMBER_SUBSTITUTION_METHOD
 author: windows-sdk-content
 description: Specifies how to apply number substitution on digits and related punctuation.
 old-location: directwrite\dwrite_number_substitution_method.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 9702007f-ab08-4ad2-9fac-6482e17161ca
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_NUMBER_SUBSTITUTION_METHOD, DWRITE_NUMBER_SUBSTITUTION_METHOD enumeration [Direct Write], DWRITE_NUMBER_SUBSTITUTION_METHOD_CONTEXTUAL, DWRITE_NUMBER_SUBSTITUTION_METHOD_FROM_CULTURE, DWRITE_NUMBER_SUBSTITUTION_METHOD_NATIONAL, DWRITE_NUMBER_SUBSTITUTION_METHOD_NONE, DWRITE_NUMBER_SUBSTITUTION_METHOD_TRADITIONAL, directwrite.dwrite_number_substitution_method, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_CONTEXTUAL, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_FROM_CULTURE, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_NATIONAL, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_NONE, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_TRADITIONAL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_NUMBER_SUBSTITUTION_METHOD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_NUMBER_SUBSTITUTION_METHOD enumeration

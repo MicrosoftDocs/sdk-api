@@ -4,17 +4,16 @@ title: IShellItemResources::MarkForDelete
 author: windows-sdk-content
 description: Marks for delete.
 old-location: shell\IShellItemResources_MarkForDelete.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 15f395a8-70ab-43ba-bb75-6e9b25a19faa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellItemResources interface [Windows Shell],MarkForDelete method, IShellItemResources.MarkForDelete, IShellItemResources::MarkForDelete, MarkForDelete, MarkForDelete method [Windows Shell], MarkForDelete method [Windows Shell],IShellItemResources interface, _shell_IShellItemResources_MarkForDelete, shell.IShellItemResources_MarkForDelete, shobjidl_core/IShellItemResources::MarkForDelete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItemResources.MarkForDelete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItemResources::MarkForDelete

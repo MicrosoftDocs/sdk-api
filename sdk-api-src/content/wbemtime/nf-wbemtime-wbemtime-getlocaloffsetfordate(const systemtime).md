@@ -4,17 +4,16 @@ title: WBEMTime::GetLocalOffsetForDate(const SYSTEMTIME)
 author: windows-sdk-content
 description: The GetLocalOffsetForDate method returns the offset in minutes (+ or &#8211;) between GMT and local time for the FILETIME supplied in the argument.
 old-location: wmi\wbemtime_getlocaloffsetfordate_const_filetime__.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: fd40907d-c4df-4eb0-8516-45def3d5d01f
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetLocalOffsetForDate, GetLocalOffsetForDate method [Windows Management Instrumentation], GetLocalOffsetForDate method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetLocalOffsetForDate method, WBEMTime.GetLocalOffsetForDate, WBEMTime.GetLocalOffsetForDate(const SYSTEMTIME), WBEMTime::GetLocalOffsetForDate, WBEMTime::GetLocalOffsetForDate(const FILETIME*), WBEMTime::GetLocalOffsetForDate(const SYSTEMTIME), wbemtime/WBEMTime::GetLocalOffsetForDate, wmi.wbemtime_getlocaloffsetfordate_const_filetime__
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WBEMTime.GetLocalOffsetForDate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WBEMTime::GetLocalOffsetForDate(const SYSTEMTIME)
@@ -69,7 +67,7 @@ The <b>GetLocalOffsetForDate</b> method returns the offset in minutes (+ or –)
 
 ### -param pst
 
-
+TBD
 
 
 

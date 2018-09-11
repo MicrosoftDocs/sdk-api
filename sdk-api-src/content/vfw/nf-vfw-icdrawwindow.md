@@ -4,17 +4,16 @@ title: ICDrawWindow macro
 author: windows-sdk-content
 description: The ICDrawWindow macro notifies a rendering driver that the window specified for the ICM_DRAW_BEGIN message needs to be redrawn. The window has moved or become temporarily obscured. You can use this macro or explicitly call the ICM_DRAW_WINDOW message.
 old-location: multimedia\icdrawwindow.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 35f799f6-99ce-41a4-9165-3bb614ea01d5
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICDrawWindow, ICDrawWindow macro [Windows Multimedia], _win32_ICDrawWindow, multimedia.icdrawwindow, vfw/ICDrawWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDrawWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICDrawWindow macro

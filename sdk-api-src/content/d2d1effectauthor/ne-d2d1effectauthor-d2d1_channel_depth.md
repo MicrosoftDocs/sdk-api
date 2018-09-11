@@ -4,7 +4,7 @@ title: D2D1_CHANNEL_DEPTH
 author: windows-sdk-content
 description: Allows a caller to control the channel depth of a stage in the rendering pipeline.
 old-location: direct2d\d2d1_channel_depth.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 78129b15-a770-49c0-b58b-8cb850f80006
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: D2d1effectauthor.lib
-tech.root: 
-req.typenames: D2D1_CHANNEL_DEPTH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_CHANNEL_DEPTH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_CHANNEL_DEPTH
+req.redist: 
 ---
 
 # D2D1_CHANNEL_DEPTH enumeration

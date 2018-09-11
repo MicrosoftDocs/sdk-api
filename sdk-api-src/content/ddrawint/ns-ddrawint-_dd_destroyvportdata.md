@@ -4,7 +4,7 @@ title: "_DD_DESTROYVPORTDATA"
 author: windows-sdk-content
 description: The DD_DESTROYVPORTDATA structure contains the information necessary for the driver to clean up.
 old-location: display\dd_destroyvportdata.htm
-old-project: display
+tech.root: display
 ms.assetid: b9e29c23-bb1a-47e8-a605-2863c4cda2af
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_DESTROYVPORTDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA"
+req.redist: 
 ---
 
 # _DD_DESTROYVPORTDATA structure

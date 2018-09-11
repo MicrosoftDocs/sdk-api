@@ -4,7 +4,7 @@ title: IKEEXT_CERTIFICATE_AUTHENTICATION2_
 author: windows-sdk-content
 description: Is used to specify various parameters for authentication with certificates.
 old-location: fwp\ikeext_certificate_authentication2.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 39332187-6562-4f58-9284-e2aaccf1489b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_CERTIFICATE_AUTHENTICATION2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_CERTIFICATE_AUTHENTICATION2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_CERTIFICATE_AUTHENTICATION2
+req.redist: 
 ---
 
 # IKEEXT_CERTIFICATE_AUTHENTICATION2_ structure

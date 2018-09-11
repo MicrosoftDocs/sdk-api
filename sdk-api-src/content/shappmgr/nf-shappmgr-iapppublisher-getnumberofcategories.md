@@ -4,17 +4,16 @@ title: IAppPublisher::GetNumberOfCategories
 author: windows-sdk-content
 description: Obsolete. Clients of the Add/Remove Programs Control Panel Application may return E_NOTIMPL.
 old-location: shell\IAppPublisher_GetNumberOfCategories.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5f03b2e6-7202-477f-84ef-2dfaaa484880
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetNumberOfCategories, GetNumberOfCategories method [Windows Shell], GetNumberOfCategories method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],GetNumberOfCategories method, IAppPublisher.GetNumberOfCategories, IAppPublisher::GetNumberOfCategories, inet_IAppPublisher_GetNumberOfCategories, shappmgr/IAppPublisher::GetNumberOfCategories, shell.IAppPublisher_GetNumberOfCategories
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PUBAPPINFOFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAppPublisher.GetNumberOfCategories
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAppPublisher::GetNumberOfCategories
@@ -62,7 +60,7 @@ Obsolete. Clients of the Add/Remove Programs Control Panel Application may retur
 
 ### -param pdwCat
 
-
+TBD
 
 
 

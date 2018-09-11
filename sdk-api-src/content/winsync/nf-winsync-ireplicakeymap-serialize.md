@@ -4,17 +4,16 @@ title: IReplicaKeyMap::Serialize
 author: windows-sdk-content
 description: Serializes the replica key map data to a byte array.
 old-location: winsync\ireplicakeymap_serialize.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 0ed19406-82b8-428f-bed2-796e287dd4cb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IReplicaKeyMap interface [Windows Sync],Serialize method, IReplicaKeyMap.Serialize, IReplicaKeyMap::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],IReplicaKeyMap interface, winsync.ireplicakeymap_serialize, winsync/IReplicaKeyMap::Serialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IReplicaKeyMap.Serialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IReplicaKeyMap::Serialize

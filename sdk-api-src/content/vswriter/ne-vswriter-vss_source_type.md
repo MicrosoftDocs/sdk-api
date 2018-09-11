@@ -4,17 +4,16 @@ title: VSS_SOURCE_TYPE
 author: windows-sdk-content
 description: Specifies the type of data that a writer manages.
 old-location: base\vss_source_type.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: cb89c3cc-5a8e-419e-839c-f72a1886eadf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: VSS_SOURCE_TYPE, VSS_SOURCE_TYPE enumeration [VSS], VSS_ST_NONTRANSACTEDDB, VSS_ST_OTHER, VSS_ST_TRANSACTEDDB, VSS_ST_UNDEFINED, _win32_vss_source_type, base.vss_source_type, enumeration [VSS], vswriter/VSS_SOURCE_TYPE, vswriter/VSS_ST_NONTRANSACTEDDB, vswriter/VSS_ST_OTHER, vswriter/VSS_ST_TRANSACTEDDB, vswriter/VSS_ST_UNDEFINED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_SOURCE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_SOURCE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_SOURCE_TYPE
+req.redist: 
 ---
 
 # VSS_SOURCE_TYPE enumeration

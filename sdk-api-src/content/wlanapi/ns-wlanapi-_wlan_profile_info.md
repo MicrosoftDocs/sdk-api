@@ -4,7 +4,7 @@ title: "_WLAN_PROFILE_INFO"
 author: windows-sdk-content
 description: Basic information about a profile.
 old-location: nwifi\wlan_profile_info.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: ca45278c-2e1e-4080-825a-d6a05e463858
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 
-req.redist: Wireless LAN API for Windows XP with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_PROFILE_INFO, *PWLAN_PROFILE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_PROFILE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_PROFILE_INFO, *PWLAN_PROFILE_INFO
+req.redist: Wireless LAN API for Windows XP with SP2
 ---
 
 # _WLAN_PROFILE_INFO structure

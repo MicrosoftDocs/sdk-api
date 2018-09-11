@@ -4,17 +4,16 @@ title: IMbnConnection::Disconnect
 author: windows-sdk-content
 description: Disconnects a data connection.
 old-location: mbn\imbnconnection_disconnect.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: bc7f28db-499d-41be-a2cc-b4940a5bccd6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Disconnect, Disconnect method [Microsoft Broadband Networks], Disconnect method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],Disconnect method, IMbnConnection.Disconnect, IMbnConnection::Disconnect, mbn.imbnconnection_disconnect, mbnapi/IMbnConnection::Disconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnection.Disconnect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnection::Disconnect

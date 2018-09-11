@@ -4,7 +4,7 @@ title: tagAM_DvdKaraokeData
 author: windows-sdk-content
 description: Specifies how to mix the karaoke audio channels.
 old-location: dshow\am_dvdkaraokedata.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9fef2dd9-0a56-4e51-a64b-7f12c8f9a966
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DvdKaraokeData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_DvdKaraokeData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: AM_DvdKaraokeData
+req.redist: 
 ---
 
 # tagAM_DvdKaraokeData structure

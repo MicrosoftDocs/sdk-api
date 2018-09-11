@@ -4,17 +4,16 @@ title: IRdcGeneratorFilterMaxParameters::GetHashWindowSize
 author: windows-sdk-content
 description: Returns the hash window size&#8212;the size of the sliding window used by the FilterMax generator for computing the hash used in the local maxima calculations.
 old-location: rdc\irdcgeneratorfiltermaxparameters_gethashwindowsize.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: c1a0460c-ca48-48ca-bd5b-1213e8279366
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetHashWindowSize, GetHashWindowSize method [Remote Differential Compression], GetHashWindowSize method [Remote Differential Compression],IRdcGeneratorFilterMaxParameters interface, IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],GetHashWindowSize method, IRdcGeneratorFilterMaxParameters.GetHashWindowSize, IRdcGeneratorFilterMaxParameters::GetHashWindowSize, fs.irdcgeneratorfiltermaxparameters_gethashwindowsize, msrdc/IRdcGeneratorFilterMaxParameters::GetHashWindowSize, rdc.irdcgeneratorfiltermaxparameters_gethashwindowsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsRdc.dll
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcGeneratorFilterMaxParameters.GetHashWindowSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcGeneratorFilterMaxParameters::GetHashWindowSize

@@ -4,17 +4,16 @@ title: ITAgentSession::get_AverageTalkTime
 author: windows-sdk-content
 description: The get_AverageTalkTime method gets the average time (in seconds) spent talking per ACD call, during this agent session (by this agent).
 old-location: tapi3\itagentsession_get_averagetalktime.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b6025053-b21f-478e-86d7-a8572ed2b205
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageTalkTime method, ITAgentSession.get_AverageTalkTime, ITAgentSession::get_AverageTalkTime, _tapi3_itagentsession_get_averagetalktime, get_AverageTalkTime, get_AverageTalkTime method [TAPI 2.2], get_AverageTalkTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagetalktime, tapi3cc/ITAgentSession::get_AverageTalkTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentSession.get_AverageTalkTime
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentSession::get_AverageTalkTime

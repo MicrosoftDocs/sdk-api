@@ -4,7 +4,7 @@ title: FWP_BYTE_BLOB_
 author: windows-sdk-content
 description: Stores an array containing a variable number of bytes.
 old-location: fwp\fwp_byte_blob_struct.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 85f360bf-5ee4-4980-b4ce-15ff310d8fbe
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWP_BYTE_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWP_BYTE_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWP_BYTE_BLOB
+req.redist: 
 ---
 
 # FWP_BYTE_BLOB_ structure

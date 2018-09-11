@@ -4,17 +4,16 @@ title: PathMakeUniqueName function
 author: windows-sdk-content
 description: Creates a unique path name from a template.
 old-location: shell\PathMakeUniqueName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8456ae0c-e83c-43d0-a86a-1861a373d237
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PathMakeUniqueName, PathMakeUniqueName function [Windows Shell], _win32_PathMakeUniqueName, shell.PathMakeUniqueName, shlobj_core/PathMakeUniqueName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - PathMakeUniqueName
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PathMakeUniqueName function

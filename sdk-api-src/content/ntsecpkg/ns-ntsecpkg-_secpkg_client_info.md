@@ -4,17 +4,16 @@ title: "_SECPKG_CLIENT_INFO"
 author: windows-sdk-content
 description: The SECPKG_CLIENT_INFO structure holds information about a security package's client. This structure is used by the GetClientInfo function.
 old-location: security\secpkg_client_info.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: c9c58a50-7fc2-44a7-9551-a2675410b2b5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECPKG_CLIENT_INFO, PSECPKG_CLIENT_INFO, PSECPKG_CLIENT_INFO structure pointer [Security], SECPKG_CLIENT_INFO, SECPKG_CLIENT_INFO structure [Security], _SECPKG_CLIENT_INFO, _ssp_secpkg_client_info, ntsecpkg/PSECPKG_CLIENT_INFO, ntsecpkg/SECPKG_CLIENT_INFO, security.secpkg_client_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_CLIENT_INFO, *PSECPKG_CLIENT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_CLIENT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_CLIENT_INFO, *PSECPKG_CLIENT_INFO
+req.redist: 
 ---
 
 # _SECPKG_CLIENT_INFO structure

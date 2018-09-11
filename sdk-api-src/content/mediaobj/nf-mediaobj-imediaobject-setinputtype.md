@@ -4,17 +4,16 @@ title: IMediaObject::SetInputType
 author: windows-sdk-content
 description: The SetInputType method sets the media type on an input stream, or tests whether a media type is acceptable.
 old-location: dshow\imediaobject_setinputtype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6b466fe4-97a0-46f9-9e4b-461ee66095f1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaObject interface [DirectShow],SetInputType method, IMediaObject.SetInputType, IMediaObject::SetInputType, IMediaObjectSetInputType, SetInputType, SetInputType method [DirectShow], SetInputType method [DirectShow],IMediaObject interface, dshow.imediaobject_setinputtype, mediaobj/IMediaObject::SetInputType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaObject.SetInputType
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObject::SetInputType

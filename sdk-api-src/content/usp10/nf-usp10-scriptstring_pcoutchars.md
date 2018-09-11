@@ -4,17 +4,16 @@ title: ScriptString_pcOutChars function
 author: windows-sdk-content
 description: Returns a pointer to the length of a string after clipping.
 old-location: intl\scriptstring_pcoutchars.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: ad3f15cc-d4e9-4e71-a8c8-287bd62e9b15
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ScriptString_pcOutChars, ScriptString_pcOutChars function [Internationalization for Windows Applications], _win32_ScriptString_pcOutChars, intl.scriptstring_pcoutchars, usp10/ScriptString_pcOutChars
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
-req.redist: Internet Explorer 5 or later on Windows Me/98/95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_JUSTIFY
+req.lib: Usp10.lib
+req.dll: Usp10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ScriptString_pcOutChars
 product: Windows
 targetos: Windows
-req.lib: Usp10.lib
-req.dll: Usp10.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ---
 
 # ScriptString_pcOutChars function

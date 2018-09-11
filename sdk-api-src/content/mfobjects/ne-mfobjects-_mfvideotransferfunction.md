@@ -4,7 +4,7 @@ title: "_MFVideoTransferFunction"
 author: windows-sdk-content
 description: Specifies the conversion function from linear RGB to non-linear RGB (R'G'B').
 old-location: mf\mfvideotransferfunction.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: f9aff1d5-e9f7-48fd-9c86-8dc597d37dfa
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoTransferFunction
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFVideoTransferFunction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFVideoTransferFunction
+req.redist: 
 ---
 
 # _MFVideoTransferFunction enumeration

@@ -4,17 +4,16 @@ title: IOPMVideoOutput::StartInitialization
 author: windows-sdk-content
 description: Begins the initialization sequence for an Output Protection Manager (OPM) session.
 old-location: mf\iopmvideooutput_iopmvideooutput__startinitialization.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: eeedeb4b-753f-4efb-b8ef-732cce116b42
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IOPMVideoOutput interface [Media Foundation],StartInitialization method, IOPMVideoOutput.StartInitialization, IOPMVideoOutput::StartInitialization, StartInitialization, StartInitialization method [Media Foundation], StartInitialization method [Media Foundation],IOPMVideoOutput interface, mf.iopmvideooutput_iopmvideooutput__startinitialization, opmapi/IOPMVideoOutput::StartInitialization
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: opmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOPMVideoOutput.StartInitialization
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOPMVideoOutput::StartInitialization

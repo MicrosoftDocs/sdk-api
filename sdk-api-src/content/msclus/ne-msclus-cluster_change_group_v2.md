@@ -4,17 +4,16 @@ title: CLUSTER_CHANGE_GROUP_V2
 author: windows-sdk-content
 description: Defines the list of notifications that are generated for a group.
 old-location: mscs\cluster_change_group_v2.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 0D7871CA-A186-4693-AD0B-2FA8CF25D634
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_CHANGE_GROUP_ALL_V2, CLUSTER_CHANGE_GROUP_COMMON_PROPERTY_V2, CLUSTER_CHANGE_GROUP_DELETED_V2, CLUSTER_CHANGE_GROUP_HANDLE_CLOSE_V2, CLUSTER_CHANGE_GROUP_OWNER_NODE_V2, CLUSTER_CHANGE_GROUP_PREFERRED_OWNERS_V2, CLUSTER_CHANGE_GROUP_PRIVATE_PROPERTY_V2, CLUSTER_CHANGE_GROUP_RESOURCE_ADDED_V2, CLUSTER_CHANGE_GROUP_RESOURCE_GAINED_V2, CLUSTER_CHANGE_GROUP_RESOURCE_LOST_V2, CLUSTER_CHANGE_GROUP_STATE_V2, CLUSTER_CHANGE_GROUP_V2, CLUSTER_CHANGE_GROUP_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_GROUP_ALL_V2, clusapi/CLUSTER_CHANGE_GROUP_COMMON_PROPERTY_V2, clusapi/CLUSTER_CHANGE_GROUP_DELETED_V2, clusapi/CLUSTER_CHANGE_GROUP_HANDLE_CLOSE_V2, clusapi/CLUSTER_CHANGE_GROUP_OWNER_NODE_V2, clusapi/CLUSTER_CHANGE_GROUP_PREFERRED_OWNERS_V2, clusapi/CLUSTER_CHANGE_GROUP_PRIVATE_PROPERTY_V2, clusapi/CLUSTER_CHANGE_GROUP_RESOURCE_ADDED_V2, clusapi/CLUSTER_CHANGE_GROUP_RESOURCE_GAINED_V2, clusapi/CLUSTER_CHANGE_GROUP_RESOURCE_LOST_V2, clusapi/CLUSTER_CHANGE_GROUP_STATE_V2, clusapi/CLUSTER_CHANGE_GROUP_V2, msclus/CLUSTER_CHANGE_GROUP_ALL_V2, msclus/CLUSTER_CHANGE_GROUP_COMMON_PROPERTY_V2, msclus/CLUSTER_CHANGE_GROUP_DELETED_V2, msclus/CLUSTER_CHANGE_GROUP_HANDLE_CLOSE_V2, msclus/CLUSTER_CHANGE_GROUP_OWNER_NODE_V2, msclus/CLUSTER_CHANGE_GROUP_PREFERRED_OWNERS_V2, msclus/CLUSTER_CHANGE_GROUP_PRIVATE_PROPERTY_V2, msclus/CLUSTER_CHANGE_GROUP_RESOURCE_ADDED_V2, msclus/CLUSTER_CHANGE_GROUP_RESOURCE_GAINED_V2, msclus/CLUSTER_CHANGE_GROUP_RESOURCE_LOST_V2, msclus/CLUSTER_CHANGE_GROUP_STATE_V2, msclus/CLUSTER_CHANGE_GROUP_V2, mscs.cluster_change_group_v2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_CHANGE_GROUP_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_CHANGE_GROUP_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_CHANGE_GROUP_V2
+req.redist: 
 ---
 
 # CLUSTER_CHANGE_GROUP_V2 enumeration

@@ -4,7 +4,7 @@ title: tagERROR_ADVISE_MESSAGE_TYPE
 author: windows-sdk-content
 description: The ERROR_ADVISE_MESSAGE_TYPE enumeration type indicates the type of error values that can be passed to the nMessageType parameter of IPhotoAcquireProgressCB::ErrorAdvise.
 old-location: picacq\error_advise_message_type.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 2fde8aa9-126a-4908-8faf-71ecad231f8d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ERROR_ADVISE_MESSAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ERROR_ADVISE_MESSAGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: ERROR_ADVISE_MESSAGE_TYPE
+req.redist: 
 ---
 
 # tagERROR_ADVISE_MESSAGE_TYPE enumeration

@@ -4,17 +4,16 @@ title: IFsrmPropertyBag::GetFileProperty
 author: windows-sdk-content
 description: Retrieves the specified property from the property bag.
 old-location: fsrm\ifsrmpropertybag_getfileproperty.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 09fc3287-f2a2-4ba7-9626-65c6634b7f2d
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: GetFileProperty, GetFileProperty method [File Server Resource Manager], GetFileProperty method [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],GetFileProperty method, IFsrmPropertyBag.GetFileProperty, IFsrmPropertyBag::GetFileProperty, fs.ifsrmpropertybag_getfileproperty, fsrm.ifsrmpropertybag_getfileproperty, fsrmpipeline/IFsrmPropertyBag::GetFileProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmPropertyBag.GetFileProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPropertyBag::GetFileProperty

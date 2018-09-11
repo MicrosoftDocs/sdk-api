@@ -4,17 +4,16 @@ title: "_CTL_CONTEXT"
 author: windows-sdk-content
 description: The CTL_CONTEXT structure contains both the encoded and decoded representations of a CTL.
 old-location: security\ctl_context.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 780edddf-1b44-4292-9156-4dfd5100adb8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCTL_CONTEXT, CTL_CONTEXT, CTL_CONTEXT structure [Security], PCCTL_CONTEXT, PCCTL_CONTEXT structure pointer [Security], PCTL_CONTEXT, PCTL_CONTEXT structure pointer [Security], _CTL_CONTEXT, _crypto2_ctl_context, security.ctl_context, wincrypt/CTL_CONTEXT, wincrypt/PCCTL_CONTEXT, wincrypt/PCTL_CONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CTL_CONTEXT, *PCTL_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CTL_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CTL_CONTEXT, *PCTL_CONTEXT
+req.redist: 
 ---
 
 # _CTL_CONTEXT structure

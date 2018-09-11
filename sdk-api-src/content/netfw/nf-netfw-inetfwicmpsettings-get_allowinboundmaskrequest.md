@@ -4,17 +4,16 @@ title: INetFwIcmpSettings::get_AllowInboundMaskRequest
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundmaskrequest.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 5d34c60a-115b-4882-bc41-ea8b3528f9df
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AllowInboundMaskRequest property [ICS/ICF], AllowInboundMaskRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundMaskRequest property, INetFwIcmpSettings.AllowInboundMaskRequest, INetFwIcmpSettings.get_AllowInboundMaskRequest, INetFwIcmpSettings::AllowInboundMaskRequest, INetFwIcmpSettings::get_AllowInboundMaskRequest, INetFwIcmpSettings::put_AllowInboundMaskRequest, get_AllowInboundMaskRequest, ics.inetfwicmpsettings_allowinboundmaskrequest, netfw/INetFwIcmpSettings::AllowInboundMaskRequest, netfw/INetFwIcmpSettings::get_AllowInboundMaskRequest, netfw/INetFwIcmpSettings::put_AllowInboundMaskRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwIcmpSettings.put_AllowInboundMaskRequest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwIcmpSettings::get_AllowInboundMaskRequest

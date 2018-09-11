@@ -4,17 +4,16 @@ title: ID3D11Device::GetDeviceRemovedReason
 author: windows-sdk-content
 description: Get the reason why the device was removed.
 old-location: direct3d11\id3d11device_getdeviceremovedreason.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 9e09c954-5c61-49fd-b25a-87dc0051a84d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 09615373-9ecd-296a-1d5f-ef9f2b085826, GetDeviceRemovedReason, GetDeviceRemovedReason method [Direct3D 11], GetDeviceRemovedReason method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],GetDeviceRemovedReason method, ID3D11Device.GetDeviceRemovedReason, ID3D11Device::GetDeviceRemovedReason, d3d11/ID3D11Device::GetDeviceRemovedReason, direct3d11.id3d11device_getdeviceremovedreason
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device.GetDeviceRemovedReason
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device::GetDeviceRemovedReason

@@ -4,17 +4,16 @@ title: "_KERB_QUERY_BINDING_CACHE_RESPONSE"
 author: windows-sdk-content
 description: Contains the results of querying the binding cache.
 old-location: security\kerb_query_binding_cache_response.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: D096068F-7EC0-4745-A361-142F9B478402
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PKERB_QUERY_BINDING_CACHE_RESPONSE, KERB_QUERY_BINDING_CACHE_RESPONSE, KERB_QUERY_BINDING_CACHE_RESPONSE structure [Security], PKERB_QUERY_BINDING_CACHE_RESPONSE, PKERB_QUERY_BINDING_CACHE_RESPONSE structure pointer [Security], _KERB_QUERY_BINDING_CACHE_RESPONSE, ntsecapi/KERB_QUERY_BINDING_CACHE_RESPONSE, ntsecapi/PKERB_QUERY_BINDING_CACHE_RESPONSE, security.kerb_query_binding_cache_response"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_QUERY_BINDING_CACHE_RESPONSE, *PKERB_QUERY_BINDING_CACHE_RESPONSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_QUERY_BINDING_CACHE_RESPONSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_QUERY_BINDING_CACHE_RESPONSE, *PKERB_QUERY_BINDING_CACHE_RESPONSE
+req.redist: 
 ---
 
 # _KERB_QUERY_BINDING_CACHE_RESPONSE structure

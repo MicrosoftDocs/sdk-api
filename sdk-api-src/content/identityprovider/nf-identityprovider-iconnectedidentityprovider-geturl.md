@@ -4,17 +4,16 @@ title: IConnectedIdentityProvider::GetUrl
 author: windows-sdk-content
 description: Returns the URL string for the specified wizard or webpage.
 old-location: security\iconnectedidentityprovider_geturl.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 623A9AE8-D838-4F00-B81E-35031ADB67F5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: GetUrl, GetUrl method [Security], GetUrl method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],GetUrl method, IConnectedIdentityProvider.GetUrl, IConnectedIdentityProvider::GetUrl, identityprovider/IConnectedIdentityProvider::GetUrl, security.iconnectedidentityprovider_geturl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IDENTITY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConnectedIdentityProvider.GetUrl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConnectedIdentityProvider::GetUrl

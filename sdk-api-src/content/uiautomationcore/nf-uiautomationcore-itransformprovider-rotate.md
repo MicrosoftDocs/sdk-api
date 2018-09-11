@@ -4,17 +4,16 @@ title: ITransformProvider::Rotate
 author: windows-sdk-content
 description: Rotates the control.
 old-location: winauto\uiauto_ITransformProvider_Rotate.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 2e8255de-b28d-4fc4-82ea-4255771f9838
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITransformProvider interface [Windows Accessibility],Rotate method, ITransformProvider.Rotate, ITransformProvider::Rotate, Rotate, Rotate method [Windows Accessibility], Rotate method [Windows Accessibility],ITransformProvider interface, uiauto.uiauto_ITransformProvider_Rotate, uiauto_ITransformProvider_Rotate, uiautomationcore/ITransformProvider::Rotate, winauto.uiauto_ITransformProvider_Rotate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransformProvider.Rotate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITransformProvider::Rotate

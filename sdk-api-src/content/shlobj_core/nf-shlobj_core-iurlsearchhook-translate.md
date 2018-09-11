@@ -4,17 +4,16 @@ title: IURLSearchHook::Translate
 author: windows-sdk-content
 description: Called by the browser when the browser cannot determine the protocol of a URL address.
 old-location: shell\IURLSearchHook_Translate.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 02fa8ee7-f9cb-4872-895c-7b3078391cc4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IURLSearchHook interface [Windows Shell],Translate method, IURLSearchHook.Translate, IURLSearchHook::Translate, Translate, Translate method [Windows Shell], Translate method [Windows Shell],IURLSearchHook interface, _win32_IURLSearchHook_Translate, shell.IURLSearchHook_Translate, shlobj_core/IURLSearchHook::Translate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IURLSearchHook.Translate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IURLSearchHook::Translate

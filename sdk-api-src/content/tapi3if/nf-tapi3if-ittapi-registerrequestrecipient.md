@@ -4,17 +4,16 @@ title: ITTAPI::RegisterRequestRecipient
 author: windows-sdk-content
 description: The RegisterRequestRecipient method registers an application instance as being the proper one to handle assisted telephony requests.
 old-location: tapi3\ittapi_registerrequestrecipient.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: bee5348e-99f0-4168-9021-112fc16d8921
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],RegisterRequestRecipient method, ITTAPI.RegisterRequestRecipient, ITTAPI::RegisterRequestRecipient, RegisterRequestRecipient, RegisterRequestRecipient method [TAPI 2.2], RegisterRequestRecipient method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_registerrequestrecipient, tapi3.ittapi_registerrequestrecipient, tapi3if/ITTAPI::RegisterRequestRecipient
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPI.RegisterRequestRecipient
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPI::RegisterRequestRecipient

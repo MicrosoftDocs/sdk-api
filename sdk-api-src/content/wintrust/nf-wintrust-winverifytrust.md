@@ -4,17 +4,16 @@ title: WinVerifyTrust function
 author: windows-sdk-content
 description: Performs a trust verification action on a specified object.
 old-location: security\winverifytrust.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: b7efac6a-ac9f-477a-aada-63fe32208e6f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: A valid window handle, DRIVER_ACTION_VERIFY, HTTPSPROV_ACTION, INVALID_HANDLE_VALUE, OFFICESIGN_ACTION_VERIFY, WINTRUST_ACTION_GENERIC_CHAIN_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WINTRUST_ACTION_TRUSTPROVIDER_TEST, WinVerifyTrust, WinVerifyTrust function [Security], Zero, _win32_winverifytrust, security.winverifytrust, wintrust/WinVerifyTrust
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wintrust.h
 req.include-header: Softpub.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEB, *PTEB
+req.lib: Wintrust.lib
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinVerifyTrust
 product: Windows
 targetos: Windows
-req.lib: Wintrust.lib
-req.dll: Wintrust.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WinVerifyTrust function

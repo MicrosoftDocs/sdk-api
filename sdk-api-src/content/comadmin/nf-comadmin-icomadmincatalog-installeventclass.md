@@ -4,17 +4,16 @@ title: ICOMAdminCatalog::InstallEventClass
 author: windows-sdk-content
 description: Installs event classes from a file into a COM+ application.
 old-location: cos\icomadmincatalog_installeventclass.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 8e9f7c79-076e-46dc-bce0-389c5309e6fa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallEventClass method, ICOMAdminCatalog.InstallEventClass, ICOMAdminCatalog::InstallEventClass, InstallEventClass, InstallEventClass method [COM+], InstallEventClass method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallEventClass, comadmin/ICOMAdminCatalog::InstallEventClass, cos.icomadmincatalog_installeventclass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog.InstallEventClass
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog::InstallEventClass

@@ -4,17 +4,16 @@ title: SHARDAPPIDINFOLINK
 author: windows-sdk-content
 description: Contains data used by SHAddToRecentDocs to identify both an item, in this case through an IShellLink, and the process that it is associated with.
 old-location: shell\SHARDAPPIDINFOLINK.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 01613dc9-4516-4995-bd31-feee2eb650b2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHARDAPPIDINFOLINK, SHARDAPPIDINFOLINK structure [Windows Shell], _shell_SHARDAPPIDINFOLINK, shell.SHARDAPPIDINFOLINK, shlobj_core/SHARDAPPIDINFOLINK
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARDAPPIDINFOLINK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHARDAPPIDINFOLINK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHARDAPPIDINFOLINK
+req.redist: 
 ---
 
 # SHARDAPPIDINFOLINK structure

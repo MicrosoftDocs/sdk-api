@@ -4,17 +4,16 @@ title: IITPropList::SaveHeader
 author: windows-sdk-content
 description: Saves the property ID and data type from the property list to a buffer. Only saves properties marked with a persistence state of TRUE.
 old-location: htmlhelp\iitproplist_saveheader.htm
-old-project: htmlhelp
+tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsaveheader.htm
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],SaveHeader method, IITPropList.SaveHeader, IITPropList::SaveHeader, SaveHeader, SaveHeader method [HTML Help Workshop], SaveHeader method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_saveheader, infotech/IITPropList::SaveHeader, refIITPropListSaveHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IITPropList.SaveHeader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IITPropList::SaveHeader

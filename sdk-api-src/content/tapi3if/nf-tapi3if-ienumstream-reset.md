@@ -4,17 +4,16 @@ title: IEnumStream::Reset
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence.
 old-location: tapi3\ienumstream_reset.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 264b155c-4881-4170-bdc2-035b71d00f21
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IEnumStream interface [TAPI 2.2],Reset method, IEnumStream.Reset, IEnumStream::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumStream interface, _tapi3_ienumstream_reset, tapi3.ienumstream_reset, tapi3if/IEnumStream::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumStream.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumStream::Reset

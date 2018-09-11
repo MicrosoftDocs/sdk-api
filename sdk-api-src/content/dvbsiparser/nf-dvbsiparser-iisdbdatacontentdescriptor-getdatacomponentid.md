@@ -4,17 +4,16 @@ title: IIsdbDataContentDescriptor::GetDataComponentId
 author: windows-sdk-content
 description: Gets a data component identifier from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. This identifier identifies a component in the descriptor and appears in the data component descriptor for the component.
 old-location: mstv\iisdbdatacontentdescriptor_getdatacomponentid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d8a3e399-5004-41ee-a7eb-4c583a1fdd45
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDataComponentId, GetDataComponentId method [Microsoft TV Technologies], GetDataComponentId method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetDataComponentId method, IIsdbDataContentDescriptor.GetDataComponentId, IIsdbDataContentDescriptor::GetDataComponentId, dvbsiparser/IIsdbDataContentDescriptor::GetDataComponentId, mstv.iisdbdatacontentdescriptor_getdatacomponentid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbDataContentDescriptor.GetDataComponentId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbDataContentDescriptor::GetDataComponentId

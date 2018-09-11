@@ -4,17 +4,16 @@ title: IWMPContentPartner::VerifyPermission
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_verifypermission.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 7ff45264-6e49-4953-bc0a-b3652aee965d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],VerifyPermission method, IWMPContentPartner.VerifyPermission, IWMPContentPartner::VerifyPermission, IWMPContentPartnerVerifyPermission, VerifyPermission, VerifyPermission method [Windows Media Player], VerifyPermission method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::VerifyPermission, wmp.iwmpcontentpartner_verifypermission
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPTransactionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWMPContentPartner.VerifyPermission
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPContentPartner::VerifyPermission

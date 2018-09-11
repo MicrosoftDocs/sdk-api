@@ -4,17 +4,16 @@ title: IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_querysnapshotdeltabitmap.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: cfa4420f-dc11-48c1-b177-1c58a4515550
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt3 interface,QuerySnapshotDeltaBitmap method, IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap, IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap, QuerySnapshotDeltaBitmap, QuerySnapshotDeltaBitmap method, QuerySnapshotDeltaBitmap method,IVssDifferentialSoftwareSnapshotMgmt3 interface, base.ivssdifferentialsoftwaresnapshotmgmt3_querysnapshotdeltabitmap, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap

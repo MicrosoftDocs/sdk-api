@@ -4,17 +4,16 @@ title: IMSVidDevice::get_Category
 author: windows-sdk-content
 description: The get_Category method retrieves the category of the device as a BSTR.
 old-location: mstv\imsviddevice_get_category.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 369080c6-b707-494e-a663-e78e7d8d3eaf
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Category method, IMSVidDevice.get_Category, IMSVidDevice::get_Category, IMSVidDeviceget_Category, get_Category, get_Category method [Microsoft TV Technologies], get_Category method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_category, segment/IMSVidDevice::get_Category
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidDevice.get_Category
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidDevice::get_Category
@@ -62,7 +60,7 @@ The <b>get_Category</b> method retrieves the category of the device as a <b>BSTR
 
 ### -param Guid
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: "_DXGI_OFFER_RESOURCE_FLAGS"
 author: windows-sdk-content
 description: Specifies flags for the OfferResources1 method.
 old-location: direct3ddxgi\dxgi_offer_resource_flags.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 55107136-60C0-49E9-8DD1-24878E67FCBB
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGI_OFFER_RESOURCE_FLAGS, DXGI_OFFER_RESOURCE_FLAGS enumeration [DXGI], DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT, _DXGI_OFFER_RESOURCE_FLAGS, direct3ddxgi.dxgi_offer_resource_flags, dxgi1_5/DXGI_OFFER_RESOURCE_FLAGS, dxgi1_5/DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_5.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_OFFER_RESOURCE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_OFFER_RESOURCE_FLAGS
+req.redist: 
 ---
 
 # _DXGI_OFFER_RESOURCE_FLAGS enumeration

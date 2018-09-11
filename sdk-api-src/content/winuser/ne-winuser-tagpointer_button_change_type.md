@@ -4,7 +4,7 @@ title: tagPOINTER_BUTTON_CHANGE_TYPE
 author: windows-sdk-content
 description: Identifies a change in the state of a button associated with a pointer.
 old-location: inputmsg\pointer_button_change_type.htm
-old-project: InputMsg
+tech.root: InputMsg
 ms.assetid: DF5F60F6-8FD9-41EB-AF2A-09A17513659C
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POINTER_BUTTON_CHANGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POINTER_BUTTON_CHANGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: POINTER_BUTTON_CHANGE_TYPE
+req.redist: 
 ---
 
 # tagPOINTER_BUTTON_CHANGE_TYPE enumeration

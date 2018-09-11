@@ -4,17 +4,16 @@ title: IUIAutomationElement5::get_CurrentLandmarkType
 author: windows-sdk-content
 description: Gets the current landmark type ID for the automation element.
 old-location: winauto\uiauto_IUIAutomationElement5_CurrentLandmarkType.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 85A5612D-7BCB-4E0C-B6DC-EAC0D3F6789D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentLandmarkType property [Windows Accessibility], CurrentLandmarkType property [Windows Accessibility],IUIAutomationElement5 interface, IUIAutomationElement5 interface [Windows Accessibility],CurrentLandmarkType property, IUIAutomationElement5.CurrentLandmarkType, IUIAutomationElement5.get_CurrentLandmarkType, IUIAutomationElement5::CurrentLandmarkType, IUIAutomationElement5::get_CurrentLandmarkType, get_CurrentLandmarkType, uiautomationclient/IUIAutomationElement5::CurrentLandmarkType, uiautomationclient/IUIAutomationElement5::get_CurrentLandmarkType, winauto.uiauto_IUIAutomationElement5_CurrentLandmarkType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement5.get_CurrentLandmarkType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement5::get_CurrentLandmarkType

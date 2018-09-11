@@ -4,17 +4,16 @@ title: LPM_CommitResv function
 author: windows-sdk-content
 description: The LPM_CommitResv function is called by the PCM to obtain reservation commitment decisions from the LPM.
 old-location: qos\lpm_commitresv.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 3a04e96d-d91e-47de-9958-75fbd32cba6b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: LPM_CommitResv, LPM_CommitResv callback, LPM_CommitResv callback function [QOS], RESOURCES_ALLOCATED, RESOURCES_MODIFIED, _gqos_lpm_commitresv, lpmapi/LPM_CommitResv, qos.lpm_commitresv
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LPM_CommitResv
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LPM_CommitResv function

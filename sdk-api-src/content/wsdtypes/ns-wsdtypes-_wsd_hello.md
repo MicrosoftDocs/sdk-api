@@ -4,17 +4,16 @@ title: "_WSD_HELLO"
 author: windows-sdk-content
 description: Represents a Hello message.
 old-location: ncd\wsd_hello_struct.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 71fad98a-d115-4350-b3aa-3f3927b2c24d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSD_HELLO, WSD_HELLO structure, _WSD_HELLO, ncd.wsd_hello_struct, wsdtypes/WSD_HELLO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_HELLO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_HELLO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_HELLO
+req.redist: 
 ---
 
 # _WSD_HELLO structure

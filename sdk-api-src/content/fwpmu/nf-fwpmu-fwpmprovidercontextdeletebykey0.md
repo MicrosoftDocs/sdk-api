@@ -4,17 +4,16 @@ title: FwpmProviderContextDeleteByKey0 function
 author: windows-sdk-content
 description: Removes a provider context from the system.
 old-location: fwp\fwpmprovidercontextdeletebykey0_func.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 453ab1f7-d137-4252-9445-7195624a5465
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FwpmProviderContextDeleteByKey0, FwpmProviderContextDeleteByKey0 function [Filtering], fwp.fwpmprovidercontextdeletebykey0_func, fwpmu/FwpmProviderContextDeleteByKey0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FwpmProviderContextDeleteByKey0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FwpmProviderContextDeleteByKey0 function

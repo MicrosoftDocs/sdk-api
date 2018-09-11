@@ -4,17 +4,16 @@ title: DeleteIpNetEntry2 function
 author: windows-sdk-content
 description: Deletes a neighbor IP address entry on the local computer.
 old-location: iphlp\deleteipnetentry2.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 85bace04-6c95-4cf2-a212-764de292aed6
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: DeleteIpNetEntry2, DeleteIpNetEntry2 function [IP Helper], iphlp.deleteipnetentry2, netioapi/DeleteIpNetEntry2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeleteIpNetEntry2
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteIpNetEntry2 function

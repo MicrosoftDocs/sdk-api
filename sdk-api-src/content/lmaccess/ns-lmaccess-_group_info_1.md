@@ -4,17 +4,16 @@ title: "_GROUP_INFO_1"
 author: windows-sdk-content
 description: The GROUP_INFO_1 structure contains a global group name and a comment to associate with the group.
 old-location: netmgmt\group_info_1_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 0b42a438-64fd-4f37-98b8-77e10c09548c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPGROUP_INFO_1, *PGROUP_INFO_1, GROUP_INFO_1, GROUP_INFO_1 structure [Network Management], LPGROUP_INFO_1, LPGROUP_INFO_1 structure pointer [Network Management], PGROUP_INFO_1, PGROUP_INFO_1 structure pointer [Network Management], _GROUP_INFO_1, _win32_group_info_1_str, lmaccess/GROUP_INFO_1, lmaccess/LPGROUP_INFO_1, lmaccess/PGROUP_INFO_1, netmgmt.group_info_1_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUP_INFO_1, *PGROUP_INFO_1, *LPGROUP_INFO_1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GROUP_INFO_1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: GROUP_INFO_1, *PGROUP_INFO_1, *LPGROUP_INFO_1
+req.redist: 
 ---
 
 # _GROUP_INFO_1 structure

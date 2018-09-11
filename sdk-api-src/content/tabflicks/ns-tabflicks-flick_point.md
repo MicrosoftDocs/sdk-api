@@ -4,17 +4,16 @@ title: FLICK_POINT
 author: windows-sdk-content
 description: Provides information about a pen flick.
 old-location: tablet\flick_point.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: c9aacc05-02aa-47b5-be58-46321cf6a99d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: FLICK_POINT, FLICK_POINT structure [Tablet PC], c9aacc05-02aa-47b5-be58-46321cf6a99d, tabflicks/FLICK_POINT, tablet.flick_point
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: tabflicks.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLICK_POINT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: FLICK_POINT
+req.redist: 
 ---
 
 # FLICK_POINT structure

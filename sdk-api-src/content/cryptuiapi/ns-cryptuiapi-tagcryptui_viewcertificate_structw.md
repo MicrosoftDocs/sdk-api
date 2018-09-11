@@ -4,17 +4,16 @@ title: tagCRYPTUI_VIEWCERTIFICATE_STRUCTW
 author: windows-sdk-content
 description: Contains information about a certificate to view. This structure is used in the CryptUIDlgViewCertificate function.
 old-location: security\cryptui_viewcertificate_struct.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 7bbd58df-3a1b-4d82-9a90-7c94260a7165
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPTUI_VIEWCERTIFICATE_STRUCTW, CRYPTUI_ACCEPT_DECLINE_STYLE, CRYPTUI_CACHE_ONLY_URL_RETRIEVAL, CRYPTUI_DISABLE_ADDTOSTORE, CRYPTUI_DISABLE_EDITPROPERTIES, CRYPTUI_DISABLE_EXPORT, CRYPTUI_DISABLE_HTMLLINK, CRYPTUI_DISABLE_ISSUERSTATEMENT, CRYPTUI_DONT_OPEN_STORES, CRYPTUI_ENABLE_ADDTOSTORE, CRYPTUI_ENABLE_EDITPROPERTIES, CRYPTUI_ENABLE_REVOCATION_CHECKING, CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN, CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, CRYPTUI_ENABLE_REVOCATION_CHECK_END_CERT, CRYPTUI_HIDE_DETAILPAGE, CRYPTUI_HIDE_HIERARCHYPAGE, CRYPTUI_IGNORE_UNTRUSTED_ROOT, CRYPTUI_ONLY_OPEN_ROOT_STORE, CRYPTUI_VIEWCERTIFICATE_STRUCT, CRYPTUI_VIEWCERTIFICATE_STRUCT structure [Security], CRYPTUI_VIEWCERTIFICATE_STRUCTA, CRYPTUI_VIEWCERTIFICATE_STRUCTW, CRYPTUI_WARN_REMOTE_TRUST, CRYPTUI_WARN_UNTRUSTED_ROOT, PCCRYPTUI_VIEWCERTIFICATE_STRUCT, PCCRYPTUI_VIEWCERTIFICATE_STRUCT structure pointer [Security], PCRYPTUI_VIEWCERTIFICATE_STRUCT, PCRYPTUI_VIEWCERTIFICATE_STRUCT structure pointer [Security], cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCT, cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCTA, cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCTW, cryptuiapi/PCCRYPTUI_VIEWCERTIFICATE_STRUCT, cryptuiapi/PCRYPTUI_VIEWCERTIFICATE_STRUCT, security.cryptui_viewcertificate_struct, security.cryptui_viewcertificate_structw, tagCRYPTUI_VIEWCERTIFICATE_STRUCTW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTUI_VIEWCERTIFICATE_STRUCTW, *PCRYPTUI_VIEWCERTIFICATE_STRUCTW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CRYPTUI_VIEWCERTIFICATE_STRUCTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPTUI_VIEWCERTIFICATE_STRUCTW, *PCRYPTUI_VIEWCERTIFICATE_STRUCTW
+req.redist: 
 ---
 
 # tagCRYPTUI_VIEWCERTIFICATE_STRUCTW structure

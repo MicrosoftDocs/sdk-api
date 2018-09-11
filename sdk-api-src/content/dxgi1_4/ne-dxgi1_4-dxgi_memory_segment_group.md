@@ -4,17 +4,16 @@ title: DXGI_MEMORY_SEGMENT_GROUP
 author: windows-sdk-content
 description: Specifies the memory segment group to use.
 old-location: direct3ddxgi\dxgi_memory_segment_group.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 2FE35513-040E-41BF-866E-A13679C4F322
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGI_MEMORY_SEGMENT_GROUP, DXGI_MEMORY_SEGMENT_GROUP enumeration [DXGI], DXGI_MEMORY_SEGMENT_GROUP_LOCAL, DXGI_MEMORY_SEGMENT_GROUP_NON_LOCAL, direct3ddxgi.dxgi_memory_segment_group, dxgi1_4/DXGI_MEMORY_SEGMENT_GROUP, dxgi1_4/DXGI_MEMORY_SEGMENT_GROUP_LOCAL, dxgi1_4/DXGI_MEMORY_SEGMENT_GROUP_NON_LOCAL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_MEMORY_SEGMENT_GROUP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_MEMORY_SEGMENT_GROUP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_MEMORY_SEGMENT_GROUP
+req.redist: 
 ---
 
 # DXGI_MEMORY_SEGMENT_GROUP enumeration

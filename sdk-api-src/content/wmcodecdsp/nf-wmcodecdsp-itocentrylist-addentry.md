@@ -4,17 +4,16 @@ title: ITocEntryList::AddEntry
 author: windows-sdk-content
 description: The AddEntry method adds an individual entry to the list and assigns an index to the entry.
 old-location: mf\itocentrylist_addentry.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4ac41f10-4bb5-4d50-9f7b-7c8710476162
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: AddEntry, AddEntry method [Media Foundation], AddEntry method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],AddEntry method, ITocEntryList.AddEntry, ITocEntryList::AddEntry, codecapi.itocentrylist_addentry, mf.itocentrylist_addentry, wmcodecdsp/ITocEntryList::AddEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITocEntryList.AddEntry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ITocEntryList::AddEntry

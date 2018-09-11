@@ -4,17 +4,16 @@ title: "_VSS_FILE_SPEC_BACKUP_TYPE"
 author: windows-sdk-content
 description: Used by writers to indicate their support of certain backup operations.
 old-location: base\vss_file_spec_backup_type.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 41ba60f7-d621-478a-a24a-202d326ebf2c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_FILE_SPEC_BACKUP_TYPE, PVSS_FILE_SPEC_BACKUP_TYPE, PVSS_FILE_SPEC_BACKUP_TYPE enumeration pointer [VSS], VSS_FILE_SPEC_BACKUP_TYPE, VSS_FILE_SPEC_BACKUP_TYPE enumeration [VSS], VSS_FSBT_ALL_BACKUP_REQUIRED, VSS_FSBT_ALL_SNAPSHOT_REQUIRED, VSS_FSBT_CREATED_DURING_BACKUP, VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED, VSS_FSBT_DIFFERENTIAL_SNAPSHOT_REQUIRED, VSS_FSBT_FULL_BACKUP_REQUIRED, VSS_FSBT_FULL_SNAPSHOT_REQUIRED, VSS_FSBT_INCREMENTAL_BACKUP_REQUIRED, VSS_FSBT_INCREMENTAL_SNAPSHOT_REQUIRED, VSS_FSBT_LOG_BACKUP_REQUIRED, VSS_FSBT_LOG_SNAPSHOT_REQUIRED, _VSS_FILE_SPEC_BACKUP_TYPE, _win32_vss_file_spec_backup_type, base.vss_file_spec_backup_type, vss/PVSS_FILE_SPEC_BACKUP_TYPE, vss/VSS_FILE_SPEC_BACKUP_TYPE, vss/VSS_FSBT_ALL_BACKUP_REQUIRED, vss/VSS_FSBT_ALL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_CREATED_DURING_BACKUP, vss/VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED, vss/VSS_FSBT_DIFFERENTIAL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_FULL_BACKUP_REQUIRED, vss/VSS_FSBT_FULL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_INCREMENTAL_BACKUP_REQUIRED, vss/VSS_FSBT_INCREMENTAL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_LOG_BACKUP_REQUIRED, vss/VSS_FSBT_LOG_SNAPSHOT_REQUIRED"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_FILE_SPEC_BACKUP_TYPE, *PVSS_FILE_SPEC_BACKUP_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_FILE_SPEC_BACKUP_TYPE
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_FILE_SPEC_BACKUP_TYPE, *PVSS_FILE_SPEC_BACKUP_TYPE
+req.redist: 
 ---
 
 # _VSS_FILE_SPEC_BACKUP_TYPE enumeration

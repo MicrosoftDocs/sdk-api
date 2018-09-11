@@ -4,7 +4,7 @@ title: WMT_PROP_DATATYPE
 author: windows-sdk-content
 description: Defines the data types used for the codec and DSP properties that are accessed by using the methods of the IWMCodecProps interface.
 old-location: mf\wmt_prop_datatypeenumeration.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3d7b2ab9-5e5a-4bc7-9d56-c17b838ded67
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMT_PROP_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMT_PROP_DATATYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMT_PROP_DATATYPE
+req.redist: 
 ---
 
 # WMT_PROP_DATATYPE enumeration

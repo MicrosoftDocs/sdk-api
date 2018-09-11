@@ -4,17 +4,16 @@ title: DhcpGetServerBindingInfoV6 function
 author: windows-sdk-content
 description: Retrieves an array of IPv6 interface binding information specific to the DHCPv6 server.
 old-location: dhcp\dhcpgetserverbindinginfov6.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 1f33ac24-d547-4913-bc37-51627bb3af6a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpGetServerBindingInfoV6, DhcpGetServerBindingInfoV6 function [DHCP], dhcp.dhcpgetserverbindinginfov6, dhcpsapi/DhcpGetServerBindingInfoV6
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpGetServerBindingInfoV6
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpGetServerBindingInfoV6 function

@@ -4,17 +4,16 @@ title: IResultData::SetItemCount
 author: windows-sdk-content
 description: Sets the number of items in a virtual list.
 old-location: mmc\iresultdata_setitemcount.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: d2105b19-3c91-4a5f-9dfa-c330d4733c67
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IResultData interface [MMC],SetItemCount method, IResultData.SetItemCount, IResultData2 interface [MMC],SetItemCount method, IResultData2::SetItemCount, IResultData::SetItemCount, MMCLV_UPDATE_NOINVALIDATEALL, MMCLV_UPDATE_NOSCROLL, SetItemCount, SetItemCount method [MMC], SetItemCount method [MMC],IResultData interface, SetItemCount method [MMC],IResultData2 interface, _slate_iresultdata_setitemcount, mmc.iresultdata_setitemcount, mmc/IResultData2::SetItemCount, mmc/IResultData::SetItemCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IResultData2.SetItemCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IResultData::SetItemCount

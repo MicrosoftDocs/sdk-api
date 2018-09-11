@@ -4,17 +4,16 @@ title: IKnownFolder::GetFolderDefinition
 author: windows-sdk-content
 description: Retrieves a structure that contains the defining elements of a known folder, which includes the folder's category, name, path, description, tooltip, icon, and other properties.
 old-location: shell\IKnownFolder_GetFolderDefinition.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b6f544cc-f487-405c-915d-b3a6dc59422c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetFolderDefinition, GetFolderDefinition method [Windows Shell], GetFolderDefinition method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetFolderDefinition method, IKnownFolder.GetFolderDefinition, IKnownFolder::GetFolderDefinition, _shell_IKnownFolder_GetFolderDefinition, shell.IKnownFolder_GetFolderDefinition, shobjidl_core/IKnownFolder::GetFolderDefinition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKnownFolder.GetFolderDefinition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IKnownFolder::GetFolderDefinition

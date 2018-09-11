@@ -4,17 +4,16 @@ title: IDestinationStreamFactory::GetDestinationStream
 author: windows-sdk-content
 description: Gets an empty stream that receives the new version of the file being copied.
 old-location: shell\IDestinationStreamFactory_GetDestinationStream.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4903a3a1-12b7-4094-aac8-6e8525998c3c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetDestinationStream, GetDestinationStream method [Windows Shell], GetDestinationStream method [Windows Shell],IDestinationStreamFactory interface, IDestinationStreamFactory interface [Windows Shell],GetDestinationStream method, IDestinationStreamFactory.GetDestinationStream, IDestinationStreamFactory::GetDestinationStream, shell.IDestinationStreamFactory_GetDestinationStream, shell_IDestinationStreamFactory_GetDestinationStream, shobjidl_core/IDestinationStreamFactory::GetDestinationStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDestinationStreamFactory.GetDestinationStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDestinationStreamFactory::GetDestinationStream

@@ -4,17 +4,16 @@ title: IKnowledgeSyncProvider::GetChangeBatch
 author: windows-sdk-content
 description: Gets a change batch that contains item metadata for items that are not contained in the specified knowledge from the destination provider.
 old-location: winsync\iknowledgesyncprovider_getchangebatch.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 165eb8eb-092c-4084-a296-abc2421596d5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetChangeBatch, GetChangeBatch method [Windows Sync], GetChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetChangeBatch method, IKnowledgeSyncProvider.GetChangeBatch, IKnowledgeSyncProvider::GetChangeBatch, winsync.iknowledgesyncprovider_getchangebatch, winsync/IKnowledgeSyncProvider::GetChangeBatch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKnowledgeSyncProvider.GetChangeBatch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IKnowledgeSyncProvider::GetChangeBatch

@@ -4,17 +4,16 @@ title: "_PubAppInfo"
 author: windows-sdk-content
 description: Provides information about a published application from an application publisher to Add/Remove Programs in Control Panel.
 old-location: shell\PUBAPPINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 927c58d3-4208-4fd3-a3fa-18ae7d8d3136
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*PPUBAPPINFO, PUBAPPINFO, PUBAPPINFO structure [Windows Shell], _PubAppInfo, inet_PUBAPPINFO, shappmgr/PUBAPPINFO, shell.PUBAPPINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PUBAPPINFO, *PPUBAPPINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PUBAPPINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PUBAPPINFO, *PPUBAPPINFO
+req.redist: 
 ---
 
 # _PubAppInfo structure

@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003"
 author: windows-sdk-content
 description: This structure contains information about a connection event.
 old-location: termserv\aaaccountingdata.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 1c79f910-8dd9-47dc-80d1-f6252f0a43dd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tsgpolicyengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AAAccountingData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: AAAccountingData
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003 structure

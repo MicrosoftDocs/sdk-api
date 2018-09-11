@@ -4,17 +4,16 @@ title: IPublishedApp::Install
 author: windows-sdk-content
 description: Installs an application published by an application publisher. This method is invoked when the user selects Add or Add Later in Add/Remove Programs in Control Panel.
 old-location: shell\IPublishedApp_Install.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6d8c5720-b48f-4268-810c-c04b14d20d73
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IPublishedApp interface [Windows Shell],Install method, IPublishedApp.Install, IPublishedApp::Install, Install, Install method [Windows Shell], Install method [Windows Shell],IPublishedApp interface, inet_IPublishedApp_Install, shappmgr/IPublishedApp::Install, shell.IPublishedApp_Install
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PUBAPPINFOFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPublishedApp.Install
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPublishedApp::Install

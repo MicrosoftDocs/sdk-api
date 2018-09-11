@@ -4,17 +4,16 @@ title: "_CMSG_STREAM_INFO"
 author: windows-sdk-content
 description: Used to enable stream processing of data rather than single block processing.
 old-location: security\cmsg_stream_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: a4e7f6e8-351f-4981-b223-50b65f503394
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCMSG_STREAM_INFO, CMSG_STREAM_INFO, CMSG_STREAM_INFO structure [Security], PCMSG_STREAM_INFO, PCMSG_STREAM_INFO structure pointer [Security], _CMSG_STREAM_INFO, _crypto2_cmsg_stream_info, cbData, fFinal, pbData, pvArg, security.cmsg_stream_info, wincrypt/CMSG_STREAM_INFO, wincrypt/PCMSG_STREAM_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_STREAM_INFO, *PCMSG_STREAM_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_STREAM_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_STREAM_INFO, *PCMSG_STREAM_INFO
+req.redist: 
 ---
 
 # _CMSG_STREAM_INFO structure

@@ -4,7 +4,7 @@ title: NET_ADDRESS_FORMAT_
 author: windows-sdk-content
 description: The NET_ADDRESS_FORMAT enumeration specifies the format of a network address returned by the ParseNetworkString function.
 old-location: iphlp\net_address_format.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: a99df758-d46e-452d-acf8-d2cb5a6fa22e
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_ADDRESS_FORMAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_ADDRESS_FORMAT
+req.redist: 
 ---
 
 # NET_ADDRESS_FORMAT_ enumeration

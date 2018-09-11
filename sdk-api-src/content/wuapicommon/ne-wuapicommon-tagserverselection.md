@@ -4,7 +4,7 @@ title: tagServerSelection
 author: windows-sdk-content
 description: Defines the update services that Windows Update can operate against.
 old-location: wua\serverselection.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 51caac5e-98a6-49e4-a175-6319349a6d68
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wuapicommon.h
 req.include-header: Wuapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerSelection
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ServerSelection
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: ServerSelection
+req.redist: 
 ---
 
 # tagServerSelection enumeration

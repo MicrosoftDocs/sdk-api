@@ -4,17 +4,16 @@ title: TextureBrush::ResetTransform
 author: windows-sdk-content
 description: The TextureBrush::ResetTransform method resets the transformation matrix of this texture brush to the identity matrix. This means that no transformation takes place.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_ResetTransform_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\resettransform_13.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],ResetTransform method, TextureBrush.ResetTransform, TextureBrush::ResetTransform, _gdiplus_CLASS_TextureBrush_ResetTransform_, gdiplus._gdiplus_CLASS_TextureBrush_ResetTransform_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KnownGamingPrivileges
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TextureBrush.ResetTransform
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

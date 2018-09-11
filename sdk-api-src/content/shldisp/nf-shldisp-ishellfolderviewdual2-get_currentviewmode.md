@@ -4,17 +4,16 @@ title: IShellFolderViewDual2::get_CurrentViewMode
 author: windows-sdk-content
 description: Gets the current view mode of the current folder.
 old-location: shell\IShellFolderViewDual2_get_CurrentViewMode.htm
-old-project: shell
+tech.root: shell
 ms.assetid: aa4bcb25-98f9-49c3-be25-abc6a5ecdcca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderViewDual2 interface [Windows Shell],get_CurrentViewMode method, IShellFolderViewDual2.get_CurrentViewMode, IShellFolderViewDual2::get_CurrentViewMode, _shell_IShellFolderViewDual2_get_CurrentViewMode, get_CurrentViewMode, get_CurrentViewMode method [Windows Shell], get_CurrentViewMode method [Windows Shell],IShellFolderViewDual2 interface, shell.IShellFolderViewDual2_get_CurrentViewMode, shldisp/IShellFolderViewDual2::get_CurrentViewMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderViewDual2.get_CurrentViewMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderViewDual2::get_CurrentViewMode

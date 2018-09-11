@@ -4,17 +4,16 @@ title: IAppxBundleManifestPackageInfo2::GetIsDefaultApplicablePackage
 author: windows-sdk-content
 description: Determines whether the app package is a default applicable package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo2_getisdefaultapplicablepackage.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 0C1181F5-0BD9-4F8E-A4E3-75A562ADF56A
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetIsDefaultApplicablePackage, GetIsDefaultApplicablePackage method [App packaging and management], GetIsDefaultApplicablePackage method [App packaging and management],IAppxBundleManifestPackageInfo2 interface, IAppxBundleManifestPackageInfo2 interface [App packaging and management],GetIsDefaultApplicablePackage method, IAppxBundleManifestPackageInfo2.GetIsDefaultApplicablePackage, IAppxBundleManifestPackageInfo2::GetIsDefaultApplicablePackage, appxpackaging/IAppxBundleManifestPackageInfo2::GetIsDefaultApplicablePackage, appxpkg.iappxbundlemanifestpackageinfo2_getisdefaultapplicablepackage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBundleManifestPackageInfo2.GetIsDefaultApplicablePackage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBundleManifestPackageInfo2::GetIsDefaultApplicablePackage

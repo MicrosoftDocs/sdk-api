@@ -4,7 +4,7 @@ title: tagPARAMDATA
 author: windows-sdk-content
 description: Describes a parameter accepted by a method or property.
 old-location: automat\paramdata.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 3166eac0-7e07-47e1-9bca-60b15cbdf971
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PARAMDATA, *LPPARAMDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PARAMDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PARAMDATA, *LPPARAMDATA
+req.redist: 
 ---
 
 # tagPARAMDATA structure

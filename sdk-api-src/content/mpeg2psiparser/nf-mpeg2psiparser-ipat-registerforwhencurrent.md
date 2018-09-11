@@ -4,17 +4,16 @@ title: IPAT::RegisterForWhenCurrent
 author: windows-sdk-content
 description: The RegisterForWhenCurrent method registers the client to be notified when the table becomes current.
 old-location: mstv\ipat_registerforwhencurrent.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2a7808b6-2e31-4cd9-a4cc-7a6a7cf46cd4
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPAT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IPAT.RegisterForWhenCurrent, IPAT::RegisterForWhenCurrent, IPATRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IPAT interface, mpeg2psiparser/IPAT::RegisterForWhenCurrent, mstv.ipat_registerforwhencurrent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPAT.RegisterForWhenCurrent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPAT::RegisterForWhenCurrent

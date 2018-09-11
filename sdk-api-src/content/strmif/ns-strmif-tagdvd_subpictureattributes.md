@@ -4,7 +4,7 @@ title: tagDVD_SubpictureAttributes
 author: windows-sdk-content
 description: The DVD_SubpictureAttributes structure contains information about the DVD subpicture. The IDvdInfo2::GetSubpictureAttributes method fills in a DVD_SubpictureAttributes structure for a specified stream.
 old-location: dshow\dvd_subpictureattributes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 55ddfa21-5600-4aa9-b554-7ff7f3c05b91
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_SubpictureAttributes
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_SubpictureAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: DVD_SubpictureAttributes
+req.redist: 
 ---
 
 # tagDVD_SubpictureAttributes structure

@@ -4,17 +4,16 @@ title: IMFSimpleAudioVolume::GetMute
 author: windows-sdk-content
 description: Queries whether the audio is muted.
 old-location: mf\imfsimpleaudiovolume_getmute.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 13907d3c-62c0-4cb8-8921-5a38a63d7d6e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 13907d3c-62c0-4cb8-8921-5a38a63d7d6e, GetMute, GetMute method [Media Foundation], GetMute method [Media Foundation],IMFSimpleAudioVolume interface, IMFSimpleAudioVolume interface [Media Foundation],GetMute method, IMFSimpleAudioVolume.GetMute, IMFSimpleAudioVolume::GetMute, mf.imfsimpleaudiovolume_getmute, mfidl/IMFSimpleAudioVolume::GetMute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSimpleAudioVolume.GetMute
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSimpleAudioVolume::GetMute

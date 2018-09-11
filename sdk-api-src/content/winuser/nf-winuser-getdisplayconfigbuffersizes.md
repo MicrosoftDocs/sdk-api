@@ -4,17 +4,16 @@ title: GetDisplayConfigBufferSizes function
 author: windows-sdk-content
 description: The GetDisplayConfigBufferSizes function retrieves the size of the buffers that are required to call the QueryDisplayConfig function.
 old-location: display\getdisplayconfigbuffersizes.htm
-old-project: display
+tech.root: display
 ms.assetid: 5ec7f521-28b5-4922-a3fc-aa4433de69e0
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: CCD_Functions_0d604cd6-222b-4e6e-a8aa-60866d3f3ef6.xml, GetDisplayConfigBufferSizes, GetDisplayConfigBufferSizes function [Display Devices], display.getdisplayconfigbuffersizes, winuser/GetDisplayConfigBufferSizes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib; OneCoreUAP.lib on Windows 10
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - GetDisplayConfigBufferSizes
 product: Windows
 targetos: Windows
-req.lib: User32.lib; OneCoreUAP.lib on Windows 10
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetDisplayConfigBufferSizes function

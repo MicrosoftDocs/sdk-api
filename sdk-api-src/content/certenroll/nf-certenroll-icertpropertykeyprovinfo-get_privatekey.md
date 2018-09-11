@@ -4,17 +4,16 @@ title: ICertPropertyKeyProvInfo::get_PrivateKey
 author: windows-sdk-content
 description: Retrieves the private key associated with the certificate.
 old-location: security\icertpropertykeyprovinfo_privatekey_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 24cc6dea-fb29-4533-8f6c-3f273c5b94c3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertPropertyKeyProvInfo interface [Security],PrivateKey property, ICertPropertyKeyProvInfo.PrivateKey, ICertPropertyKeyProvInfo.get_PrivateKey, ICertPropertyKeyProvInfo::PrivateKey, ICertPropertyKeyProvInfo::get_PrivateKey, PrivateKey property [Security], PrivateKey property [Security],ICertPropertyKeyProvInfo interface, certenroll/ICertPropertyKeyProvInfo::PrivateKey, certenroll/ICertPropertyKeyProvInfo::get_PrivateKey, get_PrivateKey, security.icertpropertykeyprovinfo_privatekey_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertPropertyKeyProvInfo.get_PrivateKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyKeyProvInfo::get_PrivateKey

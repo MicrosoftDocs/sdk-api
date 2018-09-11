@@ -4,17 +4,16 @@ title: IVssWMComponent::GetDependency
 author: windows-sdk-content
 description: The GetDependency method returns an instance of the IVssWMDependency interface containing accessors for obtaining information about explicit writer-component dependencies of one of the current components.
 old-location: base\ivsswmcomponent_getdependency.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: ead9ff63-15dc-4fcc-b341-85ad9c3eabb7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetDependency, GetDependency method [VSS], GetDependency method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDependency method, IVssWMComponent.GetDependency, IVssWMComponent::GetDependency, _win32_ivsswmcomponent_getdependency, base.ivsswmcomponent_getdependency, vsbackup/IVssWMComponent::GetDependency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssWMComponent.GetDependency
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssWMComponent::GetDependency

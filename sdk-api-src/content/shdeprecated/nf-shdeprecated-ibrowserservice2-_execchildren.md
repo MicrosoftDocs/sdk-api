@@ -4,17 +4,16 @@ title: IBrowserService2::_ExecChildren
 author: windows-sdk-content
 description: Deprecated. Enables the derived class to issue a command through the IOleCommandTarget::Exec method directly, instead of relying on the base class.
 old-location: shell\IBrowserService2__ExecChildren.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d66274b5-36ca-474c-b0e2-49b34394b19b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_ExecChildren method, IBrowserService2._ExecChildren, IBrowserService2::_ExecChildren, _ExecChildren, _ExecChildren method [Windows Shell], _ExecChildren method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_ExecChildren, shell.IBrowserService2__ExecChildren, zone_IBrowserService2__ExecChildren
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2._ExecChildren
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

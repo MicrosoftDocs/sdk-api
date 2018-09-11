@@ -4,7 +4,7 @@ title: "_DDGETPREVIOUSAUTOFLIPOUTINFO"
 author: windows-sdk-content
 description: The DDGETPREVIOUSAUTOFLIPOUTINFO structure provides the surface data.
 old-location: display\ddgetpreviousautoflipoutinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 3009425c-00ba-4be5-be81-65905abf4a2a
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDGETPREVIOUSAUTOFLIPOUTINFO, *PDDGETPREVIOUSAUTOFLIPOUTINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDGETPREVIOUSAUTOFLIPOUTINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDGETPREVIOUSAUTOFLIPOUTINFO, *PDDGETPREVIOUSAUTOFLIPOUTINFO
+req.redist: 
 ---
 
 # _DDGETPREVIOUSAUTOFLIPOUTINFO structure

@@ -4,7 +4,7 @@ title: IPSEC_TOKEN_PRINCIPAL_
 author: windows-sdk-content
 description: An access token principal.
 old-location: fwp\ipsec_token_principal.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: f61944aa-2545-4fdd-8bae-6271d4535acc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_TOKEN_PRINCIPAL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_TOKEN_PRINCIPAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_TOKEN_PRINCIPAL
+req.redist: 
 ---
 
 # IPSEC_TOKEN_PRINCIPAL_ enumeration

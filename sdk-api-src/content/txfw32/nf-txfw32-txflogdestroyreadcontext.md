@@ -4,17 +4,16 @@ title: TxfLogDestroyReadContext function
 author: windows-sdk-content
 description: Closes a read context created by the TxfLogCreateFileReadContext function.
 old-location: fs\txflogdestroyreadcontext.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: e1f323bd-48cb-4264-89a0-185d18881726
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TxfLogDestroyReadContext, TxfLogDestroyReadContext function [Files], fs.txflogdestroyreadcontext, txfw32/TxfLogDestroyReadContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: txfw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EnTvRat_US_TV
+req.lib: TxfW32.lib
+req.dll: TxfW32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TxfLogDestroyReadContext
 product: Windows
 targetos: Windows
-req.lib: TxfW32.lib
-req.dll: TxfW32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TxfLogDestroyReadContext function

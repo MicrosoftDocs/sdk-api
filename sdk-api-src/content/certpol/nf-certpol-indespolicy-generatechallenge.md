@@ -4,17 +4,16 @@ title: INDESPolicy::GenerateChallenge
 author: windows-sdk-content
 description: Performs the policy decision whether to issue a challenge password to the SCEP client.
 old-location: security\indespolicy_generatechallenge.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: e09ef64c-5b4c-41ef-942a-1080cd566a5b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: GenerateChallenge, GenerateChallenge method [Security], GenerateChallenge method [Security],INDESPolicy interface, INDESPolicy interface [Security],GenerateChallenge method, INDESPolicy.GenerateChallenge, INDESPolicy::GenerateChallenge, certpol/INDESPolicy::GenerateChallenge, security.indespolicy_generatechallenge
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certpol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509SCEPFailInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - INDESPolicy.GenerateChallenge
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # INDESPolicy::GenerateChallenge

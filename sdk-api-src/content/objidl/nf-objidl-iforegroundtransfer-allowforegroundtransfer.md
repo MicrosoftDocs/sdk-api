@@ -4,17 +4,16 @@ title: IForegroundTransfer::AllowForegroundTransfer
 author: windows-sdk-content
 description: Yields the foreground window to the COM server process.
 old-location: com\iforegroundtransfer_allowforegroundtransfer.htm
-old-project: com
+tech.root: com
 ms.assetid: 54d138f5-5f16-4eb8-bbac-2d057b7dab2f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AllowForegroundTransfer, AllowForegroundTransfer method [COM], AllowForegroundTransfer method [COM],IForegroundTransfer interface, IForegroundTransfer interface [COM],AllowForegroundTransfer method, IForegroundTransfer.AllowForegroundTransfer, IForegroundTransfer::AllowForegroundTransfer, _com_iforegroundtransfer_allowforegroundtransfer, com.iforegroundtransfer_allowforegroundtransfer, objidl/IForegroundTransfer::AllowForegroundTransfer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IForegroundTransfer.AllowForegroundTransfer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IForegroundTransfer::AllowForegroundTransfer

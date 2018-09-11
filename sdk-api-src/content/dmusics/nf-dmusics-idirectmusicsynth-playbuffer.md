@@ -4,17 +4,16 @@ title: IDirectMusicSynth::PlayBuffer
 author: windows-sdk-content
 description: The PlayBuffer method downloads a stream of MIDI messages to the synthesizer.
 old-location: audio\idirectmusicsynth_playbuffer.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 96d0a2ef-1265-4e04-bb70-920f4c82058c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],PlayBuffer method, IDirectMusicSynth.PlayBuffer, IDirectMusicSynth::PlayBuffer, PlayBuffer, PlayBuffer method [Audio Devices], PlayBuffer method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_playbuffer, audmp-routines_1a5efe25-ef92-4baf-a4bc-fc2d043c832f.xml, dmusics/IDirectMusicSynth::PlayBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectMusicSynth.PlayBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectMusicSynth::PlayBuffer

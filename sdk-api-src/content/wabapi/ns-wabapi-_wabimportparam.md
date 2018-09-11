@@ -4,17 +4,16 @@ title: "_WABIMPORTPARAM"
 author: windows-sdk-content
 description: Do not use. Structure passed to Import that gives information about importing .wab files.
 old-location: wab\_wab_WABIMPORTPARAM.htm
-old-project: wab
+tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\wabimportparam.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWABIMPORTPARAM, LPWABIMPORTPARAM, LPWABIMPORTPARAM structure pointer [Windows Address Book], MAPI_DIALOG, WABIMPORTPARAM, WABIMPORTPARAM structure [Windows Address Book], _WABIMPORTPARAM, _wab_WABIMPORTPARAM, wab._wab_WABIMPORTPARAM, wabapi/LPWABIMPORTPARAM, wabapi/WABIMPORTPARAM"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WABIMPORTPARAM, *LPWABIMPORTPARAM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - WABIMPORTPARAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: WABIMPORTPARAM, *LPWABIMPORTPARAM
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

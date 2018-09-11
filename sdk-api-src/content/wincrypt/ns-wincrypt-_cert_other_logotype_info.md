@@ -4,17 +4,16 @@ title: "_CERT_OTHER_LOGOTYPE_INFO"
 author: windows-sdk-content
 description: Contains information about logo types that are not predefined.
 old-location: security\cert_other_logotype_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 104cc412-a268-4b5f-bb9d-9df27f4df6b7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_OTHER_LOGOTYPE_INFO, CERT_OTHER_LOGOTYPE_INFO, CERT_OTHER_LOGOTYPE_INFO structure [Security], PCERT_OTHER_LOGOTYPE_INFO, PCERT_OTHER_LOGOTYPE_INFO structure pointer [Security], _CERT_OTHER_LOGOTYPE_INFO, security.cert_other_logotype_info, szOID_BACKGROUND_OTHER_LOGOTYPE, szOID_LOYALTY_OTHER_LOGOTYPE, wincrypt/CERT_OTHER_LOGOTYPE_INFO, wincrypt/PCERT_OTHER_LOGOTYPE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_OTHER_LOGOTYPE_INFO, *PCERT_OTHER_LOGOTYPE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_OTHER_LOGOTYPE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_OTHER_LOGOTYPE_INFO, *PCERT_OTHER_LOGOTYPE_INFO
+req.redist: 
 ---
 
 # _CERT_OTHER_LOGOTYPE_INFO structure

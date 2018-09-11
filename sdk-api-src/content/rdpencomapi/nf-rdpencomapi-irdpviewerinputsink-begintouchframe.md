@@ -4,17 +4,16 @@ title: IRDPViewerInputSink::BeginTouchFrame
 author: windows-sdk-content
 description: Begins to accept a series of touch inputs.
 old-location: rdp\irdpviewerinputsink_begintouchframe.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: DCB67D63-A866-4D98-907B-6CDB7EB56312
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BeginTouchFrame, BeginTouchFrame method [RDP], BeginTouchFrame method [RDP],IRDPViewerInputSink interface, IRDPViewerInputSink interface [RDP],BeginTouchFrame method, IRDPViewerInputSink.BeginTouchFrame, IRDPViewerInputSink::BeginTouchFrame, rdp.irdpviewerinputsink_begintouchframe, rdpencomapi/IRDPViewerInputSink::BeginTouchFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPViewerInputSink.BeginTouchFrame
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPViewerInputSink::BeginTouchFrame

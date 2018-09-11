@@ -4,7 +4,7 @@ title: "_PLEX_READ_DATA_REQUEST"
 author: windows-sdk-content
 description: Indicates the range of the read operation to perform and the plex from which to read.
 old-location: fs\plex_read_data_request_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: efabc8f3-1596-4a6a-86a3-ecd5b3d934d5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLEX_READ_DATA_REQUEST, *PPLEX_READ_DATA_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PLEX_READ_DATA_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PLEX_READ_DATA_REQUEST, *PPLEX_READ_DATA_REQUEST
+req.redist: 
 ---
 
 # _PLEX_READ_DATA_REQUEST structure

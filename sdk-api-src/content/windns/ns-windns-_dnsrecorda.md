@@ -4,7 +4,7 @@ title: "_DnsRecordA"
 author: windows-sdk-content
 description: Stores a DNS resource record (RR).
 old-location: dns\dns_record.htm
-old-project: dns
+tech.root: dns
 ms.assetid: ab7b96a5-346f-4e01-bb2a-885f44764590
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_RECORDA, *PDNS_RECORDA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_RECORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_RECORDA, *PDNS_RECORDA
+req.redist: 
 ---
 
 # _DnsRecordA structure

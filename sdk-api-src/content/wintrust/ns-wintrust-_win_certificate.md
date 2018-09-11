@@ -4,17 +4,16 @@ title: "_WIN_CERTIFICATE"
 author: windows-sdk-content
 description: This structure encapsulates a signature used in verifying executable files.
 old-location: security\win_certificate.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: AC666871-265B-4D09-B7A6-DEC48D4645FD
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWIN_CERTIFICATE, PWIN_CERTIFICATE, PWIN_CERTIFICATE structure pointer [Security], WIN_CERTIFICATE, WIN_CERTIFICATE structure [Security], _WIN_CERTIFICATE, security.win_certificate, wintrust/PWIN_CERTIFICATE, wintrust/WIN_CERTIFICATE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WIN_CERTIFICATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+req.redist: 
 ---
 
 # _WIN_CERTIFICATE structure

@@ -4,17 +4,16 @@ title: IExecuteCommand::SetNoShowUI
 author: windows-sdk-content
 description: Indicates whether any UI associated with the selected Shell item should be displayed.
 old-location: shell\IExecuteCommand_SetNoShowUI.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 26cec8f2-984a-4358-9082-bf6b886690eb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetNoShowUI method, IExecuteCommand.SetNoShowUI, IExecuteCommand::SetNoShowUI, SetNoShowUI, SetNoShowUI method [Windows Shell], SetNoShowUI method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetNoShowUI, shell.IExecuteCommand_SetNoShowUI, shobjidl_core/IExecuteCommand::SetNoShowUI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExecuteCommand.SetNoShowUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExecuteCommand::SetNoShowUI

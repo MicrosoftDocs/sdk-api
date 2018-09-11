@@ -4,17 +4,16 @@ title: IMFAttributes::UnlockStore
 author: windows-sdk-content
 description: Unlocks the attribute store after a call to the IMFAttributes::LockStore method. While the object is unlocked, multiple threads can access the object's attributes.
 old-location: mf\imfattributes_unlockstore.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 65e35864-868a-4ae9-86ed-772a2b2daeb6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 65e35864-868a-4ae9-86ed-772a2b2daeb6, IMFAttributes interface [Media Foundation],UnlockStore method, IMFAttributes.UnlockStore, IMFAttributes::UnlockStore, UnlockStore, UnlockStore method [Media Foundation], UnlockStore method [Media Foundation],IMFAttributes interface, mf.imfattributes_unlockstore, mfobjects/IMFAttributes::UnlockStore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAttributes.UnlockStore
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAttributes::UnlockStore

@@ -4,17 +4,16 @@ title: D3D10_TEX2DMS_DSV
 author: windows-sdk-content
 description: Specifies the subresource from a multisampled 2D texture that is accessible to a depth-stencil view.
 old-location: direct3d10\d3d10_tex2dms_dsv.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_dsv.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: D3D10_TEX2DMS_DSV, D3D10_TEX2DMS_DSV structure [Direct3D 10], c5f5656b-8589-3a09-033c-cf23c7b8dea4, d3d10/D3D10_TEX2DMS_DSV, direct3d10.d3d10_tex2dms_dsv
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_TEX2DMS_DSV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_TEX2DMS_DSV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_TEX2DMS_DSV
+req.redist: 
 ---
 
 # D3D10_TEX2DMS_DSV structure

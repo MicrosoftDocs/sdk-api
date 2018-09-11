@@ -4,17 +4,16 @@ title: MFCompareFullToPartialMediaType function
 author: windows-sdk-content
 description: Compares a full media type to a partial media type.
 old-location: mf\mfcomparefulltopartialmediatype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5659cc69-46dc-4b08-96c4-e9ec787a310a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 5659cc69-46dc-4b08-96c4-e9ec787a310a, MFCompareFullToPartialMediaType, MFCompareFullToPartialMediaType function [Media Foundation], mf.mfcomparefulltopartialmediatype, mfapi/MFCompareFullToPartialMediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCompareFullToPartialMediaType
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCompareFullToPartialMediaType function

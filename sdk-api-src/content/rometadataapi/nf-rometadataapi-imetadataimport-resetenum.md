@@ -4,17 +4,16 @@ title: IMetaDataImport::ResetEnum
 author: windows-sdk-content
 description: Resets the specified enumerator to the specified position.
 old-location: winrt\imetadataimport_resetenum.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 74168393-e2ec-44bb-9fae-2c76ad40a3f8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],ResetEnum method, IMetaDataImport.ResetEnum, IMetaDataImport::ResetEnum, ResetEnum, ResetEnum method [Windows Runtime], ResetEnum method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::ResetEnum, winrt.imetadataimport_resetenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.ResetEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::ResetEnum

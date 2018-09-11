@@ -2,7 +2,7 @@
 UID: NA:mcx
 ms.assetid: 72f2b5ef-f41c-302e-b0f5-12838cf85b78
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

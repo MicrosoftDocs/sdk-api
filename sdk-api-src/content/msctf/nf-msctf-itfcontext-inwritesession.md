@@ -4,17 +4,16 @@ title: ITfContext::InWriteSession
 author: windows-sdk-content
 description: ITfContext::InWriteSession method
 old-location: tsf\itfcontext_inwritesession.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 88a8a2c1-bd5f-47d2-8612-c7e0cabfe254
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfContext interface [Text Services Framework],InWriteSession method, ITfContext.InWriteSession, ITfContext::InWriteSession, InWriteSession, InWriteSession method [Text Services Framework], InWriteSession method [Text Services Framework],ITfContext interface, _tsf_itfcontext_inwritesession_ref, msctf/ITfContext::InWriteSession, tsf.itfcontext_inwritesession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfContext.InWriteSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfContext::InWriteSession

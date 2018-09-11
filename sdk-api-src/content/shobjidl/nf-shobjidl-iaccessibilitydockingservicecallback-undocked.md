@@ -4,17 +4,16 @@ title: IAccessibilityDockingServiceCallback::Undocked
 author: windows-sdk-content
 description: Undocks the accessibility window so that it will not be automatically moved to its previous location.
 old-location: com\iaccessibilitydockingservicecallback_undocked.htm
-old-project: com
+tech.root: com
 ms.assetid: 1D704794-C729-49B9-8F72-6D77D0860B03
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAccessibilityDockingServiceCallback interface [COM],Undocked method, IAccessibilityDockingServiceCallback.Undocked, IAccessibilityDockingServiceCallback::Undocked, Undocked, Undocked method [COM], Undocked method [COM],IAccessibilityDockingServiceCallback interface, com.iaccessibilitydockingservicecallback_undocked, shobjidl/IAccessibilityDockingServiceCallback::Undocked
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessibilityDockingServiceCallback.Undocked
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IAccessibilityDockingServiceCallback::Undocked

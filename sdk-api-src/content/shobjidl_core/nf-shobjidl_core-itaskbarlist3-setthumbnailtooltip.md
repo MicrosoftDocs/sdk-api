@@ -4,17 +4,16 @@ title: ITaskbarList3::SetThumbnailTooltip
 author: windows-sdk-content
 description: Specifies or updates the text of the tooltip that is displayed when the mouse pointer rests on an individual preview thumbnail in a taskbar button flyout.
 old-location: shell\ITaskbarList3_SetThumbnailTooltip.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 73b5b9de-4876-4cac-9e58-d2e7559724f7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetThumbnailTooltip method, ITaskbarList3.SetThumbnailTooltip, ITaskbarList3::SetThumbnailTooltip, SetThumbnailTooltip, SetThumbnailTooltip method [Windows Shell], SetThumbnailTooltip method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetThumbnailTooltip, shell.ITaskbarList3_SetThumbnailTooltip, shobjidl_core/ITaskbarList3::SetThumbnailTooltip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Explorerframe.lib
+req.dll: Explorerframe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskbarList3.SetThumbnailTooltip
 product: Windows
 targetos: Windows
-req.lib: Explorerframe.lib
-req.dll: Explorerframe.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskbarList3::SetThumbnailTooltip

@@ -4,7 +4,7 @@ title: "_FORMAT_EX_PARAMETERS"
 author: windows-sdk-content
 description: Contains information used in formatting a contiguous set of disk tracks. It is used by the IOCTL_DISK_FORMAT_TRACKS_EX control code.
 old-location: fs\format_ex_parameters_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: e508106c-a77a-476f-ba71-ea8f9a2d94d6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FORMAT_EX_PARAMETERS, *PFORMAT_EX_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FORMAT_EX_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FORMAT_EX_PARAMETERS, *PFORMAT_EX_PARAMETERS
+req.redist: 
 ---
 
 # _FORMAT_EX_PARAMETERS structure

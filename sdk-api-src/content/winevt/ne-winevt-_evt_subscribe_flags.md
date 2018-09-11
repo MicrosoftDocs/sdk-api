@@ -4,17 +4,16 @@ title: "_EVT_SUBSCRIBE_FLAGS"
 author: windows-sdk-content
 description: Defines the possible values that specify when to start subscribing to events.
 old-location: wes\evt_subscribe_flags.htm
-old-project: wes
+tech.root: WES
 ms.assetid: 2e0d5442-c9ac-4165-96ae-6f4122a5ce0a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EVT_SUBSCRIBE_FLAGS, EVT_SUBSCRIBE_FLAGS enumeration [EventLog], EvtSubscribeOriginMask, EvtSubscribeStartAfterBookmark, EvtSubscribeStartAtOldestRecord, EvtSubscribeStrict, EvtSubscribeToFutureEvents, EvtSubscribeTolerateQueryErrors, _EVT_SUBSCRIBE_FLAGS, wes.evt_subscribe_flags, winevt/EVT_SUBSCRIBE_FLAGS, winevt/EvtSubscribeOriginMask, winevt/EvtSubscribeStartAfterBookmark, winevt/EvtSubscribeStartAtOldestRecord, winevt/EvtSubscribeStrict, winevt/EvtSubscribeToFutureEvents, winevt/EvtSubscribeTolerateQueryErrors
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_SUBSCRIBE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_SUBSCRIBE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_SUBSCRIBE_FLAGS
+req.redist: 
 ---
 
 # _EVT_SUBSCRIBE_FLAGS enumeration

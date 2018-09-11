@@ -4,7 +4,7 @@ title: D2D1_INK_BEZIER_SEGMENT
 author: windows-sdk-content
 description: Represents a Bezier segment to be used in the creation of an ID2D1Ink object. This structure differs from D2D1_BEZIER_SEGMENT in that it is composed of D2D1_INK_POINTs, which contain a radius in addition to x- and y-coordinates.
 old-location: direct2d\d2d1_ink_bezier_segment.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 27F1F78B-2478-4F5D-BF56-9931E767C358
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_INK_BEZIER_SEGMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_INK_BEZIER_SEGMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_INK_BEZIER_SEGMENT
+req.redist: 
 ---
 
 # D2D1_INK_BEZIER_SEGMENT structure

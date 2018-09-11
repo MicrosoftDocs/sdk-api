@@ -4,17 +4,16 @@ title: ITextRange2::GetCells
 author: windows-sdk-content
 description: Gets a cells object with the parameters of cells in the currently selected table row or column.
 old-location: controls\itextrange2_getcells.htm
-old-project: controls
+tech.root: controls
 ms.assetid: caaee637-d80a-44c6-9d9b-ed16a980afd9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCells, GetCells method [Windows Controls], GetCells method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCells method, ITextRange2.GetCells, ITextRange2::GetCells, controls.itextrange2_getcells, tom/ITextRange2::GetCells
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: Tom.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange2.GetCells
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange2::GetCells

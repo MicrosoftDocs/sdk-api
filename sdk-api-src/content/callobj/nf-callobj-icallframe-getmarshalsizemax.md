@@ -4,17 +4,16 @@ title: ICallFrame::GetMarshalSizeMax
 author: windows-sdk-content
 description: Retrieves an upper bound on the number of bytes needed to marshal the call frame.
 old-location: com\icallframe_getmarshalsizemax.htm
-old-project: com
+tech.root: com
 ms.assetid: 4e564b29-8b21-4e65-981e-4ceda1d7774d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetMarshalSizeMax, GetMarshalSizeMax method [COM], GetMarshalSizeMax method [COM],ICallFrame interface, ICallFrame interface [COM],GetMarshalSizeMax method, ICallFrame.GetMarshalSizeMax, ICallFrame::GetMarshalSizeMax, _com_icallframe_getmarshalsizemax, callobj/ICallFrame::GetMarshalSizeMax, com.icallframe_getmarshalsizemax
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallFrame.GetMarshalSizeMax
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallFrame::GetMarshalSizeMax

@@ -4,17 +4,16 @@ title: "_CRYPT_PSOURCE_ALGORITHM"
 author: windows-sdk-content
 description: Identifies the algorithm and (optionally) the value of the label for an RSAES-OAEP key encryption.
 old-location: security\crypt_psource_algorithm.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: cd390487-2bba-4d57-a779-579ffbd16acb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_PSOURCE_ALGORITHM, CRYPT_PSOURCE_ALGORITHM, CRYPT_PSOURCE_ALGORITHM structure [Security], PCRYPT_PSOURCE_ALGORITHM, PCRYPT_PSOURCE_ALGORITHM structure pointer [Security], _CRYPT_PSOURCE_ALGORITHM, security.crypt_psource_algorithm, szOID_RSA_PSPECIFIED, wincrypt/CRYPT_PSOURCE_ALGORITHM, wincrypt/PCRYPT_PSOURCE_ALGORITHM"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_PSOURCE_ALGORITHM, *PCRYPT_PSOURCE_ALGORITHM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_PSOURCE_ALGORITHM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_PSOURCE_ALGORITHM, *PCRYPT_PSOURCE_ALGORITHM
+req.redist: 
 ---
 
 # _CRYPT_PSOURCE_ALGORITHM structure

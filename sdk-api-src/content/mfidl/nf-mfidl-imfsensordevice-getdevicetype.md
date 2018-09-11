@@ -4,17 +4,16 @@ title: IMFSensorDevice::GetDeviceType
 author: windows-sdk-content
 description: Gets a value that specifies the type of sensor device represented by the object.
 old-location: mf\imfsensordevice_getdevicetype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6714B5A8-83F2-44CD-B061-749EA6BFBF20
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetDeviceType, GetDeviceType method [Media Foundation], GetDeviceType method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceType method, IMFSensorDevice.GetDeviceType, IMFSensorDevice::GetDeviceType, mf.imfsensordevice_getdevicetype, mfidl/IMFSensorDevice::GetDeviceType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorDevice.GetDeviceType
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorDevice::GetDeviceType

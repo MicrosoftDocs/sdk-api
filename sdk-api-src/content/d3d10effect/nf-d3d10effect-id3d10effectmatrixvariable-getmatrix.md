@@ -4,17 +4,16 @@ title: ID3D10EffectMatrixVariable::GetMatrix
 author: windows-sdk-content
 description: Get a matrix.
 old-location: direct3d10\id3d10effectmatrixvariable_getmatrix.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_getmatrix.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 8baccad6-5b3e-375b-03b1-1df72b40ebfb, GetMatrix, GetMatrix method [Direct3D 10], GetMatrix method [Direct3D 10],ID3D10EffectMatrixVariable interface, ID3D10EffectMatrixVariable interface [Direct3D 10],GetMatrix method, ID3D10EffectMatrixVariable.GetMatrix, ID3D10EffectMatrixVariable::GetMatrix, d3d10effect/ID3D10EffectMatrixVariable::GetMatrix, direct3d10.id3d10effectmatrixvariable_getmatrix
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10EffectMatrixVariable.GetMatrix
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10EffectMatrixVariable::GetMatrix

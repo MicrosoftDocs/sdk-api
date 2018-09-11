@@ -4,17 +4,16 @@ title: ITfContextOwnerServices::ForceLoadProperty
 author: windows-sdk-content
 description: ITfContextOwnerServices::ForceLoadProperty method
 old-location: tsf\itfcontextownerservices_forceloadproperty.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 7f77d82f-e048-463f-bf0d-15bf1daaddb6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ForceLoadProperty, ForceLoadProperty method [Text Services Framework], ForceLoadProperty method [Text Services Framework],ITfContextOwnerServices interface, ITfContextOwnerServices interface [Text Services Framework],ForceLoadProperty method, ITfContextOwnerServices.ForceLoadProperty, ITfContextOwnerServices::ForceLoadProperty, _tsf_itfcontextownerservices_forceloadproperty_ref, msctf/ITfContextOwnerServices::ForceLoadProperty, tsf.itfcontextownerservices_forceloadproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfContextOwnerServices.ForceLoadProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfContextOwnerServices::ForceLoadProperty

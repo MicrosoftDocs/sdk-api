@@ -4,17 +4,16 @@ title: Compress function
 author: windows-sdk-content
 description: Takes a block of information and compresses it.
 old-location: cmpapi\compress.htm
-old-project: cmpapi
+tech.root: cmpapi
 ms.assetid: 0e32501c-5213-43e6-88ca-1e424181d7a2
 ms.author: windowssdkdev
 ms.date: 07/23/2018
 ms.keywords: Compress, Compress function [Compression API], cmpapi.compress, compressapi/Compress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPRESS_INFORMATION_CLASS
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Compress
 product: Windows
 targetos: Windows
-req.lib: Cabinet.lib
-req.dll: Cabinet.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Compress function

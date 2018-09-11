@@ -4,17 +4,16 @@ title: IMediaStream::GetInformation
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the stream's purpose ID and media type.
 old-location: dshow\imediastream_getinformation.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e4ecae45-e2bf-44dd-8901-0892c02d708c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetInformation, GetInformation method [DirectShow], GetInformation method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],GetInformation method, IMediaStream.GetInformation, IMediaStream::GetInformation, IMediaStreamGetInformation, dshow.imediastream_getinformation, mmstream/IMediaStream::GetInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMediaStream.GetInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaStream::GetInformation

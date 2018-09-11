@@ -4,7 +4,7 @@ title: "_PARTITION_INFORMATION_EX"
 author: windows-sdk-content
 description: Contains partition information for standard AT-style master boot record (MBR) and Extensible Firmware Interface (EFI) disks.
 old-location: fs\partition_information_ex_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 3c88ebae-274e-403a-8f57-58fdf863f511
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PARTITION_INFORMATION_EX, *PPARTITION_INFORMATION_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PARTITION_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PARTITION_INFORMATION_EX, *PPARTITION_INFORMATION_EX
+req.redist: 
 ---
 
 # _PARTITION_INFORMATION_EX structure

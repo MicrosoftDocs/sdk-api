@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::get_Enabled
 author: windows-sdk-content
 description: Indicates whether the job enabled (can run).
 old-location: fsrm\ifsrmfilemanagementjob_enabled.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: c52dab05-34fb-4d9d-ac12-cbcee7e1fb9b
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: Enabled property [File Server Resource Manager], Enabled property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Enabled property, IFsrmFileManagementJob.Enabled, IFsrmFileManagementJob.get_Enabled, IFsrmFileManagementJob::Enabled, IFsrmFileManagementJob::get_Enabled, IFsrmFileManagementJob::put_Enabled, fs.ifsrmfilemanagementjob_enabled, fsrm.ifsrmfilemanagementjob_enabled, fsrmreports/IFsrmFileManagementJob::Enabled, fsrmreports/IFsrmFileManagementJob::get_Enabled, fsrmreports/IFsrmFileManagementJob::put_Enabled, get_Enabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileManagementJob.put_Enabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::get_Enabled

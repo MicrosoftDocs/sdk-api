@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0003"
 author: windows-sdk-content
 description: Defines the possible subcomponents of an assessment.
 old-location: winsat\winsat_assessment_type.htm
-old-project: winsat
+tech.root: WinSAT
 ms.assetid: 7e54df13-4415-42b8-b140-e35ea440ef68
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WINSAT_ASSESSMENT_CPU, WINSAT_ASSESSMENT_D3D, WINSAT_ASSESSMENT_DISK, WINSAT_ASSESSMENT_GRAPHICS, WINSAT_ASSESSMENT_MEMORY, WINSAT_ASSESSMENT_TYPE, WINSAT_ASSESSMENT_TYPE enumeration [WinSAT], __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0003, winsat.winsat_assessment_type, winsatcominterfacei/WINSAT_ASSESSMENT_CPU, winsatcominterfacei/WINSAT_ASSESSMENT_D3D, winsatcominterfacei/WINSAT_ASSESSMENT_DISK, winsatcominterfacei/WINSAT_ASSESSMENT_GRAPHICS, winsatcominterfacei/WINSAT_ASSESSMENT_MEMORY, winsatcominterfacei/WINSAT_ASSESSMENT_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_ASSESSMENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINSAT_ASSESSMENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WINSAT_ASSESSMENT_TYPE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0003 enumeration

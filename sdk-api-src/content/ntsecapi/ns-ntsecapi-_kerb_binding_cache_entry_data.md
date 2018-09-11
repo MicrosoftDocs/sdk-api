@@ -4,17 +4,16 @@ title: "_KERB_BINDING_CACHE_ENTRY_DATA"
 author: windows-sdk-content
 description: Specifies the data for the binding cache entry.
 old-location: security\kerb_binding_cache_entry_data.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: C5452477-B412-4E0C-B692-D79A47B8025A
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PKERB_BINDING_CACHE_ENTRY_DATA, DS_INET_ADDRESS, DS_NETBIOS_ADDRESS, KERB_BINDING_CACHE_ENTRY_DATA, KERB_BINDING_CACHE_ENTRY_DATA structure [Security], KERB_NO_DC_FLAGS, PKERB_BINDING_CACHE_ENTRY_DATA, PKERB_BINDING_CACHE_ENTRY_DATA structure pointer [Security], _KERB_BINDING_CACHE_ENTRY_DATA, ntsecapi/KERB_BINDING_CACHE_ENTRY_DATA, ntsecapi/PKERB_BINDING_CACHE_ENTRY_DATA, security.kerb_binding_cache_entry_data"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_BINDING_CACHE_ENTRY_DATA, *PKERB_BINDING_CACHE_ENTRY_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_BINDING_CACHE_ENTRY_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_BINDING_CACHE_ENTRY_DATA, *PKERB_BINDING_CACHE_ENTRY_DATA
+req.redist: 
 ---
 
 # _KERB_BINDING_CACHE_ENTRY_DATA structure

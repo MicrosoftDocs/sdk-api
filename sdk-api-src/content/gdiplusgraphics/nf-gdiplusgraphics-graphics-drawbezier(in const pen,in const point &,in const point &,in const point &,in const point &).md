@@ -4,17 +4,16 @@ title: Graphics::DrawBezier(IN const Pen,IN const Point &,IN const Point &,IN co
 author: windows-sdk-content
 description: This topic lists the DrawBezier methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawBezier_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawbeziermethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: DrawBezier, DrawBezier methods [GDI+], Graphics.DrawBezier, Graphics.DrawBezier(IN const Pen,IN const Point &,IN const Point &,IN const Point &,IN const Point &), Graphics::DrawBezier, Graphics::DrawBezier(IN const Pen,IN const Point &,IN const Point &,IN const Point &,IN const Point &), _gdiplus_CLASS_Graphics_DrawBezier_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawBezier_Methods, gdiplusgraphics/DrawBezier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Graphics.DrawBezier
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Graphics::DrawBezier(IN const Pen,IN const Point &,IN const Point &,IN const Point &,IN const Point &)

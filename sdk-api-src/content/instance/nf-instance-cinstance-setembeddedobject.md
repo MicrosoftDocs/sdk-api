@@ -4,17 +4,16 @@ title: CInstance::SetEmbeddedObject
 author: windows-sdk-content
 description: The SetEmbeddedObject method sets an embedded CInstance property.
 old-location: wmi\cinstance_setembeddedobject.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 64000949-8a3d-47c9-888b-09d520c41e1e
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?SetEmbeddedObject@CInstance@@QAE_NPBGAAV1@@Z, CInstance interface [Windows Management Instrumentation],SetEmbeddedObject method, CInstance.SetEmbeddedObject, CInstance::SetEmbeddedObject, SetEmbeddedObject, SetEmbeddedObject method [Windows Management Instrumentation], SetEmbeddedObject method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setembeddedobject, instance/CInstance::SetEmbeddedObject, wmi.cinstance_setembeddedobject"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ?SetEmbeddedObject@CInstance@@QAE_NPBGAAV1@@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::SetEmbeddedObject

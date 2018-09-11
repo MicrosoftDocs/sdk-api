@@ -4,17 +4,16 @@ title: IGPMMapEntryCollection::get_Item
 author: windows-sdk-content
 description: Given an index, returns a map entry from the collection.
 old-location: gpmc\igpmmapentrycollection_get_item.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: d68d4531-bf68-42ac-8055-9e00ce4a2c00
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMMapEntryCollection class [GPMC],Item property, IGPMMapEntryCollection interface [GPMC],Item property, IGPMMapEntryCollection.Item, IGPMMapEntryCollection.get_Item, IGPMMapEntryCollection::Item, IGPMMapEntryCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMMapEntryCollection class, Item property [GPMC],IGPMMapEntryCollection interface, get_Item, gpmc.igpmmapentrycollection_get_item, gpmgmt/IGPMMapEntryCollection::Item, gpmgmt/IGPMMapEntryCollection::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GPMMapEntryCollection.Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMMapEntryCollection::get_Item

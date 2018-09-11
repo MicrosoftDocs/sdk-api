@@ -4,17 +4,16 @@ title: IFsrmPipelineModuleConnector::get_ModuleName
 author: windows-sdk-content
 description: The name of the module.
 old-location: fsrm\ifsrmpipelinemoduleconnector_modulename.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: ef64a255-94da-4d42-af90-1ac9b2c0fbbc
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],ModuleName property, IFsrmPipelineModuleConnector interface [File Server Resource Manager],ModuleName property, IFsrmPipelineModuleConnector.ModuleName, IFsrmPipelineModuleConnector.get_ModuleName, IFsrmPipelineModuleConnector::ModuleName, IFsrmPipelineModuleConnector::get_ModuleName, ModuleName property [File Server Resource Manager], ModuleName property [File Server Resource Manager],FsrmPipelineModuleConnector class, ModuleName property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, fs.ifsrmpipelinemoduleconnector_modulename, fsrm.ifsrmpipelinemoduleconnector_modulename, fsrmpipeline/IFsrmPipelineModuleConnector::ModuleName, fsrmpipeline/IFsrmPipelineModuleConnector::get_ModuleName, get_ModuleName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmPipelineModuleConnector.ModuleName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPipelineModuleConnector::get_ModuleName

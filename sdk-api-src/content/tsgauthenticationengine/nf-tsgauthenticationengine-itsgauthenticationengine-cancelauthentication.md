@@ -4,17 +4,16 @@ title: ITSGAuthenticationEngine::CancelAuthentication
 author: windows-sdk-content
 description: Cancels an existing authentication request.
 old-location: termserv\itsgauthenticationengine_cancelauthentication.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 07da9ffa-b137-4e99-a1d1-14b7c14438a3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CancelAuthentication, CancelAuthentication method [Remote Desktop Services], CancelAuthentication method [Remote Desktop Services],ITSGAuthenticationEngine interface, ITSGAuthenticationEngine interface [Remote Desktop Services],CancelAuthentication method, ITSGAuthenticationEngine.CancelAuthentication, ITSGAuthenticationEngine::CancelAuthentication, termserv.itsgauthenticationengine_cancelauthentication, tsgauthenticationengine/ITSGAuthenticationEngine::CancelAuthentication
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsgauthenticationengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSGAuthenticationEngine.CancelAuthentication
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSGAuthenticationEngine::CancelAuthentication

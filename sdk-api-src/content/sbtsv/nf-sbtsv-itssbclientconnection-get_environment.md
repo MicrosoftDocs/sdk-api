@@ -4,17 +4,16 @@ title: ITsSbClientConnection::get_Environment
 author: windows-sdk-content
 description: Retrieves an object that contains information about the environment that hosts the target computer.
 old-location: termserv\itssbclientconnection_environment.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 97fe4851-96a9-4b23-8ad7-f42b87c655d0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Environment property [Remote Desktop Services], Environment property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],Environment property, ITsSbClientConnection.Environment, ITsSbClientConnection.get_Environment, ITsSbClientConnection::Environment, ITsSbClientConnection::get_Environment, get_Environment, sbtsv/ITsSbClientConnection::Environment, sbtsv/ITsSbClientConnection::get_Environment, termserv.itssbclientconnection_environment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbClientConnection.get_Environment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbClientConnection::get_Environment

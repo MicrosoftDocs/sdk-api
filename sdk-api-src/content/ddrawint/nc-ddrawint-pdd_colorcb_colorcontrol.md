@@ -4,7 +4,7 @@ title: PDD_COLORCB_COLORCONTROL
 author: windows-sdk-content
 description: The DdControlColor callback function controls the luminance and brightness controls of an overlay surface.
 old-location: display\ddcontrolcolor.htm
-old-project: display
+tech.root: display
 ms.assetid: 626fdd37-bebb-47b7-9899-7cf0dc2bd1ba
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdControlColor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PDD_COLORCB_COLORCONTROL callback function

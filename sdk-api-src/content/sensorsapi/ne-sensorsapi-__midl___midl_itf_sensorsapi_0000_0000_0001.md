@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_sensorsapi_0000_0000_0001"
 author: windows-sdk-content
 description: Defines possible operational states for sensors.
 old-location: winsensors_com_ref\sensorstate.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 4cf993ba-d767-4ef8-94a9-e819cc210360
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: SENSOR_STATE_ACCESS_DENIED, SENSOR_STATE_ERROR, SENSOR_STATE_INITIALIZING, SENSOR_STATE_MAX, SENSOR_STATE_MIN, SENSOR_STATE_NOT_AVAILABLE, SENSOR_STATE_NO_DATA, SENSOR_STATE_READY, SensorState, SensorState enumeration, __MIDL___MIDL_itf_sensorsapi_0000_0000_0001, sensorsapi/SENSOR_STATE_ACCESS_DENIED, sensorsapi/SENSOR_STATE_ERROR, sensorsapi/SENSOR_STATE_INITIALIZING, sensorsapi/SENSOR_STATE_MAX, sensorsapi/SENSOR_STATE_MIN, sensorsapi/SENSOR_STATE_NOT_AVAILABLE, sensorsapi/SENSOR_STATE_NO_DATA, sensorsapi/SENSOR_STATE_READY, sensorsapi/SensorState, winsensors_com_ref.sensorstate
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -26,9 +25,10 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: SensorState
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SensorState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SensorState
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_sensorsapi_0000_0000_0001 enumeration

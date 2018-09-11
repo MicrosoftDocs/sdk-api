@@ -4,17 +4,16 @@ title: IWbemCallResult::GetCallStatus
 author: windows-sdk-content
 description: The IWbemCallResult::GetCallStatus method returns to the user the status of the current outstanding semisynchronous call. When this call returns WBEM_S_NO_ERROR, the original call to the IWbemServices method is complete.
 old-location: wmi\iwbemcallresult_getcallstatus.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 5a600fd8-87d8-446d-93da-5b22fd575a11
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetCallStatus, GetCallStatus method [Windows Management Instrumentation], GetCallStatus method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetCallStatus method, IWbemCallResult.GetCallStatus, IWbemCallResult::GetCallStatus, _hmm_iwbemcallresult_getcallstatus, wbemcli/IWbemCallResult::GetCallStatus, wmi.iwbemcallresult_getcallstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemCallResult.GetCallStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemCallResult::GetCallStatus

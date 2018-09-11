@@ -4,17 +4,16 @@ title: IBootOptions::put_Emulation
 author: windows-sdk-content
 description: Sets the media type that the boot image is intended to emulate.
 old-location: imapi\ibootoptions_put_emulation.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 93ed301e-fdea-451c-9ab0-6ea9a7fd45de
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBootOptions interface [IMAPI],put_Emulation method, IBootOptions.put_Emulation, IBootOptions::put_Emulation, imapi.ibootoptions_put_emulation, imapi2fs/IBootOptions::put_Emulation, put_Emulation, put_Emulation method [IMAPI], put_Emulation method [IMAPI],IBootOptions interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBootOptions.put_Emulation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IBootOptions::put_Emulation

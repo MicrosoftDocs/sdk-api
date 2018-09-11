@@ -4,17 +4,16 @@ title: IAccessible::get_accKeyboardShortcut
 author: windows-sdk-content
 description: The IAccessible::get_accKeyboardShortcut method retrieves the specified object's shortcut key or access key, also known as the mnemonic. All objects that have a shortcut key or an access key support this property.
 old-location: winauto\iaccessible_iaccessible__get_acckeyboardshortcut.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 0d91c791-1e9b-45da-8fa6-b879ac6d11a7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accKeyboardShortcut method, IAccessible.get_accKeyboardShortcut, IAccessible::get_accKeyboardShortcut, _msaa_IAccessible_get_accKeyboardShortcut, get_accKeyboardShortcut, get_accKeyboardShortcut method [Windows Accessibility], get_accKeyboardShortcut method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_acckeyboardshortcut, oleacc/IAccessible::get_accKeyboardShortcut, winauto.iaccessible_iaccessible__get_acckeyboardshortcut
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessible.get_accKeyboardShortcut
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # IAccessible::get_accKeyboardShortcut
@@ -62,7 +60,7 @@ The <b>IAccessible::get_accKeyboardShortcut</b> method retrieves the specified o
 
 ### -param varChild
 
-
+TBD
 
 
 ### -param pszKeyboardShortcut [out, retval]

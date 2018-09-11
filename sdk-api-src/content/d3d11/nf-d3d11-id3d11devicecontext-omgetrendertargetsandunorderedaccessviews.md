@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::OMGetRenderTargetsAndUnorderedAccessViews
 author: windows-sdk-content
 description: Get pointers to the resources bound to the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omgetrendertargetsandunorderedaccessviews.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 5baaedea-5db4-4a25-adfc-2ac9cf48ad6d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 84c4c039-405e-ee3a-22d0-80eb7078ffe8, ID3D11DeviceContext interface [Direct3D 11],OMGetRenderTargetsAndUnorderedAccessViews method, ID3D11DeviceContext.OMGetRenderTargetsAndUnorderedAccessViews, ID3D11DeviceContext::OMGetRenderTargetsAndUnorderedAccessViews, OMGetRenderTargetsAndUnorderedAccessViews, OMGetRenderTargetsAndUnorderedAccessViews method [Direct3D 11], OMGetRenderTargetsAndUnorderedAccessViews method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMGetRenderTargetsAndUnorderedAccessViews, direct3d11.id3d11devicecontext_omgetrendertargetsandunorderedaccessviews
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.OMGetRenderTargetsAndUnorderedAccessViews
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::OMGetRenderTargetsAndUnorderedAccessViews

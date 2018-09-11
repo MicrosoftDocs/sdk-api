@@ -4,17 +4,16 @@ title: IDiscFormat2Data::get_FreeSectorsOnMedia
 author: windows-sdk-content
 description: Retrieves the number of free sectors on the disc for incremental recording (without overwriting existing data).
 old-location: imapi\idiscformat2data_get_freesectorsonmedia.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 33313831-859c-4e35-9a43-cde2220b43d1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_FreeSectorsOnMedia method, IDiscFormat2Data.get_FreeSectorsOnMedia, IDiscFormat2Data::get_FreeSectorsOnMedia, get_FreeSectorsOnMedia, get_FreeSectorsOnMedia method [IMAPI], get_FreeSectorsOnMedia method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_freesectorsonmedia, imapi2/IDiscFormat2Data::get_FreeSectorsOnMedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2Data.get_FreeSectorsOnMedia
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2Data::get_FreeSectorsOnMedia

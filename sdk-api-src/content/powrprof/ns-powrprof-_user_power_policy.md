@@ -4,7 +4,7 @@ title: "_USER_POWER_POLICY"
 author: windows-sdk-content
 description: Contains power policy settings that are unique to each power scheme for a user.
 old-location: base\user_power_policy_str.htm
-old-project: power
+tech.root: power
 ms.assetid: 616c45f6-ec80-42d9-a485-e9e778f2b971
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_POWER_POLICY, *PUSER_POWER_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_POWER_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: USER_POWER_POLICY, *PUSER_POWER_POLICY
+req.redist: 
 ---
 
 # _USER_POWER_POLICY structure

@@ -4,7 +4,7 @@ title: LOCALE_ENUMPROCEX
 author: windows-sdk-content
 description: An application-defined callback function that processes enumerated locale information provided by the EnumSystemLocalesEx function.
 old-location: intl\enumlocalesprocex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 583cc7bc-da1d-4dfc-83f2-2da2b304af62
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winnls.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNIVERSAL_NAME_INFOW, *LPUNIVERSAL_NAME_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LOCALE_ENUMPROCEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LOCALE_ENUMPROCEX callback function

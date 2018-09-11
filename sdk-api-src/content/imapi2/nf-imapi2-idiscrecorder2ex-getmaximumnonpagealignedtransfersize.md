@@ -4,17 +4,16 @@ title: IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize
 author: windows-sdk-content
 description: Retrieves the maximum non-page-aligned transfer size for the device.
 old-location: imapi\idiscrecorder2ex_getmaximumnonpagealignedtransfersize.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: dae56eb7-8fd5-40ea-b3de-2f98206a5cb2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetMaximumNonPageAlignedTransferSize, GetMaximumNonPageAlignedTransferSize method [IMAPI], GetMaximumNonPageAlignedTransferSize method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetMaximumNonPageAlignedTransferSize method, IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize, IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize, imapi.idiscrecorder2ex_getmaximumnonpagealignedtransfersize, imapi2/IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize

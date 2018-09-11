@@ -4,17 +4,16 @@ title: IFileSystemImage::put_MultisessionInterfaces
 author: windows-sdk-content
 description: Sets the list of multi-session interfaces for the optical media.
 old-location: imapi\ifilesystemimage_put_multisessioninterfaces.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 632cd123-4e66-4ac3-891a-aa9d0c085b4f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_MultisessionInterfaces method, IFileSystemImage.put_MultisessionInterfaces, IFileSystemImage::put_MultisessionInterfaces, imapi.ifilesystemimage_put_multisessioninterfaces, imapi2fs/IFileSystemImage::put_MultisessionInterfaces, put_MultisessionInterfaces, put_MultisessionInterfaces method [IMAPI], put_MultisessionInterfaces method [IMAPI],IFileSystemImage interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage.put_MultisessionInterfaces
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage::put_MultisessionInterfaces

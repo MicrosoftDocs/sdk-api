@@ -4,17 +4,16 @@ title: IWICBitmapEncoder::CreateNewFrame
 author: windows-sdk-content
 description: Creates a new IWICBitmapFrameEncode instance.
 old-location: wic\_wic_codec_iwicbitmapencoder_createnewframe.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 1c48f603-e7be-4b0c-a262-0dd01308e868
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateNewFrame, CreateNewFrame method [Windows Imaging Component], CreateNewFrame method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],CreateNewFrame method, IWICBitmapEncoder.CreateNewFrame, IWICBitmapEncoder::CreateNewFrame, _wic_codec_iwicbitmapencoder_createnewframe, wic._wic_codec_iwicbitmapencoder_createnewframe, wincodec/IWICBitmapEncoder::CreateNewFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapEncoder.CreateNewFrame
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapEncoder::CreateNewFrame

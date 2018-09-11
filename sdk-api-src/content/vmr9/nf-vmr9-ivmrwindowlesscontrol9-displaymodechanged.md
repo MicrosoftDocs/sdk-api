@@ -4,17 +4,16 @@ title: IVMRWindowlessControl9::DisplayModeChanged
 author: windows-sdk-content
 description: The DisplayModeChanged method informs the VMR that a WM_DISPLAYCHANGE message has been received by the application.
 old-location: dshow\ivmrwindowlesscontrol9_displaymodechanged.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ad023fa0-3540-4009-abdc-a1c980f906ec
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: DisplayModeChanged, DisplayModeChanged method [DirectShow], DisplayModeChanged method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],DisplayModeChanged method, IVMRWindowlessControl9.DisplayModeChanged, IVMRWindowlessControl9::DisplayModeChanged, IVMRWindowlessControl9DisplayModeChanged, dshow.ivmrwindowlesscontrol9_displaymodechanged, vmr9/IVMRWindowlessControl9::DisplayModeChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRWindowlessControl9.DisplayModeChanged
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRWindowlessControl9::DisplayModeChanged

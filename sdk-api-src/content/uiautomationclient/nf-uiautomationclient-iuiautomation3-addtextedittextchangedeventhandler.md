@@ -4,17 +4,16 @@ title: IUIAutomation3::AddTextEditTextChangedEventHandler
 author: windows-sdk-content
 description: Registers a method that handles programmatic text-edit events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
 old-location: winauto\uiauto_IUIAutomation3_AddTextEditTextChangedEventHandler.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: E4FBD04E-2E0B-6B87-F589-C3214EF54E5F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddTextEditTextChangedEventHandler, AddTextEditTextChangedEventHandler method [Windows Accessibility], AddTextEditTextChangedEventHandler method [Windows Accessibility],IUIAutomation3 interface, IUIAutomation3 interface [Windows Accessibility],AddTextEditTextChangedEventHandler method, IUIAutomation3.AddTextEditTextChangedEventHandler, IUIAutomation3::AddTextEditTextChangedEventHandler, uiautomationclient/IUIAutomation3::AddTextEditTextChangedEventHandler, winauto.uiauto_IUIAutomation3_AddTextEditTextChangedEventHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomation3.AddTextEditTextChangedEventHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation3::AddTextEditTextChangedEventHandler
@@ -67,9 +65,14 @@ Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a4027701220
 A pointer to the UI Automation element associated with the event handler.
 
 
-### -param param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 ### -param cacheRequest [in]

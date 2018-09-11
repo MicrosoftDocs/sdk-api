@@ -4,17 +4,16 @@ title: IMbnInterface::InEmergencyMode
 author: windows-sdk-content
 description: Determines whether the device is in emergency mode.
 old-location: mbn\imbninterface_inemergencymode.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: b4ce2c10-627d-4cbe-a884-7bb8731c3bcf
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],InEmergencyMode method, IMbnInterface.InEmergencyMode, IMbnInterface::InEmergencyMode, InEmergencyMode, InEmergencyMode method [Microsoft Broadband Networks], InEmergencyMode method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_inemergencymode, mbnapi/IMbnInterface::InEmergencyMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnInterface.InEmergencyMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnInterface::InEmergencyMode

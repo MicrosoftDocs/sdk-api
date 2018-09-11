@@ -4,17 +4,16 @@ title: IWMResamplerProps::SetHalfFilterLength
 author: windows-sdk-content
 description: Specifies the quality of the output.
 old-location: mf\iwmresamplerpropssethalffilterlength.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ac35fafa-d1f1-4470-b4e3-0e6fce792a11
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IWMResamplerProps interface [Media Foundation],SetHalfFilterLength method, IWMResamplerProps.SetHalfFilterLength, IWMResamplerProps::SetHalfFilterLength, SetHalfFilterLength, SetHalfFilterLength method [Media Foundation], SetHalfFilterLength method [Media Foundation],IWMResamplerProps interface, codecapi.iwmresamplerpropssethalffilterlength, mf.iwmresamplerpropssethalffilterlength, wmcodecdsp/IWMResamplerProps::SetHalfFilterLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMResamplerProps.SetHalfFilterLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMResamplerProps::SetHalfFilterLength

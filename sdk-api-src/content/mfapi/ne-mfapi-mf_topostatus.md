@@ -4,7 +4,7 @@ title: MF_TOPOSTATUS
 author: windows-sdk-content
 description: Specifies the status of a topology during playback.
 old-location: mf\mf_topostatus.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7cf2a4f2-c115-4dee-ab91-6a3fab33365f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_TOPOSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_TOPOSTATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_TOPOSTATUS
+req.redist: 
 ---
 
 # MF_TOPOSTATUS enumeration

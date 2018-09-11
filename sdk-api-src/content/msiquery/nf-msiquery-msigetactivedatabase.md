@@ -4,17 +4,16 @@ title: MsiGetActiveDatabase function
 author: windows-sdk-content
 description: The MsiGetActiveDatabase function returns the active database for the installation. This function returns a read-only handle that should be closed using MsiCloseHandle.
 old-location: setup\msigetactivedatabase.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 148d467f-fecd-42a9-b838-22799a159f97
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiGetActiveDatabase, MsiGetActiveDatabase function, _msi_msigetactivedatabase, msiquery/MsiGetActiveDatabase, setup.msigetactivedatabase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MsiGetActiveDatabase
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiGetActiveDatabase function

@@ -4,17 +4,16 @@ title: tagOLEUILINKPROPSA
 author: windows-sdk-content
 description: Contains information that is used to initialize the Link tab of the Object Properties dialog box.
 old-location: com\oleuilinkprops_struct.htm
-old-project: com
+tech.root: com
 ms.assetid: 3f355ce8-adc3-4878-a8b4-3f7d94547ef1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPOLEUILINKPROPSA, *POLEUILINKPROPSA, LPOLEUILINKPROPS, LPOLEUILINKPROPS structure pointer [COM], OLEUILINKPROPS, OLEUILINKPROPS structure [COM], OLEUILINKPROPSA, OLEUILINKPROPSW, POLEUILINKPROPS, POLEUILINKPROPS structure pointer [COM], _ole_OLEUILINKPROPS, com.oleuilinkprops_struct, oledlg/LPOLEUILINKPROPS, oledlg/OLEUILINKPROPS, oledlg/OLEUILINKPROPSA, oledlg/OLEUILINKPROPSW, oledlg/POLEUILINKPROPS, tagOLEUILINKPROPSA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUILINKPROPSA, *POLEUILINKPROPSA, *LPOLEUILINKPROPSA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OLEUILINKPROPSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEUILINKPROPSA, *POLEUILINKPROPSA, *LPOLEUILINKPROPSA
+req.redist: 
 ---
 
 # tagOLEUILINKPROPSA structure

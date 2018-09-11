@@ -4,17 +4,16 @@ title: IDataCollectorSet::Start
 author: windows-sdk-content
 description: Manually starts the data collector set.
 old-location: pla\idatacollectorset_start.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 63f0c7b7-0dc6-4491-a2f5-eaae9d22da61
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],Start method, IDataCollectorSet.Start, IDataCollectorSet::Start, Start, Start method [PLA], Start method [PLA],IDataCollectorSet interface, base.idatacollectorset_start, pla.idatacollectorset_start, pla/IDataCollectorSet::Start
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataCollectorSet.Start
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::Start

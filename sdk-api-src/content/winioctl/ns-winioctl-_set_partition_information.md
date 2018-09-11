@@ -4,7 +4,7 @@ title: "_SET_PARTITION_INFORMATION"
 author: windows-sdk-content
 description: Contains information used to set a disk partition's type.
 old-location: fs\set_partition_information_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: cc04868c-cb9c-455f-a0df-bde6a133eb60
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SET_PARTITION_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: SET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION
+req.redist: 
 ---
 
 # _SET_PARTITION_INFORMATION structure

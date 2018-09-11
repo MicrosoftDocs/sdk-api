@@ -4,17 +4,16 @@ title: IFileViewerSite
 author: windows-sdk-content
 description: Exposes methods that designate an interface that allows a file viewer to retrieve the handle to the current pinned window, or to set a new pinned window.
 old-location: shell\IFileViewerSite.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 500fa3e4-1865-4543-ae34-8bd7ce9d94cb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileViewerSite, IFileViewerSite interface [Windows Shell], IFileViewerSite interface [Windows Shell],described, _win32_IFileViewerSite, shell.IFileViewerSite, shlobj/IFileViewerSite
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileViewerSite
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileViewerSite interface

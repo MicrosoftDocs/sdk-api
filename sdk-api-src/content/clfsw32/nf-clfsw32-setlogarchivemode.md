@@ -4,17 +4,16 @@ title: SetLogArchiveMode function
 author: windows-sdk-content
 description: Enables or disables log archive support for a specified log.
 old-location: fs\setlogarchivemode.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 9f8a9ab9-2873-44c2-aa8d-78514ffe42bb
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: CLFS_LOG_ARCHIVE_MODE, ClfsLogArchiveDisabled, ClfsLogArchiveEnabled, SetLogArchiveMode, SetLogArchiveMode function [Files], clfsw32/SetLogArchiveMode, fs.setlogarchivemode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: ClfsW32.lib
+req.dll: ClfsW32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SetLogArchiveMode
 product: Windows
 targetos: Windows
-req.lib: ClfsW32.lib
-req.dll: ClfsW32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # SetLogArchiveMode function

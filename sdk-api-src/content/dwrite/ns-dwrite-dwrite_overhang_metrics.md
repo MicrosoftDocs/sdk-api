@@ -4,17 +4,16 @@ title: DWRITE_OVERHANG_METRICS
 author: windows-sdk-content
 description: Indicates how much any visible DIPs (device independent pixels) overshoot each side of the layout or inline objects.
 old-location: directwrite\dwrite_overhang_metrics.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: a285f06b-a4d0-4ebe-80f5-157e59bfba31
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_OVERHANG_METRICS, DWRITE_OVERHANG_METRICS structure [Direct Write], PDWRITE_OVERHANG_METRICS, PDWRITE_OVERHANG_METRICS structure pointer [Direct Write], directwrite.dwrite_overhang_metrics, dwrite/DWRITE_OVERHANG_METRICS, dwrite/PDWRITE_OVERHANG_METRICS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_OVERHANG_METRICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_OVERHANG_METRICS structure

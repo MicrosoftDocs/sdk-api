@@ -4,17 +4,16 @@ title: ID2D1DeviceContext::GetImageLocalBounds
 author: windows-sdk-content
 description: Gets the bounds of an image without the world transform of the context applied.
 old-location: direct2d\id2d1devicecontext_getimagebounds.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 6a0f4e36-4490-4df5-a520-e10e524c8337
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetImageLocalBounds, GetImageLocalBounds method [Direct2D], GetImageLocalBounds method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetImageLocalBounds method, ID2D1DeviceContext.GetImageLocalBounds, ID2D1DeviceContext::GetImageLocalBounds, d2d1_1/ID2D1DeviceContext::GetImageLocalBounds, direct2d.id2d1devicecontext_getimagebounds
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext.GetImageLocalBounds
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext::GetImageLocalBounds

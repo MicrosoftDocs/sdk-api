@@ -4,17 +4,16 @@ title: DhcpCreateOption function
 author: windows-sdk-content
 description: Creates an option definition for the default user and vendor class at the default option level.
 old-location: dhcp\dhcpcreateoption.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 2a77467e-12e8-4a8e-a6ab-e3783a7492da
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpCreateOption, DhcpCreateOption function [DHCP], dhcp.dhcpcreateoption, dhcpsapi/DhcpCreateOption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpCreateOption
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpCreateOption function

@@ -4,17 +4,16 @@ title: ICEnroll2::addNameValuePairToSignature
 author: windows-sdk-content
 description: Adds the authenticated name-value pair of an attribute to the request. It is up to the certification authority (CA) to interpret the meaning of the name-value pair.
 old-location: security\icenroll4_addnamevaluepairtosignature.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: a31975f7-432e-47bb-a24e-508c6ca85373
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CEnroll object [Security],addNameValuePairToSignature method, ICEnroll2 interface [Security],addNameValuePairToSignature method, ICEnroll2.addNameValuePairToSignature, ICEnroll2::addNameValuePairToSignature, ICEnroll3 interface [Security],addNameValuePairToSignature method, ICEnroll3::addNameValuePairToSignature, ICEnroll4 interface [Security],addNameValuePairToSignature method, ICEnroll4::addNameValuePairToSignature, addNameValuePairToSignature, addNameValuePairToSignature method [Security], addNameValuePairToSignature method [Security],CEnroll object, addNameValuePairToSignature method [Security],ICEnroll2 interface, addNameValuePairToSignature method [Security],ICEnroll3 interface, addNameValuePairToSignature method [Security],ICEnroll4 interface, security.icenroll4_addnamevaluepairtosignature, xenroll/ICEnroll2::addNameValuePairToSignature, xenroll/ICEnroll3::addNameValuePairToSignature, xenroll/ICEnroll4::addNameValuePairToSignature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - CEnroll.addNameValuePairToSignature
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ICEnroll2::addNameValuePairToSignature

@@ -4,7 +4,7 @@ title: PDD_FLIPTOGDISURFACE
 author: windows-sdk-content
 description: The DdFlipToGDISurface callback function notifies the driver when DirectDraw is flipping to or from a GDI surface.
 old-location: display\ddfliptogdisurface.htm
-old-project: display
+tech.root: display
 ms.assetid: 279987bb-1697-4157-9d61-d503b0183e84
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdFlipToGDISurface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PDD_FLIPTOGDISURFACE callback function

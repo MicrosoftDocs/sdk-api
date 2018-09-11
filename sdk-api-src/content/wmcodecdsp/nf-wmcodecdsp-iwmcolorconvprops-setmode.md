@@ -4,17 +4,16 @@ title: IWMColorConvProps::SetMode
 author: windows-sdk-content
 description: Specifies whether the input video stream is interlaced.
 old-location: mf\iwmcolorconvpropssetmode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b0be2965-36cf-4d14-8df6-c5296135a8e5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IWMColorConvProps interface [Media Foundation],SetMode method, IWMColorConvProps.SetMode, IWMColorConvProps::SetMode, SetMode, SetMode method [Media Foundation], SetMode method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetmode, mf.iwmcolorconvpropssetmode, wmcodecdsp/IWMColorConvProps::SetMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMColorConvProps.SetMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMColorConvProps::SetMode

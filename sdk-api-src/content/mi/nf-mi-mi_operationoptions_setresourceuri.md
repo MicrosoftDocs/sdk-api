@@ -4,17 +4,16 @@ title: MI_OperationOptions_SetResourceUri function
 author: windows-sdk-content
 description: Sets the resource URI to use for an operation.
 old-location: wmi_v2\mi_operationoptions_setresourceuri.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 0722bc88-59a6-476b-a325-343d0eb43086
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: MI_OperationOptions_SetResourceUri, MI_OperationOptions_SetResourceUri function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetResourceUri, wmi_v2.mi_operationoptions_setresourceuri
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_Type
+req.lib: Mi.lib
+req.dll: Mi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_OperationOptions_SetResourceUri
 product: Windows
 targetos: Windows
-req.lib: Mi.lib
-req.dll: Mi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MI_OperationOptions_SetResourceUri function

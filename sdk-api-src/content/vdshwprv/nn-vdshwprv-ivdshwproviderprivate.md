@@ -4,17 +4,16 @@ title: IVdsHwProviderPrivate
 author: windows-sdk-content
 description: Provides a method that enables VDS to determine whether the hardware provider manages a specified LUN.
 old-location: base\ivdshwproviderprivate.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 7e6dbf9e-9060-46bf-be11-9d9d640a3d36
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsHwProviderPrivate, IVdsHwProviderPrivate interface [VDS], IVdsHwProviderPrivate interface [VDS],described, base.ivdshwproviderprivate, vdshwprv/IVdsHwProviderPrivate
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsHwProviderPrivate
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsHwProviderPrivate interface

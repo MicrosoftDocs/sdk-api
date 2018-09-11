@@ -4,17 +4,16 @@ title: IFsrmFileManagementJobManager::get_ActionVariableDescriptions
 author: windows-sdk-content
 description: Retrieves the descriptions for the macros contained in the IFsrmFileManagementJobManager::ActionVariables property.
 old-location: fsrm\ifsrmfilemanagementjobmanager_actionvariabledescriptions.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: d8e625b2-5fdd-4e7e-8c20-ad6e3e21a918
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: ActionVariableDescriptions property [File Server Resource Manager], ActionVariableDescriptions property [File Server Resource Manager],FsrmFileManagementJobManager class, ActionVariableDescriptions property [File Server Resource Manager],IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileManagementJobManager interface [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileManagementJobManager.ActionVariableDescriptions, IFsrmFileManagementJobManager.get_ActionVariableDescriptions, IFsrmFileManagementJobManager::ActionVariableDescriptions, IFsrmFileManagementJobManager::get_ActionVariableDescriptions, fs.ifsrmfilemanagementjobmanager_actionvariabledescriptions, fsrm.ifsrmfilemanagementjobmanager_actionvariabledescriptions, fsrmreports/IFsrmFileManagementJobManager::ActionVariableDescriptions, fsrmreports/IFsrmFileManagementJobManager::get_ActionVariableDescriptions, get_ActionVariableDescriptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmFileManagementJobManager.ActionVariableDescriptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJobManager::get_ActionVariableDescriptions

@@ -4,17 +4,16 @@ title: ID3D10EffectShaderVariable::GetVertexShader
 author: windows-sdk-content
 description: Get a vertex shader.
 old-location: direct3d10\id3d10effectshadervariable_getvertexshader.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable_getvertexshader.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetVertexShader, GetVertexShader method [Direct3D 10], GetVertexShader method [Direct3D 10],ID3D10EffectShaderVariable interface, ID3D10EffectShaderVariable interface [Direct3D 10],GetVertexShader method, ID3D10EffectShaderVariable.GetVertexShader, ID3D10EffectShaderVariable::GetVertexShader, d3d10effect/ID3D10EffectShaderVariable::GetVertexShader, d42282c4-3590-3201-8fd7-e13e4054fb34, direct3d10.id3d10effectshadervariable_getvertexshader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10EffectShaderVariable.GetVertexShader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10EffectShaderVariable::GetVertexShader

@@ -4,17 +4,16 @@ title: IDCompositionDevice::WaitForCommitCompletion
 author: windows-sdk-content
 description: Waits for the composition engine to finish processing the previous call to the IDCompositionDevice::Commit method.
 old-location: directcomp\idcompositiondevice_waitforcommitcompletion.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: C921AC68-492C-4E29-876C-8857D5475B1D
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionDevice interface [DirectComposition],WaitForCommitCompletion method, IDCompositionDevice.WaitForCommitCompletion, IDCompositionDevice::WaitForCommitCompletion, WaitForCommitCompletion, WaitForCommitCompletion method [DirectComposition], WaitForCommitCompletion method [DirectComposition],IDCompositionDevice interface, dcomp/IDCompositionDevice::WaitForCommitCompletion, directcomp.idcompositiondevice_waitforcommitcompletion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice.WaitForCommitCompletion
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice::WaitForCommitCompletion

@@ -4,17 +4,16 @@ title: IInstallationJob::get_Updates
 author: windows-sdk-content
 description: Gets an interface that contains a read-only collection of the updates that are specified in the installation or uninstallation.
 old-location: wua\iinstallationjob_updates.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: f6a21db3-1182-4650-8502-814db88cbacb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IInstallationJob interface [Windows Update Agent],Updates property, IInstallationJob.Updates, IInstallationJob.get_Updates, IInstallationJob::Updates, IInstallationJob::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IInstallationJob interface, get_Updates, wua.iinstallationjob_updates, wuapi/IInstallationJob::Updates, wuapi/IInstallationJob::get_Updates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInstallationJob.get_Updates
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IInstallationJob::get_Updates

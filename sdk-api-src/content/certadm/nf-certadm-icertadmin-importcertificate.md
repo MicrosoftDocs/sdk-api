@@ -4,17 +4,16 @@ title: ICertAdmin::ImportCertificate
 author: windows-sdk-content
 description: Takes a previously issued certificate and imports it to the certification authority's (CA) database. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_importcertificate.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: b79a726e-5823-468b-869d-382e6fd73b44
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertAdmin object [Security],ImportCertificate method, CR_IN_BASE64, CR_IN_BASE64HEADER, CR_IN_BINARY, ICertAdmin interface [Security],ImportCertificate method, ICertAdmin.ImportCertificate, ICertAdmin2 interface [Security],ImportCertificate method, ICertAdmin2::ImportCertificate, ICertAdmin::ImportCertificate, ImportCertificate, ImportCertificate method [Security], ImportCertificate method [Security],CCertAdmin object, ImportCertificate method [Security],ICertAdmin interface, ImportCertificate method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::ImportCertificate, certadm/ICertAdmin::ImportCertificate, security.icertadmin2_importcertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertAdmin.ImportCertificate
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertAdmin::ImportCertificate
@@ -121,7 +120,7 @@ Binary format.
 
 ### -param pRequestId
 
-
+TBD
 
 
 

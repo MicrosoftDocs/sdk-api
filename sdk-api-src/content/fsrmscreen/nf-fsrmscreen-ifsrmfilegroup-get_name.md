@@ -4,17 +4,16 @@ title: IFsrmFileGroup::get_Name
 author: windows-sdk-content
 description: Retrieves or sets the name of the file group.
 old-location: fsrm\ifsrmfilegroup_name.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 46baa451-21d5-4a03-a437-483f9bcc2812
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileGroup interface [File Server Resource Manager],Name property, IFsrmFileGroup.Name, IFsrmFileGroup.get_Name, IFsrmFileGroup::Name, IFsrmFileGroup::get_Name, IFsrmFileGroup::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmFileGroup interface, fs.ifsrmfilegroup_name, fsrm.ifsrmfilegroup_name, fsrmscreen/IFsrmFileGroup::Name, fsrmscreen/IFsrmFileGroup::get_Name, fsrmscreen/IFsrmFileGroup::put_Name, get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileGroup.put_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileGroup::get_Name

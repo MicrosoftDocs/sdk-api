@@ -4,17 +4,16 @@ title: ITAgentSession::get_ACDGroup
 author: windows-sdk-content
 description: The get_ACDGroup method gets the ACD group associated with this session.
 old-location: tapi3\itagentsession_get_acdgroup.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ec80092d-ceff-432c-ba0a-695718b890af
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_ACDGroup method, ITAgentSession.get_ACDGroup, ITAgentSession::get_ACDGroup, _tapi3_itagentsession_get_acdgroup, get_ACDGroup, get_ACDGroup method [TAPI 2.2], get_ACDGroup method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_acdgroup, tapi3cc/ITAgentSession::get_ACDGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentSession.get_ACDGroup
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentSession::get_ACDGroup

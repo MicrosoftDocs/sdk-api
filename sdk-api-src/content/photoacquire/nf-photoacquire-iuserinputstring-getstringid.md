@@ -4,17 +4,16 @@ title: IUserInputString::GetStringId
 author: windows-sdk-content
 description: The GetStringId method retrieves the unlocalized canonical name for the requested string. For example, when requesting a tag name, the canonical name might be &#0034;TagName&#0034;.
 old-location: picacq\iuserinputstring_getstringid.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 29c4b592-fa6a-4f9b-a390-e8bc0928a26d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetStringId, GetStringId method [Picture Acquisition], GetStringId method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetStringId method, IUserInputString.GetStringId, IUserInputString::GetStringId, IUserInputStringGetStringId, photoacquire/IUserInputString::GetStringId, picacq.iuserinputstring_getstringid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUserInputString.GetStringId
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IUserInputString::GetStringId

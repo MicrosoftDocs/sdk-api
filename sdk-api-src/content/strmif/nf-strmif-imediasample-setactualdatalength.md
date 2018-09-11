@@ -4,17 +4,16 @@ title: IMediaSample::SetActualDataLength
 author: windows-sdk-content
 description: The SetActualDataLength method sets the length of the valid data in the buffer.
 old-location: dshow\imediasample_setactualdatalength.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: db8a768e-7550-4165-8f87-308ec7f2e07f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaSample interface [DirectShow],SetActualDataLength method, IMediaSample.SetActualDataLength, IMediaSample::SetActualDataLength, IMediaSampleSetActualDataLength, SetActualDataLength, SetActualDataLength method [DirectShow], SetActualDataLength method [DirectShow],IMediaSample interface, dshow.imediasample_setactualdatalength, strmif/IMediaSample::SetActualDataLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaSample.SetActualDataLength
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaSample::SetActualDataLength
@@ -66,7 +64,7 @@ The <code>SetActualDataLength</code> method sets the length of the valid data in
 
 ### -param __MIDL__IMediaSample0000
 
-
+TBD
 
 
 

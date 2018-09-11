@@ -4,17 +4,16 @@ title: ICatInformation::IsClassOfCategories
 author: windows-sdk-content
 description: Determines whether a class implements one or more categories.
 old-location: com\icatinformation_isclassofcategories.htm
-old-project: com
+tech.root: com
 ms.assetid: 772d4d75-2076-4922-bf47-2e6e41a5687d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICatInformation interface [COM],IsClassOfCategories method, ICatInformation.IsClassOfCategories, ICatInformation::IsClassOfCategories, IsClassOfCategories, IsClassOfCategories method [COM], IsClassOfCategories method [COM],ICatInformation interface, _com_icatinformation_isclassofcategories, com.icatinformation_isclassofcategories, comcat/ICatInformation::IsClassOfCategories
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerInformation, *PServerInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICatInformation.IsClassOfCategories
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatInformation::IsClassOfCategories

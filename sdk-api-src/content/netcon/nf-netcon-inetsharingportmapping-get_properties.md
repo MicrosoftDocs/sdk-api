@@ -4,17 +4,16 @@ title: INetSharingPortMapping::get_Properties
 author: windows-sdk-content
 description: The get_Properties method retrieves the properties for a port mapping.
 old-location: ics\inetsharingportmapping_get_properties.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 3cfc27a4-fe43-4e47-b857-7c80e8ee0dd5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingPortMapping interface [ICS/ICF],get_Properties method, INetSharingPortMapping.get_Properties, INetSharingPortMapping::get_Properties, _ics_inetsharingportmapping_get_properties, get_Properties, get_Properties method [ICS/ICF], get_Properties method [ICS/ICF],INetSharingPortMapping interface, ics.inetsharingportmapping_get_properties, netcon/INetSharingPortMapping::get_Properties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingPortMapping.get_Properties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingPortMapping::get_Properties
@@ -65,7 +63,7 @@ The
 
 ### -param ppNSPMP
 
-
+TBD
 
 
 

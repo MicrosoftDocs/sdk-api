@@ -4,7 +4,7 @@ title: "_MCAST_CLIENT_UID"
 author: windows-sdk-content
 description: The MCAST_CLIENT_UID structure describes the unique client identifier for each multicast request.
 old-location: madcap\mcast_client_uid.htm
-old-project: madcap
+tech.root: madcap
 ms.assetid: 6460ea80-f1b1-4939-a977-580d0db10fd0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: madcapcl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MCAST_CLIENT_UID, *LPMCAST_CLIENT_UID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCAST_CLIENT_UID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MCAST_CLIENT_UID, *LPMCAST_CLIENT_UID
+req.redist: 
 ---
 
 # _MCAST_CLIENT_UID structure

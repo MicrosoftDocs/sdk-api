@@ -4,17 +4,16 @@ title: IWICMetadataHandlerInfo::DoesSupportPadding
 author: windows-sdk-content
 description: Determines if the metadata handler supports padding.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_doessupportpadding.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 93f4e77a-52e3-47c7-9c48-9d38a2c8ceba
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DoesSupportPadding, DoesSupportPadding method [Windows Imaging Component], DoesSupportPadding method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],DoesSupportPadding method, IWICMetadataHandlerInfo.DoesSupportPadding, IWICMetadataHandlerInfo::DoesSupportPadding, _wic_codec_iwicmetadatahandlerinfo_doessupportpadding, wic._wic_codec_iwicmetadatahandlerinfo_doessupportpadding, wincodecsdk/IWICMetadataHandlerInfo::DoesSupportPadding
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICMetadataHandlerInfo.DoesSupportPadding
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICMetadataHandlerInfo::DoesSupportPadding

@@ -4,7 +4,7 @@ title: drt_search_info_tag
 author: windows-sdk-content
 description: DRT_SEARCH_INFO structure represents a search query issued with DrtStartSearch.
 old-location: p2p\drt_search_info.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: a3f12d8a-95ef-4168-8d2d-c317ae2c57b4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_SEARCH_INFO, *PDRT_SEARCH_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRT_SEARCH_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRT_SEARCH_INFO, *PDRT_SEARCH_INFO
+req.redist: 
 ---
 
 # drt_search_info_tag structure

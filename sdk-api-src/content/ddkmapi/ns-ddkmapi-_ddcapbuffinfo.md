@@ -4,7 +4,7 @@ title: "_DDCAPBUFFINFO"
 author: windows-sdk-content
 description: The DDCAPBUFFINFO structure contains the capture information.
 old-location: display\ddcapbuffinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 8286c433-2183-4751-be8a-30cb9cd9146d
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDCAPBUFFINFO, *LPDDCAPBUFFINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDCAPBUFFINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDCAPBUFFINFO, *LPDDCAPBUFFINFO
+req.redist: 
 ---
 
 # _DDCAPBUFFINFO structure

@@ -4,17 +4,16 @@ title: ITextPara::GetSpaceAfter
 author: windows-sdk-content
 description: Retrieves the amount of vertical space below a paragraph.
 old-location: controls\ITextPara_GetSpaceAfter.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspaceafter.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSpaceAfter, GetSpaceAfter method [Windows Controls], GetSpaceAfter method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetSpaceAfter method, ITextPara.GetSpaceAfter, ITextPara::GetSpaceAfter, _win32_ITextPara_GetSpaceAfter, _win32_ITextPara_GetSpaceAfter_cpp, controls.ITextPara_GetSpaceAfter, controls._win32_ITextPara_GetSpaceAfter, tom/ITextPara::GetSpaceAfter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara.GetSpaceAfter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara::GetSpaceAfter

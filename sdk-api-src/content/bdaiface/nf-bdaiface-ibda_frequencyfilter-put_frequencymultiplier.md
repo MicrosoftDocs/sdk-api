@@ -4,17 +4,16 @@ title: IBDA_FrequencyFilter::put_FrequencyMultiplier
 author: windows-sdk-content
 description: The put_FrequencyMultiplier method specifies the frequency multiplier. The frequency multiplier determines the frequency units for the methods on this interface. The default value is 1000, meaning that frequencies are expressed in kilohertz (kHz).
 old-location: mstv\ibda_frequencyfilter_put_frequencymultiplier.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b67bd442-26cf-4104-906c-e9510b99ad90
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_FrequencyMultiplier method, IBDA_FrequencyFilter.put_FrequencyMultiplier, IBDA_FrequencyFilter::put_FrequencyMultiplier, IBDA_FrequencyFilterput_FrequencyMultiplier, bdaiface/IBDA_FrequencyFilter::put_FrequencyMultiplier, mstv.ibda_frequencyfilter_put_frequencymultiplier, put_FrequencyMultiplier, put_FrequencyMultiplier method [Microsoft TV Technologies], put_FrequencyMultiplier method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_FrequencyFilter.put_FrequencyMultiplier
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_FrequencyFilter::put_FrequencyMultiplier

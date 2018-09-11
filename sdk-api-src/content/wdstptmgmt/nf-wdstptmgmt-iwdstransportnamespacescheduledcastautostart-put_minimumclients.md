@@ -4,17 +4,16 @@ title: IWdsTransportNamespaceScheduledCastAutoStart::put_MinimumClients
 author: windows-sdk-content
 description: Retrieves or sets a condition that starts transmission automatically. Transmission starts if the number of applications that have joined sessions reaches the value of this property.
 old-location: wds\iwdstransportnamespacescheduledcastautostart_minimumclients.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 69d85955-ea9c-4274-a5dd-fb03a0e87586
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services],MinimumClients property, IWdsTransportNamespaceScheduledCastAutoStart.MinimumClients, IWdsTransportNamespaceScheduledCastAutoStart.put_MinimumClients, IWdsTransportNamespaceScheduledCastAutoStart::MinimumClients, IWdsTransportNamespaceScheduledCastAutoStart::get_MinimumClients, IWdsTransportNamespaceScheduledCastAutoStart::put_MinimumClients, MinimumClients property [Windows Deployment Services], MinimumClients property [Windows Deployment Services],IWdsTransportNamespaceScheduledCastAutoStart interface, put_MinimumClients, wds.iwdstransportnamespacescheduledcastautostart_minimumclients, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::MinimumClients, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::get_MinimumClients, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::put_MinimumClients
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWdsTransportNamespaceScheduledCastAutoStart.put_MinimumClients
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportNamespaceScheduledCastAutoStart::put_MinimumClients

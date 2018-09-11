@@ -4,17 +4,16 @@ title: DXVA2CreateDirect3DDeviceManager9 function
 author: windows-sdk-content
 description: Creates an instance of the Direct3D Device Manager.
 old-location: mf\dxva2createdirect3ddevicemanager9.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b06e9c68-80ee-4997-bcf7-f05879aa5776
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: DXVA2CreateDirect3DDeviceManager9, DXVA2CreateDirect3DDeviceManager9 function [Media Foundation], b06e9c68-80ee-4997-bcf7-f05879aa5776, dxva2api/DXVA2CreateDirect3DDeviceManager9, mf.dxva2createdirect3ddevicemanager9
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA2CreateDirect3DDeviceManager9
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DXVA2CreateDirect3DDeviceManager9 function

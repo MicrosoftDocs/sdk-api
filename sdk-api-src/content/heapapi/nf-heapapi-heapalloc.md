@@ -4,17 +4,16 @@ title: HeapAlloc function
 author: windows-sdk-content
 description: Allocates a block of memory from a heap. The allocated memory is not movable.
 old-location: base\heapalloc.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 9a176312-0312-4cc1-baf5-949b346d983e
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_ZERO_MEMORY, HeapAlloc, HeapAlloc function, _win32_heapalloc, base.heapalloc, heapapi/HeapAlloc, winbase/HeapAlloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - HeapAlloc
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HeapAlloc function

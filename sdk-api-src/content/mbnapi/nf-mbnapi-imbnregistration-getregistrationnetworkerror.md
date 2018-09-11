@@ -4,17 +4,16 @@ title: IMbnRegistration::GetRegistrationNetworkError
 author: windows-sdk-content
 description: Gets the network error from a registration operation.
 old-location: mbn\imbnregistration_getregistrationnetworkerror.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: b0e6df7a-7b47-4587-92c2-f01fd96e768f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetRegistrationNetworkError, GetRegistrationNetworkError method [Microsoft Broadband Networks], GetRegistrationNetworkError method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRegistrationNetworkError method, IMbnRegistration.GetRegistrationNetworkError, IMbnRegistration::GetRegistrationNetworkError, mbn.imbnregistration_getregistrationnetworkerror, mbnapi/IMbnRegistration::GetRegistrationNetworkError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnRegistration.GetRegistrationNetworkError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnRegistration::GetRegistrationNetworkError

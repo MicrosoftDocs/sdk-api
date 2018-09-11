@@ -4,17 +4,16 @@ title: IDsDisplaySpecifier::GetFriendlyClassName
 author: windows-sdk-content
 description: The IDsDisplaySpecifier::GetFriendlyClassName method retrieves the localized name for an object class.
 old-location: ad\idsdisplayspecifier_getfriendlyclassname.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 192e2a57-6bde-4357-893e-37f466588b55
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFriendlyClassName, GetFriendlyClassName method [Active Directory], GetFriendlyClassName method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetFriendlyClassName method, IDsDisplaySpecifier.GetFriendlyClassName, IDsDisplaySpecifier::GetFriendlyClassName, _glines_idsdisplayspecifier_getfriendlyclassname, ad.idsdisplayspecifier__getfriendlyclassname, ad.idsdisplayspecifier_getfriendlyclassname, dsclient/IDsDisplaySpecifier::GetFriendlyClassName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: Dsadmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsDisplaySpecifier.GetFriendlyClassName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dsadmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsDisplaySpecifier::GetFriendlyClassName

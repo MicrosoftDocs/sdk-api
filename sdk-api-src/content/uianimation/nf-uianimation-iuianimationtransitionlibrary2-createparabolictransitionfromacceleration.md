@@ -4,17 +4,16 @@ title: IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration
 author: windows-sdk-content
 description: Creates a parabolic-acceleration scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createparabolictransitionfromacceleration.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: C2005144-CA40-4835-8AFA-7E87AE99867F
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateParabolicTransitionFromAcceleration, CreateParabolicTransitionFromAcceleration method [Windows Animation], CreateParabolicTransitionFromAcceleration method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateParabolicTransitionFromAcceleration method, IUIAnimationTransitionLibrary2.CreateParabolicTransitionFromAcceleration, IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration, uianimation.iuianimationtransitionlibrary2_createparabolictransitionfromacceleration, uianimation/IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTransitionLibrary2.CreateParabolicTransitionFromAcceleration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration

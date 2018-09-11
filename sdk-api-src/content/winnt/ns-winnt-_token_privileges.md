@@ -4,17 +4,16 @@ title: "_TOKEN_PRIVILEGES"
 author: windows-sdk-content
 description: Contains information about a set of privileges for an access token.
 old-location: security\token_privileges.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: c9016511-740f-44f3-92ed-17cc518c6612
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTOKEN_PRIVILEGES, PTOKEN_PRIVILEGES, PTOKEN_PRIVILEGES structure pointer [Security], SE_PRIVILEGE_ENABLED, SE_PRIVILEGE_ENABLED_BY_DEFAULT, SE_PRIVILEGE_REMOVED, SE_PRIVILEGE_USED_FOR_ACCESS, TOKEN_PRIVILEGES, TOKEN_PRIVILEGES structure [Security], _TOKEN_PRIVILEGES, _win32_token_privileges_str, security.token_privileges, winnt/PTOKEN_PRIVILEGES, winnt/TOKEN_PRIVILEGES"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKEN_PRIVILEGES, *PTOKEN_PRIVILEGES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKEN_PRIVILEGES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TOKEN_PRIVILEGES, *PTOKEN_PRIVILEGES
+req.redist: 
 ---
 
 # _TOKEN_PRIVILEGES structure

@@ -4,17 +4,16 @@ title: ICameraControl::get_TiltRelative
 author: windows-sdk-content
 description: This topic applies only to Windows XP Service Pack 2 and later.
 old-location: dshow\icameracontrol_get_tiltrelative.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e8730043-a506-4c74-a9ca-94d6e003a4b1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICameraControl interface [DirectShow],get_TiltRelative method, ICameraControl.get_TiltRelative, ICameraControl::get_TiltRelative, ICameraControlget_TiltRelative, dshow.icameracontrol_get_tiltrelative, get_TiltRelative, get_TiltRelative method [DirectShow], get_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_TiltRelative
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICameraControl.get_TiltRelative
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraControl::get_TiltRelative

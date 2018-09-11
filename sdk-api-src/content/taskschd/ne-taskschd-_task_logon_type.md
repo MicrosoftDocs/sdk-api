@@ -4,17 +4,16 @@ title: "_TASK_LOGON_TYPE"
 author: windows-sdk-content
 description: Defines what logon technique is required to run a task.
 old-location: taskschd\task_logon_type.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 93952769-6076-4e71-9ea4-d7e7c3c908d8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TASK_LOGON_GROUP, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, TASK_LOGON_NONE, TASK_LOGON_PASSWORD, TASK_LOGON_S4U, TASK_LOGON_SERVICE_ACCOUNT, TASK_LOGON_TYPE, TASK_LOGON_TYPE enumeration [Task Scheduler], _TASK_LOGON_TYPE, taskschd.task_logon_type, taskschd/TASK_LOGON_GROUP, taskschd/TASK_LOGON_INTERACTIVE_TOKEN, taskschd/TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, taskschd/TASK_LOGON_NONE, taskschd/TASK_LOGON_PASSWORD, taskschd/TASK_LOGON_S4U, taskschd/TASK_LOGON_SERVICE_ACCOUNT, taskschd/TASK_LOGON_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_LOGON_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TASK_LOGON_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TASK_LOGON_TYPE
+req.redist: 
 ---
 
 # _TASK_LOGON_TYPE enumeration

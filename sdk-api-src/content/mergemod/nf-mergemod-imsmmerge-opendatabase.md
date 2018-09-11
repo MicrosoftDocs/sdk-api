@@ -4,17 +4,16 @@ title: IMsmMerge::OpenDatabase
 author: windows-sdk-content
 description: The OpenDatabase method opens a Windows Installer installation database, located at a specified path, that is to be merged with a module. For more information, see the OpenDatabase method of the Merge object.
 old-location: setup\imsmmerge_opendatabase.htm
-old-project: msi
+tech.root: msi
 ms.assetid: cafe02a0-2e86-43f6-9cde-e3dd23bdfc4c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMsmMerge interface,OpenDatabase method, IMsmMerge.OpenDatabase, IMsmMerge::OpenDatabase, OpenDatabase, OpenDatabase method, OpenDatabase method,IMsmMerge interface, _msi_opendatabase_function, mergemod/IMsmMerge::OpenDatabase, setup.imsmmerge_opendatabase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 1.0 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMsmMerge.OpenDatabase
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mergemod.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMsmMerge::OpenDatabase

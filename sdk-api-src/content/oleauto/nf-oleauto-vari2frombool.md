@@ -4,17 +4,16 @@ title: VarI2FromBool function
 author: windows-sdk-content
 description: Converts a Boolean value to a short value.
 old-location: automat\vari2frombool.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 34d95e98-ea21-411b-bd68-ad7be135778f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarI2FromBool, VarI2FromBool function [Automation], _oa96_VarI2FromBool, automat.vari2frombool, oleauto/VarI2FromBool
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarI2FromBool
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarI2FromBool function

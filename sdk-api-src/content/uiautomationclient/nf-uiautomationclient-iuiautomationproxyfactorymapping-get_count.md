@@ -4,17 +4,16 @@ title: IUIAutomationProxyFactoryMapping::get_Count
 author: windows-sdk-content
 description: Retrieves the number of entries in the proxy factory table.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_Count.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: f8a9aa80-edc2-4160-b246-e3be75ff5942
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Count property [Windows Accessibility], Count property [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],Count property, IUIAutomationProxyFactoryMapping.Count, IUIAutomationProxyFactoryMapping.get_Count, IUIAutomationProxyFactoryMapping::Count, IUIAutomationProxyFactoryMapping::get_Count, get_Count, uiauto.uiauto_IUIAutomationProxyFactoryMapping_Count, uiauto_IUIAutomationProxyFactoryMapping_Count, uiautomationclient/IUIAutomationProxyFactoryMapping::Count, uiautomationclient/IUIAutomationProxyFactoryMapping::get_Count, winauto.uiauto_IUIAutomationProxyFactoryMapping_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationProxyFactoryMapping.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationProxyFactoryMapping::get_Count

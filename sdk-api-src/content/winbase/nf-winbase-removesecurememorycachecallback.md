@@ -4,17 +4,16 @@ title: RemoveSecureMemoryCacheCallback function
 author: windows-sdk-content
 description: Unregisters a callback function that was previously registered with the AddSecureMemoryCacheCallback function.
 old-location: base\removesecurememorycachecallback.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 8be6ff04-34c7-4942-a38c-507584c8bbeb
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: RemoveSecureMemoryCacheCallback, RemoveSecureMemoryCacheCallback function, base.removesecurememorycachecallback, winbase/RemoveSecureMemoryCacheCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RemoveSecureMemoryCacheCallback
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # RemoveSecureMemoryCacheCallback function

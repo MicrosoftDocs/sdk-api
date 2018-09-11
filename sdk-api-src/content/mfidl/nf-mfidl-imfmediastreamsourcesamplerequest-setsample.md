@@ -4,17 +4,16 @@ title: IMFMediaStreamSourceSampleRequest::SetSample
 author: windows-sdk-content
 description: Sets the sample for the media stream source.
 old-location: mf\imfmediastreamsourcesamplerequest_setsample.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: a35c5e18-f307-4e40-bc92-f91aa9eb80ba
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaStreamSourceSampleRequest interface [Media Foundation],SetSample method, IMFMediaStreamSourceSampleRequest.SetSample, IMFMediaStreamSourceSampleRequest::SetSample, SetSample, SetSample method [Media Foundation], SetSample method [Media Foundation],IMFMediaStreamSourceSampleRequest interface, mf.imfmediastreamsourcesamplerequest_setsample, mfidl/IMFMediaStreamSourceSampleRequest::SetSample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaStreamSourceSampleRequest.SetSample
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaStreamSourceSampleRequest::SetSample

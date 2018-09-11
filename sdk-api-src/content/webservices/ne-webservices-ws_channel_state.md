@@ -4,17 +4,16 @@ title: WS_CHANNEL_STATE
 author: windows-sdk-content
 description: The different states that a channel can be in.
 old-location: wsw\ws_channel_state.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 3a7f5bbd-e484-4a7e-8e5d-df229a7227a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_CHANNEL_STATE, WS_CHANNEL_STATE enumeration [Web Services for Windows], WS_CHANNEL_STATE_ACCEPTING, WS_CHANNEL_STATE_CLOSED, WS_CHANNEL_STATE_CLOSING, WS_CHANNEL_STATE_CREATED, WS_CHANNEL_STATE_FAULTED, WS_CHANNEL_STATE_OPEN, WS_CHANNEL_STATE_OPENING, webservices/WS_CHANNEL_STATE, webservices/WS_CHANNEL_STATE_ACCEPTING, webservices/WS_CHANNEL_STATE_CLOSED, webservices/WS_CHANNEL_STATE_CLOSING, webservices/WS_CHANNEL_STATE_CREATED, webservices/WS_CHANNEL_STATE_FAULTED, webservices/WS_CHANNEL_STATE_OPEN, webservices/WS_CHANNEL_STATE_OPENING, wsw.ws_channel_state
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_CHANNEL_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_CHANNEL_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_CHANNEL_STATE
+req.redist: 
 ---
 
 # WS_CHANNEL_STATE enumeration

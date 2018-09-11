@@ -4,7 +4,7 @@ title: IComprehensiveSpellCheckProvider
 author: windows-sdk-content
 description: Allows the provider to optionally support a more comprehensive spell checking functionality.
 old-location: intl\icomprehensivespellcheckprovider.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 303EE887-DCF0-4575-A45F-5A4088DE8F7B
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: spellcheckprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComprehensiveSpellCheckProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IComprehensiveSpellCheckProvider interface

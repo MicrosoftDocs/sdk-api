@@ -4,17 +4,16 @@ title: IEventPublisher::PutDefaultProperty
 author: windows-sdk-content
 description: Writes a named property and its value to the property bag associated with the event publisher.
 old-location: com\ieventpublisher_putdefaultproperty.htm
-old-project: com
+tech.root: com
 ms.assetid: 418f1c16-1b21-4023-b0fc-6e9082b8264e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEventPublisher interface [COM],PutDefaultProperty method, IEventPublisher.PutDefaultProperty, IEventPublisher::PutDefaultProperty, PutDefaultProperty, PutDefaultProperty method [COM], PutDefaultProperty method [COM],IEventPublisher interface, _com_ieventpublisher_putdefaultproperty, com.ieventpublisher_putdefaultproperty, eventsys/IEventPublisher::PutDefaultProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventPublisher.PutDefaultProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventPublisher::PutDefaultProperty

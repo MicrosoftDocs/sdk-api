@@ -4,17 +4,16 @@ title: MagSetInputTransform function
 author: windows-sdk-content
 description: Sets the current active input transformation for pen and touch input, represented as a source rectangle and a destination rectangle.
 old-location: magapi\magapi_magsetinputtransform.htm
-old-project: magapi
+tech.root: magapi
 ms.assetid: B42B59DB-9E21-4769-B605-014173514AEB
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MagSetInputTransform, MagSetInputTransform function [Magnification API], magapi.magapi_magsetinputtransform, magnification/MagSetInputTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: magnification.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MCAST_SCOPE_ENTRY, *PMCAST_SCOPE_ENTRY
+req.lib: Magnification.lib
+req.dll: Magnification.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MagSetInputTransform
 product: Windows
 targetos: Windows
-req.lib: Magnification.lib
-req.dll: Magnification.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MagSetInputTransform function

@@ -4,17 +4,16 @@ title: ITextServices::TxQueryHitPoint
 author: windows-sdk-content
 description: Tests whether a specified point is within the rectangle of the text services object.
 old-location: controls\ITextServices_TxQueryHitPoint.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txqueryhitpoint.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, ITextServices interface [Windows Controls],TxQueryHitPoint method, ITextServices.TxQueryHitPoint, ITextServices::TxQueryHitPoint, TXTHITRESULT_CLOSE, TXTHITRESULT_HIT, TXTHITRESULT_NOHIT, TXTHITRESULT_TRANSPARENT, TxQueryHitPoint, TxQueryHitPoint method [Windows Controls], TxQueryHitPoint method [Windows Controls],ITextServices interface, _win32_ITextServices_TxQueryHitPoint, _win32_ITextServices_TxQueryHitPoint_cpp, controls.ITextServices_TxQueryHitPoint, controls._win32_ITextServices_TxQueryHitPoint, textserv/ITextServices::TxQueryHitPoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextServices.TxQueryHitPoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextServices::TxQueryHitPoint

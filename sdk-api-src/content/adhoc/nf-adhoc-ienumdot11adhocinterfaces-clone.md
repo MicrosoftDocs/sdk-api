@@ -4,17 +4,16 @@ title: IEnumDot11AdHocInterfaces::Clone
 author: windows-sdk-content
 description: Creates a new enumeration interface.
 old-location: nwifi\ienumdot11adhocinterfaces_clone.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 3169ff1e-1994-4dd9-920d-c3f270f17b1c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [NativeWIFI], Clone method [NativeWIFI],IEnumDot11AdHocInterfaces interface, IEnumDot11AdHocInterfaces interface [NativeWIFI],Clone method, IEnumDot11AdHocInterfaces.Clone, IEnumDot11AdHocInterfaces::Clone, adhoc/IEnumDot11AdHocInterfaces::Clone, nwifi.ienumdot11adhocinterfaces_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumDot11AdHocInterfaces.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumDot11AdHocInterfaces::Clone

@@ -4,17 +4,16 @@ title: IReferenceTrackerHost::xaml
 author: windows-sdk-content
 description: Informs the host of increased memory allocations since the last notification. The CLR uses this to inform the algorithm that determines when to run a garbage collection.
 old-location: winrt\ireferencetrackerhost_addmemorypressure.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 1e04381c-49b2-436b-9e92-ec13b88e42f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddMemoryPressure, AddMemoryPressure method [Windows Runtime], AddMemoryPressure method [Windows Runtime],IReferenceTrackerHost interface, IReferenceTrackerHost interface [Windows Runtime],AddMemoryPressure method, IReferenceTrackerHost.AddMemoryPressure, IReferenceTrackerHost.xaml, IReferenceTrackerHost::AddMemoryPressure, IReferenceTrackerHost::xaml, windows/IReferenceTrackerHost::AddMemoryPressure, winrt.ireferencetrackerhost_addmemorypressure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IReferenceTrackerHost.AddMemoryPressure
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IReferenceTrackerHost::xaml
@@ -64,7 +62,7 @@ The CLR uses this to inform the algorithm that determines when to run a garbage 
 
 ### -param bytesAllocated
 
-
+TBD
 
 
 

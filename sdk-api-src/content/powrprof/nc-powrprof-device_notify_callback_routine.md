@@ -4,7 +4,7 @@ title: DEVICE_NOTIFY_CALLBACK_ROUTINE
 author: windows-sdk-content
 description: An application's DeviceNotifyCallbackRoutine callback function is used for receiving power notifications.
 old-location: base\device_notify_callback_routine.htm
-old-project: power
+tech.root: power
 ms.assetid: 5734FDEE-E330-4115-AFA5-725114023A5A
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEVICE_NOTIFY_CALLBACK_ROUTINE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DEVICE_NOTIFY_CALLBACK_ROUTINE callback function

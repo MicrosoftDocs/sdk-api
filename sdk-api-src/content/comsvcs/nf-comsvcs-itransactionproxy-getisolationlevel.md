@@ -4,17 +4,16 @@ title: ITransactionProxy::GetIsolationLevel
 author: windows-sdk-content
 description: Retrieves the isolation level of the non-DTC transaction.
 old-location: cos\itransactionproxy_getisolationlevel.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: a2b0e99a-0d35-4103-b7a0-407d09a2746e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetIsolationLevel, GetIsolationLevel method [COM+], GetIsolationLevel method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],GetIsolationLevel method, ITransactionProxy.GetIsolationLevel, ITransactionProxy::GetIsolationLevel, comsvcs/ITransactionProxy::GetIsolationLevel, cos.itransactionproxy_getisolationlevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITransactionProxy.GetIsolationLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITransactionProxy::GetIsolationLevel
@@ -61,7 +60,7 @@ Retrieves the isolation level of the non-DTC transaction.
 
 ### -param __MIDL__ITransactionProxy0000
 
-
+TBD
 
 
 

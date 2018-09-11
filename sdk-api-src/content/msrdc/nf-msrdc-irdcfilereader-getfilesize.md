@@ -4,17 +4,16 @@ title: IRdcFileReader::GetFileSize
 author: windows-sdk-content
 description: Returns the size of a file.
 old-location: rdc\irdcfilereader_getfilesize.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 2db66eb0-7213-446a-ad4b-f0df9e48abd4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetFileSize, GetFileSize method [Remote Differential Compression], GetFileSize method [Remote Differential Compression],IRdcFileReader interface, IRdcFileReader interface [Remote Differential Compression],GetFileSize method, IRdcFileReader.GetFileSize, IRdcFileReader::GetFileSize, fs.irdcfilereader_getfilesize, msrdc/IRdcFileReader::GetFileSize, rdc.irdcfilereader_getfilesize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsRdc.dll
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcFileReader.GetFileSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcFileReader::GetFileSize

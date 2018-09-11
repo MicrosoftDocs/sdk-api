@@ -4,7 +4,7 @@ title: JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 author: windows-sdk-content
 description: Specifies types of scheduling policies for network rate control.
 old-location: base\job_object_net_rate_control_flags.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: D1AD3722-1A15-4BCA-8F0A-6E32A078959A
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: JOB_OBJECT_NET_RATE_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: JOB_OBJECT_NET_RATE_CONTROL_FLAGS
+req.redist: 
 ---
 
 # JOB_OBJECT_NET_RATE_CONTROL_FLAGS enumeration

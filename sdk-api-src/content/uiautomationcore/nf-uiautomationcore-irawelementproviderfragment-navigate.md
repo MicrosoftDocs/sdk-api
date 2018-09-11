@@ -4,17 +4,16 @@ title: IRawElementProviderFragment::Navigate
 author: windows-sdk-content
 description: Retrieves the Microsoft UI Automation element in a specified direction within the UI Automation tree.
 old-location: winauto\uiauto_IRawElementProviderFragment_Navigate.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9e0caf58-a261-4a2b-8e48-368ea3ad8840
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRawElementProviderFragment interface [Windows Accessibility],Navigate method, IRawElementProviderFragment.Navigate, IRawElementProviderFragment::Navigate, Navigate, Navigate method [Windows Accessibility], Navigate method [Windows Accessibility],IRawElementProviderFragment interface, uiauto.uiauto_IRawElementProviderFragment_Navigate, uiauto_IRawElementProviderFragment_Navigate, uiautomationcore/IRawElementProviderFragment::Navigate, winauto.uiauto_IRawElementProviderFragment_Navigate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawElementProviderFragment.Navigate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRawElementProviderFragment::Navigate
@@ -60,9 +58,9 @@ Retrieves the Microsoft UI Automation element in a specified direction within th
 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param pRetVal [out, retval]

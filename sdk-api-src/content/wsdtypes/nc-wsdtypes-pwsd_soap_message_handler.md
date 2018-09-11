@@ -4,17 +4,16 @@ title: PWSD_SOAP_MESSAGE_HANDLER
 author: windows-sdk-content
 description: References a SOAP message handler for incoming messages.
 old-location: ncd\pwsd_soap_message_handler_func.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 175d4352-ba85-4c3c-be9f-4612c4b66123
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PWSD_SOAP_MESSAGE_HANDLER, PWSD_SOAP_MESSAGE_HANDLER callback, PWSD_SOAP_MESSAGE_HANDLER callback function, callback function pointer, ncd.pwsd_soap_message_handler_func, wsdtypes/PWSD_SOAP_MESSAGE_HANDLER
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PWSD_SOAP_MESSAGE_HANDLER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # PWSD_SOAP_MESSAGE_HANDLER callback function

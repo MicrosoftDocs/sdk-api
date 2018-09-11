@@ -4,17 +4,16 @@ title: "_VDS_LUN_INFORMATION"
 author: windows-sdk-content
 description: Defines information about a LUN or disk. Applications can use this structure to uniquely identify a LUN at all times.
 old-location: base\vds_lun_information.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_LUN_INFORMATION, VDS_LUN_INFORMATION structure [VDS], _VDS_LUN_INFORMATION, base.vds_lun_information, vdslun/_VDS_LUN_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_LUN_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_LUN_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_LUN_INFORMATION
+req.redist: 
 ---
 
 # _VDS_LUN_INFORMATION structure

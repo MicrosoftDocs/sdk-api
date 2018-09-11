@@ -4,17 +4,16 @@ title: "_VDS_ISCSI_LOGIN_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid types for logging into an iSCSI target.
 old-location: base\vds_iscsi_login_type.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: d40db9ab-6fa5-4efb-83e8-ce1dce5fe0c2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_ILT_BOOT, VDS_ILT_MANUAL, VDS_ILT_PERSISTENT, VDS_ISCSI_LOGIN_TYPE, VDS_ISCSI_LOGIN_TYPE enumeration [VDS], _VDS_ISCSI_LOGIN_TYPE, base.vds_iscsi_login_type, vds/VDS_ILT_BOOT, vds/VDS_ILT_MANUAL, vds/VDS_ILT_PERSISTENT, vds/VDS_ISCSI_LOGIN_TYPE, vdshwprv/VDS_ILT_BOOT, vdshwprv/VDS_ILT_MANUAL, vdshwprv/VDS_ILT_PERSISTENT, vdshwprv/VDS_ISCSI_LOGIN_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_ISCSI_LOGIN_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_ISCSI_LOGIN_TYPE
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_ISCSI_LOGIN_TYPE
+req.redist: VDS 1.1
 ---
 
 # _VDS_ISCSI_LOGIN_TYPE enumeration

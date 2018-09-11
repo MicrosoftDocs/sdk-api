@@ -4,7 +4,7 @@ title: "_CERTIFICATE_BLOB"
 author: windows-sdk-content
 description: Contains a certificate.
 old-location: fs\efs_certificate_blob_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: e0d0aa0a-ac87-4734-93d0-30c2080319e8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winefs.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EFS_CERTIFICATE_BLOB, *PEFS_CERTIFICATE_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EFS_CERTIFICATE_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EFS_CERTIFICATE_BLOB, *PEFS_CERTIFICATE_BLOB
+req.redist: 
 ---
 
 # _CERTIFICATE_BLOB structure

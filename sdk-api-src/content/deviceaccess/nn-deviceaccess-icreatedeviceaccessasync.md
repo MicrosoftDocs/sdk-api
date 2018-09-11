@@ -4,7 +4,7 @@ title: ICreateDeviceAccessAsync
 author: windows-sdk-content
 description: The ICreateDeviceAccessAsync interface is returned from a call to CreateDeviceAccessInstance.
 old-location: deviceaccess\icreatedeviceaccessasync.htm
-old-project: deviceaccess
+tech.root: deviceaccess
 ms.assetid: ebc8d694-c933-4d98-95f5-67b0dd733d4d
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: deviceaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOMEMORYINFO
+req.lib: Deviceaccess.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICreateDeviceAccessAsync
 product: Windows
 targetos: Windows
-req.lib: Deviceaccess.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateDeviceAccessAsync interface

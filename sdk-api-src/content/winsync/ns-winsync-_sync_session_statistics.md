@@ -4,17 +4,16 @@ title: "_SYNC_SESSION_STATISTICS"
 author: windows-sdk-content
 description: Represents statistics about a single, unidirectional synchronization session.
 old-location: winsync\sync_session_statistics.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: e6d1fe9e-6cf2-414a-9be6-b444af2c7525
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: SYNC_SESSION_STATISTICS, SYNC_SESSION_STATISTICS structure [Windows Sync], _SYNC_SESSION_STATISTICS, winsync.sync_session_statistics, winsync/SYNC_SESSION_STATISTICS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_SESSION_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNC_SESSION_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SYNC_SESSION_STATISTICS
+req.redist: 
 ---
 
 # _SYNC_SESSION_STATISTICS structure

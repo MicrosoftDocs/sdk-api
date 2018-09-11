@@ -4,17 +4,16 @@ title: "_WSD_SECURITY_SIGNATURE_VALIDATION"
 author: windows-sdk-content
 description: Represents the criteria for matching client compact signatures against messages.
 old-location: ncd\wsd_security_signature_validation.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: e2913f85-a5e7-43c9-a23c-81d836c9a259
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWSD_SECURITY_SIGNATURE_VALIDATION, WSD_SECURITY_SIGNATURE_VALIDATION, WSD_SECURITY_SIGNATURE_VALIDATION structure, _WSD_SECURITY_SIGNATURE_VALIDATION, ncd.wsd_security_signature_validation, wsdbase/WSD_SECURITY_SIGNATURE_VALIDATION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdbase.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_SECURITY_SIGNATURE_VALIDATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.redist: 
 ---
 
 # _WSD_SECURITY_SIGNATURE_VALIDATION structure

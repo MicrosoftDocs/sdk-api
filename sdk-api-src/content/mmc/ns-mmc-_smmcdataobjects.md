@@ -4,7 +4,7 @@ title: "_SMMCDataObjects"
 author: windows-sdk-content
 description: The SMMCDataObjects structure defines the format of the data for the CCF_MULTI_SELECT_SNAPINS clipboard format.
 old-location: mmc\smmcdataobjects.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 4bbfc32e-b70b-4c47-a7b5-6ec2692d1df4
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SMMCDataObjects
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SMMCDataObjects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SMMCDataObjects
+req.redist: 
 ---
 
 # _SMMCDataObjects structure

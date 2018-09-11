@@ -4,7 +4,7 @@ title: "_ads_sortkey"
 author: windows-sdk-content
 description: The ADS_SORTKEY structure specifies how to sort a query.
 old-location: adsi\ads_sortkey.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: e4fe499a-4f81-4b92-bf50-b4124ae6e4a3
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SORTKEY, *PADS_SORTKEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_SORTKEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_SORTKEY, *PADS_SORTKEY
+req.redist: 
 ---
 
 # _ads_sortkey structure

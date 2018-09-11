@@ -4,17 +4,16 @@ title: IDeviceIoControl::DeviceIoControlSync
 author: windows-sdk-content
 description: The DeviceIoControlSync method sends a synchronous device input/output (I/O) control request to the device interface that the call to the CreateDeviceAccessInstance function specified.
 old-location: deviceaccess\ideviceiocontrol_deviceiocontrolsync.htm
-old-project: deviceaccess
+tech.root: deviceaccess
 ms.assetid: 7b17ab14-e9bb-40be-a463-ca9031ba9bb3
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: DeviceIoControlSync, DeviceIoControlSync method [Device Access Broker API], DeviceIoControlSync method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],DeviceIoControlSync method, IDeviceIoControl.DeviceIoControlSync, IDeviceIoControl::DeviceIoControlSync, deviceaccess.ideviceiocontrol_deviceiocontrolsync, deviceaccess/IDeviceIoControl::DeviceIoControlSync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: deviceaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOMEMORYINFO
+req.lib: Deviceaccess.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDeviceIoControl.DeviceIoControlSync
 product: Windows
 targetos: Windows
-req.lib: Deviceaccess.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceIoControl::DeviceIoControlSync

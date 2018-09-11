@@ -4,17 +4,16 @@ title: ID3D10Counter
 author: windows-sdk-content
 description: This interface encapsulates methods for measuring GPU performance.
 old-location: direct3d10\id3d10counter.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10counter.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 004d04e1-a54d-6c89-c551-db2d30d9d7e9, ID3D10Counter, ID3D10Counter interface [Direct3D 10], ID3D10Counter interface [Direct3D 10],described, d3d10/ID3D10Counter, direct3d10.id3d10counter
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_USAGE
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D10Counter
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Counter interface

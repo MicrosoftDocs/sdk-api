@@ -4,17 +4,16 @@ title: IFsrmClassificationManager::CreatePropertyDefinition
 author: windows-sdk-content
 description: Creates a property definition.
 old-location: fsrm\ifsrmclassificationmanager_createpropertydefinition.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 92c6198b-08b6-4ea6-b8de-1a21acd235d1
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CreatePropertyDefinition, CreatePropertyDefinition method [File Server Resource Manager], CreatePropertyDefinition method [File Server Resource Manager],FsrmClassificationManager class, CreatePropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, CreatePropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],CreatePropertyDefinition method, IFsrmClassificationManager interface [File Server Resource Manager],CreatePropertyDefinition method, IFsrmClassificationManager.CreatePropertyDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],CreatePropertyDefinition method, IFsrmClassificationManager2::CreatePropertyDefinition, IFsrmClassificationManager::CreatePropertyDefinition, fs.ifsrmclassificationmanager_createpropertydefinition, fsrm.ifsrmclassificationmanager_createpropertydefinition, fsrmpipeline/IFsrmClassificationManager2::CreatePropertyDefinition, fsrmpipeline/IFsrmClassificationManager::CreatePropertyDefinition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmClassificationManager.CreatePropertyDefinition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationManager::CreatePropertyDefinition

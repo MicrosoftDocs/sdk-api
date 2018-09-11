@@ -4,17 +4,16 @@ title: ITRequestEvent::get_DestAddress
 author: windows-sdk-content
 description: The get_DestAddress method gets the destination address.
 old-location: tapi3\itrequestevent_get_destaddress.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b3cf5a48-6d9f-4c66-91eb-c18a29d71ff9
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_DestAddress method, ITRequestEvent.get_DestAddress, ITRequestEvent::get_DestAddress, _tapi3_itrequestevent_get_destaddress, get_DestAddress, get_DestAddress method [TAPI 2.2], get_DestAddress method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_destaddress, tapi3if/ITRequestEvent::get_DestAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITRequestEvent.get_DestAddress
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITRequestEvent::get_DestAddress

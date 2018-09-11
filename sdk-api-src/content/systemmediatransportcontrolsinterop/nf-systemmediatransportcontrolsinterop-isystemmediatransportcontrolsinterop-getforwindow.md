@@ -4,17 +4,16 @@ title: ISystemMediaTransportControlsInterop::GetForWindow
 author: windows-sdk-content
 description: Gets an instance of the ISystemMediaTransportControls interface for the specified window.
 old-location: mediatransport\isystemmediatransportcontrolsinterop_getforwindow.htm
-old-project: mediatransport
+tech.root: mediatransport
 ms.assetid: 7E878C3B-4CE9-4DED-8082-8E37266FE8AF
 ms.author: windowssdkdev
 ms.date: 06/05/2018
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface,GetForWindow method, ISystemMediaTransportControlsInterop.GetForWindow, ISystemMediaTransportControlsInterop::GetForWindow, mediatransport.isystemmediatransportcontrolsinterop_getforwindow, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop::GetForWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: systemmediatransportcontrolsinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_INFO, *LPSYSTEM_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISystemMediaTransportControlsInterop.GetForWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISystemMediaTransportControlsInterop::GetForWindow

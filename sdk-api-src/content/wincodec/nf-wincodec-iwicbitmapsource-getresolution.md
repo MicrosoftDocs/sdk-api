@@ -4,17 +4,16 @@ title: IWICBitmapSource::GetResolution
 author: windows-sdk-content
 description: Retrieves the sampling rate between pixels and physical world measurements.
 old-location: wic\_wic_codec_iwicbitmapsource_getresolution.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 49241ed1-1036-4f88-9116-4727de883b3e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetResolution, GetResolution method [Windows Imaging Component], GetResolution method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],GetResolution method, IWICBitmapSource.GetResolution, IWICBitmapSource::GetResolution, _wic_codec_iwicbitmapsource_getresolution, wic._wic_codec_iwicbitmapsource_getresolution, wincodec/IWICBitmapSource::GetResolution
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapSource.GetResolution
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapSource::GetResolution

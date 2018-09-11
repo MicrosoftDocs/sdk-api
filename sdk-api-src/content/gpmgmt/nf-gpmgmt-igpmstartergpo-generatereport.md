@@ -4,17 +4,16 @@ title: IGPMStarterGPO::GenerateReport
 author: windows-sdk-content
 description: Gets the report for the Starter GPO.
 old-location: gpmc\igpmstartergpo_generatereport.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 127cde40-abe0-42da-9845-2fe1c0b1f1f1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],GenerateReport method, IGPMStarterGPO.GenerateReport, IGPMStarterGPO::GenerateReport, gpmc.igpmstartergpo_generatereport, gpmgmt/IGPMStarterGPO::GenerateReport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPMStarterGPO.GenerateReport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMStarterGPO::GenerateReport

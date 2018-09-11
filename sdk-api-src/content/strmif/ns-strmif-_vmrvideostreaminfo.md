@@ -4,7 +4,7 @@ title: "_VMRVIDEOSTREAMINFO"
 author: windows-sdk-content
 description: This topic applies to Windows XP or later. The VMRVIDEOSTREAMINFO structure is used in the VMR-7 filter's call to IVMRImageCompositor::CompositeImage on the image compositor.
 old-location: dshow\vmrvideostreaminfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1425b3aa-f419-49ee-b262-d8d215466a2c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMRVIDEOSTREAMINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMRVIDEOSTREAMINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: VMRVIDEOSTREAMINFO
+req.redist: 
 ---
 
 # _VMRVIDEOSTREAMINFO structure

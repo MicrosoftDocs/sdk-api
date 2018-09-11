@@ -4,17 +4,16 @@ title: WlanGetNetworkBssList function
 author: windows-sdk-content
 description: Retrieves a list of the basic service set (BSS) entries of the wireless network or networks on a given wireless LAN interface.
 old-location: nwifi\wlangetnetworkbsslist.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 62f51b6e-3db1-48cd-8853-0dbe522c5e82
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WlanGetNetworkBssList, WlanGetNetworkBssList function [NativeWIFI], dot11_BSS_type_any, dot11_BSS_type_independent, dot11_BSS_type_infrastructure, nwifi.wlangetnetworkbsslist, wlanapi/WlanGetNetworkBssList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WlanGetNetworkBssList
 product: Windows
 targetos: Windows
-req.lib: Wlanapi.lib
-req.dll: Wlanapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WlanGetNetworkBssList function

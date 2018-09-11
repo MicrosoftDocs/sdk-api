@@ -4,17 +4,16 @@ title: OnDemandGetRoutingHint function
 author: windows-sdk-content
 description: The OnDemandGetRoutingHint function looks up a destination in the Route Request cache and, if a match is found, return the corresponding Interface ID.
 old-location: nla\ondemandgetroutinghint.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 6B98416F-A196-4015-836B-D6D649CCA9B1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: OnDemandGetRoutingHint, OnDemandGetRoutingHint function [Network Awareness], nla.ondemandgetroutinghint, ondemandconnroutehelper/OnDemandGetRoutingHint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ondemandconnroutehelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEVERB, *LPOLEVERB
+req.lib: OnDemandConnRouteHelper.lib
+req.dll: OnDemandConnRouteHelper.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OnDemandGetRoutingHint
 product: Windows
 targetos: Windows
-req.lib: OnDemandConnRouteHelper.lib
-req.dll: OnDemandConnRouteHelper.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OnDemandGetRoutingHint function

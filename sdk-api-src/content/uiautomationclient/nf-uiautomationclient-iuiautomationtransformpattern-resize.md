@@ -4,17 +4,16 @@ title: IUIAutomationTransformPattern::Resize
 author: windows-sdk-content
 description: Resizes the UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_Resize.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: af5611ef-d14c-44c2-8065-7c7581a16198
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Resize method, IUIAutomationTransformPattern.Resize, IUIAutomationTransformPattern::Resize, Resize, Resize method [Windows Accessibility], Resize method [Windows Accessibility],IUIAutomationTransformPattern interface, uiauto.uiauto_IUIAutomationTransformPattern_Resize, uiauto_IUIAutomationTransformPattern_Resize, uiautomationclient/IUIAutomationTransformPattern::Resize, winauto.uiauto_IUIAutomationTransformPattern_Resize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTransformPattern.Resize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTransformPattern::Resize

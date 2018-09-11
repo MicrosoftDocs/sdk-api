@@ -4,17 +4,16 @@ title: IUpdateInstaller::put_Updates
 author: windows-sdk-content
 description: Gets and sets an interface that contains a read-only collection of the updates that are specified for installation or uninstallation.
 old-location: wua\iupdateinstaller_updates.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: f56121fd-f8ba-48b5-840b-1a5a751e1a70
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],Updates property, IUpdateInstaller.Updates, IUpdateInstaller.put_Updates, IUpdateInstaller::Updates, IUpdateInstaller::get_Updates, IUpdateInstaller::put_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IUpdateInstaller interface, put_Updates, wua.iupdateinstaller_updates, wuapi/IUpdateInstaller::Updates, wuapi/IUpdateInstaller::get_Updates, wuapi/IUpdateInstaller::put_Updates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IUpdateInstaller.put_Updates
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateInstaller::put_Updates

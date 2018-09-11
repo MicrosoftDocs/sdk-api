@@ -4,17 +4,16 @@ title: ISyncProviderConfigUI::Init
 author: windows-sdk-content
 description: Initializes the configuration UI for a synchronization provider.
 old-location: winsync\isyncproviderconfigui_init.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: c4705bc9-c5ab-46f9-ace8-7e96c16dfb75
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISyncProviderConfigUI interface [Windows Sync],Init method, ISyncProviderConfigUI.Init, ISyncProviderConfigUI::Init, Init, Init method [Windows Sync], Init method [Windows Sync],ISyncProviderConfigUI interface, syncregistration/ISyncProviderConfigUI::Init, winsync.isyncproviderconfigui_init
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncProviderConfigUI.Init
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncProviderConfigUI::Init

@@ -4,17 +4,16 @@ title: D3D10_DEPTH_WRITE_MASK
 author: windows-sdk-content
 description: Identify the portion of a depth-stencil buffer for writing depth data.
 old-location: direct3d10\d3d10_depth_write_mask.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_depth_write_mask.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 162f8cd0-c67e-c41d-f881-5fc9f9ce501c, D3D10_DEPTH_WRITE_MASK, D3D10_DEPTH_WRITE_MASK enumeration [Direct3D 10], D3D10_DEPTH_WRITE_MASK_ALL, D3D10_DEPTH_WRITE_MASK_ZERO, d3d10/D3D10_DEPTH_WRITE_MASK, d3d10/D3D10_DEPTH_WRITE_MASK_ALL, d3d10/D3D10_DEPTH_WRITE_MASK_ZERO, direct3d10.d3d10_depth_write_mask
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEPTH_WRITE_MASK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_DEPTH_WRITE_MASK
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D3D10_DEPTH_WRITE_MASK
+req.redist: 
 ---
 
 # D3D10_DEPTH_WRITE_MASK enumeration

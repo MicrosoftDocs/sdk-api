@@ -4,17 +4,16 @@ title: ISettingsEngine::GetErrorDescription
 author: windows-sdk-content
 description: Retrieves a text message for a returned HRESULT code.
 old-location: smi\isettingsengine_geterrordescription.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: 1a1ac3eb-c2d5-4a23-928e-51ef1a52ad73
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetErrorDescription, GetErrorDescription method [SMI], GetErrorDescription method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetErrorDescription method, ISettingsEngine.GetErrorDescription, ISettingsEngine::GetErrorDescription, smi.isettingsengine_geterrordescription, wcmconfig/ISettingsEngine::GetErrorDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsEngine.GetErrorDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsEngine::GetErrorDescription

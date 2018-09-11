@@ -4,17 +4,16 @@ title: IDeviceModelPlugIn::GetPrimarySamples
 author: windows-sdk-content
 description: Returns the measurement color for the primary sample.
 old-location: wcs\IDeviceModelPlugIn_GetPrimarySamples.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 46253246-e07c-4f55-92fa-91941abaefcd
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetPrimarySamples, GetPrimarySamples method [Windows Color System], GetPrimarySamples method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetPrimarySamples method, IDeviceModelPlugIn.GetPrimarySamples, IDeviceModelPlugIn::GetPrimarySamples, _color_IDeviceModelPlugIn::GetPrimarySamples, wcs.IDeviceModelPlugIn_GetPrimarySamples, wcsplugin/IDeviceModelPlugIn::GetPrimarySamples
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDeviceModelPlugIn.GetPrimarySamples
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceModelPlugIn::GetPrimarySamples

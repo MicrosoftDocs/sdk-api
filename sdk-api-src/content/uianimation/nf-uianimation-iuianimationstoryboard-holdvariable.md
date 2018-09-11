@@ -4,17 +4,16 @@ title: IUIAnimationStoryboard::HoldVariable
 author: windows-sdk-content
 description: Directs the storyboard to hold the specified animation variable at its final value until the storyboard ends.
 old-location: uianimation\iuianimationstoryboard_holdvariable.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: ac5ee9c0-cecb-41f1-b8d3-6f779dfafef7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: HoldVariable, HoldVariable method [Windows Animation], HoldVariable method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],HoldVariable method, IUIAnimationStoryboard.HoldVariable, IUIAnimationStoryboard::HoldVariable, uianimation.iuianimationstoryboard_holdvariable, uianimation/IUIAnimationStoryboard::HoldVariable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationStoryboard.HoldVariable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationStoryboard::HoldVariable

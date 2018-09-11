@@ -4,17 +4,16 @@ title: "_SERVER_INFO_1107"
 author: windows-sdk-content
 description: The SERVER_INFO_1107 structure specifies the number of users that can simultaneously log on to the specified server.
 old-location: netmgmt\server_info_1107_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 8e0b9157-5f06-4555-ab9e-b98b99e0f20d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVER_INFO_1107, *PSERVER_INFO_1107, LPSERVER_INFO_1107, LPSERVER_INFO_1107 structure pointer [Network Management], PSERVER_INFO_1107, PSERVER_INFO_1107 structure pointer [Network Management], SERVER_INFO_1107, SERVER_INFO_1107 structure [Network Management], _SERVER_INFO_1107, _win32_server_info_1107_str, lmserver/LPSERVER_INFO_1107, lmserver/PSERVER_INFO_1107, lmserver/SERVER_INFO_1107, netmgmt.server_info_1107_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_INFO_1107, *PSERVER_INFO_1107, *LPSERVER_INFO_1107
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVER_INFO_1107
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SERVER_INFO_1107, *PSERVER_INFO_1107, *LPSERVER_INFO_1107
+req.redist: 
 ---
 
 # _SERVER_INFO_1107 structure

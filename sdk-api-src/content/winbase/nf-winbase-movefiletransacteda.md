@@ -4,17 +4,16 @@ title: MoveFileTransactedA function
 author: windows-sdk-content
 description: Moves an existing file or a directory, including its children, as a transacted operation.
 old-location: fs\movefiletransacted.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 466d733b-30d2-4297-a0e6-77038f1a21d5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MOVEFILE_COPY_ALLOWED, MOVEFILE_CREATE_HARDLINK, MOVEFILE_DELAY_UNTIL_REBOOT, MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileTransacted, MoveFileTransacted function [Files], MoveFileTransactedA, MoveFileTransactedW, fs.movefiletransacted, rename file [Files], winbase/MoveFileTransacted, winbase/MoveFileTransactedA, winbase/MoveFileTransactedW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - MoveFileTransactedW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # MoveFileTransactedA function

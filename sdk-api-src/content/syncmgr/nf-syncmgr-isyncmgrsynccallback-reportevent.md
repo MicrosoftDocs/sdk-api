@@ -4,17 +4,16 @@ title: ISyncMgrSyncCallback::ReportEvent
 author: windows-sdk-content
 description: Provides an event to add to the Sync Results folder for an item being synchronized.
 old-location: shell\ISyncMgrSyncCallback_ReportEvent.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4c7d6627-1652-4920-9dce-a61673e6e656
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ReportEvent method, ISyncMgrSyncCallback.ReportEvent, ISyncMgrSyncCallback::ReportEvent, ReportEvent, ReportEvent method [Windows Shell], ReportEvent method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ReportEvent, shell.ISyncMgrSyncCallback_ReportEvent, syncmgr/ISyncMgrSyncCallback::ReportEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSyncCallback.ReportEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSyncCallback::ReportEvent

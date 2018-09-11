@@ -4,7 +4,7 @@ title: D3D12_STENCIL_OP
 author: windows-sdk-content
 description: Identifies the stencil operations that can be performed during depth-stencil testing.
 old-location: direct3d12\d3d12_stencil_op.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: E3527EA4-D931-49C7-B446-829B93A8A620
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_STENCIL_OP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_STENCIL_OP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_STENCIL_OP
+req.redist: 
 ---
 
 # D3D12_STENCIL_OP enumeration

@@ -4,17 +4,16 @@ title: IInkRecognizer2
 author: windows-sdk-content
 description: Adds members to the IInkWordList2 Interface.
 old-location: tablet\iinkrecognizer2.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 07a493a7-4ffc-403e-8f61-1bb8233c973e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 07a493a7-4ffc-403e-8f61-1bb8233c973e, IInkRecognizer2, IInkRecognizer2 interface [Tablet PC], IInkRecognizer2 interface [Tablet PC],described, msinkaut/IInkRecognizer2, tablet.iinkrecognizer2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkRecognizer2
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizer2 interface

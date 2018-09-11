@@ -4,17 +4,16 @@ title: IMoniker::Inverse
 author: windows-sdk-content
 description: Creates a moniker that is the inverse of this moniker. When composed to the right of this moniker or one of similar structure, the moniker will compose to nothing.
 old-location: com\imoniker_inverse.htm
-old-project: com
+tech.root: com
 ms.assetid: 351d5da3-043b-426a-99e9-9f882f552239
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMoniker interface [COM],Inverse method, IMoniker.Inverse, IMoniker::Inverse, Inverse, Inverse method [COM], Inverse method [COM],IMoniker interface, _com_imoniker_inverse, com.imoniker_inverse, objidl/IMoniker::Inverse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.Inverse
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::Inverse

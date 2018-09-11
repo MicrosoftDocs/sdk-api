@@ -4,17 +4,16 @@ title: EnableRouter function
 author: windows-sdk-content
 description: The EnableRouter function turns on IPv4 forwarding on the local computer. EnableRouter also increments a reference count that tracks the number of requests to enable IPv4 forwarding.
 old-location: iphlp\enablerouter.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 779f5840-d58d-4194-baa7-2c6a7aeb7d79
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: EnableRouter, EnableRouter function [IP Helper], _iphlp_enablerouter, iphlp.enablerouter, iphlpapi/EnableRouter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EnableRouter
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # EnableRouter function

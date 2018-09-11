@@ -4,7 +4,7 @@ title: "_MFVideoPadFlags"
 author: windows-sdk-content
 description: Specifies whether to pad a video image so that it fits within a specified aspect ratio.
 old-location: mf\mfvideopadflags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c68fdd6e-4fc9-4d70-91f0-dab70315ec21
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoPadFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFVideoPadFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFVideoPadFlags
+req.redist: 
 ---
 
 # _MFVideoPadFlags enumeration

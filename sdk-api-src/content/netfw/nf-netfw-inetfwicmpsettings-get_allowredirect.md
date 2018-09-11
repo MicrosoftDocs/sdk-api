@@ -4,17 +4,16 @@ title: INetFwIcmpSettings::get_AllowRedirect
 author: windows-sdk-content
 description: Indicates whether redirect is allowed.
 old-location: ics\inetfwicmpsettings_allowredirect.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 2d4d5e8c-8903-46f6-ba41-a7a00ac50312
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AllowRedirect property [ICS/ICF], AllowRedirect property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowRedirect property, INetFwIcmpSettings.AllowRedirect, INetFwIcmpSettings.get_AllowRedirect, INetFwIcmpSettings::AllowRedirect, INetFwIcmpSettings::get_AllowRedirect, INetFwIcmpSettings::put_AllowRedirect, get_AllowRedirect, ics.inetfwicmpsettings_allowredirect, netfw/INetFwIcmpSettings::AllowRedirect, netfw/INetFwIcmpSettings::get_AllowRedirect, netfw/INetFwIcmpSettings::put_AllowRedirect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwIcmpSettings.put_AllowRedirect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwIcmpSettings::get_AllowRedirect

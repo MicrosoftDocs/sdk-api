@@ -4,17 +4,16 @@ title: DnsQueryConfig function
 author: windows-sdk-content
 description: The DnsQueryConfig function enables application programmers to query for the configuration of the local computer or a specific adapter.
 old-location: dns\dnsqueryconfig.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 83de7df8-7e89-42fe-b609-1dc173afc9df
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DnsQueryConfig, DnsQueryConfig function [DNS], _dns_dnsqueryconfig, dns.dnsqueryconfig, windns/DnsQueryConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_FREE_TYPE
+req.lib: Dnsapi.lib
+req.dll: Dnsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DnsQueryConfig
 product: Windows
 targetos: Windows
-req.lib: Dnsapi.lib
-req.dll: Dnsapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DnsQueryConfig function

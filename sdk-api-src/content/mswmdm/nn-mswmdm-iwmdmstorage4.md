@@ -4,17 +4,16 @@ title: IWMDMStorage4
 author: windows-sdk-content
 description: The IWMDMStorage4 interface extends IWMDMStorage3 by providing methods for retrieving a subset of available metadata for a storage, and for setting and retrieving a list of references to other storages.
 old-location: wmdm\iwmdmstorage4.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: ac80cc08-0ff0-48ee-b9c6-e094f803b751
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMStorage4, IWMDMStorage4 interface [windows Media Device Manager], IWMDMStorage4 interface [windows Media Device Manager],described, IWMDMStorage4Interface, mswmdm/IWMDMStorage4, wmdm.iwmdmstorage4
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMDMStorage4
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorage4 interface

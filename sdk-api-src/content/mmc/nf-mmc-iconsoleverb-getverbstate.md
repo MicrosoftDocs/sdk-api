@@ -4,17 +4,16 @@ title: IConsoleVerb::GetVerbState
 author: windows-sdk-content
 description: The GetVerbState method enables a snap-in to obtain a given verb's current state.
 old-location: mmc\iconsoleverb_getverbstate.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 86388a22-5156-45e9-a601-33b7c5ca15f3
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetVerbState, GetVerbState method [MMC], GetVerbState method [MMC],IConsoleVerb interface, IConsoleVerb interface [MMC],GetVerbState method, IConsoleVerb.GetVerbState, IConsoleVerb::GetVerbState, _slate_iconsoleverb_getverbstate, mmc.iconsoleverb_getverbstate, mmc/IConsoleVerb::GetVerbState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConsoleVerb.GetVerbState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConsoleVerb::GetVerbState

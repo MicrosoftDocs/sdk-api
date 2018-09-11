@@ -4,17 +4,16 @@ title: IAMDevMemoryControl::GetDevId
 author: windows-sdk-content
 description: Note  The IAMDevMemoryControl interface is deprecated. Retrieves the device ID of the on-board memory allocator.
 old-location: dshow\iamdevmemorycontrol_getdevid.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 398cc4b3-c025-4df4-8447-bd4599293dab
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDevId, GetDevId method [DirectShow], GetDevId method [DirectShow],IAMDevMemoryControl interface, IAMDevMemoryControl interface [DirectShow],GetDevId method, IAMDevMemoryControl.GetDevId, IAMDevMemoryControl::GetDevId, IAMDevMemoryControlGetDevId, dshow.iamdevmemorycontrol_getdevid, strmif/IAMDevMemoryControl::GetDevId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMDevMemoryControl.GetDevId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMDevMemoryControl::GetDevId

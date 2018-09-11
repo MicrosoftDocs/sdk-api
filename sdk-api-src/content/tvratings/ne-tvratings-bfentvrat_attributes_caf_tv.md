@@ -4,7 +4,7 @@ title: BfEnTvRat_Attributes_CAF_TV
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\bfentvrat_attributes_caf_tv.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f6d10852-f28e-492e-9687-d09cd132d06e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tvratings.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Tuner.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BfEnTvRat_Attributes_CAF_TV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BfEnTvRat_Attributes_CAF_TV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: BfEnTvRat_Attributes_CAF_TV
+req.redist: 
 ---
 
 # BfEnTvRat_Attributes_CAF_TV enumeration

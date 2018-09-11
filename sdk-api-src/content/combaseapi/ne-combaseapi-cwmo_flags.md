@@ -4,17 +4,16 @@ title: CWMO_FLAGS
 author: windows-sdk-content
 description: Provides flags for the CoWaitForMultipleObjects function.
 old-location: com\cwmo_flags.htm
-old-project: com
+tech.root: com
 ms.assetid: 5FE605A9-DE92-4CD9-9390-6C9F5189A7CB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
-ms.keywords: CWMO_DISPATCH_CALLS, CWMO_DISPATCH_WINDOW_MESSAGE, CWMO_FLAGS, CWMO_FLAGS enumeration [COM], com.cwmo_flags, combaseapi/CWMO_DISPATCH_CALLS, combaseapi/CWMO_DISPATCH_WINDOW_MESSAGE, combaseapi/CWMO_FLAGS
+ms.date: 08/29/2018
+ms.keywords: CWMO_DEFAULT, CWMO_DISPATCH_CALLS, CWMO_DISPATCH_WINDOW_MESSAGE, CWMO_FLAGS, CWMO_FLAGS enumeration [COM], com.cwmo_flags, combaseapi/CWMO_DEFAULT, combaseapi/CWMO_DISPATCH_CALLS, combaseapi/CWMO_DISPATCH_WINDOW_MESSAGE, combaseapi/CWMO_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: combaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ComAdmin.Idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CWMO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CWMO_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CWMO_FLAGS
+req.redist: 
 ---
 
 # CWMO_FLAGS enumeration
@@ -60,6 +59,8 @@ Provides flags for the <a href="https://msdn.microsoft.com/en-us/library/Hh40414
 
 
 ### -field CWMO_DEFAULT
+
+No call dispatch.
 
 
 ### -field CWMO_DISPATCH_CALLS

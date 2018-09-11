@@ -2,19 +2,18 @@
 UID: NF:faxcom.IFaxJob.get_QueueStatus
 title: IFaxJob::get_QueueStatus
 author: windows-sdk-content
-description: The QueueStatus property is a null-terminated string that describes the job queue status of the fax job.
-old-location: fax\_mfax_ifaxjob_get_queuestatus_vb.htm
-old-project: Fax
+description: The IFaxJob::get_QueueStatus property is a null-terminated string that describes the job queue status of the fax job.
+old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_queuestatus_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8mnn.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Deleting, Failed, FaxJob object [Fax Service],QueueStatus property, FaxJob.QueueStatus, IFaxJob.get_QueueStatus, IFaxJob::get_QueueStatus, In Progress, No Line, Paused, Pending, QueueStatus property [Fax Service], QueueStatus property [Fax Service],FaxJob object, Retries Exceeded, Retrying, _mfax_ifaxjob_get_queuestatus, fax._mfax_ifaxjob_get_queuestatus, fax._mfax_ifaxjob_get_queuestatus_vb, get_QueueStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Deleting, Failed, IFaxJob interface [Fax Service],QueueStatus property, IFaxJob.QueueStatus, IFaxJob.get_QueueStatus, IFaxJob::QueueStatus, IFaxJob::get_QueueStatus, In Progress, No Line, Paused, Pending, QueueStatus property [Fax Service], QueueStatus property [Fax Service],IFaxJob interface, Retries Exceeded, Retrying, _mfax_ifaxjob_get_queuestatus, fax._mfax_ifaxjob_get_queuestatus, fax._mfax_ifaxjob_mfax_ifaxjob_get_queuestatus_cpp, faxcom/IFaxJob::QueueStatus, faxcom/IFaxJob::get_QueueStatus, get_QueueStatus
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxJob.QueueStatus
+ - IFaxJob.QueueStatus
+ - IFaxJob.get_QueueStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxJob::get_QueueStatus
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>QueueStatus</b> property is a null-terminated string that describes the job queue status of the fax job.
+The <b>IFaxJob::get_QueueStatus</b> property is a null-terminated string that describes the job queue status of the fax job.
 
 This property is read-only.
 
@@ -66,7 +65,7 @@ This property is read-only.
 
 <div class="alert"><b>Note</b>  The <b>Deleting</b>, <b>Failed</b>, <b>Paused</b>, <b>No Line</b>, <b>Retrying</b>, and <b>Retries Exceeded</b> values are supported only in Windows XP with Service Pack 1 installed, and in Windows Server 2003.</div>
 <div> </div>
-<b>QueueStatus</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
+<b>IFaxJob::get_QueueStatus</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
 
 
@@ -81,10 +80,6 @@ This property is read-only.
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690298(v=VS.85).aspx">FaxJob</a>
 
 
 

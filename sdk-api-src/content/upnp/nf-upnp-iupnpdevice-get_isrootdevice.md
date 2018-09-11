@@ -4,17 +4,16 @@ title: IUPnPDevice::get_IsRootDevice
 author: windows-sdk-content
 description: The IsRootDevice property specifies whether the device is the topmost device in the device tree.
 old-location: upnp\iupnpdevice_isrootdevice.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 0416c4f0-1289-4e91-be34-23f8b80df5c3
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_IsRootDevice method, IUPnPDevice.get_IsRootDevice, IUPnPDevice::get_IsRootDevice, _upnp_iupnpdevice_isrootdevice, get_IsRootDevice, get_IsRootDevice method [UPnP APIs], get_IsRootDevice method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_isrootdevice, upnp/IUPnPDevice::get_IsRootDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDevice.get_IsRootDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevice::get_IsRootDevice

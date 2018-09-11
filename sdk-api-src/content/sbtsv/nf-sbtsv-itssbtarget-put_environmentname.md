@@ -4,17 +4,16 @@ title: ITsSbTarget::put_EnvironmentName
 author: windows-sdk-content
 description: Retrieves or specifies the name of the environment associated with the target.
 old-location: termserv\itssbtarget_environmentname.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 84a1b903-a836-4d8e-bde7-609f7f875d8f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnvironmentName property [Remote Desktop Services], EnvironmentName property [Remote Desktop Services],ITsSbTarget interface, EnvironmentName property [Remote Desktop Services],ITsSbTargetEx interface, ITsSbTarget interface [Remote Desktop Services],EnvironmentName property, ITsSbTarget.EnvironmentName, ITsSbTarget.put_EnvironmentName, ITsSbTarget::EnvironmentName, ITsSbTarget::get_EnvironmentName, ITsSbTarget::put_EnvironmentName, ITsSbTargetEx interface [Remote Desktop Services],EnvironmentName property, ITsSbTargetEx.EnvironmentName, ITsSbTargetEx::get_EnvironmentName, ITsSbTargetEx::put_EnvironmentName, put_EnvironmentName, sbtsv/ITsSbTarget::EnvironmentName, sbtsv/ITsSbTarget::get_EnvironmentName, sbtsv/ITsSbTarget::put_EnvironmentName, sbtsv/ITsSbTargetEx::EnvironmentName, sbtsv/ITsSbTargetEx::get_EnvironmentName, sbtsv/ITsSbTargetEx::put_EnvironmentName, termserv.itssbtarget_environmentname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - ITsSbTargetEx.put_EnvironmentName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTarget::put_EnvironmentName

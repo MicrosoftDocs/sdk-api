@@ -4,17 +4,16 @@ title: ISyncMgrConflictResolutionItems
 author: windows-sdk-content
 description: Exposes methods that get item info and item count.
 old-location: shell\ISyncMgrConflictResolutionItems.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5295ebe5-ec37-4070-80eb-5513b519a0c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrConflictResolutionItems, ISyncMgrConflictResolutionItems interface [Windows Shell], ISyncMgrConflictResolutionItems interface [Windows Shell],described, _shell_ISyncMgrConflictResolutionItems, shell.ISyncMgrConflictResolutionItems, syncmgr/ISyncMgrConflictResolutionItems
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrConflictResolutionItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrConflictResolutionItems interface

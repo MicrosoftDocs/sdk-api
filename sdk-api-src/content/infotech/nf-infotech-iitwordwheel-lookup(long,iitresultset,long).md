@@ -4,17 +4,16 @@ title: IITWordWheel::Lookup(LONG,IITResultSet,LONG)
 author: windows-sdk-content
 description: Looks up an entry and returns contents in a buffer.
 old-location: htmlhelp\iitwordwheel_lookup1.htm
-old-project: htmlhelp
+tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheellookupbuffer.htm
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IITWordWheel interface [HTML Help Workshop],Lookup method, IITWordWheel.Lookup, IITWordWheel.Lookup(LONG,IITResultSet,LONG), IITWordWheel::Lookup, IITWordWheel::Lookup(,LPVOID,DWORD), IITWordWheel::Lookup(LONG,IITResultSet,LONG), Lookup, Lookup method [HTML Help Workshop], Lookup method [HTML Help Workshop],IITWordWheel interface, htmlhelp.iitwordwheel_lookup1, infotech/IITWordWheel::Lookup, refIITWordWheelLookupBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IITWordWheel.Lookup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IITWordWheel::Lookup(LONG,IITResultSet,LONG)
@@ -71,12 +69,12 @@ Entry to look up.
 
 ### -param lpITResult
 
-
+TBD
 
 
 ### -param cEntries
 
-
+TBD
 
 
 

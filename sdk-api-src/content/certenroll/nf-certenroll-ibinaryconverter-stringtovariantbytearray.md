@@ -4,17 +4,16 @@ title: IBinaryConverter::StringToVariantByteArray
 author: windows-sdk-content
 description: Creates a byte array from a Unicode encoded string.
 old-location: security\ibinaryconverter_stringtovariantbytearray_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: b0d649f7-79a1-452c-a790-b6c05ccb84b0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBinaryConverter interface [Security],StringToVariantByteArray method, IBinaryConverter.StringToVariantByteArray, IBinaryConverter::StringToVariantByteArray, StringToVariantByteArray, StringToVariantByteArray method [Security], StringToVariantByteArray method [Security],IBinaryConverter interface, certenroll/IBinaryConverter::StringToVariantByteArray, security.ibinaryconverter_stringtovariantbytearray_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBinaryConverter.StringToVariantByteArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBinaryConverter::StringToVariantByteArray

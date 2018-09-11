@@ -4,17 +4,16 @@ title: IPreviousVersionsInfo::AreSnapshotsAvailable
 author: windows-sdk-content
 description: Queries for the availablilty of a Windows Server 2003 volume image recorded by the system at an earlier time.
 old-location: shell\IPreviousVersionsInfo_AreSnapshotsAvailable.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 03a0b218-4683-42b2-9080-9b92701dff1e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: AreSnapshotsAvailable, AreSnapshotsAvailable method [Windows Shell], AreSnapshotsAvailable method [Windows Shell],IPreviousVersionsInfo interface, FALSE, IPreviousVersionsInfo interface [Windows Shell],AreSnapshotsAvailable method, IPreviousVersionsInfo.AreSnapshotsAvailable, IPreviousVersionsInfo::AreSnapshotsAvailable, TRUE, _shell_IPreviousVersionsInfo_AreSnapshotsAvailable, shell.IPreviousVersionsInfo_AreSnapshotsAvailable, shobjidl/IPreviousVersionsInfo::AreSnapshotsAvailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Twext.dll (version 5.2 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPreviousVersionsInfo.AreSnapshotsAvailable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Twext.dll (version 5.2 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IPreviousVersionsInfo::AreSnapshotsAvailable

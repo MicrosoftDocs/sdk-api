@@ -4,17 +4,16 @@ title: IPortableDeviceCapabilities::GetSupportedFormatProperties
 author: windows-sdk-content
 description: The GetSupportedFormatProperties method retrieves the properties supported by objects of a specified format on the device.
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedformatproperties.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 34ea5f04-9cb8-49a2-8d49-14688383c4a6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSupportedFormatProperties, GetSupportedFormatProperties method [Windows Portable Devices SDK], GetSupportedFormatProperties method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedFormatProperties method, IPortableDeviceCapabilities.GetSupportedFormatProperties, IPortableDeviceCapabilities::GetSupportedFormatProperties, IPortableDeviceCapabilitiesGetSupportedFormatProperties, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedFormatProperties, wpdsdk.iportabledevicecapabilities_getsupportedformatproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceCapabilities.GetSupportedFormatProperties
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceCapabilities::GetSupportedFormatProperties

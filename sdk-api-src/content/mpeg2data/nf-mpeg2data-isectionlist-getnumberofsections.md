@@ -4,17 +4,16 @@ title: ISectionList::GetNumberOfSections
 author: windows-sdk-content
 description: The GetNumberOfSections method returns the number of MPEG-2 sections that were received.
 old-location: mstv\isectionlist_getnumberofsections.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 4b9e3383-7b84-4c4e-87cf-8e3a37d3b81b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetNumberOfSections, GetNumberOfSections method [Microsoft TV Technologies], GetNumberOfSections method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetNumberOfSections method, ISectionList.GetNumberOfSections, ISectionList::GetNumberOfSections, ISectionListGetNumberOfSections, mpeg2data/ISectionList::GetNumberOfSections, mstv.isectionlist_getnumberofsections
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2data.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISectionList.GetNumberOfSections
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISectionList::GetNumberOfSections

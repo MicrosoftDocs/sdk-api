@@ -4,17 +4,16 @@ title: IHolder::Close
 author: windows-sdk-content
 description: Closes the Holder.
 old-location: cos\iholder_close.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: c8aac9b4-04d7-46a7-9b77-5f7d9d6a2ac3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Close, Close method [COM+], Close method [COM+],IHolder interface, IHolder interface [COM+],Close method, IHolder.Close, IHolder::Close, _dtc_IHolder_Close, comsvcs/IHolder::Close, cos.iholder_close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IHolder.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IHolder::Close

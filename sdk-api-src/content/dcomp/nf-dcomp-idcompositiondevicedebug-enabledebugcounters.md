@@ -4,17 +4,16 @@ title: IDCompositionDeviceDebug::EnableDebugCounters
 author: windows-sdk-content
 description: Enables display of performance debugging counters.
 old-location: directcomp\idcompositiondevicedebug_enabledebugcounters.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: AA0E913F-D89F-4AF1-91DE-B57D0C016DB7
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: EnableDebugCounters, EnableDebugCounters method [DirectComposition], EnableDebugCounters method [DirectComposition],IDCompositionDeviceDebug interface, IDCompositionDeviceDebug interface [DirectComposition],EnableDebugCounters method, IDCompositionDeviceDebug.EnableDebugCounters, IDCompositionDeviceDebug::EnableDebugCounters, dcomp/IDCompositionDeviceDebug::EnableDebugCounters, directcomp.idcompositiondevicedebug_enabledebugcounters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDeviceDebug.EnableDebugCounters
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDeviceDebug::EnableDebugCounters

@@ -4,17 +4,16 @@ title: IMFTopologyNode::CloneFrom
 author: windows-sdk-content
 description: Copies the data from another topology node into this node.
 old-location: mf\imftopologynode_clonefrom.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 90322fbc-e3de-4801-b10b-63ce538fc83f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 90322fbc-e3de-4801-b10b-63ce538fc83f, CloneFrom, CloneFrom method [Media Foundation], CloneFrom method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],CloneFrom method, IMFTopologyNode.CloneFrom, IMFTopologyNode::CloneFrom, mf.imftopologynode_clonefrom, mfidl/IMFTopologyNode::CloneFrom
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopologyNode.CloneFrom
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopologyNode::CloneFrom

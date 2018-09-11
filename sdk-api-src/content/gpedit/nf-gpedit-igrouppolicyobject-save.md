@@ -4,17 +4,16 @@ title: IGroupPolicyObject::Save
 author: windows-sdk-content
 description: The Save method saves the specified registry policy settings to disk and updates the revision number of the GPO.
 old-location: policy\igrouppolicyobject_save.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: e3713e5f-c710-48f7-8081-f2669c77449d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IGroupPolicyObject interface [Group Policy],Save method, IGroupPolicyObject.Save, IGroupPolicyObject::Save, Save, Save method [Group Policy], Save method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_save, gpedit/IGroupPolicyObject::Save, policy.igrouppolicyobject_save
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGroupPolicyObject.Save
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpedit.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGroupPolicyObject::Save

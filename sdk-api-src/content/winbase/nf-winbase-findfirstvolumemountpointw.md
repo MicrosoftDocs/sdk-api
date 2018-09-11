@@ -4,17 +4,16 @@ title: FindFirstVolumeMountPointW function
 author: windows-sdk-content
 description: Retrieves the name of a mounted folder on the specified volume.
 old-location: fs\findfirstvolumemountpoint.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 2ac3c22d-b8dd-43d8-a7af-877b54e42d9d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FindFirstVolumeMountPoint, FindFirstVolumeMountPoint function [Files], FindFirstVolumeMountPointA, FindFirstVolumeMountPointW, _win32_findfirstvolumemountpoint, base.findfirstvolumemountpoint, fs.findfirstvolumemountpoint, winbase/FindFirstVolumeMountPoint, winbase/FindFirstVolumeMountPointA, winbase/FindFirstVolumeMountPointW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - FindFirstVolumeMountPointW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FindFirstVolumeMountPointW function

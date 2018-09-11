@@ -4,17 +4,16 @@ title: ICatalogCollection::get_Item
 author: windows-sdk-content
 description: Retrieves the item that correspond to the specified index.
 old-location: cos\icatalogcollection_item.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 47c9dcfd-81fc-495c-848a-8c2b655e8fce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICatalogCollection interface [COM+],Item property, ICatalogCollection.Item, ICatalogCollection.get_Item, ICatalogCollection::Item, ICatalogCollection::get_Item, Item property [COM+], Item property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get_Item, comadmin/ICatalogCollection::Item, comadmin/ICatalogCollection::get_Item, cos.icatalogcollection_item, get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICatalogCollection.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatalogCollection::get_Item

@@ -4,17 +4,16 @@ title: TOKENBINDING_RESULT_LIST
 author: windows-sdk-content
 description: Contains the results for each of the token bindings that TokenBindingVerifyMessage verified.
 old-location: security\tokenbinding_result_list.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: D14CBEA3-5F46-4C45-8C11-407D6E70FD56
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TOKENBINDING_RESULT_LIST, TOKENBINDING_RESULT_LIST structure [Security], security.tokenbinding_result_list, tokenbinding/TOKENBINDING_RESULT_LIST
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: tokenbinding.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKENBINDING_RESULT_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKENBINDING_RESULT_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TOKENBINDING_RESULT_LIST
+req.redist: 
 ---
 
 # TOKENBINDING_RESULT_LIST structure

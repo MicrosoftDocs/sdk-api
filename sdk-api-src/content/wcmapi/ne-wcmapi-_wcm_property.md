@@ -4,17 +4,16 @@ title: "_WCM_PROPERTY"
 author: windows-sdk-content
 description: Specifies a property of a connection.
 old-location: wcm\wcm_property.htm
-old-project: wcm
+tech.root: wcm
 ms.assetid: 4cb5f7aa-2f06-4a8a-814d-f8e01b496fb9
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWCM_PROPERTY, PWCM_PROPERTY, PWCM_PROPERTY enumeration pointer [Windows Connection Manager], WCM_PROPERTY, WCM_PROPERTY enumeration [Windows Connection Manager], _WCM_PROPERTY, wcm.wcm_property, wcm_global_property_domain_policy, wcm_global_property_minimize_policy, wcm_global_property_powermanagement_policy, wcm_global_property_roaming_policy, wcm_intf_property_connection_cost, wcm_intf_property_dataplan_status, wcm_intf_property_hotspot_profile, wcmapi/PWCM_PROPERTY, wcmapi/WCM_PROPERTY, wcmapi/wcm_global_property_domain_policy, wcmapi/wcm_global_property_minimize_policy, wcmapi/wcm_global_property_powermanagement_policy, wcmapi/wcm_global_property_roaming_policy, wcmapi/wcm_intf_property_connection_cost, wcmapi/wcm_intf_property_dataplan_status, wcmapi/wcm_intf_property_hotspot_profile"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCM_PROPERTY, *PWCM_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCM_PROPERTY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCM_PROPERTY, *PWCM_PROPERTY
+req.redist: 
 ---
 
 # _WCM_PROPERTY enumeration

@@ -4,17 +4,16 @@ title: ITfContextOwnerCompositionSink::OnEndComposition
 author: windows-sdk-content
 description: ITfContextOwnerCompositionSink::OnEndComposition method
 old-location: tsf\itfcontextownercompositionsink_onendcomposition.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 816aaa81-1b51-4e01-b49c-a9cbe2b87735
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnEndComposition method, ITfContextOwnerCompositionSink.OnEndComposition, ITfContextOwnerCompositionSink::OnEndComposition, OnEndComposition, OnEndComposition method [Text Services Framework], OnEndComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onendcomposition_ref, msctf/ITfContextOwnerCompositionSink::OnEndComposition, tsf.itfcontextownercompositionsink_onendcomposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msimtf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfContextOwnerCompositionSink.OnEndComposition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msimtf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfContextOwnerCompositionSink::OnEndComposition

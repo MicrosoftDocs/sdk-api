@@ -4,17 +4,16 @@ title: tagHEAPLIST32
 author: windows-sdk-content
 description: Describes an entry from a list that enumerates the heaps used by a specified process.
 old-location: toolhelp\heaplist32_str.htm
-old-project: ToolHelp
+tech.root: ToolHelp
 ms.assetid: 61e01d23-9f15-44c5-9f6d-45df4809ccad
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPHEAPLIST32, *PHEAPLIST32, HEAPLIST32, HEAPLIST32 structure [ToolHelp], HF32_DEFAULT, PHEAPLIST32, PHEAPLIST32 structure pointer [ToolHelp], _win32_heaplist32_str, base.heaplist32_str, tagHEAPLIST32, tlhelp32/HEAPLIST32, tlhelp32/PHEAPLIST32, toolhelp.heaplist32_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: tlhelp32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HEAPLIST32
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HEAPLIST32
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: HEAPLIST32
+req.redist: 
 ---
 
 # tagHEAPLIST32 structure

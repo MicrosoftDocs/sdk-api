@@ -4,17 +4,16 @@ title: GetFileTitleW function
 author: windows-sdk-content
 description: Retrieves the name of the specified file.
 old-location: dlgbox\getfiletitle.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getfiletitle.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: GetFileTitle, GetFileTitle function [Dialog Boxes], GetFileTitleA, GetFileTitleW, _win32_GetFileTitle, _win32_getfiletitle_cpp, commdlg/GetFileTitle, commdlg/GetFileTitleA, commdlg/GetFileTitleW, dlgbox.getfiletitle, winui._win32_getfiletitle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commdlg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UDACCEL, *LPUDACCEL
+req.lib: Comdlg32.lib
+req.dll: Comdlg32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - GetFileTitleW
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Comdlg32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetFileTitleW function
@@ -61,11 +60,9 @@ Retrieves the name of the specified file.
 
 
 
-### -param param [in]
+### -param arg1
 
-Type: <b>LPCTSTR</b>
-
-The name and location of a file.
+TBD
 
 
 ### -param Buf [out]
@@ -81,6 +78,13 @@ Type: <b>WORD</b>
 
 The length, in 
 					characters, of the buffer pointed to by the <i>lpszTitle</i> parameter.
+
+
+#### - param [in]
+
+Type: <b>LPCTSTR</b>
+
+The name and location of a file.
 
 
 ## -returns

@@ -4,17 +4,16 @@ title: ITDirectory::get_DefaultObjectTTL
 author: windows-sdk-content
 description: The get_DefaultObjectTTL method gets the default time to live (TTL) value, in seconds, for objects created. Only applies to dynamic servers.
 old-location: tapi3\itdirectory_get_defaultobjectttl.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: f0a24ad9-0020-4f62-a0f2-071b9d251f79
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DefaultObjectTTL method, ITDirectory.get_DefaultObjectTTL, ITDirectory::get_DefaultObjectTTL, _tapi3_itdirectory_get_defaultobjectttl, get_DefaultObjectTTL, get_DefaultObjectTTL method [TAPI 2.2], get_DefaultObjectTTL method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DefaultObjectTTL, tapi3.itdirectory_get_defaultobjectttl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectory.get_DefaultObjectTTL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectory::get_DefaultObjectTTL

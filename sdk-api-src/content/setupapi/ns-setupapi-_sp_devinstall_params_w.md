@@ -4,17 +4,16 @@ title: "_SP_DEVINSTALL_PARAMS_W"
 author: windows-sdk-content
 description: An SP_DEVINSTALL_PARAMS structure contains device installation parameters associated with a particular device information element or associated globally with a device information set.
 old-location: devinst\sp_devinstall_params.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 1bd21150-f8f4-480d-a4b2-99fa4b4233b9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PSP_DEVINSTALL_PARAMS_W, PSP_DEVINSTALL_PARAMS, PSP_DEVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DEVINSTALL_PARAMS, SP_DEVINSTALL_PARAMS structure [Device and Driver Installation], SP_DEVINSTALL_PARAMS_W, _SP_DEVINSTALL_PARAMS_W, devinst.sp_devinstall_params, di-struct_ef7906d1-6416-41fc-8844-53f2f594a913.xml, setupapi/PSP_DEVINSTALL_PARAMS, setupapi/SP_DEVINSTALL_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_DEVINSTALL_PARAMS_W, *PSP_DEVINSTALL_PARAMS_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_DEVINSTALL_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_DEVINSTALL_PARAMS_W, *PSP_DEVINSTALL_PARAMS_W
+req.redist: 
 ---
 
 # _SP_DEVINSTALL_PARAMS_W structure

@@ -4,17 +4,16 @@ title: "_WS_SERVICE_METADATA_DOCUMENT"
 author: windows-sdk-content
 description: Specifies the individual documents that make up the service metadata.
 old-location: wsw\ws_service_metadata_document.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: d15fb735-9f82-4dd2-8586-f67999ab9727
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SERVICE_METADATA_DOCUMENT, WS_SERVICE_METADATA_DOCUMENT structure [Web Services for Windows], _WS_SERVICE_METADATA_DOCUMENT, webservices/WS_SERVICE_METADATA_DOCUMENT, wsw.ws_service_metadata_document
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SERVICE_METADATA_DOCUMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SERVICE_METADATA_DOCUMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SERVICE_METADATA_DOCUMENT
+req.redist: 
 ---
 
 # _WS_SERVICE_METADATA_DOCUMENT structure

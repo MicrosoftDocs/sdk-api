@@ -4,17 +4,16 @@ title: DLLGETVERSIONPROC
 author: windows-sdk-content
 description: Implemented by many of the Windows Shell DLLs to allow applications to obtain DLL-specific version information.
 old-location: shell\DllGetVersion.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d7ec0f7d-ba2f-4aa4-b867-a2615244a580
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DLLGETVERSIONPROC, DLLGETVERSIONPROC callback, DllGetVersion, DllGetVersion callback function [Windows Shell], _win32_DllGetVersion, _win32_DllGetVersion_cpp, shell.DllGetVersion, shlwapi/DllGetVersion
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WALLPAPEROPT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DllGetVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DLLGETVERSIONPROC callback function

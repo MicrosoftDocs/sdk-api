@@ -4,17 +4,16 @@ title: INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled
 author: windows-sdk-content
 description: Determines whether a specified group of firewall rules are enabled or disabled.
 old-location: ics\inetfwpolicy2_isrulegroupcurrentlyenabled.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 47a18291-398d-459f-b1e8-0bb7c8134e17
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],get_IsRuleGroupCurrentlyEnabled method, INetFwPolicy2.get_IsRuleGroupCurrentlyEnabled, INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled, get_IsRuleGroupCurrentlyEnabled, get_IsRuleGroupCurrentlyEnabled method [ICS/ICF], get_IsRuleGroupCurrentlyEnabled method [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_isrulegroupcurrentlyenabled, netfw/INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetFwPolicy2.get_IsRuleGroupCurrentlyEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled
@@ -67,7 +65,7 @@ A string that was used to group rules together.  It can be the group name or an 
 
 ### -param enabled
 
-
+TBD
 
 
 

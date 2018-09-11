@@ -4,17 +4,16 @@ title: CLUSTER_NETWORK_ENUM
 author: windows-sdk-content
 description: Describes the type of cluster object being enumerated by the ClusterNetworkEnum and ClusterNetworkOpenEnum functions.
 old-location: mscs\cluster_network_enum.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: f5b02ce2-92d0-4ae7-a5bb-8e5d9c987095
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_NETWORK_ENUM, CLUSTER_NETWORK_ENUM enumeration [Failover Cluster], CLUSTER_NETWORK_ENUM_ALL, CLUSTER_NETWORK_ENUM_NETINTERFACES, _CLUSTER_NETWORK_ENUM, _CLUSTER_NETWORK_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_NETWORK_ENUM, clusapi/CLUSTER_NETWORK_ENUM_ALL, clusapi/CLUSTER_NETWORK_ENUM_NETINTERFACES, clusapi/_CLUSTER_NETWORK_ENUM, msclus/CLUSTER_NETWORK_ENUM, msclus/CLUSTER_NETWORK_ENUM_ALL, msclus/CLUSTER_NETWORK_ENUM_NETINTERFACES, msclus/_CLUSTER_NETWORK_ENUM, mscs.cluster_network_enum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CluAdmEx.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_NETWORK_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_NETWORK_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_NETWORK_ENUM
+req.redist: 
 ---
 
 # CLUSTER_NETWORK_ENUM enumeration

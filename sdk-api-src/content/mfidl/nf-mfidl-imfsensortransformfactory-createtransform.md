@@ -4,17 +4,16 @@ title: IMFSensorTransformFactory::CreateTransform
 author: windows-sdk-content
 description: Called by the media pipeline to create the transform.
 old-location: mf\imfsensortransformfactory_createtransform.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 90F986B1-7E1A-43AC-A633-34DD9D53D634
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateTransform, CreateTransform method [Media Foundation], CreateTransform method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],CreateTransform method, IMFSensorTransformFactory.CreateTransform, IMFSensorTransformFactory::CreateTransform, mf.imfsensortransformfactory_createtransform, mfidl/IMFSensorTransformFactory::CreateTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorTransformFactory.CreateTransform
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorTransformFactory::CreateTransform
@@ -77,7 +75,7 @@ The identifier of the transform to be created.
 
 ### -param ppDeviceMFT
 
-
+TBD
 
 
 

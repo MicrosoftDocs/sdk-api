@@ -4,17 +4,16 @@ title: CoGetCurrentProcess function
 author: windows-sdk-content
 description: Returns a value that is unique to the current thread. CoGetCurrentProcess can be used to avoid thread ID reuse problems.
 old-location: com\cogetcurrentprocess.htm
-old-project: com
+tech.root: com
 ms.assetid: 46b0448f-f1c5-4da7-8489-bbd6d0fab79e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoGetCurrentProcess, CoGetCurrentProcess function [COM], _com_CoGetCurrentProcess, com.cogetcurrentprocess, combaseapi/CoGetCurrentProcess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - CoGetCurrentProcess
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoGetCurrentProcess function

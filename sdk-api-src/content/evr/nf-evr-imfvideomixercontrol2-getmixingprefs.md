@@ -4,17 +4,16 @@ title: IMFVideoMixerControl2::GetMixingPrefs
 author: windows-sdk-content
 description: Gets the current preferences for video deinterlacing.
 old-location: mf\imfvideomixercontrol2_getmixingprefs.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4ec03db2-9e7f-4a11-8d69-7654391a33d8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetMixingPrefs, GetMixingPrefs method [Media Foundation], GetMixingPrefs method [Media Foundation],IMFVideoMixerControl2 interface, IMFVideoMixerControl2 interface [Media Foundation],GetMixingPrefs method, IMFVideoMixerControl2.GetMixingPrefs, IMFVideoMixerControl2::GetMixingPrefs, evr/IMFVideoMixerControl2::GetMixingPrefs, mf.imfvideomixercontrol2_getmixingprefs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFVideoMixerControl2.GetMixingPrefs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoMixerControl2::GetMixingPrefs

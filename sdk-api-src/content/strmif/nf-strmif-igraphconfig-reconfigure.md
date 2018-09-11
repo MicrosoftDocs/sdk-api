@@ -4,17 +4,16 @@ title: IGraphConfig::Reconfigure
 author: windows-sdk-content
 description: The Reconfigure method locks the filter graph and calls a callback function in the application or filter to perform a dynamic reconfiguration.
 old-location: dshow\igraphconfig_reconfigure.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 924087c0-e3ad-437b-96e5-de39bbce2ea7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IGraphConfig interface [DirectShow],Reconfigure method, IGraphConfig.Reconfigure, IGraphConfig::Reconfigure, IGraphConfigReconfigure, Reconfigure, Reconfigure method [DirectShow], Reconfigure method [DirectShow],IGraphConfig interface, dshow.igraphconfig_reconfigure, strmif/IGraphConfig::Reconfigure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGraphConfig.Reconfigure
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IGraphConfig::Reconfigure

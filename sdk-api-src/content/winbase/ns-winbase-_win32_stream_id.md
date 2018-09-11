@@ -4,7 +4,7 @@ title: "_WIN32_STREAM_ID"
 author: windows-sdk-content
 description: Contains stream data.
 old-location: backup\win32_stream_id_str.htm
-old-project: backup
+tech.root: backup
 ms.assetid: 8beb4315-ec0e-4f6f-abfe-369094f7bedd
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WIN32_STREAM_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
+req.redist: 
 ---
 
 # _WIN32_STREAM_ID structure

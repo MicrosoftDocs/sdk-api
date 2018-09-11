@@ -4,17 +4,16 @@ title: QITAB
 author: windows-sdk-content
 description: Used by the QISearch function to describe a single interface.
 old-location: shell\QITAB.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3a055773-6e53-45e1-8936-011a8b2b8b16
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPQITAB, LPQITAB, LPQITAB structure pointer [Windows Shell], QITAB, QITAB structure [Windows Shell], _win32_QITAB, shell.QITAB, shlwapi/LPQITAB, shlwapi/QITAB"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server, Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QITAB, *LPQITAB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QITAB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: QITAB, *LPQITAB
+req.redist: 
 ---
 
 # QITAB structure

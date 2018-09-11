@@ -4,17 +4,16 @@ title: UnmapDebugInformation function
 author: windows-sdk-content
 description: Deallocates the memory and resources allocated by a call to the MapDebugInformation function.
 old-location: base\unmapdebuginformation.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 86d82f23-7803-475f-8b23-c3964d33cb00
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: UnmapDebugInformation, UnmapDebugInformation function, _win32_unmapdebuginformation, base.unmapdebuginformation, dbghelp/UnmapDebugInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - UnmapDebugInformation
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # UnmapDebugInformation function

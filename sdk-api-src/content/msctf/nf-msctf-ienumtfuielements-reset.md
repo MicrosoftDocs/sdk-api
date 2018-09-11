@@ -4,17 +4,16 @@ title: IEnumTfUIElements::Reset
 author: windows-sdk-content
 description: The IEnumTfUIElements::Reset method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 old-location: tsf\ienumtfuielements_reset.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: a87b067f-251c-47d1-b57a-32e6524adc57
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumTfUIElements interface [Text Services Framework],Reset method, IEnumTfUIElements.Reset, IEnumTfUIElements::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfUIElements interface, msctf/IEnumTfUIElements::Reset, tsf.ienumtfuielements_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumTfUIElements.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IEnumTfUIElements::Reset

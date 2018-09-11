@@ -4,7 +4,7 @@ title: "_DHCP_ALL_OPTIONS"
 author: windows-sdk-content
 description: Defines the set of all options available on a DHCP server.
 old-location: dhcp\dhcp_all_options.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: b02e3582-c99b-4d5a-aaae-c2fefd7dfaf9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_ALL_OPTIONS, *LPDHCP_ALL_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_ALL_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_ALL_OPTIONS, *LPDHCP_ALL_OPTIONS
+req.redist: 
 ---
 
 # _DHCP_ALL_OPTIONS structure

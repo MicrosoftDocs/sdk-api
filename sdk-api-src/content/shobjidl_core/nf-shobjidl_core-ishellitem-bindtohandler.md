@@ -4,17 +4,16 @@ title: IShellItem::BindToHandler
 author: windows-sdk-content
 description: Binds to a handler for an item as specified by the handler ID value (BHID).
 old-location: shell\IShellItem_BindToHandler.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fadd70cd-5018-4b71-af7b-d9c780ebddc5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: BHID_AssociationArray, BHID_DataObject, BHID_EnumAssocHandlers, BHID_EnumItems, BHID_FilePlaceholder, BHID_Filter, BHID_LinkTargetItem, BHID_PropertyStore, BHID_RandomAccessStream, BHID_SFObject, BHID_SFUIObject, BHID_SFViewObject, BHID_Storage, BHID_StorageEnum, BHID_Stream, BHID_ThumbnailHandler, BHID_Transfer, BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],BindToHandler method, IShellItem.BindToHandler, IShellItem::BindToHandler, _win32_IShellItem_BindToHandler, shell.IShellItem_BindToHandler, shobjidl_core/IShellItem::BindToHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItem.BindToHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.00 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItem::BindToHandler
@@ -69,7 +67,7 @@ A pointer to an <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbf
 
 ### -param bhid
 
-
+TBD
 
 
 ### -param riid
@@ -81,7 +79,7 @@ IID of the object type to retrieve.
 
 ### -param ppv
 
-
+TBD
 
 
 

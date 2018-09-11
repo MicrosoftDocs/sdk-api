@@ -4,17 +4,16 @@ title: "_COMPACT_VIRTUAL_DISK_VERSION"
 author: windows-sdk-content
 description: Contains the version of the virtual hard disk (VHD) COMPACT_VIRTUAL_DISK_PARAMETERS structure to use in calls to VHD functions.
 old-location: vhd\compact_virtual_disk_version.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 79b8088a-8e30-44c8-8227-82eb1c03e77c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: COMPACT_VIRTUAL_DISK_VERSION, COMPACT_VIRTUAL_DISK_VERSION enumeration [VHD], COMPACT_VIRTUAL_DISK_VERSION_1, COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED, _COMPACT_VIRTUAL_DISK_VERSION, vdssys/COMPACT_VIRTUAL_DISK_VERSION, vdssys/COMPACT_VIRTUAL_DISK_VERSION_1, vdssys/COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.compact_virtual_disk_version, virtdisk/COMPACT_VIRTUAL_DISK_VERSION, virtdisk/COMPACT_VIRTUAL_DISK_VERSION_1, virtdisk/COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPACT_VIRTUAL_DISK_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - COMPACT_VIRTUAL_DISK_VERSION
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: COMPACT_VIRTUAL_DISK_VERSION
+req.redist: 
 ---
 
 # _COMPACT_VIRTUAL_DISK_VERSION enumeration

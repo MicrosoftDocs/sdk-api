@@ -4,17 +4,16 @@ title: IWMPCdromBurn::isAvailable
 author: windows-sdk-content
 description: The isAvailable method provides information about the CD drive and media.
 old-location: wmp\iwmpcdromburn_isavailable.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 11876b73-10a1-49e2-ad45-33d9641c3647
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],isAvailable method, IWMPCdromBurn.isAvailable, IWMPCdromBurn::isAvailable, IWMPCdromBurnisAvailable, isAvailable, isAvailable method [Windows Media Player], isAvailable method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_isavailable, wmp/IWMPCdromBurn::isAvailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCdromBurn.isAvailable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCdromBurn::isAvailable

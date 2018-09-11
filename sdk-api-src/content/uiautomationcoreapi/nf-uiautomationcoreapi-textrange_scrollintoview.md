@@ -4,17 +4,16 @@ title: TextRange_ScrollIntoView function
 author: windows-sdk-content
 description: Scrolls the text so the specified range is visible in the viewport.
 old-location: winauto\uiauto_TextRange_ScrollIntoViewConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 94c922ba-7f43-4881-b876-c77fdf7b9eb5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TextRange_ScrollIntoView, TextRange_ScrollIntoView function [Windows Accessibility], uiauto.uiauto_TextRange_ScrollIntoViewConPat, uiauto_TextRange_ScrollIntoViewConPat, uiautomationcoreapi/TextRange_ScrollIntoView, winauto.uiauto_TextRange_ScrollIntoViewConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TextRange_ScrollIntoView
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TextRange_ScrollIntoView function

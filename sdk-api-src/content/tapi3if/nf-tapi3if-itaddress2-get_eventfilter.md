@@ -4,17 +4,16 @@ title: ITAddress2::get_EventFilter
 author: windows-sdk-content
 description: The get_EventFilter method retrieves the current filter settings for the current address and a given TAPI_EVENT value.
 old-location: tapi3\itaddress2_get_eventfilter.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: cb0fbfc1-56bf-4455-8d6a-71c78b6a6534
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],get_EventFilter method, ITAddress2.get_EventFilter, ITAddress2::get_EventFilter, _tapi3_itaddress2_get_eventfilter, get_EventFilter, get_EventFilter method [TAPI 2.2], get_EventFilter method [TAPI 2.2],ITAddress2 interface, tapi3.itaddress2_get_eventfilter, tapi3if/ITAddress2::get_EventFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddress2.get_EventFilter
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddress2::get_EventFilter

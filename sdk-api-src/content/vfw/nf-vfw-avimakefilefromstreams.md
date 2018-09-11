@@ -4,17 +4,16 @@ title: AVIMakeFileFromStreams function
 author: windows-sdk-content
 description: The AVIMakeFileFromStreams function constructs an AVIFile interface pointer from separate streams.
 old-location: multimedia\avimakefilefromstreams.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 5c7a7564-188a-46b7-84ad-de2b1e3db621
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIMakeFileFromStreams, AVIMakeFileFromStreams function [Windows Multimedia], _win32_AVIMakeFileFromStreams, multimedia.avimakefilefromstreams, vfw/AVIMakeFileFromStreams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVIMakeFileFromStreams
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIMakeFileFromStreams function

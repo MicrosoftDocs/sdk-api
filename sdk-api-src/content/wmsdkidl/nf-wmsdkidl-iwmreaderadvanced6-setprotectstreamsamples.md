@@ -4,17 +4,16 @@ title: IWMReaderAdvanced6::SetProtectStreamSamples
 author: windows-sdk-content
 description: The SetProtectStreamSamples method configures sample protection.
 old-location: wmformat\iwmreaderadvanced6_setprotectstreamsamples.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: e4734d16-e0fe-4a68-9618-fbceb725b576
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMReaderAdvanced6 interface [windows Media Format],SetProtectStreamSamples method, IWMReaderAdvanced6.SetProtectStreamSamples, IWMReaderAdvanced6::SetProtectStreamSamples, IWMReaderAdvanced6SetProtectStreamSamples, SetProtectStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format],IWMReaderAdvanced6 interface, wmformat.iwmreaderadvanced6_setprotectstreamsamples, wmsdkidl/IWMReaderAdvanced6::SetProtectStreamSamples
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 11 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: WMStubDRM.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMReaderAdvanced6.SetProtectStreamSamples
 product: Windows
 targetos: Windows
-req.lib: WMStubDRM.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderAdvanced6::SetProtectStreamSamples

@@ -4,17 +4,16 @@ title: IDCompositionTurbulenceEffect::SetStitchable
 author: windows-sdk-content
 description: Specifies whether stitching is on or off.
 old-location: directcomp\idcompositionturbulenceeffect_setstitchable.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: A73474FD-FECE-4654-8B6C-F44C2DDD7D9C
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetStitchable method, IDCompositionTurbulenceEffect.SetStitchable, IDCompositionTurbulenceEffect::SetStitchable, SetStitchable, SetStitchable method [DirectComposition], SetStitchable method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetStitchable, directcomp.idcompositionturbulenceeffect_setstitchable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionTurbulenceEffect.SetStitchable
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionTurbulenceEffect::SetStitchable

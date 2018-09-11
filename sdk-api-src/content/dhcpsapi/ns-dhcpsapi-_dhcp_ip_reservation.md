@@ -4,7 +4,7 @@ title: "_DHCP_IP_RESERVATION"
 author: windows-sdk-content
 description: The DHCP_IP_RESERVATION structure defines a client IP reservation.
 old-location: dhcp\dhcp_ip_reservation.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 35d7ebc7-790b-4453-a9d4-b485f0adac46
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_IP_RESERVATION, *LPDHCP_IP_RESERVATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_IP_RESERVATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_IP_RESERVATION, *LPDHCP_IP_RESERVATION
+req.redist: 
 ---
 
 # _DHCP_IP_RESERVATION structure

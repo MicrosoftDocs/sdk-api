@@ -4,17 +4,16 @@ title: IInkGesture::get_Id
 author: windows-sdk-content
 description: Gets the identifier of an object.
 old-location: tablet\iinkgesture_id.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 9ed0fcb7-57f9-43f4-95d9-dd75e9e7bd3f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkGesture interface, IInkGesture interface [Tablet PC],ID property, IInkGesture.ID, IInkGesture.get_Id, IInkGesture::ID, IInkGesture::get_ID, IInkGesture::get_Id, get_Id, msinkaut/IInkGesture::ID, msinkaut/IInkGesture::get_ID, tablet.iinkgesture_id
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkGesture.get_Id
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkGesture::get_Id

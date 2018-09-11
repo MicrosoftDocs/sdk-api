@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0001"
 author: windows-sdk-content
 description: The EDataFlow enumeration defines constants that indicate the direction in which audio data flows between an audio endpoint device and an application.
 old-location: coreaudio\edataflow.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: d79315aa-d753-4674-84c2-9ba601f36f57
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: EDataFlow, EDataFlow , EDataFlow enumeration [Core Audio], EDataFlow_enum_count, __MIDL___MIDL_itf_mmdeviceapi_0000_0000_0001, coreaudio.edataflow, eAll, eCapture, eRender, mmdeviceapi/EDataFlow, mmdeviceapi/EDataFlow_enum_count, mmdeviceapi/eAll, mmdeviceapi/eCapture, mmdeviceapi/eRender
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EDataFlow
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EDataFlow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: EDataFlow
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mmdeviceapi_0000_0000_0001 enumeration

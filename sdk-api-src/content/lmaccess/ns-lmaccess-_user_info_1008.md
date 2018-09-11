@@ -4,17 +4,16 @@ title: "_USER_INFO_1008"
 author: windows-sdk-content
 description: The USER_INFO_1008 structure contains a set of bit flags defining several user network account parameters. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1008_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 142408ef-ed8e-4af3-8fc2-ffdd40ce4f1e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPUSER_INFO_1008, *PUSER_INFO_1008, LPUSER_INFO_1008, LPUSER_INFO_1008 structure pointer [Network Management], PUSER_INFO_1008, PUSER_INFO_1008 structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_HOMEDIR_REQUIRED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, USER_INFO_1008, USER_INFO_1008 structure [Network Management], _USER_INFO_1008, _win32_user_info_1008_str, lmaccess/LPUSER_INFO_1008, lmaccess/PUSER_INFO_1008, lmaccess/USER_INFO_1008, netmgmt.user_info_1008_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INFO_1008, *PUSER_INFO_1008, *LPUSER_INFO_1008
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_INFO_1008
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USER_INFO_1008, *PUSER_INFO_1008, *LPUSER_INFO_1008
+req.redist: 
 ---
 
 # _USER_INFO_1008 structure

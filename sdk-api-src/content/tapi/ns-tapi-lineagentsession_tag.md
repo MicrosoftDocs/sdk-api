@@ -4,7 +4,7 @@ title: lineagentsession_tag
 author: windows-sdk-content
 description: The LINEAGENTSESSIONENTRY structure describes an ACD agent session. The LINEAGENTSESSIONLIST structure can contain an array of LINEAGENTSESSIONENTRY structures.
 old-location: tapi2\lineagentsessionentry_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 406b003a-11a2-445d-a466-a8549e201199
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEAGENTSESSIONENTRY, *LPLINEAGENTSESSIONENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEAGENTSESSIONENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEAGENTSESSIONENTRY, *LPLINEAGENTSESSIONENTRY
+req.redist: 
 ---
 
 # lineagentsession_tag structure

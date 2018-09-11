@@ -4,17 +4,16 @@ title: DhcpDsInit function
 author: windows-sdk-content
 description: The DhcpDsInit function initializes memory within the directory service for a new DHCP server process.
 old-location: dhcp\dhcpdsinit.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: c622d492-91a8-4fd3-87ed-3545e7b83a0a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpDsInit, DhcpDsInit function [DHCP], dhcp.dhcpdsinit, dhcpsapi/DhcpDsInit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpDsInit
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpDsInit function

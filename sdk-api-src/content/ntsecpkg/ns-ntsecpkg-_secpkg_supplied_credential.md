@@ -4,17 +4,16 @@ title: "_SECPKG_SUPPLIED_CREDENTIAL"
 author: windows-sdk-content
 description: Specifies the supplied credentials.
 old-location: security\secpkg_supplied_credential.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 23849312-7AC5-4D09-8889-27DFF8E32FE8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECPKG_SUPPLIED_CREDENTIAL, PSECPKG_SUPPLIED_CREDENTIAL, PSECPKG_SUPPLIED_CREDENTIAL structure pointer [Security], SECPKG_SUPPLIED_CREDENTIAL, SECPKG_SUPPLIED_CREDENTIAL structure [Security], _SECPKG_SUPPLIED_CREDENTIAL, ntsecpkg/PSECPKG_SUPPLIED_CREDENTIAL, ntsecpkg/SECPKG_SUPPLIED_CREDENTIAL, security.secpkg_supplied_credential"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_SUPPLIED_CREDENTIAL, *PSECPKG_SUPPLIED_CREDENTIAL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_SUPPLIED_CREDENTIAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_SUPPLIED_CREDENTIAL, *PSECPKG_SUPPLIED_CREDENTIAL
+req.redist: 
 ---
 
 # _SECPKG_SUPPLIED_CREDENTIAL structure

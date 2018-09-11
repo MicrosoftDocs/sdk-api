@@ -4,7 +4,7 @@ title: "_CLASS_MEDIA_CHANGE_CONTEXT"
 author: windows-sdk-content
 description: Contains information associated with a media change event.
 old-location: base\class_media_change_context_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: c89da554-3dc5-4278-8afe-8da9cc0a0120
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLASS_MEDIA_CHANGE_CONTEXT, *PCLASS_MEDIA_CHANGE_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLASS_MEDIA_CHANGE_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CLASS_MEDIA_CHANGE_CONTEXT, *PCLASS_MEDIA_CHANGE_CONTEXT
+req.redist: 
 ---
 
 # _CLASS_MEDIA_CHANGE_CONTEXT structure

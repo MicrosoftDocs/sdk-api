@@ -4,7 +4,7 @@ title: "__MIDL_ItsPubPlugin_0001"
 author: windows-sdk-content
 description: Contains information about a resource that can be assigned to users in RemoteApp and Desktop Connection.
 old-location: termserv\pluginresource.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 209dee74-c52e-4e31-9d1b-1e7c6c0d0121
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tspubplugincom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: pluginResource
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - pluginResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: pluginResource
+req.redist: 
 ---
 
 # __MIDL_ItsPubPlugin_0001 structure

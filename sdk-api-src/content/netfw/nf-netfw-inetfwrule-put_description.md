@@ -4,17 +4,16 @@ title: INetFwRule::put_Description
 author: windows-sdk-content
 description: Specifies the description of this rule.
 old-location: ics\inetfwrule_description.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 47e5a5ff-d8a7-46e6-aa42-b9e7d544954b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Description property [ICS/ICF], Description property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Description property, INetFwRule.Description, INetFwRule.put_Description, INetFwRule::Description, INetFwRule::get_Description, INetFwRule::put_Description, ics.inetfwrule_description, netfw/INetFwRule::Description, netfw/INetFwRule::get_Description, netfw/INetFwRule::put_Description, put_Description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwRule.put_Description
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRule::put_Description

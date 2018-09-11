@@ -4,17 +4,16 @@ title: IActionProgress::QueryCancel
 author: windows-sdk-content
 description: Provides information about whether the action is being canceled.
 old-location: shell\IActionProgress_QueryCancel.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a5db4344-c1b4-4e76-9291-46dafc82e88d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IActionProgress interface [Windows Shell],QueryCancel method, IActionProgress.QueryCancel, IActionProgress::QueryCancel, QueryCancel, QueryCancel method [Windows Shell], QueryCancel method [Windows Shell],IActionProgress interface, shell.IActionProgress_QueryCancel, shell_IActionProgress_QueryCancel, shobjidl_core/IActionProgress::QueryCancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shobjidl.idl
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActionProgress.QueryCancel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shobjidl.idl
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActionProgress::QueryCancel

@@ -4,17 +4,16 @@ title: ILocation::GetReportStatus
 author: windows-sdk-content
 description: Retrieves the status for the specified report type.
 old-location: winlocation_com_ref\ilocation_getreportstatus.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: 9b7c72cc-fa09-44b2-97be-f200fab7b31d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetReportStatus, GetReportStatus method [WinLocation], GetReportStatus method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReportStatus method, ILocation.GetReportStatus, ILocation::GetReportStatus, WinLocation_COM_Ref.ilocation_getreportstatus, locationapi/ILocation::GetReportStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocation.GetReportStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ILocation::GetReportStatus
@@ -68,9 +66,9 @@ Retrieves the status for the specified report type.
 <b>REFIID</b> that specifies the report type for which to get the interval.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 

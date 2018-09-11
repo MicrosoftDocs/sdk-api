@@ -4,17 +4,16 @@ title: "_SECPKG_TARGETINFO"
 author: windows-sdk-content
 description: Specifies the target of an authentication request.
 old-location: security\secpkg_targetinfo.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: c8d4ac70-743b-42b1-940c-d3d37a6174bc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECPKG_TARGETINFO, PSECPKG_TARGETINFO, PSECPKG_TARGETINFO structure pointer [Security], SECPKG_TARGETINFO, SECPKG_TARGETINFO structure [Security], _SECPKG_TARGETINFO, ntsecpkg/PSECPKG_TARGETINFO, ntsecpkg/SECPKG_TARGETINFO, security.secpkg_targetinfo"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_TARGETINFO, *PSECPKG_TARGETINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_TARGETINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_TARGETINFO, *PSECPKG_TARGETINFO
+req.redist: 
 ---
 
 # _SECPKG_TARGETINFO structure

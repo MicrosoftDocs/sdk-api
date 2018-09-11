@@ -4,17 +4,16 @@ title: SIP_INDIRECT_DATA_
 author: windows-sdk-content
 description: Contains the digest of the hashed subject information.
 old-location: security\sip_indirect_data.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: d34b599b-fe49-47c4-bb52-73ee14d73253
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSIP_INDIRECT_DATA, PSIP_INDIRECT_DATA, PSIP_INDIRECT_DATA structure pointer [Security], SIP_INDIRECT_DATA, SIP_INDIRECT_DATA structure [Security], SIP_INDIRECT_DATA_, mssip/PSIP_INDIRECT_DATA, mssip/SIP_INDIRECT_DATA, security.sip_indirect_data"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mssip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SIP_INDIRECT_DATA, *PSIP_INDIRECT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SIP_INDIRECT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SIP_INDIRECT_DATA, *PSIP_INDIRECT_DATA
+req.redist: 
 ---
 
 # SIP_INDIRECT_DATA_ structure

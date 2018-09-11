@@ -4,17 +4,16 @@ title: EngQueryPalette function
 author: windows-sdk-content
 description: The EngQueryPalette function queries the specified palette for its attributes.
 old-location: display\engquerypalette.htm
-old-project: display
+tech.root: display
 ms.assetid: be4d0547-b71a-49b4-9d2c-12fab67c9412
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngQueryPalette, EngQueryPalette function [Display Devices], display.engquerypalette, gdifncs_e11ff13c-9834-4911-9a02-a7d98f4cdfdc.xml, winddi/EngQueryPalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngQueryPalette
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngQueryPalette function

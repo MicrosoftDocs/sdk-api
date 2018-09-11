@@ -4,17 +4,16 @@ title: IPackageDebugSettings::DisableDebugging
 author: windows-sdk-content
 description: Disables debug mode for the processes of the specified package.
 old-location: shell\IPackageDebugSettings_DisableDebugging.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 102e57be-296e-44ec-8211-f2c2d5eae1e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DisableDebugging, DisableDebugging method [Windows Shell], DisableDebugging method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],DisableDebugging method, IPackageDebugSettings.DisableDebugging, IPackageDebugSettings::DisableDebugging, shell.IPackageDebugSettings_DisableDebugging, shobjidl_core/IPackageDebugSettings::DisableDebugging
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPackageDebugSettings.DisableDebugging
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPackageDebugSettings::DisableDebugging

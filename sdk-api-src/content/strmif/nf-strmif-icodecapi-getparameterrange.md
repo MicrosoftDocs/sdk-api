@@ -4,17 +4,16 @@ title: ICodecAPI::GetParameterRange
 author: windows-sdk-content
 description: The GetParameterRange method gets the range of values for a codec property.
 old-location: dshow\icodecapi_getparameterrange.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 35bf758f-0ce3-4b3a-aae5-9d4326089743
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetParameterRange, GetParameterRange method [DirectShow], GetParameterRange method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetParameterRange method, ICodecAPI.GetParameterRange, ICodecAPI::GetParameterRange, ICodecAPIGetParameterRange, dshow.icodecapi_getparameterrange, strmif/ICodecAPI::GetParameterRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICodecAPI.GetParameterRange
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICodecAPI::GetParameterRange

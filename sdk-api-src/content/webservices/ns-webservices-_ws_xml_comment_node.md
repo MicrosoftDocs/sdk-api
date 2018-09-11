@@ -4,17 +4,16 @@ title: "_WS_XML_COMMENT_NODE"
 author: windows-sdk-content
 description: Represents a comment.
 old-location: wsw\ws_xml_comment_node.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: e1a0b493-4537-465b-93bb-64672bc5b3d9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_COMMENT_NODE, WS_XML_COMMENT_NODE structure [Web Services for Windows], _WS_XML_COMMENT_NODE, webservices/WS_XML_COMMENT_NODE, wsw.ws_xml_comment_node
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_COMMENT_NODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_COMMENT_NODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_COMMENT_NODE
+req.redist: 
 ---
 
 # _WS_XML_COMMENT_NODE structure

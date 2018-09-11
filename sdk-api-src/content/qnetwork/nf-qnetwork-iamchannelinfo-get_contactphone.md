@@ -4,17 +4,16 @@ title: IAMChannelInfo::get_ContactPhone
 author: windows-sdk-content
 description: The get_ContactPhone method retrieves the phone number of the contact.
 old-location: dshow\iamchannelinfo_get_contactphone.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b5addbbb-a0f3-4dec-a347-9c69864a0615
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ContactPhone method, IAMChannelInfo.get_ContactPhone, IAMChannelInfo::get_ContactPhone, IAMChannelInfoget_ContactPhone, dshow.iamchannelinfo_get_contactphone, get_ContactPhone, get_ContactPhone method [DirectShow], get_ContactPhone method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ContactPhone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMChannelInfo.get_ContactPhone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMChannelInfo::get_ContactPhone

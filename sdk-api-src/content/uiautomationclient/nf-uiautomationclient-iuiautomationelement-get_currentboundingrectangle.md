@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CurrentBoundingRectangle
 author: windows-sdk-content
 description: Retrieves the coordinates of the rectangle that completely encloses the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentBoundingRectangle.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: bf3e96ca-1fda-417a-9614-6a1a3923ce7e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentBoundingRectangle property [Windows Accessibility], CurrentBoundingRectangle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentBoundingRectangle property, IUIAutomationElement.CurrentBoundingRectangle, IUIAutomationElement.get_CurrentBoundingRectangle, IUIAutomationElement::CurrentBoundingRectangle, IUIAutomationElement::get_CurrentBoundingRectangle, get_CurrentBoundingRectangle, uiauto.uiauto_IUIAutomationElement_CurrentBoundingRectangle, uiauto_IUIAutomationElement_CurrentBoundingRectangle, uiautomationclient/IUIAutomationElement::CurrentBoundingRectangle, uiautomationclient/IUIAutomationElement::get_CurrentBoundingRectangle, winauto.uiauto_IUIAutomationElement_CurrentBoundingRectangle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CurrentBoundingRectangle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CurrentBoundingRectangle

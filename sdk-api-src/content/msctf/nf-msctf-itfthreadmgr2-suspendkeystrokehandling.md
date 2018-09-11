@@ -4,17 +4,16 @@ title: ITfThreadMgr2::SuspendKeystrokeHandling
 author: windows-sdk-content
 description: Suspends handling keystrokes.
 old-location: tsf\itfthreadmgr2_suspendkeystrokehandling.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 98E0D017-F0A2-4F80-9CD3-16D22170BFDF
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfThreadMgr2 interface [Text Services Framework],SuspendKeystrokeHandling method, ITfThreadMgr2.SuspendKeystrokeHandling, ITfThreadMgr2::SuspendKeystrokeHandling, SuspendKeystrokeHandling, SuspendKeystrokeHandling method [Text Services Framework], SuspendKeystrokeHandling method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::SuspendKeystrokeHandling, tsf.itfthreadmgr2_suspendkeystrokehandling
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfThreadMgr2.SuspendKeystrokeHandling
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITfThreadMgr2::SuspendKeystrokeHandling

@@ -4,17 +4,16 @@ title: ITfFnConfigureRegisterWord::Show
 author: windows-sdk-content
 description: ITfFnConfigureRegisterWord::Show method
 old-location: tsf\itffnconfigureregisterword_show.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 61eb7452-2ada-4832-bd16-87ac56fedc6d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfFnConfigureRegisterWord interface [Text Services Framework],Show method, ITfFnConfigureRegisterWord.Show, ITfFnConfigureRegisterWord::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfFnConfigureRegisterWord interface, _tsf_itffnconfigureregisterword_show_ref, ctffunc/ITfFnConfigureRegisterWord::Show, tsf.itffnconfigureregisterword_show
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Imekrcic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnConfigureRegisterWord.Show
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Imekrcic.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfFnConfigureRegisterWord::Show

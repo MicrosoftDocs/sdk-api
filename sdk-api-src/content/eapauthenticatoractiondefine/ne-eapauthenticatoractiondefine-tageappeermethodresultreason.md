@@ -4,7 +4,7 @@ title: tagEapPeerMethodResultReason
 author: windows-sdk-content
 description: Defines the set of results of an EAP authentication session returned by an EAP authenticator method to an EAP peer method.
 old-location: eaphost\eappeermethodresultreason.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 5f7f18cd-cc75-4d13-a0c0-c60f8c5f1a07
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EapPeerMethodResultReason, EapPeerMethodResultReasonOle
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapPeerMethodResultReason
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EapPeerMethodResultReason, EapPeerMethodResultReasonOle
+req.redist: 
 ---
 
 # tagEapPeerMethodResultReason enumeration

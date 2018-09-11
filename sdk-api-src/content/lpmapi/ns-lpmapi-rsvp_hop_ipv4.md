@@ -4,17 +4,16 @@ title: Rsvp_Hop_IPv4
 author: windows-sdk-content
 description: The Rsvp_Hop_IPv4 structure stores information about an RSVP-enabled IPv4 hop.
 old-location: qos\rsvp_hop_ipv4.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 1a3f3e65-70f8-490c-8724-9e93c7fba457
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Rsvp_Hop_IPv4, Rsvp_Hop_IPv4 structure [QOS], lpmapi/Rsvp_Hop_IPv4, qos.rsvp_hop_ipv4
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Rsvp_Hop_IPv4
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Rsvp_Hop_IPv4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: Rsvp_Hop_IPv4
+req.redist: 
 ---
 
 # Rsvp_Hop_IPv4 structure

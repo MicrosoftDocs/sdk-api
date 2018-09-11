@@ -4,17 +4,16 @@ title: VarAbs function
 author: windows-sdk-content
 description: Returns the absolute value of a variant.
 old-location: automat\varabs.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 720f5b1b-1b89-4167-8d89-9da267ecb85e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarAbs, VarAbs function [Automation], _oa96_VarAbs, automat.varabs, oleauto/VarAbs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarAbs
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarAbs function

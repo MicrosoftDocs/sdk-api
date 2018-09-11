@@ -4,17 +4,16 @@ title: IDiscRecorder2Ex::SetModePage
 author: windows-sdk-content
 description: Sets the mode page data for the device.
 old-location: imapi\idiscrecorder2ex_setmodepage.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 7ca1e8c0-d75d-40a7-8b2e-5c240c410031
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],SetModePage method, IDiscRecorder2Ex.SetModePage, IDiscRecorder2Ex::SetModePage, SetModePage, SetModePage method [IMAPI], SetModePage method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_setmodepage, imapi2/IDiscRecorder2Ex::SetModePage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder2Ex.SetModePage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder2Ex::SetModePage

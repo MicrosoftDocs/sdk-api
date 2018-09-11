@@ -4,17 +4,16 @@ title: IWebBrowser2::put_TheaterMode
 author: windows-sdk-content
 description: Sets or gets whether the object is in theater mode.
 old-location: winprog\iwebbrowser2_theatermode.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 78E8B986-ABA2-47A3-AED2-97A84C10C80A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWebBrowser2 interface [Windows API],TheaterMode property, IWebBrowser2.TheaterMode, IWebBrowser2.get_TheaterMode, IWebBrowser2.put_TheaterMode, IWebBrowser2::TheaterMode, IWebBrowser2::get_TheaterMode, IWebBrowser2::put_TheaterMode, TheaterMode property [Windows API], TheaterMode property [Windows API],IWebBrowser2 interface, VARIANT_FALSE, VARIANT_TRUE, exdisp/IWebBrowser2::TheaterMode, exdisp/IWebBrowser2::get_TheaterMode, exdisp/IWebBrowser2::put_TheaterMode, put_TheaterMode, winprog.iwebbrowser2_theatermode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: Shdocvw.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - IWebBrowser2.get_TheaterMode
 product: Windows
 targetos: Windows
-req.lib: Shdocvw.dll
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IWebBrowser2::put_TheaterMode

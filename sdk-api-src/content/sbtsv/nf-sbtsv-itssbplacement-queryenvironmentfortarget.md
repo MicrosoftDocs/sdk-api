@@ -4,17 +4,16 @@ title: ITsSbPlacement::QueryEnvironmentForTarget
 author: windows-sdk-content
 description: Determines whether the specified environment is ready to host the target that was returned by load balancing.
 old-location: termserv\itssbplacement_queryenvironmentfortarget.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 62320a0b-3f3e-4341-a481-a43af39c06f7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbPlacement interface [Remote Desktop Services],QueryEnvironmentForTarget method, ITsSbPlacement.QueryEnvironmentForTarget, ITsSbPlacement::QueryEnvironmentForTarget, QueryEnvironmentForTarget, QueryEnvironmentForTarget method [Remote Desktop Services], QueryEnvironmentForTarget method [Remote Desktop Services],ITsSbPlacement interface, sbtsv/ITsSbPlacement::QueryEnvironmentForTarget, termserv.itssbplacement_queryenvironmentfortarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbPlacement.QueryEnvironmentForTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbPlacement::QueryEnvironmentForTarget

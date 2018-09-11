@@ -4,17 +4,16 @@ title: RemoveDeveloperLicense function
 author: windows-sdk-content
 description: Removes a developer license.
 old-location: devlic\removedeveloperlicense.htm
-old-project: devlic
+tech.root: devlic
 ms.assetid: C75F8B6E-EAFB-48E2-93B1-CEC1A1FF5FC0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: RemoveDeveloperLicense, RemoveDeveloperLicense function, devlic.removedeveloperlicense, wsdevlicensing/RemoveDeveloperLicense
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wsdevlicensing.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: WSClient.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RemoveDeveloperLicense
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: WSClient.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RemoveDeveloperLicense function

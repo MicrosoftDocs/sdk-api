@@ -4,17 +4,16 @@ title: ID2D1SpriteBatch::Clear
 author: windows-sdk-content
 description: Removes all sprites from this sprite batch.
 old-location: direct2d\id2d1spritebatch_clear.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 01CCF4B6-C3CA-4E59-8436-AAE633C7A5FD
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Clear, Clear method [Direct2D], Clear method [Direct2D],ID2D1SpriteBatch interface, ID2D1SpriteBatch interface [Direct2D],Clear method, ID2D1SpriteBatch.Clear, ID2D1SpriteBatch::Clear, d2d1_3/ID2D1SpriteBatch::Clear, direct2d.id2d1spritebatch_clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SpriteBatch.Clear
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SpriteBatch::Clear

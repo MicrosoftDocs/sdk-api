@@ -4,7 +4,7 @@ title: WLAN_STATISTICS
 author: windows-sdk-content
 description: Assorted statistics about an interface.
 old-location: nwifi\wlan_statistics.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: d66d89f1-bb12-4c2e-8c7a-a4eba008955d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_STATISTICS, *PWLAN_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_STATISTICS, *PWLAN_STATISTICS
+req.redist: 
 ---
 
 # WLAN_STATISTICS structure

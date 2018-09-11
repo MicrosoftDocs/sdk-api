@@ -4,17 +4,16 @@ title: ITraceDataProvider::get_KeywordsAny
 author: windows-sdk-content
 description: Retrieves the list of keywords that determine the category of events that you want the provider to write.
 old-location: pla\itracedataprovider_keywordsany.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 10159c09-609a-4263-a515-241ab942c3e8
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ITraceDataProvider interface [PLA],KeywordsAny property, ITraceDataProvider.KeywordsAny, ITraceDataProvider.get_KeywordsAny, ITraceDataProvider::KeywordsAny, ITraceDataProvider::get_KeywordsAny, KeywordsAny property [PLA], KeywordsAny property [PLA],ITraceDataProvider interface, get_KeywordsAny, pla.itracedataprovider_keywordsany, pla/ITraceDataProvider::KeywordsAny, pla/ITraceDataProvider::get_KeywordsAny
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITraceDataProvider.get_KeywordsAny
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataProvider::get_KeywordsAny

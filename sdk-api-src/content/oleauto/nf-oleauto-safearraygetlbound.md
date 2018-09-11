@@ -4,17 +4,16 @@ title: SafeArrayGetLBound function
 author: windows-sdk-content
 description: Gets the lower bound for any dimension of the specified safe array.
 old-location: automat\safearraygetlbound.htm
-old-project: automat
+tech.root: automat
 ms.assetid: f3134cc9-759b-4908-ada0-d025a525e795
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SafeArrayGetLBound, SafeArrayGetLBound function [Automation], _oa96_SafeArrayGetLBound, automat.safearraygetlbound, oleauto/SafeArrayGetLBound
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SafeArrayGetLBound
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SafeArrayGetLBound function

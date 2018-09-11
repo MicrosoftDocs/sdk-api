@@ -4,17 +4,16 @@ title: ID3D11RefDefaultTrackingOptions::SetTrackingOptions
 author: windows-sdk-content
 description: Sets graphics processing unit (GPU) debug reference default tracking options for specific resource types.
 old-location: direct3d11\id3d11refdefaulttrackingoptions_settrackingoptions.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: A54AAC4C-CD38-4326-AF99-9FB74CC0A1A0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID3D11RefDefaultTrackingOptions interface [Direct3D 11],SetTrackingOptions method, ID3D11RefDefaultTrackingOptions.SetTrackingOptions, ID3D11RefDefaultTrackingOptions::SetTrackingOptions, SetTrackingOptions, SetTrackingOptions method [Direct3D 11], SetTrackingOptions method [Direct3D 11],ID3D11RefDefaultTrackingOptions interface, d3d11sdklayers/ID3D11RefDefaultTrackingOptions::SetTrackingOptions, direct3d11.id3d11refdefaulttrackingoptions_settrackingoptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+req.lib: D3DCompiler.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11RefDefaultTrackingOptions.SetTrackingOptions
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11RefDefaultTrackingOptions::SetTrackingOptions

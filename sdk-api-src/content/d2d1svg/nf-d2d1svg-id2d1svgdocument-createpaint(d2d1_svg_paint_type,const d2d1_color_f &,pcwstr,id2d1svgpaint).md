@@ -4,17 +4,16 @@ title: ID2D1SvgDocument::CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F &,PC
 author: windows-sdk-content
 description: Creates a paint object which can be used to set the 'fill' or 'stroke' properties.
 old-location: direct2d\id2d1svgdocument_createpaint.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 8AB14D87-4745-409A-A5F4-885E322698B1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreatePaint, CreatePaint method [Direct2D], CreatePaint method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],CreatePaint method, ID2D1SvgDocument.CreatePaint, ID2D1SvgDocument.CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F &,PCWSTR,ID2D1SvgPaint), ID2D1SvgDocument::CreatePaint, ID2D1SvgDocument::CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F &,PCWSTR,ID2D1SvgPaint), d2d1svg/ID2D1SvgDocument::CreatePaint, direct2d.id2d1svgdocument_createpaint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgDocument.CreatePaint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgDocument::CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F &,PCWSTR,ID2D1SvgPaint)

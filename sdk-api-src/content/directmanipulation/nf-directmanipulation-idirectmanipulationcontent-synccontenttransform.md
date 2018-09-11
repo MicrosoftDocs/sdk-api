@@ -4,17 +4,16 @@ title: IDirectManipulationContent::SyncContentTransform
 author: windows-sdk-content
 description: Modifies the content transform while maintaining the output transform.
 old-location: directmanipulation\idirectmanipulationcontent_synccontenttransform.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 3e70b208-05b5-4b84-a582-fd835acdd777
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDirectManipulationContent interface [Direct Manipulation],SyncContentTransform method, IDirectManipulationContent.SyncContentTransform, IDirectManipulationContent::SyncContentTransform, SyncContentTransform, SyncContentTransform method [Direct Manipulation], SyncContentTransform method [Direct Manipulation],IDirectManipulationContent interface, directmanipulation.idirectmanipulationcontent_synccontenttransform, directmanipulation/IDirectManipulationContent::SyncContentTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationContent.SyncContentTransform
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationContent::SyncContentTransform

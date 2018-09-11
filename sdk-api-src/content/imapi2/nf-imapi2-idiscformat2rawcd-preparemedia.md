@@ -4,17 +4,16 @@ title: IDiscFormat2RawCD::PrepareMedia
 author: windows-sdk-content
 description: Locks the current media for exclusive access.
 old-location: imapi\idiscformat2rawcd_preparemedia.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 8c393786-0c2d-4244-8ec3-0ac9e47e76c6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],PrepareMedia method, IDiscFormat2RawCD.PrepareMedia, IDiscFormat2RawCD::PrepareMedia, PrepareMedia, PrepareMedia method [IMAPI], PrepareMedia method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_preparemedia, imapi2/IDiscFormat2RawCD::PrepareMedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2RawCD.PrepareMedia
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2RawCD::PrepareMedia

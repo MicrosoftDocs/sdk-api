@@ -4,7 +4,7 @@ title: NLM_NETWORK_CLASS
 author: windows-sdk-content
 description: NLM_NETWORK_CLASS enumeration defines a set of flags that specify if a network has been identified.
 old-location: nla\nlm_network_class.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 397602c6-efc5-454a-999b-26ea26cb56cd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NLM_NETWORK_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NLM_NETWORK_CLASS
+req.redist: 
 ---
 
 # NLM_NETWORK_CLASS enumeration

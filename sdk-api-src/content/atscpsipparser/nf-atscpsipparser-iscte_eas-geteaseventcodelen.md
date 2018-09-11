@@ -4,17 +4,16 @@ title: ISCTE_EAS::GetEASEventCodeLen
 author: windows-sdk-content
 description: The GetEASEventCodeLen method returns the size of the EAS event code.
 old-location: mstv\iscte_eas_geteaseventcodelen.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d6e05cd0-d043-4f15-b25b-28402035943b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetEASEventCodeLen, GetEASEventCodeLen method [Microsoft TV Technologies], GetEASEventCodeLen method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetEASEventCodeLen method, ISCTE_EAS.GetEASEventCodeLen, ISCTE_EAS::GetEASEventCodeLen, ISCTE_EASGetEASEventCodeLen, atscpsipparser/ISCTE_EAS::GetEASEventCodeLen, mstv.iscte_eas_geteaseventcodelen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISCTE_EAS.GetEASEventCodeLen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISCTE_EAS::GetEASEventCodeLen

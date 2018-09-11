@@ -4,17 +4,16 @@ title: VarUI1FromStr function
 author: windows-sdk-content
 description: Converts an OLECHAR string to an unsigned char string.
 old-location: automat\varui1fromstr.htm
-old-project: automat
+tech.root: automat
 ms.assetid: cd21a474-d75f-40ad-aa5a-43eda74e6b2b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarUI1FromStr, VarUI1FromStr function [Automation], _oa96_VarUI1FromStr, automat.varui1fromstr, oleauto/VarUI1FromStr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarUI1FromStr
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarUI1FromStr function

@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_UIAnimation_0000_0014_0001"
 author: windows-sdk-content
 description: Defines activity status for a timer's client.
 old-location: uianimation\ui_animation_timer_client_status.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 45a445d1-cbe2-4588-a184-7d7bab6bc1ee
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_ANIMATION_TIMER_CLIENT_BUSY, UI_ANIMATION_TIMER_CLIENT_IDLE, UI_ANIMATION_TIMER_CLIENT_STATUS, UI_ANIMATION_TIMER_CLIENT_STATUS enumeration [Windows Animation], __MIDL___MIDL_itf_UIAnimation_0000_0014_0001, uianimation.ui_animation_timer_client_status, uianimation/UI_ANIMATION_TIMER_CLIENT_BUSY, uianimation/UI_ANIMATION_TIMER_CLIENT_IDLE, uianimation/UI_ANIMATION_TIMER_CLIENT_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_ANIMATION_TIMER_CLIENT_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_UIAnimation_0000_0014_0001 enumeration

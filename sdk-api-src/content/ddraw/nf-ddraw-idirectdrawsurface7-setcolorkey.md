@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::SetColorKey
 author: windows-sdk-content
 description: Sets the color key value for the DirectDrawSurface object if the hardware supports color keys on a per-surface basis.
 old-location: directdraw\idirectdrawsurface7_setcolorkey.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 36f2510e-d12a-40af-b65c-aa36ce46a942
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DDCKEY_COLORSPACE, DDCKEY_DESTBLT, DDCKEY_DESTOVERLAY, DDCKEY_SRCBLT, DDCKEY_SRCOVERLAY, IDirectDrawSurface7 interface [DirectDraw],SetColorKey method, IDirectDrawSurface7.SetColorKey, IDirectDrawSurface7::SetColorKey, SetColorKey, SetColorKey method [DirectDraw], SetColorKey method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetColorKey, directdraw.idirectdrawsurface7_setcolorkey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.SetColorKey
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::SetColorKey
@@ -59,9 +58,14 @@ Sets the color key value for the DirectDrawSurface object if the hardware suppor
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

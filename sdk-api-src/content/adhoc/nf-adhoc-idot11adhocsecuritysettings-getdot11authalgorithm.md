@@ -4,17 +4,16 @@ title: IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm
 author: windows-sdk-content
 description: Gets the authentication algorithm associated with the security settings.
 old-location: nwifi\idot11adhocsecuritysettings_getdot11authalgorithm.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 87ba445a-1ad7-49da-aa61-ed72d118e517
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDot11AuthAlgorithm, GetDot11AuthAlgorithm method [NativeWIFI], GetDot11AuthAlgorithm method [NativeWIFI],IDot11AdHocSecuritySettings interface, IDot11AdHocSecuritySettings interface [NativeWIFI],GetDot11AuthAlgorithm method, IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm, IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm, adhoc/IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm, nwifi.idot11adhocsecuritysettings_getdot11authalgorithm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm

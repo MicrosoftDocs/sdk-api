@@ -4,7 +4,7 @@ title: "_SYSTEM_POWER_STATUS"
 author: windows-sdk-content
 description: Contains information about the power status of the system.
 old-location: base\system_power_status_str.htm
-old-project: power
+tech.root: power
 ms.assetid: 4c331239-4222-4650-a0ed-6d605bf376cd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_POWER_STATUS, *LPSYSTEM_POWER_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYSTEM_POWER_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: SYSTEM_POWER_STATUS, *LPSYSTEM_POWER_STATUS
+req.redist: 
 ---
 
 # _SYSTEM_POWER_STATUS structure

@@ -4,17 +4,16 @@ title: ITextStoreACP2::QueryInsertEmbedded
 author: windows-sdk-content
 description: Gets a value indicating whether the specified object can be inserted into the document.
 old-location: tsf\itextstoreacp2_queryinsertembedded.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: af67d721-290b-412d-9d99-ea7d6406f33d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],QueryInsertEmbedded method, ITextStoreACP2.QueryInsertEmbedded, ITextStoreACP2::QueryInsertEmbedded, QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::QueryInsertEmbedded, tsf.itextstoreacp2_queryinsertembedded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACP2.QueryInsertEmbedded
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStoreACP2::QueryInsertEmbedded

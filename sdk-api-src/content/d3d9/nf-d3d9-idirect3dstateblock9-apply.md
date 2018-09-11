@@ -4,17 +4,16 @@ title: IDirect3DStateBlock9::Apply
 author: windows-sdk-content
 description: Apply the state block to the current device state.
 old-location: direct3d9\idirect3dstateblock9__apply.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dstateblock9__apply.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 4857cd25-dfeb-1e69-b487-b93977115d85, Apply, Apply method [Direct3D 9], Apply method [Direct3D 9],IDirect3DStateBlock9 interface, IDirect3DStateBlock9 interface [Direct3D 9],Apply method, IDirect3DStateBlock9.Apply, IDirect3DStateBlock9::Apply, d3d9helper/IDirect3DStateBlock9::Apply, direct3d9.idirect3dstateblock9__apply
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DStateBlock9.Apply
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DStateBlock9::Apply

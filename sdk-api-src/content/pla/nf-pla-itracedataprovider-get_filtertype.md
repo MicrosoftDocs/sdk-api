@@ -4,17 +4,16 @@ title: ITraceDataProvider::get_FilterType
 author: windows-sdk-content
 description: Retrieves or sets a provider-defined filter type.
 old-location: pla\itracedataprovider_filtertype.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: adc9f89f-fffe-4df0-a9fd-72ae80fdf9b5
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: FilterType property [PLA], FilterType property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],FilterType property, ITraceDataProvider.FilterType, ITraceDataProvider.get_FilterType, ITraceDataProvider::FilterType, ITraceDataProvider::get_FilterType, ITraceDataProvider::put_FilterType, base.itracedataprovider_filtertype, get_FilterType, pla.itracedataprovider_filtertype, pla/ITraceDataProvider::FilterType, pla/ITraceDataProvider::get_FilterType, pla/ITraceDataProvider::put_FilterType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITraceDataProvider.put_FilterType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataProvider::get_FilterType

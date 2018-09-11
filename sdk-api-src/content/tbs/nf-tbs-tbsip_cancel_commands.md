@@ -4,17 +4,16 @@ title: Tbsip_Cancel_Commands function
 author: windows-sdk-content
 description: Cancels all outstanding commands for the specified context.
 old-location: tbs\_tbsip_cancel_commands.htm
-old-project: tbs
+tech.root: TBS
 ms.assetid: aaf209cb-2250-4c23-900f-9026d2f44e24
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Tbsip_Cancel_Commands, Tbsip_Cancel_Commands function [TBS], tbs._tbsip_cancel_commands, tbs/Tbsip_Cancel_Commands
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Tbs.lib
+req.dll: Tbs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Tbsip_Cancel_Commands
 product: Windows
 targetos: Windows
-req.lib: Tbs.lib
-req.dll: Tbs.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Tbsip_Cancel_Commands function

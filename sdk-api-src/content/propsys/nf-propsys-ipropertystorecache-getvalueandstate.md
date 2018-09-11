@@ -4,17 +4,16 @@ title: IPropertyStoreCache::GetValueAndState
 author: windows-sdk-content
 description: Gets value and state data for a property key.
 old-location: properties\IPropertyStoreCache_GetValueAndState.htm
-old-project: properties
+tech.root: properties
 ms.assetid: eb8866c9-fc14-42c0-aaed-bd192ca25cf6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetValueAndState, GetValueAndState method [Windows Properties], GetValueAndState method [Windows Properties],IPropertyStoreCache interface, IPropertyStoreCache interface [Windows Properties],GetValueAndState method, IPropertyStoreCache.GetValueAndState, IPropertyStoreCache::GetValueAndState, properties.IPropertyStoreCache_GetValueAndState, propsys/IPropertyStoreCache::GetValueAndState, shell.IPropertyStoreCache_GetValueAndState, shell_IPropertyStoreCache_GetValueAndState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyStoreCache.GetValueAndState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyStoreCache::GetValueAndState

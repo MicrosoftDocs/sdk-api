@@ -4,17 +4,16 @@ title: IWTSSBPlugin::WTSSBX_SessionChangeNotification
 author: windows-sdk-content
 description: Notifies the plug-in that a change, such as a logon, logoff, disconnect, or reconnect, occurred in the session.
 old-location: termserv\iwtssbplugin_wtssbx_sessionchangenotification.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 00426aa2-1d22-462f-9ad1-2a63d151493d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_SessionChangeNotification method, IWTSSBPlugin.WTSSBX_SessionChangeNotification, IWTSSBPlugin::WTSSBX_SessionChangeNotification, WTSSBX_SessionChangeNotification, WTSSBX_SessionChangeNotification method [Remote Desktop Services], WTSSBX_SessionChangeNotification method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_sessionchangenotification, tssbx/IWTSSBPlugin::WTSSBX_SessionChangeNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tssbx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_NOTIFICATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSSBPlugin.WTSSBX_SessionChangeNotification
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSSBPlugin::WTSSBX_SessionChangeNotification

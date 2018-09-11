@@ -4,17 +4,16 @@ title: ID2D1Factory::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,cons
 author: windows-sdk-content
 description: Creates an ID2D1StrokeStyle that describes start cap, dash pattern, and other features of a stroke.
 old-location: direct2d\ID2D1Factory_CreateStrokeStyle_ptr_D2D1_STROKE_STYLE_PROPERTIES_ptr_FLOAT_ptr_ptr_ID2D1StrokeStyle.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 17e8cd4c-6ba4-49d4-a883-2937ff2121d3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateStrokeStyle, CreateStrokeStyle method [Direct2D], CreateStrokeStyle method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateStrokeStyle method, ID2D1Factory.CreateStrokeStyle, ID2D1Factory.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle), ID2D1Factory::CreateStrokeStyle, ID2D1Factory::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle), d2d1/ID2D1Factory::CreateStrokeStyle, direct2d.ID2D1Factory_CreateStrokeStyle_ptr_D2D1_STROKE_STYLE_PROPERTIES_ptr_FLOAT_ptr_ptr_ID2D1StrokeStyle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Factory.CreateStrokeStyle
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Factory::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle)

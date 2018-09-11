@@ -4,17 +4,16 @@ title: IAMCameraControl::GetRange
 author: windows-sdk-content
 description: The GetRange method gets the range and default value of a specified camera property.
 old-location: dshow\iamcameracontrol_getrange.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f09090ea-d916-47cd-8621-e8c2bb46aeca
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetRange, GetRange method [DirectShow], GetRange method [DirectShow],IAMCameraControl interface, IAMCameraControl interface [DirectShow],GetRange method, IAMCameraControl.GetRange, IAMCameraControl::GetRange, IAMCameraControlGetRange, dshow.iamcameracontrol_getrange, strmif/IAMCameraControl::GetRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMCameraControl.GetRange
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMCameraControl::GetRange
@@ -66,7 +64,7 @@ The <b>GetRange</b> method gets the range and default value of a specified camer
 
 ### -param Property
 
-
+TBD
 
 
 ### -param pMin [out]

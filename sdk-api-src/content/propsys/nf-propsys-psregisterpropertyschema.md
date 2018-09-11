@@ -4,17 +4,16 @@ title: PSRegisterPropertySchema function
 author: windows-sdk-content
 description: Informs the schema subsystem of the addition of a property description schema file.
 old-location: properties\PSRegisterPropertySchema.htm
-old-project: properties
+tech.root: properties
 ms.assetid: ea9c4361-fada-4b07-b450-dd0c6409745a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSRegisterPropertySchema, PSRegisterPropertySchema function [Windows Properties], properties.PSRegisterPropertySchema, propsys/PSRegisterPropertySchema, shell.PSRegisterPropertySchema, shell_PSRegisterPropertySchema
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSRegisterPropertySchema
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 5.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PSRegisterPropertySchema function

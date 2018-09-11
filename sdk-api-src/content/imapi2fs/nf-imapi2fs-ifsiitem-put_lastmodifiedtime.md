@@ -4,17 +4,16 @@ title: IFsiItem::put_LastModifiedTime
 author: windows-sdk-content
 description: Sets the date and time that the item was last modified in the file system image.
 old-location: imapi\ifsiitem_put_lastmodifiedtime.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 11491b16-0bdc-41a6-a99d-0543cdc3bb64
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFsiItem interface [IMAPI],put_LastModifiedTime method, IFsiItem.put_LastModifiedTime, IFsiItem::put_LastModifiedTime, imapi.ifsiitem_put_lastmodifiedtime, imapi2fs/IFsiItem::put_LastModifiedTime, put_LastModifiedTime, put_LastModifiedTime method [IMAPI], put_LastModifiedTime method [IMAPI],IFsiItem interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiItem.put_LastModifiedTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiItem::put_LastModifiedTime

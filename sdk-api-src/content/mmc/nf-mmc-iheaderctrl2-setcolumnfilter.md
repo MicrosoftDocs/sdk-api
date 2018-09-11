@@ -4,17 +4,16 @@ title: IHeaderCtrl2::SetColumnFilter
 author: windows-sdk-content
 description: The IHeaderCtrl2::SetColumnFilter sets the filter value and its maximum character length for a specified column in a filtered list.
 old-location: mmc\iheaderctrl2_setcolumnfilter.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: df1257ee-66c4-4b63-a9c5-1bd0b94b4a85
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IHeaderCtrl2 interface [MMC],SetColumnFilter method, IHeaderCtrl2.SetColumnFilter, IHeaderCtrl2::SetColumnFilter, SetColumnFilter, SetColumnFilter method [MMC], SetColumnFilter method [MMC],IHeaderCtrl2 interface, _slate_iheaderctrl2_setcolumnfilter, mmc.iheaderctrl2_setcolumnfilter, mmc/IHeaderCtrl2::SetColumnFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IHeaderCtrl2.SetColumnFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IHeaderCtrl2::SetColumnFilter

@@ -4,17 +4,16 @@ title: IFont::AddRefHfont
 author: windows-sdk-content
 description: Notifies the font object that the previously realized font identified with hFont should remain valid until ReleaseHfont is called or the font object itself is released completely.
 old-location: com\ifont_addrefhfont.htm
-old-project: com
+tech.root: com
 ms.assetid: f86d52b8-e763-4948-b853-039721ae9b38
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddRefHfont, AddRefHfont method [COM], AddRefHfont method [COM],IFont interface, IFont interface [COM],AddRefHfont method, IFont.AddRefHfont, IFont::AddRefHfont, _ctrl_ifont_addrefhfont, com.ifont_addrefhfont, ocidl/IFont::AddRefHfont
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFont.AddRefHfont
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFont::AddRefHfont

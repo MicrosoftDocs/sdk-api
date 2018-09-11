@@ -4,17 +4,16 @@ title: IMILBitmapEffects::_NewEnum
 author: windows-sdk-content
 description: Retrieves a new enumeration.
 old-location: wibe\_wibe_imilbitmapeffects__newenum.htm
-old-project: wibe
+tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\_newenum.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],_NewEnum method, IMILBitmapEffects._NewEnum, IMILBitmapEffects::_NewEnum, _NewEnum, _NewEnum method [WPF Bitmap Effects], _NewEnum method [WPF Bitmap Effects],IMILBitmapEffects interface, _wibe_imilbitmapeffects__newenum, mileffects/IMILBitmapEffects::_NewEnum, wibe._wibe_imilbitmapeffects__newenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 
-req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMILBitmapEffects._NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Microsoft .Net 3.0
 ---
 
 # IMILBitmapEffects::_NewEnum

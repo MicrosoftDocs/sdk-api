@@ -4,17 +4,16 @@ title: GetCurrentPackageFamilyName function
 author: windows-sdk-content
 description: Gets the package family name for the calling process.
 old-location: appxpkg\getcurrentpackagefamilyname.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 39DBFBDD-A1CC-45C3-A5DD-5ED9697F9AFE
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetCurrentPackageFamilyName, GetCurrentPackageFamilyName function [App packaging and management], appmodel/GetCurrentPackageFamilyName, appxpkg.getcurrentpackagefamilyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - GetCurrentPackageFamilyName
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetCurrentPackageFamilyName function

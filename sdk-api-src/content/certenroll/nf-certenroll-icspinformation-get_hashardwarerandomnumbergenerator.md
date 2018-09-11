@@ -4,17 +4,16 @@ title: ICspInformation::get_HasHardwareRandomNumberGenerator
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the provider supports a hardware random number generator that can be used to create random bytes for cryptographic operations.
 old-location: security\icspinformation_hashardwarerandomnumbergenerator_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 49d79310-90d2-4874-beaf-284abefd950f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: HasHardwareRandomNumberGenerator property [Security], HasHardwareRandomNumberGenerator property [Security],ICspInformation interface, ICspInformation interface [Security],HasHardwareRandomNumberGenerator property, ICspInformation.HasHardwareRandomNumberGenerator, ICspInformation.get_HasHardwareRandomNumberGenerator, ICspInformation::HasHardwareRandomNumberGenerator, ICspInformation::get_HasHardwareRandomNumberGenerator, certenroll/ICspInformation::HasHardwareRandomNumberGenerator, certenroll/ICspInformation::get_HasHardwareRandomNumberGenerator, get_HasHardwareRandomNumberGenerator, security.icspinformation_hashardwarerandomnumbergenerator_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspInformation.get_HasHardwareRandomNumberGenerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspInformation::get_HasHardwareRandomNumberGenerator

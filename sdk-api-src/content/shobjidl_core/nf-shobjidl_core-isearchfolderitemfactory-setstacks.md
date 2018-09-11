@@ -4,17 +4,16 @@ title: ISearchFolderItemFactory::SetStacks
 author: windows-sdk-content
 description: Creates a list of stack keys, as specified. If this method is not called, by default the folder will not be stacked.
 old-location: shell\ISearchFolderItemFactory_SetStacks.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d2f3d975-b968-4491-868f-90eccb40e8e4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetStacks method, ISearchFolderItemFactory.SetStacks, ISearchFolderItemFactory::SetStacks, SetStacks, SetStacks method [Windows Shell], SetStacks method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetStacks, shell.ISearchFolderItemFactory_SetStacks, shobjidl_core/ISearchFolderItemFactory::SetStacks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchFolderItemFactory.SetStacks
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchFolderItemFactory::SetStacks

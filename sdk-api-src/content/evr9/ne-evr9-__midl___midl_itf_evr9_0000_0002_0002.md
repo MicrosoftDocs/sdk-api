@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_evr9_0000_0002_0002"
 author: windows-sdk-content
 description: Defines flags for the MFVideoAlphaBitmapParams structure.
 old-location: mf\mfvideoalphabitmapflags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d9989c44-8a3c-4f8b-a63d-e39e26797935
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: evr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoAlphaBitmapFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFVideoAlphaBitmapFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: MFVideoAlphaBitmapFlags
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_evr9_0000_0002_0002 enumeration

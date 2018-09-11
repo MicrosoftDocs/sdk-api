@@ -4,7 +4,7 @@ title: "_NL_INTERFACE_OFFLOAD_ROD"
 author: windows-sdk-content
 description: Specifies a set of flags that indicate the offload capabilities for an IP interface.
 old-location: mib\nl_interface_offload_rod.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 764c7f5a-00df-461d-99ee-07f9e1f77ec7
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nldef.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NL_INTERFACE_OFFLOAD_ROD, *PNL_INTERFACE_OFFLOAD_ROD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NL_INTERFACE_OFFLOAD_ROD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NL_INTERFACE_OFFLOAD_ROD, *PNL_INTERFACE_OFFLOAD_ROD
+req.redist: 
 ---
 
 # _NL_INTERFACE_OFFLOAD_ROD structure

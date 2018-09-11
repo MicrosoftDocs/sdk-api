@@ -4,17 +4,16 @@ title: IWdsTransportServicePolicy::put_StartIpAddress
 author: windows-sdk-content
 description: Enables a WDS client computer to configure the start of a multicast IP address range for a specified type of IP address.
 old-location: wds\iwdstransportservicepolicy_startipaddress.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 2ff25e3f-15a4-4dc2-b383-ca9027a650da
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],StartIpAddress property, IWdsTransportServicePolicy.StartIpAddress, IWdsTransportServicePolicy.put_StartIpAddress, IWdsTransportServicePolicy::StartIpAddress, IWdsTransportServicePolicy::get_StartIpAddress, IWdsTransportServicePolicy::put_StartIpAddress, StartIpAddress property [Windows Deployment Services], StartIpAddress property [Windows Deployment Services],IWdsTransportServicePolicy interface, put_StartIpAddress, wds.iwdstransportservicepolicy_startipaddress, wdstptmgmt/IWdsTransportServicePolicy::StartIpAddress, wdstptmgmt/IWdsTransportServicePolicy::get_StartIpAddress, wdstptmgmt/IWdsTransportServicePolicy::put_StartIpAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWdsTransportServicePolicy.put_StartIpAddress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportServicePolicy::put_StartIpAddress

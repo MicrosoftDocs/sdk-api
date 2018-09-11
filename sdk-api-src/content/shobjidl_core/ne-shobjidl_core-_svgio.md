@@ -4,17 +4,16 @@ title: "_SVGIO"
 author: windows-sdk-content
 description: Used with the IFolderView::Items, IFolderView::ItemCount, and IShellView::GetItemObject methods to restrict or control the items in their collections.
 old-location: shell\SVGIO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 06ed616b-8121-4ea0-bd05-632888d0f376
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SVGIO_ALLVIEW, SVGIO_BACKGROUND, SVGIO_CHECKED, SVGIO_FLAG_VIEWORDER, SVGIO_SELECTION, SVGIO_TYPE_MASK, _SVGIO, _SVGIO enumeration [Windows Shell], _shell_SVGIO, shell.SVGIO, shobjidl_core/SVGIO_ALLVIEW, shobjidl_core/SVGIO_BACKGROUND, shobjidl_core/SVGIO_CHECKED, shobjidl_core/SVGIO_FLAG_VIEWORDER, shobjidl_core/SVGIO_SELECTION, shobjidl_core/SVGIO_TYPE_MASK, shobjidl_core/_SVGIO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_SVGIO"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _SVGIO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: "_SVGIO"
+req.redist: 
 ---
 
 # _SVGIO enumeration

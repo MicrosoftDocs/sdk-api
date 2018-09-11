@@ -4,7 +4,7 @@ title: "_tag_AMVAEndFrameInfo"
 author: windows-sdk-content
 description: The AMVAEndFrameInfo structure contains information for the IAMVideoAccelerator::EndFrame method.
 old-location: dshow\amvaendframeinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7f9308c1-0426-4c0f-97aa-4d946ac2403a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAEndFrameInfo, *LPAMVAEndFrameInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AMVAEndFrameInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AMVAEndFrameInfo, *LPAMVAEndFrameInfo
+req.redist: 
 ---
 
 # _tag_AMVAEndFrameInfo structure

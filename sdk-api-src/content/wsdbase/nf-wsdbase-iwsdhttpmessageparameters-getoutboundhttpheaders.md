@@ -4,17 +4,16 @@ title: IWSDHttpMessageParameters::GetOutboundHttpHeaders
 author: windows-sdk-content
 description: Retrieves the current HTTP headers used for outbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_getoutboundhttpheaders.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: c366773a-1869-4181-a457-560a1a9c84cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetOutboundHttpHeaders, GetOutboundHttpHeaders method, GetOutboundHttpHeaders method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetOutboundHttpHeaders method, IWSDHttpMessageParameters.GetOutboundHttpHeaders, IWSDHttpMessageParameters::GetOutboundHttpHeaders, ncd.iwsdhttpmessageparameters_getoutboundhttpheaders, wsdbase/IWSDHttpMessageParameters::GetOutboundHttpHeaders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDHttpMessageParameters.GetOutboundHttpHeaders
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDHttpMessageParameters::GetOutboundHttpHeaders

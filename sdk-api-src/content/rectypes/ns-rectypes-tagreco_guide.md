@@ -4,17 +4,16 @@ title: tagRECO_GUIDE
 author: windows-sdk-content
 description: Defines the boundaries of the ink to the recognizer.
 old-location: tablet\reco_guide.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: RECO_GUIDE, RECO_GUIDE structure [Tablet PC], e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7, rectypes/RECO_GUIDE, tablet.reco_guide, tagRECO_GUIDE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_GUIDE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RECO_GUIDE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RECO_GUIDE
+req.redist: 
 ---
 
 # tagRECO_GUIDE structure

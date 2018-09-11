@@ -4,17 +4,16 @@ title: IBDA_DRM::GetDRMPairingStatus
 author: windows-sdk-content
 description: The GetDRMPairingStatus method queries the status of the DRM handshake.
 old-location: mstv\ibda_drm_getdrmpairingstatus.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: dff38609-9e90-491c-b8c4-33fd07471895
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDRMPairingStatus, GetDRMPairingStatus method [Microsoft TV Technologies], GetDRMPairingStatus method [Microsoft TV Technologies],IBDA_DRM interface, IBDA_DRM interface [Microsoft TV Technologies],GetDRMPairingStatus method, IBDA_DRM.GetDRMPairingStatus, IBDA_DRM::GetDRMPairingStatus, IBDA_DRMGetDRMPairingStatus, bdaiface/IBDA_DRM::GetDRMPairingStatus, mstv.ibda_drm_getdrmpairingstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_DRM.GetDRMPairingStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_DRM::GetDRMPairingStatus
@@ -66,7 +65,7 @@ Receives a value from the <a href="https://msdn.microsoft.com/en-us/library/Dd69
 
 ### -param phError
 
-
+TBD
 
 
 

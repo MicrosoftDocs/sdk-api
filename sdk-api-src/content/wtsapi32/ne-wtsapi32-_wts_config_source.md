@@ -4,7 +4,7 @@ title: "_WTS_CONFIG_SOURCE"
 author: windows-sdk-content
 description: Specifies the source of configuration information returned by the WTSQueryUserConfig function.
 old-location: termserv\wts_config_source.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 2e1f45d9-dc89-4848-9ba5-e6d54b2a7737
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WSManDisp.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_CONFIG_SOURCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTS_CONFIG_SOURCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTS_CONFIG_SOURCE
+req.redist: 
 ---
 
 # _WTS_CONFIG_SOURCE enumeration

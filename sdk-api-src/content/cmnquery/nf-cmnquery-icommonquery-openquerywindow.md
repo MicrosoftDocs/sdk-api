@@ -4,17 +4,16 @@ title: ICommonQuery::OpenQueryWindow
 author: windows-sdk-content
 description: The ICommonQuery::OpenQueryWindow method displays the directory service query dialog. This method does not return until the dialog box has been closed by the user.
 old-location: ad\icommonquery_openquerywindow.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 604c4d7a-1f85-4e5b-9879-be502c5c7bff
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CFSTR_DSOBJECTNAMES, CFSTR_DSQUERYPARAMS, CFSTR_DSQUERYSCOPE, ICommonQuery interface [Active Directory],OpenQueryWindow method, ICommonQuery.OpenQueryWindow, ICommonQuery::OpenQueryWindow, OpenQueryWindow, OpenQueryWindow method [Active Directory], OpenQueryWindow method [Active Directory],ICommonQuery interface, _glines_icommonquery_openquerywindow, ad.icommonquery__openquerywindow, ad.icommonquery_openquerywindow, cmnquery/ICommonQuery::OpenQueryWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cmnquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uuid.lib
+req.dll: Dsquery.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICommonQuery.OpenQueryWindow
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Dsquery.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICommonQuery::OpenQueryWindow
@@ -61,7 +60,7 @@ The <b>ICommonQuery::OpenQueryWindow</b> method displays the directory service q
 
 ### -param hwndParent
 
-
+TBD
 
 
 ### -param pQueryWnd [in]
@@ -72,7 +71,7 @@ Address of an
 
 ### -param ppDataObject
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: "_MIDL_STUB_DESC"
 author: windows-sdk-content
 description: The MIDL_STUB_DESC structure is a MIDL-generated structure that contains information about the interface stub regarding RPC calls between the client and server.
 old-location: rpc\midl_stub_desc.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: e3178aaa-a30a-43ba-a78a-a28d6f20fa74
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MIDL_STUB_DESC, MIDL_STUB_DESC structure [RPC], PMIDL_STUB_DESC, PMIDL_STUB_DESC structure pointer [RPC], RPCFLG_HAS_CALLBACK, RPCFLG_HAS_MULTI_SYNTAXES, RPC_INTERFACE_HAS_PIPES, _MIDL_STUB_DESC, rpc.midl_stub_desc, rpcndr/MIDL_STUB_DESC, rpcndr/PMIDL_STUB_DESC
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIDL_STUB_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIDL_STUB_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MIDL_STUB_DESC
+req.redist: 
 ---
 
 # _MIDL_STUB_DESC structure
@@ -107,12 +105,12 @@ Array of function pointers to bind and unbind function pairs for the implicit ge
 
 ### -field apfnExprEval
 
-Array of function pointers to expression evaluator functions used to evaluate MIDL complex conformance and varying descriptions. For example, <a href="https://msdn.microsoft.com/">size_is</a>(param1 + param2). 
+Array of function pointers to expression evaluator functions used to evaluate MIDL complex conformance and varying descriptions. For example, <a href="https://msdn.microsoft.com/1f3f3629-f668-460d-86fd-16ef22449973">size_is</a>(param1 + param2). 
 
 
 ### -field aXmitQuintuple
 
-Array of an array of function pointers for user-defined <a href="https://msdn.microsoft.com/3dd1a242-03ec-49b4-ac96-87ef186e41d2">transmit_as</a> and <a href="https://msdn.microsoft.com/">represent_as</a>  types.
+Array of an array of function pointers for user-defined <a href="https://msdn.microsoft.com/3dd1a242-03ec-49b4-ac96-87ef186e41d2">transmit_as</a> and <a href="https://msdn.microsoft.com/ae44d220-e8f3-47a3-8f5e-a2668ac75411">represent_as</a>  types.
 
 
 ### -field pFormatTypes
@@ -142,17 +140,17 @@ Version of the MIDL compiler used to compile the .idl file.
 
 ### -field CommFaultOffsets
 
-Array of stack offsets for parameters with <a href="https://msdn.microsoft.com/">comm_status</a> or <a href="https://msdn.microsoft.com/9da7bd3d-cef0-4ad4-b2a4-3f8aa156e8e0">fault_status</a> attributes. 
+Array of stack offsets for parameters with <a href="https://msdn.microsoft.com/">comm_status</a> or <a href="https://msdn.microsoft.com/">fault_status</a> attributes. 
 
 
 ### -field aUserMarshalQuadruple
 
-Array of an array of function pointers for user-defined <a href="https://msdn.microsoft.com/a2407aa3-574d-4690-8cdf-cb1c01ca8c49">user_marshal</a> and <a href="https://msdn.microsoft.com/">wire_marshal</a>  types.
+Array of an array of function pointers for user-defined <a href="https://msdn.microsoft.com/">user_marshal</a> and <a href="https://msdn.microsoft.com/">wire_marshal</a>  types.
 
 
 ### -field NotifyRoutineTable
 
-Array of notification function pointers for methods with the <a href="https://msdn.microsoft.com/24f9887b-04b7-491a-ab6e-7c078b967fbc">notify</a> or <a href="https://msdn.microsoft.com/a40b7114-d2e3-40c1-a0b1-599428188611">notify_flag</a> attribute specified.
+Array of notification function pointers for methods with the <a href="https://msdn.microsoft.com/">notify</a> or <a href="https://msdn.microsoft.com/a40b7114-d2e3-40c1-a0b1-599428188611">notify_flag</a> attribute specified.
 
 
 ### -field mFlags

@@ -4,17 +4,16 @@ title: WebSocketBeginServerHandshake function
 author: windows-sdk-content
 description: Begins the server-side handshake.
 old-location: websock\websocketbeginserverhandshake.htm
-old-project: WebSock
+tech.root: WebSock
 ms.assetid: 4009b56c-a92c-43fe-9e7b-2c38048aa748
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WebSocketBeginServerHandshake, WebSocketBeginServerHandshake function [Websocket Protocol Component API], websock.websocketbeginserverhandshake, websocket/WebSocketBeginServerHandshake
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: websocket.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY_TYPE
+req.lib: Websocket.lib
+req.dll: Websocket.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WebSocketBeginServerHandshake
 product: Windows
 targetos: Windows
-req.lib: Websocket.lib
-req.dll: Websocket.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WebSocketBeginServerHandshake function

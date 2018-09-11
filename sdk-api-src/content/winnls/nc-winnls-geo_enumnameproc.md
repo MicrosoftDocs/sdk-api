@@ -4,7 +4,7 @@ title: GEO_ENUMNAMEPROC
 author: windows-sdk-content
 description: An application-defined callback function that processes enumerated geographical location information provided by the EnumSystemGeoNames function.
 old-location: intl\geo_enumnameproc.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 51C64387-5BDF-463B-8A93-9748C099BB09
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNIVERSAL_NAME_INFOW, *LPUNIVERSAL_NAME_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Geo_EnumNameProc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GEO_ENUMNAMEPROC callback function

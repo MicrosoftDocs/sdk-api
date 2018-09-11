@@ -4,17 +4,16 @@ title: ICertPolicy2
 author: windows-sdk-content
 description: Provide communications between the Certificate Services server engine and the policy module.
 old-location: security\icertpolicy2.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 2e48b096-e23a-4106-bfaf-f089d2291fba
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertPolicy2, ICertPolicy2 interface [Security], ICertPolicy2 interface [Security],described, _certsrv_icertpolicy2, certpol/ICertPolicy2, security.icertpolicy2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certpol.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509SCEPFailInfo
+req.lib: Certidl.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertPolicy2
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPolicy2 interface

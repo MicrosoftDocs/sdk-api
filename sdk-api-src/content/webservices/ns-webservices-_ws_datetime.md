@@ -4,17 +4,16 @@ title: "_WS_DATETIME"
 author: windows-sdk-content
 description: This structure is used to represent dates and times.
 old-location: wsw\ws_datetime.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 635f8e0b-f994-4500-85ad-dd74fb4a6c22
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_DATETIME, WS_DATETIME structure [Web Services for Windows], _WS_DATETIME, webservices/WS_DATETIME, wsw.ws_datetime
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_DATETIME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_DATETIME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_DATETIME
+req.redist: 
 ---
 
 # _WS_DATETIME structure

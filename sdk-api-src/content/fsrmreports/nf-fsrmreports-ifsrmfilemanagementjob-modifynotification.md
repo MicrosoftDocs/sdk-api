@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::ModifyNotification
 author: windows-sdk-content
 description: Change a notification value in the file management job's list of notifications.
 old-location: fsrm\ifsrmfilemanagementjob_modifynotification.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: f2b26ed7-5bbc-4b34-ae11-7fcdb621a55b
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],ModifyNotification method, IFsrmFileManagementJob.ModifyNotification, IFsrmFileManagementJob::ModifyNotification, ModifyNotification, ModifyNotification method [File Server Resource Manager], ModifyNotification method [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_modifynotification, fsrm.ifsrmfilemanagementjob_modifynotification, fsrmreports/IFsrmFileManagementJob::ModifyNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmFileManagementJob.ModifyNotification
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::ModifyNotification

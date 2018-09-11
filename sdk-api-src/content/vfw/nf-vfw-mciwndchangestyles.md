@@ -4,17 +4,16 @@ title: MCIWndChangeStyles macro
 author: windows-sdk-content
 description: The MCIWndChangeStyles macro changes the styles used by the MCIWnd window. You can use this macro or explicitly send the MCIWNDM_CHANGESTYLES message.
 old-location: multimedia\mciwndchangestyles.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: d87da0b0-4217-421d-a9d5-03602fb2b477
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndChangeStyles, MCIWndChangeStyles macro [Windows Multimedia], _win32_MCIWndChangeStyles, multimedia.mciwndchangestyles, vfw/MCIWndChangeStyles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndChangeStyles
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndChangeStyles macro

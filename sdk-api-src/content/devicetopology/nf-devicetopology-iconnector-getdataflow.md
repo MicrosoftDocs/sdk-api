@@ -4,17 +4,16 @@ title: IConnector::GetDataFlow
 author: windows-sdk-content
 description: The GetDataFlow method gets the direction of data flow through this connector.
 old-location: coreaudio\iconnector_getdataflow.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 55078775-2921-45c2-af27-c8ad53688293
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetDataFlow, GetDataFlow method [Core Audio], GetDataFlow method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetDataFlow method, IConnector.GetDataFlow, IConnector::GetDataFlow, IConnectorGetDataFlow, coreaudio.iconnector_getdataflow, devicetopology/IConnector::GetDataFlow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IConnector.GetDataFlow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IConnector::GetDataFlow

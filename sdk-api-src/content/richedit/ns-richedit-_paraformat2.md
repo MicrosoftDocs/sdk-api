@@ -4,7 +4,7 @@ title: "_paraformat2"
 author: windows-sdk-content
 description: Contains information about paragraph formatting attributes in a rich edit control.
 old-location: controls\PARAFORMAT2.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\paraformat2.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PARAFORMAT2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PARAFORMAT2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PARAFORMAT2
+req.redist: 
 ---
 
 # _paraformat2 structure
@@ -60,14 +58,14 @@ Contains information about paragraph formatting attributes in a rich edit contro
 
 
 
-#### - cbSize
+### -field cbSize
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Structure size, in bytes. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/en-us/library/Bb787940(v=VS.85).aspx">PARAFORMAT</a> or <b>PARAFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>PARAFORMAT</b> structure, the control uses only the <b>PARAFORMAT</b> members. 
 
 
-#### - dwMask
+### -field dwMask
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
@@ -402,7 +400,7 @@ The PFE_TABLEROWDELIMITER value is valid.
  
 
 
-#### - wNumbering
+### -field wNumbering
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
 
@@ -523,7 +521,7 @@ Uses a sequence of characters beginning with the Unicode character specified by 
  
 
 
-#### - wEffects
+### -field wEffects
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
 
@@ -646,28 +644,28 @@ The paragraph is a start delimiter (U+FFF9 U+000D) or end delimiter (U+FFFB U+00
  
 
 
-#### - dxStartIndent
+### -field dxStartIndent
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
 Indentation of the paragraph's first line, in twips. The indentation of subsequent lines depends on the <b>dxOffset</b> member. To use the <b>dxStartIndent</b> member, set the PFM_STARTINDENT or PFM_OFFSETINDENT flag in the <b>dwMask</b> member. If you are setting the indentation, use the PFM_STARTINDENT flag to specify an absolute indentation from the left margin; or use the PFM_OFFSETINDENT flag to specify an indentation relative to the paragraph's current indentation. Use either flag to retrieve the current indentation. 
 
 
-#### - dxRightIndent
+### -field dxRightIndent
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
 Indentation of the right side of the paragraph, relative to the right margin, in twips. To use this member, set the PFM_RIGHTINDENT flag in the <b>dwMask</b> member. 
 
 
-#### - dxOffset
+### -field dxOffset
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
 Indentation of the second and subsequent lines, relative to the indentation of the first line, in twips. The first line is indented if this member is negative or outdented if this member is positive. To use this member, set the PFM_OFFSET flag in the <b>dwMask</b> member. 
 
 
-#### - wAlignment
+### -field wAlignment
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
 
@@ -733,7 +731,7 @@ Paragraphs are justified by expanding the blanks alone.
  
 
 
-#### - cTabCount
+### -field cTabCount
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SHORT</a></b>
 
@@ -741,7 +739,7 @@ Number of tab stops defined in the
 					<b>rgxTabs</b> array.
 
 
-#### - rgxTabs
+### -field rgxTabs
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 

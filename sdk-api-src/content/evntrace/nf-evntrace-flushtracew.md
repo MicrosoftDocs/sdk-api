@@ -4,17 +4,16 @@ title: FlushTraceW function
 author: windows-sdk-content
 description: The FlushTrace function causes an event tracing session to immediately deliver buffered events for the specified session.
 old-location: etw\flushtrace.htm
-old-project: etw
+tech.root: etw
 ms.assetid: bc7d0dac-93d9-4614-9cb6-fee99765eb39
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: FlushTrace, FlushTrace function [ETW], FlushTraceA, FlushTraceW, _evt_flushtrace, base.flushtrace, etw.flushtrace, evntrace/FlushTrace, evntrace/FlushTraceA, evntrace/FlushTraceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - FlushTraceW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # FlushTraceW function

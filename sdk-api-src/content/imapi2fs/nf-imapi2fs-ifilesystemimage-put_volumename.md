@@ -4,17 +4,16 @@ title: IFileSystemImage::put_VolumeName
 author: windows-sdk-content
 description: Sets the volume name for this file system image.
 old-location: imapi\ifilesystemimage_put_volumename.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: afb87eb1-5d14-413a-8830-2612920eac3d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_VolumeName method, IFileSystemImage.put_VolumeName, IFileSystemImage::put_VolumeName, imapi.ifilesystemimage_put_volumename, imapi2fs/IFileSystemImage::put_VolumeName, put_VolumeName, put_VolumeName method [IMAPI], put_VolumeName method [IMAPI],IFileSystemImage interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage.put_VolumeName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage::put_VolumeName

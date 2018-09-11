@@ -4,17 +4,16 @@ title: ICreateDeviceAccessAsync::Wait
 author: windows-sdk-content
 description: The Wait method waits a specified length of time for an asynchronous bind operation that is in progress to finish.
 old-location: deviceaccess\icreatedeviceaccessasync_wait.htm
-old-project: deviceaccess
+tech.root: deviceaccess
 ms.assetid: 6fdab230-f8f7-47fa-838f-97316a4e78b9
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ICreateDeviceAccessAsync interface [Device Access Broker API],Wait method, ICreateDeviceAccessAsync.Wait, ICreateDeviceAccessAsync::Wait, Wait, Wait method [Device Access Broker API], Wait method [Device Access Broker API],ICreateDeviceAccessAsync interface, deviceaccess.icreatedeviceaccessasync_wait, deviceaccess/ICreateDeviceAccessAsync::Wait
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: deviceaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOMEMORYINFO
+req.lib: Deviceaccess.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICreateDeviceAccessAsync.Wait
 product: Windows
 targetos: Windows
-req.lib: Deviceaccess.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateDeviceAccessAsync::Wait

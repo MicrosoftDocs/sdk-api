@@ -4,17 +4,16 @@ title: IScrollItemProvider::ScrollIntoView
 author: windows-sdk-content
 description: Scrolls the content area of a container object in order to display the control within the visible region (viewport) of the container.
 old-location: winauto\uiauto_IScrollItemProvider_ScrollIntoView.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 2d1ce9f2-b3ba-40c5-a750-bd739b1abc07
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IScrollItemProvider interface [Windows Accessibility],ScrollIntoView method, IScrollItemProvider.ScrollIntoView, IScrollItemProvider::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],IScrollItemProvider interface, uiauto.uiauto_IScrollItemProvider_ScrollIntoView, uiauto_IScrollItemProvider_ScrollIntoView, uiautomationcore/IScrollItemProvider::ScrollIntoView, winauto.uiauto_IScrollItemProvider_ScrollIntoView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScrollItemProvider.ScrollIntoView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IScrollItemProvider::ScrollIntoView

@@ -4,17 +4,16 @@ title: MsiProvideAssemblyA function
 author: windows-sdk-content
 description: The MsiProvideAssembly function returns the full path to a Windows Installer component that contains an assembly. The function prompts for a source and performs any necessary installation. MsiProvideAssembly increments the usage count for the feature.
 old-location: setup\msiprovideassembly.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 9d7deb0b-f247-4af0-ba94-4d40c2f31109
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NODETECTION_ANY, INSTALLMODE_NOSOURCERESOLUTION, MSIASSEMBLYINFO_NETASSEMBLY, MSIASSEMBLYINFO_WIN32ASSEMBLY, MsiProvideAssembly, MsiProvideAssembly function, MsiProvideAssemblyA, MsiProvideAssemblyW, _msi_msiprovideassembly, combination of the REINSTALLMODE flags, msi/MsiProvideAssembly, msi/MsiProvideAssemblyA, msi/MsiProvideAssemblyW, setup.msiprovideassembly
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiProvideAssemblyW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiProvideAssemblyA function

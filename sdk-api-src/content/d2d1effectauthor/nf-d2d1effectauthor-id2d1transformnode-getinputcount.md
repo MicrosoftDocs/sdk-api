@@ -4,17 +4,16 @@ title: ID2D1TransformNode::GetInputCount
 author: windows-sdk-content
 description: Gets the number of inputs to the transform node.
 old-location: direct2d\id2d1transformnode_getinputcount.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 8F8D2BD1-AF03-4EEA-8F5E-DED174074333
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetInputCount, GetInputCount method [Direct2D], GetInputCount method [Direct2D],ID2D1TransformNode interface, ID2D1TransformNode interface [Direct2D],GetInputCount method, ID2D1TransformNode.GetInputCount, ID2D1TransformNode::GetInputCount, d2d1effectauthor/ID2D1TransformNode::GetInputCount, direct2d.id2d1transformnode_getinputcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2d1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1TransformNode.GetInputCount
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1TransformNode::GetInputCount

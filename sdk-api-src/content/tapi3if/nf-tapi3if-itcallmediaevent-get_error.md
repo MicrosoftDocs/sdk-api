@@ -4,17 +4,16 @@ title: ITCallMediaEvent::get_Error
 author: windows-sdk-content
 description: The get_Error method gets the error associated with the media event, if any.
 old-location: tapi3\itcallmediaevent_get_error.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6a6b84f1-700e-42e5-9127-161a6c078235
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Error method, ITCallMediaEvent.get_Error, ITCallMediaEvent::get_Error, _tapi3_itcallmediaevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_error, tapi3if/ITCallMediaEvent::get_Error
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallMediaEvent.get_Error
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallMediaEvent::get_Error

@@ -4,17 +4,16 @@ title: IMetaDataTables2
 author: windows-sdk-content
 description: Extends IMetaDataTables to include methods for working with metadata streams.
 old-location: winrt\imetadatatables2.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: dc59fe85-b490-4f23-a32f-2942610dd8dc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMetaDataTables2, IMetaDataTables2 interface [Windows Runtime], IMetaDataTables2 interface [Windows Runtime],described, rometadataapi/IMetaDataTables2, winrt.imetadatatables2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables2 interface

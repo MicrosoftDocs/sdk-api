@@ -4,17 +4,16 @@ title: IGPMAsyncProgress::Status
 author: windows-sdk-content
 description: The server calls this method to notify the client about the status of a Group Policy Management Console (GPMC) operation.
 old-location: gpmc\igpmasyncprogress_status.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: db5d59a2-ab46-42f1-9637-6b342795c9f0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IGPMAsyncProgress interface [GPMC],Status method, IGPMAsyncProgress.Status, IGPMAsyncProgress::Status, Status, Status method [GPMC], Status method [GPMC],IGPMAsyncProgress interface, _win32_igpmasyncprogress_status, gpmc.igpmasyncprogress_status, gpmgmt/IGPMAsyncProgress::Status
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPMAsyncProgress.Status
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMAsyncProgress::Status

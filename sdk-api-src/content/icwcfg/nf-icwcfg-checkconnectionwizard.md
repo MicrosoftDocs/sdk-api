@@ -4,17 +4,16 @@ title: CheckConnectionWizard function
 author: windows-sdk-content
 description: The CheckConnectionWizard function checks that the Internet Connection Wizard (ICW) is installed and that it has not been run before.
 old-location: winprog\checkconnectionwizard.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 81960d59-3de3-4d86-948e-939c59073bb1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CheckConnectionWizard, CheckConnectionWizard function [Windows API], ICW_ALREADYRUN, ICW_CHECKSTATUS, ICW_FULLPRESENT, ICW_FULL_SMARTSTART, ICW_LAUNCHEDFULL, ICW_LAUNCHEDMANUAL, ICW_LAUNCHFULL, ICW_LAUNCHMANUAL, ICW_MANUALPRESENT, ICW_USE_SHELLNEXT, icwcfg/CheckConnectionWizard, winprog.checkconnectionwizard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: icwcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Inetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CheckConnectionWizard
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Inetcfg.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CheckConnectionWizard function
@@ -63,7 +61,12 @@ The <b>CheckConnectionWizard</b> function checks that the Internet Connection Wi
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

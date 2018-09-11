@@ -4,7 +4,7 @@ title: "_MC_VCP_CODE_TYPE"
 author: windows-sdk-content
 description: Describes a Virtual Control Panel (VCP) code type.
 old-location: monitor\mc_vcp_code_type.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: 2ccfd6d0-7885-45b7-b44f-edefa320b881
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_VCP_CODE_TYPE, *LPMC_VCP_CODE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MC_VCP_CODE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MC_VCP_CODE_TYPE, *LPMC_VCP_CODE_TYPE
+req.redist: 
 ---
 
 # _MC_VCP_CODE_TYPE enumeration

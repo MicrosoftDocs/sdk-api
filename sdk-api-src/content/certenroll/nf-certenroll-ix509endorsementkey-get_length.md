@@ -4,17 +4,16 @@ title: IX509EndorsementKey::get_Length
 author: windows-sdk-content
 description: The bit length of the endorsement key. You can only access this property after the Open method has been called.
 old-location: security\ix509endorsementkey_length.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 31a94a37-ab56-4cb5-b4e0-ab3c74b748a0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509EndorsementKey interface [Security],Length property, IX509EndorsementKey.Length, IX509EndorsementKey.get_Length, IX509EndorsementKey::Length, IX509EndorsementKey::get_Length, Length property [Security], Length property [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::Length, certenroll/IX509EndorsementKey::get_Length, get_Length, security.ix509endorsementkey_length
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509EndorsementKey.get_Length
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EndorsementKey::get_Length

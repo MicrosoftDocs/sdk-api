@@ -4,17 +4,16 @@ title: IResultOwnerData::FindItem
 author: windows-sdk-content
 description: Finds the next item in a virtual list matching a specified string.
 old-location: mmc\iresultownerdata_finditem.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 839e6038-3f47-4192-b717-d81e4d9f202d
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: FindItem, FindItem method [MMC], FindItem method [MMC],IResultOwnerData interface, IResultOwnerData interface [MMC],FindItem method, IResultOwnerData.FindItem, IResultOwnerData::FindItem, _slate_iresultownerdata_finditem, mmc.iresultownerdata_finditem, mmc/IResultOwnerData::FindItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IResultOwnerData.FindItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IResultOwnerData::FindItem
@@ -62,7 +60,7 @@ The <b>IResultOwnerData::FindItem</b> method finds the next item in a virtual li
 
 ### -param pFindInfo
 
-
+TBD
 
 
 ### -param pnFoundIndex [out]

@@ -4,17 +4,16 @@ title: SetupDiOpenDeviceInterfaceA function
 author: windows-sdk-content
 description: The SetupDiOpenDeviceInterface function retrieves information about a device interface and adds the interface to the specified device information set for a local system or a remote system.
 old-location: devinst\setupdiopendeviceinterface.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 31ce43e5-08b4-4c1d-b31f-77ee4e278927
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiOpenDeviceInterface, SetupDiOpenDeviceInterface function [Device and Driver Installation], SetupDiOpenDeviceInterfaceA, SetupDiOpenDeviceInterfaceW, devinst.setupdiopendeviceinterface, di-rtns_4505f6a3-e634-4070-a9b3-1487c2808838.xml, setupapi/SetupDiOpenDeviceInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiOpenDeviceInterface
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiOpenDeviceInterfaceA function

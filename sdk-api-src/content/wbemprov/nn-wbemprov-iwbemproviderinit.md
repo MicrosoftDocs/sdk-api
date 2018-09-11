@@ -4,17 +4,16 @@ title: IWbemProviderInit
 author: windows-sdk-content
 description: The IWbemProviderInit interface is called by Windows Management to initialize providers. All providers are required to implement IWbemProviderInit.
 old-location: wmi\iwbemproviderinit.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 92edf347-c694-4023-b83f-09531072c631
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemProviderInit, IWbemProviderInit interface [Windows Management Instrumentation], IWbemProviderInit interface [Windows Management Instrumentation],described, _hmm_iwbemproviderinit, wbemprov/IWbemProviderInit, wmi.iwbemproviderinit
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemProviderInit
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wbemsvc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemProviderInit interface

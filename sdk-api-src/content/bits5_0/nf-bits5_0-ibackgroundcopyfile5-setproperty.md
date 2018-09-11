@@ -4,17 +4,16 @@ title: IBackgroundCopyFile5::SetProperty
 author: windows-sdk-content
 description: Sets a generic property of a BITS file transfer.
 old-location: bits\ibackgroundcopyfile5_setproperty.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 7a5809ef-e84f-4566-a5fa-fd63b1dfd15c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyFile5 interface [BITS],SetProperty method, IBackgroundCopyFile5.SetProperty, IBackgroundCopyFile5::SetProperty, SetProperty, SetProperty method [BITS], SetProperty method [BITS],IBackgroundCopyFile5 interface, bits.ibackgroundcopyfile5_setproperty, bits5_0/IBackgroundCopyFile5::SetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits5_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITS_FILE_PROPERTY_ID
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyFile5.SetProperty
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyFile5::SetProperty
@@ -67,7 +66,7 @@ Specifies the property to be set.
 
 ### -param PropertyValue
 
-
+TBD
 
 
 

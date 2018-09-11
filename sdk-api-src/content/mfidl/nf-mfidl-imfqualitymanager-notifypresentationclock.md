@@ -4,17 +4,16 @@ title: IMFQualityManager::NotifyPresentationClock
 author: windows-sdk-content
 description: Called when the Media Session selects a presentation clock.
 old-location: mf\imfqualitymanager_notifypresentationclock.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b358d98e-7b02-4c58-b556-cfa15436e435
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFQualityManager interface [Media Foundation],NotifyPresentationClock method, IMFQualityManager.NotifyPresentationClock, IMFQualityManager::NotifyPresentationClock, NotifyPresentationClock, NotifyPresentationClock method [Media Foundation], NotifyPresentationClock method [Media Foundation],IMFQualityManager interface, b358d98e-7b02-4c58-b556-cfa15436e435, mf.imfqualitymanager_notifypresentationclock, mfidl/IMFQualityManager::NotifyPresentationClock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFQualityManager.NotifyPresentationClock
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFQualityManager::NotifyPresentationClock

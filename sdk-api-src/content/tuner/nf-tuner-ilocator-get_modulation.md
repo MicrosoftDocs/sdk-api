@@ -4,17 +4,16 @@ title: ILocator::get_Modulation
 author: windows-sdk-content
 description: The get_Modulation method gets the modulation type.
 old-location: mstv\ilocator_get_modulation.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6aca60fa-ea8d-440d-a037-20537c25a105
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],get_Modulation method, ILocator.get_Modulation, ILocator::get_Modulation, ILocatorget_Modulation, get_Modulation, get_Modulation method [Microsoft TV Technologies], get_Modulation method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_modulation, tuner/ILocator::get_Modulation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocator.get_Modulation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ILocator::get_Modulation
@@ -65,7 +63,7 @@ The <b>get_Modulation</b> method gets the modulation type.
 
 ### -param Modulation
 
-
+TBD
 
 
 

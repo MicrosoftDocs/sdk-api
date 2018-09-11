@@ -4,17 +4,16 @@ title: "_PPP_INFO_3"
 author: windows-sdk-content
 description: The PPP_INFO_3 structure is used to report the results of the various Point-to-Point (PPP) projection operations for a connection.
 old-location: rras\ppp_info_3.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: cc231775-83bc-45d5-8bd8-7ac4cf5f09ff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PPP_INFO_3, PPP_INFO_3 structure [RAS], _PPP_INFO_3, mprapi/PPP_INFO_3, rras.ppp_info_3
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PPP_INFO_3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PPP_INFO_3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: PPP_INFO_3
+req.redist: 
 ---
 
 # _PPP_INFO_3 structure

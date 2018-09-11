@@ -4,7 +4,7 @@ title: "_DFS_STORAGE_INFO"
 author: windows-sdk-content
 description: Contains information about a DFS root or link target in a DFS namespace or from the cache maintained by the DFS client.
 old-location: dfs\dfs_storage_info.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: f50f32d8-1745-4ff6-97a6-ddd6fff95955
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_STORAGE_INFO, *PDFS_STORAGE_INFO, *LPDFS_STORAGE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFS_STORAGE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DFS_STORAGE_INFO, *PDFS_STORAGE_INFO, *LPDFS_STORAGE_INFO
+req.redist: 
 ---
 
 # _DFS_STORAGE_INFO structure

@@ -4,17 +4,16 @@ title: IAnalogRadioTuningSpace2::put_CountryCode
 author: windows-sdk-content
 description: This topic applies to Windows XP Media Center Edition 2004 and later.
 old-location: mstv\ianalogradiotuningspace2_put_countrycode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 89aecae6-42c0-4130-b381-986c0327fe5d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies],put_CountryCode method, IAnalogRadioTuningSpace2.put_CountryCode, IAnalogRadioTuningSpace2::put_CountryCode, IAnalogRadioTuningSpace2put_CountryCode, mstv.ianalogradiotuningspace2_put_countrycode, put_CountryCode, put_CountryCode method [Microsoft TV Technologies], put_CountryCode method [Microsoft TV Technologies],IAnalogRadioTuningSpace2 interface, tuner/IAnalogRadioTuningSpace2::put_CountryCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnalogRadioTuningSpace2.put_CountryCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAnalogRadioTuningSpace2::put_CountryCode

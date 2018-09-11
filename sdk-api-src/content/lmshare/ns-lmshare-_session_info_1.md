@@ -4,7 +4,7 @@ title: "_SESSION_INFO_1"
 author: windows-sdk-content
 description: Contains information about the session, including name of the computer; name of the user; and open files, pipes, and devices on the computer.
 old-location: fs\session_info_1_str.htm
-old-project: netshare
+tech.root: netshare
 ms.assetid: bc1c985e-b8af-4134-9ae4-511d82e3909b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SESSION_INFO_1, *PSESSION_INFO_1, *LPSESSION_INFO_1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SESSION_INFO_1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SESSION_INFO_1, *PSESSION_INFO_1, *LPSESSION_INFO_1
+req.redist: 
 ---
 
 # _SESSION_INFO_1 structure

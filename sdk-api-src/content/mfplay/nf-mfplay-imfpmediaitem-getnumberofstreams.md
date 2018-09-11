@@ -4,17 +4,16 @@ title: IMFPMediaItem::GetNumberOfStreams
 author: windows-sdk-content
 description: Gets the number of streams (audio, video, and other) in the media item.
 old-location: mf\imfpmediaitem_getnumberofstreams.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 65a3cfc8-9171-4206-b1b6-54bb0d3ecdd1
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetNumberOfStreams method, IMFPMediaItem.GetNumberOfStreams, IMFPMediaItem::GetNumberOfStreams, mf.imfpmediaitem_getnumberofstreams, mfplay/IMFPMediaItem::GetNumberOfStreams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaItem.GetNumberOfStreams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaItem::GetNumberOfStreams

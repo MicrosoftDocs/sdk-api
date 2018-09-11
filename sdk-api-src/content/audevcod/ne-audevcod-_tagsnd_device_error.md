@@ -4,7 +4,7 @@ title: "_tagSND_DEVICE_ERROR"
 author: windows-sdk-content
 description: Specifies how the audio device was being accessed when the failure occurred.
 old-location: dshow\snddev_err.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0a3def41-e3b4-416f-ad64-16394bd234c2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: audevcod.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SNDDEV_ERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SNDDEV_ERR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SNDDEV_ERR
+req.redist: 
 ---
 
 # _tagSND_DEVICE_ERROR enumeration

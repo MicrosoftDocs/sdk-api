@@ -4,17 +4,16 @@ title: IGroupPolicyObject::OpenRemoteMachineGPO
 author: windows-sdk-content
 description: The OpenRemoteMachineGPO method opens the default GPO for the specified remote computer and optionally loads the registry information.
 old-location: policy\igrouppolicyobject_openremotemachinegpo.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: ac124b48-7eb6-473b-a96b-de9b1a903f28
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject interface [Group Policy],OpenRemoteMachineGPO method, IGroupPolicyObject.OpenRemoteMachineGPO, IGroupPolicyObject::OpenRemoteMachineGPO, OpenRemoteMachineGPO, OpenRemoteMachineGPO method [Group Policy], OpenRemoteMachineGPO method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_openremotemachinegpo, gpedit/IGroupPolicyObject::OpenRemoteMachineGPO, policy.igrouppolicyobject_openremotemachinegpo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGroupPolicyObject.OpenRemoteMachineGPO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpedit.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGroupPolicyObject::OpenRemoteMachineGPO

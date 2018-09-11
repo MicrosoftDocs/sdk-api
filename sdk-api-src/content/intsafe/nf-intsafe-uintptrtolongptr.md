@@ -4,17 +4,16 @@ title: UIntPtrToLongPtr function
 author: windows-sdk-content
 description: Converts a value of type UINT_PTR to a value of type LONG_PTR.
 old-location: shell\UIntPtrToLongPtr.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 13956b42-981c-41ef-8137-e2c84f662a6b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SizeTToLongPtr, SizeTToSSIZET, UIntPtrToLongPtr, UIntPtrToLongPtr function [Windows Shell], UIntPtrToSSIZET, _shell_UIntPtrToLongPtr, intsafe/UIntPtrToLongPtr, shell.UIntPtrToLongPtr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UIntPtrToLongPtr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # UIntPtrToLongPtr function

@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::PSGetShader
 author: windows-sdk-content
 description: Get the pixel shader currently set on the device.
 old-location: direct3d11\id3d11devicecontext_psgetshader.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 6ebeb763-b517-468c-bd46-022a426e0b6e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 670956b7-c83d-77ff-bc7b-f0c5ef8d9986, ID3D11DeviceContext interface [Direct3D 11],PSGetShader method, ID3D11DeviceContext.PSGetShader, ID3D11DeviceContext::PSGetShader, PSGetShader, PSGetShader method [Direct3D 11], PSGetShader method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSGetShader, direct3d11.id3d11devicecontext_psgetshader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.PSGetShader
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::PSGetShader

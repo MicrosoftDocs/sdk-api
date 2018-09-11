@@ -4,17 +4,16 @@ title: MFCreateSample function
 author: windows-sdk-content
 description: Creates an empty media sample.
 old-location: mf\mfcreatesample.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b8bc29a5-e872-4c7b-ad1d-6c6085aa1984
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateSample, MFCreateSample function [Media Foundation], b8bc29a5-e872-4c7b-ad1d-6c6085aa1984, mf.mfcreatesample, mfapi/MFCreateSample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateSample
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateSample function

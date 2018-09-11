@@ -4,17 +4,16 @@ title: IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
 author: windows-sdk-content
 description: This callback is issued when an attempt to copy data from the sharer computer is made.
 old-location: rdp\irdpsrapiclipboarduseevents_onpastefromclipboard.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: aa5fccb9-ca7b-4779-a454-f16be8bca72c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIClipboardUseEvents interface [RDP],OnPasteFromClipboard method, IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard, IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard, OnPasteFromClipboard, OnPasteFromClipboard method [RDP], OnPasteFromClipboard method [RDP],IRDPSRAPIClipboardUseEvents interface, rdp.irdpsrapiclipboarduseevents_onpastefromclipboard, rdpencomapi/IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard

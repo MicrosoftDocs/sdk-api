@@ -4,17 +4,16 @@ title: IVPNotify::GetDeinterlaceMode
 author: windows-sdk-content
 description: The GetDeinterlaceMode method retrieves the mode (such as bob or weave).
 old-location: dshow\ivpnotify_getdeinterlacemode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 08d28857-5460-407d-a169-8568b2c381e6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDeinterlaceMode, GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow],IVPNotify interface, IVPNotify interface [DirectShow],GetDeinterlaceMode method, IVPNotify.GetDeinterlaceMode, IVPNotify::GetDeinterlaceMode, IVPNotifyGetDeinterlaceMode, dshow.ivpnotify_getdeinterlacemode, vpnotify/IVPNotify::GetDeinterlaceMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vpnotify.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9VideoStreamInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVPNotify.GetDeinterlaceMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVPNotify::GetDeinterlaceMode
@@ -68,7 +66,7 @@ This method is not currently implemented and returns E_NOTIMPL.
 
 ### -param pMode
 
-
+TBD
 
 
 

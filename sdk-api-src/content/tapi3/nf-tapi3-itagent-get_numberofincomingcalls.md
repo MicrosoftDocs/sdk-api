@@ -4,17 +4,16 @@ title: ITAgent::get_NumberOfIncomingCalls
 author: windows-sdk-content
 description: The get_NumberOfIncomingCalls method gets the number of incoming non-ACD calls handled by this agent.
 old-location: tapi3\itagent_get_numberofincomingcalls.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: d70073e9-a181-4f8d-b34f-95c8a24fe8d6
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_NumberOfIncomingCalls method, ITAgent.get_NumberOfIncomingCalls, ITAgent::get_NumberOfIncomingCalls, _tapi3_itagent_get_numberofincomingcalls, get_NumberOfIncomingCalls, get_NumberOfIncomingCalls method [TAPI 2.2], get_NumberOfIncomingCalls method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_numberofincomingcalls, tapi3cc/ITAgent::get_NumberOfIncomingCalls
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgent.get_NumberOfIncomingCalls
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgent::get_NumberOfIncomingCalls

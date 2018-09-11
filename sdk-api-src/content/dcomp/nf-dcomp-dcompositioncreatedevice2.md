@@ -4,17 +4,16 @@ title: DCompositionCreateDevice2 function
 author: windows-sdk-content
 description: Creates a new device object that can be used to create other Microsoft DirectComposition objects.
 old-location: directcomp\dcompositioncreatedevice2.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: C40694CB-7110-4ED0-B2E5-F73ADEA7BEA4
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: DCompositionCreateDevice2, DCompositionCreateDevice2 function [DirectComposition], dcomp/DCompositionCreateDevice2, directcomp.dcompositioncreatedevice2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - DCompositionCreateDevice2
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DCompositionCreateDevice2 function

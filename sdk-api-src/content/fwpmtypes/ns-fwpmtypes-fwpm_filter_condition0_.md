@@ -4,7 +4,7 @@ title: FWPM_FILTER_CONDITION0_
 author: windows-sdk-content
 description: Expresses a filter condition that must be true for the action to be taken.
 old-location: fwp\fwpm_filter_condition0_struct.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 4dfed9d7-e51b-425c-9f27-014229c140be
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_FILTER_CONDITION0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_FILTER_CONDITION0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_FILTER_CONDITION0
+req.redist: 
 ---
 
 # FWPM_FILTER_CONDITION0_ structure

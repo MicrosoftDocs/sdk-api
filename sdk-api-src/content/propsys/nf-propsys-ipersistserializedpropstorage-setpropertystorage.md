@@ -4,17 +4,16 @@ title: IPersistSerializedPropStorage::SetPropertyStorage
 author: windows-sdk-content
 description: Initializes the property store instance from the specified serialized property storage data.
 old-location: shell\IPersistSerializedPropStorage_SetPropertyStorage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5b6d14ba-3de3-493e-8551-0f3caa02f339
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IPersistSerializedPropStorage interface [Windows Shell],SetPropertyStorage method, IPersistSerializedPropStorage.SetPropertyStorage, IPersistSerializedPropStorage::SetPropertyStorage, SetPropertyStorage, SetPropertyStorage method [Windows Shell], SetPropertyStorage method [Windows Shell],IPersistSerializedPropStorage interface, _shell_IPersistSerializedPropStorage_SetPropertyStorage, propsys/IPersistSerializedPropStorage::SetPropertyStorage, shell.IPersistSerializedPropStorage_SetPropertyStorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistSerializedPropStorage.SetPropertyStorage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistSerializedPropStorage::SetPropertyStorage

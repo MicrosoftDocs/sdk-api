@@ -4,17 +4,16 @@ title: ITForwardInformation2::get_ForwardTypeCallerAddressType
 author: windows-sdk-content
 description: The get_ForwardTypeCallerAddressType method gets the caller address type for a given forwarding type.
 old-location: tapi3\itforwardinformation2_get_forwardtypecalleraddresstype.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 030d2b44-0c1d-488b-8cd9-e68ad6d26c6e
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITForwardInformation2 interface [TAPI 2.2],get_ForwardTypeCallerAddressType method, ITForwardInformation2.get_ForwardTypeCallerAddressType, ITForwardInformation2::get_ForwardTypeCallerAddressType, _tapi3_itforwardinformation2_get_forwardtypecalleraddresstype, get_ForwardTypeCallerAddressType, get_ForwardTypeCallerAddressType method [TAPI 2.2], get_ForwardTypeCallerAddressType method [TAPI 2.2],ITForwardInformation2 interface, tapi3.itforwardinformation2_get_forwardtypecalleraddresstype, tapi3if/ITForwardInformation2::get_ForwardTypeCallerAddressType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITForwardInformation2.get_ForwardTypeCallerAddressType
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITForwardInformation2::get_ForwardTypeCallerAddressType

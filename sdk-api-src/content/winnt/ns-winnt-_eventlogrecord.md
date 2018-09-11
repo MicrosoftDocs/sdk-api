@@ -4,7 +4,7 @@ title: "_EVENTLOGRECORD"
 author: windows-sdk-content
 description: Contains information about an event record returned by the ReadEventLog function.
 old-location: base\eventlogrecord_str.htm
-old-project: eventlog
+tech.root: eventlog
 ms.assetid: 669b182a-bc81-4386-9815-6ffa09e2e743
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENTLOGRECORD, *PEVENTLOGRECORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENTLOGRECORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: EVENTLOGRECORD, *PEVENTLOGRECORD
+req.redist: 
 ---
 
 # _EVENTLOGRECORD structure

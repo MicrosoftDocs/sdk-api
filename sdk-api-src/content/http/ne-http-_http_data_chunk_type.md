@@ -4,7 +4,7 @@ title: "_HTTP_DATA_CHUNK_TYPE"
 author: windows-sdk-content
 description: Defines the data source for a data chunk.
 old-location: http\http_data_chunk_type.htm
-old-project: http
+tech.root: http
 ms.assetid: fbb04b0a-df1a-409d-aadc-c06b816924c5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_DATA_CHUNK_TYPE, *PHTTP_DATA_CHUNK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_DATA_CHUNK_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_DATA_CHUNK_TYPE, *PHTTP_DATA_CHUNK_TYPE
+req.redist: 
 ---
 
 # _HTTP_DATA_CHUNK_TYPE enumeration

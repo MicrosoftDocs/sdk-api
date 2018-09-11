@@ -4,17 +4,16 @@ title: AVIStreamRead function
 author: windows-sdk-content
 description: The AVIStreamRead function reads audio, video or other data from a stream according to the stream type.
 old-location: multimedia\avistreamread.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 9490d46f-b11d-466b-a756-092df2db0306
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamRead, AVIStreamRead function [Windows Multimedia], _win32_AVIStreamRead, multimedia.avistreamread, vfw/AVIStreamRead
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - AVIStreamRead
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamRead function

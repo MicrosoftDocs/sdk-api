@@ -4,17 +4,16 @@ title: "_WS_METADATA_ENDPOINT"
 author: windows-sdk-content
 description: Information about a single endpoint that was read from metadata documents.
 old-location: wsw\ws_metadata_endpoint.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: ce2a45a8-c2e6-4867-b8f1-dcc4f137ef94
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_METADATA_ENDPOINT, WS_METADATA_ENDPOINT structure [Web Services for Windows], _WS_METADATA_ENDPOINT, webservices/WS_METADATA_ENDPOINT, wsw.ws_metadata_endpoint
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_METADATA_ENDPOINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_METADATA_ENDPOINT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_METADATA_ENDPOINT
+req.redist: 
 ---
 
 # _WS_METADATA_ENDPOINT structure

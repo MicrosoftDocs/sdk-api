@@ -4,7 +4,7 @@ title: "_EVENT_EXTENDED_ITEM_STACK_TRACE64"
 author: windows-sdk-content
 description: Defines a call stack on a 64-bit computer.
 old-location: etw\event_extended_item_stack_trace64.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 3c9e0dcb-1eb9-4c9f-a4c8-5a93566be303
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntcons.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_EXTENDED_ITEM_STACK_TRACE64, *PEVENT_EXTENDED_ITEM_STACK_TRACE64
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_EXTENDED_ITEM_STACK_TRACE64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EVENT_EXTENDED_ITEM_STACK_TRACE64, *PEVENT_EXTENDED_ITEM_STACK_TRACE64
+req.redist: 
 ---
 
 # _EVENT_EXTENDED_ITEM_STACK_TRACE64 structure

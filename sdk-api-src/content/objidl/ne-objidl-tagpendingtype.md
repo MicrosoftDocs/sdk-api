@@ -4,17 +4,16 @@ title: tagPENDINGTYPE
 author: windows-sdk-content
 description: Indicates the level of nesting in the IMessageFilter::MessagePending method.
 old-location: com\pendingtype.htm
-old-project: com
+tech.root: com
 ms.assetid: 8f167342-5398-4ecc-9b56-dcf2b4248c65
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PENDINGTYPE, PENDINGTYPE enumeration [COM], PENDINGTYPE_NESTED, PENDINGTYPE_TOPLEVEL, _com_PENDINGTYPE, com.pendingtype, objidl/PENDINGTYPE, objidl/PENDINGTYPE_NESTED, objidl/PENDINGTYPE_TOPLEVEL, tagPENDINGTYPE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Objidlbase.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PENDINGTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PENDINGTYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: PENDINGTYPE
+req.redist: 
 ---
 
 # tagPENDINGTYPE enumeration

@@ -4,17 +4,16 @@ title: IFsiNamedStreams::get_Count
 author: windows-sdk-content
 description: Returns the number of the named streams associated with a file in the file system image.
 old-location: imapi\ifsinamedstreams_get_count.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 3d4efee2-607b-4be4-9854-79fed47503e4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFsiNamedStreams interface [IMAPI],get_Count method, IFsiNamedStreams.get_Count, IFsiNamedStreams::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_count, imapi2fs/IFsiNamedStreams::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiNamedStreams.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiNamedStreams::get_Count

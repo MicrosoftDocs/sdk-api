@@ -4,17 +4,16 @@ title: IBDA_IPV6Filter::GetMulticastListSize
 author: windows-sdk-content
 description: The GetMulticastListSize method retrieves the size in bytes of the list of multicast addresses.
 old-location: mstv\ibda_ipv6filter_getmulticastlistsize.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b607774a-3c0e-49b1-881a-fd8ae2c70fb1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Technologies], GetMulticastListSize method [Microsoft TV Technologies],IBDA_IPV6Filter interface, IBDA_IPV6Filter interface [Microsoft TV Technologies],GetMulticastListSize method, IBDA_IPV6Filter.GetMulticastListSize, IBDA_IPV6Filter::GetMulticastListSize, IBDA_IPV6FilterGetMulticastListSize, bdaiface/IBDA_IPV6Filter::GetMulticastListSize, mstv.ibda_ipv6filter_getmulticastlistsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_IPV6Filter.GetMulticastListSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_IPV6Filter::GetMulticastListSize

@@ -4,17 +4,16 @@ title: CWbemProviderGlue::IsDerivedFrom(LPCWSTR,LPCWSTR,MethodContext,LPCWSTR)
 author: windows-sdk-content
 description: The IsDerivedFrom method determines whether one class is derived from another.
 old-location: wmi\cwbemproviderglue_isderivedfrom.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: e8245511-d192-4489-b907-45de1d354c49
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],IsDerivedFrom method, CWbemProviderGlue.IsDerivedFrom, CWbemProviderGlue.IsDerivedFrom(LPCWSTR,LPCWSTR,MethodContext,LPCWSTR), CWbemProviderGlue::IsDerivedFrom, CWbemProviderGlue::IsDerivedFrom(LPCWSTR,LPCWSTR,MethodContext,LPCWSTR), IsDerivedFrom, IsDerivedFrom method [Windows Management Instrumentation], IsDerivedFrom method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_isderivedfrom, wbemglue/CWbemProviderGlue::IsDerivedFrom, wmi.cwbemproviderglue_isderivedfrom
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CWbemProviderGlue.IsDerivedFrom
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CWbemProviderGlue::IsDerivedFrom(LPCWSTR,LPCWSTR,MethodContext,LPCWSTR)

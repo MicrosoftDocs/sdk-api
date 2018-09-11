@@ -4,17 +4,16 @@ title: ICreateTypeInfo::SetDocString
 author: windows-sdk-content
 description: Sets the documentation string displayed by type browsers.
 old-location: automat\icreatetypeinfo_setdocstring.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 927c449b-1d38-4449-a1fd-63fb82c0d660
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetDocString method, ICreateTypeInfo.SetDocString, ICreateTypeInfo::SetDocString, SetDocString, SetDocString method [Automation], SetDocString method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetDocString, automat.icreatetypeinfo_setdocstring, oaidl/ICreateTypeInfo::SetDocString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo.SetDocString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo::SetDocString

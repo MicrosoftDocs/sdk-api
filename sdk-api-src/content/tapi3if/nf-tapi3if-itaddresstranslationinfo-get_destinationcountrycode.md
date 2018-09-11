@@ -4,17 +4,16 @@ title: ITAddressTranslationInfo::get_DestinationCountryCode
 author: windows-sdk-content
 description: Retrieves the country/region code for the call destination.
 old-location: tapi3\itaddresstranslationinfo_get_destinationcountrycode.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 29880773-ce19-489f-81d8-d2c91779350f
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_DestinationCountryCode method, ITAddressTranslationInfo.get_DestinationCountryCode, ITAddressTranslationInfo::get_DestinationCountryCode, _tapi3_itaddresstranslationinfo_get_destinationcountrycode, get_DestinationCountryCode, get_DestinationCountryCode method [TAPI 2.2], get_DestinationCountryCode method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_destinationcountrycode, tapi3if/ITAddressTranslationInfo::get_DestinationCountryCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddressTranslationInfo.get_DestinationCountryCode
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddressTranslationInfo::get_DestinationCountryCode

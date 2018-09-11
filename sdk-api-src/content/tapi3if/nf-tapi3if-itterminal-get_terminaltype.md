@@ -4,17 +4,16 @@ title: ITTerminal::get_TerminalType
 author: windows-sdk-content
 description: The get_TerminalType method gets the TERMINAL_TYPE of the terminal.
 old-location: tapi3\itterminal_get_terminaltype.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b6f33151-2415-4f24-b84b-7f2ce724db5b
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_TerminalType method, ITTerminal.get_TerminalType, ITTerminal::get_TerminalType, _tapi3_itterminal_get_terminaltype, get_TerminalType, get_TerminalType method [TAPI 2.2], get_TerminalType method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_terminaltype, tapi3if/ITTerminal::get_TerminalType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminal.get_TerminalType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminal::get_TerminalType

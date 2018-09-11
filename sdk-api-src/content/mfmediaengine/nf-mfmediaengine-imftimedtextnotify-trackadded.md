@@ -4,17 +4,16 @@ title: IMFTimedTextNotify::TrackAdded
 author: windows-sdk-content
 description: Called when a text track is added.
 old-location: mf\imftimedtextnotify_trackadded.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 79F33B32-3C64-4E46-A94E-D0C1BB695AC5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFTimedTextNotify interface [Media Foundation],TrackAdded method, IMFTimedTextNotify.TrackAdded, IMFTimedTextNotify::TrackAdded, TrackAdded, TrackAdded method [Media Foundation], TrackAdded method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_trackadded, mfmediaengine/IMFTimedTextNotify::TrackAdded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextNotify.TrackAdded
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextNotify::TrackAdded
@@ -62,7 +60,7 @@ Called when a text track is added
 
 ### -param trackId
 
-
+TBD
 
 
 

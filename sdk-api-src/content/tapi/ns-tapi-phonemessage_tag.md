@@ -4,7 +4,7 @@ title: phonemessage_tag
 author: windows-sdk-content
 description: The PHONEMESSAGE structure contains the next message queued for delivery to the application. The phoneGetMessage function returns this structure.
 old-location: tapi2\phonemessage_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 3655efef-d24c-4d67-b1dc-29d1948a1869
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PHONEMESSAGE, *LPPHONEMESSAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PHONEMESSAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PHONEMESSAGE, *LPPHONEMESSAGE
+req.redist: 
 ---
 
 # phonemessage_tag structure

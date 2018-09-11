@@ -4,17 +4,16 @@ title: ISynchronousDataRetriever::LoadChangeData
 author: windows-sdk-content
 description: Retrieves item data for a change.
 old-location: winsync\isynchronousdataretriever_loadchangedata.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: ae309301-3810-4785-b4f2-a55fbdf819d8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISynchronousDataRetriever interface [Windows Sync],LoadChangeData method, ISynchronousDataRetriever.LoadChangeData, ISynchronousDataRetriever::LoadChangeData, LoadChangeData, LoadChangeData method [Windows Sync], LoadChangeData method [Windows Sync],ISynchronousDataRetriever interface, winsync.isynchronousdataretriever_loadchangedata, winsync/ISynchronousDataRetriever::LoadChangeData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISynchronousDataRetriever.LoadChangeData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISynchronousDataRetriever::LoadChangeData

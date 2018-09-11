@@ -4,17 +4,16 @@ title: ITfUIElement::Show
 author: windows-sdk-content
 description: The ITfUIElement::Show method shows the text service's UI of this UI element.
 old-location: tsf\itfuielement_show.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 423543d9-f3aa-4a42-89f6-dd1d48967c73
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfUIElement interface [Text Services Framework],Show method, ITfUIElement.Show, ITfUIElement::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfUIElement interface, msctf/ITfUIElement::Show, tsf.itfuielement_show
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfUIElement.Show
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfUIElement::Show

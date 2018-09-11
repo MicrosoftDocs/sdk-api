@@ -4,17 +4,16 @@ title: IVdsAdvancedDisk::CreatePartition
 author: windows-sdk-content
 description: Creates a partition on a basic disk. The IVdsCreatePartitionEx::CreatePartitionEx method supersedes this method.
 old-location: base\ivdsadvanceddisk_createpartition.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 94f80a9f-459f-4f3d-8d85-e5ec7d5734c4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreatePartition, CreatePartition method [VDS], CreatePartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],CreatePartition method, IVdsAdvancedDisk.CreatePartition, IVdsAdvancedDisk::CreatePartition, base.ivdsadvanceddisk_createpartition, vds/IVdsAdvancedDisk::CreatePartition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsAdvancedDisk.CreatePartition
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsAdvancedDisk::CreatePartition

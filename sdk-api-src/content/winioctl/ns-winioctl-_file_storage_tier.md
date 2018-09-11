@@ -4,7 +4,7 @@ title: "_FILE_STORAGE_TIER"
 author: windows-sdk-content
 description: Represents an identifier for the storage tier relative to the volume.
 old-location: fs\file_storage_tier.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: F9701D3B-57B3-4777-841C-3D45A2CEC17E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_STORAGE_TIER, *PFILE_STORAGE_TIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILE_STORAGE_TIER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_STORAGE_TIER, *PFILE_STORAGE_TIER
+req.redist: 
 ---
 
 # _FILE_STORAGE_TIER structure

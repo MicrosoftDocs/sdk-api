@@ -4,17 +4,16 @@ title: IDXGIFactory::CreateSoftwareAdapter
 author: windows-sdk-content
 description: Create an adapter interface that represents a software adapter.
 old-location: direct3ddxgi\idxgifactory_createsoftwareadapter.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_createsoftwareadapter.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CreateSoftwareAdapter, CreateSoftwareAdapter method [DXGI], CreateSoftwareAdapter method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],CreateSoftwareAdapter method, IDXGIFactory.CreateSoftwareAdapter, IDXGIFactory::CreateSoftwareAdapter, direct3ddxgi.idxgifactory_createsoftwareadapter, dxgi/IDXGIFactory::CreateSoftwareAdapter, eb1643db-ba87-e9e9-56a9-b7f505fcd700
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIFactory.CreateSoftwareAdapter
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactory::CreateSoftwareAdapter

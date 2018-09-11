@@ -4,7 +4,7 @@ title: "_MIB_MFE_STATS_TABLE"
 author: windows-sdk-content
 description: Stores statistics for a group of Multicast Forwarding Entries (MFEs).
 old-location: mib\mib_mfe_stats_table.htm
-old-project: mib
+tech.root: mib
 ms.assetid: d6660e11-7490-4dee-a1d6-980f8a78ac1b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_MFE_STATS_TABLE, *PMIB_MFE_STATS_TABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_MFE_STATS_TABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_MFE_STATS_TABLE, *PMIB_MFE_STATS_TABLE
+req.redist: 
 ---
 
 # _MIB_MFE_STATS_TABLE structure

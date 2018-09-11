@@ -4,17 +4,16 @@ title: "_WS_HTTP_HEADER_AUTH_SECURITY_BINDING"
 author: windows-sdk-content
 description: The security binding subtype for specifying the use of HTTP header authentication against a target service or a HTTP proxy server based on the basic, digest (RFC 2617) and the SPNEGO (RFC4559) protocols.
 old-location: wsw\ws_http_header_auth_security_binding.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: c6ca6760-a927-470f-9785-7500d1711902
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING, WS_HTTP_HEADER_AUTH_SECURITY_BINDING structure [Web Services for Windows], _WS_HTTP_HEADER_AUTH_SECURITY_BINDING, webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING, wsw.ws_http_header_auth_security_binding
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_HTTP_HEADER_AUTH_SECURITY_BINDING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_HTTP_HEADER_AUTH_SECURITY_BINDING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_HTTP_HEADER_AUTH_SECURITY_BINDING
+req.redist: 
 ---
 
 # _WS_HTTP_HEADER_AUTH_SECURITY_BINDING structure

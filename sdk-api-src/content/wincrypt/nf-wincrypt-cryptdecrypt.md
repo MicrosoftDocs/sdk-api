@@ -4,17 +4,16 @@ title: CryptDecrypt function
 author: windows-sdk-content
 description: Decrypts data previously encrypted by using the CryptEncrypt function.
 old-location: security\cryptdecrypt.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 7c3d2838-6fd1-4f6c-9586-8b94b459a31a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_DECRYPT_RSA_NO_PADDING_CHECK, CRYPT_OAEP, CryptDecrypt, CryptDecrypt function [Security], _crypto2_cryptdecrypt, security.cryptdecrypt, wincrypt/CryptDecrypt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CryptDecrypt
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptDecrypt function

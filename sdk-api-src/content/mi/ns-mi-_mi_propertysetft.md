@@ -4,7 +4,7 @@ title: "_MI_PropertySetFT"
 author: windows-sdk-content
 description: A support structure used in the MI_PropertySet structure. Use the functions with the name prefix &#0034;MI_PropertySet_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_propertysetft.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: d71c0378-0b97-44ea-9f42-e533b93f195e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,     Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_PropertySetFT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_PropertySetFT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MI_PropertySetFT
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,     Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # _MI_PropertySetFT structure

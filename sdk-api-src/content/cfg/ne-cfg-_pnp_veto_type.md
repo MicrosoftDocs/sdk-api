@@ -4,17 +4,16 @@ title: "_PNP_VETO_TYPE"
 author: windows-sdk-content
 description: If the PnP manager rejects a request to perform an operation, the PNP_VETO_TYPE enumeration is used to identify the reason for the rejection.
 old-location: devinst\pnp_veto_type.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: aa999860-cabf-480e-9e17-574de169f464
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PPNP_VETO_TYPE, PNP_VETO_TYPE, PNP_VETO_TYPE enumeration [Device and Driver Installation], PNP_VetoDevice, PNP_VetoDriver, PNP_VetoIllegalDeviceRequest, PNP_VetoInsufficientPower, PNP_VetoInsufficientRights, PNP_VetoLegacyDevice, PNP_VetoLegacyDriver, PNP_VetoNonDisableable, PNP_VetoOutstandingOpen, PNP_VetoPendingClose, PNP_VetoTypeUnknown, PNP_VetoWindowsApp, PNP_VetoWindowsService, PPNP_VETO_TYPE, PPNP_VETO_TYPE enumeration pointer [Device and Driver Installation], _PNP_VETO_TYPE, cfg/PNP_VETO_TYPE, cfg/PNP_VetoDevice, cfg/PNP_VetoDriver, cfg/PNP_VetoIllegalDeviceRequest, cfg/PNP_VetoInsufficientPower, cfg/PNP_VetoInsufficientRights, cfg/PNP_VetoLegacyDevice, cfg/PNP_VetoLegacyDriver, cfg/PNP_VetoNonDisableable, cfg/PNP_VetoOutstandingOpen, cfg/PNP_VetoPendingClose, cfg/PNP_VetoTypeUnknown, cfg/PNP_VetoWindowsApp, cfg/PNP_VetoWindowsService, cfg/PPNP_VETO_TYPE, cfgmgrenum_8b47c6f6-4b36-472b-8389-11391558c252.xml, devinst.pnp_veto_type"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfg.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNP_VETO_TYPE, *PPNP_VETO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PNP_VETO_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: PNP_VETO_TYPE, *PPNP_VETO_TYPE
+req.redist: 
 ---
 
 # _PNP_VETO_TYPE enumeration

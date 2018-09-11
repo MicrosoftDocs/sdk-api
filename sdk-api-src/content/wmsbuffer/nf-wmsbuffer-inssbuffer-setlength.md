@@ -4,17 +4,16 @@ title: INSSBuffer::SetLength
 author: windows-sdk-content
 description: The SetLength method specifies the size of the used portion of the buffer.
 old-location: wmformat\inssbuffer_setlength.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 3f0e8d8a-efc7-4f1b-8a42-7907439ed8af
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INSSBuffer interface [windows Media Format],SetLength method, INSSBuffer.SetLength, INSSBuffer::SetLength, INSSBufferSetLength, SetLength, SetLength method [windows Media Format], SetLength method [windows Media Format],INSSBuffer interface, wmformat.inssbuffer_setlength, wmsbuffer/INSSBuffer::SetLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPServices_StreamState
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INSSBuffer.SetLength
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # INSSBuffer::SetLength

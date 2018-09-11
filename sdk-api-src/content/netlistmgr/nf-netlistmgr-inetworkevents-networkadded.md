@@ -4,17 +4,16 @@ title: INetworkEvents::NetworkAdded
 author: windows-sdk-content
 description: The NetworkAdded method is called when a new network is added. The GUID of the new network is provided.
 old-location: nla\inetworkevents_networkadded.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 2fda364e-ad6a-447a-ba0c-25e5d52ef5c5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkAdded method, INetworkEvents.NetworkAdded, INetworkEvents::NetworkAdded, NetworkAdded, NetworkAdded method [Network Awareness], NetworkAdded method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkAdded, nla.inetworkevents_networkadded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetworkEvents.NetworkAdded
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkEvents::NetworkAdded

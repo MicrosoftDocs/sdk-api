@@ -4,7 +4,7 @@ title: "_GRADIENT_RECT"
 author: windows-sdk-content
 description: The GRADIENT_RECT structure specifies the index of two vertices in the pVertex array in the GradientFill function. These two vertices form the upper-left and lower-right boundaries of a rectangle.
 old-location: gdi\gradient_rect.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 8660114a-423f-40a8-b113-e0304bb0f383
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GRADIENT_RECT, *PGRADIENT_RECT, *LPGRADIENT_RECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GRADIENT_RECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GRADIENT_RECT, *PGRADIENT_RECT, *LPGRADIENT_RECT
+req.redist: 
 ---
 
 # _GRADIENT_RECT structure

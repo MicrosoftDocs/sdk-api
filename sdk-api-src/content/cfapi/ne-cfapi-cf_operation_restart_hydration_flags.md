@@ -4,7 +4,7 @@ title: CF_OPERATION_RESTART_HYDRATION_FLAGS
 author: windows-sdk-content
 description: Flags to restart data hydration on a placeholder file or folder.
 old-location: cloudapi\cf_operation_restart_hydration_flags.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 4112937A-3ED6-48F8-BFD1-52D01ABA3D72
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_OPERATION_RESTART_HYDRATION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_OPERATION_RESTART_HYDRATION_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: CF_OPERATION_RESTART_HYDRATION_FLAGS
+req.redist: 
 ---
 
 # CF_OPERATION_RESTART_HYDRATION_FLAGS enumeration

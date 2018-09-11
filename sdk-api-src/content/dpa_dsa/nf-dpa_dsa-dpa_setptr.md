@@ -4,17 +4,16 @@ title: DPA_SetPtr function
 author: windows-sdk-content
 description: Assigns a value to an item in a dynamic pointer array (DPA).
 old-location: controls\DPA_SetPtr.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_setptr.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DPA_SetPtr, DPA_SetPtr function [Windows Controls], _win32_DPA_SetPtr, _win32_DPA_SetPtr_cpp, controls.DPA_SetPtr, controls._win32_DPA_SetPtr, dpa_dsa/DPA_SetPtr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.lib: Comctl32.lib
+req.dll: ComCtl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DPA_SetPtr
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: ComCtl32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DPA_SetPtr function

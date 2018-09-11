@@ -4,17 +4,16 @@ title: SCardReleaseStartedEvent function
 author: windows-sdk-content
 description: Decrements the reference count for a handle acquired by a previous call to the SCardAccessStartedEvent function.
 old-location: security\scardreleasestartedevent.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 2c08500f-3ebf-4267-8436-b67543e1c13c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SCardReleaseStartedEvent, SCardReleaseStartedEvent function [Security], _smart_scardreleasestartedevent, security.scardreleasestartedevent, winscard/SCardReleaseStartedEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SCardReleaseStartedEvent
 product: Windows
 targetos: Windows
-req.lib: Winscard.lib
-req.dll: Winscard.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SCardReleaseStartedEvent function

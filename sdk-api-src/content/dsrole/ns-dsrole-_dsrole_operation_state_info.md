@@ -4,7 +4,7 @@ title: "_DSROLE_OPERATION_STATE_INFO"
 author: windows-sdk-content
 description: Used with the DsRoleGetPrimaryDomainInformation function to contain the operational state data for a computer.
 old-location: ad\dsrole_operation_state_info.htm
-old-project: ad
+tech.root: ad
 ms.assetid: c6c8e510-190a-47ad-805c-b8d3fbee836d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsrole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_OPERATION_STATE_INFO, *PDSROLE_OPERATION_STATE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSROLE_OPERATION_STATE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DSROLE_OPERATION_STATE_INFO, *PDSROLE_OPERATION_STATE_INFO
+req.redist: 
 ---
 
 # _DSROLE_OPERATION_STATE_INFO structure

@@ -4,17 +4,16 @@ title: CertRetrieveLogoOrBiometricInfo function
 author: windows-sdk-content
 description: Performs a URL retrieval of logo or biometric information specified in either the szOID_LOGOTYPE_EXT or szOID_BIOMETRIC_EXT certificate extension.
 old-location: security\certretrievelogoorbiometricinfo.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 35813928-728e-40b7-b627-817d3094eeb1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CERT_RETRIEVE_BIOMETRIC_PICTURE_TYPE, CERT_RETRIEVE_BIOMETRIC_SIGNATURE_TYPE, CERT_RETRIEVE_COMMUNITY_LOGO, CERT_RETRIEVE_ISSUER_LOGO, CERT_RETRIEVE_SUBJECT_LOGO, CertRetrieveLogoOrBiometricInfo, CertRetrieveLogoOrBiometricInfo function [Security], security.certretrievelogoorbiometricinfo, wincrypt/CertRetrieveLogoOrBiometricInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertRetrieveLogoOrBiometricInfo
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertRetrieveLogoOrBiometricInfo function

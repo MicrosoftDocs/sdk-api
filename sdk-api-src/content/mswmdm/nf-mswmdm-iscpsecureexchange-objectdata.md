@@ -4,17 +4,16 @@ title: ISCPSecureExchange::ObjectData
 author: windows-sdk-content
 description: The ObjectData method transfers a block of object data back to Windows Media Device Manager.
 old-location: wmdm\iscpsecureexchange_objectdata.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 825539e4-9162-40b7-bae0-336e728fb34e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISCPSecureExchange interface [windows Media Device Manager],ObjectData method, ISCPSecureExchange.ObjectData, ISCPSecureExchange::ObjectData, ISCPSecureExchangeObjectData, ObjectData, ObjectData method [windows Media Device Manager], ObjectData method [windows Media Device Manager],ISCPSecureExchange interface, mswmdm/ISCPSecureExchange::ObjectData, wmdm.iscpsecureexchange_objectdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISCPSecureExchange.ObjectData
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISCPSecureExchange::ObjectData

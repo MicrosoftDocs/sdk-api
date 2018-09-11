@@ -4,7 +4,7 @@ title: "_DD_GETBLTSTATUSDATA"
 author: windows-sdk-content
 description: The DD_GETBLTSTATUSDATA structure returns the blit status information.
 old-location: display\dd_getbltstatusdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 16b0cac9-af8c-4106-b74e-6c9ada543851
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_GETBLTSTATUSDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA"
+req.redist: 
 ---
 
 # _DD_GETBLTSTATUSDATA structure

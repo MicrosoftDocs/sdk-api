@@ -4,17 +4,16 @@ title: IWMPCdromBurn::erase
 author: windows-sdk-content
 description: The erase method erases the current CD.
 old-location: wmp\iwmpcdromburn_erase.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 93a37f59-4269-4f84-93dc-8350aabd4ebe
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],erase method, IWMPCdromBurn.erase, IWMPCdromBurn::erase, IWMPCdromBurnerase, erase, erase method [Windows Media Player], erase method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_erase, wmp/IWMPCdromBurn::erase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCdromBurn.erase
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCdromBurn::erase

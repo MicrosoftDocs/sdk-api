@@ -4,7 +4,7 @@ title: TF_DISPLAYATTRIBUTE
 author: windows-sdk-content
 description: The TF_DISPLAYATTRIBUTE structure contains display attribute data for rendering text.
 old-location: tsf\tf_displayattribute.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 29faaa22-ea03-4a2e-a035-7979e2a89fc9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DISPLAYATTRIBUTE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TF_DISPLAYATTRIBUTE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TF_DISPLAYATTRIBUTE
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # TF_DISPLAYATTRIBUTE structure

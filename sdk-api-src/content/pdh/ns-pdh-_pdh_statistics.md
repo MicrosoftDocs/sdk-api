@@ -4,7 +4,7 @@ title: "_PDH_STATISTICS"
 author: windows-sdk-content
 description: The PDH_STATISTICS structure contains the minimum, maximum, and mean values for an array of raw counters values.
 old-location: perf\pdh_statistics_str.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: a1daedfd-55f6-418e-b71f-8334cb628d98
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDH_STATISTICS, *PPDH_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PDH_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PDH_STATISTICS, *PPDH_STATISTICS
+req.redist: 
 ---
 
 # _PDH_STATISTICS structure

@@ -4,7 +4,7 @@ title: "_DnsSection"
 author: windows-sdk-content
 description: The DNS_SECTION enumeration is used in record flags, and as an index into DNS wire message header section counts.
 old-location: dns\dns_section.htm
-old-project: dns
+tech.root: dns
 ms.assetid: d51ef2c7-c2bb-4eed-a026-a559460352b6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_SECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_SECTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_SECTION
+req.redist: 
 ---
 
 # _DnsSection enumeration

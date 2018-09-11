@@ -4,17 +4,16 @@ title: "_MSV1_0_PROFILE_BUFFER_TYPE"
 author: windows-sdk-content
 description: Lists the kind of logon profile returned.
 old-location: security\msv1_0_profile_buffer_type.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: c8fe967a-e172-4200-ab15-daebf441c689
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMSV1_0_PROFILE_BUFFER_TYPE, MSV1_0_PROFILE_BUFFER_TYPE, MSV1_0_PROFILE_BUFFER_TYPE enumeration [Security], MSV1_0_PROFILE_TYPE, MSV1_0_PROFILE_TYPE enumeration [Security], MsV1_0InteractiveProfile, MsV1_0Lm20LogonProfile, MsV1_0SmartCardProfile, PMSV1_0_PROFILE_BUFFER_TYPE, PMSV1_0_PROFILE_BUFFER_TYPE enumeration pointer [Security], _MSV1_0_PROFILE_BUFFER_TYPE, _lsa_msv1_0_profile_buffer_type, ntsecapi/MSV1_0_PROFILE_BUFFER_TYPE, ntsecapi/MsV1_0InteractiveProfile, ntsecapi/MsV1_0Lm20LogonProfile, ntsecapi/MsV1_0SmartCardProfile, ntsecapi/PMSV1_0_PROFILE_BUFFER_TYPE, security.msv1_0_profile_buffer_type"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSV1_0_PROFILE_BUFFER_TYPE, *PMSV1_0_PROFILE_BUFFER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSV1_0_PROFILE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MSV1_0_PROFILE_BUFFER_TYPE, *PMSV1_0_PROFILE_BUFFER_TYPE
+req.redist: 
 ---
 
 # _MSV1_0_PROFILE_BUFFER_TYPE enumeration

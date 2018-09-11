@@ -4,17 +4,16 @@ title: MBN_VOICE_CLASS
 author: windows-sdk-content
 description: The MBN_VOICE_CLASS enumerated type specifies a device's voice capabilities and how they interact with the data service.
 old-location: mbn\mbn_voice_class.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: d2654e97-4020-449f-9622-39392309d6f3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_VOICE_CLASS, MBN_VOICE_CLASS enumeration [Microsoft Broadband Networks], MBN_VOICE_CLASS_NONE, MBN_VOICE_CLASS_NO_VOICE, MBN_VOICE_CLASS_SEPARATE_VOICE_DATA, MBN_VOICE_CLASS_SIMULTANEOUS_VOICE_DATA, mbn.mbn_voice_class, mbnapi/MBN_VOICE_CLASS, mbnapi/MBN_VOICE_CLASS_NONE, mbnapi/MBN_VOICE_CLASS_NO_VOICE, mbnapi/MBN_VOICE_CLASS_SEPARATE_VOICE_DATA, mbnapi/MBN_VOICE_CLASS_SIMULTANEOUS_VOICE_DATA
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_VOICE_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_VOICE_CLASS
+req.redist: 
 ---
 
 # MBN_VOICE_CLASS enumeration

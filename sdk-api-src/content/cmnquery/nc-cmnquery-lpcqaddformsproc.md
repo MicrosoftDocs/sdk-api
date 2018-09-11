@@ -4,7 +4,7 @@ title: LPCQADDFORMSPROC
 author: windows-sdk-content
 description: Called by a query form extension to add a form to the query dialog box.
 old-location: ad\cqaddformsproc.htm
-old-project: ad
+tech.root: ad
 ms.assetid: e4221299-93de-4747-b464-0d152d6e767b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: cmnquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LPCQADDFORMSPROC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LPCQADDFORMSPROC callback function

@@ -4,17 +4,16 @@ title: "_QOS_PACKET_PRIORITY"
 author: windows-sdk-content
 description: The QOS_PACKET_PRIORITY structure that indicates the priority of the flow traffic.
 old-location: qos\qos_packet_priority.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 1a10c5f0-0b7f-401f-82ff-0d7a93114715
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY structure pointer [QOS], QOS_PACKET_PRIORITY, QOS_PACKET_PRIORITY structure [QOS], _QOS_PACKET_PRIORITY, qos.qos_packet_priority, qos2/PQOS_PACKET_PRIORITY, qos2/QOS_PACKET_PRIORITY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: qos2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_PACKET_PRIORITY, *PQOS_PACKET_PRIORITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOS_PACKET_PRIORITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QOS_PACKET_PRIORITY, *PQOS_PACKET_PRIORITY
+req.redist: 
 ---
 
 # _QOS_PACKET_PRIORITY structure

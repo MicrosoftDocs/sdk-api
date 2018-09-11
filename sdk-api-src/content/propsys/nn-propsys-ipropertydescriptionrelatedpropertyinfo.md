@@ -4,7 +4,7 @@ title: IPropertyDescriptionRelatedPropertyInfo
 author: windows-sdk-content
 description: Provides a method that retrives an IPropertyDescription interface.
 old-location: properties\IPropertyDescriptionRelatedPropertyInfo.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 1658542e-ca2f-4566-b40f-8647577f4481
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescriptionRelatedPropertyInfo
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0.6001 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescriptionRelatedPropertyInfo interface

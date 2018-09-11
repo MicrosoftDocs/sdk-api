@@ -4,17 +4,16 @@ title: ISyncKnowledge2::GetKnowledgeCookie
 author: windows-sdk-content
 description: Gets a lightweight, read-only representation of this knowledge object that can be used for fast comparisons.
 old-location: winsync\isyncknowledge2_getknowledgecookie.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: d182f81d-131c-4f18-85e4-ff675ae99888
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetKnowledgeCookie, GetKnowledgeCookie method [Windows Sync], GetKnowledgeCookie method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetKnowledgeCookie method, ISyncKnowledge2.GetKnowledgeCookie, ISyncKnowledge2::GetKnowledgeCookie, winsync.isyncknowledge2_getknowledgecookie, winsync/ISyncKnowledge2::GetKnowledgeCookie
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncKnowledge2.GetKnowledgeCookie
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncKnowledge2::GetKnowledgeCookie

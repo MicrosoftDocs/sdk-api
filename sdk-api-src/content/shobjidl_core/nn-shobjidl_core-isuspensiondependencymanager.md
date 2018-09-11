@@ -4,17 +4,16 @@ title: ISuspensionDependencyManager
 author: windows-sdk-content
 description: "."
 old-location: shell\ISuspensionDependencyManager.htm
-old-project: shell
+tech.root: shell
 ms.assetid: F632DC0B-01EF-4421-ADF3-2CD5AD363CC0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISuspensionDependencyManager, ISuspensionDependencyManager interface [Windows Shell], ISuspensionDependencyManager interface [Windows Shell],described, shell.ISuspensionDependencyManager, shobjidl_core/ISuspensionDependencyManager
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISuspensionDependencyManager
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISuspensionDependencyManager interface

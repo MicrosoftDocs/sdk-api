@@ -4,17 +4,16 @@ title: IFolderView2::SetViewModeAndIconSize
 author: windows-sdk-content
 description: Sets and applies the view mode and image size.
 old-location: shell\IFolderView2_SetViewModeAndIconSize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 52724e5d-074f-4715-9dca-50ed22d8519e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetViewModeAndIconSize method, IFolderView2.SetViewModeAndIconSize, IFolderView2::SetViewModeAndIconSize, SetViewModeAndIconSize, SetViewModeAndIconSize method [Windows Shell], SetViewModeAndIconSize method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetViewModeAndIconSize, shell.IFolderView2_SetViewModeAndIconSize, shobjidl_core/IFolderView2::SetViewModeAndIconSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderView2.SetViewModeAndIconSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderView2::SetViewModeAndIconSize

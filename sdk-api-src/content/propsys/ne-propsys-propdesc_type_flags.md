@@ -4,7 +4,7 @@ title: PROPDESC_TYPE_FLAGS
 author: windows-sdk-content
 description: Describes attributes of the typeInfo element in the property's .propdesc file.
 old-location: properties\PROPDESC_TYPE_FLAGS.htm
-old-project: properties
+tech.root: properties
 ms.assetid: e8027e59-3d37-4cb9-b73b-b1f05a2f959b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPDESC_TYPE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPDESC_TYPE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROPDESC_TYPE_FLAGS
+req.redist: 
 ---
 
 # PROPDESC_TYPE_FLAGS enumeration

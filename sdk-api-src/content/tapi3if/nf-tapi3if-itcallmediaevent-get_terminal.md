@@ -4,17 +4,16 @@ title: ITCallMediaEvent::get_Terminal
 author: windows-sdk-content
 description: The get_Terminal method gets the terminal associated with the event.
 old-location: tapi3\itcallmediaevent_get_terminal.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 49fa442a-d4b0-4f51-b14a-c7819e06dcef
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Terminal method, ITCallMediaEvent.get_Terminal, ITCallMediaEvent::get_Terminal, _tapi3_itcallmediaevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_terminal, tapi3if/ITCallMediaEvent::get_Terminal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallMediaEvent.get_Terminal
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallMediaEvent::get_Terminal

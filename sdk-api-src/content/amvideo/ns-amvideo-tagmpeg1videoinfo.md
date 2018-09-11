@@ -4,7 +4,7 @@ title: tagMPEG1VIDEOINFO
 author: windows-sdk-content
 description: The MPEG1VIDEOINFO structure describes an MPEG-1 video stream.
 old-location: dshow\mpeg1videoinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ae5b8825-7c1c-4a44-b665-098732e6c3bc
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG1VIDEOINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MPEG1VIDEOINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: MPEG1VIDEOINFO
+req.redist: 
 ---
 
 # tagMPEG1VIDEOINFO structure

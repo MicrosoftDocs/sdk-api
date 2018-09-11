@@ -4,17 +4,16 @@ title: VariantToUInt16Array function
 author: windows-sdk-content
 description: Extracts data from a vector structure into an unsigned Int16 array.
 old-location: properties\VariantToUInt16Array.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 8da12aa7-f54e-4a38-b9bb-0dd019f8823b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VariantToUInt16Array, VariantToUInt16Array function [Windows Properties], _shell_VariantToUInt16Array, properties.VariantToUInt16Array, propvarutil/VariantToUInt16Array, shell.VariantToUInt16Array
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VariantToUInt16Array
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # VariantToUInt16Array function

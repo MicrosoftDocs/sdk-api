@@ -4,17 +4,16 @@ title: ITextRange2::InsertImage
 author: windows-sdk-content
 description: Inserts an image into this range.
 old-location: controls\itextrange2_insertimage.htm
-old-project: controls
+tech.root: controls
 ms.assetid: CBC71EDC-CBE3-4C44-84C8-6AE6DEBC8D0C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRange2 interface [Windows Controls],InsertImage method, ITextRange2.InsertImage, ITextRange2::InsertImage, InsertImage, InsertImage method [Windows Controls], InsertImage method [Windows Controls],ITextRange2 interface, TA_BASELINE, TA_BOTTOM, TA_TOP, controls.itextrange2_insertimage, tom/ITextRange2::InsertImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange2.InsertImage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange2::InsertImage

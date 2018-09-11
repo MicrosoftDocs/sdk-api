@@ -4,17 +4,16 @@ title: HrtfApoInit
 author: windows-sdk-content
 description: Specifies parameters used to initialize HRTF spatial audio.
 old-location: xaudio2\hrtfapoinit.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: 686A2203-A991-427F-9D41-F3C679070127
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HrtfApoInit, HrtfApoInit structure [XAudio2 Audio Mixing APIs], PHrtfApoInit, PHrtfApoInit structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfApoInit, hrtfapoapi/PHrtfApoInit, xaudio2.hrtfapoinit
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: hrtfapoapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HrtfApoInit
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HrtfApoInit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HrtfApoInit
+req.redist: 
 ---
 
 # HrtfApoInit structure

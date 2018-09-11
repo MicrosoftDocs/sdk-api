@@ -4,17 +4,16 @@ title: "_WSDUdpMessageType"
 author: windows-sdk-content
 description: Identifies the type of UDP message.
 old-location: ncd\wsdudpmessagetype.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 0af4fd37-b1a9-4916-986c-e071c060d020
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ONE_WAY, TWO_WAY, WSDUdpMessageType, WSDUdpMessageType enumeration, _WSDUdpMessageType, ncd.wsdudpmessagetype, wsdbase/ONE_WAY, wsdbase/TWO_WAY, wsdbase/WSDUdpMessageType
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSDUdpMessageType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSDUdpMessageType
 product: Windows
 targetos: Windows
-req.lib: Wsdapi.lib
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSDUdpMessageType
+req.redist: 
 ---
 
 # _WSDUdpMessageType enumeration

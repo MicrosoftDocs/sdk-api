@@ -4,17 +4,16 @@ title: ITaskScheduler::SetTargetComputer
 author: windows-sdk-content
 description: The SetTargetComputer method selects the computer that the ITaskScheduler interface operates on, allowing remote task management and enumeration.
 old-location: taskschd\itaskscheduler_settargetcomputer.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: e56d2384-026e-44e0-b6b7-20a41a421e09
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],SetTargetComputer method, ITaskScheduler.SetTargetComputer, ITaskScheduler::SetTargetComputer, SetTargetComputer, SetTargetComputer method [Task Scheduler], SetTargetComputer method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_settargetcomputer, mstask/ITaskScheduler::SetTargetComputer, taskschd.itaskscheduler_settargetcomputer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskScheduler.SetTargetComputer
 product: Windows
 targetos: Windows
-req.lib: Mstask.lib
-req.dll: Mstask.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskScheduler::SetTargetComputer

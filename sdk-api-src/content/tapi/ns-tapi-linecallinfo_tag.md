@@ -4,7 +4,7 @@ title: linecallinfo_tag
 author: windows-sdk-content
 description: The LINECALLINFO structure contains information about a call.
 old-location: tapi2\linecallinfo_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b077546b-cc95-44ce-99ee-f0007fd916b2
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINECALLINFO, *LPLINECALLINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINECALLINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINECALLINFO, *LPLINECALLINFO
+req.redist: 
 ---
 
 # linecallinfo_tag structure

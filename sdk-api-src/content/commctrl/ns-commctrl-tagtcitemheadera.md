@@ -4,7 +4,7 @@ title: tagTCITEMHEADERA
 author: windows-sdk-content
 description: Specifies or receives the attributes of a tab. It is used with the TCM_INSERTITEM, TCM_GETITEM, and TCM_SETITEM messages. This structure supersedes the TC_ITEMHEADER structure.
 old-location: controls\TCITEMHEADER.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tcitemheader.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCITEMHEADERA, *LPTCITEMHEADERA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - TCITEMHEADERW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: TCITEMHEADERA, *LPTCITEMHEADERA
+req.redist: 
 ---
 
 # tagTCITEMHEADERA structure

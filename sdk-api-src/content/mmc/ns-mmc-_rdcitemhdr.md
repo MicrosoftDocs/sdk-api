@@ -4,7 +4,7 @@ title: "_RDCITEMHDR"
 author: windows-sdk-content
 description: The RDITEMHDR structure is introduced in MMC 1.2.
 old-location: mmc\rditemhdr.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 35feb978-3859-423d-ac33-711b242ab939
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDITEMHDR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RDITEMHDR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RDITEMHDR
+req.redist: 
 ---
 
 # _RDCITEMHDR structure

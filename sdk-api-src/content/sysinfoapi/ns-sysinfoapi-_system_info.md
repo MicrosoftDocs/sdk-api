@@ -4,17 +4,16 @@ title: "_SYSTEM_INFO"
 author: windows-sdk-content
 description: Contains information about the current computer system. This includes the architecture and type of the processor, the number of processors in the system, the page size, and other such information.
 old-location: base\system_info_str.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 971293b8-0af0-4bdf-a7d7-6b1bb80a469c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSYSTEM_INFO, PROCESSOR_AMD_X8664, PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_ARM, PROCESSOR_ARCHITECTURE_ARM64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, PROCESSOR_ARCHITECTURE_UNKNOWN, PROCESSOR_ARM, PROCESSOR_INTEL_386, PROCESSOR_INTEL_486, PROCESSOR_INTEL_IA64, PROCESSOR_INTEL_PENTIUM, SYSTEM_INFO, SYSTEM_INFO structure, _SYSTEM_INFO, _win32_system_info_str, base.system_info_str, sysinfoapi/_SYSTEM_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_INFO, *LPSYSTEM_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYSTEM_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SYSTEM_INFO, *LPSYSTEM_INFO
+req.redist: 
 ---
 
 # _SYSTEM_INFO structure

@@ -4,17 +4,16 @@ title: TTEnableEmbeddingForFacename function
 author: windows-sdk-content
 description: Adds or removes facenames from the typeface exclusion list.
 old-location: gdi\ttenableembeddingforfacename.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 05d74bfb-28c4-4e1a-9e18-df868f8fa784
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TTEnableEmbeddingForFacename, TTEnableEmbeddingForFacename function [Windows GDI], _win32_TTEnableEmbeddingForFacename, gdi.ttenableembeddingforfacename, t2embapi/TTEnableEmbeddingForFacename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_INFO, *LPSYSTEM_INFO
+req.lib: T2embed.lib
+req.dll: T2embed.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TTEnableEmbeddingForFacename
 product: Windows
 targetos: Windows
-req.lib: T2embed.lib
-req.dll: T2embed.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TTEnableEmbeddingForFacename function

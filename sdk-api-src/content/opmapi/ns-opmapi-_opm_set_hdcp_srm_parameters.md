@@ -4,7 +4,7 @@ title: "_OPM_SET_HDCP_SRM_PARAMETERS"
 author: windows-sdk-content
 description: Contains parameters for the OPM_SET_HDCP_SRM command.
 old-location: mf\opm_set_hdcp_srm_parameters.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0689e132-8def-43d1-965f-a6f652ad0fbe
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_SET_HDCP_SRM_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPM_SET_HDCP_SRM_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OPM_SET_HDCP_SRM_PARAMETERS
+req.redist: 
 ---
 
 # _OPM_SET_HDCP_SRM_PARAMETERS structure

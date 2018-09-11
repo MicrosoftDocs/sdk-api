@@ -4,7 +4,7 @@ title: "_DS_MANGLE_FOR"
 author: windows-sdk-content
 description: The DS_MANGLE_FOR enumeration is used to define whether a relative distinguished name is mangled (encoded) and in what form the mangling occurs.
 old-location: ad\ds_mangle_for.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 79a66a54-889e-464e-8199-ad911ea84a86
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_MANGLE_FOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_MANGLE_FOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DS_MANGLE_FOR
+req.redist: 
 ---
 
 # _DS_MANGLE_FOR enumeration

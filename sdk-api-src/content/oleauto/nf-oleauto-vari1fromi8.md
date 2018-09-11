@@ -4,17 +4,16 @@ title: VarI1FromI8 function
 author: windows-sdk-content
 description: Converts an 8-byte integer value to a char value.
 old-location: automat\vari1fromi8.htm
-old-project: automat
+tech.root: automat
 ms.assetid: be96da1e-e392-4b1f-8951-aa9be644c787
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarI1FromI8, VarI1FromI8 function [Automation], _oa96_VarI1FromI8, automat.vari1fromi8, oleauto/VarI1FromI8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarI1FromI8
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarI1FromI8 function

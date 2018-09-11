@@ -4,17 +4,16 @@ title: "_VSS_MGMT_OBJECT_PROP"
 author: windows-sdk-content
 description: Defines the properties of a volume, shadow copy storage volume, or a shadow copy storage area.
 old-location: base\vss_mgmt_object_prop.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 86681207-969e-4b33-aff8-79454ab04829
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP structure pointer [VSS], VSS_MGMT_OBJECT_PROP, VSS_MGMT_OBJECT_PROP structure [VSS], _VSS_MGMT_OBJECT_PROP, base.vss_mgmt_object_prop, vsmgmt/PVSS_MGMT_OBJECT_PROP, vsmgmt/VSS_MGMT_OBJECT_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_MGMT_OBJECT_PROP, *PVSS_MGMT_OBJECT_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_MGMT_OBJECT_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_MGMT_OBJECT_PROP, *PVSS_MGMT_OBJECT_PROP
+req.redist: 
 ---
 
 # _VSS_MGMT_OBJECT_PROP structure

@@ -4,17 +4,16 @@ title: ITCallingCard::get_InternationalDialingRule
 author: windows-sdk-content
 description: The get_InternationalDialingRule method gets the international dialing rules for this calling card.
 old-location: tapi3\itcallingcard_get_internationaldialingrule.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b452edbd-2c37-4f40-873b-24b4b60836bb
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_InternationalDialingRule method, ITCallingCard.get_InternationalDialingRule, ITCallingCard::get_InternationalDialingRule, _tapi3_itcallingcard_get_internationaldialingrule, get_InternationalDialingRule, get_InternationalDialingRule method [TAPI 2.2], get_InternationalDialingRule method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_internationaldialingrule, tapi3if/ITCallingCard::get_InternationalDialingRule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallingCard.get_InternationalDialingRule
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallingCard::get_InternationalDialingRule

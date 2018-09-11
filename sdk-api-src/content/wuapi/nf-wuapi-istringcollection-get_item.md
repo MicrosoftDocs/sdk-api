@@ -4,17 +4,16 @@ title: IStringCollection::get_Item
 author: windows-sdk-content
 description: Gets or sets a string in the collection.
 old-location: wua\istringcollection_item.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: ae92e856-ed3c-4745-827b-a5bb8e2f5938
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],Item property, IStringCollection.Item, IStringCollection.get_Item, IStringCollection::Item, IStringCollection::get_Item, IStringCollection::put_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IStringCollection interface, get_Item, wua.istringcollection_item, wuapi/IStringCollection::Item, wuapi/IStringCollection::get_Item, wuapi/IStringCollection::put_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IStringCollection.put_Item
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IStringCollection::get_Item

@@ -4,17 +4,16 @@ title: NetLocalGroupGetInfo function
 author: windows-sdk-content
 description: The NetLocalGroupGetInfo function retrieves information about a particular local group account on a server.
 old-location: netmgmt\netlocalgroupgetinfo.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: ee2f0be9-8d52-439b-ab65-f9e11a2872c5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 1, NetLocalGroupGetInfo, NetLocalGroupGetInfo function [Network Management], _win32_netlocalgroupgetinfo, lmaccess/NetLocalGroupGetInfo, netmgmt.netlocalgroupgetinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetLocalGroupGetInfo
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetLocalGroupGetInfo function

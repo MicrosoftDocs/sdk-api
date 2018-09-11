@@ -4,17 +4,16 @@ title: IVssBackupComponentsEx2::SetRestoreName
 author: windows-sdk-content
 description: Assigns a new logical name to a component that is being restored.
 old-location: base\ivssbackupcomponentsex2_setrestorename.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: a8334b28-9328-49f4-bf92-f43c556781bf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssBackupComponentsEx2 interface,SetRestoreName method, IVssBackupComponentsEx2.SetRestoreName, IVssBackupComponentsEx2::SetRestoreName, SetRestoreName, SetRestoreName method, SetRestoreName method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_setrestorename, vsbackup/IVssBackupComponentsEx2::SetRestoreName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponentsEx2.SetRestoreName
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponentsEx2::SetRestoreName

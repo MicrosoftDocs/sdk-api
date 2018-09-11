@@ -4,7 +4,7 @@ title: "_EFS_HASH_BLOB"
 author: windows-sdk-content
 description: Contains a certificate hash.
 old-location: fs\efs_hash_blob_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 23a172be-6e94-4a1f-afde-fc9437443c7a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winefs.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EFS_HASH_BLOB, *PEFS_HASH_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EFS_HASH_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EFS_HASH_BLOB, *PEFS_HASH_BLOB
+req.redist: 
 ---
 
 # _EFS_HASH_BLOB structure

@@ -4,17 +4,16 @@ title: IDCompositionBrightnessEffect::SetBlackPointX(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the x value of the black point.
 old-location: directcomp\idcompositionbrightnesseffect_setblackpointx.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 983AF3B1-628D-4E4C-99C2-C590457F7B8A
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlackPointX method, IDCompositionBrightnessEffect.SetBlackPointX, IDCompositionBrightnessEffect.SetBlackPointX(IDCompositionAnimation), IDCompositionBrightnessEffect::SetBlackPointX, IDCompositionBrightnessEffect::SetBlackPointX(IDCompositionAnimation), SetBlackPointX, SetBlackPointX method [DirectComposition], SetBlackPointX method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetBlackPointX, directcomp.idcompositionbrightnesseffect_setblackpointx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionBrightnessEffect.SetBlackPointX
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionBrightnessEffect::SetBlackPointX(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Sets the x value of the black point.
 
 ### -param animation
 
-
+TBD
 
 
 

@@ -4,7 +4,7 @@ title: tagIMEAPPLETUI
 author: windows-sdk-content
 description: Used by IImePadApplet::CreateUI to specify applet window style.
 old-location: intl\imeappletui.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 9C44287B-77A9-48FB-8A17-6CB0FA234EE2
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: imepad.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEAPPLETUI, *LPIMEAPPLETUI
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMEAPPLETUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IMEAPPLETUI, *LPIMEAPPLETUI
+req.redist: 
 ---
 
 # tagIMEAPPLETUI structure

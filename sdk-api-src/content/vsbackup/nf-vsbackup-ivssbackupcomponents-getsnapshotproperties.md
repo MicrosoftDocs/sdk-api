@@ -4,17 +4,16 @@ title: IVssBackupComponents::GetSnapshotProperties
 author: windows-sdk-content
 description: The GetSnapshotProperties method gets the properties of the specified shadow copy.
 old-location: base\ivssbackupcomponents_getsnapshotproperties.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: a4e2f9f3-7dee-4324-a48a-6de2a32eabf7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetSnapshotProperties, GetSnapshotProperties method [VSS], GetSnapshotProperties method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetSnapshotProperties method, IVssBackupComponents.GetSnapshotProperties, IVssBackupComponents::GetSnapshotProperties, _win32_ivssbackupcomponents_getsnapshotproperties, base.ivssbackupcomponents_getsnapshotproperties, vsbackup/IVssBackupComponents::GetSnapshotProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.GetSnapshotProperties
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::GetSnapshotProperties

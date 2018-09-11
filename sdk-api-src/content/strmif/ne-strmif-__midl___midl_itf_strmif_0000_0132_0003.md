@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_strmif_0000_0132_0003"
 author: windows-sdk-content
 description: The DVD_OPTION_FLAG enumeration defines flags that control the behavior of the DVD Navigator Filter. To set any of these flags, call IDvdControl2::SetOption.
 old-location: dshow\dvd_option_flag.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 29e75f58-58f3-4b3f-a3ba-e3451d3a0cae
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_OPTION_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_OPTION_FLAG
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: DVD_OPTION_FLAG
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_strmif_0000_0132_0003 enumeration

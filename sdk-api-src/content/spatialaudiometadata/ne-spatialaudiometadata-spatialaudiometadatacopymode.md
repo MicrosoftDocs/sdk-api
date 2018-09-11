@@ -4,17 +4,16 @@ title: SpatialAudioMetadataCopyMode
 author: windows-sdk-content
 description: Specifies the copy mode used when calling ISpatialAudioMetadataCopier::CopyMetadataForFrames.
 old-location: coreaudio\spatialaudiometadatacopymode.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 2E9C2C66-26EB-43E8-A518-25980B287542
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: SpatialAudioMetadataCopyMode, SpatialAudioMetadataCopy_Append, SpatialAudioMetadataCopy_AppendMergeWithFirst, SpatialAudioMetadataCopy_AppendMergeWithLast, SpatialAudioMetadataCopy_Overwrite, SpatialAudioMetadataWriterCopyMode, SpatialAudioMetadataWriterCopyMode enumeration [Core Audio], coreaudio.spatialaudiometadatacopymode, coreaudio.spatialaudiometadatawritercopymode, spatialaudiometadata/SpatialAudioMetadataCopy_Append, spatialaudiometadata/SpatialAudioMetadataCopy_AppendMergeWithFirst, spatialaudiometadata/SpatialAudioMetadataCopy_AppendMergeWithLast, spatialaudiometadata/SpatialAudioMetadataCopy_Overwrite, spatialaudiometadata/SpatialAudioMetadataWriterCopyMode
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataCopyMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SpatialAudioMetadataWriterCopyMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SpatialAudioMetadataCopyMode
+req.redist: 
 ---
 
 # SpatialAudioMetadataCopyMode enumeration

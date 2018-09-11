@@ -4,7 +4,7 @@ title: MF_TOPOLOGY_TYPE
 author: windows-sdk-content
 description: Defines the type of a topology node.
 old-location: mf\mf_topology_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 73ea1f48-0d86-4104-860c-83a4f9189920
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_TOPOLOGY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_TOPOLOGY_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_TOPOLOGY_TYPE
+req.redist: 
 ---
 
 # MF_TOPOLOGY_TYPE enumeration

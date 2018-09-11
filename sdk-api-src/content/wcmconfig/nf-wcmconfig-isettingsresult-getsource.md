@@ -4,17 +4,16 @@ title: ISettingsResult::GetSource
 author: windows-sdk-content
 description: Returns the file or path where the error has occurred.
 old-location: smi\isettingsresult_getsource.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: 2a76b243-5294-47a7-8ad3-b39425735866
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSource, GetSource method [SMI], GetSource method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetSource method, ISettingsResult.GetSource, ISettingsResult::GetSource, smi.isettingsresult_getsource, wcmconfig/ISettingsResult::GetSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsResult.GetSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsResult::GetSource

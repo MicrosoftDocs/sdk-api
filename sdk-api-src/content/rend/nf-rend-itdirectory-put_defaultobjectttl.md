@@ -4,17 +4,16 @@ title: ITDirectory::put_DefaultObjectTTL
 author: windows-sdk-content
 description: The put_DefaultObjectTTL method sets the default time to live (TTL) value, in seconds, for objects created. Only applies to dynamic servers. The minimum value is 300 seconds.
 old-location: tapi3\itdirectory_put_defaultobjectttl.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: aecadd26-648e-43ce-8331-ef4af24567ed
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],put_DefaultObjectTTL method, ITDirectory.put_DefaultObjectTTL, ITDirectory::put_DefaultObjectTTL, _tapi3_itdirectory_put_defaultobjectttl, put_DefaultObjectTTL, put_DefaultObjectTTL method [TAPI 2.2], put_DefaultObjectTTL method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::put_DefaultObjectTTL, tapi3.itdirectory_put_defaultobjectttl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectory.put_DefaultObjectTTL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectory::put_DefaultObjectTTL

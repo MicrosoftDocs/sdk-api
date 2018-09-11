@@ -4,17 +4,16 @@ title: IWbemConfigureRefresher::Remove
 author: windows-sdk-content
 description: The IWbemConfigureRefresher::Remove method is used to remove an object, enumerator, or nested refresher from a refresher.
 old-location: wmi\iwbemconfigurerefresher_remove.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: f6e68b95-e9d1-473e-add4-823b6db51709
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemConfigureRefresher interface [Windows Management Instrumentation],Remove method, IWbemConfigureRefresher.Remove, IWbemConfigureRefresher::Remove, Remove, Remove method [Windows Management Instrumentation], Remove method [Windows Management Instrumentation],IWbemConfigureRefresher interface, _hmm_iwbemconfigurerefresher_remove, wbemcli/IWbemConfigureRefresher::Remove, wmi.iwbemconfigurerefresher_remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWbemConfigureRefresher.Remove
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemConfigureRefresher::Remove

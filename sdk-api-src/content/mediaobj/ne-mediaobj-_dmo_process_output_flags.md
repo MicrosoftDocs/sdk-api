@@ -4,7 +4,7 @@ title: "_DMO_PROCESS_OUTPUT_FLAGS"
 author: windows-sdk-content
 description: The DMO_PROCESS_OUTPUT_FLAGS enumeration defines flags that specify output processing requests.
 old-location: dshow\dmo_process_output_flags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7648f975-3753-41fe-a311-e86334ef7071
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mediaobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _DMO_PROCESS_OUTPUT_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # _DMO_PROCESS_OUTPUT_FLAGS enumeration

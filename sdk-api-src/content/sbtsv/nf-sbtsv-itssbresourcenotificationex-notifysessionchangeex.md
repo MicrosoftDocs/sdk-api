@@ -4,17 +4,16 @@ title: ITsSbResourceNotificationEx::NotifySessionChangeEx
 author: windows-sdk-content
 description: Notifies registered plug-ins about state changes in a session object.
 old-location: termserv\itssbresourcenotificationex_notifysessionchangeex.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 75f7371a-fd3e-4045-b8fe-23d57d75b27a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbResourceNotificationEx interface [Remote Desktop Services],NotifySessionChangeEx method, ITsSbResourceNotificationEx.NotifySessionChangeEx, ITsSbResourceNotificationEx::NotifySessionChangeEx, NotifySessionChangeEx, NotifySessionChangeEx method [Remote Desktop Services], NotifySessionChangeEx method [Remote Desktop Services],ITsSbResourceNotificationEx interface, sbtsv/ITsSbResourceNotificationEx::NotifySessionChangeEx, termserv.itssbresourcenotificationex_notifysessionchangeex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbResourceNotificationEx.NotifySessionChangeEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourceNotificationEx::NotifySessionChangeEx

@@ -4,17 +4,16 @@ title: TSPI_lineSwapHold function
 author: windows-sdk-content
 description: The TSPI_lineSwapHold function swaps the specified active call with the specified call on consultation hold.
 old-location: tspi\tspi_lineswaphold.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 9ecd6a63-e906-483b-b404-28797d259149
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineSwapHold, TSPI_lineSwapHold function [TAPI 2.2], _tspi_tspi_lineswaphold, tspi.tspi_lineswaphold, tspi/TSPI_lineSwapHold
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineSwapHold
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineSwapHold function

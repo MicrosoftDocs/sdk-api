@@ -4,7 +4,7 @@ title: "_MODEMDEVCAPS"
 author: windows-sdk-content
 description: Contains information about the capabilities of a modem.
 old-location: base\modemdevcaps_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 7e9e37c7-416d-4550-87e3-7412cff9a49e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mcx.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mbnapi.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODEMDEVCAPS, *PMODEMDEVCAPS, *LPMODEMDEVCAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MODEMDEVCAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MODEMDEVCAPS, *PMODEMDEVCAPS, *LPMODEMDEVCAPS
+req.redist: 
 ---
 
 # _MODEMDEVCAPS structure

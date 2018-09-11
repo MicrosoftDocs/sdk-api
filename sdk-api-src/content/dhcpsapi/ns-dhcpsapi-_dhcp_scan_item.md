@@ -4,7 +4,7 @@ title: "_DHCP_SCAN_ITEM"
 author: windows-sdk-content
 description: The DHCP_SCAN_ITEM structure defines a desynchronized client lease address stored on a DHCPv4 server, and the location in which it should be fixed (in-memory cache or database).
 old-location: dhcp\dhcp_scan_item.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 82e36660-fb56-4334-97d0-c34facad55a6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_SCAN_ITEM, *LPDHCP_SCAN_ITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_SCAN_ITEM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_SCAN_ITEM, *LPDHCP_SCAN_ITEM
+req.redist: 
 ---
 
 # _DHCP_SCAN_ITEM structure

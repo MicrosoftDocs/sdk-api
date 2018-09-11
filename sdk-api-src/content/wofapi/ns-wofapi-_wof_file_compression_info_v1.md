@@ -4,7 +4,7 @@ title: "_WOF_FILE_COMPRESSION_INFO_V1"
 author: windows-sdk-content
 description: Defines metadata specific to files provided by WOF_PROVIDER_FILE.
 old-location: fs\wof_file_compression_info_v1.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 84FC5525-43BC-436C-AADC-C58882D48C1F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wofapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WOF_FILE_COMPRESSION_INFO_V1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.redist: 
 ---
 
 # _WOF_FILE_COMPRESSION_INFO_V1 structure

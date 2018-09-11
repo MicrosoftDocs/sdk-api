@@ -4,17 +4,16 @@ title: GetExpandedResourceExclusiveCpuCount function
 author: windows-sdk-content
 description: Gets the expected number of exclusive CPU sets that are available to the app when in Game Mode.
 old-location: gamemode\getexpandedresourceexclusivecpucount.htm
-old-project: gamemode
+tech.root: gamemode
 ms.assetid: C87BE7FE-9CC7-4B6B-AC25-606A967D70C6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetExpandedResourceExclusiveCpuCount, GetExpandedResourceExclusiveCpuCount function, expandedresources/GetExpandedResourceExclusiveCpuCount, gamemode.getexpandedresourceexclusivecpucount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: expandedresources.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: Windowsapp.lib
+req.dll: Gamemode.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetExpandedResourceExclusiveCpuCount
 product: Windows
 targetos: Windows
-req.lib: Windowsapp.lib
-req.dll: Gamemode.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # GetExpandedResourceExclusiveCpuCount function

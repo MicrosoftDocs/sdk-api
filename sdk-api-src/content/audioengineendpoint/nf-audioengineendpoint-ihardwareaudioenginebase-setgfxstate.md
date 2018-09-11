@@ -4,17 +4,16 @@ title: IHardwareAudioEngineBase::SetGfxState
 author: windows-sdk-content
 description: The SetGfxState method sets the GFX state of the offloaded audio stream.
 old-location: coreaudio\ihardwareaudioenginebase_setgfxstate.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 1B90A629-D41A-4339-918B-DAAF577EB699
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IHardwareAudioEngineBase interface [Core Audio],SetGfxState method, IHardwareAudioEngineBase.SetGfxState, IHardwareAudioEngineBase::SetGfxState, SetGfxState, SetGfxState method [Core Audio], SetGfxState method [Core Audio],IHardwareAudioEngineBase interface, audioengineendpoint/IHardwareAudioEngineBase::SetGfxState, coreaudio.ihardwareaudioenginebase_setgfxstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IHardwareAudioEngineBase.SetGfxState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IHardwareAudioEngineBase::SetGfxState
@@ -66,7 +65,7 @@ Pointer to an <a href="https://msdn.microsoft.com/12b05e7e-81b2-49fd-bb9f-d5ad33
 
 ### -param _bEnable
 
-
+TBD
 
 
 

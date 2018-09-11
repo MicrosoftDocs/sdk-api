@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::UpdateOverlayDisplay
 author: windows-sdk-content
 description: The IDirectDrawSurface7::UpdateOverlayDisplay method is not currently implemented.
 old-location: directdraw\idirectdrawsurface7_updateoverlaydisplay.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 50edf36f-ddf2-44a4-bcab-4b4dd5c5b65c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],UpdateOverlayDisplay method, IDirectDrawSurface7.UpdateOverlayDisplay, IDirectDrawSurface7::UpdateOverlayDisplay, UpdateOverlayDisplay, UpdateOverlayDisplay method [DirectDraw], UpdateOverlayDisplay method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::UpdateOverlayDisplay, directdraw.idirectdrawsurface7_updateoverlaydisplay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.UpdateOverlayDisplay
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::UpdateOverlayDisplay

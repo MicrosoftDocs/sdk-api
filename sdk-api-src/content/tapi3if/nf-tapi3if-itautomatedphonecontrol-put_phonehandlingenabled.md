@@ -4,17 +4,16 @@ title: ITAutomatedPhoneControl::put_PhoneHandlingEnabled
 author: windows-sdk-content
 description: The put_PhoneHandlingEnabled method sets the PhoneHandlingEnabled property.
 old-location: tapi3\itautomatedphonecontrol_put_phonehandlingenabled.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6759b811-2fc1-4827-a03e-d19335520829
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_PhoneHandlingEnabled method, ITAutomatedPhoneControl.put_PhoneHandlingEnabled, ITAutomatedPhoneControl::put_PhoneHandlingEnabled, _tapi3_itautomatedphonecontrol_put_phonehandlingenabled, put_PhoneHandlingEnabled, put_PhoneHandlingEnabled method [TAPI 2.2], put_PhoneHandlingEnabled method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_phonehandlingenabled, tapi3if/ITAutomatedPhoneControl::put_PhoneHandlingEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAutomatedPhoneControl.put_PhoneHandlingEnabled
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAutomatedPhoneControl::put_PhoneHandlingEnabled

@@ -4,17 +4,16 @@ title: MsiQueryFeatureStateW function
 author: windows-sdk-content
 description: The MsiQueryFeatureState function returns the installed state for a product feature.
 old-location: setup\msiqueryfeaturestate.htm
-old-project: msi
+tech.root: msi
 ms.assetid: d84aa7f1-d29a-493d-a065-8f7b680019d7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiQueryFeatureState, MsiQueryFeatureState function, MsiQueryFeatureStateA, MsiQueryFeatureStateW, _msi_msiqueryfeaturestate, msi/MsiQueryFeatureState, msi/MsiQueryFeatureStateA, msi/MsiQueryFeatureStateW, setup.msiqueryfeaturestate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiQueryFeatureStateW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiQueryFeatureStateW function

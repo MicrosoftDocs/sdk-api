@@ -4,7 +4,7 @@ title: "_BG_FILE_PROGRESS"
 author: windows-sdk-content
 description: The BG_FILE_PROGRESS structure provides file-related progress information, such as the number of bytes transferred.
 old-location: bits\bg_file_progress.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 322363b4-081e-4100-9087-e34c21a3ffae
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Bits.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_FILE_PROGRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BG_FILE_PROGRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BG_FILE_PROGRESS
+req.redist: 
 ---
 
 # _BG_FILE_PROGRESS structure

@@ -4,17 +4,16 @@ title: AERT_Allocate function
 author: windows-sdk-content
 description: The AERT_Allocate utility function allocates and locks a segment of memory for use by audio processing objects.
 old-location: audio\aert_allocate.htm
-old-project: audio
+tech.root: audio
 ms.assetid: b992842d-0612-464c-9b82-b75137fa49eb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AERT_Allocate, AERT_Allocate function [Audio Devices], audio.aert_allocate, audio_syseffects_r_db01d2ca-9a2d-4054-b066-773f2cb54276.xml, baseaudioprocessingobject/AERT_Allocate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: baseaudioprocessingobject.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Audioeng.lib
+req.dll: Audioeng.dll
+req.irql: All levels
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AERT_Allocate
 product: Windows
 targetos: Windows
-req.lib: Audioeng.lib
-req.dll: Audioeng.dll
-req.irql: All levels
+req.typenames: 
+req.redist: 
 ---
 
 # AERT_Allocate function

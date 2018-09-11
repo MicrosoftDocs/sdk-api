@@ -4,17 +4,16 @@ title: IDTFilter::get_EvalRatObjOK
 author: windows-sdk-content
 description: The get_EvalRatObjOK method queries whether the EvalRat object was created successfully.
 old-location: mstv\idtfilter_get_evalratobjok.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 92bbe476-3aba-4a50-9cb3-500356228c4b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_EvalRatObjOK method, IDTFilter.get_EvalRatObjOK, IDTFilter::get_EvalRatObjOK, IDTFilterget_EvalRatObjOK, encdec/IDTFilter::get_EvalRatObjOK, get_EvalRatObjOK, get_EvalRatObjOK method [Microsoft TV Technologies], get_EvalRatObjOK method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_evalratobjok
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDTFilter.get_EvalRatObjOK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDTFilter::get_EvalRatObjOK

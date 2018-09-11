@@ -4,17 +4,16 @@ title: IDirectInputEffectDriver::Release
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::Release method decreases the reference count of the DirectInputEffectDriver object by 1. This method is part of the IUnknown interface inherited by DirectInputEffectDriver.
 old-location: hid\idirectinputeffectdriver_release.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 04f8c7ab-56d4-4173-be84-b24253a231ab
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],Release method, IDirectInputEffectDriver.Release, IDirectInputEffectDriver::Release, Release, Release method [Human Input Devices], Release method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_1363e951-bfbc-4918-9c35-3178d2670990.xml, dinputd/IDirectInputEffectDriver::Release, hid.idirectinputeffectdriver_release
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputEffectDriver.Release
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputEffectDriver::Release

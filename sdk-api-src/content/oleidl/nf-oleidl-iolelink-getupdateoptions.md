@@ -4,17 +4,16 @@ title: IOleLink::GetUpdateOptions
 author: windows-sdk-content
 description: Retrieves a value indicating how often the linked object updates its cached data.
 old-location: com\iolelink_getupdateoptions.htm
-old-project: com
+tech.root: com
 ms.assetid: 2cb91b48-0026-4afa-80ab-16ac6fbce04d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetUpdateOptions, GetUpdateOptions method [COM], GetUpdateOptions method [COM],IOleLink interface, IOleLink interface [COM],GetUpdateOptions method, IOleLink.GetUpdateOptions, IOleLink::GetUpdateOptions, _ole_iolelink_getupdateoptions, com.iolelink_getupdateoptions, oleidl/IOleLink::GetUpdateOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleLink.GetUpdateOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleLink::GetUpdateOptions

@@ -4,17 +4,16 @@ title: IX509EnrollmentPolicyServer::GetPolicyServerUrl
 author: windows-sdk-content
 description: Retrieves a string value that contains the URL for the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getpolicyserverurl.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 34fb1430-afde-43f2-a425-dcb25c9ea58d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPolicyServerUrl, GetPolicyServerUrl method [Security], GetPolicyServerUrl method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetPolicyServerUrl method, IX509EnrollmentPolicyServer.GetPolicyServerUrl, IX509EnrollmentPolicyServer::GetPolicyServerUrl, certenroll/IX509EnrollmentPolicyServer::GetPolicyServerUrl, security.ix509enrollmentpolicyserver_getpolicyserverurl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509EnrollmentPolicyServer.GetPolicyServerUrl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EnrollmentPolicyServer::GetPolicyServerUrl

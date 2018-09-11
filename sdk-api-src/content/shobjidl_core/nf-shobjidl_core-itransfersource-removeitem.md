@@ -4,17 +4,16 @@ title: ITransferSource::RemoveItem
 author: windows-sdk-content
 description: Removes the item without moving the item to the Recycle Bin.
 old-location: shell\ITransferSource_RemoveItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 53084f0d-cf78-437a-ae04-43fd78cb9839
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITransferSource interface [Windows Shell],RemoveItem method, ITransferSource.RemoveItem, ITransferSource::RemoveItem, RemoveItem, RemoveItem method [Windows Shell], RemoveItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_RemoveItem, shell.ITransferSource_RemoveItem, shobjidl_core/ITransferSource::RemoveItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferSource.RemoveItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferSource::RemoveItem
@@ -69,7 +67,7 @@ A pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a87
 
 ### -param flags
 
-
+TBD
 
 
 

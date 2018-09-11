@@ -4,17 +4,16 @@ title: SHQueryValueExW function
 author: windows-sdk-content
 description: Opens a registry key and queries it for a specific value.
 old-location: shell\SHQueryValueEx.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9969acae-5965-40fe-bde9-6de9ddf26bb8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHQueryValueEx, SHQueryValueEx function [Windows Shell], SHQueryValueExA, SHQueryValueExW, _win32_SHQueryValueEx, shell.SHQueryValueEx, shlwapi/SHQueryValueEx, shlwapi/SHQueryValueExA, shlwapi/SHQueryValueExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SHQueryValueExW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHQueryValueExW function

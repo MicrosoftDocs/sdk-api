@@ -4,17 +4,16 @@ title: ITextStrings::Remove
 author: windows-sdk-content
 description: Removes a string from a string collection, starting at an index.
 old-location: controls\itextstrings_remove.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 1909e8b6-ee18-4d17-87cf-29bb3553bb25
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStrings interface [Windows Controls],Remove method, ITextStrings.Remove, ITextStrings::Remove, Remove, Remove method [Windows Controls], Remove method [Windows Controls],ITextStrings interface, controls.itextstrings_remove, tom/ITextStrings::Remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStrings.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStrings::Remove

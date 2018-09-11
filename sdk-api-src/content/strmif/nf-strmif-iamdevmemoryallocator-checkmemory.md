@@ -4,17 +4,16 @@ title: IAMDevMemoryAllocator::CheckMemory
 author: windows-sdk-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Tests whether the specific instance (device) of the allocator allocated a memory pointer.
 old-location: dshow\iamdevmemoryallocator_checkmemory.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d51be809-4a97-4098-9ef3-8ed6603f26c0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: CheckMemory, CheckMemory method [DirectShow], CheckMemory method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],CheckMemory method, IAMDevMemoryAllocator.CheckMemory, IAMDevMemoryAllocator::CheckMemory, IAMDevMemoryAllocatorCheckMemory, dshow.iamdevmemoryallocator_checkmemory, strmif/IAMDevMemoryAllocator::CheckMemory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMDevMemoryAllocator.CheckMemory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMDevMemoryAllocator::CheckMemory

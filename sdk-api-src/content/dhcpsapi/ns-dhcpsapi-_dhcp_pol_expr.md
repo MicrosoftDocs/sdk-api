@@ -4,7 +4,7 @@ title: "_DHCP_POL_EXPR"
 author: windows-sdk-content
 description: The DHCP_POL_EXP structure defines a DHCP server policy expression.
 old-location: dhcp\dhcp_pol_expr.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 34e674f7-61a4-4045-9643-374f05906227
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_POL_EXPR, *PDHCP_POL_EXPR, *LPDHCP_POL_EXPR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_POL_EXPR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_POL_EXPR, *PDHCP_POL_EXPR, *LPDHCP_POL_EXPR
+req.redist: 
 ---
 
 # _DHCP_POL_EXPR structure

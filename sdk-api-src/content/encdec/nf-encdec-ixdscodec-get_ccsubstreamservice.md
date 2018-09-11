@@ -4,17 +4,16 @@ title: IXDSCodec::get_CCSubstreamService
 author: windows-sdk-content
 description: The get_CCSubstreamService method queries which line 21 data channels the XDS Codec filter sends to the XDSToRat object. By default, it sends just the Extended Data Services (XDS) channel.
 old-location: mstv\ixdscodec_get_ccsubstreamservice.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 60523c2c-0d57-46d7-8ab2-eaf065a440d4
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IXDSCodec interface [Microsoft TV Technologies],get_CCSubstreamService method, IXDSCodec.get_CCSubstreamService, IXDSCodec::get_CCSubstreamService, IXDSCodecget_CCSubstreamService, encdec/IXDSCodec::get_CCSubstreamService, get_CCSubstreamService, get_CCSubstreamService method [Microsoft TV Technologies], get_CCSubstreamService method [Microsoft TV Technologies],IXDSCodec interface, mstv.ixdscodec_get_ccsubstreamservice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXDSCodec.get_CCSubstreamService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXDSCodec::get_CCSubstreamService

@@ -4,17 +4,16 @@ title: IMtsGrp::get_Count
 author: windows-sdk-content
 description: Retrieves the number of running packages in the catalog.
 old-location: cos\imtsgrp_get_count.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 84d1d2e1-ea06-4e3f-81d9-bb2ed02cf021
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMtsGrp interface [COM+],get_Count method, IMtsGrp.get_Count, IMtsGrp::get_Count, _dtc_IMtsGrp_get_Count, comsvcs/IMtsGrp::get_Count, cos.imtsgrp_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],IMtsGrp interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMtsGrp.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMtsGrp::get_Count

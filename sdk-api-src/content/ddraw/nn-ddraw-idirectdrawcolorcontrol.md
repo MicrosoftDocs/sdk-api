@@ -4,7 +4,7 @@ title: IDirectDrawColorControl
 author: windows-sdk-content
 description: Applications use the methods of the IDirectDrawColorControl interface to get and set color controls.
 old-location: directdraw\idirectdrawcolorcontrol.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: e9bd0dc6-2d8a-452b-894d-72a3d7a20100
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawColorControl
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawColorControl interface

@@ -4,17 +4,16 @@ title: ID2D1Properties::GetValueByName(PCWSTR,)
 author: windows-sdk-content
 description: Gets the property value by name.
 old-location: direct2d\id2d1properties_getvaluebyname.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 2dc60fad-9ce2-4951-85ea-647a828420a1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetValueByName, GetValueByName method [Direct2D], GetValueByName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueByName method, ID2D1Properties.GetValueByName, ID2D1Properties.GetValueByName(PCWSTR,), ID2D1Properties::GetValueByName, ID2D1Properties::GetValueByName(PCWSTR,), ID2D1Properties::GetValueByName(PCWSTR,BYTE*,UINT32), d2d1_1/ID2D1Properties::GetValueByName, direct2d.id2d1properties_getvaluebyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Properties.GetValueByName
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Properties::GetValueByName(PCWSTR,)
@@ -61,12 +60,12 @@ Gets the property value by name.
 
 ### -param propertyName
 
+TBD
 
 
+### -param arg1
 
-### -param param
-
-
+TBD
 
 
 

@@ -4,7 +4,7 @@ title: "_DXVABufferInfo"
 author: windows-sdk-content
 description: Specifies a buffer for the IDirect3DDXVADevice9::Execute method.
 old-location: mf\dxvabufferinfo.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 048a3fcf-6076-4500-b5cc-edfe782f467b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva9typ.h
 req.include-header: Dxva.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVABufferInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVABufferInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVABufferInfo
+req.redist: 
 ---
 
 # _DXVABufferInfo structure

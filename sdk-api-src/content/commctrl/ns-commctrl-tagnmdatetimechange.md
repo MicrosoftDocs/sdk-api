@@ -4,7 +4,7 @@ title: tagNMDATETIMECHANGE
 author: windows-sdk-content
 description: Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the DTN_DATETIMECHANGE notification code.
 old-location: controls\NMDATETIMECHANGE.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimechange.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NMDATETIMECHANGE, *LPNMDATETIMECHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - NMDATETIMECHANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: NMDATETIMECHANGE, *LPNMDATETIMECHANGE
+req.redist: 
 ---
 
 # tagNMDATETIMECHANGE structure

@@ -4,7 +4,7 @@ title: "_HTTP_BYTE_RANGE"
 author: windows-sdk-content
 description: The HTTP_BYTE_RANGE structure is used to specify a byte range within a cached response fragment, file, or other data block.
 old-location: http\http_byte_range.htm
-old-project: http
+tech.root: http
 ms.assetid: a57d23cd-1e91-401a-b242-6549b1457594
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_BYTE_RANGE, *PHTTP_BYTE_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_BYTE_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_BYTE_RANGE, *PHTTP_BYTE_RANGE
+req.redist: 
 ---
 
 # _HTTP_BYTE_RANGE structure

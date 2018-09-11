@@ -4,17 +4,16 @@ title: "_tagIE4COMPONENT"
 author: windows-sdk-content
 description: Used by Microsoft Internet Explorer 4.0 and Microsoft Internet Explorer 4.01 to hold information about a component. With Windows 2000, it is replaced by the COMPONENT structure.
 old-location: shell\IE4COMPONENT.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5fcb2853-271b-4fcc-a3ea-0c2c6dd68195
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPIE4COMPONENT, COMP_TYPE_CONTROL, COMP_TYPE_HTMLDOC, COMP_TYPE_PICTURE, COMP_TYPE_WEBSITE, IE4COMPONENT, IE4COMPONENT structure [Windows Shell], LPIE4COMPONENT, LPIE4COMPONENT structure pointer [Windows Shell], _shell_IE4COMPONENT, _tagIE4COMPONENT, shell.IE4COMPONENT, shlobj_core/IE4COMPONENT, shlobj_core/LPIE4COMPONENT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IE4COMPONENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IE4COMPONENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: IE4COMPONENT
+req.redist: 
 ---
 
 # _tagIE4COMPONENT structure

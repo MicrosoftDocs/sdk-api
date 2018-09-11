@@ -4,17 +4,16 @@ title: DrvDeriveSurface function
 author: windows-sdk-content
 description: The DrvDeriveSurface function derives a GDI surface from the specified DirectDraw surface.
 old-location: display\drvderivesurface.htm
-old-project: display
+tech.root: display
 ms.assetid: 7cd0acf8-34ef-425b-9967-43008d77b900
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvDeriveSurface, DrvDeriveSurface function [Display Devices], ddifncs_b38de767-eeaf-4120-8711-6f3319a53058.xml, display.drvderivesurface, winddi/DrvDeriveSurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvDeriveSurface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvDeriveSurface function

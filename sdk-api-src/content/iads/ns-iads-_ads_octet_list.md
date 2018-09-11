@@ -4,7 +4,7 @@ title: "_ADS_OCTET_LIST"
 author: windows-sdk-content
 description: The ADS_OCTET_LIST structure is an ADSI representation of an ordered sequence of single-byte strings.
 old-location: adsi\ads_octet_list.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 9a6a6ba8-afe1-44d3-a9a8-dab1c5f4265e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_OCTET_LIST, *PADS_OCTET_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_OCTET_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_OCTET_LIST, *PADS_OCTET_LIST
+req.redist: 
 ---
 
 # _ADS_OCTET_LIST structure

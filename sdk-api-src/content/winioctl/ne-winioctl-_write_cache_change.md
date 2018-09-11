@@ -4,7 +4,7 @@ title: "_WRITE_CACHE_CHANGE"
 author: windows-sdk-content
 description: Indicates whether the write cache features of a device are changeable.
 old-location: fs\write_cache_change.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: a6974092-fa4f-4524-96ec-b4fad0b8c5ea
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_CACHE_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WRITE_CACHE_CHANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WRITE_CACHE_CHANGE
+req.redist: 
 ---
 
 # _WRITE_CACHE_CHANGE enumeration

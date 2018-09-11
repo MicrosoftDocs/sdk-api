@@ -4,7 +4,7 @@ title: lineagentactivitylist_tag
 author: windows-sdk-content
 description: The LINEAGENTACTIVITYLIST structure describes a list of ACD agent activities. This structure can contain an array of LINEAGENTACTIVITYENTRY structures. The lineGetAgentActivityList function returns the LINEAGENTACTIVITYLIST structure.
 old-location: tapi2\lineagentactivitylist_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 61e46717-8a14-440f-bb61-991c3dadd778
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEAGENTACTIVITYLIST, *LPLINEAGENTACTIVITYLIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEAGENTACTIVITYLIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEAGENTACTIVITYLIST, *LPLINEAGENTACTIVITYLIST
+req.redist: 
 ---
 
 # lineagentactivitylist_tag structure

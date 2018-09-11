@@ -4,17 +4,16 @@ title: "_CLUSTER_SHARED_VOLUME_STATE_INFO_EX"
 author: windows-sdk-content
 description: Represents information about the state of a Cluster Shared Volume (CSV).
 old-location: mscs\cluster_shared_volume_state_info_ex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: B0926E1A-CA39-44FE-989C-B8BDD86F9683
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUSTER_SHARED_VOLUME_STATE_INFO_EX, CLUSTER_SHARED_VOLUME_STATE_INFO_EX, CLUSTER_SHARED_VOLUME_STATE_INFO_EX structure [Failover Cluster], PCLUSTER_SHARED_VOLUME_STATE_INFO_EX, PCLUSTER_SHARED_VOLUME_STATE_INFO_EX structure pointer [Failover Cluster], RedirectedIOReasonBitLockerInitializing, RedirectedIOReasonFileSystemTiering, RedirectedIOReasonMax, RedirectedIOReasonReFs, RedirectedIOReasonUnsafeFileSystemFilter, RedirectedIOReasonUnsafeVolumeFilter, RedirectedIOReasonUserRequest, VolumeRedirectedIOReasonMax, VolumeRedirectedIOReasonNoDiskConnectivity, VolumeRedirectedIOReasonStorageSpaceNotAttached, VolumeRedirectedIOReasonVolumeReplicationEnabled, _CLUSTER_SHARED_VOLUME_STATE_INFO_EX, clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO_EX, clusapi/PCLUSTER_SHARED_VOLUME_STATE_INFO_EX, mscs.cluster_shared_volume_state_info_ex"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_SHARED_VOLUME_STATE_INFO_EX, *PCLUSTER_SHARED_VOLUME_STATE_INFO_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,9 +39,8 @@ api_name:
  - CLUSTER_SHARED_VOLUME_STATE_INFO_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_SHARED_VOLUME_STATE_INFO_EX, *PCLUSTER_SHARED_VOLUME_STATE_INFO_EX
+req.redist: 
 ---
 
 # _CLUSTER_SHARED_VOLUME_STATE_INFO_EX structure

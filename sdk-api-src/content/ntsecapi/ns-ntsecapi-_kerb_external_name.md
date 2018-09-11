@@ -4,17 +4,16 @@ title: "_KERB_EXTERNAL_NAME"
 author: windows-sdk-content
 description: Contains information about an external name.
 old-location: security\kerb_external_name.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 8ed37546-6443-4010-a078-4359dd1c2861
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PKERB_EXTERNAL_NAME, KERB_EXTERNAL_NAME, KERB_EXTERNAL_NAME structure [Security], KRB_NT_ENTERPRISE_PRINCIPAL, KRB_NT_ENT_PRINCIPAL_AND_ID, KRB_NT_MS_PRINCIPAL_AND_ID, KRB_NT_MS_PRINICPAL, KRB_NT_PRINCIPAL, KRB_NT_SRV_HST, KRB_NT_SRV_INST, KRB_NT_SRV_XHST, KRB_NT_UID, KRB_NT_UNKNOWN, PKERB_EXTERNAL_NAME, PKERB_EXTERNAL_NAME structure pointer [Security], _KERB_EXTERNAL_NAME, _lsa_kerb_external_name, ntsecapi/KERB_EXTERNAL_NAME, ntsecapi/PKERB_EXTERNAL_NAME, security.kerb_external_name"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_EXTERNAL_NAME, *PKERB_EXTERNAL_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_EXTERNAL_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_EXTERNAL_NAME, *PKERB_EXTERNAL_NAME
+req.redist: 
 ---
 
 # _KERB_EXTERNAL_NAME structure

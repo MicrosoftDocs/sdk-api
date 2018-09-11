@@ -4,17 +4,16 @@ title: capCreateCaptureWindowA function
 author: windows-sdk-content
 description: The capCreateCaptureWindow function creates a capture window.
 old-location: multimedia\capcreatecapturewindow.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: b08785f8-9850-4d3b-acbf-b065f45910e1
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capCreateCaptureWindow, capCreateCaptureWindow, capCreateCaptureWindow function [Windows Multimedia], capCreateCaptureWindowA, capCreateCaptureWindowW, multimedia.capcreatecapturewindow, vfw/capCreateCaptureWindow, vfw/capCreateCaptureWindowA, vfw/capCreateCaptureWindowW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avicap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - capCreateCaptureWindowW
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avicap32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capCreateCaptureWindowA function

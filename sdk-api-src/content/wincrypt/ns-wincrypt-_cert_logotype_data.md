@@ -4,17 +4,16 @@ title: "_CERT_LOGOTYPE_DATA"
 author: windows-sdk-content
 description: Contains logotype data.
 old-location: security\cert_logotype_data.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: f170dd48-a0f4-45e0-b5b8-a5f446d1a86e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_LOGOTYPE_DATA, CERT_LOGOTYPE_DATA, CERT_LOGOTYPE_DATA structure [Security], PCERT_LOGOTYPE_DATA, PCERT_LOGOTYPE_DATA structure pointer [Security], _CERT_LOGOTYPE_DATA, security.cert_logotype_data, wincrypt/CERT_LOGOTYPE_DATA, wincrypt/PCERT_LOGOTYPE_DATA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_LOGOTYPE_DATA, *PCERT_LOGOTYPE_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_LOGOTYPE_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_LOGOTYPE_DATA, *PCERT_LOGOTYPE_DATA
+req.redist: 
 ---
 
 # _CERT_LOGOTYPE_DATA structure

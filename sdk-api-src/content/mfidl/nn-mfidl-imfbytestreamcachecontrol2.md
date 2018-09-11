@@ -4,7 +4,7 @@ title: IMFByteStreamCacheControl2
 author: windows-sdk-content
 description: Controls how a network byte stream transfers data to a local cache.
 old-location: mf\imfbytestreamcachecontrol2.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: A901F679-B6F2-4DB7-8EFC-EA61249B64FB
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFByteStreamCacheControl2
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFByteStreamCacheControl2 interface

@@ -4,17 +4,16 @@ title: IAudioSessionControl::GetGroupingParam
 author: windows-sdk-content
 description: The GetGroupingParam method retrieves the grouping parameter of the audio session.
 old-location: coreaudio\iaudiosessioncontrol_getgroupingparam.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: d636aad7-c8b3-4179-ac32-5cb283611499
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetGroupingParam, GetGroupingParam method [Core Audio], GetGroupingParam method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetGroupingParam method, IAudioSessionControl.GetGroupingParam, IAudioSessionControl::GetGroupingParam, IAudioSessionControlGetGroupingParam, audiopolicy/IAudioSessionControl::GetGroupingParam, coreaudio.iaudiosessioncontrol_getgroupingparam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionControl.GetGroupingParam
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionControl::GetGroupingParam

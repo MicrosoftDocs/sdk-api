@@ -4,17 +4,16 @@ title: ITAutomatedPhoneControl::StopTone
 author: windows-sdk-content
 description: The StopTone method ceases any tone that is currently being played. If no tone is being played, the method performs no action and returns success.
 old-location: tapi3\itautomatedphonecontrol_stoptone.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 618743c3-6d4a-4cab-a4fc-7cd4e3b8cdd9
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],StopTone method, ITAutomatedPhoneControl.StopTone, ITAutomatedPhoneControl::StopTone, StopTone, StopTone method [TAPI 2.2], StopTone method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_stoptone, tapi3.itautomatedphonecontrol_stoptone, tapi3if/ITAutomatedPhoneControl::StopTone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAutomatedPhoneControl.StopTone
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAutomatedPhoneControl::StopTone

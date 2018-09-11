@@ -4,17 +4,16 @@ title: CWbemGlueFactory
 author: windows-sdk-content
 description: The CWbemGlueFactory class is part of the WMI Provider Framework. The Provider Framework implements methods of this interface internally to create new instances of classes for the provider.
 old-location: wmi\cwbemgluefactory.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 1287cb02-695a-47df-88f6-0d9dfd6b81af
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "??1CWbemGlueFactory@@QAE@XZ, ??1CWbemGlueFactory@@QEAA@XZ, CWbemGlueFactory, CWbemGlueFactory class [Windows Management Instrumentation], CWbemGlueFactory class [Windows Management Instrumentation],described, wbemglue/CWbemGlueFactory, wmi.cwbemgluefactory"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: class
 req.header: wbemglue.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - ??1CWbemGlueFactory@@QEAA@XZ
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CWbemGlueFactory class

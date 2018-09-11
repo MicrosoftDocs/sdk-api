@@ -4,17 +4,16 @@ title: IComQCEvents::OnQCRecord
 author: windows-sdk-content
 description: Generated when the queued components recorder creates the queued message.
 old-location: cos\icomqcevents_onqcrecord.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6a7ff5ac-df0f-4aea-b6f1-813c7e22e6c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCRecord method, IComQCEvents.OnQCRecord, IComQCEvents::OnQCRecord, OnQCRecord, OnQCRecord method [COM+], OnQCRecord method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCRecord, comsvcs/IComQCEvents::OnQCRecord, cos.icomqcevents_onqcrecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComQCEvents.OnQCRecord
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComQCEvents::OnQCRecord

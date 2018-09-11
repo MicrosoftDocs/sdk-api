@@ -4,17 +4,16 @@ title: IAMNetShowConfig::get_BufferingTime
 author: windows-sdk-content
 description: The get_BufferingTime method retrieves the buffering time.
 old-location: dshow\iamnetshowconfig_get_bufferingtime.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8594f8dd-9545-4e6d-b1d7-9a278dcb4129
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_BufferingTime method, IAMNetShowConfig.get_BufferingTime, IAMNetShowConfig::get_BufferingTime, IAMNetShowConfigget_BufferingTime, dshow.iamnetshowconfig_get_bufferingtime, get_BufferingTime, get_BufferingTime method [DirectShow], get_BufferingTime method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_BufferingTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetShowConfig.get_BufferingTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetShowConfig::get_BufferingTime

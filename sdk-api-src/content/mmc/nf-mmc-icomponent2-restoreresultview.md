@@ -4,17 +4,16 @@ title: IComponent2::RestoreResultView
 author: windows-sdk-content
 description: The RestoreResultView method restores the result view. This method enables a snap-in to restore snap-in-specific details of a result view. For more information, see Restoring Result Views.
 old-location: mmc\icomponent2_restoreresultview.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: fe9a71c7-eaa6-4479-8337-0746a784a57f
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IComponent2 interface [MMC],RestoreResultView method, IComponent2.RestoreResultView, IComponent2::RestoreResultView, RestoreResultView, RestoreResultView method [MMC], RestoreResultView method [MMC],IComponent2 interface, _slate_icomponent2_restoreresultview, mmc.icomponent2_restoreresultview, mmc/IComponent2::RestoreResultView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponent2.RestoreResultView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IComponent2::RestoreResultView

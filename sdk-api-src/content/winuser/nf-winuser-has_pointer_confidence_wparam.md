@@ -4,17 +4,16 @@ title: HAS_POINTER_CONFIDENCE_WPARAM macro
 author: windows-sdk-content
 description: Checks whether the specified pointer message is considered intentional rather than accidental.
 old-location: inputmsg\has_pointer_confidence_wparam.htm
-old-project: InputMsg
+tech.root: InputMsg
 ms.assetid: 58E66EC4-D855-4B24-80E9-54B6DAE6D36C
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: HAS_POINTER_CONFIDENCE_WPARAM, HAS_POINTER_CONFIDENCE_WPARAM macro [Input Messages and Notifications], inputmsg.has_pointer_confidence_wparam, winuser/HAS_POINTER_CONFIDENCE_WPARAM
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HAS_POINTER_CONFIDENCE_WPARAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # HAS_POINTER_CONFIDENCE_WPARAM macro

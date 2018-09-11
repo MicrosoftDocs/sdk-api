@@ -4,17 +4,16 @@ title: PolyDraw function
 author: windows-sdk-content
 description: The PolyDraw function draws a set of line segments and B&#233;zier curves.
 old-location: gdi\polydraw.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 5fd3f285-dcf3-4cd0-915a-236ba7902353
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PT_BEZIERTO, PT_CLOSEFIGURE, PT_LINETO, PT_MOVETO, PolyDraw, PolyDraw function [Windows GDI], _win32_PolyDraw, gdi.polydraw, wingdi/PolyDraw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - PolyDraw
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PolyDraw function

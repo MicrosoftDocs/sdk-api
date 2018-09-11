@@ -4,17 +4,16 @@ title: ICertPropertyBackedUp::get_BackedUpValue
 author: windows-sdk-content
 description: Retrieves a Boolean value that identifies whether the certificate was backed up.
 old-location: security\icertpropertybackedup_backedupvalue_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 206ef65a-93c5-4c0d-b673-42a0b065225c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: BackedUpValue property [Security], BackedUpValue property [Security],ICertPropertyBackedUp interface, ICertPropertyBackedUp interface [Security],BackedUpValue property, ICertPropertyBackedUp.BackedUpValue, ICertPropertyBackedUp.get_BackedUpValue, ICertPropertyBackedUp::BackedUpValue, ICertPropertyBackedUp::get_BackedUpValue, certenroll/ICertPropertyBackedUp::BackedUpValue, certenroll/ICertPropertyBackedUp::get_BackedUpValue, get_BackedUpValue, security.icertpropertybackedup_backedupvalue_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertPropertyBackedUp.get_BackedUpValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyBackedUp::get_BackedUpValue

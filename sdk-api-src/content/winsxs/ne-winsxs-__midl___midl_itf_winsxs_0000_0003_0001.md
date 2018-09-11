@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_winsxs_0000_0003_0001"
 author: windows-sdk-content
 description: The CREATE_ASM_NAME_OBJ_FLAGS enumeration is used by the CreateAssemblyNameObject function.
 old-location: setup\create_asm_name_obj_flags_.htm
-old-project: sbscs
+tech.root: SbsCs
 ms.assetid: fdbb5eb0-0e45-483c-bcab-8b19a079800c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CANOF_PARSE_DISPLAY_NAME, CANOF_SET_DEFAULT_VALUES, CREATE_ASM_NAME_OBJ_FLAGS, CREATE_ASM_NAME_OBJ_FLAGS , CREATE_ASM_NAME_OBJ_FLAGS enumeration [Side-by-side Assemblies], __MIDL___MIDL_itf_winsxs_0000_0003_0001, setup.create_asm_name_obj_flags_, winsxs/CANOF_PARSE_DISPLAY_NAME, winsxs/CANOF_SET_DEFAULT_VALUES, winsxs/CREATE_ASM_NAME_OBJ_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsxs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CREATE_ASM_NAME_OBJ_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_winsxs_0000_0003_0001 enumeration

@@ -4,17 +4,16 @@ title: IFileSystemImageResult::get_ImageStream
 author: windows-sdk-content
 description: Retrieves the burn image stream.
 old-location: imapi\ifilesystemimageresult_get_imagestream.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 87e4bde6-c8c3-43b6-b096-514fdef5e262
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_ImageStream method, IFileSystemImageResult.get_ImageStream, IFileSystemImageResult::get_ImageStream, get_ImageStream, get_ImageStream method [IMAPI], get_ImageStream method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_imagestream, imapi2fs/IFileSystemImageResult::get_ImageStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImageResult.get_ImageStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImageResult::get_ImageStream

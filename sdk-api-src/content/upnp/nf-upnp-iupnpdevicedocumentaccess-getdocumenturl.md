@@ -4,17 +4,16 @@ title: IUPnPDeviceDocumentAccess::GetDocumentURL
 author: windows-sdk-content
 description: The GetDocumentURL method returns the URL from which the device description document can be loaded.
 old-location: upnp\iupnpdevicedocumentaccess_getdocumenturl.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 7845e543-47c6-4751-8e29-2508b2adb090
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: GetDocumentURL, GetDocumentURL method [UPnP APIs], GetDocumentURL method [UPnP APIs],IUPnPDeviceDocumentAccess interface, IUPnPDeviceDocumentAccess interface [UPnP APIs],GetDocumentURL method, IUPnPDeviceDocumentAccess.GetDocumentURL, IUPnPDeviceDocumentAccess::GetDocumentURL, _upnp_iupnpdevicedocumentaccess_getdocumenturl, upnp.iupnpdevicedocumentaccess_getdocumenturl, upnp/IUPnPDeviceDocumentAccess::GetDocumentURL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDeviceDocumentAccess.GetDocumentURL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDeviceDocumentAccess::GetDocumentURL

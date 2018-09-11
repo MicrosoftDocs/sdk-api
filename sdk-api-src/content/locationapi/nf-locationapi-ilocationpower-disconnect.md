@@ -4,17 +4,16 @@ title: ILocationPower::Disconnect
 author: windows-sdk-content
 description: Used by Windows Store app browsers in Windows 8 to notify the location platform that an app has been suspended (disconnect) and restored (connect).
 old-location: winlocation_com_ref\ilocationpower_disconnect.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: 8bf9bc29-4e81-4d80-8de5-317678b34792
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Disconnect, Disconnect method [WinLocation], Disconnect method [WinLocation],ILocationPower interface, ILocationPower interface [WinLocation],Disconnect method, ILocationPower.Disconnect, ILocationPower::Disconnect, WinLocation_COM_Ref.ilocationpower_disconnect, locationapi/ILocationPower::Disconnect, winlocation.ilocationpower_disconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocationPower.Disconnect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ILocationPower::Disconnect

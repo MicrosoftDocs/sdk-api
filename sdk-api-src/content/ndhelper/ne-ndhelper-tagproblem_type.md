@@ -4,7 +4,7 @@ title: tagPROBLEM_TYPE
 author: windows-sdk-content
 description: The PROBLEM_TYPE enumeration describes the type of problem a helper class indicates is present.
 old-location: ndf\problem_type.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: cf5a4205-b79f-4de6-b153-0955c6ff4e11
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROBLEM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROBLEM_TYPE
 product: Windows
 targetos: Windows
-req.lib: Ndfapi.lib
-req.dll: Ndfapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: PROBLEM_TYPE
+req.redist: 
 ---
 
 # tagPROBLEM_TYPE enumeration

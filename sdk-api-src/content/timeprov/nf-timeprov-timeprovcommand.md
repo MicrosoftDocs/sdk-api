@@ -4,17 +4,16 @@ title: TimeProvCommand function
 author: windows-sdk-content
 description: A callback function that is called by the time provider manager to send commands to the time provider.
 old-location: base\timeprovcommand.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 07b0bdf2-d224-4bbc-be29-9032a848d5ae
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: TPC_GetSamples, TPC_NetTopoChange, TPC_PollIntervalChanged, TPC_Query, TPC_Shutdown, TPC_TimeJumped, TPC_UpdateConfig, TimeProvCommand, TimeProvCommand callback, TimeProvCommand callback function, _win32_timeprovcommand, base.timeprovcommand, timeprov/TimeProvCommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: timeprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TIMECAPS, *PTIMECAPS, *NPTIMECAPS, *LPTIMECAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TimeProvCommand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TimeProvCommand function

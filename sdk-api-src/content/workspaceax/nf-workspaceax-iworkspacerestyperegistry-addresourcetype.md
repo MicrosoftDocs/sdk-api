@@ -4,17 +4,16 @@ title: IWorkspaceResTypeRegistry::AddResourceType
 author: windows-sdk-content
 description: Registers a third-party file name extension with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_addresourcetype.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 0f4b82a6-1eca-4890-aa0c-1e4c5821cd33
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddResourceType, AddResourceType method [Remote Desktop Services], AddResourceType method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, AddResourceType method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],AddResourceType method, IWorkspaceResTypeRegistry.AddResourceType, IWorkspaceResTypeRegistry::AddResourceType, Workspace object [Remote Desktop Services],AddResourceType method, termserv.iworkspacerestyperegistry_addresourcetype, workspaceax/IWorkspaceResTypeRegistry::AddResourceType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceax.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: TSWorkspace.dll
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: TSWorkspace.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - Workspace.AddResourceType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: TSWorkspace.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceResTypeRegistry::AddResourceType

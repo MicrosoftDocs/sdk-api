@@ -4,17 +4,16 @@ title: ITBasicAudioTerminal::put_Volume
 author: windows-sdk-content
 description: The put_Volume method sets the volume.
 old-location: tapi3\itbasicaudioterminal_put_volume.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6c611505-74b4-48fa-bb36-ec765cb24f96
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITBasicAudioTerminal interface [TAPI 2.2],put_Volume method, ITBasicAudioTerminal.put_Volume, ITBasicAudioTerminal::put_Volume, _tapi3_itbasicaudioterminal_put_volume, put_Volume, put_Volume method [TAPI 2.2], put_Volume method [TAPI 2.2],ITBasicAudioTerminal interface, tapi3.itbasicaudioterminal_put_volume, tapi3if/ITBasicAudioTerminal::put_Volume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITBasicAudioTerminal.put_Volume
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITBasicAudioTerminal::put_Volume

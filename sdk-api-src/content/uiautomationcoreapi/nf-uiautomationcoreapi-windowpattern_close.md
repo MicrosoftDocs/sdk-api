@@ -4,17 +4,16 @@ title: WindowPattern_Close function
 author: windows-sdk-content
 description: Closes an open window.
 old-location: winauto\uiauto_WindowPattern_CloseConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 0e19ee38-98f1-4a25-a20d-a580de5f8477
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WindowPattern_Close, WindowPattern_Close function [Windows Accessibility], uiauto.uiauto_WindowPattern_CloseConPat, uiauto_WindowPattern_CloseConPat, uiautomationcoreapi/WindowPattern_Close, winauto.uiauto_WindowPattern_CloseConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WindowPattern_Close
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # WindowPattern_Close function

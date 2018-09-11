@@ -4,17 +4,16 @@ title: ID3D12LibraryReflection::GetDesc
 author: windows-sdk-content
 description: Fills the library descriptor structure for the library reflection.
 old-location: direct3d12\id3d12libraryreflection_getdesc.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: BF7CC078-3F68-4645-B49C-1F4DEBCA6A48
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,GetDesc method, ID3D12LibraryReflection.GetDesc, ID3D12LibraryReflection::GetDesc, d3d12shader/ID3D12LibraryReflection::GetDesc, direct3d12.id3d12libraryreflection_getdesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SHADER_VERSION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12LibraryReflection.GetDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12LibraryReflection::GetDesc

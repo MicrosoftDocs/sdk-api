@@ -4,17 +4,16 @@ title: IToc::SetDescription
 author: windows-sdk-content
 description: The SetDescription method associates a description with the table of contents.
 old-location: mf\itoc_setdescription.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 718eb8bd-fdf9-434d-b859-3a38cb8fabee
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IToc interface [Media Foundation],SetDescription method, IToc.SetDescription, IToc::SetDescription, SetDescription, SetDescription method [Media Foundation], SetDescription method [Media Foundation],IToc interface, codecapi.itoc_setdescription, mf.itoc_setdescription, wmcodecdsp/IToc::SetDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IToc.SetDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IToc::SetDescription

@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0009"
 author: windows-sdk-content
 description: Defines values that describe the state of the similarity traits table, similarity file ID table, or both.
 old-location: rdc\rdccreatedtables.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: f46dd0f0-22b0-41fb-a7c2-29d1b4514f7e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: RDCTABLE_Existing, RDCTABLE_InvalidOrUnknown, RDCTABLE_New, RdcCreatedTables, RdcCreatedTables enumeration [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0009, fs.rdccreatedtables, msrdc/RDCTABLE_Existing, msrdc/RDCTABLE_InvalidOrUnknown, msrdc/RDCTABLE_New, msrdc/RdcCreatedTables, rdc.rdccreatedtables
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcCreatedTables
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RdcCreatedTables
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: RdcCreatedTables
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msrdc_0000_0000_0009 enumeration

@@ -4,17 +4,16 @@ title: IIdentityStore::AddToCache
 author: windows-sdk-content
 description: Caches the specified identity in the registry.
 old-location: security\iidentitystore_addtocache.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 5ce977bc-41fa-4f80-bb82-76a8bdc40e7e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: AddToCache, AddToCache method [Security], AddToCache method [Security],IIdentityStore interface, IIdentityStore interface [Security],AddToCache method, IIdentityStore.AddToCache, IIdentityStore::AddToCache, identitystore/IIdentityStore::AddToCache, security.iidentitystore_addtocache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: identitystore.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IDENTITY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIdentityStore.AddToCache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IIdentityStore::AddToCache

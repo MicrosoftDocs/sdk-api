@@ -4,17 +4,16 @@ title: GetComboBoxInfo function
 author: windows-sdk-content
 description: Retrieves information about the specified combo box.
 old-location: controls\GetComboBoxInfo.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\getcomboboxinfo.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetComboBoxInfo, GetComboBoxInfo function [Windows Controls], _win32_GetComboBoxInfo, _win32_GetComboBoxInfo_cpp, controls.GetComboBoxInfo, controls._win32_GetComboBoxInfo, winuser/GetComboBoxInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: Service Pack 6
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GetComboBoxInfo
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: Service Pack 6
 ---
 
 # GetComboBoxInfo function

@@ -4,17 +4,16 @@ title: ITfReverseConversionMgr::GetReverseConversion
 author: windows-sdk-content
 description: Retrieves an ITfReverseConversion object that can perform reverse conversions.
 old-location: tsf\itfreverseconversionmgr_getreverseconversion.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 959bd98f-5b97-4bb8-a62d-9adfada25746
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetReverseConversion, GetReverseConversion method [Text Services Framework], GetReverseConversion method [Text Services Framework],ITfReverseConversionMgr interface, ITfReverseConversionMgr interface [Text Services Framework],GetReverseConversion method, ITfReverseConversionMgr.GetReverseConversion, ITfReverseConversionMgr::GetReverseConversion, TF_RCM_COMLESS, TF_RCM_HINT_COLLISION, TF_RCM_HINT_READING_LENGTH, TF_RCM_VKEY, msctf/ITfReverseConversionMgr::GetReverseConversion, tsf.itfreverseconversionmgr_getreverseconversion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfReverseConversionMgr.GetReverseConversion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITfReverseConversionMgr::GetReverseConversion

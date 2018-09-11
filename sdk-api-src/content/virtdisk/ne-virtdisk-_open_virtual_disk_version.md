@@ -4,17 +4,16 @@ title: "_OPEN_VIRTUAL_DISK_VERSION"
 author: windows-sdk-content
 description: Contains the version of the virtual disk OPEN_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
 old-location: vhd\open_virtual_disk_version.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 3f45324a-6e31-43d6-9fc9-65c85e6c3493
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OPEN_VIRTUAL_DISK_VERSION, OPEN_VIRTUAL_DISK_VERSION enumeration [VHD], OPEN_VIRTUAL_DISK_VERSION_1, OPEN_VIRTUAL_DISK_VERSION_2, OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED, _OPEN_VIRTUAL_DISK_VERSION, vdssys/OPEN_VIRTUAL_DISK_VERSION, vdssys/OPEN_VIRTUAL_DISK_VERSION_1, vdssys/OPEN_VIRTUAL_DISK_VERSION_2, vdssys/OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.open_virtual_disk_version, virtdisk/OPEN_VIRTUAL_DISK_VERSION, virtdisk/OPEN_VIRTUAL_DISK_VERSION_1, virtdisk/OPEN_VIRTUAL_DISK_VERSION_2, virtdisk/OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPEN_VIRTUAL_DISK_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - OPEN_VIRTUAL_DISK_VERSION
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: OPEN_VIRTUAL_DISK_VERSION
+req.redist: 
 ---
 
 # _OPEN_VIRTUAL_DISK_VERSION enumeration

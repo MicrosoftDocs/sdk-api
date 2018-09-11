@@ -4,7 +4,7 @@ title: tagDVD_TitleMainAttributes
 author: windows-sdk-content
 description: The DVD_TitleAttributes structure contains information about a DVD title.
 old-location: dshow\dvd_titleattributes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e80baf09-93b7-4285-ac9a-af72cae137de
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_TitleAttributes
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_TitleAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: DVD_TitleAttributes
+req.redist: 
 ---
 
 # tagDVD_TitleMainAttributes structure

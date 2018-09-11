@@ -4,17 +4,16 @@ title: IBrowserService2::OnCreate
 author: windows-sdk-content
 description: Deprecated. Calls the derived class from the base class on receipt of a WM_CREATE message. The derived class handles the message.
 old-location: shell\IBrowserService2_OnCreate.htm
-old-project: shell
+tech.root: shell
 ms.assetid: abfcb67a-c383-4480-9da9-788fb9cebf5e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnCreate method, IBrowserService2.OnCreate, IBrowserService2::OnCreate, OnCreate, OnCreate method [Windows Shell], OnCreate method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnCreate, shell.IBrowserService2_OnCreate, zone_IBrowserService2_OnCreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2.OnCreate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

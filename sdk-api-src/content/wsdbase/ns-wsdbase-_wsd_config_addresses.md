@@ -4,17 +4,16 @@ title: "_WSD_CONFIG_ADDRESSES"
 author: windows-sdk-content
 description: Information about specific addresses that a host should listen on.
 old-location: ncd\wsd_config_addresses.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: aaec97f4-c0b9-49d3-ab4c-758feda15d6a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES structure, _WSD_CONFIG_ADDRESSES, ncd.wsd_config_addresses, wsdbase/WSD_CONFIG_ADDRESSES"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdbase.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_ADDRESSES, *PWSD_CONFIG_ADDRESSES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_CONFIG_ADDRESSES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_CONFIG_ADDRESSES, *PWSD_CONFIG_ADDRESSES
+req.redist: 
 ---
 
 # _WSD_CONFIG_ADDRESSES structure

@@ -4,17 +4,16 @@ title: IDVBSTuningSpace::put_HighOscillator
 author: windows-sdk-content
 description: The put_HighOscillator method sets the high oscillator frequency.
 old-location: mstv\idvbstuningspace_put_highoscillator.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0f71008b-dbb6-485b-b196-7c2d215b3064
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_HighOscillator method, IDVBSTuningSpace.put_HighOscillator, IDVBSTuningSpace::put_HighOscillator, IDVBSTuningSpaceput_HighOscillator, mstv.idvbstuningspace_put_highoscillator, put_HighOscillator, put_HighOscillator method [Microsoft TV Technologies], put_HighOscillator method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_HighOscillator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVBSTuningSpace.put_HighOscillator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBSTuningSpace::put_HighOscillator

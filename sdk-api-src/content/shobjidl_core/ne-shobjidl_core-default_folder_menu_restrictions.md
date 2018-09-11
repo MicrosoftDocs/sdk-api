@@ -4,17 +4,16 @@ title: DEFAULT_FOLDER_MENU_RESTRICTIONS
 author: windows-sdk-content
 description: "."
 old-location: shell\DEFAULT_FOLDER_MENU_RESTRICTIONS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: E33EB02B-11FC-4c1f-AF38-0E5382CC8B5F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DEFAULT_FOLDER_MENU_RESTRICTIONS, DEFAULT_FOLDER_MENU_RESTRICTIONS enumeration [Windows Shell], DFMR_DEFAULT, DFMR_NO_ASYNC_VERBS, DFMR_NO_RESOURCE_VERBS, DFMR_NO_STATIC_VERBS, DFMR_OPTIN_HANDLERS_ONLY, DFMR_RESOURCE_AND_FOLDER_VERBS_ONLY, DFMR_STATIC_VERBS_ONLY, DFMR_USE_SPECIFIED_HANDLERS, DFMR_USE_SPECIFIED_VERBS, shell.DEFAULT_FOLDER_MENU_RESTRICTIONS, shobjidl_core/DEFAULT_FOLDER_MENU_RESTRICTIONS, shobjidl_core/DFMR_DEFAULT, shobjidl_core/DFMR_NO_ASYNC_VERBS, shobjidl_core/DFMR_NO_RESOURCE_VERBS, shobjidl_core/DFMR_NO_STATIC_VERBS, shobjidl_core/DFMR_OPTIN_HANDLERS_ONLY, shobjidl_core/DFMR_RESOURCE_AND_FOLDER_VERBS_ONLY, shobjidl_core/DFMR_STATIC_VERBS_ONLY, shobjidl_core/DFMR_USE_SPECIFIED_HANDLERS, shobjidl_core/DFMR_USE_SPECIFIED_VERBS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEFAULT_FOLDER_MENU_RESTRICTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEFAULT_FOLDER_MENU_RESTRICTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: DEFAULT_FOLDER_MENU_RESTRICTIONS
+req.redist: 
 ---
 
 # DEFAULT_FOLDER_MENU_RESTRICTIONS enumeration

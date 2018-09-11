@@ -4,17 +4,16 @@ title: "_KERB_TICKET_CACHE_INFO"
 author: windows-sdk-content
 description: Contains information about a cached Kerberos ticket. The Kerberos ticket is defined in Internet RFC 4120. For more information, see http://www.ietf.org.
 old-location: security\kerb_ticket_cache_info.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: e9ac70f0-65dc-4c5a-b41f-7c4659680333
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PKERB_TICKET_CACHE_INFO, KERB_TICKET_CACHE_INFO, KERB_TICKET_CACHE_INFO structure [Security], KERB_TICKET_FLAGS_forwardable, KERB_TICKET_FLAGS_forwarded, KERB_TICKET_FLAGS_hw_authent, KERB_TICKET_FLAGS_initial, KERB_TICKET_FLAGS_invalid, KERB_TICKET_FLAGS_may_postdate, KERB_TICKET_FLAGS_ok_as_delegate, KERB_TICKET_FLAGS_postdated, KERB_TICKET_FLAGS_pre_authent, KERB_TICKET_FLAGS_proxiable, KERB_TICKET_FLAGS_proxy, KERB_TICKET_FLAGS_renewable, KERB_TICKET_FLAGS_reserved, KERB_TICKET_FLAGS_reserved1, PKERB_TICKET_CACHE_INFO, PKERB_TICKET_CACHE_INFO structure pointer [Security], _KERB_TICKET_CACHE_INFO, _lsa_kerb_ticket_cache_info, ntsecapi/KERB_TICKET_CACHE_INFO, ntsecapi/PKERB_TICKET_CACHE_INFO, security.kerb_ticket_cache_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_TICKET_CACHE_INFO, *PKERB_TICKET_CACHE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_TICKET_CACHE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_TICKET_CACHE_INFO, *PKERB_TICKET_CACHE_INFO
+req.redist: 
 ---
 
 # _KERB_TICKET_CACHE_INFO structure

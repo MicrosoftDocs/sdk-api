@@ -4,17 +4,16 @@ title: VarUI1FromDisp function
 author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to an unsigned char value.
 old-location: automat\varui1fromdisp.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 2bc73f66-ce91-47b1-950a-0ad226dcbf36
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarUI1FromDisp, VarUI1FromDisp function [Automation], _oa96_VarUI1FromDisp, automat.varui1fromdisp, oleauto/VarUI1FromDisp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarUI1FromDisp
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarUI1FromDisp function

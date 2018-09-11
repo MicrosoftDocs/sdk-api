@@ -4,7 +4,7 @@ title: FWP_TOKEN_INFORMATION_
 author: windows-sdk-content
 description: The FWP_TOKEN_INFORMATION structure defines a set of security identifiers that are used for user-mode classification.
 old-location: fwp\fwp_token_information.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 30bc6d4b-e3a8-4adf-82d5-adaf30f042ff
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWP_TOKEN_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWP_TOKEN_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWP_TOKEN_INFORMATION
+req.redist: 
 ---
 
 # FWP_TOKEN_INFORMATION_ structure

@@ -4,17 +4,16 @@ title: tagSTGMEDIUM
 author: windows-sdk-content
 description: Represents a generalized global memory handle used for data transfer operations by the IAdviseSink, IDataObject, and IOleCache interfaces.
 old-location: com\stgmedium.htm
-old-project: com
+tech.root: com
 ms.assetid: 5d05819a-10db-4d8e-91e4-8a7c05885cde
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSTGMEDIUM, ASYNC_STGMEDIUM, LPSTGMEDIUM, LPSTGMEDIUM structure pointer [COM], STGMEDIUM, STGMEDIUM structure [COM], _ole_STGMEDIUM, com.stgmedium, objidl/LPSTGMEDIUM, objidl/STGMEDIUM, tagSTGMEDIUM, uSTGMEDIUM"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ObjIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: uSTGMEDIUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STGMEDIUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: uSTGMEDIUM
+req.redist: 
 ---
 
 # tagSTGMEDIUM structure

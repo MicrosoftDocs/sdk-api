@@ -4,7 +4,7 @@ title: DIJOYUSERVALUES
 author: windows-sdk-content
 description: The DIJOYUSERVALUES structure contains information about the user's joystick settings.
 old-location: hid\dijoyuservalues.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 15424c18-c9ae-4058-97b4-f55b56daea72
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIJOYUSERVALUES, *LPDIJOYUSERVALUES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIJOYUSERVALUES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIJOYUSERVALUES, *LPDIJOYUSERVALUES
+req.redist: 
 ---
 
 # DIJOYUSERVALUES structure

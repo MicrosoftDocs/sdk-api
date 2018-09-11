@@ -4,17 +4,16 @@ title: timeGetTime function
 author: windows-sdk-content
 description: The timeGetTime function retrieves the system time, in milliseconds. The system time is the time elapsed since Windows was started.
 old-location: multimedia\timegettime.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: f9d3a7a9-1457-4993-92f1-f888780a565e
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_timeGetTime, mmsystem/timeGetTime, multimedia.timegettime, timeGetTime, timeGetTime function [Windows Multimedia], timeapi/timeGetTime"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: timeapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ThumbnailStreamCacheOptions
+req.lib: Winmm.lib
+req.dll: Winmm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - timeGetTime
 product: Windows
 targetos: Windows
-req.lib: Winmm.lib
-req.dll: Winmm.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # timeGetTime function

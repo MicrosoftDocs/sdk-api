@@ -4,17 +4,16 @@ title: FXEQ_PARAMETERS
 author: windows-sdk-content
 description: Parameters for use with the FXEQ XAPO.
 old-location: xaudio2\fxeq_parameters.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXEQ_PARAMETERS
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FXEQ_PARAMETERS, FXEQ_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXEQ_PARAMETERS, xaudio2.fxeq_parameters
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: xapofx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FXEQ_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FXEQ_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: FXEQ_PARAMETERS
+req.redist: 
 ---
 
 # FXEQ_PARAMETERS structure

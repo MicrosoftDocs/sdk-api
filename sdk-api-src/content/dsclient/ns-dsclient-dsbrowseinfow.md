@@ -4,7 +4,7 @@ title: DSBROWSEINFOW
 author: windows-sdk-content
 description: The DSBROWSEINFO structure is used with the DsBrowseForContainer function to supply and return data about the Active Directory container browser dialog box.
 old-location: ad\dsbrowseinfo.htm
-old-project: ad
+tech.root: ad
 ms.assetid: eaa2da41-1ddf-42d3-b721-6649ad49acf1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSBROWSEINFOW, *PDSBROWSEINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - DSBROWSEINFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DSBROWSEINFOW, *PDSBROWSEINFOW
+req.redist: 
 ---
 
 # DSBROWSEINFOW structure

@@ -4,17 +4,16 @@ title: MFCreateProtectedEnvironmentAccess function
 author: windows-sdk-content
 description: Creates an IMFProtectedEnvironmentAccess object that allows content protection systems to perform a handshake with the protected environment.
 old-location: mf\mfcreateprotectedenvironmentaccess.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: B16BEFFD-26CF-4598-96A4-098C3E3AA51C
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateProtectedEnvironmentAccess, MFCreateProtectedEnvironmentAccess function [Media Foundation], mf.mfcreateprotectedenvironmentaccess, mfidl/MFCreateProtectedEnvironmentAccess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateProtectedEnvironmentAccess
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateProtectedEnvironmentAccess function

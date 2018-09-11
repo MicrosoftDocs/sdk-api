@@ -4,7 +4,7 @@ title: NLM_USAGE_DATA
 author: windows-sdk-content
 description: NLM_USAGE_DATA structure stores information that indicates the data usage of a plan.
 old-location: nla\nlm_usage_data.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 1D917CD0-4D71-4780-9720-A1F3FDCBBB16
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_USAGE_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NLM_USAGE_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NLM_USAGE_DATA
+req.redist: 
 ---
 
 # NLM_USAGE_DATA structure

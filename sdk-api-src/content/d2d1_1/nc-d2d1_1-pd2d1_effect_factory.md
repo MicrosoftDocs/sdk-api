@@ -4,7 +4,7 @@ title: PD2D1_EFFECT_FACTORY
 author: windows-sdk-content
 description: Describes the implementation of an effect.
 old-location: direct2d\pd2d1_effect_factory.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: e4f99762-4328-4b9c-ab0d-14b78a1581b5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VIEWBOX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PD2D1_EFFECT_FACTORY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PD2D1_EFFECT_FACTORY callback function

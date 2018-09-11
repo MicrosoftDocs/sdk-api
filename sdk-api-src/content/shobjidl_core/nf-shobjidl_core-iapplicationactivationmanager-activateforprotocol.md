@@ -4,17 +4,16 @@ title: IApplicationActivationManager::ActivateForProtocol
 author: windows-sdk-content
 description: Activates the specified Windows Store app for the protocol contract (Windows.Protocol).
 old-location: shell\IApplicationActivationManager_ActivateForProtocol.htm
-old-project: shell
+tech.root: shell
 ms.assetid: A37E140A-5369-4abe-A9E9-8BD2E4492082
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ActivateForProtocol, ActivateForProtocol method [Windows Shell], ActivateForProtocol method [Windows Shell],IApplicationActivationManager interface, IApplicationActivationManager interface [Windows Shell],ActivateForProtocol method, IApplicationActivationManager.ActivateForProtocol, IApplicationActivationManager::ActivateForProtocol, shell.IApplicationActivationManager_ActivateForProtocol, shobjidl_core/IApplicationActivationManager::ActivateForProtocol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationActivationManager.ActivateForProtocol
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationActivationManager::ActivateForProtocol

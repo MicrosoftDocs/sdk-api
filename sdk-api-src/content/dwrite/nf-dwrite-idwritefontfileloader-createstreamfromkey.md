@@ -4,17 +4,16 @@ title: IDWriteFontFileLoader::CreateStreamFromKey
 author: windows-sdk-content
 description: Creates a font file stream object that encapsulates an open file resource.
 old-location: directwrite\IDWriteFontFileLoader_CreateStreamFromKey.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 1c0a7c7b-8201-45c5-ac46-20f0df034ccd
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: CreateStreamFromKey, CreateStreamFromKey method [Direct Write], CreateStreamFromKey method [Direct Write],IDWriteFontFileLoader interface, IDWriteFontFileLoader interface [Direct Write],CreateStreamFromKey method, IDWriteFontFileLoader.CreateStreamFromKey, IDWriteFontFileLoader::CreateStreamFromKey, directwrite.IDWriteFontFileLoader_CreateStreamFromKey, dwrite/IDWriteFontFileLoader::CreateStreamFromKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFileLoader.CreateStreamFromKey
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFileLoader::CreateStreamFromKey

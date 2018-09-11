@@ -4,17 +4,16 @@ title: EventDataDescCreate function
 author: windows-sdk-content
 description: Sets the values of an event data descriptor.
 old-location: etw\eventdatadesccreate_func.htm
-old-project: etw
+tech.root: etw
 ms.assetid: a5823ad0-0710-4fd2-9b44-a60a42f138fd
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: EventDataDescCreate, EventDataDescCreate function [ETW], base.eventdatadesccreate_func, etw.eventdatadesccreate_func, evntprov/EventDataDescCreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_INFO_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EventDataDescCreate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EventDataDescCreate function

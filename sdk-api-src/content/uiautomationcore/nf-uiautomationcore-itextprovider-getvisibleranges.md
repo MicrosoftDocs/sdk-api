@@ -4,17 +4,16 @@ title: ITextProvider::GetVisibleRanges
 author: windows-sdk-content
 description: Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.
 old-location: winauto\uiauto_ITextProvider_GetVisibleRanges.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: dc706d1d-b32d-4bc3-b65a-c42b38f06a93
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetVisibleRanges, GetVisibleRanges method [Windows Accessibility], GetVisibleRanges method [Windows Accessibility],ITextProvider interface, ITextProvider interface [Windows Accessibility],GetVisibleRanges method, ITextProvider.GetVisibleRanges, ITextProvider::GetVisibleRanges, uiauto.uiauto_ITextProvider_GetVisibleRanges, uiauto_ITextProvider_GetVisibleRanges, uiautomationcore/ITextProvider::GetVisibleRanges, winauto.uiauto_ITextProvider_GetVisibleRanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextProvider.GetVisibleRanges
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextProvider::GetVisibleRanges

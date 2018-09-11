@@ -4,7 +4,7 @@ title: "_SEARCH_NOTIFICATION_PRIORITY"
 author: windows-sdk-content
 description: Indicates the priority of processing an item that has changed.
 old-location: search\_search_SEARCH_NOTIFICATION_PRIORITY.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_notification_priority.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Srchntfyinlinesite.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEARCH_NOTIFICATION_PRIORITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEARCH_NOTIFICATION_PRIORITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: SEARCH_NOTIFICATION_PRIORITY
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # _SEARCH_NOTIFICATION_PRIORITY enumeration

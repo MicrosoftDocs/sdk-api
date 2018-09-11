@@ -4,17 +4,16 @@ title: ICertManageModule
 author: windows-sdk-content
 description: Provided to retrieve information about a Certificate Services Policy or Exit module.
 old-location: security\icertmanagemodule.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 82b7b770-c098-40da-8a4e-8eb0e0b8a645
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertManageModule, ICertManageModule interface [Security], ICertManageModule interface [Security],described, _certsrv_icertmanagemodule, certmod/ICertManageModule, security.icertmanagemodule
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certmod.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertManageModule
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertManageModule interface

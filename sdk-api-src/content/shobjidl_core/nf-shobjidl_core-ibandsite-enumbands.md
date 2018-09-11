@@ -4,17 +4,16 @@ title: IBandSite::EnumBands
 author: windows-sdk-content
 description: Enumerates the bands in a band site.
 old-location: shell\IBandSite_EnumBands.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d92ead78-9d58-48fe-ad93-33b2dbcbda68
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: EnumBands, EnumBands method [Windows Shell], EnumBands method [Windows Shell],IBandSite interface, IBandSite interface [Windows Shell],EnumBands method, IBandSite.EnumBands, IBandSite::EnumBands, _win32_IBandSite_EnumBands, shell.IBandSite_EnumBands, shobjidl_core/IBandSite::EnumBands
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBandSite.EnumBands
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IBandSite::EnumBands

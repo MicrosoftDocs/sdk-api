@@ -4,17 +4,16 @@ title: IADsContainer::CopyHere
 author: windows-sdk-content
 description: The IADsContainer::CopyHere method creates a copy of the specified directory object in this container.
 old-location: adsi\iadscontainer_copyhere.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 8a006253-ccb4-4f13-93b5-297db17f7c2e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CopyHere, CopyHere method [ADSI], CopyHere method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],CopyHere method, IADsContainer.CopyHere, IADsContainer::CopyHere, _ds_iadscontainer_copyhere, adsi.iadscontainer__copyhere, adsi.iadscontainer_copyhere, iads/IADsContainer::CopyHere
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsContainer.CopyHere
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsContainer::CopyHere
@@ -62,17 +60,17 @@ The <b>IADsContainer::CopyHere</b> method creates a  copy of the specified direc
 
 ### -param SourceName
 
-
+TBD
 
 
 ### -param NewName
 
-
+TBD
 
 
 ### -param ppObject
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: FwpmProviderSetSecurityInfoByKey0 function
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a provider object.
 old-location: fwp\fwpmprovidersetsecurityinfobykey0_func.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 4451ae03-cdff-4b43-84cd-a80d639ba79f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FwpmProviderSetSecurityInfoByKey0, FwpmProviderSetSecurityInfoByKey0 function [Filtering], fwp.fwpmprovidersetsecurityinfobykey0_func, fwpmu/FwpmProviderSetSecurityInfoByKey0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FwpmProviderSetSecurityInfoByKey0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FwpmProviderSetSecurityInfoByKey0 function

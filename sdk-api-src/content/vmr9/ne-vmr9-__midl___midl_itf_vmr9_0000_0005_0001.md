@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_vmr9_0000_0005_0001"
 author: windows-sdk-content
 description: The VMR9MixerPrefs enumeration type contains flags that specify how the Video Mixing Render 9 filter (VMR-9) mixes the video streams. Settings include decimation, filtering, and render target preferences.
 old-location: dshow\vmr9mixerprefs.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 59d3af89-248e-43cd-b6dc-e6c0a4d5f5fb
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9MixerPrefs
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9MixerPrefs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9MixerPrefs
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_vmr9_0000_0005_0001 enumeration

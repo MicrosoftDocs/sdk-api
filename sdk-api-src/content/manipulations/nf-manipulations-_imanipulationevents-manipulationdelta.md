@@ -4,17 +4,16 @@ title: "_IManipulationEvents::ManipulationDelta"
 author: windows-sdk-content
 description: Handles events that happen when a manipulated object changes.
 old-location: wintouch\_imanipulationevents_manipulationdelta.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: bebac896-c48d-4e6e-98ce-4b7d1dec101c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ManipulationDelta, ManipulationDelta method [Windows Touch], ManipulationDelta method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationDelta method, _IManipulationEvents.ManipulationDelta, _IManipulationEvents::ManipulationDelta, manipulations/_IManipulationEvents::ManipulationDelta, wintouch._imanipulationevents_manipulationdelta
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _IManipulationEvents.ManipulationDelta
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # _IManipulationEvents::ManipulationDelta

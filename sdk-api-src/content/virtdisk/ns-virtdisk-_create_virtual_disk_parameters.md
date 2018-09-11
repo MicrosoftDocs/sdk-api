@@ -4,17 +4,16 @@ title: "_CREATE_VIRTUAL_DISK_PARAMETERS"
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) creation parameters, providing control over, and information about, the newly created virtual disk.
 old-location: vhd\create_virtual_disk_parameters.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 797e21ae-a4c4-48df-8124-e5c2fad22f33
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCREATE_VIRTUAL_DISK_PARAMETERS, CREATE_VIRTUAL_DISK_PARAMETERS, CREATE_VIRTUAL_DISK_PARAMETERS structure [VHD], CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_BLOCK_SIZE, CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_SECTOR_SIZE, CREATE_VIRTUAL_DISK_VERSION_1, CREATE_VIRTUAL_DISK_VERSION_2, PCREATE_VIRTUAL_DISK_PARAMETERS, PCREATE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _CREATE_VIRTUAL_DISK_PARAMETERS, vdssys/CREATE_VIRTUAL_DISK_PARAMETERS, vdssys/PCREATE_VIRTUAL_DISK_PARAMETERS, vhd.create_virtual_disk_parameters, virtdisk/CREATE_VIRTUAL_DISK_PARAMETERS, virtdisk/PCREATE_VIRTUAL_DISK_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_VIRTUAL_DISK_PARAMETERS, *PCREATE_VIRTUAL_DISK_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CREATE_VIRTUAL_DISK_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: CREATE_VIRTUAL_DISK_PARAMETERS, *PCREATE_VIRTUAL_DISK_PARAMETERS
+req.redist: 
 ---
 
 # _CREATE_VIRTUAL_DISK_PARAMETERS structure

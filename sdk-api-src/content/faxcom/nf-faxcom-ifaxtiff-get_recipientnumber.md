@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxTiff.get_RecipientNumber
 title: IFaxTiff::get_RecipientNumber
 author: windows-sdk-content
 description: Retrieves the RecipientNumber property for a FaxTiff object. The RecipientNumber property is a null-terminated string that contains the fax number to which a fax was transmitted.
-old-location: fax\_mfax_ifaxtiff_get_recipientnumber_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_recipientnumber_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3b8y.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxTiff object [Fax Service],RecipientNumber property, FaxTiff.RecipientNumber, IFaxTiff.get_RecipientNumber, IFaxTiff::get_RecipientNumber, RecipientNumber property [Fax Service], RecipientNumber property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_recipientnumber, fax._mfax_ifaxtiff_get_recipientnumber, fax._mfax_ifaxtiff_get_recipientnumber_vb, get_RecipientNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxTiff interface [Fax Service],RecipientNumber property, IFaxTiff.RecipientNumber, IFaxTiff.get_RecipientNumber, IFaxTiff::RecipientNumber, IFaxTiff::get_RecipientNumber, RecipientNumber property [Fax Service], RecipientNumber property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_recipientnumber, fax._mfax_ifaxtiff_get_recipientnumber, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_recipientnumber_cpp, faxcom/IFaxTiff::RecipientNumber, faxcom/IFaxTiff::get_RecipientNumber, get_RecipientNumber
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxTiff.RecipientNumber
+ - IFaxTiff.RecipientNumber
+ - IFaxTiff.get_RecipientNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxTiff::get_RecipientNumber
@@ -64,9 +63,9 @@ This property is read-only.
 
 
 
-A fax client application must  set the <a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/en-us/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
+A fax client application must  set the <a href="https://msdn.microsoft.com/c993c276-eb77-4173-bfc5-0c82decb2b52">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/en-us/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
 
-The <b>RecipientNumber</b> property has meaning only for outbound fax transmissions. This is because the <a href="https://msdn.microsoft.com/en-us/library/ms691305(v=VS.85).aspx">Csid</a> property and the <b>RecipientNumber</b> property are identical for inbound faxes.
+The <b>RecipientNumber</b> property has meaning only for outbound fax transmissions. This is because the <a href="https://msdn.microsoft.com/ed1466a5-f41d-4349-b2c7-15bee8254957">Csid</a> property and the <b>RecipientNumber</b> property are identical for inbound faxes.
 
 The <b>get_RecipientNumber</b> method sets the <i>pVal</i> parameter to the fax number of the fax recipient, if it is available. If the information is not available, the method returns "Unavailable".
 
@@ -82,10 +81,6 @@ The <b>get_RecipientNumber</b> method allocates the memory required for the buff
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691305(v=VS.85).aspx">Csid</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
@@ -94,15 +89,15 @@ The <b>get_RecipientNumber</b> method allocates the memory required for the buff
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690285(v=VS.85).aspx">FaxTiff</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms691802(v=VS.85).aspx">IFaxTiff</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/ed1466a5-f41d-4349-b2c7-15bee8254957">IFaxTiff::get_Csid</a>
+
+
+
+<a href="https://msdn.microsoft.com/c993c276-eb77-4173-bfc5-0c82decb2b52">IFaxTiff::get_Image</a>
 
 
 

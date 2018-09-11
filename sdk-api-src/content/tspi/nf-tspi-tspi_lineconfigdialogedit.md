@@ -4,17 +4,16 @@ title: TSPI_lineConfigDialogEdit function
 author: windows-sdk-content
 description: The TSPI_lineConfigDialogEdit function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_lineConfigDialogEdit.
 old-location: tspi\tspi_lineconfigdialogedit.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 7248050c-0e59-406a-b75c-d06c0ce7bdc5
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineConfigDialogEdit, TSPI_lineConfigDialogEdit function [TAPI 2.2], _tspi_tspi_lineconfigdialogedit, tspi.tspi_lineconfigdialogedit, tspi/TSPI_lineConfigDialogEdit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineConfigDialogEdit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineConfigDialogEdit function

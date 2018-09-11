@@ -4,7 +4,7 @@ title: "_MIB_IPMCAST_IF_ENTRY"
 author: windows-sdk-content
 description: Stores information about an IP multicast interface.
 old-location: mib\mib_ipmcast_if_entry.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 59bc8df1-3999-4acb-b556-e765a9faef79
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPMCAST_IF_ENTRY, *PMIB_IPMCAST_IF_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_IPMCAST_IF_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_IPMCAST_IF_ENTRY, *PMIB_IPMCAST_IF_ENTRY
+req.redist: 
 ---
 
 # _MIB_IPMCAST_IF_ENTRY structure

@@ -4,17 +4,16 @@ title: IDiskQuotaControl::ShutdownNameResolution
 author: windows-sdk-content
 description: Translates user security identifiers (SID) to user names.
 old-location: fs\idiskquotacontrol_shutdownnameresolution.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 53a2dd49-46e8-4e84-bbc2-102a57f36abc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDiskQuotaControl interface [Files],ShutdownNameResolution method, IDiskQuotaControl.ShutdownNameResolution, IDiskQuotaControl::ShutdownNameResolution, ShutdownNameResolution, ShutdownNameResolution method [Files], ShutdownNameResolution method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_shutdownnameresolution, base.idiskquotacontrol_shutdownnameresolution, dskquota/IDiskQuotaControl::ShutdownNameResolution, fs.idiskquotacontrol_shutdownnameresolution
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaControl.ShutdownNameResolution
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaControl::ShutdownNameResolution

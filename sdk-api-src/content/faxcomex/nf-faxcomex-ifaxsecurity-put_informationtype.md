@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxSecurity.put_InformationType
 title: IFaxSecurity::put_InformationType
 author: windows-sdk-content
-description: The InformationType property retrieves the security information type.
-old-location: fax\_mfax_faxsecurity_informationtype.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_4up1.htm
+description: The IFaxSecurity::InformationType property represents the security information type.
+old-location: fax\_mfax_faxsecurity_informationtype_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_4up1_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxSecurity object [Fax Service],InformationType property, FaxSecurity.InformationType, IFaxSecurity.get_InformationType, IFaxSecurity.put_InformationType, IFaxSecurity::put_InformationType, InformationType property [Fax Service], InformationType property [Fax Service],FaxSecurity object, _mfax_faxsecurity.informationtype, fax._mfax_faxsecurity_informationtype, put_InformationType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxSecurity interface [Fax Service],InformationType property, IFaxSecurity.InformationType, IFaxSecurity.put_InformationType, IFaxSecurity::InformationType, IFaxSecurity::get_InformationType, IFaxSecurity::put_InformationType, InformationType property [Fax Service], InformationType property [Fax Service],IFaxSecurity interface, _mfax_faxsecurity.informationtype_cpp, fax._mfax_faxsecurity_informationtype_cpp, faxcomex/IFaxSecurity::InformationType, faxcomex/IFaxSecurity::get_InformationType, faxcomex/IFaxSecurity::put_InformationType, put_InformationType
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,15 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxSecurity.InformationType
+ - IFaxSecurity.InformationType
  - IFaxSecurity.get_InformationType
  - IFaxSecurity.put_InformationType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxSecurity::put_InformationType
@@ -54,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>InformationType</b> property retrieves the security information type.
+The <b>IFaxSecurity::InformationType</b> property represents the security information type.
 
 This property is read/write.
 
@@ -66,7 +64,7 @@ This property is read/write.
 
 
 
-The information type is a bitwise combination that indicates what security information will be retrieved from the server when requesting a security descriptor using the <a href="https://msdn.microsoft.com/en-us/library/Aa358878(v=VS.85).aspx">Descriptor</a> property or when refreshing the <a href="https://msdn.microsoft.com/en-us/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object using the <a href="https://msdn.microsoft.com/en-us/library/ms690274(v=VS.85).aspx">Refresh</a> method. The information type also determines what information is sent to the fax server when you save changes to the <b>FaxSecurity</b> object using the <a href="https://msdn.microsoft.com/en-us/library/ms690247(v=VS.85).aspx">Save</a> method.
+The information type is a bitwise combination that indicates what security information will be retrieved from the server when requesting a security descriptor using the <a href="https://msdn.microsoft.com/a8e4a0c4-324a-4337-a69b-c934bc261b34">IFaxSecurity::Descriptor</a> property or when refreshing the <a href="https://msdn.microsoft.com/e8dabda0-29aa-4ef2-a797-14aae1d8b539">IFaxSecurity</a> object using the <a href="https://msdn.microsoft.com/32e13dff-72a5-4968-9f86-12fff06bd06a">IFaxSecurity::Refresh</a> method. The information type also determines what information is sent to the fax server when you save changes to the <b>IFaxSecurity</b> object using the <a href="https://msdn.microsoft.com/a016aff7-ca25-4724-b13c-92d31da28a38">IFaxSecurity::Save</a> method.
 
 The bits are specified in the <a href="https://msdn.microsoft.com/en-us/library/Aa379573(v=VS.85).aspx">SECURITY_INFORMATION</a> structure, defined in Winnt.h. Each item of security information is designated by a bit flag. The following values specify the bits applicable to the fax service.
 
@@ -94,7 +92,7 @@ The bits are specified in the <a href="https://msdn.microsoft.com/en-us/library/
 </table>
  
 
-You should set the <b>InformationType</b> property before you read the <a href="https://msdn.microsoft.com/en-us/library/Aa358878(v=VS.85).aspx">Descriptor</a> property to ensure that you receive the information that you want and to ensure that you request only the information for which you have the appropriate access rights. Also, the <b>InformationType</b> property will affect what information is sent to the fax server when you call the <a href="https://msdn.microsoft.com/en-us/library/ms690247(v=VS.85).aspx">Save</a> method. If you do not set the <b>InformationType</b> property, it defaults to the flags DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, and OWNER_SECURITY_INFORMATION.
+You should set the <b>IFaxSecurity::InformationType</b> property before you call the <a href="https://msdn.microsoft.com/a8e4a0c4-324a-4337-a69b-c934bc261b34">IFaxSecurity::get_Descriptor</a> method to ensure that you receive the information that you want and to ensure that you request only the information for which you have the appropriate access rights. Also, the <b>IFaxSecurity::InformationType</b> property will affect what information is sent to the fax server when you call the <a href="https://msdn.microsoft.com/a016aff7-ca25-4724-b13c-92d31da28a38">IFaxSecurity::Save</a> method. If you do not set the <b>IFaxSecurity::InformationType</b> property, it defaults to the flags DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, and OWNER_SECURITY_INFORMATION.
 
 
 

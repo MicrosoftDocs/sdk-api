@@ -4,17 +4,16 @@ title: RegisterScaleChangeNotifications function
 author: windows-sdk-content
 description: Registers a window to receive callbacks when scaling information changes.
 old-location: shell\RegisterScaleChangeNotifications.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 79FB0A54-EBF0-4aab-B631-B4D3EA54D20B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: RegisterScaleChangeNotifications, RegisterScaleChangeNotifications function [Windows Shell], shell.RegisterScaleChangeNotifications, shellscalingapi/RegisterScaleChangeNotifications
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - RegisterScaleChangeNotifications
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shcore.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterScaleChangeNotifications function

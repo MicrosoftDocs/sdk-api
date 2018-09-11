@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_vmr9_0000_0008_0001"
 author: windows-sdk-content
 description: The VMR9RenderPrefs enumeration type specifies basic rendering preferences for the VMR-9. It is used with the IVMRFilterConfig9::GetRenderingPrefs and IVMRFilterConfig9::SetRenderingPrefs methods.
 old-location: dshow\vmr9renderprefs.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a32119c2-a10d-41a0-b3e9-500323eb3094
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9RenderPrefs
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9RenderPrefs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9RenderPrefs
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_vmr9_0000_0008_0001 enumeration

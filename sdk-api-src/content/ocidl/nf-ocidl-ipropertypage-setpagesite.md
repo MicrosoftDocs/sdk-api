@@ -4,17 +4,16 @@ title: IPropertyPage::SetPageSite
 author: windows-sdk-content
 description: Initializes a property page and provides the page with a pointer to the IPropertyPageSite interface through which the property page communicates with the property frame.
 old-location: com\ipropertypage_setpagesite.htm
-old-project: com
+tech.root: com
 ms.assetid: a57f3f0c-53c0-4ddf-9827-df912f263a9e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPropertyPage interface [COM],SetPageSite method, IPropertyPage.SetPageSite, IPropertyPage::SetPageSite, SetPageSite, SetPageSite method [COM], SetPageSite method [COM],IPropertyPage interface, _ctrl_ipropertypage_setpagesite, com.ipropertypage_setpagesite, ocidl/IPropertyPage::SetPageSite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyPage.SetPageSite
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyPage::SetPageSite

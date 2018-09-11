@@ -4,7 +4,7 @@ title: tagINVOKEKIND
 author: windows-sdk-content
 description: Specifies the way a function is invoked.
 old-location: automat\invokekind.htm
-old-project: automat
+tech.root: automat
 ms.assetid: df6d392e-88f9-4d22-b257-fb6de8abd289
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: oaidl.h
 req.include-header: OleAuto.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INVOKEKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INVOKEKIND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: INVOKEKIND
+req.redist: 
 ---
 
 # tagINVOKEKIND enumeration

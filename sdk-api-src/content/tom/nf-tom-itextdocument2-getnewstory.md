@@ -4,17 +4,16 @@ title: ITextDocument2::GetNewStory
 author: windows-sdk-content
 description: Gets a new story.
 old-location: controls\itextdocument2_getnewstory.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 4d6ef859-150b-41e7-be58-b9c87c61f7d8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetNewStory, GetNewStory method [Windows Controls], GetNewStory method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetNewStory method, ITextDocument2.GetNewStory, ITextDocument2::GetNewStory, controls.itextdocument2_getnewstory, tom/ITextDocument2::GetNewStory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: Tom.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextDocument2.GetNewStory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextDocument2::GetNewStory

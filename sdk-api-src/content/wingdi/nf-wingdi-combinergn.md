@@ -4,17 +4,16 @@ title: CombineRgn function
 author: windows-sdk-content
 description: The CombineRgn function combines two regions and stores the result in a third region. The two regions are combined according to the specified mode.
 old-location: gdi\combinergn.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: ef9fc4f3-737e-4c10-a80b-8ae2097c17d1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CombineRgn, CombineRgn function [Windows GDI], RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, _win32_CombineRgn, gdi.combinergn, wingdi/CombineRgn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CombineRgn
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CombineRgn function

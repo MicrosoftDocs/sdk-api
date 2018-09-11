@@ -4,17 +4,16 @@ title: IActionCollection::get_Item
 author: windows-sdk-content
 description: Gets a specified action from the collection.
 old-location: taskschd\iactioncollection_item.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 70d9cc9f-c539-4a5a-8b29-ca4d7464ab3f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IActionCollection interface [Task Scheduler],Item property, IActionCollection.Item, IActionCollection.get_Item, IActionCollection::Item, IActionCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],IActionCollection interface, get_Item, taskschd.iactioncollection_item, taskschd/IActionCollection::Item, taskschd/IActionCollection::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IActionCollection.get_Item
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IActionCollection::get_Item

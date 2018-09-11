@@ -4,17 +4,16 @@ title: CreateIFECommonInstance function
 author: windows-sdk-content
 description: Returns a pointer to an IFECommon interface.
 old-location: intl\createifecommoninstance.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: A8A0CCC4-0A60-4E2A-9E6D-DC2C614B631D
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: CreateIFECommonInstance, CreateIFECommonInstance function [Internationalization for Windows Applications], intl.createifecommoninstance, msime/CreateIFECommonInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateIFECommonInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CreateIFECommonInstance function

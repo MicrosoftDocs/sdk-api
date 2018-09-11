@@ -4,7 +4,7 @@ title: "_MIB_IPMCAST_MFE"
 author: windows-sdk-content
 description: Stores the information for an Internet Protocol (IP) Multicast Forwarding Entry (MFE).
 old-location: mib\mib_ipmcast_mfe.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 731e2c88-5c4f-4165-a9f2-287b4c10c76b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPMCAST_MFE, *PMIB_IPMCAST_MFE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_IPMCAST_MFE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_IPMCAST_MFE, *PMIB_IPMCAST_MFE
+req.redist: 
 ---
 
 # _MIB_IPMCAST_MFE structure

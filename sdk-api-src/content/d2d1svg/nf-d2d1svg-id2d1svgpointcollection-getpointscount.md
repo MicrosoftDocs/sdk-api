@@ -4,17 +4,16 @@ title: ID2D1SvgPointCollection::GetPointsCount
 author: windows-sdk-content
 description: Gets the number of points in the array.
 old-location: direct2d\id2d1svgpointcollection_getpointscount.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 57D125F0-F2CF-411C-93DA-13E13234E13E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPointsCount, GetPointsCount method [Direct2D], GetPointsCount method [Direct2D],ID2D1SvgPointCollection interface, ID2D1SvgPointCollection interface [Direct2D],GetPointsCount method, ID2D1SvgPointCollection.GetPointsCount, ID2D1SvgPointCollection::GetPointsCount, d2d1svg/ID2D1SvgPointCollection::GetPointsCount, direct2d.id2d1svgpointcollection_getpointscount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgPointCollection.GetPointsCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgPointCollection::GetPointsCount

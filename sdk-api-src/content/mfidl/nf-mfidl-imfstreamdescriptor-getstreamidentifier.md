@@ -4,17 +4,16 @@ title: IMFStreamDescriptor::GetStreamIdentifier
 author: windows-sdk-content
 description: Retrieves an identifier for the stream.
 old-location: mf\imfstreamdescriptor_getstreamidentifier.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d282ee48-6145-4557-8fa7-786b893327fa
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStreamIdentifier, GetStreamIdentifier method [Media Foundation], GetStreamIdentifier method [Media Foundation],IMFStreamDescriptor interface, IMFStreamDescriptor interface [Media Foundation],GetStreamIdentifier method, IMFStreamDescriptor.GetStreamIdentifier, IMFStreamDescriptor::GetStreamIdentifier, d282ee48-6145-4557-8fa7-786b893327fa, mf.imfstreamdescriptor_getstreamidentifier, mfidl/IMFStreamDescriptor::GetStreamIdentifier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFStreamDescriptor.GetStreamIdentifier
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFStreamDescriptor::GetStreamIdentifier

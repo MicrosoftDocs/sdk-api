@@ -4,17 +4,16 @@ title: IVisualProperties::GetColor
 author: windows-sdk-content
 description: Gets the color, as specified.
 old-location: shell\IVisualProperties_GetColor.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 538ac798-7722-434f-88bd-a7655d4c470c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetColor, GetColor method [Windows Shell], GetColor method [Windows Shell],IVisualProperties interface, IVisualProperties interface [Windows Shell],GetColor method, IVisualProperties.GetColor, IVisualProperties::GetColor, _shell_IVisualProperties_GetColor, shell.IVisualProperties_GetColor, shobjidl/IVisualProperties::GetColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualProperties.GetColor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualProperties::GetColor

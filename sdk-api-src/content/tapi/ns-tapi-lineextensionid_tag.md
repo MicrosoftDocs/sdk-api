@@ -4,7 +4,7 @@ title: lineextensionid_tag
 author: windows-sdk-content
 description: The LINEEXTENSIONID structure describes an extension identifier.
 old-location: tapi2\lineextensionid_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: bf7d9ccc-3f80-4e54-bcc2-cc2fef1d24af
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEEXTENSIONID, *LPLINEEXTENSIONID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEEXTENSIONID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEEXTENSIONID, *LPLINEEXTENSIONID
+req.redist: 
 ---
 
 # lineextensionid_tag structure

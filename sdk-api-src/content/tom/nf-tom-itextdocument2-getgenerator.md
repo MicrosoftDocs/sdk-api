@@ -4,17 +4,16 @@ title: ITextDocument2::GetGenerator
 author: windows-sdk-content
 description: Gets the name of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getgenerator.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 22cfa44e-3603-458b-991e-6e536df63803
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetGenerator, GetGenerator method [Windows Controls], GetGenerator method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetGenerator method, ITextDocument2.GetGenerator, ITextDocument2::GetGenerator, controls.itextdocument2_getgenerator, tom/ITextDocument2::GetGenerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextDocument2.GetGenerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextDocument2::GetGenerator

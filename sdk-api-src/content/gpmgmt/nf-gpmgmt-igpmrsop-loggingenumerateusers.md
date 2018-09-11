@@ -4,17 +4,16 @@ title: IGPMRSOP::LoggingEnumerateUsers
 author: windows-sdk-content
 description: Enumerates all users who have logging mode data on a specific computer.
 old-location: gpmc\igpmrsop_loggingenumerateusers.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 7cc794e6-1a8d-4e31-9bea-4ebc4cf51602
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMRSOP class [GPMC],LoggingEnumerateUsers method, IGPMRSOP interface [GPMC],LoggingEnumerateUsers method, IGPMRSOP.LoggingEnumerateUsers, IGPMRSOP::LoggingEnumerateUsers, LoggingEnumerateUsers, LoggingEnumerateUsers method [GPMC], LoggingEnumerateUsers method [GPMC],GPMRSOP class, LoggingEnumerateUsers method [GPMC],IGPMRSOP interface, _win32_igpmrsop_loggingenumerateusers, gpmc.igpmrsop_loggingenumerateusers, gpmgmt/IGPMRSOP::LoggingEnumerateUsers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMRSOP.LoggingEnumerateUsers
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMRSOP::LoggingEnumerateUsers
@@ -63,7 +61,7 @@ Enumerates all users who have logging mode data on a specific computer.
 
 ### -param varVal
 
-
+TBD
 
 
 

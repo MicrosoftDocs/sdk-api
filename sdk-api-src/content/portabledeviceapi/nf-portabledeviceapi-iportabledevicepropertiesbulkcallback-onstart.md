@@ -4,17 +4,16 @@ title: IPortableDevicePropertiesBulkCallback::OnStart
 author: windows-sdk-content
 description: The OnStart method is called by the SDK when a bulk operation started by IPortableDevicePropertiesBulk::Start is about to begin.
 old-location: wpdsdk\iportabledevicepropertiesbulkcallback_onstart.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: bde04e04-d36e-4471-b598-ee38dba9f614
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK],OnStart method, IPortableDevicePropertiesBulkCallback.OnStart, IPortableDevicePropertiesBulkCallback::OnStart, IPortableDevicePropertiesBulkCallbackOnStart, OnStart, OnStart method [Windows Portable Devices SDK], OnStart method [Windows Portable Devices SDK],IPortableDevicePropertiesBulkCallback interface, portabledeviceapi/IPortableDevicePropertiesBulkCallback::OnStart, wpdsdk.iportabledevicepropertiesbulkcallback_onstart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDevicePropertiesBulkCallback.OnStart
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDevicePropertiesBulkCallback::OnStart

@@ -4,17 +4,16 @@ title: DhcpGetSubnetInfoV6 function
 author: windows-sdk-content
 description: The DhcpGetSubnetInfoV6 function returns information on a specific subnet.
 old-location: dhcp\dhcpgetsubnetinfov6.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 181015de-c109-4365-a87c-04706f568297
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpGetSubnetInfoV6, DhcpGetSubnetInfoV6 function [DHCP], dhcp.dhcpgetsubnetinfov6, dhcpsapi/DhcpGetSubnetInfoV6
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpGetSubnetInfoV6
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpGetSubnetInfoV6 function

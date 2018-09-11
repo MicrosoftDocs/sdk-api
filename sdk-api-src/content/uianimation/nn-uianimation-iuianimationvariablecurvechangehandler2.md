@@ -4,17 +4,16 @@ title: IUIAnimationVariableCurveChangeHandler2
 author: windows-sdk-content
 description: Defines a method for handling animation curve update events.
 old-location: uianimation\iuianimationvariablecurvechangehandler2.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: C3F992CE-6C12-40AF-BA22-10C82E597314
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationVariableCurveChangeHandler2, IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation], IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariablecurvechangehandler2, uianimation/IUIAnimationVariableCurveChangeHandler2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationVariableCurveChangeHandler2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationVariableCurveChangeHandler2 interface

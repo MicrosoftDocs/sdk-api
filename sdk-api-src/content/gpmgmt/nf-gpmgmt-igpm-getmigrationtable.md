@@ -4,17 +4,16 @@ title: IGPM::GetMigrationTable
 author: windows-sdk-content
 description: Loads the migration table at a specified path.
 old-location: gpmc\igpm_getmigrationtable.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 4a39d4f8-777d-4cf8-8dd5-053f73bdfdfa
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPM object [GPMC],GetMigrationTable method, GetMigrationTable, GetMigrationTable method [GPMC], GetMigrationTable method [GPMC],GPM object, GetMigrationTable method [GPMC],IGPM interface, IGPM interface [GPMC],GetMigrationTable method, IGPM.GetMigrationTable, IGPM::GetMigrationTable, gpmc.igpm_getmigrationtable, gpmgmt/IGPM::GetMigrationTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPM.GetMigrationTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPM::GetMigrationTable
@@ -68,7 +66,7 @@ The path of the migration table to be loaded. Use a null-terminated string.
 
 ### -param ppMigrationTable
 
-
+TBD
 
 
 

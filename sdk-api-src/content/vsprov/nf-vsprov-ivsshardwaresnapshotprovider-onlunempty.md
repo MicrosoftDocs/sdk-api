@@ -4,17 +4,16 @@ title: IVssHardwareSnapshotProvider::OnLunEmpty
 author: windows-sdk-content
 description: Called whenever VSS determines that a shadow copy LUN contains no interesting data.
 old-location: base\ivsshardwaresnapshotprovider_onlunempty.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 06a31704-9031-4ab9-84eb-685f6b648d27
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssHardwareSnapshotProvider interface [VSS],OnLunEmpty method, IVssHardwareSnapshotProvider.OnLunEmpty, IVssHardwareSnapshotProvider::OnLunEmpty, OnLunEmpty, OnLunEmpty method [VSS], OnLunEmpty method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_onlunempty, vsprov/IVssHardwareSnapshotProvider::OnLunEmpty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssHardwareSnapshotProvider.OnLunEmpty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssHardwareSnapshotProvider::OnLunEmpty

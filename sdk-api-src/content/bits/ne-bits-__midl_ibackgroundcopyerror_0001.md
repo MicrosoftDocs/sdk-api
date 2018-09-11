@@ -4,7 +4,7 @@ title: "__MIDL_IBackgroundCopyError_0001"
 author: windows-sdk-content
 description: The BG_ERROR_CONTEXT enumeration defines the constant values that specify the context in which the error occurred.
 old-location: bits\bg_error_context.htm
-old-project: bits
+tech.root: bits
 ms.assetid: c9d98518-6f2e-4fd1-b0ee-6735c6d6ecd9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_ERROR_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BG_ERROR_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BG_ERROR_CONTEXT
+req.redist: 
 ---
 
 # __MIDL_IBackgroundCopyError_0001 enumeration

@@ -4,17 +4,16 @@ title: IMSVidEncoder::get_VideoEncoderInterface
 author: windows-sdk-content
 description: The get_VideoEncoderInterface method retrieves a pointer to the video encoder interface.
 old-location: mstv\imsvidencoder_get_videoencoderinterface.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c6ee3169-ba24-495f-b446-161c899aab16
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidEncoder interface [Microsoft TV Technologies],get_VideoEncoderInterface method, IMSVidEncoder.get_VideoEncoderInterface, IMSVidEncoder::get_VideoEncoderInterface, IMSVidEncoderget_VideoEncoderInterface, get_VideoEncoderInterface, get_VideoEncoderInterface method [Microsoft TV Technologies], get_VideoEncoderInterface method [Microsoft TV Technologies],IMSVidEncoder interface, mstv.imsvidencoder_get_videoencoderinterface, segment/IMSVidEncoder::get_VideoEncoderInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidEncoder.get_VideoEncoderInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidEncoder::get_VideoEncoderInterface

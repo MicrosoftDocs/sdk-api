@@ -4,17 +4,16 @@ title: "_OMAP"
 author: windows-sdk-content
 description: Describes an entry in an address map.
 old-location: base\omap.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 47f1dc1d-9305-4514-83b8-6d32bd9914f2
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*POMAP, OMAP, OMAP structure, POMAP, POMAP structure pointer, _OMAP, base.omap, dbghelp/OMAP, dbghelp/POMAP"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.8 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OMAP, *POMAP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OMAP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: OMAP, *POMAP
+req.redist: DbgHelp.dll 6.8 or later
 ---
 
 # _OMAP structure

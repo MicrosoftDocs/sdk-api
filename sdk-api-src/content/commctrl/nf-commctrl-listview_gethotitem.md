@@ -4,17 +4,16 @@ title: ListView_GetHotItem macro
 author: windows-sdk-content
 description: Gets the index of the hot item. You can use this macro or send the LVM_GETHOTITEM message explicitly.
 old-location: controls\ListView_GetHotItem.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethotitem.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ListView_GetHotItem, ListView_GetHotItem macro [Windows Controls], _win32_ListView_GetHotItem, _win32_ListView_GetHotItem_cpp, commctrl/ListView_GetHotItem, controls.ListView_GetHotItem, controls._win32_ListView_GetHotItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ListView_GetHotItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ListView_GetHotItem macro

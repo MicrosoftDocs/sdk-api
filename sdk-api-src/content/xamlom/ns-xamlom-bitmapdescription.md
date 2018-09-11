@@ -4,17 +4,16 @@ title: BitmapDescription
 author: windows-sdk-content
 description: Represents information about the bitmap stored in IBitmapData.
 old-location: xaml_diagnostics\bitmapdescription.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: C5E1BA37-738C-4251-8648-681C58B740E1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: BitmapDescription, BitmapDescription structure, PBitmapDescription, PBitmapDescription structure pointer, xaml_diagnostics.bitmapdescription, xamlom/BitmapDescription, xamlom/PBitmapDescription
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BitmapDescription
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BitmapDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: BitmapDescription
+req.redist: 
 ---
 
 # BitmapDescription structure

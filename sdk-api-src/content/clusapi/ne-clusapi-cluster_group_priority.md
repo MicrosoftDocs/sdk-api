@@ -4,17 +4,16 @@ title: CLUSTER_GROUP_PRIORITY
 author: windows-sdk-content
 description: Specifies the priority level of a group.
 old-location: mscs\cluster_group_priority.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: CF2B9D74-72EC-4BBD-85C9-1BB0535580FB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_GROUP_PRIORITY, CLUSTER_GROUP_PRIORITY enumeration [Failover Cluster], PriorityDisabled, PriorityHigh, PriorityLow, PriorityMedium, clusapi/CLUSTER_GROUP_PRIORITY, clusapi/PriorityDisabled, clusapi/PriorityHigh, clusapi/PriorityLow, clusapi/PriorityMedium, msclus/CLUSTER_GROUP_PRIORITY, msclus/PriorityDisabled, msclus/PriorityHigh, msclus/PriorityLow, msclus/PriorityMedium, mscs.cluster_group_priority
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CluAdmEx.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_GROUP_PRIORITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_GROUP_PRIORITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_GROUP_PRIORITY
+req.redist: 
 ---
 
 # CLUSTER_GROUP_PRIORITY enumeration

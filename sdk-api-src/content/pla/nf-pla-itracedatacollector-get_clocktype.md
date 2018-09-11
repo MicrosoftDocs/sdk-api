@@ -4,17 +4,16 @@ title: ITraceDataCollector::get_ClockType
 author: windows-sdk-content
 description: Retrieves or sets the clock resolution to use when logging the time stamp for each event.
 old-location: pla\itracedatacollector_clocktype.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 8c62d441-01c5-4fca-a802-41c7328a22e9
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ClockType property [PLA], ClockType property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],ClockType property, ITraceDataCollector.ClockType, ITraceDataCollector.get_ClockType, ITraceDataCollector::ClockType, ITraceDataCollector::get_ClockType, ITraceDataCollector::put_ClockType, base.itracedatacollector_clocktype, get_ClockType, pla.itracedatacollector_clocktype, pla/ITraceDataCollector::ClockType, pla/ITraceDataCollector::get_ClockType, pla/ITraceDataCollector::put_ClockType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITraceDataCollector.put_ClockType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::get_ClockType

@@ -4,7 +4,7 @@ title: "_PROVIDER_FILTER_INFO"
 author: windows-sdk-content
 description: Defines a filter and its data.
 old-location: etw\provider_filter_info.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 0541b24a-8531-4828-8c3b-d889e58b0b38
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROVIDER_FILTER_INFO, *PPROVIDER_FILTER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROVIDER_FILTER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PROVIDER_FILTER_INFO, *PPROVIDER_FILTER_INFO
+req.redist: 
 ---
 
 # _PROVIDER_FILTER_INFO structure

@@ -4,17 +4,16 @@ title: IDVBSTuningSpace::put_InputRange
 author: windows-sdk-content
 description: The put_InputRange method sets a value indicating which option or switch contains the requested signal source.
 old-location: mstv\idvbstuningspace_put_inputrange.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fa7c065e-91c7-4780-a33a-c5f6bf77a2c4
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_InputRange method, IDVBSTuningSpace.put_InputRange, IDVBSTuningSpace::put_InputRange, IDVBSTuningSpaceput_InputRange, mstv.idvbstuningspace_put_inputrange, put_InputRange, put_InputRange method [Microsoft TV Technologies], put_InputRange method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_InputRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVBSTuningSpace.put_InputRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBSTuningSpace::put_InputRange

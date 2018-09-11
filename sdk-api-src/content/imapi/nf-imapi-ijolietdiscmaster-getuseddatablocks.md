@@ -4,17 +4,16 @@ title: IJolietDiscMaster::GetUsedDataBlocks
 author: windows-sdk-content
 description: Retrieves the total number of data blocks that are in use.
 old-location: imapi\ijolietdiscmaster_getuseddatablocks.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 01bde64a-3d91-4830-bd93-f3fe6b109264
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetUsedDataBlocks, GetUsedDataBlocks method [IMAPI], GetUsedDataBlocks method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],GetUsedDataBlocks method, IJolietDiscMaster.GetUsedDataBlocks, IJolietDiscMaster::GetUsedDataBlocks, _win32_ijolietdiscmaster_getuseddatablocks, base.ijolietdiscmaster_getuseddatablocks, imapi.ijolietdiscmaster_getuseddatablocks, imapi/IJolietDiscMaster::GetUsedDataBlocks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IJolietDiscMaster.GetUsedDataBlocks
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IJolietDiscMaster::GetUsedDataBlocks

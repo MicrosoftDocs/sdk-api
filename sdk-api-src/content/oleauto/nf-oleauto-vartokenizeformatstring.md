@@ -4,17 +4,16 @@ title: VarTokenizeFormatString function
 author: windows-sdk-content
 description: Parses the actual format string into a series of tokens which can be used to format variants using VarFormatFromTokens.
 old-location: automat\vartokenizeformatstring.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 7cec1bc5-39ea-4b47-880b-62584ff23536
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarTokenizeFormatString, VarTokenizeFormatString function [Automation], _oa96_VarTokenizeFormatString, automat.vartokenizeformatstring, oleauto/VarTokenizeFormatString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarTokenizeFormatString
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarTokenizeFormatString function

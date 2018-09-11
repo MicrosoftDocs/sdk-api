@@ -4,17 +4,16 @@ title: IRecordInfo::GetFieldNoCopy
 author: windows-sdk-content
 description: Returns a pointer to the value of a given field name without copying the value and allocating resources.
 old-location: automat\irecordinfo_getfieldnocopy.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 3775fa60-3f34-402f-a7e5-18a00de384b5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFieldNoCopy, GetFieldNoCopy method [Automation], GetFieldNoCopy method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetFieldNoCopy method, IRecordInfo.GetFieldNoCopy, IRecordInfo::GetFieldNoCopy, _oa96_IRecordInfo_GetFieldNoCopy, automat.irecordinfo_getfieldnocopy, oaidl/IRecordInfo::GetFieldNoCopy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRecordInfo.GetFieldNoCopy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRecordInfo::GetFieldNoCopy

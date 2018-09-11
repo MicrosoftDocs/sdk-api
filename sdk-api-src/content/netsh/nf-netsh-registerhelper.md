@@ -4,17 +4,16 @@ title: RegisterHelper function
 author: windows-sdk-content
 description: Is called from within a helper's exposed InitHelperDll function, and registers the helper with the NetShell context.
 old-location: netshell\registerhelper.htm
-old-project: netshell
+tech.root: netshell
 ms.assetid: 9c9ac64a-6edd-4348-80c7-4192726e5108
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RegisterHelper, RegisterHelper function [NetShell], _netsh_registerhelper, netsh/RegisterHelper, netshell.registerhelper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netsh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NS_REQS
+req.lib: Netsh.lib
+req.dll: Netsh.exe
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RegisterHelper
 product: Windows
 targetos: Windows
-req.lib: Netsh.lib
-req.dll: Netsh.exe
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterHelper function

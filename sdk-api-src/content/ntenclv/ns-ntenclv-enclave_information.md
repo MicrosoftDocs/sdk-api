@@ -4,7 +4,7 @@ title: ENCLAVE_INFORMATION
 author: windows-sdk-content
 description: Contains information about the currently executing enclave.
 old-location: base\enclave_information.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 6720EDBE-6A0E-4192-A096-2ACA681E2AAF
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntenclv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENCLAVE_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ENCLAVE_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: ENCLAVE_INFORMATION
+req.redist: 
 ---
 
 # ENCLAVE_INFORMATION structure

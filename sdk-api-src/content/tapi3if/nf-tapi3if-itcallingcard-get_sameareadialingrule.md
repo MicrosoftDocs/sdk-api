@@ -4,17 +4,16 @@ title: ITCallingCard::get_SameAreaDialingRule
 author: windows-sdk-content
 description: The get_SameAreaDialingRule method gets the dialing rules for calls within the same area code.
 old-location: tapi3\itcallingcard_get_sameareadialingrule.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: d8539040-a988-4d96-8cf1-9ec8ff46a0a9
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_SameAreaDialingRule method, ITCallingCard.get_SameAreaDialingRule, ITCallingCard::get_SameAreaDialingRule, _tapi3_itcallingcard_get_sameareadialingrule, get_SameAreaDialingRule, get_SameAreaDialingRule method [TAPI 2.2], get_SameAreaDialingRule method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_sameareadialingrule, tapi3if/ITCallingCard::get_SameAreaDialingRule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallingCard.get_SameAreaDialingRule
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallingCard::get_SameAreaDialingRule

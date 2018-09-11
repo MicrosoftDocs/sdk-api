@@ -4,17 +4,16 @@ title: CLUS_DNN_LEADER_STATUS
 author: windows-sdk-content
 description: Represents the status of a Distributed Network Name (DNN) resource for a Scale-Out File Server.
 old-location: mscs\clus_dnn_leader_status.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 141629A8-95B3-409C-8165-D3AF055C41EB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUS_DNN_LEADER_STATUS, CLUS_DNN_LEADER_STATUS, CLUS_DNN_LEADER_STATUS structure [Failover Cluster], PCLUS_DNN_LEADER_STATUS, PCLUS_DNN_LEADER_STATUS structure pointer [Failover Cluster], clusapi/CLUS_DNN_LEADER_STATUS, clusapi/PCLUS_DNN_LEADER_STATUS, mscs.clus_dnn_leader_status"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_DNN_LEADER_STATUS, *PCLUS_DNN_LEADER_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_DNN_LEADER_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_DNN_LEADER_STATUS, *PCLUS_DNN_LEADER_STATUS
+req.redist: 
 ---
 
 # CLUS_DNN_LEADER_STATUS structure

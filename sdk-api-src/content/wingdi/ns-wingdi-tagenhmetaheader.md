@@ -4,7 +4,7 @@ title: tagENHMETAHEADER
 author: windows-sdk-content
 description: The ENHMETAHEADER structure contains enhanced-metafile data such as the dimensions of the picture stored in the enhanced metafile, the count of records in the enhanced metafile, the resolution of the device on which the picture was created, and so on.This structure is always the first record in an enhanced metafile.
 old-location: gdi\enhmetaheader.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 8e5f9a51-a995-48be-b936-1766fccb603a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENHMETAHEADER, *PENHMETAHEADER, *LPENHMETAHEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ENHMETAHEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ENHMETAHEADER, *PENHMETAHEADER, *LPENHMETAHEADER
+req.redist: 
 ---
 
 # tagENHMETAHEADER structure

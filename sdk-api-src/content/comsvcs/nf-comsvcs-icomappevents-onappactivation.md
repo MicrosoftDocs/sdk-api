@@ -4,17 +4,16 @@ title: IComAppEvents::OnAppActivation
 author: windows-sdk-content
 description: Generated when an application server starts.
 old-location: cos\icomappevents_onappactivation.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 4561d15a-6c1b-48e7-9697-87dfb51f877c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComAppEvents interface [COM+],OnAppActivation method, IComAppEvents.OnAppActivation, IComAppEvents::OnAppActivation, OnAppActivation, OnAppActivation method [COM+], OnAppActivation method [COM+],IComAppEvents interface, _dtc_IComAppEvents_OnAppActivation, comsvcs/IComAppEvents::OnAppActivation, cos.icomappevents_onappactivation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComAppEvents.OnAppActivation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComAppEvents::OnAppActivation

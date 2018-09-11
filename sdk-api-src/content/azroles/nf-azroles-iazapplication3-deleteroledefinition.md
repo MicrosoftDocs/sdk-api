@@ -4,17 +4,16 @@ title: IAzApplication3::DeleteRoleDefinition
 author: windows-sdk-content
 description: Removes the specified IAzRoleDefinition object from the IAzApplication3 object.
 old-location: security\iazapplication3_deleteroledefinition.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 34dc0bb8-1a44-418a-9b2c-f506f21f6ab1
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],DeleteRoleDefinition method, IAzApplication3.DeleteRoleDefinition, IAzApplication3::DeleteRoleDefinition, azroles/IAzApplication3::DeleteRoleDefinition, security.iazapplication3_deleteroledefinition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzApplication3.DeleteRoleDefinition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzApplication3::DeleteRoleDefinition
@@ -61,7 +60,7 @@ The <b>DeleteRoleDefinition</b> method removes the specified <a href="https://ms
 
 ### -param bstrRoleDefinitionName
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IAccessControl::GetAllAccessRights
 author: windows-sdk-content
 description: Gets the entire list of access rights and/or the owner and group for the specified object.
 old-location: com\iaccesscontrol_getallaccessrights.htm
-old-project: com
+tech.root: com
 ms.assetid: 8c8551fb-8ba9-4a52-b6f8-bd11e4006fe9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetAllAccessRights, GetAllAccessRights method [COM], GetAllAccessRights method [COM],IAccessControl interface, IAccessControl interface [COM],GetAllAccessRights method, IAccessControl.GetAllAccessRights, IAccessControl::GetAllAccessRights, _com_iaccesscontrol_getallaccessrights, com.iaccesscontrol_getallaccessrights, iaccess/IAccessControl::GetAllAccessRights
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERSION, *PHTTP_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessControl.GetAllAccessRights
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAccessControl::GetAllAccessRights

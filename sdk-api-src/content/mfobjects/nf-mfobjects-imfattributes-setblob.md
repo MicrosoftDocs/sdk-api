@@ -4,17 +4,16 @@ title: IMFAttributes::SetBlob
 author: windows-sdk-content
 description: Associates a byte array with a key.
 old-location: mf\imfattributes_setblob.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4a2a25a9-4dea-40c8-988c-9e3806c8f31c
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 4a2a25a9-4dea-40c8-988c-9e3806c8f31c, IMFAttributes interface [Media Foundation],SetBlob method, IMFAttributes.SetBlob, IMFAttributes::SetBlob, SetBlob, SetBlob method [Media Foundation], SetBlob method [Media Foundation],IMFAttributes interface, mf.imfattributes_setblob, mfobjects/IMFAttributes::SetBlob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAttributes.SetBlob
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAttributes::SetBlob

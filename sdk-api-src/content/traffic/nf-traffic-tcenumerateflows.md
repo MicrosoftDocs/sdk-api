@@ -4,17 +4,16 @@ title: TcEnumerateFlows function
 author: windows-sdk-content
 description: The TcEnumerateFlows function enumerates installed flows and their associated filters on an interface.
 old-location: qos\tcenumerateflows.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: eae90fae-a29a-4005-b8c6-a5e2c9a6c07f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TcEnumerateFlows, TcEnumerateFlows function [QOS], _gqos_tcenumerateflows, qos.tcenumerateflows, traffic/TcEnumerateFlows
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: Traffic.lib
+req.dll: Traffic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TcEnumerateFlows
 product: Windows
 targetos: Windows
-req.lib: Traffic.lib
-req.dll: Traffic.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TcEnumerateFlows function

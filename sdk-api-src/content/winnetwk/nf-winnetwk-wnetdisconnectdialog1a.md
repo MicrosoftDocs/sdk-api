@@ -4,17 +4,16 @@ title: WNetDisconnectDialog1A function
 author: windows-sdk-content
 description: The WNetDisconnectDialog1 function attempts to disconnect a network resource.
 old-location: wnet\wnetdisconnectdialog1.htm
-old-project: wnet
+tech.root: WNet
 ms.assetid: ec3abf0c-2a18-4d7d-aac4-e086d00fa6fe
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WNetDisconnectDialog1, WNetDisconnectDialog1 function [Windows Networking (WNet)], WNetDisconnectDialog1A, WNetDisconnectDialog1W, _win32_wnetdisconnectdialog1, winnetwk/WNetDisconnectDialog1, winnetwk/WNetDisconnectDialog1A, winnetwk/WNetDisconnectDialog1W, wnet.wnetdisconnectdialog1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WNetDisconnectDialog1W
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetDisconnectDialog1A function

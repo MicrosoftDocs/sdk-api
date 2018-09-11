@@ -4,17 +4,16 @@ title: IDataCollectorSet::Commit
 author: windows-sdk-content
 description: Saves, updates, or validates the data collector set. You can also use this method to flush a trace session.
 old-location: pla\idatacollectorset_commit.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 7e432e1f-4b86-45dc-93d5-df603068273d
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Commit, Commit method [PLA], Commit method [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Commit method, IDataCollectorSet.Commit, IDataCollectorSet::Commit, base.idatacollectorset_commit, pla.idatacollectorset_commit, pla/IDataCollectorSet::Commit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataCollectorSet.Commit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::Commit

@@ -4,7 +4,7 @@ title: "_INTERFACE_TIMESTAMP_CAPABILITY_FLAGS"
 author: windows-sdk-content
 description: This structure is reserved for system use, and you should not use it in your code.
 old-location: iphlp\interface_timestamp_capability_flags.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: EF064499-D11C-4C41-A417-E494D2FE3686
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERFACE_TIMESTAMP_CAPABILITY_FLAGS, *PINTERFACE_TIMESTAMP_CAPABILITY_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERFACE_TIMESTAMP_CAPABILITY_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: INTERFACE_TIMESTAMP_CAPABILITY_FLAGS, *PINTERFACE_TIMESTAMP_CAPABILITY_FLAGS
+req.redist: 
 ---
 
 # _INTERFACE_TIMESTAMP_CAPABILITY_FLAGS structure

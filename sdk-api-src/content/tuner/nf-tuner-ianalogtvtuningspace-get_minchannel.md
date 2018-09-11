@@ -4,17 +4,16 @@ title: IAnalogTVTuningSpace::get_MinChannel
 author: windows-sdk-content
 description: The get_MinChannel method gets the lowest channel number for this tuning space.
 old-location: mstv\ianalogtvtuningspace_get_minchannel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 94c3136f-6d9e-4396-9bbf-828669d57724
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_MinChannel method, IAnalogTVTuningSpace.get_MinChannel, IAnalogTVTuningSpace::get_MinChannel, IAnalogTVTuningSpaceget_MinChannel, get_MinChannel, get_MinChannel method [Microsoft TV Technologies], get_MinChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_minchannel, tuner/IAnalogTVTuningSpace::get_MinChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnalogTVTuningSpace.get_MinChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAnalogTVTuningSpace::get_MinChannel
@@ -65,7 +63,7 @@ The <b>get_MinChannel</b> method gets the lowest channel number for this tuning 
 
 ### -param MinChannelVal
 
-
+TBD
 
 
 

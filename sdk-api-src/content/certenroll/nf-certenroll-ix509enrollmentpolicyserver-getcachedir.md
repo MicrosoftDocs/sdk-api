@@ -4,17 +4,16 @@ title: IX509EnrollmentPolicyServer::GetCacheDir
 author: windows-sdk-content
 description: Retrieves the name of the directory on the certificate enrollment policy (CEP) server that contains the policy cache file.
 old-location: security\ix509enrollmentpolicyserver_getcachedir.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 72b0b6f0-cc4f-4e03-9b6c-7bd4c12cf0a3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetCacheDir, GetCacheDir method [Security], GetCacheDir method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCacheDir method, IX509EnrollmentPolicyServer.GetCacheDir, IX509EnrollmentPolicyServer::GetCacheDir, certenroll/IX509EnrollmentPolicyServer::GetCacheDir, security.ix509enrollmentpolicyserver_getcachedir
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509EnrollmentPolicyServer.GetCacheDir
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EnrollmentPolicyServer::GetCacheDir

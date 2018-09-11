@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_ads_0001_0048_0006"
 author: windows-sdk-content
 description: Specifies the revision number of the access-control entry (ACE), or the access-control list (ACL), for Active Directory.
 old-location: adsi\ads_sd_revision_enum.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 3a8c7b5c-5846-4f50-88d2-5a9c86b15480
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: IAccess.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_REVISION_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_SD_REVISION_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_SD_REVISION_ENUM
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_ads_0001_0048_0006 enumeration

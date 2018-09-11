@@ -4,17 +4,16 @@ title: "_SERVER_INFO_403"
 author: windows-sdk-content
 description: The SERVER_INFO_403 structure contains information about a specified server.
 old-location: netmgmt\server_info_403_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 14309dbe-ad7b-4ae0-8acc-39e9999f411b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVER_INFO_403, *PSERVER_INFO_403, LPSERVER_INFO_403, LPSERVER_INFO_403 structure pointer [Network Management], PSERVER_INFO_403, PSERVER_INFO_403 structure pointer [Network Management], SERVER_INFO_403, SERVER_INFO_403 structure [Network Management], SV_SHARESECURITY, SV_USERSECURITY, SW_AUTOPROF_LOAD_MASK, SW_AUTOPROF_SAVE_MASK, _SERVER_INFO_403, _win32_server_info_403_str, lmserver/LPSERVER_INFO_403, lmserver/PSERVER_INFO_403, lmserver/SERVER_INFO_403, netmgmt.server_info_403_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_INFO_403, *PSERVER_INFO_403, *LPSERVER_INFO_403
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVER_INFO_403
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SERVER_INFO_403, *PSERVER_INFO_403, *LPSERVER_INFO_403
+req.redist: 
 ---
 
 # _SERVER_INFO_403 structure

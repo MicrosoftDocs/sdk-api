@@ -4,7 +4,7 @@ title: "_DXVAHD_CONTENT_DESC"
 author: windows-sdk-content
 description: Describes a video stream for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\dxvahd_content_desc.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9319a98d-8f43-4f29-8787-18dec53dff88
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_CONTENT_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVAHD_CONTENT_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVAHD_CONTENT_DESC
+req.redist: 
 ---
 
 # _DXVAHD_CONTENT_DESC structure

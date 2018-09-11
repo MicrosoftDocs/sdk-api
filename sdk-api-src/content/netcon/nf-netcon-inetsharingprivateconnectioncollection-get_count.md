@@ -4,17 +4,16 @@ title: INetSharingPrivateConnectionCollection::get_Count
 author: windows-sdk-content
 description: The get__Count method retrieves the number of items in the private connections collection.
 old-location: ics\inetsharingprivateconnectioncollection_get_count.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 599ffa10-6932-48bd-a736-60512f25271c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingPrivateConnectionCollection interface [ICS/ICF],get_Count method, INetSharingPrivateConnectionCollection.get_Count, INetSharingPrivateConnectionCollection::get_Count, _ics_inetsharingprivateconnectioncollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingPrivateConnectionCollection interface, ics.inetsharingprivateconnectioncollection_get_count, netcon/INetSharingPrivateConnectionCollection::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingPrivateConnectionCollection.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingPrivateConnectionCollection::get_Count

@@ -2,19 +2,18 @@
 UID: NF:faxcom.IFaxJob.get_SenderCompany
 title: IFaxJob::get_SenderCompany
 author: windows-sdk-content
-description: The SenderCompany property is a null-terminated string that contains the company name for the sender of the fax job. The SenderCompany property applies only to outgoing fax transmissions.
-old-location: fax\_mfax_ifaxjob_get_sendercompany_vb.htm
-old-project: Fax
+description: The IFaxJob::get_SenderCompany property is a null-terminated string that contains the company name for the sender of the fax job. The IFaxJob::get_SenderCompany property applies only to outgoing fax transmissions.
+old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_sendercompany_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7uk9.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxJob object [Fax Service],SenderCompany property, FaxJob.SenderCompany, IFaxJob.get_SenderCompany, IFaxJob::get_SenderCompany, SenderCompany property [Fax Service], SenderCompany property [Fax Service],FaxJob object, _mfax_ifaxjob_get_sendercompany, fax._mfax_ifaxjob_get_sendercompany, fax._mfax_ifaxjob_get_sendercompany_vb, get_SenderCompany
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxJob interface [Fax Service],SenderCompany property, IFaxJob.SenderCompany, IFaxJob.get_SenderCompany, IFaxJob::SenderCompany, IFaxJob::get_SenderCompany, SenderCompany property [Fax Service], SenderCompany property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_sendercompany, fax._mfax_ifaxjob_get_sendercompany, fax._mfax_ifaxjob_mfax_ifaxjob_get_sendercompany_cpp, faxcom/IFaxJob::SenderCompany, faxcom/IFaxJob::get_SenderCompany, get_SenderCompany
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxJob.SenderCompany
+ - IFaxJob.SenderCompany
+ - IFaxJob.get_SenderCompany
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxJob::get_SenderCompany
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>SenderCompany</b> property is a null-terminated string that contains the company name for the sender of the fax job. The <b>SenderCompany</b> property applies only to outgoing fax transmissions.
+The <b>IFaxJob::get_SenderCompany</b> property is a null-terminated string that contains the company name for the sender of the fax job. The <b>IFaxJob::get_SenderCompany</b> property applies only to outgoing fax transmissions.
 
 
 This property is read-only.
@@ -65,9 +64,9 @@ This property is read-only.
 
 
 
-If the sender's company is not available, the <b>SenderCompany</b> property contains an empty string.
+If the sender's company is not available, the <b>IFaxJob::get_SenderCompany</b> property contains an empty string.
 
-<b>SenderCompany</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
+<b>IFaxJob::get_SenderCompany</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
 
 
@@ -82,10 +81,6 @@ If the sender's company is not available, the <b>SenderCompany</b> property cont
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690298(v=VS.85).aspx">FaxJob</a>
 
 
 

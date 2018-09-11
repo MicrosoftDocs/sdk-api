@@ -4,17 +4,16 @@ title: IFsrmPropertyBag::get_FileId
 author: windows-sdk-content
 description: The NTFS file identifier of the file.
 old-location: fsrm\ifsrmpropertybag_fileid.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: dc5df8d8-4998-4a4e-814b-f3119a156e14
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FileId property [File Server Resource Manager], FileId property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],FileId property, IFsrmPropertyBag.FileId, IFsrmPropertyBag.get_FileId, IFsrmPropertyBag::FileId, IFsrmPropertyBag::get_FileId, fs.ifsrmpropertybag_fileid, fsrm.ifsrmpropertybag_fileid, fsrmpipeline/IFsrmPropertyBag::FileId, fsrmpipeline/IFsrmPropertyBag::get_FileId, get_FileId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmPropertyBag.get_FileId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPropertyBag::get_FileId

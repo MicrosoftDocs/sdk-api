@@ -4,7 +4,7 @@ title: FWP_V4_ADDR_AND_MASK_
 author: windows-sdk-content
 description: Specifies IPv4 address and mask in host order.
 old-location: fwp\fwp_v4_addr_and_mask_struct.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: da6315af-264e-4dcb-b5eb-ac308128a511
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWP_V4_ADDR_AND_MASK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWP_V4_ADDR_AND_MASK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWP_V4_ADDR_AND_MASK
+req.redist: 
 ---
 
 # FWP_V4_ADDR_AND_MASK_ structure

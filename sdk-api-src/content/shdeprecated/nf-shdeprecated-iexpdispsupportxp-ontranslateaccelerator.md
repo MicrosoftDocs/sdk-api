@@ -4,17 +4,16 @@ title: IExpDispSupportXP::OnTranslateAccelerator
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IExpDispSupportXP_OnTranslateAccelerator.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7afdcd4d-76c6-41ff-b754-83068d5ca5cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IExpDispSupportXP interface [Windows Shell],OnTranslateAccelerator method, IExpDispSupportXP.OnTranslateAccelerator, IExpDispSupportXP::OnTranslateAccelerator, OnTranslateAccelerator, OnTranslateAccelerator method [Windows Shell], OnTranslateAccelerator method [Windows Shell],IExpDispSupportXP interface, _shell_IExpDispSupportXP_OnTranslateAccelerator, shdeprecated/IExpDispSupportXP::OnTranslateAccelerator, shell.IExpDispSupportXP_OnTranslateAccelerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: Shdeprecated.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExpDispSupportXP.OnTranslateAccelerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 4.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExpDispSupportXP::OnTranslateAccelerator

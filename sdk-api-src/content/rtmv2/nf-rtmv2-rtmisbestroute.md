@@ -4,17 +4,16 @@ title: RtmIsBestRoute function
 author: windows-sdk-content
 description: The RtmIsBestRoute function returns the set of views in which the specified route is the best route to a destination.
 old-location: rras\rtmisbestroute.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 4c4b72a8-7a6c-4216-af2d-8dee55b910af
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RtmIsBestRoute, RtmIsBestRoute function [RAS], _rtmv2ref_rtmisbestroute, rras.rtmisbestroute, rtmv2/RtmIsBestRoute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmIsBestRoute
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmIsBestRoute function

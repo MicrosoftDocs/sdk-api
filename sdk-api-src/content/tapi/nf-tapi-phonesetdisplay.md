@@ -4,17 +4,16 @@ title: phoneSetDisplay function
 author: windows-sdk-content
 description: The phoneSetDisplay function causes the specified string to be displayed on the specified open phone device.
 old-location: tapi2\phonesetdisplay.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 154efb07-7c4e-47f0-8a14-e2fe404efcb7
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_phonesetdisplay, phoneSetDisplay, phoneSetDisplay function [TAPI 2.2], tapi/phoneSetDisplay, tapi2.phonesetdisplay"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - phoneSetDisplay
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # phoneSetDisplay function

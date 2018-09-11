@@ -4,17 +4,16 @@ title: IParseAndCreateItem::SetItem
 author: windows-sdk-content
 description: IParseAndCreateItem::SetItem method
 old-location: shell\IParseAndCreateItem_SetItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4a9f2d58-2959-40bd-ba82-74ca0e504145
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IParseAndCreateItem interface [Windows Shell],SetItem method, IParseAndCreateItem.SetItem, IParseAndCreateItem::SetItem, SetItem, SetItem method [Windows Shell], SetItem method [Windows Shell],IParseAndCreateItem interface, _shell_IParseAndCreateItem_SetItem, shell.IParseAndCreateItem_SetItem, shobjidl_core/IParseAndCreateItem::SetItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IParseAndCreateItem.SetItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IParseAndCreateItem::SetItem

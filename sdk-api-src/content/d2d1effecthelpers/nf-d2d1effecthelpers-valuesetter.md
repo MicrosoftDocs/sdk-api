@@ -4,17 +4,16 @@ title: ValueSetter function
 author: windows-sdk-content
 description: Calls a member-function property setter callback for a value-type property.
 old-location: direct2d\valuesetter.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 5137D54E-1BAC-470C-AF16-0FB19DD36A61
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ValueSetter, ValueSetter function [Direct2D], d2d1effecthelpers/ValueSetter, direct2d.valuesetter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1effecthelpers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_RANGE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ValueSetter
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ValueSetter function
@@ -74,7 +73,7 @@ When this method returns, contains a pointer to the data requested.
 The number of bytes in the data to be retrieved.
 
 
-### -param param
+### -param arg1
 
 TBD
 

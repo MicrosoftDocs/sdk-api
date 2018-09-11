@@ -4,7 +4,7 @@ title: peer_application_registration_info_tag
 author: windows-sdk-content
 description: The PEER_APPLICATION_REGISTRATION_INFO structure contains peer application information for registration with the local computer.
 old-location: p2p\peer_application_registration_info.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 64c9eb02-3235-4824-8de1-352b0a1ffbb4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_APPLICATION_REGISTRATION_INFO, *PPEER_APPLICATION_REGISTRATION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_APPLICATION_REGISTRATION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_APPLICATION_REGISTRATION_INFO, *PPEER_APPLICATION_REGISTRATION_INFO
+req.redist: 
 ---
 
 # peer_application_registration_info_tag structure

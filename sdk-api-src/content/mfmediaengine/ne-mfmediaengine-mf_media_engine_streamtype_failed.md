@@ -4,7 +4,7 @@ title: MF_MEDIA_ENGINE_STREAMTYPE_FAILED
 author: windows-sdk-content
 description: Identifies the kind of media stream that failed.
 old-location: mf\mf_media_engine_streamtype_failed.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: CD87E77B-3A9D-435A-A439-B810E9270CE5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mfmediaengine.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_STREAMTYPE_FAILED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_MEDIA_ENGINE_STREAMTYPE_FAILED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_MEDIA_ENGINE_STREAMTYPE_FAILED
+req.redist: 
 ---
 
 # MF_MEDIA_ENGINE_STREAMTYPE_FAILED enumeration

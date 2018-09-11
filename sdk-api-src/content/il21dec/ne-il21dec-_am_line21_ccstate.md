@@ -4,7 +4,7 @@ title: "_AM_LINE21_CCSTATE"
 author: windows-sdk-content
 description: Indicates the closed captioning state (on or off).
 old-location: dshow\am_line21_ccstate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fdd1dec4-660c-46d0-b18c-b725b813c6a7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: il21dec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Iketypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_CCSTATE, *PAM_LINE21_CCSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_LINE21_CCSTATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: AM_LINE21_CCSTATE, *PAM_LINE21_CCSTATE
+req.redist: 
 ---
 
 # _AM_LINE21_CCSTATE enumeration

@@ -4,7 +4,7 @@ title: "_DD_CREATESURFACEEXDATA"
 author: windows-sdk-content
 description: The DD_CREATESURFACEEXDATA structure contains information required for the driver to create a surface and associate with it a supplied texture handle.
 old-location: display\dd_createsurfaceexdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 61965d6b-7473-4121-8c85-fb677a665388
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_CREATESURFACEEXDATA, DD_CREATESURFACEEXDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_CREATESURFACEEXDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_CREATESURFACEEXDATA, DD_CREATESURFACEEXDATA"
+req.redist: 
 ---
 
 # _DD_CREATESURFACEEXDATA structure

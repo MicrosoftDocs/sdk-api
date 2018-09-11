@@ -4,7 +4,7 @@ title: "_DHCPV6Prefix"
 author: windows-sdk-content
 description: The DHCPV6Prefix contains an IPv6 prefix.
 old-location: dhcp\dhcpv6prefix.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: e04e3275-e4be-44bc-bd63-c45500971af7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpv6csdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCPV6Prefix, *PDHCPV6Prefix, *LPDHCPV6Prefix
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCPV6Prefix
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCPV6Prefix, *PDHCPV6Prefix, *LPDHCPV6Prefix
+req.redist: 
 ---
 
 # _DHCPV6Prefix structure

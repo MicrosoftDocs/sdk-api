@@ -4,17 +4,16 @@ title: IXpsOMObjectFactory1::CreatePageFromStream1
 author: windows-sdk-content
 description: Reads the page markup from the specified stream to create and populate an IXpsOMPage1 interface.
 old-location: xps\ixpsomobjectfactory1_createpagefromstream1.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 6a400006-0f8f-4eb2-88c0-b559c6a4a0ba
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreatePageFromStream1, CreatePageFromStream1 method [XPS Documents and Packaging], CreatePageFromStream1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePageFromStream1 method, IXpsOMObjectFactory1.CreatePageFromStream1, IXpsOMObjectFactory1::CreatePageFromStream1, xps.ixpsomobjectfactory1_createpagefromstream1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePageFromStream1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_DOCUMENT_TYPE
+req.lib: None
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IXpsOMObjectFactory1.CreatePageFromStream1
 product: Windows
 targetos: Windows
-req.lib: None
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMObjectFactory1::CreatePageFromStream1

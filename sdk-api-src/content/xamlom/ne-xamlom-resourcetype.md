@@ -4,17 +4,16 @@ title: ResourceType
 author: windows-sdk-content
 description: Defines constants that specify the type of a resource in a resource dictionary.
 old-location: xaml_diagnostics\resourcetype.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: F491E78E-86AF-499F-A729-2D534FBA8460
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ResourceType, ResourceType enumeration, ResourceTypeStatic, ResourceTypeTheme, xaml_diagnostics.resourcetype, xamlom/ResourceType, xamlom/ResourceTypeStatic, xamlom/ResourceTypeTheme
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ResourceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResourceType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: ResourceType
+req.redist: 
 ---
 
 # ResourceType enumeration

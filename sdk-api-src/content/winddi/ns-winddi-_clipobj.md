@@ -4,7 +4,7 @@ title: "_CLIPOBJ"
 author: windows-sdk-content
 description: The CLIPOBJ structure describes the clip region used when drawing.
 old-location: display\clipobj.htm
-old-project: display
+tech.root: display
 ms.assetid: c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLIPOBJ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLIPOBJ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CLIPOBJ
+req.redist: 
 ---
 
 # _CLIPOBJ structure

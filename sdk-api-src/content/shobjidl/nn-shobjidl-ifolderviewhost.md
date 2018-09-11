@@ -4,17 +4,16 @@ title: IFolderViewHost
 author: windows-sdk-content
 description: Exposes a method that hosts an IFolderView object in a window.
 old-location: shell\IFolderViewHost.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1e3d4a9a-6336-4667-92dd-9dc9678606e9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFolderViewHost, IFolderViewHost interface [Windows Shell], IFolderViewHost interface [Windows Shell],described, _shell_IFolderViewHost, shell.IFolderViewHost, shobjidl/IFolderViewHost
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderViewHost
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderViewHost interface

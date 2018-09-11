@@ -4,7 +4,7 @@ title: MF_SHARING_ENGINE_EVENT
 author: windows-sdk-content
 description: Defines events that are sent by the sharing engine.
 old-location: mf\mf_sharing_engine_event.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 475BC98E-6795-4629-AD41-9C6A63AC51C7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfsharingengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SHARING_ENGINE_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_SHARING_ENGINE_EVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_SHARING_ENGINE_EVENT
+req.redist: 
 ---
 
 # MF_SHARING_ENGINE_EVENT enumeration

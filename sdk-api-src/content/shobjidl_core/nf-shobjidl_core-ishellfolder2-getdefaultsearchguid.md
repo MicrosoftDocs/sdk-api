@@ -4,17 +4,16 @@ title: IShellFolder2::GetDefaultSearchGUID
 author: windows-sdk-content
 description: Returns the globally unique identifier (GUID) of the default search object for the folder.
 old-location: shell\IShellFolder2_GetDefaultSearchGUID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 20acd646-6cb7-420e-84b3-2f9b385a349c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetDefaultSearchGUID, GetDefaultSearchGUID method [Windows Shell], GetDefaultSearchGUID method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDefaultSearchGUID method, IShellFolder2.GetDefaultSearchGUID, IShellFolder2::GetDefaultSearchGUID, _win32_IShellFolder2_GetDefaultSearchGUID, shell.IShellFolder2_GetDefaultSearchGUID, shobjidl_core/IShellFolder2::GetDefaultSearchGUID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolder2.GetDefaultSearchGUID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolder2::GetDefaultSearchGUID

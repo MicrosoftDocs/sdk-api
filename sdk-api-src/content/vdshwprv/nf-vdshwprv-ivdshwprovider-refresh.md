@@ -4,17 +4,16 @@ title: IVdsHwProvider::Refresh
 author: windows-sdk-content
 description: Refreshes VDS's internally cached data about existing subsystems that are managed by VDS providers.
 old-location: base\ivdshwprovider_refresh.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 25ddc73c-5d1b-4bec-bbc2-9f22a5f82ffe
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsHwProvider interface [VDS],Refresh method, IVdsHwProvider.Refresh, IVdsHwProvider::Refresh, Refresh, Refresh method [VDS], Refresh method [VDS],IVdsHwProvider interface, base.ivdshwprovider_refresh, vds/IVdsHwProvider::Refresh, vdshwprv/IVdsHwProvider::Refresh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsHwProvider.Refresh
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsHwProvider::Refresh

@@ -4,17 +4,16 @@ title: IWorkspaceScriptable::DisconnectWorkspaceByFriendlyName
 author: windows-sdk-content
 description: Disconnects all existing connections associated with the connection that has the specified name.
 old-location: termserv\iworkspacescriptable_disconnectworkspacebyfriendlyname.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: e9cf9c1a-8400-4a69-9cf1-0dfa6fe6a38b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DisconnectWorkspaceByFriendlyName, DisconnectWorkspaceByFriendlyName method [Remote Desktop Services], DisconnectWorkspaceByFriendlyName method [Remote Desktop Services],IWorkspaceScriptable interface, DisconnectWorkspaceByFriendlyName method [Remote Desktop Services],IWorkspaceScriptable2 interface, DisconnectWorkspaceByFriendlyName method [Remote Desktop Services],IWorkspaceScriptable3 interface, DisconnectWorkspaceByFriendlyName method [Remote Desktop Services],Workspace object, IWorkspaceScriptable interface [Remote Desktop Services],DisconnectWorkspaceByFriendlyName method, IWorkspaceScriptable.DisconnectWorkspaceByFriendlyName, IWorkspaceScriptable2 interface [Remote Desktop Services],DisconnectWorkspaceByFriendlyName method, IWorkspaceScriptable2::DisconnectWorkspaceByFriendlyName, IWorkspaceScriptable3 interface [Remote Desktop Services],DisconnectWorkspaceByFriendlyName method, IWorkspaceScriptable3::DisconnectWorkspaceByFriendlyName, IWorkspaceScriptable::DisconnectWorkspaceByFriendlyName, Workspace object [Remote Desktop Services],DisconnectWorkspaceByFriendlyName method, termserv.iworkspacescriptable_disconnectworkspacebyfriendlyname, workspaceruntime/IWorkspaceScriptable2::DisconnectWorkspaceByFriendlyName, workspaceruntime/IWorkspaceScriptable3::DisconnectWorkspaceByFriendlyName, workspaceruntime/IWorkspaceScriptable::DisconnectWorkspaceByFriendlyName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wksprt.exe
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - Workspace.DisconnectWorkspaceByFriendlyName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceScriptable::DisconnectWorkspaceByFriendlyName
@@ -65,7 +63,7 @@ Disconnects all existing connections associated with the connection that has the
 
 ### -param bstrWorkspaceFriendlyName
 
-
+TBD
 
 
 

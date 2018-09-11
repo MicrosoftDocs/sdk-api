@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxStatus.get_Receive
 title: IFaxStatus::get_Receive
 author: windows-sdk-content
 description: Retrieves the Receive property for the FaxStatus object of a parent FaxPort object. The Receive property is a Boolean value that indicates whether a specified fax port is currently receiving a fax.
-old-location: fax\_mfax_ifaxstatus_get_receive_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_receive_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5u1x.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxStatus object [Fax Service],Receive property, FaxStatus.Receive, IFaxStatus.get_Receive, IFaxStatus::get_Receive, Receive property [Fax Service], Receive property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_get_receive_vb, get_Receive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxStatus interface [Fax Service],Receive property, IFaxStatus.Receive, IFaxStatus.get_Receive, IFaxStatus::Receive, IFaxStatus::get_Receive, Receive property [Fax Service], Receive property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_receive_cpp, faxcom/IFaxStatus::Receive, faxcom/IFaxStatus::get_Receive, get_Receive
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxStatus.Receive
+ - IFaxStatus.Receive
+ - IFaxStatus.get_Receive
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxStatus::get_Receive
@@ -64,7 +63,7 @@ This property is read-only.
 
 
 
-To determine if a specified port is currently sending a fax, you can call the <a href="https://msdn.microsoft.com/en-us/library/ms691890(v=VS.85).aspx">IFaxStatus::get_Send</a> method.
+To determine if a specified port is currently sending a fax, you can call the <a href="https://msdn.microsoft.com/239b98c5-be46-4e54-83f7-eb7f6250fa57">IFaxStatus::get_Send</a> method.
 
 
 
@@ -82,10 +81,6 @@ To determine if a specified port is currently sending a fax, you can call the <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690310(v=VS.85).aspx">FaxStatus</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms691281(v=VS.85).aspx">IFaxPort</a>
 
 
@@ -98,7 +93,7 @@ To determine if a specified port is currently sending a fax, you can call the <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691890(v=VS.85).aspx">Send</a>
+<a href="https://msdn.microsoft.com/239b98c5-be46-4e54-83f7-eb7f6250fa57">IFaxStatus::get_Send</a>
  
 
  

@@ -4,17 +4,16 @@ title: IXamlDiagnostics::HitTest
 author: windows-sdk-content
 description: Gets all elements in the visual tree that fall within the specified rectangle.
 old-location: xaml_diagnostics\ixamldiagnostics_hittest.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: B7722F49-F477-4D24-9183-BC09A4A12730
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: HitTest, HitTest method, HitTest method,IXamlDiagnostics interface, IXamlDiagnostics interface,HitTest method, IXamlDiagnostics.HitTest, IXamlDiagnostics::HitTest, xaml_diagnostics.ixamldiagnostics_hittest, xamlom/IXamlDiagnostics::HitTest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXamlDiagnostics.HitTest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXamlDiagnostics::HitTest

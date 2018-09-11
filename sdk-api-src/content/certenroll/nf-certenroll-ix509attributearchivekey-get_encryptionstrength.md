@@ -4,17 +4,16 @@ title: IX509AttributeArchiveKey::get_EncryptionStrength
 author: windows-sdk-content
 description: Retrieves an integer that contains the encryption strength of the symmetric algorithm used to encrypt the key.
 old-location: security\ix509attributearchivekey_encryptionstrength_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: c365a2e0-caff-4c92-aa22-33c165ea672e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: EncryptionStrength property [Security], EncryptionStrength property [Security],IX509AttributeArchiveKey interface, IX509AttributeArchiveKey interface [Security],EncryptionStrength property, IX509AttributeArchiveKey.EncryptionStrength, IX509AttributeArchiveKey.get_EncryptionStrength, IX509AttributeArchiveKey::EncryptionStrength, IX509AttributeArchiveKey::get_EncryptionStrength, certenroll/IX509AttributeArchiveKey::EncryptionStrength, certenroll/IX509AttributeArchiveKey::get_EncryptionStrength, get_EncryptionStrength, security.ix509attributearchivekey_encryptionstrength_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509AttributeArchiveKey.get_EncryptionStrength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509AttributeArchiveKey::get_EncryptionStrength

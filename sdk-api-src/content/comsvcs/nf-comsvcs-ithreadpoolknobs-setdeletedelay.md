@@ -4,17 +4,16 @@ title: IThreadPoolKnobs::SetDeleteDelay
 author: windows-sdk-content
 description: Sets the number of milliseconds a pooled thread can idle before being destroyed.
 old-location: cos\ithreadpoolknobs_setdeletedelay.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: dd01dc40-fbf6-48f9-bef7-8a935a6adf28
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetDeleteDelay method, IThreadPoolKnobs.SetDeleteDelay, IThreadPoolKnobs::SetDeleteDelay, SetDeleteDelay, SetDeleteDelay method [COM+], SetDeleteDelay method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetDeleteDelay, comsvcs/IThreadPoolKnobs::SetDeleteDelay, cos.ithreadpoolknobs_setdeletedelay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IThreadPoolKnobs.SetDeleteDelay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IThreadPoolKnobs::SetDeleteDelay

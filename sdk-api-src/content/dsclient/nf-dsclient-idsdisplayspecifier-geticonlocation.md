@@ -4,17 +4,16 @@ title: IDsDisplaySpecifier::GetIconLocation
 author: windows-sdk-content
 description: Obtains the icon location for a given object class.
 old-location: ad\idsdisplayspecifier_geticonlocation.htm
-old-project: ad
+tech.root: ad
 ms.assetid: a5e65bde-aa2d-47e0-8cfc-062b14da3e87
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DSGIF_DEFAULTISCONTAINER, DSGIF_GETDEFAULTICON, DSGIF_ISDISABLED, DSGIF_ISNORMAL, DSGIF_ISOPEN, GetIconLocation, GetIconLocation method [Active Directory], GetIconLocation method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetIconLocation method, IDsDisplaySpecifier.GetIconLocation, IDsDisplaySpecifier::GetIconLocation, _glines_idsdisplayspecifier_geticonlocation, ad.idsdisplayspecifier__geticonlocation, ad.idsdisplayspecifier_geticonlocation, dsclient/IDsDisplaySpecifier::GetIconLocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: Dsadmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsDisplaySpecifier.GetIconLocation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dsadmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsDisplaySpecifier::GetIconLocation

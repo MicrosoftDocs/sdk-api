@@ -4,17 +4,16 @@ title: ITraceRelogger::ProcessTrace
 author: windows-sdk-content
 description: Delivers events from the associated trace streams to the consumer.
 old-location: etw\itracerelogger_processtrace.htm
-old-project: etw
+tech.root: etw
 ms.assetid: ab844b34-0e06-447f-a0b7-dd56ca0b50ed
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: ITraceRelogger interface [ETW],ProcessTrace method, ITraceRelogger.ProcessTrace, ITraceRelogger::ProcessTrace, ProcessTrace, ProcessTrace method [ETW], ProcessTrace method [ETW],ITraceRelogger interface, etw.itracerelogger_processtrace, relogger/ITraceRelogger::ProcessTrace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceRelogger.ProcessTrace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceRelogger::ProcessTrace

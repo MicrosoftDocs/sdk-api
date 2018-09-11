@@ -4,7 +4,7 @@ title: IMFNetCrossOriginSupport
 author: windows-sdk-content
 description: Implemented by clients that want to enforce a cross origin policy for HTML5 media downloads.
 old-location: mf\imfnetcrossoriginsupport.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 239E5731-4425-46D4-AFEC-F3E59258B1DF
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFNetCrossOriginSupport
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFNetCrossOriginSupport interface

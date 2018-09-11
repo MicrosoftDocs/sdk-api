@@ -4,17 +4,16 @@ title: ITocParser::GetTocCount
 author: windows-sdk-content
 description: The GetTocCount method retrieves the number of tables of contents, of a specified position type, in the TOC Parser object.
 old-location: mf\itocparser_gettoccount.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8ad80a20-cadb-4a0d-a39e-b627324df425
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetTocCount, GetTocCount method [Media Foundation], GetTocCount method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocCount method, ITocParser.GetTocCount, ITocParser::GetTocCount, codecapi.itocparser_gettoccount, mf.itocparser_gettoccount, wmcodecdsp/ITocParser::GetTocCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITocParser.GetTocCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ITocParser::GetTocCount
@@ -60,9 +58,9 @@ The <b>GetTocCount</b> method retrieves the number of tables of contents, of a s
 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param pdwTocCount [out]

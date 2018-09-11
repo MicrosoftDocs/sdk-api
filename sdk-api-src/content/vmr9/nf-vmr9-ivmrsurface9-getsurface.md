@@ -4,17 +4,16 @@ title: IVMRSurface9::GetSurface
 author: windows-sdk-content
 description: The GetSurface method retrieves the attached Direct3D surface.
 old-location: dshow\ivmrsurface9_getsurface.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ce556b66-0a28-43a0-9dd2-a1c3b9aad5dc
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [DirectShow],IVMRSurface9 interface, IVMRSurface9 interface [DirectShow],GetSurface method, IVMRSurface9.GetSurface, IVMRSurface9::GetSurface, IVMRSurface9GetSurface, dshow.ivmrsurface9_getsurface, vmr9/IVMRSurface9::GetSurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRSurface9.GetSurface
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRSurface9::GetSurface

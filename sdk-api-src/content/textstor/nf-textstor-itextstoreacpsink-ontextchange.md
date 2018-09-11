@@ -4,17 +4,16 @@ title: ITextStoreACPSink::OnTextChange
 author: windows-sdk-content
 description: ITextStoreACPSink::OnTextChange method
 old-location: tsf\itextstoreacpsink_ontextchange.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: ed11ebb8-312b-40c7-90de-f5aa7591afd2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 0, ITextStoreACPSink interface [Text Services Framework],OnTextChange method, ITextStoreACPSink.OnTextChange, ITextStoreACPSink::OnTextChange, OnTextChange, OnTextChange method [Text Services Framework], OnTextChange method [Text Services Framework],ITextStoreACPSink interface, TS_ST_CORRECTION, _tsf_itextstoreacpsink_ontextchange_ref, textstor/ITextStoreACPSink::OnTextChange, tsf.itextstoreacpsink_ontextchange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACPSink.OnTextChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreACPSink::OnTextChange

@@ -4,17 +4,16 @@ title: IMarshalingStream
 author: windows-sdk-content
 description: Provides additional information about the marshaling context to custom-marshaled objects and unmarshalers.
 old-location: com\imarshalingstream.htm
-old-project: com
+tech.root: com
 ms.assetid: 7C4A3982-3623-4F1F-929C-6D0503700450
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMarshalingStream, IMarshalingStream interface [COM], IMarshalingStream interface [COM],described, com.imarshalingstream, objidl/IMarshalingStream
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMarshalingStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMarshalingStream interface

@@ -4,17 +4,16 @@ title: "_TIME_OF_DAY_INFO"
 author: windows-sdk-content
 description: The TIME_OF_DAY_INFO structure contains information about the time of day from a remote server.
 old-location: netmgmt\time_of_day_info_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: bf89f071-5c04-40c2-a7b7-4e59fc9eaa02
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPTIME_OF_DAY_INFO, *PTIME_OF_DAY_INFO, LPTIME_OF_DAY_INFO, LPTIME_OF_DAY_INFO structure pointer [Network Management], PTIME_OF_DAY_INFO, PTIME_OF_DAY_INFO structure pointer [Network Management], TIME_OF_DAY_INFO, TIME_OF_DAY_INFO structure [Network Management], _TIME_OF_DAY_INFO, _win32_time_of_day_info_str, lmremutl/LPTIME_OF_DAY_INFO, lmremutl/PTIME_OF_DAY_INFO, lmremutl/TIME_OF_DAY_INFO, netmgmt.time_of_day_info_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmremutl.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TIME_OF_DAY_INFO, *PTIME_OF_DAY_INFO, *LPTIME_OF_DAY_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TIME_OF_DAY_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TIME_OF_DAY_INFO, *PTIME_OF_DAY_INFO, *LPTIME_OF_DAY_INFO
+req.redist: 
 ---
 
 # _TIME_OF_DAY_INFO structure

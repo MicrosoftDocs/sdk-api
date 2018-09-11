@@ -4,17 +4,16 @@ title: "_CMSG_KEY_TRANS_ENCRYPT_INFO"
 author: windows-sdk-content
 description: Contains encryption information for a key transport recipient of enveloped data.
 old-location: security\cmsg_key_trans_encrypt_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: f3122acb-92c8-4803-8c74-8b3a2cf2e16e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCMSG_KEY_TRANS_ENCRYPT_INFO, CMSG_KEY_TRANS_ENCRYPT_FREE_OBJID_FLAG, CMSG_KEY_TRANS_ENCRYPT_FREE_PARA_FLAG, CMSG_KEY_TRANS_ENCRYPT_INFO, CMSG_KEY_TRANS_ENCRYPT_INFO structure [Security], PCMSG_KEY_TRANS_ENCRYPT_INFO, PCMSG_KEY_TRANS_ENCRYPT_INFO structure pointer [Security], _CMSG_KEY_TRANS_ENCRYPT_INFO, security.cmsg_key_trans_encrypt_info, wincrypt/CMSG_KEY_TRANS_ENCRYPT_INFO, wincrypt/PCMSG_KEY_TRANS_ENCRYPT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_KEY_TRANS_ENCRYPT_INFO, *PCMSG_KEY_TRANS_ENCRYPT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_KEY_TRANS_ENCRYPT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_KEY_TRANS_ENCRYPT_INFO, *PCMSG_KEY_TRANS_ENCRYPT_INFO
+req.redist: 
 ---
 
 # _CMSG_KEY_TRANS_ENCRYPT_INFO structure

@@ -4,17 +4,16 @@ title: IWTSProtocolConnection::AuthenticateClientToSession
 author: windows-sdk-content
 description: IWTSProtocolConnection::AuthenticateClientToSession is no longer available. Instead, use IWRdsProtocolConnection::AuthenticateClientToSession.
 old-location: termserv\iwtsprotocolconnection_authenticateclienttosession.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 541bf463-9a4a-4237-8a61-1288ab1540cc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AuthenticateClientToSession, AuthenticateClientToSession method [Remote Desktop Services], AuthenticateClientToSession method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],AuthenticateClientToSession method, IWTSProtocolConnection.AuthenticateClientToSession, IWTSProtocolConnection::AuthenticateClientToSession, termserv.iwtsprotocolconnection_authenticateclienttosession, wtsprotocol/IWTSProtocolConnection::AuthenticateClientToSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSProtocolConnection.AuthenticateClientToSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSProtocolConnection::AuthenticateClientToSession

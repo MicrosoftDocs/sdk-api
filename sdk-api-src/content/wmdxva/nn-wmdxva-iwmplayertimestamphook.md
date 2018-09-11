@@ -4,7 +4,7 @@ title: IWMPlayerTimestampHook
 author: windows-sdk-content
 description: The IWMPlayerTimestampHook interface is implemented on a player's source filter.
 old-location: wmformat\iwmplayertimestamphook.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 8a1b3b1f-1c9c-429f-958e-757b383c7e2a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmdxva.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_INDEX_IDENTIFIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPlayerTimestampHook
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPlayerTimestampHook interface

@@ -4,17 +4,16 @@ title: IUpdate::get_DeploymentAction
 author: windows-sdk-content
 description: Gets the action for which the update is deployed.
 old-location: wua\iupdate_deploymentaction.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 52bdde0e-6b00-4bc9-8ad6-8bae5b01b7f3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DeploymentAction property [Windows Update Agent], DeploymentAction property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DeploymentAction property, IUpdate.DeploymentAction, IUpdate.get_DeploymentAction, IUpdate::DeploymentAction, IUpdate::get_DeploymentAction, get_DeploymentAction, wua.iupdate_deploymentaction, wuapi/IUpdate::DeploymentAction, wuapi/IUpdate::get_DeploymentAction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUpdate.get_DeploymentAction
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdate::get_DeploymentAction

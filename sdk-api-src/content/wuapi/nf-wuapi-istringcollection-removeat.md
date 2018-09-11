@@ -4,17 +4,16 @@ title: IStringCollection::RemoveAt
 author: windows-sdk-content
 description: Removes the item at the specified index from the collection.
 old-location: wua\istringcollection_removeat.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: a0b350b0-d5b4-49c6-acca-a50719d92262
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],RemoveAt method, IStringCollection.RemoveAt, IStringCollection::RemoveAt, RemoveAt, RemoveAt method [Windows Update Agent], RemoveAt method [Windows Update Agent],IStringCollection interface, wua.istringcollection_removeat, wuapi/IStringCollection::RemoveAt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStringCollection.RemoveAt
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IStringCollection::RemoveAt

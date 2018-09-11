@@ -4,17 +4,16 @@ title: CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
 author: windows-sdk-content
 description: Provides customization options for a single field in a logon or credential UI.
 old-location: shell\CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6E8623D0-7FC3-4ccb-B17A-CB12A0508F15
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CPCFO_ENABLE_TOUCH_KEYBOARD_AUTO_INVOKE, CPCFO_NUMBERS_ONLY, CPCFPO_ENABLE_PASSWORD_REVEAL, CPCFPO_IS_EMAIL_ADDRESS, CPCFPO_NONE, CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS, CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS enumeration [Windows Shell], credentialprovider/CPCFO_ENABLE_TOUCH_KEYBOARD_AUTO_INVOKE, credentialprovider/CPCFO_NUMBERS_ONLY, credentialprovider/CPCFPO_ENABLE_PASSWORD_REVEAL, credentialprovider/CPCFPO_IS_EMAIL_ADDRESS, credentialprovider/CPCFPO_NONE, credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS, shell.CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS, shell.CREDENTIAL_PROVIDER_USER_ENUM
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
+req.redist: 
 ---
 
 # CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS enumeration

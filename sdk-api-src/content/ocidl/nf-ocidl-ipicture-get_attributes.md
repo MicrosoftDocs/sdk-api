@@ -4,17 +4,16 @@ title: IPicture::get_Attributes
 author: windows-sdk-content
 description: Retrieves the current set of the picture's bit attributes.
 old-location: com\ipicture_get_attributes.htm
-old-project: com
+tech.root: com
 ms.assetid: ed71f0eb-3af4-463f-93e1-29d5dd1cc684
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPicture interface [COM],get_Attributes method, IPicture.get_Attributes, IPicture::get_Attributes, _ctrl_ipicture_get_attributes, com.ipicture_get_attributes, get_Attributes, get_Attributes method [COM], get_Attributes method [COM],IPicture interface, ocidl/IPicture::get_Attributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPicture.get_Attributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPicture::get_Attributes

@@ -4,7 +4,7 @@ title: "_LIST_ENTRY"
 author: windows-sdk-content
 description: A LIST_ENTRY structure describes an entry in a doubly linked list or serves as the header for such a list.
 old-location: kernel\list_entry.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f3c1867b-4d7e-4935-a902-b7cf54534655
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LIST_ENTRY, *PLIST_ENTRY, PRLIST_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LIST_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: Any level
-req.product: Rights Management Services client 1.0 or later
+req.typenames: LIST_ENTRY, *PLIST_ENTRY, PRLIST_ENTRY
+req.redist: 
 ---
 
 # _LIST_ENTRY structure

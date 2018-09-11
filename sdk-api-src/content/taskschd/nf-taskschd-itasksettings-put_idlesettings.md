@@ -4,17 +4,16 @@ title: ITaskSettings::put_IdleSettings
 author: windows-sdk-content
 description: Gets or sets the information that specifies how the Task Scheduler performs tasks when the computer is in an idle condition.
 old-location: taskschd\itasksettings_idlesettings.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: d3bec139-f395-4658-b8be-79b7281c4f93
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],IdleSettings property, ITaskSettings.IdleSettings, ITaskSettings.put_IdleSettings, ITaskSettings::IdleSettings, ITaskSettings::get_IdleSettings, ITaskSettings::put_IdleSettings, IdleSettings property [Task Scheduler], IdleSettings property [Task Scheduler],ITaskSettings interface, put_IdleSettings, taskschd.itasksettings_idlesettings, taskschd/ITaskSettings::IdleSettings, taskschd/ITaskSettings::get_IdleSettings, taskschd/ITaskSettings::put_IdleSettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITaskSettings.put_IdleSettings
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskSettings::put_IdleSettings

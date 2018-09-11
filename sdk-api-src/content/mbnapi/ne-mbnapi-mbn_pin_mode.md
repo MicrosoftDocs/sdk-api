@@ -4,17 +4,16 @@ title: MBN_PIN_MODE
 author: windows-sdk-content
 description: The MBN_PIN_MODE enumerated type indicates if the PIN type is enabled.
 old-location: mbn\mbn_pin_mode.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: ae5324f2-7a19-4887-b5df-20d51c64e063
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_PIN_MODE, MBN_PIN_MODE enumeration [Microsoft Broadband Networks], MBN_PIN_MODE_DISABLED, MBN_PIN_MODE_ENABLED, mbn.mbn_pin_mode, mbnapi/MBN_PIN_MODE, mbnapi/MBN_PIN_MODE_DISABLED, mbnapi/MBN_PIN_MODE_ENABLED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_PIN_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_PIN_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_PIN_MODE
+req.redist: 
 ---
 
 # MBN_PIN_MODE enumeration

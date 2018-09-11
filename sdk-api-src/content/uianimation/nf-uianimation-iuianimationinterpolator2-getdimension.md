@@ -4,17 +4,16 @@ title: IUIAnimationInterpolator2::GetDimension
 author: windows-sdk-content
 description: Gets the number of dimensions that require interpolation.
 old-location: uianimation\iuianimationinterpolator2_getdimension.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 66CA3AE5-4332-42CC-BD38-A5F19F0F3C89
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetDimension, GetDimension method [Windows Animation], GetDimension method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetDimension method, IUIAnimationInterpolator2.GetDimension, IUIAnimationInterpolator2::GetDimension, uianimation.iuianimationinterpolator2_getdimension, uianimation/IUIAnimationInterpolator2::GetDimension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationInterpolator2.GetDimension
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationInterpolator2::GetDimension

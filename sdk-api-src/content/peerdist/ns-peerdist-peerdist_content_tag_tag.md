@@ -4,7 +4,7 @@ title: peerdist_content_tag_tag
 author: windows-sdk-content
 description: PEERDIST_CONTENT_TAG structure contains a client supplied content tag as an input to the PeerDistClientOpenContent API.
 old-location: p2p\peerdist_content_tag.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 09eab22b-0534-44db-9954-ff5a9c5667f9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: peerdist.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEERDIST_CONTENT_TAG, *PPEERDIST_CONTENT_TAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEERDIST_CONTENT_TAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEERDIST_CONTENT_TAG, *PPEERDIST_CONTENT_TAG
+req.redist: 
 ---
 
 # peerdist_content_tag_tag structure

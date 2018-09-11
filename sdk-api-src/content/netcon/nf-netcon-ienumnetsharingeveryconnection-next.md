@@ -4,17 +4,16 @@ title: IEnumNetSharingEveryConnection::Next
 author: windows-sdk-content
 description: The Next method retrieves the specified number of connections from the Connections folder starting from the current enumeration position.
 old-location: ics\ienumnetsharingeveryconnection_next.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 05c1ec04-81bc-4d38-aab5-843ea54dda1d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Next method, IEnumNetSharingEveryConnection.Next, IEnumNetSharingEveryConnection::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_next, ics.ienumnetsharingeveryconnection_next, netcon/IEnumNetSharingEveryConnection::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumNetSharingEveryConnection.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumNetSharingEveryConnection::Next

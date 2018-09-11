@@ -4,17 +4,16 @@ title: ILocationReport::GetValue
 author: windows-sdk-content
 description: Retrieves a property value from the location report.
 old-location: winlocation_com_ref\ilocationreport_getvalue.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: a4bc1cc8-e246-4740-8290-afc8cd6def09
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetValue, GetValue method [WinLocation], GetValue method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetValue method, ILocationReport.GetValue, ILocationReport::GetValue, WinLocation_COM_Ref.ilocationreport_getvalue, locationapi/ILocationReport::GetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocationReport.GetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ILocationReport::GetValue

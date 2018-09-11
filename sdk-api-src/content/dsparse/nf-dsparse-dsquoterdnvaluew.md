@@ -4,17 +4,16 @@ title: DsQuoteRdnValueW function
 author: windows-sdk-content
 description: Converts an RDN into a quoted RDN value, if the RDN value contains characters that require quotes.
 old-location: ad\dsquoterdnvalue.htm
-old-project: ad
+tech.root: ad
 ms.assetid: a1e8a4c0-965a-4061-aab3-3e719ec6374d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsQuoteRdnValue, DsQuoteRdnValue function [Active Directory], DsQuoteRdnValueA, DsQuoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsquoterdnvalue, ad.dsquoterdnvalue, dsparse/DsQuoteRdnValue, dsparse/DsQuoteRdnValueA, dsparse/DsQuoteRdnValueW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_MANGLE_FOR
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsQuoteRdnValueW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DsQuoteRdnValueW function

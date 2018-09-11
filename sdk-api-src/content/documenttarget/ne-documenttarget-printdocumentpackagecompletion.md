@@ -4,7 +4,7 @@ title: PrintDocumentPackageCompletion
 author: windows-sdk-content
 description: The PrintDocumentPackageCompletion enumeration specifies the status of the print operation.
 old-location: xps\printdocumentpackagecompletion.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: E8E1F5D3-8CA2-406A-B969-7F5C6F13E064
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: documenttarget.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: DocObj.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrintDocumentPackageCompletion
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PrintDocumentPackageCompletion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: PrintDocumentPackageCompletion
+req.redist: 
 ---
 
 # PrintDocumentPackageCompletion enumeration

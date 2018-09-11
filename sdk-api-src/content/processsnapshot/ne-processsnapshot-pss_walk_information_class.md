@@ -4,7 +4,7 @@ title: PSS_WALK_INFORMATION_CLASS
 author: windows-sdk-content
 description: Specifies what information the PssWalkSnapshot function returns.
 old-location: proc_snap\pss_walk_information_class.htm
-old-project: proc_snap
+tech.root: proc_snap
 ms.assetid: 93A79F7F-2164-4F7A-ADE7-C1655EEFC9BF
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: processsnapshot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSS_WALK_INFORMATION_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSS_WALK_INFORMATION_CLASS
 product: Windows
 targetos: Windows
-req.lib: Prntvpt.lib
-req.dll: Prntvpt.dll
-req.irql: 
-req.product: ADAM
+req.typenames: PSS_WALK_INFORMATION_CLASS
+req.redist: 
 ---
 
 # PSS_WALK_INFORMATION_CLASS enumeration

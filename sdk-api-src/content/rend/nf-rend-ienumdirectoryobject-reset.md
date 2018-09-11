@@ -4,17 +4,16 @@ title: IEnumDirectoryObject::Reset
 author: windows-sdk-content
 description: The Reset method resets to the beginning of enumeration sequence.
 old-location: tapi3\ienumdirectoryobject_reset.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: fd3d338e-f980-4a87-ae51-b59a8744d029
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IEnumDirectoryObject interface [TAPI 2.2],Reset method, IEnumDirectoryObject.Reset, IEnumDirectoryObject::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumDirectoryObject interface, _tapi3_ienumdirectoryobject_reset, rend/IEnumDirectoryObject::Reset, tapi3.ienumdirectoryobject_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumDirectoryObject.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumDirectoryObject::Reset

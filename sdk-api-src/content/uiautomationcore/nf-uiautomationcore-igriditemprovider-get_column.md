@@ -4,17 +4,16 @@ title: IGridItemProvider::get_Column
 author: windows-sdk-content
 description: Specifies the ordinal number of the column that contains this cell or item.
 old-location: winauto\uiauto_IGridItemProvider_Column.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 51a53a29-70eb-4838-bb18-bfaca2cef467
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Column property [Windows Accessibility], Column property [Windows Accessibility],IGridItemProvider interface, IGridItemProvider interface [Windows Accessibility],Column property, IGridItemProvider.Column, IGridItemProvider.get_Column, IGridItemProvider::Column, IGridItemProvider::get_Column, get_Column, uiauto.uiauto_IGridItemProvider_Column, uiauto_IGridItemProvider_Column, uiautomationcore/IGridItemProvider::Column, uiautomationcore/IGridItemProvider::get_Column, winauto.uiauto_IGridItemProvider_Column
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGridItemProvider.get_Column
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IGridItemProvider::get_Column

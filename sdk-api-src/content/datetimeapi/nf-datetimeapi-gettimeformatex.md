@@ -4,17 +4,16 @@ title: GetTimeFormatEx function
 author: windows-sdk-content
 description: Formats time as a time string for a locale specified by name.
 old-location: intl\gettimeformatex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 4d63888e-4496-4315-ac87-bf60c54daa37
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetTimeFormatEx, GetTimeFormatEx function [Internationalization for Windows Applications], TIME_FORCE24HOURFORMAT, TIME_NOMINUTESORSECONDS, TIME_NOSECONDS, TIME_NOTIMEMARKER, _win32_GetTimeFormatEx, datetimeapi/GetTimeFormatEx, intl.gettimeformatex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: datetimeapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DX11_FFT_DESC
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - GetTimeFormatEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetTimeFormatEx function

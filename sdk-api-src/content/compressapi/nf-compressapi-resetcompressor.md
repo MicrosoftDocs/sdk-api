@@ -4,17 +4,16 @@ title: ResetCompressor function
 author: windows-sdk-content
 description: Prepares the compressor for the compression of a new stream.
 old-location: cmpapi\resetcompressor.htm
-old-project: cmpapi
+tech.root: cmpapi
 ms.assetid: 1ea542e0-7236-4158-9578-f5d55f8c7f8e
 ms.author: windowssdkdev
 ms.date: 07/23/2018
 ms.keywords: ResetCompressor, ResetCompressor function [Compression API], cmpapi.resetcompressor, compressapi/ResetCompressor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPRESS_INFORMATION_CLASS
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ResetCompressor
 product: Windows
 targetos: Windows
-req.lib: Cabinet.lib
-req.dll: Cabinet.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ResetCompressor function

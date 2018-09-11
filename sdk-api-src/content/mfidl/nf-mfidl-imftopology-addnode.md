@@ -4,17 +4,16 @@ title: IMFTopology::AddNode
 author: windows-sdk-content
 description: Adds a node to the topology.
 old-location: mf\imftopology_addnode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5e519524-f5c5-4d4d-922f-166f9e616631
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 5e519524-f5c5-4d4d-922f-166f9e616631, AddNode, AddNode method [Media Foundation], AddNode method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],AddNode method, IMFTopology.AddNode, IMFTopology::AddNode, mf.imftopology_addnode, mfidl/IMFTopology::AddNode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopology.AddNode
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopology::AddNode

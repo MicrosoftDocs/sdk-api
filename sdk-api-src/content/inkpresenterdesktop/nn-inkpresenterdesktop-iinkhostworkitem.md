@@ -4,7 +4,7 @@ title: IInkHostWorkItem
 author: windows-sdk-content
 description: An IInkHostWorkItem object represents an ink operation to be executed on an IInkDesktopHost object thread.
 old-location: input_ink\iinkhostworkitem.htm
-old-project: input_ink
+tech.root: input_ink
 ms.assetid: 812026bf-74d0-49c2-851c-de64a6417bff
 ms.author: windowssdkdev
 ms.date: 07/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: inkpresenterdesktop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInkHostWorkItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkHostWorkItem interface

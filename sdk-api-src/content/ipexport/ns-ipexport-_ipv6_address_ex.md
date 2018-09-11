@@ -4,7 +4,7 @@ title: "_IPV6_ADDRESS_EX"
 author: windows-sdk-content
 description: Stores an IPv6 address.
 old-location: iphlp\ipv6_address_ex.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 68c9e941-bbc4-4506-949d-efd16c15d5b9
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPV6_ADDRESS_EX, *PIPV6_ADDRESS_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPV6_ADDRESS_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPV6_ADDRESS_EX, *PIPV6_ADDRESS_EX
+req.redist: 
 ---
 
 # _IPV6_ADDRESS_EX structure

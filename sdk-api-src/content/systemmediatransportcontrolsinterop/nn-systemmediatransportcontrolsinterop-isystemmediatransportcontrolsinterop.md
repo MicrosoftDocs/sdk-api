@@ -4,7 +4,7 @@ title: ISystemMediaTransportControlsInterop
 author: windows-sdk-content
 description: Allows an app to get an instance of the ISystemMediaTransportControls interface.
 old-location: mediatransport\isystemmediatransportcontrolsinterop.htm
-old-project: mediatransport
+tech.root: mediatransport
 ms.assetid: 451A65AD-BF03-47F3-B2F1-30484A1B14F3
 ms.author: windowssdkdev
 ms.date: 06/05/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: systemmediatransportcontrolsinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_INFO, *LPSYSTEM_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISystemMediaTransportControlsInterop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISystemMediaTransportControlsInterop interface

@@ -4,17 +4,16 @@ title: IBackgroundCopyJob2::GetReplyProgress
 author: windows-sdk-content
 description: Retrieves progress information related to the transfer of the reply data from an upload-reply job.
 old-location: bits\ibackgroundcopyjob2_getreplyprogress.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 76509b1a-fdfb-4236-8554-f63282bfc1b6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetReplyProgress, GetReplyProgress method [BITS], GetReplyProgress method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyProgress method, IBackgroundCopyJob2.GetReplyProgress, IBackgroundCopyJob2::GetReplyProgress, _drz_ibackgroundcopyjob2_getreplyprogress, bits.ibackgroundcopyjob2_getreplyprogress, bits1_5/IBackgroundCopyJob2::GetReplyProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits1_5.h
 req.include-header: Bits.h
-req.redist: BITS 1.5 on  Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_AUTH_SCHEME
+req.lib: Bits.lib
+req.dll: BitsPrx2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob2.GetReplyProgress
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx2.dll
-req.irql: 
+req.typenames: 
+req.redist: BITS 1.5 on  Windows XP
 ---
 
 # IBackgroundCopyJob2::GetReplyProgress

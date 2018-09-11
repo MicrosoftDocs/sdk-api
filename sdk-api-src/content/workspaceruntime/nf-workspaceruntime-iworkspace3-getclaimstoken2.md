@@ -4,17 +4,16 @@ title: IWorkspace3::GetClaimsToken2
 author: windows-sdk-content
 description: Retrieves a claims token.
 old-location: termserv\iworkspace3_getclaimstoken2.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: d615b999-0713-4d16-a89b-b5b208a76124
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetClaimsToken2, GetClaimsToken2 method [Remote Desktop Services], GetClaimsToken2 method [Remote Desktop Services],IWorkspace3 interface, IWorkspace3 interface [Remote Desktop Services],GetClaimsToken2 method, IWorkspace3.GetClaimsToken2, IWorkspace3::GetClaimsToken2, termserv.iworkspace3_getclaimstoken2, workspaceruntime/IWorkspace3::GetClaimsToken2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWorkspace3.GetClaimsToken2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspace3::GetClaimsToken2

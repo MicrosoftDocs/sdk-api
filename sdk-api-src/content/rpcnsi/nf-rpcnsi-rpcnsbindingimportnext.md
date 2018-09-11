@@ -4,17 +4,16 @@ title: RpcNsBindingImportNext function
 author: windows-sdk-content
 description: The RpcNsBindingImportNext function looks up an interface (and optionally an object from a name-service database) and returns a binding handle of a compatible server, if found.
 old-location: rpc\rpcnsbindingimportnext.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: c437cd19-0cf8-4fc9-b6fb-cb09cde9a82e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcNsBindingImportNext, RpcNsBindingImportNext function [RPC], _rpc_rpcnsbindingimportnext, rpc.rpcnsbindingimportnext, rpcnsi/RpcNsBindingImportNext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcNsBindingImportNext
 product: Windows
 targetos: Windows
-req.lib: Rpcns4.lib
-req.dll: Rpcns4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsBindingImportNext function

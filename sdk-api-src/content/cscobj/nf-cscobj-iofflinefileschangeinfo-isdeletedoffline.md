@@ -4,17 +4,16 @@ title: IOfflineFilesChangeInfo::IsDeletedOffline
 author: windows-sdk-content
 description: Determines whether an item has been deleted from the Offline Files cache while working offline.
 old-location: of\iofflinefileschangeinfo_isdeletedoffline.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: c6a739f3-0c3d-46f1-8548-89be0660ef59
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsDeletedOffline method, IOfflineFilesChangeInfo.IsDeletedOffline, IOfflineFilesChangeInfo::IsDeletedOffline, IsDeletedOffline, IsDeletedOffline method [Offline Files], IsDeletedOffline method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsDeletedOffline, of.iofflinefileschangeinfo_isdeletedoffline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesChangeInfo.IsDeletedOffline
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesChangeInfo::IsDeletedOffline

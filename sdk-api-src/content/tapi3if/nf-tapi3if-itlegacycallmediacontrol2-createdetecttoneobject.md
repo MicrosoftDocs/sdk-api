@@ -4,17 +4,16 @@ title: ITLegacyCallMediaControl2::CreateDetectToneObject
 author: windows-sdk-content
 description: The CreateDetectToneObject method creates a detect tone object to use with the DetectTonesByCollection method.
 old-location: tapi3\itlegacycallmediacontrol2_createdetecttoneobject.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 3f00391f-b63f-4fa7-82af-44584fbcd8a3
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CreateDetectToneObject, CreateDetectToneObject method [TAPI 2.2], CreateDetectToneObject method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],CreateDetectToneObject method, ITLegacyCallMediaControl2.CreateDetectToneObject, ITLegacyCallMediaControl2::CreateDetectToneObject, _tapi3_itlegacycallmediacontrol2_createdetecttoneobject, tapi3.itlegacycallmediacontrol2_createdetecttoneobject, tapi3if/ITLegacyCallMediaControl2::CreateDetectToneObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITLegacyCallMediaControl2.CreateDetectToneObject
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITLegacyCallMediaControl2::CreateDetectToneObject

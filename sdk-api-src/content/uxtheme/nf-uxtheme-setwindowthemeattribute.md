@@ -4,17 +4,16 @@ title: SetWindowThemeAttribute function
 author: windows-sdk-content
 description: Sets attributes to control how visual styles are applied to a specified window.
 old-location: controls\SetWindowThemeAttribute.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowthemeattribute.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetWindowThemeAttribute, SetWindowThemeAttribute function [Windows Controls], WTA_NONCLIENT, controls.SetWindowThemeAttribute, controls.inet_SetWindowThemeAttribute, inet_SetWindowThemeAttribute, inet_SetWindowThemeAttribute_cpp, uxtheme/SetWindowThemeAttribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetWindowThemeAttribute
 product: Windows
 targetos: Windows
-req.lib: UxTheme.lib
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # SetWindowThemeAttribute function
@@ -69,7 +67,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Handle to a window to apply changes to.
 
 
-### -param param
+### -param arg1
 
 TBD
 

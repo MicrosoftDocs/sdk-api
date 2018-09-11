@@ -4,7 +4,7 @@ title: D2D1_INK_STYLE_PROPERTIES
 author: windows-sdk-content
 description: Defines the general pen tip shape and the transform used in an ID2D1InkStyle object.
 old-location: direct2d\d2d1_ink_style_properties.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 81B9E108-D0A6-4F7E-8BE9-76A570B1D050
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_INK_STYLE_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_INK_STYLE_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_INK_STYLE_PROPERTIES
+req.redist: 
 ---
 
 # D2D1_INK_STYLE_PROPERTIES structure

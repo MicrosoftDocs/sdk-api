@@ -4,17 +4,16 @@ title: tagServerInformation
 author: windows-sdk-content
 description: Represents the implementation of a Component Object Model (COM) interface in a server process.
 old-location: winrt\serverinformation.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 568246B8-48F7-4A83-B7DE-24F36B2C3F49
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PServerInformation, PServerInformation, PServerInformation structure pointer [Windows Runtime], ServerInformation, ServerInformation structure [Windows Runtime], combaseapi/PServerInformation, combaseapi/ServerInformation, tagServerInformation, winrt.serverinformation"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: combaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerInformation, *PServerInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ServerInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ServerInformation, *PServerInformation
+req.redist: 
 ---
 
 # tagServerInformation structure

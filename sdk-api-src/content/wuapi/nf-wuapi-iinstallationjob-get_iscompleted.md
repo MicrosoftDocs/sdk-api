@@ -4,17 +4,16 @@ title: IInstallationJob::get_IsCompleted
 author: windows-sdk-content
 description: Gets a value that indicates whether a call to the IUpdateInstaller.BeginInstall or IUpdateInstaller.BeginUninstall method is completely processed.
 old-location: wua\iinstallationjob_iscompleted.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 043e1f6a-993c-48be-9d91-7f99cd5712d4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IInstallationJob interface [Windows Update Agent],IsCompleted property, IInstallationJob.IsCompleted, IInstallationJob.get_IsCompleted, IInstallationJob::IsCompleted, IInstallationJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent],IInstallationJob interface, get_IsCompleted, wua.iinstallationjob_iscompleted, wuapi/IInstallationJob::IsCompleted, wuapi/IInstallationJob::get_IsCompleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInstallationJob.get_IsCompleted
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IInstallationJob::get_IsCompleted

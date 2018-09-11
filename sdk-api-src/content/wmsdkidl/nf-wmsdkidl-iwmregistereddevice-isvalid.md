@@ -4,17 +4,16 @@ title: IWMRegisteredDevice::IsValid
 author: windows-sdk-content
 description: The IsValid method retrieves the validation status of the device.
 old-location: wmformat\iwmregistereddevice_isvalid.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: ce09e6ad-10c0-4cdd-8dee-4faacd958f2b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsValid method, IWMRegisteredDevice.IsValid, IWMRegisteredDevice::IsValid, IWMRegisteredDeviceIsValid, IsValid, IsValid method [windows Media Format], IsValid method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_isvalid, wmsdkidl/IWMRegisteredDevice::IsValid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: WMStubDRM.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMRegisteredDevice.IsValid
 product: Windows
 targetos: Windows
-req.lib: WMStubDRM.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMRegisteredDevice::IsValid

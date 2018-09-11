@@ -4,17 +4,16 @@ title: IDsBrowseDomainTree::GetDomains
 author: windows-sdk-content
 description: The IDsBrowseDomainTree::GetDomains method retrieves the trust domains of the current computer. The current computer is set using the IDsBrowseDomainTree::SetComputer method.
 old-location: ad\idsbrowsedomaintree_getdomains.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 42cd38c2-7470-49b5-9b64-d971f2a915c6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DBDTF_RETURNEXTERNAL, DBDTF_RETURNFQDN, DBDTF_RETURNINBOUND, DBDTF_RETURNINOUTBOUND, DBDTF_RETURNMIXEDDOMAINS, GetDomains, GetDomains method [Active Directory], GetDomains method [Active Directory],IDsBrowseDomainTree interface, IDsBrowseDomainTree interface [Active Directory],GetDomains method, IDsBrowseDomainTree.GetDomains, IDsBrowseDomainTree::GetDomains, _glines_idsbrowsedomaintree_getdomains, ad.idsbrowsedomaintree__getdomains, ad.idsbrowsedomaintree_getdomains, dsclient/IDsBrowseDomainTree::GetDomains
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: Dsadmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsBrowseDomainTree.GetDomains
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dsadmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsBrowseDomainTree::GetDomains

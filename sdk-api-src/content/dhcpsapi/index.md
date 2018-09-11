@@ -2,7 +2,7 @@
 UID: NA:dhcpsapi
 ms.assetid: d267af05-aa29-38b4-af7e-fb8a8b4524c3
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

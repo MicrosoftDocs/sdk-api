@@ -4,17 +4,16 @@ title: IFsrmFileScreen::get_MatchesSourceTemplate
 author: windows-sdk-content
 description: Retrieves a value that determines whether the property values of this file screen object match those values of the template from which the object was derived.
 old-location: fsrm\ifsrmfilescreen_matchessourcetemplate.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 9ea79d7e-2f81-46c4-8afe-ebe4e2f3c49f
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],MatchesSourceTemplate property, IFsrmFileScreen.MatchesSourceTemplate, IFsrmFileScreen.get_MatchesSourceTemplate, IFsrmFileScreen::MatchesSourceTemplate, IFsrmFileScreen::get_MatchesSourceTemplate, MatchesSourceTemplate property [File Server Resource Manager], MatchesSourceTemplate property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_matchessourcetemplate, fsrm.ifsrmfilescreen_matchessourcetemplate, fsrmscreen/IFsrmFileScreen::MatchesSourceTemplate, fsrmscreen/IFsrmFileScreen::get_MatchesSourceTemplate, get_MatchesSourceTemplate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmFileScreen.get_MatchesSourceTemplate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreen::get_MatchesSourceTemplate

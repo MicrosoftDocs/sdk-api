@@ -4,17 +4,16 @@ title: IFindSimilarResults::GetSize
 author: windows-sdk-content
 description: Retrieves the number of entries in the file list that was returned by the ISimilarity::FindSimilarFileId method.
 old-location: rdc\ifindsimilarresults_getsize.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: c59a6fb0-e81f-4b7d-b0e6-9a5c9730fa9d
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetSize, GetSize method [Remote Differential Compression], GetSize method [Remote Differential Compression],IFindSimilarResults interface, IFindSimilarResults interface [Remote Differential Compression],GetSize method, IFindSimilarResults.GetSize, IFindSimilarResults::GetSize, fs.ifindsimilarresults_getsize, msrdc/IFindSimilarResults::GetSize, rdc.ifindsimilarresults_getsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFindSimilarResults.GetSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFindSimilarResults::GetSize

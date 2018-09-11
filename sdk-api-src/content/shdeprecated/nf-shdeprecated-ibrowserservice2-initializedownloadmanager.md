@@ -4,17 +4,16 @@ title: IBrowserService2::InitializeDownloadManager
 author: windows-sdk-content
 description: Deprecated. Enables the download manager in the base class.
 old-location: shell\IBrowserService2_InitializeDownloadManager.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b217d5cd-c9db-4d35-96de-25e1ec22670a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],InitializeDownloadManager method, IBrowserService2.InitializeDownloadManager, IBrowserService2::InitializeDownloadManager, InitializeDownloadManager, InitializeDownloadManager method [Windows Shell], InitializeDownloadManager method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeDownloadManager, shell.IBrowserService2_InitializeDownloadManager, zone_IBrowserService2_InitializeDownloadManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2.InitializeDownloadManager
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

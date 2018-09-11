@@ -4,17 +4,16 @@ title: "_CLAIM_SECURITY_ATTRIBUTE_V1"
 author: windows-sdk-content
 description: Defines a security attribute that can be associated with a token or authorization context.
 old-location: security\claim_security_attribute_v1.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: FDBB9B00-01C3-474A-81FF-97C5CBA3261B
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTE_V1, CLAIM_SECURITY_ATTRIBUTE_DISABLED, CLAIM_SECURITY_ATTRIBUTE_DISABLED_BY_DEFAULT, CLAIM_SECURITY_ATTRIBUTE_MANDATORY, CLAIM_SECURITY_ATTRIBUTE_NON_INHERITABLE, CLAIM_SECURITY_ATTRIBUTE_TYPE_BOOLEAN, CLAIM_SECURITY_ATTRIBUTE_TYPE_FQBN, CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64, CLAIM_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_SID, CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64, CLAIM_SECURITY_ATTRIBUTE_USE_FOR_DENY_ONLY, CLAIM_SECURITY_ATTRIBUTE_V1, CLAIM_SECURITY_ATTRIBUTE_V1 structure [Security], CLAIM_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE, PCLAIM_SECURITY_ATTRIBUTE_V1, PCLAIM_SECURITY_ATTRIBUTE_V1 structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_V1, security.claim_security_attribute_v1, winnt/CLAIM_SECURITY_ATTRIBUTE_V1, winnt/PCLAIM_SECURITY_ATTRIBUTE_V1"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLAIM_SECURITY_ATTRIBUTE_V1, *PCLAIM_SECURITY_ATTRIBUTE_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLAIM_SECURITY_ATTRIBUTE_V1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CLAIM_SECURITY_ATTRIBUTE_V1, *PCLAIM_SECURITY_ATTRIBUTE_V1
+req.redist: 
 ---
 
 # _CLAIM_SECURITY_ATTRIBUTE_V1 structure

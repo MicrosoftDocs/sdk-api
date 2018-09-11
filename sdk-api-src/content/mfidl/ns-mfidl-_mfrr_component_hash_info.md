@@ -4,7 +4,7 @@ title: "_MFRR_COMPONENT_HASH_INFO"
 author: windows-sdk-content
 description: Contains information about a revoked component.
 old-location: mf\mfrr_component_hash_info.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e23bc68c-b62e-4483-b2a7-a7de7376697f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFRR_COMPONENT_HASH_INFO, *PMFRR_COMPONENT_HASH_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFRR_COMPONENT_HASH_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFRR_COMPONENT_HASH_INFO, *PMFRR_COMPONENT_HASH_INFO
+req.redist: 
 ---
 
 # _MFRR_COMPONENT_HASH_INFO structure

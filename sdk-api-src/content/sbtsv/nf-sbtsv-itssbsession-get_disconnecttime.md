@@ -4,17 +4,16 @@ title: ITsSbSession::get_DisconnectTime
 author: windows-sdk-content
 description: Retrieves or specifies the time the session was disconnected.
 old-location: termserv\itssbsession_disconnecttime.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: e4bbb6e5-5fe2-4aa8-8a14-40fb2a4251e2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DisconnectTime property [Remote Desktop Services], DisconnectTime property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],DisconnectTime property, ITsSbSession.DisconnectTime, ITsSbSession.get_DisconnectTime, ITsSbSession::DisconnectTime, ITsSbSession::get_DisconnectTime, ITsSbSession::put_DisconnectTime, get_DisconnectTime, sbtsv/ITsSbSession::DisconnectTime, sbtsv/ITsSbSession::get_DisconnectTime, sbtsv/ITsSbSession::put_DisconnectTime, termserv.itssbsession_disconnecttime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITsSbSession.put_DisconnectTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbSession::get_DisconnectTime

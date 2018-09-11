@@ -4,7 +4,7 @@ title: "_TXFS_GET_METADATA_INFO_OUT"
 author: windows-sdk-content
 description: Contains the version information about the miniversion that is created.
 old-location: fs\txfs_get_metadata_info_out.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 138fbd75-9d2e-4969-84a7-3cebde683d93
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TXFS_GET_METADATA_INFO_OUT, *PTXFS_GET_METADATA_INFO_OUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TXFS_GET_METADATA_INFO_OUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: TXFS_GET_METADATA_INFO_OUT, *PTXFS_GET_METADATA_INFO_OUT
+req.redist: 
 ---
 
 # _TXFS_GET_METADATA_INFO_OUT structure

@@ -4,17 +4,16 @@ title: MSChapSrvChangePassword2 function
 author: windows-sdk-content
 description: The MSChapSrvChangePassword2 function changes the password of a user account while supporting mutual encryption.
 old-location: mschap\mschapsrvchangepassword2.htm
-old-project: mschap
+tech.root: mschap
 ms.assetid: 91ea4b98-79e4-4764-a580-a622d1491943
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: MSChapSrvChangePassword2, MSChapSrvChangePassword2 function [MS-CHAP], _mschap_mschapsrvchangepassword2, mschap.mschapsrvchangepassword2, mschapp/MSChapSrvChangePassword2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mschapp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTCATSTORE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSChapSrvChangePassword2
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MSChapSrvChangePassword2 function

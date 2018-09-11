@@ -4,17 +4,16 @@ title: IEnumNetworkConnections::get__NewEnum
 author: windows-sdk-content
 description: The get_NewEnum property returns an automation enumerator object that you can use to iterate through the IEnumNetworkConnections collection.
 old-location: nla\ienumnetworkconnections_get__newenum.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 38b3a58e-6ed1-488e-b5b8-50043adae8cc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumNetworkConnections interface [Network Awareness],get__NewEnum method, IEnumNetworkConnections.get__NewEnum, IEnumNetworkConnections::get__NewEnum, get__NewEnum, get__NewEnum method [Network Awareness], get__NewEnum method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::get__NewEnum, nla.ienumnetworkconnections_get__newenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumNetworkConnections.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumNetworkConnections::get__NewEnum

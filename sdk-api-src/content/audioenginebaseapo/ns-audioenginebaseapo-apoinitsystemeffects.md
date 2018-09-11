@@ -4,7 +4,7 @@ title: APOInitSystemEffects
 author: windows-sdk-content
 description: The APOInitSystemEffects structure gets passed to the system effects APO for initialization.
 old-location: audio\apoinitsystemeffects.htm
-old-project: audio
+tech.root: audio
 ms.assetid: E33B1F94-4E3A-4EC1-AFB5-FD803FA391BC
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioenginebaseapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APOInitSystemEffects
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APOInitSystemEffects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: All levels.
+req.typenames: APOInitSystemEffects
+req.redist: 
 ---
 
 # APOInitSystemEffects structure

@@ -4,17 +4,16 @@ title: IFunctionDiscoveryProvider::Query
 author: windows-sdk-content
 description: Retrieves a collection of function instances that meet the specified constraints.
 old-location: ncd\ifunctiondiscoveryprovider_query_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 8c368ea7-c9db-4e80-a080-eef8068f7402
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFunctionDiscoveryProvider interface,Query method, IFunctionDiscoveryProvider.Query, IFunctionDiscoveryProvider::Query, Query, Query method, Query method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::Query, ncd.ifunctiondiscoveryprovider_query_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionDiscoveryProvider.Query
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionDiscoveryProvider::Query

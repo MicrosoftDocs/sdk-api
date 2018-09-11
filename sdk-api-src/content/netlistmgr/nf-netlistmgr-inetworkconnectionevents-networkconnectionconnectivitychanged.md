@@ -4,17 +4,16 @@ title: INetworkConnectionEvents::NetworkConnectionConnectivityChanged
 author: windows-sdk-content
 description: The NetworkConnectionConnectivityChanged method notifies a client when connectivity change events occur on a network connection level.
 old-location: nla\inetworkconnectionevents_networkconnectionconnectivitychanged.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 0b245a6e-918c-41de-b33e-87723491e900
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INetworkConnectionEvents interface [Network Awareness],NetworkConnectionConnectivityChanged method, INetworkConnectionEvents.NetworkConnectionConnectivityChanged, INetworkConnectionEvents::NetworkConnectionConnectivityChanged, NetworkConnectionConnectivityChanged, NetworkConnectionConnectivityChanged method [Network Awareness], NetworkConnectionConnectivityChanged method [Network Awareness],INetworkConnectionEvents interface, netlistmgr/INetworkConnectionEvents::NetworkConnectionConnectivityChanged, nla.inetworkconnectionevents_networkconnectionconnectivitychanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetworkConnectionEvents.NetworkConnectionConnectivityChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkConnectionEvents::NetworkConnectionConnectivityChanged
@@ -67,7 +65,7 @@ A GUID that identifies the network connection  on which the event occurred.
 
 ### -param newConnectivity
 
-
+TBD
 
 
 

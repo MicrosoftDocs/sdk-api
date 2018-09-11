@@ -4,17 +4,16 @@ title: GetPointerTouchInfo function
 author: windows-sdk-content
 description: Gets the touch-based information for the specified pointer (of type PT_TOUCH) associated with the current message.
 old-location: inputmsg\getpointertouchinfo.htm
-old-project: InputMsg
+tech.root: InputMsg
 ms.assetid: 97d93754-fc7e-4400-a6ee-6bab53e421cf
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetPointerTouchInfo, GetPointerTouchInfo function [Input Messages and Notifications], inputmsg.getpointertouchinfo, winuser/GetPointerTouchInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetPointerTouchInfo
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetPointerTouchInfo function

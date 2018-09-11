@@ -4,7 +4,7 @@ title: "_MIB_TCPROW_OWNER_MODULE"
 author: windows-sdk-content
 description: Contains information that describes an IPv4 TCP connection with ownership data, IPv4 addresses, ports used by the TCP connection, and the specific process ID (PID) associated with connection.
 old-location: mib\mib_tcprow_owner_module.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 5fc1e95a-4ab1-4a15-aedc-47cfd811c035
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_TCPROW_OWNER_MODULE, *PMIB_TCPROW_OWNER_MODULE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_TCPROW_OWNER_MODULE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MIB_TCPROW_OWNER_MODULE, *PMIB_TCPROW_OWNER_MODULE
+req.redist: 
 ---
 
 # _MIB_TCPROW_OWNER_MODULE structure

@@ -4,17 +4,16 @@ title: ID3D11Device::CreateDomainShader
 author: windows-sdk-content
 description: Create a domain shader.
 old-location: direct3d11\id3d11device_createdomainshader.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 414525a8-55ad-4d37-a302-5c30909588f1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 8c230b52-7c67-4576-98d9-238d464c9620, CreateDomainShader, CreateDomainShader method [Direct3D 11], CreateDomainShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateDomainShader method, ID3D11Device.CreateDomainShader, ID3D11Device::CreateDomainShader, d3d11/ID3D11Device::CreateDomainShader, direct3d11.id3d11device_createdomainshader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device.CreateDomainShader
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device::CreateDomainShader

@@ -4,7 +4,7 @@ title: "_STORAGE_DEVICE_POWER_CAP_UNITS"
 author: windows-sdk-content
 description: The units of the maximum power threshold.
 old-location: fs\storage_device_power_cap_units.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: A6C48765-9A18-4F77-8B0F-9653CE6FDE23
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_DEVICE_POWER_CAP_UNITS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS
+req.redist: 
 ---
 
 # _STORAGE_DEVICE_POWER_CAP_UNITS enumeration

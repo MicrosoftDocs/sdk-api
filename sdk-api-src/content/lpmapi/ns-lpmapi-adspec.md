@@ -4,17 +4,16 @@ title: ADSPEC
 author: windows-sdk-content
 description: The ADSPEC structure contains Adspec message information for RSVP.
 old-location: qos\adspec.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: c5be3864-0f21-4fa5-99f8-dee9ad2b7286
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ADSPEC, ADSPEC structure [QOS], lpmapi/ADSPEC, qos.adspec
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADSPEC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADSPEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADSPEC
+req.redist: 
 ---
 
 # ADSPEC structure

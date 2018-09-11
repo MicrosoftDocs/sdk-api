@@ -4,17 +4,16 @@ title: ITfCompartmentEventSink::OnChange
 author: windows-sdk-content
 description: ITfCompartmentEventSink::OnChange method
 old-location: tsf\itfcompartmenteventsink_onchange.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 1756754c-6353-4296-bdb5-1cbef1d29ec5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfCompartmentEventSink interface [Text Services Framework],OnChange method, ITfCompartmentEventSink.OnChange, ITfCompartmentEventSink::OnChange, OnChange, OnChange method [Text Services Framework], OnChange method [Text Services Framework],ITfCompartmentEventSink interface, _tsf_itfcompartmenteventsink_onchange_ref, msctf/ITfCompartmentEventSink::OnChange, tsf.itfcompartmenteventsink_onchange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfCompartmentEventSink.OnChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfCompartmentEventSink::OnChange

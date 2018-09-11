@@ -4,17 +4,16 @@ title: IUPnPDevice::get_UPC
 author: windows-sdk-content
 description: The UPC property specifies a human-readable form of the product code.
 old-location: upnp\iupnpdevice_upc.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 33349885-96da-47ef-9b09-83c2c332b509
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_UPC method, IUPnPDevice.get_UPC, IUPnPDevice::get_UPC, _upnp_iupnpdevice_upc, get_UPC, get_UPC method [UPnP APIs], get_UPC method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_upc, upnp/IUPnPDevice::get_UPC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDevice.get_UPC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevice::get_UPC

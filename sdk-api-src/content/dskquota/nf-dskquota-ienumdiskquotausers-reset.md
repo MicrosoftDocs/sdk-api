@@ -4,17 +4,16 @@ title: IEnumDiskQuotaUsers::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning of the set of user quota entries.
 old-location: fs\ienumdiskquotausers_reset.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: c19d4cbe-e83f-4a2d-9eb1-77f32717f69e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumDiskQuotaUsers interface [Files],Reset method, IEnumDiskQuotaUsers.Reset, IEnumDiskQuotaUsers::Reset, Reset, Reset method [Files], Reset method [Files],IEnumDiskQuotaUsers interface, _win32_ienumdiskquotausers_reset, base.ienumdiskquotausers_reset, dskquota/IEnumDiskQuotaUsers::Reset, fs.ienumdiskquotausers_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumDiskQuotaUsers.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumDiskQuotaUsers::Reset

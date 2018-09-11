@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxOutgoingJob.get_AvailableOperations
 title: IFaxOutgoingJob::get_AvailableOperations
 author: windows-sdk-content
-description: The AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.
-old-location: fax\_mfax_faxoutgoingjob_availableoperations_vb.htm
-old-project: Fax
+description: The IFaxOutgoingJob::get_AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.
+old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_availableoperations_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9rsj.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],FaxOutgoingJob object, FaxOutgoingJob object [Fax Service],AvailableOperations property, FaxOutgoingJob.AvailableOperations, IFaxOutgoingJob.get_AvailableOperations, IFaxOutgoingJob::get_AvailableOperations, _mfax_faxoutgoingjob.availableoperations, fax._mfax_faxoutgoingjob_availableoperations, fax._mfax_faxoutgoingjob_availableoperations_vb, get_AvailableOperations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],AvailableOperations property, IFaxOutgoingJob.AvailableOperations, IFaxOutgoingJob.get_AvailableOperations, IFaxOutgoingJob::AvailableOperations, IFaxOutgoingJob::get_AvailableOperations, _mfax_faxoutgoingjob.availableoperations, fax._mfax_faxoutgoingjob_availableoperations, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_availableoperations_cpp, faxcomex/IFaxOutgoingJob::AvailableOperations, faxcomex/IFaxOutgoingJob::get_AvailableOperations, get_AvailableOperations
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutgoingJob.AvailableOperations
+ - IFaxOutgoingJob.AvailableOperations
+ - IFaxOutgoingJob.get_AvailableOperations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutgoingJob::get_AvailableOperations
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>AvailableOperations</b> property indicates the combination of valid operations that you can perform on the fax job, given its current status.
+The <b>IFaxOutgoingJob::get_AvailableOperations</b> property indicates the combination of valid operations that you can perform on the fax job, given its current status.
 
 This property is read-only.
 

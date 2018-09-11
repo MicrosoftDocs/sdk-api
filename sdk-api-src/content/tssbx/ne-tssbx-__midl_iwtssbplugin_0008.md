@@ -4,7 +4,7 @@ title: "__MIDL_IWTSSBPlugin_0008"
 author: windows-sdk-content
 description: Contains values that indicate the connection state of a user session.
 old-location: termserv\wtssbx_session_state.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: d31118c5-56a3-4792-83fd-fdd3cd7a79ea
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tssbx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_SESSION_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTSSBX_SESSION_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: WTSSBX_SESSION_STATE
+req.redist: 
 ---
 
 # __MIDL_IWTSSBPlugin_0008 enumeration

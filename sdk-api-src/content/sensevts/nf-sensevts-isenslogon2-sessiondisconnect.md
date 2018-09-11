@@ -4,17 +4,16 @@ title: ISensLogon2::SessionDisconnect
 author: windows-sdk-content
 description: The SessionDisconnect method is used to disconnect from a Fast User Switching session or a Remote Desktop Connection. This is different from logging off from a session, because when you use this method the session is disconnected.
 old-location: sens\isenslogon2_sessiondisconnect.htm
-old-project: sens
+tech.root: Sens
 ms.assetid: afa56cb1-7c52-48db-ac7c-237cb49cc97f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISensLogon2 interface [SENS],SessionDisconnect method, ISensLogon2.SessionDisconnect, ISensLogon2::SessionDisconnect, SessionDisconnect, SessionDisconnect method [SENS], SessionDisconnect method [SENS],ISensLogon2 interface, _zaw_isenslogon2_sessiondisconnect, sens.isenslogon2_sessiondisconnect, sensevts/ISensLogon2::SessionDisconnect, syncmgr.isenslogon2_sessiondisconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensLogon2.SessionDisconnect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sens.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensLogon2::SessionDisconnect

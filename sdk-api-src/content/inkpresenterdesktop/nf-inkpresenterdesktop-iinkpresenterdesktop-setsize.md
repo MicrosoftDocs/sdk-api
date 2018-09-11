@@ -4,17 +4,16 @@ title: IInkPresenterDesktop::SetSize
 author: windows-sdk-content
 description: Sets the size of the InkPresenter object.
 old-location: input_ink\iinkpresenterdesktop_setsize.htm
-old-project: input_ink
+tech.root: input_ink
 ms.assetid: ba2576e5-8039-475b-acd8-1e7336a779e7
 ms.author: windowssdkdev
 ms.date: 07/16/2018
 ms.keywords: IInkPresenterDesktop interface,SetSize method, IInkPresenterDesktop.SetSize, IInkPresenterDesktop::SetSize, InkPresenterDesktop.iinkpresenterdesktop_setsize, SetSize, SetSize method, SetSize method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetSize, input_ink.iinkpresenterdesktop_setsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inkpresenterdesktop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInkPresenterDesktop.SetSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPresenterDesktop::SetSize

@@ -4,17 +4,16 @@ title: "_LSA_TOKEN_INFORMATION_TYPE"
 author: windows-sdk-content
 description: Specifies the levels of information that can be included in a logon token.
 old-location: security\lsa_token_information_type.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: c8bf5b8d-6cb1-469d-a451-6cceafda24cf
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PLSA_TOKEN_INFORMATION_TYPE, LSA_TOKEN_INFORMATION_TYPE, LSA_TOKEN_INFORMATION_TYPE enumeration [Security], LsaTokenInformationNull, LsaTokenInformationV1, PLSA_TOKEN_INFORMATION_TYPE, PLSA_TOKEN_INFORMATION_TYPE enumeration pointer [Security], _LSA_TOKEN_INFORMATION_TYPE, _lsa_lsa_token_information_type, ntsecpkg/LSA_TOKEN_INFORMATION_TYPE, ntsecpkg/LsaTokenInformationNull, ntsecpkg/LsaTokenInformationV1, ntsecpkg/PLSA_TOKEN_INFORMATION_TYPE, security.lsa_token_information_type"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_TOKEN_INFORMATION_TYPE, *PLSA_TOKEN_INFORMATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_TOKEN_INFORMATION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: LSA_TOKEN_INFORMATION_TYPE, *PLSA_TOKEN_INFORMATION_TYPE
+req.redist: 
 ---
 
 # _LSA_TOKEN_INFORMATION_TYPE enumeration

@@ -4,17 +4,16 @@ title: CloseCompressor function
 author: windows-sdk-content
 description: Call to close an open COMPRESSOR_HANDLE.
 old-location: cmpapi\closecompressor.htm
-old-project: cmpapi
+tech.root: cmpapi
 ms.assetid: 098cf0b9-cd42-4a40-b30f-d7364d067e41
 ms.author: windowssdkdev
 ms.date: 07/23/2018
 ms.keywords: CloseCompressor, CloseCompressor function [Compression API], cmpapi.closecompressor, compressapi/CloseCompressor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPRESS_INFORMATION_CLASS
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CloseCompressor
 product: Windows
 targetos: Windows
-req.lib: Cabinet.lib
-req.dll: Cabinet.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CloseCompressor function

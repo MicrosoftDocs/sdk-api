@@ -4,7 +4,7 @@ title: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1_
 author: windows-sdk-content
 description: Stores aggregate IPsec kernel packet drop statistics.
 old-location: fwp\ipsec_aggregate_drop_packet_statistics1_struct.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 8ee7150e-ac6e-4f8e-99af-1b92b4e54615
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1
+req.redist: 
 ---
 
 # IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1_ structure

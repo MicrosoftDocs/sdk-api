@@ -4,17 +4,16 @@ title: ITfThreadMgrEx::ActivateEx
 author: windows-sdk-content
 description: The ITfThreadMgrEx::ActivateEx method is used by an application to initialize and activate TSF for the calling thread. Unlike ITfThreadMgr::Activate, ITfThreadMgrEx::ActivateEx can take a flag to specify how TSF is activated.
 old-location: tsf\itfthreadmgrex_activateex.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: a3cecc02-5228-4912-a609-f9f3334e11b7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ActivateEx, ActivateEx method [Text Services Framework], ActivateEx method [Text Services Framework],ITfThreadMgrEx interface, ITfThreadMgrEx interface [Text Services Framework],ActivateEx method, ITfThreadMgrEx.ActivateEx, ITfThreadMgrEx::ActivateEx, TF_TMAE_COMLESS, TF_TMAE_NOACTIVATEKEYBOARDLAYOUT, TF_TMAE_NOACTIVATETIP, TF_TMAE_SECUREMODE, TF_TMAE_UIELEMENTENABLEDONLY, msctf/ITfThreadMgrEx::ActivateEx, tsf.itfthreadmgrex_activateex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfThreadMgrEx.ActivateEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfThreadMgrEx::ActivateEx

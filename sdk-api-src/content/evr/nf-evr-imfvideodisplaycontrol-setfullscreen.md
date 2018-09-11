@@ -4,17 +4,16 @@ title: IMFVideoDisplayControl::SetFullscreen
 author: windows-sdk-content
 description: Sets or unsets full-screen rendering mode.
 old-location: mf\imfvideodisplaycontrol_setfullscreen.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 95c85fb2-9267-477f-aa47-1c050ccc1bdd
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 95c85fb2-9267-477f-aa47-1c050ccc1bdd, IMFVideoDisplayControl interface [Media Foundation],SetFullscreen method, IMFVideoDisplayControl.SetFullscreen, IMFVideoDisplayControl::SetFullscreen, SetFullscreen, SetFullscreen method [Media Foundation], SetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetFullscreen, mf.imfvideodisplaycontrol_setfullscreen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoDisplayControl.SetFullscreen
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoDisplayControl::SetFullscreen

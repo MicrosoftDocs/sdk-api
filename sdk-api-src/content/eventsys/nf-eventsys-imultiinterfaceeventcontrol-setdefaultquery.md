@@ -4,17 +4,16 @@ title: IMultiInterfaceEventControl::SetDefaultQuery
 author: windows-sdk-content
 description: Establishes a default query to be used when a publisher filter is not associated with an event method.
 old-location: cos\imultiinterfaceeventcontrol_setdefaultquery.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 31d544d4-8cac-46ae-9db7-c5b366ac6b2f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMultiInterfaceEventControl interface [COM+],SetDefaultQuery method, IMultiInterfaceEventControl.SetDefaultQuery, IMultiInterfaceEventControl::SetDefaultQuery, SetDefaultQuery, SetDefaultQuery method [COM+], SetDefaultQuery method [COM+],IMultiInterfaceEventControl interface, _cos_IMultiInterfaceEventControl_SetDefaultQuery, cos.imultiinterfaceeventcontrol_setdefaultquery, eventsys/IMultiInterfaceEventControl::SetDefaultQuery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMultiInterfaceEventControl.SetDefaultQuery
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMultiInterfaceEventControl::SetDefaultQuery

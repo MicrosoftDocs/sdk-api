@@ -4,17 +4,16 @@ title: IMetaDataAssemblyImport::FindExportedTypeByName
 author: windows-sdk-content
 description: Gets a pointer to an exported type, given its name and enclosing type.
 old-location: winrt\imetadataassemblyimport_findexportedtypebyname.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 2b19b41c-fd1b-4284-8455-2b0d69907c99
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FindExportedTypeByName, FindExportedTypeByName method [Windows Runtime], FindExportedTypeByName method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],FindExportedTypeByName method, IMetaDataAssemblyImport.FindExportedTypeByName, IMetaDataAssemblyImport::FindExportedTypeByName, rometadataapi/IMetaDataAssemblyImport::FindExportedTypeByName, winrt.imetadataassemblyimport_findexportedtypebyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataAssemblyImport.FindExportedTypeByName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataAssemblyImport::FindExportedTypeByName

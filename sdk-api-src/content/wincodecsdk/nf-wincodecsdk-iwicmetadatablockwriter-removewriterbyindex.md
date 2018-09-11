@@ -4,17 +4,16 @@ title: IWICMetadataBlockWriter::RemoveWriterByIndex
 author: windows-sdk-content
 description: Removes the metadata writer from the specified index location.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_removewriterbyindex.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 030c5b0e-5db7-40ae-889c-2e1335d2c50b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICMetadataBlockWriter interface [Windows Imaging Component],RemoveWriterByIndex method, IWICMetadataBlockWriter.RemoveWriterByIndex, IWICMetadataBlockWriter::RemoveWriterByIndex, RemoveWriterByIndex, RemoveWriterByIndex method [Windows Imaging Component], RemoveWriterByIndex method [Windows Imaging Component],IWICMetadataBlockWriter interface, _wic_codec_iwicmetadatablockwriter_removewriterbyindex, wic._wic_codec_iwicmetadatablockwriter_removewriterbyindex, wincodecsdk/IWICMetadataBlockWriter::RemoveWriterByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICMetadataBlockWriter.RemoveWriterByIndex
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICMetadataBlockWriter::RemoveWriterByIndex

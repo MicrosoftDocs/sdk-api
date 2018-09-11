@@ -4,17 +4,16 @@ title: ITraceDataProvider::Resolve
 author: windows-sdk-content
 description: Merges the details about a provider with this instance.
 old-location: pla\itracedataprovider_resolve.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: cabe7207-30f9-4382-bc29-b435d6e4c218
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ITraceDataProvider interface [PLA],Resolve method, ITraceDataProvider.Resolve, ITraceDataProvider::Resolve, Resolve, Resolve method [PLA], Resolve method [PLA],ITraceDataProvider interface, base.itracedataprovider_resolve, pla.itracedataprovider_resolve, pla/ITraceDataProvider::Resolve
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceDataProvider.Resolve
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataProvider::Resolve

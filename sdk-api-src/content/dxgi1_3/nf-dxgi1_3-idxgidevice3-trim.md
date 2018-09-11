@@ -4,17 +4,16 @@ title: IDXGIDevice3::Trim
 author: windows-sdk-content
 description: Trims the graphics memory allocated by the IDXGIDevice3 DXGI device on the app's behalf.
 old-location: direct3ddxgi\idxgidevice3_trim.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 7A697B4B-4D0E-46F9-BC82-860FB91B365B
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIDevice3 interface [DXGI],Trim method, IDXGIDevice3.Trim, IDXGIDevice3::Trim, Trim, Trim method [DXGI], Trim method [DXGI],IDXGIDevice3 interface, direct3ddxgi.idxgidevice3_trim, dxgi1_3/IDXGIDevice3::Trim
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIDevice3.Trim
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDevice3::Trim

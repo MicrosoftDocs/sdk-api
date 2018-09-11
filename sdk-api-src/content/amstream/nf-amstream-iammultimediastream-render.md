@@ -4,17 +4,16 @@ title: IAMMultiMediaStream::Render
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The Render method renders the current filter graph.
 old-location: dshow\iammultimediastream_render.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 09866cf0-650d-4d8e-81d4-6a568709c027
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],Render method, IAMMultiMediaStream.Render, IAMMultiMediaStream::Render, IAMMultiMediaStreamRender, Render, Render method [DirectShow], Render method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::Render, dshow.iammultimediastream_render
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAMMultiMediaStream.Render
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMultiMediaStream::Render

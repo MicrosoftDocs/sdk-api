@@ -4,17 +4,16 @@ title: IDirectMusicSynthSink::SetMasterClock
 author: windows-sdk-content
 description: The SetMasterClock method provides the synth sink with a master time source, which is required for synchronization with the rest of DirectMusic.
 old-location: audio\idirectmusicsynthsink_setmasterclock.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 91c996cc-04e1-47fb-a82d-1cb17fe191e2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectMusicSynthSink interface [Audio Devices],SetMasterClock method, IDirectMusicSynthSink.SetMasterClock, IDirectMusicSynthSink::SetMasterClock, SetMasterClock, SetMasterClock method [Audio Devices], SetMasterClock method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_setmasterclock, audmp-routines_45d219a0-1877-4a19-961f-6f3666bc9a1a.xml, dmusics/IDirectMusicSynthSink::SetMasterClock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectMusicSynthSink.SetMasterClock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectMusicSynthSink::SetMasterClock

@@ -4,17 +4,16 @@ title: IFsrmQuotaManager::Scan
 author: windows-sdk-content
 description: Starts a quota scan on the specified path.
 old-location: fsrm\ifsrmquotamanager_scan.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 1581f4c7-a912-4214-9ad9-181ad5ebba7e
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmQuotaManager class [File Server Resource Manager],Scan method, IFsrmQuotaManager interface [File Server Resource Manager],Scan method, IFsrmQuotaManager.Scan, IFsrmQuotaManager::Scan, IFsrmQuotaManagerEx interface [File Server Resource Manager],Scan method, IFsrmQuotaManagerEx::Scan, Scan, Scan method [File Server Resource Manager], Scan method [File Server Resource Manager],FsrmQuotaManager class, Scan method [File Server Resource Manager],IFsrmQuotaManager interface, Scan method [File Server Resource Manager],IFsrmQuotaManagerEx interface, fs.ifsrmquotamanager_scan, fsrm.ifsrmquotamanager_scan, fsrmquota/IFsrmQuotaManager::Scan, fsrmquota/IFsrmQuotaManagerEx::Scan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmQuotaManager.Scan
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaManager::Scan

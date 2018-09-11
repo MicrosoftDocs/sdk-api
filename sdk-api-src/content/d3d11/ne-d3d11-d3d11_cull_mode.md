@@ -4,7 +4,7 @@ title: D3D11_CULL_MODE
 author: windows-sdk-content
 description: Indicates triangles facing a particular direction are not drawn.
 old-location: direct3d11\d3d11_cull_mode.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 437c4e2f-f120-44db-b0ce-f4dd4e666814
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_CULL_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_CULL_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_CULL_MODE
+req.redist: 
 ---
 
 # D3D11_CULL_MODE enumeration

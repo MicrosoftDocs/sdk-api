@@ -4,17 +4,16 @@ title: IPersistFolder3::InitializeEx
 author: windows-sdk-content
 description: Initializes a folder and specifies its location in the namespace. If the folder is a shortcut, this method also specifies the location of the target folder.
 old-location: shell\IPersistFolder3_InitializeEx.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 50a426b5-a526-4d3d-a20a-67050229f02e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IPersistFolder3 interface [Windows Shell],InitializeEx method, IPersistFolder3.InitializeEx, IPersistFolder3::InitializeEx, InitializeEx, InitializeEx method [Windows Shell], InitializeEx method [Windows Shell],IPersistFolder3 interface, _win32_IPersistFolder3_InitializeEx, shell.IPersistFolder3_InitializeEx, shobjidl_core/IPersistFolder3::InitializeEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional with SP3, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistFolder3.InitializeEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistFolder3::InitializeEx

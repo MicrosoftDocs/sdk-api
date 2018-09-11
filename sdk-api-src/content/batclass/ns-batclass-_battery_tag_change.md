@@ -4,7 +4,7 @@ title: "_BATTERY_TAG_CHANGE"
 author: windows-sdk-content
 description: This structure is reserved for system use.
 old-location: battery\battery_tag_change.htm
-old-project: battery
+tech.root: battery
 ms.assetid: FF3E14E4-5521-42F9-BC60-39128A93814F
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BATTERY_TAG_CHANGE, *PBATTERY_TAG_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BATTERY_TAG_CHANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BATTERY_TAG_CHANGE, *PBATTERY_TAG_CHANGE
+req.redist: 
 ---
 
 # _BATTERY_TAG_CHANGE structure

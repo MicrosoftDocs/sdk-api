@@ -4,7 +4,7 @@ title: NLM_SOCKADDR
 author: windows-sdk-content
 description: NLM_SOCKADDR structure contains the IPv4/IPv6 destination address.
 old-location: nla\nlm_sockaddr.htm
-old-project: nla
+tech.root: nla
 ms.assetid: BEAF672C-F9B3-4544-878B-BBCF96F502C6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_SOCKADDR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NLM_SOCKADDR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NLM_SOCKADDR
+req.redist: 
 ---
 
 # NLM_SOCKADDR structure

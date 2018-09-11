@@ -4,17 +4,16 @@ title: IX509PrivateKey::get_FriendlyName
 author: windows-sdk-content
 description: Specifies or retrieves a display name for the private key.
 old-location: security\ix509privatekey_friendlyname_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 93cd4fe0-5a08-4936-bbb0-6a723027e8c7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],FriendlyName property, IX509PrivateKey.FriendlyName, IX509PrivateKey.get_FriendlyName, IX509PrivateKey::FriendlyName, IX509PrivateKey::get_FriendlyName, IX509PrivateKey::put_FriendlyName, certenroll/IX509PrivateKey::FriendlyName, certenroll/IX509PrivateKey::get_FriendlyName, certenroll/IX509PrivateKey::put_FriendlyName, get_FriendlyName, security.ix509privatekey_friendlyname_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509PrivateKey.put_FriendlyName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PrivateKey::get_FriendlyName

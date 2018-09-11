@@ -4,7 +4,7 @@ title: CF_SYNC_STATUS
 author: windows-sdk-content
 description: Used in a CF_OPERATION_INFO structure to describe the status of a specified sync root.
 old-location: cloudapi\cf_sync_status.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: F80CBBAE-605B-4C1E-BDA5-A4B155F9D079
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_SYNC_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_SYNC_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CF_SYNC_STATUS
+req.redist: 
 ---
 
 # CF_SYNC_STATUS structure

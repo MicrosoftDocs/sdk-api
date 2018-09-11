@@ -4,17 +4,16 @@ title: IWbemDecoupledRegistrar::Register
 author: windows-sdk-content
 description: The IWbemDecoupledRegistrar::Register method registers an object interface with WMI.
 old-location: wmi\iwbemdecoupledregistrar_register.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 0592310c-dc1b-45df-bf60-613a58dd69ad
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemDecoupledRegistrar interface [Windows Management Instrumentation],Register method, IWbemDecoupledRegistrar.Register, IWbemDecoupledRegistrar::Register, Register, Register method [Windows Management Instrumentation], Register method [Windows Management Instrumentation],IWbemDecoupledRegistrar interface, Register method [Windows Management Instrumentation],WbemDecoupledRegistrar object, WbemDecoupledRegistrar object [Windows Management Instrumentation],Register method, _hmm_iwbemdecoupledregistrar_register, wbemprov/IWbemDecoupledRegistrar::Register, wmi.iwbemdecoupledregistrar_register
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wmidcprv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WbemDecoupledRegistrar.Register
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmidcprv.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemDecoupledRegistrar::Register
@@ -64,37 +62,37 @@ The
 
 ### -param a_Flags
 
-
+TBD
 
 
 ### -param a_Context
 
-
+TBD
 
 
 ### -param a_User
 
-
+TBD
 
 
 ### -param a_Locale
 
-
+TBD
 
 
 ### -param a_Scope
 
-
+TBD
 
 
 ### -param a_Registration
 
-
+TBD
 
 
 ### -param pIUnknown
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: "_VDS_STORAGE_BUS_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid bus types of a storage device.
 old-location: base\vds_storage_bus_type.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 4fa1bd7a-c675-4588-8753-2614be444c9c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDSBusType1394, VDSBusTypeAta, VDSBusTypeAtapi, VDSBusTypeFibre, VDSBusTypeFileBackedVirtual, VDSBusTypeMax, VDSBusTypeMaxReserved, VDSBusTypeMmc, VDSBusTypeRAID, VDSBusTypeSas, VDSBusTypeSata, VDSBusTypeScsi, VDSBusTypeSd, VDSBusTypeSsa, VDSBusTypeUnknown, VDSBusTypeUsb, VDSBusTypeiScsi, VDS_STORAGE_BUS_TYPE, VDS_STORAGE_BUS_TYPE enumeration [VDS], _VDS_STORAGE_BUS_TYPE, base.vds_storage_bus_type, vdslun/VDSBusType1394, vdslun/VDSBusTypeAta, vdslun/VDSBusTypeAtapi, vdslun/VDSBusTypeFibre, vdslun/VDSBusTypeFileBackedVirtual, vdslun/VDSBusTypeMax, vdslun/VDSBusTypeMaxReserved, vdslun/VDSBusTypeMmc, vdslun/VDSBusTypeRAID, vdslun/VDSBusTypeSas, vdslun/VDSBusTypeSata, vdslun/VDSBusTypeScsi, vdslun/VDSBusTypeSd, vdslun/VDSBusTypeSsa, vdslun/VDSBusTypeUnknown, vdslun/VDSBusTypeUsb, vdslun/VDSBusTypeiScsi, vdslun/VDS_STORAGE_BUS_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_STORAGE_BUS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_STORAGE_BUS_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_STORAGE_BUS_TYPE
+req.redist: 
 ---
 
 # _VDS_STORAGE_BUS_TYPE enumeration

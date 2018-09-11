@@ -4,17 +4,16 @@ title: "_CERT_REVOCATION_INFO"
 author: windows-sdk-content
 description: Indicates the revocation status of a certificate in a CERT_CHAIN_ELEMENT.
 old-location: security\cert_revocation_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 798aa2d7-bf8a-425f-bc36-98a44ba3a9d6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_REVOCATION_INFO, CERT_REVOCATION_INFO, CERT_REVOCATION_INFO structure [Security], PCERT_REVOCATION_INFO, PCERT_REVOCATION_INFO structure pointer [Security], _CERT_REVOCATION_INFO, _crypto2_cert_revocation_info, security.cert_revocation_info, wincrypt/CERT_REVOCATION_INFO, wincrypt/PCERT_REVOCATION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_REVOCATION_INFO, *PCERT_REVOCATION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_REVOCATION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_REVOCATION_INFO, *PCERT_REVOCATION_INFO
+req.redist: 
 ---
 
 # _CERT_REVOCATION_INFO structure

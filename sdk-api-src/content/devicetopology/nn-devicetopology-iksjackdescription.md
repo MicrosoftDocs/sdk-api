@@ -4,17 +4,16 @@ title: IKsJackDescription
 author: windows-sdk-content
 description: The IKsJackDescription interface provides information about the jacks or internal connectors that provide a physical connection between a device on an audio adapter and an external or internal endpoint device (for example, a microphone or CD player).
 old-location: coreaudio\iksjackdescription.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 0ca9e719-7179-4302-99ff-df137141f58f
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IKsJackDescription, IKsJackDescription interface [Core Audio], IKsJackDescription interface [Core Audio],described, coreaudio.iksjackdescription, devicetopology/IKsJackDescription
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IKsJackDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IKsJackDescription interface

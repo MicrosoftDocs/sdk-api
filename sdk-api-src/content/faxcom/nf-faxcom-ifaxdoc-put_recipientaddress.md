@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.put_RecipientAddress
 title: IFaxDoc::put_RecipientAddress
 author: windows-sdk-content
 description: Sets or retrieves the RecipientAddress property of a FaxDoc object. The RecipientAddress property is a null-terminated string that contains the street address of the recipient of the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_recipientaddress_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientaddress_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_83w3.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxDoc object [Fax Service],RecipientAddress property, FaxDoc.RecipientAddress, IFaxDoc.put_RecipientAddress, IFaxDoc::put_RecipientAddress, RecipientAddress property [Fax Service], RecipientAddress property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientaddress, fax._mfax_ifaxdoc_get_recipientaddress, fax._mfax_ifaxdoc_get_recipientaddress_vb, put_RecipientAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxDoc interface [Fax Service],RecipientAddress property, IFaxDoc.RecipientAddress, IFaxDoc.put_RecipientAddress, IFaxDoc::RecipientAddress, IFaxDoc::get_RecipientAddress, IFaxDoc::put_RecipientAddress, RecipientAddress property [Fax Service], RecipientAddress property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientaddress, fax._mfax_ifaxdoc_get_recipientaddress, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientaddress_cpp, faxcom/IFaxDoc::RecipientAddress, faxcom/IFaxDoc::get_RecipientAddress, faxcom/IFaxDoc::put_RecipientAddress, put_RecipientAddress
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.RecipientAddress
+ - IFaxDoc.RecipientAddress
+ - IFaxDoc.get_RecipientAddress
+ - IFaxDoc.put_RecipientAddress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::put_RecipientAddress
@@ -81,10 +81,6 @@ The <b>get_RecipientAddress</b> method allocates the memory required for the buf
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690707(v=VS.85).aspx">FaxDoc</a>
 
 
 

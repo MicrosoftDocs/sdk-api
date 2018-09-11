@@ -4,17 +4,16 @@ title: IExecuteCommand::SetParameters
 author: windows-sdk-content
 description: Provides parameter values for the verb.
 old-location: shell\IExecuteCommand_SetParameters.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3e08777c-865b-49c2-8f37-1a427c4945b4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetParameters method, IExecuteCommand.SetParameters, IExecuteCommand::SetParameters, SetParameters, SetParameters method [Windows Shell], SetParameters method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetParameters, shell.IExecuteCommand_SetParameters, shobjidl_core/IExecuteCommand::SetParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExecuteCommand.SetParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExecuteCommand::SetParameters

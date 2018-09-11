@@ -4,17 +4,16 @@ title: RESPONSEBODY_GetStatus
 author: windows-sdk-content
 description: Represents a WS-Eventing GetStatus response message.
 old-location: ncd\responsebody_getstatus.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 41db6c35-b722-4b46-bfc2-7bbfe50aaa0a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RESPONSEBODY_GetStatus, RESPONSEBODY_GetStatus structure, ncd.responsebody_getstatus, wsdtypes/RESPONSEBODY_GetMetadata
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESPONSEBODY_GetStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESPONSEBODY_GetStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: RESPONSEBODY_GetStatus
+req.redist: 
 ---
 
 # RESPONSEBODY_GetStatus structure

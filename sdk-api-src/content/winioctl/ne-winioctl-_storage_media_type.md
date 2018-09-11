@@ -4,7 +4,7 @@ title: "_STORAGE_MEDIA_TYPE"
 author: windows-sdk-content
 description: Specifies various types of storage media.
 old-location: base\storage_media_type.htm
-old-project: devio
+tech.root: devio
 ms.assetid: f584d766-0d4d-49b8-b58a-09556c494270
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_MEDIA_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
+req.redist: 
 ---
 
 # _STORAGE_MEDIA_TYPE enumeration

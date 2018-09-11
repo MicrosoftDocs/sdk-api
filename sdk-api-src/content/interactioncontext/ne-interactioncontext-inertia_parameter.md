@@ -4,7 +4,7 @@ title: INERTIA_PARAMETER
 author: windows-sdk-content
 description: Specifies the inertia values for a manipulation (translation, rotation, scaling).
 old-location: input_intcontext\inertia_parameter.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: 06a7bab7-3821-42f3-bf2c-2d0724cb1119
 ms.author: windowssdkdev
 ms.date: 05/09/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INERTIA_PARAMETER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INERTIA_PARAMETER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: INERTIA_PARAMETER
+req.redist: 
 ---
 
 # INERTIA_PARAMETER enumeration

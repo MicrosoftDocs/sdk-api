@@ -4,7 +4,7 @@ title: "_DISK_DETECTION_INFO"
 author: windows-sdk-content
 description: Contains detected drive parameters.
 old-location: fs\disk_detection_info_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 57ca68f4-f748-4bc4-90c3-13d545716d87
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISK_DETECTION_INFO, *PDISK_DETECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISK_DETECTION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISK_DETECTION_INFO, *PDISK_DETECTION_INFO
+req.redist: 
 ---
 
 # _DISK_DETECTION_INFO structure

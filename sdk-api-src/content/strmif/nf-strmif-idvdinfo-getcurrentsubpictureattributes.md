@@ -4,17 +4,16 @@ title: IDvdInfo::GetCurrentSubpictureAttributes
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the attributes for the current subpicture stream in the current title or menu.
 old-location: dshow\idvdinfo_getcurrentsubpictureattributes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9beb31e3-b3ff-4c7a-922f-9f1e9725ddde
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCurrentSubpictureAttributes, GetCurrentSubpictureAttributes method [DirectShow], GetCurrentSubpictureAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentSubpictureAttributes method, IDvdInfo.GetCurrentSubpictureAttributes, IDvdInfo::GetCurrentSubpictureAttributes, IDvdInfoGetCurrentSubpictureAttributes, dshow.idvdinfo_getcurrentsubpictureattributes, strmif/IDvdInfo::GetCurrentSubpictureAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdInfo.GetCurrentSubpictureAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo::GetCurrentSubpictureAttributes

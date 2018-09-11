@@ -4,17 +4,16 @@ title: GetNetScheduleAccountInformation function
 author: windows-sdk-content
 description: The GetNetScheduleAccountInformation function retrieves the AT Service account name.
 old-location: netmgmt\getnetscheduleaccountinformation.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 935de94a-6791-4ea2-ac39-cf71ef7cb726
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetNetScheduleAccountInformation, GetNetScheduleAccountInformation function [Network Management], atacct/GetNetScheduleAccountInformation, netmgmt.getnetscheduleaccountinformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: atacct.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GetNetScheduleAccountInformation
 product: Windows
 targetos: Windows
-req.lib: Mstask.lib
-req.dll: Mstask.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetNetScheduleAccountInformation function

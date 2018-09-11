@@ -4,17 +4,16 @@ title: VarUI1FromI2 function
 author: windows-sdk-content
 description: Converts a short value to an unsigned char value.
 old-location: automat\varui1fromi2.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 6055b933-40ad-4bcb-a875-611e77296027
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarUI1FromI2, VarUI1FromI2 function [Automation], _oa96_VarUI1FromI2, automat.varui1fromi2, oleauto/VarUI1FromI2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarUI1FromI2
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarUI1FromI2 function

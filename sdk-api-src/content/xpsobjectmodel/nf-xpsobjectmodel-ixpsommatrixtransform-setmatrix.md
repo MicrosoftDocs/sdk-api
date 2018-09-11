@@ -4,17 +4,16 @@ title: IXpsOMMatrixTransform::SetMatrix
 author: windows-sdk-content
 description: Sets the XPS_MATRIX structure, which specifies the transform matrix.
 old-location: xps\ixpsommatrixtransform_setmatrix.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: cbe6a992-1c94-40b0-a0b6-3b214b928805
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMMatrixTransform interface [XPS Documents and Packaging],SetMatrix method, IXpsOMMatrixTransform.SetMatrix, IXpsOMMatrixTransform::SetMatrix, SetMatrix, SetMatrix method [XPS Documents and Packaging], SetMatrix method [XPS Documents and Packaging],IXpsOMMatrixTransform interface, xps.ixpsommatrixtransform_setmatrix, xpsobjectmodel/IXpsOMMatrixTransform::SetMatrix
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMMatrixTransform.SetMatrix
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMMatrixTransform::SetMatrix

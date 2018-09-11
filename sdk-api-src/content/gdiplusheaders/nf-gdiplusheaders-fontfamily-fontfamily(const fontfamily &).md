@@ -4,17 +4,16 @@ title: FontFamily::FontFamily(const FontFamily &)
 author: windows-sdk-content
 description: This topic lists the constructors of the FontFamily class. For a complete class listing, see FontFamilyClass.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_Constructors.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilyconstructors.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: FontFamily, FontFamily constructors [GDI+], FontFamily.FontFamily, FontFamily.FontFamily(const FontFamily &), FontFamily::FontFamily, FontFamily::FontFamily(const FontFamily &), _gdiplus_CLASS_FontFamily_Constructors, gdiplus._gdiplus_CLASS_FontFamily_Constructors, gdiplusheaders/FontFamily
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FontFamily.FontFamily
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # FontFamily::FontFamily(const FontFamily &)

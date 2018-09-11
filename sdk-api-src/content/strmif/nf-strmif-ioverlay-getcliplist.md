@@ -4,17 +4,16 @@ title: IOverlay::GetClipList
 author: windows-sdk-content
 description: The GetClipList method retrieves the clipping list.
 old-location: dshow\ioverlay_getcliplist.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3133bcae-0a08-45e9-b70a-07ea6ffef8ee
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetClipList, GetClipList method [DirectShow], GetClipList method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetClipList method, IOverlay.GetClipList, IOverlay::GetClipList, IOverlayGetClipList, dshow.ioverlay_getcliplist, strmif/IOverlay::GetClipList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IOverlay.GetClipList
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IOverlay::GetClipList

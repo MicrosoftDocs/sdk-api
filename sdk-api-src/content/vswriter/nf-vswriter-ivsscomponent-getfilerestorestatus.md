@@ -4,17 +4,16 @@ title: IVssComponent::GetFileRestoreStatus
 author: windows-sdk-content
 description: The GetFileRestoreStatus method returns the status of a completed attempt to restore all the files of a selected component or component set as a VSS_FILE_RESTORE_STATUS enumeration.
 old-location: base\ivsscomponent_getfilerestorestatus.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: b79c4443-c850-4edf-bdd2-917e22e67d77
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetFileRestoreStatus, GetFileRestoreStatus method [VSS], GetFileRestoreStatus method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetFileRestoreStatus method, IVssComponent.GetFileRestoreStatus, IVssComponent::GetFileRestoreStatus, _win32_ivsscomponent_getfilerestorestatus, base.ivsscomponent_getfilerestorestatus, vswriter/IVssComponent::GetFileRestoreStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.GetFileRestoreStatus
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::GetFileRestoreStatus

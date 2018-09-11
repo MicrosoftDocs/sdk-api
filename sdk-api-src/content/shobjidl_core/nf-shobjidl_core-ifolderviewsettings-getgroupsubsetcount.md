@@ -4,17 +4,16 @@ title: IFolderViewSettings::GetGroupSubsetCount
 author: windows-sdk-content
 description: Gets group count for visible rows.
 old-location: shell\IFolderViewSettings_GetGroupSubsetCount.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b71eb420-3ec3-4dfd-a00e-3b56bb59fa5c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetGroupSubsetCount, GetGroupSubsetCount method [Windows Shell], GetGroupSubsetCount method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetGroupSubsetCount method, IFolderViewSettings.GetGroupSubsetCount, IFolderViewSettings::GetGroupSubsetCount, _shell_IFolderViewSettings_GetGroupSubsetCount, shell.IFolderViewSettings_GetGroupSubsetCount, shobjidl_core/IFolderViewSettings::GetGroupSubsetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderViewSettings.GetGroupSubsetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderViewSettings::GetGroupSubsetCount

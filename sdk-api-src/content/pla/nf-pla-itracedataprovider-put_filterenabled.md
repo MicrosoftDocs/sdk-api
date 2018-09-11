@@ -4,17 +4,16 @@ title: ITraceDataProvider::put_FilterEnabled
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether the filter data is used to enable the provider.
 old-location: pla\itracedataprovider_filterenabled.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: fef5e6a4-3a97-4799-b46d-c0e82b1c0104
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: FilterEnabled property [PLA], FilterEnabled property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],FilterEnabled property, ITraceDataProvider.FilterEnabled, ITraceDataProvider.put_FilterEnabled, ITraceDataProvider::FilterEnabled, ITraceDataProvider::get_FilterEnabled, ITraceDataProvider::put_FilterEnabled, pla.itracedataprovider_filterenabled, pla/ITraceDataProvider::FilterEnabled, pla/ITraceDataProvider::get_FilterEnabled, pla/ITraceDataProvider::put_FilterEnabled, put_FilterEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITraceDataProvider.put_FilterEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataProvider::put_FilterEnabled

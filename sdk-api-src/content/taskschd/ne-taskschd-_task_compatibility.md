@@ -4,17 +4,16 @@ title: "_TASK_COMPATIBILITY"
 author: windows-sdk-content
 description: Defines what versions of Task Scheduler or the AT command that the task is compatible with.
 old-location: taskschd\task_compatibility.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: a842ab84-26e1-49bd-bf57-1a1073a17183
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TASK_COMPATIBILITY, TASK_COMPATIBILITY enumeration [Task Scheduler], TASK_COMPATIBILITY_AT, TASK_COMPATIBILITY_V1, TASK_COMPATIBILITY_V2, _TASK_COMPATIBILITY, taskschd.task_compatibility, taskschd/TASK_COMPATIBILITY, taskschd/TASK_COMPATIBILITY_AT, taskschd/TASK_COMPATIBILITY_V1, taskschd/TASK_COMPATIBILITY_V2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_COMPATIBILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TASK_COMPATIBILITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TASK_COMPATIBILITY
+req.redist: 
 ---
 
 # _TASK_COMPATIBILITY enumeration

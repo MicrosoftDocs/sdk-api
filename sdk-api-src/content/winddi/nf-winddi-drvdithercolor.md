@@ -4,17 +4,16 @@ title: DrvDitherColor function
 author: windows-sdk-content
 description: The DrvDitherColor function requests the device to create a brush dithered against a device palette.
 old-location: display\drvdithercolor.htm
-old-project: display
+tech.root: display
 ms.assetid: 635a4af8-ec19-4f99-80b2-bad2a6e87edc
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvDitherColor, DrvDitherColor function [Display Devices], ddifncs_2b62d877-2c36-41ad-bca7-88f1daf3640c.xml, display.drvdithercolor, winddi/DrvDitherColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvDitherColor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvDitherColor function

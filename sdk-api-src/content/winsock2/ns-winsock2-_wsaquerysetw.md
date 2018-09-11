@@ -4,17 +4,16 @@ title: "_WSAQuerySetW"
 author: windows-sdk-content
 description: Provides relevant information about a given service, including service class ID, service name, applicable namespace identifier and protocol information, as well as a set of transport addresses at which the service listens.
 old-location: winsock\wsaqueryset_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSAQUERYSETW, *PWSAQUERYSETW, LPWSAQUERYSET, LPWSAQUERYSET structure pointer [Winsock], NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_PNRPCLOUD, NS_PNRPNAME, PWSAQUERYSET, PWSAQUERYSET structure pointer [Winsock], WSAQUERYSET, WSAQUERYSET structure [Winsock], WSAQUERYSETA, WSAQUERYSETW, _WSAQuerySetW, _win32_wsaqueryset_2, winsock.wsaqueryset_2, winsock2/LPWSAQUERYSET, winsock2/PWSAQUERYSET, winsock2/WSAQUERYSET, winsock2/WSAQUERYSETA, winsock2/WSAQUERYSETW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAQUERYSETW, *PWSAQUERYSETW, *LPWSAQUERYSETW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSAQUERYSETW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSAQUERYSETW, *PWSAQUERYSETW, *LPWSAQUERYSETW
+req.redist: 
 ---
 
 # _WSAQuerySetW structure

@@ -4,17 +4,16 @@ title: IUIAutomationTableItemPattern::GetCachedColumnHeaderItems
 author: windows-sdk-content
 description: Retrieves the cached column headers associated with a table item or cell.
 old-location: winauto\uiauto_IUIAutomationTableItemPattern_GetCachedColumnHeaderItems.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 40d4c31b-643f-479b-859c-3458d2d17f19
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCachedColumnHeaderItems, GetCachedColumnHeaderItems method [Windows Accessibility], GetCachedColumnHeaderItems method [Windows Accessibility],IUIAutomationTableItemPattern interface, IUIAutomationTableItemPattern interface [Windows Accessibility],GetCachedColumnHeaderItems method, IUIAutomationTableItemPattern.GetCachedColumnHeaderItems, IUIAutomationTableItemPattern::GetCachedColumnHeaderItems, uiauto.uiauto_IUIAutomationTableItemPattern_GetCachedColumnHeaderItems, uiauto_IUIAutomationTableItemPattern_GetCachedColumnHeaderItems, uiautomationclient/IUIAutomationTableItemPattern::GetCachedColumnHeaderItems, winauto.uiauto_IUIAutomationTableItemPattern_GetCachedColumnHeaderItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTableItemPattern.GetCachedColumnHeaderItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTableItemPattern::GetCachedColumnHeaderItems

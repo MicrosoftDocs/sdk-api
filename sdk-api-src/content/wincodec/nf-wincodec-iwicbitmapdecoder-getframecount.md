@@ -4,17 +4,16 @@ title: IWICBitmapDecoder::GetFrameCount
 author: windows-sdk-content
 description: Retrieves the total number of frames in the image.
 old-location: wic\_wic_codec_iwicbitmapdecoder_getframecount.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 16eb613d-f649-436d-a121-e6468cd2581a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFrameCount, GetFrameCount method [Windows Imaging Component], GetFrameCount method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetFrameCount method, IWICBitmapDecoder.GetFrameCount, IWICBitmapDecoder::GetFrameCount, _wic_codec_iwicbitmapdecoder_getframecount, wic._wic_codec_iwicbitmapdecoder_getframecount, wincodec/IWICBitmapDecoder::GetFrameCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapDecoder.GetFrameCount
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapDecoder::GetFrameCount

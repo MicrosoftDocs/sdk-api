@@ -4,17 +4,16 @@ title: Direct3DCreate9Ex function
 author: windows-sdk-content
 description: Creates an IDirect3D9Ex object and returns an interface to it.
 old-location: direct3d9\direct3dcreate9ex.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\direct3dcreate9.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: Direct3DCreate9Ex, Direct3DCreate9Ex function [Direct3D 9], d3bc9dd0-05d5-c0a2-6b7c-7e11497d0e97, d3d9/Direct3DCreate9Ex, direct3d9.direct3dcreate9ex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3d9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3d9.lib
+req.dll: D3d9.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - Direct3DCreate9Ex
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: D3d9.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Direct3DCreate9Ex function
@@ -67,7 +66,14 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 The value of this parameter should be <b>D3D_SDK_VERSION</b>. See Remarks.
 
 
-### -param param [out]
+### -param arg1
+
+TBD
+
+
+
+
+#### - param [out]
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a>**</b>
 

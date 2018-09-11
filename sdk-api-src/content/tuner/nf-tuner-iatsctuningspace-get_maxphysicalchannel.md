@@ -4,17 +4,16 @@ title: IATSCTuningSpace::get_MaxPhysicalChannel
 author: windows-sdk-content
 description: The get_MaxPhysicalChannel method gets the highest physical channel number for this tuning space.
 old-location: mstv\iatsctuningspace_get_maxphysicalchannel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 42aeab8d-f05c-423d-bd35-ac030adc6434
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],get_MaxPhysicalChannel method, IATSCTuningSpace.get_MaxPhysicalChannel, IATSCTuningSpace::get_MaxPhysicalChannel, IATSCTuningSpaceget_MaxPhysicalChannel, get_MaxPhysicalChannel, get_MaxPhysicalChannel method [Microsoft TV Technologies], get_MaxPhysicalChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, mstv.iatsctuningspace_get_maxphysicalchannel, tuner/IATSCTuningSpace::get_MaxPhysicalChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IATSCTuningSpace.get_MaxPhysicalChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IATSCTuningSpace::get_MaxPhysicalChannel
@@ -65,7 +63,7 @@ The <b>get_MaxPhysicalChannel</b> method gets the highest physical channel numbe
 
 ### -param MaxPhysicalChannelVal
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: SetupQueryDrivesInDiskSpaceListW function
 author: windows-sdk-content
 description: The SetupQueryDrivesInDiskSpaceList function fills a buffer with a list of the drives referenced by the file operations listed in the disk-space list.
 old-location: setup\setupquerydrivesindiskspacelist.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: be298b54-f5dc-46a3-a54c-f7ca5cb3a2fb
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupQueryDrivesInDiskSpaceList, SetupQueryDrivesInDiskSpaceList function [Setup API], SetupQueryDrivesInDiskSpaceListA, SetupQueryDrivesInDiskSpaceListW, _setupapi_setupquerydrivesindiskspacelist, setup.setupquerydrivesindiskspacelist, setupapi/SetupQueryDrivesInDiskSpaceList, setupapi/SetupQueryDrivesInDiskSpaceListA, setupapi/SetupQueryDrivesInDiskSpaceListW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupQueryDrivesInDiskSpaceListW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupQueryDrivesInDiskSpaceListW function

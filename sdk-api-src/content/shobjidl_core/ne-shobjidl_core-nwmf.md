@@ -4,17 +4,16 @@ title: NWMF
 author: windows-sdk-content
 description: Flags used by INewWindowManager::EvaluateNewWindow. These values are factors in the decision of whether to display a pop-up window.
 old-location: shell\NWMF.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b55b60ae-fb56-4525-8113-35c417b28954
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: NWMF, NWMF enumeration [Windows Shell], NWMF_FIRST, NWMF_FORCETAB, NWMF_FORCEWINDOW, NWMF_FROMDIALOGCHILD, NWMF_HTMLDIALOG, NWMF_INACTIVETAB, NWMF_OVERRIDEKEY, NWMF_SHOWHELP, NWMF_SUGGESTTAB, NWMF_SUGGESTWINDOW, NWMF_UNLOADING, NWMF_USERALLOWED, NWMF_USERINITED, NWMF_USERREQUESTED, _shell_NWMF, shell.NWMF, shobjidl_core/NWMF, shobjidl_core/NWMF_FIRST, shobjidl_core/NWMF_FORCETAB, shobjidl_core/NWMF_FORCEWINDOW, shobjidl_core/NWMF_FROMDIALOGCHILD, shobjidl_core/NWMF_HTMLDIALOG, shobjidl_core/NWMF_INACTIVETAB, shobjidl_core/NWMF_OVERRIDEKEY, shobjidl_core/NWMF_SHOWHELP, shobjidl_core/NWMF_SUGGESTTAB, shobjidl_core/NWMF_SUGGESTWINDOW, shobjidl_core/NWMF_UNLOADING, shobjidl_core/NWMF_USERALLOWED, shobjidl_core/NWMF_USERINITED, shobjidl_core/NWMF_USERREQUESTED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NWMF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NWMF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: NWMF
+req.redist: 
 ---
 
 # NWMF enumeration

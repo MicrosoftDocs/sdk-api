@@ -4,17 +4,16 @@ title: IInkDisp::Clone
 author: windows-sdk-content
 description: Creates a duplicate InkDisp object.
 old-location: tablet\inkdisp_clone.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: f3ec6b42-2b5d-459e-ba09-88c27b125c40
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: Clone, Clone method [Tablet PC], Clone method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],Clone method, IInkDisp.Clone, IInkDisp::Clone, f3ec6b42-2b5d-459e-ba09-88c27b125c40, msinkaut/IInkDisp::Clone, tablet.inkdisp_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkDisp.Clone
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDisp::Clone

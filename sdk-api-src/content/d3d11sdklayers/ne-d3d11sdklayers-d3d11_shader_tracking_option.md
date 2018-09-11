@@ -4,7 +4,7 @@ title: D3D11_SHADER_TRACKING_OPTION
 author: windows-sdk-content
 description: Options that specify how to perform shader debug tracking.
 old-location: direct3d11\d3d11_shader_tracking_options.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 20C152CD-B155-4B46-8F41-EDDEC60494DF
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_TRACKING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_SHADER_TRACKING_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_SHADER_TRACKING_OPTIONS
+req.redist: 
 ---
 
 # D3D11_SHADER_TRACKING_OPTION enumeration

@@ -4,17 +4,16 @@ title: IWMWriter::GetInputFormat
 author: windows-sdk-content
 description: The GetInputFormat method retrieves possible media formats for the specified input.
 old-location: wmformat\iwmwriter_getinputformat.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: c058de81-a29a-4bcd-a819-3cdef11cae9f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetInputFormat, GetInputFormat method [windows Media Format], GetInputFormat method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputFormat method, IWMWriter.GetInputFormat, IWMWriter::GetInputFormat, IWMWriterGetInputFormat, wmformat.iwmwriter_getinputformat, wmsdkidl/IWMWriter::GetInputFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMWriter.GetInputFormat
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMWriter::GetInputFormat

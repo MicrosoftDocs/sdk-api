@@ -4,7 +4,7 @@ title: tagDEVICE_SELECTION_DEVICE_TYPE
 author: windows-sdk-content
 description: The DEVICE_SELECTION_DEVICE_TYPE enumeration type indicates the type of a selected device.
 old-location: picacq\device_selection_device_type.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 95f528d1-ff83-4d42-9050-b137476935b0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVICE_SELECTION_DEVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEVICE_SELECTION_DEVICE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DEVICE_SELECTION_DEVICE_TYPE
+req.redist: 
 ---
 
 # tagDEVICE_SELECTION_DEVICE_TYPE enumeration

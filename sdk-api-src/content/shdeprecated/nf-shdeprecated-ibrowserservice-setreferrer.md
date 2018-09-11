@@ -4,17 +4,16 @@ title: IBrowserService::SetReferrer
 author: windows-sdk-content
 description: Deprecated. Sets the pointer to an item identifier list (PIDL) used for zone checking when creating a new window.
 old-location: shell\IBrowserService_SetReferrer.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6458f28c-4eab-45dc-bc99-24e5f9ea3553
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService interface [Windows Shell],SetReferrer method, IBrowserService.SetReferrer, IBrowserService::SetReferrer, SetReferrer, SetReferrer method [Windows Shell], SetReferrer method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetReferrer, shell.IBrowserService_SetReferrer, zone_IBrowserService_SetReferrer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService.SetReferrer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

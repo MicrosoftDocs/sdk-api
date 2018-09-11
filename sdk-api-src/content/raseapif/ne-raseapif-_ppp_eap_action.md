@@ -4,7 +4,7 @@ title: "_PPP_EAP_ACTION"
 author: windows-sdk-content
 description: The PPP_EAP_ACTION enumerated type specifies actions that the Connection Manager should take on behalf of the authentication protocol.
 old-location: eap\ppp_eap_action.htm
-old-project: eap
+tech.root: eap
 ms.assetid: 5b1ead41-1fc0-41af-8614-3246d220c88d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: raseapif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: RasPhonebookDlgW (Unicode) and RasPhonebookDlgA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PPP_EAP_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PPP_EAP_ACTION
 product: Windows
 targetos: Windows
-req.lib: Rasdlg.lib
-req.dll: Rasdlg.dll
-req.irql: 
-req.product: ADAM
+req.typenames: PPP_EAP_ACTION
+req.redist: 
 ---
 
 # _PPP_EAP_ACTION enumeration

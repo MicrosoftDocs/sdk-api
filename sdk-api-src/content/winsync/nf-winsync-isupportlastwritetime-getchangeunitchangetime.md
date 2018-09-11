@@ -4,17 +4,16 @@ title: ISupportLastWriteTime::GetChangeUnitChangeTime
 author: windows-sdk-content
 description: Gets the date and time when the specified change unit was last changed.
 old-location: winsync\isupportlastwritetime_getchangeunitchangetime.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: f289d5a5-c991-4223-b59a-68b31ecffb8c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetChangeUnitChangeTime, GetChangeUnitChangeTime method [Windows Sync], GetChangeUnitChangeTime method [Windows Sync],ISupportLastWriteTime interface, ISupportLastWriteTime interface [Windows Sync],GetChangeUnitChangeTime method, ISupportLastWriteTime.GetChangeUnitChangeTime, ISupportLastWriteTime::GetChangeUnitChangeTime, winsync.isupportlastwritetime_getchangeunitchangetime, winsync/ISupportLastWriteTime::GetChangeUnitChangeTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISupportLastWriteTime.GetChangeUnitChangeTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISupportLastWriteTime::GetChangeUnitChangeTime

@@ -4,17 +4,16 @@ title: IWbemCallResult::GetResultObject
 author: windows-sdk-content
 description: The IWbemCallResult::GetResultObject method attempts to retrieve an object from a previous semisynchronous call to IWbemServices::GetObject or IWbemServices::ExecMethod.
 old-location: wmi\iwbemcallresult_getresultobject.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 06603f26-587f-4aff-8ae3-7f77f9b266f5
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetResultObject, GetResultObject method [Windows Management Instrumentation], GetResultObject method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetResultObject method, IWbemCallResult.GetResultObject, IWbemCallResult::GetResultObject, _hmm_iwbemcallresult_getresultobject, wbemcli/IWbemCallResult::GetResultObject, wmi.iwbemcallresult_getresultobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemCallResult.GetResultObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemCallResult::GetResultObject

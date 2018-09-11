@@ -4,17 +4,16 @@ title: ICategoryProvider::GetCategoryForSCID
 author: windows-sdk-content
 description: Gets a GUID that represents the categorizer to use for the specified Shell column.
 old-location: shell\ICategoryProvider_GetCategoryForSCID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 52b4fac7-14bd-4d58-a00d-f102e013df16
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetCategoryForSCID, GetCategoryForSCID method [Windows Shell], GetCategoryForSCID method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],GetCategoryForSCID method, ICategoryProvider.GetCategoryForSCID, ICategoryProvider::GetCategoryForSCID, inet_ICategoryProvider_GetCategoryForSCID, shell.ICategoryProvider_GetCategoryForSCID, shobjidl_core/ICategoryProvider::GetCategoryForSCID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICategoryProvider.GetCategoryForSCID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICategoryProvider::GetCategoryForSCID

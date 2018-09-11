@@ -4,7 +4,7 @@ title: tagEMREXTFLOODFILL
 author: windows-sdk-content
 description: The EMREXTFLOODFILL structure contains members for the ExtFloodFill enhanced metafile record.
 old-location: gdi\emrextfloodfill.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 93c80ea4-42f3-4c0a-8f72-76d2a6634e15
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMREXTFLOODFILL, *PEMREXTFLOODFILL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMREXTFLOODFILL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EMREXTFLOODFILL, *PEMREXTFLOODFILL
+req.redist: 
 ---
 
 # tagEMREXTFLOODFILL structure

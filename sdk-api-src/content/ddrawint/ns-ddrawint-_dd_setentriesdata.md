@@ -4,7 +4,7 @@ title: "_DD_SETENTRIESDATA"
 author: windows-sdk-content
 description: The DD_SETENTRIESDATA structure contains information necessary to set palette entries.
 old-location: display\dd_setentriesdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 9420f41a-401b-4fc3-b9a4-f2bfe6cb2710
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_SETENTRIESDATA, DD_SETENTRIESDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_SETENTRIESDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_SETENTRIESDATA, DD_SETENTRIESDATA"
+req.redist: 
 ---
 
 # _DD_SETENTRIESDATA structure

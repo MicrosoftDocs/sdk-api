@@ -4,17 +4,16 @@ title: IGridProvider::GetItem
 author: windows-sdk-content
 description: Retrieves the Microsoft UI Automation provider for the specified cell.
 old-location: winauto\uiauto_IGridProvider_GetItem.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 5d62e872-c4a7-43c5-b5cf-5069ad46483a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetItem, GetItem method [Windows Accessibility], GetItem method [Windows Accessibility],IGridProvider interface, IGridProvider interface [Windows Accessibility],GetItem method, IGridProvider.GetItem, IGridProvider::GetItem, uiauto.uiauto_IGridProvider_GetItem, uiauto_IGridProvider_GetItem, uiautomationcore/IGridProvider::GetItem, winauto.uiauto_IGridProvider_GetItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGridProvider.GetItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IGridProvider::GetItem

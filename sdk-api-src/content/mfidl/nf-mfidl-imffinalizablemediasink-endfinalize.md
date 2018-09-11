@@ -4,17 +4,16 @@ title: IMFFinalizableMediaSink::EndFinalize
 author: windows-sdk-content
 description: Completes an asynchronous finalize operation.
 old-location: mf\imffinalizablemediasink_endfinalize.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1b2a9b24-69da-41c7-8379-3f3d066d2582
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 1b2a9b24-69da-41c7-8379-3f3d066d2582, EndFinalize, EndFinalize method [Media Foundation], EndFinalize method [Media Foundation],IMFFinalizableMediaSink interface, IMFFinalizableMediaSink interface [Media Foundation],EndFinalize method, IMFFinalizableMediaSink.EndFinalize, IMFFinalizableMediaSink::EndFinalize, mf.imffinalizablemediasink_endfinalize, mfidl/IMFFinalizableMediaSink::EndFinalize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFFinalizableMediaSink.EndFinalize
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFFinalizableMediaSink::EndFinalize

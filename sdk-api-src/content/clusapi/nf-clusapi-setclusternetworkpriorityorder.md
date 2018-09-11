@@ -4,17 +4,16 @@ title: SetClusterNetworkPriorityOrder function
 author: windows-sdk-content
 description: Sets the priority order for the set of networks used for internal communication between cluster nodes.
 old-location: mscs\setclusternetworkpriorityorder.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 538e5024-6c51-4b11-a5ff-9df6aa7a4606
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER function [Failover Cluster], SetClusterNetworkPriorityOrder, SetClusterNetworkPriorityOrder function [Failover Cluster], _wolf_setclusternetworkpriorityorder, clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, clusapi/SetClusterNetworkPriorityOrder, mscs.setclusternetworkpriorityorder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SetClusterNetworkPriorityOrder
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # SetClusterNetworkPriorityOrder function

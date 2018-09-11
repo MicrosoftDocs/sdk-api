@@ -4,17 +4,16 @@ title: IUIAutomation::RemoveFocusChangedEventHandler
 author: windows-sdk-content
 description: Removes a focus-changed event handler.
 old-location: winauto\uiauto_IUIAutomation_RemoveFocusChangedEventHandler.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 96913631-76e0-405a-888d-ac7f6485a18e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemoveFocusChangedEventHandler method, IUIAutomation.RemoveFocusChangedEventHandler, IUIAutomation::RemoveFocusChangedEventHandler, RemoveFocusChangedEventHandler, RemoveFocusChangedEventHandler method [Windows Accessibility], RemoveFocusChangedEventHandler method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemoveFocusChangedEventHandler, uiauto_IUIAutomation_RemoveFocusChangedEventHandler, uiautomationclient/IUIAutomation::RemoveFocusChangedEventHandler, winauto.uiauto_IUIAutomation_RemoveFocusChangedEventHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomation.RemoveFocusChangedEventHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation::RemoveFocusChangedEventHandler

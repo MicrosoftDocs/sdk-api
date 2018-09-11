@@ -4,17 +4,16 @@ title: "_RPC_SECURITY_QOS_V3_A"
 author: windows-sdk-content
 description: The RPC_SECURITY_QOS_V3 structure defines version 3 security quality-of-service settings on a binding handle. See Remarks for version availability on Windows editions.
 old-location: rpc\rpc_security_qos_v3.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 56366edf-55af-4827-8986-7b5f8b1c878b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRPC_SECURITY_QOS_V3_A, 0, PRPC_SECURITY_QOS_V3, PRPC_SECURITY_QOS_V3 structure pointer [RPC], RPC_C_AUTHN_INFO_TYPE_HTTP, RPC_C_IMP_LEVEL_ANONYMOUS, RPC_C_IMP_LEVEL_DEFAULT, RPC_C_IMP_LEVEL_DELEGATE, RPC_C_IMP_LEVEL_IDENTIFY, RPC_C_IMP_LEVEL_IMPERSONATE, RPC_C_QOS_CAPABILITIES_ANY_AUTHORITY, RPC_C_QOS_CAPABILITIES_DEFAULT, RPC_C_QOS_CAPABILITIES_IGNORE_DELEGATE_FAILURE, RPC_C_QOS_CAPABILITIES_LOCAL_MA_HINT, RPC_C_QOS_CAPABILITIES_MAKE_FULLSIC, RPC_C_QOS_CAPABILITIES_MUTUAL_AUTH, RPC_C_QOS_IDENTITY_DYNAMIC, RPC_C_QOS_IDENTITY_STATIC, RPC_SECURITY_QOS_V3, RPC_SECURITY_QOS_V3 structure [RPC], RPC_SECURITY_QOS_V3_A, _RPC_SECURITY_QOS_V3_A, _RPC_SECURITY_QOS_V3_W, rpc.rpc_security_qos_v3, rpcdce/PRPC_SECURITY_QOS_V3, rpcdce/RPC_SECURITY_QOS_V3"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_SECURITY_QOS_V3_A, *PRPC_SECURITY_QOS_V3_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_SECURITY_QOS_V3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_SECURITY_QOS_V3_A, *PRPC_SECURITY_QOS_V3_A
+req.redist: 
 ---
 
 # _RPC_SECURITY_QOS_V3_A structure

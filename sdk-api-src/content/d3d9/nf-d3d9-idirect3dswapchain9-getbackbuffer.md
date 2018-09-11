@@ -4,17 +4,16 @@ title: IDirect3DSwapChain9::GetBackBuffer
 author: windows-sdk-content
 description: Retrieves a back buffer from the swap chain of the device.
 old-location: direct3d9\idirect3dswapchain9__getbackbuffer.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__getbackbuffer.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 138c5b9c-c0c2-7051-6dd4-c5933f8d32fa, GetBackBuffer, GetBackBuffer method [Direct3D 9], GetBackBuffer method [Direct3D 9],IDirect3DSwapChain9 interface, IDirect3DSwapChain9 interface [Direct3D 9],GetBackBuffer method, IDirect3DSwapChain9.GetBackBuffer, IDirect3DSwapChain9::GetBackBuffer, d3d9helper/IDirect3DSwapChain9::GetBackBuffer, direct3d9.idirect3dswapchain9__getbackbuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DSwapChain9.GetBackBuffer
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DSwapChain9::GetBackBuffer
@@ -62,7 +61,7 @@ Retrieves a back buffer from the swap chain of the device.
 
 ### -param iBackBuffer
 
-
+TBD
 
 
 ### -param Type [in]

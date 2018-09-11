@@ -4,17 +4,16 @@ title: IMbnConnectionEvents::OnConnectComplete
 author: windows-sdk-content
 description: Notification method that signals the completion of a connection operation.
 old-location: mbn\imbnconnectionevents_onconnectcomplete.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: d770eda5-43f4-44d3-a870-fc54f9374610
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: E_MBN_ACTIVE_CONNECTION, E_MBN_INVALID_ACCESS_STRING, E_MBN_MAX_ACTIVATED_CONTEXTS, E_MBN_PACKET_SVC_DETACHED, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBLE, E_MBN_RADIO_POWER_OFF, E_MBN_SERVICE_NOT_ACTIVATED, E_MBN_SIM_NOT_INSERTED, E_MBN_VOICE_CALL_IN_PROGRESS, HRESULT_FROM_WIN32(ERROR_INVALID_PASSWORD), IMbnConnectionEvents interface [Microsoft Broadband Networks],OnConnectComplete method, IMbnConnectionEvents.OnConnectComplete, IMbnConnectionEvents::OnConnectComplete, OnConnectComplete, OnConnectComplete method [Microsoft Broadband Networks], OnConnectComplete method [Microsoft Broadband Networks],IMbnConnectionEvents interface, S_OK, mbn.imbnconnectionevents_onconnectcomplete, mbnapi/IMbnConnectionEvents::OnConnectComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionEvents.OnConnectComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionEvents::OnConnectComplete

@@ -4,17 +4,16 @@ title: "_ACE_HEADER"
 author: windows-sdk-content
 description: Defines the type and size of an access control entry (ACE).
 old-location: security\ace_header.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: d23f15d6-0453-4aaf-a2db-7528b551a992
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PACE_HEADER, ACCESS_ALLOWED_ACE_TYPE, ACCESS_ALLOWED_CALLBACK_ACE_TYPE, ACCESS_ALLOWED_CALLBACK_OBJECT_ACE_TYPE, ACCESS_ALLOWED_COMPOUND_ACE_TYPE, ACCESS_ALLOWED_OBJECT_ACE_TYPE, ACCESS_DENIED_ACE_TYPE, ACCESS_DENIED_CALLBACK_ACE_TYPE, ACCESS_DENIED_CALLBACK_OBJECT_ACE_TYPE, ACCESS_DENIED_OBJECT_ACE_TYPE, ACCESS_MAX_MS_ACE_TYPE, ACCESS_MAX_MS_OBJECT_ACE_TYPE, ACCESS_MAX_MS_V2_ACE_TYPE, ACCESS_MAX_MS_V3_ACE_TYPE, ACCESS_MAX_MS_V4_ACE_TYPE, ACCESS_MIN_MS_ACE_TYPE, ACCESS_MIN_MS_OBJECT_ACE_TYPE, ACE_HEADER, ACE_HEADER structure [Security], CONTAINER_INHERIT_ACE, FAILED_ACCESS_ACE_FLAG, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, PACE_HEADER, PACE_HEADER structure pointer [Security], SUCCESSFUL_ACCESS_ACE_FLAG, SYSTEM_ALARM_ACE_TYPE, SYSTEM_ALARM_CALLBACK_ACE_TYPE, SYSTEM_ALARM_CALLBACK_OBJECT_ACE_TYPE, SYSTEM_ALARM_OBJECT_ACE_TYPE, SYSTEM_AUDIT_ACE_TYPE, SYSTEM_AUDIT_CALLBACK_ACE_TYPE, SYSTEM_AUDIT_CALLBACK_OBJECT_ACE_TYPE, SYSTEM_AUDIT_OBJECT_ACE_TYPE, SYSTEM_MANDATORY_LABEL_ACE_TYPE, _ACE_HEADER, _win32_ace_header_str, security.ace_header, winnt/ACE_HEADER, winnt/PACE_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACE_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACE_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ACE_HEADER
+req.redist: 
 ---
 
 # _ACE_HEADER structure

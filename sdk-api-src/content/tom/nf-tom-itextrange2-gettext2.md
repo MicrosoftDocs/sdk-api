@@ -4,17 +4,16 @@ title: ITextRange2::GetText2
 author: windows-sdk-content
 description: Gets the text in this range according to the specified conversion flags.
 old-location: controls\itextrange2_gettext2.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 77f39808-b39d-45bb-ba03-3a27d503fe0e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetText2, GetText2 method [Windows Controls], GetText2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetText2 method, ITextRange2.GetText2, ITextRange2::GetText2, controls.itextrange2_gettext2, tom/ITextRange2::GetText2, tomAdjustCRLF, tomAllowFinalEOP, tomFoldMathAlpha, tomIncludeNumbering, tomLanguageTag, tomNoHidden, tomNoMathZoneBrackets, tomTextize, tomTranslateTableCell, tomUseCRLF
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange2.GetText2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange2::GetText2

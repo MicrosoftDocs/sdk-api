@@ -4,17 +4,16 @@ title: IMFSampleProtection::GetOutputProtectionVersion
 author: windows-sdk-content
 description: Retrieves the version of sample protection that the component implements on output.
 old-location: mf\imfsampleprotection_getoutputprotectionversion.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 607e6123-0cfa-4946-b390-1c44e502b2db
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 607e6123-0cfa-4946-b390-1c44e502b2db, GetOutputProtectionVersion, GetOutputProtectionVersion method [Media Foundation], GetOutputProtectionVersion method [Media Foundation],IMFSampleProtection interface, IMFSampleProtection interface [Media Foundation],GetOutputProtectionVersion method, IMFSampleProtection.GetOutputProtectionVersion, IMFSampleProtection::GetOutputProtectionVersion, mf.imfsampleprotection_getoutputprotectionversion, mfidl/IMFSampleProtection::GetOutputProtectionVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSampleProtection.GetOutputProtectionVersion
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSampleProtection::GetOutputProtectionVersion

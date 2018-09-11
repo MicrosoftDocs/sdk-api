@@ -4,7 +4,7 @@ title: IAMTunerNotification
 author: windows-sdk-content
 description: Note  This callback interface has been deprecated, because the TV Tuner filter does not implement the callback mechanism. .
 old-location: dshow\iamtunernotification.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8e5fde62-d17c-4d3c-bdb0-0748a9bd285b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMTunerNotification
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTunerNotification interface

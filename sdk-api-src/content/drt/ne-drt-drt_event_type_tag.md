@@ -4,7 +4,7 @@ title: drt_event_type_tag
 author: windows-sdk-content
 description: The DRT_EVENT_TYPE enumeration defines the set of events that can be raised by the Distributed Routing Table.
 old-location: p2p\drt_event_type.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 8125e663-10dd-4c3d-b9d6-ac6164b9f0a4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_EVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRT_EVENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRT_EVENT_TYPE
+req.redist: 
 ---
 
 # drt_event_type_tag enumeration

@@ -4,17 +4,16 @@ title: INetFwService::put_Scope
 author: windows-sdk-content
 description: Controls the network scope from which the port can listen.
 old-location: ics\inetfwservice_scope.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 17a7e47d-2145-4439-9999-7384de9fd12c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwService interface [ICS/ICF],Scope property, INetFwService.Scope, INetFwService.put_Scope, INetFwService::Scope, INetFwService::get_Scope, INetFwService::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwService interface, ics.inetfwservice_scope, netfw/INetFwService::Scope, netfw/INetFwService::get_Scope, netfw/INetFwService::put_Scope, put_Scope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwService.put_Scope
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwService::put_Scope

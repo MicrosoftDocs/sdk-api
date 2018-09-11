@@ -4,17 +4,16 @@ title: IDWriteFontFaceReference::GetFontFile
 author: windows-sdk-content
 description: Obtains the font file representing a font face.
 old-location: directwrite\idwritefontfacereference_getfontfile.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 4ceef760-32af-5b55-62ca-88adcc23696f
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFontFile, GetFontFile method [Direct Write], GetFontFile method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFontFile method, IDWriteFontFaceReference.GetFontFile, IDWriteFontFaceReference::GetFontFile, directwrite.idwritefontfacereference_getfontfile, dwrite_3/IDWriteFontFaceReference::GetFontFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFaceReference.GetFontFile
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFaceReference::GetFontFile

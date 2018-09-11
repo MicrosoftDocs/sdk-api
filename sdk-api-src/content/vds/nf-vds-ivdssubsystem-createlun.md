@@ -4,17 +4,16 @@ title: IVdsSubSystem::CreateLun
 author: windows-sdk-content
 description: Creates a logical unit number (LUN).
 old-location: base\ivdssubsystem_createlun.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: e8097364-1f23-4cda-8f12-a750bbb4eb4c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateLun, CreateLun method [VDS], CreateLun method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],CreateLun method, IVdsSubSystem.CreateLun, IVdsSubSystem::CreateLun, base.ivdssubsystem_createlun, vds/IVdsSubSystem::CreateLun, vdshwprv/IVdsSubSystem::CreateLun
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystem.CreateLun
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsSubSystem::CreateLun

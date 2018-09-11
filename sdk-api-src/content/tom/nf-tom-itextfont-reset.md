@@ -4,17 +4,16 @@ title: ITextFont::Reset
 author: windows-sdk-content
 description: Resets the character formatting to the specified values.
 old-location: controls\ITextFont_Reset.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontreset.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextFont interface [Windows Controls],Reset method, ITextFont.Reset, ITextFont::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextFont interface, _win32_ITextFont_Reset, _win32_ITextFont_Reset_cpp, controls.ITextFont_Reset, controls._win32_ITextFont_Reset, tom/ITextFont::Reset, tomApplyLater, tomApplyNow, tomApplyTmp, tomCacheParms, tomDefault, tomDisableSmartFont, tomEnableSmartFont, tomTrackParms, tomUndefined, tomUsePoints, tomUseTwips
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont::Reset

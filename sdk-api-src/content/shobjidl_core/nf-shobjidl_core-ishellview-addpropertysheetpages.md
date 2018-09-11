@@ -4,17 +4,16 @@ title: IShellView::AddPropertySheetPages
 author: windows-sdk-content
 description: Allows the view to add pages to the Options property sheet from the View menu.
 old-location: shell\IShellView_AddPropertySheetPages.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6f05ddf7-190e-41f5-b24a-d18112b34600
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: AddPropertySheetPages, AddPropertySheetPages method [Windows Shell], AddPropertySheetPages method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],AddPropertySheetPages method, IShellView.AddPropertySheetPages, IShellView::AddPropertySheetPages, _win32_IShellView_AddPropertySheetPages, shell.IShellView_AddPropertySheetPages, shobjidl_core/IShellView::AddPropertySheetPages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellView.AddPropertySheetPages
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellView::AddPropertySheetPages
@@ -69,7 +67,7 @@ Reserved.
 
 ### -param pfn
 
-
+TBD
 
 
 ### -param lparam [in]

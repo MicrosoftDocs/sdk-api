@@ -4,17 +4,16 @@ title: IPortableDeviceCapabilities::GetFixedPropertyAttributes
 author: windows-sdk-content
 description: The GetFixedPropertyAttributes method retrieves the standard property attributes for a specified property and format.
 old-location: wpdsdk\iportabledevicecapabilities_getfixedpropertyattributes.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 94e4e9f4-5858-4e12-bcd7-561fb3636fc8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetFixedPropertyAttributes, GetFixedPropertyAttributes method [Windows Portable Devices SDK], GetFixedPropertyAttributes method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetFixedPropertyAttributes method, IPortableDeviceCapabilities.GetFixedPropertyAttributes, IPortableDeviceCapabilities::GetFixedPropertyAttributes, IPortableDeviceCapabilitiesGetFixedPropertyAttributes, portabledeviceapi/IPortableDeviceCapabilities::GetFixedPropertyAttributes, wpdsdk.iportabledevicecapabilities_getfixedpropertyattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceCapabilities.GetFixedPropertyAttributes
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceCapabilities::GetFixedPropertyAttributes

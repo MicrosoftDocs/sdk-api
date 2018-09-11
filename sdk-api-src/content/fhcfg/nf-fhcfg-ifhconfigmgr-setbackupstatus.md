@@ -4,17 +4,16 @@ title: IFhConfigMgr::SetBackupStatus
 author: windows-sdk-content
 description: Changes the backup status value for an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_setbackupstatus.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 17FF01A1-028D-4A22-A64C-F24C98F86663
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FhConfigMgr class [Windows API],SetBackupStatus method, IFhConfigMgr interface [Windows API],SetBackupStatus method, IFhConfigMgr.SetBackupStatus, IFhConfigMgr::SetBackupStatus, SetBackupStatus, SetBackupStatus method [Windows API], SetBackupStatus method [Windows API],FhConfigMgr class, SetBackupStatus method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::SetBackupStatus, winprog.ifhconfigmgr_setbackupstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FhConfigMgr.SetBackupStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFhConfigMgr::SetBackupStatus

@@ -4,17 +4,16 @@ title: "_WKSTA_TRANSPORT_INFO_0"
 author: windows-sdk-content
 description: The WKSTA_TRANSPORT_INFO_0 structure contains information about the workstation transport protocol, such as Wide Area Network (WAN) or NetBIOS.
 old-location: netmgmt\wksta_transport_info_0_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: e7afe2a3-f729-4fd5-afc3-d3ffbd09e884
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWKSTA_TRANSPORT_INFO_0, *PWKSTA_TRANSPORT_INFO_0, LPWKSTA_TRANSPORT_INFO_0, LPWKSTA_TRANSPORT_INFO_0 structure pointer [Network Management], PWKSTA_TRANSPORT_INFO_0, PWKSTA_TRANSPORT_INFO_0 structure pointer [Network Management], WKSTA_TRANSPORT_INFO_0, WKSTA_TRANSPORT_INFO_0 structure [Network Management], _WKSTA_TRANSPORT_INFO_0, _win32_wksta_transport_info_0_str, lmwksta/LPWKSTA_TRANSPORT_INFO_0, lmwksta/PWKSTA_TRANSPORT_INFO_0, lmwksta/WKSTA_TRANSPORT_INFO_0, netmgmt.wksta_transport_info_0_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmwksta.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WKSTA_TRANSPORT_INFO_0, *PWKSTA_TRANSPORT_INFO_0, *LPWKSTA_TRANSPORT_INFO_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WKSTA_TRANSPORT_INFO_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: WKSTA_TRANSPORT_INFO_0, *PWKSTA_TRANSPORT_INFO_0, *LPWKSTA_TRANSPORT_INFO_0
+req.redist: 
 ---
 
 # _WKSTA_TRANSPORT_INFO_0 structure

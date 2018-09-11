@@ -4,17 +4,16 @@ title: SetupWriteTextLogError function
 author: windows-sdk-content
 description: The SetupWriteTextLogError function writes information about a SetupAPI-specific error or a Win32 system error to a SetupAPI text log.
 old-location: devinst\setupwritetextlogerror.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 9b52d5a7-4a7f-49eb-86c4-cc0434b54232
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupWriteTextLogError, SetupWriteTextLogError function [Device and Driver Installation], devinst.setupwritetextlogerror, setupapi/SetupWriteTextLogError, setupapilog-ref_886f507a-408e-4745-b9d2-ea0cf1bf7250.xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupWriteTextLogError
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupWriteTextLogError function
@@ -100,7 +98,14 @@ A SetupAPI-specific error code or a Win32 error code. The SetupAPI-specific erro
 A pointer to a NULL-terminated constant string that contains a <b>printf</b>-compatible format string, which specifies the formatted message to include in the log entry. 
 
 
-### -param param
+### -param arg1
+
+TBD
+
+
+
+
+#### - param
 
 A comma-separated parameter list that matches the format specifiers in the format string that is supplied by <i>MessageStr</i>. 
 

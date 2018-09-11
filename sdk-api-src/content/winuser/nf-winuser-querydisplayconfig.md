@@ -4,17 +4,16 @@ title: QueryDisplayConfig function
 author: windows-sdk-content
 description: The QueryDisplayConfig function retrieves information about all possible display paths for all display devices, or views, in the current setting.
 old-location: display\querydisplayconfig.htm
-old-project: display
+tech.root: display
 ms.assetid: b1792d7f-f216-4250-a6b6-a11b251a9cec
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: CCD_Functions_4fc57ba2-e10b-4d28-bbaf-a5ded2264e59.xml, QueryDisplayConfig, QueryDisplayConfig function [Display Devices], display.querydisplayconfig, winuser/QueryDisplayConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib; OneCoreUAP.lib on Windows 10
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - QueryDisplayConfig
 product: Windows
 targetos: Windows
-req.lib: User32.lib; OneCoreUAP.lib on Windows 10
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # QueryDisplayConfig function

@@ -4,7 +4,7 @@ title: DS_REPSYNCALL_SYNCW
 author: windows-sdk-content
 description: The DS_REPSYNCALL_SYNC structure identifies a single replication operation performed between a source, and destination, server by the DsReplicaSyncAll function.
 old-location: ad\ds_repsyncall_sync.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 54a6695e-3493-428b-9e8d-7f781e7b3961
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPSYNCALL_SYNCW, *PDS_REPSYNCALL_SYNCW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DS_REPSYNCALL_SYNCW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DS_REPSYNCALL_SYNCW, *PDS_REPSYNCALL_SYNCW
+req.redist: 
 ---
 
 # DS_REPSYNCALL_SYNCW structure

@@ -4,17 +4,16 @@ title: IProviderProperties::GetCount
 author: windows-sdk-content
 description: Gets the number of properties in the property store.
 old-location: ncd\iproviderproperties_getcount_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 25ed5782-c19e-4c3d-81f1-74e0ea3e195e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IProviderProperties interface, IProviderProperties interface,GetCount method, IProviderProperties.GetCount, IProviderProperties::GetCount, functiondiscoveryprovider/IProviderProperties::GetCount, ncd.iproviderproperties_getcount_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProviderProperties.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IProviderProperties::GetCount

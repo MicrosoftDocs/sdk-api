@@ -4,17 +4,16 @@ title: ICAT::GetNextTable
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_getnexttable.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 466643d5-02d1-4ac1-9143-867f503aad09
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetNextTable method, ICAT.GetNextTable, ICAT::GetNextTable, ICATGetNextTable, mpeg2psiparser/ICAT::GetNextTable, mstv.icat_getnexttable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICAT.GetNextTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ICAT::GetNextTable

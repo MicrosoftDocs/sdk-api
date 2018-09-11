@@ -4,17 +4,16 @@ title: ITrayDeskBand::ShowDeskBand
 author: windows-sdk-content
 description: Shows a specified deskband.
 old-location: shell\ITrayDeskBand_ShowDeskBand.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6fd46acd-47b3-46dd-955d-c036995dd01b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITrayDeskBand interface [Windows Shell],ShowDeskBand method, ITrayDeskBand.ShowDeskBand, ITrayDeskBand::ShowDeskBand, ShowDeskBand, ShowDeskBand method [Windows Shell], ShowDeskBand method [Windows Shell],ITrayDeskBand interface, _shell_ITrayDeskBand_ShowDeskBand, shell.ITrayDeskBand_ShowDeskBand, shobjidl/ITrayDeskBand::ShowDeskBand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITrayDeskBand.ShowDeskBand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # ITrayDeskBand::ShowDeskBand

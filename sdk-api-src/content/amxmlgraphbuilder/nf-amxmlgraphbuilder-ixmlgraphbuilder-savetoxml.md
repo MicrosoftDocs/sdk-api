@@ -4,17 +4,16 @@ title: IXMLGraphBuilder::SaveToXML
 author: windows-sdk-content
 description: The SaveToXML method saves a filter graph to an XML element.
 old-location: dshow\ixmlgraphbuilder_savetoxml.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 02f710a4-3d13-46b0-b00d-4ffd2b4c3157
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IXMLGraphBuilder interface [DirectShow],SaveToXML method, IXMLGraphBuilder.SaveToXML, IXMLGraphBuilder::SaveToXML, IXMLGraphBuilderSaveToXML, SaveToXML, SaveToXML method [DirectShow], SaveToXML method [DirectShow],IXMLGraphBuilder interface, amxmlgraphbuilder/IXMLGraphBuilder::SaveToXML, dshow.ixmlgraphbuilder_savetoxml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amxmlgraphbuilder.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_FRAMESTEP_STEP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IXMLGraphBuilder.SaveToXML
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IXMLGraphBuilder::SaveToXML

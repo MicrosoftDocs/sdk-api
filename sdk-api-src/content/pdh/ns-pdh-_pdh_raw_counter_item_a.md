@@ -4,7 +4,7 @@ title: "_PDH_RAW_COUNTER_ITEM_A"
 author: windows-sdk-content
 description: The PDH_RAW_COUNTER_ITEM structure contains the instance name and raw value of a counter.
 old-location: perf\pdh_raw_counter_item_str.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 602e0d44-3551-4a26-a5b7-8f7015131f9a
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDH_RAW_COUNTER_ITEM_A, *PPDH_RAW_COUNTER_ITEM_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PDH_RAW_COUNTER_ITEM_W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PDH_RAW_COUNTER_ITEM_A, *PPDH_RAW_COUNTER_ITEM_A
+req.redist: 
 ---
 
 # _PDH_RAW_COUNTER_ITEM_A structure

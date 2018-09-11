@@ -4,17 +4,16 @@ title: IDVBTLocator::get_OtherFrequencyInUse
 author: windows-sdk-content
 description: The get_OtherFrequencyInUse method indicates whether the frequency is being used by another DVB-T broadcaster.
 old-location: mstv\idvbtlocator_get_otherfrequencyinuse.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fcb39760-901f-4c62-a517-bee7ea96f8d9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_OtherFrequencyInUse method, IDVBTLocator.get_OtherFrequencyInUse, IDVBTLocator::get_OtherFrequencyInUse, IDVBTLocatorget_OtherFrequencyInUse, get_OtherFrequencyInUse, get_OtherFrequencyInUse method [Microsoft TV Technologies], get_OtherFrequencyInUse method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_otherfrequencyinuse, tuner/IDVBTLocator::get_OtherFrequencyInUse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVBTLocator.get_OtherFrequencyInUse
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBTLocator::get_OtherFrequencyInUse
@@ -65,7 +63,7 @@ The <b>get_OtherFrequencyInUse</b> method indicates whether the frequency is bei
 
 ### -param OtherFrequencyInUseVal
 
-
+TBD
 
 
 

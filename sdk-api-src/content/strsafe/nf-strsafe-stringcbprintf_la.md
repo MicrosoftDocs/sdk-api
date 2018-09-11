@@ -4,17 +4,16 @@ title: StringCbPrintf_lA function
 author: windows-sdk-content
 description: Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 old-location: menurc\stringcbprintf_l.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: d4576e63-32b0-413d-9b8c-ae16e6e15990
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StringCbPrintf_l, StringCbPrintf_l function [Menus and Other Resources], StringCbPrintf_lA, StringCbPrintf_lW, menurc.stringcbprintf_l, strsafe/StringCbPrintf_l, strsafe/StringCbPrintf_lA, strsafe/StringCbPrintf_lW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVD_RENDERSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - StringCbPrintf_lW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # StringCbPrintf_lA function
@@ -84,7 +82,14 @@ The format string. This string must be null-terminated. For more information, se
 The locale object. For more information, see <b>_create_locale</b>.
 
 
-### -param param [in]
+### -param arg1
+
+TBD
+
+
+
+
+#### - param [in]
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 

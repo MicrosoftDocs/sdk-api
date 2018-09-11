@@ -4,17 +4,16 @@ title: IRtwqAsyncResult::GetStatus
 author: windows-sdk-content
 description: Returns the status of the asynchronous operation.
 old-location: base\irtwqasyncresult_getstatus.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 90E965E5-29E6-4FC9-A923-FBBCC12195E2
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetStatus, GetStatus method, GetStatus method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetStatus method, IRtwqAsyncResult.GetStatus, IRtwqAsyncResult::GetStatus, base.irtwqasyncresult_getstatus, rtworkq/IRtwqAsyncResult::GetStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtworkq.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRtwqAsyncResult.GetStatus
 product: Windows
 targetos: Windows
-req.lib: Rtworkq.lib
-req.dll: RTWorkQ.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRtwqAsyncResult::GetStatus

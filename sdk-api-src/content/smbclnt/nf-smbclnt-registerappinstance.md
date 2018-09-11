@@ -4,17 +4,16 @@ title: RegisterAppInstance function
 author: windows-sdk-content
 description: Registers the AppInstance ID for a process.
 old-location: mscs\registerappinstance.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 43CAC59A-5773-44BD-8965-F9FB85B86926
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PREGISTER_APPINSTANCE, PREGISTER_APPINSTANCE function [Failover Cluster], RegisterAppInstance, RegisterAppInstance function [Failover Cluster], mscs.registerappinstance, smbclnt/PREGISTER_APPINSTANCE, smbclnt/RegisterAppInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: smbclnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_NONGENUINE_UI_OPTIONS
+req.lib: NTLanMan.lib
+req.dll: NTLanMan.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RegisterAppInstance
 product: Windows
 targetos: Windows
-req.lib: NTLanMan.lib
-req.dll: NTLanMan.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterAppInstance function
@@ -82,7 +80,7 @@ The application instance ID, which is a <b>GUID</b>.
 
 
 
-This function returns DWORD __stdcall.
+This function returns DWORD.
 
 
 

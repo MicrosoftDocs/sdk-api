@@ -4,17 +4,16 @@ title: IMbnSmsConfiguration::get_MaxMessageIndex
 author: windows-sdk-content
 description: SMS message memory capacity.
 old-location: mbn\imbnsmsconfiguration_maxmessageindex.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: c7dee4b7-4a34-4d08-aae3-7455531a9556
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],MaxMessageIndex property, IMbnSmsConfiguration.MaxMessageIndex, IMbnSmsConfiguration.get_MaxMessageIndex, IMbnSmsConfiguration::MaxMessageIndex, IMbnSmsConfiguration::get_MaxMessageIndex, MaxMessageIndex property [Microsoft Broadband Networks], MaxMessageIndex property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, get_MaxMessageIndex, mbn.imbnsmsconfiguration_maxmessageindex, mbnapi/IMbnSmsConfiguration::MaxMessageIndex, mbnapi/IMbnSmsConfiguration::get_MaxMessageIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnSmsConfiguration.get_MaxMessageIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsConfiguration::get_MaxMessageIndex

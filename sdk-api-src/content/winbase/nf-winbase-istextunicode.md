@@ -4,17 +4,16 @@ title: IsTextUnicode function
 author: windows-sdk-content
 description: Determines if a buffer is likely to contain a form of Unicode text.
 old-location: intl\istextunicode.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 47e05b5b-a16b-4957-bc86-ed3cef4968ee
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IS_TEXT_UNICODE_ASCII16, IS_TEXT_UNICODE_BUFFER_TOO_SMALL, IS_TEXT_UNICODE_CONTROLS, IS_TEXT_UNICODE_ILLEGAL_CHARS, IS_TEXT_UNICODE_NOT_ASCII_MASK, IS_TEXT_UNICODE_NOT_UNICODE_MASK, IS_TEXT_UNICODE_NULL_BYTES, IS_TEXT_UNICODE_ODD_LENGTH, IS_TEXT_UNICODE_REVERSE_ASCII16, IS_TEXT_UNICODE_REVERSE_CONTROLS, IS_TEXT_UNICODE_REVERSE_MASK, IS_TEXT_UNICODE_REVERSE_SIGNATURE, IS_TEXT_UNICODE_REVERSE_STATISTICS, IS_TEXT_UNICODE_SIGNATURE, IS_TEXT_UNICODE_STATISTICS, IS_TEXT_UNICODE_UNICODE_MASK, IsTextUnicode, IsTextUnicode function [Internationalization for Windows Applications], _win32_IsTextUnicode, intl.istextunicode, winbase/IsTextUnicode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IsTextUnicode
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IsTextUnicode function

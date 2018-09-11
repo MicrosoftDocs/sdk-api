@@ -4,7 +4,7 @@ title: IPSEC_AUTH_TYPE_
 author: windows-sdk-content
 description: Indicates the type of hash algorithm used in an IPsec SA for data origin authentication and integrity protection.
 old-location: fwp\ipsec_auth_type_enum.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 9130ffa3-b757-42fa-b6bb-d380f2dbdbcb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_AUTH_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_AUTH_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_AUTH_TYPE
+req.redist: 
 ---
 
 # IPSEC_AUTH_TYPE_ enumeration

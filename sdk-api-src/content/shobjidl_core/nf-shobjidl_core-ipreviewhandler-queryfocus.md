@@ -4,17 +4,16 @@ title: IPreviewHandler::QueryFocus
 author: windows-sdk-content
 description: Directs the preview handler to return the HWND from calling the GetFocus Function.
 old-location: shell\IPreviewHandler_QueryFocus.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8d21655b-ff0c-4396-a353-f968c28c4883
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],QueryFocus method, IPreviewHandler.QueryFocus, IPreviewHandler::QueryFocus, QueryFocus, QueryFocus method [Windows Shell], QueryFocus method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_QueryFocus, shell.IPreviewHandler_QueryFocus, shobjidl_core/IPreviewHandler::QueryFocus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: Windows Search 4 or later
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPreviewHandler.QueryFocus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: Windows Search 4 or later
 ---
 
 # IPreviewHandler::QueryFocus

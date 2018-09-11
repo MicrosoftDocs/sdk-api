@@ -4,17 +4,16 @@ title: IWRdsProtocolLicenseConnection::ProtocolComplete
 author: windows-sdk-content
 description: Notifies the protocol whether the licensing process completed successfully.
 old-location: termserv\iwrdsprotocollicenseconnection_protocolcomplete.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: d9b0efe8-2988-4797-921a-544f410ac6d0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],ProtocolComplete method, IWRdsProtocolLicenseConnection.ProtocolComplete, IWRdsProtocolLicenseConnection::ProtocolComplete, ProtocolComplete, ProtocolComplete method [Remote Desktop Services], ProtocolComplete method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_protocolcomplete, wtsprotocol/IWRdsProtocolLicenseConnection::ProtocolComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWRdsProtocolLicenseConnection.ProtocolComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWRdsProtocolLicenseConnection::ProtocolComplete

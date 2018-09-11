@@ -4,7 +4,7 @@ title: opentype_feature_record
 author: windows-sdk-content
 description: Contains information about a single OpenType feature to apply to a run.
 old-location: intl\opentype_feature_record.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 3f4d76f7-fd50-4a38-973b-329e477e5960
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 
-req.redist: Usp10.dll version 1.600 or greater onWindows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPENTYPE_FEATURE_RECORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPENTYPE_FEATURE_RECORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: OPENTYPE_FEATURE_RECORD
+req.redist: Usp10.dll version 1.600 or greater onWindows XP
 ---
 
 # opentype_feature_record structure

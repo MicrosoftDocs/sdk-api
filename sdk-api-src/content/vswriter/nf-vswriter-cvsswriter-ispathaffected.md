@@ -4,17 +4,16 @@ title: CVssWriter::IsPathAffected
 author: windows-sdk-content
 description: The IsPathAffected method determines whether the specified directory or file is included in the current shadow copy set. The path for the directory or file can be a local path or a UNC path of a remote file share.
 old-location: base\cvsswriter_ispathaffected.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 576e2e25-82dd-4b72-b777-0abc22a06386
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CVssWriter class [VSS],IsPathAffected method, CVssWriter.IsPathAffected, CVssWriter::IsPathAffected, IsPathAffected, IsPathAffected method [VSS], IsPathAffected method [VSS],CVssWriter class, _win32_cvsswriter_ispathaffected, base.cvsswriter_ispathaffected, vswriter/CVssWriter::IsPathAffected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriter.IsPathAffected
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriter::IsPathAffected

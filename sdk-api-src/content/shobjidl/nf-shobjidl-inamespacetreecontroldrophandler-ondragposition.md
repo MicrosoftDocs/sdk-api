@@ -4,17 +4,16 @@ title: INameSpaceTreeControlDropHandler::OnDragPosition
 author: windows-sdk-content
 description: Called when the item is being dragged within the same level (within the same parent folder) in the tree.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDragPosition.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b3f49da1-81a0-4d54-a2c3-5cb76f8a02de
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDragPosition method, INameSpaceTreeControlDropHandler.OnDragPosition, INameSpaceTreeControlDropHandler::OnDragPosition, OnDragPosition, OnDragPosition method [Windows Shell], OnDragPosition method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDragPosition, shell.INameSpaceTreeControlDropHandler_OnDragPosition, shobjidl/INameSpaceTreeControlDropHandler::OnDragPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlDropHandler.OnDragPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlDropHandler::OnDragPosition

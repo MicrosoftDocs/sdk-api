@@ -4,17 +4,16 @@ title: IDirectMusicSynth8::StopVoice
 author: windows-sdk-content
 description: StopVoice is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_stopvoice.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 9DF47B73-B8D1-49C8-8839-7AB0700CC4CC
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],StopVoice method, IDirectMusicSynth8.StopVoice, IDirectMusicSynth8::StopVoice, StopVoice, StopVoice method [Audio Devices], StopVoice method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_stopvoice, dmusics/IDirectMusicSynth8::StopVoice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectMusicSynth8.StopVoice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectMusicSynth8::StopVoice

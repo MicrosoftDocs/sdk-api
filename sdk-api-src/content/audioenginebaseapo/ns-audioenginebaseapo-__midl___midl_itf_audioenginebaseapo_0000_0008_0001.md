@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_audioenginebaseapo_0000_0008_0001"
 author: windows-sdk-content
 description: The AudioFXExtensionParams structure is passed to the system effects ControlPanel Extension PropertyPage via IShellPropSheetExt::AddPages.
 old-location: audio\audiofxextensionparams.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 832F1190-ED3E-4059-AB45-18C23D98663B
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioenginebaseapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioFXExtensionParams
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AudioFXExtensionParams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: All levels.
+req.typenames: AudioFXExtensionParams
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_audioenginebaseapo_0000_0008_0001 structure

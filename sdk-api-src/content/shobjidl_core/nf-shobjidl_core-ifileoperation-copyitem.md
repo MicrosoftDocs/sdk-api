@@ -4,17 +4,16 @@ title: IFileOperation::CopyItem
 author: windows-sdk-content
 description: Declares a single item that is to be copied to a specified destination.
 old-location: shell\IFileOperation_CopyItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 36d623b7-67c3-48b7-be9b-9264b5b8d919
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CopyItem, CopyItem method [Windows Shell], CopyItem method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],CopyItem method, IFileOperation.CopyItem, IFileOperation::CopyItem, _shell_IFileOperation_CopyItem, shell.IFileOperation_CopyItem, shobjidl_core/IFileOperation::CopyItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperation.CopyItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperation::CopyItem

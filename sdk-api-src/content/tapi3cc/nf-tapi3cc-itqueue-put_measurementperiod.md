@@ -4,17 +4,16 @@ title: ITQueue::put_MeasurementPeriod
 author: windows-sdk-content
 description: The put_MeasurementPeriod method sets the period (in seconds) for which the switch and/or implementation stores and calculates information.
 old-location: tapi3\itqueue_put_measurementperiod.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 9e32b2ae-c4e5-4624-b970-673c950dee3b
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITQueue interface [TAPI 2.2],put_MeasurementPeriod method, ITQueue.put_MeasurementPeriod, ITQueue::put_MeasurementPeriod, _tapi3_itqueue_put_measurementperiod, put_MeasurementPeriod, put_MeasurementPeriod method [TAPI 2.2], put_MeasurementPeriod method [TAPI 2.2],ITQueue interface, tapi3.itqueue_put_measurementperiod, tapi3cc/ITQueue::put_MeasurementPeriod
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITQueue.put_MeasurementPeriod
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITQueue::put_MeasurementPeriod

@@ -4,17 +4,16 @@ title: "_SECURITY_INTEGER"
 author: windows-sdk-content
 description: SECURITY_INTEGER is a structure that holds a numeric value. It is used in defining other types.
 old-location: security\security_integer.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 51805230-afcb-490c-8c3d-1a533f3a58f0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECURITY_INTEGER, *PTimeStamp, SECURITY_INTEGER, SECURITY_INTEGER structure [Security], TimeStamp, _SECURITY_INTEGER, _ssp_security_integer, security.security_integer, sspi/SECURITY_INTEGER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECURITY_INTEGER, *PSECURITY_INTEGER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECURITY_INTEGER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SECURITY_INTEGER, *PSECURITY_INTEGER
+req.redist: 
 ---
 
 # _SECURITY_INTEGER structure

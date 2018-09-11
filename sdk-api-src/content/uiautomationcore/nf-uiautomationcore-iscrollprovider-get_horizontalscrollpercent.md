@@ -4,17 +4,16 @@ title: IScrollProvider::get_HorizontalScrollPercent
 author: windows-sdk-content
 description: Specifies the horizontal scroll position.
 old-location: winauto\uiauto_IScrollProvider_HorizontalScrollPercent.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 02affb6c-cacb-4305-beb3-7ccef8f0662a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HorizontalScrollPercent property [Windows Accessibility], HorizontalScrollPercent property [Windows Accessibility],IScrollProvider interface, IScrollProvider interface [Windows Accessibility],HorizontalScrollPercent property, IScrollProvider.HorizontalScrollPercent, IScrollProvider.get_HorizontalScrollPercent, IScrollProvider::HorizontalScrollPercent, IScrollProvider::get_HorizontalScrollPercent, get_HorizontalScrollPercent, uiauto.uiauto_IScrollProvider_HorizontalScrollPercent, uiauto_IScrollProvider_HorizontalScrollPercent, uiautomationcore/IScrollProvider::HorizontalScrollPercent, uiautomationcore/IScrollProvider::get_HorizontalScrollPercent, winauto.uiauto_IScrollProvider_HorizontalScrollPercent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IScrollProvider.get_HorizontalScrollPercent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IScrollProvider::get_HorizontalScrollPercent

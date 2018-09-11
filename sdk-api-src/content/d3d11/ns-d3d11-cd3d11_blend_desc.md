@@ -4,7 +4,7 @@ title: CD3D11_BLEND_DESC
 author: windows-sdk-content
 description: Represents a blend-state structure and provides convenience methods for creating blend-state structures.
 old-location: direct3d11\cd3d11_blend_desc.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: EC45CD9E-FD2E-4D1D-9D35-1CD7C5B8085D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CD3D11_BLEND_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CD3D11_BLEND_DESC structure

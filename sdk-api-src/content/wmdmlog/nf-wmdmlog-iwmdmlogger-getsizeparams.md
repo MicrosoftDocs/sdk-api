@@ -4,17 +4,16 @@ title: IWMDMLogger::GetSizeParams
 author: windows-sdk-content
 description: The GetSizeParams method retrieves the current size parameters of the current log file.
 old-location: wmdm\iwmdmlogger_getsizeparams.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: c8775cea-3764-44cf-a977-c4c529e2133e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSizeParams, GetSizeParams method [windows Media Device Manager], GetSizeParams method [windows Media Device Manager],IWMDMLogger interface, IWMDMLogger interface [windows Media Device Manager],GetSizeParams method, IWMDMLogger.GetSizeParams, IWMDMLogger::GetSizeParams, IWMDMLoggerGetSizeParams, wmdm.iwmdmlogger_getsizeparams, wmdmlog/IWMDMLogger::GetSizeParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmdmlog.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_INDEX_IDENTIFIER
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMLogger.GetSizeParams
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMLogger::GetSizeParams

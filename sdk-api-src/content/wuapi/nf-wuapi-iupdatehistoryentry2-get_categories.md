@@ -4,17 +4,16 @@ title: IUpdateHistoryEntry2::get_Categories
 author: windows-sdk-content
 description: Gets a collection of the update categories to which an update belongs.
 old-location: wua\iupdatehistoryentry2_categories.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: b821d608-61c2-4442-8b7e-18e27006602b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Categories property [Windows Update Agent], Categories property [Windows Update Agent],IUpdateHistoryEntry2 interface, IUpdateHistoryEntry2 interface [Windows Update Agent],Categories property, IUpdateHistoryEntry2.Categories, IUpdateHistoryEntry2.get_Categories, IUpdateHistoryEntry2::Categories, IUpdateHistoryEntry2::get_Categories, get_Categories, wua.iupdatehistoryentry2_categories, wuapi/IUpdateHistoryEntry2::Categories, wuapi/IUpdateHistoryEntry2::get_Categories
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUpdateHistoryEntry2.get_Categories
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateHistoryEntry2::get_Categories

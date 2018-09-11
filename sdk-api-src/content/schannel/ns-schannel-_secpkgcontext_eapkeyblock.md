@@ -4,17 +4,16 @@ title: "_SecPkgContext_EapKeyBlock"
 author: windows-sdk-content
 description: Contains key data used by the EAP TLS Authentication Protocol.
 old-location: security\secpkgcontext_eapkeyblock.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: c1b1f1d1-20f9-4a16-a279-b9cc95ff4e64
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock structure pointer [Security], SecPkgContext_EapKeyBlock, SecPkgContext_EapKeyBlock structure [Security], _SecPkgContext_EapKeyBlock, schannel/PSecPkgContext_EapKeyBlock, schannel/SecPkgContext_EapKeyBlock, security.secpkgcontext_eapkeyblock"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_EapKeyBlock, *PSecPkgContext_EapKeyBlock
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_EapKeyBlock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SecPkgContext_EapKeyBlock, *PSecPkgContext_EapKeyBlock
+req.redist: 
 ---
 
 # _SecPkgContext_EapKeyBlock structure

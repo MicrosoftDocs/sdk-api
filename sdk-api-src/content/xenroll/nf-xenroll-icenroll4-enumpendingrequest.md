@@ -4,17 +4,16 @@ title: ICEnroll4::enumPendingRequest
 author: windows-sdk-content
 description: Enumerates pending certificate requests and retrieves a specified property from each. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_enumpendingrequest.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 566974d1-79ec-4cbd-ae84-85e0a78edf58
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CEnroll object [Security],enumPendingRequest method, ICEnroll4 interface [Security],enumPendingRequest method, ICEnroll4.enumPendingRequest, ICEnroll4::enumPendingRequest, XEPR_CADNS, XEPR_CAFRIENDLYNAME, XEPR_CANAME, XEPR_HASH, XEPR_REQUESTID, _xen_icenroll4_enumpendingrequest, enumPendingRequest, enumPendingRequest method [Security], enumPendingRequest method [Security],CEnroll object, enumPendingRequest method [Security],ICEnroll4 interface, security.icenroll4_enumpendingrequest, xenroll/ICEnroll4::enumPendingRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CEnroll.enumPendingRequest
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ICEnroll4::enumPendingRequest

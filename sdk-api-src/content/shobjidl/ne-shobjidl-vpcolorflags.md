@@ -4,17 +4,16 @@ title: VPCOLORFLAGS
 author: windows-sdk-content
 description: Specifies the use of a color. Used by IVisualProperties methods.
 old-location: shell\VPCOLORFLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 438fb7ee-c0ce-4c20-9dbb-51593005d3ad
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: VPCF_BACKGROUND, VPCF_SORTCOLUMN, VPCF_SUBTEXT, VPCF_TEXT, VPCF_TEXTBACKGROUND, VPCOLORFLAGS, VPCOLORFLAGS enumeration [Windows Shell], _shell_VPCOLORFLAGS, shell.VPCOLORFLAGS, shobjidl/VPCF_BACKGROUND, shobjidl/VPCF_SORTCOLUMN, shobjidl/VPCF_SUBTEXT, shobjidl/VPCF_TEXT, shobjidl/VPCF_TEXTBACKGROUND, shobjidl/VPCOLORFLAGS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPCOLORFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VPCOLORFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: VPCOLORFLAGS
+req.redist: 
 ---
 
 # VPCOLORFLAGS enumeration

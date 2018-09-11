@@ -4,17 +4,16 @@ title: IWSDAsyncResult::GetAsyncState
 author: windows-sdk-content
 description: Gets the state of the asynchronous operation.
 old-location: ncd\iwsdasyncresult_getasyncstate_method.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 4f4115bd-748e-41cd-928f-3dd3a354d336
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetAsyncState, GetAsyncState method, GetAsyncState method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetAsyncState method, IWSDAsyncResult.GetAsyncState, IWSDAsyncResult::GetAsyncState, ncd.iwsdasyncresult_getasyncstate_method, wsdclient/IWSDAsyncResult::GetAsyncState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDAsyncResult.GetAsyncState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDAsyncResult::GetAsyncState

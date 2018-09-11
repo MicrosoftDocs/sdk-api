@@ -4,17 +4,16 @@ title: "_SECPKG_EXTENDED_INFORMATION"
 author: windows-sdk-content
 description: The SECPKG_EXTENDED_INFORMATION structure is used to hold information about optional package capabilities.This structure is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.
 old-location: security\secpkg_extended_information.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 3d80dfc0-c35b-4d14-8196-02944c3db8d2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECPKG_EXTENDED_INFORMATION, PSECPKG_EXTENDED_INFORMATION, PSECPKG_EXTENDED_INFORMATION structure pointer [Security], SECPKG_EXTENDED_INFORMATION, SECPKG_EXTENDED_INFORMATION structure [Security], _SECPKG_EXTENDED_INFORMATION, _ssp_secpkg_extended_information, ntsecpkg/PSECPKG_EXTENDED_INFORMATION, ntsecpkg/SECPKG_EXTENDED_INFORMATION, security.secpkg_extended_information"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_EXTENDED_INFORMATION, *PSECPKG_EXTENDED_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_EXTENDED_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_EXTENDED_INFORMATION, *PSECPKG_EXTENDED_INFORMATION
+req.redist: 
 ---
 
 # _SECPKG_EXTENDED_INFORMATION structure

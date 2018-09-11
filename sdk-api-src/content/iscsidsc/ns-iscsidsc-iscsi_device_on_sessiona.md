@@ -4,7 +4,7 @@ title: ISCSI_DEVICE_ON_SESSIONA
 author: windows-sdk-content
 description: ISCSI_DEVICE_ON_SESSION structure specifies multiple methods for identifying a device associated with an iSCSI login session.
 old-location: iscsidisc\iscsi_device_on_session.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: ea5d01ee-64c7-43bb-8945-af38d06de36c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ISCSI_DEVICE_ON_SESSIONA, *PISCSI_DEVICE_ON_SESSIONA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ISCSI_DEVICE_ON_SESSIONW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ISCSI_DEVICE_ON_SESSIONA, *PISCSI_DEVICE_ON_SESSIONA
+req.redist: 
 ---
 
 # ISCSI_DEVICE_ON_SESSIONA structure

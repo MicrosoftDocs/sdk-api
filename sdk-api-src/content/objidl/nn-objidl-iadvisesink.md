@@ -4,17 +4,16 @@ title: IAdviseSink
 author: windows-sdk-content
 description: Enables containers and other objects to receive notifications of data changes, view changes, and compound-document changes occurring in objects of interest.
 old-location: com\iadvisesink.htm
-old-project: com
+tech.root: com
 ms.assetid: bc9f217a-75bd-4155-9d00-df44b00cf0e5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAdviseSink, IAdviseSink interface [COM], IAdviseSink interface [COM],described, _ole_iadvisesink, com.iadvisesink, objidl/IAdviseSink
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAdviseSink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAdviseSink interface

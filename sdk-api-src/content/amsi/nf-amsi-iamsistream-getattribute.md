@@ -4,17 +4,16 @@ title: IAmsiStream::GetAttribute
 author: windows-sdk-content
 description: Returns a requested attribute from the stream.
 old-location: amsi\iamsistream_getattribute.htm
-old-project: AMSI
+tech.root: AMSI
 ms.assetid: 7AD74D85-1A1E-4AFD-91C1-670AC7280285
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAttribute, GetAttribute method [Antimalware Scan Interface], GetAttribute method [Antimalware Scan Interface],IAmsiStream interface, IAmsiStream interface [Antimalware Scan Interface],GetAttribute method, IAmsiStream.GetAttribute, IAmsiStream::GetAttribute, amsi.iamsistream_getattribute, amsi/IAmsiStream::GetAttribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amsi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAmsiStream.GetAttribute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAmsiStream::GetAttribute

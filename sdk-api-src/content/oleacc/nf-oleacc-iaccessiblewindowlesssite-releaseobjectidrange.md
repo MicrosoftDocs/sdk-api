@@ -4,17 +4,16 @@ title: IAccessibleWindowlessSite::ReleaseObjectIdRange
 author: windows-sdk-content
 description: Releases an object ID range that was acquired by a previous call to the IAccessibleWindowlessSite::AcquireObjectIdRange method.
 old-location: winauto\uiauto_IAccessibleWindowlessSite_ReleaseObjectIdRange.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: CC7AEE46-88BE-445C-A377-C9E8C2B505D3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccessibleWindowlessSite interface [Windows Accessibility],ReleaseObjectIdRange method, IAccessibleWindowlessSite.ReleaseObjectIdRange, IAccessibleWindowlessSite::ReleaseObjectIdRange, ReleaseObjectIdRange, ReleaseObjectIdRange method [Windows Accessibility], ReleaseObjectIdRange method [Windows Accessibility],IAccessibleWindowlessSite interface, oleacc/IAccessibleWindowlessSite::ReleaseObjectIdRange, winauto.uiauto_IAccessibleWindowlessSite_ReleaseObjectIdRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessibleWindowlessSite.ReleaseObjectIdRange
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAccessibleWindowlessSite::ReleaseObjectIdRange

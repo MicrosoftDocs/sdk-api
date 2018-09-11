@@ -4,7 +4,7 @@ title: IResultDataCompareEx
 author: windows-sdk-content
 description: Allows primary snap-ins to compare both scope and result items that are displayed in a sorted order in the result pane.
 old-location: mmc\iresultdatacompareex.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: e4b305e4-4649-42f4-86f4-3c12e5aa5337
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IResultDataCompareEx
 product: Windows
 targetos: Windows
-req.lib: Mmc.lib
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IResultDataCompareEx interface

@@ -4,17 +4,16 @@ title: WinBioEnrollCaptureWithCallback function
 author: windows-sdk-content
 description: Asynchronously captures a biometric sample and adds it to a template.
 old-location: secbiomet\winbioenrollcapturewithcallback.htm
-old-project: secbiomet
+tech.root: SecBioMet
 ms.assetid: 809e7d2f-6b41-4afc-86c2-43b6611d6e48
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WinBioEnrollCaptureWithCallback, WinBioEnrollCaptureWithCallback function [Windows Biometric Framework API], secbiomet.winbioenrollcapturewithcallback, winbio/WinBioEnrollCaptureWithCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+req.lib: Winbio.lib
+req.dll: Winbio.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WinBioEnrollCaptureWithCallback
 product: Windows
 targetos: Windows
-req.lib: Winbio.lib
-req.dll: Winbio.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinBioEnrollCaptureWithCallback function

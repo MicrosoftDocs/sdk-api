@@ -4,17 +4,16 @@ title: ISyncMgrEventStore::RemoveEvent
 author: windows-sdk-content
 description: Removes events, as specified.
 old-location: shell\ISyncMgrEventStore_RemoveEvent.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 08d01b6f-1e1f-4f03-9595-f374805ae734
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrEventStore interface [Windows Shell],RemoveEvent method, ISyncMgrEventStore.RemoveEvent, ISyncMgrEventStore::RemoveEvent, RemoveEvent, RemoveEvent method [Windows Shell], RemoveEvent method [Windows Shell],ISyncMgrEventStore interface, _shell_ISyncMgrEventStore_RemoveEvent, shell.ISyncMgrEventStore_RemoveEvent, syncmgr/ISyncMgrEventStore::RemoveEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrEventStore.RemoveEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrEventStore::RemoveEvent

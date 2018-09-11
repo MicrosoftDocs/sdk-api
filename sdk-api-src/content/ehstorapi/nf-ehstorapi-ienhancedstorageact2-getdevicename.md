@@ -4,17 +4,16 @@ title: IEnhancedStorageACT2::GetDeviceName
 author: windows-sdk-content
 description: IEnhancedStorageACT2::GetDeviceName method returns the device name associated with the Addressable Command Target (ACT).
 old-location: enstor\ienhancedstorageact2_getdevicename.htm
-old-project: enstor
+tech.root: enstor
 ms.assetid: 8603a7c3-b3b9-4b84-9f74-96b639c6c961
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: GetDeviceName, GetDeviceName method [Enhanced Storage], GetDeviceName method [Enhanced Storage],IEnhancedStorageACT2 interface, IEnhancedStorageACT2 interface [Enhanced Storage],GetDeviceName method, IEnhancedStorageACT2.GetDeviceName, IEnhancedStorageACT2::GetDeviceName, ehstorapi/IEnhancedStorageACT2::GetDeviceName, enstor.ienhancedstorageact2_getdevicename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimedLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnhancedStorageACT2.GetDeviceName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnhancedStorageACT2::GetDeviceName

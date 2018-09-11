@@ -4,17 +4,16 @@ title: GuarFlowSpec
 author: windows-sdk-content
 description: The GuarFlowSpec structure contains guaranteed flowspec information.
 old-location: qos\guarflowspec.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 549380cc-b4ac-414a-9058-f506741f1e76
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GuarFlowSpec, GuarFlowSpec structure [QOS], lpmapi/GuarFlowSpec, qos.guarflowspec
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GuarFlowSpec
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GuarFlowSpec
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: GuarFlowSpec
+req.redist: 
 ---
 
 # GuarFlowSpec structure

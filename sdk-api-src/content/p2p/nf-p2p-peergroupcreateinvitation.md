@@ -4,17 +4,16 @@ title: PeerGroupCreateInvitation function
 author: windows-sdk-content
 description: The PeerGroupCreateInvitation function returns an XML string that can be used by the specified peer to join a group.
 old-location: p2p\peergroupcreateinvitation.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 1ae5c288-6e9b-452a-8994-7878d713cd6d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PeerGroupCreateInvitation, PeerGroupCreateInvitation function [Peer Networking], p2p.peergroupcreateinvitation, p2p/PeerGroupCreateInvitation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerGroupCreateInvitation
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerGroupCreateInvitation function

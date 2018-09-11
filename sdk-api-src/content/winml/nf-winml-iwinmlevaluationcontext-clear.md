@@ -4,17 +4,16 @@ title: IWinMLEvaluationContext::Clear
 author: windows-sdk-content
 description: Clears the bindings for a model.
 old-location: machinelearning\iwinmlevaluationcontext_clear.htm
-old-project: MachineLearning
+tech.root: MachineLearning
 ms.assetid: DBA33BEB-0843-463C-8EB8-BF86C7D106AC
 ms.author: windowssdkdev
 ms.date: 03/08/2018
 ms.keywords: Clear, Clear method, Clear method,IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,Clear method, IWinMLEvaluationContext.Clear, IWinMLEvaluationContext::Clear, MachineLearning.iwinmlevaluationcontext_clear, winml/IWinMLEvaluationContext::Clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_TENSOR_DATA_TYPE
+req.lib: Winml.lib
+req.dll: Winml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWinMLEvaluationContext.Clear
 product: Windows
 targetos: Windows
-req.lib: Winml.lib
-req.dll: Winml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWinMLEvaluationContext::Clear

@@ -4,17 +4,16 @@ title: EngSetLastError function
 author: windows-sdk-content
 description: The EngSetLastError function causes GDI to report an error code, which can be retrieved by an application.
 old-location: display\engsetlasterror.htm
-old-project: display
+tech.root: display
 ms.assetid: 8887eed8-c60d-4217-92bf-f770be071c49
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngSetLastError, EngSetLastError function [Display Devices], display.engsetlasterror, gdifncs_696ff78e-c48b-4727-b2dd-d1b2e06ea90f.xml, winddi/EngSetLastError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngSetLastError
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngSetLastError function

@@ -4,17 +4,16 @@ title: ISpatialAudioMetadataItems::GetMaxItemCount
 author: windows-sdk-content
 description: The maximum number of items allowed by the ISpatialAudioMetadataItems, defined when the object is created.
 old-location: coreaudio\ispatialaudiometadataitems_getmaxitemcount.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 933DEDE0-3DC1-4D0B-8EAE-58EFB52CE2FE
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetMaxItemCount, GetMaxItemCount method [Core Audio], GetMaxItemCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetMaxItemCount method, ISpatialAudioMetadataItems.GetMaxItemCount, ISpatialAudioMetadataItems::GetMaxItemCount, coreaudio.ispatialaudiometadataitems_getmaxitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetMaxItemCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioMetadataItems.GetMaxItemCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioMetadataItems::GetMaxItemCount
@@ -62,7 +60,7 @@ The maximum number of items allowed by the <a href="https://msdn.microsoft.com/5
 
 ### -param maxItemCount
 
-
+TBD
 
 
 

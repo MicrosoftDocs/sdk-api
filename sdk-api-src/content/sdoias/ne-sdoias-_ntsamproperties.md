@@ -4,7 +4,7 @@ title: "_NTSAMPROPERTIES"
 author: windows-sdk-content
 description: The values of the NTSAMPROPERTIES enumeration type specify properties related to the NT Security Accounts Manager (SAM).
 old-location: nps\SDO_ntsamproperties.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 84d3bc60-4756-49b3-a614-94640bc647be
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.unicode-ansi: 
 req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTSAMPROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTSAMPROPERTIES
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: NTSAMPROPERTIES
+req.redist: 
 ---
 
 # _NTSAMPROPERTIES enumeration

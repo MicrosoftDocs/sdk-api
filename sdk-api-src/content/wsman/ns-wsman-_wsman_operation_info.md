@@ -4,17 +4,16 @@ title: "_WSMAN_OPERATION_INFO"
 author: windows-sdk-content
 description: Represents a specific resource endpoint for which the plug-in must perform the request.
 old-location: winrm\wsman_operation_info.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: a73029c6-d4e7-4cb3-ad0a-b71baffdbeb6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSMAN_OPERATION_INFO, WSMAN_OPERATION_INFO structure [Windows Remote Management], _WSMAN_OPERATION_INFO, winrm.wsman_operation_info, wsman/WSMAN_OPERATION_INFO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 
-req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSMAN_OPERATION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSMAN_OPERATION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSMAN_OPERATION_INFO
+req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 ---
 
 # _WSMAN_OPERATION_INFO structure

@@ -4,7 +4,7 @@ title: ITfEditSession
 author: windows-sdk-content
 description: The ITfEditSession interface is implemented by a text service and used by the TSF manager to read and/or modify the text and properties of a context.
 old-location: tsf\itfeditsession.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: b9d4718a-42a6-4be5-9f57-1a392cd98469
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Tipskins.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfEditSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tipskins.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfEditSession interface

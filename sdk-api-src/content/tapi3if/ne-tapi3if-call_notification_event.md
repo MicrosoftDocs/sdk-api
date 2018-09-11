@@ -4,7 +4,7 @@ title: CALL_NOTIFICATION_EVENT
 author: windows-sdk-content
 description: The CALL_NOTIFICATION_EVENT enum describes call notification events. The ITCallNotificationEvent::get_Event method returns a member of this enum to indicate the type of call notification event that occurred.
 old-location: tapi3\call_notification_event.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 0c05042f-af1e-4657-bb1c-e6741361b11c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALL_NOTIFICATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CALL_NOTIFICATION_EVENT
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: CALL_NOTIFICATION_EVENT
+req.redist: 
 ---
 
 # CALL_NOTIFICATION_EVENT enumeration

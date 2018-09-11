@@ -4,7 +4,7 @@ title: MDEVICECAPSEX
 author: windows-sdk-content
 description: The MDEVICECAPSEX structure contains device capability information for Plug and Play (PnP) device drivers.
 old-location: audio\mdevicecapsex.htm
-old-project: audio
+tech.root: audio
 ms.assetid: d2da18d2-4ff3-47a8-9cd9-f8df03eed0a5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmddk.h
 req.include-header: Mmddk.h, Mmsystem.h, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows XP and later Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MDEVICECAPSEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MDEVICECAPSEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MDEVICECAPSEX
+req.redist: 
 ---
 
 # MDEVICECAPSEX structure

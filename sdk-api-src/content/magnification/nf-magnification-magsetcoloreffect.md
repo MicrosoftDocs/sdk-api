@@ -4,17 +4,16 @@ title: MagSetColorEffect function
 author: windows-sdk-content
 description: Sets the color transformation matrix for a magnifier control.
 old-location: magapi\magapi_MagSetColorEffect.htm
-old-project: magapi
+tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetcoloreffect.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MagSetColorEffect, MagSetColorEffect function [Magnification API], magapi.magapi_MagSetColorEffect, magapi_MagSetColorEffect, magnification/MagSetColorEffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: magnification.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MCAST_SCOPE_ENTRY, *PMCAST_SCOPE_ENTRY
+req.lib: Magnification.lib
+req.dll: Magnification.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MagSetColorEffect
 product: Windows
 targetos: Windows
-req.lib: Magnification.lib
-req.dll: Magnification.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MagSetColorEffect function

@@ -4,17 +4,16 @@ title: INetFwProducts::get__NewEnum
 author: windows-sdk-content
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the registered third-party firewall products in the collection.
 old-location: ics\inetfwproducts_newenum.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 67e723a9-7b24-493f-a3d5-a63d002e6bf3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwProducts interface [ICS/ICF],_NewEnum property, INetFwProducts._NewEnum, INetFwProducts.get__NewEnum, INetFwProducts::_NewEnum, INetFwProducts::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwProducts interface, get__NewEnum, ics.inetfwproducts_newenum, netfw/INetFwProducts::_NewEnum, netfw/INetFwProducts::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - INetFwProducts.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwProducts::get__NewEnum

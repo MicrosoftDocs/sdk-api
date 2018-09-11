@@ -4,17 +4,16 @@ title: IXblIdpAuthManager::GetEnvironment
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_getenvironment.htm
-old-project: xblidp
+tech.root: xblidp
 ms.assetid: 9AEFE6CB-9C15-4945-ACAC-6AE0C04331CC
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetEnvironment, GetEnvironment method, GetEnvironment method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetEnvironment method, IXblIdpAuthManager.GetEnvironment, IXblIdpAuthManager::GetEnvironment, xblidp.ixblidpauthmanager_getenvironment, xblidpauthmanager/IXblIdpAuthManager::GetEnvironment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXblIdpAuthManager.GetEnvironment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXblIdpAuthManager::GetEnvironment

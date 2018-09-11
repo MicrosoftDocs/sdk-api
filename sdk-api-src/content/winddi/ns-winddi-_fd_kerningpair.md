@@ -4,7 +4,7 @@ title: "_FD_KERNINGPAIR"
 author: windows-sdk-content
 description: The FD_KERNINGPAIR structure is used to store information about kerning pairs.
 old-location: display\fd_kerningpair.htm
-old-project: display
+tech.root: display
 ms.assetid: 5c5eced6-a0a3-448e-bcb3-57be1b703797
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FD_KERNINGPAIR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FD_KERNINGPAIR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FD_KERNINGPAIR
+req.redist: 
 ---
 
 # _FD_KERNINGPAIR structure

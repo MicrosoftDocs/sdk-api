@@ -4,7 +4,7 @@ title: "_MIB_IPMCAST_MFE_STATS_EX_XP"
 author: windows-sdk-content
 description: Stores the extended statistics associated with a Multicast Forwarding Entry (MFE).
 old-location: mib\mib_ipmcast_mfe_stats_ex.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 4d1b35bd-da6c-48a1-ade1-f96148c9eecb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPMCAST_MFE_STATS_EX_XP, *PMIB_IPMCAST_MFE_STATS_EX_XP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_IPMCAST_MFE_STATS_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_IPMCAST_MFE_STATS_EX_XP, *PMIB_IPMCAST_MFE_STATS_EX_XP
+req.redist: 
 ---
 
 # _MIB_IPMCAST_MFE_STATS_EX_XP structure

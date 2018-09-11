@@ -4,17 +4,16 @@ title: IDWriteBitmapRenderTarget1::SetTextAntialiasMode
 author: windows-sdk-content
 description: Sets the current text antialiasing mode of the bitmap render target.
 old-location: directwrite\idwritebitmaprendertarget1_settextantialiasmode.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 813C984D-81BC-4CAA-8C0A-166612E8028F
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteBitmapRenderTarget1 interface [Direct Write],SetTextAntialiasMode method, IDWriteBitmapRenderTarget1.SetTextAntialiasMode, IDWriteBitmapRenderTarget1::SetTextAntialiasMode, SetTextAntialiasMode, SetTextAntialiasMode method [Direct Write], SetTextAntialiasMode method [Direct Write],IDWriteBitmapRenderTarget1 interface, directwrite.idwritebitmaprendertarget1_settextantialiasmode, dwrite_1/IDWriteBitmapRenderTarget1::SetTextAntialiasMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteBitmapRenderTarget1.SetTextAntialiasMode
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteBitmapRenderTarget1::SetTextAntialiasMode

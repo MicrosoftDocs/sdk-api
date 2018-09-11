@@ -4,17 +4,16 @@ title: MFSetAttributeRatio function
 author: windows-sdk-content
 description: Sets a ratio as a 64-bit attribute value.
 old-location: mf\mfsetattributeratio.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 04e8c89e-115e-41d4-b8cb-953f68ddd14e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 04e8c89e-115e-41d4-b8cb-953f68ddd14e, MFSetAttributeRatio, MFSetAttributeRatio function [Media Foundation], mf.mfsetattributeratio, mfapi/MFSetAttributeRatio
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFSetAttributeRatio
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFSetAttributeRatio function

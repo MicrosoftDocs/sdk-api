@@ -4,17 +4,16 @@ title: IBackgroundCopyGroup::CancelGroup
 author: windows-sdk-content
 description: Use the CancelGroup method to remove the group from the queue. Files completely downloaded before calling this method are available to the client. You can cancel a group at anytime; however, the group cannot be recovered once it is canceled.
 old-location: bits\ibackgroundcopygroup_cancelgroup.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 4ef86db1-3dff-4345-a09a-efea8b6c8c8e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CancelGroup, CancelGroup method [BITS], CancelGroup method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],CancelGroup method, IBackgroundCopyGroup.CancelGroup, IBackgroundCopyGroup::CancelGroup, bits.ibackgroundcopygroup_cancelgroup, qmgr/IBackgroundCopyGroup::CancelGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyGroup.CancelGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyGroup::CancelGroup

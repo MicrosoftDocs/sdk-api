@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_2DREGION
 author: windows-sdk-content
 description: The DISPLAYCONFIG_2DREGION structure represents a point or an offset in a two-dimensional space.
 old-location: display\displayconfig_2dregion.htm
-old-project: display
+tech.root: display
 ms.assetid: ea306268-53fc-488b-afae-b8e9e5d09f2b
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_2DREGION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_2DREGION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_2DREGION
+req.redist: 
 ---
 
 # DISPLAYCONFIG_2DREGION structure

@@ -4,17 +4,16 @@ title: IsVariantString function
 author: windows-sdk-content
 description: Specifies whether a variant is a string.
 old-location: properties\IsVariantString.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 6056856c-9b7a-4c6a-9e9a-0baa5e1addcf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IsVariantString, IsVariantString function [Windows Properties], _shell_IsVariantString, properties.IsVariantString, propvarutil/IsVariantString, shell.IsVariantString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IsVariantString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IsVariantString function

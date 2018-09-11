@@ -4,17 +4,16 @@ title: IMediaObjectImpl::InputTypeSet
 author: windows-sdk-content
 description: The InputTypeSet method queries whether the media type was set on an input stream.
 old-location: dshow\imediaobjectimpl_inputtypeset.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f7f2f594-31ed-4c75-8221-9c62f8b4bed3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],InputTypeSet method, IMediaObjectImpl.InputTypeSet, IMediaObjectImpl::InputTypeSet, IMediaObjectImplInputTypeSet, InputTypeSet, InputTypeSet method [DirectShow], InputTypeSet method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::InputTypeSet, dshow.imediaobjectimpl_inputtypeset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmoimpl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMEMHEAP
+req.lib: Dmoguids.lib; Msdmo.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - IMediaObjectImpl.InputTypeSet
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib; Msdmo.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObjectImpl::InputTypeSet

@@ -4,17 +4,16 @@ title: INetSharingPortMappingCollection::get_Count
 author: windows-sdk-content
 description: The get__Count method retrieves the number of items in the port mapping collection.
 old-location: ics\inetsharingportmappingcollection_get_count.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 40a697e8-aac4-4656-9c86-d11b5cdcb9e2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingPortMappingCollection interface [ICS/ICF],get_Count method, INetSharingPortMappingCollection.get_Count, INetSharingPortMappingCollection::get_Count, _ics_inetsharingportmappingcollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingPortMappingCollection interface, ics.inetsharingportmappingcollection_get_count, netcon/INetSharingPortMappingCollection::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingPortMappingCollection.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingPortMappingCollection::get_Count

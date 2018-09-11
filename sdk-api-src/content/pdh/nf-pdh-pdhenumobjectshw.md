@@ -4,17 +4,16 @@ title: PdhEnumObjectsHW function
 author: windows-sdk-content
 description: Returns a list of objects available on the specified computer or in the specified log file.This function is identical to PdhEnumObjects, except that it supports the use of handles to data sources.
 old-location: perf\pdhenumobjectsh.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 8f68a7a8-cc56-4f7f-a86f-4b439738808d
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: FALSE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjectsH, PdhEnumObjectsH function [Perf], PdhEnumObjectsHA, PdhEnumObjectsHW, TRUE, _win32_pdhenumobjectsh, base.pdhenumobjectsh, pdh/PdhEnumObjectsH, pdh/PdhEnumObjectsHA, pdh/PdhEnumObjectsHW, perf.pdhenumobjectsh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PdhEnumObjectsHW
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhEnumObjectsHW function

@@ -4,17 +4,16 @@ title: IObjectWithPropertyKey::GetPropertyKey
 author: windows-sdk-content
 description: Gets the property key.
 old-location: shell\IObjectWithPropertyKey_GetPropertyKey.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e864f1d2-b83e-4196-8cd4-a7c7fdcddfec
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetPropertyKey, GetPropertyKey method [Windows Shell], GetPropertyKey method [Windows Shell],IObjectWithPropertyKey interface, IObjectWithPropertyKey interface [Windows Shell],GetPropertyKey method, IObjectWithPropertyKey.GetPropertyKey, IObjectWithPropertyKey::GetPropertyKey, _shell_IObjectWithPropertyKey_GetPropertyKey, propsys/IObjectWithPropertyKey::GetPropertyKey, shell.IObjectWithPropertyKey_GetPropertyKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectWithPropertyKey.GetPropertyKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectWithPropertyKey::GetPropertyKey

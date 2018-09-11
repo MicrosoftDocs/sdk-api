@@ -4,17 +4,16 @@ title: DXGI_SURFACE_DESC
 author: windows-sdk-content
 description: Describes a surface.
 old-location: direct3ddxgi\dxgi_surface_desc.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_surface_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 93817f74-4e10-480f-7425-b90c4fe26c0d, DXGI_SURFACE_DESC, DXGI_SURFACE_DESC structure [DXGI], direct3ddxgi.dxgi_surface_desc, dxgi/DXGI_SURFACE_DESC
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SURFACE_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_SURFACE_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_SURFACE_DESC
+req.redist: 
 ---
 
 # DXGI_SURFACE_DESC structure

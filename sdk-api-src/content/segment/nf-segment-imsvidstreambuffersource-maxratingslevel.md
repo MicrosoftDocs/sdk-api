@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSource::MaxRatingsLevel
 author: windows-sdk-content
 description: The MaxRatingsLevel method specifies the maximum ratings level the object is permitted to play.
 old-location: mstv\imsvidstreambuffersource_maxratingslevel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 74dbb008-21c9-4651-8386-761626b7bf19
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],MaxRatingsLevel method, IMSVidStreamBufferSource.MaxRatingsLevel, IMSVidStreamBufferSource::MaxRatingsLevel, IMSVidStreamBufferSourceMaxRatingsLevel, MaxRatingsLevel, MaxRatingsLevel method [Microsoft TV Technologies], MaxRatingsLevel method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_maxratingslevel, segment/IMSVidStreamBufferSource::MaxRatingsLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSource.MaxRatingsLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSource::MaxRatingsLevel
@@ -62,17 +60,17 @@ The <b>MaxRatingsLevel</b> method specifies the maximum ratings level the object
 
 ### -param enSystem
 
-
+TBD
 
 
 ### -param enRating
 
-
+TBD
 
 
 ### -param lbfEnAttr
 
-
+TBD
 
 
 

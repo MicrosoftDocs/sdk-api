@@ -4,7 +4,7 @@ title: linelocationentry_tag
 author: windows-sdk-content
 description: Describes a location used to provide an address translation context.
 old-location: tapi2\linelocationentry_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8b4357d8-6dc9-4fc8-b164-79675ac71870
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINELOCATIONENTRY, *LPLINELOCATIONENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINELOCATIONENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINELOCATIONENTRY, *LPLINELOCATIONENTRY
+req.redist: 
 ---
 
 # linelocationentry_tag structure

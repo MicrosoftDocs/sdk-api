@@ -4,17 +4,16 @@ title: IRDPSRAPIApplicationList::get__NewEnum
 author: windows-sdk-content
 description: An enumerator interface for the application collection.
 old-location: rdp\irdpsrapiapplicationlist__newenum.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 946cba06-9cc1-4a44-aeed-0b636d737edd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIApplicationList interface [RDP],_NewEnum property, IRDPSRAPIApplicationList._NewEnum, IRDPSRAPIApplicationList.get__NewEnum, IRDPSRAPIApplicationList::_NewEnum, IRDPSRAPIApplicationList::get__NewEnum, RDPSRAPIApplicationList object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIApplicationList interface, _NewEnum property [RDP],RDPSRAPIApplicationList object, get__NewEnum, rdp.irdpsrapiapplicationlist__newenum, rdpencomapi/IRDPSRAPIApplicationList::_NewEnum, rdpencomapi/IRDPSRAPIApplicationList::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPSRAPIApplicationList._NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIApplicationList::get__NewEnum

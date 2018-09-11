@@ -4,17 +4,16 @@ title: MFCreateDXGISurfaceBuffer function
 author: windows-sdk-content
 description: Creates a media buffer to manage a Microsoft DirectX Graphics Infrastructure (DXGI) surface.
 old-location: mf\mfcreatedxgisurfacebuffer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5D859F36-A82B-488B-A2F6-C697A1AA86BC
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateDXGISurfaceBuffer, MFCreateDXGISurfaceBuffer function [Media Foundation], mf.mfcreatedxgisurfacebuffer, mfapi/MFCreateDXGISurfaceBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateDXGISurfaceBuffer
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateDXGISurfaceBuffer function

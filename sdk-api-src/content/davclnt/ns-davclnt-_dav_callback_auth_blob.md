@@ -4,17 +4,16 @@ title: "_DAV_CALLBACK_AUTH_BLOB"
 author: windows-sdk-content
 description: Stores an authentication BLOB that was retrieved by the DavAuthCallback callback function.
 old-location: webdav\dav_callback_auth_blob.htm
-old-project: webdav
+tech.root: WebDAV
 ms.assetid: 59976cb0-ed68-4db0-b8f8-cfe5e778916b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PDAV_CALLBACK_AUTH_BLOB, DAV_CALLBACK_AUTH_BLOB, DAV_CALLBACK_AUTH_BLOB structure [WebDAV], PDAV_CALLBACK_AUTH_BLOB, PDAV_CALLBACK_AUTH_BLOB structure pointer [WebDAV], _DAV_CALLBACK_AUTH_BLOB, davclnt/DAV_CALLBACK_AUTH_BLOB, davclnt/PDAV_CALLBACK_AUTH_BLOB, webdav.dav_callback_auth_blob"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: davclnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DAV_CALLBACK_AUTH_BLOB, *PDAV_CALLBACK_AUTH_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DAV_CALLBACK_AUTH_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DAV_CALLBACK_AUTH_BLOB, *PDAV_CALLBACK_AUTH_BLOB
+req.redist: 
 ---
 
 # _DAV_CALLBACK_AUTH_BLOB structure

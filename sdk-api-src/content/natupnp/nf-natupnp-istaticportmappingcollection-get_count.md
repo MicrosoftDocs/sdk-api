@@ -4,17 +4,16 @@ title: IStaticPortMappingCollection::get_Count
 author: windows-sdk-content
 description: The get_Count method retrieves the number of port mappings in the collection.
 old-location: ics\istaticportmappingcollection_get_count.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 8ececd98-a700-4d64-8f89-a1ec36597edf
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get_Count method, IStaticPortMappingCollection.get_Count, IStaticPortMappingCollection::get_Count, _ics_istaticportmappingcollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get_count, natupnp/IStaticPortMappingCollection::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemHealthAgentState
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStaticPortMappingCollection.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IStaticPortMappingCollection::get_Count

@@ -4,17 +4,16 @@ title: SHValidateUNC function
 author: windows-sdk-content
 description: SHValidateUNC may be altered or unavailable.
 old-location: shell\SHValidateUNC.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 42394650-5571-4165-84f1-19a26fb4a1b8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHValidateUNC, SHValidateUNC function [Windows Shell], VALIDATEUNC_CONNECT, VALIDATEUNC_NOUI, VALIDATEUNC_PERSIST, VALIDATEUNC_PRINT, VALIDATEUNC_VALID, _win32_SHValidateUNC, shell.SHValidateUNC, shlobj_core/SHValidateUNC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHValidateUNC
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.00 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHValidateUNC function

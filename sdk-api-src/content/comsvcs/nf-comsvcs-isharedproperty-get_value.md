@@ -4,17 +4,16 @@ title: ISharedProperty::get_Value
 author: windows-sdk-content
 description: Retrieves the value of a shared property.
 old-location: cos\isharedproperty_get_value.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6b8e297c-db65-41b2-a5ee-3a63a4ff31fb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISharedProperty interface [COM+],get_Value method, ISharedProperty.get_Value, ISharedProperty::get_Value, _cos_ISharedProperty_get_Value, comsvcs/ISharedProperty::get_Value, cos.isharedproperty_get_value, get_Value, get_Value method [COM+], get_Value method [COM+],ISharedProperty interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISharedProperty.get_Value
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISharedProperty::get_Value

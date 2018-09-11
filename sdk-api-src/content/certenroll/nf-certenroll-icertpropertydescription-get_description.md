@@ -4,17 +4,16 @@ title: ICertPropertyDescription::get_Description
 author: windows-sdk-content
 description: Retrieves a description of the certificate.
 old-location: security\icertpropertydescription_description_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: afc8c4f4-186b-4f00-b12b-54b50913865d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Description property [Security], Description property [Security],ICertPropertyDescription interface, ICertPropertyDescription interface [Security],Description property, ICertPropertyDescription.Description, ICertPropertyDescription.get_Description, ICertPropertyDescription::Description, ICertPropertyDescription::get_Description, certenroll/ICertPropertyDescription::Description, certenroll/ICertPropertyDescription::get_Description, get_Description, security.icertpropertydescription_description_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertPropertyDescription.get_Description
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyDescription::get_Description

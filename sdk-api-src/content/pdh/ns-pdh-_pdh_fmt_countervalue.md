@@ -4,7 +4,7 @@ title: "_PDH_FMT_COUNTERVALUE"
 author: windows-sdk-content
 description: The PDH_FMT_COUNTERVALUE structure contains the computed value of the counter and its status.
 old-location: perf\pdh_fmt_countervalue_str.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 68ccd722-94d2-4610-ba64-f51318f5436e
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDH_FMT_COUNTERVALUE, *PPDH_FMT_COUNTERVALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PDH_FMT_COUNTERVALUE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PDH_FMT_COUNTERVALUE, *PPDH_FMT_COUNTERVALUE
+req.redist: 
 ---
 
 # _PDH_FMT_COUNTERVALUE structure

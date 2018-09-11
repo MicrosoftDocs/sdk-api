@@ -4,17 +4,16 @@ title: LZInit function
 author: windows-sdk-content
 description: Allocates memory for the internal data structures required to decompress files, and then creates and initializes them.
 old-location: fs\lzinit.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 53e6345a-e303-4ef6-8b4d-b9a3fcacfb13
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LZInit, LZInit function [Files], _win32_lzinit, base.lzinit, fs.lzinit, lzexpand/LZInit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lzexpand.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_DNS_DOMAIN_INFO, *PPOLICY_DNS_DOMAIN_INFO
+req.lib: Lz32.lib
+req.dll: Lz32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LZInit
 product: Windows
 targetos: Windows
-req.lib: Lz32.lib
-req.dll: Lz32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LZInit function

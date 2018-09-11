@@ -4,7 +4,7 @@ title: eAVEncMPACodingMode
 author: windows-sdk-content
 description: Specifies the MPEG audio encoding mode. This enumeration is used with the AVEncMPACodingMode property.
 old-location: dshow\eavencmpacodingmode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 37c3309b-05ea-4c78-b447-196d16c0f0cd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - eAVEncMPACodingMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # eAVEncMPACodingMode enumeration

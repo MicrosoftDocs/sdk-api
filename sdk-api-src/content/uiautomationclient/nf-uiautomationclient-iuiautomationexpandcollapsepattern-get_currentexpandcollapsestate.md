@@ -4,17 +4,16 @@ title: IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState
 author: windows-sdk-content
 description: Retrieves a value that indicates the state, expanded or collapsed, of the element.
 old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: abd21a19-c7a0-44db-ad5b-64c476efa400
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentExpandCollapseState property [Windows Accessibility], CurrentExpandCollapseState property [Windows Accessibility],IUIAutomationExpandCollapsePattern interface, IUIAutomationExpandCollapsePattern interface [Windows Accessibility],CurrentExpandCollapseState property, IUIAutomationExpandCollapsePattern.CurrentExpandCollapseState, IUIAutomationExpandCollapsePattern.get_CurrentExpandCollapseState, IUIAutomationExpandCollapsePattern::CurrentExpandCollapseState, IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState, get_CurrentExpandCollapseState, uiauto.uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState, uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::CurrentExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState, winauto.uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationExpandCollapsePattern.get_CurrentExpandCollapseState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState

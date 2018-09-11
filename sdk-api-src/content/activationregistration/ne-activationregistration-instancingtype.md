@@ -4,17 +4,16 @@ title: InstancingType
 author: windows-sdk-content
 description: Represents the kind of instancing behavior for the out-of-process server.
 old-location: winrt\instancingtype.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 42E6A5EE-06B0-4F38-92D0-729922AD9FFF
 ms.author: windowssdkdev
-ms.date: 08/06/2018
-ms.keywords: InstancingType, InstancingType enumeration [Windows Runtime], MultipleInstances, SingleInstance, activationregistration/InstancingType, activationregistration/MultipleInstances, activationregistration/SingleInstance, winrt.instancingtype
+ms.date: 08/29/2018
+ms.keywords: InstancingType, InstancingType enumeration [Windows Runtime], InstancingType_MultipleInstances, InstancingType_SingleInstance, activationregistration/InstancingType, activationregistration/InstancingType_MultipleInstances, activationregistration/InstancingType_SingleInstance, winrt.instancingtype
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Activation.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InstancingType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - InstancingType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: InstancingType
+req.redist: 
 ---
 
 # InstancingType enumeration
@@ -61,23 +60,17 @@ Represents the kind of  instancing behavior for the out-of-process server.
 
 ### -field InstancingType_SingleInstance
 
+Create a singleton instance of the out-of-process server.
+
 
 ### -field InstancingType_MultipleInstances
+
+Create more than one instance of the out-of-process server.
 
 
 ### -field int
 
 
-
-
-#### - MultipleInstances
-
-Create more than one instance of the out-of-process server.
-
-
-#### - SingleInstance
-
-Create a singleton instance of the out-of-process server.
 
 
 ## -see-also

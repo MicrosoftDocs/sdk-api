@@ -4,17 +4,16 @@ title: IFsiFileItem::put_Data
 author: windows-sdk-content
 description: Sets the data stream of the file's content.
 old-location: imapi\ifsifileitem_put_data.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 5fe00500-615c-48fe-a4a3-b3291e61db1f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFsiFileItem interface [IMAPI],put_Data method, IFsiFileItem.put_Data, IFsiFileItem::put_Data, imapi.ifsifileitem_put_data, imapi2fs/IFsiFileItem::put_Data, put_Data, put_Data method [IMAPI], put_Data method [IMAPI],IFsiFileItem interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiFileItem.put_Data
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiFileItem::put_Data

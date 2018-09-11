@@ -4,17 +4,16 @@ title: DrvStrokeAndFillPath function
 author: windows-sdk-content
 description: The DrvStrokeAndFillPath function strokes (outlines) and fills a path concurrently.
 old-location: display\drvstrokeandfillpath.htm
-old-project: display
+tech.root: display
 ms.assetid: 92a04fe5-146d-4839-a854-1ac50705b447
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvStrokeAndFillPath, DrvStrokeAndFillPath function [Display Devices], ddifncs_ca3b1895-31d0-4c1b-b47c-df61ccef2afa.xml, display.drvstrokeandfillpath, winddi/DrvStrokeAndFillPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvStrokeAndFillPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvStrokeAndFillPath function

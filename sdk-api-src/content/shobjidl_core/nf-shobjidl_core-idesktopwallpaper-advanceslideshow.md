@@ -4,17 +4,16 @@ title: IDesktopWallpaper::AdvanceSlideshow
 author: windows-sdk-content
 description: Switches the wallpaper on a specified monitor to the next image in the slideshow.
 old-location: shell\IDesktopWallpaper_AdvanceSlideshow.htm
-old-project: shell
+tech.root: shell
 ms.assetid: A68F6EFA-DD74-453f-A7D3-7CEC2E760FD1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: AdvanceSlideshow, AdvanceSlideshow method [Windows Shell], AdvanceSlideshow method [Windows Shell],IDesktopWallpaper interface, DSD_BACKWARD, DSD_FORWARD, IDesktopWallpaper interface [Windows Shell],AdvanceSlideshow method, IDesktopWallpaper.AdvanceSlideshow, IDesktopWallpaper::AdvanceSlideshow, shell.IDesktopWallpaper_AdvanceSlideshow, shobjidl_core/IDesktopWallpaper::AdvanceSlideshow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDesktopWallpaper.AdvanceSlideshow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDesktopWallpaper::AdvanceSlideshow

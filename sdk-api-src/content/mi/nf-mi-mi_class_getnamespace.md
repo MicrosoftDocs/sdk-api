@@ -4,17 +4,16 @@ title: MI_Class_GetNameSpace function
 author: windows-sdk-content
 description: Gets the namespace name of the specified class.
 old-location: wmi_v2\mi_class_getnamespace.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 64ee42d6-d6ad-4a41-83f4-48de191a853c
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: MI_Class_GetNameSpace, MI_Class_GetNameSpace function [Windows Management Infrastructure (MI)], mi/MI_Class_GetNameSpace, wmi_v2.mi_class_getnamespace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_Type
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_Class_GetNameSpace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # MI_Class_GetNameSpace function

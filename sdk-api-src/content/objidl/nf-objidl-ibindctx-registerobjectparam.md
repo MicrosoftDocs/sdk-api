@@ -4,17 +4,16 @@ title: IBindCtx::RegisterObjectParam
 author: windows-sdk-content
 description: Associates an object with a string key in the bind context's string-keyed table of pointers.
 old-location: com\ibindctx_registerobjectparam.htm
-old-project: com
+tech.root: com
 ms.assetid: 7ee2b5b2-9b9c-41f1-8e58-7432ebc0f9ed
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IBindCtx interface [COM],RegisterObjectParam method, IBindCtx.RegisterObjectParam, IBindCtx::RegisterObjectParam, RegisterObjectParam, RegisterObjectParam method [COM], RegisterObjectParam method [COM],IBindCtx interface, _com_ibindctx_registerobjectparam, com.ibindctx_registerobjectparam, objidl/IBindCtx::RegisterObjectParam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBindCtx.RegisterObjectParam
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBindCtx::RegisterObjectParam

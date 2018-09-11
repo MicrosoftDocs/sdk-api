@@ -4,17 +4,16 @@ title: "_ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION"
 author: windows-sdk-content
 description: The ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure is used by the QueryActCtxW function.
 old-location: setup\activation_context_compatibility_information.htm
-old-project: sbscs
+tech.root: SbsCs
 ms.assetid: d8c1ef4a-8e64-45bd-a185-b4af7932a0d2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure [Setup API], PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure pointer [Setup API], _ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, setup.activation_context_compatibility_information, winnt/ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, winnt/PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, *PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, *PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
+req.redist: 
 ---
 
 # _ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure

@@ -4,17 +4,16 @@ title: IWMPEvents3::CdromBurnStateChange
 author: windows-sdk-content
 description: The CdromBurnStateChange event occurs when a CD burning operation changes state.
 old-location: wmp\iwmpevents3_iwmpevents3__cdromburnstatechange.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 8328f1bf-c928-4504-859f-f1b62e77e9e0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CdromBurnStateChange, CdromBurnStateChange method [Windows Media Player], CdromBurnStateChange method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromBurnStateChange method, IWMPEvents3.CdromBurnStateChange, IWMPEvents3::CdromBurnStateChange, IWMPEvents3CdromBurnStateChange, wmp.iwmpevents3_iwmpevents3__cdromburnstatechange, wmp/IWMPEvents3::CdromBurnStateChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEvents3.CdromBurnStateChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEvents3::CdromBurnStateChange

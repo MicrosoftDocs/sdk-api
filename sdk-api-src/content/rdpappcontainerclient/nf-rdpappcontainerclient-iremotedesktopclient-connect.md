@@ -4,17 +4,16 @@ title: IRemoteDesktopClient::Connect
 author: windows-sdk-content
 description: Initiates a connection by using the properties currently set on the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclient_connect.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 52dbc0f3-8ba9-45a5-a224-b7de67847bf3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Connect, Connect method [Remote Desktop Services], Connect method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Connect method, IRemoteDesktopClient.Connect, IRemoteDesktopClient::Connect, rdpappcontainerclient/IRemoteDesktopClient::Connect, termserv.iremotedesktopclient_connect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: SnapshotFormatType
+req.lib: 
+req.dll: MsTscAx.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRemoteDesktopClient.Connect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRemoteDesktopClient::Connect

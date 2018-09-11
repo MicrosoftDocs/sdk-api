@@ -4,17 +4,16 @@ title: DWRITE_PANOSE_LETTERFORM
 author: windows-sdk-content
 description: The DWRITE_PANOSE_LETTERFORM enumeration contains values that specify the roundness of letterform for text.
 old-location: directwrite\dwrite_panose_letterform.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 67E1A497-A7C5-441E-BE51-0598E80BAEB3
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_PANOSE_LETTERFORM, DWRITE_PANOSE_LETTERFORM enumeration [Direct Write], DWRITE_PANOSE_LETTERFORM_ANY, DWRITE_PANOSE_LETTERFORM_NORMAL_BOXED, DWRITE_PANOSE_LETTERFORM_NORMAL_CONTACT, DWRITE_PANOSE_LETTERFORM_NORMAL_FLATTENED, DWRITE_PANOSE_LETTERFORM_NORMAL_OFF_CENTER, DWRITE_PANOSE_LETTERFORM_NORMAL_ROUNDED, DWRITE_PANOSE_LETTERFORM_NORMAL_SQUARE, DWRITE_PANOSE_LETTERFORM_NORMAL_WEIGHTED, DWRITE_PANOSE_LETTERFORM_NO_FIT, DWRITE_PANOSE_LETTERFORM_OBLIQUE_BOXED, DWRITE_PANOSE_LETTERFORM_OBLIQUE_CONTACT, DWRITE_PANOSE_LETTERFORM_OBLIQUE_FLATTENED, DWRITE_PANOSE_LETTERFORM_OBLIQUE_OFF_CENTER, DWRITE_PANOSE_LETTERFORM_OBLIQUE_ROUNDED, DWRITE_PANOSE_LETTERFORM_OBLIQUE_SQUARE, DWRITE_PANOSE_LETTERFORM_OBLIQUE_WEIGHTED, directwrite.dwrite_panose_letterform, dwrite_1/DWRITE_PANOSE_LETTERFORM, dwrite_1/DWRITE_PANOSE_LETTERFORM_ANY, dwrite_1/DWRITE_PANOSE_LETTERFORM_NORMAL_BOXED, dwrite_1/DWRITE_PANOSE_LETTERFORM_NORMAL_CONTACT, dwrite_1/DWRITE_PANOSE_LETTERFORM_NORMAL_FLATTENED, dwrite_1/DWRITE_PANOSE_LETTERFORM_NORMAL_OFF_CENTER, dwrite_1/DWRITE_PANOSE_LETTERFORM_NORMAL_ROUNDED, dwrite_1/DWRITE_PANOSE_LETTERFORM_NORMAL_SQUARE, dwrite_1/DWRITE_PANOSE_LETTERFORM_NORMAL_WEIGHTED, dwrite_1/DWRITE_PANOSE_LETTERFORM_NO_FIT, dwrite_1/DWRITE_PANOSE_LETTERFORM_OBLIQUE_BOXED, dwrite_1/DWRITE_PANOSE_LETTERFORM_OBLIQUE_CONTACT, dwrite_1/DWRITE_PANOSE_LETTERFORM_OBLIQUE_FLATTENED, dwrite_1/DWRITE_PANOSE_LETTERFORM_OBLIQUE_OFF_CENTER, dwrite_1/DWRITE_PANOSE_LETTERFORM_OBLIQUE_ROUNDED, dwrite_1/DWRITE_PANOSE_LETTERFORM_OBLIQUE_SQUARE, dwrite_1/DWRITE_PANOSE_LETTERFORM_OBLIQUE_WEIGHTED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_PANOSE_LETTERFORM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_PANOSE_LETTERFORM enumeration

@@ -4,17 +4,16 @@ title: ISyncMgrEvent::GetContext
 author: windows-sdk-content
 description: Gets a context object that can be used by a handler to display properties or execute a context menu action.
 old-location: shell\ISyncMgrEvent_GetContext.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 849e2bfe-daf7-422a-909c-03608ef1e325
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetContext, GetContext method [Windows Shell], GetContext method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetContext method, ISyncMgrEvent.GetContext, ISyncMgrEvent::GetContext, _shell_ISyncMgrEvent_GetContext, shell.ISyncMgrEvent_GetContext, syncmgr/ISyncMgrEvent::GetContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrEvent.GetContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrEvent::GetContext

@@ -4,17 +4,16 @@ title: IDXGIDevice4::ReclaimResources1
 author: windows-sdk-content
 description: Restores access to resources that were previously offered by calling IDXGIDevice4::OfferResources1.
 old-location: direct3ddxgi\idxgidevice4_reclaimresources1.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 83D09C41-CB96-4ADA-AE38-7D9542CCCFE0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIDevice4 interface [DXGI],ReclaimResources1 method, IDXGIDevice4.ReclaimResources1, IDXGIDevice4::ReclaimResources1, ReclaimResources1, ReclaimResources1 method [DXGI], ReclaimResources1 method [DXGI],IDXGIDevice4 interface, direct3ddxgi.idxgidevice4_reclaimresources1, dxgi1_5/IDXGIDevice4::ReclaimResources1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_5.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_RECLAIM_RESOURCE_RESULTS
+req.lib: Dxgi.lib
+req.dll: Dxgi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIDevice4.ReclaimResources1
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: Dxgi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDevice4::ReclaimResources1

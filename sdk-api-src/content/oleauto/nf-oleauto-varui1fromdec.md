@@ -4,17 +4,16 @@ title: VarUI1FromDec function
 author: windows-sdk-content
 description: Converts a decimal value to an unsigned char value.
 old-location: automat\varui1fromdec.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 9a8a8403-473e-47da-a7ee-11568ae1588f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarUI1FromDec, VarUI1FromDec function [Automation], _oa96_VarUI1FromDec, automat.varui1fromdec, oleauto/VarUI1FromDec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarUI1FromDec
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarUI1FromDec function

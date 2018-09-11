@@ -4,17 +4,16 @@ title: IWICStream::InitializeFromIStream
 author: windows-sdk-content
 description: Initializes a stream from another stream. Access rights are inherited from the underlying stream.
 old-location: wic\_wic_codec_iwicstream_initializefromistream.htm
-old-project: wic
+tech.root: wic
 ms.assetid: bfe413e1-f579-4c9c-9e88-3b369235c529
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICStream interface [Windows Imaging Component],InitializeFromIStream method, IWICStream.InitializeFromIStream, IWICStream::InitializeFromIStream, InitializeFromIStream, InitializeFromIStream method [Windows Imaging Component], InitializeFromIStream method [Windows Imaging Component],IWICStream interface, _wic_codec_iwicstream_initializefromistream, wic._wic_codec_iwicstream_initializefromistream, wincodec/IWICStream::InitializeFromIStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICStream.InitializeFromIStream
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICStream::InitializeFromIStream

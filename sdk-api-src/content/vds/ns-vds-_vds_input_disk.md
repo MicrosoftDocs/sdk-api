@@ -4,17 +4,16 @@ title: "_VDS_INPUT_DISK"
 author: windows-sdk-content
 description: Defines the details of an input disk.
 old-location: base\vds_input_disk.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 837981e5-8600-4add-85cf-a802615133d3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_INPUT_DISK, VDS_INPUT_DISK structure [VDS], _VDS_INPUT_DISK, base.vds_input_disk, vds/_VDS_INPUT_DISK
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_INPUT_DISK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_INPUT_DISK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_INPUT_DISK
+req.redist: 
 ---
 
 # _VDS_INPUT_DISK structure

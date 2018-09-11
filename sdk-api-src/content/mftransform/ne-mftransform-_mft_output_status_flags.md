@@ -4,7 +4,7 @@ title: "_MFT_OUTPUT_STATUS_FLAGS"
 author: windows-sdk-content
 description: Indicates whether a Media Foundation transform (MFT) can produce output data.
 old-location: mf\_mft_output_status_flags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 951900b1-364e-4867-a1f8-50d485d13c77
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _MFT_OUTPUT_STATUS_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Mfobjects.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # _MFT_OUTPUT_STATUS_FLAGS enumeration

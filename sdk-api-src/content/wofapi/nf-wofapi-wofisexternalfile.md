@@ -4,17 +4,16 @@ title: WofIsExternalFile function
 author: windows-sdk-content
 description: Used to determine if a file is being backed by a physical file or is backed by a system data provider, and optionally indicates which provider or additional data about the file.
 old-location: fs\wofisexternalfile.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 9E06B486-B9F9-4B9B-B164-E3954FB87B8D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WofIsExternalFile, WofIsExternalFile function [Files], fs.wofisexternalfile, wofapi/WofIsExternalFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
+req.lib: Wofutil.lib
+req.dll: Wofutil.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WofIsExternalFile
 product: Windows
 targetos: Windows
-req.lib: Wofutil.lib
-req.dll: Wofutil.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WofIsExternalFile function

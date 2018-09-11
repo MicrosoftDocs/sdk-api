@@ -4,17 +4,16 @@ title: GetMUILanguage function
 author: windows-sdk-content
 description: Gets the language currently in use by the common controls for a particular process.
 old-location: controls\GetMUILanguage.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\getmuilanguage.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMUILanguage, GetMUILanguage function [Windows Controls], _win32_GetMUILanguage, _win32_GetMUILanguage_cpp, commctrl/GetMUILanguage, controls.GetMUILanguage, controls._win32_GetMUILanguage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll (version 5.80 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GetMUILanguage
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll (version 5.80 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetMUILanguage function

@@ -4,17 +4,16 @@ title: IStreamUnbufferedInfo::GetSectorSize
 author: windows-sdk-content
 description: Retrieves the number of bytes per sector on the disk currently being used. When using unbuffered input/output (I/O), it is important to know the size of the sectors on the disk being read in order to ensure proper byte alignment.
 old-location: shell\IStreamUnbufferedInfo_GetSectorSize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2194de8b-25bd-4eeb-8a67-d5bd22947497
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetSectorSize, GetSectorSize method [Windows Shell], GetSectorSize method [Windows Shell],IStreamUnbufferedInfo interface, IStreamUnbufferedInfo interface [Windows Shell],GetSectorSize method, IStreamUnbufferedInfo.GetSectorSize, IStreamUnbufferedInfo::GetSectorSize, _shell_IStreamUnbufferedInfo_GetSectorSize, shell.IStreamUnbufferedInfo_GetSectorSize, shobjidl/IStreamUnbufferedInfo::GetSectorSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamUnbufferedInfo.GetSectorSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamUnbufferedInfo::GetSectorSize

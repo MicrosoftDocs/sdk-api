@@ -4,17 +4,16 @@ title: CoFreeUnusedLibrariesEx function
 author: windows-sdk-content
 description: Unloads any DLLs that are no longer in use and whose unload delay has expired.
 old-location: com\cofreeunusedlibrariesex.htm
-old-project: com
+tech.root: com
 ms.assetid: 01660e9d-d8f2-40ef-a6d6-b80f0140ab5f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoFreeUnusedLibrariesEx, CoFreeUnusedLibrariesEx function [COM], _com_CoFreeUnusedLibrariesEx, com.cofreeunusedlibrariesex, combaseapi/CoFreeUnusedLibrariesEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: ComBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - CoFreeUnusedLibrariesEx
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: ComBase.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoFreeUnusedLibrariesEx function

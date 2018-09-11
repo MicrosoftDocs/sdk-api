@@ -4,17 +4,16 @@ title: IUIAutomationDragPattern::get_CachedDropEffect
 author: windows-sdk-content
 description: Retrieves a cached localized string that indicates what happens when the user drops this element as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_cacheddropeffect.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: A99F5E0F-FC61-4AD7-9DC8-B4B7B1AB2F6C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedDropEffect property [Windows Accessibility], CachedDropEffect property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CachedDropEffect property, IUIAutomationDragPattern.CachedDropEffect, IUIAutomationDragPattern.get_CachedDropEffect, IUIAutomationDragPattern::CachedDropEffect, IUIAutomationDragPattern::get_CachedDropEffect, get_CachedDropEffect, uiautomationclient/IUIAutomationDragPattern::CachedDropEffect, uiautomationclient/IUIAutomationDragPattern::get_CachedDropEffect, winauto.uiauto_iuiautomationdragpattern_cacheddropeffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationDragPattern.get_CachedDropEffect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationDragPattern::get_CachedDropEffect

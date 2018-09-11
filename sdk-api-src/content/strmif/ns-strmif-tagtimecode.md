@@ -4,7 +4,7 @@ title: tagTIMECODE
 author: windows-sdk-content
 description: The TIMECODE structure contains basic timecode frame count information.
 old-location: dshow\timecode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 652be387-aa5e-4077-8b2d-b08bc40b31bb
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TIMECODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TIMECODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: TIMECODE
+req.redist: 
 ---
 
 # tagTIMECODE structure

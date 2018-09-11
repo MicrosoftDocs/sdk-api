@@ -4,7 +4,7 @@ title: "_RADIUS_EXTENSION_POINT"
 author: windows-sdk-content
 description: The RADIUS_EXTENSION_POINT enumeration type enumerates the possible points in the RADIUS request process when the RadiusExtensionProcess2 function can be called.
 old-location: nps\IAS_radius_extension_point.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 0e7f4d48-01b5-45a8-bf72-27b557ae8da7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: authif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RADIUS_EXTENSION_POINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RADIUS_EXTENSION_POINT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: RADIUS_EXTENSION_POINT
+req.redist: 
 ---
 
 # _RADIUS_EXTENSION_POINT enumeration

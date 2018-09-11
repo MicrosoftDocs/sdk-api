@@ -4,7 +4,7 @@ title: "_DDENABLEIRQINFO"
 author: windows-sdk-content
 description: The DDENABLEIRQINFO structure contains the information required to enable interrupts.
 old-location: display\ddenableirqinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: f6ac3ef8-1afc-4c0f-b24f-34d3d56d62a8
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDENABLEIRQINFO, *PDDENABLEIRQINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDENABLEIRQINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDENABLEIRQINFO, *PDDENABLEIRQINFO
+req.redist: 
 ---
 
 # _DDENABLEIRQINFO structure

@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer::put_MixerBitmapOpacity
 author: windows-sdk-content
 description: The put_MixerBitmapOpacity method specifies the opacity of the static bitmap image.
 old-location: mstv\imsvidvideorenderer_put_mixerbitmapopacity.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 5dba67ab-9522-48a3-be09-8ed8c27bffee
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_MixerBitmapOpacity method, IMSVidVideoRenderer.put_MixerBitmapOpacity, IMSVidVideoRenderer::put_MixerBitmapOpacity, IMSVidVideoRendererput_MixerBitmapOpacity, mstv.imsvidvideorenderer_put_mixerbitmapopacity, put_MixerBitmapOpacity, put_MixerBitmapOpacity method [Microsoft TV Technologies], put_MixerBitmapOpacity method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_MixerBitmapOpacity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer.put_MixerBitmapOpacity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer::put_MixerBitmapOpacity

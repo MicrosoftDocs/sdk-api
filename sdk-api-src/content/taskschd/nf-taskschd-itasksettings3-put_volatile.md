@@ -4,17 +4,16 @@ title: ITaskSettings3::put_Volatile
 author: windows-sdk-content
 description: Gets or sets a boolean value that indicates whether the task is automatically disabled every time Windows starts.
 old-location: taskschd\itasksettings3_volatile.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: C5A28292-13A0-42DC-BF94-4F1A03A3306C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITaskSettings3 interface [Task Scheduler],Volatile property, ITaskSettings3.Volatile, ITaskSettings3.put_Volatile, ITaskSettings3::Volatile, ITaskSettings3::get_Volatile, ITaskSettings3::put_Volatile, Volatile property [Task Scheduler], Volatile property [Task Scheduler],ITaskSettings3 interface, put_Volatile, taskschd.itasksettings3_volatile, taskschd/ITaskSettings3::Volatile, taskschd/ITaskSettings3::get_Volatile, taskschd/ITaskSettings3::put_Volatile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITaskSettings3.put_Volatile
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskSettings3::put_Volatile

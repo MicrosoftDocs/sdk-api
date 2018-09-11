@@ -4,17 +4,16 @@ title: "_WSD_REFERENCE_PARAMETERS"
 author: windows-sdk-content
 description: Specifies opaque data that is used by an endpoint.
 old-location: ncd\wsd_reference_parameters_struct.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: add8bda6-b5b1-4026-9900-829ece926670
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSD_REFERENCE_PARAMETERS, WSD_REFERENCE_PARAMETERS structure, _WSD_REFERENCE_PARAMETERS, ncd.wsd_reference_parameters_struct, wsdtypes/WSD_REFERENCE_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_REFERENCE_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_REFERENCE_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_REFERENCE_PARAMETERS
+req.redist: 
 ---
 
 # _WSD_REFERENCE_PARAMETERS structure

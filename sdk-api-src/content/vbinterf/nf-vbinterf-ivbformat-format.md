@@ -4,17 +4,16 @@ title: IVBFormat::Format
 author: windows-sdk-content
 description: Formats a string according to a pattern.
 old-location: com\ivbformat_format.htm
-old-project: com
+tech.root: com
 ms.assetid: 62200cb0-3704-4caf-9152-1b7b0c43856a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Format, Format method [COM], Format method [COM],IVBFormat interface, IVBFormat interface [COM],Format method, IVBFormat.Format, IVBFormat::Format, _com_IVBFormat_Format, com.ivbformat_format, vbFirstFourDays, vbFirstFullWeek, vbFirstJan1, vbFriday, vbMonday, vbSaturday, vbSunday, vbThursday, vbTuesday, vbUseSystem, vbWednesday, vbinterf/IVBFormat::Format
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vbinterf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVBFormat.Format
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVBFormat::Format

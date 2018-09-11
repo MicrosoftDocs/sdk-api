@@ -4,17 +4,16 @@ title: "_WS_HTTPS_URL"
 author: windows-sdk-content
 description: The URL subtype for specifying an HTTPS URL.
 old-location: wsw\ws_https_url.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 4a7cf425-40c6-4951-880e-b3a99076bb2b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_HTTPS_URL, WS_HTTPS_URL structure [Web Services for Windows], _WS_HTTPS_URL, webservices/WS_HTTPS_URL, wsw.ws_https_url
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_HTTPS_URL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_HTTPS_URL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_HTTPS_URL
+req.redist: 
 ---
 
 # _WS_HTTPS_URL structure

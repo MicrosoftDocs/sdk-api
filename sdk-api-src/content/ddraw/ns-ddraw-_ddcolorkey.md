@@ -4,7 +4,7 @@ title: "_DDCOLORKEY"
 author: windows-sdk-content
 description: The DDCOLORKEY structure describes a source color key, destination color key, or color space.
 old-location: directdraw\ddcolorkey.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: c520e649-86f9-4c4a-bb67-22d75aa3c8b0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDCOLORKEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDCOLORKEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDCOLORKEY
+req.redist: 
 ---
 
 # _DDCOLORKEY structure

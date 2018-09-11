@@ -4,17 +4,16 @@ title: INetSharingConfiguration::EnableInternetFirewall
 author: windows-sdk-content
 description: The EnableInternetFirewall methods enables Internet Connection Firewall on this connection.
 old-location: ics\inetsharingconfiguration_enableinternetfirewall.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 9805f6bf-ee06-469f-9b2f-e48caa582d1a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EnableInternetFirewall, EnableInternetFirewall method [ICS/ICF], EnableInternetFirewall method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],EnableInternetFirewall method, INetSharingConfiguration.EnableInternetFirewall, INetSharingConfiguration::EnableInternetFirewall, _ics_inetsharingconfiguration_enableinternetfirewall, ics.inetsharingconfiguration_enableinternetfirewall, netcon/INetSharingConfiguration::EnableInternetFirewall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingConfiguration.EnableInternetFirewall
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingConfiguration::EnableInternetFirewall

@@ -4,17 +4,16 @@ title: "_CRYPT_XML_BLOB"
 author: windows-sdk-content
 description: Contains an arbitrary array of bytes.
 old-location: security\crypt_xml_blob.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: b70aae53-919b-4d4a-b284-ea6bc223842f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_XML_BLOB, CRYPT_XML_BLOB, CRYPT_XML_BLOB structure [Security], PCRYPT_XML_BLOB, PCRYPT_XML_BLOB structure pointer [Security], _CRYPT_XML_BLOB, cryptxml/CRYPT_XML_BLOB, cryptxml/PCRYPT_XML_BLOB, security.crypt_xml_blob"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_BLOB, *PCRYPT_XML_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_BLOB, *PCRYPT_XML_BLOB
+req.redist: 
 ---
 
 # _CRYPT_XML_BLOB structure

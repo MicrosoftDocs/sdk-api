@@ -4,17 +4,16 @@ title: IDropTargetHelper::Show
 author: windows-sdk-content
 description: Notifies the drag-image manager to show or hide the drag image.
 old-location: shell\IDropTargetHelper_Show.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 412a87d6-4915-4791-b109-060cc967dbc9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IDropTargetHelper interface [Windows Shell],Show method, IDropTargetHelper.Show, IDropTargetHelper::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IDropTargetHelper interface, _win32_IDropTargetHelper_Show, shell.IDropTargetHelper_Show, shobjidl_core/IDropTargetHelper::Show
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDropTargetHelper.Show
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDropTargetHelper::Show

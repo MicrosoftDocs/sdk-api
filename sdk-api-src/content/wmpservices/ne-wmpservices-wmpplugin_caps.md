@@ -4,7 +4,7 @@ title: WMPPlugin_Caps
 author: windows-sdk-content
 description: The WMPPlugin_Caps enumeration type signals whether the plug-in can convert between input and output formats.
 old-location: wmp\wmpplugin_caps.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 0f6cad76-7583-4272-88d7-25a121a0c2b9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmpservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPPlugin_Caps
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMPPlugin_Caps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMPPlugin_Caps
+req.redist: 
 ---
 
 # WMPPlugin_Caps enumeration

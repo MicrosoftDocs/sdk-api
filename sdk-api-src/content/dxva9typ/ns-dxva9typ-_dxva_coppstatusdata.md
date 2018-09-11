@@ -4,7 +4,7 @@ title: "_DXVA_COPPStatusData"
 author: windows-sdk-content
 description: Contains the result from a Certified Output Protection Protocol (COPP) status request.
 old-location: dshow\dxva_coppstatusdata.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 62172141-cda4-4713-8ae2-e1f0c5f3fba8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva9typ.h
 req.include-header: Dxva.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA_COPPStatusData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA_COPPStatusData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVA_COPPStatusData
+req.redist: 
 ---
 
 # _DXVA_COPPStatusData structure

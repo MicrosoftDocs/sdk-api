@@ -4,7 +4,7 @@ title: MFT_ENUM_DATA_V1
 author: windows-sdk-content
 description: Contains information defining the boundaries for and starting place of an enumeration of update sequence number (USN) change journal records for ReFS volumes.
 old-location: fs\mft_enum_data_v1.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 6d7b50e3-60cf-4eaf-9d22-fbb20c7e0bba
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFT_ENUM_DATA_V1, *PMFT_ENUM_DATA_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFT_ENUM_DATA_V1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: MFT_ENUM_DATA_V1, *PMFT_ENUM_DATA_V1
+req.redist: 
 ---
 
 # MFT_ENUM_DATA_V1 structure

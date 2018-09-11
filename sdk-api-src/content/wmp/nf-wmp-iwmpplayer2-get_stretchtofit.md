@@ -4,17 +4,16 @@ title: IWMPPlayer2::get_stretchToFit
 author: windows-sdk-content
 description: The get_stretchToFit method retrieves a value indicating whether video displayed by the Windows Media Player control automatically sizes to fit the video window when the video window is larger than the dimensions of the video image.
 old-location: wmp\iwmpplayer2_get_stretchtofit.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: d477800d-fb16-49a7-ab80-a0f5f7c68fc7
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPPlayer2 interface [Windows Media Player],get_stretchToFit method, IWMPPlayer2.get_stretchToFit, IWMPPlayer2::get_stretchToFit, IWMPPlayer2get_stretchToFit, get_stretchToFit, get_stretchToFit method [Windows Media Player], get_stretchToFit method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_get_stretchtofit, wmp/IWMPPlayer2::get_stretchToFit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPPlayer2.get_stretchToFit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPPlayer2::get_stretchToFit

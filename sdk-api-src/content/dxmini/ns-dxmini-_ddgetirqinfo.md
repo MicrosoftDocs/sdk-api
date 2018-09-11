@@ -4,7 +4,7 @@ title: "_DDGETIRQINFO"
 author: windows-sdk-content
 description: The DDGETIRQINFO structure contains interrupt information for the video miniport driver.
 old-location: display\ddgetirqinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: fdc3b929-902b-4759-b603-1624e3fb01dc
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDGETIRQINFO, *PDDGETIRQINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDGETIRQINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDGETIRQINFO, *PDDGETIRQINFO
+req.redist: 
 ---
 
 # _DDGETIRQINFO structure

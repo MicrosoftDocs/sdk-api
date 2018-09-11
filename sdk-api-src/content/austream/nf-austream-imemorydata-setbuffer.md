@@ -4,17 +4,16 @@ title: IMemoryData::SetBuffer
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Initializes a memory buffer with a pointer to memory and length.
 old-location: dshow\imemorydata_setbuffer.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d565b493-0ee6-4a10-9af3-ff9d9ba48ba8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMemoryData interface [DirectShow],SetBuffer method, IMemoryData.SetBuffer, IMemoryData::SetBuffer, IMemoryDataSetBuffer, SetBuffer, SetBuffer method [DirectShow], SetBuffer method [DirectShow],IMemoryData interface, austream/IMemoryData::SetBuffer, dshow.imemorydata_setbuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: austream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMemoryData.SetBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMemoryData::SetBuffer

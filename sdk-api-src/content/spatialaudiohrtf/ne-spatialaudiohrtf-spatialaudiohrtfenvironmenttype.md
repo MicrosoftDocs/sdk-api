@@ -4,17 +4,16 @@ title: SpatialAudioHrtfEnvironmentType
 author: windows-sdk-content
 description: Specifies the type of acoustic environment that is simulated when audio is processed for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfenvironmenttype.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 017FC8D4-2B74-4B13-AF5B-D7FFF97A7E45
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: SpatialAudioHrtfEnvironmentType, SpatialAudioHrtfEnvironmentType enumeration [Core Audio], SpatialAudioHrtfEnvironment_Average, SpatialAudioHrtfEnvironment_Large, SpatialAudioHrtfEnvironment_Medium, SpatialAudioHrtfEnvironment_Outdoors, SpatialAudioHrtfEnvironment_Small, coreaudio.spatialaudiohrtfenvironmenttype, spatialaudiohrtf/SpatialAudioHrtfEnvironmentType, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Average, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Large, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Medium, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Outdoors, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Small
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: spatialaudiohrtf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioHrtfEnvironmentType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SpatialAudioHrtfEnvironmentType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SpatialAudioHrtfEnvironmentType
+req.redist: 
 ---
 
 # SpatialAudioHrtfEnvironmentType enumeration

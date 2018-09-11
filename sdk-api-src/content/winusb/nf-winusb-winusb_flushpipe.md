@@ -4,17 +4,16 @@ title: WinUsb_FlushPipe function
 author: windows-sdk-content
 description: The WinUsb_FlushPipe function discards any data that is cached in a pipe. This is a synchronous operation.
 old-location: buses\winusb_flushpipe.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 3f6d55c2-32df-4cb9-99bb-0e1a71c97394
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WinUsb_FlushPipe, WinUsb_FlushPipe function [Buses], buses.winusb_flushpipe, winusb/WinUsb_FlushPipe, winusbfunc_44ebf8ef-770d-4102-8a2d-b0d996f36e41.xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinUsb_FlushPipe
 product: Windows
 targetos: Windows
-req.lib: Winusb.lib
-req.dll: Winusb.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WinUsb_FlushPipe function

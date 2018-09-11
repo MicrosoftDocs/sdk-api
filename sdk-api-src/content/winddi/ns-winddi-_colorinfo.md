@@ -4,7 +4,7 @@ title: "_COLORINFO"
 author: windows-sdk-content
 description: The COLORINFO structure defines a device's colors in CIE coordinate space.
 old-location: display\colorinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: bbada28c-d855-4197-acf8-2a070423ddfe
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COLORINFO, *PCOLORINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COLORINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: COLORINFO, *PCOLORINFO
+req.redist: 
 ---
 
 # _COLORINFO structure

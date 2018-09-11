@@ -4,17 +4,16 @@ title: RasEntryDlgW function
 author: windows-sdk-content
 description: The RasEntryDlg function displays modal property sheets that allow a user to manipulate phone-book entries.
 old-location: rras\rasentrydlg.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 9259502d-c31b-4ebd-ace7-70f02bbb7873
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasEntryDlg, RasEntryDlg function [RAS], RasEntryDlgA, RasEntryDlgW, _ras_rasentrydlg, rasdlg/RasEntryDlg, rasdlg/RasEntryDlgA, rasdlg/RasEntryDlgW, rras.rasentrydlg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rasdlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASNAPSTATE, *LPRASNAPSTATE
+req.lib: Rasdlg.lib
+req.dll: Rasdlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RasEntryDlgW
 product: Windows
 targetos: Windows
-req.lib: Rasdlg.lib
-req.dll: Rasdlg.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasEntryDlgW function

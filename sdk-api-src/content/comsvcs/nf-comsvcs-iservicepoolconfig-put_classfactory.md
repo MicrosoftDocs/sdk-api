@@ -4,17 +4,16 @@ title: IServicePoolConfig::put_ClassFactory
 author: windows-sdk-content
 description: Sets a class factory for the pooled objects.
 old-location: cos\iservicepoolconfig_put_classfactory.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 329c67f0-3c02-4cea-bee6-b5c8aaa9471b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_ClassFactory method, IServicePoolConfig.put_ClassFactory, IServicePoolConfig::put_ClassFactory, comsvcs/IServicePoolConfig::put_ClassFactory, cos.iservicepoolconfig_put_classfactory, put_ClassFactory, put_ClassFactory method [COM+], put_ClassFactory method [COM+],IServicePoolConfig interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServicePoolConfig.put_ClassFactory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServicePoolConfig::put_ClassFactory

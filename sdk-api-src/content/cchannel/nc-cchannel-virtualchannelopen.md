@@ -4,7 +4,7 @@ title: VIRTUALCHANNELOPEN
 author: windows-sdk-content
 description: Opens the client end of a virtual channel.
 old-location: termserv\virtualchannelopen.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 4ec75f9d-dbdf-499d-80a9-25fc6e9c5cb9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: cchannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VirtualChannelOpen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # VIRTUALCHANNELOPEN callback function

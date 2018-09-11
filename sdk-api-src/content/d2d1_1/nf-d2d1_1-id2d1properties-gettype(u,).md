@@ -4,17 +4,16 @@ title: ID2D1Properties::GetType(U,)
 author: windows-sdk-content
 description: Gets the D2D1_PROPERTY_TYPE of the selected property.
 old-location: direct2d\id2d1properties_gettype.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 42e80588-9e80-4f30-9a3c-77b64f88ff7a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetType, GetType method [Direct2D], GetType method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetType method, ID2D1Properties.GetType, ID2D1Properties.GetType(U,), ID2D1Properties::GetType, ID2D1Properties::GetType(U,), ID2D1Properties::GetType(UINT32), d2d1_1/ID2D1Properties::GetType, direct2d.id2d1properties_gettype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Properties.GetType
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Properties::GetType(U,)
@@ -68,9 +67,9 @@ Type: <b>UINT32</b>
 The index of the property for which the type will be retrieved.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 

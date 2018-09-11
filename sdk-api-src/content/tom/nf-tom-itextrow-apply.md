@@ -4,17 +4,16 @@ title: ITextRow::Apply
 author: windows-sdk-content
 description: Applies the formatting attributes of this text row object to the specified rows in the associated ITextRange2.
 old-location: controls\itextrow_apply.htm
-old-project: controls
+tech.root: controls
 ms.assetid: f09f73d3-c71f-43f1-b671-aba392e1fb49
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Apply, Apply method [Windows Controls], Apply method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],Apply method, ITextRow.Apply, ITextRow::Apply, controls.itextrow_apply, tom/ITextRow::Apply, tomCellStructureChangeOnly, tomRowApplyDefault
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRow.Apply
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRow::Apply

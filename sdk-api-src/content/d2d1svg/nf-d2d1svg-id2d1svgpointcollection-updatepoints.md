@@ -4,17 +4,16 @@ title: ID2D1SvgPointCollection::UpdatePoints
 author: windows-sdk-content
 description: Updates the points array. Existing points not updated by this method are preserved. The array is resized larger if necessary to accomodate the new points.
 old-location: direct2d\id2d1svgpointcollection_updatepoints.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: D1DE682E-FFB1-4090-BE2A-FED41C1E7170
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1SvgPointCollection interface [Direct2D],UpdatePoints method, ID2D1SvgPointCollection.UpdatePoints, ID2D1SvgPointCollection::UpdatePoints, UpdatePoints, UpdatePoints method [Direct2D], UpdatePoints method [Direct2D],ID2D1SvgPointCollection interface, d2d1svg/ID2D1SvgPointCollection::UpdatePoints, direct2d.id2d1svgpointcollection_updatepoints
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgPointCollection.UpdatePoints
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgPointCollection::UpdatePoints

@@ -4,17 +4,16 @@ title: tagBIND_FLAGS
 author: windows-sdk-content
 description: Controls aspects of moniker binding operations.
 old-location: com\bind_flags.htm
-old-project: com
+tech.root: com
 ms.assetid: e8884e82-5de2-4a1f-b79c-d431afe9e87e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BIND_FLAGS, BIND_FLAGS enumeration [COM], BIND_JUSTTESTEXISTENCE, BIND_MAYBOTHERUSER, _com_BIND_FLAGS, com.bind_flags, objidl/BIND_FLAGS, objidl/BIND_JUSTTESTEXISTENCE, objidl/BIND_MAYBOTHERUSER, tagBIND_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Objidlbase.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BIND_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BIND_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: BIND_FLAGS
+req.redist: 
 ---
 
 # tagBIND_FLAGS enumeration

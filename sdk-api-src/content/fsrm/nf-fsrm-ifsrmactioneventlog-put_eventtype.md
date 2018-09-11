@@ -4,17 +4,16 @@ title: IFsrmActionEventLog::put_EventType
 author: windows-sdk-content
 description: Retrieves or sets the type of event that the action logs when it runs.
 old-location: fsrm\ifsrmactioneventlog_eventtype.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: eb76fa86-2d82-46a5-ae76-c2f00f812e48
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: EventType property [File Server Resource Manager], EventType property [File Server Resource Manager],IFsrmActionEventLog interface, IFsrmActionEventLog interface [File Server Resource Manager],EventType property, IFsrmActionEventLog.EventType, IFsrmActionEventLog.put_EventType, IFsrmActionEventLog::EventType, IFsrmActionEventLog::get_EventType, IFsrmActionEventLog::put_EventType, fs.ifsrmactioneventlog_eventtype, fsrm.ifsrmactioneventlog_eventtype, fsrm/IFsrmActionEventLog::EventType, fsrm/IFsrmActionEventLog::get_EventType, fsrm/IFsrmActionEventLog::put_EventType, put_EventType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmActionEventLog.put_EventType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmActionEventLog::put_EventType

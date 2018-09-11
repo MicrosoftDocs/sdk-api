@@ -4,17 +4,16 @@ title: wglSetLayerPaletteEntries function
 author: windows-sdk-content
 description: Sets the palette entries in a given color-index layer plane for a specified device context.
 old-location: opengl\wglsetlayerpaletteentries.htm
-old-project: OpenGL
+tech.root: OpenGL
 ms.assetid: bc44353d-15db-4e52-970d-a290b66bc046
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ogl_wglSetLayerPaletteEntries, opengl.wglsetlayerpaletteentries, wglSetLayerPaletteEntries, wglSetLayerPaletteEntries function [OpenGL], wingdi/wglSetLayerPaletteEntries"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Opengl32.lib
+req.dll: Opengl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - wglSetLayerPaletteEntries
 product: Windows
 targetos: Windows
-req.lib: Opengl32.lib
-req.dll: Opengl32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # wglSetLayerPaletteEntries function
@@ -60,11 +58,31 @@ Sets the palette entries in a given color-index layer plane for a specified devi
 
 
 
-### -param
+### -param arg1
 
-Type: <b>HDC</b>
+TBD
 
-The device context of a window whose layer palette is to be set.
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
+
+
+### -param arg5
+
+TBD
+
+
 
 
 #### - COLORREF
@@ -86,6 +104,13 @@ The number of palette entries to be set.
 Type: <b>int</b>
 
 The first palette entry to be set.
+
+
+#### - param
+
+Type: <b>HDC</b>
+
+The device context of a window whose layer palette is to be set.
 
 
 #### - pcr

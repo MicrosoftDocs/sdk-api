@@ -4,17 +4,16 @@ title: DRMAcquireLicense function
 author: windows-sdk-content
 description: Attempts to acquire an end-user license or client licensor certificate asynchronously.
 old-location: rm\drmacquirelicense.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 0d4ce794-8384-4f1c-bc8c-1e67fbb5f987
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DRMAcquireLicense, DRMAcquireLicense function [Active Directory Rights Management Services SDK 1.0], DRM_AL_CANCEL, DRM_AL_FETCHNOADVISORY, DRM_AL_NONSILENT, DRM_AL_NOPERSIST, DRM_AL_NOUI, msdrm/DRMAcquireLicense, rm.drmacquirelicense
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_SELECTIONSTYLE
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMAcquireLicense
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

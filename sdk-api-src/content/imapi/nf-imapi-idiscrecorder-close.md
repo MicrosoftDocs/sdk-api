@@ -4,17 +4,16 @@ title: IDiscRecorder::Close
 author: windows-sdk-content
 description: Releases exclusive access to a disc recorder. This restores file system access to the drive.
 old-location: imapi\idiscrecorder_close.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 39af9413-6068-4165-8a26-509389a6d1f2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Close, Close method [IMAPI], Close method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],Close method, IDiscRecorder.Close, IDiscRecorder::Close, _win32_idiscrecorder_close, base.idiscrecorder_close, imapi.idiscrecorder_close, imapi/IDiscRecorder::Close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder.Close
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder::Close

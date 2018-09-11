@@ -4,17 +4,16 @@ title: IComponents::Remove
 author: windows-sdk-content
 description: The Remove method removes a Component object from the collection.
 old-location: mstv\icomponents_remove.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0d71b1f0-1a15-4206-b22f-624cc4b246a3
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],Remove method, IComponents.Remove, IComponents::Remove, IComponentsRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IComponents interface, mstv.icomponents_remove, tuner/IComponents::Remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponents.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponents::Remove

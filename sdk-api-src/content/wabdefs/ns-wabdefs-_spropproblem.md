@@ -4,17 +4,16 @@ title: "_SPropProblem"
 author: windows-sdk-content
 description: Do not use. Describes an error relating to an operation involving a property.
 old-location: wab\_wab_SPropProblem.htm
-old-project: wab
+tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropproblem.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSPropProblem, SPropProblem, SPropProblem structure [Windows Address Book], _SPropProblem, _wab_SPropProblem, wab._wab_SPropProblem, wabdefs/SPropProblem"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SPropProblem, *LPSPropProblem
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SPropProblem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SPropProblem, *LPSPropProblem
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

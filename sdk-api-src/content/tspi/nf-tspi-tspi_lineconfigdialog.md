@@ -4,17 +4,16 @@ title: TSPI_lineConfigDialog function
 author: windows-sdk-content
 description: The TSPI_lineConfigDialog function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_lineConfigDialog.
 old-location: tspi\tspi_lineconfigdialog.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b0f26029-ddb2-472c-8a09-2abf213dab16
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineConfigDialog, TSPI_lineConfigDialog function [TAPI 2.2], _tspi_tspi_lineconfigdialog, tspi.tspi_lineconfigdialog, tspi/TSPI_lineConfigDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineConfigDialog
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineConfigDialog function

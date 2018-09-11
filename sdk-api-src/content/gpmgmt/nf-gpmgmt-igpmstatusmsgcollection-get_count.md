@@ -4,17 +4,16 @@ title: IGPMStatusMsgCollection::get_Count
 author: windows-sdk-content
 description: Returns the number of messages in the collection.
 old-location: gpmc\igpmstatusmsgcollection_get_count.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 6c2ba62c-94ad-47dd-9cdd-7792c027f962
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMStatusMsgCollection class, Count property [GPMC],IGPMStatusMsgCollection interface, GPMStatusMsgCollection class [GPMC],Count property, IGPMStatusMsgCollection interface [GPMC],Count property, IGPMStatusMsgCollection.Count, IGPMStatusMsgCollection.get_Count, IGPMStatusMsgCollection::Count, IGPMStatusMsgCollection::get_Count, _win32_igpmstatusmsgcollection_get_count, get_Count, gpmc.igpmstatusmsgcollection_get_count, gpmgmt/IGPMStatusMsgCollection::Count, gpmgmt/IGPMStatusMsgCollection::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GPMStatusMsgCollection.Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMStatusMsgCollection::get_Count

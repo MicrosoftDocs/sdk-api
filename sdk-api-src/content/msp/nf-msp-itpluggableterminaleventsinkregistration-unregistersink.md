@@ -4,17 +4,16 @@ title: ITPluggableTerminalEventSinkRegistration::UnregisterSink
 author: windows-sdk-content
 description: The UnregisterSink method clears event registration for pluggable terminal events.
 old-location: tapi3\itpluggableterminaleventsinkregistration_unregistersink.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 261ea39e-485f-4039-94b0-cd92f614c0a9
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2],UnregisterSink method, ITPluggableTerminalEventSinkRegistration.UnregisterSink, ITPluggableTerminalEventSinkRegistration::UnregisterSink, UnregisterSink, UnregisterSink method [TAPI 2.2], UnregisterSink method [TAPI 2.2],ITPluggableTerminalEventSinkRegistration interface, _tapi3_itpluggableterminaleventsinkregistration_unregistersink, msp/ITPluggableTerminalEventSinkRegistration::UnregisterSink, tapi3.itpluggableterminaleventsinkregistration_unregistersink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msp.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPluggableTerminalEventSinkRegistration.UnregisterSink
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPluggableTerminalEventSinkRegistration::UnregisterSink

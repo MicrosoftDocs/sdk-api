@@ -4,17 +4,16 @@ title: tagOFN_NT4A
 author: windows-sdk-content
 description: The OPENFILENAME_NT4 structure is identical to OPENFILENAME with _WIN32_WINNT set to 0x0400.
 old-location: dlgbox\openfilename_nt4_str.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\openfilename_nt4.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPOPENFILENAME_NT4A, OPENFILENAME_NT4, OPENFILENAME_NT4 structure [Dialog Boxes], OPENFILENAME_NT4A, OPENFILENAME_NT4W, _win32_OPENFILENAME_NT4_str, _win32_openfilename_nt4_str_cpp, commdlg/OPENFILENAME_NT4, commdlg/OPENFILENAME_NT4A, commdlg/OPENFILENAME_NT4W, dlgbox.openfilename_nt4_str, tagOFN_NT4A, winui._win32_openfilename_nt4_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPENFILENAME_NT4A, *LPOPENFILENAME_NT4A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - OPENFILENAME_NT4W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: OPENFILENAME_NT4A, *LPOPENFILENAME_NT4A
+req.redist: 
 ---
 
 # tagOFN_NT4A structure

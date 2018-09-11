@@ -4,17 +4,16 @@ title: ITAgent::get_TotalWrapUpTime
 author: windows-sdk-content
 description: The get_TotalWrapUpTime method gets the number of seconds spent on ACD call wrap-up (after-call work) by this agent (across all sessions).
 old-location: tapi3\itagent_get_totalwrapuptime.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 23fb0c9b-b3c7-4a1d-91fc-9ecfb6a2d8bf
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_TotalWrapUpTime method, ITAgent.get_TotalWrapUpTime, ITAgent::get_TotalWrapUpTime, _tapi3_itagent_get_totalwrapuptime, get_TotalWrapUpTime, get_TotalWrapUpTime method [TAPI 2.2], get_TotalWrapUpTime method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_totalwrapuptime, tapi3cc/ITAgent::get_TotalWrapUpTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgent.get_TotalWrapUpTime
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgent::get_TotalWrapUpTime

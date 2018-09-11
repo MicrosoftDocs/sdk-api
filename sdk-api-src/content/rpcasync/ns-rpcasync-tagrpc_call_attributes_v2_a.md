@@ -4,17 +4,16 @@ title: tagRPC_CALL_ATTRIBUTES_V2_A
 author: windows-sdk-content
 description: The RPC_CALL_ATTRIBUTES_V2 structure provides parameters to the RpcServerInqCallAttributes function. Version 2 specifies support for local addresses and client process IDs.
 old-location: rpc\rpc_call_attributes_v2.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: eccc4b78-19f8-415f-bd0f-b1f9f454435e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RPC_CALL_ATTRIBUTES, RPC_CALL_ATTRIBUTES structure [RPC], RPC_CALL_ATTRIBUTES_V2, RPC_CALL_ATTRIBUTES_V2 structure [RPC], RPC_CALL_ATTRIBUTES_V2_A, RPC_CALL_ATTRIBUTES_V2_W, RPC_CALL_STATUS_CANCELLED, RPC_CALL_STATUS_DISCONNECTED, RPC_CALL_STATUS_IN_PROGRESS, RPC_QUERY_CALL_LOCAL_ADDRESS, RPC_QUERY_CLIENT_PID, RPC_QUERY_CLIENT_PRINCIPAL_NAME, RPC_QUERY_SERVER_PRINCIPAL_NAME, rpc.rpc_call_attributes_v2, rpcasync/RPC_CALL_ATTRIBUTES, rpcasync/RPC_CALL_ATTRIBUTES_V2, rpcasync/RPC_CALL_ATTRIBUTES_V2_A, rpcasync/RPC_CALL_ATTRIBUTES_V2_W, tagRPC_CALL_ATTRIBUTES_V2_A
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_ATTRIBUTES_V2_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RPC_CALL_ATTRIBUTES_V2_W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_CALL_ATTRIBUTES_V2_A
+req.redist: 
 ---
 
 # tagRPC_CALL_ATTRIBUTES_V2_A structure

@@ -4,17 +4,16 @@ title: HttpCloseRequestQueue function
 author: windows-sdk-content
 description: Closes the handle to the specified request queue created by HttpCreateRequestQueue.
 old-location: http\httpcloserequestqueue.htm
-old-project: http
+tech.root: http
 ms.assetid: dfbc2d32-c1f6-41b1-8f4f-9e5e9f6dd9e1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HttpCloseRequestQueue, HttpCloseRequestQueue function [HTTP], http.httpcloserequestqueue, http/HttpCloseRequestQueue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HttpCloseRequestQueue
 product: Windows
 targetos: Windows
-req.lib: Httpapi.lib
-req.dll: Httpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HttpCloseRequestQueue function

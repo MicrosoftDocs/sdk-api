@@ -4,17 +4,16 @@ title: TraceLoggingRegisterEx function
 author: windows-sdk-content
 description: Registers a TraceLogging provider with callback so that it can be used for to log events.
 old-location: tracelogging\traceloggingregisterex.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: E64B3855-A43B-489B-8A73-930D65FA5F79
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TraceLoggingRegisterEx, TraceLoggingRegisterEx function, tracelogging.traceloggingregisterex, traceloggingprovider/TraceLoggingRegisterEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: traceloggingprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: Advapi32.lib
+req.dll: N/A
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingRegisterEx
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: N/A
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingRegisterEx function
@@ -60,7 +58,17 @@ Registers a TraceLogging provider with callback so that it can be used for to lo
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 

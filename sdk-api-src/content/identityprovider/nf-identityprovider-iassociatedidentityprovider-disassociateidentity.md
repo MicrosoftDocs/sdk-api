@@ -4,17 +4,16 @@ title: IAssociatedIdentityProvider::DisassociateIdentity
 author: windows-sdk-content
 description: Disassociates the specified identity from a local user account.
 old-location: security\iassociatedidentityprovider_disassociateidentity.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 6e89b558-bb58-4ef9-86f5-447d5cb0a946
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: DisassociateIdentity, DisassociateIdentity method [Security], DisassociateIdentity method [Security],IAssociatedIdentityProvider interface, IAssociatedIdentityProvider interface [Security],DisassociateIdentity method, IAssociatedIdentityProvider.DisassociateIdentity, IAssociatedIdentityProvider::DisassociateIdentity, identityprovider/IAssociatedIdentityProvider::DisassociateIdentity, identitystore/IAssociatedIdentityProvider::DisassociateIdentity, security.iassociatedidentityprovider_disassociateidentity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IDENTITY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAssociatedIdentityProvider.DisassociateIdentity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAssociatedIdentityProvider::DisassociateIdentity

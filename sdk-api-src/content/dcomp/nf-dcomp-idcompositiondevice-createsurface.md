@@ -4,17 +4,16 @@ title: IDCompositionDevice::CreateSurface
 author: windows-sdk-content
 description: Creates an updateable surface object that can be associated with one or more visuals for composition.
 old-location: directcomp\idcompositiondevice_createsurface.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 3B321BF8-A7A5-4E40-B548-D88CA45F6DAF
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectComposition], CreateSurface method [DirectComposition],IDCompositionDevice interface, DXGI_ALPHA_MODE_IGNORE, DXGI_ALPHA_MODE_PREMULTIPLIED, DXGI_ALPHA_MODE_UNSPECIFIED, IDCompositionDevice interface [DirectComposition],CreateSurface method, IDCompositionDevice.CreateSurface, IDCompositionDevice::CreateSurface, dcomp/IDCompositionDevice::CreateSurface, directcomp.idcompositiondevice_createsurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice.CreateSurface
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice::CreateSurface

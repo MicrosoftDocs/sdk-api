@@ -4,7 +4,7 @@ title: "_DRT_ADDRESS_FLAGS"
 author: windows-sdk-content
 description: DRT_ADDRESS_FLAGS enumeration.
 old-location: p2p\drt_address_flags.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 1a1378e0-cea4-472a-b249-d2935dfac9fe
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_FLAGS, *PDRT_ADDRESS_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRT_ADDRESS_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRT_ADDRESS_FLAGS, *PDRT_ADDRESS_FLAGS
+req.redist: 
 ---
 
 # _DRT_ADDRESS_FLAGS enumeration

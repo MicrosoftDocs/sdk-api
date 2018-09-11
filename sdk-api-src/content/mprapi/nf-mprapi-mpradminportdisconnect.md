@@ -4,17 +4,16 @@ title: MprAdminPortDisconnect function
 author: windows-sdk-content
 description: The MprAdminPortDisconnect function disconnects a connection on a specific port.
 old-location: rras\mpradminportdisconnect.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 97ba7bdf-fac2-44a5-94a8-0b3075a19013
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminPortDisconnect, MprAdminPortDisconnect function [RAS], _mpr_mpradminportdisconnect, mprapi/MprAdminPortDisconnect, rras.mpradminportdisconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminPortDisconnect
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminPortDisconnect function

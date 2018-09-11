@@ -4,17 +4,16 @@ title: IBackgroundCopyGroup::EnumJobs
 author: windows-sdk-content
 description: Use the EnumJobs method to retrieve a list of jobs in the group. The list contains only one job.
 old-location: bits\ibackgroundcopygroup_enumjobs.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 40e4412e-60d5-4e08-85b9-1e92f5222e71
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EnumJobs, EnumJobs method [BITS], EnumJobs method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],EnumJobs method, IBackgroundCopyGroup.EnumJobs, IBackgroundCopyGroup::EnumJobs, bits.ibackgroundcopygroup_enumjobs, qmgr/IBackgroundCopyGroup::EnumJobs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyGroup.EnumJobs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyGroup::EnumJobs

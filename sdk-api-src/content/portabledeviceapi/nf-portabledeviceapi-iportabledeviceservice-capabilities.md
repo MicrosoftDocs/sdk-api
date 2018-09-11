@@ -4,17 +4,16 @@ title: IPortableDeviceService::Capabilities
 author: windows-sdk-content
 description: Retrieves the service capabilities.
 old-location: wpdsdk\iportabledeviceservice_capabilities.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 62ef0c63-2908-458f-8e9f-eb6150441380
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Capabilities, Capabilities method [Windows Portable Devices SDK], Capabilities method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],Capabilities method, IPortableDeviceService.Capabilities, IPortableDeviceService::Capabilities, portabledeviceapi/IPortableDeviceService::Capabilities, wpdsdk.iportabledeviceservice_capabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceService.Capabilities
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceService::Capabilities

@@ -4,17 +4,16 @@ title: IOleAdviseHolder::SendOnSave
 author: windows-sdk-content
 description: Sends notification to all advisory sinks currently registered with the advise holder that the object has been saved.
 old-location: com\ioleadviseholder_sendonsave.htm
-old-project: com
+tech.root: com
 ms.assetid: b64ceaf7-45ba-4a66-a5cf-aec352472d3d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleAdviseHolder interface [COM],SendOnSave method, IOleAdviseHolder.SendOnSave, IOleAdviseHolder::SendOnSave, SendOnSave, SendOnSave method [COM], SendOnSave method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonsave, com.ioleadviseholder_sendonsave, oleidl/IOleAdviseHolder::SendOnSave
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleAdviseHolder.SendOnSave
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleAdviseHolder::SendOnSave

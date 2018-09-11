@@ -4,17 +4,16 @@ title: IExtractImage::GetLocation
 author: windows-sdk-content
 description: Gets a path to the image that is to be extracted.
 old-location: shell\IExtractImage_GetLocation.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f1113429-ea89-4650-b345-db9e275232e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetLocation, GetLocation method [Windows Shell], GetLocation method [Windows Shell],IExtractImage interface, IEIFLAG_ASPECT, IEIFLAG_ASYNC, IEIFLAG_CACHE, IEIFLAG_GLEAM, IEIFLAG_NOBORDER, IEIFLAG_NOSTAMP, IEIFLAG_OFFLINE, IEIFLAG_ORIGSIZE, IEIFLAG_QUALITY, IEIFLAG_REFRESH, IEIFLAG_SCREEN, IEIT_PRIORITY_NORMAL, IEI_PRIORITY_MAX, IEI_PRIORITY_MIN, IExtractImage interface [Windows Shell],GetLocation method, IExtractImage.GetLocation, IExtractImage::GetLocation, _win32_IExtractImage_GetLocation, shell.IExtractImage_GetLocation, shobjidl_core/IExtractImage::GetLocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.70 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExtractImage.GetLocation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.70 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExtractImage::GetLocation
@@ -69,7 +67,7 @@ The buffer used to return the path description. This value identifies the image 
 
 ### -param cch
 
-
+TBD
 
 
 ### -param pdwPriority [out]

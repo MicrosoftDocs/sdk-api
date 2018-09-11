@@ -4,17 +4,16 @@ title: D3D10_CPU_ACCESS_FLAG
 author: windows-sdk-content
 description: Specifies the types of CPU access allowed for a resource.
 old-location: direct3d10\d3d10_cpu_access_flag.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_cpu_access_flag.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 9751a6d6-e112-7fe3-72df-bf449b5579c2, D3D10_CPU_ACCESS_FLAG, D3D10_CPU_ACCESS_FLAG enumeration [Direct3D 10], D3D10_CPU_ACCESS_READ, D3D10_CPU_ACCESS_WRITE, d3d10/D3D10_CPU_ACCESS_FLAG, d3d10/D3D10_CPU_ACCESS_READ, d3d10/D3D10_CPU_ACCESS_WRITE, direct3d10.d3d10_cpu_access_flag
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_CPU_ACCESS_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_CPU_ACCESS_FLAG
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D3D10_CPU_ACCESS_FLAG
+req.redist: 
 ---
 
 # D3D10_CPU_ACCESS_FLAG enumeration

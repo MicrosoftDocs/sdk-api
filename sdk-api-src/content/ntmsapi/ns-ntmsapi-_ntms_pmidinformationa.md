@@ -4,17 +4,16 @@ title: "_NTMS_PMIDINFORMATIONA"
 author: windows-sdk-content
 description: The NTMS_PMIDINFORMATION structure defines the properties specific to a physical media object.
 old-location: fs\ntms_pmidinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 9ed46cc9-0b93-44ef-9c33-1e1baadb225f
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: NTMS_BARCODESTATE_OK, NTMS_BARCODESTATE_UNREADABLE, NTMS_MEDIASTATE_IDLE, NTMS_MEDIASTATE_INUSE, NTMS_MEDIASTATE_LOADED, NTMS_MEDIASTATE_MOUNTED, NTMS_MEDIASTATE_OPREQ, NTMS_MEDIASTATE_OP_ERROR, NTMS_MEDIASTATE_UNLOADED, NTMS_PMIDINFORMATION, NTMS_PMIDINFORMATION structure [Files], NTMS_PMIDINFORMATIONA, _NTMS_PMIDINFORMATIONA, _NTMS_PMIDINFORMATIONW, _zaw_ntms_pmidinformation, base.ntms_pmidinformation, fs.ntms_pmidinformation, ntmsapi/NTMS_PMIDINFORMATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_PMIDINFORMATIONA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_PMIDINFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_PMIDINFORMATIONA
+req.redist: 
 ---
 
 # _NTMS_PMIDINFORMATIONA structure

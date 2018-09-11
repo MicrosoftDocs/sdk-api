@@ -4,17 +4,16 @@ title: IGPEInformation::GetDSPath
 author: windows-sdk-content
 description: The GetDSPath method retrieves the Active Directory path for the specified section of the GPO.
 old-location: policy\igpeinformation_getdspath.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 0cf969b2-40a9-4fbd-ba2b-38979fb5796a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetDSPath, GetDSPath method [Group Policy], GetDSPath method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetDSPath method, IGPEInformation.GetDSPath, IGPEInformation::GetDSPath, _win32_igpeinformation_getdspath, gpedit/IGPEInformation::GetDSPath, policy.igpeinformation_getdspath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPEInformation.GetDSPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpedit.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPEInformation::GetDSPath

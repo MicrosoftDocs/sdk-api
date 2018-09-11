@@ -4,7 +4,7 @@ title: D3D11_VPIV_DIMENSION
 author: windows-sdk-content
 description: Specifies how to access a resource that is used in a video processor input view.
 old-location: mf\d3d11_vpiv_dimension.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 65003974-F86E-4604-BA8D-262CA2674D53
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: D3d11.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPIV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VPIV_DIMENSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VPIV_DIMENSION
+req.redist: 
 ---
 
 # D3D11_VPIV_DIMENSION enumeration

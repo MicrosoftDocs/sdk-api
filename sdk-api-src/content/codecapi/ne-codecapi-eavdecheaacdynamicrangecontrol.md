@@ -4,7 +4,7 @@ title: eAVDecHEAACDynamicRangeControl
 author: windows-sdk-content
 description: Specifies whether an AAC decoder performs dynamic range control.
 old-location: dshow\eavdecheaacdynamicrangecontrol.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d854093c-4ec8-439c-a1be-c34e3d080616
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - eAVDecHEAACDynamicRangeControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # eAVDecHEAACDynamicRangeControl enumeration

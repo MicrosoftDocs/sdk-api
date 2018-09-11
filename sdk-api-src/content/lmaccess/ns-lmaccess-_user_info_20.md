@@ -4,17 +4,16 @@ title: "_USER_INFO_20"
 author: windows-sdk-content
 description: Contains information about a user account, including the account name, the user's full name, a comment associated with the account, and the user's relative ID (RID).
 old-location: netmgmt\user_info_20_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 67f58d6b-488b-4a88-808f-edb9c3464d85
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPUSER_INFO_20, *PUSER_INFO_20, LPUSER_INFO_20, LPUSER_INFO_20 structure pointer [Network Management], PUSER_INFO_20, PUSER_INFO_20 structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_HOMEDIR_REQUIRED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, USER_INFO_20, USER_INFO_20 structure [Network Management], _USER_INFO_20, _win32_user_info_20_str, lmaccess/LPUSER_INFO_20, lmaccess/PUSER_INFO_20, lmaccess/USER_INFO_20, netmgmt.user_info_20_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INFO_20, *PUSER_INFO_20, *LPUSER_INFO_20
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_INFO_20
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USER_INFO_20, *PUSER_INFO_20, *LPUSER_INFO_20
+req.redist: 
 ---
 
 # _USER_INFO_20 structure

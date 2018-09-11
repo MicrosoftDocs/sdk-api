@@ -4,7 +4,7 @@ title: ID3D11Fence
 author: windows-sdk-content
 description: Represents a fence, an object used for synchronization of the CPU and one or more GPUs.
 old-location: direct3d11\id3d11fence.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TEXTURE_LAYOUT
+req.lib: D3D11.lib
+req.dll: D3D11.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11Fence
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: D3D11.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Fence interface

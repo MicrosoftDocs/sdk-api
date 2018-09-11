@@ -4,17 +4,16 @@ title: IMbnConnection::GetActivationNetworkError
 author: windows-sdk-content
 description: Gets the network error returned in a Packet Data Protocol (PDP) context activation failure.
 old-location: mbn\imbnconnection_getactivationnetworkerror.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: a8bda00b-5eff-46a4-b640-1794e8ea21cf
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetActivationNetworkError, GetActivationNetworkError method [Microsoft Broadband Networks], GetActivationNetworkError method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetActivationNetworkError method, IMbnConnection.GetActivationNetworkError, IMbnConnection::GetActivationNetworkError, mbn.imbnconnection_getactivationnetworkerror, mbnapi/IMbnConnection::GetActivationNetworkError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnection.GetActivationNetworkError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnection::GetActivationNetworkError

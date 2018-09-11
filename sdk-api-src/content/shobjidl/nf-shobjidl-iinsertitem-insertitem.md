@@ -4,17 +4,16 @@ title: IInsertItem::InsertItem
 author: windows-sdk-content
 description: Adds an ITEMIDLIST structure to a list of such structures.
 old-location: shell\IInsertitem_InsertItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 45a25357-9bb1-4298-9ffb-20081e3072a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IInsertItem interface [Windows Shell],InsertItem method, IInsertItem.InsertItem, IInsertItem::InsertItem, InsertItem, InsertItem method [Windows Shell], InsertItem method [Windows Shell],IInsertItem interface, shell.IInsertitem_InsertItem, shell_IInsertitem_InsertItem, shobjidl/IInsertItem::InsertItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInsertItem.InsertItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IInsertItem::InsertItem

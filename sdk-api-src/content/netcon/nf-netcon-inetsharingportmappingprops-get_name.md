@@ -4,17 +4,16 @@ title: INetSharingPortMappingProps::get_Name
 author: windows-sdk-content
 description: The get_Name method retrieves the name for this port mapping.
 old-location: ics\inetsharingportmappingprops_get_name.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 0f2b4d49-a13d-49e1-96d0-276afe4208b2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_Name method, INetSharingPortMappingProps.get_Name, INetSharingPortMappingProps::get_Name, _ics_inetsharingportmappingprops_get_name, get_Name, get_Name method [ICS/ICF], get_Name method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_name, netcon/INetSharingPortMappingProps::get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingPortMappingProps.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingPortMappingProps::get_Name

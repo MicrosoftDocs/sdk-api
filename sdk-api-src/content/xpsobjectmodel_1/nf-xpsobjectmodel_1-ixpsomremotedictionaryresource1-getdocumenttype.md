@@ -4,17 +4,16 @@ title: IXpsOMRemoteDictionaryResource1::GetDocumentType
 author: windows-sdk-content
 description: Gets the XPS_DOCUMENT_TYPE of the resource.
 old-location: xps\ixpsomremotedictionaryresource1_getdocumenttype.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: C8A55D98-0E3C-448B-9E67-575D5B66535D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource1 interface, IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMRemoteDictionaryResource1.GetDocumentType, IXpsOMRemoteDictionaryResource1::GetDocumentType, xps.ixpsomremotedictionaryresource1_getdocumenttype, xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1::GetDocumentType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_DOCUMENT_TYPE
+req.lib: None
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IXpsOMRemoteDictionaryResource1.GetDocumentType
 product: Windows
 targetos: Windows
-req.lib: None
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMRemoteDictionaryResource1::GetDocumentType

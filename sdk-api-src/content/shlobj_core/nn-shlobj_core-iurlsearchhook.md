@@ -4,17 +4,16 @@ title: IURLSearchHook
 author: windows-sdk-content
 description: Exposes a method that is used by the browser to translate the address of an unknown URL protocol.
 old-location: shell\IURLSearchHook.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6073ad95-03b5-4c06-9742-836719211e24
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IURLSearchHook, IURLSearchHook interface [Windows Shell], IURLSearchHook interface [Windows Shell],described, _win32_IURLSearchHook, shell.IURLSearchHook, shlobj_core/IURLSearchHook
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IURLSearchHook
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IURLSearchHook interface

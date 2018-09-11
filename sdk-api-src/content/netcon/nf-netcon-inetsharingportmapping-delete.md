@@ -4,17 +4,16 @@ title: INetSharingPortMapping::Delete
 author: windows-sdk-content
 description: The Delete method deletes a port mapping from the list of port mappings for a particular connection.
 old-location: ics\inetsharingportmapping_delete.htm
-old-project: ics
+tech.root: ics
 ms.assetid: f9582110-a717-41a4-8ddd-26ef703b8356
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Delete, Delete method [ICS/ICF], Delete method [ICS/ICF],INetSharingPortMapping interface, INetSharingPortMapping interface [ICS/ICF],Delete method, INetSharingPortMapping.Delete, INetSharingPortMapping::Delete, _ics_inetsharingportmapping_delete, ics.inetsharingportmapping_delete, netcon/INetSharingPortMapping::Delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingPortMapping.Delete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingPortMapping::Delete

@@ -4,7 +4,7 @@ title: eAVEncMPVProfile
 author: windows-sdk-content
 description: Specifies the MPEG-2 profile. This enumeration is used with the AVEncMPVProfile property.
 old-location: dshow\eavencmpvprofile.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 20e6bddb-8761-4ac7-9342-09ad7c9d4905
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - eAVEncMPVProfile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # eAVEncMPVProfile enumeration

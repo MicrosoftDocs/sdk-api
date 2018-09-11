@@ -4,17 +4,16 @@ title: tagFaceCharacterization
 author: windows-sdk-content
 description: The FaceCharacterization structure describes the blob format for the MF_CAPTURE_METADATA_FACEROICHARACTERIZATIONS attribute.
 old-location: stream\facecharacterization.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8A8F6E06-DA09-4595-BF42-8B905453CCCA
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: FaceCharacterization, FaceCharacterization structure [Streaming Media Devices], mfapi/FaceCharacterization, stream.facecharacterization, tagFaceCharacterization
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FaceCharacterization
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FaceCharacterization
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: FaceCharacterization
+req.redist: 
 ---
 
 # tagFaceCharacterization structure

@@ -4,17 +4,16 @@ title: HandleLogFull function
 author: windows-sdk-content
 description: Called by a managed log client when an attempt to reserve or append to a log fails with a log full error message. The log manager attempts to resolve the log full condition for the client, and notifies the client when the outcome is known.
 old-location: fs\handlelogfull.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: ed4b067f-9386-4bec-a6dc-b22d6fd52390
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: HandleLogFull, HandleLogFull function [Files], clfsmgmtw32/HandleLogFull, fs.handlelogfull
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - HandleLogFull
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # HandleLogFull function

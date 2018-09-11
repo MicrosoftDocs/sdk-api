@@ -4,17 +4,16 @@ title: IUpdate2::get_RebootRequired
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a system restart is required on a computer to complete the installation or the uninstallation of an update.
 old-location: wua\iupdate2_rebootrequired.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 7e665fd1-20f9-47a0-b78f-e60b51cdac5f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUpdate2 interface [Windows Update Agent],RebootRequired property, IUpdate2.RebootRequired, IUpdate2.get_RebootRequired, IUpdate2::RebootRequired, IUpdate2::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IUpdate2 interface, get_RebootRequired, wua.iupdate2_rebootrequired, wuapi/IUpdate2::RebootRequired, wuapi/IUpdate2::get_RebootRequired
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUpdate2.get_RebootRequired
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdate2::get_RebootRequired

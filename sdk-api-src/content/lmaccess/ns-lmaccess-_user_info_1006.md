@@ -4,17 +4,16 @@ title: "_USER_INFO_1006"
 author: windows-sdk-content
 description: The USER_INFO_1006 structure contains the user's home directory path. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1006_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 9eb4973b-cda5-4862-b558-3af90b7de19f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPUSER_INFO_1006, *PUSER_INFO_1006, LPUSER_INFO_1006, LPUSER_INFO_1006 structure pointer [Network Management], PUSER_INFO_1006, PUSER_INFO_1006 structure pointer [Network Management], USER_INFO_1006, USER_INFO_1006 structure [Network Management], _USER_INFO_1006, _win32_user_info_1006_str, lmaccess/LPUSER_INFO_1006, lmaccess/PUSER_INFO_1006, lmaccess/USER_INFO_1006, netmgmt.user_info_1006_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INFO_1006, *PUSER_INFO_1006, *LPUSER_INFO_1006
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_INFO_1006
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USER_INFO_1006, *PUSER_INFO_1006, *LPUSER_INFO_1006
+req.redist: 
 ---
 
 # _USER_INFO_1006 structure

@@ -4,17 +4,16 @@ title: IBDA_FrequencyFilter::put_Polarity
 author: windows-sdk-content
 description: The put_Polarity method specifies the polarity of the signal.
 old-location: mstv\ibda_frequencyfilter_put_polarity.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d15bd0f9-4f2e-4098-bf5b-db03fde1362f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Polarity method, IBDA_FrequencyFilter.put_Polarity, IBDA_FrequencyFilter::put_Polarity, IBDA_FrequencyFilterput_Polarity, bdaiface/IBDA_FrequencyFilter::put_Polarity, mstv.ibda_frequencyfilter_put_polarity, put_Polarity, put_Polarity method [Microsoft TV Technologies], put_Polarity method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_FrequencyFilter.put_Polarity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_FrequencyFilter::put_Polarity

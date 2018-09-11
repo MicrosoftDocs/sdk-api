@@ -4,17 +4,16 @@ title: IComExceptionEvents::OnExceptionUser
 author: windows-sdk-content
 description: Generated for transactional components when an unhandled exception occurs in the user's code.
 old-location: cos\icomexceptionevents_onexceptionuser.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 961e3668-a35e-4e65-8477-fd7457ecc6ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComExceptionEvents interface [COM+],OnExceptionUser method, IComExceptionEvents.OnExceptionUser, IComExceptionEvents::OnExceptionUser, OnExceptionUser, OnExceptionUser method [COM+], OnExceptionUser method [COM+],IComExceptionEvents interface, _dtc_IComExceptionEvents_OnExceptionUser, comsvcs/IComExceptionEvents::OnExceptionUser, cos.icomexceptionevents_onexceptionuser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComExceptionEvents.OnExceptionUser
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComExceptionEvents::OnExceptionUser

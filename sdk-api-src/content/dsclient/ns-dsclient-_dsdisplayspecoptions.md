@@ -4,7 +4,7 @@ title: "_DSDISPLAYSPECOPTIONS"
 author: windows-sdk-content
 description: Used to supply data to a context menu or property page extension about the display specifiers used.
 old-location: ad\dsdisplayspecoptions.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 01b7a571-fdbd-41e9-96c9-843cc733a32c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DSDISPLAYSPECOPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+req.redist: 
 ---
 
 # _DSDISPLAYSPECOPTIONS structure

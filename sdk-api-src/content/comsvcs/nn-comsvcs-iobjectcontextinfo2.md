@@ -4,17 +4,16 @@ title: IObjectContextInfo2
 author: windows-sdk-content
 description: Provides additional information about an object's context. This interface extends the IObjectContextInfo interface.
 old-location: cos\iobjectcontextinfo2.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 21e078d2-ba93-4118-b1d1-3b4b6e0e28a4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IObjectContextInfo2, IObjectContextInfo2 interface [COM+], IObjectContextInfo2 interface [COM+],described, _cos_IObjectContextInfo2, comsvcs/IObjectContextInfo2, cos.iobjectcontextinfo2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectContextInfo2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectContextInfo2 interface

@@ -4,17 +4,16 @@ title: "_VDS_PORTAL_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of iSCSI portal events.
 old-location: base\vds_portal_notification.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 53126339-a9b7-4b80-80af-ac1782dff8a8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_NF_PORTAL_ARRIVE, VDS_NF_PORTAL_DEPART, VDS_NF_PORTAL_MODIFY, VDS_PORTAL_NOTIFICATION, VDS_PORTAL_NOTIFICATION structure [VDS], _VDS_PORTAL_NOTIFICATION, base.vds_portal_notification, vds/_VDS_PORTAL_NOTIFICATION, vdshwprv/_VDS_PORTAL_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PORTAL_NOTIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_PORTAL_NOTIFICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PORTAL_NOTIFICATION
+req.redist: VDS 1.1
 ---
 
 # _VDS_PORTAL_NOTIFICATION structure

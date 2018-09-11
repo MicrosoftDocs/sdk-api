@@ -4,17 +4,16 @@ title: ID2D1CommandSink2::DrawInk
 author: windows-sdk-content
 description: Renders the given ink object using the given brush and ink style.
 old-location: direct2d\id2d1commandsink2_drawink.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: dd328fdb-c87c-e3ee-b8cd-f89ff3fb1b87
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawInk, DrawInk method [Direct2D], DrawInk method [Direct2D],ID2D1CommandSink2 interface, ID2D1CommandSink2 interface [Direct2D],DrawInk method, ID2D1CommandSink2.DrawInk, ID2D1CommandSink2::DrawInk, d2d1_3/ID2D1CommandSink2::DrawInk, direct2d.id2d1commandsink2_drawink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1CommandSink2.DrawInk
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1CommandSink2::DrawInk

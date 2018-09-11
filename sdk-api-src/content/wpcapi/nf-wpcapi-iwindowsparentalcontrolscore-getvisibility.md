@@ -4,17 +4,16 @@ title: IWindowsParentalControlsCore::GetVisibility
 author: windows-sdk-content
 description: Indicates the visibility of the Parental Controls user interface.
 old-location: parcon\iwindowsparentalcontrols_getvisibility.htm
-old-project: parcon
+tech.root: parcon
 ms.assetid: 08217ad2-3b1e-4733-8ca2-4463ffe96516
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetVisibility, GetVisibility method, GetVisibility method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetVisibility method, IWindowsParentalControlsCore.GetVisibility, IWindowsParentalControlsCore::GetVisibility, WPCFLAG_WPC_HIDDEN, WPCFLAG_WPC_VISIBLE, parcon.iwindowsparentalcontrols_getvisibility, wpcapi/IWindowsParentalControlsCore::GetVisibility
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowsParentalControlsCore.GetVisibility
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsParentalControlsCore::GetVisibility

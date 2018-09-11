@@ -4,17 +4,16 @@ title: IWMPLibraryServices::getCountByType
 author: windows-sdk-content
 description: The getCountByType method retrieves the count of available libraries of a specified type.
 old-location: wmp\iwmplibraryservices_getcountbytype.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: e592fc2e-97d8-4d3c-bbef-7cbaa63a6909
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPLibraryServices interface [Windows Media Player],getCountByType method, IWMPLibraryServices.getCountByType, IWMPLibraryServices::getCountByType, IWMPLibraryServicesgetCountByType, getCountByType, getCountByType method [Windows Media Player], getCountByType method [Windows Media Player],IWMPLibraryServices interface, wmp.iwmplibraryservices_getcountbytype, wmp/IWMPLibraryServices::getCountByType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPLibraryServices.getCountByType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPLibraryServices::getCountByType

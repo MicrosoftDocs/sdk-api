@@ -4,17 +4,16 @@ title: ISyncMgrEvent::GetDescription
 author: windows-sdk-content
 description: Gets the event description.
 old-location: shell\ISyncMgrEvent_GetDescription.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3ec45cf6-d282-4df9-bd4a-b5d75df69ff4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetDescription, GetDescription method [Windows Shell], GetDescription method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetDescription method, ISyncMgrEvent.GetDescription, ISyncMgrEvent::GetDescription, _shell_ISyncMgrEvent_GetDescription, shell.ISyncMgrEvent_GetDescription, syncmgr/ISyncMgrEvent::GetDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrEvent.GetDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrEvent::GetDescription

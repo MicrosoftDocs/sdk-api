@@ -4,17 +4,16 @@ title: "_VSS_SNAPSHOT_PROP"
 author: windows-sdk-content
 description: Contains the properties of a shadow copy or shadow copy set.
 old-location: base\vss_snapshot_prop.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 070ec204-e751-4ebf-8f99-3c415f203cb2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_SNAPSHOT_PROP, PVSS_SNAPSHOT_PROP, PVSS_SNAPSHOT_PROP structure pointer [VSS], VSS_SNAPSHOT_PROP, VSS_SNAPSHOT_PROP structure [VSS], _VSS_SNAPSHOT_PROP, _win32_vss_snapshot_prop, base.vss_snapshot_prop, vss/PVSS_SNAPSHOT_PROP, vss/VSS_SNAPSHOT_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_SNAPSHOT_PROP, *PVSS_SNAPSHOT_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_SNAPSHOT_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_SNAPSHOT_PROP, *PVSS_SNAPSHOT_PROP
+req.redist: 
 ---
 
 # _VSS_SNAPSHOT_PROP structure

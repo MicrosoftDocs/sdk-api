@@ -4,17 +4,16 @@ title: "_WS_SOAPUDP_URL"
 author: windows-sdk-content
 description: The URL subtype for specifying an soap.udp URL.
 old-location: wsw\ws_soapudp_url.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: f39c551f-891b-48c2-8143-84845506cde9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SOAPUDP_URL, WS_SOAPUDP_URL structure [Web Services for Windows], _WS_SOAPUDP_URL, webservices/WS_SOAPUDP_URL, wsw.ws_soapudp_url
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SOAPUDP_URL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SOAPUDP_URL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SOAPUDP_URL
+req.redist: 
 ---
 
 # _WS_SOAPUDP_URL structure

@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxInboundRouting.GetMethods
 title: IFaxInboundRouting::GetMethods
 author: windows-sdk-content
-description: The GetMethods method retrieves the ordered collection of all the inbound routing methods exposed by all the inbound routing extensions currently registered with the fax service.
-old-location: fax\_mfax_faxinboundrouting_getmethods.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinta_n_2x9v.htm
+description: The IFaxInboundRouting::GetMethods method retrieves the ordered collection of all the inbound routing methods exposed by all the inbound routing extensions currently registered with the fax service.
+old-location: fax\_mfax_faxinboundrouting_getmethods_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinta_n_2x9v_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxInboundRouting object [Fax Service],GetMethods method, FaxInboundRouting.GetMethods, GetMethods, GetMethods method [Fax Service], GetMethods method [Fax Service],FaxInboundRouting object, IFaxInboundRouting.GetMethods, IFaxInboundRouting::GetMethods, _mfax_faxinboundrouting.getmethods, fax._mfax_faxinboundrouting_getmethods
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: GetMethods, GetMethods method [Fax Service], GetMethods method [Fax Service],IFaxInboundRouting interface, IFaxInboundRouting interface [Fax Service],GetMethods method, IFaxInboundRouting.GetMethods, IFaxInboundRouting::GetMethods, _mfax_faxinboundrouting.getmethods_cpp, fax._mfax_faxinboundrouting_getmethods_cpp, faxcomex/IFaxInboundRouting::GetMethods
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxInboundRouting.GetMethods
  - IFaxInboundRouting.GetMethods
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxInboundRouting::GetMethods
@@ -53,7 +50,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>GetMethods</b> method retrieves the ordered collection of all the inbound routing methods exposed by all the inbound routing extensions currently registered with the fax service.
+The <b>IFaxInboundRouting::GetMethods</b> method retrieves the ordered collection of all the inbound routing methods exposed by all the inbound routing extensions currently registered with the fax service.
 
 
 ## -parameters
@@ -63,18 +60,25 @@ The <b>GetMethods</b> method retrieves the ordered collection of all the inbound
 
 ### -param pFaxInboundRoutingMethods
 
+TBD
 
 
 
+
+#### - ppFaxInboundRoutingMethods [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a>**</b>
+
+Address of a pointer to an <a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a> interface.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms686674(v=VS.85).aspx">FaxInboundRoutingMethods</a>**</b>
+Type: <b>HRESULT</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms686674(v=VS.85).aspx">FaxInboundRoutingMethods</a> object.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
@@ -95,7 +99,7 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684595(v=VS.85).aspx">FaxInboundRouting</a>
+<a href="https://msdn.microsoft.com/255706ba-cbbd-4dfa-a9da-95bdd90328b5">IFaxInboundRouting</a>
 
 
 

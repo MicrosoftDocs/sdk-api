@@ -4,7 +4,7 @@ title: "_AMRESCTL_RESERVEFLAGS"
 author: windows-sdk-content
 description: Specifies whether to increment or decrement the number of resources currently being reserved.
 old-location: dshow\amresctl_reserveflags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 528c4e2e-2045-45a1-b502-75e103745c93
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: DShow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _AMRESCTL_RESERVEFLAGS
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # _AMRESCTL_RESERVEFLAGS enumeration

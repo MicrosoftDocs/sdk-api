@@ -4,17 +4,16 @@ title: WBEMTime::Gettime_t
 author: windows-sdk-content
 description: The Gettime_t method gets the time as an ANSI C run-time time_t variable.
 old-location: wmi\wbemtime_gettime_t.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 62e0faff-4e5a-4bc4-a9a7-a4edbaea9541
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?Gettime_t@WBEMTime@@QBEHPAJ@Z, Gettime_t, Gettime_t method [Windows Management Instrumentation], Gettime_t method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],Gettime_t method, WBEMTime.Gettime_t, WBEMTime::Gettime_t, _hmm_wbemtime_gettime_t, wbemtime/WBEMTime::Gettime_t, wmi.wbemtime_gettime_t"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ?Gettime_t@WBEMTime@@QBEHPAJ@Z
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WBEMTime::Gettime_t
@@ -70,7 +68,7 @@ The <b>Gettime_t</b> method gets the time as an ANSI C run-time <b>time_t</b> va
 
 ### -param ptime_t
 
-
+TBD
 
 
 

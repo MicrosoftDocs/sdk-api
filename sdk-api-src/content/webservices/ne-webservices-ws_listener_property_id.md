@@ -4,17 +4,16 @@ title: WS_LISTENER_PROPERTY_ID
 author: windows-sdk-content
 description: Each listener property is of type WS_LISTENER_PROPERTY, is identified by an ID, and has an associated value. If a property is not specified when the listener is created, then its default value is used.
 old-location: wsw\ws_listener_property_id.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 4998d538-628f-4939-9db9-612e882e68b1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL, WS_LISTENER_PROPERTY_CHANNEL_BINDING, WS_LISTENER_PROPERTY_CHANNEL_TYPE, WS_LISTENER_PROPERTY_CLOSE_TIMEOUT, WS_LISTENER_PROPERTY_CONNECT_TIMEOUT, WS_LISTENER_PROPERTY_CUSTOM_LISTENER_CALLBACKS, WS_LISTENER_PROPERTY_CUSTOM_LISTENER_INSTANCE, WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS, WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT, WS_LISTENER_PROPERTY_ID, WS_LISTENER_PROPERTY_ID enumeration [Web Services for Windows], WS_LISTENER_PROPERTY_IP_VERSION, WS_LISTENER_PROPERTY_IS_MULTICAST, WS_LISTENER_PROPERTY_LISTEN_BACKLOG, WS_LISTENER_PROPERTY_MULTICAST_INTERFACES, WS_LISTENER_PROPERTY_MULTICAST_LOOPBACK, WS_LISTENER_PROPERTY_STATE, WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS, WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS, webservices/WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL, webservices/WS_LISTENER_PROPERTY_CHANNEL_BINDING, webservices/WS_LISTENER_PROPERTY_CHANNEL_TYPE, webservices/WS_LISTENER_PROPERTY_CLOSE_TIMEOUT, webservices/WS_LISTENER_PROPERTY_CONNECT_TIMEOUT, webservices/WS_LISTENER_PROPERTY_CUSTOM_LISTENER_CALLBACKS, webservices/WS_LISTENER_PROPERTY_CUSTOM_LISTENER_INSTANCE, webservices/WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS, webservices/WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT, webservices/WS_LISTENER_PROPERTY_ID, webservices/WS_LISTENER_PROPERTY_IP_VERSION, webservices/WS_LISTENER_PROPERTY_IS_MULTICAST, webservices/WS_LISTENER_PROPERTY_LISTEN_BACKLOG, webservices/WS_LISTENER_PROPERTY_MULTICAST_INTERFACES, webservices/WS_LISTENER_PROPERTY_MULTICAST_LOOPBACK, webservices/WS_LISTENER_PROPERTY_STATE, webservices/WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS, webservices/WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS, wsw.ws_listener_property_id
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_LISTENER_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_LISTENER_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_LISTENER_PROPERTY_ID
+req.redist: 
 ---
 
 # WS_LISTENER_PROPERTY_ID enumeration

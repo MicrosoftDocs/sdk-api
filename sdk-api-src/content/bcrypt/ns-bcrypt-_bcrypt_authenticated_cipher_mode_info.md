@@ -4,17 +4,16 @@ title: "_BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO"
 author: windows-sdk-content
 description: Used with the BCryptEncrypt and BCryptDecrypt functions to contain additional information related to authenticated cipher modes.
 old-location: security\bcrypt_authenticated_cipher_mode_info.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 6c00f458-7198-44fe-bdb6-2c2eb9995bd9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure [Security], BCRYPT_AUTH_MODE_CHAIN_CALLS_FLAG, BCRYPT_AUTH_MODE_IN_PROGRESS_FLAG, BCryptDecrypt, BCryptEncrypt, PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure pointer [Security], _BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, bcrypt/BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, bcrypt/PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, security.bcrypt_authenticated_cipher_mode_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, *PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, *PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO
+req.redist: 
 ---
 
 # _BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure

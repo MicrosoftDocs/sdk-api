@@ -4,17 +4,16 @@ title: ITAddress2::DeviceSpecificVariant
 author: windows-sdk-content
 description: The DeviceSpecificVariant method enables service providers to provide access to features not offered by other TAPI functions.
 old-location: tapi3\itaddress2_devicespecificvariant.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 27882bb2-dab8-4b8c-acca-35fbdc526362
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: DeviceSpecificVariant, DeviceSpecificVariant method [TAPI 2.2], DeviceSpecificVariant method [TAPI 2.2],ITAddress2 interface, ITAddress2 interface [TAPI 2.2],DeviceSpecificVariant method, ITAddress2.DeviceSpecificVariant, ITAddress2::DeviceSpecificVariant, _tapi3_itaddress2_devicespecificvariant, tapi3.itaddress2_devicespecificvariant, tapi3if/ITAddress2::DeviceSpecificVariant
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddress2.DeviceSpecificVariant
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddress2::DeviceSpecificVariant

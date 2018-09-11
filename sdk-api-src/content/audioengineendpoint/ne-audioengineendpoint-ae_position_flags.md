@@ -4,7 +4,7 @@ title: AE_POSITION_FLAGS
 author: windows-sdk-content
 description: Defines constants for the AE_CURRENT_POSITION structure. These constants describe the degree of validity of the current position.
 old-location: termserv\ae_position_flags.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 09edc9ae-923c-4f57-9479-c0331588dd92
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AE_POSITION_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: All levels.
+req.typenames: AE_POSITION_FLAGS
+req.redist: 
 ---
 
 # AE_POSITION_FLAGS enumeration

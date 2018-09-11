@@ -4,17 +4,16 @@ title: ISyncChange::GetWorkEstimate
 author: windows-sdk-content
 description: Gets the work estimate for this change.
 old-location: winsync\isyncchange_getworkestimate.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: ba79bb88-bdeb-42be-88a9-1355fe048d10
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetWorkEstimate, GetWorkEstimate method [Windows Sync], GetWorkEstimate method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetWorkEstimate method, ISyncChange.GetWorkEstimate, ISyncChange::GetWorkEstimate, winsync.isyncchange_getworkestimate, winsync/ISyncChange::GetWorkEstimate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncChange.GetWorkEstimate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncChange::GetWorkEstimate

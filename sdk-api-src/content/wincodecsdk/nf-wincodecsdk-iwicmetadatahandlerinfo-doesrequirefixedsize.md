@@ -4,17 +4,16 @@ title: IWICMetadataHandlerInfo::DoesRequireFixedSize
 author: windows-sdk-content
 description: Determines if the metadata handler requires a fixed size.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_doesrequirefixedsize.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 522294c5-e424-40cf-b982-275198e705dc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DoesRequireFixedSize, DoesRequireFixedSize method [Windows Imaging Component], DoesRequireFixedSize method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],DoesRequireFixedSize method, IWICMetadataHandlerInfo.DoesRequireFixedSize, IWICMetadataHandlerInfo::DoesRequireFixedSize, _wic_codec_iwicmetadatahandlerinfo_doesrequirefixedsize, wic._wic_codec_iwicmetadatahandlerinfo_doesrequirefixedsize, wincodecsdk/IWICMetadataHandlerInfo::DoesRequireFixedSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICMetadataHandlerInfo.DoesRequireFixedSize
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICMetadataHandlerInfo::DoesRequireFixedSize

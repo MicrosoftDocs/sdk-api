@@ -4,17 +4,16 @@ title: ICertAdmin2::SetConfigEntry
 author: windows-sdk-content
 description: Sets configuration information for a certification authority (CA).
 old-location: security\icertadmin2_setconfigentry.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 6ed1dd69-3553-4dcc-a98a-1954013082cd
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertAdmin2 interface [Security],SetConfigEntry method, ICertAdmin2.SetConfigEntry, ICertAdmin2::SetConfigEntry, SetConfigEntry, SetConfigEntry method [Security], SetConfigEntry method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetConfigEntry, security.icertadmin2_setconfigentry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertAdmin2.SetConfigEntry
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertAdmin2::SetConfigEntry
@@ -79,7 +78,7 @@ String value that represents the name of the entry whose information is being se
 
 ### -param pvarEntry
 
-
+TBD
 
 
 

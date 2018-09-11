@@ -4,17 +4,16 @@ title: IAudioAutoGainControl::SetEnabled
 author: windows-sdk-content
 description: The SetEnabled method enables or disables the AGC.
 old-location: coreaudio\iaudioautogaincontrol_setenabled.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 05bf3b59-20e9-4bb0-931b-b6f28676cb5f
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioAutoGainControl interface [Core Audio],SetEnabled method, IAudioAutoGainControl.SetEnabled, IAudioAutoGainControl::SetEnabled, IAudioAutoGainControlSetEnabled, SetEnabled, SetEnabled method [Core Audio], SetEnabled method [Core Audio],IAudioAutoGainControl interface, coreaudio.iaudioautogaincontrol_setenabled, devicetopology/IAudioAutoGainControl::SetEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioAutoGainControl.SetEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioAutoGainControl::SetEnabled

@@ -4,17 +4,16 @@ title: IInputObject2
 author: windows-sdk-content
 description: Exposes a method that extends IInputObject by handling global accelerators.
 old-location: shell\IInputObject2.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 76d8672c-ea19-4d61-b6b5-e6c3951ec710
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IInputObject2, IInputObject2 interface [Windows Shell], IInputObject2 interface [Windows Shell],described, _shell_IInputObject2, shell.IInputObject2, shobjidl_core/IInputObject2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInputObject2
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IInputObject2 interface

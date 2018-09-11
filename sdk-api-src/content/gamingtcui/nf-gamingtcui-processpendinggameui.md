@@ -4,17 +4,16 @@ title: ProcessPendingGameUI function
 author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\processpendinggameui.htm
-old-project: tcui
+tech.root: tcui
 ms.assetid: 054F3612-EE10-446C-87D1-BF3E0F751440
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ProcessPendingGameUI, ProcessPendingGameUI function, gamingtcui/ProcessPendingGameUI, tcui.processpendinggameui
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: gamingtcui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KnownGamingPrivileges
+req.lib: WindowsApp.lib
+req.dll: Gamingtcui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - ProcessPendingGameUI
 product: Windows
 targetos: Windows
-req.lib: WindowsApp.lib
-req.dll: Gamingtcui.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # ProcessPendingGameUI function

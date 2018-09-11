@@ -4,17 +4,16 @@ title: IBDA_SignalStatistics::put_SampleTime
 author: windows-sdk-content
 description: The put_SampleTime method specifies the sample time of the signal.
 old-location: mstv\ibda_signalstatistics_put_sampletime.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 086fd3ad-26d7-4b5b-b73a-a7d4db44d2c2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],put_SampleTime method, IBDA_SignalStatistics.put_SampleTime, IBDA_SignalStatistics::put_SampleTime, IBDA_SignalStatisticsput_SampleTime, bdaiface/IBDA_SignalStatistics::put_SampleTime, mstv.ibda_signalstatistics_put_sampletime, put_SampleTime, put_SampleTime method [Microsoft TV Technologies], put_SampleTime method [Microsoft TV Technologies],IBDA_SignalStatistics interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_SignalStatistics.put_SampleTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_SignalStatistics::put_SampleTime

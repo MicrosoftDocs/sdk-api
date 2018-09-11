@@ -4,17 +4,16 @@ title: IMFContentProtectionManager::EndEnableContent
 author: windows-sdk-content
 description: Ends an asynchronous request to perform a content enabling action. This method is called by the protected media path (PMP) to complete an asynchronous call to IMFContentProtectionManager::BeginEnableContent.
 old-location: mf\imfcontentprotectionmanager_endenablecontent.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 10893a0c-5476-4b7d-aad7-845a4ba70335
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 10893a0c-5476-4b7d-aad7-845a4ba70335, EndEnableContent, EndEnableContent method [Media Foundation], EndEnableContent method [Media Foundation],IMFContentProtectionManager interface, IMFContentProtectionManager interface [Media Foundation],EndEnableContent method, IMFContentProtectionManager.EndEnableContent, IMFContentProtectionManager::EndEnableContent, mf.imfcontentprotectionmanager_endenablecontent, mfidl/IMFContentProtectionManager::EndEnableContent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFContentProtectionManager.EndEnableContent
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFContentProtectionManager::EndEnableContent

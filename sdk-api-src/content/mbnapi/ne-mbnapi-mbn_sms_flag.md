@@ -4,17 +4,16 @@ title: MBN_SMS_FLAG
 author: windows-sdk-content
 description: The MBN_SMS_FLAG enumerated type specifies the SMS message class.
 old-location: mbn\mbn_sms_flag.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: caabe2b2-86f0-40e7-b5ee-aeda8b64651a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_SMS_FLAG, MBN_SMS_FLAG enumeration [Microsoft Broadband Networks], MBN_SMS_FLAG_ALL, MBN_SMS_FLAG_DRAFT, MBN_SMS_FLAG_INDEX, MBN_SMS_FLAG_NEW, MBN_SMS_FLAG_OLD, MBN_SMS_FLAG_SENT, mbn.mbn_sms_flag, mbnapi/MBN_SMS_FLAG, mbnapi/MBN_SMS_FLAG_ALL, mbnapi/MBN_SMS_FLAG_DRAFT, mbnapi/MBN_SMS_FLAG_INDEX, mbnapi/MBN_SMS_FLAG_NEW, mbnapi/MBN_SMS_FLAG_OLD, mbnapi/MBN_SMS_FLAG_SENT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_SMS_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_SMS_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_SMS_FLAG
+req.redist: 
 ---
 
 # MBN_SMS_FLAG enumeration

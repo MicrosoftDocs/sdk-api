@@ -4,17 +4,16 @@ title: ldap_simple_bindW function
 author: windows-sdk-content
 description: Asynchronously authenticates a client to a server, using a plaintext password.
 old-location: ldap\ldap_simple_bind.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 13fc47c5-094b-4a91-8e5f-bfff8c72b431
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_simple_bind, ldap.ldap__simple__bind, ldap.ldap_simple_bind, ldap_simple_bind, ldap_simple_bind function [LDAP], ldap_simple_bindA, ldap_simple_bindW, winldap/ldap_simple_bind, winldap/ldap_simple_bindA, winldap/ldap_simple_bindW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_simple_bindW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_simple_bindW function

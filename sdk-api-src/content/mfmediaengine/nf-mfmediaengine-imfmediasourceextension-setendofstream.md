@@ -4,17 +4,16 @@ title: IMFMediaSourceExtension::SetEndOfStream
 author: windows-sdk-content
 description: Indicate that the end of the media stream has been reached.
 old-location: mf\imfmediasourceextension_setendofstream.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6d6bffcc-aa3c-4825-9268-00dcd2a347e6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],SetEndOfStream method, IMFMediaSourceExtension.SetEndOfStream, IMFMediaSourceExtension::SetEndOfStream, SetEndOfStream, SetEndOfStream method [Media Foundation], SetEndOfStream method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_setendofstream, mfmediaengine/IMFMediaSourceExtension::SetEndOfStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaSourceExtension.SetEndOfStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSourceExtension::SetEndOfStream

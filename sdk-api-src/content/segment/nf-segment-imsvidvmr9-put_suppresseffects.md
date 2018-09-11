@@ -4,17 +4,16 @@ title: IMSVidVMR9::put_SuppressEffects
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidvmr9_put_suppresseffects.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6e51ed2a-7516-4621-9ecb-0e645c6d416c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidVMR9.put_SuppressEffects, IMSVidVMR9::put_SuppressEffects, IMSVidVMR9put_SuppressEffects, mstv.imsvidvmr9_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidVMR9 interface, segment/IMSVidVMR9::put_SuppressEffects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVMR9.put_SuppressEffects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVMR9::put_SuppressEffects

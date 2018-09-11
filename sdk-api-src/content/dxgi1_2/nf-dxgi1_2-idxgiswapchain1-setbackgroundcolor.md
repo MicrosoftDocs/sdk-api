@@ -4,17 +4,16 @@ title: IDXGISwapChain1::SetBackgroundColor
 author: windows-sdk-content
 description: Changes the background color of the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_setbackgroundcolor.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: E46CA219-303F-40D4-8C62-6241C9199BA0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGISwapChain1 interface [DXGI],SetBackgroundColor method, IDXGISwapChain1.SetBackgroundColor, IDXGISwapChain1::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [DXGI], SetBackgroundColor method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_setbackgroundcolor, dxgi1_2/IDXGISwapChain1::SetBackgroundColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGISwapChain1.SetBackgroundColor
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGISwapChain1::SetBackgroundColor

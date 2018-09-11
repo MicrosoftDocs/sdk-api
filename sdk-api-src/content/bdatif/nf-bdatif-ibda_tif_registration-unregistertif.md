@@ -4,17 +4,16 @@ title: IBDA_TIF_REGISTRATION::UnregisterTIF
 author: windows-sdk-content
 description: The UnregisterTIF method unregisters a Transport Information Filter (TIF) with the Network Provider.
 old-location: mstv\ibda_tif_registration_unregistertif.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6ba46145-6b77-4577-9611-0e0a155aa308
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies],UnregisterTIF method, IBDA_TIF_REGISTRATION.UnregisterTIF, IBDA_TIF_REGISTRATION::UnregisterTIF, IBDA_TIF_REGISTRATIONUnregisterTIF, UnregisterTIF, UnregisterTIF method [Microsoft TV Technologies], UnregisterTIF method [Microsoft TV Technologies],IBDA_TIF_REGISTRATION interface, bdatif/IBDA_TIF_REGISTRATION::UnregisterTIF, mstv.ibda_tif_registration_unregistertif
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_TIF_REGISTRATION.UnregisterTIF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_TIF_REGISTRATION::UnregisterTIF

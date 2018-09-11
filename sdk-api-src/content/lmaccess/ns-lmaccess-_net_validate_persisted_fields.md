@@ -4,17 +4,16 @@ title: "_NET_VALIDATE_PERSISTED_FIELDS"
 author: windows-sdk-content
 description: The NET_VALIDATE_PERSISTED_FIELDS structure contains information about a user's password properties.
 old-location: netmgmt\net_validate_persisted_fields.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 1e6ea28a-a007-4cd1-b5d6-686bcf019fa1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PNET_VALIDATE_PERSISTED_FIELDS, NET_VALIDATE_BAD_PASSWORD_COUNT, NET_VALIDATE_BAD_PASSWORD_TIME, NET_VALIDATE_LOCKOUT_TIME, NET_VALIDATE_PASSWORD_HISTORY, NET_VALIDATE_PASSWORD_HISTORY_LENGTH, NET_VALIDATE_PASSWORD_LAST_SET, NET_VALIDATE_PERSISTED_FIELDS, NET_VALIDATE_PERSISTED_FIELDS structure [Network Management], PNET_VALIDATE_PERSISTED_FIELDS, PNET_VALIDATE_PERSISTED_FIELDS structure pointer [Network Management], _NET_VALIDATE_PERSISTED_FIELDS, lmaccess/NET_VALIDATE_PERSISTED_FIELDS, lmaccess/PNET_VALIDATE_PERSISTED_FIELDS, netmgmt.net_validate_persisted_fields"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_VALIDATE_PERSISTED_FIELDS, *PNET_VALIDATE_PERSISTED_FIELDS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_VALIDATE_PERSISTED_FIELDS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_VALIDATE_PERSISTED_FIELDS, *PNET_VALIDATE_PERSISTED_FIELDS
+req.redist: 
 ---
 
 # _NET_VALIDATE_PERSISTED_FIELDS structure

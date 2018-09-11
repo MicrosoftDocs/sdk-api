@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::AddSessionToStore
 author: windows-sdk-content
 description: Adds a new session to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_addsessiontostore.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 354ca945-cefe-42f6-a255-9918b8ffc339
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddSessionToStore, AddSessionToStore method [Remote Desktop Services], AddSessionToStore method [Remote Desktop Services],ITsSbResourcePluginStore interface, AddSessionToStore method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AddSessionToStore method, ITsSbResourcePluginStore.AddSessionToStore, ITsSbResourcePluginStore::AddSessionToStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],AddSessionToStore method, ITsSbResourcePluginStoreEx::AddSessionToStore, sbtsv/ITsSbResourcePluginStore::AddSessionToStore, sbtsv/ITsSbResourcePluginStoreEx::AddSessionToStore, termserv.itssbresourcepluginstore_addsessiontostore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbResourcePluginStoreEx.AddSessionToStore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::AddSessionToStore

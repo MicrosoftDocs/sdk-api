@@ -4,7 +4,7 @@ title: "_WTSINFOEX_LEVEL_W"
 author: windows-sdk-content
 description: Contains a WTSINFOEX_LEVEL1 structure that contains extended information about a Remote Desktop Services session.
 old-location: termserv\wtsinfoex_level.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: d3df1f40-698b-43ca-808d-0df5550b6eae
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSINFOEX_LEVEL_W, *PWTSINFOEX_LEVEL_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WTSINFOEX_LEVEL_W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTSINFOEX_LEVEL_W, *PWTSINFOEX_LEVEL_W
+req.redist: 
 ---
 
 # _WTSINFOEX_LEVEL_W structure

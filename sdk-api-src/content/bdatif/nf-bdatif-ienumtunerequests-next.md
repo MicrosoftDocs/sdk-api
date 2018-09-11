@@ -4,17 +4,16 @@ title: IEnumTuneRequests::Next
 author: windows-sdk-content
 description: The Next method retrieves the specified number of items in the collection.
 old-location: mstv\ienumtunerequests_next.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fb846bdb-f0ce-44f7-8d15-608c21e095c1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Next method, IEnumTuneRequests.Next, IEnumTuneRequests::Next, IEnumTuneRequestsNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Next, mstv.ienumtunerequests_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumTuneRequests.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumTuneRequests::Next
@@ -69,7 +68,7 @@ Specifies the number of items to retrieve.
 
 ### -param ppprop
 
-
+TBD
 
 
 ### -param pcelt [out]

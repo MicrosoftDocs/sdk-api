@@ -4,17 +4,16 @@ title: "_KERB_RETRIEVE_TKT_RESPONSE"
 author: windows-sdk-content
 description: Contains the response from retrieving a ticket.
 old-location: security\kerb_retrieve_tkt_response.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 682d4076-dc65-4291-8a82-981f207ae432
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PKERB_RETRIEVE_TKT_RESPONSE, KERB_RETRIEVE_TKT_RESPONSE, KERB_RETRIEVE_TKT_RESPONSE structure [Security], PKERB_RETRIEVE_TKT_RESPONSE, PKERB_RETRIEVE_TKT_RESPONSE structure pointer [Security], _KERB_RETRIEVE_TKT_RESPONSE, _lsa_kerb_retrieve_tkt_response, ntsecapi/KERB_RETRIEVE_TKT_RESPONSE, ntsecapi/PKERB_RETRIEVE_TKT_RESPONSE, security.kerb_retrieve_tkt_response"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_RETRIEVE_TKT_RESPONSE, *PKERB_RETRIEVE_TKT_RESPONSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_RETRIEVE_TKT_RESPONSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_RETRIEVE_TKT_RESPONSE, *PKERB_RETRIEVE_TKT_RESPONSE
+req.redist: 
 ---
 
 # _KERB_RETRIEVE_TKT_RESPONSE structure

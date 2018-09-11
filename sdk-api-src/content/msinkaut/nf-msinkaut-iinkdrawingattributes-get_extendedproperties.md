@@ -4,17 +4,16 @@ title: IInkDrawingAttributes::get_ExtendedProperties
 author: windows-sdk-content
 description: Gets the collection of application-defined data that are stored in an object.
 old-location: tablet\inkdrawingattributes_extendedproperties.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: da5eb2c9-e325-44f4-bc94-e5b5a5480bcc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: ExtendedProperties property [Tablet PC], ExtendedProperties property [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],ExtendedProperties property, IInkDrawingAttributes.ExtendedProperties, IInkDrawingAttributes.get_ExtendedProperties, IInkDrawingAttributes::ExtendedProperties, IInkDrawingAttributes::get_ExtendedProperties, InkDrawingAttributes.get_ExtendedProperties, get_ExtendedProperties, msinkaut/IInkDrawingAttributes::ExtendedProperties, msinkaut/IInkDrawingAttributes::get_ExtendedProperties, tablet.inkdrawingattributes_extendedproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkDrawingAttributes.get_ExtendedProperties
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDrawingAttributes::get_ExtendedProperties

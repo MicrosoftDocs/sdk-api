@@ -4,17 +4,16 @@ title: ISceSvcAttachmentPersistInfo::Save
 author: windows-sdk-content
 description: The Save method causes the snap-in extension to return information about the data that needs to be saved. The caller is responsible for saving the data.
 old-location: security\iscesvcattachmentpersistinfo_save.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: bdec64b8-2a92-4165-95ff-0de981f2d878
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISceSvcAttachmentPersistInfo interface [Security],Save method, ISceSvcAttachmentPersistInfo.Save, ISceSvcAttachmentPersistInfo::Save, Save, Save method [Security], Save method [Security],ISceSvcAttachmentPersistInfo interface, _config_iscesvcattachmentpersistinfo_save, scesvc/ISceSvcAttachmentPersistInfo::Save, security.iscesvcattachmentpersistinfo_save
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: scesvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCESVC_INFO_TYPE
+req.lib: 
+req.dll: Wsecedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISceSvcAttachmentPersistInfo.Save
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsecedit.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISceSvcAttachmentPersistInfo::Save
@@ -67,7 +65,7 @@ Pointer to a null-terminated string that contains the security template name to 
 
 ### -param scesvcHandle
 
-
+TBD
 
 
 ### -param ppvData [out]
@@ -77,7 +75,7 @@ Pointer that receives a buffer that contains the data to be saved.
 
 ### -param pbOverwriteAll
 
-
+TBD
 
 
 

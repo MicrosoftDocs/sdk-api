@@ -4,17 +4,16 @@ title: IInitializeSpy::PreInitialize
 author: windows-sdk-content
 description: Performs initialization steps required before calling the CoInitializeEx function.
 old-location: com\iinitializespy_preinitialize.htm
-old-project: com
+tech.root: com
 ms.assetid: f5b345d1-ab37-401a-9cb4-b01ef7254fc8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IInitializeSpy interface [COM],PreInitialize method, IInitializeSpy.PreInitialize, IInitializeSpy::PreInitialize, PreInitialize, PreInitialize method [COM], PreInitialize method [COM],IInitializeSpy interface, _com_iinitializespy_preinitialize, com.iinitializespy_preinitialize, objidl/IInitializeSpy::PreInitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInitializeSpy.PreInitialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IInitializeSpy::PreInitialize

@@ -4,17 +4,16 @@ title: AppPolicyGetCreateFileAccess function
 author: windows-sdk-content
 description: Retrieves a value indicating whether a process has full or restricted access to the IO devices (file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe).
 old-location: appxpkg\apppolicygetcreatefileaccess_function.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 3AFFEAE5-CD49-458D-BBB8-AEC3A71566D1
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: AppPolicyGetCreateFileAccess, AppPolicyGetCreateFileAccess function [App packaging and management], appmodel/AppPolicyGetCreateFileAccess, appxpkg.apppolicygetcreatefileaccess_function
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: OneCoreUap.lib
+req.dll: Api-ms-win-appmodel-runtime-l1-1-2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AppPolicyGetCreateFileAccess
 product: Windows
 targetos: Windows
-req.lib: OneCoreUap.lib
-req.dll: Api-ms-win-appmodel-runtime-l1-1-2.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AppPolicyGetCreateFileAccess function

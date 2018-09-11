@@ -4,17 +4,16 @@ title: "_SSortOrder"
 author: windows-sdk-content
 description: Do not use. Defines how to sort rows of a table, describing both the column to use as the sort key and the direction of the sort.
 old-location: wab\_wab_SSortOrder.htm
-old-project: wab
+tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\ssortorder.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSSortOrder, LPSSortOrder, LPSSortOrder structure pointer [Windows Address Book], SSortOrder, SSortOrder structure [Windows Address Book], TABLE_SORT_ASCEND, TABLE_SORT_COMBINE, TABLE_SORT_DESCEND, _SSortOrder, _wab_SSortOrder, wab._wab_SSortOrder, wabdefs/LPSSortOrder, wabdefs/SSortOrder"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSortOrder, *LPSSortOrder
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SSortOrder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SSortOrder, *LPSSortOrder
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

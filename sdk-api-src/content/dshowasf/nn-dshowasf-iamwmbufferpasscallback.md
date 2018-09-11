@@ -4,7 +4,7 @@ title: IAMWMBufferPassCallback
 author: windows-sdk-content
 description: The IAMWMBufferPassCallback interface is a callback interface used with the WM ASF Reader and WM ASF Writer filters.
 old-location: dshow\iamwmbufferpasscallback.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c3a8e01e-a626-4e47-ad98-e22d1fe88906
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dshowasf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAMWMBufferPassCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows Media Format 9 Series or later
 ---
 

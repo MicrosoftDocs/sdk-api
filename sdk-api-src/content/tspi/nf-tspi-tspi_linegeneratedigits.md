@@ -4,17 +4,16 @@ title: TSPI_lineGenerateDigits function
 author: windows-sdk-content
 description: The TSPI_lineGenerateDigits function initiates the generation of the specified digits on the specified call as in-band tones using the specified signaling mode.
 old-location: tspi\tspi_linegeneratedigits.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: af16a4aa-1682-432b-827f-ae42289d5b99
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineGenerateDigits, TSPI_lineGenerateDigits function [TAPI 2.2], _tspi_tspi_linegeneratedigits, tspi.tspi_linegeneratedigits, tspi/TSPI_lineGenerateDigits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineGenerateDigits
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineGenerateDigits function

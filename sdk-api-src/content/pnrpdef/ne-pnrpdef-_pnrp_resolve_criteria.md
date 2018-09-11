@@ -4,7 +4,7 @@ title: "_PNRP_RESOLVE_CRITERIA"
 author: windows-sdk-content
 description: The PNRP_RESOLVE_CRITERIA enumeration specifies the criteria that PNRP uses to resolve searches.
 old-location: p2p\pnrp_resolve_criteria.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 11104d6c-75a8-454a-8203-b1ef105db61a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: pnrpdef.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Pnpxassoc.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRP_RESOLVE_CRITERIA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PNRP_RESOLVE_CRITERIA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PNRP_RESOLVE_CRITERIA
+req.redist: 
 ---
 
 # _PNRP_RESOLVE_CRITERIA enumeration

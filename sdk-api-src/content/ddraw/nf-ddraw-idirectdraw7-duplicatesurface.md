@@ -4,17 +4,16 @@ title: IDirectDraw7::DuplicateSurface
 author: windows-sdk-content
 description: Duplicates a DirectDrawSurface object.
 old-location: directdraw\idirectdraw7_duplicatesurface.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 515219e9-95e9-41fd-9797-d143cd542ef6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DuplicateSurface, DuplicateSurface method [DirectDraw], DuplicateSurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],DuplicateSurface method, IDirectDraw7.DuplicateSurface, IDirectDraw7::DuplicateSurface, ddraw/IDirectDraw7::DuplicateSurface, directdraw.idirectdraw7_duplicatesurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDraw7.DuplicateSurface
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDraw7::DuplicateSurface
@@ -60,9 +59,14 @@ Duplicates a DirectDrawSurface object.
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

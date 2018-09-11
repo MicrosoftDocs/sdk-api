@@ -4,17 +4,16 @@ title: SetFirmwareEnvironmentVariableExW function
 author: windows-sdk-content
 description: Sets the value of the specified firmware environment variable as the attributes that indicate how this variable is stored and maintained.
 old-location: base\setfirmwareenvironmentvariableex.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: D3C2F03F-66F6-40A4-830E-058BBA925ACD
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: SetFirmwareEnvironmentVariableEx, SetFirmwareEnvironmentVariableEx function, SetFirmwareEnvironmentVariableExA, SetFirmwareEnvironmentVariableExW, VARIABLE_ATTRIBUTE_APPEND_WRITE, VARIABLE_ATTRIBUTE_AUTHENTICATED_WRITE_ACCESS, VARIABLE_ATTRIBUTE_BOOTSERVICE_ACCESS, VARIABLE_ATTRIBUTE_HARDWARE_ERROR_RECORD, VARIABLE_ATTRIBUTE_NON_VOLATILE, VARIABLE_ATTRIBUTE_RUNTIME_ACCESS, VARIABLE_ATTRIBUTE_TIME_BASED_AUTHENTICATED_WRITE_ACCESS, base.setfirmwareenvironmentvariableex, winbase/SetFirmwareEnvironmentVariableEx, winbase/SetFirmwareEnvironmentVariableExA, winbase/SetFirmwareEnvironmentVariableExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SetFirmwareEnvironmentVariableExW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetFirmwareEnvironmentVariableExW function

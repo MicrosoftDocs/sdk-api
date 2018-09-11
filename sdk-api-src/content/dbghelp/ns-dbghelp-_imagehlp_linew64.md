@@ -4,17 +4,16 @@ title: "_IMAGEHLP_LINEW64"
 author: windows-sdk-content
 description: Represents a source file line.
 old-location: base\imagehlp_line64_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 62124983-8381-4eb4-94f6-220b844aca45
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PIMAGEHLP_LINEW64, IMAGEHLP_LINE, IMAGEHLP_LINE structure, IMAGEHLP_LINE64, IMAGEHLP_LINE64 structure, IMAGEHLP_LINEW64, PIMAGEHLP_LINE64, PIMAGEHLP_LINE64 structure pointer, _IMAGEHLP_LINE64, _IMAGEHLP_LINEW64, _win32_imagehlp_line64_str, base.imagehlp_line64_str, dbghelp/IMAGEHLP_LINE64, dbghelp/IMAGEHLP_LINEW64, dbghelp/PIMAGEHLP_LINE64"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_LINEW64, *PIMAGEHLP_LINEW64
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - IMAGEHLP_LINE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IMAGEHLP_LINEW64, *PIMAGEHLP_LINEW64
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _IMAGEHLP_LINEW64 structure

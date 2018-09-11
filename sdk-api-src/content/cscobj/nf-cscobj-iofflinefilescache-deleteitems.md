@@ -4,17 +4,16 @@ title: IOfflineFilesCache::DeleteItems
 author: windows-sdk-content
 description: Deletes files and directories from the local cache.
 old-location: of\iofflinefilescache_deleteitems.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: e6326364-fbd0-4446-97c3-6a3940856efb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DeleteItems, DeleteItems method [Offline Files], DeleteItems method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],DeleteItems method, IOfflineFilesCache.DeleteItems, IOfflineFilesCache::DeleteItems, OFFLINEFILES_DELETE_FLAG_ADMIN, OFFLINEFILES_DELETE_FLAG_DELMODIFIED, OFFLINEFILES_DELETE_FLAG_NOAUTOCACHED, OFFLINEFILES_DELETE_FLAG_NOPINNED, cscobj/IOfflineFilesCache::DeleteItems, of.iofflinefilescache_deleteitems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesCache.DeleteItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesCache::DeleteItems

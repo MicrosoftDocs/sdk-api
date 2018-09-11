@@ -4,17 +4,16 @@ title: IDvdInfo::GetTitleAttributes
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves attributes of all video, audio, and subpicture streams for the specified title, including menus.
 old-location: dshow\idvdinfo_gettitleattributes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 012e3860-dfa2-45e8-ab37-2a3a4b2f7f9d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetTitleAttributes, GetTitleAttributes method [DirectShow], GetTitleAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTitleAttributes method, IDvdInfo.GetTitleAttributes, IDvdInfo::GetTitleAttributes, IDvdInfoGetTitleAttributes, dshow.idvdinfo_gettitleattributes, strmif/IDvdInfo::GetTitleAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdInfo.GetTitleAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo::GetTitleAttributes
@@ -67,7 +65,7 @@ Retrieves attributes of all video, audio, and subpicture streams for the specifi
 
 ### -param ulTitle
 
-
+TBD
 
 
 ### -param pATR [out]

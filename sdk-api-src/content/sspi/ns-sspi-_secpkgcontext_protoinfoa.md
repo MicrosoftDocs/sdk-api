@@ -4,17 +4,16 @@ title: "_SecPkgContext_ProtoInfoA"
 author: windows-sdk-content
 description: The SecPkgContext_ProtoInfo structure holds information about the protocol in use.
 old-location: security\secpkgcontext_protoinfo.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: c10eb1fc-b957-4853-86c1-070749488bb9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_ProtoInfoA, PSecPkgContext_ProtoInfo, PSecPkgContext_ProtoInfo structure pointer [Security], SecPkgContext_ProtoInfo, SecPkgContext_ProtoInfo structure [Security], SecPkgContext_ProtoInfoA, SecPkgContext_ProtoInfoW, _SecPkgContext_ProtoInfoA, _ssp_secpkgcontext_protoinfo, security.secpkgcontext_protoinfo, sspi/PSecPkgContext_ProtoInfo, sspi/SecPkgContext_ProtoInfo"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Schnlsp.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_ProtoInfoA, *PSecPkgContext_ProtoInfoA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_ProtoInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecPkgContext_ProtoInfoA, *PSecPkgContext_ProtoInfoA
+req.redist: 
 ---
 
 # _SecPkgContext_ProtoInfoA structure

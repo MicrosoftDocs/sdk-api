@@ -4,17 +4,16 @@ title: IObjectCollection::Clear
 author: windows-sdk-content
 description: Removes all objects from the collection.
 old-location: shell\IObjectCollection_Clear.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b32ce885-aafe-4c81-8e7a-74f67fa15180
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Clear, Clear method [Windows Shell], Clear method [Windows Shell],IObjectCollection interface, IObjectCollection interface [Windows Shell],Clear method, IObjectCollection.Clear, IObjectCollection::Clear, _shell_IObjectCollection_Clear, objectarray/IObjectCollection::Clear, shell.IObjectCollection_Clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objectarray.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectCollection.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectCollection::Clear

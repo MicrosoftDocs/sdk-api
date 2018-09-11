@@ -4,17 +4,16 @@ title: SetWindowRgn function
 author: windows-sdk-content
 description: The SetWindowRgn function sets the window region of a window.
 old-location: gdi\setwindowrgn.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 06209d0c-14f9-45ec-ae2c-9cc596b5bbaa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetWindowRgn, SetWindowRgn function [Windows GDI], _win32_SetWindowRgn, gdi.setwindowrgn, winuser/SetWindowRgn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SetWindowRgn
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SetWindowRgn function

@@ -4,17 +4,16 @@ title: IIsolatedAppLauncher
 author: windows-sdk-content
 description: Enables apps to determine whether they are running in a Windows Defender Application Guard container (VM container environment).
 old-location: winprog\iisolatedapplauncher.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 49C30C52-ACE7-446D-A9B2-5BA7C6583700
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IIsolatedAppLauncher, IIsolatedAppLauncher interface [Windows API], IIsolatedAppLauncher interface [Windows API],described, isolatedapplauncher/IIsolatedAppLauncher, winprog.iisolatedapplauncher
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: isolatedapplauncher.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ISCSI_UNIQUE_SESSION_ID, *PISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_CONNECTION_ID, *PISCSI_UNIQUE_CONNECTION_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsolatedAppLauncher
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IIsolatedAppLauncher interface

@@ -4,17 +4,16 @@ title: ID3D11ShaderReflection::GetNumInterfaceSlots
 author: windows-sdk-content
 description: Gets the number of interface slots in a shader.
 old-location: direct3d11\id3d11shaderreflection_getnuminterfaceslots.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: d2182f64-0d0e-4b1c-a566-f33fe7a0b093
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetNumInterfaceSlots, GetNumInterfaceSlots method [Direct3D 11], GetNumInterfaceSlots method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetNumInterfaceSlots method, ID3D11ShaderReflection.GetNumInterfaceSlots, ID3D11ShaderReflection::GetNumInterfaceSlots, a1d291ec-34e3-530a-7aa8-8236227d54e4, d3d11shader/ID3D11ShaderReflection::GetNumInterfaceSlots, direct3d11.id3d11shaderreflection_getnuminterfaceslots
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_VERSION_TYPE
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11ShaderReflection.GetNumInterfaceSlots
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11ShaderReflection::GetNumInterfaceSlots

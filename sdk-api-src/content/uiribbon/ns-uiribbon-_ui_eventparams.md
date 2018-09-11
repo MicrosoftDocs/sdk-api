@@ -4,17 +4,16 @@ title: "_UI_EVENTPARAMS"
 author: windows-sdk-content
 description: Contains information about a Ribbon event.
 old-location: windowsribbon\ui_eventparams.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: 438ACF91-3C83-4E2D-B919-4CCAE65BCD3E
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: PUI_EVENTPARAMS, PUI_EVENTPARAMS structure pointer [Windows Ribbon], UI_EVENTPARAMS, UI_EVENTPARAMS structure [Windows Ribbon], _UI_EVENTPARAMS, uiribbon/PUI_EVENTPARAMS, uiribbon/UI_EVENTPARAMS, windowsribbon.ui_eventparams
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Uiribbon.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_EVENTPARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: UI_EVENTPARAMS
+req.redist: 
 ---
 
 # _UI_EVENTPARAMS structure

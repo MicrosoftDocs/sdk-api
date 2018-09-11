@@ -4,7 +4,7 @@ title: "_COMMPROP"
 author: windows-sdk-content
 description: Contains information about a communications driver.
 old-location: base\commprop_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: d50ff606-1939-4e36-ba83-da8f269a3cc8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMMPROP, *LPCOMMPROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COMMPROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: COMMPROP, *LPCOMMPROP
+req.redist: 
 ---
 
 # _COMMPROP structure

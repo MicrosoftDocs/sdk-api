@@ -4,17 +4,16 @@ title: "_WS_XML_NODE"
 author: windows-sdk-content
 description: The base type for all the different kinds of XML nodes. An XML node is unit of data in XML.
 old-location: wsw\ws_xml_node.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 98c40d57-ee71-40f8-9416-5b29adc30489
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_NODE, WS_XML_NODE structure [Web Services for Windows], _WS_XML_NODE, webservices/WS_XML_NODE, wsw.ws_xml_node
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_NODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_NODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_NODE
+req.redist: 
 ---
 
 # _WS_XML_NODE structure

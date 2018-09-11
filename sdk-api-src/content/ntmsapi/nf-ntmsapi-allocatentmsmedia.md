@@ -4,17 +4,16 @@ title: AllocateNtmsMedia function
 author: windows-sdk-content
 description: The AllocateNtmsMedia function allocates a piece of available media.
 old-location: fs\allocatentmsmedia.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: a0afe0ca-61ad-4ac8-8e3e-4a7e9ddd6600
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: AllocateNtmsMedia, AllocateNtmsMedia function [Files], NTMS_ALLOCATE_ERROR_IF_UNAVAILABLE, NTMS_ALLOCATE_NEW, NTMS_ALLOCATE_NEXT, _zaw_allocatentmsmedia, base.allocatentmsmedia, fs.allocatentmsmedia, ntmsapi/AllocateNtmsMedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AllocateNtmsMedia
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AllocateNtmsMedia function

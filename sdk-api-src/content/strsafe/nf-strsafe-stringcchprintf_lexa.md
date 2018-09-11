@@ -4,17 +4,16 @@ title: StringCchPrintf_lExA function
 author: windows-sdk-content
 description: Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 old-location: menurc\stringcchprintf_lex.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: 36959df1-e972-45e1-9c20-2306d3466951
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchPrintf_lEx, StringCchPrintf_lEx function [Menus and Other Resources], StringCchPrintf_lExA, StringCchPrintf_lExW, menurc.stringcchprintf_lex, strsafe/StringCchPrintf_lEx, strsafe/StringCchPrintf_lExA, strsafe/StringCchPrintf_lExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVD_RENDERSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - StringCchPrintf_lExW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # StringCchPrintf_lExA function
@@ -162,7 +160,14 @@ The format string. This string must be null-terminated. For more information, se
 The locale object. For more information, see <b>_create_locale</b>.
 
 
-### -param param [in]
+### -param arg1
+
+TBD
+
+
+
+
+#### - param [in]
 
 The Arguments to be inserted into the <i>pszFormat</i> string.
 

@@ -4,7 +4,7 @@ title: "_WMClientProperties"
 author: windows-sdk-content
 description: The WM_CLIENT_PROPERTIES structure records information about the client.
 old-location: wmformat\wm_client_properties.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 62a5bafd-cc49-4a60-be03-038920e5b073
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_CLIENT_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WM_CLIENT_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WM_CLIENT_PROPERTIES
+req.redist: 
 ---
 
 # _WMClientProperties structure

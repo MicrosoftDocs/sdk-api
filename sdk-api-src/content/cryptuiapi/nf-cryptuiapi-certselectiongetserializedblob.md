@@ -4,17 +4,16 @@ title: CertSelectionGetSerializedBlob function
 author: windows-sdk-content
 description: A helper function used to retrieve a serialized certificate BLOB from a CERT_SELECTUI_INPUT structure.
 old-location: security\certselectiongetserializedblob.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 6c3240f7-5121-401d-a4d4-df3055cb301a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CertSelectionGetSerializedBlob, CertSelectionGetSerializedBlob function [Security], cryptuiapi/CertSelectionGetSerializedBlob, security.certselectiongetserializedblob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
+req.lib: 
+req.dll: Cryptui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - CertSelectionGetSerializedBlob
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Cryptui.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CertSelectionGetSerializedBlob function

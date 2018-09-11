@@ -4,17 +4,16 @@ title: IDirectInputEffectDriver::QueryInterface
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::QueryInterface method determines whether the DirectInputEffectDriver object supports a particular COM interface.
 old-location: hid\idirectinputeffectdriver_queryinterface.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 8a9c1279-c25f-48a4-8bd2-65bffe40cd63
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],QueryInterface method, IDirectInputEffectDriver.QueryInterface, IDirectInputEffectDriver::QueryInterface, QueryInterface, QueryInterface method [Human Input Devices], QueryInterface method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_99e25056-d0d2-464f-81b4-cfa6bdfa06db.xml, dinputd/IDirectInputEffectDriver::QueryInterface, hid.idirectinputeffectdriver_queryinterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputEffectDriver.QueryInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputEffectDriver::QueryInterface

@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CachedControlType
 author: windows-sdk-content
 description: Retrieves a cached value that indicates the control type of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedControlType.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 48b232a8-8826-4c70-b541-3e6a792105c1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedControlType property [Windows Accessibility], CachedControlType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedControlType property, IUIAutomationElement.CachedControlType, IUIAutomationElement.get_CachedControlType, IUIAutomationElement::CachedControlType, IUIAutomationElement::get_CachedControlType, get_CachedControlType, uiauto.uiauto_IUIAutomationElement_CachedControlType, uiauto_IUIAutomationElement_CachedControlType, uiautomationclient/IUIAutomationElement::CachedControlType, uiautomationclient/IUIAutomationElement::get_CachedControlType, winauto.uiauto_IUIAutomationElement_CachedControlType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CachedControlType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CachedControlType

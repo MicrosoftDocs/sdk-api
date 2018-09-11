@@ -4,17 +4,16 @@ title: IX509SCEPEnrollment::put_ServerCapabilities
 author: windows-sdk-content
 description: Sets the preferred hash and encryption algorithms for the request.
 old-location: security\ix509scepenrollment_servercapabilities.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: fcfed23f-7798-4b56-afcd-65975a2d39bd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],ServerCapabilities property, IX509SCEPEnrollment.ServerCapabilities, IX509SCEPEnrollment.put_ServerCapabilities, IX509SCEPEnrollment::ServerCapabilities, IX509SCEPEnrollment::put_ServerCapabilities, ServerCapabilities property [Security], ServerCapabilities property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::ServerCapabilities, certenroll/IX509SCEPEnrollment::put_ServerCapabilities, put_ServerCapabilities, security.ix509scepenrollment_servercapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509SCEPEnrollment.put_ServerCapabilities
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509SCEPEnrollment::put_ServerCapabilities

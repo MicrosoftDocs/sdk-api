@@ -4,17 +4,16 @@ title: IBackgroundCopyFile6::RequestFileRanges
 author: windows-sdk-content
 description: Adds a new set of file ranges to be prioritized for download.
 old-location: bits\ibackgroundcopyfile6_requestfileranges.htm
-old-project: bits
+tech.root: bits
 ms.assetid: C36BDE94-03AC-4F06-B17B-B8729226F8AC
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyFile6 interface [BITS],RequestFileRanges method, IBackgroundCopyFile6.RequestFileRanges, IBackgroundCopyFile6::RequestFileRanges, RequestFileRanges, RequestFileRanges method [BITS], RequestFileRanges method [BITS],IBackgroundCopyFile6 interface, bits.ibackgroundcopyfile6_requestfileranges, bits10_1/IBackgroundCopyFile6::RequestFileRanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits10_1.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_TIMES
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyFile6.RequestFileRanges
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyFile6::RequestFileRanges
@@ -62,12 +61,12 @@ Adds a new set of file ranges to be prioritized for download.
 
 ### -param rangeCount
 
-
+TBD
 
 
 ### -param ranges
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: DrvCreateDeviceBitmap function
 author: windows-sdk-content
 description: The DrvCreateDeviceBitmap function creates and manages bitmaps.
 old-location: display\drvcreatedevicebitmap.htm
-old-project: display
+tech.root: display
 ms.assetid: 1f5f49ef-bf08-4311-9a1b-fdc37e6c2063
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvCreateDeviceBitmap, DrvCreateDeviceBitmap function [Display Devices], ddifncs_b3a739da-4a9d-4e84-a4e8-8b1e790a06af.xml, display.drvcreatedevicebitmap, winddi/DrvCreateDeviceBitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvCreateDeviceBitmap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvCreateDeviceBitmap function

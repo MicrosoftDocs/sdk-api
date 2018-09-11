@@ -4,17 +4,16 @@ title: "_MIRROR_VIRTUAL_DISK_PARAMETERS"
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) mirror request parameters.
 old-location: vhd\mirror_virtual_disk_parameters.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: bcde890e-24d5-41ac-8e5a-ba0d99e395e1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMIRROR_VIRTUAL_DISK_PARAMETERS, MIRROR_VIRTUAL_DISK_PARAMETERS, MIRROR_VIRTUAL_DISK_PARAMETERS structure [VHD], PMIRROR_VIRTUAL_DISK_PARAMETERS, PMIRROR_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _MIRROR_VIRTUAL_DISK_PARAMETERS, vdssys/MIRROR_VIRTUAL_DISK_PARAMETERS, vdssys/PMIRROR_VIRTUAL_DISK_PARAMETERS, vhd.mirror_virtual_disk_parameters, virtdisk/MIRROR_VIRTUAL_DISK_PARAMETERS, virtdisk/PMIRROR_VIRTUAL_DISK_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIRROR_VIRTUAL_DISK_PARAMETERS, *PMIRROR_VIRTUAL_DISK_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIRROR_VIRTUAL_DISK_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: MIRROR_VIRTUAL_DISK_PARAMETERS, *PMIRROR_VIRTUAL_DISK_PARAMETERS
+req.redist: 
 ---
 
 # _MIRROR_VIRTUAL_DISK_PARAMETERS structure

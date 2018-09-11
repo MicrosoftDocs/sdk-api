@@ -4,17 +4,16 @@ title: PowerSettingAccessCheck function
 author: windows-sdk-content
 description: Queries for a group policy override for specified power settings.
 old-location: base\powersettingaccesscheck.htm
-old-project: power
+tech.root: power
 ms.assetid: 0b89c189-b162-44d4-aa50-d78385e40c27
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ACCESS_ACTIVE_SCHEME, ACCESS_AC_POWER_SETTING_INDEX, ACCESS_CREATE_SCHEME, ACCESS_DC_POWER_SETTING_INDEX, ACCESS_SCHEME, PowerSettingAccessCheck, PowerSettingAccessCheck function, base.powersettingaccesscheck, powrprof/PowerSettingAccessCheck
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PowerSettingAccessCheck
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PowerSettingAccessCheck function

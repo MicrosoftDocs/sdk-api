@@ -4,7 +4,7 @@ title: VMRDeinterlaceTech
 author: windows-sdk-content
 description: The VMRDeinterlaceTech enumeration type describes the algorithm used for deinterlacing a video stream. The flags are not mutually exclusive; drivers can set a combination of flags.
 old-location: dshow\vmrdeinterlacetech.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 10149023-c5e8-4dce-8a8c-cde96ae6c073
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMRDeinterlaceTech
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VMRDeinterlaceTech
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: VMRDeinterlaceTech
+req.redist: 
 req.product: Windows XP with SP1
 ---
 

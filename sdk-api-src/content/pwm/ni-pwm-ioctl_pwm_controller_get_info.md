@@ -4,7 +4,7 @@ title: IOCTL_PWM_CONTROLLER_GET_INFO
 author: windows-sdk-content
 description: Retrieves information about a Pulse Width Modulation (PWM) controller. This information does not change after the controller is initialized.
 old-location: base\ioctl_pwm_controller_get_info.htm
-old-project: devio
+tech.root: devio
 ms.assetid: C198FCCA-E1C5-4B03-8F42-7EE1952DC055
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PWM_POLARITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_PWM_CONTROLLER_GET_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_PWM_CONTROLLER_GET_INFO IOCTL

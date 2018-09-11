@@ -4,7 +4,7 @@ title: CD3D11_TEXTURE2D_DESC1
 author: windows-sdk-content
 description: Describes a 2D texture.
 old-location: direct3d11\d3d11_texture2d_desc1.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: DADDC12C-CF1E-48B4-B8C0-3029EC6B711B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_TEXTURE2D_DESC1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CD3D11_TEXTURE2D_DESC1 structure

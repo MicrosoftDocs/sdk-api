@@ -4,17 +4,16 @@ title: "_ENCRYPTED_CREDENTIALW"
 author: windows-sdk-content
 description: Represents an encrypted credential.
 old-location: security\encrypted_credentialw.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: b350ef3d-5ed5-4355-ae3a-f03fafff2f52
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PENCRYPTED_CREDENTIALW, ENCRYPTED_CREDENTIALW, ENCRYPTED_CREDENTIALW structure [Security], PENCRYPTED_CREDENTIALW, PENCRYPTED_CREDENTIALW structure pointer [Security], _ENCRYPTED_CREDENTIALW, ntsecpkg/ENCRYPTED_CREDENTIALW, ntsecpkg/PENCRYPTED_CREDENTIALW, security.encrypted_credentialw"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENCRYPTED_CREDENTIALW, *PENCRYPTED_CREDENTIALW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ENCRYPTED_CREDENTIALW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: ENCRYPTED_CREDENTIALW, *PENCRYPTED_CREDENTIALW
+req.redist: 
 ---
 
 # _ENCRYPTED_CREDENTIALW structure

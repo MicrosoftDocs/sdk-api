@@ -4,17 +4,16 @@ title: IPhotoAcquireProgressCB::DirectoryCreated
 author: windows-sdk-content
 description: The DirectoryCreated method provides extended functionality when a destination directory is created during the acquisition process. The application provides the implementation of the DirectoryCreated method.
 old-location: picacq\iphotoacquireprogresscb_directorycreated.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: c784750c-3f73-4ebb-ad38-cc05aada0fca
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: DirectoryCreated, DirectoryCreated method [Picture Acquisition], DirectoryCreated method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],DirectoryCreated method, IPhotoAcquireProgressCB.DirectoryCreated, IPhotoAcquireProgressCB::DirectoryCreated, IPhotoAcquireProgressCBDirectoryCreated, photoacquire/IPhotoAcquireProgressCB::DirectoryCreated, picacq.iphotoacquireprogresscb_directorycreated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireProgressCB.DirectoryCreated
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireProgressCB::DirectoryCreated

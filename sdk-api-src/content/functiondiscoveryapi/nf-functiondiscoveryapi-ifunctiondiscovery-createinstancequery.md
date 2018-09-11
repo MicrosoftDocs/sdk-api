@@ -4,17 +4,16 @@ title: IFunctionDiscovery::CreateInstanceQuery
 author: windows-sdk-content
 description: Creates a query for a specific function instance.
 old-location: ncd\ifunctiondiscovery_createinstancequery_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 80e70972-ced1-416e-aa4f-69c54b2cbf95
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CreateInstanceQuery, CreateInstanceQuery method, CreateInstanceQuery method,IFunctionDiscovery interface, IFunctionDiscovery interface,CreateInstanceQuery method, IFunctionDiscovery.CreateInstanceQuery, IFunctionDiscovery::CreateInstanceQuery, functiondiscoveryapi/IFunctionDiscovery::CreateInstanceQuery, ncd.ifunctiondiscovery_createinstancequery_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemVisibilityFlags
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionDiscovery.CreateInstanceQuery
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FunDisc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionDiscovery::CreateInstanceQuery

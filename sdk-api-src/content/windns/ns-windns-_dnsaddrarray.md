@@ -4,7 +4,7 @@ title: "_DnsAddrArray"
 author: windows-sdk-content
 description: Stores an array of IPv4 or IPv6 addresses.
 old-location: dns\dns_addr_array.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 5FD7F28B-D1A6-4731-ACB9-A7BB23CC1FB4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_ADDR_ARRAY, *PDNS_ADDR_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_ADDR_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_ADDR_ARRAY, *PDNS_ADDR_ARRAY
+req.redist: 
 ---
 
 # _DnsAddrArray structure

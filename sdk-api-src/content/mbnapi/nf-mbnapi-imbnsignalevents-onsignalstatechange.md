@@ -4,17 +4,16 @@ title: IMbnSignalEvents::OnSignalStateChange
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate that a signal quality update is available.
 old-location: mbn\imbnsignalevents_onsignalstatechange.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 07e98555-03fa-4852-af65-55778dc9c477
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnSignalEvents interface [Microsoft Broadband Networks],OnSignalStateChange method, IMbnSignalEvents.OnSignalStateChange, IMbnSignalEvents::OnSignalStateChange, OnSignalStateChange, OnSignalStateChange method [Microsoft Broadband Networks], OnSignalStateChange method [Microsoft Broadband Networks],IMbnSignalEvents interface, mbn.imbnsignalevents_onsignalstatechange, mbnapi/IMbnSignalEvents::OnSignalStateChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnSignalEvents.OnSignalStateChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSignalEvents::OnSignalStateChange

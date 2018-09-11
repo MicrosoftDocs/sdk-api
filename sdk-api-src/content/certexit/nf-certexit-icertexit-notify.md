@@ -4,17 +4,16 @@ title: ICertExit::Notify
 author: windows-sdk-content
 description: Called by the server engine to notify an exit module that an event has occurred.
 old-location: security\icertexit2_notify.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: ebe4ef0c-5778-4a62-b112-9b16b250814f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertExit object [Security],Notify method, EXITEVENT_CERTDENIED, EXITEVENT_CERTISSUED, EXITEVENT_CERTPENDING, EXITEVENT_CERTRETRIEVEPENDING, EXITEVENT_CERTREVOKED, EXITEVENT_CRLISSUED, EXITEVENT_SHUTDOWN, ICertExit interface [Security],Notify method, ICertExit.Notify, ICertExit2 interface [Security],Notify method, ICertExit2::Notify, ICertExit::Notify, Notify, Notify method [Security], Notify method [Security],CCertExit object, Notify method [Security],ICertExit interface, Notify method [Security],ICertExit2 interface, _certsrv_icertexit_notify, certexit/ICertExit2::Notify, certexit/ICertExit::Notify, security.icertexit2_notify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certexit.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertExit.Notify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertExit::Notify

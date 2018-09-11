@@ -4,17 +4,16 @@ title: ICertView2::SetTable
 author: windows-sdk-content
 description: Specifies which Certificate Services database table is used for subsequent calls to the methods of the ICertView2 interface.
 old-location: security\icertview2_settable.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 76353137-75c5-46e5-82da-33d2f8e54661
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertView object [Security],SetTable method, CVRC_TABLE_ATTRIBUTES, CVRC_TABLE_CRL, CVRC_TABLE_EXTENSIONS, CVRC_TABLE_REQCERT, ICertView interface [Security],SetTable method, ICertView2 interface [Security],SetTable method, ICertView2.SetTable, ICertView2::SetTable, ICertView::SetTable, SetTable, SetTable method [Security], SetTable method [Security],CCertView object, SetTable method [Security],ICertView interface, SetTable method [Security],ICertView2 interface, _certsrv_icertview2_settable, certview/ICertView2::SetTable, certview/ICertView::SetTable, security.icertview2_settable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertView.SetTable
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertView2::SetTable

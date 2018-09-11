@@ -4,17 +4,16 @@ title: GetFileNameFromBrowse function
 author: windows-sdk-content
 description: Creates an Open dialog box so that the user can specify the drive, directory, and name of a file to open.
 old-location: shell\GetFileNameFromBrowse.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1f075051-18c8-4ec2-b010-f983ba2d3303
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetFileNameFromBrowse, GetFileNameFromBrowse function [Windows Shell], _win32_GetFileNameFromBrowse, shell.GetFileNameFromBrowse, shlobj_core/GetFileNameFromBrowse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetFileNameFromBrowse
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetFileNameFromBrowse function

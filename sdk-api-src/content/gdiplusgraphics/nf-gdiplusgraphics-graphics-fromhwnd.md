@@ -4,17 +4,16 @@ title: Graphics::FromHWND
 author: windows-sdk-content
 description: The Graphics::FromHWND method creates a Graphicsobject that is associated with a specified window.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FromHWND_hwnd_icm_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\fromhwnd.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: FromHWND, FromHWND method [GDI+], FromHWND method [GDI+],Graphics class, Graphics class [GDI+],FromHWND method, Graphics.FromHWND, Graphics::FromHWND, _gdiplus_CLASS_Graphics_FromHWND_hwnd_icm_, gdiplus._gdiplus_CLASS_Graphics_FromHWND_hwnd_icm_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Graphics.FromHWND
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 
@@ -63,7 +62,7 @@ The <b>Graphics::FromHWND</b> method creates a
 
 ### -param hwnd
 
-
+TBD
 
 
 ### -param icm [in]

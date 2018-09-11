@@ -4,17 +4,16 @@ title: IServicePoolConfig::put_MaxPoolSize
 author: windows-sdk-content
 description: Sets the maximum number of objects in the pool.
 old-location: cos\iservicepoolconfig_put_maxpoolsize.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 618d4969-c29e-4944-8954-a982a90f3c15
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_MaxPoolSize method, IServicePoolConfig.put_MaxPoolSize, IServicePoolConfig::put_MaxPoolSize, comsvcs/IServicePoolConfig::put_MaxPoolSize, cos.iservicepoolconfig_put_maxpoolsize, put_MaxPoolSize, put_MaxPoolSize method [COM+], put_MaxPoolSize method [COM+],IServicePoolConfig interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServicePoolConfig.put_MaxPoolSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServicePoolConfig::put_MaxPoolSize

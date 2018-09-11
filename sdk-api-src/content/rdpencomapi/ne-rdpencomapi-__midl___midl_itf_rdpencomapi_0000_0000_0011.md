@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0011"
 author: windows-sdk-content
 description: Defines values for the type of keys that control the state of a keyboard, such as the Caps Lock key.
 old-location: rdp\rdpsrapi_kbd_sync_flag.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 0E16C482-E7D7-4477-B5B2-830D8CD9012A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RDPSRAPI_KBD_SYNC_FLAG, RDPSRAPI_KBD_SYNC_FLAG enumeration [RDP], RDPSRAPI_KBD_SYNC_FLAG_CAPS_LOCK, RDPSRAPI_KBD_SYNC_FLAG_KANA_LOCK, RDPSRAPI_KBD_SYNC_FLAG_NUM_LOCK, RDPSRAPI_KBD_SYNC_FLAG_SCROLL_LOCK, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0011, rdp.rdpsrapi_kbd_sync_flag, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_CAPS_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_KANA_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_NUM_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_SCROLL_LOCK
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPSRAPI_KBD_SYNC_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RDPSRAPI_KBD_SYNC_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: RDPSRAPI_KBD_SYNC_FLAG
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_rdpencomapi_0000_0000_0011 enumeration

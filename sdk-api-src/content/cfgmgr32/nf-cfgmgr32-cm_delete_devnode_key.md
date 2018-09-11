@@ -4,17 +4,16 @@ title: CM_Delete_DevNode_Key function
 author: windows-sdk-content
 description: The CM_Delete_DevNode_Key function deletes the specified user-accessible registry keys that are associated with a device.
 old-location: devinst\cm_delete_devnode_key.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: a2b6faf3-bd24-416a-b7ea-1ef1b48f965b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Delete_DevNode_Key, CM_Delete_DevNode_Key function [Device and Driver Installation], cfgmgr32/CM_Delete_DevNode_Key, cfgmgrfn_20a14360-4506-465d-bb5c-79116c3bc78f.xml, devinst.cm_delete_devnode_key
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
+req.dll: CfgMgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CM_Delete_DevNode_Key
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
-req.dll: CfgMgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Delete_DevNode_Key function

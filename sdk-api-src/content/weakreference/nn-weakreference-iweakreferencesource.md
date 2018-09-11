@@ -4,17 +4,16 @@ title: IWeakReferenceSource
 author: windows-sdk-content
 description: Represents a source object to which a weak reference can be retrieved.
 old-location: winrt\iweakreferencesource.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: f4b85374-192b-4024-80c2-a46bfebb16c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWeakReferenceSource, IWeakReferenceSource interface [Windows Runtime], IWeakReferenceSource interface [Windows Runtime],described, weakreference/IWeakReferenceSource, winrt.iweakreferencesource
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: weakreference.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWeakReferenceSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWeakReferenceSource interface

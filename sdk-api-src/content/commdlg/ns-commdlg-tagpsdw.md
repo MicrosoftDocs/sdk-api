@@ -4,17 +4,16 @@ title: tagPSDW
 author: windows-sdk-content
 description: Contains information the PageSetupDlg function uses to initialize the Page Setup dialog box. After the user closes the dialog box, the system returns information about the user-defined page parameters in this structure.
 old-location: dlgbox\pagesetupdlg_str.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\pagesetupdlg.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPPAGESETUPDLGW, LPPAGESETUPDLG, LPPAGESETUPDLG structure pointer [Dialog Boxes], PAGESETUPDLG, PAGESETUPDLG structure [Dialog Boxes], PAGESETUPDLGA, PAGESETUPDLGW, PSD_DEFAULTMINMARGINS, PSD_DISABLEMARGINS, PSD_DISABLEORIENTATION, PSD_DISABLEPAGEPAINTING, PSD_DISABLEPAPER, PSD_DISABLEPRINTER, PSD_ENABLEPAGEPAINTHOOK, PSD_ENABLEPAGESETUPHOOK, PSD_ENABLEPAGESETUPTEMPLATE, PSD_ENABLEPAGESETUPTEMPLATEHANDLE, PSD_INHUNDREDTHSOFMILLIMETERS, PSD_INTHOUSANDTHSOFINCHES, PSD_INWININIINTLMEASURE, PSD_MARGINS, PSD_MINMARGINS, PSD_NONETWORKBUTTON, PSD_NOWARNING, PSD_RETURNDEFAULT, PSD_SHOWHELP, _win32_PAGESETUPDLG_str, _win32_pagesetupdlg_str_cpp, commdlg/LPPAGESETUPDLG, commdlg/PAGESETUPDLG, commdlg/PAGESETUPDLGA, commdlg/PAGESETUPDLGW, dlgbox.pagesetupdlg_str, tagPSDA, tagPSDW, winui._win32_pagesetupdlg_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PAGESETUPDLGW, *LPPAGESETUPDLGW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - PAGESETUPDLGW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: PAGESETUPDLGW, *LPPAGESETUPDLGW
+req.redist: 
 ---
 
 # tagPSDW structure

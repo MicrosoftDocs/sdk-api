@@ -4,7 +4,7 @@ title: "_MIB_BEST_IF"
 author: windows-sdk-content
 description: Stores the index of the interface that has the best route to a particular destination IPv4 address.
 old-location: mib\mib_best_if.htm
-old-project: mib
+tech.root: mib
 ms.assetid: a557acfe-c5c6-44fc-b1f1-2aa7ef599d44
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_BEST_IF, *PMIB_BEST_IF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_BEST_IF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_BEST_IF, *PMIB_BEST_IF
+req.redist: 
 ---
 
 # _MIB_BEST_IF structure

@@ -4,17 +4,16 @@ title: IFunctionInstance::OpenPropertyStore
 author: windows-sdk-content
 description: Opens the property store for the function instance.
 old-location: ncd\ifunctioninstance_openpropertystore_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 3e03567b-7bac-4bef-ae62-a040f0c33cfb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFunctionInstance interface,OpenPropertyStore method, IFunctionInstance.OpenPropertyStore, IFunctionInstance::OpenPropertyStore, OpenPropertyStore, OpenPropertyStore method, OpenPropertyStore method,IFunctionInstance interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryapi/IFunctionInstance::OpenPropertyStore, ncd.ifunctioninstance_openpropertystore_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemVisibilityFlags
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionInstance.OpenPropertyStore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FunDisc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionInstance::OpenPropertyStore

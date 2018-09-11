@@ -4,7 +4,7 @@ title: "__MIDL_IBackgroundCopyJobHttpOptions_0001"
 author: windows-sdk-content
 description: The BG_CERT_STORE_LOCATION enumeration defines the location of the certificate store.
 old-location: bits\bg_cert_store_location.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 596b1ba1-6652-4c97-a44d-e8271471d864
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bits2_5.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BG_CERT_STORE_LOCATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BG_CERT_STORE_LOCATION
+req.redist: 
 ---
 
 # __MIDL_IBackgroundCopyJobHttpOptions_0001 enumeration

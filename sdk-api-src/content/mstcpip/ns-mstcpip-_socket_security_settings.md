@@ -4,17 +4,16 @@ title: "_SOCKET_SECURITY_SETTINGS"
 author: windows-sdk-content
 description: Specifies generic security requirements for a socket.
 old-location: winsock\socket_security_settings.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 9c47efb4-dd3e-4db9-a659-003292e2c5e9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SOCKET_SECURITY_SETTINGS, SOCKET_SECURITY_SETTINGS structure [Winsock], SOCKET_SETTINGS_ALLOW_INSECURE, SOCKET_SETTINGS_GUARANTEE_ENCRYPTION, _SOCKET_SECURITY_SETTINGS, mstcpip/SOCKET_SECURITY_SETTINGS, winsock.socket_security_settings
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKET_SECURITY_SETTINGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SOCKET_SECURITY_SETTINGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SOCKET_SECURITY_SETTINGS
+req.redist: 
 ---
 
 # _SOCKET_SECURITY_SETTINGS structure

@@ -4,17 +4,16 @@ title: Image::SaveAdd(IN Image,IN const EncoderParameters)
 author: windows-sdk-content
 description: This topic lists the SaveAdd methods of the Image class. For a complete list of methods for the Image class, see Image Methods.
 old-location: gdiplus\_gdiplus_CLASS_Image_SaveAdd_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesaveaddmethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Image.SaveAdd, Image.SaveAdd(IN Image,IN const EncoderParameters), Image::SaveAdd, Image::SaveAdd(IN Image,IN const EncoderParameters), SaveAdd, SaveAdd methods [GDI+], _gdiplus_CLASS_Image_SaveAdd_Methods, gdiplus._gdiplus_CLASS_Image_SaveAdd_Methods, gdiplusheaders/SaveAdd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - Image.SaveAdd
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

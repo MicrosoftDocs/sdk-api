@@ -4,17 +4,16 @@ title: ITextRange2::GetChar2
 author: windows-sdk-content
 description: Gets the character at the specified offset from the end of this range.
 old-location: controls\itextrange2_getchar2.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 8ece8ca0-fd05-481c-9ce2-b2b7a3df354e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetChar2, GetChar2 method [Windows Controls], GetChar2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetChar2 method, ITextRange2.GetChar2, ITextRange2::GetChar2, controls.itextrange2_getchar2, tom/ITextRange2::GetChar2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange2.GetChar2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange2::GetChar2

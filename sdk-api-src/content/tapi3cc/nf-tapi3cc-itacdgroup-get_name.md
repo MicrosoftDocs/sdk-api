@@ -4,17 +4,16 @@ title: ITACDGroup::get_Name
 author: windows-sdk-content
 description: The get_Name method gets the ACD group name. This string can be a displayable name for the group.
 old-location: tapi3\itacdgroup_get_name.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 93e61a42-3e60-4d52-bb19-68842f6947da
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITACDGroup interface [TAPI 2.2],get_Name method, ITACDGroup.get_Name, ITACDGroup::get_Name, _tapi3_itacdgroup_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITACDGroup interface, tapi3.itacdgroup_get_name, tapi3cc/ITACDGroup::get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITACDGroup.get_Name
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITACDGroup::get_Name

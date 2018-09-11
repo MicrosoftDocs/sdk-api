@@ -4,17 +4,16 @@ title: IInkOverlay::HitTestSelection
 author: windows-sdk-content
 description: Determines what portion of the selection was hit during a hit test.
 old-location: tablet\inkoverlay_hittestselection.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 289589fa-84da-40b3-b60e-551ef0114279
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 289589fa-84da-40b3-b60e-551ef0114279, HitTestSelection, HitTestSelection method [Tablet PC], HitTestSelection method [Tablet PC],IInkOverlay interface, IInkOverlay, IInkOverlay interface [Tablet PC],HitTestSelection method, IInkOverlay.HitTestSelection, IInkOverlay::HitTestSelection, msinkaut/IInkOverlay::HitTestSelection, tablet.inkoverlay_hittestselection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkOverlay.HitTestSelection
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::HitTestSelection

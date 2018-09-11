@@ -4,17 +4,16 @@ title: IDirect3DDeviceManager9::OpenDeviceHandle
 author: windows-sdk-content
 description: Gets a handle to the Direct3D device.
 old-location: mf\idirect3ddevicemanager9_opendevicehandle.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 74cd2260-279a-4956-8fce-40f8008b6797
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 74cd2260-279a-4956-8fce-40f8008b6797, IDirect3DDeviceManager9 interface [Media Foundation],OpenDeviceHandle method, IDirect3DDeviceManager9.OpenDeviceHandle, IDirect3DDeviceManager9::OpenDeviceHandle, OpenDeviceHandle, OpenDeviceHandle method [Media Foundation], OpenDeviceHandle method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::OpenDeviceHandle, mf.idirect3ddevicemanager9_opendevicehandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirect3DDeviceManager9.OpenDeviceHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDeviceManager9::OpenDeviceHandle

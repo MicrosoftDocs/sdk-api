@@ -4,17 +4,16 @@ title: DhcpV4FailoverGetSystemTime function
 author: windows-sdk-content
 description: Returns the current time on the DHCP server.
 old-location: dhcp\dhcpv4failovergetsystemtime.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 3189e3d4-82cb-47a6-ad10-26a67c69e67d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpV4FailoverGetSystemTime, DhcpV4FailoverGetSystemTime function [DHCP], dhcp.dhcpv4failovergetsystemtime, dhcpsapi/DhcpV4FailoverGetSystemTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpV4FailoverGetSystemTime
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpV4FailoverGetSystemTime function

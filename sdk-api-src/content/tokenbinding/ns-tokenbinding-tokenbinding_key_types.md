@@ -4,17 +4,16 @@ title: TOKENBINDING_KEY_TYPES
 author: windows-sdk-content
 description: Contains all of the combinations of types of token binding keys that a client device or server supports.
 old-location: security\tokenbinding_key_types.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: E5029CE3-CD23-4566-A951-35374DC7BC57
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TOKENBINDING_KEY_TYPES, TOKENBINDING_KEY_TYPES structure [Security], security.tokenbinding_key_types, tokenbinding/TOKENBINDING_KEY_TYPES
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: tokenbinding.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKENBINDING_KEY_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKENBINDING_KEY_TYPES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TOKENBINDING_KEY_TYPES
+req.redist: 
 ---
 
 # TOKENBINDING_KEY_TYPES structure

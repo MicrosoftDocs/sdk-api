@@ -4,17 +4,16 @@ title: ILog::AppendRecord
 author: windows-sdk-content
 description: Write a new record to the end of the log.
 old-location: com\ilog_appendrecord.htm
-old-project: com
+tech.root: com
 ms.assetid: e739acb5-4d93-4871-8b35-54d45138fe0f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AppendRecord, AppendRecord method [COM], AppendRecord method [COM],ILog interface, ILog interface [COM],AppendRecord method, ILog.AppendRecord, ILog::AppendRecord, _com_ilog_appendrecord, com.ilog_appendrecord, txlogpub/ILog::AppendRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: txlogpub.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECORD_READING_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILog.AppendRecord
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ILog::AppendRecord

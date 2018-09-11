@@ -4,17 +4,16 @@ title: DWRITE_SCRIPT_PROPERTIES
 author: windows-sdk-content
 description: The DWRITE_SCRIPT_PROPERTIES structure specifies script properties for caret navigation and justification.
 old-location: directwrite\dwrite_script_properties.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 5210C04E-618B-4FE9-A6FC-6F0FF17A64D5
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_SCRIPT_PROPERTIES, DWRITE_SCRIPT_PROPERTIES structure [Direct Write], directwrite.dwrite_script_properties, dwrite_1/DWRITE_SCRIPT_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_SCRIPT_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_SCRIPT_PROPERTIES structure

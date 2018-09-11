@@ -4,17 +4,16 @@ title: "_PROJECTION_INFO2"
 author: windows-sdk-content
 description: Used in the RAS_CONNECTION_4 structure as a placeholder for the PPP_PROJECTION_INFO2 and IKEV2_PROJECTION_INFO2 structures.
 old-location: rras\projection_info2.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 820acc2b-38e1-4501-9753-bc250d6a87c9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPROJECTION_INFO2, MPRAPI_IKEV2_PROJECTION_INFO_TYPE, MPRAPI_PPP_PROJECTION_INFO_TYPE, PPROJECTION_INFO2, PPROJECTION_INFO2 structure pointer [RAS], PROJECTION_INFO2, PROJECTION_INFO2 structure [RAS], _PROJECTION_INFO2, mprapi/PPROJECTION_INFO2, mprapi/PROJECTION_INFO2, rras.projection_info2"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROJECTION_INFO2, *PPROJECTION_INFO2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROJECTION_INFO2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: PROJECTION_INFO2, *PPROJECTION_INFO2
+req.redist: 
 ---
 
 # _PROJECTION_INFO2 structure

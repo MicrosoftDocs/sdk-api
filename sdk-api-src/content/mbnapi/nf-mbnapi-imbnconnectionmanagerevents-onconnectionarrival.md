@@ -4,17 +4,16 @@ title: IMbnConnectionManagerEvents::OnConnectionArrival
 author: windows-sdk-content
 description: Notification method that indicates a new connection was added to the system.
 old-location: mbn\imbnconnectionmanagerevents_onconnectionarrival.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 88e48ce0-b2eb-431e-be0f-03b1d22ca61b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnConnectionManagerEvents interface [Microsoft Broadband Networks],OnConnectionArrival method, IMbnConnectionManagerEvents.OnConnectionArrival, IMbnConnectionManagerEvents::OnConnectionArrival, OnConnectionArrival, OnConnectionArrival method [Microsoft Broadband Networks], OnConnectionArrival method [Microsoft Broadband Networks],IMbnConnectionManagerEvents interface, mbn.imbnconnectionmanagerevents_onconnectionarrival, mbnapi/IMbnConnectionManagerEvents::OnConnectionArrival
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionManagerEvents.OnConnectionArrival
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionManagerEvents::OnConnectionArrival

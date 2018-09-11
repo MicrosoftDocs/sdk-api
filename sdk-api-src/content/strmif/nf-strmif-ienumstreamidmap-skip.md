@@ -4,17 +4,16 @@ title: IEnumStreamIdMap::Skip
 author: windows-sdk-content
 description: The Skip method skip the element at the specified index.
 old-location: dshow\ienumstreamidmap_skip.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 54502cd5-50b2-4bd2-a13f-180bddac178a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Skip method, IEnumStreamIdMap.Skip, IEnumStreamIdMap::Skip, IEnumStreamIdMapSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_skip, strmif/IEnumStreamIdMap::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEnumStreamIdMap.Skip
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumStreamIdMap::Skip

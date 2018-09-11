@@ -4,17 +4,16 @@ title: MFGetAttributeString function
 author: windows-sdk-content
 description: Gets a string value from an attribute store.
 old-location: mf\mfgetattributestring.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6CA416AB-5EA1-4A85-A421-1CDD3D111296
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFGetAttributeString, MFGetAttributeString function [Media Foundation], mf.mfgetattributestring, mfapi/MFGetAttributeString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFGetAttributeString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFGetAttributeString function

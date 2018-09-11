@@ -4,17 +4,16 @@ title: ITBasicCallControl::SwapHold
 author: windows-sdk-content
 description: The SwapHold method swaps the call (which is active) with the specified call on hold.
 old-location: tapi3\itbasiccallcontrol_swaphold.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 372e8ca9-53fb-4ec0-aae8-52f85523b7c4
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],SwapHold method, ITBasicCallControl.SwapHold, ITBasicCallControl::SwapHold, SwapHold, SwapHold method [TAPI 2.2], SwapHold method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_swaphold, tapi3.itbasiccallcontrol_swaphold, tapi3if/ITBasicCallControl::SwapHold
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITBasicCallControl.SwapHold
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITBasicCallControl::SwapHold

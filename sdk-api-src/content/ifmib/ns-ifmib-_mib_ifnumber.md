@@ -4,7 +4,7 @@ title: "_MIB_IFNUMBER"
 author: windows-sdk-content
 description: Stores the number of interfaces on a particular computer.
 old-location: mib\mib_ifnumber.htm
-old-project: mib
+tech.root: mib
 ms.assetid: cdab8d39-b0f9-462c-ac5e-ae0c420df067
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ifmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IFNUMBER, *PMIB_IFNUMBER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_IFNUMBER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_IFNUMBER, *PMIB_IFNUMBER
+req.redist: 
 ---
 
 # _MIB_IFNUMBER structure

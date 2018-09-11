@@ -4,17 +4,16 @@ title: IObjectWithPropertyKey::SetPropertyKey
 author: windows-sdk-content
 description: Sets the property key.
 old-location: shell\IObjectWithPropertyKey_SetPropertyKey.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f7352fb0-7e6f-4145-bd5d-4ed3de0c9659
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IObjectWithPropertyKey interface [Windows Shell],SetPropertyKey method, IObjectWithPropertyKey.SetPropertyKey, IObjectWithPropertyKey::SetPropertyKey, SetPropertyKey, SetPropertyKey method [Windows Shell], SetPropertyKey method [Windows Shell],IObjectWithPropertyKey interface, _shell_IObjectWithPropertyKey_SetPropertyKey, propsys/IObjectWithPropertyKey::SetPropertyKey, shell.IObjectWithPropertyKey_SetPropertyKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectWithPropertyKey.SetPropertyKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectWithPropertyKey::SetPropertyKey

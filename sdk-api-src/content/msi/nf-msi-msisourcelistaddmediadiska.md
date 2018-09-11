@@ -4,17 +4,16 @@ title: MsiSourceListAddMediaDiskA function
 author: windows-sdk-content
 description: The MsiSourceListAddMediaDisk function adds or updates a disk of the media source of a registered product or patch.
 old-location: setup\msisourcelistaddmediadisk.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 70c58c39-1b0b-44ec-ba0c-6755015c28d7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListAddMediaDisk, MsiSourceListAddMediaDisk function, MsiSourceListAddMediaDiskA, MsiSourceListAddMediaDiskW, NULL, User SID, msi/MsiSourceListAddMediaDisk, msi/MsiSourceListAddMediaDiskA, msi/MsiSourceListAddMediaDiskW, setup.msisourcelistaddmediadisk, setup.msisourcelistaddmediadisks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiSourceListAddMediaDiskW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiSourceListAddMediaDiskA function

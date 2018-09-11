@@ -4,17 +4,16 @@ title: IMFASFSplitter::GetSelectedStreams
 author: windows-sdk-content
 description: Gets a list of currently selected streams.
 old-location: mf\imfasfsplitter_getselectedstreams.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: f2c12e45-f320-43e0-abf1-36993dfed32d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetSelectedStreams, GetSelectedStreams method [Media Foundation], GetSelectedStreams method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetSelectedStreams method, IMFASFSplitter.GetSelectedStreams, IMFASFSplitter::GetSelectedStreams, f2c12e45-f320-43e0-abf1-36993dfed32d, mf.imfasfsplitter_getselectedstreams, wmcontainer/IMFASFSplitter::GetSelectedStreams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFSplitter.GetSelectedStreams
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFSplitter::GetSelectedStreams

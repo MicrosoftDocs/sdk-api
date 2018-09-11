@@ -4,17 +4,16 @@ title: IOleUndoManager::EnumUndoable
 author: windows-sdk-content
 description: Creates an enumerator object that the caller can use to iterate through a series of top-level undo units from the undo stack.
 old-location: com\ioleundomanager_enumundoable.htm
-old-project: com
+tech.root: com
 ms.assetid: 7199910b-3ea3-4b4e-89df-c1188195941c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumUndoable, EnumUndoable method [COM], EnumUndoable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],EnumUndoable method, IOleUndoManager.EnumUndoable, IOleUndoManager::EnumUndoable, _ole_ioleundomanager_enumundoable, com.ioleundomanager_enumundoable, ocidl/IOleUndoManager::EnumUndoable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleUndoManager.EnumUndoable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUndoManager::EnumUndoable

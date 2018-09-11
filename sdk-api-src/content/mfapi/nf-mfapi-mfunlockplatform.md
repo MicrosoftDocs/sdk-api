@@ -4,17 +4,16 @@ title: MFUnlockPlatform function
 author: windows-sdk-content
 description: Unlocks the Media Foundation platform after it was locked by a call to the MFLockPlatform function.
 old-location: mf\mfunlockplatform.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d4ce5315-4bb2-4ca4-a9a0-20b638a43040
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFUnlockPlatform, MFUnlockPlatform function [Media Foundation], d4ce5315-4bb2-4ca4-a9a0-20b638a43040, mf.mfunlockplatform, mfapi/MFUnlockPlatform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFUnlockPlatform
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFUnlockPlatform function

@@ -4,17 +4,16 @@ title: IRawCDImageTrackInfo::put_DigitalAudioCopySetting
 author: windows-sdk-content
 description: Sets the digital audio copy &#0034;Allowed&#0034; bit to one of three values on the resulting media. Please see the IMAPI_CD_TRACK_DIGITAL_COPY_SETTING enumeration for additional information on each possible value.
 old-location: imapi\irawcdimagetrackinfo_put_digitalaudiocopysetting.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 48d00305-4dc4-432c-80b7-955bbcdb3cc2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],put_DigitalAudioCopySetting method, IRawCDImageTrackInfo.put_DigitalAudioCopySetting, IRawCDImageTrackInfo::put_DigitalAudioCopySetting, imapi.irawcdimagetrackinfo_put_digitalaudiocopysetting, imapi2/IRawCDImageTrackInfo::put_DigitalAudioCopySetting, put_DigitalAudioCopySetting, put_DigitalAudioCopySetting method [IMAPI], put_DigitalAudioCopySetting method [IMAPI],IRawCDImageTrackInfo interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageTrackInfo.put_DigitalAudioCopySetting
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageTrackInfo::put_DigitalAudioCopySetting

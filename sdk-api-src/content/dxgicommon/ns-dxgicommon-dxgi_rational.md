@@ -4,17 +4,16 @@ title: DXGI_RATIONAL
 author: windows-sdk-content
 description: Represents a rational number.
 old-location: direct3ddxgi\dxgi_rational.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_rational.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 5deaf109-e4cc-0f12-82f4-0d4d0b2e387a, DXGI_RATIONAL, DXGI_RATIONAL structure [DXGI], direct3ddxgi.dxgi_rational, dxgicommon/DXGI_RATIONAL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgicommon.h
 req.include-header: DXGI.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_RATIONAL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_RATIONAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_RATIONAL
+req.redist: 
 ---
 
 # DXGI_RATIONAL structure

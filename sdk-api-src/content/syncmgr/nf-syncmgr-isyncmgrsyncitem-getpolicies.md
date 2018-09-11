@@ -4,17 +4,16 @@ title: ISyncMgrSyncItem::GetPolicies
 author: windows-sdk-content
 description: Gets a set of flags describing the policies set by the item.
 old-location: shell\ISyncMgrSyncItem_GetPolicies.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5f4e1a8e-8fa7-48b3-8f20-8b260540ab9c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetPolicies, GetPolicies method [Windows Shell], GetPolicies method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetPolicies method, ISyncMgrSyncItem.GetPolicies, ISyncMgrSyncItem::GetPolicies, _shell_ISyncMgrSyncItem_GetPolicies, shell.ISyncMgrSyncItem_GetPolicies, syncmgr/ISyncMgrSyncItem::GetPolicies
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSyncItem.GetPolicies
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSyncItem::GetPolicies

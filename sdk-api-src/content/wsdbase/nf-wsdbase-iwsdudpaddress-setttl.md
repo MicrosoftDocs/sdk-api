@@ -4,17 +4,16 @@ title: IWSDUdpAddress::SetTTL
 author: windows-sdk-content
 description: Sets the time-to-live (TTL) for all outbound packets using this address.
 old-location: ncd\iwsdudpaddress_setttl.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 3fcd8dd1-a00c-4085-a608-cb680285d869
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDUdpAddress interface,SetTTL method, IWSDUdpAddress.SetTTL, IWSDUdpAddress::SetTTL, SetTTL, SetTTL method, SetTTL method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setttl, wsdbase/IWSDUdpAddress::SetTTL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDUdpAddress.SetTTL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDUdpAddress::SetTTL

@@ -4,17 +4,16 @@ title: IFsrmQuotaManager::CreateQuota
 author: windows-sdk-content
 description: Creates a quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_createquota.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 09f0b952-e24f-4388-8e82-6b34145f9ad4
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CreateQuota, CreateQuota method [File Server Resource Manager], CreateQuota method [File Server Resource Manager],FsrmQuotaManager class, CreateQuota method [File Server Resource Manager],IFsrmQuotaManager interface, CreateQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],CreateQuota method, IFsrmQuotaManager interface [File Server Resource Manager],CreateQuota method, IFsrmQuotaManager.CreateQuota, IFsrmQuotaManager::CreateQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],CreateQuota method, IFsrmQuotaManagerEx::CreateQuota, fs.ifsrmquotamanager_createquota, fsrm.ifsrmquotamanager_createquota, fsrmquota/IFsrmQuotaManager::CreateQuota, fsrmquota/IFsrmQuotaManagerEx::CreateQuota
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmQuotaManager.CreateQuota
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaManager::CreateQuota

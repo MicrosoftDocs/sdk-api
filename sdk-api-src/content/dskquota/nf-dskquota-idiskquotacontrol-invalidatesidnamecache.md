@@ -4,17 +4,16 @@ title: IDiskQuotaControl::InvalidateSidNameCache
 author: windows-sdk-content
 description: Invalidates the contents of the system's SID-to-name cache so subsequent requests for new user objects (IEnumDiskQuotaUsers::Next, IDiskQuotaControl::FindUserSid, and IDiskQuotaControl::FindUserName) must obtain user names from the domain controller.
 old-location: fs\idiskquotacontrol_invalidatesidnamecache.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 9bca99e9-2dd7-4e79-ab6a-ad0e821dd9bf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDiskQuotaControl interface [Files],InvalidateSidNameCache method, IDiskQuotaControl.InvalidateSidNameCache, IDiskQuotaControl::InvalidateSidNameCache, InvalidateSidNameCache, InvalidateSidNameCache method [Files], InvalidateSidNameCache method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_invalidatesidnamecache, base.idiskquotacontrol_invalidatesidnamecache, dskquota/IDiskQuotaControl::InvalidateSidNameCache, fs.idiskquotacontrol_invalidatesidnamecache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaControl.InvalidateSidNameCache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaControl::InvalidateSidNameCache

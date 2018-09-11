@@ -4,17 +4,16 @@ title: IDirectManipulationViewport::SyncDisplayTransform
 author: windows-sdk-content
 description: Specifies a display transform for the viewport, and synchronizes the output transform with the new value of the display transform.
 old-location: directmanipulation\idirectmanipulationviewport_syncdisplaytransform.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 0af63d1e-026e-4083-a1b2-56ba31653434
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SyncDisplayTransform method, IDirectManipulationViewport.SyncDisplayTransform, IDirectManipulationViewport::SyncDisplayTransform, SyncDisplayTransform, SyncDisplayTransform method [Direct Manipulation], SyncDisplayTransform method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_syncdisplaytransform, directmanipulation/IDirectManipulationViewport::SyncDisplayTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationViewport.SyncDisplayTransform
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationViewport::SyncDisplayTransform

@@ -4,7 +4,7 @@ title: "_MF_Plugin_Type"
 author: windows-sdk-content
 description: Specifies the object type for the IMFPluginControl interface.
 old-location: mf\mf_plugin_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: f967cf3f-582c-457a-ba75-980feb2d9bf3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_Plugin_Type
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_Plugin_Type
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_Plugin_Type
+req.redist: 
 ---
 
 # _MF_Plugin_Type enumeration

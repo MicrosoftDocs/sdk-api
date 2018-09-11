@@ -4,17 +4,16 @@ title: ITSubStream::SelectTerminal
 author: windows-sdk-content
 description: The SelectTerminal method selects an ITTerminal object onto the substream. See the Remarks section under ITStream::SelectTerminal for additional information.
 old-location: tapi3\itsubstream_selectterminal.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 5dc558ab-7422-4106-831e-9d2812530e0a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],SelectTerminal method, ITSubStream.SelectTerminal, ITSubStream::SelectTerminal, SelectTerminal, SelectTerminal method [TAPI 2.2], SelectTerminal method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_selectterminal, tapi3.itsubstream_selectterminal, tapi3if/ITSubStream::SelectTerminal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSubStream.SelectTerminal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSubStream::SelectTerminal

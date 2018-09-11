@@ -4,7 +4,7 @@ title: D2D1_DRAWING_STATE_DESCRIPTION1
 author: windows-sdk-content
 description: Describes the drawing state of a device context.
 old-location: direct2d\d2d1_drawing_state_description1.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: E1BFF353-8445-435C-8F7A-E93BFE58A794
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -26,9 +25,10 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: D2D1.lib
-tech.root: 
-req.typenames: D2D1_DRAWING_STATE_DESCRIPTION1
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_DRAWING_STATE_DESCRIPTION1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_DRAWING_STATE_DESCRIPTION1
+req.redist: 
 ---
 
 # D2D1_DRAWING_STATE_DESCRIPTION1 structure

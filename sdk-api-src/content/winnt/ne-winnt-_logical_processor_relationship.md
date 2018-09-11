@@ -4,7 +4,7 @@ title: "_LOGICAL_PROCESSOR_RELATIONSHIP"
 author: windows-sdk-content
 description: Represents the relationship between the processor set identified in the corresponding SYSTEM_LOGICAL_PROCESSOR_INFORMATION or SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure.
 old-location: base\logical_processor_relationship.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 2ada52f0-70ec-4146-9ef7-9af3b08996f9
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOGICAL_PROCESSOR_RELATIONSHIP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LOGICAL_PROCESSOR_RELATIONSHIP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LOGICAL_PROCESSOR_RELATIONSHIP
+req.redist: 
 ---
 
 # _LOGICAL_PROCESSOR_RELATIONSHIP enumeration

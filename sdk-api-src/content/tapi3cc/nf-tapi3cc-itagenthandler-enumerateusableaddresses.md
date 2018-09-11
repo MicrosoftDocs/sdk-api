@@ -4,17 +4,16 @@ title: ITAgentHandler::EnumerateUsableAddresses
 author: windows-sdk-content
 description: The EnumerateUsableAddresses method enumerates addresses available for receiving ACD calls on this agent handler.
 old-location: tapi3\itagenthandler_enumerateusableaddresses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 9821b073-c64b-4f2b-b771-6bf027f9aa70
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateUsableAddresses, EnumerateUsableAddresses method [TAPI 2.2], EnumerateUsableAddresses method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],EnumerateUsableAddresses method, ITAgentHandler.EnumerateUsableAddresses, ITAgentHandler::EnumerateUsableAddresses, _tapi3_itagenthandler_enumerateusableaddresses, tapi3.itagenthandler_enumerateusableaddresses, tapi3cc/ITAgentHandler::EnumerateUsableAddresses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentHandler.EnumerateUsableAddresses
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentHandler::EnumerateUsableAddresses

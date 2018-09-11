@@ -4,17 +4,16 @@ title: WsGetPrefixFromNamespace function
 author: windows-sdk-content
 description: This function returns the prefix to which a namespace is bound. There may be more than one prefix in scope and this function is free to return any one of them.
 old-location: wsw\wsgetprefixfromnamespace.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 69f4138b-4831-41c9-b1ed-31143edcc402
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsGetPrefixFromNamespace, WsGetPrefixFromNamespace function [Web Services for Windows], webservices/WsGetPrefixFromNamespace, wsw.wsgetprefixfromnamespace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsGetPrefixFromNamespace
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsGetPrefixFromNamespace function

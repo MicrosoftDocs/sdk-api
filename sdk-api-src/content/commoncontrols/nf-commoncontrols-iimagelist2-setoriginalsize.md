@@ -4,17 +4,16 @@ title: IImageList2::SetOriginalSize
 author: windows-sdk-content
 description: Sets the original size of a specified image.
 old-location: controls\IImageList2_SetOriginalSize.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\setoriginalsize.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IImageList2 interface [Windows Controls],SetOriginalSize method, IImageList2.SetOriginalSize, IImageList2::SetOriginalSize, SetOriginalSize, SetOriginalSize method [Windows Controls], SetOriginalSize method [Windows Controls],IImageList2 interface, _shell_IImageList2_SetOriginalSize, _shell_IImageList2_SetOriginalSize_cpp, commoncontrols/IImageList2::SetOriginalSize, controls.IImageList2_SetOriginalSize, controls._shell_IImageList2_SetOriginalSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IImageList2.SetOriginalSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll (version 6.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IImageList2::SetOriginalSize

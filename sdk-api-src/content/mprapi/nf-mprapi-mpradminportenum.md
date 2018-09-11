@@ -4,17 +4,16 @@ title: MprAdminPortEnum function
 author: windows-sdk-content
 description: Enumerates all active ports in a specific connection, or all ports available for use or currently used by RAS.
 old-location: rras\mpradminportenum.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: b6caa1f0-f4c7-48a9-b1e8-b484e7d7a3a3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminPortEnum, MprAdminPortEnum function [RAS], _mpr_mpradminportenum, mprapi/MprAdminPortEnum, rras.mpradminportenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminPortEnum
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminPortEnum function

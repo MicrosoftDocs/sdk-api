@@ -4,17 +4,16 @@ title: IPNPXAssociation::Associate
 author: windows-sdk-content
 description: Marks an association database entry as associated.
 old-location: ncd\ipnpxassociation_associate.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 74d2ed38-9362-4664-9384-e773e4ec76f3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Associate, Associate method, Associate method,IPNPXAssociation interface, IPNPXAssociation interface,Associate method, IPNPXAssociation.Associate, IPNPXAssociation::Associate, ncd.ipnpxassociation_associate, pnpxassoc/IPNPXAssociation::Associate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pnpxassoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPNPXAssociation.Associate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPNPXAssociation::Associate

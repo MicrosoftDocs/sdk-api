@@ -4,7 +4,7 @@ title: "_GLYPHDATA"
 author: windows-sdk-content
 description: The GLYPHDATA structure contains information about an individual glyph.
 old-location: display\glyphdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 9153b8c7-e6ad-4297-a0b6-ea495b9b312f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GLYPHDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GLYPHDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GLYPHDATA
+req.redist: 
 ---
 
 # _GLYPHDATA structure

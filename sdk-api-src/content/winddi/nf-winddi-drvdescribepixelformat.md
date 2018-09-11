@@ -4,17 +4,16 @@ title: DrvDescribePixelFormat function
 author: windows-sdk-content
 description: The DrvDescribePixelFormat function describes the pixel format for a device-specified PDEV by writing a pixel format description to a PIXELFORMATDESCRIPTOR structure.
 old-location: display\drvdescribepixelformat.htm
-old-project: display
+tech.root: display
 ms.assetid: 7c630694-e076-4ab2-a2c9-262c7c5da988
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvDescribePixelFormat, DrvDescribePixelFormat function [Display Devices], ddifncs_ad08e90b-a4e1-43e3-bbd7-8476d1c5568b.xml, display.drvdescribepixelformat, winddi/DrvDescribePixelFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvDescribePixelFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvDescribePixelFormat function

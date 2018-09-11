@@ -4,17 +4,16 @@ title: IDCompositionVisualDebug::DisableRedrawRegions
 author: windows-sdk-content
 description: Disables visual redraw regions.
 old-location: directcomp\idcompositionvisualdebug_disableredrawregions.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 5F1712D4-B3F4-475E-9AB0-868B1DCB8F42
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: DisableRedrawRegions, DisableRedrawRegions method [DirectComposition], DisableRedrawRegions method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],DisableRedrawRegions method, IDCompositionVisualDebug.DisableRedrawRegions, IDCompositionVisualDebug::DisableRedrawRegions, dcomp/IDCompositionVisualDebug::DisableRedrawRegions, directcomp.idcompositionvisualdebug_disableredrawregions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionVisualDebug.DisableRedrawRegions
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionVisualDebug::DisableRedrawRegions

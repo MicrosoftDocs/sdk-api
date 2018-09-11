@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::EnumerateEnvironments
 author: windows-sdk-content
 description: Returns an array that contains the environments present in the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_enumerateenvironments.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 5c9d2fb4-05e7-449d-8326-b983701b3302
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnumerateEnvironments, EnumerateEnvironments method [Remote Desktop Services], EnumerateEnvironments method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateEnvironments method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateEnvironments method, ITsSbResourcePluginStore.EnumerateEnvironments, ITsSbResourcePluginStore::EnumerateEnvironments, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateEnvironments method, ITsSbResourcePluginStoreEx::EnumerateEnvironments, sbtsv/ITsSbResourcePluginStore::EnumerateEnvironments, sbtsv/ITsSbResourcePluginStoreEx::EnumerateEnvironments, termserv.itssbresourcepluginstore_enumerateenvironments
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbResourcePluginStoreEx.EnumerateEnvironments
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::EnumerateEnvironments

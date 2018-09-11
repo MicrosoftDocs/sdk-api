@@ -4,17 +4,16 @@ title: IPrincipal::get_GroupId
 author: windows-sdk-content
 description: Gets or sets the identifier of the user group that is required to run the tasks that are associated with the principal.
 old-location: taskschd\iprincipal_groupid.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: df4bffa3-ee38-49cd-bec7-28edda48a953
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GroupId property [Task Scheduler], GroupId property [Task Scheduler],IPrincipal interface, IPrincipal interface [Task Scheduler],GroupId property, IPrincipal.GroupId, IPrincipal.get_GroupId, IPrincipal::GroupId, IPrincipal::get_GroupId, IPrincipal::put_GroupId, get_GroupId, taskschd.iprincipal_groupid, taskschd/IPrincipal::GroupId, taskschd/IPrincipal::get_GroupId, taskschd/IPrincipal::put_GroupId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IPrincipal.put_GroupId
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IPrincipal::get_GroupId

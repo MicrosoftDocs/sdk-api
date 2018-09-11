@@ -4,17 +4,16 @@ title: DsMakePasswordCredentialsW function
 author: windows-sdk-content
 description: Constructs a credential handle suitable for use with the DsBindWithCred function.
 old-location: ad\dsmakepasswordcredentials.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 51aba58b-07c5-4e6d-8568-fa6f1a963d8e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsMakePasswordCredentials, DsMakePasswordCredentials function [Active Directory], DsMakePasswordCredentialsA, DsMakePasswordCredentialsW, _glines_dsmakepasswordcredentials, ad.dsmakepasswordcredentials, ntdsapi/DsMakePasswordCredentials, ntdsapi/DsMakePasswordCredentialsA, ntdsapi/DsMakePasswordCredentialsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - DsMakePasswordCredentialsW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsMakePasswordCredentialsW function

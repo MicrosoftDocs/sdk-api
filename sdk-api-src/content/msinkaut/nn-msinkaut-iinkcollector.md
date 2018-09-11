@@ -4,17 +4,16 @@ title: IInkCollector
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkcollector.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkCollector, IInkCollector interface [Tablet PC], IInkCollector interface [Tablet PC],described, msinkaut/IInkCollector, tablet.iinkcollector
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInkCollector
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCollector interface

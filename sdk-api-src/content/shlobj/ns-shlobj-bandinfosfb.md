@@ -4,17 +4,16 @@ title: BANDINFOSFB
 author: windows-sdk-content
 description: Contains information about a folder band. This structure is used with the IShellFolderBand::GetBandInfoSFB and IShellFolderBand::SetBandInfoSFB methods.
 old-location: shell\BANDINFOSFB.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7067f563-383d-469f-abcf-3e1ea28dc956
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*PBANDINFOSFB, BANDINFOSFB, BANDINFOSFB structure [Windows Shell], ISFBVIEWMODE_LARGEICONS, ISFBVIEWMODE_LOGOS, ISFBVIEWMODE_SMALLICONS, ISFB_MASK_BKCOLOR, ISFB_MASK_COLORS, ISFB_MASK_IDLIST, ISFB_MASK_SHELLFOLDER, ISFB_MASK_STATE, ISFB_MASK_VIEWMODE, ISFB_STATE_ALLOWRENAME, ISFB_STATE_BTNMINSIZE, ISFB_STATE_CHANNELBAR, ISFB_STATE_DEBOSSED, ISFB_STATE_DEFAULT, ISFB_STATE_FULLOPEN, ISFB_STATE_NONAMESORT, ISFB_STATE_NOSHOWTEXT, ISFB_STATE_QLINKSMODE, PBANDINFOSFB, PBANDINFOSFB structure pointer [Windows Shell], _win32_BANDINFOSFB, shell.BANDINFOSFB, shlobj/BANDINFOSFB, shlobj/PBANDINFOSFB"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BANDINFOSFB, *PBANDINFOSFB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BANDINFOSFB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: BANDINFOSFB, *PBANDINFOSFB
+req.redist: 
 ---
 
 # BANDINFOSFB structure

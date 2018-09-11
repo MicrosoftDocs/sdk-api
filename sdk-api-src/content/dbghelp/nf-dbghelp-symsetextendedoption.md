@@ -4,17 +4,16 @@ title: SymSetExtendedOption function
 author: windows-sdk-content
 description: Turns the specified extended symbol option on or off.
 old-location: base\symsetextendedoption.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 25756250-D2B4-4D5A-BED0-238C34C18093
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SymSetExtendedOption, SymSetExtendedOption function, base.symsetextendedoption, dbghelp/SymSetExtendedOption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 10.0.16232.1000 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: DbgHelp.lib
+req.dll: DbgHelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - SymSetExtendedOption
 product: Windows
 targetos: Windows
-req.lib: DbgHelp.lib
-req.dll: DbgHelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 10.0.16232.1000 or later
 ---
 
 # SymSetExtendedOption function

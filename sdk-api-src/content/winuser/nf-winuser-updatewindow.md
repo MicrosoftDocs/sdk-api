@@ -4,17 +4,16 @@ title: UpdateWindow function
 author: windows-sdk-content
 description: The UpdateWindow function updates the client area of the specified window by sending a WM_PAINT message to the window if the window's update region is not empty.
 old-location: gdi\updatewindow.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 51a50f1f-7b4d-4acd-83a0-1877f5181766
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UpdateWindow, UpdateWindow function [Windows GDI], _win32_UpdateWindow, gdi.updatewindow, winuser/UpdateWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - UpdateWindow
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # UpdateWindow function

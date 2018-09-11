@@ -4,17 +4,16 @@ title: IObjectWithFolderEnumMode::GetMode
 author: windows-sdk-content
 description: Retrieves the enumeration mode of the parsed item.
 old-location: shell\IObjectWithFolderEnumMode_GetMode.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5d331255-2295-4f7b-b2d6-1238edcc15bb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetMode, GetMode method [Windows Shell], GetMode method [Windows Shell],IObjectWithFolderEnumMode interface, IObjectWithFolderEnumMode interface [Windows Shell],GetMode method, IObjectWithFolderEnumMode.GetMode, IObjectWithFolderEnumMode::GetMode, _shell_IObjectWithFolderEnumMode_GetMode, shell.IObjectWithFolderEnumMode_GetMode, shobjidl_core/IObjectWithFolderEnumMode::GetMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectWithFolderEnumMode.GetMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectWithFolderEnumMode::GetMode

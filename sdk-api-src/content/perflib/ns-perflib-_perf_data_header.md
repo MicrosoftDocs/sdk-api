@@ -4,7 +4,7 @@ title: "_PERF_DATA_HEADER"
 author: windows-sdk-content
 description: Provides information about the PERF_DATA_HEADER block that contains the structure.
 old-location: perf\perf_data_header.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 0B30B30A-2B2D-43D8-B6DD-58C70D54EB58
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_DATA_HEADER, *PPERF_DATA_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERF_DATA_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PERF_DATA_HEADER, *PPERF_DATA_HEADER
+req.redist: 
 ---
 
 # _PERF_DATA_HEADER structure

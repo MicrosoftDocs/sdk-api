@@ -4,17 +4,16 @@ title: IGPMDomain2::GetStarterGPO
 author: windows-sdk-content
 description: Retrieves a GPMStarterGPO object that has a specified Group Policy object ID.
 old-location: gpmc\igpmdomain2_getstartergpo.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 0648c653-94da-40d6-98c2-46f80a51bc90
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetStarterGPO, GetStarterGPO method [GPMC], GetStarterGPO method [GPMC],IGPMDomain2 interface, IGPMDomain2 interface [GPMC],GetStarterGPO method, IGPMDomain2.GetStarterGPO, IGPMDomain2::GetStarterGPO, gpmc.igpmdomain2_getstartergpo, gpmgmt/IGPMDomain2::GetStarterGPO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPMDomain2.GetStarterGPO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMDomain2::GetStarterGPO

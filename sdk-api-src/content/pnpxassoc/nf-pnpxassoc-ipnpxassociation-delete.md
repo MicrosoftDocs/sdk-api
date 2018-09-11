@@ -4,17 +4,16 @@ title: IPNPXAssociation::Delete
 author: windows-sdk-content
 description: Removes an entry from the association database.
 old-location: ncd\ipnpxassociation_delete.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: cc00c135-140d-4e05-9180-779917d88688
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Delete, Delete method, Delete method,IPNPXAssociation interface, IPNPXAssociation interface,Delete method, IPNPXAssociation.Delete, IPNPXAssociation::Delete, ncd.ipnpxassociation_delete, pnpxassoc/IPNPXAssociation::Delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pnpxassoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPNPXAssociation.Delete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPNPXAssociation::Delete

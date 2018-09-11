@@ -4,17 +4,16 @@ title: "__MIDL_IOleDocument_0001"
 author: windows-sdk-content
 description: Provides miscellaneous property information about a document object.
 old-location: com\docmisc.htm
-old-project: com
+tech.root: com
 ms.assetid: e52e022e-dd82-42f0-a3dd-2730ad80613c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DOCMISC, DOCMISC enumeration [COM], DOCMISC_CANCREATEMULTIPLEVIEWS, DOCMISC_CANTOPENEDIT, DOCMISC_NOFILESUPPORT, DOCMISC_SUPPORTCOMPLEXRECTANGLES, __MIDL_IOleDocument_0001, _ole_DOCMISC, com.docmisc, docobj/DOCMISC, docobj/DOCMISC_CANCREATEMULTIPLEVIEWS, docobj/DOCMISC_CANTOPENEDIT, docobj/DOCMISC_NOFILESUPPORT, docobj/DOCMISC_SUPPORTCOMPLEXRECTANGLES
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DOCMISC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DOCMISC
+req.redist: 
 ---
 
 # __MIDL_IOleDocument_0001 enumeration

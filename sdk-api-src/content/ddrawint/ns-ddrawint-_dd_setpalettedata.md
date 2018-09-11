@@ -4,7 +4,7 @@ title: "_DD_SETPALETTEDATA"
 author: windows-sdk-content
 description: The DD_SETPALETTEDATA structure contains information necessary to set a palette for a specific surface.
 old-location: display\dd_setpalettedata.htm
-old-project: display
+tech.root: display
 ms.assetid: 943af430-19b2-481a-9cac-cd4cb767d96a
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_SETPALETTEDATA, DD_SETPALETTEDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_SETPALETTEDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_SETPALETTEDATA, DD_SETPALETTEDATA"
+req.redist: 
 ---
 
 # _DD_SETPALETTEDATA structure

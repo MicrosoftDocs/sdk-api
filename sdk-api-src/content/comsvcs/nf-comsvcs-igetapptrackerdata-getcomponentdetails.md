@@ -4,17 +4,16 @@ title: IGetAppTrackerData::GetComponentDetails
 author: windows-sdk-content
 description: Retrieves detailed information about a single COM+ component hosted in a process.
 old-location: cos\igetapptrackerdata_getcomponentdetails.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 89924a6d-e5cf-4262-9707-d2e4a91dd6ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetComponentDetails, GetComponentDetails method [COM+], GetComponentDetails method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetComponentDetails method, IGetAppTrackerData.GetComponentDetails, IGetAppTrackerData::GetComponentDetails, comsvcs/IGetAppTrackerData::GetComponentDetails, cos.igetapptrackerdata_getcomponentdetails
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetAppTrackerData.GetComponentDetails
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetAppTrackerData::GetComponentDetails

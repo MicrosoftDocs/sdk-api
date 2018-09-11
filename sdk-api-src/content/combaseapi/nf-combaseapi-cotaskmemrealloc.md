@@ -4,17 +4,16 @@ title: CoTaskMemRealloc function
 author: windows-sdk-content
 description: Changes the size of a previously allocated block of task memory.
 old-location: com\cotaskmemrealloc.htm
-old-project: com
+tech.root: com
 ms.assetid: 83014a3e-198d-4b4b-91aa-0c0804c8e1bf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoTaskMemRealloc, CoTaskMemRealloc function [COM], _com_CoTaskMemRealloc, com.cotaskmemrealloc, combaseapi/CoTaskMemRealloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CoTaskMemRealloc
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoTaskMemRealloc function

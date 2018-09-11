@@ -4,17 +4,16 @@ title: ITraceDataCollector::put_FlushTimer
 author: windows-sdk-content
 description: Retrieves or sets the time to wait before flushing buffers.
 old-location: pla\itracedatacollector_flushtimer.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 545f40ec-cbe2-4109-a018-d27000eeaf08
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: FlushTimer property [PLA], FlushTimer property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],FlushTimer property, ITraceDataCollector.FlushTimer, ITraceDataCollector.put_FlushTimer, ITraceDataCollector::FlushTimer, ITraceDataCollector::get_FlushTimer, ITraceDataCollector::put_FlushTimer, base.itracedatacollector_flushtimer, pla.itracedatacollector_flushtimer, pla/ITraceDataCollector::FlushTimer, pla/ITraceDataCollector::get_FlushTimer, pla/ITraceDataCollector::put_FlushTimer, put_FlushTimer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITraceDataCollector.put_FlushTimer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::put_FlushTimer

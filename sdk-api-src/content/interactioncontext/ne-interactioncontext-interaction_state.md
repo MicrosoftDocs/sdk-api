@@ -4,7 +4,7 @@ title: INTERACTION_STATE
 author: windows-sdk-content
 description: Specifies the state of the Interaction Context object.
 old-location: input_intcontext\interaction_state.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: ab44d530-da26-4b40-99d8-f75dd32c3182
 ms.author: windowssdkdev
 ms.date: 05/09/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERACTION_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERACTION_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: INTERACTION_STATE
+req.redist: 
 ---
 
 # INTERACTION_STATE enumeration

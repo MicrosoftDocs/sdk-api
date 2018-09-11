@@ -4,17 +4,16 @@ title: IAzClientContext2::put_LDAPQueryDN
 author: windows-sdk-content
 description: Retrieves or sets the domain name of the directory object to be used during evaluation of LDAP query groups.
 old-location: security\iazclientcontext2_ldapquerydn.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3d06e240-10d9-4d58-baae-c3d2a38ac556
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzClientContext2 interface [Security],LDAPQueryDN property, IAzClientContext2.LDAPQueryDN, IAzClientContext2.put_LDAPQueryDN, IAzClientContext2::LDAPQueryDN, IAzClientContext2::get_LDAPQueryDN, IAzClientContext2::put_LDAPQueryDN, LDAPQueryDN property [Security], LDAPQueryDN property [Security],IAzClientContext2 interface, azroles/IAzClientContext2::LDAPQueryDN, azroles/IAzClientContext2::get_LDAPQueryDN, azroles/IAzClientContext2::put_LDAPQueryDN, put_LDAPQueryDN, security.iazclientcontext2_ldapquerydn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IAzClientContext2.put_LDAPQueryDN
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzClientContext2::put_LDAPQueryDN

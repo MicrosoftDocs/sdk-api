@@ -4,17 +4,16 @@ title: ICertAdmin::ResubmitRequest
 author: windows-sdk-content
 description: Submits the specified certificate request to the policy module for the specified certification authority. This method was first introduced in the ICertAdmin interface.
 old-location: security\icertadmin2_resubmitrequest.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 610712d9-3661-42ba-9d2f-27862ba8dbd4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertAdmin object [Security],ResubmitRequest method, ICertAdmin interface [Security],ResubmitRequest method, ICertAdmin.ResubmitRequest, ICertAdmin2 interface [Security],ResubmitRequest method, ICertAdmin2::ResubmitRequest, ICertAdmin::ResubmitRequest, ResubmitRequest, ResubmitRequest method [Security], ResubmitRequest method [Security],CCertAdmin object, ResubmitRequest method [Security],ICertAdmin interface, ResubmitRequest method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::ResubmitRequest, certadm/ICertAdmin::ResubmitRequest, security.icertadmin2_resubmitrequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertAdmin.ResubmitRequest
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertAdmin::ResubmitRequest

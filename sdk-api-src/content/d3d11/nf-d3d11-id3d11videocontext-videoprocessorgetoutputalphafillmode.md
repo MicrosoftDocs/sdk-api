@@ -4,17 +4,16 @@ title: ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode
 author: windows-sdk-content
 description: Gets the current alpha fill mode for the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetoutputalphafillmode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 23F37D9C-3D33-4A07-AC54-5273A09BF540
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputAlphaFillMode method, ID3D11VideoContext.VideoProcessorGetOutputAlphaFillMode, ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode, VideoProcessorGetOutputAlphaFillMode, VideoProcessorGetOutputAlphaFillMode method [Media Foundation], VideoProcessorGetOutputAlphaFillMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode, mf.id3d11videocontext_videoprocessorgetoutputalphafillmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.VideoProcessorGetOutputAlphaFillMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode

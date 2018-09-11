@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::Blt
 author: windows-sdk-content
 description: Performs a bit block transfer (bitblt). This method does not support z-buffering or alpha blending during bitblt operations.
 old-location: directdraw\idirectdrawsurface7_blt.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: e458c430-855c-419b-aa50-144d2b422e78
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: All DDBLT_ALPHA flag values, All DDBLT_ZBUFFER flag values, Blt, Blt method [DirectDraw], Blt method [DirectDraw],IDirectDrawSurface7 interface, DDBLT_ASYNC, DDBLT_COLORFILL, DDBLT_DDFX, DDBLT_DDROPS, DDBLT_DEPTHFILL, DDBLT_DONOTWAIT, DDBLT_KEYDEST, DDBLT_KEYDESTOVERRIDE, DDBLT_KEYSRC, DDBLT_KEYSRCOVERRIDE, DDBLT_ROP, DDBLT_ROTATIONANGLE, DDBLT_WAIT, IDirectDrawSurface7 interface [DirectDraw],Blt method, IDirectDrawSurface7.Blt, IDirectDrawSurface7::Blt, ddraw/IDirectDrawSurface7::Blt, directdraw.idirectdrawsurface7_blt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.Blt
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::Blt
@@ -59,9 +58,29 @@ Performs a bit block transfer (bitblt). This method does not support z-buffering
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
+
+
+### -param arg5
+
+TBD
 
 
 

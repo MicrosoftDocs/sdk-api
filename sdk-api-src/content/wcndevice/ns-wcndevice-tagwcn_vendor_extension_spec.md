@@ -4,17 +4,16 @@ title: tagWCN_VENDOR_EXTENSION_SPEC
 author: windows-sdk-content
 description: WCN_VENDOR_EXTENSION_SPEC structure contains data that defines a vendor extension.
 old-location: wcn\wcn_vendor_extension_spec.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: 8ba35c4a-a644-4c6d-8334-d459e7196b6f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: PWCN_VENDOR_EXTENSION_SPEC, PWCN_VENDOR_EXTENSION_SPEC structure pointer [Windows Connect Now], WCN_FLAG_AUTHENTICATED_VE, WCN_FLAG_DISCOVERY_VE, WCN_FLAG_ENCRYPTED_VE, WCN_VENDOR_EXTENSION_SPEC, WCN_VENDOR_EXTENSION_SPEC structure [Windows Connect Now], tagWCN_VENDOR_EXTENSION_SPEC, wcn.wcn_vendor_extension_spec, wcndevice/PWCN_VENDOR_EXTENSION_SPEC, wcndevice/WCN_VENDOR_EXTENSION_SPEC
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcndevice.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VENDOR_EXTENSION_SPEC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCN_VENDOR_EXTENSION_SPEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCN_VENDOR_EXTENSION_SPEC
+req.redist: 
 ---
 
 # tagWCN_VENDOR_EXTENSION_SPEC structure

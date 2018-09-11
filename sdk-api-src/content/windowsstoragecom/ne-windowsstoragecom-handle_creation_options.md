@@ -4,17 +4,16 @@ title: HANDLE_CREATION_OPTIONS
 author: windows-sdk-content
 description: Represents the action to take on a file that exists or doesn't exist.
 old-location: winrt\handle_creation_options.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 94EE8D50-A85C-4AA2-9A8A-A382AD308B7B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HANDLE_CREATION_OPTIONS, HANDLE_CREATION_OPTIONS enumeration [Windows Runtime], HCO_CREATE_ALWAYS, HCO_CREATE_NEW, HCO_OPEN_ALWAYS, HCO_OPEN_EXISTING, HCO_TRUNCATE_EXISTING, windowsstoragecom/HANDLE_CREATION_OPTIONS, windowsstoragecom/HCO_CREATE_ALWAYS, windowsstoragecom/HCO_CREATE_NEW, windowsstoragecom/HCO_OPEN_ALWAYS, windowsstoragecom/HCO_OPEN_EXISTING, windowsstoragecom/HCO_TRUNCATE_EXISTING, winrt.handle_creation_options
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: windowsstoragecom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_CREATION_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HANDLE_CREATION_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MpClient.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: HANDLE_CREATION_OPTIONS
+req.redist: 
 ---
 
 # HANDLE_CREATION_OPTIONS enumeration

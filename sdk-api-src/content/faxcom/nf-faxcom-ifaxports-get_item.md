@@ -4,17 +4,16 @@ title: IFaxPorts::get_Item
 author: windows-sdk-content
 description: The IFaxPorts::get_Item method creates a FaxPort object for a specified fax port. The object allows enumeration of port configuration information for a specific connection to a fax server.
 old-location: fax\_mfax_ifaxports_get_item.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0i0d.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: IFaxPorts interface [Fax Service],get_Item method, IFaxPorts.get_Item, IFaxPorts::get_Item, _mfax_ifaxports_get_item, fax._mfax_ifaxports_get_item, faxcom/IFaxPorts::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxPorts interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFaxPorts.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxPorts::get_Item

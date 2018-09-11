@@ -4,17 +4,16 @@ title: IUIAutomationElement5::get_CurrentLocalizedLandmarkType
 author: windows-sdk-content
 description: Gets a string containing the current localized landmark type for the automation element.
 old-location: winauto\uiauto_IUIAutomationElement5_CurrentLocalizedLandmarkType.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: ECC73B82-D723-4020-B4AC-BFDB9A5C0F37
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentLocalizedLandmarkType property [Windows Accessibility], CurrentLocalizedLandmarkType property [Windows Accessibility],IUIAutomationElement5 interface, IUIAutomationElement5 interface [Windows Accessibility],CurrentLocalizedLandmarkType property, IUIAutomationElement5.CurrentLocalizedLandmarkType, IUIAutomationElement5.get_CurrentLocalizedLandmarkType, IUIAutomationElement5::CurrentLocalizedLandmarkType, IUIAutomationElement5::get_CurrentLocalizedLandmarkType, get_CurrentLocalizedLandmarkType, uiautomationclient/IUIAutomationElement5::CurrentLocalizedLandmarkType, uiautomationclient/IUIAutomationElement5::get_CurrentLocalizedLandmarkType, winauto.uiauto_IUIAutomationElement5_CurrentLocalizedLandmarkType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement5.get_CurrentLocalizedLandmarkType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement5::get_CurrentLocalizedLandmarkType

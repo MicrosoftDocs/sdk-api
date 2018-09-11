@@ -4,17 +4,16 @@ title: MagGetInputTransform function
 author: windows-sdk-content
 description: Retrieves the current input transformation for pen and touch input, represented as a source rectangle and a destination rectangle.
 old-location: magapi\magapi_maggetinputtransform.htm
-old-project: magapi
+tech.root: magapi
 ms.assetid: 3825B5DB-BD25-4073-8EB3-65A57709A804
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MagGetInputTransform, MagGetInputTransform function [Magnification API], magapi.magapi_maggetinputtransform, magnification/MagGetInputTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: magnification.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MCAST_SCOPE_ENTRY, *PMCAST_SCOPE_ENTRY
+req.lib: Magnification.lib
+req.dll: Magnification.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MagGetInputTransform
 product: Windows
 targetos: Windows
-req.lib: Magnification.lib
-req.dll: Magnification.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MagGetInputTransform function

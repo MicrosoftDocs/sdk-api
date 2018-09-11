@@ -4,17 +4,16 @@ title: CryptUnprotectMemory function
 author: windows-sdk-content
 description: Decrypts memory that was encrypted using the CryptProtectMemory function.
 old-location: security\cryptunprotectmemory.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 1c7980ac-4e9e-43fd-b6d7-c0d0a69c8040
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptUnprotectMemory, CryptUnprotectMemory function [Security], dpapi/CryptUnprotectMemory, security.cryptunprotectmemory, wincrypt/CryptUnprotectMemory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ONEX_VARIABLE_BLOB, *PONEX_VARIABLE_BLOB
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CryptUnprotectMemory
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CryptUnprotectMemory function

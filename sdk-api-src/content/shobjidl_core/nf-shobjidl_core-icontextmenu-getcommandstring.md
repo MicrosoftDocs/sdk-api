@@ -4,17 +4,16 @@ title: IContextMenu::GetCommandString
 author: windows-sdk-content
 description: Gets information about a shortcut menu command, including the help string and the language-independent, or canonical, name for the command.
 old-location: shell\IContextMenu_GetCommandString.htm
-old-project: shell
+tech.root: shell
 ms.assetid: efa60153-7635-4aef-bd9e-f51fe4ecc234
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GCS_HELPTEXTA, GCS_HELPTEXTW, GCS_VALIDATEA, GCS_VALIDATEW, GCS_VERBA, GCS_VERBW, GetCommandString, GetCommandString method [Windows Shell], GetCommandString method [Windows Shell],IContextMenu interface, IContextMenu interface [Windows Shell],GetCommandString method, IContextMenu.GetCommandString, IContextMenu::GetCommandString, _win32_IContextMenu_GetCommandString, _win32_icontextmenu_win32_icontextmenu_getcommandstring_cpp, shell.IContextMenu_GetCommandString, shobjidl_core/IContextMenu::GetCommandString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContextMenu.GetCommandString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IContextMenu::GetCommandString
@@ -69,12 +67,12 @@ Menu command identifier offset.
 
 ### -param uType
 
-
+TBD
 
 
 ### -param pReserved
 
-
+TBD
 
 
 ### -param pszName

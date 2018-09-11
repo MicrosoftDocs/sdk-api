@@ -4,17 +4,16 @@ title: ITextHost::TxCreateCaret
 author: windows-sdk-content
 description: Creates a new shape for windowless rich edit control's caret.
 old-location: controls\ITextHost_TxCreateCaret.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txcreatecaret.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CARET_CUSTOM, CARET_ITALIC, CARET_NONE, CARET_NULL, CARET_ROTATE90, CARET_RTL, ITextHost interface [Windows Controls],TxCreateCaret method, ITextHost.TxCreateCaret, ITextHost::TxCreateCaret, TxCreateCaret, TxCreateCaret method [Windows Controls], TxCreateCaret method [Windows Controls],ITextHost interface, _win32_ITextHost_TxCreateCaret, _win32_ITextHost_TxCreateCaret_cpp, controls.ITextHost_TxCreateCaret, controls._win32_ITextHost_TxCreateCaret, textserv/ITextHost::TxCreateCaret
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextHost.TxCreateCaret
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextHost::TxCreateCaret

@@ -4,17 +4,16 @@ title: IMSVidEVR::put_SuppressEffects
 author: windows-sdk-content
 description: The put_SuppressEffects method specifies whether the Video Control configures the system for optimal video playback.
 old-location: mstv\imsvidevr_put_suppresseffects.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 399250b6-4f2d-4dbf-b1e8-d32a0673617e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidEVR.put_SuppressEffects, IMSVidEVR::put_SuppressEffects, IMSVidEVRput_SuppressEffects, mstv.imsvidevr_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidEVR interface, segment/IMSVidEVR::put_SuppressEffects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidEVR.put_SuppressEffects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidEVR::put_SuppressEffects

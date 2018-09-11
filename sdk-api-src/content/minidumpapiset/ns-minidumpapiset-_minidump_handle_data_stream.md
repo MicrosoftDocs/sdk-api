@@ -4,17 +4,16 @@ title: "_MINIDUMP_HANDLE_DATA_STREAM"
 author: windows-sdk-content
 description: Represents the header for a handle data stream.
 old-location: base\minidump_handle_data_stream_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 5674df6b-77e0-4bca-8349-8217388902ed
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PMINIDUMP_HANDLE_DATA_STREAM, MINIDUMP_HANDLE_DATA_STREAM, MINIDUMP_HANDLE_DATA_STREAM structure, PMINIDUMP_HANDLE_DATA_STREAM, PMINIDUMP_HANDLE_DATA_STREAM structure pointer, _MINIDUMP_HANDLE_DATA_STREAM, _win32_minidump_handle_data_stream_str, base.minidump_handle_data_stream_str, minidumpapiset/MINIDUMP_HANDLE_DATA_STREAM, minidumpapiset/PMINIDUMP_HANDLE_DATA_STREAM"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_HANDLE_DATA_STREAM, *PMINIDUMP_HANDLE_DATA_STREAM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_HANDLE_DATA_STREAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_HANDLE_DATA_STREAM, *PMINIDUMP_HANDLE_DATA_STREAM
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_HANDLE_DATA_STREAM structure

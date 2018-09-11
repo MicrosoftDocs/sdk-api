@@ -4,17 +4,16 @@ title: ITDirectoryObjectUser::get_IPPhonePrimary
 author: windows-sdk-content
 description: The get_IPPhonePrimary method gets the name of a computer that is the primary IP phone for the user.
 old-location: tapi3\itdirectoryobjectuser_get_ipphoneprimary.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 43bb9ce5-28ff-4a6f-a55c-a84633e22dfe
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDirectoryObjectUser interface [TAPI 2.2],get_IPPhonePrimary method, ITDirectoryObjectUser.get_IPPhonePrimary, ITDirectoryObjectUser::get_IPPhonePrimary, _tapi3_itdirectoryobjectuser_get_ipphoneprimary, get_IPPhonePrimary, get_IPPhonePrimary method [TAPI 2.2], get_IPPhonePrimary method [TAPI 2.2],ITDirectoryObjectUser interface, rend/ITDirectoryObjectUser::get_IPPhonePrimary, tapi3.itdirectoryobjectuser_get_ipphoneprimary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectoryObjectUser.get_IPPhonePrimary
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectoryObjectUser::get_IPPhonePrimary

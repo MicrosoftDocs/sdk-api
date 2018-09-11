@@ -4,7 +4,7 @@ title: "_PWM_CONTROLLER_INFO"
 author: windows-sdk-content
 description: Represents the static information that characterizes a Pulse Width Modulation (PWM) controller.
 old-location: base\pwm_controller_info.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 64002D7B-0752-4EC9-88E7-D166CBDE0AB5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pwm.h
 req.include-header: Pwm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PWM_CONTROLLER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PWM_CONTROLLER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PWM_CONTROLLER_INFO
+req.redist: 
 ---
 
 # _PWM_CONTROLLER_INFO structure

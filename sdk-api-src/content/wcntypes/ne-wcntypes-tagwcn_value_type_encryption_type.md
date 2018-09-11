@@ -4,17 +4,16 @@ title: tagWCN_VALUE_TYPE_ENCRYPTION_TYPE
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_ENCRYPTION_TYPE enumeration defines the supported WLAN encryption types.
 old-location: wcn\wcn_value_type_encryption_type.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: 4bd6ef62-82cd-4d3d-925a-637396452c03
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: WCN_VALUE_ET_AES, WCN_VALUE_ET_NONE, WCN_VALUE_ET_TKIP, WCN_VALUE_ET_TKIP_AES_MIXED, WCN_VALUE_ET_WEP, WCN_VALUE_TYPE_ENCRYPTION_TYPE, WCN_VALUE_TYPE_ENCRYPTION_TYPE enumeration [Windows Connect Now], tagWCN_VALUE_TYPE_ENCRYPTION_TYPE, wcn.wcn_value_type_encryption_type, wcntypes/WCN_VALUE_ET_AES, wcntypes/WCN_VALUE_ET_NONE, wcntypes/WCN_VALUE_ET_TKIP, wcntypes/WCN_VALUE_ET_TKIP_AES_MIXED, wcntypes/WCN_VALUE_ET_WEP, wcntypes/WCN_VALUE_TYPE_ENCRYPTION_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcntypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wcndevice.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VALUE_TYPE_ENCRYPTION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCN_VALUE_TYPE_ENCRYPTION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCN_VALUE_TYPE_ENCRYPTION_TYPE
+req.redist: 
 ---
 
 # tagWCN_VALUE_TYPE_ENCRYPTION_TYPE enumeration

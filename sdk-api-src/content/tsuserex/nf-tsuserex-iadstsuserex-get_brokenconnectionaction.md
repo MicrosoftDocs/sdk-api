@@ -4,17 +4,16 @@ title: IADsTSUserEx::get_BrokenConnectionAction
 author: windows-sdk-content
 description: A value that specifies the action to take when a Remote Desktop Services session limit is reached.
 old-location: termserv\iadstsuserex_brokenconnectionaction.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 4c5b2982-d8b6-413d-9758-1226074ad613
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BrokenConnectionAction property [Remote Desktop Services], BrokenConnectionAction property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],BrokenConnectionAction property, IADsTSUserEx.BrokenConnectionAction, IADsTSUserEx.get_BrokenConnectionAction, IADsTSUserEx::BrokenConnectionAction, IADsTSUserEx::get_BrokenConnectionAction, IADsTSUserEx::put_BrokenConnectionAction, get_BrokenConnectionAction, termserv.iadstsuserex_brokenconnectionaction, tsuserex/IADsTSUserEx::BrokenConnectionAction, tsuserex/IADsTSUserEx::get_BrokenConnectionAction, tsuserex/IADsTSUserEx::put_BrokenConnectionAction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Tsuserex.tlb
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: Tsuserex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IADsTSUserEx.put_BrokenConnectionAction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tsuserex.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IADsTSUserEx::get_BrokenConnectionAction

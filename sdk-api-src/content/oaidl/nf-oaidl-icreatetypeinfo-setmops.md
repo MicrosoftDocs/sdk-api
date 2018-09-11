@@ -4,17 +4,16 @@ title: ICreateTypeInfo::SetMops
 author: windows-sdk-content
 description: Sets the marshaling opcode string associated with the type description or the function.
 old-location: automat\icreatetypeinfo_setmops.htm
-old-project: automat
+tech.root: automat
 ms.assetid: e775c2f9-2886-4aa0-a30c-445f317d0e02
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetMops method, ICreateTypeInfo.SetMops, ICreateTypeInfo::SetMops, SetMops, SetMops method [Automation], SetMops method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetMops, automat.icreatetypeinfo_setmops, oaidl/ICreateTypeInfo::SetMops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo.SetMops
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo::SetMops

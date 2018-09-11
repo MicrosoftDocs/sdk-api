@@ -4,17 +4,16 @@ title: ITAgent::get_User
 author: windows-sdk-content
 description: The get_User method gets the agent user name, which is the same as the operating system user login or e-mail name.
 old-location: tapi3\itagent_get_user.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6949fdb0-5841-4473-bb50-2ea598a71576
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_User method, ITAgent.get_User, ITAgent::get_User, _tapi3_itagent_get_user, get_User, get_User method [TAPI 2.2], get_User method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_user, tapi3cc/ITAgent::get_User
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgent.get_User
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgent::get_User

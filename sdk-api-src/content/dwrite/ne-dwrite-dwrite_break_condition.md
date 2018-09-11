@@ -4,17 +4,16 @@ title: DWRITE_BREAK_CONDITION
 author: windows-sdk-content
 description: Indicates the condition at the edges of inline object or text used to determine line-breaking behavior.
 old-location: directwrite\dwrite_break_condition.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 26dbe63e-eeee-486f-aa94-74320b190fcb
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_BREAK_CONDITION, DWRITE_BREAK_CONDITION enumeration [Direct Write], DWRITE_BREAK_CONDITION_CAN_BREAK, DWRITE_BREAK_CONDITION_MAY_NOT_BREAK, DWRITE_BREAK_CONDITION_MUST_BREAK, DWRITE_BREAK_CONDITION_NEUTRAL, directwrite.dwrite_break_condition, dwrite/DWRITE_BREAK_CONDITION, dwrite/DWRITE_BREAK_CONDITION_CAN_BREAK, dwrite/DWRITE_BREAK_CONDITION_MAY_NOT_BREAK, dwrite/DWRITE_BREAK_CONDITION_MUST_BREAK, dwrite/DWRITE_BREAK_CONDITION_NEUTRAL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_BREAK_CONDITION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_BREAK_CONDITION enumeration

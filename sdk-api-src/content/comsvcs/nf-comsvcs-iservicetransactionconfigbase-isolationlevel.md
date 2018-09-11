@@ -4,17 +4,16 @@ title: IServiceTransactionConfigBase::IsolationLevel
 author: windows-sdk-content
 description: Sets the isolation level of the transactions.
 old-location: cos\iservicetransactionconfigbase_isolationlevel.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 4595239b-30e7-4b03-a2c7-7061cbf28bac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IServiceTransactionConfigBase interface [COM+],IsolationLevel method, IServiceTransactionConfigBase.IsolationLevel, IServiceTransactionConfigBase::IsolationLevel, IsolationLevel, IsolationLevel method [COM+], IsolationLevel method [COM+],IServiceTransactionConfigBase interface, _cos_IServiceTransactionConfigBase_IsolationLevel, comsvcs/IServiceTransactionConfigBase::IsolationLevel, cos.iservicetransactionconfigbase_isolationlevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceTransactionConfigBase.IsolationLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceTransactionConfigBase::IsolationLevel

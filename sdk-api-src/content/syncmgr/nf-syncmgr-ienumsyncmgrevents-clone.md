@@ -4,17 +4,16 @@ title: IEnumSyncMgrEvents::Clone
 author: windows-sdk-content
 description: Clones an IEnumSyncMgrEvents object.
 old-location: shell\IEnumSyncMgrEvents_Clone.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 55be3dd4-993e-4f8f-a9d3-be5b7e4f6ddb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumSyncMgrEvents interface, IEnumSyncMgrEvents interface [Windows Shell],Clone method, IEnumSyncMgrEvents.Clone, IEnumSyncMgrEvents::Clone, _shell_IEnumSyncMgrEvents_Clone, shell.IEnumSyncMgrEvents_Clone, syncmgr/IEnumSyncMgrEvents::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSyncMgrEvents.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSyncMgrEvents::Clone

@@ -4,7 +4,7 @@ title: "_SCHEDULE"
 author: windows-sdk-content
 description: Used with the DsReplicaAdd and DsReplicaModify functions to contain replication schedule data for a replication source.
 old-location: ad\schedule.htm
-old-project: ad
+tech.root: ad
 ms.assetid: d86890db-b34a-415a-820a-6d4790914218
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: schedule.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHEDULE, *PSCHEDULE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCHEDULE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SCHEDULE, *PSCHEDULE
+req.redist: 
 ---
 
 # _SCHEDULE structure

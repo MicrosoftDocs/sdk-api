@@ -4,17 +4,16 @@ title: ITAddress::CreateForwardInfoObject
 author: windows-sdk-content
 description: The CreateForwardInfoObject method creates the forwarding information object and returns an ITForwardInformation interface pointer.
 old-location: tapi3\itaddress_createforwardinfoobject.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 87d37ba3-5398-47a7-808b-eb9b6681653d
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CreateForwardInfoObject, CreateForwardInfoObject method [TAPI 2.2], CreateForwardInfoObject method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],CreateForwardInfoObject method, ITAddress.CreateForwardInfoObject, ITAddress::CreateForwardInfoObject, _tapi3_itaddress_createforwardinfoobject, tapi3.itaddress_createforwardinfoobject, tapi3if/ITAddress::CreateForwardInfoObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddress.CreateForwardInfoObject
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddress::CreateForwardInfoObject

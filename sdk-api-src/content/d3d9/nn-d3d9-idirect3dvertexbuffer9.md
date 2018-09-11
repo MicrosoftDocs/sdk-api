@@ -4,17 +4,16 @@ title: IDirect3DVertexBuffer9
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DVertexBuffer9 interface to manipulate vertex buffer resources.
 old-location: direct3d9\idirect3dvertexbuffer9.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexbuffer9.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 618275d7-1a22-b2cf-581b-9cf2495dc642, IDirect3DVertexBuffer9, IDirect3DVertexBuffer9 interface [Direct3D 9], IDirect3DVertexBuffer9 interface [Direct3D 9],described, d3d9helper/IDirect3DVertexBuffer9, direct3d9.idirect3dvertexbuffer9
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3d9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DVertexBuffer9
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DVertexBuffer9 interface

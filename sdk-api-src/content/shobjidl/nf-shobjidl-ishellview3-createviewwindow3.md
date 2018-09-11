@@ -4,17 +4,16 @@ title: IShellView3::CreateViewWindow3
 author: windows-sdk-content
 description: Requests the creation of a new Shell view window. The view can be either the right pane of Windows Explorer or the client window of a folder window. This method replaces CreateViewWindow2.
 old-location: shell\IShellView3_CreateViewWindow3.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d5790f31-922d-41cc-b9a7-0b809615ef1f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CreateViewWindow3, CreateViewWindow3 method [Windows Shell], CreateViewWindow3 method [Windows Shell],IShellView3 interface, IShellView3 interface [Windows Shell],CreateViewWindow3 method, IShellView3.CreateViewWindow3, IShellView3::CreateViewWindow3, SV3CVW3_DEFAULT, SV3CVW3_FORCEFOLDERFLAGS, SV3CVW3_FORCEVIEWMODE, SV3CVW3_NONINTERACTIVE, _shell_IShellView3_CreateViewWindow3, shell.IShellView3_CreateViewWindow3, shobjidl/IShellView3::CreateViewWindow3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellView3.CreateViewWindow3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IShellView3::CreateViewWindow3

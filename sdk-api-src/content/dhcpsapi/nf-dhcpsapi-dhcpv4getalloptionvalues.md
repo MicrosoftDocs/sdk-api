@@ -4,17 +4,16 @@ title: DhcpV4GetAllOptionValues function
 author: windows-sdk-content
 description: Retrieves an array of DHCP option values (the option code and associated data) for a particular scope.
 old-location: dhcp\dhcpv4getalloptionvalues.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 3c2fff2f-3d79-4e0d-8a31-9917088b1413
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpV4GetAllOptionValues, DhcpV4GetAllOptionValues function [DHCP], dhcp.dhcpv4getalloptionvalues, dhcpsapi/DhcpV4GetAllOptionValues
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpV4GetAllOptionValues
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpV4GetAllOptionValues function

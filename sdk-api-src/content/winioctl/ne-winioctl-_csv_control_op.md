@@ -4,7 +4,7 @@ title: "_CSV_CONTROL_OP"
 author: windows-sdk-content
 description: Specifies the type of CSV control operation to use with the FSCTL_CSV_CONTROL control code.
 old-location: fs\csv_control_op.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 77A2106F-2C07-4A30-BA46-651F74032609
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CSV_CONTROL_OP, *PCSV_CONTROL_OP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CSV_CONTROL_OP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CSV_CONTROL_OP, *PCSV_CONTROL_OP
+req.redist: 
 ---
 
 # _CSV_CONTROL_OP enumeration

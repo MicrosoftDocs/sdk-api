@@ -4,17 +4,16 @@ title: IFileDialog2::SetNavigationRoot
 author: windows-sdk-content
 description: Specifies a top-level location from which to begin browsing a namespace, for instance in the Save dialog's Browse folder option. Users cannot navigate above this location.
 old-location: shell\IFileDialog2_SetNavigationRoot.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2ca6b5e7-5867-40f7-a949-e76815407005
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileDialog2 interface [Windows Shell],SetNavigationRoot method, IFileDialog2.SetNavigationRoot, IFileDialog2::SetNavigationRoot, SetNavigationRoot, SetNavigationRoot method [Windows Shell], SetNavigationRoot method [Windows Shell],IFileDialog2 interface, _shell_IFileDialog2_SetNavigationRoot, shell.IFileDialog2_SetNavigationRoot, shobjidl/IFileDialog2::SetNavigationRoot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: Comdlg32.lib
+req.dll: Comdlg32.dll (version 6.1 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialog2.SetNavigationRoot
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Comdlg32.dll (version 6.1 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialog2::SetNavigationRoot

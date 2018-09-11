@@ -4,17 +4,16 @@ title: "_WSD_SOAP_FAULT"
 author: windows-sdk-content
 description: Represents a generated SOAP fault.
 old-location: ncd\wsd_soap_fault_struct.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: ed5e2575-203a-41a2-b656-50cb82aae088
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSD_SOAP_FAULT, WSD_SOAP_FAULT structure, _WSD_SOAP_FAULT, ncd.wsd_soap_fault_struct, wsdtypes/WSD_SOAP_FAULT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SOAP_FAULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_SOAP_FAULT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_SOAP_FAULT
+req.redist: 
 ---
 
 # _WSD_SOAP_FAULT structure

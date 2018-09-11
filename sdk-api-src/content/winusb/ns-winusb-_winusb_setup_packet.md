@@ -4,7 +4,7 @@ title: "_WINUSB_SETUP_PACKET"
 author: windows-sdk-content
 description: The WINUSB_SETUP_PACKET structure describes a USB setup packet.
 old-location: buses\winusb_setup_packet.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: b2e6bebc-81c1-4f52-870d-43c72740f8e2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winusb.h
 req.include-header: Winusbio.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINUSB_SETUP_PACKET, *PWINUSB_SETUP_PACKET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINUSB_SETUP_PACKET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WINUSB_SETUP_PACKET, *PWINUSB_SETUP_PACKET
+req.redist: 
 ---
 
 # _WINUSB_SETUP_PACKET structure

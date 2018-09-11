@@ -4,17 +4,16 @@ title: IDMOQualityControl::SetNow
 author: windows-sdk-content
 description: The SetNow method specifies the earliest time stamp that the DMO will deliver.
 old-location: dshow\idmoqualitycontrol_setnow.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 36efee4f-0a06-421f-bc37-688a6499bda7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDMOQualityControl interface [DirectShow],SetNow method, IDMOQualityControl.SetNow, IDMOQualityControl::SetNow, IDMOQualityControlSetNow, SetNow, SetNow method [DirectShow], SetNow method [DirectShow],IDMOQualityControl interface, dshow.idmoqualitycontrol_setnow, mediaobj/IDMOQualityControl::SetNow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDMOQualityControl.SetNow
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDMOQualityControl::SetNow

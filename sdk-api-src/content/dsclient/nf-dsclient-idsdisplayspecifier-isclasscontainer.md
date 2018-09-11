@@ -4,17 +4,16 @@ title: IDsDisplaySpecifier::IsClassContainer
 author: windows-sdk-content
 description: Determines if a given object class is a container.
 old-location: ad\idsdisplayspecifier_isclasscontainer.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 1717200a-353b-413e-97a2-0742a95056d8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DSICCF_IGNORETREATASLEAF, IDsDisplaySpecifier interface [Active Directory],IsClassContainer method, IDsDisplaySpecifier.IsClassContainer, IDsDisplaySpecifier::IsClassContainer, IsClassContainer, IsClassContainer method [Active Directory], IsClassContainer method [Active Directory],IDsDisplaySpecifier interface, _glines_idsdisplayspecifier_isclasscontainer, ad.idsdisplayspecifier__isclasscontainer, ad.idsdisplayspecifier_isclasscontainer, dsclient/IDsDisplaySpecifier::IsClassContainer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: Dsadmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsDisplaySpecifier.IsClassContainer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dsadmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsDisplaySpecifier::IsClassContainer
@@ -66,7 +65,7 @@ Pointer to a null-terminated Unicode string that contains the name of the object
 
 ### -param pszADsPath
 
-
+TBD
 
 
 ### -param dwFlags [in]

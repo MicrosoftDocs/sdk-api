@@ -4,17 +4,16 @@ title: IDataObject::GetData
 author: windows-sdk-content
 description: Called by a data consumer to obtain data from a source data object.
 old-location: com\idataobject_getdata.htm
-old-project: com
+tech.root: com
 ms.assetid: 05118461-0438-4715-b2c2-fc2471ce38f0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetData, GetData method [COM], GetData method [COM],IDataObject interface, IDataObject interface [COM],GetData method, IDataObject.GetData, IDataObject::GetData, _ole_idataobject_getdata, com.idataobject_getdata, objidl/IDataObject::GetData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataObject.GetData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataObject::GetData

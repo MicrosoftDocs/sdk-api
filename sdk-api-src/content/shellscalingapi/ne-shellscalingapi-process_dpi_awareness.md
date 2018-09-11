@@ -4,7 +4,7 @@ title: PROCESS_DPI_AWARENESS
 author: windows-sdk-content
 description: Identifies dots per inch (dpi) awareness values. DPI awareness indicates how much scaling work an application performs for DPI versus how much is done by the system.
 old-location: hidpi\process_dpi_awareness.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: 50130739-E8A8-4B92-9B80-3BBBE57EBE0C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shellscalingapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_DPI_AWARENESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROCESS_DPI_AWARENESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: PROCESS_DPI_AWARENESS
+req.redist: 
 ---
 
 # PROCESS_DPI_AWARENESS enumeration

@@ -4,17 +4,16 @@ title: CreateHrtfApo function
 author: windows-sdk-content
 description: Creates an instance of the IXAPO interface for head-related transfer function (HRTF) processing.
 old-location: xaudio2\createhrtfapo.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: 24E3CD0D-FC0D-4B1B-961F-BE48935F7B71
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateHrtfApo, CreateHrtfApo function [XAudio2 Audio Mixing APIs], hrtfapoapi/CreateHrtfApo, xaudio2.createhrtfapo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: hrtfapoapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HrtfEnvironment
+req.lib: 
+req.dll: HrtfApo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateHrtfApo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: HrtfApo.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CreateHrtfApo function

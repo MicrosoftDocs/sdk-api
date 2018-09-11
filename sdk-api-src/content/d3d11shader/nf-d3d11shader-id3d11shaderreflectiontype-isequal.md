@@ -4,17 +4,16 @@ title: ID3D11ShaderReflectionType::IsEqual
 author: windows-sdk-content
 description: Indicates whether two ID3D11ShaderReflectionType Interface pointers have the same underlying type.
 old-location: direct3d11\id3d11shaderreflectiontype_isequal.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 99a70bf3-bbd1-49a1-a59f-c35f7236b16f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 5ed95f14-be4b-bff2-83ce-cbf5f239bf3b, ID3D11ShaderReflectionType interface [Direct3D 11],IsEqual method, ID3D11ShaderReflectionType.IsEqual, ID3D11ShaderReflectionType::IsEqual, IsEqual, IsEqual method [Direct3D 11], IsEqual method [Direct3D 11],ID3D11ShaderReflectionType interface, d3d11shader/ID3D11ShaderReflectionType::IsEqual, direct3d11.id3d11shaderreflectiontype_isequal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_VERSION_TYPE
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11ShaderReflectionType.IsEqual
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11ShaderReflectionType::IsEqual

@@ -4,17 +4,16 @@ title: IMFTimedText::SetCueTimeOffset
 author: windows-sdk-content
 description: Sets the offset to the cue time.
 old-location: mf\imftimedtext_setcuetimeoffset.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 42406E51-546F-4714-9179-E5D676805DDE
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SetCueTimeOffset method, IMFTimedText.SetCueTimeOffset, IMFTimedText::SetCueTimeOffset, SetCueTimeOffset, SetCueTimeOffset method [Media Foundation], SetCueTimeOffset method [Media Foundation],IMFTimedText interface, mf.imftimedtext_setcuetimeoffset, mfmediaengine/IMFTimedText::SetCueTimeOffset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedText.SetCueTimeOffset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedText::SetCueTimeOffset

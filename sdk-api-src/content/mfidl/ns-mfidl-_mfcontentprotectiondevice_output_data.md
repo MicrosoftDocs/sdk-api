@@ -4,7 +4,7 @@ title: "_MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA"
 author: windows-sdk-content
 description: Contains information about the data you received as output from a protection system function.
 old-location: mf\mfcontentprotectiondevice_output_data.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 73380F30-E219-4670-86DA-63CDA10C94BF
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
+req.redist: 
 ---
 
 # _MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA structure

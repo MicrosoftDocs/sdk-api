@@ -4,17 +4,16 @@ title: IConfigurationDataCollector::put_FileMaxRecursiveDepth
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of subfolders from which to recursively collect files.
 old-location: pla\iconfigurationdatacollector_filemaxrecursivedepth.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 79a87a02-6e9e-4b21-b90f-59c600349ae0
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: FileMaxRecursiveDepth property [PLA], FileMaxRecursiveDepth property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],FileMaxRecursiveDepth property, IConfigurationDataCollector.FileMaxRecursiveDepth, IConfigurationDataCollector.put_FileMaxRecursiveDepth, IConfigurationDataCollector::FileMaxRecursiveDepth, IConfigurationDataCollector::get_FileMaxRecursiveDepth, IConfigurationDataCollector::put_FileMaxRecursiveDepth, base.iconfigurationdatacollector_filemaxrecursivedepth, pla.iconfigurationdatacollector_filemaxrecursivedepth, pla/IConfigurationDataCollector::FileMaxRecursiveDepth, pla/IConfigurationDataCollector::get_FileMaxRecursiveDepth, pla/IConfigurationDataCollector::put_FileMaxRecursiveDepth, put_FileMaxRecursiveDepth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IConfigurationDataCollector.put_FileMaxRecursiveDepth
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IConfigurationDataCollector::put_FileMaxRecursiveDepth

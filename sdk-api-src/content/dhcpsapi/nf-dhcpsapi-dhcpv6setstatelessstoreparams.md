@@ -4,17 +4,16 @@ title: DhcpV6SetStatelessStoreParams function
 author: windows-sdk-content
 description: Sets the DHCPv6 stateless client inventory configuration settings at the server or scope level.
 old-location: dhcp\dhcpv6setstatelessstoreparams.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 8f64c1bb-8f02-45e3-b9ed-8fce2bf9885c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpV6SetStatelessStoreParams, DhcpV6SetStatelessStoreParams function [DHCP], dhcp.dhcpv6setstatelessstoreparams, dhcpsapi/DhcpV6SetStatelessStoreParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpV6SetStatelessStoreParams
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpV6SetStatelessStoreParams function

@@ -4,17 +4,16 @@ title: ITextStoreACP::GetText
 author: windows-sdk-content
 description: The ITextStoreACP::GetText method returns information about text at a specified character position. This method returns the visible and hidden text and indicates if embedded data is attached to the text.
 old-location: tsf\itextstoreacp_gettext.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: c3788e8f-ddb8-4ad6-971c-e9c1f6a21f88
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetText method, ITextStoreACP.GetText, ITextStoreACP::GetText, _tsf_itextstoreacp_gettext_ref, textstor/ITextStoreACP::GetText, tsf.itextstoreacp_gettext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACP.GetText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreACP::GetText

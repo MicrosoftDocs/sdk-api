@@ -4,7 +4,7 @@ title: ldapapiinfoW
 author: windows-sdk-content
 description: Retrieves data about the API and implementations used.
 old-location: ldap\ldapapiinfo.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 9175224c-82f0-4f22-9975-b1d7a332c3df
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LDAPAPIInfoW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - LDAPAPIInfoW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LDAPAPIInfoW
+req.redist: 
 ---
 
 # ldapapiinfoW structure

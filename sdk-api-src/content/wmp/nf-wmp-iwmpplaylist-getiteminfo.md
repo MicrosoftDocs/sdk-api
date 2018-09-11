@@ -4,17 +4,16 @@ title: IWMPPlaylist::getItemInfo
 author: windows-sdk-content
 description: The getItemInfo method retrieves the value of a playlist attribute specified by name.
 old-location: wmp\iwmpplaylist_getiteminfo.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: c6763274-01e4-4a2f-9467-150e1964193a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],getItemInfo method, IWMPPlaylist.getItemInfo, IWMPPlaylist::getItemInfo, IWMPPlaylistgetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_getiteminfo, wmp/IWMPPlaylist::getItemInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPPlaylist.getItemInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPPlaylist::getItemInfo

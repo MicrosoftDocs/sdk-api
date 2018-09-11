@@ -4,17 +4,16 @@ title: D3D10_USAGE
 author: windows-sdk-content
 description: Identifies expected resource use during rendering. The usage directly reflects whether a resource is accessible by the CPU and/or the GPU.
 old-location: direct3d10\d3d10_usage.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_usage.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: D3D10_USAGE, D3D10_USAGE enumeration [Direct3D 10], D3D10_USAGE_DEFAULT, D3D10_USAGE_DYNAMIC, D3D10_USAGE_IMMUTABLE, D3D10_USAGE_STAGING, ce388aa8-48f6-b43d-c978-e00f781ef68c, d3d10/D3D10_USAGE, d3d10/D3D10_USAGE_DEFAULT, d3d10/D3D10_USAGE_DYNAMIC, d3d10/D3D10_USAGE_IMMUTABLE, d3d10/D3D10_USAGE_STAGING, direct3d10.d3d10_usage
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_USAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_USAGE
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D3D10_USAGE
+req.redist: 
 ---
 
 # D3D10_USAGE enumeration

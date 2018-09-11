@@ -4,17 +4,16 @@ title: IValueMapItem::put_Enabled
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the item is enabled.
 old-location: pla\ivaluemapitem_enabled.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: f23e02bf-217a-44a2-9e1f-e92a39c1b065
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Enabled property [PLA], Enabled property [PLA],IValueMapItem interface, IValueMapItem interface [PLA],Enabled property, IValueMapItem.Enabled, IValueMapItem.put_Enabled, IValueMapItem::Enabled, IValueMapItem::get_Enabled, IValueMapItem::put_Enabled, base.ivaluemapitem_enabled, pla.ivaluemapitem_enabled, pla/IValueMapItem::Enabled, pla/IValueMapItem::get_Enabled, pla/IValueMapItem::put_Enabled, put_Enabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IValueMapItem.put_Enabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IValueMapItem::put_Enabled

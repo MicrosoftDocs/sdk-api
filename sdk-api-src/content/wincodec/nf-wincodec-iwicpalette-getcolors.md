@@ -4,17 +4,16 @@ title: IWICPalette::GetColors
 author: windows-sdk-content
 description: Fills out the supplied color array with the colors from the internal color table. The color array should be sized according to the return results from GetColorCount.
 old-location: wic\_wic_codec_iwicpalette_getcolors.htm
-old-project: wic
+tech.root: wic
 ms.assetid: efec97fd-251c-4e52-b92e-4e624cdb9881
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetColors, GetColors method [Windows Imaging Component], GetColors method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],GetColors method, IWICPalette.GetColors, IWICPalette::GetColors, _wic_codec_iwicpalette_getcolors, wic._wic_codec_iwicpalette_getcolors, wincodec/IWICPalette::GetColors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICPalette.GetColors
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICPalette::GetColors
@@ -62,7 +60,7 @@ Fills out the supplied color array with the colors from the internal color table
 
 ### -param cCount
 
-
+TBD
 
 
 ### -param pColors [out]

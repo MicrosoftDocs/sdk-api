@@ -4,17 +4,16 @@ title: IFsiFileItem2::RemoveStream
 author: windows-sdk-content
 description: Removes a named stream association with a file.
 old-location: imapi\ifsifileitem2_removestream.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 4b758048-31e5-43af-a4ae-8916982e90a9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],RemoveStream method, IFsiFileItem2.RemoveStream, IFsiFileItem2::RemoveStream, RemoveStream, RemoveStream method [IMAPI], RemoveStream method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_removestream, imapi2fs/IFsiFileItem2::RemoveStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiFileItem2.RemoveStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiFileItem2::RemoveStream

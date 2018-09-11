@@ -4,17 +4,16 @@ title: "_RESIZE_VIRTUAL_DISK_FLAG"
 author: windows-sdk-content
 description: Enumerates the available flags for the ResizeVirtualDisk function.
 old-location: vstor\resize_virtual_disk_flag.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: dd4fc68d-8bed-47ce-94a2-a8a71199fac2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RESIZE_VIRTUAL_DISK_FLAG, RESIZE_VIRTUAL_DISK_FLAG enumeration [Virtual Storage], RESIZE_VIRTUAL_DISK_FLAG_ALLOW_UNSAFE_VIRTUAL_SIZE, RESIZE_VIRTUAL_DISK_FLAG_NONE, RESIZE_VIRTUAL_DISK_FLAG_RESIZE_TO_SMALLEST_SAFE_VIRTUAL_SIZE, _RESIZE_VIRTUAL_DISK_FLAG, virtdisk/RESIZE_VIRTUAL_DISK_FLAG, virtdisk/RESIZE_VIRTUAL_DISK_FLAG_ALLOW_UNSAFE_VIRTUAL_SIZE, virtdisk/RESIZE_VIRTUAL_DISK_FLAG_NONE, virtdisk/RESIZE_VIRTUAL_DISK_FLAG_RESIZE_TO_SMALLEST_SAFE_VIRTUAL_SIZE, vstor.resize_virtual_disk_flag
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESIZE_VIRTUAL_DISK_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESIZE_VIRTUAL_DISK_FLAG
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: RESIZE_VIRTUAL_DISK_FLAG
+req.redist: 
 ---
 
 # _RESIZE_VIRTUAL_DISK_FLAG enumeration

@@ -4,17 +4,16 @@ title: ITuneRequestInfo::GetNextProgram
 author: windows-sdk-content
 description: The GetNextProgram method creates a new tune request with channel or program locator information for the next service.
 old-location: mstv\itunerequestinfo_getnextprogram.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ed1c5a30-19fb-46a8-b521-017da56d85c8
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetNextProgram, GetNextProgram method [Microsoft TV Technologies], GetNextProgram method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetNextProgram method, ITuneRequestInfo.GetNextProgram, ITuneRequestInfo::GetNextProgram, ITuneRequestInfoGetNextProgram, bdatif/ITuneRequestInfo::GetNextProgram, mstv.itunerequestinfo_getnextprogram
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITuneRequestInfo.GetNextProgram
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITuneRequestInfo::GetNextProgram
@@ -64,12 +63,12 @@ The <b>GetNextProgram</b> method creates a new tune request with channel or prog
 
 ### -param CurrentRequest
 
-
+TBD
 
 
 ### -param TuneRequest
 
-
+TBD
 
 
 

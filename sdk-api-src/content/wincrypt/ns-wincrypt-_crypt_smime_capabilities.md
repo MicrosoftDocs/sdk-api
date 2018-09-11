@@ -4,17 +4,16 @@ title: "_CRYPT_SMIME_CAPABILITIES"
 author: windows-sdk-content
 description: Contains a prioritized array of supported capabilities.
 old-location: security\crypt_smime_capabilities.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 2ee70ff5-4ef4-457c-90c8-629ad0bc3c25
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_SMIME_CAPABILITIES, CRYPT_SMIME_CAPABILITIES, CRYPT_SMIME_CAPABILITIES structure [Security], PCRYPT_SMIME_CAPABILITIES, PCRYPT_SMIME_CAPABILITIES structure pointer [Security], _CRYPT_SMIME_CAPABILITIES, _crypto2_crypt_smime_capabilities, security.crypt_smime_capabilities, wincrypt/CRYPT_SMIME_CAPABILITIES, wincrypt/PCRYPT_SMIME_CAPABILITIES"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_SMIME_CAPABILITIES, *PCRYPT_SMIME_CAPABILITIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_SMIME_CAPABILITIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_SMIME_CAPABILITIES, *PCRYPT_SMIME_CAPABILITIES
+req.redist: 
 ---
 
 # _CRYPT_SMIME_CAPABILITIES structure

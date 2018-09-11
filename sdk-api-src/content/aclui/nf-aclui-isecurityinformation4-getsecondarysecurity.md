@@ -4,17 +4,16 @@ title: ISecurityInformation4::GetSecondarySecurity
 author: windows-sdk-content
 description: Returns additional security contexts that may impact access to the resource.
 old-location: security\isecurityinformation4_getsecondarysecurity.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 20BD7D3B-1097-45CF-8237-0FBAD6BD6E3E
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetSecondarySecurity, GetSecondarySecurity method [Security], GetSecondarySecurity method [Security],ISecurityInformation4 interface, ISecurityInformation4 interface [Security],GetSecondarySecurity method, ISecurityInformation4.GetSecondarySecurity, ISecurityInformation4::GetSecondarySecurity, aclui/ISecurityInformation4::GetSecondarySecurity, security.isecurityinformation4_getsecondarysecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityInformation4.GetSecondarySecurity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityInformation4::GetSecondarySecurity

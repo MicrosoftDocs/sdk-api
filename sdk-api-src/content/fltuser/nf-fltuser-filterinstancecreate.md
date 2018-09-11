@@ -4,17 +4,16 @@ title: FilterInstanceCreate function
 author: windows-sdk-content
 description: The FilterInstanceCreate function creates a handle that can be used to communicate with the given minifilter instance.
 old-location: ifsk\filterinstancecreate.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: eb29fefc-285a-4a77-b1f6-1d42d029b7b7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: FilterInstanceCreate, FilterInstanceCreate function [Installable File System Drivers], FltWin32ApiRef_eccac8f5-bc38-49ba-b2d8-cf505bec3641.xml, fltuser/FilterInstanceCreate, ifsk.filterinstancecreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterInstanceCreate
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterInstanceCreate function

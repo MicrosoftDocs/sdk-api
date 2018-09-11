@@ -4,17 +4,16 @@ title: IDiskQuotaControl::AddUserName
 author: windows-sdk-content
 description: Adds a new quota entry on the volume for the specified user. The user is identified by domain and account name.
 old-location: fs\idiskquotacontrol_addusername.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 306120e8-642a-439d-839c-944cb7fd7ee2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddUserName, AddUserName method [Files], AddUserName method [Files],IDiskQuotaControl interface, DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, IDiskQuotaControl interface [Files],AddUserName method, IDiskQuotaControl.AddUserName, IDiskQuotaControl::AddUserName, _win32_idiskquotacontrol_addusername, base.idiskquotacontrol_addusername, dskquota/IDiskQuotaControl::AddUserName, fs.idiskquotacontrol_addusername
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaControl.AddUserName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaControl::AddUserName

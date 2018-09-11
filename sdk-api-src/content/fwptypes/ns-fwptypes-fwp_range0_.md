@@ -4,7 +4,7 @@ title: FWP_RANGE0_
 author: windows-sdk-content
 description: Specifies a range of values.
 old-location: fwp\fwp_range0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 191ec0e4-2489-4f6f-80c5-8feec83d69c2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWP_RANGE0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWP_RANGE0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWP_RANGE0
+req.redist: 
 ---
 
 # FWP_RANGE0_ structure

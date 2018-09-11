@@ -4,17 +4,16 @@ title: ITDetectTone::get_Duration
 author: windows-sdk-content
 description: The get_Duration method retrieves the length of time during which a tone should be present before the TAPI Server generates a tone event.
 old-location: tapi3\itdetecttone_get_duration.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 3c1f8900-1384-4fb5-8931-90bb0d100d41
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],get_Duration method, ITDetectTone.get_Duration, ITDetectTone::get_Duration, _tapi3_itdetecttone_get_duration, get_Duration, get_Duration method [TAPI 2.2], get_Duration method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_get_duration, tapi3if/ITDetectTone::get_Duration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDetectTone.get_Duration
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITDetectTone::get_Duration

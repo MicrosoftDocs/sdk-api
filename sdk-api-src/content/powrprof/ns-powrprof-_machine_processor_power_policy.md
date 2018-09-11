@@ -4,7 +4,7 @@ title: "_MACHINE_PROCESSOR_POWER_POLICY"
 author: windows-sdk-content
 description: Contains processor power policy settings that apply while the system is running on AC power or battery power.
 old-location: base\machine_processor_power_policy_str.htm
-old-project: power
+tech.root: power
 ms.assetid: 54403b81-97bc-4f2b-8721-48c9f69e2773
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MACHINE_PROCESSOR_POWER_POLICY, *PMACHINE_PROCESSOR_POWER_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MACHINE_PROCESSOR_POWER_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MACHINE_PROCESSOR_POWER_POLICY, *PMACHINE_PROCESSOR_POWER_POLICY
+req.redist: 
 ---
 
 # _MACHINE_PROCESSOR_POWER_POLICY structure

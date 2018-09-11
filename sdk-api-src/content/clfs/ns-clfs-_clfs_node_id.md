@@ -4,7 +4,7 @@ title: "_CLFS_NODE_ID"
 author: windows-sdk-content
 description: Represents a node identifier.
 old-location: fs\clfs_node_id.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 99132138-b7ba-47a1-ac40-353d5d70db42
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_NODE_ID, *PCLFS_NODE_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLFS_NODE_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLFS_NODE_ID, *PCLFS_NODE_ID
+req.redist: 
 ---
 
 # _CLFS_NODE_ID structure

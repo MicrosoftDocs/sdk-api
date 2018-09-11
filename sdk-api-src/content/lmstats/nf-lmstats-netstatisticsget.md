@@ -4,17 +4,16 @@ title: NetStatisticsGet function
 author: windows-sdk-content
 description: Retrieves operating statistics for a service. Currently, only the workstation and server services are supported.
 old-location: fs\netstatisticsget.htm
-old-project: netshare
+tech.root: netshare
 ms.assetid: d0e51d8a-2f54-42ca-9759-0da82c1f0f55
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 0, NetStatisticsGet, NetStatisticsGet function [Files], _win32_netstatisticsget, fs.netstatisticsget, lmstats/NetStatisticsGet, netmgmt.netstatisticsget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmstats.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARE_INFO_503, *PSHARE_INFO_503, *LPSHARE_INFO_503
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetStatisticsGet
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetStatisticsGet function

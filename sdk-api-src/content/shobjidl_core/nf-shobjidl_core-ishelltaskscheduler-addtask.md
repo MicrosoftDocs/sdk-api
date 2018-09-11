@@ -4,17 +4,16 @@ title: IShellTaskScheduler::AddTask
 author: windows-sdk-content
 description: Adds a task to the scheduler's background queue.
 old-location: shell\IShellTaskScheduler_AddTask.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 227b5013-a550-46cc-bae2-af60776cba22
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: AddTask, AddTask method [Windows Shell], AddTask method [Windows Shell],IShellTaskScheduler interface, IShellTaskScheduler interface [Windows Shell],AddTask method, IShellTaskScheduler.AddTask, IShellTaskScheduler::AddTask, ITSAT_DEFAULT_PRIORITY, ITSAT_MAX_PRIORITY, ITSAT_MIN_PRIORITY, _win32_IShellTaskScheduler_AddTask, shell.IShellTaskScheduler_AddTask, shobjidl_core/IShellTaskScheduler::AddTask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellTaskScheduler.AddTask
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellTaskScheduler::AddTask
@@ -62,7 +60,7 @@ Adds a task to the scheduler's background queue.
 
 ### -param prt
 
-
+TBD
 
 
 ### -param rtoid [in]

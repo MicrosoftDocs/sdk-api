@@ -4,17 +4,16 @@ title: IStaticPortMapping::get_Enabled
 author: windows-sdk-content
 description: The get_Enabled method retrieves whether the port mapping is enabled.
 old-location: ics\istaticportmapping_get_enabled.htm
-old-project: ics
+tech.root: ics
 ms.assetid: a4a787ac-0ab2-413e-8738-23296e969477
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_Enabled method, IStaticPortMapping.get_Enabled, IStaticPortMapping::get_Enabled, _ics_istaticportmapping_get_enabled, get_Enabled, get_Enabled method [ICS/ICF], get_Enabled method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_enabled, natupnp/IStaticPortMapping::get_Enabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemHealthAgentState
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStaticPortMapping.get_Enabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IStaticPortMapping::get_Enabled

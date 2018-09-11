@@ -4,17 +4,16 @@ title: IEnumContextProps::Count
 author: windows-sdk-content
 description: Retrieves the number of context properties in the context.
 old-location: com\ienumcontextprops_count.htm
-old-project: com
+tech.root: com
 ms.assetid: ad3194f7-0df4-4f26-8a98-2715188fb63f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Count, Count method [COM], Count method [COM],IEnumContextProps interface, IEnumContextProps interface [COM],Count method, IEnumContextProps.Count, IEnumContextProps::Count, _com_ienumcontextprops_count, com.ienumcontextprops_count, objidlbase/IEnumContextProps::Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumContextProps.Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumContextProps::Count

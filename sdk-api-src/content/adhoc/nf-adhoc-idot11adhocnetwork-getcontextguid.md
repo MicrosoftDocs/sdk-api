@@ -4,17 +4,16 @@ title: IDot11AdHocNetwork::GetContextGuid
 author: windows-sdk-content
 description: Gets the context identifier associated with the network.
 old-location: nwifi\idot11adhocnetwork_getcontextguid.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 6a7e7a75-b070-4d57-ae88-6bfc3568c3c9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetContextGuid, GetContextGuid method [NativeWIFI], GetContextGuid method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetContextGuid method, IDot11AdHocNetwork.GetContextGuid, IDot11AdHocNetwork::GetContextGuid, adhoc/IDot11AdHocNetwork::GetContextGuid, nwifi.idot11adhocnetwork_getcontextguid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocNetwork.GetContextGuid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocNetwork::GetContextGuid

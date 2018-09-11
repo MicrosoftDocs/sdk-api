@@ -4,7 +4,7 @@ title: "_NORM_FORM"
 author: windows-sdk-content
 description: Specifies the supported normalization forms.
 old-location: intl\norm_form.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: d0133c6d-3534-4616-8b6f-07ec712808a3
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NORM_FORM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: NORM_FORM
+req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP
 ---
 
 # _NORM_FORM enumeration

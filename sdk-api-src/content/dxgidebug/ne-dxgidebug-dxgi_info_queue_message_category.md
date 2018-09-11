@@ -4,17 +4,16 @@ title: DXGI_INFO_QUEUE_MESSAGE_CATEGORY
 author: windows-sdk-content
 description: Values that specify categories of debug messages.
 old-location: direct3ddxgi\dxgi_info_queue_message_category.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: B7FA9A43-E234-4C2C-832E-69C827F3BA08
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGI_INFO_QUEUE_MESSAGE_CATEGORY, DXGI_INFO_QUEUE_MESSAGE_CATEGORY enumeration [DXGI], DXGI_INFO_QUEUE_MESSAGE_CATEGORY_CLEANUP, DXGI_INFO_QUEUE_MESSAGE_CATEGORY_COMPILATION, DXGI_INFO_QUEUE_MESSAGE_CATEGORY_EXECUTION, DXGI_INFO_QUEUE_MESSAGE_CATEGORY_INITIALIZATION, DXGI_INFO_QUEUE_MESSAGE_CATEGORY_MISCELLANEOUS, DXGI_INFO_QUEUE_MESSAGE_CATEGORY_RESOURCE_MANIPULATION, DXGI_INFO_QUEUE_MESSAGE_CATEGORY_SHADER, DXGI_INFO_QUEUE_MESSAGE_CATEGORY_STATE_CREATION, DXGI_INFO_QUEUE_MESSAGE_CATEGORY_STATE_GETTING, DXGI_INFO_QUEUE_MESSAGE_CATEGORY_STATE_SETTING, DXGI_INFO_QUEUE_MESSAGE_CATEGORY_UNKNOWN, direct3ddxgi.dxgi_info_queue_message_category, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_CATEGORY, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_CATEGORY_CLEANUP, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_CATEGORY_COMPILATION, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_CATEGORY_EXECUTION, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_CATEGORY_INITIALIZATION, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_CATEGORY_MISCELLANEOUS, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_CATEGORY_RESOURCE_MANIPULATION, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_CATEGORY_SHADER, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_CATEGORY_STATE_CREATION, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_CATEGORY_STATE_GETTING, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_CATEGORY_STATE_SETTING, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_CATEGORY_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_MESSAGE_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_INFO_QUEUE_MESSAGE_CATEGORY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_INFO_QUEUE_MESSAGE_CATEGORY
+req.redist: 
 ---
 
 # DXGI_INFO_QUEUE_MESSAGE_CATEGORY enumeration

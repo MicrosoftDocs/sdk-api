@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::SetClipper
 author: windows-sdk-content
 description: Attaches a clipper object to, or deletes one from, this surface.
 old-location: directdraw\idirectdrawsurface7_setclipper.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 18bc8018-b00c-40ef-a54a-e2eecdb835a9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetClipper method, IDirectDrawSurface7.SetClipper, IDirectDrawSurface7::SetClipper, SetClipper, SetClipper method [DirectDraw], SetClipper method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetClipper, directdraw.idirectdrawsurface7_setclipper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.SetClipper
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::SetClipper

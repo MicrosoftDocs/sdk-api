@@ -4,7 +4,7 @@ title: "_DDGETPOLARITYOUT"
 author: windows-sdk-content
 description: The DDGETPOLARITYOUT structure contains the requested polarity information.
 old-location: display\ddgetpolarityout.htm
-old-project: display
+tech.root: display
 ms.assetid: f659ceff-39ba-4d74-98f2-ad12be730ffb
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDGETPOLARITYOUT, *LPDDGETPOLARITYOUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDGETPOLARITYOUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDGETPOLARITYOUT, *LPDDGETPOLARITYOUT
+req.redist: 
 ---
 
 # _DDGETPOLARITYOUT structure

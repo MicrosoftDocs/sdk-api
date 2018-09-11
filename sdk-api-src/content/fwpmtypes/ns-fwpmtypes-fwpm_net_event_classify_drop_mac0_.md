@@ -4,7 +4,7 @@ title: FWPM_NET_EVENT_CLASSIFY_DROP_MAC0_
 author: windows-sdk-content
 description: Contains information that describes a MAC layer drop failure.
 old-location: fwp\fwpm_net_event_classify_drop_mac0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 750c2cfa-6799-492d-9e10-b4260541ada7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_NET_EVENT_CLASSIFY_DROP_MAC0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_NET_EVENT_CLASSIFY_DROP_MAC0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_NET_EVENT_CLASSIFY_DROP_MAC0
+req.redist: 
 ---
 
 # FWPM_NET_EVENT_CLASSIFY_DROP_MAC0_ structure

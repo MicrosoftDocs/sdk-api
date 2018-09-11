@@ -4,7 +4,7 @@ title: FsiFileSystems
 author: windows-sdk-content
 description: Defines values for recognized file systems.
 old-location: imapi\fsifilesystems.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: afb27235-a9b4-4629-aac0-9c43e5b2cf3f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsiFileSystems
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FsiFileSystems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: FsiFileSystems
+req.redist: 
 ---
 
 # FsiFileSystems enumeration

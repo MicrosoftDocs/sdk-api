@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_pla_0001_0043_0010"
 author: windows-sdk-content
 description: Defines how folders are deleted when one of the disk resource limits is exceeded.
 old-location: pla\resourcepolicy.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 6dbe0a60-d2f9-4e76-81d9-d9891c08109a
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ResourcePolicy
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResourcePolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: ResourcePolicy
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_pla_0001_0043_0010 enumeration

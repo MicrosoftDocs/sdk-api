@@ -4,7 +4,7 @@ title: "_DMUS_VOICE_STATE"
 author: windows-sdk-content
 description: DMUS_VOICE_STATE is not supported and may be altered or unavailable in the future.
 old-location: audio\dmus_voice_state.htm
-old-project: audio
+tech.root: audio
 ms.assetid: B3140ADC-863E-4332-A8D1-CEF512B33F14
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dmusics.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMUS_VOICE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DMUS_VOICE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DMUS_VOICE_STATE
+req.redist: 
 ---
 
 # _DMUS_VOICE_STATE structure

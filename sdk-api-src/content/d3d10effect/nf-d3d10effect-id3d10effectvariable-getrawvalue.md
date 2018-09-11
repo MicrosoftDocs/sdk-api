@@ -4,17 +4,16 @@ title: ID3D10EffectVariable::GetRawValue
 author: windows-sdk-content
 description: Get data.
 old-location: direct3d10\id3d10effectvariable_getrawvalue.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getrawvalue.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 18ba7994-4337-bf43-0492-e591b629b77d, GetRawValue, GetRawValue method [Direct3D 10], GetRawValue method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetRawValue method, ID3D10EffectVariable.GetRawValue, ID3D10EffectVariable::GetRawValue, d3d10effect/ID3D10EffectVariable::GetRawValue, direct3d10.id3d10effectvariable_getrawvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10EffectVariable.GetRawValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10EffectVariable::GetRawValue
@@ -75,7 +74,7 @@ The offset (in bytes) from the beginning of the pointer to the data.
 
 ### -param ByteCount
 
-
+TBD
 
 
 

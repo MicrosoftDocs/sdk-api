@@ -4,17 +4,16 @@ title: IDCompositionBrightnessEffect::SetWhitePointX(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the x value of the white point.
 old-location: directcomp\idcompositionbrightnesseffect_setwhitepointx.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 323885D9-3974-4876-9FD7-22F066026AF4
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePointX method, IDCompositionBrightnessEffect.SetWhitePointX, IDCompositionBrightnessEffect.SetWhitePointX(IDCompositionAnimation), IDCompositionBrightnessEffect::SetWhitePointX, IDCompositionBrightnessEffect::SetWhitePointX(IDCompositionAnimation), SetWhitePointX, SetWhitePointX method [DirectComposition], SetWhitePointX method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePointX, directcomp.idcompositionbrightnesseffect_setwhitepointx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionBrightnessEffect.SetWhitePointX
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionBrightnessEffect::SetWhitePointX(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Sets the x value of the white point.
 
 ### -param animation
 
-
+TBD
 
 
 

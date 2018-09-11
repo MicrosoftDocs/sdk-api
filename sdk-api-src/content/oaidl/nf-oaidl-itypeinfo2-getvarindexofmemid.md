@@ -4,17 +4,16 @@ title: ITypeInfo2::GetVarIndexOfMemId
 author: windows-sdk-content
 description: Binds to a specific member based on a known DISPID, where the member name is not known (for example, when binding to a default member).
 old-location: automat\itypeinfo2_getvarindexofmemid.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 6b97ddbf-bcb3-4e39-a355-40c1fd4e8c6a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetVarIndexOfMemId, GetVarIndexOfMemId method [Automation], GetVarIndexOfMemId method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetVarIndexOfMemId method, ITypeInfo2.GetVarIndexOfMemId, ITypeInfo2::GetVarIndexOfMemId, _oa96_ITypeInfo2_GetVarIndexOfMemId, automat.itypeinfo2_getvarindexofmemid, oaidl/ITypeInfo2::GetVarIndexOfMemId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo2.GetVarIndexOfMemId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo2::GetVarIndexOfMemId

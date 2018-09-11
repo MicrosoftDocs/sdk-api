@@ -4,17 +4,16 @@ title: "_SERVER_TRANSPORT_INFO_0"
 author: windows-sdk-content
 description: The SERVER_TRANSPORT_INFO_0 structure contains information about the specified transport protocol, including name, address, and location on the network.
 old-location: netmgmt\server_transport_info_0_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 5b94cf7a-74d1-4ae8-87bd-22b2daf292cb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVER_TRANSPORT_INFO_0, *PSERVER_TRANSPORT_INFO_0, LPSERVER_TRANSPORT_INFO_0, LPSERVER_TRANSPORT_INFO_0 structure pointer [Network Management], PSERVER_TRANSPORT_INFO_0, PSERVER_TRANSPORT_INFO_0 structure pointer [Network Management], SERVER_TRANSPORT_INFO_0, SERVER_TRANSPORT_INFO_0 structure [Network Management], _SERVER_TRANSPORT_INFO_0, _win32_server_transport_info_0_str, lmserver/LPSERVER_TRANSPORT_INFO_0, lmserver/PSERVER_TRANSPORT_INFO_0, lmserver/SERVER_TRANSPORT_INFO_0, netmgmt.server_transport_info_0_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_TRANSPORT_INFO_0, *PSERVER_TRANSPORT_INFO_0, *LPSERVER_TRANSPORT_INFO_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVER_TRANSPORT_INFO_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SERVER_TRANSPORT_INFO_0, *PSERVER_TRANSPORT_INFO_0, *LPSERVER_TRANSPORT_INFO_0
+req.redist: 
 ---
 
 # _SERVER_TRANSPORT_INFO_0 structure

@@ -4,7 +4,7 @@ title: "_LM_OWF_PASSWORD"
 author: windows-sdk-content
 description: The LM_OWF_PASSWORD stores the Lan Manage (LM) one-way function (OWF) of a user's password.
 old-location: mschap\lm_owf_password.htm
-old-project: mschap
+tech.root: mschap
 ms.assetid: db155f34-fa57-4449-9319-d46561fd18c0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mschapp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LM_OWF_PASSWORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LM_OWF_PASSWORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: LM_OWF_PASSWORD
+req.redist: 
 ---
 
 # _LM_OWF_PASSWORD structure

@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::AddNotification
 author: windows-sdk-content
 description: Adds a new notification value (period) to the file management job's list of notifications.
 old-location: fsrm\ifsrmfilemanagementjob_addnotification.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 95b41aa0-44c9-41a2-8132-6aecc4685243
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: AddNotification, AddNotification method [File Server Resource Manager], AddNotification method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],AddNotification method, IFsrmFileManagementJob.AddNotification, IFsrmFileManagementJob::AddNotification, fs.ifsrmfilemanagementjob_addnotification, fsrm.ifsrmfilemanagementjob_addnotification, fsrmreports/IFsrmFileManagementJob::AddNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmFileManagementJob.AddNotification
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::AddNotification

@@ -4,17 +4,16 @@ title: IBitsPeerCacheAdministration::SetMaximumContentAge
 author: windows-sdk-content
 description: Specifies when files are removed from the cache based on age.
 old-location: bits\ibitspeercacheadministration_setmaximumcontentage.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 815d9e48-f1f0-4c40-a277-d78db9d6ace1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBitsPeerCacheAdministration interface [BITS],SetMaximumContentAge method, IBitsPeerCacheAdministration.SetMaximumContentAge, IBitsPeerCacheAdministration::SetMaximumContentAge, SetMaximumContentAge, SetMaximumContentAge method [BITS], SetMaximumContentAge method [BITS],IBitsPeerCacheAdministration interface, bits.ibitspeercacheadministration_setmaximumcontentage, bits3_0/IBitsPeerCacheAdministration::SetMaximumContentAge
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBitsPeerCacheAdministration.SetMaximumContentAge
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBitsPeerCacheAdministration::SetMaximumContentAge

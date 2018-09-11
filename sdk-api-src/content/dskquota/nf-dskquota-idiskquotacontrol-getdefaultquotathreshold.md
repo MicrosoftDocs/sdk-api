@@ -4,17 +4,16 @@ title: IDiskQuotaControl::GetDefaultQuotaThreshold
 author: windows-sdk-content
 description: Retrieves the default quota warning threshold for the volume.
 old-location: fs\idiskquotacontrol_getdefaultquotathreshold.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: e57ec1c0-cece-4379-a695-a33c832ea7af
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDefaultQuotaThreshold, GetDefaultQuotaThreshold method [Files], GetDefaultQuotaThreshold method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetDefaultQuotaThreshold method, IDiskQuotaControl.GetDefaultQuotaThreshold, IDiskQuotaControl::GetDefaultQuotaThreshold, _win32_idiskquotacontrol_getdefaultquotathreshold, base.idiskquotacontrol_getdefaultquotathreshold, dskquota/IDiskQuotaControl::GetDefaultQuotaThreshold, fs.idiskquotacontrol_getdefaultquotathreshold
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaControl.GetDefaultQuotaThreshold
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaControl::GetDefaultQuotaThreshold

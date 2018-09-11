@@ -4,17 +4,16 @@ title: IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors
 author: windows-sdk-content
 description: Retrieves a list of the detailed write configurations supported by the disc recorder and current media.
 old-location: imapi\idiscformat2rawcd_get_supportedwritespeeddescriptors.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 00a7c10a-7790-4193-928c-d3211047dbbe
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_SupportedWriteSpeedDescriptors method, IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors, IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors method [IMAPI], get_SupportedWriteSpeedDescriptors method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_supportedwritespeeddescriptors, imapi2/IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors

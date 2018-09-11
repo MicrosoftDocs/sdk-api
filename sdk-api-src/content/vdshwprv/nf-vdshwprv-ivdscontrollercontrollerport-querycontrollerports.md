@@ -4,17 +4,16 @@ title: IVdsControllerControllerPort::QueryControllerPorts
 author: windows-sdk-content
 description: Returns an IEnumVdsObject object that enumerates the ports of the controller.
 old-location: base\ivdscontrollercontrollerport_querycontrollerports.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 676d0ae9-7d9e-4dc3-93c2-56c96a05ac0a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsControllerControllerPort interface [VDS],QueryControllerPorts method, IVdsControllerControllerPort.QueryControllerPorts, IVdsControllerControllerPort::QueryControllerPorts, QueryControllerPorts, QueryControllerPorts method [VDS], QueryControllerPorts method [VDS],IVdsControllerControllerPort interface, base.ivdscontrollercontrollerport_querycontrollerports, vds/IVdsControllerControllerPort::QueryControllerPorts, vdshwprv/IVdsControllerControllerPort::QueryControllerPorts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsControllerControllerPort.QueryControllerPorts
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsControllerControllerPort::QueryControllerPorts

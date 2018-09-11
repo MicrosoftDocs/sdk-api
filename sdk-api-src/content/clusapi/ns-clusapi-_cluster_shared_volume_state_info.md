@@ -4,17 +4,16 @@ title: "_CLUSTER_SHARED_VOLUME_STATE_INFO"
 author: windows-sdk-content
 description: Represents information about the state of a Cluster Shared Volume (CSV).
 old-location: mscs\cluster_shared_volume_state_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 0E0DEF0B-C755-4B34-90D8-56BFEFEF2525
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUSTER_SHARED_VOLUME_STATE_INFO, CLUSTER_SHARED_VOLUME_STATE_INFO, CLUSTER_SHARED_VOLUME_STATE_INFO structure [Failover Cluster], PCLUSTER_SHARED_VOLUME_STATE_INFO, PCLUSTER_SHARED_VOLUME_STATE_INFO structure pointer [Failover Cluster], _CLUSTER_SHARED_VOLUME_STATE_INFO, clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO, clusapi/PCLUSTER_SHARED_VOLUME_STATE_INFO, mscs.cluster_shared_volume_state_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_SHARED_VOLUME_STATE_INFO, *PCLUSTER_SHARED_VOLUME_STATE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSTER_SHARED_VOLUME_STATE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_SHARED_VOLUME_STATE_INFO, *PCLUSTER_SHARED_VOLUME_STATE_INFO
+req.redist: 
 ---
 
 # _CLUSTER_SHARED_VOLUME_STATE_INFO structure

@@ -4,17 +4,16 @@ title: IScanningTunerEx::GetTunerScanningCapability
 author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_gettunerscanningcapability.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7dc7aeec-2a9d-4dfb-9f67-36d8131cc130
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTunerScanningCapability, GetTunerScanningCapability method [Microsoft TV Technologies], GetTunerScanningCapability method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetTunerScanningCapability method, IScanningTunerEx.GetTunerScanningCapability, IScanningTunerEx::GetTunerScanningCapability, IScanningTunerExGetTunerScanningCapability, mstv.iscanningtunerex_gettunerscanningcapability, tuner/IScanningTunerEx::GetTunerScanningCapability
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScanningTunerEx.GetTunerScanningCapability
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IScanningTunerEx::GetTunerScanningCapability

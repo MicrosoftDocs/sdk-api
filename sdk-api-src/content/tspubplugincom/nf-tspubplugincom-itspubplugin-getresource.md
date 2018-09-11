@@ -4,17 +4,16 @@ title: ItsPubPlugin::GetResource
 author: windows-sdk-content
 description: This method is reserved and should always return E_NOTIMPL.
 old-location: termserv\itspubplugin_getresource.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: eceadfef-6980-452a-b983-3813f6e7ade8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetResource, GetResource method [Remote Desktop Services], GetResource method [Remote Desktop Services],ItsPubPlugin interface, ItsPubPlugin interface [Remote Desktop Services],GetResource method, ItsPubPlugin.GetResource, ItsPubPlugin::GetResource, termserv.itspubplugin_getresource, tspubplugincom/ItsPubPlugin::GetResource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tspubplugincom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: pluginResource2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ItsPubPlugin.GetResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ItsPubPlugin::GetResource

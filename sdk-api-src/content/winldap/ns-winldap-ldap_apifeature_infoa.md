@@ -4,7 +4,7 @@ title: ldap_apifeature_infoA
 author: windows-sdk-content
 description: Retrieves data about any supported LDAP API extensions.
 old-location: ldap\ldapapifeatureinfo.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: c8e4a3a2-a606-49af-887d-905d67705423
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LDAPAPIFeatureInfoA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - LDAPAPIFeatureInfoW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LDAPAPIFeatureInfoA
+req.redist: 
 ---
 
 # ldap_apifeature_infoA structure

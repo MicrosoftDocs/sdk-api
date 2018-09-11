@@ -4,17 +4,16 @@ title: "_BCRYPT_MULTI_HASH_OPERATION"
 author: windows-sdk-content
 description: A BCRYPT_MULTI_HASH_OPERATION structure defines a single operation in a multi-hash operation.
 old-location: security\bcrypt_multi_hash_operation.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: B0418A07-D2EE-4346-9971-676C8FB08FAA
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCRYPT_MULTI_HASH_OPERATION, BCRYPT_MULTI_HASH_OPERATION structure [Security], _BCRYPT_MULTI_HASH_OPERATION, bcrypt/BCRYPT_MULTI_HASH_OPERATION, security.bcrypt_multi_hash_operation
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 Update [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 Update [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_MULTI_HASH_OPERATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_MULTI_HASH_OPERATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_MULTI_HASH_OPERATION
+req.redist: 
 ---
 
 # _BCRYPT_MULTI_HASH_OPERATION structure

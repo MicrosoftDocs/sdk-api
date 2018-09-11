@@ -4,7 +4,7 @@ title: IBDA_AutoDemodulateEx
 author: windows-sdk-content
 description: The IBDA_AutoDemodulateEx interface extends IBDA_AutoDemodulate.
 old-location: mstv\ibda_autodemodulateex.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ecc642e4-7c36-400c-8a63-639f75b2bbc2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_AutoDemodulateEx
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_AutoDemodulateEx interface

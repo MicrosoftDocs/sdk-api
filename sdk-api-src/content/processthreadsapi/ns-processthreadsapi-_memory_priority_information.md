@@ -4,7 +4,7 @@ title: "_MEMORY_PRIORITY_INFORMATION"
 author: windows-sdk-content
 description: Specifies the memory priority for a thread or process.
 old-location: base\memory_priority_information.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 03cacfdf-5c66-42e4-bfcf-afaacd3ad038
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: processthreadsapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MEMORY_PRIORITY_INFORMATION, *PMEMORY_PRIORITY_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MEMORY_PRIORITY_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MEMORY_PRIORITY_INFORMATION, *PMEMORY_PRIORITY_INFORMATION
+req.redist: 
 ---
 
 # _MEMORY_PRIORITY_INFORMATION structure

@@ -4,17 +4,16 @@ title: IFsrmExportImport::ImportFileScreenTemplates
 author: windows-sdk-content
 description: Imports one or more file screen templates from the specified file.
 old-location: fsrm\ifsrmexportimport_importfilescreentemplates.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: ea2fbd88-777e-454c-8d32-0d704c219558
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmExportImport class [File Server Resource Manager],ImportFileScreenTemplates method, IFsrmExportImport interface [File Server Resource Manager],ImportFileScreenTemplates method, IFsrmExportImport.ImportFileScreenTemplates, IFsrmExportImport::ImportFileScreenTemplates, ImportFileScreenTemplates, ImportFileScreenTemplates method [File Server Resource Manager], ImportFileScreenTemplates method [File Server Resource Manager],FsrmExportImport class, ImportFileScreenTemplates method [File Server Resource Manager],IFsrmExportImport interface, fs.ifsrmexportimport_importfilescreentemplates, fsrm.ifsrmexportimport_importfilescreentemplates, fsrm/IFsrmExportImport::ImportFileScreenTemplates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmExportImport.ImportFileScreenTemplates
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmExportImport::ImportFileScreenTemplates

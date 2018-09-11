@@ -4,17 +4,16 @@ title: ITAgentHandler::get_UsableAddresses
 author: windows-sdk-content
 description: The get_UsableAddresses method creates a collection of addresses available for receiving ACD calls on this agent handler.
 old-location: tapi3\itagenthandler_get_usableaddresses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ee457b5c-e505-489c-93dc-8bdfb87c7afe
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_UsableAddresses method, ITAgentHandler.get_UsableAddresses, ITAgentHandler::get_UsableAddresses, _tapi3_itagenthandler_get_usableaddresses, get_UsableAddresses, get_UsableAddresses method [TAPI 2.2], get_UsableAddresses method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_usableaddresses, tapi3cc/ITAgentHandler::get_UsableAddresses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentHandler.get_UsableAddresses
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentHandler::get_UsableAddresses

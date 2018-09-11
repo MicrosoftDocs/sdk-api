@@ -4,17 +4,16 @@ title: IWMSyncReader::GetStreamNumberForOutput
 author: windows-sdk-content
 description: The GetStreamNumberForOutput method retrieves the stream number that corresponds with the specified output.
 old-location: wmformat\iwmsyncreader_getstreamnumberforoutput.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 85543b80-78dd-4dc6-8885-c6a53f910165
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStreamNumberForOutput, GetStreamNumberForOutput method [windows Media Format], GetStreamNumberForOutput method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetStreamNumberForOutput method, IWMSyncReader.GetStreamNumberForOutput, IWMSyncReader::GetStreamNumberForOutput, IWMSyncReaderGetStreamNumberForOutput, wmformat.iwmsyncreader_getstreamnumberforoutput, wmsdkidl/IWMSyncReader::GetStreamNumberForOutput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMSyncReader.GetStreamNumberForOutput
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSyncReader::GetStreamNumberForOutput
@@ -68,7 +66,7 @@ The <b>GetStreamNumberForOutput</b> method retrieves the stream number that corr
 
 ### -param dwOutputNum
 
-
+TBD
 
 
 ### -param pwStreamNum [out]

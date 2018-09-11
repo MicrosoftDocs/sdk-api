@@ -4,7 +4,7 @@ title: TUNNEL_TYPE
 author: windows-sdk-content
 description: The TUNNEL_TYPE enumeration type defines the encapsulation method used by a tunnel, as described by the Internet Assigned Names Authority (IANA).
 old-location: netvista\tunnel_type.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 3da3701b-9aeb-4e74-b81b-0473fd026d91
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TUNNEL_TYPE, *PTUNNEL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TUNNEL_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TUNNEL_TYPE, *PTUNNEL_TYPE
+req.redist: 
 ---
 
 # TUNNEL_TYPE enumeration

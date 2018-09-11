@@ -4,17 +4,16 @@ title: IWTSSBPlugin::WTSSBX_GetUserExternalSession
 author: windows-sdk-content
 description: Redirects an incoming connection to a computing resource, such as a virtual machine, a blade server, or even the user's own corporate desktop by providing a WTSSBX_MACHINE_CONNECT_INFO structure that contains information about the resource.
 old-location: termserv\iwtssbplugin_wtssbx_getuserexternalsession.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 989cd7bc-932f-4a33-91c8-e66fac7195ad
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_GetUserExternalSession method, IWTSSBPlugin.WTSSBX_GetUserExternalSession, IWTSSBPlugin::WTSSBX_GetUserExternalSession, WTSSBX_GetUserExternalSession, WTSSBX_GetUserExternalSession method [Remote Desktop Services], WTSSBX_GetUserExternalSession method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_getuserexternalsession, tssbx/IWTSSBPlugin::WTSSBX_GetUserExternalSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tssbx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_NOTIFICATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSSBPlugin.WTSSBX_GetUserExternalSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSSBPlugin::WTSSBX_GetUserExternalSession
@@ -86,7 +84,7 @@ A pointer to the internal IP address of the RD Session Host server that first a
 
 ### -param pSessionId
 
-
+TBD
 
 
 ### -param pMachineConnectInfo [out]

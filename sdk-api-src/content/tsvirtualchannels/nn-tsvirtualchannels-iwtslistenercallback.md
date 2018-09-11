@@ -4,7 +4,7 @@ title: IWTSListenerCallback
 author: windows-sdk-content
 description: Used to notify the Remote Desktop Connection (RDC) client plug-in about incoming requests on a particular listener.
 old-location: termserv\iwtslistenercallback.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: b5f1d74d-31e6-4447-82ab-6dd3ad9957fd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSListenerCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSListenerCallback interface

@@ -4,17 +4,16 @@ title: "_SecPkgContext_ClientCreds"
 author: windows-sdk-content
 description: Specifies client credentials when calling the QueryContextAttributes (CredSSP) function.
 old-location: security\secpkgcontext_clientcreds.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 85ab1bf7-a4d9-4b0e-b1e3-cb938c3183d3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds structure pointer [Security], SecPkgContext_ClientCreds, SecPkgContext_ClientCreds structure [Security], _SecPkgContext_ClientCreds, credssp/PSecPkgContext_ClientCreds, credssp/SecPkgContext_ClientCreds, security.secpkgcontext_clientcreds"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: credssp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Credentialprovider.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_ClientCreds, *PSecPkgContext_ClientCreds
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SecPkgContext_ClientCreds
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SecPkgContext_ClientCreds, *PSecPkgContext_ClientCreds
+req.redist: 
 ---
 
 # _SecPkgContext_ClientCreds structure

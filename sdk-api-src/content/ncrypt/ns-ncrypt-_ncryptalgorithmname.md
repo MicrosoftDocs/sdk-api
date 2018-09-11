@@ -4,17 +4,16 @@ title: "_NCryptAlgorithmName"
 author: windows-sdk-content
 description: Used to contain information about a CNG algorithm.
 old-location: security\ncryptalgorithmname_struct.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 79b0193e-3be8-46ce-a422-40ed9698363f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, NCRYPT_SECRET_AGREEMENT_INTERFACE, NCRYPT_SECRET_AGREEMENT_OPERATION, NCRYPT_SIGNATURE_INTERFACE, NCRYPT_SIGNATURE_OPERATION, NCryptAlgorithmName, NCryptAlgorithmName structure [Security], _NCryptAlgorithmName, ncrypt/NCryptAlgorithmName, security.ncryptalgorithmname_struct
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ncrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NCryptAlgorithmName
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptAlgorithmName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NCryptAlgorithmName
+req.redist: 
 ---
 
 # _NCryptAlgorithmName structure
