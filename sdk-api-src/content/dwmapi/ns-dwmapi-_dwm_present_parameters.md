@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies Desktop Window Manager (DWM) video frame parameters for frame composition. Used by the <a href="https://msdn.microsoft.com/en-us/library/Aa969523(v=VS.85).aspx">DwmSetPresentParameters</a> function.
+Specifies Desktop Window Manager (DWM) video frame parameters for frame composition. Used by the <a href="https://msdn.microsoft.com/75684283-9e5e-4c17-b642-7c309a389f6f">DwmSetPresentParameters</a> function.
 
 
 ## -struct-fields

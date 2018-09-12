@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>EncoderValue</b> enumeration specifies values that can be passed as arguments to image encoders. For more information about image encoders, see <a href="https://msdn.microsoft.com/en-us/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a> .
+The <b>EncoderValue</b> enumeration specifies values that can be passed as arguments to image encoders. For more information about image encoders, see <a href="https://msdn.microsoft.com/f9a5b4b1-4e25-42c8-a96b-a3104841e5f3">Using Image Encoders and Decoders</a> .
 
 
 ## -enum-fields

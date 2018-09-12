@@ -87,7 +87,7 @@ The hardware supports 9.3 <a href="https://msdn.microsoft.com/5ad0525c-249f-452d
 
 
 
-Use this enumeration when creating a device with <a href="https://msdn.microsoft.com/en-us/library/Bb694526(v=VS.85).aspx">D3D10CreateDevice1</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb694527(v=VS.85).aspx">D3D10CreateDeviceAndSwapChain1</a>.
+Use this enumeration when creating a device with <a href="https://msdn.microsoft.com/6eed32f7-985e-4456-815e-d289acba7ae7">D3D10CreateDevice1</a> or <a href="https://msdn.microsoft.com/c1ab6862-6499-41cc-9f20-34cfae1d66e2">D3D10CreateDeviceAndSwapChain1</a>.
 
 Note that 10level9 feature levels 9_1, 9_2, and 9_3 are only available with the Direct3D 11 runtime (Windows 7, Windows Server 2008 R2, updated 
       Windows Vista with Service Pack 2 (SP2) [<a href="http://go.microsoft.com/fwlink/p/?linkid=160189">KB 971644</a>], and updated Windows Server 2008 [<a href="http://go.microsoft.com/fwlink/p/?linkid=183689">KB 971512</a>]).
@@ -105,7 +105,7 @@ For an overview of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
 
 
 

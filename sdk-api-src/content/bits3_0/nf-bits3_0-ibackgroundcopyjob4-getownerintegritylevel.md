@@ -96,9 +96,9 @@ Success
 
 
 
-For details on how the integrity level of the user's token affects a job, see <a href="https://msdn.microsoft.com/en-us/library/Bb540464(v=VS.85).aspx">User Account Control and BITS</a>.
+For details on how the integrity level of the user's token affects a job, see <a href="https://msdn.microsoft.com/02439ab3-b885-4a2f-b507-0c48d2b30b76">User Account Control and BITS</a>.
 
-This method returns the value from the <a href="https://msdn.microsoft.com/3a2d07f3-f1da-477d-b93f-525e3459dc61">GetSidSubAuthority</a> function. For possible mandatory integrity RID values, see <a href="https://msdn.microsoft.com/en-us/library/Aa379649(v=VS.85).aspx">Well-known SIDs</a> in the Security documentation.
+This method returns the value from the <a href="https://msdn.microsoft.com/3a2d07f3-f1da-477d-b93f-525e3459dc61">GetSidSubAuthority</a> function. For possible mandatory integrity RID values, see <a href="https://msdn.microsoft.com/eb2f95c4-9465-409b-b76c-9ccae1d05eda">Well-known SIDs</a> in the Security documentation.
 
 
 
@@ -108,7 +108,7 @@ This method returns the value from the <a href="https://msdn.microsoft.com/3a2d0
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362995(v=VS.85).aspx">IBackgroundCopyJob4</a>
+<a href="https://msdn.microsoft.com/68909710-f749-487e-b064-9f8630929c53">IBackgroundCopyJob4</a>
  
 
  

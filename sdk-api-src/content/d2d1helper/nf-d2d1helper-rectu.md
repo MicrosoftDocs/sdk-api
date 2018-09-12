@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368153(v=VS.85).aspx">D2D1_RECT_U</a> structure that contains the specified dimensions.
+Creates a <a href="https://msdn.microsoft.com/8607d194-cb0b-431a-926a-e56b946e49ff">D2D1_RECT_U</a> structure that contains the specified dimensions.
 
 
 ## -parameters
@@ -90,7 +90,7 @@ The y-coordinate of the lower-right corner of the rectangle. The default value i
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368153(v=VS.85).aspx">D2D1_RECT_U</a></b>
+Type: <b><a href="https://msdn.microsoft.com/8607d194-cb0b-431a-926a-e56b946e49ff">D2D1_RECT_U</a></b>
 
 A rectangle structure that contains the specified dimensions.
 

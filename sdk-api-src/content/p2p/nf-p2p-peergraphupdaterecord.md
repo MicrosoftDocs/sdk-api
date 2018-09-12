@@ -157,15 +157,19 @@ The following members of the  <a href="https://msdn.microsoft.com/4e0a1c44-e5a4-
 
 This code snippet shows how to update a record.
 
-
-```cpp
-// dwFlags is updated to automatically refresh the record if it is about to expire.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// dwFlags is updated to automatically refresh the record if it is about to expire.
     record.dwFlags = PEER_RECORD_FLAG_AUTOREFRESH;
     // The record data is updated with the string contained in pwzUserData.
     record.data.cbData = (ULONG) wcslen(pwzUserData) * sizeof(WCHAR);
     record.data.pbData = (PBYTE) pwzUserData;
 
-    HRESULT hr = PeerGraphUpdateRecord(hGraph, &record;);
+    HRESULT hr = PeerGraphUpdateRecord(hGraph, &amp;record;);
 
     if (FAILED(hr))
     {
@@ -175,10 +179,10 @@ This code snippet shows how to update a record.
     {
         // Insert your application specific code here.
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

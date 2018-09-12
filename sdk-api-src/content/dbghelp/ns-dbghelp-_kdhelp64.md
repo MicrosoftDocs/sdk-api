@@ -160,9 +160,13 @@ This member is reserved for use by the operating system.
 This structure supersedes the <b>KDHELP</b> structure. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>KDHELP</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define KDHELP KDHELP64
 #define PKDHELP PKDHELP64
 #else
@@ -180,10 +184,10 @@ typedef struct _KDHELP {
     DWORD   StackLimit;
     DWORD   Reserved[5];
 } KDHELP, *PKDHELP;
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

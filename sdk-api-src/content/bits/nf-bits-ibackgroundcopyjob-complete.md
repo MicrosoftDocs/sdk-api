@@ -136,23 +136,23 @@ Download files are not available until you call the
 method renames the temporary download files to their final destination names and removes the job from the queue. Note that BITS renames the temporary upload file when the server receives the last fragment, which is why  download jobs require network connectivity and upload jobs do not. 
 
 All of the files have been successfully transferred if the job's state is <b>BG_JOB_STATE_TRANSFERRED</b>. To check the state of the job, call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363036(v=VS.85).aspx">IBackgroundCopyJob::GetState</a> method. You can also implement the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> interface to receive notification when all of the files have been transferred to the client. 
+<a href="https://msdn.microsoft.com/32789bd2-2368-473b-accf-ac6e317d0172">IBackgroundCopyJob::GetState</a> method. You can also implement the 
+<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> interface to receive notification when all of the files have been transferred to the client. 
 
 If you do not call the 
 <b>Complete</b> method or the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363020(v=VS.85).aspx">IBackgroundCopyJob::Cancel</a> method within 90 days (default <a href="https://msdn.microsoft.com/en-us/library/Aa362844(v=VS.85).aspx">JobInactivityTimeout</a> Group Policy), the service cancels the job. If the service cancels the job, the downloaded files and the reply file are not available to the client; job cancellation does not affect files that have been successfully uploaded.
+<a href="https://msdn.microsoft.com/bb3f32d9-298a-4099-8d87-4057ddefb0ba">IBackgroundCopyJob::Cancel</a> method within 90 days (default <a href="https://msdn.microsoft.com/32c7e2b1-bac2-4708-a30c-f6b2a816c1a4">JobInactivityTimeout</a> Group Policy), the service cancels the job. If the service cancels the job, the downloaded files and the reply file are not available to the client; job cancellation does not affect files that have been successfully uploaded.
 
 BITS removes the job from the transfer queue if the HRESULT is <b>S_OK</b> or BG_S_PARTIAL_COMPLETE. The job remains in the transfer queue if BITS was unable to rename all of the temporary files. Files that were renamed successfully are available to the user. The job remains in the queue (the state is <b>BG_JOB_STATE_TRANSFERRED</b>) until the application is able to fix the problem and calls either the 
 <b>Complete</b> method again or the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363020(v=VS.85).aspx">IBackgroundCopyJob::Cancel</a> method to cancel the job. To determine which files were not renamed for download jobs, see the <b>Completed</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362801(v=VS.85).aspx">BG_FILE_PROGRESS</a> structure. 
+<a href="https://msdn.microsoft.com/bb3f32d9-298a-4099-8d87-4057ddefb0ba">IBackgroundCopyJob::Cancel</a> method to cancel the job. To determine which files were not renamed for download jobs, see the <b>Completed</b> member of the 
+<a href="https://msdn.microsoft.com/322363b4-081e-4100-9087-e34c21a3ffae">BG_FILE_PROGRESS</a> structure. 
 
 For download jobs, you can call the 
 <b>Complete</b> method at anytime during the transfer process; however, only files that were successfully transferred to the client before calling this method are saved. For example, if you call the 
 <b>Complete</b> method while BITS is processing the third of five files, only the first two files are saved. To determine which files have been transferred, call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362957(v=VS.85).aspx">IBackgroundCopyFile::GetProgress</a> method and compare the <b>BytesTransferred</b> member to the <b>BytesTotal</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362801(v=VS.85).aspx">BG_FILE_PROGRESS</a> structure.
+<a href="https://msdn.microsoft.com/e72ec5af-7c21-48f8-b027-76a6c9e67f5e">IBackgroundCopyFile::GetProgress</a> method and compare the <b>BytesTransferred</b> member to the <b>BytesTotal</b> member of the 
+<a href="https://msdn.microsoft.com/322363b4-081e-4100-9087-e34c21a3ffae">BG_FILE_PROGRESS</a> structure.
 
 For upload jobs, you can call the 
 <b>Complete</b> method only when the job's state is <b>BG_JOB_STATE_TRANSFERRED</b>.
@@ -172,19 +172,19 @@ The owner of the file is the user who made the call. For example, if an administ
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362831(v=VS.85).aspx">Completing and Canceling a Job</a>
+<a href="https://msdn.microsoft.com/8f96ed59-b038-4047-bea4-c63b9e84c209">Completing and Canceling a Job</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362874(v=VS.85).aspx">IBackgroundCopyCallback::JobTransferred</a>
+<a href="https://msdn.microsoft.com/04ff96c4-5b22-4935-bce8-5b9d3196cbe5">IBackgroundCopyCallback::JobTransferred</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363020(v=VS.85).aspx">IBackgroundCopyJob::Cancel</a>
+<a href="https://msdn.microsoft.com/bb3f32d9-298a-4099-8d87-4057ddefb0ba">IBackgroundCopyJob::Cancel</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363036(v=VS.85).aspx">IBackgroundCopyJob::GetState</a>
+<a href="https://msdn.microsoft.com/32789bd2-2368-473b-accf-ac6e317d0172">IBackgroundCopyJob::GetState</a>
  
 
  

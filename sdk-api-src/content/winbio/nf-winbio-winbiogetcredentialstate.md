@@ -193,9 +193,13 @@ the credential state for a user. Link to the Winbio.lib static library and inclu
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT GetCredentialState()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT GetCredentialState()
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -204,7 +208,7 @@ HRESULT GetCredentialState()
 
     // Find the identity of the user.
     wprintf_s(L"\n Finding user identity.\n");
-    hr = GetCurrentUserIdentity( &identity );
+    hr = GetCurrentUserIdentity( &amp;identity );
     if (FAILED(hr))
     {
         wprintf_s(L"\n User identity not found. hr = 0x%x\n", hr);
@@ -216,7 +220,7 @@ HRESULT GetCredentialState()
     hr = WinBioGetCredentialState(
              identity,                      // User GUID or SID
              WINBIO_CREDENTIAL_PASSWORD,    // Credential type
-             &credState                     // [out] Credential state
+             &amp;credState                     // [out] Credential state
              );
     if (FAILED(hr))
     {
@@ -265,14 +269,14 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
 
     // Zero the input identity and specify the type.
     ZeroMemory( Identity, sizeof(WINBIO_IDENTITY));
-    Identity->Type = WINBIO_ID_TYPE_NULL;
+    Identity-&gt;Type = WINBIO_ID_TYPE_NULL;
 
     // Open the access token associated with the
     // current process
     if (!OpenProcessToken(
             GetCurrentProcess(),            // Process handle
             TOKEN_READ,                     // Read access only
-            &tokenHandle))                  // Access token handle
+            &amp;tokenHandle))                  // Access token handle
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot open token handle: %d\n", win32Status);
@@ -281,16 +285,16 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     }
 
     // Zero the tokenInfoBuffer structure.
-    ZeroMemory(&tokenInfoBuffer, sizeof(tokenInfoBuffer));
+    ZeroMemory(&amp;tokenInfoBuffer, sizeof(tokenInfoBuffer));
 
     // Retrieve information about the access token. In this case,
     // retrieve a SID.
     if (!GetTokenInformation(
             tokenHandle,                    // Access token handle
             TokenUser,                      // User for the token
-            &tokenInfoBuffer.tokenUser,     // Buffer to fill
+            &amp;tokenInfoBuffer.tokenUser,     // Buffer to fill
             sizeof(tokenInfoBuffer),        // Size of the buffer
-            &bytesReturned))                // Size needed
+            &amp;bytesReturned))                // Size needed
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot query token information: %d\n", win32Status);
@@ -302,14 +306,14 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     // WINBIO_IDENTITY structure. 
     CopySid(
         SECURITY_MAX_SID_SIZE,
-        Identity->Value.AccountSid.Data,
+        Identity-&gt;Value.AccountSid.Data,
         tokenInfoBuffer.tokenUser.User.Sid
         );
 
     // Specify the size of the SID and assign WINBIO_ID_TYPE_SID
     // to the type member of the WINBIO_IDENTITY structure.
-    Identity->Value.AccountSid.Size = GetLengthSid(tokenInfoBuffer.tokenUser.User.Sid);
-    Identity->Type = WINBIO_ID_TYPE_SID;
+    Identity-&gt;Value.AccountSid.Size = GetLengthSid(tokenInfoBuffer.tokenUser.User.Sid);
+    Identity-&gt;Type = WINBIO_ID_TYPE_SID;
 
 e_Exit:
 
@@ -321,10 +325,10 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

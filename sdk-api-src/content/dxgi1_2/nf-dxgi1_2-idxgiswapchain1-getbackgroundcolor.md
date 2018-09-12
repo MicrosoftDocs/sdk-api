@@ -72,8 +72,8 @@ A pointer to a <a href="https://msdn.microsoft.com/5F9DDDC1-644E-4DA2-8E3D-F1577
         <ul>
 <li>S_OK if it successfully retrieves the background color.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a> if the <i>pColor</i> parameter is invalid, for example, <i>pColor</i> is NULL.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a> if the <i>pColor</i> parameter is invalid, for example, <i>pColor</i> is NULL.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

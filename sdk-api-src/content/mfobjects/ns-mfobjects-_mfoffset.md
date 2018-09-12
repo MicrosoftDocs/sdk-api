@@ -80,19 +80,23 @@ The value of the number is <b>value</b> + (<b>fract</b> / 65536.0f).
 
 #### Examples
 
-
-```cpp
-MFOffset MakeOffset(float v)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>MFOffset MakeOffset(float v)
 {
     MFOffset offset;
     offset.value = short(v);
     offset.fract = WORD(65536 * (v-offset.value));
     return offset;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

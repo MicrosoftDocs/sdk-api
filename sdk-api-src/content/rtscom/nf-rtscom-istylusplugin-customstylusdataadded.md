@@ -101,9 +101,13 @@ This method is called when <b>IStylusPlugin::CustomStylusDataAdded Method</b> is
 
 The following C++ code example implements a <b>IStylusPlugin::CustomStylusDataAdded Method</b> method that handles the data from a gesture event and sets a static text control, <code>m_pStatusControl</code>, to a string representation of the gesture data.
 
-
-```cpp
-STDMETHODIMP CGestureHandler::CustomStylusDataAdded( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CGestureHandler::CustomStylusDataAdded( 
             /* [in] */ IRealTimeStylus *piRtsSrc,
             /* [in] */ const GUID *pGuidId,
             /* [in] */ ULONG cbData,
@@ -114,7 +118,7 @@ STDMETHODIMP CGestureHandler::CustomStylusDataAdded(
 	{
 		// Another way to check for gestures is to see if the data
 		// is the right size and actually points to something
-		if ((cbData == sizeof(GESTURE_DATA)) && (pbData != NULL))
+		if ((cbData == sizeof(GESTURE_DATA)) &amp;&amp; (pbData != NULL))
 		{
 			// Access the data coming as a GESTURE_DATA structure
 			GESTURE_DATA* pGD = (GESTURE_DATA*)pbData;
@@ -123,27 +127,27 @@ STDMETHODIMP CGestureHandler::CustomStylusDataAdded(
 			CString strGestureId;
 			
 			// Helper function that maps the gesture ID to a string value
-			SetGestureString(pGD->gestureId, &strGestureId);
+			SetGestureString(pGD-&gt;gestureId, &amp;strGestureId);
 
-			strStatus.Format(L"Gesture=%s\tConfidence=%d\tStrokes=%d", strGestureId, pGD->recoConfidence, pGD->strokeCount);
-			m_pStatusControl->SetWindowTextW(strStatus);
+			strStatus.Format(L"Gesture=%s\tConfidence=%d\tStrokes=%d", strGestureId, pGD-&gt;recoConfidence, pGD-&gt;strokeCount);
+			m_pStatusControl-&gt;SetWindowTextW(strStatus);
 		}
 		else
 		{
-			m_pStatusControl->SetWindowTextW(L"Not gesture data.");
+			m_pStatusControl-&gt;SetWindowTextW(L"Not gesture data.");
 		}
 	}
 	else
 	{
-		m_pStatusControl->SetWindowTextW(L"Not gesture data.");
+		m_pStatusControl-&gt;SetWindowTextW(L"Not gesture data.");
 	}
 
 	return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

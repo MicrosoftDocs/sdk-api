@@ -83,16 +83,20 @@ For example, if a client supplies the <i>Addr</i> 10.10.10.0 and the <i>Len</i> 
 
 The macro is defined as follows:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define RTM_IPV4_MAKE_NET_ADDRESS(NetAddress, Addr, Len)    \
         RTM_IPV4_SET_ADDR_AND_LEN(NetAddress, Addr, Len)      
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

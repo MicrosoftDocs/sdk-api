@@ -97,11 +97,15 @@ This function should not be used on generic command path templates (from users o
 
 #### Examples
 
-
-```cpp
-
-#include <windows.h>
-#include <iostream.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;iostream.h&gt;
 #include "Shlwapi.h"
 
 void main( void )
@@ -126,17 +130,17 @@ void main( void )
     char *lpStr4;
     lpStr4 = buffer_4;
     
-    cout << "The path passed to the function was : " << lpStr1 <<
-            "\nThe arg(s)found in path 1 were      : " << PathGetArgs(lpStr1) << endl;
+    cout &lt;&lt; "The path passed to the function was : " &lt;&lt; lpStr1 &lt;&lt;
+            "\nThe arg(s)found in path 1 were      : " &lt;&lt; PathGetArgs(lpStr1) &lt;&lt; endl;
     
-    cout << "\nThe path passed to the function was : " << lpStr2 <<
-            "\nThe arg(s)found in path 2 were      : " << PathGetArgs(lpStr2) << endl;
+    cout &lt;&lt; "\nThe path passed to the function was : " &lt;&lt; lpStr2 &lt;&lt;
+            "\nThe arg(s)found in path 2 were      : " &lt;&lt; PathGetArgs(lpStr2) &lt;&lt; endl;
     
-    cout << "\nThe path passed to the function was : " << lpStr3 <<
-            "\nThe arg(s)found in path 3 were      : " << PathGetArgs(lpStr3) << endl;
+    cout &lt;&lt; "\nThe path passed to the function was : " &lt;&lt; lpStr3 &lt;&lt;
+            "\nThe arg(s)found in path 3 were      : " &lt;&lt; PathGetArgs(lpStr3) &lt;&lt; endl;
     
-    cout << "\nThe path passed to the function was : " << lpStr4 <<
-            "\nThe arg(s)found in path 4 were      : " << PathGetArgs(lpStr4) << endl;
+    cout &lt;&lt; "\nThe path passed to the function was : " &lt;&lt; lpStr4 &lt;&lt;
+            "\nThe arg(s)found in path 4 were      : " &lt;&lt; PathGetArgs(lpStr4) &lt;&lt; endl;
 }
 
 OUTPUT:
@@ -152,9 +156,9 @@ The arg(s)found in path 3 were      : sample All 15
 
 The path passed to the function was : test.exe
 The arg(s)found in path 4 were      :
-===========
-```
-
-
+===========</pre>
+</td>
+</tr>
+</table></span></div>
 
 

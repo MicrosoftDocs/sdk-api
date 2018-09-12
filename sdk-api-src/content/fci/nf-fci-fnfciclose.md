@@ -82,9 +82,13 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNFCICLOSE(fnFileClose)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCICLOSE(fnFileClose)
 {
     INT iResult = 0; 
 
@@ -98,10 +102,10 @@ FNFCICLOSE(fnFileClose)
 
     return iResult;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

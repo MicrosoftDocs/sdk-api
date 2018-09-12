@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-A control cycles through its states in this order: <a href="https://msdn.microsoft.com/en-us/library/Ee671694(v=VS.85).aspx">ToggleState_On</a>, <a href="https://msdn.microsoft.com/en-us/library/Ee671694(v=VS.85).aspx">ToggleState_Off</a> and, if supported, <a href="https://msdn.microsoft.com/en-us/library/Ee671694(v=VS.85).aspx">ToggleState_Indeterminate</a>.
+A control cycles through its states in this order: <a href="uiauto_ToggleState.htm">ToggleState_On</a>, <a href="uiauto_ToggleState.htm">ToggleState_Off</a> and, if supported, <a href="uiauto_ToggleState.htm">ToggleState_Indeterminate</a>.
 
 
 

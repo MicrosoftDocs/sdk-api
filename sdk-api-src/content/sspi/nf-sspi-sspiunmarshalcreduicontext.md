@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Deserializes credential information obtained by a credential provider during  a previous call to the <a href="https://msdn.microsoft.com/en-us/library/Bb776043(v=VS.85).aspx">ICredentialProvider::SetSerialization</a> method.
+Deserializes credential information obtained by a credential provider during  a previous call to the <a href="_shell_icredentialprovider_setserialization">ICredentialProvider::SetSerialization</a> method.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Deserializes credential information obtained by a credential provider during  a 
 
 ### -param MarshaledCredUIContext [in]
 
-The serialized credential information obtained as the <b>rgbSerialization</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb773242(v=VS.85).aspx">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure retrieved from a call to the <a href="https://msdn.microsoft.com/en-us/library/Bb776043(v=VS.85).aspx">ICredentialProvider::SetSerialization</a> method.
+The serialized credential information obtained as the <b>rgbSerialization</b> member of the <a href="_shell_credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure retrieved from a call to the <a href="_shell_icredentialprovider_setserialization">ICredentialProvider::SetSerialization</a> method.
 
 
 ### -param MarshaledCredUIContextLength [in]

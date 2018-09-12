@@ -67,7 +67,7 @@ The name of the originator of the library.
 
 ### -field Flags
 
-A combination of <a href="https://msdn.microsoft.com/en-us/library/Gg615083(v=VS.85).aspx">D3DCOMPILE Constants</a> that are combined by using a bitwise OR operation. The resulting value specifies how the compiler compiles.
+A combination of <a href="https://msdn.microsoft.com/039627DD-D6A4-4EA3-8E91-D2A20770E6FF">D3DCOMPILE Constants</a> that are combined by using a bitwise OR operation. The resulting value specifies how the compiler compiles.
           
 
 

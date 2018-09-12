@@ -93,10 +93,14 @@ This function does not verify that the path points to an existing site—only th
 
 
 
-
-```cpp
-#include <windows.h>
-#include <iostream.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;iostream.h&gt;
 #include "Shlwapi.h"
 
 void main( void )
@@ -122,18 +126,18 @@ int retval;
 
 // Test path name 1.
 retval = PathIsURL(lpStr1);
-cout << "The contents of String 1: " << lpStr1
-     << "\nThe return value from the function is " << retval << " = TRUE" << endl;
+cout &lt;&lt; "The contents of String 1: " &lt;&lt; lpStr1
+     &lt;&lt; "\nThe return value from the function is " &lt;&lt; retval &lt;&lt; " = TRUE" &lt;&lt; endl;
 
 // Test path name 2.
 retval = PathIsURL(lpStr2);
-cout << "The contents of String 2: " << lpStr2
-     << "\nThe return value from the function is " << retval << " = TRUE" << endl;
+cout &lt;&lt; "The contents of String 2: " &lt;&lt; lpStr2
+     &lt;&lt; "\nThe return value from the function is " &lt;&lt; retval &lt;&lt; " = TRUE" &lt;&lt; endl;
 
 // Test path name 3.
 retval = PathIsURL(lpStr3);
-cout << "The contents of String 3: " << lpStr3
-     << "\nThe return value from the function is " << retval << " = FALSE"<< endl;
+cout &lt;&lt; "The contents of String 3: " &lt;&lt; lpStr3
+     &lt;&lt; "\nThe return value from the function is " &lt;&lt; retval &lt;&lt; " = FALSE"&lt;&lt; endl;
 }
 
 OUTPUT:
@@ -143,9 +147,9 @@ The return value from the function is 1 = TRUE
 The contents of String 2: http://www.microsoft.com
 The return value from the function is 1 = TRUE
 The contents of String 3: microsoft.com
-The return value from the function is 0 = FALSE
-```
-
-
+The return value from the function is 0 = FALSE</pre>
+</td>
+</tr>
+</table></span></div>
 
 

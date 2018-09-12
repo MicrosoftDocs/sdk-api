@@ -188,9 +188,13 @@ Dependent on the method. Out parameters are placed in non-system properties of a
 The following C++ example shows how to implement the 
      <b>IWbemServices::ExecMethodAsync</b> method for the <b>Echo</b> method of the <b>TestMeth</b> class. The <b>TestMeth</b> class supports a method that has one input parameter and one output parameter and that returns an unsigned 32-bit integer. The implementation assumes that there is only one method called <b>Echo</b> and one class that contains it.  For the sake of brevity, there is no error checking or object path parsing.
 
-
-```cpp
-STDMETHODIMP CMyMethodProvider::ExecMethodAsync(BSTR ObjectPath, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyMethodProvider::ExecMethodAsync(BSTR ObjectPath, 
     BSTR MethodName, long lFlags, IWbemContext* pCtx, 
     IWbemClassObject* pInParams, IWbemObjectSink* pResultSink)
 {
@@ -210,39 +214,39 @@ STDMETHODIMP CMyMethodProvider::ExecMethodAsync(BSTR ObjectPath,
     // in the MOF.  A more sophisticated example would parse 
     // ObjectPath to determine the class and possibly the instance.
     // The m_pWbemSvcs pointer is of type IWbemServices*
-    hr = m_pWbemSvcs->GetObject(ClassName, 0, pCtx, &pClass, NULL);
+    hr = m_pWbemSvcs-&gt;GetObject(ClassName, 0, pCtx, &amp;pClass, NULL);
 
     // This method returns values, and so creates an instance of the
     // output argument class.
 
-    hr = pClass->GetMethod(MethodName, 0, NULL, &pOutClass);
-    pOutClass->SpawnInstance(0, &pOutParams);
+    hr = pClass-&gt;GetMethod(MethodName, 0, NULL, &amp;pOutClass);
+    pOutClass-&gt;SpawnInstance(0, &amp;pOutParams);
 
     // Copy the input argument into the output object.
 
     VARIANT var;
-    VariantInit(&var);
+    VariantInit(&amp;var);
 
     // Get the input argument.
-    pInParams->Get(InputArgName, 0, &var, NULL, NULL);   
+    pInParams-&gt;Get(InputArgName, 0, &amp;var, NULL, NULL);   
 
     // Put it into the output object.
-    pOutParams->Put(OutputArgName , 0, &var, 0);      
+    pOutParams-&gt;Put(OutputArgName , 0, &amp;var, 0);      
 
     long lLen = wcslen(var.bstrVal);
-    VariantClear(&var);
+    VariantClear(&amp;var);
     var.vt = VT_I4;
     var.lVal = lLen;
     // Special name for the return value.
-    pOutParams->Put(retValName , 0, &var, 0); 
+    pOutParams-&gt;Put(retValName , 0, &amp;var, 0); 
 
     // Send the output object back to the client by the sink. Then 
     // release the pointers and free the strings.
 
-    hr = pResultSink->Indicate(1, &pOutParams);
-    pOutParams->Release();
-    pOutClass->Release();
-    pClass->Release();
+    hr = pResultSink-&gt;Indicate(1, &amp;pOutParams);
+    pOutParams-&gt;Release();
+    pOutClass-&gt;Release();
+    pClass-&gt;Release();
     SysFreeString(ClassName);
     SysFreeString(InputArgName);
     SysFreeString(OutputArgName);
@@ -250,12 +254,12 @@ STDMETHODIMP CMyMethodProvider::ExecMethodAsync(BSTR ObjectPath,
  
     // All done; now set the status.
 
-    hr = pResultSink->SetStatus(0,WBEM_S_NO_ERROR,NULL,NULL);
+    hr = pResultSink-&gt;SetStatus(0,WBEM_S_NO_ERROR,NULL,NULL);
     return WBEM_S_NO_ERROR;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

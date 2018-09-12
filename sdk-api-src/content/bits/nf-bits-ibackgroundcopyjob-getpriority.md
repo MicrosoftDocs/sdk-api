@@ -114,11 +114,11 @@ The <i>pPriority</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362805(v=VS.85).aspx">BG_JOB_PRIORITY</a>
+<a href="https://msdn.microsoft.com/bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e">BG_JOB_PRIORITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363046(v=VS.85).aspx">IBackgroundCopyJob::SetPriority</a>
+<a href="https://msdn.microsoft.com/8b59128d-7e63-45dc-af0f-54ea844dac98">IBackgroundCopyJob::SetPriority</a>
  
 
  

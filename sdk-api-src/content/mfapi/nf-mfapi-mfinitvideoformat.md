@@ -85,16 +85,20 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Ee663600(v=VS.85).aspx">Library Changes in Windows 7</a>.</div>
+<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="media_foundation_headers_and_libraries.htm">Library Changes in Windows 7</a>.</div>
 <div> </div>
 
 #### Examples
 
 The following example creates a media type object for a standard video format. 
 
-
-```cpp
-// Creates a media type for a standard video format.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Creates a media type for a standard video format.
 HRESULT CreateStandardVideoMediaType(MFStandardVideoFormat type, IMFMediaType **ppMediaType)
 {
     IMFMediaType *pMediaType = NULL;
@@ -102,21 +106,21 @@ HRESULT CreateStandardVideoMediaType(MFStandardVideoFormat type, IMFMediaType **
     MFVIDEOFORMAT format;
 
     // Fill in the MFVIDEOFORMAT structure for the video format.
-    HRESULT hr = MFInitVideoFormat(&format, type);
+    HRESULT hr = MFInitVideoFormat(&amp;format, type);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Create a new (empty) media type.
-    hr = MFCreateMediaType(&pMediaType);
+    hr = MFCreateMediaType(&amp;pMediaType);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Initialize the media type from the MFVIDEOFORMAT structure.
-    hr = MFInitMediaTypeFromMFVideoFormat(pMediaType, &format, sizeof(format));
+    hr = MFInitMediaTypeFromMFVideoFormat(pMediaType, &amp;format, sizeof(format));
     if (FAILED(hr))
     {
         goto done;
@@ -124,16 +128,16 @@ HRESULT CreateStandardVideoMediaType(MFStandardVideoFormat type, IMFMediaType **
 
     // Return the pointer to the caller.
     *ppMediaType = pMediaType;
-    (*ppMediaType)->AddRef();
+    (*ppMediaType)-&gt;AddRef();
 
 done:
-    SafeRelease(&pMediaType);
+    SafeRelease(&amp;pMediaType);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

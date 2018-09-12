@@ -98,7 +98,7 @@ The input desktop must be the current desktop when you call <b>GetCursorPos</b>.
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v=VS.85).aspx">Using the Keyboard to Move the Cursor</a>.
+For an example, see <a href="using_cursors.htm">Using the Keyboard to Move the Cursor</a>.
 
 <div class="code"></div>
 
@@ -109,7 +109,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648383(v=VS.85).aspx">ClipCursor</a>
+<a href="https://msdn.microsoft.com/bafaf206-cc53-4537-b7a5-2903fbfca893">ClipCursor</a>
 
 
 
@@ -117,15 +117,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/d24e21f2-224d-4f32-aa0b-70844e3628ad">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648389(v=VS.85).aspx">GetCursorInfo</a>
+<a href="https://msdn.microsoft.com/4dea42e7-f78f-4e34-9e1d-e76123a209fc">GetCursorInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644938(v=VS.85).aspx">GetMessagePos</a>
+<a href="https://msdn.microsoft.com/7244da5f-96f5-4cf6-acc3-697f8e4f7283">GetMessagePos</a>
 
 
 
@@ -141,15 +141,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://msdn.microsoft.com/69bb9f90-5366-4141-97b6-57e41b774614">SetCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648394(v=VS.85).aspx">SetCursorPos</a>
+<a href="https://msdn.microsoft.com/b17cf57f-dd96-4695-a51e-ee1e1f00f85f">SetCursorPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648396(v=VS.85).aspx">ShowCursor</a>
+<a href="https://msdn.microsoft.com/6712b6b7-bdb0-4078-ba38-7ad744bbf765">ShowCursor</a>
  
 
  

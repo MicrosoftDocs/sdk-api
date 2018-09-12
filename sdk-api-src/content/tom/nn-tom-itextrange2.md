@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>ITextRange2</b> interface is derived from <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>, and its objects are powerful editing and data-binding tools that enable a program to select text in a story and then examine or change that text.
+The <b>ITextRange2</b> interface is derived from <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>, and its objects are powerful editing and data-binding tools that enable a program to select text in a story and then examine or change that text.
 
 
 ## -inheritance

@@ -72,12 +72,16 @@ Specifies the count of characters in the run.
 
 Pointer to an array of glyph handles that correspond to this run. If this member is <b>NULL</b>, then each character in this run can be converted to a glyph handle by a cast, as in the following example:
 
-
-```
-HGLYPH hg = (HGLYPH) wc;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HGLYPH hg = (HGLYPH) wc;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -remarks
 

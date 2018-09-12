@@ -108,7 +108,7 @@ MMC automatically determines the width of the column based on its title string.
 #### HIDE_COLUMN
 
 Introduced in MMC 1.2. The column is inserted, but it is hidden. Be aware that the user can make the column visible when 
-<a href="https://msdn.microsoft.com/en-us/library/Aa814749(v=VS.85).aspx">customizing a list view</a>.
+<a href="how_column_configuration_data_is_used.htm">customizing a list view</a>.
 
 For snap-ins built with the MMC 1.2 SDK, but which are loaded in an older version of MMC, <b>HIDE_COLUMN</b> is interpreted as a zero width. The user can widen the column by dragging it with the mouse.
 
@@ -141,7 +141,7 @@ Calls to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300857(v=VS.85).aspx">IHeaderCtrl</a>
+<a href="https://msdn.microsoft.com/64da2c79-2ede-4b17-a706-8e5cc0ade007">IHeaderCtrl</a>
 
 
 

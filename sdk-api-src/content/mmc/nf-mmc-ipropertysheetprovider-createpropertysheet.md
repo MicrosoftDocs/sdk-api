@@ -115,7 +115,7 @@ For example, to create a property sheet that has a
 #### - pIDataObject [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the data object for the cookie. If the value of this parameter is <b>NULL</b>, MMC will not call any of the 
+<a href="_ole_idataobject">IDataObject</a> interface on the data object for the cookie. If the value of this parameter is <b>NULL</b>, MMC will not call any of the 
 IExtendPropertySheet2 methods implemented by extension snap-ins.
 
 
@@ -152,7 +152,7 @@ For a snap-in that targets MMC 1.1, the snap-in must keep an extra reference on 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

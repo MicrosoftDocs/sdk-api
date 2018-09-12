@@ -89,14 +89,18 @@ The <b>MIB_TCP6TABLE</b> structure may contain padding for alignment between the
 
 The following example retrieves the TCP connection table for IPv6 as a <b>MIB_TCP6TABLE</b> structure and prints the state of each connection represented as a <a href="https://msdn.microsoft.com/b3e9eda5-5e86-4790-8b1b-ca9bae44b502">MIB_TCP6ROW</a> structure.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define UNICODE 1
 
-```cpp
-#define UNICODE 1
-
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <iphlpapi.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
 
 // Need to link with Iphlpapi.lib and Ws2_32.lib
 #pragma comment(lib, "iphlpapi.lib")
@@ -127,7 +131,7 @@ int wmain()
     dwSize = sizeof (MIB_TCP6TABLE);
 // Make an initial call to GetTcp6Table to
 // get the necessary size into the dwSize variable
-    if ((dwRetVal = GetTcp6Table(pTcpTable, &dwSize, TRUE)) ==
+    if ((dwRetVal = GetTcp6Table(pTcpTable, &amp;dwSize, TRUE)) ==
         ERROR_INSUFFICIENT_BUFFER) {
         FREE(pTcpTable);
         pTcpTable = (MIB_TCP6TABLE *) MALLOC(dwSize);
@@ -138,12 +142,12 @@ int wmain()
     }
 // Make a second call to GetTcp6Table to get
 // the actual data we require
-    if ((dwRetVal = GetTcp6Table(pTcpTable, &dwSize, TRUE)) == NO_ERROR) {
-        wprintf(L"\tNumber of entries: %d\n", (int) pTcpTable->dwNumEntries);
-        for (i = 0; i < (int) pTcpTable->dwNumEntries; i++) {
+    if ((dwRetVal = GetTcp6Table(pTcpTable, &amp;dwSize, TRUE)) == NO_ERROR) {
+        wprintf(L"\tNumber of entries: %d\n", (int) pTcpTable-&gt;dwNumEntries);
+        for (i = 0; i &lt; (int) pTcpTable-&gt;dwNumEntries; i++) {
             wprintf(L"\n\tTCP[%d] State: %ld - ", i,
-                   pTcpTable->table[i].State);
-            switch (pTcpTable->table[i].State) {
+                   pTcpTable-&gt;table[i].State);
+            switch (pTcpTable-&gt;table[i].State) {
             case MIB_TCP_STATE_CLOSED:
                 wprintf(L"CLOSED\n");
                 break;
@@ -185,23 +189,23 @@ int wmain()
                 break;
             }
 
-            if (InetNtop(AF_INET6, &pTcpTable->table[i].LocalAddr, ipstringbuffer, 46) == NULL)
+            if (InetNtop(AF_INET6, &amp;pTcpTable-&gt;table[i].LocalAddr, ipstringbuffer, 46) == NULL)
                 wprintf(L"  InetNtop function failed for local IPv6 address\n");
             else     
                 wprintf(L"\tTCP[%d] Local Addr: %s\n", i, ipstringbuffer);
             wprintf(L"\tTCP[%d] Local Scope ID: %d \n", i,
-                   ntohl (pTcpTable->table[i].dwLocalScopeId));
+                   ntohl (pTcpTable-&gt;table[i].dwLocalScopeId));
             wprintf(L"\tTCP[%d] Local Port: %d \n", i,
-                   ntohs((u_short)pTcpTable->table[i].dwLocalPort));
+                   ntohs((u_short)pTcpTable-&gt;table[i].dwLocalPort));
 
-            if (InetNtop(AF_INET6, &pTcpTable->table[i].RemoteAddr, ipstringbuffer, 46) == NULL)
+            if (InetNtop(AF_INET6, &amp;pTcpTable-&gt;table[i].RemoteAddr, ipstringbuffer, 46) == NULL)
                 wprintf(L"  InetNtop function failed for remote IPv6 address\n");
             else     
                 wprintf(L"\tTCP[%d] Remote Addr: %s\n", i, ipstringbuffer);
             wprintf(L"\tTCP[%d] Remote Scope ID: %d \n", i,
-                   ntohl(pTcpTable->table[i].dwRemoteScopeId));
+                   ntohl(pTcpTable-&gt;table[i].dwRemoteScopeId));
             wprintf(L"\tTCP[%d] Remote Port: %d\n", i,
-                   ntohs((u_short)pTcpTable->table[i].dwRemotePort));
+                   ntohs((u_short)pTcpTable-&gt;table[i].dwRemotePort));
         }
     } else {
         wprintf(L"\tGetTcp6Table failed with %d\n", dwRetVal);
@@ -216,10 +220,10 @@ int wmain()
 
     return 0;    
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

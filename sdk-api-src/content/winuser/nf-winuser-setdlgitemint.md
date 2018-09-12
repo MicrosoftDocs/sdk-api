@@ -104,7 +104,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-To set the new text, this function sends a <a href="https://msdn.microsoft.com/en-us/library/ms632644(v=VS.85).aspx">WM_SETTEXT</a> message to the specified control.
+To set the new text, this function sends a <a href="https://msdn.microsoft.com/1b48c309-6903-4139-bf42-e8526963e681">WM_SETTEXT</a> message to the specified control.
 
 
 
@@ -118,11 +118,11 @@ To set the new text, this function sends a <a href="https://msdn.microsoft.com/e
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645485(v=VS.85).aspx">GetDlgItemInt</a>
+<a href="https://msdn.microsoft.com/8a0b8275-35e5-4983-9b2d-968023d39aa3">GetDlgItemInt</a>
 
 
 
@@ -130,11 +130,11 @@ To set the new text, this function sends a <a href="https://msdn.microsoft.com/e
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645521(v=VS.85).aspx">SetDlgItemText</a>
+<a href="https://msdn.microsoft.com/af359c1c-f3ec-4901-97bb-3fb654f44598">SetDlgItemText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632644(v=VS.85).aspx">WM_SETTEXT</a>
+<a href="https://msdn.microsoft.com/1b48c309-6903-4139-bf42-e8526963e681">WM_SETTEXT</a>
  
 
  

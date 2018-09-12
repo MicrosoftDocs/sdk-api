@@ -119,9 +119,13 @@ Manipulation events are generated for both the <a href="https://msdn.microsoft.c
 
 The following code shows an implementation of the ManipulationCompleted method.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 
 
 HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationCompleted( 
@@ -148,10 +152,10 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationCompleted(
     return S_OK;
 }
     
-    
-```
-
-
+    </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

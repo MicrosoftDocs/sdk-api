@@ -50,15 +50,15 @@ req.redist:
 ## -description
 
 
-The <b>IAzRoleAssignment</b> interface represents a role to which users and groups can be assigned. A <b>IAzRoleAssignment</b> object can be associated with one or more <a href="https://msdn.microsoft.com/en-us/library/Aa377927(v=VS.85).aspx">IAzRoleDefinition</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a>, and <a href="https://msdn.microsoft.com/en-us/library/Aa377899(v=VS.85).aspx">IAzOperation</a> objects that specify the operations to which users and groups assigned to the role can access.
+The <b>IAzRoleAssignment</b> interface represents a role to which users and groups can be assigned. A <b>IAzRoleAssignment</b> object can be associated with one or more <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a>, <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a>, and <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> objects that specify the operations to which users and groups assigned to the role can access.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzRoleAssignment</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa377917(v=VS.85).aspx">IAzRole</a>. <b>IAzRoleAssignment</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzRoleAssignment</b> interface inherits from <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a>. <b>IAzRoleAssignment</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -71,19 +71,19 @@ The <b>IAzRoleAssignment</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377923(v=VS.85).aspx">AddRoleDefinition</a>
+<a href="https://msdn.microsoft.com/9946d273-3726-40f4-b438-7f2377fc8013">AddRoleDefinition</a>
 </td>
 <td align="left" width="63%">
-Adds the specified <a href="https://msdn.microsoft.com/en-us/library/Aa377927(v=VS.85).aspx">IAzRoleDefinition</a> object to this <b>IAzRoleAssignment</b> object.
+Adds the specified <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object to this <b>IAzRoleAssignment</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377924(v=VS.85).aspx">DeleteRoleDefinition</a>
+<a href="https://msdn.microsoft.com/17af80d0-d9b4-4e20-b7a8-72e8dc42b69d">DeleteRoleDefinition</a>
 </td>
 <td align="left" width="63%">
-Removes the <a href="https://msdn.microsoft.com/en-us/library/Aa377927(v=VS.85).aspx">IAzRoleDefinition</a> object with the specified name from this <b>IAzRoleAssignment</b> object.
+Removes the <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object with the specified name from this <b>IAzRoleAssignment</b> object.
 
 </td>
 </tr>
@@ -97,24 +97,24 @@ Removes the <a href="https://msdn.microsoft.com/en-us/library/Aa377927(v=VS.85).
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377925(v=VS.85).aspx">RoleDefinitions</a>
+<a href="https://msdn.microsoft.com/7528c9aa-264c-4bdc-8a50-c3d41ac00cc5">RoleDefinitions</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves a collection of the <a href="https://msdn.microsoft.com/en-us/library/Aa377927(v=VS.85).aspx">IAzRoleDefinition</a> objects associated with this <b>IAzRoleAssignment</b> object.
+Retrieves a collection of the <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> objects associated with this <b>IAzRoleAssignment</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377926(v=VS.85).aspx">Scope</a>
+<a href="https://msdn.microsoft.com/f8b81fea-b4b8-4391-bc01-5c345f45ad56">Scope</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa378237(v=VS.85).aspx">IAzScope</a> object that represents the scope in which this <b>IAzRoleAssignment</b> object is defined.
+Retrieves the <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object that represents the scope in which this <b>IAzRoleAssignment</b> object is defined.
 
 </td>
 </tr>

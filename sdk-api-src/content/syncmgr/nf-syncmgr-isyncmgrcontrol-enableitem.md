@@ -121,9 +121,13 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>EnableItem</
 
 The following example shows the usage of <a href="https://msdn.microsoft.com/92a9525c-bf06-4720-a3e2-5352fa693c8e">ISyncMgrControl::EnableHandler</a> by a handler's procedure.
 
-
-```cpp
-void MiscProc(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void MiscProc(...)
 {
     ...
 
@@ -132,24 +136,24 @@ void MiscProc(...)
     
     hr = CoCreateInstance(CLSID_SyncMgrControl, 
                           CLSCTX_SERVER, 
-                          IID_PPV_ARGS(&pControl));
+                          IID_PPV_ARGS(&amp;pControl));
     if (SUCCEEDED(hr))
     {
         // Tell Sync Center to disable the item.
-        hr = pControl->EnableItem(FALSE, 
+        hr = pControl-&gt;EnableItem(FALSE, 
                                   s_szMySyncHandlerID,
                                   s_szMySyncHandlerMusicContentID, 
                                   hwnd,
                                   SYNCMGR_CF_WAIT);
-        pControl->Release();
+        pControl-&gt;Release();
     }
 
     ...
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

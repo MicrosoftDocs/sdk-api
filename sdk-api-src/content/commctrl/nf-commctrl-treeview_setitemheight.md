@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the height of the tree-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773761(v=VS.85).aspx">TVM_SETITEMHEIGHT</a> message explicitly. 
+Sets the height of the tree-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/23f6f2a4-cdd9-441d-af24-ed40513d2721">TVM_SETITEMHEIGHT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Sets the height of the tree-view items. You can use this macro or send the <a hr
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a tree-view control. 
 
 
 ### -param iHeight
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">SHORT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SHORT</a></b>
 
 New height of every item in the tree view, in pixels. Heights less than 1 will be set to 1. If this argument is not even, it will be rounded down to the nearest even value. If this argument is -1, the control will revert to using its default item height. 
 
@@ -76,7 +76,7 @@ New height of every item in the tree view, in pixels. Heights less than 1 will b
 
 
 
-The tree-view control uses this value for the height of all items. To modify the height of individual items, see the description of the <b>iIntegral</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure. 
+The tree-view control uses this value for the height of all items. To modify the height of individual items, see the description of the <b>iIntegral</b> member of the <a href="https://msdn.microsoft.com/a1112639-fe6d-432a-8b0a-b914bcb30e11">TVITEMEX</a> structure. 
 
 
 
@@ -86,7 +86,7 @@ The tree-view control uses this value for the height of all items. To modify the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773844(v=VS.85).aspx">TreeView_GetItemHeight</a>
+<a href="https://msdn.microsoft.com/ca9d9a48-702d-4ea5-b3e3-bb9b71ca9518">TreeView_GetItemHeight</a>
  
 
  

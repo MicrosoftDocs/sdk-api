@@ -102,21 +102,25 @@ This function creates a <a href="https://msdn.microsoft.com/62a8d723-ae1c-4cbc-a
 
 The following example shows how to create a shared <a href="https://msdn.microsoft.com/62a8d723-ae1c-4cbc-a9da-3177e80d4a3a">DirectWrite</a> factory.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 if (SUCCEEDED(hr))
 {
     hr = DWriteCreateFactory(
         DWRITE_FACTORY_TYPE_SHARED,
         __uuidof(IDWriteFactory),
-        reinterpret_cast<IUnknown**>(&pDWriteFactory_)
+        reinterpret_cast&lt;IUnknown**&gt;(&amp;pDWriteFactory_)
         );
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CEPSetupProperty</b> enumeration type is used by the <a href="https://msdn.microsoft.com/en-us/library/Ff808372(v=VS.85).aspx">GetProperty</a> and <a href="https://msdn.microsoft.com/en-us/library/Ff808375(v=VS.85).aspx">SetProperty</a> methods on the <a href="https://msdn.microsoft.com/en-us/library/Ff808370(v=VS.85).aspx">ICertificateEnrollmentPolicyServerSetup</a> interface to specify the type of property information to retrieve or set.
+The <b>CEPSetupProperty</b> enumeration type is used by the <a href="https://msdn.microsoft.com/52AD50BB-4146-44FC-BA32-9FC46FFE32E4">GetProperty</a> and <a href="https://msdn.microsoft.com/81E20BFF-B4EC-4FA5-A881-5BDCE3FC3057">SetProperty</a> methods on the <a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a> interface to specify the type of property information to retrieve or set.
 
 
 ## -enum-fields
@@ -83,15 +83,15 @@ The property value indicates  whether to set up the Enrollment Policy Server in 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808372(v=VS.85).aspx">GetProperty</a>
+<a href="https://msdn.microsoft.com/52AD50BB-4146-44FC-BA32-9FC46FFE32E4">GetProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808370(v=VS.85).aspx">ICertificateEnrollmentPolicyServerSetup</a>
+<a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808375(v=VS.85).aspx">SetProperty</a>
+<a href="https://msdn.microsoft.com/81E20BFF-B4EC-4FA5-A881-5BDCE3FC3057">SetProperty</a>
  
 
  

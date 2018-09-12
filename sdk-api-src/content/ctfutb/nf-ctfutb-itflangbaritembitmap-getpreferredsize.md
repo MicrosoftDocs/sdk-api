@@ -100,7 +100,7 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628706(v=VS.85).aspx">ITfLangBarItemBitmap</a>
+<a href="https://msdn.microsoft.com/3bae0422-625e-4f7d-9845-5353ad3ff335">ITfLangBarItemBitmap</a>
 
 
 

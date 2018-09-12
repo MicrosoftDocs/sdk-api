@@ -65,15 +65,19 @@ req.redist:
 
 
 The <b>IWbemServices</b> interface is used by clients and providers to access WMI services. The interface is implemented by WMI and WMI providers, and is the primary WMI interface.
-
-```cpp
-    IWbemClassObject *pObj = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    IWbemClassObject *pObj = NULL;
 
     //The pWbemSvc pointer is of type IWbemServices*
-    pWbemSvc->GetObject(L"path", 0, 0, &pObj, 0);
-```
-
-
+    pWbemSvc-&gt;GetObject(L"path", 0, 0, &amp;pObj, 0);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -inheritance
 
@@ -320,30 +324,39 @@ For multiple C++ examples that use IWbemServices, see the <a href="https://msdn.
 The following code example shows how a provider can get an 
 <b>IWbemServices</b> pointer. The code requires the following #include statements and references to compile.
 
-
-```cpp
-#include <iostream>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;iostream&gt;
 using namespace std;
-#include <wbemidl.h>
-#pragma comment(lib, "wbemuuid.lib")
-```
-
-```cpp
-IWbemLocator *pIWbemLocator = NULL;
+#include &lt;wbemidl.h&gt;
+#pragma comment(lib, "wbemuuid.lib")</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IWbemLocator *pIWbemLocator = NULL;
 
 HRESULT hRes = CoCreateInstance (
             CLSID_WbemAdministrativeLocator,
             NULL ,
             CLSCTX_INPROC_SERVER | CLSCTX_LOCAL_SERVER , 
             IID_IUnknown ,
-            ( void ** ) &pIWbemLocator
+            ( void ** ) &amp;pIWbemLocator
             ) ;
 
 IWbemServices *pWbemServices = NULL;
 
 if (SUCCEEDED(hRes))
 {
-    hRes = pIWbemLocator->ConnectServer(
+    hRes = pIWbemLocator-&gt;ConnectServer(
                 L"root\\CIMV2",  // Namespace
                 NULL,          // Userid
                 NULL,           // PW
@@ -351,20 +364,20 @@ if (SUCCEEDED(hRes))
                 0,              // flags
                 NULL,           // Authority
                 NULL,           // Context
-                &pWbemServices
+                &amp;pWbemServices
                 );
 
-pIWbemLocator->Release(); // Free memory resources.
+pIWbemLocator-&gt;Release(); // Free memory resources.
 
 // Use pWbemServices
 
 }
 
 // Clean up
-pWbemServices->Release();
-```
-
-
+pWbemServices-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

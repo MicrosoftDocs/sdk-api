@@ -121,32 +121,36 @@ This method can only associate a single window with a single document manager. I
 
 To restore the previous focus association, call this method with the same window handle and the value returned in the original call <i>ppdimPrev</i> for <i>pdimNew</i>. The following is an example.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 //associate the focus for m_hwnd with m_pDocMgr 
-pThreadMgr->AssociateFocus(m_hwnd, m_pDocMgr, &m_pPrevDocMgr);
+pThreadMgr-&gt;AssociateFocus(m_hwnd, m_pDocMgr, &amp;m_pPrevDocMgr);
 
 
 
 //Restore the original focus association. 
 ITfDocumentMgr *pTempDocMgr = NULL;
 
-pThreadMgr->AssociateFocus(m_hwnd, m_pPrevDocMgr, &pTempDocMgr);
+pThreadMgr-&gt;AssociateFocus(m_hwnd, m_pPrevDocMgr, &amp;pTempDocMgr);
 
 if(pTempDocMgr)
 {
-    pTempDocMgr->Release();
+    pTempDocMgr-&gt;Release();
 }
     
 if(m_pPrevDocMgr)
 {
-    m_pPrevDocMgr->Release();
+    m_pPrevDocMgr-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

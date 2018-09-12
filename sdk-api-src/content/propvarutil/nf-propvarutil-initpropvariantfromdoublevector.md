@@ -99,24 +99,28 @@ Creates a VT_VECTOR | VT_R8 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762292(v=VS.85).aspx">InitPropVariantFromDoubleVector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>.
 
-
-```cpp
-PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PROPVARIANT propvar;
 DOUBLE rgDouble[] = {3.1415, 42.7};
 
-HRESULT hr = InitPropVariantFromDoubleVector(rgDouble, ARRAYSIZE(rgDouble), &propvar);
+HRESULT hr = InitPropVariantFromDoubleVector(rgDouble, ARRAYSIZE(rgDouble), &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_VECTOR | VT_R8.
  
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -125,15 +129,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762291(v=VS.85).aspx">InitPropVariantFromDouble</a>
+<a href="shell.InitPropVariantFromDouble">InitPropVariantFromDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762322(v=VS.85).aspx">InitVariantFromDoubleArray</a>
+<a href="shell.InitVariantFromDoubleArray">InitVariantFromDoubleArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776539(v=VS.85).aspx">PropVariantToDoubleVector</a>
+<a href="shell.PropVariantToDoubleVector">PropVariantToDoubleVector</a>
  
 
  

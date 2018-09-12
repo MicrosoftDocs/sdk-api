@@ -86,11 +86,11 @@ Automatically detect proxy settings. BITS detects proxy settings for each file i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363035(v=VS.85).aspx">IBackgroundCopyJob::GetProxySettings</a>
+<a href="https://msdn.microsoft.com/c2d0ec9b-eaa1-4f78-9ccc-4e91d045cd94">IBackgroundCopyJob::GetProxySettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363047(v=VS.85).aspx">IBackgroundCopyJob::SetProxySettings</a>
+<a href="https://msdn.microsoft.com/fd21a17b-1049-4dd9-a08b-da84699b8006">IBackgroundCopyJob::SetProxySettings</a>
  
 
  

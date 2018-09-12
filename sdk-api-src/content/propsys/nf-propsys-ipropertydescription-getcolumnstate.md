@@ -87,7 +87,7 @@ Always returns <b>S_OK</b>.
 
 
 
-The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773865(v=VS.85).aspx">displayInfo</a> element in the property's .propdesc file.
+The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="shell.propdesc_schema_displayInfo">displayInfo</a> element in the property's .propdesc file.
 
 
 
@@ -97,7 +97,7 @@ The value retrieved by this method is originally set through the <i>displayType<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

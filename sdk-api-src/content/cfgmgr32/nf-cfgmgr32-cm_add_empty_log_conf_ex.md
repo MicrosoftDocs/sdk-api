@@ -104,7 +104,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-Calling <b>CM_Add_Empty_Log_Conf_Ex</b> can cause the handles returned by <a href="https://msdn.microsoft.com/en-us/library/Ff538529(v=VS.85).aspx">CM_Get_First_Log_Conf_Ex</a> and <a href="https://msdn.microsoft.com/en-us/library/Ff538598(v=VS.85).aspx">CM_Get_Next_Log_Conf_Ex</a> to become invalid. Thus if you want to obtain logical configurations after calling <b>CM_Add_Empty_Log_Conf_Ex</b>, your code must call <b>CM_Get_First_Log_Conf_Ex</b> again and start at the first configuration.
+Calling <b>CM_Add_Empty_Log_Conf_Ex</b> can cause the handles returned by <a href="https://msdn.microsoft.com/cb562b5c-eb40-4be4-89a3-0e69a78ae6ea">CM_Get_First_Log_Conf_Ex</a> and <a href="https://msdn.microsoft.com/590baeb8-9234-4895-a05b-1917b2ee0155">CM_Get_Next_Log_Conf_Ex</a> to become invalid. Thus if you want to obtain logical configurations after calling <b>CM_Add_Empty_Log_Conf_Ex</b>, your code must call <b>CM_Get_First_Log_Conf_Ex</b> again and start at the first configuration.
 
 To remove a logical configuration created by <b>CM_Add_Empty_Log_Conf_Ex</b>, call <a href="https://msdn.microsoft.com/dd19400b-e83e-4feb-a968-b57656c9996c">CM_Free_Log_Conf_Ex</a>.
 
@@ -112,7 +112,7 @@ The handle received in <i>plcLogConf</i> must be explicitly freed by calling <a 
 
 Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are described in the Microsoft Windows SDK documentation.)
 
-For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/en-us/library/Ff538076(v=VS.85).aspx">CM_Get_Child_Ex</a>.
+For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>.
 
 Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -136,15 +136,15 @@ Functionality to access remote machines has been removed in Windows 8 and Windo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538076(v=VS.85).aspx">CM_Get_Child_Ex</a>
+<a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538529(v=VS.85).aspx">CM_Get_First_Log_Conf_Ex</a>
+<a href="https://msdn.microsoft.com/cb562b5c-eb40-4be4-89a3-0e69a78ae6ea">CM_Get_First_Log_Conf_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538598(v=VS.85).aspx">CM_Get_Next_Log_Conf_Ex</a>
+<a href="https://msdn.microsoft.com/590baeb8-9234-4895-a05b-1917b2ee0155">CM_Get_Next_Log_Conf_Ex</a>
  
 
  

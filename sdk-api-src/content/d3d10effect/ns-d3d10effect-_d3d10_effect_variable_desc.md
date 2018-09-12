@@ -76,7 +76,7 @@ The semantic attached to the variable; otherwise <b>NULL</b>.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Optional <a href="https://msdn.microsoft.com/en-us/library/Bb205176(v=VS.85).aspx">flags</a> for effect variables.
+Optional <a href="https://msdn.microsoft.com/434bcff8-47ea-480d-bc0b-44d3ed1f8cce">flags</a> for effect variables.
 			
 
 
@@ -105,7 +105,7 @@ The register that this variable is bound to. To bind a variable explicitly use t
 
 
 
-To get an effect-variable description, call <a href="https://msdn.microsoft.com/en-us/library/Bb173738(v=VS.85).aspx">ID3D10EffectVariable::GetDesc</a>.
+To get an effect-variable description, call <a href="https://msdn.microsoft.com/64ab5d84-834b-49cf-a873-6c249d808662">ID3D10EffectVariable::GetDesc</a>.
 
 
 
@@ -115,7 +115,7 @@ To get an effect-variable description, call <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205180(v=VS.85).aspx">Effect Structures (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/bbd69b4b-d2f4-471f-a607-328f5fc603b5">Effect Structures (Direct3D 10)</a>
  
 
  

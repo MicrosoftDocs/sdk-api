@@ -133,26 +133,30 @@ This method is called after the <a href="https://msdn.microsoft.com/4e1f4300-057
 
 The following C++ code implements GetObjectTotalSize. It uses the Win32 function GetFileInformationByHandle to retrieve the file size of the file about to be written to the device (m_File), and returns the values.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // About to start writing to the device.
 HRESULT GetObjectTotalSize(DWORD*  pdwSize,    DWORD*  pdwSizeHigh)
 {
     BY_HANDLE_FILE_INFORMATION fileInfo;
     GetFileInformationByHandle(
         m_File,
-        &fileInfo);
+        &amp;fileInfo);
 
     *pdwSize = fileInfo.nFileSizeLow;
     *pdwSizeHigh = fileInfo.nFileSizeHigh;
     // TODO: Display the message: "IWMDMOperation event--GetObjectTotalSize."
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

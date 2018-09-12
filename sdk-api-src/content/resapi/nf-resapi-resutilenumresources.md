@@ -51,7 +51,7 @@ req.redist:
 
 
 Enumerates all of the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> in the local 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and initiates a user-defined operation for each 
+    <a href="c_gly.htm">cluster</a> and initiates a user-defined operation for each 
     resource. The <b>PRESUTIL_ENUM_RESOURCES</b> type defines a pointer to this function.
 
 
@@ -124,9 +124,13 @@ The following example uses
       <b>ResUtilEnumResources</b> to list the names and 
       states of all resources in the cluster.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////
 //  ClusDocEx_EnumDemo.cpp
 //
 //  Uses the ResUtilEnumResources function to list the names and 
@@ -147,7 +151,7 @@ MyCallbackFunction(
     HRESOURCE hCurrentEnum,
     PVOID pData );
 
-LPRESOURCE_CALLBACK g_pMyCallbackFunction = &MyCallbackFunction;
+LPRESOURCE_CALLBACK g_pMyCallbackFunction = &amp;MyCallbackFunction;
 
 int main( void )
 {
@@ -181,7 +185,7 @@ MyCallbackFunction(
                             hCurrentEnum,
                             NULL,
                             CLUSCTL_RESOURCE_GET_NAME,
-                            &cbNameSize );
+                            &amp;cbNameSize );
     if( pszEnumName == NULL )
     {
         dwResult = GetLastError();
@@ -227,10 +231,10 @@ EndFunc:
     LocalFree( pszEnumName );
     return dwResult;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

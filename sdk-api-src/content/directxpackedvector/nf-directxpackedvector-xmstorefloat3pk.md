@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in a <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in a <a href="https://msdn.microsoft.com/40b3df37-d1c1-43fe-afcb-cbac4d9b6564">XMFLOAT3PK</a>.
 
 
 ## -parameters
@@ -83,21 +83,25 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
   XMVECTOR N;
 
   static const XMVECTOR  Max = { 65024.f, 65024.f, 64512.f, 0 };
   N = XMVectorClamp(V, XMVectorZero(), Max);
 
-  ConvertToFloat11( N.x, &pDestination->xm, &pDestination->xe);
-  ConvertToFloat11( N.y, &pDestination->ym, &pDestination->ye);
-  ConvertToFloat10( N.z, &pDestination->zm, &pDesitnation->ze);
-
-```
-
-
+  ConvertToFloat11( N.x, &amp;pDestination-&gt;xm, &amp;pDestination-&gt;xe);
+  ConvertToFloat11( N.y, &amp;pDestination-&gt;ym, &amp;pDestination-&gt;ye);
+  ConvertToFloat10( N.z, &amp;pDestination-&gt;zm, &amp;pDesitnation-&gt;ze);
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

@@ -108,18 +108,22 @@ For a method, the in and out parameters are described as properties in
 
 For example, consider the following method:
 
-
-```
-Class MyClass{
+<div class="code"><span codelanguage="mof"><table>
+<tr>
+<th>mof</th>
+</tr>
+<tr>
+<td>
+<pre>Class MyClass{
     [key] string KeyVal;
     sint32 PropVal;
     sint32 ExampleMethod([in] sint32 Param1, [in] uint32 Param2, 
         [out] string Param3);
     HRESULT ReturnValue;
-};
-```
-
-
+};</pre>
+</td>
+</tr>
+</table></span></div>
 In the previous example, the class has one method. To create the method programmatically, the user calls 
 <b>IWbemClassObject::PutMethod</b> with the <i>pInSignature</i> parameter that points to a copy of the system class 
 <a href="https://msdn.microsoft.com/d973feb5-27c4-4d8e-bf1b-0a455afa4375">__Parameters</a> that contains two properties: <b>Param1</b> and <b>Param2</b>. The <i>pOutSignature</i> points to a copy of the system class <b>__Parameters</b>  that contains two properties: <b>Param3</b> and <b>ReturnValue</b>.

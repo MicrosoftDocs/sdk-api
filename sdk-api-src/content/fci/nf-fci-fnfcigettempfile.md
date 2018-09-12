@@ -82,9 +82,13 @@ The function can return a filename that already exists by the time it is opened.
 
 #### Examples
 
-
-```cpp
-FNFCIGETTEMPFILE(fnGetTempFileName)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCIGETTEMPFILE(fnGetTempFileName)
 {
     BOOL bSucceeded = FALSE;
     CHAR pszTempPath[MAX_PATH];
@@ -104,10 +108,10 @@ FNFCIGETTEMPFILE(fnGetTempFileName)
 
     return bSucceeded;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

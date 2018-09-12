@@ -95,36 +95,40 @@ The dwMask member of the <a href="https://msdn.microsoft.com/927c58d3-4208-4fd3-
 
 The example shows a sample implementation:
 
-
-```cpp
-HRESULT CPubApp::GetPublishedAppInfo(PUBAPPINFO *pInfo)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CPubApp::GetPublishedAppInfo(PUBAPPINFO *pInfo)
 {
-    if (sizeof(PUBAPPINFO) != pInfo->cbSize)
+    if (sizeof(PUBAPPINFO) != pInfo-&gt;cbSize)
         return E_FAIL;
 		
     // Add/Remove Programs will use these items but will not ask for them.
 
-    pInfo->dwMask |= (PAI_EXPIRETIME | PAI_SCHEDULEDTIME);
+    pInfo-&gt;dwMask |= (PAI_EXPIRETIME | PAI_SCHEDULEDTIME);
 
     // First save off the mask of requested data items.
 
-    const DWORD dwMask = pInfo->dwMask;
+    const DWORD dwMask = pInfo-&gt;dwMask;
 
     // Zero-out the mask.  The bits should be set as items are retrieved.
 
-    pInfo->dwMask = 0;
+    pInfo-&gt;dwMask = 0;
 
     // Call an internal function that obtains data and sets
-    // bits in pInfo->dwMask for each item obtained.
+    // bits in pInfo-&gt;dwMask for each item obtained.
 
     return get_pub_app_info(pInfo, dwMask);
 }
 
 
-					
-```
-
-
+					</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

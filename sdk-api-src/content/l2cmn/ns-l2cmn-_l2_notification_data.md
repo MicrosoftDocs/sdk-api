@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/Ff560690(v=VS.85).aspx">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/library/Dn897672(v=VS.85).aspx">WLAN Universal Windows driver model</a>.</div><div> </div>The L2_NOTIFICATION_DATA structure is used by the IHV Extensions DLL to send notifications to any
+<div class="alert"><b>Important</b>  The <a href="netvista.native_802_11_wireless_lan4">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="netvista.wifi_universal_driver_model">WLAN Universal Windows driver model</a>.</div><div> </div>The L2_NOTIFICATION_DATA structure is used by the IHV Extensions DLL to send notifications to any
   service or applications that has registered for the notification.
 
 

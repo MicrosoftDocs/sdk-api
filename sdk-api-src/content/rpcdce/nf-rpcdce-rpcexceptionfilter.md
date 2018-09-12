@@ -192,9 +192,13 @@ The exception is not fatal.
 
 The recommended usage of <b>RpcExceptionFilter</b> is:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 RpcTry
 {
     … RPC calls here …
@@ -202,10 +206,10 @@ RpcExcept(RpcExceptionFilter(RpcExceptionCode()))
 {
     … error handling here …
 }
-RpcEndExcept
-```
-
-
+RpcEndExcept</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

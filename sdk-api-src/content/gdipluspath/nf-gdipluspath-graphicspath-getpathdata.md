@@ -61,21 +61,21 @@ The <b>GraphicsPath::GetPathData</b> method gets an array of points and an array
 
 ### -param pathData [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534481(v=VS.85).aspx">PathData</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/b8e9a4cb-72e1-4646-956a-50801176a3bd">PathData</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534481(v=VS.85).aspx">PathData</a> object that receives the path data. The <i>Points</i> data member of the <b>PathData</b> object receives a pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> objects that contains the path points. The <i>Types</i> data member of the <b>PathData</b> object receives a pointer to an array of bytes that contains the point types. The <i>Count</i> data member of the <b>PathData</b> object receives an integer that indicates the number of elements in the <i>Points</i> array. 
+Pointer to a <a href="https://msdn.microsoft.com/b8e9a4cb-72e1-4646-956a-50801176a3bd">PathData</a> object that receives the path data. The <i>Points</i> data member of the <b>PathData</b> object receives a pointer to an array of <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> objects that contains the path points. The <i>Types</i> data member of the <b>PathData</b> object receives a pointer to an array of bytes that contains the point types. The <i>Count</i> data member of the <b>PathData</b> object receives an integer that indicates the number of elements in the <i>Points</i> array. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -84,20 +84,24 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object has an array of points and an array of types. Each element in the array of types is a byte that specifies the point type and a set of flags for the corresponding element in the array of points. Possible point types and flags are listed in the <a href="https://msdn.microsoft.com/en-us/library/ms534162(v=VS.85).aspx">PathPointType</a> enumeration.
+A <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object has an array of points and an array of types. Each element in the array of types is a byte that specifies the point type and a set of flags for the corresponding element in the array of points. Possible point types and flags are listed in the <a href="https://msdn.microsoft.com/daad4301-f338-4cce-bb31-ddcf09c0c59c">PathPointType</a> enumeration.
 
-You do not have to allocate or deallocate memory for the array of points or the array of types. The <b>GraphicsPath::GetPathData</b> method allocates memory for the arrays (points and types) that it returns. The <a href="https://msdn.microsoft.com/en-us/library/ms534481(v=VS.85).aspx">PathData</a> destructor deallocates the memory for those arrays.
+You do not have to allocate or deallocate memory for the array of points or the array of types. The <b>GraphicsPath::GetPathData</b> method allocates memory for the arrays (points and types) that it returns. The <a href="https://msdn.microsoft.com/b8e9a4cb-72e1-4646-956a-50801176a3bd">PathData</a> destructor deallocates the memory for those arrays.
 
 
 #### Examples
 
 
 
-The following example creates and draws a path that has a line, a rectangle, an ellipse, and a curve. The code gets the path's points and types by passing the address of a <a href="https://msdn.microsoft.com/en-us/library/ms534481(v=VS.85).aspx">PathData</a> object to the <b>GraphicsPath::GetPathData</b> method. Then the code draws each of the path's data points.
+The following example creates and draws a path that has a line, a rectangle, an ellipse, and a curve. The code gets the path's points and types by passing the address of a <a href="https://msdn.microsoft.com/b8e9a4cb-72e1-4646-956a-50801176a3bd">PathData</a> object to the <b>GraphicsPath::GetPathData</b> method. Then the code draws each of the path's data points.
 
-
-```cpp
-VOID GetPathDataExample(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID GetPathDataExample(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -118,27 +122,27 @@ VOID GetPathDataExample(HDC hdc)
 
    // Draw the path.
    Pen pen(Color(255, 0, 0, 255));
-   graphics.DrawPath(&pen, &path);
+   graphics.DrawPath(&amp;pen, &amp;path);
 
    // Get the path data.
    PathData pathData;
-   path.GetPathData(&pathData);
+   path.GetPathData(&amp;pathData);
 
    // Draw the path's data points.
    SolidBrush brush(Color(255, 255, 0, 0));
-   for(INT j = 0; j < pathData.Count; ++j)
+   for(INT j = 0; j &lt; pathData.Count; ++j)
    {
       graphics.FillEllipse(
-         &brush, 
+         &amp;brush, 
          pathData.Points[j].X - 3.0f, 
          pathData.Points[j].Y - 3.0f,
          6.0f,
          6.0f);
    }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -147,47 +151,47 @@ VOID GetPathDataExample(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+<a href="https://msdn.microsoft.com/816a5845-ca03-46c6-bdda-e6a7d02ff614">Clipping with a Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535561(v=VS.85).aspx">GetPathPoints Methods</a>
+<a href="https://msdn.microsoft.com/65a9d308-e1b7-40c4-a079-2ec9d9a5cae3">GetPathPoints Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535535(v=VS.85).aspx">GraphicsPath::GetPathTypes</a>
+<a href="https://msdn.microsoft.com/fded6e62-0134-4e2c-aa40-cf0a32a5b2f2">GraphicsPath::GetPathTypes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535536(v=VS.85).aspx">GraphicsPath::GetPointCount</a>
+<a href="https://msdn.microsoft.com/52bbe19b-298f-4297-9d23-a7b3b1f1e004">GraphicsPath::GetPointCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534481(v=VS.85).aspx">PathData</a>
+<a href="https://msdn.microsoft.com/b8e9a4cb-72e1-4646-956a-50801176a3bd">PathData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534162(v=VS.85).aspx">PathPointType</a>
+<a href="https://msdn.microsoft.com/daad4301-f338-4cce-bb31-ddcf09c0c59c">PathPointType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
+<a href="https://msdn.microsoft.com/88fea2ec-7b53-44bb-841d-486c5c879c68">Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
  
 
  

@@ -177,9 +177,13 @@ Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_A
 This example demonstrates retrieving the connection 
                 time-out value:
 
-
-```cpp
-    DWORD data;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    DWORD data;
     DWORD dwSize = sizeof(DWORD);
 
     // Use WinHttpOpen to obtain an HINTERNET handle.
@@ -194,7 +198,7 @@ This example demonstrates retrieving the connection
         // Use WinHttpQueryOption to retrieve internet options.
         if (WinHttpQueryOption( hSession, 
                                 WINHTTP_OPTION_CONNECT_TIMEOUT, 
-                                &data, &dwSize))
+                                &amp;data, &amp;dwSize))
         {
             printf("Connection timeout: %u ms\n\n",data);
         }
@@ -210,10 +214,10 @@ This example demonstrates retrieving the connection
     {
         printf("Error %u in WinHttpOpen.\n", GetLastError());
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -89,7 +89,7 @@ A string that contains the responder-server name.
 <h3>VB</h3>
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 If the method returns <b>HRESULT_FROM_WIN32(ERROR_INVALID_STATE)</b>, the configuration is already initialized.
 
@@ -192,7 +192,7 @@ The method fails if you try to call it more than once for a given <b>OCSPAdmin</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386313(v=VS.85).aspx">IOCSPAdmin</a>
+<a href="https://msdn.microsoft.com/cf76e934-07a2-46de-b2cf-7f6d3e274d71">IOCSPAdmin</a>
  
 
  

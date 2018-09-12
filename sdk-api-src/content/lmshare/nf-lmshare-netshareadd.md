@@ -102,7 +102,7 @@ Specifies information about the shared resource, including the name of the resou
 </td>
 <td width="60%">
 Specifies information about the shared resource, including the name of the resource, type and permissions, number of connections, and other pertinent information. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/en-us/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a> structure.
+<a href="fs.share_info_503">SHARE_INFO_503</a> structure.
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ Only members of the Administrators, System Operators, or Power Users local group
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management share functions. For more information, see 
 <a href="https://msdn.microsoft.com/37695195-fc33-499d-98c1-ccfd190cb2f9">IADsFileShare</a>.
 
-If 503 is specified for the <i>level</i> parameter, the remote server specified in the <b>shi503_servername</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a> structure must have been bound to a transport protocol using the <a href="https://msdn.microsoft.com/d1edc75d-8313-422c-a6fb-8b51a309a252">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> flag must have been specified in the <a href="https://msdn.microsoft.com/b422eb71-1f93-432d-8283-81432edfe568">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
+If 503 is specified for the <i>level</i> parameter, the remote server specified in the <b>shi503_servername</b> member of the <a href="fs.share_info_503">SHARE_INFO_503</a> structure must have been bound to a transport protocol using the <a href="https://msdn.microsoft.com/d1edc75d-8313-422c-a6fb-8b51a309a252">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> flag must have been specified in the <a href="https://msdn.microsoft.com/b422eb71-1f93-432d-8283-81432edfe568">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
 
 
 #### Examples
@@ -240,14 +240,18 @@ The following code sample demonstrates how to share a network resource using a c
 <a href="https://msdn.microsoft.com/cd152ccd-cd60-455f-b25c-c4939c65e0ab">SHARE_INFO_2</a> structure and calls 
 <b>NetShareAdd</b>, specifying information level 2. A password is not required because these platforms do not support share-level security.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
-#include <windows.h>
-#include <stdio.h>
-#include <lm.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;lm.h&gt;
 #pragma comment(lib, "Netapi32.lib")
 
 void wmain( int argc, TCHAR *argv[ ])
@@ -256,7 +260,7 @@ void wmain( int argc, TCHAR *argv[ ])
    SHARE_INFO_2 p;
    DWORD parm_err = 0;
 
-   if(argc<2)
+   if(argc&lt;2)
       printf("Usage: NetShareAdd server\n");
    else
    {
@@ -275,7 +279,7 @@ void wmain( int argc, TCHAR *argv[ ])
       // Call the NetShareAdd function,
       //  specifying level 2.
       //
-      res=NetShareAdd(argv[1], 2, (LPBYTE) &p, &parm_err);
+      res=NetShareAdd(argv[1], 2, (LPBYTE) &amp;p, &amp;parm_err);
       //
       // If the call succeeds, inform the user.
       //
@@ -290,10 +294,10 @@ void wmain( int argc, TCHAR *argv[ ])
    }
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -340,7 +344,7 @@ void wmain( int argc, TCHAR *argv[ ])
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a>
+<a href="fs.share_info_503">SHARE_INFO_503</a>
  
 
  

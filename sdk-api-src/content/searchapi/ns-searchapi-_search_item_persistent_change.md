@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Contains information about the kind of change that has occurred in an item to be indexed.  This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb231455(v=VS.85).aspx">ISearchPersistentItemsChangedSink::OnItemsChanged</a> method to pass information to the indexer about what has changed.
+Contains information about the kind of change that has occurred in an item to be indexed.  This structure is used with the <a href="https://msdn.microsoft.com/975f687f-65c7-4086-b99c-c1b1419a701b">ISearchPersistentItemsChangedSink::OnItemsChanged</a> method to pass information to the indexer about what has changed.
 
 
 ## -struct-fields
@@ -60,9 +60,9 @@ Contains information about the kind of change that has occurred in an item to be
 
 ### -field Change
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965702(v=VS.85).aspx">SEARCH_KIND_OF_CHANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b47b18b4-df67-433f-8c10-1a0b444d0f3a">SEARCH_KIND_OF_CHANGE</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965702(v=VS.85).aspx">SEARCH_KIND_OF_CHANGE</a> enumerated type that indicates the kind of change.
+A value from the <a href="https://msdn.microsoft.com/b47b18b4-df67-433f-8c10-1a0b444d0f3a">SEARCH_KIND_OF_CHANGE</a> enumerated type that indicates the kind of change.
 
 
 ### -field URL
@@ -79,16 +79,16 @@ Pointer to a null-terminated Unicode string containing the URL of the item in a 
 
 ### -field Priority
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965703(v=VS.85).aspx">SEARCH_NOTIFICATION_PRIORITY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b4539914-392f-40b4-8d6b-9069f1fce187">SEARCH_NOTIFICATION_PRIORITY</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965703(v=VS.85).aspx">SEARCH_NOTIFICATION_PRIORITY</a> enumerated type that indicates the priority of the change.
+A value from the <a href="https://msdn.microsoft.com/b4539914-392f-40b4-8d6b-9069f1fce187">SEARCH_NOTIFICATION_PRIORITY</a> enumerated type that indicates the priority of the change.
 
 
 ## -remarks
 
 
 
-SEARCH_CHANGE_MOVE_RENAME is not supported for use with <a href="https://msdn.microsoft.com/en-us/library/Bb231455(v=VS.85).aspx">ISearchPersistentItemsChangedSink::OnItemsChanged</a>.
+SEARCH_CHANGE_MOVE_RENAME is not supported for use with <a href="https://msdn.microsoft.com/975f687f-65c7-4086-b99c-c1b1419a701b">ISearchPersistentItemsChangedSink::OnItemsChanged</a>.
             
 
 

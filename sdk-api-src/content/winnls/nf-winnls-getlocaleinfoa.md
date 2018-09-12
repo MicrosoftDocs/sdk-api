@@ -136,15 +136,19 @@ For the operation of this function, see Remarks for <a href="https://msdn.micros
 <div> </div>
 The following examples deal correctly with the buffer size for non-text values:
 
-
-```cpp
-int   ret;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>int   ret;
 CALID calid;
 DWORD value;
 
 ret = GetLocaleInfo(LOCALE_USER_DEFAULT,
                     LOCALE_ICALENDARTYPE | LOCALE_RETURN_NUMBER,
-                    (LPTSTR)&value,
+                    (LPTSTR)&amp;value,
                     sizeof(value) / sizeof(TCHAR) );
 calid = value;
 
@@ -152,12 +156,12 @@ LOCALESIGNATURE LocSig;
 
 ret = GetLocaleInfo(LOCALE_USER_DEFAULT,
                     LOCALE_FONTSIGNATURE,
-                    (LPWSTR)&LocSig,
+                    (LPWSTR)&amp;LocSig,
                     sizeof(LocSig) / sizeof(TCHAR) );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The ANSI string retrieved by the ANSI version of this function is translated from Unicode to ANSI based on the default ANSI code page for the locale identifier. However, if <a href="https://msdn.microsoft.com/686ca9f2-515d-449f-8871-77c78ab5c31a">LOCALE_USE_CP_ACP</a> is specified, the translation is based on the system default ANSI code page.
 
 When the ANSI version of this function is used with a Unicode-only locale identifier, the function can succeed because the operating system uses the system code page. However, characters that are undefined in the system code page appear in the string as a question mark (?). 

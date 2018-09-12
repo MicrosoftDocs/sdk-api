@@ -97,18 +97,22 @@ You can use <b>IADsNameTranslate::SetEx</b> to set names for multiple objects. A
 
 The following C/C++ code example uses the <b>IADsNameTranslate::SetEx</b> method to set up an array of objects whose names are to be translated from the RFC 1779 format to the Windows user name format.
 
-
-```cpp
-IADsNameTranslate *pNto;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsNameTranslate *pNto;
 HRESULT hr;
 hr = CoCreateInstance(CLSID_NameTranslate,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_IADsNameTranslate,
-                      (void**)&pNto);
+                      (void**)&amp;pNto);
 if(FAILED(hr)) { exit 1;}
  
-hr = pNto->Init(ADS_NAME_INITTYPE_SERVER,
+hr = pNto-&gt;Init(ADS_NAME_INITTYPE_SERVER,
                   CComBSTR("myServer"));
 if (FAILED(hr)) { exit 1;}
  
@@ -117,55 +121,63 @@ LPWSTR str[1] = { L"CN=jim,CN=Users,DC=myDomain,DC=Fabrikam,DC=COM",
 DWORD dwNum = sizeof(str)/sizeof(LPWSTR);
  
 VARIANT varStr;
-VariantInit(&varStr);
+VariantInit(&amp;varStr);
  
-hr = ADsBuildVarArrayStr(str,dwNum,&varStr);
+hr = ADsBuildVarArrayStr(str,dwNum,&amp;varStr);
  
-hr =pNto->SetEx(ADS_NAME_TYPE_1779, varStr);
+hr =pNto-&gt;SetEx(ADS_NAME_TYPE_1779, varStr);
 if(FAILED(hr)) {exit 1;}
-VariantClear(&varStr);
+VariantClear(&amp;varStr);
  
-hr = pNto->GetEx(ADS_NAME_TYPE_GUID, &varStr);
+hr = pNto-&gt;GetEx(ADS_NAME_TYPE_GUID, &amp;varStr);
 if(FAILED(hr)) {exit 1;}
  
 LONG lstart, lend;
-SAFEARRAY *sa = V_ARRAY(&varStr);
+SAFEARRAY *sa = V_ARRAY(&amp;varStr);
 VARIANT varItem;
-VariantInit(&varItem);
+VariantInit(&amp;varItem);
 printf("Names in the translated format:\n");
-for (long idx = lstart; idx <= lend; idx++) 
+for (long idx = lstart; idx &lt;= lend; idx++) 
 {
-    hr = SafeArrayGetElement(sa, &idx, &varItem);
-    printf("   %S\n", V_BSTR(&varItem));
-    VariantClear(&varItem);
+    hr = SafeArrayGetElement(sa, &amp;idx, &amp;varItem);
+    printf("   %S\n", V_BSTR(&amp;varItem));
+    VariantClear(&amp;varItem);
 }
-VariantClear(&varStr);
-pNto->Release();
-```
-
-
+VariantClear(&amp;varStr);
+pNto-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 The following Visual Basic code example uses the <b>IADsNameTranslate::SetEx</b> method to set up an array of objects whose names are to be translated from the RFC 1779 format to the s user name format.
 
-
-```vb
-Dim nto As New NameTranslate
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim nto As New NameTranslate
 dso(0)="CN=jeffSmith, CN=users, DC=Fabrikam dc=COM"
 dso(1)="CN=brendaDiaz, CN=users, DC=Fabrikam dc=COM"
 nto.Init  ADS_NAME_INITTYPE_SERVER, "myServer"
 nto.SetEx ADS_NAME_TYPE_1779, dso
 trans = nto.GetEx(ADS_NAME_TYPE_NT4)   
-Msgbox "Translations: " & trans(0) & "," & trans(1)
-```
-
-
+Msgbox "Translations: " &amp; trans(0) &amp; "," &amp; trans(1)</pre>
+</td>
+</tr>
+</table></span></div>
 The following VBScript/ASP code example uses the <b>IADsNameTranslate::SetEx</b> method to set up an array of objects whose names are to be translated from the RFC 1779 format to the s user name format.
 
-
-```vb
-<%@ Language=VBScript %>
-<html>
-<body>
-<%
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;%@ Language=VBScript %&gt;
+&lt;html&gt;
+&lt;body&gt;
+&lt;%
   Dim nto
   const ADS_NAME_INITTYPE_SERVER = 2  ' VBScript cannot read 
   const ADS_NAME_TYPE_1779 = 1        ' enumeration definition
@@ -179,15 +191,15 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::SetEx</b>
   nto.SetEx ADS_NAME_TYPE_1779, dn
   result = nto.GetEx(ADS_NAME_TYPE_NT4)
  
-  Response.Write "<p>Name in the translated format: " & result(0) & _
-       ", & result(1)
+  Response.Write "&lt;p&gt;Name in the translated format: " &amp; result(0) &amp; _
+       ", &amp; result(1)
  
-%>
-</body>
-</html>
-```
-
-
+%&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

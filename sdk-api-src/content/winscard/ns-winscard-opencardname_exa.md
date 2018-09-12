@@ -151,19 +151,23 @@ A pointer to the caller's card connect routine. If the caller needs to perform a
 
 The prototype for the connect routine is as follows.
 
-
-```cpp
-Connect(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Connect(
   hSCardContext,  // the card context passed in the parameter block
   szReader,       // the name of the reader
   mszCards,       // multiple string that contains the possible 
                   //  card names in the reader
   pvUserData      // pointer to user data passed in parameter block
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field pvUserData
 
@@ -234,7 +238,7 @@ A handle of the connected card (either through an internal dialog box connect or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>
+<a href="authentication_return_values.htm">Smart Card Return Values</a>
  
 
  

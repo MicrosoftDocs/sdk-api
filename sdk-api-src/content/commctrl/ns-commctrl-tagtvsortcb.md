@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information used to sort child items in a tree-view control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb773785(v=VS.85).aspx">TVM_SORTCHILDRENCB</a> message. This structure is identical to the 
+Contains information used to sort child items in a tree-view control. This structure is used with the <a href="https://msdn.microsoft.com/1669e576-5e57-49f6-8097-7d6547306014">TVM_SORTCHILDRENCB</a> message. This structure is identical to the 
 			<b>TV_SORTCB</b> structure, but it has been renamed to follow current naming conventions. 
 
 
@@ -75,7 +75,7 @@ Address of an application-defined callback function, which is called during a so
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
 Application-defined value that gets passed as the 
 					<i>lParamSort</i> argument in the callback function specified in 
@@ -94,7 +94,7 @@ int CALLBACK CompareFunc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort);
 </code></pre>
 The callback function must return a negative value if the first item should precede the second, a positive value if the first item should follow the second, or zero if the two items are equivalent.
 
-The <i>lParam1</i> and <i>lParam2</i> parameters correspond to the lParam member of the <a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure for the two items being compared. The <i>lParamSort</i> parameter corresponds to the <b>lParam</b> member of this structure.
+The <i>lParam1</i> and <i>lParam2</i> parameters correspond to the lParam member of the <a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a> structure for the two items being compared. The <i>lParamSort</i> parameter corresponds to the <b>lParam</b> member of this structure.
 
 
 

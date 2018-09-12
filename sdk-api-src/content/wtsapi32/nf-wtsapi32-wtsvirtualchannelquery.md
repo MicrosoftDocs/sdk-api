@@ -123,9 +123,13 @@ Note that you should not explicitly close the file handle obtained by calling
     <b>WTSVirtualChannelQuery</b>. This is because 
     <a href="https://msdn.microsoft.com/d82cb1cd-a9bd-45e8-8a86-2c7dd860b987">WTSVirtualChannelClose</a> closes the file handle.
 
-
-```cpp
-    PVOID vcFileHandlePtr = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    PVOID vcFileHandlePtr = NULL;
     DWORD len;
     DWORD result = ERROR_SUCCESS;
     HANDLE vcHandle = NULL;
@@ -154,8 +158,8 @@ Note that you should not explicitly close the file handle obtained by calling
         if (!WTSVirtualChannelQuery(
                             vcHandle,
                             WTSVirtualFileHandle,
-                            &vcFileHandlePtr,
-                            &len
+                            &amp;vcFileHandlePtr,
+                            &amp;len
                             )) 
         {
             result = GetLastError();
@@ -168,7 +172,7 @@ Note that you should not explicitly close the file handle obtained by calling
     //
     if (result == ERROR_SUCCESS) 
     {
-        memcpy(&vcFileHandle, vcFileHandlePtr, sizeof(vcFileHandle));
+        memcpy(&amp;vcFileHandle, vcFileHandlePtr, sizeof(vcFileHandle));
         WTSFreeMemory(vcFileHandlePtr);
 
         //
@@ -188,10 +192,10 @@ Note that you should not explicitly close the file handle obtained by calling
         WTSVirtualChannelClose(vcHandle);
         vcFileHandle = NULL;
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For more information about overlapped mode, see 
     <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and 
     Output</a>.

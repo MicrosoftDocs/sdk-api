@@ -76,11 +76,11 @@ An app calls <a href="https://msdn.microsoft.com/346f5dae-3ce2-4c03-ab17-1c46e18
 
 The runtime defines the following standard sample patterns for 1(trivial),  2, 4, 8, and 16 sample counts. Hardware must support 1, 4, and 8 sample counts. Hardware vendors can expose more sample counts beyond these. However, if vendors support 2, 4(required), 8(required), or 16, they must also support the corresponding standard pattern or center pattern for each of those sample counts.
 
-<img alt="Pattern for 1 Sample Count" src="./images/D3D11_MSAAGrid.png"/>
+<img alt="Pattern for 1 Sample Count" src="images/D3D11_MSAAGrid.png"/>
 
-<img alt="Patterns for 2 and 4 Sample Count" src="./images/D3D11_MSAAPatterns_2_4.png"/>
+<img alt="Patterns for 2 and 4 Sample Count" src="images/D3D11_MSAAPatterns_2_4.png"/>
 
-<img alt="Patterns for 8 and 16 Sample Count" src="./images/D3D11_MSAAPatterns_8_16.png"/>
+<img alt="Patterns for 8 and 16 Sample Count" src="images/D3D11_MSAAPatterns_8_16.png"/>
 
 
 

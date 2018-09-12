@@ -95,7 +95,7 @@ GetColumnWidth returns 0 (zero) as the column width. However, because a column c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300857(v=VS.85).aspx">IHeaderCtrl</a>
+<a href="https://msdn.microsoft.com/64da2c79-2ede-4b17-a706-8e5cc0ade007">IHeaderCtrl</a>
  
 
  

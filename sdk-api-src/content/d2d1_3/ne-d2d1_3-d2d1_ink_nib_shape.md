@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the appearance of the ink nib (pen tip) as part of an <a href="https://msdn.microsoft.com/en-us/library/Dn890737(v=VS.85).aspx">D2D1_INK_STYLE_PROPERTIES</a> structure.
+Specifies the appearance of the ink nib (pen tip) as part of an <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a> structure.
         
 
 

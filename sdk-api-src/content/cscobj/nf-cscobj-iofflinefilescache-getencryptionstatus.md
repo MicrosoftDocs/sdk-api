@@ -86,22 +86,26 @@ This encryption state is read from the Offline Files cache and reflects the stat
 
 This method returns two values that indicate if the cache is fully encrypted, partially encrypted, fully unencrypted or partially unencrypted.
 
-To change the encryption state of the cache, use the <a href="https://msdn.microsoft.com/en-us/library/Bb530489(v=VS.85).aspx">IOfflineFilesCache::Encrypt</a> method.
+To change the encryption state of the cache, use the <a href="https://msdn.microsoft.com/b7531018-4837-4fde-8947-0f099f6de9e5">IOfflineFilesCache::Encrypt</a> method.
 
 
 #### Examples
 
 The following example shows how to use this method.
 
-
-```cpp
-    //
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    //
     // Assume we already have a cache ptr.
     //
     IOfflineFilesCache *pCache;
     BOOL bEncrypted;
     BOOL bPartial;
-    HRESULT hr = pCache->GetEncryptionStatus(&bEncrypted, &bPartial);
+    HRESULT hr = pCache-&gt;GetEncryptionStatus(&amp;bEncrypted, &amp;bPartial);
     if (SUCCEEDED(hr))
     {
         if (bEncrypted)
@@ -127,10 +131,10 @@ The following example shows how to use this method.
             }
         }
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -139,7 +143,7 @@ The following example shows how to use this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
  
 
  

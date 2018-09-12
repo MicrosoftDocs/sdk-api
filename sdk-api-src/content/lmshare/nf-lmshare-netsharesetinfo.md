@@ -119,7 +119,7 @@ Specifies information about the shared resource, including the name and type of 
 </dl>
 </td>
 <td width="60%">
-Specifies the name of the shared resource. The <i>buf</i> parameter points to a <a href="https://msdn.microsoft.com/en-us/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a> structure. All members of this structure except <b>shi503_servername</b> are ignored by the <b>NetShareSetInfo</b> function.
+Specifies the name of the shared resource. The <i>buf</i> parameter points to a <a href="fs.share_info_503">SHARE_INFO_503</a> structure. All members of this structure except <b>shi503_servername</b> are ignored by the <b>NetShareSetInfo</b> function.
 
 <b>Windows Server 2003 and Windows XP:  </b>This information level is not supported.
 
@@ -307,7 +307,7 @@ If the
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management share functions. For more information, see 
 <a href="https://msdn.microsoft.com/37695195-fc33-499d-98c1-ccfd190cb2f9">IADsFileShare</a>.
 
-If 503 is specified for the <i>level</i> parameter, the remote server specified in the <b>shi503_servername</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a> structure must have been bound to a transport protocol using the <a href="https://msdn.microsoft.com/d1edc75d-8313-422c-a6fb-8b51a309a252">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> flag must have been specified in the <a href="https://msdn.microsoft.com/b422eb71-1f93-432d-8283-81432edfe568">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
+If 503 is specified for the <i>level</i> parameter, the remote server specified in the <b>shi503_servername</b> member of the <a href="fs.share_info_503">SHARE_INFO_503</a> structure must have been bound to a transport protocol using the <a href="https://msdn.microsoft.com/d1edc75d-8313-422c-a6fb-8b51a309a252">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> flag must have been specified in the <a href="https://msdn.microsoft.com/b422eb71-1f93-432d-8283-81432edfe568">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
 
 
 #### Examples
@@ -315,14 +315,18 @@ If 503 is specified for the <i>level</i> parameter, the remote server specified 
 The following code sample demonstrates how to set the comment associated with a shared resource using a call to the 
 <b>NetShareSetInfo</b> function. To do this, the sample specifies information level 1004 (<a href="https://msdn.microsoft.com/41749066-d0e2-4a6b-aea5-216af9a530f4">SHARE_INFO_1004</a>).
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
-#include <windows.h>
-#include <stdio.h>
-#include <lm.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;lm.h&gt;
 #pragma comment(lib, "Netapi32.lib")
 
 void wmain( int argc, TCHAR *argv[ ])
@@ -331,7 +335,7 @@ void wmain( int argc, TCHAR *argv[ ])
    NET_API_STATUS res;
    DWORD parm_err = 0;
 
-   if(argc<4)
+   if(argc&lt;4)
       printf("Usage: SetInfo server share \"remark\"\n");
    else
    {
@@ -343,7 +347,7 @@ void wmain( int argc, TCHAR *argv[ ])
       // Call the NetShareSetInfo function,
       //  specifying information level 1004.
       //
-      res=NetShareSetInfo(argv[1], argv[2], 1004, (LPBYTE)&p, &parm_err);
+      res=NetShareSetInfo(argv[1], argv[2], 1004, (LPBYTE)&amp;p, &amp;parm_err);
       //
       // Display the result of the call.
       //
@@ -354,10 +358,10 @@ void wmain( int argc, TCHAR *argv[ ])
    }
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -416,7 +420,7 @@ void wmain( int argc, TCHAR *argv[ ])
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a>
+<a href="fs.share_info_503">SHARE_INFO_503</a>
  
 
  

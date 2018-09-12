@@ -208,9 +208,13 @@ After a successful call to this function, the result set cursor should be  posit
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-/////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterQueryByContent
 //
@@ -252,10 +256,10 @@ StorageAdapterQueryByContent(
     }
 
     // Retrieve the context from the pipeline.
-    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline->StorageContext;
+    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline-&gt;StorageContext;
 
     // Verify the pipeline state.
-    if (storageContext == NULL || storageContext->FileHandle == INVALID_HANDLE_VALUE)
+    if (storageContext == NULL || storageContext-&gt;FileHandle == INVALID_HANDLE_VALUE)
     {
         hr =  WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -270,12 +274,12 @@ StorageAdapterQueryByContent(
     }
 
     // Validate the IndexElementCount argument.
-    if (IndexElementCount != storageContext->IndexElementCount)
+    if (IndexElementCount != storageContext-&gt;IndexElementCount)
     {
         hr = WINBIO_E_DATABASE_BAD_INDEX_VECTOR;
         goto cleanup;
     }
-    if (storageContext->IndexElementCount > 0 &&
+    if (storageContext-&gt;IndexElementCount &gt; 0 &amp;&amp;
         !ARGUMENT_PRESENT(IndexVector))
     {
         hr = E_POINTER;
@@ -290,7 +294,7 @@ StorageAdapterQueryByContent(
     }
 
     // Lock the database for reading.
-    hr = _LockDatabase( Pipeline->StorageHandle, FALSE);
+    hr = _LockDatabase( Pipeline-&gt;StorageHandle, FALSE);
     if (FAILED(hr))
     {
         goto cleanup;
@@ -298,7 +302,7 @@ StorageAdapterQueryByContent(
     lockAcquired = TRUE;
 
     // Read the header block.
-    hr = _ReadFileHeader( Pipeline->StorageHandle, &fileHeader );
+    hr = _ReadFileHeader( Pipeline-&gt;StorageHandle, &amp;fileHeader );
     if (FAILED(hr))
     {
         goto cleanup;
@@ -312,7 +316,7 @@ StorageAdapterQueryByContent(
     currentRecordOffset = _MY_ADAPTER_FIRST_RECORD_OFFSET;
     remainingRecords = fileHeader.TotalRecordCount;
 
-    while (remainingRecords > 0)
+    while (remainingRecords &gt; 0)
     {
         SIZE_T recordSize = 0;
         BOOLEAN match = FALSE;
@@ -335,7 +339,7 @@ StorageAdapterQueryByContent(
         }
 
         hr = _ReadRecordHeader(
-                Pipeline->StorageHandle,
+                Pipeline-&gt;StorageHandle,
                 currentRecordOffset,
                 recordHeader,
                 recordHeaderSize
@@ -345,10 +349,10 @@ StorageAdapterQueryByContent(
             goto cleanup;
         }
 
-        recordSize = recordHeader->RecordSize;
+        recordSize = recordHeader-&gt;RecordSize;
 
         // Skip records marked for deletion.
-        if ((recordHeader->Flags & _MY_ADAPTER_FLAG_RECORD_DELETED) == 0)
+        if ((recordHeader-&gt;Flags &amp; _MY_ADAPTER_FLAG_RECORD_DELETED) == 0)
         {
             // Call a custom function (_MatchIndexVector) that compares the index
             // vector of the current record with the input index vector.
@@ -356,10 +360,10 @@ StorageAdapterQueryByContent(
                     SubFactor,
                     IndexVector,
                     IndexElementCount,
-                    recordHeader->SubFactor,
+                    recordHeader-&gt;SubFactor,
                     _GetIndexVector(recordHeader),
-                    storageContext->IndexElementCount,
-                    &match
+                    storageContext-&gt;IndexElementCount,
+                    &amp;match
                     );
             if (FAILED(hr))
             {
@@ -371,11 +375,11 @@ StorageAdapterQueryByContent(
                 // Calculate the file offset of this record's data area.
                 dataOffset.QuadPart = 
                     currentRecordOffset.QuadPart + 
-                    recordHeader->RecordHeaderSize;
+                    recordHeader-&gt;RecordHeaderSize;
 
                 // Add the matching record to the result set in the pipeline.
                 hr = _ResultSetAddElement( 
-                        &storageContext->ResultSet, 
+                        &amp;storageContext-&gt;ResultSet, 
                         recordHeader, 
                         dataOffset
                         );
@@ -398,7 +402,7 @@ StorageAdapterQueryByContent(
     if (SUCCEEDED(hr))
     {
         SIZE_T elementCount = 0;
-        hr = _ResultSetGetCount(&storageContext->ResultSet, &elementCount);
+        hr = _ResultSetGetCount(&amp;storageContext-&gt;ResultSet, &amp;elementCount);
     }
 
 cleanup:
@@ -411,7 +415,7 @@ cleanup:
 
     if (lockAcquired == TRUE)
     {
-        _UnlockDatabase( Pipeline->StorageHandle);
+        _UnlockDatabase( Pipeline-&gt;StorageHandle);
         lockAcquired = FALSE;
     }
 
@@ -423,10 +427,10 @@ cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

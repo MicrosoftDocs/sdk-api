@@ -51,10 +51,10 @@ req.redist: Windows Desktop Search (WDS) 3.0
 
 
 Provides a set of flags to be used with the following methods to indicate the type of condition tree node: 
-        <a href="https://msdn.microsoft.com/en-us/library/Bb231390(v=VS.85).aspx">ICondition::GetConditionType</a>, 
-        <a href="https://msdn.microsoft.com/en-us/library/Bb231384(v=VS.85).aspx">IConditionFactory::MakeAndOr</a>, 
-        <a href="https://msdn.microsoft.com/en-us/library/Dd742801(v=VS.85).aspx">IConditionFactory2::CreateCompoundFromArray</a>, and 
-        <a href="https://msdn.microsoft.com/en-us/library/Dd742793(v=VS.85).aspx">IConditionFactory2::CreateCompoundFromObjectArray</a>.
+        <a href="https://msdn.microsoft.com/ba2a2fa0-7d1e-4009-9c93-f620cc691b44">ICondition::GetConditionType</a>, 
+        <a href="https://msdn.microsoft.com/b1446964-1fcd-4c94-ae9f-111abe55fa2d">IConditionFactory::MakeAndOr</a>, 
+        <a href="https://msdn.microsoft.com/e360e7a3-a54c-4fb3-a34d-0a308b3d99de">IConditionFactory2::CreateCompoundFromArray</a>, and 
+        <a href="https://msdn.microsoft.com/d707fbe2-f4c2-4746-985d-dd504d091de0">IConditionFactory2::CreateCompoundFromObjectArray</a>.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ Indicates a "NOT" comparison of subterms.
 
 ### -field CT_LEAF_CONDITION
 
-Indicates that the node is a comparison between a property and a constant value using a <a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>.
+Indicates that the node is a comparison between a property and a constant value using a <a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a>.
 
 
 ## -remarks
@@ -98,31 +98,31 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd797838(v=VS.85).aspx">CONDITION_CREATION_OPTIONS</a>
+<a href="https://msdn.microsoft.com/5fa88dc1-8ca3-4247-8bad-bba8be2ad734">CONDITION_CREATION_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
+<a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>
+<a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742811(v=VS.85).aspx">ICondition2</a>
+<a href="https://msdn.microsoft.com/32c68ff7-f0f3-40eb-801a-c5c21ec496fa">ICondition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231383(v=VS.85).aspx">IConditionFactory</a>
+<a href="https://msdn.microsoft.com/c678fa37-8673-4da7-9c23-9a7f478dc1b0">IConditionFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742799(v=VS.85).aspx">IConditionFactory2</a>
+<a href="https://msdn.microsoft.com/5ac0acb1-67f0-43f0-b1c1-2d8cf682a277">IConditionFactory2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a>
+<a href="https://msdn.microsoft.com/30fa2fb6-7dfd-41e1-ab4f-5fd80c8a81ec">IConditionGenerator</a>
 
 
 

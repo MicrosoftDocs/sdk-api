@@ -53,15 +53,19 @@ req.redist:
 <b>GPMBackupType</b> defines the type of backup created.
 
 <b>GPMBackupType</b> determines whether the backup is for a Group Policy object or a Starter Group Policy object.
-
-```cpp
-typedef enum {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef enum {
     typeGPO = 0,
     typeStarterGPO
-} GPMBackupType;
-```
-
-
+} GPMBackupType;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -enum-fields
 

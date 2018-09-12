@@ -264,7 +264,7 @@ The general attributes of the type, such as whether it describes a structure, an
 
 </li>
 </ul>
-The type description of an <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface can be used to implement the interface. For more information, see the description of <a href="https://msdn.microsoft.com/en-us/library/ms221135(v=VS.85).aspx">CreateStdDispatch</a> in <a href="https://msdn.microsoft.com/en-us/library/ms221328(v=VS.85).aspx">Dispatch Interface and API Functions</a>. 
+The type description of an <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface can be used to implement the interface. For more information, see the description of <a href="45A59243-DF93-41CA-AC60-354CB1165004">CreateStdDispatch</a> in <a href="75BFF268-BD85-49C4-B761-B557F4B1C588">Dispatch Interface and API Functions</a>. 
 
 An instance of <b>ITypeInfo</b> provides various information about the type of an object, and is used in different ways. A compiler can use an <b>ITypeInfo</b> to compile references to members of the type. A type interface browser can use it to find information about each member of the type. An <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> implementor can use it to provide automatic delegation of <b>IDispatch</b> calls to an interface.
 
@@ -276,7 +276,7 @@ An instance of <b>ITypeInfo</b> provides various information about the type of a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221172(v=VS.85).aspx">Type Description Interfaces and Functions </a>
+<a href="387d44b7-407b-44a9-9239-a4cb20e88cac">Type Description Interfaces and Functions </a>
  
 
  

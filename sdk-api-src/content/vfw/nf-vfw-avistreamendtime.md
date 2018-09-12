@@ -72,15 +72,19 @@ Handle to an open stream.
 
 The <b>AVIStreamEndTime</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamEndTime(pavi) \ 
     AVIStreamSampleToTime(pavi, AVIStreamEnd(pavi)) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

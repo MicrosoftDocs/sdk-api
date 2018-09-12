@@ -194,13 +194,17 @@ This function is available on the following platforms if the Windows Media Forma
 
 #### Examples
 
-
-```cpp
-    hr = MFStartup(MF_VERSION);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    hr = MFStartup(MF_VERSION);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

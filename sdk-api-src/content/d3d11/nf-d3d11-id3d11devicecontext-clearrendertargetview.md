@@ -100,7 +100,7 @@ Unlike Direct3D 9, the full extent of the resource view is always cleared. Viewp
 </table>
  
 
-When using <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL_9_x</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb173539(v=VS.85).aspx">ClearRenderTargetView</a> only clears the first array slice in the render target view. This can impact (for example) cube map rendering scenarios. Applications should create a render target view for each face or array slice, then clear each view individually.
+When using <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL_9_x</a>, <a href="https://msdn.microsoft.com/c1a630a3-3ffe-4d6a-a8e2-7a228167adb2">ClearRenderTargetView</a> only clears the first array slice in the render target view. This can impact (for example) cube map rendering scenarios. Applications should create a render target view for each face or array slice, then clear each view individually.
 
 
 

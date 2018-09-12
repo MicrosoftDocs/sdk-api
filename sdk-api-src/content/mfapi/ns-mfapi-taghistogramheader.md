@@ -91,17 +91,21 @@ The <b>MF_CAPTURE_METADATA_HISTOGRAM</b> attribute contains a  histogram when a 
 
 For the <b>ChannelMasks</b> field, the following bitmasks indicate the available channels in the histogram:
 
-
-```
-#define MF_HISTOGRAM_CHANNEL_Y  0x00000001
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define MF_HISTOGRAM_CHANNEL_Y  0x00000001
 #define MF_HISTOGRAM_CHANNEL_R  0x00000002
 #define MF_HISTOGRAM_CHANNEL_G  0x00000004
 #define MF_HISTOGRAM_CHANNEL_B  0x00000008
 #define MF_HISTOGRAM_CHANNEL_Cb 0x00000010
-#define MF_HISTOGRAM_CHANNEL_Cr 0x00000020
-```
-
-
+#define MF_HISTOGRAM_CHANNEL_Cr 0x00000020</pre>
+</td>
+</tr>
+</table></span></div>
 Each blob can contain multiple histograms collected from different regions or different color spaces of the same frame. Each histogram in the blob is identified by its own <b>HistogramHeader</b>. Each histogram has its own region and sensor output size associated. For full frame histogram, the region will match the sensor output size specified in <a href="https://msdn.microsoft.com/2B0BA5EC-3120-41A2-B06A-B63E57DC8766">HistogramGrid</a>.
 
 Histogram data for all available channels are grouped under one histogram. Histogram data for each channel is identified by a <a href="https://msdn.microsoft.com/42DD34AB-570B-4F71-90BE-7E3AFDB66A84">HistogramDataHeader</a> immediate above the data. <b>ChannelMasks</b> indicate how many and what channels are having the histogram data, which is the bitwise OR of the supported <b>MF_HISTOGRAM_CHANNEL_*</b> bitmasks as defined above. <b>ChannelMask</b> indicates what channel the data is for, which is identified by any one of the <b>MF_HISTOGRAM_CHANNEL_*</b> bitmasks.

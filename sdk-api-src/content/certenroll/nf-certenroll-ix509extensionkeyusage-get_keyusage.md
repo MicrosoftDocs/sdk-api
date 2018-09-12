@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>KeyUsage</b> property retrieves the restrictions placed on the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a>.
+The <b>KeyUsage</b> property retrieves the restrictions placed on the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a>.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa378148(v=VS.85).aspx">InitializeEncode</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa378146(v=VS.85).aspx">InitializeDecode</a> method to initialize the collection.  You can also call the <a href="https://msdn.microsoft.com/en-us/library/Aa378409(v=VS.85).aspx">Critical</a> property to specify and retrieve a Boolean value that identifies whether the extension is critical, and you can call the <a href="https://msdn.microsoft.com/en-us/library/Aa378518(v=VS.85).aspx">ObjectId</a> property to retrieve the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) associated with the extension.
+Call the <a href="https://msdn.microsoft.com/a4496125-862c-4ef0-93f3-a513eedeacd1">InitializeEncode</a> method or the <a href="https://msdn.microsoft.com/5e51a148-0a76-4f38-b92f-fd5209e0b497">InitializeDecode</a> method to initialize the collection.  You can also call the <a href="https://msdn.microsoft.com/b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072">Critical</a> property to specify and retrieve a Boolean value that identifies whether the extension is critical, and you can call the <a href="https://msdn.microsoft.com/d3508bfe-e323-4075-9c82-d9b53b8f54aa">ObjectId</a> property to retrieve the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) associated with the extension.
 
 
 
@@ -73,7 +73,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa378148(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378144(v=VS.85).aspx">IX509ExtensionKeyUsage</a>
+<a href="https://msdn.microsoft.com/4325e6aa-99bb-4c9a-9b19-c5352ebf27b9">IX509ExtensionKeyUsage</a>
  
 
  

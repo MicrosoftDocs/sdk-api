@@ -125,7 +125,7 @@ This method sets a property value or replaces or removes an existing value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ151547(v=VS.85).aspx">AudioFXExtensionParams</a>
+<a href="https://msdn.microsoft.com/832F1190-ED3E-4059-AB45-18C23D98663B">AudioFXExtensionParams</a>
  
 
  

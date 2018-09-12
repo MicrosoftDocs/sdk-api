@@ -62,7 +62,7 @@ Retrieves the target rectangle specified by BeginBufferedPaint.
 
 Type: <b>HPAINTBUFFER</b>
 
-Handle to the buffered paint context obtained through <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+Handle to the buffered paint context obtained through <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
 
 
 ### -param prc [out]

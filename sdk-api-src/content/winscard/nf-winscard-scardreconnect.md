@@ -241,7 +241,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -263,9 +263,13 @@ An error code. For more information, see
 
 The following example  shows reestablishing a connection.
 
-
-```cpp
-DWORD     dwAP;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD     dwAP;
 LONG      lReturn;
 
 // Reconnect.
@@ -274,13 +278,13 @@ lReturn = SCardReconnect(hCardHandle,
                          SCARD_SHARE_SHARED,
                          SCARD_PROTOCOL_T0 | SCARD_PROTOCOL_T1,
                          SCARD_LEAVE_CARD,
-                         &dwAP );
+                         &amp;dwAP );
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardReconnect\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

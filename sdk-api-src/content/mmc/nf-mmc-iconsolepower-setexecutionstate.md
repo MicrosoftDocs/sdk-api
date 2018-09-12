@@ -108,14 +108,18 @@ A snap-in defines its power requirements and sends them to MMC by calling
 
 #### Examples
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 
 // Specify that the display and system are required.
 // pConsolePower was created previously by
 // the CoCreateInstance method.
-hr = pConsolePower->SetExecutionState(ES_DISPLAY_REQUIRED | ES_SYSTEM_REQUIRED,0);
+hr = pConsolePower-&gt;SetExecutionState(ES_DISPLAY_REQUIRED | ES_SYSTEM_REQUIRED,0);
 switch (hr)
 {
     case S_OK:
@@ -131,10 +135,10 @@ switch (hr)
         // Unexpected error occurred.
         OutputDebugString(_T("SetExecutionState: Failure\n"));
         break;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

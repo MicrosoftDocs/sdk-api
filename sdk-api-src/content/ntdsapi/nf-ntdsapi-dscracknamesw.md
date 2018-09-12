@@ -89,14 +89,18 @@ The <b>DS_LIST_NCS</b> value can also be passed for this parameter. This causes 
 
 <div class="alert"><b>Note</b>  <b>DS_LIST_NCS</b> is not defined in a published header file. To use this value, define it in the exact format shown below.</div>
 <div> </div>
-
-```cpp
-#ifndef DS_LIST_NCS
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef DS_LIST_NCS
     #define DS_LIST_NCS 0xfffffff6
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param formatDesired [in]
 

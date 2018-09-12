@@ -60,7 +60,7 @@ Configures the COMTI intrinsics for the enclosed work.
 
 ### -param comtiIntrinsicsConfig [in]
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/ms678928(v=VS.85).aspx">CSC_COMTIIntrinsicsConfig</a> enumeration.
+A value from the <a href="https://msdn.microsoft.com/0d700648-b5fe-46f6-9d27-e2601fe88d71">CSC_COMTIIntrinsicsConfig</a> enumeration.
 
 
 ## -returns
@@ -77,7 +77,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686929(v=VS.85).aspx">IServiceComTIIntrinsicsConfig</a>
+<a href="https://msdn.microsoft.com/dafa74f9-21fb-4495-911a-60183d36d83c">IServiceComTIIntrinsicsConfig</a>
  
 
  

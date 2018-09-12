@@ -80,7 +80,7 @@ Note that the maximum number of combined samples can't exceed 16, otherwise the 
 
 ### -param pSamplePositions [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt492638(v=VS.85).aspx">D3D12_SAMPLE_POSITION</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/09D76360-A5FC-43C5-A7DC-9FA59B7FA94D">D3D12_SAMPLE_POSITION</a>*</b>
 
 <a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_reads_(NumSamplesPerPixel*NumPixels)</code>
 
@@ -158,7 +158,7 @@ If an application wants to minimize the decompressed area when only a portion ne
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt492655(v=VS.85).aspx">ID3D12GraphicsCommandList1</a>
+<a href="https://msdn.microsoft.com/E156C26B-0E51-4F43-9AB2-373E4C67A496">ID3D12GraphicsCommandList1</a>
  
 
  

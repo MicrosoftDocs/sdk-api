@@ -67,21 +67,21 @@ The number of items to be retrieved.
 
 ### -param rgeltSchema [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 An array of enumerated items. This parameter is optional.
 
 
 ### -param rgeltId [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 An array of enumerated items.
 
 
 ### -param rgeltValue [in, out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 An array of enumerated items. This parameter is optional.
 

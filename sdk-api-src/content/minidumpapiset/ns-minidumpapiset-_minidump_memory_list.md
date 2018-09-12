@@ -75,17 +75,21 @@ An array of
 
 The <b>MINIDUMP_MEMORY64_LIST</b> structure is defined as follows. It is used for full-memory minidumps.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct _MINIDUMP_MEMORY64_LIST {
     ULONG64 NumberOfMemoryRanges;
     RVA64 BaseRva;
     MINIDUMP_MEMORY_DESCRIPTOR64 MemoryRanges [0];
-} MINIDUMP_MEMORY64_LIST, *PMINIDUMP_MEMORY64_LIST;
-```
-
-
+} MINIDUMP_MEMORY64_LIST, *PMINIDUMP_MEMORY64_LIST;</pre>
+</td>
+</tr>
+</table></span></div>
 Note that <b>BaseRva</b> is the overall base RVA for the memory list. To locate the data for a particular descriptor, start at <b>BaseRva</b> and increment by the size of a descriptor until you reach the descriptor.
 
 

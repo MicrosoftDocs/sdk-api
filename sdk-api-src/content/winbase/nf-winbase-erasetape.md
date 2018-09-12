@@ -62,7 +62,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device where the tape is to be erased. This handle is created by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
+<a href="base.createfile">CreateFile</a> function.
 
 
 ### -param dwEraseType [in]
@@ -322,7 +322,7 @@ Some tape devices do not support certain tape operations. To determine your tape
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

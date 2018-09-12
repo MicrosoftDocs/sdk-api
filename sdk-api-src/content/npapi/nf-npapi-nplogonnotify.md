@@ -97,13 +97,17 @@ Pointer to a string that identifies the type of structure pointed to by <i>lpPre
 
 When Microsoft is the primary authenticator, the following string is specified for interactive and service controller logons.
 
-
-```cpp
-MSV1_0:Interactive
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>MSV1_0:Interactive
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param lpPreviousAuthentInfo [in]
 

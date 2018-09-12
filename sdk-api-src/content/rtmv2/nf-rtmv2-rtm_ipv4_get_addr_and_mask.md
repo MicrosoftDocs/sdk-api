@@ -83,18 +83,22 @@ For example, if a client supplies the <i>NetAddress</i> 10.10.10.24, the <i>Addr
 
 The macro is defined as follows:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define RTM_IPV4_GET_ADDR_AND_MASK(Addr, Mask, NetAddress)  \
-        (Addr) = (* (ULONG *) ((NetAddress)->AddrBits));    \
+        (Addr) = (* (ULONG *) ((NetAddress)-&gt;AddrBits));    \
         (Mask) = RTM_IPV4_MASK_FROM_LEN((NetAddress)-       \
-            >NumBits);   
-
-```
-
-
+            &gt;NumBits);   
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

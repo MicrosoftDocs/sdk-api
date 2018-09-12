@@ -91,7 +91,7 @@ Reserved; set to <b>NULL</b>.
 
 #### - pRT [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of a Direct3D surface. The output of the video processing operation will be written to this surface. The surface may be any of the following types:
+A pointer to the <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> interface of a Direct3D surface. The output of the video processing operation will be written to this surface. The surface may be any of the following types:
           
 
 <ul>
@@ -166,7 +166,7 @@ If the method returns <b>E_INVALIDARG</b>, check for the following:
 <ul>
 <li>The number of input samples (<i>NumSamples</i>) must be less than or equal to <b>MAX_DEINTERLACE_SURFACES</b>. </li>
 <li>The Direct3D surface must be a valid target for <b>VideoProcessBlt</b>. See the description of the <i>pRT</i> parameter for details.</li>
-<li>The presentation time (<b>TargetFrame</b>) given in <i>pBltParams</i> must match the start and end times for the current picture from the primary stream. Specifically, it must be less than the end time and greater than or equal to the start time. Note that the first sample in <i>pSamples</i> might not be the current picture, if the <i>pSamples</i> array contains backward reference pictures. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Cc307964(v=VS.85).aspx">Input Sample Order</a>.</li>
+<li>The presentation time (<b>TargetFrame</b>) given in <i>pBltParams</i> must match the start and end times for the current picture from the primary stream. Specifically, it must be less than the end time and greater than or equal to the start time. Note that the first sample in <i>pSamples</i> might not be the current picture, if the <i>pSamples</i> array contains backward reference pictures. For more information, see <a href="dxva_video_processing.htm">Input Sample Order</a>.</li>
 <li>The target rectangle (<b>TargetRect</b>) given in <i>pBltParams</i> cannot be larger than the destination surface (<i>pRT</i>).</li>
 <li>The  constriction size (<b>ConstrictionSize</b>) given in <i>pBltParams</i> cannot be less than zero or larger than the target rectangle.</li>
 <li>The alpha component of the background color must be opqaue.</li>
@@ -175,7 +175,7 @@ If the method returns <b>E_INVALIDARG</b>, check for the following:
 <li>The alpha value given in <i>pBltParams</i> must be in the range [0...1] inclusive.</li>
 <li>For each input sample given in <i>pSamples</i>:<ul>
 <li>The start time cannot be greater than the end time.</li>
-<li>A valid <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> pointer must be provided.</li>
+<li>A valid <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> pointer must be provided.</li>
 <li>The source rectangle cannot be larger than the input surface.</li>
 <li>The destination rectangle cannot be larger than than the destination surface.</li>
 <li>The planar alpha must be in the range [0...1] inclusive.</li>

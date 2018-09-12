@@ -130,11 +130,15 @@ Otherwise, Windows Media Device Manager will return E_INVALIDARG.
 
 The following C++ code demonstrates using a session to bundle an <b>Insert3</b> call on a device. The code loops through a number of files stored in a vector and sends them to the device.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Get the session interface.
-CComQIPtr<IWMDMDeviceSession> pSession(pDevice);
+CComQIPtr&lt;IWMDMDeviceSession&gt; pSession(pDevice);
 if (pDevice == NULL)
 {
     // TODO: Display a message that the application couldn't get an 
@@ -143,7 +147,7 @@ if (pDevice == NULL)
 }
 
 // Start the session. We don't use a custom buffer.
-hr = pSession->BeginSession(WMDM_SESSION_TRANSFER_TO_DEVICE, NULL, NULL);
+hr = pSession-&gt;BeginSession(WMDM_SESSION_TRANSFER_TO_DEVICE, NULL, NULL);
 if (hr != S_OK)
 {
     // TODO: Display a message indicating that the session failed to start.
@@ -157,10 +161,10 @@ else
 
 // Insert files. These calls happen synchronously.
 UINT flags = WMDM_MODE_BLOCK | WMDM_STORAGECONTROL_INSERTINTO | WMDM_FILE_CREATE_OVERWRITE | WMDM_CONTENT_FILE;
-CComPtr<IWMDMStorage> pNewStorage;
-for(int i = 0; i < sourceFiles.size(); i++)
+CComPtr&lt;IWMDMStorage&gt; pNewStorage;
+for(int i = 0; i &lt; sourceFiles.size(); i++)
 {
-    hr = pStorageControl3->Insert3(
+    hr = pStorageControl3-&gt;Insert3(
         flags,
         WMDM_FILE_ATTR_FOLDER,
         sourceFiles[i],
@@ -169,20 +173,20 @@ for(int i = 0; i < sourceFiles.size(); i++)
         NULL, // Don't specify IWMDMProgress.
         NULL, // Don't specify metadata.
         NULL, // Nothing to send to the SCP.
-        &pNewStorage);
+        &amp;pNewStorage);
 
     if (pNewStorage != NULL)
         pNewStorage.Release();
-    CHECK_HR(hr, "Sent file " << sourceFiles[i] << " to the device.", "Couldn't send file " << sourceFiles[i] << " to the device");
+    CHECK_HR(hr, "Sent file " &lt;&lt; sourceFiles[i] &lt;&lt; " to the device.", "Couldn't send file " &lt;&lt; sourceFiles[i] &lt;&lt; " to the device");
 }
 
 // Close the session.
-hr = pSession->EndSession(WMDM_SESSION_TRANSFER_TO_DEVICE, NULL, NULL);
+hr = pSession-&gt;EndSession(WMDM_SESSION_TRANSFER_TO_DEVICE, NULL, NULL);
 CHECK_HR(hr,"Closed the session.","Couldn't close the session.");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

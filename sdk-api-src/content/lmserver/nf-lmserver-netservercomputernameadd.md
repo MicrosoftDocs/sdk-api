@@ -180,13 +180,17 @@ The
 
 Following is an example of a call to the <b>NetServerComputerNameAdd</b> function requesting that \\Server1 also respond to requests for \\Server2.
 
-
-```cpp
-NetServerComputerNameAdd (Server1, NULL, Server2);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>NetServerComputerNameAdd (Server1, NULL, Server2);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

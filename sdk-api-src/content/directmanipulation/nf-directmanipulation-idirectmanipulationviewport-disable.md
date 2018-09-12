@@ -84,12 +84,16 @@ The viewport will not resume processing input until <a href="https://msdn.micros
 
 The following example shows how to use this method.
 
-
-```
-HRESULT hr = pViewport->Disable();
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = pViewport-&gt;Disable();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

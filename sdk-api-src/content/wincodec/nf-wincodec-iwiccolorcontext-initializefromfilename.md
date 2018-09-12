@@ -91,7 +91,7 @@ Once a color context has been initialized, it can't be re-initialized.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd316928(v=VS.85).aspx">GetColorDirectory</a>
+<a href="_color_GetColorDirectory">GetColorDirectory</a>
 
 
 

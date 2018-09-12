@@ -69,7 +69,7 @@ TBD
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> handle representing the first page of any wizard extension pages.
+A pointer to a <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> handle representing the first page of any wizard extension pages.
 
 
 ## -returns

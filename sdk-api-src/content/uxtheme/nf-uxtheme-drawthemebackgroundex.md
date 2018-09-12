@@ -70,7 +70,7 @@ Draws the background image defined by the visual style for the specified control
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a> to create an HTHEME.
 
 
 ### -param hdc [in]
@@ -84,14 +84,14 @@ HDC used for drawing the theme-defined background image.
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part to draw. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the part to draw. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part to draw. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the state of the part to draw. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param pRect [in]
@@ -103,9 +103,9 @@ Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d
 
 ### -param pOptions [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb773233(v=VS.85).aspx">DTBGOPTS</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/41793749-0685-48b6-be44-d3d1a7f4933f">DTBGOPTS</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773233(v=VS.85).aspx">DTBGOPTS</a> structure that contains clipping information. This parameter may be set to <b>NULL</b>.
+Pointer to a <a href="https://msdn.microsoft.com/41793749-0685-48b6-be44-d3d1a7f4933f">DTBGOPTS</a> structure that contains clipping information. This parameter may be set to <b>NULL</b>.
 
 
 ## -returns

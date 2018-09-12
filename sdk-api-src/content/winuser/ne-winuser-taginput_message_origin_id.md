@@ -67,12 +67,12 @@ The source isn't identified.
 
 The input message is from a hardware device or has been  injected into the message queue by an application that has the <b>UIAccess</b> attribute set to TRUE in its manifest file. 
 
-For more information about the <b>UIAccess</b> attribute and application manifests, see <a href="https://msdn.microsoft.com/library/Bb756883(v=MSDN.10).aspx">UAC References</a>.
+For more information about the <b>UIAccess</b> attribute and application manifests, see <a href="035008ab-aa2b-4f80-9a47-cee79384f4b3">UAC References</a>.
 
 
 ### -field IMO_INJECTED
 
-The input message has been injected (through the <a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a> function) by an application that doesn't have the <b>UIAccess</b> attribute set to TRUE in its manifest file.
+The input message has been injected (through the <a href="https://msdn.microsoft.com/7f87edd0-b846-4a85-93c8-9a2eeda7b6ac">SendInput</a> function) by an application that doesn't have the <b>UIAccess</b> attribute set to TRUE in its manifest file.
 
 
 ### -field IMO_SYSTEM

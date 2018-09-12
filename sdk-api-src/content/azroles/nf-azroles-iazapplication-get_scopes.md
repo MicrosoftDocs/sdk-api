@@ -52,7 +52,7 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ## -description
 
 
-The <b>Scopes</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa378272(v=VS.85).aspx">IAzScopes</a> object that is used to enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa378237(v=VS.85).aspx">IAzScope</a> objects from the policy data.
+The <b>Scopes</b> property retrieves an <a href="https://msdn.microsoft.com/f00953bf-b90a-4812-a87d-a66b98a2e95f">IAzScopes</a> object that is used to enumerate <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> objects from the policy data.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-This property can be used only to enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa378237(v=VS.85).aspx">IAzScope</a> objects that are direct child objects of the <a href="https://msdn.microsoft.com/en-us/library/Aa446684(v=VS.85).aspx">IAzApplication</a> object.
+This property can be used only to enumerate <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> objects that are direct child objects of the <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object.
 
 
 

@@ -231,23 +231,27 @@ The stream type is specified by two <b>GUID</b>s, called the <i>major type</i> a
 
 The <b>AM_MEDIA_TYPE</b> structure is followed by a variable-length block of data that contains format-specific information. The <b>pbFormat</b> member points to this block, called the <i>format block</i>. The layout of the format block depends on the type of data in the stream, and is specified by the <b>formattype</b> member. The format block might be <b>NULL</b>. Check the <b>cbFormat</b> member to determine the size. Cast the <b>pbFormat</b> member to access the format block. For example:
 
-
-```cpp
-
-if (pmt->formattype == FORMAT_VideoInfo)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+if (pmt-&gt;formattype == FORMAT_VideoInfo)
 {
     // Check the buffer size.
-    if (pmt->cbFormat >= sizeof(VIDEOINFOHEADER))
+    if (pmt-&gt;cbFormat &gt;= sizeof(VIDEOINFOHEADER))
     {
         VIDEOINFOHEADER *pVih = 
-            reinterpret_cast<VIDEOINFOHEADER*>(pmt->pbFormat);
+            reinterpret_cast&lt;VIDEOINFOHEADER*&gt;(pmt-&gt;pbFormat);
         /* Access VIDEOINFOHEADER members through pVih. */
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 In some situations, you can set the format block to <b>NULL</b> and the format type to GUID_NULL, resulting in a <i>partial media type</i>. This enables you to specify a range of possible formats. For example, you can specify 24-bit RGB (MEDIASUBTYPE_RGB24) without giving an exact width or height.
 
 To obtain detailed information about a specified media type for debugging purposes, use the <a href="https://msdn.microsoft.com/63a88508-dff8-4869-97e5-0f75f4a9dca0">DisplayType</a> method.

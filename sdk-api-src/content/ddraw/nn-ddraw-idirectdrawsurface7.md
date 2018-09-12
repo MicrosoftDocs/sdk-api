@@ -647,17 +647,21 @@ Use the LPDIRECTDRAWSURFACE, LPDIRECTDRAWSURFACE2, LPDIRECTDRAWSURFACE3, LPDIREC
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct IDirectDrawSurface     FAR *LPDIRECTDRAWSURFACE;
 typedef struct IDirectDrawSurface2    FAR *LPDIRECTDRAWSURFACE2;
 typedef struct IDirectDrawSurface3    FAR *LPDIRECTDRAWSURFACE3;
 typedef struct IDirectDrawSurface4    FAR *LPDIRECTDRAWSURFACE4;
 typedef struct IDirectDrawSurface7    FAR *LPDIRECTDRAWSURFACE7;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

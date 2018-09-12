@@ -186,9 +186,13 @@ previously identified user. For this function to work correctly, secure logon mu
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT LogonIdentifiedUser()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT LogonIdentifiedUser()
 {
     // Declare variables.
     HRESULT hr;
@@ -207,7 +211,7 @@ HRESULT LogonIdentifiedUser()
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             WINBIO_DB_DEFAULT,                       // Database ID
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -222,10 +226,10 @@ HRESULT LogonIdentifiedUser()
     {
         hr = WinBioIdentify(
                 sessionHandle,          // Session handle    
-                &UnitId,                // Biometric unit ID
-                &Identity,              // User SID or GUID
-                &SubFactor,             // Finger sub factor
-                &RejectDetail           // rejection information
+                &amp;UnitId,                // Biometric unit ID
+                &amp;Identity,              // User SID or GUID
+                &amp;SubFactor,             // Finger sub factor
+                &amp;RejectDetail           // rejection information
                 );
 
         switch(hr)
@@ -272,10 +276,10 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

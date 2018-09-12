@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Notifies the subscriber about activities of the Compensating Resource Manager (CRM) feature of Component Services. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber about activities of the Compensating Resource Manager (CRM) feature of Component Services. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 
 ## -inheritance
@@ -79,7 +79,7 @@ Generated when CRM clerk receives an abort notification to pass on to the CRM co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms678903(v=VS.85).aspx">OnCRMAnalyze</a>
+<a href="https://msdn.microsoft.com/08bdc192-f1f8-4d0d-a432-cf6316d8033a">OnCRMAnalyze</a>
 </td>
 <td align="left" width="63%">
 Generated when a CRM clerk receives a record during the analysis phase of recovery.
@@ -88,7 +88,7 @@ Generated when a CRM clerk receives a record during the analysis phase of recove
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683635(v=VS.85).aspx">OnCRMBegin</a>
+<a href="https://msdn.microsoft.com/8975cb5e-024f-40bf-acd7-c5af0abd88a0">OnCRMBegin</a>
 </td>
 <td align="left" width="63%">
 Generated when a CRM clerk is starting, either due to a client registering a compensator or during recovery.
@@ -98,7 +98,7 @@ Generated when a CRM clerk is starting, either due to a client registering a com
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687811(v=VS.85).aspx">OnCRMCheckpoint</a>
+<a href="https://msdn.microsoft.com/f1a91d24-0a78-4d4f-a686-817d0609e2b1">OnCRMCheckpoint</a>
 </td>
 <td align="left" width="63%">
 Generated when a CRM checkpoint occurs.
@@ -107,7 +107,7 @@ Generated when a CRM checkpoint occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms682796(v=VS.85).aspx">OnCRMCommit</a>
+<a href="https://msdn.microsoft.com/76b87452-fa29-49f7-acc8-2ae2039757b0">OnCRMCommit</a>
 </td>
 <td align="left" width="63%">
 Generated when CRM clerk receives a commit notification to pass on to the CRM compensator.
@@ -116,7 +116,7 @@ Generated when CRM clerk receives a commit notification to pass on to the CRM co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687642(v=VS.85).aspx">OnCRMDeliver</a>
+<a href="https://msdn.microsoft.com/e93e5548-b833-43a9-a73e-1ccad9d252b6">OnCRMDeliver</a>
 </td>
 <td align="left" width="63%">
 Generated when a CRM clerk delivers a record to a CRM compensator.
@@ -125,7 +125,7 @@ Generated when a CRM clerk delivers a record to a CRM compensator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683621(v=VS.85).aspx">OnCRMDone</a>
+<a href="https://msdn.microsoft.com/8845fd4d-a1a8-40cf-9359-5a2900432f32">OnCRMDone</a>
 </td>
 <td align="left" width="63%">
 Generated when CRM clerk is done processing transaction outcome notifications.
@@ -134,7 +134,7 @@ Generated when CRM clerk is done processing transaction outcome notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684235(v=VS.85).aspx">OnCRMForce</a>
+<a href="https://msdn.microsoft.com/92f2088b-4d74-4d33-9953-0f5229f6303c">OnCRMForce</a>
 </td>
 <td align="left" width="63%">
 Generated when a CRM clerk receives a request to force log records to disk, either from the CRM worker or from the CRM compensator.
@@ -143,7 +143,7 @@ Generated when a CRM clerk receives a request to force log records to disk, eith
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679539(v=VS.85).aspx">OnCRMForget</a>
+<a href="https://msdn.microsoft.com/2e6c5bb1-aa99-434a-9376-c853b1fb1d12">OnCRMForget</a>
 </td>
 <td align="left" width="63%">
 Generated when a CRM clerk receives a request to forget a log record, either from the CRM worker or from the CRM compensator.
@@ -152,7 +152,7 @@ Generated when a CRM clerk receives a request to forget a log record, either fro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms685962(v=VS.85).aspx">OnCRMIndoubt</a>
+<a href="https://msdn.microsoft.com/b1144b7c-097f-4a1c-b7d7-d71b8108625b">OnCRMIndoubt</a>
 </td>
 <td align="left" width="63%">
 Generated when CRM clerk receives an in-doubt notification to pass on to the CRM compensator.
@@ -161,7 +161,7 @@ Generated when CRM clerk receives an in-doubt notification to pass on to the CRM
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679188(v=VS.85).aspx">OnCRMPrepare</a>
+<a href="https://msdn.microsoft.com/16ecd4a5-6ca6-443d-ab03-f9ceb951ed13">OnCRMPrepare</a>
 </td>
 <td align="left" width="63%">
 Generated when CRM clerk receives a prepare notification to pass on to the CRM compensator.
@@ -170,7 +170,7 @@ Generated when CRM clerk receives a prepare notification to pass on to the CRM c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms681301(v=VS.85).aspx">OnCRMRecoveryDone</a>
+<a href="https://msdn.microsoft.com/533148f3-ecb4-495c-81c4-c75db7284ded">OnCRMRecoveryDone</a>
 </td>
 <td align="left" width="63%">
 Generated when CRM recovery is done.
@@ -179,7 +179,7 @@ Generated when CRM recovery is done.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms685194(v=VS.85).aspx">OnCRMRecoveryStart</a>
+<a href="https://msdn.microsoft.com/ac958f4b-1af4-4cfc-8fb4-92e89fdba771">OnCRMRecoveryStart</a>
 </td>
 <td align="left" width="63%">
 Generated when CRM recovery has started.
@@ -188,7 +188,7 @@ Generated when CRM recovery has started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687644(v=VS.85).aspx">OnCRMRelease</a>
+<a href="https://msdn.microsoft.com/e97b6cbf-1e78-475b-9dc7-baa4c05f1a6b">OnCRMRelease</a>
 </td>
 <td align="left" width="63%">
 Generated when the CRM clerk is finished and releases its resource locks.
@@ -197,7 +197,7 @@ Generated when the CRM clerk is finished and releases its resource locks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms678907(v=VS.85).aspx">OnCRMWrite</a>
+<a href="https://msdn.microsoft.com/095452e3-a38d-4602-a925-8fa6445ddbc8">OnCRMWrite</a>
 </td>
 <td align="left" width="63%">
 Generated when a CRM clerk receives a request to write a log record, either from the CRM worker or CRM compensator.
@@ -212,11 +212,11 @@ Generated when a CRM clerk receives a request to write a log record, either from
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a>
+<a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678896(v=VS.85).aspx">COM+ Instrumentation</a>
+<a href="https://msdn.microsoft.com/07f68734-a382-4fe5-86af-90805f61c68d">COM+ Instrumentation</a>
  
 
  

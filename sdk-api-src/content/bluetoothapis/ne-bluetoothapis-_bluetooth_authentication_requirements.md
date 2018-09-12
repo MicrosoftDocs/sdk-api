@@ -130,7 +130,7 @@ The header file associated with this API is available at Microsoft Connect via t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc766819(v=VS.85).aspx">BluetoothAuthenticateDeviceEx</a>
+<a href="https://msdn.microsoft.com/948bf14c-9661-4fe9-b082-009afd867baf">BluetoothAuthenticateDeviceEx</a>
  
 
  

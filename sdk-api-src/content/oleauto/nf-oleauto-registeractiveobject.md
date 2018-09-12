@@ -132,24 +132,32 @@ Most commonly, objects need to call <b>CoLockObjectExternal</b> when they become
 <li>
 When the object becomes visible, make the following call to add a lock for user: 
 
-
-```cpp
-CoLockObjectExternal(punk, TRUE, TRUE)
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CoLockObjectExternal(punk, TRUE, TRUE)</pre>
+</td>
+</tr>
+</table></span></div>
 The lock remains in effect until a user explicitly requests the object to be shut down, such as with a <b>Quit</b> or <b>Exit</b> command. 
 
 </li>
 <li>
 When the user requests the object to be shut down, call <b>CoLockObjectExternal</b> again to free the lock, as follows: 
 
-
-```cpp
-CoLockObjectExternal(punk, FALSE, TRUE)
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CoLockObjectExternal(punk, FALSE, TRUE)</pre>
+</td>
+</tr>
+</table></span></div>
 </li>
 <li>
 Call <b>RevokeActiveObject</b> to make the object inactive.
@@ -158,12 +166,16 @@ Call <b>RevokeActiveObject</b> to make the object inactive.
 <li>
 To end all connections from remote processes, call <b>CoDisconnectObject</b> as follows: 
 
-
-```cpp
-CoDisconnectObject(punk,0)
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CoDisconnectObject(punk,0)</pre>
+</td>
+</tr>
+</table></span></div>
 This function is described in more detail in the <i>COM Programmer's Reference</i>. 
 
 </li>

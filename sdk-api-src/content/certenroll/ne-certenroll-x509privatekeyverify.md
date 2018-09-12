@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>X509PrivateKeyVerify</b> enumeration specifies whether a user interface is displayed during <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> verification and whether verification can proceed if the cryptographic provider is a <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">smart card</a> provider. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Aa379038(v=VS.85).aspx">Verify</a> method on the <a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a> interface.
+The <b>X509PrivateKeyVerify</b> enumeration specifies whether a user interface is displayed during <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> verification and whether verification can proceed if the cryptographic provider is a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> provider. This enumeration is used by the <a href="https://msdn.microsoft.com/4a792c39-71a7-4289-854d-98e6f749a526">Verify</a> method on the <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> interface.
 
 
 ## -enum-fields
@@ -88,15 +88,15 @@ The method displays a user interface.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374846(v=VS.85).aspx">CertEnroll Enumerations</a>
+<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
  
 
  

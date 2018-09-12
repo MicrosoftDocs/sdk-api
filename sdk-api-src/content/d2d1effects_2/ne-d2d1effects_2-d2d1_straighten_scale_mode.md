@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Values for the <a href="https://msdn.microsoft.com/en-us/library/Dn890747(v=VS.85).aspx">D2D1_STRAIGHTEN_PROP_SCALE_MODE</a> property of the <a href="https://msdn.microsoft.com/en-us/library/Dn900462(v=VS.85).aspx">Straighten effect</a>.
+Values for the <a href="https://msdn.microsoft.com/AD22B649-E4FE-41BD-85FE-B000CCB7F48D">D2D1_STRAIGHTEN_PROP_SCALE_MODE</a> property of the <a href="https://msdn.microsoft.com/aa37cdf1-bbb6-db4e-45a7-67c7cc16b7b4">Straighten effect</a>.
 
 
 ## -enum-fields

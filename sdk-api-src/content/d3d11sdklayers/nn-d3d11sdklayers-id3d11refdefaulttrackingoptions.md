@@ -56,9 +56,9 @@ The default tracking interface sets reference default tracking options.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11RefDefaultTrackingOptions</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D11RefDefaultTrackingOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11RefDefaultTrackingOptions</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D11RefDefaultTrackingOptions</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ID3D11RefDefaultTrackingOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh446834(v=VS.85).aspx">SetTrackingOptions</a>
+<a href="https://msdn.microsoft.com/A54AAC4C-CD38-4326-AF99-9FB74CC0A1A0">SetTrackingOptions</a>
 </td>
 <td align="left" width="63%">
 Sets GPU debug reference default tracking options for specific resource types.
@@ -96,11 +96,11 @@ These APIs require the Windows Software Development Kit (SDK) for Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476158(v=VS.85).aspx">Layer Interfaces</a>
+<a href="https://msdn.microsoft.com/100cb66a-9bf5-4d0b-9f03-ad7c00e76d9d">Layer Interfaces</a>
  
 
  

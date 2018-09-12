@@ -84,7 +84,7 @@ The size of the structure passed to the <i>pFeatureSupportData</i> parameter.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns E_INVALIDARG if an unsupported data type is passed to the <i>pFeatureSupportData</i> parameter 
       or a size mismatch is detected for the <i>FeatureSupportDataSize</i> parameter.

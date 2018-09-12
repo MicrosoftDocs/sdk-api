@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets whether Input Method Editor (IME) input is allowed and whether the edit styles include <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a>.
+Gets whether Input Method Editor (IME) input is allowed and whether the edit styles include <a href="Rich_Edit_Control_Styles.htm">ES_SELFIME</a>.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ The East Asian flags.
 </tr>
 <tr>
 <td width="40%"><a id="ES_NOIME"></a><a id="es_noime"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_NOIME</a></b></dt>
+<dt><b><a href="Rich_Edit_Control_Styles.htm">ES_NOIME</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -81,7 +81,7 @@ IME input is suppressed.
 </tr>
 <tr>
 <td width="40%"><a id="ES_SELFIME"></a><a id="es_selfime"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a></b></dt>
+<dt><b><a href="Rich_Edit_Control_Styles.htm">ES_SELFIME</a></b></dt>
 </dl>
 </td>
 <td width="60%">

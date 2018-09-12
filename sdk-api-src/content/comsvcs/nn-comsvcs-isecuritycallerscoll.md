@@ -50,15 +50,15 @@ req.redist:
 ## -description
 
 
-Provides access to information about individual callers in a collection of callers. The collection represents the chain of calls ending with the current call, and each caller in the collection represents the identity of one caller. Only callers who cross a boundary where security is checked are included in the chain of callers. (In the COM+ environment, security is checked at application boundaries.) Access to information about a particular caller's identity is provided through <a href="https://msdn.microsoft.com/en-us/library/ms682165(v=VS.85).aspx">ISecurityIdentityColl</a>, an identity collection. 
+Provides access to information about individual callers in a collection of callers. The collection represents the chain of calls ending with the current call, and each caller in the collection represents the identity of one caller. Only callers who cross a boundary where security is checked are included in the chain of callers. (In the COM+ environment, security is checked at application boundaries.) Access to information about a particular caller's identity is provided through <a href="https://msdn.microsoft.com/6844bfb2-028f-4155-85a6-b7023432f6cd">ISecurityIdentityColl</a>, an identity collection. 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityCallersColl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISecurityCallersColl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityCallersColl</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ISecurityCallersColl</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ISecurityCallersColl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683460(v=VS.85).aspx">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/80fb8fe7-0f8f-497c-a046-82f19d6469d8">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the security callers collection.
@@ -81,7 +81,7 @@ Retrieves an enumerator for the security callers collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684332(v=VS.85).aspx">get_Count</a>
+<a href="https://msdn.microsoft.com/98a28194-c4d3-4c5f-b43a-4df73fcea7e4">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of callers in the security callers collection.
@@ -91,7 +91,7 @@ Retrieves the number of callers in the security callers collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679466(v=VS.85).aspx">get_Item</a>
+<a href="https://msdn.microsoft.com/24473ebe-8d29-46cd-817d-48f24b03c405">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified caller in the security callers collection.
@@ -107,15 +107,15 @@ Retrieves a specified caller in the security callers collection.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691483(v=VS.85).aspx">CoGetCallContext</a>
+<a href="https://msdn.microsoft.com/b82e32c0-840d-402e-90d5-ff678c51faf1">CoGetCallContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686495(v=VS.85).aspx">ISecurityCallContext</a>
+<a href="https://msdn.microsoft.com/cd96ef31-784f-40fa-beb5-92a88823326b">ISecurityCallContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682165(v=VS.85).aspx">ISecurityIdentityColl</a>
+<a href="https://msdn.microsoft.com/6844bfb2-028f-4155-85a6-b7023432f6cd">ISecurityIdentityColl</a>
 
 
 

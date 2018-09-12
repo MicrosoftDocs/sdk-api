@@ -52,9 +52,9 @@ req.redist:
 
 
 Copies data into a
-          <a href="https://msdn.microsoft.com/en-us/library/Ff476259(v=VS.85).aspx">D3D11_USAGE_DEFAULT</a>texture which was mapped using
-          ID3D11DeviceContext3::<a href="https://msdn.microsoft.com/en-us/library/Ff476457(v=VS.85).aspx">Map</a>while providing a NULL
-          <a href="https://msdn.microsoft.com/en-us/library/Ff476182(v=VS.85).aspx">D3D11_MAPPED_SUBRESOURCE</a>parameter.
+          <a href="https://msdn.microsoft.com/251d462e-964e-42db-8554-dba8f5a9b1ef">D3D11_USAGE_DEFAULT</a>texture which was mapped using
+          ID3D11DeviceContext3::<a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">Map</a>while providing a NULL
+          <a href="https://msdn.microsoft.com/cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe">D3D11_MAPPED_SUBRESOURCE</a>parameter.
         
 
 
@@ -65,31 +65,31 @@ Copies data into a
 
 ### -param pDstResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>*</b>
 
 A pointer to the destination resource (an
-            <a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a>).
+            <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>).
           
 
 
 ### -param DstSubresource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 A zero-based index, that identifies the destination subresource.
             For more details, see
-            <a href="https://msdn.microsoft.com/en-us/library/Ff476081(v=VS.85).aspx">D3D11CalcSubresource</a>.
+            <a href="https://msdn.microsoft.com/643a21f7-3c2e-4d62-9236-051f51d31241">D3D11CalcSubresource</a>.
           
 
 
 ### -param pDstBox [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Ff476089(v=VS.85).aspx">D3D11_BOX</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/0cc98805-a36e-41aa-a24f-51fbcf5070df">D3D11_BOX</a>*</b>
 
 A pointer to a box that defines the portion of the destination subresource to copy the resource data into.
               If NULL, the data is written to the destination subresource with no offset.
               The dimensions of the source must fit the destination (see
-              <a href="https://msdn.microsoft.com/en-us/library/Ff476089(v=VS.85).aspx">D3D11_BOX</a>).
+              <a href="https://msdn.microsoft.com/0cc98805-a36e-41aa-a24f-51fbcf5070df">D3D11_BOX</a>).
             
 
 An empty box results in a no-op.
@@ -108,7 +108,7 @@ A pointer to the source data in memory.
 
 ### -param SrcRowPitch [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The size of one row of the source data.
           
@@ -116,7 +116,7 @@ The size of one row of the source data.
 
 ### -param SrcDepthPitch [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The size of one depth slice of source data.
           
@@ -137,9 +137,9 @@ This method does not return a value.
 
 
 The provided resource must be a
-          <a href="https://msdn.microsoft.com/en-us/library/Ff476259(v=VS.85).aspx">D3D11_USAGE_DEFAULT</a>texture which was mapped for writing by a previous call to
-          ID3D11DeviceContext3::<a href="https://msdn.microsoft.com/en-us/library/Ff476457(v=VS.85).aspx">Map</a>while providing a NULL
-          <a href="https://msdn.microsoft.com/en-us/library/Ff476182(v=VS.85).aspx">D3D11_MAPPED_SUBRESOURCE</a>parameter.
+          <a href="https://msdn.microsoft.com/251d462e-964e-42db-8554-dba8f5a9b1ef">D3D11_USAGE_DEFAULT</a>texture which was mapped for writing by a previous call to
+          ID3D11DeviceContext3::<a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">Map</a>while providing a NULL
+          <a href="https://msdn.microsoft.com/cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe">D3D11_MAPPED_SUBRESOURCE</a>parameter.
         
 
 This API is intended for calling at high frequency.
@@ -165,7 +165,7 @@ When writing to sub mipmap levels, it is recommended to use larger width and hei
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899218(v=VS.85).aspx">ID3D11Device3</a>
+<a href="https://msdn.microsoft.com/0AA10851-0077-4075-BD41-72FCD7BC0556">ID3D11Device3</a>
  
 
  

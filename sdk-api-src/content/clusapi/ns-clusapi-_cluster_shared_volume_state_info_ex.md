@@ -69,7 +69,7 @@ The node name of the node that hosts the CSV.
 
 ### -field VolumeState
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh706768(v=VS.85).aspx">CLUSTER_SHARED_VOLUME_STATE</a> enumeration value that specifies the state of the CSV.
+A <a href="https://msdn.microsoft.com/B27C110C-939F-42D4-960E-702CA1B141F9">CLUSTER_SHARED_VOLUME_STATE</a> enumeration value that specifies the state of the CSV.
 
 
 ### -field szVolumeFriendlyName
@@ -172,11 +172,11 @@ All reasons.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn622918(v=VS.85).aspx">CLUSTER_SHARED_VOLUME_STATE_INFO</a>
+<a href="https://msdn.microsoft.com/0E0DEF0B-C755-4B34-90D8-56BFEFEF2525">CLUSTER_SHARED_VOLUME_STATE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
  
 
  

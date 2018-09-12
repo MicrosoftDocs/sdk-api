@@ -80,7 +80,7 @@ Left only/right only (Lo/Ro) downmix.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
  
 
  

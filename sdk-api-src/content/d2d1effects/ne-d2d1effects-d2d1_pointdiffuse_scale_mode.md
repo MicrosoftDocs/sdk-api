@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/en-us/library/Hh706367(v=VS.85).aspx">Point-diffuse lighting effect</a> 
+The interpolation mode the <a href="https://msdn.microsoft.com/C98A4962-B9EB-4095-9AC4-F1C32C574892">Point-diffuse lighting effect</a> 
         uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed
 
 

@@ -84,9 +84,13 @@ If the path only contains a drive specification (L"c:\\"),  <b>ResUtilCreateDire
 
 #### Examples
 
-
-```cpp
-// BEFORE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// BEFORE
 //   C:
 //   |--Program Files
 //      |-- MyApp
@@ -112,9 +116,9 @@ ResUtilCreateDirectoryTree( L"C:\\Program Files\\MyApp\\Bin" );
 //            |--Parameters
 //               |--Users
 //
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

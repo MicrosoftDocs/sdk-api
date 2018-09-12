@@ -62,7 +62,7 @@ Retrieves the window styles and extended windows styles of the text host window.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
 
-The window styles. For a description of the possible values, see <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">Window Styles</a>.
+The window styles. For a description of the possible values, see <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">Window Styles</a>.
 
 
 ### -param pdwExStyle

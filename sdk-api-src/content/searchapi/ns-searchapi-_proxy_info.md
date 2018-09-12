@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Stores information about a proxy. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb231440(v=VS.85).aspx">ISearchProtocol</a>.
+Stores information about a proxy. Used by <a href="https://msdn.microsoft.com/f11ff5a5-d03c-4cb8-970c-78345d204492">ISearchProtocol</a>.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ A pointer to a Unicode string buffer containing the user agent string.
 
 ### -field paUseProxy
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/40104593-80f1-4ac5-811c-b923b1a72435">PROXY_ACCESS</a></b>
 
 The proxy type to use.
 

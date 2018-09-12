@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies which ICC rendering intent the <a href="https://msdn.microsoft.com/en-us/library/Hh706318(v=VS.85).aspx">Color management effect</a> should use.
+Specifies which ICC rendering intent the <a href="https://msdn.microsoft.com/7351C4B4-F289-4236-BB42-1B3BD8753248">Color management effect</a> should use.
 
 
 ## -enum-fields

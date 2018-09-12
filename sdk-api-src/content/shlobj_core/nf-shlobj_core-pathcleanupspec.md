@@ -170,12 +170,16 @@ The cleaned path is not a valid file name. This flag is always returned in conju
 The following are considered invalid characters in all names.
                 
 
-
-```
-\ / : * ? " < > |
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>\ / : * ? " &lt; &gt; |</pre>
+</td>
+</tr>
+</table></span></div>
 Control characters are also considered invalid. If long file names are not supported, the semi-colon (;) and comma (,) characters are also invalid.
 
 The drive named in <i>pszDir</i> is checked to determine 

@@ -76,7 +76,7 @@ Clipboard format to use. A value of zero will use the best available format.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HGLOBAL</a></b>
 
-Handle to a metafile containing the icon view of an object. The handle is used only if the <b>DVASPECT_ICON</b> display aspect is required by a <a href="https://msdn.microsoft.com/library/ms694512(v=VS.85).aspx">Paste Special</a> operation. 
+Handle to a metafile containing the icon view of an object. The handle is used only if the <b>DVASPECT_ICON</b> display aspect is required by a <a href="_ole_OleUIPasteSpecial">Paste Special</a> operation. 
 
 
 ## -returns
@@ -125,7 +125,7 @@ There was not enough memory to do the operation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
+<a href="https://msdn.microsoft.com/d6d1794b-f16c-4a8c-84f5-dfe8bd8be08c">IRichEditOle</a>
  
 
  

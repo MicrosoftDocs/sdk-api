@@ -127,20 +127,24 @@ For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81
 
 #### Examples
 
-
-```cpp
-#define _UNICODE 1
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define _UNICODE 1
 #define UNICODE 1
 
-#include <Windows.h>
-#include <appmodel.h>
-#include <malloc.h>
-#include <stdio.h>
+#include &lt;Windows.h&gt;
+#include &lt;appmodel.h&gt;
+#include &lt;malloc.h&gt;
+#include &lt;stdio.h&gt;
 
 int __cdecl wmain()
 {
     UINT32 length = 0;
-    LONG rc = GetCurrentPackageFamilyName(&length, NULL);
+    LONG rc = GetCurrentPackageFamilyName(&amp;length, NULL);
     if (rc != ERROR_INSUFFICIENT_BUFFER)
     {
         if (rc == APPMODEL_ERROR_NO_PACKAGE)
@@ -157,7 +161,7 @@ int __cdecl wmain()
         return 2;
     }
 
-    rc = GetCurrentPackageFamilyName(&length, familyName);
+    rc = GetCurrentPackageFamilyName(&amp;length, familyName);
     if (rc != ERROR_SUCCESS)
     {
         wprintf(L"Error %d retrieving PackageFamilyName\n", rc);
@@ -169,10 +173,10 @@ int __cdecl wmain()
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -64,7 +64,7 @@ The
 ### -param lpdwBufferLength [in, out]
 
 On input, the number of bytes contained in the buffer pointed to by <i>lpnspBuffer</i>. On output (if the function fails, and the error is 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a>), the minimum number of bytes to pass for the <i>lpnspBuffer</i> to retrieve all the requested information. The buffer passed to <b>WSAEnumNameSpaceProviders</b> must be sufficient to hold all of the namespace information.
+<a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a>), the minimum number of bytes to pass for the <i>lpnspBuffer</i> to retrieve all the requested information. The buffer passed to <b>WSAEnumNameSpaceProviders</b> must be sufficient to hold all of the namespace information.
 
 
 ### -param lpnspBuffer [out]
@@ -91,7 +91,7 @@ The
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -103,7 +103,7 @@ The <i>lpnspBuffer</i> parameter was a <b>NULL</b> pointer or the buffer length,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -115,7 +115,7 @@ The WS2_32.DLL has not been initialized. The application must first call
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -144,16 +144,20 @@ The <a href="https://msdn.microsoft.com/34bc96aa-63f7-4ab8-9376-6f4b979225ca">WS
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>WSAEnumNameSpaceProviders</b> function to retrieve information on available namespace providers.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE 1
 #endif
 
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <objbase.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;objbase.h&gt;
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib and ole32.lib
 #pragma comment (lib, "Ws2_32.lib")
@@ -191,7 +195,7 @@ int wmain()
     dwBufferLen = dwInitialBufferLen;
     
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -204,10 +208,10 @@ int wmain()
         return 1;
     }
     
-    iNuminfo = WSAEnumNameSpaceProviders(&dwBufferLen, lpProviderInfo);
+    iNuminfo = WSAEnumNameSpaceProviders(&amp;dwBufferLen, lpProviderInfo);
     if (iNuminfo == SOCKET_ERROR) {
         iError = WSAGetLastError();
-        if (iError == WSAEFAULT && dwBufferLen != dwInitialBufferLen) {
+        if (iError == WSAEFAULT &amp;&amp; dwBufferLen != dwInitialBufferLen) {
             wprintf(L"WSAEnumNameSpaceProviders failed with too small a buffer\n");
             wprintf(L"  Increasing the buffer to %u\n\n", dwBufferLen);
             if (lpProviderInfo) {
@@ -222,7 +226,7 @@ int wmain()
                return 1;
             }
 
-            iNuminfo = WSAEnumNameSpaceProviders(&dwBufferLen, lpProviderInfo);
+            iNuminfo = WSAEnumNameSpaceProviders(&amp;dwBufferLen, lpProviderInfo);
             if (iNuminfo == SOCKET_ERROR) {
                wprintf(L"WSAEnumNameSpaceProviders failed with error: %d\n",
                   WSAGetLastError() );
@@ -250,8 +254,8 @@ int wmain()
 
        wprintf(L"WSAEnumNameSpaceProviders succeeded with provider data count = %d\n\n",
            iNuminfo);
-       for (i= 0; i < iNuminfo; i++) {
-            iRet = StringFromGUID2(lpProviderInfo[i].NSProviderId, (LPOLESTR) &GuidString, 39); 
+       for (i= 0; i &lt; iNuminfo; i++) {
+            iRet = StringFromGUID2(lpProviderInfo[i].NSProviderId, (LPOLESTR) &amp;GuidString, 39); 
             if (iRet == 0)
                 wprintf(L"StringFromGUID2 failed\n");
             else 
@@ -275,7 +279,7 @@ int wmain()
                wprintf(L"Network Location Awareness (NS_NLA)\n");
                break;
            // following values only defined on Vista and later
-#if(_WIN32_WINNT >= 0x0600)
+#if(_WIN32_WINNT &gt;= 0x0600)
            case NS_BTH:
                wprintf(L"Bluetooth (NS_BTH)\n");
                break;
@@ -312,10 +316,10 @@ int wmain()
     
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Windows Phone 8:</b> The <b>WSAEnumNameSpaceProvidersW</b> function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: The <b>WSAEnumNameSpaceProvidersW</b> function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

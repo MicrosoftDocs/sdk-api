@@ -335,18 +335,22 @@ No special group membership is required to successfully execute the
 
 The following example validates a name for a specific type.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <assert.h>
-#include <windows.h>
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;assert.h&gt;
+#include &lt;windows.h&gt;
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t * argv[])
 {
@@ -359,8 +363,8 @@ int wmain(int argc, wchar_t * argv[])
     LPCWSTR lpPassword = NULL;
     DWORD dwNameType = NetSetupUnknown; // unknown name type
 
-    if (argc != 3 && argc != 4 && argc != 6) {
-        wprintf(L"Usage: %ws Server Name AccountName Password> nametype\n",
+    if (argc != 3 &amp;&amp; argc != 4 &amp;&amp; argc != 6) {
+        wprintf(L"Usage: %ws Server Name AccountName Password&gt; nametype\n",
                 argv[0]);
         wprintf(L"Usage: %ws Server Name nametype\n", argv[0]);
         wprintf(L"Usage: %ws Name nametype\n", argv[0]);
@@ -412,7 +416,7 @@ int wmain(int argc, wchar_t * argv[])
     case NetSetupNonExistentDomain:
         wprintf(L"(NetSetupNonExistentDomain)\n");
         break;
-#if(_WIN32_WINNT >= 0x0500)
+#if(_WIN32_WINNT &gt;= 0x0500)
     case NetSetupDnsMachine:
         wprintf(L"(NetSetupDnsMachine)\n");
         break;
@@ -479,10 +483,10 @@ int wmain(int argc, wchar_t * argv[])
     return nStatus;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

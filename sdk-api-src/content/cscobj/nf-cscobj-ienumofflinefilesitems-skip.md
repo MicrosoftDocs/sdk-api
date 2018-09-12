@@ -78,7 +78,7 @@ Returns <b>S_OK</b> if the number of elements skipped is <i>celt</i>; S_FALSE if
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530476(v=VS.85).aspx">IEnumOfflineFilesItems</a>
+<a href="https://msdn.microsoft.com/9bb1fa14-74d2-4c6f-b8ba-47c6e78d7a4f">IEnumOfflineFilesItems</a>
  
 
  

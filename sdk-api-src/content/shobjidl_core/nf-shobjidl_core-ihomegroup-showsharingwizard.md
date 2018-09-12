@@ -182,50 +182,54 @@ This method must be called from a single-threaded apartment (STA) thread.
 
 The following code shows an example use of <b>ShowSharingWizard</b>.
 
-
-```cpp
-HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
 if (SUCCEEDED(hr))
 {
     IHomeGroup *phg;
     
-    hr = CoCreateInstance(CLSID_HomeGroup, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&phg));
+    hr = CoCreateInstance(CLSID_HomeGroup, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;phg));
     if (SUCCEEDED(hr))
     {
         HOMEGROUPSHARINGCHOICES sharingchoices;
 
-        hr = phg->ShowSharingWizard(NULL, &sharingchoices);
+        hr = phg-&gt;ShowSharingWizard(NULL, &amp;sharingchoices);
         if (SUCCEEDED(hr))
         {
             \\ The user selected to share.
             
-            if (sharingchoices & HGSC_MUSICLIBRARY)
+            if (sharingchoices &amp; HGSC_MUSICLIBRARY)
             {
                 \\ Music
             }
-            if (sharingchoices & HGSC_PICTURESLIBRARY)
+            if (sharingchoices &amp; HGSC_PICTURESLIBRARY)
             {
                 \\ Pictures
             }
-            if (sharingchoices & HGSC_VIDEOSLIBRARY)
+            if (sharingchoices &amp; HGSC_VIDEOSLIBRARY)
             {
                 \\ Videos
             }
-            if (sharingchoices & HGSC_DOCUMENTSLIBRARY)
+            if (sharingchoices &amp; HGSC_DOCUMENTSLIBRARY)
             {
                 \\ Documents
             }
-            if (sharingchoices & HGSC_PRINTERS)
+            if (sharingchoices &amp; HGSC_PRINTERS)
             {
                 \\ Printers
             }
         }
-        phg->Release();
+        phg-&gt;Release();
     }
     CoUninitialize();
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

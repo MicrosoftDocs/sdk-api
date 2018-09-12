@@ -114,7 +114,7 @@ Paste from the clipboard.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Indicates whether the drag-drop is actually happening or if it is just a query. A nonzero value indicates the paste or drop is actually happening. A zero value indicates the operation is just a query, such as for 
-					<a href="https://msdn.microsoft.com/en-us/library/Bb787993(v=VS.85).aspx">EM_CANPASTE</a>.
+					<a href="https://msdn.microsoft.com/1b858ad8-1312-407b-b12a-c63668ba9f72">EM_CANPASTE</a>.
 
 
 ### -param hMetaPict
@@ -150,7 +150,7 @@ Returns <b>S_OK</b> on success. See Remarks.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774308(v=VS.85).aspx">IRichEditOleCallback</a>
+<a href="https://msdn.microsoft.com/2c3ba341-f62f-4c95-9547-6d50fcf3d6b4">IRichEditOleCallback</a>
  
 
  

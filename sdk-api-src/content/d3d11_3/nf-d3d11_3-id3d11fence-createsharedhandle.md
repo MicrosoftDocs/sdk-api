@@ -53,7 +53,7 @@ req.redist:
 Creates a shared handle to a fence object.
         
 
-This member function is equivalent to the Direct3D 12 <a href="https://msdn.microsoft.com/en-us/library/Dn899183(v=VS.85).aspx">ID3D12Device::CreateSharedHandle</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
+This member function is equivalent to the Direct3D 12 <a href="https://msdn.microsoft.com/AFF058FF-358F-4FF3-8C92-57A9D34B27D9">ID3D12Device::CreateSharedHandle</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
 
 
 ## -parameters
@@ -75,10 +75,10 @@ Set this parameter to <b>NULL</b> if you want child processes that the
             
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a
-              <a href="https://msdn.microsoft.com/en-us/library/Aa379561(v=VS.85).aspx">SECURITY_DESCRIPTOR</a> for the resource.
+              <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> for the resource.
               Set this member to <b>NULL</b> if you want the runtime to assign a default security descriptor to the resource that is associated with the returned handle.
               The ACLs in the default security descriptor for the resource come from the primary or impersonation token of the creator.
-              For more info, see <a href="https://msdn.microsoft.com/en-us/library/ms686670(v=VS.85).aspx">Synchronization Object Security and Access Rights</a>.
+              For more info, see <a href="https://msdn.microsoft.com/92478298-617c-4672-a1cc-9a8e9af40327">Synchronization Object Security and Access Rights</a>.
             
 
 
@@ -94,7 +94,7 @@ TBD
 
 ### -param pHandle [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HANDLE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HANDLE</a>*</b>
 
 A pointer to a variable that receives the NT HANDLE value to the resource to share.
             You can use this handle in calls to access the resource.
@@ -103,7 +103,7 @@ A pointer to a variable that receives the NT HANDLE value to the resource to sha
 
 #### - Access
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 Currently the only value this parameter accepts is GENERIC_ALL.
 
@@ -117,20 +117,20 @@ A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name to associa
               Name comparison is case-sensitive.
             
 
-If <i>Name</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a>.
+If <i>Name</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_NAME_ALREADY_EXISTS</a>.
               This occurs because these objects share the same namespace.
             
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace.
               The remainder of the name can contain any character except the backslash character (\).
               For more information, see
-              <a href="https://msdn.microsoft.com/en-us/library/Aa382954(v=VS.85).aspx">Kernel Object Namespaces</a>.
+              <a href="https://msdn.microsoft.com/771e0bbf-bd73-4e87-aa1e-945c1287b517">Kernel Object Namespaces</a>.
               Fast user switching is implemented using Terminal Services sessions.
               Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
             
 
 The object can be created in a private namespace.
-              For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms684295(v=VS.85).aspx">Object Namespaces</a>.
+              For more information, see <a href="https://msdn.microsoft.com/6a84ec16-fa65-4cdd-861a-eccf5d0eee2b">Object Namespaces</a>.
             
 
 
@@ -138,19 +138,19 @@ The object can be created in a private namespace.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following values:
               
 
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.
+<li><a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.
               </li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.
+<li><a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.
               </li>
 <li>E_ACCESSDENIED if the object is being created in a protected namespace.</li>
 <li>E_OUTOFMEMORY if sufficient memory is not available to create the handle.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a> topic.
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> topic.
               </li>
 </ul>
 
@@ -160,7 +160,7 @@ Returns S_OK if successful; otherwise, returns one of the following values:
 
 
 
-In order to to create a shared handle for the specified fence, the fence must have been created with either the <b>D3D11_FENCE_FLAG_SHARED</b> or <b>D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER</b> flags. For more information see the <a href="https://msdn.microsoft.com/en-us/library/Mt492475(v=VS.85).aspx">D3D11_FENCE_FLAG</a> enumeration.
+In order to to create a shared handle for the specified fence, the fence must have been created with either the <b>D3D11_FENCE_FLAG_SHARED</b> or <b>D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER</b> flags. For more information see the <a href="direct3d11.d3d11fenceflag">D3D11_FENCE_FLAG</a> enumeration.
 
 
 
@@ -170,7 +170,7 @@ In order to to create a shared handle for the specified fence, the fence must ha
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt492484(v=VS.85).aspx">ID3D11Fence</a>
+<a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a>
  
 
  

@@ -87,9 +87,13 @@ For convenience, <a href="https://msdn.microsoft.com/34de407c-54f0-4be9-a383-4bf
 
 The following code example shows the helper function <a href="https://msdn.microsoft.com/34de407c-54f0-4be9-a383-4bf1baa63eef">SHRemoveFolderPathFromLibrary</a>, which wraps this method.
 
-
-```cpp
-//
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//
 // from shobjidl.h
 //
 __inline HRESULT SHRemoveFolderPathFromLibrary(
@@ -105,20 +109,20 @@ __inline HRESULT SHRemoveFolderPathFromLibrary(
         IShellItem *psiFolder;
         hr = SHCreateItemFromIDList (
           pidlFolder, 
-          IID_PPV_ARGS(&psiFolder));
+          IID_PPV_ARGS(&amp;psiFolder));
 
         if (SUCCEEDED(hr))
         {
-            hr = plib->RemoveFolder(psiFolder);
-            psiFolder->Release();
+            hr = plib-&gt;RemoveFolder(psiFolder);
+            psiFolder-&gt;Release();
         }
         CoTaskMemFree(pidlFolder);
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

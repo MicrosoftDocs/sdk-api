@@ -85,7 +85,7 @@ Pointer to the size of the buffer at
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, D3DERR_MOREDATA, D3DERR_NOTFOUND.
 
@@ -97,15 +97,15 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205932(v=VS.85).aspx">IDirect3DVolume9</a>
+<a href="https://msdn.microsoft.com/b157d2d1-5813-43a1-ac3a-000b13b1bb62">IDirect3DVolume9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205933(v=VS.85).aspx">IDirect3DVolume9::FreePrivateData</a>
+<a href="https://msdn.microsoft.com/d4e075e0-2cd7-4160-97d6-fd8c1a932529">IDirect3DVolume9::FreePrivateData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205939(v=VS.85).aspx">IDirect3DVolume9::SetPrivateData</a>
+<a href="https://msdn.microsoft.com/e6d49e44-2633-4a11-8361-f8ea3b2b7d37">IDirect3DVolume9::SetPrivateData</a>
  
 
  

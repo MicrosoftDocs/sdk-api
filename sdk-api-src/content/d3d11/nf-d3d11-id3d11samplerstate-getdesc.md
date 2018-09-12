@@ -61,9 +61,9 @@ Gets the description for sampler state that you used to create the sampler-state
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476207(v=VS.85).aspx">D3D11_SAMPLER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff476207(v=VS.85).aspx">D3D11_SAMPLER_DESC</a> structure that receives a description of the sampler state.
+A pointer to a <a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a> structure that receives a description of the sampler state.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns nothing.
 
 
 
-You use the description for sampler state in a call to the <a href="https://msdn.microsoft.com/en-us/library/Ff476518(v=VS.85).aspx">ID3D11Device::CreateSamplerState</a> method to create the sampler-state object.
+You use the description for sampler state in a call to the <a href="https://msdn.microsoft.com/66cf7189-2882-43a4-8732-657402c983db">ID3D11Device::CreateSamplerState</a> method to create the sampler-state object.
 
 
 
@@ -89,7 +89,7 @@ You use the description for sampler state in a call to the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476588(v=VS.85).aspx">ID3D11SamplerState</a>
+<a href="https://msdn.microsoft.com/8dc2facc-4f51-4064-aab4-028a06b9d7e6">ID3D11SamplerState</a>
  
 
  

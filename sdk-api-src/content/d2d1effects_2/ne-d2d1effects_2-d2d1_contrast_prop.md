@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn890716(v=VS.85).aspx">Contrast effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/c0cc0f86-f6d4-e951-0cdd-dbad488e0793">Contrast effect</a>.
 
 
 ## -enum-fields
@@ -79,11 +79,11 @@ The D2D1_CONTRAST_PROP_CLAMP_INPUT property is a boolean value indicating whethe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706316(v=VS.85).aspx">Built-in Effects</a>
+<a href="https://msdn.microsoft.com/A76F6AB8-16E9-45C9-A768-5E4AA072D534">Built-in Effects</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn890716(v=VS.85).aspx">Contrast effect</a>
+<a href="https://msdn.microsoft.com/c0cc0f86-f6d4-e951-0cdd-dbad488e0793">Contrast effect</a>
 
 
 

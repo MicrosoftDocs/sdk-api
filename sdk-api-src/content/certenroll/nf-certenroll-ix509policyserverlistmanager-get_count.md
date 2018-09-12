@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Ee351734(v=VS.85).aspx">IX509PolicyServerUrl</a> objects in the collection.
+The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/ad9d61ec-f607-4f71-ad8a-28d821e29c27">IX509PolicyServerUrl</a> objects in the collection.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351726(v=VS.85).aspx">IX509PolicyServerListManager</a>
+<a href="https://msdn.microsoft.com/a9fe4f4b-a35d-40e6-b99a-a89f58e79250">IX509PolicyServerListManager</a>
  
 
  

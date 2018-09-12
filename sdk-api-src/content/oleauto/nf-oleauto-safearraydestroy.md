@@ -123,9 +123,13 @@ Safe arrays of variant will have the <a href="https://msdn.microsoft.com/28741d8
 
 #### Examples
 
-
-```cpp
-STDMETHODIMP_(ULONG) CEnumPoint::Release()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP_(ULONG) CEnumPoint::Release()
 {
    if(--m_refs == 0){
       if(m_psa != NULL)
@@ -134,9 +138,9 @@ STDMETHODIMP_(ULONG) CEnumPoint::Release()
       return 0;
    }
    return m_refs;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

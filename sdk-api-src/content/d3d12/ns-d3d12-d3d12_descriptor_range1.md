@@ -60,7 +60,7 @@ Describes a descriptor range, with flags to determine their volatility.
 
 ### -field RangeType
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn859381(v=VS.85).aspx">D3D12_DESCRIPTOR_RANGE_TYPE</a>-typed value that specifies the type of descriptor range.
+A <a href="https://msdn.microsoft.com/A72AAEA7-D812-41D0-B9AD-8A219EC9A88A">D3D12_DESCRIPTOR_RANGE_TYPE</a>-typed value that specifies the type of descriptor range.
           
 
 
@@ -85,7 +85,7 @@ The register space. Can typically be 0, but allows multiple descriptor  arrays o
 
 ### -field Flags
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/Mt709113(v=VS.85).aspx">D3D12_DESCRIPTOR_RANGE_FLAGS</a> that determine descriptor and data volatility.
+Specifies the <a href="https://msdn.microsoft.com/B22DBE80-A0BE-40F9-ADC2-5AFB35DDDDE8">D3D12_DESCRIPTOR_RANGE_FLAGS</a> that determine descriptor and data volatility.
 
 
 ### -field OffsetInDescriptorsFromTableStart
@@ -97,10 +97,10 @@ The offset in descriptors from the start of the root signature. This value can b
 
 
 
-This structure is a member of the <a href="https://msdn.microsoft.com/en-us/library/Mt709122(v=VS.85).aspx">D3D12_ROOT_DESCRIPTOR_TABLE1</a> structure.
+This structure is a member of the <a href="https://msdn.microsoft.com/1D9D1846-2BE2-4B88-8D23-5A27173918DD">D3D12_ROOT_DESCRIPTOR_TABLE1</a> structure.
       
 
-Refer to the helper structure <a href="https://msdn.microsoft.com/en-us/library/Mt750338(v=VS.85).aspx">CD3DX12_DESCRIPTOR_RANGE1</a>.
+Refer to the helper structure <a href="https://msdn.microsoft.com/9D073158-5907-4D1C-8D75-72B304277DAD">CD3DX12_DESCRIPTOR_RANGE1</a>.
 
 
 
@@ -110,11 +110,11 @@ Refer to the helper structure <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt709473(v=VS.85).aspx">Root Signature Version 1.1</a>
+<a href="https://msdn.microsoft.com/8FE42C1C-7F1D-4E70-A7EE-D5EC67237327">Root Signature Version 1.1</a>
  
 
  

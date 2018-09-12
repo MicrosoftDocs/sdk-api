@@ -210,7 +210,7 @@ This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375602(v=VS.85).aspx">Encoder API</a>
+<a href="mstv.encoder_api">Encoder API</a>
  
 
  

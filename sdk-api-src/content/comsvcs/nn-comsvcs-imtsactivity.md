@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[<b>IMTSActivity</b> is available for use in the operating systems specified in the Requirements section. It may be altered of unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/005bf0ec-f5a7-41a3-85b3-07f79f26af27">IServiceActivity</a>.]
 
-Submits batch work through the activity created by the <a href="https://msdn.microsoft.com/en-us/library/ms679476(v=VS.85).aspx">MTSCreateActivity</a> function.
+Submits batch work through the activity created by the <a href="https://msdn.microsoft.com/25ae1f2e-f937-4d06-9709-ded2fc8c5777">MTSCreateActivity</a> function.
 
 
 ## -inheritance
@@ -122,7 +122,7 @@ Unbinds the batch work that is submitted using <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679476(v=VS.85).aspx">MTSCreateActivity</a>
+<a href="https://msdn.microsoft.com/25ae1f2e-f937-4d06-9709-ded2fc8c5777">MTSCreateActivity</a>
  
 
  

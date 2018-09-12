@@ -80,7 +80,7 @@ Number of messages discarded.
 
 
 
-Get and set the message count limit with <a href="https://msdn.microsoft.com/en-us/library/Dn950175(v=VS.85).aspx">GetMessageCountLimit</a> and <a href="https://msdn.microsoft.com/en-us/library/Dn950198(v=VS.85).aspx">SetMessageCountLimit</a>, respectively.
+Get and set the message count limit with <a href="https://msdn.microsoft.com/FAE16E2C-6E18-4345-88A8-DDC5836A75A9">GetMessageCountLimit</a> and <a href="https://msdn.microsoft.com/A3C21C98-2B31-4901-8ED6-55E68507D200">SetMessageCountLimit</a>, respectively.
 
 
 
@@ -92,7 +92,7 @@ Get and set the message count limit with <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
  
 
  

@@ -101,9 +101,13 @@ The input transformation maps the coordinate space of the magnified screen conte
 
 The following example retrieves the current input translation settings.
 
-
-```cpp
-// Description:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Description:
 //   Retrieves the current input transform.
 //
 BOOL GetInputTranform()
@@ -112,8 +116,8 @@ BOOL GetInputTranform()
     RECT rcSource;
     RECT rcTarget;
 
-    BOOL fResult = MagGetInputTransform(&fInputTransformEnabled, 
-                                        &rcSource, &rcTarget);
+    BOOL fResult = MagGetInputTransform(&amp;fInputTransformEnabled, 
+                                        &amp;rcSource, &amp;rcTarget);
     if (fResult)
     {
         //
@@ -123,10 +127,10 @@ BOOL GetInputTranform()
 
     return fResult;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

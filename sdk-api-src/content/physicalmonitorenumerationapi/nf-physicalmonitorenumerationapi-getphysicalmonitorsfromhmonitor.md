@@ -99,9 +99,13 @@ When you are done using the monitor handles, close them by passing the <i>pPhysi
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HMONITOR hMonitor = NULL;
 DWORD cPhysicalMonitors;
 LPPHYSICAL_MONITOR pPhysicalMonitors = NULL;
@@ -112,7 +116,7 @@ hMonitor = MonitorFromWindow(hWnd, MONITOR_DEFAULTTOPRIMARY);
 // Get the number of physical monitors.
 BOOL bSuccess = GetNumberOfPhysicalMonitorsFromHMONITOR(
   hMonitor, 
-  &cPhysicalMonitors
+  &amp;cPhysicalMonitors
    );
 
 if (bSuccess)
@@ -137,10 +141,10 @@ if (bSuccess)
         // Free the array.
         free(pPhysicalMonitors);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

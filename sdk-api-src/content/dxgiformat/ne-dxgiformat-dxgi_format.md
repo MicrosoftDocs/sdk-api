@@ -194,7 +194,7 @@ A four-component, 32-bit unsigned-integer format that supports 10 bits for each 
 Three partial-precision floating-point numbers encoded into a single 32-bit value (a variant of s10e5, which is sign bit, 10-bit mantissa, and 5-bit biased (15) exponent). 
         There are no sign bits, and there is a 5-bit biased (15) exponent for each channel, 6-bit mantissa  for R and G, and a 5-bit mantissa for B, as shown in the following illustration.<sup>5,7</sup>
 
-<img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="./images/R11G11B10_FLOAT.png"/>
+<img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="images/R11G11B10_FLOAT.png"/>
 
 
 ### -field DXGI_FORMAT_R8G8B8A8_TYPELESS
@@ -402,7 +402,7 @@ A single-component, 1-bit unsigned-normalized integer format that supports 1 bit
 Three partial-precision floating-point numbers encoded into a single 32-bit value all sharing the same 5-bit exponent (variant of s10e5, which is sign bit, 10-bit mantissa, and 5-bit biased (15) exponent). 
         There is no sign bit, and there is a shared 5-bit biased (15) exponent and a 9-bit mantissa for each channel, as shown in the following illustration. <sup>2,6,7</sup>.
 
-<img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="./images/RGBE.png"/>
+<img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="images/RGBE.png"/>
 
 
 ### -field DXGI_FORMAT_R8G8_B8G8_UNORM
@@ -806,9 +806,13 @@ Most formats have byte-aligned components, and the components are in C-array ord
 Rather than adjusting for whether a system uses big-endian or little-endian byte ordering, you should write portable code, as follows.
           
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 // DXGI_FORMAT_R32G32B32A32_FLOAT
 FLOAT* pR32G32B32A32 = ...;
 pR32G32B32A32[0] = 1.f;  // R
@@ -818,11 +822,11 @@ pR32G32B32A32[3] = 0.5f; // A
 
 // DXGI_FORMAT_R10G10B10A2_UNORM
 UINT32* pR10G10B10A2 = ...;
-pR10G10B10A2 = (0x3ff) | (0x1 << 30);  // R=0x3ff, and A=0x1
-
-```
-
-
+pR10G10B10A2 = (0x3ff) | (0x1 &lt;&lt; 30);  // R=0x3ff, and A=0x1
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Restrictions_and_notes_on_formats"></a><a id="restrictions_and_notes_on_formats"></a><a id="RESTRICTIONS_AND_NOTES_ON_FORMATS"></a>Restrictions and notes on formats</h3>
 A few formats have additional restrictions and implied behavior:
 
@@ -830,7 +834,7 @@ A few formats have additional restrictions and implied behavior:
 <li>A resource declared with the DXGI_FORMAT_R32G32B32 family of formats cannot be used simultaneously for vertex and texture data.
               That is, you may not create a buffer resource with the DXGI_FORMAT_R32G32B32 family of formats that uses any of the following bind flags:
               D3D10_BIND_VERTEX_BUFFER, D3D10_BIND_INDEX_BUFFER, D3D10_BIND_CONSTANT_BUFFER, or D3D10_BIND_STREAM_OUTPUT
-              (see <a href="https://msdn.microsoft.com/en-us/library/Bb204891(v=VS.85).aspx">D3D10_BIND_FLAG</a>).
+              (see <a href="https://msdn.microsoft.com/3bbefc3b-ad05-499b-bbec-f370bf08a7f4">D3D10_BIND_FLAG</a>).
             </li>
 <li>DXGI_FORMAT_R1_UNORM is designed specifically for text filtering, and must be used with a format-specific, configurable 8x8 filter mode.
               When calling an HLSL sampling function using this format, the address offset parameter must be set to (0,0).
@@ -861,7 +865,7 @@ The following topics provide lists of the formats that particular hardware <a hr
 <a href="https://msdn.microsoft.com/735CDA40-557F-4D47-87B7-97A8E120B9D2">DXGI Format  Support for Direct3D Feature Level 11.0 Hardware</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Ff471324(v=VS.85).aspx">Hardware Support for Direct3D 10Level9 Formats</a>
+<a href="direct3ddxgi.d3d11_graphics_programming_guide_dxgi_hw_formats_10level9">Hardware Support for Direct3D 10Level9 Formats</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/011ad888-1c1d-4cbd-ab70-12fb8adc000f">Hardware Support for Direct3D 10.1 Formats</a>
@@ -910,17 +914,21 @@ A typeless format contains one or more subformats; each subformat resolves the d
   For example, in the R32G32B32 group, which defines types for three-component 96-bit data, there is one typeless format and three fully typed subformats.
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 DXGI_FORMAT_R32G32B32_TYPELESS,
 DXGI_FORMAT_R32G32B32_FLOAT,
 DXGI_FORMAT_R32G32B32_UINT,
 DXGI_FORMAT_R32G32B32_SINT,
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 </td>
 </tr>
 <tr>

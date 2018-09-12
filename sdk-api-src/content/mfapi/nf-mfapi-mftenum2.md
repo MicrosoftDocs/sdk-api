@@ -306,47 +306,55 @@ Hardware codecs should also be registered under an <a href="https://msdn.microso
 
 The following example retrieves the first available <a href="https://msdn.microsoft.com/003d5a10-e978-481f-8ca6-9e5ab69bfec0">IDXGIAdapter1</a> and gets the adapters <a href="https://msdn.microsoft.com/00601551-D6CE-4164-BDAF-DBCCF197990E">LUID</a>, which is needed to identify the adapter for the subsequent examples.
 
-
-```cpp
-HRESULT hr = S_OK;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = S_OK;
 IDXGIFactory1 *pDxgiFactory = NULL;
 IDXGIAdapter1 *pDxgiAdapter = NULL;
 LUID adapterLuid;
 
-if (FAILED(hr = CreateDXGIFactory1(__uuidof(IDXGIFactory1), (void **)&pDxgiFactory)))
+if (FAILED(hr = CreateDXGIFactory1(__uuidof(IDXGIFactory1), (void **)&amp;pDxgiFactory)))
 {
     return hr;
 }
 
-if (FAILED(hr = pDxgiFactory->EnumAdapters1(0, &pDxgiAdapter)))
+if (FAILED(hr = pDxgiFactory-&gt;EnumAdapters1(0, &amp;pDxgiAdapter)))
 {
     return hr;
 }
 
 DXGI_ADAPTER_DESC1 AdapterDescr;
-if (FAILED(hr = pDxgiAdapter->GetDesc1(&AdapterDescr)))
+if (FAILED(hr = pDxgiAdapter-&gt;GetDesc1(&amp;AdapterDescr)))
 {
     if (pDxgiAdapter)
     {
-        pDxgiAdapter->Release();
+        pDxgiAdapter-&gt;Release();
         pDxgiAdapter = NULL;
     }
     return hr;
 }
 
 adapterLuid = AdapterDescr.AdapterLuid;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following example searches for a hardware video or audio decoder. Asynchronous, hardware, transcode, and field-of-use decoders are excluded. If a match is found, the code creates the first MFT in the list. Unlike the parallel example in the <a href="https://msdn.microsoft.com/e065ae51-85dd-48ef-9322-de4ade62c0fe">MFTEnumEx</a> article,  this example creates an instance of <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> and sets the <a href="https://msdn.microsoft.com/00E87398-2584-48B0-9618-87B057A12D0C">MFT_ENUM_ADAPTER_LUID</a> attribute to the LUID of the interface from which the decoder is requested. In the call to <b>MFTEnum2</b>, the required MFT_ENUM_FLAG_HARDWARE flag is set and the <b>IMFAttributes</b> argument is provided.
 
-
-```cpp
-HRESULT FindHWDecoder(
-    const GUID& subtype,        // Subtype
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT FindHWDecoder(
+    const GUID&amp; subtype,        // Subtype
     BOOL bAudio,                // TRUE for audio, FALSE for video
-    LUID& adapterLuid,          // LUID of the graphics adapter for which to find the decoder
+    LUID&amp; adapterLuid,          // LUID of the graphics adapter for which to find the decoder
     IMFTransform **ppDecoder    // Receives a pointer to the decoder.
 )
 {
@@ -357,9 +365,9 @@ HRESULT FindHWDecoder(
 
     IMFActivate **ppActivate = NULL;
 
-    CComPtr<IMFAttributes> spAttributes;
-    hr = MFCreateAttributes(&spAttributes, 1);
-    if (FAILED(hr = spAttributes->SetBlob(MFT_ENUM_ADAPTER_LUID, (BYTE*)&adapterLuid, sizeof(LUID))))
+    CComPtr&lt;IMFAttributes&gt; spAttributes;
+    hr = MFCreateAttributes(&amp;spAttributes, 1);
+    if (FAILED(hr = spAttributes-&gt;SetBlob(MFT_ENUM_ADAPTER_LUID, (BYTE*)&amp;adapterLuid, sizeof(LUID))))
     {
         return hr;
     }
@@ -373,14 +381,14 @@ HRESULT FindHWDecoder(
     hr = MFTEnum2(
         bAudio ? MFT_CATEGORY_AUDIO_DECODER : MFT_CATEGORY_VIDEO_DECODER,
         MFT_ENUM_FLAG_HARDWARE | MFT_ENUM_FLAG_SYNCMFT | MFT_ENUM_FLAG_LOCALMFT | MFT_ENUM_FLAG_SORTANDFILTER,
-        &info,      // Input type
+        &amp;info,      // Input type
         NULL,       // Output type
         spAttributes,
-        &ppActivate,
-        &count
+        &amp;ppActivate,
+        &amp;count
     );
 
-    if (SUCCEEDED(hr) && count == 0)
+    if (SUCCEEDED(hr) &amp;&amp; count == 0)
     {
         hr = MF_E_TOPO_CODEC_NOT_FOUND;
     }
@@ -389,29 +397,33 @@ HRESULT FindHWDecoder(
 
     if (SUCCEEDED(hr))
     {
-        hr = ppActivate[0]->ActivateObject(IID_PPV_ARGS(ppDecoder));
+        hr = ppActivate[0]-&gt;ActivateObject(IID_PPV_ARGS(ppDecoder));
     }
 
-    for (UINT32 i = 0; i < count; i++)
+    for (UINT32 i = 0; i &lt; count; i++)
     {
-        ppActivate[i]->Release();
+        ppActivate[i]-&gt;Release();
     }
     CoTaskMemFree(ppActivate);
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The next example searches for a hardware video or audio encoder. Asynchronous, hardware, transcode, and field-of-use encoders are excluded. Unlike the parallel example in the <a href="https://msdn.microsoft.com/e065ae51-85dd-48ef-9322-de4ade62c0fe">MFTEnumEx</a> article,  this example creates an instance of <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> and sets the <a href="https://msdn.microsoft.com/00E87398-2584-48B0-9618-87B057A12D0C">MFT_ENUM_ADAPTER_LUID</a> attribute to the LUID of the interface from which the encoder is requested. In the call to <b>MFTEnum2</b>, the required MFT_ENUM_FLAG_HARDWARE flag is set and the <b>IMFAttributes</b> argument is provided.
 
-
-```cpp
-HRESULT FindHWEncoder(
-    const GUID& subtype,        // Subtype
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT FindHWEncoder(
+    const GUID&amp; subtype,        // Subtype
     BOOL bAudio,                // TRUE for audio, FALSE for video
-    LUID& adapterLuid,          // LUID of the graphics adapter for which to find the encoder
+    LUID&amp; adapterLuid,          // LUID of the graphics adapter for which to find the encoder
     IMFTransform **ppEncoder    // Receives a pointer to the decoder.
 )
 {
@@ -420,9 +432,9 @@ HRESULT FindHWEncoder(
 
     IMFActivate **ppActivate = NULL;
 
-    CComPtr<IMFAttributes> spAttributes;
-    hr = MFCreateAttributes(&spAttributes, 1);
-    if (FAILED(hr = spAttributes->SetBlob(MFT_ENUM_ADAPTER_LUID, (BYTE*)&adapterLuid, sizeof(LUID))))
+    CComPtr&lt;IMFAttributes&gt; spAttributes;
+    hr = MFCreateAttributes(&amp;spAttributes, 1);
+    if (FAILED(hr = spAttributes-&gt;SetBlob(MFT_ENUM_ADAPTER_LUID, (BYTE*)&amp;adapterLuid, sizeof(LUID))))
     {
         return hr;
     }
@@ -436,13 +448,13 @@ HRESULT FindHWEncoder(
         bAudio ? MFT_CATEGORY_AUDIO_ENCODER : MFT_CATEGORY_VIDEO_ENCODER,
         MFT_ENUM_FLAG_HARDWARE | MFT_ENUM_FLAG_SYNCMFT | MFT_ENUM_FLAG_LOCALMFT | MFT_ENUM_FLAG_SORTANDFILTER,
         NULL,       // Input type
-        &info,      // Output type
+        &amp;info,      // Output type
         spAttributes,
-        &ppActivate,
-        &count
+        &amp;ppActivate,
+        &amp;count
     );
 
-    if (SUCCEEDED(hr) && count == 0)
+    if (SUCCEEDED(hr) &amp;&amp; count == 0)
     {
         hr = MF_E_TOPO_CODEC_NOT_FOUND;
     }
@@ -451,31 +463,35 @@ HRESULT FindHWEncoder(
 
     if (SUCCEEDED(hr))
     {
-        hr = ppActivate[0]->ActivateObject(IID_PPV_ARGS(ppEncoder));
+        hr = ppActivate[0]-&gt;ActivateObject(IID_PPV_ARGS(ppEncoder));
     }
 
-    for (UINT32 i = 0; i < count; i++)
+    for (UINT32 i = 0; i &lt; count; i++)
     {
-        ppActivate[i]->Release();
+        ppActivate[i]-&gt;Release();
     }
     CoTaskMemFree(ppActivate);
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The next example searches for a hardware video decoder, with options to include asynchronous, hardware, or transcode decoders. Unlike the parallel example in the <a href="https://msdn.microsoft.com/e065ae51-85dd-48ef-9322-de4ade62c0fe">MFTEnumEx</a> article,  this example creates an instance of <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> and sets the <a href="https://msdn.microsoft.com/00E87398-2584-48B0-9618-87B057A12D0C">MFT_ENUM_ADAPTER_LUID</a> attribute to the LUID of the interface from which the video decoder is requested. In the call to <b>MFTEnum2</b>, the required MFT_ENUM_FLAG_HARDWARE flag is set and the <b>IMFAttributes</b> argument is provided.
 
-
-```cpp
-HRESULT FindHWVideoDecoder(
-    const GUID& subtype,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT FindHWVideoDecoder(
+    const GUID&amp; subtype,
     BOOL bAllowAsync,
     BOOL bAllowHardware,
     BOOL bAllowTranscode,
-    LUID& adapterLuid,          // LUID of the graphics adapter for which to find the encoder
+    LUID&amp; adapterLuid,          // LUID of the graphics adapter for which to find the encoder
     IMFTransform **ppDecoder
 )
 {
@@ -504,21 +520,21 @@ HRESULT FindHWVideoDecoder(
 
     unFlags |= MFT_ENUM_FLAG_HARDWARE;
 
-    CComPtr<IMFAttributes> spAttributes;
-    hr = MFCreateAttributes(&spAttributes, 1);
-    if (FAILED(hr = spAttributes->SetBlob(MFT_ENUM_ADAPTER_LUID, (BYTE*)&adapterLuid, sizeof(LUID))))
+    CComPtr&lt;IMFAttributes&gt; spAttributes;
+    hr = MFCreateAttributes(&amp;spAttributes, 1);
+    if (FAILED(hr = spAttributes-&gt;SetBlob(MFT_ENUM_ADAPTER_LUID, (BYTE*)&amp;adapterLuid, sizeof(LUID))))
     {
         return hr;
     }
 
     hr = MFTEnumEx(MFT_CATEGORY_VIDEO_DECODER,
         unFlags,
-        &info,      // Input type
+        &amp;info,      // Input type
         NULL,       // Output type
-        &ppActivate,
-        &count);
+        &amp;ppActivate,
+        &amp;count);
 
-    if (SUCCEEDED(hr) && count == 0)
+    if (SUCCEEDED(hr) &amp;&amp; count == 0)
     {
         hr = MF_E_TOPO_CODEC_NOT_FOUND;
     }
@@ -526,21 +542,21 @@ HRESULT FindHWVideoDecoder(
     // Create the first decoder in the list.
     if (SUCCEEDED(hr))
     {
-        hr = ppActivate[0]->ActivateObject(IID_PPV_ARGS(ppDecoder));
+        hr = ppActivate[0]-&gt;ActivateObject(IID_PPV_ARGS(ppDecoder));
     }
 
-    for (UINT32 i = 0; i < count; i++)
+    for (UINT32 i = 0; i &lt; count; i++)
     {
-        ppActivate[i]->Release();
+        ppActivate[i]-&gt;Release();
     }
     CoTaskMemFree(ppActivate);
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

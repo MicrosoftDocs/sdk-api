@@ -212,9 +212,13 @@ Only some <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb43
 
 The following code example uses <b>SHGetFolderPath</b> to find or create a folder and then creates a file in it.
 
-
-```cpp
-TCHAR szPath[MAX_PATH];
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>TCHAR szPath[MAX_PATH];
 
 if(SUCCEEDED(SHGetFolderPath(NULL, 
                              CSIDL_PERSONAL|CSIDL_FLAG_CREATE, 
@@ -224,10 +228,10 @@ if(SUCCEEDED(SHGetFolderPath(NULL,
 {
     PathAppend(szPath, TEXT("New Doc.txt"));
     HANDLE hFile = CreateFile(szPath, ...);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

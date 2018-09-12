@@ -389,8 +389,8 @@ You select these optional behaviors by setting the <i>dwFlags</i> parameter; if
 The calling process can use the handle returned by 
     <b>LoadLibraryEx</b> to identify the module in calls to the 
     <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>, 
-    <a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a>, and 
-    <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> functions.
+    <a href="_win32_findresource_cpp">FindResource</a>, and 
+    <a href="_win32_loadresource_cpp">LoadResource</a> functions.
 
 To enable or disable error messages displayed by the loader during DLL loads, use the 
     <a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a> function.
@@ -436,22 +436,26 @@ Unless an application depends on specific image mapping characteristics, the
       <b>LOAD_LIBRARY_AS_DATAFILE</b>. This allows the loader to choose whether to load the module 
       as an image resource or a data file, selecting whichever option enables the system to share pages more 
       effectively. Resource  functions such as 
-      <a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a> can use either mapping.
+      <a href="https://msdn.microsoft.com/00f14551-5381-4499-a13a-86f15dd4e618">FindResource</a> can use either mapping.
 
 
 
 To determine how a module was loaded, use one of the  following macros to test the handle returned by 
       <b>LoadLibraryEx</b>.
 
-
-```cpp
-#define LDR_IS_DATAFILE(handle)      (((ULONG_PTR)(handle)) &  (ULONG_PTR)1)
-#define LDR_IS_IMAGEMAPPING(handle)  (((ULONG_PTR)(handle)) & (ULONG_PTR)2)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define LDR_IS_DATAFILE(handle)      (((ULONG_PTR)(handle)) &amp;  (ULONG_PTR)1)
+#define LDR_IS_IMAGEMAPPING(handle)  (((ULONG_PTR)(handle)) &amp; (ULONG_PTR)2)
 #define LDR_IS_RESOURCE(handle)      (LDR_IS_IMAGEMAPPING(handle) || LDR_IS_DATAFILE(handle))
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following table describes these macros.
       <table>
 <tr>
@@ -520,7 +524,7 @@ If <i>lpFileName</i> specifies an absolute path and <i>dwFlags</i> is
 
 The <a href="https://msdn.microsoft.com/c0c57554-3d98-487c-8bae-c594620d5a00">SetDllDirectory</a> function can be used to modify 
       the search path. This solution is better than using 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa365530(v=VS.85).aspx">SetCurrentDirectory</a> or hard-coding the full path 
+      <a href="base.setcurrentdirectory">SetCurrentDirectory</a> or hard-coding the full path 
       to the DLL. However, be aware that using 
       <b>SetDllDirectory</b> effectively disables safe DLL search 
       mode while the specified directory is in the search path and it is not thread safe. If possible, it is best to 
@@ -639,7 +643,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a>
+<a href="_win32_findresource_cpp">FindResource</a>
 
 
 
@@ -663,7 +667,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a>
+<a href="_win32_loadresource_cpp">LoadResource</a>
 
 
 

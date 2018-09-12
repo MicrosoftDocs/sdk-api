@@ -136,14 +136,18 @@ A report interval of zero means that no minimum interval is specified, and the a
 
 The following example demonstrates how to call <b>SetReportInterval</b>.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Set the latitude/longitude report interval to 1000 milliseconds
-HRESULT hr = spLocation->SetReportInterval(IID_ILatLongReport, 1000);
-```
-
-
+HRESULT hr = spLocation-&gt;SetReportInterval(IID_ILatLongReport, 1000);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

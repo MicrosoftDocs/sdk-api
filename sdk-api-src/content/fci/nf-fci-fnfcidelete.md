@@ -82,9 +82,13 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNFCIDELETE(fnFileDelete)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCIDELETE(fnFileDelete)
 {
     INT iResult = 0;
 
@@ -99,10 +103,10 @@ FNFCIDELETE(fnFileDelete)
     return iResult;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

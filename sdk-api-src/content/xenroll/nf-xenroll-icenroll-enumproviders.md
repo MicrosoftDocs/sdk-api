@@ -77,7 +77,7 @@ Specifies flags that are passed through to the <a href="https://msdn.microsoft.c
 
 ### -param pbstrProvName [out]
 
-A pointer to a <b>BSTR</b> variable that receives the name of a CSP with the specified property type. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> variable that receives the name of a CSP with the specified property type. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns
@@ -107,9 +107,13 @@ The <b>enumProviders</b> method  calls the
 
 #### Examples
 
-
-```cpp
-BSTR       bstrProvName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR       bstrProvName = NULL;
 DWORD      nProv;
 int        j;
 HRESULT    hr;
@@ -122,21 +126,21 @@ DWORD      nProvType[] = { PROV_RSA_FULL,
                            PROV_STT_ISS };
 
 // Loop, for each Prov Type.
-for (j = 0; j < (sizeof(nProvType)/sizeof(DWORD)); j++)
+for (j = 0; j &lt; (sizeof(nProvType)/sizeof(DWORD)); j++)
 {
     nProv = 0;
     
     // pEnroll is previously instantiated ICEnroll interface pointer
-    hr = pEnroll->put_ProviderType( nProvType[j] );
+    hr = pEnroll-&gt;put_ProviderType( nProvType[j] );
     if ( FAILED(hr))
     {
         printf("Failed put_ProviderType - %x\n", hr);
         goto error;
     }
     // Enumerate the CSPs of this type.
-    while ( S_OK == ( hr = pEnroll->enumProviders(nProv,
+    while ( S_OK == ( hr = pEnroll-&gt;enumProviders(nProv,
                                                   0,
-                                                  &bstrProvName)))
+                                                  &amp;bstrProvName)))
     {
         printf("Provider %ws (type %d )\n", bstrProvName, 
             nProvType[j] );
@@ -156,10 +160,10 @@ for (j = 0; j < (sizeof(nProvType)/sizeof(DWORD)); j++)
 error:
 // Clean up resources, and so on.
 if ( bstrProvName )
-    SysFreeString( bstrProvName );
-```
-
-
+    SysFreeString( bstrProvName );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

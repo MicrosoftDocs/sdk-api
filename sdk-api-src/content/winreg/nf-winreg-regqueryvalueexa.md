@@ -184,11 +184,15 @@ Note that operations that access certain registry keys are redirected. For more 
 
 Ensure that you reinitialize the value  pointed to by the <i>lpcbData</i> parameter each time  you  call this function. This is very important when you call this function in a loop, as in the following code example.
 
-
-```cpp
-#include <windows.h>
-#include <malloc.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;malloc.h&gt;
+#include &lt;stdio.h&gt;
 
 #define TOTALBYTES    8192
 #define BYTEINCREMENT 4096
@@ -209,7 +213,7 @@ void main()
                              NULL,
                              NULL,
                              (LPBYTE) PerfData,
-                             &cbData );
+                             &amp;cbData );
     while( dwRet == ERROR_MORE_DATA )
     {
         // Get a buffer that is big enough.
@@ -224,16 +228,16 @@ void main()
                          NULL,
                          NULL,
                          (LPBYTE) PerfData,
-                         &cbData );
+                         &amp;cbData );
     }
     if( dwRet == ERROR_SUCCESS )
         printf("\n\nFinal buffer size is %d\n", BufferSize);
     else printf("\nRegQueryValueEx failed (%d)\n", dwRet);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

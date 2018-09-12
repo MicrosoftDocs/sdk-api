@@ -193,7 +193,7 @@ The size of <i>lpInBuffer</i>, in bytes.
     <b>CLUSAPI_RESOURCE_OFFLINE_IGNORE_RESOURCE_LOCKED_STATUS</b> flag is not set and the resource 
     has indicated that it is “locked” in its current state.
 
-Similar to <a href="https://msdn.microsoft.com/en-us/library/Hh418101(v=VS.85).aspx">MoveClusterGroupEx</a>, if 
+Similar to <a href="https://msdn.microsoft.com/CE56BA9D-3527-43D3-8656-EA0BBDF48B98">MoveClusterGroupEx</a>, if 
     <b>OfflineClusterResourceEx</b> returns 
     <b>ERROR_IO_PENDING</b>, then the cluster service will attempt to bring the resource to the 
     offline state.
@@ -204,12 +204,16 @@ Similar to <a href="https://msdn.microsoft.com/en-us/library/Hh418101(v=VS.85).a
 
 #### Examples
 
-
-```
-#include "stdafx.h"
-#include <windows.h>
-#include <stdio.h>
-#include <ClusAPI.h>
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#include "stdafx.h"
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;ClusAPI.h&gt;
 
 
 #define DemoResDllTypeName L"dummy"
@@ -290,9 +294,9 @@ Cleanup:
     }
 
     return (int)error;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

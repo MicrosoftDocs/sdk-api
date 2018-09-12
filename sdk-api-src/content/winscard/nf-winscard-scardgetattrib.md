@@ -505,7 +505,7 @@ ERROR_NOT_SUPPORTED.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -527,17 +527,21 @@ The <b>SCardGetAttrib</b> function is a direct card access function. For more in
 
 The following example shows how to retrieve an attribute for a card reader. The example assumes that hCardHandle is a valid handle obtained from a previous call to the <a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a> function.
 
-
-```cpp
-LPBYTE   pbAttr = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPBYTE   pbAttr = NULL;
 DWORD    cByte = SCARD_AUTOALLOCATE;
 DWORD    i;
 LONG     lReturn;
 
 lReturn = SCardGetAttrib(hCardHandle,
                          SCARD_ATTR_VENDOR_NAME,
-                         (LPBYTE)&pbAttr,
-                         &cByte);
+                         (LPBYTE)&amp;pbAttr,
+                         &amp;cByte);
 if ( SCARD_S_SUCCESS != lReturn )
 {
     if ( ERROR_NOT_SUPPORTED == lReturn )
@@ -552,7 +556,7 @@ if ( SCARD_S_SUCCESS != lReturn )
 else
 {
     // Output the bytes.
-    for (i = 0; i < cByte; i++)
+    for (i = 0; i &lt; cByte; i++)
         printf("%c", *(pbAttr+i));
     printf("\n");
 
@@ -560,10 +564,10 @@ else
     // hContext was set earlier by SCardEstablishContext
     lReturn = SCardFreeMemory( hContext, pbAttr );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -55,7 +55,7 @@ req.redist:
 ## -description
 
 
-Frees a block of task memory previously allocated through a call to the <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> or <a href="https://msdn.microsoft.com/en-us/library/ms687280(v=VS.85).aspx">CoTaskMemRealloc</a> function.
+Frees a block of task memory previously allocated through a call to the <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> or <a href="https://msdn.microsoft.com/83014a3e-198d-4b4b-91aa-0c0804c8e1bf">CoTaskMemRealloc</a> function.
 
 
 ## -parameters
@@ -95,15 +95,15 @@ The number of bytes freed equals the number of bytes that were originally alloca
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>
+<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687280(v=VS.85).aspx">CoTaskMemRealloc</a>
+<a href="https://msdn.microsoft.com/83014a3e-198d-4b4b-91aa-0c0804c8e1bf">CoTaskMemRealloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693438(v=VS.85).aspx">IMalloc::Free</a>
+<a href="https://msdn.microsoft.com/d65411ea-13d5-4932-a757-d897311e9e28">IMalloc::Free</a>
  
 
  

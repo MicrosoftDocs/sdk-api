@@ -59,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pMsg [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure that receives message data.
+Pointer to a <a href="_win32_msg_str">MSG</a> structure that receives message data.
 
 
 ### -param hwnd [in]
@@ -144,11 +144,11 @@ If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, this method retu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>
+<a href="_win32_msg_str">MSG</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="_win32_peekmessage">PeekMessage</a>
  
 
  

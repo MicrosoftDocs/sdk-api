@@ -51,9 +51,9 @@ req.redist:
 ## -description
 
 
-Returns an enumerator of child items for the cache item implementing this method. Server, share, and directory entries in the Offline Files cache implement this method to expose the enumeration of their immediate children.  However, a call to <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> to query a file item for <b>IID_IOfflineFilesItemContainer</b> fails with <b>E_NOINTERFACE</b>, because file items have no children.
+Returns an enumerator of child items for the cache item implementing this method. Server, share, and directory entries in the Offline Files cache implement this method to expose the enumeration of their immediate children.  However, a call to <a href="_com_iunknown_queryinterface">QueryInterface</a> to query a file item for <b>IID_IOfflineFilesItemContainer</b> fails with <b>E_NOINTERFACE</b>, because file items have no children.
 
-This method is similar to <a href="https://msdn.microsoft.com/en-us/library/Bb530574(v=VS.85).aspx">IOfflineFilesItemContainer::EnumItems</a>, except that it allows filtering and flat enumeration.
+This method is similar to <a href="https://msdn.microsoft.com/9960e8f8-4d15-4a53-aa77-d0105b6a59d1">IOfflineFilesItemContainer::EnumItems</a>, except that it allows filtering and flat enumeration.
 
 
 ## -parameters
@@ -135,7 +135,7 @@ Allows administrators to find items cached by any user. If this flag is set and 
 
 ### -param ppenum [out]
 
-Enumerator of <a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a> interface pointers.
+Enumerator of <a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a> interface pointers.
 
 
 ## -returns
@@ -155,10 +155,10 @@ To begin a top-down enumeration of the entire cache, perform the following steps
 
 <ol>
 <li>Create an instance of <b>CLSID_OfflineFilesCache</b> and obtain its 
-      <a href="https://msdn.microsoft.com/en-us/library/Bb530573(v=VS.85).aspx">IOfflineFilesItemContainer</a> interface.</li>
+      <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> interface.</li>
 <li>Call the <b>EnumItemsEx</b> method to obtain an enumerator for the server entries.</li>
-<li>For each entry returned, call <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> for  <a href="https://msdn.microsoft.com/en-us/library/Bb530573(v=VS.85).aspx">IOfflineFilesItemContainer</a>.</li>
-<li>If <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> succeeds, the item supports children.  If so, enumerate each child, calling <b>QueryInterface</b> for <a href="https://msdn.microsoft.com/en-us/library/Bb530573(v=VS.85).aspx">IOfflineFilesItemContainer</a> on each.  This pattern may be recursively applied to enumerate the entire cache.</li>
+<li>For each entry returned, call <a href="_com_iunknown_queryinterface">QueryInterface</a> for  <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a>.</li>
+<li>If <a href="_com_iunknown_queryinterface">QueryInterface</a> succeeds, the item supports children.  If so, enumerate each child, calling <b>QueryInterface</b> for <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> on each.  This pattern may be recursively applied to enumerate the entire cache.</li>
 </ol>
 It is possible to provide both inclusion and exclusion filters to the same enumeration. In such a case, the results are as follows for any particular item being evaluated.
 
@@ -191,19 +191,19 @@ As the table illustrates, if the exclusion filter matches or the inclusion filte
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530512(v=VS.85).aspx">IOfflineFilesConnectionInfo::GetConnectState</a>
+<a href="https://msdn.microsoft.com/83b082b4-5845-44b7-9456-f00b357e345a">IOfflineFilesConnectionInfo::GetConnectState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a>
+<a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530573(v=VS.85).aspx">IOfflineFilesItemContainer</a>
+<a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530574(v=VS.85).aspx">IOfflineFilesItemContainer::EnumItems</a>
+<a href="https://msdn.microsoft.com/9960e8f8-4d15-4a53-aa77-d0105b6a59d1">IOfflineFilesItemContainer::EnumItems</a>
  
 
  

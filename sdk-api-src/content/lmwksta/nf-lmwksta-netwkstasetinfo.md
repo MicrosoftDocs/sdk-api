@@ -333,16 +333,20 @@ The workstation service parameter settings are stored in the registry, not in th
 The following code sample demonstrates how to set the session time-out value associated with a workstation using a call to the 
 <b>NetServerSetInfo</b> function. (The session time-out is the number of seconds the server waits before disconnecting an inactive session.) The code specifies information level 502 (<a href="https://msdn.microsoft.com/716e700a-e464-47ec-a2df-74c03597ac6d">WKSTA_INFO_502</a>).
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -352,7 +356,7 @@ int wmain(int argc, wchar_t *argv[])
    NET_API_STATUS nStatus;
    LPWSTR pszServerName = NULL;
 
-   if ((argc < 2) || (argc > 3))
+   if ((argc &lt; 2) || (argc &gt; 3))
    {
       fwprintf(stderr, L"Usage: %s [\\\\ServerName] SessionTimeOut\n", argv[0]);
       exit(1);
@@ -365,7 +369,7 @@ int wmain(int argc, wchar_t *argv[])
    //
    nStatus = NetWkstaGetInfo(pszServerName,
                              dwLevel,
-                             (LPBYTE *)&pBuf);
+                             (LPBYTE *)&amp;pBuf);
 
    if (nStatus != NERR_Success)
    {
@@ -379,7 +383,7 @@ int wmain(int argc, wchar_t *argv[])
       // Copy the existing settings to the new structure,
       //   and free the buffer.
       //
-      CopyMemory(&wi, pBuf, sizeof(wi));
+      CopyMemory(&amp;wi, pBuf, sizeof(wi));
       NetApiBufferFree(pBuf);
    }
    else
@@ -394,7 +398,7 @@ int wmain(int argc, wchar_t *argv[])
    wi.wki502_sess_timeout = _wtoi(argv[argc-1]);
    nStatus = NetWkstaSetInfo(pszServerName,
                              dwLevel,
-                             (LPBYTE)&wi,
+                             (LPBYTE)&amp;wi,
                              NULL);
    //
    // Display the result of the call.
@@ -406,10 +410,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

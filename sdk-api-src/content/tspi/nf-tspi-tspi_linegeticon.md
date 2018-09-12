@@ -96,7 +96,7 @@ LINEERR_INVALDEVICECLASS, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOUR
 
 
 The provider should return a handle (in the <b>DWORD</b> pointed to by <i>lphIcon</i>) to an icon resource (obtained from the  
-<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a> function) associated with the specified line.
+<a href="_win32_loadicon_cpp">LoadIcon</a> function) associated with the specified line.
 
 A provider may choose to support many icons (selected by <i>lpszDeviceClass</i> and/or line number), a single icon (such as for the manufacturer, which would be returned for all 
 <b>TSPI_lineGetIcon</b> requests regardless of the <i>lpszDeviceClass</i> selected), or no icons, in which case it sets the <b>DWORD</b> pointed to by <i>lphIcon</i> to <b>NULL</b>. TAPI examines the handle returned by the provider, and if the provider returns <b>NULL</b>, TAPI substitutes a generic  Telephony icon (the generic "line" icon).

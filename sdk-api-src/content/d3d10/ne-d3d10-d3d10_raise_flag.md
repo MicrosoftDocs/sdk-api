@@ -67,7 +67,7 @@ Raise an internal driver error to a non-continuable exception.
 
 
 
-These flags are used by <a href="https://msdn.microsoft.com/en-us/library/Bb173572(v=VS.85).aspx">ID3D10Device::GetExceptionMode</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb173614(v=VS.85).aspx">ID3D10Device::SetExceptionMode</a>. Use 0 to indicate no flags; multiple flags can be logically OR'ed together.
+These flags are used by <a href="https://msdn.microsoft.com/c343ba41-4fec-4598-8eac-30674ab77a49">ID3D10Device::GetExceptionMode</a> and <a href="https://msdn.microsoft.com/bd15256d-4dc8-43d5-87de-2d35956dc0bd">ID3D10Device::SetExceptionMode</a>. Use 0 to indicate no flags; multiple flags can be logically OR'ed together.
 
 
 
@@ -77,7 +77,7 @@ These flags are used by <a href="https://msdn.microsoft.com/en-us/library/Bb1735
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

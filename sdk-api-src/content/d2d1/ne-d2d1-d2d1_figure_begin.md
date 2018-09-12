@@ -90,7 +90,7 @@ Indicates the figure will not be filled by the FillGeometry (<a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee264309(v=VS.85).aspx">Path Geometries Overview</a>
+<a href="https://msdn.microsoft.com/38a290be-b915-4317-b9b1-0e49e40dc8ec">Path Geometries Overview</a>
  
 
  

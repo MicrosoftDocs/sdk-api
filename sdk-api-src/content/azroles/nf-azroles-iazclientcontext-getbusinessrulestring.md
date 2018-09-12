@@ -78,11 +78,11 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any ot
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376375(v=VS.85).aspx">BusinessRuleString</a>
+<a href="https://msdn.microsoft.com/0370b251-625a-410c-ab36-76f4432405cf">BusinessRuleString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377837(v=VS.85).aspx">IAzClientContext</a>
+<a href="https://msdn.microsoft.com/e24184d2-a77b-4a8b-b2f3-78f1e0b902f9">IAzClientContext</a>
  
 
  
