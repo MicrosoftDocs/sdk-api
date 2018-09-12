@@ -51,7 +51,7 @@ req.product: Internet Explorer 4.0
 ## -description
 
 
-Deprecated. Updates an entry that originated out of the current procedure through <a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>.
+Deprecated. Updates an entry that originated out of the current procedure through <a href="https://msdn.microsoft.com/library/Aa767938(v=VS.85).aspx">IHlinkFrame</a>.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A pointer to an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08b
 
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of an <a href="_inet_IHlinkBrowseContext_Interface_cpp">IHlinkBrowseContext</a> retrieved through <a href="_inet_IHlinkFrame_Interface_inet_IHlinkFrame_GetBrowseContext_Method_cpp">IHlinkFrame::GetBrowseContext</a>.
+A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of an <a href="https://msdn.microsoft.com/library/Aa767949(v=VS.85).aspx">IHlinkBrowseContext</a> retrieved through <a href="https://msdn.microsoft.com/library/Aa767937(v=VS.85).aspx">IHlinkFrame::GetBrowseContext</a>.
         
 
 

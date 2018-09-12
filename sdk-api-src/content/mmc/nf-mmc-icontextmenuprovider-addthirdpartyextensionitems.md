@@ -62,7 +62,7 @@ The <b>IContextMenuProvider::AddThirdPartyExtensionItems</b> method enables thir
 ### -param piDataObject [in]
 
 A pointer to the 
-<a href="_ole_idataobject">IDataObject</a> interface on the object whose menu is extended.
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the object whose menu is extended.
 
 
 ## -returns

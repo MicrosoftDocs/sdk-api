@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates an <a href="_com_IEnumUnknown">IEnumUnknown</a> object of the specified component types.
+Creates an <a href="https://msdn.microsoft.com/en-us/library/ms683764(v=VS.85).aspx">IEnumUnknown</a> object of the specified component types.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ The <a href="https://msdn.microsoft.com/52cc0860-6164-4400-8e81-03eb0c44904e">WI
 
 ### -param ppIEnumUnknown [out]
 
-Type: <b><a href="_com_IEnumUnknown">IEnumUnknown</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms683764(v=VS.85).aspx">IEnumUnknown</a>**</b>
 
 A pointer that receives a pointer to a new component enumerator.
 

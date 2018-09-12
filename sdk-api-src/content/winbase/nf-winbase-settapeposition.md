@@ -62,7 +62,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device on which to set the tape position. This handle is created by using the 
-<a href="base.createfile">CreateFile</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
 
 
 ### -param dwPositionMethod [in]
@@ -415,7 +415,7 @@ To obtain information about the status, capabilities, and capacities of tape dri
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 

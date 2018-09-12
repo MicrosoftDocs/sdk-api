@@ -54,14 +54,14 @@ req.redist:
 Use <b>IEnumBitsPeers</b> to enumerate the list of peers that BITS has discovered. 
 
 To get this interface, call the 
-<a href="https://msdn.microsoft.com/8786d7d8-9ffb-4492-9834-90b97f97e4cf">IBitsPeerCacheAdministration::EnumPeers</a> method.
+<a href="https://msdn.microsoft.com/en-us/library/Aa964278(v=VS.85).aspx">IBitsPeerCacheAdministration::EnumPeers</a> method.
 <div class="alert"><b>Note</b>  This interface is deprecated in BITS 4.0, and all of the API methods will return <b>S_FALSE</b>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBitsPeers</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumBitsPeers</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBitsPeers</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumBitsPeers</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -74,7 +74,7 @@ The <b>IEnumBitsPeers</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72b3e0bc-9426-4953-a910-2dfaa955c4c0">Clone</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964309(v=VS.85).aspx">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -83,7 +83,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4e52429-cd41-483a-b168-b5d7a1f77d74">GetCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964310(v=VS.85).aspx">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of items in the enumeration.
@@ -92,7 +92,7 @@ Returns the number of items in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b5bc254d-d74e-4076-a22a-93abf9023068">Next</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964311(v=VS.85).aspx">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of items in the enumeration sequence.
@@ -101,7 +101,7 @@ Retrieves a specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87eb8e34-046e-46a5-9d9b-efeb6fa03485">Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964312(v=VS.85).aspx">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -110,7 +110,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23a9b424-11a3-4cbf-a867-93026f0725cc">Skip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964313(v=VS.85).aspx">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of items in the enumeration sequence.

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the address of a pointer to the <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a> interface, which contains additional sort column values.
+Gets the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface, which contains additional sort column values.
 
 
 ## -parameters
@@ -62,14 +62,14 @@ Gets the address of a pointer to the <a href="shell.IPropertyDescriptionList">IP
 
 Type: <b>REFIID</b>
 
-A reference to the identifier of the requested <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a> interface.
+A reference to the identifier of the requested <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface.
 
 
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-When this method returns successfully, contains the address of a pointer to an <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a> interface.
+When this method returns successfully, contains the address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface.
 
 
 ## -returns
@@ -100,11 +100,11 @@ The following is an example usage for this method. When sorting by System.Author
 
 
 
-<a href="shell.IPropertyDescriptionAliasInfo">IPropertyDescriptionAliasInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761517(v=VS.85).aspx">IPropertyDescriptionAliasInfo</a>
 
 
 
-<a href="shell.IPropertyDescriptionAliasInfo_GetSortByAlias">IPropertyDescriptionAliasInfo::GetSortByAlias</a>
+<a href="https://msdn.microsoft.com/library/Bb761515(v=VS.85).aspx">IPropertyDescriptionAliasInfo::GetSortByAlias</a>
  
 
  

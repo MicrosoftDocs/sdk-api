@@ -51,7 +51,7 @@ req.redist:
 
 
 Discovers the MDM service. The discovery process uses the 
-    <a href="5c841535-042e-489e-913c-9d783d741267">[MS-MDE]: Mobile Device Enrollment Protocol</a> 
+    <a href="https://msdn.microsoft.com/library/Dn409494(v=PROT.20).aspx">[MS-MDE]: Mobile Device Enrollment Protocol</a> 
     protocol.
 
 

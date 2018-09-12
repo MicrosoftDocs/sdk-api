@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the number of lines in the text of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/9fe63c10-7395-4f98-a672-14960a70d14f">EM_GETLINECOUNT</a> message explicitly.
+Gets the number of lines in the text of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761586(v=VS.85).aspx">EM_GETLINECOUNT</a> message explicitly.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/9fe63c10-7395-4f98-a672-14960a70d14f">EM_GETLINECOUNT</a>
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761586(v=VS.85).aspx">EM_GETLINECOUNT</a>
 
 
 

@@ -60,9 +60,9 @@ Determines the how the current property is indexed.
 
 ### -param ppdciType [out]
 
-Type: <b><a href="shell.PROPDESC_COLUMNINDEX_TYPE">PROPDESC_COLUMNINDEX_TYPE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762587(v=VS.85).aspx">PROPDESC_COLUMNINDEX_TYPE</a>*</b>
 
-When this method returns successfully, contains a pointer to a <a href="shell.PROPDESC_COLUMNINDEX_TYPE">PROPDESC_COLUMNINDEX_TYPE</a> constant. This constant describes whether the property is indexed and if so, if it is indexed in memory or on disk.
+When this method returns successfully, contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb762587(v=VS.85).aspx">PROPDESC_COLUMNINDEX_TYPE</a> constant. This constant describes whether the property is indexed and if so, if it is indexed in memory or on disk.
                 
 
 
@@ -82,11 +82,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="shell.IPropertyDescriptionSearchInfo">IPropertyDescriptionSearchInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761505(v=VS.85).aspx">IPropertyDescriptionSearchInfo</a>
 
 
 
-<a href="shell.PROPDESC_COLUMNINDEX_TYPE">PROPDESC_COLUMNINDEX_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762587(v=VS.85).aspx">PROPDESC_COLUMNINDEX_TYPE</a>
  
 
  

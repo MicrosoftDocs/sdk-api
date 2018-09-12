@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Specifies or receives the attributes of a tab. It is used with the <a href="https://msdn.microsoft.com/e547c49a-699c-4137-8680-20391d138d54">TCM_INSERTITEM</a>, <a href="https://msdn.microsoft.com/41774f14-c4e9-4c98-bc25-3522b2125ed5">TCM_GETITEM</a>, and <a href="https://msdn.microsoft.com/1d9c6607-d8ec-4644-a714-22bc2677aa78">TCM_SETITEM</a> messages. This structure supersedes the
+Specifies or receives the attributes of a tab. It is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760606(v=VS.85).aspx">TCM_INSERTITEM</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb760589(v=VS.85).aspx">TCM_GETITEM</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb760631(v=VS.85).aspx">TCM_SETITEM</a> messages. This structure supersedes the
 	<b>TC_ITEMHEADER</b> structure. 
 
 

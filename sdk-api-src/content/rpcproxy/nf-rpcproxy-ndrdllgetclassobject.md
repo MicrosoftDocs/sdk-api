@@ -65,7 +65,7 @@ Class identifier of the proxy or stub to retrieve.
 
 ### -param riid [in]
 
-Interface identifier of the <a href="_com_ipsfactorybuffer">IPSFactoryBuffer</a> interface.
+Interface identifier of the <a href="https://msdn.microsoft.com/en-us/library/ms695281(v=VS.85).aspx">IPSFactoryBuffer</a> interface.
 
 
 ### -param ppv [out]
@@ -85,7 +85,7 @@ Pointer to the class identifier of the proxy or stub. Specify <i>pclsid</i> if t
 
 ### -param pPSFactoryBuffer [in]
 
-Pointer to the <a href="_com_ipsfactorybuffer">IPSFactoryBuffer</a> object.  The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms695281(v=VS.85).aspx">IPSFactoryBuffer</a> object.  The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h.
 
 
 ## -returns

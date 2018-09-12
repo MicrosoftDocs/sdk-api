@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>ITuneRequestInfo</b> interface is implemented on the BDA MPEG2 Transport Information Filter (TIF) and is used by the Network Provider. When the Network Provider receives a tune request, it is not guaranteed that all the necessary locator information will be present in the locator object associated with the tune request. If information is missing, the Network Provider uses this interface to instruct the TIF to fill in the locator data. Similarly, a tune request might not contain a complete list of all the components (substreams) available on the service at a given time. After the Network Provider has tuned to a service, it can ask the TIF to fill in the component information associated with the tune request. An application can then re-examine the tune request after it has been submitted, and compare it to the list of default preferred component types to determine whether to tune to a particular audio stream, or inform the user of any substreams that were not mentioned in the EPG data. For more information, see <a href="https://msdn.microsoft.com/a633a94c-e514-46b1-9982-7526ffa89b74">ITuningSpace::get_DefaultPreferredComponentTypes</a>.
+The <b>ITuneRequestInfo</b> interface is implemented on the BDA MPEG2 Transport Information Filter (TIF) and is used by the Network Provider. When the Network Provider receives a tune request, it is not guaranteed that all the necessary locator information will be present in the locator object associated with the tune request. If information is missing, the Network Provider uses this interface to instruct the TIF to fill in the locator data. Similarly, a tune request might not contain a complete list of all the components (substreams) available on the service at a given time. After the Network Provider has tuned to a service, it can ask the TIF to fill in the component information associated with the tune request. An application can then re-examine the tune request after it has been submitted, and compare it to the list of default preferred component types to determine whether to tune to a particular audio stream, or inform the user of any substreams that were not mentioned in the EPG data. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd695049(v=VS.85).aspx">ITuningSpace::get_DefaultPreferredComponentTypes</a>.
 
 If the TIF is not able to provide the locator data for the transport stream, it must provide the default locator for the tuning space associated with the tune request.
 
@@ -60,9 +60,9 @@ If the TIF is not able to provide the locator data for the transport stream, it 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITuneRequestInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITuneRequestInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITuneRequestInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITuneRequestInfo</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -75,25 +75,25 @@ The <b>ITuneRequestInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb4ec234-1e94-4c9f-8372-a5972df18948">CreateComponentList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd695001(v=VS.85).aspx">CreateComponentList</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/6d779095-12f9-4e00-a25f-0a840f5149fa">Components</a> collection for the tune request, and fills it in with all network-specific data after the receiver has tuned to the service.
+Creates a new <a href="https://msdn.microsoft.com/en-us/library/Dd693034(v=VS.85).aspx">Components</a> collection for the tune request, and fills it in with all network-specific data after the receiver has tuned to the service.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/769d112e-4df7-451c-ac12-440b16c33e88">GetComponentData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd695002(v=VS.85).aspx">GetComponentData</a>
 </td>
 <td align="left" width="63%">
-Fills in all network-specific component data for the existing <a href="https://msdn.microsoft.com/6d779095-12f9-4e00-a25f-0a840f5149fa">Components</a> collection on the specified tune request.
+Fills in all network-specific component data for the existing <a href="https://msdn.microsoft.com/en-us/library/Dd693034(v=VS.85).aspx">Components</a> collection on the specified tune request.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c325d61d-c99b-4033-bd16-36b74fc38d07">GetLocatorData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd695003(v=VS.85).aspx">GetLocatorData</a>
 </td>
 <td align="left" width="63%">
 Provides channel/program locator information for the specified tune request.
@@ -102,7 +102,7 @@ Provides channel/program locator information for the specified tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/300479bf-f8e3-41e2-898e-8a87e4abc801">GetNextLocator</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd695004(v=VS.85).aspx">GetNextLocator</a>
 </td>
 <td align="left" width="63%">
 Creates a new tune request with locator information for the next transport stream on the network.
@@ -111,7 +111,7 @@ Creates a new tune request with locator information for the next transport strea
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed1c5a30-19fb-46a8-b521-017da56d85c8">GetNextProgram</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd695005(v=VS.85).aspx">GetNextProgram</a>
 </td>
 <td align="left" width="63%">
 Creates a new tune request with channel/program locator information for the next service on the current transport stream.
@@ -120,7 +120,7 @@ Creates a new tune request with channel/program locator information for the next
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72512da5-28d4-40b8-93df-039014f432c0">GetPreviousLocator</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd695006(v=VS.85).aspx">GetPreviousLocator</a>
 </td>
 <td align="left" width="63%">
 Creates a new tune request with locator information for the previous transport stream on the network.
@@ -129,7 +129,7 @@ Creates a new tune request with locator information for the previous transport s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c03a5c9-9dc1-4163-bbc8-8dae2037eb24">GetPreviousProgram</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd695007(v=VS.85).aspx">GetPreviousProgram</a>
 </td>
 <td align="left" width="63%">
 Creates a new tune request with locator information for the previous service on the current transport stream.
@@ -153,7 +153,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693008(v=VS.85).aspx">BDA Interfaces</a>
  
 
  

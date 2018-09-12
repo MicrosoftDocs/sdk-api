@@ -135,7 +135,7 @@ The short 16-bit value of the UUID. This member applies only if <b>IsShortUuid</
 
 
 
-<a href="https://msdn.microsoft.com/B4433D0F-7938-4C6D-994F-D99393EC013A">BTH_LE_GATT_SERVICE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh450850(v=VS.85).aspx">BTH_LE_GATT_SERVICE</a>
  
 
  

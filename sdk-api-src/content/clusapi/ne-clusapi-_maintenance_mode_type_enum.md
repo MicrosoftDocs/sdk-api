@@ -78,11 +78,11 @@ Indicates the server has released ownership of the storage resource.
 
 
 
-<a href="https://msdn.microsoft.com/d68b187d-39c5-42d3-b268-d5061da257c4">CLUS_MAINTENANCE_MODE_INFOEX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309201(v=VS.85).aspx">CLUS_MAINTENANCE_MODE_INFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
 
 
 

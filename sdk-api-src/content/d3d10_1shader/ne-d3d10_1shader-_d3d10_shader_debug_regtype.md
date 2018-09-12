@@ -133,7 +133,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 The <b>D3D10_SHADER_DEBUG_REGTYPE</b> enumeration is used to specify register types 
-  in <a href="https://msdn.microsoft.com/143b770a-9ae0-4e2e-9d71-e0d4838070cb">D3D10_SHADER_DEBUG_INPUT_INFO</a> and <a href="https://msdn.microsoft.com/13d04629-ce71-403d-b3cb-9809715b557f">D3D10_SHADER_DEBUG_OUTPUTREG_INFO</a>.
+  in <a href="https://msdn.microsoft.com/en-us/library/Bb172421(v=VS.85).aspx">D3D10_SHADER_DEBUG_INPUT_INFO</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb172423(v=VS.85).aspx">D3D10_SHADER_DEBUG_OUTPUTREG_INFO</a>.
 
 
 
@@ -143,7 +143,7 @@ The <b>D3D10_SHADER_DEBUG_REGTYPE</b> enumeration is used to specify register ty
 
 
 
-<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
  
 
  

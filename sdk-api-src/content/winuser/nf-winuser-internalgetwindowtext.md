@@ -56,11 +56,11 @@ req.redist:
 
 Copies the text of the specified window's title bar (if it has one) into a buffer.
 
-This function is similar to the <a href="https://msdn.microsoft.com/461d2200-2e3a-4361-bb2e-9a29ed9f333f">GetWindowText</a> function.
+This function is similar to the <a href="https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx">GetWindowText</a> function.
 		However, it obtains the window text directly from the window structure
 		associated with the specified window's handle and then always provides the text as a
 		Unicode string. This is unlike <b>GetWindowText</b> which obtains the
-		text by sending the window a <a href="https://msdn.microsoft.com/117c3d6d-24cd-462f-bdb0-b65d8914273a">WM_GETTEXT</a> message.  If the
+		text by sending the window a <a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> message.  If the
 		specified window is a control, the text of the control is obtained. 
 
 
@@ -130,11 +130,11 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/461d2200-2e3a-4361-bb2e-9a29ed9f333f">GetWindowText</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx">GetWindowText</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfd05c5b-2e60-4f4f-aa6b-53f723a048be">GetWindowTextLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633521(v=VS.85).aspx">GetWindowTextLength</a>
 
 
 
@@ -142,19 +142,19 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/6f3e3ef8-b342-43f0-9d8b-3a72c610a940">SetWindowText</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633546(v=VS.85).aspx">SetWindowText</a>
 
 
 
-<a href="https://msdn.microsoft.com/62b4616c-37bf-4d9f-8891-7010c7035d18">Using Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644928(v=VS.85).aspx">Using Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/117c3d6d-24cd-462f-bdb0-b65d8914273a">WM_GETTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
  
 
  

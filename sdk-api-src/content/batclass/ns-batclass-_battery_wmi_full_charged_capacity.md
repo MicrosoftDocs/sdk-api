@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Defines information about the capacity of a battery for use with the <a href="https://msdn.microsoft.com/2a5c4c14-fc80-4a0a-b447-6fe33ff1d42f">BatteryClassQueryWmiDataBlock</a>)
+Defines information about the capacity of a battery for use with the <a href="https://msdn.microsoft.com/en-us/library/Ff536268(v=VS.85).aspx">BatteryClassQueryWmiDataBlock</a>)
 
 
 ## -struct-fields
@@ -65,7 +65,7 @@ A tag that identifies a specific battery.
 
 ### -field FullChargedCapacity
 
-The  current fully charged capacity, measured for example in milliwatt-hours, of a battery. If BATTERY_CAPACITY_RELATIVE is set, the units are undefined. For more information see the <a href="https://msdn.microsoft.com/e9326d96-bd96-4493-a0b2-abe6b8f2401a">BATTERY_INFORMATION</a>.
+The  current fully charged capacity, measured for example in milliwatt-hours, of a battery. If BATTERY_CAPACITY_RELATIVE is set, the units are undefined. For more information see the <a href="https://msdn.microsoft.com/en-us/library/Ff536283(v=VS.85).aspx">BATTERY_INFORMATION</a>.
 
 
 ## -see-also
@@ -73,7 +73,7 @@ The  current fully charged capacity, measured for example in milliwatt-hours, of
 
 
 
-<a href="https://msdn.microsoft.com/2a5c4c14-fc80-4a0a-b447-6fe33ff1d42f">BatteryClassQueryWmiDataBlock</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff536268(v=VS.85).aspx">BatteryClassQueryWmiDataBlock</a>
  
 
  

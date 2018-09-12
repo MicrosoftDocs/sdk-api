@@ -50,12 +50,12 @@ req.redist:
 ## -description
 
 
-Extends the functionality of the <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a> interface. <b>ICondition2</b> provides methods for retrieving information about a search condition.
+Extends the functionality of the <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a> interface. <b>ICondition2</b> provides methods for retrieving information about a search condition.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICondition2</b> interface inherits from <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>. <b>ICondition2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICondition2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>. <b>ICondition2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ICondition2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a7f3d491-3ddd-4bfe-84e0-a6f3a4c7946d">GetLeafConditionInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742807(v=VS.85).aspx">GetLeafConditionInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the property name, operation, and value from a leaf search condition node.
@@ -80,7 +80,7 @@ Retrieves the property name, operation, and value from a leaf search condition n
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3f9a04f-a596-475d-85f3-b817a54b3e79">GetLocale</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742808(v=VS.85).aspx">GetLocale</a>
 </td>
 <td align="left" width="63%">
 Retrieves the property name, operation, and value from a leaf search condition node.
@@ -106,15 +106,15 @@ condition trees.
 
 
 
-<a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/921cdcb0-2915-4bbe-af4b-3f62c3867ea4">CONDITION_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>
 
 
 

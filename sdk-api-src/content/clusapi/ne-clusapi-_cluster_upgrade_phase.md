@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Describes the state of a rolling upgrade of the operating system on a cluster. This enumeration is used by the <a href="https://msdn.microsoft.com/EE803D8C-3EFD-414F-8E38-65A1DFA8079B">ClusterUpgradeProgressCallback</a> callback function.
+Describes the state of a rolling upgrade of the operating system on a cluster. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn806599(v=VS.85).aspx">ClusterUpgradeProgressCallback</a> callback function.
 
 
 ## -enum-fields
@@ -93,7 +93,7 @@ The upgrade is complete.
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
  
 
  

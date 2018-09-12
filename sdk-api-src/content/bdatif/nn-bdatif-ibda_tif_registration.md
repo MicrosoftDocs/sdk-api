@@ -54,7 +54,7 @@ req.redist:
 The <b>IBDA_TIF_REGISTRATION</b> interface is 
          exposed by the BDA Network Provider. It enables a Transport Information Filter (TIF) to register itself with 
          the Network Provider. This interface supersedes the 
-         <a href="https://msdn.microsoft.com/9583365d-b318-49e2-a32f-f6cc9d3f289d">IMPEG2_TIF_CONTROL</a> interface.
+         <a href="https://msdn.microsoft.com/en-us/library/Dd694413(v=VS.85).aspx">IMPEG2_TIF_CONTROL</a> interface.
 
 Applications do not use this interface.
 
@@ -63,9 +63,9 @@ Applications do not use this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_TIF_REGISTRATION</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_TIF_REGISTRATION</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_TIF_REGISTRATION</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_TIF_REGISTRATION</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -78,7 +78,7 @@ The <b>IBDA_TIF_REGISTRATION</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1cfc653f-b552-4f38-9ca1-457ab4de3598">RegisterTIFEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693445(v=VS.85).aspx">RegisterTIFEx</a>
 </td>
 <td align="left" width="63%">
 Registers the TIF with the Network Provider.
@@ -87,7 +87,7 @@ Registers the TIF with the Network Provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ba46145-6b77-4577-9611-0e0a155aa308">UnregisterTIF</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693446(v=VS.85).aspx">UnregisterTIF</a>
 </td>
 <td align="left" width="63%">
 Unregisters the TIF with the Network Provider.
@@ -112,7 +112,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693008(v=VS.85).aspx">BDA Interfaces</a>
  
 
  

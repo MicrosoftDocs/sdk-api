@@ -61,7 +61,7 @@ req.redist:
 
 ### -param ClassData [in]
 
-Pointer to a battery class handle previously returned by <a href="https://msdn.microsoft.com/0af685a5-f5c2-4448-b8b2-f5cd9ed77047">BatteryClassInitializeDevice</a>.
+Pointer to a battery class handle previously returned by <a href="https://msdn.microsoft.com/en-us/library/Ff536266(v=VS.85).aspx">BatteryClassInitializeDevice</a>.
 
 
 ## -returns

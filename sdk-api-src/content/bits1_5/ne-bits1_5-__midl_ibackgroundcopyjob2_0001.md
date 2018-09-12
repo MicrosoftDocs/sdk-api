@@ -74,11 +74,11 @@ Use credentials for proxy requests.
 
 
 
-<a href="https://msdn.microsoft.com/f89ebf46-da83-495c-bafe-b2e0f72f5d8e">BG_AUTH_CREDENTIALS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362785(v=VS.85).aspx">BG_AUTH_CREDENTIALS</a>
 
 
 
-<a href="https://msdn.microsoft.com/dbc6a05d-9e1f-4cc9-b28b-0874aafdfd7c">IBackgroundCopyJob2::RemoveCredentials</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362986(v=VS.85).aspx">IBackgroundCopyJob2::RemoveCredentials</a>
  
 
  

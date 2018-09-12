@@ -61,9 +61,9 @@ Gets the time stamp identifying when the URL was last modified.
 
 ### -param pftLastModified [out]
 
-Type: <b><a href="_com_FILETIME">FILETIME</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>*</b>
 
-Receives a pointer to a variable of type <a href="_com_FILETIME">FILETIME</a> identifying the time stamp when the URL was last modified.
+Receives a pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a> identifying the time stamp when the URL was last modified.
                 
 
 

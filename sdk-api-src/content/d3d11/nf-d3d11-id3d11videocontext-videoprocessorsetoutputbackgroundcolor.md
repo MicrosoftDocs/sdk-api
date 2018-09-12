@@ -60,7 +60,7 @@ Sets the background color for the video processor.
 
 ### -param pVideoProcessor [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDFDD1924E24">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://msdn.microsoft.com/5A5FB7F9-F299-4E67-AFAD-E7056CBAEE76">ID3D11VideoDevice::CreateVideoProcessor</a>.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Hh447799(v=VS.85).aspx">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://msdn.microsoft.com/en-us/library/Hh447788(v=VS.85).aspx">ID3D11VideoDevice::CreateVideoProcessor</a>.
 
 
 ### -param YCbCr [in]
@@ -70,7 +70,7 @@ If <b>TRUE</b>, the color is specified as a YCbCr value. Otherwise, the color is
 
 ### -param pColor [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/F8E070EE-F8F6-4AAF-9A8A-6D0AF6B857B5">D3D11_VIDEO_COLOR</a> structure that specifies the background color.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Hh447637(v=VS.85).aspx">D3D11_VIDEO_COLOR</a> structure that specifies the background color.
 
 
 ## -returns
@@ -96,7 +96,7 @@ The video processor uses the background color to fill areas of the target rectan
 
 
 
-<a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447703(v=VS.85).aspx">ID3D11VideoContext</a>
  
 
  

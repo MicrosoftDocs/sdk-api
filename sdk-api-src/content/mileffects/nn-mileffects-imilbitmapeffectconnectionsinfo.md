@@ -70,16 +70,16 @@ The <b>IMILBitmapEffectConnectionsInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25456764-a237-4375-ae00-12d2db2f1a67">GetInputConnectorInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735307(v=VS.85).aspx">GetInputConnectorInfo</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/18f9260d-b7cd-4b45-a7bd-f3bd3647eebe">IMILBitmapEffectConnectorInfo</a> associated with the given input pin.
+Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a> associated with the given input pin.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12a9aa29-0027-4275-8e0c-07335d10da0f">GetNumberInputs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735308(v=VS.85).aspx">GetNumberInputs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of input pins the bitmap effect implements.
@@ -88,7 +88,7 @@ Retrieves the number of input pins the bitmap effect implements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/329395a7-a63a-4501-88ec-1a87d97ec281">GetNumberOutputs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735309(v=VS.85).aspx">GetNumberOutputs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of output pins the bitmap effect implements.
@@ -97,10 +97,10 @@ Retrieves the number of output pins the bitmap effect implements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/400c7153-af46-4067-b9f9-18fe0930760d">GetOutputConnectorInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735310(v=VS.85).aspx">GetOutputConnectorInfo</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/18f9260d-b7cd-4b45-a7bd-f3bd3647eebe">IMILBitmapEffectConnectorInfo</a> associated with the given output pin.
+Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a> associated with the given output pin.
 
 </td>
 </tr>

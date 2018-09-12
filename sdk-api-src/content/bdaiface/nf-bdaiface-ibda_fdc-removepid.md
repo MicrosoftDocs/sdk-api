@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/8b7a07fd-99e9-4f8e-9211-109689f2f892">IBDA_FDC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693347(v=VS.85).aspx">IBDA_FDC</a>
  
 
  

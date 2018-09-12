@@ -62,23 +62,23 @@ Provides access to subresource data.
 
 Type: <b>void*</b>
 
-Pointer to the data. When <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">ID3D11DeviceContext::Map</a> provides the pointer, the runtime ensures that the pointer has a specific alignment, depending on the following feature levels:
+Pointer to the data. When <a href="https://msdn.microsoft.com/en-us/library/Ff476457(v=VS.85).aspx">ID3D11DeviceContext::Map</a> provides the pointer, the runtime ensures that the pointer has a specific alignment, depending on the following feature levels:
 
 <ul>
-<li>For <a href="d3d_feature_level.htm">D3D_FEATURE_LEVEL_10_0</a> and higher, the pointer is aligned to 16 bytes.</li>
-<li>For lower than <a href="d3d_feature_level.htm">D3D_FEATURE_LEVEL_10_0</a>, the pointer is aligned to 4 bytes.</li>
+<li>For <a href="https://msdn.microsoft.com/en-us/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL_10_0</a> and higher, the pointer is aligned to 16 bytes.</li>
+<li>For lower than <a href="https://msdn.microsoft.com/en-us/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL_10_0</a>, the pointer is aligned to 4 bytes.</li>
 </ul>
 
 ### -field RowPitch
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The row pitch, or width, or physical size (in bytes) of the data.
 
 
 ### -field DepthPitch
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The depth pitch, or width, or physical size (in bytes)of the data.
 
@@ -87,7 +87,7 @@ The depth pitch, or width, or physical size (in bytes)of the data.
 
 
 
-This structure is used in a call to <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">ID3D11DeviceContext::Map</a>.
+This structure is used in a call to <a href="https://msdn.microsoft.com/en-us/library/Ff476457(v=VS.85).aspx">ID3D11DeviceContext::Map</a>.
 
 The values in these members tell you how much data you can view:
 
@@ -99,8 +99,8 @@ The values in these members tell you how much data you can view:
 When <b>RowPitch</b> and <b>DepthPitch</b> are not appropriate for the resource type, the runtime might set their values to 0. So, don't use these values for anything other than iterating over rows and depth. Here are some examples:
 
 <ul>
-<li>For <a href="https://msdn.microsoft.com/7f552b9b-c5fb-4bc2-a7ae-61983379db38">Buffer</a> and <a href="https://msdn.microsoft.com/5f6fd0e4-a73e-4d13-b3a0-c884b7912581">Texture1D</a>, the runtime assigns values  that aren't 0 to <b>RowPitch</b> and <b>DepthPitch</b>. For example, if a <b>Buffer</b> contains 8 bytes, the runtime assigns values to <b>RowPitch</b> and <b>DepthPitch</b> that are greater than or equal to 8.</li>
-<li>For <a href="https://msdn.microsoft.com/e4f9cfd8-65e6-4375-8f87-736bca32cad4">Texture2D</a>, the runtime still assigns a value that isn't 0 to <b>DepthPitch</b>, assuming that the field isn't used.</li>
+<li>For <a href="https://msdn.microsoft.com/en-us/library/Ff471450(v=VS.85).aspx">Buffer</a> and <a href="https://msdn.microsoft.com/en-us/library/Ff471517(v=VS.85).aspx">Texture1D</a>, the runtime assigns values  that aren't 0 to <b>RowPitch</b> and <b>DepthPitch</b>. For example, if a <b>Buffer</b> contains 8 bytes, the runtime assigns values to <b>RowPitch</b> and <b>DepthPitch</b> that are greater than or equal to 8.</li>
+<li>For <a href="https://msdn.microsoft.com/en-us/library/Ff471525(v=VS.85).aspx">Texture2D</a>, the runtime still assigns a value that isn't 0 to <b>DepthPitch</b>, assuming that the field isn't used.</li>
 </ul>
 <div class="alert"><b>Note</b>  The runtime might assign values to <b>RowPitch</b> and <b>DepthPitch</b> that are larger than anticipated because there might be padding between rows and depth.</div>
 <div> </div>
@@ -112,7 +112,7 @@ When <b>RowPitch</b> and <b>DepthPitch</b> are not appropriate for the resource 
 
 
 
-<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
  
 
  

@@ -54,7 +54,7 @@ req.redist:
 ## -description
 
 
-The <b>CM_Get_Device_ID_List_Size</b> function retrieves the buffer size required to hold a list of <a href="devinst.device_instance_ids">device instance IDs</a> for the local machine's <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instances</a>.
+The <b>CM_Get_Device_ID_List_Size</b> function retrieves the buffer size required to hold a list of <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance IDs</a> for the local machine's <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instances</a>.
 
 
 ## -parameters

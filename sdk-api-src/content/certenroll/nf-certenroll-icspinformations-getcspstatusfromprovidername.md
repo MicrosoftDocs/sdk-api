@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>GetCspStatusFromProviderName</b> method retrieves an <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> object for a legacy provider by provider name and supported key operations. This method is web enabled.
+The <b>GetCspStatusFromProviderName</b> method retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> object for a legacy provider by provider name and supported key operations. This method is web enabled.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ A <b>BSTR</b> that contains the cryptographic provider name or the provider and 
 
 ### -param LegacyKeySpec [in]
 
-An <a href="https://msdn.microsoft.com/d677d46c-3b36-4081-a6db-123ac1cef84b">X509KeySpec</a> enumeration value that specifies whether a key can be used for  encryption, signing, or both. This can be one of the following values:
+An <a href="https://msdn.microsoft.com/en-us/library/Aa379409(v=VS.85).aspx">X509KeySpec</a> enumeration value that specifies whether a key can be used for  encryption, signing, or both. This can be one of the following values:
 
 <ul>
 <li>XCN_AT_KEYEXCHANGE</li>
@@ -74,7 +74,7 @@ An <a href="https://msdn.microsoft.com/d677d46c-3b36-4081-a6db-123ac1cef84b">X50
 
 ### -param ppValue [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> interface that contains information about a cryptographic provider and algorithm pair that satisfies the <i>strProviderName</i> and <i>LegacyKeySpec</i> parameter values.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> interface that contains information about a cryptographic provider and algorithm pair that satisfies the <i>strProviderName</i> and <i>LegacyKeySpec</i> parameter values.
 
 
 ## -returns
@@ -83,7 +83,7 @@ Address of a variable that receives a pointer to an <a href="https://msdn.micros
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 
 
@@ -93,11 +93,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375968(v=VS.85).aspx">ICspInformations</a>
  
 
  

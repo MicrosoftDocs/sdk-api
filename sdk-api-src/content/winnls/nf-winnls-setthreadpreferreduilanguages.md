@@ -119,7 +119,7 @@ The following <i>filtering flags</i> specify filtering for the language list. Th
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/8501b8b3-c8bf-4bef-b65f-6c0f455f0c7d">GetThreadPreferredUILanguages</a> should replace with the appropriate fallback all languages having <a href="uniscribe_glossary.htm">complex scripts</a>. When this flag is specified, <b>NULL</b> must be passed for all other parameters.
+<a href="https://msdn.microsoft.com/8501b8b3-c8bf-4bef-b65f-6c0f455f0c7d">GetThreadPreferredUILanguages</a> should replace with the appropriate fallback all languages having <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">complex scripts</a>. When this flag is specified, <b>NULL</b> must be passed for all other parameters.
 
 </td>
 </tr>
@@ -213,7 +213,7 @@ Setting the MUI_COMPLEX_SCRIPT_FILTER flag in the call to <b>SetThreadPreferredU
 
 Setting the MUI_CONSOLE_FILTER flag in the call to <b>SetThreadPreferredUILanguages</b> causes <a href="https://msdn.microsoft.com/8501b8b3-c8bf-4bef-b65f-6c0f455f0c7d">GetThreadPreferredUILanguages</a> to remove languages the console cannot display with the current system setting and insert the fallback language as the ultimate fallback, because the console is limited to displaying characters from a single <a href="https://msdn.microsoft.com/866f09f4-629e-4097-a974-fbda9389d077">code page</a>. For example, if the user language is Japanese (Japan), but the current console code page is the code page for Russian (Russia), the console displays Japanese-language text mostly as a series of character-not-found symbols. <a href="https://msdn.microsoft.com/8501b8b3-c8bf-4bef-b65f-6c0f455f0c7d">GetThreadPreferredUILanguages</a> chooses a language from the fallback list that will be legible in the console.
 
-<div class="alert"><b>Note</b>  Resource-loading functions, such as <a href="_win32_LoadString_cpp">LoadString</a>, <a href="_win32_LoadImage_cpp">LoadImage</a>, and <a href="_win32_FindResource_cpp">FindResource</a>, also make calls to <a href="https://msdn.microsoft.com/8501b8b3-c8bf-4bef-b65f-6c0f455f0c7d">GetThreadPreferredUILanguages</a>.</div>
+<div class="alert"><b>Note</b>  Resource-loading functions, such as <a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>, <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a>, also make calls to <a href="https://msdn.microsoft.com/8501b8b3-c8bf-4bef-b65f-6c0f455f0c7d">GetThreadPreferredUILanguages</a>.</div>
 <div> </div>
 To change the code page, the application uses the <b>setlocale</b> function, or equivalent.
 

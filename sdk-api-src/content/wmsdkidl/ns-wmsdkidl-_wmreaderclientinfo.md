@@ -78,7 +78,7 @@ The browser's user-agent string.
 
 ### -field wszBrowserWebPage
 
-Web page that contains the <a href="wmformat_glossary.htm">plug-in</a>.
+Web page that contains the <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">plug-in</a>.
 
 
 ### -field qwReserved

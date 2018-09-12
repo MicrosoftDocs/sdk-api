@@ -61,9 +61,9 @@ Retrieves a schema provider for browsing the currently loaded schema.
 
 ### -param ppSchemaProvider [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/c6cb1da0-5072-41b2-aa64-e39c8c97b2f8">ISchemaProvider</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231326(v=VS.85).aspx">ISchemaProvider</a>**</b>
 
-Receives the address of a pointer to an <a href="https://msdn.microsoft.com/c6cb1da0-5072-41b2-aa64-e39c8c97b2f8">ISchemaProvider</a> object. The calling application must release it by invoking its <a href="_com_IUnknown_Release">IUnknown::Release</a> method.
+Receives the address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb231326(v=VS.85).aspx">ISchemaProvider</a> object. The calling application must release it by invoking its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

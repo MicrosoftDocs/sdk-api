@@ -68,7 +68,7 @@ TBD
 #### - pProgress [out]
 
 Structure whose members indicate the progress of the file transfer. For details on the type of progress information available, see the 
-<a href="https://msdn.microsoft.com/322363b4-081e-4100-9087-e34c21a3ffae">BG_FILE_PROGRESS</a> structure. 
+<a href="https://msdn.microsoft.com/en-us/library/Aa362801(v=VS.85).aspx">BG_FILE_PROGRESS</a> structure. 
 
 
 ## -returns
@@ -85,15 +85,15 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 
-<a href="https://msdn.microsoft.com/322363b4-081e-4100-9087-e34c21a3ffae">BG_FILE_PROGRESS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362801(v=VS.85).aspx">BG_FILE_PROGRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/fae9cf56-c211-445b-b962-9a9d7d67c59c">IBackgroundCopyFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362881(v=VS.85).aspx">IBackgroundCopyFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/30aae990-1cc1-468b-9e5f-7ef5ce6eeb9a">IBackgroundCopyJob::GetProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363034(v=VS.85).aspx">IBackgroundCopyJob::GetProgress</a>
  
 
  

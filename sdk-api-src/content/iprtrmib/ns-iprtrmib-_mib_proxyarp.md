@@ -79,11 +79,11 @@ The index of the interface on which to act as a proxy for the address specified 
 
 
 
-<a href="_iphlp_createproxyarpentry">CreateProxyArpEntry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365868(v=VS.85).aspx">CreateProxyArpEntry</a>
 
 
 
-<a href="_iphlp_deleteproxyarpentry">DeleteProxyArpEntry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365889(v=VS.85).aspx">DeleteProxyArpEntry</a>
  
 
  

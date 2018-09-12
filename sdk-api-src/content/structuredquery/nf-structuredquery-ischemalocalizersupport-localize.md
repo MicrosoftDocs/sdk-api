@@ -69,7 +69,7 @@ Pointer to a null-terminated Unicode string to be localized. It may be in one of
 
 Type: <b>LPWSTR*</b>
 
-Returns a null-terminated Unicode string that is the localized string. The calling application must free the returned string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>. If the method does not succeed, this parameter is set to <b>NULL</b>.
+Returns a null-terminated Unicode string that is the localized string. The calling application must free the returned string by calling <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>. If the method does not succeed, this parameter is set to <b>NULL</b>.
         
 
 

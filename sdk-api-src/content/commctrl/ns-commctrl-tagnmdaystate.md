@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Carries information required to process the <a href="https://msdn.microsoft.com/dc2608e0-c598-4b26-9195-208f09cd84b7">MCN_GETDAYSTATE</a> notification code. All members of this structure are for input, except 
+Carries information required to process the <a href="https://msdn.microsoft.com/en-us/library/Bb760935(v=VS.85).aspx">MCN_GETDAYSTATE</a> notification code. All members of this structure are for input, except 
 			<b>prgDayState</b>, which the receiving application must set when processing MCN_GETDAYSTATE. 
 
 
@@ -61,10 +61,10 @@ Carries information required to process the <a href="https://msdn.microsoft.com/
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification code. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code. 
 
 
 ### -field stStart
@@ -87,7 +87,7 @@ INT value specifying the total number of elements that must be in the array at
 
 Type: <b>LPMONTHDAYSTATE</b>
 
-Address of an array of <a href="https://msdn.microsoft.com/eb3dd6cb-738e-424b-945b-1485798a444c">MONTHDAYSTATE</a> values. The buffer at this address must be large enough to contain at least 
+Address of an array of <a href="https://msdn.microsoft.com/en-us/library/Bb760915(v=VS.85).aspx">MONTHDAYSTATE</a> values. The buffer at this address must be large enough to contain at least 
 					<b>cDayState</b> elements. The first element in the array corresponds to the date in 
 					<b>stStart</b>. 
 

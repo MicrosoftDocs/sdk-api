@@ -98,15 +98,15 @@ Destroys a stub that was created by <a href="https://msdn.microsoft.com/a2ba7ece
 
 
 
-<a href="https://msdn.microsoft.com/7fa5f76e-df07-41b3-8fb0-62b84a034aa5">IManagedObjectInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683427(v=VS.85).aspx">IManagedObjectInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c29bbe0-840f-4eaf-97ad-40b0f89cadfd">IManagedPoolAction</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms682259(v=VS.85).aspx">IManagedPoolAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/04853859-5d85-4b88-9e1b-422e3454fd3f">IManagedPooledObj</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms678870(v=VS.85).aspx">IManagedPooledObj</a>
  
 
  
