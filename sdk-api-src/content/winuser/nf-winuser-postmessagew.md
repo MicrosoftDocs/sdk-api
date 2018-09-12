@@ -188,32 +188,24 @@ The minimum acceptable value is 4000.
 
 The following example shows how to post a private window message using the <b>PostMessage</b> function. Assume you defined a private window message called <b>WM_COMPLETE</b>: 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define        WM_COMPLETE     (WM_USER + 0)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+#define        WM_COMPLETE     (WM_USER + 0)
+
+```
+
+
 You can post a message to the message queue associated with the thread that created the specified window as shown below:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> WaitForSingleObject (pparams-&gt;hEvent, INFINITE) ;
+
+```cpp
+ WaitForSingleObject (pparams->hEvent, INFINITE) ;
  lTime = GetCurrentTime () ;
- PostMessage (pparams-&gt;hwnd, WM_COMPLETE, 0, lTime);
-</pre>
-</td>
-</tr>
-</table></span></div>
+ PostMessage (pparams->hwnd, WM_COMPLETE, 0, lTime);
+
+```
+
+
 For more examples, see <a href="https://msdn.microsoft.com/en-us/library/ms648775(v=VS.85).aspx">Initiating a Data Link</a>.
 
 <div class="code"></div>

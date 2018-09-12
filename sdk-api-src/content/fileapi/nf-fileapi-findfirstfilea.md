@@ -264,15 +264,11 @@ Yes
 
 The following C++ example shows you a minimal use of <b>FindFirstFile</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;tchar.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <tchar.h>
+#include <stdio.h>
 
 void _tmain(int argc, TCHAR *argv[])
 {
@@ -286,7 +282,7 @@ void _tmain(int argc, TCHAR *argv[])
    }
 
    _tprintf (TEXT("Target file is %s\n"), argv[1]);
-   hFind = FindFirstFile(argv[1], &amp;FindFileData);
+   hFind = FindFirstFile(argv[1], &FindFileData);
    if (hFind == INVALID_HANDLE_VALUE) 
    {
       printf ("FindFirstFile failed (%d)\n", GetLastError());
@@ -299,10 +295,10 @@ void _tmain(int argc, TCHAR *argv[])
       FindClose(hFind);
    }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For another example, see 
      <a href="https://msdn.microsoft.com/ab0d977d-f71c-4a18-9b1d-2221169324f0">Listing the Files in a Directory</a>.
 

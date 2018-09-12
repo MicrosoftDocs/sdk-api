@@ -90,21 +90,17 @@ The IID for this interface is <b>IID_IContextMenuSite</b>.
 
 To acquire a context menu site pointer code that exists in the site chain of the folder view, use <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> using <b>SID_SFolderView</b> to get to the folder view.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>CComPtr&lt;IContextMenuSite&gt; spcms;
-hr = IUnknown_QueryService(_punkSite, SID_SFolderView, IID_PPV_ARGS(&amp;spcms));
+
+```
+CComPtr<IContextMenuSite> spcms;
+hr = IUnknown_QueryService(_punkSite, SID_SFolderView, IID_PPV_ARGS(&spcms));
 
 if (SUCCEEDED(hr))
 {
     ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

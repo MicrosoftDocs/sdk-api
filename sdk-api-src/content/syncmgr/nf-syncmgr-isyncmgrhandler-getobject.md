@@ -201,13 +201,9 @@ The handler can implement the requested interface on itself or it can implement 
 
 The following example shows an implementation of this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CMyDeviceHandler::GetObject( __in REFGUID   rguidObjectID, 
+
+```cpp
+STDMETHODIMP CMyDeviceHandler::GetObject( __in REFGUID   rguidObjectID, 
                                           __in REFIID    riid,
                                           __out void   **ppv)
 {
@@ -225,9 +221,9 @@ The following example shows an implementation of this method.
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

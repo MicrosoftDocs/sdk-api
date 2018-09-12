@@ -96,45 +96,41 @@ The stylus is in range of the digitizer. This is a good place to check if the st
 
 The following C++ example implements a <b>IStylusPlugin::StylusInRange Method</b> method that gets the status of all the buttons on a stylus and reports them to the debug window using the <a href="http://go.microsoft.com/fwlink/p/?linkid=73729">TRACE</a> macro.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CPacketModifier::StylusInRange( 
+
+```cpp
+STDMETHODIMP CPacketModifier::StylusInRange( 
             /* [in] */ IRealTimeStylus *piRtsSrc,
             /* [in] */ TABLET_CONTEXT_ID tcid,
             /* [in] */ STYLUS_ID sid)
 {
     IInkCursor* pInkCursor;
-	HRESULT hr = piRtsSrc-&gt;GetStylusForId(sid, &amp;pInkCursor);
+	HRESULT hr = piRtsSrc->GetStylusForId(sid, &pInkCursor);
 
 	if (SUCCEEDED(hr))
 	{
 		IInkCursorButtons* pInkCursorButtons;
-		hr = pInkCursor-&gt;get_Buttons(&amp;pInkCursorButtons);
+		hr = pInkCursor->get_Buttons(&pInkCursorButtons);
 
 		if (SUCCEEDED(hr))
 		{
 			LONG lButtonCount;
-			pInkCursorButtons-&gt;get_Count(&amp;lButtonCount);
+			pInkCursorButtons->get_Count(&lButtonCount);
 
 			if (SUCCEEDED(hr))
 			{
 				IInkCursorButton* pInkCursorButton;
 				VARIANT index;
-				VariantInit(&amp;index);
+				VariantInit(&index);
 				index.vt = VT_I4;
 
-				for (index.intVal = 0; index.intVal &lt; lButtonCount; index.intVal++)
+				for (index.intVal = 0; index.intVal < lButtonCount; index.intVal++)
 				{
-					hr = pInkCursorButtons-&gt;Item(index, &amp;pInkCursorButton);
+					hr = pInkCursorButtons->Item(index, &pInkCursorButton);
 
 					if (SUCCEEDED(hr))
 					{
 						InkCursorButtonState currentState;
-						hr = pInkCursorButton-&gt;get_State(&amp;currentState);
+						hr = pInkCursorButton->get_State(&currentState);
 
 						if (SUCCEEDED(hr))
 						{
@@ -160,17 +156,17 @@ The following C++ example implements a <b>IStylusPlugin::StylusInRange Method</b
 					}
 				}
 
-				VariantClear(&amp;index);
+				VariantClear(&index);
 			}
 		}
 	}
 
 	return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

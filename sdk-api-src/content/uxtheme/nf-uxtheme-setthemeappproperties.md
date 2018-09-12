@@ -127,19 +127,15 @@ After you set the flags, send a <a href="https://msdn.microsoft.com/en-us/librar
 
 This example combines flags and calls this function as shown.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD dwFlags = (STAP_ALLOW_NONCLIENT | 
+
+```cpp
+DWORD dwFlags = (STAP_ALLOW_NONCLIENT | 
         STAP_ALLOW_CONTROLS | STAP_ALLOW_WEBCONTENT);
 SetThemeAppProperties(dwFlags);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

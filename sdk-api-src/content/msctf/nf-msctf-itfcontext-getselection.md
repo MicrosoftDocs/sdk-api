@@ -178,30 +178,26 @@ Normally, a context only supports a single selection. It is possible, however, f
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT         hr;
 TF_SELECTION    tfSel;
 ULONG           uFetched;
 
 //Obtain the default selection. 
-hr = pContext-&gt;GetSelection(ec, TF_DEFAULT_SELECTION, 1, &amp;tfSel, &amp;uFetched);
-if(SUCCEEDED(hr) &amp;&amp; (uFetched &gt; 0))
+hr = pContext->GetSelection(ec, TF_DEFAULT_SELECTION, 1, &tfSel, &uFetched);
+if(SUCCEEDED(hr) && (uFetched > 0))
 {
     //Work with the selection. 
     
     //Release the selection range object. 
-    tfSel.range-&gt;Release();
+    tfSel.range->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -55,13 +55,9 @@ Windows applications can use this control code to return the properties of a sto
     <b>IOCTL_STORAGE_QUERY_PROPERTY</b> can also be used 
     to determine whether the port driver supports a particular property or which fields in the property descriptor can 
     be modified with a subsequent change-property request.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL 
+
+```cpp
+BOOL 
 WINAPI 
 DeviceIoControl(
      _In_        (HANDLE)       hDevice,               // handle to a partition
@@ -71,10 +67,10 @@ DeviceIoControl(
      _Out_opt_   (LPVOID)       lpOutBuffer,           // output buffer - see Remarks
      _In_        (DWORD)        nOutBufferSize,        // size of output buffer
      _Out_opt_   (LPDWORD)      lpBytesReturned,       // number of bytes returned
-     _Inout_opt_ (LPOVERLAPPED) lpOverlapped );        // OVERLAPPED structure</pre>
-</td>
-</tr>
-</table></span></div>
+     _Inout_opt_ (LPOVERLAPPED) lpOverlapped );        // OVERLAPPED structure
+```
+
+
 
 ## -ioctlparameters
 

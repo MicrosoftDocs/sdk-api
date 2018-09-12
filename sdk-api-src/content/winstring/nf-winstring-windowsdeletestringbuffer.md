@@ -124,27 +124,23 @@ Use the <b>WindowsDeleteStringBuffer</b> function to discard a string buffer tha
 
 The following code example demonstrates how to use the <b>WindowsDeleteStringBuffer</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>int main()
+
+```cpp
+int main()
 {
     HSTRING_BUFFER hStringBuffer = NULL;
     PWSTR strBuffer = NULL;
-    HRESULT hr = WindowsPreallocateStringBuffer(10, &amp;strBuffer, &amp;hStringBuffer);
+    HRESULT hr = WindowsPreallocateStringBuffer(10, &strBuffer, &hStringBuffer);
 
     // You hit a case in which you need to discard the buffer.
 
     WindowsStringDeleteBuffer(hStringBuffer);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -145,13 +145,9 @@ Applications that use Single Threaded Apartments should use <b>CLSID_PortableDev
 
 The following example shows how to retrieve a list of services for all devices.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #include "stdafx.h"
 #include "atlbase.h" 
 #include "portabledeviceapi.h"
@@ -168,8 +164,8 @@ int _tmain(int argc, _TCHAR* argv[])
     DWORD                           cPnPDeviceIDs = 0;
     LPWSTR*                         pPnpDeviceIDs = NULL;
 
-    CComPtr&lt;IPortableDeviceManager&gt;        pPortableDeviceManager;
-    CComPtr&lt;IPortableDeviceServiceManager&gt; pPortableDeviceServiceManager;
+    CComPtr<IPortableDeviceManager>        pPortableDeviceManager;
+    CComPtr<IPortableDeviceServiceManager> pPortableDeviceServiceManager;
 
        // Initialize COM for COINIT_MULTITHREADED
     hr = CoInitializeEx(NULL, COINIT_MULTITHREADED);
@@ -182,36 +178,36 @@ int _tmain(int argc, _TCHAR* argv[])
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IPortableDeviceManager,
-                              (VOID**) &amp;pPortableDeviceManager);
+                              (VOID**) &pPortableDeviceManager);
     }
 
     if (hr == S_OK)
     {
        // Get the PortableDeviceServiceManager interface
        // by calling QueryInterface from IPortableDeviceManager
-        hr = pPortableDeviceManager-&gt;QueryInterface
+        hr = pPortableDeviceManager->QueryInterface
             (IID_IPortableDeviceServiceManager, 
-            (VOID**) &amp;pPortableDeviceServiceManager);
+            (VOID**) &pPortableDeviceServiceManager);
     }
 
     // Get the number of devices on the system
     if (hr == S_OK)
     {
-        hr = pPortableDeviceManager-&gt;GetDevices(NULL, &amp;cPnPDeviceIDs);
+        hr = pPortableDeviceManager->GetDevices(NULL, &cPnPDeviceIDs);
     }
 
     // If we have at least 1 device,
     // continue to query the list of services for each device
-    if ((hr == S_OK) &amp;&amp; (cPnPDeviceIDs &gt; 0))
+    if ((hr == S_OK) && (cPnPDeviceIDs > 0))
     {
       pPnpDeviceIDs = new LPWSTR[cPnPDeviceIDs];
       if (pPnpDeviceIDs != NULL)
       {
-        hr = pPortableDeviceManager-&gt;GetDevices
-            (pPnpDeviceIDs, &amp;cPnPDeviceIDs);
+        hr = pPortableDeviceManager->GetDevices
+            (pPnpDeviceIDs, &cPnPDeviceIDs);
         if (SUCCEEDED(hr))
         {
-           for (DWORD dwIndex = 0; dwIndex &lt; cPnPDeviceIDs; dwIndex++)
+           for (DWORD dwIndex = 0; dwIndex < cPnPDeviceIDs; dwIndex++)
            {
              hr = EnumerateServicesForDevice
                     (pPortableDeviceServiceManager, pPnpDeviceIDs[dwIndex]);
@@ -245,14 +241,14 @@ HRESULT EnumerateServicesForDevice(
     // Get the number of services for the device
     if (hr == S_OK)
     {
-        hr = pPortableDeviceServiceManager-&gt;GetDeviceServices(
+        hr = pPortableDeviceServiceManager->GetDeviceServices(
              pszPnpDeviceID,
-             GUID_DEVINTERFACE_WPD_SERVICE, NULL, &amp;cPnpServiceIDs);
+             GUID_DEVINTERFACE_WPD_SERVICE, NULL, &cPnpServiceIDs);
     }
 
     // If we have at least 1, continue to gather information about
     // each service and populate the device information array.
-    if ((hr == S_OK) &amp;&amp; (cPnpServiceIDs &gt; 0))
+    if ((hr == S_OK) && (cPnpServiceIDs > 0))
     {
       pPnpServiceIDs = new LPWSTR[cPnpServiceIDs];
       if (pPnpServiceIDs != NULL)
@@ -262,18 +258,18 @@ HRESULT EnumerateServicesForDevice(
           // a service GUID can be provided here instead of 
              // GUID_DEVINTERFACE_WPD_SERVICE which returns all services
           DWORD dwIndex = 0;
-          hr = pPortableDeviceServiceManager-&gt;GetDeviceServices
+          hr = pPortableDeviceServiceManager->GetDeviceServices
               (pszPnpDeviceID, GUID_DEVINTERFACE_WPD_SERVICE,
-              pPnpServiceIDs, &amp;cPnpServiceIDs);
+              pPnpServiceIDs, &cPnpServiceIDs);
           if (SUCCEEDED(hr))
           {
              // For each service found, read the name property
-             for (dwIndex = 0; dwIndex &lt; cPnpServiceIDs &amp;&amp; SUCCEEDED(hr);
+             for (dwIndex = 0; dwIndex < cPnpServiceIDs && SUCCEEDED(hr);
                  dwIndex++)
              {
                        LPWSTR pszServiceName = NULL;
                              hr = GetServiceName(pPnpServiceIDs[dwIndex], 
-                      &amp;pszServiceName);
+                      &pszServiceName);
                        CoTaskMemFree(pszServiceName);
              }
           }
@@ -292,18 +288,18 @@ HRESULT GetServiceName( LPCWSTR    pszPnpServiceID,
     HRESULT hr = S_OK;    
     LPWSTR pszServiceID = NULL;
     LPWSTR pszServiceObjectID  = NULL;
-    CComPtr&lt;IPortableDeviceValues&gt; pClientInfo;
-    CComPtr&lt;IPortableDeviceValues&gt; pPropertyValues;
-    CComPtr&lt;IPortableDeviceService&gt; pService;
-    CComPtr&lt;IPortableDeviceContent2&gt; pContent;
-    CComPtr&lt;IPortableDeviceProperties&gt;pProperties;
-    CComPtr&lt;IPortableDeviceKeyCollection&gt; pPropertiesToRead;
+    CComPtr<IPortableDeviceValues> pClientInfo;
+    CComPtr<IPortableDeviceValues> pPropertyValues;
+    CComPtr<IPortableDeviceService> pService;
+    CComPtr<IPortableDeviceContent2> pContent;
+    CComPtr<IPortableDeviceProperties>pProperties;
+    CComPtr<IPortableDeviceKeyCollection> pPropertiesToRead;
 
     hr = CoCreateInstance(CLSID_PortableDeviceServiceFTM,
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IPortableDeviceService,
-                          (VOID**) &amp;pService);
+                          (VOID**) &pService);
     if (hr == S_OK)
     {
         // CoCreate an IPortableDeviceValues interface
@@ -312,49 +308,49 @@ HRESULT GetServiceName( LPCWSTR    pszPnpServiceID,
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IPortableDeviceValues,
-                              (VOID**) &amp; pClientInfo);
-          if ((hr == S_OK) &amp;&amp; (pClientInfo!= NULL))
+                              (VOID**) & pClientInfo);
+          if ((hr == S_OK) && (pClientInfo!= NULL))
           {
-                hr = pClientInfo-&gt;SetStringValue
+                hr = pClientInfo->SetStringValue
                    (WPD_CLIENT_NAME, L"Service Sample Application"); 
                 if (hr == S_OK)
                 {
-                       hr = pClientInfo-&gt;SetUnsignedIntegerValue(
+                       hr = pClientInfo->SetUnsignedIntegerValue(
                 WPD_CLIENT_MAJOR_VERSION, 1);
                 }      
                 if (hr == S_OK)
                 {
-                       hr = pClientInfo-&gt;SetUnsignedIntegerValue(
+                       hr = pClientInfo->SetUnsignedIntegerValue(
                 WPD_CLIENT_MINOR_VERSION, 0);
                 }      
                 if (hr == S_OK)
                 {
-                        hr = pClientInfo-&gt;SetUnsignedIntegerValue(
+                        hr = pClientInfo->SetUnsignedIntegerValue(
                  WPD_CLIENT_REVISION, 0);
                 }      
                 if (hr == S_OK)
                 {
-                        hr = pClientInfo-&gt;SetUnsignedIntegerValue(
+                        hr = pClientInfo->SetUnsignedIntegerValue(
                                 WPD_CLIENT_SECURITY_QUALITY_OF_SERVICE, 
                  SECURITY_IMPERSONATION);
                 }      
                 if (hr == S_OK)
                 {
                         // Open a connection to the service
-                        hr = pService-&gt;Open(pszPnpServiceID, 
+                        hr = pService->Open(pszPnpServiceID, 
                  pClientInfo);
                 }
                 if (hr == S_OK)
                 {
-                        hr = pService-&gt;GetServiceObjectID(&amp;pszServiceID);
+                        hr = pService->GetServiceObjectID(&pszServiceID);
                 }
                 if (hr == S_OK)
                 {
-                        hr = pService-&gt;Content(&amp;pContent);
+                        hr = pService->Content(&pContent);
                 }
                 if (hr == S_OK)
                 {
-                       hr = pContent-&gt;Properties(&amp;pProperties);
+                       hr = pContent->Properties(&pProperties);
                 }
                 // Create a IPortableDeviceKeyCollection 
                 // containing the single PROPERTYKEY
@@ -364,22 +360,22 @@ HRESULT GetServiceName( LPCWSTR    pszPnpServiceID,
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IPortableDeviceKeyCollection,
-                              (VOID**) &amp;pPropertiesToRead);
+                              (VOID**) &pPropertiesToRead);
                 }
                 // Add our property key
                 if (hr == S_OK)
                 {
-                       hr = pPropertiesToRead-&gt;Add(WPD_OBJECT_NAME);
+                       hr = pPropertiesToRead->Add(WPD_OBJECT_NAME);
                 }
                 if (hr == S_OK)
                 {
-                        hr = pProperties-&gt;GetValues(
+                        hr = pProperties->GetValues(
                  pszServiceID, 
-                 pPropertiesToRead, &amp;pPropertyValues);
+                 pPropertiesToRead, &pPropertyValues);
                 }
                 if (hr == S_OK)
                 {
-                         hr = pPropertyValues-&gt;GetStringValue(
+                         hr = pPropertyValues->GetStringValue(
                   WPD_OBJECT_NAME, ppszServiceName);
                 }
              CoTaskMemFree(pszServiceObjectID);
@@ -387,10 +383,10 @@ HRESULT GetServiceName( LPCWSTR    pszPnpServiceID,
           }
      }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

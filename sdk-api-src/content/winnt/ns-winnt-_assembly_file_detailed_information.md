@@ -94,13 +94,9 @@ If
 <b>ASSEMBLY_FILE_DETAILED_INFORMATION</b> structure. The following is an example of a structure used to hold detailed information about the activation context and a call from 
 <b>QueryActCtxW</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PASSEMBLY_FILE_DETAILED_INFORMATION pAssemblyInfo = NULL;
+
+```cpp
+PASSEMBLY_FILE_DETAILED_INFORMATION pAssemblyInfo = NULL;
 ACTIVATION_CONTEXT_QUERY_INDEX QueryIndex;
 BOOL fSuccess = FALSE;
 SIZE_T cbRequired;
@@ -113,21 +109,21 @@ SIZE_T cbAvailable = sizeof(bTemporaryBuffer);
 QueryIndex.ulAssemblyIndex = 1;
 QueryIndex.ulFileIndexInAssembly = 0;
 
-if (GetCurrentActCtx(&amp;hActCtx)) {
+if (GetCurrentActCtx(&hActCtx)) {
 
     // Attempt to use our stack-based buffer first - if that's not large
     // enough, allocate from the heap and try again.
     fSuccess = QueryActCtxW(
         0, 
         hActCtx, 
-        (PVOID)&amp;QueryIndex, 
+        (PVOID)&QueryIndex, 
         FileInformationInAssemblyOfAssemblyInActivationContext,
         pvDataBuffer,
         cbAvailable,
-        &amp;cbRequired);
+        &cbRequired);
 
     // Failed, because the buffer was too small.
-    if (!fSuccess &amp;&amp; (GetLastError() == ERROR_INSUFFICIENT_BUFFER)) {
+    if (!fSuccess && (GetLastError() == ERROR_INSUFFICIENT_BUFFER)) {
 
         // Allocate what we need from the heap - fail if there isn't enough
         // memory to do so.        
@@ -142,17 +138,17 @@ if (GetCurrentActCtx(&amp;hActCtx)) {
         fSuccess = QueryActCtxW(
             0, 
             hActCtx,
-            (PVOID)&amp;QueryIndex,
+            (PVOID)&QueryIndex,
             FileInformationInAssemblyOfAssemblyInActivationContext,
             pvDataBuffer,
             cbAvailable,
-            &amp;cbRequired);
+            &cbRequired);
 
     }
 
     if (fSuccess) {
         // Now that we've found the assembly info, cast our target buffer back to
-        // the assembly info pointer.  Use pAssemblyInfo-&gt;lpFileName
+        // the assembly info pointer.  Use pAssemblyInfo->lpFileName
         pAssemblyInfo = (PASSEMBLY_FILE_DETAILED_INFORMATION)pvDataBuffer;
     }
 }
@@ -161,13 +157,13 @@ DoneQuerying:
     if (hActCtx != INVALID_HANDLE_VALUE)
         ReleaseActCtx(hActCtx);
 
-    if (pvDataBuffer &amp;&amp; (pvDataBuffer != bTemporaryBuffer)) {
+    if (pvDataBuffer && (pvDataBuffer != bTemporaryBuffer)) {
         HeapFree(GetProcessHeap(), 0, pvDataBuffer);
         pvDataBuffer = 0;
     }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

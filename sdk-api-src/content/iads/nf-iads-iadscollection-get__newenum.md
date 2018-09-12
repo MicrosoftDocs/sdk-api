@@ -88,13 +88,9 @@ When a server supports paged search and the client has specified the page limit 
 
 The <b>For Each</b>…<b>In</b>…<b>Next</b> statement in the following Visual Basic code example invokes <b>get__NewEnum</b> method implicitly.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim fso As IADsFileServiceOperations 
+
+```vb
+Dim fso As IADsFileServiceOperations 
 On Error GoTo Cleanup
 
 Set fso = GetObject("WinNT://myComputer/Fabrikam01") 
@@ -104,26 +100,22 @@ Set coll = fso.Sessions
  
 ' The following statement invokes IADsCollection::get__NewEnum.
 For Each session In coll 
-   MsgBox "Session name: " &amp; session.Name
+   MsgBox "Session name: " & session.Name
 Next session
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred... " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred... " & Err.Number)
     End If
-    Set fso = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+    Set fso = Nothing
+```
+
+
 The following C++ code example shows how <b>IADsCollection::get__NewEnum</b> is used to enumerate active file service sessions.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT EnumCollection(IADsCollection *);
+
+```cpp
+HRESULT EnumCollection(IADsCollection *);
 
 HRESULT GetACollectionOfSessions()
 {
@@ -135,18 +127,18 @@ HRESULT GetACollectionOfSessions()
     IADsFileServiceOperations *pFso = NULL;
     hr = ADsGetObject(adspath,
                       IID_IADsFileServiceOperations,
-                      (void**)&amp;pFso);
+                      (void**)&pFso);
     if(FAILED(hr)) {goto Cleanup;}
 
     // Get the pointer to the collection.
-    hr = pFso-&gt;Sessions(&amp;pColl);
+    hr = pFso->Sessions(&pColl);
     if(FAILED(hr)) {goto Cleanup;}
 
     hr = EnumCollection(pColl);
 
 Cleanup:
-    if(pColl) pColl-&gt;Release();
-    if(pFso) pFso-&gt;Release();
+    if(pColl) pColl->Release();
+    if(pFso) pFso->Release();
 
     return hr;
 }
@@ -156,11 +148,11 @@ HRESULT EnumCollection(IADsCollection *pColl)
     IUnknown *pUnk=NULL;
     HRESULT hr = S_OK;
     // Get the Enumerator object on the collection object.
-    hr = pColl-&gt;get__NewEnum(&amp;pUnk);
+    hr = pColl->get__NewEnum(&pUnk);
     if(FAILED(hr)) {goto Cleanup;}
 
     IEnumVARIANT *pEnum;
-    hr = pUnk-&gt;QueryInterface(IID_IEnumVARIANT,(void**)&amp;pEnum);
+    hr = pUnk->QueryInterface(IID_IEnumVARIANT,(void**)&pEnum);
     if(FAILED(hr)) {goto Cleanup;}
 
     // Enumerate the collection.
@@ -170,36 +162,36 @@ HRESULT EnumCollection(IADsCollection *pColl)
     ULONG lFetch;
     IDispatch *pDisp = NULL;
 
-    VariantInit(&amp;var);
-    hr = pEnum-&gt;Next(1, &amp;var, &amp;lFetch);
+    VariantInit(&var);
+    hr = pEnum->Next(1, &var, &lFetch);
     while(hr == S_OK)
     {
         if (lFetch == 1)    
         {
-             pDisp = V_DISPATCH(&amp;var);
-             pDisp-&gt;QueryInterface(IID_IADs, (void**)&amp;pADs);
-             pADs-&gt;get_Name(&amp;bstr);
+             pDisp = V_DISPATCH(&var);
+             pDisp->QueryInterface(IID_IADs, (void**)&pADs);
+             pADs->get_Name(&bstr);
              printf("Session name: %S\n",bstr);
              SysFreeString(bstr);
-             pADs-&gt;Release();
+             pADs->Release();
         }
-        VariantClear(&amp;var);
-        pDisp-&gt;Release();
+        VariantClear(&var);
+        pDisp->Release();
         pDisp = NULL;
-        hr = pEnum-&gt;Next(1, &amp;var, &amp;lFetch);
+        hr = pEnum->Next(1, &var, &lFetch);
     };
     
 
 Cleanup:
-    if(pDisp) pDisp-&gt;Release();
-    if(pUnk) pUnk-&gt;Release();
-    if(pColl) pColl-&gt;Release();
-    if(pEnum) pEnum-&gt;Release();
+    if(pDisp) pDisp->Release();
+    if(pUnk) pUnk->Release();
+    if(pColl) pColl->Release();
+    if(pEnum) pEnum->Release();
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

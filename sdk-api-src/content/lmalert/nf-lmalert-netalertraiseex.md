@@ -221,22 +221,18 @@ Note that the calling application must allocate and free the memory for all stru
 
 To pass a user-defined structure and valid strings in a user alert, you must create an event message file and link it with your application. You must also register the application in the <b>EventMessageFile</b> subkey in the <b>EventLog</b> section of the registry. If you do not register the application, the user alert will contain the information you pass in the variable-length strings that follow the <a href="https://msdn.microsoft.com/2f6bd906-fdab-410a-8856-4482e047371f">USER_OTHER_INFO</a> structure. For more information about <b>EventMessageFile</b>, see <a href="https://msdn.microsoft.com/5ec95938-ac5d-4f63-9080-2de71454eb17">Event Logging</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
 #pragma comment(lib, "netapi32.lib")
 
-#include &lt;windows.h&gt;
-#include &lt;lm.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;time.h&gt;
+#include <windows.h>
+#include <lm.h>
+#include <stdio.h>
+#include <time.h>
 //
 // Define default strings.
 //
@@ -261,7 +257,7 @@ int main()
    TCHAR              *p;
    DWORD dwResult; 
 
-   time( &amp;now );  // Retrieve the current time to print it later.
+   time( &now );  // Retrieve the current time to print it later.
 
    //
    // Sending an administrative alert 
@@ -274,8 +270,8 @@ int main()
    // Error 2377, NERR_LogOverflow, indicates
    //  a log file is full.
    //
-   pAdminInfo-&gt;alrtad_errcode = 2377;
-   pAdminInfo-&gt;alrtad_numstrings = 1;
+   pAdminInfo->alrtad_errcode = 2377;
+   pAdminInfo->alrtad_numstrings = 1;
    //
    // Retrieve a pointer to the variable data portion at the 
    //  end of the buffer by calling the ALERT_VAR_DATA macro.
@@ -311,10 +307,10 @@ int main()
    //
    pPrintInfo = (PPRINT_OTHER_INFO) buff; 
    ZeroMemory(pPrintInfo, VAREDSIZE);        
-   pPrintInfo-&gt;alrtpr_jobid = 5457;
-   pPrintInfo-&gt;alrtpr_status = 0;
-   pPrintInfo-&gt;alrtpr_submitted = (DWORD) now;
-   pPrintInfo-&gt;alrtpr_size = 1000;
+   pPrintInfo->alrtpr_jobid = 5457;
+   pPrintInfo->alrtpr_status = 0;
+   pPrintInfo->alrtpr_submitted = (DWORD) now;
+   pPrintInfo->alrtpr_size = 1000;
    //
    // Retrieve a pointer to the variable data portion at the 
    //  end of the buffer by calling the ALERT_VAR_DATA macro. 
@@ -360,8 +356,8 @@ int main()
    //
    pUserInfo  = (PUSER_OTHER_INFO)  buff; 
    ZeroMemory(pUserInfo, VAREDSIZE);
-   pUserInfo-&gt;alrtus_errcode = 0xffff;
-   pUserInfo-&gt;alrtus_numstrings = 1;
+   pUserInfo->alrtus_errcode = 0xffff;
+   pUserInfo->alrtus_numstrings = 1;
    //
    // Retrieve a pointer to the variable data portion at the 
    //  end of the buffer by calling the ALERT_VAR_DATA macro.
@@ -392,10 +388,10 @@ int main()
 
    return(dwResult);   
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

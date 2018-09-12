@@ -95,13 +95,9 @@ Otherwise, it returns an HRESULT error code.
 
 This example demonstrates how to set custom cross-slide thresholds.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//  SetCrossSlideParametersInteractionContext
+
+```cpp
+//  SetCrossSlideParametersInteractionContext
 
 CROSS_SLIDE_PARAMETER crossSlideParameters[4];
 crossSlideParameters[0].threshold = CROSS_SLIDE_THRESHOLD_SELECT_START;
@@ -119,10 +115,10 @@ SetCrossSlideParametersInteractionContext(
     m_interactionContext,
     4,
     crossSlideParameters);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

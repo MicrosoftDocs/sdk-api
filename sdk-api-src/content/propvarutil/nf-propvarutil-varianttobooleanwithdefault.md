@@ -100,23 +100,19 @@ If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776595(v=VS.85).aspx">VariantToBooleanWithDefault</a> to access a <b>BOOL</b> value stored in a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// VARIANT var;
+
+```cpp
+// VARIANT var;
 // Assume variable var is initialized and valid.  
 // The application expects var to hold a BOOL value.
 // The application treats VT_EMPTY as FALSE.
 
 BOOL fValue = VariantToBooleanWithDefault(var, FALSE);
 
-// fValue is now valid.</pre>
-</td>
-</tr>
-</table></span></div>
+// fValue is now valid.
+```
+
+
 
 
 

@@ -96,40 +96,36 @@ The returned collection might be empty, if no tuning spaces match the name.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-CComPtr &lt;ITuningSpaceContainer&gt;  pTuningSpaceContainer;
+
+```cpp
+
+CComPtr <ITuningSpaceContainer>  pTuningSpaceContainer;
 // Create the SystemTuningSpaces object (not shown).
 
 // Try to match any tuning spaces named "Local (something) Cable".
-CComPtr&lt;ITuningSpaces&gt; pTunes;
+CComPtr<ITuningSpaces> pTunes;
 CComBSTR bstrName("Local.*Cable");
-hr = pITuningSpaceContainer-&gt;TuningSpacesForName(bstrName, &amp;pTunes);
+hr = pITuningSpaceContainer->TuningSpacesForName(bstrName, &pTunes);
 if (SUCCEEDED(hr))
 {
     // Find the size of the returned collection.
     long cCount = 0;
-    hr = pTunes-&gt;get_Count(&amp;cCount);
-    if (SUCCEEDED(hr) &amp;&amp; (cCount &gt; 0))
+    hr = pTunes->get_Count(&cCount);
+    if (SUCCEEDED(hr) && (cCount > 0))
     {
         // Enumerate the collection.
-        CComPtr&lt;IEnumTuningSpaces&gt; pTuneEnum;
-        hr = pTunes-&gt;get_EnumTuningSpaces(&amp;pTuneEnum);
+        CComPtr<IEnumTuningSpaces> pTuneEnum;
+        hr = pTunes->get_EnumTuningSpaces(&pTuneEnum);
         if (SUCCEEDED(hr))
         {
             // Use IEnumTuningSpaces to iterate through the collection.
         }
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

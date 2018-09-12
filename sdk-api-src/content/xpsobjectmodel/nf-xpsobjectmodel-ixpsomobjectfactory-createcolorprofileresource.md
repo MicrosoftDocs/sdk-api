@@ -120,13 +120,9 @@ The method succeeded.
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMColorProfileResource    *newInterface;
 IOpcPartUri                   *partUri;
 
@@ -138,40 +134,40 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
     // The partUriString and acquiredStream variables 
     //   are defined outside of this example.
-    hr = xpsFactory-&gt;CreatePartUri(
+    hr = xpsFactory->CreatePartUri(
         partUriString, 
-        &amp;partUri);
+        &partUri);
     if (SUCCEEDED(hr))
     {
-        hr = xpsFactory-&gt;CreateColorProfileResource (
+        hr = xpsFactory->CreateColorProfileResource (
             acquiredStream, 
             partUri,
-            &amp;newInterface);
+            &newInterface);
         if (SUCCEEDED(hr))
         {
             // use newInterface
 
-            newInterface-&gt;Release();
+            newInterface->Release();
         }
-        partUri-&gt;Release();
+        partUri->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

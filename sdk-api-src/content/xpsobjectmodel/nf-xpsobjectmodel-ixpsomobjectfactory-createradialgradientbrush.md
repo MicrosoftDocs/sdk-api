@@ -193,13 +193,9 @@ For radial-gradient brushes, the gradient stop that is set by the <i>gradStop1</
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMRadialGradientBrush    *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -215,35 +211,35 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreateRadialGradientBrush (
+    hr = xpsFactory->CreateRadialGradientBrush (
         gradStop1,
         gradStop2,
-        &amp;centerPoint,
-        &amp;gradientOrigin,
-        &amp;radiiSizes,
-        &amp;newInterface);
+        &centerPoint,
+        &gradientOrigin,
+        &radiiSizes,
+        &newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface-&gt;Release();
+        newInterface->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

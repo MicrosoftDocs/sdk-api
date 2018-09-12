@@ -97,17 +97,13 @@ If the value for this property is true, an AT_KEYEXCHANGE request will contain t
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Get the LimitExchangeKeyToEncipherment value.
+
+```cpp
+// Get the LimitExchangeKeyToEncipherment value.
 BOOL       bLimitKey;
 HRESULT    hr;
 // pEnroll is previously instantiated ICEnroll interface pointer.
-hr = pEnroll-&gt;get_LimitExchangeKeyToEncipherment(&amp;bLimitKey);
+hr = pEnroll->get_LimitExchangeKeyToEncipherment(&bLimitKey);
 if (FAILED(hr))
     printf("Failed get_LimitExchangeKeyToEncipherment - %x\n", hr );
 else
@@ -115,14 +111,14 @@ else
           ( bLimitKey ? "TRUE" : "FALSE"));
 
 // Set the LimitExchangeKeyToEncipherment value.
-hr = pEnroll-&gt;put_LimitExchangeKeyToEncipherment( TRUE );
+hr = pEnroll->put_LimitExchangeKeyToEncipherment( TRUE );
 if ( FAILED ( hr ) )
     printf("Failed put_LimitExchangeKeyToEncipherment - %x\n", hr );
 else
-    printf( "LimitExchangeKeyToEncipherment was set to TRUE\n" );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "LimitExchangeKeyToEncipherment was set to TRUE\n" );
+```
+
+
 
 
 

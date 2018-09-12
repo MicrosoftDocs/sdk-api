@@ -179,13 +179,9 @@ The following example creates a persistent TCP port reservation, then creates a 
 
 This example must be run by a user that is a member of the Administrators group. The simplest way to run this example is in an enhanced shell as the built-in Administrator (RunAs administrator). 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
@@ -193,13 +189,13 @@ This example must be run by a user that is a member of the Administrators group.
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include &lt;Windows.h.&gt;
-#include &lt;winsock2.h&gt;
-#include &lt;mstcpip.h&gt;
-#include &lt;ws2ipdef.h&gt;
-#include &lt;iphlpapi.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
+#include <Windows.h.>
+#include <winsock2.h>
+#include <mstcpip.h>
+#include <ws2ipdef.h>
+#include <iphlpapi.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 // Need to link with iphlpapi.lib
 #pragma comment(lib, "iphlpapi.lib")
@@ -238,7 +234,7 @@ int wmain(int argc, WCHAR ** argv)
     
     // Validate the parameters
     if (argc != 3) {
-        wprintf(L"usage: %s &lt;Starting Port&gt; &lt;Number of Ports&gt;\n",
+        wprintf(L"usage: %s <Starting Port> <Number of Ports>\n",
              argv[0]);
         wprintf(L"Creates a persistent TCP port reservation\n");
         wprintf(L"Example usage:\n");
@@ -248,21 +244,21 @@ int wmain(int argc, WCHAR ** argv)
     }
 
     startPort = _wtoi(argv[1]);
-    if (startPort &lt; 0 || startPort &gt; 65535) {
+    if (startPort < 0 || startPort > 65535) {
         wprintf(L"Starting point must be either 0 or between 1 and 65,535\n");
         return 1;
     }
     startPortns = htons((USHORT) startPort);
 
     numPorts = _wtoi(argv[2]);
-    if (numPorts &lt; 0) {
+    if (numPorts < 0) {
         wprintf(L"Number of ports must be a positive number\n");
         return 1;
     }
 
     status =
         CreatePersistentTcpPortReservation((USHORT) startPortns, (USHORT) numPorts,
-                                           &amp;resToken);
+                                           &resToken);
     if (status != NO_ERROR) {
         wprintf(L"CreatePersistentTcpPortReservation returned error: %ld\n", status);
         return 1;
@@ -275,7 +271,7 @@ int wmain(int argc, WCHAR ** argv)
     // persistent reservation
 
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed with error = %d\n", iResult);
         // return 1;
@@ -288,8 +284,8 @@ int wmain(int argc, WCHAR ** argv)
         wprintf(L"socket function succeeded\n");
 
         iResult =
-            WSAIoctl(sock, SIO_ASSOCIATE_PORT_RESERVATION, (LPVOID) &amp; resToken,
-                     sizeof (ULONG64), NULL, 0, &amp;bytesReturned, NULL, NULL);
+            WSAIoctl(sock, SIO_ASSOCIATE_PORT_RESERVATION, (LPVOID) & resToken,
+                     sizeof (ULONG64), NULL, 0, &bytesReturned, NULL, NULL);
         if (iResult != 0) {
             wprintf
                 (L"WSAIoctl(SIO_ASSOCIATE_PORT_RESERVATION) failed with error = %d\n",
@@ -302,12 +298,12 @@ int wmain(int argc, WCHAR ** argv)
             service.sin_addr.s_addr = INADDR_ANY;
             service.sin_port = 0;
 
-            iResult = bind(sock, (SOCKADDR*) &amp;service, sizeof(service) );
+            iResult = bind(sock, (SOCKADDR*) &service, sizeof(service) );
             if (iResult == SOCKET_ERROR)
                 wprintf(L"bind failed with error = %d\n", WSAGetLastError());
             else {
                 wprintf(L"bind succeeded\n");
-                iResult = getsockname(sock, (SOCKADDR*) &amp;sockName, &amp;nameLen);
+                iResult = getsockname(sock, (SOCKADDR*) &sockName, &nameLen);
                 if (iResult == SOCKET_ERROR) 
                     wprintf(L"getsockname failed with error = %d\n", WSAGetLastError() );
                 else {
@@ -336,10 +332,10 @@ int wmain(int argc, WCHAR ** argv)
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

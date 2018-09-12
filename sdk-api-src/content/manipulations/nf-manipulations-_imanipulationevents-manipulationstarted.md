@@ -90,13 +90,9 @@ Manipulation events are generated for both the <a href="https://msdn.microsoft.c
 
 The following code shows an implementation of the ManipulationStarted method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationStarted( 
     /* [in] */ FLOAT x,
     /* [in] */ FLOAT y)
@@ -108,10 +104,10 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationStarted(
     return S_OK;
 }
     
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

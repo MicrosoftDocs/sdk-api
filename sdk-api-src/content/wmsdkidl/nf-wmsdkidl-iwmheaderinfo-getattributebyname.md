@@ -194,13 +194,9 @@ For a list of all the predefined attributes, see <a href="https://msdn.microsoft
 
 The following example code shows how to retrieve the "Title" attribute.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT hr;
 IWMHeaderInfo *pInfo;
 WORD wStreamNum = 0;
@@ -209,8 +205,8 @@ WORD cbLength;
 //
 // First, retrieve the length of the string, and allocate memory.
 //
-hr = pInfo-&gt;GetAttributeByName( &amp;wStreamNum, L"Title", 
-                                &amp;Type, NULL, &amp;cbLength );
+hr = pInfo->GetAttributeByName( &wStreamNum, L"Title", 
+                                &Type, NULL, &cbLength );
 if( FAILED( hr ) )
 {
     return( hr );
@@ -223,16 +219,16 @@ if( !pwszTitle )
 //
 // Now, retrieve the string itself.
 //
-hr = pInfo-&gt;GetAttributeByName( &amp;wStreamNum, L"Title", &amp;Type, 
-                                (BYTE *) pwszTitle, &amp;cbLength );
+hr = pInfo->GetAttributeByName( &wStreamNum, L"Title", &Type, 
+                                (BYTE *) pwszTitle, &cbLength );
 if( FAILED( hr ) )
 {
     return( hr );
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -136,13 +136,9 @@ Initialization status is reported by calling
 The provider may use the 
 <a href="https://msdn.microsoft.com/abcee170-6a28-44d2-97d6-cb62c393b534">IWbemProviderInitSink</a> pointer synchronously, as in the following code example.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT SampleProvider::Initialize( 
+
+```cpp
+HRESULT SampleProvider::Initialize( 
     /* [unique][in] */  LPWSTR wszUser,
     /* [in] */          LONG lFlags,
     /* [in] */          LPWSTR wszNamespace,
@@ -157,12 +153,12 @@ The provider may use the
     // Analyze other parameters.
 
     // Tell Windows Management that you are initialized.
-    pInitSink-&gt;SetStatus(WBEM_S_INITIALIZED, 0);
+    pInitSink->SetStatus(WBEM_S_INITIALIZED, 0);
     return WBEM_S_NO_ERROR;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The provider may also use the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the pointer and create a separate thread to complete its initialization and immediately return from the call.
 
 The initialization process of some providers can involve calling back into WMI. A provider that calls back into WMI and must wait for that call to complete is called a dependent provider. Similarly, a call into WMI is called a dependent request. When implementing 
@@ -201,19 +197,15 @@ You may choose to implement your provider in-process. An in-process provider tha
 
 The following code example describes how to use the <b>CLSID_WbemAdministrativeLocator</b> identifier in such a call.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>  IWbemLocator *pLoc = 0;
+
+```cpp
+  IWbemLocator *pLoc = 0;
 
   DWORD dwRes = CoCreateInstance(CLSID_WbemAdministrativeLocator, 0, 
-      CLSCTX_INPROC_SERVER, IID_IWbemLocator, (LPVOID *) &amp;pLoc);</pre>
-</td>
-</tr>
-</table></span></div>
+      CLSCTX_INPROC_SERVER, IID_IWbemLocator, (LPVOID *) &pLoc);
+```
+
+
 Failure to use the <b>CLSID_WbemAdministrativeLocator</b> identifier results in an Access Denied error. For more information about making a connection to WMI, see 
 <a href="https://msdn.microsoft.com/c0d18827-6b36-4817-8cd9-06cd0f267b28">Creating a WMI Application or Script</a>.
 
@@ -223,13 +215,9 @@ Failure to use the <b>CLSID_WbemAdministrativeLocator</b> identifier results in 
 The following code example describes how to implement 
 <b>Initialize</b> for an event consumer provider.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CMyEventConsumer::Initialize( 
+
+```cpp
+HRESULT CMyEventConsumer::Initialize( 
     /* [in] */ LPWSTR pszUser,
     /* [in] */ LONG lFlags,
     /* [in] */ LPWSTR pszNamespace,
@@ -239,16 +227,16 @@ The following code example describes how to implement
     /* [in] */ IWbemProviderInitSink __RPC_FAR *pInitSink
     )
 {
-    pInitSink-&gt;SetStatus(WBEM_S_INITIALIZED, 0);
+    pInitSink->SetStatus(WBEM_S_INITIALIZED, 0);
 
 // Optionally, examine the namespace, locale, and so on 
 // being used.
 
     return WBEM_S_NO_ERROR;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

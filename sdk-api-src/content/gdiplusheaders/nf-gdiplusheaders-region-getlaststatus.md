@@ -99,13 +99,9 @@ The first time you call the <b>Region::GetLastStatus</b> method of a
 
 The following example creates a region from a path. Next, the code calls <a href="https://msdn.microsoft.com/en-us/library/ms534776(v=VS.85).aspx">Region::GetBounds Methods</a>, followed by a call to <a href="https://msdn.microsoft.com/en-us/library/ms534766(v=VS.85).aspx">Region::GetDataSize</a>. The code then calls <b>Region::GetLastStatus</b>. If all method calls have been successful up to this point, <b>Region::GetLastStatus</b> returns <b>Ok</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetLastStatus(HDC hdc)
+
+```cpp
+VOID Example_GetLastStatus(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -124,18 +120,18 @@ The following example creates a region from a path. Next, the code calls <a href
    path.AddClosedCurve(points, 6);
 
    // Create a region from a path.
-   Region pathRegion(&amp;path);    
+   Region pathRegion(&path);    
 
-   pathRegion.GetBounds(&amp;rect, &amp;graphics);
+   pathRegion.GetBounds(&rect, &graphics);
    size = pathRegion.GetDataSize();
 
    if(pathRegion.GetLastStatus() == Ok)
    {
        // All methods called thus far have been successful.
    }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

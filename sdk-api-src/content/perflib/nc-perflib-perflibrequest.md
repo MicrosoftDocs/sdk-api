@@ -171,13 +171,9 @@ The callback must complete within one second. If the callback does not complete 
 The following example shows a simple implementation of a 
 <a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ULONG MyControlCallback(ULONG RequestCode, PVOID pBuffer, ULONG* pBufferSize)
+
+```cpp
+ULONG MyControlCallback(ULONG RequestCode, PVOID pBuffer, ULONG* pBufferSize)
 {
     ULONG Status = ERROR_SUCCESS;
     PWNODE_HEADER Wnode = (PWNODE_HEADER)pBuffer;
@@ -190,17 +186,17 @@ The following example shows a simple implementation of a
     {
         case PERF_ADD_COUNTER:
             pCounter = (PPERF_COUNTER_IDENTITY)(((LPBYTE) Wnode) + sizeof(WNODE_HEADER));
-            pComputerName = (LPWSTR)(((LPBYTE) pCounter) + pCounter-&gt;MachineOffset);
-            pInstance = (pCounter-&gt;NameOffset &gt; 0) 
-                ? (LPWSTR) (((LPBYTE) pCounter) + pCounter-&gt;NameOffset) : NULL;
+            pComputerName = (LPWSTR)(((LPBYTE) pCounter) + pCounter->MachineOffset);
+            pInstance = (pCounter->NameOffset > 0) 
+                ? (LPWSTR) (((LPBYTE) pCounter) + pCounter->NameOffset) : NULL;
             
             break;
 
         case PERF_REMOVE_COUNTER: 
             pCounter = (PPERF_COUNTER_IDENTITY)(((LPBYTE) Wnode) + sizeof(WNODE_HEADER));
-            pComputerName = (LPWSTR)(((LPBYTE) pCounter) + pCounter-&gt;MachineOffset);
-            pInstance = (pCounter-&gt;NameOffset &gt; 0)
-                ? (LPWSTR) (((LPBYTE) pCounter) + pCounter-&gt;NameOffset) : NULL;
+            pComputerName = (LPWSTR)(((LPBYTE) pCounter) + pCounter->MachineOffset);
+            pInstance = (pCounter->NameOffset > 0)
+                ? (LPWSTR) (((LPBYTE) pCounter) + pCounter->NameOffset) : NULL;
             
             break;
 
@@ -225,9 +221,9 @@ The following example shows a simple implementation of a
 
     return Status;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

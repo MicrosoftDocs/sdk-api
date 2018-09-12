@@ -64,13 +64,9 @@ Handling the <b>IADsLargeInteger</b> in Visual Basic is made difficult by the fa
 
 The following example shows how to convert an <b>IADsLargeInteger</b> object to a hex string.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim oDomain As IADs
+
+```vb
+Dim oDomain As IADs
 Dim oLargeInt As LargeInteger
 
 Set oDomain = GetObject("LDAP://DC=fabrikam,DC=com")
@@ -79,21 +75,17 @@ Set oLargeInt = oDomain.Get("creationTime")
 Debug.Print oLargeInt.HighPart
 Debug.Print oLargeInt.LowPart
 
-strTemp = "&amp;H" + CStr(Hex(oLargeInt.HighPart)) + _
+strTemp = "&H" + CStr(Hex(oLargeInt.HighPart)) + _
      CStr(Hex(oLargeInt.LowPart))
-Debug.Print strTemp</pre>
-</td>
-</tr>
-</table></span></div>
+Debug.Print strTemp
+```
+
+
 In Visual Basic, it is possible to convert an <b>IADsLargeInteger</b> objects that represents a date and/or time into a time Variant using the <a href="https://msdn.microsoft.com/d1d55f1f-4daa-4b9d-9962-873e38b1e0cf">FileTimeToSystemTime</a> and <a href="https://msdn.microsoft.com/d9d69521-9b33-4fc5-8a1c-929f216db450">SystemTimeToVariantTime</a> APIs. This is shown in the following code example.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Public Declare Function FileTimeToSystemTime Lib "kernel32" _
+
+```vb
+Public Declare Function FileTimeToSystemTime Lib "kernel32" _
    (lpFileTime As FILETIME, _
    lpSystemTime As SYSTEMTIME) As Long
 
@@ -165,19 +157,15 @@ Function LargeInteger_To_Time(oLargeInt As LargeInteger, vTime As Variant)_
     vTime = CDate(dbTime)
     LargeInteger_To_Time = True
 
-End Function</pre>
-</td>
-</tr>
-</table></span></div>
+End Function
+```
+
+
 The following example shows how to convert an <b>IADsLargeInteger</b> to a 64-bit integer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT PrintAccountExpires(LPCWSTR pwszADsPath)
+
+```cpp
+HRESULT PrintAccountExpires(LPCWSTR pwszADsPath)
 {
     if(!pwszADsPath)
     {
@@ -185,10 +173,10 @@ The following example shows how to convert an <b>IADsLargeInteger</b> to a 64-bi
     }
     
     HRESULT hr;
-    CComPtr&lt;IADs&gt; spads;
+    CComPtr<IADs> spads;
 
     // Bind to the object.
-    hr = ADsGetObject(pwszADsPath, IID_IADs, (LPVOID*)&amp;spads);
+    hr = ADsGetObject(pwszADsPath, IID_IADs, (LPVOID*)&spads);
     if(FAILED(hr))
     {
         return hr;
@@ -199,16 +187,16 @@ The following example shows how to convert an <b>IADsLargeInteger</b> to a 64-bi
     IDispatch that contains an IADsLargeInteger.
     */
     CComVariant svar;
-    hr = spads-&gt;Get(CComBSTR("accountExpires"), &amp;svar);
+    hr = spads->Get(CComBSTR("accountExpires"), &svar);
     if(FAILED(hr))
     {
         return hr;
     }
 
     // Get the IADsLargeInteger interface.
-    CComPtr&lt;IADsLargeInteger&gt; spli;
-    hr = svar.pdispVal-&gt;QueryInterface(IID_IADsLargeInteger, 
-                                      (LPVOID*)&amp;spli);
+    CComPtr<IADsLargeInteger> spli;
+    hr = svar.pdispVal->QueryInterface(IID_IADsLargeInteger, 
+                                      (LPVOID*)&spli);
     if(FAILED(hr))
     {
         return hr;
@@ -217,13 +205,13 @@ The following example shows how to convert an <b>IADsLargeInteger</b> to a 64-bi
     // Get the high and low parts of the value.
     long lHigh;
     long lLow;
-    hr = spli-&gt;get_HighPart(&amp;lHigh);
-    hr = spli-&gt;get_LowPart(&amp;lLow);
+    hr = spli->get_HighPart(&lHigh);
+    hr = spli->get_LowPart(&lLow);
 
     // Convert the high and low parts to an __i64.
     __int64 i64;
     i64 = (ULONG)lHigh;
-    i64 = (i64 &lt;&lt; 32);
+    i64 = (i64 << 32);
     i64 = i64 + (ULONG)lLow;
     
     // Print all of the values.
@@ -231,10 +219,10 @@ The following example shows how to convert an <b>IADsLargeInteger</b> to a 64-bi
             lHigh, lLow, i64);
 
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

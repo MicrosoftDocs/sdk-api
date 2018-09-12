@@ -149,22 +149,18 @@ Certificate extensions are distinct from certificate properties. Properties are 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VARIANT    varExt;
+
+```cpp
+VARIANT    varExt;
 HRESULT    hr;
 
-VariantInit(&amp;varExt);
+VariantInit(&varExt);
 // Get the Extension value.
 // bstrExtName is BSTR assigned by EnumerateExtensions.
 // pCertServerPolicy has been used to call SetContext previously.
-hr = pCertServerPolicy-&gt;GetCertificateExtension(bstrExtName,
+hr = pCertServerPolicy->GetCertificateExtension(bstrExtName,
                                                 PROPTYPE_BINARY,
-                                                &amp;varExt);
+                                                &varExt);
 
 if (FAILED(hr))
 {
@@ -175,10 +171,10 @@ if (FAILED(hr))
 // ...
 
 // When done, clear the Variant
-VariantClear(&amp;varExt);</pre>
-</td>
-</tr>
-</table></span></div>
+VariantClear(&varExt);
+```
+
+
 
 
 

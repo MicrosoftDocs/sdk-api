@@ -895,31 +895,27 @@ For an example of retrieving a CRL, see <a href="https://msdn.microsoft.com/en-u
 
 The following example shows retrieving the signature certificate of the CA. The  example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin2</a> interface pointer is valid.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR bstrCA = NULL;
+
+```cpp
+BSTR bstrCA = NULL;
 VARIANT var1;
 HRESULT hr;
 
-bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
+bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
 if (NULL == bstrCA)
 {
     printf("Failed to allocate memory for bstrCA\n");
     exit(1);
 }
 
-VariantInit(&amp;var1);
+VariantInit(&var1);
 // Retrieve the CA signature certificate at index 0.
-hr = pAdmin2-&gt;GetCAProperty(bstrCA,
+hr = pAdmin2->GetCAProperty(bstrCA,
                                 CR_PROP_CASIGCERT,
                                 0,
                                 PROPTYPE_BINARY,
                                 CV_OUT_BASE64HEADER,
-                                &amp;var1);
+                                &var1);
 if (FAILED(hr))
 {
     printf("Failed GetCAProperty\n");
@@ -931,10 +927,10 @@ if (FAILED(hr))
 // ...
 
 // Clear the variant when finished.
-VariantClear(&amp;var1);
-SysFreeString(bstrCA);</pre>
-</td>
-</tr>
-</table></span></div>
+VariantClear(&var1);
+SysFreeString(bstrCA);
+```
+
+
 
 

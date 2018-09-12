@@ -205,17 +205,13 @@ Use the <b>RoResolveNamespace</b> function to explore Windows Runtime namespace 
 
 The following C++ example shows how to use the <b>RoResolveNamespace</b> function to find the direct child namespaces for a specified type name.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;WinRTString.h&gt;
-#include &lt;TypeResolution.h&gt;
-#include &lt;atlbase.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <WinRTString.h>
+#include <TypeResolution.h>
+#include <atlbase.h>
 
 HRESULT PrintDirectChildrenSubNamespacesAndTypesPaths(PCWSTR pszName);
 
@@ -255,8 +251,8 @@ HRESULT PrintDirectChildrenSubNamespacesAndTypesPaths(PCWSTR pszName)
 
     hr = WindowsCreateString(
         pszName,
-        static_cast&lt;UINT32&gt;(wcslen(pszName)),
-        &amp;hstrName);
+        static_cast<UINT32>(wcslen(pszName)),
+        &hstrName);
 
     if (SUCCEEDED(hr))
     {
@@ -265,10 +261,10 @@ HRESULT PrintDirectChildrenSubNamespacesAndTypesPaths(PCWSTR pszName)
             nullptr,
             0,
             nullptr,
-            &amp;cRetrievedMetaDataFilePaths,
-            &amp;phstrRetrievedMetaDataFiles,
-            &amp;cRetrievedSubNamespaces,
-            &amp;phstrRetrievedSubNamespaces);
+            &cRetrievedMetaDataFilePaths,
+            &phstrRetrievedMetaDataFiles,
+            &cRetrievedSubNamespaces,
+            &phstrRetrievedSubNamespaces);
     }
 
     if (SUCCEEDED(hr))
@@ -277,7 +273,7 @@ HRESULT PrintDirectChildrenSubNamespacesAndTypesPaths(PCWSTR pszName)
         {
             wprintf(L"Direct-children subnamespaces of %s are:\n", pszName);
 
-            for (DWORD i = 0; i &lt; cRetrievedSubNamespaces; i++)
+            for (DWORD i = 0; i < cRetrievedSubNamespaces; i++)
             {
                 wprintf(L"Subnamespace %d: %s\n", i, WindowsGetStringRawBuffer(phstrRetrievedSubNamespaces[i], nullptr));
             }
@@ -287,7 +283,7 @@ HRESULT PrintDirectChildrenSubNamespacesAndTypesPaths(PCWSTR pszName)
         {
             wprintf(L"Potential direct-children types of %s could be found in:\n", pszName);
 
-            for (DWORD i = 0; i &lt; cRetrievedMetaDataFilePaths; i++)
+            for (DWORD i = 0; i < cRetrievedMetaDataFilePaths; i++)
             {
                 wprintf(L"Metadata file path %d: %s\n", i, WindowsGetStringRawBuffer(phstrRetrievedMetaDataFiles[i], nullptr));
             }
@@ -308,14 +304,14 @@ HRESULT PrintDirectChildrenSubNamespacesAndTypesPaths(PCWSTR pszName)
         WindowsDeleteString(hstrName);
     }
 
-    for (DWORD i = 0; i &lt; cRetrievedSubNamespaces; i++)
+    for (DWORD i = 0; i < cRetrievedSubNamespaces; i++)
     {
         WindowsDeleteString(phstrRetrievedSubNamespaces[i]);
     }
 
     CoTaskMemFree(phstrRetrievedSubNamespaces);
 
-    for (DWORD i = 0; i &lt; cRetrievedMetaDataFilePaths; i++)
+    for (DWORD i = 0; i < cRetrievedMetaDataFilePaths; i++)
     {
         WindowsDeleteString(phstrRetrievedMetaDataFiles[i]);
     }
@@ -324,9 +320,9 @@ HRESULT PrintDirectChildrenSubNamespacesAndTypesPaths(PCWSTR pszName)
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

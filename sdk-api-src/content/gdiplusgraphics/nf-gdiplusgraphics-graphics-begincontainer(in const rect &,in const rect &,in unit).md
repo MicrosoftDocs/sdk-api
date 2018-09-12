@@ -118,13 +118,9 @@ For more information about graphics containers, see <a href="https://msdn.micros
 The following example sets a clipping region for a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and begins a graphics container. It then sets an additional clipping region for the container and draws rectangles that demonstrate the effective clipping region inside the container.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_BeginContainer(HDC hdc)
+
+```cpp
+VOID Example_BeginContainer(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -139,23 +135,23 @@ The following example sets a clipping region for a
 
    // Fill a red rectangle in the container.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillRectangle(&amp;redBrush, 0, 0, 400, 400);
+   graphics.FillRectangle(&redBrush, 0, 0, 400, 400);
 
    // End the container, and fill the same rectangle with blue. 
    graphics.EndContainer(container);
    SolidBrush blueBrush(Color(128, 0, 0, 255));
-   graphics.FillRectangle(&amp;blueBrush, 0, 0, 400, 400);
+   graphics.FillRectangle(&blueBrush, 0, 0, 400, 400);
 
    // Set the clipping region to infinite, and draw the outlines 
    // of the two previous clipping regions.
    graphics.ResetClip();
    Pen blackPen(Color(255, 0, 0, 0), 2.0f);
-   graphics.DrawRectangle(&amp;blackPen, 10, 10, 150, 150);
-   graphics.DrawRectangle(&amp;blackPen, 100, 50, 100, 75);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawRectangle(&blackPen, 10, 10, 150, 150);
+   graphics.DrawRectangle(&blackPen, 100, 50, 100, 75);
+}
+```
+
+
 
 
 

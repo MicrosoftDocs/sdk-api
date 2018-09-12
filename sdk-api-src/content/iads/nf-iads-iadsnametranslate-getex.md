@@ -97,22 +97,18 @@ When referral chasing is on, this method will not attempt to chase and resolve t
 
 The following C/C++ code  example shows how to translate a distinguished names that is compliant with RFC 1779 to the GUID format. The computer name of the directory server is "myServer".
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IADsNameTranslate *pNto;
+
+```cpp
+IADsNameTranslate *pNto;
 HRESULT hr;
 hr = CoCreateInstance(CLSID_NameTranslate,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_IADsNameTranslate,
-                      (void**)&amp;pNto);
+                      (void**)&pNto);
 if(FAILED(hr)) { exit 1;}
  
-hr = pNto-&gt;Init(ADS_NAME_INITTYPE_SERVER,
+hr = pNto->Init(ADS_NAME_INITTYPE_SERVER,
                   CComBSTR("myServer"));
 if (FAILED(hr)) { exit 1;}
  
@@ -121,42 +117,38 @@ LPWSTR str[1] = { L"CN=jim,CN=Users,DC=myDomain,DC=Fabrikam,DC=COM",
 DWORD dwNum = sizeof(str)/sizeof(LPWSTR);
  
 VARIANT varStr;
-VariantInit(&amp;varStr);
+VariantInit(&varStr);
  
-hr = ADsBuildVarArrayStr(str,dwNum,&amp;varStr);
+hr = ADsBuildVarArrayStr(str,dwNum,&varStr);
  
-hr =pNto-&gt;SetEx(ADS_NAME_TYPE_1779, varStr);
+hr =pNto->SetEx(ADS_NAME_TYPE_1779, varStr);
 if(FAILED(hr)) {exit 1;}
-VariantClear(&amp;varStr);
+VariantClear(&varStr);
  
-hr = pNto-&gt;GetEx(ADS_NAME_TYPE_GUID, &amp;varStr);
+hr = pNto->GetEx(ADS_NAME_TYPE_GUID, &varStr);
 if(FAILED(hr)) {exit 1;}
  
 LONG lstart, lend;
-SAFEARRAY *sa = V_ARRAY(&amp;varStr);
+SAFEARRAY *sa = V_ARRAY(&varStr);
 VARIANT varItem;
-VariantInit(&amp;varItem);
+VariantInit(&varItem);
 printf("Names in the translated format:\n");
-for (long idx = lstart; idx &lt;= lend; idx++) 
+for (long idx = lstart; idx <= lend; idx++) 
 {
-    hr = SafeArrayGetElement(sa, &amp;idx, &amp;varItem);
-    printf("   %S\n", V_BSTR(&amp;varItem));
-    VariantClear(&amp;varItem);
+    hr = SafeArrayGetElement(sa, &idx, &varItem);
+    printf("   %S\n", V_BSTR(&varItem));
+    VariantClear(&varItem);
 }
-VariantClear(&amp;varStr);
-pNto-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+VariantClear(&varStr);
+pNto->Release();
+```
+
+
 The following code example shows how to convert multiple names from the RFC 1779 type to the GUID type. The computer name of the directory server is "myServer".
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim nto As new NameTranslate
+
+```vb
+Dim nto As new NameTranslate
 Dim result As Variant
 Dim ns(1) As String
  
@@ -167,22 +159,18 @@ ns(1)="CN=jim,CN=users,DC=example,DC=Fabrikam,DC=COM,O=Internet"
  
 nto.SetEx ADS_NAME_TYPE_1779, ns
 nto.GetEx ADS_NAME_TYPE_GUID, result
-MsgBox "name(0): " &amp; result(0) &amp; " name(1): " &amp; result(1)</pre>
-</td>
-</tr>
-</table></span></div>
+MsgBox "name(0): " & result(0) & " name(1): " & result(1)
+```
+
+
 The following VBScript/ASP code example translates two distinguished names compliant with RFC 1779 to the GUID format. The computer name of the directory server is "myServer".
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;%@ Language=VBScript %&gt;
-&lt;html&gt;
-&lt;body&gt;
-&lt;%
+
+```vb
+<%@ Language=VBScript %>
+<html>
+<body>
+<%
   Dim nto
   const ADS_NAME_INITTYPE_SERVER = 2
   const ADS_NAME_TYPE_1779 = 1
@@ -202,15 +190,15 @@ The following VBScript/ASP code example translates two distinguished names compl
   nto.SetEx ADS_NAME_TYPE_1779, ns
   result = nto.GetEx(ADS_NAME_TYPE_GUID)
  
-  Response.Write "&lt;p&gt;Names in the translated format: " &amp; result(0) &amp; _
-    ", " &amp; result(1)
+  Response.Write "<p>Names in the translated format: " & result(0) & _
+    ", " & result(1)
  
-%&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+%>
+</body>
+</html>
+```
+
+
 
 
 

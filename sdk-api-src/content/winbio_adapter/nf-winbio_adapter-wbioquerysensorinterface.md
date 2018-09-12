@@ -106,26 +106,22 @@ To be visible to the Windows Biometric Framework, the <a href="https://msdn.micr
 
 The following pseudocode shows one possible implementation of this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
 WINAPI
 WbioQuerySensorInterface(
     __out PWINBIO_SENSOR_INTERFACE *SensorInterface
     )
 {
     // g_SensorInterface is a global variable.
-    *SensorInterface = &amp;g_SensorInterface;
+    *SensorInterface = &g_SensorInterface;
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

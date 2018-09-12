@@ -97,21 +97,17 @@ In older Sync Manager implementations, this information was retrieved through th
 
 The following example shows an implementation of this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CMyDeviceSyncItem::GetName(__out LPWSTR *ppszName)
+
+```cpp
+STDMETHODIMP CMyDeviceSyncItem::GetName(__out LPWSTR *ppszName)
 {
     *ppszName = NULL;
     HRESULT hr = SHCoAllocString(_pszItemName, ppszName);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

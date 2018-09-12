@@ -116,13 +116,9 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 Memory allocation and release of the encrypted content is the responsibility of the calling function. The following code sample, from <a href="https://msdn.microsoft.com/30959fa0-54e0-43c7-9b76-8551ac06076f">Encrypting Content</a>, shows how to encrypt content in blocks. This particular example already knows the size of the content to encrypt and allocates memory beforehand. If you must determine the number of bytes to allocate, however,  the required buffer size is returned in the <i>pcNumOutBytes</i> parameter after the first call. Allocate memory and call the function again with  <i>pbOutData</i> set to point to the new memory.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #include "EncryptingContent.h"
 
 /*===================================================================
@@ -212,8 +208,8 @@ HRESULT EncryptContent(
        return E_INVALIDARG;
 
   // Create an enabling principal.
-  SecureZeroMemory(&amp;idNULL, sizeof(idNULL));
-  SecureZeroMemory(&amp;idStandardEP, sizeof(idStandardEP));
+  SecureZeroMemory(&idNULL, sizeof(idNULL));
+  SecureZeroMemory(&idStandardEP, sizeof(idStandardEP));
   idStandardEP.wszIDType = L"ASCII Tag"; 
   idStandardEP.wszID     = L"UDStdPlg Enabling Principal"; 
 
@@ -221,9 +217,9 @@ HRESULT EncryptContent(
           hEnv,                     // Secure environment handle 
           hLib,                     // Library handle 
           idStandardEP.wszID,       // Enabling principal type 
-          &amp;idNULL,                  // DRMID structure 
+          &idNULL,                  // DRMID structure 
           pwszRAC,                  // Rights account certificate
-          &amp;hEP);                    // enabling principal handle 
+          &hEP);                    // enabling principal handle 
   if(FAILED(hr)) return hr;
   wprintf(L"DRMCreateEnablingPrincipal: hEP %i \r\n", hEP);
 
@@ -238,7 +234,7 @@ HRESULT EncryptContent(
   //   - You must release the memory before leaving this function.
   hr = DRMGetOwnerLicense( 
            hIssuanceLic,               // Issuance license handle
-           &amp;uiOwnerLicenseLength,      // License length
+           &uiOwnerLicenseLength,      // License length
            NULL);                      // Not used
   if(FAILED(hr)) goto e_Exit;
 
@@ -250,17 +246,17 @@ HRESULT EncryptContent(
   }
   hr = DRMGetOwnerLicense( 
           hIssuanceLic, 
-          &amp;uiOwnerLicenseLength, 
+          &uiOwnerLicenseLength, 
           pwszOwnerLicense);
   if(FAILED(hr)) goto e_Exit;
   wprintf(L"DRMGetOwnerLicense (pwszOwnerLicense) succeeded.\r\n");
 
   // Bind the owner license to the OWNER right.
-  SecureZeroMemory(&amp;idContent, sizeof(idContent));
+  SecureZeroMemory(&idContent, sizeof(idContent));
   idContent.wszIDType        = L"MS-GUID"; 
   idContent.wszID            = pwszGUID;
 
-  SecureZeroMemory(&amp;oParams, sizeof(oParams));
+  SecureZeroMemory(&oParams, sizeof(oParams));
   oParams.hEnablingPrincipal = hEP; 
   oParams.wszRightsRequested = L"OWNER";
   oParams.wszRightsGroup     = L"Main-Rights"; 
@@ -268,9 +264,9 @@ HRESULT EncryptContent(
 
   hr = DRMCreateBoundLicense ( 
           hEnv,                     // Secure environment handle 
-          &amp;oParams,                 // Additional license options 
+          &oParams,                 // Additional license options 
           pwszOwnerLicense,         // Owner license 
-          &amp;hBoundLicense,           // Handle to the bound license 
+          &hBoundLicense,           // Handle to the bound license 
           NULL );                   // Reserved
   if(FAILED(hr)) goto e_Exit;
   wprintf(L"DRMCreateBoundLicense: (hBoundLicense) succeeded.\r\n");
@@ -281,7 +277,7 @@ HRESULT EncryptContent(
           oParams.wszRightsRequested, // Requested right
           NULL,                       // Reserved
           NULL,                       // Reserved
-          &amp;hEBEncryptor);             // Encrypting object handle
+          &hEBEncryptor);             // Encrypting object handle
   if(FAILED(hr)) goto e_Exit;
   wprintf(L"DRMCreateEnablingBitsEncryptor succeeded.\r\n");
 
@@ -291,9 +287,9 @@ HRESULT EncryptContent(
   hr = DRMGetInfo(
           hEBEncryptor,               // Encrypting object handle
           g_wszQUERY_BLOCKSIZE,       // Attribute to query for
-          &amp;eType,                     // Type of encoding to apply
-          &amp;uiBytes,                   // Size of uiBlock variable
-          (BYTE*)&amp;uiBlock);           // Size of memory block
+          &eType,                     // Type of encoding to apply
+          &uiBytes,                   // Size of uiBlock variable
+          (BYTE*)&uiBlock);           // Size of memory block
   if(FAILED(hr)) goto e_Exit;
   wprintf(L"DRMGetInfo: uiBlock = %u\r\n", uiBlock);
 
@@ -319,14 +315,14 @@ HRESULT EncryptContent(
           uiPlainText);
 
   // Encrypt the plain text.
-  for ( int j = 0; (UINT)j * uiBlock &lt; uiBuffer; j++ )
+  for ( int j = 0; (UINT)j * uiBlock < uiBuffer; j++ )
   {
     hr = DRMEncrypt( 
           hEBEncryptor,               // Encrypting object handle
           j * uiBlock,                // Position in buffer
           uiBlock,                    // Number of bytes to encrypt
           pbPlainText + (j*uiBlock),  // Bytes to encrypt
-          &amp;uiEncrypted,               // Number of bytes encrypted
+          &uiEncrypted,               // Number of bytes encrypted
           NULL);                      // NULL on first call
     if(FAILED(hr)) goto e_Exit;
 
@@ -335,7 +331,7 @@ HRESULT EncryptContent(
           j * uiBlock,                // Position in buffer 
           uiBlock,                    // Number of bytes to encrypt
           pbPlainText + (j*uiBlock),  // Bytes to encrypt
-          &amp;uiEncrypted,               // Number of bytes encrypted
+          &uiEncrypted,               // Number of bytes encrypted
           *ppbEncrypted + uiOffset);  // Encrypted content
     if(FAILED(hr)) goto e_Exit;
 
@@ -361,29 +357,29 @@ HRESULT EncryptContent(
 
   // Write the encrypted content and relevant data to the file.
   if(!WriteFile(hFile, 
-                &amp;uiBuffer, 
+                &uiBuffer, 
                 sizeof(UINT), 
-                &amp;dwBytesWritten, 
+                &dwBytesWritten, 
                 NULL))
     goto e_Exit;
   size_t uiIssuanceLicenseLgth = (UINT)(sizeof(WCHAR) * 
                                  wcslen(pwszSignedIL));
   if(!WriteFile(hFile, 
-                &amp;uiIssuanceLicenseLgth, 
+                &uiIssuanceLicenseLgth, 
                 sizeof(size_t), 
-                &amp;dwBytesWritten, 
+                &dwBytesWritten, 
                 NULL))
     goto e_Exit;
   if(!WriteFile(hFile, 
                 *ppbEncrypted, 
                 uiBuffer, 
-                &amp;dwBytesWritten, 
+                &dwBytesWritten, 
                 NULL))
     goto e_Exit;
   if(!WriteFile(hFile, 
                 pwszSignedIL, 
                 uiIssuanceLicenseLgth, 
-                &amp;dwBytesWritten, 
+                &dwBytesWritten, 
                 NULL))
     goto e_Exit;
   wprintf(L"Writing to file succeeded.\r\n");
@@ -418,19 +414,15 @@ e_Exit:
   wprintf(L"Leaving EncryptContent: hr = %x \r\n", hr);
   return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following code sample shows how to use the AES algorithm with the cipher-block chaining (CBC) cipher mode to encrypt content. This functionality is available only in Windows 7.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 /*===================================================================
 Functions:      PerformCbcEncryption and PerformCbcDecryption
 
@@ -497,9 +489,9 @@ inline HRESULT GetBoundLicense(__in DRMENVHANDLE hEnv,
         hEnv,                       // Environment handle
         NULL,                       // No library specified
         SZ_ENABLING_PRINCIPAL_TYPE, // Enabling principal type
-        &amp;idNULL,                    // DRMID structure
+        &idNULL,                    // DRMID structure
         pwszRac,                    // Current user certificate / RAC
-        &amp;hEnablingPrincipal);       // Enabling principal handle
+        &hEnablingPrincipal);       // Enabling principal handle
     if (FAILED(hr))
     {
         goto e_Exit;
@@ -509,9 +501,9 @@ inline HRESULT GetBoundLicense(__in DRMENVHANDLE hEnv,
     // content ID and content ID type
     hr = DRMGetMetaData(
           hIssuanceLicense,        // Handle to the license
-          &amp;uiContentId,            // Content Id Length
+          &uiContentId,            // Content Id Length
           NULL,                    // Content Id
-          &amp;uiContentIdType,        // Content Id Type Length
+          &uiContentIdType,        // Content Id Type Length
           NULL,                    // Content Id Type
           NULL,                    // SKU ID Length
           NULL,                    // SKU ID
@@ -543,9 +535,9 @@ inline HRESULT GetBoundLicense(__in DRMENVHANDLE hEnv,
     // Obtain the content ID and content ID type
     hr = DRMGetMetaData(
           hIssuanceLicense,        // Handle to the license
-          &amp;uiContentId,            // Content Id Length
+          &uiContentId,            // Content Id Length
           pwszContentId,           // Content Id
-          &amp;uiContentIdType,        // Content Id Type Length
+          &uiContentIdType,        // Content Id Type Length
           pwszContentIdType,       // Content Id Type
           NULL,                    // SKU ID Length
           NULL,                    // SKU ID
@@ -574,7 +566,7 @@ inline HRESULT GetBoundLicense(__in DRMENVHANDLE hEnv,
 
     hr = DRMCreateBoundLicense(
         hEnv,                      // Environment handle
-        &amp;bParams,                  // Additional license options
+        &bParams,                  // Additional license options
         pwszUseLicense,            // Use license
         phBoundLicense,            // Bound license handle
         NULL);                     // Reserved
@@ -678,9 +670,9 @@ HRESULT PerformCbcEncryption(__in BYTE* pbDataToEncrypt,
         0,                            // No length specified
         SZ_CBC_KEY_TYPE,              // CBC encryption key type
         pwszCLC,                      // Client licensor certificate
-        &amp;StatusCallback,              // Callback function
+        &StatusCallback,              // Callback function
         NULL,                         // No licensing URL specified
-        (void*)&amp;context);             // Callback context parameter
+        (void*)&context);             // Callback context parameter
     if (FAILED(hr))
     {
         goto e_Exit;
@@ -703,7 +695,7 @@ HRESULT PerformCbcEncryption(__in BYTE* pbDataToEncrypt,
     // Obtain the length of the owner license
     hr = DRMGetOwnerLicense(
         hIssuanceLicense,             // Issuance license handle
-        &amp;uiOwnerLicenseLength,        // Length of owner license
+        &uiOwnerLicenseLength,        // Length of owner license
         NULL);                        // Query for license length
     if (FAILED(hr))
     {
@@ -719,7 +711,7 @@ HRESULT PerformCbcEncryption(__in BYTE* pbDataToEncrypt,
 
     hr = DRMGetOwnerLicense(
         hIssuanceLicense,             // Issuance license handle
-        &amp;uiOwnerLicenseLength,        // Length of owner license
+        &uiOwnerLicenseLength,        // Length of owner license
         pwszOwnerLicense);            // Owner use license
     if (FAILED(hr))
     {
@@ -733,7 +725,7 @@ HRESULT PerformCbcEncryption(__in BYTE* pbDataToEncrypt,
                          pwszOwnerLicense,
                          pwszRightsRequested,
                          hIssuanceLicense,
-                         &amp;hBoundLicense);
+                         &hBoundLicense);
     if (FAILED(hr))
     {
         goto e_Exit;
@@ -744,7 +736,7 @@ HRESULT PerformCbcEncryption(__in BYTE* pbDataToEncrypt,
         pwszRightsRequested,          // Requested rights
         NULL,                         // Reserved
         NULL,                         // Reserved
-        &amp;hEBEncryptor);               // Encryptor handle
+        &hEBEncryptor);               // Encryptor handle
     if (FAILED(hr))
     {
         goto e_Exit;
@@ -755,9 +747,9 @@ HRESULT PerformCbcEncryption(__in BYTE* pbDataToEncrypt,
     hr = DRMGetInfo(
         hEBEncryptor,                 // Encryptor handle
         g_wszQUERY_BLOCKSIZE,         // Queried attribute
-        &amp;encodingType,                // Type of encoding to apply
-        &amp;uiBlockSizeInfo,             // Size of uiBlockSize variable
-        (BYTE*)&amp;uiBlockSize);         // Block size to use
+        &encodingType,                // Type of encoding to apply
+        &uiBlockSizeInfo,             // Size of uiBlockSize variable
+        (BYTE*)&uiBlockSize);         // Block size to use
     if (FAILED(hr))
     {
         goto e_Exit;
@@ -788,7 +780,7 @@ HRESULT PerformCbcEncryption(__in BYTE* pbDataToEncrypt,
     // you may want to reduce the number of calls by passing in
     // a quantity of data that is some larger multiple of 4096 bytes.
     for (int i = 0;
-         ((UINT)i * uiBlockSize) &lt; *puiEncryptedDataLength;
+         ((UINT)i * uiBlockSize) < *puiEncryptedDataLength;
          i++)
     {
         UINT uiNumBytesEncrypted = 0;
@@ -804,7 +796,7 @@ HRESULT PerformCbcEncryption(__in BYTE* pbDataToEncrypt,
             // Starting location of bytes to encrypt
             (pbDataToEncrypt + uiBufferPosition),
             // Number of bytes encrypted
-            &amp;uiNumBytesEncrypted,
+            &uiNumBytesEncrypted,
             // Starting location for encrypted content
             (*ppbEncryptedData + uiOffset));
         if (FAILED(hr))
@@ -904,7 +896,7 @@ HRESULT PerformCbcDecryption(__in BYTE* pbEncryptedData,
                          pwszUseLicense,
                          pwszRightsRequested,
                          hIssuanceLicense,
-                         &amp;hBoundLicense);
+                         &hBoundLicense);
     if (FAILED(hr))
     {
         goto e_Exit;
@@ -915,7 +907,7 @@ HRESULT PerformCbcDecryption(__in BYTE* pbEncryptedData,
         pwszRightsRequested,          // Requested rights
         NULL,                         // Reserved
         NULL,                         // Reserved
-        &amp;hEBDecryptor);               // Decryptor handle
+        &hEBDecryptor);               // Decryptor handle
     if (FAILED(hr))
     {
         goto e_Exit;
@@ -927,8 +919,8 @@ HRESULT PerformCbcDecryption(__in BYTE* pbEncryptedData,
     hr = DRMGetInfo(
         hEBDecryptor,                 // Decryptor handle
         g_wszQUERY_SYMMETRICKEYTYPE,  // Queried attribute
-        &amp;encodingType,                // Type of encoding to apply
-        &amp;uiKeyTypeLength,             // Size of key type variable
+        &encodingType,                // Type of encoding to apply
+        &uiKeyTypeLength,             // Size of key type variable
         NULL);                        // Query for length
     if (FAILED(hr))
     {
@@ -945,8 +937,8 @@ HRESULT PerformCbcDecryption(__in BYTE* pbEncryptedData,
     hr = DRMGetInfo(
         hEBDecryptor,                 // Decryptor handle
         g_wszQUERY_SYMMETRICKEYTYPE,  // Queried attribute
-        &amp;encodingType,                // Type of encoding to apply
-        &amp;uiKeyTypeLength,             // Size of key type variable
+        &encodingType,                // Type of encoding to apply
+        &uiKeyTypeLength,             // Size of key type variable
         (BYTE*)pwszKeyType);          // Key type used
     if (FAILED(hr))
     {
@@ -966,9 +958,9 @@ HRESULT PerformCbcDecryption(__in BYTE* pbEncryptedData,
     hr = DRMGetInfo(
         hEBDecryptor,                 // Decryptor handle
         g_wszQUERY_BLOCKSIZE,         // Queried attribute
-        &amp;encodingType,                // Type of encoding to apply
-        &amp;uiBlockSizeInfo,             // Size of uiBlockSize variable
-        (BYTE*)&amp;uiBlockSize);         // Block size to use
+        &encodingType,                // Type of encoding to apply
+        &uiBlockSizeInfo,             // Size of uiBlockSize variable
+        (BYTE*)&uiBlockSize);         // Block size to use
     if (FAILED(hr))
     {
         goto e_Exit;
@@ -986,7 +978,7 @@ HRESULT PerformCbcDecryption(__in BYTE* pbEncryptedData,
     // you may want to reduce the number of calls by passing in
     // a quantity of data that is some larger multiple of 4096 bytes.
     for (int i = 0;
-         ((UINT)i * uiBlockSize) &lt; uiEncryptedDataLength;
+         ((UINT)i * uiBlockSize) < uiEncryptedDataLength;
          i++)
     {
         UINT uiNumBytesDecrypted = 0;
@@ -1002,7 +994,7 @@ HRESULT PerformCbcDecryption(__in BYTE* pbEncryptedData,
             // Starting location of bytes to decrypt
             (pbEncryptedData + uiBufferPosition),
             // Number of bytes decrypted
-            &amp;uiNumBytesDecrypted,
+            &uiNumBytesDecrypted,
             // Starting location for decrypted content
             (*ppbDecryptedData + uiOffset));
         if (FAILED(hr))
@@ -1029,10 +1021,10 @@ e_Exit:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -222,86 +222,66 @@ The following are some examples of how to use the <b>SetupDiGetClassDevs</b> fun
 
 <b>Example 1: </b>Build a list of all devices in the system, including devices that are not currently present.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Handle = SetupDiGetClassDevs(NULL, NULL, NULL, DIGCF_ALLCLASSES);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+Handle = SetupDiGetClassDevs(NULL, NULL, NULL, DIGCF_ALLCLASSES);
+```
+
+
 <b>Example 2: </b> Build a list of all devices that are present in the system.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Handle = SetupDiGetClassDevs(NULL, NULL, NULL, DIGCF_ALLCLASSES | DIGCF_PRESENT);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+Handle = SetupDiGetClassDevs(NULL, NULL, NULL, DIGCF_ALLCLASSES | DIGCF_PRESENT);
+```
+
+
 <b>Example 3: </b> Build a list of all devices that are present in the system that are from the network adapter <a href="https://msdn.microsoft.com/5ae7efab-616c-4db3-bad2-2d489ed3cdca">device setup class</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Handle = SetupDiGetClassDevs(&amp;GUID_DEVCLASS_NET, NULL, NULL, DIGCF_PRESENT);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+Handle = SetupDiGetClassDevs(&GUID_DEVCLASS_NET, NULL, NULL, DIGCF_PRESENT);
+```
+
+
 <b>Example 4: </b> Build a list of all devices that are present in the system that have enabled an interface from the storage volume <a href="https://msdn.microsoft.com/9abc48f9-babf-407f-9046-c1e45cbbdc64">device interface class</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Handle = SetupDiGetClassDevs(&amp;GUID_DEVINTERFACE_VOLUME, NULL, NULL, DIGCF_PRESENT | DIGCF_DEVICEINTERFACE);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+Handle = SetupDiGetClassDevs(&GUID_DEVINTERFACE_VOLUME, NULL, NULL, DIGCF_PRESENT | DIGCF_DEVICEINTERFACE);
+```
+
+
 <b>Example 5: </b> Build a list of all devices that are present in the system but do not belong to any known <a href="https://msdn.microsoft.com/5ae7efab-616c-4db3-bad2-2d489ed3cdca">device setup class</a> (Windows Vista and later versions of Windows).
 
 <div class="alert"><b>Note</b>  You cannot set the <i>ClassGuid</i> parameter to GUID_DEVCLASS_UNKNOWN to detect devices with an unknown setup class. Instead, you must follow this example.</div>
 <div> </div>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DeviceInfoSet = SetupDiGetClassDevs(
+
+```
+DeviceInfoSet = SetupDiGetClassDevs(
                                     NULL,
                                     NULL,
                                     NULL,
                                     DIGCF_ALLCLASSES | DIGCF_PRESENT);
 
-ZeroMemory(&amp;DeviceInfoData, sizeof(SP_DEVINFO_DATA));
+ZeroMemory(&DeviceInfoData, sizeof(SP_DEVINFO_DATA));
 DeviceInfoData.cbSize = sizeof(SP_DEVINFO_DATA);
 DeviceIndex = 0;
     
 while (SetupDiEnumDeviceInfo(
                              DeviceInfoSet,
                              DeviceIndex,
-                             &amp;DeviceInfoData)) {
+                             &DeviceInfoData)) {
     DeviceIndex++;
 
     if (!SetupDiGetDeviceProperty(
                                   DeviceInfoSet,
-                                  &amp;DeviceInfoData,
-                                  &amp;DEVPKEY_Device_Class,
-                                  &amp;PropType,
-                                  (PBYTE)&amp;DevGuid,
+                                  &DeviceInfoData,
+                                  &DEVPKEY_Device_Class,
+                                  &PropType,
+                                  (PBYTE)&DevGuid,
                                   sizeof(GUID),
-                                  &amp;Size,
+                                  &Size,
                                   0) || PropType != DEVPROP_TYPE_GUID) {
 
         Error = GetLastError();
@@ -316,10 +296,10 @@ while (SetupDiEnumDeviceInfo(
 
 if (DeviceInfoSet) {
     SetupDiDestroyDeviceInfoList(DeviceInfoSet);
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
+
 
 
 

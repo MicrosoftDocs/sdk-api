@@ -141,15 +141,11 @@ If the client uses the CRYPTPROTECTMEMORY_SAME_LOGON flag, the server must imper
 
 The following example calls  the <b>CryptProtectMemory</b> function to encrypt data that is in memory.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Wincrypt.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Wincrypt.h>
 
 #define SSN_STR_LEN 12  // includes null
 
@@ -194,10 +190,10 @@ void main()
     pSensitiveText = NULL;
 
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -95,18 +95,14 @@ A <a href="https://msdn.microsoft.com/6747D082-4B7B-4C7E-A230-2E8C8412FABD">drag
 
 The following example shows how to configure a viewport for horizontal panning.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = pViewport&gt;ActivateConfiguration(
+
+```
+HRESULT hr = pViewport>ActivateConfiguration(
     DIRECTMANIPULATION_CONFIGURATION_INTERACTION | 
-    DIRECTMANIPULATION_CONFIGURATION_TRANSLATION_X);</pre>
-</td>
-</tr>
-</table></span></div>
+    DIRECTMANIPULATION_CONFIGURATION_TRANSLATION_X);
+```
+
+
 
 
 

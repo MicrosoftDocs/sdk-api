@@ -238,13 +238,9 @@ For better performance on Windows BranchCache-enabled file transfers, it is reco
 
 The following example shows how to call the <b>AddFileWithRanges</b> method to specify the ranges of a file to download. The example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> variable, <i>pJob</i>, is valid.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    IBackgroundCopyJob *pJob;
+
+```cpp
+    IBackgroundCopyJob *pJob;
     IBackgroundCopyJob3 *pJob3 = NULL;
     DWORD dwRangeCount = 3;                  //Number of elements in Ranges.
     BG_FILE_RANGE Ranges[] = {24, 17,        //Array of ranges to download (offset and length).
@@ -254,13 +250,13 @@ The following example shows how to call the <b>AddFileWithRanges</b> method to s
 
     //Need to query the IBackgroundCopyJob interface for an IBackgroundCopyJob3
     //interface pointer. The IBackgroundCopyJob3 interface contains the AddFileWithRanges method.
-    hr = pJob-&gt;QueryInterface(__uuidof( IBackgroundCopyJob3 ), (void**)&amp;pJob3;);
+    hr = pJob->QueryInterface(__uuidof( IBackgroundCopyJob3 ), (void**)&pJob3;);
     if (S_OK == hr)
     {
-         pJob-&gt;Release(); //No longer need the IBackgoundCopyJob interface pointer.
+         pJob->Release(); //No longer need the IBackgoundCopyJob interface pointer.
 
          //Add a file to the job and specify the ranges from the file to download.
-         hr = pJob3-&gt;AddFileWithRanges(L"&lt;REMOTENAMEGOESHERE&gt;", L"&lt;LOCALNAMEGOESHERE&gt;",
+         hr = pJob3->AddFileWithRanges(L"<REMOTENAMEGOESHERE>", L"<LOCALNAMEGOESHERE>",
                                        dwRangeCount, Ranges);
          if (FAILED(hr))
          {
@@ -271,16 +267,16 @@ The following example shows how to call the <b>AddFileWithRanges</b> method to s
               //Returns BG_E_OVERLAPPING_RANGES if you specify overlapping or duplicate ranges.
          }
 
-          pJob3-&gt;Release(); //Release the interface if you are done with it.
+          pJob3->Release(); //Release the interface if you are done with it.
      }
     else
     {
          //Handle error. QueryInterface will return E_NOINTERFACE if the version of BITS
          //running on the computer is less than BITS 2.0.
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
+
 
 
 

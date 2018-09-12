@@ -103,54 +103,46 @@ The following example creates an
 						<b>Image</b> object by calling its <b>Image::RemovePropertyItem</b> method. The code calls <a href="https://msdn.microsoft.com/en-us/library/ms535391(v=VS.85).aspx">Image::GetPropertyItemSize</a> twice (once before and once after removing the item) to determine the size of the PropertyTagEquipMake property item. The code does not remove the property item from the image file; it removes the property item only from the 
 						<b>Image</b> object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;gdiplus.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <gdiplus.h>
+#include <stdio.h>
 using namespace Gdiplus;
 
 INT main()
 {
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    Image* image = new Image(L"FakePhoto3.jpg");
    UINT size = 0;
 
-   size = image-&gt;GetPropertyItemSize(PropertyTagEquipMake);
+   size = image->GetPropertyItemSize(PropertyTagEquipMake);
    printf("The size of the PropertyTagEquipMake item is %u.\n", size);
 
-   image-&gt;RemovePropertyItem(PropertyTagEquipMake);   
+   image->RemovePropertyItem(PropertyTagEquipMake);   
 
-   size = image-&gt;GetPropertyItemSize(PropertyTagEquipMake);
+   size = image->GetPropertyItemSize(PropertyTagEquipMake);
    printf("The size of the PropertyTagEquipMake item is %u.\n", size);
 
    delete image;
    GdiplusShutdown(gdiplusToken);
    return 0;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The preceding code, along with a particular file, FakePhoto3.jpg, produced the following output:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>The size of the PropertyTagEquipMake item is 33.
-The size of the PropertyTagEquipMake item is 0.</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+The size of the PropertyTagEquipMake item is 33.
+The size of the PropertyTagEquipMake item is 0.
+```
+
+
 
 
 

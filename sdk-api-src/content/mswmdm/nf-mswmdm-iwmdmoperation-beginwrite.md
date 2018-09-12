@@ -125,13 +125,9 @@ This method is called just before the Windows Media Device Manager calls <a href
 
 The following C++ code example implements the <b>BeginWrite</b> method and outputs a message when a write-to-device action is beginning.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT BeginWrite()
 {
     // TODO: Display the message: "IWMDMOperation event--BeginWrite."
@@ -145,10 +141,10 @@ HRESULT BeginWrite()
     m_OperationStatus = OPERATION_WRITE;
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

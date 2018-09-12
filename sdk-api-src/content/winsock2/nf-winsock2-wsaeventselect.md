@@ -410,44 +410,32 @@ Issuing a
 <b>WSAEventSelect</b> for the same socket and clears the internal network event record. For example, to associate an event object with both reading and writing network events, the application must call 
 <b>WSAEventSelect</b> with both FD_READ and FD_WRITE, as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>rc = WSAEventSelect(s, hEventObject, FD_READ|FD_WRITE);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+rc = WSAEventSelect(s, hEventObject, FD_READ|FD_WRITE);
+
+```
+
+
 It is not possible to specify different event objects for different network events. The following code will not work; the second call will cancel the effects of the first, and only the FD_WRITE network event will be associated with <i>hEventObject2</i>:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>rc = WSAEventSelect(s, hEventObject1, FD_READ);
+
+```cpp
+rc = WSAEventSelect(s, hEventObject1, FD_READ);
 rc = WSAEventSelect(s, hEventObject2, FD_WRITE); //bad
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 To cancel the association and selection of network events on a socket, <i>lNetworkEvents</i> should be set to zero, in which case the <i>hEventObject</i> parameter will be ignored.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>rc = WSAEventSelect(s, hEventObject, 0);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+rc = WSAEventSelect(s, hEventObject, 0);
+
+```
+
+
 Closing a socket with 
 <a href="https://msdn.microsoft.com/2f357aa8-389b-4c92-8a9f-289e048cc41c">closesocket</a> also cancels the association and selection of network events specified in 
 <b>WSAEventSelect</b> for the socket. The application, however, still must call 
@@ -462,13 +450,9 @@ The socket created when the
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>WSAEventSelect</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//-------------------------
+
+```cpp
+//-------------------------
 // Declare and initialize variables
 SOCKET ListenSocket;
 WSAEVENT NewEvent;
@@ -484,7 +468,7 @@ InetAddr.sin_family = AF_INET;
 InetAddr.sin_addr.s_addr = htonl(INADDR_ANY);
 InetAddr.sin_port = htons(27015);
 
-bind (ListenSocket, (SOCKADDR *) &amp;InetAddr, sizeof(InetAddr));
+bind (ListenSocket, (SOCKADDR *) &InetAddr, sizeof(InetAddr));
 
 //-------------------------
 // Create new event
@@ -506,10 +490,10 @@ printf("Listening on socket...\n");
 // Need an event handler added to handle connection requests
 
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

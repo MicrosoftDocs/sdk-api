@@ -101,13 +101,9 @@ The rasterization limit has an effect on metafiles of type <a href="https://msdn
 
 The following example constructs a <a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a> object based on the device context of a printer. The code creates a texture brush based on an a BMP file and then records an ellipse filled with that brush. Assume that the printer has a resolution of 600 dpi and the <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object has a resolution of 96 dpi.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Get a device context for a printer.
 HDC hdcPrint = CreateDC(NULL, TEXT("\\\\printserver\\printer1"), NULL, NULL); 
 
@@ -116,7 +112,7 @@ Metafile metafile(L"Metafile.emf", hdcPrint, EmfTypeEmfOnly);
 {     
    // Create a texture brush based on a 96-DPI bitmap. 
    Bitmap bitmap(L"Texture.bmp");
-   TextureBrush textureBrush(&amp;bitmap);
+   TextureBrush textureBrush(&bitmap);
 
    // Set the rasterization limit of the metafile to match the DPI of the
    // printer DC, in this case 600. When the bitmap for the texture brush
@@ -126,17 +122,17 @@ Metafile metafile(L"Metafile.emf", hdcPrint, EmfTypeEmfOnly);
    metafile.SetDownLevelRasterizationLimit(0);
 
    // Record an ellipse filled with the texture brush.
-   Graphics graphics(&amp;metafile);  
-   graphics.FillEllipse(&amp;textureBrush, 10, 10, 40, 40);
+   Graphics graphics(&metafile);  
+   graphics.FillEllipse(&textureBrush, 10, 10, 40, 40);
 }
 
 // The preceding code, along with a particular 24 x 23 bitmap,
 // produced a 114 kilobyte metafile. Passing 96, instead of 0, to the 
 // SetDownLevelRasterizationLimit method produced a 3.5 kilobyte metafile.
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
