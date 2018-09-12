@@ -2,7 +2,7 @@
 UID: NA:mfapi
 ms.assetid: cceae2b5-e007-389d-a4b9-5e1e17db5d55
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

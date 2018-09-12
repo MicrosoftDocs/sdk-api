@@ -2,7 +2,7 @@
 UID: NA:dot1x
 ms.assetid: 2a7bf8b9-273f-3795-823b-4358785e0159
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

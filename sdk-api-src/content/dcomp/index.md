@@ -2,7 +2,7 @@
 UID: NA:dcomp
 ms.assetid: 7383f88b-1f0a-3ddd-ba1c-009a557ffaab
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

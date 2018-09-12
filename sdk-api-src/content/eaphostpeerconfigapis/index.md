@@ -2,7 +2,7 @@
 UID: NA:eaphostpeerconfigapis
 ms.assetid: d177ebd2-7173-3e74-8d43-b47cfe05334f
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

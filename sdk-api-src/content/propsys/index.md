@@ -2,7 +2,7 @@
 UID: NA:propsys
 ms.assetid: 165088b4-d689-36a0-a379-9c0eac613e05
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

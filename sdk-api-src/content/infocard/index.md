@@ -2,7 +2,7 @@
 UID: NA:infocard
 ms.assetid: 933dc371-9601-3039-96ec-c8e90dce88c8
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:mfmediacapture
 ms.assetid: 81a9bf93-21b8-3207-a1de-80a3f1eaeb66
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

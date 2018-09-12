@@ -2,7 +2,7 @@
 UID: NA:wsddisco
 ms.assetid: 063566b8-f09e-3d4f-9c03-1ebc54395faa
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

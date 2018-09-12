@@ -2,7 +2,7 @@
 UID: NA:evcode
 ms.assetid: 170e0915-c822-3ea9-9b2f-3e4b6ef4078d
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

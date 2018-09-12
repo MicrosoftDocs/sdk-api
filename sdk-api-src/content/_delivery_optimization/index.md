@@ -2,7 +2,7 @@
 UID: TP:delivery_optimization
 ms.assetid: b7d48541-7824-3223-b8f5-5b2639663019
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
