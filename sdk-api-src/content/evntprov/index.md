@@ -2,7 +2,7 @@
 UID: NA:evntprov
 ms.assetid: c5b8418f-4606-34af-bf66-6b8a29ff997b
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

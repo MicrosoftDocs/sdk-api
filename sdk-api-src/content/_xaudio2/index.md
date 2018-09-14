@@ -2,7 +2,7 @@
 UID: TP:xaudio2
 ms.assetid: f4dc61e6-fea4-3675-94bd-c29e3ea2b7f0
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

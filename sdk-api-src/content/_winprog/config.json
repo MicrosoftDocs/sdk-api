@@ -1,7 +1,6 @@
 {
   "tech": "winprog",
   "headers": [
-    "tbd",
     "wtypes.h",
     "winbase.h",
     "winnt.h",

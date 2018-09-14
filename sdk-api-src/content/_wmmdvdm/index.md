@@ -2,7 +2,7 @@
 UID: TP:wmmdvdm
 ms.assetid: 2918b17d-1d88-3802-aeee-9f212bd56dfe
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

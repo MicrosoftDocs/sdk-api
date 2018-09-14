@@ -1,7 +1,6 @@
 {
   "tech": "mbn",
   "headers": [
-    "tbd",
     "mbnapi.h"
   ],
   "displayName": "Mobile Broadband"

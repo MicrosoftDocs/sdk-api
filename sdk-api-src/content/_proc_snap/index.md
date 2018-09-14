@@ -2,7 +2,7 @@
 UID: TP:proc_snap
 ms.assetid: eb3dbed3-9253-33ab-be65-61f1e4ae4cec
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

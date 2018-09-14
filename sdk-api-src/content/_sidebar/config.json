@@ -6,8 +6,6 @@
     "corecrt_io.h",
     "shobjidl_core.h",
     "windowssideshowapi.h",
-    "windows.system.h",
-    "windows.system.power.h",
     "utilapiset.h",
     "wbemcli.h"
   ],

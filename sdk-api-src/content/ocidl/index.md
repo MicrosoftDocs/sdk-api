@@ -2,7 +2,7 @@
 UID: NA:ocidl
 ms.assetid: a4e5be73-3360-3a31-83be-d6edb64d9b17
 ms.author: windowssdkdev
-ms.date: 09/12/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
