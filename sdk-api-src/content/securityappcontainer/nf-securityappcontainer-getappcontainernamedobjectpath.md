@@ -107,17 +107,13 @@ For assistive technology tools that work across Windows Store apps and desktop a
 
 The following sample established a named object so that it is accessible from a Windows Store app.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#pragma comment(lib, "advapi32.lib")
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;aclapi.h&gt;
-#include &lt;tchar.h&gt;
+
+```cpp
+#pragma comment(lib, "advapi32.lib")
+#include <windows.h>
+#include <stdio.h>
+#include <aclapi.h>
+#include <tchar.h>
 
 int main(void)
 {
@@ -138,7 +134,7 @@ BOOL GetLogonSid (HANDLE hToken, PSID *ppsid)
             TokenLogonSid,    // get information about the token's groups 
             (LPVOID) ptg,   // pointer to TOKEN_GROUPS buffer
             0,              // size of buffer
-            &amp;dwLength       // receives required buffer size
+            &dwLength       // receives required buffer size
         )) 
     {
         if (GetLastError() != ERROR_INSUFFICIENT_BUFFER) 
@@ -158,20 +154,20 @@ BOOL GetLogonSid (HANDLE hToken, PSID *ppsid)
             TokenLogonSid,    // get information about the token's groups 
             (LPVOID) ptg,   // pointer to TOKEN_GROUPS buffer
             dwLength,       // size of buffer
-            &amp;dwLength       // receives required buffer size
-            ) || ptg-&gt;GroupCount != 1) 
+            &dwLength       // receives required buffer size
+            ) || ptg->GroupCount != 1) 
     {
         goto Cleanup;
     }
 
     // Found the logon SID; make a copy of it.
 
-    dwLength = GetLengthSid(ptg-&gt;Groups[0].Sid);
+    dwLength = GetLengthSid(ptg->Groups[0].Sid);
     *ppsid = (PSID) HeapAlloc(GetProcessHeap(),
                 HEAP_ZERO_MEMORY, dwLength);
     if (*ppsid == NULL)
         goto Cleanup;
-    if (!CopySid(dwLength, *ppsid, ptg-&gt;Groups[0].Sid)) 
+    if (!CopySid(dwLength, *ppsid, ptg->Groups[0].Sid)) 
     {
         HeapFree(GetProcessHeap(), 0, (LPVOID)*ppsid);
         goto Cleanup;
@@ -201,12 +197,12 @@ CreateObjectSecurityDescriptor(PSID pLogonSid, PSECURITY_DESCRIPTOR* ppSD)
     SID_IDENTIFIER_AUTHORITY ApplicationAuthority = SECURITY_APP_PACKAGE_AUTHORITY;
 
     // Create a well-known SID for the all appcontainers group.
-    if(!AllocateAndInitializeSid(&amp;ApplicationAuthority, 
+    if(!AllocateAndInitializeSid(&ApplicationAuthority, 
             SECURITY_BUILTIN_APP_PACKAGE_RID_COUNT,
             SECURITY_APP_PACKAGE_BASE_RID,
             SECURITY_BUILTIN_PACKAGE_ANY_PACKAGE,
             0, 0, 0, 0, 0, 0,
-            &amp;pAllAppsSID))
+            &pAllAppsSID))
     {
         wprintf(L"AllocateAndInitializeSid Error %u\n", GetLastError());
         goto Cleanup;
@@ -214,7 +210,7 @@ CreateObjectSecurityDescriptor(PSID pLogonSid, PSECURITY_DESCRIPTOR* ppSD)
 
     // Initialize an EXPLICIT_ACCESS structure for an ACE.
     // The ACE will allow LogonSid generic all access
-    ZeroMemory(&amp;ea, 2 * sizeof(EXPLICIT_ACCESS));
+    ZeroMemory(&ea, 2 * sizeof(EXPLICIT_ACCESS));
     ea[0].grfAccessPermissions = STANDARD_RIGHTS_ALL | MUTEX_ALL_ACCESS;
     ea[0].grfAccessMode = SET_ACCESS;
     ea[0].grfInheritance= NO_INHERITANCE;
@@ -232,7 +228,7 @@ CreateObjectSecurityDescriptor(PSID pLogonSid, PSECURITY_DESCRIPTOR* ppSD)
     ea[1].Trustee.ptstrName  = (LPTSTR) pAllAppsSID;
 
     // Create a new ACL that contains the new ACEs.
-    dwRes = SetEntriesInAcl(2, ea, NULL, &amp;pACL);
+    dwRes = SetEntriesInAcl(2, ea, NULL, &pACL);
     if (ERROR_SUCCESS != dwRes) 
     {
         wprintf(L"SetEntriesInAcl Error %u\n", GetLastError());
@@ -291,23 +287,23 @@ Cleanup:
 
 �
     //Allowing LogonSid and all appcontainers. 
-    if (GetLogonSid(hToken, &amp;pLogonSid) &amp;&amp; CreateObjectSecurityDescriptor(pLogonSid, &amp;pSd) )
+    if (GetLogonSid(hToken, &pLogonSid) && CreateObjectSecurityDescriptor(pLogonSid, &pSd) )
     {
         SecurityAttributes.nLength = sizeof(SECURITY_ATTRIBUTES);
         SecurityAttributes.bInheritHandle = TRUE;
         SecurityAttributes.lpSecurityDescriptor = pSd;
 
         hMutex = CreateMutex( 
-                    &amp;SecurityAttributes,         // default security descriptor
+                    &SecurityAttributes,         // default security descriptor
                     FALSE,                       // mutex not owned
                     TEXT("NameOfMutexObject"));  // object name
     }
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

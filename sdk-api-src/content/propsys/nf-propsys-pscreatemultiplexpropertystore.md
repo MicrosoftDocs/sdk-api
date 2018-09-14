@@ -120,13 +120,9 @@ The multiplex property store implementation of <a href="https://msdn.microsoft.c
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776490(v=VS.85).aspx">PSCreateMultiplexPropertyStore</a> in an implementation of <a href="https://msdn.microsoft.com/library/Bb761447(v=VS.85).aspx">IPropertyStoreFactory::GetPropertyStore</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// CMyFactory is a reference counted COM object that implements 
+
+```cpp
+// CMyFactory is a reference counted COM object that implements 
 // both IPropertyStoreFactory.
 
 // CMyFactory is assumed to be fully implemented, but for the sake of brevity, 
@@ -144,7 +140,7 @@ HRESULT CMyFactory::GetPropertyStore(__in GETPROPERTYSTOREFLAGS flags,
     HRESULT hr;
  
     // This application creates only read-only stores.
-    if (flags &amp; GPS_READWRITE)
+    if (flags & GPS_READWRITE)
     {
         hr = STG_E_ACCESSDENIED;
     }
@@ -156,13 +152,13 @@ HRESULT CMyFactory::GetPropertyStore(__in GETPROPERTYSTOREFLAGS flags,
         // CMyFactory multiplexes two property stores.
         IPropertyStore *ppsFirst;
         
-        hr = _CreateFirstStore(IID_PPV_ARGS(&amp;ppsFirst));
+        hr = _CreateFirstStore(IID_PPV_ARGS(&ppsFirst));
         
         if (SUCCEEDED(hr))
         {
             IPropertyStore *ppsSecond;
             
-            hr = _CreateSecondStore(IID_PPV_ARGS(&amp;ppsSecond));
+            hr = _CreateSecondStore(IID_PPV_ARGS(&ppsSecond));
             
             if (SUCCEEDED(hr))
             {
@@ -170,16 +166,16 @@ HRESULT CMyFactory::GetPropertyStore(__in GETPROPERTYSTOREFLAGS flags,
             
                 hr = PSCreateMultiplexPropertyStore(rgStores, ARRAYSIZE(rgStores), riid, ppv);
             
-                ppsSecond-&gt;Release();
+                ppsSecond->Release();
             }
-            ppsFirst-&gt;Release();
+            ppsFirst->Release();
         }
     }
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

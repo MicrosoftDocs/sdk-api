@@ -132,42 +132,38 @@ Use the <b>IDispatch::GetIDsOfNames</b> method to retrieve the DISPID for the <i
 
 The following example queues an <a href="https://msdn.microsoft.com/en-us/library/Dd390178(v=VS.85).aspx">IMediaControl::Stop</a> command for 3.0 seconds.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IQueueCommand *pQ = 0;
 IMediaControl *pControl = 0;
 
 // Query for IQueueCommand.
-pGraph-&gt;QueryInterface(IID_IQueueCommand, reinterpret_cast&lt;void**&gt;(&amp;pQ));
+pGraph->QueryInterface(IID_IQueueCommand, reinterpret_cast<void**>(&pQ));
 
 // Query for IMediaControl.
-pGraph-&gt;QueryInterface(IID_IMediaControl, reinterpret_cast&lt;void**&gt;(&amp;pControl));
+pGraph->QueryInterface(IID_IMediaControl, reinterpret_cast<void**>(&pControl));
 
 // Find the DISPID of the IMediaControl::Stop method.
 OLECHAR *szMethod = OLESTR("Stop");
 
 long dispid;
-hr = pControl-&gt;GetIDsOfNames(IID_NULL, &amp;szMethod, 1, 0, &amp;dispid);
+hr = pControl->GetIDsOfNames(IID_NULL, &szMethod, 1, 0, &dispid);
 
 // Invoke the command.
 IDeferredCommand *pCmd = 0;
-hr = pQ-&gt;InvokeAtPresentationTime(&amp;pCmd, 3.0,
-    const_cast&lt;GUID*&gt;(&amp;IID_IMediaControl), dispid, DISPATCH_METHOD, 
+hr = pQ->InvokeAtPresentationTime(&pCmd, 3.0,
+    const_cast<GUID*>(&IID_IMediaControl), dispid, DISPATCH_METHOD, 
     0, 0, 0, 0);
 if (SUCCEEDED(hr))
 {
-    pControl-&gt;Run();
-    pCmd-&gt;Release();
+    pControl->Run();
+    pCmd->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -100,16 +100,12 @@ The method succeeded.
 
 A SAMI file can contain text for one or many languages. The languages available for closed captioning are defined between the &lt;STYLE&gt; and &lt;/STYLE&gt; tags in the SAMI file. A language identifier is specified with a unique alphanumeric string that is preceded by a period (.). The name specified for a language can be any string. For example, the following could be used to define US English:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>.ENUSCC {Name:'English Captions' lang: en-US; SAMIType:CC;}</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+.ENUSCC {Name:'English Captions' lang: en-US; SAMIType:CC;}
+```
+
+
 If no SAMI language is specified, the first language defined in the SAMI file is used by default.
 
 The value you specify using <b>put_SAMILang</b> must match the <b>Name</b> attribute in the language specifier.

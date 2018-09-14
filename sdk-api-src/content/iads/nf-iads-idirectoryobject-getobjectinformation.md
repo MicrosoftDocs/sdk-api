@@ -86,16 +86,12 @@ Automation clients must call  <a href="https://msdn.microsoft.com/73ceaeb1-9a6b-
 
 The following C++ code example shows how to retrieve the object data (<a href="https://msdn.microsoft.com/f072b2f8-8c03-4f90-8edf-cf5fed97a222">ADS_OBJECT_INFO</a>) using the <b>GetObjectInformation</b> method of an object (m_pDirObject) that implements the  <a href="https://msdn.microsoft.com/bc4f8920-2881-4393-bb01-ed837c3db6ad">IDirectoryObject</a> interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ADS_OBJECT_INFO *pInfo;
+
+```cpp
+ADS_OBJECT_INFO *pInfo;
 HRESULT hr;
  
-hr = m_pDirObject-&gt;GetObjectInformation(&amp;pInfo);
+hr = m_pDirObject->GetObjectInformation(&pInfo);
 if (!SUCCEEDED(hr) )
 {
    return;
@@ -105,19 +101,19 @@ if (!SUCCEEDED(hr) )
 // Show the attributes 
 /////////////////////////
  
-printf("RDN: %S\n", pInfo-&gt;pszRDN);
-printf("ObjectDN: %S\n", pInfo-&gt;pszObjectDN);
-printf("Parent DN: %S\n", pInfo-&gt;pszParentDN);
-printf("Class Name: %S\n", pInfo-&gt;pszClassName);
-printf("Schema DN: %S\n", pInfo-&gt;pszSchemaDN);
+printf("RDN: %S\n", pInfo->pszRDN);
+printf("ObjectDN: %S\n", pInfo->pszObjectDN);
+printf("Parent DN: %S\n", pInfo->pszParentDN);
+printf("Class Name: %S\n", pInfo->pszClassName);
+printf("Schema DN: %S\n", pInfo->pszSchemaDN);
  
 ///////////////////////////////////////////////////////////
 // Remember to clean up the memory using FreeADsMem.
 //////////////////////////////////////////////////////////
-FreeADsMem( pInfo );</pre>
-</td>
-</tr>
-</table></span></div>
+FreeADsMem( pInfo );
+```
+
+
 
 
 

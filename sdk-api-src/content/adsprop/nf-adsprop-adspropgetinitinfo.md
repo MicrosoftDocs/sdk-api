@@ -90,13 +90,9 @@ For multiple-selection property sheets, the system only binds to the first objec
 
 The following code example shows how to use the <b>ADsPropGetInitInfo</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT GetADsPageInfo(HWND hwndNotifyObject, ADSPROPINITPARAMS *pip)
+
+```cpp
+HRESULT GetADsPageInfo(HWND hwndNotifyObject, ADSPROPINITPARAMS *pip)
 {
     if((NULL == pip) || (!IsWindow(hwndNotifyObject)))
     {
@@ -106,7 +102,7 @@ The following code example shows how to use the <b>ADsPropGetInitInfo</b> functi
     ADSPROPINITPARAMS   InitParams;
     
     InitParams.dwSize = sizeof(ADSPROPINITPARAMS);
-    if(ADsPropGetInitInfo(hwndNotifyObject, &amp;InitParams))
+    if(ADsPropGetInitInfo(hwndNotifyObject, &InitParams))
     {
         *pip = InitParams;
     
@@ -115,10 +111,10 @@ The following code example shows how to use the <b>ADsPropGetInitInfo</b> functi
     
     return E_FAIL;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

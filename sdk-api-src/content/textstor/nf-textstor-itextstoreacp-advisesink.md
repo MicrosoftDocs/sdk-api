@@ -153,13 +153,9 @@ CMyTextEditor
 
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask)
 {
         HRESULT         hr;
@@ -176,7 +172,7 @@ STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask
         // pointer is the same as a pointer to an existing sink. 
         // If the sink exists, update the existing sink with the  
         // dwMask parameters passed to this method.      
-        hr = QueryInterface(IID_IUnknown, (LPVOID*)&amp;punkID);
+        hr = QueryInterface(IID_IUnknown, (LPVOID*)&punkID);
 
         if(FAILED(hr))
         {
@@ -201,22 +197,22 @@ STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask
 
         if(IsEqualIID(riid, IID_ITextStoreACPSink))
         {
-                punk-&gt;QueryInterface(IID_ITextStoreACPSink,
-                         (LPVOID*)&amp;m_AdviseSink.pTextStoreACPSink);
+                punk->QueryInterface(IID_ITextStoreACPSink,
+                         (LPVOID*)&m_AdviseSink.pTextStoreACPSink);
                 m_AdviseSink.punkID = punkID;
                 m_AdviseSink.dwMask = dwMask;
-                punkID-&gt;AddRef();
-                punkID-&gt;Release();
+                punkID->AddRef();
+                punkID->Release();
 
                 hr = S_OK;
         }
         return hr;
         
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

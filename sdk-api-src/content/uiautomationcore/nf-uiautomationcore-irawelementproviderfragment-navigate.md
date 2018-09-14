@@ -112,13 +112,9 @@ The following example shows an implementation for a list item provider. The memb
             previous sibling, and next sibling providers were initialized when the list was created.
 			
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT STDMETHODCALLTYPE ListItemProvider::Navigate(NavigateDirection direction, IRawElementProviderFragment ** pRetVal)
+
+```cpp
+HRESULT STDMETHODCALLTYPE ListItemProvider::Navigate(NavigateDirection direction, IRawElementProviderFragment ** pRetVal)
 {
     if (pRetVal == NULL) 
     {
@@ -143,13 +139,13 @@ The following example shows an implementation for a list item provider. The memb
     *pRetVal = pFrag;
     if (pFrag != NULL) 
     {
-        pFrag-&gt;AddRef();
+        pFrag->AddRef();
     }
     return S_OK;
-}              </pre>
-</td>
-</tr>
-</table></span></div>
+}              
+```
+
+
 
 
 

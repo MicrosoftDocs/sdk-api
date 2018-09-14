@@ -182,13 +182,9 @@ Direct3D 10.1 has added support for the following features:
 <h3><a id="Example"></a><a id="example"></a><a id="EXAMPLE"></a>Example</h3>
 The following code snippet copies a box (located at (120,100),(200,220)) from a source texture into a reqion (130,120),(210,240) in a destination texture.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 D3D10_BOX sourceRegion;
 sourceRegion.left = 120;
 sourceRegion.right = 200;
@@ -197,11 +193,11 @@ sourceRegion.bottom = 220;
 sourceRegion.front = 0;
 sourceRegion.back = 1;
 
-pd3dDevice-&gt;CopySubresourceRegion( pDestTexture, 0, 130, 120, 0, pSourceTexture, 0, &amp;sourceRegion );
-</pre>
-</td>
-</tr>
-</table></span></div>
+pd3dDevice->CopySubresourceRegion( pDestTexture, 0, 130, 120, 0, pSourceTexture, 0, &sourceRegion );
+
+```
+
+
 Notice that, for a 2D texture, front and back are always set to 0 and 1 respectively.
 
 

@@ -314,13 +314,9 @@ When a remote user opens a folder or a subfolder on a public share point on the 
 
 The following code example shows how to obtain the collection of resource objects from a file service operations object.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim fso as IADsFileServiceOperations
+
+```vb
+Dim fso as IADsFileServiceOperations
 Dim rs as IADsCollection
 On Error GoTo Cleanup
 
@@ -328,14 +324,14 @@ Set fso = GetObject("WinNT://myHost/LanmanServer")
 Set rs = fso.Resources
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
     Set rso = Nothing
     Set rs = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

@@ -213,17 +213,13 @@ If the file is a stand-alone type library implemented by Typelib.dll, the librar
 <li>
 If the file is a DLL or an executable file, it is loaded. By default, the type library is extracted from the first resource of type <a href="https://msdn.microsoft.com/c1e5d71f-6a4e-45f3-811d-f57024f81a55">ITypeLib</a>. To load a different type of library resource, append an integer index to <i>szFile</i>. For example: 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ITypeLib *ptlib;
-LoadTypeLib("C:\\MONTANA\\EXE\\MFA.EXE\\3", &amp;ptlib)</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+ITypeLib *ptlib;
+LoadTypeLib("C:\\MONTANA\\EXE\\MFA.EXE\\3", &ptlib)
+```
+
+
 This statement loads the type library resource 3 from the file Mfa.exe file. 
 
 </li>

@@ -271,43 +271,39 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 The following code fragment describes how to use the <i>Va</i> value when the status is BindImageComplete.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>case BindImageComplete:
+
+```cpp
+case BindImageComplete:
     if (fVerbose) {
         fprintf(stderr, "BIND: Details of binding %s\n", ImageName );
         NewImports = (PIMAGE_BOUND_IMPORT_DESCRIPTOR)Va;
         NewImport = NewImports;
-        while (NewImport-&gt;OffsetModuleName) {
+        while (NewImport->OffsetModuleName) {
             fprintf( stderr, "    Import from %s [%x]",
-                     (LPSTR)NewImports + NewImport-&gt;OffsetModuleName,
-                     NewImport-&gt;TimeDateStamp
+                     (LPSTR)NewImports + NewImport->OffsetModuleName,
+                     NewImport->TimeDateStamp
                    );
-            if (NewImport-&gt;NumberOfModuleForwarderRefs != 0) {
-                fprintf( stderr, " with %u forwarders", NewImport-&gt; 
+            if (NewImport->NumberOfModuleForwarderRefs != 0) {
+                fprintf( stderr, " with %u forwarders", NewImport-> 
                          NumberOfModuleForwarderRefs );
             }
             fprintf( stderr, "\n" );
             NewForwarder = (PIMAGE_BOUND_FORWARDER_REF)(NewImport+1);
-            for (i=0; i&lt;NewImport-&gt;NumberOfModuleForwarderRefs; i++) 
+            for (i=0; i<NewImport->NumberOfModuleForwarderRefs; i++) 
             {
                 fprintf( stderr, "        Forward to %s [%x]\n",
-                   (LPSTR)NewImports + NewForwarder-&gt;OffsetModuleName,
-                   NewForwarder-&gt;TimeDateStamp);
+                   (LPSTR)NewImports + NewForwarder->OffsetModuleName,
+                   NewForwarder->TimeDateStamp);
                 NewForwarder += 1;
             }
             NewImport = (PIMAGE_BOUND_IMPORT_DESCRIPTOR)NewForwarder;
         }
     }
     break;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

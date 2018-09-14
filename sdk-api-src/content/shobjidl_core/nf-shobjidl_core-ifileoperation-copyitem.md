@@ -113,13 +113,9 @@ This method does not copy the item, it merely declares the item to be copied. To
 
 The following example code shows a sample implementation of this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CopyItem(__in PCWSTR pszSrcItem, __in PCWSTR pszDest, PCWSTR pszNewName)
+
+```cpp
+HRESULT CopyItem(__in PCWSTR pszSrcItem, __in PCWSTR pszDest, PCWSTR pszNewName)
 {
     //
     // Initialize COM as STA.
@@ -135,7 +131,7 @@ The following example code shows a sample implementation of this method.
         hr = CoCreateInstance(CLSID_FileOperation, 
                               NULL, 
                               CLSCTX_ALL, 
-                              IID_PPV_ARGS(&amp;pfo));
+                              IID_PPV_ARGS(&pfo));
         if (SUCCEEDED(hr))
         {
             //
@@ -143,7 +139,7 @@ The following example code shows a sample implementation of this method.
             // user during the operation. This includes error, confirmation,
             // and progress dialogs.
             //
-            hr = pfo-&gt;SetOperationFlags(FOF_NO_UI);
+            hr = pfo->SetOperationFlags(FOF_NO_UI);
             if (SUCCEEDED(hr))
             {
                 //
@@ -152,7 +148,7 @@ The following example code shows a sample implementation of this method.
                 IShellItem *psiFrom = NULL;
                 hr = SHCreateItemFromParsingName(pszSrcItem, 
                                                  NULL, 
-                                                 IID_PPV_ARGS(&amp;psiFrom));
+                                                 IID_PPV_ARGS(&psiFrom));
                 if (SUCCEEDED(hr))
                 {
                     IShellItem *psiTo = NULL;
@@ -165,7 +161,7 @@ The following example code shows a sample implementation of this method.
                         //
                         hr = SHCreateItemFromParsingName(pszDest, 
                                                          NULL, 
-                                                         IID_PPV_ARGS(&amp;psiTo));
+                                                         IID_PPV_ARGS(&psiTo));
                     }
                     
                     if (SUCCEEDED(hr))
@@ -173,15 +169,15 @@ The following example code shows a sample implementation of this method.
                         //
                         // Add the operation
                         //
-                        hr = pfo-&gt;CopyItem(psiFrom, psiTo, pszNewName, NULL);
+                        hr = pfo->CopyItem(psiFrom, psiTo, pszNewName, NULL);
 
                         if (NULL != psiTo)
                         {
-                            psiTo-&gt;Release();
+                            psiTo->Release();
                         }
                     }
                     
-                    psiFrom-&gt;Release();
+                    psiFrom->Release();
                 }
                 
                 if (SUCCEEDED(hr))
@@ -189,23 +185,23 @@ The following example code shows a sample implementation of this method.
                     //
                     // Perform the operation to copy the file.
                     //
-                    hr = pfo-&gt;PerformOperations();
+                    hr = pfo->PerformOperations();
                 }        
             }
             
             //
             // Release the IFileOperation interface.
             //
-            pfo-&gt;Release();
+            pfo->Release();
         }
   
         CoUninitialize();
     }
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -86,22 +86,18 @@ A small performance hit from re-copying content occurs when <a href="https://msd
 
 The following example shows how to use <a href="https://msdn.microsoft.com/en-us/library/Dd742782(v=VS.85).aspx">CreateLayer</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd742856(v=VS.85).aspx">PushLayer</a>, and <a href="https://msdn.microsoft.com/6ab05160-4f42-477f-a5bf-f16863b0635c">PopLayer</a>. All fields in the  <a href="https://msdn.microsoft.com/en-us/library/Dd368127(v=VS.85).aspx">D2D1_LAYER_PARAMETERS</a> structure set to  defaults, except <b>opacityBrush</b>, which is set to an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Create a layer.
+
+```cpp
+// Create a layer.
 ID2D1Layer *pLayer = NULL;
-hr = pRT-&gt;CreateLayer(NULL, &amp;pLayer);
+hr = pRT->CreateLayer(NULL, &pLayer);
 
 if (SUCCEEDED(hr))
 {
-    pRT-&gt;SetTransform(D2D1::Matrix3x2F::Translation(300, 250));
+    pRT->SetTransform(D2D1::Matrix3x2F::Translation(300, 250));
 
     // Push the layer with the content bounds.
-    pRT-&gt;PushLayer(
+    pRT->PushLayer(
         D2D1::LayerParameters(
             D2D1::InfiniteRect(),
             NULL,
@@ -113,28 +109,28 @@ if (SUCCEEDED(hr))
         pLayer
         );
 
-    pRT-&gt;DrawBitmap(m_pBambooBitmap, D2D1::RectF(0, 0, 190, 127));
+    pRT->DrawBitmap(m_pBambooBitmap, D2D1::RectF(0, 0, 190, 127));
 
-    pRT-&gt;FillRectangle(
+    pRT->FillRectangle(
         D2D1::RectF(25.f, 25.f, 50.f, 50.f), 
         m_pSolidColorBrush
         );
-    pRT-&gt;FillRectangle(
+    pRT->FillRectangle(
         D2D1::RectF(50.f, 50.f, 75.f, 75.f),
         m_pSolidColorBrush
         ); 
-    pRT-&gt;FillRectangle(
+    pRT->FillRectangle(
         D2D1::RectF(75.f, 75.f, 100.f, 100.f),
         m_pSolidColorBrush
         );    
  
-    pRT-&gt;PopLayer();
+    pRT->PopLayer();
 }
-SafeRelease(&amp;pLayer);
-</pre>
-</td>
-</tr>
-</table></span></div>
+SafeRelease(&pLayer);
+
+```
+
+
 For additional examples, see the <a href="https://msdn.microsoft.com/en-us/library/Dd756654(v=VS.85).aspx">Layers Overview</a>.
 
 <div class="code"></div>

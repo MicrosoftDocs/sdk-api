@@ -65,20 +65,16 @@ Contains information about an <a href="https://msdn.microsoft.com/fd7ee250-6f76-
 
  The NMHDR structure that contains standard information about the WM_NOTIFY message. The NMHDR structure contains the handle and identifier of the control that is sending the message and the notification code, which in this case is <a href="https://msdn.microsoft.com/26023012-9ab1-4bd9-beff-41587bc74f5e">IECN_RECOGNITIONRESULT</a>. The format of the NMHDR structure is:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct tagNMHDR {
+
+```cpp
+typedef struct tagNMHDR {
       HWND hwndFrom;
       UINT idFrom;
       UINT code;
-  } NMHDR;</pre>
-</td>
-</tr>
-</table></span></div>
+  } NMHDR;
+```
+
+
 
 ### -field RecognitionResult
 

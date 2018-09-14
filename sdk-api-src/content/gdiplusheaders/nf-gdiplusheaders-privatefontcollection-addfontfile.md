@@ -96,13 +96,9 @@ The operating system requires elevated privileges to assure that all installed f
 
 The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> object and adds three font files to the collection. The code then gets the font families that are in the collection and, for each family in the collection, creates a font which is used to draw text.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_AddFontFile(HDC hdc)
+
+```cpp
+VOID Example_AddFontFile(HDC hdc)
 {
    Graphics              graphics(hdc);
    SolidBrush            solidBrush(Color(255, 0, 0, 0));
@@ -125,9 +121,9 @@ The following example creates a <a href="https://msdn.microsoft.com/en-us/librar
    pFontFamily = (FontFamily*)malloc(count * sizeof(FontFamily));
 
    // Get the array of FontFamily objects.
-   privateFontCollection.GetFamilies(count, pFontFamily, &amp;found);
+   privateFontCollection.GetFamilies(count, pFontFamily, &found);
 
-   for(INT j = 0; j &lt; found; ++j)
+   for(INT j = 0; j < found; ++j)
    {
       // Get the font family name.
       pFontFamily[j].GetFamilyName(familyName);
@@ -135,7 +131,7 @@ The following example creates a <a href="https://msdn.microsoft.com/en-us/librar
       // Pass the family name and the address of the private collection to a
       // Font constructor.
       Font* pFont = new Font(familyName, 16, FontStyleRegular,
-                             UnitPixel, &amp;privateFontCollection);
+                             UnitPixel, &privateFontCollection);
 
       // Use the font to draw a string.
       graphics.DrawString(
@@ -143,16 +139,16 @@ The following example creates a <a href="https://msdn.microsoft.com/en-us/librar
                           5,          // string length 
                           pFont, 
                           PointF(10.0f, (REAL)j*25), 
-                          &amp;solidBrush);
+                          &solidBrush);
 
       delete(pFont);
    }
 
    free(pFontFamily);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

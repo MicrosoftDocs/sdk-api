@@ -100,13 +100,9 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object and uses it to fill an ellipse. Then the code calls the <b>PathGradientBrush::GetCenterColor</b> method of the 
 						<b>PathGradientBrush</b>object to obtain the center color.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetCenterColor(HDC hdc)
+
+```cpp
+VOID Example_GetCenterColor(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -115,7 +111,7 @@ The following example creates a
    path.AddEllipse(0, 0, 200, 100);
 
    // Use the path to construct a brush.
-   PathGradientBrush pthGrBrush(&amp;path);
+   PathGradientBrush pthGrBrush(&path);
 
    // Set the color at the center of the path to blue.
    pthGrBrush.SetCenterColor(Color(255, 0, 0, 255));
@@ -123,22 +119,22 @@ The following example creates a
    // Set the color along the entire boundary of the path to aqua.
    Color colors[] = {Color(255, 0, 255, 255)};
    int count = 1;
-   pthGrBrush.SetSurroundColors(colors, &amp;count);
+   pthGrBrush.SetSurroundColors(colors, &count);
 
    // Fill the ellipse with the path gradient brush.
-   graphics.FillEllipse(&amp;pthGrBrush, 0, 0, 200, 100);
+   graphics.FillEllipse(&pthGrBrush, 0, 0, 200, 100);
 
    // Obtain information about the path gradient brush.
    Color color;
-   pthGrBrush.GetCenterColor(&amp;color);
+   pthGrBrush.GetCenterColor(&color);
 
    // Fill a rectangle with the retrieved color.
    SolidBrush solidBrush(color);
-   graphics.FillRectangle(&amp;solidBrush, 0, 120, 200, 30);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillRectangle(&solidBrush, 0, 120, 200, 30);
+}
+```
+
+
 
 
 

@@ -110,33 +110,25 @@ The string pointed to by <b>pszServerName</b> must be separately allocated by yo
 
 Pointer to the default environment variables to include in the construction of the environment of the user. This member is a series of null-terminated strings using any of the following forms.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Variable=Value
+
+```cpp
+Variable=Value
 variable=%other variable% 
 variable=%othervariable%\additional text
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>logonServer=\\pdc
+
+```cpp
+logonServer=\\pdc
 homepath=%logonServer%\share
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 ## -remarks
 

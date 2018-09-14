@@ -93,32 +93,28 @@ There are, however, some queries that do not require calls to <a href="https://m
 
 A query is typically executed as shown in the following code:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 
 D3D11_QUERY_DESC queryDesc;
 ... // Fill out queryDesc structure
 ID3D11Query * pQuery;
-pDevice-&gt;CreateQuery(&amp;queryDesc, &amp;pQuery);
-pDeviceContext-&gt;Begin(pQuery);
+pDevice->CreateQuery(&queryDesc, &pQuery);
+pDeviceContext->Begin(pQuery);
 
 ... // Issue graphics commands
 
-pDeviceContext-&gt;End(pQuery);
+pDeviceContext->End(pQuery);
 UINT64 queryData; // This data type is different depending on the query type
 
-while( S_OK != pDeviceContext-&gt;GetData(pQuery, &amp;queryData, sizeof(UINT64), 0) )
+while( S_OK != pDeviceContext->GetData(pQuery, &queryData, sizeof(UINT64), 0) )
 {
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 When using a query that does not require a call to <a href="https://msdn.microsoft.com/en-us/library/Ff476386(v=VS.85).aspx">Begin</a>, it still requires a call to <a href="https://msdn.microsoft.com/en-us/library/Ff476422(v=VS.85).aspx">End</a>. The call to <b>End</b> causes the data returned by <a href="https://msdn.microsoft.com/en-us/library/Ff476428(v=VS.85).aspx">GetData</a> to be accurate up until the last call to <b>End</b>.
 
 

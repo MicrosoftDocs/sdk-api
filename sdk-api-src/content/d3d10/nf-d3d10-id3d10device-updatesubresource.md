@@ -157,13 +157,9 @@ The following illustration shows the resource as it is laid out in memory.
 
 For example, the following code snippet shows how to specify a destination region in a 2D texture. Assume the destination texture is 512x512 and the operation will copy the data pointed to by pData to  [(120,100)..(200,220)] in the destination texture. Also assume that rowPitch has been initialized with the proper value (as explained above). Front and back are set to 0 and 1 respectively, because by having front equal to back, the box is technically empty.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 D3D10_BOX destRegion;
 destRegion.left = 120;
 destRegion.right = 200;
@@ -172,20 +168,16 @@ destRegion.bottom = 220;
 destRegion.front = 0;
 destRegion.back = 1;
 
-pd3dDevice-&gt;UpdateSubresource( pDestTexture, 0, &amp;destRegion, pData, rowPitch, 0 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+pd3dDevice->UpdateSubresource( pDestTexture, 0, &destRegion, pData, rowPitch, 0 );
+
+```
+
+
 The 1D case is similar. The following snippet shows how to specify a destination region in a 1D texture. Use the same assumptions as above, except that the texture is 512 in length.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 D3D10_BOX destRegion;
 destRegion.left = 120;
 destRegion.right = 200;
@@ -194,11 +186,11 @@ destRegion.bottom = 1;
 destRegion.front = 0;
 destRegion.back = 1;
 
-pd3dDevice-&gt;UpdateSubresource( pDestTexture, 0, &amp;destRegion, pData, rowPitch, 0 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+pd3dDevice->UpdateSubresource( pDestTexture, 0, &destRegion, pData, rowPitch, 0 );
+
+```
+
+
 <table>
 <tr>
 <td>

@@ -101,32 +101,24 @@ The method succeeded.
 
 Format strings contain a mix of path literals and tokens. A format string looks like the following:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 $(MyPicturesFolder)\$(DateAcquired), $(EventName)\$(EventName) $(SequenceNumber).$(OriginalExtension)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The token format looks like the following, where <code>OptionalPrefix</code> and <code>OptionSuffix</code> are suppressed if the replacement for the <code>TokenIdentifier</code> yields a zero-length string:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 $([OptionalPrefix]TokenIdentifier:SubToken[OptionalSuffix]|AlternateString)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The caret ("^") is an escape character, so "^$" would yield "$" in the final path.
 
 Parentheses and brackets are not allowed as literals within tokens, but can be used outside of tokens. This means you cannot use "[", "]", "(", or ")" within the <code>OptionalString</code> sub-token unless they are escaped with a caret ("^").

@@ -120,42 +120,38 @@ The application that retrieves the hover icon is responsible for releasing the i
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-CComPtr &lt;IMathInputControl&gt; g_spMIC; // Math Input Control
+
+```cpp
+
+CComPtr <IMathInputControl> g_spMIC; // Math Input Control
 
 BOOL TestDlg::OnInitDialog(){
     
     HRESULT hr = CoInitialize(NULL);
     hr = g_spMIC.CoCreateInstance(CLSID_MathInputControl);
 
-    CComPtr&lt;IPictureDisp&gt; hoverImage;
-    CComPtr&lt;IPicture&gt; pictureHoverImage;  
+    CComPtr<IPictureDisp> hoverImage;
+    CComPtr<IPicture> pictureHoverImage;  
 
-    g_spMIC-&gt;GetHoverIcon(&amp;hoverImage); 
+    g_spMIC->GetHoverIcon(&hoverImage); 
 
-    hoverImage.QueryInterface(&amp;pictureHoverImage);
+    hoverImage.QueryInterface(&pictureHoverImage);
 
     short type;
-    pictureHoverImage-&gt;get_Type(&amp;type);
+    pictureHoverImage->get_Type(&type);
     
     if (type == PICTYPE_ICON){
         OLE_HANDLE oleHandle;
-        hr = pictureHoverImage-&gt;get_Handle(&amp;oleHandle);        
+        hr = pictureHoverImage->get_Handle(&oleHandle);        
 
-        this-&gt;SetIcon((HICON)oleHandle, true);
+        this->SetIcon((HICON)oleHandle, true);
     }    
     
     return TRUE;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

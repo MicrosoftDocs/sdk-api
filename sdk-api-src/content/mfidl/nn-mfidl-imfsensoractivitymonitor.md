@@ -103,15 +103,11 @@ Get an instance of this class by calling <a href="https://msdn.microsoft.com/852
 
 The following example shows a class declaration that implements  <a href="https://msdn.microsoft.com/477B008D-7F0A-4084-BDFD-DF19E2A82817">IMFSensorActivitiesReportCallback</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>class MyCameraNotificationCallback : public RuntimeClass&lt;RuntimeClassFlags&lt;ClassicCom&gt;,
+
+```cpp
+class MyCameraNotificationCallback : public RuntimeClass<RuntimeClassFlags<ClassicCom>,
     IMFSensorActivitiesReportCallback,
-    FtmBase&gt;
+    FtmBase>
 {
 public:
     MyCameraNotificationCallback() {};
@@ -135,44 +131,40 @@ private:
     HANDLE _hEvent;
     HRESULT _hrStatus;
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The next example shows the implementation of the <a href="https://msdn.microsoft.com/B4D2332C-757F-4A2A-A12B-81BB503B02A4">OnActivitiesReport</a> callback that updates a boolean class member to indicate whether the queried sensor device is currently in use and then sets an event to signal that the status has been obtained.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IFACEMETHODIMP MyCameraNotificationCallback::OnActivitiesReport(
+
+```cpp
+IFACEMETHODIMP MyCameraNotificationCallback::OnActivitiesReport(
     _In_ IMFSensorActivitiesReport* sensorActivitiesReport
 )
 {
     HRESULT hr = S_OK;
     ULONG cCount = 0;
     BOOL inUse = FALSE;
-    ComPtr&lt;IMFSensorActivityReport&gt; sensorActivity;
+    ComPtr<IMFSensorActivityReport> sensorActivity;
 
-    if (SUCCEEDED(sensorActivitiesReport-&gt;GetActivityReportByDeviceName(_symbolicName, &amp;sensorActivity)))
+    if (SUCCEEDED(sensorActivitiesReport->GetActivityReportByDeviceName(_symbolicName, &sensorActivity)))
     {
         ULONG cProcCount = 0;
 
-        hr = sensorActivity-&gt;GetProcessCount(&amp;cProcCount);
-        for (ULONG i = 0; i &lt; cProcCount &amp;&amp; SUCCEEDED(hr); i++)
+        hr = sensorActivity->GetProcessCount(&cProcCount);
+        for (ULONG i = 0; i < cProcCount && SUCCEEDED(hr); i++)
         {
             BOOL fStreaming = FALSE;
-            ComPtr&lt;IMFSensorProcessActivity&gt; processActivity;
+            ComPtr<IMFSensorProcessActivity> processActivity;
 
-            hr = sensorActivity-&gt;GetProcessActivity(i, &amp;processActivity);
+            hr = sensorActivity->GetProcessActivity(i, &processActivity);
             if (SUCCEEDED(hr))
             {
-                hr = processActivity-&gt;GetStreamingState(&amp;fStreaming);
+                hr = processActivity->GetStreamingState(&fStreaming);
             }
 
-            if (SUCCEEDED(hr) &amp;&amp; fStreaming)
+            if (SUCCEEDED(hr) && fStreaming)
             {
                 inUse = TRUE;
                 break;
@@ -187,19 +179,15 @@ The next example shows the implementation of the <a href="https://msdn.microsoft
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 This example shows a class method that waits for the event to be signaled by the <b>OnActivitiesReport</b> callback.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT MyCameraNotificationCallback::IsInUse(
+
+```cpp
+HRESULT MyCameraNotificationCallback::IsInUse(
     _Out_ BOOL* pfInUse
 )
 {
@@ -227,63 +215,59 @@ This example shows a class method that waits for the event to be signaled by the
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following example shows an implementation that calls <a href="https://msdn.microsoft.com/852395EE-AA84-4C61-A55F-E8D925FA1447">MFCreateSensorActivityMonitor</a> to create the activity monitor and then calls the <b>IsInUse</b> class method shown above to determine if the specified sensor is currently in use.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT IsCameraInUse(
+
+```cpp
+HRESULT IsCameraInUse(
     _In_z_ LPCWSTR symbolicName,
     _Out_ BOOL* pfInUse
 )
 {
     HRESULT hr = S_OK;
-    ComPtr&lt;MyCameraNotificationCallback&gt; cameraNotificationCallback;
-    ComPtr&lt;IMFSensorActivityMonitor&gt; activityMonitor;
-    ComPtr&lt;IMFShutdown&gt; spShutdown;
+    ComPtr<MyCameraNotificationCallback> cameraNotificationCallback;
+    ComPtr<IMFSensorActivityMonitor> activityMonitor;
+    ComPtr<IMFShutdown> spShutdown;
 
 
-    MakeAndInitialize&lt;MyCameraNotificationCallback&gt;(&amp;cameraNotificationCallback, symbolicName);
+    MakeAndInitialize<MyCameraNotificationCallback>(&cameraNotificationCallback, symbolicName);
 
     // Create the IMFSensorActivityMonitor, passing in the IMFSensorActivitiesReportCallback.
-    hr = MFCreateSensorActivityMonitor(cameraNotificationCallback.Get(), &amp;activityMonitor);
+    hr = MFCreateSensorActivityMonitor(cameraNotificationCallback.Get(), &activityMonitor);
     if (FAILED(hr))
     {
         return hr;
     }
 
     // Start the monitor
-    hr = activityMonitor-&gt;Start();
+    hr = activityMonitor->Start();
     if (FAILED(hr))
     {
         return hr;
     }
 
     // Call the method that checks to if the monitored device is in use.
-    cameraNotificationCallback-&gt;IsInUse(pfInUse);
+    cameraNotificationCallback->IsInUse(pfInUse);
 
     // Stop the activity monitor.
-    hr = activityMonitor-&gt;Stop();
+    hr = activityMonitor->Stop();
     if (FAILED(hr))
     {
         return hr;
     }
 
     // Shutdown the monitor.
-    hr = activityMonitor.As(&amp;spShutdown);
+    hr = activityMonitor.As(&spShutdown);
     if (FAILED(hr))
     {
         return hr;
     }
 
-    hr = spShutdown-&gt;Shutdown();
+    hr = spShutdown->Shutdown();
     if (FAILED(hr))
     {
         return hr;
@@ -291,9 +275,9 @@ The following example shows an implementation that calls <a href="https://msdn.m
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

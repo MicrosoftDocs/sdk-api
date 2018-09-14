@@ -125,14 +125,10 @@ To use the default DPI setting, both <i>dpiX</i> and <i>dpiY</i> must be set to 
 
 The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd372350(v=VS.85).aspx">D2D1::RenderTargetProperties</a> function to create a <b>D2D1_RENDER_TARGET_PROPERTIES</b> structure suitable for most render targets. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>RECT rc;
-GetClientRect(m_hwnd, &amp;rc);
+
+```cpp
+RECT rc;
+GetClientRect(m_hwnd, &rc);
 
 D2D1_SIZE_U size = D2D1::SizeU(
     rc.right - rc.left,
@@ -140,15 +136,15 @@ D2D1_SIZE_U size = D2D1::SizeU(
     );
 
 // Create a Direct2D render target.
-hr = m_pD2DFactory-&gt;CreateHwndRenderTarget(
+hr = m_pD2DFactory->CreateHwndRenderTarget(
     D2D1::RenderTargetProperties(),
     D2D1::HwndRenderTargetProperties(m_hwnd, size),
-    &amp;m_pRenderTarget
+    &m_pRenderTarget
     );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

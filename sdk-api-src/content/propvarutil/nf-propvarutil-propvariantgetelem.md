@@ -131,33 +131,29 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 The following code example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776521(v=VS.85).aspx">PropVariantGetElem</a> in an iteration statement to access the values in <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT propvar;
+
+```cpp
+// PROPVARIANT propvar;
 // Assume propvar is initialized and valid.
 
 UINT cElem = PropVariantGetElementCount(propvar);
-HRESULT hr = &lt;mark type="const"&gt;S_OK&lt;/mark&gt;;
+HRESULT hr = <mark type="const">S_OK</mark>;
 
-for (UINT iElem = 0; SUCCEEDED(hr) &amp;&amp; iElem &lt; cElem; iElem ++)
+for (UINT iElem = 0; SUCCEEDED(hr) && iElem < cElem; iElem ++)
 {
-   &lt;xref rid="_stg_propvariant"/&gt;propvarElem = {0};
+   <xref rid="_stg_propvariant"/>propvarElem = {0};
     
-    hr = PropVariantGetElem(propvar, iElem, &amp;propvarElem);
+    hr = PropVariantGetElem(propvar, iElem, &propvarElem);
 
     if (SUCCEEDED(hr))
     {
         // propvarElem is valid now.
-        PropVariantClear(&amp;propvarElem);
+        PropVariantClear(&propvarElem);
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

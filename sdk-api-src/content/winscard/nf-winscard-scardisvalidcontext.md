@@ -127,13 +127,9 @@ Call this function to determine whether a <a href="https://msdn.microsoft.com/3e
 
 The following example  shows determining whether a smart card context handle is valid.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Check the smart card context handle.
+
+```cpp
+// Check the smart card context handle.
 // hContext was set previously by SCardEstablishContext.
 
 LONG    lReturn;
@@ -155,10 +151,10 @@ else
     // Handle is valid; proceed as needed.
     // ...
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -97,75 +97,63 @@ When using the  <b>IADsContainer::Delete</b> method to delete an object in C/C++
 
 The following code example deletes a user object from the container in Active Directory.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim cont as IADsContainer
+
+```vb
+Dim cont as IADsContainer
 On Error GoTo Cleanup
 
 Set cont = GetObject("LDAP://OU=Sales,DC=Fabrikam,DC=com")
 cont.Delete "user", "CN=JeffSmith"
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
     Set cont = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following code example deletes a user object from the container under WinNT provider.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim cont as IADsContainer
+
+```vb
+Dim cont as IADsContainer
 On Error GoTo Cleanup
 
 Set cont = GetObject("WinNT://Fabrikam")
 cont.Delete "user", "jeffsmith"
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
-    Set cont = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+    Set cont = Nothing
+```
+
+
 The following code example deletes a user using  <b>IADsContainer::Delete</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = S_OK;
+
+```cpp
+HRESULT hr = S_OK;
 IADsContainer *pCont=NULL;
  
 CoInitialize(NULL);
  
 hr = ADsGetObject(L"WinNT://myMachine", 
                   IID_IADsContainer, 
-                  (void**) &amp;pCont);
+                  (void**) &pCont);
 if ( !SUCCEEDED(hr) )
 {
      return hr;
 }
  
-hr = pCont-&gt;Delete(CComBSTR("user"), CComBSTR("JeffSmith"));
-pCont-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+hr = pCont->Delete(CComBSTR("user"), CComBSTR("JeffSmith"));
+pCont->Release();
+```
+
+
 
 
 
