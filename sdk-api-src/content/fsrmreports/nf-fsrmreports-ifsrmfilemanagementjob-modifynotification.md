@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_modifynotification.htm
 tech.root: fsrm
 ms.assetid: f2b26ed7-5bbc-4b34-ae11-7fcdb621a55b
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],ModifyNotification method, IFsrmFileManagementJob.ModifyNotification, IFsrmFileManagementJob::ModifyNotification, ModifyNotification, ModifyNotification method [File Server Resource Manager], ModifyNotification method [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_modifynotification, fsrm.ifsrmfilemanagementjob_modifynotification, fsrmreports/IFsrmFileManagementJob::ModifyNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

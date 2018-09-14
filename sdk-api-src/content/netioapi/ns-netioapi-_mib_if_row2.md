@@ -4,10 +4,10 @@ title: "_MIB_IF_ROW2"
 author: windows-sdk-content
 description: Stores information about a particular interface.
 old-location: mib\mib_if_row2.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: e8bb79f9-e7e9-470b-8883-36d08061661b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMIB_IF_ROW2, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_FDDI, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_IEEE80216_WMAN, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IF_TYPE_WWANPP, IF_TYPE_WWANPP2, IfOperStatusDormant, IfOperStatusDown, IfOperStatusLowerLayerDown, IfOperStatusNotPresent, IfOperStatusTesting, IfOperStatusUnknown, IfOperStatusUp, MIB_IF_ROW2, MIB_IF_ROW2 structure [MIB], MediaConnectStateConnected, MediaConnectStateDisconnected, MediaConnectStateUnknown, NET_IF_ACCESS_BROADCAST, NET_IF_ACCESS_LOOPBACK, NET_IF_ACCESS_MAXIMUM, NET_IF_ACCESS_POINT_TO_MULTI_POINT, NET_IF_ACCESS_POINT_TO_POINT, NET_IF_ADMIN_STATUS_DOWN, NET_IF_ADMIN_STATUS_TESTING, NET_IF_ADMIN_STATUS_UP, NET_IF_CONNECTION_DEDICATED, NET_IF_CONNECTION_DEMAND, NET_IF_CONNECTION_MAXIMUM, NET_IF_CONNECTION_PASSIVE, NET_IF_DIRECTION_MAXIMUM, NET_IF_DIRECTION_RECEIVEONLY, NET_IF_DIRECTION_SENDONLY, NET_IF_DIRECTION_SENDRECEIVE, NdisMedium1394, NdisMedium802_3, NdisMedium802_5, NdisMediumArcnet878_2, NdisMediumArcnetRaw, NdisMediumAtm, NdisMediumBpc, NdisMediumCoWan, NdisMediumDix, NdisMediumFddi, NdisMediumInfiniBand, NdisMediumIrda, NdisMediumLocalTalk, NdisMediumLoopback, NdisMediumNative802_11, NdisMediumTunnel, NdisMediumWan, NdisMediumWiMax, NdisMediumWirelessWan, NdisPhysicalMedium1394, NdisPhysicalMedium802_3, NdisPhysicalMedium802_5, NdisPhysicalMediumBluetooth, NdisPhysicalMediumCableModem, NdisPhysicalMediumDSL, NdisPhysicalMediumFibreChannel, NdisPhysicalMediumInfiniband, NdisPhysicalMediumIrda, NdisPhysicalMediumNative802_11, NdisPhysicalMediumOther, NdisPhysicalMediumPhoneLine, NdisPhysicalMediumPowerLine, NdisPhysicalMediumUWB, NdisPhysicalMediumUnspecified, NdisPhysicalMediumWiMax, NdisPhysicalMediumWiredCoWan, NdisPhysicalMediumWiredWAN, NdisPhysicalMediumWirelessLan, NdisPhysicalMediumWirelessWan, PMIB_IF_ROW2, PMIB_IF_ROW2 structure pointer [MIB], TUNNEL_TYPE_6TO4, TUNNEL_TYPE_DIRECT, TUNNEL_TYPE_ISATAP, TUNNEL_TYPE_NONE, TUNNEL_TYPE_OTHER, TUNNEL_TYPE_TEREDO, _MIB_IF_ROW2, mib.mib_if_row2, netioapi/MIB_IF_ROW2, netioapi/PMIB_IF_ROW2"
 ms.prod: windows
 ms.technology: windows-sdk

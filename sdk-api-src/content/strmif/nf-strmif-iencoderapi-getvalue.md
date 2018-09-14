@@ -4,10 +4,10 @@ title: IEncoderAPI::GetValue
 author: windows-sdk-content
 description: The GetValue method retrieves the current value of a specified parameter.
 old-location: mstv\iencoderapi_getvalue.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 62f69677-05cd-46ab-8b77-96e10f8fbb1d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetValue, GetValue method [Microsoft TV Technologies], GetValue method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetValue method, IEncoderAPI.GetValue, IEncoderAPI::GetValue, IEncoderAPIGetValue, mstv.iencoderapi_getvalue, strmif/IEncoderAPI::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

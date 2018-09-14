@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_getmutedebugoutput.htm
 tech.root: direct3d11
 ms.assetid: 27f1b39f-b5c9-458e-a8cb-76090c240b8d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetMuteDebugOutput, GetMuteDebugOutput method [Direct3D 11], GetMuteDebugOutput method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetMuteDebugOutput method, ID3D11InfoQueue.GetMuteDebugOutput, ID3D11InfoQueue::GetMuteDebugOutput, d3d11sdklayers/ID3D11InfoQueue::GetMuteDebugOutput, direct3d11.id3d11infoqueue_getmutedebugoutput, eba4e6fc-5cb3-d294-8bbc-0d3b758aa27a
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Get a boolean that turns the debug output on or off.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Whether the debug output is on or off (true for on, false for off).
 
@@ -77,7 +77,7 @@ Whether the debug output is on or off (true for on, false for off).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476538(v=VS.85).aspx">ID3D11InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497fd931d7d2">ID3D11InfoQueue Interface</a>
  
 
  

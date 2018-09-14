@@ -7,7 +7,7 @@ old-location: setup\imsmmerge_connect.htm
 tech.root: msi
 ms.assetid: f491beb8-90f7-4e41-891d-ef674306339d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Connect, Connect method, Connect method,IMsmMerge interface, IMsmMerge interface,Connect method, IMsmMerge.Connect, IMsmMerge::Connect, _msi_connect_function, mergemod/IMsmMerge::Connect, setup.imsmmerge_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

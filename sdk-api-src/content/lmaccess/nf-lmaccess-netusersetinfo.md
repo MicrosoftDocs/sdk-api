@@ -7,7 +7,7 @@ old-location: netmgmt\netusersetinfo.htm
 tech.root: netmgmt
 ms.assetid: ffe49d4b-e7e8-4982-8087-59bb7534b257
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: 0, 1, 1003, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1014, 1017, 1020, 1024, 1051, 1052, 1053, 2, 21, 22, 3, 4, NetUserSetInfo, NetUserSetInfo function [Network Management], _win32_netusersetinfo, lmaccess/NetUserSetInfo, netmgmt.netusersetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -673,16 +673,20 @@ The following code sample demonstrates how to disable a user account with a call
 <a href="https://msdn.microsoft.com/142408ef-ed8e-4af3-8fc2-ffdd40ce4f1e">USER_INFO_1008</a> structure, specifying the value UF_ACCOUNTDISABLE. Then the sample calls 
 <b>NetUserSetInfo</b>, specifying information level 0.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -706,7 +710,7 @@ int wmain(int argc, wchar_t *argv[])
    nStatus = NetUserSetInfo(argv[1],
                             argv[2],
                             dwLevel,
-                            (LPBYTE)&ui,
+                            (LPBYTE)&amp;ui,
                             NULL);
    //
    // Display the result of the call.
@@ -718,10 +722,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderWindowlessSite.htm
 tech.root: WinAuto
 ms.assetid: E6BE069B-C639-4578-9E5F-8CFE1267A847
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/13/2018
 ms.keywords: IRawElementProviderWindowlessSite, IRawElementProviderWindowlessSite interface [Windows Accessibility], IRawElementProviderWindowlessSite interface [Windows Accessibility],described, uiautomationcore/IRawElementProviderWindowlessSite, winauto.uiauto_IRawElementProviderWindowlessSite
 ms.prod: windows
 ms.technology: windows-sdk

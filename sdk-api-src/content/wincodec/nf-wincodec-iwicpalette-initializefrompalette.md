@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpalette_initializefrompalette.htm
 tech.root: wic
 ms.assetid: c1e27b1a-5103-4111-8356-f35d53a07f4b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeFromPalette method, IWICPalette.InitializeFromPalette, IWICPalette::InitializeFromPalette, InitializeFromPalette, InitializeFromPalette method [Windows Imaging Component], InitializeFromPalette method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializefrompalette, wic._wic_codec_iwicpalette_initializefrompalette, wincodec/IWICPalette::InitializeFromPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxflipvideoport.htm
 tech.root: display
 ms.assetid: d6047c90-1163-475a-a55b-95ccb0570e3e
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/13/2018
 ms.keywords: DxFlipVideoPort, DxFlipVideoPort callback function [Display Devices], PDX_FLIPVIDEOPORT, PDX_FLIPVIDEOPORT callback, VideoMiniPort_DxApiFunctions_ae9b2d92-5f47-4897-af4e-d8f7cb0f8b39.xml, display.dxflipvideoport, dxmini/DxFlipVideoPort
 ms.prod: windows
 ms.technology: windows-sdk

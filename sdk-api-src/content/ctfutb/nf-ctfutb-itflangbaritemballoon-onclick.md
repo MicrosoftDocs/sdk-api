@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemballoon_onclick.htm
 tech.root: TSF
 ms.assetid: 52592a39-8b79-4e9c-9d8b-1100c9f36eca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITfLangBarItemBalloon interface [Text Services Framework],OnClick method, ITfLangBarItemBalloon.OnClick, ITfLangBarItemBalloon::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemBalloon interface, _tsf_itflangbaritemballoon_onclick_ref, ctfutb/ITfLangBarItemBalloon::OnClick, tsf.itflangbaritemballoon_onclick
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param click [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms629055(v=VS.85).aspx">TfLBIClick</a> values that indicate which mouse button was used to click the balloon.
+Contains one of the <a href="https://msdn.microsoft.com/7fd151dd-e4be-4ec8-b373-2115717d5ef4">TfLBIClick</a> values that indicate which mouse button was used to click the balloon.
 
 
 ### -param pt [in]
@@ -116,7 +116,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628702(v=VS.85).aspx">ITfLangBarItemBalloon</a>
+<a href="https://msdn.microsoft.com/619a6f21-fbac-455c-a702-0302ce13112b">ITfLangBarItemBalloon</a>
 
 
 

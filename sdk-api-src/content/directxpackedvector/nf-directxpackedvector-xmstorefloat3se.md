@@ -7,7 +7,7 @@ old-location: dxmath\xmstorefloat3se.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat3SE(XMFLOAT3SE@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: DirectX::PackedVector.XMStoreFloat3SE, XMStoreFloat3SE, XMStoreFloat3SE method [DirectX Math Support APIs], dxmath.xmstorefloat3se
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx">XMFLOAT3SE</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-874E-E02E0E81CAF0">XMFLOAT3SE</a>.
 
 
 ## -parameters
@@ -83,29 +83,33 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
   XMVECTOR N;
 
   static const XMVECTOR  Max = { 65472.f, 65427.f, 65427.f, 0 };
   N = XMVectorClamp(V, XMVectorZero(), Max);
 
   uint32_t m[3], e[3];
-  ConvertToFloat14( N.x, &m[0], &e[0]);
-  ConvertToFloat14( N.y, &m[1], &e[1]);
-  ConvertToFloat14( N.z, &m[2], &e[2]);
+  ConvertToFloat14( N.x, &amp;m[0], &amp;e[0]);
+  ConvertToFloat14( N.y, &amp;m[1], &amp;e[1]);
+  ConvertToFloat14( N.z, &amp;m[2], &amp;e[2]);
 
   uint32_t T = XMMax( e[0], XMMax( e[1], e[2] ) );
 
-  pDestination->xm = m[0] >> (T - e[0]);
-  PDestination->ym = m[1] >> (T - e[1]);
-  pDestination->zm = m[2] >> (T - e[2]);
-  pDestination->e = T;
-
-```
-
-
+  pDestination-&gt;xm = m[0] &gt;&gt; (T - e[0]);
+  PDestination-&gt;ym = m[1] &gt;&gt; (T - e[1]);
+  pDestination-&gt;zm = m[2] &gt;&gt; (T - e[2]);
+  pDestination-&gt;e = T;
+</pre>
+</td>
+</tr>
+</table></span></div>
 If the three components are not close to each other in magnitude, the largest value(s) will set the exponent and the
    other components will be shifted to zero.
 

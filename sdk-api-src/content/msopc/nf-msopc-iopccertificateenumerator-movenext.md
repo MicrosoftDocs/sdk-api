@@ -7,7 +7,7 @@ old-location: opc\iopccertificateenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: 81918b97-0d10-4d7c-aaad-fc886d55e664
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IOpcCertificateEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcCertificateEnumerator.MoveNext, IOpcCertificateEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcCertificateEnumerator interface, msopc/IOpcCertificateEnumerator::MoveNext, opc.iopccertificateenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,7 +163,7 @@ The enumerator is invalid because the underlying set has changed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376489(v=VS.85).aspx">Certificates</a>
+<a href="f15bc83f-43b0-4b09-9bb5-c668e901b864">Certificates</a>
 
 
 

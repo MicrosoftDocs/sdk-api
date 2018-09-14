@@ -7,7 +7,7 @@ old-location: tsf\itfrange_shiftstartregion.htm
 tech.root: TSF
 ms.assetid: 6e16112a-0cfe-41be-9d9c-4cbcde898c3f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftStartRegion method, ITfRange.ShiftStartRegion, ITfRange::ShiftStartRegion, ShiftStartRegion, ShiftStartRegion method [Text Services Framework], ShiftStartRegion method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftstartregion_ref, msctf/ITfRange::ShiftStartRegion, tsf.itfrange_shiftstartregion
 ms.prod: windows-hardware
 ms.technology: windows-devices

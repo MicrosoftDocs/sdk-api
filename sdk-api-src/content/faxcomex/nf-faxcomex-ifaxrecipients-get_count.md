@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrecipients_cpp_mfax_faxrecipients_count_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2cc4.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxRecipients interface, IFaxRecipients interface [Fax Service],Count property, IFaxRecipients.Count, IFaxRecipients.get_Count, IFaxRecipients::Count, IFaxRecipients::get_Count, _mfax_faxrecipients.count, fax._mfax_faxrecipients_count, fax._mfax_faxrecipients_cpp_mfax_faxrecipients_count_cpp, faxcomex/IFaxRecipients::Count, faxcomex/IFaxRecipients::get_Count, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxRecipients::get_Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection. This is the total number of recipients associated with the fax server or fax document.
+The <b>IFaxRecipients::get_Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/b0210d82-5d62-4192-a05c-455c9f3adf9b">FaxRecipients</a> collection. This is the total number of recipients associated with the fax server or fax document.
 
 This property is read-only.
 
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693479(v=VS.85).aspx">Broadcasting a Fax</a>
+<a href="https://msdn.microsoft.com/82a9e599-35d3-4fca-954f-dbc579c023f5">Broadcasting a Fax</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a>
+<a href="https://msdn.microsoft.com/b0210d82-5d62-4192-a05c-455c9f3adf9b">FaxRecipients</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689605(v=VS.85).aspx">IFaxRecipients</a>
+<a href="https://msdn.microsoft.com/b2481702-3e83-4b99-87ba-d9af9fdd63aa">IFaxRecipients</a>
  
 
  

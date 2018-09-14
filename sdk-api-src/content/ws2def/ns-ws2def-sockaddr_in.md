@@ -4,10 +4,10 @@ title: sockaddr_in
 author: windows-sdk-content
 description: The SOCKADDR_IN structure specifies a transport address and port for the AF_INET address family.
 old-location: netvista\sockaddr_in.htm
-tech.root: netvista
+tech.root: NetVista
 ms.assetid: 96379562-403f-451c-ac7a-f0eec34bfe5e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: "*PSOCKADDR_IN, PSOCKADDR_IN, PSOCKADDR_IN structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_IN, SOCKADDR_IN structure [Network Drivers Starting with Windows Vista], netvista.sockaddr_in, sockaddr_in, ws2def/PSOCKADDR_IN, ws2def/SOCKADDR_IN, wskref_ab4750b0-daae-4326-91a3-a94a9863c7a2.xml"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 The SOCKADDR_IN structure specifies a transport address and port for the 
-  <a href="https://msdn.microsoft.com/library/Ff543744(v=VS.85).aspx">AF_INET</a> address family.
+  <a href="netvista.af_inet">AF_INET</a> address family.
 
 
 ## -struct-fields
@@ -96,7 +96,7 @@ All of the data in the SOCKADDR_IN structure, except for the address family, mus
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff543744(v=VS.85).aspx">AF_INET</a>
+<a href="netvista.af_inet">AF_INET</a>
 
 
 

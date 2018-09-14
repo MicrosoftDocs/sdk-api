@@ -4,10 +4,10 @@ title: INetworkEvents::NetworkConnectivityChanged
 author: windows-sdk-content
 description: The NetworkConnectivityChanged method is called when network connectivity related changes occur.
 old-location: nla\inetworkevents_networkconnectivitychanged.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: adaf3abe-9a8c-45af-bcc7-bcc516ed75ff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkConnectivityChanged method, INetworkEvents.NetworkConnectivityChanged, INetworkEvents::NetworkConnectivityChanged, NetworkConnectivityChanged, NetworkConnectivityChanged method [Network Awareness], NetworkConnectivityChanged method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkConnectivityChanged, nla.inetworkevents_networkconnectivitychanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITScriptableAudioFormat::get_SamplesPerSec
 author: windows-sdk-content
 description: The get_SamplesPerSec method returns the value for the nSamplesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_samplespersec.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 614e0141-76dc-40ff-ad9b-a72b95e4a46d
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_SamplesPerSec method, ITScriptableAudioFormat.get_SamplesPerSec, ITScriptableAudioFormat::get_SamplesPerSec, _tapi3_itscriptableaudioformat_get_samplespersec, get_SamplesPerSec, get_SamplesPerSec method [TAPI 2.2], get_SamplesPerSec method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_samplespersec, tapi3if/ITScriptableAudioFormat::get_SamplesPerSec
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 The 
 <b>get_SamplesPerSec</b> method returns the value for the <b>nSamplesPerSec</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param pVal [out]
 
 Pointer to the value of the <b>nSamplesPerSec</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -returns

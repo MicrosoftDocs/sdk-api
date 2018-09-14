@@ -4,10 +4,10 @@ title: INetFwPolicy2::put_DefaultOutboundAction
 author: windows-sdk-content
 description: Specifies the default action for outbound traffic. These settings are Allow by default.
 old-location: ics\inetfwpolicy2_defaultoutboundaction.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 428f8f74-b2b3-4441-accf-be0b877e7c8b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: DefaultOutboundAction property [ICS/ICF], DefaultOutboundAction property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],DefaultOutboundAction property, INetFwPolicy2.DefaultOutboundAction, INetFwPolicy2.put_DefaultOutboundAction, INetFwPolicy2::DefaultOutboundAction, INetFwPolicy2::get_DefaultOutboundAction, INetFwPolicy2::put_DefaultOutboundAction, ics.inetfwpolicy2_defaultoutboundaction, netfw/INetFwPolicy2::DefaultOutboundAction, netfw/INetFwPolicy2::get_DefaultOutboundAction, netfw/INetFwPolicy2::put_DefaultOutboundAction, put_DefaultOutboundAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

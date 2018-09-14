@@ -4,10 +4,10 @@ title: MI_OperationOptions_GetPromptUserRegularMode function
 author: windows-sdk-content
 description: Gets the value that tells the server how to respond to a provider's call to MI_Context_PromptUser.
 old-location: wmi_v2\mi_operationoptions_getpromptuserregularmode.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 10c22de2-3f07-4d91-aa95-c59285d6087f
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_OperationOptions_GetPromptUserRegularMode, MI_OperationOptions_GetPromptUserRegularMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetPromptUserRegularMode, wmi_v2.mi_operationoptions_getpromptuserregularmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

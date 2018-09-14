@@ -7,7 +7,7 @@ old-location: direct3d11\id3dx11scan_scan.htm
 tech.root: direct3d11
 ms.assetid: 42b91efd-3d84-4c76-bb9f-da0f398da6c7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 4ae96918-c884-060a-690a-7632d7df6622, ID3DX11Scan interface [Direct3D 11],Scan method, ID3DX11Scan.Scan, ID3DX11Scan::Scan, Scan, Scan method [Direct3D 11], Scan method [Direct3D 11],ID3DX11Scan interface, d3dcsx/ID3DX11Scan::Scan, direct3d11.id3dx11scan_scan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ Output sequence on the device.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the return codes described in the topic <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
@@ -109,7 +109,7 @@ Returns one of the return codes described in the topic <a href="https://msdn.mic
 
 
 
-You must point the parameters <i>pSrc</i> and <i>pDst</i> to typed buffers (and not to raw or structured buffers). For information about buffer types, see <a href="https://msdn.microsoft.com/9329f260-e806-4d6d-b6d1-3d001fad411a">Types of Resources</a>. The format of these typed buffers must be <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R32_FLOAT</a>, <b>DXGI_FORMAT_R32_UINT</b>, or <b>DXGI_FORMAT_R32_INT</b>. In addition, the format of these typed buffers must match the scan data type that you specify in the <i>ElementType</i> parameter. For example, if the scan data type is <a href="https://msdn.microsoft.com/28bef01c-2d04-48f8-994b-86194f530610">D3DX11_SCAN_DATA_TYPE_UINT</a>, the buffer formats must be <b>DXGI_FORMAT_R32_UINT</b>.
+You must point the parameters <i>pSrc</i> and <i>pDst</i> to typed buffers (and not to raw or structured buffers). For information about buffer types, see <a href="https://msdn.microsoft.com/9329f260-e806-4d6d-b6d1-3d001fad411a">Types of Resources</a>. The format of these typed buffers must be <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R32_FLOAT</a>, <b>DXGI_FORMAT_R32_UINT</b>, or <b>DXGI_FORMAT_R32_INT</b>. In addition, the format of these typed buffers must match the scan data type that you specify in the <i>ElementType</i> parameter. For example, if the scan data type is <a href="https://msdn.microsoft.com/28bef01c-2d04-48f8-994b-86194f530610">D3DX11_SCAN_DATA_TYPE_UINT</a>, the buffer formats must be <b>DXGI_FORMAT_R32_UINT</b>.
 
 
 

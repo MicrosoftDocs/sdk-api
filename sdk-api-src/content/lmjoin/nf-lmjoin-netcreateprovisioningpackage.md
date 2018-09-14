@@ -7,7 +7,7 @@ old-location: netmgmt\netcreateprovisioningpackage.htm
 tech.root: netmgmt
 ms.assetid: 6E2A5578-8308-41E2-B5E9-5E34E9E76C0B
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: NetCreateProvisioningPackage, NetCreateProvisioningPackage function [Network Management], aCertTemplateNames, aMachinePolicyNames, aMachinePolicyPaths, cCertTemplateNames, cMachinePolicyNames, cMachinePolicyPaths, dwProvisionOptions, dwVersion, lmjoin/NetCreateProvisioningPackage, lpDcName, lpDomain, lpMachineAccountOU, lpMachineName, netmgmt.netcreateprovisioningpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices

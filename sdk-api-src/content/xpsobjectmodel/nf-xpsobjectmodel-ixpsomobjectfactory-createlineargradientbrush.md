@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createlineargradientbrush.htm
 tech.root: printdocs
 ms.assetid: b829e8fe-5ef0-43d8-b115-9cddbfe1a255
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CreateLinearGradientBrush, CreateLinearGradientBrush method [XPS Documents and Packaging], CreateLinearGradientBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateLinearGradientBrush method, IXpsOMObjectFactory.CreateLinearGradientBrush, IXpsOMObjectFactory::CreateLinearGradientBrush, xps.ixpsomobjectfactory_createlineargradientbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateLinearGradientBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -157,9 +157,13 @@ As shown in the illustration that follows, the start and end points of a linear 
 <img alt="A figure that shows the terms used in a linear gradient" src="../images/LinearGradient1.png"/>
 The code example that follows illustrates how this method is used to create a new  interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMLinearGradientBrush    *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -174,34 +178,34 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreateLinearGradientBrush (
+    hr = xpsFactory-&gt;CreateLinearGradientBrush (
         gradStop1,
         gradStop2,
-        &startPoint,
-        &endPoint,
-        &newInterface);
+        &amp;startPoint,
+        &amp;endPoint,
+        &amp;newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface->Release();
+        newInterface-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: adsi\iadspropertylist_item.htm
 tech.root: ADSI
 ms.assetid: 6e103872-ea2e-4178-9c8a-b958ae3bcf85
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsPropertyList interface [ADSI],Item method, IADsPropertyList.Item, IADsPropertyList::Item, Item, Item method [ADSI], Item method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_item, adsi.iadspropertylist__item, adsi.iadspropertylist_item, iads/IADsPropertyList::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The <b>VARIANT</b> that contains the index or name of the property to be retriev
 
 ### -param pVariant [in, out]
 
-Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> pointer to the object which implements the  <a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a> interface for the attribute retrieved.
+Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> pointer to the object which implements the  <a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a> interface for the attribute retrieved.
 
 
 ## -returns
@@ -88,9 +88,13 @@ You must clear <i>pVariant</i> using <b>VariantClear</b> when the value returned
 
 The following code example shows how to enumerate all the entries with the <b>Item</b> method.
 
-
-```vb
-Dim propList As IADsPropertyList
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim propList As IADsPropertyList
 Dim propEntry As IADsPropertyEntry
 Dim count As Long
 
@@ -100,7 +104,7 @@ Set propList = GetObject("LDAP://dc02/DC=Fabrikam,DC=com")
  
 propList.GetInfo
 count = propList.PropertyCount
-Debug.Print "No of Property Found: " & count
+Debug.Print "No of Property Found: " &amp; count
  
 '==== Getting the property list item with Name ==================
 Set propEntry = propList.Item("uSNCreated")
@@ -116,21 +120,25 @@ For i = 0 To count - 1
 Next
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
 
     Set propList = Nothing
     Set propEntry = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to retrieve the <b>Owner</b> property of a computer using the <b>IADsPropertyList::Item</b> method. For more information about the <b>GetPropertyCache</b>  function and a code example, see <a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a>.
 
-
-```cpp
-////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>////////////////////////////////////////
 // function:    PropertyItem
 //    input:    PropertyList, 
 //              name of the item
@@ -150,18 +158,18 @@ IADsPropertyEntry *PropertyItem(
         return NULL;
     }
 
-    VariantInit(&varItem);
-    VariantInit(&varEntry);
+    VariantInit(&amp;varItem);
+    VariantInit(&amp;varEntry);
  
     // get a property entry
-    V_BSTR(&varItem)= SysAllocString(item);
-    V_VT(&varItem)=VT_BSTR;
-    HRESULT hr = pList->Item(varItem ,&varEntry);
-    hr = V_DISPATCH(&var)->QueryInterface(
+    V_BSTR(&amp;varItem)= SysAllocString(item);
+    V_VT(&amp;varItem)=VT_BSTR;
+    HRESULT hr = pList-&gt;Item(varItem ,&amp;varEntry);
+    hr = V_DISPATCH(&amp;var)-&gt;QueryInterface(
                         IID_IADsPropertyEntry,
-                        (void**)&pEntry);
-    VariantClear(&varItem);
-    VariantClear(&varEntry);
+                        (void**)&amp;pEntry);
+    VariantClear(&amp;varItem);
+    VariantClear(&amp;varEntry);
     return pEntry;
 }
  
@@ -179,28 +187,28 @@ if(pEntry)
     BSTR bstr;
     long ln;
 
-    hr = pEntry->get_Name(&bstr);
+    hr = pEntry-&gt;get_Name(&amp;bstr);
     if(SUCCEEDED(hr))
     {
         SysFreeString(bstr);
     }
     printf(" Name : %S\n", bstr);
  
-    pEntry->get_ADsType(&ln);
+    pEntry-&gt;get_ADsType(&amp;ln);
     if(SUCCEEDED(hr))
     {
         printf(" Type : %d\n", ln);
     }
  
-    pEntry->get_ControlCode(&ln); 
+    pEntry-&gt;get_ControlCode(&amp;ln); 
     if(SUCCEEDED(hr))
     {
         printf(" Code %d\n",ln);
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -225,7 +233,7 @@ if(pEntry)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

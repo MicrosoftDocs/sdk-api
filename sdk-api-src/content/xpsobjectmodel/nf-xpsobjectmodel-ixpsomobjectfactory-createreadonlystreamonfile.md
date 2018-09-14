@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createreadonlystreamonfile.htm
 tech.root: printdocs
 ms.assetid: 00df5162-6fcd-4df8-b7d4-614c14aca8b5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CreateReadOnlyStreamOnFile, CreateReadOnlyStreamOnFile method [XPS Documents and Packaging], CreateReadOnlyStreamOnFile method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateReadOnlyStreamOnFile method, IXpsOMObjectFactory.CreateReadOnlyStreamOnFile, IXpsOMObjectFactory::CreateReadOnlyStreamOnFile, xps.ixpsomobjectfactory_createreadonlystreamonfile, xpsobjectmodel/IXpsOMObjectFactory::CreateReadOnlyStreamOnFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,18 +115,22 @@ This method calls the <a href="https://msdn.microsoft.com/77df9cb2-757e-4b07-9c1
 
 <b>CreateReadOnlyStreamOnFile</b> is a wrapper method for <a href="https://msdn.microsoft.com/d41bb51d-127c-4b24-8c93-4224404e0b2d">IOpcFactory::CreateStreamOnFile</a>. It has the same effect as calling the following:
 
-
-```cpp
-    hr = opcFactory->CreateStreamOnFile (
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    hr = opcFactory-&gt;CreateStreamOnFile (
         fileName,
         OPC_STREAM_IO_READ,
         NULL,
         FILE_ATTRIBUTE_NORMAL,
-        &stream);
-
-```
-
-
+        &amp;stream);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

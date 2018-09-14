@@ -7,7 +7,7 @@ old-location: p2p\peercollabunregisterevent.htm
 tech.root: p2psdk
 ms.assetid: dc1bcdaa-e58e-4567-9fd2-e1fa9071880f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerCollabUnregisterEvent, PeerCollabUnregisterEvent function [Peer Networking], p2p.peercollabunregisterevent, p2p/PeerCollabUnregisterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>PeerCollabUnregisterEvent</b> function deregisters an application from no
 
 ### -param hPeerEvent [in]
 
-Handle to the peer collaboration event the peer application will deregister. This handle is obtained with a previous call to <a href="https://msdn.microsoft.com/en-us/library/Aa371077(v=VS.85).aspx">PeerCollabRegisterEvent</a>.
+Handle to the peer collaboration event the peer application will deregister. This handle is obtained with a previous call to <a href="p2p.peercollabregisterevent">PeerCollabRegisterEvent</a>.
 
 
 ## -returns

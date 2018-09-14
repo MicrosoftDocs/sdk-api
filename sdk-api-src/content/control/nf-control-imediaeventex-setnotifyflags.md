@@ -7,7 +7,7 @@ old-location: dshow\imediaeventex_setnotifyflags.htm
 tech.root: DirectShow
 ms.assetid: 6a41b6eb-3fe9-4b2e-bcbb-a407e0e6ab5e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IMediaEventEx interface [DirectShow],SetNotifyFlags method, IMediaEventEx.SetNotifyFlags, IMediaEventEx::SetNotifyFlags, IMediaEventExSetNotifyFlags, SetNotifyFlags, SetNotifyFlags method [DirectShow], SetNotifyFlags method [DirectShow],IMediaEventEx interface, control/IMediaEventEx::SetNotifyFlags, dshow.imediaeventex_setnotifyflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,7 +100,7 @@ Returns S_OK if successful, or E_INVALIDARG if the <i>lNoNotifyFlags</i> paramet
 
 By default, the Filter Graph Manager posts event notifications for the application. If the <i>lNoNotifyFlags</i> parameter is AM_MEDIAEVENT_NONOTIFY, the Filter Graph Manager clears any pending event notifications from the queue, and does not post any new ones.
 
-If event notifications are disabled, the handle returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd406908(v=VS.85).aspx">IMediaEvent::GetEventHandle</a> method is signaled at the end of each stream—that is, whenever the Filter Graph Manager receives an <a href="https://msdn.microsoft.com/en-us/library/Dd319485(v=VS.85).aspx">EC_COMPLETE</a> event.
+If event notifications are disabled, the handle returned by the <a href="https://msdn.microsoft.com/83db8d24-d872-4a90-a896-1cc51273b551">IMediaEvent::GetEventHandle</a> method is signaled at the end of each stream—that is, whenever the Filter Graph Manager receives an <a href="https://msdn.microsoft.com/46037d53-085d-4fd0-91a0-408702cbfce5">EC_COMPLETE</a> event.
 
 
 
@@ -110,11 +110,11 @@ If event notifications are disabled, the handle returned by the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406897(v=VS.85).aspx">IMediaEventEx Interface</a>
+<a href="https://msdn.microsoft.com/9d367b0a-c7ec-49d4-a41e-045ac81d2c51">IMediaEventEx Interface</a>
  
 
  

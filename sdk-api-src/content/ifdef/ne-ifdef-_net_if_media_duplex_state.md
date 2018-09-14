@@ -4,10 +4,10 @@ title: "_NET_IF_MEDIA_DUPLEX_STATE"
 author: windows-sdk-content
 description: The NET_IF_MEDIA_DUPLEX_STATE enumeration type specifies the NDIS network interface duplex state.
 old-location: netvista\net_if_media_duplex_state.htm
-tech.root: netvista
+tech.root: NetVista
 ms.assetid: 0bd49b84-0b73-4628-bd86-65b599f791df
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: "*PNET_IF_MEDIA_DUPLEX_STATE, MediaDuplexStateFull, MediaDuplexStateHalf, MediaDuplexStateUnknown, NET_IF_MEDIA_DUPLEX_STATE, NET_IF_MEDIA_DUPLEX_STATE enumeration [Network Drivers Starting with Windows Vista], PNET_IF_MEDIA_DUPLEX_STATE, PNET_IF_MEDIA_DUPLEX_STATE enumeration pointer [Network Drivers Starting with Windows Vista], _NET_IF_MEDIA_DUPLEX_STATE, ifdef/MediaDuplexStateFull, ifdef/MediaDuplexStateHalf, ifdef/MediaDuplexStateUnknown, ifdef/NET_IF_MEDIA_DUPLEX_STATE, ifdef/PNET_IF_MEDIA_DUPLEX_STATE, net_if_enums_ref_b609914b-6556-4d4a-b689-4bd78a995bbd.xml, netvista.net_if_media_duplex_state"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 The NET_IF_MEDIA_DUPLEX_STATE enumeration type specifies the 
-  <a href="https://msdn.microsoft.com/library/Ff566527(v=VS.85).aspx">NDIS network interface</a> duplex
+  <a href="netvista.ndis_network_interfaces2">NDIS network interface</a> duplex
   state.
 
 
@@ -82,11 +82,15 @@ The miniport adapter can transmit and receive simultaneously.
 The NDIS_MEDIA_DUPLEX_STATE, enumeration type, used to describe NDIS interface providers in the
     OID_GEN_MEDIA_DUPLEX_STATE, OID, is equivalent to this enumeration.
 
-
-```
-typedef NET_IF_MEDIA_DUPLEX_STATE NDIS_MEDIA_DUPLEX_STATE, *PNDIS_MEDIA_DUPLEX_STATE;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef NET_IF_MEDIA_DUPLEX_STATE NDIS_MEDIA_DUPLEX_STATE, *PNDIS_MEDIA_DUPLEX_STATE;</pre>
+</td>
+</tr>
+</table></span></div>
 
 

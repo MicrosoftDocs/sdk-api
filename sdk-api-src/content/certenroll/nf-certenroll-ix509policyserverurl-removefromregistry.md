@@ -4,10 +4,10 @@ title: IX509PolicyServerUrl::RemoveFromRegistry
 author: windows-sdk-content
 description: Unregisters a certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_removefromregistry.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 18f9a445-99db-43b1-bee0-35bfbd1de0a5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],RemoveFromRegistry method, IX509PolicyServerUrl.RemoveFromRegistry, IX509PolicyServerUrl::RemoveFromRegistry, RemoveFromRegistry, RemoveFromRegistry method [Security], RemoveFromRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::RemoveFromRegistry, security.ix509policyserverurl_removefromregistry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>RemoveFromRegistry</b> method unregisters a certificate enrollment policy
 
 ### -param context [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa379399(v=VS.85).aspx">X509CertificateEnrollmentContext</a> enumeration value that specifies the nature of the end entity. This can be one of the following values.
+An <a href="https://msdn.microsoft.com/2db0e129-a566-47ba-ab57-53c7db09e8e3">X509CertificateEnrollmentContext</a> enumeration value that specifies the nature of the end entity. This can be one of the following values.
 
 <table>
 <tr>
@@ -107,7 +107,7 @@ An administrator acting on the behalf of a computer.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -136,7 +136,7 @@ You do not have sufficient access rights to unregister the CEP.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351734(v=VS.85).aspx">IX509PolicyServerUrl</a>
+<a href="https://msdn.microsoft.com/ad9d61ec-f607-4f71-ad8a-28d821e29c27">IX509PolicyServerUrl</a>
  
 
  

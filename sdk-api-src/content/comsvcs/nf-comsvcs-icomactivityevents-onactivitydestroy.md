@@ -7,7 +7,7 @@ old-location: cos\icomactivityevents_onactivitydestroy.htm
 tech.root: cossdk
 ms.assetid: af69bcf7-a925-42e2-a7a8-4ebf745955b9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityDestroy method, IComActivityEvents.OnActivityDestroy, IComActivityEvents::OnActivityDestroy, OnActivityDestroy, OnActivityDestroy method [COM+], OnActivityDestroy method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityDestroy, comsvcs/IComActivityEvents::OnActivityDestroy, cos.icomactivityevents_onactivitydestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684373(v=VS.85).aspx">IComActivityEvents</a>
+<a href="https://msdn.microsoft.com/9b702bcd-d5a6-41fa-98ce-00a245dfe770">IComActivityEvents</a>
  
 
  

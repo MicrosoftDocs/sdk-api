@@ -7,7 +7,7 @@ old-location: mmc\iconsole_queryscopeimagelist.htm
 tech.root: mmc
 ms.assetid: 42901F6C-F66E-4CB6-A457-1905C3912F15
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IConsole interface [MMC],QueryScopeImageList method, IConsole.QueryScopeImageList, IConsole::QueryScopeImageList, QueryScopeImageList, QueryScopeImageList method [MMC], QueryScopeImageList method [MMC],IConsole interface, mmc.iconsole_queryscopeimagelist, mmc/IConsole::QueryScopeImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a>
+<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mdmreg\registerdevicewithmanagement.htm
 tech.root: MDMReg
 ms.assetid: 3a927d98-decf-464a-82db-561e9abcfe29
 ms.author: windowssdkdev
-ms.date: 02/21/2018
+ms.date: 08/29/2018
 ms.keywords: RegisterDeviceWithManagement, RegisterDeviceWithManagement function [MDM Registration], mdmreg.registerdevicewithmanagement, mdmregistration/RegisterDeviceWithManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 Registers a device with a MDM service, using the 
-    <a href="https://msdn.microsoft.com/library/Dn409494(v=PROT.20).aspx">[MS-MDE]: Mobile Device Enrollment Protocol</a>.
+    <a href="5c841535-042e-489e-913c-9d783d741267">[MS-MDE]: Mobile Device Enrollment Protocol</a>.
 
 
 ## -parameters

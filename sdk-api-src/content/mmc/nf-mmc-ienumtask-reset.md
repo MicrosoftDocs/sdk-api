@@ -7,7 +7,7 @@ old-location: mmc\ienumtask_reset.htm
 tech.root: mmc
 ms.assetid: 5368d1f5-4b97-46d2-ba7c-1caa783a603e
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IEnumTASK interface [MMC],Reset method, IEnumTASK.Reset, IEnumTASK::Reset, Reset, Reset method [MMC], Reset method [MMC],IEnumTASK interface, _slate_ienumtask_reset, mmc.ienumtask_reset, mmc/IEnumTASK::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

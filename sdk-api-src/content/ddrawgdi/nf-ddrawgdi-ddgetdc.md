@@ -4,10 +4,10 @@ title: DdGetDC function
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdGetDC function and returns a Windows Graphics Device Interface (GDI)  device context (DC) that represents the Microsoft DirectDraw surface indicated. GdiEntry7 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddgetdc.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddgetdc.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: DdGetDC, DdGetDC function [Windows API], GdiEntry7, _dxgkernel_ddgetdc, ddrawgdi/DdGetDC, ddrawgdi/GdiEntry7, winprog._dxgkernel_ddgetdc, winui._dxgkernel_ddgetdc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ req.redist:
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-Wrapper for the <a href="https://msdn.microsoft.com/en-us/library/ms648682(v=VS.85).aspx">NtGdiDdGetDC</a> function and returns a Windows Graphics Device Interface (GDI) 
+Wrapper for the <a href="https://msdn.microsoft.com/c2eaaed6-db19-4dab-ac12-6b4e7eeb58e4">NtGdiDdGetDC</a> function and returns a Windows Graphics Device Interface (GDI) 
    device context (DC) that represents the Microsoft DirectDraw surface indicated.
 
 
@@ -94,7 +94,7 @@ If successful, this function returns a valid <b>HDC</b>; otherwise it returns <b
 If both the surface and the current display mode are palletized at 8 bits per pixel, the DC can be given the special property that its color table is shared by the color table of the display device. Applications are advised to call <a href="https://msdn.microsoft.com/683be1bc-8232-42de-907f-1136ffdd524d">IDirectDrawSurface7::GetDC</a> instead, which provides the same functionality in a manner independent of the operating system.
 
 
-The returned DC must be freed by a call to <a href="https://msdn.microsoft.com/en-us/library/ms648696(v=VS.85).aspx">NtGdiDdReleaseDC</a> or <b>GdiEntry8</b>.
+The returned DC must be freed by a call to <a href="https://msdn.microsoft.com/98def2a1-878d-4776-a519-32cb70107338">NtGdiDdReleaseDC</a> or <b>GdiEntry8</b>.
 
 
 
@@ -105,7 +105,7 @@ The returned DC must be freed by a call to <a href="https://msdn.microsoft.com/e
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://msdn.microsoft.com/96d11d10-dd21-4e2b-a30d-fe29d24eeba6">Graphics Low Level Client Support</a>
  
 
  

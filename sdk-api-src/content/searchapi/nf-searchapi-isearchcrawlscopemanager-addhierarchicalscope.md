@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_AddHierachicalScope.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\addhierarchicalscope.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: AddHierarchicalScope, AddHierarchicalScope method [search], AddHierarchicalScope method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],AddHierarchicalScope method, ISearchCrawlScopeManager.AddHierarchicalScope, ISearchCrawlScopeManager::AddHierarchicalScope, _search_ISearchCrawlScopeManager_AddHierachicalScope, search._search_ISearchCrawlScopeManager_AddHierachicalScope, searchapi/ISearchCrawlScopeManager::AddHierarchicalScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method overrides existing scope rules for the URL.The preferred methods for such functionality are <a href="https://msdn.microsoft.com/en-us/library/Bb266481(v=VS.85).aspx">ISearchCrawlScopeManager::AddDefaultScopeRule</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb266484(v=VS.85).aspx">ISearchCrawlScopeManager::AddUserScopeRule</a>.
+This method overrides existing scope rules for the URL.The preferred methods for such functionality are <a href="https://msdn.microsoft.com/948549da-7179-4f8d-956e-4daf20f8c65a">ISearchCrawlScopeManager::AddDefaultScopeRule</a> and <a href="https://msdn.microsoft.com/100bf0b4-553c-4ecd-a40d-ee2948f2c4d5">ISearchCrawlScopeManager::AddUserScopeRule</a>.
 
 URLs passed in as parameters to <b>ISearchCrawlScopeManager::AddHierarchicalScope</b> are expected to be fully URL-decoded and without URL control codes. For example, file:///c:\My Documents is fully URL-decoded, whereas file:///c:\My%20Documents is not.
 

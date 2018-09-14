@@ -7,7 +7,7 @@ old-location: netmgmt\netschedulejobadd.htm
 tech.root: netmgmt
 ms.assetid: 813d13ba-abe1-4b14-88c7-87ba88a42a3b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: NetScheduleJobAdd, NetScheduleJobAdd function [Network Management], _win32_netschedulejobadd, lmat/NetScheduleJobAdd, netmgmt.netschedulejobadd
 ms.prod: windows-hardware
 ms.technology: windows-devices

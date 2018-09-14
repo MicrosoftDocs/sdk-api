@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_resume_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6bs5.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Resume method, IFaxOutgoingJob.Resume, IFaxOutgoingJob::Resume, Resume, Resume method [Fax Service], Resume method [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.resume, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_resume_cpp, fax._mfax_faxoutgoingjob_resume, faxcomex/IFaxOutgoingJob::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\dispgetparam.htm
 tech.root: automat
 ms.assetid: 72cdb768-4791-4606-8e5d-72cd003e854a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DispGetParam, DispGetParam function [Automation], _oa96_DispGetParam, automat.dispgetparam, oleauto/DispGetParam
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -191,12 +191,16 @@ The output parameter <i>pvarResult</i> must be a valid variant. Any existing con
 
 If you have used <b>DispGetParam</b> to get the right side of a property put operation, the second parameter should be DISPID_PROPERTYPUT. For example:
 
-
-```cpp
-DispGetParam(&dispparams, DISPID_PROPERTYPUT, VT_BOOL, &varResult, &uiArg)
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DispGetParam(&amp;dispparams, DISPID_PROPERTYPUT, VT_BOOL, &amp;varResult, &amp;uiArg)</pre>
+</td>
+</tr>
+</table></span></div>
 Named parameters cannot be accessed positionally, and vice versa.
 
 
@@ -204,9 +208,13 @@ Named parameters cannot be accessed positionally, and vice versa.
 
 The following example uses <b>DispGetParam</b> to set X and Y properties.
 
-
-```cpp
-STDMETHODIMP
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP
 CPoint::Invoke(
    DISPID dispidMember,
    REFIID riid,
@@ -223,7 +231,7 @@ CPoint::Invoke(
    VARIANT varResultDummy;
 
    // Make sure the wFlags are valid.
-   if(wFlags & ~(DISPATCH_METHOD | DISPATCH_PROPERTYGET |
+   if(wFlags &amp; ~(DISPATCH_METHOD | DISPATCH_PROPERTYGET |
       DISPATCH_PROPERTYPUT | DISPATCH_PROPERTYPUTREF))
       return E_INVALIDARG;
 
@@ -234,11 +242,11 @@ CPoint::Invoke(
    // It simplifies the following code if the caller
    // ignores the return value.
    if(puArgErr == NULL)
-      puArgErr = &uArgErr;
+      puArgErr = &amp;uArgErr;
    if(pvarResult == NULL)
-      pvarResult = &varResultDummy;
+      pvarResult = &amp;varResultDummy;
 
-   VariantInit(&varg0);
+   VariantInit(&amp;varg0);
 
    // Assume the return type is void, unless otherwise is found.
    VariantInit(pvarResult);
@@ -250,10 +258,10 @@ CPoint::Invoke(
       break;
 
    case IDMEMBER_CPOINT_SETX:
-      hresult = DispGetParam(pdispparams, 0, VT_I2, &varg0, puArgErr);
+      hresult = DispGetParam(pdispparams, 0, VT_I2, &amp;varg0, puArgErr);
       if(hresult != NOERROR)
          return hresult;
-      SetX(V_I2(&varg0));
+      SetX(V_I2(&amp;varg0));
       break;
 
    case IDMEMBER_CPOINT_GETY:
@@ -262,20 +270,20 @@ CPoint::Invoke(
       break;
 
    case IDMEMBER_CPOINT_SETY:
-      hresult = DispGetParam(pdispparams, 0, VT_I2, &varg0, puArgErr);
+      hresult = DispGetParam(pdispparams, 0, VT_I2, &amp;varg0, puArgErr);
       if(hresult != NOERROR)
          return hresult;
-      SetY(V_I2(&varg0));
+      SetY(V_I2(&amp;varg0));
       break;
 
    default:
       return DISP_E_MEMBERNOTFOUND;
    }
    return NOERROR;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

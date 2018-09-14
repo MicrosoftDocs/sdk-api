@@ -7,7 +7,7 @@ old-location: mf\imftransform_getstreamcount.htm
 tech.root: medfound
 ms.assetid: 491f7f44-fcac-4236-ba5c-e5705267c6c2
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 491f7f44-fcac-4236-ba5c-e5705267c6c2, GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamCount method, IMFTransform.GetStreamCount, IMFTransform::GetStreamCount, mf.imftransform_getstreamcount, mftransform/IMFTransform::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ The number of streams includes unselected streams—that is, streams with no med
 This method should not be called with <b>NULL</b> parameters, although in practice some implementations may allow <b>NULL</b> parameters.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamCount</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamCount</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

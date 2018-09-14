@@ -7,7 +7,7 @@ old-location: dshow\iasyncreader_request.htm
 tech.root: DirectShow
 ms.assetid: d0eab370-bb17-48fa-9926-6a6eeaba5603
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IAsyncReader interface [DirectShow],Request method, IAsyncReader.Request, IAsyncReader::Request, IAsyncReaderRequest, Request, Request method [DirectShow], Request method [DirectShow],IAsyncReader interface, dshow.iasyncreader_request, strmif/IAsyncReader::Request
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -172,35 +172,39 @@ The method returns before the request completes. Call the <a href="https://msdn.
 
 The following example shows a possible helper function for an input pin, to queue requests:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 CMyPin::QueueSample(long cbFirst, long cbLast, DWORD_PTR dwuser)
 {
     IMediaSample* pSample = NULL;
-    HRESULT hr = m_pAlloc->GetBuffer(&pSample, NULL, NULL, 0);
+    HRESULT hr = m_pAlloc-&gt;GetBuffer(&amp;pSample, NULL, NULL, 0);
     if (FAILED(hr)) 
     { 
         return hr; 
     }
 
     LONGLONG tStart = cbFirst * 10000000, tStop = cbLast * 10000000;
-    hr = pSample->SetTime(&tStart, &tStop);
+    hr = pSample-&gt;SetTime(&amp;tStart, &amp;tStop);
     if (SUCCEEDED(hr))
     {
-        hr = m_pReader->Request(pSample, dwuser);
+        hr = m_pReader-&gt;Request(pSample, dwuser);
     }
 
     if (FAILED(hr))
     {
-        pSample->Release();
+        pSample-&gt;Release();
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

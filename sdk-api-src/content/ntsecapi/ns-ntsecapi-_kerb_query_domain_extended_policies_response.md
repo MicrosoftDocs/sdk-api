@@ -4,10 +4,10 @@ title: "_KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE"
 author: windows-sdk-content
 description: Contains the results of querying for the extended policies of the specified domain.
 old-location: security\kerb_query_domain_extended_policies_response.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 4BFF08D8-9D5E-4041-9DF6-AAE44292C135
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: "*PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE structure [Security], KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE_FLAG_DAC_DISABLED, PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE structure pointer [Security], _KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, ntsecapi/KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, ntsecapi/PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, security.kerb_query_domain_extended_policies_response"
 ms.prod: windows
 ms.technology: windows-sdk

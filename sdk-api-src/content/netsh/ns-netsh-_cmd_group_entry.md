@@ -4,10 +4,10 @@ title: "_CMD_GROUP_ENTRY"
 author: windows-sdk-content
 description: Defines a group of helper commands.
 old-location: netshell\cmd_group_entry.htm
-tech.root: netshell
+tech.root: NetShell
 ms.assetid: dc0d6449-f635-417c-8363-51e61c417051
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCMD_GROUP_ENTRY, CMD_GROUP_ENTRY, CMD_GROUP_ENTRY structure [NetShell], PCMD_GROUP_ENTRY, PCMD_GROUP_ENTRY structure pointer [NetShell], _CMD_GROUP_ENTRY, _netsh_cmd_group_entry, netsh/CMD_GROUP_ENTRY, netsh/PCMD_GROUP_ENTRY, netshell.cmd_group_entry"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,9 +108,13 @@ If these macros are used, the following constants must be defined in the helper 
 
 The following are example uses of these macros:
 
-
-```cpp
-#define HLP_GROUP_ADD        1100
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define HLP_GROUP_ADD        1100
 #define HLP_GROUP_ADD_EX     1101
 #define HLP_GROUP_DELETE     1102
 #define HLP_GROUP_DELETE_EX  1103
@@ -131,10 +135,10 @@ static CMD_GROUP_ENTRY g_SampleGroupCmds[] =
     CREATE_CMD_GROUP_ENTRY(GROUP_SET,    g_SampleSetCmdTable),
     CREATE_CMD_GROUP_ENTRY(GROUP_SHOW,   g_SampleShowCmdTable),
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

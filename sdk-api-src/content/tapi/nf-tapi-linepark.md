@@ -4,10 +4,10 @@ title: linePark function
 author: windows-sdk-content
 description: The linePark function parks the specified call according to the specified park mode.
 old-location: tapi2\linepark.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: a6198229-a6db-43ef-9ef6-957429f270cc
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: "_tapi2_linepark, linePark, linePark function [TAPI 2.2], lineParkA, lineParkW, tapi/linePark, tapi/lineParkA, tapi/lineParkW, tapi2.linepark"
 ms.prod: windows-hardware
 ms.technology: windows-devices

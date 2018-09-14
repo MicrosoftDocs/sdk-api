@@ -4,10 +4,10 @@ title: IX500DistinguishedName::get_EncodedName
 author: windows-sdk-content
 description: Retrieves a Unicode-encoded distinguished name.
 old-location: security\ix500distinguishedname_encodedname_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: c3b2966c-5149-462d-908b-f6eca6a0409d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: EncodedName property [Security], EncodedName property [Security],IX500DistinguishedName interface, IX500DistinguishedName interface [Security],EncodedName property, IX500DistinguishedName.EncodedName, IX500DistinguishedName.get_EncodedName, IX500DistinguishedName::EncodedName, IX500DistinguishedName::get_EncodedName, certenroll/IX500DistinguishedName::EncodedName, certenroll/IX500DistinguishedName::get_EncodedName, get_EncodedName, security.ix500distinguishedname_encodedname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377054(v=VS.85).aspx">Encode</a> method to encode a distinguished name. Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377052(v=VS.85).aspx">Decode</a> method to decode a distinguished name.
+Call the <a href="https://msdn.microsoft.com/da0d4479-dc58-4719-886e-5ce610764305">Encode</a> method to encode a distinguished name. Call the <a href="https://msdn.microsoft.com/52cc0595-b825-4bf3-805c-21afc468b91e">Decode</a> method to decode a distinguished name.
 
 
 
@@ -73,7 +73,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377054(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377051(v=VS.85).aspx">IX500DistinguishedName</a>
+<a href="https://msdn.microsoft.com/49f176d9-33f6-4bc1-992c-c613279b0969">IX500DistinguishedName</a>
  
 
  

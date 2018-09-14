@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::SetPriority
 author: windows-sdk-content
 description: Specifies the priority level of your job. The priority level determines when your job is processed relative to other jobs in the transfer queue.
 old-location: bits\ibackgroundcopyjob_setpriority.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 8b59128d-7e63-45dc-af0f-54ea844dac98
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetPriority method, IBackgroundCopyJob.SetPriority, IBackgroundCopyJob::SetPriority, SetPriority, SetPriority method [BITS], SetPriority method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setpriority, bits.ibackgroundcopyjob_setpriority, bits/IBackgroundCopyJob::SetPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ TBD
 #### - Priority [in]
 
 Specifies the priority level of your job relative to other jobs in the transfer queue. The default is BG_JOB_PRIORITY_NORMAL. For a list of priority levels, see the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362805(v=VS.85).aspx">BG_JOB_PRIORITY</a> enumeration.
+<a href="https://msdn.microsoft.com/bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e">BG_JOB_PRIORITY</a> enumeration.
 
 
 ## -returns
@@ -101,7 +101,7 @@ Job priority was successfully set.
 </td>
 <td width="60%">
 The value for <i>Priority</i> is not defined in the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362805(v=VS.85).aspx">BG_JOB_PRIORITY</a> enumeration.
+<a href="https://msdn.microsoft.com/bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e">BG_JOB_PRIORITY</a> enumeration.
 
 </td>
 </tr>
@@ -127,11 +127,11 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362805(v=VS.85).aspx">BG_JOB_PRIORITY</a>
+<a href="https://msdn.microsoft.com/bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e">BG_JOB_PRIORITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363033(v=VS.85).aspx">IBackgroundCopyJob::GetPriority</a>
+<a href="https://msdn.microsoft.com/8602ed59-a372-4cb3-bbda-cf1c7afc3669">IBackgroundCopyJob::GetPriority</a>
  
 
  

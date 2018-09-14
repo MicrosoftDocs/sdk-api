@@ -4,10 +4,10 @@ title: "_MPR_INTERFACE_2"
 author: windows-sdk-content
 description: Contains data for a router demand-dial interface.
 old-location: rras\mpr_interface_2.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 486f3526-2b0e-4f08-bb85-3aebf10cd52e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*PMPR_INTERFACE_2, MPRDM_DialAll, MPRDM_DialAsNeeded, MPRDT_Atm, MPRDT_FrameRelay, MPRDT_Generic, MPRDT_Irda, MPRDT_Isdn, MPRDT_Modem, MPRDT_Pad, MPRDT_Parallel, MPRDT_SW56, MPRDT_Serial, MPRDT_Sonet, MPRDT_Vpn, MPRDT_X25, MPRET_Direct, MPRET_Phone, MPRET_Vpn, MPRIDS_Disabled, MPRIDS_UseGlobalValue, MPRIO_DisableLcpExtensions, MPRIO_IpHeaderCompression, MPRIO_IpSecPreSharedKey, MPRIO_NetworkLogon, MPRIO_PromoteAlternates, MPRIO_RemoteDefaultGateway, MPRIO_RequireCHAP, MPRIO_RequireDataEncryption, MPRIO_RequireEAP, MPRIO_RequireEncryptedPw, MPRIO_RequireMachineCertificates, MPRIO_RequireMsCHAP, MPRIO_RequireMsCHAP2, MPRIO_RequireMsEncryptedPw, MPRIO_RequirePAP, MPRIO_RequireSPAP, MPRIO_SecureLocalFiles, MPRIO_SharedPhoneNumbers, MPRIO_SpecificIpAddr, MPRIO_SpecificNameServers, MPRIO_SwCompression, MPRIO_UseLogonCredentials, MPRIO_UsePreSharedKeyForIkev2Initiator, MPRIO_UsePreSharedKeyForIkev2Responder, MPRNP_Ip, MPRNP_Ipx, MPR_ET_None, MPR_ET_Optional, MPR_ET_Require, MPR_ET_RequireMax, MPR_INTERFACE_2, MPR_INTERFACE_2 structure [RAS], MPR_VS_Default, MPR_VS_L2tpFirst, MPR_VS_L2tpOnly, MPR_VS_PptpFirst, MPR_VS_PptpOnly, PMPR_INTERFACE_2, PMPR_INTERFACE_2 structure pointer [RAS], _MPR_INTERFACE_2, _mpr_mpr_interface_2, mprapi/MPR_INTERFACE_2, mprapi/PMPR_INTERFACE_2, rras.mpr_interface_2"
 ms.prod: windows
 ms.technology: windows-sdk

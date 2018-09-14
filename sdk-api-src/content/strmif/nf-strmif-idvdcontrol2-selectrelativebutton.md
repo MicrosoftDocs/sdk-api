@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_selectrelativebutton.htm
 tech.root: DirectShow
 ms.assetid: 2eb6243a-6f69-45d2-9b72-2dd28d02e86d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectRelativeButton method, IDvdControl2.SelectRelativeButton, IDvdControl2::SelectRelativeButton, IDvdControl2SelectRelativeButton, SelectRelativeButton, SelectRelativeButton method [DirectShow], SelectRelativeButton method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectrelativebutton, strmif/IDvdControl2::SelectRelativeButton
 ms.prod: windows-hardware
 ms.technology: windows-devices

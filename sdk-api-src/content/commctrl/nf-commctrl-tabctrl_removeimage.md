@@ -4,10 +4,10 @@ title: TabCtrl_RemoveImage macro
 author: windows-sdk-content
 description: Removes an image from a tab control's image list. You can use this macro or send the TCM_REMOVEIMAGE message explicitly.
 old-location: controls\TabCtrl_RemoveImage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_removeimage.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: TabCtrl_RemoveImage, TabCtrl_RemoveImage macro [Windows Controls], _win32_TabCtrl_RemoveImage, _win32_TabCtrl_RemoveImage_cpp, commctrl/TabCtrl_RemoveImage, controls.TabCtrl_RemoveImage, controls._win32_TabCtrl_RemoveImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Removes an image from a tab control's image list. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760608(v=VS.85).aspx">TCM_REMOVEIMAGE</a> message explicitly. 
+Removes an image from a tab control's image list. You can use this macro or send the <a href="https://msdn.microsoft.com/f2761338-0afa-47d8-9d9c-1d5a4a7f7bcf">TCM_REMOVEIMAGE</a> message explicitly. 
 
 
 ## -parameters

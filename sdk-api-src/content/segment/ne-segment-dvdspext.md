@@ -4,10 +4,10 @@ title: DVDSPExt
 author: windows-sdk-content
 description: The DVDSPExt enumeration type holds a value indicating the default DVD subpicture language extension.
 old-location: mstv\dvdspext.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: cc33083a-1281-4863-937c-bd4688989a6c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: DVDSPExt, DVDSPExt enumeration [Microsoft TV Technologies], dvdSPExt_CC_Big, dvdSPExt_CC_Children, dvdSPExt_CC_Normal, dvdSPExt_Caption_Big, dvdSPExt_Caption_Children, dvdSPExt_Caption_Normal, dvdSPExt_DirectorComments_Big, dvdSPExt_DirectorComments_Children, dvdSPExt_DirectorComments_Normal, dvdSPExt_Forced, dvdSPExt_NotSpecified, enumeration [Microsoft TV Technologies], mstv.dvdspext, segment/DVDSPExt, segment/dvdSPExt_CC_Big, segment/dvdSPExt_CC_Children, segment/dvdSPExt_CC_Normal, segment/dvdSPExt_Caption_Big, segment/dvdSPExt_Caption_Children, segment/dvdSPExt_Caption_Normal, segment/dvdSPExt_DirectorComments_Big, segment/dvdSPExt_DirectorComments_Children, segment/dvdSPExt_DirectorComments_Normal, segment/dvdSPExt_Forced, segment/dvdSPExt_NotSpecified
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,11 +132,11 @@ Director's comments for children.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd695197(v=VS.85).aspx">DefaultSubpictureLanguageExt</a>
+<a href="mstv.msvidwebdvd_defaultsubpicturelanguageext_property">DefaultSubpictureLanguageExt</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376377(v=VS.85).aspx">SelectDefaultSubpictureLanguage</a>
+<a href="mstv.msvidwebdvd_selectdefaultsubpicturelanguage_method">SelectDefaultSubpictureLanguage</a>
 
 
 

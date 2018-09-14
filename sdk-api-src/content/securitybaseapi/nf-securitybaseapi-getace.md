@@ -4,10 +4,10 @@ title: GetAce function
 author: windows-sdk-content
 description: Obtains a pointer to an access control entry (ACE) in an access control list (ACL).
 old-location: security\getace.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 5b5d8751-20d7-40a2-bd70-cfbe956aaa03
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetAce, GetAce function [Security], _win32_getace, security.getace, securitybaseapi/GetAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,7 +126,7 @@ If the function fails, it returns zero. To get extended error information, call
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
  
 
  

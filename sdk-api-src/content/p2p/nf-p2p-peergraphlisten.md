@@ -7,7 +7,7 @@ old-location: p2p\peergraphlisten.htm
 tech.root: p2psdk
 ms.assetid: bac893d4-8f4d-4e1f-953b-1b289c5f18be
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PEER_GRAPH_SCOPE_GLOBAL, PEER_GRAPH_SCOPE_LINKLOCAL, PEER_GRAPH_SCOPE_SITELOCAL, PeerGraphListen, PeerGraphListen function [Peer Networking], p2p.peergraphlisten, p2p/PeerGraphListen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -206,9 +206,13 @@ The application  can specify the same port ID for different peer graphs, if all 
 
 The following code snippet shows how to use the <b>PeerGraphListen</b> function.
 
-
-```cpp
-    // g_hGraph is a handle to the Graph obtained from a previous successful call to PeerGraphCreate or PeerGraphOpen.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    // g_hGraph is a handle to the Graph obtained from a previous successful call to PeerGraphCreate or PeerGraphOpen.
     // dwScope should be set to the same scope used to create the graph.  This example assumes the graph was created in the Global scope.
     // g_usPort is the port to use for Graphing.  Use zero to obtain a port dynamically.
     HRESULT hr = PeerGraphListen(g_hGraph, PEER_GRAPH_SCOPE_GLOBAL, 0, g_usPort);
@@ -221,10 +225,10 @@ The following code snippet shows how to use the <b>PeerGraphListen</b> function.
     {
         // Insert your application specific code here.
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: ITStream::StartStream
 author: windows-sdk-content
 description: The StartStream method starts the stream.
 old-location: tapi3\itstream_startstream.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 23553f00-5ce5-465e-b455-8bf2d73dae9d
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITStream interface [TAPI 2.2],StartStream method, ITStream.StartStream, ITStream::StartStream, StartStream, StartStream method [TAPI 2.2], StartStream method [TAPI 2.2],ITStream interface, _tapi3_itstream_startstream, tapi3.itstream_startstream, tapi3if/ITStream::StartStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

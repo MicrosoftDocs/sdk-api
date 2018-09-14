@@ -7,7 +7,7 @@ old-location: magapi\magapi_magtransform.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magtransformstruct.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMAGTRANSFORM, MAGTRANSFORM, MAGTRANSFORM structure [Magnification API], PMAGTRANSFORM, PMAGTRANSFORM structure pointer [Magnification API], magapi.magapi_magtransform, magapi_magtransform, magnification/MAGTRANSFORM, magnification/PMAGTRANSFORM, tagMAGTRANSFORM"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,11 +87,11 @@ where <i>n</i> is the magnification factor.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692391(v=VS.85).aspx">MagGetWindowTransform</a>
+<a href="https://msdn.microsoft.com/54fc86bc-283d-44ba-85ee-a0e370d3b64c">MagGetWindowTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692398(v=VS.85).aspx">MagSetWindowTransform</a>
+<a href="https://msdn.microsoft.com/2005f7de-5275-457e-a89f-794de5c66f5a">MagSetWindowTransform</a>
 
 
 

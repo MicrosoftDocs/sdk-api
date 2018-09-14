@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tex2d_uav1.htm
 tech.root: direct3d11
 ms.assetid: 79B0E8F5-416F-4729-AF36-BA16169CDB7C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D3D11_TEX2D_UAV1, D3D11_TEX2D_UAV1 structure [Direct3D 11], d3d11_3/D3D11_TEX2D_UAV1, direct3d11.d3d11_tex2d_uav1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ The index (plane slice number) of the plane to use in the texture.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
  
 
  

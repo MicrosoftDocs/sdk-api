@@ -4,10 +4,10 @@ title: IAnalogRadioTuningSpace::get_MinFrequency
 author: windows-sdk-content
 description: The get_MinFrequency method retrieves the minimum frequency for this tuning space.
 old-location: mstv\ianalogradiotuningspace_get_minfrequency.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9e26360b-b00b-4741-a3c6-814843ff93e7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],get_MinFrequency method, IAnalogRadioTuningSpace.get_MinFrequency, IAnalogRadioTuningSpace::get_MinFrequency, IAnalogRadioTuningSpaceget_MinFrequency, get_MinFrequency, get_MinFrequency method [Microsoft TV Technologies], get_MinFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, mstv.ianalogradiotuningspace_get_minfrequency, tuner/IAnalogRadioTuningSpace::get_MinFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

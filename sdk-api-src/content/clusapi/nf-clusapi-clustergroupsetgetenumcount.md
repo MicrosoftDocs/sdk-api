@@ -7,7 +7,7 @@ old-location: mscs\clustergroupcollectiongetenumcount.htm
 tech.root: mscs
 ms.assetid: 7e5f3b47-0f31-46eb-8e71-5bd1dc27190d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ClusterGroupSetGetEnumCount, ClusterGroupSetGetEnumCount function [Failover Cluster], clusapi/ClusterGroupSetGetEnumCount, mscs.clustergroupcollectiongetenumcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Gets the number of items contained  the enumerator's collection.
 
 ### -param hGroupSetEnum [in]
 
-A handle to an enumerator returned by <a href="https://msdn.microsoft.com/en-us/library/Mt705440(v=VS.85).aspx">ClusterGroupSetOpenEnum</a>.
+A handle to an enumerator returned by <a href="https://msdn.microsoft.com/9e629cc8-2e5f-4682-a9b5-902d13a9792d">ClusterGroupSetOpenEnum</a>.
 
 
 ## -returns

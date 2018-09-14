@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createcommandallocator.htm
 tech.root: direct3d12
 ms.assetid: 28DA0D59-3DB7-4652-B1EA-3360EA85A659
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: CreateCommandAllocator, CreateCommandAllocator method, CreateCommandAllocator method,ID3D12Device interface, ID3D12Device interface,CreateCommandAllocator method, ID3D12Device.CreateCommandAllocator, ID3D12Device::CreateCommandAllocator, d3d12/ID3D12Device::CreateCommandAllocator, direct3d12.id3d12device_createcommandallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ A pointer to a memory block that receives a pointer to the <a href="https://msdn
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the command allocator.
               See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
@@ -111,14 +111,18 @@ The device creates command lists from the command allocator.
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12Device::CreateCommandAllocator</b> as follows:
         
 
-
-```cpp
-ThrowIfFailed(pDevice->CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_DIRECT, IID_PPV_ARGS(&m_commandAllocator)));
-ThrowIfFailed(pDevice->CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_BUNDLE, IID_PPV_ARGS(&m_bundleAllocator)));
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ThrowIfFailed(pDevice-&gt;CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_DIRECT, IID_PPV_ARGS(&amp;m_commandAllocator)));
+ThrowIfFailed(pDevice-&gt;CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_BUNDLE, IID_PPV_ARGS(&amp;m_bundleAllocator)));
+</pre>
+</td>
+</tr>
+</table></span></div>
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

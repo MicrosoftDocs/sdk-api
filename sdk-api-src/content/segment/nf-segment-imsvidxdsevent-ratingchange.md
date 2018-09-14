@@ -4,10 +4,10 @@ title: IMSVidXDSEvent::RatingChange
 author: windows-sdk-content
 description: The RatingChange method is called when the current rating changes.
 old-location: mstv\imsvidxdsevent_ratingchange.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 2832f99b-16e9-4c09-903d-8d89f2cc7715
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidXDSEvent interface [Microsoft TV Technologies],RatingChange method, IMSVidXDSEvent.RatingChange, IMSVidXDSEvent::RatingChange, IMSVidXDSEventRatingChange, RatingChange, RatingChange method [Microsoft TV Technologies], RatingChange method [Microsoft TV Technologies],IMSVidXDSEvent interface, mstv.imsvidxdsevent_ratingchange, segment/IMSVidXDSEvent::RatingChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_passkey_info.htm
 tech.root: bluetooth
 ms.assetid: 18f4c26a-7d71-4af0-a8df-a7722028ff62
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: "*PBLUETOOTH_PASSKEY_INFO, BLUETOOTH_PASSKEY_INFO, BLUETOOTH_PASSKEY_INFO structure [Bluetooth], PBLUETOOTH_PASSKEY_INFO, PBLUETOOTH_PASSKEY_INFO structure pointer [Bluetooth], _BLUETOOTH_PASSKEY_INFO, bluetooth.bluetooth_passkey_info, bluetoothapis/BLUETOOTH_PASSKEY_INFO, bluetoothapis/PBLUETOOTH_PASSKEY_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,15 +68,15 @@ The passkey used for authentication.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd469470(v=VS.85).aspx">BLUETOOTH_AUTHENTICATION_METHODS</a>
+<a href="https://msdn.microsoft.com/2374df2c-2f50-4a06-aaad-384d81b067c5">BLUETOOTH_AUTHENTICATION_METHODS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362770(v=VS.85).aspx">BluetoothAuthenticateDevice</a>
+<a href="https://msdn.microsoft.com/9f8ff768-a794-4a61-a215-ae17e9acf620">BluetoothAuthenticateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc766819(v=VS.85).aspx">BluetoothAuthenticateDeviceEx</a>
+<a href="https://msdn.microsoft.com/948bf14c-9661-4fe9-b082-009afd867baf">BluetoothAuthenticateDeviceEx</a>
  
 
  

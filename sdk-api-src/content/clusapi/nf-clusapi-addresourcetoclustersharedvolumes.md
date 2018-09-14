@@ -7,7 +7,7 @@ old-location: mscs\addresourcetoclustersharedvolumes.htm
 tech.root: mscs
 ms.assetid: 87C70280-5030-44b9-B949-7240BCA19C6B
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: AddResourceToClusterSharedVolumes, AddResourceToClusterSharedVolumes function [Failover Cluster], PCLUSAPI_ADD_RESOURCE_TO_CLUSTER_SHARED_VOLUMES, PCLUSAPI_ADD_RESOURCE_TO_CLUSTER_SHARED_VOLUMES function [Failover Cluster], clusapi/AddResourceToClusterSharedVolumes, clusapi/PCLUSAPI_ADD_RESOURCE_TO_CLUSTER_SHARED_VOLUMES, mscs.addresourcetoclustersharedvolumes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ If the operation succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
        <b>AddResourceToClusterSharedVolumes</b> 
-       returns one of the <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
+       returns one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_proxy_message_callback_context.htm
 tech.root: wsw
 ms.assetid: 1dfde962-7475-430a-b586-1684a173908f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WS_PROXY_MESSAGE_CALLBACK_CONTEXT, WS_PROXY_MESSAGE_CALLBACK_CONTEXT structure [Web Services for Windows], _WS_PROXY_MESSAGE_CALLBACK_CONTEXT, webservices/WS_PROXY_MESSAGE_CALLBACK_CONTEXT, wsw.ws_proxy_message_callback_context
 ms.prod: windows
 ms.technology: windows-sdk

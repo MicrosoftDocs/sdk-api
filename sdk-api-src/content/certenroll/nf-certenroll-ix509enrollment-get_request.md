@@ -4,10 +4,10 @@ title: IX509Enrollment::get_Request
 author: windows-sdk-content
 description: Retrieves the certificate request associated with the enrollment object.
 old-location: security\ix509enrollment_request_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: dc754240-9c52-459e-9612-caf19eeb351c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509Enrollment interface [Security],Request property, IX509Enrollment.Request, IX509Enrollment.get_Request, IX509Enrollment::Request, IX509Enrollment::get_Request, Request property [Security], Request property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Request, certenroll/IX509Enrollment::get_Request, get_Request, security.ix509enrollment_request_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-This property can be set when the <a href="https://msdn.microsoft.com/en-us/library/Aa377872(v=VS.85).aspx">InitializeFromRequest</a> method is called.
+This property can be set when the <a href="https://msdn.microsoft.com/04cb00af-f786-4548-bee3-2cc5083278c3">InitializeFromRequest</a> method is called.
 
 
 
@@ -73,7 +73,7 @@ This property can be set when the <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a>
+<a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a>
  
 
  

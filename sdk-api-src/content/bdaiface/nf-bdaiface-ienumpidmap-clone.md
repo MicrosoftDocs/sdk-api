@@ -7,7 +7,7 @@ old-location: dshow\ienumpidmap_clone.htm
 tech.root: DirectShow
 ms.assetid: 4d965a71-ff5e-4d4a-8976-0de5b8bbae04
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumPIDMap interface, IEnumPIDMap interface [DirectShow],Clone method, IEnumPIDMap.Clone, IEnumPIDMap::Clone, IEnumPIDMapClone, bdaiface/IEnumPIDMap::Clone, dshow.ienumpidmap_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ The <code>Clone</code> method creates a copy the collection.
 
 ### -param ppIEnumPIDMap [out]
 
-Receives an <a href="https://msdn.microsoft.com/en-us/library/Dd376605(v=VS.85).aspx">IEnumPIDMap</a> interface pointer, representing the new collection. The caller must release the interface.
+Receives an <a href="https://msdn.microsoft.com/d46010c4-0f16-4c97-ad10-16f7ac250390">IEnumPIDMap</a> interface pointer, representing the new collection. The caller must release the interface.
 
 
 ## -returns
@@ -131,11 +131,11 @@ The caller must release the returned <b>IEnumPIDMap</b> interface.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376605(v=VS.85).aspx">IEnumPIDMap Interface</a>
+<a href="https://msdn.microsoft.com/d46010c4-0f16-4c97-ad10-16f7ac250390">IEnumPIDMap Interface</a>
  
 
  

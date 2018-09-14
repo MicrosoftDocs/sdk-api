@@ -7,7 +7,7 @@ old-location: netmgmt\netgetdcname.htm
 tech.root: netmgmt
 ms.assetid: 3e32aacc-088e-455a-bc1b-92274e98d2e5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: NetGetDCName, NetGetDCName function [Network Management], _win32_netgetdcname, lmaccess/NetGetDCName, netmgmt.netgetdcname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -160,17 +160,21 @@ The following code sample demonstrates how to retrieve the primary domain contro
 <b>NetGetDCName</b> function. The sample calls 
 <b>NetGetDCName</b> specifying the servername and domainname parameters. If the call succeeds, the code prints information out the name of the primary domain controller. Finally, the sample frees the memory allocated for the buffer where the domain controller name was returned.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include <stdio.h>
-#include <stdlib.h>  // for _wtoi function
-#include <assert.h>
-#include <windows.h>
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;  // for _wtoi function
+#include &lt;assert.h&gt;
+#include &lt;windows.h&gt;
+#include &lt;lm.h&gt;
 
 // Need to link with netapi32.lib
 #pragma comment(lib, "netapi32.lib")
@@ -186,7 +190,7 @@ int wmain(int argc, wchar_t * argv[])
     LPCWSTR lpDcName = NULL;
     
     if (argc != 3 ) {
-        wprintf(L"Usage: %ws <ServerName> <DomainName>\n",
+        wprintf(L"Usage: %ws &lt;ServerName&gt; &lt;DomainName&gt;\n",
                 argv[0]);
         wprintf(L"     %ws Myserver Domain\n", argv[0]);
         exit(1);
@@ -202,7 +206,7 @@ int wmain(int argc, wchar_t * argv[])
     //
     // Call the NetGetDCName function
     //
-    nStatus = NetGetDCName(lpServer, lpDomain, (LPBYTE *) &lpDcName);
+    nStatus = NetGetDCName(lpServer, lpDomain, (LPBYTE *) &amp;lpDcName);
     //
     // If the call succeeds,
     //
@@ -263,10 +267,10 @@ int wmain(int argc, wchar_t * argv[])
 
     return nStatus;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

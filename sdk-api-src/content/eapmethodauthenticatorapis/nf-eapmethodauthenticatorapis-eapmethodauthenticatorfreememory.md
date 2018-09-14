@@ -4,10 +4,10 @@ title: EapMethodAuthenticatorFreeMemory function
 author: windows-sdk-content
 description: Releases all memory associated with an opaque user interface context data buffer.
 old-location: eaphost\eapmethodauthenticatorfreememory.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 9ec9f468-4589-4832-9f17-ddc0b64b88f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EapMethodAuthenticatorFreeMemory, EapMethodAuthenticatorFreeMemory function [EAPHost], eaphost.eapmethodauthenticatorfreememory, eapmethodauthenticatorapis/EapMethodAuthenticatorFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

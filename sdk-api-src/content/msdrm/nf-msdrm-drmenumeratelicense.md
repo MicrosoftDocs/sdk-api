@@ -4,10 +4,10 @@ title: DRMEnumerateLicense function
 author: windows-sdk-content
 description: Enumerates valid licenses, machine certificates or rights account certificates, revocation lists for the current user, or issuance license templates.
 old-location: rm\drmenumeratelicense.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 7a7797f2-d219-4a17-ac3d-96134cd14a55
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMEnumerateLicense, DRMEnumerateLicense function [Active Directory Rights Management Services SDK 1.0], DRM_EL_CLIENTLICENSOR, DRM_EL_CLIENTLICENSOR_LID, DRM_EL_EUL, DRM_EL_EUL_LID, DRM_EL_EXPIRED, DRM_EL_GROUPIDENTITY, DRM_EL_GROUPIDENTITY_LID, DRM_EL_GROUPIDENTITY_NAME, DRM_EL_ISSUANCELICENSE_TEMPLATE, DRM_EL_ISSUANCELICENSE_TEMPLATE_LID, DRM_EL_ISSUERNAME, DRM_EL_MACHINE, DRM_EL_REVOCATIONLIST, DRM_EL_REVOCATIONLIST_LID, DRM_EL_SPECIFIED_CLIENTLICENSOR, DRM_EL_SPECIFIED_GROUPIDENTITY, msdrm/DRMEnumerateLicense, rm.drmenumeratelicense
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
-The <b>DRMEnumerateLicense</b> function enumerates valid licenses, <a href="https://msdn.microsoft.com/en-us/library/Aa362706(v=VS.85).aspx">machine certificates</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificates</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">revocation lists</a> for the current user, or issuance license templates.
+The <b>DRMEnumerateLicense</b> function enumerates valid licenses, <a href="m_gly.htm">machine certificates</a> or <a href="r_gly.htm">rights account certificates</a>, <a href="r_gly.htm">revocation lists</a> for the current user, or issuance license templates.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The <b>DRMEnumerateLicense</b> function enumerates valid licenses, <a href="http
 
 ### -param hSession [in]
 
-A handle to a client or license storage session. The type of session passed into <i>hSession</i> depends on the type of item to enumerate. To enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa362618(v=VS.85).aspx">end-user licenses</a>, use a license storage session created by using the <a href="https://msdn.microsoft.com/6561b6df-373b-4bd3-9196-09ef945f8042">DRMCreateLicenseStorageSession</a> function. To enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa362706(v=VS.85).aspx">machine certificates</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificates</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa362374(v=VS.85).aspx">client licensor certificates</a>, or issuance license templates, use a client session created by using the <a href="https://msdn.microsoft.com/4b8928a0-1d72-47ee-a357-47fb5777d60c">DRMCreateClientSession</a> function. Use either type of handle to enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">revocation lists</a>.
+A handle to a client or license storage session. The type of session passed into <i>hSession</i> depends on the type of item to enumerate. To enumerate <a href="e_gly.htm">end-user licenses</a>, use a license storage session created by using the <a href="https://msdn.microsoft.com/6561b6df-373b-4bd3-9196-09ef945f8042">DRMCreateLicenseStorageSession</a> function. To enumerate <a href="m_gly.htm">machine certificates</a>, <a href="r_gly.htm">rights account certificates</a>, <a href="c_gly.htm">client licensor certificates</a>, or issuance license templates, use a client session created by using the <a href="https://msdn.microsoft.com/4b8928a0-1d72-47ee-a357-47fb5777d60c">DRMCreateClientSession</a> function. Use either type of handle to enumerate <a href="r_gly.htm">revocation lists</a>.
 
 
 ### -param uFlags [in]
@@ -88,7 +88,7 @@ The following flag can be combined with other flags to specify additional enumer
 Use this value with flags used to enumerate identifiers, such as <b>DRM_EL_GROUPIDENTITY_LID</b>, to enumerate expired items of the specified type. This simplifies deleting expired items from the license store, keeping the store small and improving performance.
 
 
-The following flags are used to enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa362618(v=VS.85).aspx">end-user licenses</a>.
+The following flags are used to enumerate <a href="e_gly.htm">end-user licenses</a>.
 
 
 
@@ -96,16 +96,16 @@ The following flags are used to enumerate <a href="https://msdn.microsoft.com/en
 
 #### DRM_EL_EUL
 
-Enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa362618(v=VS.85).aspx">end-user licenses</a> for the current license storage session.
+Enumerate <a href="e_gly.htm">end-user licenses</a> for the current license storage session.
 
 
 
 #### DRM_EL_EUL_LID
 
-Enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa362618(v=VS.85).aspx">end-user license</a> identifiers for the current license storage session. The identifier of each <i>end-user license</i> is returned in the <i>wszCertificateData</i> parameter.
+Enumerate <a href="e_gly.htm">end-user license</a> identifiers for the current license storage session. The identifier of each <i>end-user license</i> is returned in the <i>wszCertificateData</i> parameter.
 
 
-The following flags are used to enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa362374(v=VS.85).aspx">client licensor certificates</a>. These flags allow an application to enumerate through licensors in licenses available to the current user.
+The following flags are used to enumerate <a href="c_gly.htm">client licensor certificates</a>. These flags allow an application to enumerate through licensors in licenses available to the current user.
 
 
 
@@ -113,22 +113,22 @@ The following flags are used to enumerate <a href="https://msdn.microsoft.com/en
 
 #### DRM_EL_CLIENTLICENSOR
 
-Enumerate all <a href="https://msdn.microsoft.com/en-us/library/Aa362374(v=VS.85).aspx">client licensor certificates</a> in the certificate store.
+Enumerate all <a href="c_gly.htm">client licensor certificates</a> in the certificate store.
 
 
 
 #### DRM_EL_CLIENTLICENSOR_LID
 
-Enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa362374(v=VS.85).aspx">client licensor certificates</a> identifiers for the client session passed in. The client licensor certificate identifier is returned in the <i>wszCertificateData</i> parameter.
+Enumerate <a href="c_gly.htm">client licensor certificates</a> identifiers for the client session passed in. The client licensor certificate identifier is returned in the <i>wszCertificateData</i> parameter.
 
 
 
 #### DRM_EL_SPECIFIED_CLIENTLICENSOR
 
-Return the <a href="https://msdn.microsoft.com/en-us/library/Aa362374(v=VS.85).aspx">client licensor certificate</a> that corresponds to the email address in the client session.
+Return the <a href="c_gly.htm">client licensor certificate</a> that corresponds to the email address in the client session.
 
 
-The following flag is  used to enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa362706(v=VS.85).aspx">machine certificates</a>.
+The following flag is  used to enumerate <a href="m_gly.htm">machine certificates</a>.
 
 
 
@@ -136,7 +136,7 @@ The following flag is  used to enumerate <a href="https://msdn.microsoft.com/en-
 
 #### DRM_EL_MACHINE
 
-Enumerate the selected <a href="https://msdn.microsoft.com/en-us/library/Aa362706(v=VS.85).aspx">machine certificate</a>. 
+Enumerate the selected <a href="m_gly.htm">machine certificate</a>. 
 
 Each user has  two machine certificates. The valid index value for machine certificates is zero or one.
 
@@ -151,7 +151,7 @@ If  <i>hSession</i> was created by a call to <a href="https://msdn.microsoft.com
 The machine must be activated before specifying this flag. If the machine is not activated, the function will return <b>E_DRM_NEEDS_MACHINE_ACTIVATION</b>.
 
 
-The following flags are used to enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificates</a>.
+The following flags are used to enumerate <a href="r_gly.htm">rights account certificates</a>.
 
 
 
@@ -159,13 +159,13 @@ The following flags are used to enumerate <a href="https://msdn.microsoft.com/en
 
 #### DRM_EL_GROUPIDENTITY
 
-Enumerate the <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificates</a> for the currently logged-in user. This includes both shared and restricted users.
+Enumerate the <a href="r_gly.htm">rights account certificates</a> for the currently logged-in user. This includes both shared and restricted users.
 
 
 
 #### DRM_EL_GROUPIDENTITY_LID
 
-Enumerate the <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificates</a> identifiers for the currently logged-in user. This includes both shared and restricted users. The <i>rights account certificates</i> identifier will be returned in the <i>wszCertificateData</i> parameter.
+Enumerate the <a href="r_gly.htm">rights account certificates</a> identifiers for the currently logged-in user. This includes both shared and restricted users. The <i>rights account certificates</i> identifier will be returned in the <i>wszCertificateData</i> parameter.
 
 
 
@@ -177,12 +177,12 @@ Enumerate the rights account names for the current user.
 
 #### DRM_EL_SPECIFIED_GROUPIDENTITY
 
-Return the <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificates</a> for the specified user when the client session was created by using the <a href="https://msdn.microsoft.com/4b8928a0-1d72-47ee-a357-47fb5777d60c">DRMCreateClientSession</a> function.
+Return the <a href="r_gly.htm">rights account certificates</a> for the specified user when the client session was created by using the <a href="https://msdn.microsoft.com/4b8928a0-1d72-47ee-a357-47fb5777d60c">DRMCreateClientSession</a> function.
 
 
-The following flags are used to enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">revocation lists</a>.
+The following flags are used to enumerate <a href="r_gly.htm">revocation lists</a>.
 
-All certificates can include <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">revocation lists</a>, so you can pass in either a client or license storage session to this function. A client session handle passed in will retrieve <i>revocation lists</i> for <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificates</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa362374(v=VS.85).aspx">client licensor certificates</a>. A license storage session handle passed in will retrieve <i>revocation lists</i> for <a href="https://msdn.microsoft.com/en-us/library/Aa362618(v=VS.85).aspx">end-user licenses</a>.
+All certificates can include <a href="r_gly.htm">revocation lists</a>, so you can pass in either a client or license storage session to this function. A client session handle passed in will retrieve <i>revocation lists</i> for <a href="r_gly.htm">rights account certificates</a> or <a href="c_gly.htm">client licensor certificates</a>. A license storage session handle passed in will retrieve <i>revocation lists</i> for <a href="e_gly.htm">end-user licenses</a>.
 
 
 
@@ -190,13 +190,13 @@ All certificates can include <a href="https://msdn.microsoft.com/en-us/library/A
 
 #### DRM_EL_REVOCATIONLIST
 
-Enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">revocation lists</a>.
+Enumerate <a href="r_gly.htm">revocation lists</a>.
 
 
 
 #### DRM_EL_REVOCATIONLIST_LID
 
-Enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">revocation list</a> identifiers. The revocation list identifier will be returned in the <i>wszCertificateData</i> parameter.
+Enumerate <a href="r_gly.htm">revocation list</a> identifiers. The revocation list identifier will be returned in the <i>wszCertificateData</i> parameter.
 
 
 The following flag can be used to retrieve the display name of the issuer.
@@ -324,20 +324,24 @@ Perform the following steps to enumerate revocation lists:<ol>
 
 You must call <b>DRMEnumerateLicense</b> twice to retrieve one license. Set the <i>wszCertificateData</i> to <b>NULL</b> on the first call to retrieve the required buffer size. Allocate memory and call <b>DRMEnumerateLicense</b> again. This is illustrated by the following example.
 
-
-```cpp
-// Call DRMEnumerateLicense with the wszCertificateData parameter set
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Call DRMEnumerateLicense with the wszCertificateData parameter set
 // to NULL.
 hr = DRMEnumerateLicense( 
          hClient,                          // Client session handle
          DRM_EL_SPECIFIED_CLIENTLICENSOR,  // Flags
          0,                                // Index
-         &fShared,                         // Shared license
-         &uiClientLicensorCertLength,      // Certificate length
+         &amp;fShared,                         // Shared license
+         &amp;uiClientLicensorCertLength,      // Certificate length
          NULL                              // Certificate
          );
 
-if ( FAILED( hr ) && ( E_DRM_NO_MORE_DATA != hr ) )
+if ( FAILED( hr ) &amp;&amp; ( E_DRM_NO_MORE_DATA != hr ) )
 {
    goto e_Exit;
 }
@@ -364,8 +368,8 @@ else
          hClient,                          // Client session handle
          DRM_EL_SPECIFIED_CLIENTLICENSOR,  // Flags
          0,                                // Index
-         &fShared,                         // Shared license
-         &uiClientLicensorCertLength,      // Certificate length
+         &amp;fShared,                         // Shared license
+         &amp;uiClientLicensorCertLength,      // Certificate length
          wszClientLicensorCert             // Certificate
          );
 
@@ -400,10 +404,10 @@ e_Exit:
 
     return hr;
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

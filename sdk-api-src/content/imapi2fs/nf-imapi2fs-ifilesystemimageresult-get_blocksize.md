@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimageresult_get_blocksize.htm
 tech.root: imapi
 ms.assetid: fe6d14d7-f3ae-4634-b8b4-1793f8007826
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_BlockSize method, IFileSystemImageResult.get_BlockSize, IFileSystemImageResult::get_BlockSize, get_BlockSize, get_BlockSize method [IMAPI], get_BlockSize method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_blocksize, imapi2fs/IFileSystemImageResult::get_BlockSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

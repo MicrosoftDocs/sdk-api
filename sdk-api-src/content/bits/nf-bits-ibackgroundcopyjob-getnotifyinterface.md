@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetNotifyInterface
 author: windows-sdk-content
 description: Retrieves the interface pointer to your implementation of the IBackgroundCopyCallback interface.
 old-location: bits\ibackgroundcopyjob_getnotifyinterface.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 6a954fbc-baf6-4efa-bec0-dd86b4b7a916
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetNotifyInterface, GetNotifyInterface method [BITS], GetNotifyInterface method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNotifyInterface method, IBackgroundCopyJob.GetNotifyInterface, IBackgroundCopyJob::GetNotifyInterface, _drz_ibackgroundcopyjob_getnotifyinterface, bits.ibackgroundcopyjob_getnotifyinterface, bits/IBackgroundCopyJob::GetNotifyInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 Retrieves the interface pointer to your implementation of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> interface.
+<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> interface.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ TBD
 #### - ppNotifyInterface [out]
 
 Interface pointer to your implementation of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> interface. When done, release <i>ppNotifyInterface</i>.
+<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> interface. When done, release <i>ppNotifyInterface</i>.
 
 
 ## -returns
@@ -116,15 +116,15 @@ Must pass the address of the <i>ppNotifyInterface</i> interface pointer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a>
+<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363030(v=VS.85).aspx">IBackgroundCopyJob::GetNotifyFlags</a>
+<a href="https://msdn.microsoft.com/a4407816-a4c5-4734-9686-46d5a8133c2f">IBackgroundCopyJob::GetNotifyFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363045(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyInterface</a>
+<a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a>
  
 
  

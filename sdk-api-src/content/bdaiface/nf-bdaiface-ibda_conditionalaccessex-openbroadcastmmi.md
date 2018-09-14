@@ -4,10 +4,10 @@ title: IBDA_ConditionalAccessEx::OpenBroadcastMmi
 author: windows-sdk-content
 description: Responds to a BroadcastMMI event.
 old-location: mstv\ibda_conditionalaccessex_openbroadcastmmi.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 15390805-ff09-4dca-b00d-ad2f3641911b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],OpenBroadcastMmi method, IBDA_ConditionalAccessEx.OpenBroadcastMmi, IBDA_ConditionalAccessEx::OpenBroadcastMmi, OpenBroadcastMmi, OpenBroadcastMmi method [Microsoft TV Technologies], OpenBroadcastMmi method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, bdaiface/IBDA_ConditionalAccessEx::OpenBroadcastMmi, mstv.ibda_conditionalaccessex_openbroadcastmmi
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693262(v=VS.85).aspx">IBDA_ConditionalAccessEx</a>
+<a href="https://msdn.microsoft.com/9db9b6b1-fc4f-48f0-940e-d79a321ef094">IBDA_ConditionalAccessEx</a>
  
 
  

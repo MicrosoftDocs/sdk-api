@@ -7,7 +7,7 @@ old-location: cos\imanagedactivationevents_createmanagedstub.htm
 tech.root: cossdk
 ms.assetid: a2ba7ece-ac17-42fb-b22f-976ad849eca5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CreateManagedStub, CreateManagedStub method [COM+], CreateManagedStub method [COM+],IManagedActivationEvents interface, IManagedActivationEvents interface [COM+],CreateManagedStub method, IManagedActivationEvents.CreateManagedStub, IManagedActivationEvents::CreateManagedStub, _cos_IManagedActivationEvents_CreateManagedStub, comsvcs/IManagedActivationEvents::CreateManagedStub, cos.imanagedactivationevents_createmanagedstub
 ms.prod: windows-hardware
 ms.technology: windows-devices

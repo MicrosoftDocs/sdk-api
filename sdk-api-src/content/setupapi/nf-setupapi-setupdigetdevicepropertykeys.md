@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdevicepropertykeys.htm
 tech.root: devinst
 ms.assetid: d4decdab-e412-4719-ad65-74f34cf8df27
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: SetupDiGetDevicePropertyKeys, SetupDiGetDevicePropertyKeys function [Device and Driver Installation], devinst.setupdigetdevicepropertykeys, di-rtns_49d5f09f-3d86-4292-a389-e6a0ee0946b6.xml, setupapi/SetupDiGetDevicePropertyKeys
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>SetupDiGetDevicePropertyKeys</b> function retrieves an array of the devic
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a>. This device information set contains the device instance for which this function retrieves an array of device property keys. The property keys represent the device properties that are set for the device instance. 
+A handle to a <a href="devinst.device_information_sets">device information set</a>. This device information set contains the device instance for which this function retrieves an array of device property keys. The property keys represent the device properties that are set for the device instance. 
 
 
 ### -param DeviceInfoData [in]
@@ -200,7 +200,7 @@ There was not enough system memory available to complete the operation.
 
 
 
-<b>SetupDiGetDevicePropertyKeys</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>. 
+<b>SetupDiGetDevicePropertyKeys</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>. 
 
 If the <i>ProperKeyArray</i> buffer is not large enough to hold all the requested property keys, <b>SetupDiGetDevicePropertyKeys</b> does not retrieve any property keys and returns ERROR_INSUFFICIENT_BUFFER. If the caller supplied a <i>RequiredPropertyKeyCount</i> pointer, <b>SetupDiGetDevicePropertyKeys</b> sets the value of *<i>RequiredPropertyKeyCount</i> to the required size, in DEVPROPKEY-typed values, of the <i>PropertyKeyArray </i>buffer<i>.</i>
 

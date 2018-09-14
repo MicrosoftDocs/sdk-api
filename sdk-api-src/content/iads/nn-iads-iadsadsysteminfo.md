@@ -7,7 +7,7 @@ old-location: adsi\iadsadsysteminfo.htm
 tech.root: ADSI
 ms.assetid: 5573d37b-10a8-4176-80c7-711552ff36cb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: ADSystemInfo, IADsADSystemInfo, IADsADSystemInfo interface [ADSI], IADsADSystemInfo interface [ADSI],described, _ds_iadsadsysteminfo, adsi.iadsadsysteminfo, iads/IADsADSystemInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,35 +53,47 @@ req.redist:
 
 The <b>IADsADSystemInfo</b> interface retrieves data about the local computer if it is running a Windows operating system in a Windows domain. For example, you can get the domain, site, and distinguished name of the local computer.
 
-The <b>IADsADSystemInfo</b> interface is implemented on the <b>ADSystemInfo</b> object residing in adsldp.dll, which is included with the standard installation of ADSI on Windows 2000. You must explicitly create an instance of the <b>ADSystemInfo</b> object in order to call the methods on the <b>IADsADSystemInfo</b> interface. This requirement amounts to creating an <b>ADSystemInfo</b> instance with the  <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function in C/C++.
-
-```cpp
-IADsADSystemInfo *pADsys;
+The <b>IADsADSystemInfo</b> interface is implemented on the <b>ADSystemInfo</b> object residing in adsldp.dll, which is included with the standard installation of ADSI on Windows 2000. You must explicitly create an instance of the <b>ADSystemInfo</b> object in order to call the methods on the <b>IADsADSystemInfo</b> interface. This requirement amounts to creating an <b>ADSystemInfo</b> instance with the  <a href="_com_cocreateinstance">CoCreateInstance</a> function in C/C++.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsADSystemInfo *pADsys;
 HRESULT hr = CoCreateInstance(CLSID_ADSystemInfo,
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IADsADSystemInfo,
-                              (void**)&pADsys);
-```
-
-You can also use the <b>New</b> operator in Visual Basic.
-
-```vb
-Dim adSys as New ADSystemInfo
-```
-
-Or you can call the <b>CreateObject</b> function in a scripting environment, supplying "ADSystemInfo" as the ProgID.
-
-```vb
-Dim adSys
-Set adSys = CreateObject("ADSystemInfo")
-```
-
-
+                              (void**)&amp;pADsys);</pre>
+</td>
+</tr>
+</table></span></div>You can also use the <b>New</b> operator in Visual Basic.
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim adSys as New ADSystemInfo</pre>
+</td>
+</tr>
+</table></span></div>Or you can call the <b>CreateObject</b> function in a scripting environment, supplying "ADSystemInfo" as the ProgID.
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim adSys
+Set adSys = CreateObject("ADSystemInfo")</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsADSystemInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsADSystemInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsADSystemInfo</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IADsADSystemInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -291,7 +303,7 @@ Retrieves the Active Directory distinguished name of the current user, which is 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="_com_cocreateinstance">CoCreateInstance</a>
 
 
 
@@ -299,7 +311,7 @@ Retrieves the Active Directory distinguished name of the current user, which is 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

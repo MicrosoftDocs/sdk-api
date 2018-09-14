@@ -7,7 +7,7 @@ old-location: cos\comsvcseventinfo.htm
 tech.root: cossdk
 ms.assetid: f4aa0892-4c93-42ea-adc6-1b304b917389
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: COMSVCSEVENTINFO, COMSVCSEVENTINFO structure [COM+], __MIDL___MIDL_itf_autosvcs_0000_0013_0001, _dtc_Event_Structure, comsvcs/COMSVCSEVENTINFO, cos.comsvcseventinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -178,23 +178,23 @@ The fully qualified name of the computer where the event originated.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685160(v=VS.85).aspx">IComThreadEvents</a>
+<a href="https://msdn.microsoft.com/a6523088-cca4-41c1-a3fe-d8cb7320ff33">IComThreadEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686099(v=VS.85).aspx">IComTrackingInfoEvents</a>
+<a href="https://msdn.microsoft.com/bed709ca-5083-4073-a9f9-2b7b7f14cf87">IComTrackingInfoEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678948(v=VS.85).aspx">IComTransaction2Events</a>
+<a href="https://msdn.microsoft.com/103776c8-1cdc-46a5-a2ce-54163726e602">IComTransaction2Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688162(v=VS.85).aspx">IComTransactionEvents</a>
+<a href="https://msdn.microsoft.com/f28a0ef5-1c9a-4fdc-bb10-2c381f22f5e3">IComTransactionEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685103(v=VS.85).aspx">IComUserEvent</a>
+<a href="https://msdn.microsoft.com/a443b54a-018f-48a0-b61c-9e18e9567a22">IComUserEvent</a>
  
 
  

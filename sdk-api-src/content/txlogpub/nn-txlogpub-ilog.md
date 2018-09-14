@@ -7,7 +7,7 @@ old-location: com\ilog.htm
 tech.root: com
 ms.assetid: 93f2be99-0799-4047-ae4e-62f0e74d15c3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: ILog, ILog interface [COM], ILog interface [COM],described, _com_ilog, com.ilog, txlogpub/ILog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ The <a href="https://msdn.microsoft.com/c8656542-ebfa-4e0a-9199-ed9632ed1ede">Co
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILog</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ILog</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILog</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>ILog</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

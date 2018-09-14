@@ -4,10 +4,10 @@ title: IESIsdbCasResponseEvent::GetRequestId
 author: windows-sdk-content
 description: Gets the request identifier returned in an IsdbCasResponse event. The request identifier identifies the request originated by a PBDA media sink device (MSD).
 old-location: mstv\iesisdbcasresponseevent_getrequestid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: b3ab39b4-567f-49a5-b3d2-460ec648ab26
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetRequestId, GetRequestId method [DirectShow], GetRequestId method [DirectShow],IESIsdbCasResponseEvent interface, IESIsdbCasResponseEvent interface [DirectShow],GetRequestId method, IESIsdbCasResponseEvent.GetRequestId, IESIsdbCasResponseEvent::GetRequestId, mstv.iesisdbcasresponseevent_getrequestid, tuner/IESIsdbCasResponseEvent::GetRequestId
 ms.prod: windows-hardware
 ms.technology: windows-devices

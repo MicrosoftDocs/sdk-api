@@ -4,10 +4,10 @@ title: tagNetworkSoH
 author: windows-sdk-content
 description: Defines the wire SoH protocol.
 old-location: nap\networksoh_struct.htm
-tech.root: nap
+tech.root: NAP
 ms.assetid: 7b1d4563-4758-40d8-be6c-51533bbcb09e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: NetworkSoH, NetworkSoH structure [NAP], NetworkSoHRequest, NetworkSoHRequest structure [NAP], NetworkSoHResponse, NetworkSoHResponse structure [NAP], nap.networksoh_struct, naptypes/NetworkSoH, naptypes/NetworkSoHRequest, naptypes/NetworkSoHResponse, tagNetworkSoH
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SetFileValidData function
 author: windows-sdk-content
 description: Sets the valid data length of the specified file. This function is useful in very limited scenarios. For more information, see the Remarks section.
 old-location: fs\setfilevaliddata.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: c6ded2d7-270a-4b75-b2d4-1007a92fe831
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SetFileValidData, SetFileValidData function [Files], _win32_setfilevaliddata, base.setfilevaliddata, fileapi/SetFileValidData, fs.setfilevaliddata, winbase/SetFileValidData
 ms.prod: windows-hardware
 ms.technology: windows-devices

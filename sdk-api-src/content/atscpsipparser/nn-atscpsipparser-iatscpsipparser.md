@@ -4,10 +4,10 @@ title: IAtscPsipParser
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IAtscPsipParser interface retrieves ATSC Program and System Information Protocol (PSIP) tables.
 old-location: mstv\iatscpsipparser.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: dbe922b3-b843-4eaa-807d-5608cfbb9686
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], IAtscPsipParser interface [Microsoft TV Technologies],described, IAtscPsipParserInterface, atscpsipparser/IAtscPsipParser, mstv.iatscpsipparser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -182,12 +182,16 @@ Initializes the ATSC PSIP parser.
 
 To get a pointer to this interface, call <b>CoCreateInstance</b>. Use the following CLSID:
 
-
-```cpp
-3508C064-B94E-420b-A821-20C8096FAADC
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>3508C064-B94E-420b-A821-20C8096FAADC</pre>
+</td>
+</tr>
+</table></span></div>
 This CLSID is not is not published in an SDK header; define a new GUID constant in your application.
 
 You must call <a href="https://msdn.microsoft.com/7a4d4d17-4fc5-481c-bcf8-0f68b2f0a8e2">Initialize</a> before calling any other methods on the object.

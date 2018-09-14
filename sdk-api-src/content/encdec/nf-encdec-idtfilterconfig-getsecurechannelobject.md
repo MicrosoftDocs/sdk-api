@@ -4,10 +4,10 @@ title: IDTFilterConfig::GetSecureChannelObject
 author: windows-sdk-content
 description: The GetSecureChannelObject method retrieves the secure channel object used to decrypt the stream.
 old-location: mstv\idtfilterconfig_getsecurechannelobject.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 84057a08-b15f-4738-814d-c016507ac590
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetSecureChannelObject, GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies],IDTFilterConfig interface, IDTFilterConfig interface [Microsoft TV Technologies],GetSecureChannelObject method, IDTFilterConfig.GetSecureChannelObject, IDTFilterConfig::GetSecureChannelObject, IDTFilterConfigGetSecureChannelObject, encdec/IDTFilterConfig::GetSecureChannelObject, mstv.idtfilterconfig_getsecurechannelobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

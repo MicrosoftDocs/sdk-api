@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo_setcomputerenabled.htm
 tech.root: GPMC
 ms.assetid: 22d6fd46-9d6f-455e-8f01-96fc3f44b335
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GPMGPO class [GPMC],SetComputerEnabled method, IGPMGPO interface [GPMC],SetComputerEnabled method, IGPMGPO.SetComputerEnabled, IGPMGPO::SetComputerEnabled, SetComputerEnabled, SetComputerEnabled method [GPMC], SetComputerEnabled method [GPMC],GPMGPO class, SetComputerEnabled method [GPMC],IGPMGPO interface, _win32_igpmgpo_setcomputerenabled, gpmc.igpmgpo_setcomputerenabled, gpmgmt/IGPMGPO::SetComputerEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

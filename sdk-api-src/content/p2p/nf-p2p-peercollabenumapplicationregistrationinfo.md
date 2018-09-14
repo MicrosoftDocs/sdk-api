@@ -7,7 +7,7 @@ old-location: p2p\peercollabenumapplicationregistrationinfo.htm
 tech.root: p2psdk
 ms.assetid: 635af767-a4b5-4c48-9966-35c1a629db5d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerCollabEnumApplicationRegistrationInfo, PeerCollabEnumApplicationRegistrationInfo function [Peer Networking], p2p.peercollabenumapplicationregistrationinfo, p2p/PeerCollabEnumApplicationRegistrationInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

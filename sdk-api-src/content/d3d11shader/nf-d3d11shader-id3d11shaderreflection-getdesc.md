@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_getdesc.htm
 tech.root: direct3d11
 ms.assetid: 88bebd52-5da0-473e-8f26-63a82ce99938
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetDesc method, ID3D11ShaderReflection.GetDesc, ID3D11ShaderReflection::GetDesc, af085ff0-7b2a-4e9e-cdad-aaa679defcc1, d3d11shader/ID3D11ShaderReflection::GetDesc, direct3d11.id3d11shaderreflection_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,18 +60,18 @@ Get a shader description.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476209(v=VS.85).aspx">D3D11_SHADER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/25c8f773-e319-4ba1-b332-d45b8323e8c8">D3D11_SHADER_DESC</a>*</b>
 
-A pointer to a shader description. See <a href="https://msdn.microsoft.com/en-us/library/Ff476209(v=VS.85).aspx">D3D11_SHADER_DESC</a>.
+A pointer to a shader description. See <a href="https://msdn.microsoft.com/25c8f773-e319-4ba1-b332-d45b8323e8c8">D3D11_SHADER_DESC</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
 
 
@@ -90,7 +90,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476590(v=VS.85).aspx">ID3D11ShaderReflection Interface</a>
+<a href="https://msdn.microsoft.com/a28cca72-7f2d-416a-bfa9-4d1f71fc98d5">ID3D11ShaderReflection Interface</a>
  
 
  

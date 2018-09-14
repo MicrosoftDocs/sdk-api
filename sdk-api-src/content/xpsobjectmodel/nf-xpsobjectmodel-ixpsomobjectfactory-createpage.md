@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createpage.htm
 tech.root: printdocs
 ms.assetid: 9212ccd8-0793-40cc-bab5-609ea74715f7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CreatePage, CreatePage method [XPS Documents and Packaging], CreatePage method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePage method, IXpsOMObjectFactory.CreatePage, IXpsOMObjectFactory::CreatePage, xps.ixpsomobjectfactory_createpage, xpsobjectmodel/IXpsOMObjectFactory::CreatePage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,9 +151,13 @@ The method succeeded.
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMPage        *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -168,38 +172,38 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreatePartUri(partUriString, &partUri);
+    hr = xpsFactory-&gt;CreatePartUri(partUriString, &amp;partUri);
     if (SUCCEEDED(hr))
     {
-        hr = xpsFactory->CreatePage (
-            &pageDimensions,
+        hr = xpsFactory-&gt;CreatePage (
+            &amp;pageDimensions,
             language,
             partUri,
-            &newInterface);
+            &amp;newInterface);
 
         if (SUCCEEDED(hr))
         {
             // use newInterface
 
-            newInterface->Release();
+            newInterface-&gt;Release();
         }
-        partUri->Release();
+        partUri-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

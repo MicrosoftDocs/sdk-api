@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawpalette.htm
 tech.root: directdraw
 ms.assetid: 82dad1d4-2368-4cb0-a45c-0de894b016b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IDirectDrawPalette, IDirectDrawPalette interface [DirectDraw], IDirectDrawPalette interface [DirectDraw],described, ddraw/IDirectDrawPalette, directdraw.idirectdrawpalette
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,13 +144,17 @@ You can use the LPDIRECTDRAWPALETTE data type to declare a variable that contain
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct IDirectDrawPalette    FAR *LPDIRECTDRAWPALETTE;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

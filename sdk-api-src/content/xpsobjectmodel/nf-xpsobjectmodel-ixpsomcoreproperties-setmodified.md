@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_setmodified.htm
 tech.root: printdocs
 ms.assetid: 172f49b9-850d-46f0-bed1-678a070a7ae8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetModified method, IXpsOMCoreProperties.SetModified, IXpsOMCoreProperties::SetModified, SetModified, SetModified method [XPS Documents and Packaging], SetModified method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setmodified, xpsobjectmodel/IXpsOMCoreProperties::SetModified
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,7 +120,7 @@ The <b>modified</b> property contains the date and time the package was last cha
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms724950(v=VS.85).aspx">SYSTEMTIME</a>
+<a href="_win32_systemtime_str">SYSTEMTIME</a>
 
 
 

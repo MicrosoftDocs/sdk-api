@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice2_offerresources.htm
 tech.root: direct3ddxgi
 ms.assetid: E642DDD5-17FE-4BB9-823F-1DA51C281253
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDXGIDevice2 interface [DXGI],OfferResources method, IDXGIDevice2.OfferResources, IDXGIDevice2::OfferResources, OfferResources, OfferResources method [DXGI], OfferResources method [DXGI],IDXGIDevice2 interface, direct3ddxgi.idxgidevice2_offerresources, dxgi1_2/IDXGIDevice2::OfferResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ The number of resources in the <i>ppResources</i> argument array.
 
 ### -param ppResources [in]
 
-An array of pointers to <a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a> interfaces for the resources to offer.
+An array of pointers to <a href="https://msdn.microsoft.com/de1f11a5-194b-438e-975b-3945179d0ed7">IDXGIResource</a> interfaces for the resources to offer.
 
 
 ### -param Priority [in]
@@ -99,7 +99,7 @@ If you call <b>OfferResources</b> to offer a resource while the resource is boun
 
 To offer shared resources, call <b>OfferResources</b> on only one of the sharing devices.  To ensure exclusive access to the resources, you must use an <a href="https://msdn.microsoft.com/f790eb46-f116-4258-8c8d-de1ece4a1f21">IDXGIKeyedMutex</a> object and then call <b>OfferResources</b> only while you hold the mutex. In fact, you can't offer shared resources unless you use <b>IDXGIKeyedMutex</b> because offering shared resources without using <b>IDXGIKeyedMutex</b> isn't supported.
 
-<div class="alert"><b>Note</b>  The user mode display driver might not immediately offer the resources that you specified in a call to <b>OfferResources</b>. The driver can postpone offering them until the next call to <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a>, <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a>, or <a href="https://msdn.microsoft.com/e204c585-4996-4274-a654-b9912e957fe6">ID3D11DeviceContext::Flush</a>. </div>
+<div class="alert"><b>Note</b>  The user mode display driver might not immediately offer the resources that you specified in a call to <b>OfferResources</b>. The driver can postpone offering them until the next call to <a href="https://msdn.microsoft.com/4214fa05-d876-420e-a125-c68d6c4e6801">IDXGISwapChain::Present</a>, <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a>, or <a href="https://msdn.microsoft.com/e204c585-4996-4274-a654-b9912e957fe6">ID3D11DeviceContext::Flush</a>. </div>
 <div> </div>
 <b>Platform Update for Windows 7:  </b>The runtime validates that <b>OfferResources</b> is used correctly on non-shared resources but doesn't perform the intended functionality. For more info about the Platform Update for Windows 7, see <a href="https://msdn.microsoft.com/C6DC0D38-E17C-4924-AF7C-6AE74C6C50D1">Platform Update for Windows 7</a>. 
 

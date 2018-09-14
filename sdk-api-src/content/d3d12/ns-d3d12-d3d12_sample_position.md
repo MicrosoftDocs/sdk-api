@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_sample_position.htm
 tech.root: direct3d12
 ms.assetid: 09D76360-A5FC-43C5-A7DC-9FA59B7FA94D
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: D3D12_SAMPLE_POSITION, D3D12_SAMPLE_POSITION structure, d3d12/D3D12_SAMPLE_POSITION, direct3d12.d3d12_sample_position
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ Each increment of these integer values represents 1/16th of a pixel. For example
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

@@ -93,19 +93,23 @@ A keyframe represents a moment in time within a storyboard and can be used to sp
 
 The following code adds a keyframe at a fixed offset of 0.3 seconds from the keyframe at the start of the storyboard.
 
-
-```cpp
-const UI_ANIMATION_SECONDS offset = 0.3;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>const UI_ANIMATION_SECONDS offset = 0.3;
 
 UI_ANIMATION_KEYFRAME keyframe1;
-hr = pStoryboard->AddKeyframeAtOffset(
+hr = pStoryboard-&gt;AddKeyframeAtOffset(
        UI_ANIMATION_KEYFRAME_STORYBOARD_START,
        offset,
-       &keyframe1
-);
-```
-
-
+       &amp;keyframe1
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

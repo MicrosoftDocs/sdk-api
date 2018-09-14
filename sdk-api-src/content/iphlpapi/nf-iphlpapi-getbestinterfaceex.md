@@ -4,10 +4,10 @@ title: GetBestInterfaceEx function
 author: windows-sdk-content
 description: The GetBestInterfaceEx function retrieves the index of the interface that has the best route to the specified IPv4 or IPv6 address.
 old-location: iphlp\getbestinterfaceex.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: cfd1108e-d7a0-4fe5-be3f-299189089d37
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetBestInterfaceEx, GetBestInterfaceEx function [IP Helper], iphlp.getbestinterfaceex, iphlpapi/GetBestInterfaceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,7 +163,7 @@ On Windows Vista and later, the <i>pdwBestIfIndex</i> parameter is treated inte
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366822(v=VS.85).aspx">MIB_BEST_IF</a>
+<a href="_mpr_mib_best_if">MIB_BEST_IF</a>
 
 
 

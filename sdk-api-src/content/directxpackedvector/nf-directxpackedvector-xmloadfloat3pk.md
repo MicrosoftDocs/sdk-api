@@ -7,7 +7,7 @@ old-location: dxmath\xmloadfloat3pk.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat3PK(const XMFLOAT3PK)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: DirectX::PackedVector.XMLoadFloat3PK, XMLoadFloat3PK, XMLoadFloat3PK method [DirectX Math Support APIs], dxmath.xmloadfloat3pk
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/40b3df37-d1c1-43fe-afcb-cbac4d9b6564">XMFLOAT3PK</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).asp
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a> structure to load. 
+Address of the <a href="https://msdn.microsoft.com/40b3df37-d1c1-43fe-afcb-cbac4d9b6564">XMFLOAT3PK</a> structure to load. 
 
 
 ## -returns
@@ -78,27 +78,31 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
   XMVECTOR vectorOut;
 
-  float xscale = powf( 2, (float)pSource->xe - 15);
-  vectorOut.x = ((float)pSource->xm / 64.0f)*xscale;
+  float xscale = powf( 2, (float)pSource-&gt;xe - 15);
+  vectorOut.x = ((float)pSource-&gt;xm / 64.0f)*xscale;
 
-  float yscale = powf( 2, (float)pSource->ye - 15);
-  vectorOut.y = ((float)pSource->ym / 64.0f)*yscale;
+  float yscale = powf( 2, (float)pSource-&gt;ye - 15);
+  vectorOut.y = ((float)pSource-&gt;ym / 64.0f)*yscale;
 
-  float zscale = powf( 2, (float)pSource->ze - 15);
-  vectorOut.z = ((float)pSource->zm / 32.0f)*zscale;
+  float zscale = powf( 2, (float)pSource-&gt;ze - 15);
+  vectorOut.z = ((float)pSource-&gt;zm / 32.0f)*zscale;
   
   vectorOut.w = 0;
 
   return vectorOut;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

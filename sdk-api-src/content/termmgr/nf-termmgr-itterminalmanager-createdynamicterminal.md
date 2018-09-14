@@ -4,10 +4,10 @@ title: ITTerminalManager::CreateDynamicTerminal
 author: windows-sdk-content
 description: The CreateDynamicTerminal method creates a dynamic terminal of a specified terminal class, media type, and direction.
 old-location: tapi3\itterminalmanager_createdynamicterminal.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: a6590503-8c95-496d-a35a-1bbb34c728e1
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: CreateDynamicTerminal, CreateDynamicTerminal method [TAPI 2.2], CreateDynamicTerminal method [TAPI 2.2],ITTerminalManager interface, ITTerminalManager interface [TAPI 2.2],CreateDynamicTerminal method, ITTerminalManager.CreateDynamicTerminal, ITTerminalManager::CreateDynamicTerminal, _tapi3_itterminalmanager_createdynamicterminal, tapi3.itterminalmanager_createdynamicterminal, termmgr/ITTerminalManager::CreateDynamicTerminal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,10 +153,10 @@ In addition, only those dynamic terminal classes that are supported on this addr
 <a href="https://msdn.microsoft.com/258fad5c-6269-45ab-bdc0-d38338f8e515">ITTerminalSupport::get_DynamicTerminalClasses</a>.
 
 The application must obtain the <i>pTerminalClass</i> <b>BSTR</b> in two steps: call <b>StringFromIID</b> to convert the GUID to an <b>LPOLESTR</b>, then call 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to convert the <b>LPOLESTR</b> to a <b>BSTR</b>.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to convert the <b>LPOLESTR</b> to a <b>BSTR</b>.
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>pTerminalClass</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>pTerminalClass</i> parameter.
 			
 
 

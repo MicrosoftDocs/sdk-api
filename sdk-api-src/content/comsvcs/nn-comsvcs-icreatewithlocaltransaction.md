@@ -7,7 +7,7 @@ old-location: cos\icreatewithlocaltransaction.htm
 tech.root: cossdk
 ms.assetid: 667ebc77-943c-4cf0-90b4-7c28949f406e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICreateWithLocalTransaction, ICreateWithLocalTransaction interface [COM+], ICreateWithLocalTransaction interface [COM+],described, comsvcs/ICreateWithLocalTransaction, cos.icreatewithlocaltransaction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,9 @@ Creates a COM+ object that executes within the scope of the specified local tran
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateWithLocalTransaction</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICreateWithLocalTransaction</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateWithLocalTransaction</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICreateWithLocalTransaction</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ICreateWithLocalTransaction</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee309566(v=VS.85).aspx">CreateInstanceWithSysTx</a>
+<a href="https://msdn.microsoft.com/e56a1810-77e7-47fa-b8b1-bb1ebc5662fd">CreateInstanceWithSysTx</a>
 </td>
 <td align="left" width="63%">
 Creates a COM+ object that executes within the scope of the specified local transaction.

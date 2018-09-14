@@ -4,10 +4,10 @@ title: EapPeerQueryCredentialInputFields function
 author: windows-sdk-content
 description: Defines the implementation of an EAP method-specific function that obtains the EAP Single-Sign-On (SSO) credential input fields for an EAP method.
 old-location: eaphost\eappeerquerycredentialinputfields.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 8ae42352-e972-4094-bf03-90a2f20ab641
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EapPeerQueryCredentialInputFields, EapPeerQueryCredentialInputFields function [EAPHost], eaphost.eappeerquerycredentialinputfields, eapmethodpeerapis/EapPeerQueryCredentialInputFields
 ms.prod: windows-hardware
 ms.technology: windows-devices

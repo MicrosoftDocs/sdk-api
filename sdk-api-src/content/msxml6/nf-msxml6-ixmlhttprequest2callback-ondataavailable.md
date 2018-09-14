@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest2callback_ondataavailable.htm
 tech.root: ixhr2
 ms.assetid: 068C3288-A872-43FA-BF1F-D7A3CD2E2203
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnDataAvailable method, IXMLHTTPRequest2Callback.OnDataAvailable, IXMLHTTPRequest2Callback::OnDataAvailable, OnDataAvailable, OnDataAvailable method [XMLHttpRequest2], OnDataAvailable method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_ondataavailable, msxml6/IXMLHTTPRequest2Callback::OnDataAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

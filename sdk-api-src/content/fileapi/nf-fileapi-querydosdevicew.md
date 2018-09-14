@@ -4,10 +4,10 @@ title: QueryDosDeviceW function
 author: windows-sdk-content
 description: Retrieves information about MS-DOS device names.
 old-location: fs\querydosdevice.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: ff25bc2b-dde6-40c3-a270-372daab2e5c4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: QueryDosDevice, QueryDosDevice function [Files], QueryDosDeviceA, QueryDosDeviceW, _win32_querydosdevice, base.querydosdevice, fileapi/QueryDosDevice, fileapi/QueryDosDeviceA, fileapi/QueryDosDeviceW, fs.querydosdevice, winbase/QueryDosDevice, winbase/QueryDosDeviceA, winbase/QueryDosDeviceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

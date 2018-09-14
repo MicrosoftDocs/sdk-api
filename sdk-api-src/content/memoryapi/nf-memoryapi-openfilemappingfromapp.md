@@ -4,10 +4,10 @@ title: OpenFileMappingFromApp function
 author: windows-sdk-content
 description: Opens a named file mapping object.
 old-location: base\openfilemappingfromapp.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 66BAB9A6-F983-49D8-8F87-69A3CCBBB1BC
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: OpenFileMappingFromApp, OpenFileMappingFromApp function, base.openfilemappingfromapp, memoryapi/OpenFileMappingFromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,7 +105,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-You can call <b>OpenFileMappingFromApp</b> from Windows Store apps with just-in-time (JIT) capabilities to use JIT functionality. The app must include the <b>codeGeneration</b> capability in the app manifest file to use JIT capabilities. <b>OpenFileMappingFromApp</b> lets Windows Store apps use the <a href="https://msdn.microsoft.com/library/Dd267535(v=VS.100).aspx">MemoryMappedFile</a> class in the .NET Framework.
+You can call <b>OpenFileMappingFromApp</b> from Windows Store apps with just-in-time (JIT) capabilities to use JIT functionality. The app must include the <b>codeGeneration</b> capability in the app manifest file to use JIT capabilities. <b>OpenFileMappingFromApp</b> lets Windows Store apps use the <a href="T:System.IO.MemoryMappedFiles.MemoryMappedFile">MemoryMappedFile</a> class in the .NET Framework.
 
 The handle that <b>OpenFileMappingFromApp</b> returns can be used 
      with any function that requires a handle to a file mapping object.

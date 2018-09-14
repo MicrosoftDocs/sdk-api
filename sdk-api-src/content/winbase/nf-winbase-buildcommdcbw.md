@@ -7,7 +7,7 @@ old-location: base\buildcommdcb.htm
 tech.root: devio
 ms.assetid: 6ecd497d-2247-4b6b-8751-c107717de434
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: BuildCommDCB, BuildCommDCB function, BuildCommDCBA, BuildCommDCBW, _win32_buildcommdcb, base.buildcommdcb, winbase/BuildCommDCB, winbase/BuildCommDCBA, winbase/BuildCommDCBW
 ms.prod: windows-hardware
 ms.technology: windows-devices

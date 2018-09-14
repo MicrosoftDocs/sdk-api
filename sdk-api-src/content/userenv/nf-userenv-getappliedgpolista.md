@@ -7,7 +7,7 @@ old-location: policy\getappliedgpolist.htm
 tech.root: Policy
 ms.assetid: 11e80a4e-acc4-4229-aa34-8f7d083c1041
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GPO_LIST_FLAG_MACHINE, GetAppliedGPOList, GetAppliedGPOList function [Group Policy], GetAppliedGPOListA, GetAppliedGPOListW, _win32_getappliedgpolist, policy.getappliedgpolist, userenv/GetAppliedGPOList, userenv/GetAppliedGPOListA, userenv/GetAppliedGPOListW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,7 @@ A pointer to the name of the remote computer. The format of the name is "\\<i>co
 A value that specifies the SID of the user. If <i>pMachineName</i> is not <b>NULL</b> and <i>dwFlags</i> specifies user policy, then <i>pSidUser</i> cannot be <b>NULL</b>.
 
 If <i>pMachineName</i> is <b>NULL</b> and <i>pSidUser</i> is <b>NULL</b>, the user is the currently logged-on user. If <i>pMachineName</i> is <b>NULL</b> and <i>pSidUser</i> is not <b>NULL</b>, the user is represented by <i>pSidUser</i> on the local computer. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379571(v=VS.85).aspx">Security Identifiers</a>.
+<a href="security.security_identifiers_sids_">Security Identifiers</a>.
 
 
 ### -param pGuidExtension [in]

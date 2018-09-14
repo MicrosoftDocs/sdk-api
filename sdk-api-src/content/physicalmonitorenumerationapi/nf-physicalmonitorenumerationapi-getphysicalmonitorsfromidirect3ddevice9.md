@@ -7,7 +7,7 @@ old-location: monitor\getphysicalmonitorsfromidirect3ddevice9.htm
 tech.root: Monitor
 ms.assetid: 1e0e9749-8ee4-42d5-ab7b-182222b6c429
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetPhysicalMonitorsFromIDirect3DDevice9, GetPhysicalMonitorsFromIDirect3DDevice9 function [Monitor Configuration], monitor.getphysicalmonitorsfromidirect3ddevice9, physicalmonitorenumerationapi/GetPhysicalMonitorsFromIDirect3DDevice9
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Retrieves the physical monitors associated with a Direct3D device.
 
 ### -param pDirect3DDevice9 [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> interface of the Direct3D device.
+Pointer to the <a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a> interface of the Direct3D device.
           
 
 

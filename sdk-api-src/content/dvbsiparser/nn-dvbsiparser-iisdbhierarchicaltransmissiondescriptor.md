@@ -4,10 +4,10 @@ title: IIsdbHierarchicalTransmissionDescriptor
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 6586360b-60d8-4c3c-aa6e-b657e1784b6d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IIsdbHierarchicalTransmissionDescriptor, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies], IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor, mstv.iisdbhierarchicaltransmissiondescriptor
 ms.prod: windows
 ms.technology: windows-sdk

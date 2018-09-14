@@ -4,10 +4,10 @@ title: WinHttpTimeFromSystemTime function
 author: windows-sdk-content
 description: Formats a date and time according to the HTTP version 1.0 specification.
 old-location: http\winhttptimefromsystemtime.htm
-tech.root: WinHttp
+tech.root: winhttp
 ms.assetid: 8d55e3bb-0b86-41d9-ba39-62feb2acc707
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/11/2018
 ms.keywords: WinHttpTimeFromSystemTime, WinHttpTimeFromSystemTime function [WinHTTP], http.winhttptimefromsystemtime, winhttp.winhttptimefromsystemtime_function, winhttp/WinHttpTimeFromSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,13 +113,17 @@ Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_A
 The following  code example code shows how to convert a 
 <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure to a string that contains the time in HTTP format.
 
-
-```cpp
-    SYSTEMTIME  sTime;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    SYSTEMTIME  sTime;
     LPWSTR      pwszTimeStr;
 
     // Get the current time.
-    GetSystemTime(&sTime);
+    GetSystemTime(&amp;sTime);
 
     // Allocate memory for the string.
     // Note: WINHTTP_TIME_FORMAT_BUFSIZE is a byte count.
@@ -128,7 +132,7 @@ The following  code example code shows how to convert a
     pwszTimeStr = new WCHAR[WINHTTP_TIME_FORMAT_BUFSIZE/sizeof(WCHAR)];
 
     // Convert the current time to HTTP format.
-    if(!WinHttpTimeFromSystemTime( &sTime, pwszTimeStr))
+    if(!WinHttpTimeFromSystemTime( &amp;sTime, pwszTimeStr))
     {
         printf( "Error %u in WinHttpTimeFromSystemTime.\n", GetLastError());
     }
@@ -140,10 +144,10 @@ The following  code example code shows how to convert a
 
     // Free the memory.
     delete [] pwszTimeStr;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

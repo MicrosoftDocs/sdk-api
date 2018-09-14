@@ -121,9 +121,13 @@ Components should copy the data to a temporary buffer before calling <b>DecryptP
 
 The following code shows a service provider's implementation of the <a href="https://msdn.microsoft.com/29f16be5-9304-4b09-86e8-3f9e0e591a41">IMDSPObject::Write</a> method, which requires a service provider to decrypt data sent to it.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT CMyStorage::Write(BYTE *pData, DWORD *pdwSize,
                                  BYTE abMac[WMDM_MAC_LENGTH])
 {
@@ -147,16 +151,16 @@ HRESULT CMyStorage::Write(BYTE *pData, DWORD *pdwSize,
     memcpy(pTmpData, pData, *pdwSize);
 
     // Decrypt the data.
-    CHRg(g_pAppSCServer->DecryptParam(pTmpData, *pdwSize));
+    CHRg(g_pAppSCServer-&gt;DecryptParam(pTmpData, *pdwSize));
 
     // Check the MAC passed to the method. The MAC is built from
     // the data and data size parameters.
     // CORg is a macro that goes to the Error label on failure.
     HMAC hMAC;
-    CORg(g_pAppSCServer->MACInit(&hMAC));
-    CORg(g_pAppSCServer->MACUpdate(hMAC, (BYTE*)(pTmpData), *pdwSize));
-    CORg(g_pAppSCServer->MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(*pdwSize)));
-    CORg(g_pAppSCServer->MACFinal(hMAC, pTempMac));
+    CORg(g_pAppSCServer-&gt;MACInit(&amp;hMAC));
+    CORg(g_pAppSCServer-&gt;MACUpdate(hMAC, (BYTE*)(pTmpData), *pdwSize));
+    CORg(g_pAppSCServer-&gt;MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(*pdwSize)));
+    CORg(g_pAppSCServer-&gt;MACFinal(hMAC, pTempMac));
 
     // If the MAC values don't match, return an error.
     if (memcmp(abMac, pTempMac, WMDM_MAC_LENGTH) != 0)
@@ -166,7 +170,7 @@ HRESULT CMyStorage::Write(BYTE *pData, DWORD *pdwSize,
     }
 
     // The MAC values matched, so write the decrypted data to a local file.
-    if( WriteFile(m_hFile,pTmpData,*pdwSize,&dwWritten,NULL) ) 
+    if( WriteFile(m_hFile,pTmpData,*pdwSize,&amp;dwWritten,NULL) ) 
     {
         hr = S_OK;
     }
@@ -186,10 +190,10 @@ Error:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

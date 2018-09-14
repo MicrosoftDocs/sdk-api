@@ -7,7 +7,7 @@ old-location: dshow\iaudiodata.htm
 tech.root: DirectShow
 ms.assetid: 8b253715-a294-4e95-b730-e6efe7f895af
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IAudioData, IAudioData interface [DirectShow], IAudioData interface [DirectShow],described, IAudioDataInterface, austream/IAudioData, dshow.iaudiodata
 ms.prod: windows
 ms.technology: windows-sdk

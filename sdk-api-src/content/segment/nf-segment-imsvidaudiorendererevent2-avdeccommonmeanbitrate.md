@@ -4,10 +4,10 @@ title: IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate
 author: windows-sdk-content
 description: Indicates a change in the AVDecCommonMeanBitRate codec property.
 old-location: mstv\imsvidaudiorendererevent2_avdeccommonmeanbitrate.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: ec5749d5-1ee0-4b3e-9e5d-cf07a62991ae
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: AVDecCommonMeanBitRate, AVDecCommonMeanBitRate method [Microsoft TV Technologies], AVDecCommonMeanBitRate method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecCommonMeanBitRate method, IMSVidAudioRendererEvent2.AVDecCommonMeanBitRate, IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate, mstv.imsvidaudiorendererevent2_avdeccommonmeanbitrate, segment/IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\peergraphupdaterecord.htm
 tech.root: p2psdk
 ms.assetid: 9007095f-4f2a-4e92-895b-9a4033f0f7b9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerGraphUpdateRecord, PeerGraphUpdateRecord function [Peer Networking], p2p.peergraphupdaterecord, p2p/PeerGraphUpdateRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -157,15 +157,19 @@ The following members of the  <a href="https://msdn.microsoft.com/4e0a1c44-e5a4-
 
 This code snippet shows how to update a record.
 
-
-```cpp
-// dwFlags is updated to automatically refresh the record if it is about to expire.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// dwFlags is updated to automatically refresh the record if it is about to expire.
     record.dwFlags = PEER_RECORD_FLAG_AUTOREFRESH;
     // The record data is updated with the string contained in pwzUserData.
     record.data.cbData = (ULONG) wcslen(pwzUserData) * sizeof(WCHAR);
     record.data.pbData = (PBYTE) pwzUserData;
 
-    HRESULT hr = PeerGraphUpdateRecord(hGraph, &record;);
+    HRESULT hr = PeerGraphUpdateRecord(hGraph, &amp;record;);
 
     if (FAILED(hr))
     {
@@ -175,10 +179,10 @@ This code snippet shows how to update a record.
     {
         // Insert your application specific code here.
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

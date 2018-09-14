@@ -4,10 +4,10 @@ title: IAtscPsipParser::GetMGT
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_getmgt.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: abdfb558-aab9-4929-822a-08b35235c22f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetMGT, GetMGT method [Microsoft TV Technologies], GetMGT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetMGT method, IAtscPsipParser.GetMGT, IAtscPsipParser::GetMGT, IAtscPsipParserGetMGT, atscpsipparser/IAtscPsipParser::GetMGT, mstv.iatscpsipparser_getmgt
 ms.prod: windows-hardware
 ms.technology: windows-devices

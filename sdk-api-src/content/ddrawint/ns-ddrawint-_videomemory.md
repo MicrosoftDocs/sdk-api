@@ -7,7 +7,7 @@ old-location: display\videomemory.htm
 tech.root: display
 ms.assetid: a472a9f6-d85e-429b-9b0d-efce576b6330
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/13/2018
 ms.keywords: "*LPVIDEOMEMORY, LPVIDEOMEMORY, LPVIDEOMEMORY structure pointer [Display Devices], VIDEOMEMORY, VIDEOMEMORY structure [Display Devices], _VIDEOMEMORY, ddrawint/LPVIDEOMEMORY, ddrawint/VIDEOMEMORY, ddstrcts_f00d50c3-df1a-46c6-8822-1be4a5cef837.xml, display.videomemory"
 ms.prod: windows
 ms.technology: windows-sdk

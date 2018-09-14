@@ -4,10 +4,10 @@ title: IESEvents
 author: windows-sdk-content
 description: Implements event handling for devices that have registered to receive specific events derived from the IESEvent interface.
 old-location: mstv\iesevents.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1921f632-bb3b-4833-aa25-9caa3d65363f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IESEvents, IESEvents interface [Microsoft TV Technologies], IESEvents interface [Microsoft TV Technologies],described, mstv.iesevents, tuner/IESEvents
 ms.prod: windows
 ms.technology: windows-sdk

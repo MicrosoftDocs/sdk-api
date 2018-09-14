@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain1_setrotation.htm
 tech.root: direct3ddxgi
 ms.assetid: D1CD2B20-FC7E-4141-A828-96E070A63F4A
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDXGISwapChain1 interface [DXGI],SetRotation method, IDXGISwapChain1.SetRotation, IDXGISwapChain1::SetRotation, SetRotation, SetRotation method [DXGI], SetRotation method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_setrotation, dxgi1_2/IDXGISwapChain1::SetRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Sets the rotation of the back buffers for the swap chain.
 
 ### -param Rotation [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173065(v=VS.85).aspx">DXGI_MODE_ROTATION</a>-typed value that specifies how to set the rotation of the back buffers for the swap chain.
+A <a href="https://msdn.microsoft.com/fcf5bce5-dde1-4d3b-9786-2abf1e18d942">DXGI_MODE_ROTATION</a>-typed value that specifies how to set the rotation of the back buffers for the swap chain.
 
 
 ## -returns
@@ -72,7 +72,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Bb173065(v=VS.85).aspx">DXGI
         <ul>
 <li>S_OK if it successfully set the rotation.</li>
 <li>DXGI_ERROR_INVALID_CALL if the swap chain is bit-block transfer (bitblt) model. The swap chain must be flip model to successfully call <b>SetRotation</b>.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 
@@ -87,7 +87,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Bb173065(v=VS.85).aspx">DXGI
 
 You can only use <b>SetRotation</b> to rotate the back buffers for flip-model swap chains that you present in windowed mode. 
 
-<b>SetRotation</b> isn't supported for rotating the back buffers for flip-model swap chains that you present in full-screen mode. In this situation, <b>SetRotation</b> doesn't fail, but you must ensure that you specify no rotation (<a href="https://msdn.microsoft.com/en-us/library/Bb173065(v=VS.85).aspx">DXGI_MODE_ROTATION_IDENTITY</a>) for the swap chain. Otherwise, when you call <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a> to present a frame,  the presentation fails.
+<b>SetRotation</b> isn't supported for rotating the back buffers for flip-model swap chains that you present in full-screen mode. In this situation, <b>SetRotation</b> doesn't fail, but you must ensure that you specify no rotation (<a href="https://msdn.microsoft.com/fcf5bce5-dde1-4d3b-9786-2abf1e18d942">DXGI_MODE_ROTATION_IDENTITY</a>) for the swap chain. Otherwise, when you call <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> or <a href="https://msdn.microsoft.com/4214fa05-d876-420e-a125-c68d6c4e6801">IDXGISwapChain::Present</a> to present a frame,  the presentation fails.
 
 
 

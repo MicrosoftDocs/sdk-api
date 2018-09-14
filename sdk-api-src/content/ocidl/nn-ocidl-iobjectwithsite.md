@@ -7,7 +7,7 @@ old-location: com\iobjectwithsite.htm
 tech.root: com
 ms.assetid: e688136e-e06b-46ba-bec9-b8db2f9c468d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IObjectWithSite, IObjectWithSite interface [COM], IObjectWithSite interface [COM],described, _ole_iobjectwithsite, com.iobjectwithsite, ocidl/IObjectWithSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ Through <b>IObjectWithSite</b>, a container can pass the <a href="https://msdn.m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithSite</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IObjectWithSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithSite</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IObjectWithSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

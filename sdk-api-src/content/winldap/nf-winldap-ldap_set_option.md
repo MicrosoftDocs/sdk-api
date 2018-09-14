@@ -4,10 +4,10 @@ title: ldap_set_option function
 author: windows-sdk-content
 description: Sets options on connection blocks.
 old-location: ldap\ldap_set_option.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: b6d6b285-7302-4812-bbcb-0aeb5b53cf23
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "_ldap_ldap_set_option, ldap.ldap__set__option, ldap.ldap_set_option, ldap_set_option, ldap_set_option function [LDAP], ldap_set_optionW, winldap/ldap_set_option, winldap/ldap_set_optionW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,13 +103,17 @@ It is now possible to digitally sign or encrypt all of your LDAP traffic to and 
 
 To enable signing and sealing, you have to turn on one of the following options prior to calling <a href="https://msdn.microsoft.com/67d30a7b-2f42-4e1a-8c59-5ba22ed3fad4">ldap_bind_s</a> with <b>LDAP_AUTH_NEGOTIATE</b> for the bind method.
 
-
-```cpp
-#define LDAP_OPT_SIGN      0x95
-#define LDAP_OPT_ENCRYPT   0x96
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define LDAP_OPT_SIGN      0x95
+#define LDAP_OPT_ENCRYPT   0x96</pre>
+</td>
+</tr>
+</table></span></div>
 To turn off signing and sealing, close the connection by calling <a href="https://msdn.microsoft.com/5d8b3198-3935-4305-b0f1-eaf1a9355cf3">ldap_unbind()</a> on the connection handle.
 
 Multithreading: Calls to <b>ldap_set_option</b> are unsafe because it affects the connection as a whole. Use caution if threads share connections.

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Contains_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectcontainsmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Contains, Contains methods [GDI+], Rect.Contains, Rect.Contains(IN INT,IN INT), Rect::Contains, Rect::Contains(IN INT,IN INT), _gdiplus_CLASS_Rect_Contains_Methods, gdiplus._gdiplus_CLASS_Rect_Contains_Methods, gdiplustypes/Contains
 ms.prod: windows-hardware
 ms.technology: windows-devices

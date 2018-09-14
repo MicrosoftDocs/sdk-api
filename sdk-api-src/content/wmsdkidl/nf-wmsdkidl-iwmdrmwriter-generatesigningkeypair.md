@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmwriter_generatesigningkeypair.htm
 tech.root: wmformat
 ms.assetid: 2ad66a22-b088-423c-b726-63bc6372f3c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GenerateSigningKeyPair, GenerateSigningKeyPair method [windows Media Format], GenerateSigningKeyPair method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateSigningKeyPair method, IWMDRMWriter.GenerateSigningKeyPair, IWMDRMWriter::GenerateSigningKeyPair, IWMDRMWriterGenerateSigningKeyPair, wmformat.iwmdrmwriter_generatesigningkeypair, wmsdkidl/IWMDRMWriter::GenerateSigningKeyPair
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,7 +57,7 @@ req.redist:
 ]
 
 
-The <b>GenerateSigningKeyPair</b> method generates a public and private <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">key</a> pair that are used to sign the DRM header object.
+The <b>GenerateSigningKeyPair</b> method generates a public and private <a href="wmformat_glossary.htm">key</a> pair that are used to sign the DRM header object.
 
 
 

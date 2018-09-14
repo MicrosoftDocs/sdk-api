@@ -7,7 +7,7 @@ old-location: setup\imsmerror_get_modulekeys.htm
 tech.root: msi
 ms.assetid: f2f483c7-8d38-416e-af92-fd7ab6aef459
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMsmError interface,get_ModuleKeys method, IMsmError.get_ModuleKeys, IMsmError::get_ModuleKeys, _msi_get_modulekeys_function, get_ModuleKeys, get_ModuleKeys method, get_ModuleKeys method,IMsmError interface, mergemod/IMsmError::get_ModuleKeys, setup.imsmerror_get_modulekeys
 ms.prod: windows-hardware
 ms.technology: windows-devices

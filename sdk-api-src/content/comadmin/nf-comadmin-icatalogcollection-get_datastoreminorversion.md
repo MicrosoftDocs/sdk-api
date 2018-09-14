@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_datastoreminorversion.htm
 tech.root: cossdk
 ms.assetid: 29380ed1-835e-4ac9-afeb-869acd748ebc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: DataStoreMinorVersion property [COM+], DataStoreMinorVersion property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],DataStoreMinorVersion property, ICatalogCollection.DataStoreMinorVersion, ICatalogCollection.get_DataStoreMinorVersion, ICatalogCollection::DataStoreMinorVersion, ICatalogCollection::get_DataStoreMinorVersion, _cos_ICatalogCollection_get_DataStoreMinorVersion, comadmin/ICatalogCollection::DataStoreMinorVersion, comadmin/ICatalogCollection::get_DataStoreMinorVersion, cos.icatalogcollection_datastoreminorversion, get_DataStoreMinorVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
  
 
  

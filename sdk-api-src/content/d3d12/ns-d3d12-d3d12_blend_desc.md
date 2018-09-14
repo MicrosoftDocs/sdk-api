@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_blend_desc.htm
 tech.root: direct3d12
 ms.assetid: FFCA10AF-1081-4D4B-900D-C3692D0B5A91
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: D3D12_BLEND_DESC, D3D12_BLEND_DESC structure, d3d12/D3D12_BLEND_DESC, direct3d12.d3d12_blend_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Describes the blend state.
 
 ### -field AlphaToCoverageEnable
 
-Specifies whether to use alpha-to-coverage as a multisampling technique when setting a pixel to a render target. For more info about using alpha-to-coverage, see <a href="https://msdn.microsoft.com/en-us/library/Bb205072(v=VS.85).aspx">Alpha-To-Coverage</a>.
+Specifies whether to use alpha-to-coverage as a multisampling technique when setting a pixel to a render target. For more info about using alpha-to-coverage, see <a href="https://msdn.microsoft.com/f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3">Alpha-To-Coverage</a>.
           
 
 
@@ -73,7 +73,7 @@ Specifies whether to enable independent blending in simultaneous render targets.
 ### -field RenderTarget
 
 An array of  <a href="https://msdn.microsoft.com/911158CF-5F4F-4211-8CC6-F73BDB697BC5">D3D12_RENDER_TARGET_BLEND_DESC</a> structures that describe the blend states for render targets; these correspond to the eight render targets
-            that can be bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a> at one time.
+            that can be bound to the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a> at one time.
           
 
 

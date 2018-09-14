@@ -4,10 +4,10 @@ title: "_IP_ADAPTER_ANYCAST_ADDRESS_XP"
 author: windows-sdk-content
 description: Stores a single anycast IP address in a linked list of addresses for a particular adapter.
 old-location: iphlp\ip_adapter_anycast_address.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 2626fc86-e29b-4162-8625-207c709d67ed
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: "*PIP_ADAPTER_ANYCAST_ADDRESS, *PIP_ADAPTER_ANYCAST_ADDRESS_XP, IP_ADAPTER_ADDRESS_DNS_ELIGIBLE, IP_ADAPTER_ADDRESS_TRANSIENT, IP_ADAPTER_ANYCAST_ADDRESS, IP_ADAPTER_ANYCAST_ADDRESS structure [IP Helper], IP_ADAPTER_ANYCAST_ADDRESS_XP, PIP_ADAPTER_ANYCAST_ADDRESS, PIP_ADAPTER_ANYCAST_ADDRESS structure pointer [IP Helper], _IP_ADAPTER_ANYCAST_ADDRESS_XP, _iphlp_ip_adapter_anycast_address, iphlp.ip_adapter_anycast_address, iptypes/IP_ADAPTER_ANYCAST_ADDRESS, iptypes/PIP_ADAPTER_ANYCAST_ADDRESS"
 ms.prod: windows
 ms.technology: windows-sdk

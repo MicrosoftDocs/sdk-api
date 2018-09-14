@@ -7,7 +7,7 @@ old-location: cos\ienumnames_next.htm
 tech.root: cossdk
 ms.assetid: fa20453f-f170-442d-a927-6872ca75dbed
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IEnumNames interface [COM+],Next method, IEnumNames.Next, IEnumNames::Next, Next, Next method [COM+], Next method [COM+],IEnumNames interface, _cos_IEnumNames_Next, comsvcs/IEnumNames::Next, cos.ienumnames_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

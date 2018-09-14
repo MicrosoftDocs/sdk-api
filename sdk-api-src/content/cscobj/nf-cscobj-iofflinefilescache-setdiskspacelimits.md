@@ -4,10 +4,10 @@ title: IOfflineFilesCache::SetDiskSpaceLimits
 author: windows-sdk-content
 description: Sets disk space usage limits on the Offline Files cache.
 old-location: of\iofflinefilescache_setdiskspacelimits.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: cdbfd5af-000a-4724-8a44-5641b2f75896
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],SetDiskSpaceLimits method, IOfflineFilesCache.SetDiskSpaceLimits, IOfflineFilesCache::SetDiskSpaceLimits, SetDiskSpaceLimits, SetDiskSpaceLimits method [Offline Files], SetDiskSpaceLimits method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::SetDiskSpaceLimits, of.iofflinefilescache_setdiskspacelimits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 The caller must be an administrator on the local machine.
 
-The current disk space limits may be obtained by calling <a href="https://msdn.microsoft.com/en-us/library/Bb530493(v=VS.85).aspx">IOfflineFilesCache::GetDiskSpaceInformation</a>.
+The current disk space limits may be obtained by calling <a href="https://msdn.microsoft.com/94ea826a-bfc4-4010-a57f-c3a1af985d03">IOfflineFilesCache::GetDiskSpaceInformation</a>.
 
 
 
@@ -94,7 +94,7 @@ The current disk space limits may be obtained by calling <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
  
 
  

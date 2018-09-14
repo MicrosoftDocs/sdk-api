@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromInt32.htm
 tech.root: properties
 ms.assetid: 923be4ac-5545-431b-ab69-3b7f366a1ec0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: InitPropVariantFromInt32, InitPropVariantFromInt32 function [Windows Properties], properties.InitPropVariantFromInt32, propvarutil/InitPropVariantFromInt32, shell.InitPropVariantFromInt32, shell_InitPropVariantFromInt32
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,23 +94,27 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762299(v=VS.85).aspx">InitPropVariantFromInt32</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromInt32">InitPropVariantFromInt32</a>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PROPVARIANT propvar;
 
-```cpp
-PROPVARIANT propvar;
-
-HRESULT hr = InitPropVariantFromInt32(127, &propvar);
+HRESULT hr = InitPropVariantFromInt32(127, &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_I4.
  
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -119,15 +123,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762329(v=VS.85).aspx">InitVariantFromInt32</a>
+<a href="shell.InitVariantFromInt32">InitVariantFromInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776550(v=VS.85).aspx">PropVariantToInt32</a>
+<a href="shell.PropVariantToInt32">PropVariantToInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776553(v=VS.85).aspx">PropVariantToInt32WithDefault</a>
+<a href="shell.PropVariantToInt32WithDefault">PropVariantToInt32WithDefault</a>
  
 
  

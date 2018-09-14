@@ -7,7 +7,7 @@ old-location: htmlhelp\iitproplist_getheadersize.htm
 tech.root: htmlhelp
 ms.assetid: 73206149-cbc3-475d-8dc8-bb7547f41173
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/30/2018
 ms.keywords: GetHeaderSize, GetHeaderSize method [HTML Help Workshop], GetHeaderSize method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],GetHeaderSize method, IITPropList.GetHeaderSize, IITPropList::GetHeaderSize, htmlhelp.iitproplist_getheadersize, infotech/IITPropList::GetHeaderSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ The size was successfully returned.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670040(v=VS.85).aspx">IITPropList</a>
+<a href="https://msdn.microsoft.com/09200749-bd1d-4266-895e-29e21525bac2">IITPropList</a>
 
 
 

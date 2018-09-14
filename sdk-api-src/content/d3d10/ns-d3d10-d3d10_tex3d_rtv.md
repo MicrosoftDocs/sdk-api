@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex3d_rtv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex3d_rtv.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: D3D10_TEX3D_RTV, D3D10_TEX3D_RTV structure [Direct3D 10], a846ce63-d213-1889-2297-8bc813006637, d3d10/D3D10_TEX3D_RTV, direct3d10.d3d10_tex3d_rtv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource(s)</a> from a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">3D texture</a> to use in a render-target view.
+Specifies the <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource(s)</a> from a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">3D texture</a> to use in a render-target view.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The index of the mipmap level to use (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">mip slice</a>).
+The index of the mipmap level to use (see <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">mip slice</a>).
 
 
 ### -field FirstWSlice
@@ -83,7 +83,7 @@ Number of depth levels to use in the render-target view, starting from <b>FirstW
 
 
 
-This structure is one member of a render target view. See <a href="https://msdn.microsoft.com/en-us/library/Bb172410(v=VS.85).aspx">D3D10_RENDER_TARGET_VIEW_DESC</a>.
+This structure is one member of a render target view. See <a href="https://msdn.microsoft.com/05a8dcf3-c815-47f1-b51f-e382804b030b">D3D10_RENDER_TARGET_VIEW_DESC</a>.
 
 
 
@@ -93,7 +93,7 @@ This structure is one member of a render target view. See <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/d8fe2ebe-349a-456e-9a5a-16f2d3419800">Resource Structures</a>
  
 
  

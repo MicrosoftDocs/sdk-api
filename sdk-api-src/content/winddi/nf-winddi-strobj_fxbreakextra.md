@@ -7,7 +7,7 @@ old-location: display\strobj_fxbreakextra.htm
 tech.root: display
 ms.assetid: 857068ab-2c47-402b-a64a-691bdc52a298
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/13/2018
 ms.keywords: STROBJ_fxBreakExtra, STROBJ_fxBreakExtra function [Display Devices], display.strobj_fxbreakextra, gdifncs_cfaecb83-e351-447e-ba9d-63ef6dc3f4d8.xml, winddi/STROBJ_fxBreakExtra
 ms.prod: windows-hardware
 ms.technology: windows-devices

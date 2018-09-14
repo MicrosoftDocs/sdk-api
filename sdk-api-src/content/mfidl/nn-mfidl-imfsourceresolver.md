@@ -7,7 +7,7 @@ old-location: mf\imfsourceresolver.htm
 tech.root: medfound
 ms.assetid: 079c61c5-7a29-4411-840e-9349190726ac
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 079c61c5-7a29-4411-840e-9349190726ac, IMFSourceResolver, IMFSourceResolver interface [Media Foundation], IMFSourceResolver interface [Media Foundation],described, mf.imfsourceresolver, mfidl/IMFSourceResolver
 ms.prod: windows
 ms.technology: windows-sdk

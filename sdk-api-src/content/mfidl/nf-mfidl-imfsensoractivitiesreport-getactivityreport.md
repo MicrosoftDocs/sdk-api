@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivityreport_getactivityreport.htm
 tech.root: medfound
 ms.assetid: 6E8D7039-9CBF-45A0-8CAE-48F79091D40B
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: GetActivityReport, GetActivityReport method [Media Foundation], GetActivityReport method [Media Foundation],IMFSensorActivitiesReport interface, IMFSensorActivitiesReport interface [Media Foundation],GetActivityReport method, IMFSensorActivitiesReport.GetActivityReport, IMFSensorActivitiesReport::GetActivityReport, mf.imfsensoractivityreport_getactivityreport, mfidl/IMFSensorActivitiesReport::GetActivityReport
 ms.prod: windows-hardware
 ms.technology: windows-devices

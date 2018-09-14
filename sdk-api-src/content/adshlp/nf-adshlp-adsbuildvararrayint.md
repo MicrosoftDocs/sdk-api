@@ -7,7 +7,7 @@ old-location: adsi\adsbuildvararrayint.htm
 tech.root: ADSI
 ms.assetid: 61b8a3c1-b8ea-4909-b2a6-f1ce342f396d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: ADsBuildVarArrayInt, ADsBuildVarArrayInt function [ADSI], _ds_adsbuildvararrayint, adshlp/ADsBuildVarArrayInt, adsi.adsbuildvararrayint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,19 +98,23 @@ For more information about other return values, see  <a href="https://msdn.micro
 
 Use the <b>ADsBuildVarArrayInt</b> function to convert the integer array into a variant array of the integers. The following code example shows how to do this.
 
-
-```cpp
-DWORD dwArray[]={0,1,2,3,4};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD dwArray[]={0,1,2,3,4};
 long nLength = sizeof(dwArray)/sizeof(DWORD);
 VARIANT varArray[nLength];
 HRESULT hr = ADsBuildVarArrayInt(dwArray, nLength, varArray);
 if (hr = E_FAIL) exit(1);
  
 // Resume work with the data in varArray.
-. . .
-```
-
-
+. . .</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationdefercontactservice_defercon
 tech.root: directmanipulation
 ms.assetid: DEC97DD5-E43F-4541-8A80-D20EC8026493
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: DeferContact, DeferContact method [Direct Manipulation], DeferContact method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],DeferContact method, IDirectManipulationDeferContactService.DeferContact, IDirectManipulationDeferContactService::DeferContact, directmanipulation.idirectmanipulationdefercontactservice_defercontact, directmanipulation/IDirectManipulationDeferContactService::DeferContact
 ms.prod: windows-hardware
 ms.technology: windows-devices

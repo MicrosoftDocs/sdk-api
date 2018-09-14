@@ -4,10 +4,10 @@ title: "_STRING_COUNTER_HEADER"
 author: windows-sdk-content
 description: Indicates where in the PERF_STRING_BUFFER_HEADER block that the string that contains the name or help string for the indicated performance counter starts.
 old-location: perf\perf_string_counter_header.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: 73DFA1C0-B0E8-4788-8CBA-1CFA7580F633
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPERF_STRING_COUNTER_HEADER, PERF_STRING_COUNTER_HEADER, PERF_STRING_COUNTER_HEADER structure [Perf], PPERF_STRING_COUNTER_HEADER, PPERF_STRING_COUNTER_HEADER structure pointer [Perf], _STRING_COUNTER_HEADER, perf.perf_string_counter_header, perflib/PERF_STRING_COUNTER_HEADER, perflib/PPERF_STRING_COUNTER_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

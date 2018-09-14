@@ -7,7 +7,7 @@ old-location: automat\safearraybound.htm
 tech.root: automat
 ms.assetid: 303a9bdb-71d6-4f14-8747-84cf84936c6d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSAFEARRAYBOUND, LPSAFEARRAYBOUND, LPSAFEARRAYBOUND structure pointer [Automation], SAFEARRAYBOUND, SAFEARRAYBOUND structure [Automation], _oa96_SAFEARRAYBOUND, automat.safearraybound, oaidl/LPSAFEARRAYBOUND, oaidl/SAFEARRAYBOUND, tagSAFEARRAYBOUND"
 ms.prod: windows
 ms.technology: windows-sdk

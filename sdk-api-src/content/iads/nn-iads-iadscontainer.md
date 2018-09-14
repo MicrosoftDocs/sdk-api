@@ -7,7 +7,7 @@ old-location: adsi\iadscontainer.htm
 tech.root: ADSI
 ms.assetid: 6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsContainer, IADsContainer interface [ADSI], IADsContainer interface [ADSI],described, _ds_iadscontainer, adsi.iadscontainer, iads/IADsContainer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ You can use the <b>IADsContainer</b> interface to either
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsContainer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsContainer</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IADsContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -199,43 +199,55 @@ To determine if an object is a container, use the <a href="https://msdn.microsof
 
 When you bind to a container object using its GUID (or SID), you can only perform specific operations on the container object. These operations include examination of the object attributes and enumeration of the object's immediate children. These operations are shown in the following code example.
 
-
-```vb
-Dim con As IADsContainer
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim con As IADsContainer
 Dim obj As IADs
-Set con = GetObject("LDAP://svr01/<GUID=xxxx>")
+Set con = GetObject("LDAP://svr01/&lt;GUID=xxxx&gt;")
 con.Filter = Array("user")
 For Each item In con
-    debug.print item.Name " &  " of " & item.Class
-Next
-```
-
-
+    debug.print item.Name " &amp;  " of " &amp; item.Class
+Next</pre>
+</td>
+</tr>
+</table></span></div>
 All other operations, that is, <b>GetObject</b>, <b>Create</b>, <b>Delete</b>, <b>CopyHere</b>, and <b>MoveHere</b> are not supported in the container's GUID representation. For example, the last line of the following code example will result in an error.
 
-
-```vb
-Dim con As IADsContainer
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim con As IADsContainer
 Dim obj As IADs
-Set con = GetObject("LDAP://svr01/<GUID=xxxx>")
-Set obj = con.GetObject("user", "CN=Jeff Smith")
-```
-
-
+Set con = GetObject("LDAP://svr01/&lt;GUID=xxxx&gt;")
+Set obj = con.GetObject("user", "CN=Jeff Smith")</pre>
+</td>
+</tr>
+</table></span></div>
 Binding, using GUID (or SID), is intended for low overhead and, thus, fast binds, which are often used for object introspection.
 
 To call these methods of the container bound with its GUID (or SID), rebind to the object using its distinguished name.
 
-
-```vb
-Dim conGUID, conDN As IADsContainer
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim conGUID, conDN As IADsContainer
 Dim obj As IADs
-Set conGUID = GetObject("LDAP://svr/<GUID=xxxx>")
-Set conDN=GetObject("LDAP://svr/" & conGUID.Get("distinguishedName"))
-Set obj = conDN.GetObject("user", "CN=Jeff Smith")
-```
-
-
+Set conGUID = GetObject("LDAP://svr/&lt;GUID=xxxx&gt;")
+Set conDN=GetObject("LDAP://svr/" &amp; conGUID.Get("distinguishedName"))
+Set obj = conDN.GetObject("user", "CN=Jeff Smith")</pre>
+</td>
+</tr>
+</table></span></div>
 For more information about object GUID representation, see <a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">IADs.GUID</a>.
 
 
@@ -243,9 +255,13 @@ For more information about object GUID representation, see <a href="https://msdn
 
 The following code example determines if an ADSI object is a container.
 
-
-```vb
-Dim obj As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim obj As IADs
 Dim cls As IADsClass
 On Error GoTo Cleanup
 
@@ -258,46 +274,50 @@ Else
 End If
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set obj = Nothing
-    Set cls = Nothing
-```
-
-
+    Set cls = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example determines if an ADSI object is a container.
 
-
-```cpp
-IADs *pADs = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADs *pADs = NULL;
 IADsClass *pCls = NULL;
 HRESULT hr = S_OK;
 BSTR bstr;
 
-hr = ADsGetObject(L"WinNT://myComputer,computer", IID_IADs, (void**)&pADs);
+hr = ADsGetObject(L"WinNT://myComputer,computer", IID_IADs, (void**)&amp;pADs);
 if(FAILED(hr)){return;}
 
-pADs->get_Schema(&bstr);
-hr = ADsGetObject(bstr, IID_IADsClass, (void**)&pCls);
-pADs->Release();
+pADs-&gt;get_Schema(&amp;bstr);
+hr = ADsGetObject(bstr, IID_IADsClass, (void**)&amp;pCls);
+pADs-&gt;Release();
 SysFreeString(bstr);
 
 if(FAILED(hr)){return;}
 
 VARIANT_BOOL isContainer;
-pCls->get_Container(&isContainer);
+pCls-&gt;get_Container(&amp;isContainer);
 
 if(isContainer) 
     printf("Object is a container.\n");
 else
     printf("Object is not a container.\n");
 
-pCls->Release();
-
-```
-
-
+pCls-&gt;Release();
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -322,7 +342,7 @@ pCls->Release();
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

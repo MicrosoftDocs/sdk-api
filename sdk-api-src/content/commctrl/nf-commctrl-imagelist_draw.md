@@ -4,10 +4,10 @@ title: ImageList_Draw function
 author: windows-sdk-content
 description: Draws an image list item in the specified device context.
 old-location: controls\ImageList_Draw.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_draw.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ILD_BLEND, ILD_BLEND25, ILD_BLEND50, ILD_FOCUS, ILD_IMAGE, ILD_MASK, ILD_NORMAL, ILD_SELECTED, ILD_TRANSPARENT, ImageList_Draw, ImageList_Draw function [Windows Controls], _win32_ImageList_Draw, _win32_ImageList_Draw_cpp, commctrl/ImageList_Draw, controls.ImageList_Draw, controls._win32_ImageList_Draw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ The zero-based index of the image to draw.
 
 ### -param hdcDst
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HDC</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
 
 A handle to the destination device context. 
 
@@ -96,7 +96,7 @@ The y-coordinate at which to draw within the specified device context.
 
 ### -param fStyle
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The drawing style and, optionally, the overlay image. For information about specifying an overlay image index, see the comments section at the end of this topic. This parameter can be a combination of an overlay image index and one or more of the following values: 
 
@@ -145,7 +145,7 @@ Draws the image, blending 50 percent with the system highlight color. This value
 </dl>
 </td>
 <td width="60%">
-Set this flag if the overlay does not require a mask to be drawn. This flag causes <a href="https://msdn.microsoft.com/en-us/library/Bb761536(v=VS.85).aspx">ImageList_DrawEx</a> to draw just the image, ignoring the mask.
+Set this flag if the overlay does not require a mask to be drawn. This flag causes <a href="https://msdn.microsoft.com/f531f9b8-a2f5-488b-952b-f439efd83a77">ImageList_DrawEx</a> to draw just the image, ignoring the mask.
 
 </td>
 </tr>
@@ -194,7 +194,7 @@ Draws the image transparently using the mask, regardless of the background color
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 
@@ -205,7 +205,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-An overlay image is drawn transparently over the primary image specified in the <i>i</i> parameter. To specify an overlay image in the <i>fStyle</i> parameter, use the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro to shift the one-based index of the overlay image. Use the OR operator to logically combine the return value of the macro with the drawing style flags specified in the <i>fStyle</i> parameter. You must first specify this image as an overlay image by using the <a href="https://msdn.microsoft.com/en-us/library/Bb775227(v=VS.85).aspx">ImageList_SetOverlayImage</a> function. 
+An overlay image is drawn transparently over the primary image specified in the <i>i</i> parameter. To specify an overlay image in the <i>fStyle</i> parameter, use the <a href="https://msdn.microsoft.com/6619d390-0c23-41ff-a07b-31425e47712b">INDEXTOOVERLAYMASK</a> macro to shift the one-based index of the overlay image. Use the OR operator to logically combine the return value of the macro with the drawing style flags specified in the <i>fStyle</i> parameter. You must first specify this image as an overlay image by using the <a href="https://msdn.microsoft.com/8cb1babc-01bd-4aae-9bc7-073050242ce4">ImageList_SetOverlayImage</a> function. 
 
 
 

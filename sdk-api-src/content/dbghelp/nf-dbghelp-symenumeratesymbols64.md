@@ -4,10 +4,10 @@ title: SymEnumerateSymbols64 function
 author: windows-sdk-content
 description: Enumerates all the symbols for a specified module.
 old-location: base\symenumeratesymbols64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f1aa710c-fbe5-4c9a-9956-5bd872b4b5be
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: SymEnumerateSymbols, SymEnumerateSymbols function, SymEnumerateSymbols64, SymEnumerateSymbols64 function, SymEnumerateSymbolsW, SymEnumerateSymbolsW64, _win32_symenumeratesymbols64, base.symenumeratesymbols64, dbghelp/SymEnumerateSymbols, dbghelp/SymEnumerateSymbols64, dbghelp/SymEnumerateSymbolsW, dbghelp/SymEnumerateSymbolsW64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,9 +108,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 The Unicode version of this function, <b>SymEnumerateSymbolsW64</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 BOOL
 IMAGEAPI
 SymEnumerateSymbolsW64(
@@ -118,16 +122,20 @@ SymEnumerateSymbolsW64(
     __in ULONG64 BaseOfDll,
     __in PSYM_ENUMSYMBOLS_CALLBACK64W EnumSymbolsCallback,
     __in_opt PVOID UserContext
-    );
-```
-
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 This function supersedes the <b>SymEnumerateSymbols</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymEnumerateSymbols</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymEnumerateSymbols SymEnumerateSymbols64
 #define SymEnumerateSymbolsW SymEnumerateSymbolsW64
 #else
@@ -148,10 +156,10 @@ SymEnumerateSymbolsW(
     __in PSYM_ENUMSYMBOLS_CALLBACKW EnumSymbolsCallback,
     __in_opt PVOID UserContext
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

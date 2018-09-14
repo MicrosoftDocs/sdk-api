@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_checkfeaturesupport.htm
 tech.root: direct3d12
 ms.assetid: 2E986E37-30C7-45FE-BC8B-A6DD5670938F
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method, CheckFeatureSupport method,ID3D12Device interface, ID3D12Device interface,CheckFeatureSupport method, ID3D12Device.CheckFeatureSupport, ID3D12Device::CheckFeatureSupport, d3d12/ID3D12Device::CheckFeatureSupport, direct3d12.id3d12device_checkfeaturesupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ The size of the structure passed to the <i>pFeatureSupportData</i> parameter.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns <b>S_OK</b> if successful; otherwise, returns <b>E_INVALIDARG</b> if an unsupported data type is passed to the <i>pFeatureSupportData</i> parameter or a size mismatch is detected for the <i>FeatureSupportDataSize</i> parameter.
             
@@ -121,7 +121,7 @@ To view tables of DXGI formats and hardware features, refer to:
 <a href="https://msdn.microsoft.com/735CDA40-557F-4D47-87B7-97A8E120B9D2">DXGI Format  Support for Direct3D Feature Level 11.0 Hardware</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Ff471324(v=VS.85).aspx">Hardware Support for Direct3D 10Level9 Formats</a>
+<a href="direct3ddxgi.d3d11_graphics_programming_guide_dxgi_hw_formats_10level9">Hardware Support for Direct3D 10Level9 Formats</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/011ad888-1c1d-4cbd-ab70-12fb8adc000f">Hardware Support for Direct3D 10.1 Formats</a>
@@ -136,24 +136,28 @@ To view tables of DXGI formats and hardware features, refer to:
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D1211on12</a> sample uses <b>ID3D12Device::CheckFeatureSupport</b> as follows:
         
 
-
-```cpp
-inline UINT8 D3D12GetFormatPlaneCount(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>inline UINT8 D3D12GetFormatPlaneCount(
     _In_ ID3D12Device* pDevice,
     DXGI_FORMAT Format
     )
 {
     D3D12_FEATURE_DATA_FORMAT_INFO formatInfo = {Format};
-    if (FAILED(pDevice->CheckFeatureSupport(D3D12_FEATURE_FORMAT_INFO, &formatInfo, sizeof(formatInfo))))
+    if (FAILED(pDevice-&gt;CheckFeatureSupport(D3D12_FEATURE_FORMAT_INFO, &amp;formatInfo, sizeof(formatInfo))))
     {
         return 0;
     }
     return formatInfo.PlaneCount;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest2_getresponseheader.htm
 tech.root: ixhr2
 ms.assetid: 5D68DAAA-D359-4FDF-8250-14A8D732FFFA
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetResponseHeader, GetResponseHeader method [XMLHttpRequest2], GetResponseHeader method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],GetResponseHeader method, IXMLHTTPRequest2.GetResponseHeader, IXMLHTTPRequest2::GetResponseHeader, ixhr2.ixmlhttprequest2_getresponseheader, msxml6/IXMLHTTPRequest2::GetResponseHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,14 +86,18 @@ The results of this method are valid only after <a href="https://msdn.microsoft.
 
 #### Examples
 
-
-```cpp
-HRESULT hr = S_OK;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = S_OK;
 WCHAR *pwszHeaderValue = NULL;
 IXMLHTTPRequest2 *pIXMLHTTPRequest2 = NULL;
 
 // Create XMLHTTPRequest2 object and initialize pIXMLHTTP2Request.
-hr = pIXMLHTTPRequest2->GetResponseHeader(L"Server", &pwszHeaderValue);
+hr = pIXMLHTTPRequest2-&gt;GetResponseHeader(L"Server", &amp;pwszHeaderValue);
 if(SUCCEEDED(hr))
 {
    MessageBox(NULL, pwszHeaderValue, L"Response Header-Server", MB_OK);   
@@ -106,10 +110,10 @@ if (pwszHeaderValue != NULL)
 }
 
 // Release pIXMLHTTPRequest2 when finished with it.
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

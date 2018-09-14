@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_trackproperties.htm
 tech.root: TSF
 ms.assetid: e283a45d-b585-4a26-89db-7ed706f0f593
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITfContext interface [Text Services Framework],TrackProperties method, ITfContext.TrackProperties, ITfContext::TrackProperties, TrackProperties, TrackProperties method [Text Services Framework], TrackProperties method [Text Services Framework],ITfContext interface, _tsf_itfcontext_trackproperties_ref, msctf/ITfContext::TrackProperties, tsf.itfcontext_trackproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -154,11 +154,15 @@ The property obtained by this method is a VT_UNKNOWN type. This property can be 
 
 #### Examples
 
-
-```cpp
-
-const GUID *rgGuids[2] = {  &GUID_PROP_COMPOSING,
-                            &GUID_PROP_ATTRIBUTE };
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+const GUID *rgGuids[2] = {  &amp;GUID_PROP_COMPOSING,
+                            &amp;GUID_PROP_ATTRIBUTE };
 HRESULT hr;
 ITfReadOnlyProperty *pTrackProperty;
 TF_SELECTION sel;
@@ -166,31 +170,31 @@ IEnumTfRanges *pEnumRanges;
 ITfRange *pRangeValue;
 
 // Get the tracking property. 
-hr = pContext->TrackProperties(NULL, 0, rgGuids, 2, &pTrackProperty);
+hr = pContext-&gt;TrackProperties(NULL, 0, rgGuids, 2, &amp;pTrackProperty);
 
 // Get the selection range. 
-hr = pContext->GetSelection(ec, TF_DEFAULT_SELECTION, 1, &sel, &cFetched);
+hr = pContext-&gt;GetSelection(ec, TF_DEFAULT_SELECTION, 1, &amp;sel, &amp;cFetched);
 
 // Use the property from TrackProperties to get an enumeration of the ranges  
 // within the selection range that have the same property values. 
-hr = pTrackProperty->EnumRanges(ec, &pEnumRanges, sel.range);
+hr = pTrackProperty-&gt;EnumRanges(ec, &amp;pEnumRanges, sel.range);
 
 // Enumerate the ranges of text. 
-while(pEnumRanges->Next(1, &pRangeValue, NULL) == S_OK)
+while(pEnumRanges-&gt;Next(1, &amp;pRangeValue, NULL) == S_OK)
 {
     VARIANT varTrackerValue;
     TF_PROPERTYVAL tfPropertyVal;
     IEnumTfPropertyValue *pEnumPropVal;
 
     // Get the values for this range of text. 
-    hr = pTrackProperty->GetValue(ec, pRangeValue, &varTrackerValue);
+    hr = pTrackProperty-&gt;GetValue(ec, pRangeValue, &amp;varTrackerValue);
 
     // Because pTrackProperties originates from TrackProperties, 
     // varTrackerValue can be identified as a VT_UNKNOWN/IEnumTfPropertyValue. 
-    varTrackerValue.punkVal->QueryInterface(    IID_IEnumTfPropertyValue,
-                                                (void **)&pEnumPropVal);
+    varTrackerValue.punkVal-&gt;QueryInterface(    IID_IEnumTfPropertyValue,
+                                                (void **)&amp;pEnumPropVal);
 
-    while(pEnumPropVal->Next(1, &tfPropertyVal, NULL) == S_OK)
+    while(pEnumPropVal-&gt;Next(1, &amp;tfPropertyVal, NULL) == S_OK)
     {
         BOOL fComposingValue;
         TfGuidAtom gaDispAttrValue;
@@ -207,25 +211,25 @@ while(pEnumRanges->Next(1, &pRangeValue, NULL) == S_OK)
         }
         
         // Clear the property. 
-        VariantClear(&tfPropertyVal.varValue);
+        VariantClear(&amp;tfPropertyVal.varValue);
     }
 
     // Clear the tracker property. 
-    VariantClear(&varTrackerValue);
+    VariantClear(&amp;varTrackerValue);
 
     // Release the property enumerator. 
-    pEnumPropVal->Release();
+    pEnumPropVal-&gt;Release();
 
     // Release the range. 
-    pRangeValue->Release();
+    pRangeValue-&gt;Release();
 }
 
 // Release the selection range. 
-sel.range->Release();
-
-```
-
-
+sel.range-&gt;Release();
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

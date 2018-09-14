@@ -7,7 +7,7 @@ old-location: wmformat\iwmpacketsize2.htm
 tech.root: wmformat
 ms.assetid: 4af4c088-9fc3-46a9-8451-518b11bc94e3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPacketSize2, IWMPacketSize2 interface [windows Media Format], IWMPacketSize2 interface [windows Media Format],described, IWMPacketSize2Interface, wmformat.iwmpacketsize2, wmsdkidl/IWMPacketSize2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>IWMPacketSize2</b> interface provides methods to set and retrieve the minimum <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packet</a> size for a profile.
+The <b>IWMPacketSize2</b> interface provides methods to set and retrieve the minimum <a href="wmformat_glossary.htm">packet</a> size for a profile.
 
 An <b>IWMPacketSize2</b> interface can be obtained for either a profile object, a reader object, or a synchronous reader object. You can obtain a pointer to <b>IWMPacketSize2</b> by calling the <b>QueryInterface</b> method of any of the other interfaces in one of the supported objects.
 

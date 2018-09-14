@@ -7,7 +7,7 @@ old-location: security\certfreecrlcontext.htm
 tech.root: seccrypto
 ms.assetid: 19a590a5-bd39-4bbe-ad86-4e648baa1ba8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CertFreeCRLContext, CertFreeCRLContext function [Security], _crypto2_certfreecrlcontext, security.certfreecrlcontext, wincrypt/CertFreeCRLContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ The function always returns <b>TRUE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

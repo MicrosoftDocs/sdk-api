@@ -7,7 +7,7 @@ old-location: netmgmt\netschedulejobenum.htm
 tech.root: netmgmt
 ms.assetid: e3384414-6a15-4979-bed4-6f94f046474a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: NetScheduleJobEnum, NetScheduleJobEnum function [Network Management], _win32_netschedulejobenum, lmat/NetScheduleJobEnum, netmgmt.netschedulejobenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

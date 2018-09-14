@@ -7,7 +7,7 @@ old-location: enstor\ienhancedstorageact_getuniqueidentity.htm
 tech.root: enstor
 ms.assetid: 0f8d33af-a771-4cbd-9740-a72fbb7e9b42
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetUniqueIdentity, GetUniqueIdentity method [Enhanced Storage], GetUniqueIdentity method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetUniqueIdentity method, IEnhancedStorageACT.GetUniqueIdentity, IEnhancedStorageACT::GetUniqueIdentity, ehstorapi/IEnhancedStorageACT::GetUniqueIdentity, enstor.ienhancedstorageact_getuniqueidentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

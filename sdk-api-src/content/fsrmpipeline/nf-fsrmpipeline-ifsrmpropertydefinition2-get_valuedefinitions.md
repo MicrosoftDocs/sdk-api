@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertydefinition2_valuedefinitions.htm
 tech.root: fsrm
 ms.assetid: d9d726ea-62f7-489e-a442-c8719648e893
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmPropertyDefinition2 interface [File Server Resource Manager],ValueDefinitions property, IFsrmPropertyDefinition2.ValueDefinitions, IFsrmPropertyDefinition2.get_ValueDefinitions, IFsrmPropertyDefinition2::ValueDefinitions, IFsrmPropertyDefinition2::get_ValueDefinitions, ValueDefinitions property [File Server Resource Manager], ValueDefinitions property [File Server Resource Manager],IFsrmPropertyDefinition2 interface, fs.ifsrmpropertydefinition2_valuedefinitions, fsrm.ifsrmpropertydefinition2_valuedefinitions, fsrmpipeline/IFsrmPropertyDefinition2::ValueDefinitions, fsrmpipeline/IFsrmPropertyDefinition2::get_ValueDefinitions, get_ValueDefinitions
 ms.prod: windows-hardware
 ms.technology: windows-devices

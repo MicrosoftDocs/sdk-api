@@ -4,10 +4,10 @@ title: MonthCal_SetFirstDayOfWeek macro
 author: windows-sdk-content
 description: Sets the first day of the week for a month calendar control. You can use this macro or send the MCM_SETFIRSTDAYOFWEEK message explicitly.
 old-location: controls\MonthCal_SetFirstDayOfWeek.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setfirstdayofweek.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: MonthCal_SetFirstDayOfWeek, MonthCal_SetFirstDayOfWeek macro [Windows Controls], _win32_MonthCal_SetFirstDayOfWeek, _win32_MonthCal_SetFirstDayOfWeek_cpp, commctrl/MonthCal_SetFirstDayOfWeek, controls.MonthCal_SetFirstDayOfWeek, controls._win32_MonthCal_SetFirstDayOfWeek
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the first day of the week for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761006(v=VS.85).aspx">MCM_SETFIRSTDAYOFWEEK</a> message explicitly. 
+Sets the first day of the week for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/6e0dc906-a41e-4c3a-9528-1f5428dceb8d">MCM_SETFIRSTDAYOFWEEK</a> message explicitly. 
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Sets the first day of the week for a month calendar control. You can use this ma
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
 ### -param iDay
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
 Value of type <b>int</b> that specifies which day is to be set as the first day of the week, where 0 is Monday, 1 is Tuesday, and so on.
 

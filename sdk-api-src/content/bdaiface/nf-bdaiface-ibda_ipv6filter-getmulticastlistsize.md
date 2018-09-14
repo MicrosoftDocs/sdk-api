@@ -4,10 +4,10 @@ title: IBDA_IPV6Filter::GetMulticastListSize
 author: windows-sdk-content
 description: The GetMulticastListSize method retrieves the size in bytes of the list of multicast addresses.
 old-location: mstv\ibda_ipv6filter_getmulticastlistsize.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: b607774a-3c0e-49b1-881a-fd8ae2c70fb1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Technologies], GetMulticastListSize method [Microsoft TV Technologies],IBDA_IPV6Filter interface, IBDA_IPV6Filter interface [Microsoft TV Technologies],GetMulticastListSize method, IBDA_IPV6Filter.GetMulticastListSize, IBDA_IPV6Filter::GetMulticastListSize, IBDA_IPV6FilterGetMulticastListSize, bdaiface/IBDA_IPV6Filter::GetMulticastListSize, mstv.ibda_ipv6filter_getmulticastlistsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-This method is used by the <a href="https://msdn.microsoft.com/en-us/library/Dd693009(v=VS.85).aspx">BDA IP Sink</a> filter to request that a Network Provider make its best effort to tune to the stream(s) on which a list of IPv6 multicast addresses may be transmitted. Addresses in the address list are byte aligned in Network order. <i>UlcbAddresses</i> will always be an integer multiple of the size of an IPv6 address.
+This method is used by the <a href="https://msdn.microsoft.com/78cd6cba-3bd7-4ad4-b65d-c6b866a18d4e">BDA IP Sink</a> filter to request that a Network Provider make its best effort to tune to the stream(s) on which a list of IPv6 multicast addresses may be transmitted. Addresses in the address list are byte aligned in Network order. <i>UlcbAddresses</i> will always be an integer multiple of the size of an IPv6 address.
 
 
 
@@ -89,11 +89,11 @@ This method is used by the <a href="https://msdn.microsoft.com/en-us/library/Dd6
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693388(v=VS.85).aspx">IBDA_IPV6Filter Interface</a>
+<a href="https://msdn.microsoft.com/b506d382-c56d-4c5b-ad57-e186173ea9a8">IBDA_IPV6Filter Interface</a>
  
 
  

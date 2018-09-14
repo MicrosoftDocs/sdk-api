@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10buffer_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10buffer_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 43c98e35-c17e-73a5-5b4f-535b750660f1, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Buffer interface, ID3D10Buffer interface [Direct3D 10],GetDesc method, ID3D10Buffer.GetDesc, ID3D10Buffer::GetDesc, d3d10/ID3D10Buffer::GetDesc, direct3d10.id3d10buffer_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,9 +61,9 @@ Get the properties of a buffer resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204896(v=VS.85).aspx">D3D10_BUFFER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3f98c741-ff4c-4080-bd57-ef35cd6622d6">D3D10_BUFFER_DESC</a>*</b>
 
-Pointer to a resource description (see <a href="https://msdn.microsoft.com/en-us/library/Bb204896(v=VS.85).aspx">D3D10_BUFFER_DESC</a>) filled in by the method. This pointer cannot be <b>NULL</b>.
+Pointer to a resource description (see <a href="https://msdn.microsoft.com/3f98c741-ff4c-4080-bd57-ef35cd6622d6">D3D10_BUFFER_DESC</a>) filled in by the method. This pointer cannot be <b>NULL</b>.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer Interface</a>
+<a href="https://msdn.microsoft.com/a81e0dfc-9be4-4ba6-a388-9c9bb97a0fa9">ID3D10Buffer Interface</a>
  
 
  

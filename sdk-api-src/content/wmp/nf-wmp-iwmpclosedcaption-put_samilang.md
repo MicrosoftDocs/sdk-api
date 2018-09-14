@@ -7,7 +7,7 @@ old-location: wmp\iwmpclosedcaption_put_samilang.htm
 tech.root: WMP
 ms.assetid: 2027d8cd-2528-45ad-9f36-f03cc3001ba7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMILang method, IWMPClosedCaption.put_SAMILang, IWMPClosedCaption::put_SAMILang, IWMPClosedCaptionput_SAMILang, put_SAMILang, put_SAMILang method [Windows Media Player], put_SAMILang method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samilang, wmp/IWMPClosedCaption::put_SAMILang
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,12 +100,16 @@ The method succeeded.
 
 A SAMI file can contain text for one or many languages. The languages available for closed captioning are defined between the &lt;STYLE&gt; and &lt;/STYLE&gt; tags in the SAMI file. A language identifier is specified with a unique alphanumeric string that is preceded by a period (.). The name specified for a language can be any string. For example, the following could be used to define US English:
 
-
-```
-.ENUSCC {Name:'English Captions' lang: en-US; SAMIType:CC;}
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>.ENUSCC {Name:'English Captions' lang: en-US; SAMIType:CC;}</pre>
+</td>
+</tr>
+</table></span></div>
 If no SAMI language is specified, the first language defined in the SAMI file is used by default.
 
 The value you specify using <b>put_SAMILang</b> must match the <b>Name</b> attribute in the language specifier.

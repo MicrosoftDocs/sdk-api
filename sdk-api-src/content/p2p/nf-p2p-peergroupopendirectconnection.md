@@ -7,7 +7,7 @@ old-location: p2p\peergroupopendirectconnection.htm
 tech.root: p2psdk
 ms.assetid: a3c52754-91b0-4722-a459-87c70b3ab9ad
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerGroupOpenDirectConnection, PeerGroupOpenDirectConnection function [Peer Networking], p2p.peergroupopendirectconnection, p2p/PeerGroupOpenDirectConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

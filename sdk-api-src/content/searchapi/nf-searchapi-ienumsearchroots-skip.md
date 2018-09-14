@@ -7,7 +7,7 @@ old-location: search\_search_IEnumSearchRoots_Skip.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\skip.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: IEnumSearchRoots interface [search],Skip method, IEnumSearchRoots.Skip, IEnumSearchRoots::Skip, Skip, Skip method [search], Skip method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Skip, search._search_IEnumSearchRoots_Skip, searchapi/IEnumSearchRoots::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ Returns S_OK if successful, S_FALSE if there were not enough items left in the e
 
 
 
-<b>IEnumSearchRoots::Skip</b> moves the internal counter forward a specified number of elements so that a subsequent call to <a href="https://msdn.microsoft.com/en-us/library/Bb266505(v=VS.85).aspx">IEnumSearchRoots::Next</a> starts from that point. 
+<b>IEnumSearchRoots::Skip</b> moves the internal counter forward a specified number of elements so that a subsequent call to <a href="https://msdn.microsoft.com/58838414-0609-4da8-9467-1ebfb5e42d8c">IEnumSearchRoots::Next</a> starts from that point. 
 
 <b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
 

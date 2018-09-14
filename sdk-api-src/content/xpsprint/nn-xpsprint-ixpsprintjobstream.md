@@ -7,7 +7,7 @@ old-location: gdi\ixpsprintjobstream.htm
 tech.root: printdocs
 ms.assetid: a7855015-32db-48ff-8f8d-3d84d2843fde
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IXpsPrintJobStream, IXpsPrintJobStream interface [Windows GDI], IXpsPrintJobStream interface [Windows GDI],described, gdi.ixpsprintjobstream, xpsprint/IXpsPrintJobStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ A write-only stream interface into which an application writes print job data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPrintJobStream</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa380010(v=VS.85).aspx">ISequentialStream</a>. <b>IXpsPrintJobStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPrintJobStream</b> interface inherits from <a href="_stg_isequentialstream">ISequentialStream</a>. <b>IXpsPrintJobStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -100,7 +100,7 @@ Closes the stream and indicates that the entire document has been written.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380010(v=VS.85).aspx">ISequentialStream</a>
+<a href="_stg_isequentialstream">ISequentialStream</a>
 
 
 

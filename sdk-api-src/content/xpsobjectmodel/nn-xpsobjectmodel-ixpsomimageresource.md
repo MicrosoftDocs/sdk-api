@@ -7,7 +7,7 @@ old-location: xps\ixpsomimageresource.htm
 tech.root: printdocs
 ms.assetid: 89a1530e-fa87-45bf-a1da-c8656ec09ba3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IXpsOMImageResource, IXpsOMImageResource interface [XPS Documents and Packaging], IXpsOMImageResource interface [XPS Documents and Packaging],described, xps.ixpsomimageresource, xpsobjectmodel/IXpsOMImageResource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,9 +104,13 @@ Sets the read-only stream to be associated with this resource.
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMImageResource    *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -122,39 +126,39 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
     // The partUriString and acquiredStream variables 
     //   are defined outside of this example.
-    hr = xpsFactory->CreatePartUri(partUriString, &partUri);
+    hr = xpsFactory-&gt;CreatePartUri(partUriString, &amp;partUri);
     if (SUCCEEDED(hr))
     {
-        hr = xpsFactory->CreateImageResource (
+        hr = xpsFactory-&gt;CreateImageResource (
             acquiredStream,
             contentType,
             partUri,
-            &newInterface);
+            &amp;newInterface);
         if (SUCCEEDED(hr))
         {
             // use newInterface
 
-            newInterface->Release();
+            newInterface-&gt;Release();
         }
-        partUri->Release();
+        partUri-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

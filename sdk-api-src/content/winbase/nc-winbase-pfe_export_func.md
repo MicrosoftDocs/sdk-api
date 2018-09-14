@@ -4,10 +4,10 @@ title: PFE_EXPORT_FUNC
 author: windows-sdk-content
 description: An application-defined callback function used with ReadEncryptedFileRaw.
 old-location: fs\exportcallback.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 156948c9-d7b4-4491-bdb1-e1864a32caab
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ExportCallback, ExportCallback callback, ExportCallback callback function [Files], PFE_EXPORT_FUNC, PFE_EXPORT_FUNC callback function [Files], base.exportcallback, fs.exportcallback, winbase/ExportCallback, winbase/PFE_EXPORT_FUNC
 ms.prod: windows
 ms.technology: windows-sdk

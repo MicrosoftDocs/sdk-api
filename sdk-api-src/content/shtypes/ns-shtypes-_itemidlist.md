@@ -7,7 +7,7 @@ old-location: shell\ITEMIDLIST.htm
 tech.root: shell
 ms.assetid: 60daf071-4e93-4e1c-bc38-894f706db04f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: "*LPITEMIDLIST, *PIDLIST_ABSOLUTE, *PIDLIST_RELATIVE, *PITEMID_CHILD, *PUIDLIST_RELATIVE, *PUITEMID_CHILD, ITEMIDLIST, ITEMIDLIST structure [Windows Shell], ITEMIDLIST_ABSOLUTE, ITEMIDLIST_RELATIVE, ITEMID_CHILD, _ITEMIDLIST, _win32_ITEMIDLIST, shell.ITEMIDLIST, shtypes/ITEMIDLIST"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,15 +83,19 @@ As of Windows Vista, several forms of <b>ITEMIDLIST</b> are available as data t
 </ul>
 These types are used if you compile your code with the symbol STRICT_TYPED_ITEMIDS before you include the Shell header files, as shown in the following example code.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 #define STRICT_TYPED_ITEMIDS    // Better type safety for IDLists
 
-#include <shlobj.h>             // Typical Shell header file
-```
-
-
+#include &lt;shlobj.h&gt;             // Typical Shell header file</pre>
+</td>
+</tr>
+</table></span></div>
 The meaning of each of these types can be altered with one or more of the following modifiers:
 
 <ul>

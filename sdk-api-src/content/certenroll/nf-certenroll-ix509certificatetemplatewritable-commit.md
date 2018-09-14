@@ -4,10 +4,10 @@ title: IX509CertificateTemplateWritable::Commit
 author: windows-sdk-content
 description: Deletes a template from or saves it to Active Directory.
 old-location: security\ix509certificatetemplatewritable_commit.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: ee7d5640-8d06-4a1a-bce2-f76ee6276207
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Commit, Commit method [Security], Commit method [Security],IX509CertificateTemplateWritable interface, CommitFlagDeleteTemplate, CommitFlagSaveTemplateGenerateOID, CommitFlagSaveTemplateOverwrite, CommitFlagSaveTemplateUseCurrentOID, IX509CertificateTemplateWritable interface [Security],Commit method, IX509CertificateTemplateWritable.Commit, IX509CertificateTemplateWritable::Commit, certenroll/IX509CertificateTemplateWritable::Commit, security.ix509certificatetemplatewritable_commit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>Commit</b> method deletes a template from or saves it to Active Directory
 
 ### -param commitFlags [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ee338603(v=VS.85).aspx">CommitTemplateFlags</a> enumeration value that specifies how to save or delete the template. This must be one of the following values.
+A <a href="https://msdn.microsoft.com/e228928a-ef11-4caa-b33f-fe25a3a6ff86">CommitTemplateFlags</a> enumeration value that specifies how to save or delete the template. This must be one of the following values.
 
 <table>
 <tr>
@@ -122,7 +122,7 @@ A <b>BSTR</b> variable that contains the DNS name of the Active Directory server
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -191,7 +191,7 @@ Either <b>CommitFlagSaveTemplateUseCurrentOID</b> or <b>CommitFlagSaveTemplateOv
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ee351676(v=VS.85).aspx">Commit</a> method is not supported for default templates.
+The <a href="https://msdn.microsoft.com/ee7d5640-8d06-4a1a-bce2-f76ee6276207">Commit</a> method is not supported for default templates.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Ee351676(v=VS.85).aspx">Co
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX509CertificateTemplateWritable</a> object has not been initialized.
+The <a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a> object has not been initialized.
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ When <b>CommitFlagSaveTemplateGenerateOID</b> is specified in the <i>commitFlags
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX509CertificateTemplateWritable</a>
+<a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a>
  
 
  

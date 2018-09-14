@@ -4,10 +4,10 @@ title: "_IMAGE_NT_HEADERS"
 author: windows-sdk-content
 description: Represents the PE header format.
 old-location: base\image_nt_headers_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 6511341f-252d-4f73-bb90-284bbb69b065
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: "*PIMAGE_NT_HEADERS32, IMAGE_NT_HEADERS, IMAGE_NT_HEADERS structure, IMAGE_NT_HEADERS32, IMAGE_NT_HEADERS64, PIMAGE_NT_HEADERS, PIMAGE_NT_HEADERS structure pointer, _IMAGE_NT_HEADERS, _win32_image_nt_headers_str, base.image_nt_headers_str, winnt/IMAGE_NT_HEADERS, winnt/PIMAGE_NT_HEADERS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,16 +81,20 @@ An
 
 The actual structure in WinNT.h is named <b>IMAGE_NT_HEADERS32</b> and <b>IMAGE_NT_HEADERS</b> is defined as <b>IMAGE_NT_HEADERS32</b>. However, if _WIN64 is defined,  then <b>IMAGE_NT_HEADERS</b> is defined as <b>IMAGE_NT_HEADERS64</b>.
 
-
-```cpp
-typedef struct _IMAGE_NT_HEADERS64 {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _IMAGE_NT_HEADERS64 {
     DWORD Signature;
     IMAGE_FILE_HEADER FileHeader;
     IMAGE_OPTIONAL_HEADER64 OptionalHeader;
-} IMAGE_NT_HEADERS64, *PIMAGE_NT_HEADERS64;
-```
-
-
+} IMAGE_NT_HEADERS64, *PIMAGE_NT_HEADERS64;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

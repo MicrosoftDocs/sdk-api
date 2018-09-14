@@ -7,7 +7,7 @@ old-location: security\imscepsetup_initializedefaults.htm
 tech.root: seccrypto
 ms.assetid: 25b1fd48-7b2c-4687-af7e-09efd99038b3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMSCEPSetup interface [Security],InitializeDefaults method, IMSCEPSetup.InitializeDefaults, IMSCEPSetup::InitializeDefaults, InitializeDefaults, InitializeDefaults method [Security], InitializeDefaults method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::InitializeDefaults, security.imscepsetup_initializedefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>InitializeDefaults</b> method initializes a <b>CMSCEPSetup</b> object with default values to enable installation of a Network Device Enrollment Service (NDES) role. To install an NDES role, this method must be called before using the <b>CMSCEPSetup</b> object. For information about default values, see <a href="https://msdn.microsoft.com/en-us/library/Bb736420(v=VS.85).aspx">MSCEPSetupProperty</a>.
+The <b>InitializeDefaults</b> method initializes a <b>CMSCEPSetup</b> object with default values to enable installation of a Network Device Enrollment Service (NDES) role. To install an NDES role, this method must be called before using the <b>CMSCEPSetup</b> object. For information about default values, see <a href="https://msdn.microsoft.com/c3740afc-842e-427f-87bf-022f5544d0d4">MSCEPSetupProperty</a>.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The <b>InitializeDefaults</b> method initializes a <b>CMSCEPSetup</b> object wit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736404(v=VS.85).aspx">IMSCEPSetup</a>
+<a href="https://msdn.microsoft.com/328c6c04-7ade-4b64-bd8a-4314b6e8dc78">IMSCEPSetup</a>
  
 
  

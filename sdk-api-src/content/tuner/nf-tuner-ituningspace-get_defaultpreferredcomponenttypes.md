@@ -4,10 +4,10 @@ title: ITuningSpace::get_DefaultPreferredComponentTypes
 author: windows-sdk-content
 description: The get_DefaultPreferredComponentTypes method returns an list of the default preferred component types for this tuning space.
 old-location: mstv\ituningspace_get_defaultpreferredcomponenttypes.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: a633a94c-e514-46b1-9982-7526ffa89b74
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_DefaultPreferredComponentTypes method, ITuningSpace.get_DefaultPreferredComponentTypes, ITuningSpace::get_DefaultPreferredComponentTypes, ITuningSpaceget_DefaultPreferredComponentTypes, get_DefaultPreferredComponentTypes, get_DefaultPreferredComponentTypes method [Microsoft TV Technologies], get_DefaultPreferredComponentTypes method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_defaultpreferredcomponenttypes, tuner/ITuningSpace::get_DefaultPreferredComponentTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

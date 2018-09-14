@@ -4,10 +4,10 @@ title: "_MIB_MULTICASTIPADDRESS_TABLE"
 author: windows-sdk-content
 description: Contains a table of multicast IP address entries.
 old-location: mib\mib_multicastipaddress_table.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: 7ae1ec12-aa67-40ff-9641-410099685234
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMIB_MULTICASTIPADDRESS_TABLE, MIB_MULTICASTIPADDRESS_TABLE, MIB_MULTICASTIPADDRESS_TABLE structure [MIB], PMIB_MULTICASTIPADDRESS_TABLE, PMIB_MULTICASTIPADDRESS_TABLE structure pointer [MIB], _MIB_MULTICASTIPADDRESS_TABLE, mib.mib_multicastipaddress_table, netioapi/MIB_MULTICASTIPADDRESS_TABLE, netioapi/PMIB_MULTICASTIPADDRESS_TABLE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\loadpackagedlibrary.htm
 tech.root: dlls
 ms.assetid: 4a103753-a2c9-487f-b797-01d5f5d489f3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/04/2018
 ms.keywords: LoadPackagedLibrary, LoadPackagedLibrary function, base.loadpackagedlibrary, winbase/LoadPackagedLibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::SyncConflictRecUpdated
 author: windows-sdk-content
 description: Reports that a sync conflict has been detected and that a record of the conflict was already present in the sync conflict log.
 old-location: of\iofflinefilesevents_syncconflictrecupdated.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: adf13e95-bcb0-4f84-bbb9-9648f90f3be8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecUpdated method, IOfflineFilesEvents.SyncConflictRecUpdated, IOfflineFilesEvents::SyncConflictRecUpdated, SyncConflictRecUpdated, SyncConflictRecUpdated method [Offline Files], SyncConflictRecUpdated method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecUpdated, of.iofflinefilesevents_syncconflictrecupdated
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ Pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161
 
 ### -param ConflictSyncState [in]
 
-Describes the state of the local and remote items in conflict.  One of the <a href="https://msdn.microsoft.com/en-us/library/Bb530655(v=VS.85).aspx">OFFLINEFILES_SYNC_STATE</a> sync state values, such as
+Describes the state of the local and remote items in conflict.  One of the <a href="https://msdn.microsoft.com/05d1e03e-2db4-4f1e-8813-98c8cf6d03b6">OFFLINEFILES_SYNC_STATE</a> sync state values, such as
 
 OFFLINEFILES_SYNC_STATE_FileChangedOnClient_ChangedOnServer
 
@@ -92,7 +92,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
  
 
  

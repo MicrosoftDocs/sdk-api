@@ -7,7 +7,7 @@ old-location: pla\idatamanager.htm
 tech.root: PLA
 ms.assetid: a153d88f-4c7e-45fd-9cd8-497160711de4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IDataManager, IDataManager interface [PLA], IDataManager interface [PLA],described, base.idatamanager, pla.idatamanager, pla/IDataManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ To get this interface, access the <a href="https://msdn.microsoft.com/739cf386-c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDataManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataManager</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IDataManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

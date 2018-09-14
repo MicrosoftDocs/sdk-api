@@ -4,10 +4,10 @@ title: IComponents::put_Item
 author: windows-sdk-content
 description: The put_Item method inserts a component into the collection, replacing the item that is identified by the specified index.
 old-location: mstv\icomponents_put_item.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c1e18e97-e8d3-441c-b7ea-6743e478033b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],put_Item method, IComponents.put_Item, IComponents::put_Item, IComponentsput_Item, mstv.icomponents_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],IComponents interface, tuner/IComponents::put_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

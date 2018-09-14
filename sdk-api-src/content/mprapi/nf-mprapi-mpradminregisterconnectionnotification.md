@@ -4,10 +4,10 @@ title: MprAdminRegisterConnectionNotification function
 author: windows-sdk-content
 description: The MprAdminRegisterConnectionNotification function registers an event object with the Demand Dial Manager (DDM) so that, if an interface connects or disconnects, the event is signaled.
 old-location: rras\mpradminregisterconnectionnotification.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: ba70154b-a2d1-4121-bea6-4572446bf9ee
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MprAdminRegisterConnectionNotification, MprAdminRegisterConnectionNotification function [RAS], _mpr_mpradminregisterconnectionnotification, mprapi/MprAdminRegisterConnectionNotification, rras.mpradminregisterconnectionnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,7 +124,7 @@ The <i>hEventNotification</i> parameter is <b>NULL</b> or is an invalid handle.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ The event is signaled when an interface connects or disconnects. When an event i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

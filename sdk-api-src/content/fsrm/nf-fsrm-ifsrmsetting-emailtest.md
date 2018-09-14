@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmsetting_emailtest.htm
 tech.root: fsrm
 ms.assetid: dda57309-8e77-4934-bb3e-d208d4607ea5
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: EmailTest, EmailTest method [File Server Resource Manager], EmailTest method [File Server Resource Manager],FsrmSetting class, EmailTest method [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],EmailTest method, IFsrmSetting interface [File Server Resource Manager],EmailTest method, IFsrmSetting.EmailTest, IFsrmSetting::EmailTest, fs.ifsrmsetting_emailtest, fsrm.ifsrmsetting_emailtest, fsrm/IFsrmSetting::EmailTest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,17 +89,21 @@ The subject and message body are predefined, localized text.
 
 The following example shows how to call this method.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include <windows.h>
-#include <stdio.h>
-#include <comutil.h>
-#include <fsrm.h>       // FSRM base objects and collections
-#include <fsrmtlb_i.c>  // contains CLSIDs
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;comutil.h&gt;
+#include &lt;fsrm.h&gt;       // FSRM base objects and collections
+#include &lt;fsrmtlb_i.c&gt;  // contains CLSIDs
 
 //
 // Call the IFsrmSetting::EmailTest method to test the SMTP email server.
@@ -120,7 +124,7 @@ void wmain(void)
                         NULL,
                         CLSCTX_LOCAL_SERVER,
                         __uuidof(IFsrmSetting),
-                        reinterpret_cast<void**> (&pSettings));
+                        reinterpret_cast&lt;void**&gt; (&amp;pSettings));
 
   if (FAILED(hr))
   {
@@ -134,10 +138,10 @@ void wmain(void)
   wprintf(L"Successfully created Setting object.\n");
 
   // Specify the SMTP server to use for sending email.
-  hr = pSettings->put_SmtpServer(_bstr_t(L"<FQDNOFSMTPSERVER>")); 
+  hr = pSettings-&gt;put_SmtpServer(_bstr_t(L"&lt;FQDNOFSMTPSERVER&gt;")); 
   if (FAILED(hr))
   {
-    wprintf(L"pSettings->put_SmtpServer failed, 0x%x.\n", hr);
+    wprintf(L"pSettings-&gt;put_SmtpServer failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -145,10 +149,10 @@ void wmain(void)
   // predefined email message in C:\Inetpub\mailroot\Drop. You can use 
   // Outlook Express to read the message.
 
-  hr = pSettings->EmailTest(_bstr_t(L"admin@<FQDNOFSMTPSERVER>"));
+  hr = pSettings-&gt;EmailTest(_bstr_t(L"admin@&lt;FQDNOFSMTPSERVER&gt;"));
   if (FAILED(hr))
   {
-    wprintf(L"pSettings->EmailTest failed, 0x%x.\n", hr);
+    wprintf(L"pSettings-&gt;EmailTest failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -157,14 +161,14 @@ void wmain(void)
 cleanup:
 
   if (pSettings)
-    pSettings->Release();
+    pSettings-&gt;Release();
 
   CoUninitialize();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

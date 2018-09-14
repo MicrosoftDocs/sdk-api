@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationcontent_getcontentrect.htm
 tech.root: directmanipulation
 ms.assetid: 26a5736e-633e-4451-a339-c5f88913bcf6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetContentRect, GetContentRect method [Direct Manipulation], GetContentRect method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetContentRect method, IDirectManipulationContent.GetContentRect, IDirectManipulationContent::GetContentRect, directmanipulation.idirectmanipulationcontent_getcontentrect, directmanipulation/IDirectManipulationContent::GetContentRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-If the bounding rectangle  has not been set using <a href="https://msdn.microsoft.com/41b14e56-ba24-4ad2-9dac-28daf7d13c6a">SetContentRect</a>, then <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">UI_E_VALUE_NOT_SET</a> is returned. However, the actual content rectangle is (-<a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>, -<a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>, <a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>, <a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>).
+If the bounding rectangle  has not been set using <a href="https://msdn.microsoft.com/41b14e56-ba24-4ad2-9dac-28daf7d13c6a">SetContentRect</a>, then <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">UI_E_VALUE_NOT_SET</a> is returned. However, the actual content rectangle is (-<a href="_pluslang_Floating_Limits">FLT_MAX</a>, -<a href="_pluslang_Floating_Limits">FLT_MAX</a>, <a href="_pluslang_Floating_Limits">FLT_MAX</a>, <a href="_pluslang_Floating_Limits">FLT_MAX</a>).
 
 
 

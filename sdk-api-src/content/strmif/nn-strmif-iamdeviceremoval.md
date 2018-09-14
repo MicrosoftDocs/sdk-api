@@ -7,7 +7,7 @@ old-location: dshow\iamdeviceremoval.htm
 tech.root: DirectShow
 ms.assetid: 3d67f577-9d85-47ca-b887-f259e9acc964
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IAMDeviceRemoval, IAMDeviceRemoval interface [DirectShow], IAMDeviceRemoval interface [DirectShow],described, IAMDeviceRemovalInterface, dshow.iamdeviceremoval, strmif/IAMDeviceRemoval
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationprimarycontent_setsnapinterv
 tech.root: directmanipulation
 ms.assetid: 99d039fe-017a-47c5-95a1-5000efe92ba0
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapInterval method, IDirectManipulationPrimaryContent.SetSnapInterval, IDirectManipulationPrimaryContent::SetSnapInterval, SetSnapInterval, SetSnapInterval method [Direct Manipulation], SetSnapInterval method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnapinterval, directmanipulation/IDirectManipulationPrimaryContent::SetSnapInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,13 +101,17 @@ Snap points are not at boundaries by default. If you wish for content to stop at
 
 The following example shows how to set the coordinate system for X translation snap points to the origin. Snap points are set every 45 pixels, beginning at the origin along the X-axis.
 
-
-```
-HRESULT hr = SetSnapCoordinate(testWindow, 0, DIRECTMANIPULATION_MOTION_TRANSLATEX, DIRECTMANIPULATION_COORDINATE_ORIGIN, 0.0f);
-hr = pContent->SetSnapInterval(DIRECTMANIPULATION_MOTION_TRANSLATEX, 45.0f, 0.0f);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = SetSnapCoordinate(testWindow, 0, DIRECTMANIPULATION_MOTION_TRANSLATEX, DIRECTMANIPULATION_COORDINATE_ORIGIN, 0.0f);
+hr = pContent-&gt;SetSnapInterval(DIRECTMANIPULATION_MOTION_TRANSLATEX, 45.0f, 0.0f);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: cos\itransactionresourcepool.htm
 tech.root: cossdk
 ms.assetid: bf7ca849-6025-4358-bf2d-629d80e06a04
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ITransactionResourcePool, ITransactionResourcePool interface [COM+], ITransactionResourcePool interface [COM+],described, _cos_ITransactionResourcePool, comsvcs/ITransactionResourcePool, cos.itransactionresourcepool
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Maintains a list of pooled objects, keyed by <a href="https://msdn.microsoft.com/en-us/library/ms686740(v=VS.85).aspx">IObjPool</a>, that are used until the transaction completes.
+Maintains a list of pooled objects, keyed by <a href="https://msdn.microsoft.com/d3730a37-933b-4705-b787-4b8bb728a278">IObjPool</a>, that are used until the transaction completes.
 
 
 
@@ -97,11 +97,11 @@ Adds an object to the list of pooled objects.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686740(v=VS.85).aspx">IObjPool</a>
+<a href="https://msdn.microsoft.com/d3730a37-933b-4705-b787-4b8bb728a278">IObjPool</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681768(v=VS.85).aspx">ITransactionProperty</a>
+<a href="https://msdn.microsoft.com/602842ce-abb1-4830-99b3-d361d18ac074">ITransactionProperty</a>
  
 
  

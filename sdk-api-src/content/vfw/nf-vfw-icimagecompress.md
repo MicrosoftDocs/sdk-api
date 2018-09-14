@@ -7,7 +7,7 @@ old-location: multimedia\icimagecompress.htm
 tech.root: Multimedia
 ms.assetid: 111d3b97-527b-4cca-ba4e-3d8310a5c72b
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/31/2018
 ms.keywords: ICImageCompress, ICImageCompress function [Windows Multimedia], _win32_ICImageCompress, multimedia.icimagecompress, vfw/ICImageCompress
 ms.prod: windows-hardware
 ms.technology: windows-devices

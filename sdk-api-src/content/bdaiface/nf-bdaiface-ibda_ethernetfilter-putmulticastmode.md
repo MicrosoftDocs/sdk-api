@@ -4,10 +4,10 @@ title: IBDA_EthernetFilter::PutMulticastMode
 author: windows-sdk-content
 description: The PutMulticastMode method sets the multicast mode.
 old-location: mstv\ibda_ethernetfilter_putmulticastmode.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 01694aba-6b43-46da-a35c-7f3f5befecad
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_EthernetFilter interface [Microsoft TV Technologies],PutMulticastMode method, IBDA_EthernetFilter.PutMulticastMode, IBDA_EthernetFilter::PutMulticastMode, IBDA_EthernetFilterPutMulticastMode, PutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies],IBDA_EthernetFilter interface, bdaiface/IBDA_EthernetFilter::PutMulticastMode, mstv.ibda_ethernetfilter_putmulticastmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,15 +89,15 @@ See the Windows DDK for possible values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693342(v=VS.85).aspx">GetMulticastMode</a>
+<a href="https://msdn.microsoft.com/8a0a5dbb-642a-458b-a5b2-80e993ab61ca">GetMulticastMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693329(v=VS.85).aspx">IBDA_EthernetFilter Interface</a>
+<a href="https://msdn.microsoft.com/f4f9d6c0-0acf-416b-adb3-643ac0167d0a">IBDA_EthernetFilter Interface</a>
  
 
  

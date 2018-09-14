@@ -4,10 +4,10 @@ title: ITuneRequestInfo::GetPreviousProgram
 author: windows-sdk-content
 description: The GetPreviousProgram method creates a new tune request with channel or program locator information for the previous service.
 old-location: mstv\itunerequestinfo_getpreviousprogram.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9c03a5c9-9dc1-4163-bbc8-8dae2037eb24
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetPreviousProgram, GetPreviousProgram method [Microsoft TV Technologies], GetPreviousProgram method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetPreviousProgram method, ITuneRequestInfo.GetPreviousProgram, ITuneRequestInfo::GetPreviousProgram, ITuneRequestInfoGetPreviousProgram, bdatif/ITuneRequestInfo::GetPreviousProgram, mstv.itunerequestinfo_getpreviousprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -136,11 +136,11 @@ This method might be used by a custom Guide Store Loader to enumerate the availa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694998(v=VS.85).aspx">ITuneRequestInfo Interface</a>
+<a href="https://msdn.microsoft.com/e5cb1a15-29c4-4e0f-aed2-eafe12ea007a">ITuneRequestInfo Interface</a>
  
 
  

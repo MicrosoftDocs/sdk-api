@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt16ArrayAlloc.htm
 tech.root: properties
 ms.assetid: 59e8d295-3be4-4e9a-a096-ead777d3aa8a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: VariantToUInt16ArrayAlloc, VariantToUInt16ArrayAlloc function [Windows Properties], _shell_VariantToUInt16ArrayAlloc, properties.VariantToUInt16ArrayAlloc, propvarutil/VariantToUInt16ArrayAlloc, shell.VariantToUInt16ArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

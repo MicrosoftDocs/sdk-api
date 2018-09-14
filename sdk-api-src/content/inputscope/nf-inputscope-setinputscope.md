@@ -7,7 +7,7 @@ old-location: tsf\SetInputScope.htm
 tech.root: TSF
 ms.assetid: 4098525c-8d29-419a-9484-9e70420416bc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: SetInputScope, SetInputScope function [Text Services Framework], inputscope/SetInputScope, tsf.SetInputScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,13 +111,17 @@ scope change.
 The following code illustrates how to set an input scope for a window.
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 SetInputScope(hwnd, IS_EMAIL_USERNAME);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

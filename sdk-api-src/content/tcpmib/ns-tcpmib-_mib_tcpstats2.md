@@ -4,10 +4,10 @@ title: "_MIB_TCPSTATS2"
 author: windows-sdk-content
 description: Contains statistics for the TCP protocol running on the local computer.
 old-location: mib\mib_tcpstats2.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: A32AA866-406B-4BE0-A4F1-5EBC9DFD646D
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMIB_TCPSTATS2, MIB_TCPSTATS2, MIB_TCPSTATS2 structure [MIB], MIB_TCP_RTO_CONSTANT, MIB_TCP_RTO_OTHER, MIB_TCP_RTO_RSRE, MIB_TCP_RTO_VANJ, PMIB_TCPSTATS2, PMIB_TCPSTATS2 structure pointer [MIB], _MIB_TCPSTATS2, mib.mib_tcpstats2, tcpmib/MIB_TCPSTATS2, tcpmib/PMIB_TCPSTATS2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -228,7 +228,7 @@ Van Jacobson's Algorithm
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Mt803265(v=VS.85).aspx">GetTcpStatisticsEx2</a> function returns a pointer to a <b>MIB_TCPSTATS2</b> structure. 
+The <a href="_iphlp_gettcpstatisticsex2">GetTcpStatisticsEx2</a> function returns a pointer to a <b>MIB_TCPSTATS2</b> structure. 
 
  This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 

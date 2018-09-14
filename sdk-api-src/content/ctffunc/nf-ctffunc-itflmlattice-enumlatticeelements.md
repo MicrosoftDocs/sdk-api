@@ -7,7 +7,7 @@ old-location: tsf\itflmlattice_enumlatticeelements.htm
 tech.root: TSF
 ms.assetid: c42ad69f-d27a-40b7-8d63-3b422cb69db5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: EnumLatticeElements, EnumLatticeElements method [Text Services Framework], EnumLatticeElements method [Text Services Framework],ITfLMLattice interface, ITfLMLattice interface [Text Services Framework],EnumLatticeElements method, ITfLMLattice.EnumLatticeElements, ITfLMLattice::EnumLatticeElements, _tsf_itflmlattice_enumlatticeelements_ref, ctffunc/ITfLMLattice::EnumLatticeElements, tsf.itflmlattice_enumlatticeelements
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,12 +64,12 @@ Specifies the offset, in 100-nanosecond units, relative to the start of the phra
 
 ### -param rguidType [in]
 
-Specifies the lattice type identifier. This can be one of the <a href="https://msdn.microsoft.com/en-us/library/ms628996(v=VS.85).aspx">Lattice Type</a> values.
+Specifies the lattice type identifier. This can be one of the <a href="https://msdn.microsoft.com/ce4bf11b-e7e7-4f06-b572-8ed6f0ed8d36">Lattice Type</a> values.
 
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms538208(v=VS.85).aspx">IEnumTfLatticeElements</a> interface pointer that receives the enumerator object.
+Pointer to an <a href="https://msdn.microsoft.com/5e36f052-a539-4020-8899-fb14c792c666">IEnumTfLatticeElements</a> interface pointer that receives the enumerator object.
 
 
 ## -returns
@@ -143,7 +143,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628774(v=VS.85).aspx">ITfLMLattice</a>
+<a href="https://msdn.microsoft.com/25ad6ef2-1d42-498a-852f-163a0efbc26a">ITfLMLattice</a>
 
 
 

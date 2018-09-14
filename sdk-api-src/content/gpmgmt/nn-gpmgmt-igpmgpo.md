@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo.htm
 tech.root: GPMC
 ms.assetid: 2857c8b7-019d-4ec2-9a00-574fc8541cae
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GPMGPO, IGPMGPO, IGPMGPO interface [GPMC], IGPMGPO interface [GPMC],described, _win32_igpmgpo, gpmc.igpmgpo, gpmgmt/ IGPMGPO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ You can instantiate a <b>GPMGPO</b> object by creating a new one with a call to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n"> IGPMGPO</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b> IGPMGPO</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n"> IGPMGPO</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b> IGPMGPO</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -379,7 +379,7 @@ Version number of the system volume folder (SYSVOL) component of the user config
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

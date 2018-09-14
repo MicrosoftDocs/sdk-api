@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_settoprightradiusx.htm
 tech.root: directcomp
 ms.assetid: 2FCE8558-2EED-4A44-93F3-796984C47AF0
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionRectangleClip.SetTopRightRadiusX, IDCompositionRectangleClip.SetTopRightRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetTopRightRadiusX, IDCompositionRectangleClip::SetTopRightRadiusX(IDCompositionAnimation), SetTopRightRadiusX, SetTopRightRadiusX methods [DirectComposition], dcomp/SetTopRightRadiusX, directcomp.idcompositionrectangleclip_settoprightradiusx
 ms.prod: windows-hardware
 ms.technology: windows-devices

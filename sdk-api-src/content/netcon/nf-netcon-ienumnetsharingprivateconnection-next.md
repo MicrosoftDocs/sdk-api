@@ -4,10 +4,10 @@ title: IEnumNetSharingPrivateConnection::Next
 author: windows-sdk-content
 description: The Next method retrieves the specified number of privately-shared connections that start from the current enumeration position.
 old-location: ics\ienumnetsharingprivateconnection_next.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 3f9cc481-8967-4b1e-95b2-c6ddec20a1ea
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumNetSharingPrivateConnection interface [ICS/ICF],Next method, IEnumNetSharingPrivateConnection.Next, IEnumNetSharingPrivateConnection::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingPrivateConnection interface, _ics_ienumnetsharingprivateconnection_next, ics.ienumnetsharingprivateconnection_next, netcon/IEnumNetSharingPrivateConnection::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ Specifies the number of privately-shared connections to retrieve.
 ### -param rgVar [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> variable for the connection. This variant contains a pointer to an 
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> variable for the connection. This variant contains a pointer to an 
 <a href="https://msdn.microsoft.com/7dd55645-c8e6-4ebd-9bf6-3bc3b3f5166f">INetConnection</a> interface.
 
 

@@ -7,7 +7,7 @@ old-location: base\getcommconfig.htm
 tech.root: devio
 ms.assetid: 8c5b74f7-54e3-42c1-a111-a8ddfb677d4e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: GetCommConfig, GetCommConfig function, _win32_getcommconfig, base.getcommconfig, winbase/GetCommConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ To retrieve the default configuration settings from the device manager, use the 
 ### -param hCommDev [in]
 
 A handle to the open communications device. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
+<a href="base.createfile">CreateFile</a> function returns this handle.
 
 
 ### -param lpCC [out]
@@ -110,7 +110,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

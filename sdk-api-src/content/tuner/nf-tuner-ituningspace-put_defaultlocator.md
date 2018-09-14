@@ -4,10 +4,10 @@ title: ITuningSpace::put_DefaultLocator
 author: windows-sdk-content
 description: The put_DefaultLocator method sets the default locator for this tuning space.
 old-location: mstv\ituningspace_put_defaultlocator.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 59065cc9-8a11-4551-ad3d-e7963628aa20
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_DefaultLocator method, ITuningSpace.put_DefaultLocator, ITuningSpace::put_DefaultLocator, ITuningSpaceput_DefaultLocator, mstv.ituningspace_put_defaultlocator, put_DefaultLocator, put_DefaultLocator method [Microsoft TV Technologies], put_DefaultLocator method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_DefaultLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_WLAN_PHY_RADIO_STATE"
 author: windows-sdk-content
 description: Specifies the radio state.
 old-location: nwifi\wlan_phy_radio_state.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 20da1494-4264-4d0d-b789-25e2be6a8dd4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE structure pointer [NativeWIFI], WLAN_PHY_RADIO_STATE, WLAN_PHY_RADIO_STATE structure [NativeWIFI], _WLAN_PHY_RADIO_STATE, nwifi.wlan_phy_radio_state, wlanapi/PWLAN_PHY_RADIO_STATE, wlanapi/WLAN_PHY_RADIO_STATE"
 ms.prod: windows
 ms.technology: windows-sdk

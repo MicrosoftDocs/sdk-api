@@ -4,10 +4,10 @@ title: ICspInformations::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\icspinformations__newenum_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: ea2bb37a-952c-4772-b44d-52429b5d0a86
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICspInformations interface [Security],_NewEnum property, ICspInformations._NewEnum, ICspInformations.get__NewEnum, ICspInformations::_NewEnum, ICspInformations::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICspInformations interface, certenroll/ICspInformations::_NewEnum, certenroll/ICspInformations::get__NewEnum, get__NewEnum, security.icspinformations__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375968(v=VS.85).aspx">ICspInformations</a>
+<a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a>
  
 
  

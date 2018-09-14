@@ -7,7 +7,7 @@ old-location: adsi\adssetlasterror.htm
 tech.root: ADSI
 ms.assetid: c9433af7-2ca5-492a-9b8e-9dfedb5e4d9d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: ADsSetLastError, ADsSetLastError function [ADSI], _ds_adssetlasterror, adshlp/ADsSetLastError, adsi.adssetlasterror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,24 +94,32 @@ This function does not return a value.
 
 In a custom implementation of an ADSI provider, for example, an LDAP provider, you can set an operation error message as follows.
 
-
-```cpp
-ADsSetLastError(HRESULT_FROM_WIN32(ERROR_DS_OPERATIONS_ERROR),
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ADsSetLastError(HRESULT_FROM_WIN32(ERROR_DS_OPERATIONS_ERROR),
                 L"ERROR_DS_OPERATIONS_ERROR",
-                L"LDAP Provider");
-```
-
-
+                L"LDAP Provider");</pre>
+</td>
+</tr>
+</table></span></div>
 The user can use the following code example to examine this operation code.
 
-
-```cpp
-DWORD dwLastError;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD dwLastError;
 WCHAR szErrorBuf[MAX_PATH];
 WCHAR szNameBuf[MAX_PATH];
 // Get extended error value.
 HRESULT hr_return =S_OK;
-hr_return = ADsGetLastError( &dwLastError,
+hr_return = ADsGetLastError( &amp;dwLastError,
                                szErrorBuf,
                                MAX_PATH,
                                szNameBuf,
@@ -119,30 +127,38 @@ hr_return = ADsGetLastError( &dwLastError,
 if (SUCCEEDED(hr_return))
 {
     wprintf(L"Error Code: %d\n Error Text: %ws\n Provider: %ws\n", dwLastError, szErrorBuf, szNameBuf);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The previous code example produces the following output for the operations error code set above.
 
-
-```cpp
-Error value: 80072020
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Error value: 80072020
 Error Text: ERROR_DS_OPERATIONS_ERROR
-Provider: LDAP Provider
-```
-
-
+Provider: LDAP Provider</pre>
+</td>
+</tr>
+</table></span></div>
 If you use <b>ERROR_DS_OPERATIONS_ERROR</b> without invoking the HRESULT_FROM_WIN32 macro when setting the error, the following output is returned.
 
-
-```cpp
-Error value: 2020
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Error value: 2020
 Error Text: ERROR_DS_OPERATIONS_ERROR
-Provider: LDAP Provider
-```
-
-
+Provider: LDAP Provider</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

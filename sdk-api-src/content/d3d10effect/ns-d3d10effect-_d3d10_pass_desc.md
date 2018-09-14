@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_pass_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_pass_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 5373c44b-9837-094e-9520-1b3a2078a9d6, D3D10_PASS_DESC, D3D10_PASS_DESC structure [Direct3D 10], _D3D10_PASS_DESC, d3d10effect/D3D10_PASS_DESC, direct3d10.d3d10_pass_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,28 +90,28 @@ The size of the input signature (in bytes).
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The stencil-reference value used in the depth-stencil state (see <a href="https://msdn.microsoft.com/en-us/library/Bb205074(v=VS.85).aspx">Configuring Depth-Stencil Functionality (Direct3D 10)</a>).
+The stencil-reference value used in the depth-stencil state (see <a href="https://msdn.microsoft.com/e8f52d5f-266f-4e2c-b38d-d7fd9e27fe1f">Configuring Depth-Stencil Functionality (Direct3D 10)</a>).
 
 
 ### -field SampleMask
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The sample mask for the blend state (see <a href="https://msdn.microsoft.com/en-us/library/Bb205072(v=VS.85).aspx">Configuring Blending Functionality (Direct3D 10)</a>).
+The sample mask for the blend state (see <a href="https://msdn.microsoft.com/f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3">Configuring Blending Functionality (Direct3D 10)</a>).
 
 
 ### -field BlendFactor
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
 
-The per-component blend factors (RGBA) for the blend state (see <a href="https://msdn.microsoft.com/en-us/library/Bb205072(v=VS.85).aspx">Configuring Blending Functionality (Direct3D 10)</a>).
+The per-component blend factors (RGBA) for the blend state (see <a href="https://msdn.microsoft.com/f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3">Configuring Blending Functionality (Direct3D 10)</a>).
 
 
 ## -remarks
 
 
 
-Get a pass description by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173661(v=VS.85).aspx">ID3D10EffectPass::GetDesc</a>; an effect technique contains one or more passes.
+Get a pass description by calling <a href="https://msdn.microsoft.com/40744216-0199-4667-a4ad-69a56811b52c">ID3D10EffectPass::GetDesc</a>; an effect technique contains one or more passes.
 
 
 
@@ -121,7 +121,7 @@ Get a pass description by calling <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205180(v=VS.85).aspx">Effect Structures (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/bbd69b4b-d2f4-471f-a607-328f5fc603b5">Effect Structures (Direct3D 10)</a>
  
 
  

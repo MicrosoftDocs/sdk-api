@@ -4,10 +4,10 @@ title: NetworkIsolationSetupAppContainerBinaries function
 author: windows-sdk-content
 description: Is used by software installers to provide information about the image paths of applications that are running in an app container.
 old-location: ics\networkisolationsetupappcontainerbinaries.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 67a183ec-b318-4f43-9241-cc34b9b251f1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: NetworkIsolationSetupAppContainerBinaries, NetworkIsolationSetupAppContainerBinaries function [ICS/ICF], ics.networkisolationsetupappcontainerbinaries, networkisolation/NetworkIsolationSetupAppContainerBinaries
 ms.prod: windows-hardware
 ms.technology: windows-devices

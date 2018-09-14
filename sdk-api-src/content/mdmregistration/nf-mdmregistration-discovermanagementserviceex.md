@@ -7,7 +7,7 @@ old-location: mdmreg\discovermanagementserviceex.htm
 tech.root: MDMReg
 ms.assetid: 600269ff-df88-49ed-b151-df0302cbc4d4
 ms.author: windowssdkdev
-ms.date: 02/21/2018
+ms.date: 08/29/2018
 ms.keywords: DiscoverManagementServiceEx, DiscoverManagementServiceEx function [MDM Registration], mdmreg.discovermanagementserviceex, mdmregistration/DiscoverManagementServiceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 Discovers the MDM service using a candidate server. The discovery process uses the 
-    <a href="https://msdn.microsoft.com/library/Dn409494(v=PROT.20).aspx">[MS-MDE]: Mobile Device Enrollment Protocol</a> 
+    <a href="5c841535-042e-489e-913c-9d783d741267">[MS-MDE]: Mobile Device Enrollment Protocol</a> 
     protocol.
 
 

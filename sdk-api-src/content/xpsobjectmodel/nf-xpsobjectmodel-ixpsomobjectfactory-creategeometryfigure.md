@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_creategeometryfigure.htm
 tech.root: printdocs
 ms.assetid: d9138dbc-5a9e-4653-bab2-71f6d716eba6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CreateGeometryFigure, CreateGeometryFigure method [XPS Documents and Packaging], CreateGeometryFigure method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGeometryFigure method, IXpsOMObjectFactory.CreateGeometryFigure, IXpsOMObjectFactory::CreateGeometryFigure, xps.ixpsomobjectfactory_creategeometryfigure, xpsobjectmodel/IXpsOMObjectFactory::CreateGeometryFigure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,9 +127,13 @@ One of the fields in the <a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMGeometryFigure    *newInterface;
 // startPoint contains the starting point
 // of the geometry figure being created
@@ -143,28 +147,28 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreateGeometryFigure (&startPoint, &newInterface);
+    hr = xpsFactory-&gt;CreateGeometryFigure (&amp;startPoint, &amp;newInterface);
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface->Release();
+        newInterface-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

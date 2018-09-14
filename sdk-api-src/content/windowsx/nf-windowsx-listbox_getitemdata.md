@@ -4,10 +4,10 @@ title: ListBox_GetItemData macro
 author: windows-sdk-content
 description: Gets the application-defined value associated with the specified list box item. You can use this macro or send the LB_GETITEMDATA message explicitly.
 old-location: controls\ListBox_GetItemData.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getitemdata.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ListBox_GetItemData, ListBox_GetItemData macro [Windows Controls], _win32_ListBox_GetItemData, _win32_ListBox_GetItemData_cpp, controls.ListBox_GetItemData, controls._win32_ListBox_GetItemData, windowsx/ListBox_GetItemData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the application-defined value associated with the specified list box item. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775202(v=VS.85).aspx">LB_GETITEMDATA</a> message explicitly.
+Gets the application-defined value associated with the specified list box item. You can use this macro or send the <a href="https://msdn.microsoft.com/3a3f7fa5-ce04-4e95-86e1-5c7de796d1b6">LB_GETITEMDATA</a> message explicitly.
 
 
 ## -parameters

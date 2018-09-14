@@ -7,7 +7,7 @@ old-location: parcon\iwpcwebsettings_requesturloverride.htm
 tech.root: parcon
 ms.assetid: 2e229b0e-59ae-4fcf-a398-32bc20611802
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWPCWebSettings interface,RequestURLOverride method, IWPCWebSettings.RequestURLOverride, IWPCWebSettings::RequestURLOverride, RequestURLOverride, RequestURLOverride method, RequestURLOverride method,IWPCWebSettings interface, parcon.iwpcwebsettings_requesturloverride, wpcapi/IWPCWebSettings::RequestURLOverride
 ms.prod: windows-hardware
 ms.technology: windows-devices

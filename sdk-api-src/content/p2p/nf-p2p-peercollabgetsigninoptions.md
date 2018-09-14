@@ -7,7 +7,7 @@ old-location: p2p\peercollabgetsigninoptions.htm
 tech.root: p2psdk
 ms.assetid: 2b1452d3-2474-40c9-a913-de7e148e2d94
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerCollabGetSigninOptions, PeerCollabGetSigninOptions function [Peer Networking], p2p.peercollabgetsigninoptions, p2p/PeerCollabGetSigninOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

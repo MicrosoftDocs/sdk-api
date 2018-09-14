@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgikeyedmutex_releasesync.htm
 tech.root: direct3ddxgi
 ms.assetid: 324741c9-33f2-4420-8c3f-4984e2ca0962
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: 33872a53-bb15-32f2-c1f4-cfc8bdbac157, IDXGIKeyedMutex interface [DXGI],ReleaseSync method, IDXGIKeyedMutex.ReleaseSync, IDXGIKeyedMutex::ReleaseSync, ReleaseSync, ReleaseSync method [DXGI], ReleaseSync method [DXGI],IDXGIKeyedMutex interface, direct3ddxgi.idxgikeyedmutex_releasesync, dxgi/IDXGIKeyedMutex::ReleaseSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ A value that indicates which device to give access to. This method succeeds when
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful.
 
@@ -85,7 +85,7 @@ If the device attempted to release a keyed mutex that is not valid or owned by t
 
 The <b>ReleaseSync</b> method releases a lock to a surface that is shared between multiple devices.  This method uses a key to determine which device currently has exclusive access to the surface.
 
-When a surface is created using the <b>D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX</b> value of the <a href="https://msdn.microsoft.com/en-us/library/Bb172412(v=VS.85).aspx">D3D10_RESOURCE_MISC_FLAG</a> enumeration, 
+When a surface is created using the <b>D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX</b> value of the <a href="https://msdn.microsoft.com/bdcb4e87-0285-4e96-a7ce-e08a43d3a4cb">D3D10_RESOURCE_MISC_FLAG</a> enumeration, 
       you must call the <a href="https://msdn.microsoft.com/31edab76-7b16-4a02-83ff-998c21e77f2e">IDXGIKeyedMutex::AcquireSync</a> method before rendering to the surface.  You must call the <b>ReleaseSync</b> method when you are done 
       rendering to a surface.
 
@@ -101,27 +101,31 @@ To acquire a reference to the keyed mutex object of a shared resource, call the 
 
 The following code example demonstrates how to acquire a lock to a shared resource and how to specify a key upon release.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 // pDesc has already been set up with texture description.
 pDesc.MiscFlags = D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX;
 
 // Create a shared texture resource.
-pD3D10DeviceD->CreateTexture2D(pDesc, NULL, pD3D10Texture);
+pD3D10DeviceD-&gt;CreateTexture2D(pDesc, NULL, pD3D10Texture);
 
 // Acquire a reference to the keyed mutex.
-pD3D10Texture->QueryInterface(_uuidof(IDXGIKeyedMutex), pDXGIKeyedMutex);
+pD3D10Texture-&gt;QueryInterface(_uuidof(IDXGIKeyedMutex), pDXGIKeyedMutex);
 
 // Acquire a lock to the resource.
-pDXGIKeyedMutex->AcquireSync(0, INFINITE);
+pDXGIKeyedMutex-&gt;AcquireSync(0, INFINITE);
 
 // Release the lock and specify a key.
-pDXGIKeyedMutex->ReleaseSync(1);
-
-```
-
-
+pDXGIKeyedMutex-&gt;ReleaseSync(1);
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 

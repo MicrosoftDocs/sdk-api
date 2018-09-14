@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11reftrackingoptions_settrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: 2C782DBE-BA76-4D2E-82D6-1A03941B2FB1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID3D11RefTrackingOptions interface [Direct3D 11],SetTrackingOptions method, ID3D11RefTrackingOptions.SetTrackingOptions, ID3D11RefTrackingOptions::SetTrackingOptions, SetTrackingOptions, SetTrackingOptions method [Direct3D 11], SetTrackingOptions method [Direct3D 11],ID3D11RefTrackingOptions interface, d3d11sdklayers/ID3D11RefTrackingOptions::SetTrackingOptions, direct3d11.id3d11reftrackingoptions_settrackingoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,14 @@ Sets graphics processing unit (GPU) debug reference tracking options.
 
 ### -param uOptions
 
-A combination of <a href="https://msdn.microsoft.com/en-us/library/Hh404501(v=VS.85).aspx">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on"; otherwise the tracking option is set to "off."
+A combination of <a href="https://msdn.microsoft.com/20C152CD-B155-4B46-8F41-EDDEC60494DF">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on"; otherwise the tracking option is set to "off."
 
 
 ## -returns
 
 
 
-This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 return codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 return codes</a>.
 
 
 
@@ -87,7 +87,7 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446836(v=VS.85).aspx">ID3D11RefTrackingOptions</a>
+<a href="https://msdn.microsoft.com/8A3D1E4E-ED56-47F8-9281-7A8DD82B4DFC">ID3D11RefTrackingOptions</a>
  
 
  

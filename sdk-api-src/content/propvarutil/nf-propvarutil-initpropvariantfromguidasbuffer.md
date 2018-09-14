@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromGUIDAsBuffer.htm
 tech.root: properties
 ms.assetid: 9ff3ec09-3314-4830-b970-b33f5a53d66c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: InitPropVariantFromGUIDAsBuffer, InitPropVariantFromGUIDAsBuffer function [Windows Properties], properties.InitPropVariantFromGUIDAsBuffer, propvarutil/InitPropVariantFromGUIDAsBuffer, shell.InitPropVariantFromGUIDAsBuffer, shell_InitPropVariantFromGUIDAsBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,21 +96,25 @@ This is an inline function, with its source code provided in the header. It is n
 
 The following example, to be included as part of a larger program, demonstrates how to use <b>InitPropVariantFromGUIDAsBuffer</b>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PROPVARIANT propvar;
 
-```cpp
-PROPVARIANT propvar;
-
-HRESULT hr = InitPropVariantFromGUIDAsBuffer(FMTID_DocSummaryInformation, &propvar);
+HRESULT hr = InitPropVariantFromGUIDAsBuffer(FMTID_DocSummaryInformation, &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_VECTOR | VT_UI1.
  
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -119,7 +123,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>
+<a href="shell.InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>
 
 
 
@@ -127,11 +131,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762325(v=VS.85).aspx">InitVariantFromGUIDAsBuffer</a>
+<a href="shell.InitVariantFromGUIDAsBuffer">InitVariantFromGUIDAsBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776536(v=VS.85).aspx">PropVariantToBuffer</a>
+<a href="shell.PropVariantToBuffer">PropVariantToBuffer</a>
  
 
  

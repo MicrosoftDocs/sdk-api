@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_gettextrangefromstrokes.htm
 tech.root: tablet
 ms.assetid: b481e356-0a3c-4437-9700-6d8badcb0b0b
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: GetTextRangeFromStrokes, GetTextRangeFromStrokes method [Tablet PC], GetTextRangeFromStrokes method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],GetTextRangeFromStrokes method, IInkRecognitionAlternate.GetTextRangeFromStrokes, IInkRecognitionAlternate::GetTextRangeFromStrokes, b481e356-0a3c-4437-9700-6d8badcb0b0b, msinkaut/IInkRecognitionAlternate::GetTextRangeFromStrokes, tablet.iinkrecognitionalternate_gettextrangefromstrokes
 ms.prod: windows-hardware
 ms.technology: windows-devices

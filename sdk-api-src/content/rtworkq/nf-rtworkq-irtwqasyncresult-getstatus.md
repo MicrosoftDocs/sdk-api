@@ -7,7 +7,7 @@ old-location: base\irtwqasyncresult_getstatus.htm
 tech.root: procthread
 ms.assetid: 90E965E5-29E6-4FC9-A923-FBBCC12195E2
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/13/2018
 ms.keywords: GetStatus, GetStatus method, GetStatus method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetStatus method, IRtwqAsyncResult.GetStatus, IRtwqAsyncResult::GetStatus, base.irtwqasyncresult_getstatus, rtworkq/IRtwqAsyncResult::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

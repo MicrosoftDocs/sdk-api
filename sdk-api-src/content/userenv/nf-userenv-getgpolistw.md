@@ -7,7 +7,7 @@ old-location: policy\getgpolist.htm
 tech.root: Policy
 ms.assetid: 26c54ac5-23d7-40ed-94a9-70d25e14431f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetGPOList, GetGPOList function [Group Policy], GetGPOListA, GetGPOListW, _win32_getgpolist, policy.getgpolist, userenv/GetGPOList, userenv/GetGPOListA, userenv/GetGPOListW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -136,35 +136,43 @@ Call the
 Generally, you should call 
 <b>GetGPOList</b> with a token when retrieving a list of GPOs for a user as shown in the following code example.
 
-
-```cpp
-LPGROUP_POLICY_OBJECT  pGPOList;
-      if (GetGPOList (hToken, NULL, NULL, NULL, 0, &pGPOList))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPGROUP_POLICY_OBJECT  pGPOList;
+      if (GetGPOList (hToken, NULL, NULL, NULL, 0, &amp;pGPOList))
       {
 //        Perform processing here. 
 //
 //        Free the GPO list when you finish processing.
           FreeGPOList (pGPOList);
-      }
-```
-
-
+      }</pre>
+</td>
+</tr>
+</table></span></div>
 Typically, to retrieve a list of GPOs for a computer, you can call 
 <b>GetGPOList</b> with the computer name and domain controller name as demonstrated in the following code snippet.
 
-
-```cpp
-LPGROUP_POLICY_OBJECT  pGPOList;
-      if (GetGPOList (NULL, lpMachineName, lpHostName, lpMachineName, GPO_LIST_FLAG_MACHINE, &pGPOList))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPGROUP_POLICY_OBJECT  pGPOList;
+      if (GetGPOList (NULL, lpMachineName, lpHostName, lpMachineName, GPO_LIST_FLAG_MACHINE, &amp;pGPOList))
       {
 //        Perform processing here. 
 //
 //        Free the GPO list when you finish processing.
           FreeGPOList (pGPOList);
-      }
-```
-
-
+      }</pre>
+</td>
+</tr>
+</table></span></div>
 To retrieve the list of GPOs applied for a specific user or computer and extension, call the 
 <a href="https://msdn.microsoft.com/11e80a4e-acc4-4229-aa34-8f7d083c1041">GetAppliedGPOList</a> function.
 

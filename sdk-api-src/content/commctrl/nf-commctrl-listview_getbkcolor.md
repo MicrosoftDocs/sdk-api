@@ -4,10 +4,10 @@ title: ListView_GetBkColor macro
 author: windows-sdk-content
 description: Gets the background color of a list-view control. You can use this macro or send the LVM_GETBKCOLOR message explicitly.
 old-location: controls\ListView_GetBkColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ListView_GetBkColor, ListView_GetBkColor macro [Windows Controls], _win32_ListView_GetBkColor, _win32_ListView_GetBkColor_cpp, commctrl/ListView_GetBkColor, controls.ListView_GetBkColor, controls._win32_ListView_GetBkColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the background color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774905(v=VS.85).aspx">LVM_GETBKCOLOR</a> message explicitly. 
+Gets the background color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/077d3b2e-f6d1-4acc-b002-e9e707ad274c">LVM_GETBKCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the background color of a list-view control. You can use this macro or send
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

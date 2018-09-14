@@ -7,7 +7,7 @@ old-location: tsf\itfcontextowner_getacpfrompoint.htm
 tech.root: TSF
 ms.assetid: f8091e79-33af-49d5-b3c8-d30952c62010
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetACPFromPoint method, ITfContextOwner.GetACPFromPoint, ITfContextOwner::GetACPFromPoint, _tsf_itfcontextowner_getacpfrompoint_ref, msctf/ITfContextOwner::GetACPFromPoint, tsf.itfcontextowner_getacpfrompoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,7 +133,7 @@ The application has not calculated a text layout.
 
 
 
-<img alt="Point 1 is in character bounding box and point 2 is outside the character bounding box." border="border" src="./images/ACPFig01.gif"/>
+<img alt="Point 1 is in character bounding box and point 2 is outside the character bounding box." border="border" src="images/ACPFig01.gif"/>
 Use the illustration to determine the character position returned based on the flags used in the <i>dwFlags</i> parameter.
 
 <b>Point 1

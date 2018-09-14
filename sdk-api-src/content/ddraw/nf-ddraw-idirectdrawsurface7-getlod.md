@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_getlod.htm
 tech.root: directdraw
 ms.assetid: 9208372b-47ac-4079-9e4a-28cf51912a93
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetLOD, GetLOD method [DirectDraw], GetLOD method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetLOD method, IDirectDrawSurface7.GetLOD, IDirectDrawSurface7::GetLOD, ddraw/IDirectDrawSurface7::GetLOD, directdraw.idirectdrawsurface7_getlod
 ms.prod: windows-hardware
 ms.technology: windows-devices

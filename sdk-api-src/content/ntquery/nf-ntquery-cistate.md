@@ -7,7 +7,7 @@ old-location: indexsrv\cistate.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9syt.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/30/2018
 ms.keywords: CIState, CIState function [Indexing Service], _idxs_CIState, indexsrv.cistate, ntquery/CIState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Queries the state of the selected catalog.
 
@@ -72,7 +72,7 @@ The computer name on which the catalog is located, such as "." for the local com
 
 ### -param pCiState [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms690968(v=VS.85).aspx">CI_STATE</a> structure that receives the catalog state.
+A pointer to a <a href="https://msdn.microsoft.com/16d0fe4c-aa88-464f-8887-7f8965dafb50">CI_STATE</a> structure that receives the catalog state.
 
 
 ## -returns
@@ -151,7 +151,7 @@ The function failed because Indexing Service is too busy to respond to the query
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms690968(v=VS.85).aspx">CI_STATE</a> structure must be initialized (the <b>cbStruct</b> member must be correctly set) before calling the <b>CIState</b> function.
+The <a href="https://msdn.microsoft.com/16d0fe4c-aa88-464f-8887-7f8965dafb50">CI_STATE</a> structure must be initialized (the <b>cbStruct</b> member must be correctly set) before calling the <b>CIState</b> function.
 
 
 
@@ -161,7 +161,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690968(v=VS.85).aspx">CI
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690968(v=VS.85).aspx">CI_STATE</a>
+<a href="https://msdn.microsoft.com/16d0fe4c-aa88-464f-8887-7f8965dafb50">CI_STATE</a>
  
 
  

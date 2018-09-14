@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_setbottomleftradiusx.htm
 tech.root: directcomp
 ms.assetid: 1E008D8E-B28A-4E79-9653-587DF0CB5DD7
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionRectangleClip.SetBottomLeftRadiusX, IDCompositionRectangleClip.SetBottomLeftRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetBottomLeftRadiusX, IDCompositionRectangleClip::SetBottomLeftRadiusX(IDCompositionAnimation), SetBottomLeftRadiusX, SetBottomLeftRadiusX methods [DirectComposition], dcomp/SetBottomLeftRadiusX, directcomp.idcompositionrectangleclip_setbottomleftradiusx
 ms.prod: windows-hardware
 ms.technology: windows-devices

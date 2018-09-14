@@ -7,7 +7,7 @@ old-location: audio\iaudioprocessingobject_initialize.htm
 tech.root: audio
 ms.assetid: b73c2e18-ab7b-4e34-9440-f38891f99bf7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IAudioProcessingObject interface [Audio Devices],Initialize method, IAudioProcessingObject.Initialize, IAudioProcessingObject::Initialize, Initialize, Initialize method [Audio Devices], Initialize method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_initialize, audio_syseffects_r_00c2b464-0c56-4357-ab5f-fdcdfb6a2414.xml, audioenginebaseapo/IAudioProcessingObject::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -136,17 +136,21 @@ These additional error conditions are tracked by the audio engine.
 
 If this method is used to initialize an APO without the need to initialize any data, it is acceptable to supply a <b>NULL</b> as the value of the pbyData parameter and a 0 (zero) as the value of the cbDataSize parameter. The data that is supplied is of variable length and must have the following format:
 
-
-```
-Struct MyAPOInitializationData
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Struct MyAPOInitializationData
 {
 APOInitBaseStruct APOInit;
 // list additional struct members here
 // ...
-};
-```
-
-
+};</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

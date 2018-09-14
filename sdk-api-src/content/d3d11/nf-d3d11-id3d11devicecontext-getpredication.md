@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_getpredication.htm
 tech.root: direct3d11
 ms.assetid: 9a283895-51c4-4de5-bdeb-994f3085bd79
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetPredication, GetPredication method [Direct3D 11], GetPredication method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GetPredication method, ID3D11DeviceContext.GetPredication, ID3D11DeviceContext::GetPredication, ae323354-9c3a-634f-4e86-882e408d29d5, d3d11/ID3D11DeviceContext::GetPredication, direct3d11.id3d11devicecontext_getpredication
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_insertembeddedatselection.htm
 tech.root: TSF
 ms.assetid: 5a2ecd77-a99e-4476-8485-a44aa88cf563
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 0, ITextStoreACP interface [Text Services Framework],InsertEmbeddedAtSelection method, ITextStoreACP.InsertEmbeddedAtSelection, ITextStoreACP::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITextStoreACP interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, _tsf_itextstoreacp_insertembeddedatselection_ref, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP::InsertEmbeddedAtSelection, tsf.itextstoreacp_insertembeddedatselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 ## -description
 
 
-The <b>ITextStoreACP::InsertEmbeddedAtSelection</b> method inserts an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> object into the document.
+The <b>ITextStoreACP::InsertEmbeddedAtSelection</b> method inserts an <a href="_ole_idataobject">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> object into the document.
 
 
 ## -parameters
@@ -227,7 +227,7 @@ The values of the <i>pacpStart</i> and <i>pacpEnd</i> parameters depend upon how
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

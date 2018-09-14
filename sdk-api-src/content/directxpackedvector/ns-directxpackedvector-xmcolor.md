@@ -7,7 +7,7 @@ old-location: dxmath\xmcolor.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMCOLOR
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: XMCOLOR, XMCOLOR structure [DirectX Math Support APIs], directxpackedvector/XMCOLOR, dxmath.xmcolor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,10 +56,10 @@ A 32-bit Alpha Red Green Blue (ARGB) color vector, where each color channel is s
 
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMCOLOR</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415265(v=VS.85).aspx">XMCOLOR Extensions</a>.
+	using <code>XMCOLOR</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/c2bf32a8-deb8-4aec-a94e-98d437c315f6">XMCOLOR Extensions</a>.
 <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, 
-  <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>,and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.</div><div> </div>
+	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, 
+  <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>,and <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.</div><div> </div>
 
 ## -struct-fields
 
@@ -107,7 +107,7 @@ Those <code>XMCOLOR</code> constructors using floating point arguments require n
 	    normalized values, by using <a href="https://msdn.microsoft.com/beca676b-ca6b-42c5-8913-439c13224c8d">XMLoadColor</a>, which divides color channel
 	    data by 255.0f, rounds the result, and then assigns the components to an <code>XMVECTOR</code>instance.
 
-<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMCOLOR</code>using <a href="https://msdn.microsoft.com/en-us/library/Ee420226(v=VS.85).aspx">XMStoreColor</a>, which multiplies color channel data by 255.0f,
+<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMCOLOR</code>using <a href="https://msdn.microsoft.com/4ea82b90-1eb2-4684-966e-0d48289a790f">XMStoreColor</a>, which multiplies color channel data by 255.0f,
 	    rounding the result before assigning the values to the appropriate <code>XMCOLOR</code> members.
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -127,7 +127,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415265(v=VS.85).aspx">XMCOLOR Extensions</a>
+<a href="https://msdn.microsoft.com/c2bf32a8-deb8-4aec-a94e-98d437c315f6">XMCOLOR Extensions</a>
  
 
  

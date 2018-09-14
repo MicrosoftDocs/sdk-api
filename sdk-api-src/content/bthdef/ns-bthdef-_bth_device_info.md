@@ -7,7 +7,7 @@ old-location: bluetooth\bth_device_info.htm
 tech.root: bluetooth
 ms.assetid: b0f2c1fe-1fa0-4816-8471-73fbbced529b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: "*PBTH_DEVICE_INFO, *PBTH_DEVICE_INFO structure [Bluetooth], BDIF_ADDRESS, BDIF_COD, BDIF_CONNECTED, BDIF_NAME, BDIF_PAIRED, BDIF_PERSONAL, BDIF_SSP_MITM_PROTECTED, BDIF_SSP_PAIRED, BDIF_SSP_SUPPORTED, BTH_DEVICE_INFO, BTH_DEVICE_INFO structure [Bluetooth], COD_MAJOR_AUDIO, COD_MAJOR_COMPUTER, COD_MAJOR_IMAGING, COD_MAJOR_LAN_ACCESS, COD_MAJOR_MISCELLANEOUS, COD_MAJOR_PERIPHERAL, COD_MAJOR_PHONE, COD_MAJOR_UNCLASSIFIED, COD_SERVICE_AUDIO, COD_SERVICE_CAPTURING, COD_SERVICE_INFORMATION, COD_SERVICE_LIMITED, COD_SERVICE_NETWORKING, COD_SERVICE_OBJECT_XFER, COD_SERVICE_POSITIONING, COD_SERVICE_RENDERING, COD_SERVICE_TELEPHONY, _BTH_DEVICE_INFO, bluetooth.bth_device_info, bthdef/*PBTH_DEVICE_INFO, bthdef/BTH_DEVICE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -286,7 +286,7 @@ Service hints: retrieved using the GET_COD_SERVICE(<b>classOfDevice</b>). Provid
 ### -field name
 
 Name of the remote Bluetooth device, as reported by the device, encoded in UTF8.  The user may have locally provided a display name for the remote Bluetooth device; that name is overridden, and does not appear in this member; it is accessible only with a call to the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362795(v=VS.85).aspx">BluetoothGetDeviceInfo</a> function.
+<a href="https://msdn.microsoft.com/530e5131-a0ab-4ddd-be73-a07f94e74f73">BluetoothGetDeviceInfo</a> function.
 
 
 ## -see-also
@@ -294,19 +294,19 @@ Name of the remote Bluetooth device, as reported by the device, encoded in UTF8.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362937(v=VS.85).aspx">BTH_QUERY_DEVICE</a>
+<a href="https://msdn.microsoft.com/c132c79e-5938-4436-a1fb-d0d6db5dc9d3">BTH_QUERY_DEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362938(v=VS.85).aspx">BTH_QUERY_SERVICE</a>
+<a href="https://msdn.microsoft.com/b208b7d6-305c-4acc-9c89-75721ff5dcb2">BTH_QUERY_SERVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362940(v=VS.85).aspx">BTH_SET_SERVICE</a>
+<a href="https://msdn.microsoft.com/66b5474d-ea21-4ae4-9297-9740f1bc9ecb">BTH_SET_SERVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362795(v=VS.85).aspx">BluetoothGetDeviceInfo</a>
+<a href="https://msdn.microsoft.com/530e5131-a0ab-4ddd-be73-a07f94e74f73">BluetoothGetDeviceInfo</a>
  
 
  

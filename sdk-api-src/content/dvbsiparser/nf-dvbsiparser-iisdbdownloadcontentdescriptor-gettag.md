@@ -4,10 +4,10 @@ title: IIsdbDownloadContentDescriptor::GetTag
 author: windows-sdk-content
 description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_gettag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: a78c3f3b-aaa2-4b5e-9cf8-7746f20fafc2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbDownloadContentDescriptor.GetTag, IIsdbDownloadContentDescriptor::GetTag, dvbsiparser/IIsdbDownloadContentDescriptor::GetTag, mstv.iisdbdownloadcontentdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

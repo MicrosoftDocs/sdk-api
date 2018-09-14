@@ -7,7 +7,7 @@ old-location: shell\IShellLink.htm
 tech.root: shell
 ms.assetid: 67982d28-27ce-4482-b588-10fec8143750
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: IShellLink, IShellLink interface [Windows Shell], IShellLink interface [Windows Shell],described, IShellLinkA, IShellLinkW, _win32_IShellLink, _win32_IShellLink_cpp, shell.IShellLink, shobjidl_core/IShellLink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,6 +94,24 @@ Gets the description string for a Shell link object.
 </td>
 <td align="left" width="63%">
 Gets the keyboard shortcut (hot key) for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/ff7cc9be-a762-472a-9846-4dbd0ec94ad1">GetIconLocation</a>
+</td>
+<td align="left" width="63%">
+Gets the location (path and index) of the icon for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/ff7cc9be-a762-472a-9846-4dbd0ec94ad1">GetIconLocation</a>
+</td>
+<td align="left" width="63%">
+Gets the location (path and index) of the icon for a Shell link object.
 
 </td>
 </tr>

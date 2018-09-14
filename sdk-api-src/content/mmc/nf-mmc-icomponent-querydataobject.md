@@ -7,7 +7,7 @@ old-location: mmc\icomponent_querydataobject.htm
 tech.root: mmc
 ms.assetid: 5bdbd321-4245-4c73-9071-1a9bc3853ba5
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: CCT_RESULT = 0x8001, CCT_SCOPE = 0x8000, CCT_SNAPIN_MANAGER = 0x8002, CCT_UNINITIALIZED = 0xFFFF, IComponent interface [MMC],QueryDataObject method, IComponent.QueryDataObject, IComponent::QueryDataObject, QueryDataObject, QueryDataObject method [MMC], QueryDataObject method [MMC],IComponent interface, _slate_icomponent_querydataobject, mmc.icomponent_querydataobject, mmc/IComponent::QueryDataObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,7 +137,7 @@ These data objects can be passed to the same snap-in or to extension snap-ins th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
  
 
  

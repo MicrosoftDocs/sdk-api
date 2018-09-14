@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getaudiolanguage.htm
 tech.root: DirectShow
 ms.assetid: c95afa36-879b-4fd5-bf92-0b9b93c708ef
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: GetAudioLanguage, GetAudioLanguage method [DirectShow], GetAudioLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAudioLanguage method, IDvdInfo2.GetAudioLanguage, IDvdInfo2::GetAudioLanguage, IDvdInfo2GetAudioLanguage, dshow.idvdinfo2_getaudiolanguage, strmif/IDvdInfo2::GetAudioLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -150,11 +150,15 @@ DVD Navigator is not in a valid domain.
 
 This method does not return languages for menus. It sets the value pointed to by <i>pLanguage</i> to zero if the stream contains an unknown language. Call the <b>GetLocaleInfo</b> function to create a human-readable string name from <i>pLanguage</i>:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 LCID Language;
-hr = pDvdInfo->GetAudioLanguage(ulStream, &Language);
+hr = pDvdInfo-&gt;GetAudioLanguage(ulStream, &amp;Language);
 if (SUCCEEDED(hr))
 {
     int cchSize = GetLocaleInfo(Language, LOCALE_SENGLANGUAGE, 0, 0);
@@ -166,10 +170,10 @@ if (SUCCEEDED(hr))
         delete [] szString;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

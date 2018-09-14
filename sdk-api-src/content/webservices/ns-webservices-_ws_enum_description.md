@@ -7,7 +7,7 @@ old-location: wsw\ws_enum_description.htm
 tech.root: wsw
 ms.assetid: cf7c9254-c806-4ada-8852-beb6be5e81d9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WS_ENUM_DESCRIPTION, WS_ENUM_DESCRIPTION structure [Web Services for Windows], _WS_ENUM_DESCRIPTION, webservices/WS_ENUM_DESCRIPTION, wsw.ws_enum_description
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\imscepsetup_install.htm
 tech.root: seccrypto
 ms.assetid: 26ed36bd-8d27-42ce-81a5-a980fdebf5af
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMSCEPSetup interface [Security],Install method, IMSCEPSetup.Install, IMSCEPSetup::Install, Install, Install method [Security], Install method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::Install, security.imscepsetup_install
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ req.redist:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736404(v=VS.85).aspx">IMSCEPSetup</a>
+<a href="https://msdn.microsoft.com/328c6c04-7ade-4b64-bd8a-4314b6e8dc78">IMSCEPSetup</a>
  
 
  

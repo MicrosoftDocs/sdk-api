@@ -4,10 +4,10 @@ title: NdrInterfacePointerBufferSize function
 author: windows-sdk-content
 description: The NdrInterfacePointerBufferSize function calculates the size of the buffer, in bytes, needed to marshal the interface pointer.
 old-location: rpc\ndrinterfacepointerbuffersize.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 815ebf99-f616-44e3-9b87-25d9a889cf6b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: NdrInterfacePointerBufferSize, NdrInterfacePointerBufferSize function [RPC], rpc.ndrinterfacepointerbuffersize, rpcndr/NdrInterfacePointerBufferSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ Pointer to the format string description.
 
 
 
-This function has no return values. If an error occurs, the function throws  one of the following exception codes. In addition, the function can throw exception codes from <a href="https://msdn.microsoft.com/en-us/library/ms692640(v=VS.85).aspx">CoGetMarshalSizeMax</a>.
+This function has no return values. If an error occurs, the function throws  one of the following exception codes. In addition, the function can throw exception codes from <a href="_com_cogetmarshalsizemax">CoGetMarshalSizeMax</a>.
 
 <table>
 <tr>

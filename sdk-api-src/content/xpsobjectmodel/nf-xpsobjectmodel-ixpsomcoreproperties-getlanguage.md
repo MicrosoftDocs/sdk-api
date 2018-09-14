@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getlanguage.htm
 tech.root: printdocs
 ms.assetid: 3a35185a-0dbc-48bb-8ae1-53fafa197bb7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetLanguage method, IXpsOMCoreProperties.GetLanguage, IXpsOMCoreProperties::GetLanguage, xps.ixpsomcoreproperties_getlanguage, xpsobjectmodel/IXpsOMCoreProperties::GetLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,7 +110,7 @@ The <b>language</b> property describes the language of the resource's intellectu
 
 Internet Engineering Task Force (IETF) RFC 3066 describes the recommended encoding for this property.
 
-This method allocates the memory used by the string that is returned in <i>language</i>.  If <i>language</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>language</i>.  If <i>language</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

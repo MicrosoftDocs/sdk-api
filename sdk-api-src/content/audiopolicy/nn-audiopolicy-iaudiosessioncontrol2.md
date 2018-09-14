@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol2.htm
 tech.root: CoreAudio
 ms.assetid: 3bb65edf-103c-4eeb-82b4-7c571cddfcf3
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: IAudioSessionControl2, IAudioSessionControl2 interface [Core Audio], IAudioSessionControl2 interface [Core Audio],described, audiopolicy/IAudioSessionControl2, coreaudio.iaudiosessioncontrol2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,9 +149,13 @@ An application can use this interface to perform the following tasks:
 
 The following example code shows how to get a reference to the <b>IAudioSessionControl2</b> interface and call its methods to determine whether the stream associated with the audio session is a system sound.
 
-
-```cpp
-HRESULT SetDuckingForSystemSounds()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT SetDuckingForSystemSounds()
 {
  
     HRESULT hr = S_OK;
@@ -169,30 +173,30 @@ HRESULT SetDuckingForSystemSounds()
         __uuidof(MMDeviceEnumerator), 
         NULL, CLSCTX_ALL, 
         __uuidof(IMMDeviceEnumerator), 
-        (void**)&pEnumerator));
+        (void**)&amp;pEnumerator));
 
     // Get the default audio device.
-    CHECK_HR( hr = pEnumerator->GetDefaultAudioEndpoint(
-                    eRender, eConsole, &pDevice));
+    CHECK_HR( hr = pEnumerator-&gt;GetDefaultAudioEndpoint(
+                    eRender, eConsole, &amp;pDevice));
 
     // Get the audio client.
-    CHECK_HR( hr = pDevice->Activate(
+    CHECK_HR( hr = pDevice-&gt;Activate(
         __uuidof(IID_IAudioSessionManager), CLSCTX_ALL,
-        NULL, (void**)&pSessionManager));
+        NULL, (void**)&amp;pSessionManager));
 
     // Get a reference to the session manager.
-    CHECK_HR( hr = pSessionManager->GetAudioSessionControl (GUID_NULL, FALSE, &pSessionControl));
+    CHECK_HR( hr = pSessionManager-&gt;GetAudioSessionControl (GUID_NULL, FALSE, &amp;pSessionControl));
     
     // Get the extended session control interface pointer.
-    CHECK_HR( hr = pSessionControl->QueryInterface(
-        __uuidof(IAudioSessionControl2), (void**) &pSessionControl2));
+    CHECK_HR( hr = pSessionControl-&gt;QueryInterface(
+        __uuidof(IAudioSessionControl2), (void**) &amp;pSessionControl2));
 
     // Check whether this is a system sound.
-    CHECK_HR( hr = pSessionControl2->IsSystemSoundsSession());
+    CHECK_HR( hr = pSessionControl2-&gt;IsSystemSoundsSession());
 
     // If it is a system sound, opt out of the default
     // stream attenuation experience.
-    CHECK_HR( hr = pSessionControl2->SetDuckingPreference(TRUE));
+    CHECK_HR( hr = pSessionControl2-&gt;SetDuckingPreference(TRUE));
 
 done:
 
@@ -204,10 +208,10 @@ done:
 
 
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

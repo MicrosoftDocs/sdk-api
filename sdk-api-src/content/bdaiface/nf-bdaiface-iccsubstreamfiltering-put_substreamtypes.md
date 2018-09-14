@@ -4,10 +4,10 @@ title: ICCSubStreamFiltering::put_SubstreamTypes
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iccsubstreamfiltering_put_substreamtypes.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 45db472d-cffc-42d1-8270-3a0db72bdc2c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ICCSubStreamFiltering interface [Microsoft TV Technologies],put_SubstreamTypes method, ICCSubStreamFiltering.put_SubstreamTypes, ICCSubStreamFiltering::put_SubstreamTypes, ICCSubStreamFilteringput_SubstreamTypes, bdaiface/ICCSubStreamFiltering::put_SubstreamTypes, mstv.iccsubstreamfiltering_put_substreamtypes, put_SubstreamTypes, put_SubstreamTypes method [Microsoft TV Technologies], put_SubstreamTypes method [Microsoft TV Technologies],ICCSubStreamFiltering interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ The <b>get_SubstreamTypes</b> method sets the closed captioning services the pin
 
 ### -param Types [in]
 
-Bitwise OR of flags that specify the closed captioning services. For a list of flags, see <a href="https://msdn.microsoft.com/en-us/library/Dd695076(v=VS.85).aspx">KS_CC_SUBSTREAM Constants</a>. Any services that are not selected are simply dropped.
+Bitwise OR of flags that specify the closed captioning services. For a list of flags, see <a href="https://msdn.microsoft.com/1a55a9b1-6784-4a29-93aa-95aadaf6fb7e">KS_CC_SUBSTREAM Constants</a>. Any services that are not selected are simply dropped.
 
 
 ## -returns
@@ -102,7 +102,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693501(v=VS.85).aspx">ICCSubStreamFiltering Interface</a>
+<a href="https://msdn.microsoft.com/2de6796d-beb3-4611-a559-449fe21193a6">ICCSubStreamFiltering Interface</a>
  
 
  

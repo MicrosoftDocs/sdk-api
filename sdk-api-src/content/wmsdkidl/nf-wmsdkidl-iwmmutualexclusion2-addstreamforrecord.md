@@ -7,7 +7,7 @@ old-location: wmformat\iwmmutualexclusion2_addstreamforrecord.htm
 tech.root: wmformat
 ms.assetid: 501fae9f-84b3-4025-83bc-ad0bbe47384d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: AddStreamForRecord, AddStreamForRecord method [windows Media Format], AddStreamForRecord method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],AddStreamForRecord method, IWMMutualExclusion2.AddStreamForRecord, IWMMutualExclusion2::AddStreamForRecord, IWMMutualExclusion2AddStreamForRecord, wmformat.iwmmutualexclusion2_addstreamforrecord, wmsdkidl/IWMMutualExclusion2::AddStreamForRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

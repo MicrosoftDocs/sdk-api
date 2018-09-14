@@ -4,10 +4,10 @@ title: TBINSERTMARK
 author: windows-sdk-content
 description: Contains information on the insertion mark in a toolbar control.
 old-location: controls\TBINSERTMARK.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbinsertmark.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*LPTBINSERTMARK, 0, LPTBINSERTMARK, LPTBINSERTMARK structure pointer [Windows Controls], TBIMHT_AFTER, TBIMHT_BACKGROUND, TBINSERTMARK, TBINSERTMARK structure [Windows Controls], _win32_TBINSERTMARK, _win32_TBINSERTMARK_cpp, commctrl/LPTBINSERTMARK, commctrl/TBINSERTMARK, controls.TBINSERTMARK, controls._win32_TBINSERTMARK"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Zero-based index of the insertion mark. If this member is -1, there is no insert
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 Defines where the insertion mark is in relation to 
 					<b>iButton</b>. This can be one of the following values: 
@@ -103,7 +103,7 @@ The insertion mark is to the right of the specified button.
 </dl>
 </td>
 <td width="60%">
-The insertion mark is on the background of the toolbar. This flag is only used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787367(v=VS.85).aspx">TB_INSERTMARKHITTEST</a> message. 
+The insertion mark is on the background of the toolbar. This flag is only used with the <a href="https://msdn.microsoft.com/65c64fd0-f089-4b1a-84e5-1a3e10aa7f5e">TB_INSERTMARKHITTEST</a> message. 
 
 </td>
 </tr>

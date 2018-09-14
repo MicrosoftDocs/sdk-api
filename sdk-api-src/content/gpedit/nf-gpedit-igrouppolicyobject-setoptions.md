@@ -7,7 +7,7 @@ old-location: policy\igrouppolicyobject_setoptions.htm
 tech.root: Policy
 ms.assetid: 4caed430-2861-49cb-9418-b12bf1c46707
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GPO_OPTION_DISABLE_MACHINE, GPO_OPTION_DISABLE_USER, IGroupPolicyObject interface [Group Policy],SetOptions method, IGroupPolicyObject.SetOptions, IGroupPolicyObject::SetOptions, SetOptions, SetOptions method [Group Policy], SetOptions method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_setoptions, gpedit/IGroupPolicyObject::SetOptions, policy.igrouppolicyobject_setoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,21 +111,29 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 To change an option, you must set the appropriate flag in the <i>dwMask</i> parameter. If the flag is set, then the system reads the <i>dwOptions</i> parameter to set the new state. For example, to disable the user portion of a GPO, and leave the computer portion unchanged, call the 
 <b>SetOptions</b> method as follows:
 
-
-```cpp
-SetOptions(GPO_OPTION_DISABLE_USER, GPO_OPTION_DISABLE_USER)
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SetOptions(GPO_OPTION_DISABLE_USER, GPO_OPTION_DISABLE_USER)</pre>
+</td>
+</tr>
+</table></span></div>
 To enable the user portion and disable the computer portion, call the 
 <b>SetOptions</b> method as follows:
 
-
-```cpp
-SetOptions(GPO_OPTION_DISABLE_MACHINE, GPO_OPTION_DISABLE_USER | GPO_OPTION_DISABLE_MACHINE)
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SetOptions(GPO_OPTION_DISABLE_MACHINE, GPO_OPTION_DISABLE_USER | GPO_OPTION_DISABLE_MACHINE)</pre>
+</td>
+</tr>
+</table></span></div>
 To retrieve the options for a GPO, you can call the 
 <a href="https://msdn.microsoft.com/a4b86196-04c8-4ec1-bf26-2a33e44020d2">GetOptions</a> method.
 

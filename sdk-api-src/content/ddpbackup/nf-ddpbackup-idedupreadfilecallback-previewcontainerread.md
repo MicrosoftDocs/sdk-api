@@ -7,7 +7,7 @@ old-location: dedup\idedupreadfilecallback_previewcontainerread.htm
 tech.root: dedup
 ms.assetid: A3AFB530-ED97-4BEC-BF9D-668115E36A36
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],PreviewContainerRead method, IDedupReadFileCallback.PreviewContainerRead, IDedupReadFileCallback::PreviewContainerRead, PreviewContainerRead, PreviewContainerRead method [Data Deduplication API], PreviewContainerRead method [Data Deduplication API],IDedupReadFileCallback interface, ddpbackup/IDedupReadFileCallback::PreviewContainerRead, dedup.idedupreadfilecallback_previewcontainerread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/B4AB7297-6FFE-4B93-AB
 
 
 
-This method can return standard <b>HRESULT</b> values, such as <b>S_OK</b>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Possible return values include the following.
+This method can return standard <b>HRESULT</b> values, such as <b>S_OK</b>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Possible return values include the following.
 
 
 

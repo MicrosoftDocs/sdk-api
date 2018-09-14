@@ -4,10 +4,10 @@ title: "_MIB_IPINTERFACE_TABLE"
 author: windows-sdk-content
 description: Contains a table of IP interface entries.
 old-location: mib\mib_ipinterface_table.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: c4bbb949-5573-42cd-bb03-e308ac40d569
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMIB_IPINTERFACE_TABLE, MIB_IPINTERFACE_TABLE, MIB_IPINTERFACE_TABLE structure [MIB], PMIB_IPINTERFACE_TABLE, PMIB_IPINTERFACE_TABLE structure pointer [MIB], _MIB_IPINTERFACE_TABLE, mib.mib_ipinterface_table, netioapi/MIB_IPINTERFACE_TABLE, netioapi/PMIB_IPINTERFACE_TABLE"
 ms.prod: windows
 ms.technology: windows-sdk

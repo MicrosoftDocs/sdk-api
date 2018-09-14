@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_loggingoptions_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7x4j_cpp.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: IFaxServer interface [Fax Service],LoggingOptions property, IFaxServer.LoggingOptions, IFaxServer.get_LoggingOptions, IFaxServer::LoggingOptions, IFaxServer::get_LoggingOptions, LoggingOptions property [Fax Service], LoggingOptions property [Fax Service],IFaxServer interface, _mfax_faxserver.loggingoptions_cpp, fax._mfax_faxserver_loggingoptions_cpp, faxcomex/IFaxServer::LoggingOptions, faxcomex/IFaxServer::get_LoggingOptions, get_LoggingOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693401(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/afee6ea0-f63d-4818-9ff0-1887638d232c">Visual Basic Example</a>
  
 
  

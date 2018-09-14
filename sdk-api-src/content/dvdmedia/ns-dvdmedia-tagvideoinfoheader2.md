@@ -7,7 +7,7 @@ old-location: dshow\videoinfoheader2.htm
 tech.root: DirectShow
 ms.assetid: 5e3d5bf0-435f-45da-8409-a1463b56a7ae
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: AMCONTROL_COLORINFO_PRESENT, AMCONTROL_PAD_TO_16x9, AMCONTROL_PAD_TO_4x3, AMCONTROL_USED, AMINTERLACE_1FieldPerSample, AMINTERLACE_DisplayModeBobOnly, AMINTERLACE_DisplayModeBobOrWeave, AMINTERLACE_DisplayModeWeaveOnly, AMINTERLACE_Field1First, AMINTERLACE_FieldPatBothIrregular, AMINTERLACE_FieldPatBothRegular, AMINTERLACE_FieldPatField1Only, AMINTERLACE_FieldPatField2Only, AMINTERLACE_IsInterlaced, VIDEOINFOHEADER2, VIDEOINFOHEADER2 structure [DirectShow], VIDEOINFOHEADER2Structure, dshow.videoinfoheader2, dvdmedia/VIDEOINFOHEADER2, tagVIDEOINFOHEADER2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -418,10 +418,14 @@ If the video is interlaced, the media samples may carry flags that describe the 
 
 Use the bit mask AMINTERLACE_FieldPatternMask to check the field pattern flags in <b>dwInterlaceFlags</b>:
 
-
-```cpp
-
-switch (dwInterlaceFlags & AMINTERLACE_FieldPatternMask)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+switch (dwInterlaceFlags &amp; AMINTERLACE_FieldPatternMask)
 {
 case AMINTERLACE_FieldPatField1Only:
     // Stream never contains a Field 2.
@@ -435,16 +439,20 @@ case AMINTERLACE_FieldPatBothRegular:
 case AMINTERLACE_FieldPatBothIrregular:
     // Random pattern of Field 1 and Field 2.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Use the bit mask AMINTERLACE_DisplayModeMask to check the display mode flags in <b>dwInterlaceFlags</b>:
 
-
-```cpp
-
-switch (dwInterlaceFlags & AMINTERLACE_DisplayModeMask)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+switch (dwInterlaceFlags &amp; AMINTERLACE_DisplayModeMask)
 {
 case AMINTERLACE_DisplayModeBobOnly:
     // Bob display mode only.
@@ -455,46 +463,54 @@ case AMINTERLACE_DisplayModeWeaveOnly:
 case AMINTERLACE_DisplayModeBobOrWeave:
     // Either bob or weave mode.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Interlaced video samples must have valid time stamps. Otherwise, it is not guaranteed that the display driver can deinterlace the video. If you need to display an interlaced video frame with no time stamp, set the AM_VIDEO_FLAG_WEAVE flag on the sample as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IMediaSample2* pSample2 = NULL;
-hr = pSample->QueryInterface(IID_IMediaSample2, (void**)&pSample2);
+hr = pSample-&gt;QueryInterface(IID_IMediaSample2, (void**)&amp;pSample2);
 if (SUCCEEDED(hr))
 {
     AM_SAMPLE2_PROPERTIES Prop;
-    hr = pSample2->GetProperties(sizeof(Prop), (BYTE*)&Prop);
+    hr = pSample2-&gt;GetProperties(sizeof(Prop), (BYTE*)&amp;Prop);
     if (SUCCEEDED(hr))
     {
         Prop.dwTypeSpecificFlags = AM_VIDEO_FLAG_WEAVE;
-        hr = pSample2->SetProperties(sizeof(Prop), (BYTE*)&Prop);
+        hr = pSample2-&gt;SetProperties(sizeof(Prop), (BYTE*)&amp;Prop);
     }
-    pSample2->Release();
+    pSample2-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 This causes the driver to display the two fields as one frame, using weave mode, without deinterlacing.
 
 <h3><a id="Extended_Color_Information"></a><a id="extended_color_information"></a><a id="EXTENDED_COLOR_INFORMATION"></a>Extended Color Information</h3>
 If the AMCONTROL_COLORINFO_PRESENT flag is set in the <b>dwControlFlags</b> member, you can cast the <b>dwControlFlags</b> value to a <b>DXVA_ExtendedFormat</b> structure to access the extended color information, as shown in the following code.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VIDEOINFOHEADER2 *pVIH2;
-DXVA_ExtendedFormat& flags = (DXVA_ExtendedFormat&)pVIH2->dwControlFlags;
-
-```
-
-
+DXVA_ExtendedFormat&amp; flags = (DXVA_ExtendedFormat&amp;)pVIH2-&gt;dwControlFlags;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Ignore the <b>SampleFormat</b> member of the <b>DXVA_ExtendedFormat</b> structure, because it corresponds to the lower 8 bits of <b>dwControlFlags</b>, which are reserved for the AMCONTROL_xxx flags. The <b>DXVA_ExtendedFormat</b> structure is documented in the Windows DDK documentation.
 
 

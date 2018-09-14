@@ -4,10 +4,10 @@ title: IDTFilter3::GetProtectionType
 author: windows-sdk-content
 description: The GetProtectionType method retrieves the type of content protection that is currently in effect.
 old-location: mstv\idtfilter3_getprotectiontype.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 6b1e4186-de85-4de8-b309-82644c8b1269
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetProtectionType, GetProtectionType method [Microsoft TV Technologies], GetProtectionType method [Microsoft TV Technologies],IDTFilter3 interface, IDTFilter3 interface [Microsoft TV Technologies],GetProtectionType method, IDTFilter3.GetProtectionType, IDTFilter3::GetProtectionType, IDTFilter3GetProtectionType, encdec/IDTFilter3::GetProtectionType, mstv.idtfilter3_getprotectiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices

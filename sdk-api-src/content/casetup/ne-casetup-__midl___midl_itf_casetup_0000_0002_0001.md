@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_casetupproperty.htm
 tech.root: seccrypto
 ms.assetid: 2245ad2f-89ca-4478-91d0-cbd7a0648479
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CASetupProperty, CASetupProperty enumeration [Security], ENUM_SETUPPROP_CADSSUFFIX, ENUM_SETUPPROP_CAKEYINFORMATION, ENUM_SETUPPROP_CANAME, ENUM_SETUPPROP_CATYPE, ENUM_SETUPPROP_DATABASEDIRECTORY, ENUM_SETUPPROP_EXPIRATIONDATE, ENUM_SETUPPROP_INTERACTIVE, ENUM_SETUPPROP_INVALID, ENUM_SETUPPROP_LOGDIRECTORY, ENUM_SETUPPROP_PARENTCAMACHINE, ENUM_SETUPPROP_PARENTCANAME, ENUM_SETUPPROP_PRESERVEDATABASE, ENUM_SETUPPROP_REQUESTFILE, ENUM_SETUPPROP_SHAREDFOLDER, ENUM_SETUPPROP_VALIDITYPERIOD, ENUM_SETUPPROP_VALIDITYPERIODUNIT, ENUM_SETUPPROP_WEBCAMACHINE, ENUM_SETUPPROP_WEBCANAME, __MIDL___MIDL_itf_casetup_0000_0002_0001, casetup/CASetupProperty, casetup/ENUM_SETUPPROP_CADSSUFFIX, casetup/ENUM_SETUPPROP_CAKEYINFORMATION, casetup/ENUM_SETUPPROP_CANAME, casetup/ENUM_SETUPPROP_CATYPE, casetup/ENUM_SETUPPROP_DATABASEDIRECTORY, casetup/ENUM_SETUPPROP_EXPIRATIONDATE, casetup/ENUM_SETUPPROP_INTERACTIVE, casetup/ENUM_SETUPPROP_INVALID, casetup/ENUM_SETUPPROP_LOGDIRECTORY, casetup/ENUM_SETUPPROP_PARENTCAMACHINE, casetup/ENUM_SETUPPROP_PARENTCANAME, casetup/ENUM_SETUPPROP_PRESERVEDATABASE, casetup/ENUM_SETUPPROP_REQUESTFILE, casetup/ENUM_SETUPPROP_SHAREDFOLDER, casetup/ENUM_SETUPPROP_VALIDITYPERIOD, casetup/ENUM_SETUPPROP_VALIDITYPERIODUNIT, casetup/ENUM_SETUPPROP_WEBCAMACHINE, casetup/ENUM_SETUPPROP_WEBCANAME, security.icertsrvsetup_casetupproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CASetupProperty</b> enumeration specifies a property type for setup and configuration of a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) role when using the <a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a> interface.
+The <b>CASetupProperty</b> enumeration specifies a property type for setup and configuration of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) role when using the <a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a> interface.
 
 
 ## -enum-fields
@@ -65,7 +65,7 @@ A value that specifies a property type that is not valid.
 
 ### -field ENUM_SETUPPROP_CATYPE
 
-A <b>VT_I4</b> value that specifies a value of the <a href="https://msdn.microsoft.com/en-us/library/Bb648652(v=VS.85).aspx">ENUM_CATYPES</a> enumeration.
+A <b>VT_I4</b> value that specifies a value of the <a href="https://msdn.microsoft.com/32b20317-c0ef-4896-a8c6-309e34f87c30">ENUM_CATYPES</a> enumeration.
 
 If the computer is not joined to a domain, or the caller
 
@@ -74,7 +74,7 @@ is not an Enterprise or Domain administrator but is a local administrator, the d
 
 ### -field ENUM_SETUPPROP_CAKEYINFORMATION
 
-A <b>VT_DISPATCH</b> value, in the form of a <b>CCertSrvSetupKeyInformation</b>  object, that specifies the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> information used for a CA certificate. By default, setup generates a new key
+A <b>VT_DISPATCH</b> value, in the form of a <b>CCertSrvSetupKeyInformation</b>  object, that specifies the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> information used for a CA certificate. By default, setup generates a new key
 
 with a 2048-bit key length for root and subordinate CAs using "Microsoft
 
@@ -84,7 +84,7 @@ Strong Cryptographic Provider."
 
 ### -field ENUM_SETUPPROP_INTERACTIVE
 
-A <b>VT_BOOL</b> value that indicates whether the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic service provider</a> (CSP) is allowed to interact with the desktop. The default is false.
+A <b>VT_BOOL</b> value that indicates whether the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) is allowed to interact with the desktop. The default is false.
 
 
 
@@ -108,7 +108,7 @@ A <b>VT_I4</b> value that specifies the number of units in the validity period a
 
 ### -field ENUM_SETUPPROP_VALIDITYPERIODUNIT
 
-A <b>VT_I4</b> value that specifies a value of the <a href="https://msdn.microsoft.com/en-us/library/Bb648653(v=VS.85).aspx">ENUM_PERIOD</a> enumeration that indicates the time units of the validity period. For a subordinate CA, the validity period time unit is determined by the parent CA.
+A <b>VT_I4</b> value that specifies a value of the <a href="https://msdn.microsoft.com/1bd8c906-7e17-4d8c-93e8-8901f9104d58">ENUM_PERIOD</a> enumeration that indicates the time units of the validity period. For a subordinate CA, the validity period time unit is determined by the parent CA.
 
 
 ### -field ENUM_SETUPPROP_EXPIRATIONDATE

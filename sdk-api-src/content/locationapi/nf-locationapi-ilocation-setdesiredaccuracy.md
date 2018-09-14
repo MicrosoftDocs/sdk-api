@@ -4,10 +4,10 @@ title: ILocation::SetDesiredAccuracy
 author: windows-sdk-content
 description: Specifies the accuracy to be used.
 old-location: winlocation\ilocation_setdesiredaccuracy.htm
-tech.root: locationapi
+tech.root: LocationAPI
 ms.assetid: 85623570-3b48-42ea-babd-fe4282629d92
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ILocation interface [WinLocation],SetDesiredAccuracy method, ILocation.SetDesiredAccuracy, ILocation::SetDesiredAccuracy, SetDesiredAccuracy, SetDesiredAccuracy method [WinLocation], SetDesiredAccuracy method [WinLocation],ILocation interface, locationapi/ILocation::SetDesiredAccuracy, winlocation.ilocation_setdesiredaccuracy
 ms.prod: windows-hardware
 ms.technology: windows-devices

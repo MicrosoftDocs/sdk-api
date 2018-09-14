@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_shader_tracking_options.htm
 tech.root: direct3d11
 ms.assetid: 20C152CD-B155-4B46-8F41-EDDEC60494DF
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D3D11_SHADER_TRACKING_OPTION, D3D11_SHADER_TRACKING_OPTIONS, D3D11_SHADER_TRACKING_OPTIONS enumeration [Direct3D 11], D3D11_SHADER_TRACKING_OPTION_ALLOW_SAME, D3D11_SHADER_TRACKING_OPTION_ALL_HAZARDS, D3D11_SHADER_TRACKING_OPTION_ALL_HAZARDS_ALLOWING_SAME, D3D11_SHADER_TRACKING_OPTION_ALL_OPTIONS, D3D11_SHADER_TRACKING_OPTION_IGNORE, D3D11_SHADER_TRACKING_OPTION_TRACK_ATOMIC_CONSISTENCY, D3D11_SHADER_TRACKING_OPTION_TRACK_ATOMIC_CONSISTENCY_ACROSS_THREADGROUPS, D3D11_SHADER_TRACKING_OPTION_TRACK_RAW, D3D11_SHADER_TRACKING_OPTION_TRACK_RAW_ACROSS_THREADGROUPS, D3D11_SHADER_TRACKING_OPTION_TRACK_UNINITIALIZED, D3D11_SHADER_TRACKING_OPTION_TRACK_WAR, D3D11_SHADER_TRACKING_OPTION_TRACK_WAR_ACROSS_THREADGROUPS, D3D11_SHADER_TRACKING_OPTION_TRACK_WAW, D3D11_SHADER_TRACKING_OPTION_TRACK_WAW_ACROSS_THREADGROUPS, D3D11_SHADER_TRACKING_OPTION_UAV_SPECIFIC_FLAGS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTIONS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_ALLOW_SAME, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_ALL_HAZARDS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_ALL_HAZARDS_ALLOWING_SAME, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_ALL_OPTIONS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_IGNORE, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_ATOMIC_CONSISTENCY, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_ATOMIC_CONSISTENCY_ACROSS_THREADGROUPS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_RAW, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_RAW_ACROSS_THREADGROUPS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_UNINITIALIZED, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_WAR, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_WAR_ACROSS_THREADGROUPS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_WAW, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_WAW_ACROSS_THREADGROUPS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_UAV_SPECIFIC_FLAGS, direct3d11.d3d11_shader_tracking_options
 ms.prod: windows
 ms.technology: windows-sdk
@@ -143,16 +143,16 @@ This enumeration is used by the following methods:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Hh446834(v=VS.85).aspx">ID3D11RefDefaultTrackingOptions::SetTrackingOptions</a>
+<a href="https://msdn.microsoft.com/A54AAC4C-CD38-4326-AF99-9FB74CC0A1A0">ID3D11RefDefaultTrackingOptions::SetTrackingOptions</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Hh446838(v=VS.85).aspx">ID3D11RefTrackingOptions::SetTrackingOptions</a>
+<a href="https://msdn.microsoft.com/2C782DBE-BA76-4D2E-82D6-1A03941B2FB1">ID3D11RefTrackingOptions::SetTrackingOptions</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Hh446871(v=VS.85).aspx">ID3D11TracingDevice::SetShaderTrackingOptions</a>
+<a href="https://msdn.microsoft.com/F62FCA38-AE44-427B-95B4-252AE800845C">ID3D11TracingDevice::SetShaderTrackingOptions</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Hh446874(v=VS.85).aspx">ID3D11TracingDevice::SetShaderTrackingOptionsByType</a>
+<a href="https://msdn.microsoft.com/ABB83CE4-D612-4797-A9AD-F3C2954E669D">ID3D11TracingDevice::SetShaderTrackingOptionsByType</a>
 </li>
 </ul>
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.
@@ -166,7 +166,7 @@ This enumeration is used by the following methods:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476157(v=VS.85).aspx">Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/0fd0456b-2638-4b4c-8a34-a3e104a1a034">Layer Enumerations</a>
  
 
  

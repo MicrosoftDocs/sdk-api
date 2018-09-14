@@ -7,7 +7,7 @@ old-location: wsw\ws_channel_encoder.htm
 tech.root: wsw
 ms.assetid: 94ff7082-5cc7-46f3-8eec-d38565bbdb23
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WS_CHANNEL_ENCODER, WS_CHANNEL_ENCODER structure [Web Services for Windows], _WS_CHANNEL_ENCODER, webservices/WS_CHANNEL_ENCODER, wsw.ws_channel_encoder
 ms.prod: windows
 ms.technology: windows-sdk

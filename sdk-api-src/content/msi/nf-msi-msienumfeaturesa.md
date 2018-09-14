@@ -7,7 +7,7 @@ old-location: setup\msienumfeatures.htm
 tech.root: msi
 ms.assetid: 0ac6fea4-cdc8-4799-9001-f9399b22e7a5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MsiEnumFeatures, MsiEnumFeatures function, MsiEnumFeaturesA, MsiEnumFeaturesW, _msi_msienumfeatures, msi/MsiEnumFeatures, msi/MsiEnumFeaturesA, msi/MsiEnumFeaturesW, setup.msienumfeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices

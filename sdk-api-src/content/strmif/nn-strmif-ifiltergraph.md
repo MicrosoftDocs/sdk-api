@@ -7,7 +7,7 @@ old-location: dshow\ifiltergraph.htm
 tech.root: DirectShow
 ms.assetid: 73a92f44-03c6-47e3-98d1-a20100ed8fa1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IFilterGraph, IFilterGraph interface [DirectShow], IFilterGraph interface [DirectShow],described, IFilterGraphInterface, dshow.ifiltergraph, strmif/IFilterGraph
 ms.prod: windows
 ms.technology: windows-sdk

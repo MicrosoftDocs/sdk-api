@@ -4,10 +4,10 @@ title: FWPM_NET_EVENT3_
 author: windows-sdk-content
 description: Contains information about all event types.
 old-location: fwp\fwpm_net_event3.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 2D71C44C-B553-46DD-8943-DCC979A7DC6B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FWPM_NET_EVENT3, FWPM_NET_EVENT3 structure [Filtering], FWPM_NET_EVENT3_, fwp.fwpm_net_event3, fwpmtypes/FWPM_NET_EVENT3
 ms.prod: windows
 ms.technology: windows-sdk

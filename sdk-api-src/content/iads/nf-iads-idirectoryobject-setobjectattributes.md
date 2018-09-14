@@ -7,7 +7,7 @@ old-location: adsi\idirectoryobject_setobjectattributes.htm
 tech.root: ADSI
 ms.assetid: 999e6766-52cf-4087-bb17-72de487975c2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IDirectoryObject interface [ADSI],SetObjectAttributes method, IDirectoryObject.SetObjectAttributes, IDirectoryObject::SetObjectAttributes, SetObjectAttributes, SetObjectAttributes method [ADSI], SetObjectAttributes method [ADSI],IDirectoryObject interface, _ds_idirectoryobject_setobjectattributes, adsi.idirectoryobject__setobjectattributes, adsi.idirectoryobject_setobjectattributes, iads/IDirectoryObject::SetObjectAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,13 +104,17 @@ Similarly, if you use <b>SetObjectAttributes</b> to delete one or more values fr
 
 The following C++ code example sets the <b>sn</b> attribute of a user object to the value of <b>Price</b> as a case-insensitive string.
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 IDirectoryObject *pDirObject=NULL;
 DWORD  dwReturn;
 ADSVALUE  snValue;
-ADS_ATTR_INFO attrInfo[] = { {L"sn",ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &snValue, 1} };
+ADS_ATTR_INFO attrInfo[] = { {L"sn",ADS_ATTR_UPDATE, ADSTYPE_CASE_IGNORE_STRING, &amp;snValue, 1} };
 DWORD dwAttrs = sizeof(attrInfo)/sizeof(ADS_ATTR_INFO); 
  
 snValue.dwType=ADSTYPE_CASE_IGNORE_STRING;
@@ -118,18 +122,18 @@ snValue.CaseIgnoreString = L"Price";
  
 hr = ADsGetObject(L"LDAP://CN=Jeff Smith,OU=Sales,DC=Fabrikam,DC=com",
         IID_IDirectoryObject, 
-        (void**) &pDirObject );
+        (void**) &amp;pDirObject );
  
 if ( SUCCEEDED(hr) )
 {
-    hr = pDirObject->SetObjectAttributes(attrInfo, dwAttrs, &dwReturn);
+    hr = pDirObject-&gt;SetObjectAttributes(attrInfo, dwAttrs, &amp;dwReturn);
 
-    pDirObject->Release();
+    pDirObject-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

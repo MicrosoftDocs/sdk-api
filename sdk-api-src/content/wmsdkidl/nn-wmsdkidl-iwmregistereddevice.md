@@ -7,7 +7,7 @@ old-location: wmformat\iwmregistereddevice.htm
 tech.root: wmformat
 ms.assetid: 6babdfbd-51d5-4973-9712-f79a95f5f367
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], IWMRegisteredDevice interface [windows Media Format],described, IWMRegisteredDeviceInterface, wmformat.iwmregistereddevice, wmsdkidl/IWMRegisteredDevice
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\imemallocator.htm
 tech.root: DirectShow
 ms.assetid: 77a161c4-706c-4270-a343-9e16c03cd590
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IMemAllocator, IMemAllocator interface [DirectShow], IMemAllocator interface [DirectShow],described, IMemAllocatorInterface, dshow.imemallocator, strmif/IMemAllocator
 ms.prod: windows
 ms.technology: windows-sdk

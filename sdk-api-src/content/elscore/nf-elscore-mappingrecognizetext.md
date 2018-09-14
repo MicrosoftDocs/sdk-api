@@ -7,7 +7,7 @@ old-location: intl\mappingrecognizetext.htm
 tech.root: Intl
 ms.assetid: 49f30bdd-4612-423b-9913-9c35ad8a88d5
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/30/2018
 ms.keywords: MappingRecognizeText, MappingRecognizeText function [Internationalization for Windows Applications], elscore/MappingRecognizeText, intl.mappingrecognizetext
 ms.prod: windows-hardware
 ms.technology: windows-devices

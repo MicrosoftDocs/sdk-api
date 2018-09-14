@@ -4,10 +4,10 @@ title: DRMGetTime function
 author: windows-sdk-content
 description: Requests a secure time from the rights management system.
 old-location: rm\drmgettime.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 124507af-ccb4-4552-9421-bbbf1b556930
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMGetTime, DRMGetTime function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetTime, rm.drmgettime
 ms.prod: windows-hardware
 ms.technology: windows-devices

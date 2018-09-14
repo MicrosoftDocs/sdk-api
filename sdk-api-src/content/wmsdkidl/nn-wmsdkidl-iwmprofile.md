@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile.htm
 tech.root: wmformat
 ms.assetid: 00f28d6b-d27d-4268-960e-c8ea25e5359e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWMProfile, IWMProfile interface [windows Media Format], IWMProfile interface [windows Media Format],described, IWMProfileInterface, wmformat.iwmprofile, wmsdkidl/IWMProfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>IWMProfile</b> interface is the primary interface for a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">profile</a> object. A profile object is used to configure custom profiles. You can use <b>IWMProfile</b> to create, delete, or modify stream configuration objects and mutual exclusion objects. You can also set and retrieve general information about the profile. To access all the features of the profile object, you should use <a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>, which inherits from <b>IWMProfile</b> and <a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>.
+The <b>IWMProfile</b> interface is the primary interface for a <a href="wmformat_glossary.htm">profile</a> object. A profile object is used to configure custom profiles. You can use <b>IWMProfile</b> to create, delete, or modify stream configuration objects and mutual exclusion objects. You can also set and retrieve general information about the profile. To access all the features of the profile object, you should use <a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>, which inherits from <b>IWMProfile</b> and <a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>.
 
 <b>IWMProfile</b> is also accessible through the reader object, where you can use it to get information about the streams of a file that is loaded in the reader. When accessing <b>IWMProfile</b> from the reader, you can make changes to the profile, but none of the changes can be saved to the file. It is often handy to use the profile of an existing file as the foundation of a new profile. The synchronous reader supports <b>IWMProfile</b> in the same way as the reader.
 

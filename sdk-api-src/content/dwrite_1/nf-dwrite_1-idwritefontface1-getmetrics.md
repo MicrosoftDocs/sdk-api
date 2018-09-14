@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface1_getmetrics.htm
 tech.root: DirectWrite
 ms.assetid: 7F899D56-F56B-4C4C-A17D-B42A34CAA0F1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetMetrics method, IDWriteFontFace1.GetMetrics, IDWriteFontFace1::GetMetrics, directwrite.idwritefontface1_getmetrics, dwrite_1/IDWriteFontFace1::GetMetrics
 ms.prod: windows-hardware
 ms.technology: windows-devices

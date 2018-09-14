@@ -4,10 +4,10 @@ title: "_MARGINS"
 author: windows-sdk-content
 description: Returned by the GetThemeMargins function to define the margins of windows that have visual styles applied.
 old-location: controls\MARGINS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\margins.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*PMARGINS, MARGINS, MARGINS structure [Windows Controls], PMARGINS, PMARGINS structure pointer [Windows Controls], _MARGINS, controls.MARGINS, controls.inet_MARGINS, inet_MARGINS, inet_MARGINS_cpp, uxtheme/MARGINS, uxtheme/PMARGINS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Returned by the <a href="https://msdn.microsoft.com/en-us/library/Bb759755(v=VS.85).aspx">GetThemeMargins</a> function to define the margins of windows that have visual styles applied.
+Returned by the <a href="https://msdn.microsoft.com/bf588987-019b-402b-989c-8e868a697257">GetThemeMargins</a> function to define the margins of windows that have visual styles applied.
 
 
 ## -struct-fields
@@ -91,7 +91,7 @@ Height of the bottom border that retains its size.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759755(v=VS.85).aspx">GetThemeMargins</a>
+<a href="https://msdn.microsoft.com/bf588987-019b-402b-989c-8e868a697257">GetThemeMargins</a>
  
 
  

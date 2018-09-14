@@ -7,7 +7,7 @@ old-location: shell\IDockingWindowFrame.htm
 tech.root: shell
 ms.assetid: d0dc10db-316a-4eaa-83db-3f186ee77071
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: IDockingWindowFrame, IDockingWindowFrame interface [Windows Shell], IDockingWindowFrame interface [Windows Shell],described, _win32_IDockingWindowFrame, shell.IDockingWindowFrame, shlobj/IDockingWindowFrame
 ms.prod: windows
 ms.technology: windows-sdk

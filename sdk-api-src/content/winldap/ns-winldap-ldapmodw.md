@@ -4,10 +4,10 @@ title: ldapmodW
 author: windows-sdk-content
 description: Holds data required to perform a modification operation.
 old-location: ldap\ldapmod.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: 07761668-e0d9-4ab0-b8ce-ce8626389e03
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PLDAPModW, LDAPMod, LDAPMod structure [LDAP], LDAPModW, LDAP_MOD_ADD (0x00), LDAP_MOD_DELETE (0x01), LDAP_MOD_REPLACE (0x02), PLDAPMod, PLDAPMod structure pointer [LDAP], _ldap_ldapmod, ldap.ldapmod, ldapmodA, ldapmodW, winldap/LDAPMod, winldap/PLDAPMod, winldap/ldapmodA, winldap/ldapmodW"
 ms.prod: windows
 ms.technology: windows-sdk

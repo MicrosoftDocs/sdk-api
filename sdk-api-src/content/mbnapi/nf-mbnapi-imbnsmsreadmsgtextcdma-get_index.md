@@ -7,7 +7,7 @@ old-location: mbn\imbnsmsreadmsgtextcdma_index.htm
 tech.root: mbn
 ms.assetid: c87890f3-c9d7-4011-b178-55d94a8e9b5e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Index property, IMbnSmsReadMsgTextCdma.Index, IMbnSmsReadMsgTextCdma.get_Index, IMbnSmsReadMsgTextCdma::Index, IMbnSmsReadMsgTextCdma::get_Index, Index property [Microsoft Broadband Networks], Index property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, get_Index, mbn.imbnsmsreadmsgtextcdma_index, mbnapi/IMbnSmsReadMsgTextCdma::Index, mbnapi/IMbnSmsReadMsgTextCdma::get_Index
 ms.prod: windows-hardware
 ms.technology: windows-devices

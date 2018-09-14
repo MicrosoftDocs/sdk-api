@@ -4,10 +4,10 @@ title: IX509EnrollmentStatus::put_Text
 author: windows-sdk-content
 description: Specifies or retrieves a string that contains a message associated with the status of the enrollment process.
 old-location: security\ix509enrollmentstatus_text_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 071c4040-cdcf-4a01-918d-397726a235ed
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509EnrollmentStatus interface [Security],Text property, IX509EnrollmentStatus.Text, IX509EnrollmentStatus.put_Text, IX509EnrollmentStatus::Text, IX509EnrollmentStatus::get_Text, IX509EnrollmentStatus::put_Text, Text property [Security], Text property [Security],IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Text, certenroll/IX509EnrollmentStatus::get_Text, certenroll/IX509EnrollmentStatus::put_Text, put_Text, security.ix509enrollmentstatus_text_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-You can call the <a href="https://msdn.microsoft.com/en-us/library/Aa377820(v=VS.85).aspx">AppendText</a> method to add information to the message.
+You can call the <a href="https://msdn.microsoft.com/aa7c3325-c897-49e3-b38c-ff1efead5f26">AppendText</a> method to add information to the message.
 
 
 
@@ -74,7 +74,7 @@ You can call the <a href="https://msdn.microsoft.com/en-us/library/Aa377820(v=VS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377818(v=VS.85).aspx">IX509EnrollmentStatus</a>
+<a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a>
  
 
  

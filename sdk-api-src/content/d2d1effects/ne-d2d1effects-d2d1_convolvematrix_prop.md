@@ -4,10 +4,10 @@ title: D2D1_CONVOLVEMATRIX_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Convolve matrix effect.
 old-location: direct2d\d2d1_convolvematrix_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B6ACCA00-8127-4F4B-BF3B-9789943C0BB1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D2D1_CONVOLVEMATRIX_PROP, D2D1_CONVOLVEMATRIX_PROP enumeration [Direct2D], D2D1_CONVOLVEMATRIX_PROP_BIAS, D2D1_CONVOLVEMATRIX_PROP_BORDER_MODE, D2D1_CONVOLVEMATRIX_PROP_CLAMP_OUTPUT, D2D1_CONVOLVEMATRIX_PROP_DIVISOR, D2D1_CONVOLVEMATRIX_PROP_KERNEL_MATRIX, D2D1_CONVOLVEMATRIX_PROP_KERNEL_OFFSET, D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_X, D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_Y, D2D1_CONVOLVEMATRIX_PROP_KERNEL_UNIT_LENGTH, D2D1_CONVOLVEMATRIX_PROP_PRESERVE_ALPHA, D2D1_CONVOLVEMATRIX_PROP_SCALE_MODE, d2d1effects/D2D1_CONVOLVEMATRIX_PROP, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_BIAS, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_BORDER_MODE, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_CLAMP_OUTPUT, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_DIVISOR, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_MATRIX, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_OFFSET, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_X, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_Y, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_PRESERVE_ALPHA, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_SCALE_MODE, direct2d.d2d1_convolvematrix_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706323(v=VS.85).aspx">Convolve matrix effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/D9C23AC4-0090-4F16-AC59-B952FB616FA9">Convolve matrix effect</a>.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ The default value is 1.0f.
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934233(v=VS.85).aspx">D2D1_CONVOLVEMATRIX_SCALE_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/16949437-83A6-41D2-B531-089ACE748E3F">D2D1_CONVOLVEMATRIX_SCALE_MODE</a>.
 
 The default value is D2D1_CONVOLVEMATRIX_SCALE_MODE_LINEAR.
 
@@ -165,7 +165,7 @@ The default value is FALSE.
 The mode used to calculate the border of the image, soft or hard.
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934220(v=VS.85).aspx">D2D1_BORDER_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/093C7028-9C0E-4BB5-9769-C456B7A23B6F">D2D1_BORDER_MODE</a>.
 
 The default value is D2D1_BORDER_MODE_SOFT.
 

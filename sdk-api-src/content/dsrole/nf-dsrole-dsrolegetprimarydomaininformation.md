@@ -7,7 +7,7 @@ old-location: ad\dsrolegetprimarydomaininformation.htm
 tech.root: ad
 ms.assetid: d54876e3-a622-4b44-a597-db0f710f7758
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: DsRoleGetPrimaryDomainInformation, DsRoleGetPrimaryDomainInformation function [Active Directory], _glines_dsrolegetprimarydomaininformation, ad.dsrolegetprimarydomaininformation, dsrole/DsRoleGetPrimaryDomainInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cloudapi\cfreleasetransferkey.htm
 tech.root: cfApi
 ms.assetid: 53B40C34-EB1F-445B-B1B3-B539C2FADECE
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 08/29/2018
 ms.keywords: CfReleaseTransferKey, CfReleaseTransferKey function, cfapi/CfReleaseTransferKey, cloudApi.cfreleasetransferkey
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: adsi\ads_authentication_enum.htm
 tech.root: ADSI
 ms.assetid: 3a45e0c2-5392-456d-80c9-ebd17d056a85
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: ADS_AUTHENTICATION_ENUM, ADS_AUTHENTICATION_ENUM enumeration [ADSI], ADS_AUTH_RESERVED, ADS_FAST_BIND, ADS_NO_AUTHENTICATION, ADS_NO_REFERRAL_CHASING, ADS_PROMPT_CREDENTIALS, ADS_READONLY_SERVER, ADS_SECURE_AUTHENTICATION, ADS_SERVER_BIND, ADS_USE_DELEGATION, ADS_USE_ENCRYPTION, ADS_USE_SEALING, ADS_USE_SIGNING, ADS_USE_SSL, __MIDL___MIDL_itf_ads_0000_0000_0018, _ds_ads_authentication_enum, adsi.ads__authentication__enum, adsi.ads_authentication_enum, iads/ADS_AUTHENTICATION_ENUM, iads/ADS_AUTH_RESERVED, iads/ADS_FAST_BIND, iads/ADS_NO_AUTHENTICATION, iads/ADS_NO_REFERRAL_CHASING, iads/ADS_PROMPT_CREDENTIALS, iads/ADS_READONLY_SERVER, iads/ADS_SECURE_AUTHENTICATION, iads/ADS_SERVER_BIND, iads/ADS_USE_DELEGATION, iads/ADS_USE_ENCRYPTION, iads/ADS_USE_SEALING, iads/ADS_USE_SIGNING, iads/ADS_USE_SSL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -209,40 +209,48 @@ The following code example shows how to use
      <a href="https://msdn.microsoft.com/9daf6f91-6c58-46a8-ba05-149f28b53829">IADsOpenDSObject</a> to open an object on fabrikam with 
      secure authentication for the WinNT provider.
 
-
-```vb
-Const ADS_SECURE_AUTHENTICATION = 1
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Const ADS_SECURE_AUTHENTICATION = 1
 
 Dim dso As IADsOpenDSObject
 Dim domain As IADsDomain
  
 Set dso = GetObject("WinNT:")
-Set domain = dso.OpenDSObject("WinNT://Fabrikam", vbNullString, vbNullString, ADS_SECURE_AUTHENTICATION)
-```
-
-
+Set domain = dso.OpenDSObject("WinNT://Fabrikam", vbNullString, vbNullString, ADS_SECURE_AUTHENTICATION)</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how the <b>ADS_SECURE_AUTHENTICATION</b> flag is used 
      with <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a> for validating the user bound as 
      "JeffSmith". The user name can be of the UPN format: "JeffSmith@Fabrikam.com", as well as the distinguished name 
      format: "CN=JeffSmith,DC=Fabrikam,DC=COM".
 
-
-```cpp
-IADs *pObject = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADs *pObject = NULL;
 HRESULT hr;
 hr = ADsOpenObject(_bstr_t("LDAP://CN=JeffSmith, DC=fabrikam, DC=com"),
                    NULL,
                    NULL,
                    ADS_SECURE_AUTHENTICATION, 
                    IID_IADs,
-                   (void**) &pObject);
+                   (void**) &amp;pObject);
 if (hr != S_OK)
     {} // Handle open object errors here.
 else
-    {} // Object was retrieved, continue processing here.
-```
-
-
+    {} // Object was retrieved, continue processing here.</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

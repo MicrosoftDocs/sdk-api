@@ -7,7 +7,7 @@ old-location: direct3d11\d3ddisassemble11trace.htm
 tech.root: direct3d11
 ms.assetid: 874A83C2-99DD-47EA-AF93-C3A47B61C4E5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D3DDisassemble11Trace, D3DDisassemble11Trace function [Direct3D 11], d3d11shadertracing/D3DDisassemble11Trace, direct3d11.d3ddisassemble11trace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -161,7 +161,7 @@ A pointer to a buffer that receives the ID3DBlob interface that accesses the dis
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT error code.
 
@@ -182,7 +182,7 @@ D3DDisassemble11Trace walks the steps of a shader trace and outputs appropriate 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn933227(v=VS.85).aspx">Shader Functions</a>
+<a href="https://msdn.microsoft.com/4acbd433-c28d-4630-aa0e-25f2fb5c32d0">Shader Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wmformat\iwmstatuscallback_onstatus.htm
 tech.root: wmformat
 ms.assetid: 7b8cdb21-96e1-4cf9-8422-72bce693afb1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWMStatusCallback interface [windows Media Format],OnStatus method, IWMStatusCallback.OnStatus, IWMStatusCallback::OnStatus, IWMStatusCallbackOnStatus, OnStatus, OnStatus method [windows Media Format], OnStatus method [windows Media Format],IWMStatusCallback interface, wmformat.iwmstatuscallback_onstatus, wmsdkidl/IWMStatusCallback::OnStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: Dhcpv6ReleasePrefix function
 author: windows-sdk-content
 description: Releases a prefix.
 old-location: dhcp\dhcpv6releaseprefix.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 252646db-f8d2-42d1-87af-2426dff2c72c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Dhcpv6ReleasePrefix, Dhcpv6ReleasePrefix function [DHCP], dhcp.dhcpv6releaseprefix, dhcpv6csdk/Dhcpv6ReleasePrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices

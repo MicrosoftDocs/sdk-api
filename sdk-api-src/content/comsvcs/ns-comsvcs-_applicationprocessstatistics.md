@@ -7,7 +7,7 @@ old-location: cos\applicationprocessstatistics.htm
 tech.root: cossdk
 ms.assetid: 7ce16cef-baa4-491c-89e7-f6283e1a646f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ApplicationProcessStatistics, ApplicationProcessStatistics structure [COM+], _ApplicationProcessStatistics, comsvcs/ApplicationProcessStatistics, cos.applicationprocessstatistics
 ms.prod: windows
 ms.technology: windows-sdk

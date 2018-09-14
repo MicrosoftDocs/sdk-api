@@ -4,10 +4,10 @@ title: SspiDecryptAuthIdentity function
 author: windows-sdk-content
 description: Decrypts the specified encrypted credential.
 old-location: security\sspidecryptauthidentity.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: aef0206c-c376-4877-b1a6-5e86d2e35dea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: SspiDecryptAuthIdentity, SspiDecryptAuthIdentity function [Security], security.sspidecryptauthidentity, sspi/SspiDecryptAuthIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

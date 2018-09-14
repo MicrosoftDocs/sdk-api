@@ -7,7 +7,7 @@ old-location: wmi\chptrarray.htm
 tech.root: WmiSdk
 ms.assetid: 507c8262-c5e8-470e-be89-566ae732946d
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: "??1CHPtrArray@@QAE@XZ, CHPtrArray, CHPtrArray class [Windows Management Instrumentation], CHPtrArray class [Windows Management Instrumentation],described, chptrarr/CHPtrArray, wmi.chptrarray"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,16 +55,16 @@ req.redist:
 <p class="CCE_Message">[The <b>CHPtrArray</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/en-us/library/JJ152383(v=VS.85).aspx">MI APIs</a> should be used for all new 
+    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
 The <b>CHPtrArray</b> class is part of the WMI Provider Framework. <b>CHPtrArray</b> is a utility interface for array pointer management used for provider handling of WMI queries.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CHPtrArray</b> has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Constructors</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Operators</a></li>
+<li><a href="https://docs.microsoft.com/">Constructors</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Operators</a></li>
 </ul><h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CHPtrArray</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
@@ -73,7 +73,7 @@ The <b>CHPtrArray</b> class is part of the WMI Provider Framework. <b>CHPtrArray
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa384924(v=VS.85).aspx">CHPtrArray</a>
+<a href="https://msdn.microsoft.com/9435d0e6-bb26-40a9-a13f-a744588cc0b0">CHPtrArray</a>
 </td>
 <td align="left" width="63%">
 Constructor.
@@ -89,7 +89,7 @@ Constructor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa384927(v=VS.85).aspx">GetAt</a>
+<a href="https://msdn.microsoft.com/7c2f029f-22a1-4433-971e-35ce48c004e0">GetAt</a>
 </td>
 <td align="left" width="63%">
 Accesses an element in a <b>CHPtrArray</b> array.
@@ -98,7 +98,7 @@ Accesses an element in a <b>CHPtrArray</b> array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa384929(v=VS.85).aspx">GetSize</a>
+<a href="https://msdn.microsoft.com/9b9bcd3f-06d9-47f1-aecb-1c611c9866bd">GetSize</a>
 </td>
 <td align="left" width="63%">
 Obtains the pointer array size.
@@ -107,7 +107,7 @@ Obtains the pointer array size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa384932(v=VS.85).aspx">RemoveAll</a>
+<a href="https://msdn.microsoft.com/51de0ff1-e8e9-4484-80d6-51179ef82a51">RemoveAll</a>
 </td>
 <td align="left" width="63%">
 Removes all the <b>CHPtrArray</b> members from this array.
@@ -147,7 +147,7 @@ The destructor for the class is <b>CHPtrArray::~CHPtrArray</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa392773(v=VS.85).aspx">Provider Framework Utility Classes</a>
+<a href="https://msdn.microsoft.com/d2414a72-3435-4035-bcd9-b3ec87f5709c">Provider Framework Utility Classes</a>
  
 
  

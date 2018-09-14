@@ -7,7 +7,7 @@ old-location: mscs\cluster_network_enum.htm
 tech.root: mscs
 ms.assetid: f5b02ce2-92d0-4ae7-a5bb-8e5d9c987095
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CLUSTER_NETWORK_ENUM, CLUSTER_NETWORK_ENUM enumeration [Failover Cluster], CLUSTER_NETWORK_ENUM_ALL, CLUSTER_NETWORK_ENUM_NETINTERFACES, _CLUSTER_NETWORK_ENUM, _CLUSTER_NETWORK_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_NETWORK_ENUM, clusapi/CLUSTER_NETWORK_ENUM_ALL, clusapi/CLUSTER_NETWORK_ENUM_NETINTERFACES, clusapi/_CLUSTER_NETWORK_ENUM, msclus/CLUSTER_NETWORK_ENUM, msclus/CLUSTER_NETWORK_ENUM_ALL, msclus/CLUSTER_NETWORK_ENUM_NETINTERFACES, msclus/_CLUSTER_NETWORK_ENUM, mscs.cluster_network_enum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Describes the type of cluster object being enumerated by the
 
 ### -field CLUSTER_NETWORK_ENUM_NETINTERFACES
 
-The object is a <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interface</a>.
+The object is a <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a>.
 
 
 ### -field CLUSTER_NETWORK_ENUM_ALL
@@ -84,7 +84,7 @@ All cluster objects on the network.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

@@ -4,10 +4,10 @@ title: ITextPara2
 author: windows-sdk-content
 description: Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, ITextFont and ITextPara.
 old-location: controls\itextpara2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 31a0849f-c651-4178-b1ff-a4333bcde5d9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], ITextPara2 interface [Windows Controls],described, controls.itextpara2, tom/ITextPara2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,9 +50,9 @@ req.redist:
 ## -description
 
 
-Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>.
+Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, <a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a> and <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>.
 
-The <b>ITextPara2</b> interface extends <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>, providing the equivalent of the Microsoft Word format-paragraph dialog.
+The <b>ITextPara2</b> interface extends <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>, providing the equivalent of the Microsoft Word format-paragraph dialog.
 
 
 ## -inheritance

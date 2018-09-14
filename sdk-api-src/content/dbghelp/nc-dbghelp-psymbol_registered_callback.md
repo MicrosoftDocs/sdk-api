@@ -4,10 +4,10 @@ title: PSYMBOL_REGISTERED_CALLBACK
 author: windows-sdk-content
 description: An application-defined callback function used with the SymRegisterCallback64 function. It is called by the symbol handler.
 old-location: base\symregistercallbackproc64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f3ba952b-ecc5-4235-a806-00c82d40e611
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: CBA_DEBUG_INFO, CBA_DEFERRED_SYMBOL_LOAD_CANCEL, CBA_DEFERRED_SYMBOL_LOAD_COMPLETE, CBA_DEFERRED_SYMBOL_LOAD_FAILURE, CBA_DEFERRED_SYMBOL_LOAD_PARTIAL, CBA_DEFERRED_SYMBOL_LOAD_START, CBA_DUPLICATE_SYMBOL, CBA_EVENT, CBA_READ_MEMORY, CBA_SET_OPTIONS, CBA_SRCSRV_EVENT, CBA_SRCSRV_INFO, CBA_SYMBOLS_UNLOADED, PSYMBOL_REGISTERED_CALLBACK, PSYMBOL_REGISTERED_CALLBACK64, SymRegisterCallbackProc64, SymRegisterCallbackProc64 callback, SymRegisterCallbackProc64 callback function, _win32_symregistercallbackproc64, base.symregistercallbackproc64, dbghelp/SymRegisterCallbackProc64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -324,9 +324,13 @@ The calling application gets called through the registered callback function as 
 
 This callback function supersedes the <i>PSYMBOL_REGISTERED_CALLBACK</i> callback function.  <i>PSYMBOL_REGISTERED_CALLBACK</i> is defined as follows in Dbghelp.h.
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define PSYMBOL_REGISTERED_CALLBACK PSYMBOL_REGISTERED_CALLBACK64
 #else
 typedef BOOL
@@ -336,10 +340,10 @@ typedef BOOL
     __in_opt PVOID CallbackData,
     __in_opt PVOID UserContext
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 For a more extensive example, read <a href="https://msdn.microsoft.com/1dd8af0e-280b-4fc4-bf75-45c5c7517365">Getting Notifications</a>.
 
 

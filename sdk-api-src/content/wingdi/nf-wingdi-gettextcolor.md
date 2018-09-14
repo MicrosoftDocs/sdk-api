@@ -7,7 +7,7 @@ old-location: gdi\gettextcolor.htm
 tech.root: gdi
 ms.assetid: d3d91b86-5143-431a-ba18-b951b832d7b6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetTextColor, GetTextColor function [Windows GDI], _win32_GetTextColor, gdi.gettextcolor, wingdi/GetTextColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

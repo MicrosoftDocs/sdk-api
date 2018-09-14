@@ -4,10 +4,10 @@ title: "_EVENT_EXTENDED_ITEM_INSTANCE"
 author: windows-sdk-content
 description: Defines the relationship between events if TraceEventInstance was used to log related events.
 old-location: etw\event_extended_item_instance.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 3def638b-cab2-4b5d-b409-7285caa77ae1
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 08/29/2018
 ms.keywords: "*PEVENT_EXTENDED_ITEM_INSTANCE, EVENT_EXTENDED_ITEM_INSTANCE, EVENT_EXTENDED_ITEM_INSTANCE structure [ETW], PEVENT_EXTENDED_ITEM_INSTANCE, PEVENT_EXTENDED_ITEM_INSTANCE structure pointer [ETW], _EVENT_EXTENDED_ITEM_INSTANCE, base.event_extended_item_instance, etw.event_extended_item_instance, evntcons/EVENT_EXTENDED_ITEM_INSTANCE, evntcons/PEVENT_EXTENDED_ITEM_INSTANCE"
 ms.prod: windows
 ms.technology: windows-sdk

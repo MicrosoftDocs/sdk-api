@@ -7,7 +7,7 @@ old-location: adsi\allocadsstr.htm
 tech.root: ADSI
 ms.assetid: 1e2b6d42-a879-4a53-a2ce-0e841f6b8543
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: AllocADsStr, AllocADsStr function [ADSI], _ds_allocadsstr, adshlp/AllocADsStr, adsi.allocadsstr
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS.htm
 tech.root: shell
 ms.assetid: 9251928C-AB98-47be-8C41-7B89194EB8F9
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: CPAO_EMPTY_CONNECTED, CPAO_EMPTY_LOCAL, CPAO_NONE, CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS, CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS enumeration [Windows Shell], credentialprovider/CPAO_EMPTY_CONNECTED, credentialprovider/CPAO_EMPTY_LOCAL, credentialprovider/CPAO_NONE, credentialprovider/CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS, shell.CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Indicates the type of credential that a credential provider should return to associate with the "Other user" tile. Used by <a href="https://msdn.microsoft.com/en-us/library/Hh706924(v=VS.85).aspx">ICredentialProviderUserArray_GetAccountOptions</a>.
+Indicates the type of credential that a credential provider should return to associate with the "Other user" tile. Used by <a href="https://msdn.microsoft.com/A274F799-FB0C-40a7-AB9E-9525F6079C9A">ICredentialProviderUserArray_GetAccountOptions</a>.
 
 
 ## -enum-fields
@@ -78,7 +78,7 @@ Return a credential to associate with the "Other user" tile. This credential can
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706924(v=VS.85).aspx">ICredentialProviderUserArray_GetAccountOptions</a>
+<a href="https://msdn.microsoft.com/A274F799-FB0C-40a7-AB9E-9525F6079C9A">ICredentialProviderUserArray_GetAccountOptions</a>
  
 
  

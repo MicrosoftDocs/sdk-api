@@ -7,7 +7,7 @@ old-location: directwrite\dwritecreatefactory.htm
 tech.root: DirectWrite
 ms.assetid: c74c0906-0a5c-4ab8-87cf-a195566e1d9e
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: DWriteCreateFactory, DWriteCreateFactory function [Direct Write], directwrite.dwritecreatefactory, dwrite/DWriteCreateFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,21 +102,25 @@ This function creates a <a href="https://msdn.microsoft.com/62a8d723-ae1c-4cbc-a
 
 The following example shows how to create a shared <a href="https://msdn.microsoft.com/62a8d723-ae1c-4cbc-a9da-3177e80d4a3a">DirectWrite</a> factory.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 if (SUCCEEDED(hr))
 {
     hr = DWriteCreateFactory(
         DWRITE_FACTORY_TYPE_SHARED,
         __uuidof(IDWriteFactory),
-        reinterpret_cast<IUnknown**>(&pDWriteFactory_)
+        reinterpret_cast&lt;IUnknown**&gt;(&amp;pDWriteFactory_)
         );
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

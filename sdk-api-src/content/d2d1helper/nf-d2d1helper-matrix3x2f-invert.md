@@ -4,10 +4,10 @@ title: Matrix3x2F::Invert
 author: windows-sdk-content
 description: Inverts the matrix, if it is invertible.
 old-location: direct2d\matrix3x2f_invert.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 44c5229e-778c-431a-b812-cf2f59c2280c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D2D1.Matrix3x2F.Invert, D2D1::Matrix3x2F::Invert, Invert, Invert method [Direct2D], Invert method [Direct2D],Matrix3x2F interface, Matrix3x2F interface [Direct2D],Invert method, Matrix3x2F.Invert, Matrix3x2F::Invert, d2d1helper/Matrix3x2F::Invert, direct2d.matrix3x2f_invert
 ms.prod: windows-hardware
 ms.technology: windows-devices

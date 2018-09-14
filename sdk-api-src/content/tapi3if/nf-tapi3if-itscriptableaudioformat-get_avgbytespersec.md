@@ -4,10 +4,10 @@ title: ITScriptableAudioFormat::get_AvgBytesPerSec
 author: windows-sdk-content
 description: The get_AvgBytesPerSec method returns the value for the nAvgBytesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_avgbytespersec.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: fe54e1a5-ff8f-486d-90ba-3c7fc595ec1d
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_AvgBytesPerSec method, ITScriptableAudioFormat.get_AvgBytesPerSec, ITScriptableAudioFormat::get_AvgBytesPerSec, _tapi3_itscriptableaudioformat_get_avgbytespersec, get_AvgBytesPerSec, get_AvgBytesPerSec method [TAPI 2.2], get_AvgBytesPerSec method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_avgbytespersec, tapi3if/ITScriptableAudioFormat::get_AvgBytesPerSec
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 The 
 <b>get_AvgBytesPerSec</b> method returns the value for the <b>nAvgBytesPerSec</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param pVal [out]
 
 Pointer to the value for the <b>nAvgBytesPerSec</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -returns

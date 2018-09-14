@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetDpiY_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getdpiy.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: GetDpiY, GetDpiY method [GDI+], GetDpiY method [GDI+],Graphics class, Graphics class [GDI+],GetDpiY method, Graphics.GetDpiY, Graphics::GetDpiY, _gdiplus_CLASS_Graphics_GetDpiY_, gdiplus._gdiplus_CLASS_Graphics_GetDpiY_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::GetDpiY</b> method gets the vertical resolution, in dots per inch, of the display device associated with this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Type: <strong>Type: <b>REAL</b>
 </strong>
 
 This method returns the vertical resolution, in dots per inch, of the display device associated with this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 
 
@@ -80,27 +80,27 @@ This method returns the vertical resolution, in dots per inch, of the display de
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536395(v=VS.85).aspx">Global and Local Transformations</a>
+<a href="https://msdn.microsoft.com/9f744c2a-f1f3-4a7e-ab0c-37aa1df01623">Global and Local Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535705(v=VS.85).aspx">Graphics::GetDpiY</a>
+<a href="https://msdn.microsoft.com/85925de9-c5a8-4fc4-b6ef-e1716c548dac">Graphics::GetDpiY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535718(v=VS.85).aspx">Graphics::GetPageUnit</a>
+<a href="https://msdn.microsoft.com/1fdac4c0-4494-4e15-8d8b-e9e54cbcad6c">Graphics::GetPageUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535812(v=VS.85).aspx">Graphics::SetPageUnit</a>
+<a href="https://msdn.microsoft.com/f931ac83-df22-426b-9323-7c0857903410">Graphics::SetPageUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536399(v=VS.85).aspx">Types of Coordinate Systems</a>
+<a href="https://msdn.microsoft.com/eb20f5e9-25f5-4f27-8ea5-83f6819425ed">Types of Coordinate Systems</a>
  
 
  

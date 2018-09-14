@@ -4,10 +4,10 @@ title: IAnalogRadioTuningSpace
 author: windows-sdk-content
 description: The IAnalogRadioTuningSpace interface provides methods for getting and setting parameters associated with tuning spaces for analog radio transmissions.
 old-location: mstv\ianalogradiotuningspace.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 25cf9f31-88a9-479e-b51c-ad823cd04d2d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IAnalogRadioTuningSpace, IAnalogRadioTuningSpace interface [Microsoft TV Technologies], IAnalogRadioTuningSpace interface [Microsoft TV Technologies],described, IAnalogRadioTuningSpaceInterface, mstv.ianalogradiotuningspace, tuner/IAnalogRadioTuningSpace
 ms.prod: windows
 ms.technology: windows-sdk

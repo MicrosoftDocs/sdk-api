@@ -7,7 +7,7 @@ old-location: dshow\istreambuilder_render.htm
 tech.root: DirectShow
 ms.assetid: 7bba9d1a-03a8-4572-a08c-2e12071df73b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IStreamBuilder interface [DirectShow],Render method, IStreamBuilder.Render, IStreamBuilder::Render, IStreamBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IStreamBuilder interface, dshow.istreambuilder_render, strmif/IStreamBuilder::Render
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,9 +87,13 @@ Returns an <b>HRESULT</b> value. A return code of S_OK indicates that the stream
 
 The following code illustrates how to implement this method on an output pin. This example assumes that the filter requires a custom renderer downstream from it.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 STDMETHODIMP CMyOutputPin::Render(IPin *pPin, IGraphBuilder *pGraph)
 {
     CheckPointer(pPin, E_POINTER);
@@ -100,26 +104,26 @@ STDMETHODIMP CMyOutputPin::Render(IPin *pPin, IGraphBuilder *pGraph)
 
     // Create the renderer.
     HRESULT hr = CoCreateInstance(CLSID_MyRenderer, NULL, CLSCTX_INPROC,
-        IID_IBaseFilter, (void **)&pMyRenderer);
+        IID_IBaseFilter, (void **)&amp;pMyRenderer);
     if (FAILED(hr))
     {
         return hr;
     }
     
     // Add my renderer to the filter graph.
-    hr = pGraph->AddFilter(pMyRenderer, L"My Renderer");
+    hr = pGraph-&gt;AddFilter(pMyRenderer, L"My Renderer");
     if (FAILED(hr))
     {
-        pMyRenderer->Release();
+        pMyRenderer-&gt;Release();
         return hr;
     }
 
     IEnumPins *pEnumPins;
     IPin *pMyRendererInputPin = NULL;
-    hr = pMyRenderer->EnumPins(&pEnumPins);
+    hr = pMyRenderer-&gt;EnumPins(&amp;pEnumPins);
     if (SUCCEEDED(hr)) 
     {
-        if (S_OK != pEnumPins->Next(1, &pMyRendererInputPin, 0))
+        if (S_OK != pEnumPins-&gt;Next(1, &amp;pMyRendererInputPin, 0))
         {
             hr = E_UNEXPECTED;
          }
@@ -127,21 +131,21 @@ STDMETHODIMP CMyOutputPin::Render(IPin *pPin, IGraphBuilder *pGraph)
     if (SUCCEEDED(hr)) 
     {
         // Connect my renderer to my output pin.
-        hr = pGraph->ConnectDirect(pPin, pMyRendererInputPin);
-        pMyRendererInputPin->Release();
+        hr = pGraph-&gt;ConnectDirect(pPin, pMyRendererInputPin);
+        pMyRendererInputPin-&gt;Release();
     }
     if (FAILED(hr)) 
     {
         // Could not connect to my renderer. Remove it from the graph.
-        pGraph->RemoveFilter(pMyRenderer);
+        pGraph-&gt;RemoveFilter(pMyRenderer);
     }
-    pMyRenderer->Release();
+    pMyRenderer-&gt;Release();
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

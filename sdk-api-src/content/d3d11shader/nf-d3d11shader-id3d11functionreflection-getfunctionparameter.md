@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11functionreflection_getfunctionparameter.htm
 tech.root: direct3d11
 ms.assetid: DA2A3226-7204-4722-BCA0-74B38793A319
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetFunctionParameter, GetFunctionParameter method [Direct3D 11], GetFunctionParameter method [Direct3D 11],ID3D11FunctionReflection interface, ID3D11FunctionReflection interface [Direct3D 11],GetFunctionParameter method, ID3D11FunctionReflection.GetFunctionParameter, ID3D11FunctionReflection::GetFunctionParameter, d3d11shader/ID3D11FunctionReflection::GetFunctionParameter, direct3d11.id3d11functionreflection_getfunctionparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,9 +69,9 @@ The zero-based index of the function parameter reflector to retrieve.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn280544(v=VS.85).aspx">ID3D11FunctionParameterReflection</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/EFF60EF7-C060-4148-916C-D971B65561F5">ID3D11FunctionParameterReflection</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280544(v=VS.85).aspx">ID3D11FunctionParameterReflection</a> interface that represents the function parameter reflector.
+A pointer to a <a href="https://msdn.microsoft.com/EFF60EF7-C060-4148-916C-D971B65561F5">ID3D11FunctionParameterReflection</a> interface that represents the function parameter reflector.
 
 
 
@@ -81,7 +81,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280544(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280546(v=VS.85).aspx">ID3D11FunctionReflection</a>
+<a href="https://msdn.microsoft.com/91A3B6E3-E1A7-43F9-AD18-93A25F13CFB4">ID3D11FunctionReflection</a>
  
 
  

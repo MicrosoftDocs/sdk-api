@@ -4,10 +4,10 @@ title: "_SHARE_INFO_501"
 author: windows-sdk-content
 description: Contains information about the shared resource including the name and type of the resource, and a comment associated with the resource.
 old-location: fs\share_info_501_str.htm
-tech.root: netshare
+tech.root: NetShare
 ms.assetid: 2900d84c-7357-4652-b8b3-c9734fcc0449
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSHARE_INFO_501, *PSHARE_INFO_501, LPSHARE_INFO_501, LPSHARE_INFO_501 structure pointer [Files], PSHARE_INFO_501, PSHARE_INFO_501 structure pointer [Files], SHARE_INFO_501, SHARE_INFO_501 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _SHARE_INFO_501, _win32_share_info_501_str, fs.share_info_501_str, lmshare/LPSHARE_INFO_501, lmshare/PSHARE_INFO_501, lmshare/SHARE_INFO_501, netmgmt.share_info_501_str"
 ms.prod: windows
 ms.technology: windows-sdk

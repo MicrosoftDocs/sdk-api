@@ -7,7 +7,7 @@ old-location: wmi\trefpointercollection_add.htm
 tech.root: WmiSdk
 ms.assetid: 959cd8e7-ea0c-4b98-8e13-398e09c62668
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],Add method, TRefPointerCollection.Add, TRefPointerCollection::Add, _hmm_trefpointercollection_add, refptrco/TRefPointerCollection::Add, wmi.trefpointercollection_add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ If the method fails, it returns <b>FALSE</b>.
 
 
 
-The <b>Add</b> method calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on this pointer.
+The <b>Add</b> method calls the <a href="_com_iunknown_addref">AddRef</a> method on this pointer.
 
 
 

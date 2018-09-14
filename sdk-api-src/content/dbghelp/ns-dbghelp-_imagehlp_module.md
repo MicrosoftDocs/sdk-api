@@ -4,10 +4,10 @@ title: "_IMAGEHLP_MODULE"
 author: windows-sdk-content
 description: Contains module information.
 old-location: base\imagehlp_module64_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 3cc7a678-561b-4af8-8cf0-5cf6ebc0cb26
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: "*PIMAGEHLP_MODULE, IMAGEHLP_MODULE, IMAGEHLP_MODULE structure, IMAGEHLP_MODULE64, IMAGEHLP_MODULE64 structure, IMAGEHLP_MODULEW64, PIMAGEHLP_MODULE64, PIMAGEHLP_MODULE64 structure pointer, SymCoff, SymCv, SymDeferred, SymDia, SymExport, SymNone, SymPdb, SymSym, SymVirtual, _IMAGEHLP_MODULE, _IMAGEHLP_MODULE64, _win32_imagehlp_module64_str, base.imagehlp_module64_str, dbghelp/IMAGEHLP_MODULE64, dbghelp/IMAGEHLP_MODULEW64, dbghelp/PIMAGEHLP_MODULE64"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -287,9 +287,13 @@ A value that indicates whether type information is available.
 This structure supersedes the <b>IMAGEHLP_MODULE</b> structure. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>IMAGEHLP_MODULE</b> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define IMAGEHLP_MODULE IMAGEHLP_MODULE64
 #define PIMAGEHLP_MODULE PIMAGEHLP_MODULE64
 #define IMAGEHLP_MODULEW IMAGEHLP_MODULEW64
@@ -320,10 +324,10 @@ typedef struct _IMAGEHLP_MODULEW {
     WCHAR    ImageName[256]; 
     WCHAR    LoadedImageName[256]; 
 } IMAGEHLP_MODULEW, *PIMAGEHLP_MODULEW;
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

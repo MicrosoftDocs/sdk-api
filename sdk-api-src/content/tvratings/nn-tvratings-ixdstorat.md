@@ -4,10 +4,10 @@ title: IXDSToRat
 author: windows-sdk-content
 description: The IXDSToRat interface parses rating information from extended data services (XDS) information in line 21.
 old-location: mstv\ixdstorat.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: de65e5cd-3f4b-4925-a6b8-636fc2e332ec
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IXDSToRat, IXDSToRat interface [Microsoft TV Technologies], IXDSToRat interface [Microsoft TV Technologies],described, IXDSToRatInterface, mstv.ixdstorat, tvratings/IXDSToRat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ The XDS Codec filter uses this interface. Applications do not use this interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXDSToRat</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IXDSToRat</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXDSToRat</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IXDSToRat</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -108,7 +108,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

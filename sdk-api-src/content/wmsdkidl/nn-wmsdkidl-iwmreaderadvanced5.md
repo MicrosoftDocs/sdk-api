@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced5.htm
 tech.root: wmformat
 ms.assetid: 28d697d8-99b5-4968-a765-ba01b86914f6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWMReaderAdvanced5, IWMReaderAdvanced5 interface [windows Media Format], IWMReaderAdvanced5 interface [windows Media Format],described, IWMReaderAdvanced5Interface, wmformat.iwmreaderadvanced5, wmsdkidl/IWMReaderAdvanced5
 ms.prod: windows
 ms.technology: windows-sdk

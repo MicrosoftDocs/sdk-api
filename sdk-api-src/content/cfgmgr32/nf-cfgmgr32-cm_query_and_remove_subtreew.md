@@ -7,7 +7,7 @@ old-location: devinst\cm_query_and_remove_subtree.htm
 tech.root: devinst
 ms.assetid: 0a80cddd-d5be-42cb-ba11-0a3292b973a3
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: CM_Query_And_Remove_SubTree, CM_Query_And_Remove_SubTree function [Device and Driver Installation], CM_Query_And_Remove_SubTreeW, cfgmgr32/CM_Query_And_Remove_SubTree, cfgmgr32/CM_Query_And_Remove_SubTreeW, cfgmgrfn_81d4975f-cc31-49aa-8fa7-984abd25c26b.xml, devinst.cm_query_and_remove_subtree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,7 +101,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-The purpose of the <b>CM_Query_And_Remove_SubTree</b> function is to allow an application to prepare a device for safe removal from the local machine. Use this function to remove devices only if a driver has not set the <b>SurpriseRemovalOK</b> member of <a href="https://msdn.microsoft.com/1edae050-8e72-42e7-9dc9-8f449699969c">DEVICE_CAPABILITIES</a>. If a driver has set <b>SurpriseRemovalOK</b>, the application should call <a href="https://msdn.microsoft.com/en-us/library/Ff539806(v=VS.85).aspx">CM_Request_Device_Eject</a> instead of <b>CM_Query_And_Remove_SubTree</b>.
+The purpose of the <b>CM_Query_And_Remove_SubTree</b> function is to allow an application to prepare a device for safe removal from the local machine. Use this function to remove devices only if a driver has not set the <b>SurpriseRemovalOK</b> member of <a href="https://msdn.microsoft.com/1edae050-8e72-42e7-9dc9-8f449699969c">DEVICE_CAPABILITIES</a>. If a driver has set <b>SurpriseRemovalOK</b>, the application should call <a href="https://msdn.microsoft.com/a73317c8-52e4-4f2c-855c-94259dc77846">CM_Request_Device_Eject</a> instead of <b>CM_Query_And_Remove_SubTree</b>.
 
 <b>CM_Query_And_Remove_SubTree</b> supports setting the flags parameter <i>ulFlags</i> with one of the following two flags; these flags apply only if Windows or an installer vetoes the removal of a device: 
 
@@ -137,11 +137,11 @@ For information about using device instance handles that are bound to the local 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539806(v=VS.85).aspx">CM_Request_Device_Eject</a>
+<a href="https://msdn.microsoft.com/a73317c8-52e4-4f2c-855c-94259dc77846">CM_Request_Device_Eject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539825(v=VS.85).aspx">CM_Setup_DevNode</a>
+<a href="https://msdn.microsoft.com/94d0023d-d93f-42da-b2fc-54b9d8831b9b">CM_Setup_DevNode</a>
 
 
 

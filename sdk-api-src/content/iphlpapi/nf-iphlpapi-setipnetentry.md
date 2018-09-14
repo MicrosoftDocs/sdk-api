@@ -4,10 +4,10 @@ title: SetIpNetEntry function
 author: windows-sdk-content
 description: The SetIpNetEntry function modifies an existing ARP entry in the ARP table on the local computer.
 old-location: iphlp\setipnetentry.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: d985b749-5aa3-4b4a-ba8f-bc8edcf1b1f3
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: SetIpNetEntry, SetIpNetEntry function [IP Helper], _iphlp_setipnetentry, iphlp.setipnetentry, iphlpapi/SetIpNetEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

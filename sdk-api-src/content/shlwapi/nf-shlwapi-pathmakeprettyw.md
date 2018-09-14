@@ -7,7 +7,7 @@ old-location: shell\PathMakePretty.htm
 tech.root: shell
 ms.assetid: fb871054-4c63-42de-b85b-edefa4b09ea0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: PathMakePretty, PathMakePretty function [Windows Shell], PathMakePrettyA, PathMakePrettyW, _win32_PathMakePretty, shell.PathMakePretty, shlwapi/PathMakePretty, shlwapi/PathMakePrettyA, shlwapi/PathMakePrettyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,10 +91,14 @@ This function only operates on paths that are entirely uppercase. For example: C
 
 
 
-
-```cpp
-#include <windows.h>
-#include <iostream.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;iostream.h&gt;
 #include "Shlwapi.h"
 
 void main( void )
@@ -110,29 +114,29 @@ char *lpStr2;
 lpStr2 = buffer_2;
 
 // Test path name 1.
-    cout << "The content of the unconverted path is : " << lpStr1 << endl;
-    cout << "The \"PathMakePretty\" function returns the value " 
-         << PathMakePretty(lpStr1) << "  = TRUE & converts"  << endl;
-    cout << "The content of the converted path is   : " << lpStr1 << endl;
+    cout &lt;&lt; "The content of the unconverted path is : " &lt;&lt; lpStr1 &lt;&lt; endl;
+    cout &lt;&lt; "The \"PathMakePretty\" function returns the value " 
+         &lt;&lt; PathMakePretty(lpStr1) &lt;&lt; "  = TRUE &amp; converts"  &lt;&lt; endl;
+    cout &lt;&lt; "The content of the converted path is   : " &lt;&lt; lpStr1 &lt;&lt; endl;
 
 // Test path name 2.
-    cout << "\nThe content of the unconverted path is : " << lpStr2 << endl;
-    cout << "The \"PathMakePretty\" function returns the value " 
-         << PathMakePretty(lpStr2) << "  = FALSE & no conversion"  << endl;
-    cout << "The content of the converted path is   : " << lpStr2 << endl;
+    cout &lt;&lt; "\nThe content of the unconverted path is : " &lt;&lt; lpStr2 &lt;&lt; endl;
+    cout &lt;&lt; "The \"PathMakePretty\" function returns the value " 
+         &lt;&lt; PathMakePretty(lpStr2) &lt;&lt; "  = FALSE &amp; no conversion"  &lt;&lt; endl;
+    cout &lt;&lt; "The content of the converted path is   : " &lt;&lt; lpStr2 &lt;&lt; endl;
 }
 
 OUTPUT:
 =============
 The content of the unconverted path is : C:\TEST\FILE
-The "PathMakePretty" function returns the value 1  = TRUE & converts
+The "PathMakePretty" function returns the value 1  = TRUE &amp; converts
 The content of the converted path is   : C:\test\file
 
 The content of the unconverted path is : c:\test\file
-The "PathMakePretty" function returns the value 0  = FALSE & no conversion
-The content of the converted path is   : c:\test\file
-```
-
-
+The "PathMakePretty" function returns the value 0  = FALSE &amp; no conversion
+The content of the converted path is   : c:\test\file</pre>
+</td>
+</tr>
+</table></span></div>
 
 

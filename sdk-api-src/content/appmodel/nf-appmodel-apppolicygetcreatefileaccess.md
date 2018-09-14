@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicygetcreatefileaccess_function.htm
 tech.root: appxpkg
 ms.assetid: 3AFFEAE5-CD49-458D-BBB8-AEC3A71566D1
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: AppPolicyGetCreateFileAccess, AppPolicyGetCreateFileAccess function [App packaging and management], appmodel/AppPolicyGetCreateFileAccess, appxpkg.apppolicygetcreatefileaccess_function
 ms.prod: windows-hardware
 ms.technology: windows-devices

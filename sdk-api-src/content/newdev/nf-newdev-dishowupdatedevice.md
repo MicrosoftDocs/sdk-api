@@ -7,7 +7,7 @@ old-location: devinst\dishowupdatedevice.htm
 tech.root: devinst
 ms.assetid: 4b60f7cd-0375-4569-abb1-721fd8cdf5a1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: DiShowUpdateDevice, DiShowUpdateDevice function [Device and Driver Installation], devinst.dishowupdatedevice, di-rtns_096f087c-2947-4424-861d-af7287eec8ad.xml, newdev/DiShowUpdateDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ A handle to the top-level window that <b>DiShowUpdateDevice</b> uses to display 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device for which to show the Hardware Update wizard. 
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which to show the Hardware Update wizard. 
 
 
 ### -param DeviceInfoData [in]
@@ -123,7 +123,7 @@ The user canceled the Hardware Update wizard.
 </dl>
 </td>
 <td width="60%">
-The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://msdn.microsoft.com/library/Ff541255(v=VS.85).aspx">Installing Devices on 64-Bit Systems</a>. 
+The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="devinst.device_installations_on_64_bit_systems">Installing Devices on 64-Bit Systems</a>. 
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: imapi\iprogressitem_get_lastblock.htm
 tech.root: imapi
 ms.assetid: ad75e708-4a10-45b9-89c2-11270f6edd9e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IProgressItem interface [IMAPI],get_LastBlock method, IProgressItem.get_LastBlock, IProgressItem::get_LastBlock, get_LastBlock, get_LastBlock method [IMAPI], get_LastBlock method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_lastblock, imapi2fs/IProgressItem::get_LastBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

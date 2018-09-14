@@ -4,10 +4,10 @@ title: IX509PolicyServerUrl
 author: windows-sdk-content
 description: The IX509PolicyServerUrl interface can be used to set or retrieve property values associated with the certificate enrollment policy (CEP) server and to update associated registry values.
 old-location: security\ix509policyserverurl.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: ad9d61ec-f607-4f71-ad8a-28d821e29c27
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509PolicyServerUrl, IX509PolicyServerUrl interface [Security], IX509PolicyServerUrl interface [Security],described, certenroll/IX509PolicyServerUrl, security.ix509policyserverurl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,10 +55,10 @@ The <b>IX509PolicyServerUrl</b> interface can be used to set or retrieve propert
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PolicyServerUrl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509PolicyServerUrl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PolicyServerUrl</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509PolicyServerUrl</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IX509PolicyServerUrl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee351739(v=VS.85).aspx">GetStringProperty</a>
+<a href="https://msdn.microsoft.com/1a163774-2e32-48f7-9aa1-cbfa0ec7a943">GetStringProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CEP server ID or the display name of the CEP server.
@@ -80,7 +80,7 @@ Retrieves the CEP server ID or the display name of the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee351740(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/693c3a29-0d12-4603-a06a-4277db3b8b8b">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>IX509PolicyServerUrl</b> object for a computer or user context.
@@ -89,7 +89,7 @@ Initializes an <b>IX509PolicyServerUrl</b> object for a computer or user context
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee351741(v=VS.85).aspx">RemoveFromRegistry</a>
+<a href="https://msdn.microsoft.com/18f9a445-99db-43b1-bee0-35bfbd1de0a5">RemoveFromRegistry</a>
 </td>
 <td align="left" width="63%">
 Unregisters a CEP server.
@@ -98,7 +98,7 @@ Unregisters a CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee351742(v=VS.85).aspx">SetStringProperty</a>
+<a href="https://msdn.microsoft.com/b02ca192-274a-4d15-8c16-4975134c92b4">SetStringProperty</a>
 </td>
 <td align="left" width="63%">
 Specifies the CEP server ID or the display name of the CEP server.
@@ -107,7 +107,7 @@ Specifies the CEP server ID or the display name of the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee351743(v=VS.85).aspx">UpdateRegistry</a>
+<a href="https://msdn.microsoft.com/dfb43979-a630-497d-96eb-f2bd701b5e09">UpdateRegistry</a>
 </td>
 <td align="left" width="63%">
 Registers a CEP server.
@@ -125,7 +125,7 @@ Registers a CEP server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351735(v=VS.85).aspx">AuthFlags</a>
+<a href="https://msdn.microsoft.com/c59387e3-2160-480a-beef-8e9dae064a1a">AuthFlags</a>
 
 
 </td>
@@ -141,7 +141,7 @@ Specifies and retrieves a value that indicates the authentication type used by t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351736(v=VS.85).aspx">Cost</a>
+<a href="https://msdn.microsoft.com/8a188f11-6564-4d52-9b3d-ff7f14f9c127">Cost</a>
 
 
 </td>
@@ -157,7 +157,7 @@ Specifies and retrieves an arbitrary  cost for contacting the CEP server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351737(v=VS.85).aspx">Default</a>
+<a href="https://msdn.microsoft.com/957ccbbb-5bd1-4aa8-bf3e-09dd078f1593">Default</a>
 
 
 </td>
@@ -173,7 +173,7 @@ Specifies and retrieves a Boolean value that indicates whether this is the defau
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351738(v=VS.85).aspx">Flags</a>
+<a href="https://msdn.microsoft.com/60a9dee9-6311-45b6-8fe9-f916878a64dd">Flags</a>
 
 
 </td>
@@ -189,7 +189,7 @@ Specifies or retrieves a value that indicates whether the CEP server policy info
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351744(v=VS.85).aspx">Url</a>
+<a href="https://msdn.microsoft.com/ea45a003-357b-469a-b932-66fa13ae80b1">Url</a>
 
 
 </td>

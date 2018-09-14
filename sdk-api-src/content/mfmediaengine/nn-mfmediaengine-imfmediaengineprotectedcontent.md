@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineprotectedcontent.htm
 tech.root: medfound
 ms.assetid: 85B37711-DB46-4BC7-A051-79E9507791FA
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent interface [Media Foundation], IMFMediaEngineProtectedContent interface [Media Foundation],described, mf.imfmediaengineprotectedcontent, mfmediaengine/IMFMediaEngineProtectedContent
 ms.prod: windows
 ms.technology: windows-sdk

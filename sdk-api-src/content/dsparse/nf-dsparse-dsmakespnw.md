@@ -7,7 +7,7 @@ old-location: ad\dsmakespn.htm
 tech.root: ad
 ms.assetid: fca3c59c-bb81-42a0-acd3-2e55c902febe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: DsMakeSpn, DsMakeSpn function [Active Directory], DsMakeSpnA, DsMakeSpnW, _glines_dsmakespn, ad.dsmakespn, dsparse/DsMakeSpn, dsparse/DsMakeSpnA, dsparse/DsMakeSpnW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ req.redist:
 The <b>DsMakeSpn</b> function constructs a service principal name (SPN) that identifies a service instance.
 
 A client application uses this function to compose an SPN, which it uses to authenticate the service instance. For example, the client can pass an SPN in the <i>pszTargetName</i> parameter of the 
-<a href="https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx">InitializeSecurityContext</a> function.
+<a href="security.initializesecuritycontext">InitializeSecurityContext</a> function.
 
 
 ## -parameters
@@ -131,12 +131,16 @@ The format of the SPN produced by the <b>DsMakeSpn</b> function depends on the i
 <li>
 Set the <i>InstancePort</i> parameter to zero. If <i>InstancePort</i> is nonzero, the SPN has the following format:
 
-
-```cpp
-<service class>/<host>:<instance port>/<referrer>
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;service class&gt;/&lt;host&gt;:&lt;instance port&gt;/&lt;referrer&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 </li>
 </ol>
 <div class="alert"><b>Note</b>  This format is used by replicable services.</div>
@@ -150,22 +154,30 @@ Set the <i>InstancePort</i> parameter to zero. If <i>InstancePort</i> is nonzero
 <li>
 Set the <i>InstancePort</i> parameter to zero. If <i>InstancePort</i> is nonzero, the SPN has the following format:
 
-
-```cpp
-<service class>/<host>:<instance port>/<service name>
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;service class&gt;/&lt;host&gt;:&lt;instance port&gt;/&lt;service name&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 </li>
 </ol>
 The <i>Referrer</i> parameter is used only if the <i>ServiceName</i> parameter specifies the IP address of the service's host computer. In this case, <i>Referrer</i> specifies the DNS name of the computer that gave the IP address as a referral. The SPN has the following format:
 
-
-```cpp
-<service class>/<host>:<instance port>/<referrer>
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;service class&gt;/&lt;host&gt;:&lt;instance port&gt;/&lt;referrer&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 where the host component is the <i>InstanceName</i> string or the <i>ServiceName</i> string if <i>InstanceName</i> is <b>NULL</b>, and the <i>InstancePort</i> component is optional.
 
 String parameters cannot include the forward slash (/) character, as it is used to separate the components of the SPN.
@@ -182,7 +194,7 @@ String parameters cannot include the forward slash (/) character, as it is used 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx">InitializeSecurityContext</a>
+<a href="security.initializesecuritycontext">InitializeSecurityContext</a>
  
 
  

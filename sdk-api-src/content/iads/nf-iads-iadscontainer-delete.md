@@ -7,7 +7,7 @@ old-location: adsi\iadscontainer_delete.htm
 tech.root: ADSI
 ms.assetid: 2f3873e0-376e-4212-a28d-bd9bc112f6cf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: Delete, Delete method [ADSI], Delete method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],Delete method, IADsContainer.Delete, IADsContainer::Delete, _ds_iadscontainer_delete, adsi.iadscontainer__delete, adsi.iadscontainer_delete, iads/IADsContainer::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,63 +97,75 @@ When using the  <b>IADsContainer::Delete</b> method to delete an object in C/C++
 
 The following code example deletes a user object from the container in Active Directory.
 
-
-```vb
-Dim cont as IADsContainer
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim cont as IADsContainer
 On Error GoTo Cleanup
 
 Set cont = GetObject("LDAP://OU=Sales,DC=Fabrikam,DC=com")
 cont.Delete "user", "CN=JeffSmith"
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set cont = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example deletes a user object from the container under WinNT provider.
 
-
-```vb
-Dim cont as IADsContainer
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim cont as IADsContainer
 On Error GoTo Cleanup
 
 Set cont = GetObject("WinNT://Fabrikam")
 cont.Delete "user", "jeffsmith"
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
-    Set cont = Nothing
-```
-
-
+    Set cont = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example deletes a user using  <b>IADsContainer::Delete</b>.
 
-
-```cpp
-HRESULT hr = S_OK;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = S_OK;
 IADsContainer *pCont=NULL;
  
 CoInitialize(NULL);
  
 hr = ADsGetObject(L"WinNT://myMachine", 
                   IID_IADsContainer, 
-                  (void**) &pCont);
+                  (void**) &amp;pCont);
 if ( !SUCCEEDED(hr) )
 {
      return hr;
 }
  
-hr = pCont->Delete(CComBSTR("user"), CComBSTR("JeffSmith"));
-pCont->Release();
-```
-
-
+hr = pCont-&gt;Delete(CComBSTR("user"), CComBSTR("JeffSmith"));
+pCont-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

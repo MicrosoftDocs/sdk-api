@@ -7,7 +7,7 @@ old-location: dshow\pin_info.htm
 tech.root: DirectShow
 ms.assetid: 67a837f3-8b81-4651-a0fa-fed7b61e71c2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: PIN_INFO, PIN_INFO structure [DirectShow], PIN_INFOStructure, _PinInfo, dshow.pin_info, strmif/PIN_INFO
 ms.prod: windows
 ms.technology: windows-sdk

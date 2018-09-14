@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaProvider_GetEntity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\getentity.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: GetEntity, GetEntity method [search], GetEntity method [search],ISchemaProvider interface, ISchemaProvider interface [search],GetEntity method, ISchemaProvider.GetEntity, ISchemaProvider::GetEntity, _search_ISchemaProvider_GetEntity, search._search_ISchemaProvider_GetEntity, structuredquery/ISchemaProvider::GetEntity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,9 +68,9 @@ The name of the entity being requested.
 
 ### -param pEntity [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a>**</b>
 
-Receives the address of a pointer to the requested entity. The calling application must release the entity by calling its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method. If there is no entity with the specified name, this parameter is set to <b>NULL</b>.
+Receives the address of a pointer to the requested entity. The calling application must release the entity by calling its <a href="_com_IUnknown_Release">IUnknown::Release</a> method. If there is no entity with the specified name, this parameter is set to <b>NULL</b>.
         
 
 

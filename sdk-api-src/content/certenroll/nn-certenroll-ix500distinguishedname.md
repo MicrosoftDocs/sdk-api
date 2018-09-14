@@ -4,10 +4,10 @@ title: IX500DistinguishedName
 author: windows-sdk-content
 description: Represents an X.500 distinguished name (DN).
 old-location: security\ix500distinguishedname.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 49f176d9-33f6-4bc1-992c-c613279b0969
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX500DistinguishedName, IX500DistinguishedName interface [Security], IX500DistinguishedName interface [Security],described, certenroll/IX500DistinguishedName, security.ix500distinguishedname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ CertificationRequestInfo ::= SEQUENCE
    subjectPublicKeyInfo    SubjectPublicKeyInfo,
    attributes              [0] IMPLICIT Attributes
 }
-</code></pre>The DN consists of a sequence of RDNs. Each RDN consists of a set of attributes, and each attribute consists of an <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) and a value. The data type of the value is identified by the <b>DirectoryString</b> structure.
+</code></pre>The DN consists of a sequence of RDNs. Each RDN consists of a set of attributes, and each attribute consists of an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and a value. The data type of the value is identified by the <b>DirectoryString</b> structure.
 <pre class="syntax" xml:space="preserve"><code>
 Name ::= SEQUENCE OF RelativeDistinguishedName
 
@@ -186,10 +186,10 @@ Each service that is  based on X.500 defines its own distinguished name string r
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX500DistinguishedName</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX500DistinguishedName</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX500DistinguishedName</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX500DistinguishedName</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -202,7 +202,7 @@ The <b>IX500DistinguishedName</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377052(v=VS.85).aspx">Decode</a>
+<a href="https://msdn.microsoft.com/52cc0595-b825-4bf3-805c-21afc468b91e">Decode</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a Unicode-encoded distinguished name.
@@ -211,7 +211,7 @@ Initializes the object from a Unicode-encoded distinguished name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377054(v=VS.85).aspx">Encode</a>
+<a href="https://msdn.microsoft.com/da0d4479-dc58-4719-886e-5ce610764305">Encode</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a string that contains a distinguished name.
@@ -230,7 +230,7 @@ Initializes the object from a string that contains a distinguished name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377053(v=VS.85).aspx">EncodedName</a>
+<a href="https://msdn.microsoft.com/c3b2966c-5149-462d-908b-f6eca6a0409d">EncodedName</a>
 
 
 </td>
@@ -242,7 +242,7 @@ Retrieves a Unicode-encoded distinguished name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377056(v=VS.85).aspx">Name</a>
+<a href="https://msdn.microsoft.com/1335c726-c16a-4a15-b231-8a3bd212f4ec">Name</a>
 
 
 </td>
@@ -259,15 +259,15 @@ Retrieves a distinguished name.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379351(v=VS.85).aspx">Subject Names</a>
+<a href="https://msdn.microsoft.com/6c35ce42-07be-4d47-a14e-ed5a361dbe33">Subject Names</a>
  
 
  

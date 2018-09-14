@@ -7,7 +7,7 @@ old-location: security\icertrequest2_getissuedcertificate.htm
 tech.root: seccrypto
 ms.assetid: ea7f6013-a55d-4a76-9c9e-df180ba9bb79
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CCertRequest object [Security],GetIssuedCertificate method, CR_DISP_DENIED, CR_DISP_ERROR, CR_DISP_INCOMPLETE, CR_DISP_ISSUED, CR_DISP_ISSUED_OUT_OF_BAND, CR_DISP_UNDER_SUBMISSION, GetIssuedCertificate, GetIssuedCertificate method [Security], GetIssuedCertificate method [Security],CCertRequest object, GetIssuedCertificate method [Security],ICertRequest interface, GetIssuedCertificate method [Security],ICertRequest2 interface, GetIssuedCertificate method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetIssuedCertificate method, ICertRequest2 interface [Security],GetIssuedCertificate method, ICertRequest2.GetIssuedCertificate, ICertRequest2::GetIssuedCertificate, ICertRequest3 interface [Security],GetIssuedCertificate method, ICertRequest3::GetIssuedCertificate, ICertRequest::GetIssuedCertificate, _certsrv_icertrequest2_getissuedcertificate, certcli/ICertRequest2::GetIssuedCertificate, certcli/ICertRequest3::GetIssuedCertificate, certcli/ICertRequest::GetIssuedCertificate, security.icertrequest2_getissuedcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ req.redist:
 
 The <b>GetIssuedCertificate</b> method retrieves a certificate's disposition by specifying either the request ID or the certificate serial number.
 
-This method is effectively  the same as calling <a href="https://msdn.microsoft.com/en-us/library/Aa385053(v=VS.85).aspx">ICertRequest3::RetrievePending</a>, with the additional capability of specifying a serial number for the certificate in question.
+This method is effectively  the same as calling <a href="https://msdn.microsoft.com/07a9ac57-f90e-4c5c-b563-8aebbcf8f42e">ICertRequest3::RetrievePending</a>, with the additional capability of specifying a serial number for the certificate in question.
 
 
 ## -parameters
@@ -65,15 +65,15 @@ This method is effectively  the same as calling <a href="https://msdn.microsoft.
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the Certificate Services server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.
+Represents a valid configuration string for the Certificate Services server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>An HTTPS URL is not supported as an input.
 
 
 ### -param RequestId [in]
 
-A <b>LONG</b> value that represents the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate request</a> ID in the Certificates Services database. Use –1 for this value if the serial number (passed in as <i>strSerialNumber</i>) is to be used instead of the request ID.
+A <b>LONG</b> value that represents the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a> ID in the Certificates Services database. Use –1 for this value if the serial number (passed in as <i>strSerialNumber</i>) is to be used instead of the request ID.
 
 
 ### -param strSerialNumber [in]
@@ -166,7 +166,7 @@ Request taken under submission.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is a <b>Long</b> that represents the certificate's disposition.

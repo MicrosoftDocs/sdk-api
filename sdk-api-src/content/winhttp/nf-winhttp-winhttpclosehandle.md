@@ -4,10 +4,10 @@ title: WinHttpCloseHandle function
 author: windows-sdk-content
 description: The WinHttpCloseHandle function closes a single HINTERNET handle.
 old-location: http\winhttpclosehandle.htm
-tech.root: WinHttp
+tech.root: winhttp
 ms.assetid: 78215141-dfe8-4f0a-ba1a-a63fa257db6f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/11/2018
 ms.keywords: WinHttpCloseHandle, WinHttpCloseHandle function [WinHTTP], http.winhttpclosehandle, winhttp.winhttpclosehandle, winhttp/WinHttpCloseHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,7 +151,7 @@ It might seem that the context data structure could then be freed immediately ra
 
 </li>
 </ul>
-An application should never <b>WinHttpCloseHandle</b> call  on a synchronous request. This can create a race condition. See <a href="https://msdn.microsoft.com/en-us/library/Aa383880(v=VS.85).aspx">HINTERNET Handles in WinHTTP</a> for more information.
+An application should never <b>WinHttpCloseHandle</b> call  on a synchronous request. This can create a race condition. See <a href="hinternet_handles_in_winhttp.htm">HINTERNET Handles in WinHTTP</a> for more information.
 
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
@@ -161,9 +161,13 @@ An application should never <b>WinHttpCloseHandle</b> call  on a synchronous req
 The following example shows you how to  retrieve the connection 
                 time-out value:
 
-
-```cpp
-    DWORD data;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    DWORD data;
     DWORD dwSize = sizeof(DWORD);
 
     // Use WinHttpOpen to obtain an HINTERNET handle.
@@ -178,7 +182,7 @@ The following example shows you how to  retrieve the connection
         // Use WinHttpQueryOption to retrieve internet options.
         if (WinHttpQueryOption( hSession, 
                                 WINHTTP_OPTION_CONNECT_TIMEOUT, 
-                                &data, &dwSize))
+                                &amp;data, &amp;dwSize))
         {
             printf("Connection timeout: %u ms\n\n",data);
         }
@@ -195,10 +199,10 @@ The following example shows you how to  retrieve the connection
     {
         printf("Error %u in WinHttpOpen.\n", GetLastError());
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

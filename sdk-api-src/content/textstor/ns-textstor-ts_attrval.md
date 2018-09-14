@@ -7,7 +7,7 @@ old-location: tsf\ts_attrval.htm
 tech.root: TSF
 ms.assetid: 9209ef60-6a1d-4aad-9f9f-775534116f37
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: TS_ATTRVAL, TS_ATTRVAL structure [Text Services Framework], _tsf_ts_attrval_ref, textstor/TS_ATTRVAL, tsf.ts_attrval
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ GUID for the attribute type.
 
 ### -field dwOverlapId
 
-A unique identifier of this attribute when overlapped with other attributes. This is a feature in <a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>. In TSF, this parameter value is zero (0). Any nonzero value is ignored.
+A unique identifier of this attribute when overlapped with other attributes. This is a feature in <a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a>. In TSF, this parameter value is zero (0). Any nonzero value is ignored.
 
 
 ### -field varValue
@@ -130,7 +130,7 @@ An application uses attributes to expose its data to TSF, whereas text services 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
+<a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a>
 
 
 

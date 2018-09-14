@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_setproxyport.htm
 tech.root: wmformat
 ms.assetid: e2f4e8ff-6ac8-45b5-af93-a278bf92a07a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyPort method, IWMReaderNetworkConfig.SetProxyPort, IWMReaderNetworkConfig::SetProxyPort, IWMReaderNetworkConfigSetProxyPort, SetProxyPort, SetProxyPort method [windows Media Format], SetProxyPort method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxyport, wmsdkidl/IWMReaderNetworkConfig::SetProxyPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

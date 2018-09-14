@@ -7,7 +7,7 @@ old-location: automat\variant_userfree.htm
 tech.root: automat
 ms.assetid: 0432892b-af22-43d1-be3c-a98af950f0a7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: VARIANT_UserFree, VARIANT_UserFree function [Automation], _oa96_VARIANT_UserFree, automat.variant_userfree, oaidl/VARIANT_UserFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

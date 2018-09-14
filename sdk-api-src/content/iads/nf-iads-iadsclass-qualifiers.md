@@ -7,7 +7,7 @@ old-location: adsi\iadsclass_qualifiers.htm
 tech.root: ADSI
 ms.assetid: d05e4278-2dfb-4832-a97d-eb35253ae535
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsClass interface [ADSI],Qualifiers method, IADsClass.Qualifiers, IADsClass::Qualifiers, Qualifiers, Qualifiers method [ADSI], Qualifiers method [ADSI],IADsClass interface, _ds_iadsclass_qualifiers, adsi.iadsclass__qualifiers, adsi.iadsclass_qualifiers, iads/IADsClass::Qualifiers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,9 +87,13 @@ This method is not currently supported by any of Microsoft providers.
 
 The following code example shows how to use this method.
 
-
-```vb
-Dim ads As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim ads As IADs
 Dim cls As IADsClass
 On Error GoTo Cleanup
 
@@ -103,15 +107,15 @@ For Each q In cls.Qualifiers
 Next
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set ads = Nothing
     Set cls = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

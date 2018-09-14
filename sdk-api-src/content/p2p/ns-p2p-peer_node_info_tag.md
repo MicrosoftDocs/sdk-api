@@ -7,7 +7,7 @@ old-location: p2p\peer_node_info.htm
 tech.root: p2psdk
 ms.assetid: 51cc6c27-91ca-4d02-95d6-207827450fd5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: "*PPEER_NODE_INFO, PEER_NODE_INFO, PEER_NODE_INFO structure [Peer Networking], PPEER_NODE_INFO, PPEER_NODE_INFO structure pointer [Peer Networking], p2p.peer_node_info, p2p/PPEER_NODE_INFO, p2p/peer_node_info_tag, peer_node_info_tag"
 ms.prod: windows
 ms.technology: windows-sdk

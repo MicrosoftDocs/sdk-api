@@ -4,10 +4,10 @@ title: LocalReAlloc function
 author: windows-sdk-content
 description: Changes the size or the attributes of a specified local memory object. The size can increase or decrease.
 old-location: base\localrealloc.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 88527ddd-e0c2-4a41-825e-d3a6df77fd2a
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: LMEM_MOVEABLE, LMEM_ZEROINIT, LocalReAlloc, LocalReAlloc function, _win32_localrealloc, base.localrealloc, winbase/LocalReAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

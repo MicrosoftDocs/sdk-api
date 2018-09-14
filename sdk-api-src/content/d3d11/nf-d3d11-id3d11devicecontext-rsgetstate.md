@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_rsgetstate.htm
 tech.root: direct3d11
 ms.assetid: bd1ade36-e57c-4776-ab59-ba8b59276369
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 7de5d766-760e-6053-6c62-f66f824404ea, ID3D11DeviceContext interface [Direct3D 11],RSGetState method, ID3D11DeviceContext.RSGetState, ID3D11DeviceContext::RSGetState, RSGetState, RSGetState method [Direct3D 11], RSGetState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::RSGetState, direct3d11.id3d11devicecontext_rsgetstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,9 +61,9 @@ Get the <a href="https://msdn.microsoft.com/53252fef-f557-46d1-b6a7-ccc8a059752a
 
 ### -param ppRasterizerState [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476580(v=VS.85).aspx">ID3D11RasterizerState</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/fbe6d2b9-375e-4390-9d34-36acef0a5aa2">ID3D11RasterizerState</a>**</b>
 
-Address of a pointer to a rasterizer-state interface (see <a href="https://msdn.microsoft.com/en-us/library/Ff476580(v=VS.85).aspx">ID3D11RasterizerState</a>) to fill with information from the device.
+Address of a pointer to a rasterizer-state interface (see <a href="https://msdn.microsoft.com/fbe6d2b9-375e-4390-9d34-36acef0a5aa2">ID3D11RasterizerState</a>) to fill with information from the device.
 
 
 ## -returns
@@ -89,7 +89,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

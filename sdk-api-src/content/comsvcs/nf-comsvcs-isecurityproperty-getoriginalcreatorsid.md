@@ -7,7 +7,7 @@ old-location: cos\isecurityproperty_getoriginalcreatorsid.htm
 tech.root: cossdk
 ms.assetid: 599b0773-feee-4e3d-a23b-cc2c294f49f9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetOriginalCreatorSID, GetOriginalCreatorSID method [COM+], GetOriginalCreatorSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetOriginalCreatorSID method, ISecurityProperty.GetOriginalCreatorSID, ISecurityProperty::GetOriginalCreatorSID, _cos_ISecurityProperty_GetOriginalCreatorSID, comsvcs/ISecurityProperty::GetOriginalCreatorSID, cos.isecurityproperty_getoriginalcreatorsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,11 +107,11 @@ The current object does not have a context associated with it because either the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684253(v=VS.85).aspx">IObjectContext</a>
+<a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678953(v=VS.85).aspx">ISecurityProperty</a>
+<a href="https://msdn.microsoft.com/116715a5-a3e1-48aa-b155-107ea330b7ee">ISecurityProperty</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: adsi\iadsnametranslate.htm
 tech.root: ADSI
 ms.assetid: 3d8baeb1-0edc-4648-8691-6ea4dcfd8f62
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsNameTranslate, IADsNameTranslate interface [ADSI], IADsNameTranslate interface [ADSI],described, NameTranslate, _ds_iadsnametranslate, adsi.iadsnametranslate, iads/IADsNameTranslate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ The following code example shows how to create an <b>IADsNameTranslate</b> objec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsNameTranslate</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsNameTranslate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsNameTranslate</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IADsNameTranslate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -186,7 +186,7 @@ Toggles referral chasing ON or OFF.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="_com_cocreateinstance">CoCreateInstance</a>
 
 
 
@@ -223,7 +223,7 @@ Toggles referral chasing ON or OFF.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

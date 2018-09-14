@@ -7,7 +7,7 @@ old-location: shell\ISharingConfigurationManager.htm
 tech.root: shell
 ms.assetid: 64bf628d-4e9b-42a8-a9cf-04d321645d9a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: ISharingConfigurationManager, ISharingConfigurationManager interface [Windows Shell], ISharingConfigurationManager interface [Windows Shell],described, _shell_ISharingConfigurationManager, shell.ISharingConfigurationManager, shobjidl_core/ISharingConfigurationManager
 ms.prod: windows
 ms.technology: windows-sdk

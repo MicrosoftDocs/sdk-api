@@ -4,10 +4,10 @@ title: MakeSelfRelativeSD function
 author: windows-sdk-content
 description: Creates a security descriptor in self-relative format by using a security descriptor in absolute format as a template.
 old-location: security\makeselfrelativesd.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 497c7e2f-75b7-41b9-9693-37e041b7af58
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MakeSelfRelativeSD, MakeSelfRelativeSD function [Security], _win32_makeselfrelativesd, security.makeselfrelativesd, securitybaseapi/MakeSelfRelativeSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,7 +137,7 @@ A server that copies secured objects to various media can use the <b>MakeSelfRel
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

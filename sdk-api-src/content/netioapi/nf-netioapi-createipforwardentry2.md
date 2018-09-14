@@ -4,10 +4,10 @@ title: CreateIpForwardEntry2 function
 author: windows-sdk-content
 description: Creates a new IP route entry on the local computer.
 old-location: iphlp\createipforwardentry2.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: d2d065d3-daad-4167-8b87-4229199ee76a
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: CreateIpForwardEntry2, CreateIpForwardEntry2 function [IP Helper], iphlp.createipforwardentry2, netioapi/CreateIpForwardEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icertadmin2_getcaproperty.htm
 tech.root: seccrypto
 ms.assetid: 8eaa2e36-4358-4abd-a7c2-2c9768766597
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CCertAdmin object [Security],GetCAProperty method, CR_PROP_ADVANCEDSERVER, CR_PROP_BASECRL, CR_PROP_BASECRLPUBLISHSTATUS, CR_PROP_CABACKWARDCROSSCERT, CR_PROP_CABACKWARDCROSSCERTSTATE, CR_PROP_CACERTSTATE, CR_PROP_CACERTSTATUSCODE, CR_PROP_CACERTVERSION, CR_PROP_CAFORWARDCROSSCERT, CR_PROP_CAFORWARDCROSSCERTSTATE, CR_PROP_CANAME, CR_PROP_CASIGCERT, CR_PROP_CASIGCERTCHAIN, CR_PROP_CASIGCERTCOUNT, CR_PROP_CASIGCERTCRLCHAIN, CR_PROP_CATYPE, CR_PROP_CAXCHGCERT, CR_PROP_CAXCHGCERTCHAIN, CR_PROP_CAXCHGCERTCOUNT, CR_PROP_CAXCHGCERTCRLCHAIN, CR_PROP_CERTAIAURLS, CR_PROP_CERTCDPURLS, CR_PROP_CRLSTATE, CR_PROP_DELTACRL, CR_PROP_DELTACRLPUBLISHSTATUS, CR_PROP_DNSNAME, CR_PROP_EXITCOUNT, CR_PROP_EXITDESCRIPTION, CR_PROP_FILEVERSION, CR_PROP_KRACERT, CR_PROP_KRACERTCOUNT, CR_PROP_KRACERTSTATE, CR_PROP_KRACERTUSEDCOUNT, CR_PROP_PARENTCA, CR_PROP_POLICYDESCRIPTION, CR_PROP_PRODUCTVERSION, CR_PROP_ROLESEPARATIONENABLED, CR_PROP_SANITIZEDCANAME, CR_PROP_SANITIZEDCASHORTNAME, CR_PROP_SHAREDFOLDER, CR_PROP_TEMPLATES, CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetCAProperty, GetCAProperty method [Security], GetCAProperty method [Security],CCertAdmin object, GetCAProperty method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetCAProperty method, ICertAdmin2.GetCAProperty, ICertAdmin2::GetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertadmin2_getcaproperty, certadm/ICertAdmin2::GetCAProperty, security.icertadmin2_getcaproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>GetCAProperty</b> method retrieves a property value for the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA). This method was first defined in the <a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a> interface.
+The <b>GetCAProperty</b> method retrieves a property value for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA). This method was first defined in the <a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a> interface.
 
 
 ## -parameters
@@ -62,9 +62,9 @@ The <b>GetCAProperty</b> method retrieves a property value for the <a href="http
 ### -param strConfig [in]
 
 Represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>GetCAProperty</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>GetCAProperty</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param PropId [in]
@@ -98,7 +98,7 @@ Specifies whether the CA is running Advanced Server.
 <td width="60%">
 Data type of the property: Binary, indexed
 
-The CA's full, or base, <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL).
+The CA's full, or base, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL).
 
 </td>
 </tr>
@@ -600,7 +600,7 @@ Value specifying whether role separation is enabled.
 <td width="60%">
 Data type of the property: String
 
-The sanitized name of the CA. For a definition of a sanitized CA name, see <a href="https://msdn.microsoft.com/en-us/library/Aa383274(v=VS.85).aspx">ICertConfig2::GetConfig</a>.
+The sanitized name of the CA. For a definition of a sanitized CA name, see <a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">ICertConfig2::GetConfig</a>.
 
 </td>
 </tr>
@@ -613,7 +613,7 @@ The sanitized name of the CA. For a definition of a sanitized CA name, see <a hr
 <td width="60%">
 Data type of the property: String
 
-The sanitized short name of the CA. For a definition of a sanitized CA short name, see <a href="https://msdn.microsoft.com/en-us/library/Aa383274(v=VS.85).aspx">ICertConfig2::GetConfig</a>.
+The sanitized short name of the CA. For a definition of a sanitized CA short name, see <a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">ICertConfig2::GetConfig</a>.
 
 </td>
 </tr>
@@ -697,7 +697,7 @@ Binary data
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">Unicode</a> string data
+<a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> string data
 
 </td>
 </tr>
@@ -707,7 +707,7 @@ Binary data
 
 ### -param Flags [in]
 
-The following flags can be used to specify the format of the returned property value; these flags have meaning only for binary data (such as certificates, certificate chains or <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation lists</a>) and is ignored otherwise.
+The following flags can be used to specify the format of the returned property value; these flags have meaning only for binary data (such as certificates, certificate chains or <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation lists</a>) and is ignored otherwise.
 
 <table>
 <tr>
@@ -810,7 +810,7 @@ Hexadecimal string with ASCII and address/offset
 
 ### -param pvarPropertyValue [out]
 
-A pointer to a buffer that receives the requested property value. It is a caller's responsibility to free this resource when done by calling <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>.
+A pointer to a buffer that receives the requested property value. It is a caller's responsibility to free this resource when done by calling <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.
 
 
 ## -returns
@@ -888,34 +888,38 @@ The following values are returned when the property identifier is CR_PROP_BASECR
 </table>
  
 
-For an example of retrieving a CRL, see <a href="https://msdn.microsoft.com/en-us/library/Aa387676(v=VS.85).aspx">Retrieving a Certificate Revocation List</a>.
+For an example of retrieving a CRL, see <a href="https://msdn.microsoft.com/b8fbffae-d968-453d-81f0-af9d60be5fa9">Retrieving a Certificate Revocation List</a>.
 
 
 #### Examples
 
-The following example shows retrieving the signature certificate of the CA. The  example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin2</a> interface pointer is valid.
+The following example shows retrieving the signature certificate of the CA. The  example assumes the <a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin2</a> interface pointer is valid.
 
-
-```cpp
-BSTR bstrCA = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR bstrCA = NULL;
 VARIANT var1;
 HRESULT hr;
 
-bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
+bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
 if (NULL == bstrCA)
 {
     printf("Failed to allocate memory for bstrCA\n");
     exit(1);
 }
 
-VariantInit(&var1);
+VariantInit(&amp;var1);
 // Retrieve the CA signature certificate at index 0.
-hr = pAdmin2->GetCAProperty(bstrCA,
+hr = pAdmin2-&gt;GetCAProperty(bstrCA,
                                 CR_PROP_CASIGCERT,
                                 0,
                                 PROPTYPE_BINARY,
                                 CV_OUT_BASE64HEADER,
-                                &var1);
+                                &amp;var1);
 if (FAILED(hr))
 {
     printf("Failed GetCAProperty\n");
@@ -927,10 +931,10 @@ if (FAILED(hr))
 // ...
 
 // Clear the variant when finished.
-VariantClear(&var1);
-SysFreeString(bstrCA);
-```
-
-
+VariantClear(&amp;var1);
+SysFreeString(bstrCA);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

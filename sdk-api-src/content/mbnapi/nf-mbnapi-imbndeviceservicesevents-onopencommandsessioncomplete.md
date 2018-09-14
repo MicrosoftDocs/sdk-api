@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicesevents_onopencommandsessioncomplete.htm
 tech.root: mbn
 ms.assetid: DE8F8AB7-62DE-47B1-A8E2-E24DFC63892E
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnOpenCommandSessionComplete method, IMbnDeviceServicesEvents.OnOpenCommandSessionComplete, IMbnDeviceServicesEvents::OnOpenCommandSessionComplete, OnOpenCommandSessionComplete, OnOpenCommandSessionComplete method [Microsoft Broadband Networks], OnOpenCommandSessionComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onopencommandsessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnOpenCommandSessionComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Notification method indicating that a device service <b>CommandSessionOpen</b> r
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object on which the <b>CommandSessionOpen</b> was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object on which the <b>CommandSessionOpen</b> was requested.
 
 
 ### -param status [in]

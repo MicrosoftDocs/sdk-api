@@ -7,7 +7,7 @@ old-location: tablet\inkclipboardformats.htm
 tech.root: tablet
 ms.assetid: bedee31c-d957-4162-83d9-f1c8df9428cd
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: ICF_Bitmap, ICF_CopyMask, ICF_Default, ICF_EnhancedMetafile, ICF_InkSerializedFormat, ICF_Metafile, ICF_None, ICF_PasteMask, ICF_SketchInk, ICF_TextInk, InkClipboardFormatFlags, InkClipboardFormatFlags enumeration [Tablet PC], InkClipboardFormats, InkClipboardFormats enumeration [Tablet PC], bedee31c-d957-4162-83d9-f1c8df9428cd, msinkaut/ICF_Bitmap, msinkaut/ICF_CopyMask, msinkaut/ICF_Default, msinkaut/ICF_EnhancedMetafile, msinkaut/ICF_InkSerializedFormat, msinkaut/ICF_Metafile, msinkaut/ICF_None, msinkaut/ICF_PasteMask, msinkaut/ICF_SketchInk, msinkaut/ICF_TextInk, msinkaut/InkClipboardFormats, tablet.inkclipboardformats
 ms.prod: windows
 ms.technology: windows-sdk

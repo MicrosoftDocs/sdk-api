@@ -7,7 +7,7 @@ old-location: mf\imfvideomixerbitmap_setalphabitmap.htm
 tech.root: medfound
 ms.assetid: a70e6734-bf49-4dea-8bf6-917b8465cc78
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IMFVideoMixerBitmap interface [Media Foundation],SetAlphaBitmap method, IMFVideoMixerBitmap.SetAlphaBitmap, IMFVideoMixerBitmap::SetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [Media Foundation], SetAlphaBitmap method [Media Foundation],IMFVideoMixerBitmap interface, a70e6734-bf49-4dea-8bf6-917b8465cc78, evr9/IMFVideoMixerBitmap::SetAlphaBitmap, mf.imfvideomixerbitmap_setalphabitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,16 +121,20 @@ There is no defined limit to how frequently you can pass images to the video ren
 
 The following example sets a GDI bitmap for alpha blending. For purposes of the example, it uses predefined settings for the destination rectangle and alpha value.
 
-
-```
-HRESULT EVRPlayer::SetBitmapImage(BOOL bEnable, HBITMAP hBitmap)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT EVRPlayer::SetBitmapImage(BOOL bEnable, HBITMAP hBitmap)
 {
     const float fBitmapAlpha = 0.5f; 
 
     HRESULT hr = S_OK;
 
     // To enable the bitmap, you must supply a valid bitmap handle.
-    if (bEnable && (hBitmap == NULL))
+    if (bEnable &amp;&amp; (hBitmap == NULL))
     {
         return E_INVALIDARG;
     }
@@ -149,13 +153,13 @@ HRESULT EVRPlayer::SetBitmapImage(BOOL bEnable, HBITMAP hBitmap)
         // Get the device context for the video window.
         HDC hdc = GetDC(m_hwndVideo);
 
-        // Create a compatible DC and select the bitmap into the DC>
+        // Create a compatible DC and select the bitmap into the DC&gt;
         HDC hdcBmp = CreateCompatibleDC(hdc);
         HBITMAP hOld = (HBITMAP)SelectObject(hdcBmp, hBitmap);
 
         // Fill in the blending parameters.
         MFVideoAlphaBitmap bmpInfo;
-        ZeroMemory(&bmpInfo, sizeof(bmpInfo));
+        ZeroMemory(&amp;bmpInfo, sizeof(bmpInfo));
         bmpInfo.GetBitmapFromDC = TRUE; // Use a bitmap DC (not a Direct3D surface).
         bmpInfo.bitmap.hdc = hdcBmp;
         bmpInfo.params.dwFlags = 
@@ -165,13 +169,13 @@ HRESULT EVRPlayer::SetBitmapImage(BOOL bEnable, HBITMAP hBitmap)
 
         // Get the bitmap dimensions.
         BITMAP bm;
-        GetObject(hBitmap, sizeof(BITMAP), &bm);
+        GetObject(hBitmap, sizeof(BITMAP), &amp;bm);
 
         // Set the source rectangle equal to the entire bitmap.
-        SetRect(&bmpInfo.params.rcSrc, 0, 0, bm.bmWidth, bm.bmHeight);
+        SetRect(&amp;bmpInfo.params.rcSrc, 0, 0, bm.bmWidth, bm.bmHeight);
 
         // Set the bitmap.
-        hr = m_pMixerBitmap->SetAlphaBitmap(&bmpInfo);
+        hr = m_pMixerBitmap-&gt;SetAlphaBitmap(&amp;bmpInfo);
 
         SelectObject(hdcBmp, hOld);
         DeleteDC(hdcBmp);
@@ -179,13 +183,13 @@ HRESULT EVRPlayer::SetBitmapImage(BOOL bEnable, HBITMAP hBitmap)
     }
     else
     {
-        hr = m_pMixerBitmap->ClearAlphaBitmap();
+        hr = m_pMixerBitmap-&gt;ClearAlphaBitmap();
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

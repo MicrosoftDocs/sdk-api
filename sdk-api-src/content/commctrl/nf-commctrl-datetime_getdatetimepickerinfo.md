@@ -4,10 +4,10 @@ title: DateTime_GetDateTimePickerInfo macro
 author: windows-sdk-content
 description: Gets information for a specified date and time picker (DTP) control.
 old-location: controls\DateTime_GetDateTimePickerInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getdatetimepickerinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: DateTime_GetDateTimePickerInfo, DateTime_GetDateTimePickerInfo macro [Windows Controls], _shell_DateTime_GetDateTimePickerInfo, _shell_DateTime_GetDateTimePickerInfo_cpp, commctrl/DateTime_GetDateTimePickerInfo, controls.DateTime_GetDateTimePickerInfo, controls._shell_DateTime_GetDateTimePickerInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,14 @@ Gets information for a specified date and time picker (DTP) control.
 
 ### -param hdp [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the DTP control.
 
 
 ### -param pdtpi [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761729(v=VS.85).aspx">DATETIMEPICKERINFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/59180380-c6f6-46f4-8770-39cd42574b62">DATETIMEPICKERINFO</a>*</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761729(v=VS.85).aspx">DATETIMEPICKERINFO</a>
+<a href="https://msdn.microsoft.com/59180380-c6f6-46f4-8770-39cd42574b62">DATETIMEPICKERINFO</a>
 <b>cbSize</b>

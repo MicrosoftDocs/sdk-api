@@ -7,7 +7,7 @@ old-location: appxpkg\appx_encrypted_package_options.htm
 tech.root: appxpkg
 ms.assetid: BEF0AA21-AC0F-4DA5-BA5C-404E54B67953
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: APPX_ENCRYPTED_PACKAGE_OPTIONS, APPX_ENCRYPTED_PACKAGE_OPTIONS enumeration [App packaging and management], APPX_ENCRYPTED_PACKAGE_OPTION_DIFFUSION, APPX_ENCRYPTED_PACKAGE_OPTION_NONE, APPX_ENCRYPTED_PACKAGE_OPTION_PAGE_HASHING, appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTIONS, appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTION_DIFFUSION, appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTION_NONE, appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTION_PAGE_HASHING, appxpkg.appx_encrypted_package_options
 ms.prod: windows
 ms.technology: windows-sdk

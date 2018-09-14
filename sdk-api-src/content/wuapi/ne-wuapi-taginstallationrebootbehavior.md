@@ -4,10 +4,10 @@ title: tagInstallationRebootBehavior
 author: windows-sdk-content
 description: Defines the possible restart behaviors for an update.
 old-location: wua\installationrebootbehavior.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 28c5179a-bdfa-40ca-9cf2-239a9fbf5856
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: InstallationRebootBehavior, InstallationRebootBehavior [Windows Update Services], InstallationRebootBehavior enumeration [Windows Update Agent], irbAlwaysRequiresReboot, irbCanRequestReboot, irbNeverReboots, tagInstallationRebootBehavior, wua.installationrebootbehavior, wuapi/InstallationRebootBehavior, wuapi/irbAlwaysRequiresReboot, wuapi/irbCanRequestReboot, wuapi/irbNeverReboots
 ms.prod: windows
 ms.technology: windows-sdk

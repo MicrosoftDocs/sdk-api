@@ -7,7 +7,7 @@ old-location: base\waitcommevent.htm
 tech.root: devio
 ms.assetid: 79e955c0-8756-4d6f-bce6-49e8e44d0d3f
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: EV_BREAK, EV_CTS, EV_DSR, EV_ERR, EV_RING, EV_RLSD, EV_RXCHAR, EV_RXFLAG, EV_TXEMPTY, WaitCommEvent, WaitCommEvent function, _win32_waitcommevent, base.waitcommevent, winbase/WaitCommEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Waits for an event to occur for a specified communications device. The set of ev
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
+<a href="base.createfile">CreateFile</a> function returns this handle.
 
 
 ### -param lpEvtMask [out]
@@ -255,7 +255,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

@@ -4,10 +4,10 @@ title: NdfCreateSharingIncident function
 author: windows-sdk-content
 description: Diagnoses network problems in accessing a specific network share.
 old-location: ndf\ndfcreatesharingincident.htm
-tech.root: ndf
+tech.root: NDF
 ms.assetid: 6a5e3c3b-7c2b-4de3-89e4-ef330b894320
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdfCreateSharingIncident, NdfCreateSharingIncident function [NDF], ndf.ndfcreatesharingincident, ndfapi/NdfCreateSharingIncident
 ms.prod: windows-hardware
 ms.technology: windows-devices

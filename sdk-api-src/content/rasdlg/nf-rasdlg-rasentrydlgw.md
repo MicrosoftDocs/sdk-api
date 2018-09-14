@@ -4,10 +4,10 @@ title: RasEntryDlgW function
 author: windows-sdk-content
 description: The RasEntryDlg function displays modal property sheets that allow a user to manipulate phone-book entries.
 old-location: rras\rasentrydlg.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 9259502d-c31b-4ebd-ace7-70f02bbb7873
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: RasEntryDlg, RasEntryDlg function [RAS], RasEntryDlgA, RasEntryDlgW, _ras_rasentrydlg, rasdlg/RasEntryDlg, rasdlg/RasEntryDlgA, rasdlg/RasEntryDlgW, rras.rasentrydlg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,13 +113,17 @@ The
 
 The following sample code brings up a property sheet to create a new entry. The <i>lpszEntry</i> variable specifies the default name for the new entry.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 #include "ras.h"
 #include "rasdlg.h"
-#include <tchar.h>
+#include &lt;tchar.h&gt;
 
 DWORD __cdecl wmain(){
 
@@ -134,18 +138,18 @@ DWORD __cdecl wmain(){
         return 0;
     }
     
-    // The RASENTRYDLG->dwSize member has to be initialized or the RRAS APIs will fail below.
-    lpEntry->dwSize = sizeof(RASENTRYDLG);
-    lpEntry->dwFlags |= RASEDFLAG_NewEntry;
+    // The RASENTRYDLG-&gt;dwSize member has to be initialized or the RRAS APIs will fail below.
+    lpEntry-&gt;dwSize = sizeof(RASENTRYDLG);
+    lpEntry-&gt;dwFlags |= RASEDFLAG_NewEntry;
 
     // Create the new entry using a user dialog
     nRet = RasEntryDlg(NULL, lpszEntry, lpEntry);
 
     // Any error codes are returned in lpEntry
-    dwRet = lpEntry->dwError;
+    dwRet = lpEntry-&gt;dwError;
     
     if (nRet == TRUE) {
-        wprintf(L"New entry created: %s\n", lpEntry->szEntry);
+        wprintf(L"New entry created: %s\n", lpEntry-&gt;szEntry);
 
         // Clean up: delete the new entry
         dwRet = RasDeleteEntry(NULL, lpszEntry);
@@ -166,10 +170,10 @@ DWORD __cdecl wmain(){
     HeapFree(GetProcessHeap(), 0, lpEntry);
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

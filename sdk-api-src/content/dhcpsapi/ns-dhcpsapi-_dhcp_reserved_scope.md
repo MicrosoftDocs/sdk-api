@@ -4,10 +4,10 @@ title: "_DHCP_RESERVED_SCOPE"
 author: windows-sdk-content
 description: The DHCP_RESERVED_SCOPE structure defines a reserved DHCP scope.
 old-location: dhcp\dhcp_reserved_scope.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: e3b8bcc1-9cdc-499f-840a-3545ec9b46f7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPDHCP_RESERVED_SCOPE, DHCP_RESERVED_SCOPE, DHCP_RESERVED_SCOPE structure [DHCP], LPDHCP_RESERVED_SCOPE, LPDHCP_RESERVED_SCOPE structure pointer [DHCP], _DHCP_RESERVED_SCOPE, dhcp.dhcp_reserved_scope, dhcpsapi/LPDHCP_RESERVED_SCOPE, dhcpsapi/_DHCP_RESERVED_SCOPE"
 ms.prod: windows
 ms.technology: windows-sdk

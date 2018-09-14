@@ -4,10 +4,10 @@ title: ID2D1BitmapBrush1
 author: windows-sdk-content
 description: Paints an area with a bitmap.
 old-location: direct2d\id2d1bitmapbrush1.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5EF60CF5-DB7E-4453-80A2-F248A82A37E3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID2D1BitmapBrush1, ID2D1BitmapBrush1 interface [Direct2D], ID2D1BitmapBrush1 interface [Direct2D],described, d2d1_1/ID2D1BitmapBrush1, direct2d.id2d1bitmapbrush1
 ms.prod: windows
 ms.technology: windows-sdk

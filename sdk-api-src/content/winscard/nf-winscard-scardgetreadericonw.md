@@ -4,10 +4,10 @@ title: SCardGetReaderIconW function
 author: windows-sdk-content
 description: Gets an icon of the smart card reader for a given reader's name.
 old-location: security\scardgetreadericon.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: A83B5AF3-BF2C-42AE-9D34-3B651D7AF047
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: SCardGetReaderIcon, SCardGetReaderIcon function [Security], SCardGetReaderIconA, SCardGetReaderIconW, security.scardgetreadericon, winscard/SCardGetReaderIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,7 +108,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -127,9 +127,13 @@ The icon should be 256 × 256 pixels with no alpha channel.
 
 #### Examples
 
-
-```cpp
-PBYTE    pbIcon = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PBYTE    pbIcon = NULL;
 DWORD    cbIcon = SCARD_AUTOALLOCATE;
 DWORD    i;
 LONG     lReturn;
@@ -139,8 +143,8 @@ LPTSTR   szReaderName = "USB Smart Card Reader 0";
 // hContext was set by a previous call to SCardEstablishContext.
 lReturn = SCardGetReaderIcon(hContext,
                          szReaderName,
-                         (PBYTE)&pbIcon,
-                         &cbIcon);
+                         (PBYTE)&amp;pbIcon,
+                         &amp;cbIcon);
 
 if ( SCARD_S_SUCCESS != lReturn )
 {
@@ -152,9 +156,9 @@ else
     // Free the memory when done. 
     lReturn = SCardFreeMemory(hContext, pbIcon);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

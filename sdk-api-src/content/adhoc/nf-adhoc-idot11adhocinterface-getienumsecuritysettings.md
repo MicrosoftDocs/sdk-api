@@ -4,10 +4,10 @@ title: IDot11AdHocInterface::GetIEnumSecuritySettings
 author: windows-sdk-content
 description: Gets the collection of security settings associated with this NIC.
 old-location: nwifi\idot11adhocinterface_getienumsecuritysettings.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: e5f98222-83aa-4ba9-adc7-e7b67eb5dc0d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetIEnumSecuritySettings, GetIEnumSecuritySettings method [NativeWIFI], GetIEnumSecuritySettings method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetIEnumSecuritySettings method, IDot11AdHocInterface.GetIEnumSecuritySettings, IDot11AdHocInterface::GetIEnumSecuritySettings, adhoc/IDot11AdHocInterface::GetIEnumSecuritySettings, nwifi.idot11adhocinterface_getienumsecuritysettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

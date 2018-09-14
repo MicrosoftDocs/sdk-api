@@ -7,7 +7,7 @@ old-location: iscsidisc\setiscsiinitiatorchapsharedsecret.htm
 tech.root: iSCSIDisc
 ms.assetid: 9b7172a5-3a6e-49ae-8f22-77b088eb1048
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SetIScsiInitiatorCHAPSharedSecret, SetIscsiInitiatorCHAPSharedSecret, SetIscsiInitiatorCHAPSharedSecret function [iSCSI Discovery Library API], iscsidisc.setiscsiinitiatorchapsharedsecret, iscsidsc/SetIscsiInitiatorCHAPSharedSecret
 ms.prod: windows-hardware
 ms.technology: windows-devices

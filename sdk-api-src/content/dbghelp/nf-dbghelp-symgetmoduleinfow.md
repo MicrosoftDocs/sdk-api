@@ -4,10 +4,10 @@ title: SymGetModuleInfoW function
 author: windows-sdk-content
 description: Retrieves the module information of the specified module.
 old-location: base\symgetmoduleinfo64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: e8057cb5-3331-4460-b07c-4338a57024be
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: SymGetModuleInfo, SymGetModuleInfo function, SymGetModuleInfo64, SymGetModuleInfo64 function, SymGetModuleInfoW, SymGetModuleInfoW64, _win32_symgetmoduleinfo64, base.symgetmoduleinfo64, dbghelp/SymGetModuleInfo, dbghelp/SymGetModuleInfo64, dbghelp/SymGetModuleInfoW, dbghelp/SymGetModuleInfoW64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,9 +112,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 To call the Unicode version of this function, define <b>DBGHELP_TRANSLATE_TCHAR</b>. <b>SymGetModuleInfoW64</b> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 BOOL
 IMAGEAPI
 SymGetModuleInfoW64(
@@ -125,16 +129,20 @@ SymGetModuleInfoW64(
 
 #ifdef DBGHELP_TRANSLATE_TCHAR
 #define SymGetModuleInfo64   SymGetModuleInfoW64
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 This function supersedes the <b>SymGetModuleInfo</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymGetModuleInfo</b> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymGetModuleInfo   SymGetModuleInfo64
 #define SymGetModuleInfoW  SymGetModuleInfoW64
 #else
@@ -153,10 +161,10 @@ SymGetModuleInfoW(
     __in DWORD dwAddr,
     __out PIMAGEHLP_MODULEW ModuleInfo
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

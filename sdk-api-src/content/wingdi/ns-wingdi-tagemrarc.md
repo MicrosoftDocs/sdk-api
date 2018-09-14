@@ -7,7 +7,7 @@ old-location: gdi\emrarc__emrarcto__emrchord__emrpie.htm
 tech.root: gdi
 ms.assetid: f249b396-bf71-401b-b972-317d551fc9aa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*PEMRARC, *PEMRARCTO, *PEMRCHORD, *PEMRPIE, EMRARC, EMRARC structure [Windows GDI], EMRARC,EMRARCTO,EMRCHORD,EMRPIE, EMRARC,EMRARCTO,EMRCHORD,EMRPIE structure [Windows GDI], EMRARCTO, EMRARCTO structure [Windows GDI], EMRCHORD, EMRCHORD structure [Windows GDI], EMRPIE, EMRPIE structure [Windows GDI], PEMRARC, PEMRARC structure pointer [Windows GDI], PEMRARCTO, PEMRARCTO structure pointer [Windows GDI], PEMRCHORD, PEMRCHORD structure pointer [Windows GDI], PEMRPIE, PEMRPIE structure pointer [Windows GDI], _win32_EMRARC_str, gdi.emrarc__emrarcto__emrchord__emrpie, tagEMRARC, wingdi/EMRARC,EMRARCTO,EMRCHORD,EMRPIE, wingdi/EMRARCTO, wingdi/EMRCHORD, wingdi/EMRPIE, wingdi/PEMRARC, wingdi/PEMRARCTO, wingdi/PEMRCHORD, wingdi/PEMRPIE"
 ms.prod: windows
 ms.technology: windows-sdk

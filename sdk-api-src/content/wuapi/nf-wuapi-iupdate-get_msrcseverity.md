@@ -4,10 +4,10 @@ title: IUpdate::get_MsrcSeverity
 author: windows-sdk-content
 description: Gets the Microsoft Security Response Center severity rating of the update.
 old-location: wua\iupdate_msrcseverity.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ed3187c5-e175-4287-b930-2c283c9e93f3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IUpdate interface [Windows Update Agent],MsrcSeverity property, IUpdate.MsrcSeverity, IUpdate.get_MsrcSeverity, IUpdate::MsrcSeverity, IUpdate::get_MsrcSeverity, MsrcSeverity property [Windows Update Agent], MsrcSeverity property [Windows Update Agent],IUpdate interface, get_MsrcSeverity, wua.iupdate_msrcseverity, wuapi/IUpdate::MsrcSeverity, wuapi/IUpdate::get_MsrcSeverity
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IESEventServiceConfiguration::SetGraph
 author: windows-sdk-content
 description: Attaches an event service that implements the IESEventService interface to a filter graph. This method allows the processing of events that support the IESEvent interface from devices in the graph.
 old-location: mstv\ieseventserviceconfiguration_setgraph.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 0aee92b4-740a-4c5a-a64e-9de08d1c35c2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],SetGraph method, IESEventServiceConfiguration.SetGraph, IESEventServiceConfiguration::SetGraph, SetGraph, SetGraph method [Microsoft TV Technologies], SetGraph method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_setgraph, tuner/IESEventServiceConfiguration::SetGraph
 ms.prod: windows-hardware
 ms.technology: windows-devices

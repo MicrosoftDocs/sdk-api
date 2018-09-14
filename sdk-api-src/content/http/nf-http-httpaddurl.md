@@ -4,10 +4,10 @@ title: HttpAddUrl function
 author: windows-sdk-content
 description: Registers a given URL so that requests that match it are routed to a specified HTTP Server API request queue.
 old-location: http\httpaddurl.htm
-tech.root: http
+tech.root: Http
 ms.assetid: 76b228a0-6792-4184-bf0e-8638f3ab6b98
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HttpAddUrl, HttpAddUrl function [HTTP], _http_httpaddurl, http.httpaddurl, http/HttpAddUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

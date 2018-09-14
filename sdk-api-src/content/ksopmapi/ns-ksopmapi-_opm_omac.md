@@ -7,7 +7,7 @@ old-location: mf\opm_omac.htm
 tech.root: medfound
 ms.assetid: 6ff37a2a-9e63-4097-8ee6-bcc4bd580ab8
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: OPM_OMAC, OPM_OMAC structure [Media Foundation], _OPM_OMAC, ksopmapi/OPM_OMAC, mf.opm_omac
 ms.prod: windows
 ms.technology: windows-sdk

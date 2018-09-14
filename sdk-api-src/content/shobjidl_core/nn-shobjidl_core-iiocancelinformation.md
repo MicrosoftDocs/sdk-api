@@ -7,7 +7,7 @@ old-location: shell\IIOCancelInformation.htm
 tech.root: shell
 ms.assetid: fb030100-b0e8-497c-b9e1-338599aa3b0f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: IIOCancelInformation, IIOCancelInformation interface [Windows Shell], IIOCancelInformation interface [Windows Shell],described, _shell_IIOCancelInformation, shell.IIOCancelInformation, shobjidl_core/IIOCancelInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,9 +54,9 @@ Exposes methods for posting a cancel window message to the process thread from t
 
 
 
-This interface enables the progress dialog to post a thread message through <a href="https://msdn.microsoft.com/en-us/library/ms644946(v=VS.85).aspx">PostThreadMessage</a> to the worker thread to cancel its operations. The worker thread must periodically check the message queue through <a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>, <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> or <a href="https://msdn.microsoft.com/1774b721-3ad4-492e-96af-b71de9066f0c">MsgWaitForMultipleObjectsEx</a>.
+This interface enables the progress dialog to post a thread message through <a href="https://msdn.microsoft.com/c418cb0e-1b9f-4ca8-8b02-e6901f7744a6">PostThreadMessage</a> to the worker thread to cancel its operations. The worker thread must periodically check the message queue through <a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a>, <a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a> or <a href="https://msdn.microsoft.com/1774b721-3ad4-492e-96af-b71de9066f0c">MsgWaitForMultipleObjectsEx</a>.
 
-The <a href="https://msdn.microsoft.com/ed7a2a43-8944-4e17-af0a-d64f0cb493e6">IIOCancelInformation::SetCancelInformation</a> method tells the progress dialog which thread ID and what message to <a href="https://msdn.microsoft.com/en-us/library/ms644946(v=VS.85).aspx">PostThreadMessage</a> when the user clicks <b>Cancel</b>. A thread ID of "zero" disables the sending operation for the cancel message.
+The <a href="https://msdn.microsoft.com/ed7a2a43-8944-4e17-af0a-d64f0cb493e6">IIOCancelInformation::SetCancelInformation</a> method tells the progress dialog which thread ID and what message to <a href="https://msdn.microsoft.com/c418cb0e-1b9f-4ca8-8b02-e6901f7744a6">PostThreadMessage</a> when the user clicks <b>Cancel</b>. A thread ID of "zero" disables the sending operation for the cancel message.
 
 
 ## -inheritance

@@ -4,10 +4,10 @@ title: IISDB_BIT::GetOriginalNetworkId
 author: windows-sdk-content
 description: Gets an identifier that identifies the broadcaster that originated the MPEG-2 transport stream from an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getoriginalnetworkid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: eb10f0a9-d673-46eb-bde1-3f22c518b05d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IISDB_BIT.GetOriginalNetworkId, IISDB_BIT::GetOriginalNetworkId, dvbsiparser/IISDB_BIT::GetOriginalNetworkId, mstv.iisdb_bit_getoriginalnetworkid
 ms.prod: windows-hardware
 ms.technology: windows-devices

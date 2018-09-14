@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_RefreshPropertySchema.htm
 tech.root: properties
 ms.assetid: 9aa0c678-5139-42a4-ac71-deb39dae4129
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: IPropertySystem interface [Windows Properties],RefreshPropertySchema method, IPropertySystem.RefreshPropertySchema, IPropertySystem::RefreshPropertySchema, RefreshPropertySchema, RefreshPropertySchema method [Windows Properties], RefreshPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_RefreshPropertySchema, propsys/IPropertySystem::RefreshPropertySchema, shell.IPropertySystem_RefreshPropertySchema, shell_IPropertySystem_RefreshPropertySchema
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,7 @@ Indicates calling context does not have proper privileges.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_GetCatalog.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getcatalog.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: GetCatalog, GetCatalog method [search], GetCatalog method [search],ISearchManager interface, ISearchManager interface [search],GetCatalog method, ISearchManager.GetCatalog, ISearchManager::GetCatalog, _search_ISearchManager_GetCatalog, search._search_ISearchManager_GetCatalog, searchapi/ISearchManager::GetCatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Retrieves a catalog by name and creates a new <a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> object for that catalog.
+Retrieves a catalog by name and creates a new <a href="https://msdn.microsoft.com/098e0574-53af-4b52-99e7-659f98b914ae">ISearchCatalogManager</a> object for that catalog.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ The name of the catalog to be retrieved.
 
 ### -param ppCatalogManager [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/098e0574-53af-4b52-99e7-659f98b914ae">ISearchCatalogManager</a>**</b>
 
-Receives the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> object that is named in <i>pszCatalog</i>.
+Receives the address of a pointer to the <a href="https://msdn.microsoft.com/098e0574-53af-4b52-99e7-659f98b914ae">ISearchCatalogManager</a> object that is named in <i>pszCatalog</i>.
                 
 
 

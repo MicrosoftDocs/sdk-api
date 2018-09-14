@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_AddDefaultScopeRule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\adddefaultscoperule.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: AddDefaultScopeRule, AddDefaultScopeRule method [search], AddDefaultScopeRule method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],AddDefaultScopeRule method, ISearchCrawlScopeManager.AddDefaultScopeRule, ISearchCrawlScopeManager::AddDefaultScopeRule, _search_ISearchCrawlScopeManager_AddDefaultScopeRule, search._search_ISearchCrawlScopeManager_AddDefaultScopeRule, searchapi/ISearchCrawlScopeManager::AddDefaultScopeRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ Type: <b>BOOL</b>
 
 Type: <b>DWORD</b>
 
-Sets the <a href="https://msdn.microsoft.com/en-us/library/Aa965693(v=VS.85).aspx">FOLLOW_FLAGS</a> to specify whether to follow complex URLs and whether a URL is to be indexed or just followed.
+Sets the <a href="https://msdn.microsoft.com/5890ffd2-5dbf-458b-9f40-d1df45648702">FOLLOW_FLAGS</a> to specify whether to follow complex URLs and whether a URL is to be indexed or just followed.
 
 
 #### - pszUrl [in]

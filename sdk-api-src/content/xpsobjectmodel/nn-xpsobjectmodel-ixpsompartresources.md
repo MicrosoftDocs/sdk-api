@@ -7,7 +7,7 @@ old-location: xps\ixpsompartresources.htm
 tech.root: printdocs
 ms.assetid: 9f706f23-25a0-40ee-93f4-3d7ac98ad6ed
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IXpsOMPartResources, IXpsOMPartResources interface [XPS Documents and Packaging], IXpsOMPartResources interface [XPS Documents and Packaging],described, xps.ixpsompartresources, xpsobjectmodel/IXpsOMPartResources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,9 +117,13 @@ Gets the  <a href="https://msdn.microsoft.com/50c9bd7a-226f-4785-96b4-d0b5e861ae
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMPartResources    *newInterface;
 
 // Note the implicit requirement that CoInitializeEx 
@@ -130,29 +134,29 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreatePartResources (&newInterface);
+    hr = xpsFactory-&gt;CreatePartResources (&amp;newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface->Release();
+        newInterface-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

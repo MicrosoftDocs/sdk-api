@@ -4,10 +4,10 @@ title: FWP_NE_FAMILY_
 author: windows-sdk-content
 description: The FWP_AF enumerated type.
 old-location: fwp\fwp_af.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 358305a6-e0a6-4d01-92be-fd88b3bd32a0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FWP_AF, FWP_AF enumeration [Filtering], FWP_AF_ETHER, FWP_AF_INET, FWP_AF_INET6, FWP_AF_NONE, FWP_NE_FAMILY_, fwp.fwp_af, fwptypes/FWP_AF, fwptypes/FWP_AF_ETHER, fwptypes/FWP_AF_INET, fwptypes/FWP_AF_INET6, fwptypes/FWP_AF_NONE
 ms.prod: windows
 ms.technology: windows-sdk

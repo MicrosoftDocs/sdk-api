@@ -7,7 +7,7 @@ old-location: tsf\itfintegratablecandidatelistuielement_getselectionstyle.htm
 tech.root: TSF
 ms.assetid: D51E27FE-503E-459C-92F1-1826762A5188
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetSelectionStyle, GetSelectionStyle method [Text Services Framework], GetSelectionStyle method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ITfIntegratableCandidateListUIElement interface [Text Services Framework],GetSelectionStyle method, ITfIntegratableCandidateListUIElement.GetSelectionStyle, ITfIntegratableCandidateListUIElement::GetSelectionStyle, ctffunc/ITfIntegratableCandidateListUIElement::GetSelectionStyle, tsf.itfintegratablecandidatelistuielement_getselectionstyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ The method was successful.
 
 
 The active selection style usually indicates that the selection can be changed with the arrow keys. The implied selection style indicates the default selection key chooses it.
-         If the app supports changing selection styles, this method should be called when the <a href="https://msdn.microsoft.com/en-us/library/Aa383199(v=VS.85).aspx">UpdateUIElement</a> method is called.
+         If the app supports changing selection styles, this method should be called when the <a href="https://msdn.microsoft.com/c7df9abf-53a0-41a4-aac5-d90b9abfbeec">UpdateUIElement</a> method is called.
 
 
 
@@ -106,7 +106,7 @@ The active selection style usually indicates that the selection can be changed w
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh920954(v=VS.85).aspx">ITfIntegratableCandidateListUIElement</a>
+<a href="https://msdn.microsoft.com/F9AB2037-6806-42FC-BD41-F6B6BA047908">ITfIntegratableCandidateListUIElement</a>
  
 
  

@@ -4,10 +4,10 @@ title: NdrComplexStructBufferSize function
 author: windows-sdk-content
 description: The NdrComplexStructBufferSize function calculates the required buffer size, in bytes, to marshal the complex structure.
 old-location: winprog\ndrcomplexstructbuffersize.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 8280c0fc-5015-4b7b-a271-64377441694c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: NdrComplexStructBufferSize, NdrComplexStructBufferSize function [Windows API], rpcndr/NdrComplexStructBufferSize, winprog.ndrcomplexstructbuffersize
 ms.prod: windows-hardware
 ms.technology: windows-devices

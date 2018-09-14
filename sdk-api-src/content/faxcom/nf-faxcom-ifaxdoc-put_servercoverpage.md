@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_servercoverpage_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1d7p.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: IFaxDoc interface [Fax Service],ServerCoverpage property, IFaxDoc.ServerCoverpage, IFaxDoc.put_ServerCoverpage, IFaxDoc::ServerCoverpage, IFaxDoc::get_ServerCoverpage, IFaxDoc::put_ServerCoverpage, ServerCoverpage property [Fax Service], ServerCoverpage property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_servercoverpage, fax._mfax_ifaxdoc_get_servercoverpage, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_servercoverpage_cpp, faxcom/IFaxDoc::ServerCoverpage, faxcom/IFaxDoc::get_ServerCoverpage, faxcom/IFaxDoc::put_ServerCoverpage, put_ServerCoverpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Sets or retrieves the <b>ServerCoverpage</b> property for a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>ServerCoverpage</b> property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
+Sets or retrieves the <b>ServerCoverpage</b> property for a <a href="https://msdn.microsoft.com/11462af9-20c2-4661-801e-dcc3e092283d">FaxDoc</a> object. The <b>ServerCoverpage</b> property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
 
 This property is read/write.
 
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-You can send a common cover page or a personal cover page with a fax document. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691363(v=VS.85).aspx">Cover Pages</a> and <a href="https://msdn.microsoft.com/en-us/library/ms690892(v=VS.85).aspx">Sending a Cover Page</a>.
+You can send a common cover page or a personal cover page with a fax document. For more information, see <a href="https://msdn.microsoft.com/37bbff77-08a8-486f-ac26-d7b69a936e05">Cover Pages</a> and <a href="https://msdn.microsoft.com/32e293c8-febb-43c0-801c-f7b4a6675c80">Sending a Cover Page</a>.
 
 
 
@@ -74,11 +74,11 @@ You can send a common cover page or a personal cover page with a fax document. F
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 

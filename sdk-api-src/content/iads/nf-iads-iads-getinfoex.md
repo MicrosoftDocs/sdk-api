@@ -7,7 +7,7 @@ old-location: adsi\iads_getinfoex.htm
 tech.root: ADSI
 ms.assetid: 306ab953-890a-4ec9-8ec2-bea73888ea20
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetInfoEx, GetInfoEx method [ADSI], GetInfoEx method [ADSI],IADs interface, IADs interface [ADSI],GetInfoEx method, IADs.GetInfoEx, IADs::GetInfoEx, _ds_iads_getinfoex, adsi.iads__getinfoex, adsi.iads_getinfoex, iads/IADs::GetInfoEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,9 +95,13 @@ For an ADSI container object, <b>IADs::GetInfoEx</b> caches only the property va
 
 The following code example shows how to use the <b>IADs::GetInfoEx</b> to obtain values of the selected properties, assuming that the desired property values can be found in the directory.
 
-
-```vb
-Dim x As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x As IADs
 On Error GoTo Cleanup
 
 Set x = GetObject("LDAP://CN=JeffSmith,CN=Users,DC=Fabrikam,DC=com")
@@ -113,52 +117,56 @@ Debug.Print x.Get("sn")         ' Property is in the cache.
 Debug.Print x.Get("homePhone")
 
 Cleanup:
-   If(Err.Number<>0) Then
-      MsgBox("An error has occurred. " & Err.Number);
+   If(Err.Number&lt;&gt;0) Then
+      MsgBox("An error has occurred. " &amp; Err.Number);
    End If
 
    Set x = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to use the <b>IADs::GetInfoEx</b> to obtain values of the selected properties, assuming that the desired property values can be found in the directory. For brevity, error checking has been omitted.
 
-
-```cpp
-IADs *pADs = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADs *pADs = NULL;
 VARIANT var;
 HRESULT hr = S_OK;
  
 hr = ADsGetObject(L"WinNT://somecomputer,computer",
                   IID_IADs,
-                  (void**)&pADs);
+                  (void**)&amp;pADs);
 
 if(!(hr==S_OK)){return hr;} 
 
-VariantInit(&var);
+VariantInit(&amp;var);
  
 // Get "Owner" and "Division" attribute values.
 LPWSTR pszAttrs[] = { L"Owner", L"Division" };
 DWORD dwNumber = sizeof( pszAttrs ) /sizeof(LPWSTR);
-hr = ADsBuildVarArrayStr( pszAttrs, dwNumber, &var );
-hr = pADs->GetInfoEx(var, 0);
-VariantClear(&var);
+hr = ADsBuildVarArrayStr( pszAttrs, dwNumber, &amp;var );
+hr = pADs-&gt;GetInfoEx(var, 0);
+VariantClear(&amp;var);
  
-hr = pADs->Get(CComBSTR("Division"), &var);  
-printf("    division   = %S\n", V_BSTR(&var));
-VariantClear(&var);
-hr = pADs->Get(CComBSTR("Owner"), &var);
-printf("    owner      = %S\n", V_BSTR(&var));
-VariantClear(&var);
+hr = pADs-&gt;Get(CComBSTR("Division"), &amp;var);  
+printf("    division   = %S\n", V_BSTR(&amp;var));
+VariantClear(&amp;var);
+hr = pADs-&gt;Get(CComBSTR("Owner"), &amp;var);
+printf("    owner      = %S\n", V_BSTR(&amp;var));
+VariantClear(&amp;var);
 
 if(pADs)
-   pADs->Release();
+   pADs-&gt;Release();
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

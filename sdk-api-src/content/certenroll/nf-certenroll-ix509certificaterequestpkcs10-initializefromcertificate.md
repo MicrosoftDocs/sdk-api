@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10::InitializeFromCertificate
 author: windows-sdk-content
 description: Initializes the certificate request by using an existing certificate.
 old-location: security\ix509certificaterequestpkcs10_initializefromcertificate_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 3f390abc-5c1c-4f9c-a5f4-4d6fec065acf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeFromCertificate method, IX509CertificateRequestPkcs10.InitializeFromCertificate, IX509CertificateRequestPkcs10::InitializeFromCertificate, InheritDefault, InheritExtensionsFlag, InheritNewDefaultKey, InheritNewSimilarKey, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromCertificate, security.ix509certificaterequestpkcs10_initializefromcertificate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>InitializeFromCertificate</b> method initializes the certificate request by using an existing certificate. The certificate is contained in a byte array encoded by using <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1) standard. The DER-encoded byte array is represented by a string that  is either a pure binary sequence or is Unicode encoded.
+The <b>InitializeFromCertificate</b> method initializes the certificate request by using an existing certificate. The certificate is contained in a byte array encoded by using <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) standard. The DER-encoded byte array is represented by a string that  is either a pure binary sequence or is Unicode encoded.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>InitializeFromCertificate</b> method initializes the certificate request 
 
 ### -param Context [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa379399(v=VS.85).aspx">X509CertificateEnrollmentContext</a> enumeration value that specifies whether the requested certificate is intended for an end user, a computer, or an administrator acting on behalf of the computer.
+An <a href="https://msdn.microsoft.com/2db0e129-a566-47ba-ab57-53c7db09e8e3">X509CertificateEnrollmentContext</a> enumeration value that specifies whether the requested certificate is intended for an end user, a computer, or an administrator acting on behalf of the computer.
 
 
 ### -param strCertificate [in]
@@ -80,12 +80,12 @@ Beginning with Windows 7 and Windows Server 2008 R2, you can specify a certif
 
 ### -param Encoding [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa374936(v=VS.85).aspx">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to  the DER-encoded  certificate. The default value is <b>XCN_CRYPT_STRING_BASE64</b>.
+An <a href="https://msdn.microsoft.com/b42628ae-deed-497b-a20f-d175843b79c2">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to  the DER-encoded  certificate. The default value is <b>XCN_CRYPT_STRING_BASE64</b>.
 
 
 ### -param InheritOptions [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa379430(v=VS.85).aspx">X509RequestInheritOptions</a> enumeration value that specifies how to create the certificate request object from the existing certificate. You can specify how to inherit a key by choosing one of the following values. The default value is <b>InheritDefault</b>.
+An <a href="https://msdn.microsoft.com/6aa8d72d-bf6a-476b-812b-9ceafed5e5e7">X509RequestInheritOptions</a> enumeration value that specifies how to create the certificate request object from the existing certificate. You can specify how to inherit a key by choosing one of the following values. The default value is <b>InheritDefault</b>.
 
 <table>
 <tr>
@@ -164,7 +164,7 @@ You can also use a bitwise-<b>OR</b> operation to combine the key inheritance va
 </dl>
 </td>
 <td width="60%">
-Inherits the renewal certificate. Specifying this flag sets the <a href="https://msdn.microsoft.com/en-us/library/Aa377689(v=VS.85).aspx">RenewalCertificate</a> property.
+Inherits the renewal certificate. Specifying this flag sets the <a href="https://msdn.microsoft.com/ab046b65-a059-4b48-a6cd-7e2f0b18bc65">RenewalCertificate</a> property.
 
 </td>
 </tr>
@@ -245,7 +245,7 @@ If you set the <i>InheritOptions</i> parameter to zero (0) or specify <b>Inherit
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -290,7 +290,7 @@ The <b>InitializeFromCertificate</b> method validates the options specified in t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377505(v=VS.85).aspx">IX509CertificateRequestPkcs10</a>
+<a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a>
  
 
  

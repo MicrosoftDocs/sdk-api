@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadPropertyKey.htm
 tech.root: properties
 ms.assetid: 910D1356-DC61-470b-90BB-0DCF1B861E05
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: PSPropertyBag_ReadPropertyKey, PSPropertyBag_ReadPropertyKey function [Windows Properties], properties.PSPropertyBag_ReadPropertyKey, propsys/PSPropertyBag_ReadPropertyKey, shell.PSPropertyBag_ReadPropertyKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Reads the property key of a property in a specified property bag.
 
 ### -param propBag [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a>*</b>
+Type: <b><a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 
 ### -param propName [in]
@@ -74,7 +74,7 @@ A null-terminated property name string.
 
 ### -param value [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
+Type: <b><a href="shell.PROPERTYKEY">PROPERTYKEY</a>*</b>
 
 When this function returns, contains a pointer to a property key value.
 
@@ -104,7 +104,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee845075(v=VS.85).aspx">PSPropertyBag_WritePropertyKey</a>
+<a href="shell.PSPropertyBag_WritePropertyKey">PSPropertyBag_WritePropertyKey</a>
  
 
  

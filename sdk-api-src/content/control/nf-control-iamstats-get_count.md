@@ -7,7 +7,7 @@ old-location: dshow\iamstats_get_count.htm
 tech.root: DirectShow
 ms.assetid: 48f2543a-7c93-4d4f-a568-b8066e9545fd
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IAMStats interface [DirectShow],get_Count method, IAMStats.get_Count, IAMStats::get_Count, IAMStatsget_Count, control/IAMStats::get_Count, dshow.iamstats_get_count, get_Count, get_Count method [DirectShow], get_Count method [DirectShow],IAMStats interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,11 +111,11 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319776(v=VS.85).aspx">IAMStats Interface</a>
+<a href="https://msdn.microsoft.com/01dbaba2-fdca-4f42-8816-fd99c4364dbd">IAMStats Interface</a>
  
 
  

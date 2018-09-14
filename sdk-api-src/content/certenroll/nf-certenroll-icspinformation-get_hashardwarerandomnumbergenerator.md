@@ -4,10 +4,10 @@ title: ICspInformation::get_HasHardwareRandomNumberGenerator
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the provider supports a hardware random number generator that can be used to create random bytes for cryptographic operations.
 old-location: security\icspinformation_hashardwarerandomnumbergenerator_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 49d79310-90d2-4874-beaf-284abefd950f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: HasHardwareRandomNumberGenerator property [Security], HasHardwareRandomNumberGenerator property [Security],ICspInformation interface, ICspInformation interface [Security],HasHardwareRandomNumberGenerator property, ICspInformation.HasHardwareRandomNumberGenerator, ICspInformation.get_HasHardwareRandomNumberGenerator, ICspInformation::HasHardwareRandomNumberGenerator, ICspInformation::get_HasHardwareRandomNumberGenerator, certenroll/ICspInformation::HasHardwareRandomNumberGenerator, certenroll/ICspInformation::get_HasHardwareRandomNumberGenerator, get_HasHardwareRandomNumberGenerator, security.icspinformation_hashardwarerandomnumbergenerator_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ There are currently no Microsoft cryptographic providers that support this featu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
  
 
  

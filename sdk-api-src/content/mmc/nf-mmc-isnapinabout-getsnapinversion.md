@@ -7,7 +7,7 @@ old-location: mmc\isnapinabout_getsnapinversion.htm
 tech.root: mmc
 ms.assetid: c933bb14-cf07-4eca-9a97-c833ed5f5438
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: GetSnapinVersion, GetSnapinVersion method [MMC], GetSnapinVersion method [MMC],ISnapinAbout interface, ISnapinAbout interface [MMC],GetSnapinVersion method, ISnapinAbout.GetSnapinVersion, ISnapinAbout::GetSnapinVersion, _slate_isnapinabout_getsnapinversion, mmc.isnapinabout_getsnapinversion, mmc/ISnapinAbout::GetSnapinVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ This method can return one of these values.
 
 
 Memory for out parameters must be allocated using the COM function 
-<a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>.
+<a href="_com_cotaskmemalloc">CoTaskMemAlloc</a>.
 
 
 

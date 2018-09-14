@@ -7,7 +7,7 @@ old-location: mmc\isnapinabout_getprovider.htm
 tech.root: mmc
 ms.assetid: a1e0d99c-3485-4a24-aff0-7391ec5f8f6b
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: GetProvider, GetProvider method [MMC], GetProvider method [MMC],ISnapinAbout interface, ISnapinAbout interface [MMC],GetProvider method, ISnapinAbout.GetProvider, ISnapinAbout::GetProvider, _slate_isnapinabout_getprovider, mmc.isnapinabout_getprovider, mmc/ISnapinAbout::GetProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ This method can return one of these values.
 
 
 Memory for out parameters must be allocated using the COM API function 
-<a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>.
+<a href="_com_cotaskmemalloc">CoTaskMemAlloc</a>.
 
 
 

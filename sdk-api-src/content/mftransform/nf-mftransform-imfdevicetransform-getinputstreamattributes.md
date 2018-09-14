@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_getinputstreamattributes.htm
 tech.root: stream
 ms.assetid: 087696C2-BD29-4BAE-8285-1B127E0D076E
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: GetInputStreamAttributes, GetInputStreamAttributes method [Streaming Media Devices], GetInputStreamAttributes method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputStreamAttributes method, IMFDeviceTransform.GetInputStreamAttributes, IMFDeviceTransform::GetInputStreamAttributes, mftransform/IMFDeviceTransform::GetInputStreamAttributes, stream.imfdevicetransform_getinputstreamattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

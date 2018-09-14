@@ -4,10 +4,10 @@ title: ISdo::ResetProperty
 author: windows-sdk-content
 description: The ResetProperty method resets the specified property to its default value.
 old-location: nps\SDO_isdo_resetproperty.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: 650df0aa-6331-4a3f-b965-d48fd68fd31d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISdo interface [Network Policy Server],ResetProperty method, ISdo.ResetProperty, ISdo::ResetProperty, ResetProperty, ResetProperty method [Network Policy Server], ResetProperty method [Network Policy Server],ISdo interface, _sdo_isdo_resetproperty, nps.SDO_isdo_resetproperty, sdo.isdo_resetproperty, sdoias/ISdo::ResetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

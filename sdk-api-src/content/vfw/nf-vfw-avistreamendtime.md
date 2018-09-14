@@ -7,7 +7,7 @@ old-location: multimedia\avistreamendtime.htm
 tech.root: Multimedia
 ms.assetid: 0fd3c0c7-34cc-4193-8e6a-9866a9d651a2
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/31/2018
 ms.keywords: AVIStreamEndTime, AVIStreamEndTime macro [Windows Multimedia], _win32_AVIStreamEndTime, multimedia.avistreamendtime, vfw/AVIStreamEndTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,15 +72,19 @@ Handle to an open stream.
 
 The <b>AVIStreamEndTime</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamEndTime(pavi) \ 
     AVIStreamSampleToTime(pavi, AVIStreamEnd(pavi)) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

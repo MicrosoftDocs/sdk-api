@@ -4,10 +4,10 @@ title: IDvbServiceDescriptor::GetServiceNameEmphasized
 author: windows-sdk-content
 description: Gets the emphasized service name from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor_getservicenameemphasized.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 232bdf11-b9f5-48cd-8cd5-f03cd589d43e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetServiceNameEmphasized, GetServiceNameEmphasized method [Microsoft TV Technologies], GetServiceNameEmphasized method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetServiceNameEmphasized method, IDvbServiceDescriptor.GetServiceNameEmphasized, IDvbServiceDescriptor::GetServiceNameEmphasized, dvbsiparser/IDvbServiceDescriptor::GetServiceNameEmphasized, mstv.idvbservicedescriptor_getservicenameemphasized
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\gradient_rect.htm
 tech.root: gdi
 ms.assetid: 8660114a-423f-40a8-b113-e0304bb0f383
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*LPGRADIENT_RECT, *PGRADIENT_RECT, GRADIENT_RECT, GRADIENT_RECT structure [Windows GDI], PGRADIENT_RECT, PGRADIENT_RECT structure pointer [Windows GDI], _GRADIENT_RECT, _win32_GRADIENT_RECT_str, gdi.gradient_rect, wingdi/GRADIENT_RECT, wingdi/PGRADIENT_RECT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,8 @@ The <b>GRADIENT_RECT</b> structure specifies the values of the <i>pVertex</i> ar
 
 The following images shows examples of a rectangle with a gradient fill - one in horizontal mode, the other in vertical mode.
 
-<img alt="Illustration of a rectangle that shades from dark on the left side to light on the right side" border="0" src="./images/GradientFillRectangle.png"/>
-<img alt="Illustration of a rectangle that shades from dark on the top to light on the bottom" border="0" src="./images/GradientFillRectangle2.png"/>
+<img alt="Illustration of a rectangle that shades from dark on the left side to light on the right side" border="0" src="images/GradientFillRectangle.png"/>
+<img alt="Illustration of a rectangle that shades from dark on the top to light on the bottom" border="0" src="images/GradientFillRectangle2.png"/>
 
 #### Examples
 

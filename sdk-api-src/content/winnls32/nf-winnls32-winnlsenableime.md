@@ -4,10 +4,10 @@ title: WINNLSEnableIME function
 author: windows-sdk-content
 description: Temporarily enables or disables an Input Method Editor (IME) and, at the same time, turns on or off the display of all windows owned by the IME.
 old-location: winprog\_win32_winnlsenableime.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\winnlsenableime.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: WINNLSEnableIME, WINNLSEnableIME function [Windows API], _win32_WINNLSEnableIME, winnls32/WINNLSEnableIME, winprog._win32_winnlsenableime, winui._win32_winnlsenableime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,9 +87,9 @@ The terms "enabled" and "disabled" in regard to this function are defined as fol
             
                 
 
-If an IME is disabled, <a href="https://msdn.microsoft.com/en-us/library/Aa969466(v=VS.85).aspx">IME_WINDOWUPDATE(FALSE)</a> is issued to the IME, which responds by deleting the conversion and system windows. With the IME disabled, keyboard messages are not sent to the IME, but are sent directly to the application. Even if the IME is disabled, the API that uses the <a href="https://msdn.microsoft.com/en-us/library/Aa969468(v=VS.85).aspx">SendIMEMessageEx</a> function is still valid.
+If an IME is disabled, <a href="https://msdn.microsoft.com/399a567c-b34d-48f5-9bd5-7e3ecc01c1a9">IME_WINDOWUPDATE(FALSE)</a> is issued to the IME, which responds by deleting the conversion and system windows. With the IME disabled, keyboard messages are not sent to the IME, but are sent directly to the application. Even if the IME is disabled, the API that uses the <a href="https://msdn.microsoft.com/f1e6e73b-53f7-456e-b6a9-61841b83c909">SendIMEMessageEx</a> function is still valid.
 
-If an IME is enabled, <a href="https://msdn.microsoft.com/en-us/library/Aa969466(v=VS.85).aspx">IME_WINDOWUPDATE(TRUE)</a> is issued to the IME, which responds by redisplaying the conversion and system windows. With the IME enabled, keyboard messages are sent to the IME.
+If an IME is enabled, <a href="https://msdn.microsoft.com/399a567c-b34d-48f5-9bd5-7e3ecc01c1a9">IME_WINDOWUPDATE(TRUE)</a> is issued to the IME, which responds by redisplaying the conversion and system windows. With the IME enabled, keyboard messages are sent to the IME.
 
 
 

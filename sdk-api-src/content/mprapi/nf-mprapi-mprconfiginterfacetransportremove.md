@@ -4,10 +4,10 @@ title: MprConfigInterfaceTransportRemove function
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportRemove function removes the specified transport from the specified interface configuration on the router.
 old-location: rras\mprconfiginterfacetransportremove.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 0f286003-f9d8-490b-a379-76baa3f53c6f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MprConfigInterfaceTransportRemove, MprConfigInterfaceTransportRemove function [RAS], _mpr_mprconfiginterfacetransportremove, mprapi/MprConfigInterfaceTransportRemove, rras.mprconfiginterfacetransportremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,7 +121,7 @@ One of the following is true:
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

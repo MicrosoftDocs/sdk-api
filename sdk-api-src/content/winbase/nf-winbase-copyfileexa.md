@@ -4,10 +4,10 @@ title: CopyFileExA function
 author: windows-sdk-content
 description: Copies an existing file to a new file, notifying the application of its progress through a callback function.
 old-location: fs\copyfileex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e19f0299-54fa-4e1e-855a-d2c71d29611b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: COPY_FILE_ALLOW_DECRYPTED_DESTINATION, COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_NO_BUFFERING, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_RESTARTABLE, CopyFileEx, CopyFileEx function [Files], CopyFileExA, CopyFileExW, _win32_copyfileex, base.copyfileex, fs.copyfileex, winbase/CopyFileEx, winbase/CopyFileExA, winbase/CopyFileExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

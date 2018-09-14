@@ -7,7 +7,7 @@ old-location: intl\foldstring.htm
 tech.root: Intl
 ms.assetid: 986b9a72-04c0-49e2-8424-8948dc64de0c
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/30/2018
 ms.keywords: FoldString, FoldString function [Internationalization for Windows Applications], FoldStringA, FoldStringW, MAP_COMPOSITE, MAP_EXPAND_LIGATURES, MAP_FOLDCZONE, MAP_FOLDDIGITS, MAP_PRECOMPOSED, _win32_FoldString, _win32_FoldString_cpp, intl.foldstring, stringapiset/FoldString, stringapiset/FoldStringA, stringapiset/FoldStringW, winnls/FoldString, winnls/FoldStringA, winnls/FoldStringW, winui._win32_FoldString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Maps one Unicode string to another, performing the specified transformation. For an overview of the use of the string functions, see <a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>.
+Maps one Unicode string to another, performing the specified transformation. For an overview of the use of the string functions, see <a href="_win32_strings_cpp">Strings</a>.
 <div class="alert"><b>Caution</b>  Using <b>FoldString</b> incorrectly can compromise the security of your application. Strings that are not mapped correctly can produce invalid input. Test strings to make sure they are valid before using them and provide error handlers. For more information, see <a href="https://msdn.microsoft.com/4034f479-ad29-4c6f-82c6-977f420c4d4d">Security Considerations: International Features</a>.</div><div> </div>
 
 ## -parameters

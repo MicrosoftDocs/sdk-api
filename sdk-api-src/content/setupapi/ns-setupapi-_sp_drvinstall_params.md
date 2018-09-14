@@ -7,7 +7,7 @@ old-location: devinst\sp_drvinstall_params.htm
 tech.root: devinst
 ms.assetid: 300e636c-3f77-4d0b-9868-caaf92d87bfd
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: "*PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DRVINSTALL_PARAMS, SP_DRVINSTALL_PARAMS structure [Device and Driver Installation], _SP_DRVINSTALL_PARAMS, devinst.sp_drvinstall_params, di-struct_32ef55e7-dc77-4350-b220-6cd566cf7c38.xml, setupapi/PSP_DRVINSTALL_PARAMS, setupapi/SP_DRVINSTALL_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ If set, this flag prevents the <a href="https://msdn.microsoft.com/86688b5d-575d
 
 This driver's INF file is signed by an Authenticode signature. This flag is read-only to installers.
 
-For more information, see <a href="https://msdn.microsoft.com/library/Ff553637(v=VS.85).aspx">Using SetupAPI to Verify Driver Authenticode Signatures</a>.
+For more information, see <a href="devinst.using_setupapi_to_verify_driver_authenticode_signatures">Using SetupAPI to Verify Driver Authenticode Signatures</a>.
 
 
 
@@ -165,11 +165,11 @@ If you call <a href="http://go.microsoft.com/fwlink/p/?linkid=98735">SetupCopyOE
 This flag is read-only to installers, and is set if any of the following conditions are true:
 
 <ul>
-<li>The driver has a <a href="https://msdn.microsoft.com/library/Ff553976(v=VS.85).aspx">WHQL release signature</a>.</li>
+<li>The driver has a <a href="devinst.whql_release_signature">WHQL release signature</a>.</li>
 <li>The driver is an inbox driver.</li>
 <li>The driver has an Authenticode signature.</li>
 </ul>
-For more information, see <a href="https://msdn.microsoft.com/library/Ff544865(v=VS.85).aspx">Driver Signing</a>.
+For more information, see <a href="devinst.driver_signing">Driver Signing</a>.
 
 
 
@@ -252,7 +252,7 @@ If the device-specific software is not installed on the computer, the PnP manage
 
 </li>
 </ol>
-<div class="alert"><b>Note</b>  The installer does not have to set the DNF_REQUESTADDITIONALSOFTWARE flag if the INF file for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a> has set the <b>RequestAdditionalSoftware </b>flag in the <a href="https://msdn.microsoft.com/library/Ff546342(v=VS.85).aspx">INF ControlFlags Section</a>.</div>
+<div class="alert"><b>Note</b>  The installer does not have to set the DNF_REQUESTADDITIONALSOFTWARE flag if the INF file for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a> has set the <b>RequestAdditionalSoftware </b>flag in the <a href="devinst.inf_controlflags_section">INF ControlFlags Section</a>.</div>
 <div> </div>
 
 

@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getitem.htm
 tech.root: medfound
 ms.assetid: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d, GetItem, GetItem method [Media Foundation], GetItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetItem method, IMFAttributes.GetItem, IMFAttributes::GetItem, mf.imfattributes_getitem, mfobjects/IMFAttributes::GetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,18 +129,22 @@ This interface is available on the following platforms if the Windows Media Form
 
 The following example copies an attribute from one attribute store to another.
 
-
-```cpp
-HRESULT CopyAttribute(IMFAttributes *pFrom, IMFAttributes *pTo, REFGUID guidKey)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CopyAttribute(IMFAttributes *pFrom, IMFAttributes *pTo, REFGUID guidKey)
 {
     PROPVARIANT val;
 
-    HRESULT hr = pFrom->GetItem(guidKey, &val);
+    HRESULT hr = pFrom-&gt;GetItem(guidKey, &amp;val);
 
     if (SUCCEEDED(hr))
     {
-        hr = pTo->SetItem(guidKey, val);
-        PropVariantClear(&val);
+        hr = pTo-&gt;SetItem(guidKey, val);
+        PropVariantClear(&amp;val);
     }
     else if (hr == MF_E_ATTRIBUTENOTFOUND)
     {
@@ -148,10 +152,10 @@ HRESULT CopyAttribute(IMFAttributes *pFrom, IMFAttributes *pTo, REFGUID guidKey)
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

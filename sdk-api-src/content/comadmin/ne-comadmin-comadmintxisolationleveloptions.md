@@ -7,7 +7,7 @@ old-location: cos\comadmintxisolationleveloptions.htm
 tech.root: cossdk
 ms.assetid: 5e407423-b116-48c5-a99c-2551eca379b3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: COMAdminTxIsolationLevelAny, COMAdminTxIsolationLevelOptions, COMAdminTxIsolationLevelOptions enumeration [COM+], COMAdminTxIsolationLevelReadCommitted, COMAdminTxIsolationLevelReadUnCommitted, COMAdminTxIsolationLevelRepeatableRead, COMAdminTxIsolationLevelSerializable, _cos_COMAdminTxIsolationLevelOption, comadmin/COMAdminTxIsolationLevelAny, comadmin/COMAdminTxIsolationLevelOptions, comadmin/COMAdminTxIsolationLevelReadCommitted, comadmin/COMAdminTxIsolationLevelReadUnCommitted, comadmin/COMAdminTxIsolationLevelRepeatableRead, comadmin/COMAdminTxIsolationLevelSerializable, cos.comadmintxisolationleveloptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ Data read by a current transaction cannot be changed by another transaction unti
 
 
 
-This enumeration is used to configure the transaction isolation level for components that use transactions. It is also used to configure the isolation level for using the transaction service without components by being passed as a parameter to <a href="https://msdn.microsoft.com/en-us/library/ms681162(v=VS.85).aspx">IServiceTransactionConfigBase::IsolationLevel</a>. This method is called through <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> for either the work submitted through the activity created by <a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a> or the work that is enclosed between calls to <a href="https://msdn.microsoft.com/en-us/library/ms683559(v=VS.85).aspx">CoEnterServiceDomain</a> and <a href="https://msdn.microsoft.com/en-us/library/ms686062(v=VS.85).aspx">CoLeaveServiceDomain</a>.
+This enumeration is used to configure the transaction isolation level for components that use transactions. It is also used to configure the isolation level for using the transaction service without components by being passed as a parameter to <a href="https://msdn.microsoft.com/4595239b-30e7-4b03-a2c7-7061cbf28bac">IServiceTransactionConfigBase::IsolationLevel</a>. This method is called through <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> for either the work submitted through the activity created by <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a> or the work that is enclosed between calls to <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a> and <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a>.
 
 If a downstream component is configured with a higher isolation level than an upstream component and attempts to enlist in a transaction, an error results and the transaction aborts.
 
@@ -99,15 +99,15 @@ If a downstream component is configured with a higher isolation level than an up
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a>
+<a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683559(v=VS.85).aspx">CoEnterServiceDomain</a>
+<a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685131(v=VS.85).aspx">Configuring Transaction Isolation Levels</a>
+<a href="https://msdn.microsoft.com/a59e262c-41f2-4c80-a04c-50a39af8b009">Configuring Transaction Isolation Levels</a>
  
 
  

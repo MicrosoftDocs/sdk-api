@@ -4,10 +4,10 @@ title: MI_SubscriptionDeliveryOptions_GetOptionAt function
 author: windows-sdk-content
 description: Gets the option at the specified index.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getoptionat.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 7ee9fc4a-b836-4820-84b6-925d9842819d
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetOptionAt, MI_SubscriptionDeliveryOptions_GetOptionAt function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetOptionAt, wmi_v2.mi_subscriptiondeliveryoptions_getoptionat
 ms.prod: windows-hardware
 ms.technology: windows-devices

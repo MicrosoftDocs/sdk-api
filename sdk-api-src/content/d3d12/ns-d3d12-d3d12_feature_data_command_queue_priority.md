@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_command_queue_priority.htm
 tech.root: direct3d12
 ms.assetid: 70DB58DB-7EE0-4E5C-8B24-22DA9347A80F
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY, D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY structure, d3d12/D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY, direct3d12.d3d12_feature_data_command_queue_priority
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,9 +83,9 @@ On return, contains true if the specfied command list type supports the specifie
 
 
 
-Use this structure with <a href="https://msdn.microsoft.com/en-us/library/Dn788653(v=VS.85).aspx">CheckFeatureSupport</a> to determine the priority levels supported by various command queue types.
+Use this structure with <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a> to determine the priority levels supported by various command queue types.
 
-See the enumeration constant <b>D3D12_FEATURE_COMMAND_QUEUE_PRIORITY</b> in the <a href="https://msdn.microsoft.com/en-us/library/Dn770363(v=VS.85).aspx">D3D12_FEATURE</a> enumeration.
+See the enumeration constant <b>D3D12_FEATURE_COMMAND_QUEUE_PRIORITY</b> in the <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a> enumeration.
 
 
 
@@ -95,7 +95,7 @@ See the enumeration constant <b>D3D12_FEATURE_COMMAND_QUEUE_PRIORITY</b> in the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

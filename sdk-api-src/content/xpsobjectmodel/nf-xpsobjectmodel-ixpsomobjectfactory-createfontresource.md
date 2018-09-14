@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createfontresource.htm
 tech.root: printdocs
 ms.assetid: 9893716b-5004-4886-9bed-49a447e97f42
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CreateFontResource, CreateFontResource method [XPS Documents and Packaging], CreateFontResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateFontResource method, IXpsOMObjectFactory.CreateFontResource, IXpsOMObjectFactory::CreateFontResource, TRUE, xps.ixpsomobjectfactory_createfontresource, xpsobjectmodel/IXpsOMObjectFactory::CreateFontResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -180,9 +180,13 @@ An error is returned if <i>isObfSourceStream</i> is set to <b>TRUE</b> and <i>fo
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMFontResource    *newInterface;
 IOpcPartUri           *partUri;
 
@@ -194,40 +198,40 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
     // The partUriString and acquiredStream variables 
     //   are defined outside of this example.
-    hr = xpsFactory->CreatePartUri(partUriString, &partUri);
+    hr = xpsFactory-&gt;CreatePartUri(partUriString, &amp;partUri);
     if (SUCCEEDED(hr))
     {
-        hr = xpsFactory->CreateFontResource (
+        hr = xpsFactory-&gt;CreateFontResource (
             acquiredStream, 
             XPS_FONT_EMBEDDING_NORMAL,    // normal
             partUri, 
             FALSE,                        // not obfuscated
-            &newInterface);
+            &amp;newInterface);
         if (SUCCEEDED(hr))
         {
             // use newInterface
 
-            newInterface->Release();
+            newInterface-&gt;Release();
         }
-        partUri->Release();
+        partUri-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

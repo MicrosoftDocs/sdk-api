@@ -4,10 +4,10 @@ title: "_DHCPCAPI_PARAMS_ARARAY"
 author: windows-sdk-content
 description: The DHCPCAPI_PARAMS_ARRAY structure stores an array of DHCPAPI_PARAMS structures used to query DHCP parameters.
 old-location: dhcp\dhcpcapi_params_array.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 84eafc6b-e9ee-4c73-b872-b2abc7e257df
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPDHCPCAPI_PARAMS_ARRAY, *LPDHCPCAPI_PARAMS_ARRAY structure [DHCP], *PDHCPCAPI_PARAMS_ARRAY, *PDHCPCAPI_PARAMS_ARRAY structure [DHCP], DHCPCAPI_PARAMS_ARRAY, DHCPCAPI_PARAMS_ARRAY structure [DHCP], _DHCPCAPI_PARAMS_ARARAY, dhcp.dhcpcapi_params_array, dhcpcsdk/*LPDHCPCAPI_PARAMS_ARRAY, dhcpcsdk/*PDHCPCAPI_PARAMS_ARRAY, dhcpcsdk/DHCPCAPI_PARAMS_ARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

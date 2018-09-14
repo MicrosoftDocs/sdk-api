@@ -7,7 +7,7 @@ old-location: mbn\mbn_cellular_class.htm
 tech.root: mbn
 ms.assetid: 2d75c20b-1ae4-4824-8918-41c20327a007
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MBN_CELLULAR_CLASS, MBN_CELLULAR_CLASS enumeration [Microsoft Broadband Networks], MBN_CELLULAR_CLASS_CDMA, MBN_CELLULAR_CLASS_GSM, MBN_CELLULAR_CLASS_NONE, mbn.mbn_cellular_class, mbnapi/MBN_CELLULAR_CLASS, mbnapi/MBN_CELLULAR_CLASS_CDMA, mbnapi/MBN_CELLULAR_CLASS_GSM, mbnapi/MBN_CELLULAR_CLASS_NONE
 ms.prod: windows
 ms.technology: windows-sdk

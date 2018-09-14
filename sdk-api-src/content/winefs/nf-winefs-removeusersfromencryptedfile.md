@@ -4,10 +4,10 @@ title: RemoveUsersFromEncryptedFile function
 author: windows-sdk-content
 description: Removes specified certificate hashes from a specified file.
 old-location: fs\removeusersfromencryptedfile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: c6672581-24b4-464c-b32d-48a04e56eef8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RemoveUsersFromEncryptedFile, RemoveUsersFromEncryptedFile function [Files], _win32_removeusersfromencryptedfile, base.removeusersfromencryptedfile, fs.removeusersfromencryptedfile, winefs/RemoveUsersFromEncryptedFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: LocalAlloc function
 author: windows-sdk-content
 description: Allocates the specified number of bytes from the heap.
 old-location: base\localalloc.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: da8cd2be-ff4c-4da5-813c-8759a58228c9
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: LHND, LMEM_FIXED, LMEM_MOVEABLE, LMEM_ZEROINIT, LPTR, LocalAlloc, LocalAlloc function, NONZEROLHND, NONZEROLPTR, _win32_localalloc, base.localalloc, winbase/LocalAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -213,11 +213,15 @@ To free the memory, use the
 
 The following code shows a simple use of <b>LocalAlloc</b> and <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <tchar.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;tchar.h&gt;
 
 void _cdecl _tmain()
 {
@@ -242,10 +246,10 @@ void _cdecl _tmain()
     // Free the memory when finished with it
     LocalFree(pszBuf);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

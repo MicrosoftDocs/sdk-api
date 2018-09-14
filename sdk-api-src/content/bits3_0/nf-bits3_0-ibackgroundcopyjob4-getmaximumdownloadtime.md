@@ -4,10 +4,10 @@ title: IBackgroundCopyJob4::GetMaximumDownloadTime
 author: windows-sdk-content
 description: Retrieves the maximum time that BITS will spend transferring the files in the job.
 old-location: bits\ibackgroundcopyjob4_getmaximumdownloadtime.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 2d258dc4-a6fd-46d7-ac90-2703c8ddc666
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetMaximumDownloadTime, GetMaximumDownloadTime method [BITS], GetMaximumDownloadTime method [BITS],IBackgroundCopyJob4 interface, IBackgroundCopyJob4 interface [BITS],GetMaximumDownloadTime method, IBackgroundCopyJob4.GetMaximumDownloadTime, IBackgroundCopyJob4::GetMaximumDownloadTime, bits.ibackgroundcopyjob4_getmaximumdownloadtime, bits3_0/IBackgroundCopyJob4::GetMaximumDownloadTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,11 +106,11 @@ The value is the maximum elapsed time that the job can spend in the CONNECTING o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362995(v=VS.85).aspx">IBackgroundCopyJob4</a>
+<a href="https://msdn.microsoft.com/68909710-f749-487e-b064-9f8630929c53">IBackgroundCopyJob4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964248(v=VS.85).aspx">IBackgroundCopyJob4::SetMaximumDownloadTime</a>
+<a href="https://msdn.microsoft.com/9e29c082-5bd1-465a-8853-aea81a593db6">IBackgroundCopyJob4::SetMaximumDownloadTime</a>
  
 
  

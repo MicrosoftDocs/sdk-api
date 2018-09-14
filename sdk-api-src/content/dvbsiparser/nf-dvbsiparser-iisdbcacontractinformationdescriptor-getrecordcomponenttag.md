@@ -4,10 +4,10 @@ title: IIsdbCAContractInformationDescriptor::GetRecordComponentTag
 author: windows-sdk-content
 description: Gets the broadcaster-defined tag that identifies a component record from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.
 old-location: mstv\iisdbcacontractinformationdescriptor_getrecordcomponenttag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: cd032a24-228a-47e3-97f4-1046b426c587
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetRecordComponentTag, GetRecordComponentTag method [Microsoft TV Technologies], GetRecordComponentTag method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetRecordComponentTag method, IIsdbCAContractInformationDescriptor.GetRecordComponentTag, IIsdbCAContractInformationDescriptor::GetRecordComponentTag, dvbsiparser/IIsdbCAContractInformationDescriptor::GetRecordComponentTag, mstv.iisdbcacontractinformationdescriptor_getrecordcomponenttag
 ms.prod: windows-hardware
 ms.technology: windows-devices

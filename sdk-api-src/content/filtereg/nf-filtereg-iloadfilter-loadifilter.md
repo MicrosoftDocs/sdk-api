@@ -7,7 +7,7 @@ old-location: search\iloadfilter_loadifilter.htm
 tech.root: search
 ms.assetid: 920c976e-4dde-4e53-85b7-7547291736a0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilter method, ILoadFilter.LoadIFilter, ILoadFilter::LoadIFilter, LoadIFilter, LoadIFilter method [search], LoadIFilter method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilter, search.iloadfilter_loadifilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ Not implemented.
 
 ### -param ppIFilt [in, out]
 
-The address of a pointer to an implementation of an <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> interface that <b>LoadIFilter</b> selects. 
+The address of a pointer to an implementation of an <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a> interface that <b>LoadIFilter</b> selects. 
 
 
 ## -returns
@@ -112,9 +112,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-A filter, also known as a filter handler, is an implementation of the <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> interface.
+A filter, also known as a filter handler, is an implementation of the <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a> interface.
 
-<b>ILoadFilter</b> attempts to load a filter that can process a Shell data source of the type specified in the <i>pFilteredSources</i> parameter through the <i>pwcsPath</i> parameter.If an appropriate filter for the data source is not found, and <i>fUseDefault</i> is <b>false</b>, this method returns null in the <i>ppIFilt</i> parameter. If an appropriate filter for the data source is not found, and <i>fUseDefault</i> is <b>true</b>, the <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> interface on the default <b>IFilter</b> is returned in the <i>ppIFilt</i> parameter.
+<b>ILoadFilter</b> attempts to load a filter that can process a Shell data source of the type specified in the <i>pFilteredSources</i> parameter through the <i>pwcsPath</i> parameter.If an appropriate filter for the data source is not found, and <i>fUseDefault</i> is <b>false</b>, this method returns null in the <i>ppIFilt</i> parameter. If an appropriate filter for the data source is not found, and <i>fUseDefault</i> is <b>true</b>, the <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a> interface on the default <b>IFilter</b> is returned in the <i>ppIFilt</i> parameter.
 
 
 

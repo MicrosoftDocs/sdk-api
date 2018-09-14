@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_invoke.htm
 tech.root: automat
 ms.assetid: dde2ca58-84bd-4a49-a160-a9955d691f3b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, ITypeInfo interface [Automation],Invoke method, ITypeInfo.Invoke, ITypeInfo2.Invoke, ITypeInfo::Invoke, Invoke, Invoke method [Automation], Invoke method [Automation],ITypeInfo interface, _oa96_ITypeInfo_Invoke, automat.itypeinfo_invoke, oaidl/ITypeInfo::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

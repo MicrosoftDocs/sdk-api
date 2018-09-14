@@ -4,10 +4,10 @@ title: tagNMSELCHANGE
 author: windows-sdk-content
 description: Carries information required to process the MCN_SELCHANGE notification code.
 old-location: controls\NMSELCHANGE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmselchange.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*LPNMSELCHANGE, *LPNMSELECT, LPNMSELCHANGE, LPNMSELCHANGE structure pointer [Windows Controls], NMSELCHANGE, NMSELCHANGE structure [Windows Controls], NMSELECT, _win32_NMSELCHANGE, _win32_NMSELCHANGE_cpp, commctrl/LPNMSELCHANGE, commctrl/NMSELCHANGE, controls.NMSELCHANGE, controls._win32_NMSELCHANGE, tagNMSELCHANGE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Carries information required to process the <a href="https://msdn.microsoft.com/en-us/library/Bb760937(v=VS.85).aspx">MCN_SELCHANGE</a> notification code. 
+Carries information required to process the <a href="https://msdn.microsoft.com/8923524f-d257-409d-bd3e-021684b88856">MCN_SELCHANGE</a> notification code. 
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Carries information required to process the <a href="https://msdn.microsoft.com/
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification. 
 
 
 ### -field stSelStart

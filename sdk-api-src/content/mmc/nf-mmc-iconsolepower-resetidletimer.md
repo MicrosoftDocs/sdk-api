@@ -7,7 +7,7 @@ old-location: mmc\iconsolepower_resetidletimer.htm
 tech.root: mmc
 ms.assetid: 83de4b7f-3214-4354-a4a0-721054e2e899
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, IConsolePower interface [MMC],ResetIdleTimer method, IConsolePower.ResetIdleTimer, IConsolePower::ResetIdleTimer, ResetIdleTimer, ResetIdleTimer method [MMC], ResetIdleTimer method [MMC],IConsolePower interface, _slate_iconsolepower_resetidletimer, mmc.iconsolepower_resetidletimer, mmc/IConsolePower::ResetIdleTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,14 +98,18 @@ ResetIdleTimer to prolong the time before the system or display power-management
 
 #### Examples
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 
 // Reset both the display and system idle timers.
 // pConsolePower was created previously by
 // the CoCreateInstance method.
-hr = pConsolePower->ResetIdleTimer(
+hr = pConsolePower-&gt;ResetIdleTimer(
              ES_DISPLAY_REQUIRED | ES_SYSTEM_REQUIRED);
 switch (hr)
 {
@@ -122,10 +126,10 @@ switch (hr)
         // Unexpected error occurred.
         OutputDebugString(_T("ResetIdleTimer: Failure\n"));
         break;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

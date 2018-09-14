@@ -7,7 +7,7 @@ old-location: tsf\ienumtflatticeelements_clone.htm
 tech.root: TSF
 ms.assetid: 867fe614-d8c0-4987-b35a-bd5b175e6850
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfLatticeElements interface, IEnumTfLatticeElements interface [Text Services Framework],Clone method, IEnumTfLatticeElements.Clone, IEnumTfLatticeElements::Clone, _tsf_ienumtflatticeelements_clone_ref, ctffunc/IEnumTfLatticeElements::Clone, tsf.ienumtflatticeelements_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms538208(v=VS.85).aspx">IEnumTfLatticeElements</a> interface pointer that receives the new enumerator.
+Pointer to an <a href="https://msdn.microsoft.com/5e36f052-a539-4020-8899-fb14c792c666">IEnumTfLatticeElements</a> interface pointer that receives the new enumerator.
 
 
 ## -returns

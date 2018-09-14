@@ -4,10 +4,10 @@ title: phoneGetIconA function
 author: windows-sdk-content
 description: The phoneGetIcon function allows an application to retrieve a service phone device-specific (or provider-specific) icon that can be displayed to the user.
 old-location: tapi2\phonegeticon.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 6c0fa053-387e-4c1f-a972-b7cd42a1ad00
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: "_tapi2_phonegeticon, phoneGetIcon, phoneGetIcon function [TAPI 2.2], phoneGetIconA, phoneGetIconW, tapi/phoneGetIcon, tapi/phoneGetIconA, tapi/phoneGetIconW, tapi2.phonegeticon"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,8 +93,8 @@ PHONEERR_BADDEVICEID, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALPOINTER, PHONEERR_
 
 The 
 <b>phoneGetIcon</b> function causes the provider to return a handle (in <i>lphIcon</i>) to an icon resource (obtained from 
-<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>) associated with the specified phone. The icon handle is for a resource associated with the provider; the application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms648058(v=VS.85).aspx">CopyIcon</a> if it wants to reference the icon after the provider is unloaded, which is unlikely to happen as long as the application has the phone open.
+<a href="_win32_loadicon_cpp">LoadIcon</a>) associated with the specified phone. The icon handle is for a resource associated with the provider; the application must use 
+<a href="_win32_copyicon_cpp">CopyIcon</a> if it wants to reference the icon after the provider is unloaded, which is unlikely to happen as long as the application has the phone open.
 
 The <i>lpszDeviceClass</i> parameter allows the provider to return different icons based on the type of service being referenced by the caller. The permitted strings are the same as for 
 <a href="https://msdn.microsoft.com/6a9c90ca-7a9e-43de-8075-240185658538">phoneGetID</a>. For example, if the phone supports the Comm API, passing "COMM" as <i>lpszDeviceClass</i> causes the provider to return an icon related specifically to the Comm device functions of the service provider. The parameters "tapi/phone", "", or <b>NULL</b> can be used to request the icon for the phone service.

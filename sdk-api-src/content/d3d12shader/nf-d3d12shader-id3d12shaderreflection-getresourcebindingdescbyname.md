@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getresourcebindingdescbyname.htm
 tech.root: direct3d12
 ms.assetid: AA0FD49A-C5A2-4734-BDD6-FD739E4F5D59
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetResourceBindingDescByName, GetResourceBindingDescByName method, GetResourceBindingDescByName method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetResourceBindingDescByName method, ID3D12ShaderReflection.GetResourceBindingDescByName, ID3D12ShaderReflection::GetResourceBindingDescByName, d3d12shader/ID3D12ShaderReflection::GetResourceBindingDescByName, direct3d12.id3d12shaderreflection_getresourcebindingdescbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,7 @@ A pointer to an input-binding description. See <a href="https://msdn.microsoft.c
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           

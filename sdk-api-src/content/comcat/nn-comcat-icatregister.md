@@ -7,7 +7,7 @@ old-location: com\icatregister.htm
 tech.root: com
 ms.assetid: 3f4f9beb-51db-407f-91ea-6e32ff5796ce
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: ICatRegister, ICatRegister interface [COM], ICatRegister interface [COM],described, _com_icatregister, com.icatregister, comcat/ICatRegister
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,9 @@ Provides methods for registering and unregistering component category informatio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatRegister</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICatRegister</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatRegister</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>ICatRegister</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ICatRegister</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms692843(v=VS.85).aspx">RegisterCategories</a>
+<a href="https://msdn.microsoft.com/c84a4b00-c43d-488a-b406-3bac2d25dcb8">RegisterCategories</a>
 </td>
 <td align="left" width="63%">
 Registers one or more component categories.
@@ -80,7 +80,7 @@ Registers one or more component categories.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms692674(v=VS.85).aspx">RegisterClassImplCategories</a>
+<a href="https://msdn.microsoft.com/c293038f-4dbf-40af-9237-c9bb59c84252">RegisterClassImplCategories</a>
 </td>
 <td align="left" width="63%">
 Registers the class as implementing one or more component categories.
@@ -89,7 +89,7 @@ Registers the class as implementing one or more component categories.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683712(v=VS.85).aspx">RegisterClassReqCategories</a>
+<a href="https://msdn.microsoft.com/56aa5fcd-b46a-4807-ba51-9b4b6d28ceeb">RegisterClassReqCategories</a>
 </td>
 <td align="left" width="63%">
 Registers the class as requiring one or more component categories.
@@ -98,7 +98,7 @@ Registers the class as requiring one or more component categories.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms680084(v=VS.85).aspx">UnRegisterCategories</a>
+<a href="https://msdn.microsoft.com/29b7df20-bab0-419c-a13b-132ee5b0272d">UnRegisterCategories</a>
 </td>
 <td align="left" width="63%">
 Removes the registration of one or more component categories.
@@ -107,7 +107,7 @@ Removes the registration of one or more component categories.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms682292(v=VS.85).aspx">UnRegisterClassImplCategories</a>
+<a href="https://msdn.microsoft.com/4a227fd1-6cbc-4354-a3e2-04aceb73ab65">UnRegisterClassImplCategories</a>
 </td>
 <td align="left" width="63%">
 Removes one or more implemented category identifiers from a class.
@@ -116,7 +116,7 @@ Removes one or more implemented category identifiers from a class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms693463(v=VS.85).aspx">UnRegisterClassReqCategories</a>
+<a href="https://msdn.microsoft.com/d957bc13-f5f7-4cb3-925e-4867ba9622cd">UnRegisterClassReqCategories</a>
 </td>
 <td align="left" width="63%">
 Removes one or more required category identifiers from a class.
@@ -131,11 +131,11 @@ Removes one or more required category identifiers from a class.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690475(v=VS.85).aspx">CATEGORYINFO</a>
+<a href="https://msdn.microsoft.com/a5f0cb04-595d-4388-8943-79b9da76022b">CATEGORYINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542655(v=VS.85).aspx">ICatInformation</a>
+<a href="https://msdn.microsoft.com/1fd68126-b512-4131-8e93-cea7c1c3e9c0">ICatInformation</a>
  
 
  

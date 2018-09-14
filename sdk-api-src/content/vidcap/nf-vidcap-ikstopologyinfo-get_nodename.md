@@ -7,7 +7,7 @@ old-location: dshow\ikstopologyinfo_get_nodename.htm
 tech.root: DirectShow
 ms.assetid: 3e24ef6f-e49d-4397-a9b8-a46fcf576a01
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NodeName method, IKsTopologyInfo.get_NodeName, IKsTopologyInfo::get_NodeName, IKsTopologyInfoget_NodeName, dshow.ikstopologyinfo_get_nodename, get_NodeName, get_NodeName method [DirectShow], get_NodeName method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NodeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,16 +126,20 @@ To find the buffer size for the name, call the method once with <b>NULL</b> for 
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // pKsTopo is an IKsTopologyInfo pointer.
 // iNode is the index of a node.
 DWORD cbName = 0;
-hr = pKsTopo->get_NodeName(iNode, NULL, 0, &cbName);
+hr = pKsTopo-&gt;get_NodeName(iNode, NULL, 0, &amp;cbName);
 if (hr == HRESULT_FROM_WIN32(ERROR_MORE_DATA))
 {
-    if (cbName > sizeof(WCHAR))
+    if (cbName &gt; sizeof(WCHAR))
     {
         WCHAR *nodeName = new WCHAR[cbName / sizeof(WCHAR)];
         if (nodeName == NULL)
@@ -144,16 +148,16 @@ if (hr == HRESULT_FROM_WIN32(ERROR_MORE_DATA))
         }
         else
         {
-            hr = pKsTopo->get_NodeName(iNode, nodeName, cbName, &cbName);
+            hr = pKsTopo-&gt;get_NodeName(iNode, nodeName, cbName, &amp;cbName);
             /* ... */
             delete [] nodeName;
         }
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

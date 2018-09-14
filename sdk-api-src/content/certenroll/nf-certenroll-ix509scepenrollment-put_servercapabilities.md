@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment::put_ServerCapabilities
 author: windows-sdk-content
 description: Sets the preferred hash and encryption algorithms for the request.
 old-location: security\ix509scepenrollment_servercapabilities.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: fcfed23f-7798-4b56-afcd-65975a2d39bd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],ServerCapabilities property, IX509SCEPEnrollment.ServerCapabilities, IX509SCEPEnrollment.put_ServerCapabilities, IX509SCEPEnrollment::ServerCapabilities, IX509SCEPEnrollment::put_ServerCapabilities, ServerCapabilities property [Security], ServerCapabilities property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::ServerCapabilities, certenroll/IX509SCEPEnrollment::put_ServerCapabilities, put_ServerCapabilities, security.ix509scepenrollment_servercapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ This property is write-only.
 
 If you do not set this property, then the default hash and encryption algorithms will be used.
 
-This property must be set before calling the <a href="https://msdn.microsoft.com/en-us/library/Dn424976(v=VS.85).aspx">CreateRequestMessage</a>, <a href="https://msdn.microsoft.com/en-us/library/Dn424978(v=VS.85).aspx">CreateRetrievePendingMessage</a>, or <a href="https://msdn.microsoft.com/en-us/library/Dn424977(v=VS.85).aspx">CreateRetrieveCertificateMessage</a> methods.
+This property must be set before calling the <a href="https://msdn.microsoft.com/b86d6dc3-aa96-45f3-9551-f24c39ea6cbf">CreateRequestMessage</a>, <a href="https://msdn.microsoft.com/86d031b0-2009-460b-8bed-fe7a0489f22b">CreateRetrievePendingMessage</a>, or <a href="https://msdn.microsoft.com/238a837f-4464-49ce-b87a-03abcfc0abea">CreateRetrieveCertificateMessage</a> methods.
 
 
 
@@ -75,7 +75,7 @@ This property must be set before calling the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424973(v=VS.85).aspx">IX509SCEPEnrollment</a>
+<a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a>
  
 
  

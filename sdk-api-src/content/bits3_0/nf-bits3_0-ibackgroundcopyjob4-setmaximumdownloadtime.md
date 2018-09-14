@@ -4,10 +4,10 @@ title: IBackgroundCopyJob4::SetMaximumDownloadTime
 author: windows-sdk-content
 description: Sets the maximum time that BITS will spend transferring the files in the job.
 old-location: bits\ibackgroundcopyjob4_setmaximumdownloadtime.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 9e29c082-5bd1-465a-8853-aea81a593db6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBackgroundCopyJob4 interface [BITS],SetMaximumDownloadTime method, IBackgroundCopyJob4.SetMaximumDownloadTime, IBackgroundCopyJob4::SetMaximumDownloadTime, SetMaximumDownloadTime, SetMaximumDownloadTime method [BITS], SetMaximumDownloadTime method [BITS],IBackgroundCopyJob4 interface, bits.ibackgroundcopyjob4_setmaximumdownloadtime, bits3_0/IBackgroundCopyJob4::SetMaximumDownloadTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,7 +100,7 @@ The value is the maximum elapsed time that the job can spend in the CONNECTING o
 
 Note that if the computer sleeps while BITS is transferring the job's data, the time spent sleeping will count against the timeout even though data is not being transferred.
 
-Calling the <a href="https://msdn.microsoft.com/en-us/library/Aa363039(v=VS.85).aspx">IBackgroundCopyJob::Resume</a> method, resets the elapsed time.
+Calling the <a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">IBackgroundCopyJob::Resume</a> method, resets the elapsed time.
 
 This method overrides the MaxDownloadTime group policy.
 
@@ -112,11 +112,11 @@ This method overrides the MaxDownloadTime group policy.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362995(v=VS.85).aspx">IBackgroundCopyJob4</a>
+<a href="https://msdn.microsoft.com/68909710-f749-487e-b064-9f8630929c53">IBackgroundCopyJob4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964244(v=VS.85).aspx">IBackgroundCopyJob4::GetMaximumDownloadTime</a>
+<a href="https://msdn.microsoft.com/2d258dc4-a6fd-46d7-ac90-2703c8ddc666">IBackgroundCopyJob4::GetMaximumDownloadTime</a>
  
 
  

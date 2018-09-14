@@ -4,10 +4,10 @@ title: "_DHCP_POL_EXPR_ARRAY"
 author: windows-sdk-content
 description: The DHCP_POL_EXPR_ARRAY structure defines an array of DHCP server policy expressions.
 old-location: dhcp\dhcp_pol_expr_array.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: F6EDFFAC-ECBD-4B0E-A929-3DB67D8366AC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPDHCP_POL_EXPR_ARRAY, *PDHCP_POL_EXPR_ARRAY, DHCP_POL_EXPR_ARRAY, DHCP_POL_EXPR_ARRAY structure [DHCP], LPDHCP_POL_EXPR_ARRAY, LPDHCP_POL_EXPR_ARRAY structure pointer [DHCP], PDHCP_POL_EXPR_ARRAY, PDHCP_POL_EXPR_ARRAY structure pointer [DHCP], _DHCP_POL_EXPR_ARRAY, dhcp.dhcp_pol_expr_array, dhcpsapi/DHCP_POL_EXPR_ARRAY, dhcpsapi/LPDHCP_POL_EXPR_ARRAY, dhcpsapi/PDHCP_POL_EXPR_ARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

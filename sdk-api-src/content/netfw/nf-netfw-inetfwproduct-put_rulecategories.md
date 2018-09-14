@@ -4,10 +4,10 @@ title: INetFwProduct::put_RuleCategories
 author: windows-sdk-content
 description: For a third-party firewall product registration, indicates the rule categories for which the third-party firewall wishes to take ownership from Windows Firewall.
 old-location: ics\inetfwproduct_rulecategories.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 77e16df3-aab6-4e5f-b0e5-c203379fc6e8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: INetFwProduct interface [ICS/ICF],RuleCategories property, INetFwProduct.RuleCategories, INetFwProduct.put_RuleCategories, INetFwProduct::RuleCategories, INetFwProduct::get_RuleCategories, INetFwProduct::put_RuleCategories, RuleCategories property [ICS/ICF], RuleCategories property [ICS/ICF],INetFwProduct interface, ics.inetfwproduct_rulecategories, netfw/INetFwProduct::RuleCategories, netfw/INetFwProduct::get_RuleCategories, netfw/INetFwProduct::put_RuleCategories, put_RuleCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices

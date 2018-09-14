@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionnotification.htm
 tech.root: CoreAudio
 ms.assetid: 69222168-87d7-4f5a-93b1-6d91263a54bd
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: IAudioSessionNotification, IAudioSessionNotification interface [Core Audio], IAudioSessionNotification interface [Core Audio],described, audiopolicy/IAudioSessionNotification, coreaudio.iaudiosessionnotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,9 +106,13 @@ Threads that run the user interface of an application should be initialized apar
 
 The following code example shows a sample implementation of the <b>IAudioSessionNotification</b> interface.
 
-
-```cpp
-class CSessionNotifications: public IAudioSessionNotification
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>class CSessionNotifications: public IAudioSessionNotification
 {
 private:
 
@@ -149,12 +153,12 @@ public:
     
     ULONG STDMETHODCALLTYPE AddRef()
     {
-        return InterlockedIncrement(&m_cRefAll);
+        return InterlockedIncrement(&amp;m_cRefAll);
     }
      
     ULONG STDMETHODCALLTYPE Release)()
     {
-        ULONG ulRef = InterlockedDecrement(&m_cRefAll);
+        ULONG ulRef = InterlockedDecrement(&amp;m_cRefAll);
         if (0 == ulRef)
         {
             delete this;
@@ -169,10 +173,10 @@ public:
             PostMessage(m_hwndMain, WM_SESSION_CREATED, 0, 0);
         }
     }
-};
-```
-
-
+};</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

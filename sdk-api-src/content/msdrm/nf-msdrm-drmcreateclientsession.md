@@ -4,10 +4,10 @@ title: DRMCreateClientSession function
 author: windows-sdk-content
 description: Creates a client session, which hosts license storage sessions and is used in activation and other function calls.
 old-location: rm\drmcreateclientsession.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 4b8928a0-1d72-47ee-a357-47fb5777d60c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMCreateClientSession, DRMCreateClientSession function [Active Directory Rights Management Services SDK 1.0], DRM_DEFAULTGROUPIDTYPE_PASSPORT, DRM_DEFAULTGROUPIDTYPE_WINDOWSAUTH, msdrm/DRMCreateClientSession, rm.drmcreateclientsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,7 @@ Specifies the version of the callback function. Currently, only version zero is 
 
 ### -param wszGroupIDProviderType [in]
 
-A pointer to a null-terminated Unicode string that specifies the authentication type of the submitted <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificate</a> (RAC). This can be one of the following values.
+A pointer to a null-terminated Unicode string that specifies the authentication type of the submitted <a href="r_gly.htm">rights account certificate</a> (RAC). This can be one of the following values.
 
 
 

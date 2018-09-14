@@ -4,10 +4,10 @@ title: IBDA_GuideDataDeliveryService::GetServices
 author: windows-sdk-content
 description: Gets a list of services that are available on the the media transform device (MTD).
 old-location: mstv\ibda_guidedatadeliveryservice_getservices.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 82133fc5-0f42-4b24-abf6-bc46e72650ac
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetServices method, IBDA_GuideDataDeliveryService.GetServices, IBDA_GuideDataDeliveryService::GetServices, bdaiface/IBDA_GuideDataDeliveryService::GetServices, mstv.ibda_guidedatadeliveryservice_getservices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ On input, specifies the size of the <i>pbBuffer</i> array, in bytes. On output, 
 
 ### -param pbBuffer [out]
 
-Pointer to a byte array that receives a list of service identifiers. A service identifier is a 64-bit value. To translate a service identifier into a tune request, call <a href="https://msdn.microsoft.com/en-us/library/Dd693373(v=VS.85).aspx">IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx</a>.
+Pointer to a byte array that receives a list of service identifiers. A service identifier is a 64-bit value. To translate a service identifier into a tune request, call <a href="https://msdn.microsoft.com/5f429473-6a48-4298-b8f4-61809604ffbd">IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx</a>.
 
 
 ## -returns
@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693368(v=VS.85).aspx">IBDA_GuideDataDeliveryService</a>
+<a href="https://msdn.microsoft.com/5329f725-e77e-49c2-87f5-f7204d022adc">IBDA_GuideDataDeliveryService</a>
  
 
  

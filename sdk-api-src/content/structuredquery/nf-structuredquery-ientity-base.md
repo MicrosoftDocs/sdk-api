@@ -7,7 +7,7 @@ old-location: search\_search_IEntity_Base.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\base.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: Base, Base method [search], Base method [search],IEntity interface, IEntity interface [search],Base method, IEntity.Base, IEntity::Base, _search_IEntity_Base, search._search_IEntity_Base, structuredquery/IEntity::Base
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,9 +61,9 @@ Retrieves the parent entity of this entity.
 
 ### -param pBaseEntity [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a>**</b>
 
-Receives a pointer to the parent <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a> object, or <b>NULL</b> if there is no parent entity.
+Receives a pointer to the parent <a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a> object, or <b>NULL</b> if there is no parent entity.
         
 
 

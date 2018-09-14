@@ -4,10 +4,10 @@ title: IBDA_ConditionalAccess::GetModuleUI
 author: windows-sdk-content
 description: The GetModuleUI method retrieves the URL for a user interface dialog.
 old-location: mstv\ibda_conditionalaccess_getmoduleui.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 5d1856d8-d2e6-4ab1-a1ce-7dcf9bc8bd39
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetModuleUI, GetModuleUI method [Microsoft TV Technologies], GetModuleUI method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, IBDA_ConditionalAccess interface [Microsoft TV Technologies],GetModuleUI method, IBDA_ConditionalAccess.GetModuleUI, IBDA_ConditionalAccess::GetModuleUI, IBDA_ConditionalAccessGetModuleUI, bdaiface/IBDA_ConditionalAccess::GetModuleUI, mstv.ibda_conditionalaccess_getmoduleui
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,7 +83,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693261(v=VS.85).aspx">IBDA_ConditionalAccess Interface</a>
+<a href="https://msdn.microsoft.com/93bd3c38-2591-4d36-b296-5ad939487277">IBDA_ConditionalAccess Interface</a>
  
 
  

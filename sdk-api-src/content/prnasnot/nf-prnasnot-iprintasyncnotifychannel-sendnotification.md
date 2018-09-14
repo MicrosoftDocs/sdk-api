@@ -7,7 +7,7 @@ old-location: gdi\iprintasyncnotifychannel_iprintasyncnotifychannel__sendnotific
 tech.root: printdocs
 ms.assetid: 729286d4-75ee-441e-b63d-fef72d41533a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IPrintAsyncNotifyChannel interface [Windows GDI],SendNotification method, IPrintAsyncNotifyChannel.SendNotification, IPrintAsyncNotifyChannel::SendNotification, SendNotification, SendNotification method [Windows GDI], SendNotification method [Windows GDI],IPrintAsyncNotifyChannel interface, _win32_IPrintAsyncNotifyChannel_SendNotification, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__sendnotification, prnasnot/IPrintAsyncNotifyChannel::SendNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -140,11 +140,15 @@ The return values are COM error codes. Because this function might complete the 
 
 See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
 
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
-
-```cpp
-if (SUCCEEDED(hr)) {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if (SUCCEEDED(hr)) {
   // Call succeeded, check HRESULT value returned
   switch (HRESULT_CODE(hr)){
     case S_OK:
@@ -180,10 +184,10 @@ if (SUCCEEDED(hr)) {
       break;
   }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -197,7 +201,7 @@ For a bidirectional channel, if a <b>SendNotification</b> call is made while the
 
 When multiple listeners exist for the same bidirectional channel, the initial notification sent on the channel will be delivered to all listeners. The first listener to reply will acquire the channel. Listeners calling <b>SendNotification</b> after the channel was acquired will fail with error CHANNEL_ACQUIRED.
 
-A listener receiving an initial notification on a bidirectional channel might not be interested in acquiring the channel. In this case the listener can call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method can be called. The <b>IUnknown::Release</b> method does not need to be called if <b>SendNotification</b> or <a href="https://msdn.microsoft.com/d5878cf1-c2c3-4f33-bc08-e4f868c8a5e7">IPrintAsyncNotifyChannel::CloseChannel</a> methods are called.
+A listener receiving an initial notification on a bidirectional channel might not be interested in acquiring the channel. In this case the listener can call <a href="_com_iunknown_release">IUnknown::Release</a> method can be called. The <b>IUnknown::Release</b> method does not need to be called if <b>SendNotification</b> or <a href="https://msdn.microsoft.com/d5878cf1-c2c3-4f33-bc08-e4f868c8a5e7">IPrintAsyncNotifyChannel::CloseChannel</a> methods are called.
 
 
 

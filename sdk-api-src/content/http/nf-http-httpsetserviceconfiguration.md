@@ -4,10 +4,10 @@ title: HttpSetServiceConfiguration function
 author: windows-sdk-content
 description: Creates and sets a configuration record for the HTTP Server API configuration store.
 old-location: http\httpsetserviceconfiguration.htm
-tech.root: http
+tech.root: Http
 ms.assetid: b0a6d442-2ff4-4e00-8301-696fb0864d8c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, HttpSetServiceConfiguration, HttpSetServiceConfiguration function [HTTP], _http_httpsetserviceconfiguration, http.httpsetserviceconfiguration, http/HttpSetServiceConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

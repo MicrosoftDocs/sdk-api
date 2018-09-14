@@ -7,7 +7,7 @@ old-location: base\getumscompletionlistevent.htm
 tech.root: procthread
 ms.assetid: 393f6e0a-fbea-4aa0-9c18-f96da18e61e9
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/13/2018
 ms.keywords: GetUmsCompletionListEvent, GetUmsCompletionListEvent function, base.getumscompletionlistevent, winbase/GetUmsCompletionListEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

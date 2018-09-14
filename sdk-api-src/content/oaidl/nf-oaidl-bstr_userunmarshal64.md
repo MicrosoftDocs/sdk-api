@@ -7,7 +7,7 @@ old-location: automat\bstr_userunmarshal64.htm
 tech.root: automat
 ms.assetid: 5d0bb71f-f8a2-4af7-b7e4-177997af2c9b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BSTR_UserUnmarshal64, BSTR_UserUnmarshal64 function [Automation], automat.bstr_userunmarshal64, oaidl/BSTR_UserUnmarshal64
 ms.prod: windows-hardware
 ms.technology: windows-devices

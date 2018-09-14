@@ -4,10 +4,10 @@ title: SCardRemoveReaderFromGroupW function
 author: windows-sdk-content
 description: Removes a reader from an existing reader group. This function has no effect on the reader.
 old-location: security\scardremovereaderfromgroup.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: a9bdaf16-1a6f-4a84-ab29-3d6df9003ff9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardRemoveReaderFromGroup, SCardRemoveReaderFromGroup function [Security], SCardRemoveReaderFromGroupA, SCardRemoveReaderFromGroupW, _smart_scardremovereaderfromgroup, security.scardremovereaderfromgroup, winscard/SCardRemoveReaderFromGroup, winscard/SCardRemoveReaderFromGroupA, winscard/SCardRemoveReaderFromGroupW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -158,7 +158,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -185,9 +185,13 @@ To add a reader to a reader group, use
 
 The following example  shows how to remove a reader from the group.
 
-
-```cpp
-// Remove a reader from the group.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Remove a reader from the group.
 // lReturn is of type LONG.
 // hContext was set by a previous call to SCardEstablishContext.
 // The group is automatically forgotten if no readers remain in it.
@@ -196,10 +200,10 @@ lReturn = SCardRemoveReaderFromGroup(hContext,
                                      L"MyReaderGroup");
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardRemoveReaderFromGroup\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

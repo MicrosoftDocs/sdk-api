@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_invokecommand.htm
 tech.root: WMP
 ms.assetid: ee46a7c2-2d5b-4c7f-954e-cad6011afc78
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],InvokeCommand method, IWMPContentPartner.InvokeCommand, IWMPContentPartner::InvokeCommand, IWMPContentPartnerInvokeCommand, InvokeCommand, InvokeCommand method [Windows Media Player], InvokeCommand method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::InvokeCommand, wmp.iwmpcontentpartner_invokecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The <b>InvokeCommand</b> method invokes a context menu command.
 
 ### -param dwCommandID [in]
 
-ID of the command to invoke. Windows Media Player previously obtained this command ID from the content partner plug-in by calling <a href="https://msdn.microsoft.com/en-us/library/Dd563163(v=VS.85).aspx">IWMPContentPartner::GetCommands</a>.
+ID of the command to invoke. Windows Media Player previously obtained this command ID from the content partner plug-in by calling <a href="https://msdn.microsoft.com/bc6dfd97-50bb-438c-9cd6-3eac91e99cab">IWMPContentPartner::GetCommands</a>.
 
 
 ### -param location [in]
@@ -126,7 +126,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
  
 
  

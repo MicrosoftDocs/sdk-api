@@ -4,10 +4,10 @@ title: ICspAlgorithm::get_IncrementLength
 author: windows-sdk-content
 description: Retrieves a value, in bits, that can be used to determine valid incremental key lengths for algorithms that support multiple key sizes.
 old-location: security\icspalgorithm_incrementlength_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 296ad5b4-d0c1-4fd8-ab55-6ee15b5599b7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICspAlgorithm interface [Security],IncrementLength property, ICspAlgorithm.IncrementLength, ICspAlgorithm.get_IncrementLength, ICspAlgorithm::IncrementLength, ICspAlgorithm::get_IncrementLength, IncrementLength property [Security], IncrementLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::IncrementLength, certenroll/ICspAlgorithm::get_IncrementLength, get_IncrementLength, security.icspalgorithm_incrementlength_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ This property is read-only.
 
 You can use the value of this property to determine valid key sizes for generated keys. For example, if the minimum key length of an DSA signing key is 512 bits, the maximum length is 1,024 bits, and the increment is 64 bits, valid key sizes include 512, 576, 640 and so in 64 bit increments up to  1,024.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa375958(v=VS.85).aspx">DefaultLength</a>, <b>IncrementLength</b>, <a href="https://msdn.microsoft.com/en-us/library/Aa375961(v=VS.85).aspx">MaxLength</a>, and <a href="https://msdn.microsoft.com/en-us/library/Aa375962(v=VS.85).aspx">MinLength</a> properties can vary by algorithm and provider. The following table lists a few algorithms for which multiple key sizes can be set. The list is not inclusive.<table>
+The <a href="https://msdn.microsoft.com/03a487e0-5ba4-4065-86e9-bed667db6ff9">DefaultLength</a>, <b>IncrementLength</b>, <a href="https://msdn.microsoft.com/516afaa4-0317-4f05-87e7-bd614b428ccb">MaxLength</a>, and <a href="https://msdn.microsoft.com/1df00a2d-4004-4c5d-ab70-5d39ca517ebd">MinLength</a> properties can vary by algorithm and provider. The following table lists a few algorithms for which multiple key sizes can be set. The list is not inclusive.<table>
 <tr>
 <th>Algorithm OID</th>
 <th>Cryptographic provider</th>
@@ -236,11 +236,11 @@ Increment: 8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375958(v=VS.85).aspx">DefaultLength</a>
+<a href="https://msdn.microsoft.com/03a487e0-5ba4-4065-86e9-bed667db6ff9">DefaultLength</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a>
+<a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a>
  
 
  

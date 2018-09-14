@@ -4,10 +4,10 @@ title: INetFwRemoteAdminSettings::put_Scope
 author: windows-sdk-content
 description: Controls the network scope from which remote administration is allowed.
 old-location: ics\inetfwremoteadminsettings_scope.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 0ba9e6d1-82a4-4a58-9da0-0e07e79b0030
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: INetFwRemoteAdminSettings interface [ICS/ICF],Scope property, INetFwRemoteAdminSettings.Scope, INetFwRemoteAdminSettings.put_Scope, INetFwRemoteAdminSettings::Scope, INetFwRemoteAdminSettings::get_Scope, INetFwRemoteAdminSettings::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwRemoteAdminSettings interface, ics.inetfwremoteadminsettings_scope, netfw/INetFwRemoteAdminSettings::Scope, netfw/INetFwRemoteAdminSettings::get_Scope, netfw/INetFwRemoteAdminSettings::put_Scope, put_Scope
 ms.prod: windows-hardware
 ms.technology: windows-devices

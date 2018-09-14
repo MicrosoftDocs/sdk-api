@@ -7,7 +7,7 @@ old-location: shell\SHCreateItemFromParsingName.htm
 tech.root: shell
 ms.assetid: 81e48318-b6a4-4b1a-8b78-21c00b9dc485
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: SHCreateItemFromParsingName, SHCreateItemFromParsingName function [Windows Shell], _shell_SHCreateItemFromParsingName, shell.SHCreateItemFromParsingName, shobjidl_core/SHCreateItemFromParsingName
 ms.prod: windows-hardware
 ms.technology: windows-devices

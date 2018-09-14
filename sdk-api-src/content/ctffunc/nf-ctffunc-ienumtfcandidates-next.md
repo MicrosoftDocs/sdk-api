@@ -7,7 +7,7 @@ old-location: tsf\ienumtfcandidates_next.htm
 tech.root: TSF
 ms.assetid: 50aaa3c0-6998-49de-9753-7be38625a10d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Next method, IEnumTfCandidates.Next, IEnumTfCandidates::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_next_ref, ctffunc/IEnumTfCandidates::Next, tsf.ienumtfcandidates_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ Specifies the number of elements to obtain.
 
 ### -param ppCand [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms538497(v=VS.85).aspx">ITfCandidateString</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
+Pointer to an array of <a href="https://msdn.microsoft.com/82c77b59-a50c-42ae-ba1d-25a1c196662d">ITfCandidateString</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
 
 
 ### -param pcFetched [out]
@@ -127,7 +127,7 @@ The method reached the end of the enumeration before the specified number of ele
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538125(v=VS.85).aspx">IEnumTfCandidates</a>
+<a href="https://msdn.microsoft.com/4daef7e9-e5ab-4eb8-acb6-a475b84d4de6">IEnumTfCandidates</a>
 
 
 

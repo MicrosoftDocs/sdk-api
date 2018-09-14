@@ -7,7 +7,7 @@ old-location: gpmc\igpmmapentrycollection.htm
 tech.root: GPMC
 ms.assetid: a017ff4b-ab3c-4da9-b6c9-b4ccd24230eb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GPMMapEntryCollection, IGPMMapEntryCollection, IGPMMapEntryCollection interface [GPMC], IGPMMapEntryCollection interface [GPMC],described, gpmc.igpmmapentrycollection, gpmgmt/IGPMMapEntryCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ The <b>IGPMMapEntryCollection</b> interface enables applications to access map e
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMMapEntryCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMMapEntryCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMMapEntryCollection</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IGPMMapEntryCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -118,7 +118,7 @@ A specific element from the collection.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: magapi\magapi_maggetfullscreentransform.htm
 tech.root: magapi
 ms.assetid: 6270047A-8823-41D6-AD57-72A7E60F3696
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MagGetFullscreenTransform, MagGetFullscreenTransform function [Magnification API], magapi.magapi_maggetfullscreentransform, magnification/MagGetFullscreenTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,13 +102,17 @@ The offsets are not affected by the current dots per inch (dpi) setting.
 
 The following code snippet retrieves the magnification value and offsets for the full-screen magnifier.
 
-
-```cpp
-    // Get the current magnification level and offset.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    // Get the current magnification level and offset.
     float  magLevel;
     int    xOffset, yOffset;
 
-    if (!MagGetFullscreenTransform(&magLevel, &xOffset, &yOffset))
+    if (!MagGetFullscreenTransform(&amp;magLevel, &amp;xOffset, &amp;yOffset))
     {
         return E_FAIL;
     }
@@ -116,10 +120,10 @@ The following code snippet retrieves the magnification value and offsets for the
     // 
     // Do something with the magnification settings.
     //    
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

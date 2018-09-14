@@ -4,10 +4,10 @@ title: INetSharingPrivateConnectionCollection::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the private connections collection.
 old-location: ics\inetsharingprivateconnectioncollection_get__newenum.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 526da220-5999-4b84-b617-26edf23c15ab
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: INetSharingPrivateConnectionCollection interface [ICS/ICF],get__NewEnum method, INetSharingPrivateConnectionCollection.get__NewEnum, INetSharingPrivateConnectionCollection::get__NewEnum, _ics_inetsharingprivateconnectioncollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingPrivateConnectionCollection interface, ics.inetsharingprivateconnectioncollection_get__newenum, netcon/INetSharingPrivateConnectionCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ The
 
 ### -param pVal [out]
 
-Pointer to an interface pointer that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the collection.
+Pointer to an interface pointer that receives a pointer to an <a href="_com_iunknown">IUnknown</a> interface for the collection.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_viewport.htm
 tech.root: direct3d11
 ms.assetid: 7ef29e40-4b42-4794-83b6-44581c0d529f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D3D11_VIEWPORT, D3D11_VIEWPORT structure [Direct3D 11], d3d11/D3D11_VIEWPORT, direct3d11.d3d11_viewport, e40eb7eb-7ea6-54bc-b846-b83c9856e3fe
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,7 +122,7 @@ The range for the minimum and maximum viewport size is dependent on the feature 
 </table>
  
 
-<div class="alert"><b>Note</b>  Even though you specify float values to the members of the <b>D3D11_VIEWPORT</b> structure for the <i>pViewports</i> array in a call to  <a href="https://msdn.microsoft.com/7326e9a8-edfa-4e5a-a29e-fe7c54a055f5">ID3D11DeviceContext::RSSetViewports</a> for <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature levels</a> 9_x, <b>RSSetViewports</b> uses DWORDs internally. Because of this behavior, when you use a negative top left corner for the viewport, the call to  <b>RSSetViewports</b> for feature levels 9_x fails. This failure occurs because <b>RSSetViewports</b> for 9_x casts the floating point values into unsigned integers without validation, which results in integer overflow. </div>
+<div class="alert"><b>Note</b>  Even though you specify float values to the members of the <b>D3D11_VIEWPORT</b> structure for the <i>pViewports</i> array in a call to  <a href="https://msdn.microsoft.com/7326e9a8-edfa-4e5a-a29e-fe7c54a055f5">ID3D11DeviceContext::RSSetViewports</a> for <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature levels</a> 9_x, <b>RSSetViewports</b> uses DWORDs internally. Because of this behavior, when you use a negative top left corner for the viewport, the call to  <b>RSSetViewports</b> for feature levels 9_x fails. This failure occurs because <b>RSSetViewports</b> for 9_x casts the floating point values into unsigned integers without validation, which results in integer overflow. </div>
 <div> </div>
 
 

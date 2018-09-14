@@ -7,7 +7,7 @@ old-location: xps\ixpsompackage.htm
 tech.root: printdocs
 ms.assetid: 7b0a36d6-1af1-4c2c-af14-d6139e9115c3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], IXpsOMPackage interface [XPS Documents and Packaging],described, xps.ixpsompackage, xpsobjectmodel/IXpsOMPackage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,9 +174,13 @@ Writes the XPS package to a specified stream.
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMPackage    *newInterface;
 
 // Note the implicit requirement that CoInitializeEx 
@@ -187,29 +191,29 @@ hr = CoCreateInstance(
       NULL, 
       CLSCTX_INPROC_SERVER,
       __uuidof(IXpsOMObjectFactory),
-      reinterpret_cast<LPVOID*>(&xpsFactory)
+      reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
       );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreatePackage (&newInterface);
+    hr = xpsFactory-&gt;CreatePackage (&amp;newInterface);
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface->Release();
+        newInterface-&gt;Release();
     }
 
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For information about using this interface in a program, see <a href="https://msdn.microsoft.com/5b6f12ba-9a41-4252-96c4-391bb8d75cd4">Create a Blank XPS OM</a>.
 
 

@@ -4,10 +4,10 @@ title: ITsSbProvider::GetResourcePluginStore
 author: windows-sdk-content
 description: Retrieves an ITsSbResourcePluginStore instance of the resource plug-in store.
 old-location: termserv\itssbprovider_getresourcepluginstore.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 9e4d5b1d-100e-49e1-b1b5-4b126683c329
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetResourcePluginStore, GetResourcePluginStore method [Remote Desktop Services], GetResourcePluginStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetResourcePluginStore method, ITsSbProvider.GetResourcePluginStore, ITsSbProvider::GetResourcePluginStore, sbtsv/ITsSbProvider::GetResourcePluginStore, termserv.itssbprovider_getresourcepluginstore
 ms.prod: windows-hardware
 ms.technology: windows-devices

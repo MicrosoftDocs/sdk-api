@@ -7,7 +7,7 @@ old-location: input_touchhittest\evaluateproximitytorect.htm
 tech.root: Input_TouchHitTest
 ms.assetid: 269ef4c1-9c9f-4bd7-9852-e82c4a707d3c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: EvaluateProximityToRect, EvaluateProximityToRect function, input_touchhittest.evaluateproximitytorect, touch_hittest.evaluateproximitytorect, winuser/EvaluateProximityToRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

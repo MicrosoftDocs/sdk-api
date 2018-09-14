@@ -7,7 +7,7 @@ old-location: security\crypt_xml_keyinfo_spec.htm
 tech.root: seccrypto
 ms.assetid: 83467875-1ccf-4c02-9b0a-6faf7305950e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CRYPT_XML_KEYINFO_SPEC, CRYPT_XML_KEYINFO_SPEC enumeration [Security], CRYPT_XML_KEYINFO_SPEC_ENCODED, CRYPT_XML_KEYINFO_SPEC_NONE, CRYPT_XML_KEYINFO_SPEC_PARAM, cryptxml/CRYPT_XML_KEYINFO_SPEC, cryptxml/CRYPT_XML_KEYINFO_SPEC_ENCODED, cryptxml/CRYPT_XML_KEYINFO_SPEC_NONE, cryptxml/CRYPT_XML_KEYINFO_SPEC_PARAM, security.crypt_xml_keyinfo_spec
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CRYPT_XML_KEYINFO_SPEC</b> enumeration specifies values for the <i>dwKeyInfoSpec</i> parameter in the <a href="https://msdn.microsoft.com/en-us/library/Dd433832(v=VS.85).aspx">CryptXmlSign</a> function.
+The <b>CRYPT_XML_KEYINFO_SPEC</b> enumeration specifies values for the <i>dwKeyInfoSpec</i> parameter in the <a href="https://msdn.microsoft.com/38bd365e-bc63-498c-a650-471429f09d37">CryptXmlSign</a> function.
 
 
 ## -enum-fields
@@ -60,15 +60,15 @@ The <b>CRYPT_XML_KEYINFO_SPEC</b> enumeration specifies values for the <i>dwKeyI
 
 ### -field CRYPT_XML_KEYINFO_SPEC_NONE
 
-The value of the <b>KeyInfo</b> member in the <a href="https://msdn.microsoft.com/en-us/library/Dd433864(v=VS.85).aspx">CRYPT_XML_SIGNATURE</a> structure is null.
+The value of the <b>KeyInfo</b> member in the <a href="https://msdn.microsoft.com/d9930946-aec0-42a4-949f-af8b2e9c6e6c">CRYPT_XML_SIGNATURE</a> structure is null.
 
 
 ### -field CRYPT_XML_KEYINFO_SPEC_ENCODED
 
-The value of the encoded <a href="https://msdn.microsoft.com/en-us/library/Dd433855(v=VS.85).aspx">CRYPT_XML_KEY_INFO</a> structure is specified in a <a href="https://msdn.microsoft.com/en-us/library/Dd433844(v=VS.85).aspx">CRYPT_XML_BLOB</a> structure pointed to in the <i>pvKeyInfoSpec</i> parameter.
+The value of the encoded <a href="https://msdn.microsoft.com/0fd4a80f-52c1-4ff8-9e49-87ddc1f2521d">CRYPT_XML_KEY_INFO</a> structure is specified in a <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure pointed to in the <i>pvKeyInfoSpec</i> parameter.
 
 
 ### -field CRYPT_XML_KEYINFO_SPEC_PARAM
 
-The members  of the <a href="https://msdn.microsoft.com/en-us/library/Dd433855(v=VS.85).aspx">CRYPT_XML_KEY_INFO</a> structure to be encoded are specified in a <a href="https://msdn.microsoft.com/en-us/library/Dd433851(v=VS.85).aspx">CRYPT_XML_KEYINFO_PARAM</a> structure pointed by the <i>pvKeyInfoSpec</i> parameter.
+The members  of the <a href="https://msdn.microsoft.com/0fd4a80f-52c1-4ff8-9e49-87ddc1f2521d">CRYPT_XML_KEY_INFO</a> structure to be encoded are specified in a <a href="https://msdn.microsoft.com/cbde3f67-d948-452a-9958-52563dc7a8b5">CRYPT_XML_KEYINFO_PARAM</a> structure pointed by the <i>pvKeyInfoSpec</i> parameter.
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\getmiddleinset.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: AdjustableArrowCap class [GDI+],GetMiddleInset method, AdjustableArrowCap.GetMiddleInset, AdjustableArrowCap::GetMiddleInset, GetMiddleInset, GetMiddleInset method [GDI+], GetMiddleInset method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,9 +92,13 @@ The following example creates an
 						<i>myArrow</i> as the ending line cap for this 
 						<b>Pen</b> object, and draws a capped line. Next, the code gets the middle inset, increments it, and draws another capped line.
 
-
-```cpp
-VOID Example_GetMiddleInset(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetMiddleInset(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -104,21 +108,21 @@ VOID Example_GetMiddleInset(HDC hdc)
 
    // Create a Pen, and assign myArrow as the end cap.
    Pen arrowPen(Color(255, 0, 0, 0));
-   arrowPen.SetCustomEndCap(&myArrow);
+   arrowPen.SetCustomEndCap(&amp;myArrow);
 
    // Draw a line using arrowPen.
-   graphics.DrawLine(&arrowPen, Point(0, 10), Point(100, 10));
+   graphics.DrawLine(&amp;arrowPen, Point(0, 10), Point(100, 10));
 
    // Get the inset of the arrow.
    REAL inset = myArrow.GetMiddleInset();
 
    // Increase inset by 5 pixels and draw another line.
    myArrow.SetMiddleInset(inset + 5);
-   arrowPen.SetCustomEndCap(&myArrow);
-   graphics.DrawLine(&arrowPen, Point(0, 40), Point(100, 40));
-}
-```
-
-
+   arrowPen.SetCustomEndCap(&amp;myArrow);
+   graphics.DrawLine(&amp;arrowPen, Point(0, 40), Point(100, 40));
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

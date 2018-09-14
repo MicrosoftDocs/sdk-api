@@ -7,7 +7,7 @@ old-location: edp\srpsettokenenterpriseid.htm
 tech.root: EDP
 ms.assetid: A96E6977-5637-4E3E-A2AE-7892DC61FB08
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EDP.srpsettokenenterpriseid, SrpSetTokenEnterpriseId, SrpSetTokenEnterpriseId function, srpapi/SrpSetTokenEnterpriseId
 ms.prod: windows-hardware
 ms.technology: windows-devices

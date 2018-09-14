@@ -7,7 +7,7 @@ old-location: shell\COMPONENT.htm
 tech.root: shell
 ms.assetid: 2692a2d6-1d33-410f-987c-8388c636cae6
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: "*LPCOMPONENT, COMPONENT, COMPONENT structure [Windows Shell], COMP_TYPE_CONTROL, COMP_TYPE_HTMLDOC, COMP_TYPE_PICTURE, COMP_TYPE_WEBSITE, IS_FULLSCREEN, IS_NORMAL, IS_SPLIT, LPCOMPONENT, LPCOMPONENT structure pointer [Windows Shell], _tagCOMPONENT, _win32_COMPONENT, shell.COMPONENT, shlobj_core/COMPONENT, shlobj_core/LPCOMPONENT"
 ms.prod: windows
 ms.technology: windows-sdk

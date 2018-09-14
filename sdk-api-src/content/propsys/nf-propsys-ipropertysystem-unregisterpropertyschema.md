@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_UnregisterPropertySchema.htm
 tech.root: properties
 ms.assetid: de81e174-9c32-455f-a7ba-a3d1b2223b84
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: IPropertySystem interface [Windows Properties],UnregisterPropertySchema method, IPropertySystem.UnregisterPropertySchema, IPropertySystem::UnregisterPropertySchema, UnregisterPropertySchema, UnregisterPropertySchema method [Windows Properties], UnregisterPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_UnregisterPropertySchema, propsys/IPropertySystem::UnregisterPropertySchema, shell.IPropertySystem_UnregisterPropertySchema, shell_IPropertySystem_UnregisterPropertySchema
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,7 +112,7 @@ Indicates calling context does not have proper privileges.
 
 Call this method when the file is being uninstalled from the machine. Typically, a setup application calls this method before or after uninstalling the .propdesc file. This method can be called after the file no longer exists.
 
-Call <a href="https://msdn.microsoft.com/library/Bb761439(v=VS.85).aspx">IPropertySystem::RefreshPropertySchema</a> in order for the newly-unregistered schema files to be unincorporated from the search index and the schema subsystem cache.
+Call <a href="shell.IPropertySystem_RefreshPropertySchema">IPropertySystem::RefreshPropertySchema</a> in order for the newly-unregistered schema files to be unincorporated from the search index and the schema subsystem cache.
 
 This method fails with E_ACCESSDENIED if the calling context does not have proper privileges, which include write access to the local machine. It is the caller's responsibility to obtain privileges via least-privileged user account (LUA) mechanisms.
 
@@ -124,7 +124,7 @@ This method fails with E_ACCESSDENIED if the calling context does not have prope
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
  
 
  

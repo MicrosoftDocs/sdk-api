@@ -7,7 +7,7 @@ old-location: automat\ienumvariant_reset.htm
 tech.root: automat
 ms.assetid: 0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumVARIANT interface [Automation],Reset method, IEnumVARIANT.Reset, IEnumVARIANT::Reset, Reset, Reset method [Automation], Reset method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Reset, automat.ienumvariant_reset, oaidl/IEnumVARIANT::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,17 +112,21 @@ There is no guarantee that exactly the same set of variants will be enumerated t
 
 The following code implements <b>IEnumVariant::Reset</b>. A complete example implementation of the <b>IEnumVariant</b> interface is available in the COM Fundamentals Lines sample (Enumvar.cpp).
 
-
-```cpp
-STDMETHODIMP
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP
 CEnumVariant::Reset()
 {
    m_lCurrent = m_lLBound;
    return NOERROR;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

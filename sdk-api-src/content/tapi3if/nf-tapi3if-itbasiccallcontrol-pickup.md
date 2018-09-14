@@ -4,10 +4,10 @@ title: ITBasicCallControl::Pickup
 author: windows-sdk-content
 description: The Pickup method picks up a call alerting at the specified group identification.
 old-location: tapi3\itbasiccallcontrol_pickup.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 25da3cf2-50f0-4f64-94ce-cf952e057376
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Pickup method, ITBasicCallControl.Pickup, ITBasicCallControl::Pickup, Pickup, Pickup method [TAPI 2.2], Pickup method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_pickup, tapi3.itbasiccallcontrol_pickup, tapi3if/ITBasicCallControl::Pickup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -141,8 +141,8 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pGroupID</i> parameter and use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pGroupID</i> parameter and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 
 

@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_currentcorrectionmode.htm
 tech.root: tablet
 ms.assetid: 92cd44a0-4dc6-4882-9ebb-45aa5b3fbc69
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: 92cd44a0-4dc6-4882-9ebb-45aa5b3fbc69, CurrentCorrectionMode property [Tablet PC], CurrentCorrectionMode property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentCorrectionMode property, ITextInputPanel.CurrentCorrectionMode, ITextInputPanel.get_CurrentCorrectionMode, ITextInputPanel::CurrentCorrectionMode, ITextInputPanel::get_CurrentCorrectionMode, get_CurrentCorrectionMode, peninputpanel/ITextInputPanel::CurrentCorrectionMode, peninputpanel/ITextInputPanel::get_CurrentCorrectionMode, tablet.itextinputpanel_currentcorrectionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,43 +83,47 @@ This C++ example implements an <code>EN_SETFOCUS</code> event handler for an Edi
 
 
 
-
-```cpp
-void CCOMTIPDlg::OnEnSetFocusEdit3()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void CCOMTIPDlg::OnEnSetFocusEdit3()
 {
     if (NULL != g_pTip)
     {
 		CorrectionMode mode;
 
-		if (SUCCEEDED(g_pTip->get_CurrentCorrectionMode(&mode)))
+		if (SUCCEEDED(g_pTip-&gt;get_CurrentCorrectionMode(&amp;mode)))
         {
 			TRACE("CurrentCorrectionMode: %d\n", mode);
 		}
 
 		InPlaceState state;
 
-		if (SUCCEEDED(g_pTip->get_CurrentInPlaceState(&state)))
+		if (SUCCEEDED(g_pTip-&gt;get_CurrentInPlaceState(&amp;state)))
         {
 			TRACE("CurrentInPlaceState: %d\n", state);
 		}
 
 		PanelInputArea area;
 
-		if (SUCCEEDED(g_pTip->get_CurrentInputArea(&area)))
+		if (SUCCEEDED(g_pTip-&gt;get_CurrentInputArea(&amp;area)))
         {
 			TRACE("CurrentInputArea: %d\n", area);
 		}
 
 		InteractionMode iMode;
 
-		if (SUCCEEDED(g_pTip->get_CurrentInteractionMode(&iMode)))
+		if (SUCCEEDED(g_pTip-&gt;get_CurrentInteractionMode(&amp;iMode)))
         {
 			TRACE("CurrentInteractionMode: %d\n", iMode);
 		}
 
         RECT rect;
 
-		if (SUCCEEDED(g_pTip->get_InPlaceBoundingRectangle(&rect)))
+		if (SUCCEEDED(g_pTip-&gt;get_InPlaceBoundingRectangle(&amp;rect)))
         {
 	        TRACE("InPlaceBoundingRectangle.top: %d\n", rect.top);
 	        TRACE("InPlaceBoundingRectangle.left: %d\n", rect.left);
@@ -129,17 +133,17 @@ void CCOMTIPDlg::OnEnSetFocusEdit3()
 
 	    int nHeight;
 
-		if (SUCCEEDED(g_pTip->get_PopDownCorrectionHeight(&nHeight)))
+		if (SUCCEEDED(g_pTip-&gt;get_PopDownCorrectionHeight(&amp;nHeight)))
         {
 	        TRACE("PopDownCorrectionHeight: %d\n", nHeight);
         }
 
-	    if (SUCCEEDED(g_pTip->get_PopUpCorrectionHeight(&nHeight)))
+	    if (SUCCEEDED(g_pTip-&gt;get_PopUpCorrectionHeight(&amp;nHeight)))
         {
 	        TRACE("PopUpCorrectionHeight: %d\n", nHeight);
         }
 
-		if (SUCCEEDED(g_pTip->SetInPlacePosition(300, 300, CorrectionPosition_Bottom)))
+		if (SUCCEEDED(g_pTip-&gt;SetInPlacePosition(300, 300, CorrectionPosition_Bottom)))
 		{
 			TRACE("Call to SetInPlacePosition() succeeded.\n");
 		}
@@ -152,10 +156,10 @@ void CCOMTIPDlg::OnEnSetFocusEdit3()
     {
         TRACE("ITextInputPanel object is NULL.\n");
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

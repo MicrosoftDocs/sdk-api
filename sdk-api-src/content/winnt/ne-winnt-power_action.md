@@ -7,7 +7,7 @@ old-location: base\power_action.htm
 tech.root: power
 ms.assetid: 815e1f2d-0fc9-446c-ae83-5d5cfea57ab7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/13/2018
 ms.keywords: "*PPOWER_ACTION, POWER_ACTION, POWER_ACTION enumeration, PPOWER_ACTION, PPOWER_ACTION enumeration pointer, PowerActionHibernate, PowerActionNone, PowerActionReserved, PowerActionShutdown, PowerActionShutdownOff, PowerActionShutdownReset, PowerActionSleep, PowerActionWarmEject, _win32_power_action, base.power_action, winnt/POWER_ACTION, winnt/PPOWER_ACTION, winnt/PowerActionHibernate, winnt/PowerActionNone, winnt/PowerActionReserved, winnt/PowerActionShutdown, winnt/PowerActionShutdownOff, winnt/PowerActionShutdownReset, winnt/PowerActionSleep, winnt/PowerActionWarmEject"
 ms.prod: windows
 ms.technology: windows-sdk

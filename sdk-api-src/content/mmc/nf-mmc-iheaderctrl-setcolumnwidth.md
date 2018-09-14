@@ -7,7 +7,7 @@ old-location: mmc\iheaderctrl_setcolumnwidth.htm
 tech.root: mmc
 ms.assetid: E704FF35-3859-4313-B42D-77A114AA6E78
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IHeaderCtrl interface [MMC],SetColumnWidth method, IHeaderCtrl.SetColumnWidth, IHeaderCtrl::SetColumnWidth, MMCLV_AUTO, SetColumnWidth, SetColumnWidth method [MMC], SetColumnWidth method [MMC],IHeaderCtrl interface, mmc.iheaderctrl_setcolumnwidth, mmc/IHeaderCtrl::SetColumnWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,7 +91,7 @@ MMC does not persist in memory any changes made to a column set due to the actio
 <a href="https://msdn.microsoft.com/acec421f-edd4-49b6-a244-7099c524fe75">IHeaderCtrl2 and Column Persistence</a>.
 
 The HIDE_COLUMN flag for the nWidth parameter is not supported for 
-SetColumnWidth. If the snap-in must hide the column, it must call <a href="https://msdn.microsoft.com/en-us/library/Mt300850(v=VS.85).aspx">IConsole::SelectScopeItem</a> to reselect the scope item and then in the resulting call to the snap-in's <a href="https://msdn.microsoft.com/cc2a9da4-1351-4930-8fb4-577cdcc14e10">MMCN_SHOW</a> notification handler, it must use nWidth=HIDE_COLUMN when inserting the column (in the call to <a href="https://msdn.microsoft.com/F5499550-9460-4BF9-AF99-F4BDC7F32EBC">IHeaderCtrl::InsertColumn</a>).
+SetColumnWidth. If the snap-in must hide the column, it must call <a href="https://msdn.microsoft.com/43d6ea1a-6ba4-4566-8bf7-3763f3a54f8d">IConsole::SelectScopeItem</a> to reselect the scope item and then in the resulting call to the snap-in's <a href="https://msdn.microsoft.com/cc2a9da4-1351-4930-8fb4-577cdcc14e10">MMCN_SHOW</a> notification handler, it must use nWidth=HIDE_COLUMN when inserting the column (in the call to <a href="https://msdn.microsoft.com/F5499550-9460-4BF9-AF99-F4BDC7F32EBC">IHeaderCtrl::InsertColumn</a>).
 
 
 
@@ -101,7 +101,7 @@ SetColumnWidth. If the snap-in must hide the column, it must call <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300857(v=VS.85).aspx">IHeaderCtrl</a>
+<a href="https://msdn.microsoft.com/64da2c79-2ede-4b17-a706-8e5cc0ade007">IHeaderCtrl</a>
 
 
 

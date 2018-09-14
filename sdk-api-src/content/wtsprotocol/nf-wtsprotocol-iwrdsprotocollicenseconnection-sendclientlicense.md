@@ -4,10 +4,10 @@ title: IWRdsProtocolLicenseConnection::SendClientLicense
 author: windows-sdk-content
 description: Sends a license to the client.
 old-location: termserv\iwrdsprotocollicenseconnection_sendclientlicense.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a758f6c8-1f84-4c20-857c-019cde68915c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],SendClientLicense method, IWRdsProtocolLicenseConnection.SendClientLicense, IWRdsProtocolLicenseConnection::SendClientLicense, SendClientLicense, SendClientLicense method [Remote Desktop Services], SendClientLicense method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_sendclientlicense, wtsprotocol/IWRdsProtocolLicenseConnection::SendClientLicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

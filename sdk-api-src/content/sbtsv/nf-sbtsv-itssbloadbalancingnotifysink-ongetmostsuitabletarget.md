@@ -4,10 +4,10 @@ title: ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget
 author: windows-sdk-content
 description: Returns a load-balancing result to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbloadbalancingnotifysink_ongetmostsuitabletarget.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 44e44c05-6bdf-4f02-acdb-b03a136d9a3a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITsSbLoadBalancingNotifySink interface [Remote Desktop Services],OnGetMostSuitableTarget method, ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget, ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget, OnGetMostSuitableTarget, OnGetMostSuitableTarget method [Remote Desktop Services], OnGetMostSuitableTarget method [Remote Desktop Services],ITsSbLoadBalancingNotifySink interface, sbtsv/ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget, termserv.itssbloadbalancingnotifysink_ongetmostsuitabletarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: indexsrv\locatecatalogs.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_4t6b.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/30/2018
 ms.keywords: LocateCatalogs, LocateCatalogs function [Indexing Service], LocateCatalogsA, LocateCatalogsW, _idxs_LocateCatalogs, indexsrv.locatecatalogs, ntquery/LocateCatalogs, ntquery/LocateCatalogsA, ntquery/LocateCatalogsW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Finds the catalog that indexes a directory.
 
@@ -176,9 +176,13 @@ This example enumerates all computers and catalogs capable of resolving queries 
 
 
 
-
-```cpp
-HRESULT hr = S_OK;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = S_OK;
  
 for ( ULONG iBmk = 0; S_OK == hr; iBmk++ )
 {
@@ -192,20 +196,20 @@ for ( ULONG iBmk = 0; S_OK == hr; iBmk++ )
     hr = LocateCatalogs( L"c:\\directory",
                          iBmk,
                          awcMachine,
-                         &cwcMachine,
+                         &amp;cwcMachine,
                          awcCatalog,
-                         &cwcCatalog );
-    if ( ( hr == S_OK ) &&
-         ( cwcMachine <= cwcMachineBuffer ) &&
-         ( cwcCatalog <= cwcCatalogBuffer ) )
+                         &amp;cwcCatalog );
+    if ( ( hr == S_OK ) &amp;&amp;
+         ( cwcMachine &lt;= cwcMachineBuffer ) &amp;&amp;
+         ( cwcCatalog &lt;= cwcCatalogBuffer ) )
     {
         wprintf( L"matching machine and catalog: '%s', '%s'\n", 
                 awcMachine, awcCatalog );
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -214,7 +218,7 @@ for ( ULONG iBmk = 0; S_OK == hr; iBmk++ )
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691047(v=VS.85).aspx">SetCatalogState</a>
+<a href="https://msdn.microsoft.com/5129179c-71ca-4e89-86de-e4ba69aba2e4">SetCatalogState</a>
  
 
  

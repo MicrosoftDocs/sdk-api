@@ -4,10 +4,10 @@ title: IRichEditOle::InsertObject
 author: windows-sdk-content
 description: Inserts an object into a rich edit control.
 old-location: controls\IRichEditOle_InsertObject.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleinsertobject.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IRichEditOle interface [Windows Controls],InsertObject method, IRichEditOle.InsertObject, IRichEditOle::InsertObject, InsertObject, InsertObject method [Windows Controls], InsertObject method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_InsertObject, _win32_IRichEditOle_InsertObject_cpp, controls.IRichEditOle_InsertObject, controls._win32_IRichEditOle_InsertObject, richole/IRichEditOle::InsertObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Inserts an object into a rich edit control.
 
 ### -param lpreobject
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787946(v=VS.85).aspx">REOBJECT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/d7957c09-11aa-402e-9cff-3e3491059b08">REOBJECT</a>*</b>
 
 The object information and interfaces. The rich edit control automatically increments the reference count for the interfaces if it holds onto them, so the caller can safely release the interfaces if they are not needed. 
 
@@ -80,7 +80,7 @@ Returns S_OK on success, or a failure code otherwise. E_OUTOFMEMORY is returned 
 
 
 
-If the <b>cp</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787946(v=VS.85).aspx">REOBJECT</a> structure is REO_CP_SELECTION, the selection is replaced with the specified object.
+If the <b>cp</b> member of the <a href="https://msdn.microsoft.com/d7957c09-11aa-402e-9cff-3e3491059b08">REOBJECT</a> structure is REO_CP_SELECTION, the selection is replaced with the specified object.
 	
 
 
@@ -91,11 +91,11 @@ If the <b>cp</b> member of the <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
+<a href="https://msdn.microsoft.com/d6d1794b-f16c-4a8c-84f5-dfe8bd8be08c">IRichEditOle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787946(v=VS.85).aspx">REOBJECT</a>
+<a href="https://msdn.microsoft.com/d7957c09-11aa-402e-9cff-3e3491059b08">REOBJECT</a>
 
 
 

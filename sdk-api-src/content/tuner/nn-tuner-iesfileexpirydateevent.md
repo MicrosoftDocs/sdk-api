@@ -4,10 +4,10 @@ title: IESFileExpiryDateEvent
 author: windows-sdk-content
 description: Gets information from a FileExpiryDate event.
 old-location: mstv\iesfileexpirydateevent.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 6c89a3ee-7d69-4cde-b1e5-b566fa1c2ca3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IESFileExpiryDateEvent, IESFileExpiryDateEvent interface [Microsoft TV Technologies], IESFileExpiryDateEvent interface [Microsoft TV Technologies],described, mstv.iesfileexpirydateevent, tuner/IESFileExpiryDateEvent
 ms.prod: windows
 ms.technology: windows-sdk

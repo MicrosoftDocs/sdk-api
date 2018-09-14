@@ -7,7 +7,7 @@ old-location: input_intcontext\setpivotinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 3997e444-e90a-417f-a75c-69363b4c82d2
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/29/2018
 ms.keywords: SetPivotInteractionContext, SetPivotInteractionContext function, input_intcontext.setpivotinteractioncontext, interactioncontext.setpivotinteractioncontext, interactioncontext/SetPivotInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

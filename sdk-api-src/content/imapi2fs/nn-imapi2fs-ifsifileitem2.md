@@ -7,7 +7,7 @@ old-location: imapi\ifsifileitem2.htm
 tech.root: imapi
 ms.assetid: f35d1cd9-8a04-4c12-9af3-38f2c44b8c06
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IFsiFileItem2, IFsiFileItem2 interface [IMAPI], IFsiFileItem2 interface [IMAPI],described, imapi.ifsifileitem2, imapi2fs/IFsiFileItem2
 ms.prod: windows
 ms.technology: windows-sdk

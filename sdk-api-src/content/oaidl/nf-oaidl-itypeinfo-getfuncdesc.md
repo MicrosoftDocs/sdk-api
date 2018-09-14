@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getfuncdesc.htm
 tech.root: automat
 ms.assetid: 1e3331a2-0156-4d8f-aa7f-e32cecd3eb74
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetFuncDesc, GetFuncDesc method [Automation], GetFuncDesc method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetFuncDesc method, ITypeInfo.GetFuncDesc, ITypeInfo::GetFuncDesc, _oa96_ITypeInfo_GetFuncDesc, automat.itypeinfo_getfuncdesc, oaidl/ITypeInfo::GetFuncDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,16 +135,20 @@ The function <b>ITypeInfo::GetFuncDesc</b> provides access to a FUNCDESC structu
 
 In the following example, the CHECKRESULT function is undefined. Replace this function with your error handling code.
 
-
-```cpp
-CHECKRESULT(ptypeinfo->GetFuncDesc(i, &pfuncdesc));
-idMember = pfuncdesc->memid;
-CHECKRESULT(ptypeinfo->GetDocumentation(idMember, &bstrName, NULL, NULL, NULL));
-ptypeinfo->ReleaseFuncDesc(pfuncdesc);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHECKRESULT(ptypeinfo-&gt;GetFuncDesc(i, &amp;pfuncdesc));
+idMember = pfuncdesc-&gt;memid;
+CHECKRESULT(ptypeinfo-&gt;GetDocumentation(idMember, &amp;bstrName, NULL, NULL, NULL));
+ptypeinfo-&gt;ReleaseFuncDesc(pfuncdesc);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

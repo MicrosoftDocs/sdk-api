@@ -7,7 +7,7 @@ old-location: mf\imfclockconsumer_getpresentationclock.htm
 tech.root: medfound
 ms.assetid: 92EC184F-EF13-4453-B1C0-D7DCD4C7F44C
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: GetPresentationClock, GetPresentationClock method [Media Foundation], GetPresentationClock method [Media Foundation],IMFClockConsumer interface, IMFClockConsumer interface [Media Foundation],GetPresentationClock method, IMFClockConsumer.GetPresentationClock, IMFClockConsumer::GetPresentationClock, mf.imfclockconsumer_getpresentationclock, mfidl/IMFClockConsumer::GetPresentationClock
 ms.prod: windows-hardware
 ms.technology: windows-devices

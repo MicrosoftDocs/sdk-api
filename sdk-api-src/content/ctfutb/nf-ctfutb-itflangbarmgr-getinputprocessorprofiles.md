@@ -7,7 +7,7 @@ old-location: tsf\itflangbarmgr_getinputprocessorprofiles.htm
 tech.root: TSF
 ms.assetid: 679d101b-b3f9-4771-9c68-729a6a3486de
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetInputProcessorProfiles, GetInputProcessorProfiles method [Text Services Framework], GetInputProcessorProfiles method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetInputProcessorProfiles method, ITfLangBarMgr.GetInputProcessorProfiles, ITfLangBarMgr::GetInputProcessorProfiles, _tsf_itflangbarmgr_getinputprocessorprofiles_ref, ctfutb/ITfLangBarMgr::GetInputProcessorProfiles, tsf.itflangbarmgr_getinputprocessorprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628748(v=VS.85).aspx">ITfLangBarMgr</a>
+<a href="https://msdn.microsoft.com/60bd765f-0846-47f5-af1b-bc8e72720841">ITfLangBarMgr</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: hidpi\getdialogdpichangebehavior.htm
 tech.root: hidpi
 ms.assetid: 8ED61C77-36C8-453B-BAB1-505CE4974D63
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetDialogDpiChangeBehavior, GetDialogDpiChangeBehavior function [High DPI], hidpi.getdialogdpichangebehavior, winuser/GetDialogDpiChangeBehavior
 ms.prod: windows-hardware
 ms.technology: windows-devices

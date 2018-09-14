@@ -7,7 +7,7 @@ old-location: netmgmt\netwkstagetinfo.htm
 tech.root: netmgmt
 ms.assetid: 08777069-1afd-4482-8090-c65ef0bec1ea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: 100, 101, 102, NetWkstaGetInfo, NetWkstaGetInfo function [Network Management], _win32_netwkstagetinfo, lmwksta/NetWkstaGetInfo, netmgmt.netwkstagetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -170,7 +170,7 @@ The <i>level</i> parameter is invalid.
 <a href="https://msdn.microsoft.com/fd3b718a-5eff-4894-9fc6-d157ddb67330">Access Control Model</a>.
 
 <b>Windows 2000:  </b>If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the securable object. The default ACL permits all authenticated users and members of the "
-<a href="https://msdn.microsoft.com/library/Aa375347(v=VS.85).aspx">Pre-Windows 2000 compatible access</a>" group to view the information. By default, the "Pre-Windows 2000 compatible access" group includes Everyone as a member. This enables anonymous access to the information if the system allows anonymous access. If you call this function on a member server or workstation, all authenticated users can view the information. Anonymous access is also permitted if the RestrictAnonymous policy setting allows anonymous access.
+<a href="security.pre_windows_2000_compatible_access_group">Pre-Windows 2000 compatible access</a>" group to view the information. By default, the "Pre-Windows 2000 compatible access" group includes Everyone as a member. This enables anonymous access to the information if the system allows anonymous access. If you call this function on a member server or workstation, all authenticated users can view the information. Anonymous access is also permitted if the RestrictAnonymous policy setting allows anonymous access.
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0400 or later. For more information,see 
 <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
@@ -183,16 +183,20 @@ The following code sample demonstrates how to retrieve information about the con
 <b>NetWkstaGetInfo</b>, specifying information level 102 (
 <a href="https://msdn.microsoft.com/01607fb5-c433-439c-aaaa-3736697f7c07">WKSTA_INFO_102</a>). If the call succeeds, the sample prints information about the workstation. Finally, the code sample frees the memory allocated for the information buffer.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -203,7 +207,7 @@ int wmain(int argc, wchar_t *argv[])
    //
    // Check command line arguments.
    //
-   if (argc > 2)
+   if (argc &gt; 2)
    {
       fwprintf(stderr, L"Usage: %s [\\\\ServerName]\n", argv[0]);
       exit(1);
@@ -217,20 +221,20 @@ int wmain(int argc, wchar_t *argv[])
    //
    nStatus = NetWkstaGetInfo(pszServerName,
                              dwLevel,
-                             (LPBYTE *)&pBuf);
+                             (LPBYTE *)&amp;pBuf);
    //
    // If the call is successful,
    //  print the workstation data.
    //
    if (nStatus == NERR_Success)
    {
-      printf("\n\tPlatform: %d\n", pBuf->wki102_platform_id);
-      wprintf(L"\tName:     %s\n", pBuf->wki102_computername);
-      printf("\tVersion:  %d.%d\n", pBuf->wki102_ver_major,
-                                  pBuf->wki102_ver_minor);
-      wprintf(L"\tDomain:   %s\n", pBuf->wki102_langroup);
-      wprintf(L"\tLan Root: %s\n", pBuf->wki102_lanroot);
-      wprintf(L"\t# Logged On Users: %d\n", pBuf->wki102_logged_on_users);
+      printf("\n\tPlatform: %d\n", pBuf-&gt;wki102_platform_id);
+      wprintf(L"\tName:     %s\n", pBuf-&gt;wki102_computername);
+      printf("\tVersion:  %d.%d\n", pBuf-&gt;wki102_ver_major,
+                                  pBuf-&gt;wki102_ver_minor);
+      wprintf(L"\tDomain:   %s\n", pBuf-&gt;wki102_langroup);
+      wprintf(L"\tLan Root: %s\n", pBuf-&gt;wki102_lanroot);
+      wprintf(L"\t# Logged On Users: %d\n", pBuf-&gt;wki102_logged_on_users);
    }
    //
    // Otherwise, indicate the system error.
@@ -245,10 +249,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamhandler_begincreateobject.htm
 tech.root: medfound
 ms.assetid: 31dffadd-4a5a-4306-80e9-9002782f092c
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 31dffadd-4a5a-4306-80e9-9002782f092c, BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],BeginCreateObject method, IMFByteStreamHandler.BeginCreateObject, IMFByteStreamHandler::BeginCreateObject, mf.imfbytestreamhandler_begincreateobject, mfidl/IMFByteStreamHandler::BeginCreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

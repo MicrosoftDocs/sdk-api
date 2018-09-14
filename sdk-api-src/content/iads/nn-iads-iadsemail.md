@@ -7,7 +7,7 @@ old-location: adsi\iadsemail.htm
 tech.root: ADSI
 ms.assetid: ce788365-9e43-4bce-89c3-07506cb308fa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: Email, IADsEmail, IADsEmail interface [ADSI], IADsEmail interface [ADSI],described, _ds_iadsemail, adsi.iadsemail, iads/IADsEmail
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

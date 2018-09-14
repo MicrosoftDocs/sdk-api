@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11query_getdesc.htm
 tech.root: direct3d11
 ms.assetid: 7eca470a-98ff-450a-8ff9-3b929ff70deb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 81b30780-0d31-5b18-acbb-e89550c3c0f3, GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11Query interface, ID3D11Query interface [Direct3D 11],GetDesc method, ID3D11Query.GetDesc, ID3D11Query::GetDesc, d3d11/ID3D11Query::GetDesc, direct3d11.id3d11query_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,9 +61,9 @@ Get a query description.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476195(v=VS.85).aspx">D3D11_QUERY_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/2ed8e380-744b-41e1-87c8-9c7e8100ea2f">D3D11_QUERY_DESC</a>*</b>
 
-Pointer to a query description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476195(v=VS.85).aspx">D3D11_QUERY_DESC</a>).
+Pointer to a query description (see <a href="https://msdn.microsoft.com/2ed8e380-744b-41e1-87c8-9c7e8100ea2f">D3D11_QUERY_DESC</a>).
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476578(v=VS.85).aspx">ID3D11Query</a>
+<a href="https://msdn.microsoft.com/d296a5aa-147c-460d-acc6-e097ea503378">ID3D11Query</a>
  
 
  

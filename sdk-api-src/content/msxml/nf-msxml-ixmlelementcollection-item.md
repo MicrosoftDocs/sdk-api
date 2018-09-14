@@ -4,10 +4,10 @@ title: IXMLElementCollection::item
 author: windows-sdk-content
 description: Retrieves the child elements from a collection using their index, name, or both.
 old-location: winprog\ixmlelementcollection_item.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 3851fe72-b826-4948-ba74-638229429345
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IXMLElementCollection interface [Windows API],item method, IXMLElementCollection.item, IXMLElementCollection::item, item, item method [Windows API], item method [Windows API],IXMLElementCollection interface, msxml/IXMLElementCollection::item, winprog.ixmlelementcollection_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

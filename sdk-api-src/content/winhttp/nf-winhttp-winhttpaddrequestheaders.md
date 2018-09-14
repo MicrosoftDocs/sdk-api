@@ -4,10 +4,10 @@ title: WinHttpAddRequestHeaders function
 author: windows-sdk-content
 description: Adds one or more HTTP request headers to the HTTP request handle.
 old-location: http\winhttpaddrequestheaders.htm
-tech.root: WinHttp
+tech.root: winhttp
 ms.assetid: 16cab68c-a802-43cc-87cd-60fcecb6a751
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/11/2018
 ms.keywords: WINHTTP_ADDREQ_FLAG_ADD, WINHTTP_ADDREQ_FLAG_ADD_IF_NEW, WINHTTP_ADDREQ_FLAG_COALESCE, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON, WINHTTP_ADDREQ_FLAG_REPLACE, WinHttpAddRequestHeaders, WinHttpAddRequestHeaders function [WinHTTP], http.winhttpaddrequestheaders, winhttp/WinHttpAddRequestHeaders, winhttp_winhttpaddrequestheaders_function
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -227,7 +227,7 @@ The
 The name and value of request headers added with this function are validated.  Headers must be well formed. For more information about valid HTTP headers, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.  If an invalid header is used, this function fails and 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383770(v=VS.85).aspx">ERROR_INVALID_PARAMETER</a>.  The invalid header is not added.
+<a href="error_messages.htm">ERROR_INVALID_PARAMETER</a>.  The invalid header is not added.
 
 If you are sending a Date: request header, you can use the <a href="https://msdn.microsoft.com/8d55e3bb-0b86-41d9-ba39-62feb2acc707">WinHttpTimeFromSystemTime</a> function to create structure for the header.
 
@@ -244,9 +244,13 @@ An application can also use
 
 The following code example includes an If-Modified-Since header in a request.  The response header is interpreted to determine whether the target document has been updated.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
   DWORD dwSize = sizeof(DWORD);
   DWORD dwStatusCode = 0;
   BOOL  bResults = FALSE;
@@ -304,8 +308,8 @@ The following code example includes an If-Modified-Since header in a request.  T
     bResults = WinHttpQueryHeaders( hRequest, 
                 WINHTTP_QUERY_STATUS_CODE | WINHTTP_QUERY_FLAG_NUMBER,
                                     NULL, 
-                                    &dwStatusCode,
-                                    &dwSize,
+                                    &amp;dwStatusCode,
+                                    &amp;dwSize,
                                     WINHTTP_NO_HEADER_INDEX );
 
   // Based on the status code, determine whether 
@@ -328,10 +332,10 @@ The following code example includes an If-Modified-Since header in a request.  T
   if( hRequest ) WinHttpCloseHandle( hRequest );
   if( hConnect ) WinHttpCloseHandle( hConnect );
   if( hSession ) WinHttpCloseHandle( hSession );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

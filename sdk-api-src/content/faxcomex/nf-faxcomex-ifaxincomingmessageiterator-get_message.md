@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageit
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_93tx.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: IFaxIncomingMessageIterator interface [Fax Service],Message property, IFaxIncomingMessageIterator.Message, IFaxIncomingMessageIterator.get_Message, IFaxIncomingMessageIterator::Message, IFaxIncomingMessageIterator::get_Message, Message property [Fax Service], Message property [Fax Service],IFaxIncomingMessageIterator interface, _mfax_faxincomingmessageiterator.message, fax._mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_message_cpp, fax._mfax_faxincomingmessageiterator_message, faxcomex/IFaxIncomingMessageIterator::Message, faxcomex/IFaxIncomingMessageIterator::get_Message, get_Message
 ms.prod: windows-hardware
 ms.technology: windows-devices

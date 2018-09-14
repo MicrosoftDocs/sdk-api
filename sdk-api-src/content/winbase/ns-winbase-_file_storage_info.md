@@ -4,10 +4,10 @@ title: "_FILE_STORAGE_INFO"
 author: windows-sdk-content
 description: Contains directory information for a file.
 old-location: fs\file_storage_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1aa9585d-9001-4d94-babe-a39c8dde2332
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PFILE_STORAGE_INFO, FILE_STORAGE_INFO, FILE_STORAGE_INFO structure [Files], PFILE_STORAGE_INFO, PFILE_STORAGE_INFO structure pointer [Files], STORAGE_INFO_FLAGS_ALIGNED_DEVICE, STORAGE_INFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE, _FILE_STORAGE_INFO, fs.file_storage_info, winbase/FILE_STORAGE_INFO, winbase/PFILE_STORAGE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IIsdbDataContentDescriptor::GetLength
 author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) data content descriptor, in bytes.
 old-location: mstv\iisdbdatacontentdescriptor_getlength.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 51546c62-5042-460d-a792-2253bd57df13
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbDataContentDescriptor.GetLength, IIsdbDataContentDescriptor::GetLength, dvbsiparser/IIsdbDataContentDescriptor::GetLength, mstv.iisdbdatacontentdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

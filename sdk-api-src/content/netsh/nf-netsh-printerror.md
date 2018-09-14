@@ -4,10 +4,10 @@ title: PrintError function
 author: windows-sdk-content
 description: Displays a system or application error message to the NetShell console.
 old-location: netshell\printerror.htm
-tech.root: netshell
+tech.root: NetShell
 ms.assetid: de48b797-9cb5-4bc0-89d4-86dd7f56a610
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PrintError, PrintError function [NetShell], _netsh_printerror, netsh/PrintError, netshell.printerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

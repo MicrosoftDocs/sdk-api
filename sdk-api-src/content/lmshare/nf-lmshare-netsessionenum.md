@@ -4,10 +4,10 @@ title: NetSessionEnum function
 author: windows-sdk-content
 description: Provides information about sessions established on a server.
 old-location: fs\netsessionenum.htm
-tech.root: netshare
+tech.root: NetShare
 ms.assetid: 5923a8cc-bf7a-4ffa-b089-fd7f26ee42d2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, 1, 10, 2, 502, NetSessionEnum, NetSessionEnum function [Files], _win32_netsessionenum, fs.netsessionenum, lmshare/NetSessionEnum, netmgmt.netsessionenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -306,17 +306,21 @@ The following code sample demonstrates how to retrieve information about current
 <b>NetSessionEnum</b>, specifying information level 10 (
 <a href="https://msdn.microsoft.com/a23a5647-f99d-4cb8-9d84-93653a3e7428">SESSION_INFO_10</a>). The sample loops through the entries and prints the retrieved information. Finally, the code prints the total number of sessions enumerated and frees the memory allocated for the information buffer.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "Netapi32.lib")
 
-#include <stdio.h>
-#include <assert.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;assert.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -336,16 +340,16 @@ int wmain(int argc, wchar_t *argv[])
    //
    // Check command line arguments.
    //
-   if (argc > 4)
+   if (argc &gt; 4)
    {
       wprintf(L"Usage: %s [\\\\ServerName] [\\\\ClientName] [UserName]\n", argv[0]);
       exit(1);
    }
 
-   if (argc >= 2)
+   if (argc &gt;= 2)
       pszServerName = argv[1];
 
-   if (argc >= 3)
+   if (argc &gt;= 3)
       pszClientName = argv[2];
 
    if (argc == 4)
@@ -359,11 +363,11 @@ int wmain(int argc, wchar_t *argv[])
                                pszClientName,
                                pszUserName,
                                dwLevel,
-                               (LPBYTE*)&pBuf,
+                               (LPBYTE*)&amp;pBuf,
                                dwPrefMaxLen,
-                               &dwEntriesRead,
-                               &dwTotalEntries,
-                               &dwResumeHandle);
+                               &amp;dwEntriesRead,
+                               &amp;dwTotalEntries,
+                               &amp;dwResumeHandle);
       //
       // If the call succeeds,
       //
@@ -374,7 +378,7 @@ int wmain(int argc, wchar_t *argv[])
             //
             // Loop through the entries.
             //
-            for (i = 0; (i < dwEntriesRead); i++)
+            for (i = 0; (i &lt; dwEntriesRead); i++)
             {
                assert(pTmpBuf != NULL);
 
@@ -386,10 +390,10 @@ int wmain(int argc, wchar_t *argv[])
                //
                // Print the retrieved data. 
                //
-               wprintf(L"\n\tClient: %s\n", pTmpBuf->sesi10_cname);
-               wprintf(L"\tUser:   %s\n", pTmpBuf->sesi10_username);
-               printf("\tActive: %d\n", pTmpBuf->sesi10_time);
-               printf("\tIdle:   %d\n", pTmpBuf->sesi10_idle_time);
+               wprintf(L"\n\tClient: %s\n", pTmpBuf-&gt;sesi10_cname);
+               wprintf(L"\tUser:   %s\n", pTmpBuf-&gt;sesi10_username);
+               printf("\tActive: %d\n", pTmpBuf-&gt;sesi10_time);
+               printf("\tIdle:   %d\n", pTmpBuf-&gt;sesi10_idle_time);
 
                pTmpBuf++;
                dwTotalCount++;
@@ -427,10 +431,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

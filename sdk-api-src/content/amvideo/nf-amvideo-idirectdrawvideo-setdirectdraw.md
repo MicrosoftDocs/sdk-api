@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_setdirectdraw.htm
 tech.root: DirectShow
 ms.assetid: fd7b9571-2edb-4f36-b7a3-b280c37cb471
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetDirectDraw method, IDirectDrawVideo.SetDirectDraw, IDirectDrawVideo::SetDirectDraw, IDirectDrawVideoSetDirectDraw, SetDirectDraw, SetDirectDraw method [DirectShow], SetDirectDraw method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetDirectDraw, dshow.idirectdrawvideo_setdirectdraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

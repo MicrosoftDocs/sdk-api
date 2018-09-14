@@ -4,10 +4,10 @@ title: RasSetCredentialsW function
 author: windows-sdk-content
 description: Sets the user credentials associated with a specified RAS phone-book entry.
 old-location: rras\rassetcredentials.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 5ebfffb7-9158-4414-982c-e187600aa1ab
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: RasSetCredentials, RasSetCredentials function [RAS], RasSetCredentialsA, RasSetCredentialsW, _ras_rassetcredentials, ras/RasSetCredentials, ras/RasSetCredentialsA, ras/RasSetCredentialsW, rras.rassetcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -220,7 +220,7 @@ When setting credentials for an all-users connection, if
     the calling application specifies a non-NULL value for the phone-book parameter, 
     <i>lpszPhonebook</i>, the phone-book file must be located in the phone-book directory beneath 
     the all-users application data path. To obtain the correct location for the phone-book file, first call 
-    <a href="https://msdn.microsoft.com/en-us/library/Bb762181(v=VS.85).aspx">SHGetFolderPath</a> with a 
+    <a href="_win32_shgetfolderpath_cpp">SHGetFolderPath</a> with a 
     <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value of <b>CSIDL_COMMON_APPDATA</b>. 
     <b>SHGetFolderPath</b> returns the all-users 
     application data path. Append the following string to this path:

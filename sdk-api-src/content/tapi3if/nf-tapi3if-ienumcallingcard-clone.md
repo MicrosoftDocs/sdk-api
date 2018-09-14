@@ -4,10 +4,10 @@ title: IEnumCallingCard::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumcallingcard_clone.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: fb1a2ac3-12d1-42f0-9c73-c4d0d8a88700
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumCallingCard interface, IEnumCallingCard interface [TAPI 2.2],Clone method, IEnumCallingCard.Clone, IEnumCallingCard::Clone, _tapi3_ienumcallingcard_clone, tapi3.ienumcallingcard_clone, tapi3if/IEnumCallingCard::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,8 +130,8 @@ Failed for unknown reasons.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/d2eed88b-9a01-4205-a35d-92a24e07a1e2">IEnumCallingCard</a> interface returned by <b>IEnumCallingCard::Clone</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/d2eed88b-9a01-4205-a35d-92a24e07a1e2">IEnumCallingCard</a> interface returned by <b>IEnumCallingCard::Clone</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>IEnumCallingCard</b> interface to free resources associated with it.
 
 

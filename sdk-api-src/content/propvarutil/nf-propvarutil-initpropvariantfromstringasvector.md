@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromStringAsVector.htm
 tech.root: properties
 ms.assetid: fc48f2e0-ce4a-4f48-a624-202def4bcff0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: InitPropVariantFromStringAsVector, InitPropVariantFromStringAsVector function [Windows Properties], properties.InitPropVariantFromStringAsVector, propvarutil/InitPropVariantFromStringAsVector, shell.InitPropVariantFromStringAsVector, shell_InitPropVariantFromStringAsVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,21 +94,25 @@ If <i>psz</i> is <b>NULL</b> or contains no values, the <a href="https://msdn.mi
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762306(v=VS.85).aspx">InitPropVariantFromStringAsVector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>.
 
-
-```cpp
-PROPVARIANT propvar;
-HRESULT hr = InitPropVariantFromStringAsVector(L"a; b; c", &propvar);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PROPVARIANT propvar;
+HRESULT hr = InitPropVariantFromStringAsVector(L"a; b; c", &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now has type VT_VECTOR | VT_LPWSTR and contains {"a", "b", "c"}.
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -117,19 +121,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>
+<a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762307(v=VS.85).aspx">InitPropVariantFromStringVector</a>
+<a href="shell.InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762336(v=VS.85).aspx">InitVariantFromStringArray</a>
+<a href="shell.InitVariantFromStringArray">InitVariantFromStringArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776561(v=VS.85).aspx">PropVariantToStringVector</a>
+<a href="shell.PropVariantToStringVector">PropVariantToStringVector</a>
  
 
  

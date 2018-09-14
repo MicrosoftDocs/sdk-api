@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setgraphicsrootshaderresource
 tech.root: direct3d12
 ms.assetid: F16C8511-FF42-4DB3-81F7-9735FB1AADD7
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRootShaderResourceView method, ID3D12GraphicsCommandList.SetGraphicsRootShaderResourceView, ID3D12GraphicsCommandList::SetGraphicsRootShaderResourceView, SetGraphicsRootShaderResourceView, SetGraphicsRootShaderResourceView method, SetGraphicsRootShaderResourceView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootShaderResourceView, direct3d12.id3d12graphicscommandlist_setgraphicsrootshaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices

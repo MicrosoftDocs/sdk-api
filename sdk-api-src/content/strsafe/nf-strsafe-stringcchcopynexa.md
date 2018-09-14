@@ -7,7 +7,7 @@ old-location: menurc\stringcchcopynex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopynex.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchCopyNEx, StringCchCopyNEx function [Menus and Other Resources], StringCchCopyNExA, StringCchCopyNExW, _shell_StringCchCopyNEx, _shell_stringcchcopynex_cpp, menurc.stringcchcopynex, strsafe/StringCchCopyNEx, strsafe/StringCchCopyNExA, strsafe/StringCchCopyNExW, winui._shell_stringcchcopynex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,7 +54,7 @@ req.redist:
 
 Copies the specified number of characters from one string to another. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCchCopyNEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/en-us/library/ms647530(v=VS.85).aspx">StringCchCopyN</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
+<b>StringCchCopyNEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/5803c6fa-d1ae-4c3b-8627-162039e8c31f">StringCchCopyN</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
 
 <b>StringCchCopyNEx</b> is a replacement for the following functions:
 <ul>
@@ -238,7 +238,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 <b>StringCchCopyNEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCopyNEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
-While this routine is meant as a replacement for <a href="https://msdn.microsoft.com/library/xdsywd25(v=VS.100).aspx">strncpy</a>, there are differences in behavior. If <i>cchSrc</i> is larger than the number of characters in <i>pszSrc</i>, <b>StringCchCopyNEx</b>—unlike <b>strncpy</b>—does not continue to pad <i>pszDest</i> with null characters until <i>cchSrc</i> characters have been copied.
+While this routine is meant as a replacement for <a href="ac4345a1-a129-4f2f-bb8a-373ec58ab8b0">strncpy</a>, there are differences in behavior. If <i>cchSrc</i> is larger than the number of characters in <i>pszSrc</i>, <b>StringCchCopyNEx</b>—unlike <b>strncpy</b>—does not continue to pad <i>pszDest</i> with null characters until <i>cchSrc</i> characters have been copied.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
@@ -282,11 +282,11 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647503(v=VS.85).aspx">StringCbCopyNEx</a>
+<a href="https://msdn.microsoft.com/0ef55f41-000c-475a-8227-66df352366fb">StringCbCopyNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647530(v=VS.85).aspx">StringCchCopyN</a>
+<a href="https://msdn.microsoft.com/5803c6fa-d1ae-4c3b-8627-162039e8c31f">StringCchCopyN</a>
  
 
  

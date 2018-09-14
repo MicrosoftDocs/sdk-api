@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_registerocclusionstatuswindow.htm
 tech.root: direct3ddxgi
 ms.assetid: 8E8E3C2A-F973-4DC3-A226-DB3FF32F9CC4
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],RegisterOcclusionStatusWindow method, IDXGIFactory2.RegisterOcclusionStatusWindow, IDXGIFactory2::RegisterOcclusionStatusWindow, RegisterOcclusionStatusWindow, RegisterOcclusionStatusWindow method [DXGI], RegisterOcclusionStatusWindow method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_registerocclusionstatuswindow, dxgi1_2/IDXGIFactory2::RegisterOcclusionStatusWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,8 +83,8 @@ A pointer to a key value that an application can pass to the <a href="https://ms
 <li>S_OK if it successfully registered the window.</li>
 <li>E_OUTOFMEMORY if memory is unavailable to complete the operation.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a>  if <i>WindowHandle</i> is not a valid window handle or not the window handle that the current process owns.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a>  if <i>WindowHandle</i> is not a valid window handle or not the window handle that the current process owns.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

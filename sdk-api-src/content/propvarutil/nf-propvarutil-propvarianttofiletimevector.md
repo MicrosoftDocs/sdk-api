@@ -7,7 +7,7 @@ old-location: properties\PropVariantToFileTimeVector.htm
 tech.root: properties
 ms.assetid: ef665f50-3f3b-47db-9133-490305da5341
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: PropVariantToFileTimeVector, PropVariantToFileTimeVector function [Windows Properties], _shell_PropVariantToFileTimeVector, properties.PropVariantToFileTimeVector, propvarutil/PropVariantToFileTimeVector, shell.PropVariantToFileTimeVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,15 +151,19 @@ The output FILETIMEs will use the same time zone as the source FILETIMEs.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776543(v=VS.85).aspx">PropVariantToFileTimeVector</a> to access a FILETIME vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToFileTimeVector">PropVariantToFileTimeVector</a> to access a FILETIME vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid
 FILETIME rgTimes[4]; // The application is expecting propvar to hold 4 FILETIMEs in a vector
 ULONG cTimes;
-HRESULT hr = PropVariantToFileTimeVector(propvar, rgTime, ARRAYSIZE(rgTime), &cTimes);
+HRESULT hr = PropVariantToFileTimeVector(propvar, rgTime, ARRAYSIZE(rgTime), &amp;cTimes);
 if (SUCCEEDED(hr))
 {
      if (cTimes == ARRAYSIZE(rgTime))
@@ -170,10 +174,10 @@ if (SUCCEEDED(hr))
      {
          // The application got cTimes which are stored in the first cTimes elements of rgTime
      }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -182,15 +186,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762294(v=VS.85).aspx">InitPropVariantFromFileTimeVector</a>
+<a href="shell.InitPropVariantFromFileTimeVector">InitPropVariantFromFileTimeVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776542(v=VS.85).aspx">PropVariantToFileTime</a>
+<a href="shell.PropVariantToFileTime">PropVariantToFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776544(v=VS.85).aspx">PropVariantToFileTimeVectorAlloc</a>
+<a href="shell.PropVariantToFileTimeVectorAlloc">PropVariantToFileTimeVectorAlloc</a>
  
 
  

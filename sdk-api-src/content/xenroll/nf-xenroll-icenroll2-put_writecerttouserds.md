@@ -7,7 +7,7 @@ old-location: security\icenroll4_writecerttouserds.htm
 tech.root: seccrypto
 ms.assetid: 8c80f6b9-f5f7-4fa1-9cb5-db19cdc9ec25
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CEnroll object [Security],WriteCertToUserDS property, ICEnroll2 interface [Security],WriteCertToUserDS property, ICEnroll2.WriteCertToUserDS, ICEnroll2.put_WriteCertToUserDS, ICEnroll2::get_WriteCertToUserDS, ICEnroll2::put_WriteCertToUserDS, ICEnroll3 interface [Security],WriteCertToUserDS property, ICEnroll3.WriteCertToUserDS, ICEnroll3::get_WriteCertToUserDS, ICEnroll3::put_WriteCertToUserDS, ICEnroll4 interface [Security],WriteCertToUserDS property, ICEnroll4.WriteCertToUserDS, ICEnroll4::WriteCertToUserDS, ICEnroll4::get_WriteCertToUserDS, ICEnroll4::put_WriteCertToUserDS, WriteCertToUserDS property [Security], WriteCertToUserDS property [Security],CEnroll object, WriteCertToUserDS property [Security],ICEnroll2 interface, WriteCertToUserDS property [Security],ICEnroll3 interface, WriteCertToUserDS property [Security],ICEnroll4 interface, put_WriteCertToUserDS, security.icenroll4_writecerttouserds, xenroll/ICEnroll2::WriteCertToUserDS, xenroll/ICEnroll2::get_WriteCertToUserDS, xenroll/ICEnroll2::put_WriteCertToUserDS, xenroll/ICEnroll3::WriteCertToUserDS, xenroll/ICEnroll3::get_WriteCertToUserDS, xenroll/ICEnroll3::put_WriteCertToUserDS, xenroll/ICEnroll4::WriteCertToUserDS, xenroll/ICEnroll4::get_WriteCertToUserDS, xenroll/ICEnroll4::put_WriteCertToUserDS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,28 +93,32 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-
-```cpp
-BOOL     bWriteUserDS;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL     bWriteUserDS;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll2 interface pointer
 
 // get the WriteCertToUserDS value
-hr = pEnroll->get_WriteCertToUserDS( &bWriteUserDS );
+hr = pEnroll-&gt;get_WriteCertToUserDS( &amp;bWriteUserDS );
 if (FAILED( hr ))
     printf("Failed get_WriteCertToUserDS - %x\n", hr );
 else
     printf( "WriteCertToUserDS: %d\n", bWriteUserDS );
 
 // set the WriteCertToUserDS value
-hr = pEnroll->put_WriteCertToUserDS( TRUE );
+hr = pEnroll-&gt;put_WriteCertToUserDS( TRUE );
 if (FAILED( hr ))
     printf("Failed put_WriteCertToUserDS - %x\n", hr );
 else
-    printf( "WriteCertToUserDS set to TRUE\n" );
-```
-
-
+    printf( "WriteCertToUserDS set to TRUE\n" );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

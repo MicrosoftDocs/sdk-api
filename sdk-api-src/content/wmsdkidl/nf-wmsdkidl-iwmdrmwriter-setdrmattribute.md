@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmwriter_setdrmattribute.htm
 tech.root: wmformat
 ms.assetid: f54bba2a-872e-4ed1-b2c6-3e6b85a48df6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWMDRMWriter interface [windows Media Format],SetDRMAttribute method, IWMDRMWriter.SetDRMAttribute, IWMDRMWriter::SetDRMAttribute, IWMDRMWriterSetDRMAttribute, SetDRMAttribute, SetDRMAttribute method [windows Media Format], SetDRMAttribute method [windows Media Format],IWMDRMWriter interface, wmformat.iwmdrmwriter_setdrmattribute, wmsdkidl/IWMDRMWriter::SetDRMAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,16 +109,20 @@ This method is somewhat misnamed because it is used to set not only writable DRM
 
 The properties <b>Use_Advanced_DRM</b> and <b>Use_DRM</b> may be specified before a profile is set. No other properties can be set before a profile is set. The following code snippet shows how to call this function, using the <a href="https://msdn.microsoft.com/111765f6-963c-477d-8224-8e4fa06b0cc3">DRM_ContentID</a> property as an example. Assume that <i>pDRMWriter</i> is a <b>IWMDRMWriter</b> interface pointer, and <i>wszContentID</i> is an array of type <b>WCHAR</b>.
 
-
-```cpp
-
-hr = pDRMWriter->SetDRMAttribute( 0, g_wszWMDRM_ContentID, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+hr = pDRMWriter-&gt;SetDRMAttribute( 0, g_wszWMDRM_ContentID, 
         WMT_TYPE_STRING, (BYTE *)wszContentID, 
         ( wcslen( wszContentID ) + 1 ) * sizeof( WCHAR ) );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

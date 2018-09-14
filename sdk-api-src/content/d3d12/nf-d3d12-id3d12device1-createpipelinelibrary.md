@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device1_createpipelinelibrary.htm
 tech.root: direct3d12
 ms.assetid: 572A95A6-A02F-4512-9BDE-2A8CA58A0A27
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: CreatePipelineLibrary, CreatePipelineLibrary method, CreatePipelineLibrary method,ID3D12Device1 interface, ID3D12Device1 interface,CreatePipelineLibrary method, ID3D12Device1.CreatePipelineLibrary, ID3D12Device1::CreatePipelineLibrary, d3d12/ID3D12Device1::CreatePipelineLibrary, direct3d12.id3d12device1_createpipelinelibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ Returns a pointer to the created library.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code, including E_INVALIDARG if the blob is corrupted or unrecognized, D3D12_ERROR_DRIVER_VERSION_MISMATCH if the provided data came from an old driver or runtime, and D3D12_ERROR_ADAPTER_NOT_FOUND if the data came from different hardware.
 
@@ -113,12 +113,12 @@ A pipeline library enables the following operations.
 <li>Adding Pipeline State Objects (PSOs) to an existing library object (refer to <a href="https://msdn.microsoft.com/A7847966-4B31-47EA-A5CB-B6576CD2501F">StorePipeline</a>). 
 
       </li>
-<li>Serializing a PSO library into a contiguous block of memory for disk storage (refer to <a href="https://msdn.microsoft.com/en-us/library/Mt709149(v=VS.85).aspx">Serialize</a>).</li>
+<li>Serializing a PSO library into a contiguous block of memory for disk storage (refer to <a href="https://msdn.microsoft.com/FD81B464-1E93-47CF-9D95-8F8F64C39CD6">Serialize</a>).</li>
 <li>De-serializing a PSO library from persistent storage (this is handled by <b>CreatePipelineLibrary</b>).</li>
-<li>Retrieving individual PSOs from the library (refer to <a href="https://msdn.microsoft.com/en-us/library/Mt709147(v=VS.85).aspx">LoadComputePipeline</a> and <a href="https://msdn.microsoft.com/en-us/library/Mt709148(v=VS.85).aspx">LoadGraphicsPipeline</a>).</li>
+<li>Retrieving individual PSOs from the library (refer to <a href="https://msdn.microsoft.com/8295D6E3-8353-46AD-A741-170244495F8B">LoadComputePipeline</a> and <a href="https://msdn.microsoft.com/1DDD1348-2039-4BF4-9ED8-7AA087D0B654">LoadGraphicsPipeline</a>).</li>
 </ul>
 At no point in the lifecycle of a pipeline library is there duplication between PSOs with identical sub-components. 
-      A recommended solution for managing the lifetime of the provided pointer while only having to ref-count the returned interface is to leverage <a href="https://msdn.microsoft.com/en-us/library/Dn788703(v=VS.85).aspx">ID3D12Object::SetPrivateDataInterface</a>, and use an object which implements <b>IUnknown</b>, and frees the memory when the ref-count reaches 0. 
+      A recommended solution for managing the lifetime of the provided pointer while only having to ref-count the returned interface is to leverage <a href="https://msdn.microsoft.com/B03B9420-7E85-4C1A-858C-37B20E4D9B52">ID3D12Object::SetPrivateDataInterface</a>, and use an object which implements <b>IUnknown</b>, and frees the memory when the ref-count reaches 0. 
 
 
 #### Examples
@@ -167,7 +167,7 @@ Create a PSO library using data loaded off of disk and retrieve PSOs out of it.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt709132(v=VS.85).aspx">ID3D12Device1</a>
+<a href="https://msdn.microsoft.com/7650C695-3F46-405A-9976-A4A50FFAD567">ID3D12Device1</a>
 
 
 

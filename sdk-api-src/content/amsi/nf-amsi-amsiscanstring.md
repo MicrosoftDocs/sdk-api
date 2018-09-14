@@ -7,7 +7,7 @@ old-location: amsi\amsiscanstring.htm
 tech.root: AMSI
 ms.assetid: 7D26C57B-014B-4506-A29D-33699808B111
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AmsiScanString, AmsiScanString function [Antimalware Scan Interface], amsi.amsiscanstring, amsi/AmsiScanString
 ms.prod: windows-hardware
 ms.technology: windows-devices

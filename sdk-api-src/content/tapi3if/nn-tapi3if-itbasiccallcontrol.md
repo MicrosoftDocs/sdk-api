@@ -4,10 +4,10 @@ title: ITBasicCallControl
 author: windows-sdk-content
 description: The ITBasicCallControl interface is used by the application to connect, answer, and perform basic telephony operations on a call object.
 old-location: tapi3\itbasiccallcontrol.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: a0b4c496-5ee8-4810-8170-8ea505c99f18
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITBasicCallControl, ITBasicCallControl interface [TAPI 2.2], ITBasicCallControl interface [TAPI 2.2],described, _tapi3_itbasiccallcontrol, tapi3.itbasiccallcontrol, tapi3if/ITBasicCallControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Note to programmers familiar with TAPI 2.1: The general function of this interfa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITBasicCallControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITBasicCallControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITBasicCallControl</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITBasicCallControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -256,7 +256,7 @@ Gets the call parked at the specified address.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

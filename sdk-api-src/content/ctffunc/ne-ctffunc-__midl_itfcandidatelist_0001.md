@@ -7,7 +7,7 @@ old-location: tsf\tfcandidateresult.htm
 tech.root: TSF
 ms.assetid: 8b2b4762-f28d-40e0-b162-5e35e8835c8e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CAND_CANCELED, CAND_FINALIZED, CAND_SELECTED, TfCandidateResult, TfCandidateResult enumeration [Text Services Framework], __MIDL_ITfCandidateList_0001, _tsf_tfcandidateresult_ref, ctffunc/CAND_CANCELED, ctffunc/CAND_FINALIZED, ctffunc/CAND_SELECTED, ctffunc/TfCandidateResult, tsf.tfcandidateresult
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 ## -description
 
 
-Elements of the <b>TfCandidateResult</b> enumeration are used with the <a href="https://msdn.microsoft.com/en-us/library/ms538496(v=VS.85).aspx">ITfCandidateList::SetResult</a> method to specify the result of a reconversion operation performed on a given candidate string.
+Elements of the <b>TfCandidateResult</b> enumeration are used with the <a href="https://msdn.microsoft.com/dcc172f9-4fc3-46f4-a1db-0e75fceafb28">ITfCandidateList::SetResult</a> method to specify the result of a reconversion operation performed on a given candidate string.
 
 
 ## -enum-fields

@@ -4,10 +4,10 @@ title: "__MIDL_IBackgroundCopyJob2_0002"
 author: windows-sdk-content
 description: The BG_AUTH_SCHEME enumeration defines the constant values that specify the authentication scheme to use when a proxy or server requests user authentication.
 old-location: bits\bg_auth_scheme.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: e5a97cee-0012-4e30-850a-9adc258a36d3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: BG_AUTH_SCHEME, BG_AUTH_SCHEME enumeration [BITS], BG_AUTH_SCHEME_BASIC, BG_AUTH_SCHEME_DIGEST, BG_AUTH_SCHEME_NEGOTIATE, BG_AUTH_SCHEME_NTLM, BG_AUTH_SCHEME_PASSPORT, __MIDL_IBackgroundCopyJob2_0002, _drz_bg_auth_scheme, bits.bg_auth_scheme, bits1_5/BG_AUTH_SCHEME, bits1_5/BG_AUTH_SCHEME_BASIC, bits1_5/BG_AUTH_SCHEME_DIGEST, bits1_5/BG_AUTH_SCHEME_NEGOTIATE, bits1_5/BG_AUTH_SCHEME_NTLM, bits1_5/BG_AUTH_SCHEME_PASSPORT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,15 +129,15 @@ The following table shows the   authentication requests that BITS does not suppo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362781(v=VS.85).aspx">Authentication</a>
+<a href="https://msdn.microsoft.com/cfd4aec3-79d0-4971-93f8-df797e5c0f75">Authentication</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362785(v=VS.85).aspx">BG_AUTH_CREDENTIALS</a>
+<a href="https://msdn.microsoft.com/f89ebf46-da83-495c-bafe-b2e0f72f5d8e">BG_AUTH_CREDENTIALS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362987(v=VS.85).aspx">IBackgroundCopyJob2::SetCredentials</a>
+<a href="https://msdn.microsoft.com/adaffc21-7df1-48ca-8e05-bdb09663a49b">IBackgroundCopyJob2::SetCredentials</a>
  
 
  

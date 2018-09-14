@@ -4,10 +4,10 @@ title: IIsdbEmergencyInformationDescriptor::GetStartEndFlag
 author: windows-sdk-content
 description: Gets the value of the start_end_flag field from an emergency information descriptor. This field indicates whether the emergency alarm signal has started or finished broadcasting.
 old-location: mstv\iisdbemergencyinformationdescriptor_getstartendflag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 13593be1-073c-41df-b389-f0920d192c92
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetStartEndFlag, GetStartEndFlag method [Microsoft TV Technologies], GetStartEndFlag method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetStartEndFlag method, IIsdbEmergencyInformationDescriptor.GetStartEndFlag, IIsdbEmergencyInformationDescriptor::GetStartEndFlag, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetStartEndFlag, mstv.iisdbemergencyinformationdescriptor_getstartendflag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IX509Attribute::get_ObjectId
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) for the attribute.
 old-location: security\ix509attribute_objectid_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: a65c7989-5e6e-4253-8ddc-1d1207fecaf8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509Attribute interface [Security],ObjectId property, IX509Attribute.ObjectId, IX509Attribute.get_ObjectId, IX509Attribute::ObjectId, IX509Attribute::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IX509Attribute interface, certenroll/IX509Attribute::ObjectId, certenroll/IX509Attribute::get_ObjectId, get_ObjectId, security.ix509attribute_objectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>ObjectId</b> property retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) for the attribute.
+The <b>ObjectId</b> property retrieves the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) for the attribute.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377118(v=VS.85).aspx">Initialize</a> method to specify the property value.
+Call the <a href="https://msdn.microsoft.com/82457ca3-4aae-4f47-950c-1146c8614a5b">Initialize</a> method to specify the property value.
 
 
 
@@ -73,15 +73,15 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377118(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375929(v=VS.85).aspx">ICryptAttribute</a>
+<a href="https://msdn.microsoft.com/2aefde1b-0f77-4a88-8851-5bacd363900b">ICryptAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377058(v=VS.85).aspx">IX509Attribute</a>
+<a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85).aspx">IX509Attributes</a>
+<a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a>
  
 
  

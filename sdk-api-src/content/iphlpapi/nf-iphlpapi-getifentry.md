@@ -4,10 +4,10 @@ title: GetIfEntry function
 author: windows-sdk-content
 description: The GetIfEntry function retrieves information for the specified interface on the local computer.
 old-location: iphlp\getifentry.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: bf16588d-3756-469e-afa2-e2e3dd537047
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetIfEntry, GetIfEntry function [IP Helper], _iphlp_getifentry, iphlp.getifentry, iphlpapi/GetIfEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -166,16 +166,20 @@ The <b>GetIfEntry</b> function will fail if the  <b>dwIndex</b>  member of the <
 
 The following example retrieves the entries from the interface table and prints some of the information available for that  entry.
 
-
-```cpp
-#include <winsock2.h>
-#include <ws2tcpip.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
 #pragma comment(lib, "IPHLPAPI.lib")
 
-#include <iphlpapi.h>
+#include &lt;iphlpapi.h&gt;
 
-#include <stdio.h>
-#include <stdlib.h>
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 #define MALLOC(x) HeapAlloc(GetProcessHeap(), 0, (x))
 #define FREE(x) HeapFree(GetProcessHeap(), 0, (x))
@@ -209,7 +213,7 @@ int main()
     // Make an initial call to GetIfTable to get the
     // necessary size into dwSize
     dwSize = sizeof (MIB_IFTABLE);
-    if (GetIfTable(pIfTable, &dwSize, 0) == ERROR_INSUFFICIENT_BUFFER) {
+    if (GetIfTable(pIfTable, &amp;dwSize, 0) == ERROR_INSUFFICIENT_BUFFER) {
         FREE(pIfTable);
         pIfTable = (MIB_IFTABLE *) MALLOC(dwSize);
         if (pIfTable == NULL) {
@@ -219,8 +223,8 @@ int main()
     }
     // Make a second call to GetIfTable to get the actual
     // data we want.
-    if ((dwRetVal = GetIfTable(pIfTable, &dwSize, 0)) == NO_ERROR) {
-        if (pIfTable->dwNumEntries > 0) {
+    if ((dwRetVal = GetIfTable(pIfTable, &amp;dwSize, 0)) == NO_ERROR) {
+        if (pIfTable-&gt;dwNumEntries &gt; 0) {
             pIfRow = (MIB_IFROW *) MALLOC(sizeof (MIB_IFROW));
             if (pIfRow == NULL) {
                 printf("Error allocating memory\n");
@@ -231,25 +235,25 @@ int main()
                 exit (1);
             }
 
-            printf("\tNum Entries: %ld\n\n", pIfTable->dwNumEntries);
-            for (i = 0; i < pIfTable->dwNumEntries; i++) {
-                pIfRow->dwIndex = pIfTable->table[i].dwIndex;
+            printf("\tNum Entries: %ld\n\n", pIfTable-&gt;dwNumEntries);
+            for (i = 0; i &lt; pIfTable-&gt;dwNumEntries; i++) {
+                pIfRow-&gt;dwIndex = pIfTable-&gt;table[i].dwIndex;
                 if ((dwRetVal = GetIfEntry(pIfRow)) == NO_ERROR) {
-                    printf("\tIndex:\t %ld\n", pIfRow->dwIndex);
+                    printf("\tIndex:\t %ld\n", pIfRow-&gt;dwIndex);
                     printf("\tInterfaceName[%d]:\t ", i);
-                    if (pIfRow->wszName != NULL)
-                        printf("%ws", pIfRow->wszName);
+                    if (pIfRow-&gt;wszName != NULL)
+                        printf("%ws", pIfRow-&gt;wszName);
                     printf("\n");
 
                     printf("\tDescription[%d]:\t ", i);
-                    for (j = 0; j < pIfRow->dwDescrLen; j++)
-                        printf("%c", pIfRow->bDescr[j]);
+                    for (j = 0; j &lt; pIfRow-&gt;dwDescrLen; j++)
+                        printf("%c", pIfRow-&gt;bDescr[j]);
                     printf("\n");
 
-                    printf("\tIndex[%d]:\t\t %d\n", i, pIfRow->dwIndex);
+                    printf("\tIndex[%d]:\t\t %d\n", i, pIfRow-&gt;dwIndex);
 
                     printf("\tType[%d]:\t\t ", i);
-                    switch (pIfRow->dwType) {
+                    switch (pIfRow-&gt;dwType) {
                     case IF_TYPE_OTHER:
                         printf("Other\n");
                         break;
@@ -278,29 +282,29 @@ int main()
                         printf("IEEE 1394 Firewire\n");
                         break;
                     default:
-                        printf("Unknown type %ld\n", pIfRow->dwType);
+                        printf("Unknown type %ld\n", pIfRow-&gt;dwType);
                         break;
                     }
 
-                    printf("\tMtu[%d]:\t\t %ld\n", i, pIfRow->dwMtu);
+                    printf("\tMtu[%d]:\t\t %ld\n", i, pIfRow-&gt;dwMtu);
 
-                    printf("\tSpeed[%d]:\t\t %ld\n", i, pIfRow->dwSpeed);
+                    printf("\tSpeed[%d]:\t\t %ld\n", i, pIfRow-&gt;dwSpeed);
 
                     printf("\tPhysical Addr:\t\t ");
-                    if (pIfRow->dwPhysAddrLen == 0)
+                    if (pIfRow-&gt;dwPhysAddrLen == 0)
                         printf("\n");
-//                    for (j = 0; j < (int) pIfRow->dwPhysAddrLen; j++) {
-                    for (j = 0; j < pIfRow->dwPhysAddrLen; j++) {
-                        if (j == (pIfRow->dwPhysAddrLen - 1))
-                            printf("%.2X\n", (int) pIfRow->bPhysAddr[j]);
+//                    for (j = 0; j &lt; (int) pIfRow-&gt;dwPhysAddrLen; j++) {
+                    for (j = 0; j &lt; pIfRow-&gt;dwPhysAddrLen; j++) {
+                        if (j == (pIfRow-&gt;dwPhysAddrLen - 1))
+                            printf("%.2X\n", (int) pIfRow-&gt;bPhysAddr[j]);
                         else
-                            printf("%.2X-", (int) pIfRow->bPhysAddr[j]);
+                            printf("%.2X-", (int) pIfRow-&gt;bPhysAddr[j]);
                     }
                     printf("\tAdmin Status[%d]:\t %ld\n", i,
-                           pIfRow->dwAdminStatus);
+                           pIfRow-&gt;dwAdminStatus);
 
                     printf("\tOper Status[%d]:\t ", i);
-                    switch (pIfRow->dwOperStatus) {
+                    switch (pIfRow-&gt;dwOperStatus) {
                     case IF_OPER_STATUS_NON_OPERATIONAL:
                         printf("Non Operational\n");
                         break;
@@ -321,7 +325,7 @@ int main()
                         break;
                     default:
                         printf("Unknown status %ld\n", 
-                            pIfRow->dwAdminStatus);
+                            pIfRow-&gt;dwAdminStatus);
                         break;
                     }
                     printf("\n");
@@ -343,10 +347,10 @@ int main()
     
     exit (0);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

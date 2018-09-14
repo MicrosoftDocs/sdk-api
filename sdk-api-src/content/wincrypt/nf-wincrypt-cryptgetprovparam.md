@@ -7,7 +7,7 @@ old-location: security\cryptgetprovparam.htm
 tech.root: seccrypto
 ms.assetid: c0b7c1c8-aa42-4d40-a7f7-99c0821c8977
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CRYPT_FASTSGC, CRYPT_FIRST, CRYPT_NEXT, CRYPT_SGC, CRYPT_SGC_ENUM, CryptGetProvParam, CryptGetProvParam function [Security], DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, PP_ADMIN_PIN, PP_APPLI_CERT, PP_CERTCHAIN, PP_CHANGE_PASSWORD, PP_CONTAINER, PP_CRYPT_COUNT_KEY_USE, PP_ENUMALGS, PP_ENUMALGS_EX, PP_ENUMCONTAINERS, PP_ENUMELECTROOTS, PP_ENUMEX_SIGNING_PROT, PP_ENUMMANDROOTS, PP_IMPTYPE, PP_KEYEXCHANGE_PIN, PP_KEYSET_SEC_DESCR, PP_KEYSET_TYPE, PP_KEYSPEC, PP_KEYSTORAGE, PP_KEYX_KEYSIZE_INC, PP_KEY_TYPE_SUBTYPE, PP_NAME, PP_PROVTYPE, PP_ROOT_CERTSTORE, PP_SESSION_KEYSIZE, PP_SGC_INFO, PP_SIGNATURE_PIN, PP_SIG_KEYSIZE_INC, PP_SMARTCARD_GUID, PP_SMARTCARD_READER, PP_SYM_KEYSIZE, PP_UI_PROMPT, PP_UNIQUE_CONTAINER, PP_USER_CERTSTORE, PP_USE_HARDWARE_RNG, PP_VERSION, SACL_SECURITY_INFORMATION, _crypto2_cryptgetprovparam, security.cryptgetprovparam, wincrypt/CryptGetProvParam
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -878,9 +878,13 @@ The following example shows finding the name of the CSP associated with a crypto
 
 For another example that  uses this function, see <a href="https://msdn.microsoft.com/10a5210d-7992-4832-9435-67ac2b851a97">Example C Program: Enumerating CSP Providers and Provider Types</a>.
 
-
-```cpp
-//-----------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//-----------------------------------------------------------------
 //  Declare and initialize variables.
 
 HCRYPTPROV hCryptProv;
@@ -900,7 +904,7 @@ if(CryptGetProvParam(
     hCryptProv, 
     PP_NAME, 
     pbData, 
-    &cbData, 
+    &amp;cbData, 
     0))
 {
     printf("CryptGetProvParam succeeded.\n");
@@ -919,7 +923,7 @@ if(CryptGetProvParam(
     hCryptProv, 
     PP_CONTAINER, 
     pbData, 
-    &cbData, 
+    &amp;cbData, 
     0))
 {
     printf("CryptGetProvParam succeeded. \n");
@@ -929,10 +933,10 @@ else
 {
     printf("Error reading key container name. \n");
     exit(1);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -969,7 +973,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
+<a href="cryptography_functions.htm">Service Provider Functions</a>
  
 
  

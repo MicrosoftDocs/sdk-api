@@ -7,7 +7,7 @@ old-location: security\cryptsetoidfunctionvalue.htm
 tech.root: seccrypto
 ms.assetid: 3e167c5d-0000-4359-a7b0-9b3e4e64c50c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CryptSetOIDFunctionValue, CryptSetOIDFunctionValue function [Security], REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ, _crypto2_cryptsetoidfunctionvalue, security.cryptsetoidfunctionvalue, wincrypt/CryptSetOIDFunctionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -160,7 +160,7 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

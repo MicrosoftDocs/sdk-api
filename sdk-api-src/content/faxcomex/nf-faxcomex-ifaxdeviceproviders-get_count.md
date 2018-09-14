@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdeviceproviders_cpp_mfax_faxdeviceproviders_count_cpp
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1th0.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxDeviceProviders interface, IFaxDeviceProviders interface [Fax Service],Count property, IFaxDeviceProviders.Count, IFaxDeviceProviders.get_Count, IFaxDeviceProviders::Count, IFaxDeviceProviders::get_Count, _mfax_faxdeviceproviders.count, fax._mfax_faxdeviceproviders_count, fax._mfax_faxdeviceproviders_cpp_mfax_faxdeviceproviders_count_cpp, faxcomex/IFaxDeviceProviders::Count, faxcomex/IFaxDeviceProviders::get_Count, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684890(v=VS.85).aspx">FaxDeviceProvider</a>
+<a href="https://msdn.microsoft.com/ef32eb3d-e158-4740-82f5-661d5eded88c">FaxDeviceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684893(v=VS.85).aspx">IFaxDeviceProvider</a>
+<a href="https://msdn.microsoft.com/91899618-9164-4db4-94d3-a971db9f1ca0">IFaxDeviceProvider</a>
 
 
 
@@ -76,7 +76,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693462(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/422003a1-7db2-4eff-97bd-8ca889a3e5f6">Visual Basic Example</a>
  
 
  

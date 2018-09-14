@@ -7,7 +7,7 @@ old-location: security\iocspadmin_getsecurity.htm
 tech.root: seccrypto
 ms.assetid: 0859ea85-66b2-45af-9559-c81e6a766cfc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetSecurity, GetSecurity method [Security], GetSecurity method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSecurity method, IOCSPAdmin.GetSecurity, IOCSPAdmin::GetSecurity, certadm/IOCSPAdmin::GetSecurity, security.iocspadmin_getsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ A string that contains the responder-server name.
 <h3>C++</h3>
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The security descriptor information.
@@ -84,7 +84,7 @@ The security descriptor information.
 
 
 
-This method calls the <a href="https://msdn.microsoft.com/en-us/library/Aa376397(v=VS.85).aspx">ConvertSecurityDescriptorToStringSecurityDescriptor</a> function to create a string value in <a href="https://msdn.microsoft.com/en-us/library/Aa379570(v=VS.85).aspx">Security Descriptor String Format</a>.
+This method calls the <a href="https://msdn.microsoft.com/36140833-8e30-4c32-a88a-c10751b6c223">ConvertSecurityDescriptorToStringSecurityDescriptor</a> function to create a string value in <a href="https://msdn.microsoft.com/0a226629-084c-40c5-bdd4-ad7355c807cf">Security Descriptor String Format</a>.
 
 
 
@@ -94,7 +94,7 @@ This method calls the <a href="https://msdn.microsoft.com/en-us/library/Aa376397
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386313(v=VS.85).aspx">IOCSPAdmin</a>
+<a href="https://msdn.microsoft.com/cf76e934-07a2-46de-b2cf-7f6d3e274d71">IOCSPAdmin</a>
  
 
  

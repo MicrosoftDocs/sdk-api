@@ -7,7 +7,7 @@ old-location: ncd\ifunctioninstancecollectionquery_addpropertyconstraint_method.
 tech.root: fundisc
 ms.assetid: 4ff850a8-3208-4fb4-a581-7581e71f34e6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: AddPropertyConstraint, AddPropertyConstraint method, AddPropertyConstraint method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,AddPropertyConstraint method, IFunctionInstanceCollectionQuery.AddPropertyConstraint, IFunctionInstanceCollectionQuery::AddPropertyConstraint, functiondiscoveryapi/IFunctionInstanceCollectionQuery::AddPropertyConstraint, ncd.ifunctioninstancecollectionquery_addpropertyconstraint_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\PropVariantToUInt64Vector.htm
 tech.root: properties
 ms.assetid: 596c7a35-6645-4f66-b924-b71278778776
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: PropVariantToUInt64Vector, PropVariantToUInt64Vector function [Windows Properties], _shell_PropVariantToUInt64Vector, properties.PropVariantToUInt64Vector, propvarutil/PropVariantToUInt64Vector, shell.PropVariantToUInt64Vector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,15 +149,19 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776574(v=VS.85).aspx">PropVariantToUInt64Vector</a> to access a <b>ULONGLONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToUInt64Vector">PropVariantToUInt64Vector</a> to access a <b>ULONGLONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid
 ULONGLONG rgLongs[4]; // The application is expecting propvar to hold 4 ULONGLONGs in a vector
 ULONG cElems;
-HRESULT hr = PropVariantToUInt64Vector(propvar, rgLongs, ARRAYSIZE(rgLongs), &cElems);
+HRESULT hr = PropVariantToUInt64Vector(propvar, rgLongs, ARRAYSIZE(rgLongs), &amp;cElems);
 if (SUCCEEDED(hr))
 {
      if (cElems == ARRAYSIZE(rgLongs))
@@ -168,10 +172,10 @@ if (SUCCEEDED(hr))
      {
          // The application got cElems which are stored in the first cElems elements of rgLongs
      }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -180,23 +184,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762314(v=VS.85).aspx">InitPropVariantFromUInt64Vector</a>
+<a href="shell.InitPropVariantFromUInt64Vector">InitPropVariantFromUInt64Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776530(v=VS.85).aspx">PropVariantGetUInt64Elem</a>
+<a href="shell.PropVariantGetUInt64Elem">PropVariantGetUInt64Elem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776573(v=VS.85).aspx">PropVariantToUInt64</a>
+<a href="shell.PropVariantToUInt64">PropVariantToUInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776575(v=VS.85).aspx">PropVariantToUInt64VectorAlloc</a>
+<a href="shell.PropVariantToUInt64VectorAlloc">PropVariantToUInt64VectorAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776632(v=VS.85).aspx">VariantToUInt64Array</a>
+<a href="shell.VariantToUInt64Array">VariantToUInt64Array</a>
  
 
  

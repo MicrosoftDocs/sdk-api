@@ -7,7 +7,7 @@ old-location: cos\itransactionstatus.htm
 tech.root: cossdk
 ms.assetid: df5eba93-6db7-478c-b6d7-831c20398d66
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ITransactionStatus, ITransactionStatus interface [COM+], ITransactionStatus interface [COM+],described, _cos_ITransactionStatus, comsvcs/ITransactionStatus, cos.itransactionstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Used to discover the status of the transaction that is completed by the call to <a href="https://msdn.microsoft.com/en-us/library/ms686062(v=VS.85).aspx">CoLeaveServiceDomain</a> when <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> is configured to use transactions in the call to <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>.
+Used to discover the status of the transaction that is completed by the call to <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a> when <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> is configured to use transactions in the call to <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>.
 
 
 ## -inheritance
@@ -70,7 +70,7 @@ The <b>ITransactionStatus</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686457(v=VS.85).aspx">GetTransactionStatus</a>
+<a href="https://msdn.microsoft.com/c8c37aee-c5d2-479f-989f-461877ee6136">GetTransactionStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the transaction status.
@@ -79,7 +79,7 @@ Retrieves the transaction status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms678935(v=VS.85).aspx">SetTransactionStatus</a>
+<a href="https://msdn.microsoft.com/0e69758a-8dc7-489c-8e78-ba35749beb01">SetTransactionStatus</a>
 </td>
 <td align="left" width="63%">
 Sets the transaction status to either committed or aborted. Do not use this method. It is used only internally by COM+.
@@ -95,7 +95,7 @@ Sets the transaction status to either committed or aborted. Do not use this meth
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680599(v=VS.85).aspx">COM+ Transactions</a>
+<a href="https://msdn.microsoft.com/40eccce1-a362-4adc-8060-f6923b9162c9">COM+ Transactions</a>
 
 
 
@@ -103,7 +103,7 @@ Sets the transaction status to either committed or aborted. Do not use this meth
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686062(v=VS.85).aspx">CoLeaveServiceDomain</a>
+<a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a>
  
 
  

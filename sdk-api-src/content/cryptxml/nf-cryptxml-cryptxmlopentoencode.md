@@ -7,7 +7,7 @@ old-location: security\cryptxmlopentoencode.htm
 tech.root: seccrypto
 ms.assetid: a313d14c-03fc-4719-bacd-c7b3e5ce2dba
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_FLAG_NO_SERIALIZE, CryptXmlOpenToEncode, CryptXmlOpenToEncode function [Security], cryptxml/CryptXmlOpenToEncode, security.cryptxmlopentoencode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-If <b>CryptXmlOpenToEncode</b> function opens an XML digital signature to encode and returns a handle of the opened <b>Signature</b> element. The handle encapsulates a document context with a single <a href="https://msdn.microsoft.com/en-us/library/Dd433864(v=VS.85).aspx">CRYPT_XML_SIGNATURE</a> structure and remains open until the <a href="https://msdn.microsoft.com/en-us/library/Dd433806(v=VS.85).aspx">CryptXmlClose</a> function is called.
+If <b>CryptXmlOpenToEncode</b> function opens an XML digital signature to encode and returns a handle of the opened <b>Signature</b> element. The handle encapsulates a document context with a single <a href="https://msdn.microsoft.com/d9930946-aec0-42a4-949f-af8b2e9c6e6c">CRYPT_XML_SIGNATURE</a> structure and remains open until the <a href="https://msdn.microsoft.com/ee3f8ea3-4898-462b-87cd-47dd3134636c">CryptXmlClose</a> function is called.
 
 
 ## -parameters
@@ -112,7 +112,7 @@ If this parameter is <b>NULL</b>, then a new GUID is generated. If this paramete
 
 ### -param rgProperty [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd433860(v=VS.85).aspx">CRYPT_XML_PROPERTY</a> structures that specify additional properties.
+A pointer to an array of <a href="https://msdn.microsoft.com/287c205a-56ba-40ae-a664-9bccef2e9655">CRYPT_XML_PROPERTY</a> structures that specify additional properties.
 
 
 ### -param cProperty [in]
@@ -122,7 +122,7 @@ The number of elements in the array pointed to by the <i>rgProperty</i> paramete
 
 ### -param pEncoded [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433844(v=VS.85).aspx">CRYPT_XML_BLOB</a> structure that contains the signature to encode.
+A pointer to a <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains the signature to encode.
 
 
 ### -param phSignature [optional]

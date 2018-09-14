@@ -4,10 +4,10 @@ title: IMSVidEVR
 author: windows-sdk-content
 description: The IMSVidEVR interface represents the Enhanced Video Renderer (EVR) filter within the Video Control filter graph.
 old-location: mstv\imsvidevr.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 437f515b-0353-4ff2-b8c2-5dd27d4e12f7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidEVR, IMSVidEVR interface [Microsoft TV Technologies], IMSVidEVR interface [Microsoft TV Technologies],described, IMSVidEVRInterface, mstv.imsvidevr, segment/IMSVidEVR
 ms.prod: windows
 ms.technology: windows-sdk

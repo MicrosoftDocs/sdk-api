@@ -4,10 +4,10 @@ title: D2D1_ROUNDED_RECT
 author: windows-sdk-content
 description: Contains the dimensions and corner radii of a rounded rectangle.
 old-location: direct2d\D2D1_ROUNDED_RECT.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7069ca65-170e-42fc-8c1a-849a2f25c36f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D2D1_ROUNDED_RECT, D2D1_ROUNDED_RECT structure [Direct2D], d2d1/D2D1_ROUNDED_RECT, direct2d.D2D1_ROUNDED_RECT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Contains the dimensions and corner radii of a rounded rectangle.
 
 ### -field rect
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368151(v=VS.85).aspx">D2D1_RECT_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
 
 The coordinates of the rectangle.
 

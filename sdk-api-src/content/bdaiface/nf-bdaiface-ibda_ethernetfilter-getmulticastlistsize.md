@@ -4,10 +4,10 @@ title: IBDA_EthernetFilter::GetMulticastListSize
 author: windows-sdk-content
 description: The GetMulticastListSize method retrieves the number of addresses currently in the list.
 old-location: mstv\ibda_ethernetfilter_getmulticastlistsize.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: bc2452ca-53ad-4286-951a-c211f3f82cf3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Technologies], GetMulticastListSize method [Microsoft TV Technologies],IBDA_EthernetFilter interface, IBDA_EthernetFilter interface [Microsoft TV Technologies],GetMulticastListSize method, IBDA_EthernetFilter.GetMulticastListSize, IBDA_EthernetFilter::GetMulticastListSize, IBDA_EthernetFilterGetMulticastListSize, bdaiface/IBDA_EthernetFilter::GetMulticastListSize, mstv.ibda_ethernetfilter_getmulticastlistsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,11 +89,11 @@ Addresses in the address list are byte aligned in Network order. <i>UlcbAddresse
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693329(v=VS.85).aspx">IBDA_EthernetFilter Interface</a>
+<a href="https://msdn.microsoft.com/f4f9d6c0-0acf-416b-adb3-643ac0167d0a">IBDA_EthernetFilter Interface</a>
  
 
  

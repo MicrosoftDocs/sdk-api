@@ -4,10 +4,10 @@ title: IDirect3DPixelShader9
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DPixelShader9 interface to encapsulate the functionality of a pixel shader.
 old-location: direct3d9\idirect3dpixelshader9.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3dpixelshader9.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 1b9d322d-ffbe-622f-e100-b394c60f0d5d, IDirect3DPixelShader9, IDirect3DPixelShader9 interface [Direct3D 9], IDirect3DPixelShader9 interface [Direct3D 9],described, d3d9helper/IDirect3DPixelShader9, direct3d9.idirect3dpixelshader9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IDirect3DPixelShader9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205870(v=VS.85).aspx">GetDevice</a>
+<a href="https://msdn.microsoft.com/c0aeefb5-8314-4189-a9db-6ee0543ba26f">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the device.
@@ -80,7 +80,7 @@ Gets the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205871(v=VS.85).aspx">GetFunction</a>
+<a href="https://msdn.microsoft.com/c728388b-9ced-4aec-8035-fc324d1de830">GetFunction</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the shader data.
@@ -98,12 +98,16 @@ The LPDIRECT3DPIXELSHADER9 and PDIRECT3DPIXELSHADER9 types are defined as pointe
     
             
 
-
-```
-typedef struct IDirect3DPixelShader9 *LPDIRECT3DPIXELSHADER9, *PDIRECT3DPIXELSHADER9;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct IDirect3DPixelShader9 *LPDIRECT3DPIXELSHADER9, *PDIRECT3DPIXELSHADER9;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

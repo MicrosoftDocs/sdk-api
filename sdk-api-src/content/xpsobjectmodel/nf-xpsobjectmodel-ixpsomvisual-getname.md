@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_getname.htm
 tech.root: printdocs
 ms.assetid: 0a8b592e-c80e-4a0f-b9a4-8c362da43ced
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetName, GetName method [XPS Documents and Packaging], GetName method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetName method, IXpsOMVisual.GetName, IXpsOMVisual::GetName, xps.ixpsomvisual_getname, xpsobjectmodel/IXpsOMVisual::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,7 @@ The method succeeded.
 
 
 
-This method allocates the memory that is used by the string returned in <i>name</i>.  If <i>name</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory that is used by the string returned in <i>name</i>.  If <i>name</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

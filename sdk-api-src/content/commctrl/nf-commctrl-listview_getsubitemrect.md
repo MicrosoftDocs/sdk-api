@@ -4,10 +4,10 @@ title: ListView_GetSubItemRect macro
 author: windows-sdk-content
 description: Gets information about the rectangle that surrounds a subitem in a list-view control.
 old-location: controls\ListView_GetSubItemRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getsubitemrect.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: LVIR_BOUNDS, LVIR_ICON, LVIR_LABEL, ListView_GetSubItemRect, ListView_GetSubItemRect macro [Windows Controls], _win32_ListView_GetSubItemRect, _win32_ListView_GetSubItemRect_cpp, commctrl/ListView_GetSubItemRect, controls.ListView_GetSubItemRect, controls._win32_ListView_GetSubItemRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets information about the rectangle that surrounds a subitem in a list-view control. You can use this macro (recommended) or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761075(v=VS.85).aspx">LVM_GETSUBITEMRECT</a> message explicitly. This macro is intended to be used only on list-view controls that use the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_REPORT</a> style. 
+Gets information about the rectangle that surrounds a subitem in a list-view control. You can use this macro (recommended) or send the <a href="https://msdn.microsoft.com/985876b2-6eb3-4c96-88ea-ddec67ef5b5a">LVM_GETSUBITEMRECT</a> message explicitly. This macro is intended to be used only on list-view controls that use the <a href="List_view_window_styles.htm">LVS_REPORT</a> style. 
 
 
 ## -parameters

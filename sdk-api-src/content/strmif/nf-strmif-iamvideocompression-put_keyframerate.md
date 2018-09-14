@@ -7,7 +7,7 @@ old-location: dshow\iamvideocompression_put_keyframerate.htm
 tech.root: DirectShow
 ms.assetid: dc229333-3524-4228-ab13-a6e9619643fd
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],put_KeyFrameRate method, IAMVideoCompression.put_KeyFrameRate, IAMVideoCompression::put_KeyFrameRate, IAMVideoCompressionput_KeyFrameRate, dshow.iamvideocompression_put_keyframerate, put_KeyFrameRate, put_KeyFrameRate method [DirectShow], put_KeyFrameRate method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::put_KeyFrameRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

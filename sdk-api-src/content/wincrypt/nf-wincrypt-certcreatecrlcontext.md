@@ -7,7 +7,7 @@ old-location: security\certcreatecrlcontext.htm
 tech.root: seccrypto
 ms.assetid: 23d9dfb0-926d-443e-b960-a03338f1cc1b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CertCreateCRLContext, CertCreateCRLContext function [Security], _crypto2_certcreatecrlcontext, security.certcreatecrlcontext, wincrypt/CertCreateCRLContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,7 +163,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

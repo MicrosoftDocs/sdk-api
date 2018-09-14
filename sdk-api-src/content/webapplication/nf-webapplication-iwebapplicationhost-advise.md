@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationhost_advise.htm
 tech.root: debug_wwahost
 ms.assetid: 94c016cb-f043-4ea6-a5d1-f3486b55c97f
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/29/2018
 ms.keywords: Advise, Advise method [Debugging Windows Store apps], Advise method [Debugging Windows Store apps],IWebApplicationHost interface, IWebApplicationHost interface [Debugging Windows Store apps],Advise method, IWebApplicationHost.Advise, IWebApplicationHost::Advise, debug.iwebapplicationhost_advise, webapplication/IWebApplicationHost::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

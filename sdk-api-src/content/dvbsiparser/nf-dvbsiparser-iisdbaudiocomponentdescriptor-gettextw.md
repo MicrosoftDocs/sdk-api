@@ -4,10 +4,10 @@ title: IIsdbAudioComponentDescriptor::GetTextW
 author: windows-sdk-content
 description: Gets the component stream description from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor, in Unicode text format,.
 old-location: mstv\iisdbaudiocomponentdescriptor_gettextw.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: beeb31dd-28f8-45bb-bda0-0dbf6bca679b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetTextW method, IIsdbAudioComponentDescriptor.GetTextW, IIsdbAudioComponentDescriptor::GetTextW, dvbsiparser/IIsdbAudioComponentDescriptor::GetTextW, mstv.iisdbaudiocomponentdescriptor_gettextw
 ms.prod: windows-hardware
 ms.technology: windows-devices

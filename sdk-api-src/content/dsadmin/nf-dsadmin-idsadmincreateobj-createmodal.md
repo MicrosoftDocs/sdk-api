@@ -7,7 +7,7 @@ old-location: ad\idsadmincreateobj_createmodal.htm
 tech.root: ad
 ms.assetid: 8c157dd8-b569-4171-bd23-b9bce80dbc21
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: CreateModal, CreateModal method [Active Directory], CreateModal method [Active Directory],IDsAdminCreateObj interface, IDsAdminCreateObj interface [Active Directory],CreateModal method, IDsAdminCreateObj.CreateModal, IDsAdminCreateObj::CreateModal, _glines_idsadmincreateobj_createmodal, ad.idsadmincreateobj__createmodal, ad.idsadmincreateobj_createmodal, dsadmin/IDsAdminCreateObj::CreateModal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>IDsAdminCreateObj::CreateModal</b> method displays the object creation wi
 
 ### -param hwndParent [in]
 
-Contains the window handle of the owner of the wizard. This value cannot be <b>NULL</b>. Use the result of the <a href="https://msdn.microsoft.com/en-us/library/ms633504(v=VS.85).aspx">GetDesktopWindow</a> function if no parent window is available.
+Contains the window handle of the owner of the wizard. This value cannot be <b>NULL</b>. Use the result of the <a href="_win32_getdesktopwindow_cpp">GetDesktopWindow</a> function if no parent window is available.
 
 
 ### -param ppADsObj [out]
@@ -86,7 +86,7 @@ Returns an OLE-defined error code or one of the following values.
 
 
 
-If the user cancels the object creation wizard, this method returns S_FALSE.  If <i>ppADsObj</i> is not <b>NULL</b>, <i>ppADsObj</i> receives a <b>NULL</b> value. Because of this, the use of the <a href="https://msdn.microsoft.com/en-us/library/ms687197(v=VS.85).aspx">SUCCEEDED</a> macro to determine if <i>ppADsObj</i> is valid should be avoided. Always test the contents of <i>ppADsObj</i> for a non-<b>NULL</b> value before using the interface pointer.
+If the user cancels the object creation wizard, this method returns S_FALSE.  If <i>ppADsObj</i> is not <b>NULL</b>, <i>ppADsObj</i> receives a <b>NULL</b> value. Because of this, the use of the <a href="_com_succeeded">SUCCEEDED</a> macro to determine if <i>ppADsObj</i> is valid should be avoided. Always test the contents of <i>ppADsObj</i> for a non-<b>NULL</b> value before using the interface pointer.
 
 
 
@@ -96,7 +96,7 @@ If the user cancels the object creation wizard, this method returns S_FALSE.  If
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633504(v=VS.85).aspx">GetDesktopWindow</a>
+<a href="_win32_getdesktopwindow_cpp">GetDesktopWindow</a>
 
 
 
@@ -112,7 +112,7 @@ If the user cancels the object creation wizard, this method returns S_FALSE.  If
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687197(v=VS.85).aspx">SUCCEEDED</a>
+<a href="_com_succeeded">SUCCEEDED</a>
  
 
  

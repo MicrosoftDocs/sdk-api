@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicechild_getprivatedata.htm
 tech.root: direct3d11
 ms.assetid: 11729527-680e-4c70-a10f-278feab8362d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 50e61586-bdf5-0fe2-ab52-a873243bc7ff, GetPrivateData, GetPrivateData method [Direct3D 11], GetPrivateData method [Direct3D 11],ID3D11DeviceChild interface, ID3D11DeviceChild interface [Direct3D 11],GetPrivateData method, ID3D11DeviceChild.GetPrivateData, ID3D11DeviceChild::GetPrivateData, d3d11/ID3D11DeviceChild::GetPrivateData, direct3d11.id3d11devicechild_getprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ A pointer to a buffer that
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the 
             <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.

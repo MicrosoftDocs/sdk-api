@@ -4,10 +4,10 @@ title: tagIpv4Address
 author: windows-sdk-content
 description: Defines an IPv4 address.
 old-location: nap\ipv4address_struct.htm
-tech.root: nap
+tech.root: NAP
 ms.assetid: 75f1c6db-c1d5-46dd-b455-ffe49af921d2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Ipv4Address, Ipv4Address structure [NAP], nap.ipv4address_struct, naptypes/Ipv4Address, tagIpv4Address
 ms.prod: windows
 ms.technology: windows-sdk

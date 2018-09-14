@@ -4,10 +4,10 @@ title: SCardForgetReaderGroupA function
 author: windows-sdk-content
 description: Removes a previously introduced smart card reader group from the smart card subsystem. Although this function automatically clears all readers from the group, it does not affect the existence of the individual readers in the database.
 old-location: security\scardforgetreadergroup.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: c6c98542-01b6-4b23-88cf-a619faee882e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardForgetReaderGroup, SCardForgetReaderGroup function [Security], SCardForgetReaderGroupA, SCardForgetReaderGroupW, _smart_scardforgetreadergroup, security.scardforgetreadergroup, winscard/SCardForgetReaderGroup, winscard/SCardForgetReaderGroupA, winscard/SCardForgetReaderGroupW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,7 +153,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -175,17 +175,21 @@ The <b>SCardForgetReaderGroup</b> function is a database management function. Fo
 
 The following example shows how to remove a reader group from the system. The example assumes that lReturn is an existing variable of type <b>LONG</b>, and that hContext is a valid handle to a resource manager context previously obtained from a call to the <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a> function.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 lReturn = SCardForgetReaderGroup(hContext, 
                                  L"MyReaderGroup");
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardForgetReaderGroup\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

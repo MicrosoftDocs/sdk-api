@@ -4,10 +4,10 @@ title: IATSC_MGT::GetCountOfTableDescriptors
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt_getcountoftabledescriptors.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 14bd596f-ca24-456b-bb53-4e7e37183422
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IATSC_MGT.GetCountOfTableDescriptors, IATSC_MGT::GetCountOfTableDescriptors, IATSC_MGTGetCountOfTableDescriptors, atscpsipparser/IATSC_MGT::GetCountOfTableDescriptors, mstv.iatsc_mgt_getcountoftabledescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmaplock_getdatapointer.htm
 tech.root: wic
 ms.assetid: 1fae52ae-b410-48f3-be46-624792f96874
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetDataPointer, GetDataPointer method [Windows Imaging Component], GetDataPointer method [Windows Imaging Component],IWICBitmapLock interface, IWICBitmapLock interface [Windows Imaging Component],GetDataPointer method, IWICBitmapLock.GetDataPointer, IWICBitmapLock::GetDataPointer, _wic_codec_iwicbitmaplock_getdatapointer, wic._wic_codec_iwicbitmaplock_getdatapointer, wincodec/IWICBitmapLock::GetDataPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,9 +96,13 @@ The pointer provided by this method should not be used outside of the lifetime o
 
 In the following example, the data pointed to by the <a href="https://msdn.microsoft.com/c0ddbc25-6abe-484b-a545-3b9376c514df">IWICBitmapLock</a> is zero'd.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     IWICImagingFactory *pFactory = NULL;
     IWICBitmap *pBitmap = NULL;
 
@@ -114,17 +118,17 @@ In the following example, the data pointed to by the <a href="https://msdn.micro
         NULL,
         CLSCTX_INPROC_SERVER,
         IID_IWICImagingFactory,
-        (LPVOID*)&pFactory
+        (LPVOID*)&amp;pFactory
         );
 
     if (SUCCEEDED(hr))
     {
-        hr = pFactory->CreateBitmap(uiWidth, uiHeight, formatGUID, WICBitmapCacheOnDemand, &pBitmap);
+        hr = pFactory-&gt;CreateBitmap(uiWidth, uiHeight, formatGUID, WICBitmapCacheOnDemand, &amp;pBitmap);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = pBitmap->Lock(&rcLock, WICBitmapLockWrite, &pLock);
+        hr = pBitmap-&gt;Lock(&amp;rcLock, WICBitmapLockWrite, &amp;pLock);
 
         if (SUCCEEDED(hr))
         {
@@ -133,11 +137,11 @@ In the following example, the data pointed to by the <a href="https://msdn.micro
             BYTE *pv = NULL;
 
             // Retrieve the stride.
-            hr = pLock->GetStride(&cbStride);
+            hr = pLock-&gt;GetStride(&amp;cbStride);
 
             if (SUCCEEDED(hr))
             {
-                hr = pLock->GetDataPointer(&cbBufferSize, &pv);
+                hr = pLock-&gt;GetDataPointer(&amp;cbBufferSize, &amp;pv);
             }
             if (SUCCEEDED(hr))
             {
@@ -147,24 +151,24 @@ In the following example, the data pointed to by the <a href="https://msdn.micro
             }
 
             // Release the bitmap lock.
-            pLock->Release();
+            pLock-&gt;Release();
         }
     }
 
     if (pBitmap)
     {
-        pBitmap->Release();
+        pBitmap-&gt;Release();
     }
 
     if (pFactory)
     {
-        pFactory->Release();
+        pFactory-&gt;Release();
     }
 
     return hr;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

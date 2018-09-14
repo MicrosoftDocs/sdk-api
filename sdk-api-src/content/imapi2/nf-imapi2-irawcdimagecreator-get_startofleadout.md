@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator_get_startofleadout.htm
 tech.root: imapi
 ms.assetid: 5bf40179-31f5-453f-a989-4bcd116a45aa
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_StartOfLeadout method, IRawCDImageCreator.get_StartOfLeadout, IRawCDImageCreator::get_StartOfLeadout, get_StartOfLeadout, get_StartOfLeadout method [IMAPI], get_StartOfLeadout method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_startofleadout, imapi2/IRawCDImageCreator::get_StartOfLeadout
 ms.prod: windows-hardware
 ms.technology: windows-devices

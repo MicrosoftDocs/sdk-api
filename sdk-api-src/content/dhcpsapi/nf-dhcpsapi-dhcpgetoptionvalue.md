@@ -4,10 +4,10 @@ title: DhcpGetOptionValue function
 author: windows-sdk-content
 description: The DhcpGetOptionValue function retrieves a DHCP option value (the option code and associated data) for a particular scope.
 old-location: dhcp\dhcpgetoptionvalue.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 7dca800f-2427-44b1-bc92-f9db54de08a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpGetOptionValue, DhcpGetOptionValue function [DHCP], dhcp.dhcpgetoptionvalue, dhcpsapi/DhcpGetOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

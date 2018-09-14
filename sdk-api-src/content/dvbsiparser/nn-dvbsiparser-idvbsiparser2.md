@@ -4,10 +4,10 @@ title: IDvbSiParser2
 author: windows-sdk-content
 description: The IDvbSiParser2 interface retrieves program specific information (PSI) and service information (SI) tables from a DVB transport stream.
 old-location: mstv\idvbsiparser2.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 085808e7-b067-470e-9edd-8795f4881485
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDvbSiParser2, IDvbSiParser2 interface [Microsoft TV Technologies], IDvbSiParser2 interface [Microsoft TV Technologies],described, dvbsiparser/IDvbSiParser2, mstv.idvbsiparser2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,12 +89,16 @@ Gets the event information table (EIT).
 
 To get a pointer to this interface, call <b>CoCreateInstance</b>. Use the following CLSID:
 
-
-```cpp
-F6B96EDA-1A94-4476-A85F-4D3DC7B39C3F
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>F6B96EDA-1A94-4476-A85F-4D3DC7B39C3F</pre>
+</td>
+</tr>
+</table></span></div>
 This CLSID is not is not published in an SDK header; define a new GUID constant in your application.
 
 

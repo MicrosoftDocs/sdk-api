@@ -4,10 +4,10 @@ title: DhcpGetOptionInfoV5 function
 author: windows-sdk-content
 description: The DhcpGetOptionInfoV5 function returns information on a specific DHCP option.
 old-location: dhcp\dhcpgetoptioninfov5.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: bf7b744d-da02-4c2f-b29a-e2b9b3fe3881
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionInfoV5, DhcpGetOptionInfoV5 function [DHCP], dhcp.dhcpgetoptioninfov5, dhcpsapi/DhcpGetOptionInfoV5
 ms.prod: windows-hardware
 ms.technology: windows-devices

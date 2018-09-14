@@ -7,7 +7,7 @@ old-location: inputdev\unloadkeyboardlayout.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\unloadkeyboardlayout.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: UnloadKeyboardLayout, UnloadKeyboardLayout function [Keyboard and Mouse Input], _win32_UnloadKeyboardLayout, _win32_unloadkeyboardlayout_cpp, inputdev.unloadkeyboardlayout, winui._win32_unloadkeyboardlayout, winuser/UnloadKeyboardLayout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,7 +101,7 @@ The input locale identifier is a broader concept than a keyboard layout, since i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646289(v=VS.85).aspx">ActivateKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/bfc045fb-8696-45f5-b65f-06a08c000765">ActivateKeyboardLayout</a>
 
 
 
@@ -109,15 +109,15 @@ The input locale identifier is a broader concept than a keyboard layout, since i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646298(v=VS.85).aspx">GetKeyboardLayoutName</a>
+<a href="https://msdn.microsoft.com/505e053b-0f3d-47ad-b4ab-37bfae2512ef">GetKeyboardLayoutName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/6e35847e-d641-4ff2-80b6-a5b5293ebbdc">LoadKeyboardLayout</a>
 
 
 

@@ -4,10 +4,10 @@ title: GetFinalPathNameByHandleA function
 author: windows-sdk-content
 description: Retrieves the final path for the specified file.
 old-location: fs\getfinalpathnamebyhandle.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 02783ba9-a8d7-482f-a8b1-7cac934cf476
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FILE_NAME_NORMALIZED, FILE_NAME_OPENED, GetFinalPathNameByHandle, GetFinalPathNameByHandle function [Files], GetFinalPathNameByHandleA, GetFinalPathNameByHandleW, VOLUME_NAME_DOS, VOLUME_NAME_GUID, VOLUME_NAME_NONE, VOLUME_NAME_NT, fileapi/GetFinalPathNameByHandle, fileapi/GetFinalPathNameByHandleA, fileapi/GetFinalPathNameByHandleW, fs.getfinalpathnamebyhandle, fs.getfinalpathnamebyhandlew, winbase/GetFinalPathNameByHandle, winbase/GetFinalPathNameByHandleA, winbase/GetFinalPathNameByHandleW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -324,11 +324,15 @@ Yes
 The following example demonstrates the us of the 
      <b>GetFinalPathNameByHandle</b> function.
 
-
-```cpp
-#include <windows.h>
-#include <tchar.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt;
 
 #define BUFSIZE MAX_PATH
 
@@ -342,7 +346,7 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
     if( argc != 2 )
     {
         printf("ERROR:\tIncorrect number of arguments\n\n");
-        printf("%s <file_name>\n", argv[0]);
+        printf("%s &lt;file_name&gt;\n", argv[0]);
         return;
     }
 
@@ -361,7 +365,7 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
     }
 
     dwRet = GetFinalPathNameByHandle( hFile, Path, BUFSIZE, VOLUME_NAME_NT );
-    if(dwRet < BUFSIZE)
+    if(dwRet &lt; BUFSIZE)
     {
         _tprintf(TEXT("\nThe final path is: %s\n"), Path);
     }
@@ -369,10 +373,10 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
 
     CloseHandle(hFile);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderFragment_FragmentRoot.htm
 tech.root: WinAuto
 ms.assetid: d3fceca3-78b2-4775-ae11-1c9e71dbf772
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/13/2018
 ms.keywords: FragmentRoot property [Windows Accessibility], FragmentRoot property [Windows Accessibility],IRawElementProviderFragment interface, IRawElementProviderFragment interface [Windows Accessibility],FragmentRoot property, IRawElementProviderFragment.FragmentRoot, IRawElementProviderFragment.get_FragmentRoot, IRawElementProviderFragment::FragmentRoot, IRawElementProviderFragment::get_FragmentRoot, get_FragmentRoot, uiauto.uiauto_IRawElementProviderFragment_FragmentRoot, uiauto_IRawElementProviderFragment_FragmentRoot, uiautomationcore/IRawElementProviderFragment::FragmentRoot, uiautomationcore/IRawElementProviderFragment::get_FragmentRoot, winauto.uiauto_IRawElementProviderFragment_FragmentRoot
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,19 +72,23 @@ A provider for a fragment root should return a pointer to its own implementation
 The following example implementation for a list item provider returns the provider for the parent list box.
 			
 
-
-```cpp
-HRESULT STDMETHODCALLTYPE ListItemProvider::get_FragmentRoot(IRawElementProviderFragmentRoot** pRetVal)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT STDMETHODCALLTYPE ListItemProvider::get_FragmentRoot(IRawElementProviderFragmentRoot** pRetVal)
 {
     if (pRetVal == NULL) return E_INVALIDARG;
-    IRawElementProviderFragmentRoot* pRoot = static_cast<IRawElementProviderFragmentRoot*>(m_parentProvider);
-    pRoot->AddRef();
+    IRawElementProviderFragmentRoot* pRoot = static_cast&lt;IRawElementProviderFragmentRoot*&gt;(m_parentProvider);
+    pRoot-&gt;AddRef();
     *pRetVal = pRoot;
     return S_OK;
-}            
-```
-
-
+}            </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

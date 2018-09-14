@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentcontainer_getprice.htm
 tech.root: WMP
 ms.assetid: 2ed27b14-9567-4943-81c3-282316ce1605
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: GetPrice, GetPrice method [Windows Media Player], GetPrice method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetPrice method, IWMPContentContainer.GetPrice, IWMPContentContainer::GetPrice, IWMPContentContainerGetPrice, contentpartner/IWMPContentContainer::GetPrice, wmp.iwmpcontentcontainer_getprice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,7 +122,7 @@ The method succeeded.
 
 
 
-The format of the string returned in <i>pbstrPrice</i> is known only to the online store. Windows Media Player displays, but does not interpret, price strings. For more information about how Windows Media Player and the content partner plug-in exchange price information, see <a href="https://msdn.microsoft.com/en-us/library/Dd564215(v=VS.85).aspx">Purchasing Media Content</a>.
+The format of the string returned in <i>pbstrPrice</i> is known only to the online store. Windows Media Player displays, but does not interpret, price strings. For more information about how Windows Media Player and the content partner plug-in exchange price information, see <a href="https://msdn.microsoft.com/df4a3152-f9e3-4a97-b021-6d5e8de9c184">Purchasing Media Content</a>.
 
 A list, in this context, is a set of tracks that the online store offers as a bundle. The online store provides an ID and a price for the list as a whole.
 
@@ -136,7 +136,7 @@ If the content container does not represent an album or list, this method retrie
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563130(v=VS.85).aspx">IWMPContentContainer Interface</a>
+<a href="https://msdn.microsoft.com/32a68af3-9270-4ac1-b133-a2770220dfcb">IWMPContentContainer Interface</a>
  
 
  

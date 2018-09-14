@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionenumerator.htm
 tech.root: CoreAudio
 ms.assetid: a7976d13-3391-4747-b83a-cfb9407b34f2
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: IAudioSessionEnumerator, IAudioSessionEnumerator interface [Core Audio], IAudioSessionEnumerator interface [Core Audio],described, audiopolicy/IAudioSessionEnumerator, coreaudio.iaudiosessionenumerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,9 +119,13 @@ A session control is valid as long as the application has a reference to the ses
 
 The following example code shows how to create the session enumerator object and then enumerate sessions.
 
-
-```cpp
-HRESULT EnumSessions(IAudioSessionManager2* pSessionManager)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT EnumSessions(IAudioSessionManager2* pSessionManager)
 {
     if (!pSessionManager)
     {
@@ -137,20 +141,20 @@ HRESULT EnumSessions(IAudioSessionManager2* pSessionManager)
     IAudioSessionControl* pSessionControl = NULL;
     
     // Get the current list of sessions.
-    CHECK_HR( hr = pSessionManager->GetSessionEnumerator(&pSessionList));
+    CHECK_HR( hr = pSessionManager-&gt;GetSessionEnumerator(&amp;pSessionList));
     
     // Get the session count.
-    CHECK_HR( hr = pSessionList->GetCount(&cbSessionCount));
+    CHECK_HR( hr = pSessionList-&gt;GetCount(&amp;cbSessionCount));
 
-    for (int index = 0 ; index < cbSessionCount ; index++)
+    for (int index = 0 ; index &lt; cbSessionCount ; index++)
     {
         CoTaskMemFree(pswSession);
         SAFE_RELEASE(pSessionControl);
         
-        // Get the <n>th session.
-        CHECK_HR(hr = pSessionList->GetSession(index, &pSessionControl));
+        // Get the &lt;n&gt;th session.
+        CHECK_HR(hr = pSessionList-&gt;GetSession(index, &amp;pSessionControl));
 
-        CHECK_HR(hr = pSessionControl->GetDisplayName(&pswSession));
+        CHECK_HR(hr = pSessionControl-&gt;GetDisplayName(&amp;pswSession));
 
         wprintf_s(L"Session Name: %s\n", pswSession);
     }
@@ -162,10 +166,10 @@ done:
 
     return hr;
 
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

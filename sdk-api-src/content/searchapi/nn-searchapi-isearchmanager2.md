@@ -7,7 +7,7 @@ old-location: search\isearchmanager2.htm
 tech.root: search
 ms.assetid: EE08AC43-D2E9-4B70-BBA5-52E36DD7F9A1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: ISearchManager2, ISearchManager2 interface [search], ISearchManager2 interface [search],described, search.isearchmanager2, searchapi/ISearchManager2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Enabled applications to create and delete custom catalogs in the Windows Search 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchManager2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb231485(v=VS.85).aspx">ISearchManager</a>. <b>ISearchManager2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchManager2</b> interface inherits from <a href="https://msdn.microsoft.com/23aeb0f6-857e-490c-9ede-11c0955a45c9">ISearchManager</a>. <b>ISearchManager2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -110,7 +110,7 @@ These methods can be called in any COM apartment, and the behavior will not be i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231485(v=VS.85).aspx">ISearchManager</a>
+<a href="https://msdn.microsoft.com/23aeb0f6-857e-490c-9ede-11c0955a45c9">ISearchManager</a>
  
 
  

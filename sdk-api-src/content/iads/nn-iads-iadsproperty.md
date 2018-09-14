@@ -7,7 +7,7 @@ old-location: adsi\iadsproperty.htm
 tech.root: ADSI
 ms.assetid: ebf03974-371b-4bf4-91b4-f137339bd784
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsProperty, IADsProperty interface [ADSI], IADsProperty interface [ADSI],described, _ds_iadsproperty, adsi.iadsproperty, iads/IADsProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ Use the <b>IADsProperty</b> interface to determine at run time
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsProperty</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsProperty</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsProperty</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsProperty</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -361,9 +361,13 @@ The following code example shows the procedure above for applying the
      <b>IADsProperty</b> interface to determine attribute 
      definitions of a property.
 
-
-```vb
-Dim obj As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim obj As IADs
 Dim cl As IADsClass
 Dim pr As IADsProperty
 Dim sy As IADsSyntax
@@ -387,8 +391,8 @@ Set sc = GetObject(cl.Parent)
 Set pr = sc.GetObject("Property","Owner")
  
 ' Step 5
-MsgBox "Attribute: " & pr.Name
-MsgBox "Syntax:    " & pr.Syntax
+MsgBox "Attribute: " &amp; pr.Name
+MsgBox "Syntax:    " &amp; pr.Syntax
 If pr.Multivalued = True Then
     MsgBox "The Owner attribute has multiple values."
 Else
@@ -396,23 +400,23 @@ Else
 End If
  
 ' To further examine the syntax
-Set sy = GetObject(sc.AdsPath & "/" & pr.Syntax)
-MsgBox "Syntax object: " & sy.Name & " of OleAutoDataType: " _
-       & sy.OleAutoDataType
+Set sy = GetObject(sc.AdsPath &amp; "/" &amp; pr.Syntax)
+MsgBox "Syntax object: " &amp; sy.Name &amp; " of OleAutoDataType: " _
+       &amp; sy.OleAutoDataType
 
 Cleanup:
-    If (Err.Number <> 0 ) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number &lt;&gt; 0 ) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
 
     Set obj = Nothing
     Set cl = Nothing
     Set pr = Nothing
     Set sy = Nothing
-    Set sc = Nothing
-```
-
-
+    Set sc = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -429,7 +433,7 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

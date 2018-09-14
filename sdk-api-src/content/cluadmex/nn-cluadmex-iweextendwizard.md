@@ -7,7 +7,7 @@ old-location: mscs\iweextendwizard.htm
 tech.root: mscs
 ms.assetid: 6407163e-a8ca-4601-88a0-ecf87e29b9ab
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IWEExtendWizard, IWEExtendWizard interface [Failover Cluster], IWEExtendWizard interface [Failover Cluster],described, _wolf_iweextendwizard, cluadmex/IWEExtendWizard, mscs.iweextendwizard
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,15 +54,15 @@ req.redist:
     section. Support for this interface was removed in Windows Server 2008.]
 
 Implement the <b>IWEExtendWizard</b> interface to 
-    add wizard pages to <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator's</a> 
+    add wizard pages to <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator's</a> 
     New Resource Wizard or Cluster Application Wizard.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWEExtendWizard</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IWEExtendWizard</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWEExtendWizard</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWEExtendWizard</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -75,7 +75,7 @@ The <b>IWEExtendWizard</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa370738(v=VS.85).aspx">CreateWizardPages</a>
+<a href="https://msdn.microsoft.com/b52ea5a5-aa80-4f65-9bab-b60fa8363b01">CreateWizardPages</a>
 </td>
 <td align="left" width="63%">
 Allows you to create wizard pages and add them to Failover Cluster Administrator's New Resource Wizard or 
@@ -91,7 +91,7 @@ Allows you to create wizard pages and add them to Failover Cluster Administrator
 
 
 To support Wizard97 wizards and wizard pages, implement the 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370728(v=VS.85).aspx">IWEExtendWizard97</a> interface.
+     <a href="https://msdn.microsoft.com/3473dc89-8676-4b13-b3c8-f112c0b9cf8c">IWEExtendWizard97</a> interface.
 
 
 
@@ -101,7 +101,7 @@ To support Wizard97 wizards and wizard pages, implement the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369071(v=VS.85).aspx">Failover Cluster Administrator Extension Interfaces</a>
+<a href="https://msdn.microsoft.com/a2306e94-47c6-441f-b06d-70e3f633f78e">Failover Cluster Administrator Extension Interfaces</a>
  
 
  

@@ -4,10 +4,10 @@ title: IBDA_IPV4Filter::PutMulticastMode
 author: windows-sdk-content
 description: The PutMulticastMode method sets the multicast mode.
 old-location: mstv\ibda_ipv4filter_putmulticastmode.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: d0a12c21-e196-4228-9994-51047271cf57
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_IPV4Filter interface [Microsoft TV Technologies],PutMulticastMode method, IBDA_IPV4Filter.PutMulticastMode, IBDA_IPV4Filter::PutMulticastMode, IBDA_IPV4FilterPutMulticastMode, PutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies],IBDA_IPV4Filter interface, bdaiface/IBDA_IPV4Filter::PutMulticastMode, mstv.ibda_ipv4filter_putmulticastmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,15 +80,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693385(v=VS.85).aspx">GetMulticastMode</a>
+<a href="https://msdn.microsoft.com/231c20f6-3204-48a3-ad07-3df9c6d87bd7">GetMulticastMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693382(v=VS.85).aspx">IBDA_IPV4Filter Interface</a>
+<a href="https://msdn.microsoft.com/3db86e21-6d05-4b7f-be83-a3fa506a0e3b">IBDA_IPV4Filter Interface</a>
  
 
  

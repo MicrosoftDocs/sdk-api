@@ -4,10 +4,10 @@ title: MI_DestinationOptions_GetTransport function
 author: windows-sdk-content
 description: Gets the transport setting that the client added.
 old-location: wmi_v2\mi_destinationoptions_gettransport.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 85e0a952-c51c-4877-b9fb-d2fe0d0b1bb1
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_DestinationOptions_GetTransport, MI_DestinationOptions_GetTransport function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetTransport, wmi_v2.mi_destinationoptions_gettransport
 ms.prod: windows-hardware
 ms.technology: windows-devices

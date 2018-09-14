@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tessellator_output_primitive.htm
 tech.root: direct3d11
 ms.assetid: 6dc6d48d-bb93-4961-9fb4-6e3be194fae8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 8cfde449-9de7-6aec-645e-eaa2eafd531f, D3D11_TESSELLATOR_OUTPUT_LINE, D3D11_TESSELLATOR_OUTPUT_POINT, D3D11_TESSELLATOR_OUTPUT_PRIMITIVE, D3D11_TESSELLATOR_OUTPUT_PRIMITIVE enumeration [Direct3D 11], D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CCW, D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CW, D3D11_TESSELLATOR_OUTPUT_UNDEFINED, D3D_TESSELLATOR_OUTPUT_PRIMITIVE, d3d11shader/D3D11_TESSELLATOR_OUTPUT_LINE, d3d11shader/D3D11_TESSELLATOR_OUTPUT_POINT, d3d11shader/D3D11_TESSELLATOR_OUTPUT_PRIMITIVE, d3d11shader/D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CCW, d3d11shader/D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CW, d3d11shader/D3D11_TESSELLATOR_OUTPUT_UNDEFINED, d3dcommon/D3D11_TESSELLATOR_OUTPUT_LINE, d3dcommon/D3D11_TESSELLATOR_OUTPUT_POINT, d3dcommon/D3D11_TESSELLATOR_OUTPUT_PRIMITIVE, d3dcommon/D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CCW, d3dcommon/D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CW, d3dcommon/D3D11_TESSELLATOR_OUTPUT_UNDEFINED, direct3d11.d3d11_tessellator_output_primitive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,13 +107,17 @@ The output primitive type determines how the tessellator output data is organize
 
 The <b>D3D11_TESSELLATOR_OUTPUT_PRIMITIVE</b>     enumeration is type defined in the  D3D11Shader.h header file as a <a href="https://msdn.microsoft.com/5fdaa41f-0612-4d2e-bb3e-60222f92bc96">D3D_TESSELLATOR_OUTPUT_PRIMITIVE</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
-
-```
-
-typedef D3D_TESSELLATOR_OUTPUT_PRIMITIVE D3D11_TESSELLATOR_OUTPUT_PRIMITIVE;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+typedef D3D_TESSELLATOR_OUTPUT_PRIMITIVE D3D11_TESSELLATOR_OUTPUT_PRIMITIVE;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

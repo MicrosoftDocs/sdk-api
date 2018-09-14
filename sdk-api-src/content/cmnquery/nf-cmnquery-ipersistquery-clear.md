@@ -7,7 +7,7 @@ old-location: ad\ipersistquery_clear.htm
 tech.root: ad
 ms.assetid: 1ce97afa-6d59-446c-9af2-595ec18db2b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: Clear, Clear method [Active Directory], Clear method [Active Directory],IPersistQuery interface, IPersistQuery interface [Active Directory],Clear method, IPersistQuery.Clear, IPersistQuery::Clear, _glines_ipersistquery_clear, ad.ipersistquery__clear, ad.ipersistquery_clear, cmnquery/IPersistQuery::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

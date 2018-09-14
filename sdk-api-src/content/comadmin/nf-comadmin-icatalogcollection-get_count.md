@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_count.htm
 tech.root: cossdk
 ms.assetid: c1e02dd6-c0bc-45b0-ae1b-c30056a8e697
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Count property [COM+], Count property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],Count property, ICatalogCollection.Count, ICatalogCollection.get_Count, ICatalogCollection::Count, ICatalogCollection::get_Count, _cos_ICatalogCollection_get_Count, comadmin/ICatalogCollection::Count, comadmin/ICatalogCollection::get_Count, cos.icatalogcollection_count, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
  
 
  

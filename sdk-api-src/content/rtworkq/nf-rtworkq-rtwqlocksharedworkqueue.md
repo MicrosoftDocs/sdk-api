@@ -7,7 +7,7 @@ old-location: base\rtwqlocksharedworkqueue.htm
 tech.root: procthread
 ms.assetid: ccebdbd8-fd3e-4e99-b1dd-1ec8e57cbff6
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/13/2018
 ms.keywords: RtwqLockSharedWorkQueue, RtwqLockSharedWorkQueue function, base.rtwqlocksharedworkqueue, rtworkq/RtwqLockSharedWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

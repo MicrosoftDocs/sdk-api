@@ -4,10 +4,10 @@ title: SymPrevW function
 author: windows-sdk-content
 description: Retrieves symbol information for the previous symbol.
 old-location: base\symprev.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 45503f0c-cb66-4ddf-986d-02de7fc480f2
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: SymPrev, SymPrev function, SymPrevW, base.symprev, dbghelp/SymPrev, dbghelp/SymPrevW
 ms.prod: windows-hardware
 ms.technology: windows-devices

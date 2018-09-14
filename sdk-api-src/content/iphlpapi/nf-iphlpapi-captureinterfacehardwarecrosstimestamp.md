@@ -4,10 +4,10 @@ title: CaptureInterfaceHardwareCrossTimestamp function
 author: windows-sdk-content
 description: This function is reserved for system use, and you should not call it from your code.
 old-location: iphlp\captureinterfacehardwarecrosstimestamp.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: FB3C27CD-7D56-40F3-9DF9-A1115772D1C6
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: CaptureInterfaceHardwareCrossTimestamp, CaptureInterfaceHardwareCrossTimestamp function [IP Helper], iphlp.captureinterfacehardwarecrosstimestamp, iphlpapi/CaptureInterfaceHardwareCrossTimestamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

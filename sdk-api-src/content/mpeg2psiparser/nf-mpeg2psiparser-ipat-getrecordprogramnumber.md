@@ -4,10 +4,10 @@ title: IPAT::GetRecordProgramNumber
 author: windows-sdk-content
 description: The GetRecordProgramNumber method retrieves a program number from the PAT.
 old-location: mstv\ipat_getrecordprogramnumber.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 24a79c42-aebb-4c31-af86-508c5de3b7a3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetRecordProgramNumber, GetRecordProgramNumber method [Microsoft TV Technologies], GetRecordProgramNumber method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetRecordProgramNumber method, IPAT.GetRecordProgramNumber, IPAT::GetRecordProgramNumber, IPATGetRecordProgramNumber, mpeg2psiparser/IPAT::GetRecordProgramNumber, mstv.ipat_getrecordprogramnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

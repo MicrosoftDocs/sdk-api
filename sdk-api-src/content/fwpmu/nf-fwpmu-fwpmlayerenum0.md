@@ -4,10 +4,10 @@ title: FwpmLayerEnum0 function
 author: windows-sdk-content
 description: Returns the next page of results from the layer enumerator.
 old-location: fwp\fwpmlayerenum0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 0bcf0b85-713f-4f82-9cb5-cb1725c8167b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FwpmLayerEnum0, FwpmLayerEnum0 function [Filtering], fwp.fwpmlayerenum0_func, fwpmu/FwpmLayerEnum0
 ms.prod: windows-hardware
 ms.technology: windows-devices

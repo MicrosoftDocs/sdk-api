@@ -4,10 +4,10 @@ title: InitializeSecurityContextA function
 author: windows-sdk-content
 description: Initiates the client side, outbound security context from a credential handle.
 old-location: security\initializesecuritycontext__credssp_.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: f3d8c07b-db28-4f26-ba29-8733fc95bdb5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONNECTION, ISC_REQ_DELEGATE, ISC_REQ_EXTENDED_ERROR, ISC_REQ_MANUAL_CRED_VALIDATION, ISC_REQ_MUTUAL_AUTH, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, ISC_REQ_USE_SUPPLIED_CREDS, InitializeSecurityContext, InitializeSecurityContext (CredSSP), InitializeSecurityContext function [Security], InitializeSecurityContextA, InitializeSecurityContextW, security.initializesecuritycontext__credssp_, sspi/InitializeSecurityContext, sspi/InitializeSecurityContextA, sspi/InitializeSecurityContextW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -596,7 +596,7 @@ After  receiving an authentication certificate from a certification authority th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

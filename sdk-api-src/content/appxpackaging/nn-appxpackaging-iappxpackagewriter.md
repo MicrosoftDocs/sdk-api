@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagewriter.htm
 tech.root: appxpkg
 ms.assetid: 097B7451-9A54-4C39-8F83-16DB49691B42
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IAppxPackageWriter, IAppxPackageWriter interface [App packaging and management], IAppxPackageWriter interface [App packaging and management],described, appxpackaging/IAppxPackageWriter, appxpkg.iappxpackagewriter
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: adsi\idirectorysearch_getfirstrow.htm
 tech.root: ADSI
 ms.assetid: 99ece6d1-3963-40bc-993e-f03aa9039c2d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetFirstRow, GetFirstRow method [ADSI], GetFirstRow method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetFirstRow method, IDirectorySearch.GetFirstRow, IDirectorySearch::GetFirstRow, _ds_idirectorysearch_getfirstrow, adsi.idirectorysearch__getfirstrow, adsi.idirectorysearch_getfirstrow, iads/IDirectorySearch::GetFirstRow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,12 +93,16 @@ When the <b>ADS_SEARCHPREF_CACHE_RESULTS</b> flag is not set, that is, <b>FALSE<
 
 #### Examples
 
-
-```cpp
-hr = m_pSearch->ExecuteSearch(L"(objectCategory=contact)", pszAttr, dwCount, &hSearch);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>hr = m_pSearch-&gt;ExecuteSearch(L"(objectCategory=contact)", pszAttr, dwCount, &amp;hSearch);
 if(SUCCEEDED(hr))
 {
-    while(SUCCEEDED(hr = m_pSearch->GetNextRow(hSearch)))
+    while(SUCCEEDED(hr = m_pSearch-&gt;GetNextRow(hSearch)))
     {
         if(S_OK == hr)
         {
@@ -111,7 +115,7 @@ if(SUCCEEDED(hr))
             WCHAR szError[512];
             WCHAR szProvider[512];
 
-            ADsGetLastError(&dwError, szError, 512, szProvider, 512);
+            ADsGetLastError(&amp;dwError, szError, 512, szProvider, 512);
             if(ERROR_MORE_DATA != dwError)
             {
                 break;
@@ -123,12 +127,12 @@ if(SUCCEEDED(hr))
         }
     }
     
-    m_pSearch->CloseSearchHandle(hSearch);
+    m_pSearch-&gt;CloseSearchHandle(hSearch);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

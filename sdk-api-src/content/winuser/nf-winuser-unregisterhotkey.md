@@ -7,7 +7,7 @@ old-location: inputdev\unregisterhotkey.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\unregisterhotkey.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: UnregisterHotKey, UnregisterHotKey function [Keyboard and Mouse Input], _win32_UnregisterHotKey, _win32_unregisterhotkey_cpp, inputdev.unregisterhotkey, winui._win32_unregisterhotkey, winuser/UnregisterHotKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,7 +102,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
@@ -110,11 +110,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx">RegisterHotKey</a>
+<a href="https://msdn.microsoft.com/5f356be7-45ec-4562-b7f2-e541a2849eca">RegisterHotKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646279(v=VS.85).aspx">WM_HOTKEY</a>
+<a href="https://msdn.microsoft.com/28d87c2f-b2bb-4176-910b-0addea6beb93">WM_HOTKEY</a>
  
 
  

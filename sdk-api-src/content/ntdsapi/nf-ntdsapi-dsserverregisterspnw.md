@@ -7,7 +7,7 @@ old-location: ad\dsserverregisterspn.htm
 tech.root: ad
 ms.assetid: d95dfa55-f978-4d8d-a63d-cd1339769c79
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: DS_SPN_ADD_SPN_OP, DS_SPN_DELETE_SPN_OP, DS_SPN_REPLACE_SPN_OP, DsServerRegisterSpn, DsServerRegisterSpn function [Active Directory], DsServerRegisterSpnA, DsServerRegisterSpnW, _glines_dsserverregisterspn, ad.dsserverregisterspn, ntdsapi/DsServerRegisterSpn, ntdsapi/DsServerRegisterSpnA, ntdsapi/DsServerRegisterSpnW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,12 +125,16 @@ If the function successfully registers one or more SPNs, it returns <b>ERROR_SUC
 
 The two SPNs composed by the <b>DsServerRegisterSpn</b> function have the following format:
 
-
-```cpp
-<ServiceClass>/<host>
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;ServiceClass&gt;/&lt;host&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 In one SPN, the host computer is the fully qualified DNS name of the local computer. In the other SPN, the host component is the NetBIOS name of the local computer.
 
 In most cases, the <b>DsServerRegisterSpn</b> caller must have domain administrator privileges to successfully modify the <b>servicePrincipalName</b> attribute of an account object. The exception to this rule is if the calling thread is running under the LocalSystem account, <b>DsServerRegisterSpn</b> is allowed if the <i>UserObjectDN</i> parameter is either <b>NULL</b> or specifies the distinguished name of the local computer account.

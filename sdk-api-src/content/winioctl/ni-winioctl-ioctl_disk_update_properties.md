@@ -4,10 +4,10 @@ title: IOCTL_DISK_UPDATE_PROPERTIES
 author: windows-sdk-content
 description: Invalidates the cached partition table and re-enumerates the device.
 old-location: fs\ioctl_disk_update_properties.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: d97e0257-c3b0-48d5-b801-594763be8178
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOCTL_DISK_UPDATE_PROPERTIES, IOCTL_DISK_UPDATE_PROPERTIES control, IOCTL_DISK_UPDATE_PROPERTIES control code [Files], _win32_ioctl_disk_update_properties, base.ioctl_disk_update_properties, fs.ioctl_disk_update_properties, winioctl/IOCTL_DISK_UPDATE_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,14 +54,18 @@ Invalidates the cached partition table and re-enumerates the device.
 
 To perform this operation, call the 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,            // handle to device
-  IOCTL_DISK_UPDATE_PROPERTIES,// dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSizeNULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD)lpBytesReturned,    // lpBytesReturned(LPDWORD) lpOverlapped       // lpOverlapped);
-```
-
-
+  IOCTL_DISK_UPDATE_PROPERTIES,// dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSizeNULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD)lpBytesReturned,    // lpBytesReturned(LPDWORD) lpOverlapped       // lpOverlapped);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

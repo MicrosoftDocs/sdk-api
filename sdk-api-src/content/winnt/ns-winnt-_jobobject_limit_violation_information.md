@@ -7,7 +7,7 @@ old-location: base\jobobject_limit_violation_information.htm
 tech.root: procthread
 ms.assetid: 445f21aa-ba42-4ad6-8d28-f7811a5d8a8c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/13/2018
 ms.keywords: "*PJOBOBJECT_LIMIT_VIOLATION_INFORMATION, JOBOBJECT_LIMIT_VIOLATION_INFORMATION, JOBOBJECT_LIMIT_VIOLATION_INFORMATION structure, JOB_OBJECT_LIMIT_JOB_MEMORY, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_RATE_CONTROL, JOB_OBJECT_LIMIT_READ_BYTES, JOB_OBJECT_LIMIT_WRITE_BYTES, PJOBOBJECT_LIMIT_VIOLATION_INFORMATION, PJOBOBJECT_LIMIT_VIOLATION_INFORMATION structure pointer, ToleranceHigh, ToleranceIntervalLong, ToleranceIntervalMedium, ToleranceIntervalShort, ToleranceLow, ToleranceMedium, _JOBOBJECT_LIMIT_VIOLATION_INFORMATION, base.jobobject_limit_violation_information, winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION, winnt/PJOBOBJECT_LIMIT_VIOLATION_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

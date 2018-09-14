@@ -7,7 +7,7 @@ old-location: cloudapi\cf_population_policy_primary.htm
 tech.root: cfApi
 ms.assetid: 3EDCDE3D-AD47-4C4B-9F83-C89879D668DA
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 08/29/2018
 ms.keywords: CF_POPULATION_POLICY_ALWAYS_FULL, CF_POPULATION_POLICY_FULL, CF_POPULATION_POLICY_PARTIAL, CF_POPULATION_POLICY_PRIMARY, CF_POPULATION_POLICY_PRIMARY enumeration, PCF_POPULATION_POLICY_PRIMARY, PCF_POPULATION_POLICY_PRIMARY enumeration pointer, cfapi/CF_POPULATION_POLICY_ALWAYS_FULL, cfapi/CF_POPULATION_POLICY_FULL, cfapi/CF_POPULATION_POLICY_PARTIAL, cfapi/CF_POPULATION_POLICY_PRIMARY, cfapi/PCF_POPULATION_POLICY_PRIMARY, cloudApi.cf_population_policy_primary
 ms.prod: windows
 ms.technology: windows-sdk

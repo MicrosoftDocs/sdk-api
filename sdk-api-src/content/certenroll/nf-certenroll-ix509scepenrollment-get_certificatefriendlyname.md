@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment::get_CertificateFriendlyName
 author: windows-sdk-content
 description: Gets or sets the friendly name for the certificate.
 old-location: security\ix509scepenrollment_certificatefriendlyname.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 7d6802be-c8d7-45ea-8da2-042414ae5e55
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CertificateFriendlyName property [Security], CertificateFriendlyName property [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CertificateFriendlyName property, IX509SCEPEnrollment.CertificateFriendlyName, IX509SCEPEnrollment.get_CertificateFriendlyName, IX509SCEPEnrollment::CertificateFriendlyName, IX509SCEPEnrollment::get_CertificateFriendlyName, IX509SCEPEnrollment::put_CertificateFriendlyName, certenroll/IX509SCEPEnrollment::CertificateFriendlyName, certenroll/IX509SCEPEnrollment::get_CertificateFriendlyName, certenroll/IX509SCEPEnrollment::put_CertificateFriendlyName, get_CertificateFriendlyName, security.ix509scepenrollment_certificatefriendlyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424973(v=VS.85).aspx">IX509SCEPEnrollment</a>
+<a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a>
  
 
  

@@ -4,10 +4,10 @@ title: IISDB_SDTT::GetTableIdExt
 author: windows-sdk-content
 description: Gets the table_id_extension field value from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT). This field value identifies a specific instance of an SDTT.
 old-location: mstv\iisdb_sdtt_gettableidext.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 2b77ce3b-c706-4820-88dc-08b37978664b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetTableIdExt, GetTableIdExt method [Microsoft TV Technologies], GetTableIdExt method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetTableIdExt method, IISDB_SDTT.GetTableIdExt, IISDB_SDTT::GetTableIdExt, dvbsiparser/IISDB_SDTT::GetTableIdExt, mstv.iisdb_sdtt_gettableidext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\ptmergeandvalidateprintticket.htm
 tech.root: printdocs
 ms.assetid: 97691930-d76a-48c9-80b9-8413d96322a9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: PTMergeAndValidatePrintTicket, PTMergeAndValidatePrintTicket function [Windows GDI], _win32_PTMergeAndValidatePrintTicket, gdi.ptmergeandvalidateprintticket, prntvpt/PTMergeAndValidatePrintTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,7 @@ If <i>pBaseTicket</i> is invalid, the <b>HRESULT</b> is E_PRINTTICKET_FORMAT.
 
 If <i>pDeltaTicket</i> is invalid, the <b>HRESULT</b> is E_DELTA_PRINTTICKET_FORMAT.
 
-Otherwise, some other error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+Otherwise, some other error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 
 
@@ -132,7 +132,7 @@ Settings that are outside of the <i>scope</i> are not included in the <i>pResult
 
 When the function returns a value, the seek position of <i>pResultTicket</i> is at the end of the print ticket content. The caller is responsible for resetting the seek position before reading the data.
 
-If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 
 

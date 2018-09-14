@@ -7,7 +7,7 @@ old-location: security\certsrvbackupprepare.htm
 tech.root: seccrypto
 ms.assetid: 21af96f8-168d-4c6c-8966-357236c0e4e6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CSBACKUP_TYPE_FULL, CSBACKUP_TYPE_LOGS_ONLY, CertSrvBackupPrepare, CertSrvBackupPrepare function [Security], CertSrvBackupPrepareW, _certsrv_certsrvbackupprepare, certbcli/CertSrvBackupPrepare, certbcli/CertSrvBackupPrepareW, security.certsrvbackupprepare
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,19 +123,23 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success, and *<
 Before a Certificate Services backup can occur, it is necessary to create an <b>HCSBC</b> by means of <b>CertSrvBackupPrepare</b>. The resulting <b>HCSBC</b> is a necessary parameter of Certificate Services backup functions which can be used to list, open, read, and close files, as well as truncate the log files.
 
 <div class="alert"><b>Note</b>  When the backup session is completed, it is necessary to call 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376579(v=VS.85).aspx">CertSrvBackupEnd</a> to release the <b>HCSBC</b> which resulted from the call to <b>CertSrvBackupPrepare</b>.</div>
+<a href="https://msdn.microsoft.com/ebf87af3-df45-4440-9881-e2926b0c4f08">CertSrvBackupEnd</a> to release the <b>HCSBC</b> which resulted from the call to <b>CertSrvBackupPrepare</b>.</div>
 <div> </div>
 This function's name in Certadm.dll is <b>CertSrvBackupPrepareW</b>. You must use this form of the name when calling <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>. Also, this function is defined as type <b>FNCERTSRVBACKUPPREPAREW</b> in the Certbcli.h header file.
 
-To execute this call, you must have the backup <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">privilege</a>. For details, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa387705(v=VS.85).aspx">Setting the Backup and Restore Privileges</a>.
+To execute this call, you must have the backup <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privilege</a>. For details, see 
+<a href="https://msdn.microsoft.com/409a9fad-7141-4ba8-ab3d-fb590366001e">Setting the Backup and Restore Privileges</a>.
 
 
 #### Examples
 
-
-```cpp
-WCHAR *    wszServer = L"MyCertServerMachine";
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>WCHAR *    wszServer = L"MyCertServerMachine";
 FNCERTSRVBACKUPPREPAREW* pfnBackupPrepare;
 char * szBackPrepFunc = "CertSrvBackupPrepareW";
 HINSTANCE  hInst=0;
@@ -165,7 +169,7 @@ if ( NULL == pfnBackupPrepare )
 hr = pfnBackupPrepare(wszServer,
                       0,
                       CSBACKUP_TYPE_FULL,
-                      &hCSBC);
+                      &amp;hCSBC);
 if (FAILED(hr))
 {
     printf("Failed pfnBackupPrepare call [%x]\n", hr);
@@ -183,10 +187,10 @@ if (FAILED(hr))
 // Done processing, free the DLL.
 if (hInst)
     FreeLibrary(hInst);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -195,11 +199,11 @@ if (hInst)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376579(v=VS.85).aspx">CertSrvBackupEnd</a>
+<a href="https://msdn.microsoft.com/ebf87af3-df45-4440-9881-e2926b0c4f08">CertSrvBackupEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

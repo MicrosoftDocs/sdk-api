@@ -4,10 +4,10 @@ title: IUpdate::get_Deadline
 author: windows-sdk-content
 description: Gets the date by which the update must be installed.
 old-location: wua\iupdate_deadline.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 78f5ab06-13d1-4564-b9eb-334d4f0c34e8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: Deadline property [Windows Update Agent], Deadline property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],Deadline property, IUpdate.Deadline, IUpdate.get_Deadline, IUpdate::Deadline, IUpdate::get_Deadline, get_Deadline, wua.iupdate_deadline, wuapi/IUpdate::Deadline, wuapi/IUpdate::get_Deadline
 ms.prod: windows-hardware
 ms.technology: windows-devices

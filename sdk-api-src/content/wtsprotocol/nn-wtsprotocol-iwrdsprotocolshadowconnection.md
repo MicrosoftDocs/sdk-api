@@ -4,10 +4,10 @@ title: IWRdsProtocolShadowConnection
 author: windows-sdk-content
 description: Exposes methods that notify the protocol provider about the status of session shadowing.
 old-location: termserv\iwrdsprotocolshadowconnection.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d23c4902-4e61-45ff-8a49-62eea1b92d4a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWRdsProtocolShadowConnection, IWRdsProtocolShadowConnection interface [Remote Desktop Services], IWRdsProtocolShadowConnection interface [Remote Desktop Services],described, termserv.iwrdsprotocolshadowconnection, wtsprotocol/IWRdsProtocolShadowConnection
 ms.prod: windows
 ms.technology: windows-sdk

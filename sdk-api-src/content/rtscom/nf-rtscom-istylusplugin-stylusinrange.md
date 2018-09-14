@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_stylusinrange.htm
 tech.root: tablet
 ms.assetid: 586e7fee-6340-46b6-941f-1316b2925e1c
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: 586e7fee-6340-46b6-941f-1316b2925e1c, IStylusPlugin interface [Tablet PC],StylusInRange method, IStylusPlugin.StylusInRange, IStylusPlugin::StylusInRange, StylusInRange, StylusInRange method [Tablet PC], StylusInRange method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusInRange, tablet.istylusplugin_stylusinrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,41 +96,45 @@ The stylus is in range of the digitizer. This is a good place to check if the st
 
 The following C++ example implements a <b>IStylusPlugin::StylusInRange Method</b> method that gets the status of all the buttons on a stylus and reports them to the debug window using the <a href="http://go.microsoft.com/fwlink/p/?linkid=73729">TRACE</a> macro.
 
-
-```cpp
-STDMETHODIMP CPacketModifier::StylusInRange( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CPacketModifier::StylusInRange( 
             /* [in] */ IRealTimeStylus *piRtsSrc,
             /* [in] */ TABLET_CONTEXT_ID tcid,
             /* [in] */ STYLUS_ID sid)
 {
     IInkCursor* pInkCursor;
-	HRESULT hr = piRtsSrc->GetStylusForId(sid, &pInkCursor);
+	HRESULT hr = piRtsSrc-&gt;GetStylusForId(sid, &amp;pInkCursor);
 
 	if (SUCCEEDED(hr))
 	{
 		IInkCursorButtons* pInkCursorButtons;
-		hr = pInkCursor->get_Buttons(&pInkCursorButtons);
+		hr = pInkCursor-&gt;get_Buttons(&amp;pInkCursorButtons);
 
 		if (SUCCEEDED(hr))
 		{
 			LONG lButtonCount;
-			pInkCursorButtons->get_Count(&lButtonCount);
+			pInkCursorButtons-&gt;get_Count(&amp;lButtonCount);
 
 			if (SUCCEEDED(hr))
 			{
 				IInkCursorButton* pInkCursorButton;
 				VARIANT index;
-				VariantInit(&index);
+				VariantInit(&amp;index);
 				index.vt = VT_I4;
 
-				for (index.intVal = 0; index.intVal < lButtonCount; index.intVal++)
+				for (index.intVal = 0; index.intVal &lt; lButtonCount; index.intVal++)
 				{
-					hr = pInkCursorButtons->Item(index, &pInkCursorButton);
+					hr = pInkCursorButtons-&gt;Item(index, &amp;pInkCursorButton);
 
 					if (SUCCEEDED(hr))
 					{
 						InkCursorButtonState currentState;
-						hr = pInkCursorButton->get_State(&currentState);
+						hr = pInkCursorButton-&gt;get_State(&amp;currentState);
 
 						if (SUCCEEDED(hr))
 						{
@@ -156,17 +160,17 @@ STDMETHODIMP CPacketModifier::StylusInRange(
 					}
 				}
 
-				VariantClear(&index);
+				VariantClear(&amp;index);
 			}
 		}
 	}
 
 	return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

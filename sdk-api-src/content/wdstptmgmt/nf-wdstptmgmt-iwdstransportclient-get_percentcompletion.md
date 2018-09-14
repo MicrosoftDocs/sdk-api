@@ -4,10 +4,10 @@ title: IWdsTransportClient::get_PercentCompletion
 author: windows-sdk-content
 description: Receives the percentage of the current object that has been downloaded.
 old-location: wds\iwdstransportclient_percentcompletion.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 7d093d69-822c-4b89-893c-d9b070bd8133
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],PercentCompletion property, IWdsTransportClient.PercentCompletion, IWdsTransportClient.get_PercentCompletion, IWdsTransportClient::PercentCompletion, IWdsTransportClient::get_PercentCompletion, PercentCompletion property [Windows Deployment Services], PercentCompletion property [Windows Deployment Services],IWdsTransportClient interface, get_PercentCompletion, wds.iwdstransportclient_percentcompletion, wdstptmgmt/IWdsTransportClient::PercentCompletion, wdstptmgmt/IWdsTransportClient::get_PercentCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\msidatabasegetprimarykeys.htm
 tech.root: msi
 ms.assetid: 08ceaf05-a64b-41ac-964b-ae4648e42bae
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MsiDatabaseGetPrimaryKeys, MsiDatabaseGetPrimaryKeys function, MsiDatabaseGetPrimaryKeysA, MsiDatabaseGetPrimaryKeysW, _msi_msidatabasegetprimarykeys, msiquery/MsiDatabaseGetPrimaryKeys, msiquery/MsiDatabaseGetPrimaryKeysA, msiquery/MsiDatabaseGetPrimaryKeysW, setup.msidatabasegetprimarykeys
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,7 +99,7 @@ This function cannot be used with the
 <a href="https://msdn.microsoft.com/1ddde4e2-90a9-4dd8-a4f9-b6802d0b11cf">_Columns table</a>.
 
 Note that it is recommended to use variables of type PMSIHANDLE because the installer closes PMSIHANDLE objects as they go out of scope, whereas you must close MSIHANDLE objects by calling 
-<a href="https://msdn.microsoft.com/b9e90ed4-fda8-4628-a713-67c651e1b572">MsiCloseHandle</a>. For more information see <a href="https://msdn.microsoft.com/en-us/library/Bb204770(v=VS.85).aspx">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://msdn.microsoft.com/ff48d995-fe6f-4d1b-898d-67574ed3c5b7">Windows Installer Best Practices</a>.
+<a href="https://msdn.microsoft.com/b9e90ed4-fda8-4628-a713-67c651e1b572">MsiCloseHandle</a>. For more information see <a href="windows_installer_best_practices.htm">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://msdn.microsoft.com/ff48d995-fe6f-4d1b-898d-67574ed3c5b7">Windows Installer Best Practices</a>.
 
 
 
@@ -109,7 +109,7 @@ Note that it is recommended to use variables of type PMSIHANDLE because the inst
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">General Database Access Functions</a>
+<a href="database_functions.htm">General Database Access Functions</a>
  
 
  

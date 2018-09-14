@@ -4,10 +4,10 @@ title: FormatMessage function
 author: windows-sdk-content
 description: Formats a message string.
 old-location: base\formatmessage.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: b9d61342-4bcf-42e9-96f1-a5993dfb6c0c
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: FORMAT_MESSAGE_ALLOCATE_BUFFER, FORMAT_MESSAGE_ARGUMENT_ARRAY, FORMAT_MESSAGE_FROM_HMODULE, FORMAT_MESSAGE_FROM_STRING, FORMAT_MESSAGE_FROM_SYSTEM, FORMAT_MESSAGE_IGNORE_INSERTS, FORMAT_MESSAGE_MAX_WIDTH_MASK, FormatMessage, FormatMessage function, FormatMessageA, FormatMessageW, _win32_formatmessage, base.formatmessage, winbase/FormatMessage, winbase/FormatMessageA, winbase/FormatMessageW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -427,13 +427,13 @@ Repeating insert numbers when the source string contains width and precision spe
         resulting in an access violation).
 
 Floating-point format specifiers—e, E, f, and g—are not supported. 
-        The workaround is to use the <a href="https://msdn.microsoft.com/en-us/library/ms647541(v=VS.85).aspx">StringCchPrintf</a> 
+        The workaround is to use the <a href="_shell_StringCchPrintf_cpp">StringCchPrintf</a> 
         function to format the floating-point number into a temporary buffer, then use that buffer as the insert 
         string.
 
 Inserts that use the I64 prefix are treated as two 32-bit arguments. They must be used before subsequent 
         arguments are used. Note that it may be easier for you to use 
-        <a href="https://msdn.microsoft.com/en-us/library/ms647541(v=VS.85).aspx">StringCchPrintf</a> instead of this prefix.
+        <a href="_shell_StringCchPrintf_cpp">StringCchPrintf</a> instead of this prefix.
 
 </td>
 </tr>
@@ -505,14 +505,18 @@ The <b>FormatMessage</b> function can be used to obtain
 <div class="code"></div>
 The following example shows how to use an argument array and the width and precision specifiers.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include <windows.h>
-#include <stdio.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 
 void main(void)
 {
@@ -540,21 +544,25 @@ void main(void)
     wprintf(L"Formatted message: %s\n", buffer);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following example shows how to implement the previous example using 
      <b>va_list</b>.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include <windows.h>
-#include <stdio.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 
 LPWSTR GetFormattedMessage(LPWSTR pMessage, ...);
 
@@ -592,18 +600,18 @@ LPWSTR GetFormattedMessage(LPWSTR pMessage, ...)
                   pMessage, 
                   0,
                   0,
-                  (LPWSTR)&pBuffer, 
+                  (LPWSTR)&amp;pBuffer, 
                   0, 
-                  &args);
+                  &amp;args);
 
     va_end(args);
 
     return pBuffer;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

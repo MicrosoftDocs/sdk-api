@@ -7,7 +7,7 @@ old-location: dxmath\xmloadubyte2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUByte2(const XMUBYTE2)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: DirectX::PackedVector.XMLoadUByte2, XMLoadUByte2, XMLoadUByte2 method [DirectX Math Support APIs], dxmath.xmloadubyte2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/en-us/library/Hh404719(v=VS.85).aspx">XMUBYTE2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/b22e9c5c-c178-4f49-989c-42e44b2cbd89">XMUBYTE2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/en-us/library/Hh404719(v=VS.85).asp
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/en-us/library/Hh404719(v=VS.85).aspx">XMUBYTE2</a> structure to load. 
+Address of the <a href="https://msdn.microsoft.com/b22e9c5c-c178-4f49-989c-42e44b2cbd89">XMUBYTE2</a> structure to load. 
 
 
 ## -returns
@@ -78,22 +78,26 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 The following pseudocode shows you the operation of the function.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 XMVECTOR vectorOut;
 
-vectorOut.x = (float)pSource->x;
-vectorOut.y = (float)pSource->y;
+vectorOut.x = (float)pSource-&gt;x;
+vectorOut.y = (float)pSource-&gt;y;
 vectorOut.z = 0;
 vectorOut.w = 0;
 	
 return vectorOut;
     
-    
-```
-
-
+    </pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

@@ -7,7 +7,7 @@ old-location: security\crypt_xml_x509data.htm
 tech.root: seccrypto
 ms.assetid: 4895a6e6-ffac-419f-af9b-f2062a1aecd4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CRYPT_XML_X509DATA, CRYPT_XML_X509DATA structure [Security], PCRYPT_XML_X509DATA, PCRYPT_XML_X509DATA structure pointer [Security], _CRYPT_XML_X509DATA, cryptxml/CRYPT_XML_X509DATA, cryptxml/PCRYPT_XML_X509DATA, security.crypt_xml_x509data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,5 +65,5 @@ The size, in bytes, of the buffer pointed to by the <b>rgX509Data</b> member.
 
 ### -field rgX509Data
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433870(v=VS.85).aspx">CRYPT_XML_X509DATA_ITEM</a> structure that contains data to encode.
+A pointer to a <a href="https://msdn.microsoft.com/118371c7-9b75-4330-9897-bd352b072fa4">CRYPT_XML_X509DATA_ITEM</a> structure that contains data to encode.
 

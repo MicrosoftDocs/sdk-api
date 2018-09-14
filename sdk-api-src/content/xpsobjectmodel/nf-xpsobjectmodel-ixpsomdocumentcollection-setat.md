@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocumentcollection_setat.htm
 tech.root: printdocs
 ms.assetid: 71279337-33ec-4ed3-8c87-9c9b6844d26b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IXpsOMDocumentCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMDocumentCollection.SetAt, IXpsOMDocumentCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, xps.ixpsomdocumentcollection_setat, xpsobjectmodel/IXpsOMDocumentCollection::SetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

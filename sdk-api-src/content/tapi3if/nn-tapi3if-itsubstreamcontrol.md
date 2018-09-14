@@ -4,10 +4,10 @@ title: ITSubStreamControl
 author: windows-sdk-content
 description: The ITSubStreamControl interface exposes methods that allow an application to enumerate, create, or remove substreams. Many MSPs do not support this interface.
 old-location: tapi3\itsubstreamcontrol.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 17c5f2ba-d526-4b00-9649-8fd73d70bc79
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITSubStreamControl, ITSubStreamControl interface [TAPI 2.2], ITSubStreamControl interface [TAPI 2.2],described, _tapi3_itsubstreamcontrol, tapi3.itsubstreamcontrol, tapi3if/ITSubStreamControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,12 +53,12 @@ req.redist:
 The 
 <b>ITSubStreamControl</b> interface exposes methods that allow an application to enumerate, create, or remove substreams. Many MSPs do not support this interface.
 
-A pointer to this interface can be obtained by calling <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> on the stream object.
+A pointer to this interface can be obtained by calling <a href="_com_iunknown_queryinterface">QueryInterface</a> on the stream object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSubStreamControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITSubStreamControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSubStreamControl</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITSubStreamControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -115,7 +115,7 @@ Removes a substream.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

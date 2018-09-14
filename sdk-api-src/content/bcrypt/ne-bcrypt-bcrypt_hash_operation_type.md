@@ -60,12 +60,12 @@ The <b>BCRYPT_HASH_OPERATION_TYPE</b> enumeration specifies the hash operation t
 
 ### -field BCRYPT_HASH_OPERATION_HASH_DATA
 
-Equivalent to calling the <a href="https://msdn.microsoft.com/en-us/library/Aa375468(v=VS.85).aspx">BCryptHashData</a> function.
+Equivalent to calling the <a href="https://msdn.microsoft.com/dab89dff-dc84-4f69-8b6b-de65704b0265">BCryptHashData</a> function.
 
 
 ### -field BCRYPT_HASH_OPERATION_FINISH_HASH
 
-Equivalent to calling the <a href="https://msdn.microsoft.com/en-us/library/Aa375443(v=VS.85).aspx">BCryptFinishHash</a> function.
+Equivalent to calling the <a href="https://msdn.microsoft.com/82a7c3d9-c01b-46d0-8b54-694dc0d8ffdd">BCryptFinishHash</a> function.
 
 
 ## -see-also
@@ -73,11 +73,11 @@ Equivalent to calling the <a href="https://msdn.microsoft.com/en-us/library/Aa37
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375443(v=VS.85).aspx">BCryptFinishHash</a>
+<a href="https://msdn.microsoft.com/82a7c3d9-c01b-46d0-8b54-694dc0d8ffdd">BCryptFinishHash</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375468(v=VS.85).aspx">BCryptHashData</a>
+<a href="https://msdn.microsoft.com/dab89dff-dc84-4f69-8b6b-de65704b0265">BCryptHashData</a>
  
 
  

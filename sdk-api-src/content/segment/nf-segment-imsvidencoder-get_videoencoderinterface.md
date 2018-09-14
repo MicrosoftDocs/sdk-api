@@ -4,10 +4,10 @@ title: IMSVidEncoder::get_VideoEncoderInterface
 author: windows-sdk-content
 description: The get_VideoEncoderInterface method retrieves a pointer to the video encoder interface.
 old-location: mstv\imsvidencoder_get_videoencoderinterface.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c6ee3169-ba24-495f-b446-161c899aab16
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidEncoder interface [Microsoft TV Technologies],get_VideoEncoderInterface method, IMSVidEncoder.get_VideoEncoderInterface, IMSVidEncoder::get_VideoEncoderInterface, IMSVidEncoderget_VideoEncoderInterface, get_VideoEncoderInterface, get_VideoEncoderInterface method [Microsoft TV Technologies], get_VideoEncoderInterface method [Microsoft TV Technologies],IMSVidEncoder interface, mstv.imsvidencoder_get_videoencoderinterface, segment/IMSVidEncoder::get_VideoEncoderInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

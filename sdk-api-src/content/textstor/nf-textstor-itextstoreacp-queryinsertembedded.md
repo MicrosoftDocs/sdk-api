@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_queryinsertembedded.htm
 tech.root: TSF
 ms.assetid: b1cf6162-da57-4b8a-beca-fb1ec390c577
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],QueryInsertEmbedded method, ITextStoreACP.QueryInsertEmbedded, ITextStoreACP::QueryInsertEmbedded, QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_queryinsertembedded_ref, textstor/ITextStoreACP::QueryInsertEmbedded, tsf.itextstoreacp_queryinsertembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Pointer to the object type. Can be <b>NULL</b>.
 
 ### -param pFormatEtc [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms682242(v=VS.85).aspx">FORMATETC</a> structure that contains format data of the object. This parameter cannot be <b>NULL</b> if the <i>pguidService</i> parameter is <b>NULL</b>.
+Pointer to the <a href="_com_the_formatetc_structure">FORMATETC</a> structure that contains format data of the object. This parameter cannot be <b>NULL</b> if the <i>pguidService</i> parameter is <b>NULL</b>.
 
 
 ### -param pfInsertable [out]
@@ -126,7 +126,7 @@ The clipboard formats supported by the document are dependent on the application
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682242(v=VS.85).aspx">FORMATETC</a>
+<a href="_com_the_formatetc_structure">FORMATETC</a>
 
 
 

@@ -4,10 +4,10 @@ title: D2D1_FACTORY_TYPE
 author: windows-sdk-content
 description: Specifies whether Direct2D provides synchronization for an ID2D1Factory and the resources it creates, so that they may be safely accessed from multiple threads.
 old-location: direct2d\D2D1_FACTORY_TYPE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 428053d3-7ea0-4b01-9924-4a31d8e018fb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D2D1_FACTORY_TYPE, D2D1_FACTORY_TYPE enumeration [Direct2D], D2D1_FACTORY_TYPE_MULTI_THREADED, D2D1_FACTORY_TYPE_SINGLE_THREADED, d2d1/D2D1_FACTORY_TYPE, d2d1/D2D1_FACTORY_TYPE_MULTI_THREADED, d2d1/D2D1_FACTORY_TYPE_SINGLE_THREADED, direct2d.D2D1_FACTORY_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,29 +88,43 @@ Note the qualifier "On the CPU": GPUs generally take advantage of fine-grained p
 
 The following code fragments declare a factory pointer, create a singlethreaded factory instance, and use the factory to create a render target.
 
-
-```cpp
-ID2D1Factory* m_pDirect2dFactory;
-
-```
-
-```cpp
-    // Create a Direct2D factory.
-    hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &m_pDirect2dFactory);
-
-```
-
-```cpp
-        // Create a Direct2D render target.
-        hr = m_pDirect2dFactory->CreateHwndRenderTarget(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ID2D1Factory* m_pDirect2dFactory;
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    // Create a Direct2D factory.
+    hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &amp;m_pDirect2dFactory);
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>        // Create a Direct2D render target.
+        hr = m_pDirect2dFactory-&gt;CreateHwndRenderTarget(
             D2D1::RenderTargetProperties(),
             D2D1::HwndRenderTargetProperties(m_hwnd, size),
-            &m_pRenderTarget
+            &amp;m_pRenderTarget
             );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -119,7 +133,7 @@ ID2D1Factory* m_pDirect2dFactory;
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368034(v=VS.85).aspx">CreateFactory</a>
+<a href="https://msdn.microsoft.com/8c0a685a-8f33-4072-a715-bb423cb44f03">CreateFactory</a>
 
 
 
@@ -127,7 +141,7 @@ ID2D1Factory* m_pDirect2dFactory;
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ569217(v=VS.85).aspx">Multithreaded Direct2D Apps</a>
+<a href="https://msdn.microsoft.com/FDD770D4-817F-44D9-86C4-15DD04D214AE">Multithreaded Direct2D Apps</a>
  
 
  

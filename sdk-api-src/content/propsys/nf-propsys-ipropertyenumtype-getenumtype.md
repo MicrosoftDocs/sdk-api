@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumType_GetEnumType.htm
 tech.root: properties
 ms.assetid: f73ad824-5605-4c3c-b623-debdebdf5780
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: GetEnumType, GetEnumType method [Windows Properties], GetEnumType method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetEnumType method, IPropertyEnumType.GetEnumType, IPropertyEnumType::GetEnumType, PET_DEFAULTVALUE, PET_DISCRETEVALUE, PET_ENDRANGE, PET_RANGEDVALUE, _shell_IPropertyEnumType_GetEnumType, properties.IPropertyEnumType_GetEnumType, propsys/IPropertyEnumType::GetEnumType, shell.IPropertyEnumType_GetEnumType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,25 +68,25 @@ When this method returns, contains a pointer to one of the values listed below t
 
 #### PET_DISCRETEVALUE (0)
 
-Use <a href="https://msdn.microsoft.com/en-us/library/Bb761485(v=VS.85).aspx">GetDisplayText</a> and either <a href="https://msdn.microsoft.com/en-us/library/Bb761489(v=VS.85).aspx">GetRangeMinValue</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb761491(v=VS.85).aspx">GetRangeSetValue</a>.
+Use <a href="shell.IPropertyEnumType_GetDisplayText">GetDisplayText</a> and either <a href="shell.IPropertyEnumType_GetRangeMinValue">GetRangeMinValue</a> or <a href="shell.IPropertyEnumType_GetRangeSetValue">GetRangeSetValue</a>.
 
 
 
 #### PET_RANGEDVALUE (1)
 
-Use <a href="https://msdn.microsoft.com/en-us/library/Bb761485(v=VS.85).aspx">GetDisplayText</a> and either <a href="https://msdn.microsoft.com/en-us/library/Bb761489(v=VS.85).aspx">GetRangeMinValue</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb761491(v=VS.85).aspx">GetRangeSetValue</a>.
+Use <a href="shell.IPropertyEnumType_GetDisplayText">GetDisplayText</a> and either <a href="shell.IPropertyEnumType_GetRangeMinValue">GetRangeMinValue</a> or <a href="shell.IPropertyEnumType_GetRangeSetValue">GetRangeSetValue</a>.
 
 
 
 #### PET_DEFAULTVALUE (2)
 
-Use <a href="https://msdn.microsoft.com/en-us/library/Bb761485(v=VS.85).aspx">GetDisplayText</a>.
+Use <a href="shell.IPropertyEnumType_GetDisplayText">GetDisplayText</a>.
 
 
 
 #### PET_ENDRANGE (3)
 
-Use <a href="https://msdn.microsoft.com/en-us/library/ms536253(v=VS.85).aspx">GetValue</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb761489(v=VS.85).aspx">GetRangeMinValue</a>.
+Use <a href="shell.IPropertyEnumType_GetValue">GetValue</a> or <a href="shell.IPropertyEnumType_GetRangeMinValue">GetRangeMinValue</a>.
 
 
 ## -returns
@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For additional information, see <a href="https://msdn.microsoft.com/en-us/library/Bb773871(v=VS.85).aspx">enumeratedList</a>.
+For additional information, see <a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>.
 
 
 

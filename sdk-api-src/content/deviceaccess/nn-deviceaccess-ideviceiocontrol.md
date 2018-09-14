@@ -7,7 +7,7 @@ old-location: deviceaccess\ideviceiocontrol.htm
 tech.root: deviceaccess
 ms.assetid: d285e04e-04d0-4c2a-b9f0-72eebebf4f4b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IDeviceIoControl, IDeviceIoControl interface [Device Access Broker API], IDeviceIoControl interface [Device Access Broker API],described, deviceaccess.ideviceiocontrol, deviceaccess/IDeviceIoControl
 ms.prod: windows
 ms.technology: windows-sdk

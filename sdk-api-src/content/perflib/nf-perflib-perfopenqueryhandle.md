@@ -4,10 +4,10 @@ title: PerfOpenQueryHandle function
 author: windows-sdk-content
 description: Creates a handle that references a query on the specified system. A query is a list of counter specifications.
 old-location: perf\perfopenqueryhandle.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: 5105F617-9443-451D-B802-C6A241769E65
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 08/29/2018
 ms.keywords: PerfOpenQueryHandle, PerfOpenQueryHandle function [Perf], perf.perfopenqueryhandle, perflib/PerfOpenQueryHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IOfflineFilesFileSysInfo::GetTimes
 author: windows-sdk-content
 description: Retrieves the time values associated with an item.
 old-location: of\iofflinefilesfilesysinfo_gettimes.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 120b3f7c-6a92-4a03-8676-1ad4e4dc96b3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetTimes, GetTimes method [Offline Files], GetTimes method [Offline Files],IOfflineFilesFileSysInfo interface, IOfflineFilesFileSysInfo interface [Offline Files],GetTimes method, IOfflineFilesFileSysInfo.GetTimes, IOfflineFilesFileSysInfo::GetTimes, cscobj/IOfflineFilesFileSysInfo::GetTimes, of.iofflinefilesfilesysinfo_gettimes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Retrieves the time values associated with an item.
 
 ### -param copy [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb530646(v=VS.85).aspx">OFFLINEFILES_ITEM_COPY</a> enumeration value identifying which copy (local or remote) to retrieve the time values for.
+An <a href="https://msdn.microsoft.com/b956f186-962b-457e-9c03-ffd1a7f937ca">OFFLINEFILES_ITEM_COPY</a> enumeration value identifying which copy (local or remote) to retrieve the time values for.
 
 <b>Windows Vista:  </b>This value must be <b>OFFLINEFILES_ITEM_COPY_LOCAL</b>.
 
@@ -109,7 +109,7 @@ The time values returned directly correspond to the Win32 file time values used 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530568(v=VS.85).aspx">IOfflineFilesFileSysInfo</a>
+<a href="https://msdn.microsoft.com/d3da183d-eb12-4411-b461-b58689ef5bff">IOfflineFilesFileSysInfo</a>
  
 
  

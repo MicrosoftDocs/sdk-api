@@ -4,10 +4,10 @@ title: ISectionList::InitializeWithRawSections
 author: windows-sdk-content
 description: The InitializeWithRawSections method initializes the object with raw section data. This method allows for custom processing of section data.
 old-location: mstv\isectionlist_initializewithrawsections.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 61f1e99b-c375-4aa3-a11b-7e24c35f71ca
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ISectionList interface [Microsoft TV Technologies],InitializeWithRawSections method, ISectionList.InitializeWithRawSections, ISectionList::InitializeWithRawSections, ISectionListInitializeWithRawSections, InitializeWithRawSections, InitializeWithRawSections method [Microsoft TV Technologies], InitializeWithRawSections method [Microsoft TV Technologies],ISectionList interface, mpeg2data/ISectionList::InitializeWithRawSections, mstv.isectionlist_initializewithrawsections
 ms.prod: windows-hardware
 ms.technology: windows-devices

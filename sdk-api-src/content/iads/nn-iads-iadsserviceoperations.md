@@ -7,7 +7,7 @@ old-location: adsi\iadsserviceoperations.htm
 tech.root: ADSI
 ms.assetid: f2459ca2-8a14-4343-bec6-ef3775dbf415
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsServiceOperations, IADsServiceOperations interface [ADSI], IADsServiceOperations interface [ADSI],described, _ds_iadsserviceoperations, adsi.iadsserviceoperations, iads/IADsServiceOperations
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ Of the system services and their operations, file service and file service opera
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsServiceOperations</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsServiceOperations</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsServiceOperations</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsServiceOperations</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -320,7 +320,7 @@ Gets the status of the service.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

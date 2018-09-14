@@ -4,10 +4,10 @@ title: IWdsTransportManager
 author: windows-sdk-content
 description: Manages a WDS transport server. This is the top-level interface into the Windows Deployment Services (WDS) Transport Management API and the only interface that can be created using the CoCreateInstance function.
 old-location: wds\iwdstransportmanager.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 23f36ec7-5f6f-486c-bb09-e2f5b6f57efa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IWdsTransportManager, IWdsTransportManager interface [Windows Deployment Services], IWdsTransportManager interface [Windows Deployment Services],described, wds.iwdstransportmanager, wdstptmgmt/IWdsTransportManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Manages a WDS transport server. This is the top-level interface into the Windows
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWdsTransportManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportManager</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWdsTransportManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

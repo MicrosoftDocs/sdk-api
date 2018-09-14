@@ -7,7 +7,7 @@ old-location: security\cryptmsgverifycountersignatureencodedex.htm
 tech.root: seccrypto
 ms.assetid: da756cd5-1dec-4d88-9c90-76dd263035eb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CMSG_VERIFY_COUNTER_SIGN_ENABLE_STRONG_FLAG, CryptMsgVerifyCountersignatureEncodedEx, CryptMsgVerifyCountersignatureEncodedEx function [Security], _crypto2_cryptmsgverifycountersignatureencodedex, security.cryptmsgverifycountersignatureencodedex, wincrypt/CryptMsgVerifyCountersignatureEncodedEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -322,11 +322,11 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

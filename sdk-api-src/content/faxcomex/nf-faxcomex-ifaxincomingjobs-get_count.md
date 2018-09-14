@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjobs_cpp_mfax_faxincomingjobs_count_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4p2s.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxIncomingJobs interface, IFaxIncomingJobs interface [Fax Service],Count property, IFaxIncomingJobs.Count, IFaxIncomingJobs.get_Count, IFaxIncomingJobs::Count, IFaxIncomingJobs::get_Count, _mfax_faxincomingjobs.count, fax._mfax_faxincomingjobs_count, fax._mfax_faxincomingjobs_cpp_mfax_faxincomingjobs_count_cpp, faxcomex/IFaxIncomingJobs::Count, faxcomex/IFaxIncomingJobs::get_Count, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/en-us/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a> collection. This is the total number of incoming jobs for the fax server.
+The <b>Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/05b2ceec-d8e9-4ee8-be0c-e31bb12edfc8">FaxIncomingJobs</a> collection. This is the total number of incoming jobs for the fax server.
 
 This property is read-only.
 
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a>
+<a href="https://msdn.microsoft.com/05b2ceec-d8e9-4ee8-be0c-e31bb12edfc8">FaxIncomingJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684964(v=VS.85).aspx">IFaxIncomingJobs</a>
+<a href="https://msdn.microsoft.com/970a6047-4c85-404d-ad7e-39703f09f856">IFaxIncomingJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/88cde2d4-09ee-4fbf-8a75-35de58dd45f5">Visual Basic Example</a>
  
 
  

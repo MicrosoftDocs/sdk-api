@@ -7,7 +7,7 @@ old-location: search\_search_IRelationship_Destination.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\destination.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: Destination, Destination method [search], Destination method [search],IRelationship interface, IRelationship interface [search],Destination method, IRelationship.Destination, IRelationship::Destination, _search_IRelationship_Destination, search._search_IRelationship_Destination, structuredquery/IRelationship::Destination
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Retrieves the destination <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a> object of the relationship. The destination of a relationshipo corresponds to the type of a property.
+Retrieves the destination <a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a> object of the relationship. The destination of a relationshipo corresponds to the type of a property.
       
 
 
@@ -61,9 +61,9 @@ Retrieves the destination <a href="https://msdn.microsoft.com/en-us/library/Bb23
 
 ### -param pDestinationEntity [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a>**</b>
 
-Receives the address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a> object, or <b>NULL</b> if the relationship is not real. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb231340(v=VS.85).aspx">IRelationship::IsReal</a>.
+Receives the address of a pointer to an <a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a> object, or <b>NULL</b> if the relationship is not real. For more information, see <a href="https://msdn.microsoft.com/4a209437-a382-4a28-9e1c-9eea51669791">IRelationship::IsReal</a>.
         
 
 

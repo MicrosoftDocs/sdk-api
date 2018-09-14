@@ -7,7 +7,7 @@ old-location: tsf\tf_da_colortype.htm
 tech.root: TSF
 ms.assetid: f692e188-d2f4-453b-a576-c6c05fd5f02a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: TF_CT_COLORREF, TF_CT_NONE, TF_CT_SYSCOLOR, TF_DA_COLORTYPE, TF_DA_COLORTYPE enumeration [Text Services Framework], __MIDL___MIDL_itf_msctf_0000_0070_0002, _tsf_tf_da_colortype_ref, msctf/TF_CT_COLORREF, msctf/TF_CT_NONE, msctf/TF_CT_SYSCOLOR, msctf/TF_DA_COLORTYPE, tsf.tf_da_colortype
 ms.prod: windows
 ms.technology: windows-sdk

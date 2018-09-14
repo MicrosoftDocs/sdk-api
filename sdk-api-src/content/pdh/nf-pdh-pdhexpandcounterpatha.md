@@ -4,10 +4,10 @@ title: PdhExpandCounterPathA function
 author: windows-sdk-content
 description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path.
 old-location: perf\pdhexpandcounterpath.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: d90954ab-ec2f-42fd-90b7-66f59f3d1115
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 08/29/2018
 ms.keywords: PdhExpandCounterPath, PdhExpandCounterPath function [Perf], PdhExpandCounterPathA, PdhExpandCounterPathW, _win32_pdhexpandcounterpath, base.pdhexpandcounterpath, pdh/PdhExpandCounterPath, pdh/PdhExpandCounterPathA, pdh/PdhExpandCounterPathW, perf.pdhexpandcounterpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -180,14 +180,18 @@ Partial counter path string matches (for example, "pro*") are not supported.
 
 The following example demonstrates how to this function.
 
-
-```cpp
-
-#include <windows.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <pdh.h>
-#include <pdhmsg.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;pdh.h&gt;
+#include &lt;pdhmsg.h&gt;
 
 #pragma comment(lib, "pdh.lib")
 
@@ -200,12 +204,12 @@ void wmain(void)
     PWSTR Paths = NULL;
     DWORD BufferSize = 0;
 
-    Status = PdhExpandCounterPath(WILDCARD_PATH, Paths, &BufferSize);
+    Status = PdhExpandCounterPath(WILDCARD_PATH, Paths, &amp;BufferSize);
 
     while (Status == PDH_MORE_DATA) 
     {
         Paths = (PWSTR)malloc(BufferSize * sizeof(WCHAR));
-        Status = PdhExpandCounterPath(WILDCARD_PATH, Paths, &BufferSize);
+        Status = PdhExpandCounterPath(WILDCARD_PATH, Paths, &amp;BufferSize);
     }
 
     if (Status != ERROR_SUCCESS) 
@@ -225,7 +229,7 @@ void wmain(void)
     // On Vista and later operating systems, the buffer is terminated with two 
     // null-terminator characters; however, on earlier systems, the buffer is
     // not terminated with two null-terminator characters. This covers both cases.
-    for (PWSTR p = Paths; ((p != EndOfPaths) && (*p != L'\0')); p += wcslen(p) + 1) 
+    for (PWSTR p = Paths; ((p != EndOfPaths) &amp;&amp; (*p != L'\0')); p += wcslen(p) + 1) 
     {
         wprintf(L"\n%s", p);
     }
@@ -236,10 +240,10 @@ Cleanup:
         free(Paths);
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

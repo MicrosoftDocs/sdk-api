@@ -7,7 +7,7 @@ old-location: gpmc\gpmbackuptype.htm
 tech.root: GPMC
 ms.assetid: 048871f3-39ea-4bf6-bc04-b4a34cd1a9d0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GPMBackupType, GPMBackupType enumeration [GPMC], __MIDL___MIDL_itf_gpmgmt_0000_0030_0001, gpmc.gpmbackuptype, gpmgmt/GPMBackupType, gpmgmt/typeGPO, gpmgmt/typeStarterGPO, typeGPO, typeStarterGPO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,15 +53,19 @@ req.redist:
 <b>GPMBackupType</b> defines the type of backup created.
 
 <b>GPMBackupType</b> determines whether the backup is for a Group Policy object or a Starter Group Policy object.
-
-```cpp
-typedef enum {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef enum {
     typeGPO = 0,
     typeStarterGPO
-} GPMBackupType;
-```
-
-
+} GPMBackupType;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -enum-fields
 

@@ -4,10 +4,10 @@ title: ldap_compare_ext function
 author: windows-sdk-content
 description: Use the ldap_compare_ext function to determine if an attribute, for a given entry, holds a known value.
 old-location: ldap\ldap_compare_ext.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: 07e96a95-439b-4bb1-a9ca-d76d181e8bea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "_ldap_ldap_compare_ext, ldap.ldap__compare__ext, ldap.ldap_compare_ext, ldap_compare_ext, ldap_compare_ext function [LDAP], ldap_compare_extA, ldap_compare_extW, winldap/ldap_compare_ext, winldap/ldap_compare_extA, winldap/ldap_compare_extW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

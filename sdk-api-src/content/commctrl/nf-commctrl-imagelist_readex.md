@@ -4,10 +4,10 @@ title: ImageList_ReadEx function
 author: windows-sdk-content
 description: Reads an image list from a stream, and returns an IImageList interface to the image list.
 old-location: controls\ImageList_ReadEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_readex.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ILP_DOWNLEVEL, ILP_NORMAL, ImageList_ReadEx, ImageList_ReadEx function [Windows Controls], _win32_ImageList_ReadEx, _win32_ImageList_ReadEx_cpp, commctrl/ImageList_ReadEx, controls.ImageList_ReadEx, controls._win32_ImageList_ReadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Reads an image list from a stream, and returns an <a href="https://msdn.microsoft.com/en-us/library/Bb761490(v=VS.85).aspx">IImageList</a> interface to the image list. 
+Reads an image list from a stream, and returns an <a href="https://msdn.microsoft.com/02e397a4-22fa-49fb-8103-376aa5ebc77a">IImageList</a> interface to the image list. 
 
 
 
@@ -61,7 +61,7 @@ Reads an image list from a stream, and returns an <a href="https://msdn.microsof
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 A flag that specifies how the stream is read.
 
@@ -126,7 +126,7 @@ The address of a pointer to the interface for the image list if successful, <b>N
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -137,7 +137,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-To use <b>ImageList_ReadEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ImageList_ReadEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 
@@ -147,15 +147,15 @@ To use <b>ImageList_ReadEx</b>, the application must specify Comctl32.dll versio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761560(v=VS.85).aspx">ImageList_Read</a>
+<a href="https://msdn.microsoft.com/d0b6b9ca-18e5-4db5-8995-3db81adaec25">ImageList_Read</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775228(v=VS.85).aspx">ImageList_Write</a>
+<a href="https://msdn.microsoft.com/00078f34-3c8c-45dd-be81-9d62b90222ca">ImageList_Write</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775229(v=VS.85).aspx">ImageList_WriteEx</a>
+<a href="https://msdn.microsoft.com/0cb345a9-4d6f-4218-ab70-26cf2ddeb2b3">ImageList_WriteEx</a>
 
 
 

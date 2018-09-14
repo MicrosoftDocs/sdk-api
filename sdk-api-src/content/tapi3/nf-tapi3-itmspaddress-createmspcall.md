@@ -4,10 +4,10 @@ title: ITMSPAddress::CreateMSPCall
 author: windows-sdk-content
 description: The CreateMSPCall method creates an MSP Call object. TAPI aggregates this onto the main Call object and exposes the ITStreamControl interface.
 old-location: tapi3\itmspaddress_createmspcall.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 56ed10e3-e711-43ae-aad6-65a5992fca0f
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: CreateMSPCall, CreateMSPCall method [TAPI 2.2], CreateMSPCall method [TAPI 2.2],ITMSPAddress interface, ITMSPAddress interface [TAPI 2.2],CreateMSPCall method, ITMSPAddress.CreateMSPCall, ITMSPAddress::CreateMSPCall, _tapi3_itmspaddress_createmspcall, msp/ITMSPAddress::CreateMSPCall, tapi3.itmspaddress_createmspcall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,12 +78,12 @@ Indicates
 ### -param pOuterUnknown [in]
 
 The pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on the TAPI 3 call object. Since the MSP Call object is aggregated in the TAPI 3 call object, it needs to know the outer <b>IUnknown</b>.
+<a href="_com_iunknown">IUnknown</a> interface on the TAPI 3 call object. Since the MSP Call object is aggregated in the TAPI 3 call object, it needs to know the outer <b>IUnknown</b>.
 
 
 ### -param ppStreamControl [out]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer of 
+Pointer to <a href="_com_iunknown">IUnknown</a> interface pointer of 
 <a href="https://msdn.microsoft.com/12b9457a-7afb-4348-93a2-28728c673929">ITStreamControl</a> interface for newly created call.
 
 

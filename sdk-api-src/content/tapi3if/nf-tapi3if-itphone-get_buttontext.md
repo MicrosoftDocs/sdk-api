@@ -4,10 +4,10 @@ title: ITPhone::get_ButtonText
 author: windows-sdk-content
 description: The get_ButtonText method retrieves the button text associated with a particular button.
 old-location: tapi3\itphone_get_buttontext.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 75a216fb-7bb3-4178-baa5-8ba478bd5422
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_ButtonText method, ITPhone.get_ButtonText, ITPhone::get_ButtonText, _tapi3_itphone_get_buttontext, get_ButtonText, get_ButtonText method [TAPI 2.2], get_ButtonText method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_buttontext, tapi3if/ITPhone::get_ButtonText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ Button identifier.
 ### -param ppButtonText [out]
 
 The <b>BSTR</b> representation of the button text. The <b>BSTR</b> is allocated using 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: RasEnumEntriesW function
 author: windows-sdk-content
 description: The RasEnumEntries function lists all entry names in a remote access phone book.
 old-location: rras\rasenumentries.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 9df7402f-c93e-45d4-925a-f2ce9d547bce
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: RasEnumEntries, RasEnumEntries function [RAS], RasEnumEntriesA, RasEnumEntriesW, _ras_rasenumentries, ras/RasEnumEntries, ras/RasEnumEntriesA, ras/RasEnumEntriesW, rras.rasenumentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -199,10 +199,14 @@ The following sample code enumerates the RAS phone-book entries on Windows Vist
 <b>RasEnumEntries</b> again, to enumerate the entries. Note that for the second call, the code sets the <b>dwSize</b> member of the first 
 <a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structure in the buffer to sizeof(<b>RASENTRYNAME</b>) to specify the structure version.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 #include "ras.h"
 #include "raserror.h"
 #pragma comment(lib, "rasapi32.lib")
@@ -216,7 +220,7 @@ DWORD __cdecl wmain(){
     
     // Call RasEnumEntries with lpRasEntryName = NULL. dwCb is returned with the required buffer size and 
     // a return code of ERROR_BUFFER_TOO_SMALL
-    dwRet = RasEnumEntries(NULL, NULL, lpRasEntryName, &dwCb, &dwEntries);
+    dwRet = RasEnumEntries(NULL, NULL, lpRasEntryName, &amp;dwCb, &amp;dwEntries);
 
     if (dwRet == ERROR_BUFFER_TOO_SMALL){
         // Allocate the memory needed for the array of RAS entry names.
@@ -229,12 +233,12 @@ DWORD __cdecl wmain(){
         lpRasEntryName[0].dwSize = sizeof(RASENTRYNAME);
         
         // Call RasEnumEntries to enumerate all RAS entry names
-        dwRet = RasEnumEntries(NULL, NULL, lpRasEntryName, &dwCb, &dwEntries);
+        dwRet = RasEnumEntries(NULL, NULL, lpRasEntryName, &amp;dwCb, &amp;dwEntries);
 
         // If successful, print the RAS entry names 
         if (ERROR_SUCCESS == dwRet){
             wprintf(L"The following RAS entry names were found:\n");
-            for (DWORD i = 0; i < dwEntries; i++){
+            for (DWORD i = 0; i &lt; dwEntries; i++){
                 wprintf(L"%s\n", lpRasEntryName[i].szEntryName);
             }
         }
@@ -245,7 +249,7 @@ DWORD __cdecl wmain(){
     }
 
     // There was either a problem with RAS or there are RAS entry names to enumerate    
-    if(dwEntries >= 1){
+    if(dwEntries &gt;= 1){
         wprintf(L"The operation failed to acquire the buffer size.\n");
     }else{
         wprintf(L"There were no RAS entry names found:.\n");
@@ -253,10 +257,10 @@ DWORD __cdecl wmain(){
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

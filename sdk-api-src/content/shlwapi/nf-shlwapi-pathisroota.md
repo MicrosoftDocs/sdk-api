@@ -7,7 +7,7 @@ old-location: shell\PathIsRoot.htm
 tech.root: shell
 ms.assetid: 8586df98-91c4-49a6-9b07-7dceb8a63431
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: PathIsRoot, PathIsRoot function [Windows Shell], PathIsRootA, PathIsRootW, _win32_PathIsRoot, shell.PathIsRoot, shlwapi/PathIsRoot, shlwapi/PathIsRootA, shlwapi/PathIsRootW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,10 +94,14 @@ Returns <b>TRUE</b> for paths such as "\", "<i>X</i>:\" or "\\<i>server</i>\<i>s
 
 
 
-
-```cpp
-#include <windows.h>
-#include <iostream.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;iostream.h&gt;
 #include "Shlwapi.h"
 
 void main( void )
@@ -117,13 +121,13 @@ int retval;
 
 // Test case with path not absolute.
 retval = PathIsRoot(lpStr1);
-cout << "The return from function is       :" << retval << endl;
-cout << "The path does contain a root part :" << lpStr1 << endl;
+cout &lt;&lt; "The return from function is       :" &lt;&lt; retval &lt;&lt; endl;
+cout &lt;&lt; "The path does contain a root part :" &lt;&lt; lpStr1 &lt;&lt; endl;
 
 // Test case with path absolute.
 retval = PathIsRoot(lpStr2);
-cout << "The return from function is       :" << retval << endl;
-cout << "The path does not contain part    :" << lpStr2 << endl;
+cout &lt;&lt; "The return from function is       :" &lt;&lt; retval &lt;&lt; endl;
+cout &lt;&lt; "The path does not contain part    :" &lt;&lt; lpStr2 &lt;&lt; endl;
 }
 
 OUTPUT:
@@ -132,9 +136,9 @@ The return from function is       :1
 The path does contain a root part :C:\
 The return from function is       :0
 The path does not contain part    :path\file
-============
-```
-
-
+============</pre>
+</td>
+</tr>
+</table></span></div>
 
 

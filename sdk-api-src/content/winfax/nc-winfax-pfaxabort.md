@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxabort.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_03jo.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: FaxAbortA, FaxAbortW, PFAXABORT, PFAXABORT callback, PFAXABORT callback function [Fax Service], _mfax_faxabort, fax._mfax_faxabort, winfax/FaxAbortA, winfax/FaxAbortW, winfax/PFAXABORT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ A fax client application calls the <b>FaxAbort</b> function to terminate a fax j
 
 Type: <b>HANDLE</b>
 
-Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a> function.
+Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a> function.
 
 
 ### -param JobId [in]
@@ -96,7 +96,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-Access is denied. You must own the job, or have <a href="https://msdn.microsoft.com/en-us/library/ms692302(v=VS.85).aspx">FAX_JOB_MANAGE</a> access.
+Access is denied. You must own the job, or have <a href="https://msdn.microsoft.com/7d6ff208-33e4-42b2-ae21-76ec8ff58809">FAX_JOB_MANAGE</a> access.
 
 </td>
 </tr>
@@ -132,11 +132,11 @@ The <i>JobId</i> parameter is invalid.
 
 
 
-An application typically calls the <b>FaxAbort</b> function to terminate a fax transmission that is in progress. To manage a queued fax job, an application typically calls the <a href="https://msdn.microsoft.com/en-us/library/ms691844(v=VS.85).aspx">FaxSetJob</a> function. <b>FaxSetJob</b> can cancel an active job; the function can also pause, resume, cancel, or restart a queued fax job.
+An application typically calls the <b>FaxAbort</b> function to terminate a fax transmission that is in progress. To manage a queued fax job, an application typically calls the <a href="https://msdn.microsoft.com/f9068b1d-2cac-4128-b112-23febd846c15">FaxSetJob</a> function. <b>FaxSetJob</b> can cancel an active job; the function can also pause, resume, cancel, or restart a queued fax job.
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/ms691958(v=VS.85).aspx">FaxEnumJobs</a> function to retrieve a valid value to use in the <i>JobId</i> parameter.
+Call the <a href="https://msdn.microsoft.com/d32cbef5-e548-4f66-bac6-c718c688547d">FaxEnumJobs</a> function to retrieve a valid value to use in the <i>JobId</i> parameter.
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms692314(v=VS.85).aspx">Modifying a Fax Job</a> and <a href="https://msdn.microsoft.com/en-us/library/ms692845(v=VS.85).aspx">Terminating a Fax Job</a>.
+For more information, see <a href="https://msdn.microsoft.com/8bcfa999-85d8-43f1-a7f1-59d5a824376a">Modifying a Fax Job</a> and <a href="https://msdn.microsoft.com/b957ed68-3e48-4c97-8c7c-3329a52f41bb">Terminating a Fax Job</a>.
 
 
 
@@ -146,31 +146,31 @@ For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms69
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a>
+<a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691958(v=VS.85).aspx">FaxEnumJobs</a>
+<a href="https://msdn.microsoft.com/d32cbef5-e548-4f66-bac6-c718c688547d">FaxEnumJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692343(v=VS.85).aspx">FaxSendDocument</a>
+<a href="https://msdn.microsoft.com/bbf8def4-4af0-4315-94f9-860f9db1eefa">FaxSendDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691844(v=VS.85).aspx">FaxSetJob</a>
+<a href="https://msdn.microsoft.com/f9068b1d-2cac-4128-b112-23febd846c15">FaxSetJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691423(v=VS.85).aspx">FaxStartPrintJob</a>
+<a href="https://msdn.microsoft.com/219cc7f7-d5c8-416b-b9ea-0f13584cac57">FaxStartPrintJob</a>
  
 
  

@@ -4,10 +4,10 @@ title: IDirect3DDevice9::GetRenderState
 author: windows-sdk-content
 description: Retrieves a render-state value for a device.
 old-location: direct3d9\idirect3ddevice9__getrenderstate.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getrenderstate.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 2d20be3d-5ba4-bf91-6270-0a3b1c346d9d, GetRenderState, GetRenderState method [Direct3D 9], GetRenderState method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetRenderState method, IDirect3DDevice9.GetRenderState, IDirect3DDevice9::GetRenderState, d3d9helper/IDirect3DDevice9::GetRenderState, direct3d9.idirect3ddevice9__getrenderstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,9 +61,9 @@ Retrieves a render-state value for a device.
 
 ### -param State [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx">D3DRENDERSTATETYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/2fd56388-f3bd-409f-876c-ae893840b623">D3DRENDERSTATETYPE</a></b>
 
-Device state variable that is being queried. This parameter can be any member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx">D3DRENDERSTATETYPE</a> enumerated type. 
+Device state variable that is being queried. This parameter can be any member of the <a href="https://msdn.microsoft.com/2fd56388-f3bd-409f-876c-ae893840b623">D3DRENDERSTATETYPE</a> enumerated type. 
 
 
 ### -param pValue [out, retval]
@@ -77,7 +77,7 @@ Pointer to a variable that receives the value of the queried render state variab
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if one of the arguments is invalid.
 
@@ -88,7 +88,7 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if one of
 
 
 
-This method will not return device state for a device that is created using D3DCREATE_PUREDEVICE. If you want to use this method, you must create your device with any of the other values in <a href="https://msdn.microsoft.com/en-us/library/Bb172527(v=VS.85).aspx">D3DCREATE</a>."
+This method will not return device state for a device that is created using D3DCREATE_PUREDEVICE. If you want to use this method, you must create your device with any of the other values in <a href="https://msdn.microsoft.com/91387a2d-3927-4285-a09b-9ce247e6bfdd">D3DCREATE</a>."
     
 
 
@@ -100,11 +100,11 @@ This method will not return device state for a device that is created using D3DC
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174454(v=VS.85).aspx">IDirect3DDevice9::SetRenderState</a>
+<a href="https://msdn.microsoft.com/65738aae-aa90-48c5-8c9c-1927d1c92c54">IDirect3DDevice9::SetRenderState</a>
  
 
  

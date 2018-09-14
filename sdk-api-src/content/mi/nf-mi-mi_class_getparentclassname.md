@@ -4,10 +4,10 @@ title: MI_Class_GetParentClassName function
 author: windows-sdk-content
 description: Gets the parent class name of the specified class.
 old-location: wmi_v2\mi_class_getparentclassname.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: a7e183f1-1136-46e0-a53d-39d06767e380
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Class_GetParentClassName, MI_Class_GetParentClassName function [Windows Management Infrastructure (MI)], mi/MI_Class_GetParentClassName, wmi_v2.mi_class_getparentclassname
 ms.prod: windows-hardware
 ms.technology: windows-devices

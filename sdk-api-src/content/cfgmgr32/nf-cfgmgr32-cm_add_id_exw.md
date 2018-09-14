@@ -7,7 +7,7 @@ old-location: devinst\cm_add_id_ex.htm
 tech.root: devinst
 ms.assetid: 978d650b-cbd5-4dff-bd51-7419774b8a7f
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: CM_Add_ID_Ex, CM_Add_ID_Ex function [Device and Driver Installation], CM_Add_ID_ExW, cfgmgr32/CM_Add_ID_Ex, cfgmgr32/CM_Add_ID_ExW, cfgmgrfn_0c8f48d0-09e5-46f9-b638-aff20af6abd5.xml, devinst.cm_add_id_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,7 +54,7 @@ req.redist:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/0a2da246-7803-45cb-baee-351726dbcf15">CM_Add_ID</a> instead.]
 
-The <b>CM_Add_ID_Ex</b> function appends a <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a> (if not already present) to a device instance's <a href="https://msdn.microsoft.com/library/Ff546152(v=VS.85).aspx">hardware ID</a> list or <a href="https://msdn.microsoft.com/library/Ff539950(v=VS.85).aspx">compatible ID</a> list, on either the local or a remote machine.
+The <b>CM_Add_ID_Ex</b> function appends a <a href="devinst.device_ids">device ID</a> (if not already present) to a device instance's <a href="devinst.hardware_ids">hardware ID</a> list or <a href="devinst.compatible_ids">compatible ID</a> list, on either the local or a remote machine.
 
 
 ## -parameters

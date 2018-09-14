@@ -7,7 +7,7 @@ old-location: setup\msigetfeaturestate.htm
 tech.root: msi
 ms.assetid: eb8942b9-996e-45d8-b515-5c84737eb5ed
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_BADCONFIG, INSTALLSTATE_BROKEN, INSTALLSTATE_DEFAULT, INSTALLSTATE_INCOMPLETE, INSTALLSTATE_INVALIDARG, INSTALLSTATE_LOCAL, INSTALLSTATE_MOREDATA, INSTALLSTATE_SOURCE, INSTALLSTATE_SOURCEABSENT, INSTALLSTATE_UNKNOWN, MsiGetFeatureState, MsiGetFeatureState function, MsiGetFeatureStateA, MsiGetFeatureStateW, _msi_msigetfeaturestate, msiquery/MsiGetFeatureState, msiquery/MsiGetFeatureStateA, msiquery/MsiGetFeatureStateW, setup.msigetfeaturestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -238,7 +238,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="database_functions.htm">Installer Selection Functions</a>
 
 
 

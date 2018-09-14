@@ -7,7 +7,7 @@ old-location: xps\iprintdocumentpackagetargetfactory.htm
 tech.root: printdocs
 ms.assetid: 631FBF5E-1DDF-49A9-8E1E-201BC6996EA5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IPrintDocumentPackageTargetFactory, IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging], IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageTargetFactory, xps.iprintdocumentpackagetargetfactory
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createinputlayout.htm
 tech.root: direct3d11
 ms.assetid: fe233b7b-3729-428a-8611-e98ea4c5af35
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 7e1008d3-1c16-4b6f-6b61-949b59c5f6d2, CreateInputLayout, CreateInputLayout method [Direct3D 11], CreateInputLayout method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateInputLayout method, ID3D11Device.CreateInputLayout, ID3D11Device::CreateInputLayout, d3d11/ID3D11Device::CreateInputLayout, direct3d11.id3d11device_createinputlayout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,15 +61,15 @@ Create an input-layout object to describe the input-buffer data for the input-as
 
 ### -param pInputElementDescs [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Ff476180(v=VS.85).aspx">D3D11_INPUT_ELEMENT_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/45545d24-1513-4efd-9344-20673c5b98d5">D3D11_INPUT_ELEMENT_DESC</a>*</b>
 
-An array of the input-assembler stage input data types; each type is described by an element description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476180(v=VS.85).aspx">D3D11_INPUT_ELEMENT_DESC</a>).
+An array of the input-assembler stage input data types; each type is described by an element description (see <a href="https://msdn.microsoft.com/45545d24-1513-4efd-9344-20673c5b98d5">D3D11_INPUT_ELEMENT_DESC</a>).
           
 
 
 ### -param NumElements [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The number of input-data types in the array of input-elements.
 
@@ -84,7 +84,7 @@ A pointer to the compiled shader.  The compiled shader code contains a input sig
 
 ### -param BytecodeLength [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">SIZE_T</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
 
 Size of the compiled shader.
 
@@ -101,9 +101,9 @@ A pointer to the input-layout object created (see <a href="https://msdn.microsof
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-If the method succeeds, the return code is S_OK. See <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a> for failing error codes.
+If the method succeeds, the return code is S_OK. See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for failing error codes.
           
 
 
@@ -132,7 +132,7 @@ If a data type in the input-layout declaration does not match the data type in a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
  
 
  

@@ -4,10 +4,10 @@ title: D2D1_SHARPEN_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Sharpen effect.
 old-location: direct2d\d2d1_sharpen_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 73ED06C4-A8FB-4312-8BB8-3B9C885E9FEC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D2D1_SHARPEN_PROP, D2D1_SHARPEN_PROP enumeration [Direct2D], D2D1_SHARPEN_PROP_SHARPNESS, D2D1_SHARPEN_PROP_THRESHOLD, d2d1effects_2/D2D1_SHARPEN_PROP, d2d1effects_2/D2D1_SHARPEN_PROP_SHARPNESS, d2d1effects_2/D2D1_SHARPEN_PROP_THRESHOLD, direct2d.d2d1_sharpen_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn900461(v=VS.85).aspx">Sharpen effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/1eb12d1e-83c1-ba13-33be-df2078f3ccb8">Sharpen effect</a>.
 
 
 ## -enum-fields

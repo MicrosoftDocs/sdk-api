@@ -4,10 +4,10 @@ title: TreeView_CreateDragImage macro
 author: windows-sdk-content
 description: Creates a dragging bitmap for the specified item in a tree-view control.
 old-location: controls\TreeView_CreateDragImage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_createdragimage.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: TreeView_CreateDragImage, TreeView_CreateDragImage macro [Windows Controls], _win32_TreeView_CreateDragImage, _win32_TreeView_CreateDragImage_cpp, commctrl/TreeView_CreateDragImage, controls.TreeView_CreateDragImage, controls._win32_TreeView_CreateDragImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a dragging bitmap for the specified item in a tree-view control. The macro also creates an image list for the bitmap and adds the bitmap to the image list. An application can display the image when dragging the item by using the image list functions. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773558(v=VS.85).aspx">TVM_CREATEDRAGIMAGE</a> message explicitly. 
+Creates a dragging bitmap for the specified item in a tree-view control. The macro also creates an image list for the bitmap and adds the bitmap to the image list. An application can display the image when dragging the item by using the image list functions. You can use this macro or send the <a href="https://msdn.microsoft.com/fbe97921-c9d3-473c-933c-d6bc0599e24d">TVM_CREATEDRAGIMAGE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Creates a dragging bitmap for the specified item in a tree-view control. The mac
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_ActivateHandler.htm
 tech.root: shell
 ms.assetid: 95f332a4-c76c-437f-a756-528cbbb39e2d
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: ActivateHandler, ActivateHandler method [Windows Shell], ActivateHandler method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],ActivateHandler method, ISyncMgrControl.ActivateHandler, ISyncMgrControl::ActivateHandler, _shell_ISyncMgrControl_ActivateHandler, shell.ISyncMgrControl_ActivateHandler, syncmgr/ISyncMgrControl::ActivateHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,9 +114,13 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>ActivateHand
 
 The following example shows the usage of <b>ISyncMgrControl::ActivateHandler</b> by a handler's procedure.
 
-
-```cpp
-void MiscProc(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void MiscProc(...)
 {
     ...
 
@@ -125,23 +129,23 @@ void MiscProc(...)
     
     hr = CoCreateInstance(CLSID_SyncMgrControl, 
                           CLSCTX_SERVER, 
-                          IID_PPV_ARGS(&pControl));
+                          IID_PPV_ARGS(&amp;pControl));
     if (SUCCEEDED(hr))
     {
         // Tell Sync Center to activate our handler.
-        hr = pControl->ActivateHandler(TRUE, 
+        hr = pControl-&gt;ActivateHandler(TRUE, 
                                        s_szMySyncHandlerID, 
                                        hwndOwner,
                                        SYNCMGR_CF_NOWAIT);
-        pControl->Release();
+        pControl-&gt;Release();
     }
 
     ...
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

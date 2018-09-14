@@ -7,7 +7,7 @@ old-location: adsi\iadsfileserviceoperations_resources.htm
 tech.root: ADSI
 ms.assetid: 5b7f2240-ca92-4e8e-b3ec-8eab36c3166f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsFileServiceOperations interface [ADSI],Resources method, IADsFileServiceOperations.Resources, IADsFileServiceOperations::Resources, Resources, Resources method [ADSI], Resources method [ADSI],IADsFileServiceOperations interface, _ds_iadsfileserviceoperations_resources, adsi.iadsfileserviceoperations__resources, adsi.iadsfileserviceoperations_resources, iads/IADsFileServiceOperations::Resources
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,9 +83,13 @@ Traditional directory services supply data only about directory service elements
 
 The following code example shows how to enumerate open resources managed by a file service.
 
-
-```vb
-Dim fso As IADsFileServiceOperations
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim fso As IADsFileServiceOperations
 On Error GoTo Cleanup
 
 ' Bind to a file service operation on "myComputer" 
@@ -94,18 +98,18 @@ Set fso = GetObject("WinNT://myComputer/LanmanServer")
 
 ' Enumerate resources.
 For Each resource In fso.Resources
-    MsgBox "Resource path: " & resource.Path
+    MsgBox "Resource path: " &amp; resource.Path
 Next resource
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set fso = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For a code example using the <b>IADsFileServiceOperations::Resources</b> method, see the code example given in  <a href="https://msdn.microsoft.com/217749a4-55dc-457f-8582-1513ff3b0666">IADsResource</a>.
 
 <div class="code"></div>

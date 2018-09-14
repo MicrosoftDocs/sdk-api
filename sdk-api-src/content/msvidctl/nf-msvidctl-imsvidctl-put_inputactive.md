@@ -4,10 +4,10 @@ title: IMSVidCtl::put_InputActive
 author: windows-sdk-content
 description: The put_InputActive method specifies the input device to use in the filter graph.
 old-location: mstv\imsvidctl_put_inputactive.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 696d8ece-a377-4fe8-a790-a68d1a24e65a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_InputActive method, IMSVidCtl.put_InputActive, IMSVidCtl::put_InputActive, IMSVidCtlput_InputActive, mstv.imsvidctl_put_inputactive, msvidctl/IMSVidCtl::put_InputActive, put_InputActive, put_InputActive method [Microsoft TV Technologies], put_InputActive method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

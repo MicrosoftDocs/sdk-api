@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_getstatus.htm
 tech.root: TSF
 ms.assetid: a1f193b0-fcfc-4db6-90e9-61d528b08672
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetStatus method, ITfContext.GetStatus, ITfContext::GetStatus, _tsf_itfcontext_getstatus_ref, msctf/ITfContext::GetStatus, tsf.itfcontext_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

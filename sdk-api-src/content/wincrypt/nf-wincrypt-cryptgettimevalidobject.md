@@ -7,7 +7,7 @@ old-location: security\cryptgettimevalidobject.htm
 tech.root: seccrypto
 ms.assetid: dd639b43-1560-4e9f-a778-9e20484ae012
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CRYPT_ACCUMULATIVE_TIMEOUT, CRYPT_CACHE_ONLY_RETRIEVAL, CRYPT_CHECK_FRESHNESS_TIME_VALIDITY, CRYPT_DONT_CHECK_TIME_VALIDITY, CRYPT_DONT_VERIFY_SIGNATURE, CRYPT_KEEP_TIME_VALID, CRYPT_OCSP_ONLY_RETRIEVAL, CRYPT_WIRE_ONLY_RETRIEVAL, CryptGetTimeValidObject, CryptGetTimeValidObject function [Security], TIME_VALID_OID_GET_CRL, TIME_VALID_OID_GET_CRL_FROM_CERT, TIME_VALID_OID_GET_CTL, TIME_VALID_OID_GET_FRESHEST_CRL_FROM_CERT, TIME_VALID_OID_GET_FRESHEST_CRL_FROM_CRL, security.cryptgettimevalidobject, wincrypt/CryptGetTimeValidObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>CryptGetTimeValidObject</b> function retrieves a CRL, an OCSP response, o
 
 ### -param pszTimeValidOid [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) that identifies the object being requested. If the <a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a> of the <i>pszTimeValidOid</i> parameter is zero, the <a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a> specifies the integer identifier for the type of the specified structure. 
+A pointer to an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) that identifies the object being requested. If the <a href="_win32_hiword_cpp">HIWORD</a> of the <i>pszTimeValidOid</i> parameter is zero, the <a href="_win32_loword_cpp">LOWORD</a> specifies the integer identifier for the type of the specified structure. 
 
 
 This parameter can be one of the following values. For information about how these values affect the pvPara parameter, see the heading "For the pvPara parameter" in the Meaning column.

@@ -7,7 +7,7 @@ old-location: opc\iopcfactory_createparturi.htm
 tech.root: OPC
 ms.assetid: 8634d166-767a-46a5-9001-5fca88bfa844
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreatePartUri, CreatePartUri method [Open Packaging Conventions], CreatePartUri method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePartUri method, IOpcFactory.CreatePartUri, IOpcFactory::CreatePartUri, msopc/IOpcFactory::CreatePartUri, opc.iopcfactory_createparturi
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -218,7 +218,7 @@ A part name cannot be an absolute URI. An absolute URI begins with a schema comp
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/library/ms775098(v=VS.85).aspx">CreateUri</a> function. 
+An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function. 
 
 </td>
 </tr>
@@ -261,7 +261,7 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/library/ms775098(v=VS.85).aspx">CreateUri</a>
+<a href="inet_CreateUri_Function">CreateUri</a>
 
 
 

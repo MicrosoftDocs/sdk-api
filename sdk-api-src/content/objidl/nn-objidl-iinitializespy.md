@@ -7,7 +7,7 @@ old-location: com\iinitializespy.htm
 tech.root: com
 ms.assetid: 9cf1a3fa-dbc6-4760-a9e9-ef237737acfb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IInitializeSpy, IInitializeSpy interface [COM], IInitializeSpy interface [COM],described, _com_iinitializespy, com.iinitializespy, objidl/IInitializeSpy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Performs initialization or cleanup when entering or exiting a COM apartment.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInitializeSpy</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IInitializeSpy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInitializeSpy</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IInitializeSpy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

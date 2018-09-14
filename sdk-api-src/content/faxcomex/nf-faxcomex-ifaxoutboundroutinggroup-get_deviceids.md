@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutinggroup_deviceids_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4var_cpp.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: DeviceIds property [Fax Service], DeviceIds property [Fax Service],IFaxOutboundRoutingGroup interface, IFaxOutboundRoutingGroup interface [Fax Service],DeviceIds property, IFaxOutboundRoutingGroup.DeviceIds, IFaxOutboundRoutingGroup.get_DeviceIds, IFaxOutboundRoutingGroup::DeviceIds, IFaxOutboundRoutingGroup::get_DeviceIds, _mfax_faxoutboundroutinggroup.deviceids_cpp, fax._mfax_faxoutboundroutinggroup_deviceids_cpp, faxcomex/IFaxOutboundRoutingGroup::DeviceIds, faxcomex/IFaxOutboundRoutingGroup::get_DeviceIds, get_DeviceIds
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689099(v=VS.85).aspx">IFaxOutboundRoutingGroup</a>
+<a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae">Visual Basic Example</a>
  
 
  

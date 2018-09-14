@@ -7,7 +7,7 @@ old-location: shell\KF_REDIRECT_FLAGS.htm
 tech.root: shell
 ms.assetid: 6016f02f-5480-4fd8-b21d-209ebd863922
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: KF_REDIRECT_CHECK_ONLY, KF_REDIRECT_COPY_CONTENTS, KF_REDIRECT_COPY_SOURCE_DACL, KF_REDIRECT_DEL_SOURCE_CONTENTS, KF_REDIRECT_EXCLUDE_ALL_KNOWN_SUBFOLDERS, KF_REDIRECT_FLAGS, KF_REDIRECT_FLAGS enumeration [Windows Shell], KF_REDIRECT_OWNER_USER, KF_REDIRECT_PIN, KF_REDIRECT_SET_OWNER_EXPLICIT, KF_REDIRECT_UNPIN, KF_REDIRECT_USER_EXCLUSIVE, KF_REDIRECT_WITH_UI, _KF_REDIRECT_FLAGS, _shell_KF_REDIRECT_FLAGS, shell.KF_REDIRECT_FLAGS, shobjidl_core/KF_REDIRECT_CHECK_ONLY, shobjidl_core/KF_REDIRECT_COPY_CONTENTS, shobjidl_core/KF_REDIRECT_COPY_SOURCE_DACL, shobjidl_core/KF_REDIRECT_DEL_SOURCE_CONTENTS, shobjidl_core/KF_REDIRECT_EXCLUDE_ALL_KNOWN_SUBFOLDERS, shobjidl_core/KF_REDIRECT_FLAGS, shobjidl_core/KF_REDIRECT_OWNER_USER, shobjidl_core/KF_REDIRECT_PIN, shobjidl_core/KF_REDIRECT_SET_OWNER_EXPLICIT, shobjidl_core/KF_REDIRECT_UNPIN, shobjidl_core/KF_REDIRECT_USER_EXCLUSIVE, shobjidl_core/KF_REDIRECT_WITH_UI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,12 +121,16 @@ The <b><b>KF_REDIRECT_OWNER_USER</b></b> and <b><b>KF_REDIRECT_SET_OWNER_EXPLICI
 
 The <b>KF_REDIRECT_FLAGS</b> type is defined in Shobjidl.h as shown here.
 
-
-```
-typedef DWORD KF_REDIRECT_FLAGS;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef DWORD KF_REDIRECT_FLAGS;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

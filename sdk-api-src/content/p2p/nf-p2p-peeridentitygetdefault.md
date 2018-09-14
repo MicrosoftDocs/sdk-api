@@ -7,7 +7,7 @@ old-location: p2p\peeridentitygetdefault.htm
 tech.root: p2psdk
 ms.assetid: 195052a2-eaae-4b8c-bc13-0667ce50a967
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerIdentityGetDefault, PeerIdentityGetDefault function [Peer Networking], p2p.peeridentitygetdefault, p2p/PeerIdentityGetDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices

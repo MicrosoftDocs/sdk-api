@@ -7,7 +7,7 @@ old-location: base\rtwqregisterplatformwithmmcss.htm
 tech.root: procthread
 ms.assetid: 17ba1e77-f1b0-4575-b96c-bf42813279ce
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/13/2018
 ms.keywords: RtwqRegisterPlatformWithMMCSS, RtwqRegisterPlatformWithMMCSS function, base.rtwqregisterplatformwithmmcss, rtworkq/RtwqRegisterPlatformWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices

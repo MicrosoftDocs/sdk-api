@@ -7,7 +7,7 @@ old-location: p2p\peercollabexportcontact.htm
 tech.root: p2psdk
 ms.assetid: 8239e42f-3d86-416e-ad1b-93a37091811f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerCollabExportContact, PeerCollabExportContact function [Peer Networking], p2p.peercollabexportcontact, p2p/PeerCollabExportContact
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: devinst\cm_get_class_property_keys.htm
 tech.root: devinst
 ms.assetid: D226EB4B-40F5-485D-9D58-642B6AE7B482
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: CM_Get_Class_Property_Keys, CM_Get_Class_Property_Keys function [Device and Driver Installation], cfgmgr32/CM_Get_Class_Property_Keys, devinst.cm_get_class_property_keys
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,7 +107,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<b>CM_Get_Class_Property_Keys</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">Unified Device Property Model</a>.
+<b>CM_Get_Class_Property_Keys</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">Unified Device Property Model</a>.
 
 
 

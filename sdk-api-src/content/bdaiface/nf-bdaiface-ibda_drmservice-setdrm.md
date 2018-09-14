@@ -4,10 +4,10 @@ title: IBDA_DRMService::SetDRM
 author: windows-sdk-content
 description: Activates a digital rights management (DRM) system on the media transform device (MTD).
 old-location: mstv\ibda_drmservice_setdrm.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 89da348f-c79c-4c77-8270-51a71b0a1a89
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_DRMService interface [Microsoft TV Technologies],SetDRM method, IBDA_DRMService.SetDRM, IBDA_DRMService::SetDRM, SetDRM, SetDRM method [Microsoft TV Technologies], SetDRM method [Microsoft TV Technologies],IBDA_DRMService interface, bdaiface/IBDA_DRMService::SetDRM, mstv.ibda_drmservice_setdrm
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693316(v=VS.85).aspx">IBDA_DRMService</a>
+<a href="https://msdn.microsoft.com/bd06118c-ea1b-46e4-b499-67039430a52e">IBDA_DRMService</a>
  
 
  

@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_bits5_0_0000_0000_0005"
 author: windows-sdk-content
 description: Provides the property value of a BITS file.
 old-location: bits\bits_file_property_value.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 0296014d-d5cc-40f0-a3d3-93d8ea704ce5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: BITS_FILE_PROPERTY_VALUE, BITS_FILE_PROPERTY_VALUE union [BITS], __MIDL___MIDL_itf_bits5_0_0000_0000_0005, bits.bits_file_property_value, bits5_0/BITS_FILE_PROPERTY_VALUE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.redist:
 
 The <b>BITS_FILE_PROPERTY_VALUE</b> union provides the 
     property value of the BITS file based on a value from the 
-    <a href="https://msdn.microsoft.com/en-us/library/Hh446782(v=VS.85).aspx">BITS_FILE_PROPERTY_ID</a> enumeration.
+    <a href="https://msdn.microsoft.com/A14E301E-029E-43C8-B012-8FFFA652EA40">BITS_FILE_PROPERTY_ID</a> enumeration.
 
 
 ## -struct-fields
@@ -71,15 +71,15 @@ This value is used when using the property ID
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446782(v=VS.85).aspx">BITS_FILE_PROPERTY_ID</a>
+<a href="https://msdn.microsoft.com/A14E301E-029E-43C8-B012-8FFFA652EA40">BITS_FILE_PROPERTY_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt147018(v=VS.85).aspx">IBackgroundCopyFile5.GetProperty</a>
+<a href="https://msdn.microsoft.com/7afe4d11-f611-40ea-be94-7825f95576de">IBackgroundCopyFile5.GetProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt147020(v=VS.85).aspx">IBackgroundCopyFile5.SetProperty</a>
+<a href="https://msdn.microsoft.com/7a5809ef-e84f-4566-a5fa-fd63b1dfd15c">IBackgroundCopyFile5.SetProperty</a>
  
 
  

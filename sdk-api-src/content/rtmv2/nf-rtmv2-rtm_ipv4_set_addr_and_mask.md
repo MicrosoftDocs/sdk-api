@@ -4,10 +4,10 @@ title: RTM_IPV4_SET_ADDR_AND_MASK macro
 author: windows-sdk-content
 description: The RTM_IPV4_SET_ADDR_AND_MASK macro converts an IPv4 address and mask to a generic RTM_NET_ADDRESS structure.
 old-location: rras\rtm_ipv4_set_addr_and_mask.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 23849eed-309a-41b8-b853-1267806166fa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: RTM_IPV4_SET_ADDR_AND_MASK, RTM_IPV4_SET_ADDR_AND_MASK macro [RAS], _rtmv2ref_rtm_ipv4_set_addr_and_mask, rras.rtm_ipv4_set_addr_and_mask, rtmv2/RTM_IPV4_SET_ADDR_AND_MASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,18 +83,22 @@ For example, if a client supplies the <i>Addr</i> 10.10.10.0 and the <i>Mask</i>
 
 The macro is defined as follows:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define RTM_IPV4_SET_ADDR_AND_MASK(NetAddress, Addr, Mask)  \
-        (NetAddress)->AddressFamily = AF_INET;              \
-        (* (ULONG *) ((NetAddress)->AddrBits)) = (Addr);    \
-        RTM_IPV4_LEN_FROM_MASK((NetAddress)->NumBits, Mask)
-
-```
-
-
+        (NetAddress)-&gt;AddressFamily = AF_INET;              \
+        (* (ULONG *) ((NetAddress)-&gt;AddrBits)) = (Addr);    \
+        RTM_IPV4_LEN_FROM_MASK((NetAddress)-&gt;NumBits, Mask)
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

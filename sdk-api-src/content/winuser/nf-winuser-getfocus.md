@@ -7,7 +7,7 @@ old-location: inputdev\getfocus.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getfocus.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetFocus, GetFocus function [Keyboard and Mouse Input], _win32_GetFocus, _win32_getfocus_cpp, inputdev.getfocus, winui._win32_getfocus, winuser/GetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,15 +88,15 @@ The return value is the handle to the window with the keyboard focus. If the cal
 
 <b>GetFocus</b> returns the window with the keyboard focus for the current thread's message queue. If <b>GetFocus</b> returns <b>NULL</b>, another thread's queue may be attached to a window that has the keyboard focus.
 
-Use the <a href="https://msdn.microsoft.com/en-us/library/ms633505(v=VS.85).aspx">GetForegroundWindow</a> function to retrieve the handle to the window with which the user is currently working. You can associate your thread's message queue with the windows owned by another thread by using the 
+Use the <a href="https://msdn.microsoft.com/ee30a5fc-a229-4b84-b1f7-2d071d641a22">GetForegroundWindow</a> function to retrieve the handle to the window with which the user is currently working. You can associate your thread's message queue with the windows owned by another thread by using the 
     <a href="https://msdn.microsoft.com/0c343fab-56ae-4c70-a79e-0c5f827158a3">AttachThreadInput</a> function.
 
-To get the window with the keyboard focus on the foreground queue or the queue of another thread, use the <a href="https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a> function.
+To get the window with the keyboard focus on the foreground queue or the queue of another thread, use the <a href="https://msdn.microsoft.com/863e0735-a2d4-4962-99d8-bb6037770c50">GetGUIThreadInfo</a> function.
 
 
 #### Examples
 
-For an example, see "Creating a Combo Box Toolbar" in <a href="https://msdn.microsoft.com/en-us/library/Bb775794(v=VS.85).aspx">Using Combo Boxes</a>.
+For an example, see "Creating a Combo Box Toolbar" in <a href="_win32_Using_Combo_Boxes">Using Combo Boxes</a>.
 
 <div class="code"></div>
 
@@ -115,15 +115,15 @@ For an example, see "Creating a Combo Box Toolbar" in <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633505(v=VS.85).aspx">GetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/ee30a5fc-a229-4b84-b1f7-2d071d641a22">GetForegroundWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a>
+<a href="https://msdn.microsoft.com/863e0735-a2d4-4962-99d8-bb6037770c50">GetGUIThreadInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
@@ -135,15 +135,15 @@ For an example, see "Creating a Combo Box Toolbar" in <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646312(v=VS.85).aspx">SetFocus</a>
+<a href="https://msdn.microsoft.com/88fc2959-007a-441d-8a02-19d775f28de9">SetFocus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646282(v=VS.85).aspx">WM_KILLFOCUS</a>
+<a href="https://msdn.microsoft.com/6d32a09b-a856-4f94-9544-3345b3a700f4">WM_KILLFOCUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646283(v=VS.85).aspx">WM_SETFOCUS</a>
+<a href="https://msdn.microsoft.com/77180e4c-95a6-41a4-93d9-033381ae7543">WM_SETFOCUS</a>
  
 
  

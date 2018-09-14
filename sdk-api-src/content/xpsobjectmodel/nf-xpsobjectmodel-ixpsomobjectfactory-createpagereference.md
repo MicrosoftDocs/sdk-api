@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createpagereference.htm
 tech.root: printdocs
 ms.assetid: 037a7926-def4-4be3-b7c5-3c4c588e75ae
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CreatePageReference, CreatePageReference method [XPS Documents and Packaging], CreatePageReference method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePageReference method, IXpsOMObjectFactory.CreatePageReference, IXpsOMObjectFactory::CreatePageReference, xps.ixpsomobjectfactory_createpagereference, xpsobjectmodel/IXpsOMObjectFactory::CreatePageReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,9 +129,13 @@ The method succeeded.
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMPageReference    *newInterface;
 // The following value is defined outside of 
 // this example.
@@ -145,31 +149,31 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreatePageReference (
-        &advisoryPageDimensions,
-        &newInterface);
+    hr = xpsFactory-&gt;CreatePageReference (
+        &amp;advisoryPageDimensions,
+        &amp;newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface->Release();
+        newInterface-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

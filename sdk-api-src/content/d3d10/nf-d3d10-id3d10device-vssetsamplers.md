@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_vssetsamplers.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vssetsamplers.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],VSSetSamplers method, ID3D10Device.VSSetSamplers, ID3D10Device::VSSetSamplers, VSSetSamplers, VSSetSamplers method [Direct3D 10], VSSetSamplers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSSetSamplers, direct3d10.id3d10device_vssetsamplers, f52bec26-138b-dd22-78d6-1674e519b377
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Set an array of sampler states to the <a href="https://msdn.microsoft.com/library/Bb205146(v=VS.85).aspx">vertex shader</a> pipeline stage.
+Set an array of sampler states to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">vertex shader</a> pipeline stage.
 
 
 ## -parameters
@@ -75,9 +75,9 @@ Number of samplers in the array. Each pipeline stage has a total of 16 sampler s
 
 ### -param ppSamplers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173833(v=VS.85).aspx">ID3D10SamplerState</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/5815f809-aec0-49b1-bcef-d04146551af9">ID3D10SamplerState</a>*</b>
 
-Pointer to an array of sampler-state interfaces (see <a href="https://msdn.microsoft.com/en-us/library/Bb173833(v=VS.85).aspx">ID3D10SamplerState</a>). See Remarks.
+Pointer to an array of sampler-state interfaces (see <a href="https://msdn.microsoft.com/5815f809-aec0-49b1-bcef-d04146551af9">ID3D10SamplerState</a>). See Remarks.
 
 
 ## -returns
@@ -95,9 +95,13 @@ Returns nothing.
 
 Any sampler may be set to <b>NULL</b>; this invokes the default state, which is defined to be the following.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 //Default sampler state:
 D3D10_SAMPLER_DESC SamplerDesc;
 SamplerDesc.Filter = D3D10_FILTER_MIN_MAG_MIP_LINEAR;
@@ -113,10 +117,10 @@ SamplerDesc.BorderColor[2] = 1.0f;
 SamplerDesc.BorderColor[3] = 1.0f;
 SamplerDesc.MinLOD = -FLT_MAX;
 SamplerDesc.MaxLOD = FLT_MAX;
-		
-```
-
-
+		</pre>
+</td>
+</tr>
+</table></span></div>
 The method will not hold a reference to the interfaces passed in. For that reason, applications should be careful not to release an interface currently in use by the device.
 
 
@@ -127,7 +131,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

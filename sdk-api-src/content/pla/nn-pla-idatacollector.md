@@ -7,7 +7,7 @@ old-location: pla\idatacollector.htm
 tech.root: PLA
 ms.assetid: e1860bcf-c62d-434b-b98b-38bad7f84d89
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IDataCollector, IDataCollector interface [PLA], IDataCollector interface [PLA],described, base.idatacollector, pla.idatacollector, pla/IDataCollector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ This interface is an abstract class from which the following data collectors der
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollector</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDataCollector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollector</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IDataCollector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -269,50 +269,58 @@ Retrieves an XML string that describes the values of the data collector properti
 
 The following example shows the XML that you can use to initialize this object if you call the <a href="https://msdn.microsoft.com/32a1aba6-24f4-416a-b2ba-9be264fce3fc">IDataCollectorCollection::CreateDataCollectorFromXml</a> property to create one of the derived data collectors. The <a href="https://msdn.microsoft.com/c362cd5f-2db3-40ad-8f5e-e75a40db204c">IDataCollector::Xml</a> property also returns this XML.
 
-
-```xml
-
-    <FileName/>
-    <FileNameFormat/>
-    <FileNameFormatPattern/>
-    <Index/>
-    <LatestOutputLocation/>
-    <LogAppend/>
-    <LogCircular/>
-    <LogOverwrite/>
-    <Name/>
-    <OutputLocation/>
-
-```
-
-
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>
+    &lt;FileName/&gt;
+    &lt;FileNameFormat/&gt;
+    &lt;FileNameFormatPattern/&gt;
+    &lt;Index/&gt;
+    &lt;LatestOutputLocation/&gt;
+    &lt;LogAppend/&gt;
+    &lt;LogCircular/&gt;
+    &lt;LogOverwrite/&gt;
+    &lt;Name/&gt;
+    &lt;OutputLocation/&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Note that the example does not show the property elements of the derived data collector (see each data collector for its XML elements). Include these elements in the data collectors XML as appropriate. The following example shows the XML for the alert data collector. You can specify the elements in any order.
 
-
-```xml
-<AlertDataCollector>
-    <FileName/>
-    <FileNameFormat/>
-    <FileNameFormatPattern/>
-    <Index/>
-    <LatestOutputLocation/>
-    <LogAppend/>
-    <LogCircular/>
-    <LogOverwrite/>
-    <Name/>
-    <OutputLocation/>
-    <Alert/>  <!-- Specify an <Alert> element for each alert -->
-    <EventLog/>
-    <SampleInterval/>
-    <Task/>
-    <TaskArguments/>
-    <TaskUserTextArguments/>
-    <TaskSetWorkingDirectory/>
-    <TriggerDataCollectorSet/>
-</AlertDataCollector>
-```
-
-
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;AlertDataCollector&gt;
+    &lt;FileName/&gt;
+    &lt;FileNameFormat/&gt;
+    &lt;FileNameFormatPattern/&gt;
+    &lt;Index/&gt;
+    &lt;LatestOutputLocation/&gt;
+    &lt;LogAppend/&gt;
+    &lt;LogCircular/&gt;
+    &lt;LogOverwrite/&gt;
+    &lt;Name/&gt;
+    &lt;OutputLocation/&gt;
+    &lt;Alert/&gt;  &lt;!-- Specify an &lt;Alert&gt; element for each alert --&gt;
+    &lt;EventLog/&gt;
+    &lt;SampleInterval/&gt;
+    &lt;Task/&gt;
+    &lt;TaskArguments/&gt;
+    &lt;TaskUserTextArguments/&gt;
+    &lt;TaskSetWorkingDirectory/&gt;
+    &lt;TriggerDataCollectorSet/&gt;
+&lt;/AlertDataCollector&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 When you specify the XML to create the collector, you can specify only the elements for the properties that you want to set. If you do not specify a property, PLA provides a default value. When you retrieve the XML for the collector, the XML provides all elements, including those from <b>IDataCollector</b>. 
 
 

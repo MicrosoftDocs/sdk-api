@@ -4,10 +4,10 @@ title: ITextServices::TxGetCurTargetX
 author: windows-sdk-content
 description: Gets the target x position, that is, the current horizontal position of the caret.
 old-location: controls\ITextServices_TxGetCurTargetX.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcurtargetx.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetCurTargetX method, ITextServices.TxGetCurTargetX, ITextServices::TxGetCurTargetX, TxGetCurTargetX, TxGetCurTargetX method [Windows Controls], TxGetCurTargetX method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetCurTargetX, _win32_ITextServices_TxGetCurTargetX_cpp, controls.ITextServices_TxGetCurTargetX, controls._win32_ITextServices_TxGetCurTargetX, textserv/ITextServices::TxGetCurTargetX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,7 +114,7 @@ The input argument is invalid.
 
 
 
-Together with <a href="https://msdn.microsoft.com/en-us/library/Bb787630(v=VS.85).aspx">ITextServices::OnTxSetCursor</a>, this method allows you to maintain the horizontal caret position when moving the caret up and down. This capability is useful when moving the caret through forms.
+Together with <a href="https://msdn.microsoft.com/9656a2ed-bd66-4083-a2b4-c6255f136f9d">ITextServices::OnTxSetCursor</a>, this method allows you to maintain the horizontal caret position when moving the caret up and down. This capability is useful when moving the caret through forms.
 
 The target caret position is expressed as an x-coordinate on the display because other controls do not necessarily share the same attributes for column position.
 
@@ -130,11 +130,11 @@ The target caret position is expressed as an x-coordinate on the display because
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
+<a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787630(v=VS.85).aspx">OnTxSetCursor</a>
+<a href="https://msdn.microsoft.com/9656a2ed-bd66-4083-a2b4-c6255f136f9d">OnTxSetCursor</a>
 
 
 
@@ -142,7 +142,7 @@ The target caret position is expressed as an x-coordinate on the display because
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_EnumerateRoots.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\enumerateroots.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: EnumerateRoots, EnumerateRoots method [search], EnumerateRoots method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],EnumerateRoots method, ISearchCrawlScopeManager.EnumerateRoots, ISearchCrawlScopeManager::EnumerateRoots, _search_ISearchCrawlScopeManager_EnumerateRoots, search._search_ISearchCrawlScopeManager_EnumerateRoots, searchapi/ISearchCrawlScopeManager::EnumerateRoots
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Returns an enumeration of all the roots of which this instance of the <a href="https://msdn.microsoft.com/en-us/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a> is aware.
+Returns an enumeration of all the roots of which this instance of the <a href="https://msdn.microsoft.com/8b731941-f1f6-402e-8cee-3c493e3c369d">ISearchCrawlScopeManager</a> is aware.
         
 
 
@@ -61,9 +61,9 @@ Returns an enumeration of all the roots of which this instance of the <a href="h
 
 ### -param ppSearchRoots [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e63-02f0c8eae431">IEnumSearchRoots</a>**</b>
 
-Returns a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a> interface.
+Returns a pointer to an <a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e63-02f0c8eae431">IEnumSearchRoots</a> interface.
                 
 
 

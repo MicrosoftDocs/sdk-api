@@ -7,7 +7,7 @@ old-location: adsi\iads_get.htm
 tech.root: ADSI
 ms.assetid: fd6d79b6-46f8-42dd-8525-a72a6e0a7672
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: Get, Get method [ADSI], Get method [ADSI],IADs interface, IADs interface [ADSI],Get method, IADs.Get, IADs::Get, _ds_iads_get, adsi.iads__get, adsi.iads_get, iads/IADs::Get
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,16 +94,20 @@ You can also use  <a href="https://msdn.microsoft.com/cda6b8e7-fadc-4e0b-8217-66
 
 The following code example retrieves the security descriptor for an object using <b>IADs::Get</b>.
 
-
-```vb
-Dim x As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x As IADs
 Dim Desc As IADsSecurityDescriptor
 On Error GoTo ErrTest:
  
 Set x = GetObject("LDAP://CN=Administrator,CN=Users,DC=Fabrikam,DC=com")
  
 ' Single-valued properties.
-Debug.Print "Home Phone Number is: " & x.Get("homePhone")
+Debug.Print "Home Phone Number is: " &amp; x.Get("homePhone")
  
 ' Some property values represents other ADSI objects. 
 ' Consult your provider documentation.
@@ -123,15 +127,19 @@ Exit Sub
 ErrTest:
   Debug.Print Hex(Err.Number)
   Set x = Nothing
-  Set Desc = Nothing
-```
-
-
+  Set Desc = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to work with property values of binary data using <b>IADs::Get</b> and  <a href="https://msdn.microsoft.com/b543220d-939b-4ca5-9a27-90b04f14be5d">IADs::Put</a>.
 
-
-```vb
-Dim oTarget As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim oTarget As IADs
 Dim Octet(5) As Byte
 Dim MultiOctet(2) As Variant
 Dim i As Integer, j As Integer
@@ -167,26 +175,30 @@ Next i
 Exit Sub
 
 Cleanup:
-   MsgBox("An error has occurred. " & Err.Number)
-   Set oTarget = Nothing
-```
-
-
+   MsgBox("An error has occurred. " &amp; Err.Number)
+   Set oTarget = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to retrieve values of the optional properties of an object using <b>IADs::Get</b>.
 
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;HTML&gt;
+&lt;head&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;
 
-```vb
-<HTML>
-<head><title></title></head>
-
-<body>
-<%
+&lt;body&gt;
+&lt;%
 Dim x 
  
 On error resume next
 Set x = GetObject("WinNT://Fabrikam/Administrator")
-Response.Write "Object Name: " & x.Name & "<br>"
-Response.Write "Object Class: " & x.Class & "<br>"
+Response.Write "Object Name: " &amp; x.Name &amp; "&lt;br&gt;"
+Response.Write "Object Class: " &amp; x.Class &amp; "&lt;br&gt;"
  
 ' Get optional property values of this object.
 Set cls = GetObject(x.Schema)
@@ -194,21 +206,25 @@ Set cls = GetObject(x.Schema)
 For Each op In cls.OptionalProperties
    v = obj.Get(op)
    if err.Number = 0 then
-       Response.Write "Optional Property: " & op & "=" & v & "<br>"
+       Response.Write "Optional Property: " &amp; op &amp; "=" &amp; v &amp; "&lt;br&gt;"
    end if
 Next
-%>
+%&gt;
 
-</body>
-</html>
-```
-
-
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example reads attributes with single and multiple values using <b>IADs::Get</b>.
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 IADs *pUsr=NULL;
  
 CoInitialize(NULL);
@@ -216,25 +232,25 @@ CoInitialize(NULL);
 ///////////////////////////////
 // Bind to a directory object.
 ///////////////////////////////
-hr = ADsGetObject(L"WinNT://Fabrikam/Administrator,user", IID_IADs, (void**) &pUsr );
+hr = ADsGetObject(L"WinNT://Fabrikam/Administrator,user", IID_IADs, (void**) &amp;pUsr );
 if ( !SUCCEEDED(hr) ) { return hr; }
  
 //////////////////////////////////
 // Get a single-valued attribute.
 //////////////////////////////////
 VARIANT var;
-VariantInit(&var);
+VariantInit(&amp;var);
  
-hr = pUsr->Get(CComBSTR("FullName"), &var );
+hr = pUsr-&gt;Get(CComBSTR("FullName"), &amp;var );
 if ( SUCCEEDED(hr) )
 {
-    printf("FullName: %S\n", V_BSTR(&var) );
-    VariantClear(&var);
+    printf("FullName: %S\n", V_BSTR(&amp;var) );
+    VariantClear(&amp;var);
 }
  
 if ( pUsr )
 {
-    pUsr->Release();
+    pUsr-&gt;Release();
 }
  
 ///////////////////////////////////////////////////////
@@ -242,45 +258,45 @@ if ( pUsr )
 ///////////////////////////////////////////////////////
 IADs *pSvc = NULL;
  
-hr = ADsGetObject(L"WinNT://Fabrikam/Account/Browser,service", IID_IADs, (void**) &pSvc );
+hr = ADsGetObject(L"WinNT://Fabrikam/Account/Browser,service", IID_IADs, (void**) &amp;pSvc );
 if ( !SUCCEEDED(hr) )
 {
     return hr;
 }
  
-hr = pSvc->Get(CComBSTR("Dependencies"), &var );
+hr = pSvc-&gt;Get(CComBSTR("Dependencies"), &amp;var );
 if ( SUCCEEDED(hr) )
 {
     LONG lstart, lend;
-    SAFEARRAY *sa = V_ARRAY( &var );
+    SAFEARRAY *sa = V_ARRAY( &amp;var );
     VARIANT varItem;
  
     // Get the lower and upper bound.
-    hr = SafeArrayGetLBound( sa, 1, &lstart );
-    hr = SafeArrayGetUBound( sa, 1, &lend );
+    hr = SafeArrayGetLBound( sa, 1, &amp;lstart );
+    hr = SafeArrayGetUBound( sa, 1, &amp;lend );
  
     // Iterate and print the content.
-    VariantInit(&varItem);
+    VariantInit(&amp;varItem);
     printf("Getting service dependencies using IADs :\n");
-    for ( long idx=lstart; idx <= lend; idx++ )
+    for ( long idx=lstart; idx &lt;= lend; idx++ )
     {
-        hr = SafeArrayGetElement( sa, &idx, &varItem );
-        printf("%S ", V_BSTR(&varItem));
-        VariantClear(&varItem);
+        hr = SafeArrayGetElement( sa, &amp;idx, &amp;varItem );
+        printf("%S ", V_BSTR(&amp;varItem));
+        VariantClear(&amp;varItem);
     }
     printf("\n");
  
-    VariantClear(&var);
+    VariantClear(&amp;var);
 }
  
 // Cleanup.
 if ( pSvc )
 {
-    pSvc->Release();
-}
-```
-
-
+    pSvc-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

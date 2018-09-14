@@ -7,7 +7,7 @@ old-location: netmgmt\netservercomputernameadd.htm
 tech.root: netmgmt
 ms.assetid: 0789fbfe-be91-4849-a31c-1e1a6ae1e70d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: NetServerComputerNameAdd, NetServerComputerNameAdd function [Network Management], _win32_netservercomputernameadd, lmserver/NetServerComputerNameAdd, netmgmt.netservercomputernameadd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -180,13 +180,17 @@ The
 
 Following is an example of a call to the <b>NetServerComputerNameAdd</b> function requesting that \\Server1 also respond to requests for \\Server2.
 
-
-```cpp
-NetServerComputerNameAdd (Server1, NULL, Server2);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>NetServerComputerNameAdd (Server1, NULL, Server2);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

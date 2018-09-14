@@ -7,7 +7,7 @@ old-location: gpmc\igpmrsop.htm
 tech.root: GPMC
 ms.assetid: 86bbb143-2a9c-4fda-ba13-4f0fd09b2cd3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GPMRSOP, IGPMRSOP, IGPMRSOP interface [GPMC], IGPMRSOP interface [GPMC],described, _win32_igpmrsop, gpmc.igpmrsop, gpmgmt/IGPMRSOP
 ms.prod: windows
 ms.technology: windows-sdk

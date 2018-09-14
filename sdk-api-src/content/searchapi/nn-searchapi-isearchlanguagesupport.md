@@ -7,7 +7,7 @@ old-location: search\_search_ISearchLanguageSupport.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\isearchlanguagesupport.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: ISearchLanguageSupport, ISearchLanguageSupport interface [search], ISearchLanguageSupport interface [search],described, _search_ISearchLanguageSupport, search._search_ISearchLanguageSupport, searchapi/ISearchLanguageSupport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The <b>ISearchLanguageSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266438(v=VS.85).aspx">EnumerateExpandedTerms</a>
+<a href="https://msdn.microsoft.com/92508989-27d9-4703-b9cd-5f5a77aaa567">EnumerateExpandedTerms</a>
 </td>
 <td align="left" width="63%">
 Gets an enumeration of thesaurus terms for a specified word.
@@ -79,7 +79,7 @@ Gets an enumeration of thesaurus terms for a specified word.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266439(v=VS.85).aspx">GetDiacriticSensitivity</a>
+<a href="https://msdn.microsoft.com/90f9531b-d555-47d2-9dcc-700e63c32f8a">GetDiacriticSensitivity</a>
 </td>
 <td align="left" width="63%">
 Gets the sensitivity of an implemented <b>ISearchLanguageSupport</b> interface to diacritics.  A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.
@@ -88,7 +88,7 @@ Gets the sensitivity of an implemented <b>ISearchLanguageSupport</b> interface t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266441(v=VS.85).aspx">IsNoiseWord</a>
+<a href="https://msdn.microsoft.com/33e13e2a-3ab8-47a9-ae89-60e6601e48ee">IsNoiseWord</a>
 </td>
 <td align="left" width="63%">
 Checks a word against a list of words that have been excluded from indexing.
@@ -97,7 +97,7 @@ Checks a word against a list of words that have been excluded from indexing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266442(v=VS.85).aspx">IsPrefixNormalized</a>
+<a href="https://msdn.microsoft.com/0f12e031-6328-4c07-b712-8f939b4d1e75">IsPrefixNormalized</a>
 </td>
 <td align="left" width="63%">
 Determines whether the query token is a prefix of the document token, disregarding case, width, and (optionally) diacritics.
@@ -106,7 +106,7 @@ Determines whether the query token is a prefix of the document token, disregardi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266443(v=VS.85).aspx">LoadStemmer</a>
+<a href="https://msdn.microsoft.com/85d51d11-afdb-4911-ac0f-81e8718c4605">LoadStemmer</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface to the word stemmer registered for the specified LCID.
@@ -115,7 +115,7 @@ Retrieves an interface to the word stemmer registered for the specified LCID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266445(v=VS.85).aspx">LoadWordBreaker</a>
+<a href="https://msdn.microsoft.com/17f60cee-38af-4adc-9945-0d2739546adc">LoadWordBreaker</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface to the word breaker registered for the specified LCID.
@@ -124,7 +124,7 @@ Retrieves an interface to the word breaker registered for the specified LCID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266446(v=VS.85).aspx">SetDiacriticSensitivity</a>
+<a href="https://msdn.microsoft.com/20388490-3ff9-4856-acfe-30055827473a">SetDiacriticSensitivity</a>
 </td>
 <td align="left" width="63%">
 Sets a value that indicates whether an implemented <b>ISearchLanguageSupport</b> interface is sensitive to diacritics. A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation. 

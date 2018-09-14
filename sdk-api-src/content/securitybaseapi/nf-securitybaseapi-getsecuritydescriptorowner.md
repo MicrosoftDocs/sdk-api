@@ -4,10 +4,10 @@ title: GetSecurityDescriptorOwner function
 author: windows-sdk-content
 description: Retrieves the owner information from a security descriptor.
 old-location: security\getsecuritydescriptorowner.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 58e810db-348e-430c-a61f-79f67826b60d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetSecurityDescriptorOwner, GetSecurityDescriptorOwner function [Security], _win32_getsecuritydescriptorowner, security.getsecuritydescriptorowner, securitybaseapi/GetSecurityDescriptorOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,7 +129,7 @@ If the function fails, it returns zero. To get extended error information, call
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

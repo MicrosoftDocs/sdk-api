@@ -4,10 +4,10 @@ title: ICivicAddressReport::GetCountryRegion
 author: windows-sdk-content
 description: Retrieves the two-letter country or region code.
 old-location: winlocation_com_ref\icivicaddressreport_getcountryregion.htm
-tech.root: locationapi
+tech.root: LocationAPI
 ms.assetid: 1bcf7939-e047-412f-874d-18bb5e93e5ec
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetCountryRegion, GetCountryRegion method [WinLocation], GetCountryRegion method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetCountryRegion method, ICivicAddressReport.GetCountryRegion, ICivicAddressReport::GetCountryRegion, WinLocation_COM_Ref.icivicaddressreport_getcountryregion, locationapi/ICivicAddressReport::GetCountryRegion, winlocation.icivicaddressreport_getcountry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,18 +86,22 @@ The two-letter country or region code is in ISO 3166 format.
 
 The following example demonstrates how to call <b>GetCountryRegion</b>.
 
-
-```cpp
-    hr = pCivicAddressReport->GetCountryRegion(&bstrCountryRegion);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    hr = pCivicAddressReport-&gt;GetCountryRegion(&amp;bstrCountryRegion);
     if (SUCCEEDED(hr)) 
     {
         // Country/Region is an ISO-3166-1 two-letter code.
        wprintf(L"\tCountry/Region:\t%s\n\n", bstrCountryRegion);    
     }       
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

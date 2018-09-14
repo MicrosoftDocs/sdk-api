@@ -4,10 +4,10 @@ title: IIsdbCAContractInformationDescriptor::GetContractVerificationInfo
 author: windows-sdk-content
 description: Gets data from the contract_verification_info field in an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field is used to determine allowable uses of the conditional access service.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcontractverificationinfo.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: bfec246a-df34-46c3-9529-dc1fa75582da
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetContractVerificationInfo, GetContractVerificationInfo method [Microsoft TV Technologies], GetContractVerificationInfo method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetContractVerificationInfo method, IIsdbCAContractInformationDescriptor.GetContractVerificationInfo, IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

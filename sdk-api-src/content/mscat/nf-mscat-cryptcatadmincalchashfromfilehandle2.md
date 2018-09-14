@@ -7,7 +7,7 @@ old-location: security\cryptcatadmincalchashfromfilehandle2.htm
 tech.root: seccrypto
 ms.assetid: CBFA60A8-5E5A-4FAD-8AD3-26539802CD53
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CryptCATAdminCalcHashFromFileHandle2, CryptCATAdminCalcHashFromFileHandle2 function [Security], mscat/CryptCATAdminCalcHashFromFileHandle2, security.cryptcatadmincalchashfromfilehandle2
 ms.prod: windows-hardware
 ms.technology: windows-devices

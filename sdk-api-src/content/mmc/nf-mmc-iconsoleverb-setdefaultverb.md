@@ -7,7 +7,7 @@ old-location: mmc\iconsoleverb_setdefaultverb.htm
 tech.root: mmc
 ms.assetid: 099a5cd7-b1c8-45c0-a109-7e78d1b6ee98
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IConsoleVerb interface [MMC],SetDefaultVerb method, IConsoleVerb.SetDefaultVerb, IConsoleVerb::SetDefaultVerb, SetDefaultVerb, SetDefaultVerb method [MMC], SetDefaultVerb method [MMC],IConsoleVerb interface, _slate_iconsoleverb_setdefaultverb, mmc.iconsoleverb_setdefaultverb, mmc/IConsoleVerb::SetDefaultVerb
 ms.prod: windows-hardware
 ms.technology: windows-devices

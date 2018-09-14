@@ -7,7 +7,7 @@ old-location: mf\mfp_frame_step_event.htm
 tech.root: medfound
 ms.assetid: a395e94a-8d6d-48f5-9461-9f329af984c0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: MFP_FRAME_STEP_EVENT, MFP_FRAME_STEP_EVENT structure [Media Foundation], mf.mfp_frame_step_event, mfplay/MFP_FRAME_STEP_EVENT
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_local_service_info.htm
 tech.root: bluetooth
 ms.assetid: d16fe6f1-4b76-4dbe-825e-e3995d2b4961
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: BLUETOOTH_LOCAL_SERVICE_INFO, BLUETOOTH_LOCAL_SERVICE_INFO structure [Bluetooth], BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT, _BLUETOOTH_LOCAL_SERVICE_INFO, bluetooth.bluetooth_local_service_info, bluetoothapis/BLUETOOTH_LOCAL_SERVICE_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ If <b>TRUE</b>, specifies that the advertised services are enabled; otherwise th
 
 ### -field btAddr
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa362897(v=VS.85).aspx">BLUETOOTH_ADDRESS</a> structure that contains the address of a remote device. This address is used when advertising services to a device.
+A <a href="https://msdn.microsoft.com/2262a91b-c8b0-415a-9c23-7504998cc2a4">BLUETOOTH_ADDRESS</a> structure that contains the address of a remote device. This address is used when advertising services to a device.
 
 
 ### -field szName

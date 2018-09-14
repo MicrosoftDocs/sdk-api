@@ -7,7 +7,7 @@ old-location: automat\varneg.htm
 tech.root: automat
 ms.assetid: 95a8c1ee-6c8a-4eff-871b-63be3a616995
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: VarNeg, VarNeg function [Automation], _oa96_VarNeg, automat.varneg, oleauto/VarNeg
 ms.prod: windows-hardware
 ms.technology: windows-devices

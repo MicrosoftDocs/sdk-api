@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_getmessage.htm
 tech.root: direct3ddxgi
 ms.assetid: 208C3253-09AE-4379-808D-BA0BECC59BF8
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetMessage, GetMessage method [DXGI], GetMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMessage method, IDXGIInfoQueue.GetMessage, IDXGIInfoQueue::GetMessage, direct3ddxgi.idxgiinfoqueue_getmessage, dxgidebug/IDXGIInfoQueue::GetMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ A pointer to a variable that receives the size, in bytes, of the message descrip
 
 
 
-Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 
@@ -97,20 +97,24 @@ This method gets a message from the message queue after an optional retrieval fi
 
 Call this method twice to retrieve a message, first to obtain the size of the message and second to get the message. Here is a typical example:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 // Get the size of the message.
 SIZE_T messageLength = 0;
-HRESULT hr = pInfoQueue->GetMessage(DXGI_DEBUG_ALL, 0, NULL, &messageLength);
+HRESULT hr = pInfoQueue-&gt;GetMessage(DXGI_DEBUG_ALL, 0, NULL, &amp;messageLength);
 
 // Allocate space and get the message.
 DXGI_INFO_QUEUE_MESSAGE * pMessage = (DXGI_INFO_QUEUE_MESSAGE*)malloc(messageLength);
-hr = pInfoQueue->GetMessage(DXGI_DEBUG_ALL, 0, pMessage, &messageLength);
-
-```
-
-
+hr = pInfoQueue-&gt;GetMessage(DXGI_DEBUG_ALL, 0, pMessage, &amp;messageLength);
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
 

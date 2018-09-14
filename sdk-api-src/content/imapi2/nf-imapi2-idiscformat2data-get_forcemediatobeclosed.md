@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_get_forcemediatobeclosed.htm
 tech.root: imapi
 ms.assetid: 9de0afa9-93b7-4a12-b8e2-a9c083692f98
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_ForceMediaToBeClosed method, IDiscFormat2Data.get_ForceMediaToBeClosed, IDiscFormat2Data::get_ForceMediaToBeClosed, get_ForceMediaToBeClosed, get_ForceMediaToBeClosed method [IMAPI], get_ForceMediaToBeClosed method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_forcemediatobeclosed, imapi2/IDiscFormat2Data::get_ForceMediaToBeClosed
 ms.prod: windows-hardware
 ms.technology: windows-devices

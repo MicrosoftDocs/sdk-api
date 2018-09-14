@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_getpartitionid.htm
 tech.root: cossdk
 ms.assetid: 12fa83e1-b2d2-48c3-a002-ac2f8043b54a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetPartitionID, GetPartitionID method [COM+], GetPartitionID method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetPartitionID method, ICOMAdminCatalog2.GetPartitionID, ICOMAdminCatalog2::GetPartitionID, _cos_icomadmincatalog2_GetPartitionID, comadmin/ICOMAdminCatalog2::GetPartitionID, cos.icomadmincatalog2_getpartitionid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,7 +112,7 @@ The named application exists in multiple partitions. To avoid this error, use an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

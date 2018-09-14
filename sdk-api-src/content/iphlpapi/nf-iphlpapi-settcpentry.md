@@ -4,10 +4,10 @@ title: SetTcpEntry function
 author: windows-sdk-content
 description: The SetTcpEntry function sets the state of a TCP connection.
 old-location: iphlp\settcpentry.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 5916f66d-3c85-406d-b6f9-6c1c84161be4
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: SetTcpEntry, SetTcpEntry function [IP Helper], _iphlp_settcpentry, iphlp.settcpentry, iphlpapi/SetTcpEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

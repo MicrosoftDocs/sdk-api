@@ -7,7 +7,7 @@ old-location: tsf\itfrange_getformattedtext.htm
 tech.root: TSF
 ms.assetid: 8da4cb21-7097-4ba9-a63b-3699ef267776
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetFormattedText method, ITfRange.GetFormattedText, ITfRange::GetFormattedText, _tsf_itfrange_getformattedtext_ref, msctf/ITfRange::GetFormattedText, tsf.itfrange_getformattedtext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 ## -description
 
 
-The <b>ITfRange::GetFormattedText</b> method obtains formatted content contained within a range of text. The content is packaged in an object that supports the <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface.
+The <b>ITfRange::GetFormattedText</b> method obtains formatted content contained within a range of text. The content is packaged in an object that supports the <a href="_ole_idataobject">IDataObject</a> interface.
 
 
 ## -parameters
@@ -143,7 +143,7 @@ The format and storage type of the <b>IDataObject</b> are determined by the appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

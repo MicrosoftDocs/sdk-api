@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriter_sendstreamtick.htm
 tech.root: medfound
 ms.assetid: 3b4b76b7-1a39-4323-94e7-0b2d159a8038
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],SendStreamTick method, IMFSinkWriter.SendStreamTick, IMFSinkWriter::SendStreamTick, SendStreamTick, SendStreamTick method [Media Foundation], SendStreamTick method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_sendstreamtick, mfreadwrite/IMFSinkWriter::SendStreamTick
 ms.prod: windows-hardware
 ms.technology: windows-devices

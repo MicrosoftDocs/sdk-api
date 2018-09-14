@@ -4,10 +4,10 @@ title: SymGetLinePrev64 function
 author: windows-sdk-content
 description: Retrieves the line information for the previous source line.
 old-location: base\symgetlineprev64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 7f6d0f20-5dfa-4d6c-8551-1dbc3cc54176
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: SymGetLinePrev, SymGetLinePrev function, SymGetLinePrev64, SymGetLinePrev64 function, SymGetLinePrevW64, _win32_symgetlineprev64, base.symgetlineprev64, dbghelp/SymGetLinePrev, dbghelp/SymGetLinePrev64, dbghelp/SymGetLinePrevW64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,9 +101,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR. <b>SymGetLinePrevW64</b> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-BOOL
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL
 IMAGEAPI
 SymGetLinePrevW64(
     __in HANDLE hProcess,
@@ -112,16 +116,20 @@ SymGetLinePrevW64(
 
 #ifdef DBGHELP_TRANSLATE_TCHAR
 #define SymGetLinePrev64    SymGetLinePrevW64
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 This function supersedes the <b>SymGetLinePrev</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymGetLinePrev</b> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymGetLinePrev SymGetLinePrev64
 #else
 BOOL
@@ -137,10 +145,10 @@ SymGetLinePrevW(
     __in HANDLE hProcess,
     __inout PIMAGEHLP_LINEW Line
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

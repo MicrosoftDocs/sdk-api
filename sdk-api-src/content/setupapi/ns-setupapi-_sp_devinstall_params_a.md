@@ -7,7 +7,7 @@ old-location: devinst\sp_devinstall_params.htm
 tech.root: devinst
 ms.assetid: 1bd21150-f8f4-480d-a4b2-99fa4b4233b9
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: "*PSP_DEVINSTALL_PARAMS_A, PSP_DEVINSTALL_PARAMS, PSP_DEVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DEVINSTALL_PARAMS, SP_DEVINSTALL_PARAMS structure [Device and Driver Installation], SP_DEVINSTALL_PARAMS_A, _SP_DEVINSTALL_PARAMS_A, devinst.sp_devinstall_params, di-struct_ef7906d1-6416-41fc-8844-53f2f594a913.xml, setupapi/PSP_DEVINSTALL_PARAMS, setupapi/SP_DEVINSTALL_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,7 +113,7 @@ If this flag is set, device installation applications, class installers, and co-
 
 #### DI_ENUMSINGLEINF
 
-Set if installers and other <a href="https://msdn.microsoft.com/library/Ff728855(v=VS.85).aspx">device installation components</a> should only search the INF file specified by SP_DEVINSTALL_PARAMS.<b>DriverPath</b>. If this flag is set, <b>DriverPath</b> contains the path of a single INF file instead of a path of a directory.
+Set if installers and other <a href="devinst.device_installation_components">device installation components</a> should only search the INF file specified by SP_DEVINSTALL_PARAMS.<b>DriverPath</b>. If this flag is set, <b>DriverPath</b> contains the path of a single INF file instead of a path of a directory.
 
 
 
@@ -167,7 +167,7 @@ Set to disable creation of a new copy queue. Use the caller-supplied copy queue 
 
 #### DI_NOWRITE_IDS
 
-Set to prevent <a href="https://msdn.microsoft.com/130a58a8-7964-40cb-87e8-4765178bd1ff">SetupDiInstallDevice</a> from writing the INF-specified <a href="https://msdn.microsoft.com/library/Ff546152(v=VS.85).aspx">hardware IDs</a> and <a href="https://msdn.microsoft.com/library/Ff539950(v=VS.85).aspx">compatible IDs</a> to the device properties for the device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>). This flag should only be set for root-enumerated devices. 
+Set to prevent <a href="https://msdn.microsoft.com/130a58a8-7964-40cb-87e8-4765178bd1ff">SetupDiInstallDevice</a> from writing the INF-specified <a href="devinst.hardware_ids">hardware IDs</a> and <a href="devinst.compatible_ids">compatible IDs</a> to the device properties for the device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>). This flag should only be set for root-enumerated devices. 
 
 This flag overrides the DI_FLAGSEX_ALWAYSWRITEIDS flag.
 

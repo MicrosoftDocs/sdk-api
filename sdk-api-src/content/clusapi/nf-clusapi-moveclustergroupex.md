@@ -7,7 +7,7 @@ old-location: mscs\moveclustergroupex.htm
 tech.root: mscs
 ms.assetid: CE56BA9D-3527-43D3-8656-EA0BBDF48B98
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CLUSAPI_GROUP_MOVE_FAILBACK, CLUSAPI_GROUP_MOVE_HIGH_PRIORITY_START, CLUSAPI_GROUP_MOVE_IGNORE_RESOURCE_STATUS, CLUSAPI_GROUP_MOVE_QUEUE_ENABLED, CLUSAPI_GROUP_MOVE_RETURN_TO_SOURCE_NODE_ON_ERROR, MoveClusterGroupEx, MoveClusterGroupEx function [Failover Cluster], clusapi/MoveClusterGroupEx, mscs.moveclustergroupex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,7 +108,7 @@ Reserved.
 
 ### -param lpInBuffer [in, optional]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa371809(v=VS.85).aspx">property list</a> that contains move operation instructions for specific resources within the group. The instructions are contained in property values. Resources in the group search the property list for property names that they support for move operations and then interpret the instructions in the associated property value. The properties supported by a resource in a <b>MoveClusterGroupEx</b> operation are not related to the private properties associated with a resource.
+A <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property list</a> that contains move operation instructions for specific resources within the group. The instructions are contained in property values. Resources in the group search the property list for property names that they support for move operations and then interpret the instructions in the associated property value. The properties supported by a resource in a <b>MoveClusterGroupEx</b> operation are not related to the private properties associated with a resource.
 
 
 ### -param cbInBufferSize [in]
@@ -143,19 +143,23 @@ For a live migration of a virtual machine, perform these steps:
 
 <ol>
 <li>In the <i>dwMoveFlags</i> parameter, set the <b>CLUSAPI_GROUP_MOVE_RETURN_TO_SOURCE_NODE_ON_ERROR</b>, <b>CLUSAPI_GROUP_MOVE_QUEUE_ENABLED</b>, and  <b>CLUSAPI_GROUP_MOVE_HIGH_PRIORITY_START</b> flags.</li>
-<li>In the <i>lpInBuffer</i> parameter, add to the property list a resource type named "Virtual Machine" or "Virtual Machine Configuration" that specifies a <a href="https://msdn.microsoft.com/en-us/library/Bb309158(v=VS.85).aspx">CLUSTER_PROPERTY_FORMAT</a> enumeration value of <b>CLUSPROP_FORMAT_DWORD</b> (which represents the property's data format) and a property value of <b>VmResdllContextLiveMigration</b> (from the <a href="https://msdn.microsoft.com/en-us/library/JJ583819(v=VS.85).aspx">VM_RESDLL_CONTEXT</a> enumeration of possible virtual machine actions).</li>
+<li>In the <i>lpInBuffer</i> parameter, add to the property list a resource type named "Virtual Machine" or "Virtual Machine Configuration" that specifies a <a href="https://msdn.microsoft.com/a5e06aaf-96ef-41e9-ab73-c0edc8f34d12">CLUSTER_PROPERTY_FORMAT</a> enumeration value of <b>CLUSPROP_FORMAT_DWORD</b> (which represents the property's data format) and a property value of <b>VmResdllContextLiveMigration</b> (from the <a href="https://msdn.microsoft.com/F01306D5-9D46-4489-AB38-67029EEFE6D0">VM_RESDLL_CONTEXT</a> enumeration of possible virtual machine actions).</li>
 </ol>
 <b>MoveClusterGroupEx</b> requires that the client be granted Full access in the cluster security descriptor.
 
 
 #### Examples
 
-
-```
-#include "stdafx.h"
-#include <windows.h>
-#include <stdio.h>
-#include <ClusAPI.h>
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#include "stdafx.h"
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;ClusAPI.h&gt;
 
 
 #define DemoResDllTypeName L"dummy"
@@ -221,9 +225,9 @@ Cleanup:
 
     return (int)error;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

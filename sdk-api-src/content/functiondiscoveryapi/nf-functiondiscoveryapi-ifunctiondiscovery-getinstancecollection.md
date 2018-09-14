@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscovery_getinstancecollection_method.htm
 tech.root: fundisc
 ms.assetid: 615d252c-7365-4ef5-9e4f-94a49783a1bb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: GetInstanceCollection, GetInstanceCollection method, GetInstanceCollection method,IFunctionDiscovery interface, IFunctionDiscovery interface,GetInstanceCollection method, IFunctionDiscovery.GetInstanceCollection, IFunctionDiscovery::GetInstanceCollection, functiondiscoveryapi/IFunctionDiscovery::GetInstanceCollection, ncd.ifunctiondiscovery_getinstancecollection_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -172,17 +172,21 @@ Subcategory queries are only supported for layered categories and some provider 
 
 The following code returns the function instances associated with the SSDP provider in the Microsoft.Networking.Devices namespace.
 
-
-```cpp
-hr = spDisco->GetInstanceCollection(FCTN_CATEGORY_NETWORKDEVICES,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>hr = spDisco-&gt;GetInstanceCollection(FCTN_CATEGORY_NETWORKDEVICES,
                                    FCTN_SUBCAT_NETWORKDEVICES_SSDP, 
                                    FALSE, 
-                                   &spFunctionInstanceCollection);
+                                   &amp;spFunctionInstanceCollection);
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 See interface constraints on <a href="https://msdn.microsoft.com/03343d85-c0db-436d-bedc-c001b1886173">IFunctionInstanceQuery</a> to filter on multiple interfaces at one time or to filter on providers that do not support subcategory queries.
 
 <div class="code"></div>

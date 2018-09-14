@@ -4,10 +4,10 @@ title: DhcpV4FailoverGetAddressStatus function
 author: windows-sdk-content
 description: Returns the status of a IPv4 address.
 old-location: dhcp\dhcpv4failovergetaddressstatus.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 4d8371f2-1dc5-487d-b4c0-c5a2071466b2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpV4FailoverGetAddressStatus, DhcpV4FailoverGetAddressStatus function [DHCP], dhcp.dhcpv4failovergetaddressstatus, dhcpsapi/DhcpV4FailoverGetAddressStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

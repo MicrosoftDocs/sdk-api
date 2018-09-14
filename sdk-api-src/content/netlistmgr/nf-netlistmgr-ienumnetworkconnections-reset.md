@@ -4,10 +4,10 @@ title: IEnumNetworkConnections::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: nla\ienumnetworkconnections_reset.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: 5596f7bb-97c8-4751-92fc-1b1ce584ca49
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumNetworkConnections interface [Network Awareness],Reset method, IEnumNetworkConnections.Reset, IEnumNetworkConnections::Reset, Reset, Reset method [Network Awareness], Reset method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::Reset, nla.ienumnetworkconnections_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

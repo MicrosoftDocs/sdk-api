@@ -7,7 +7,7 @@ old-location: multimedia\acmformatsuggest.htm
 tech.root: Multimedia
 ms.assetid: c7618d7e-e41e-4513-9511-2133ef5a1582
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/31/2018
 ms.keywords: "_win32_acmFormatSuggest, acmFormatSuggest, acmFormatSuggest function [Windows Multimedia], msacm/acmFormatSuggest, multimedia.acmformatsuggest"
 ms.prod: windows-hardware
 ms.technology: windows-devices

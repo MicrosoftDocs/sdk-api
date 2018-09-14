@@ -4,10 +4,10 @@ title: ITextPara::SetListAlignment
 author: windows-sdk-content
 description: Sets the alignment of bulleted or numbered text used for paragraphs.
 old-location: controls\ITextPara_SetListAlignment.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlistalignment.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListAlignment method, ITextPara.SetListAlignment, ITextPara::SetListAlignment, SetListAlignment, SetListAlignment method [Windows Controls], SetListAlignment method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListAlignment, _win32_ITextPara_SetListAlignment_cpp, controls.ITextPara_SetListAlignment, controls._win32_ITextPara_SetListAlignment, tom/ITextPara::SetListAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Sets the alignment of bulleted or numbered text used for paragraphs.
 
 Type: <b>long</b>
 
-New list alignment value. For possible values, see <a href="https://msdn.microsoft.com/en-us/library/Bb773983(v=VS.85).aspx">ITextPara::GetListAlignment</a>. 
+New list alignment value. For possible values, see <a href="https://msdn.microsoft.com/bc6785be-4e05-48fb-97ae-6f3e3518db9f">ITextPara::GetListAlignment</a>. 
 
 
 ## -returns
@@ -148,11 +148,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773983(v=VS.85).aspx">GetListAlignment</a>
+<a href="https://msdn.microsoft.com/bc6785be-4e05-48fb-97ae-6f3e3518db9f">GetListAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -160,7 +160,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

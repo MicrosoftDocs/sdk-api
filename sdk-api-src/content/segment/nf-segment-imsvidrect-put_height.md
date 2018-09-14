@@ -4,10 +4,10 @@ title: IMSVidRect::put_Height
 author: windows-sdk-content
 description: The put_Height method specifies the height of the rectangle.
 old-location: mstv\imsvidrect_put_height.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 410c5d1c-d4e6-460a-b17d-54bfcee10a66
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Height method, IMSVidRect.put_Height, IMSVidRect::put_Height, IMSVidRectput_Height, mstv.imsvidrect_put_height, put_Height, put_Height method [Microsoft TV Technologies], put_Height method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Height
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice1_getcryptosessionprivatedatasize.htm
 tech.root: medfound
 ms.assetid: 3F973DA0-F722-4EC2-A578-F01B6999F16B
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: GetCryptoSessionPrivateDataSize, GetCryptoSessionPrivateDataSize method [Media Foundation], GetCryptoSessionPrivateDataSize method [Media Foundation],ID3D11VideoDevice1 interface, ID3D11VideoDevice1 interface [Media Foundation],GetCryptoSessionPrivateDataSize method, ID3D11VideoDevice1.GetCryptoSessionPrivateDataSize, ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize, d3d11_1/ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize, mf.id3d11videodevice1_getcryptosessionprivatedatasize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ Returns the size of private data that the driver needs for output commands.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
@@ -108,17 +108,17 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 
 
-When <i>pKeyExchangeType</i> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the following behavior is expected in the <a href="https://msdn.microsoft.com/en-us/library/Hh447714(v=VS.85).aspx">ID3D11VideoContext::NegotiateCryptoSessionKeyExchange</a> method:
+When <i>pKeyExchangeType</i> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the following behavior is expected in the <a href="https://msdn.microsoft.com/76160B03-6F7F-4618-859B-0A7E73540CA4">ID3D11VideoContext::NegotiateCryptoSessionKeyExchange</a> method:
 
 <ul>
-<li>The <i>DataSize</i> parameter is set to the size of the <a href="https://msdn.microsoft.com/en-us/library/Dn894115(v=VS.85).aspx">D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA</a> structure.</li>
-<li><i>pData</i> points to a <a href="https://msdn.microsoft.com/en-us/library/Dn894115(v=VS.85).aspx">D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA</a> structure. <ul>
-<li>The <b>pInputData</b> of this structure points to a <a href="https://msdn.microsoft.com/en-us/library/Dn894116(v=VS.85).aspx">D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA</a> structure where:<ul>
+<li>The <i>DataSize</i> parameter is set to the size of the <a href="https://msdn.microsoft.com/1DAAE15F-80E4-4645-8326-0ECB1809F8CF">D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA</a> structure.</li>
+<li><i>pData</i> points to a <a href="https://msdn.microsoft.com/1DAAE15F-80E4-4645-8326-0ECB1809F8CF">D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA</a> structure. <ul>
+<li>The <b>pInputData</b> of this structure points to a <a href="https://msdn.microsoft.com/B3F587BC-0DA8-496B-A3F5-ADFD16ABABB9">D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA</a> structure where:<ul>
 <li><b>pbInput</b>[0] – <b>pbInput</b>[N-1] contains memory reserved for use by the driver. The number of bytes (N) reserved for the driver is determined by the <b>pPrivateInputSize</b> value returned by the <b>ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize</b> function.</li>
 <li><b>pbInput</b>[N] contains the first byte of the DRM command packet.</li>
 </ul>
 </li>
-<li>The <b>pOutputData</b> of this structure points to a <a href="https://msdn.microsoft.com/en-us/library/Dn894117(v=VS.85).aspx">D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA</a> structure where:<ul>
+<li>The <b>pOutputData</b> of this structure points to a <a href="https://msdn.microsoft.com/D8F987CA-0BD2-42D1-AE95-8D2D118655B1">D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA</a> structure where:<ul>
 <li><b>pbOutput</b>[0] – <b>pbOutput</b>[N-1] contains memory reserved for use by the driver. The number of bytes (N) reserved for the driver is determined by the <b>pPrivateOutputSize</b> value returned by the <b>ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize</b> function.</li>
 <li><b>pbOutput</b>[N] contains the first byte of the DRM command packet.</li>
 </ul>
@@ -134,7 +134,7 @@ When <i>pKeyExchangeType</i> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the fol
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn894141(v=VS.85).aspx">ID3D11VideoDevice1</a>
+<a href="https://msdn.microsoft.com/10E68945-6103-491D-8846-3B7C880FEAFD">ID3D11VideoDevice1</a>
  
 
  

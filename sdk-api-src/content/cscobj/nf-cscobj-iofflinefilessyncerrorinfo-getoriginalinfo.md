@@ -4,10 +4,10 @@ title: IOfflineFilesSyncErrorInfo::GetOriginalInfo
 author: windows-sdk-content
 description: Retrieves an instance of the IOfflineFilesSyncErrorItemInfo interface containing the file times, size, and attributes of the original copy of the item involved in the synchronization.
 old-location: of\iofflinefilessyncerrorinfo_getoriginalinfo.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 1cf3a21c-5ae1-475c-9eb7-2d520ee2ce79
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetOriginalInfo, GetOriginalInfo method [Offline Files], GetOriginalInfo method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetOriginalInfo method, IOfflineFilesSyncErrorInfo.GetOriginalInfo, IOfflineFilesSyncErrorInfo::GetOriginalInfo, cscobj/IOfflineFilesSyncErrorInfo::GetOriginalInfo, of.iofflinefilessyncerrorinfo_getoriginalinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Retrieves an instance of the <a href="https://msdn.microsoft.com/en-us/library/Bb530633(v=VS.85).aspx">IOfflineFilesSyncErrorItemInfo</a> interface containing the file times, size, and attributes of the original copy of the item involved in the synchronization.
+Retrieves an instance of the <a href="https://msdn.microsoft.com/0af039a6-f0dd-4117-a174-38d32cfc0220">IOfflineFilesSyncErrorItemInfo</a> interface containing the file times, size, and attributes of the original copy of the item involved in the synchronization.
 
 "Original" refers to the state information recorded the last time the cached item was in sync with the server.
 
@@ -63,7 +63,7 @@ Retrieves an instance of the <a href="https://msdn.microsoft.com/en-us/library/B
 
 ### -param ppInfo [out]
 
-Receives the address of an instance of <a href="https://msdn.microsoft.com/en-us/library/Bb530633(v=VS.85).aspx">IOfflineFilesSyncErrorItemInfo</a> containing information about the original item copy involved in the synchronization.
+Receives the address of an instance of <a href="https://msdn.microsoft.com/0af039a6-f0dd-4117-a174-38d32cfc0220">IOfflineFilesSyncErrorItemInfo</a> containing information about the original item copy involved in the synchronization.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530625(v=VS.85).aspx">IOfflineFilesSyncErrorInfo</a>
+<a href="https://msdn.microsoft.com/df1dd351-eb18-46e6-b778-852f551adfd1">IOfflineFilesSyncErrorInfo</a>
  
 
  

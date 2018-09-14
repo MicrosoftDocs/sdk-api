@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvectorvariable_getfloatvectorarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_getfloatvectorarray.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 0c6374bb-9ea0-894f-8f00-4c6aa56619e1, GetFloatVectorArray, GetFloatVectorArray method [Direct3D 10], GetFloatVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, ID3D10EffectVectorVariable interface [Direct3D 10],GetFloatVectorArray method, ID3D10EffectVectorVariable.GetFloatVectorArray, ID3D10EffectVectorVariable::GetFloatVectorArray, d3d10effect/ID3D10EffectVectorVariable::GetFloatVectorArray, direct3d10.id3d10effectvectorvariable_getfloatvectorarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,9 +83,9 @@ The number of array elements to set.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -95,7 +95,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173748(v=VS.85).aspx">ID3D10EffectVectorVariable Interface</a>
+<a href="https://msdn.microsoft.com/5bb8d5bb-5fc2-4fb2-aaf8-e8f01599e16d">ID3D10EffectVectorVariable Interface</a>
  
 
  

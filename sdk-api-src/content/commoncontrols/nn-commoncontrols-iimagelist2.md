@@ -4,10 +4,10 @@ title: IImageList2
 author: windows-sdk-content
 description: Extends IImageList by providing additional methods for manipulating and interacting with image lists.
 old-location: controls\IImageList2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\iimagelist2.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IImageList2, IImageList2 interface [Windows Controls], IImageList2 interface [Windows Controls],described, _shell_IImageList2, _shell_IImageList2_cpp, commoncontrols/IImageList2, controls.IImageList2, controls._shell_IImageList2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,12 +50,12 @@ req.redist:
 ## -description
 
 
-Extends <a href="https://msdn.microsoft.com/en-us/library/Bb761490(v=VS.85).aspx">IImageList</a> by providing additional methods for manipulating and interacting with image lists.
+Extends <a href="https://msdn.microsoft.com/02e397a4-22fa-49fb-8103-376aa5ebc77a">IImageList</a> by providing additional methods for manipulating and interacting with image lists.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImageList2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb761490(v=VS.85).aspx">IImageList</a>. <b>IImageList2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImageList2</b> interface inherits from <a href="https://msdn.microsoft.com/02e397a4-22fa-49fb-8103-376aa5ebc77a">IImageList</a>. <b>IImageList2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IImageList2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761409(v=VS.85).aspx">DiscardImages</a>
+<a href="https://msdn.microsoft.com/0F190B9F-23FF-40CE-8344-B498B99F3327">DiscardImages</a>
 </td>
 <td align="left" width="63%">
 Discards images from list, as specified.
@@ -79,7 +79,7 @@ Discards images from list, as specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761411(v=VS.85).aspx">ForceImagePresent</a>
+<a href="https://msdn.microsoft.com/D202F7B5-A240-4791-8EDA-15BEA8170140">ForceImagePresent</a>
 </td>
 <td align="left" width="63%">
 Forces an image present, as specified.
@@ -88,7 +88,7 @@ Forces an image present, as specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761413(v=VS.85).aspx">GetCallback</a>
+<a href="https://msdn.microsoft.com/706EC249-5F28-4DB0-B201-B6BC4826C5BD">GetCallback</a>
 </td>
 <td align="left" width="63%">
 Gets an image list callback object.
@@ -97,7 +97,7 @@ Gets an image list callback object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761415(v=VS.85).aspx">GetOriginalSize</a>
+<a href="https://msdn.microsoft.com/CB688326-CCB1-4F7E-B3AF-CFF0A553AA64">GetOriginalSize</a>
 </td>
 <td align="left" width="63%">
 Gets the original size of a specified image.
@@ -106,7 +106,7 @@ Gets the original size of a specified image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761417(v=VS.85).aspx">GetStatistics</a>
+<a href="https://msdn.microsoft.com/D6402FCB-8E84-4F46-9B88-C0AFCEA66A9A">GetStatistics</a>
 </td>
 <td align="left" width="63%">
 Gets an image list statistics structure.
@@ -115,7 +115,7 @@ Gets an image list statistics structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761421(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/1282EFEF-B5E6-41CD-9D7C-0A45AF929C1F">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an image list, as specified.
@@ -124,7 +124,7 @@ Initializes an image list, as specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761423(v=VS.85).aspx">PreloadImages</a>
+<a href="https://msdn.microsoft.com/BFCE0745-5579-4713-8BE5-71E532E3B84E">PreloadImages</a>
 </td>
 <td align="left" width="63%">
 Preloads images, as specified.
@@ -133,7 +133,7 @@ Preloads images, as specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761425(v=VS.85).aspx">Replace2</a>
+<a href="https://msdn.microsoft.com/719C6188-8B2C-4C51-8F87-B927A04353F1">Replace2</a>
 </td>
 <td align="left" width="63%">
 Replaces an image in an image list.
@@ -142,7 +142,7 @@ Replaces an image in an image list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761427(v=VS.85).aspx">ReplaceFromImageList</a>
+<a href="https://msdn.microsoft.com/C18AA1DC-1834-45CE-8EE1-DF3C930BB41F">ReplaceFromImageList</a>
 </td>
 <td align="left" width="63%">
 Replaces an image in one image list with an image from another image list.
@@ -151,7 +151,7 @@ Replaces an image in one image list with an image from another image list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761429(v=VS.85).aspx">Resize</a>
+<a href="https://msdn.microsoft.com/1701C1BE-84E2-43EB-9A82-58B684D1057D">Resize</a>
 </td>
 <td align="left" width="63%">
 Resizes the current image.
@@ -160,7 +160,7 @@ Resizes the current image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761431(v=VS.85).aspx">SetCallback</a>
+<a href="https://msdn.microsoft.com/0A837A70-FE57-4BC1-8688-E1465A3BF63D">SetCallback</a>
 </td>
 <td align="left" width="63%">
 Sets an image list callback.
@@ -169,7 +169,7 @@ Sets an image list callback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761433(v=VS.85).aspx">SetOriginalSize</a>
+<a href="https://msdn.microsoft.com/F9C67C91-0A28-47B8-82C0-DEC2E46FA19B">SetOriginalSize</a>
 </td>
 <td align="left" width="63%">
 Sets the original size of a specified image.

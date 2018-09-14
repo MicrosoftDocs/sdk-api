@@ -4,10 +4,10 @@ title: PxeProviderUnRegister function
 author: windows-sdk-content
 description: Removes a provider from the list of registered providers.
 old-location: wds\pxeproviderunregister.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: b468d865-c680-4f72-a10c-3d91542df8d3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: PxeProviderUnRegister, PxeProviderUnRegister function [Windows Deployment Services], wds.pxeproviderunregister, wdspxe/PxeProviderUnRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices

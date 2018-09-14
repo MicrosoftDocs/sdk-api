@@ -4,10 +4,10 @@ title: "_MI_Uint16A"
 author: windows-sdk-content
 description: Represents an array of MI_Uint16 types.
 old-location: wmi_v2\mi_uint16a.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 0168ca28-4d3e-4757-8729-b9f8206ffc85
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Uint16A, MI_Uint16A structure [Windows Management Infrastructure (MI)], _MI_Uint16A, mi/MI_Uint16A, wmi._mi_uint16a, wmi_v2.mi_uint16a
 ms.prod: windows
 ms.technology: windows-sdk

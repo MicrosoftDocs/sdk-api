@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_ResolveFolder.htm
 tech.root: shell
 ms.assetid: f3d867a1-7396-4fba-87ea-45b02f86d681
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: IShellLibrary interface [Windows Shell],ResolveFolder method, IShellLibrary.ResolveFolder, IShellLibrary::ResolveFolder, ResolveFolder, ResolveFolder method [Windows Shell], ResolveFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_ResolveFolder, shell.IShellLibrary_ResolveFolder, shobjidl_core/IShellLibrary::ResolveFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -155,9 +155,13 @@ It is recommended that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase
 
 The following code example shows the helper function <a href="https://msdn.microsoft.com/e9c8aacd-9abb-4640-b9ed-1fa417d4d4cc">SHResolveFolderPathInLibrary</a>, which wraps this method.
 
-
-```cpp
-//
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//
 // from shobjidl.h
 //
 __inline HRESULT SHResolveFolderPathInLibrary(
@@ -176,32 +180,32 @@ __inline HRESULT SHResolveFolderPathInLibrary(
         IShellItem *psiFolder;
         hr = SHCreateItemFromIDList(
           pidlFolder, 
-          IID_PPV_ARGS(&psiFolder));
+          IID_PPV_ARGS(&amp;psiFolder));
 
         if (SUCCEEDED(hr))
         {
             IShellItem *psiResolved;
-            hr = plib->ResolveFolder(
+            hr = plib-&gt;ResolveFolder(
               psiFolder, 
               dwTimeout, 
-              IID_PPV_ARGS(&psiResolved));
+              IID_PPV_ARGS(&amp;psiResolved));
 
             if (SUCCEEDED(hr))
             {
-                hr = psiResolved->GetDisplayName(
+                hr = psiResolved-&gt;GetDisplayName(
                   SIGDN_DESKTOPABSOLUTEPARSING, 
                   ppszResolvedPath);
-                psiResolved->Release();
+                psiResolved-&gt;Release();
             }
-            psiFolder->Release();
+            psiFolder-&gt;Release();
         }
         CoTaskMemFree(pidlFolder);
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

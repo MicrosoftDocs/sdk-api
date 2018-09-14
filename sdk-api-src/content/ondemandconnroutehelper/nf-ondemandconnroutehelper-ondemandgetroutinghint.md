@@ -4,10 +4,10 @@ title: OnDemandGetRoutingHint function
 author: windows-sdk-content
 description: The OnDemandGetRoutingHint function looks up a destination in the Route Request cache and, if a match is found, return the corresponding Interface ID.
 old-location: nla\ondemandgetroutinghint.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: 6B98416F-A196-4015-836B-D6D649CCA9B1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OnDemandGetRoutingHint, OnDemandGetRoutingHint function [Network Awareness], nla.ondemandgetroutinghint, ondemandconnroutehelper/OnDemandGetRoutingHint
 ms.prod: windows-hardware
 ms.technology: windows-devices

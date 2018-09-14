@@ -7,7 +7,7 @@ old-location: security\certsrvbackuptruncatelogs.htm
 tech.root: seccrypto
 ms.assetid: 8ccab63c-1057-485e-970e-8298dfea3426
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CertSrvBackupTruncateLogs, CertSrvBackupTruncateLogs function [Security], _certsrv_certsrvbackuptruncatelogs, certbcli/CertSrvBackupTruncateLogs, security.certsrvbackuptruncatelogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,8 +51,8 @@ req.redist:
 
 
 The <b>CertSrvBackupTruncateLogs</b> function eliminates redundant records and reduces the disk storage space used by log files. Before truncating the log files, ensure that a backup of all files returned by 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376582(v=VS.85).aspx">CertSrvBackupGetDatabaseNames</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376581(v=VS.85).aspx">CertSrvBackupGetBackupLogs</a> have been secured.
+<a href="https://msdn.microsoft.com/5e62be79-693a-4543-8d83-262f00686c99">CertSrvBackupGetDatabaseNames</a> and 
+<a href="https://msdn.microsoft.com/bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45">CertSrvBackupGetBackupLogs</a> have been secured.
 
 
 ## -parameters
@@ -82,20 +82,24 @@ After securing a backup of the database and log files, the log files can optiona
 
 The log files are provided for database integrity and efficiency. If a less-than-graceful exit occurs with the Certificate Services application, the next time Certificate Services is started, the database replays the log files to prevent data corruption from being introduced into the database.
 
-Depending on the volume of the log files, the log file replay can be a time-consuming process. During this replay, the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> will be unavailable for other activity. Note that if the Certificate Services application is properly halted (such as by stopping the service or by shutting down the operating system properly), the log files are not replayed the next time it is started.
+Depending on the volume of the log files, the log file replay can be a time-consuming process. During this replay, the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> will be unavailable for other activity. Note that if the Certificate Services application is properly halted (such as by stopping the service or by shutting down the operating system properly), the log files are not replayed the next time it is started.
 
 <div class="alert"><b>Note</b>  If you call <b>CertSrvBackupTruncateLogs</b> without backing up all files returned from 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376582(v=VS.85).aspx">CertSrvBackupGetDatabaseNames</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376581(v=VS.85).aspx">CertSrvBackupGetBackupLogs</a>, you will not be able to restore the backup set successfully, resulting in an unusable Certificate Services machine. Therefore, call <b>CertSrvBackupTruncateLogs</b> only when the backup set contains all files returned from 
+<a href="https://msdn.microsoft.com/5e62be79-693a-4543-8d83-262f00686c99">CertSrvBackupGetDatabaseNames</a> and 
+<a href="https://msdn.microsoft.com/bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45">CertSrvBackupGetBackupLogs</a>, you will not be able to restore the backup set successfully, resulting in an unusable Certificate Services machine. Therefore, call <b>CertSrvBackupTruncateLogs</b> only when the backup set contains all files returned from 
 <b>CertSrvBackupGetDatabaseNames</b> and 
 <b>CertSrvBackupGetBackupLogs</b>.</div>
 <div> </div>
 
 #### Examples
 
-
-```cpp
-FNCERTSRVBACKUPTRUNCATELOGS* pfnTruncateLogs;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVBACKUPTRUNCATELOGS* pfnTruncateLogs;
 char * szTruncateLogsFunc = "CertSrvBackupTruncateLogs";
 
 HRESULT    hr=0;
@@ -121,10 +125,10 @@ if (FAILED(hr))
     exit(1); // Or other appropriate error action.
 }
 else
-    printf("Logs truncated\n");
-```
-
-
+    printf("Logs truncated\n");</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -133,11 +137,11 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376581(v=VS.85).aspx">CertSrvBackupGetBackupLogs</a>
+<a href="https://msdn.microsoft.com/bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45">CertSrvBackupGetBackupLogs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

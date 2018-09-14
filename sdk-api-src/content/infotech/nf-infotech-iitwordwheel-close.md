@@ -7,7 +7,7 @@ old-location: htmlhelp\iitwordwheel_close.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelclose.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/30/2018
 ms.keywords: Close, Close method [HTML Help Workshop], Close method [HTML Help Workshop],IITWordWheel interface, IITWordWheel interface [HTML Help Workshop],Close method, IITWordWheel.Close, IITWordWheel::Close, htmlhelp.iitwordwheel_close, infotech/IITWordWheel::Close, refIITWordWheelClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ The word wheel was successfully closed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670057(v=VS.85).aspx">IITWordWheel</a>
+<a href="https://msdn.microsoft.com/9734c73e-9325-4a6d-bbf3-3f87f96a662e">IITWordWheel</a>
  
 
  

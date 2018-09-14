@@ -4,10 +4,10 @@ title: IPSEC_SA0_
 author: windows-sdk-content
 description: Is used to store information about an IPsec security association (SA).
 old-location: fwp\ipsec_sa0_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 9d60f5d7-57af-4c33-90ed-b69a9671a9ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPSEC_SA0, IPSEC_SA0 structure [Filtering], IPSEC_SA0_, fwp.ipsec_sa0_struct, ipsectypes/IPSEC_SA0
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iamparse.htm
 tech.root: DirectShow
 ms.assetid: c5f3e153-c92f-4cdf-9aae-336b1f3dd8d6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IAMParse, IAMParse interface [DirectShow], IAMParse interface [DirectShow],described, IAMParseInterface, amparse/IAMParse, dshow.iamparse
 ms.prod: windows
 ms.technology: windows-sdk

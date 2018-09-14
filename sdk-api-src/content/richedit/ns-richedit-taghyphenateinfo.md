@@ -4,10 +4,10 @@ title: tagHyphenateInfo
 author: windows-sdk-content
 description: Contains information about hyphenation in a Microsoft Rich Edit control.
 old-location: controls\HYPHENATEINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\hyphenateinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: HYPHENATEINFO, HYPHENATEINFO structure [Windows Controls], _win32_HYPHENATEINFO_str, _win32_HYPHENATEINFO_str_cpp, controls.HYPHENATEINFO, controls._win32_HYPHENATEINFO_str, richedit/HYPHENATEINFO, tagHyphenateInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,14 +77,14 @@ Size, in TWIPS (one TWIP is 1/1440 inch), of the area near the margin that exclu
 
 Type: <b>PFNHYPHENATEPROC</b>
 
-The client-defined <a href="https://msdn.microsoft.com/en-us/library/Bb774370(v=VS.85).aspx">HyphenateProc</a> callback function. 
+The client-defined <a href="https://msdn.microsoft.com/5a7333ab-4918-4d73-9ad5-a8704acab4c0">HyphenateProc</a> callback function. 
 
 
 ## -remarks
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb788033(v=VS.85).aspx">EM_GETHYPHENATEINFO</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774242(v=VS.85).aspx">EM_SETHYPHENATEINFO</a> messages.
+This structure is used with the <a href="https://msdn.microsoft.com/70ccb698-e440-493b-8f38-2bf7f32e4b26">EM_GETHYPHENATEINFO</a> and <a href="https://msdn.microsoft.com/67126cb8-ab50-49a9-b32f-2245debf2fe3">EM_SETHYPHENATEINFO</a> messages.
 
 
 
@@ -94,15 +94,15 @@ This structure is used with the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb788033(v=VS.85).aspx">EM_GETHYPHENATEINFO</a>
+<a href="https://msdn.microsoft.com/70ccb698-e440-493b-8f38-2bf7f32e4b26">EM_GETHYPHENATEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774242(v=VS.85).aspx">EM_SETHYPHENATEINFO</a>
+<a href="https://msdn.microsoft.com/67126cb8-ab50-49a9-b32f-2245debf2fe3">EM_SETHYPHENATEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774370(v=VS.85).aspx">HyphenateProc</a>
+<a href="https://msdn.microsoft.com/5a7333ab-4918-4d73-9ad5-a8704acab4c0">HyphenateProc</a>
 
 
 

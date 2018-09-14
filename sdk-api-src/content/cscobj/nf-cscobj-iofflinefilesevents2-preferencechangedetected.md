@@ -4,10 +4,10 @@ title: IOfflineFilesEvents2::PreferenceChangeDetected
 author: windows-sdk-content
 description: Reports that the Offline Files service detected a change in one or more of its setting values that are not controlled by Group Policy.
 old-location: of\iofflinefilesevents2_preferencechangedetected.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: c947d9e5-2712-4dbd-8806-79a8bf0f4cc9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],PreferenceChangeDetected method, IOfflineFilesEvents2.PreferenceChangeDetected, IOfflineFilesEvents2::PreferenceChangeDetected, PreferenceChangeDetected, PreferenceChangeDetected method [Offline Files], PreferenceChangeDetected method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::PreferenceChangeDetected, of.iofflinefilesevents2_preferencechangedetected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530521(v=VS.85).aspx">IOfflineFilesEvents2</a>
+<a href="https://msdn.microsoft.com/746f7220-8c87-4218-bd97-ec9b862e549c">IOfflineFilesEvents2</a>
  
 
  

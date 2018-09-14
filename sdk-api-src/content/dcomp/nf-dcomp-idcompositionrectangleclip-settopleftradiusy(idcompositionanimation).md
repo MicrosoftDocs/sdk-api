@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_settopleftradiusy.htm
 tech.root: directcomp
 ms.assetid: D188BCD0-00F2-406D-BF69-33E8E37C8E6B
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionRectangleClip.SetTopLeftRadiusY, IDCompositionRectangleClip.SetTopLeftRadiusY(IDCompositionAnimation), IDCompositionRectangleClip::SetTopLeftRadiusY, IDCompositionRectangleClip::SetTopLeftRadiusY(IDCompositionAnimation), SetTopLeftRadiusY, SetTopLeftRadiusY methods [DirectComposition], dcomp/SetTopLeftRadiusY, directcomp.idcompositionrectangleclip_settopleftradiusy
 ms.prod: windows-hardware
 ms.technology: windows-devices

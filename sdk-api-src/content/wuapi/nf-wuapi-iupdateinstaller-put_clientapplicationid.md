@@ -4,10 +4,10 @@ title: IUpdateInstaller::put_ClientApplicationID
 author: windows-sdk-content
 description: Gets and sets the current client application.
 old-location: wua\iupdateinstaller_clientapplicationid.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b6fba06a-1eaa-4cf6-b218-29b790e80de1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],ClientApplicationID property, IUpdateInstaller.ClientApplicationID, IUpdateInstaller.put_ClientApplicationID, IUpdateInstaller::ClientApplicationID, IUpdateInstaller::get_ClientApplicationID, IUpdateInstaller::put_ClientApplicationID, put_ClientApplicationID, wua.iupdateinstaller_clientapplicationid, wuapi/IUpdateInstaller::ClientApplicationID, wuapi/IUpdateInstaller::get_ClientApplicationID, wuapi/IUpdateInstaller::put_ClientApplicationID
 ms.prod: windows-hardware
 ms.technology: windows-devices

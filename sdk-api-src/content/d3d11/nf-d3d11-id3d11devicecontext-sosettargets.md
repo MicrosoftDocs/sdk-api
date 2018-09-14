@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_sosettargets.htm
 tech.root: direct3d11
 ms.assetid: fba6e33e-7d35-4f26-b841-38610164d276
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],SOSetTargets method, ID3D11DeviceContext.SOSetTargets, ID3D11DeviceContext::SOSetTargets, SOSetTargets, SOSetTargets method [Direct3D 11], SOSetTargets method [Direct3D 11],ID3D11DeviceContext interface, cd7db46c-7177-04d3-fee4-89a568e09d9e, d3d11/ID3D11DeviceContext::SOSetTargets, direct3d11.id3d11devicecontext_sosettargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Set the target output buffers for the stream-output stage of the pipeline.
 
 ### -param NumBuffers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The number of buffer to bind to the device. A maximum of four output buffers can be set. If less than four are defined by the call, the remaining buffer slots are set to <b>NULL</b>. See Remarks.
           
@@ -69,15 +69,15 @@ The number of buffer to bind to the device. A maximum of four output buffers can
 
 ### -param ppSOTargets [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>*</b>
 
-The array of output buffers (see <a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a>) to bind to the device. The buffers must have been created with the <a href="https://msdn.microsoft.com/en-us/library/Ff476085(v=VS.85).aspx">D3D11_BIND_STREAM_OUTPUT</a> flag.
+The array of output buffers (see <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>) to bind to the device. The buffers must have been created with the <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">D3D11_BIND_STREAM_OUTPUT</a> flag.
           
 
 
 ### -param pOffsets [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 Array of offsets to the output buffers from <i>ppSOTargets</i>, one offset for each buffer. The offset values must be in bytes.
           
@@ -119,7 +119,7 @@ The method will hold a reference to the interfaces passed in.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

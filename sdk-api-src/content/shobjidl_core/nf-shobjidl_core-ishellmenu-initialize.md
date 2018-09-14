@@ -7,7 +7,7 @@ old-location: shell\IShellMenu_Initialize.htm
 tech.root: shell
 ms.assetid: dc9864df-21f3-4b0b-b862-48055032c071
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: IShellMenu interface [Windows Shell],Initialize method, IShellMenu.Initialize, IShellMenu::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IShellMenu interface, SMINIT_CACHED, SMINIT_DEFAULT, SMINIT_HORIZONTAL, SMINIT_RESTRICT_DRAGDROP, SMINIT_TOPLEVEL, SMINIT_VERTICAL, _shell_IShellMenu_Initialize, shell.IShellMenu_Initialize, shobjidl_core/IShellMenu::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

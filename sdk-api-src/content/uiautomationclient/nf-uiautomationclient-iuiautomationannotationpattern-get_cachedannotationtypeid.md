@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedAnnotationType
 tech.root: WinAuto
 ms.assetid: 45A40EF8-90A4-40FA-A6F2-421AA6A7B93F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/13/2018
 ms.keywords: CachedAnnotationTypeId property [Windows Accessibility], CachedAnnotationTypeId property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CachedAnnotationTypeId property, IUIAutomationAnnotationPattern.CachedAnnotationTypeId, IUIAutomationAnnotationPattern.get_CachedAnnotationTypeId, IUIAutomationAnnotationPattern::CachedAnnotationTypeId, IUIAutomationAnnotationPattern::get_CachedAnnotationTypeId, get_CachedAnnotationTypeId, uiautomationclient/IUIAutomationAnnotationPattern::CachedAnnotationTypeId, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedAnnotationTypeId, winauto.uiauto_IUIAutomationAnnotationPattern_CachedAnnotationTypeId
 ms.prod: windows-hardware
 ms.technology: windows-devices

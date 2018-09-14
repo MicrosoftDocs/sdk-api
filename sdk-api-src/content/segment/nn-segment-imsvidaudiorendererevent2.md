@@ -4,10 +4,10 @@ title: IMSVidAudioRendererEvent2
 author: windows-sdk-content
 description: Implements an event system for the audio renderer associated with a Video Control.
 old-location: mstv\imsvidaudiorendererevent2.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: f37d3abb-e8ad-4aae-884a-1c6c4fa445e2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],described, mstv.imsvidaudiorendererevent2, segment/IMSVidAudioRendererEvent2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -140,7 +140,7 @@ Indicates a change in the <a href="https://msdn.microsoft.com/8fddf8c3-268e-4706
 <a href="https://msdn.microsoft.com/ec5749d5-1ee0-4b3e-9e5d-cf07a62991ae">AVDecCommonMeanBitRate</a>
 </td>
 <td align="left" width="63%">
-Indicates a change in the <a href="https://msdn.microsoft.com/en-us/library/Dd742710(v=VS.85).aspx">AVDecCommonMeanBitRate</a> property.
+Indicates a change in the <a href="dshow.avdeccommonmeanbitrate_property">AVDecCommonMeanBitRate</a> property.
           
 
 </td>

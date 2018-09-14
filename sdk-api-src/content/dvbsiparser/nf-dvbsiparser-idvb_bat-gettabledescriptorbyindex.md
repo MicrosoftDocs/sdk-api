@@ -4,10 +4,10 @@ title: IDVB_BAT::GetTableDescriptorByIndex
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_gettabledescriptorbyindex.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: fa985aea-3822-439e-9a83-916cc1c9ae93
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IDVB_BAT.GetTableDescriptorByIndex, IDVB_BAT::GetTableDescriptorByIndex, IDVB_BATGetTableDescriptorByIndex, dvbsiparser/IDVB_BAT::GetTableDescriptorByIndex, mstv.idvb_bat_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

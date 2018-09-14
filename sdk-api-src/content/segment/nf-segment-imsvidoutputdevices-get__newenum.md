@@ -4,10 +4,10 @@ title: IMSVidOutputDevices::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the collection.
 old-location: mstv\imsvidoutputdevices_get__newenum.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 2f2203bb-9367-4713-8369-06002a5842e9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidOutputDevices interface [Microsoft TV Technologies],get__NewEnum method, IMSVidOutputDevices.get__NewEnum, IMSVidOutputDevices::get__NewEnum, IMSVidOutputDevicesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidOutputDevices interface, mstv.imsvidoutputdevices_get__newenum, segment/IMSVidOutputDevices::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

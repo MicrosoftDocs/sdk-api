@@ -7,7 +7,7 @@ old-location: dlgbox\getdlgitemint.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitemint.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetDlgItemInt, GetDlgItemInt function [Dialog Boxes], _win32_GetDlgItemInt, _win32_getdlgitemint_cpp, dlgbox.getdlgitemint, winui._win32_getdlgitemint, winuser/GetDlgItemInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,14 +112,14 @@ To get extended error information, call <a href="https://msdn.microsoft.com/d852
 
 
 
-The <b>GetDlgItemInt</b> function retrieves the text of the specified control by sending the control a <a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> message. The function translates the retrieved text by stripping any extra spaces at the beginning of the text and then converting the decimal digits. The function stops translating when it reaches the end of the text or encounters a nonnumeric character. 
+The <b>GetDlgItemInt</b> function retrieves the text of the specified control by sending the control a <a href="https://msdn.microsoft.com/117c3d6d-24cd-462f-bdb0-b65d8914273a">WM_GETTEXT</a> message. The function translates the retrieved text by stripping any extra spaces at the beginning of the text and then converting the decimal digits. The function stops translating when it reaches the end of the text or encounters a nonnumeric character. 
 
 The <b>GetDlgItemInt</b> function returns zero if the translated value is greater than <b>INT_MAX</b> (for signed numbers) or <b>UINT_MAX</b> (for unsigned numbers). 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Creating a Modeless Dialog Box</a>.
+For an example, see <a href="using_dialog_boxes.htm">Creating a Modeless Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -134,19 +134,19 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645478(v=VS.85).aspx">GetDlgCtrlID</a>
+<a href="https://msdn.microsoft.com/25ad5328-a91f-438b-9333-e49167b27b13">GetDlgCtrlID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645481(v=VS.85).aspx">GetDlgItem</a>
+<a href="https://msdn.microsoft.com/c119d716-b07f-4644-9d51-da94fab3e516">GetDlgItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645489(v=VS.85).aspx">GetDlgItemText</a>
+<a href="https://msdn.microsoft.com/6cfaa693-aafe-4034-abcb-0a8364cccb4b">GetDlgItemText</a>
 
 
 
@@ -154,7 +154,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645518(v=VS.85).aspx">SetDlgItemInt</a>
+<a href="https://msdn.microsoft.com/8c71aa0e-1287-4a56-bef5-bcdddc9d9332">SetDlgItemInt</a>
  
 
  

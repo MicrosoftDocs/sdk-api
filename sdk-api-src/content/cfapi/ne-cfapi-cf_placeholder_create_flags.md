@@ -7,7 +7,7 @@ old-location: cloudapi\cf_placeholder_create_flags.htm
 tech.root: cfApi
 ms.assetid: 7DB55949-E209-490C-9FF9-53E1D72CD0FA
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 08/29/2018
 ms.keywords: CF_PLACEHOLDER_CREATE_FLAGS, CF_PLACEHOLDER_CREATE_FLAGS enumeration, CF_PLACEHOLDER_CREATE_FLAG_DISABLE_ON_DEMAND_POPULATION, CF_PLACEHOLDER_CREATE_FLAG_MARK_IN_SYNC, CF_PLACEHOLDER_CREATE_FLAG_NONE, cfapi/CF_PLACEHOLDER_CREATE_FLAGS, cfapi/CF_PLACEHOLDER_CREATE_FLAG_DISABLE_ON_DEMAND_POPULATION, cfapi/CF_PLACEHOLDER_CREATE_FLAG_MARK_IN_SYNC, cfapi/CF_PLACEHOLDER_CREATE_FLAG_NONE, cloudApi.cf_placeholder_create_flags
 ms.prod: windows
 ms.technology: windows-sdk

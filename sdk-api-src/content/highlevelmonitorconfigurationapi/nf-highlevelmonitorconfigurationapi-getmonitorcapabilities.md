@@ -7,7 +7,7 @@ old-location: monitor\getmonitorcapabilities.htm
 tech.root: Monitor
 ms.assetid: 57cf0004-58cf-46d9-b5be-22edda2ce5a9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetMonitorCapabilities, GetMonitorCapabilities function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorCapabilities, monitor.getmonitorcapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IAzApplicationGroup::AddNonMemberName
 author: windows-sdk-content
 description: Adds the specified account name to the list of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_addnonmembername.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 56bde3d9-f4f7-449d-a080-5215dda940a0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: AddNonMemberName, AddNonMemberName method [Security], AddNonMemberName method [Security],AzApplicationGroup object, AddNonMemberName method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddNonMemberName method, IAzApplicationGroup interface [Security],AddNonMemberName method, IAzApplicationGroup.AddNonMemberName, IAzApplicationGroup::AddNonMemberName, azroles/IAzApplicationGroup::AddNonMemberName, security.iazapplicationgroup_addnonmembername
 ms.prod: windows-hardware
 ms.technology: windows-devices

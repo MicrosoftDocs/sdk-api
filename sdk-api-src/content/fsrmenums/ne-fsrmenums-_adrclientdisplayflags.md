@@ -7,7 +7,7 @@ old-location: fsrm\adrclientdisplayflags.htm
 tech.root: fsrm
 ms.assetid: 939ecb44-e59b-452d-901f-72207a6ae89a
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: AdrClientDisplayFlags, AdrClientDisplayFlags enumeration [File Server Resource Manager], AdrClientDisplayFlags_AllowEmailRequests, AdrClientDisplayFlags_ShowDeviceTroubleshooting, _AdrClientDisplayFlags, fs.adrclientdisplayflags, fsrm.adrclientdisplayflags, fsrmenums/AdrClientDisplayFlags, fsrmenums/AdrClientDisplayFlags_AllowEmailRequests, fsrmenums/AdrClientDisplayFlags_ShowDeviceTroubleshooting
 ms.prod: windows
 ms.technology: windows-sdk

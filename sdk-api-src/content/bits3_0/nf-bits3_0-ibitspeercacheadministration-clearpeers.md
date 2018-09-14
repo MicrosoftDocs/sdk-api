@@ -4,10 +4,10 @@ title: IBitsPeerCacheAdministration::ClearPeers
 author: windows-sdk-content
 description: Removes all peers from the list of peers that can serve content.
 old-location: bits\ibitspeercacheadministration_clearpeers.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 79a739ed-7618-410a-a6df-fab11794d932
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ClearPeers, ClearPeers method [BITS], ClearPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],ClearPeers method, IBitsPeerCacheAdministration.ClearPeers, IBitsPeerCacheAdministration::ClearPeers, bits.ibitspeercacheadministration_clearpeers, bits3_0/IBitsPeerCacheAdministration::ClearPeers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ Success
 
 You should not have to call this method.
 
-BITS automatically discovers new peers when a job requests content from a peer. You can also call the <a href="https://msdn.microsoft.com/en-us/library/Aa964277(v=VS.85).aspx">IBitsPeerCacheAdministration::DiscoverPeers</a> method to force discovery of peers.
+BITS automatically discovers new peers when a job requests content from a peer. You can also call the <a href="https://msdn.microsoft.com/c83632c2-5d01-48ab-93ef-961778c2379a">IBitsPeerCacheAdministration::DiscoverPeers</a> method to force discovery of peers.
 
 
 
@@ -105,15 +105,15 @@ BITS automatically discovers new peers when a job requests content from a peer. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964272(v=VS.85).aspx">IBitsPeerCacheAdministration</a>
+<a href="https://msdn.microsoft.com/5fa30b4e-f13c-4341-af65-a2e3d2703b96">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964277(v=VS.85).aspx">IBitsPeerCacheAdministration::DiscoverPeers</a>
+<a href="https://msdn.microsoft.com/c83632c2-5d01-48ab-93ef-961778c2379a">IBitsPeerCacheAdministration::DiscoverPeers</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964278(v=VS.85).aspx">IBitsPeerCacheAdministration::EnumPeers</a>
+<a href="https://msdn.microsoft.com/8786d7d8-9ffb-4492-9834-90b97f97e4cf">IBitsPeerCacheAdministration::EnumPeers</a>
  
 
  

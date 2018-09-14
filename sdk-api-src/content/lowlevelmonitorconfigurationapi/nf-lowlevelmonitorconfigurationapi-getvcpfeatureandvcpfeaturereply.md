@@ -7,7 +7,7 @@ old-location: monitor\getvcpfeatureandvcpfeaturereply.htm
 tech.root: Monitor
 ms.assetid: b0b06137-8f67-46fc-ba6b-3022f3331fa5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetVCPFeatureAndVCPFeatureReply, GetVCPFeatureAndVCPFeatureReply function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetVCPFeatureAndVCPFeatureReply, monitor.getvcpfeatureandvcpfeaturereply
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IPBDA_EIT::GetTableId
 author: windows-sdk-content
 description: Gets the table identifier from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_gettableid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 4468a632-49e0-4e49-84a4-2ad32c67530b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetTableId, GetTableId method [Microsoft TV Technologies], GetTableId method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetTableId method, IPBDA_EIT.GetTableId, IPBDA_EIT::GetTableId, dvbsiparser/IPBDA_EIT::GetTableId, mstv.ipbda_eit_gettableid
 ms.prod: windows-hardware
 ms.technology: windows-devices

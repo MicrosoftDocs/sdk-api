@@ -4,10 +4,10 @@ title: IDirect3DDevice9::GetRasterStatus
 author: windows-sdk-content
 description: Returns information describing the raster of the monitor on which the swap chain is presented.
 old-location: direct3d9\idirect3ddevice9__getrasterstatus.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getrasterstatus.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: GetRasterStatus, GetRasterStatus method [Direct3D 9], GetRasterStatus method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetRasterStatus method, IDirect3DDevice9.GetRasterStatus, IDirect3DDevice9::GetRasterStatus, a1fc6bf1-1e43-8a94-f293-1f38f3147f02, d3d9helper/IDirect3DDevice9::GetRasterStatus, direct3d9.idirect3ddevice9__getrasterstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,18 +68,18 @@ An unsigned integer specifying the swap chain.
 
 ### -param pRasterStatus [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172596(v=VS.85).aspx">D3DRASTER_STATUS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/f7b5b714-8fc8-47b8-adec-1089b8d07081">D3DRASTER_STATUS</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172596(v=VS.85).aspx">D3DRASTER_STATUS</a> structure filled with information about the position or other status of the raster on the monitor driven by this adapter. 
+Pointer to a <a href="https://msdn.microsoft.com/f7b5b714-8fc8-47b8-adec-1089b8d07081">D3DRASTER_STATUS</a> structure filled with information about the position or other status of the raster on the monitor driven by this adapter. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if pRasterStatus is invalid or if the device does not support reading the current scan line. To determine if the device supports reading the scan line, check for the D3DCAPS_READ_SCANLINE flag in the Caps member of <a href="https://msdn.microsoft.com/en-us/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a>.
+If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if pRasterStatus is invalid or if the device does not support reading the current scan line. To determine if the device supports reading the scan line, check for the D3DCAPS_READ_SCANLINE flag in the Caps member of <a href="https://msdn.microsoft.com/44457b7b-a1f7-4019-b971-8ec2334d3313">D3DCAPS9</a>.
 
 
 
@@ -89,11 +89,11 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172596(v=VS.85).aspx">D3DRASTER_STATUS</a>
+<a href="https://msdn.microsoft.com/f7b5b714-8fc8-47b8-adec-1089b8d07081">D3DRASTER_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
  
 
  

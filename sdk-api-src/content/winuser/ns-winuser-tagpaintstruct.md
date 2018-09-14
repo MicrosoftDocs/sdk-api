@@ -7,7 +7,7 @@ old-location: gdi\paintstruct.htm
 tech.root: gdi
 ms.assetid: 1f8c6dd2-e511-48f2-8ab0-d2fadb1ce433
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*LPPAINTSTRUCT, *NPPAINTSTRUCT, *PPAINTSTRUCT, PAINTSTRUCT, PAINTSTRUCT structure [Windows GDI], PPAINTSTRUCT, PPAINTSTRUCT structure pointer [Windows GDI], _win32_PAINTSTRUCT_str, gdi.paintstruct, tagPAINTSTRUCT, winuser/PAINTSTRUCT, winuser/PPAINTSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ A handle to the display DC to be used for painting.
 
 ### -field fErase
 
-Indicates whether the background must be erased. This value is nonzero if the application should erase the background. The application is responsible for erasing the background if a window class is created without a background brush. For more information, see the description of the <b>hbrBackground</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx">WNDCLASS</a> structure.
+Indicates whether the background must be erased. This value is nonzero if the application should erase the background. The application is responsible for erasing the background if a window class is created without a background brush. For more information, see the description of the <b>hbrBackground</b> member of the <a href="_win32_wndclass_str_cpp">WNDCLASS</a> structure.
 
 
 ### -field rcPaint
@@ -112,7 +112,7 @@ Reserved; used internally by the system.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx">WNDCLASS</a>
+<a href="_win32_wndclass_str_cpp">WNDCLASS</a>
  
 
  

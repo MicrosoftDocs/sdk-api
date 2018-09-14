@@ -4,10 +4,10 @@ title: ITCollection2::Remove
 author: windows-sdk-content
 description: The Remove method deletes an item from the collection at the specified index.
 old-location: tapi3\itcollection2_remove.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 27e46c36-8704-4e33-ad2a-5888d701651c
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITCollection2 interface [TAPI 2.2],Remove method, ITCollection2.Remove, ITCollection2::Remove, Remove, Remove method [TAPI 2.2], Remove method [TAPI 2.2],ITCollection2 interface, _tapi3_itcollection2_remove, tapi3.itcollection2_remove, tapi3if/ITCollection2::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

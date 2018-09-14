@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmsetting.htm
 tech.root: fsrm
 ms.assetid: 432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], IFsrmSetting interface [File Server Resource Manager],described, fs.ifsrmsetting, fsrm.ifsrmsetting, fsrm/IFsrmSetting
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,14 +53,14 @@ req.redist:
 Used to configure FSRM.
 
 To get this interface, call the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmSetting</b> as the class identifier and 
     <code>__uuidof(IFsrmSetting)</code> as the interface identifier.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmSetting</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmSetting</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmSetting</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFsrmSetting</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -206,18 +206,22 @@ To create this object from a script, use the program identifier, "Fsrm.FsrmSetti
 
 The following example shows how to retrieve the properties of this interface.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
 
-#include <windows.h>
-#include <stdio.h>
-#include <comutil.h>
-#include <fsrm.h>       // FSRM base objects and collections
-#include <fsrmtlb_i.c>  // contains CLSIDs
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;comutil.h&gt;
+#include &lt;fsrm.h&gt;       // FSRM base objects and collections
+#include &lt;fsrmtlb_i.c&gt;  // contains CLSIDs
 
 
 //
@@ -242,7 +246,7 @@ void wmain(void)
                         NULL,
                         CLSCTX_LOCAL_SERVER,
                         __uuidof(IFsrmSetting),
-                        reinterpret_cast<void**> (&pSettings));
+                        reinterpret_cast&lt;void**&gt; (&amp;pSettings));
 
   if (FAILED(hr))
   {
@@ -258,10 +262,10 @@ void wmain(void)
   // Get the default email address for the administrator. If set, you 
   // can then use the [Admin Email] macro for any action or report 
   // email address.
-  hr = pSettings->get_AdminEmail(&bstr);
+  hr = pSettings-&gt;get_AdminEmail(&amp;bstr);
   if (FAILED(hr))
   {
-    wprintf(L"pSettings->get_AdminEmail failed, 0x%x.\n", hr);
+    wprintf(L"pSettings-&gt;get_AdminEmail failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -270,10 +274,10 @@ void wmain(void)
 
   // Determines whether FSRM allows command actions to execute. The default
   // is execute command actions.
-  hr = pSettings->get_DisableCommandLine(&boolVal);
+  hr = pSettings-&gt;get_DisableCommandLine(&amp;boolVal);
   if (FAILED(hr))
   {
-    wprintf(L"pSettings->get_DisableCommandLine failed, 0x%x.\n", hr);
+    wprintf(L"pSettings-&gt;get_DisableCommandLine failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -281,10 +285,10 @@ void wmain(void)
 
   // Determines whether FSRM keeps audit records for file screen IO violations.
   // The default is not to keep audit records.
-  hr = pSettings->get_EnableScreeningAudit(&boolVal);
+  hr = pSettings-&gt;get_EnableScreeningAudit(&amp;boolVal);
   if (FAILED(hr))
   {
-    wprintf(L"pSettings->get_EnableScreeningAudit failed, 0x%x.\n", hr);
+    wprintf(L"pSettings-&gt;get_EnableScreeningAudit failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -292,11 +296,11 @@ void wmain(void)
 
   // The default address from which reports and email actions are sent.
   // If set, you do not have to set the IFsrmActionEmail::MailFrom property.
-  // The default is FSRM@<localdomain>
-  hr = pSettings->get_MailFrom(&bstr);
+  // The default is FSRM@&lt;localdomain&gt;
+  hr = pSettings-&gt;get_MailFrom(&amp;bstr);
   if (FAILED(hr))
   {
-    wprintf(L"pSettings->get_MailFrom failed, 0x%x.\n", hr);
+    wprintf(L"pSettings-&gt;get_MailFrom failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -304,10 +308,10 @@ void wmain(void)
   SysFreeString(bstr);
 
   // Get the SMTP server. If not set, email is not sent.
-  hr = pSettings->get_SmtpServer(&bstr);
+  hr = pSettings-&gt;get_SmtpServer(&amp;bstr);
   if (FAILED(hr))
   {
-    wprintf(L"pSettings->get_SmtpServer failed, 0x%x.\n", hr);
+    wprintf(L"pSettings-&gt;get_SmtpServer failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -318,60 +322,60 @@ void wmain(void)
   // The default for each action is 60 minutes.
   wprintf(L"Default interval, in minutes, to wait between executing an action:\n");
 
-  hr = pSettings->GetActionRunLimitInterval(FsrmActionType_EventLog, &interval);
+  hr = pSettings-&gt;GetActionRunLimitInterval(FsrmActionType_EventLog, &amp;interval);
   if (FAILED(hr))
   {
-    wprintf(L"pSettings->GetActionRunLimitInterval(FsrmActionType_EventLog) failed, 0x%x.\n", hr);
+    wprintf(L"pSettings-&gt;GetActionRunLimitInterval(FsrmActionType_EventLog) failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
   wprintf(L"\tEventLog interval: %ld\n", interval);
 
-  hr = pSettings->GetActionRunLimitInterval(FsrmActionType_Email, &interval);
+  hr = pSettings-&gt;GetActionRunLimitInterval(FsrmActionType_Email, &amp;interval);
   if (FAILED(hr))
   {
-    wprintf(L"pSettings->GetActionRunLimitInterval(FsrmActionType_Email) failed, 0x%x.\n", hr);
+    wprintf(L"pSettings-&gt;GetActionRunLimitInterval(FsrmActionType_Email) failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
   wprintf(L"\tEmail interval: %ld\n", interval);
 
-  hr = pSettings->GetActionRunLimitInterval(FsrmActionType_Command, &interval);
+  hr = pSettings-&gt;GetActionRunLimitInterval(FsrmActionType_Command, &amp;interval);
   if (FAILED(hr))
   {
-    wprintf(L"pSettings->GetActionRunLimitInterval(FsrmActionType_Command) failed, 0x%x.\n", hr);
+    wprintf(L"pSettings-&gt;GetActionRunLimitInterval(FsrmActionType_Command) failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
   wprintf(L"\tCommand interval: %ld\n", interval);
 
-  hr = pSettings->GetActionRunLimitInterval(FsrmActionType_Report, &interval);
+  hr = pSettings-&gt;GetActionRunLimitInterval(FsrmActionType_Report, &amp;interval);
   if (FAILED(hr))
   {
-    wprintf(L"pSettings->GetActionRunLimitInterval(FsrmActionType_Report) failed, 0x%x.\n", hr);
+    wprintf(L"pSettings-&gt;GetActionRunLimitInterval(FsrmActionType_Report) failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
   wprintf(L"\tReport interval: %ld\n", interval);
 
-  hr = pSettings->put_SmtpServer(_bstr_t(L"<FQDNOFSMTPSERVER>"));
+  hr = pSettings-&gt;put_SmtpServer(_bstr_t(L"&lt;FQDNOFSMTPSERVER&gt;"));
   if (FAILED(hr))
   {
-    wprintf(L"pSettings->put_SmtpServer failed, 0x%x.\n", hr);
+    wprintf(L"pSettings-&gt;put_SmtpServer failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
 cleanup:
 
   if (pSettings)
-    pSettings->Release();
+    pSettings-&gt;Release();
 
   CoUninitialize();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

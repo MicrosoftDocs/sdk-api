@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_omsetrendertargetsandunorderedacces
 tech.root: direct3d11
 ms.assetid: 1973d40f-f0d0-497e-be7b-6cf55f8a7da2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],OMSetRenderTargetsAndUnorderedAccessViews method, ID3D11DeviceContext.OMSetRenderTargetsAndUnorderedAccessViews, ID3D11DeviceContext::OMSetRenderTargetsAndUnorderedAccessViews, OMSetRenderTargetsAndUnorderedAccessViews, OMSetRenderTargetsAndUnorderedAccessViews method [Direct3D 11], OMSetRenderTargetsAndUnorderedAccessViews method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMSetRenderTargetsAndUnorderedAccessViews, direct3d11.id3d11devicecontext_omsetrendertargetsandunorderedaccessviews, ee2c41c6-fd01-a895-a163-330e4363a9d7
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Binds resources to the output-merger stage.
 
 ### -param NumRTVs [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of render targets to bind (ranges between 0 and <b>D3D11_SIMULTANEOUS_RENDER_TARGET_COUNT</b>). If this parameter is nonzero, the number of entries in the array to which <i>ppRenderTargetViews</i> points must equal the number in this parameter. If you set <i>NumRTVs</i> to D3D11_KEEP_RENDER_TARGETS_AND_DEPTH_STENCIL (0xffffffff), this method does not modify the currently bound render-target views (RTVs) and also does not modify depth-stencil view (DSV).
           
@@ -69,25 +69,25 @@ Number of render targets to bind (ranges between 0 and <b>D3D11_SIMULTANEOUS_REN
 
 ### -param ppRenderTargetViews [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476582(v=VS.85).aspx">ID3D11RenderTargetView</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3ae7c255-2403-493a-9fb9-fc9795f6d920">ID3D11RenderTargetView</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Ff476582(v=VS.85).aspx">ID3D11RenderTargetView</a>s that represent the render targets to bind to the device.
+Pointer to an array of <a href="https://msdn.microsoft.com/3ae7c255-2403-493a-9fb9-fc9795f6d920">ID3D11RenderTargetView</a>s that represent the render targets to bind to the device.
             If this parameter is <b>NULL</b> and <i>NumRTVs</i> is 0, no render targets are bound.
           
 
 
 ### -param pDepthStencilView [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476377(v=VS.85).aspx">ID3D11DepthStencilView</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/10be1fd1-8700-4c0a-b447-d3c2569f8e81">ID3D11DepthStencilView</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff476377(v=VS.85).aspx">ID3D11DepthStencilView</a> that represents the depth-stencil view to bind to the device.
+Pointer to a <a href="https://msdn.microsoft.com/10be1fd1-8700-4c0a-b447-d3c2569f8e81">ID3D11DepthStencilView</a> that represents the depth-stencil view to bind to the device.
             If this parameter is <b>NULL</b>, the depth-stencil state is not bound.
           
 
 
 ### -param UAVStartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index into a zero-based array to begin setting unordered-access views (ranges from 0 to D3D11_PS_CS_UAV_REGISTER_COUNT - 1).
 
@@ -100,7 +100,7 @@ For pixel shaders, <i>UAVStartSlot</i> should be equal to the number of render-t
 
 ### -param NumUAVs [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of unordered-access views (UAVs) in <i>ppUnorderedAccessViews</i>. If you set <i>NumUAVs</i> to D3D11_KEEP_UNORDERED_ACCESS_VIEWS (0xffffffff), this method does not modify the currently bound unordered-access views.
             
@@ -111,20 +111,20 @@ For the Direct3D 11.1 runtime, which is available starting with Windows 8, this
 
 ### -param ppUnorderedAccessViews [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476639(v=VS.85).aspx">ID3D11UnorderedAccessView</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/9def4a7d-f145-4073-8d7d-bf3c7ac7a060">ID3D11UnorderedAccessView</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Ff476639(v=VS.85).aspx">ID3D11UnorderedAccessView</a>s that represent the unordered-access views to bind to the device.
+Pointer to an array of <a href="https://msdn.microsoft.com/9def4a7d-f145-4073-8d7d-bf3c7ac7a060">ID3D11UnorderedAccessView</a>s that represent the unordered-access views to bind to the device.
             If this parameter is <b>NULL</b> and <i>NumUAVs</i> is 0, no unordered-access views are bound.
           
 
 
 ### -param pUAVInitialCounts [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 An array of append and consume buffer offsets. A value of -1 indicates to keep the current offset. Any other values set the hidden counter
             for that appendable and consumable UAV. <i>pUAVInitialCounts</i> is  relevant only for UAVs that were created with either
-            <a href="https://msdn.microsoft.com/en-us/library/Ff476096(v=VS.85).aspx">D3D11_BUFFER_UAV_FLAG_APPEND</a> or <b>D3D11_BUFFER_UAV_FLAG_COUNTER</b> specified
+            <a href="https://msdn.microsoft.com/13cf0083-c61a-478d-94bd-00dec4cf27b7">D3D11_BUFFER_UAV_FLAG_APPEND</a> or <b>D3D11_BUFFER_UAV_FLAG_COUNTER</b> specified
             when the UAV was created; otherwise, the argument is ignored.
           
 
@@ -173,7 +173,7 @@ The following conditions must be true for <b>OMSetRenderTargetsAndUnorderedAcces
               </li>
 <li>There must be no conflicts in the set of all <i>ppRenderTargetViews</i> and <i>ppUnorderedAccessViews</i>.
               </li>
-<li><i>ppDepthStencilView</i> must match the render-target views. For more information about resource views, see <a href="https://msdn.microsoft.com/en-us/library/Ff476900(v=VS.85).aspx">Introduction to a Resource in Direct3D 11</a>.
+<li><i>ppDepthStencilView</i> must match the render-target views. For more information about resource views, see <a href="https://msdn.microsoft.com/9e991ab0-9648-484a-9a2c-5391ee5abf20">Introduction to a Resource in Direct3D 11</a>.
               </li>
 </ul>
 <b>OMSetRenderTargetsAndUnorderedAccessViews</b> performs the following tasks:
@@ -231,7 +231,7 @@ The following conditions must be true for <b>OMSetRenderTargetsAndUnorderedAcces
               </li>
 <li>There must be no conflicts in <i>ppRenderTargetViews</i>.
               </li>
-<li><i>ppDepthStencilView</i> must match the render-target views. For more information about resource views, see <a href="https://msdn.microsoft.com/en-us/library/Ff476900(v=VS.85).aspx">Introduction to a Resource in Direct3D 11</a>.
+<li><i>ppDepthStencilView</i> must match the render-target views. For more information about resource views, see <a href="https://msdn.microsoft.com/9e991ab0-9648-484a-9a2c-5391ee5abf20">Introduction to a Resource in Direct3D 11</a>.
               </li>
 </ul>
 <b>OMSetRenderTargetsAndUnorderedAccessViews</b> unbinds the following items:
@@ -262,7 +262,7 @@ The following conditions must be true for <b>OMSetRenderTargetsAndUnorderedAcces
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

@@ -4,10 +4,10 @@ title: DhcpV4FailoverGetSystemTime function
 author: windows-sdk-content
 description: Returns the current time on the DHCP server.
 old-location: dhcp\dhcpv4failovergetsystemtime.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 3189e3d4-82cb-47a6-ad10-26a67c69e67d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpV4FailoverGetSystemTime, DhcpV4FailoverGetSystemTime function [DHCP], dhcp.dhcpv4failovergetsystemtime, dhcpsapi/DhcpV4FailoverGetSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IADsTSUserEx::get_TerminalServicesInitialProgram
 author: windows-sdk-content
 description: The path and file name of the application that the user wants to start automatically when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iadstsuserex_terminalservicesinitialprogram.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 43059f13-a1f1-44b2-96ac-2532656a0846
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesInitialProgram property, IADsTSUserEx.TerminalServicesInitialProgram, IADsTSUserEx.get_TerminalServicesInitialProgram, IADsTSUserEx::TerminalServicesInitialProgram, IADsTSUserEx::get_TerminalServicesInitialProgram, IADsTSUserEx::put_TerminalServicesInitialProgram, TerminalServicesInitialProgram property [Remote Desktop Services], TerminalServicesInitialProgram property [Remote Desktop Services],IADsTSUserEx interface, get_TerminalServicesInitialProgram, termserv.iadstsuserex_terminalservicesinitialprogram, tsuserex/IADsTSUserEx::TerminalServicesInitialProgram, tsuserex/IADsTSUserEx::get_TerminalServicesInitialProgram, tsuserex/IADsTSUserEx::put_TerminalServicesInitialProgram
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,9 +71,13 @@ To set an initial application to start when the user logs on, you must first set
 
 The following example shows a script that binds to the Active Directory database without credentials.
 
-
-```vb
-Set DSO = GetObject("LDAP:")
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set DSO = GetObject("LDAP:")
 Set usr = DSO.OpenDSObject(
     "LDAP://DOMAIN/CN=Test,CN=Users,DC=Server1,DC=Domain,DC=com")
 Wscript.echo usr.TerminalServicesWorkDirectory
@@ -83,10 +87,10 @@ usr.TerminalServicesWorkDirectory= "D:\path"
 usr.SetInfo
 WScript.echo usr.TerminalServicesInitialProgram
 Wscript.echo usr.TerminalServicesWorkDirectory
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

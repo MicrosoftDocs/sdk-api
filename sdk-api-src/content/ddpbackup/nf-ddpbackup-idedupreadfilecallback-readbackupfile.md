@@ -7,7 +7,7 @@ old-location: dedup\idedupreadfilecallback_readbackupfile.htm
 tech.root: dedup
 ms.assetid: 9A85B32B-7430-46AC-A9BF-2896651F40AF
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],ReadBackupFile method, IDedupReadFileCallback.ReadBackupFile, IDedupReadFileCallback::ReadBackupFile, ReadBackupFile, ReadBackupFile method [Data Deduplication API], ReadBackupFile method [Data Deduplication API],IDedupReadFileCallback interface, ddpbackup/IDedupReadFileCallback::ReadBackupFile, dedup.idedupreadfilecallback_readbackupfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ This parameter is reserved for future use.
 
 
 
-This method can return standard <b>HRESULT</b> values, such as <b>S_OK</b>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Possible return values include the following.
+This method can return standard <b>HRESULT</b> values, such as <b>S_OK</b>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Possible return values include the following.
 
 
 

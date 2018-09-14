@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_setconfig.htm
 tech.root: hid
 ms.assetid: 58f413c4-7b4c-47bd-8991-ffe681e96f48
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetConfig method, IDirectInputJoyConfig8.SetConfig, IDirectInputJoyConfig8::SetConfig, SetConfig, SetConfig method [Human Input Devices], SetConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_e9168f2d-cee8-4cac-8299-65360fd784f1.xml, dinputd/IDirectInputJoyConfig8::SetConfig, hid.idirectinputjoyconfig8_setconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

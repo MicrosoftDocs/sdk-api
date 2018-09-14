@@ -7,7 +7,7 @@ old-location: menurc\createcaret.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\createcaret.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: CreateCaret, CreateCaret function [Menus and Other Resources], _win32_CreateCaret, _win32_createcaret_cpp, menurc.createcaret, winui._win32_createcaret, winuser/CreateCaret
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,7 +111,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The <i>nWidth</i> and <i>nHeight</i> parameters specify the caret's width and height, in logical units; the exact width and height, in pixels, depend on the window's mapping mode. 
 
-<b>CreateCaret</b> automatically destroys the previous caret shape, if any, regardless of the window that owns the caret. The caret is hidden until the application calls the <a href="https://msdn.microsoft.com/en-us/library/ms648406(v=VS.85).aspx">ShowCaret</a> function to make the caret visible. 
+<b>CreateCaret</b> automatically destroys the previous caret shape, if any, regardless of the window that owns the caret. The caret is hidden until the application calls the <a href="https://msdn.microsoft.com/1a3a141e-9b5a-495a-8138-b9522933499f">ShowCaret</a> function to make the caret visible. 
 
 The system provides one caret per queue. A window should create a caret only when it has the keyboard focus or is active. The window should destroy the caret before losing the keyboard focus or becoming inactive. 
 
@@ -126,7 +126,7 @@ This API does not participate in DPI virtualization. The width and height parame
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646968(v=VS.85).aspx">Carets</a>
+<a href="https://msdn.microsoft.com/34ff3420-a1d2-46cc-9378-4b3340bec8c8">Carets</a>
 
 
 
@@ -142,7 +142,7 @@ This API does not participate in DPI virtualization. The width and height parame
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648400(v=VS.85).aspx">DestroyCaret</a>
+<a href="https://msdn.microsoft.com/ed434af6-1146-41b7-a4dc-8b5215a9ff43">DestroyCaret</a>
 
 
 
@@ -150,7 +150,7 @@ This API does not participate in DPI virtualization. The width and height parame
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648403(v=VS.85).aspx">HideCaret</a>
+<a href="https://msdn.microsoft.com/2fab919f-11aa-429e-aaa6-89854caa7b1c">HideCaret</a>
 
 
 
@@ -166,7 +166,7 @@ This API does not participate in DPI virtualization. The width and height parame
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648406(v=VS.85).aspx">ShowCaret</a>
+<a href="https://msdn.microsoft.com/1a3a141e-9b5a-495a-8138-b9522933499f">ShowCaret</a>
  
 
  

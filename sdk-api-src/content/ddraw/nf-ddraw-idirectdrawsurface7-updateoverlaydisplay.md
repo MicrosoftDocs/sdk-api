@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_updateoverlaydisplay.htm
 tech.root: directdraw
 ms.assetid: 50edf36f-ddf2-44a4-bcab-4b4dd5c5b65c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],UpdateOverlayDisplay method, IDirectDrawSurface7.UpdateOverlayDisplay, IDirectDrawSurface7::UpdateOverlayDisplay, UpdateOverlayDisplay, UpdateOverlayDisplay method [DirectDraw], UpdateOverlayDisplay method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::UpdateOverlayDisplay, directdraw.idirectdrawsurface7_updateoverlaydisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

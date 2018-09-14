@@ -7,7 +7,7 @@ old-location: properties\VariantToDoubleWithDefault.htm
 tech.root: properties
 ms.assetid: a3e32a30-363d-487e-bdd5-ac2616d6de14
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: VariantToDoubleWithDefault, VariantToDoubleWithDefault function [Windows Properties], _shell_VariantToDoubleWithDefault, properties.VariantToDoubleWithDefault, propvarutil/VariantToDoubleWithDefault, shell.VariantToDoubleWithDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Extracts a <b>DOUBLE</b> value from a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure. If no value exists, then the specified default value is returned.
+Extracts a <b>DOUBLE</b> value from a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure. If no value exists, then the specified default value is returned.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Extracts a <b>DOUBLE</b> value from a <a href="https://msdn.microsoft.com/en-us/
 
 Type: <b>REFVARIANT</b>
 
-Reference to a source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+Reference to a source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ### -param dblDefault [in]
@@ -87,32 +87,36 @@ Returns the extracted <b>double</b> value; otherwise, the default value specifie
 
 
 
-This helper function is used when the calling application expects a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> to hold a <b>DOUBLE</b> value and wants to use a default value if it does not.
+This helper function is used when the calling application expects a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> to hold a <b>DOUBLE</b> value and wants to use a default value if it does not.
 
-If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> is of type VT_R8, this helper extracts the <b>DOUBLE</b> value.
+If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is of type VT_R8, this helper extracts the <b>DOUBLE</b> value.
 
-If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> is not of type VT_R8, the function attempts to convert the value in the <b>VARIANT</b> into a <b>DOUBLE</b>.
+If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is not of type VT_R8, the function attempts to convert the value in the <b>VARIANT</b> into a <b>DOUBLE</b>.
 
-If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> is of type VT_EMPTY or a conversion is not possible, then <a href="https://msdn.microsoft.com/en-us/library/Bb776601(v=VS.85).aspx">VariantToDoubleWithDefault</a> returns the default value provided by <i>dblDefault</i>. See <a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> for a list of possible conversions.
+If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is of type VT_EMPTY or a conversion is not possible, then <a href="shell.VariantToDoubleWithDefault">VariantToDoubleWithDefault</a> returns the default value provided by <i>dblDefault</i>. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776601(v=VS.85).aspx">VariantToDoubleWithDefault</a> to access a <b>DOUBLE</b> value stored in a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToDoubleWithDefault">VariantToDoubleWithDefault</a> to access a <b>DOUBLE</b> value stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
-
-```cpp
-// VARIANT var;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// VARIANT var;
 // Assume variable var is initialized and valid.
 // The application expects var to hold a DOUBLE value.
 
 // The application wants to treat VT_EMPTY as 3.1415.
 DOUBLE dblValue = VariantToDoubleWithDefault(var, 3.1415);
 
-// dblValue is now valid.
-```
-
-
+// dblValue is now valid.</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -121,19 +125,19 @@ DOUBLE dblValue = VariantToDoubleWithDefault(var, 3.1415);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762321(v=VS.85).aspx">InitVariantFromDouble</a>
+<a href="shell.InitVariantFromDouble">InitVariantFromDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
+<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776538(v=VS.85).aspx">PropVariantToDouble</a>
+<a href="shell.PropVariantToDouble">PropVariantToDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776598(v=VS.85).aspx">VariantToDouble</a>
+<a href="shell.VariantToDouble">VariantToDouble</a>
  
 
  

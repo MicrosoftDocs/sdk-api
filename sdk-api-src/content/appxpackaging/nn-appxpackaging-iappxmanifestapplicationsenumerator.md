@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestapplicationsenumerator.htm
 tech.root: appxpkg
 ms.assetid: 49955DE0-A6BE-4FD7-B8E3-E4126B3C4B8F
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IAppxManifestApplicationsEnumerator, IAppxManifestApplicationsEnumerator interface [App packaging and management], IAppxManifestApplicationsEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestApplicationsEnumerator, appxpkg.iappxmanifestapplicationsenumerator
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mbn\mbn_activation_state.htm
 tech.root: mbn
 ms.assetid: 712b9ead-8e38-45b1-8dff-b8906056d3d6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MBN_ACTIVATION_STATE, MBN_ACTIVATION_STATE enumeration [Microsoft Broadband Networks], MBN_ACTIVATION_STATE_ACTIVATED, MBN_ACTIVATION_STATE_ACTIVATING, MBN_ACTIVATION_STATE_DEACTIVATED, MBN_ACTIVATION_STATE_DEACTIVATING, MBN_ACTIVATION_STATE_NONE, mbn.mbn_activation_state, mbnapi/MBN_ACTIVATION_STATE, mbnapi/MBN_ACTIVATION_STATE_ACTIVATED, mbnapi/MBN_ACTIVATION_STATE_ACTIVATING, mbnapi/MBN_ACTIVATION_STATE_DEACTIVATED, mbnapi/MBN_ACTIVATION_STATE_DEACTIVATING, mbnapi/MBN_ACTIVATION_STATE_NONE
 ms.prod: windows
 ms.technology: windows-sdk

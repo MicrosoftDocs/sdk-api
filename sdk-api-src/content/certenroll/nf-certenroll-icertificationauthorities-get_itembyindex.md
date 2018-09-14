@@ -4,10 +4,10 @@ title: ICertificationAuthorities::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an ICertificationAuthority object from the collection by index number.
 old-location: security\icertificationauthorities_itembyindex.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: cc03b30c-0b61-4bf1-a688-c088e8420736
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICertificationAuthorities interface [Security],ItemByIndex property, ICertificationAuthorities.ItemByIndex, ICertificationAuthorities.get_ItemByIndex, ICertificationAuthorities::ItemByIndex, ICertificationAuthorities::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICertificationAuthorities interface, certenroll/ICertificationAuthorities::ItemByIndex, certenroll/ICertificationAuthorities::get_ItemByIndex, get_ItemByIndex, security.icertificationauthorities_itembyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Ee338621(v=VS.85).aspx">ICertificationAuthority</a> object from the collection by index number.   This property is web enabled.
+The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a> object from the collection by index number.   This property is web enabled.
 
 This property is read-only.
 
@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338611(v=VS.85).aspx">ICertificationAuthorities</a>
+<a href="https://msdn.microsoft.com/8dad280a-1fe7-4a4b-9392-eee3aa9bcde9">ICertificationAuthorities</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338621(v=VS.85).aspx">ICertificationAuthority</a>
+<a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a>
  
 
  

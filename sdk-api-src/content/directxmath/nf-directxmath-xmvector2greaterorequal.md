@@ -7,7 +7,7 @@ old-location: dxmath\xmvector2greaterorequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2GreaterOrEqual(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: Use DirectX..XMVector2GreaterOrEqual, XMVector2GreaterOrEqual, XMVector2GreaterOrEqual method [DirectX Math Support APIs], dxmath.xmvector2greaterorequal
 ms.prod: windows-hardware
 ms.technology: windows-devices

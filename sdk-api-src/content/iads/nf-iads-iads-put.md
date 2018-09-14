@@ -7,7 +7,7 @@ old-location: adsi\iads_put.htm
 tech.root: ADSI
 ms.assetid: b543220d-939b-4ca5-9a27-90b04f14be5d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADs interface [ADSI],Put method, IADs.Put, IADs::Put, Put, Put method [ADSI], Put method [ADSI],IADs interface, _ds_iads_put, adsi.iads__put, adsi.iads_put, iads/IADs::Put
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,9 +93,13 @@ To manipulate the property values beyond a simple assignment, use  <b>Put</b> to
 
 The following code example shows how to use the <b>IADs::Put</b> method.
 
-
-```vb
-Dim x As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x As IADs
 On Error GoTo Cleanup
 
 Set x = GetObject("LDAP://CN=JeffSmith,CN=Users,DC=Fabrikam, DC=Com") 
@@ -104,18 +108,22 @@ x.Put "sn", "Smith"
 x.SetInfo    ' Commit to the directory.
 
 Cleanup:
-   If(Err.Number<>0) Then
-      MsgBox("An error has occurred. " & Err.Number)
+   If(Err.Number&lt;&gt;0) Then
+      MsgBox("An error has occurred. " &amp; Err.Number)
    End If
-   Set x = Nothing
-```
-
-
+   Set x = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to use the <b>IADs::Put</b> method.
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 IADs *pADs = NULL;
 LPWSTR pszADsPath = L"LDAP://CN=JeffSmith,CN=Users,DC=Fabrikam,DC=com";
  
@@ -124,41 +132,41 @@ CoInitialize(NULL);
 //////////////////////////////////
 // Modifying attributes using IADs
 //////////////////////////////////
-hr = ADsGetObject(pszADsPath, IID_IADs, (void**) &pADs);
+hr = ADsGetObject(pszADsPath, IID_IADs, (void**) &amp;pADs);
  
 if(SUCCEEDED(hr))
 { 
     VARIANT var;
-    VariantInit(&var);
+    VariantInit(&amp;var);
      
     // Set the first name.
-    V_BSTR(&var) = SysAllocString(L"Jeff");
-    V_VT(&var) = VT_BSTR;
-    hr = pADs->Put(CComBSTR("givenName"), var);
+    V_BSTR(&amp;var) = SysAllocString(L"Jeff");
+    V_VT(&amp;var) = VT_BSTR;
+    hr = pADs-&gt;Put(CComBSTR("givenName"), var);
      
     // Set the last name.
-    VariantClear(&var);
-    V_BSTR(&var) = SysAllocString(L"Smith");
-    V_VT(&var) = VT_BSTR;
-    hr = pADs->Put(CComBSTR("sn"), var); 
-    VariantClear(&var);
+    VariantClear(&amp;var);
+    V_BSTR(&amp;var) = SysAllocString(L"Smith");
+    V_VT(&amp;var) = VT_BSTR;
+    hr = pADs-&gt;Put(CComBSTR("sn"), var); 
+    VariantClear(&amp;var);
 
     // Other Telephones.
     LPWSTR pszPhones[] = { L"425-707-9790", L"425-707-9791" };
     DWORD dwNumber = sizeof(pszPhones)/sizeof(LPWSTR);
-    hr = ADsBuildVarArrayStr(pszPhones, dwNumber, &var);
-    hr = pADs->Put(CComBSTR("otherTelephone"), var); 
-    VariantClear(&var);
+    hr = ADsBuildVarArrayStr(pszPhones, dwNumber, &amp;var);
+    hr = pADs-&gt;Put(CComBSTR("otherTelephone"), var); 
+    VariantClear(&amp;var);
      
     // Commit the change to the directory.
-    hr = pADs->SetInfo();
-    pADs->Release();
+    hr = pADs-&gt;SetInfo();
+    pADs-&gt;Release();
 }
 
-CoUninitialize();
-```
-
-
+CoUninitialize();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

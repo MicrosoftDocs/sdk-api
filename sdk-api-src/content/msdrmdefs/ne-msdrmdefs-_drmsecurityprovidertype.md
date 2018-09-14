@@ -4,10 +4,10 @@ title: "_DRMSECURITYPROVIDERTYPE"
 author: windows-sdk-content
 description: The DRMSECURITYPROVIDERTYPE enumeration specifies the type of secure DRM environment used.
 old-location: rm\drmsecurityprovidertype.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: e8b81e48-d13a-4b7d-b7a4-a197dc81dc6b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMSECURITYPROVIDERTYPE, DRMSECURITYPROVIDERTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMSECURITYPROVIDERTYPE_SOFTWARESECREP, _DRMSECURITYPROVIDERTYPE, msdrmdefs/DRMSECURITYPROVIDERTYPE, msdrmdefs/DRMSECURITYPROVIDERTYPE_SOFTWARESECREP, rm.drmsecurityprovidertype
 ms.prod: windows
 ms.technology: windows-sdk

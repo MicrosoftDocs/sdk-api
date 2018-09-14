@@ -4,10 +4,10 @@ title: IEnumBitsPeerCacheRecords::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: bits\ienumbitspeercacherecords_reset.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: d1e1dbdc-a90d-4ac8-8b52-8e4f914a81dd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Reset method, IEnumBitsPeerCacheRecords.Reset, IEnumBitsPeerCacheRecords::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_reset, bits3_0/IEnumBitsPeerCacheRecords::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964302(v=VS.85).aspx">IEnumBitsPeerCacheRecords</a>
+<a href="https://msdn.microsoft.com/680c1468-d780-44a3-9048-c7c3928234f9">IEnumBitsPeerCacheRecords</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wmformat\iwmindexer2.htm
 tech.root: wmformat
 ms.assetid: ce900a2b-765b-46bb-87f4-bf9fe57d1cdb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWMIndexer2, IWMIndexer2 interface [windows Media Format], IWMIndexer2 interface [windows Media Format],described, IWMIndexer2Interface, wmformat.iwmindexer2, wmsdkidl/IWMIndexer2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\ienumunknown_clone.htm
 tech.root: com
 ms.assetid: 278d2947-efa5-43c4-a950-cf39876423ba
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumUnknown interface, IEnumUnknown interface [COM],Clone method, IEnumUnknown.Clone, IEnumUnknown::Clone, _com_ienumunknown_clone, com.ienumunknown_clone, objidlbase/IEnumUnknown::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

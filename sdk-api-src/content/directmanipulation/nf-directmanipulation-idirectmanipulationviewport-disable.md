@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_disable.htm
 tech.root: directmanipulation
 ms.assetid: ac4f3cbe-2769-468e-abe3-07b76ada5d7e
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: Disable, Disable method [Direct Manipulation], Disable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Disable method, IDirectManipulationViewport.Disable, IDirectManipulationViewport::Disable, directmanipulation.idirectmanipulationviewport_disable, directmanipulation/IDirectManipulationViewport::Disable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,12 +84,16 @@ The viewport will not resume processing input until <a href="https://msdn.micros
 
 The following example shows how to use this method.
 
-
-```
-HRESULT hr = pViewport->Disable();
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = pViewport-&gt;Disable();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

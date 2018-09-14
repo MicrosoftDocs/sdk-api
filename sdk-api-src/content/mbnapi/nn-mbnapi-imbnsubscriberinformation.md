@@ -7,7 +7,7 @@ old-location: mbn\imbnsubscriberinformation.htm
 tech.root: mbn
 ms.assetid: ef7f5dc5-ed66-450c-9623-0c1d725d82c6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMbnSubscriberInformation, IMbnSubscriberInformation interface [Microsoft Broadband Networks], IMbnSubscriberInformation interface [Microsoft Broadband Networks],described, mbn.imbnsubscriberinformation, mbnapi/IMbnSubscriberInformation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialEvents_SetFieldInteractiveState
 tech.root: shell
 ms.assetid: 649f0f65-78dd-4232-b471-9a18d1448f1d
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldInteractiveState method, ICredentialProviderCredentialEvents.SetFieldInteractiveState, ICredentialProviderCredentialEvents::SetFieldInteractiveState, SetFieldInteractiveState, SetFieldInteractiveState method [Windows Shell], SetFieldInteractiveState method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldInteractiveState, credentialprovider/ICredentialProviderCredentialEvents::SetFieldInteractiveState, shell.ICredentialProviderCredentialEvents_SetFieldInteractiveState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Communicates to the Logon UI or Credential UI that the interactivity state of a 
 
 ### -param pcpc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb776029(v=VS.85).aspx">ICredentialProviderCredential</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ef9bb148-0b4e-4c13-b69d-3e63a5592e4a">ICredentialProviderCredential</a>*</b>
 
-The credential containing a field whose interactivity state is being set. This value should be set to <b>this</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb776010(v=VS.85).aspx">ICredentialProviderCredentialEvents</a> for more information.
+The credential containing a field whose interactivity state is being set. This value should be set to <b>this</b>. See <a href="https://msdn.microsoft.com/258449a4-78e2-475e-ab16-6481207e7354">ICredentialProviderCredentialEvents</a> for more information.
                     
 
 
@@ -75,7 +75,7 @@ The unique ID of the field.
 
 ### -param cpfis [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762488(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/745ac5f0-fcfe-4f42-ab4c-c933f1d3870b">CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</a></b>
 
 The new interactive state of the field.
 

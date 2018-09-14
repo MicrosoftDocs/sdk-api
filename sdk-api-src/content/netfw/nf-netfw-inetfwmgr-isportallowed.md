@@ -4,10 +4,10 @@ title: INetFwMgr::IsPortAllowed
 author: windows-sdk-content
 description: Determines whether an application can listen for inbound traffic on the specified port.
 old-location: ics\inetfwmgr_isportallowed.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 39e68271-8046-470a-af90-17bed770716d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],IsPortAllowed method, INetFwMgr.IsPortAllowed, INetFwMgr::IsPortAllowed, IsPortAllowed, IsPortAllowed method [ICS/ICF], IsPortAllowed method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_isportallowed, netfw/INetFwMgr::IsPortAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices

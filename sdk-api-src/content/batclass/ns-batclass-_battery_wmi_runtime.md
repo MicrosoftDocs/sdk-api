@@ -7,7 +7,7 @@ old-location: battery\battery_wmi_runtime.htm
 tech.root: battery
 ms.assetid: B6351A10-581C-42F1-A8AD-D33D6F633466
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PBATTERY_WMI_RUNTIME, BATTERY_WMI_RUNTIME, BATTERY_WMI_RUNTIME structure [Battery Devices], PBATTERY_WMI_RUNTIME, PBATTERY_WMI_RUNTIME structure pointer [Battery Devices], _BATTERY_WMI_RUNTIME, batclass/BATTERY_WMI_RUNTIME, batclass/PBATTERY_WMI_RUNTIME, battery.battery_wmi_runtime"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Defines information about the estimated runtime of a battery for use with the <a href="https://msdn.microsoft.com/en-us/library/Ff536268(v=VS.85).aspx">BatteryClassQueryWmiDataBlock</a> function.
+Defines information about the estimated runtime of a battery for use with the <a href="https://msdn.microsoft.com/2a5c4c14-fc80-4a0a-b447-6fe33ff1d42f">BatteryClassQueryWmiDataBlock</a> function.
 
 
 ## -struct-fields
@@ -75,7 +75,7 @@ This calculation may be based on the present rate of drain and not be very accur
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536268(v=VS.85).aspx">BatteryClassQueryWmiDataBlock</a>
+<a href="https://msdn.microsoft.com/2a5c4c14-fc80-4a0a-b447-6fe33ff1d42f">BatteryClassQueryWmiDataBlock</a>
  
 
  

@@ -4,10 +4,10 @@ title: RasDialA function
 author: windows-sdk-content
 description: The RasDial function establishes a RAS connection between a RAS client and a RAS server. The connection data includes callback and user-authentication information.
 old-location: rras\rasdial.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 579a9038-8216-4948-a065-fd45b97da73a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: 0, 1, 2, RasDial, RasDial function [RAS], RasDialA, RasDialW, _ras_rasdial, ras/RasDial, ras/RasDialA, ras/RasDialW, rras.rasdial
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -263,15 +263,19 @@ The <i>lpvNotifier</i> parameter is a handle to a window to receive progress not
 
 The progress notification message uses a system registered message code. You can obtain the value of this message code as follows:
 
-
-```cpp
-UINT unMsg = RegisterWindowMessageA( RASDIALEVENT );
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>UINT unMsg = RegisterWindowMessageA( RASDIALEVENT );
 if (unMsg == 0)
     unMsg = WM_RASDIALEVENT;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 RAS supports referenced connections. If the entry being dialed is already connected, 
 <b>RasDial</b>  returns <b>SUCCESS</b> and the connection is referenced. To disconnect the connection, each 
 <b>RasDial</b> on the connection should be matched by a 

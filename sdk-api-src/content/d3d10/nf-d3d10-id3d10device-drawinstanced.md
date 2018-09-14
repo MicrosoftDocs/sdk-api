@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_drawinstanced.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_drawinstanced.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 59daf614-be34-5946-a8e4-10a976e15345, DrawInstanced, DrawInstanced method [Direct3D 10], DrawInstanced method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],DrawInstanced method, ID3D10Device.DrawInstanced, ID3D10Device::DrawInstanced, d3d10/ID3D10Device::DrawInstanced, direct3d10.id3d10device_drawinstanced
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,28 +61,28 @@ Draw non-indexed, instanced primitives.
 
 ### -param VertexCountPerInstance [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of vertices to draw.
 
 
 ### -param InstanceCount [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of instances to draw.
 
 
 ### -param StartVertexLocation [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index of the first vertex.
 
 
 ### -param StartInstanceLocation [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index of the first instance.
 
@@ -100,11 +100,11 @@ Returns nothing.
 
 
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">draw API</a> submits work to the rendering pipeline.
+A <a href="https://msdn.microsoft.com/84c0ca29-2356-4b7f-98ee-ff1758edc540">draw API</a> submits work to the rendering pipeline.
 
-Instancing may extend performance by reusing the same geometry to draw multiple objects in a scene. One example of instancing could be to draw the same object with different positions and colors. For an example of instancing, see the <a href="https://msdn.microsoft.com/library/Ee416415(v=VS.85).aspx">Instancing10 Sample</a>.
+Instancing may extend performance by reusing the same geometry to draw multiple objects in a scene. One example of instancing could be to draw the same object with different positions and colors. For an example of instancing, see the <a href="dd22e271-7ace-fcb6-3da2-ba838c59db6e">Instancing10 Sample</a>.
 
-The vertex data for an instanced draw call normally comes from a vertex buffer that is bound to the pipeline. However, you could also provide the vertex data from a shader that has instanced data identified with a <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">system-value semantic</a> (SV_InstanceID).
+The vertex data for an instanced draw call normally comes from a vertex buffer that is bound to the pipeline. However, you could also provide the vertex data from a shader that has instanced data identified with a <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">system-value semantic</a> (SV_InstanceID).
 
 
 
@@ -114,7 +114,7 @@ The vertex data for an instanced draw call normally comes from a vertex buffer t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

@@ -4,10 +4,10 @@ title: DIRECTORY_OBJECT_TYPE
 author: windows-sdk-content
 description: The DIRECTORY_OBJECT_TYPE enum is a descriptor of whether a directory object is a conference or a user.
 old-location: tapi3\directory_object_type.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 17deac23-a81f-4bb3-a6e5-4105c504c0b5
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: DIRECTORY_OBJECT_TYPE, DIRECTORY_OBJECT_TYPE enumeration [TAPI 2.2], OT_CONFERENCE, OT_USER, _tapi3_directory_object_type, rend/DIRECTORY_OBJECT_TYPE, rend/OT_CONFERENCE, rend/OT_USER, tapi3.directory_object_type
 ms.prod: windows
 ms.technology: windows-sdk

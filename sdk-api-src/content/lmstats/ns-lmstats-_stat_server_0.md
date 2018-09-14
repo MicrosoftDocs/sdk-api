@@ -4,10 +4,10 @@ title: "_STAT_SERVER_0"
 author: windows-sdk-content
 description: Contains statistical information about the server.
 old-location: fs\stat_server_0_str.htm
-tech.root: netshare
+tech.root: NetShare
 ms.assetid: 7eb4e4a9-f4db-4702-a4ad-2d8bfac9f9ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSTAT_SERVER_0, *PSTAT_SERVER_0, LPSTAT_SERVER_0, LPSTAT_SERVER_0 structure pointer [Files], PSTAT_SERVER_0, PSTAT_SERVER_0 structure pointer [Files], STAT_SERVER_0, STAT_SERVER_0 structure [Files], _STAT_SERVER_0, _win32_stat_server_0_str, fs.stat_server_0_str, lmstats/LPSTAT_SERVER_0, lmstats/PSTAT_SERVER_0, lmstats/STAT_SERVER_0, netmgmt.stat_server_0_str"
 ms.prod: windows
 ms.technology: windows-sdk

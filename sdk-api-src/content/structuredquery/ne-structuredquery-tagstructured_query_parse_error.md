@@ -7,7 +7,7 @@ old-location: search\_search_STRUCTURED_QUERY_PARSE_ERROR.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\structured_query_parse_error.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: SQPE_EXTRA_CLOSING_PARENTHESIS, SQPE_EXTRA_OPENING_PARENTHESIS, SQPE_IGNORED_CONNECTOR, SQPE_IGNORED_KEYWORD, SQPE_IGNORED_MODIFIER, SQPE_NONE, SQPE_UNHANDLED, STRUCTURED_QUERY_PARSE_ERROR, STRUCTURED_QUERY_PARSE_ERROR enumeration [search], _search_STRUCTURED_QUERY_PARSE_ERROR, search._search_STRUCTURED_QUERY_PARSE_ERROR, structuredquery/SQPE_EXTRA_CLOSING_PARENTHESIS, structuredquery/SQPE_EXTRA_OPENING_PARENTHESIS, structuredquery/SQPE_IGNORED_CONNECTOR, structuredquery/SQPE_IGNORED_KEYWORD, structuredquery/SQPE_IGNORED_MODIFIER, structuredquery/SQPE_NONE, structuredquery/SQPE_UNHANDLED, structuredquery/STRUCTURED_QUERY_PARSE_ERROR, tagSTRUCTURED_QUERY_PARSE_ERROR
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-A set of flags to be used with <a href="https://msdn.microsoft.com/en-us/library/Bb231343(v=VS.85).aspx">IQuerySolution::GetErrors</a> to indentify parsing error(s). Each parsing error indicates that one or more tokens were ignored when parsing a query string.
+A set of flags to be used with <a href="https://msdn.microsoft.com/50eead1a-5eb9-4bc9-ba54-c6dc77284f4d">IQuerySolution::GetErrors</a> to indentify parsing error(s). Each parsing error indicates that one or more tokens were ignored when parsing a query string.
 
 
 ## -enum-fields
@@ -98,7 +98,7 @@ Any other parse error.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231336(v=VS.85).aspx">IRichChunk</a>
+<a href="https://msdn.microsoft.com/5fcc5c82-8d56-4495-8248-cf2fd19dd85a">IRichChunk</a>
  
 
  

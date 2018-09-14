@@ -4,10 +4,10 @@ title: ImpersonateSelf function
 author: windows-sdk-content
 description: Obtains an access token that impersonates the security context of the calling process. The token is assigned to the calling thread.
 old-location: security\impersonateself.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: f909e3a7-6c7f-4c05-aa2e-e637113804c9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ImpersonateSelf, ImpersonateSelf function [Security], _win32_impersonateself, security.impersonateself, securitybaseapi/ImpersonateSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,7 +101,7 @@ For this function to succeed, the DACL protecting the process token must grant t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

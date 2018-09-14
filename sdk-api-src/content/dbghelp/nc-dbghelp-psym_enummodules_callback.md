@@ -4,10 +4,10 @@ title: PSYM_ENUMMODULES_CALLBACK
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumerateModules64 function. It is called once for each enumerated module, and receives the module information.
 old-location: base\symenumeratemodulesproc64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 97a82134-7e1b-4c7e-aa55-8347fea4e739
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: PSYM_ENUMMODULES_CALLBACK, PSYM_ENUMMODULES_CALLBACK64, PSYM_ENUMMODULES_CALLBACKW64, SymEnumerateModulesProc64, SymEnumerateModulesProc64 callback, SymEnumerateModulesProc64 callback function, _win32_symenumeratemodulesproc64, base.symenumeratemodulesproc64, dbghelp/SymEnumerateModulesProc64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,9 +97,13 @@ The calling application is called once per module until all modules are enumerat
 
 This callback function supersedes the <i>PSYM_ENUMMODULES_CALLBACK</i> callback function.  <i>PSYM_ENUMMODULES_CALLBACK</i> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define PSYM_ENUMMODULES_CALLBACK PSYM_ENUMMODULES_CALLBACK64
 #else
 typedef BOOL
@@ -108,10 +112,10 @@ typedef BOOL
     __in ULONG BaseOfDll,
     __in_opt PVOID UserContext
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

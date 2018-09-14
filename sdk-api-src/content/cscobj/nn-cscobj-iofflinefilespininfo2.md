@@ -4,10 +4,10 @@ title: IOfflineFilesPinInfo2
 author: windows-sdk-content
 description: Defines a method to determine whether an item in the Offline Files cache is partly pinned.
 old-location: of\iofflinefilespininfo2.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 80aa7e38-dbd7-42c6-b4b8-df4f104dfdc8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOfflineFilesPinInfo2, IOfflineFilesPinInfo2 interface [Offline Files], IOfflineFilesPinInfo2 interface [Offline Files],described, cscobj/IOfflineFilesPinInfo2, of.iofflinefilespininfo2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,9 @@ Defines a method to determine whether an item in the Offline Files cache is part
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesPinInfo2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb530590(v=VS.85).aspx">IOfflineFilesPinInfo</a>. <b>IOfflineFilesPinInfo2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesPinInfo2</b> interface inherits from <a href="https://msdn.microsoft.com/529a529a-fbeb-4414-b4c9-46bfcca4aa7a">IOfflineFilesPinInfo</a>. <b>IOfflineFilesPinInfo2</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IOfflineFilesPinInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd941692(v=VS.85).aspx">IsPartlyPinned</a>
+<a href="https://msdn.microsoft.com/9063a804-2597-4959-8249-e5b42f582ea3">IsPartlyPinned</a>
 </td>
 <td align="left" width="63%">
 Determines whether the item is partly pinned.
@@ -86,11 +86,11 @@ Determines whether the item is partly pinned.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530590(v=VS.85).aspx">IOfflineFilesPinInfo</a>
+<a href="https://msdn.microsoft.com/529a529a-fbeb-4414-b4c9-46bfcca4aa7a">IOfflineFilesPinInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530659(v=VS.85).aspx">Offline Files API Interfaces</a>
+<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
  
 
  

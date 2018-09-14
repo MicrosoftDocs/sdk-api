@@ -7,7 +7,7 @@ old-location: menurc\loadicon.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\loadicon.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDI_APPLICATION, IDI_ASTERISK, IDI_ERROR, IDI_EXCLAMATION, IDI_HAND, IDI_INFORMATION, IDI_QUESTION, IDI_SHIELD, IDI_WARNING, IDI_WINLOGO, LoadIcon, LoadIcon function [Menus and Other Resources], LoadIconA, LoadIconW, _win32_LoadIcon, _win32_loadicon_cpp, menurc.loadicon, winui._win32_loadicon, winuser/LoadIcon, winuser/LoadIconA, winuser/LoadIconW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ req.redist:
 
 
 Loads the specified icon resource from the executable (.exe) file associated with an application instance.
-<div class="alert"><b>Note</b>  This function has been superseded by the <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has been superseded by the <a href="https://msdn.microsoft.com/27a18763-60e0-4a91-9262-807ea2b67416">LoadImage</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -78,7 +78,7 @@ A handle to an instance of the module whose executable file contains the icon to
 
 Type: <b>LPCTSTR</b>
 
-The name of the icon resource to be loaded. Alternatively, this parameter can contain the resource identifier in the low-order word and zero in the high-order word. Use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro to create this value.
+The name of the icon resource to be loaded. Alternatively, this parameter can contain the resource identifier in the low-order word and zero in the high-order word. Use the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro to create this value.
 
 To use one of the predefined icons, set the <i>hInstance</i> parameter to <b>NULL</b> and the <i>lpIconName</i> parameter to one of the following values.
 
@@ -223,7 +223,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 <b>LoadIcon</b> loads the icon resource only if it has not been loaded; otherwise, it retrieves a handle to the existing resource. The function searches the icon resource for the icon most appropriate for the current display. The icon resource can be a color or monochrome bitmap. 
 
-<b>LoadIcon</b> can only load an icon whose size conforms to the <b>SM_CXICON</b> and <b>SM_CYICON</b> system metric values. Use the <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a> function to load icons of other sizes.
+<b>LoadIcon</b> can only load an icon whose size conforms to the <b>SM_CXICON</b> and <b>SM_CYICON</b> system metric values. Use the <a href="https://msdn.microsoft.com/27a18763-60e0-4a91-9262-807ea2b67416">LoadImage</a> function to load icons of other sizes.
 
 
 
@@ -237,19 +237,19 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648059(v=VS.85).aspx">CreateIcon</a>
+<a href="https://msdn.microsoft.com/73497232-fb99-4b9c-9ccb-575a9a6ece56">CreateIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://msdn.microsoft.com/1dc588f4-b032-40a8-82ef-5b9fc04abb0b">Icons</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>
+<a href="https://msdn.microsoft.com/27a18763-60e0-4a91-9262-807ea2b67416">LoadImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
+<a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>
 
 
 

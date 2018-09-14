@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_get_controls.htm
 tech.root: WMP
 ms.assetid: 54d013f1-d71b-4b6a-90b4-0226022a2a0f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_controls method, IWMPCore.get_controls, IWMPCore::get_controls, IWMPCoreget_controls, get_controls, get_controls method [Windows Media Player], get_controls method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_controls, wmp/IWMPCore::get_controls
 ms.prod: windows-hardware
 ms.technology: windows-devices

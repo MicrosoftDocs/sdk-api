@@ -4,10 +4,10 @@ title: IDirect3DStateBlock9::Apply
 author: windows-sdk-content
 description: Apply the state block to the current device state.
 old-location: direct3d9\idirect3dstateblock9__apply.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3dstateblock9__apply.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 4857cd25-dfeb-1e69-b487-b93977115d85, Apply, Apply method [Direct3D 9], Apply method [Direct3D 9],IDirect3DStateBlock9 interface, IDirect3DStateBlock9 interface [Direct3D 9],Apply method, IDirect3DStateBlock9.Apply, IDirect3DStateBlock9::Apply, d3d9helper/IDirect3DStateBlock9::Apply, direct3d9.idirect3dstateblock9__apply
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Apply the state block to the current device state.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails while in record mode, the return value is D3DERR_INVALIDCALL.
 
@@ -77,7 +77,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails while in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205887(v=VS.85).aspx">IDirect3DStateBlock9</a>
+<a href="https://msdn.microsoft.com/bb0dfea8-14ba-4d9d-acb7-9748258e0f35">IDirect3DStateBlock9</a>
  
 
  

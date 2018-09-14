@@ -7,7 +7,7 @@ old-location: wmi\trefpointercollection.htm
 tech.root: WmiSdk
 ms.assetid: a2d1758a-4a7e-40fd-84c7-a25bc36ab538
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: TRefPointerCollection, TRefPointerCollection class [Windows Management Instrumentation], TRefPointerCollection class [Windows Management Instrumentation],described, _hmm_trefpointercollection, refptrco/TRefPointerCollection, wmi.trefpointercollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ The <b>TRefPointerCollection</b> class is a container
 <a href="https://msdn.microsoft.com/959cd8e7-ea0c-4b98-8e13-398e09c62668">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an item to a collection and calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> 
+Adds an item to a collection and calls the <a href="_com_iunknown_addref">AddRef</a> 
      method to increment the reference count.
 
 </td>
@@ -112,7 +112,7 @@ Ends enumeration of a collection. Call this method when the enumerating operatio
 <a href="https://msdn.microsoft.com/c0dfb2c7-71f6-4870-8018-145e890d4928">GetNext</a>
 </td>
 <td align="left" width="63%">
-Gets next item from the list and calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> 
+Gets next item from the list and calls the <a href="_com_iunknown_addref">AddRef</a> 
      method to increment the reference count. (The user must release the pointer when done and pass in the same cursor 
      each time.)
 

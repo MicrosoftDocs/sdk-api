@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_format_support.htm
 tech.root: direct3d11
 ms.assetid: 153e246e-9e2f-4557-94c4-a9f1a3b926bd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D3D11_FEATURE_DATA_FORMAT_SUPPORT, D3D11_FEATURE_DATA_FORMAT_SUPPORT structure [Direct3D 11], a30c19a0-2294-7e25-009e-e49d1560486d, d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT, direct3d11.d3d11_feature_data_format_support
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,17 +60,17 @@ Describes which resources are supported by the current graphics driver for a giv
 
 ### -field InFormat
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> to return information on.
+<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> to return information on.
 
 
 ### -field OutFormatSupport
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Combination of <a href="https://msdn.microsoft.com/en-us/library/Ff476134(v=VS.85).aspx">D3D11_FORMAT_SUPPORT</a> flags indicating which resources are supported.
+Combination of <a href="https://msdn.microsoft.com/8c7f62fd-e0fe-4f4d-8c88-ccf1372842f9">D3D11_FORMAT_SUPPORT</a> flags indicating which resources are supported.
 
 
 ## -see-also
@@ -78,7 +78,7 @@ Combination of <a href="https://msdn.microsoft.com/en-us/library/Ff476134(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
  
 
  

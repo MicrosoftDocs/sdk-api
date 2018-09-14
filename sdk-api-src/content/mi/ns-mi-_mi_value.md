@@ -4,10 +4,10 @@ title: "_MI_Value"
 author: windows-sdk-content
 description: A union of all CIM data types.
 old-location: wmi_v2\mi_value.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 08104810-248d-49b6-9caa-6cda1d6a404e
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Value, MI_Value structure [Windows Management Infrastructure (MI)], _MI_Value, mi/MI_Value, wmi_v2.mi_value
 ms.prod: windows
 ms.technology: windows-sdk

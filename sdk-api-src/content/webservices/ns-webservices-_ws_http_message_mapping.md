@@ -7,7 +7,7 @@ old-location: wsw\ws_http_message_mapping.htm
 tech.root: wsw
 ms.assetid: dff8217e-769d-4f0b-acf2-02d6e43589cf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WS_HTTP_MESSAGE_MAPPING, WS_HTTP_MESSAGE_MAPPING structure [Web Services for Windows], _WS_HTTP_MESSAGE_MAPPING, webservices/WS_HTTP_MESSAGE_MAPPING, wsw.ws_http_message_mapping
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,7 +123,7 @@ The following diagram shows how HTTP headers are mapped into
                 the headers of a message.
             
 
-<img alt="" src="./images/MappedHeaders.png"/>
+<img alt="" src="images/MappedHeaders.png"/>
 
 When a message is received, the HTTP channel
                 will automatically copy the specified HTTP headers from the request

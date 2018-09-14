@@ -7,7 +7,7 @@ old-location: setup\msigetcomponentpath.htm
 tech.root: msi
 ms.assetid: 957fd25c-8db6-4f2e-a705-1e8c3b3de6c1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, MsiGetComponentPath, MsiGetComponentPath function, MsiGetComponentPathA, MsiGetComponentPathW, _msi_msigetcomponentpath, msi/MsiGetComponentPath, msi/MsiGetComponentPathA, msi/MsiGetComponentPathW, setup.msigetcomponentpath
 ms.prod: windows-hardware
 ms.technology: windows-devices

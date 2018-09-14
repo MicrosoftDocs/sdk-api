@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12libraryreflection.htm
 tech.root: direct3d12
 ms.assetid: CE6AEA77-A6A0-46A5-BDBC-AE4907AAC820
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: ID3D12LibraryReflection, ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,described, d3d12shader/ID3D12LibraryReflection, direct3d12.id3d12libraryreflection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ A library-reflection interface accesses library info.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12LibraryReflection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D12LibraryReflection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12LibraryReflection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D12LibraryReflection</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -74,7 +74,7 @@ The <b>ID3D12LibraryReflection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn933677(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/BF7CC078-3F68-4645-B49C-1F4DEBCA6A48">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Fills the library descriptor structure for the library reflection.
@@ -113,7 +113,7 @@ To get a library-reflection interface, call <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
 
 
 

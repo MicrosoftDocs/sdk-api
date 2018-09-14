@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayercallback_onmediaplayerevent.htm
 tech.root: medfound
 ms.assetid: 2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IMFPMediaPlayerCallback interface [Media Foundation],OnMediaPlayerEvent method, IMFPMediaPlayerCallback.OnMediaPlayerEvent, IMFPMediaPlayerCallback::OnMediaPlayerEvent, OnMediaPlayerEvent, OnMediaPlayerEvent method [Media Foundation], OnMediaPlayerEvent method [Media Foundation],IMFPMediaPlayerCallback interface, mf.imfpmediaplayercallback_onmediaplayerevent, mfplay/IMFPMediaPlayerCallback::OnMediaPlayerEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,9 +91,13 @@ It is safe to call <a href="https://msdn.microsoft.com/fa57d465-1ee9-4f7a-9be8-6
 
 The following code shows how to cast the <i>pEventHeader</i> parameter to the correct structure type and pass the structure pointer to a handler function. The handler functions are declared at the start of the example. The application would need to provide implementations for these functions.  Note that you do not have to handle every event. For example, if your application never calls <a href="https://msdn.microsoft.com/7e9d4a0d-b61f-47d9-af47-d8a07cd728f6">IMFPMediaPlayer::SetRate</a>, you would not need to handle the <b>MFP_EVENT_TYPE_RATE_SET</b> event. In that case, simply omit <b>MFP_EVENT_TYPE_RATE_SET</b> from the <b>switch</b> statement.
 
-
-```cpp
-// Declarations of MFPlay event handler functions.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Declarations of MFPlay event handler functions.
 
 void OnPlay(MFP_PLAY_EVENT *pEvent);
 void OnPause(MFP_PAUSE_EVENT *pEvent);
@@ -112,7 +116,7 @@ void OnAquireUserCredential(MFP_ACQUIRE_USER_CREDENTIAL_EVENT *pEvent);
 // Implementation of IMFPMediaPlayerCallback::OnMediaPlayerEvent
 void STDMETHODCALLTYPE PlayerCallback::OnMediaPlayerEvent(MFP_EVENT_HEADER * pEventHeader)
 {
-    switch (pEventHeader->eEventType)
+    switch (pEventHeader-&gt;eEventType)
     {
     case MFP_EVENT_TYPE_PLAY: 
         OnPlay(MFP_GET_PLAY_EVENT(pEventHeader));
@@ -167,10 +171,10 @@ void STDMETHODCALLTYPE PlayerCallback::OnMediaPlayerEvent(MFP_EVENT_HEADER * pEv
         break;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

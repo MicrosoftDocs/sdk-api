@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FromHDC_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfromhdcmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: FromHDC, FromHDC methods [GDI+], Graphics.FromHDC, Graphics.FromHDC(IN HDC), Graphics::FromHDC, Graphics::FromHDC(IN HDC), _gdiplus_CLASS_Graphics_FromHDC_Methods, gdiplus._gdiplus_CLASS_Graphics_FromHDC_Methods, gdiplusgraphics/FromHDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,9 +52,9 @@ req.redist:
 
 <span>This topic lists the 
 FromHDC methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
 <b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -64,21 +64,21 @@ FromHDC methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535950(v=VS.85).aspx">FromHDC(HDC)</a>
+<a href="https://msdn.microsoft.com/fb1ce44e-3e46-40e7-a2d2-23aca0c8fd81">FromHDC(HDC)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535950(v=VS.85).aspx">Graphics::FromHDC</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object that is associated with a specified device context.
+The <a href="https://msdn.microsoft.com/fb1ce44e-3e46-40e7-a2d2-23aca0c8fd81">Graphics::FromHDC</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object that is associated with a specified device context.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535951(v=VS.85).aspx">FromHDC(HDD,HANDLE)</a>
+<a href="https://msdn.microsoft.com/2f4c619f-46a0-4301-87af-07a1c3669322">FromHDC(HDD,HANDLE)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535951(v=VS.85).aspx">Graphics::FromHDC</a>
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object that is associated with a specified device context and a specified device.
+The <a href="https://msdn.microsoft.com/2f4c619f-46a0-4301-87af-07a1c3669322">Graphics::FromHDC</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object that is associated with a specified device context and a specified device.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignaturemanager_sign.htm
 tech.root: OPC
 ms.assetid: 5d40cae4-67d5-40a6-bd63-cf6243a703eb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],Sign method, IOpcDigitalSignatureManager.Sign, IOpcDigitalSignatureManager::Sign, Sign, Sign method [Open Packaging Conventions], Sign method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::Sign, opc.iopcdigitalsignaturemanager_sign
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -209,7 +209,7 @@ An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/0468cece
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/en-us/library/Dd430435(v=VS.85).aspx">Windows Web Services</a> API.
+An <b>HRESULT</b> error code from a <a href="wsw.web_services_for_windows_error_codes">Windows Web Services</a> API.
 
 </td>
 </tr>

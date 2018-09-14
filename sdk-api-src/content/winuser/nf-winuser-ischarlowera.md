@@ -7,7 +7,7 @@ old-location: menurc\ischarlower.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischarlower.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: IsCharLower, IsCharLower function [Menus and Other Resources], IsCharLowerA, _win32_IsCharLower, _win32_ischarlower_cpp, menurc.ischarlower, winui._win32_ischarlower, winuser/IsCharLower, winuser/IsCharLowerA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ If the character is not lowercase, the return value is zero. To get extended err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647485(v=VS.85).aspx">IsCharUpper</a>
+<a href="https://msdn.microsoft.com/cc9ffea1-d14e-4cf8-b036-0b39cf0a7ae7">IsCharUpper</a>
 
 
 
@@ -100,7 +100,7 @@ If the character is not lowercase, the return value is zero. To get extended err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow_next.htm
 tech.root: seccrypto
 ms.assetid: 6e471ee9-4b69-468c-a724-e43bd93419d9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Next method, IEnumCERTVIEWROW.Next, IEnumCERTVIEWROW::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWROW interface, _certsrv_ienumcertviewrow_next, certview/IEnumCERTVIEWROW::Next, security.ienumcertviewrow_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ A pointer to a variable that contains the index value of the next row being  ref
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and the next row is now being referenced by the row-enumeration sequence. If there are no more rows to enumerate, S_FALSE is returned, and <i>pIndex</i> is set to a value of –1.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the index value of the  row that is now being referenced by the row-enumeration sequence. If there are no more rows to enumerate, the return value is –1.
@@ -88,13 +88,13 @@ columns, attributes, and extensions associated with the certificate in the row c
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386176(v=VS.85).aspx">IEnumCERTVIEWCOLUMN</a>
+<a href="https://msdn.microsoft.com/6e6547f9-44b2-4050-be90-ac8ede892adc">IEnumCERTVIEWCOLUMN</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386157(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE</a>
+<a href="https://msdn.microsoft.com/fc1eb29d-27d9-4331-b588-dc0632b3db6a">IEnumCERTVIEWATTRIBUTE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386203(v=VS.85).aspx">IEnumCERTVIEWEXTENSION</a>
+<a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f-aa9e-97ba052b1b34">IEnumCERTVIEWEXTENSION</a>
 </li>
 </ul>
 Looping through all the  rows in the enumeration sequence can be resource-intensive to compute, depending of the query involved and the  size of the sequence.
@@ -102,27 +102,31 @@ Looping through all the  rows in the enumeration sequence can be resource-intens
 
 #### Examples
 
-
-```cpp
-// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
 LONG  Index;
 LONG  nCount;
 
 // Ensure enumerator is at first row.
-if (FAILED(pEnumRow->Reset()))
+if (FAILED(pEnumRow-&gt;Reset()))
     printf("Failed to Reset\n");
 else
 {
     nCount = 0;
     // Count the database records by enumerating the rows.
-    while (S_OK == pEnumRow->Next(&Index))
+    while (S_OK == pEnumRow-&gt;Next(&amp;Index))
         nCount++;
     // Display number of records.
     printf("Number of records is %d\n", nCount);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -131,19 +135,19 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386157(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE</a>
+<a href="https://msdn.microsoft.com/fc1eb29d-27d9-4331-b588-dc0632b3db6a">IEnumCERTVIEWATTRIBUTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386176(v=VS.85).aspx">IEnumCERTVIEWCOLUMN</a>
+<a href="https://msdn.microsoft.com/6e6547f9-44b2-4050-be90-ac8ede892adc">IEnumCERTVIEWCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386203(v=VS.85).aspx">IEnumCERTVIEWEXTENSION</a>
+<a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f-aa9e-97ba052b1b34">IEnumCERTVIEWEXTENSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386231(v=VS.85).aspx">IEnumCERTVIEWROW</a>
+<a href="https://msdn.microsoft.com/c9529f7a-9d97-4315-af96-f7b687af3c2e">IEnumCERTVIEWROW</a>
  
 
  

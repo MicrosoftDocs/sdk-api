@@ -7,7 +7,7 @@ old-location: pla\itracedatacollector_eventslost.htm
 tech.root: PLA
 ms.assetid: f11cf095-405b-4129-aaad-d1558f01606e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EventsLost property [PLA], EventsLost property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],EventsLost property, ITraceDataCollector.EventsLost, ITraceDataCollector.get_EventsLost, ITraceDataCollector::EventsLost, ITraceDataCollector::get_EventsLost, base.itracedatacollector_eventslost, get_EventsLost, pla.itracedatacollector_eventslost, pla/ITraceDataCollector::EventsLost, pla/ITraceDataCollector::get_EventsLost
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icenroll4_acceptfilepkcs7.htm
 tech.root: seccrypto
 ms.assetid: dae9f6b8-6690-47cc-9397-168c1ff54c55
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CEnroll object [Security],acceptFilePKCS7 method, ICEnroll interface [Security],acceptFilePKCS7 method, ICEnroll.acceptFilePKCS7, ICEnroll2 interface [Security],acceptFilePKCS7 method, ICEnroll2::acceptFilePKCS7, ICEnroll3 interface [Security],acceptFilePKCS7 method, ICEnroll3::acceptFilePKCS7, ICEnroll4 interface [Security],acceptFilePKCS7 method, ICEnroll4::acceptFilePKCS7, ICEnroll::acceptFilePKCS7, acceptFilePKCS7, acceptFilePKCS7 method [Security], acceptFilePKCS7 method [Security],CEnroll object, acceptFilePKCS7 method [Security],ICEnroll interface, acceptFilePKCS7 method [Security],ICEnroll2 interface, acceptFilePKCS7 method [Security],ICEnroll3 interface, acceptFilePKCS7 method [Security],ICEnroll4 interface, security.icenroll4_acceptfilepkcs7, xenroll/ICEnroll2::acceptFilePKCS7, xenroll/ICEnroll3::acceptFilePKCS7, xenroll/ICEnroll4::acceptFilePKCS7, xenroll/ICEnroll::acceptFilePKCS7
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,21 +108,25 @@ The <b>acceptFilePKCS7</b> method differs from
 
 #### Examples
 
-
-```cpp
-HRESULT  hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT  hr;
 BSTR     bstrFileName;
 
 // Allocate a BSTR referencing an existing file, 
 // for example, "myPKCS7.fil".
-bstrFileName = SysAllocString(TEXT("<FILENAMEHERE>"));
+bstrFileName = SysAllocString(TEXT("&lt;FILENAMEHERE&gt;"));
 if (NULL == bstrFileName)
 {
     //handle error
 }
 
 // pEnroll is a previously instantiated ICEnroll interface pointer.
-hr = pEnroll->acceptFilePKCS7( bstrFileName );
+hr = pEnroll-&gt;acceptFilePKCS7( bstrFileName );
 if (FAILED(hr))
     printf("Failed acceptFilePKCS7 - %x\n", hr );
 else
@@ -131,10 +135,10 @@ else
 
 // Free BSTR when done.
 if (bstrFileName)
-    SysFreeString(bstrFileName);
-```
-
-
+    SysFreeString(bstrFileName);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

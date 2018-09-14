@@ -7,7 +7,7 @@ old-location: p2p\peergroupenumconnections.htm
 tech.root: p2psdk
 ms.assetid: 84a26066-3d6a-44c8-86a1-b3f997c17739
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerGroupEnumConnections, PeerGroupEnumConnections function [Peer Networking], p2p.peergroupenumconnections, p2p/PeerGroupEnumConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices

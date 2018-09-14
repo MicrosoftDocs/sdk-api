@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediacollection2.htm
 tech.root: WMP
 ms.assetid: 576e231e-542a-495c-ad1b-a246339c3cb1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPMediaCollection2, IWMPMediaCollection2 interface [Windows Media Player], IWMPMediaCollection2 interface [Windows Media Player],described, IWMPMediaCollection2Interface, wmp.iwmpmediacollection2, wmp/IWMPMediaCollection2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\stream_state.htm
 tech.root: DirectShow
 ms.assetid: 0be95819-0a42-4459-a891-194aacd26e2e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: STREAMSTATE_RUN, STREAMSTATE_STOP, STREAM_STATE, STREAM_STATE enumeration [DirectShow], __MIDL___MIDL_itf_mmstream_0000_0000_0002, dshow.stream_state, mmstream/STREAMSTATE_RUN, mmstream/STREAMSTATE_STOP, mmstream/STREAM_STATE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IPSEC_SA_CONTEXT1_
 author: windows-sdk-content
 description: Encapsulates an inbound and outbound security association (SA) pair.
 old-location: fwp\ipsec_sa_context1.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: a3e210a7-cd3a-42fc-b3a0-7df9ad6778af
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPSEC_SA_CONTEXT1, IPSEC_SA_CONTEXT1 structure [Filtering], IPSEC_SA_CONTEXT1_, fwp.ipsec_sa_context1, ipsectypes/IPSEC_SA_CONTEXT1
 ms.prod: windows
 ms.technology: windows-sdk

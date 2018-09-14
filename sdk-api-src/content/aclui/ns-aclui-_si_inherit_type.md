@@ -4,10 +4,10 @@ title: "_SI_INHERIT_TYPE"
 author: windows-sdk-content
 description: Contains information about how access control entries (ACEs) can be inherited by child objects.
 old-location: security\si_inherit_type.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: e8382c14-d3b4-4a7e-aeaa-06ef44d6ace2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*PSI_INHERIT_TYPE, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, OBJECT_INHERIT_ACE, PSI_INHERIT_TYPE, PSI_INHERIT_TYPE structure pointer [Security], SI_INHERIT_TYPE, SI_INHERIT_TYPE structure [Security], _SI_INHERIT_TYPE, _win32_si_inherit_type_str, aclui/PSI_INHERIT_TYPE, aclui/SI_INHERIT_TYPE, security.si_inherit_type"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,7 +122,7 @@ A pointer to a null-terminated <a href="https://msdn.microsoft.com/264f6cb6-36c6
 
 
 Alternatively, <b>pszName</b> can be a string resource identifier returned by the 
-<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. Use the 
+<a href="_win32_makeintresource_cpp">MAKEINTRESOURCE</a> macro. Use the 
 <a href="https://msdn.microsoft.com/2bc63aa0-dada-4962-a381-6b0f8332e564">ISecurityInformation::GetObjectInformation</a> method to identify the module that contains the string resource.
 
 

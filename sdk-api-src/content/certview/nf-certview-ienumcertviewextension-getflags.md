@@ -7,7 +7,7 @@ old-location: security\ienumcertviewextension_getflags.htm
 tech.root: seccrypto
 ms.assetid: c175eba9-ea7c-4018-876a-2db732cb57c4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetFlags, GetFlags method [Security], GetFlags method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],GetFlags method, IEnumCERTVIEWEXTENSION.GetFlags, IEnumCERTVIEWEXTENSION::GetFlags, _certsrv_ienumcertviewextension_getflags, certview/IEnumCERTVIEWEXTENSION::GetFlags, security.ienumcertviewextension_getflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ A pointer to a <b>LONG</b> type that contains the policy and origin flags of the
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value represents the policy and origin values of the extension.
@@ -140,7 +140,7 @@ One of the following origin flags can also be returned.
 <tr>
 <td>EXTENSION_ORIGIN_IMPORTEDCERT</td>
 <td>The extension was extracted from an imported certificate (the certificate was passed to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383245(v=VS.85).aspx">ICertAdmin::ImportCertificate</a>).</td>
+<a href="https://msdn.microsoft.com/b79a726e-5823-468b-869d-382e6fd73b44">ICertAdmin::ImportCertificate</a>).</td>
 </tr>
 <tr>
 <td>EXTENSION_ORIGIN_PKCS7</td>
@@ -171,35 +171,39 @@ If the extension-enumeration sequence is not referencing a valid extension, <b>G
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386225(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Reset</a>: Moves to the next extension in the enumeration sequence.</li>
+<a href="https://msdn.microsoft.com/7af29b1f-5b43-4ab7-81fa-d03e065f014f">IEnumCERTVIEWEXTENSION::Reset</a>: Moves to the next extension in the enumeration sequence.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386220(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Next</a>: Moves to the next extension in the enumeration sequence.</li>
+<a href="https://msdn.microsoft.com/658daf9d-0f61-4c93-9688-a7c74464ca89">IEnumCERTVIEWEXTENSION::Next</a>: Moves to the next extension in the enumeration sequence.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386227(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Skip</a>: Skips a specified number of extensions.</li>
+<a href="https://msdn.microsoft.com/b354cf0e-2f15-42a5-8e84-4db9bc4e6a8d">IEnumCERTVIEWEXTENSION::Skip</a>: Skips a specified number of extensions.</li>
 </ul>
 
 #### Examples
 
-
-```cpp
-HRESULT  hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT  hr;
 LONG     ExtFlags;
 
 // pEnumExt is previously instantiated IEnumCERTVIEWEXTENSION object
-hr = pEnumExt->GetFlags(&ExtFlags);
+hr = pEnumExt-&gt;GetFlags(&amp;ExtFlags);
 if (S_OK != hr)
     printf("Failed GetFlags - %x\n", hr);
 else
 {
     LONG ExtPol, ExtOrig;
 
-    ExtPol = ExtFlags & EXTENSION_POLICY_MASK;
-    if (ExtPol & EXTENSION_CRITICAL_FLAG)
+    ExtPol = ExtFlags &amp; EXTENSION_POLICY_MASK;
+    if (ExtPol &amp; EXTENSION_CRITICAL_FLAG)
         printf("The extension is critical\n");
-    if (ExtPol & EXTENSION_DISABLE_FLAG )
+    if (ExtPol &amp; EXTENSION_DISABLE_FLAG )
         printf("The extension is disabled\n");
 
-    ExtOrig = ExtFlags & EXTENSION_ORIGIN_MASK;
+    ExtOrig = ExtFlags &amp; EXTENSION_ORIGIN_MASK;
     switch (ExtOrig)
     {
         case EXTENSION_ORIGIN_REQUEST:
@@ -228,10 +232,10 @@ else
             printf("Unknown extension origin\n");
             break;
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -240,19 +244,19 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386203(v=VS.85).aspx">IEnumCERTVIEWEXTENSION</a>
+<a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f-aa9e-97ba052b1b34">IEnumCERTVIEWEXTENSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386211(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::GetName</a>
+<a href="https://msdn.microsoft.com/7c56708c-ae25-46f5-94f3-d58eea8d08d4">IEnumCERTVIEWEXTENSION::GetName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386216(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::GetValue</a>
+<a href="https://msdn.microsoft.com/7a81b096-36ba-416a-ad15-5bf1c4d512dd">IEnumCERTVIEWEXTENSION::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386220(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Next</a>
+<a href="https://msdn.microsoft.com/658daf9d-0f61-4c93-9688-a7c74464ca89">IEnumCERTVIEWEXTENSION::Next</a>
  
 
  

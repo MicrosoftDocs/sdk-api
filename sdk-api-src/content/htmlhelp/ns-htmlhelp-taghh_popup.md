@@ -7,7 +7,7 @@ old-location: htmlhelp\hh_popup_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhpopup.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/30/2018
 ms.keywords: HH_POPUP, HH_POPUP structure [HTML Help Workshop], htmlhelp.hh_popup_structure, htmlhelp/HH_POPUP, tagHH_POPUP, vsconStrhhpopup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ MS Sans Serif, 10, , BOLD
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms524235(v=VS.85).aspx">About Structures</a>
+<a href="https://msdn.microsoft.com/E75CA82E-9759-47d8-AF84-5842EDAB019D">About Structures</a>
  
 
  

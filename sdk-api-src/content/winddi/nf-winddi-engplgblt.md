@@ -7,7 +7,7 @@ old-location: display\engplgblt.htm
 tech.root: display
 ms.assetid: a25a0fcd-1a61-483a-ba22-1214a9806b70
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/13/2018
 ms.keywords: EngPlgBlt, EngPlgBlt function [Display Devices], display.engplgblt, gdifncs_e7b5fc87-c1d3-4513-a101-742cd358ed85.xml, winddi/EngPlgBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -196,12 +196,16 @@ The source rectangle at <i>prcl</i> is considered to be a geometric rectangle wh
 
 The upper-left corner of the source rectangle is mapped to the first point, A. The upper-right corner of the source rectangle is mapped to the second point, B. The lower-left corner of the source rectangle is mapped to the third point, C. The lower-right corner of the source rectangle is mapped to the implicit point in the parallelogram defined by treating the three given points as vectors and computing:
 
-
-```
-D = B + C - A
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>D = B + C - A</pre>
+</td>
+</tr>
+</table></span></div>
 Note that a stretch blit can be expressed exactly as a parallelogram blit, but the coordinates given for the destination will be divisible by five.
 
 

@@ -7,7 +7,7 @@ old-location: ad\adspropgetinitinfo.htm
 tech.root: ad
 ms.assetid: dcc4ea8f-6924-4e26-a675-ce326f35933c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: ADsPropGetInitInfo, ADsPropGetInitInfo function [Active Directory], ad.adspropgetinitinfo, adsprop/ADsPropGetInitInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,9 +90,13 @@ For multiple-selection property sheets, the system only binds to the first objec
 
 The following code example shows how to use the <b>ADsPropGetInitInfo</b> function.
 
-
-```cpp
-HRESULT GetADsPageInfo(HWND hwndNotifyObject, ADSPROPINITPARAMS *pip)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT GetADsPageInfo(HWND hwndNotifyObject, ADSPROPINITPARAMS *pip)
 {
     if((NULL == pip) || (!IsWindow(hwndNotifyObject)))
     {
@@ -102,7 +106,7 @@ HRESULT GetADsPageInfo(HWND hwndNotifyObject, ADSPROPINITPARAMS *pip)
     ADSPROPINITPARAMS   InitParams;
     
     InitParams.dwSize = sizeof(ADSPROPINITPARAMS);
-    if(ADsPropGetInitInfo(hwndNotifyObject, &InitParams))
+    if(ADsPropGetInitInfo(hwndNotifyObject, &amp;InitParams))
     {
         *pip = InitParams;
     
@@ -111,10 +115,10 @@ HRESULT GetADsPageInfo(HWND hwndNotifyObject, ADSPROPINITPARAMS *pip)
     
     return E_FAIL;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

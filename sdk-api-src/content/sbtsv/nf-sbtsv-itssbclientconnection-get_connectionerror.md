@@ -4,10 +4,10 @@ title: ITsSbClientConnection::get_ConnectionError
 author: windows-sdk-content
 description: Retrieves a value that indicates the error that occurred while a client connection was being processed.
 old-location: termserv\itssbclientconnection_connectionerror.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 0aa813c1-1ab5-4020-8180-c04d293efd25
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ConnectionError property [Remote Desktop Services], ConnectionError property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],ConnectionError property, ITsSbClientConnection.ConnectionError, ITsSbClientConnection.get_ConnectionError, ITsSbClientConnection::ConnectionError, ITsSbClientConnection::get_ConnectionError, get_ConnectionError, sbtsv/ITsSbClientConnection::ConnectionError, sbtsv/ITsSbClientConnection::get_ConnectionError, termserv.itssbclientconnection_connectionerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IEnumBitsPeers::Skip
 author: windows-sdk-content
 description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 old-location: bits\ienumbitspeers_skip.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 23a9b424-11a3-4cbf-a867-93026f0725cc
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Skip method, IEnumBitsPeers.Skip, IEnumBitsPeers::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_skip, bits3_0/IEnumBitsPeers::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,7 +108,7 @@ Skipped less than the number of requested elements.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964308(v=VS.85).aspx">IEnumBitsPeers</a>
+<a href="https://msdn.microsoft.com/2715a58c-ba76-4223-ad9e-453d029e0eda">IEnumBitsPeers</a>
  
 
  

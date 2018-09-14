@@ -4,10 +4,10 @@ title: ICertPropertyArchived::Initialize
 author: windows-sdk-content
 description: Initializes the object from a Boolean value that specifies whether the certificate has been archived.
 old-location: security\icertpropertyarchived_initialize_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 66efee4f-61af-447a-b668-81fbe2107b7f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICertPropertyArchived interface [Security],Initialize method, ICertPropertyArchived.Initialize, ICertPropertyArchived::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyArchived interface, certenroll/ICertPropertyArchived::Initialize, security.icertpropertyarchived_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ A <b>VARIANT_BOOL</b> variable that identifies whether the certificate has been 
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -98,7 +98,7 @@ The object is already initialized.
 
 
 
- Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375928(v=VS.85).aspx">SetValueOnCertificate</a> method to associate the property with a certificate. Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375246(v=VS.85).aspx">Archived</a> property to retrieve the Boolean value.
+ Call the <a href="https://msdn.microsoft.com/46c409c4-46bd-4349-8363-1983f4411bc2">SetValueOnCertificate</a> method to associate the property with a certificate. Call the <a href="https://msdn.microsoft.com/c4154d9e-5a37-4a6c-9fc3-5935d8c54dc4">Archived</a> property to retrieve the Boolean value.
 
 
 
@@ -108,11 +108,11 @@ The object is already initialized.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375240(v=VS.85).aspx">ICertPropertyArchived</a>
+<a href="https://msdn.microsoft.com/81219ad9-4717-40e5-9ecd-d3df980e23c6">ICertPropertyArchived</a>
  
 
  

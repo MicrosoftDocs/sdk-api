@@ -4,10 +4,10 @@ title: GetShortPathNameA function
 author: windows-sdk-content
 description: Retrieves the short path form of the specified path.
 old-location: fs\getshortpathname.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetShortPathName, GetShortPathName function [Files], GetShortPathNameA, GetShortPathNameW, _win32_getshortpathname, base.getshortpathname, fileapi/GetShortPathName, fileapi/GetShortPathNameA, fileapi/GetShortPathNameW, fs.getshortpathname, winbase/GetShortPathName, winbase/GetShortPathNameA, winbase/GetShortPathNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -156,7 +156,7 @@ It is possible to have access to a file or directory but not have access to some
     may fail when it is unable to query the parent directory of a path component  to determine the short name for that 
     component. This check can be skipped for directory components that already meet the requirements of a short name. 
     For more information, see the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365247(v=VS.85).aspx">Short vs. Long Names</a> section of 
+    <a href="naming_a_file.htm">Short vs. Long Names</a> section of 
     <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -232,9 +232,13 @@ For an example that uses <b>GetShortPathName</b>, see
 <div class="code"></div>
 The following C++ example shows how to use a dynamically allocated output buffer.
 
-
-```cpp
-//...
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//...
     long     length = 0;
     TCHAR*   buffer = NULL;
 
@@ -257,10 +261,10 @@ The following C++ example shows how to use a dynamically allocated output buffer
     
     delete [] buffer;
 ///...
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

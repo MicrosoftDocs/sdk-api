@@ -4,10 +4,10 @@ title: "_MI_QualifierSet"
 author: windows-sdk-content
 description: Allows the developer to view the qualifiers of a class definition.
 old-location: wmi_v2\mi_qualifierset.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 6c374d19-c433-4c70-a644-e53a401f96dd
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_QualifierSet, MI_QualifierSet structure [Windows Management Infrastructure (MI)], _MI_QualifierSet, mi/MI_QualifierSet, wmi_v2.mi_qualifierset
 ms.prod: windows
 ms.technology: windows-sdk

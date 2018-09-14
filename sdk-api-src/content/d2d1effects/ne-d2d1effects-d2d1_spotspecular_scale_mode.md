@@ -4,10 +4,10 @@ title: D2D1_SPOTSPECULAR_SCALE_MODE
 author: windows-sdk-content
 description: The interpolation mode the Spot-specular lighting effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
 old-location: direct2d\d2d1_spotspecular_scale_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6E99B62F-CDEE-4612-824E-94FE232490DF
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D2D1_SPOTSPECULAR_SCALE_MODE, D2D1_SPOTSPECULAR_SCALE_MODE enumeration [Direct2D], D2D1_SPOTSPECULAR_SCALE_MODE_ANISOTROPIC, D2D1_SPOTSPECULAR_SCALE_MODE_CUBIC, D2D1_SPOTSPECULAR_SCALE_MODE_HIGH_QUALITY_CUBIC, D2D1_SPOTSPECULAR_SCALE_MODE_LINEAR, D2D1_SPOTSPECULAR_SCALE_MODE_MULTI_SAMPLE_LINEAR, D2D1_SPOTSPECULAR_SCALE_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_SPOTSPECULAR_SCALE_MODE, d2d1effects/D2D1_SPOTSPECULAR_SCALE_MODE_ANISOTROPIC, d2d1effects/D2D1_SPOTSPECULAR_SCALE_MODE_CUBIC, d2d1effects/D2D1_SPOTSPECULAR_SCALE_MODE_HIGH_QUALITY_CUBIC, d2d1effects/D2D1_SPOTSPECULAR_SCALE_MODE_LINEAR, d2d1effects/D2D1_SPOTSPECULAR_SCALE_MODE_MULTI_SAMPLE_LINEAR, d2d1effects/D2D1_SPOTSPECULAR_SCALE_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_spotspecular_scale_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/en-us/library/Hh706371(v=VS.85).aspx">Spot-specular lighting effect</a> uses to scale the image 
+The interpolation mode the <a href="https://msdn.microsoft.com/B6E24036-1548-4B9E-A8FE-8B87D4DBF97A">Spot-specular lighting effect</a> uses to scale the image 
         to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
 
 

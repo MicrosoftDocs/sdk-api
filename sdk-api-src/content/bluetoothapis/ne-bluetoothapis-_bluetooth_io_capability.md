@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_io_capability.htm
 tech.root: bluetooth
 ms.assetid: f1cd4fc9-5206-4f38-a2b9-621ca4c6ab86
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: BLUETOOTH_IO_CAPABILITY, BLUETOOTH_IO_CAPABILITY enumeration [Bluetooth], BLUETOOTH_IO_CAPABILITY_DISPLAYONLY, BLUETOOTH_IO_CAPABILITY_DISPLAYYESNO, BLUETOOTH_IO_CAPABILITY_KEYBOARDONLY, BLUETOOTH_IO_CAPABILITY_NOINPUTNOOUTPUT, BLUETOOTH_IO_CAPABILITY_UNDEFINED, _BLUETOOTH_IO_CAPABILITY, bluetooth.bluetooth_io_capability, bluetoothapis/BLUETOOTH_IO_CAPABILITY, bluetoothapis/BLUETOOTH_IO_CAPABILITY_DISPLAYONLY, bluetoothapis/BLUETOOTH_IO_CAPABILITY_DISPLAYYESNO, bluetoothapis/BLUETOOTH_IO_CAPABILITY_KEYBOARDONLY, bluetoothapis/BLUETOOTH_IO_CAPABILITY_NOINPUTNOOUTPUT, bluetoothapis/BLUETOOTH_IO_CAPABILITY_UNDEFINED
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ The input/output capabilities for the Bluetooth device are undefined.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd392287(v=VS.85).aspx">BLUETOOTH_AUTHENTICATE_RESPONSE</a>
+<a href="https://msdn.microsoft.com/fc7eda84-3e7b-49e9-a1a6-e1759c894e1a">BLUETOOTH_AUTHENTICATE_RESPONSE</a>
  
 
  

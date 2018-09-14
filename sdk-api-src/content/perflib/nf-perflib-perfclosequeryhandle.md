@@ -4,10 +4,10 @@ title: PerfCloseQueryHandle function
 author: windows-sdk-content
 description: Closes a query handle that you opened by calling PerfOpenQueryHandle.
 old-location: perf\perfclosequeryhandle.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: 94D08CF1-D47C-4A1B-A0CE-8C318CDF9FE0
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 08/29/2018
 ms.keywords: PerfCloseQueryHandle, PerfCloseQueryHandle function [Perf], perf.perfclosequeryhandle, perflib/PerfCloseQueryHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

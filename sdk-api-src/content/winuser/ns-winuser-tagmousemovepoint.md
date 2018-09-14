@@ -7,7 +7,7 @@ old-location: inputdev\mousemovepoint.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputstructures\mousemovepoint.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPMOUSEMOVEPOINT, *PMOUSEMOVEPOINT, MOUSEMOVEPOINT, MOUSEMOVEPOINT structure [Keyboard and Mouse Input], PMOUSEMOVEPOINT, PMOUSEMOVEPOINT structure pointer [Keyboard and Mouse Input], _win32_MOUSEMOVEPOINT_str, _win32_mousemovepoint_str_cpp, inputdev.mousemovepoint, tagMOUSEMOVEPOINT, winui._win32_mousemovepoint_str, winuser/MOUSEMOVEPOINT, winuser/PMOUSEMOVEPOINT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,11 +95,11 @@ Additional information associated with this coordinate.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646259(v=VS.85).aspx">GetMouseMovePointsEx</a>
+<a href="https://msdn.microsoft.com/d293ebbf-0a0b-46f6-85be-5c841a2f29fa">GetMouseMovePointsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 

@@ -4,10 +4,10 @@ title: INetFwIcmpSettings::put_AllowOutboundParameterProblem
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundparameterproblem.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 496374e7-9f89-43e3-bb59-184ba4c611be
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AllowOutboundParameterProblem property [ICS/ICF], AllowOutboundParameterProblem property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundParameterProblem property, INetFwIcmpSettings.AllowOutboundParameterProblem, INetFwIcmpSettings.put_AllowOutboundParameterProblem, INetFwIcmpSettings::AllowOutboundParameterProblem, INetFwIcmpSettings::get_AllowOutboundParameterProblem, INetFwIcmpSettings::put_AllowOutboundParameterProblem, ics.inetfwicmpsettings_allowoutboundparameterproblem, netfw/INetFwIcmpSettings::AllowOutboundParameterProblem, netfw/INetFwIcmpSettings::get_AllowOutboundParameterProblem, netfw/INetFwIcmpSettings::put_AllowOutboundParameterProblem, put_AllowOutboundParameterProblem
 ms.prod: windows-hardware
 ms.technology: windows-devices

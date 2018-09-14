@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSourceEvent::RatingsUnblocked
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_ratingsunblocked.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: a255df5b-f7fe-4f99-9d29-59e30b922975
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],RatingsUnblocked method, IMSVidStreamBufferSourceEvent.RatingsUnblocked, IMSVidStreamBufferSourceEvent::RatingsUnblocked, IMSVidStreamBufferSourceEventRatingsUnblocked, RatingsUnblocked, RatingsUnblocked method [Microsoft TV Technologies], RatingsUnblocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_ratingsunblocked, segment/IMSVidStreamBufferSourceEvent::RatingsUnblocked
 ms.prod: windows-hardware
 ms.technology: windows-devices

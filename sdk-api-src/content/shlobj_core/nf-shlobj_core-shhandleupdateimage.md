@@ -7,7 +7,7 @@ old-location: shell\SHHandleUpdateImage.htm
 tech.root: shell
 ms.assetid: 9d43e28a-bce0-4da4-98c9-5a6a199b4d8e
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: SHHandleUpdateImage, SHHandleUpdateImage function [Windows Shell], _win32_SHHandleUpdateImage, shell.SHHandleUpdateImage, shlobj_core/SHHandleUpdateImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,9 +90,13 @@ Use <b>SHHandleUpdateImage</b> only when the <i>pidl2</i> parameter received by 
 
 The following example demonstrates the use of <b>SHHandleUpdateImage</b> in the implementation of <a href="https://msdn.microsoft.com/27ef6a2e-e463-4ba7-922f-20bf8e118d3a">IShellChangeNotify::OnChange</a>.
 
-
-```cpp
-STDMETHODIMP CMyShellChangeNotify::OnChange(LONG lEvent, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyShellChangeNotify::OnChange(LONG lEvent, 
                                             LPCITEMIDLIST pidl1, 
                                             LPCITEMIDLIST pidl2)
 {
@@ -120,10 +124,10 @@ STDMETHODIMP CMyShellChangeNotify::OnChange(LONG lEvent,
         // Other cases
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

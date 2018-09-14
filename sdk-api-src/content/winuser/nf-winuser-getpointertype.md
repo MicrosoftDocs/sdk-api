@@ -7,7 +7,7 @@ old-location: inputmsg\getpointertype.htm
 tech.root: InputMsg
 ms.assetid: 63bfc340-9691-463c-96ca-0a5b80b8fe40
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPointerType, GetPointerType function [Input Messages and Notifications], inputmsg.getpointertype, winuser/GetPointerType
 ms.prod: windows-hardware
 ms.technology: windows-devices

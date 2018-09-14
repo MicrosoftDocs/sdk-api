@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_SetDashCap_dashCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setdashcap.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Pen class [GDI+],SetDashCap method, Pen.SetDashCap, Pen::SetDashCap, SetDashCap, SetDashCap method [GDI+], SetDashCap method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashCap_dashCap_, gdiplus._gdiplus_CLASS_Pen_SetDashCap_dashCap_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Pen::SetDashCap</b> method sets the dash cap style for this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
+			<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object.
 
 
 ## -parameters
@@ -62,25 +62,25 @@ The <b>Pen::SetDashCap</b> method sets the dash cap style for this
 
 ### -param dashCap [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534102(v=VS.85).aspx">DashCap</a></b>
+Type: <b><a href="https://msdn.microsoft.com/8e96f7c2-237e-4172-8e3c-62d47627b430">DashCap</a></b>
 
 Element of the 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534102(v=VS.85).aspx">DashCap</a> enumeration that specifies the dash cap for this 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object. 
+					<a href="https://msdn.microsoft.com/8e96f7c2-237e-4172-8e3c-62d47627b430">DashCap</a> enumeration that specifies the dash cap for this 
+					<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -90,7 +90,7 @@ If the method fails, it returns one of the other elements of the
 
 
 If you set the alignment of a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object to <b>PenAlignmentInset</b>, you cannot use that pen to draw triangular dash caps.
+				<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object to <b>PenAlignmentInset</b>, you cannot use that pen to draw triangular dash caps.
 
 
 #### Examples
@@ -98,11 +98,15 @@ If you set the alignment of a
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the dash style and the dash cap, and draws a dashed line.
+						<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object, sets the dash style and the dash cap, and draws a dashed line.
 
-
-```cpp
-VOID Example_SetCustomStartCap(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_SetCustomStartCap(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -116,11 +120,11 @@ VOID Example_SetCustomStartCap(HDC hdc)
    pen.SetDashCap(DashCapTriangle);
 
    // Draw a line using the pen.
-   graphics.DrawLine(&pen, 20, 20, 200, 100);
-}
-```
-
-
+   graphics.DrawLine(&amp;pen, 20, 20, 200, 100);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -129,31 +133,31 @@ VOID Example_SetCustomStartCap(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533850(v=VS.85).aspx">Drawing a Custom Dashed Line</a>
+<a href="https://msdn.microsoft.com/0e75de3b-1006-4c8f-875c-eeb0782f24b0">Drawing a Custom Dashed Line</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533852(v=VS.85).aspx">Drawing a Line with Line Caps</a>
+<a href="https://msdn.microsoft.com/c9d90114-3913-486c-a808-b08dd473d9a1">Drawing a Line with Line Caps</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535022(v=VS.85).aspx">Pen::GetCustomEndCap</a>
+<a href="https://msdn.microsoft.com/fcc0c624-d60a-4c77-b7d0-3921f0b49471">Pen::GetCustomEndCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535023(v=VS.85).aspx">Pen::GetCustomStartCap</a>
+<a href="https://msdn.microsoft.com/39a64e5c-d82b-4b0e-b851-db42996047a0">Pen::GetCustomStartCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535024(v=VS.85).aspx">Pen::GetDashCap</a>
+<a href="https://msdn.microsoft.com/1a14f07a-77bf-4151-8f6f-133bea071fa1">Pen::GetDashCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
  
 
  

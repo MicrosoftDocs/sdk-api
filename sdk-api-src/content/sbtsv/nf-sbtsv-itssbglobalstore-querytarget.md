@@ -4,10 +4,10 @@ title: ITsSbGlobalStore::QueryTarget
 author: windows-sdk-content
 description: Retrieves the ITsSbTarget object for the given parameters.
 old-location: termserv\itssbglobalstore_querytarget.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: e89ed692-66e5-49ed-b5d9-69eefeeae66f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITsSbGlobalStore interface [Remote Desktop Services],QueryTarget method, ITsSbGlobalStore.QueryTarget, ITsSbGlobalStore::QueryTarget, QueryTarget, QueryTarget method [Remote Desktop Services], QueryTarget method [Remote Desktop Services],ITsSbGlobalStore interface, sbtsv/ITsSbGlobalStore::QueryTarget, termserv.itssbglobalstore_querytarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

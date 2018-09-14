@@ -4,10 +4,10 @@ title: "_USBUSER_PASS_THRU_REQUEST"
 author: windows-sdk-content
 description: The USBUSER_PASS_THRU_REQUEST structure is used in conjunction with the IOCTL_USB_USER_REQUEST I/O control request to send a vendor-specific command to the host controller miniport driver.
 old-location: buses\usbuser_pass_thru_request.htm
-tech.root: usbref
+tech.root: UsbRef
 ms.assetid: 4b04ded7-6641-4390-a5e5-e26603efc757
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*PUSBUSER_PASS_THRU_REQUEST, PUSBUSER_PASS_THRU_REQUEST, PUSBUSER_PASS_THRU_REQUEST structure pointer [Buses], USBUSER_PASS_THRU_REQUEST, USBUSER_PASS_THRU_REQUEST structure [Buses], _USBUSER_PASS_THRU_REQUEST, buses.usbuser_pass_thru_request, usbstrct_81650bb7-7b9f-4dc4-af2e-c2a727e7cb4c.xml, usbuser/PUSBUSER_PASS_THRU_REQUEST, usbuser/USBUSER_PASS_THRU_REQUEST"
 ms.prod: windows
 ms.technology: windows-sdk

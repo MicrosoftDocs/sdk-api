@@ -7,7 +7,7 @@ old-location: adsi\idirectorysearch_getnextrow.htm
 tech.root: ADSI
 ms.assetid: 9fb0b765-0162-418d-b0cd-7e9b1b53e1b9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetNextRow, GetNextRow method [ADSI], GetNextRow method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetNextRow method, IDirectorySearch.GetNextRow, IDirectorySearch::GetNextRow, _ds_idirectorysearch_getnextrow, adsi.idirectorysearch__getnextrow, adsi.idirectorysearch_getnextrow, iads/IDirectorySearch::GetNextRow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,12 +94,16 @@ The directory provider may limit the maximum number of rows available in a searc
 
 #### Examples
 
-
-```cpp
-hr = m_pSearch->ExecuteSearch(L"(objectCategory=contact)", pszAttr, dwCount, &hSearch);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>hr = m_pSearch-&gt;ExecuteSearch(L"(objectCategory=contact)", pszAttr, dwCount, &amp;hSearch);
 if(SUCCEEDED(hr))
 {
-    while(SUCCEEDED(hr = m_pSearch->GetNextRow(hSearch)))
+    while(SUCCEEDED(hr = m_pSearch-&gt;GetNextRow(hSearch)))
     {
         if(S_OK == hr)
         {
@@ -112,7 +116,7 @@ if(SUCCEEDED(hr))
             WCHAR szError[512];
             WCHAR szProvider[512];
 
-            ADsGetLastError(&dwError, szError, 512, szProvider, 512);
+            ADsGetLastError(&amp;dwError, szError, 512, szProvider, 512);
             if(ERROR_MORE_DATA != dwError)
             {
                 break;
@@ -124,12 +128,12 @@ if(SUCCEEDED(hr))
         }
     }
     
-    m_pSearch->CloseSearchHandle(hSearch);
+    m_pSearch-&gt;CloseSearchHandle(hSearch);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

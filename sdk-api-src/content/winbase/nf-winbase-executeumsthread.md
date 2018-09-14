@@ -7,7 +7,7 @@ old-location: base\executeumsthread.htm
 tech.root: procthread
 ms.assetid: e4265351-e8e9-4878-bd42-93258b4cd1a0
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/13/2018
 ms.keywords: ExecuteUmsThread, ExecuteUmsThread function, base.executeumsthread, winbase/ExecuteUmsThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

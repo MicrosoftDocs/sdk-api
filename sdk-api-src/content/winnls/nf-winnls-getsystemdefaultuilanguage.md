@@ -7,7 +7,7 @@ old-location: intl\getsystemdefaultuilanguage.htm
 tech.root: Intl
 ms.assetid: 34fc125d-0f0b-43d0-aa2b-91501bd6cd26
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/30/2018
 ms.keywords: GetSystemDefaultUILanguage, GetSystemDefaultUILanguage function [Internationalization for Windows Applications], _win32_GetSystemDefaultUILanguage, intl.getsystemdefaultuilanguage, winnls/GetSystemDefaultUILanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,14 +84,18 @@ This function never returns a language identifier for a Language Interface Pack 
 Note that this function does not necessarily return the identifier for the first language in the system preferred UI languages list. Therefore the return might not match the first element retrieved by <a href="https://msdn.microsoft.com/2948b495-c400-4227-94fb-7c4f5171ecae">GetSystemPreferredUILanguages</a>.
 
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-
-```cpp
-[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.UInt16 GetSystemDefaultUILanguage();
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

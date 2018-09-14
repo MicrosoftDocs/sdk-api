@@ -4,10 +4,10 @@ title: ITAddress::EnumerateCalls
 author: windows-sdk-content
 description: The EnumerateCalls method enumerates calls on the current address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Calls method.
 old-location: tapi3\itaddress_enumeratecalls.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 2ffa90bf-3005-4fd0-b52f-b155c8b2194f
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: EnumerateCalls, EnumerateCalls method [TAPI 2.2], EnumerateCalls method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],EnumerateCalls method, ITAddress.EnumerateCalls, ITAddress::EnumerateCalls, _tapi3_itaddress_enumeratecalls, tapi3.itaddress_enumeratecalls, tapi3if/ITAddress::EnumerateCalls
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: adsi\iadsobjectoptions_setoption.htm
 tech.root: ADSI
 ms.assetid: e6e43c99-fc8b-4f34-82cf-8cf30c506859
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsObjectOptions interface [ADSI],SetOption method, IADsObjectOptions.SetOption, IADsObjectOptions::SetOption, SetOption, SetOption method [ADSI], SetOption method [ADSI],IADsObjectOptions interface, _ds_iadsobjectoptions_setoption, adsi.iadsobjectoptions__setoption, adsi.iadsobjectoptions_setoption, iads/IADsObjectOptions::SetOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

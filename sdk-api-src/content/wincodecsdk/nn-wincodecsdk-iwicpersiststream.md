@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpersiststream.htm
 tech.root: wic
 ms.assetid: 9381cc2c-9554-4071-b9b5-3464d857c02d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWICPersistStream, IWICPersistStream interface [Windows Imaging Component], IWICPersistStream interface [Windows Imaging Component],described, _wic_codec_iwicpersiststream, wic._wic_codec_iwicpersiststream, wincodecsdk/IWICPersistStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Exposes methods that provide additional load and save methods that take <a href=
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPersistStream</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx">IPersistStream</a>. <b>IWICPersistStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPersistStream</b> interface inherits from <a href="d47b175c-7054-42af-ae1a-9a350ead867c">IPersistStream</a>. <b>IWICPersistStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

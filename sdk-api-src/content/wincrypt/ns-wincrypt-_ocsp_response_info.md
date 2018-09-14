@@ -7,7 +7,7 @@ old-location: security\ocsp_response_info.htm
 tech.root: seccrypto
 ms.assetid: e3829739-dd10-4886-8048-cd1b1b712d56
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*POCSP_RESPONSE_INFO, OCSP_INTERNAL_ERROR_RESPONSE, OCSP_MALFORMED_REQUEST_RESPONSE, OCSP_RESPONSE_INFO, OCSP_RESPONSE_INFO structure [Security], OCSP_SIG_REQUIRED_RESPONSE, OCSP_SUCCESSFUL_RESPONSE, OCSP_TRY_LATER_RESPONSE, OCSP_UNAUTHORIZED_RESPONSE, POCSP_RESPONSE_INFO, POCSP_RESPONSE_INFO structure pointer [Security], _OCSP_RESPONSE_INFO, security.ocsp_response_info, szOID_PKIX_OCSP_BASIC_SIGNED_RESPONSE, wincrypt/OCSP_RESPONSE_INFO, wincrypt/POCSP_RESPONSE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

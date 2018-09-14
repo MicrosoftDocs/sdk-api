@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceex_getstreamattributes.htm
 tech.root: medfound
 ms.assetid: 360B64E6-4936-4E40-A0EB-7E9EBAF1203E
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: GetStreamAttributes, GetStreamAttributes method [Media Foundation], GetStreamAttributes method [Media Foundation],IMFMediaSourceEx interface, IMFMediaSourceEx interface [Media Foundation],GetStreamAttributes method, IMFMediaSourceEx.GetStreamAttributes, IMFMediaSourceEx::GetStreamAttributes, mf.imfmediasourceex_getstreamattributes, mfidl/IMFMediaSourceEx::GetStreamAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

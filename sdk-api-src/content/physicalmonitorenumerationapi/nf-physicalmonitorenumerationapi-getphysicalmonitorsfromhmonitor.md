@@ -7,7 +7,7 @@ old-location: monitor\getphysicalmonitorsfromhmonitor.htm
 tech.root: Monitor
 ms.assetid: f2ac8a6a-3be9-4155-ad13-c256b96da792
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetPhysicalMonitorsFromHMONITOR, GetPhysicalMonitorsFromHMONITOR function [Monitor Configuration], monitor.getphysicalmonitorsfromhmonitor, physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,9 +99,13 @@ When you are done using the monitor handles, close them by passing the <i>pPhysi
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HMONITOR hMonitor = NULL;
 DWORD cPhysicalMonitors;
 LPPHYSICAL_MONITOR pPhysicalMonitors = NULL;
@@ -112,7 +116,7 @@ hMonitor = MonitorFromWindow(hWnd, MONITOR_DEFAULTTOPRIMARY);
 // Get the number of physical monitors.
 BOOL bSuccess = GetNumberOfPhysicalMonitorsFromHMONITOR(
   hMonitor, 
-  &cPhysicalMonitors
+  &amp;cPhysicalMonitors
    );
 
 if (bSuccess)
@@ -137,10 +141,10 @@ if (bSuccess)
         // Free the array.
         free(pPhysicalMonitors);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

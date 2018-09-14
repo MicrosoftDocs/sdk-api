@@ -4,10 +4,10 @@ title: MI_Context_GetStringOption function
 author: windows-sdk-content
 description: Gets the string option that the client sets, based on the operation name.
 old-location: wmi_v2\mi_context_getstringoption.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: ef6fa103-7421-4c66-902d-c5a731abaa54
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Context_GetStringOption, MI_Context_GetStringOption function [Windows Management Infrastructure (MI)], mi/MI_Context_GetStringOption, wmi.mi_getstringoption, wmi_v2.mi_context_getstringoption
 ms.prod: windows-hardware
 ms.technology: windows-devices

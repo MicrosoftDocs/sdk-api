@@ -4,10 +4,10 @@ title: DeleteSecurityContext function
 author: windows-sdk-content
 description: Deletes the local data structures associated with the specified security context initiated by a previous call to the InitializeSecurityContext (General) function or the AcceptSecurityContext (General) function.
 old-location: security\deletesecuritycontext.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 2a4dd697-ef90-4c37-ab74-0e5ab92794cd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: DeleteSecurityContext, DeleteSecurityContext function [Security], _ssp_deletesecuritycontext, security.deletesecuritycontext, sspi/DeleteSecurityContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,7 +117,7 @@ The caller must call this function for a security context when that security con
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

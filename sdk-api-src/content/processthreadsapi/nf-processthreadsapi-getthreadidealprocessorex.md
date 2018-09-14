@@ -7,7 +7,7 @@ old-location: base\getthreadidealprocessorex.htm
 tech.root: procthread
 ms.assetid: 4fbe1b85-352f-4576-9056-5ba1b0b85874
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/13/2018
 ms.keywords: GetThreadIdealProcessorEx, GetThreadIdealProcessorEx function, base.getthreadidealprocessorex, processthreadsapi/GetThreadIdealProcessorEx, winbase/GetThreadIdealProcessorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

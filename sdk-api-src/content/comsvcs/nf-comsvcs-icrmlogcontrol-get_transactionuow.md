@@ -7,7 +7,7 @@ old-location: cos\icrmlogcontrol_get_transactionuow.htm
 tech.root: cossdk
 ms.assetid: 35cfadf5-f1be-4383-bb34-f68543df0abb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICrmLogControl interface [COM+],get_TransactionUOW method, ICrmLogControl.get_TransactionUOW, ICrmLogControl::get_TransactionUOW, _dtc_ICrmLogControl_TransactionUOW, comsvcs/ICrmLogControl::get_TransactionUOW, cos.icrmlogcontrol_get_transactionuow, get_TransactionUOW, get_TransactionUOW method [COM+], get_TransactionUOW method [COM+],ICrmLogControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,7 +103,7 @@ A <b>NULL</b> pointer was provided as an argument.
 </dl>
 </td>
 <td width="60%">
-This method was called in the wrong state; either before <a href="https://msdn.microsoft.com/en-us/library/ms688384(v=VS.85).aspx">RegisterCompensator</a> or when the transaction is completing (CRM Worker).
+This method was called in the wrong state; either before <a href="https://msdn.microsoft.com/f7907dff-a4a1-4526-8dab-547e819199ec">RegisterCompensator</a> or when the transaction is completing (CRM Worker).
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ An out of memory error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679573(v=VS.85).aspx">ICrmLogControl</a>
+<a href="https://msdn.microsoft.com/3309ed58-8161-46f3-93bc-afc0c9bc8d50">ICrmLogControl</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationprimarycontent_setsnappoints
 tech.root: directmanipulation
 ms.assetid: 3257952d-903b-455c-9422-9739411a5924
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapPoints method, IDirectManipulationPrimaryContent.SetSnapPoints, IDirectManipulationPrimaryContent::SetSnapPoints, SetSnapPoints, SetSnapPoints method [Direct Manipulation], SetSnapPoints method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnappoints, directmanipulation/IDirectManipulationPrimaryContent::SetSnapPoints
 ms.prod: windows-hardware
 ms.technology: windows-devices

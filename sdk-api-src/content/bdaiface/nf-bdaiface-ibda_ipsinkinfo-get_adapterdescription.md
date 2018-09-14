@@ -4,10 +4,10 @@ title: IBDA_IPSinkInfo::get_AdapterDescription
 author: windows-sdk-content
 description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
 old-location: mstv\ibda_ipsinkinfo_get_adapterdescription.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 68b41304-2043-4cbf-8872-7f3d9f3b7a83
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_IPSinkInfo interface [Microsoft TV Technologies],get_AdapterDescription method, IBDA_IPSinkInfo.get_AdapterDescription, IBDA_IPSinkInfo::get_AdapterDescription, IBDA_IPSinkInfoget_AdapterDescription, bdaiface/IBDA_IPSinkInfo::get_AdapterDescription, get_AdapterDescription, get_AdapterDescription method [Microsoft TV Technologies], get_AdapterDescription method [Microsoft TV Technologies],IBDA_IPSinkInfo interface, mstv.ibda_ipsinkinfo_get_adapterdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,11 +92,11 @@ The caller must free the returned string, using the <b>SysFreeString</b> method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693378(v=VS.85).aspx">IBDA_IPSinkInfo Interface</a>
+<a href="https://msdn.microsoft.com/fbbe12ea-964a-4a83-ac0a-ac8808bd9a63">IBDA_IPSinkInfo Interface</a>
  
 
  

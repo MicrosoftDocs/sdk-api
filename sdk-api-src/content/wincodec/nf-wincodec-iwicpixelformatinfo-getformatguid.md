@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpixelformatinfo_getformatguid.htm
 tech.root: wic
 ms.assetid: 184ad8e5-51f2-47eb-b3c4-010626fa7c34
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetFormatGUID, GetFormatGUID method [Windows Imaging Component], GetFormatGUID method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetFormatGUID method, IWICPixelFormatInfo.GetFormatGUID, IWICPixelFormatInfo::GetFormatGUID, _wic_codec_iwicpixelformatinfo_getformatguid, wic._wic_codec_iwicpixelformatinfo_getformatguid, wincodec/IWICPixelFormatInfo::GetFormatGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices

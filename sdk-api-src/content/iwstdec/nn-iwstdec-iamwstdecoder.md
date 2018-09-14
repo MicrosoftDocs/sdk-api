@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder.htm
 tech.root: DirectShow
 ms.assetid: f2f5a459-14de-4be1-909c-3c23e4cfd737
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], IAMWstDecoder interface [DirectShow],described, IAMWstDecoderInterface, dshow.iamwstdecoder, iwstdec/IAMWstDecoder
 ms.prod: windows
 ms.technology: windows-sdk

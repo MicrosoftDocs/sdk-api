@@ -4,10 +4,10 @@ title: WinHttpSetDefaultProxyConfiguration function
 author: windows-sdk-content
 description: Sets the default WinHTTP proxy configuration in the registry.
 old-location: http\winhttpsetdefaultproxyconfiguration.htm
-tech.root: WinHttp
+tech.root: winhttp
 ms.assetid: df95703b-8fa0-4ea4-b9e6-7f19aa8c1941
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/11/2018
 ms.keywords: WinHttpSetDefaultProxyConfiguration, WinHttpSetDefaultProxyConfiguration function [WinHTTP], http.winhttpsetdefaultproxyconfiguration, winhttp.winhttpsetdefaultproxyconfiguration_function, winhttp/WinHttpSetDefaultProxyConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,7 +113,7 @@ Not enough memory was available to complete the requested operation. (Windows er
 
 The default proxy configuration set by this function can be overridden for an existing WinHTTP session by calling 
 <a href="https://msdn.microsoft.com/bcf1da09-5787-4d2a-82ae-6965e27fa477">WinHttpSetOption</a> and specifying the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384066(v=VS.85).aspx">WINHTTP_OPTION_PROXY</a> flag.  The default proxy configuration can be overridden for a new session by specifying the configuration with the 
+<a href="option_flags.htm">WINHTTP_OPTION_PROXY</a> flag.  The default proxy configuration can be overridden for a new session by specifying the configuration with the 
 <a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a> function.
 
 The 
@@ -134,9 +134,13 @@ Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_A
 
 The following code example shows how to set the default proxy configuration in the registry.
 
-
-```cpp
-    WINHTTP_PROXY_INFO proxyInfo;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    WINHTTP_PROXY_INFO proxyInfo;
 
     // Allocate memory for string members.
     proxyInfo.lpszProxy = new WCHAR[25];
@@ -145,19 +149,19 @@ The following code example shows how to set the default proxy configuration in t
     // Set the members of the proxy info structure.
     proxyInfo.dwAccessType = WINHTTP_ACCESS_TYPE_NAMED_PROXY;
     swprintf_s(proxyInfo.lpszProxy, 25, L"proxy_server");
-    swprintf_s(proxyInfo.lpszProxyBypass, 25, L"<local>");
+    swprintf_s(proxyInfo.lpszProxyBypass, 25, L"&lt;local&gt;");
 
     // Set the default proxy configuration.
-    if (WinHttpSetDefaultProxyConfiguration( &proxyInfo ))
+    if (WinHttpSetDefaultProxyConfiguration( &amp;proxyInfo ))
         printf("Proxy Configuration Set.\n");
 
     // Free memory allocated to the strings.
     delete [] proxyInfo.lpszProxy;
     delete [] proxyInfo.lpszProxyBypass;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

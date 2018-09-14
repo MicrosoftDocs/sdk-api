@@ -7,7 +7,7 @@ old-location: security\icenroll4_createpkcs10.htm
 tech.root: seccrypto
 ms.assetid: b8e841c1-f16e-4f3a-94f2-ef6708c88910
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CEnroll object [Security],createPKCS10 method, ICEnroll interface [Security],createPKCS10 method, ICEnroll.createPKCS10, ICEnroll2 interface [Security],createPKCS10 method, ICEnroll2::createPKCS10, ICEnroll3 interface [Security],createPKCS10 method, ICEnroll3::createPKCS10, ICEnroll4 interface [Security],createPKCS10 method, ICEnroll4::createPKCS10, ICEnroll::createPKCS10, createPKCS10, createPKCS10 method [Security], createPKCS10 method [Security],CEnroll object, createPKCS10 method [Security],ICEnroll interface, createPKCS10 method [Security],ICEnroll2 interface, createPKCS10 method [Security],ICEnroll3 interface, createPKCS10 method [Security],ICEnroll4 interface, security.icenroll4_createpkcs10, xenroll/ICEnroll2::createPKCS10, xenroll/ICEnroll3::createPKCS10, xenroll/ICEnroll4::createPKCS10, xenroll/ICEnroll::createPKCS10
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,9 +107,13 @@ When this method is called from script, the method displays a user interface tha
 
 #### Examples
 
-
-```cpp
-BSTR bstrDN = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR bstrDN = NULL;
 BSTR bstrReq = NULL;
 BSTR bstrOID = NULL;
 ICEnroll4 * pEnroll = NULL;
@@ -127,7 +131,7 @@ hr = CoCreateInstance( __uuidof(CEnroll),
                        NULL,
                        CLSCTX_INPROC_SERVER,
                        __uuidof(ICEnroll4),
-                       (void **)&pEnroll);
+                       (void **)&amp;pEnroll);
 if (FAILED(hr))
 {
     printf("Failed CoCreateInstance - pEnroll [%x]\n", hr);
@@ -147,7 +151,7 @@ if (NULL == bstrDN)
 }
 
 // generate the OID, for example, "1.3.6.1.4.1.311.2.1.21".
-bstrOID = SysAllocString(TEXT("<OIDHERE>"));
+bstrOID = SysAllocString(TEXT("&lt;OIDHERE&gt;"));
 if (NULL == bstrOID)
 {
     printf("Memory allocation failed for bstrOID.\n");
@@ -155,7 +159,7 @@ if (NULL == bstrOID)
 }
 
 // create the PKCS10
-hr = pEnroll->createPKCS10( bstrDN, bstrOID, &bstrReq );
+hr = pEnroll-&gt;createPKCS10( bstrDN, bstrOID, &amp;bstrReq );
 if (FAILED(hr))
 {
     printf("Failed createPKCS10 - %x\n", hr);
@@ -174,12 +178,12 @@ if ( bstrOID )
 if ( bstrReq )
     SysFreeString( bstrReq );
 if ( pEnroll )
-    pEnroll->Release();
+    pEnroll-&gt;Release();
 
 CoUninitialize();
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

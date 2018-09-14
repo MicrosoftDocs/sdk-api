@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorreciprocalsqrtest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorReciprocalSqrtEst(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: Use DirectX..XMVectorReciprocalSqrtEst, XMVectorReciprocalSqrtEst, XMVectorReciprocalSqrtEst method [DirectX Math Support APIs], dxmath.xmvectorreciprocalsqrtest
 ms.prod: windows-hardware
 ms.technology: windows-devices

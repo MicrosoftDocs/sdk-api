@@ -4,10 +4,10 @@ title: ISBE2StreamMap
 author: windows-sdk-content
 description: Handles the mapping between output pins and streams for the Stream Buffer Source filter.
 old-location: mstv\isbe2streammap.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: d63691ca-2420-4c54-b343-be85d634488c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ISBE2StreamMap, ISBE2StreamMap interface [Microsoft TV Technologies], ISBE2StreamMap interface [Microsoft TV Technologies],described, mstv.isbe2streammap, sbe/ISBE2StreamMap
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IDVBTLocator::get_OtherFrequencyInUse
 author: windows-sdk-content
 description: The get_OtherFrequencyInUse method indicates whether the frequency is being used by another DVB-T broadcaster.
 old-location: mstv\idvbtlocator_get_otherfrequencyinuse.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: fcb39760-901f-4c62-a517-bee7ea96f8d9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_OtherFrequencyInUse method, IDVBTLocator.get_OtherFrequencyInUse, IDVBTLocator::get_OtherFrequencyInUse, IDVBTLocatorget_OtherFrequencyInUse, get_OtherFrequencyInUse, get_OtherFrequencyInUse method [Microsoft TV Technologies], get_OtherFrequencyInUse method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_otherfrequencyinuse, tuner/IDVBTLocator::get_OtherFrequencyInUse
 ms.prod: windows-hardware
 ms.technology: windows-devices

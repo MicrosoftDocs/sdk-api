@@ -4,10 +4,10 @@ title: ILocator::put_InnerFEC
 author: windows-sdk-content
 description: The put_InnerFEC method sets the type of inner FEC to use.
 old-location: mstv\ilocator_put_innerfec.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 3ba6cfdf-2095-489c-a899-4b4305758ccb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDigitalLocatorput_InnerFEC, ILocator interface [Microsoft TV Technologies],put_InnerFEC method, ILocator.put_InnerFEC, ILocator::put_InnerFEC, mstv.ilocator_put_innerfec, put_InnerFEC, put_InnerFEC method [Microsoft TV Technologies], put_InnerFEC method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_InnerFEC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,15 +84,15 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693580(v=VS.85).aspx">get_InnerFEC</a>
+<a href="mstv.idigitallocator_get_innerfec">get_InnerFEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693586(v=VS.85).aspx">put_InnerFECRate</a>
+<a href="mstv.idigitallocator_put_innerfecrate">put_InnerFECRate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693587(v=VS.85).aspx">put_OuterFEC</a>
+<a href="mstv.idigitallocator_put_outerfec">put_OuterFEC</a>
  
 
  

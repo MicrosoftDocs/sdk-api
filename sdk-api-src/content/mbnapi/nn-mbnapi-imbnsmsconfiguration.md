@@ -7,7 +7,7 @@ old-location: mbn\imbnsmsconfiguration.htm
 tech.root: mbn
 ms.assetid: ee261c32-aa17-496a-a568-d9da43e1e23a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMbnSmsConfiguration, IMbnSmsConfiguration interface [Microsoft Broadband Networks], IMbnSmsConfiguration interface [Microsoft Broadband Networks],described, mbn.imbnsmsconfiguration, mbnapi/IMbnSmsConfiguration
 ms.prod: windows
 ms.technology: windows-sdk

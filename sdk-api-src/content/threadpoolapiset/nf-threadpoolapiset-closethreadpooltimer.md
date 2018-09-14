@@ -7,7 +7,7 @@ old-location: base\closethreadpooltimer.htm
 tech.root: procthread
 ms.assetid: c1270c5d-a1f5-4481-a343-c1ff3301a56e
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/13/2018
 ms.keywords: CloseThreadpoolTimer, CloseThreadpoolTimer function, base.closethreadpooltimer, threadpoolapiset/CloseThreadpoolTimer, winbase/CloseThreadpoolTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

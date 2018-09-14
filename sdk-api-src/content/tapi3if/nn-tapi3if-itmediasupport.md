@@ -4,10 +4,10 @@ title: ITMediaSupport
 author: windows-sdk-content
 description: The ITMediaSupport interface provides methods that allow an application to discover the media support capabilities for an Address Object that exposes this interface.
 old-location: tapi3\itmediasupport.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 196995f1-b8d0-4ec1-b94e-61a02a258087
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITMediaSupport, ITMediaSupport interface [TAPI 2.2], ITMediaSupport interface [TAPI 2.2],described, _tapi3_itmediasupport, tapi3.itmediasupport, tapi3if/ITMediaSupport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaSupport</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITMediaSupport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaSupport</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITMediaSupport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -102,7 +102,7 @@ Indicates whether a given media type is supported.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_evaluatemode.htm
 tech.root: directdraw
 ms.assetid: c8027183-07b5-4b7f-8c36-7bd711dac7dd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DDEM_MODEFAILED, DDEM_MODEPASSED, EvaluateMode, EvaluateMode method [DirectDraw], EvaluateMode method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EvaluateMode method, IDirectDraw7.EvaluateMode, IDirectDraw7::EvaluateMode, ddraw/IDirectDraw7::EvaluateMode, directdraw.idirectdraw7_evaluatemode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: menurc\oemtochar.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\oemtochar.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: OemToChar, OemToChar function [Menus and Other Resources], OemToCharA, OemToCharW, _win32_OemToChar, _win32_oemtochar_cpp, menurc.oemtochar, winui._win32_oemtochar, winuser/OemToChar, winuser/OemToCharA, winuser/OemToCharW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,11 +95,11 @@ The return value is always nonzero except when you pass the same address to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647473(v=VS.85).aspx">CharToOem</a>
+<a href="https://msdn.microsoft.com/66588b51-1673-4cb0-828f-9e00de4a622e">CharToOem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319646(v=VS.85).aspx">CharToOemBuff</a>
+<a href="https://msdn.microsoft.com/5b9a968f-c325-48a1-bcc8-79aa5f286bdf">CharToOemBuff</a>
 
 
 
@@ -107,7 +107,7 @@ The return value is always nonzero except when you pass the same address to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647494(v=VS.85).aspx">OemToCharBuff</a>
+<a href="https://msdn.microsoft.com/17b01f13-6c09-43e2-984c-3b085f6b353f">OemToCharBuff</a>
 
 
 
@@ -115,7 +115,7 @@ The return value is always nonzero except when you pass the same address to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

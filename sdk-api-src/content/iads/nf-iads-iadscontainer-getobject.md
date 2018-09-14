@@ -7,7 +7,7 @@ old-location: adsi\iadscontainer_getobject.htm
 tech.root: ADSI
 ms.assetid: df8b1eae-1138-4e55-af6e-17c6105ca9c1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],GetObject method, IADsContainer.GetObject, IADsContainer::GetObject, _ds_iadscontainer_getobject, adsi.iadscontainer__getobject, adsi.iadscontainer_getobject, iads/IADsContainer::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ A <b>BSTR</b> that specifies the relative distinguished name of the object to re
 
 #### - ppNamedObject [out]
 
-A pointer to a pointer to the  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the specified object.
+A pointer to a pointer to the  <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface on the specified object.
 
 
 ## -returns
@@ -106,7 +106,7 @@ This method supports standard return values, including S_OK for a successful ope
 
 For the LDAP provider, the <i>bstrRelativeName</i> parameter must contain the name prefix, such as "CN=Jeff Smith". The <i>bstrRelativeName</i> parameter can also contain more than one level of name, such as "CN=Jeff Smith,OU=Sales".
 
-In C++, when <b>GetObject</b> has succeeded, the caller must query the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface for the desired interface using the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method.
+In C++, when <b>GetObject</b> has succeeded, the caller must query the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface for the desired interface using the <a href="_com_iunknown_queryinterface">QueryInterface</a> method.
 
 The <i>bstrClassName</i> parameter can be either a valid class name or <b>NULL</b>. If the class name is not valid, including when it contains a blank space, this method will throw an <a href="https://msdn.microsoft.com/193c5808-fc39-48e6-8bb8-8338e5c980ad">E_ADS_UNKNOWN_OBJECT</a> error.
 
@@ -115,36 +115,48 @@ The <i>bstrClassName</i> parameter can be either a valid class name or <b>NULL</
 
 The following code example  retrieves a user object from a container object.
 
-
-```vb
-Dim cont As IADsContainer
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim cont As IADsContainer
 Dim usr As IADsUser
 Set cont = GetObject("LDAP://OU=Sales,DC=Fabrikam,DC=com")
-Set usr = cont.GetObject("user", "CN=jeffsmith")
-```
-
-
+Set usr = cont.GetObject("user", "CN=jeffsmith")</pre>
+</td>
+</tr>
+</table></span></div>
 This is equivalent to:
 
-
-```vb
-Dim usr As IADsUser
-Set usr=GetObject("LDAP://CN=jeffsmith,OU=Sales,DC=Fabrikam,DC=com")
-```
-
-
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim usr As IADsUser
+Set usr=GetObject("LDAP://CN=jeffsmith,OU=Sales,DC=Fabrikam,DC=com")</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example retrieves a user object from a container object.
 
-
-```cpp
-HRESULT hr = S_OK;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = S_OK;
 CoInitialize(NULL);
  
 IADsContainer *pCont = NULL;
  
 hr = ADsGetObject(L"LDAP://DC=windows2000,DC=mytest,DC=fabrikam,DC=com",
             IID_IADsContainer, 
-            (void**) &pCont );
+            (void**) &amp;pCont );
 
 if(FAILED(hr))
 {
@@ -157,37 +169,37 @@ if(FAILED(hr))
 ///////////////////////////////////////////////////////////////////////
 IDispatch *pDisp = NULL;
 IADs *pADs = NULL;
-hr = pCont->GetObject(CComBSTR("user"), CComBSTR("CN=Jeff Smith,OU=DSys"), &pDisp);
-pCont->Release();
+hr = pCont-&gt;GetObject(CComBSTR("user"), CComBSTR("CN=Jeff Smith,OU=DSys"), &amp;pDisp);
+pCont-&gt;Release();
 if(FAILED(hr))
 {
     goto Cleanup;
 }
  
-hr = pDisp->QueryInterface(IID_IADs, (void**)&pADs);
-pDisp->Release(); 
+hr = pDisp-&gt;QueryInterface(IID_IADs, (void**)&amp;pADs);
+pDisp-&gt;Release(); 
 if(FAILED(hr))
 {
     goto Cleanup;
 }
  
 // Perform an operation with pADs.
-pADs->Release();
+pADs-&gt;Release();
  
 Cleanup:
 if(pCont)
-    pCont->Release();
+    pCont-&gt;Release();
 
 if(pDisp)
-    pDisp->Release();
+    pDisp-&gt;Release();
 
 if(pADs)
-    pADs->Release();
+    pADs-&gt;Release();
 
-CoUninitialize();
-```
-
-
+CoUninitialize();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -221,7 +233,7 @@ CoUninitialize();
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

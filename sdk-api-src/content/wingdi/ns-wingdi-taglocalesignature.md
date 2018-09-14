@@ -7,7 +7,7 @@ old-location: intl\localesignature.htm
 tech.root: Intl
 ms.assetid: 54510d73-f2a2-4176-8080-cdf855e99217
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/30/2018
 ms.keywords: "*LPLOCALESIGNATURE, *PLOCALESIGNATURE, LOCALESIGNATURE, LOCALESIGNATURE structure [Internationalization for Windows Applications], PLOCALESIGNATURE, PLOCALESIGNATURE structure pointer [Internationalization for Windows Applications], _win32_LOCALESIGNATURE_str, intl.localesignature, tagLOCALESIGNATURE, wingdi/LOCALESIGNATURE, wingdi/PLOCALESIGNATURE"
 ms.prod: windows
 ms.technology: windows-sdk

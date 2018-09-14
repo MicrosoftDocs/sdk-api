@@ -7,7 +7,7 @@ old-location: mf\iwmcodecpropsgetformatprop.htm
 tech.root: medfound
 ms.assetid: b9808c67-915c-4767-9107-8d3a38bb9319
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: GetFormatProp, GetFormatProp method [Media Foundation], GetFormatProp method [Media Foundation],IWMCodecProps interface, IWMCodecProps interface [Media Foundation],GetFormatProp method, IWMCodecProps.GetFormatProp, IWMCodecProps::GetFormatProp, codecapi.iwmcodecpropsgetformatprop, g_wszSpeechFormatCaps, mf.iwmcodecpropsgetformatprop, wmcodecdsp/IWMCodecProps::GetFormatProp
 ms.prod: windows-hardware
 ms.technology: windows-devices

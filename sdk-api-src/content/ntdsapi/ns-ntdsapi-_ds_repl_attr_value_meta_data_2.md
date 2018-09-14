@@ -7,7 +7,7 @@ old-location: ad\ds_repl_attr_value_meta_data_2.htm
 tech.root: ad
 ms.assetid: 2022362a-e2f7-4cfd-a512-cfe29e5d439d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: DS_REPL_ATTR_VALUE_META_DATA_2, DS_REPL_ATTR_VALUE_META_DATA_2 structure [Active Directory], _DS_REPL_ATTR_VALUE_META_DATA_2, ad.ds_repl_attr_value_meta_data_2, ntdsapi/DS_REPL_ATTR_VALUE_META_DATA_2
 ms.prod: windows
 ms.technology: windows-sdk

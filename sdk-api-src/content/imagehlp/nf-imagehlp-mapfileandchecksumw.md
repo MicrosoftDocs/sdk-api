@@ -4,10 +4,10 @@ title: MapFileAndCheckSumW function
 author: windows-sdk-content
 description: Computes the checksum of the specified file.
 old-location: base\mapfileandchecksum.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: e8fac3cc-bddf-419d-a245-d7af84d2c7f7
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: MapFileAndCheckSum, MapFileAndCheckSum function, MapFileAndCheckSumA, MapFileAndCheckSumW, _win32_mapfileandchecksum, base.mapfileandchecksum, imagehlp/MapFileAndCheckSum, imagehlp/MapFileAndCheckSumA, imagehlp/MapFileAndCheckSumW
 ms.prod: windows-hardware
 ms.technology: windows-devices

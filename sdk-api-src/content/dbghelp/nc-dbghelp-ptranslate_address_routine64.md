@@ -4,10 +4,10 @@ title: PTRANSLATE_ADDRESS_ROUTINE64
 author: windows-sdk-content
 description: An application-defined callback function used with the StackWalk64 function. It provides address translation for 16-bit addresses.
 old-location: base\translateaddressproc64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 56c374df-6b48-4649-a914-5cb2f9575bf3
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: PTRANSLATE_ADDRESS_ROUTINE, PTRANSLATE_ADDRESS_ROUTINE64, TranslateAddressProc64, TranslateAddressProc64 callback, TranslateAddressProc64 callback function, _win32_translateaddressproc64, base.translateaddressproc64, dbghelp/TranslateAddressProc64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,9 +92,13 @@ The function returns the translated address.
 
 This callback function supersedes the <i>PTRANSLATE_ADDRESS_ROUTINE</i> callback function.  <i>PTRANSLATE_ADDRESS_ROUTINE</i> is defined as follows in Dbghelp.h.
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define PTRANSLATE_ADDRESS_ROUTINE PTRANSLATE_ADDRESS_ROUTINE64
 #else
 typedef
@@ -104,10 +108,10 @@ DWORD
     __in HANDLE hThread,
     __out LPADDRESS lpaddr
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

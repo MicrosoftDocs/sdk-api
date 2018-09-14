@@ -4,10 +4,10 @@ title: ITAddress
 author: windows-sdk-content
 description: The ITAddress interface is the base interface for the Address object. Applications use this interface to get information about and use the Address object.
 old-location: tapi3\itaddress.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 93f2e4cf-013e-4064-88d5-69fddd458274
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITAddress, ITAddress interface [TAPI 2.2], ITAddress interface [TAPI 2.2],described, _tapi3_itaddress, tapi3.itaddress, tapi3if/ITAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddress</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITAddress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddress</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITAddress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -7,7 +7,7 @@ old-location: devinst\setupdisetclassproperty.htm
 tech.root: devinst
 ms.assetid: 12402336-9894-4d0d-b176-c6907e0cdcd4
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: SetupDiSetClassProperty, SetupDiSetClassProperty function [Device and Driver Installation], SetupDiSetClassPropertyA, SetupDiSetClassPropertyW, devinst.setupdisetclassproperty, di-rtns_c0346a11-5f87-4578-af46-5cb82e5b6101.xml, setupapi/SetupDiSetClassProperty, setupapi/SetupDiSetClassPropertyA, setupapi/SetupDiSetClassPropertyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -250,7 +250,7 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiSetClassProperty</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>.
+<b>SetupDiSetClassProperty</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>.
 
 SetupAPI supports only a Unicode version of <b>SetupDiSetClassProperty</b>. 
 

@@ -7,7 +7,7 @@ old-location: gpmc\gpmsearchproperty.htm
 tech.root: GPMC
 ms.assetid: 9ac83c22-f253-449f-b639-b6a07e3c790b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GPMSearchProperty, GPMSearchProperty enumeration [GPMC], __MIDL___MIDL_itf_gpmgmt_0000_0000_0003, backupMostRecent, gpmc.gpmsearchproperty, gpmgmt/GPMSearchProperty, gpmgmt/backupMostRecent, gpmgmt/gpoComputerExtensions, gpmgmt/gpoDisplayName, gpmgmt/gpoDomain, gpmgmt/gpoEffectivePermissions, gpmgmt/gpoID, gpmgmt/gpoPermissions, gpmgmt/gpoUserExtensions, gpmgmt/gpoWMIFilter, gpmgmt/somLinks, gpmgmt/starterGPODisplayName, gpmgmt/starterGPODomain, gpmgmt/starterGPOEffectivePermissions, gpmgmt/starterGPOID, gpmgmt/starterGPOPermissions, gpoComputerExtensions, gpoDisplayName, gpoDomain, gpoEffectivePermissions, gpoID, gpoPermissions, gpoUserExtensions, gpoWMIFilter, somLinks, starterGPODisplayName, starterGPODomain, starterGPOEffectivePermissions, starterGPOID, starterGPOPermissions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,15 +53,19 @@ req.redist:
 <b>GPMSearchProperty</b> defines  the property of the search criteria.
 
 The property of the search criteria.
-
-```cpp
-typedef enum {gpoPermissions, gpoEffectivePermissions, gpoDisplayName, gpoWMIFilter, gpoID, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef enum {gpoPermissions, gpoEffectivePermissions, gpoDisplayName, gpoWMIFilter, gpoID, 
               gpoComputerExtensions, gpoUserExtensions, somLinks, gpoDomain, backupMostRecent,
               starterGPOPermissions, starterGPOEffectivePermissions, starterGPODisplayName, starterGPOID,
-              starterGPODomain} GPMSearchProperty;
-```
-
-
+              starterGPODomain} GPMSearchProperty;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -enum-fields
 

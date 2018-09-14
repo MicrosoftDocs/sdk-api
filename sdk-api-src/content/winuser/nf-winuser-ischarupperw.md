@@ -7,7 +7,7 @@ old-location: menurc\ischarupper.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischarupper.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: IsCharUpper, IsCharUpper function [Menus and Other Resources], IsCharUpperA, IsCharUpperW, _win32_IsCharUpper, _win32_ischarupper_cpp, menurc.ischarupper, winui._win32_ischarupper, winuser/IsCharUpper, winuser/IsCharUpperA, winuser/IsCharUpperW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ If the character is not uppercase, the return value is zero. To get extended err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647484(v=VS.85).aspx">IsCharLower</a>
+<a href="https://msdn.microsoft.com/5ab10397-c4e0-4d78-a017-1ea8a6f9b9ae">IsCharLower</a>
 
 
 
@@ -103,7 +103,7 @@ If the character is not uppercase, the return value is zero. To get extended err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

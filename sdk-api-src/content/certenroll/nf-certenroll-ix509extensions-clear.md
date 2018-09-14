@@ -4,10 +4,10 @@ title: IX509Extensions::Clear
 author: windows-sdk-content
 description: Removes all IX509Extension objects from the collection.
 old-location: security\ix509extensions_clear_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: a985521d-7fcc-49e6-b625-4038939da2ca
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509Extensions interface, IX509Extensions interface [Security],Clear method, IX509Extensions.Clear, IX509Extensions::Clear, certenroll/IX509Extensions::Clear, security.ix509extensions_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>Clear</b> method removes all <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a> objects from the collection.
+The <b>Clear</b> method removes all <a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a> objects from the collection.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The <b>Clear</b> method removes all <a href="https://msdn.microsoft.com/en-us/li
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -76,11 +76,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a>
+<a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378174(v=VS.85).aspx">IX509Extensions</a>
+<a href="https://msdn.microsoft.com/d6bdbcff-1d6b-4813-8269-b75061a42de8">IX509Extensions</a>
  
 
  

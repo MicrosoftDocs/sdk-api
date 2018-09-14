@@ -7,7 +7,7 @@ old-location: netmgmt\getnetscheduleaccountinformation.htm
 tech.root: netmgmt
 ms.assetid: 935de94a-6791-4ea2-ac39-cf71ef7cb726
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetNetScheduleAccountInformation, GetNetScheduleAccountInformation function [Network Management], atacct/GetNetScheduleAccountInformation, netmgmt.getnetscheduleaccountinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: pla\itracedatacollector_numberofbuffers.htm
 tech.root: PLA
 ms.assetid: 78d7ed42-ccd1-4e00-a52d-e5341de2f76e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: ITraceDataCollector interface [PLA],NumberOfBuffers property, ITraceDataCollector.NumberOfBuffers, ITraceDataCollector.put_NumberOfBuffers, ITraceDataCollector::NumberOfBuffers, ITraceDataCollector::get_NumberOfBuffers, ITraceDataCollector::put_NumberOfBuffers, NumberOfBuffers property [PLA], NumberOfBuffers property [PLA],ITraceDataCollector interface, base.itracedatacollector_numberofbuffers, pla.itracedatacollector_numberofbuffers, pla/ITraceDataCollector::NumberOfBuffers, pla/ITraceDataCollector::get_NumberOfBuffers, pla/ITraceDataCollector::put_NumberOfBuffers, put_NumberOfBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

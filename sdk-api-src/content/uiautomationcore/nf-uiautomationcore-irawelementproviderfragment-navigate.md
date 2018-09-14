@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderFragment_Navigate.htm
 tech.root: WinAuto
 ms.assetid: 9e0caf58-a261-4a2b-8e48-368ea3ad8840
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/13/2018
 ms.keywords: IRawElementProviderFragment interface [Windows Accessibility],Navigate method, IRawElementProviderFragment.Navigate, IRawElementProviderFragment::Navigate, Navigate, Navigate method [Windows Accessibility], Navigate method [Windows Accessibility],IRawElementProviderFragment interface, uiauto.uiauto_IRawElementProviderFragment_Navigate, uiauto_IRawElementProviderFragment_Navigate, uiautomationcore/IRawElementProviderFragment::Navigate, winauto.uiauto_IRawElementProviderFragment_Navigate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,9 +112,13 @@ The following example shows an implementation for a list item provider. The memb
             previous sibling, and next sibling providers were initialized when the list was created.
 			
 
-
-```cpp
-HRESULT STDMETHODCALLTYPE ListItemProvider::Navigate(NavigateDirection direction, IRawElementProviderFragment ** pRetVal)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT STDMETHODCALLTYPE ListItemProvider::Navigate(NavigateDirection direction, IRawElementProviderFragment ** pRetVal)
 {
     if (pRetVal == NULL) 
     {
@@ -139,13 +143,13 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::Navigate(NavigateDirection direction
     *pRetVal = pFrag;
     if (pFrag != NULL) 
     {
-        pFrag->AddRef();
+        pFrag-&gt;AddRef();
     }
     return S_OK;
-}              
-```
-
-
+}              </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

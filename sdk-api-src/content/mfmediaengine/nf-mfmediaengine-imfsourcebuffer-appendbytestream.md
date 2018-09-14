@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffer_appendbytestream.htm
 tech.root: medfound
 ms.assetid: 1a4fc611-4923-48ad-bc92-c3686d855c13
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: AppendByteStream, AppendByteStream method [Media Foundation], AppendByteStream method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],AppendByteStream method, IMFSourceBuffer.AppendByteStream, IMFSourceBuffer::AppendByteStream, mf.imfsourcebuffer_appendbytestream, mfmediaengine/IMFSourceBuffer::AppendByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

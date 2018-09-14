@@ -4,10 +4,10 @@ title: ITAgent::get_TotalACDTalkTime
 author: windows-sdk-content
 description: The get_TotalACDTalkTime gets the number of seconds spent talking in ACD calls by this agent (across all sessions).
 old-location: tapi3\itagent_get_totalacdtalktime.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: a622a812-c929-413a-a3bc-4e870158cf16
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_TotalACDTalkTime method, ITAgent.get_TotalACDTalkTime, ITAgent::get_TotalACDTalkTime, _tapi3_itagent_get_totalacdtalktime, get_TotalACDTalkTime, get_TotalACDTalkTime method [TAPI 2.2], get_TotalACDTalkTime method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_totalacdtalktime, tapi3cc/ITAgent::get_TotalACDTalkTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

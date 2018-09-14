@@ -7,7 +7,7 @@ old-location: adsi\iadsadsysteminfo_getdcsitename.htm
 tech.root: ADSI
 ms.assetid: 2b9bb5f2-8312-4413-bbf2-4765fd33a2c6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetDCSiteName, GetDCSiteName method [ADSI], GetDCSiteName method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetDCSiteName method, IADsADSystemInfo.GetDCSiteName, IADsADSystemInfo::GetDCSiteName, _ds_iadsadsysteminfo_getdcsitename, adsi.iadsadsysteminfo__getdcsitename, adsi.iadsadsysteminfo_getdcsitename, iads/IADsADSystemInfo::GetDCSiteName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,17 +88,21 @@ This method supports the standard <b>HRESULT</b> return values. For more informa
 
 
 
-An Active Directory site is one or more well-connected TCP/IP subnets holding Active Directory domain controllers. For more information, see  <a href="https://msdn.microsoft.com/library/Aa772157(v=VS.85).aspx">Active Directory Core Concepts</a>.
+An Active Directory site is one or more well-connected TCP/IP subnets holding Active Directory domain controllers. For more information, see  <a href="ad.active_directory_core_concepts">Active Directory Core Concepts</a>.
 
 
 #### Examples
 
 The following C++ code example retrieves the Active Directory site name. For brevity, error checking is omitted.
 
-
-```cpp
-#include <activeds.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;activeds.h&gt;
+#include &lt;stdio.h&gt;
  
 int main()
 {
@@ -111,16 +115,16 @@ int main()
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IADsADSystemInfo,
-                          (void**)&pSys);
+                          (void**)&amp;pSys);
  
    BSTR siteName;
    BSTR dnsServer;
-   hr = pSys->GetAnyDCName(&dnsServer);
+   hr = pSys-&gt;GetAnyDCName(&amp;dnsServer);
 
    if (SUCCEEDED(hr)) {
       printf("Domain controller: %S\n", dnsServer);
 
-      hr = pSys->GetDCSiteName(&siteName);
+      hr = pSys-&gt;GetDCSiteName(&amp;siteName);
       if (SUCCEEDED(hr)) {
           printf("Domain controller site: %S\n", siteName);
           SysFreeString(siteName);
@@ -131,43 +135,51 @@ int main()
 
  
    if(pSys) {
-      pSys->Release();
+      pSys-&gt;Release();
    }
  
    CoUninitialize();
    return 0;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following Visual Basic code example retrieves the name of the Active Directory domain controller site.
 
-
-```vb
-Dim sys As New ADSystemInfo
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim sys As New ADSystemInfo
 dc = sys.GetAnyDCName
-Debug.Print "Domain Controller site: " & sys.GetDCSiteName(dc)
-```
-
-
+Debug.Print "Domain Controller site: " &amp; sys.GetDCSiteName(dc)</pre>
+</td>
+</tr>
+</table></span></div>
 The following VBScript/ASP code example retrieves the name of the Active Directory domain controller site.
 
-
-```vb
-<%
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;%
 Dim sys
 
 Set sys = CreateObject("ADSystemInfo")
 
 dc = sys.GetAnyDCName
 
-wscript.echo "Domain Controller     : " & dc
-wscript.echo "Domain Controller site: " & sys.GetDCSiteName(dc)
+wscript.echo "Domain Controller     : " &amp; dc
+wscript.echo "Domain Controller site: " &amp; sys.GetDCSiteName(dc)
 
-%>
-```
-
-
+%&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0008"
 author: windows-sdk-content
 description: The LONG_SECTION structure represents a long MPEG-2 section header. If a section contains a long header, you can cast a SECTION pointer to a LONG_SECTION pointer. For more information, see the Remarks section in the SECTION reference.
 old-location: mstv\long_section.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1403971f-5165-484c-9aa3-0cd489985545
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: "*PLONG_SECTION, LONG_SECTION, LONG_SECTION structure [Microsoft TV Technologies], PLONG_SECTION, PLONG_SECTION structure pointer [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0008, mpeg2structs/LONG_SECTION, mpeg2structs/PLONG_SECTION, mstv.long_section"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,21 +122,25 @@ Contains the remaining section data, as a byte array. The length of the array is
 
 The following code shows how to access the bit fields within the <b>Version</b> member:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 LONG_SECTION *pSection; // Points to the section data.
 
 // Coerce the Version field to an MPEG_HEADER_VERSION_BITS type.
 MPEG_HEADER_VERSION_BITS *pVersion;
-pVersion = (MPEG_HEADER_VERSION_BITS*)&pSection->Version.B;
+pVersion = (MPEG_HEADER_VERSION_BITS*)&amp;pSection-&gt;Version.B;
 
 // Now use the pHeader pointer to access the bit fields.
-BYTE VersionNumber = pSection->VersionNumber;
-
-```
-
-
+BYTE VersionNumber = pSection-&gt;VersionNumber;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

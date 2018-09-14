@@ -7,7 +7,7 @@ old-location: netmgmt\netusersetgroups.htm
 tech.root: netmgmt
 ms.assetid: 7042c43a-09d1-4179-8074-eb055dc279a6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: 0, 1, NetUserSetGroups, NetUserSetGroups function [Network Management], _win32_netusersetgroups, lmaccess/NetUserSetGroups, netmgmt.netusersetgroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -266,16 +266,20 @@ The following code sample demonstrates how to set global group memberships for a
 <a href="https://msdn.microsoft.com/cc0e5d27-91f1-4640-bb80-e73899fabba9">GROUP_USERS_INFO_0</a> structure and calls 
 <b>NetUserSetGroups</b>, specifying information level 0.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -298,7 +302,7 @@ int wmain(int argc, wchar_t *argv[])
    nStatus = NetUserSetGroups(argv[1],
                               argv[2],
                               dwLevel,
-                              (LPBYTE)&gi,
+                              (LPBYTE)&amp;gi,
                               1);
    //
    // If the call succeeds, inform the user.
@@ -313,10 +317,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

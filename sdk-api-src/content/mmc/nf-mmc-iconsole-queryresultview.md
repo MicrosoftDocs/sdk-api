@@ -7,7 +7,7 @@ old-location: mmc\iconsole_queryresultview.htm
 tech.root: mmc
 ms.assetid: A13410D1-38F3-489A-8AAC-BD2909341ACB
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IConsole interface [MMC],QueryResultView method, IConsole.QueryResultView, IConsole::QueryResultView, QueryResultView, QueryResultView method [MMC], QueryResultView method [MMC],IConsole interface, mmc.iconsole_queryresultview, mmc/IConsole::QueryResultView
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,8 +51,8 @@ req.redist:
 
 
 Queries 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a> for the result view object 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer.
+<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a> for the result view object 
+<a href="_com_iunknown">IUnknown</a> interface pointer.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Queries
 
 ### -param pUnknown [out]
 
-A pointer to the location of the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer to the result view object.
+A pointer to the location of the <a href="_com_iunknown">IUnknown</a> interface pointer to the result view object.
 
 
 ## -returns
@@ -90,7 +90,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a>
+<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a>
  
 
  

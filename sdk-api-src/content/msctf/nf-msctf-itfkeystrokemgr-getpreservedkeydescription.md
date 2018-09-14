@@ -7,7 +7,7 @@ old-location: tsf\itfkeystrokemgr_getpreservedkeydescription.htm
 tech.root: TSF
 ms.assetid: 5ae2b56f-0dd9-4f37-a677-20b53c7200c7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetPreservedKeyDescription, GetPreservedKeyDescription method [Text Services Framework], GetPreservedKeyDescription method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],GetPreservedKeyDescription method, ITfKeystrokeMgr.GetPreservedKeyDescription, ITfKeystrokeMgr::GetPreservedKeyDescription, _tsf_itfkeystrokemgr_getpreservedkeydescription_ref, msctf/ITfKeystrokeMgr::GetPreservedKeyDescription, tsf.itfkeystrokemgr_getpreservedkeydescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ Contains the command GUID of the preserved key.
 
 ### -param pbstrDesc [out]
 
-Pointer to a BSTR value the receives the description string. The caller must free this memory using <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+Pointer to a BSTR value the receives the description string. The caller must free this memory using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 
 ## -returns
@@ -135,7 +135,7 @@ Preserved keys are registered by TSF text services and provide keyboard shortcut
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
  
 
  

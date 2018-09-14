@@ -7,7 +7,7 @@ old-location: display\ddgetpolarityin.htm
 tech.root: display
 ms.assetid: 8ef7a1b7-1111-440d-8318-46d2135142e2
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/13/2018
 ms.keywords: "*LPDDGETPOLARITYIN, DDGETPOLARITYIN, DDGETPOLARITYIN structure [Display Devices], LPDDGETPOLARITYIN, LPDDGETPOLARITYIN structure pointer [Display Devices], _DDGETPOLARITYIN, ddkmapi/DDGETPOLARITYIN, ddkmapi/LPDDGETPOLARITYIN, ddstrcts_d84baddb-b5f0-4b66-86fd-504dbf05608c.xml, display.ddgetpolarityin"
 ms.prod: windows
 ms.technology: windows-sdk

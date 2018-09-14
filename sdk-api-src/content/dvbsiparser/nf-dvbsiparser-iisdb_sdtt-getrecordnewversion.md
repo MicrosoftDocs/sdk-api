@@ -4,10 +4,10 @@ title: IISDB_SDTT::GetRecordNewVersion
 author: windows-sdk-content
 description: Returns a new version_number field value from a subtable within an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordnewversion.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 0a121a8b-10fd-4f78-922a-6be704c2cab4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetRecordNewVersion, GetRecordNewVersion method [Microsoft TV Technologies], GetRecordNewVersion method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordNewVersion method, IISDB_SDTT.GetRecordNewVersion, IISDB_SDTT::GetRecordNewVersion, dvbsiparser/IISDB_SDTT::GetRecordNewVersion, mstv.iisdb_sdtt_getrecordnewversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694352(v=VS.85).aspx">IISDB_SDTT::GetCountOfRecords</a>
+<a href="iisdb_sdtt::getcountofrecords">IISDB_SDTT::GetCountOfRecords</a>
  
 
  

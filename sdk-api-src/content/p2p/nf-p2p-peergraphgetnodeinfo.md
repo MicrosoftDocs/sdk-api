@@ -7,7 +7,7 @@ old-location: p2p\peergraphgetnodeinfo.htm
 tech.root: p2psdk
 ms.assetid: 7149aba3-d44b-4492-aa56-4d8dbfba7b7c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerGraphGetNodeInfo, PeerGraphGetNodeInfo function [Peer Networking], p2p.peergraphgetnodeinfo, p2p/PeerGraphGetNodeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

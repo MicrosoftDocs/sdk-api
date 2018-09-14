@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSink3::put__AudioAnalysisFilter
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_put__audioanalysisfilter.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1c8cba5f-f060-441d-804d-7eb6bc95cb2b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],put__AudioAnalysisFilter method, IMSVidStreamBufferSink3.put__AudioAnalysisFilter, IMSVidStreamBufferSink3::put__AudioAnalysisFilter, IMSVidStreamBufferSink3put__AudioAnalysisFilter, mstv.imsvidstreambuffersink3_put__audioanalysisfilter, put__AudioAnalysisFilter, put__AudioAnalysisFilter method [Microsoft TV Technologies], put__AudioAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, segment/IMSVidStreamBufferSink3::put__AudioAnalysisFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

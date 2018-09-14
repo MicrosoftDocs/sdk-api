@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisual3_setvisible.htm
 tech.root: directcomp
 ms.assetid: 2D1BE2C4-2F7D-42C7-BB01-93366382B843
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetVisible method, IDCompositionVisual3.SetVisible, IDCompositionVisual3::SetVisible, SetVisible, SetVisible method [DirectComposition], SetVisible method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetVisible, directcomp.idcompositionvisual3_setvisible
 ms.prod: windows-hardware
 ms.technology: windows-devices

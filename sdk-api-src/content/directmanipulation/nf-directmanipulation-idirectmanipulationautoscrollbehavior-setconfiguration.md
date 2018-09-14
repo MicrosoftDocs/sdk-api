@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationautoscrollbehavior_setconfig
 tech.root: directmanipulation
 ms.assetid: 2DE988EA-8690-4AF2-A545-8226032D6E83
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDirectManipulationAutoScrollBehavior interface [Direct Manipulation],SetConfiguration method, IDirectManipulationAutoScrollBehavior.SetConfiguration, IDirectManipulationAutoScrollBehavior::SetConfiguration, SetConfiguration, SetConfiguration method [Direct Manipulation], SetConfiguration method [Direct Manipulation],IDirectManipulationAutoScrollBehavior interface, directmanipulation.idirectmanipulationautoscrollbehavior_setconfiguration, directmanipulation/IDirectManipulationAutoScrollBehavior::SetConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,12 +86,16 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 #### Examples
 
-
-```cpp
-spAutoScrollBehavior->SetConfiguration(DIRECTMANIPULATION_MOTION_TRANSLATEX, DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD));
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>spAutoScrollBehavior-&gt;SetConfiguration(DIRECTMANIPULATION_MOTION_TRANSLATEX, DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD));</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

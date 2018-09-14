@@ -4,10 +4,10 @@ title: "_STORAGE_COMPONENT_HEALTH_STATUS"
 author: windows-sdk-content
 description: Specifies the health status of a storage component.
 old-location: fs\storage_component_health_status.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: ECC5A745-EA8B-4FBE-840D-0D959C9ED5BA
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusDisabled, HealthStatusFailed, HealthStatusNormal, HealthStatusThrottled, HealthStatusUnknown, HealthStatusWarning, PSTORAGE_COMPONENT_HEALTH_STATUS, PSTORAGE_COMPONENT_HEALTH_STATUS enumeration pointer [Files], STORAGE_COMPONENT_HEALTH_STATUS, _STORAGE_COMPONENT_HEALTH_STATUS, _STORAGE_COMPONENT_HEALTH_STATUS enumeration [Files], fs.storage_component_health_status, winioctl/HealthStatusDisabled, winioctl/HealthStatusFailed, winioctl/HealthStatusNormal, winioctl/HealthStatusThrottled, winioctl/HealthStatusUnknown, winioctl/HealthStatusWarning, winioctl/PSTORAGE_COMPONENT_HEALTH_STATUS, winioctl/_STORAGE_COMPONENT_HEALTH_STATUS"
 ms.prod: windows
 ms.technology: windows-sdk

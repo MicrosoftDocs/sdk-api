@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_createpropertycondition.htm
 tech.root: fsrm
 ms.assetid: 1b264e9c-4ba0-4de2-acdc-94338519c5af
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: CreatePropertyCondition, CreatePropertyCondition method [File Server Resource Manager], CreatePropertyCondition method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],CreatePropertyCondition method, IFsrmFileManagementJob.CreatePropertyCondition, IFsrmFileManagementJob::CreatePropertyCondition, fs.ifsrmfilemanagementjob_createpropertycondition, fsrm.ifsrmfilemanagementjob_createpropertycondition, fsrmreports/IFsrmFileManagementJob::CreatePropertyCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices

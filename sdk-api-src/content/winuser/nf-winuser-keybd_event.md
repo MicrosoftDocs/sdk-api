@@ -7,7 +7,7 @@ old-location: inputdev\keybd_event.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\keybd_event.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: KEYEVENTF_EXTENDEDKEY, KEYEVENTF_KEYUP, _win32_keybd_event, _win32_keybd_event_cpp, inputdev.keybd_event, keybd_event, keybd_event function [Keyboard and Mouse Input], winui._win32_keybd_event, winuser/keybd_event
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,8 +50,8 @@ req.redist:
 ## -description
 
 
-Synthesizes a keystroke. The system can use such a synthesized keystroke to generate a <a href="https://msdn.microsoft.com/en-us/library/ms646281(v=VS.85).aspx">WM_KEYUP</a> or <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a> message. The keyboard driver's interrupt handler calls the <b>keybd_event</b> function.
-<div class="alert"><b>Note</b>  This function has been superseded. Use <a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a> instead.</div><div> </div>
+Synthesizes a keystroke. The system can use such a synthesized keystroke to generate a <a href="https://msdn.microsoft.com/67d9d82d-fab0-4aec-a337-7a9cb2b0b586">WM_KEYUP</a> or <a href="https://msdn.microsoft.com/0e37149f-445c-4b20-ad68-fdf39428ac91">WM_KEYDOWN</a> message. The keyboard driver's interrupt handler calls the <b>keybd_event</b> function.
+<div class="alert"><b>Note</b>  This function has been superseded. Use <a href="https://msdn.microsoft.com/7f87edd0-b846-4a85-93c8-9a2eeda7b6ac">SendInput</a> instead.</div><div> </div>
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Synthesizes a keystroke. The system can use such a synthesized keystroke to gene
 
 Type: <b>BYTE</b>
 
-A virtual-key code. The code must be a value in the range 1 to 254. For a complete list, see <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">Virtual Key Codes</a>. 
+A virtual-key code. The code must be a value in the range 1 to 254. For a complete list, see <a href="https://msdn.microsoft.com/fa8926ad-41b2-4164-9ba3-ae501fd0eef2">Virtual Key Codes</a>. 
 
 
 ### -param bScan [in]
@@ -137,18 +137,22 @@ An application can simulate a press of the PRINTSCRN key in order to obtain a sc
 
 The following sample program toggles the NUM LOCK light by using <b>keybd_event</b> with a virtual key of <b>VK_NUMLOCK</b>. It takes a Boolean value that indicates whether the light should be turned off (<b>FALSE</b>) or on (<b>TRUE</b>). The same technique can be used for the CAPS LOCK key (<b>VK_CAPITAL</b>) and the SCROLL LOCK key (<b>VK_SCROLL</b>).
 
-
-```
-
-   #include <windows.h>
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+   #include &lt;windows.h&gt;
 
    void SetNumLock( BOOL bState )
    {
       BYTE keyState[256];
 
-      GetKeyboardState((LPBYTE)&keyState);
-      if( (bState && !(keyState[VK_NUMLOCK] & 1)) ||
-          (!bState && (keyState[VK_NUMLOCK] & 1)) )
+      GetKeyboardState((LPBYTE)&amp;keyState);
+      if( (bState &amp;&amp; !(keyState[VK_NUMLOCK] &amp; 1)) ||
+          (!bState &amp;&amp; (keyState[VK_NUMLOCK] &amp; 1)) )
       {
       // Simulate a key press
          keybd_event( VK_NUMLOCK,
@@ -168,10 +172,10 @@ The following sample program toggles the NUM LOCK light by using <b>keybd_event<
    {
       SetNumLock( TRUE );
    }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -184,19 +188,19 @@ The following sample program toggles the NUM LOCK light by using <b>keybd_event<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a>
+<a href="https://msdn.microsoft.com/edc449e4-f37d-4f2c-8add-45b905bd3326">GetAsyncKeyState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx">GetKeyState</a>
+<a href="https://msdn.microsoft.com/41c7bcc7-0a14-420c-b338-7ca13c95b7b8">GetKeyState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646306(v=VS.85).aspx">MapVirtualKey</a>
+<a href="https://msdn.microsoft.com/d287c66d-def1-4794-a95b-fa7c93e7bd35">MapVirtualKey</a>
 
 
 
@@ -204,11 +208,11 @@ The following sample program toggles the NUM LOCK light by using <b>keybd_event<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646314(v=VS.85).aspx">SetKeyboardState</a>
+<a href="https://msdn.microsoft.com/9c34dd1f-b423-4dcd-b29e-8bf64be57472">SetKeyboardState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646304(v=VS.85).aspx">keybd_event</a>
+<a href="https://msdn.microsoft.com/6cd3c849-ab5f-461d-ae9d-a663bfea62e3">keybd_event</a>
  
 
  

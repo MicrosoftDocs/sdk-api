@@ -7,7 +7,7 @@ old-location: search\_search_ISearchNotifyInlineSite_OnCatalogStatusChange.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\oncatalogstatuschange.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: ISearchNotifyInlineSite interface [search],OnCatalogStatusChange method, ISearchNotifyInlineSite.OnCatalogStatusChange, ISearchNotifyInlineSite::OnCatalogStatusChange, OnCatalogStatusChange, OnCatalogStatusChange method [search], OnCatalogStatusChange method [search],ISearchNotifyInlineSite interface, _search_ISearchNotifyInlineSite_OnCatalogStatusChange, search._search_ISearchNotifyInlineSite_OnCatalogStatusChange, searchapi/ISearchNotifyInlineSite::OnCatalogStatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,11 +114,11 @@ If a catalog reset occurs, the search service resets the entire catalog and upda
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231458(v=VS.85).aspx">ISearchNotifyInlineSite</a>
+<a href="https://msdn.microsoft.com/5837ccf6-1156-44a5-9135-3e3b47244f9d">ISearchNotifyInlineSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
+<a href="https://msdn.microsoft.com/817550e2-a256-48d5-9fa6-1ea04f8b8589">Notifying the Index of Changes</a>
  
 
  

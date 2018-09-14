@@ -4,10 +4,10 @@ title: ImageList_DrawEx function
 author: windows-sdk-content
 description: Draws an image list item in the specified device context. The function uses the specified drawing style and blends the image with the specified color.
 old-location: controls\ImageList_DrawEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_drawex.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CLR_DEFAULT, CLR_NONE, ILD_BLEND, ILD_BLEND25, ILD_BLEND50, ILD_FOCUS, ILD_IMAGE, ILD_MASK, ILD_NORMAL, ILD_SELECTED, ILD_TRANSPARENT, ImageList_DrawEx, ImageList_DrawEx function [Windows Controls], _win32_ImageList_DrawEx, _win32_ImageList_DrawEx_cpp, commctrl/ImageList_DrawEx, controls.ImageList_DrawEx, controls._win32_ImageList_DrawEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -291,7 +291,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-An overlay image is drawn transparently over the primary image specified in the <i>i</i> parameter. To specify an overlay image in the <i>fStyle</i> parameter, use the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro to shift the one-based index of the overlay image. Use the OR operator to logically combine the return value of the macro with the drawing style flags specified in the <i>fStyle</i> parameter. You must first specify this image as an overlay image by using the <a href="https://msdn.microsoft.com/en-us/library/Bb775227(v=VS.85).aspx">ImageList_SetOverlayImage</a> function. 
+An overlay image is drawn transparently over the primary image specified in the <i>i</i> parameter. To specify an overlay image in the <i>fStyle</i> parameter, use the <a href="https://msdn.microsoft.com/6619d390-0c23-41ff-a07b-31425e47712b">INDEXTOOVERLAYMASK</a> macro to shift the one-based index of the overlay image. Use the OR operator to logically combine the return value of the macro with the drawing style flags specified in the <i>fStyle</i> parameter. You must first specify this image as an overlay image by using the <a href="https://msdn.microsoft.com/8cb1babc-01bd-4aae-9bc7-073050242ce4">ImageList_SetOverlayImage</a> function. 
 
 
 

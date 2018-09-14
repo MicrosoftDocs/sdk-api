@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext3.htm
 tech.root: direct3d11
 ms.assetid: 65F462DB-5546-4B23-B438-60067FD60103
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID3D11DeviceContext3, ID3D11DeviceContext3 interface [Direct3D 11], ID3D11DeviceContext3 interface [Direct3D 11],described, d3d11_3/ID3D11DeviceContext3, direct3d11.id3d11devicecontext3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,13 +52,13 @@ req.redist:
 
 
 The device context interface represents a device context; it is used to render commands. 
-        <b>ID3D11DeviceContext3</b> adds new methods to those in <a href="https://msdn.microsoft.com/en-us/library/Dn280498(v=VS.85).aspx">ID3D11DeviceContext2</a>.
+        <b>ID3D11DeviceContext3</b> adds new methods to those in <a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a>.
       
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DeviceContext3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn280498(v=VS.85).aspx">ID3D11DeviceContext2</a>. <b>ID3D11DeviceContext3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DeviceContext3</b> interface inherits from <a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a>. <b>ID3D11DeviceContext3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -121,7 +121,7 @@ Sets the hardware protection state.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280498(v=VS.85).aspx">ID3D11DeviceContext2</a>
+<a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a>
  
 
  

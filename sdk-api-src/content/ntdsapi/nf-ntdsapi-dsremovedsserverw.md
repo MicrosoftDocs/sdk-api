@@ -7,7 +7,7 @@ old-location: ad\dsremovedsserver.htm
 tech.root: ad
 ms.assetid: a79a2b71-10c7-495b-861f-0c7a4d86f720
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: DsRemoveDsServer, DsRemoveDsServer function [Active Directory], DsRemoveDsServerA, DsRemoveDsServerW, _glines_dsremovedsserver, ad.dsremovedsserver, ntdsapi/DsRemoveDsServer, ntdsapi/DsRemoveDsServerA, ntdsapi/DsRemoveDsServerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

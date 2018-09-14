@@ -4,10 +4,10 @@ title: ID2D1ImageSource::OfferResources
 author: windows-sdk-content
 description: Allows the operating system to free the video memory of resources by discarding their content.
 old-location: direct2d\id2d1imagesource_offerresources.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 35728A9D-1D86-41EB-A760-B6B56D2576F3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID2D1ImageSource interface [Direct2D],OfferResources method, ID2D1ImageSource.OfferResources, ID2D1ImageSource::OfferResources, OfferResources, OfferResources method [Direct2D], OfferResources method [Direct2D],ID2D1ImageSource interface, d2d1_3/ID2D1ImageSource::OfferResources, direct2d.id2d1imagesource_offerresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_unique_id.htm
 tech.root: wsw
 ms.assetid: b9fd4497-153f-45f9-8f23-0771ffc47830
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WS_UNIQUE_ID, WS_UNIQUE_ID structure [Web Services for Windows], _WS_UNIQUE_ID, webservices/WS_UNIQUE_ID, wsw.ws_unique_id
 ms.prod: windows
 ms.technology: windows-sdk

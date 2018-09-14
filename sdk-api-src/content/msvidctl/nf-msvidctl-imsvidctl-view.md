@@ -4,10 +4,10 @@ title: IMSVidCtl::View
 author: windows-sdk-content
 description: The View method configures the Video Control to view an input source, which can be a tune request, a DVD, or a media file.
 old-location: mstv\imsvidctl_view.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: ec0e2a88-13c0-42f3-ba7d-8ebff1234b86
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],View method, IMSVidCtl.View, IMSVidCtl::View, IMSVidCtlView, View, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_view, msvidctl/IMSVidCtl::View
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,28 +109,36 @@ You can specify a particular input device by calling the <a href="https://msdn.m
 
 The following example shows how to submit a tune request to the Video Control:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 ITuneRequest *pTuneReq;
 /* Obtain the tune request (not shown). */
 CComVariant varTuneRequest = pTuneReq;
-hr = pVidControl->View(&varTuneRequest);
-
-```
-
-
+hr = pVidControl-&gt;View(&amp;varTuneRequest);
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following example shows how to play a local file:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 CComVariant varFileName(OLESTR("C:Example.avi"));
-hr = pVidControl->View(&varFileName);
-
-```
-
-
+hr = pVidControl-&gt;View(&amp;varFileName);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

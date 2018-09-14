@@ -7,7 +7,7 @@ old-location: gpmc\igpmrsop_loggingenumerateusers.htm
 tech.root: GPMC
 ms.assetid: 7cc794e6-1a8d-4e31-9bea-4ebc4cf51602
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GPMRSOP class [GPMC],LoggingEnumerateUsers method, IGPMRSOP interface [GPMC],LoggingEnumerateUsers method, IGPMRSOP.LoggingEnumerateUsers, IGPMRSOP::LoggingEnumerateUsers, LoggingEnumerateUsers, LoggingEnumerateUsers method [GPMC], LoggingEnumerateUsers method [GPMC],GPMRSOP class, LoggingEnumerateUsers method [GPMC],IGPMRSOP interface, _win32_igpmrsop_loggingenumerateusers, gpmc.igpmrsop_loggingenumerateusers, gpmgmt/IGPMRSOP::LoggingEnumerateUsers
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_KDHELP64"
 author: windows-sdk-content
 description: Information that is used by kernel debuggers to trace through user-mode callbacks in a thread's kernel stack.
 old-location: base\kdhelp64_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: da31c92c-0257-4ae2-8d69-ea8cd58adc10
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: "*PKDHELP64, KDHELP, KDHELP structure, KDHELP64, KDHELP64 structure, PKDHELP64, PKDHELP64 structure pointer, _KDHELP64, _win32_kdhelp64_str, base.kdhelp64_str, dbghelp/KDHELP64, dbghelp/PKDHELP64"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -160,9 +160,13 @@ This member is reserved for use by the operating system.
 This structure supersedes the <b>KDHELP</b> structure. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>KDHELP</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define KDHELP KDHELP64
 #define PKDHELP PKDHELP64
 #else
@@ -180,10 +184,10 @@ typedef struct _KDHELP {
     DWORD   StackLimit;
     DWORD   Reserved[5];
 } KDHELP, *PKDHELP;
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

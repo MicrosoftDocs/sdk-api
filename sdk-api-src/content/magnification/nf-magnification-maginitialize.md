@@ -7,7 +7,7 @@ old-location: magapi\magapi_MagInitialize.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maginitialize.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MagInitialize, MagInitialize function [Magnification API], magapi.magapi_MagInitialize, magapi_MagInitialize, magnification/MagInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ Returns <b>TRUE</b> if initialization was successful; otherwise <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692399(v=VS.85).aspx">MagUninitialize</a>
+<a href="https://msdn.microsoft.com/fd3e4bd8-5646-4755-95a7-c684345347ca">MagUninitialize</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\icenroll4_getcertfromfileresponse.htm
 tech.root: seccrypto
 ms.assetid: 0e89465b-4525-4b36-b0c7-7f34dc4a34aa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CEnroll object [Security],getCertFromFileResponse method, ICEnroll4 interface [Security],getCertFromFileResponse method, ICEnroll4.getCertFromFileResponse, ICEnroll4::getCertFromFileResponse, _xen_icenroll4_getcertfromfileresponse, getCertFromFileResponse, getCertFromFileResponse method [Security], getCertFromFileResponse method [Security],CEnroll object, getCertFromFileResponse method [Security],ICEnroll4 interface, security.icenroll4_getcertfromfileresponse, xenroll/ICEnroll4::getCertFromFileResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ Specifies the name of the file that contains the response.
 
 ### -param pstrCert [out]
 
-A pointer to a <b>BSTR</b> value that receives the certificate retrieved from the response. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> value that receives the certificate retrieved from the response. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns

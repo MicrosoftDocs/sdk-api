@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlmodel.htm
 tech.root: MachineLearning
 ms.assetid: 604ABFCC-9CA0-409D-A3FF-D5C59758462E
 ms.author: windowssdkdev
-ms.date: 03/08/2018
+ms.date: 08/29/2018
 ms.keywords: IWinMLModel, IWinMLModel interface, IWinMLModel interface,described, MachineLearning.iwinmlmodel, winml/IWinMLModel
 ms.prod: windows
 ms.technology: windows-sdk

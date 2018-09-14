@@ -4,10 +4,10 @@ title: SymEnumTypesByNameW function
 author: windows-sdk-content
 description: Enumerates all user-defined types.
 old-location: base\symenumtypesbyname.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 48acb588-23fa-44f3-8b8c-f3c76371d1fd
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: SymEnumTypesByName, SymEnumTypesByName function, SymEnumTypesByNameW, base.symenumtypesbyname, dbghelp/SymEnumTypesByName, dbghelp/SymEnumTypesByNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

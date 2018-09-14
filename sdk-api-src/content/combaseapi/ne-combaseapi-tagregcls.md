@@ -7,7 +7,7 @@ old-location: com\regcls.htm
 tech.root: com
 ms.assetid: 16bca8e0-9999-4d51-b7f0-87deb7619d89
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: REGCLS, REGCLS enumeration [COM], REGCLS_AGILE, REGCLS_MULTIPLEUSE, REGCLS_MULTI_SEPARATE, REGCLS_SINGLEUSE, REGCLS_SURROGATE, REGCLS_SUSPENDED, _com_REGCLS, com.regcls, combaseapi/REGCLS, combaseapi/REGCLS_AGILE, combaseapi/REGCLS_MULTIPLEUSE, combaseapi/REGCLS_MULTI_SEPARATE, combaseapi/REGCLS_SINGLEUSE, combaseapi/REGCLS_SURROGATE, combaseapi/REGCLS_SUSPENDED, tagREGCLS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,31 +60,31 @@ Controls the type of connections to a class object.
 
 ### -field REGCLS_SINGLEUSE
 
-After an application is connected to a class object with <a href="https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx">CoGetClassObject</a>, the class object is removed from public view so that no other applications can connect to it. This value is commonly used for single document interface (SDI) applications. Specifying this value does not affect the responsibility of the object application to call <a href="https://msdn.microsoft.com/en-us/library/ms688650(v=VS.85).aspx">CoRevokeClassObject</a>; it must always call <b>CoRevokeClassObject</b> when it is finished with an object class.
+After an application is connected to a class object with <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a>, the class object is removed from public view so that no other applications can connect to it. This value is commonly used for single document interface (SDI) applications. Specifying this value does not affect the responsibility of the object application to call <a href="https://msdn.microsoft.com/90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec">CoRevokeClassObject</a>; it must always call <b>CoRevokeClassObject</b> when it is finished with an object class.
 
 
 ### -field REGCLS_MULTIPLEUSE
 
-Multiple applications can connect to the class object through calls to <a href="https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx">CoGetClassObject</a>. If both the REGCLS_MULTIPLEUSE and CLSCTX_LOCAL_SERVER are set in a call to <a href="https://msdn.microsoft.com/en-us/library/ms693407(v=VS.85).aspx">CoRegisterClassObject</a>, the class object is also automatically registered as an in-process server, whether CLSCTX_INPROC_SERVER is explicitly set.
+Multiple applications can connect to the class object through calls to <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a>. If both the REGCLS_MULTIPLEUSE and CLSCTX_LOCAL_SERVER are set in a call to <a href="https://msdn.microsoft.com/d27bfa6c-194a-41f1-8fcf-76c4dff14a8a">CoRegisterClassObject</a>, the class object is also automatically registered as an in-process server, whether CLSCTX_INPROC_SERVER is explicitly set.
 
 
 ### -field REGCLS_MULTI_SEPARATE
 
-Useful for registering separate CLSCTX_LOCAL_SERVER and CLSCTX_INPROC_SERVER class factories through calls to <a href="https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx">CoGetClassObject</a>. If REGCLS_MULTI_SEPARATE is set, each execution context must be set separately; <a href="https://msdn.microsoft.com/en-us/library/ms693407(v=VS.85).aspx">CoRegisterClassObject</a> does not automatically register an out-of-process server (for which CLSCTX_LOCAL_SERVER is set) as an in-process server. This allows the EXE to create multiple instances of the object for in-process needs, such as self embeddings, without disturbing its CLSCTX_LOCAL_SERVER registration. If an EXE registers a REGCLS_MULTI_SEPARATE class factory and a CLSCTX_INPROC_SERVER class factory, instance creation calls that specify CLSCTX_INPROC_SERVER in the <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a> parameter executed by the EXE would be satisfied locally without approaching the SCM. This mechanism is useful when the EXE uses functions such as <a href="https://msdn.microsoft.com/en-us/library/ms678409(v=VS.85).aspx">OleCreate</a> and <a href="https://msdn.microsoft.com/en-us/library/ms694338(v=VS.85).aspx">OleLoad</a> to create embeddings, but at the same does not wish to launch a new instance of itself for the self-embedding case. The distinction is important for embeddings because the default handler aggregates the proxy manager by default and the application should override this default behavior by calling <a href="https://msdn.microsoft.com/en-us/library/ms683795(v=VS.85).aspx">OleCreateEmbeddingHelper</a> for the self-embedding case. 
+Useful for registering separate CLSCTX_LOCAL_SERVER and CLSCTX_INPROC_SERVER class factories through calls to <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a>. If REGCLS_MULTI_SEPARATE is set, each execution context must be set separately; <a href="https://msdn.microsoft.com/d27bfa6c-194a-41f1-8fcf-76c4dff14a8a">CoRegisterClassObject</a> does not automatically register an out-of-process server (for which CLSCTX_LOCAL_SERVER is set) as an in-process server. This allows the EXE to create multiple instances of the object for in-process needs, such as self embeddings, without disturbing its CLSCTX_LOCAL_SERVER registration. If an EXE registers a REGCLS_MULTI_SEPARATE class factory and a CLSCTX_INPROC_SERVER class factory, instance creation calls that specify CLSCTX_INPROC_SERVER in the <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a> parameter executed by the EXE would be satisfied locally without approaching the SCM. This mechanism is useful when the EXE uses functions such as <a href="https://msdn.microsoft.com/00b7edd2-8e2e-4e0a-91a6-d966f6c8d456">OleCreate</a> and <a href="https://msdn.microsoft.com/f2d8bb2e-5bd1-4991-a80c-ed06bfd5c9f9">OleLoad</a> to create embeddings, but at the same does not wish to launch a new instance of itself for the self-embedding case. The distinction is important for embeddings because the default handler aggregates the proxy manager by default and the application should override this default behavior by calling <a href="https://msdn.microsoft.com/5c67b513-0692-4e0a-beab-8b514089699c">OleCreateEmbeddingHelper</a> for the self-embedding case. 
 
 If your application need not distinguish between the local and inproc case, you need not register your class factory using REGCLS_MULTI_SEPARATE. In fact, the application incurs an extra network round trip to the SCM when it registers its MULTIPLEUSE class factory as MULTI_SEPARATE and does not register another class factory as INPROC_SERVER.
 
 
 ### -field REGCLS_SUSPENDED
 
-Suspends registration and activation requests for the specified CLSID until there is a call to <a href="https://msdn.microsoft.com/en-us/library/ms692686(v=VS.85).aspx">CoResumeClassObjects</a>. This is used typically to register the CLSIDs for servers that can register multiple class objects to reduce the overall registration time, and thus the server application startup time, by making a single call to the SCM, no matter how many CLSIDs are registered for the server.
+Suspends registration and activation requests for the specified CLSID until there is a call to <a href="https://msdn.microsoft.com/c2b6e8d8-99a1-4af3-9881-bfe6932e4a76">CoResumeClassObjects</a>. This is used typically to register the CLSIDs for servers that can register multiple class objects to reduce the overall registration time, and thus the server application startup time, by making a single call to the SCM, no matter how many CLSIDs are registered for the server.
 
 <div class="alert"><b>Note</b>  This flag prevents COM activation errors from a possible race condition between an application shutting down and that application attempting to register a COM class.</div>
 <div> </div>
 
 ### -field REGCLS_SURROGATE
 
-The class object is a surrogate process used to run DLL servers. The class factory registered by the surrogate process is not the actual class factory implemented by the DLL server, but a generic class factory implemented by the surrogate. This generic class factory delegates instance creation and marshaling to the class factory of the DLL server running in the surrogate. For further information on DLL surrogates, see the <a href="https://msdn.microsoft.com/en-us/library/ms691260(v=VS.85).aspx">DllSurrogate</a> registry value.
+The class object is a surrogate process used to run DLL servers. The class factory registered by the surrogate process is not the actual class factory implemented by the DLL server, but a generic class factory implemented by the surrogate. This generic class factory delegates instance creation and marshaling to the class factory of the DLL server running in the surrogate. For further information on DLL surrogates, see the <a href="https://msdn.microsoft.com/ae02d828-9cdb-4faa-8fa9-971da97e27b1">DllSurrogate</a> registry value.
 
 
 ### -field REGCLS_AGILE
@@ -101,11 +101,11 @@ The class object aggregates the free-threaded marshaler
 
 
 
-In <a href="https://msdn.microsoft.com/en-us/library/ms693407(v=VS.85).aspx">CoRegisterClassObject</a>, members of both the <b>REGCLS</b> and the <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a> enumerations, taken together, determine how the class object is registered.
+In <a href="https://msdn.microsoft.com/d27bfa6c-194a-41f1-8fcf-76c4dff14a8a">CoRegisterClassObject</a>, members of both the <b>REGCLS</b> and the <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a> enumerations, taken together, determine how the class object is registered.
 
 
 
-An EXE surrogate (in which DLL servers are run) calls <a href="https://msdn.microsoft.com/en-us/library/ms693407(v=VS.85).aspx">CoRegisterClassObject</a> to register a class factory using a new <b>REGCLS</b> value, REGCLS_SURROGATE.
+An EXE surrogate (in which DLL servers are run) calls <a href="https://msdn.microsoft.com/d27bfa6c-194a-41f1-8fcf-76c4dff14a8a">CoRegisterClassObject</a> to register a class factory using a new <b>REGCLS</b> value, REGCLS_SURROGATE.
 
 All class factories for DLL surrogates should be registered with REGCLS_SURROGATE set. Do not set REGCLS_SINGLUSE or REGCLS_MULTIPLEUSE when you register a surrogate for DLL servers.
 
@@ -158,19 +158,19 @@ The following table summarizes the allowable <b>REGCLS</b> value combinations an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx">CoGetClassObject</a>
+<a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693407(v=VS.85).aspx">CoRegisterClassObject</a>
+<a href="https://msdn.microsoft.com/d27bfa6c-194a-41f1-8fcf-76c4dff14a8a">CoRegisterClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680760(v=VS.85).aspx">DllGetClassObject</a>
+<a href="https://msdn.microsoft.com/42c08149-c251-47f7-a81f-383975d7081c">DllGetClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691260(v=VS.85).aspx">DllSurrogate</a>
+<a href="https://msdn.microsoft.com/ae02d828-9cdb-4faa-8fa9-971da97e27b1">DllSurrogate</a>
  
 
  

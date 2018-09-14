@@ -4,10 +4,10 @@ title: lineGetCountryW function
 author: windows-sdk-content
 description: The lineGetCountry function fetches the stored dialing rules and other information related to a specified country/region, the first country/region in the country/region list, or all countries/regions.
 old-location: tapi2\linegetcountry.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 4de271b3-d93b-4fc9-b853-e26ef1ae75ae
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: "_tapi2_linegetcountry, lineGetCountry, lineGetCountry function [TAPI 2.2], lineGetCountryA, lineGetCountryW, tapi/lineGetCountry, tapi/lineGetCountryA, tapi/lineGetCountryW, tapi2.linegetcountry"
 ms.prod: windows-hardware
 ms.technology: windows-devices

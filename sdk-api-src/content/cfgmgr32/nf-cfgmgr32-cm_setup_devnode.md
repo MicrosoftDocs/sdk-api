@@ -7,7 +7,7 @@ old-location: devinst\cm_setup_devnode.htm
 tech.root: devinst
 ms.assetid: 94d0023d-d93f-42da-b2fc-54b9d8831b9b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: CM_Setup_DevNode, CM_Setup_DevNode function [Device and Driver Installation], cfgmgr32/CM_Setup_DevNode, cfgmgrfn_e8515529-d4bc-4411-a5cf-18bc4f4d7500.xml, devinst.cm_setup_devnode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,7 +123,7 @@ Call <a href="https://msdn.microsoft.com/7347c142-8bcf-43b3-aef0-5f99e2873560">C
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539727(v=VS.85).aspx">CM_Query_And_Remove_SubTree_Ex</a>
+<a href="https://msdn.microsoft.com/c8a3af37-0886-4187-9cdb-49616bcb04a9">CM_Query_And_Remove_SubTree_Ex</a>
 
 
 

@@ -4,10 +4,10 @@ title: ICertProperties::Add
 author: windows-sdk-content
 description: Adds a property to the collection.
 old-location: security\icertproperties_add_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 53ea895d-0c41-445e-bfcc-2b2e53e10ff8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertProperties interface, ICertProperties interface [Security],Add method, ICertProperties.Add, ICertProperties::Add, certenroll/ICertProperties::Add, security.icertproperties_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ TBD
 
 #### - pValue [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a> interface that represents the property to add to the collection.
+Pointer to an <a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a> interface that represents the property to add to the collection.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -106,11 +106,11 @@ An item in the collection has the same ID as the property you specified.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375231(v=VS.85).aspx">ICertProperties</a>
+<a href="https://msdn.microsoft.com/b830c0af-0a38-419d-8a33-8e3626c4e8f1">ICertProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
  
 
  

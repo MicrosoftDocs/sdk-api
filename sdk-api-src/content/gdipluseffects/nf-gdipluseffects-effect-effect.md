@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Effect_Effect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectconstructors\effect.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Effect, Effect class [GDI+],Effect constructor, Effect constructor [GDI+], Effect constructor [GDI+],Effect class, Effect.Effect, Effect::Effect, _gdiplus_CLASS_Effect_Effect_, gdiplus._gdiplus_CLASS_Effect_Effect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/en-us/library/ms534433(v=VS.85).aspx">Effect</a> object. 
+Creates an <a href="https://msdn.microsoft.com/7b32aad2-ba44-46a6-8315-d55fed2d9391">Effect</a> object. 
 
 
 ## -parameters

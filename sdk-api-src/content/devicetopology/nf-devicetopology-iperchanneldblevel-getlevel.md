@@ -7,7 +7,7 @@ old-location: coreaudio\iperchanneldblevel_getlevel.htm
 tech.root: CoreAudio
 ms.assetid: afc76c80-1656-4f06-8024-c9b041f52e64
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetLevel, GetLevel method [Core Audio], GetLevel method [Core Audio],IPerChannelDbLevel interface, IPerChannelDbLevel interface [Core Audio],GetLevel method, IPerChannelDbLevel.GetLevel, IPerChannelDbLevel::GetLevel, IPerChannelDbLevelGetLevel, coreaudio.iperchanneldblevel_getlevel, devicetopology/IPerChannelDbLevel::GetLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

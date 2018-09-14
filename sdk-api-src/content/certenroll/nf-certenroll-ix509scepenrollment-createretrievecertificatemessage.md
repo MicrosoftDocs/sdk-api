@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment::CreateRetrieveCertificateMessage
 author: windows-sdk-content
 description: Retrieve a previously issued certificate.
 old-location: security\ix509scepenrollment_createretrievecertificatemessage.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 238a837f-4464-49ce-b87a-03abcfc0abea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CreateRetrieveCertificateMessage, CreateRetrieveCertificateMessage method [Security], CreateRetrieveCertificateMessage method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CreateRetrieveCertificateMessage method, IX509SCEPEnrollment.CreateRetrieveCertificateMessage, IX509SCEPEnrollment::CreateRetrieveCertificateMessage, certenroll/IX509SCEPEnrollment::CreateRetrieveCertificateMessage, security.ix509scepenrollment_createretrievecertificatemessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,7 +94,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You must call the <a href="https://msdn.microsoft.com/en-us/library/Dn424982(v=VS.85).aspx">InitializeForPending</a> method before calling this method.
+You must call the <a href="https://msdn.microsoft.com/6b6f9e9d-5316-4928-861a-22497e1f5c00">InitializeForPending</a> method before calling this method.
 
 
 
@@ -104,7 +104,7 @@ You must call the <a href="https://msdn.microsoft.com/en-us/library/Dn424982(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424973(v=VS.85).aspx">IX509SCEPEnrollment</a>
+<a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a>
  
 
  

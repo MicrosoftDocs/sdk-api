@@ -7,7 +7,7 @@ old-location: com\iolecontrol_onmnemonic.htm
 tech.root: com
 ms.assetid: 3b40afc9-89cf-4dfc-ab25-055bdf6964ce
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IOleControl interface [COM],OnMnemonic method, IOleControl.OnMnemonic, IOleControl::OnMnemonic, OnMnemonic, OnMnemonic method [COM], OnMnemonic method [COM],IOleControl interface, _ctrl_iolecontrol_onmnemonic, com.iolecontrol_onmnemonic, ocidl/IOleControl::OnMnemonic
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Informs a control that the user has pressed a keystroke that represents a keyboa
 
 ### -param pMsg [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure describing the keystroke to be processed.
+A pointer to the <a href="_win32_MSG_str_cpp">MSG</a> structure describing the keystroke to be processed.
 
 
 ## -returns

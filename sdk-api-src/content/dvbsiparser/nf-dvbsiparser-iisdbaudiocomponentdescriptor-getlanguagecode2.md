@@ -4,10 +4,10 @@ title: IIsdbAudioComponentDescriptor::GetLanguageCode2
 author: windows-sdk-content
 description: In ES multilingual mode, gets the second three-character ISO 639 language code from an ISDB audio component descriptor.
 old-location: mstv\iisdbaudiocomponentdescriptor_getlanguagecode2.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 3016264e-c952-4243-acd2-a075c89e8c2b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetLanguageCode2, GetLanguageCode2 method [Microsoft TV Technologies], GetLanguageCode2 method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetLanguageCode2 method, IIsdbAudioComponentDescriptor.GetLanguageCode2, IIsdbAudioComponentDescriptor::GetLanguageCode2, dvbsiparser/IIsdbAudioComponentDescriptor::GetLanguageCode2, mstv.iisdbaudiocomponentdescriptor_getlanguagecode2
 ms.prod: windows-hardware
 ms.technology: windows-devices

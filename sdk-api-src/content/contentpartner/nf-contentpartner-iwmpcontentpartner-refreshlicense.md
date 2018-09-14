@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_refreshlicense.htm
 tech.root: WMP
 ms.assetid: 2f0d8ed9-027c-45a3-a61a-f6d571e78a0a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],RefreshLicense method, IWMPContentPartner.RefreshLicense, IWMPContentPartner::RefreshLicense, IWMPContentPartnerRefreshLicense, RefreshLicense, RefreshLicense method [Windows Media Player], RefreshLicense method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::RefreshLicense, wmp.iwmpcontentpartner_refreshlicense
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The <b>RefreshLicense</b> method initiates the update of a license for the speci
 
 ### -param dwCookie [in]
 
-A cookie that identifies the update request. When the online store has finished updating the license, it passes this cookie to <a href="https://msdn.microsoft.com/en-us/library/Dd563151(v=VS.85).aspx">IWMPContentPartnerCallback::RefreshLicenseComplete</a>.
+A cookie that identifies the update request. When the online store has finished updating the license, it passes this cookie to <a href="https://msdn.microsoft.com/426941d9-8d10-4c30-bf2d-cae3f48b51c6">IWMPContentPartnerCallback::RefreshLicenseComplete</a>.
 
 
 ### -param fLocal [in]
@@ -80,7 +80,7 @@ A cookie that identifies the update request. When the online store has finished 
 
 ### -param type [in]
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd564887(v=VS.85).aspx">WMPStreamingType</a> enumeration that specifies the type (music, video, or radio) of the media file.
+A member of the <a href="https://msdn.microsoft.com/3ac7e8cb-39c7-4437-a2da-6de5cb1efed9">WMPStreamingType</a> enumeration that specifies the type (music, video, or radio) of the media file.
 
 
 ### -param contentID [in]
@@ -148,11 +148,11 @@ This method initiates the license update and then returns immediately. When the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563151(v=VS.85).aspx">IWMPContentPartnerCallback::RefreshLicenseComplete</a>
+<a href="https://msdn.microsoft.com/426941d9-8d10-4c30-bf2d-cae3f48b51c6">IWMPContentPartnerCallback::RefreshLicenseComplete</a>
  
 
  

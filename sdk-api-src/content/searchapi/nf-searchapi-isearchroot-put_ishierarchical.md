@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_put_IsHierarchical.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_ishierarchical.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: ISearchRoot interface [search],put_IsHierarchical method, ISearchRoot.put_IsHierarchical, ISearchRoot::put_IsHierarchical, _search_ISearchRoot_put_IsHierarchical, put_IsHierarchical, put_IsHierarchical method [search], put_IsHierarchical method [search],ISearchRoot interface, search._search_ISearchRoot_put_IsHierarchical, searchapi/ISearchRoot::put_IsHierarchical
 ms.prod: windows-hardware
 ms.technology: windows-devices

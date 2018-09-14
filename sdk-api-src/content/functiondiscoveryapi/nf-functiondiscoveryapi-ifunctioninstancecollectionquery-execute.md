@@ -7,7 +7,7 @@ old-location: ncd\ifunctioninstancecollectionquery_execute_method.htm
 tech.root: fundisc
 ms.assetid: b924d066-87d7-499b-b006-a10e219e11fd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: Execute, Execute method, Execute method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,Execute method, IFunctionInstanceCollectionQuery.Execute, IFunctionInstanceCollectionQuery::Execute, functiondiscoveryapi/IFunctionInstanceCollectionQuery::Execute, ncd.ifunctioninstancecollectionquery_execute_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

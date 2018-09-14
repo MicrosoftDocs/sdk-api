@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_importunconfiguredcomponents.htm
 tech.root: cossdk
 ms.assetid: 51bab6c7-5ec2-4651-a0c4-c54683a65d75
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2 interface [COM+],ImportUnconfiguredComponents method, ICOMAdminCatalog2.ImportUnconfiguredComponents, ICOMAdminCatalog2::ImportUnconfiguredComponents, ImportUnconfiguredComponents, ImportUnconfiguredComponents method [COM+], ImportUnconfiguredComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ImportUnconfiguredComponents, comadmin/ICOMAdminCatalog2::ImportUnconfiguredComponents, cos.icomadmincatalog2_importunconfiguredcomponents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The application ID or name of the application into which the components are to b
 
 ### -param pVarCLSIDOrProgID [in]
 
-The unconfigured components to be imported. Each element of the <b>Variant</b> may be a <b>String</b> containing a class ID or program ID, a single catalog object, or a catalog collection (for example, as returned by the <a href="https://msdn.microsoft.com/en-us/library/ms685970(v=VS.85).aspx">GetCollectionByQuery2</a> method).
+The unconfigured components to be imported. Each element of the <b>Variant</b> may be a <b>String</b> containing a class ID or program ID, a single catalog object, or a catalog collection (for example, as returned by the <a href="https://msdn.microsoft.com/b1861e8f-bb42-42b5-9435-6fa366f8284a">GetCollectionByQuery2</a> method).
 
 
 ### -param pVarComponentType [in, optional]
@@ -117,7 +117,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

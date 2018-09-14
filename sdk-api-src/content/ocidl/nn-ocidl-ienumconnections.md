@@ -7,7 +7,7 @@ old-location: com\ienumconnections.htm
 tech.root: com
 ms.assetid: 464966c1-e4e9-4b58-9e41-48de408f572f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IEnumConnections, IEnumConnections interface [COM], IEnumConnections interface [COM],described, _com_ienumconnections, com.ienumconnections, ocidl/IEnumConnections
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Enumerates the current connections for a connectable object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumConnections</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumConnections</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumConnections</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IEnumConnections</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

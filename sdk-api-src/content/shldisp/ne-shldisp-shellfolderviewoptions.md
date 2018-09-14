@@ -7,7 +7,7 @@ old-location: shell\ShellFolderViewOptions.htm
 tech.root: shell
 ms.assetid: 7028ff38-7596-4126-aa98-c0be519243c9
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: SFVVO_DESKTOPHTML, SFVVO_DOUBLECLICKINWEBVIEW, SFVVO_SHOWALLOBJECTS, SFVVO_SHOWCOMPCOLOR, SFVVO_SHOWEXTENSIONS, SFVVO_SHOWSYSFILES, SFVVO_WIN95CLASSIC, ShellFolderViewOptions, ShellFolderViewOptions enumeration [Windows Shell], _win32_ShellFolderViewOptions, shell.ShellFolderViewOptions, shldisp/SFVVO_DESKTOPHTML, shldisp/SFVVO_DOUBLECLICKINWEBVIEW, shldisp/SFVVO_SHOWALLOBJECTS, shldisp/SFVVO_SHOWCOMPCOLOR, shldisp/SFVVO_SHOWEXTENSIONS, shldisp/SFVVO_SHOWSYSFILES, shldisp/SFVVO_WIN95CLASSIC, shldisp/ShellFolderViewOptions
 ms.prod: windows
 ms.technology: windows-sdk

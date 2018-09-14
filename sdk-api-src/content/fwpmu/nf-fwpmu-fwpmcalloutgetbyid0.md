@@ -4,10 +4,10 @@ title: FwpmCalloutGetById0 function
 author: windows-sdk-content
 description: Retrieves a callout object.
 old-location: fwp\fwpmcalloutgetbyid0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: d02eca94-fe08-4a80-9a3f-3a870aa10eed
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FwpmCalloutGetById0, FwpmCalloutGetById0 function [Filtering], fwp.fwpmcalloutgetbyid0_func, fwpmu/FwpmCalloutGetById0
 ms.prod: windows-hardware
 ms.technology: windows-devices

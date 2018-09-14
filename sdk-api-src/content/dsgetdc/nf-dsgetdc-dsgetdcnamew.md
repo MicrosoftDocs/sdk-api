@@ -7,7 +7,7 @@ old-location: ad\dsgetdcname.htm
 tech.root: ad
 ms.assetid: da8b2983-5e45-40b0-b552-c9b3a1d8ae94
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: DS_AVOID_SELF, DS_BACKGROUND_ONLY, DS_DIRECTORY_SERVICE_6_REQUIRED, DS_DIRECTORY_SERVICE_8_REQUIRED, DS_DIRECTORY_SERVICE_PREFERRED, DS_DIRECTORY_SERVICE_REQUIRED, DS_FORCE_REDISCOVERY, DS_GC_SERVER_REQUIRED, DS_GOOD_TIMESERV_PREFERRED, DS_IP_REQUIRED, DS_IS_DNS_NAME, DS_IS_FLAT_NAME, DS_KDC_REQUIRED, DS_ONLY_LDAP_NEEDED, DS_PDC_REQUIRED, DS_RETURN_DNS_NAME, DS_RETURN_FLAT_NAME, DS_TIMESERV_REQUIRED, DS_TRY_NEXTCLOSEST_SITE, DS_WEB_SERVICE_REQUIRED, DS_WRITABLE_REQUIRED, DsGetDcName, DsGetDcName function [Active Directory], DsGetDcNameA, DsGetDcNameW, _glines_dsgetdcname, ad.dsgetdcname, dsgetdc/DsGetDcName, dsgetdc/DsGetDcNameA, dsgetdc/DsGetDcNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -654,13 +654,17 @@ To turn on <a href="https://msdn.microsoft.com/F23E5516-36B9-478E-90D3-54D1C52CB
 
 The key will have a structure as follows:
 
-
-```cpp
-String ProcessName
-  DWORD  PID <optional>
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>String ProcessName
+  DWORD  PID &lt;optional&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 <i>ProcessName</i> must be the full name including extension of the process that you want 
       to get trace information for. <i>PID</i> is only required when multiple processes with the 
       same name exist.  If it is defined, then only the process with that PID will be enabled for tracing.  It is not 

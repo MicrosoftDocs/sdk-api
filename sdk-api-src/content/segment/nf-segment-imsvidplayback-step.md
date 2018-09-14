@@ -4,10 +4,10 @@ title: IMSVidPlayback::Step
 author: windows-sdk-content
 description: The Step method steps through the video stream by a specified number of frames.
 old-location: mstv\imsvidplayback_step.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 8e971571-61f4-4b24-81a7-45fa17b6b785
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Step method, IMSVidPlayback.Step, IMSVidPlayback::Step, IMSVidPlaybackStep, Step, Step method [Microsoft TV Technologies], Step method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_step, segment/IMSVidPlayback::Step
 ms.prod: windows-hardware
 ms.technology: windows-devices

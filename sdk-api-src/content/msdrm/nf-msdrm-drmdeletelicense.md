@@ -4,10 +4,10 @@ title: DRMDeleteLicense function
 author: windows-sdk-content
 description: Deletes a license, client licensor certificate, revocation list, or issuance license template.
 old-location: rm\drmdeletelicense.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 596f9959-0beb-4051-87c4-b8704abd8fc0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMDeleteLicense, DRMDeleteLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDeleteLicense, rm.drmdeletelicense
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 The AD RMS system does not check to determine whether out of date licenses or revocation lists are stored in the license store, even when acquiring a new license or revocation list for content already owned. Therefore, it is important to occasionally delete  licenses or certificates. This can be a time-consuming process, so it might be best to perform this action occasionally or during program idle time.
 
-If you delete an <a href="https://msdn.microsoft.com/en-us/library/Aa362618(v=VS.85).aspx">end-user license</a>, this function will not automatically delete associated revocation lists.
+If you delete an <a href="e_gly.htm">end-user license</a>, this function will not automatically delete associated revocation lists.
 
 If you delete a license by using the content  ID, the <i>hSession</i> parameter must be the handle of a client session.
 

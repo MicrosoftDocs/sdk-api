@@ -7,7 +7,7 @@ old-location: shell\SHCreateProcessAsUserW.htm
 tech.root: shell
 ms.assetid: 78548eaf-6907-41e3-9c22-848d0d159085
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: SHCreateProcessAsUserW, SHCreateProcessAsUserW function [Windows Shell], _win32_SHCreateProcessAsUserW, _win32_SHCreateProcessAsUserW_cpp, shell.SHCreateProcessAsUserW, shellapi/SHCreateProcessAsUserW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,12 +91,16 @@ The <b>runas</b> verb must be supported by the executable file's <a href="https:
 			
 				
 
-
-```
-AssocQueryString(0, ASSOCSTR_COMMAND, pszFile, TEXT("runas"), NULL, &cchVerb)
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>AssocQueryString(0, ASSOCSTR_COMMAND, pszFile, TEXT("runas"), NULL, &amp;cchVerb)</pre>
+</td>
+</tr>
+</table></span></div>
 For a discussion of how to use the Shell to launch applications, see <a href="https://msdn.microsoft.com/d774c3b2-4caf-460a-ac32-0ed603491d5f">Launching Applications</a>.
 
 <b>SHCreateProcessAsUserW</b> is not supported under Windows XP. Users requiring similar functionality should examine <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>, <a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a>, <a href="https://msdn.microsoft.com/dcfdcd5b-0269-4081-b1db-e272171c27a2">CreateProcessWithLogonW</a> and <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a>, carefully evaluating each based on required functionality and security. <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> can be used to extract information used with <b>CreateProcess</b>, if necessary.

@@ -7,7 +7,7 @@ old-location: cos\isharedproperty.htm
 tech.root: cossdk
 ms.assetid: d3c3e888-fe08-4ea6-b94c-fdfcbe7fd08a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ISharedProperty, ISharedProperty interface [COM+], ISharedProperty interface [COM+],described, _cos_ISharedProperty_Interface, comsvcs/ISharedProperty, cos.isharedproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,9 @@ Exposes property methods that you can use to set or retrieve the value of a shar
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISharedProperty</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISharedProperty</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISharedProperty</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ISharedProperty</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ISharedProperty</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms682234(v=VS.85).aspx">get_Value</a>
+<a href="https://msdn.microsoft.com/6b8e297c-db65-41b2-a5ee-3a63a4ff31fb">get_Value</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a shared property.
@@ -80,7 +80,7 @@ Retrieves the value of a shared property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686547(v=VS.85).aspx">put_Value</a>
+<a href="https://msdn.microsoft.com/d193990c-a804-41aa-81d7-75aced274f73">put_Value</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a shared property.
@@ -95,11 +95,11 @@ Sets the value of a shared property.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687626(v=VS.85).aspx">ISharedPropertyGroup</a>
+<a href="https://msdn.microsoft.com/e7f23c83-40d3-4b08-a185-cd6e3260e0a9">ISharedPropertyGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682397(v=VS.85).aspx">ISharedPropertyGroupManager</a>
+<a href="https://msdn.microsoft.com/71c0a1de-5ea5-4496-b0e9-56d0cc8129a9">ISharedPropertyGroupManager</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11rendertargetview1.htm
 tech.root: direct3d11
 ms.assetid: 6063229D-A85A-46E8-9034-D1C2C26A5274
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID3D11RenderTargetView1, ID3D11RenderTargetView1 interface [Direct3D 11], ID3D11RenderTargetView1 interface [Direct3D 11],described, d3d11_3/ID3D11RenderTargetView1, direct3d11.id3d11rendertargetview1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ A render-target-view interface represents the render-target subresources that ca
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11RenderTargetView1</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Ff476582(v=VS.85).aspx">ID3D11RenderTargetView</a>. <b>ID3D11RenderTargetView1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11RenderTargetView1</b> interface inherits from <a href="https://msdn.microsoft.com/3ae7c255-2403-493a-9fb9-fc9795f6d920">ID3D11RenderTargetView</a>. <b>ID3D11RenderTargetView1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -97,7 +97,7 @@ A render target is a resource that can be written by the output-merger stage at 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476582(v=VS.85).aspx">ID3D11RenderTargetView</a>
+<a href="https://msdn.microsoft.com/3ae7c255-2403-493a-9fb9-fc9795f6d920">ID3D11RenderTargetView</a>
 
 
 

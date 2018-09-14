@@ -4,10 +4,10 @@ title: SymRegisterFunctionEntryCallback64 function
 author: windows-sdk-content
 description: Registers a callback function for use by the stack walking procedure on Alpha computers.
 old-location: base\symregisterfunctionentrycallback64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 5915055f-2c6c-4a0e-ad0f-c5bd74558802
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: SymRegisterFunctionEntryCallback, SymRegisterFunctionEntryCallback function, SymRegisterFunctionEntryCallback64, SymRegisterFunctionEntryCallback64 function, _win32_symregisterfunctionentrycallback64, base.symregisterfunctionentrycallback64, dbghelp/SymRegisterFunctionEntryCallback, dbghelp/SymRegisterFunctionEntryCallback64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,9 +100,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 This function supersedes the <b>SymRegisterFunctionEntryCallback</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymRegisterFunctionEntryCallback</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymRegisterFunctionEntryCallback SymRegisterFunctionEntryCallback64
 #else
 BOOL
@@ -112,10 +116,10 @@ SymRegisterFunctionEntryCallback(
     __in PSYMBOL_FUNCENTRY_CALLBACK CallbackFunction,
     __in_opt PVOID UserContext
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: IRichEditOle::HandsOffStorage
 author: windows-sdk-content
 description: Indicates when a rich edit control is to release its reference to the storage interface associated with the specified object. This call does not call the object's IRichEditOle::HandsOffStorage method; the caller must do that.
 old-location: controls\IRichEditOle_HandsOffStorage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolehandsoffstorage.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: HandsOffStorage, HandsOffStorage method [Windows Controls], HandsOffStorage method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],HandsOffStorage method, IRichEditOle.HandsOffStorage, IRichEditOle::HandsOffStorage, _win32_IRichEditOle_HandsOffStorage, _win32_IRichEditOle_HandsOffStorage_cpp, controls.IRichEditOle_HandsOffStorage, controls._win32_IRichEditOle_HandsOffStorage, richole/IRichEditOle::HandsOffStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,7 +81,7 @@ Returns S_OK on success, or a failure code otherwise. E_INVALIDARG is returned i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
+<a href="https://msdn.microsoft.com/d6d1794b-f16c-4a8c-84f5-dfe8bd8be08c">IRichEditOle</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: winauto\createstdaccessibleproxy.htm
 tech.root: WinAuto
 ms.assetid: 724b2a38-f7ca-4423-acd4-0871623d1201
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/13/2018
 ms.keywords: CreateStdAccessibleProxy, CreateStdAccessibleProxy function [Windows Accessibility], CreateStdAccessibleProxyA, CreateStdAccessibleProxyW, _msaa_CreateStdAccessibleProxy, msaa.createstdaccessibleproxy, oleacc/CreateStdAccessibleProxy, oleacc/CreateStdAccessibleProxyA, oleacc/CreateStdAccessibleProxyW, winauto.createstdaccessibleproxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ Pointer to a null-terminated string of the class name of a system-provided user 
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
-Object ID. This value is usually <a href="https://msdn.microsoft.com/en-us/library/Dd373606(v=VS.85).aspx">OBJID_CLIENT</a>, which is one of the object identifier constants, but it may be another object identifier.
+Object ID. This value is usually <a href="object_identifiers.htm">OBJID_CLIENT</a>, which is one of the object identifier constants, but it may be another object identifier.
 
 
 ### -param riid [in]

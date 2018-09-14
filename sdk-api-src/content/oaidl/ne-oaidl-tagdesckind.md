@@ -7,7 +7,7 @@ old-location: automat\desckind.htm
 tech.root: automat
 ms.assetid: bab3d80a-7610-455c-9c64-31a60f4bf01e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DESCKIND, DESCKIND enumeration [Automation], DESCKIND_FUNCDESC, DESCKIND_IMPLICITAPPOBJ, DESCKIND_MAX, DESCKIND_NONE, DESCKIND_TYPECOMP, DESCKIND_VARDESC, _oa96_DESCKIND, automat.desckind, oaidl/DESCKIND, oaidl/DESCKIND_FUNCDESC, oaidl/DESCKIND_IMPLICITAPPOBJ, oaidl/DESCKIND_MAX, oaidl/DESCKIND_NONE, oaidl/DESCKIND_TYPECOMP, oaidl/DESCKIND_VARDESC, tagDESCKIND
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,12 +65,12 @@ No match was found.
 
 ### -field DESCKIND_FUNCDESC
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms221425(v=VS.85).aspx">FUNCDESC</a> was returned.
+A <a href="9998E0CB-5AA3-4CD8-86EB-34760EB1164E">FUNCDESC</a> was returned.
 
 
 ### -field DESCKIND_VARDESC
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms221391(v=VS.85).aspx">VARDESC</a> was returned.
+A <a href="9584977D-41C4-4F73-8844-2135750DDB80">VARDESC</a> was returned.
 
 
 ### -field DESCKIND_TYPECOMP

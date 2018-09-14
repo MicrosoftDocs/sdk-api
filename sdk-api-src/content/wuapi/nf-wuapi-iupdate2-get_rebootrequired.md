@@ -4,10 +4,10 @@ title: IUpdate2::get_RebootRequired
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a system restart is required on a computer to complete the installation or the uninstallation of an update.
 old-location: wua\iupdate2_rebootrequired.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 7e665fd1-20f9-47a0-b78f-e60b51cdac5f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IUpdate2 interface [Windows Update Agent],RebootRequired property, IUpdate2.RebootRequired, IUpdate2.get_RebootRequired, IUpdate2::RebootRequired, IUpdate2::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IUpdate2 interface, get_RebootRequired, wua.iupdate2_rebootrequired, wuapi/IUpdate2::RebootRequired, wuapi/IUpdate2::get_RebootRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices

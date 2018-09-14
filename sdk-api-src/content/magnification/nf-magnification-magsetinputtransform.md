@@ -7,7 +7,7 @@ old-location: magapi\magapi_magsetinputtransform.htm
 tech.root: magapi
 ms.assetid: B42B59DB-9E21-4769-B605-014173514AEB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MagSetInputTransform, MagSetInputTransform function [Magnification API], magapi.magapi_magsetinputtransform, magnification/MagSetInputTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,9 +103,13 @@ This function requires the calling process to have UIAccess privileges.  If the 
 
 The following example sets the input transformation for the full-screen magnifier.
 
-
-```cpp
-// Description:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Description:
 //   Applies an input transformation to adjust pen and touch input to account 
 //   for the current magnification factor.
 //
@@ -115,7 +119,7 @@ BOOL SetInputTranform()
     float magLevel;
     int xOffset, yOffset;
 
-    BOOL fResult = MagGetFullscreenTransform(&magLevel, &xOffset, &yOffset);
+    BOOL fResult = MagGetFullscreenTransform(&amp;magLevel, &amp;xOffset, &amp;yOffset);
     if (fResult)
     {
         // Assume that pen or touch input occurs only in the primary monitor.
@@ -133,15 +137,15 @@ BOOL SetInputTranform()
         rcSource.right  = rcSource.left + (int)(rcDest.right / magLevel);
         rcSource.bottom = rcSource.top  + (int)(rcDest.bottom / magLevel);
 
-        fResult = MagSetInputTransform(TRUE, &rcSource, &rcDest);
+        fResult = MagSetInputTransform(TRUE, &amp;rcSource, &amp;rcDest);
     }
 
     return fResult;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

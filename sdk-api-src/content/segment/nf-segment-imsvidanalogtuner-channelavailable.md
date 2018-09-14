@@ -4,10 +4,10 @@ title: IMSVidAnalogTuner::ChannelAvailable
 author: windows-sdk-content
 description: The ChannelAvailable method queries whether a specified channel is available for viewing.
 old-location: mstv\imsvidanalogtuner_channelavailable.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 67533d80-6026-434f-a20f-ded3c119d318
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ChannelAvailable, ChannelAvailable method [Microsoft TV Technologies], ChannelAvailable method [Microsoft TV Technologies],IMSVidAnalogTuner interface, IMSVidAnalogTuner interface [Microsoft TV Technologies],ChannelAvailable method, IMSVidAnalogTuner.ChannelAvailable, IMSVidAnalogTuner::ChannelAvailable, IMSVidAnalogTunerChannelAvailable, mstv.imsvidanalogtuner_channelavailable, segment/IMSVidAnalogTuner::ChannelAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

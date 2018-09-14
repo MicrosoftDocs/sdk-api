@@ -4,10 +4,10 @@ title: ITextPara::GetAlignment
 author: windows-sdk-content
 description: Retrieves the current paragraph alignment value.
 old-location: controls\ITextPara_GetAlignment.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getalignment.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetAlignment, GetAlignment method [Windows Controls], GetAlignment method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetAlignment method, ITextPara.GetAlignment, ITextPara::GetAlignment, _win32_ITextPara_GetAlignment, _win32_ITextPara_GetAlignment_cpp, controls.ITextPara_GetAlignment, controls._win32_ITextPara_GetAlignment, tom/ITextPara::GetAlignment, tomAlignCenter, tomAlignInterLetter, tomAlignInterWord, tomAlignJustify, tomAlignLeft, tomAlignNewspaper, tomAlignRight, tomAlignScaled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -182,7 +182,7 @@ The paragraph format object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -190,11 +190,11 @@ The paragraph format object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774123(v=VS.85).aspx">SetAlignment</a>
+<a href="https://msdn.microsoft.com/7d4dbd7e-8164-4005-bcd2-36ddf5fbf9a9">SetAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

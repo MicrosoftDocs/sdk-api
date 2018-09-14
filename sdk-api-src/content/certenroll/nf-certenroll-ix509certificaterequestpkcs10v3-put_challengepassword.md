@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10V3::put_ChallengePassword
 author: windows-sdk-content
 description: The password to use when creating a request with a challenge. To create a request without a challenge, do not set the ChallengePassword property.
 old-location: security\ix509certificaterequestpkcs10v3_challengepassword.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 6eea0993-d5ba-4cc3-9757-4e57e088cdc7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ChallengePassword property [Security], ChallengePassword property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],ChallengePassword property, IX509CertificateRequestPkcs10V3.ChallengePassword, IX509CertificateRequestPkcs10V3.put_ChallengePassword, IX509CertificateRequestPkcs10V3::ChallengePassword, IX509CertificateRequestPkcs10V3::get_ChallengePassword, IX509CertificateRequestPkcs10V3::put_ChallengePassword, certenroll/IX509CertificateRequestPkcs10V3::ChallengePassword, certenroll/IX509CertificateRequestPkcs10V3::get_ChallengePassword, certenroll/IX509CertificateRequestPkcs10V3::put_ChallengePassword, put_ChallengePassword, security.ix509certificaterequestpkcs10v3_challengepassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379345(v=VS.85).aspx">IX509CertificateRequestPkcs10V3</a>
+<a href="https://msdn.microsoft.com/e833d1dc-da0f-4f5e-9027-ebf7413ef8c3">IX509CertificateRequestPkcs10V3</a>
  
 
  

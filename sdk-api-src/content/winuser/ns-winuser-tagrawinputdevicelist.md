@@ -7,7 +7,7 @@ old-location: inputdev\rawinputdevicelist.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawinputdevicelist.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRAWINPUTDEVICELIST, PRAWINPUTDEVICELIST, PRAWINPUTDEVICELIST structure pointer [Keyboard and Mouse Input], RAWINPUTDEVICELIST, RAWINPUTDEVICELIST structure [Keyboard and Mouse Input], RIM_TYPEHID, RIM_TYPEKEYBOARD, RIM_TYPEMOUSE, _win32_RAWINPUTDEVICELIST_str, _win32_rawinputdevicelist_str_cpp, inputdev.rawinputdevicelist, tagRAWINPUTDEVICELIST, winui._win32_rawinputdevicelist_str, winuser/PRAWINPUTDEVICELIST, winuser/RAWINPUTDEVICELIST"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,11 +122,11 @@ The device is a mouse.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645598(v=VS.85).aspx">GetRawInputDeviceList</a>
+<a href="https://msdn.microsoft.com/0283e578-8f6c-4239-b856-99d8812f588b">GetRawInputDeviceList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://msdn.microsoft.com/a2afdb80-d68a-4c33-826f-96739d239cd9">Raw Input</a>
 
 
 

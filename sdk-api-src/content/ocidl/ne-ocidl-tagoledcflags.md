@@ -7,7 +7,7 @@ old-location: com\oledcflags.htm
 tech.root: com
 ms.assetid: f8953376-2cbb-4f03-8216-2727d6a9f128
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: OLEDCFLAGS, OLEDCFLAGS enumeration [COM], OLEDC_NODRAW, OLEDC_OFFSCREEN, OLEDC_PAINTBKGND, _ole_OLEDCFLAGS, com.oledcflags, ocidl/OLEDCFLAGS, ocidl/OLEDC_NODRAW, ocidl/OLEDC_OFFSCREEN, ocidl/OLEDC_PAINTBKGND, tagOLEDCFLAGS
 ms.prod: windows
 ms.technology: windows-sdk

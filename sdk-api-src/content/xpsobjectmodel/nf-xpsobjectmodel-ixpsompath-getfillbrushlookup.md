@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_getfillbrushlookup.htm
 tech.root: printdocs
 ms.assetid: 89433357-fa39-41e9-bd21-ff3c076261db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetFillBrushLookup, GetFillBrushLookup method [XPS Documents and Packaging], GetFillBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetFillBrushLookup method, IXpsOMPath.GetFillBrushLookup, IXpsOMPath::GetFillBrushLookup, xps.ixpsompath_getfillbrushlookup, xpsobjectmodel/IXpsOMPath::GetFillBrushLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -148,7 +148,7 @@ The method succeeded.
 
 
 
-This method allocates the memory used by the string that is returned in <i>lookup</i>.  If <i>lookup</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>lookup</i>.  If <i>lookup</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

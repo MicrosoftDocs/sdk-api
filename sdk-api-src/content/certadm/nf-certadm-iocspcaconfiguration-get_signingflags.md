@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_signingflags_method.htm
 tech.root: seccrypto
 ms.assetid: 00575bb5-eb18-44f2-b2a8-f2f2fd361dec
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningFlags property, IOCSPCAConfiguration.SigningFlags, IOCSPCAConfiguration.get_SigningFlags, IOCSPCAConfiguration::SigningFlags, IOCSPCAConfiguration::get_SigningFlags, IOCSPCAConfiguration::put_SigningFlags, SigningFlags property [Security], SigningFlags property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningFlags, certadm/IOCSPCAConfiguration::get_SigningFlags, certadm/IOCSPCAConfiguration::put_SigningFlags, get_SigningFlags, security.iocspcaconfiguration_signingflags_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>SigningFlags</b> property gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) configuration.
+The <b>SigningFlags</b> property gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) configuration.
 
 This property is read/write.
 
@@ -138,7 +138,7 @@ If you specify <b>OCSP_SF_ALLOW_SIGNINGCERT_AUTOENROLLMENT</b>, you must also sp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386328(v=VS.85).aspx">IOCSPCAConfiguration</a>
+<a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a>
  
 
  

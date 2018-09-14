@@ -4,10 +4,10 @@ title: "_PDH_STATISTICS"
 author: windows-sdk-content
 description: The PDH_STATISTICS structure contains the minimum, maximum, and mean values for an array of raw counters values.
 old-location: perf\pdh_statistics_str.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: a1daedfd-55f6-418e-b71f-8334cb628d98
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPDH_STATISTICS, PDH_STATISTICS, PDH_STATISTICS structure [Perf], PPDH_STATISTICS, PPDH_STATISTICS structure pointer [Perf], _PDH_STATISTICS, _win32_pdh_statistics_str, base.pdh_statistics_str, pdh/PDH_STATISTICS, pdh/PPDH_STATISTICS, perf.pdh_statistics_str"
 ms.prod: windows
 ms.technology: windows-sdk

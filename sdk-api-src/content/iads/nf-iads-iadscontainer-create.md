@@ -7,7 +7,7 @@ old-location: adsi\iadscontainer_create.htm
 tech.root: ADSI
 ms.assetid: 9498ef4d-7a03-487f-91a7-189f17a38a24
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: Create, Create method [ADSI], Create method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],Create method, IADsContainer.Create, IADsContainer::Create, _ds_iadscontainer_create, adsi.iadscontainer__create, adsi.iadscontainer_create, iads/IADsContainer::Create
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ Relative name of the object as it is known in the underlying directory and ident
 
 #### - ppNewObject [out]
 
-Indirect pointer to the  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the newly created object.
+Indirect pointer to the  <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface on the newly created object.
 
 
 ## -returns
@@ -112,7 +112,7 @@ This method supports the standard return values, including S_OK for a successful
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

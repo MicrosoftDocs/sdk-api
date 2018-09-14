@@ -7,7 +7,7 @@ old-location: p2p\peergroupshutdown.htm
 tech.root: p2psdk
 ms.assetid: 61678a50-71cd-4717-b490-2755c605c2d5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerGroupShutdown, PeerGroupShutdown function [Peer Networking], p2p.peergroupshutdown, p2p/PeerGroupShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

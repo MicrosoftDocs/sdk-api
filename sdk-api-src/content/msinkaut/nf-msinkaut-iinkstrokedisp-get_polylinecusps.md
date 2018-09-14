@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_polylinecusps.htm
 tech.root: tablet
 ms.assetid: 67ae7265-4416-4eef-8a8f-85f3a5751200
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: 67ae7265-4416-4eef-8a8f-85f3a5751200, IInkStrokeDisp interface [Tablet PC],PolylineCusps property, IInkStrokeDisp.PolylineCusps, IInkStrokeDisp.get_PolylineCusps, IInkStrokeDisp::PolylineCusps, IInkStrokeDisp::get_PolylineCusps, PolylineCusps property [Tablet PC], PolylineCusps property [Tablet PC],IInkStrokeDisp interface, get_PolylineCusps, msinkaut/IInkStrokeDisp::PolylineCusps, msinkaut/IInkStrokeDisp::get_PolylineCusps, tablet.iinkstrokedisp_polylinecusps
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDirect3DBaseTexture9::GenerateMipSubLevels
 author: windows-sdk-content
 description: Generate mipmap sublevels.
 old-location: direct3d9\idirect3dbasetexture9__generatemipsublevels.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9__generatemipsublevels.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 7228ab65-d7b2-7a27-b076-d7bdec0f0e33, GenerateMipSubLevels, GenerateMipSubLevels method [Direct3D 9], GenerateMipSubLevels method [Direct3D 9],IDirect3DBaseTexture9 interface, IDirect3DBaseTexture9 interface [Direct3D 9],GenerateMipSubLevels method, IDirect3DBaseTexture9.GenerateMipSubLevels, IDirect3DBaseTexture9::GenerateMipSubLevels, d3d9helper/IDirect3DBaseTexture9::GenerateMipSubLevels, direct3d9.idirect3dbasetexture9__generatemipsublevels
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ No return value.
 
 
 
-An application can generate mipmap sublevels at any time by calling <b>GenerateMipSubLevels</b>. To have mipmap sublevels generated automatically at texture creation time (see <a href="https://msdn.microsoft.com/en-us/library/Bb172340(v=VS.85).aspx">Automatic Generation of Mipmaps (Direct3D 9)</a>), specify  D3DUSAGE_AUTOGENMIPMAP during <a href="https://msdn.microsoft.com/en-us/library/Bb174363(v=VS.85).aspx">CreateTexture</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb174355(v=VS.85).aspx">CreateCubeTexture</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb174367(v=VS.85).aspx">CreateVolumeTexture</a>. For more information about usage constants, see <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE</a>.
+An application can generate mipmap sublevels at any time by calling <b>GenerateMipSubLevels</b>. To have mipmap sublevels generated automatically at texture creation time (see <a href="https://msdn.microsoft.com/ae5955f9-e52a-41d7-a199-800e37a3e936">Automatic Generation of Mipmaps (Direct3D 9)</a>), specify  D3DUSAGE_AUTOGENMIPMAP during <a href="https://msdn.microsoft.com/61b27c7f-cfec-4cb1-bdb9-a973c37a7df4">CreateTexture</a>, <a href="https://msdn.microsoft.com/d8ae94bb-5b16-4d08-aeb9-cb15029725c9">CreateCubeTexture</a>, and <a href="https://msdn.microsoft.com/a0dada01-aca1-46ef-8321-62022219843f">CreateVolumeTexture</a>. For more information about usage constants, see <a href="https://msdn.microsoft.com/c8823c39-8f17-441c-a42b-de3d7ec02f75">D3DUSAGE</a>.
 
 
 
@@ -84,15 +84,15 @@ An application can generate mipmap sublevels at any time by calling <b>GenerateM
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174324(v=VS.85).aspx">GetAutoGenFilterType</a>
+<a href="https://msdn.microsoft.com/5dd29318-ddf3-4d21-9b6e-fa0e2512a004">GetAutoGenFilterType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>
+<a href="https://msdn.microsoft.com/d4d7f8b9-2e7b-4445-8380-2d321a46e064">IDirect3DBaseTexture9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174327(v=VS.85).aspx">SetAutoGenFilterType</a>
+<a href="https://msdn.microsoft.com/fa742bfe-e4b2-48f6-8d84-3772b519aab3">SetAutoGenFilterType</a>
  
 
  

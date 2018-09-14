@@ -7,7 +7,7 @@ old-location: com\ipropertypage_translateaccelerator.htm
 tech.root: com
 ms.assetid: 70501c3d-257c-4981-b841-4bd45f0bec27
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IPropertyPage interface [COM],TranslateAccelerator method, IPropertyPage.TranslateAccelerator, IPropertyPage::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IPropertyPage interface, _ctrl_ipropertypage_translateaccelerator, com.ipropertypage_translateaccelerator, ocidl/IPropertyPage::TranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Passes a keystroke to the property page for processing.
 
 ### -param pMsg [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure describing the keystroke to be processed.
+A pointer to the <a href="_win32_MSG_str_cpp">MSG</a> structure describing the keystroke to be processed.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: setup\imsmmerge_merge.htm
 tech.root: msi
 ms.assetid: 3ff1a2a8-accb-43d7-ba38-a89a5d099dc5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMsmMerge interface,Merge method, IMsmMerge.Merge, IMsmMerge::Merge, Merge, Merge method, Merge method,IMsmMerge interface, _msi_merge_function, mergemod/IMsmMerge::Merge, setup.imsmmerge_merge
 ms.prod: windows-hardware
 ms.technology: windows-devices

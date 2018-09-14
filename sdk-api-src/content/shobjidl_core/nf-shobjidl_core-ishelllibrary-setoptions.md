@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_SetOptions.htm
 tech.root: shell
 ms.assetid: 8bec0c71-3170-4ff9-aa87-4880d6ac7e32
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetOptions method, IShellLibrary.SetOptions, IShellLibrary::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetOptions, shell.IShellLibrary_SetOptions, shobjidl_core/IShellLibrary::SetOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,9 +97,13 @@ To change an option value, you must set the option value that you want to change
 
 The following example clears the LOF_PINNEDTONAVPANE library option.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 LIBRARYOPTIONFLAGS	maskValue;
 LIBRARYOPTIONFLAGS optionValue;
 HRESULT	hr = E_FAIL;
@@ -113,10 +117,10 @@ maskValue = LOF_PINNEDTONAVPANE;
 optionValue = ~LOF_PINNEDTONAVPANE;
 
 // call the method
-hr = library->SetOptions (maskValue, optionValue);
-```
-
-
+hr = library-&gt;SetOptions (maskValue, optionValue);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

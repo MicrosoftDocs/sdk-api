@@ -7,7 +7,7 @@ old-location: tsf\itfcontextownercompositionsink.htm
 tech.root: TSF
 ms.assetid: 4fea0a48-df5f-4f34-a3ea-d52883f6f8b1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITfContextOwnerCompositionSink, ITfContextOwnerCompositionSink interface [Text Services Framework], ITfContextOwnerCompositionSink interface [Text Services Framework],described, _tsf_itfcontextownercompositionsink_ref, msctf/ITfContextOwnerCompositionSink, tsf.itfcontextownercompositionsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ Called when an existing composition is changed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

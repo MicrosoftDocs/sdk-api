@@ -7,7 +7,7 @@ old-location: cos\icomtransactionevents_ontransactionstart.htm
 tech.root: cossdk
 ms.assetid: ef9d7adc-69ed-4582-9ce7-c66c947d48a6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IComTransactionEvents interface [COM+],OnTransactionStart method, IComTransactionEvents.OnTransactionStart, IComTransactionEvents::OnTransactionStart, OnTransactionStart, OnTransactionStart method [COM+], OnTransactionStart method [COM+],IComTransactionEvents interface, _dtc_IComTransactionEvents_OnTransactionStart, comsvcs/IComTransactionEvents::OnTransactionStart, cos.icomtransactionevents_ontransactionstart
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: adsi\iadsacl.htm
 tech.root: ADSI
 ms.assetid: 71aebf28-f906-4a86-8bdb-ecb0626a350f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsAcl, IADsAcl interface [ADSI], IADsAcl interface [ADSI],described, _ds_iadsacl, adsi.iadsacl, iads/IADsAcl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The <b>IADsAcl</b> interface provides methods for an ADSI client to access and m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsAcl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsAcl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsAcl</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IADsAcl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -146,7 +146,7 @@ Gets and sets the name of a subject.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: opc\iopcpartset_deletepart.htm
 tech.root: OPC
 ms.assetid: 2d69530f-7e10-409a-8832-f410d6f9582e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: DeletePart, DeletePart method [Open Packaging Conventions], DeletePart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],DeletePart method, IOpcPartSet.DeletePart, IOpcPartSet::DeletePart, msopc/IOpcPartSet::DeletePart, opc.iopcpartset_deletepart
 ms.prod: windows-hardware
 ms.technology: windows-devices

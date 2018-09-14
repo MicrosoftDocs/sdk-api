@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicconvertbitmapsource.htm
 tech.root: wic
 ms.assetid: ea735296-1bfd-4175-b8c9-cb5a61ab4203
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: WICConvertBitmapSource, WICConvertBitmapSource function [Windows Imaging Component], _wic_codec_wicconvertbitmapsource, wic._wic_codec_wicconvertbitmapsource, wincodec/WICConvertBitmapSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Obtains a <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff425
 
 ### -param dstFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ee719797(v=VS.85).aspx">REFWICPixelFormatGUID</a></b>
+Type: <b><a href="_wic_codec_native_pixel_formats.htm">REFWICPixelFormatGUID</a></b>
 
 The pixel format to convert to.
 
@@ -102,9 +102,13 @@ If the <i>pISrc</i> bitmap is already in the desired format, <i>pISrc</i> is cop
 
 The following example converts an <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> to a <b>GUID_WICPixelFormat128bppPRGBAFloat</b> pixel format.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
    IWICImagingFactory *pFactory = NULL;
    IWICBitmapDecoder *pDecoder = NULL;
    IWICBitmapFrameDecode *pBitmapFrameDecode = NULL;
@@ -119,41 +123,41 @@ The following example converts an <a href="https://msdn.microsoft.com/abcc84af-6
                     NULL,
                     CLSCTX_INPROC_SERVER,
                     IID_IWICImagingFactory,
-                    (LPVOID*) &pFactory);
+                    (LPVOID*) &amp;pFactory);
 
    // Create a decoder from the file.
    if (SUCCEEDED(hr))
    {
-      hr = pFactory->CreateDecoderFromFilename(L"test.jpg",
+      hr = pFactory-&gt;CreateDecoderFromFilename(L"test.jpg",
                          NULL,
                          GENERIC_READ,
                          WICDecodeMetadataCacheOnDemand,
-                         &pDecoder);
+                         &amp;pDecoder);
    }
 
    // Get the frame count.
    if (SUCCEEDED(hr))
    {
-      hr = pDecoder->GetFrameCount(&uiFrameCount);
+      hr = pDecoder-&gt;GetFrameCount(&amp;uiFrameCount);
    }
 
-   if (SUCCEEDED(hr) && (uiFrameCount > 0))
+   if (SUCCEEDED(hr) &amp;&amp; (uiFrameCount &gt; 0))
    {
       IWICBitmapSource *pSource = NULL;
 
-      hr = pDecoder->GetFrame(0, &pBitmapFrameDecode);
+      hr = pDecoder-&gt;GetFrame(0, &amp;pBitmapFrameDecode);
 
       if (SUCCEEDED(hr))
       {
          pSource = pBitmapFrameDecode;
-         pSource->AddRef();
+         pSource-&gt;AddRef();
 
-         hr = pSource->GetSize(&uiWidth, &uiHeight);
+         hr = pSource-&gt;GetSize(&amp;uiWidth, &amp;uiHeight);
       }
 
       if (SUCCEEDED(hr))
       {
-         hr = pSource->GetPixelFormat(&pixelFormat);
+         hr = pSource-&gt;GetPixelFormat(&amp;pixelFormat);
       }
 
       if (SUCCEEDED(hr))
@@ -161,11 +165,11 @@ The following example converts an <a href="https://msdn.microsoft.com/abcc84af-6
          if (!IsEqualGUID(pixelFormat, GUID_WICPixelFormat128bppPRGBAFloat))
          {
 
-            hr = WICConvertBitmapSource(GUID_WICPixelFormat128bppPRGBAFloat, pSource, &pConverter);
+            hr = WICConvertBitmapSource(GUID_WICPixelFormat128bppPRGBAFloat, pSource, &amp;pConverter);
 
             if (SUCCEEDED(hr))
             {
-               pSource->Release();     // the converter has a reference to the source
+               pSource-&gt;Release();     // the converter has a reference to the source
                pSource = NULL;         // so we don't need it anymore.
                pSource = pConverter;   // let's treat the 128bppPABGR converter as the source
             }
@@ -186,12 +190,12 @@ The following example converts an <a href="https://msdn.microsoft.com/abcc84af-6
                rc.Width = uiWidth;
                rc.Height = 1;
 
-               for (UINT i = 0; SUCCEEDED(hr) && i < uiHeight; i++)
+               for (UINT i = 0; SUCCEEDED(hr) &amp;&amp; i &lt; uiHeight; i++)
                {
-                  hr = pSource->CopyPixels(&rc,
+                  hr = pSource-&gt;CopyPixels(&amp;rc,
                                     cbStride,
                                     cbBufferSize,
-                                    reinterpret_cast<BYTE*>(pixels));
+                                    reinterpret_cast&lt;BYTE*&gt;(pixels));
 
                   // Do something with the scanline here...
 
@@ -205,29 +209,29 @@ The following example converts an <a href="https://msdn.microsoft.com/abcc84af-6
                hr = E_OUTOFMEMORY;
             }
 
-            pConverter->Release();
+            pConverter-&gt;Release();
          }
       }
    }
 
    if (pBitmapFrameDecode)
    {
-      pBitmapFrameDecode->Release();
+      pBitmapFrameDecode-&gt;Release();
    }
 
    if (pDecoder)
    {
-      pDecoder->Release();
+      pDecoder-&gt;Release();
    }
 
    if (pFactory)
    {
-      pFactory->Release();
+      pFactory-&gt;Release();
    }
 
-   return hr;
-```
-
-
+   return hr;</pre>
+</td>
+</tr>
+</table></span></div>
 
 

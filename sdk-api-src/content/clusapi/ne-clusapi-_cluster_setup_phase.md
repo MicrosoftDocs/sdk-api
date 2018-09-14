@@ -7,7 +7,7 @@ old-location: mscs\cluster_setup_phase.htm
 tech.root: mscs
 ms.assetid: cc881b92-c312-4b88-8d8d-09f98925b5b5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CLUSTER_SETUP_PHASE, CLUSTER_SETUP_PHASE enumeration [Failover Cluster], ClusterSetupPhaseAddClusterProperties, ClusterSetupPhaseAddNodeToCluster, ClusterSetupPhaseCleanupCOs, ClusterSetupPhaseCleanupNode, ClusterSetupPhaseClusterGroupOnline, ClusterSetupPhaseConfigureClusSvc, ClusterSetupPhaseConfigureClusterAccount, ClusterSetupPhaseCoreGroupCleanup, ClusterSetupPhaseCreateClusterAccount, ClusterSetupPhaseCreateGroups, ClusterSetupPhaseCreateIPAddressResources, ClusterSetupPhaseCreateNetworkName, ClusterSetupPhaseCreateResourceTypes, ClusterSetupPhaseDeleteGroup, ClusterSetupPhaseEvictNode, ClusterSetupPhaseFailureCleanup, ClusterSetupPhaseFormingCluster, ClusterSetupPhaseGettingCurrentMembership, ClusterSetupPhaseInitialize, ClusterSetupPhaseMoveGroup, ClusterSetupPhaseNodeUp, ClusterSetupPhaseOfflineGroup, ClusterSetupPhaseQueryClusterNameAccount, ClusterSetupPhaseStartingClusSvc, ClusterSetupPhaseValidateClusDisk, ClusterSetupPhaseValidateClusterNameAccount, ClusterSetupPhaseValidateNetft, ClusterSetupPhaseValidateNodeState, _CLUSTER_SETUP_PHASE, clusapi/CLUSTER_SETUP_PHASE, clusapi/ClusterSetupPhaseAddClusterProperties, clusapi/ClusterSetupPhaseAddNodeToCluster, clusapi/ClusterSetupPhaseCleanupCOs, clusapi/ClusterSetupPhaseCleanupNode, clusapi/ClusterSetupPhaseClusterGroupOnline, clusapi/ClusterSetupPhaseConfigureClusSvc, clusapi/ClusterSetupPhaseConfigureClusterAccount, clusapi/ClusterSetupPhaseCoreGroupCleanup, clusapi/ClusterSetupPhaseCreateClusterAccount, clusapi/ClusterSetupPhaseCreateGroups, clusapi/ClusterSetupPhaseCreateIPAddressResources, clusapi/ClusterSetupPhaseCreateNetworkName, clusapi/ClusterSetupPhaseCreateResourceTypes, clusapi/ClusterSetupPhaseDeleteGroup, clusapi/ClusterSetupPhaseEvictNode, clusapi/ClusterSetupPhaseFailureCleanup, clusapi/ClusterSetupPhaseFormingCluster, clusapi/ClusterSetupPhaseGettingCurrentMembership, clusapi/ClusterSetupPhaseInitialize, clusapi/ClusterSetupPhaseMoveGroup, clusapi/ClusterSetupPhaseNodeUp, clusapi/ClusterSetupPhaseOfflineGroup, clusapi/ClusterSetupPhaseQueryClusterNameAccount, clusapi/ClusterSetupPhaseStartingClusSvc, clusapi/ClusterSetupPhaseValidateClusDisk, clusapi/ClusterSetupPhaseValidateClusterNameAccount, clusapi/ClusterSetupPhaseValidateNetft, clusapi/ClusterSetupPhaseValidateNodeState, mscs.cluster_setup_phase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 Used by the 
-    <a href="https://msdn.microsoft.com/en-us/library/Bb394687(v=VS.85).aspx">ClusterSetupProgressCallback</a> function 
+    <a href="https://msdn.microsoft.com/fb7a6991-576c-4c03-aef0-89811fbc1a0d">ClusterSetupProgressCallback</a> function 
     to identify the current phase of the cluster setup process.
 
 
@@ -205,11 +205,11 @@ Return failed resource to pre-clustered state.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb394687(v=VS.85).aspx">ClusterSetupProgressCallback</a>
+<a href="https://msdn.microsoft.com/fb7a6991-576c-4c03-aef0-89811fbc1a0d">ClusterSetupProgressCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

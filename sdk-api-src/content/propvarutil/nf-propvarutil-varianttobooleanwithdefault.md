@@ -7,7 +7,7 @@ old-location: properties\VariantToBooleanWithDefault.htm
 tech.root: properties
 ms.assetid: 523c6e75-a51c-4ef7-928c-0d228ab0d337
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: VariantToBooleanWithDefault, VariantToBooleanWithDefault function [Windows Properties], _shell_VariantToBooleanWithDefault, properties.VariantToBooleanWithDefault, propvarutil/VariantToBooleanWithDefault, shell.VariantToBooleanWithDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Extracts a <b>BOOL</b> value from a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure. If no value exists, then the specified default value is returned.
+Extracts a <b>BOOL</b> value from a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure. If no value exists, then the specified default value is returned.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Extracts a <b>BOOL</b> value from a <a href="https://msdn.microsoft.com/en-us/li
 
 Type: <b>REFVARIANT</b>
 
-Reference to a source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+Reference to a source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ### -param fDefault [in]
@@ -87,32 +87,36 @@ Returns the extracted <b>BOOL</b> value; otherwise, the default value specified 
 
 
 
-This helper function is used when the calling application expects a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> to hold a <b>BOOL</b> value and wants to use a default value if it does not.
+This helper function is used when the calling application expects a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> to hold a <b>BOOL</b> value and wants to use a default value if it does not.
 
-If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> is of type VT_BOOL, this helper extracts the <b>BOOL</b> value.
+If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is of type VT_BOOL, this helper extracts the <b>BOOL</b> value.
 
-If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> is not of type VT_BOOL, the function attempts to convert the value in the <b>VARIANT</b> into a <b>BOOL</b>.
+If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is not of type VT_BOOL, the function attempts to convert the value in the <b>VARIANT</b> into a <b>BOOL</b>.
 
-If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> is of type VT_EMPTY or a conversion is not possible, then <a href="https://msdn.microsoft.com/en-us/library/Bb776595(v=VS.85).aspx">VariantToBooleanWithDefault</a> returns the default value provided by <i>fDefault</i>. See <a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> for a list of possible conversions.
+If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is of type VT_EMPTY or a conversion is not possible, then <a href="shell.VariantToBooleanWithDefault">VariantToBooleanWithDefault</a> returns the default value provided by <i>fDefault</i>. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776595(v=VS.85).aspx">VariantToBooleanWithDefault</a> to access a <b>BOOL</b> value stored in a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBooleanWithDefault">VariantToBooleanWithDefault</a> to access a <b>BOOL</b> value stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
-
-```cpp
-// VARIANT var;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// VARIANT var;
 // Assume variable var is initialized and valid.  
 // The application expects var to hold a BOOL value.
 // The application treats VT_EMPTY as FALSE.
 
 BOOL fValue = VariantToBooleanWithDefault(var, FALSE);
 
-// fValue is now valid.
-```
-
-
+// fValue is now valid.</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -121,19 +125,19 @@ BOOL fValue = VariantToBooleanWithDefault(var, FALSE);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762316(v=VS.85).aspx">InitVariantFromBoolean</a>
+<a href="shell.InitVariantFromBoolean">InitVariantFromBoolean</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
+<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776531(v=VS.85).aspx">PropVariantToBoolean</a>
+<a href="shell.PropVariantToBoolean">PropVariantToBoolean</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776592(v=VS.85).aspx">VariantToBoolean</a>
+<a href="shell.VariantToBoolean">VariantToBoolean</a>
  
 
  

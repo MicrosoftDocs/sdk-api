@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothsdpgetstring.htm
 tech.root: bluetooth
 ms.assetid: 26a68fe3-6ffb-44ff-b9db-757d35022a41
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: BluetoothSdpGetString, BluetoothSdpGetString function [Bluetooth], bluetooth.bluetoothsdpgetstring, bluetoothapis/BluetoothSdpGetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ The length, in bytes, of <i>pRecordStream</i>.
 ### -param pStringData [in]
 
 When set to <b>NULL</b>, the calling thread locale is used to search          for a matching string in the SDP record.  If not <b>NULL</b>, the <b>mibeNum</b> and <b>attributeId</b> members of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363055(v=VS.85).aspx">SDP_STRING_TYPE_DATA</a> structure are used to find the string to convert.
+<a href="https://msdn.microsoft.com/16ff7951-08a7-49c5-93a5-0782cca50dab">SDP_STRING_TYPE_DATA</a> structure are used to find the string to convert.
 
 
 ### -param usStringOffset [in]
@@ -164,27 +164,27 @@ the requested attribute plus offset was not a string.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362885(v=VS.85).aspx">BluetoothSdpEnumAttributes</a>
+<a href="https://msdn.microsoft.com/3113db03-a32f-47ad-a442-3769f41ee8e7">BluetoothSdpEnumAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362886(v=VS.85).aspx">BluetoothSdpGetAttributeValue</a>
+<a href="https://msdn.microsoft.com/79368265-3d01-4bfd-ba71-930696e0bc08">BluetoothSdpGetAttributeValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362887(v=VS.85).aspx">BluetoothSdpGetContainerElementData</a>
+<a href="https://msdn.microsoft.com/7dbf44f6-8a80-419e-9db7-60ada9ca9647">BluetoothSdpGetContainerElementData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362889(v=VS.85).aspx">BluetoothSdpGetElementData</a>
+<a href="https://msdn.microsoft.com/65de8f2f-1781-44fa-87a9-21aa461eb8ee">BluetoothSdpGetElementData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363054(v=VS.85).aspx">SDP_ELEMENT_DATA</a>
+<a href="https://msdn.microsoft.com/9c9d6103-cc49-41d2-bbb3-6b6888fb93e7">SDP_ELEMENT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363055(v=VS.85).aspx">SDP_STRING_TYPE_DATA</a>
+<a href="https://msdn.microsoft.com/16ff7951-08a7-49c5-93a5-0782cca50dab">SDP_STRING_TYPE_DATA</a>
  
 
  

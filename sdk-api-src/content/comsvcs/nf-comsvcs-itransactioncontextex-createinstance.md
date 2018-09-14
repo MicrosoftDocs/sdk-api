@@ -7,7 +7,7 @@ old-location: cos\itransactioncontextex_createinstance.htm
 tech.root: cossdk
 ms.assetid: 49684f80-847b-4613-9148-dd34dc22a476
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ITransactionContextEx interface, ITransactionContextEx interface [COM+],CreateInstance method, ITransactionContextEx.CreateInstance, ITransactionContextEx::CreateInstance, _cos_ITransactionContextEx_CreateInstance, comsvcs/ITransactionContextEx::CreateInstance, cos.itransactioncontextex_createinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,27 +123,31 @@ If the Microsoft Distributed Transaction Coordinator is not running and the obje
 
 #### Examples
 
-
-```cpp
-ITransactionContextEx* pTransactionContext = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ITransactionContextEx* pTransactionContext = NULL;
 IMyObject* pMyObject = NULL;
 HRESULT hr;
 
 // Get TransactionContextEx.
 hr = CoCreateInstance(CLSID_TransactionContextEx, 
   NULL, CLSCTX_INPROC, IID_ITransactionContextEx, 
-  (void**)&pTransactionContext);
+  (void**)&amp;pTransactionContext);
 if (FAILED(hr)) throw(hr);
 
 // Create an instance of MyObject.
-hr = pTransactionContext->CreateInstance(CLSID_CMyObject, 
-  IID_IMyObject, (void**)&pMyObject);
+hr = pTransactionContext-&gt;CreateInstance(CLSID_CMyObject, 
+  IID_IMyObject, (void**)&amp;pMyObject);
 if (FAILED(hr)) throw(hr);
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

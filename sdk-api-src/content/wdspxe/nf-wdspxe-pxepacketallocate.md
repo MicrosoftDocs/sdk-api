@@ -4,10 +4,10 @@ title: PxePacketAllocate function
 author: windows-sdk-content
 description: Allocates a packet to be sent with the PxeSendReply function.
 old-location: wds\pxepacketallocate.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: f3a664a8-565c-4894-bea7-6664df0ecd9b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: PxePacketAllocate, PxePacketAllocate function [Windows Deployment Services], wds.pxepacketallocate, wdspxe/PxePacketAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices

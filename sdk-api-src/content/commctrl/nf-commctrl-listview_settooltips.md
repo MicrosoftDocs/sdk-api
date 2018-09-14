@@ -4,10 +4,10 @@ title: ListView_SetToolTips macro
 author: windows-sdk-content
 description: Sets the tooltip control that the list-view control will use to display tooltips. You can use this macro or send the LVM_SETTOOLTIPS message explicitly.
 old-location: controls\ListView_SetToolTips.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settooltips.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ListView_SetToolTips, ListView_SetToolTips macro [Windows Controls], _win32_ListView_SetToolTips, _win32_ListView_SetToolTips_cpp, commctrl/ListView_SetToolTips, controls.ListView_SetToolTips, controls._win32_ListView_SetToolTips
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the tooltip control that the list-view control will use to display tooltips. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761216(v=VS.85).aspx">LVM_SETTOOLTIPS</a> message explicitly. 
+Sets the tooltip control that the list-view control will use to display tooltips. You can use this macro or send the <a href="https://msdn.microsoft.com/5b4335a4-e9f0-4b13-b00b-516af3b60bf1">LVM_SETTOOLTIPS</a> message explicitly. 
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Sets the tooltip control that the list-view control will use to display tooltips
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
 
 ### -param hwndNewHwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the tooltip control to be set. 
 
@@ -77,7 +77,7 @@ A handle to the tooltip control to be set.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775014(v=VS.85).aspx">ListView_GetToolTips</a>
+<a href="https://msdn.microsoft.com/3d8277a6-e35d-4b07-9817-d13b42a66fe6">ListView_GetToolTips</a>
  
 
  

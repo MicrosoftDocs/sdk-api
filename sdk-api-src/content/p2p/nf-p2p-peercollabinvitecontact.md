@@ -7,7 +7,7 @@ old-location: p2p\peercollabinvitecontact.htm
 tech.root: p2psdk
 ms.assetid: 65c6cdb5-33af-435c-9444-42f8689e13a8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerCollabInviteContact, PeerCollabInviteContact function [Peer Networking], p2p.peercollabinvitecontact, p2p/PeerCollabInviteContact
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -141,7 +141,7 @@ This API ensures the peer that receives the invitation is the contact specified 
 A toast will appear for the recipient of the invitation. This toast will be converted to a dialog box in which the user can accept or decline the invitation. When the invitation is successfully accepted, the collaborative application is launched on the recipient's machine.
 
 
-To successfully receive the invitation, the application must be registered on the recipient's machine using <a href="https://msdn.microsoft.com/en-us/library/Aa371076(v=VS.85).aspx">PeerCollabRegisterApplication</a>. It is also possible for the sender of the invite to have  failure codes returned because the recipient has turned off application invites.
+To successfully receive the invitation, the application must be registered on the recipient's machine using <a href="p2p.peercollabregisterapplication">PeerCollabRegisterApplication</a>. It is also possible for the sender of the invite to have  failure codes returned because the recipient has turned off application invites.
 
 
 If the recipient is accepting invitations only from trusted contacts, then the sender of the invite must be added to the contact store of the recipient machine. The sender must be added to the contact store before the invitation attempt. To add a contact to the contact store, call <a href="https://msdn.microsoft.com/0e4ba039-2016-487d-b4df-e96648db1a05">PeerCollabAddContact</a>. 

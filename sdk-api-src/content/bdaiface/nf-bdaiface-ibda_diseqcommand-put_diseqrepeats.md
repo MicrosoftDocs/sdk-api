@@ -4,10 +4,10 @@ title: IBDA_DiseqCommand::put_DiseqRepeats
 author: windows-sdk-content
 description: Enables or disables repeated Digital Satellite Equipment Control (DiSEqC) commands.
 old-location: mstv\ibda_diseqcommand_put_diseqrepeats.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: de5cbfa9-1509-47cf-b994-24b5dac76d8e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],put_DiseqRepeats method, IBDA_DiseqCommand.put_DiseqRepeats, IBDA_DiseqCommand::put_DiseqRepeats, bdaiface/IBDA_DiseqCommand::put_DiseqRepeats, mstv.ibda_diseqcommand_put_diseqrepeats, put_DiseqRepeats, put_DiseqRepeats method [Microsoft TV Technologies], put_DiseqRepeats method [Microsoft TV Technologies],IBDA_DiseqCommand interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ commands for the far device. However, repeated commands can increase  the amount
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693308(v=VS.85).aspx">IBDA_DiseqCommand</a>
+<a href="https://msdn.microsoft.com/0148a32d-b131-46ba-bbf0-82e2cf9c7d86">IBDA_DiseqCommand</a>
  
 
  

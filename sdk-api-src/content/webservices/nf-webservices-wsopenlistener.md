@@ -7,7 +7,7 @@ old-location: wsw\wsopenlistener.htm
 tech.root: wsw
 ms.assetid: 36226881-3fe7-4510-b147-7ee30146482c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WsOpenListener, WsOpenListener function [Web Services for Windows], webservices/WsOpenListener, wsw.wsopenlistener
 ms.prod: windows-hardware
 ms.technology: windows-devices

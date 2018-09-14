@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11linkingnode.htm
 tech.root: direct3d11
 ms.assetid: 533D2DA8-107A-48B1-928F-5788DC9CF706
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID3D11LinkingNode, ID3D11LinkingNode interface [Direct3D 11], ID3D11LinkingNode interface [Direct3D 11],described, d3d11shader/ID3D11LinkingNode, direct3d11.id3d11linkingnode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ A linking-node interface is used for shader linking. <div class="alert"><b>Note<
 
 
 
-To get a linking-node interface, call <a href="https://msdn.microsoft.com/en-us/library/Dn280542(v=VS.85).aspx">ID3D11FunctionLinkingGraph::SetInputSignature</a>, <a href="https://msdn.microsoft.com/en-us/library/Dn280543(v=VS.85).aspx">ID3D11FunctionLinkingGraph::SetOutputSignature</a>, or <a href="https://msdn.microsoft.com/en-us/library/Dn280536(v=VS.85).aspx">ID3D11FunctionLinkingGraph::CallFunction</a>.
+To get a linking-node interface, call <a href="https://msdn.microsoft.com/9108BA38-6A0A-4438-BC63-A80790E4A5F0">ID3D11FunctionLinkingGraph::SetInputSignature</a>, <a href="https://msdn.microsoft.com/C32E3BF1-E08C-4949-A8DE-4359704D2E40">ID3D11FunctionLinkingGraph::SetOutputSignature</a>, or <a href="https://msdn.microsoft.com/0DEEE3E4-7D4E-40BD-9D96-A1C91CF5E4BE">ID3D11FunctionLinkingGraph::CallFunction</a>.
       
 
 <div class="alert"><b>Note</b>  <b>ID3D11LinkingNode</b> requires the D3dcompiler_47.dll or a later version of the DLL.
@@ -74,11 +74,11 @@ To get a linking-node interface, call <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476161(v=VS.85).aspx">Shader Interfaces</a>
+<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
  
 
  

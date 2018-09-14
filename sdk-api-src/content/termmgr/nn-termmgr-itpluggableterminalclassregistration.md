@@ -4,10 +4,10 @@ title: ITPluggableTerminalClassRegistration
 author: windows-sdk-content
 description: The ITPluggableTerminalClassRegistration interface exposes methods that allow the creation, modification, and deletion of the registry entry for a pluggable terminal.
 old-location: tapi3\itpluggableterminalclassregistration.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 178824f5-9dda-4e8a-b921-f2c9d064a83c
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegistration interface [TAPI 2.2], ITPluggableTerminalClassRegistration interface [TAPI 2.2],described, _tapi3_itpluggableterminalclassregistration, tapi3.itpluggableterminalclassregistration, termmgr/ITPluggableTerminalClassRegistration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalClassRegistration</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITPluggableTerminalClassRegistration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalClassRegistration</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITPluggableTerminalClassRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

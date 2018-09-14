@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_get_BypassList.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_bypasslist.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: ISearchManager interface [search],get_BypassList method, ISearchManager.get_BypassList, ISearchManager::get_BypassList, _search_ISearchManager_get_BypassList, get_BypassList, get_BypassList method [search], get_BypassList method [search],ISearchManager interface, search._search_ISearchManager_get_BypassList, searchapi/ISearchManager::get_BypassList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling <a href="https://msdn.microsoft.com/en-us/library/Bb231488(v=VS.85).aspx">ISearchManager::SetProxy</a>.
+Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling <a href="https://msdn.microsoft.com/93fc8bb8-9cec-4c3a-8a7f-a988e931f803">ISearchManager::SetProxy</a>.
         
 
 

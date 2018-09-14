@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_trace_value.htm
 tech.root: direct3d11
 ms.assetid: 15AFA648-DCAC-42A1-9606-6E292E92C217
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D3D11_TRACE_VALUE, D3D11_TRACE_VALUE structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_VALUE, direct3d11.d3d11_trace_value
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,7 +118,7 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476176(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/3b8ece5c-5065-4711-b12c-06cf7ea0e1ba">Shader Structures</a>
  
 
  

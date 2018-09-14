@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_setpreviewheight.htm
 tech.root: tablet
 ms.assetid: a5e011f6-cd51-4016-ba15-c47c152bfa99
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetPreviewHeight method, IMathInputControl.SetPreviewHeight, IMathInputControl::SetPreviewHeight, SetPreviewHeight, SetPreviewHeight method [Tablet PC], SetPreviewHeight method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetPreviewHeight, tablet.imathinputcontrol_setpreviewheight
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,19 +113,23 @@ The following image shows the Math Input Control with the default preview height
 
 
 
-<img alt="Math input control with default preview height" src="./images/mic.png"/>
+<img alt="Math input control with default preview height" src="images/mic.png"/>
 The following image shows the Math Input Control with a custom preview height.
 
 
 
-<img alt="Math input control with custom preview height" src="./images/mic_big_preview.png"/>
+<img alt="Math input control with custom preview height" src="images/mic_big_preview.png"/>
 
 #### Examples
 
-
-```cpp
-
-    CComPtr<IMathInputControl> g_spMIC; // Math Input Control
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+    CComPtr&lt;IMathInputControl&gt; g_spMIC; // Math Input Control
         
     // Set the preview height
     // Note:  Control must be initialized first
@@ -133,12 +137,12 @@ The following image shows the Math Input Control with a custom preview height.
     {
       LONG height = 200;
       HRESULT hr = S_OK;
-      hr = g_spMIC->SetPreviewHeight(height);
+      hr = g_spMIC-&gt;SetPreviewHeight(height);
     }          
-        
-```
-
-
+        </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

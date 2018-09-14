@@ -7,7 +7,7 @@ old-location: direct3d11\id3dx11fft_forwardtransform.htm
 tech.root: direct3d11
 ms.assetid: da10b166-9561-4c04-b6b8-92b2daec30d7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ForwardTransform, ForwardTransform method [Direct3D 11], ForwardTransform method [Direct3D 11],ID3DX11FFT interface, ID3DX11FFT interface [Direct3D 11],ForwardTransform method, ID3DX11FFT.ForwardTransform, ID3DX11FFT::ForwardTransform, d3dcsx/ID3DX11FFT::ForwardTransform, direct3d11.id3dx11fft_forwardtransform, fbd555b1-86f3-8e92-7c5e-ed1c088e2207
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,7 @@ Pointer to a <a href="https://msdn.microsoft.com/9def4a7d-f145-4073-8d7d-bf3c7ac
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the return codes described in the topic <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

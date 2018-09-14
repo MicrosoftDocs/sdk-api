@@ -4,10 +4,10 @@ title: tagOFFLINEFILES_ITEM_COPY
 author: windows-sdk-content
 description: Specifies whether the local, remote, or original copy of an item is being queried.
 old-location: of\offlinefiles_item_copy.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: b956f186-962b-457e-9c03-ffd1a7f937ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OFFLINEFILES_ITEM_COPY, OFFLINEFILES_ITEM_COPY enumeration [Offline Files], OFFLINEFILES_ITEM_COPY_LOCAL, OFFLINEFILES_ITEM_COPY_ORIGINAL, OFFLINEFILES_ITEM_COPY_REMOTE, cscobj/OFFLINEFILES_ITEM_COPY, cscobj/OFFLINEFILES_ITEM_COPY_LOCAL, cscobj/OFFLINEFILES_ITEM_COPY_ORIGINAL, cscobj/OFFLINEFILES_ITEM_COPY_REMOTE, of.offlinefiles_item_copy, tagOFFLINEFILES_ITEM_COPY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,15 +78,15 @@ Retrieve the attributes, time values, or size of the original copy of the item. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530569(v=VS.85).aspx">IOfflineFilesFileSysInfo::GetAttributes</a>
+<a href="https://msdn.microsoft.com/5bf8a834-cd5e-46b9-9b7d-b5cc6fb9fe10">IOfflineFilesFileSysInfo::GetAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530570(v=VS.85).aspx">IOfflineFilesFileSysInfo::GetFileSize</a>
+<a href="https://msdn.microsoft.com/a24b7126-ee9a-40f8-9fcd-8696e756a6b9">IOfflineFilesFileSysInfo::GetFileSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530571(v=VS.85).aspx">IOfflineFilesFileSysInfo::GetTimes</a>
+<a href="https://msdn.microsoft.com/120b3f7c-6a92-4a03-8676-1ad4e4dc96b3">IOfflineFilesFileSysInfo::GetTimes</a>
  
 
  

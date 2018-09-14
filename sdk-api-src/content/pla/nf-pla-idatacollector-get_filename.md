@@ -7,7 +7,7 @@ old-location: pla\idatacollector_filename.htm
 tech.root: PLA
 ms.assetid: 9208baf8-0bc7-45c4-a912-7b59f4c1ca6a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: FileName property [PLA], FileName property [PLA],IDataCollector interface, IDataCollector interface [PLA],FileName property, IDataCollector.FileName, IDataCollector.get_FileName, IDataCollector::FileName, IDataCollector::get_FileName, IDataCollector::put_FileName, base.idatacollector_filename, get_FileName, pla.idatacollector_filename, pla/IDataCollector::FileName, pla/IDataCollector::get_FileName, pla/IDataCollector::put_FileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

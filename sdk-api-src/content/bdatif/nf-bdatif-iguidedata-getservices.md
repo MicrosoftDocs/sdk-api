@@ -4,10 +4,10 @@ title: IGuideData::GetServices
 author: windows-sdk-content
 description: The GetServices method retrieves a collection of tune requests representing all the services available in the tuning space.
 old-location: mstv\iguidedata_getservices.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: a3c08812-ed56-440e-a88d-80e20a681695
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetServices method, IGuideData.GetServices, IGuideData::GetServices, IGuideDataGetServices, bdatif/IGuideData::GetServices, mstv.iguidedata_getservices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ The <b>GetServices</b> method retrieves a collection of tune requests representi
 
 ### -param ppEnumTuneRequests [out]
 
-Pointer to a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694005(v=VS.85).aspx">IEnumTuneRequests</a> interface pointer. Use this interface to enumerate the properties. The caller must release the interface.
+Pointer to a variable that receives an <a href="https://msdn.microsoft.com/5ad872be-4408-4069-80db-ae73b2127b91">IEnumTuneRequests</a> interface pointer. Use this interface to enumerate the properties. The caller must release the interface.
 
 
 ## -returns
@@ -98,9 +98,9 @@ The method succeeded.
 
 
 
-This method is used to enumerate all services listed in the service descriptor table. Each tune request in the returned collection contains locator data for the service. To get more information about a service, pass the <a href="https://msdn.microsoft.com/en-us/library/Dd694997(v=VS.85).aspx">ITuneRequest</a> pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694116(v=VS.85).aspx">IGuideData::GetServiceProperties</a> method.
+This method is used to enumerate all services listed in the service descriptor table. Each tune request in the returned collection contains locator data for the service. To get more information about a service, pass the <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> pointer to the <a href="https://msdn.microsoft.com/28be3bb7-b76a-44a3-892c-2aade5dbe255">IGuideData::GetServiceProperties</a> method.
 
-The method fails if the TIF has not received the service information from the PSI tables in the transport stream. The client should implement the <a href="https://msdn.microsoft.com/en-us/library/Dd694099(v=VS.85).aspx">IGuideDataEvent</a> interface and wait for the <a href="https://msdn.microsoft.com/en-us/library/Dd694105(v=VS.85).aspx">IGuideDataEvent::ServiceChanged</a> event to be fired.
+The method fails if the TIF has not received the service information from the PSI tables in the transport stream. The client should implement the <a href="https://msdn.microsoft.com/9da565f2-fbcb-4d71-ae40-7d9821f46630">IGuideDataEvent</a> interface and wait for the <a href="https://msdn.microsoft.com/75387dd8-e0e2-4fae-8c4a-a0b7b06f61b1">IGuideDataEvent::ServiceChanged</a> event to be fired.
 
 
 
@@ -110,11 +110,11 @@ The method fails if the TIF has not received the service information from the PS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694098(v=VS.85).aspx">IGuideData Interface</a>
+<a href="https://msdn.microsoft.com/3bd27fce-90be-480b-b157-a17beccda068">IGuideData Interface</a>
  
 
  

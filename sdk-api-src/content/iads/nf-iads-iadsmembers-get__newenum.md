@@ -7,7 +7,7 @@ old-location: adsi\iadsmembers_get__newenum.htm
 tech.root: ADSI
 ms.assetid: 5a65794c-2407-4267-bc02-d84a134f6bf4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsMembers interface [ADSI],get__NewEnum method, IADsMembers.get__NewEnum, IADsMembers::get__NewEnum, _ds_iadsmembers_get__newenum, adsi.iadsmembers__get____newenum, adsi.iadsmembers_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsMembers interface, iads/IADsMembers::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IADsMembers::get__NewEnum</b> method gets a dependent enumerator object that implements  <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> for this ADSI collection object. Be aware that there are two underscore characters in the function name (<b>get__NewEnum</b>).
+The <b>IADsMembers::get__NewEnum</b> method gets a dependent enumerator object that implements  <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> for this ADSI collection object. Be aware that there are two underscore characters in the function name (<b>get__NewEnum</b>).
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>IADsMembers::get__NewEnum</b> method gets a dependent enumerator object t
 
 ### -param ppEnumerator [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on the enumerator object for this collection.
+Pointer to a pointer to the <a href="_com_iunknown">IUnknown</a> interface on the enumerator object for this collection.
 
 
 ## -returns
@@ -89,11 +89,11 @@ This method supports the standard return values, including S_OK. For more inform
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

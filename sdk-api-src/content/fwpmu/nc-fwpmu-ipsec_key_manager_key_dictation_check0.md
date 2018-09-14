@@ -4,10 +4,10 @@ title: IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
 author: windows-sdk-content
 description: Indicates whether the Trusted Intermediary Agent (TIA) will dictate the keys for the SA being negotiated.
 old-location: fwp\ipsec_key_manager_key_dictation_check0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 0B91B57C-6943-4702-8926-8ED2B7B3E48D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0, IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 function, IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 function pointer [Filtering], fwp.ipsec_key_manager_key_dictation_check0, fwpmu/IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
 ms.prod: windows
 ms.technology: windows-sdk

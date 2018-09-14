@@ -7,7 +7,7 @@ old-location: tablet\iinkextendedproperties_remove.htm
 tech.root: tablet
 ms.assetid: 2211a462-df26-4168-b89c-9607683defdb
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: 2211a462-df26-4168-b89c-9607683defdb, IInkExtendedProperties interface [Tablet PC],Remove method, IInkExtendedProperties.Remove, IInkExtendedProperties::Remove, Remove, Remove method [Tablet PC], Remove method [Tablet PC],IInkExtendedProperties interface, msinkaut/IInkExtendedProperties::Remove, tablet.iinkextendedproperties_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -180,7 +180,7 @@ Unexpected parameter or property type.
 
 This method removes only the extended property from a snapshot of, or reference to, the ink data and does not remove the actual ink data.
 
-The <i>Identifier</i> parameter can be a BSTR, a LONG, or an <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>. Use a BSTR for the GUID of the property, a LONG for the index of the property, and an <b>IDispatch</b> for a reference to a specific property. To specify the GUID of the property when you are using late binding, such as when you use a scripting language, you must pass in the argument as a STRING literal and not use a variable.
+The <i>Identifier</i> parameter can be a BSTR, a LONG, or an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>. Use a BSTR for the GUID of the property, a LONG for the index of the property, and an <b>IDispatch</b> for a reference to a specific property. To specify the GUID of the property when you are using late binding, such as when you use a scripting language, you must pass in the argument as a STRING literal and not use a variable.
 
 For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
 

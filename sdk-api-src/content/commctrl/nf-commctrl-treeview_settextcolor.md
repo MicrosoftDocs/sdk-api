@@ -4,10 +4,10 @@ title: TreeView_SetTextColor macro
 author: windows-sdk-content
 description: Sets the text color of the control. You can use this macro or send the TVM_SETTEXTCOLOR message explicitly.
 old-location: controls\TreeView_SetTextColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_settextcolor.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: TreeView_SetTextColor, TreeView_SetTextColor macro [Windows Controls], _win32_TreeView_SetTextColor, _win32_TreeView_SetTextColor_cpp, commctrl/TreeView_SetTextColor, controls.TreeView_SetTextColor, controls._win32_TreeView_SetTextColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the text color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773769(v=VS.85).aspx">TVM_SETTEXTCOLOR</a> message explicitly. 
+Sets the text color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/eb57dfd5-3e7b-4cda-a659-be9e03470a44">TVM_SETTEXTCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets the text color of the control. You can use this macro or send the <a href="
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a tree-view control. 
 
@@ -78,7 +78,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773893(v=VS.85).aspx">TreeView_GetTextColor</a>
+<a href="https://msdn.microsoft.com/a4c003eb-0e0e-496a-a048-ce733e8fcd45">TreeView_GetTextColor</a>
  
 
  

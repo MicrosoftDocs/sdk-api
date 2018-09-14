@@ -4,10 +4,10 @@ title: "_RDV_TASK_STATUS"
 author: windows-sdk-content
 description: Used with the IRDVTaskPluginNotifySink::OnTaskStateChange method to indicate the status of a task.
 old-location: termserv\rdv_task_status.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 69278A29-9100-4855-B5B3-C790563B8B72
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RDV_TASK_STATUS, RDV_TASK_STATUS enumeration [Remote Desktop Services], RDV_TASK_STATUS_APPLYING, RDV_TASK_STATUS_DOWNLOADING, RDV_TASK_STATUS_FAILED, RDV_TASK_STATUS_REBOOTED, RDV_TASK_STATUS_REBOOTING, RDV_TASK_STATUS_SEARCHING, RDV_TASK_STATUS_SUCCESS, RDV_TASK_STATUS_TIMEOUT, RDV_TASK_STATUS_UNKNOWN, _RDV_TASK_STATUS, sessdirpublictypes/RDV_TASK_STATUS, sessdirpublictypes/RDV_TASK_STATUS_APPLYING, sessdirpublictypes/RDV_TASK_STATUS_DOWNLOADING, sessdirpublictypes/RDV_TASK_STATUS_FAILED, sessdirpublictypes/RDV_TASK_STATUS_REBOOTED, sessdirpublictypes/RDV_TASK_STATUS_REBOOTING, sessdirpublictypes/RDV_TASK_STATUS_SEARCHING, sessdirpublictypes/RDV_TASK_STATUS_SUCCESS, sessdirpublictypes/RDV_TASK_STATUS_TIMEOUT, sessdirpublictypes/RDV_TASK_STATUS_UNKNOWN, termserv.rdv_task_status
 ms.prod: windows
 ms.technology: windows-sdk

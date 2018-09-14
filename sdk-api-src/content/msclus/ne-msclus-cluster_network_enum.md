@@ -7,7 +7,7 @@ old-location: mscs\cluster_network_enum.htm
 tech.root: mscs
 ms.assetid: f5b02ce2-92d0-4ae7-a5bb-8e5d9c987095
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CLUSTER_NETWORK_ENUM, CLUSTER_NETWORK_ENUM enumeration [Failover Cluster], CLUSTER_NETWORK_ENUM_ALL, CLUSTER_NETWORK_ENUM_NETINTERFACES, _CLUSTER_NETWORK_ENUM, _CLUSTER_NETWORK_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_NETWORK_ENUM, clusapi/CLUSTER_NETWORK_ENUM_ALL, clusapi/CLUSTER_NETWORK_ENUM_NETINTERFACES, clusapi/_CLUSTER_NETWORK_ENUM, msclus/CLUSTER_NETWORK_ENUM, msclus/CLUSTER_NETWORK_ENUM_ALL, msclus/CLUSTER_NETWORK_ENUM_NETINTERFACES, msclus/_CLUSTER_NETWORK_ENUM, mscs.cluster_network_enum
 ms.prod: windows
 ms.technology: windows-sdk

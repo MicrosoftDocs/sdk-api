@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::GetDevice
 author: windows-sdk-content
 description: Gets the device associated with a device context.
 old-location: direct2d\id2d1devicecontext_getdevice.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8c8664cb-d6be-41e0-8415-d60dcd46132a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetDevice, GetDevice method [Direct2D], GetDevice method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetDevice method, ID2D1DeviceContext.GetDevice, ID2D1DeviceContext::GetDevice, d2d1_1/ID2D1DeviceContext::GetDevice, direct2d.id2d1devicecontext_getdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\getprocessworkingsetsize.htm
 tech.root: procthread
 ms.assetid: 9ac2e9ae-31f4-40aa-8d23-6926fa6dec22
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/13/2018
 ms.keywords: GetProcessWorkingSetSize, GetProcessWorkingSetSize function, _win32_getprocessworkingsetsize, base.getprocessworkingsetsize, winbase/GetProcessWorkingSetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,11 +97,15 @@ The "working set" of a process is the set of memory pages currently visible to t
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <stdlib.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 int main(int argc, char *argv[])
 {
@@ -126,7 +130,7 @@ int main(int argc, char *argv[])
 
     // Retrieve the working set size of the process.
 
-    if (!GetProcessWorkingSetSize(hProcess, &dwMin, &dwMax))
+    if (!GetProcessWorkingSetSize(hProcess, &amp;dwMin, &amp;dwMax))
     {
         printf("GetProcessWorkingSetSize failed (%d)\n",
             GetLastError());
@@ -141,10 +145,10 @@ int main(int argc, char *argv[])
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\amvauncompbufferinfo.htm
 tech.root: DirectShow
 ms.assetid: 113cc7ba-d05e-48a7-88cb-13645beb16d1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: "*LPAMVAUncompBufferInfo, AMVAUncompBufferInfo, AMVAUncompBufferInfo structure [DirectShow], AMVAUncompBufferInfoStructure, LPAMVAUncompBufferInfo, LPAMVAUncompBufferInfo structure pointer [DirectShow], _tag_AMVAUncompBufferInfo, amva/AMVAUncompBufferInfo, amva/LPAMVAUncompBufferInfo, dshow.amvauncompbufferinfo"
 ms.prod: windows
 ms.technology: windows-sdk

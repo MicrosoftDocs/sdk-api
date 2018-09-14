@@ -7,7 +7,7 @@ old-location: dshow\am_aspect_ratio_mode.htm
 tech.root: DirectShow
 ms.assetid: 4f7c6220-6231-4bb1-aea6-7f1581b04d3a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: AM_ARMODE_CROP, AM_ARMODE_LETTER_BOX, AM_ARMODE_STRETCHED, AM_ARMODE_STRETCHED_AS_PRIMARY, AM_ASPECT_RATIO_MODE, AM_ASPECT_RATIO_MODE , AM_ASPECT_RATIO_MODE enumeration [DirectShow], AM_ASPECT_RATIO_MODEEnumeration, _AM_ASPECT_RATIO_MODE, dshow.am_aspect_ratio_mode, mpconfig/AM_ARMODE_CROP, mpconfig/AM_ARMODE_LETTER_BOX, mpconfig/AM_ARMODE_STRETCHED, mpconfig/AM_ARMODE_STRETCHED_AS_PRIMARY, mpconfig/AM_ASPECT_RATIO_MODE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: adsi\iadstimestamp.htm
 tech.root: ADSI
 ms.assetid: 5f24e6e9-ad5b-4d5b-b3f3-cc3aca599bc1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsTimestamp, IADsTimestamp interface [ADSI], IADsTimestamp interface [ADSI],described, Timestamp, _ds_iadstimestamp, adsi.iadstimestamp, iads/IADsTimestamp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

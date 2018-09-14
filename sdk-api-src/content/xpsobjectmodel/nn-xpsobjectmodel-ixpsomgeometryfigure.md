@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigure.htm
 tech.root: printdocs
 ms.assetid: e76a14ce-cfc3-4a50-855e-f5779b9fc261
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], IXpsOMGeometryFigure interface [XPS Documents and Packaging],described, xps.ixpsomgeometryfigure, xpsobjectmodel/IXpsOMGeometryFigure
 ms.prod: windows
 ms.technology: windows-sdk
@@ -216,9 +216,13 @@ The <b>IXpsOMGeometryFigure</b> corresponds to the <b>PathFigure</b> element in 
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMGeometryFigure    *newInterface;
 // startPoint contains the starting point
 // of the geometry figure being created
@@ -232,28 +236,28 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreateGeometryFigure (&startPoint, &newInterface);
+    hr = xpsFactory-&gt;CreateGeometryFigure (&amp;startPoint, &amp;newInterface);
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface->Release();
+        newInterface-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

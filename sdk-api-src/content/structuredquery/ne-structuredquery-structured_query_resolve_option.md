@@ -7,7 +7,7 @@ old-location: search\_search_STRUCTURED_QUERY_RESOLVE_OPTION.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\structured_query_resolve_option.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: SQRO_ADD_ROBUST_ITEM_NAME, SQRO_ALWAYS_ONE_INTERVAL, SQRO_DEFAULT, SQRO_DONT_MAP_RELATIONS, SQRO_DONT_REMOVE_UNRESTRICTED_KEYWORDS, SQRO_DONT_RESOLVE_DATETIME, SQRO_DONT_RESOLVE_RANGES, SQRO_DONT_SIMPLIFY_CONDITION_TREES, SQRO_DONT_SPLIT_WORDS, SQRO_IGNORE_PHRASE_ORDER, SQRO_NULL_VALUE_TYPE_FOR_PLAIN_VALUES, STRUCTURED_QUERY_RESOLVE_OPTION, STRUCTURED_QUERY_RESOLVE_OPTION enumeration [search], _search_STRUCTURED_QUERY_RESOLVE_OPTION, search._search_STRUCTURED_QUERY_RESOLVE_OPTION, structuredquery/SQRO_ADD_ROBUST_ITEM_NAME, structuredquery/SQRO_ALWAYS_ONE_INTERVAL, structuredquery/SQRO_DEFAULT, structuredquery/SQRO_DONT_MAP_RELATIONS, structuredquery/SQRO_DONT_REMOVE_UNRESTRICTED_KEYWORDS, structuredquery/SQRO_DONT_RESOLVE_DATETIME, structuredquery/SQRO_DONT_RESOLVE_RANGES, structuredquery/SQRO_DONT_SIMPLIFY_CONDITION_TREES, structuredquery/SQRO_DONT_SPLIT_WORDS, structuredquery/SQRO_IGNORE_PHRASE_ORDER, structuredquery/SQRO_NULL_VALUE_TYPE_FOR_PLAIN_VALUES, structuredquery/STRUCTURED_QUERY_RESOLVE_OPTION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Unless this flag is true, a leaf node with a virtual property that maps to sever
 
 ### -field SQRO_DONT_RESOLVE_RANGES
 
-A range resulting from a date/time expression, an expression such as "20..40", is first resolved to a leaf node that has a <b>VT_UNKNOWN</b> value where the punkVal member implements the <a href="https://msdn.microsoft.com/en-us/library/Bb231368(v=VS.85).aspx">IInterval</a> interface. Unless this flag is set, the returned condition tree will have been further resolved to an <b>AND</b> of simple comparisons such as <i>COP_GREATERTHANOREQUAL</i> and <i>COP_LESSTHAN</i>. For example, for an AQS query "date:this month" resolved against 9/19/2006 10:28:33, if this flag is not set, the resulting condition tree is an <b>AND</b> of System.ItemDate <i>COP_GREATERTHANOREQUAL</i> 9/1/2006 00:00:00 and System.ItemDate <i>COP_LESSTHAN</i> 10/1/2006 00:00:00. If this flag is set, the resulting condition tree will relate System.ItemDate to an <b>IInterval</b> such that its <a href="https://msdn.microsoft.com/en-us/library/Bb231367(v=VS.85).aspx">IInterval::GetLimits</a> method returns <i>ILK_EXPLICIT_INCLUDED</i>, 9/1/2006 00:00:00, <i>ILK_EXPLICIT_EXCLUDED</i> and 10/1/2006 00:00:00.
+A range resulting from a date/time expression, an expression such as "20..40", is first resolved to a leaf node that has a <b>VT_UNKNOWN</b> value where the punkVal member implements the <a href="https://msdn.microsoft.com/b8a55ff7-cbe0-4f58-ad93-1a26ecf3fd7c">IInterval</a> interface. Unless this flag is set, the returned condition tree will have been further resolved to an <b>AND</b> of simple comparisons such as <i>COP_GREATERTHANOREQUAL</i> and <i>COP_LESSTHAN</i>. For example, for an AQS query "date:this month" resolved against 9/19/2006 10:28:33, if this flag is not set, the resulting condition tree is an <b>AND</b> of System.ItemDate <i>COP_GREATERTHANOREQUAL</i> 9/1/2006 00:00:00 and System.ItemDate <i>COP_LESSTHAN</i> 10/1/2006 00:00:00. If this flag is set, the resulting condition tree will relate System.ItemDate to an <b>IInterval</b> such that its <a href="https://msdn.microsoft.com/631f3ec2-cf8f-4c20-8933-c83bac4b3d58">IInterval::GetLimits</a> method returns <i>ILK_EXPLICIT_INCLUDED</i>, 9/1/2006 00:00:00, <i>ILK_EXPLICIT_EXCLUDED</i> and 10/1/2006 00:00:00.
 
 
 ### -field SQRO_DONT_REMOVE_UNRESTRICTED_KEYWORDS
@@ -100,7 +100,7 @@ If this flag is set, a group of words not separated by white space will be kept 
 
 ### -field SQRO_IGNORE_PHRASE_ORDER
 
-If a phrase in an AQS query is enclosed in double quotes, the words in that phrase go into a single leaf node (regardless of whether <a href="https://msdn.microsoft.com/en-us/library/Bb231387(v=VS.85).aspx">SQRO_DONT_SPLIT_WORDS</a> is set) unless this flag is set, in which case they end up in separate leaf nodes and their order no longer matters. An application can set this flag if it is not able to handle leaf nodes with multiple words correctly.
+If a phrase in an AQS query is enclosed in double quotes, the words in that phrase go into a single leaf node (regardless of whether <a href="https://msdn.microsoft.com/5eec3f58-745a-4e84-adaa-a88ae3621a6a">SQRO_DONT_SPLIT_WORDS</a> is set) unless this flag is set, in which case they end up in separate leaf nodes and their order no longer matters. An application can set this flag if it is not able to handle leaf nodes with multiple words correctly.
 
 
 ### -field SQRO_ADD_VALUE_TYPE_FOR_PLAIN_VALUES
@@ -133,7 +133,7 @@ The <b>STRUCTURED_QUERY_RESOLVE_OPTION</b> type is defined in StructuredQuery.h 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368860(v=VS.85).aspx">CASE_REQUIREMENT</a>
+<a href="https://msdn.microsoft.com/24b06269-ae03-4c98-b208-7ba6b29ad65c">CASE_REQUIREMENT</a>
  
 
  

@@ -4,10 +4,10 @@ title: DateTime_GetRange macro
 author: windows-sdk-content
 description: Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro, or send the DTM_GETRANGE message explicitly.
 old-location: controls\DateTime_GetRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getrange.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: DateTime_GetRange, DateTime_GetRange macro [Windows Controls], _win32_DateTime_GetRange, _win32_DateTime_GetRange_cpp, commctrl/DateTime_GetRange, controls.DateTime_GetRange, controls._win32_DateTime_GetRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro, or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761767(v=VS.85).aspx">DTM_GETRANGE</a> message explicitly. 
+Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro, or send the <a href="https://msdn.microsoft.com/190cada6-49ee-483f-a464-d3d789127159">DTM_GETRANGE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the current minimum and maximum allowable system times for a date and time 
 
 ### -param hdp
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a DTP control.
 
@@ -76,7 +76,7 @@ A pointer to a two-element array of <a href="https://msdn.microsoft.com/f77cdf86
 
 
 
-The date and time picker displays only dates/times that fall within the specified range, preventing the user from selecting a date and time that falls outside the range. If the <a href="https://msdn.microsoft.com/en-us/library/Bb761813(v=VS.85).aspx">DateTime_SetSystemtime</a> message specifies a date and time that falls outside the range, it will fail.
+The date and time picker displays only dates/times that fall within the specified range, preventing the user from selecting a date and time that falls outside the range. If the <a href="https://msdn.microsoft.com/9ac12f31-09d8-4220-939c-24fbb92cb6ed">DateTime_SetSystemtime</a> message specifies a date and time that falls outside the range, it will fail.
 
 
 

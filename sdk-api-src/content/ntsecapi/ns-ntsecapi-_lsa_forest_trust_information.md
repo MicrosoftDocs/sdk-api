@@ -4,10 +4,10 @@ title: "_LSA_FOREST_TRUST_INFORMATION"
 author: windows-sdk-content
 description: Contains Local Security Authority forest trust information.
 old-location: security\lsa_forest_trust_information.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 9e456462-59a9-4f18-ba47-92fc2350889b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: "*PLSA_FOREST_TRUST_INFORMATION, LSA_FOREST_TRUST_INFORMATION, LSA_FOREST_TRUST_INFORMATION structure [Security], PLSA_FOREST_TRUST_INFORMATION, PLSA_FOREST_TRUST_INFORMATION structure pointer [Security], _LSA_FOREST_TRUST_INFORMATION, ntsecapi/LSA_FOREST_TRUST_INFORMATION, ntsecapi/PLSA_FOREST_TRUST_INFORMATION, security.lsa_forest_trust_information"
 ms.prod: windows
 ms.technology: windows-sdk

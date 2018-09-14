@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_gethovericon.htm
 tech.root: tablet
 ms.assetid: 281695e6-295b-42d8-a184-c5a005de10e3
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: GetHoverIcon, GetHoverIcon method [Tablet PC], GetHoverIcon method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetHoverIcon method, IMathInputControl.GetHoverIcon, IMathInputControl::GetHoverIcon, micaut/IMathInputControl::GetHoverIcon, tablet.imathinputcontrol_gethovericon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,38 +120,42 @@ The application that retrieves the hover icon is responsible for releasing the i
 
 #### Examples
 
-
-```cpp
-
-CComPtr <IMathInputControl> g_spMIC; // Math Input Control
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+CComPtr &lt;IMathInputControl&gt; g_spMIC; // Math Input Control
 
 BOOL TestDlg::OnInitDialog(){
     
     HRESULT hr = CoInitialize(NULL);
     hr = g_spMIC.CoCreateInstance(CLSID_MathInputControl);
 
-    CComPtr<IPictureDisp> hoverImage;
-    CComPtr<IPicture> pictureHoverImage;  
+    CComPtr&lt;IPictureDisp&gt; hoverImage;
+    CComPtr&lt;IPicture&gt; pictureHoverImage;  
 
-    g_spMIC->GetHoverIcon(&hoverImage); 
+    g_spMIC-&gt;GetHoverIcon(&amp;hoverImage); 
 
-    hoverImage.QueryInterface(&pictureHoverImage);
+    hoverImage.QueryInterface(&amp;pictureHoverImage);
 
     short type;
-    pictureHoverImage->get_Type(&type);
+    pictureHoverImage-&gt;get_Type(&amp;type);
     
     if (type == PICTYPE_ICON){
         OLE_HANDLE oleHandle;
-        hr = pictureHoverImage->get_Handle(&oleHandle);        
+        hr = pictureHoverImage-&gt;get_Handle(&amp;oleHandle);        
 
-        this->SetIcon((HICON)oleHandle, true);
+        this-&gt;SetIcon((HICON)oleHandle, true);
     }    
     
     return TRUE;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: magapi\magapi_maggetinputtransform.htm
 tech.root: magapi
 ms.assetid: 3825B5DB-BD25-4073-8EB3-65A57709A804
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MagGetInputTransform, MagGetInputTransform function [Magnification API], magapi.magapi_maggetinputtransform, magnification/MagGetInputTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,9 +101,13 @@ The input transformation maps the coordinate space of the magnified screen conte
 
 The following example retrieves the current input translation settings.
 
-
-```cpp
-// Description:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Description:
 //   Retrieves the current input transform.
 //
 BOOL GetInputTranform()
@@ -112,8 +116,8 @@ BOOL GetInputTranform()
     RECT rcSource;
     RECT rcTarget;
 
-    BOOL fResult = MagGetInputTransform(&fInputTransformEnabled, 
-                                        &rcSource, &rcTarget);
+    BOOL fResult = MagGetInputTransform(&amp;fInputTransformEnabled, 
+                                        &amp;rcSource, &amp;rcTarget);
     if (fResult)
     {
         //
@@ -123,10 +127,10 @@ BOOL GetInputTranform()
 
     return fResult;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

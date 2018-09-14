@@ -7,7 +7,7 @@ old-location: fs\readlogrestartarea.htm
 tech.root: Clfs
 ms.assetid: ab59d2fe-d951-42f3-b270-844eaeb6ff90
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: ReadLogRestartArea, ReadLogRestartArea function [Files], clfsw32/ReadLogRestartArea, fs.readlogrestartarea
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
     Returns the last restart area that is  written successfully  to the log associated with the marshaling area of  <a href="https://msdn.microsoft.com/deb5fd90-e987-4e5b-9740-6ecef8705557">WriteLogRestartArea</a>. The function also returns a read context that allows the caller to cursor backward or forward through a log from the restart record.
 
-This read context is   useful when scanning through previous restart areas prior to the current one by invoking <a href="https://msdn.microsoft.com/en-us/library/Bb540413(v=VS.85).aspx">ReadPreviousLogRestartArea</a>.
+This read context is   useful when scanning through previous restart areas prior to the current one by invoking <a href="https://msdn.microsoft.com/f304dbb7-7d5c-403c-9418-60947cc4c3a1">ReadPreviousLogRestartArea</a>.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A pointer to a variable that receives the amount of restart data.
 
 ### -param plsn [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that receives the log sequence  number (LSN) of the restart area.
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that receives the log sequence  number (LSN) of the restart area.
 
 
 ### -param ppvContext [out]
@@ -93,7 +93,7 @@ After obtaining all requested log records, the client must pass  the read contex
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx">OVERLAPPED</a> structure that is required for asynchronous operation. 
+A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that is required for asynchronous operation. 
 
 This parameter can be <b>NULL</b> if an asynchronous operation is not used.
 
@@ -125,11 +125,11 @@ If there is no restart area in the log,  <b>ReadLogRestartArea</b> fails  with t
 
 If <b>ReadLogRestartArea</b>   fails with an error code of <b>ERROR_IO_PENDING</b>, a pointer to a valid read context  is placed in the variable pointed to by the <i>ppvReadContext</i> parameter. 
 
-To complete the log-record copy, the client should first synchronize its execution with deferred completion of the overlapped I/O operation by  calling  <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>, or one of the synchronization <a href="https://msdn.microsoft.com/en-us/library/ms687069(v=VS.85).aspx">Wait Functions</a>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms686358(v=VS.85).aspx">Synchronization and Overlapped Input and Output</a>.
+To complete the log-record copy, the client should first synchronize its execution with deferred completion of the overlapped I/O operation by  calling  <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>, or one of the synchronization <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">Wait Functions</a>. For more information, see <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
 
 After <b>ReadLogRestartArea</b> completes asynchronously, the requested restart area  is  read from the disk, but a valid pointer to it is not   placed in <i>*ppvRestartBuffer</i>.  
 
-To obtain a valid pointer, the client must call <a href="https://msdn.microsoft.com/en-us/library/Bb540413(v=VS.85).aspx">ReadPreviousLogRestartArea</a>, which passes in the read-context pointer returned by <b>ReadLogRestartArea</b>.
+To obtain a valid pointer, the client must call <a href="https://msdn.microsoft.com/f304dbb7-7d5c-403c-9418-60947cc4c3a1">ReadPreviousLogRestartArea</a>, which passes in the read-context pointer returned by <b>ReadLogRestartArea</b>.
 
 <div class="alert"><b>Note</b>  Common Log File System (CLFS) read contexts are not thread-safe. They should not be used by more than one thread at a time.<p class="note">CLFS read contexts should not be passed into more than one asynchronous read at a time, or the function fails with ERROR_BUSY.
 
@@ -143,27 +143,27 @@ To obtain a valid pointer, the client must call <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a>
+<a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540361(v=VS.85).aspx">Common Log File System Functions</a>
+<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540366(v=VS.85).aspx">CreateLogFile</a>
+<a href="https://msdn.microsoft.com/ac104bf9-7ca7-417a-bd14-09b0e82c6a77">CreateLogFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx">OVERLAPPED</a>
+<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540413(v=VS.85).aspx">ReadPreviousLogRestartArea</a>
+<a href="https://msdn.microsoft.com/f304dbb7-7d5c-403c-9418-60947cc4c3a1">ReadPreviousLogRestartArea</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686358(v=VS.85).aspx">Synchronization and Overlapped Input and Output</a>
+<a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>
 
 
 

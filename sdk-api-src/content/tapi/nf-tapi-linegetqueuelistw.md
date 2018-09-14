@@ -4,10 +4,10 @@ title: lineGetQueueListW function
 author: windows-sdk-content
 description: The lineGetQueueList function returns a list of queues associated with a particular ACD Group.
 old-location: tapi2\linegetqueuelist.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 3921ab24-c9c8-4068-a885-e55759f04076
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: "_tapi2_linegetqueuelist, lineGetQueueList, lineGetQueueList function [TAPI 2.2], lineGetQueueListA, lineGetQueueListW, tapi/lineGetQueueList, tapi/lineGetQueueListA, tapi/lineGetQueueListW, tapi2.linegetqueuelist"
 ms.prod: windows-hardware
 ms.technology: windows-devices

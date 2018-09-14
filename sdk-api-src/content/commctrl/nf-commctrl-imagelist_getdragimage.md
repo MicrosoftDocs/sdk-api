@@ -4,10 +4,10 @@ title: ImageList_GetDragImage function
 author: windows-sdk-content
 description: Retrieves the temporary image list that is used for the drag image. The function also retrieves the current drag position and the offset of the drag image relative to the drag position.
 old-location: controls\ImageList_GetDragImage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getdragimage.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ImageList_GetDragImage, ImageList_GetDragImage function [Windows Controls], _win32_ImageList_GetDragImage, _win32_ImageList_GetDragImage_cpp, commctrl/ImageList_GetDragImage, controls.ImageList_GetDragImage, controls._win32_ImageList_GetDragImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ Returns the handle to the image list if successful, or <b>NULL</b> otherwise.
 
 
 
-The temporary image list is destroyed when the <a href="https://msdn.microsoft.com/en-us/library/Bb761541(v=VS.85).aspx">ImageList_EndDrag</a> function is called. To begin a drag operation, use the <a href="https://msdn.microsoft.com/en-us/library/Bb761516(v=VS.85).aspx">ImageList_BeginDrag</a> function. 
+The temporary image list is destroyed when the <a href="https://msdn.microsoft.com/54465b0d-6bbe-4c50-8124-cbf3115d0848">ImageList_EndDrag</a> function is called. To begin a drag operation, use the <a href="https://msdn.microsoft.com/5b262b32-5ec2-4f19-8a76-4c318aec7dc7">ImageList_BeginDrag</a> function. 
 
 
 

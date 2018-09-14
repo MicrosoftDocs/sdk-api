@@ -4,10 +4,10 @@ title: DRMCreateIssuanceLicense function
 author: windows-sdk-content
 description: Creates an issuance license from scratch, from a template, or from a signed issuance license.
 old-location: rm\drmcreateissuancelicense.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: db2e9aa6-7021-4805-8fd7-94c8d02776b0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMCreateIssuanceLicense, DRMCreateIssuanceLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateIssuanceLicense, rm.drmcreateissuancelicense
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.product: Rights Management Services client 1.0 SP2 or later
     which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMCreateIssuanceLicense</b> function 
-    creates an <a href="https://msdn.microsoft.com/en-us/library/Aa362630(v=VS.85).aspx">issuance license</a> from scratch, from a template, or from a signed issuance license.
+    creates an <a href="i_gly.htm">issuance license</a> from scratch, from a template, or from a signed issuance license.
 
 
 ## -parameters
@@ -99,47 +99,55 @@ Do not confuse the owner of an issuance license with a user who has been granted
 
 If specified, the issuance license owner is added as metadata beneath the &lt;WORK&gt; node of the license.
 
-
-```
-<WORK>
-  <OBJECT type="contentType">
-    <ID type="contentIdType">contentId</ID>
-    <NAME>contentName</NAME>
-  </OBJECT>
-  <METADATA>
-    <OWNER>
-      <OBJECT>
-        <ID type="Windows"/>
-        <NAME>david@contoso.com</NAME>
-      </OBJECT>
-    </OWNER>
-  </METADATA>
+<div class="code"><span codelanguage="Text"><table>
+<tr>
+<th>Text</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;WORK&gt;
+  &lt;OBJECT type="contentType"&gt;
+    &lt;ID type="contentIdType"&gt;contentId&lt;/ID&gt;
+    &lt;NAME&gt;contentName&lt;/NAME&gt;
+  &lt;/OBJECT&gt;
+  &lt;METADATA&gt;
+    &lt;OWNER&gt;
+      &lt;OBJECT&gt;
+        &lt;ID type="Windows"/&gt;
+        &lt;NAME&gt;david@contoso.com&lt;/NAME&gt;
+      &lt;/OBJECT&gt;
+    &lt;/OWNER&gt;
+  &lt;/METADATA&gt;
   ...
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 If granted, the OWNER right is added as an attribute of the &lt;RIGHT&gt; element in the license XrML.
 
-
-```
-<WORK>
+<div class="code"><span codelanguage="Text"><table>
+<tr>
+<th>Text</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;WORK&gt;
   ...
-  <RIGHTSGROUP name="MainRights">
-    <RIGHTSLIST>
-      <VIEW>
+  &lt;RIGHTSGROUP name="MainRights"&gt;
+    &lt;RIGHTSLIST&gt;
+      &lt;VIEW&gt;
         ...
-      </VIEW>
-      <RIGHT name="OWNER">
-        <CONDITIONLIST>
+      &lt;/VIEW&gt;
+      &lt;RIGHT name="OWNER"&gt;
+        &lt;CONDITIONLIST&gt;
           ...
-        </CONDITIONLIST>
-      </RIGHT>
-    </RIGHTSLIST>
-  </RIGHTSGROUP>
-```
-
-
+        &lt;/CONDITIONLIST&gt;
+      &lt;/RIGHT&gt;
+    &lt;/RIGHTSLIST&gt;
+  &lt;/RIGHTSGROUP&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  In the case where you set <i>hOwner</i> to the license author and use a template where you check the <b>Grant Owner (author) full control right with no expiration</b> check box, the license author can subsequently get an end-user license with Owner rights. See <a href="https://msdn.microsoft.com/40e87b21-162c-408d-81ca-16443352ce16">Understanding XrML Rights</a> for more information.</div>
 <div> </div>
 
@@ -175,7 +183,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-An issuance license is a list of rights, users, metadata, and other information that specifies how a specific user on a specific computer is able to use the specified content. This issuance license must be signed by using the <a href="https://msdn.microsoft.com/3ed180d1-27c9-4f39-b353-1d417636ca62">DRMGetSignedIssuanceLicense</a> function or the <a href="https://msdn.microsoft.com/1dc1dc7f-4e63-4cc6-aa34-a8e44ce79655">AcquireIssuanceLicense</a> SOAP method. The resulting signed issuance license is given to a potential end user who must then request an <a href="https://msdn.microsoft.com/en-us/library/Aa362618(v=VS.85).aspx">end-user license</a> by calling the <a href="https://msdn.microsoft.com/0d4ce794-8384-4f1c-bc8c-1e67fbb5f987">DRMAcquireLicense</a> function. An application may request an end-user license on behalf of another end user by using the <a href="https://msdn.microsoft.com/fa21a8fd-6c35-4ef9-bf94-b1229b3a8b60">AcquirePreLicense</a> SOAP method. It is only the end-user license that allows an application to exercise the rights that have been granted.
+An issuance license is a list of rights, users, metadata, and other information that specifies how a specific user on a specific computer is able to use the specified content. This issuance license must be signed by using the <a href="https://msdn.microsoft.com/3ed180d1-27c9-4f39-b353-1d417636ca62">DRMGetSignedIssuanceLicense</a> function or the <a href="https://msdn.microsoft.com/1dc1dc7f-4e63-4cc6-aa34-a8e44ce79655">AcquireIssuanceLicense</a> SOAP method. The resulting signed issuance license is given to a potential end user who must then request an <a href="e_gly.htm">end-user license</a> by calling the <a href="https://msdn.microsoft.com/0d4ce794-8384-4f1c-bc8c-1e67fbb5f987">DRMAcquireLicense</a> function. An application may request an end-user license on behalf of another end user by using the <a href="https://msdn.microsoft.com/fa21a8fd-6c35-4ef9-bf94-b1229b3a8b60">AcquirePreLicense</a> SOAP method. It is only the end-user license that allows an application to exercise the rights that have been granted.
 
 This function allows you to create licenses in three different ways.
 
@@ -222,7 +230,7 @@ Because nonsilent license acquisition is not supported, <i>wszReferralInfoName</
 
 For RMS client 1.0, the referral point described by <i>wszReferralInfoName</i> and <i>wszReferralInfoURL</i> is used as a backup URL if a call to the URL specified in the license header fails. This method allows a caller to define a display name and a URL to a site that handles nonsilent license requests for the content.
 
-The <i>hBoundLicense</i> parameter allows an application to be able to reuse data from an existing issuance license. This is done by having the publishing application create a VIEWRIGHTSDATA right and grant it to any application allowed to reuse the issuance license information. However, because this involves binding to a license, which is a task that cannot be done without using a <a href="https://msdn.microsoft.com/en-us/library/Aa362638(v=VS.85).aspx">lockbox</a>, this value should be <b>NULL</b> for server applications that do not use a lockbox.
+The <i>hBoundLicense</i> parameter allows an application to be able to reuse data from an existing issuance license. This is done by having the publishing application create a VIEWRIGHTSDATA right and grant it to any application allowed to reuse the issuance license information. However, because this involves binding to a license, which is a task that cannot be done without using a <a href="l_gly.htm">lockbox</a>, this value should be <b>NULL</b> for server applications that do not use a lockbox.
 
 The purpose of a URL cannot be verified by any part of a client or Active Directory Rights Management Services system. It would be possible for a malicious publisher to include a harmful URL address in an issuance license, although the issuance license creator would need a valid licensed Active Directory Rights Management Services system to do so.
 

@@ -4,10 +4,10 @@ title: ListView_GetFocusedGroup macro
 author: windows-sdk-content
 description: Gets the group that has the focus. Use this macro or send the LVM_GETFOCUSEDGROUP message explicitly.
 old-location: controls\ListView_GetFocusedGroup.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfocusedgroup.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ListView_GetFocusedGroup, ListView_GetFocusedGroup macro [Windows Controls], _shell_ListView_GetFocusedGroup, _shell_ListView_GetFocusedGroup_cpp, commctrl/ListView_GetFocusedGroup, controls.ListView_GetFocusedGroup, controls._shell_ListView_GetFocusedGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the group that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774925(v=VS.85).aspx">LVM_GETFOCUSEDGROUP</a> message explicitly. 
+Gets the group that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/c1902f35-84b7-4f46-89a6-e48148f06172">LVM_GETFOCUSEDGROUP</a> message explicitly. 
 
 
 
@@ -61,7 +61,7 @@ Gets the group that has the focus. Use this macro or send the <a href="https://m
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control.
 

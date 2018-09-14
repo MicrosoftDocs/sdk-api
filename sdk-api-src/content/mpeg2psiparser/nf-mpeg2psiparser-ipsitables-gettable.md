@@ -4,10 +4,10 @@ title: IPSITables::GetTable
 author: windows-sdk-content
 description: Gets an MPEG-2 Program Specific Information (PSI) table from an MPEG-2 transport stream. The table that is returned and its contents depend on the values of the three input parameters to this method.
 old-location: mstv\ipsitables_gettable.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 4b2362c7-bfcb-40b8-813d-1a904149600e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies],IPSITables interface, IPSITables interface [Microsoft TV Technologies],GetTable method, IPSITables.GetTable, IPSITables::GetTable, mpeg2psiparser/IPSITables::GetTable, mstv.ipsitables_gettable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ PID for a Program Mapping Table or the service ID (SID) for an EIT. Otherwise, n
 
 ### -param ppIUnknown [out]
 
-Pointer to  the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the table object that is retrieved. The caller is responsible for freeing the memory.
+Pointer to  the <a href="iunknown">IUnknown</a> interface for the table object that is retrieved. The caller is responsible for freeing the memory.
 
 
 ## -returns
@@ -101,7 +101,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="iunknown">IUnknown</a>
  
 
  

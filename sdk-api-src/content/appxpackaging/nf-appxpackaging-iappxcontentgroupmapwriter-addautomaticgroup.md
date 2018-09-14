@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroupmapwriter_addautomaticgroup.htm
 tech.root: appxpkg
 ms.assetid: 7CF0A38A-D557-417B-A863-0E5AA346B55C
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: AddAutomaticGroup, AddAutomaticGroup method [App packaging and management], AddAutomaticGroup method [App packaging and management],IAppxContentGroupMapWriter interface, IAppxContentGroupMapWriter interface [App packaging and management],AddAutomaticGroup method, IAppxContentGroupMapWriter.AddAutomaticGroup, IAppxContentGroupMapWriter::AddAutomaticGroup, appxpackaging/IAppxContentGroupMapWriter::AddAutomaticGroup, appxpkg.iappxcontentgroupmapwriter_addautomaticgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

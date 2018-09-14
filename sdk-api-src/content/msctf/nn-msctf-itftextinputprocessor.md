@@ -7,7 +7,7 @@ old-location: tsf\itftextinputprocessor.htm
 tech.root: TSF
 ms.assetid: d3fd296b-0009-4fc2-bf91-0ad31454f0e8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITfTextInputProcessor, ITfTextInputProcessor interface [Text Services Framework], ITfTextInputProcessor interface [Text Services Framework],described, _tsf_itftextinputprocessor_ref, msctf/ITfTextInputProcessor, tsf.itftextinputprocessor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 ## -description
 
 
-The <b>ITfTextInputProcessor</b> interface is implemented by a text service and used by the TSF manager to activate and deactivate the text service. The manager obtains a pointer to this interface when it creates an instance of the text service for a thread with a call to <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>.
+The <b>ITfTextInputProcessor</b> interface is implemented by a text service and used by the TSF manager to activate and deactivate the text service. The manager obtains a pointer to this interface when it creates an instance of the text service for a thread with a call to <a href="_com_cocreateinstance">CoCreateInstance</a>.
 
 
 ## -inheritance
@@ -99,7 +99,7 @@ Deactivates a text service when a user session ends.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

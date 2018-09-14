@@ -7,7 +7,7 @@ old-location: multimedia\iavieditstream_copy.htm
 tech.root: Multimedia
 ms.assetid: d2012d04-4fe5-4a49-8160-d27b7bc1bfc8
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/31/2018
 ms.keywords: Copy, Copy method [Windows Multimedia], Copy method [Windows Multimedia],IAVIEditStream interface, IAVIEditStream interface [Windows Multimedia],Copy method, IAVIEditStream.Copy, IAVIEditStream::Copy, _win32_IAVIEditStream_Copy, multimedia.iavieditstream_copy, vfw/IAVIEditStream::Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,16 +97,20 @@ Returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>Copy</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Copy(LONG *plStart, LONG *plLength, 
     PAVISTREAM * ppResult); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

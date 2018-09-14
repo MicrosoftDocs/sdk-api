@@ -7,7 +7,7 @@ old-location: shell\IObjectArray_GetAt.htm
 tech.root: shell
 ms.assetid: 168d2f09-60c9-457a-b4dd-7678f97eda1b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],IObjectArray interface, IObjectArray interface [Windows Shell],GetAt method, IObjectArray.GetAt, IObjectArray::GetAt, _shell_IObjectArray_GetAt, objectarray/IObjectArray::GetAt, shell.IObjectArray_GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

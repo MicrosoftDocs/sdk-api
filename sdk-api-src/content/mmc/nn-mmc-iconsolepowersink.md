@@ -7,7 +7,7 @@ old-location: mmc\iconsolepowersink.htm
 tech.root: mmc
 ms.assetid: dd23c6dc-9219-4d13-b237-13405a2fcb5a
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IConsolePowerSink, IConsolePowerSink interface [MMC], IConsolePowerSink interface [MMC],described, _slate_iconsolepowersink, mmc.iconsolepowersink, mmc/IConsolePowerSink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,9 +93,13 @@ To receive power management notifications, your snap-in must use the <a href="Ht
 
 #### Examples
 
-
-```cpp
-// Connect the IConsolePower and IConsolePowerSink interfaces.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Connect the IConsolePower and IConsolePowerSink interfaces.
 // m_ipConsolePower is a pointer to an instance of 
 // the IConsolePower interface.
 // m_ipConsolePowerSink is a pointer to an instance of 
@@ -104,23 +108,27 @@ To receive power management notifications, your snap-in must use the <a href="Ht
 hr = AtlAdvise(m_ipConsolePower,
                m_ipConsolePowerSink,
                IID_IConsolePowerSink,
-               &m_dwCookie);
-```
-
-
+               &amp;m_dwCookie);</pre>
+</td>
+</tr>
+</table></span></div>
 When your snap-in closes or no longer requires power management notifications, call the <a href="Http://go.microsoft.com/fwlink/p/?linkid=83933">AtlUnadvise</a> function to terminate the connection between the 
 IConsolePower and 
 IConsolePowerSink interfaces. The following code example shows how to use the <a href="Http://go.microsoft.com/fwlink/p/?linkid=83933">AtlUnadvise</a> function.
 
-
-```cpp
-// Terminate the connection established previously.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Terminate the connection established previously.
 hr = AtlUnadvise(m_ipConsolePower,
                  IID_IConsolePowerSink,
-                 m_dwCookie);
-```
-
-
+                 m_dwCookie);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

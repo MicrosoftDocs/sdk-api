@@ -7,7 +7,7 @@ old-location: ad\ds_domain_trusts.htm
 tech.root: ad
 ms.assetid: cd260fd1-dc38-4405-95ba-097a23faf668
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: "*PDS_DOMAIN_TRUSTSA, DS_DOMAIN_DIRECT_INBOUND, DS_DOMAIN_DIRECT_OUTBOUND, DS_DOMAIN_IN_FOREST, DS_DOMAIN_NATIVE_MODE, DS_DOMAIN_PRIMARY, DS_DOMAIN_TREE_ROOT, DS_DOMAIN_TRUSTS, DS_DOMAIN_TRUSTS structure [Active Directory], DS_DOMAIN_TRUSTSA, DS_DOMAIN_TRUSTSW, PDS_DOMAIN_TRUSTS, PDS_DOMAIN_TRUSTS structure pointer [Active Directory], _DS_DOMAIN_TRUSTSA, _glines_ds_domain_trusts, ad.ds__domain__trusts, ad.ds_domain_trusts, dsgetdc/DS_DOMAIN_TRUSTS, dsgetdc/DS_DOMAIN_TRUSTSA, dsgetdc/DS_DOMAIN_TRUSTSW, dsgetdc/PDS_DOMAIN_TRUSTS"
 ms.prod: windows
 ms.technology: windows-sdk

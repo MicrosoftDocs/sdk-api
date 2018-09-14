@@ -7,7 +7,7 @@ old-location: xps\ixpsomimagebrush.htm
 tech.root: printdocs
 ms.assetid: f5478582-466b-496e-b7f3-42fb8caa6814
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IXpsOMImageBrush, IXpsOMImageBrush interface [XPS Documents and Packaging], IXpsOMImageBrush interface [XPS Documents and Packaging],described, xps.ixpsomimagebrush, xpsobjectmodel/IXpsOMImageBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,9 +128,13 @@ The image used by this brush is defined in a coordinate space that is specified 
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMImageBrush            *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -146,33 +150,33 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreateImageBrush (
+    hr = xpsFactory-&gt;CreateImageBrush (
         image,
-        &viewBox,
-        &viewPort,
-        &newInterface);
+        &amp;viewBox,
+        &amp;viewPort,
+        &amp;newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface->Release();
+        newInterface-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

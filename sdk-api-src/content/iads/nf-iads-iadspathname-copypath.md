@@ -7,7 +7,7 @@ old-location: adsi\iadspathname_copypath.htm
 tech.root: ADSI
 ms.assetid: 00c4a0b8-4961-4ceb-86fe-5cdc4e0a45c0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: CopyPath, CopyPath method [ADSI], CopyPath method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],CopyPath method, IADsPathname.CopyPath, IADsPathname::CopyPath, _ds_iadspathname_copypath, adsi.iadspathname__copypath, adsi.iadspathname_copypath, iads/IADsPathname::CopyPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The <b>IADsPathname::CopyPath</b> method
 
 ### -param ppAdsPath [out]
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer on the 
+The <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointer on the 
       returned <a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a> object.
 
 
@@ -88,20 +88,28 @@ This method is used to modify the object path and retain the original object pat
 
 The following Visual Basic code example shows how to make a copy of a pathname.
 
-
-```vb
-Dim x, y As New Pathname
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x, y As New Pathname
 x.Set "LDAP://srv1/dc=dom,dc=company,dc=com",ADS_SETTYPE_FULL
 set y = x.CopyPath
-MsgBox y.Retrieve(ADS_FORMAT_WINDOWS)
-```
-
-
+MsgBox y.Retrieve(ADS_FORMAT_WINDOWS)</pre>
+</td>
+</tr>
+</table></span></div>
 The following VBScript/ASP code example shows how to make a copy of a pathname.
 
-
-```vb
-<%
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;%
 Dim x, y
 Const ADS_SETTYPE_FULL = 1
 Const ADS_FORMAT_WINDOWS = 1
@@ -110,17 +118,21 @@ x.Set "LDAP://srv1/dc=dom,dc=company,dc=com",ADS_SETTYPE_FULL
  
 set y = x.CopyPath
 Response.Write y.Retrieve(ADS_FORMAT_WINDOWS)
-%>
-```
-
-
+%&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 The following C++ code example creates a copy of a pathname object. For more information and a code example 
      of the <b>GetPathnameObject</b> function, see 
      <a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a>.
 
-
-```cpp
-IADsPathname *pPath;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsPathname *pPath;
 LPWSTR adsPath;
 adsPath = L"LDAP://server/cn=jeff smith,dc=Fabrikam,dc=com";
  
@@ -129,16 +141,16 @@ if (!pPath) exit(0);
  
 IDispatch *pDisp;
 HRESULT hr;
-hr = pPath->CopyPath(&pDisp);
+hr = pPath-&gt;CopyPath(&amp;pDisp);
 if(FAILED(hr)) exit(hr);
  
 IADsPathname *pPathCopy;
-hr = pDisp->QueryInterface(IID_IADsPathname,(void**)&pPathCopy);
+hr = pDisp-&gt;QueryInterface(IID_IADsPathname,(void**)&amp;pPathCopy);
  
-// ...
-```
-
-
+// ...</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: mscs\group_failure_info.htm
 tech.root: mscs
 ms.assetid: C3E7585B-21F8-4E4C-A970-C07F72C80E76
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*PGROUP_FAILURE_INFO, GROUP_FAILURE_INFO, GROUP_FAILURE_INFO structure [Failover Cluster], PGROUP_FAILURE_INFO, PGROUP_FAILURE_INFO structure pointer [Failover Cluster], clusapi/GROUP_FAILURE_INFO, clusapi/PGROUP_FAILURE_INFO, msclus/GROUP_FAILURE_INFO, msclus/PGROUP_FAILURE_INFO, mscs.group_failure_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Represents information about the <a href="https://msdn.microsoft.com/en-us/library/Aa369573(v=VS.85).aspx">Failover</a> attempts for a group failure.
+Represents information about the <a href="https://msdn.microsoft.com/6722d075-02e0-4817-abc3-dce8951c17da">Failover</a> attempts for a group failure.
 
 
 ## -struct-fields
@@ -61,12 +61,12 @@ Represents information about the <a href="https://msdn.microsoft.com/en-us/libra
 
 ### -field dwFailoverAttemptsRemaining
 
-The number of remaining failover attempts that can be made on the group during the current <a href="https://msdn.microsoft.com/en-us/library/Aa369665(v=VS.85).aspx">FailoverPeriod</a>  time interval.
+The number of remaining failover attempts that can be made on the group during the current <a href="https://msdn.microsoft.com/5277a4a7-2866-4c16-8ad0-ea3a33714583">FailoverPeriod</a>  time interval.
 
 
 ### -field dwFailoverPeriodRemaining
 
-The amount of time remaining for the <a href="https://msdn.microsoft.com/en-us/library/Aa369665(v=VS.85).aspx">FailoverPeriod</a>, in hours.
+The amount of time remaining for the <a href="https://msdn.microsoft.com/5277a4a7-2866-4c16-8ad0-ea3a33714583">FailoverPeriod</a>, in hours.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ The amount of time remaining for the <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
  
 
  

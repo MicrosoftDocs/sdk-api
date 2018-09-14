@@ -4,10 +4,10 @@ title: GetRTTAndHopCount function
 author: windows-sdk-content
 description: The GetRTTAndHopCount function determines the round-trip time (RTT) and hop count to the specified destination.
 old-location: iphlp\getrttandhopcount.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 4e84fe6f-40bd-4f0e-bb78-4180e13577aa
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetRTTAndHopCount, GetRTTAndHopCount function [IP Helper], _iphlp_getrttandhopcount, iphlp.getrttandhopcount, iphlpapi/GetRTTAndHopCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,23 +105,27 @@ For information about the <b>IPAddr</b> data type, see
 
 The following example retrieves and prints the round trip time and hop count to the destination IP address 127.0.0.1.
 
-
-```cpp
-UINT ip = inet_addr("127.0.0.1");
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>UINT ip = inet_addr("127.0.0.1");
 ULONG hopCount = 0;
 ULONG RTT = 0;
 
-if(GetRTTAndHopCount(ip, &hopCount, 30, &RTT) == TRUE) {
+if(GetRTTAndHopCount(ip, &amp;hopCount, 30, &amp;RTT) == TRUE) {
   printf("Hops: %ld\n", hopCount);
   printf("RTT: %ld\n", RTT);
 }
 else {
   printf("Error: %ld\n", GetLastError());
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: wmp\iwmpmedia3_getiteminfobytype.htm
 tech.root: WMP
 ms.assetid: 2a77029b-fbae-49af-bd91-c688c11b3b16
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPMedia3 interface [Windows Media Player],getItemInfoByType method, IWMPMedia3.getItemInfoByType, IWMPMedia3::getItemInfoByType, IWMPMedia3getItemInfoByType, getItemInfoByType, getItemInfoByType method [Windows Media Player], getItemInfoByType method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia3_getiteminfobytype, wmp/IWMPMedia3::getItemInfoByType
 ms.prod: windows-hardware
 ms.technology: windows-devices

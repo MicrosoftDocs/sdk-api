@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_removescope.htm
 tech.root: WmiSdk
 ms.assetid: ae7f4e88-32ca-45e1-8934-2801cfbe4cee
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],RemoveScope method, IWbemPath.RemoveScope, IWbemPath::RemoveScope, RemoveScope, RemoveScope method [Windows Management Instrumentation], RemoveScope method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_removescope, wmi.iwbempath_removescope, wmiutils/IWbemPath::RemoveScope
 ms.prod: windows-hardware
 ms.technology: windows-devices

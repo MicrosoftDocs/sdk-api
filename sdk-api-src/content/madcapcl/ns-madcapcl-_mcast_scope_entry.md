@@ -4,10 +4,10 @@ title: "_MCAST_SCOPE_ENTRY"
 author: windows-sdk-content
 description: The MCAST_SCOPE_ENTRY structure provides a complete set of information about a given multicast scope.
 old-location: madcap\mcast_scope_entry.htm
-tech.root: madcap
+tech.root: Madcap
 ms.assetid: d275e78b-ddf3-4f92-a76f-463aec2f6c95
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMCAST_SCOPE_ENTRY, MCAST_SCOPE_ENTRY, MCAST_SCOPE_ENTRY structure [MADCAP], PMCAST_SCOPE_ENTRY, PMCAST_SCOPE_ENTRY structure pointer [MADCAP], _MCAST_SCOPE_ENTRY, _mdhcp_mcast_scope_entry, madcap.mcast_scope_entry, madcapcl/MCAST_SCOPE_ENTRY, madcapcl/PMCAST_SCOPE_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk

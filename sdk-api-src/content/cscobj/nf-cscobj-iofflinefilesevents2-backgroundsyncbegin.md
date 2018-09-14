@@ -4,10 +4,10 @@ title: IOfflineFilesEvents2::BackgroundSyncBegin
 author: windows-sdk-content
 description: Reports that the Offline Files service is beginning to perform a background synchronization pass.
 old-location: of\iofflinefilesevents2_backgroundsyncbegin.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 84b71228-904a-4042-8d13-422ae77f7ba5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BackgroundSyncBegin, BackgroundSyncBegin method [Offline Files], BackgroundSyncBegin method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],BackgroundSyncBegin method, IOfflineFilesEvents2.BackgroundSyncBegin, IOfflineFilesEvents2::BackgroundSyncBegin, cscobj/IOfflineFilesEvents2::BackgroundSyncBegin, of.iofflinefilesevents2_backgroundsyncbegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Reports that the Offline Files service is beginning to perform a background sync
 
 ### -param dwSyncControlFlags [in]
 
-One or more OFFLINEFILES_SYNC_CONTROL_FLAG_XXXXXX flags describing the purpose of the sync operation.  These may be used to determine if the sync is a one-way or two-way sync. These flags are described in the <i>dwSyncControl</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Bb530502(v=VS.85).aspx">IOfflineFilesCache::Synchronize</a> method.
+One or more OFFLINEFILES_SYNC_CONTROL_FLAG_XXXXXX flags describing the purpose of the sync operation.  These may be used to determine if the sync is a one-way or two-way sync. These flags are described in the <i>dwSyncControl</i> parameter of the <a href="https://msdn.microsoft.com/4a9dd105-ea68-40ce-b1cb-6126ca932095">IOfflineFilesCache::Synchronize</a> method.
 
 
 ## -returns
@@ -78,7 +78,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530521(v=VS.85).aspx">IOfflineFilesEvents2</a>
+<a href="https://msdn.microsoft.com/746f7220-8c87-4218-bd97-ec9b862e549c">IOfflineFilesEvents2</a>
  
 
  

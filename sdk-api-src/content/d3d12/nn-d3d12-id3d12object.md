@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12object.htm
 tech.root: direct3d12
 ms.assetid: D2B2BC74-E89D-4D3A-8808-6E4A94992769
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: ID3D12Object, ID3D12Object interface, ID3D12Object interface,described, d3d12/ID3D12Object, direct3d12.id3d12object
 ms.prod: windows
 ms.technology: windows-sdk

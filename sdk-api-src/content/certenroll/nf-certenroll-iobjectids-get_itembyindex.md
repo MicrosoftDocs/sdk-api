@@ -4,10 +4,10 @@ title: IObjectIds::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an IObjectId object from the collection by index number.
 old-location: security\iobjectids_itembyindex_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 388c3ac4-9b3b-46a5-9b8f-d446de92f6c2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IObjectIds interface [Security],ItemByIndex property, IObjectIds.ItemByIndex, IObjectIds.get_ItemByIndex, IObjectIds::ItemByIndex, IObjectIds::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IObjectIds interface, certenroll/IObjectIds::ItemByIndex, certenroll/IObjectIds::get_ItemByIndex, get_ItemByIndex, security.iobjectids_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a> object from the collection by index number. This property is web enabled.
+The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> object from the collection by index number. This property is web enabled.
 
 This property is read-only.
 
@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a>
+<a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a>
+<a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a>
  
 
  

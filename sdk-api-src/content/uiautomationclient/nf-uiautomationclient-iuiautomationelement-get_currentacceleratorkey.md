@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentAcceleratorKey.htm
 tech.root: WinAuto
 ms.assetid: 393f63b4-e3f4-4b62-af92-1fb9bee079ba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/13/2018
 ms.keywords: CurrentAcceleratorKey property [Windows Accessibility], CurrentAcceleratorKey property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentAcceleratorKey property, IUIAutomationElement.CurrentAcceleratorKey, IUIAutomationElement.get_CurrentAcceleratorKey, IUIAutomationElement::CurrentAcceleratorKey, IUIAutomationElement::get_CurrentAcceleratorKey, get_CurrentAcceleratorKey, uiauto.uiauto_IUIAutomationElement_CurrentAcceleratorKey, uiauto_IUIAutomationElement_CurrentAcceleratorKey, uiautomationclient/IUIAutomationElement::CurrentAcceleratorKey, uiautomationclient/IUIAutomationElement::get_CurrentAcceleratorKey, winauto.uiauto_IUIAutomationElement_CurrentAcceleratorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

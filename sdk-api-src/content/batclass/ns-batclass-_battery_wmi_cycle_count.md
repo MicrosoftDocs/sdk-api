@@ -7,7 +7,7 @@ old-location: battery\battery_wmi_cycle_count.htm
 tech.root: battery
 ms.assetid: DFC94773-C198-4FC4-813C-0986ABA953A5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PBATTERY_WMI_CYCLE_COUNT, BATTERY_WMI_CYCLE_COUNT, BATTERY_WMI_CYCLE_COUNT structure [Battery Devices], PBATTERY_WMI_CYCLE_COUNT, PBATTERY_WMI_CYCLE_COUNT structure pointer [Battery Devices], _BATTERY_WMI_CYCLE_COUNT, batclass/BATTERY_WMI_CYCLE_COUNT, batclass/PBATTERY_WMI_CYCLE_COUNT, battery.battery_wmi_cycle_count"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Defines information about number of charge cycles of a battery for use with the <a href="https://msdn.microsoft.com/en-us/library/Ff536268(v=VS.85).aspx">BatteryClassQueryWmiDataBlock</a> function.
+Defines information about number of charge cycles of a battery for use with the <a href="https://msdn.microsoft.com/2a5c4c14-fc80-4a0a-b447-6fe33ff1d42f">BatteryClassQueryWmiDataBlock</a> function.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ The number of charge/discharge cycles the battery has experienced, or zero if th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536268(v=VS.85).aspx">BatteryClassQueryWmiDataBlock</a>
+<a href="https://msdn.microsoft.com/2a5c4c14-fc80-4a0a-b447-6fe33ff1d42f">BatteryClassQueryWmiDataBlock</a>
  
 
  

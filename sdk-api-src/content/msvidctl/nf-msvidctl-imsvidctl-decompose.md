@@ -4,10 +4,10 @@ title: IMSVidCtl::Decompose
 author: windows-sdk-content
 description: The Decompose method tears down the filter graph.
 old-location: mstv\imsvidctl_decompose.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: e67bf380-dc2c-42c9-a995-17951c65fbda
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: Decompose, Decompose method [Microsoft TV Technologies], Decompose method [Microsoft TV Technologies],IMSVidCtl interface, IMSVidCtl interface [Microsoft TV Technologies],Decompose method, IMSVidCtl.Decompose, IMSVidCtl::Decompose, IMSVidCtlDecompose, mstv.imsvidctl_decompose, msvidctl/IMSVidCtl::Decompose
 ms.prod: windows-hardware
 ms.technology: windows-devices

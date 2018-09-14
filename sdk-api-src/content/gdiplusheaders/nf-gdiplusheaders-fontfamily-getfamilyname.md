@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetFamilyName_name_language_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getfamilyname.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: FontFamily class [GDI+],GetFamilyName method, FontFamily.GetFamilyName, FontFamily::GetFamilyName, GetFamilyName, GetFamilyName method [GDI+], GetFamilyName method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetFamilyName_name_language_, gdiplus._gdiplus_CLASS_FontFamily_GetFamilyName_name_language_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,12 +77,12 @@ Optional. Sixteen-bit value that specifies the language to use. The default valu
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -107,9 +107,13 @@ For a listing of the available languages and sublanguages, see Winnt.h.
 The following example creates a 
 						<b>FontFamily</b> object, gets the family name, and outputs the name as text.
 
-
-```cpp
-VOID Example_GetFamilyName(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetFamilyName(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -122,12 +126,12 @@ VOID Example_GetFamilyName(HDC hdc)
 
    // Copy the cell ascent into a string and draw the string.
    SolidBrush solidbrush(Color(255, 0, 0, 0));
-   Font       font(&nameFontFamily, 16);
-   graphics.DrawString(familyName, -1, &font, PointF(0, 0), &solidbrush);
-}
-```
-
-
+   Font       font(&amp;nameFontFamily, 16);
+   graphics.DrawString(familyName, -1, &amp;font, PointF(0, 0), &amp;solidbrush);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -136,15 +140,15 @@ VOID Example_GetFamilyName(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533819(v=VS.85).aspx">Constructing Font Families and Fonts</a>
+<a href="https://msdn.microsoft.com/57428fae-6af4-47a5-a499-717dc378767a">Constructing Font Families and Fonts</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533822(v=VS.85).aspx">Enumerating Installed Fonts</a>
+<a href="https://msdn.microsoft.com/59598f66-4241-4766-a2f0-5de736de959e">Enumerating Installed Fonts</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
+<a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a>
  
 
  

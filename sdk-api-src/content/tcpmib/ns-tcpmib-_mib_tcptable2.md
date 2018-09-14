@@ -4,10 +4,10 @@ title: "_MIB_TCPTABLE2"
 author: windows-sdk-content
 description: Contains a table of IPv4 TCP connections on the local computer.
 old-location: mib\mib_tcptable2.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: e07de994-0bd5-4d18-9012-8ff191dd6939
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMIB_TCPTABLE2, MIB_TCPTABLE2, MIB_TCPTABLE2 structure [MIB], PMIB_TCPTABLE2, PMIB_TCPTABLE2 structure pointer [MIB], _MIB_TCPTABLE2, mib.mib_tcptable2, tcpmib/MIB_TCPTABLE2, tcpmib/PMIB_TCPTABLE2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,12 +87,16 @@ The <b>MIB_TCPTABLE2</b> structure may contain padding for alignment between the
 
 The following example retrieves the TCP connection table for IPv4 as a <b>MIB_TCPTABLE2</b> structure prints the state of each connection represented as a <a href="https://msdn.microsoft.com/cff343cd-fe85-4e60-87bd-c1e9833cea38">MIB_TCPROW2</a> structure.
 
-
-```cpp
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <iphlpapi.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
 
 // Need to link with Iphlpapi.lib and Ws2_32.lib
 #pragma comment(lib, "iphlpapi.lib")
@@ -126,7 +130,7 @@ int main()
     ulSize = sizeof (MIB_TCPTABLE);
 // Make an initial call to GetTcpTable2 to
 // get the necessary size into the ulSize variable
-    if ((dwRetVal = GetTcpTable2(pTcpTable, &ulSize, TRUE)) ==
+    if ((dwRetVal = GetTcpTable2(pTcpTable, &amp;ulSize, TRUE)) ==
         ERROR_INSUFFICIENT_BUFFER) {
         FREE(pTcpTable);
         pTcpTable = (MIB_TCPTABLE2 *) MALLOC(ulSize);
@@ -137,12 +141,12 @@ int main()
     }
 // Make a second call to GetTcpTable2 to get
 // the actual data we require
-    if ((dwRetVal = GetTcpTable2(pTcpTable, &ulSize, TRUE)) == NO_ERROR) {
-        printf("\tNumber of entries: %d\n", (int) pTcpTable->dwNumEntries);
-        for (i = 0; i < (int) pTcpTable->dwNumEntries; i++) {
+    if ((dwRetVal = GetTcpTable2(pTcpTable, &amp;ulSize, TRUE)) == NO_ERROR) {
+        printf("\tNumber of entries: %d\n", (int) pTcpTable-&gt;dwNumEntries);
+        for (i = 0; i &lt; (int) pTcpTable-&gt;dwNumEntries; i++) {
             printf("\n\tTCP[%d] State: %ld - ", i,
-                   pTcpTable->table[i].dwState);
-            switch (pTcpTable->table[i].dwState) {
+                   pTcpTable-&gt;table[i].dwState);
+            switch (pTcpTable-&gt;table[i].dwState) {
             case MIB_TCP_STATE_CLOSED:
                 printf("CLOSED\n");
                 break;
@@ -180,29 +184,29 @@ int main()
                 printf("DELETE-TCB\n");
                 break;
             default:
-                wprintf(L"UNKNOWN dwState value: %d\n", pTcpTable->table[i].dwState);
+                wprintf(L"UNKNOWN dwState value: %d\n", pTcpTable-&gt;table[i].dwState);
                 break;
             }
 
-            IpAddr.S_un.S_addr = (u_long) pTcpTable->table[i].dwLocalAddr;
+            IpAddr.S_un.S_addr = (u_long) pTcpTable-&gt;table[i].dwLocalAddr;
             strcpy_s(szLocalAddr, sizeof (szLocalAddr), inet_ntoa(IpAddr));
             printf("\tTCP[%d] Local Addr: %s\n", i, szLocalAddr);
 
             printf("\tTCP[%d] Local Port: %d \n", i,
-                   ntohs((u_short)pTcpTable->table[i].dwLocalPort));
+                   ntohs((u_short)pTcpTable-&gt;table[i].dwLocalPort));
 
-            IpAddr.S_un.S_addr = (u_long) pTcpTable->table[i].dwRemoteAddr;
+            IpAddr.S_un.S_addr = (u_long) pTcpTable-&gt;table[i].dwRemoteAddr;
             strcpy_s(szRemoteAddr, sizeof (szRemoteAddr), inet_ntoa(IpAddr));
             printf("\tTCP[%d] Remote Addr: %s\n", i, szRemoteAddr);
 
             printf("\tTCP[%d] Remote Port: %d\n", i,
-                   ntohs((u_short)pTcpTable->table[i].dwRemotePort));
+                   ntohs((u_short)pTcpTable-&gt;table[i].dwRemotePort));
                    
-            printf("\tTCP[%d] Owning PID: %d\n", i, pTcpTable->table[i].dwOwningPid);
+            printf("\tTCP[%d] Owning PID: %d\n", i, pTcpTable-&gt;table[i].dwOwningPid);
 
             printf("\tTCP[%d] Offload State: %ld - ", i,
-                   pTcpTable->table[i].dwOffloadState);
-            switch (pTcpTable->table[i].dwOffloadState) {
+                   pTcpTable-&gt;table[i].dwOffloadState);
+            switch (pTcpTable-&gt;table[i].dwOffloadState) {
             case TcpConnectionOffloadStateInHost:
                 printf("Owned by the network stack and not offloaded \n");
                 break;
@@ -234,10 +238,10 @@ int main()
 
     return 0;    
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

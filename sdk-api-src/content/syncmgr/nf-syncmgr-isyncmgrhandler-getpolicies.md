@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandler_GetPolicies.htm
 tech.root: shell
 ms.assetid: ff30441a-43bb-4f30-af04-4d2056b8dfb0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: GetPolicies, GetPolicies method [Windows Shell], GetPolicies method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetPolicies method, ISyncMgrHandler.GetPolicies, ISyncMgrHandler::GetPolicies, _shell_ISyncMgrHandler_GetPolicies, shell.ISyncMgrHandler_GetPolicies, syncmgr/ISyncMgrHandler::GetPolicies
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,17 +91,21 @@ This method is called by Sync Center in response to a call to <a href="https://m
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::GetPolicies(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::GetPolicies(
                              __out SYNCMGR_HANDLER_POLICIES *pmPolicies)
 {
     *pmPolicies = SYNCMGR_HPM_NONE;
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

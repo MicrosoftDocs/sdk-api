@@ -4,10 +4,10 @@ title: INetConnection::Delete
 author: windows-sdk-content
 description: The Delete method deletes this connection from connections folder.
 old-location: ics\inetconnection_delete.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: d2179872-da9b-4d89-b6e9-b318d304b15d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Delete, Delete method [ICS/ICF], Delete method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Delete method, INetConnection.Delete, INetConnection::Delete, _ics_inetconnection_delete, ics.inetconnection_delete, netcon/INetConnection::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IEnumBackgroundCopyJobs
 author: windows-sdk-content
 description: Use the IEnumBackgroundCopyJobs interface to enumerate the list of jobs in the transfer queue. To get an IEnumBackgroundCopyJobs interface pointer, call the IBackgroundCopyManager::EnumJobs method.
 old-location: bits\ienumbackgroundcopyjobs.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 21ff88da-9fae-478f-bcba-488ed7a89608
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumBackgroundCopyJobs, IEnumBackgroundCopyJobs interface [BITS], IEnumBackgroundCopyJobs interface [BITS],described, _drz_ienumbackgroundcopyjobs, bits.ienumbackgroundcopyjobs, bits/IEnumBackgroundCopyJobs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,14 +53,14 @@ req.redist:
 Use the 
 <b>IEnumBackgroundCopyJobs</b> interface to enumerate the list of jobs in the transfer queue. To get an 
 <b>IEnumBackgroundCopyJobs</b> interface pointer, call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363052(v=VS.85).aspx">IBackgroundCopyManager::EnumJobs</a> method.
+<a href="https://msdn.microsoft.com/e8b73060-dff9-4ab3-8009-d2b41502fc1a">IBackgroundCopyManager::EnumJobs</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBackgroundCopyJobs</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumBackgroundCopyJobs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBackgroundCopyJobs</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumBackgroundCopyJobs</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>IEnumBackgroundCopyJobs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa363117(v=VS.85).aspx">Clone</a>
+<a href="https://msdn.microsoft.com/5d83af74-c24c-41e2-aef4-d7210a1d0160">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -82,7 +82,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa363118(v=VS.85).aspx">GetCount</a>
+<a href="https://msdn.microsoft.com/024ffd11-5084-4ff5-b1b6-9aec3e802900">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of items in the enumeration.
@@ -91,7 +91,7 @@ Returns the number of items in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa363119(v=VS.85).aspx">Next</a>
+<a href="https://msdn.microsoft.com/a248e14a-ab17-4e8e-9e27-2ba31a4a999d">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of items in the enumeration sequence.
@@ -100,7 +100,7 @@ Retrieves a specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa363120(v=VS.85).aspx">Reset</a>
+<a href="https://msdn.microsoft.com/045df884-88e0-4d5a-a790-6b3b9ba2d4f5">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -109,7 +109,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa363121(v=VS.85).aspx">Skip</a>
+<a href="https://msdn.microsoft.com/061f19f7-60e5-4242-871a-cab566c67cad">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of items in the enumeration sequence.
@@ -124,11 +124,11 @@ Skips a specified number of items in the enumeration sequence.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363052(v=VS.85).aspx">IBackgroundCopyManager::EnumJobs</a>
+<a href="https://msdn.microsoft.com/e8b73060-dff9-4ab3-8009-d2b41502fc1a">IBackgroundCopyManager::EnumJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363097(v=VS.85).aspx">IEnumBackgroundCopyFiles</a>
+<a href="https://msdn.microsoft.com/831998ba-601c-43c4-ba27-faff741f8eb4">IEnumBackgroundCopyFiles</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: cos\itransactioncontextex_abort.htm
 tech.root: cossdk
 ms.assetid: 78f9169f-ecb3-4774-bd28-b1ba83c0838c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionContextEx interface, ITransactionContextEx interface [COM+],Abort method, ITransactionContextEx.Abort, ITransactionContextEx::Abort, _cos_ITransactionContextEx_Abort, comsvcs/ITransactionContextEx::Abort, cos.itransactioncontextex_abort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,9 +109,13 @@ Calling <b>Abort</b> ends the transaction on return of the method and automatica
 
 #### Examples
 
-
-```cpp
-ITransactionContextEx* pTransactionContext = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ITransactionContextEx* pTransactionContext = NULL;
 IMyObject* pMyObject = NULL;
 boolean bUserCanceled = FALSE;
 HRESULT hr;
@@ -119,31 +123,31 @@ HRESULT hr;
 // Get TransactionContextEx.
 hr = CoCreateInstance(CLSID_ITransactionContextEx, 
   NULL, CLSCTX_INPROC, IID_ITransactionContextEx, 
-  (void**)&pTransactionContext);
+  (void**)&amp;pTransactionContext);
 if (FAILED(hr)) throw(hr);
 
 // Create an instance of MyObject.
-hr = pTransactionContext->CreateInstance(CLSID_CMyObject, 
-  IID_IMyObject, (void**)&pMyObject);
+hr = pTransactionContext-&gt;CreateInstance(CLSID_CMyObject, 
+  IID_IMyObject, (void**)&amp;pMyObject);
 if (FAILED(hr)) throw(hr);
 
 // Do some work here.
 
 // If something goes wrong, abort the transaction.
 if (bUserCanceled) {
-    hr = pTransactionContext->Abort();
+    hr = pTransactionContext-&gt;Abort();
     if (FAILED(hr)) throw(hr);
 
 // Otherwise, commit it.
 } else {
-    hr = pTransactionContext->Commit();
+    hr = pTransactionContext-&gt;Commit();
     if (FAILED(hr)) throw(hr);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

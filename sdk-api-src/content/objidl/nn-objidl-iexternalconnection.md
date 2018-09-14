@@ -7,7 +7,7 @@ old-location: com\iexternalconnection.htm
 tech.root: com
 ms.assetid: 28afc305-d5b0-4ac9-9412-5876e575c2c2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IExternalConnection, IExternalConnection interface [COM], IExternalConnection interface [COM],described, _com_iexternalconnection, com.iexternalconnection, objidlbase/IExternalConnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Manages a server object's count of marshaled, or external, connections. A server
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExternalConnection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IExternalConnection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExternalConnection</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IExternalConnection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

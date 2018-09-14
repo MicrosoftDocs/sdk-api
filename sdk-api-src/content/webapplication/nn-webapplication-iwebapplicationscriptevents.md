@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationscriptevents.htm
 tech.root: debug_wwahost
 ms.assetid: a33f99a0-7c2d-45df-8a6a-d3257d537c9b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/29/2018
 ms.keywords: IWebApplicationScriptEvents, IWebApplicationScriptEvents interface [Debugging Windows Store apps], IWebApplicationScriptEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationscriptevents, webapplication/IWebApplicationScriptEvents
 ms.prod: windows
 ms.technology: windows-sdk

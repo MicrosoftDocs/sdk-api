@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodereader_gettcrmode.htm
 tech.root: DirectShow
 ms.assetid: 227c5d8e-fbaf-4bf8-a8c8-954e14e51a24
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: GetTCRMode, GetTCRMode method [DirectShow], GetTCRMode method [DirectShow],IAMTimecodeReader interface, IAMTimecodeReader interface [DirectShow],GetTCRMode method, IAMTimecodeReader.GetTCRMode, IAMTimecodeReader::GetTCRMode, IAMTimecodeReaderGetTCRMode, dshow.iamtimecodereader_gettcrmode, strmif/IAMTimecodeReader::GetTCRMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

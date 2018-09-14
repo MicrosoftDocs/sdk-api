@@ -4,10 +4,10 @@ title: WinHttpCheckPlatform function
 author: windows-sdk-content
 description: The WinHttpCheckPlatform function determines whether the current platform is supported by this version of Microsoft Windows HTTP Services (WinHTTP).
 old-location: http\winhttpcheckplatform.htm
-tech.root: WinHttp
+tech.root: winhttp
 ms.assetid: 0daec97f-c1c9-4d87-8e24-485e262d8a85
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/11/2018
 ms.keywords: WinHttpCheckPlatform, WinHttpCheckPlatform function [WinHTTP], http.winhttpcheckplatform, winhttp.winhttpcheckplatform_function, winhttp/WinHttpCheckPlatform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,16 +87,20 @@ For more information, see <a href="https://msdn.microsoft.com/354ab65d-5e46-451d
 
 The following example shows how to determine whether the current platform is supported.
 
-
-```cpp
-    if (WinHttpCheckPlatform( ))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    if (WinHttpCheckPlatform( ))
         printf("This platform is supported by WinHTTP.\n");
     else
         printf("This platform is NOT supported by WinHTTP.\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: cloudapi\cfgetplaceholderstatefromfileinfo.htm
 tech.root: cfApi
 ms.assetid: 33DB8FAC-D2C9-4BBB-8505-1D9A680EA2BF
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 08/29/2018
 ms.keywords: CfGetPlaceholderStateFromFileInfo, CfGetPlaceholderStateFromFileInfo function, cfapi/CfGetPlaceholderStateFromFileInfo, cloudApi.cfgetplaceholderstatefromfileinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,10 +81,10 @@ Can include <a href="https://msdn.microsoft.com/5E814458-2045-4CFD-90AC-F1F53DEB
 
 
 
-The input is a buffer containing information returned by <a href="https://msdn.microsoft.com/en-us/library/Aa364953(v=VS.85).aspx">GetFileInformationByHandleEx</a>, and the corresponding <i>InfoClass</i> so the API knows how to interpret the buffer.
+The input is a buffer containing information returned by <a href="https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04">GetFileInformationByHandleEx</a>, and the corresponding <i>InfoClass</i> so the API knows how to interpret the buffer.
 
 
-Not all information classes supported by <a href="https://msdn.microsoft.com/en-us/library/Aa364953(v=VS.85).aspx">GetFileInformationByHandleEx</a> are supported by this API.  If the <i>FileAttributes</i> and <i>ReparseTag</i> can’t be extracted from a given information class, this API will return CF_PLACEHOLDER_STATE_INVALID and set last error properly.
+Not all information classes supported by <a href="https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04">GetFileInformationByHandleEx</a> are supported by this API.  If the <i>FileAttributes</i> and <i>ReparseTag</i> can’t be extracted from a given information class, this API will return CF_PLACEHOLDER_STATE_INVALID and set last error properly.
 
 
 

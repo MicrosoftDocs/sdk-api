@@ -7,7 +7,7 @@ old-location: intl\getuserpreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 0800642c-c133-4993-bd16-6bdbf7518f1c
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/30/2018
 ms.keywords: GetUserPreferredUILanguages, GetUserPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, _win32_GetUserPreferredUILanguages, intl.getuserpreferreduilanguages, winnls/GetUserPreferredUILanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,19 +153,23 @@ The language list retrieved by this function has the following characteristics:
 <li>If the list is empty or does not meet these validation criteria, the system preferred UI languages list is used instead.</li>
 </ul>
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-
-```cpp
-[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.Boolean GetUserPreferredUILanguages(
             System.UInt32 dwFlags,
             ref System.UInt32 pulNumLanguages,
             System.IntPtr pwszLanguagesBuffer,
             ref System.UInt32 pcchLanguagesBuffer
             );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

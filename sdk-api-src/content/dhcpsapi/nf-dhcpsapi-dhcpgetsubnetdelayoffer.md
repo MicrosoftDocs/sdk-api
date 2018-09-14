@@ -4,10 +4,10 @@ title: DhcpGetSubnetDelayOffer function
 author: windows-sdk-content
 description: Obtains the delay period for DHCP OFFER messages after a DISCOVER message is received.
 old-location: dhcp\dhcpgetsubnetdelayoffer.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: fce1b0e8-d41c-45f7-99df-4233e76b2597
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpGetSubnetDelayOffer, DhcpGetSubnetDelayOffer function [DHCP], dhcp.dhcpgetsubnetdelayoffer, dhcpsapi/DhcpGetSubnetDelayOffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

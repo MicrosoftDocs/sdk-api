@@ -7,7 +7,7 @@ old-location: bluetooth\sdpattributerange.htm
 tech.root: bluetooth
 ms.assetid: 2b8bf753-a3c4-4a41-89c7-0caac76cfd33
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: SdpAttributeRange, SdpAttributeRange structure [Bluetooth], _SdpAttributeRange, bluetooth.sdpattributerange, bthsdpdef/SdpAttributeRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ Maximum attribute value for which to search.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362938(v=VS.85).aspx">BTH_QUERY_SERVICE</a>
+<a href="https://msdn.microsoft.com/b208b7d6-305c-4acc-9c89-75721ff5dcb2">BTH_QUERY_SERVICE</a>
  
 
  

@@ -4,10 +4,10 @@ title: MI_DestinationOptions_GetTimeout function
 author: windows-sdk-content
 description: Gets the default options timeout value.
 old-location: wmi_v2\mi_destinationoptions_gettimeout.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: e42765f1-42fd-49b2-ac70-bac42bd55441
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_DestinationOptions_GetTimeout, MI_DestinationOptions_GetTimeout function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetTimeout, wmi_v2.mi_destinationoptions_gettimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

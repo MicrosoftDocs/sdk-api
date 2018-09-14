@@ -4,10 +4,10 @@ title: IWRdsProtocolSettings::GetSettings
 author: windows-sdk-content
 description: Retrieves the settings for a particular policy.
 old-location: termserv\iwrdsprotocolsettings_getsettings.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 3a5a7ffd-15e1-4313-ad44-e720cd260f02
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetSettings, GetSettings method [Remote Desktop Services], GetSettings method [Remote Desktop Services],IWRdsProtocolSettings interface, IWRdsProtocolSettings interface [Remote Desktop Services],GetSettings method, IWRdsProtocolSettings.GetSettings, IWRdsProtocolSettings::GetSettings, termserv.iwrdsprotocolsettings_getsettings, wtsprotocol/IWRdsProtocolSettings::GetSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: CreatePrivateObjectSecurityWithMultipleInheritance function
 author: windows-sdk-content
 description: Allocates and initializes a self-relative security descriptor for a new private object created by the resource manager calling this function.
 old-location: security\createprivateobjectsecuritywithmultipleinheritance.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 8c5a2ac2-612c-4625-8c68-27d99d4ba9d5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CreatePrivateObjectSecurityWithMultipleInheritance, CreatePrivateObjectSecurityWithMultipleInheritance function [Security], SEF_AVOID_OWNER_CHECK, SEF_AVOID_OWNER_RESTRICTION, SEF_AVOID_PRIVILEGE_CHECK, SEF_DACL_AUTO_INHERIT, SEF_DEFAULT_DESCRIPTOR_FOR_OBJECT, SEF_DEFAULT_GROUP_FROM_PARENT, SEF_DEFAULT_OWNER_FROM_PARENT, SEF_MACL_NO_EXECUTE_UP, SEF_MACL_NO_READ_UP, SEF_MACL_NO_WRITE_UP, SEF_SACL_AUTO_INHERIT, _win32_createprivateobjectsecuritywithmultipleinheritance, security.createprivateobjectsecuritywithmultipleinheritance, securitybaseapi/CreatePrivateObjectSecurityWithMultipleInheritance
 ms.prod: windows-hardware
 ms.technology: windows-devices

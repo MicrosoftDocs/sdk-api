@@ -4,10 +4,10 @@ title: CMSPAddress::GetDynamicTerminalClasses
 author: windows-sdk-content
 description: The GetDynamicTerminalClasses method is called by our wrapper methods to get an array of dynamic terminal classes that can be used on this address.
 old-location: tapi3\cmspaddress_getdynamicterminalclasses.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 62ded118-ee43-4500-97e2-4177518465a6
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],GetDynamicTerminalClasses method, CMSPAddress.GetDynamicTerminalClasses, CMSPAddress::GetDynamicTerminalClasses, GetDynamicTerminalClasses, GetDynamicTerminalClasses method [TAPI 2.2], GetDynamicTerminalClasses method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getdynamicterminalclasses, mspaddr/CMSPAddress::GetDynamicTerminalClasses, tapi3.cmspaddress_getdynamicterminalclasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

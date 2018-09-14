@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_view_instance_flags.htm
 tech.root: direct3d12
 ms.assetid: 3627A9D9-0E32-458D-98A2-CBF9927B2EA6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: D3D12_VIEW_INSTANCE_FLAGS, D3D12_VIEW_INSTANCING_FLAGS, D3D12_VIEW_INSTANCING_FLAGS enumeration, D3D12_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING, D3D12_VIEW_INSTANCING_FLAG_NONE, d3d12/D3D12_VIEW_INSTANCING_FLAGS, d3d12/D3D12_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING, d3d12/D3D12_VIEW_INSTANCING_FLAG_NONE, direct3d12.d3d12_view_instance_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Enables view instance masking.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt844812(v=VS.85).aspx">D3D12_VIEW_INSTANCING_DESC</a>
+<a href="direct3d12.d3d12_view_instanceing_desc">D3D12_VIEW_INSTANCING_DESC</a>
  
 
  

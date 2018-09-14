@@ -4,10 +4,10 @@ title: ID2D1Properties::GetPropertyCount
 author: windows-sdk-content
 description: Gets the number of top-level properties.
 old-location: direct2d\id2d1properties_getpropertycount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: abf54fef-8b46-41f9-a87e-c9c58e8ee49e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetPropertyCount, GetPropertyCount method [Direct2D], GetPropertyCount method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyCount method, ID2D1Properties.GetPropertyCount, ID2D1Properties::GetPropertyCount, d2d1_1/ID2D1Properties::GetPropertyCount, direct2d.id2d1properties_getpropertycount
 ms.prod: windows-hardware
 ms.technology: windows-devices

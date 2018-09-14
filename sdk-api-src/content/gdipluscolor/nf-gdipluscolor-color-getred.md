@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_GetRed_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getred.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Color class [GDI+],GetRed method, Color.GetRed, Color::GetRed, GetRed, GetRed method [GDI+], GetRed method [GDI+],Color class, _gdiplus_CLASS_Color_GetRed_, gdiplus._gdiplus_CLASS_Color_GetRed_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Color::GetRed</b> method gets the red component of this <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object.
+The <b>Color::GetRed</b> method gets the red component of this <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object.
 
 
 ## -parameters
@@ -78,15 +78,15 @@ This method returns the red component of this color.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536251(v=VS.85).aspx">Color::GetR</a>
+<a href="https://msdn.microsoft.com/70051577-5f60-4b4c-8d0c-9b285edbd77c">Color::GetR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536253(v=VS.85).aspx">Color::GetValue</a>
+<a href="https://msdn.microsoft.com/b333bf7d-b212-43fd-8f86-d7bf73b6a3f4">Color::GetValue</a>
  
 
  

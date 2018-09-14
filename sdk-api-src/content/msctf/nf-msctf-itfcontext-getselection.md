@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_getselection.htm
 tech.root: TSF
 ms.assetid: 08b67fd5-aebe-49f7-af78-6f49c8f47f64
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetSelection method, ITfContext.GetSelection, ITfContext::GetSelection, _tsf_itfcontext_getselection_ref, msctf/ITfContext::GetSelection, tsf.itfcontext_getselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -178,26 +178,30 @@ Normally, a context only supports a single selection. It is possible, however, f
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT         hr;
 TF_SELECTION    tfSel;
 ULONG           uFetched;
 
 //Obtain the default selection. 
-hr = pContext->GetSelection(ec, TF_DEFAULT_SELECTION, 1, &tfSel, &uFetched);
-if(SUCCEEDED(hr) && (uFetched > 0))
+hr = pContext-&gt;GetSelection(ec, TF_DEFAULT_SELECTION, 1, &amp;tfSel, &amp;uFetched);
+if(SUCCEEDED(hr) &amp;&amp; (uFetched &gt; 0))
 {
     //Work with the selection. 
     
     //Release the selection range object. 
-    tfSel.range->Release();
+    tfSel.range-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

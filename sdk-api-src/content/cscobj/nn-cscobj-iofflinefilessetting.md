@@ -4,10 +4,10 @@ title: IOfflineFilesSetting
 author: windows-sdk-content
 description: Represents a setting that controls the behavior the Offline Files service.
 old-location: of\iofflinefilessetting.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 6f47c67b-9438-4229-89b2-6b3f9da8fb68
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], IOfflineFilesSetting interface [Offline Files],described, cscobj/IOfflineFilesSetting, of.iofflinefilessetting
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,9 @@ Represents a setting that controls the behavior the Offline Files service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesSetting</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOfflineFilesSetting</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesSetting</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOfflineFilesSetting</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IOfflineFilesSetting</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530602(v=VS.85).aspx">DeletePreference</a>
+<a href="https://msdn.microsoft.com/815791e8-3e41-4511-9789-9b9258e5fcf4">DeletePreference</a>
 </td>
 <td align="left" width="63%">
 Removes a preference setting.
@@ -80,7 +80,7 @@ Removes a preference setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530603(v=VS.85).aspx">GetName</a>
+<a href="https://msdn.microsoft.com/2e4591b5-c8a9-4645-8001-8ac09c706ee2">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a name associated with a particular Offline Files setting.
@@ -89,7 +89,7 @@ Retrieves a name associated with a particular Offline Files setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530604(v=VS.85).aspx">GetPolicy</a>
+<a href="https://msdn.microsoft.com/b7f7f8f5-2640-4770-a7ba-230cca8a9575">GetPolicy</a>
 </td>
 <td align="left" width="63%">
 Retrieves a policy associated with a particular Offline Files setting.
@@ -98,7 +98,7 @@ Retrieves a policy associated with a particular Offline Files setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530605(v=VS.85).aspx">GetPolicyScope</a>
+<a href="https://msdn.microsoft.com/29f6d96f-c873-4cc3-88f2-cd075b3ec004">GetPolicyScope</a>
 </td>
 <td align="left" width="63%">
 Indicates the scope of the policy associated with this setting.
@@ -107,7 +107,7 @@ Indicates the scope of the policy associated with this setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530606(v=VS.85).aspx">GetPreference</a>
+<a href="https://msdn.microsoft.com/80bc64f2-2787-42ba-9c36-742964440f74">GetPreference</a>
 </td>
 <td align="left" width="63%">
 Retrieves a per-machine or per-user preference associated with a particular Offline Files setting.
@@ -116,7 +116,7 @@ Retrieves a per-machine or per-user preference associated with a particular Offl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530607(v=VS.85).aspx">GetPreferenceScope</a>
+<a href="https://msdn.microsoft.com/618a83b7-a86d-4356-8312-7aba8923e8a4">GetPreferenceScope</a>
 </td>
 <td align="left" width="63%">
 Retrieves the scope of the preference associated with this setting.
@@ -125,7 +125,7 @@ Retrieves the scope of the preference associated with this setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530608(v=VS.85).aspx">GetValue</a>
+<a href="https://msdn.microsoft.com/39560ca6-62d7-467b-bc52-1dd769e7e860">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a particular Offline Files setting.
@@ -134,7 +134,7 @@ Retrieves the value of a particular Offline Files setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530609(v=VS.85).aspx">GetValueType</a>
+<a href="https://msdn.microsoft.com/2b5567bf-a7c6-40b3-ac16-9da805ddb3b3">GetValueType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the data type of a particular Offline Files setting.
@@ -143,7 +143,7 @@ Retrieves the data type of a particular Offline Files setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530610(v=VS.85).aspx">SetPreference</a>
+<a href="https://msdn.microsoft.com/a5dc0522-4a1b-450f-bddb-17e67007f809">SetPreference</a>
 </td>
 <td align="left" width="63%">
 Sets a per-computer or per-user preference associated with an Offline Files setting.
@@ -158,7 +158,7 @@ Sets a per-computer or per-user preference associated with an Offline Files sett
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530659(v=VS.85).aspx">Offline Files API Interfaces</a>
+<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
  
 
  

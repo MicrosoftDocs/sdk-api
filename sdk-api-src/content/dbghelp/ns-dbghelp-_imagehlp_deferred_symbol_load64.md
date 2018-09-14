@@ -4,10 +4,10 @@ title: "_IMAGEHLP_DEFERRED_SYMBOL_LOAD64"
 author: windows-sdk-content
 description: Contains information about a deferred symbol load.
 old-location: base\imagehlp_deferred_symbol_load64_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 151c47dd-df4a-44c9-ad9f-1ffc80dd81e9
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: "*PIMAGEHLP_DEFERRED_SYMBOL_LOAD64, DSLFLAG_MISMATCHED_DBG, DSLFLAG_MISMATCHED_PDB, IMAGEHLP_DEFERRED_SYMBOL_LOAD, IMAGEHLP_DEFERRED_SYMBOL_LOAD structure, IMAGEHLP_DEFERRED_SYMBOL_LOAD64, IMAGEHLP_DEFERRED_SYMBOL_LOAD64 structure, IMAGEHLP_DEFERRED_SYMBOL_LOADW64, PIMAGEHLP_DEFERRED_SYMBOL_LOAD64, PIMAGEHLP_DEFERRED_SYMBOL_LOAD64 structure pointer, _IMAGEHLP_DEFERRED_SYMBOL_LOAD64, _win32_imagehlp_deferred_symbol_load64_str, base.imagehlp_deferred_symbol_load64_str, dbghelp/IMAGEHLP_DEFERRED_SYMBOL_LOAD64, dbghelp/IMAGEHLP_DEFERRED_SYMBOL_LOADW64, dbghelp/PIMAGEHLP_DEFERRED_SYMBOL_LOAD64"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,9 +123,13 @@ This member can be one of the following values.
 This structure supersedes the <b>IMAGEHLP_DEFERRED_SYMBOL_LOAD</b> structure. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>IMAGEHLP_DEFERRED_SYMBOL_LOAD</b> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define IMAGEHLP_DEFERRED_SYMBOL_LOAD IMAGEHLP_DEFERRED_SYMBOL_LOAD64
 #define PIMAGEHLP_DEFERRED_SYMBOL_LOAD PIMAGEHLP_DEFERRED_SYMBOL_LOAD64
 #else
@@ -138,10 +142,10 @@ typedef struct _IMAGEHLP_DEFERRED_SYMBOL_LOAD {
     BOOLEAN  Reparse; 
     HANDLE   hFile; 
 } IMAGEHLP_DEFERRED_SYMBOL_LOAD, *PIMAGEHLP_DEFERRED_SYMBOL_LOAD;
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

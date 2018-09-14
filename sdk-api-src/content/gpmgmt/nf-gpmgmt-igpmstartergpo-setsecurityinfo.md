@@ -7,7 +7,7 @@ old-location: gpmc\igpmstartergpo_setsecurityinfo.htm
 tech.root: GPMC
 ms.assetid: ad4df57f-29b3-4a18-922a-a0d4457703ad
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IGPMStarterGPO interface [GPMC],SetSecurityInfo method, IGPMStarterGPO.SetSecurityInfo, IGPMStarterGPO::SetSecurityInfo, SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC],IGPMStarterGPO interface, gpmc.igpmstartergpo_setsecurityinfo, gpmgmt/IGPMStarterGPO::SetSecurityInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

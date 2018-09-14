@@ -7,7 +7,7 @@ old-location: tablet\itextinputpaneleventsink.htm
 tech.root: tablet
 ms.assetid: e3ef6d65-ca6b-4587-bb21-3d3803a3432a
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], ITextInputPanelEventSink interface [Tablet PC],described, e3ef6d65-ca6b-4587-bb21-3d3803a3432a, peninputpanel/ITextInputPanelEventSink, tablet.itextinputpaneleventsink
 ms.prod: windows
 ms.technology: windows-sdk

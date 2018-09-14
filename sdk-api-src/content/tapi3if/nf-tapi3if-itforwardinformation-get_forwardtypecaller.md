@@ -4,10 +4,10 @@ title: ITForwardInformation::get_ForwardTypeCaller
 author: windows-sdk-content
 description: The get_ForwardTypeCaller method gets the type of caller for a given forwarding mode.
 old-location: tapi3\itforwardinformation_get_forwardtypecaller.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 3fca5b5c-dd1e-4c8d-878a-99a7e3ec45f9
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],get_ForwardTypeCaller method, ITForwardInformation.get_ForwardTypeCaller, ITForwardInformation::get_ForwardTypeCaller, _tapi3_itforwardinformation_get_forwardtypecaller, get_ForwardTypeCaller, get_ForwardTypeCaller method [TAPI 2.2], get_ForwardTypeCaller method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_forwardtypecaller, tapi3if/ITForwardInformation::get_ForwardTypeCaller
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -136,7 +136,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppCallerAddress</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppCallerAddress</i> parameter.
 			
 
 

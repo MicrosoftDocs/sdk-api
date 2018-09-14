@@ -4,10 +4,10 @@ title: IDvbShortEventDescriptor::GetLanguageCode
 author: windows-sdk-content
 description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) short event descriptor.
 old-location: mstv\idvbshorteventdescriptor_getlanguagecode.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c531ae74-586f-4191-9b77-5f5837e551c4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies],IDvbShortEventDescriptor interface, IDvbShortEventDescriptor interface [Microsoft TV Technologies],GetLanguageCode method, IDvbShortEventDescriptor.GetLanguageCode, IDvbShortEventDescriptor::GetLanguageCode, dvbsiparser/IDvbShortEventDescriptor::GetLanguageCode, mstv.idvbshorteventdescriptor_getlanguagecode
 ms.prod: windows-hardware
 ms.technology: windows-devices

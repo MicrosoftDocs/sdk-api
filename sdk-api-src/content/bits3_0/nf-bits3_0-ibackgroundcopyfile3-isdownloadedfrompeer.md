@@ -4,10 +4,10 @@ title: IBackgroundCopyFile3::IsDownloadedFromPeer
 author: windows-sdk-content
 description: Gets a value that determines if any part of the file was downloaded from a peer.
 old-location: bits\ibackgroundcopyfile3_isdownloadedfrompeer.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: b6084cfe-b3ab-4c9f-b335-2696e5839451
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBackgroundCopyFile3 interface [BITS],IsDownloadedFromPeer method, IBackgroundCopyFile3.IsDownloadedFromPeer, IBackgroundCopyFile3::IsDownloadedFromPeer, IsDownloadedFromPeer, IsDownloadedFromPeer method [BITS], IsDownloadedFromPeer method [BITS],IBackgroundCopyFile3 interface, bits.ibackgroundcopyfile3_isdownloadedfrompeer, bits3_0/IBackgroundCopyFile3::IsDownloadedFromPeer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,7 +104,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362952(v=VS.85).aspx">IBackgroundCopyFile3</a>
+<a href="https://msdn.microsoft.com/5304f93a-993a-4327-9fdb-fb2ef1dafecb">IBackgroundCopyFile3</a>
  
 
  

@@ -4,10 +4,10 @@ title: "_DHCPV6_BIND_ELEMENT_ARRAY"
 author: windows-sdk-content
 description: Specifies an array of DHCPV6_BIND_ELEMENT structures that contain DHCPv6 interface bindings.
 old-location: dhcp\dhcpv6_bind_element_array.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: b78ebdf8-da24-418c-8fe8-aed3047dfdf3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPDHCPV6_BIND_ELEMENT_ARRAY, DHCPV6_BIND_ELEMENT_ARRAY, DHCPV6_BIND_ELEMENT_ARRAY structure [DHCP], PDHCPV6_BIND_ELEMENT_ARRAY, PDHCPV6_BIND_ELEMENT_ARRAY structure pointer [DHCP], _DHCPV6_BIND_ELEMENT_ARRAY, dhcp.dhcpv6_bind_element_array, dhcpsapi/DHCPV6_BIND_ELEMENT_ARRAY, dhcpsapi/PDHCPV6_BIND_ELEMENT_ARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

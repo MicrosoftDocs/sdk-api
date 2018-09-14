@@ -7,7 +7,7 @@ old-location: mf\imfsslcertificatemanager_getcertificatepolicy.htm
 tech.root: medfound
 ms.assetid: 343f86ca-0036-4324-b3ca-4dba8fbc26a8
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: GetCertificatePolicy, GetCertificatePolicy method [Media Foundation], GetCertificatePolicy method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],GetCertificatePolicy method, IMFSSLCertificateManager.GetCertificatePolicy, IMFSSLCertificateManager::GetCertificatePolicy, mf.imfsslcertificatemanager_getcertificatepolicy, mfidl/IMFSSLCertificateManager::GetCertificatePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

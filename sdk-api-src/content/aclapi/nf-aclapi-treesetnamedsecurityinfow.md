@@ -4,10 +4,10 @@ title: TreeSetNamedSecurityInfoW function
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a specified tree of objects.
 old-location: security\treesetnamedsecurityinfo.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: caa711c3-301b-4ed7-b1f4-dc6a48563905
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: TREE_SEC_INFO_RESET, TREE_SEC_INFO_RESET_KEEP_EXPLICIT, TREE_SEC_INFO_SET, TreeSetNamedSecurityInfo, TreeSetNamedSecurityInfo function [Security], TreeSetNamedSecurityInfoA, TreeSetNamedSecurityInfoW, aclapi/TreeSetNamedSecurityInfo, aclapi/TreeSetNamedSecurityInfoA, aclapi/TreeSetNamedSecurityInfoW, security.treesetnamedsecurityinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -152,10 +152,14 @@ If any object in the tree does not grant appropriate permissions to the caller t
 
 A pointer to the function used to track the progress of the <b>TreeSetNamedSecurityInfo</b> function. The prototype of the progress function is:
 
-
-```cpp
-#include <windows.h>
-#include <Aclapi.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;Aclapi.h&gt;
 #pragma comment(lib, "Advapi32.lib")
 
 typedef VOID (*FN_PROGRESS) (
@@ -166,10 +170,10 @@ typedef VOID (*FN_PROGRESS) (
   IN PVOID Args,                      // Caller specific data
   IN BOOL SecuritySet                 // Whether security was set
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The progress function provides the caller with progress and error information when nodes are processed. The caller specifies the progress function in <i>fnProgress</i>, and during the tree  operation, <b>TreeSetNamedSecurityInfo</b> passes the name of the last object processed, the error status of that operation, and the current  PROG_INVOKE_SETTING value. The caller can change the PROG_INVOKE_SETTING value by using <i>pInvokeSetting</i>.
 
 If no progress function is to be used, set this parameter to <b>NULL</b>.

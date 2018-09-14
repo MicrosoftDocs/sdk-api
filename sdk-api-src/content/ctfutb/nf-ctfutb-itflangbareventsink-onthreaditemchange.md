@@ -7,7 +7,7 @@ old-location: tsf\itflangbareventsink_onthreaditemchange.htm
 tech.root: TSF
 ms.assetid: b59688f9-feb0-4598-bf4a-b0661dda5fad
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnThreadItemChange method, ITfLangBarEventSink.OnThreadItemChange, ITfLangBarEventSink::OnThreadItemChange, OnThreadItemChange, OnThreadItemChange method [Text Services Framework], OnThreadItemChange method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onthreaditemchange_ref, ctfutb/ITfLangBarEventSink::OnThreadItemChange, tsf.itflangbareventsink_onthreaditemchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param dwThreadId [in]
 
-Contains the current thread identifier. This is the same value returned from <a href="https://msdn.microsoft.com/en-us/library/ms683183(v=VS.85).aspx">GetCurrentThreadId</a>.
+Contains the current thread identifier. This is the same value returned from <a href="https://msdn.microsoft.com/a496f61a-e027-44e7-8b22-4f6651d7afb2">GetCurrentThreadId</a>.
 
 
 ## -returns
@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683183(v=VS.85).aspx">GetCurrentThreadId</a>
+<a href="https://msdn.microsoft.com/a496f61a-e027-44e7-8b22-4f6651d7afb2">GetCurrentThreadId</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628694(v=VS.85).aspx">ITfLangBarEventSink</a>
+<a href="https://msdn.microsoft.com/2ef8b8ff-6549-41f8-baf3-3c5b8e2411a3">ITfLangBarEventSink</a>
  
 
  

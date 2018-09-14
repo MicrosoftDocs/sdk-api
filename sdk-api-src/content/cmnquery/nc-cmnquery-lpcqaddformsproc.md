@@ -7,7 +7,7 @@ old-location: ad\cqaddformsproc.htm
 tech.root: ad
 ms.assetid: e4221299-93de-4747-b464-0d152d6e767b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: CQAddFormsProc, CQAddFormsProc callback, CQAddFormsProc callback function [Active Directory], LPCQADDFORMSPROC, LPCQADDFORMSPROC callback function pointer [Active Directory], ad.cqaddformsproc, cmnquery/CQAddFormsProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Contains a 32-bit value defined by the query handler. This value is passed to th
 
 ### -param pForm
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms675751(v=VS.85).aspx">CQFORM</a> structure that defines the form to add.
+Pointer to a <a href="https://msdn.microsoft.com/65cf2e9c-8f88-4e84-8bf2-2b0fd246a835">CQFORM</a> structure that defines the form to add.
 
 
 ## -returns
@@ -82,7 +82,7 @@ Returns an <b>HRESULT</b> value that indicates the success, or failure, of the f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms675751(v=VS.85).aspx">CQFORM</a>
+<a href="https://msdn.microsoft.com/65cf2e9c-8f88-4e84-8bf2-2b0fd246a835">CQFORM</a>
 
 
 

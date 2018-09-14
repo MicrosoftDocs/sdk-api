@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment::get_FailInfo
 author: windows-sdk-content
 description: Gets information when the ProcessResponseMessage method detects a failed environment.
 old-location: security\ix509scepenrollment_failinfo.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 4fd76b7e-8b19-46da-b352-7668917a6585
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: FailInfo property [Security], FailInfo property [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],FailInfo property, IX509SCEPEnrollment.FailInfo, IX509SCEPEnrollment.get_FailInfo, IX509SCEPEnrollment::FailInfo, IX509SCEPEnrollment::get_FailInfo, certenroll/IX509SCEPEnrollment::FailInfo, certenroll/IX509SCEPEnrollment::get_FailInfo, get_FailInfo, security.ix509scepenrollment_failinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Gets information when the <a href="https://msdn.microsoft.com/en-us/library/Dn424985(v=VS.85).aspx">ProcessResponseMessage</a> method detects a failed environment.
+Gets information when the <a href="https://msdn.microsoft.com/4254fdf3-473f-4f22-a08f-13481fd9f779">ProcessResponseMessage</a> method detects a failed environment.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424973(v=VS.85).aspx">IX509SCEPEnrollment</a>
+<a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a>
  
 
  

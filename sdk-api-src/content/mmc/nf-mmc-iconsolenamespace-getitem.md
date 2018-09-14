@@ -2,13 +2,13 @@
 UID: NF:mmc.IConsoleNameSpace.GetItem
 title: IConsoleNameSpace::GetItem
 author: windows-sdk-content
-description: The IConsoleNameSpace2::GetItem method enables the snap-in to retrieve some or all of a single scope item's attributes.
-old-location: mmc\iconsolenamespace2_getitem.htm
+description: Enables the snap-in to retrieve some or all of a single scope item's attributes.
+old-location: mmc\iconsolenamespace_getitem.htm
 tech.root: mmc
-ms.assetid: 0dadf9f0-4d49-49c3-a190-dfab0d6ace3f
+ms.assetid: 76E3188E-F046-489E-8A0E-CC8440E74D99
 ms.author: windowssdkdev
-ms.date: 08/14/2018
-ms.keywords: GetItem, GetItem method [MMC], GetItem method [MMC],IConsoleNameSpace interface, GetItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],GetItem method, IConsoleNameSpace.GetItem, IConsoleNameSpace2 interface [MMC],GetItem method, IConsoleNameSpace2::GetItem, IConsoleNameSpace::GetItem, _slate_iconsolenamespace2_getitem, mmc.iconsolenamespace2_getitem, mmc/IConsoleNameSpace2::GetItem, mmc/IConsoleNameSpace::GetItem
+ms.date: 09/04/2018
+ms.keywords: GetItem, GetItem method [MMC], GetItem method [MMC],IConsoleNameSpace interface, IConsoleNameSpace interface [MMC],GetItem method, IConsoleNameSpace.GetItem, IConsoleNameSpace::GetItem, mmc.iconsolenamespace_getitem, mmc/IConsoleNameSpace::GetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mmc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -38,7 +38,6 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IConsoleNameSpace.GetItem
- - IConsoleNameSpace2.GetItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IConsoleNameSpace2::GetItem</b> method enables the snap-in to retrieve some or all of a single scope item's attributes.
+Enables the snap-in to retrieve some or all of a single scope item's attributes.
 
 
 ## -parameters
@@ -82,7 +81,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/894f99a6-2189-458d-a50f-497930d4a9dd">IConsoleNameSpace2</a>
+<a href="https://msdn.microsoft.com/444bc86d-bfd2-435c-b9fb-691c4da92411">IConsoleNameSpace</a>
  
 
  

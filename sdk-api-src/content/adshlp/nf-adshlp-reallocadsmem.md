@@ -7,7 +7,7 @@ old-location: adsi\reallocadsmem.htm
 tech.root: ADSI
 ms.assetid: 471b8ae7-d3b6-4dd9-aa00-6e1d3ab278a9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: ReallocADsMem, ReallocADsMem function [ADSI], _ds_reallocadsmem, adshlp/ReallocADsMem, adsi.reallocadsmem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,9 +103,13 @@ If <i>cbNew</i> is less than <i>cbOld</i>, the existing memory is truncated to f
 
 The following code example shows how to use <b>ReallocADsMem</b> to enlarge a string.
 
-
-```cpp
-LPWSTR pwszPrefix = L"LDAP://"
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPWSTR pwszPrefix = L"LDAP://"
 DWORD dwOldSize = (lstrlenW(pwszPrefix) + 1) * sizeof(WCHAR);
 
 LPWSTR pwszADsPath = (LPWSTR)AllocADsMem(dwOldSize);
@@ -141,10 +145,10 @@ if(pwszADsPath)
 
     // Free remaining memory.
     FreeADsMem(pwszADsPath);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: MprAdminConnectionEnum function
 author: windows-sdk-content
 description: The MprAdminConnectionEnum function enumerates all active connections.
 old-location: rras\mpradminconnectionenum.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 27be536e-0437-4e30-aef7-ed92f50baeaa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MprAdminConnectionEnum, MprAdminConnectionEnum function [RAS], _mpr_mpradminconnectionenum, mprapi/MprAdminConnectionEnum, rras.mpradminconnectionenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -219,8 +219,8 @@ An error from MprError.h, RasError.h, or WinError.h.
 
 This function is available on Windows NT 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as <b>RasAdminConnectionEnum</b> rather than 
 <b>MprAdminConnectionEnum</b>. Therefore, when using the RRAS redistributable, use 
-<a href="https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx">LoadLibrary</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx">GetProcAddress</a> to access this function.
+<a href="_win32_loadlibrary">LoadLibrary</a> and 
+<a href="_win32_getprocaddress">GetProcAddress</a> to access this function.
 
 
 

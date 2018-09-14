@@ -4,10 +4,10 @@ title: IOfflineFilesShareInfo::IsShareDfsJunction
 author: windows-sdk-content
 description: Determines whether the share item is a DFS junction or a shared folder on a server.
 old-location: of\iofflinefilesshareinfo_issharedfsjunction.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: fdb29270-2fe5-4313-afd9-c21b82b1949a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOfflineFilesShareInfo interface [Offline Files],IsShareDfsJunction method, IOfflineFilesShareInfo.IsShareDfsJunction, IOfflineFilesShareInfo::IsShareDfsJunction, IsShareDfsJunction, IsShareDfsJunction method [Offline Files], IsShareDfsJunction method [Offline Files],IOfflineFilesShareInfo interface, cscobj/IOfflineFilesShareInfo::IsShareDfsJunction, of.iofflinefilesshareinfo_issharedfsjunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530611(v=VS.85).aspx">IOfflineFilesShareInfo</a>
+<a href="https://msdn.microsoft.com/9647aae3-06ca-4813-8243-3d0fb794802d">IOfflineFilesShareInfo</a>
  
 
  

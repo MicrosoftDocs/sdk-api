@@ -7,7 +7,7 @@ old-location: base\ioctl_serial_lsrmst_insert.htm
 tech.root: devio
 ms.assetid: 9bd427da-1c14-403e-bebe-f64fe4e8723c
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IOCTL_SERIAL_LSRMST_INSERT, IOCTL_SERIAL_LSRMST_INSERT control, IOCTL_SERIAL_LSRMST_INSERT control code, _win32_ioctl_serial_lsrmst_insert, base.ioctl_serial_lsrmst_insert, winioctl/IOCTL_SERIAL_LSRMST_INSERT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,25 +51,29 @@ req.redist:
 
 
 Enables or disables the placement of line status and modem status values into the regular data stream that an application acquires through the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> function.
+<a href="base.readfile">ReadFile</a> function.
 
 When this line-status and modem-status data placement mode is enabled, status values are preceded in the data stream by an escape character. The user-definable escape character is set by the 
 <b>IOCTL_SERIAL_LSRMST_INSERT</b> control code. See the Remarks section for status value details.
 
 To perform this operation, call the 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,            // handle to device
   IOCTL_SERIAL_LSRMST_INSERT,  // dwIoControlCode(LPVOID) lpInBuffer,         // input buffer 
   (DWORD) nInBufferSize,       // size of input buffer 
   NULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD) lpBytesReturned,   // number of bytes returned
   (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

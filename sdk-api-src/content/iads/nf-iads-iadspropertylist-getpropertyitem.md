@@ -7,7 +7,7 @@ old-location: adsi\iadspropertylist_getpropertyitem.htm
 tech.root: ADSI
 ms.assetid: 1de86caa-c14c-4dc0-bf56-5fa33279e30a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetPropertyItem, GetPropertyItem method [ADSI], GetPropertyItem method [ADSI],IADsPropertyList interface, IADsPropertyList interface [ADSI],GetPropertyItem method, IADsPropertyList.GetPropertyItem, IADsPropertyList::GetPropertyItem, _ds_iadspropertylist_getpropertyitem, adsi.iadspropertylist__getpropertyitem, adsi.iadspropertylist_getpropertyitem, iads/IADsPropertyList::GetPropertyItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,9 +70,9 @@ Contains one of the <a href="https://msdn.microsoft.com/e601bae5-80bf-43f5-846f-
 
 ### -param pVariant [in, out]
 
-Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer of the object which implements the  <a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a> interface for the retrieved attribute.
+Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointer of the object which implements the  <a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a> interface for the retrieved attribute.
 
-Any memory allocated for this parameter must be released with the <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> function when the data is no longer required.
+Any memory allocated for this parameter must be released with the <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> function when the data is no longer required.
 
 
 ## -returns
@@ -242,9 +242,13 @@ The property of the <a href="https://msdn.microsoft.com/7cad4d04-80d4-4f9a-95b7-
 
 The following  code example shows how to retrieve a property entry using the <b>GetPropertyItem</b> method.
 
-
-```vb
-Const ADSTYPE_CASE_IGNORE_STRING = 3
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Const ADSTYPE_CASE_IGNORE_STRING = 3
 Dim propList As IADsPropertyList
 Dim propEntry As IADsPropertyEntry
 Dim propVal As IADsPropertyValue
@@ -265,16 +269,20 @@ Next
 Set propList = Nothing
 Set propEntry = Nothing
 Set propVal = Nothing
+</pre>
+</td>
+</tr>
+</table></span></div>
+The following code example shows how to retrieve a property entry using the <b>GetPropertyItem</b> method. It assumes that the <a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a> interface has been properly retrieved. For more information about how to load the property cache, see the <a href="iadspropertylist.htm">GetPropertyCache</a> example function  in  <b>IADsPropertyList</b>.
 
-```
-
-
-The following code example shows how to retrieve a property entry using the <b>GetPropertyItem</b> method. It assumes that the <a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a> interface has been properly retrieved. For more information about how to load the property cache, see the <a href="https://msdn.microsoft.com/en-us/library/Aa706102(v=VS.85).aspx">GetPropertyCache</a> example function  in  <b>IADsPropertyList</b>.
-
-
-```cpp
-#include <activeds.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;activeds.h&gt;
+#include &lt;stdio.h&gt;
  
 /////////////////////////////////////////////////////////
 // Function to retrieve a specified property entry 
@@ -287,7 +295,7 @@ IADsPropertyEntry *GetPropertyItem(
 {
    IADsPropertyEntry *pEntry;
    VARIANT var;
-   VariantInit(&var);
+   VariantInit(&amp;var);
 
    if(!pList || !entryName)
    {
@@ -296,10 +304,10 @@ IADsPropertyEntry *GetPropertyItem(
    }
  
    // Get a property entry.
-   hr = pList->GetPropertyItem(entryName, entryType, &var);
-   hr = V_DISPATCH(&var)->QueryInterface(IID_IADsPropertyEntry,
-                                         (void**)&pEntry);
-   VariantClear(&var);
+   hr = pList-&gt;GetPropertyItem(entryName, entryType, &amp;var);
+   hr = V_DISPATCH(&amp;var)-&gt;QueryInterface(IID_IADsPropertyEntry,
+                                         (void**)&amp;pEntry);
+   VariantClear(&amp;var);
  
    return pEntry;
 }
@@ -320,7 +328,7 @@ if(pList)
 if(pEntry)
 { 
     BSTR nm;
-    HRESULT hr = pEntry->get_Name(&nm);
+    HRESULT hr = pEntry-&gt;get_Name(&amp;nm);
     if(SUCCEEDED(hr))
     {
         printf("Property name = %S\n",nm);
@@ -329,12 +337,12 @@ if(pEntry)
 }
  
 if(pList)
-    pList->Release();
+    pList-&gt;Release();
 if(pEntry)
-    pEntry->Release();
-```
-
-
+    pEntry-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -359,11 +367,11 @@ if(pEntry)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>
+<a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>
  
 
  

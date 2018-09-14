@@ -4,10 +4,10 @@ title: PFUNCTION_TABLE_ACCESS_ROUTINE64
 author: windows-sdk-content
 description: An application-defined callback function used with the StackWalk64 function. It provides access to the run-time function table for the process.
 old-location: base\functiontableaccessproc64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 387c20b0-ed16-463c-8b11-3ac9a43548a1
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: FunctionTableAccessProc64, FunctionTableAccessProc64 callback, FunctionTableAccessProc64 callback function, PFUNCTION_TABLE_ACCESS_ROUTINE, PFUNCTION_TABLE_ACCESS_ROUTINE64, _win32_functiontableaccessproc64, base.functiontableaccessproc64, dbghelp/FunctionTableAccessProc64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,9 +92,13 @@ The function returns a pointer to the run-time function table. On an x86 compute
 
 This callback function supersedes the <i>PFUNCTION_TABLE_ACCESS_ROUTINE</i> callback function.  <i>PFUNCTION_TABLE_ACCESS_ROUTINE</i> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define PFUNCTION_TABLE_ACCESS_ROUTINE PFUNCTION_TABLE_ACCESS_ROUTINE64
 #else
 typedef
@@ -103,10 +107,10 @@ PVOID
     __in HANDLE hProcess,
     __in DWORD AddrBase
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

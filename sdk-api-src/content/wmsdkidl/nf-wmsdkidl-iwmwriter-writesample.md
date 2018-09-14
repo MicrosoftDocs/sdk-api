@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriter_writesample.htm
 tech.root: wmformat
 ms.assetid: ba1cf121-1d01-4e90-9ab0-95af0b6e3850
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWMWriter interface [windows Media Format],WriteSample method, IWMWriter.WriteSample, IWMWriter::WriteSample, IWMWriterWriteSample, WriteSample, WriteSample method [windows Media Format], WriteSample method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_writesample, wmsdkidl/IWMWriter::WriteSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ The <b>WriteSample</b> method passes in uncompressed data to be compressed and a
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="wmformat_glossary.htm">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>

@@ -7,7 +7,7 @@ old-location: tsf\itfdocumentmgr_getbase.htm
 tech.root: TSF
 ms.assetid: 71248c77-7440-412c-b565-39c04108b98b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetBase, GetBase method [Text Services Framework], GetBase method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],GetBase method, ITfDocumentMgr.GetBase, ITfDocumentMgr::GetBase, _tsf_itfdocumentmgr_getbase_ref, msctf/ITfDocumentMgr::GetBase, tsf.itfdocumentmgr_getbase
 ms.prod: windows-hardware
 ms.technology: windows-devices

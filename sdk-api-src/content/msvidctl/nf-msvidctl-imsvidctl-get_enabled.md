@@ -4,10 +4,10 @@ title: IMSVidCtl::get_Enabled
 author: windows-sdk-content
 description: The get_Enabled method retrieves a value that determines whether the Video Control can respond to user-generated events.
 old-location: mstv\imsvidctl_get_enabled.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 7c1ec2a6-9880-4420-8d28-4374f1658bd9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_Enabled method, IMSVidCtl.get_Enabled, IMSVidCtl::get_Enabled, IMSVidCtlget_Enabled, get_Enabled, get_Enabled method [Microsoft TV Technologies], get_Enabled method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_enabled, msvidctl/IMSVidCtl::get_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

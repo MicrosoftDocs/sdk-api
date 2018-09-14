@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_caerrorid.htm
 tech.root: seccrypto
 ms.assetid: 462fb4a6-2aad-46d4-98e0-32c095eff5c7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CAErrorId property [Security], CAErrorId property [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],CAErrorId property, ICertSrvSetup.CAErrorId, ICertSrvSetup.get_CAErrorId, ICertSrvSetup::CAErrorId, ICertSrvSetup::get_CAErrorId, IDS_ERR_CREATE_DIR, IDS_IDINFO_CAEXISTINDS, IDS_PATH_TOO_LONG_CANAME, IDS_PATH_TOO_LONG_DIRECTORY, IDS_STORELOC_PATHTOOLONG, IDS_STORELOC_UNCMUSTEXIST, IDS_WRN_DBFILEINUSE, IDS_WRN_DBSPECIALCHARACTERS, IDS_WRN_IDINFO_INVALIDDNEX, IDS_WRN_KEYNAMETOOLONG, IDS_WRN_OVERWRITEEXISTINGKEY, IDS_WRN_STORELOC_DB_FULLPATH, IDS_WRN_STORELOC_EXISTINGDB, IDS_WRN_STORELOC_LOG_FULLPATH, IDS_WRN_STORELOC_SHAREDFOLDER_FULLPATH, IDS_WRN_UNICODESTRINGENCODING, casetup/ICertSrvSetup::CAErrorId, casetup/ICertSrvSetup::get_CAErrorId, get_CAErrorId, security.icertsrvsetup_caerrorid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>CAErrorId</b> property gets the ID for additional error information related to a failed <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) specification. Any method call on the parent object resets this property.
+The <b>CAErrorId</b> property gets the ID for additional error information related to a failed <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) specification. Any method call on the parent object resets this property.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
  
 
  

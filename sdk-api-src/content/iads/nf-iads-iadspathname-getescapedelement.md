@@ -7,7 +7,7 @@ old-location: adsi\iadspathname_getescapedelement.htm
 tech.root: ADSI
 ms.assetid: a61702bd-26a8-4bd9-96c1-82a59dad7ead
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetEscapedElement, GetEscapedElement method [ADSI], GetEscapedElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetEscapedElement method, IADsPathname.GetEscapedElement, IADsPathname::GetEscapedElement, _ds_iadspathname_getescapedelement, adsi.iadspathname__getescapedelement, adsi.iadspathname_getescapedelement, iads/IADsPathname::GetEscapedElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,39 +102,51 @@ This method is used to handle a path that contains special characters in a unesc
 
 The following Visual Basic code example shows the effect produced by <b>IADsPathname::GetEscapedElement</b>. After this code is executed, rdn will contain "cn=smith\,jeff".
 
-
-```vb
-Dim x As New Pathname
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x As New Pathname
  
-rdn = x.GetEscapedElement(0, "cn=smith,jeff")
-```
-
-
+rdn = x.GetEscapedElement(0, "cn=smith,jeff")</pre>
+</td>
+</tr>
+</table></span></div>
 The following VBScript code example shows the effect produced by <b>IADsPathname::GetEscapedElement</b>. After this code is executed, rdn will contain "cn=smith\,jeff".
 
-
-```vb
-Dim x 
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x 
 Set x = CreateObject("Pathname")
-rdn = x.GetEscapedElement(0, "cn=smith,jeff")
-```
-
-
+rdn = x.GetEscapedElement(0, "cn=smith,jeff")</pre>
+</td>
+</tr>
+</table></span></div>
 The following C++ code example shows the effect produced by <b>IADsPathname::GetEscapedElement</b>. After this code is executed, rdn will contain "cn=smith\,jeff".
 
-
-```cpp
-LPWSTR adsPath=L"LDAP://server/cn=jeffsmith,dc=Fabrikam,dc=com";
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPWSTR adsPath=L"LDAP://server/cn=jeffsmith,dc=Fabrikam,dc=com";
  
 IADsPathname *pPath = GetPathnameObject(adsPath);
 BSTR rdn;
-HRESULT hr = pPath->GetEscapedElement(0,CComBSTR("cn=smith,jeff")
-                                      ,&rdn);
+HRESULT hr = pPath-&gt;GetEscapedElement(0,CComBSTR("cn=smith,jeff")
+                                      ,&amp;rdn);
  
-pPath->Release();
-```
-
-
+pPath-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

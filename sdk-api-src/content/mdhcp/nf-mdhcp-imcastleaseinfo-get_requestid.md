@@ -4,10 +4,10 @@ title: IMcastLeaseInfo::get_RequestID
 author: windows-sdk-content
 description: The get_RequestID method obtains the request ID for a lease.
 old-location: tapi3\imcastleaseinfo_get_requestid.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 832bf532-4779-4066-a630-9892ad746a6c
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_RequestID method, IMcastLeaseInfo.get_RequestID, IMcastLeaseInfo::get_RequestID, _tapi3_imcastleaseinfo_get_requestid, get_RequestID, get_RequestID method [TAPI 2.2], get_RequestID method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_RequestID, tapi3.imcastleaseinfo_get_requestid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -134,7 +134,7 @@ Not enough memory to allocate the <b>BSTR</b>.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppRequestID</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppRequestID</i> parameter.
 			
 
 This function may send data over the wire in unencrypted form; therefore, someone eavesdropping on the network may be able to read the data. The security risk of sending the data in clear text should be considered before using this method.

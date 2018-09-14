@@ -7,7 +7,7 @@ old-location: adsi\iadspropertylist_next.htm
 tech.root: ADSI
 ms.assetid: 2a12ba88-363b-41e3-bd05-8a71f5317097
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsPropertyList interface [ADSI],Next method, IADsPropertyList.Next, IADsPropertyList::Next, Next, Next method [ADSI], Next method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_next, adsi.iadspropertylist__next, adsi.iadspropertylist_next, iads/IADsPropertyList::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>IADsPropertyList::Next</b> method gets the next item in the property list
 
 ### -param pVariant [out]
 
-Address of a caller-allocated variable that contains the value of the next item in the property list. The return value of <b>VT_DISPATCH</b> refers to an  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer to an object implementing the  <a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a> interface.
+Address of a caller-allocated variable that contains the value of the next item in the property list. The return value of <b>VT_DISPATCH</b> refers to an  <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointer to an object implementing the  <a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a> interface.
 
 
 ## -returns
@@ -85,9 +85,13 @@ You must clear <i>pVariant</i> using <b>VariantClear</b> when the value returned
 
 The following code example shows how to walk through a property list using the <b>Next</b> method.
 
-
-```vb
-Dim propList As IADsPropertyList
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim propList As IADsPropertyList
 Dim v as Variant
 Dim propVal As IADsPropertyValue
  
@@ -103,15 +107,19 @@ While (Not (IsNull(v)) And Err.Number = 0)
     Debug.Print v.AdsType
     
     Set v = propList.Next    
-Wend
-```
-
-
+Wend</pre>
+</td>
+</tr>
+</table></span></div>
 The following C++ code example shows how to work the <b>IADsPropertyList::Next</b> method.
 
-
-```cpp
-////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>////////////////////////////////////
 // Function used to retrieve an entry using the 
 // IADsPropertyList::Next method.
  
@@ -123,7 +131,7 @@ The following C++ code example shows how to work the <b>IADsPropertyList::Next</
 IADsPropertyEntry* GetNextEntry(IADsPropertyList* pList)
 {
     VARIANT var;
-    VariantInit(&var);
+    VariantInit(&amp;var);
     IADsPropertyEntry *pEntry;
 
     if(!pList)
@@ -132,16 +140,16 @@ IADsPropertyEntry* GetNextEntry(IADsPropertyList* pList)
         return NULL;
     }
  
-    HRESULT hr = pList->Next(&var);
-    hr = V_DISPATCH(&var)->QueryInterface(IID_IADsPropertyEntry,
-                                         (void**)&pEntry);
-    VariantClear(&var);
+    HRESULT hr = pList-&gt;Next(&amp;var);
+    hr = V_DISPATCH(&amp;var)-&gt;QueryInterface(IID_IADsPropertyEntry,
+                                         (void**)&amp;pEntry);
+    VariantClear(&amp;var);
     return pEntry;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -166,7 +174,7 @@ IADsPropertyEntry* GetNextEntry(IADsPropertyList* pList)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: base\closethreadpoolcleanupgroup.htm
 tech.root: procthread
 ms.assetid: e38e4d99-63f2-4bac-8675-cf0f3aa149a7
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/13/2018
 ms.keywords: CloseThreadpoolCleanupGroup, CloseThreadpoolCleanupGroup function, base.closethreadpoolcleanupgroup, threadpoolapiset/CloseThreadpoolCleanupGroup, winbase/CloseThreadpoolCleanupGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

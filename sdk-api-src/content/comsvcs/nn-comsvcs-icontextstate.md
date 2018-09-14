@@ -7,7 +7,7 @@ old-location: cos\icontextstate.htm
 tech.root: cossdk
 ms.assetid: cba54ad7-c670-4efb-ad3b-aca1daabc4a3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IContextState, IContextState interface [COM+], IContextState interface [COM+],described, _cos_IContextState, comsvcs/IContextState, cos.icontextstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,9 +55,9 @@ Controls object deactivation and transaction voting by manipulating context stat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextState</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IContextState</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextState</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IContextState</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IContextState</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms681258(v=VS.85).aspx">GetDeactivateOnReturn</a>
+<a href="https://msdn.microsoft.com/4e9623eb-1bf1-4649-9071-b731bf95a401">GetDeactivateOnReturn</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the done flag.
@@ -79,7 +79,7 @@ Retrieves the value of the done flag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms682775(v=VS.85).aspx">GetMyTransactionVote</a>
+<a href="https://msdn.microsoft.com/72384c53-ce4a-413e-8ff6-33925c8cd0df">GetMyTransactionVote</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the consistent flag.
@@ -88,7 +88,7 @@ Retrieves the value of the consistent flag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679511(v=VS.85).aspx">SetDeactivateOnReturn</a>
+<a href="https://msdn.microsoft.com/29dfeb6f-1961-4d6f-b5c4-fcd0eb4a7bec">SetDeactivateOnReturn</a>
 </td>
 <td align="left" width="63%">
 Sets the done flag, which controls whether the object deactivates on method return.
@@ -97,7 +97,7 @@ Sets the done flag, which controls whether the object deactivates on method retu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687722(v=VS.85).aspx">SetMyTransactionVote</a>
+<a href="https://msdn.microsoft.com/ec88f99a-cb24-42a9-8f2a-add7ddbec719">SetMyTransactionVote</a>
 </td>
 <td align="left" width="63%">
 Sets the consistent flag.
@@ -112,7 +112,7 @@ Sets the consistent flag.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685142(v=VS.85).aspx">Consistent and Done Flags</a>
+<a href="https://msdn.microsoft.com/a641fa95-5587-4362-9869-e5c27c6dd2ce">Consistent and Done Flags</a>
  
 
  

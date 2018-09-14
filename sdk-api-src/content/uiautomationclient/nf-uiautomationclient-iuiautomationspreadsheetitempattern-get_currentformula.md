@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula.
 tech.root: WinAuto
 ms.assetid: CBE97F32-9640-4093-9612-8751C4508563
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/13/2018
 ms.keywords: CurrentFormula property [Windows Accessibility], CurrentFormula property [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],CurrentFormula property, IUIAutomationSpreadsheetItemPattern.CurrentFormula, IUIAutomationSpreadsheetItemPattern.get_CurrentFormula, IUIAutomationSpreadsheetItemPattern::CurrentFormula, IUIAutomationSpreadsheetItemPattern::get_CurrentFormula, get_CurrentFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::CurrentFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CurrentFormula, winauto.uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula
 ms.prod: windows-hardware
 ms.technology: windows-devices

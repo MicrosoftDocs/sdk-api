@@ -4,10 +4,10 @@ title: IMPEG2ComponentType::put_StreamType
 author: windows-sdk-content
 description: The put_StreamType method sets the MPEG2 stream type.
 old-location: mstv\impeg2componenttype_put_streamtype.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 5dbfacf3-87e2-48d4-add9-6da68c56af82
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMPEG2ComponentType interface [Microsoft TV Technologies],put_StreamType method, IMPEG2ComponentType.put_StreamType, IMPEG2ComponentType::put_StreamType, IMPEG2ComponentTypeput_StreamType, mstv.impeg2componenttype_put_streamtype, put_StreamType, put_StreamType method [Microsoft TV Technologies], put_StreamType method [Microsoft TV Technologies],IMPEG2ComponentType interface, tuner/IMPEG2ComponentType::put_StreamType
 ms.prod: windows-hardware
 ms.technology: windows-devices

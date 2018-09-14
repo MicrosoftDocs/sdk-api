@@ -4,10 +4,10 @@ title: ListView_SetSelectionMark macro
 author: windows-sdk-content
 description: Sets the selection mark in a list-view control. You can use this macro or send the LVM_SETSELECTIONMARK message explicitly.
 old-location: controls\ListView_SetSelectionMark.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setselectionmark.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ListView_SetSelectionMark, ListView_SetSelectionMark macro [Windows Controls], _win32_ListView_SetSelectionMark, _win32_ListView_SetSelectionMark_cpp, commctrl/ListView_SetSelectionMark, controls.ListView_SetSelectionMark, controls._win32_ListView_SetSelectionMark
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the selection mark in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761204(v=VS.85).aspx">LVM_SETSELECTIONMARK</a> message explicitly. 
+Sets the selection mark in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/3218f1b3-b934-4083-aaaa-e10ef1dbb6bd">LVM_SETSELECTIONMARK</a> message explicitly. 
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Sets the selection mark in a list-view control. You can use this macro or send t
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a list-view control. 
 
 
 ### -param i
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
 the zero-based index of the list-view item to be selected. 
 
@@ -86,7 +86,7 @@ The selection mark is the item index from which a multiple selection starts. Thi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774998(v=VS.85).aspx">ListView_GetSelectionMark</a>
+<a href="https://msdn.microsoft.com/dba2484c-c938-4123-be28-35a504dd9e5a">ListView_GetSelectionMark</a>
  
 
  

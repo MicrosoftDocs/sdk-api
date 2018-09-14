@@ -4,10 +4,10 @@ title: MI_DestinationOptions_GetOption function
 author: windows-sdk-content
 description: Gets a previously added option value based on the option name.
 old-location: wmi_v2\mi_destinationoptions_getoption.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: f7f26a4f-109f-4169-bc77-b0c763d7bcb8
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_DestinationOptions_GetOption, MI_DestinationOptions_GetOption function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetOption, wmi_v2.mi_destinationoptions_getoption
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\cluster_read_batch_command.htm
 tech.root: mscs
 ms.assetid: BE7D4B99-27C0-4CAA-BFDC-669737E17D86
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CLUSREG_READ_ERROR, CLUSREG_READ_VALUE, CLUSTER_READ_BATCH_COMMAND, CLUSTER_READ_BATCH_COMMAND structure [Failover Cluster], PCLUSTER_READ_BATCH_COMMAND, PCLUSTER_READ_BATCH_COMMAND structure pointer [Failover Cluster], _CLUSTER_READ_BATCH_COMMAND, clusapi/CLUSTER_READ_BATCH_COMMAND, clusapi/PCLUSTER_READ_BATCH_COMMAND, mscs.cluster_read_batch_command
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,7 +104,7 @@ The count, in bytes, of the <i>lpData</i> value data.
 
 
 
-The pointers in the <b>CLUSTER_READ_BATCH_COMMAND</b> structure are valid until the read batch result handle is closed by the <a href="https://msdn.microsoft.com/en-us/library/Hh706742(v=VS.85).aspx">ClusterRegCloseReadBatchReply</a> function.
+The pointers in the <b>CLUSTER_READ_BATCH_COMMAND</b> structure are valid until the read batch result handle is closed by the <a href="https://msdn.microsoft.com/C8CC4292-A7CC-4613-B5A8-B504E804E00E">ClusterRegCloseReadBatchReply</a> function.
 
 Errors from read commands are independent from each other.
 
@@ -116,11 +116,11 @@ Errors from read commands are independent from each other.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706742(v=VS.85).aspx">ClusterRegCloseReadBatchReply</a>
+<a href="https://msdn.microsoft.com/C8CC4292-A7CC-4613-B5A8-B504E804E00E">ClusterRegCloseReadBatchReply</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706745(v=VS.85).aspx">ClusterRegReadBatchReplyNextCommand</a>
+<a href="https://msdn.microsoft.com/4E0DEB5C-36AA-480C-913C-235DE9AEA58D">ClusterRegReadBatchReplyNextCommand</a>
  
 
  

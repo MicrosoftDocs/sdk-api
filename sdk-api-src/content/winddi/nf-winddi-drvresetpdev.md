@@ -7,7 +7,7 @@ old-location: display\drvresetpdev.htm
 tech.root: display
 ms.assetid: 8e530874-7774-4f8f-852c-001b2ce4a707
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/13/2018
 ms.keywords: DrvResetPDEV, DrvResetPDEV function [Display Devices], ddifncs_839f09e0-67dc-4c1f-a17b-dd0fd5316258.xml, display.drvresetpdev, winddi/DrvResetPDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,27 +91,35 @@ Examples of the types of information that a printer graphics DLL might want to a
 
 If <a href="https://msdn.microsoft.com/3f77db51-90d1-4a87-812b-1e129ae8fde9">ResetDC</a> is called during the rendering of a print document, the printer graphics DLL receives the following sequence of calls:
 
-
-```
-    dhpdevNew = DrvEnablePDEV();
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    dhpdevNew = DrvEnablePDEV();
     DrvResetPDEV(dhpdevOld, dhpdevNew);
     DrvDisableSurface(dhpdevOld);
     DrvDisablePDEV(dhpdevOld);
     DrvEnableSurface(dhpdevNew);
-    DrvStartDoc(dhpdevNew);
-```
-
-
+    DrvStartDoc(dhpdevNew);</pre>
+</td>
+</tr>
+</table></span></div>
 If  <a href="https://msdn.microsoft.com/3f77db51-90d1-4a87-812b-1e129ae8fde9">ResetDC</a> is called between documents there is no surface associated with the PDEV, so only the following sequence of calls is made:
 
-
-```
-    dhpdevNew = DrvEnablePDEV();
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    dhpdevNew = DrvEnablePDEV();
     DrvResetPDEV(dhpdevOld,dhpdevNew);
-    DrvDisablePDEV(dhpdevOld);
-```
-
-
+    DrvDisablePDEV(dhpdevOld);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

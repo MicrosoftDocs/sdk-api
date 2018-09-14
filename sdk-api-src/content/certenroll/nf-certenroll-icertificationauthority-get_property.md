@@ -4,10 +4,10 @@ title: ICertificationAuthority::get_Property
 author: windows-sdk-content
 description: Retrieves a certification authority property value.
 old-location: security\icertificationauthority_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 02f2d6bf-9290-43e1-ae44-a21325c176b2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICertificationAuthority interface [Security],Property property, ICertificationAuthority.Property, ICertificationAuthority.get_Property, ICertificationAuthority::Property, ICertificationAuthority::get_Property, Property property [Security], Property property [Security],ICertificationAuthority interface, certenroll/ICertificationAuthority::Property, certenroll/ICertificationAuthority::get_Property, get_Property, security.icertificationauthority_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ee351680(v=VS.85).aspx">Property</a> method  retrieves a certification authority property value.
+The <a href="https://msdn.microsoft.com/4588891e-7be4-482a-bbad-c23759b06b1b">Property</a> method  retrieves a certification authority property value.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338621(v=VS.85).aspx">ICertificationAuthority</a>
+<a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a>
  
 
  

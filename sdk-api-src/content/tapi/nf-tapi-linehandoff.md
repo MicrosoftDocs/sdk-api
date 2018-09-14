@@ -4,10 +4,10 @@ title: lineHandoff function
 author: windows-sdk-content
 description: The lineHandoff function gives ownership of the specified call to another application. The application can be either specified directly by its file name or indirectly as the highest priority application that handles calls of the specified media mode.
 old-location: tapi2\linehandoff.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 931c2fa4-dad6-432d-8f07-bb04b646916b
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: "_tapi2_linehandoff, lineHandoff, lineHandoff function [TAPI 2.2], lineHandoffA, lineHandoffW, tapi/lineHandoff, tapi/lineHandoffA, tapi/lineHandoffW, tapi2.linehandoff"
 ms.prod: windows-hardware
 ms.technology: windows-devices

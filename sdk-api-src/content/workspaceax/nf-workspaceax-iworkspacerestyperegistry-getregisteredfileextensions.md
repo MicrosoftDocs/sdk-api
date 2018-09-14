@@ -4,10 +4,10 @@ title: IWorkspaceResTypeRegistry::GetRegisteredFileExtensions
 author: windows-sdk-content
 description: Retrieves the third-party file name extensions that are registered with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_getregisteredfileextensions.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: e86c93d4-d5da-4d44-b1ea-641cb1fcceb4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetRegisteredFileExtensions, GetRegisteredFileExtensions method [Remote Desktop Services], GetRegisteredFileExtensions method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, GetRegisteredFileExtensions method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],GetRegisteredFileExtensions method, IWorkspaceResTypeRegistry.GetRegisteredFileExtensions, IWorkspaceResTypeRegistry::GetRegisteredFileExtensions, Workspace object [Remote Desktop Services],GetRegisteredFileExtensions method, termserv.iworkspacerestyperegistry_getregisteredfileextensions, workspaceax/IWorkspaceResTypeRegistry::GetRegisteredFileExtensions
 ms.prod: windows-hardware
 ms.technology: windows-devices

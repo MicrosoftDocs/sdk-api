@@ -4,10 +4,10 @@ title: IBDA_PinControl::GetPinType
 author: windows-sdk-content
 description: The GetPinType method retrieves the type of the pin.
 old-location: mstv\ibda_pincontrol_getpintype.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 97ab3873-be75-48a5-b854-303aec3d7058
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetPinType, GetPinType method [Microsoft TV Technologies], GetPinType method [Microsoft TV Technologies],IBDA_PinControl interface, IBDA_PinControl interface [Microsoft TV Technologies],GetPinType method, IBDA_PinControl.GetPinType, IBDA_PinControl::GetPinType, IBDA_PinControlGetPinType, bdaiface/IBDA_PinControl::GetPinType, mstv.ibda_pincontrol_getpintype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,11 +80,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693421(v=VS.85).aspx">IBDA_PinControl Interface</a>
+<a href="https://msdn.microsoft.com/2d318cc4-b3f2-4fb6-b9e3-8ba8312ad2ae">IBDA_PinControl Interface</a>
  
 
  

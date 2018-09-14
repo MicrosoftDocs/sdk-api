@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationprimarycontent_setverticalal
 tech.root: directmanipulation
 ms.assetid: 111f0358-0955-4ebb-b273-c17d3fb84d75
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetVerticalAlignment method, IDirectManipulationPrimaryContent.SetVerticalAlignment, IDirectManipulationPrimaryContent::SetVerticalAlignment, SetVerticalAlignment, SetVerticalAlignment method [Direct Manipulation], SetVerticalAlignment method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setverticalalignment, directmanipulation/IDirectManipulationPrimaryContent::SetVerticalAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,13 +85,17 @@ If you have activated a configuration consisting only of zoom or zoom inertia, s
 
 The following example shows how to use this method.
 
-
-```
-HRESULT hr = pContent->SetVerticalAlignment(
-    DIRECTMANIPULATION_VERTICALALIGNMENT_CENTER| DIRECTMANIPULATION_VERTICALALIGNMENT_UNLOCKCENTER);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = pContent-&gt;SetVerticalAlignment(
+    DIRECTMANIPULATION_VERTICALALIGNMENT_CENTER| DIRECTMANIPULATION_VERTICALALIGNMENT_UNLOCKCENTER);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

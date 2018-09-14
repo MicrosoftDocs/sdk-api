@@ -7,7 +7,7 @@ old-location: cos\isendmethodevents.htm
 tech.root: cossdk
 ms.assetid: d1437581-8a2b-4e88-aa12-a16eb9f40125
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ISendMethodEvents, ISendMethodEvents interface [COM+], ISendMethodEvents interface [COM+],described, _cos_ISendMethodEvents, comsvcs/ISendMethodEvents, cos.isendmethodevents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,14 +50,14 @@ req.redist:
 ## -description
 
 
-Describes an event class that notifies subscribers whenever a method on the object that implements it either is called or returns from a call. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Describes an event class that notifies subscribers whenever a method on the object that implements it either is called or returns from a call. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISendMethodEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ISendMethodEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISendMethodEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISendMethodEvents</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ISendMethodEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms682780(v=VS.85).aspx">SendMethodCall</a>
+<a href="https://msdn.microsoft.com/730466c8-440c-42ee-899f-0d93007fbf8d">SendMethodCall</a>
 </td>
 <td align="left" width="63%">
 Generated when a method is called through a component interface.
@@ -79,7 +79,7 @@ Generated when a method is called through a component interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms688420(v=VS.85).aspx">SendMethodReturn</a>
+<a href="https://msdn.microsoft.com/f9c8a680-644a-4617-866f-36e721bbc7aa">SendMethodReturn</a>
 </td>
 <td align="left" width="63%">
 Generated when a method called through a component interface returns control to the caller.
@@ -97,7 +97,7 @@ To send method events to the COM+ tracker property, you need to obtain a handle 
 
 <pre class="syntax" xml:space="preserve"><code>GUID guidTrkPropPolicy = {0xecabaeb3, 0x7f19, 0x11d2, {0x97, 0x8e, 0x00, 0x00, 0xf8, 0x75, 0x7e, 0x2a}}
 </code></pre>
-To obtain a handle to the COM+ tracker property, call the <a href="https://msdn.microsoft.com/en-us/library/ms686640(v=VS.85).aspx">IContext::GetProperty</a> method with the <i>rGuid</i> argument set equal to this GUID.
+To obtain a handle to the COM+ tracker property, call the <a href="https://msdn.microsoft.com/76c6f790-9103-4cee-8a67-0f69b00ba0a1">IContext::GetProperty</a> method with the <i>rGuid</i> argument set equal to this GUID.
 
 
 
@@ -107,7 +107,7 @@ To obtain a handle to the COM+ tracker property, call the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a>
+<a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: adsi\ads_group_type_enum.htm
 tech.root: ADSI
 ms.assetid: c046ffbf-15e2-44d7-a997-f992c6289bcd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP, ADS_GROUP_TYPE_ENUM, ADS_GROUP_TYPE_ENUM enumeration [ADSI], ADS_GROUP_TYPE_GLOBAL_GROUP, ADS_GROUP_TYPE_LOCAL_GROUP, ADS_GROUP_TYPE_SECURITY_ENABLED, ADS_GROUP_TYPE_UNIVERSAL_GROUP, __MIDL___MIDL_itf_ads_0001_0023_0001, _ds_ads_group_type_enum, adsi.ads__group__type__enum, adsi.ads_group_type_enum, iads/ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP, iads/ADS_GROUP_TYPE_ENUM, iads/ADS_GROUP_TYPE_GLOBAL_GROUP, iads/ADS_GROUP_TYPE_LOCAL_GROUP, iads/ADS_GROUP_TYPE_SECURITY_ENABLED, iads/ADS_GROUP_TYPE_UNIVERSAL_GROUP
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,27 +96,31 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 
 The following code example shows how you might use elements of this enumeration.
 
-
-```vb
-Dim rootDSE // IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim rootDSE // IADs
 Dim dom // IADsContainer
 Dim grp // IADs
-Public Const ADS_GROUP_TYPE_GLOBAL_GROUP = &H2
-Public Const ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP = &H4
-Public Const ADS_GROUP_TYPE_UNIVERSAL_GROUP = &H8
-Public Const ADS_GROUP_TYPE_SECURITY_ENABLED = &H80000000
+Public Const ADS_GROUP_TYPE_GLOBAL_GROUP = &amp;H2
+Public Const ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP = &amp;H4
+Public Const ADS_GROUP_TYPE_UNIVERSAL_GROUP = &amp;H8
+Public Const ADS_GROUP_TYPE_SECURITY_ENABLED = &amp;H80000000
 
 On Error Resume Next
  
 Set rootDSE = GetObject("LDAP://RootDSE")
-If (Err.Number<>0) Then
-    MsgBox("An error has occurred. " & Err.Number)
+If (Err.Number&lt;&gt;0) Then
+    MsgBox("An error has occurred. " &amp; Err.Number)
     Exit Sub
 End If
 
-Set dom = GetObject("LDAP://" & rootDSE.Get("defaultNamingContext"))
-If (Err.Number<>0) Then
-    MsgBox("An error has occurred. " & Err.Number)
+Set dom = GetObject("LDAP://" &amp; rootDSE.Get("defaultNamingContext"))
+If (Err.Number&lt;&gt;0) Then
+    MsgBox("An error has occurred. " &amp; Err.Number)
     Set rootDSE = Nothing
     Exit Sub
 End If
@@ -125,8 +129,8 @@ Set rootDSE = Nothing
  
 ' Creating Secured Global Group.
 Set grp = dom.Create("group", "CN=group1")
-If (Err.Number<>0) Then
-    MsgBox("An error has occurred. " & Err.Number)
+If (Err.Number&lt;&gt;0) Then
+    MsgBox("An error has occurred. " &amp; Err.Number)
     Set dom = Nothing
     Exit Sub
 End If
@@ -134,8 +138,8 @@ End If
 grp.Put "samAccountName", "group1"
 grp.Put "groupType", ADS_GROUP_TYPE_GLOBAL_GROUP Or ADS_GROUP_TYPE_SECURITY_ENABLED
 grp.SetInfo
-If (Err.Number<>0) Then
-    MsgBox("An error has occurred. " & Err.Number)
+If (Err.Number&lt;&gt;0) Then
+    MsgBox("An error has occurred. " &amp; Err.Number)
     Set dom = Nothing
     Set grp = Nothing
     Exit Sub
@@ -145,8 +149,8 @@ Set grp = Nothing
  
 ' Creating Distribution List Local Group.
 Set grp = dom.Create("group", "CN=group2")
-If (Err.Number<>0) Then
-    MsgBox("An error has occurred. " & Err.Number)
+If (Err.Number&lt;&gt;0) Then
+    MsgBox("An error has occurred. " &amp; Err.Number)
     Set dom = Nothing
     Exit Sub
 End If
@@ -154,8 +158,8 @@ End If
 grp.Put "samAccountName", "group2"
 grp.Put "groupType", ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP
 grp.SetInfo
-If (Err.Number<>0) Then
-    MsgBox("An error has occurred. " & Err.Number)
+If (Err.Number&lt;&gt;0) Then
+    MsgBox("An error has occurred. " &amp; Err.Number)
     Set dom = Nothing
     Set grp = Nothing
     Exit Sub
@@ -165,8 +169,8 @@ Set grp = Nothing
  
 ' Create Secured Universal Group (ONLY IN NATIVE MODE).
 Set grp = dom.Create("group", "CN=group3")
-If (Err.Number<>0) Then
-    MsgBox("An error has occurred. " & Err.Number)
+If (Err.Number&lt;&gt;0) Then
+    MsgBox("An error has occurred. " &amp; Err.Number)
     Set dom = Nothing
     Exit Sub
 End If
@@ -176,16 +180,16 @@ Set grp = Nothing
 grp.Put "samAccountName", "group3"
 grp.Put "groupType", ADS_GROUP_TYPE_UNIVERSAL_GROUP Or ADS_GROUP_TYPE_SECURITY_ENABLED
 grp.SetInfo
-If (Err.Number<>0) Then
-    MsgBox("An error has occurred. " & Err.Number)
+If (Err.Number&lt;&gt;0) Then
+    MsgBox("An error has occurred. " &amp; Err.Number)
 End If
 
 Set dom = Nothing
 Set grp = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

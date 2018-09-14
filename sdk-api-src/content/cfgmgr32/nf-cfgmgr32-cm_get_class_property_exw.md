@@ -7,7 +7,7 @@ old-location: devinst\cm_get_class_property_exw.htm
 tech.root: devinst
 ms.assetid: 580E055C-B731-4168-8051-81BD5ACB4EFC
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: CM_Get_Class_Property_ExW, CM_Get_Class_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Get_Class_Property_ExW, devinst.cm_get_class_property_exw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,7 +125,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<b>CM_Get_Class_Property_ExW</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">Unified Device Property Model</a>.
+<b>CM_Get_Class_Property_ExW</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">Unified Device Property Model</a>.
 
 
 
@@ -139,7 +139,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff551086(v=VS.85).aspx">SetupDiGetClassProperty</a>
+<a href="https://msdn.microsoft.com/b90473fe-eb8c-463a-971c-422c108dec1d">SetupDiGetClassProperty</a>
 
 
 

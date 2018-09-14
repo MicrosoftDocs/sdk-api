@@ -4,10 +4,10 @@ title: ListBox_GetItemRect macro
 author: windows-sdk-content
 description: Gets the dimensions of the rectangle that bounds a list box item as it is currently displayed in the list box. You can use this macro or send the LB_GETITEMRECT message explicitly.
 old-location: controls\ListBox_GetItemRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getitemrect.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ListBox_GetItemRect, ListBox_GetItemRect macro [Windows Controls], _win32_ListBox_GetItemRect, _win32_ListBox_GetItemRect_cpp, controls.ListBox_GetItemRect, controls._win32_ListBox_GetItemRect, windowsx/ListBox_GetItemRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the dimensions of the rectangle that bounds a list box item as it is currently displayed in the list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775206(v=VS.85).aspx">LB_GETITEMRECT</a> message explicitly.
+Gets the dimensions of the rectangle that bounds a list box item as it is currently displayed in the list box. You can use this macro or send the <a href="https://msdn.microsoft.com/84f94bc9-f7a4-4c2d-8c35-1bd291082af9">LB_GETITEMRECT</a> message explicitly.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_acckeyboardshortcut.htm
 tech.root: WinAuto
 ms.assetid: 0d91c791-1e9b-45da-8fa6-b879ac6d11a7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/13/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accKeyboardShortcut method, IAccessible.get_accKeyboardShortcut, IAccessible::get_accKeyboardShortcut, _msaa_IAccessible_get_accKeyboardShortcut, get_accKeyboardShortcut, get_accKeyboardShortcut method [Windows Accessibility], get_accKeyboardShortcut method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_acckeyboardshortcut, oleacc/IAccessible::get_accKeyboardShortcut, winauto.iaccessible_iaccessible__get_acckeyboardshortcut
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -152,9 +152,13 @@ Because shortcut keys are usually determined by the application rather than by t
 <h3><a id="Client_Example"></a><a id="client_example"></a><a id="CLIENT_EXAMPLE"></a>Client Example</h3>
 The following example function retrieves the keyboard shortcut for the specified accessible object, or one of its children, and prints it to the console.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT PrintShortcut(IAccessible* pAcc, long child)
 {
     if (pAcc == NULL)
@@ -165,7 +169,7 @@ HRESULT PrintShortcut(IAccessible* pAcc, long child)
     VARIANT varObj;
     varObj.vt = VT_I4;
     varObj.lVal = child;
-    HRESULT hr = pAcc->get_accKeyboardShortcut(varObj, &bstrShortcut);
+    HRESULT hr = pAcc-&gt;get_accKeyboardShortcut(varObj, &amp;bstrShortcut);
     if (hr == S_OK)
     {
         printf("Shortcut: %S\n", bstrShortcut);
@@ -173,10 +177,10 @@ HRESULT PrintShortcut(IAccessible* pAcc, long child)
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

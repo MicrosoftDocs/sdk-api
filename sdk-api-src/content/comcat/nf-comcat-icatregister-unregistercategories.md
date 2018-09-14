@@ -7,7 +7,7 @@ old-location: com\icatregister_unregistercategories.htm
 tech.root: com
 ms.assetid: 29b7df20-bab0-419c-a13b-132ee5b0272d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: ICatRegister interface [COM],UnRegisterCategories method, ICatRegister.UnRegisterCategories, ICatRegister::UnRegisterCategories, UnRegisterCategories, UnRegisterCategories method [COM], UnRegisterCategories method [COM],ICatRegister interface, _com_icatregister_unregistercategories, com.icatregister_unregistercategories, comcat/ICatRegister::UnRegisterCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,7 +113,7 @@ One or more arguments are incorrect.
 
 This method will be successful even if one or more of the category IDs specified are not registered. This method can only be called by the owner of a category, usually as part of the installation or de-installation of the operating system or application.
 
-This method does not remove the component category tags from individual classes. To do this, use the <a href="https://msdn.microsoft.com/en-us/library/ms693463(v=VS.85).aspx">ICatRegister::UnRegisterClassReqCategories</a> method.
+This method does not remove the component category tags from individual classes. To do this, use the <a href="https://msdn.microsoft.com/d957bc13-f5f7-4cb3-925e-4867ba9622cd">ICatRegister::UnRegisterClassReqCategories</a> method.
 
 
 
@@ -123,7 +123,7 @@ This method does not remove the component category tags from individual classes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680737(v=VS.85).aspx">ICatRegister</a>
+<a href="https://msdn.microsoft.com/3f4f9beb-51db-407f-91ea-6e32ff5796ce">ICatRegister</a>
  
 
  

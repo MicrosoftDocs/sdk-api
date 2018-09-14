@@ -4,10 +4,10 @@ title: GetFileSizeFromContext function
 author: windows-sdk-content
 description: Reports the file size cached with the handle.
 old-location: winprog\_getfilesizefromcontext.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: c44aab72-d5c8-43e0-b2ec-032904806227
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetFileSizeFromContext, GetFileSizeFromContext function [Windows API], filehc/GetFileSizeFromContext, winprog._getfilesizefromcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

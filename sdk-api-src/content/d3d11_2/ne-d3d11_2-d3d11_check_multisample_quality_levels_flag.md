@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_check_multisample_quality_levels_flags.htm
 tech.root: direct3d11
 ms.assetid: 756AD5B2-3B6A-4F28-B034-93F59C41D02B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG, D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG enumeration [Direct3D 11], D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE, d3d11_2/D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG, d3d11_2/D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE, direct3d11.d3d11_check_multisample_quality_levels_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Indicates to check the multisample quality levels of a tiled resource.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476170(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
  
 
  

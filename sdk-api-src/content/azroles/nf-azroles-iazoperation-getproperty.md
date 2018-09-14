@@ -4,10 +4,10 @@ title: IAzOperation::GetProperty
 author: windows-sdk-content
 description: Returns the IAzOperation object property with the specified property ID.
 old-location: security\iazoperation_getproperty.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 211def10-d696-4b23-b54c-21f1f9b8f7ff
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_OPERATION_ID, AZ_PROP_WRITABLE, AzOperation object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzOperation object, GetProperty method [Security],IAzOperation interface, IAzOperation interface [Security],GetProperty method, IAzOperation.GetProperty, IAzOperation::GetProperty, azroles/IAzOperation::GetProperty, security.iazoperation_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ## -description
 
 
-The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/en-us/library/Aa377899(v=VS.85).aspx">IAzOperation</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/en
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/en-us/library/Aa377899(v=VS.85).aspx">IAzOperation</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -139,7 +139,7 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://msdn.microsoft.com/en-us/library/Aa377899(v=VS.85).aspx">IAzOperation</a> object property.
+A pointer to the returned <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> object property.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: setup\msiapplypatch.htm
 tech.root: msi
 ms.assetid: c78006ad-7355-49b6-8e79-a98dcdb0e54f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: INSTALLTYPE_DEFAULT, INSTALLTYPE_NETWORK_IMAGE, INSTALLTYPE_SINGLE_INSTANCE, MsiApplyPatch, MsiApplyPatch function, MsiApplyPatchA, MsiApplyPatchW, _msi_msiapplypatch, msi/MsiApplyPatch, msi/MsiApplyPatchA, msi/MsiApplyPatchW, setup.msiapplypatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_DHCP_OPTION_SCOPE_TYPE6"
 author: windows-sdk-content
 description: Defines the set of possible scopes for DHCP options.
 old-location: dhcp\dhcp_option_scope_type6.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: dc6811ca-571e-4d63-ac30-8a9038cb28af
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_TYPE6, DHCP_OPTION_SCOPE_TYPE6, DHCP_OPTION_SCOPE_TYPE6 enumeration [DHCP], DhcpDefaultOptions6, DhcpReservedOptions6, DhcpScopeOptions6, _DHCP_OPTION_SCOPE_TYPE6, dhcp.dhcp_option_scope_type6, dhcpsapi/DHCP_OPTION_SCOPE_TYPE6, dhcpsapi/DhcpDefaultOptions6, dhcpsapi/DhcpReservedOptions6, dhcpsapi/DhcpScopeOptions6"
 ms.prod: windows
 ms.technology: windows-sdk

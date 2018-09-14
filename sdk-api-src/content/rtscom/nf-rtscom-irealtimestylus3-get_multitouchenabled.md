@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus3_multitouchenabled.htm
 tech.root: tablet
 ms.assetid: cc573213-a6ed-424b-8513-d5655ba6785a
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: IRealTimeStylus3 interface [Tablet PC],MultiTouchEnabled property, IRealTimeStylus3.MultiTouchEnabled, IRealTimeStylus3.get_MultiTouchEnabled, IRealTimeStylus3.put_MultiTouchEnabled, IRealTimeStylus3::MultiTouchEnabled, IRealTimeStylus3::get_MultiTouchEnabled, IRealTimeStylus3::put_MultiTouchEnabled, MultiTouchEnabled property [Tablet PC], MultiTouchEnabled property [Tablet PC],IRealTimeStylus3 interface, get_MultiTouchEnabled, rtscom/IRealTimeStylus3::MultiTouchEnabled, rtscom/IRealTimeStylus3::get_MultiTouchEnabled, rtscom/IRealTimeStylus3::put_MultiTouchEnabled, tablet.irealtimestylus3_multitouchenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,27 +88,35 @@ The following table lists the defined opt-in options for multitouch.
 
 The following example demonstrates how to enable multitouch using the <a href="https://msdn.microsoft.com/93eabb45-0b0e-495f-9b64-43ad8060b958">RealTimeStylus3</a> interface.
 
-
-```cpp
-
-CComQIPtr<IRealTimeStylus3> spRealTimeStylus3 = g_spRealTimeStylus;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+CComQIPtr&lt;IRealTimeStylus3&gt; spRealTimeStylus3 = g_spRealTimeStylus;
 if(spRealTimeStylus3 == NULL)
 {
     return FALSE;
 }
-HRESULT hr = spRealTimeStylus3->put_MultiTouchEnabled(TRUE);
+HRESULT hr = spRealTimeStylus3-&gt;put_MultiTouchEnabled(TRUE);
 if(FAILED(hr))
 {
     return FALSE;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following example shows how to explicitly set the TABLET_ENABLE_MULTITOUCHDATA property on a window.
 
-
-```cpp
-    
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    
     //Set the window property
     ATOM m_atom = ::GlobalAddAtom(MICROSOFT_TABLETPENSERVICE_PROPERTY);
     m_dwProperty = TABLET_ENABLE_MULTITOUCHDATA;
@@ -128,10 +136,10 @@ The following example shows how to explicitly set the TABLET_ENABLE_MULTITOUCHDA
     case WM_TABLET_QUERYSYSTEMGESTURESTATUS:
         return TABLET_ENABLE_MULTITOUCHDATA;
     }    
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

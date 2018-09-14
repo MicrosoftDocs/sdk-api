@@ -4,10 +4,10 @@ title: IRegisterTuner
 author: windows-sdk-content
 description: This feature is expected to be available on a future version of the Windows operating system.
 old-location: mstv\iregistertuner.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 99e88361-f5d3-43b7-b879-2e1c44859af4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IRegisterTuner, IRegisterTuner interface [Microsoft TV Technologies], IRegisterTuner interface [Microsoft TV Technologies],described, IRegisterTunerInterface, mstv.iregistertuner, tuner/IRegisterTuner
 ms.prod: windows
 ms.technology: windows-sdk

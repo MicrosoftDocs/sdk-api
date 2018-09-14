@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7.htm
 tech.root: directdraw
 ms.assetid: 1a1164fe-00c2-4469-8346-f86f7f48781e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IDirectDraw7, IDirectDraw7 interface [DirectDraw], IDirectDraw7 interface [DirectDraw],described, ddraw/IDirectDraw7, directdraw.idirectdraw7
 ms.prod: windows
 ms.technology: windows-sdk
@@ -409,16 +409,20 @@ The <b>IDirectDraw7</b> interface extends the features of previous versions of t
 
 Use the LPDIRECTDRAW, LPDIRECTDRAW2, LPDIRECTDRAW4 or LPDIRECTDRAW7 data types to declare a variable that contains a pointer to an <b>IDirectDraw</b>, <b>IDirectDraw2</b>, <b>IDirectDraw4</b> or <b>IDirectDraw7</b> interface. The Ddraw.h header file declares these data types with the following code:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct IDirectDraw     FAR *LPDIRECTDRAW;
 typedef struct IDirectDraw2    FAR *LPDIRECTDRAW2;
 typedef struct IDirectDraw4    FAR *LPDIRECTDRAW4;
 typedef struct IDirectDraw7    FAR *LPDIRECTDRAW7;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

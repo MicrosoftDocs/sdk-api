@@ -4,10 +4,10 @@ title: DdDeleteDirectDrawObject function
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdDeleteDirectDrawObject function and deletes a kernel-mode Microsoft DirectDraw object that was previously created using DdCreateDirectDrawObject. GdiEntry3 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_dddeletedirectdrawobject.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dddeletedirectdrawobject.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: DdDeleteDirectDrawObject, DdDeleteDirectDrawObject function [Windows API], GdiEntry3, _dxgkernel_dddeletedirectdrawobject, ddrawgdi/DdDeleteDirectDrawObject, ddrawgdi/GdiEntry3, winprog._dxgkernel_dddeletedirectdrawobject, winui._dxgkernel_dddeletedirectdrawobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ req.redist:
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-Wrapper for the <a href="https://msdn.microsoft.com/en-us/library/ms648497(v=VS.85).aspx">NtGdiDdDeleteDirectDrawObject</a> function and deletes a kernel-mode Microsoft DirectDraw object that was previously created using <a href="https://msdn.microsoft.com/en-us/library/ms648435(v=VS.85).aspx">DdCreateDirectDrawObject</a>.
+Wrapper for the <a href="https://msdn.microsoft.com/0b2e1bae-8291-4fe4-9528-980680906e0a">NtGdiDdDeleteDirectDrawObject</a> function and deletes a kernel-mode Microsoft DirectDraw object that was previously created using <a href="https://msdn.microsoft.com/ef999226-98f7-4e00-8a3b-5a11fb9592cc">DdCreateDirectDrawObject</a>.
 
 
 <b>GdiEntry3</b> is defined as an alias for this function.
@@ -99,7 +99,7 @@ DirectDraw and
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://msdn.microsoft.com/96d11d10-dd21-4e2b-a30d-fe29d24eeba6">Graphics Low Level Client Support</a>
  
 
  

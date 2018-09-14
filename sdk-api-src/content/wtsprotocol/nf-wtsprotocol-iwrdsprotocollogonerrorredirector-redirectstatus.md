@@ -4,10 +4,10 @@ title: IWRdsProtocolLogonErrorRedirector::RedirectStatus
 author: windows-sdk-content
 description: Queries the protocol regarding how to redirect the client logon status update.
 old-location: termserv\iwrdsprotocollogonerrorredirector_redirectstatus.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: f1f6caec-6e26-4508-b19d-ac0e12758b28
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectStatus method, IWRdsProtocolLogonErrorRedirector.RedirectStatus, IWRdsProtocolLogonErrorRedirector::RedirectStatus, RedirectStatus, RedirectStatus method [Remote Desktop Services], RedirectStatus method [Remote Desktop Services],IWRdsProtocolLogonErrorRedirector interface, termserv.iwrdsprotocollogonerrorredirector_redirectstatus, wtsprotocol/IWRdsProtocolLogonErrorRedirector::RedirectStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

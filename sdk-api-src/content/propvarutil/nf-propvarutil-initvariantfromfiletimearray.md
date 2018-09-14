@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromFileTimeArray.htm
 tech.root: properties
 ms.assetid: d1b25aec-f302-4d39-93c1-0fcb2d7dbf45
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: InitVariantFromFileTimeArray, InitVariantFromFileTimeArray function [Windows Properties], _shell_InitVariantFromFileTimeArray, properties.InitVariantFromFileTimeArray, propvarutil/InitVariantFromFileTimeArray, shell.InitVariantFromFileTimeArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with an array of <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structures.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with an array of <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structures.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The number of elements in the array pointed to by <i>prgft</i>.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns
@@ -99,24 +99,28 @@ Creates a VT_ARRAY | VT_DATE variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762324(v=VS.85).aspx">InitVariantFromFileTimeArray</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromFileTimeArray">InitVariantFromFileTimeArray</a>.
 
-
-```cpp
-// FILETIME rgFileTimes[3];
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// FILETIME rgFileTimes[3];
 // Assume variable rgFileTimes is initialized and valid.
 VARIANT var;
 
-HRESULT hr = InitVariantFromFileTimeArray(rgFileTimes, ARRAYSIZE(rgFileTimes), &var);
+HRESULT hr = InitVariantFromFileTimeArray(rgFileTimes, ARRAYSIZE(rgFileTimes), &amp;var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_ARRAY | VT_DATE.
-    VariantClear(&propvar);
-}
-```
-
-
+    VariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -125,7 +129,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762294(v=VS.85).aspx">InitPropVariantFromFileTimeVector</a>
+<a href="shell.InitPropVariantFromFileTimeVector">InitPropVariantFromFileTimeVector</a>
  
 
  

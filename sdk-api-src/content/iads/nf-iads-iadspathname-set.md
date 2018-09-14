@@ -7,7 +7,7 @@ old-location: adsi\iadspathname_set.htm
 tech.root: ADSI
 ms.assetid: 1672c1b0-1008-41e7-8ca4-eefb559f523d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsPathname interface [ADSI],Set method, IADsPathname.Set, IADsPathname::Set, Set, Set method [ADSI], Set method [ADSI],IADsPathname interface, _ds_iadspathname_set, adsi.iadspathname__set, adsi.iadspathname_set, iads/IADsPathname::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,55 +90,67 @@ This method will set the namespace as specified and identify the appropriate pro
 
 The following Visual Basic code example sets a full ADSI path on the Pathname object.
 
-
-```vb
-Dim x As New Pathname
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x As New Pathname
  
 x.Set "LDAP://server/CN=Jeff Smith, DC=Fabrikam, DC=Com", _
        ADS_SETTYPE_FULL
-dn = x.GetElement(0)    ' dn now is "CN=Jeff Smith".
-```
-
-
+dn = x.GetElement(0)    ' dn now is "CN=Jeff Smith".</pre>
+</td>
+</tr>
+</table></span></div>
 The following VBScript/ASP code example sets a full ADSI path on the Pathname object.
 
-
-```vb
-<%
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;%
 Dim x
 const ADS_SETTYPE_FULL = 1
 Set x = CreateObject("Pathname")
 path = "LDAP://server/CN=Jeff Smith, DC=Fabrikam,DC=com" 
 x.Set path, ADS_SETTYPE_FULL
 dn = x.GetElement(0)    ' dn now is "CN=Jeff Smith".
-%>
-```
-
-
+%&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 The following C++ code example sets a full ADSI path on the Pathname object.
 
-
-```cpp
-IADsPathname *pPathname=NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsPathname *pPathname=NULL;
 HRESULT hr;
  
 hr = CoCreateInstance(CLSID_Pathname,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_IADsPathname,
-                      (void**)&pPathname);
+                      (void**)&amp;pPathname);
  
 if(FAILED(hr)) 
 {
-    if(pPathname) pPathname->Release();
+    if(pPathname) pPathname-&gt;Release();
     return NULL;
 }
  
-hr = pPathname->Set(CComBSTR("LDAP://CN=pencil/desk"), 
-                    ADS_SETTYPE_FULL);
-```
-
-
+hr = pPathname-&gt;Set(CComBSTR("LDAP://CN=pencil/desk"), 
+                    ADS_SETTYPE_FULL);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex2dms_rtv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_rtv.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: D3D10_TEX2DMS_RTV, D3D10_TEX2DMS_RTV structure [Direct3D 10], b35fccdd-d7a7-672b-7f33-80eef15788d6, d3d10/D3D10_TEX2DMS_RTV, direct3d10.d3d10_tex2dms_rtv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> from a multisampled <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">2D texture</a> to use in a render-target view.
+Specifies the <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource</a> from a multisampled <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">2D texture</a> to use in a render-target view.
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ Since a multisampled 2D texture contains a single subresource, there is actually
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/d8fe2ebe-349a-456e-9a5a-16f2d3419800">Resource Structures</a>
  
 
  

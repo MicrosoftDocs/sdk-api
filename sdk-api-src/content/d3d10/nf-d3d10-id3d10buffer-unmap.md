@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10buffer_unmap.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10buffer_unmap.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 13d21090-d886-01c2-e3ba-12169dea4cc5, ID3D10Buffer interface [Direct3D 10],Unmap method, ID3D10Buffer.Unmap, ID3D10Buffer::Unmap, Unmap, Unmap method [Direct3D 10], Unmap method [Direct3D 10],ID3D10Buffer interface, d3d10/ID3D10Buffer::Unmap, direct3d10.id3d10buffer_unmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Invalidate the pointer to the resource retrieved by <a href="https://msdn.microsoft.com/en-us/library/Bb173512(v=VS.85).aspx">ID3D10Buffer::Map</a> and reenable GPU access to the resource.
+Invalidate the pointer to the resource retrieved by <a href="https://msdn.microsoft.com/c863ef55-757d-4c0b-ba59-28d30499cf79">ID3D10Buffer::Map</a> and reenable GPU access to the resource.
 
 
 ## -parameters
@@ -94,7 +94,7 @@ Unmap() in Direct3D 10 is analogous to resource Unlock() in Direct3D 9.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer Interface</a>
+<a href="https://msdn.microsoft.com/a81e0dfc-9be4-4ba6-a388-9c9bb97a0fa9">ID3D10Buffer Interface</a>
  
 
  

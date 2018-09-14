@@ -4,10 +4,10 @@ title: "_MIB_OPAQUE_INFO"
 author: windows-sdk-content
 description: Contains information returned from a MIB opaque query.
 old-location: mib\mib_opaque_info.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: d364b08b-80b9-4320-b5bb-e1627d3ce889
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMIB_OPAQUE_INFO, MIB_OPAQUE_INFO, MIB_OPAQUE_INFO structure [MIB], PMIB_OPAQUE_INFO, PMIB_OPAQUE_INFO structure pointer [MIB], _MIB_OPAQUE_INFO, _mpr_mib_opaque_info, iprtrmib/MIB_OPAQUE_INFO, iprtrmib/PMIB_OPAQUE_INFO, mib.mib_opaque_info, rras.mib_opaque_info"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: p2p\peergroupstartup.htm
 tech.root: p2psdk
 ms.assetid: c07e200d-9578-4367-a0f8-699ae300fc1f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerGroupStartup, PeerGroupStartup function [Peer Networking], p2p.peergroupstartup, p2p/PeerGroupStartup
 ms.prod: windows-hardware
 ms.technology: windows-devices

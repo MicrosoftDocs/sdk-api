@@ -4,10 +4,10 @@ title: IISDB_LDT::GetTransportStreamId
 author: windows-sdk-content
 description: Returns the transport stream identifier (TSID) for an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_gettransportstreamid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 382dc27b-7010-4d05-a401-ded8e0a8c932
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetTransportStreamId method, IISDB_LDT.GetTransportStreamId, IISDB_LDT::GetTransportStreamId, dvbsiparser/IISDB_LDT::GetTransportStreamId, mstv.iisdb_ldt_gettransportstreamid
 ms.prod: windows-hardware
 ms.technology: windows-devices

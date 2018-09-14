@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLine_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawlinemethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: DrawLine, DrawLine methods [GDI+], Graphics.DrawLine, Graphics.DrawLine(IN const Pen,IN const PointF &,IN const PointF &), Graphics::DrawLine, Graphics::DrawLine(IN const Pen,IN const PointF &,IN const PointF &), _gdiplus_CLASS_Graphics_DrawLine_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawLine_Methods, gdiplusgraphics/DrawLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,8 +52,8 @@ req.redist:
 
 <span>This topic lists the 
 			DrawLine methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
-			<b>Graphics</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
+			<b>Graphics</b> class, see <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -63,37 +63,37 @@ req.redist:
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536020(v=VS.85).aspx">DrawLine(Pen*,Point&,Point&)</a>
+<a href="https://msdn.microsoft.com/edaaedfd-6b45-45e6-b23c-df4304420177">DrawLine(Pen*,Point&,Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536020(v=VS.85).aspx">Graphics::DrawLine</a> method draws a line that connects two points.
+The <a href="https://msdn.microsoft.com/edaaedfd-6b45-45e6-b23c-df4304420177">Graphics::DrawLine</a> method draws a line that connects two points.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536026(v=VS.85).aspx">DrawLine(Pen*,INT,INT,INT,INT)</a>
+<a href="https://msdn.microsoft.com/50ebc065-ef29-415b-af8a-05ec4ba5349e">DrawLine(Pen*,INT,INT,INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536026(v=VS.85).aspx">Graphics::DrawLine</a> method draws a line that connects two points.
+The <a href="https://msdn.microsoft.com/50ebc065-ef29-415b-af8a-05ec4ba5349e">Graphics::DrawLine</a> method draws a line that connects two points.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536022(v=VS.85).aspx">DrawLine(Pen*,PointF&,PointF&)</a>
+<a href="https://msdn.microsoft.com/cd533104-af94-4e80-baf8-8d5d64c3c272">DrawLine(Pen*,PointF&,PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536022(v=VS.85).aspx">Graphics::DrawLine</a> method draws a line that connects two points.
+The <a href="https://msdn.microsoft.com/cd533104-af94-4e80-baf8-8d5d64c3c272">Graphics::DrawLine</a> method draws a line that connects two points.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536024(v=VS.85).aspx">DrawLine(Pen*,REAL,REAL,REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/b245ba2b-4b52-40fa-b6f3-adcd25775b94">DrawLine(Pen*,REAL,REAL,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536024(v=VS.85).aspx">Graphics::DrawLine</a> method draws a line that connects two points.
+The <a href="https://msdn.microsoft.com/b245ba2b-4b52-40fa-b6f3-adcd25775b94">Graphics::DrawLine</a> method draws a line that connects two points.
 
 </td>
 </tr>

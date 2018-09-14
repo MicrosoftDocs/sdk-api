@@ -7,7 +7,7 @@ old-location: intl\resolvelocalename.htm
 tech.root: Intl
 ms.assetid: 99264b22-3fb5-47e2-b0b9-42a6768e67c1
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/30/2018
 ms.keywords: ResolveLocaleName, ResolveLocaleName function [Internationalization for Windows Applications], intl.resolvelocalename, winnls/ResolveLocaleName
 ms.prod: windows-hardware
 ms.technology: windows-devices

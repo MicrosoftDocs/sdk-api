@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_p
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiterator_66path.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: GraphicsPathIterator, GraphicsPathIterator class [GDI+],GraphicsPathIterator constructor, GraphicsPathIterator constructor [GDI+], GraphicsPathIterator constructor [GDI+],GraphicsPathIterator class, GraphicsPathIterator.GraphicsPathIterator, GraphicsPathIterator.GraphicsPathIterator(const GraphicsPathIterator &), GraphicsPathIterator::GraphicsPathIterator, GraphicsPathIterator::GraphicsPathIterator(const GraphicsPathIterator &), _gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a new <b>GraphicsPathIterator::GraphicsPathIterator</b> object and associates it with a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object.
+Creates a new <b>GraphicsPathIterator::GraphicsPathIterator</b> object and associates it with a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object.
 
 
 ## -parameters
@@ -63,9 +63,9 @@ Creates a new <b>GraphicsPathIterator::GraphicsPathIterator</b> object and assoc
 
 #### - path [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object that will be associated with this <b>GraphicsPathIterator::GraphicsPathIterator</b> object. 
+Pointer to a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object that will be associated with this <b>GraphicsPathIterator::GraphicsPathIterator</b> object. 
 
 
 ## -see-also
@@ -73,11 +73,11 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
+<a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a>
  
 
  

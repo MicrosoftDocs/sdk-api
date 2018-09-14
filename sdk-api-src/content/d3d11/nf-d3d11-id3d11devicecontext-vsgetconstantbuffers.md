@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_vsgetconstantbuffers.htm
 tech.root: direct3d11
 ms.assetid: d31bff37-4109-40af-bc75-7e73582d6fa1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 195aec78-0809-915e-4807-c20139d72b2b, ID3D11DeviceContext interface [Direct3D 11],VSGetConstantBuffers method, ID3D11DeviceContext.VSGetConstantBuffers, ID3D11DeviceContext::VSGetConstantBuffers, VSGetConstantBuffers, VSGetConstantBuffers method [Direct3D 11], VSGetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::VSGetConstantBuffers, direct3d11.id3d11devicecontext_vsgetconstantbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,23 +61,23 @@ Get the constant buffers used by the vertex shader pipeline stage.
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index into the device's zero-based array to begin retrieving constant buffers from (ranges from 0 to D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT - 1).
 
 
 ### -param NumBuffers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of buffers to retrieve (ranges from 0 to D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT - StartSlot).
 
 
 ### -param ppConstantBuffers [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>**</b>
 
-Array of constant buffer interface pointers (see <a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a>) to be returned by the method.
+Array of constant buffer interface pointers (see <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>) to be returned by the method.
 
 
 ## -returns
@@ -103,7 +103,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

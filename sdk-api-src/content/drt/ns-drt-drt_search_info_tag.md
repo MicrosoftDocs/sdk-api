@@ -7,7 +7,7 @@ old-location: p2p\drt_search_info.htm
 tech.root: p2psdk
 ms.assetid: a3f12d8a-95ef-4168-8d2d-c317ae2c57b4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: "*PDRT_SEARCH_INFO, DRT_SEARCH_INFO, DRT_SEARCH_INFO structure [Peer Networking], PDRT_SEARCH_INFO, PDRT_SEARCH_INFO structure pointer [Peer Networking], drt/DRT_SEARCH_INFO, drt/PDRT_SEARCH_INFO, drt_search_info_tag, p2p.drt_search_info"
 ms.prod: windows
 ms.technology: windows-sdk

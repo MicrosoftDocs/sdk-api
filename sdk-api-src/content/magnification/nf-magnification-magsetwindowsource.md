@@ -7,7 +7,7 @@ old-location: magapi\magapi_MagSetWindowSource.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetwindowsource.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MagSetWindowSource, MagSetWindowSource function [Magnification API], magapi.magapi_MagSetWindowSource, magapi_MagSetWindowSource, magnification/MagSetWindowSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692390(v=VS.85).aspx">MagGetWindowSource</a>
+<a href="https://msdn.microsoft.com/eff56c0a-ef87-41e0-a94a-79f1ac3ab270">MagGetWindowSource</a>
  
 
  

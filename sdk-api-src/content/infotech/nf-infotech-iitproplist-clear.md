@@ -7,7 +7,7 @@ old-location: htmlhelp\iitproplist_clear.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistclear.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/30/2018
 ms.keywords: Clear, Clear method [HTML Help Workshop], Clear method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],Clear method, IITPropList.Clear, IITPropList::Clear, htmlhelp.iitproplist_clear, infotech/IITPropList::Clear, refIITPropListClear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,7 +104,7 @@ Call this method to clear a property list without requiring the list to be destr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670040(v=VS.85).aspx">IITPropList</a>
+<a href="https://msdn.microsoft.com/09200749-bd1d-4266-895e-29e21525bac2">IITPropList</a>
  
 
  

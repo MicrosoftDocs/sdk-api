@@ -7,7 +7,7 @@ old-location: devinst\setupdisetselecteddriver.htm
 tech.root: devinst
 ms.assetid: 791df876-9037-405b-b899-eea2b577d923
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: SetupDiSetSelectedDriver, SetupDiSetSelectedDriver function [Device and Driver Installation], SetupDiSetSelectedDriverA, SetupDiSetSelectedDriverW, devinst.setupdisetselecteddriver, di-rtns_823d52e2-7c55-4c52-bccc-809135f28251.xml, setupapi/SetupDiSetSelectedDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The <b>SetupDiSetSelectedDriver</b> function sets, or resets, the selected drive
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the driver list from which to select a driver for a device information element or for the device information set.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the driver list from which to select a driver for a device information element or for the device information set.
 
 
 ### -param DeviceInfoData [in, out]

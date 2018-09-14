@@ -4,10 +4,10 @@ title: IKEEXT_TRAFFIC0_
 author: windows-sdk-content
 description: Specifies the IKE/Authip traffic.
 old-location: fwp\ikeext_traffic0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 99cb3774-7afd-44fd-9c3e-e2d913aaeecb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IKEEXT_TRAFFIC0, IKEEXT_TRAFFIC0 structure [Filtering], IKEEXT_TRAFFIC0_, fwp.ikeext_traffic0, iketypes/IKEEXT_TRAFFIC0
 ms.prod: windows
 ms.technology: windows-sdk

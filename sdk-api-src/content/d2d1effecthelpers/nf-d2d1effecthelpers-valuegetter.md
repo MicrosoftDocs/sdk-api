@@ -4,10 +4,10 @@ title: ValueGetter function
 author: windows-sdk-content
 description: Calls a member-function property setter callback for a value-type property.
 old-location: direct2d\valuegetter.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F811E606-461A-4D18-B49B-3DD11BF991BC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ValueGetter, ValueGetter function [Direct2D], d2d1effecthelpers/ValueGetter, direct2d.valuegetter
 ms.prod: windows-hardware
 ms.technology: windows-devices

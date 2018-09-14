@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_verifypermission.htm
 tech.root: WMP
 ms.assetid: 7ff45264-6e49-4953-bc0a-b3652aee965d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],VerifyPermission method, IWMPContentPartner.VerifyPermission, IWMPContentPartner::VerifyPermission, IWMPContentPartnerVerifyPermission, VerifyPermission, VerifyPermission method [Windows Media Player], VerifyPermission method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::VerifyPermission, wmp.iwmpcontentpartner_verifypermission
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-The <b>VerifyPermission</b> method initiates a permission verification and then returns immediately. When the online store has completed the verification, it calls <a href="https://msdn.microsoft.com/en-us/library/Dd563155(v=VS.85).aspx">IWMPContentPartnerCallback::VerifyPermissionComplete</a> to notify Windows Media Player that permission has been granted or denied.
+The <b>VerifyPermission</b> method initiates a permission verification and then returns immediately. When the online store has completed the verification, it calls <a href="https://msdn.microsoft.com/bf99ead7-a50c-4638-9f4c-5c43a8d0a0be">IWMPContentPartnerCallback::VerifyPermissionComplete</a> to notify Windows Media Player that permission has been granted or denied.
 
 The following list gives the possible values for <i>bstrPermission</i> along with the corresponding meanings of <i>pContext</i>.
 
@@ -121,11 +121,11 @@ Windows Media Player is requesting permission from the online store to synchroni
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563155(v=VS.85).aspx">IWMPContentPartnerCallback::VerifyPermissionComplete</a>
+<a href="https://msdn.microsoft.com/bf99ead7-a50c-4638-9f4c-5c43a8d0a0be">IWMPContentPartnerCallback::VerifyPermissionComplete</a>
  
 
  

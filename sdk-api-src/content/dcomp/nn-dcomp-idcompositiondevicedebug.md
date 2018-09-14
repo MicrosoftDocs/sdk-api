@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevicedebug.htm
 tech.root: directcomp
 ms.assetid: B8D17570-9729-45DB-99E1-A2EBBDAA5996
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionDeviceDebug, IDCompositionDeviceDebug interface [DirectComposition], IDCompositionDeviceDebug interface [DirectComposition],described, dcomp/IDCompositionDeviceDebug, directcomp.idcompositiondevicedebug
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_issameclassname.htm
 tech.root: WmiSdk
 ms.assetid: 7e0a907e-49d1-4775-885f-f059bb398804
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],IsSameClassName method, IWbemPath.IsSameClassName, IWbemPath::IsSameClassName, IsSameClassName, IsSameClassName method [Windows Management Instrumentation], IsSameClassName method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_issameclassname, wmi.iwbempath_issameclassname, wmiutils/IWbemPath::IsSameClassName
 ms.prod: windows-hardware
 ms.technology: windows-devices

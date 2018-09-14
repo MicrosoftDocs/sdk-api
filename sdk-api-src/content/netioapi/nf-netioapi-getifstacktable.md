@@ -4,10 +4,10 @@ title: GetIfStackTable function
 author: windows-sdk-content
 description: Retrieves a table of network interface stack row entries that specify the relationship of the network interfaces on an interface stack.
 old-location: iphlp\getifstacktable.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: c1b0f091-2aef-447e-9866-a886838a6267
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetIfStackTable, GetIfStackTable function [IP Helper], iphlp.getifstacktable, netioapi/GetIfStackTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

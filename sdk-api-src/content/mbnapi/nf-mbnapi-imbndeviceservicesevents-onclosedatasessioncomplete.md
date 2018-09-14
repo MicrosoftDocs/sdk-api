@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicesevents_onclosedatasessioncomplete.htm
 tech.root: mbn
 ms.assetid: 003D87F7-CFFD-47A3-8DAA-0CF9F64E2CF6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnCloseDataSessionComplete method, IMbnDeviceServicesEvents.OnCloseDataSessionComplete, IMbnDeviceServicesEvents::OnCloseDataSessionComplete, OnCloseDataSessionComplete, OnCloseDataSessionComplete method [Microsoft Broadband Networks], OnCloseDataSessionComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onclosedatasessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnCloseDataSessionComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Notification method indicating that a device service session <b>CloseDataSession
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> session object on which the <b>CloseDataSession</b> was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> session object on which the <b>CloseDataSession</b> was requested.
 
 
 ### -param status [in]

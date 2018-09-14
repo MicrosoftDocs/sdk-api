@@ -7,7 +7,7 @@ old-location: shell\icreateprocessinputs_getcreateflags.htm
 tech.root: shell
 ms.assetid: 6884E7A0-17E8-4F5F-B0A4-85BD3745ED12
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: GetCreateFlags, GetCreateFlags method [Windows Shell], GetCreateFlags method [Windows Shell],ICreateProcessInputs interface, ICreateProcessInputs interface [Windows Shell],GetCreateFlags method, ICreateProcessInputs.GetCreateFlags, ICreateProcessInputs::GetCreateFlags, shell.icreateprocessinputs_getcreateflags, shobjidl_core/ICreateProcessInputs::GetCreateFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

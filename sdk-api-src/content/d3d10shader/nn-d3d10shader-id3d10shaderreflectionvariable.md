@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflectionvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectionvariable.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: ID3D10ShaderReflectionVariable, ID3D10ShaderReflectionVariable interface [Direct3D 10], ID3D10ShaderReflectionVariable interface [Direct3D 10],described, d3d10shader/ID3D10ShaderReflectionVariable, direct3d10.id3d10shaderreflectionvariable, e8b67520-bfa7-7e41-f594-a51d5ad0301e
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>ID3D10ShaderReflectionVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173846(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/18e1d597-084b-4b20-95f5-dbfe77e32944">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a shader-variable description.
@@ -80,7 +80,7 @@ Get a shader-variable description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173847(v=VS.85).aspx">GetType</a>
+<a href="https://msdn.microsoft.com/4a407589-122d-4d7c-944a-f63b0260a2fe">GetType</a>
 </td>
 <td align="left" width="63%">
 Get a shader-variable type.
@@ -94,7 +94,7 @@ Get a shader-variable type.
 
 
 
-To get a shader-reflection-variable interface, call a method like <a href="https://msdn.microsoft.com/en-us/library/Bb173838(v=VS.85).aspx">ID3D10ShaderReflectionConstantBuffer::GetVariableByIndex</a>.
+To get a shader-reflection-variable interface, call a method like <a href="https://msdn.microsoft.com/379613b6-16b8-4d20-aade-7658c9f00fb7">ID3D10ShaderReflectionConstantBuffer::GetVariableByIndex</a>.
 
 
 
@@ -104,7 +104,7 @@ To get a shader-reflection-variable interface, call a method like <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205158(v=VS.85).aspx">Shader Interfaces</a>
+<a href="https://msdn.microsoft.com/d8770b45-a05c-4dd8-9fa7-08fb4330d734">Shader Interfaces</a>
  
 
  

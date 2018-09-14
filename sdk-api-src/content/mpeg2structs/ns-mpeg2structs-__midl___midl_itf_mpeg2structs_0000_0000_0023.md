@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0023"
 author: windows-sdk-content
 description: The MPEG_STREAM_BUFFER structure defines a buffer that receives MPEG-2 data.
 old-location: mstv\mpeg_stream_buffer.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: d376af4c-4b22-4a2d-917a-6f25d2c38861
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: "*PMPEG_STREAM_BUFFER, MPEG_STREAM_BUFFER, MPEG_STREAM_BUFFER structure [Microsoft TV Technologies], PMPEG_STREAM_BUFFER, PMPEG_STREAM_BUFFER structure pointer [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0023, mpeg2structs/MPEG_STREAM_BUFFER, mpeg2structs/PMPEG_STREAM_BUFFER, mstv.mpeg_stream_buffer"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,9 +94,13 @@ For PSI tables and sections, set <b>pDataBuffer</b> to point to a <a href="https
 
 The following code shows how to initialize an <b>MPEG_STREAM_BUFFER</b> structure so that it points to a <b>SECTION</b> structure contained in an <b>MPEG_PACKET_LIST</b> section list:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Allocate two buffers for section data.
 const int cBufferSize = 4096;
 BYTE pBuffer1[cBufferSize];
@@ -112,18 +116,18 @@ RqstPacket[1].dwLength = cBufferSize;
 RqstPacket[1].pSection = (SECTION*)pBuffer2;
 
 Packets.wPacketCount = 2;
-Packets.PacketList[0] = &RqstPacket[0];
-Packets.PacketList[1] = &RqstPacket[1];
+Packets.PacketList[0] = &amp;RqstPacket[0];
+Packets.PacketList[1] = &amp;RqstPacket[1];
 
 // Set the stream buffer structure to point to the first packet in the list.
 MPEG_STREAM_BUFFER StreamBuffer;
-ZeroMemory(&StreamBuffer, sizeof(MPEG_STREAM_BUFFER));
-StreamBuffer.dwDataBufferSize = Packets.PacketList[0]->dwLength;
-StreamBuffer.pDataBuffer = (BYTE*) Packets.PacketList[0]->pSection;
-
-```
-
-
+ZeroMemory(&amp;StreamBuffer, sizeof(MPEG_STREAM_BUFFER));
+StreamBuffer.dwDataBufferSize = Packets.PacketList[0]-&gt;dwLength;
+StreamBuffer.pDataBuffer = (BYTE*) Packets.PacketList[0]-&gt;pSection;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: "_HTTP_DATA_CHUNK"
 author: windows-sdk-content
 description: Represents an individual block of data either in memory, in a file, or in the HTTP Server API response-fragment cache.
 old-location: http\http_data_chunk.htm
-tech.root: http
+tech.root: Http
 ms.assetid: ae67c066-c8bd-483f-829f-30192f49593d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PHTTP_DATA_CHUNK, HTTP_DATA_CHUNK, HTTP_DATA_CHUNK structure [HTTP], PHTTP_DATA_CHUNK, PHTTP_DATA_CHUNK structure pointer [HTTP], _HTTP_DATA_CHUNK, _http_http_data_chunk, http.http_data_chunk, http/HTTP_DATA_CHUNK, http/PHTTP_DATA_CHUNK"
 ms.prod: windows
 ms.technology: windows-sdk

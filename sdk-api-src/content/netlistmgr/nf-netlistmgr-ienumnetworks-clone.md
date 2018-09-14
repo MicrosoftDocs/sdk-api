@@ -4,10 +4,10 @@ title: IEnumNetworks::Clone
 author: windows-sdk-content
 description: The Clone method creates an enumerator that contains the same enumeration state as the enumerator currently in use.
 old-location: nla\ienumnetworks_clone.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: 196bf9fa-4615-44c3-accf-f70516d5a6a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [Network Awareness], Clone method [Network Awareness],IEnumNetworks interface, IEnumNetworks interface [Network Awareness],Clone method, IEnumNetworks.Clone, IEnumNetworks::Clone, netlistmgr/IEnumNetworks::Clone, nla.ienumnetworks_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

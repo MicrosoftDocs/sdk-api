@@ -7,7 +7,7 @@ old-location: adsi\iadsgroup_ismember.htm
 tech.root: ADSI
 ms.assetid: 16251638-49c6-48f0-b398-0bf8f523ba86
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsGroup interface [ADSI],IsMember method, IADsGroup.IsMember, IADsGroup::IsMember, IsMember, IsMember method [ADSI], IsMember method [ADSI],IADsGroup interface, _ds_iadsgroup_ismember, adsi.iadsgroup__ismember, adsi.iadsgroup_ismember, iads/IADsGroup::IsMember
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,9 +90,13 @@ The <b>IADsGroup::IsMember</b> method will only work correctly if the group and 
 
 The following code example adds the "jeffsmith" user to the "Administrators" group on the "Fabrikam" domain and then reports that the user is now a member of the group.
 
-
-```vb
-Dim grp As IADsGroup
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim grp As IADsGroup
 On Error GoTo Cleanup
 
 Set grp = GetObject("WinNT://Microsoft/Administrators")
@@ -100,30 +104,34 @@ grp.Add ("WinNT://Fabrikam/jeffsmith")
 Debug.Print grp.IsMember("WinNT://Fabrikam/jeffsmith ") ' Should be TRUE.
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
-    Set grp = Nothing
-```
-
-
+    Set grp = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example verifies that a user belongs to a group before adding it to the group.
 
-
-```cpp
-IADsGroup *pGroup = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsGroup *pGroup = NULL;
 HRESULT hr = S_OK;
 LPWSTR adsPath = L"WinNT://Fabrikam/Administrators";
 BSTR bstr = NULL;
 
-hr = ADsGetObject(adsPath, IID_IADsGroup, (void**)&pGroup);
+hr = ADsGetObject(adsPath, IID_IADsGroup, (void**)&amp;pGroup);
 
 if(FAILED(hr))
 {
     goto Cleanup;
 }
 
-hr = pGroup->get_Description(&bstr);
+hr = pGroup-&gt;get_Description(&amp;bstr);
 if(FAILED(hr))
 {
     goto Cleanup;
@@ -133,7 +141,7 @@ printf("Description: %S\n",bstr);
 SysFreeString(bstr);
 
 VARIANT_BOOL inG=false;
-hr = pGroup->IsMember(CComBSTR("WinNT://Microsoft/SecUser"), &inG);
+hr = pGroup-&gt;IsMember(CComBSTR("WinNT://Microsoft/SecUser"), &amp;inG);
 
 if (inG ) 
 {
@@ -141,7 +149,7 @@ if (inG )
 }
 else 
 {
-    hr = pGroup->Add(CComBSTR("WinNT://Microsoft/SecUser"));
+    hr = pGroup-&gt;Add(CComBSTR("WinNT://Microsoft/SecUser"));
     if(FAILED(hr))
     {
         goto Cleanup;
@@ -153,17 +161,17 @@ else
 Cleanup:
 if(pGroup)
 {
-    pGroup->Release();
+    pGroup-&gt;Release();
 }
 if(bstr)
 {
     SysFreeString(bstr);
 }
 
-return hr;
-```
-
-
+return hr;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

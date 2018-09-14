@@ -4,10 +4,10 @@ title: D2D1_BITMAP_PROPERTIES
 author: windows-sdk-content
 description: Describes the pixel format and dpi of a bitmap.
 old-location: direct2d\D2D1_BITMAP_PROPERTIES.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 050246fd-f91a-4a2a-858a-5f0447e3ecbf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D2D1_BITMAP_PROPERTIES, D2D1_BITMAP_PROPERTIES structure [Direct2D], d2d1/D2D1_BITMAP_PROPERTIES, direct2d.D2D1_BITMAP_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Describes the pixel format and dpi
 
 ### -field pixelFormat
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368138(v=VS.85).aspx">D2D1_PIXEL_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e95afd9c-5793-4cb7-bcb8-aae4d28b6532">D2D1_PIXEL_FORMAT</a></b>
 
 The bitmap's pixel format and alpha mode.
 

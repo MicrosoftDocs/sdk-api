@@ -7,7 +7,7 @@ old-location: mmc\iimagelist.htm
 tech.root: mmc
 ms.assetid: a957239b-6cb2-4101-adeb-e9ba4f876af4
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IImageList, IImageList interface [MMC], IImageList interface [MMC],described, _slate_iimagelist, mmc.iimagelist, mmc/IImageList
 ms.prod: windows
 ms.technology: windows-sdk

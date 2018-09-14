@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt64Vector.htm
 tech.root: properties
 ms.assetid: cda5589a-726f-4e43-aec4-bb7a7ca62b1a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: PropVariantToInt64Vector, PropVariantToInt64Vector function [Windows Properties], _shell_PropVariantToInt64Vector, properties.PropVariantToInt64Vector, propvarutil/PropVariantToInt64Vector, shell.PropVariantToInt64Vector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,15 +149,19 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776556(v=VS.85).aspx">PropVariantToInt64Vector</a> to access an Int64 vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToInt64Vector">PropVariantToInt64Vector</a> to access an Int64 vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid
 LONGLONG rgLongs[4]; // The application is expecting propvar to hold 4 LONGLONGs in a vector
 ULONG cElems;
-HRESULT hr = PropVariantToInt64Vector(propvar, rgLongs, ARRAYSIZE(rgLongs), &cElems);
+HRESULT hr = PropVariantToInt64Vector(propvar, rgLongs, ARRAYSIZE(rgLongs), &amp;cElems);
 if (SUCCEEDED(hr))
 {
      if (cElems == ARRAYSIZE(rgLongs))
@@ -168,10 +172,10 @@ if (SUCCEEDED(hr))
      {
          // The application got cElems which are stored in the first cElems elements of rgLongs
      }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -180,23 +184,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762302(v=VS.85).aspx">InitPropVariantFromInt64Vector</a>
+<a href="shell.InitPropVariantFromInt64Vector">InitPropVariantFromInt64Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776526(v=VS.85).aspx">PropVariantGetInt64Elem</a>
+<a href="shell.PropVariantGetInt64Elem">PropVariantGetInt64Elem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776554(v=VS.85).aspx">PropVariantToInt64</a>
+<a href="shell.PropVariantToInt64">PropVariantToInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776557(v=VS.85).aspx">PropVariantToInt64VectorAlloc</a>
+<a href="shell.PropVariantToInt64VectorAlloc">PropVariantToInt64VectorAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776613(v=VS.85).aspx">VariantToInt64Array</a>
+<a href="shell.VariantToInt64Array">VariantToInt64Array</a>
  
 
  

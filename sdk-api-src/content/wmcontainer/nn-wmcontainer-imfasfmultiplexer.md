@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer.htm
 tech.root: medfound
 ms.assetid: bdb549b5-425b-4f77-b413-723ceb7acd11
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IMFASFMultiplexer, IMFASFMultiplexer interface [Media Foundation], IMFASFMultiplexer interface [Media Foundation],described, bdb549b5-425b-4f77-b413-723ceb7acd11, mf.imfasfmultiplexer, wmcontainer/IMFASFMultiplexer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMSVidAnalogTuner2::get_TVFormats
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\imsvidanalogtuner2_get_tvformats.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 82816d89-0a15-4868-8e86-12b683de03b1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_TVFormats method, IMSVidAnalogTuner2.get_TVFormats, IMSVidAnalogTuner2::get_TVFormats, IMSVidAnalogTuner2getTVFormats, get_TVFormats, get_TVFormats method [Microsoft TV Technologies], get_TVFormats method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_tvformats, segment/IMSVidAnalogTuner2::get_TVFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices

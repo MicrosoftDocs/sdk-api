@@ -7,7 +7,7 @@ old-location: shell\ULongPtrToUInt8.htm
 tech.root: shell
 ms.assetid: 1a287c22-80d8-4cd9-8878-c19aaeddd407
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: ULongPtrToUInt8, ULongPtrToUInt8 function [Windows Shell], ULongToByte, intsafe/ULongPtrToUInt8, shell.ULongPtrToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

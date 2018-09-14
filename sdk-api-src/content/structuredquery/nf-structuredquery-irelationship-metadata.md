@@ -7,7 +7,7 @@ old-location: search\_search_IRelationship_MetaData.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\metadata.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: IRelationship interface [search],MetaData method, IRelationship.MetaData, IRelationship::MetaData, MetaData, MetaData method [search], MetaData method [search],IRelationship interface, _search_IRelationship_MetaData, search._search_IRelationship_MetaData, structuredquery/IRelationship::MetaData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Retrieves an enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects for this relationship.
+Retrieves an enumeration of <a href="https://msdn.microsoft.com/2647af6d-af05-4f0d-8613-03248385abec">IMetaData</a> objects for this relationship.
         
 
 
@@ -71,7 +71,7 @@ The desired IID of the result, either IID_IEnumUnknown or IID_IEnumVARIANT.
 
 Type: <b>void**</b>
 
-Receives a pointer to the enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects. There may be multiple pairs with the same key (or the same value).
+Receives a pointer to the enumeration of <a href="https://msdn.microsoft.com/2647af6d-af05-4f0d-8613-03248385abec">IMetaData</a> objects. There may be multiple pairs with the same key (or the same value).
             
 
 

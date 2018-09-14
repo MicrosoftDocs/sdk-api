@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::LoadPolicy
 author: windows-sdk-content
 description: Retrieves policy information from the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_loadpolicy.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 5b617c6e-91bc-4a22-acd6-41083102850a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],LoadPolicy method, IX509EnrollmentPolicyServer.LoadPolicy, IX509EnrollmentPolicyServer::LoadPolicy, LoadOptionCacheOnly, LoadOptionDefault, LoadOptionRegisterForADChanges, LoadOptionReload, LoadPolicy, LoadPolicy method [Security], LoadPolicy method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::LoadPolicy, security.ix509enrollmentpolicyserver_loadpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>LoadPolicy</b> method retrieves policy information from the certificate e
 
 ### -param option [in]
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Ee351760(v=VS.85).aspx">X509EnrollmentPolicyLoadOption</a> enumeration that specifies how to retrieve policy from the policy server. This can be one of the following values.
+A value of the <a href="https://msdn.microsoft.com/94adcffd-b4fe-4bd9-912c-9e8d5e5fdb5b">X509EnrollmentPolicyLoadOption</a> enumeration that specifies how to retrieve policy from the policy server. This can be one of the following values.
 
 <table>
 <tr>
@@ -117,7 +117,7 @@ Registers a thread to update a sequence number if there are changes to the templ
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -157,7 +157,7 @@ There was a problem with the lightweight directory access protocol (LDAP) used t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

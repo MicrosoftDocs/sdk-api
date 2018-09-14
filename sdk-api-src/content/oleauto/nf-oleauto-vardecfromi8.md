@@ -7,7 +7,7 @@ old-location: automat\vardecfromi8.htm
 tech.root: automat
 ms.assetid: 41662fe3-70ff-43ce-9734-15f151473b14
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: VarDecFromI8, VarDecFromI8 function [Automation], _oa96_VarDecFromI8, automat.vardecfromi8, oleauto/VarDecFromI8
 ms.prod: windows-hardware
 ms.technology: windows-devices

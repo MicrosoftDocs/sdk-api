@@ -7,7 +7,7 @@ old-location: adsi\iadsservice.htm
 tech.root: ADSI
 ms.assetid: b59a6594-1109-4913-8a83-4888e56e71d0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsService, IADsService interface [ADSI], IADsService interface [ADSI],described, _ds_iadsservice, adsi.iadsservice, iads/IADsService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The <b>IADsService</b> interface is a dual interface that inherits from <a href=
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsService</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsService</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -444,9 +444,13 @@ File service is a special case of the system service. The  <a href="https://msdn
 
 To identify services available on a host computer, first bind to the computer and then enumerate the services available on that computer. The following code example shows  how to do this.
 
-
-```vb
-Public Sub ListServicesOnComputer(ComputerName As String)
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Public Sub ListServicesOnComputer(ComputerName As String)
     Dim comp As IADsComputer
     Dim srvc As IADsServiceOperations
     
@@ -461,14 +465,14 @@ Public Sub ListServicesOnComputer(ComputerName As String)
     Next
     
 Cleanup:
-    If (Err.Number <> 0) Then
-        MsgBox (Err.Description & vbLf & vbLf & " Error number = " & Err.Number)
+    If (Err.Number &lt;&gt; 0) Then
+        MsgBox (Err.Description &amp; vbLf &amp; vbLf &amp; " Error number = " &amp; Err.Number)
     End If
     Set comp = Nothing
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -497,7 +501,7 @@ End Sub
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

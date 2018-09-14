@@ -7,7 +7,7 @@ old-location: wmi\chstring_find_wchar_.htm
 tech.root: WmiSdk
 ms.assetid: f25db53e-f1a2-4b22-98de-b53ccf3952a1
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: "?Find@CHString@@QBEHG@Z, ?Find@CHString@@QEBAHG@Z, CHString interface [Windows Management Instrumentation],Find method, CHString.Find, CHString.Find(WCHAR), CHString::Find, CHString::Find(WCHAR), Find, Find method [Windows Management Instrumentation], Find method [Windows Management Instrumentation],CHString interface, chstring/CHString::Find, wmi.chstring_find_wchar_"
 ms.prod: windows-hardware
 ms.technology: windows-devices

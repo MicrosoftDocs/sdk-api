@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport2_addbehavior.htm
 tech.root: directmanipulation
 ms.assetid: E65CF2A3-EF44-4B4E-A8C5-7DC75345B5A6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: AddBehavior, AddBehavior method [Direct Manipulation], AddBehavior method [Direct Manipulation],IDirectManipulationViewport2 interface, IDirectManipulationViewport2 interface [Direct Manipulation],AddBehavior method, IDirectManipulationViewport2.AddBehavior, IDirectManipulationViewport2::AddBehavior, directmanipulation.idirectmanipulationviewport2_addbehavior, directmanipulation/IDirectManipulationViewport2::AddBehavior
 ms.prod: windows-hardware
 ms.technology: windows-devices

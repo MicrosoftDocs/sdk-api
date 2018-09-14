@@ -4,10 +4,10 @@ title: ListView_GetItemCount macro
 author: windows-sdk-content
 description: Gets the number of items in a list-view control. You can use this macro or send the LVM_GETITEMCOUNT message explicitly.
 old-location: controls\ListView_GetItemCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemcount.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ListView_GetItemCount, ListView_GetItemCount macro [Windows Controls], _win32_ListView_GetItemCount, _win32_ListView_GetItemCount_cpp, commctrl/ListView_GetItemCount, controls.ListView_GetItemCount, controls._win32_ListView_GetItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the number of items in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761044(v=VS.85).aspx">LVM_GETITEMCOUNT</a> message explicitly. 
+Gets the number of items in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/7c639d69-e42c-41b5-9fdd-4943166752a2">LVM_GETITEMCOUNT</a> message explicitly. 
 
 
 ## -parameters

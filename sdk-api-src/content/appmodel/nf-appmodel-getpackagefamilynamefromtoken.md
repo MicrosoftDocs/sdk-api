@@ -7,7 +7,7 @@ old-location: appxpkg\getpackagefamilynamefromtoken.htm
 tech.root: appxpkg
 ms.assetid: C4FAF5DE-DF1F-4AFA-813B-5D80C786031B
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: GetPackageFamilyNameFromToken, GetPackageFamilyNameFromToken function [App packaging and management], appmodel/GetPackageFamilyNameFromToken, appxpkg.getpackagefamilynamefromtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,9 +137,13 @@ For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81
 
 #### Examples
 
-
-```cpp
-/***************************************************
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>/***************************************************
 *                                                  *
 *   Copyright (C) Microsoft. All rights reserved.  *
 *                                                  *
@@ -148,31 +152,31 @@ For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81
 #define _UNICODE 1
 #define UNICODE 1
 
-#include <Windows.h>
-#include <appmodel.h>
-#include <appmodelp.h>
-#include <malloc.h>
-#include <stdlib.h>
-#include <stdio.h>
+#include &lt;Windows.h&gt;
+#include &lt;appmodel.h&gt;
+#include &lt;appmodelp.h&gt;
+#include &lt;malloc.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;stdio.h&gt;
 
 int ShowUsage();
 void ShowProcessPackageFamilyName(__in const UINT32 pid, __in HANDLE token);
 
 int ShowUsage()
 {
-    wprintf(L"Usage: GetPackageFamilyNameFromToken <pid> [<pid>...]\n");
+    wprintf(L"Usage: GetPackageFamilyNameFromToken &lt;pid&gt; [&lt;pid&gt;...]\n");
     return 1;
 }
 
 int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 {
-    if (argc <= 1)
+    if (argc &lt;= 1)
         return ShowUsage();
 
-    for (int i=1; i<argc; ++i)
+    for (int i=1; i&lt;argc; ++i)
     {
         UINT32 pid = wcstoul(argv[i], NULL, 10);
-        if (pid > 0)
+        if (pid &gt; 0)
         {
             HANDLE process = OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION, FALSE, pid);
             if (process == NULL)
@@ -180,7 +184,7 @@ int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
             else
             {
                 HANDLE token;
-                if (!OpenProcessToken(process, TOKEN_QUERY, &token))
+                if (!OpenProcessToken(process, TOKEN_QUERY, &amp;token))
                     wprintf(L"Error %d in OpenProcessToken (pid=%u)\n", GetLastError(), pid);
                 else
                 {
@@ -199,7 +203,7 @@ void ShowProcessPackageFamilyName(__in const UINT32 pid, __in HANDLE token)
     wprintf(L"Process %u (token=%p)\n", pid, token);
 
     UINT32 length = 0;
-    LONG rc = GetPackageFamilyNameFromToken(token, &length, NULL);
+    LONG rc = GetPackageFamilyNameFromToken(token, &amp;length, NULL);
     if (rc != ERROR_INSUFFICIENT_BUFFER)
     {
         if (rc == APPMODEL_ERROR_NO_PACKAGE)
@@ -216,7 +220,7 @@ void ShowProcessPackageFamilyName(__in const UINT32 pid, __in HANDLE token)
         return;
     }
 
-    rc = GetPackageFamilyNameFromToken(token, &length, familyName);
+    rc = GetPackageFamilyNameFromToken(token, &amp;length, familyName);
     if (rc != ERROR_SUCCESS)
         wprintf(L"Error %d retrieving PackageFamilyName\n", rc);
     else
@@ -224,9 +228,9 @@ void ShowProcessPackageFamilyName(__in const UINT32 pid, __in HANDLE token)
 
     free(familyName);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

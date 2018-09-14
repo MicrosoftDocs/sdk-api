@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12functionreflection_getdesc.htm
 tech.root: direct3d12
 ms.assetid: CAFBC2D0-0C1C-4D55-87A4-C7ABB52976BF
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetDesc method, ID3D12FunctionReflection.GetDesc, ID3D12FunctionReflection::GetDesc, d3d12shader/ID3D12FunctionReflection::GetDesc, direct3d12.id3d12functionreflection_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,9 +61,9 @@ Fills the function descriptor structure for the function.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn960192(v=VS.85).aspx">D3D12_FUNCTION_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/6FF99C49-B5B1-4969-86E2-828D584D1EA9">D3D12_FUNCTION_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn960192(v=VS.85).aspx">D3D12_FUNCTION_DESC</a> structure that receives a description of the function.
+A pointer to a <a href="https://msdn.microsoft.com/6FF99C49-B5B1-4969-86E2-828D584D1EA9">D3D12_FUNCTION_DESC</a> structure that receives a description of the function.
           
 
 
@@ -71,7 +71,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn960192(v=VS.8
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           

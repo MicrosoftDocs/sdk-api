@@ -4,10 +4,10 @@ title: SCardListInterfacesA function
 author: windows-sdk-content
 description: Provides a list of interfaces supplied by a given card.
 old-location: security\scardlistinterfaces.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 2460c133-3ad4-4f73-9f55-56fc3bab9cdb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: SCardListInterfaces, SCardListInterfaces function [Security], SCardListInterfacesA, SCardListInterfacesW, _smart_scardlistinterfaces, security.scardlistinterfaces, winscard/SCardListInterfaces, winscard/SCardListInterfacesA, winscard/SCardListInterfacesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,7 +113,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -137,17 +137,21 @@ The <b>SCardListInterfaces</b> function is a database query function. For more i
 
 The following example  shows listing the interfaces for a smart card.
 
-
-```cpp
-LPGUID          pGuids = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPGUID          pGuids = NULL;
 LONG            lReturn;
 DWORD           cGuid = SCARD_AUTOALLOCATE;
 
 // Retrieve the list of interfaces.
 lReturn = SCardListInterfaces(NULL,
                               (LPCSTR) "MyCard",
-                              (LPGUID)&pGuids,
-                              &cGuid );
+                              (LPGUID)&amp;pGuids,
+                              &amp;cGuid );
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardListInterfaces\n");
@@ -160,10 +164,10 @@ if ( 0 != cGuid )
     // Remember to free pGuids when done (by SCardFreeMemory).
     // ...
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

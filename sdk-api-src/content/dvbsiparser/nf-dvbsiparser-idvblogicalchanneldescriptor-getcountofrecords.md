@@ -4,10 +4,10 @@ title: IDvbLogicalChannelDescriptor::GetCountOfRecords
 author: windows-sdk-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
 old-location: mstv\idvblogicalchanneldescriptor_getcountofrecords.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 97cadf6c-2549-4a7f-9ecb-c16298769a21
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [DirectShow], GetCountOfRecords method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetCountOfRecords method, IDvbLogicalChannelDescriptor.GetCountOfRecords, IDvbLogicalChannelDescriptor::GetCountOfRecords, IDvbLogicalChannelDescriptorGetCountOfRecords, dvbsiparser/IDvbLogicalChannelDescriptor::GetCountOfRecords, mstv.idvblogicalchanneldescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

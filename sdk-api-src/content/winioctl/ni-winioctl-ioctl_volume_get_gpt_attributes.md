@@ -4,10 +4,10 @@ title: IOCTL_VOLUME_GET_GPT_ATTRIBUTES
 author: windows-sdk-content
 description: Retrieves the attributes for a volume.
 old-location: fs\ioctl_volume_get_gpt_attributes.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3e58e0d6-215a-47f3-b1bf-e8d53c224b68
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOCTL_VOLUME_GET_GPT_ATTRIBUTES, IOCTL_VOLUME_GET_GPT_ATTRIBUTES control, IOCTL_VOLUME_GET_GPT_ATTRIBUTES control code [Files], fs.ioctl_volume_get_gpt_attributes, winioctl/IOCTL_VOLUME_GET_GPT_ATTRIBUTES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,18 +55,22 @@ Retrieves the attributes for a volume.
 To perform this operation, call the 
    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
    function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,           // handle to the volume device
   IOCTL_VOLUME_GET_GPT_ATTRIBUTES, // dwIoControlCodeNULL,                       // lpInBuffer0,                          // nInBufferSize(LPVOID) lpOutBuffer,       // output buffer
   (DWORD) nOutBufferSize,     // size of output buffer
   (LPDWORD) lpBytesReturned,  // number of bytes returned
   (LPOVERLAPPED) lpOverlapped // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

@@ -7,7 +7,7 @@ old-location: cos\icrmmonitor_getclerks.htm
 tech.root: cossdk
 ms.assetid: b5802d3b-1464-4ddf-b459-a308b699de96
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetClerks, GetClerks method [COM+], GetClerks method [COM+],ICrmMonitor interface, ICrmMonitor interface [COM+],GetClerks method, ICrmMonitor.GetClerks, ICrmMonitor::GetClerks, _dtc_ICrmMonitor_GetClerks, comsvcs/ICrmMonitor::GetClerks, cos.icrmmonitor_getclerks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Retrieves a clerk collection object, which is a snapshot of the current state of
 
 ### -param pClerks [out]
 
-An <a href="https://msdn.microsoft.com/en-us/library/ms684207(v=VS.85).aspx">ICrmMonitorClerks</a> pointer to a clerks collection object.
+An <a href="https://msdn.microsoft.com/90403516-f677-4396-8991-ae621c159567">ICrmMonitorClerks</a> pointer to a clerks collection object.
 
 
 ## -returns
@@ -118,7 +118,7 @@ Recovery of the CRM log file is still in progress.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687684(v=VS.85).aspx">ICrmMonitor</a>
+<a href="https://msdn.microsoft.com/ead5f782-8512-4387-b8f3-7be960f35bbe">ICrmMonitor</a>
  
 
  

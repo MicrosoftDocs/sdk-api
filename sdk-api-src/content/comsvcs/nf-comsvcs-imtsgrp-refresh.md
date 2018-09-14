@@ -7,7 +7,7 @@ old-location: cos\imtsgrp_refresh.htm
 tech.root: cossdk
 ms.assetid: 752bda5e-d3e1-4566-90c3-aaa336479670
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMtsGrp interface [COM+],Refresh method, IMtsGrp.Refresh, IMtsGrp::Refresh, Refresh, Refresh method [COM+], Refresh method [COM+],IMtsGrp interface, _dtc_IMtsGrp_Refresh, comsvcs/IMtsGrp::Refresh, cos.imtsgrp_refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Updates the list of <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointers that was populated upon the creation of the object.
+Updates the list of <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointers that was populated upon the creation of the object.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684299(v=VS.85).aspx">IMtsGrp</a>
+<a href="https://msdn.microsoft.com/976b4f0a-79cb-4b2d-8d69-225230147c53">IMtsGrp</a>
  
 
  

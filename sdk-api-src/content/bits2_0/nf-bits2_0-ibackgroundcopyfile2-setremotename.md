@@ -4,10 +4,10 @@ title: IBackgroundCopyFile2::SetRemoteName
 author: windows-sdk-content
 description: Changes the remote name to a new URL in a download job.
 old-location: bits\ibackgroundcopyfile2_setremotename.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 6dd33b7d-4317-4eb5-aae4-83d3f4416bf9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBackgroundCopyFile2 interface [BITS],SetRemoteName method, IBackgroundCopyFile2.SetRemoteName, IBackgroundCopyFile2::SetRemoteName, SetRemoteName, SetRemoteName method [BITS], SetRemoteName method [BITS],IBackgroundCopyFile2 interface, bits.ibackgroundcopyfile2_setremotename, bits2_0/IBackgroundCopyFile2::SetRemoteName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ TBD
 
 #### - RemoteName [in]
 
-Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/en-us/library/Aa362800(v=VS.85).aspx">BG_FILE_INFO</a> structure.
+Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/bf5302e9-da8f-4c57-a998-fd49484e0584">BG_FILE_INFO</a> structure.
 					
 
 
@@ -138,7 +138,7 @@ The state of the job cannot be <b>BG_JOB_STATE_CANCELLED</b> or <b>BG_JOB_STATE_
 
  Typically, you call this method if you want to change the protocol used to transfer the file (for example, from SMB to HTTP) or if you want to change the file name or path.
 
-This method does not serialize when it returns. To serialize the change, <a href="https://msdn.microsoft.com/en-us/library/Aa363048(v=VS.85).aspx">suspend</a> the job, call this method (if changing multiple files in the job, use a loop), and <a href="https://msdn.microsoft.com/en-us/library/Aa363039(v=VS.85).aspx">resume</a> the job. Calling the <b>IBackgroundCopyJob::Resume</b> method serializes the change. 
+This method does not serialize when it returns. To serialize the change, <a href="https://msdn.microsoft.com/88429730-b8e5-4969-934c-f0945fdd46a6">suspend</a> the job, call this method (if changing multiple files in the job, use a loop), and <a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">resume</a> the job. Calling the <b>IBackgroundCopyJob::Resume</b> method serializes the change. 
 
 If the time stamp or file size of the new remote name is different from the previous remote name or the new server does not support checkpoint resume (for HTTP remote names), BITS restarts the download. Otherwise, the transfer resumes from the same position on the new server. BITS does not restart already transferred files. 
 
@@ -167,43 +167,47 @@ If the remote name identifies a server message block (SMB) path, the following t
 
 #### Examples
 
-The following example shows how to call the <b>SetRemoteName</b> method to change the remote name of a file. The example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> variable, pJob, is valid and the job contains one or more files.
+The following example shows how to call the <b>SetRemoteName</b> method to change the remote name of a file. The example assumes the <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> variable, pJob, is valid and the job contains one or more files.
 
-
-```cpp
-     IBackgroundCopyJob *pJob;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>     IBackgroundCopyJob *pJob;
      IEnumBackgroundCopyFiles* pFiles = NULL;
      IBackgroundCopyFile* pFile = NULL;
      IBackgroundCopyFile2* pFile2 = NULL;
      WCHAR* pRemoteFileName = NULL;
      ULONG cFileCount = 0;
 
-     hr = pJob->Suspend();
-     hr = pJob->EnumFiles(&pFiles);
+     hr = pJob-&gt;Suspend();
+     hr = pJob-&gt;EnumFiles(&amp;pFiles);
      if (SUCCEEDED(hr))
      {
           //Get the count of files in the job. 
-          hr = pFiles->GetCount(&cFileCount);
+          hr = pFiles-&gt;GetCount(&amp;cFileCount);
 
           //Enumerate the files in the job.
-          for (ULONG idx=0; idx<cFileCount; idx++)
+          for (ULONG idx=0; idx&lt;cFileCount; idx++)
           {
-               hr = pFiles->Next(1, &pFile, NULL);
+               hr = pFiles-&gt;Next(1, &amp;pFile, NULL);
                if (S_OK == hr)
                {
                     //Get the local name of the file.
-                    hr = pFile->GetRemoteName(&pRemoteFileName);
+                    hr = pFile-&gt;GetRemoteName(&amp;pRemoteFileName);
                     if (SUCCEEDED(hr))
                     {
                          //Determine if you want to replace the remote name of this file.
-                         if (<CONDITIONGOESHERE>)
+                         if (&lt;CONDITIONGOESHERE&gt;)
                          {
                               //Need to query the IBackgroundCopyFile interface for an IBackgroundCopyFile2
                               //interface pointer. The IBackgroundCopyFile2 interface contains the SetRemoteName method.
-                              hr = pFile->QueryInterface(__uuidof(IBackgroundCopyFile2), (void**)&pFile2);
+                              hr = pFile-&gt;QueryInterface(__uuidof(IBackgroundCopyFile2), (void**)&amp;pFile2);
                               if (S_OK == hr)
                               {
-                                   hr = pFile2->SetRemoteName(L"<NEWURLGOESHERE>");
+                                   hr = pFile2-&gt;SetRemoteName(L"&lt;NEWURLGOESHERE&gt;");
                                    if (FAILED(hr))
                                    {
                                         //Handle error. 
@@ -219,7 +223,7 @@ The following example shows how to call the <b>SetRemoteName</b> method to chang
                          }
                          CoTaskMemFree(pRemoteFileName); 
                     }    
-                    pFile->Release(); 
+                    pFile-&gt;Release(); 
                     pFile = NULL;
                }
                else
@@ -229,16 +233,16 @@ The following example shows how to call the <b>SetRemoteName</b> method to chang
                }
           }
 
-          pFiles->Release();
+          pFiles-&gt;Release();
           pFiles = NULL;
      }
 
-     hr = pJob->Resume(); //Force the job to serialize.
+     hr = pJob-&gt;Resume(); //Force the job to serialize.
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -247,11 +251,11 @@ The following example shows how to call the <b>SetRemoteName</b> method to chang
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362944(v=VS.85).aspx">IBackgroundCopyFile2</a>
+<a href="https://msdn.microsoft.com/facff24d-56a3-4a1f-a726-3442c17fe869">IBackgroundCopyFile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362993(v=VS.85).aspx">IBackgroundCopyJob3::ReplaceRemotePrefix</a>
+<a href="https://msdn.microsoft.com/5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf">IBackgroundCopyJob3::ReplaceRemotePrefix</a>
  
 
  

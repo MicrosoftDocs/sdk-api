@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_tilt.htm
 tech.root: DirectShow
 ms.assetid: e75adedb-5cf2-4b2c-bb57-1bfedfc81979
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Tilt method, ICameraControl.put_Tilt, ICameraControl::put_Tilt, ICameraControlput_Tilt, dshow.icameracontrol_put_tilt, put_Tilt, put_Tilt method [DirectShow], put_Tilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Tilt
 ms.prod: windows-hardware
 ms.technology: windows-devices

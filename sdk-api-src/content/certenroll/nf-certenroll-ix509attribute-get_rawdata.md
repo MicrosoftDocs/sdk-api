@@ -4,10 +4,10 @@ title: IX509Attribute::get_RawData
 author: windows-sdk-content
 description: Retrieves the attribute value.
 old-location: security\ix509attribute_rawdata_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: a8e67f3c-4c05-4742-8251-a03335054b2e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509Attribute interface [Security],RawData property, IX509Attribute.RawData, IX509Attribute.get_RawData, IX509Attribute::RawData, IX509Attribute::get_RawData, RawData property [Security], RawData property [Security],IX509Attribute interface, certenroll/IX509Attribute::RawData, certenroll/IX509Attribute::get_RawData, get_RawData, security.ix509attribute_rawdata_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377118(v=VS.85).aspx">Initialize</a> method to specify the property value.
+Call the <a href="https://msdn.microsoft.com/82457ca3-4aae-4f47-950c-1146c8614a5b">Initialize</a> method to specify the property value.
 
 
 
@@ -73,15 +73,15 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377118(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375929(v=VS.85).aspx">ICryptAttribute</a>
+<a href="https://msdn.microsoft.com/2aefde1b-0f77-4a88-8851-5bacd363900b">ICryptAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377058(v=VS.85).aspx">IX509Attribute</a>
+<a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85).aspx">IX509Attributes</a>
+<a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a>
  
 
  

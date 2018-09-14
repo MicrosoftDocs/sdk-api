@@ -7,7 +7,7 @@ old-location: mbn\mbn_ctrl_caps.htm
 tech.root: mbn
 ms.assetid: c4c4bb3b-76ce-4872-8ea1-d2839cbc9b1b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MBN_CTRL_CAPS, MBN_CTRL_CAPS enumeration [Microsoft Broadband Networks], MBN_CTRL_CAPS_CDMA_MOBILE_IP, MBN_CTRL_CAPS_CDMA_SIMPLE_IP, MBN_CTRL_CAPS_HW_RADIO_SWITCH, MBN_CTRL_CAPS_MODEL_MULTI_CARRIER, MBN_CTRL_CAPS_MULTI_MODE, MBN_CTRL_CAPS_NONE, MBN_CTRL_CAPS_PROTECT_UNIQUEID, MBN_CTRL_CAPS_REG_MANUAL, MBN_CTRL_CAPS_USSD, mbn.mbn_ctrl_caps, mbnapi/MBN_CTRL_CAPS, mbnapi/MBN_CTRL_CAPS_CDMA_MOBILE_IP, mbnapi/MBN_CTRL_CAPS_CDMA_SIMPLE_IP, mbnapi/MBN_CTRL_CAPS_HW_RADIO_SWITCH, mbnapi/MBN_CTRL_CAPS_MODEL_MULTI_CARRIER, mbnapi/MBN_CTRL_CAPS_MULTI_MODE, mbnapi/MBN_CTRL_CAPS_NONE, mbnapi/MBN_CTRL_CAPS_PROTECT_UNIQUEID, mbnapi/MBN_CTRL_CAPS_REG_MANUAL, mbnapi/MBN_CTRL_CAPS_USSD
 ms.prod: windows
 ms.technology: windows-sdk

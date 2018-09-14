@@ -4,10 +4,10 @@ title: RasGetAutodialParamA function
 author: windows-sdk-content
 description: The RasGetAutodialParam function retrieves the value of an AutoDial parameter.
 old-location: rras\rasgetautodialparam.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 49f0f944-49e7-4836-bf56-0fef07f39191
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: RASADP_ConnectionQueryTimeout, RASADP_DisableConnectionQuery, RASADP_FailedConnectionTimeout, RASADP_LoginSessionDisable, RASADP_SavedAddressesLimit, RasGetAutodialParam, RasGetAutodialParam function [RAS], RasGetAutodialParamA, RasGetAutodialParamW, _ras_rasgetautodialparam, ras/RasGetAutodialParam, ras/RasGetAutodialParamA, ras/RasGetAutodialParamW, rras.rasgetautodialparam
 ms.prod: windows-hardware
 ms.technology: windows-devices

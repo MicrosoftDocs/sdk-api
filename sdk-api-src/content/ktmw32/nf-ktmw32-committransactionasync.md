@@ -4,10 +4,10 @@ title: CommitTransactionAsync function
 author: windows-sdk-content
 description: Requests that the specified transaction be committed.
 old-location: fs\committransactionasync.htm
-tech.root: ktm
+tech.root: Ktm
 ms.assetid: cc0f4314-e216-490b-a49a-14bb850e0762
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CommitTransactionAsync, CommitTransactionAsync function [Files], fs.committransactionasync, ktmw32/CommitTransactionAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

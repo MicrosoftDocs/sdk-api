@@ -7,7 +7,7 @@ old-location: security\icertencodebitstring_decode.htm
 tech.root: seccrypto
 ms.assetid: 65856db4-97db-4c9b-ac12-1a9262c7b4e9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CCertEncodeBitString object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeBitString object, Decode method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],Decode method, ICertEncodeBitString.Decode, ICertEncodeBitString::Decode, _certsrv_icertencodebitstring_decode, certenc/ICertEncodeBitString::Decode, security.icertencodebitstring_decode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,9 +51,9 @@ req.redist:
 ## -description
 
 
-The <b>Decode</b> method decodes an <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1)-encoded bit string and stores the resulting bit string in this object. You can then call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383893(v=VS.85).aspx">ICertEncodeBitString::GetBitCount</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383899(v=VS.85).aspx">ICertEncodeBitString::GetBitString</a> methods to retrieve the bit string and its size.
+The <b>Decode</b> method decodes an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1)-encoded bit string and stores the resulting bit string in this object. You can then call the 
+<a href="https://msdn.microsoft.com/9fbaaf03-02b8-4c6f-8cc2-3fd897fdc81d">ICertEncodeBitString::GetBitCount</a> and 
+<a href="https://msdn.microsoft.com/d0c6c501-3aaa-42ab-a077-69f6d24f1eff">ICertEncodeBitString::GetBitString</a> methods to retrieve the bit string and its size.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ An ASN.1-encoded bit string.
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+<a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -88,7 +88,7 @@ Use this method to decode an encoded bit string.
 
 #### Examples
 
-For an example that calls the <b>Decode</b> method, see the <a href="https://msdn.microsoft.com/en-us/library/Aa383878(v=VS.85).aspx">ICertEncodeBitString::Encode</a> method.
+For an example that calls the <b>Decode</b> method, see the <a href="https://msdn.microsoft.com/2dc74ab4-8f40-4e0d-a18e-ba9c99d5bf94">ICertEncodeBitString::Encode</a> method.
 
 <div class="code"></div>
 
@@ -99,11 +99,11 @@ For an example that calls the <b>Decode</b> method, see the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383767(v=VS.85).aspx">ICertEncodeBitString</a>
+<a href="https://msdn.microsoft.com/51178b67-46da-49f8-9bd7-a500e846e0a8">ICertEncodeBitString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383878(v=VS.85).aspx">ICertEncodeBitString::Encode</a>
+<a href="https://msdn.microsoft.com/2dc74ab4-8f40-4e0d-a18e-ba9c99d5bf94">ICertEncodeBitString::Encode</a>
  
 
  

@@ -4,10 +4,10 @@ title: GetIpStatistics function
 author: windows-sdk-content
 description: The GetIpStatistics function retrieves the IP statistics for the current computer.
 old-location: iphlp\getipstatistics.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 15daaa34-2011-462a-9543-f8d7ccb9f6fd
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetIpStatistics, GetIpStatistics function [IP Helper], _iphlp_getipstatistics, iphlp.getipstatistics, iphlpapi/GetIpStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,16 +120,20 @@ The
 
 The following example retrieves the IPv4 statistics for the local computer and prints values from the returned data.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <iphlpapi.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "iphlpapi.lib")
 
@@ -157,7 +161,7 @@ int main()
     } else {
 
         wprintf(L"IP forwarding: \t\t" );
-        switch (pStats->dwForwarding) {
+        switch (pStats-&gt;dwForwarding) {
         case MIB_IP_FORWARDING: 
             wprintf(L"Enabled\n");
             break;
@@ -165,39 +169,39 @@ int main()
             wprintf(L"Disabled\n");
             break;
         default: 
-            wprintf(L"unknown value = %d\n", pStats->dwForwarding);
+            wprintf(L"unknown value = %d\n", pStats-&gt;dwForwarding);
             break;
         }
         
-        wprintf(L"Default initial TTL: \t\t\t\t\t%u\n", pStats->dwDefaultTTL);
+        wprintf(L"Default initial TTL: \t\t\t\t\t%u\n", pStats-&gt;dwDefaultTTL);
 
-        wprintf(L"Number of received datagrams: \t\t\t\t%u\n", pStats->dwInReceives);
-        wprintf(L"Number of received datagrams with header errors: \t%u\n", pStats->dwInHdrErrors);
-        wprintf(L"Number of received datagrams with address errors: \t%u\n", pStats->dwInAddrErrors);
+        wprintf(L"Number of received datagrams: \t\t\t\t%u\n", pStats-&gt;dwInReceives);
+        wprintf(L"Number of received datagrams with header errors: \t%u\n", pStats-&gt;dwInHdrErrors);
+        wprintf(L"Number of received datagrams with address errors: \t%u\n", pStats-&gt;dwInAddrErrors);
 
-        wprintf(L"Number of datagrams forwarded: \t\t\t\t%ld\n", pStats->dwForwDatagrams);
+        wprintf(L"Number of datagrams forwarded: \t\t\t\t%ld\n", pStats-&gt;dwForwDatagrams);
 
-        wprintf(L"Number of received datagrams with an unknown protocol: \t%u\n", pStats->dwInUnknownProtos);
-        wprintf(L"Number of received datagrams discarded: \t\t%u\n", pStats->dwInDiscards);
-        wprintf(L"Number of received datagrams delivered: \t\t%u\n", pStats->dwInDelivers);
+        wprintf(L"Number of received datagrams with an unknown protocol: \t%u\n", pStats-&gt;dwInUnknownProtos);
+        wprintf(L"Number of received datagrams discarded: \t\t%u\n", pStats-&gt;dwInDiscards);
+        wprintf(L"Number of received datagrams delivered: \t\t%u\n", pStats-&gt;dwInDelivers);
 
-        wprintf(L"Number of outgoing datagrams requested to transmit: \t%u\n", pStats->dwOutRequests);
-        wprintf(L"Number of outgoing datagrams discarded for routing: \t%u\n", pStats->dwRoutingDiscards);
-        wprintf(L"Number of outgoing datagrams discarded: \t\t%u\n", pStats->dwOutDiscards);
-        wprintf(L"Number of outgoing datagrams with no route to destination discarded: %u\n", pStats->dwOutNoRoutes);
+        wprintf(L"Number of outgoing datagrams requested to transmit: \t%u\n", pStats-&gt;dwOutRequests);
+        wprintf(L"Number of outgoing datagrams discarded for routing: \t%u\n", pStats-&gt;dwRoutingDiscards);
+        wprintf(L"Number of outgoing datagrams discarded: \t\t%u\n", pStats-&gt;dwOutDiscards);
+        wprintf(L"Number of outgoing datagrams with no route to destination discarded: %u\n", pStats-&gt;dwOutNoRoutes);
 
-        wprintf(L"Fragment reassembly timeout: \t\t\t\t%u\n", pStats->dwReasmTimeout);
-        wprintf(L"Number of datagrams that required reassembly: \t\t%u\n", pStats->dwReasmReqds);
-        wprintf(L"Number of datagrams successfully reassembled: \t\t%u\n", pStats->dwReasmOks);
-        wprintf(L"Number of datagrams that could not be reassembled: \t%u\n", pStats->dwReasmFails);
+        wprintf(L"Fragment reassembly timeout: \t\t\t\t%u\n", pStats-&gt;dwReasmTimeout);
+        wprintf(L"Number of datagrams that required reassembly: \t\t%u\n", pStats-&gt;dwReasmReqds);
+        wprintf(L"Number of datagrams successfully reassembled: \t\t%u\n", pStats-&gt;dwReasmOks);
+        wprintf(L"Number of datagrams that could not be reassembled: \t%u\n", pStats-&gt;dwReasmFails);
 
-        wprintf(L"Number of datagrams fragmented successfully: \t\t%u\n", pStats->dwFragOks);
-        wprintf(L"Number of datagrams not fragmented and discarded: \t%u\n", pStats->dwFragFails);
-        wprintf(L"Number of fragments created: \t\t\t\t%u\n", pStats->dwFragCreates);
+        wprintf(L"Number of datagrams fragmented successfully: \t\t%u\n", pStats-&gt;dwFragOks);
+        wprintf(L"Number of datagrams not fragmented and discarded: \t%u\n", pStats-&gt;dwFragFails);
+        wprintf(L"Number of fragments created: \t\t\t\t%u\n", pStats-&gt;dwFragCreates);
 
-        wprintf(L"Number of interfaces: \t\t\t\t\t%u\n", pStats->dwNumIf);
-        wprintf(L"Number of IP addresses: \t\t\t\t%u\n", pStats->dwNumAddr);
-        wprintf(L"Number of routes: \t\t\t\t\t%u\n", pStats->dwNumRoutes);
+        wprintf(L"Number of interfaces: \t\t\t\t\t%u\n", pStats-&gt;dwNumIf);
+        wprintf(L"Number of IP addresses: \t\t\t\t%u\n", pStats-&gt;dwNumAddr);
+        wprintf(L"Number of routes: \t\t\t\t\t%u\n", pStats-&gt;dwNumRoutes);
     }
 
 // Free memory allocated for the MIB_IPSTATS structure
@@ -206,10 +210,10 @@ int main()
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

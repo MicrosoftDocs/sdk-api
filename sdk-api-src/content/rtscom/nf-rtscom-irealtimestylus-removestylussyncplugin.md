@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_removestylussyncplugin.htm
 tech.root: tablet
 ms.assetid: 5f04dc8a-c0f5-47fd-a814-490e1dfe2cf8
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: 5f04dc8a-c0f5-47fd-a814-490e1dfe2cf8, IRealTimeStylus interface [Tablet PC],RemoveStylusSyncPlugin method, IRealTimeStylus.RemoveStylusSyncPlugin, IRealTimeStylus::RemoveStylusSyncPlugin, RemoveStylusSyncPlugin, RemoveStylusSyncPlugin method [Tablet PC], RemoveStylusSyncPlugin method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::RemoveStylusSyncPlugin, tablet.irealtimestylus_removestylussyncplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,14 +93,18 @@ The synchronous and asynchronous plug-in collections on <a href="https://msdn.mi
 
 The following C++ code example implements an event handler for a <b>CheckBox Control (Windows Forms)</b>. Depending on the checked state of the control, represented by the <code>m_btnPacketFilter</code> member variable, the function either adds or removes the plug-in represented by the global <code>g_pPacketModifier</code> variable.
 
-
-```cpp
-void CCOMRTSDlg::OnBnClickedCheckPacketFilter()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void CCOMRTSDlg::OnBnClickedCheckPacketFilter()
 {
 	HRESULT hr;
 	IStylusSyncPlugin* pSyncPlugin;
 
-	hr = g_pPacketModifier->QueryInterface(IID_IStylusSyncPlugin, reinterpret_cast<void**>(&pSyncPlugin));
+	hr = g_pPacketModifier-&gt;QueryInterface(IID_IStylusSyncPlugin, reinterpret_cast&lt;void**&gt;(&amp;pSyncPlugin));
 
 	if (SUCCEEDED(hr))
 	{
@@ -108,20 +112,20 @@ void CCOMRTSDlg::OnBnClickedCheckPacketFilter()
 		{
 			// If the checkbox is checked, add the 
 			// Packet Modifier plugin to the RealTimeStylus
-			hr = g_pRealTimeStylus->AddStylusSyncPlugin(0, pSyncPlugin);
+			hr = g_pRealTimeStylus-&gt;AddStylusSyncPlugin(0, pSyncPlugin);
 		}
 		else
 		{
 			// If the checkbox is not checked, remove the 
 			// Packet Modifier plugin from the RealTimeStylus
-			hr = g_pRealTimeStylus->RemoveStylusSyncPlugin(0, &pSyncPlugin);
+			hr = g_pRealTimeStylus-&gt;RemoveStylusSyncPlugin(0, &amp;pSyncPlugin);
 		}
 	}
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

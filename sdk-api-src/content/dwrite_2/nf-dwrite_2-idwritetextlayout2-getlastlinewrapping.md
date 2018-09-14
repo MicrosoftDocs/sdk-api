@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextlayout2_getlastlinewrapping.htm
 tech.root: DirectWrite
 ms.assetid: ACB83321-C193-41E6-84D8-493334E30885
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: GetLastLineWrapping, GetLastLineWrapping method [Direct Write], GetLastLineWrapping method [Direct Write],IDWriteTextLayout2 interface, IDWriteTextLayout2 interface [Direct Write],GetLastLineWrapping method, IDWriteTextLayout2.GetLastLineWrapping, IDWriteTextLayout2::GetLastLineWrapping, directwrite.idwritetextlayout2_getlastlinewrapping, dwrite_2/IDWriteTextLayout2::GetLastLineWrapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

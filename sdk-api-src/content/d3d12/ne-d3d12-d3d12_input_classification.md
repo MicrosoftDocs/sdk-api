@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_input_classification.htm
 tech.root: direct3d12
 ms.assetid: 09A14704-2E0B-4994-BED4-94F933A47317
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: D3D12_INPUT_CLASSIFICATION, D3D12_INPUT_CLASSIFICATION enumeration, D3D12_INPUT_CLASSIFICATION_PER_INSTANCE_DATA, D3D12_INPUT_CLASSIFICATION_PER_VERTEX_DATA, d3d12/D3D12_INPUT_CLASSIFICATION, d3d12/D3D12_INPUT_CLASSIFICATION_PER_INSTANCE_DATA, d3d12/D3D12_INPUT_CLASSIFICATION_PER_VERTEX_DATA, direct3d12.d3d12_input_classification
 ms.prod: windows
 ms.technology: windows-sdk

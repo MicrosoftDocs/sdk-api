@@ -4,10 +4,10 @@ title: NetworkIsolationGetAppContainerConfig function
 author: windows-sdk-content
 description: Is used to retrieve configuration information about one or more app containers.
 old-location: ics\networkisolationgetappcontainerconfig.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 5ddb9dde-c989-4235-9784-af3168b7a151
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: NetworkIsolationGetAppContainerConfig, NetworkIsolationGetAppContainerConfig function [ICS/ICF], ics.networkisolationgetappcontainerconfig, networkisolation/NetworkIsolationGetAppContainerConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,11 +92,15 @@ Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
 Note that it is the calling program's responsibility to free the memory associated with the PSID_AND_ATTRIBUTES structure. The following code sample shows how to call this function. The FreeAppContainerConfig function shows how to free all of the associated memory.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #include "stdafx.h"
-#include <netfw.h>
+#include &lt;netfw.h&gt;
 
 typedef DWORD
 (WINAPI *FN_NETWORKISOLATIONGETAPPCONTAINERCONFIG)(
@@ -112,7 +116,7 @@ FreeAppContainerConfig(
 {
     DWORD dwIndex = 0;
 
-    for (dwIndex = 0; dwIndex < sidCount; dwIndex++)
+    for (dwIndex = 0; dwIndex &lt; sidCount; dwIndex++)
     {
         HeapFree(GetProcessHeap(), 0, srcSidAttrib[dwIndex].Sid);
     }
@@ -146,8 +150,8 @@ int _tmain(int argc, _TCHAR* argv[])
     }
 
     dwErr = pfnNetworkIsolationGetAppContainerConfig(
-        &dwCount, 
-        &appContainerSids
+        &amp;dwCount, 
+        &amp;appContainerSids
         );
     if (dwErr != ERROR_SUCCESS)
     {
@@ -170,9 +174,9 @@ Cleanup:
 
 	return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

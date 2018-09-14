@@ -4,10 +4,10 @@ title: RpcServerInqCallAttributesA function
 author: windows-sdk-content
 description: The RpcServerInqCallAttributes function is an RPC server call that obtains client security context attributes.
 old-location: rpc\rpcserverinqcallattributes.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 563b70ed-bc9a-40be-a77b-17b993cc64f3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: RpcServerInqCallAttributes, RpcServerInqCallAttributes function [RPC], RpcServerInqCallAttributesA, RpcServerInqCallAttributesW, _rpc_rpcserverinqcallattributes, rpc.rpcserverinqcallattributes, rpcasync/RpcServerInqCallAttributes, rpcasync/RpcServerInqCallAttributesA, rpcasync/RpcServerInqCallAttributesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,18 +109,22 @@ The
 
 #### Examples
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>RPC_CALL_ATTRIBUTES CallAttributes;  // this maps to RPC_CALL_ATTRIBUTES_V1
 
-```cpp
-RPC_CALL_ATTRIBUTES CallAttributes;  // this maps to RPC_CALL_ATTRIBUTES_V1
-
-memset(&CallAttributes, 0, sizeof(CallAttributes));
+memset(&amp;CallAttributes, 0, sizeof(CallAttributes));
 CallAttributes.Version = RPC_CALL_ATTRIBUTES_VERSION;    // maps to 1
 CallAttributes.Flags = ;//....
-Status = RpcServerInqCallAttributes(0, &ClientContextAttributes);
-
-```
-
-
+Status = RpcServerInqCallAttributes(0, &amp;ClientContextAttributes);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

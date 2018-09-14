@@ -4,10 +4,10 @@ title: WinHttpReceiveResponse function
 author: windows-sdk-content
 description: The WinHttpReceiveResponse function waits to receive the response to an HTTP request initiated by WinHttpSendRequest.
 old-location: http\winhttpreceiveresponse.htm
-tech.root: WinHttp
+tech.root: winhttp
 ms.assetid: 0b79e73b-9f6a-42eb-9108-1ba142ad7c48
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/11/2018
 ms.keywords: WinHttpReceiveResponse, WinHttpReceiveResponse function [WinHTTP], http.winhttpreceiveresponse, winhttp.winhttpreceiveresponse_function, winhttp/WinHttpReceiveResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -279,7 +279,7 @@ Returned when an incoming response exceeds an internal WinHTTP size limit.
 </td>
 <td width="60%">
 One or more errors were found in the Secure Sockets Layer (SSL) certificate sent by the server.  To determine what type of error was encountered, check for a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383917(v=VS.85).aspx">WINHTTP_CALLBACK_STATUS_SECURE_FAILURE</a> notification in a status callback function.  For more information, see 
+<a href="internet_status_callback_prototype.htm">WINHTTP_CALLBACK_STATUS_SECURE_FAILURE</a> notification in a status callback function.  For more information, see 
 <a href="https://msdn.microsoft.com/4d828e41-9073-407a-aab5-531f1d6d6d02">WINHTTP_STATUS_CALLBACK</a>.
 
 </td>
@@ -353,9 +353,13 @@ If the server closes the connection, the following notifications will also be re
 
 This example shows code that  writes data to an HTTP server.  The server name supplied in the example, www.wingtiptoys.com, is fictitious and must be replaced with the name of a server for which you have write access.
 
-
-```cpp
-    LPSTR pszData = "WinHttpWriteData Example";
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    LPSTR pszData = "WinHttpWriteData Example";
     DWORD dwBytesWritten = 0;
     BOOL  bResults = FALSE;
     HINTERNET hSession = NULL,
@@ -392,7 +396,7 @@ This example shows code that  writes data to an HTTP server.  The server name su
     if (bResults)
         bResults = WinHttpWriteData( hRequest, pszData, 
                                      (DWORD)strlen(pszData), 
-                                     &dwBytesWritten);
+                                     &amp;dwBytesWritten);
 
     // End the request.
     if (bResults)
@@ -407,10 +411,10 @@ This example shows code that  writes data to an HTTP server.  The server name su
     if (hRequest) WinHttpCloseHandle(hRequest);
     if (hConnect) WinHttpCloseHandle(hConnect);
     if (hSession) WinHttpCloseHandle(hSession);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

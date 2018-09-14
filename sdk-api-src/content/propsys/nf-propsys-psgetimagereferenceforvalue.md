@@ -7,7 +7,7 @@ old-location: properties\PSGetImageReferenceForValue.htm
 tech.root: properties
 ms.assetid: E37AF2ED-E3F9-4e50-9317-9DAF03AC543F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: PSGetImageReferenceForValue, PSGetImageReferenceForValue function [Windows Properties], _shell_PSGetImageReferenceForValue, properties.PSGetImageReferenceForValue, propsys/PSGetImageReferenceForValue, shell.PSGetImageReferenceForValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Gets an instance of a property description interface for a specified property.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure that specifies the property.
+A reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure that specifies the property.
 
 
 ### -param propvar [in]

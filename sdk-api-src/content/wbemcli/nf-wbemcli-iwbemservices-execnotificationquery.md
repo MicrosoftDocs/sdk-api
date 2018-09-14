@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_execnotificationquery.htm
 tech.root: WmiSdk
 ms.assetid: fe547660-4095-4a75-829d-f06599c0d9d7
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: ExecNotificationQuery, ExecNotificationQuery method [Windows Management Instrumentation], ExecNotificationQuery method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecNotificationQuery method, IWbemServices.ExecNotificationQuery, IWbemServices::ExecNotificationQuery, WBEM_FLAG_FORWARD_ONLY, WBEM_FLAG_RETURN_IMMEDIATELY, _hmm_iwbemservices_execnotificationquery, wbemcli/IWbemServices::ExecNotificationQuery, wmi.iwbemservices_execnotificationquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,7 +115,7 @@ Typically <b>NULL</b>. Otherwise, this is a pointer to an
 
 If no error occurs, this parameter receives the enumerator that allows the caller to retrieve the instances in the result set of the query. The caller periodically calls 
 <a href="https://msdn.microsoft.com/8bde633b-b04a-4a21-82ce-f5aab1d32d95">IEnumWbemClassObject::Next</a> to see if any events are available. Notice that, in this usage, 
-<a href="https://msdn.microsoft.com/571b7067-676f-4e9e-9694-268ec10dc60b">Reset</a> does not move the enumerator back to the beginning of the event sequence; it has no effect. The parameter can continue to receive events until <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> is called on the returned enumerator.
+<a href="https://msdn.microsoft.com/571b7067-676f-4e9e-9694-268ec10dc60b">Reset</a> does not move the enumerator back to the beginning of the event sequence; it has no effect. The parameter can continue to receive events until <a href="_com_iunknown_release">Release</a> is called on the returned enumerator.
 
 
 ## -returns

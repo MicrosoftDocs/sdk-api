@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_setcertificateextension.htm
 tech.root: seccrypto
 ms.assetid: aed8b621-3881-41fe-b7a3-657fecdab351
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CCertServerPolicy object [Security],SetCertificateExtension method, EXTENSION_CRITICAL_FLAG, EXTENSION_DISABLE_FLAG, ICertServerPolicy interface [Security],SetCertificateExtension method, ICertServerPolicy.SetCertificateExtension, ICertServerPolicy::SetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCertificateExtension, SetCertificateExtension method [Security], SetCertificateExtension method [Security],CCertServerPolicy object, SetCertificateExtension method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcertificateextension, certif/ICertServerPolicy::SetCertificateExtension, security.icertserverpolicy_setcertificateextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The <b>SetCertificateExtension</b> method adds a new extension to the certificat
 
 ### -param strExtensionName [in]
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) for the extension to set. The string must be 31 or less nonnull characters in length.
+Specifies the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) for the extension to set. The string must be 31 or less nonnull characters in length.
 
 
 ### -param Type [in]
@@ -229,7 +229,7 @@ VT_BSTR
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -238,10 +238,10 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-Use extensions to include additional information with the certificate, such as supplemental subject or usage information. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa382414(v=VS.85).aspx">Extension Handlers</a>.
+Use extensions to include additional information with the certificate, such as supplemental subject or usage information. For more information, see <a href="https://msdn.microsoft.com/fb106cab-8a61-4a83-8fb4-7c045d905575">Extension Handlers</a>.
 
-Call the <b>SetCertificateExtension</b> method from your implementation of the <a href="https://msdn.microsoft.com/en-us/library/Aa385039(v=VS.85).aspx">ICertPolicy2::VerifyRequest</a> method. You must call 
-the <a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">ICertServerPolicy::SetContext</a> method before calling the <b>SetCertificateExtension</b> method.
+Call the <b>SetCertificateExtension</b> method from your implementation of the <a href="https://msdn.microsoft.com/860f0eb0-5b23-44bd-8416-687a94962f1b">ICertPolicy2::VerifyRequest</a> method. You must call 
+the <a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">ICertServerPolicy::SetContext</a> method before calling the <b>SetCertificateExtension</b> method.
 
 
 
@@ -251,11 +251,11 @@ the <a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">IC
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385080(v=VS.85).aspx">ICertServerPolicy</a>
+<a href="https://msdn.microsoft.com/7d16161e-9827-46a0-9989-30ebca792bb1">ICertServerPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">ICertServerPolicy::SetContext</a>
+<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">ICertServerPolicy::SetContext</a>
  
 
  

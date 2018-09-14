@@ -4,10 +4,10 @@ title: ISdoDictionaryOld::EnumAttributeValues
 author: windows-sdk-content
 description: The EnumAttributeValues method retrieves the values for an enumerable attribute.
 old-location: nps\SDO_isdodictionaryold_enumattributevalues.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: e46dc286-5316-49c2-a384-b486efc80d2a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumAttributeValues, EnumAttributeValues method [Network Policy Server], EnumAttributeValues method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],EnumAttributeValues method, ISdoDictionaryOld.EnumAttributeValues, ISdoDictionaryOld::EnumAttributeValues, _sdo_isdodictionaryold_enumattributevalues, nps.SDO_isdodictionaryold_enumattributevalues, sdo.isdodictionaryold_enumattributevalues, sdoias/ISdoDictionaryOld::EnumAttributeValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,15 +67,15 @@ Specifies the ID of the attribute.
 ### -param pValueIds [out]
 
 On successful return points to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> of value IDs for the enumerable attribute. If the attribute is not enumerable, points to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VT_EMPTY</a> variant.
+<a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> of value IDs for the enumerable attribute. If the attribute is not enumerable, points to a 
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VT_EMPTY</a> variant.
 
 
 ### -param pValuesDesc [out]
 
 On successful return points to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> of value descriptions for the enumerable attribute. If the attribute is not enumerable, points to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VT_EMPTY</a> variant.
+<a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> of value descriptions for the enumerable attribute. If the attribute is not enumerable, points to a 
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VT_EMPTY</a> variant.
 
 
 ## -returns

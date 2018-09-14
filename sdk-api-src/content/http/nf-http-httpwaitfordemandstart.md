@@ -4,10 +4,10 @@ title: HttpWaitForDemandStart function
 author: windows-sdk-content
 description: Waits for the arrival of a new request that can be served by a new request queue process.
 old-location: http\httpwaitfordemandstart.htm
-tech.root: http
+tech.root: Http
 ms.assetid: e6bc4d24-5495-44cc-81ee-e5213095f3e4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HttpWaitForDemandStart, HttpWaitForDemandStart function [HTTP], http.httpwaitfordemandstart, http/HttpWaitForDemandStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

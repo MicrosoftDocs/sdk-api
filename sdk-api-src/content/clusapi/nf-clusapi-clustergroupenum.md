@@ -7,7 +7,7 @@ old-location: mscs\clustergroupenum.htm
 tech.root: mscs
 ms.assetid: fffcae88-8df0-487f-9f6d-bc3560283ef1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, ClusterGroupEnum, ClusterGroupEnum function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_ENUM, PCLUSAPI_CLUSTER_GROUP_ENUM function [Failover Cluster], _wolf_clustergroupenum, clusapi/ClusterGroupEnum, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM, mscs.clustergroupenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,12 +131,12 @@ Note that <i>lpcchName</i> refers to a count of characters and not a count of by
 Do not call <b>ClusterGroupEnum</b> from any resource DLL 
      entry point function. <b>ClusterGroupEnum</b> can safely be 
      called from a worker thread. For more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">Enumerating Objects</a>.
+See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">Enumerating Objects</a>.
 
 <div class="code"></div>
 
@@ -155,7 +155,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">En
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369686(v=VS.85).aspx">Group Management Functions</a>
+<a href="https://msdn.microsoft.com/a2336594-ac24-476e-94e8-460a31c1f643">Group Management Functions</a>
  
 
  

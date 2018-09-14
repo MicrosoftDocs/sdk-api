@@ -7,7 +7,7 @@ old-location: parcon\wpcflag_logoff_type.htm
 tech.root: parcon
 ms.assetid: 1c375477-70ab-49da-93d0-d52346d0dc7b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WPCFLAG_LOGOFF_TYPE, WPCFLAG_LOGOFF_TYPE enumeration, WPCFLAG_LOGOFF_TYPE_FORCEDFUS, WPCFLAG_LOGOFF_TYPE_FUS, WPCFLAG_LOGOFF_TYPE_LOGOUT, WPCFLAG_LOGOFF_TYPE_RESTART, WPCFLAG_LOGOFF_TYPE_SHUTDOWN, parcon.wpcflag_logoff_type, tagWPCFLAG_LOGOFF_TYPE, wpcevent/WPCFLAG_LOGOFF_TYPE, wpcevent/WPCFLAG_LOGOFF_TYPE_FORCEDFUS, wpcevent/WPCFLAG_LOGOFF_TYPE_FUS, wpcevent/WPCFLAG_LOGOFF_TYPE_LOGOUT, wpcevent/WPCFLAG_LOGOFF_TYPE_RESTART, wpcevent/WPCFLAG_LOGOFF_TYPE_SHUTDOWN
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothsdpgetelementdata.htm
 tech.root: bluetooth
 ms.assetid: 65de8f2f-1781-44fa-87a9-21aa461eb8ee
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: BluetoothSdpGetElementData, BluetoothSdpGetElementData function [Bluetooth], bluetooth.bluetoothsdpgetelementdata, bluetoothapis/BluetoothSdpGetElementData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,23 +89,23 @@ Returns <b>ERROR_SUCCESS</b> when the SDP element is parsed correctly. Returns <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362885(v=VS.85).aspx">BluetoothSdpEnumAttributes</a>
+<a href="https://msdn.microsoft.com/3113db03-a32f-47ad-a442-3769f41ee8e7">BluetoothSdpEnumAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362887(v=VS.85).aspx">BluetoothSdpGetContainerElementData</a>
+<a href="https://msdn.microsoft.com/7dbf44f6-8a80-419e-9db7-60ada9ca9647">BluetoothSdpGetContainerElementData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362890(v=VS.85).aspx">BluetoothSdpGetString</a>
+<a href="https://msdn.microsoft.com/26a68fe3-6ffb-44ff-b9db-757d35022a41">BluetoothSdpGetString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363054(v=VS.85).aspx">SDP_ELEMENT_DATA</a>
+<a href="https://msdn.microsoft.com/9c9d6103-cc49-41d2-bbb3-6b6888fb93e7">SDP_ELEMENT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363055(v=VS.85).aspx">SDP_STRING_TYPE_DATA</a>
+<a href="https://msdn.microsoft.com/16ff7951-08a7-49c5-93a5-0782cca50dab">SDP_STRING_TYPE_DATA</a>
  
 
  

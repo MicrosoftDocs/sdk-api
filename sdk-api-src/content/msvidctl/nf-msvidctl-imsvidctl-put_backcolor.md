@@ -4,10 +4,10 @@ title: IMSVidCtl::put_BackColor
 author: windows-sdk-content
 description: The put_BackColor method specifies the background color of the Video Control.
 old-location: mstv\imsvidctl_put_backcolor.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: d2812c19-2b69-46a8-98ab-7e1eee43f383
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_BackColor method, IMSVidCtl.put_BackColor, IMSVidCtl::put_BackColor, IMSVidCtlput_BackColor, mstv.imsvidctl_put_backcolor, msvidctl/IMSVidCtl::put_BackColor, put_BackColor, put_BackColor method [Microsoft TV Technologies], put_BackColor method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,15 +81,19 @@ The Video Control uses the background color when the filter graph is stopped or 
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 COLORREF orange = RGB(0xFF, 0x80, 0x00);
-hr = pVideoControl->put_BackColor(static_cast<OLE_COLOR>(orange));
-
-```
-
-
+hr = pVideoControl-&gt;put_BackColor(static_cast&lt;OLE_COLOR&gt;(orange));
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: wsw\wsreadelement.htm
 tech.root: wsw
 ms.assetid: 88e0cc4d-ae24-46af-998d-fdbfbcc1be64
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WsReadElement, WsReadElement function [Web Services for Windows], webservices/WsReadElement, wsw.wsreadelement
 ms.prod: windows-hardware
 ms.technology: windows-devices

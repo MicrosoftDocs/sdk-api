@@ -7,7 +7,7 @@ old-location: mscs\maintenance_mode_type_enum.htm
 tech.root: mscs
 ms.assetid: b71f6a3b-4c9d-49f9-b60f-ee4c4fb6b169
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*PMAINTENANCE_MODE_TYPE_ENUM, MAINTENANCE_MODE_TYPE_ENUM, MAINTENANCE_MODE_TYPE_ENUM enumeration [Failover Cluster], MaintenanceModeTypeDisableIsAliveCheck, MaintenanceModeTypeOfflineResource, MaintenanceModeTypeUnclusterResource, PMAINTENANCE_MODE_TYPE_ENUM, PMAINTENANCE_MODE_TYPE_ENUM enumeration pointer [Failover Cluster], _MAINTENANCE_MODE_TYPE_ENUM, clusapi/MAINTENANCE_MODE_TYPE_ENUM, clusapi/MaintenanceModeTypeDisableIsAliveCheck, clusapi/MaintenanceModeTypeOfflineResource, clusapi/MaintenanceModeTypeUnclusterResource, clusapi/PMAINTENANCE_MODE_TYPE_ENUM, mscs.maintenance_mode_type_enum"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,11 +78,11 @@ Indicates the server has released ownership of the storage resource.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309201(v=VS.85).aspx">CLUS_MAINTENANCE_MODE_INFOEX</a>
+<a href="https://msdn.microsoft.com/d68b187d-39c5-42d3-b268-d5061da257c4">CLUS_MAINTENANCE_MODE_INFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 

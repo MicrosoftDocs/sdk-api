@@ -4,10 +4,10 @@ title: ICertificateAttestationChallenge::Initialize
 author: windows-sdk-content
 description: Initialize using the full Certificate Management over CMS (CMC) response returned from the CA.
 old-location: security\icertificateattestationchallenge_initialize.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: d4dbda92-4523-4adb-9b88-b2bc763570fd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICertificateAttestationChallenge interface [Security],Initialize method, ICertificateAttestationChallenge.Initialize, ICertificateAttestationChallenge::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::Initialize, security.icertificateattestationchallenge_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Initialize using the full <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate Management over CMS</a> (CMC) response returned from the CA.
+Initialize using the full <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Management over CMS</a> (CMC) response returned from the CA.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Initialize using the full <a href="https://msdn.microsoft.com/en-us/library/ms72
 
 ### -param Encoding [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa374936(v=VS.85).aspx">EncodingType</a> enumeration value that specifies the type of Unicode-encoding applied to the  response. The default value is XCN_CRYPT_STRING_BASE64.
+An <a href="https://msdn.microsoft.com/b42628ae-deed-497b-a20f-d175843b79c2">EncodingType</a> enumeration value that specifies the type of Unicode-encoding applied to the  response. The default value is XCN_CRYPT_STRING_BASE64.
 
 
 ### -param strPendingFullCmcResponseWithChallenge [in]
@@ -91,7 +91,7 @@ The CA should have returned a pending CMC response. The content of the CMC respo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379339(v=VS.85).aspx">ICertificateAttestationChallenge</a>
+<a href="https://msdn.microsoft.com/3b8d3104-5824-4801-9b74-59307e650662">ICertificateAttestationChallenge</a>
  
 
  

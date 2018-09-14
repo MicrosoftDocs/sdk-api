@@ -4,10 +4,10 @@ title: IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired
 author: windows-sdk-content
 description: Gets a flag from a LicenseRenewalResult event that indicates whether the client should check the entitlement token from the license. The client can call the IBDA_ConditionalAccessEx::CheckEntitlementToken method to validate the entitlement token.
 old-location: mstv\ieslicenserenewalresultevent_ischeckentitlementcallrequired.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: e19375c6-5999-43e9-9d91-3237b900cb07
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IESLicenseRenewalResultEvent interface [DirectShow],IsCheckEntitlementCallRequired method, IESLicenseRenewalResultEvent.IsCheckEntitlementCallRequired, IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired, IsCheckEntitlementCallRequired, IsCheckEntitlementCallRequired method [DirectShow], IsCheckEntitlementCallRequired method [DirectShow],IESLicenseRenewalResultEvent interface, mstv.ieslicenserenewalresultevent_ischeckentitlementcallrequired, tuner/IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices

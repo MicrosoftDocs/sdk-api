@@ -7,7 +7,7 @@ old-location: tsf\itfrange_insertembedded.htm
 tech.root: TSF
 ms.assetid: 95b8622d-c934-4293-abb4-9eface451be5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITfRange interface [Text Services Framework],InsertEmbedded method, ITfRange.InsertEmbedded, ITfRange::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITfRange interface, _tsf_itfrange_insertembedded_ref, msctf/ITfRange::InsertEmbedded, tsf.itfrange_insertembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -171,7 +171,7 @@ The document or the location of the range cannot be modified.
 
 
 
-Use this method to insert objects into the text stream, because the <a href="https://msdn.microsoft.com/fa53c1f1-50eb-45eb-b2ea-f236a376d41a">TF_CHAR_EMBEDDED</a> object placeholder character cannot be passed into <a href="https://msdn.microsoft.com/797d96a1-0250-4e8d-a4bd-31152fd6eca7">ITfRange::SetText</a>. This method is modeled after the OLE clipboard API, with applications using <i>pDataObject</i> as they would an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> returned from OleGetClipboard.
+Use this method to insert objects into the text stream, because the <a href="https://msdn.microsoft.com/fa53c1f1-50eb-45eb-b2ea-f236a376d41a">TF_CHAR_EMBEDDED</a> object placeholder character cannot be passed into <a href="https://msdn.microsoft.com/797d96a1-0250-4e8d-a4bd-31152fd6eca7">ITfRange::SetText</a>. This method is modeled after the OLE clipboard API, with applications using <i>pDataObject</i> as they would an <a href="_ole_idataobject">IDataObject</a> returned from OleGetClipboard.
 
 When a range covers multiple regions, the method should be called on each region separately. Otherwise, the method might fail.
 
@@ -187,7 +187,7 @@ To determine in advance whether a context owner supports insertion of a particul
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

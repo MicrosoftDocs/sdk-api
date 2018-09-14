@@ -4,10 +4,10 @@ title: IEncoderAPI::GetDefaultValue
 author: windows-sdk-content
 description: The GetDefaultValue method retrieves the default value for a parameter, if one exists.
 old-location: mstv\iencoderapi_getdefaultvalue.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 86eb8008-6d1c-4de7-8a88-b42f33ca24d3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetDefaultValue, GetDefaultValue method [Microsoft TV Technologies], GetDefaultValue method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetDefaultValue method, IEncoderAPI.GetDefaultValue, IEncoderAPI::GetDefaultValue, IEncoderAPIGetDefaultValue, mstv.iencoderapi_getdefaultvalue, strmif/IEncoderAPI::GetDefaultValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

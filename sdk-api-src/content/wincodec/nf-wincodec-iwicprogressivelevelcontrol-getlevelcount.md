@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicprogressivelevelcontrol_getlevelcount.htm
 tech.root: wic
 ms.assetid: f7949d31-c679-43ea-aa07-5f9f8579b4f7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetLevelCount, GetLevelCount method [Windows Imaging Component], GetLevelCount method [Windows Imaging Component],IWICProgressiveLevelControl interface, IWICProgressiveLevelControl interface [Windows Imaging Component],GetLevelCount method, IWICProgressiveLevelControl.GetLevelCount, IWICProgressiveLevelControl::GetLevelCount, _wic_codec_iwicprogressivelevelcontrol_getlevelcount, wic._wic_codec_iwicprogressivelevelcontrol_getlevelcount, wincodec/IWICProgressiveLevelControl::GetLevelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,19 +85,23 @@ Users should not use this function to iterate through the progressive levels of 
 
 #### Examples
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IWICProgressiveLevelControl *pProgressive = NULL;
 
-```
-IWICProgressiveLevelControl *pProgressive = NULL;
-
-HRESULT hr = (pBitmapFrame->QueryInterface(
+HRESULT hr = (pBitmapFrame-&gt;QueryInterface(
    IID_IWICProgressiveLevelControl, 
-   (void**) &pProgressive));
+   (void**) &amp;pProgressive));
                 
 if (SUCCEEDED(hr))
 {
    for (UINT uCurrentLevel = 0; SUCCEEDED(hr); uCurrentLevel++)
    {
-      hr = pProgressive->SetCurrentLevel(uCurrentLevel);
+      hr = pProgressive-&gt;SetCurrentLevel(uCurrentLevel);
       if (WINCODEC_ERR_INVALIDPROGRESSIVELEVEL == hr)
       {
          // No more levels
@@ -107,18 +111,18 @@ if (SUCCEEDED(hr))
       if (SUCCEEDED(hr))
       {
          // Output the current level
-         hr = pBitmapFrame->CopyPixels(...);
+         hr = pBitmapFrame-&gt;CopyPixels(...);
       }                      
    }
 }
 
 if (pProgressive)
 {
-   pProgressive->Release();
-}
-```
-
-
+   pProgressive-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: IRichEditUiaInformation
 author: windows-sdk-content
 description: Provides Microsoft UI Automation accessibility information about a windowless rich edit control.
 old-location: controls\irichedituiainformation.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: BEED428C-6C88-45A8-948C-77288B817C49
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IRichEditUiaInformation, IRichEditUiaInformation interface [Windows Controls], IRichEditUiaInformation interface [Windows Controls],described, controls.irichedituiainformation, textserv/IRichEditUiaInformation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: p2p\peergrouppasswordjoin.htm
 tech.root: p2psdk
 ms.assetid: aff8a462-a4cf-462b-a641-b1573311037b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerGroupPasswordJoin, PeerGroupPasswordJoin function [Peer Networking], p2p.peergrouppasswordjoin, p2p/PeerGroupPasswordJoin
 ms.prod: windows-hardware
 ms.technology: windows-devices

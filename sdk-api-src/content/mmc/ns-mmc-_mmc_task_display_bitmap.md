@@ -7,7 +7,7 @@ old-location: mmc\mmc_task_display_bitmap.htm
 tech.root: mmc
 ms.assetid: 9895eef1-7870-4092-8bf9-c13f38b74173
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: MMC_TASK_DISPLAY_BITMAP, MMC_TASK_DISPLAY_BITMAP structure [MMC], _MMC_TASK_DISPLAY_BITMAP, _slate_mmc_task_display_bitmap, mmc.mmc_task_display_bitmap, mmc/MMC_TASK_DISPLAY_BITMAP
 ms.prod: windows
 ms.technology: windows-sdk

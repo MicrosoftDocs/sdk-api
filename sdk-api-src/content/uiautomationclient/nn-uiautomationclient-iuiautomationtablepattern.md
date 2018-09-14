@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTablePattern.htm
 tech.root: WinAuto
 ms.assetid: a393b323-31f9-4f31-abdb-7a0fb7c8ab96
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/13/2018
 ms.keywords: IUIAutomationTablePattern, IUIAutomationTablePattern interface [Windows Accessibility], IUIAutomationTablePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTablePattern, uiauto_IUIAutomationTablePattern, uiautomationclient/IUIAutomationTablePattern, winauto.uiauto_IUIAutomationTablePattern
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_dsgetshader.htm
 tech.root: direct3d11
 ms.assetid: b04a9640-e28e-419e-9a8c-02685e7a0883
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 23ad23d5-5ea9-e2f1-ce64-770b35bc0586, DSGetShader, DSGetShader method [Direct3D 11], DSGetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DSGetShader method, ID3D11DeviceContext.DSGetShader, ID3D11DeviceContext::DSGetShader, d3d11/ID3D11DeviceContext::DSGetShader, direct3d11.id3d11devicecontext_dsgetshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,14 @@ Address of a pointer to a domain shader (see <a href="https://msdn.microsoft.com
 
 ### -param ppClassInstances [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476353(v=VS.85).aspx">ID3D11ClassInstance</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/70d006d2-5c47-4e8a-9a14-b5475d88ac32">ID3D11ClassInstance</a>**</b>
 
-Pointer to an array of class instance interfaces (see <a href="https://msdn.microsoft.com/en-us/library/Ff476353(v=VS.85).aspx">ID3D11ClassInstance</a>).
+Pointer to an array of class instance interfaces (see <a href="https://msdn.microsoft.com/70d006d2-5c47-4e8a-9a14-b5475d88ac32">ID3D11ClassInstance</a>).
 
 
 ### -param pNumClassInstances [in, out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 The number of class-instance elements in the array.
 
@@ -103,7 +103,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

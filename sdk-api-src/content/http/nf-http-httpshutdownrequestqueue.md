@@ -4,10 +4,10 @@ title: HttpShutdownRequestQueue function
 author: windows-sdk-content
 description: Stops queuing requests for the specified request queue process.
 old-location: http\httpshutdownrequestqueue.htm
-tech.root: http
+tech.root: Http
 ms.assetid: f6640565-a5a1-4a71-938c-1adf54beb40a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HttpShutdownRequestQueue, HttpShutdownRequestQueue function [HTTP], http.httpshutdownrequestqueue, http/HttpShutdownRequestQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

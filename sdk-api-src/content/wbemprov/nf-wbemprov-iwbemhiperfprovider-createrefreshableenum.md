@@ -7,7 +7,7 @@ old-location: wmi\iwbemhiperfprovider_createrefreshableenum.htm
 tech.root: WmiSdk
 ms.assetid: 086a1717-b6e8-45c1-9397-ec894ee900a0
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: CreateRefreshableEnum, CreateRefreshableEnum method [Windows Management Instrumentation], CreateRefreshableEnum method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefreshableEnum method, IWbemHiPerfProvider.CreateRefreshableEnum, IWbemHiPerfProvider::CreateRefreshableEnum, _hmm_iwbemhiperfprovider_createrefreshableenum, wbemprov/IWbemHiPerfProvider::CreateRefreshableEnum, wmi.iwbemhiperfprovider_createrefreshableenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The
 ### -param pNamespace [in]
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any requests made by the provider. If <i>pNamespace</i> must call back into Windows Management during its execution, the provider calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on this pointer.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any requests made by the provider. If <i>pNamespace</i> must call back into Windows Management during its execution, the provider calls <a href="_com_iunknown_addref">AddRef</a> on this pointer.
 
 
 ### -param wszClass [in]
@@ -132,9 +132,13 @@ The provider must not access the enumerator unless WMI calls the
 The following code example describes how to implement 
 <b>CreateRefreshableEnum</b>.
 
-
-```cpp
-HRESULT CHiPerfProvider::CreateRefreshableEnum(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CHiPerfProvider::CreateRefreshableEnum(
   /* [in] */IWbemServices *pNamespace,
   /* [in] */LPCWSTR wszClass,
   /* [in] */IWbemRefresher *pRefresher,
@@ -148,28 +152,28 @@ HRESULT CHiPerfProvider::CreateRefreshableEnum(
   // to talk with the refresher.
   IMyRefresher* pMyRefr = NULL;
 
-  HRESULT hres = pRefresher->QueryInterface(
+  HRESULT hres = pRefresher-&gt;QueryInterface(
     IID_IMyRefresher,
-    (void**) &pMyRefr );
+    (void**) &amp;pMyRefr );
 
   if ( SUCCEEDED( hres ) )
   {
   LPLONG plLastId;
     // Generates a unique identifier
-    *plId = InterlockedIncrement( &plLastId );
+    *plId = InterlockedIncrement( &amp;plLastId );
 
     // Use an internal method to add the
     // enumerator to an array.
-    pMyRefr->AddEnum( wszClass, *plId, pEnum );
+    pMyRefr-&gt;AddEnum( wszClass, *plId, pEnum );
 
-    pMyRefr->Release();
+    pMyRefr-&gt;Release();
   }
 
   return hres;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

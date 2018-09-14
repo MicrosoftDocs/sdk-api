@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10asynchronous_end.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10asynchronous_end.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 453b6ede-999a-d914-5698-e6749585c82e, End, End method [Direct3D 10], End method [Direct3D 10],ID3D10Asynchronous interface, ID3D10Asynchronous interface [Direct3D 10],End method, ID3D10Asynchronous.End, ID3D10Asynchronous::End, d3d10/ID3D10Asynchronous::End, direct3d10.id3d10asynchronous_end
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,8 +74,8 @@ Returns nothing.
 
 
 
-Calling <a href="https://msdn.microsoft.com/en-us/library/Bb173501(v=VS.85).aspx">ID3D10Asynchronous::Begin</a> starts the asynchronous collection of GPU data. Calling <b>ID3D10Asynchronous::End</b> causes data 
-      collection to stop. See <a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a> for additional information.
+Calling <a href="https://msdn.microsoft.com/53ae44d0-822b-4fc9-ac77-814ac73eb08a">ID3D10Asynchronous::Begin</a> starts the asynchronous collection of GPU data. Calling <b>ID3D10Asynchronous::End</b> causes data 
+      collection to stop. See <a href="https://msdn.microsoft.com/71ed9ae8-d1a1-442c-ac0f-6b4ede613bfb">ID3D10Asynchronous Interface</a> for additional information.
 
 
 
@@ -85,7 +85,7 @@ Calling <a href="https://msdn.microsoft.com/en-us/library/Bb173501(v=VS.85).aspx
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a>
+<a href="https://msdn.microsoft.com/71ed9ae8-d1a1-442c-ac0f-6b4ede613bfb">ID3D10Asynchronous Interface</a>
  
 
  

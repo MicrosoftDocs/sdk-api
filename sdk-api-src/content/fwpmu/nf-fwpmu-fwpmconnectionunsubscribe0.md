@@ -4,10 +4,10 @@ title: FwpmConnectionUnsubscribe0 function
 author: windows-sdk-content
 description: Is used to cancel a connection object change event subscription and stop receiving notifications.
 old-location: fwp\fwpmconnectionunsubscribe0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: b9fc4c7f-5cbd-4c85-9317-2aa027d3bcde
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FwpmConnectionUnsubscribe0, FwpmConnectionUnsubscribe0 function [Filtering], fwp.fwpmconnectionunsubscribe0, fwpmu/FwpmConnectionUnsubscribe0
 ms.prod: windows-hardware
 ms.technology: windows-devices

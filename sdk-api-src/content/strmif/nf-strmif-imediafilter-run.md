@@ -7,7 +7,7 @@ old-location: dshow\imediafilter_run.htm
 tech.root: DirectShow
 ms.assetid: ec422312-bbc2-4b66-b2cd-1a9eebd1eee1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IMediaFilter interface [DirectShow],Run method, IMediaFilter.Run, IMediaFilter::Run, IMediaFilterRun, Run, Run method [DirectShow], Run method [DirectShow],IMediaFilter interface, dshow.imediafilter_run, strmif/IMediaFilter::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: CreateHardLinkW function
 author: windows-sdk-content
 description: Establishes a hard link between an existing file and a new file.
 old-location: fs\createhardlink.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 9b0d3f04-775f-44ea-b563-93dee29a278a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateHardLink, CreateHardLink function [Files], CreateHardLinkA, CreateHardLinkW, _win32_createhardlink, base.createhardlink, fs.createhardlink, winbase/CreateHardLink, winbase/CreateHardLinkA, winbase/CreateHardLinkW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -231,9 +231,13 @@ The following code snippet shows you how to call
     or any existing link to a file. After this code is executed, <i>pszNewLinkName</i> refers to 
     the file.
 
-
-```cpp
-  BOOL fCreatedLink = CreateHardLink( pszNewLinkName, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>  BOOL fCreatedLink = CreateHardLink( pszNewLinkName, 
                                       pszExistingFileName, 
                                       NULL ); // reserved, must be NULL
 
@@ -241,10 +245,10 @@ The following code snippet shows you how to call
    {
     ;// handle error condition
    }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

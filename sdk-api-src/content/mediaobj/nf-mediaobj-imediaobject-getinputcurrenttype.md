@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_getinputcurrenttype.htm
 tech.root: DirectShow
 ms.assetid: 81d5c1b8-086c-422d-b2d7-85728507888d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: GetInputCurrentType, GetInputCurrentType method [DirectShow], GetInputCurrentType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputCurrentType method, IMediaObject.GetInputCurrentType, IMediaObject::GetInputCurrentType, IMediaObjectGetInputCurrentType, dshow.imediaobject_getinputcurrenttype, mediaobj/IMediaObject::GetInputCurrentType
 ms.prod: windows-hardware
 ms.technology: windows-devices

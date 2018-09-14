@@ -7,7 +7,7 @@ old-location: iscsidisc\setiscsiikeinfo.htm
 tech.root: iSCSIDisc
 ms.assetid: db020346-45cf-4944-9776-81bb38c7ee6a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SetIScsiIKEInfoA, SetIscsiIKEInfo, SetIscsiIKEInfo function [iSCSI Discovery Library API], SetIscsiIKEInfoA, SetIscsiIKEInfoW, iscsidisc.setiscsiikeinfo, iscsidsc/SetIscsiIKEInfo, iscsidsc/SetIscsiIKEInfoA, iscsidsc/SetIscsiIKEInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

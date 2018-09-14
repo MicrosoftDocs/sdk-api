@@ -7,7 +7,7 @@ old-location: p2p\peercollabenumobjects.htm
 tech.root: p2psdk
 ms.assetid: a9ac2603-b007-4d1c-ac11-c72aeb06e663
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerCollabEnumObjects, PeerCollabEnumObjects function [Peer Networking], p2p.peercollabenumobjects, p2p/PeerCollabEnumObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

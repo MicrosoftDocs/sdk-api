@@ -7,7 +7,7 @@ old-location: indexsrv\cipropertydef.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0ucm.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/30/2018
 ms.keywords: CIPROPERTYDEF, CIPROPERTYDEF structure [Indexing Service], _idxs_CIPROPERTYDEF, indexsrv.cipropertydef, ntquery/CIPROPERTYDEF, tagCIPROPERTYDEF
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Represents the friendly name, type, and property identifier (ID) information.
 
@@ -62,17 +62,17 @@ Represents the friendly name, type, and property identifier (ID) information.
 
 ### -field wcsFriendlyName
 
-The friendly name for a property. The friendly name can be used in an Indexing Service query, column list, or sort order parsed by the <a href="https://msdn.microsoft.com/en-us/library/ms690937(v=VS.85).aspx">CITextToSelectTree</a> function and the <a href="https://msdn.microsoft.com/en-us/library/ms690933(v=VS.85).aspx">CITextToFullTree</a> function. Friendly names must be entered in uppercase.
+The friendly name for a property. The friendly name can be used in an Indexing Service query, column list, or sort order parsed by the <a href="https://msdn.microsoft.com/333fb241-f484-4d79-89cd-9b1d8240b8a8">CITextToSelectTree</a> function and the <a href="https://msdn.microsoft.com/679b96f7-43b3-44c1-86dd-e995bb9a9c53">CITextToFullTree</a> function. Friendly names must be entered in uppercase.
 
 
 ### -field dbType
 
-The data type for the property. This type is used when building a <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure for a restriction node. The same property with different friendly names can have different types. Its value must be either an OLE DB <b>DBTYPE</b> type or a <b>PROPVARIANT</b> variant type.
+The data type for the property. This type is used when building a <a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a> structure for a restriction node. The same property with different friendly names can have different types. Its value must be either an OLE DB <b>DBTYPE</b> type or a <b>PROPVARIANT</b> variant type.
 
 
 ### -field dbCol
 
-The property ID for the property. Indexing Service properties must be either DBKIND_GUID_NAME or DBKIND_GUID_PROPID. See <a href="https://msdn.microsoft.com/en-us/library/ms689908(v=VS.85).aspx">DBID</a>.
+The property ID for the property. Indexing Service properties must be either DBKIND_GUID_NAME or DBKIND_GUID_PROPID. See <a href="https://msdn.microsoft.com/076f4603-8621-4c32-b4d7-cf8507d240a8">DBID</a>.
 
 
 ## -see-also
@@ -80,19 +80,19 @@ The property ID for the property. Indexing Service properties must be either DBK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690933(v=VS.85).aspx">CITextToFullTree</a>
+<a href="https://msdn.microsoft.com/679b96f7-43b3-44c1-86dd-e995bb9a9c53">CITextToFullTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690937(v=VS.85).aspx">CITextToSelectTree</a>
+<a href="https://msdn.microsoft.com/333fb241-f484-4d79-89cd-9b1d8240b8a8">CITextToSelectTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a>
+<a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689908(v=VS.85).aspx">DBID</a>
+<a href="https://msdn.microsoft.com/076f4603-8621-4c32-b4d7-cf8507d240a8">DBID</a>
  
 
  

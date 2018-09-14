@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_53c8.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: IFaxStatus interface [Fax Service],Refresh method, IFaxStatus.Refresh, IFaxStatus::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_refresh, fax._mfax_ifaxstatus_mfax_ifaxstatus_refresh_cpp, fax._mfax_ifaxstatus_refresh, faxcom/IFaxStatus::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

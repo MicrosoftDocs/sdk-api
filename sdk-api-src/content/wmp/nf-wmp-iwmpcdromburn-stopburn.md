@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromburn_stopburn.htm
 tech.root: WMP
 ms.assetid: cf001a08-97e9-4f88-919a-54651e3bfd5d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],stopBurn method, IWMPCdromBurn.stopBurn, IWMPCdromBurn::stopBurn, IWMPCdromBurnstopBurn, stopBurn, stopBurn method [Windows Media Player], stopBurn method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_stopburn, wmp/IWMPCdromBurn::stopBurn
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MI_Session_EnumerateClasses function
 author: windows-sdk-content
 description: Enumerates the classes of a specified session.
 old-location: wmi_v2\mi_session_enumerateclasses.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: eab78b29-2066-45ba-8e94-eb5dba322c23
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Session_EnumerateClasses, MI_Session_EnumerateClasses function [Windows Management Infrastructure (MI)], mi/MI_Session_EnumerateClasses, wmi_v2.mi_session_enumerateclasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IOfflineFilesProgress::Begin
 author: windows-sdk-content
 description: Reports that an operation has begun.
 old-location: of\iofflinefilesprogress_begin.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: d3fe6abf-fc0c-4bba-9c9f-5d0e77c27b43
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Begin, Begin method [Offline Files], Begin method [Offline Files],IOfflineFilesProgress interface, IOfflineFilesProgress interface [Offline Files],Begin method, IOfflineFilesProgress.Begin, IOfflineFilesProgress::Begin, cscobj/IOfflineFilesProgress::Begin, of.iofflinefilesprogress_begin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
  
 
  
