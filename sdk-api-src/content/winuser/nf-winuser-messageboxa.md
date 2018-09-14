@@ -638,19 +638,19 @@ The following system icons can be used in a message box by setting the <i>uType<
 <th>Flag values</th>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONHAND, MB_ICONSTOP, and MB_ICONERROR" src="images/MB_ICONHAND.png"/></td>
+<td><img alt="Icon for MB_ICONHAND, MB_ICONSTOP, and MB_ICONERROR" src="./images/MB_ICONHAND.png"/></td>
 <td><b>MB_ICONHAND</b>, <b>MB_ICONSTOP</b>, or <b>MB_ICONERROR</b></td>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONQUESTION" src="images/MB_ICONQUESTION.png"/></td>
+<td><img alt="Icon for MB_ICONQUESTION" src="./images/MB_ICONQUESTION.png"/></td>
 <td><b>MB_ICONQUESTION</b></td>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONEXCLAMATION and MB_ICONWARNING" src="images/MB_ICONEXCLAMATION.png"/></td>
+<td><img alt="Icon for MB_ICONEXCLAMATION and MB_ICONWARNING" src="./images/MB_ICONEXCLAMATION.png"/></td>
 <td><b>MB_ICONEXCLAMATION</b> or <b>MB_ICONWARNING</b></td>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONASTERISK and MB_ICONINFORMATION" src="images/MB_ICONASTERISK.png"/></td>
+<td><img alt="Icon for MB_ICONASTERISK and MB_ICONINFORMATION" src="./images/MB_ICONASTERISK.png"/></td>
 <td><b>MB_ICONASTERISK</b> or <b>MB_ICONINFORMATION</b></td>
 </tr>
 </table>
@@ -702,7 +702,7 @@ In the following example, the application displays a message box that prompts th
 </table></span></div>
 The following image shows the output from the preceding code example:
 
-<img alt="Message box" src="images/MessageBox_02.png"/>
+<img alt="Message box" src="./images/MessageBox_02.png"/>
 
 For another message box example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Displaying a Message Box</a>.
 

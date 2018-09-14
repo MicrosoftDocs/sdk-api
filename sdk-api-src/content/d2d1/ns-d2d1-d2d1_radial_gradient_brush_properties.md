@@ -92,7 +92,7 @@ In the brush's coordinate space, the y-radius  of the gradient ellipse.
 
 Different values for <i>center</i>,  <i>gradientOriginOffset</i>,  <i>radiusX</i> and/or <i>radiusY</i> produce different gradients.   The following illustration shows several radial gradients that have different gradient origin offsets, creating the appearance of the light illuminating the circles from different angles.
 
-<img alt="Illustration of four circles with radial gradients that have different origin offsets" src="images/RadialGradient.png"/>
+<img alt="Illustration of four circles with radial gradients that have different origin offsets" src="./images/RadialGradient.png"/>
 
 For convenience, Direct2D provides the <a href="https://msdn.microsoft.com/en-us/library/Dd372341(v=VS.85).aspx">D2D1::RadialGradientBrushProperties</a> function for creating new <b>D2D1_RADIAL_GRADIENT_BRUSH</b> structures.
 
@@ -101,7 +101,7 @@ For convenience, Direct2D provides the <a href="https://msdn.microsoft.com/en-us
 
 The following example calls <a href="https://msdn.microsoft.com/en-us/library/Dd742842(v=VS.85).aspx">CreateRadialGradientBrush</a> to create an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a>. It uses the <a href="https://msdn.microsoft.com/en-us/library/Dd372341(v=VS.85).aspx">D2D1::RadialGradientBrushProperties</a> helper function to create a <b>D2D1_RADIAL_GRADIENT_BRUSH</b> structure that has a <i>center</i> value of (75, 5), a <i>gradientOriginOffset</i> of (0, 0), and a <i>radiusX</i> and <i>radiusY</i> of to 75 and passes the structure to the <b>CreateRadialGradientBrush</b> method.   When the gradient brush is used to fill a rectangle, it produces output as shown in the following illustration.
 
-<img alt="Illustration of a circle with a radial gradient brush" src="images/brushes_ovw_radials.png"/>
+<img alt="Illustration of a circle with a radial gradient brush" src="./images/brushes_ovw_radials.png"/>
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

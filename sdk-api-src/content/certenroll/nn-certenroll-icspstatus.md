@@ -119,7 +119,7 @@ An <b>ICspStatus</b> object contains information about a  cryptographic provider
 
 Because cryptographic providers typically support more than one algorithm, multiple <b>ICspStatus</b> objects may be created and returned when you call any of the preceding properties or methods that return a collection. This is shown by the following  illustration:
 
-<img alt="Structure of the ICspStatuses collection showing individual ICspStatus objects" src="images/ICSPStatuses.png"/>
+<img alt="Structure of the ICspStatuses collection showing individual ICspStatus objects" src="./images/ICSPStatuses.png"/>
 
 You can use the <a href="https://msdn.microsoft.com/en-us/library/Aa376775(v=VS.85).aspx">EnrollmentStatus</a> property on an <b>ICspStatus</b> object to retrieve an <a href="https://msdn.microsoft.com/en-us/library/Aa377818(v=VS.85).aspx">IX509EnrollmentStatus</a> object that defines the following properties:<ul>
 <li>The <a href="https://msdn.microsoft.com/en-us/library/Aa377826(v=VS.85).aspx">Display</a> property specifies whether the provider/algorithm pair can be displayed in a user interface.</li>

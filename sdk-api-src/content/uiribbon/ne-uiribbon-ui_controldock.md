@@ -62,14 +62,14 @@ Specifies values that identify the dock state of the Quick Access Toolbar (QAT).
 
 The QAT is docked in the nonclient area of the Ribbon host application, as shown in the following screen shot.
 
-<img alt="Screen shot showing the Quick Access Toolbar docked above the Ribbon in the nonclient area." src="images/Properties/QAT_DockTop.png"/>
+<img alt="Screen shot showing the Quick Access Toolbar docked above the Ribbon in the nonclient area." src="./images/QAT_DockTop.png"/>
 
 
 ### -field UI_CONTROLDOCK_BOTTOM
 
 The QAT is docked as a visually integral band below the Ribbon, as shown in the following screen shot.
 
-<img alt="Screen shot showing the Quick Access Toolbar docked below the Ribbon." src="images/Properties/QAT_DockBottom.png"/>
+<img alt="Screen shot showing the Quick Access Toolbar docked below the Ribbon." src="./images/QAT_DockBottom.png"/>
 
 
 ## -remarks

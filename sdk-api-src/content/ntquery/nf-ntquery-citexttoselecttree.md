@@ -224,7 +224,7 @@ The following diagram shows the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<img alt="" src="images/dbcmdtr1.png"/>
+<img alt="" src="./images/dbcmdtr1.png"/>
 <div class="code"></div>
 
 

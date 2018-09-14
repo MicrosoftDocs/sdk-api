@@ -217,7 +217,7 @@ Returns the created <a href="https://msdn.microsoft.com/en-us/library/Dn890726(v
 
 The following image shows the numbering of control points in a Coons patch.
 
-<img alt="Numbering of control points in a Coons patch" src="images/coonspatch.png"/>
+<img alt="Numbering of control points in a Coons patch" src="./images/coonspatch.png"/>
 
 
 
