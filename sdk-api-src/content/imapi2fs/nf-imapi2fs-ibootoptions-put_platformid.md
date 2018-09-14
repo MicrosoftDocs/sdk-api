@@ -7,7 +7,7 @@ old-location: imapi\ibootoptions_put_platformid.htm
 tech.root: imapi
 ms.assetid: 295f3a3c-0f01-4b9b-b73c-48f075e6a33a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBootOptions interface [IMAPI],put_PlatformId method, IBootOptions.put_PlatformId, IBootOptions::put_PlatformId, imapi.ibootoptions_put_platformid, imapi2fs/IBootOptions::put_PlatformId, put_PlatformId, put_PlatformId method [IMAPI], put_PlatformId method [IMAPI],IBootOptions interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\resutilgetcoreclusterresources.htm
 tech.root: mscs
 ms.assetid: cadfeaf7-951f-4fc7-96fa-2e256e52a370
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES, PRESUTIL_GET_CORE_CLUSTER_RESOURCES function [Failover Cluster], ResUtilGetCoreClusterResources, ResUtilGetCoreClusterResources function [Failover Cluster], _wolf_resutilgetcoreclusterresources, mscs.resutilgetcoreclusterresources, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES, resapi/ResUtilGetCoreClusterResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

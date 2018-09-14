@@ -7,7 +7,7 @@ old-location: setup\msiprovideassembly.htm
 tech.root: msi
 ms.assetid: 9d7deb0b-f247-4af0-ba94-4d40c2f31109
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NODETECTION_ANY, INSTALLMODE_NOSOURCERESOLUTION, MSIASSEMBLYINFO_NETASSEMBLY, MSIASSEMBLYINFO_WIN32ASSEMBLY, MsiProvideAssembly, MsiProvideAssembly function, MsiProvideAssemblyA, MsiProvideAssemblyW, _msi_msiprovideassembly, combination of the REINSTALLMODE flags, msi/MsiProvideAssembly, msi/MsiProvideAssemblyA, msi/MsiProvideAssemblyW, setup.msiprovideassembly
 ms.prod: windows-hardware
 ms.technology: windows-devices

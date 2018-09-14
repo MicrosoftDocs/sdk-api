@@ -4,10 +4,10 @@ title: IMSVidClosedCaptioning2
 author: windows-sdk-content
 description: The IMSVidClosedCaptioning2 interface sets the closed captioning service, such as CC1 or CC2. The MSVidClosedCaptioning feature exposes this interface.
 old-location: mstv\imsvidclosedcaptioning2.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 37fe213a-7778-4448-937d-30ad1015d56c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidClosedCaptioning2, IMSVidClosedCaptioning2 interface [Microsoft TV Technologies], IMSVidClosedCaptioning2 interface [Microsoft TV Technologies],described, IMSVidClosedCaptioning2Interface, mstv.imsvidclosedcaptioning2, segment/IMSVidClosedCaptioning2
 ms.prod: windows
 ms.technology: windows-sdk

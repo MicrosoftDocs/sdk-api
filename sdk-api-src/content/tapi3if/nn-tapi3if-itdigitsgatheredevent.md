@@ -4,10 +4,10 @@ title: ITDigitsGatheredEvent
 author: windows-sdk-content
 description: The ITDigitsGatheredEvent interface exposes methods that allow an application to retrieve data when the TAPI Server sends an event indicating that the Server has gathered digits required by the application.
 old-location: tapi3\itdigitsgatheredevent.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 2d710bea-a0fd-492b-81a3-03b741685c91
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITDigitsGatheredEvent, ITDigitsGatheredEvent interface [TAPI 2.2], ITDigitsGatheredEvent interface [TAPI 2.2],described, _tapi3_itdigitsgatheredevent, tapi3.itdigitsgatheredevent, tapi3if/ITDigitsGatheredEvent
 ms.prod: windows
 ms.technology: windows-sdk

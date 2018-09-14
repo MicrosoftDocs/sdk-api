@@ -7,7 +7,7 @@ old-location: adsi\iadsaccesscontrollist.htm
 tech.root: ADSI
 ms.assetid: de92d9cc-bc9d-4dc5-aa79-01f4d3050c35
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: AccessControlList, IADsAccessControlList, IADsAccessControlList interface [ADSI], IADsAccessControlList interface [ADSI],described, _ds_iadsaccesscontrollist, adsi.iadsaccesscontrollist, iads/IADsAccessControlList
 ms.prod: windows
 ms.technology: windows-sdk

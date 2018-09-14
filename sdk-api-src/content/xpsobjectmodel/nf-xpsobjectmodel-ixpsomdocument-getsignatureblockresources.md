@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocument_getsignatureblockresources.htm
 tech.root: printdocs
 ms.assetid: 87be3040-6113-4876-a847-93620207647f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetSignatureBlockResources, GetSignatureBlockResources method [XPS Documents and Packaging], GetSignatureBlockResources method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetSignatureBlockResources method, IXpsOMDocument.GetSignatureBlockResources, IXpsOMDocument::GetSignatureBlockResources, xps.ixpsomdocument_getsignatureblockresources, xpsobjectmodel/IXpsOMDocument::GetSignatureBlockResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

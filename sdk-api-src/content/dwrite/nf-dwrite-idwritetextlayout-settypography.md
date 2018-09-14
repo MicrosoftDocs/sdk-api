@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_SetTypography.htm
 tech.root: DirectWrite
 ms.assetid: ee0702fb-a3ff-442b-bd3b-6ff35fcba0ec
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetTypography method, IDWriteTextLayout.SetTypography, IDWriteTextLayout::SetTypography, SetTypography, SetTypography method [Direct Write], SetTypography method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetTypography, dwrite/IDWriteTextLayout::SetTypography
 ms.prod: windows-hardware
 ms.technology: windows-devices

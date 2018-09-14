@@ -4,10 +4,10 @@ title: ID2D1GradientMesh
 author: windows-sdk-content
 description: Represents a device-dependent representation of a gradient mesh composed of patches. Use the ID2D1DeviceContext2::CreateGradientMesh method to create an instance of ID2D1GradientMesh.
 old-location: direct2d\id2d1gradientmesh.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0c51da97-7b70-d828-2a4d-cb62ff378a56
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID2D1GradientMesh, ID2D1GradientMesh interface [Direct2D], ID2D1GradientMesh interface [Direct2D],described, d2d1_3/ID2D1GradientMesh, direct2d.id2d1gradientmesh
 ms.prod: windows
 ms.technology: windows-sdk

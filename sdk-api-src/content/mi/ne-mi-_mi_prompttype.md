@@ -4,10 +4,10 @@ title: "_MI_PromptType"
 author: windows-sdk-content
 description: Defines prompt types for the CIM extensions.
 old-location: wmi_v2\mi_prompttype.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 183f40ed-214f-4468-8036-7753ae18575b
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_PROMPTTYPE_CRITICAL, MI_PROMPTTYPE_NORMAL, MI_PromptType, MI_PromptType enumeration [Windows Management Infrastructure (MI)], _MI_PromptType, mi/MI_PROMPTTYPE_CRITICAL, mi/MI_PROMPTTYPE_NORMAL, mi/MI_PromptType, wmi._mi_prompttype, wmi_v2.mi_prompttype
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IMSVidEVR::get_SuppressEffects
 author: windows-sdk-content
 description: The get_SuppressEffects method queries whether the Video Control configures the system for optimal video playback
 old-location: mstv\imsvidevr_get_suppresseffects.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: a3aaf310-6c42-4013-a3bf-25f9c42cdf81
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidEVR.get_SuppressEffects, IMSVidEVR::get_SuppressEffects, IMSVidEVRget_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidEVR interface, mstv.imsvidevr_get_suppresseffects, segment/IMSVidEVR::get_SuppressEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\PathAddBackslash.htm
 tech.root: shell
 ms.assetid: 27d8aec7-8b00-412a-9a42-8ce27e262781
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: PathAddBackslash, PathAddBackslash function [Windows Shell], PathAddBackslashA, PathAddBackslashW, _win32_PathAddBackslash, shell.PathAddBackslash, shlwapi/PathAddBackslash, shlwapi/PathAddBackslashA, shlwapi/PathAddBackslashW
 ms.prod: windows-hardware
 ms.technology: windows-devices

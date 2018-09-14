@@ -4,10 +4,10 @@ title: INetworkEvents
 author: windows-sdk-content
 description: INetworkEvents is a notification sink interface that a client implements to get network related events. These APIs are all callback functions that are called automatically when the respective events are raised.
 old-location: nla\inetworkevents.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: 75cc6efb-dd1b-40b6-84fe-5ba7c244cd72
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: INetworkEvents, INetworkEvents interface [Network Awareness], INetworkEvents interface [Network Awareness],described, netlistmgr/INetworkEvents, nla.inetworkevents
 ms.prod: windows
 ms.technology: windows-sdk

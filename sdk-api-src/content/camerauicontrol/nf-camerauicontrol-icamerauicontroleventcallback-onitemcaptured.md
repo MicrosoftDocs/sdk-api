@@ -4,10 +4,10 @@ title: ICameraUIControlEventCallback::OnItemCaptured
 author: windows-sdk-content
 description: Occurs when an item is captured.
 old-location: winprog\icamerauicontroleventcallback_onitemcaptured.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 4f202b68-48e2-4ae7-ade6-2180c05eec4a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnItemCaptured method, ICameraUIControlEventCallback.OnItemCaptured, ICameraUIControlEventCallback::OnItemCaptured, OnItemCaptured, OnItemCaptured method [Windows API], OnItemCaptured method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnItemCaptured, winprog.icamerauicontroleventcallback_onitemcaptured
 ms.prod: windows-hardware
 ms.technology: windows-devices

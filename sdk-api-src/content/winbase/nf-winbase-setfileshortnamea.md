@@ -4,10 +4,10 @@ title: SetFileShortNameA function
 author: windows-sdk-content
 description: Sets the short name for the specified file.
 old-location: fs\setfileshortname.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 0f4beb95-4e6c-422e-a17c-3371b706f0d4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SetFileShortName, SetFileShortName function [Files], SetFileShortNameA, SetFileShortNameW, _win32_setfileshortname, base.setfileshortname, fs.setfileshortname, winbase/SetFileShortName, winbase/SetFileShortNameA, winbase/SetFileShortNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

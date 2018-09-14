@@ -4,10 +4,10 @@ title: RtlUnwind2 function
 author: windows-sdk-content
 description: Initiates an unwind of procedure call frames.
 old-location: base\rtlunwind2.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 8015d070-51b9-49d4-b760-c9faaeba2cd0
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: RtlUnwind2, RtlUnwind2 function, base.rtlunwind2, winnt/RtlUnwind2
 ms.prod: windows-hardware
 ms.technology: windows-devices

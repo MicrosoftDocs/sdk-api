@@ -4,10 +4,10 @@ title: IBDA_DiseqCommand
 author: windows-sdk-content
 description: Controls cable television satelite equipment, using Digital Satellite Equipment Control (DiSEqC) commands.
 old-location: mstv\ibda_diseqcommand.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 0148a32d-b131-46ba-bbf0-82e2cf9c7d86
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_DiseqCommand, IBDA_DiseqCommand interface [Microsoft TV Technologies], IBDA_DiseqCommand interface [Microsoft TV Technologies],described, bdaiface/IBDA_DiseqCommand, mstv.ibda_diseqcommand
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: TSPI_phoneSetData function
 author: windows-sdk-content
 description: The TSPI_phoneSetData function downloads the information in the specified buffer to the opened phone device at the selected data identifier.
 old-location: tspi\tspi_phonesetdata.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: c4861878-639b-45a5-aff8-3f1fd1a2e153
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: TSPI_phoneSetData, TSPI_phoneSetData function [TAPI 2.2], _tspi_tspi_phonesetdata, tspi.tspi_phonesetdata, tspi/TSPI_phoneSetData
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\certselectiongetserializedblob.htm
 tech.root: seccrypto
 ms.assetid: 6c3240f7-5121-401d-a4d4-df3055cb301a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CertSelectionGetSerializedBlob, CertSelectionGetSerializedBlob function [Security], cryptuiapi/CertSelectionGetSerializedBlob, security.certselectiongetserializedblob
 ms.prod: windows-hardware
 ms.technology: windows-devices

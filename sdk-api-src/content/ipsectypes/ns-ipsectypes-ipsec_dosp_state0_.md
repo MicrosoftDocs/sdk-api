@@ -4,10 +4,10 @@ title: IPSEC_DOSP_STATE0_
 author: windows-sdk-content
 description: Used to store state information for IPsec DoS Protection.
 old-location: fwp\ipsec_dosp_state0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: e3653c19-0e0b-4026-a32d-509c4bb71008
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPSEC_DOSP_STATE0, IPSEC_DOSP_STATE0 structure [Filtering], IPSEC_DOSP_STATE0_, fwp.ipsec_dosp_state0, ipsectypes/IPSEC_DOSP_STATE0
 ms.prod: windows
 ms.technology: windows-sdk

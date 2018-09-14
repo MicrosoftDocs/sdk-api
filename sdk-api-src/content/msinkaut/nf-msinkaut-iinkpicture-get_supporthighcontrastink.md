@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_supporthighcontrastink.htm
 tech.root: tablet
 ms.assetid: 9f57e1fe-8224-43ef-bd26-2d15da625725
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: IInkPicture interface [Tablet PC],SupportHighContrastInk property, IInkPicture.SupportHighContrastInk, IInkPicture.get_SupportHighContrastInk, IInkPicture::SupportHighContrastInk, IInkPicture::get_SupportHighContrastInk, IInkPicture::put_SupportHighContrastInk, InkPicture.get_SupportHighContrastInk, InkPicture.put_SupportHighContrastInk, SupportHighContrastInk property [Tablet PC], SupportHighContrastInk property [Tablet PC],IInkPicture interface, get_SupportHighContrastInk, msinkaut/IInkPicture::SupportHighContrastInk, msinkaut/IInkPicture::get_SupportHighContrastInk, msinkaut/IInkPicture::put_SupportHighContrastInk, putt_SupportHighContrastInk, tablet.inkpicture_supporthighcontrastink
 ms.prod: windows-hardware
 ms.technology: windows-devices

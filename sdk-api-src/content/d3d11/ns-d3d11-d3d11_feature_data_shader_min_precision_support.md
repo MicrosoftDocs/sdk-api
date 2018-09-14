@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_shader_min_precision_support.htm
 tech.root: direct3d11
 ms.assetid: 4494A896-E73E-4A41-BC73-F9BD49510276
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT, D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT, direct3d11.d3d11_feature_data_shader_min_precision_support
 ms.prod: windows
 ms.technology: windows-sdk

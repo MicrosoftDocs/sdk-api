@@ -7,7 +7,7 @@ old-location: shell\INewWindowManager_EvaluateNewWindow.htm
 tech.root: shell
 ms.assetid: 0721298f-99c2-463b-8ffa-7527844dcab4
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: EvaluateNewWindow, EvaluateNewWindow method [Windows Shell], EvaluateNewWindow method [Windows Shell],INewWindowManager interface, INewWindowManager interface [Windows Shell],EvaluateNewWindow method, INewWindowManager.EvaluateNewWindow, INewWindowManager::EvaluateNewWindow, _shell_INewWindowManager_EvaluateNewWindow, shell.INewWindowManager_EvaluateNewWindow, shobjidl_core/INewWindowManager::EvaluateNewWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

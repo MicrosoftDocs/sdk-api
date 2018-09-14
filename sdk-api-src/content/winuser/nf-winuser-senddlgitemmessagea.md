@@ -7,7 +7,7 @@ old-location: dlgbox\senddlgitemmessage.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\senddlgitemmessage.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: SendDlgItemMessage, SendDlgItemMessage function [Dialog Boxes], SendDlgItemMessageA, SendDlgItemMessageW, _win32_SendDlgItemMessage, _win32_senddlgitemmessage_cpp, dlgbox.senddlgitemmessage, winui._win32_senddlgitemmessage, winuser/SendDlgItemMessage, winuser/SendDlgItemMessageA, winuser/SendDlgItemMessageW
 ms.prod: windows-hardware
 ms.technology: windows-devices

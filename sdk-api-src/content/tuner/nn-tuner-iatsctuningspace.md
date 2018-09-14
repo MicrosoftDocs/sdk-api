@@ -4,10 +4,10 @@ title: IATSCTuningSpace
 author: windows-sdk-content
 description: The IATSCTuningSpace interface is implemented on ATSCTuningSpace objects, which represent any tuning space with an ATSC network type.
 old-location: mstv\iatsctuningspace.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 313508e5-a9b2-42b8-bb2f-d191944d0939
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IATSCTuningSpace, IATSCTuningSpace interface [Microsoft TV Technologies], IATSCTuningSpace interface [Microsoft TV Technologies],described, IATSCTuningSpaceInterface, mstv.iatsctuningspace, tuner/IATSCTuningSpace
 ms.prod: windows
 ms.technology: windows-sdk

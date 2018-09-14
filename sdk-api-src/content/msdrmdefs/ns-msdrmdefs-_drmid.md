@@ -4,10 +4,10 @@ title: "_DRMID"
 author: windows-sdk-content
 description: Identifies an object.
 old-location: rm\drmid.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 8b7f22e0-586e-4950-94fe-868b3fc91ffa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMID, DRMID structure [Active Directory Rights Management Services SDK 1.0], _DRMID, msdrmdefs/DRMID, rm.drmid
 ms.prod: windows
 ms.technology: windows-sdk

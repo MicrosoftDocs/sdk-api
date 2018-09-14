@@ -4,10 +4,10 @@ title: IKEEXT_CERTIFICATE_CRITERIA0_
 author: windows-sdk-content
 description: Contains a set of criteria to applied to an authentication method.
 old-location: fwp\ikeext_certificate_criteria0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: dbcb0e25-fdde-44d9-bfad-b3605f563773
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IKEEXT_CERTIFICATE_CRITERIA0, IKEEXT_CERTIFICATE_CRITERIA0 structure [Filtering], IKEEXT_CERTIFICATE_CRITERIA0_, fwp.ikeext_certificate_criteria0, iketypes/IKEEXT_CERTIFICATE_CRITERIA0
 ms.prod: windows
 ms.technology: windows-sdk

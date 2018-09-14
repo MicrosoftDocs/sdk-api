@@ -4,10 +4,10 @@ title: NdrContextHandleMemorySize function
 author: windows-sdk-content
 description: Returns the size of the supplied RPC context handle as represented in local memory.
 old-location: rpc\ndrcontexthandlememorysize.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: f1dd8d13-8d10-4c5c-bb31-b51d38834e88
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: NdrContextHandleMemorySize, NdrContextHandleMemorySize function [RPC], rpc.ndrcontexthandlememorysize, rpcndr/NdrContextHandleMemorySize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IBackgroundCopyJob5::SetProperty
 author: windows-sdk-content
 description: A generic method for setting BITS job properties.
 old-location: bits\ibackgroundcopyjob5_setproperty.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: D5DB8A96-7417-4142-BA27-783314835CED
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBackgroundCopyJob5 interface [BITS],SetProperty method, IBackgroundCopyJob5.SetProperty, IBackgroundCopyJob5::SetProperty, SetProperty, SetProperty method [BITS], SetProperty method [BITS],IBackgroundCopyJob5 interface, bits.ibackgroundcopyjob5_setproperty, bits5_0/IBackgroundCopyJob5::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

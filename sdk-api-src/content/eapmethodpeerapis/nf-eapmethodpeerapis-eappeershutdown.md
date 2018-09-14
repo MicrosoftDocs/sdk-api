@@ -4,10 +4,10 @@ title: EapPeerShutdown function
 author: windows-sdk-content
 description: Shuts down the EAP method and prepares to unload its corresponding DLL.
 old-location: eaphost\eappeershutdown.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 7d08a349-fdfc-40bc-97f4-4429ff6ade7e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EapPeerShutdown, EapPeerShutdown function [EAPHost], eaphost.eappeershutdown, eapmethodpeerapis/EapPeerShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

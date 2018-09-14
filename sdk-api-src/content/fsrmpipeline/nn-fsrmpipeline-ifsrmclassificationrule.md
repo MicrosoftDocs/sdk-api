@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationrule.htm
 tech.root: fsrm
 ms.assetid: d76e4b07-66d6-426f-853d-f52ea08d9b81
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmClassificationRule, IFsrmClassificationRule interface [File Server Resource Manager], IFsrmClassificationRule interface [File Server Resource Manager],described, fs.ifsrmclassificationrule, fsrm.ifsrmclassificationrule, fsrm/IFsrmClassificationRule
 ms.prod: windows
 ms.technology: windows-sdk

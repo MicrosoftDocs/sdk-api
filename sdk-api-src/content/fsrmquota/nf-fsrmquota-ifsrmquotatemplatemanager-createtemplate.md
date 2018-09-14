@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotatemplatemanager_createtemplate.htm
 tech.root: fsrm
 ms.assetid: d8dbc0fb-de02-4491-94f5-e845a2338251
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: CreateTemplate, CreateTemplate method [File Server Resource Manager], CreateTemplate method [File Server Resource Manager],FsrmQuotaTemplateManager class, CreateTemplate method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, FsrmQuotaTemplateManager class [File Server Resource Manager],CreateTemplate method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],CreateTemplate method, IFsrmQuotaTemplateManager.CreateTemplate, IFsrmQuotaTemplateManager::CreateTemplate, fs.ifsrmquotatemplatemanager_createtemplate, fsrm.ifsrmquotatemplatemanager_createtemplate, fsrmquota/IFsrmQuotaTemplateManager::CreateTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

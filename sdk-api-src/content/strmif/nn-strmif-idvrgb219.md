@@ -7,7 +7,7 @@ old-location: dshow\idvrgb219.htm
 tech.root: DirectShow
 ms.assetid: 6d346f0b-97c1-4f3c-aa79-b3bfab18c634
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IDVRGB219, IDVRGB219 interface [DirectShow], IDVRGB219 interface [DirectShow],described, IDVRGB219Interface, dshow.idvrgb219, strmif/IDVRGB219
 ms.prod: windows
 ms.technology: windows-sdk

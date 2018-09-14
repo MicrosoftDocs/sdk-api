@@ -4,10 +4,10 @@ title: tagNMDATETIMEWMKEYDOWNW
 author: windows-sdk-content
 description: Carries information used to describe and handle a DTN_WMKEYDOWN notification code.
 old-location: controls\NMDATETIMEWMKEYDOWN.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimewmkeydown.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*LPNMDATETIMEWMKEYDOWNW, LPNMDATETIMEWMKEYDOWN, LPNMDATETIMEWMKEYDOWN structure pointer [Windows Controls], NMDATETIMEWMKEYDOWN, NMDATETIMEWMKEYDOWN structure [Windows Controls], NMDATETIMEWMKEYDOWNA, NMDATETIMEWMKEYDOWNW, _win32_NMDATETIMEWMKEYDOWN, _win32_NMDATETIMEWMKEYDOWN_cpp, commctrl/LPNMDATETIMEWMKEYDOWN, commctrl/NMDATETIMEWMKEYDOWN, commctrl/NMDATETIMEWMKEYDOWNA, commctrl/NMDATETIMEWMKEYDOWNW, controls.NMDATETIMEWMKEYDOWN, controls._win32_NMDATETIMEWMKEYDOWN, tagNMDATETIMEWMKEYDOWNW"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\resutilgetcoreclusterresourcesex.htm
 tech.root: mscs
 ms.assetid: F6C576C1-5D34-41EB-95A4-BC8F78F02414
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX, PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX function [Failover Cluster], ResUtilGetCoreClusterResources, ResUtilGetCoreClusterResources function [Failover Cluster], ResUtilGetCoreClusterResourcesEx, mscs.resutilgetcoreclusterresourcesex, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX, resapi/ResUtilGetCoreClusterResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

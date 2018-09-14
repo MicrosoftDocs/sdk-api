@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl
 author: windows-sdk-content
 description: The ITAutomatedPhoneControl is a fully OLE automatable and scriptable interface exposed by the TAPI phone object.
 old-location: tapi3\itautomatedphonecontrol.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 60d4f079-75ee-4aeb-9e7c-0b16d90da754
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITAutomatedPhoneControl, ITAutomatedPhoneControl interface [TAPI 2.2], ITAutomatedPhoneControl interface [TAPI 2.2],described, _tapi3_itautomatedphonecontrol, tapi3.itautomatedphonecontrol, tapi3if/ITAutomatedPhoneControl
 ms.prod: windows
 ms.technology: windows-sdk

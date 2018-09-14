@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotatemplatemanager.htm
 tech.root: fsrm
 ms.assetid: c6e782ff-b2e7-4bd6-bd9f-cc645c6ee5d6
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmQuotaTemplateManager, IFsrmQuotaTemplateManager interface [File Server Resource Manager], IFsrmQuotaTemplateManager interface [File Server Resource Manager],described, fs.ifsrmquotatemplatemanager, fsrm.ifsrmquotatemplatemanager, fsrmquota/IFsrmQuotaTemplateManager
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\wsendwritercanonicalization.htm
 tech.root: wsw
 ms.assetid: 169f971e-0cd2-44e7-81fc-059cc3cd357d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WsEndWriterCanonicalization, WsEndWriterCanonicalization function [Web Services for Windows], webservices/WsEndWriterCanonicalization, wsw.wsendwritercanonicalization
 ms.prod: windows-hardware
 ms.technology: windows-devices

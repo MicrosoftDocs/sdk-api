@@ -4,10 +4,10 @@ title: MprInfoBlockQuerySize function
 author: windows-sdk-content
 description: The MprInfoBlockQuerySize function returns the returns the size of the information header.
 old-location: rras\mprinfoblockquerysize.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: cac491c9-3486-4eba-afe9-9e18f50c0643
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MprInfoBlockQuerySize, MprInfoBlockQuerySize function [RAS], _mpr_mprinfoblockquerysize, mprapi/MprInfoBlockQuerySize, rras.mprinfoblockquerysize
 ms.prod: windows-hardware
 ms.technology: windows-devices

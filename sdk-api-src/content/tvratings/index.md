@@ -2,7 +2,7 @@
 UID: NA:tvratings
 ms.assetid: 781bf555-7067-324a-badb-3c29797eba39
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

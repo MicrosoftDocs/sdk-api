@@ -7,7 +7,7 @@ old-location: bluetooth\bth_set_service.htm
 tech.root: bluetooth
 ms.assetid: 66b5474d-ea21-4ae4-9297-9740f1bc9ecb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: "*PBTHNS_SETBLOB, *PBTH_SET_SERVICE, BTHNS_SETBLOB, BTH_SET_SERVICE, BTH_SET_SERVICE structure [Bluetooth], PBTH_SET_SERVICE, PBTH_SET_SERVICE structure pointer [Bluetooth], _BTH_SET_SERVICE, _bth_bth_set_service, bluetooth.bth_set_service, ws2bth/BTH_SET_SERVICE, ws2bth/PBTH_SET_SERVICE"
 ms.prod: windows
 ms.technology: windows-sdk

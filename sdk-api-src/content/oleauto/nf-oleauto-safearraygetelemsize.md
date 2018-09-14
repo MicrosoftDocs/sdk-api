@@ -7,7 +7,7 @@ old-location: automat\safearraygetelemsize.htm
 tech.root: automat
 ms.assetid: 27bd4a3f-0e9d-45f7-ad7c-0c0b59579dd0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SafeArrayGetElemsize, SafeArrayGetElemsize function [Automation], _oa96_SafeArrayGetElemsize, automat.safearraygetelemsize, oleauto/SafeArrayGetElemsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

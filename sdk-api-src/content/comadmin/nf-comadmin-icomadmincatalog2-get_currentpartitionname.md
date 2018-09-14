@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_currentpartitionname.htm
 tech.root: cossdk
 ms.assetid: 51254edf-420b-42a3-a3b8-a71c23a4cb49
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CurrentPartitionName property [COM+], CurrentPartitionName property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CurrentPartitionName property, ICOMAdminCatalog2.CurrentPartitionName, ICOMAdminCatalog2.get_CurrentPartitionName, ICOMAdminCatalog2::CurrentPartitionName, ICOMAdminCatalog2::get_CurrentPartitionName, _cos_IComAdminCatalog2_get_CurrentPartitionName, comadmin/ICOMAdminCatalog2::CurrentPartitionName, comadmin/ICOMAdminCatalog2::get_CurrentPartitionName, cos.icomadmincatalog2_currentpartitionname, get_CurrentPartitionName
 ms.prod: windows-hardware
 ms.technology: windows-devices

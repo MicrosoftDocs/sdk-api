@@ -4,10 +4,10 @@ title: DhcpGetClientInfo function
 author: windows-sdk-content
 description: The DhcpGetClientInfo function returns information about a specific DHCP client.
 old-location: dhcp\dhcpgetclientinfo.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 67095868-7e02-4d82-b2f0-70c413fa8ed6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpGetClientInfo, DhcpGetClientInfo function [DHCP], dhcp.dhcpgetclientinfo, dhcpsapi/DhcpGetClientInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

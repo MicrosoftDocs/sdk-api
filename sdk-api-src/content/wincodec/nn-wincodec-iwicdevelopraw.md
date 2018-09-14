@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw.htm
 tech.root: wic
 ms.assetid: d449f3f7-fd43-44b0-ab7f-2ae307a74191
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], IWICDevelopRaw interface [Windows Imaging Component],described, _wic_codec_iwicdevelopraw, wic._wic_codec_iwicdevelopraw, wincodec/IWICDevelopRaw
 ms.prod: windows
 ms.technology: windows-sdk

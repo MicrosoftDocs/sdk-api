@@ -7,7 +7,7 @@ old-location: gamingdvcinfo\getgamingdevicemodelinformation.htm
 tech.root: gamingdvcinfo
 ms.assetid: 78101CBA-63B5-4B3F-9CEC-A215F32D9EB8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetGamingDeviceModelInformation, GetGamingDeviceModelInformation function, gamingdeviceinformation/GetGamingDeviceModelInformation, gamingdvcinfo.getgamingdevicemodelinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\wvnsprintf.htm
 tech.root: shell
 ms.assetid: a2aaaa05-d61e-41e3-8e49-7c0da1a661f0
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: "_win32_wvnsprintf, shell.wvnsprintf, shlwapi/wvnsprintf, shlwapi/wvnsprintfA, shlwapi/wvnsprintfW, wvnsprintf, wvnsprintf function [Windows Shell], wvnsprintfA, wvnsprintfW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

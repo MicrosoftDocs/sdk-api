@@ -4,10 +4,10 @@ title: WlanEnumInterfaces function
 author: windows-sdk-content
 description: Enumerates all of the wireless LAN interfaces currently enabled on the local computer.
 old-location: nwifi\wlanenuminterfaces.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 7f817edf-1b1d-495c-afd9-d97e3ae0caab
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WlanEnumInterfaces, WlanEnumInterfaces function [NativeWIFI], nwifi.wlanenuminterfaces, wlanapi/WlanEnumInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

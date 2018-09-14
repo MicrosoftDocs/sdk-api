@@ -4,10 +4,10 @@ title: IWdsTransportConfigurationManager
 author: windows-sdk-content
 description: Manages the configuration of a WDS transport server.
 old-location: wds\iwdstransportconfigurationmanager.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: b86f9bc7-ddee-4d18-b5cb-28d28fa7ae7e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IWdsTransportConfigurationManager, IWdsTransportConfigurationManager interface [Windows Deployment Services], IWdsTransportConfigurationManager interface [Windows Deployment Services],described, wds.iwdstransportconfigurationmanager, wdstptmgmt/IWdsTransportConfigurationManager
 ms.prod: windows
 ms.technology: windows-sdk

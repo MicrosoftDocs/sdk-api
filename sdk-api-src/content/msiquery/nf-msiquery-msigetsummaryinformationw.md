@@ -7,7 +7,7 @@ old-location: setup\msigetsummaryinformation.htm
 tech.root: msi
 ms.assetid: f3a6d7cc-83b2-45c6-bf86-c579b39c2c92
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MsiGetSummaryInformation, MsiGetSummaryInformation function, MsiGetSummaryInformationA, MsiGetSummaryInformationW, _msi_msigetsummaryinformation, msiquery/MsiGetSummaryInformation, msiquery/MsiGetSummaryInformationA, msiquery/MsiGetSummaryInformationW, setup.msigetsummaryinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_WLAN_ADHOC_NETWORK_STATE"
 author: windows-sdk-content
 description: Specifies the connection state of an ad hoc network.
 old-location: nwifi\wlan_adhoc_network_state.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 9f233e3b-6905-4b6b-84b4-202076d224f5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWLAN_ADHOC_NETWORK_STATE, WLAN_ADHOC_NETWORK_STATE, WLAN_ADHOC_NETWORK_STATE enumeration [NativeWIFI], _WLAN_ADHOC_NETWORK_STATE, nwifi.wlan_adhoc_network_state, wlan_adhoc_network_state_connected, wlan_adhoc_network_state_formed, wlanapi/WLAN_ADHOC_NETWORK_STATE, wlanapi/wlan_adhoc_network_state_connected, wlanapi/wlan_adhoc_network_state_formed"
 ms.prod: windows
 ms.technology: windows-sdk

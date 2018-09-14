@@ -7,7 +7,7 @@ old-location: mf\mfisformatyuv.htm
 tech.root: medfound
 ms.assetid: dbf6acd3-79c6-4ec2-a867-f2b2d8b41f53
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: MFIsFormatYUV, MFIsFormatYUV function [Media Foundation], dbf6acd3-79c6-4ec2-a867-f2b2d8b41f53, mf.mfisformatyuv, mfapi/MFIsFormatYUV
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMSVidVideoRendererDevices::get_Item
 author: windows-sdk-content
 description: The get_Item method retrieves the specified item from the collection.
 old-location: mstv\imsvidvideorendererdevices_get_item.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 2cb169d2-f6b2-4156-aa11-f9b47437b731
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],get_Item method, IMSVidVideoRendererDevices.get_Item, IMSVidVideoRendererDevices::get_Item, IMSVidVideoRendererDevicesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_get_item, segment/IMSVidVideoRendererDevices::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

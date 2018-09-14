@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_library_desc.htm
 tech.root: direct3d11
 ms.assetid: A4AC9733-DB17-4855-AEB0-3DA7819F6627
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D3D11_LIBRARY_DESC, D3D11_LIBRARY_DESC structure [Direct3D 11], _D3D11_LIBRARY_DESC, d3d11shader/D3D11_LIBRARY_DESC, direct3d11.d3d11_library_desc
 ms.prod: windows
 ms.technology: windows-sdk

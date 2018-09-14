@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo2.htm
 tech.root: GPMC
 ms.assetid: c5c21ca6-2722-4821-8760-03b6cf2befa7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IGPMGPO2, IGPMGPO2 interface [GPMC], IGPMGPO2 interface [GPMC],described, gpmc.igpmgpo2, gpmgmt/IGPMGPO2
 ms.prod: windows
 ms.technology: windows-sdk

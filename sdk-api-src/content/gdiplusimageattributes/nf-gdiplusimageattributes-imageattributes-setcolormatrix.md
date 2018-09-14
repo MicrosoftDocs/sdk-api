@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetColorMatrix_colorMatrix_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setcolormatrix.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: ImageAttributes class [GDI+],SetColorMatrix method, ImageAttributes.SetColorMatrix, ImageAttributes::SetColorMatrix, SetColorMatrix, SetColorMatrix method [GDI+], SetColorMatrix method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetColorMatrix_colorMatrix_mode_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetColorMatrix_colorMatrix_mode_type_
 ms.prod: windows-hardware
 ms.technology: windows-devices

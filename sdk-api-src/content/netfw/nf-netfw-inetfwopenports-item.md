@@ -4,10 +4,10 @@ title: INetFwOpenPorts::Item
 author: windows-sdk-content
 description: Returns the specified port if it is in the collection.
 old-location: ics\inetfwopenports_item.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: f0491047-d20d-49e4-9319-421b48feca48
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],Item method, INetFwOpenPorts.Item, INetFwOpenPorts::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwOpenPorts interface, ics.inetfwopenports_item, netfw/INetFwOpenPorts::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

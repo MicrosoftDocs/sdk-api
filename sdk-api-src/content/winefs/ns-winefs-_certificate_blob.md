@@ -4,10 +4,10 @@ title: "_CERTIFICATE_BLOB"
 author: windows-sdk-content
 description: Contains a certificate.
 old-location: fs\efs_certificate_blob_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e0d0aa0a-ac87-4734-93d0-30c2080319e8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PEFS_CERTIFICATE_BLOB, CRYPT_ASN_ENCODING, CRYPT_NDR_ENCODING, EFS_CERTIFICATE_BLOB, EFS_CERTIFICATE_BLOB structure [Files], PEFS_CERTIFICATE_BLOB, PEFS_CERTIFICATE_BLOB structure pointer [Files], X509_ASN_ENCODING, X509_NDR_ENCODING, _CERTIFICATE_BLOB, _win32_efs_certificate_blob_str, base.efs_certificate_blob_str, fs.efs_certificate_blob_str, winefs/EFS_CERTIFICATE_BLOB, winefs/PEFS_CERTIFICATE_BLOB"
 ms.prod: windows
 ms.technology: windows-sdk

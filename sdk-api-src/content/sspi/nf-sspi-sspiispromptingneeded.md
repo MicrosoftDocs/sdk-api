@@ -4,10 +4,10 @@ title: SspiIsPromptingNeeded function
 author: windows-sdk-content
 description: Indicates whether an error returned after a call to either the InitializeSecurityContext or the AcceptSecurityContext function requires an additional call to the SspiPromptForCredentials function.
 old-location: security\sspiispromptingneeded.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: aaafcf49-df28-45e9-8c06-e57863a2e300
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: SspiIsPromptingNeeded, SspiIsPromptingNeeded function [Security], security.sspiispromptingneeded, sspi/SspiIsPromptingNeeded
 ms.prod: windows-hardware
 ms.technology: windows-devices

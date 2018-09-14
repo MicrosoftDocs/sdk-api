@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorCurve_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorcurve.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: ColorCurve, ColorCurve class [GDI+], ColorCurve class [GDI+],described, _gdiplus_CLASS_ColorCurve_Class, gdiplus._gdiplus_CLASS_ColorCurve_Class, gdipluseffects/ColorCurve
 ms.prod: windows
 ms.technology: windows-sdk

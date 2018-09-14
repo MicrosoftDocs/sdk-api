@@ -4,10 +4,10 @@ title: GetTimestampForLoadedLibrary function
 author: windows-sdk-content
 description: Retrieves the time stamp of a loaded image.
 old-location: base\gettimestampforloadedlibrary.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 9ce7b211-5447-4624-b197-85730c4a7a10
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: GetTimestampForLoadedLibrary, GetTimestampForLoadedLibrary function, _win32_gettimestampforloadedlibrary, base.gettimestampforloadedlibrary, dbghelp/GetTimestampForLoadedLibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices

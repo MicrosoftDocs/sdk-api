@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicformatconverter_initialize.htm
 tech.root: wic
 ms.assetid: ff046b2c-a863-48dd-9cbe-3c559c84b682
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IWICFormatConverter interface [Windows Imaging Component],Initialize method, IWICFormatConverter.Initialize, IWICFormatConverter::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICFormatConverter interface, _wic_codec_iwicformatconverter_initialize, wic._wic_codec_iwicformatconverter_initialize, wincodec/IWICFormatConverter::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

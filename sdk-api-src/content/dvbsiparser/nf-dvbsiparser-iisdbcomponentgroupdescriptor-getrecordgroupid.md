@@ -4,10 +4,10 @@ title: IIsdbComponentGroupDescriptor::GetRecordGroupId
 author: windows-sdk-content
 description: Gets the component group identifier from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordgroupid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 159c496c-675e-458a-b9f9-5c9622fd1848
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetRecordGroupId, GetRecordGroupId method [Microsoft TV Technologies], GetRecordGroupId method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordGroupId method, IIsdbComponentGroupDescriptor.GetRecordGroupId, IIsdbComponentGroupDescriptor::GetRecordGroupId, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordGroupId, mstv.iisdbcomponentgroupdescriptor_getrecordgroupid
 ms.prod: windows-hardware
 ms.technology: windows-devices

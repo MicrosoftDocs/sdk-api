@@ -4,10 +4,10 @@ title: IDVBSTuningSpace::put_SpectralInversion
 author: windows-sdk-content
 description: The put_SpectralInversion method sets a value indicating the spectral inversion.
 old-location: mstv\idvbstuningspace_put_spectralinversion.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c3fd3237-6c10-419d-b1ce-7cb00ebb3442
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_SpectralInversion method, IDVBSTuningSpace.put_SpectralInversion, IDVBSTuningSpace::put_SpectralInversion, IDVBSTuningSpaceput_SpectralInversion, mstv.idvbstuningspace_put_spectralinversion, put_SpectralInversion, put_SpectralInversion method [Microsoft TV Technologies], put_SpectralInversion method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_SpectralInversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

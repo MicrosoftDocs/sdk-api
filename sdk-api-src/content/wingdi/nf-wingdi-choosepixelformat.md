@@ -7,7 +7,7 @@ old-location: opengl\choosepixelformat.htm
 tech.root: OpenGL
 ms.assetid: 17bd0a2c-5257-4ae3-80f4-a5ad536169fb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ChoosePixelFormat, ChoosePixelFormat function [OpenGL], _ogl_ChoosePixelFormat, opengl.choosepixelformat, wingdi/ChoosePixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: adsi\iadspostaladdress.htm
 tech.root: ADSI
 ms.assetid: 53ff56a6-60ee-44a1-b18b-18f17efe2acd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsPostalAddress, IADsPostalAddress interface [ADSI], IADsPostalAddress interface [ADSI],described, _ds_iadspostaladdress, adsi.iadspostaladdress, iads/IADsPostalAddress
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\PropVariantToDouble.htm
 tech.root: properties
 ms.assetid: 346b3f37-1279-4719-b1cd-50adf4d070f0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: PropVariantToDouble, PropVariantToDouble function [Windows Properties], properties.PropVariantToDouble, propvarutil/PropVariantToDouble, shell.PropVariantToDouble, shell_PropVariantToDouble
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_MIB_ICMP_EX_XPSP1"
 author: windows-sdk-content
 description: Contains the extended Internet Control Message Protocol (ICMP) statistics for a particular computer.
 old-location: mib\mib_icmp_ex.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: 3d2c7edc-c9e6-4db6-b7c8-07f7f01cbe0d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMIB_ICMP_EX, *PMIB_ICMP_EX_XPSP1, MIB_ICMP_EX, MIB_ICMP_EX structure [MIB], MIB_ICMP_EX_XPSP1, PMIB_ICMP_EX, PMIB_ICMP_EX structure pointer [MIB], _MIB_ICMP_EX_XPSP1, ipmib/MIB_ICMP_EX, ipmib/PMIB_ICMP_EX, iprtrmib/MIB_ICMP_EX, iprtrmib/PMIB_ICMP_EX, mib.mib_icmp_ex, rras.mib_icmp_ex"
 ms.prod: windows
 ms.technology: windows-sdk

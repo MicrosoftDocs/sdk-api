@@ -4,10 +4,10 @@ title: IDVBSLocator2::get_LocalLNBSwitchOverride
 author: windows-sdk-content
 description: Specifies the switch frequency for the low-noise block converter (LNB) of a Digital Video Broadcasting (DVB) system, in kHz.
 old-location: mstv\idvbslocator2_locallnbswitchoverride.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: d8ec67af-c64f-479a-8f6b-acd42c60d62a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],LocalLNBSwitchOverride property, IDVBSLocator2.LocalLNBSwitchOverride, IDVBSLocator2.get_LocalLNBSwitchOverride, IDVBSLocator2::LocalLNBSwitchOverride, IDVBSLocator2::get_LocalLNBSwitchOverride, IDVBSLocator2::put_LocalLNBSwitchOverride, LocalLNBSwitchOverride property [Microsoft TV Technologies], LocalLNBSwitchOverride property [Microsoft TV Technologies],IDVBSLocator2 interface, get_LocalLNBSwitchOverride, mstv.idvbslocator2_locallnbswitchoverride, tuner/IDVBSLocator2::LocalLNBSwitchOverride, tuner/IDVBSLocator2::get_LocalLNBSwitchOverride, tuner/IDVBSLocator2::put_LocalLNBSwitchOverride
 ms.prod: windows-hardware
 ms.technology: windows-devices

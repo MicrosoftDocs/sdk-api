@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUser.htm
 tech.root: shell
 ms.assetid: 8EE5FA54-E20E-4d24-AD73-2AE1F0090950
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: ICredentialProviderUser, ICredentialProviderUser interface [Windows Shell], ICredentialProviderUser interface [Windows Shell],described, credentialprovider/ICredentialProviderUser, shell.ICredentialProviderUser
 ms.prod: windows
 ms.technology: windows-sdk

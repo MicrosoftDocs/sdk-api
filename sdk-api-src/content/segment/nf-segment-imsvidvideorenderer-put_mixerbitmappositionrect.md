@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::put_MixerBitmapPositionRect
 author: windows-sdk-content
 description: The put_MixerBitmapPositionRect method specifies the position of the static bitmap image, relative to the video window.
 old-location: mstv\imsvidvideorenderer_put_mixerbitmappositionrect.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 05542d75-1723-4581-ac8b-6a577e0085cb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_MixerBitmapPositionRect method, IMSVidVideoRenderer.put_MixerBitmapPositionRect, IMSVidVideoRenderer::put_MixerBitmapPositionRect, IMSVidVideoRendererput_MixerBitmapPositionRect, mstv.imsvidvideorenderer_put_mixerbitmappositionrect, put_MixerBitmapPositionRect, put_MixerBitmapPositionRect method [Microsoft TV Technologies], put_MixerBitmapPositionRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_MixerBitmapPositionRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

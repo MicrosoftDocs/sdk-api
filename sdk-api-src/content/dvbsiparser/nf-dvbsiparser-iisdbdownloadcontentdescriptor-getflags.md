@@ -4,10 +4,10 @@ title: IIsdbDownloadContentDescriptor::GetFlags
 author: windows-sdk-content
 description: Gets flag values from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_getflags.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: df104d6d-1436-4c7d-b250-b740e1f70c07
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetFlags, GetFlags method [Microsoft TV Technologies], GetFlags method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetFlags method, IIsdbDownloadContentDescriptor.GetFlags, IIsdbDownloadContentDescriptor::GetFlags, dvbsiparser/IIsdbDownloadContentDescriptor::GetFlags, mstv.iisdbdownloadcontentdescriptor_getflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

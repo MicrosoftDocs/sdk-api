@@ -7,7 +7,7 @@ old-location: adsi\ads_dn_with_string.htm
 tech.root: ADSI
 ms.assetid: 715354fe-1e62-4fbd-a5ba-0d7a56b83390
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: "*PADS_DN_WITH_STRING, ADS_DN_WITH_STRING, ADS_DN_WITH_STRING structure [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0016, _ds_ads_dn_with_string, adsi.ads__dn__with__string, adsi.ads_dn_with_string, iads/ADS_DN_WITH_STRING"
 ms.prod: windows
 ms.technology: windows-sdk

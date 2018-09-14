@@ -7,7 +7,7 @@ old-location: mmc\imenubutton_setbutton.htm
 tech.root: mmc
 ms.assetid: f0297c54-7aa2-497b-9fe7-1be4fc7517f9
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IMenuButton interface [MMC],SetButton method, IMenuButton.SetButton, IMenuButton::SetButton, SetButton, SetButton method [MMC], SetButton method [MMC],IMenuButton interface, _slate_imenubutton_setbutton, mmc.imenubutton_setbutton, mmc/IMenuButton::SetButton
 ms.prod: windows-hardware
 ms.technology: windows-devices

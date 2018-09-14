@@ -4,10 +4,10 @@ title: IX509ExtensionMSApplicationPolicies::InitializeEncode
 author: windows-sdk-content
 description: Initializes the extension from an ICertificatePolicies collection.
 old-location: security\ix509extensionmsapplicationpolicies_initializeencode_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 2b79c295-5260-4708-9a20-2ac41052a171
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies interface [Security],InitializeEncode method, IX509ExtensionMSApplicationPolicies.InitializeEncode, IX509ExtensionMSApplicationPolicies::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionMSApplicationPolicies interface, certenroll/IX509ExtensionMSApplicationPolicies::InitializeEncode, security.ix509extensionmsapplicationpolicies_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

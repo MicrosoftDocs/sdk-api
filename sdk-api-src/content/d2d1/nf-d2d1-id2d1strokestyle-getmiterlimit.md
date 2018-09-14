@@ -4,10 +4,10 @@ title: ID2D1StrokeStyle::GetMiterLimit
 author: windows-sdk-content
 description: Retrieves the limit on the ratio of the miter length to half the stroke's thickness.
 old-location: direct2d\ID2D1StrokeStyle_GetMiterLimit.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 29748b05-830b-48ae-9303-a5f7852792e7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetMiterLimit, GetMiterLimit method [Direct2D], GetMiterLimit method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetMiterLimit method, ID2D1StrokeStyle.GetMiterLimit, ID2D1StrokeStyle::GetMiterLimit, d2d1/ID2D1StrokeStyle::GetMiterLimit, direct2d.ID2D1StrokeStyle_GetMiterLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

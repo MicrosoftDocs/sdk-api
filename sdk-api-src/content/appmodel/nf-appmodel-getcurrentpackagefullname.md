@@ -7,7 +7,7 @@ old-location: appxpkg\getcurrentpackagefullname.htm
 tech.root: appxpkg
 ms.assetid: D5B00C53-1FBF-4245-92D1-FA39713A9EE7
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: GetCurrentPackageFullName, GetCurrentPackageFullName function [App packaging and management], appmodel/GetCurrentPackageFullName, appxpkg.getcurrentpackagefullname
 ms.prod: windows-hardware
 ms.technology: windows-devices

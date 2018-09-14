@@ -7,7 +7,7 @@ old-location: shell\PathCchAddBackslashEx.htm
 tech.root: shell
 ms.assetid: 89adf45f-f16d-49d1-9e76-b57b73b4d4c3
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: PathCchAddBackslashEx, PathCchAddBackslashEx function [Windows Shell], pathcch/PathCchAddBackslashEx, shell.PathCchAddBackslashEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor4_ShouldIndexItemContent.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor4\shouldindexitemcontent.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: IUrlAccessor4 interface [search],ShouldIndexItemContent method, IUrlAccessor4.ShouldIndexItemContent, IUrlAccessor4::ShouldIndexItemContent, ShouldIndexItemContent, ShouldIndexItemContent method [search], ShouldIndexItemContent method [search],IUrlAccessor4 interface, _search_IUrlAccessor4_ShouldIndexItemContent, search._search_IUrlAccessor4_ShouldIndexItemContent, searchapi/IUrlAccessor4::ShouldIndexItemContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

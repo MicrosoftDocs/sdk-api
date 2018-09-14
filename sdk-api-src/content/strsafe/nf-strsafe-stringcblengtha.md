@@ -7,7 +7,7 @@ old-location: menurc\stringcblength.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcblength.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: StringCbLength, StringCbLength function [Menus and Other Resources], StringCbLengthA, StringCbLengthW, UnalignedStringCbLength, _shell_StringCbLength, _shell_stringcblength_cpp, menurc.stringcblength, strsafe/StringCbLength, strsafe/StringCbLengthA, strsafe/StringCbLengthW, winui._shell_stringcblength
 ms.prod: windows-hardware
 ms.technology: windows-devices

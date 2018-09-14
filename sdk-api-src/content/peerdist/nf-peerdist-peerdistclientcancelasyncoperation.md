@@ -7,7 +7,7 @@ old-location: p2p\peerdistclientcancelasyncoperation.htm
 tech.root: p2psdk
 ms.assetid: 51100a8f-6652-46db-820a-8d16456d4c9a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerDistClientCancelAsyncOperation, PeerDistClientCancelAsyncOperation function [Peer Networking], p2p.peerdistclientcancelasyncoperation, peerdist/PeerDistClientCancelAsyncOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

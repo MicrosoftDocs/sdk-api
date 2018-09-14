@@ -7,7 +7,7 @@ old-location: ad\cqpage.htm
 tech.root: ad
 ms.assetid: 09e407a2-7a58-483d-8422-4ae40c05b742
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: "*LPCQPAGE, CQPAGE, CQPAGE structure [Active Directory], LPCQPAGE, LPCQPAGE structure pointer [Active Directory], _cqpage, _glines_cqpage, ad.cqpage, cmnquery/CQPAGE, cmnquery/LPCQPAGE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IUpdateInstaller::EndUninstall
 author: windows-sdk-content
 description: Completes an asynchronous uninstallation of the updates.
 old-location: wua\iupdateinstaller_enduninstall.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: a035f566-7ec6-41d5-b5b4-69c2acaa8aae
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: EndUninstall, EndUninstall method [Windows Update Agent], EndUninstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],EndUninstall method, IUpdateInstaller.EndUninstall, IUpdateInstaller::EndUninstall, wua.iupdateinstaller_enduninstall, wuapi/IUpdateInstaller::EndUninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices

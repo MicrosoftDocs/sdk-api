@@ -4,10 +4,10 @@ title: ClearEventLogW function
 author: windows-sdk-content
 description: Clears the specified event log, and optionally saves the current copy of the log to a backup file.
 old-location: base\cleareventlog.htm
-tech.root: eventlog
+tech.root: EventLog
 ms.assetid: b66896f6-baee-43c4-9d9b-5663c164d092
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ClearEventLog, ClearEventLog function, ClearEventLogA, ClearEventLogW, _win32_cleareventlog, base.cleareventlog, winbase/ClearEventLog, winbase/ClearEventLogA, winbase/ClearEventLogW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: FWPM_ENGINE_OPTION_
 author: windows-sdk-content
 description: Configurable options for the filter engine.
 old-location: fwp\fwpm_engine_option.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: e70986af-0c38-4fe6-a59f-3c45ce98bcc0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FWPM_ENGINE_COLLECT_NET_EVENTS, FWPM_ENGINE_MONITOR_IPSEC_CONNECTIONS, FWPM_ENGINE_NAME_CACHE, FWPM_ENGINE_NET_EVENT_MATCH_ANY_KEYWORDS, FWPM_ENGINE_OPTION, FWPM_ENGINE_OPTION enumeration [Filtering], FWPM_ENGINE_OPTION_, FWPM_ENGINE_OPTION_MAX, FWPM_ENGINE_PACKET_QUEUING, FWPM_ENGINE_TXN_WATCHDOG_TIMEOUT_IN_MSEC, fwp.fwpm_engine_option, fwpmtypes/FWPM_ENGINE_COLLECT_NET_EVENTS, fwpmtypes/FWPM_ENGINE_MONITOR_IPSEC_CONNECTIONS, fwpmtypes/FWPM_ENGINE_NAME_CACHE, fwpmtypes/FWPM_ENGINE_NET_EVENT_MATCH_ANY_KEYWORDS, fwpmtypes/FWPM_ENGINE_OPTION, fwpmtypes/FWPM_ENGINE_OPTION_MAX, fwpmtypes/FWPM_ENGINE_PACKET_QUEUING, fwpmtypes/FWPM_ENGINE_TXN_WATCHDOG_TIMEOUT_IN_MSEC
 ms.prod: windows
 ms.technology: windows-sdk

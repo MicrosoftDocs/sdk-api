@@ -7,7 +7,7 @@ old-location: p2p\peercollabclosehandle.htm
 tech.root: p2psdk
 ms.assetid: fbcf65c7-a133-44b9-b5bb-309b1c257a90
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerCollabCloseHandle, PeerCollabCloseHandle function [Peer Networking], p2p.peercollabclosehandle, p2p/PeerCollabCloseHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

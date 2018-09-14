@@ -4,10 +4,10 @@ title: IBDA_SignalStatistics::get_SignalPresent
 author: windows-sdk-content
 description: The get_SignalPresent method retrieves a Boolean value indicating whether a signal is present.
 old-location: mstv\ibda_signalstatistics_get_signalpresent.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 834149e1-50b7-42f6-8fee-a357ed4bc8b8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SignalPresent method, IBDA_SignalStatistics.get_SignalPresent, IBDA_SignalStatistics::get_SignalPresent, IBDA_SignalStatisticsget_SignalPresent, bdaiface/IBDA_SignalStatistics::get_SignalPresent, get_SignalPresent, get_SignalPresent method [Microsoft TV Technologies], get_SignalPresent method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_signalpresent
 ms.prod: windows-hardware
 ms.technology: windows-devices

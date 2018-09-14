@@ -4,10 +4,10 @@ title: IMSVidXDS
 author: windows-sdk-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. The IMSVidXDS interface provides access to the extended data services. The MSVidXDS feature exposes this interface.
 old-location: mstv\imsvidxds.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: ddd172fe-2f93-4b1b-b325-81be024bf74c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidXDS, IMSVidXDS interface [Microsoft TV Technologies], IMSVidXDS interface [Microsoft TV Technologies],described, IMSVidXDSInterface, mstv.imsvidxds, segment/IMSVidXDS
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CancelIPChangeNotify function
 author: windows-sdk-content
 description: Cancels notification of IPv4 address and route changes previously requested with successful calls to the NotifyAddrChange or NotifyRouteChange functions.
 old-location: iphlp\cancelipchangenotify.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 10795401-003f-45ce-80f1-ccc31659298a
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: CancelIPChangeNotify, CancelIPChangeNotify function [IP Helper], iphlp.cancelipchangenotify, iphlpapi/CancelIPChangeNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

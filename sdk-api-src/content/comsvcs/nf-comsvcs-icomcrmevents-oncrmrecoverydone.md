@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmrecoverydone.htm
 tech.root: cossdk
 ms.assetid: 533148f3-ecb4-495c-81c4-c75db7284ded
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMRecoveryDone method, IComCRMEvents.OnCRMRecoveryDone, IComCRMEvents::OnCRMRecoveryDone, OnCRMRecoveryDone, OnCRMRecoveryDone method [COM+], OnCRMRecoveryDone method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMRecoveryDone, comsvcs/IComCRMEvents::OnCRMRecoveryDone, cos.icomcrmevents_oncrmrecoverydone
 ms.prod: windows-hardware
 ms.technology: windows-devices

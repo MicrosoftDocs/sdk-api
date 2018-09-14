@@ -4,10 +4,10 @@ title: ISdo::Apply
 author: windows-sdk-content
 description: The Apply method writes to persistent storage the changes made by calls to the ISdo::PutProperty method.
 old-location: nps\SDO_isdo_apply.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: aceca2f9-7b17-46a5-bcd1-e6fec3c369ed
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Apply, Apply method [Network Policy Server], Apply method [Network Policy Server],ISdo interface, ISdo interface [Network Policy Server],Apply method, ISdo.Apply, ISdo::Apply, _sdo_isdo_apply, nps.SDO_isdo_apply, sdo.isdo_apply, sdoias/ISdo::Apply
 ms.prod: windows-hardware
 ms.technology: windows-devices

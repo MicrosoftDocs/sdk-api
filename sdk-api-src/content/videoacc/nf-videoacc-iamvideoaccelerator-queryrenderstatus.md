@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_queryrenderstatus.htm
 tech.root: DirectShow
 ms.assetid: 29d77bd5-2823-4e67-a69f-2898ad4c467c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: AMVA_QUERYRENDERSTATUSF_READ, IAMVideoAccelerator interface [DirectShow],QueryRenderStatus method, IAMVideoAccelerator.QueryRenderStatus, IAMVideoAccelerator::QueryRenderStatus, IAMVideoAcceleratorQueryRenderStatus, QueryRenderStatus, QueryRenderStatus method [DirectShow], QueryRenderStatus method [DirectShow],IAMVideoAccelerator interface, Zero, dshow.iamvideoaccelerator_queryrenderstatus, videoacc/IAMVideoAccelerator::QueryRenderStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

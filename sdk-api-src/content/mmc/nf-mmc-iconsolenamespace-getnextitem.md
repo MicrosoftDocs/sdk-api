@@ -2,13 +2,13 @@
 UID: NF:mmc.IConsoleNameSpace.GetNextItem
 title: IConsoleNameSpace::GetNextItem
 author: windows-sdk-content
-description: The IConsoleNameSpace2::GetNextItem method enables the snap-in to retrieve the handle to the next item in the scope view.
-old-location: mmc\iconsolenamespace2_getnextitem.htm
+description: Enables the snap-in to retrieve the handle to the next item in the scope view.
+old-location: mmc\iconsolenamespace_getnextitem.htm
 tech.root: mmc
-ms.assetid: 8d512370-bfe5-4a5a-b34b-c1096b6473a3
+ms.assetid: E11BB91A-C0A3-4270-92B6-A05D24247B4A
 ms.author: windowssdkdev
-ms.date: 08/14/2018
-ms.keywords: GetNextItem, GetNextItem method [MMC], GetNextItem method [MMC],IConsoleNameSpace interface, GetNextItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],GetNextItem method, IConsoleNameSpace.GetNextItem, IConsoleNameSpace2 interface [MMC],GetNextItem method, IConsoleNameSpace2::GetNextItem, IConsoleNameSpace::GetNextItem, _slate_iconsolenamespace2_getnextitem, mmc.iconsolenamespace2_getnextitem, mmc/IConsoleNameSpace2::GetNextItem, mmc/IConsoleNameSpace::GetNextItem
+ms.date: 09/04/2018
+ms.keywords: GetNextItem, GetNextItem method [MMC], GetNextItem method [MMC],IConsoleNameSpace interface, IConsoleNameSpace interface [MMC],GetNextItem method, IConsoleNameSpace.GetNextItem, IConsoleNameSpace::GetNextItem, mmc.iconsolenamespace_getnextitem, mmc/IConsoleNameSpace::GetNextItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mmc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -38,7 +38,6 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IConsoleNameSpace.GetNextItem
- - IConsoleNameSpace2.GetNextItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IConsoleNameSpace2::GetNextItem</b> method enables the snap-in to retrieve the handle to the next item in the scope view.
+Enables the snap-in to retrieve the handle to the next item in the scope view.
 
 
 ## -parameters
@@ -104,7 +103,7 @@ If there is no item next to the given item, <b>NULL</b> is returned.
 
 
 
-<a href="https://msdn.microsoft.com/894f99a6-2189-458d-a50f-497930d4a9dd">IConsoleNameSpace2</a>
+<a href="https://msdn.microsoft.com/444bc86d-bfd2-435c-b9fb-691c4da92411">IConsoleNameSpace</a>
  
 
  

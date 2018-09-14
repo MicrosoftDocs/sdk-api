@@ -4,10 +4,10 @@ title: IDVBTLocator::get_Guard
 author: windows-sdk-content
 description: The get_Guard method retrieves the guard interval.
 old-location: mstv\idvbtlocator_get_guard.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 74b56292-eb9e-4c66-9345-f348b3d21c19
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_Guard method, IDVBTLocator.get_Guard, IDVBTLocator::get_Guard, IDVBTLocatorget_Guard, get_Guard, get_Guard method [Microsoft TV Technologies], get_Guard method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_guard, tuner/IDVBTLocator::get_Guard
 ms.prod: windows-hardware
 ms.technology: windows-devices

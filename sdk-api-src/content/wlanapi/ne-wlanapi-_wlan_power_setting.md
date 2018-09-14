@@ -4,10 +4,10 @@ title: "_WLAN_POWER_SETTING"
 author: windows-sdk-content
 description: Specifies the power setting of an interface.
 old-location: nwifi\wlan_power_setting.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: f2509c87-8a2a-4e6e-9995-e824a17e7083
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWLAN_POWER_SETTING, PWLAN_POWER_SETTING, PWLAN_POWER_SETTING enumeration pointer [NativeWIFI], WLAN_POWER_SETTING, WLAN_POWER_SETTING enumeration [NativeWIFI], _WLAN_POWER_SETTING, nwifi.wlan_power_setting, wlan_power_setting_invalid, wlan_power_setting_low_saving, wlan_power_setting_maximum_saving, wlan_power_setting_medium_saving, wlan_power_setting_no_saving, wlanapi/PWLAN_POWER_SETTING, wlanapi/WLAN_POWER_SETTING, wlanapi/wlan_power_setting_invalid, wlanapi/wlan_power_setting_low_saving, wlanapi/wlan_power_setting_maximum_saving, wlanapi/wlan_power_setting_medium_saving, wlanapi/wlan_power_setting_no_saving"
 ms.prod: windows
 ms.technology: windows-sdk

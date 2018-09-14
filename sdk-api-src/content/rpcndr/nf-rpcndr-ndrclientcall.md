@@ -4,10 +4,10 @@ title: NdrClientCall function
 author: windows-sdk-content
 description: The NdrClientCall function is the client-side entry point for the /Oicf mode stub.
 old-location: rpc\ndrclientcall.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: c7bf480a-a9c7-4d67-a7b6-cba6352b4600
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: NdrClientCall, NdrClientCall function [RPC], rpc.ndrclientcall, rpcndr/NdrClientCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

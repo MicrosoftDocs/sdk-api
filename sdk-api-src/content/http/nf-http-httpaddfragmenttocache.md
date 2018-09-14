@@ -4,10 +4,10 @@ title: HttpAddFragmentToCache function
 author: windows-sdk-content
 description: The HttpAddFragmentToCache function caches a data fragment with a specified name by which it can be retrieved, or updates data cached under a specified name.
 old-location: http\httpaddfragmenttocache.htm
-tech.root: http
+tech.root: Http
 ms.assetid: caef2e93-39cd-4282-97d9-870f8236d8c4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HttpAddFragmentToCache, HttpAddFragmentToCache function [HTTP], _http_httpaddfragmenttocache, http.httpaddfragmenttocache, http/HttpAddFragmentToCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

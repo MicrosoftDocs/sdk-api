@@ -4,10 +4,10 @@ title: IIsdbComponentGroupDescriptor
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 54ba8ca6-712f-46a1-9ed1-2b20ef8539ba
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbComponentGroupDescriptor, mstv.iisdbcomponentgroupdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

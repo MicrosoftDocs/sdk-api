@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_GetPropertyDescriptionByName.htm
 tech.root: properties
 ms.assetid: ec1b3ded-ad7f-4830-92a2-35ad5691aa10
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: GetPropertyDescriptionByName, GetPropertyDescriptionByName method [Windows Properties], GetPropertyDescriptionByName method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescriptionByName method, IPropertySystem.GetPropertyDescriptionByName, IPropertySystem::GetPropertyDescriptionByName, properties.IPropertySystem_GetPropertyDescriptionByName, propsys/IPropertySystem::GetPropertyDescriptionByName, shell.IPropertySystem_GetPropertyDescriptionByName, shell_IPropertySystem_GetPropertyDescriptionByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_BrightnessContrastParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\brightnesscontrastparams.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: BrightnessContrastParams, BrightnessContrastParams structure [GDI+], _gdiplus_STRUC_BrightnessContrastParams, gdiplus._gdiplus_STRUC_BrightnessContrastParams, gdipluseffects/BrightnessContrastParams
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devinst\sp_powermessagewake_params.htm
 tech.root: devinst
 ms.assetid: 464919bb-c146-4d29-890f-c680a1aa06b2
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: "*PSP_POWERMESSAGEWAKE_PARAMS_W, PSP_POWERMESSAGEWAKE_PARAMS, PSP_POWERMESSAGEWAKE_PARAMS structure pointer [Device and Driver Installation], SP_POWERMESSAGEWAKE_PARAMS, SP_POWERMESSAGEWAKE_PARAMS structure [Device and Driver Installation], SP_POWERMESSAGEWAKE_PARAMS_W, _SP_POWERMESSAGEWAKE_PARAMS_W, devinst.sp_powermessagewake_params, di-struct_ac0928d6-b3df-4bf2-8304-a6b03eaa63a8.xml, setupapi/PSP_POWERMESSAGEWAKE_PARAMS, setupapi/SP_POWERMESSAGEWAKE_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

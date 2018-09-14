@@ -4,10 +4,10 @@ title: IDVB_BAT::RegisterForWhenCurrent
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_registerforwhencurrent.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: d68cd8f7-e152-4105-8bc3-e9dad68e4e68
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDVB_BAT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IDVB_BAT.RegisterForWhenCurrent, IDVB_BAT::RegisterForWhenCurrent, IDVB_BATRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IDVB_BAT interface, dvbsiparser/IDVB_BAT::RegisterForWhenCurrent, mstv.idvb_bat_registerforwhencurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

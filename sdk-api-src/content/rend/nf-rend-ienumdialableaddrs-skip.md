@@ -4,10 +4,10 @@ title: IEnumDialableAddrs::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdialableaddrs_skip.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: f68fa12d-dbd3-42a2-bef1-50881d57aa27
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: IEnumDialableAddrs interface [TAPI 2.2],Skip method, IEnumDialableAddrs.Skip, IEnumDialableAddrs::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumDialableAddrs interface, _tapi3_ienumdialableaddrs_skip, rend/IEnumDialableAddrs::Skip, tapi3.ienumdialableaddrs_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

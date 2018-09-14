@@ -7,7 +7,7 @@ old-location: mbn\imbnmulticarrier_getpreferredproviders.htm
 tech.root: mbn
 ms.assetid: 91D27D4D-5838-4D6D-BECF-B336B9F3B52A
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnMultiCarrier.GetPreferredProviders, IMbnMultiCarrier::GetPreferredProviders, mbn.imbnmulticarrier_getpreferredproviders, mbnapi/IMbnMultiCarrier::GetPreferredProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices

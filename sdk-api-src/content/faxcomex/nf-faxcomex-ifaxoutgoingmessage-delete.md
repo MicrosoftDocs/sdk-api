@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_delete_cp
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_06w5.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: Delete, Delete method [Fax Service], Delete method [Fax Service],IFaxOutgoingMessage interface, IFaxOutgoingMessage interface [Fax Service],Delete method, IFaxOutgoingMessage.Delete, IFaxOutgoingMessage::Delete, _mfax_faxoutgoingmessage.delete, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_delete_cpp, fax._mfax_faxoutgoingmessage_delete, faxcomex/IFaxOutgoingMessage::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

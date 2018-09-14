@@ -4,10 +4,10 @@ title: ITextRange2::SetText2
 author: windows-sdk-content
 description: Sets the text of this range.
 old-location: controls\itextrange2_settext2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: dd7a8a16-6cb5-40ee-8f5f-e51e68785d93
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetText2 method, ITextRange2.SetText2, ITextRange2::SetText2, SetText2, SetText2 method [Windows Controls], SetText2 method [Windows Controls],ITextRange2 interface, controls.itextrange2_settext2, tom/ITextRange2::SetText2, tomCheckTextLimit, tomLanguageTag, tomMathCFCheck, tomUnhide, tomUnicodeBiDi, tomUnlink
 ms.prod: windows-hardware
 ms.technology: windows-devices

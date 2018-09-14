@@ -4,10 +4,10 @@ title: LayerParameters function
 author: windows-sdk-content
 description: Creates a D2D1_LAYER_PARAMETERS structure.
 old-location: direct2d\layerparameters.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c6a9ebca-5d60-4013-b35b-547b7f4600da
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: LayerParameters, LayerParameters function [Direct2D], d2d1helper/LayerParameters, direct2d.layerparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

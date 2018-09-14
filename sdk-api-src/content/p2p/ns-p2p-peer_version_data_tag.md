@@ -7,7 +7,7 @@ old-location: p2p\peer_version_data.htm
 tech.root: p2psdk
 ms.assetid: b212101f-8c34-41d1-92b9-4daf3591200e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: "*PPEER_VERSION_DATA, PEER_VERSION_DATA, PEER_VERSION_DATA structure [Peer Networking], PPEER_VERSION_DATA, PPEER_VERSION_DATA structure pointer [Peer Networking], p2p.peer_version_data, p2p/PPEER_VERSION_DATA, p2p/peer_version_data_tag, peer_version_data_tag"
 ms.prod: windows
 ms.technology: windows-sdk

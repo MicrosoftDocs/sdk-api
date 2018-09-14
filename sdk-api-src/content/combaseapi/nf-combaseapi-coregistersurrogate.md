@@ -7,7 +7,7 @@ old-location: com\coregistersurrogate.htm
 tech.root: com
 ms.assetid: 4d1c6ca6-ab21-429c-9433-7c95d9e757b5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: CoRegisterSurrogate, CoRegisterSurrogate function [COM], _com_CoRegisterSurrogate, com.coregistersurrogate, combaseapi/CoRegisterSurrogate
 ms.prod: windows-hardware
 ms.technology: windows-devices

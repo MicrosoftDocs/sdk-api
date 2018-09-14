@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced2_getlogclientid.htm
 tech.root: wmformat
 ms.assetid: 034ad344-2266-4662-9797-70031f58f0cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetLogClientID, GetLogClientID method [windows Media Format], GetLogClientID method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetLogClientID method, IWMReaderAdvanced2.GetLogClientID, IWMReaderAdvanced2::GetLogClientID, IWMReaderAdvanced2GetLogClientID, wmformat.iwmreaderadvanced2_getlogclientid, wmsdkidl/IWMReaderAdvanced2::GetLogClientID
 ms.prod: windows-hardware
 ms.technology: windows-devices

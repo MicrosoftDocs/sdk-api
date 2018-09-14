@@ -4,10 +4,10 @@ title: NetworkIsolationRegisterForAppContainerChanges function
 author: windows-sdk-content
 description: Is used to register for the delivery of notifications regarding changes to an app container.
 old-location: ics\networkisolationregisterforappcontainerchanges.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 2affb2a8-224c-4d2d-86e2-f194d3990dbe
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: INET_FIREWALL_AC_BINARY, INET_FIREWALL_AC_MAX, INET_FIREWALL_AC_NONE, INET_FIREWALL_AC_PACKAGE_ID_ONLY, NetworkIsolationRegisterForAppContainerChanges, NetworkIsolationRegisterForAppContainerChanges function [ICS/ICF], ics.networkisolationregisterforappcontainerchanges, networkisolation/NetworkIsolationRegisterForAppContainerChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

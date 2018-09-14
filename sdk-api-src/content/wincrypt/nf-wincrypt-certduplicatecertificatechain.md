@@ -7,7 +7,7 @@ old-location: security\certduplicatecertificatechain.htm
 tech.root: seccrypto
 ms.assetid: fea72a3e-5a22-47c7-8f6e-0d76fc3339f8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CertDuplicateCertificateChain, CertDuplicateCertificateChain function [Security], _crypto2_certduplicatecertificatechain, security.certduplicatecertificatechain, wincrypt/CertDuplicateCertificateChain
 ms.prod: windows-hardware
 ms.technology: windows-devices

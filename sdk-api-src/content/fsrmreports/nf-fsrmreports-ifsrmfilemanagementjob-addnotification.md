@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_addnotification.htm
 tech.root: fsrm
 ms.assetid: 95b41aa0-44c9-41a2-8132-6aecc4685243
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: AddNotification, AddNotification method [File Server Resource Manager], AddNotification method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],AddNotification method, IFsrmFileManagementJob.AddNotification, IFsrmFileManagementJob::AddNotification, fs.ifsrmfilemanagementjob_addnotification, fsrm.ifsrmfilemanagementjob_addnotification, fsrmreports/IFsrmFileManagementJob::AddNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

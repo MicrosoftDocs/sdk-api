@@ -4,10 +4,10 @@ title: "_WIN32_STREAM_ID"
 author: windows-sdk-content
 description: Contains stream data.
 old-location: backup\win32_stream_id_str.htm
-tech.root: backup
+tech.root: Backup
 ms.assetid: 8beb4315-ec0e-4f6f-abfe-369094f7bedd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWIN32_STREAM_ID, BACKUP_ALTERNATE_DATA, BACKUP_DATA, BACKUP_EA_DATA, BACKUP_LINK, BACKUP_OBJECT_ID, BACKUP_PROPERTY_DATA, BACKUP_REPARSE_DATA, BACKUP_SECURITY_DATA, BACKUP_SPARSE_BLOCK, BACKUP_TXFS_DATA, LPWIN32_STREAM_ID, LPWIN32_STREAM_ID structure pointer [Backup], STREAM_CONTAINS_SECURITY, STREAM_MODIFIED_WHEN_READ, WIN32_STREAM_ID, WIN32_STREAM_ID structure [Backup], _WIN32_STREAM_ID, _win32_win32_stream_id_str, backup.win32_stream_id_str, base.win32_stream_id_str, winbase/LPWIN32_STREAM_ID, winbase/WIN32_STREAM_ID"
 ms.prod: windows
 ms.technology: windows-sdk

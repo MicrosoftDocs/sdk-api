@@ -2,7 +2,7 @@
 UID: NA:evntcons
 ms.assetid: 654abb07-d907-3332-97e6-64c67f560bbb
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

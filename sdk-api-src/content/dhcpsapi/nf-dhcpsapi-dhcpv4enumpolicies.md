@@ -4,10 +4,10 @@ title: DhcpV4EnumPolicies function
 author: windows-sdk-content
 description: Enumerates the policies configured on the DHCP Server.
 old-location: dhcp\dhcpv4enumpolicies.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: c3915699-f60d-495c-81df-85dc6fe2657c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpV4EnumPolicies, DhcpV4EnumPolicies function [DHCP], dhcp.dhcpv4enumpolicies, dhcpsapi/DhcpV4EnumPolicies
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisual2_setbackfacevisibility.htm
 tech.root: directcomp
 ms.assetid: A488A0B9-3CBE-477A-9688-84A7DA43D7F6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionVisual2 interface [DirectComposition],SetBackFaceVisibility method, IDCompositionVisual2.SetBackFaceVisibility, IDCompositionVisual2::SetBackFaceVisibility, SetBackFaceVisibility, SetBackFaceVisibility method [DirectComposition], SetBackFaceVisibility method [DirectComposition],IDCompositionVisual2 interface, dcomp/IDCompositionVisual2::SetBackFaceVisibility, directcomp.idcompositionvisual2_setbackfacevisibility
 ms.prod: windows-hardware
 ms.technology: windows-devices

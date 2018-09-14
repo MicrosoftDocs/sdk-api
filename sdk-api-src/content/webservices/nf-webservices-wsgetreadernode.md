@@ -7,7 +7,7 @@ old-location: wsw\wsgetreadernode.htm
 tech.root: wsw
 ms.assetid: c8e5b5ea-f7b7-41ad-9669-7c88ec4ad28c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WsGetReaderNode, WsGetReaderNode function [Web Services for Windows], webservices/WsGetReaderNode, wsw.wsgetreadernode
 ms.prod: windows-hardware
 ms.technology: windows-devices

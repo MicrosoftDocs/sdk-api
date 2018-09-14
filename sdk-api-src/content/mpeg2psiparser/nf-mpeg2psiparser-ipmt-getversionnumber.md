@@ -4,10 +4,10 @@ title: IPMT::GetVersionNumber
 author: windows-sdk-content
 description: The GetVersionNumber method returns the version number for the PMT.
 old-location: mstv\ipmt_getversionnumber.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 00385ea4-27a9-47f4-91af-22fa82d83668
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetVersionNumber method, IPMT.GetVersionNumber, IPMT::GetVersionNumber, IPMTGetVersionNumber, mpeg2psiparser/IPMT::GetVersionNumber, mstv.ipmt_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IATSC_STT::GetTableDescriptorByIndex
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_stt_gettabledescriptorbyindex.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9f48ad31-ec6b-4d82-ba74-9901281a1857
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IATSC_STT.GetTableDescriptorByIndex, IATSC_STT::GetTableDescriptorByIndex, IATSC_STTGetTableDescriptorByIndex, atscpsipparser/IATSC_STT::GetTableDescriptorByIndex, mstv.iatsc_stt_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

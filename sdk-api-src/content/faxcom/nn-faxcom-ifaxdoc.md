@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6mub.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: IFaxDoc, IFaxDoc interface [Fax Service], IFaxDoc interface [Fax Service],described, _mfax_ifaxdoc, fax._mfax_ifaxdoc, faxcom/IFaxDoc
 ms.prod: windows
 ms.technology: windows-sdk

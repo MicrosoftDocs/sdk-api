@@ -4,10 +4,10 @@ title: NetDfsSetClientInfo function
 author: windows-sdk-content
 description: Modifies information about a Distributed File System (DFS) root or link in the cache maintained by the DFS client.
 old-location: dfs\netdfssetclientinfo.htm
-tech.root: dfs
+tech.root: Dfs
 ms.assetid: 4c95dffb-a092-45ad-9a3f-37d3abbf4427
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 101, 102, NetDfsSetClientInfo, NetDfsSetClientInfo function [Distributed File System], _win32_netdfssetclientinfo, dfs.netdfssetclientinfo, fs.netdfssetclientinfo, lmdfs/NetDfsSetClientInfo, netmgmt.netdfssetclientinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

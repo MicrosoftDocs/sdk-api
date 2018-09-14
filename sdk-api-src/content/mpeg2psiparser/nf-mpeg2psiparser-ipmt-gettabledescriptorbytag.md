@@ -4,10 +4,10 @@ title: IPMT::GetTableDescriptorByTag
 author: windows-sdk-content
 description: The GetTableDescriptorByTag method searches the PMT for a table-wide descriptor with the specified descriptor tag.
 old-location: mstv\ipmt_gettabledescriptorbytag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: e70bcffb-41ea-4f25-bb93-dc43339ae6ba
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IPMT.GetTableDescriptorByTag, IPMT::GetTableDescriptorByTag, IPMTGetTableDescriptorByTag, mpeg2psiparser/IPMT::GetTableDescriptorByTag, mstv.ipmt_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

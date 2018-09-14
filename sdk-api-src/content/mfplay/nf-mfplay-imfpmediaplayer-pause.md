@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_pause.htm
 tech.root: medfound
 ms.assetid: f6bf6896-6ed6-4135-a01d-f875bfdc72f4
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Pause method, IMFPMediaPlayer.Pause, IMFPMediaPlayer::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_pause, mfplay/IMFPMediaPlayer::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices

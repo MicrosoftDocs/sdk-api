@@ -4,10 +4,10 @@ title: IDvbDataBroadcastIDDescriptor
 author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) data broadcast ID descriptor.
 old-location: mstv\idvbdatabroadcastiddescriptor.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 8d46cffc-cb49-4749-a1b7-e05d5d90941f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDvbDataBroadcastIDDescriptor, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies], IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbDataBroadcastIDDescriptor, mstv.idvbdatabroadcastiddescriptor
 ms.prod: windows
 ms.technology: windows-sdk

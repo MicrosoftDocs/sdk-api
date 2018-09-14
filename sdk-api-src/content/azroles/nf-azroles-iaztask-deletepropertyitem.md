@@ -4,10 +4,10 @@ title: IAzTask::DeletePropertyItem
 author: windows-sdk-content
 description: Removes the specified entity from the specified list.
 old-location: security\iaztask_deletepropertyitem.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 4a9ffd54-cd1c-46ab-ab22-5c999b60d802
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AzTask object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzTask object, DeletePropertyItem method [Security],IAzTask interface, IAzTask interface [Security],DeletePropertyItem method, IAzTask.DeletePropertyItem, IAzTask::DeletePropertyItem, azroles/IAzTask::DeletePropertyItem, security.iaztask_deletepropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

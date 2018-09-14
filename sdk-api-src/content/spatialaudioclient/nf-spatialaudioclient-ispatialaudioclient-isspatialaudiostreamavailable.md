@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioclient_isspatialaudiostreamavailable.htm
 tech.root: CoreAudio
 ms.assetid: 4CE8A0D2-8B0B-4628-99DE-5B588842D7C5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: ISpatialAudioClient interface [Core Audio],IsSpatialAudioStreamAvailable method, ISpatialAudioClient.IsSpatialAudioStreamAvailable, ISpatialAudioClient::IsSpatialAudioStreamAvailable, IsSpatialAudioStreamAvailable, IsSpatialAudioStreamAvailable method [Core Audio], IsSpatialAudioStreamAvailable method [Core Audio],ISpatialAudioClient interface, coreaudio.ispatialaudioclient_isspatialaudiostreamavailable, spatialaudioclient/ISpatialAudioClient::IsSpatialAudioStreamAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

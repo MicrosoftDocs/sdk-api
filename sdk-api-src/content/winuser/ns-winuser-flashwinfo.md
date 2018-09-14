@@ -4,10 +4,10 @@ title: FLASHWINFO
 author: windows-sdk-content
 description: Contains the flash status for a window and the number of times the system should flash the window.
 old-location: base\flashwinfo_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: b16636bc-fa77-4eb9-9801-dc2cdf0556e5
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: "*PFLASHWINFO, FLASHWINFO, FLASHWINFO structure, FLASHW_ALL, FLASHW_CAPTION, FLASHW_STOP, FLASHW_TIMER, FLASHW_TIMERNOFG, FLASHW_TRAY, PFLASHWINFO, PFLASHWINFO structure pointer, _win32_flashwinfo_str, base.flashwinfo_str, winuser/FLASHWINFO, winuser/PFLASHWINFO"
 ms.prod: windows
 ms.technology: windows-sdk

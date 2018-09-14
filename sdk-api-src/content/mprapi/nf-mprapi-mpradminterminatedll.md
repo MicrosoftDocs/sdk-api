@@ -4,10 +4,10 @@ title: MprAdminTerminateDll function
 author: windows-sdk-content
 description: When the RAS shuts down, it calls the MprAdminTerminateDll function exported by the administration DLL. Use this function to perform any required clean-up for the DLL.
 old-location: rras\mpradminterminatedll.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 7be485ce-fd45-4968-9e9d-2128d5a8967d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MprAdminTerminateDll, MprAdminTerminateDll callback, MprAdminTerminateDll callback function [RAS], _mpr_mpradminterminatedll, mprapi/MprAdminTerminateDll, rras.mpradminterminatedll
 ms.prod: windows-hardware
 ms.technology: windows-devices

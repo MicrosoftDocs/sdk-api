@@ -7,7 +7,7 @@ old-location: automat\vari4fromui2.htm
 tech.root: automat
 ms.assetid: 5703927e-97a2-405a-9a2e-c1e2722c2845
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: VarI4FromUI2, VarI4FromUI2 function [Automation], _oa96_VarI4FromUI2, automat.vari4fromui2, oleauto/VarI4FromUI2
 ms.prod: windows-hardware
 ms.technology: windows-devices

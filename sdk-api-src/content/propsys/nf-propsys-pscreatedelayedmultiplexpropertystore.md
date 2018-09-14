@@ -7,7 +7,7 @@ old-location: properties\PSCreateDelayedMultiplexPropertyStore.htm
 tech.root: properties
 ms.assetid: 8b264d7e-6124-4724-8d23-605101705893
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: PSCreateDelayedMultiplexPropertyStore, PSCreateDelayedMultiplexPropertyStore function [Windows Properties], _shell_PSCreateDelayedMultiplexPropertyStore, properties.PSCreateDelayedMultiplexPropertyStore, propsys/PSCreateDelayedMultiplexPropertyStore, shell.PSCreateDelayedMultiplexPropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

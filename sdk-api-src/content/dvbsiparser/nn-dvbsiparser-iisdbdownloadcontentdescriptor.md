@@ -4,10 +4,10 @@ title: IIsdbDownloadContentDescriptor
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: beef626c-64b1-4f49-bb21-69022907004d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbDownloadContentDescriptor, mstv.iisdbdownloadcontentdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

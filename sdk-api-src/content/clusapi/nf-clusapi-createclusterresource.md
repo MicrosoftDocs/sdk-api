@@ -7,7 +7,7 @@ old-location: mscs\createclusterresource.htm
 tech.root: mscs
 ms.assetid: c9fe8fa8-57d7-4866-8113-694dc44dae22
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CLUSTER_RESOURCE_DEFAULT_MONITOR, CLUSTER_RESOURCE_SEPARATE_MONITOR, CreateClusterResource, CreateClusterResource function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_RESOURCE, PCLUSAPI_CREATE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_createclusterresource, clusapi/CreateClusterResource, clusapi/PCLUSAPI_CREATE_CLUSTER_RESOURCE, mscs.createclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

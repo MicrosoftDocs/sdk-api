@@ -4,10 +4,10 @@ title: ICertPropertyDescription
 author: windows-sdk-content
 description: Enables you to specify and retrieve a string that contains descriptive information for a certificate.
 old-location: security\icertpropertydescription.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 229e8ce9-fe18-45f4-8f91-cd741052a134
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICertPropertyDescription, ICertPropertyDescription interface [Security], ICertPropertyDescription interface [Security],described, certenroll/ICertPropertyDescription, security.icertpropertydescription
 ms.prod: windows
 ms.technology: windows-sdk

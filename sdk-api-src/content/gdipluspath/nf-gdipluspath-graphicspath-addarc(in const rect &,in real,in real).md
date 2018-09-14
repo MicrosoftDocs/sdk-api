@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddArc_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddarcmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: AddArc, AddArc methods [GDI+], GraphicsPath.AddArc, GraphicsPath.AddArc(IN const Rect &,IN REAL,IN REAL), GraphicsPath::AddArc, GraphicsPath::AddArc(IN const Rect &,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddArc_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddArc_Methods, gdipluspath/AddArc
 ms.prod: windows-hardware
 ms.technology: windows-devices

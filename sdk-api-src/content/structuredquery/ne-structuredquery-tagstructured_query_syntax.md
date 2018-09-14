@@ -7,7 +7,7 @@ old-location: search\_search_STRUCTURED_QUERY_SYNTAX.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\structured_query_syntax.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: SQS_ADVANCED_QUERY_SYNTAX, SQS_NATURAL_QUERY_SYNTAX, SQS_NO_SYNTAX, STRUCTURED_QUERY_SYNTAX, STRUCTURED_QUERY_SYNTAX enumeration [search], _search_STRUCTURED_QUERY_SYNTAX, search._search_STRUCTURED_QUERY_SYNTAX, structuredquery/SQS_ADVANCED_QUERY_SYNTAX, structuredquery/SQS_NATURAL_QUERY_SYNTAX, structuredquery/SQS_NO_SYNTAX, structuredquery/STRUCTURED_QUERY_SYNTAX, tagSTRUCTURED_QUERY_SYNTAX
 ms.prod: windows
 ms.technology: windows-sdk

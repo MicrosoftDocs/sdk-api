@@ -4,10 +4,10 @@ title: RpcServerUseProtseqEpEx function
 author: windows-sdk-content
 description: The RpcServerUseProtseqEpEx function tells the RPC run-time library to use the specified protocol sequence combined with the specified endpoint for receiving remote procedure calls.
 old-location: rpc\rpcserveruseprotseqepex.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: c5bc52c5-9799-4fab-89fa-a680639a229f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: RpcServerUseProtseqEpEx, RpcServerUseProtseqEpEx function [RPC], RpcServerUseProtseqEpExA, RpcServerUseProtseqEpExW, _rpc_rpcserveruseprotseqepex, rpc.rpcserveruseprotseqepex, rpcdce/RpcServerUseProtseqEpEx, rpcdce/RpcServerUseProtseqEpExA, rpcdce/RpcServerUseProtseqEpExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -219,7 +219,7 @@ For more information, see
 <a href="https://msdn.microsoft.com/a33b51e7-2ded-46bd-aadb-27cbd99e1029">Configuring the Registry for Port Allocations and Selective Binding</a>, and 
 <a href="https://msdn.microsoft.com/f1c8665b-3754-4c2e-b3ac-bba1f4b329e1">RPC Message Queuing</a> and the MIDL reference pages 
 <a href="https://msdn.microsoft.com/ec616bf5-a845-4e7e-9f39-20947d2074f7">message</a> and 
-<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a>.
+<a href="https://msdn.microsoft.com/">ncadg_mq</a>.
 
 
 

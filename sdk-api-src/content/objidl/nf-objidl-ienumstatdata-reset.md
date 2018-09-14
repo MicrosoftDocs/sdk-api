@@ -7,7 +7,7 @@ old-location: com\ienumstatdata_reset.htm
 tech.root: com
 ms.assetid: 239edaf7-9e4c-4652-a2d8-08b798ed22ee
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IEnumSTATDATA interface [COM],Reset method, IEnumSTATDATA.Reset, IEnumSTATDATA::Reset, Reset, Reset method [COM], Reset method [COM],IEnumSTATDATA interface, _ole_ienumstatdata_reset, com.ienumstatdata_reset, objidl/IEnumSTATDATA::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

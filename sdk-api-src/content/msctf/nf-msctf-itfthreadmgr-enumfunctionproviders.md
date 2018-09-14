@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr_enumfunctionproviders.htm
 tech.root: TSF
 ms.assetid: 6581cd4d-75ad-4a2c-a919-8e2eed6b3939
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: EnumFunctionProviders, EnumFunctionProviders method [Text Services Framework], EnumFunctionProviders method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],EnumFunctionProviders method, ITfThreadMgr.EnumFunctionProviders, ITfThreadMgr::EnumFunctionProviders, _tsf_itfthreadmgr_enumfunctionproviders_ref, msctf/ITfThreadMgr::EnumFunctionProviders, tsf.itfthreadmgr_enumfunctionproviders
 ms.prod: windows-hardware
 ms.technology: windows-devices

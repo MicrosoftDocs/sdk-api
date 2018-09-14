@@ -7,7 +7,7 @@ old-location: pla\ialertdatacollector.htm
 tech.root: PLA
 ms.assetid: 61907979-fa4a-45da-96c5-7cd12021fbb7
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IAlertDataCollector, IAlertDataCollector interface [PLA], IAlertDataCollector interface [PLA],described, base.ialertdatacollector, pla.ialertdatacollector, pla/IAlertDataCollector
 ms.prod: windows
 ms.technology: windows-sdk

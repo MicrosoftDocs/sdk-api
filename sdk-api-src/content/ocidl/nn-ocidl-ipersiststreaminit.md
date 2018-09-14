@@ -7,7 +7,7 @@ old-location: com\ipersiststreaminit.htm
 tech.root: com
 ms.assetid: 49c413b3-3523-4602-9ec1-19f4e0fe5651
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IPersistStreamInit, IPersistStreamInit interface [COM], IPersistStreamInit interface [COM],described, _com_ipersiststreaminit, com.ipersiststreaminit, ocidl/IPersistStreamInit
 ms.prod: windows
 ms.technology: windows-sdk

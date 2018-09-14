@@ -7,7 +7,7 @@ old-location: parcon\iwindowsparentalcontrols_getwebfilterinfo.htm
 tech.root: parcon
 ms.assetid: 5073f335-fe55-43db-9186-aaa675384ea3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetWebFilterInfo, GetWebFilterInfo method, GetWebFilterInfo method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetWebFilterInfo method, IWindowsParentalControlsCore.GetWebFilterInfo, IWindowsParentalControlsCore::GetWebFilterInfo, parcon.iwindowsparentalcontrols_getwebfilterinfo, wpcapi/IWindowsParentalControlsCore::GetWebFilterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

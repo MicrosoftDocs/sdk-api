@@ -4,10 +4,10 @@ title: IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS
 author: windows-sdk-content
 description: This IOCTL code is nevtot supported.
 old-location: buses\ioctl_genericusbfn_deactivate_usb_bus.htm
-tech.root: usbref
+tech.root: UsbRef
 ms.assetid: 07F56732-590F-42B8-9939-5E02ED2A3EF0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS, IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS control, IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS control code [Buses], buses.ioctl_genericusbfn_deactivate_usb_bus, genericusbfnioctl/IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS
 ms.prod: windows
 ms.technology: windows-sdk

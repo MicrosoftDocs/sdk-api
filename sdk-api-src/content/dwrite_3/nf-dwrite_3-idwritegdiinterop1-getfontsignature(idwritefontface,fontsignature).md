@@ -7,7 +7,7 @@ old-location: directwrite\idwritegdiinterop1_getfontsignature.htm
 tech.root: DirectWrite
 ms.assetid: 205EC8E6-233B-4ADB-B6B5-E052CF75277A
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: GetFontSignature, GetFontSignature method [Direct Write], GetFontSignature method [Direct Write],IDWriteGdiInterop1 interface, IDWriteGdiInterop1 interface [Direct Write],GetFontSignature method, IDWriteGdiInterop1.GetFontSignature, IDWriteGdiInterop1.GetFontSignature(IDWriteFontFace,FONTSIGNATURE), IDWriteGdiInterop1::GetFontSignature, IDWriteGdiInterop1::GetFontSignature(IDWriteFontFace,FONTSIGNATURE), directwrite.idwritegdiinterop1_getfontsignature, dwrite_3/IDWriteGdiInterop1::GetFontSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

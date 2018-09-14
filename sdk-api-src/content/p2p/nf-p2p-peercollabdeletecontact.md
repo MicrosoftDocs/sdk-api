@@ -7,7 +7,7 @@ old-location: p2p\peercollabdeletecontact.htm
 tech.root: p2psdk
 ms.assetid: b901ec82-69d2-4a1c-b316-37f209af2b19
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerCollabDeleteContact, PeerCollabDeleteContact function [Peer Networking], p2p.peercollabdeletecontact, p2p/PeerCollabDeleteContact
 ms.prod: windows-hardware
 ms.technology: windows-devices

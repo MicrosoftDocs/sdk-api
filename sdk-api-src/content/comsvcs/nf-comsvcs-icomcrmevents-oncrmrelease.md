@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmrelease.htm
 tech.root: cossdk
 ms.assetid: e97b6cbf-1e78-475b-9dc7-baa4c05f1a6b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMRelease method, IComCRMEvents.OnCRMRelease, IComCRMEvents::OnCRMRelease, OnCRMRelease, OnCRMRelease method [COM+], OnCRMRelease method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMRelease, comsvcs/IComCRMEvents::OnCRMRelease, cos.icomcrmevents_oncrmrelease
 ms.prod: windows-hardware
 ms.technology: windows-devices

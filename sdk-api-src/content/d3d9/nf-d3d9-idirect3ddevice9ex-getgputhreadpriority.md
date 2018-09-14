@@ -4,10 +4,10 @@ title: IDirect3DDevice9Ex::GetGPUThreadPriority
 author: windows-sdk-content
 description: Get the priority of the GPU thread.
 old-location: direct3d9\idirect3ddevice9ex_getgputhreadpriority.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_getgputhreadpriority.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: GetGPUThreadPriority, GetGPUThreadPriority method [Direct3D 9], GetGPUThreadPriority method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],GetGPUThreadPriority method, IDirect3DDevice9Ex.GetGPUThreadPriority, IDirect3DDevice9Ex::GetGPUThreadPriority, d3d9/IDirect3DDevice9Ex::GetGPUThreadPriority, direct3d9.idirect3ddevice9ex_getgputhreadpriority, f7f920d1-5b01-e016-bbe8-663d05696c0e
 ms.prod: windows-hardware
 ms.technology: windows-devices

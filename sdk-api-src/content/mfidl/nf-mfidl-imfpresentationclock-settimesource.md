@@ -7,7 +7,7 @@ old-location: mf\imfpresentationclock_settimesource.htm
 tech.root: medfound
 ms.assetid: 170b7c8e-9d1a-4168-964a-5fd057d1e8f9
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 170b7c8e-9d1a-4168-964a-5fd057d1e8f9, IMFPresentationClock interface [Media Foundation],SetTimeSource method, IMFPresentationClock.SetTimeSource, IMFPresentationClock::SetTimeSource, SetTimeSource, SetTimeSource method [Media Foundation], SetTimeSource method [Media Foundation],IMFPresentationClock interface, mf.imfpresentationclock_settimesource, mfidl/IMFPresentationClock::SetTimeSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

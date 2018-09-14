@@ -4,10 +4,10 @@ title: ITextDocument::Save
 author: windows-sdk-content
 description: Saves the document.
 old-location: controls\ITextDocument_Save.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\save.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITextDocument interface [Windows Controls],Save method, ITextDocument.Save, ITextDocument::Save, Save, Save method [Windows Controls], Save method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Save, _win32_ITextDocument_Save_cpp, controls.ITextDocument_Save, controls._win32_ITextDocument_Save, tom/ITextDocument::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices

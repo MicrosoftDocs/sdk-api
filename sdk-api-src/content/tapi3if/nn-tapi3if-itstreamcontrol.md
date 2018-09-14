@@ -4,10 +4,10 @@ title: ITStreamControl
 author: windows-sdk-content
 description: The ITStreamControl interface represents the media streaming features of a call and exposes methods that allow an application to enumerate, create, or remove streams.
 old-location: tapi3\itstreamcontrol.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 12b9457a-7afb-4348-93a2-28728c673929
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITStreamControl, ITStreamControl interface [TAPI 2.2], ITStreamControl interface [TAPI 2.2],described, _tapi3_itstreamcontrol, tapi3.itstreamcontrol, tapi3if/ITStreamControl
 ms.prod: windows
 ms.technology: windows-sdk

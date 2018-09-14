@@ -7,7 +7,7 @@ old-location: gpmc\igpmsitescontainer.htm
 tech.root: GPMC
 ms.assetid: e3fdfd44-9e90-4206-b7e9-97d4ed6eb8af
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GPMSitesContainer, IGPMSitesContainer, IGPMSitesContainer interface [GPMC], IGPMSitesContainer interface [GPMC],described, _win32_igpmsitescontainer, gpmc.igpmsitescontainer, gpmgmt/IGPMSitesContainer
 ms.prod: windows
 ms.technology: windows-sdk

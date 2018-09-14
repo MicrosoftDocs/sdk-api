@@ -7,7 +7,7 @@ old-location: wsw\wsfillbody.htm
 tech.root: wsw
 ms.assetid: fe70338d-d2bf-4126-96b2-30ef6ebfa74d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WsFillBody, WsFillBody function [Web Services for Windows], webservices/WsFillBody, wsw.wsfillbody
 ms.prod: windows-hardware
 ms.technology: windows-devices

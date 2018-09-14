@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectionprofilemanagerevents_onconnectionprofileremoval.
 tech.root: mbn
 ms.assetid: 30b8c7fb-5a48-4025-aa94-18f17e7c8d19
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks],OnConnectionProfileRemoval method, IMbnConnectionProfileManagerEvents.OnConnectionProfileRemoval, IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval, OnConnectionProfileRemoval, OnConnectionProfileRemoval method [Microsoft Broadband Networks], OnConnectionProfileRemoval method [Microsoft Broadband Networks],IMbnConnectionProfileManagerEvents interface, mbn.imbnconnectionprofilemanagerevents_onconnectionprofileremoval, mbnapi/IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices

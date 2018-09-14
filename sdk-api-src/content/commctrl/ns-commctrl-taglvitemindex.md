@@ -4,10 +4,10 @@ title: tagLVITEMINDEX
 author: windows-sdk-content
 description: Contains index information about a list-view item.
 old-location: controls\LVITEMINDEX.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvitemindex.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*PLVITEMINDEX, LVITEMINDEX, LVITEMINDEX structure [Windows Controls], PLVITEMINDEX, PLVITEMINDEX structure pointer [Windows Controls], _shell_LVITEMINDEX, _shell_LVITEMINDEX_cpp, commctrl/LVITEMINDEX, commctrl/PLVITEMINDEX, controls.LVITEMINDEX, controls._shell_LVITEMINDEX, tagLVITEMINDEX"
 ms.prod: windows
 ms.technology: windows-sdk

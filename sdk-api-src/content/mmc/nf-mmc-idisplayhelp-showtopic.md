@@ -7,7 +7,7 @@ old-location: mmc\idisplayhelp_showtopic.htm
 tech.root: mmc
 ms.assetid: 184adc09-8b48-4a2e-bbd9-ec6bd9085c32
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IDisplayHelp interface [MMC],ShowTopic method, IDisplayHelp.ShowTopic, IDisplayHelp::ShowTopic, ShowTopic, ShowTopic method [MMC], ShowTopic method [MMC],IDisplayHelp interface, _slate_idisplayhelp_showtopic, mmc.idisplayhelp_showtopic, mmc/IDisplayHelp::ShowTopic
 ms.prod: windows-hardware
 ms.technology: windows-devices

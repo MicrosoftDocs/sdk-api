@@ -4,10 +4,10 @@ title: ITextPara::SetListStart
 author: windows-sdk-content
 description: Sets the starting number or Unicode value for a numbered list.
 old-location: controls\ITextPara_SetListStart.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setliststart.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListStart method, ITextPara.SetListStart, ITextPara::SetListStart, SetListStart, SetListStart method [Windows Controls], SetListStart method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListStart, _win32_ITextPara_SetListStart_cpp, controls.ITextPara_SetListStart, controls._win32_ITextPara_SetListStart, tom/ITextPara::SetListStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

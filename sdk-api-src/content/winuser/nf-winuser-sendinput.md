@@ -7,7 +7,7 @@ old-location: inputdev\sendinput.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\sendinput.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: SendInput, SendInput function [Keyboard and Mouse Input], _win32_SendInput, _win32_sendinput_cpp, inputdev.sendinput, winui._win32_sendinput, winuser/SendInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_addmessage.htm
 tech.root: direct3d12
 ms.assetid: 34AAF9BB-5340-4DB3-87B9-6C26AB6C881C
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: AddMessage, AddMessage method, AddMessage method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,AddMessage method, ID3D12InfoQueue.AddMessage, ID3D12InfoQueue::AddMessage, d3d12sdklayers/ID3D12InfoQueue::AddMessage, direct3d12.id3d12infoqueue_addmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\wsaddressmessage.htm
 tech.root: wsw
 ms.assetid: 30b2dbd1-7232-4ff1-b30a-920df8bfe423
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WsAddressMessage, WsAddressMessage function [Web Services for Windows], webservices/WsAddressMessage, wsw.wsaddressmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

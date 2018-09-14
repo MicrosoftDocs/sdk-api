@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_priority_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0515.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: IFaxPort interface [Fax Service],Priority property, IFaxPort.Priority, IFaxPort.put_Priority, IFaxPort::Priority, IFaxPort::get_Priority, IFaxPort::put_Priority, Priority property [Fax Service], Priority property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_priority, fax._mfax_ifaxport_get_priority, fax._mfax_ifaxport_mfax_ifaxport_get_priority_cpp, faxcom/IFaxPort::Priority, faxcom/IFaxPort::get_Priority, faxcom/IFaxPort::put_Priority, put_Priority
 ms.prod: windows-hardware
 ms.technology: windows-devices

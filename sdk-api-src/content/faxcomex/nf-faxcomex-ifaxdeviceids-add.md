@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdeviceids_cpp_mfax_faxdeviceids_add_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4g2s.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxDeviceIds interface, IFaxDeviceIds interface [Fax Service],Add method, IFaxDeviceIds.Add, IFaxDeviceIds::Add, _mfax_faxdeviceids.add, fax._mfax_faxdeviceids_add, fax._mfax_faxdeviceids_cpp_mfax_faxdeviceids_add_cpp, faxcomex/IFaxDeviceIds::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_getstrokethickness.htm
 tech.root: printdocs
 ms.assetid: 5c1d8179-99e6-4335-8777-56b6873f746b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetStrokeThickness, GetStrokeThickness method [XPS Documents and Packaging], GetStrokeThickness method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeThickness method, IXpsOMPath.GetStrokeThickness, IXpsOMPath::GetStrokeThickness, xps.ixpsompath_getstrokethickness, xpsobjectmodel/IXpsOMPath::GetStrokeThickness
 ms.prod: windows-hardware
 ms.technology: windows-devices

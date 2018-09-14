@@ -7,7 +7,7 @@ old-location: mf\imfratecontrol.htm
 tech.root: medfound
 ms.assetid: 54303c32-b260-4364-9130-a592694f2816
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 54303c32-b260-4364-9130-a592694f2816, IMFRateControl, IMFRateControl interface [Media Foundation], IMFRateControl interface [Media Foundation],described, mf.imfratecontrol, mfidl/IMFRateControl
 ms.prod: windows
 ms.technology: windows-sdk

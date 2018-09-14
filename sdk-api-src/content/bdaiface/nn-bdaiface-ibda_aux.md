@@ -4,10 +4,10 @@ title: IBDA_AUX
 author: windows-sdk-content
 description: Gets the capabilities of a device's auxiliary input connectors. This interface provides access to a device's Aux Service.
 old-location: mstv\ibda_aux.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 8397a04f-5d40-4fa3-ac02-79c764abd174
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_AUX, IBDA_AUX interface [Microsoft TV Technologies], IBDA_AUX interface [Microsoft TV Technologies],described, bdaiface/IBDA_AUX, mstv.ibda_aux
 ms.prod: windows
 ms.technology: windows-sdk

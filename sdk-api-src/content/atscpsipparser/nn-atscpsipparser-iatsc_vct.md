@@ -4,10 +4,10 @@ title: IATSC_VCT
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 3ff9cd6e-0d25-462c-93a7-2399395f68b0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], IATSC_VCT interface [Microsoft TV Technologies],described, IATSC_VCTInterface, atscpsipparser/IATSC_VCT, mstv.iatsc_vct
 ms.prod: windows
 ms.technology: windows-sdk

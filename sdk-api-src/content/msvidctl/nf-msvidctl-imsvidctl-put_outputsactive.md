@@ -4,10 +4,10 @@ title: IMSVidCtl::put_OutputsActive
 author: windows-sdk-content
 description: The put_OutputsActive method specifies the active output devices.
 old-location: mstv\imsvidctl_put_outputsactive.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 636cedef-f6e5-40f2-8f1c-9f886d618ad0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_OutputsActive method, IMSVidCtl.put_OutputsActive, IMSVidCtl::put_OutputsActive, IMSVidCtlput_OutputsActive, mstv.imsvidctl_put_outputsactive, msvidctl/IMSVidCtl::put_OutputsActive, put_OutputsActive, put_OutputsActive method [Microsoft TV Technologies], put_OutputsActive method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

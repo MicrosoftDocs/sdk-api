@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetTransform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\gettransform_69matrix.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetTransform method, PathGradientBrush.GetTransform, PathGradientBrush::GetTransform, _gdiplus_CLASS_PathGradientBrush_GetTransform_matrix_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetTransform_matrix_
 ms.prod: windows-hardware
 ms.technology: windows-devices

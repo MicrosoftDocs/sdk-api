@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilegroupimported.htm
 tech.root: fsrm
 ms.assetid: fb4f6b03-01cc-4855-8bc7-de5191068040
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmFileGroupImported, IFsrmFileGroupImported interface [File Server Resource Manager], IFsrmFileGroupImported interface [File Server Resource Manager],described, fs.ifsrmfilegroupimported, fsrm.ifsrmfilegroupimported, fsrm/IFsrmFileGroupImported
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\idirect3ddevicemanager9_lockdevice.htm
 tech.root: medfound
 ms.assetid: 51631747-04af-448e-97cf-25a329d4fbb4
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 51631747-04af-448e-97cf-25a329d4fbb4, IDirect3DDeviceManager9 interface [Media Foundation],LockDevice method, IDirect3DDeviceManager9.LockDevice, IDirect3DDeviceManager9::LockDevice, LockDevice, LockDevice method [Media Foundation], LockDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::LockDevice, mf.idirect3ddevicemanager9_lockdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

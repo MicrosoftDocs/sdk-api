@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_inheritsfrom.htm
 tech.root: WmiSdk
 ms.assetid: 05431e05-440e-4241-bde9-0dbd32039921
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],InheritsFrom method, IWbemClassObject.InheritsFrom, IWbemClassObject::InheritsFrom, InheritsFrom, InheritsFrom method [Windows Management Instrumentation], InheritsFrom method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_inheritsfrom, wbemcli/IWbemClassObject::InheritsFrom, wmi.iwbemclassobject_inheritsfrom
 ms.prod: windows-hardware
 ms.technology: windows-devices

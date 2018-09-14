@@ -4,10 +4,10 @@ title: IX509Enrollment::Enroll
 author: windows-sdk-content
 description: Encodes a request, submits it to an appropriate certification authority (CA), and installs the response.
 old-location: security\ix509enrollment_enroll_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 63abecac-39f4-497a-8851-7a2260abc3dd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Enroll, Enroll method [Security], Enroll method [Security],IX509Enrollment interface, IX509Enrollment interface [Security],Enroll method, IX509Enrollment.Enroll, IX509Enrollment::Enroll, certenroll/IX509Enrollment::Enroll, security.ix509enrollment_enroll_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

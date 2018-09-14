@@ -2,7 +2,7 @@
 UID: NA:processthreadsapi
 ms.assetid: 6e439d03-d612-3aad-a0fa-8a77449a3900
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

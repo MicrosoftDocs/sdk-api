@@ -7,7 +7,7 @@ old-location: hid\ioctl_keyboard_set_indicators.htm
 tech.root: hid
 ms.assetid: 25631717-8aee-4eac-8337-46b13aa714a4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IOCTL_KEYBOARD_SET_INDICATORS, IOCTL_KEYBOARD_SET_INDICATORS control, IOCTL_KEYBOARD_SET_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_set_indicators, kref_de568d6c-e4d3-494b-a4fc-c5537e7b59b9.xml, ntddkbd/IOCTL_KEYBOARD_SET_INDICATORS
 ms.prod: windows
 ms.technology: windows-sdk

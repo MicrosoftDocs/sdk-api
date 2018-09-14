@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectiontype_getnuminterfaces.htm
 tech.root: direct3d11
 ms.assetid: d4f3d671-3f3b-4273-afef-9b0ddc61f83d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 79155c21-6096-6e00-a9ec-bc54062bd29f, GetNumInterfaces, GetNumInterfaces method [Direct3D 11], GetNumInterfaces method [Direct3D 11],ID3D11ShaderReflectionType interface, ID3D11ShaderReflectionType interface [Direct3D 11],GetNumInterfaces method, ID3D11ShaderReflectionType.GetNumInterfaces, ID3D11ShaderReflectionType::GetNumInterfaces, d3d11shader/ID3D11ShaderReflectionType::GetNumInterfaces, direct3d11.id3d11shaderreflectiontype_getnuminterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

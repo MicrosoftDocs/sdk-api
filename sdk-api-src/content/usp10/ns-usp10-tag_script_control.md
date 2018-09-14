@@ -7,7 +7,7 @@ old-location: intl\script_control.htm
 tech.root: Intl
 ms.assetid: 4623f606-f67e-48ad-8c1d-d27da5ba556c
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/30/2018
 ms.keywords: FALSE, SCRIPT_CONTROL, SCRIPT_CONTROL structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_CONTROL_str, intl.script_control, tag_SCRIPT_CONTROL, usp10/SCRIPT_CONTROL
 ms.prod: windows
 ms.technology: windows-sdk

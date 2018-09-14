@@ -4,10 +4,10 @@ title: IDVB_BAT::GetRecordCountOfDescriptors
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_getrecordcountofdescriptors.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: d3ef02f2-a593-4439-a460-e2b5fcd0ef70
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IDVB_BAT.GetRecordCountOfDescriptors, IDVB_BAT::GetRecordCountOfDescriptors, IDVB_BATGetRecordCountOfDescriptors, dvbsiparser/IDVB_BAT::GetRecordCountOfDescriptors, mstv.idvb_bat_getrecordcountofdescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

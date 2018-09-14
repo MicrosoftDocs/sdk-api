@@ -7,7 +7,7 @@ old-location: ncd\iproviderpropertyconstraintcollection_skip.htm
 tech.root: fundisc
 ms.assetid: 8e14bddc-d2ae-41a6-b927-15bdfd3bc598
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Skip method, IProviderPropertyConstraintCollection.Skip, IProviderPropertyConstraintCollection::Skip, Skip, Skip method, Skip method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Skip, ncd.iproviderpropertyconstraintcollection_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

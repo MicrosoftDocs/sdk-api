@@ -4,10 +4,10 @@ title: GetFeatureVariant function
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\getfeaturevariant.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: CEB545DB-321A-4FE6-B182-DC7F6B37D665
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetFeatureVariant, GetFeatureVariant function [Windows API], featurestagingapi/GetFeatureVariant, winprog.getfeaturevariant
 ms.prod: windows-hardware
 ms.technology: windows-devices

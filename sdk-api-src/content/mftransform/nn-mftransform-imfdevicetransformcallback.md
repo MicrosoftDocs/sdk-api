@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransformcallback.htm
 tech.root: stream
 ms.assetid: F603F92A-9233-4786-9DE8-AE10BA981DE3
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: IMFDeviceTransformCallback, IMFDeviceTransformCallback interface [Streaming Media Devices], IMFDeviceTransformCallback interface [Streaming Media Devices],described, mftransform/IMFDeviceTransformCallback, stream.imfdevicetransformcallback
 ms.prod: windows
 ms.technology: windows-sdk

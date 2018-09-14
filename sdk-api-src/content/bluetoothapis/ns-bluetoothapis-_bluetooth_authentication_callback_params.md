@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_authentication_callback_params.htm
 tech.root: bluetooth
 ms.assetid: e9c703c1-7981-4c34-a96e-0123d3655e55
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: "*PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure [Bluetooth], PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure pointer [Bluetooth], _BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, bluetooth.bluetooth_authentication_callback_params, bluetoothapis/BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, bluetoothapis/PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

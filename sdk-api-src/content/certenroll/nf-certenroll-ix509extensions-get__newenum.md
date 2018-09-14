@@ -4,10 +4,10 @@ title: IX509Extensions::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\ix509extensions__newenum_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 73dbb02d-9d9e-4090-a879-8719cdd1dbdb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509Extensions interface [Security],_NewEnum property, IX509Extensions._NewEnum, IX509Extensions.get__NewEnum, IX509Extensions::_NewEnum, IX509Extensions::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IX509Extensions interface, certenroll/IX509Extensions::_NewEnum, certenroll/IX509Extensions::get__NewEnum, get__NewEnum, security.ix509extensions__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

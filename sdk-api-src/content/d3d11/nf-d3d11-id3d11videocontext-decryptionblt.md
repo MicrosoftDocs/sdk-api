@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_decryptionblt.htm
 tech.root: medfound
 ms.assetid: E693D97A-E21F-4133-B56A-490F92CBD945
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: DecryptionBlt, DecryptionBlt method [Media Foundation], DecryptionBlt method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecryptionBlt method, ID3D11VideoContext.DecryptionBlt, ID3D11VideoContext::DecryptionBlt, d3d11/ID3D11VideoContext::DecryptionBlt, mf.id3d11videocontext_decryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices

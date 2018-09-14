@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportscheduler.htm
 tech.root: fsrm
 ms.assetid: f3e71a39-d880-4035-a719-42ace5eeb9e0
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmReportScheduler, IFsrmReportScheduler interface [File Server Resource Manager], IFsrmReportScheduler interface [File Server Resource Manager],described, fs.ifsrmreportscheduler, fsrm.ifsrmreportscheduler, fsrmreports/IFsrmReportScheduler
 ms.prod: windows
 ms.technology: windows-sdk

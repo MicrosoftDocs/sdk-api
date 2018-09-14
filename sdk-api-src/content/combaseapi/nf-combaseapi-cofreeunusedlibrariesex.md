@@ -7,7 +7,7 @@ old-location: com\cofreeunusedlibrariesex.htm
 tech.root: com
 ms.assetid: 01660e9d-d8f2-40ef-a6d6-b80f0140ab5f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: CoFreeUnusedLibrariesEx, CoFreeUnusedLibrariesEx function [COM], _com_CoFreeUnusedLibrariesEx, com.cofreeunusedlibrariesex, combaseapi/CoFreeUnusedLibrariesEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

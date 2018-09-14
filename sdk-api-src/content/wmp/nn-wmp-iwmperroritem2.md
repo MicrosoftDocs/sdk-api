@@ -7,7 +7,7 @@ old-location: wmp\iwmperroritem2.htm
 tech.root: WMP
 ms.assetid: b71d06db-c9bc-44fc-9e23-a16f89c56c1c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPErrorItem2, IWMPErrorItem2 interface [Windows Media Player], IWMPErrorItem2 interface [Windows Media Player],described, IWMPErrorItem2Interface, wmp.iwmperroritem2, wmp/IWMPErrorItem2
 ms.prod: windows
 ms.technology: windows-sdk

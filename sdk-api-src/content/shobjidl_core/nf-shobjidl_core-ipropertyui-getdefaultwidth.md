@@ -7,7 +7,7 @@ old-location: properties\IPropertyUI_GetDefaultWidth.htm
 tech.root: properties
 ms.assetid: 51A283CF-FA15-478c-B93B-75347308AEEB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: GetDefaultWidth, GetDefaultWidth method [Windows Properties], GetDefaultWidth method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetDefaultWidth method, IPropertyUI.GetDefaultWidth, IPropertyUI::GetDefaultWidth, _shell_IPropertyUI_GetDefaultWidth, properties.IPropertyUI_GetDefaultWidth, shell.IPropertyUI_GetDefaultWidth, shobjidl_core/IPropertyUI::GetDefaultWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

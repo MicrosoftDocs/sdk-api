@@ -4,10 +4,10 @@ title: ITRequest
 author: windows-sdk-content
 description: The ITRequest interface allows an application to use Assisted Telephony. Assisted Telephony provides telephony-enabled applications with a simple mechanism for making phone calls without requiring the developer to become fully literate in telephony.
 old-location: tapi3\itrequest.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 2b6d4f99-3ffe-44ce-9cb5-3fdd565085db
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITRequest, ITRequest interface [TAPI 2.2], ITRequest interface [TAPI 2.2],described, _tapi3_itrequest, tapi3.itrequest, tapi3if/ITRequest
 ms.prod: windows
 ms.technology: windows-sdk

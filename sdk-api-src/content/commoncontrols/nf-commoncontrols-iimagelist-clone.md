@@ -4,10 +4,10 @@ title: IImageList::Clone
 author: windows-sdk-content
 description: Clones an existing image list.
 old-location: controls\IImageList_Clone.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\clone.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: Clone, Clone method [Windows Controls], Clone method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Clone method, IImageList.Clone, IImageList::Clone, comctl_IImageList_Clone, comctl_IImageList_Clone_cpp, commoncontrols/IImageList::Clone, controls.IImageList_Clone, controls.comctl_IImageList_Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

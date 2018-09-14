@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactorymedia.htm
 tech.root: direct3ddxgi
 ms.assetid: 5646B34D-EB2C-4161-8FF0-67F96254AFBC
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDXGIFactoryMedia, IDXGIFactoryMedia interface [DXGI], IDXGIFactoryMedia interface [DXGI],described, direct3ddxgi.idxgifactorymedia, dxgi1_3/IDXGIFactoryMedia
 ms.prod: windows
 ms.technology: windows-sdk

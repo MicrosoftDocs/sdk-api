@@ -4,10 +4,10 @@ title: TreeView_SetExtendedStyle macro
 author: windows-sdk-content
 description: Sets the extended style for a specified TreeView control. Use this macro or send the TVM_SETEXTENDEDSTYLE message explicitly.
 old-location: controls\TreeView_SetExtendedStyle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setextendedstyle.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: TreeView_SetExtendedStyle, TreeView_SetExtendedStyle macro [Windows Controls], _shell_TreeView_SetExtendedStyle, _shell_TreeView_SetExtendedStyle_cpp, commctrl/TreeView_SetExtendedStyle, controls.TreeView_SetExtendedStyle, controls._shell_TreeView_SetExtendedStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

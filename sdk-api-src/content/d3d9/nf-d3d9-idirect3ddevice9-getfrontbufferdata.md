@@ -4,10 +4,10 @@ title: IDirect3DDevice9::GetFrontBufferData
 author: windows-sdk-content
 description: Generates a copy of the device's front buffer and places that copy in a system memory buffer provided by the application.
 old-location: direct3d9\idirect3ddevice9__getfrontbufferdata.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getfrontbufferdata.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: GetFrontBufferData, GetFrontBufferData method [Direct3D 9], GetFrontBufferData method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetFrontBufferData method, IDirect3DDevice9.GetFrontBufferData, IDirect3DDevice9::GetFrontBufferData, b122af3c-c0ea-2cbb-1c39-139ab45eff11, d3d9helper/IDirect3DDevice9::GetFrontBufferData, direct3d9.idirect3ddevice9__getfrontbufferdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

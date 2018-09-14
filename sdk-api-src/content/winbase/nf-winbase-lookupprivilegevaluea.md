@@ -4,10 +4,10 @@ title: LookupPrivilegeValueA function
 author: windows-sdk-content
 description: Retrieves the locally unique identifier (LUID) used on a specified system to locally represent the specified privilege name.
 old-location: security\lookupprivilegevalue.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 334b8ba8-101d-43a1-a8bf-1c7e0448c272
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: LookupPrivilegeValue, LookupPrivilegeValue function [Security], LookupPrivilegeValueA, LookupPrivilegeValueW, _win32_lookupprivilegevalue, security.lookupprivilegevalue, winbase/LookupPrivilegeValue, winbase/LookupPrivilegeValueA, winbase/LookupPrivilegeValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

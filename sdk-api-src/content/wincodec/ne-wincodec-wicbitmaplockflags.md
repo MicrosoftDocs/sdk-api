@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicbitmaplockflags.htm
 tech.root: wic
 ms.assetid: d4d1bb38-3d1a-4e1e-a889-0491f3c01822
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: WICBitmapLockFlags, WICBitmapLockFlags enumeration [Windows Imaging Component], WICBitmapLockRead, WICBitmapLockWrite, _wic_codec_wicbitmaplockflags, wic._wic_codec_wicbitmaplockflags, wincodec/WICBitmapLockFlags, wincodec/WICBitmapLockRead, wincodec/WICBitmapLockWrite
 ms.prod: windows
 ms.technology: windows-sdk

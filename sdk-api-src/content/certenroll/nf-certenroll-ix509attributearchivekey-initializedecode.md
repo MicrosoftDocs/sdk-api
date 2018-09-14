@@ -4,10 +4,10 @@ title: IX509AttributeArchiveKey::InitializeDecode
 author: windows-sdk-content
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the encrypted private key.
 old-location: security\ix509attributearchivekey_initializedecode_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: d6c39eaa-53d1-4cc4-bed3-34c9ef62e9d0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509AttributeArchiveKey interface [Security],InitializeDecode method, IX509AttributeArchiveKey.InitializeDecode, IX509AttributeArchiveKey::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeArchiveKey interface, certenroll/IX509AttributeArchiveKey::InitializeDecode, security.ix509attributearchivekey_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

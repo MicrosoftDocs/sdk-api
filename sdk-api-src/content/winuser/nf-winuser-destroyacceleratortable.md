@@ -7,7 +7,7 @@ old-location: menurc\destroyacceleratortable.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\destroyacceleratortable.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: DestroyAcceleratorTable, DestroyAcceleratorTable function [Menus and Other Resources], _win32_DestroyAcceleratorTable, _win32_destroyacceleratortable_cpp, menurc.destroyacceleratortable, winui._win32_destroyacceleratortable, winuser/DestroyAcceleratorTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

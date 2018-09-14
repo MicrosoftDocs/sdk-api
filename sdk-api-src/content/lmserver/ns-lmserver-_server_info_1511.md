@@ -7,7 +7,7 @@ old-location: netmgmt\server_info_1511_str.htm
 tech.root: netmgmt
 ms.assetid: 07865b85-5d08-46ab-9cce-6eba2e14d1b6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*LPSERVER_INFO_1511, *PSERVER_INFO_1511, LPSERVER_INFO_1511, LPSERVER_INFO_1511 structure pointer [Network Management], PSERVER_INFO_1511, PSERVER_INFO_1511 structure pointer [Network Management], SERVER_INFO_1511, SERVER_INFO_1511 structure [Network Management], _SERVER_INFO_1511, _win32_server_info_1511_str, lmserver/LPSERVER_INFO_1511, lmserver/PSERVER_INFO_1511, lmserver/SERVER_INFO_1511, netmgmt.server_info_1511_str"
 ms.prod: windows
 ms.technology: windows-sdk

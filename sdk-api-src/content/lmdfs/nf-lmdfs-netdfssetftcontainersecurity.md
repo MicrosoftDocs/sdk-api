@@ -4,10 +4,10 @@ title: NetDfsSetFtContainerSecurity function
 author: windows-sdk-content
 description: Sets the security descriptor of the container object for the domain-based DFS namespaces in the specified Active Directory domain.
 old-location: dfs\netdfssetftcontainersecurity.htm
-tech.root: dfs
+tech.root: Dfs
 ms.assetid: 84300e38-b263-4c38-bc31-5221621b89f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetDfsSetFtContainerSecurity, NetDfsSetFtContainerSecurity function [Distributed File System], dfs.netdfssetftcontainersecurity, fs.netdfssetftcontainersecurity, lmdfs/NetDfsSetFtContainerSecurity, netmgmt.netdfssetftcontainersecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

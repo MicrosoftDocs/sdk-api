@@ -7,7 +7,7 @@ old-location: p2p\drtstartsearch.htm
 tech.root: p2psdk
 ms.assetid: d43634d5-eb0a-4f84-9248-977c544db984
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: DrtStartSearch, DrtStartSearch function [Peer Networking], drt/DrtStartSearch, p2p.drtstartsearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

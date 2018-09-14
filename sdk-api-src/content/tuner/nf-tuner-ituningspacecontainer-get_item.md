@@ -4,10 +4,10 @@ title: ITuningSpaceContainer::get_Item
 author: windows-sdk-content
 description: The get_Item method retrieves a tuning space with the specified ID.
 old-location: mstv\ituningspacecontainer_get_item.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 02e17867-dc72-481a-8693-68e9b0288bba
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Item method, ITuningSpaceContainer.get_Item, ITuningSpaceContainer::get_Item, ITuningSpaceContainerget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_item, tuner/ITuningSpaceContainer::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

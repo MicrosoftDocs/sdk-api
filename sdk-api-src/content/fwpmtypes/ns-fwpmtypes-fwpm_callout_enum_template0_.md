@@ -4,10 +4,10 @@ title: FWPM_CALLOUT_ENUM_TEMPLATE0_
 author: windows-sdk-content
 description: Used for limiting callout enumerations.
 old-location: fwp\fwpm_callout_enum_template0_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 10997be6-069d-4d1a-a6b1-1a1e0a5359c5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FWPM_CALLOUT_ENUM_TEMPLATE0, FWPM_CALLOUT_ENUM_TEMPLATE0 structure [Filtering], FWPM_CALLOUT_ENUM_TEMPLATE0_, fwp.fwpm_callout_enum_template0_struct, fwpmtypes/FWPM_CALLOUT_ENUM_TEMPLATE0
 ms.prod: windows
 ms.technology: windows-sdk

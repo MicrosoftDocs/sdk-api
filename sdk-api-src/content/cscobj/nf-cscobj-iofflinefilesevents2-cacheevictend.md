@@ -4,10 +4,10 @@ title: IOfflineFilesEvents2::CacheEvictEnd
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents2_cacheevictend.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 08af0c55-17cc-4d7f-b4a3-c21a8ae91b74
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CacheEvictEnd, CacheEvictEnd method [Offline Files], CacheEvictEnd method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],CacheEvictEnd method, IOfflineFilesEvents2.CacheEvictEnd, IOfflineFilesEvents2::CacheEvictEnd, cscobj/IOfflineFilesEvents2::CacheEvictEnd, of.iofflinefilesevents2_cacheevictend
 ms.prod: windows-hardware
 ms.technology: windows-devices

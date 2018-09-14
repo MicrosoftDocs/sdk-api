@@ -7,7 +7,7 @@ old-location: mf\imfpmpserver_createobjectbyclsid.htm
 tech.root: medfound
 ms.assetid: ece956bb-ee83-42c7-9410-90f34956fdde
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: CreateObjectByCLSID, CreateObjectByCLSID method [Media Foundation], CreateObjectByCLSID method [Media Foundation],IMFPMPServer interface, IMFPMPServer interface [Media Foundation],CreateObjectByCLSID method, IMFPMPServer.CreateObjectByCLSID, IMFPMPServer::CreateObjectByCLSID, ece956bb-ee83-42c7-9410-90f34956fdde, mf.imfpmpserver_createobjectbyclsid, mfidl/IMFPMPServer::CreateObjectByCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

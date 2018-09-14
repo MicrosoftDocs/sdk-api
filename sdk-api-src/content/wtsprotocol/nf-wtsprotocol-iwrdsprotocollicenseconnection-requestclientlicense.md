@@ -4,10 +4,10 @@ title: IWRdsProtocolLicenseConnection::RequestClientLicense
 author: windows-sdk-content
 description: Requests a license from the client.
 old-location: termserv\iwrdsprotocollicenseconnection_requestclientlicense.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 73660029-2d2e-4240-babe-208daa164290
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],RequestClientLicense method, IWRdsProtocolLicenseConnection.RequestClientLicense, IWRdsProtocolLicenseConnection::RequestClientLicense, RequestClientLicense, RequestClientLicense method [Remote Desktop Services], RequestClientLicense method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_requestclientlicense, wtsprotocol/IWRdsProtocolLicenseConnection::RequestClientLicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

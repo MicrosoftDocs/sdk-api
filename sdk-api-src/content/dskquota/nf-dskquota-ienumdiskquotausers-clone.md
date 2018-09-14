@@ -4,10 +4,10 @@ title: IEnumDiskQuotaUsers::Clone
 author: windows-sdk-content
 description: Creates another enumerator of user quota entries that contains the same enumeration state as the current one.
 old-location: fs\ienumdiskquotausers_clone.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1c01b2d5-5419-4694-819f-fe6ef6e1636b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [Files], Clone method [Files],IEnumDiskQuotaUsers interface, IEnumDiskQuotaUsers interface [Files],Clone method, IEnumDiskQuotaUsers.Clone, IEnumDiskQuotaUsers::Clone, _win32_ienumdiskquotausers_clone, base.ienumdiskquotausers_clone, dskquota/IEnumDiskQuotaUsers::Clone, fs.ienumdiskquotausers_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ad\iqueryform.htm
 tech.root: ad
 ms.assetid: fd4f41f0-8aeb-4c83-a079-a5a77685c143
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: IQueryForm, IQueryForm interface [Active Directory], IQueryForm interface [Active Directory],described, _glines_iqueryform, ad.iqueryform, cmnquery/IQueryForm
 ms.prod: windows
 ms.technology: windows-sdk

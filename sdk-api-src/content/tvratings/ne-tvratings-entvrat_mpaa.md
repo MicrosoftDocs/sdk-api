@@ -4,10 +4,10 @@ title: EnTvRat_MPAA
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\entvrat_mpaa.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 61d60f4b-944d-41d2-8986-7cac2fd265e4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: EnTvRat_MPAA, EnTvRat_MPAA enumeration [Microsoft TV Technologies], MPAA_G, MPAA_NC17, MPAA_NotApplicable, MPAA_NotRated, MPAA_PG, MPAA_PG13, MPAA_R, MPAA_X, mstv.entvrat_mpaa, tvratings/EnTvRat_MPAA, tvratings/MPAA_G, tvratings/MPAA_NC17, tvratings/MPAA_NotApplicable, tvratings/MPAA_NotRated, tvratings/MPAA_PG, tvratings/MPAA_PG13, tvratings/MPAA_R, tvratings/MPAA_X
 ms.prod: windows
 ms.technology: windows-sdk

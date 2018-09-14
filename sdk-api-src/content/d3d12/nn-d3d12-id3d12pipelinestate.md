@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12pipelinestate.htm
 tech.root: direct3d12
 ms.assetid: DD922194-8AD2-4ADF-9AC2-46C903C56AE6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: ID3D12PipelineState, ID3D12PipelineState interface, ID3D12PipelineState interface,described, d3d12/ID3D12PipelineState, direct3d12.id3d12pipelinestate
 ms.prod: windows
 ms.technology: windows-sdk

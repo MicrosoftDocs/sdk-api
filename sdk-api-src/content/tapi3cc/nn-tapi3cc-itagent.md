@@ -4,10 +4,10 @@ title: ITAgent
 author: windows-sdk-content
 description: Agents are the heart of a call center.
 old-location: tapi3\itagent.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 6c1409c9-da73-4d21-bf56-07e9ab7b33a0
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], ITAgent interface [TAPI 2.2],described, _tapi3_itagent, tapi3.itagent, tapi3cc/ITAgent
 ms.prod: windows
 ms.technology: windows-sdk

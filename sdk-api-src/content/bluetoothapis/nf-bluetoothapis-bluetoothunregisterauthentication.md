@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothunregisterauthentication.htm
 tech.root: bluetooth
 ms.assetid: bfb1a18c-e5b1-4053-8652-5a76b196bebe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: BluetoothUnregisterAuthentication, BluetoothUnregisterAuthentication function [Bluetooth], bluetooth.bluetoothunregisterauthentication, bluetoothapis/BluetoothUnregisterAuthentication
 ms.prod: windows-hardware
 ms.technology: windows-devices

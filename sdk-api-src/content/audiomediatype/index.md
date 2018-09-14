@@ -2,7 +2,7 @@
 UID: NA:audiomediatype
 ms.assetid: a32832d5-ede2-3438-b5ba-e272f47e11a1
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

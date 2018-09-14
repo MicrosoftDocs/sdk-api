@@ -7,7 +7,7 @@ old-location: search\_search_TIMEOUT_INFO.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\timeout_info.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: TIMEOUT_INFO, TIMEOUT_INFO structure [search], _TIMEOUT_INFO, _search_TIMEOUT_INFO, search._search_TIMEOUT_INFO, searchapi/TIMEOUT_INFO
 ms.prod: windows
 ms.technology: windows-sdk

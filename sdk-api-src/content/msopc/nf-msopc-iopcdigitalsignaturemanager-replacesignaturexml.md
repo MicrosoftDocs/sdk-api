@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignaturemanager_replacesignaturexml.htm
 tech.root: OPC
 ms.assetid: cacd0ccf-0cb9-41dc-a944-74db8254fd95
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],ReplaceSignatureXml method, IOpcDigitalSignatureManager.ReplaceSignatureXml, IOpcDigitalSignatureManager::ReplaceSignatureXml, ReplaceSignatureXml, ReplaceSignatureXml method [Open Packaging Conventions], ReplaceSignatureXml method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::ReplaceSignatureXml, opc.iopcdigitalsignaturemanager_replacesignaturexml
 ms.prod: windows-hardware
 ms.technology: windows-devices

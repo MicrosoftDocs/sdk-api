@@ -7,7 +7,7 @@ old-location: mf\imfmediabuffer_getcurrentlength.htm
 tech.root: medfound
 ms.assetid: 772e3e6c-0616-41f6-a681-d76da97d85fb
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 772e3e6c-0616-41f6-a681-d76da97d85fb, GetCurrentLength, GetCurrentLength method [Media Foundation], GetCurrentLength method [Media Foundation],IMFMediaBuffer interface, IMFMediaBuffer interface [Media Foundation],GetCurrentLength method, IMFMediaBuffer.GetCurrentLength, IMFMediaBuffer::GetCurrentLength, mf.imfmediabuffer_getcurrentlength, mfobjects/IMFMediaBuffer::GetCurrentLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

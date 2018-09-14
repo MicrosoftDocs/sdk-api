@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_pauseoff.htm
 tech.root: DirectShow
 ms.assetid: 6ec442dd-74ca-4b0b-901f-8efb7e77c5bf
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IDvdControl interface [DirectShow],PauseOff method, IDvdControl.PauseOff, IDvdControl::PauseOff, IDvdControlPauseOff, PauseOff, PauseOff method [DirectShow], PauseOff method [DirectShow],IDvdControl interface, dshow.idvdcontrol_pauseoff, strmif/IDvdControl::PauseOff
 ms.prod: windows-hardware
 ms.technology: windows-devices

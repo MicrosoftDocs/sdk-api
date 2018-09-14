@@ -7,7 +7,7 @@ old-location: com\ivbgetcontrol.htm
 tech.root: com
 ms.assetid: 22309920-f32c-4639-8869-b915a337d86f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IVBGetControl, IVBGetControl interface [COM], IVBGetControl interface [COM],described, _com_IVBGetControl, com.ivbgetcontrol, vbinterf/IVBGetControl
 ms.prod: windows
 ms.technology: windows-sdk

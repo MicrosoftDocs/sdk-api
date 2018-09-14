@@ -7,7 +7,7 @@ old-location: fs\flushlogbuffers.htm
 tech.root: Clfs
 ms.assetid: b5c52472-6c08-44f6-843f-5206611e40b4
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: FlushLogBuffers, FlushLogBuffers function [Files], clfsw32/FlushLogBuffers, fs.flushlogbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

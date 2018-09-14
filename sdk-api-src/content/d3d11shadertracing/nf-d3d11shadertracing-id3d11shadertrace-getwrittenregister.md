@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shadertrace_getwrittenregister.htm
 tech.root: direct3d11
 ms.assetid: 360BB797-D5A9-486A-94ED-AF1CD3A4E118
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetWrittenRegister, GetWrittenRegister method [Direct3D 11], GetWrittenRegister method [Direct3D 11],ID3D11ShaderTrace interface, ID3D11ShaderTrace interface [Direct3D 11],GetWrittenRegister method, ID3D11ShaderTrace.GetWrittenRegister, ID3D11ShaderTrace::GetWrittenRegister, d3d11shadertracing/ID3D11ShaderTrace::GetWrittenRegister, direct3d11.id3d11shadertrace_getwrittenregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

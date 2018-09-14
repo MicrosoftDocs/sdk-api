@@ -4,10 +4,10 @@ title: RasDeleteSubEntryW function
 author: windows-sdk-content
 description: The RasDeleteSubEntry function deletes the specified subentry from the specified phone-book entry.
 old-location: rras\rasdeletesubentry.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: c423d0cc-7275-4703-abee-4eada625d956
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: RasDeleteSubEntry, RasDeleteSubEntry function [RAS], RasDeleteSubEntryA, RasDeleteSubEntryW, _ras_rasdeletesubentry, ras/RasDeleteSubEntry, ras/RasDeleteSubEntryA, ras/RasDeleteSubEntryW, rras.rasdeletesubentry
 ms.prod: windows-hardware
 ms.technology: windows-devices

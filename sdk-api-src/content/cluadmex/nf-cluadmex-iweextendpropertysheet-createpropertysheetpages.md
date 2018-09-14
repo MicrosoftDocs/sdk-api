@@ -7,7 +7,7 @@ old-location: mscs\iweextendpropertysheet_createpropertysheetpages.htm
 tech.root: mscs
 ms.assetid: 00eca370-a2c6-4f5c-94a9-7d7e4334ccd5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CreatePropertySheetPages, CreatePropertySheetPages method [Failover Cluster], CreatePropertySheetPages method [Failover Cluster],IWEExtendPropertySheet interface, IWEExtendPropertySheet interface [Failover Cluster],CreatePropertySheetPages method, IWEExtendPropertySheet.CreatePropertySheetPages, IWEExtendPropertySheet::CreatePropertySheetPages, _wolf_iweextendpropertysheet_createpropertysheetpages, cluadmex/IWEExtendPropertySheet::CreatePropertySheetPages, mscs.iweextendpropertysheet_createpropertysheetpages
 ms.prod: windows-hardware
 ms.technology: windows-devices

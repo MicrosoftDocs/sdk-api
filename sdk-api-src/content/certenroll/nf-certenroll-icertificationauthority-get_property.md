@@ -4,10 +4,10 @@ title: ICertificationAuthority::get_Property
 author: windows-sdk-content
 description: Retrieves a certification authority property value.
 old-location: security\icertificationauthority_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 02f2d6bf-9290-43e1-ae44-a21325c176b2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICertificationAuthority interface [Security],Property property, ICertificationAuthority.Property, ICertificationAuthority.get_Property, ICertificationAuthority::Property, ICertificationAuthority::get_Property, Property property [Security], Property property [Security],ICertificationAuthority interface, certenroll/ICertificationAuthority::Property, certenroll/ICertificationAuthority::get_Property, get_Property, security.icertificationauthority_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

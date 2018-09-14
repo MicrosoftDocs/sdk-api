@@ -4,10 +4,10 @@ title: DRMGetNameAndDescription function
 author: windows-sdk-content
 description: Retrieves a language specific name and description from an issuance license.
 old-location: rm\drmgetnameanddescription.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: 9e04ee69-bfec-456a-99ca-93e3158aeef9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMGetNameAndDescription, DRMGetNameAndDescription function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetNameAndDescription, rm.drmgetnameanddescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PdhParseInstanceNameW function
 author: windows-sdk-content
 description: Parses the elements of an instance string.
 old-location: perf\pdhparseinstancename.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: 8304ecee-5141-450a-be11-838b9f52413b
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 08/29/2018
 ms.keywords: PdhParseInstanceName, PdhParseInstanceName function [Perf], PdhParseInstanceNameA, PdhParseInstanceNameW, _win32_pdhparseinstancename, base.pdhparseinstancename, pdh/PdhParseInstanceName, pdh/PdhParseInstanceNameA, pdh/PdhParseInstanceNameW, perf.pdhparseinstancename
 ms.prod: windows-hardware
 ms.technology: windows-devices

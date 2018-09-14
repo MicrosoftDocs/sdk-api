@@ -7,7 +7,7 @@ old-location: netmgmt\netsetprimarycomputername.htm
 tech.root: netmgmt
 ms.assetid: 524c8219-a303-45ab-95e2-91319b477568
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: NetSetPrimaryComputerName, NetSetPrimaryComputerName function [Network Management], lmjoin/NetSetPrimaryComputerName, netmgmt.netsetprimarycomputername
 ms.prod: windows-hardware
 ms.technology: windows-devices

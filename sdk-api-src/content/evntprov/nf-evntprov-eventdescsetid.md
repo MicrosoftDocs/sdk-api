@@ -4,10 +4,10 @@ title: EventDescSetId function
 author: windows-sdk-content
 description: Sets the Id member of the event descriptor.
 old-location: etw\eventdescsetid_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 1c110ea3-651c-4e2c-9675-64f6975e5fc5
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 08/29/2018
 ms.keywords: EventDescSetId, EventDescSetId function [ETW], base.eventdescsetid_func, etw.eventdescsetid_func, evntprov/EventDescSetId
 ms.prod: windows-hardware
 ms.technology: windows-devices

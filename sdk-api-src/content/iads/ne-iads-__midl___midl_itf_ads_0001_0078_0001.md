@@ -7,7 +7,7 @@ old-location: adsi\ads_settype_enum.htm
 tech.root: ADSI
 ms.assetid: fbf7de54-3ea7-4d66-ad56-21cae1e28c07
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: ADS_SETTYPE_DN, ADS_SETTYPE_ENUM, ADS_SETTYPE_ENUM enumeration [ADSI], ADS_SETTYPE_FULL, ADS_SETTYPE_PROVIDER, ADS_SETTYPE_SERVER, __MIDL___MIDL_itf_ads_0001_0078_0001, _ds_ads_settype_enum, adsi.ads__settype__enum, adsi.ads_settype_enum, iads/ADS_SETTYPE_DN, iads/ADS_SETTYPE_ENUM, iads/ADS_SETTYPE_FULL, iads/ADS_SETTYPE_PROVIDER, iads/ADS_SETTYPE_SERVER
 ms.prod: windows
 ms.technology: windows-sdk

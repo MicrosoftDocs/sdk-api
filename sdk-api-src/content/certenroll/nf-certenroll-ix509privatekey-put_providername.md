@@ -4,10 +4,10 @@ title: IX509PrivateKey::put_ProviderName
 author: windows-sdk-content
 description: Specifies or retrieves the name of the cryptographic provider.
 old-location: security\ix509privatekey_providername.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 42a348ae-9946-4d76-a035-14990d823449
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509PrivateKey interface [Security],ProviderName property, IX509PrivateKey.ProviderName, IX509PrivateKey.put_ProviderName, IX509PrivateKey::ProviderName, IX509PrivateKey::get_ProviderName, IX509PrivateKey::put_ProviderName, ProviderName property [Security], ProviderName property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ProviderName, certenroll/IX509PrivateKey::get_ProviderName, certenroll/IX509PrivateKey::put_ProviderName, put_ProviderName, security.ix509privatekey_providername
 ms.prod: windows-hardware
 ms.technology: windows-devices

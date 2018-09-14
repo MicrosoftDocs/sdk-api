@@ -4,10 +4,10 @@ title: Header_GetFocusedItem macro
 author: windows-sdk-content
 description: Gets the item in a header control that has the focus. Use this macro or send the HDM_GETFOCUSEDITEM message explicitly.
 old-location: controls\Header_GetFocusedItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getfocuseditem.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: Header_GetFocusedItem, Header_GetFocusedItem macro [Windows Controls], _shell_Header_GetFocusedItem, _shell_Header_GetFocusedItem_cpp, commctrl/Header_GetFocusedItem, controls.Header_GetFocusedItem, controls._shell_Header_GetFocusedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

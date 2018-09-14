@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_mailto.htm
 tech.root: fsrm
 ms.assetid: 5a6fdb6f-ac95-448c-bbf4-cbcbaf942bd4
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],MailTo property, IFsrmFileManagementJob.MailTo, IFsrmFileManagementJob.put_MailTo, IFsrmFileManagementJob::MailTo, IFsrmFileManagementJob::get_MailTo, IFsrmFileManagementJob::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_mailto, fsrm.ifsrmfilemanagementjob_mailto, fsrmreports/IFsrmFileManagementJob::MailTo, fsrmreports/IFsrmFileManagementJob::get_MailTo, fsrmreports/IFsrmFileManagementJob::put_MailTo, put_MailTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

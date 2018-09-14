@@ -4,10 +4,10 @@ title: Button_GetText macro
 author: windows-sdk-content
 description: Gets the text of a button.
 old-location: controls\Button_GetText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_gettext.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: Button_GetText, Button_GetText macro [Windows Controls], _win32_Button_GetText, _win32_Button_GetText_cpp, controls.Button_GetText, controls._win32_Button_GetText, windowsx/Button_GetText
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mfcameraintrinsic_pinholecameramodel.htm
 tech.root: medfound
 ms.assetid: 556DF8D8-F171-4055-86F1-F3258CC7D090
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: MFCameraIntrinsic_PinholeCameraModel, MFCameraIntrinsic_PinholeCameraModel structure [Media Foundation], PMFCameraIntrinsic_PinholeCameraModel, PMFCameraIntrinsic_PinholeCameraModel structure pointer [Media Foundation], _MFCameraIntrinsic_PinholeCameraModel, mf.mfcameraintrinsic_pinholecameramodel, mfapi/MFCameraIntrinsic_PinholeCameraModel, mfapi/PMFCameraIntrinsic_PinholeCameraModel
 ms.prod: windows
 ms.technology: windows-sdk

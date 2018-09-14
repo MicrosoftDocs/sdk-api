@@ -4,10 +4,10 @@ title: IMSVidAudioRendererDevices::Remove
 author: windows-sdk-content
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidaudiorendererdevices_remove.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 5a9cf752-e3f8-40bf-89e8-e223654e4080
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],Remove method, IMSVidAudioRendererDevices.Remove, IMSVidAudioRendererDevices::Remove, IMSVidAudioRendererDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_remove, segment/IMSVidAudioRendererDevices::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

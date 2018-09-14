@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetDisplayName.htm
 tech.root: properties
 ms.assetid: 54ee12a4-15fe-454b-8233-297e98bc8a22
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Windows Properties], GetDisplayName method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetDisplayName method, IPropertyDescription.GetDisplayName, IPropertyDescription::GetDisplayName, properties.IPropertyDescription_GetDisplayName, propsys/IPropertyDescription::GetDisplayName, shell.IPropertyDescription_GetDisplayName, shell_IPropertyDescription_GetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

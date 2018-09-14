@@ -4,10 +4,10 @@ title: IBitsTokenOptions::SetHelperToken
 author: windows-sdk-content
 description: Sets the helper token to impersonate the token of the COM client.
 old-location: bits\ibitstokenoptions_sethelpertoken.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: a31414b7-159e-4ce7-8d2d-02b62aa9759d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBitsTokenOptions interface [BITS],SetHelperToken method, IBitsTokenOptions.SetHelperToken, IBitsTokenOptions::SetHelperToken, SetHelperToken, SetHelperToken method [BITS], SetHelperToken method [BITS],IBitsTokenOptions interface, bits.ibitstokenoptions_sethelpertoken, bits4_0/IBitsTokenOptions::SetHelperToken
 ms.prod: windows-hardware
 ms.technology: windows-devices

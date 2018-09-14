@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_clone.htm
 tech.root: printdocs
 ms.assetid: 5c402f5a-1d7c-4d2d-87de-954ceba59b51
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],Clone method, IXpsOMGlyphs.Clone, IXpsOMGlyphs::Clone, xps.ixpsomglyphs_clone, xpsobjectmodel/IXpsOMGlyphs::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: TreeView_SortChildren macro
 author: windows-sdk-content
 description: Sorts the child items of the specified parent item in a tree-view control. You can use this macro or send the TVM_SORTCHILDREN message explicitly.
 old-location: controls\TreeView_SortChildren.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_sortchildren.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: TreeView_SortChildren, TreeView_SortChildren macro [Windows Controls], _win32_TreeView_SortChildren, _win32_TreeView_SortChildren_cpp, commctrl/TreeView_SortChildren, controls.TreeView_SortChildren, controls._win32_TreeView_SortChildren
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturereference_getdigestvalue.htm
 tech.root: OPC
 ms.assetid: 0bb46de1-63af-4ac1-b37b-42a2b174b590
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetDigestValue, GetDigestValue method [Open Packaging Conventions], GetDigestValue method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetDigestValue method, IOpcSignatureReference.GetDigestValue, IOpcSignatureReference::GetDigestValue, msopc/IOpcSignatureReference::GetDigestValue, opc.iopcsignaturereference_getdigestvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

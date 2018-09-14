@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorLUT_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlutclass\colorlutmethods\setparameters.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: ColorLUT class [GDI+],SetParameters method, ColorLUT.SetParameters, ColorLUT::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],ColorLUT class, _gdiplus_CLASS_ColorLUT_SetParameters_, gdiplus._gdiplus_CLASS_ColorLUT_SetParameters_
 ms.prod: windows-hardware
 ms.technology: windows-devices

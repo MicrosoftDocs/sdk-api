@@ -4,10 +4,10 @@ title: IMSVidVMR9::put_SuppressEffects
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidvmr9_put_suppresseffects.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 6e51ed2a-7516-4621-9ecb-0e645c6d416c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidVMR9.put_SuppressEffects, IMSVidVMR9::put_SuppressEffects, IMSVidVMR9put_SuppressEffects, mstv.imsvidvmr9_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidVMR9 interface, segment/IMSVidVMR9::put_SuppressEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

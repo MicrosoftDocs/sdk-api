@@ -4,10 +4,10 @@ title: IPSEC_TRANSPORT_POLICY1_
 author: windows-sdk-content
 description: Stores the quick mode negotiation policy for transport mode IPsec.
 old-location: fwp\ipsec_transport_policy1_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 4ee39f30-f7fc-40a9-92b0-e059cb9b84a2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_GENERAL_NAT_TRAVERSAL, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_PEER_BEHIND_NAT, IPSEC_POLICY_FLAG_ND_BOUNDARY, IPSEC_POLICY_FLAG_ND_SECURE, IPSEC_TRANSPORT_POLICY1, IPSEC_TRANSPORT_POLICY1 structure [Filtering], IPSEC_TRANSPORT_POLICY1_, fwp.ipsec_transport_policy1_struct, ipsectypes/IPSEC_TRANSPORT_POLICY1
 ms.prod: windows
 ms.technology: windows-sdk

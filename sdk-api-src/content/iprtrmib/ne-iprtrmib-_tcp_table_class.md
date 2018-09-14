@@ -4,10 +4,10 @@ title: "_TCP_TABLE_CLASS"
 author: windows-sdk-content
 description: Defines the set of values used to indicate the type of table returned by calls to GetExtendedTcpTable.
 old-location: iphlp\tcp_table_class.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: abfaf7e5-7739-4f23-bfb4-09206111599f
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTCP_TABLE_CLASS, PTCP_TABLE_CLASS, PTCP_TABLE_CLASS enumeration pointer [IP Helper], TCP_TABLE_BASIC_ALL, TCP_TABLE_BASIC_CONNECTIONS, TCP_TABLE_BASIC_LISTENER, TCP_TABLE_CLASS, TCP_TABLE_CLASS enumeration [IP Helper], TCP_TABLE_OWNER_MODULE_ALL, TCP_TABLE_OWNER_MODULE_CONNECTIONS, TCP_TABLE_OWNER_MODULE_LISTENER, TCP_TABLE_OWNER_PID_ALL, TCP_TABLE_OWNER_PID_CONNECTIONS, TCP_TABLE_OWNER_PID_LISTENER, _TCP_TABLE_CLASS, iphlp.tcp_table_class, iphlpapi/PTCP_TABLE_CLASS, iphlpapi/TCP_TABLE_BASIC_ALL, iphlpapi/TCP_TABLE_BASIC_CONNECTIONS, iphlpapi/TCP_TABLE_BASIC_LISTENER, iphlpapi/TCP_TABLE_CLASS, iphlpapi/TCP_TABLE_OWNER_MODULE_ALL, iphlpapi/TCP_TABLE_OWNER_MODULE_CONNECTIONS, iphlpapi/TCP_TABLE_OWNER_MODULE_LISTENER, iphlpapi/TCP_TABLE_OWNER_PID_ALL, iphlpapi/TCP_TABLE_OWNER_PID_CONNECTIONS, iphlpapi/TCP_TABLE_OWNER_PID_LISTENER, iprtrmib/PTCP_TABLE_CLASS, iprtrmib/TCP_TABLE_BASIC_ALL, iprtrmib/TCP_TABLE_BASIC_CONNECTIONS, iprtrmib/TCP_TABLE_BASIC_LISTENER, iprtrmib/TCP_TABLE_CLASS, iprtrmib/TCP_TABLE_OWNER_MODULE_ALL, iprtrmib/TCP_TABLE_OWNER_MODULE_CONNECTIONS, iprtrmib/TCP_TABLE_OWNER_MODULE_LISTENER, iprtrmib/TCP_TABLE_OWNER_PID_ALL, iprtrmib/TCP_TABLE_OWNER_PID_CONNECTIONS, iprtrmib/TCP_TABLE_OWNER_PID_LISTENER"
 ms.prod: windows
 ms.technology: windows-sdk

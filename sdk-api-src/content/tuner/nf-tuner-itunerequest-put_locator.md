@@ -4,10 +4,10 @@ title: ITuneRequest::put_Locator
 author: windows-sdk-content
 description: The put_Locator method is called from the Network Provider to set the ILocator object associated with the requested broadcast.
 old-location: mstv\itunerequest_put_locator.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 798ff904-5f08-4d3b-8a56-ca1c2df52aaf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ITuneRequest interface [Microsoft TV Technologies],put_Locator method, ITuneRequest.put_Locator, ITuneRequest::put_Locator, ITuneRequestput_Locator, mstv.itunerequest_put_locator, put_Locator, put_Locator method [Microsoft TV Technologies], put_Locator method [Microsoft TV Technologies],ITuneRequest interface, tuner/ITuneRequest::put_Locator
 ms.prod: windows-hardware
 ms.technology: windows-devices

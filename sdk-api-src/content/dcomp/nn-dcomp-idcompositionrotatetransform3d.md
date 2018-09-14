@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform3d.htm
 tech.root: directcomp
 ms.assetid: BEC58B57-66A1-4645-A0B8-D546334E1E23
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionRotateTransform3D, IDCompositionRotateTransform3D interface [DirectComposition], IDCompositionRotateTransform3D interface [DirectComposition],described, dcomp/IDCompositionRotateTransform3D, directcomp.idcompositionrotatetransform3d
 ms.prod: windows
 ms.technology: windows-sdk

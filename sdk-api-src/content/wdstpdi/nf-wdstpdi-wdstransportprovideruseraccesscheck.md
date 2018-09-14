@@ -4,10 +4,10 @@ title: WdsTransportProviderUserAccessCheck function
 author: windows-sdk-content
 description: Specifies access to a content stream based on a user's token.
 old-location: wds\wdstransportprovideruseraccesscheck.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 3ce381d3-d6f6-4f64-a825-116c3cff4747
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WdsTransportProviderUserAccessCheck, WdsTransportProviderUserAccessCheck callback, WdsTransportProviderUserAccessCheck callback function [Windows Deployment Services], wds.wdstransportprovideruseraccesscheck, wdstpdi/WdsTransportProviderUserAccessCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_clone.htm
 tech.root: seccrypto
 ms.assetid: a0870155-3f16-4cfb-b180-7a8e617dfcd8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],Clone method, IEnumCERTVIEWCOLUMN.Clone, IEnumCERTVIEWCOLUMN::Clone, _certsrv_ienumcertviewcolumn_clone, certview/IEnumCERTVIEWCOLUMN::Clone, security.ienumcertviewcolumn_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iammediastream_joinammultimediastream.htm
 tech.root: DirectShow
 ms.assetid: c842b841-a4dc-47c8-8186-347aff2c4ac3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IAMMediaStream interface [DirectShow],JoinAMMultiMediaStream method, IAMMediaStream.JoinAMMultiMediaStream, IAMMediaStream::JoinAMMultiMediaStream, IAMMediaStreamJoinAMMultiMediaStream, JoinAMMultiMediaStream, JoinAMMultiMediaStream method [DirectShow], JoinAMMultiMediaStream method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::JoinAMMultiMediaStream, dshow.iammediastream_joinammultimediastream
 ms.prod: windows-hardware
 ms.technology: windows-devices

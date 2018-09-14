@@ -4,10 +4,10 @@ title: IMSVidInputDevice
 author: windows-sdk-content
 description: The IMSVidInputDevice interface represents any input device that is recognized by the Video Control, such as a television tuner card.
 old-location: mstv\imsvidinputdevice.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 5b413ade-4ab2-45fa-98b2-fd93c8f89a43
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidInputDevice, IMSVidInputDevice interface [Microsoft TV Technologies], IMSVidInputDevice interface [Microsoft TV Technologies],described, IMSVidInputDeviceInterface, mstv.imsvidinputdevice, segment/IMSVidInputDevice
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ienroll4_renewalcertificate.htm
 tech.root: seccrypto
 ms.assetid: 9806cd48-0d95-420b-aa26-0175dd95da46
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IEnroll interface [Security],RenewalCertificate property, IEnroll.RenewalCertificate, IEnroll.get_RenewalCertificate, IEnroll::RenewalCertificate, IEnroll::get_RenewalCertificate, IEnroll::put_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security],IEnroll interface, get_RenewalCertificate, security.ienroll4_renewalcertificate, xenroll/IEnroll::RenewalCertificate, xenroll/IEnroll::get_RenewalCertificate, xenroll/IEnroll::put_RenewalCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

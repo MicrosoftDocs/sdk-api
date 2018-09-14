@@ -4,10 +4,10 @@ title: IAzApplicationGroup::DeleteNonMember
 author: windows-sdk-content
 description: Removes the specified security identifier (SID) in text form from the list of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_deletenonmember.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 05d58f62-fa34-4829-a535-65ea0f5144ab
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteNonMember method, DeleteNonMember, DeleteNonMember method [Security], DeleteNonMember method [Security],AzApplicationGroup object, DeleteNonMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteNonMember method, IAzApplicationGroup.DeleteNonMember, IAzApplicationGroup::DeleteNonMember, azroles/IAzApplicationGroup::DeleteNonMember, security.iazapplicationgroup_deletenonmember
 ms.prod: windows-hardware
 ms.technology: windows-devices

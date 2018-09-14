@@ -4,10 +4,10 @@ title: IBDA_IPSinkControl::GetMulticastList
 author: windows-sdk-content
 description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
 old-location: mstv\ibda_ipsinkcontrol_getmulticastlist.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 005cce5c-e8fb-49f0-8a75-b05cdd1f5e1b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetMulticastList, GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies],IBDA_IPSinkControl interface, IBDA_IPSinkControl interface [Microsoft TV Technologies],GetMulticastList method, IBDA_IPSinkControl.GetMulticastList, IBDA_IPSinkControl::GetMulticastList, IBDA_IPSinkControlGetMulticastList, bdaiface/IBDA_IPSinkControl::GetMulticastList, mstv.ibda_ipsinkcontrol_getmulticastlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

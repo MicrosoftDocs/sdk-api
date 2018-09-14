@@ -4,10 +4,10 @@ title: IX509CertificateRequest::get_Type
 author: windows-sdk-content
 description: Retrieves a value that specifies the type of the request object.
 old-location: security\ix509certificaterequest_type_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 04e7e4eb-8f65-45d3-bf1d-abcb83fcf1a0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509CertificateRequest interface [Security],Type property, IX509CertificateRequest.Type, IX509CertificateRequest.get_Type, IX509CertificateRequest::Type, IX509CertificateRequest::get_Type, Type property [Security], Type property [Security],IX509CertificateRequest interface, TypeCertificate, TypeCmc, TypePkcs10, TypePkcs7, certenroll/IX509CertificateRequest::Type, certenroll/IX509CertificateRequest::get_Type, get_Type, security.ix509certificaterequest_type_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

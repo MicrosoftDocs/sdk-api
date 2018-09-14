@@ -7,7 +7,7 @@ old-location: mf\imfcontentenabler_automaticenable.htm
 tech.root: medfound
 ms.assetid: 7be4c32f-d116-4a08-857f-1a59b5ccfb12
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 7be4c32f-d116-4a08-857f-1a59b5ccfb12, AutomaticEnable, AutomaticEnable method [Media Foundation], AutomaticEnable method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],AutomaticEnable method, IMFContentEnabler.AutomaticEnable, IMFContentEnabler::AutomaticEnable, mf.imfcontentenabler_automaticenable, mfidl/IMFContentEnabler::AutomaticEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices

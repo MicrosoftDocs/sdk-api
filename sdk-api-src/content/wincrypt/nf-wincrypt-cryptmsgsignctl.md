@@ -7,7 +7,7 @@ old-location: security\cryptmsgsignctl.htm
 tech.root: seccrypto
 ms.assetid: 85ae8ce3-d0a7-4fcb-beaa-ede09d30930e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CryptMsgSignCTL, CryptMsgSignCTL function [Security], _crypto2_cryptmsgsignctl, security.cryptmsgsignctl, wincrypt/CryptMsgSignCTL
 ms.prod: windows-hardware
 ms.technology: windows-devices

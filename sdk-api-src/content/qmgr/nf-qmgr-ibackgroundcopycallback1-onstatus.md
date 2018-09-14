@@ -4,10 +4,10 @@ title: IBackgroundCopyCallback1::OnStatus
 author: windows-sdk-content
 description: Implement the OnStatus method to receive notification when the group is complete or an error occurs.
 old-location: bits\ibackgroundcopycallback1_onstatus.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 88f75a65-8d27-4413-8b00-4caf11fbcc5e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBackgroundCopyCallback1 interface [BITS],OnStatus method, IBackgroundCopyCallback1.OnStatus, IBackgroundCopyCallback1::OnStatus, OnStatus, OnStatus method [BITS], OnStatus method [BITS],IBackgroundCopyCallback1 interface, bits.ibackgroundcopycallback1_onstatus, qmgr/IBackgroundCopyCallback1::OnStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

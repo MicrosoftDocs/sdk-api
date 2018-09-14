@@ -4,10 +4,10 @@ title: IMSVidAudioRendererDevices
 author: windows-sdk-content
 description: The IMSVidAudioRendererDevices interface represents a collection of audio renderers. Applications can use this interface to enumerate the collection. The MSVidAudioRendererDevices object exposes this method.
 old-location: mstv\imsvidaudiorendererdevices.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 2cf03260-7abe-4602-8364-447d076a4f76
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidAudioRendererDevices, IMSVidAudioRendererDevices interface [Microsoft TV Technologies], IMSVidAudioRendererDevices interface [Microsoft TV Technologies],described, IMSVidAudioRendererDevicesInterface, mstv.imsvidaudiorendererdevices, segment/IMSVidAudioRendererDevices
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\olecmdtext.htm
 tech.root: com
 ms.assetid: c9552d2a-fb51-4d9f-acd5-32b3f20a9e1e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: OLECMDTEXT, OLECMDTEXT structure [COM], _ole_OLECMDTEXT, _tagOLECMDTEXT, com.olecmdtext, docobj/OLECMDTEXT
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\ws_listener_properties.htm
 tech.root: wsw
 ms.assetid: 19619c20-d287-42d8-9326-15c810619f22
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WS_LISTENER_PROPERTIES, WS_LISTENER_PROPERTIES structure [Web Services for Windows], _WS_LISTENER_PROPERTIES, webservices/WS_LISTENER_PROPERTIES, wsw.ws_listener_properties
 ms.prod: windows
 ms.technology: windows-sdk

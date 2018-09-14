@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow_getmaxindex.htm
 tech.root: seccrypto
 ms.assetid: 65ba80db-b7ee-46fa-b044-eab554720ce9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetMaxIndex, GetMaxIndex method [Security], GetMaxIndex method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],GetMaxIndex method, IEnumCERTVIEWROW.GetMaxIndex, IEnumCERTVIEWROW::GetMaxIndex, certview/IEnumCERTVIEWROW::GetMaxIndex, security.ienumcertviewrow_getmaxindex, security.ienumcertviewrow_getmaxtindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

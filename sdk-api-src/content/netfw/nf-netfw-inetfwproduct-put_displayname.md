@@ -4,10 +4,10 @@ title: INetFwProduct::put_DisplayName
 author: windows-sdk-content
 description: Indicates the display name for a third-party firewall product registration.
 old-location: ics\inetfwproduct_displayname.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 9750a57c-d59c-4cc9-b31e-7d532d19f9fe
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: DisplayName property [ICS/ICF], DisplayName property [ICS/ICF],INetFwProduct interface, INetFwProduct interface [ICS/ICF],DisplayName property, INetFwProduct.DisplayName, INetFwProduct.put_DisplayName, INetFwProduct::DisplayName, INetFwProduct::get_DisplayName, INetFwProduct::put_DisplayName, ics.inetfwproduct_displayname, netfw/INetFwProduct::DisplayName, netfw/INetFwProduct::get_DisplayName, netfw/INetFwProduct::put_DisplayName, put_DisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

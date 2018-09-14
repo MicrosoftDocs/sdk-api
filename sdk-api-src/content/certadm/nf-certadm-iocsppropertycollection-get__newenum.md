@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection__newenum_method.htm
 tech.root: seccrypto
 ms.assetid: 09ed83ce-ebab-4d03-a508-304f54206921
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],_NewEnum property, IOCSPPropertyCollection._NewEnum, IOCSPPropertyCollection.get__NewEnum, IOCSPPropertyCollection::_NewEnum, IOCSPPropertyCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::_NewEnum, certadm/IOCSPPropertyCollection::get__NewEnum, get__NewEnum, security.iocsppropertycollection__newenum_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

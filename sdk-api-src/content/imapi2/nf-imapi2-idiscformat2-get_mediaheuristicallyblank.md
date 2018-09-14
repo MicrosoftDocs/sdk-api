@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2_get_mediaheuristicallyblank.htm
 tech.root: imapi
 ms.assetid: 28c410cc-5135-4443-8b86-e34676f14f51
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_MediaHeuristicallyBlank method, IDiscFormat2.get_MediaHeuristicallyBlank, IDiscFormat2::get_MediaHeuristicallyBlank, get_MediaHeuristicallyBlank, get_MediaHeuristicallyBlank method [IMAPI], get_MediaHeuristicallyBlank method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_mediaheuristicallyblank, imapi2/IDiscFormat2::get_MediaHeuristicallyBlank
 ms.prod: windows-hardware
 ms.technology: windows-devices

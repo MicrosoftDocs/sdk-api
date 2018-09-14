@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_getmutedebugoutput.htm
 tech.root: direct3d11
 ms.assetid: 27f1b39f-b5c9-458e-a8cb-76090c240b8d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetMuteDebugOutput, GetMuteDebugOutput method [Direct3D 11], GetMuteDebugOutput method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetMuteDebugOutput method, ID3D11InfoQueue.GetMuteDebugOutput, ID3D11InfoQueue::GetMuteDebugOutput, d3d11sdklayers/ID3D11InfoQueue::GetMuteDebugOutput, direct3d11.id3d11infoqueue_getmutedebugoutput, eba4e6fc-5cb3-d294-8bbc-0d3b758aa27a
 ms.prod: windows-hardware
 ms.technology: windows-devices

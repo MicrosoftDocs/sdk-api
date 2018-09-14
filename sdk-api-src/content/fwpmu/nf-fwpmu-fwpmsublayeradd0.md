@@ -4,10 +4,10 @@ title: FwpmSubLayerAdd0 function
 author: windows-sdk-content
 description: Adds a new sublayer to the system.
 old-location: fwp\fwpmsublayeradd0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 85a6f4a9-297f-491d-b2f7-38de21dbe06c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FwpmSubLayerAdd0, FwpmSubLayerAdd0 function [Filtering], fwp.fwpmsublayeradd0_func, fwpmu/FwpmSubLayerAdd0
 ms.prod: windows-hardware
 ms.technology: windows-devices

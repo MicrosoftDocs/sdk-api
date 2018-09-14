@@ -7,7 +7,7 @@ old-location: monitor\getmonitordisplayareasize.htm
 tech.root: Monitor
 ms.assetid: c27cbcf8-bb89-47c4-9f37-8b7a3d61c99f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetMonitorDisplayAreaSize, GetMonitorDisplayAreaSize function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorDisplayAreaSize, monitor.getmonitordisplayareasize
 ms.prod: windows-hardware
 ms.technology: windows-devices

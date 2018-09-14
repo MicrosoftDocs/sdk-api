@@ -4,10 +4,10 @@ title: INetworkConnection::get_IsConnected
 author: windows-sdk-content
 description: The get_IsConnected property specifies if the associated network connection has network connectivity.
 old-location: nla\inetworkconnection_get_isconnected.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: bf5a8997-306a-47fe-8e2b-ad9b3efe14db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: INetworkConnection interface [Network Awareness],get_IsConnected method, INetworkConnection.get_IsConnected, INetworkConnection::get_IsConnected, get_IsConnected, get_IsConnected method [Network Awareness], get_IsConnected method [Network Awareness],INetworkConnection interface, netlistmgr/INetworkConnection::get_IsConnected, nla.inetworkconnection_get_isconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices

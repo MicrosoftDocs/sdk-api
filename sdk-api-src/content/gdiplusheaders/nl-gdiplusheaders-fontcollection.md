@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontCollection_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollection.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: FontCollection, FontCollection class [GDI+], FontCollection class [GDI+],described, _gdiplus_CLASS_FontCollection_Class, gdiplus._gdiplus_CLASS_FontCollection_Class, gdiplusheaders/FontCollection
 ms.prod: windows
 ms.technology: windows-sdk

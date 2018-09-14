@@ -7,7 +7,7 @@ old-location: ncd\ifunctioninstance.htm
 tech.root: fundisc
 ms.assetid: cc421719-73a6-4d4d-9bf8-171e46c4e275
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: IFunctionInstance, IFunctionInstance interface, IFunctionInstance interface,described, functiondiscoveryapi/IFunctionInstance, ncd.ifunctioninstance
 ms.prod: windows
 ms.technology: windows-sdk

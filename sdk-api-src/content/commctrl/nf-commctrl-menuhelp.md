@@ -4,10 +4,10 @@ title: MenuHelp function
 author: windows-sdk-content
 description: Processes WM_MENUSELECT and WM_COMMAND messages and displays Help text about the current menu in the specified status window.
 old-location: controls\MenuHelp.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\menuhelp.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: MenuHelp, MenuHelp function [Windows Controls], _win32_MenuHelp, _win32_MenuHelp_cpp, commctrl/MenuHelp, controls.MenuHelp, controls._win32_MenuHelp
 ms.prod: windows-hardware
 ms.technology: windows-devices

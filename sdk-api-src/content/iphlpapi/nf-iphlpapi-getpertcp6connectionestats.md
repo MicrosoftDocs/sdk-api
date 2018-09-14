@@ -4,10 +4,10 @@ title: GetPerTcp6ConnectionEStats function
 author: windows-sdk-content
 description: Retrieves extended statistics for an IPv6 TCP connection.
 old-location: iphlp\getpertcp6connectionestats.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 291aabe7-a4e7-4cc7-9cf3-4a4bc021e15e
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetPerTcp6ConnectionEStats, GetPerTcp6ConnectionEStats function [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, TcpConnectionEstatsSynOpts, iphlp.getpertcp6connectionestats, iphlpapi/GetPerTcp6ConnectionEStats
 ms.prod: windows-hardware
 ms.technology: windows-devices

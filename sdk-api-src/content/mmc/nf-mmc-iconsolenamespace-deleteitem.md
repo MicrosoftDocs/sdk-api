@@ -2,13 +2,13 @@
 UID: NF:mmc.IConsoleNameSpace.DeleteItem
 title: IConsoleNameSpace::DeleteItem
 author: windows-sdk-content
-description: The IConsoleNameSpace2::DeleteItem method enables the snap-in to delete a single item from the scope pane.
-old-location: mmc\iconsolenamespace2_deleteitem.htm
+description: Enables the snap-in to delete a single item from the scope pane.
+old-location: mmc\iconsolenamespace_deleteitem.htm
 tech.root: mmc
-ms.assetid: 488a6c26-e064-44a1-9842-6f41ec25887c
+ms.assetid: 30455269-7E96-47D8-A4F7-E3F9AA6B251A
 ms.author: windowssdkdev
-ms.date: 08/14/2018
-ms.keywords: DeleteItem, DeleteItem method [MMC], DeleteItem method [MMC],IConsoleNameSpace interface, DeleteItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],DeleteItem method, IConsoleNameSpace.DeleteItem, IConsoleNameSpace2 interface [MMC],DeleteItem method, IConsoleNameSpace2::DeleteItem, IConsoleNameSpace::DeleteItem, _slate_iconsolenamespace2_deleteitem, mmc.iconsolenamespace2_deleteitem, mmc/IConsoleNameSpace2::DeleteItem, mmc/IConsoleNameSpace::DeleteItem
+ms.date: 09/04/2018
+ms.keywords: DeleteItem, DeleteItem method [MMC], DeleteItem method [MMC],IConsoleNameSpace interface, IConsoleNameSpace interface [MMC],DeleteItem method, IConsoleNameSpace.DeleteItem, IConsoleNameSpace::DeleteItem, mmc.iconsolenamespace_deleteitem, mmc/IConsoleNameSpace::DeleteItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mmc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -38,7 +38,6 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IConsoleNameSpace.DeleteItem
- - IConsoleNameSpace2.DeleteItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IConsoleNameSpace2::DeleteItem</b> method enables the snap-in to delete a single item from the scope pane.
+Enables the snap-in to delete a single item from the scope pane.
 
 
 ## -parameters
@@ -61,7 +60,7 @@ The <b>IConsoleNameSpace2::DeleteItem</b> method enables the snap-in to delete a
 
 ### -param hItem [in]
 
-A handle to the item whose child items are to be deleted from the scope pane. If the second argument to <b>IConsoleNameSpace2::DeleteItem</b> is set to <b>TRUE</b>, the item is also deleted.
+A handle to the item whose child items are to be deleted from the scope pane. If the second argument to <b>IConsoleNameSpace::DeleteItem</b> is set to <b>TRUE</b>, the item is also deleted.
 
 
 ### -param fDeleteThis [in]
@@ -83,7 +82,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/894f99a6-2189-458d-a50f-497930d4a9dd">IConsoleNameSpace2</a>
+<a href="https://msdn.microsoft.com/444bc86d-bfd2-435c-b9fb-691c4da92411">IConsoleNameSpace</a>
  
 
  

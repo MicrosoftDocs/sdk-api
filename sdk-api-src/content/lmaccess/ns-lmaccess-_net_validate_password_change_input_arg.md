@@ -7,7 +7,7 @@ old-location: netmgmt\net_validate_password_change_input_arg.htm
 tech.root: netmgmt
 ms.assetid: 09404998-81c5-400c-9d99-a0a4bb4095bf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG structure [Network Management], PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG structure pointer [Network Management], _NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, lmaccess/NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, lmaccess/PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG, netmgmt.net_validate_password_change_input_arg"
 ms.prod: windows
 ms.technology: windows-sdk

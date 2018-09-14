@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectforhrtf.htm
 tech.root: CoreAudio
 ms.assetid: E69F1D09-B937-4BCC-A040-18EF8A838289
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: ISpatialAudioObjectForHrtf, ISpatialAudioObjectForHrtf interface [Core Audio], ISpatialAudioObjectForHrtf interface [Core Audio],described, coreaudio.ispatialaudioobjectforhrtf, spatialaudiohrtf/ISpatialAudioObjectForHrtf
 ms.prod: windows
 ms.technology: windows-sdk

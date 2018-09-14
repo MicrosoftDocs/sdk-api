@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_parameter_desc.htm
 tech.root: direct3d12
 ms.assetid: CE32EC5C-2B12-44CA-A2B0-C9ED3E64849F
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: D3D12_PARAMETER_DESC, D3D12_PARAMETER_DESC structure, _D3D12_PARAMETER_DESC, d3d12shader/D3D12_PARAMETER_DESC, direct3d12.d3d12_parameter_desc
 ms.prod: windows
 ms.technology: windows-sdk

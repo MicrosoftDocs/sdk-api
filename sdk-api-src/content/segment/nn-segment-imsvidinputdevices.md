@@ -4,10 +4,10 @@ title: IMSVidInputDevices
 author: windows-sdk-content
 description: The IMSVidInputDevices interface represents a collection of input devices. The MSVidInputDevices object exposes this object.
 old-location: mstv\imsvidinputdevices.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: cb9d9885-718e-43b9-b195-66149bd7e973
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidInputDevices, IMSVidInputDevices interface [Microsoft TV Technologies], IMSVidInputDevices interface [Microsoft TV Technologies],described, IMSVidInputDevicesInterface, mstv.imsvidinputdevices, segment/IMSVidInputDevices
 ms.prod: windows
 ms.technology: windows-sdk

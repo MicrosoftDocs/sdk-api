@@ -7,7 +7,7 @@ old-location: tsf\itfkeystrokemgr.htm
 tech.root: TSF
 ms.assetid: 93c1591d-2c95-45cb-8fc5-5726e905f202
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITfKeystrokeMgr, ITfKeystrokeMgr interface [Text Services Framework], ITfKeystrokeMgr interface [Text Services Framework],described, _tsf_itfkeystrokemgr_ref, msctf/ITfKeystrokeMgr, tsf.itfkeystrokemgr
 ms.prod: windows
 ms.technology: windows-sdk

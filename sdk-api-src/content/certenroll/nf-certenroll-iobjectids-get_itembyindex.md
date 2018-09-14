@@ -4,10 +4,10 @@ title: IObjectIds::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an IObjectId object from the collection by index number.
 old-location: security\iobjectids_itembyindex_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 388c3ac4-9b3b-46a5-9b8f-d446de92f6c2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IObjectIds interface [Security],ItemByIndex property, IObjectIds.ItemByIndex, IObjectIds.get_ItemByIndex, IObjectIds::ItemByIndex, IObjectIds::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IObjectIds interface, certenroll/IObjectIds::ItemByIndex, certenroll/IObjectIds::get_ItemByIndex, get_ItemByIndex, security.iobjectids_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

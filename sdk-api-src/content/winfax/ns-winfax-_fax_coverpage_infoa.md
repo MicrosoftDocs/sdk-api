@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_coverpage_info_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3zaq.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: "*PFAX_COVERPAGE_INFOA, FAX_COVERPAGE_INFO, FAX_COVERPAGE_INFO structure [Fax Service], FAX_COVERPAGE_INFOA, FAX_COVERPAGE_INFOW, PFAX_COVERPAGE_INFO, PFAX_COVERPAGE_INFO structure pointer [Fax Service], _FAX_COVERPAGE_INFOA, _mfax_fax_coverpage_info_str, fax._mfax_fax_coverpage_info_str, winfax/FAX_COVERPAGE_INFO, winfax/FAX_COVERPAGE_INFOA, winfax/FAX_COVERPAGE_INFOW, winfax/PFAX_COVERPAGE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

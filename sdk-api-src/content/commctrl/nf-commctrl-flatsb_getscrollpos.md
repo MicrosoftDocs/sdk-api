@@ -4,10 +4,10 @@ title: FlatSB_GetScrollPos function
 author: windows-sdk-content
 description: Gets the thumb position in a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard GetScrollPos function.
 old-location: controls\FlatSB_GetScrollPos.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollpos.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: FlatSB_GetScrollPos, FlatSB_GetScrollPos function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_GetScrollPos, _win32_FlatSB_GetScrollPos_cpp, commctrl/FlatSB_GetScrollPos, controls.FlatSB_GetScrollPos, controls._win32_FlatSB_GetScrollPos
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IIsdbAudioComponentDescriptor::GetESMultiLingualFlag
 author: windows-sdk-content
 description: Gets a flag from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor that indicates whether the stream uses ES multilingual mode.
 old-location: mstv\iisdbaudiocomponentdescriptor_getesmultilingualflag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 10a47ca7-84db-48de-8ba5-0be257438044
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetESMultiLingualFlag, GetESMultiLingualFlag method [Microsoft TV Technologies], GetESMultiLingualFlag method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetESMultiLingualFlag method, IIsdbAudioComponentDescriptor.GetESMultiLingualFlag, IIsdbAudioComponentDescriptor::GetESMultiLingualFlag, dvbsiparser/IIsdbAudioComponentDescriptor::GetESMultiLingualFlag, mstv.iisdbaudiocomponentdescriptor_getesmultilingualflag
 ms.prod: windows-hardware
 ms.technology: windows-devices

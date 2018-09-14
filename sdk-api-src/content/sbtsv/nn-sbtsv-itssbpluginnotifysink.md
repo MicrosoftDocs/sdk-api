@@ -4,10 +4,10 @@ title: ITsSbPluginNotifySink
 author: windows-sdk-content
 description: Exposes methods that notify Remote Desktop Connection Broker (RD Connection Broker) about initialization or termination of a plug-in.
 old-location: termserv\itssbpluginnotifysink.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: c52a3253-74cb-4ff9-a4f3-cb9601c02e7d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITsSbPluginNotifySink, ITsSbPluginNotifySink interface [Remote Desktop Services], ITsSbPluginNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbPluginNotifySink, termserv.itssbpluginnotifysink
 ms.prod: windows
 ms.technology: windows-sdk

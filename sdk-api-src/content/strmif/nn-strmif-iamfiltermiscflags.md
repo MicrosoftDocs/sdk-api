@@ -7,7 +7,7 @@ old-location: dshow\iamfiltermiscflags.htm
 tech.root: DirectShow
 ms.assetid: f9f3eaf9-4afa-412f-aa8f-b75e787cfecb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IAMFilterMiscFlags, IAMFilterMiscFlags interface [DirectShow], IAMFilterMiscFlags interface [DirectShow],described, IAMFilterMiscFlagsInterface, dshow.iamfiltermiscflags, strmif/IAMFilterMiscFlags
 ms.prod: windows
 ms.technology: windows-sdk

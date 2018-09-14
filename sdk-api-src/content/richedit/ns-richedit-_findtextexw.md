@@ -4,10 +4,10 @@ title: "_findtextexw"
 author: windows-sdk-content
 description: Contains information about text to search for in a rich edit control. This structure is used with the EM_FINDTEXTEX message.
 old-location: controls\FINDTEXTEX.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\findtextex.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: FINDTEXTEX, FINDTEXTEX structure [Windows Controls], FINDTEXTEXA, FINDTEXTEXW, _findtextexw, _win32_FINDTEXTEX_str, _win32_FINDTEXTEX_str_cpp, controls.FINDTEXTEX, controls._win32_FINDTEXTEX_str, richedit/FINDTEXTEX, richedit/FINDTEXTEXA, richedit/FINDTEXTEXW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IPolicyQualifier::get_Qualifier
 author: windows-sdk-content
 description: Retrieves a string that contains the qualifier used to initialize the object.
 old-location: security\ipolicyqualifier_qualifier_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 73cecc9b-519c-45c8-b9f8-864ff628560a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IPolicyQualifier interface [Security],Qualifier property, IPolicyQualifier.Qualifier, IPolicyQualifier.get_Qualifier, IPolicyQualifier::Qualifier, IPolicyQualifier::get_Qualifier, Qualifier property [Security], Qualifier property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::Qualifier, certenroll/IPolicyQualifier::get_Qualifier, get_Qualifier, security.ipolicyqualifier_qualifier_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

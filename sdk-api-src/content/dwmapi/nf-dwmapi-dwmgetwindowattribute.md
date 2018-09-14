@@ -7,7 +7,7 @@ old-location: dwm\dwmgetwindowattribute.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetwindowattribute.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DwmGetWindowAttribute, DwmGetWindowAttribute function [Desktop Window Manager], _udwm_dwmgetwindowattribute, _udwm_dwmgetwindowattribute_cpp, dwm.dwmgetwindowattribute, dwmapi/DwmGetWindowAttribute, winui._udwm_dwmgetwindowattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

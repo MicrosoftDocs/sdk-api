@@ -7,7 +7,7 @@ old-location: enstor\ienhancedstorageact2_isdeviceremovable.htm
 tech.root: enstor
 ms.assetid: 1118756d-56d7-4f59-8e2a-2cb970a7a62a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IEnhancedStorageACT2 interface [Enhanced Storage],IsDeviceRemovable method, IEnhancedStorageACT2.IsDeviceRemovable, IEnhancedStorageACT2::IsDeviceRemovable, IsDeviceRemovable, IsDeviceRemovable method [Enhanced Storage], IsDeviceRemovable method [Enhanced Storage],IEnhancedStorageACT2 interface, ehstorapi/IEnhancedStorageACT2::IsDeviceRemovable, enstor.ienhancedstorageact2_isdeviceremovable
 ms.prod: windows-hardware
 ms.technology: windows-devices

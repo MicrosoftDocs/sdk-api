@@ -4,10 +4,10 @@ title: NdrSimpleStructBufferSize function
 author: windows-sdk-content
 description: The NdrSimpleStructBufferSize function calculates the required buffer size, in bytes, to marshal the simple structure.
 old-location: winprog\ndrsimplestructbuffersize.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: e88eaed3-0676-4c43-8ac1-7a5e19fc5748
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: NdrSimpleStructBufferSize, NdrSimpleStructBufferSize function [Windows API], rpcndr/NdrSimpleStructBufferSize, winprog.ndrsimplestructbuffersize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\imediaevent_restoredefaulthandling.htm
 tech.root: DirectShow
 ms.assetid: 2df616b0-b944-44ab-8147-4f70796dd2a2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IMediaEvent interface [DirectShow],RestoreDefaultHandling method, IMediaEvent.RestoreDefaultHandling, IMediaEvent::RestoreDefaultHandling, IMediaEventRestoreDefaultHandling, RestoreDefaultHandling, RestoreDefaultHandling method [DirectShow], RestoreDefaultHandling method [DirectShow],IMediaEvent interface, control/IMediaEvent::RestoreDefaultHandling, dshow.imediaevent_restoredefaulthandling
 ms.prod: windows-hardware
 ms.technology: windows-devices

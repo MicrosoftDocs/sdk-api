@@ -4,10 +4,10 @@ title: IATSC_ETT
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_ett.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: ae52e81e-4de1-480c-82bf-c9629064970c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IATSC_ETT, IATSC_ETT interface [Microsoft TV Technologies], IATSC_ETT interface [Microsoft TV Technologies],described, IATSC_ETTInterface, atscpsipparser/IATSC_ETT, mstv.iatsc_ett
 ms.prod: windows
 ms.technology: windows-sdk

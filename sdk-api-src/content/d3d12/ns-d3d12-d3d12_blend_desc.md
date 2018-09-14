@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_blend_desc.htm
 tech.root: direct3d12
 ms.assetid: FFCA10AF-1081-4D4B-900D-C3692D0B5A91
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: D3D12_BLEND_DESC, D3D12_BLEND_DESC structure, d3d12/D3D12_BLEND_DESC, direct3d12.d3d12_blend_desc
 ms.prod: windows
 ms.technology: windows-sdk

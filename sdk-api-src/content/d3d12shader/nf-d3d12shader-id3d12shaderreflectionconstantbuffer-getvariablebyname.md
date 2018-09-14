@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectionconstantbuffer_getvariablebyname.
 tech.root: direct3d12
 ms.assetid: FD18A64F-9B4A-42FE-8E18-13E9375E19BC
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetVariableByName, GetVariableByName method, GetVariableByName method,ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,GetVariableByName method, ID3D12ShaderReflectionConstantBuffer.GetVariableByName, ID3D12ShaderReflectionConstantBuffer::GetVariableByName, d3d12shader/ID3D12ShaderReflectionConstantBuffer::GetVariableByName, direct3d12.id3d12shaderreflectionconstantbuffer_getvariablebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

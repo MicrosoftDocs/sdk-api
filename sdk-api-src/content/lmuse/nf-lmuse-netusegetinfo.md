@@ -7,7 +7,7 @@ old-location: netmgmt\netusegetinfo.htm
 tech.root: netmgmt
 ms.assetid: 257875db-5ed9-4569-8dbb-5dcc7a6af95c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: NetUseGetInfo, NetUseGetInfo function [Network Management], _win32_netusegetinfo, lmuse/NetUseGetInfo, netmgmt.netusegetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

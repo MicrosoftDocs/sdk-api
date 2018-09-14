@@ -4,10 +4,10 @@ title: ITextFont::GetDuplicate
 author: windows-sdk-content
 description: Gets a duplicate of this text font object.
 old-location: controls\ITextFont_GetDuplicate.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetduplicate.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetDuplicate, GetDuplicate method [Windows Controls], GetDuplicate method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetDuplicate method, ITextFont.GetDuplicate, ITextFont::GetDuplicate, _win32_ITextFont_GetDuplicate, _win32_ITextFont_GetDuplicate_cpp, controls.ITextFont_GetDuplicate, controls._win32_ITextFont_GetDuplicate, tom/ITextFont::GetDuplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices

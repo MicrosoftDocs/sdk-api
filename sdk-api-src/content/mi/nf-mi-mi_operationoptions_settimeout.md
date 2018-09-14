@@ -4,10 +4,10 @@ title: MI_OperationOptions_SetTimeout function
 author: windows-sdk-content
 description: Sets the operation timeout for a specific operation.
 old-location: wmi_v2\mi_operationoptions_settimeout.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 73b640a4-db78-4cd2-af77-12317899d398
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_OperationOptions_SetTimeout, MI_OperationOptions_SetTimeout function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetTimeout, wmi_v2.mi_operationoptions_settimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

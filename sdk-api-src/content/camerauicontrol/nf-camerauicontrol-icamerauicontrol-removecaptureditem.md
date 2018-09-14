@@ -4,10 +4,10 @@ title: ICameraUIControl::RemoveCapturedItem
 author: windows-sdk-content
 description: Removes the captured item.
 old-location: winprog\icamerauicontrol_removecaptureditem.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 384b08e4-7683-43e1-b088-38455a0b956f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICameraUIControl interface [Windows API],RemoveCapturedItem method, ICameraUIControl.RemoveCapturedItem, ICameraUIControl::RemoveCapturedItem, RemoveCapturedItem, RemoveCapturedItem method [Windows API], RemoveCapturedItem method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::RemoveCapturedItem, winprog.icamerauicontrol_removecaptureditem
 ms.prod: windows-hardware
 ms.technology: windows-devices

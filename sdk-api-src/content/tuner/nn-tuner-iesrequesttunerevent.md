@@ -4,10 +4,10 @@ title: IESRequestTunerEvent
 author: windows-sdk-content
 description: Contains methods that enable a Protected Broadcast Driver Architecture (PBDA)-supported device to get exclusive access to a tuner and its Conditional Access Services (CAS).For more information about PBDA, download the specification from http://go.microsoft.com/fwlink/p/?linkid=132926.
 old-location: mstv\iesrequesttunerevent.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: da1183a3-6f31-402a-b103-448cf13705a9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IESRequestTunerEvent, IESRequestTunerEvent interface [Microsoft TV Technologies], IESRequestTunerEvent interface [Microsoft TV Technologies],described, mstv.iesrequesttunerevent, tuner/IESRequestTunerEvent
 ms.prod: windows
 ms.technology: windows-sdk

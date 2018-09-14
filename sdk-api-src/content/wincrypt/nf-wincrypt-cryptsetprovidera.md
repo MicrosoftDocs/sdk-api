@@ -7,7 +7,7 @@ old-location: security\cryptsetprovider.htm
 tech.root: seccrypto
 ms.assetid: 44023a0c-3fb4-4746-a676-1671c3ad901b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CryptSetProvider, CryptSetProvider function [Security], CryptSetProviderA, CryptSetProviderW, _crypto2_cryptsetprovider, security.cryptsetprovider, wincrypt/CryptSetProvider, wincrypt/CryptSetProviderA, wincrypt/CryptSetProviderW
 ms.prod: windows-hardware
 ms.technology: windows-devices

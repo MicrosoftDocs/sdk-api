@@ -7,7 +7,7 @@ old-location: wmformat\iwmpropertyvault_copypropertiesfrom.htm
 tech.root: wmformat
 ms.assetid: 34708ff4-a416-4f2a-abeb-18b9c24c4e7c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CopyPropertiesFrom, CopyPropertiesFrom method [windows Media Format], CopyPropertiesFrom method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],CopyPropertiesFrom method, IWMPropertyVault.CopyPropertiesFrom, IWMPropertyVault::CopyPropertiesFrom, IWMPropertyVaultCopyPropertiesFrom, wmformat.iwmpropertyvault_copypropertiesfrom, wmsdkidl/IWMPropertyVault::CopyPropertiesFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices

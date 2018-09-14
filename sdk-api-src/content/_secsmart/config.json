@@ -1,7 +1,6 @@
 {
   "tech": "secsmart",
   "headers": [
-    "tbd",
     "cardmod.h"
   ],
   "displayName": "Smart Card API"

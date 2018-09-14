@@ -4,10 +4,10 @@ title: ITPhone::GetPhoneCapsBuffer
 author: windows-sdk-content
 description: The GetPhoneCapsBuffer method gets a buffer capability/information about the phone, based on the PHONECAPS_BUFFER enum passed in.
 old-location: tapi3\itphone_getphonecapsbuffer.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 239902ca-0e9e-4b8d-927d-ee46a35dd9d8
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: GetPhoneCapsBuffer, GetPhoneCapsBuffer method [TAPI 2.2], GetPhoneCapsBuffer method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],GetPhoneCapsBuffer method, ITPhone.GetPhoneCapsBuffer, ITPhone::GetPhoneCapsBuffer, _tapi3_itphone_getphonecapsbuffer, tapi3.itphone_getphonecapsbuffer, tapi3if/ITPhone::GetPhoneCapsBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

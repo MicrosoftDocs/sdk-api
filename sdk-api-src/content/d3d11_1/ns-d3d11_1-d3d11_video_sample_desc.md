@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_sample_desc.htm
 tech.root: medfound
 ms.assetid: 3B6BF76A-6566-4C58-AD26-5B13E6D040CA
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: D3D11_VIDEO_SAMPLE_DESC, D3D11_VIDEO_SAMPLE_DESC structure [Media Foundation], d3d11_1/D3D11_VIDEO_SAMPLE_DESC, mf.d3d11_video_sample_desc
 ms.prod: windows
 ms.technology: windows-sdk

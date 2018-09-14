@@ -4,10 +4,10 @@ title: MI_DestinationOptions_GetCertCACheck function
 author: windows-sdk-content
 description: Gets the server certificate CA check value.
 old-location: wmi_v2\mi_destinationoptions_getcertcacheck.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 9b1b5bca-4e1f-4c37-9df4-9101f40f1b97
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_DestinationOptions_GetCertCACheck, MI_DestinationOptions_GetCertCACheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCertCACheck, wmi_v2.mi_destinationoptions_getcertcacheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

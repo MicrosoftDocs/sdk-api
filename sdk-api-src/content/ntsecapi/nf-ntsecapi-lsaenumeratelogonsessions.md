@@ -4,10 +4,10 @@ title: LsaEnumerateLogonSessions function
 author: windows-sdk-content
 description: Retrieves the set of existing logon session identifiers (LUIDs) and the number of sessions.
 old-location: security\lsaenumeratelogonsessions.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: ddf3b9ec-dea7-4333-9ffe-142811048c83
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: LsaEnumerateLogonSessions, LsaEnumerateLogonSessions function [Security], _lsa_lsaenumeratelogonsessions, ntsecapi/LsaEnumerateLogonSessions, security.lsaenumeratelogonsessions
 ms.prod: windows-hardware
 ms.technology: windows-devices

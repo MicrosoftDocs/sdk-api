@@ -4,10 +4,10 @@ title: SmartCardStatusType
 author: windows-sdk-content
 description: The SmartCardStatusType enumeration type specifies the status of a smart card.
 old-location: mstv\smartcardstatustype.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: c699c6a9-f554-4e2d-ac7f-9b5ff954fa6b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: CardDataChanged, CardError, CardFirmwareUpgrade, CardInserted, CardRemoved, SmartCardStatusType, SmartCardStatusType enumeration [Microsoft TV Technologies], bdaiface/CardDataChanged, bdaiface/CardError, bdaiface/CardFirmwareUpgrade, bdaiface/CardInserted, bdaiface/CardRemoved, bdaiface/SmartCardStatusType, mstv.smartcardstatustype
 ms.prod: windows
 ms.technology: windows-sdk

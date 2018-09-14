@@ -4,10 +4,10 @@ title: "_MI_QualifierSetFT"
 author: windows-sdk-content
 description: A support structure used in the MI_QualifierSet structure. Use the functions with the name prefix &#0034;MI_QualifierSet_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_qualifiersetft.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 3868c336-e3c1-4977-8c5d-3964c93b6074
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_QualifierSetFT, MI_QualifierSetFT structure [Windows Management Infrastructure (MI)], _MI_QualifierSetFT, mi/MI_QualifierSetFT, wmi_v2.mi_qualifiersetft
 ms.prod: windows
 ms.technology: windows-sdk

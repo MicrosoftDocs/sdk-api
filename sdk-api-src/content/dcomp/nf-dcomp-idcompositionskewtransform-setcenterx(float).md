@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionskewtransform_setcenterx_float.htm
 tech.root: directcomp
 ms.assetid: 706A9DDF-ED32-4694-9FF6-580F7AFAB09F
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetCenterX method, IDCompositionSkewTransform.SetCenterX, IDCompositionSkewTransform.SetCenterX(float), IDCompositionSkewTransform::SetCenterX, IDCompositionSkewTransform::SetCenterX(float), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetCenterX, directcomp.idcompositionskewtransform_setcenterx_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

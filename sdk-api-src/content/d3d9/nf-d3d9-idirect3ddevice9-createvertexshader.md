@@ -4,10 +4,10 @@ title: IDirect3DDevice9::CreateVertexShader
 author: windows-sdk-content
 description: Creates a vertex shader.
 old-location: direct3d9\idirect3ddevice9__createvertexshader.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createvertexshader.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 42a56eab-a68f-232a-b21e-cc24c0b7b58d, CreateVertexShader, CreateVertexShader method [Direct3D 9], CreateVertexShader method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateVertexShader method, IDirect3DDevice9.CreateVertexShader, IDirect3DDevice9::CreateVertexShader, d3d9helper/IDirect3DDevice9::CreateVertexShader, direct3d9.idirect3ddevice9__createvertexshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

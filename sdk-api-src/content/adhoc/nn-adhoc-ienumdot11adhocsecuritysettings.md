@@ -4,10 +4,10 @@ title: IEnumDot11AdHocSecuritySettings
 author: windows-sdk-content
 description: Represents the collection of security settings associated with each visible wireless ad hoc network.
 old-location: nwifi\ienumdot11adhocsecuritysettings.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 137abd1b-997d-4003-9fef-8db56b273149
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings, IEnumDot11AdHocSecuritySettings interface [NativeWIFI], IEnumDot11AdHocSecuritySettings interface [NativeWIFI],described, adhoc/IEnumDot11AdHocSecuritySettings, nwifi.ienumdot11adhocsecuritysettings
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamprioritization_getstreamcount.htm
 tech.root: medfound
 ms.assetid: 8c9dacbb-a952-411e-82df-0c8768d0b3fe
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 8c9dacbb-a952-411e-82df-0c8768d0b3fe, GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],GetStreamCount method, IMFASFStreamPrioritization.GetStreamCount, IMFASFStreamPrioritization::GetStreamCount, mf.imfasfstreamprioritization_getstreamcount, wmcontainer/IMFASFStreamPrioritization::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: EapHostPeerSetResponseAttributes function
 author: windows-sdk-content
 description: Provides updated EAP authentication attributes to EAPHost.
 old-location: eaphost\eaphostpeersetresponseattributes.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: b8ce5510-f5ba-403c-8709-940ae58cd10d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EapHostPeerSetResponseAttributes, EapHostPeerSetResponseAttributes function [EAPHost], eaphost.eaphostpeersetresponseattributes, eappapis/EapHostPeerSetResponseAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

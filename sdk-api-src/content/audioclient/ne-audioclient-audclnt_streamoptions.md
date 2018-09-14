@@ -7,7 +7,7 @@ old-location: coreaudio\audclnt_streamoptions.htm
 tech.root: CoreAudio
 ms.assetid: C9A51FB2-46F5-4F20-B9F2-63EC53CAB3D7
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: AUDCLNT_STREAMOPTIONS, AUDCLNT_STREAMOPTIONS enumeration [Core Audio], AUDCLNT_STREAMOPTIONS_MATCH_FORMAT, AUDCLNT_STREAMOPTIONS_NONE, AUDCLNT_STREAMOPTIONS_RAW, audioclient/AUDCLNT_STREAMOPTIONS, audioclient/AUDCLNT_STREAMOPTIONS_MATCH_FORMAT, audioclient/AUDCLNT_STREAMOPTIONS_NONE, audioclient/AUDCLNT_STREAMOPTIONS_RAW, coreaudio.audclnt_streamoptions
 ms.prod: windows
 ms.technology: windows-sdk

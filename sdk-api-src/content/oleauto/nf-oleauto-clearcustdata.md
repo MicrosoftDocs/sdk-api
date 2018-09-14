@@ -7,7 +7,7 @@ old-location: automat\clearcustdata.htm
 tech.root: automat
 ms.assetid: 14556107-3b22-48c8-b480-280b9dee9b17
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClearCustData, ClearCustData function [Automation], _oa96_ClearCustData, automat.clearcustdata, oleauto/ClearCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices

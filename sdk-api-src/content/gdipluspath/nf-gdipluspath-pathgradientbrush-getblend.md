@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetBlend_blendFactors_ble
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getblend_22blendfactors_blendpositions_count.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: GetBlend, GetBlend method [GDI+], GetBlend method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetBlend method, PathGradientBrush.GetBlend, PathGradientBrush::GetBlend, _gdiplus_CLASS_PathGradientBrush_GetBlend_blendFactors_blendPositions_count_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetBlend_blendFactors_blendPositions_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

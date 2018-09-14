@@ -7,7 +7,7 @@ old-location: cos\icomtrackinginfocollection_count.htm
 tech.root: cossdk
 ms.assetid: 72578a4e-bc23-4bc8-ab40-346ba9c5a6d7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Count, Count method [COM+], Count method [COM+],IComTrackingInfoCollection interface, IComTrackingInfoCollection interface [COM+],Count method, IComTrackingInfoCollection.Count, IComTrackingInfoCollection::Count, _dtc_IComTrackingInfoCollection_Count, comsvcs/IComTrackingInfoCollection::Count, cos.icomtrackinginfocollection_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

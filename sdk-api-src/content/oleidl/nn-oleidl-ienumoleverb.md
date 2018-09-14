@@ -7,7 +7,7 @@ old-location: com\ienumoleverb.htm
 tech.root: com
 ms.assetid: fc9b3474-6f56-4274-af7d-72e0920c0457
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IEnumOLEVERB, IEnumOLEVERB interface [COM], IEnumOLEVERB interface [COM],described, _ole_ienumoleverb, com.ienumoleverb, oleidl/IEnumOLEVERB
 ms.prod: windows
 ms.technology: windows-sdk

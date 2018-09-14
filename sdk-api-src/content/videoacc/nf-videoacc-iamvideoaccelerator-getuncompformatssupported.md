@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_getuncompformatssupported.htm
 tech.root: DirectShow
 ms.assetid: 33f9a4ee-4de9-4853-9581-808d7a07bfc4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: GetUncompFormatsSupported, GetUncompFormatsSupported method [DirectShow], GetUncompFormatsSupported method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetUncompFormatsSupported method, IAMVideoAccelerator.GetUncompFormatsSupported, IAMVideoAccelerator::GetUncompFormatsSupported, IAMVideoAcceleratorGetUncompFormatsSupported, dshow.iamvideoaccelerator_getuncompformatssupported, videoacc/IAMVideoAccelerator::GetUncompFormatsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: policy\rsopfileaccesscheck.htm
 tech.root: Policy
 ms.assetid: dfdf14ee-fee1-4e96-9955-7f24dfe39487
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: RSoPFileAccessCheck, RSoPFileAccessCheck function [Group Policy], RsopFileAccessCheck, _win32_rsopfileaccesscheck, policy.rsopfileaccesscheck, userenv/RSoPFileAccessCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: INetSharingPublicConnectionCollection
 author: windows-sdk-content
 description: The INetSharingPublicConnectionCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate public connections.
 old-location: ics\inetsharingpublicconnectioncollection.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 92027ba2-b803-4c9f-ae77-a89074fef718
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: INetSharingPublicConnectionCollection, INetSharingPublicConnectionCollection interface [ICS/ICF], INetSharingPublicConnectionCollection interface [ICS/ICF],described, _ics_inetsharingpublicconnectioncollection, ics.inetsharingpublicconnectioncollection, netcon/INetSharingPublicConnectionCollection
 ms.prod: windows
 ms.technology: windows-sdk

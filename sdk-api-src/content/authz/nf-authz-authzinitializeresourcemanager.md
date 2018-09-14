@@ -4,10 +4,10 @@ title: AuthzInitializeResourceManager function
 author: windows-sdk-content
 description: Uses Authz to verify that clients have access to various resources.
 old-location: security\authzinitializeresourcemanager.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: e3f6b37d-2c33-4b17-97b4-762bf55561c5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRALIZED_ACCESS_POLICIES, AuthzInitializeResourceManager, AuthzInitializeResourceManager function [Security], _win32_authzinitializeresourcemanager, authz/AuthzInitializeResourceManager, security.authzinitializeresourcemanager
 ms.prod: windows-hardware
 ms.technology: windows-devices

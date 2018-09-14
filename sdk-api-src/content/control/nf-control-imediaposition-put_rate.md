@@ -7,7 +7,7 @@ old-location: dshow\imediaposition_put_rate.htm
 tech.root: DirectShow
 ms.assetid: fba6bb5a-6709-41e6-bf76-182c88ee42e3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_Rate method, IMediaPosition.put_Rate, IMediaPosition::put_Rate, IMediaPositionput_Rate, control/IMediaPosition::put_Rate, dshow.imediaposition_put_rate, put_Rate, put_Rate method [DirectShow], put_Rate method [DirectShow],IMediaPosition interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

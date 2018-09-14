@@ -4,10 +4,10 @@ title: IAutomaticUpdates::DetectNow
 author: windows-sdk-content
 description: Begins the Automatic Updates detection task if Automatic Updates is enabled. If any updates are detected, the installation behavior is determined by the NotificationLevel property of the IAutomaticUpdatesSettings interface.
 old-location: wua\iautomaticupdates_detectnow.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ef40cd57-eab3-4ccf-a574-ab5237565e5b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: DetectNow, DetectNow method [Windows Update Agent], DetectNow method [Windows Update Agent],IAutomaticUpdates interface, IAutomaticUpdates interface [Windows Update Agent],DetectNow method, IAutomaticUpdates.DetectNow, IAutomaticUpdates::DetectNow, wua.iautomaticupdates_detectnow, wuapi/IAutomaticUpdates::DetectNow
 ms.prod: windows-hardware
 ms.technology: windows-devices

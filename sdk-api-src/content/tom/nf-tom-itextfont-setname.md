@@ -4,10 +4,10 @@ title: ITextFont::SetName
 author: windows-sdk-content
 description: Sets the font name.
 old-location: controls\ITextFont_SetName.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setname.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITextFont interface [Windows Controls],SetName method, ITextFont.SetName, ITextFont::SetName, SetName, SetName method [Windows Controls], SetName method [Windows Controls],ITextFont interface, _win32_ITextFont_SetName, _win32_ITextFont_SetName_cpp, controls.ITextFont_SetName, controls._win32_ITextFont_SetName, tom/ITextFont::SetName
 ms.prod: windows-hardware
 ms.technology: windows-devices

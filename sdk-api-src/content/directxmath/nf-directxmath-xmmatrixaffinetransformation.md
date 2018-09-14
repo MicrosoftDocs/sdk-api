@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrixaffinetransformation.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixAffineTransformation(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: Use DirectX..XMMatrixAffineTransformation, XMMatrixAffineTransformation, XMMatrixAffineTransformation method [DirectX Math Support APIs], dxmath.xmmatrixaffinetransformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

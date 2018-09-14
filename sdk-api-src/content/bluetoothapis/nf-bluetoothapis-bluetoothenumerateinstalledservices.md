@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothenumerateinstalledservices.htm
 tech.root: bluetooth
 ms.assetid: 6f32c776-3c4d-4b0f-ab81-1e880d979d3b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: BluetoothEnumerateInstalledServices, BluetoothEnumerateInstalledServices function [Bluetooth], bluetooth.bluetoothenumerateinstalledservices, bluetoothapis/BluetoothEnumerateInstalledServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

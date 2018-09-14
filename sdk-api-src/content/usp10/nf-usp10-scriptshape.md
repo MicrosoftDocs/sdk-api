@@ -7,7 +7,7 @@ old-location: intl\scriptshape.htm
 tech.root: Intl
 ms.assetid: 073ba94a-ebfa-42f5-9d90-d5693dc25703
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/30/2018
 ms.keywords: ScriptShape, ScriptShape function [Internationalization for Windows Applications], _win32_ScriptShape, intl.scriptshape, usp10/ScriptShape
 ms.prod: windows-hardware
 ms.technology: windows-devices

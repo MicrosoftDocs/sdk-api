@@ -4,10 +4,10 @@ title: TabCtrl_GetImageList macro
 author: windows-sdk-content
 description: Retrieves the image list associated with a tab control. You can use this macro or send the TCM_GETIMAGELIST message explicitly.
 old-location: controls\TabCtrl_GetImageList.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getimagelist.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: TabCtrl_GetImageList, TabCtrl_GetImageList macro [Windows Controls], _win32_TabCtrl_GetImageList, _win32_TabCtrl_GetImageList_cpp, commctrl/TabCtrl_GetImageList, controls.TabCtrl_GetImageList, controls._win32_TabCtrl_GetImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_RPC_NOTIFICATION_TYPES"
 author: windows-sdk-content
 description: The RPC_NOTIFICATION_TYPES enumerated type contains values that specify the method of asynchronous notification that a client program will use.
 old-location: rpc\rpc_notification_types.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 3c6fcba5-ea74-47ee-8fb9-6393d1ea62fc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: RPC_NOTIFICATION_TYPES, RPC_NOTIFICATION_TYPES enumeration [RPC], RpcNotificationTypeApc, RpcNotificationTypeCallback, RpcNotificationTypeEvent, RpcNotificationTypeHwnd, RpcNotificationTypeIoc, RpcNotificationTypeNone, _RPC_NOTIFICATION_TYPES, _rpc_rpc_notification_types, rpc.rpc_notification_types, rpcasync/RPC_NOTIFICATION_TYPES, rpcasync/RpcNotificationTypeApc, rpcasync/RpcNotificationTypeCallback, rpcasync/RpcNotificationTypeEvent, rpcasync/RpcNotificationTypeHwnd, rpcasync/RpcNotificationTypeIoc, rpcasync/RpcNotificationTypeNone
 ms.prod: windows
 ms.technology: windows-sdk

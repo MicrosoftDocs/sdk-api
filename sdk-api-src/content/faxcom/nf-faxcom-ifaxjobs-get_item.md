@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjobs_get_item.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1zn1.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: IFaxJobs interface [Fax Service],get_Item method, IFaxJobs.get_Item, IFaxJobs::get_Item, _mfax_ifaxjobs_get_item, fax._mfax_ifaxjobs_get_item, faxcom/IFaxJobs::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxJobs interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

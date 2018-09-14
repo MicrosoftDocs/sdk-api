@@ -4,10 +4,10 @@ title: IX509ExtensionTemplate::get_TemplateOid
 author: windows-sdk-content
 description: Retrieves the template object identifier (OID).
 old-location: security\ix509extensiontemplate_templateoid_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 9106f995-4d74-464a-8ca3-aec056199ace
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],TemplateOid property, IX509ExtensionTemplate.TemplateOid, IX509ExtensionTemplate.get_TemplateOid, IX509ExtensionTemplate::TemplateOid, IX509ExtensionTemplate::get_TemplateOid, TemplateOid property [Security], TemplateOid property [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::TemplateOid, certenroll/IX509ExtensionTemplate::get_TemplateOid, get_TemplateOid, security.ix509extensiontemplate_templateoid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

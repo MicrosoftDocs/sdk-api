@@ -4,10 +4,10 @@ title: MonthCal_GetCALID macro
 author: windows-sdk-content
 description: Gets the current calendar ID for the given calendar control. You can use this macro or send the MCM_GETCALID message explicitly.
 old-location: controls\MonthCal_GetCALID.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalid.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: MonthCal_GetCALID, MonthCal_GetCALID macro [Windows Controls], _shell_MonthCal_GetCALID, _shell_MonthCal_GetCALID_cpp, commctrl/MonthCal_GetCALID, controls.MonthCal_GetCALID, controls._shell_MonthCal_GetCALID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\engdithercolor.htm
 tech.root: display
 ms.assetid: 6c45fd2a-3bba-4e41-a1ee-b3b10602b65a
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/13/2018
 ms.keywords: EngDitherColor, EngDitherColor function [Display Devices], display.engdithercolor, gdifncs_99024e1a-c511-4b02-80dc-e39dd82a8d57.xml, winddi/EngDitherColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

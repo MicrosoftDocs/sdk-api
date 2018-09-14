@@ -7,7 +7,7 @@ old-location: mmc\mmcproppagecallback.htm
 tech.root: mmc
 ms.assetid: c1f952c5-df0f-4cc5-8d20-66a3a6701060
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: MMCPropPageCallback, MMCPropPageCallback callback, MMCPropPageCallback callback function [MMC], _slate_mmcproppagecallback, mmc.mmcproppagecallback, mmc/MMCPropPageCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

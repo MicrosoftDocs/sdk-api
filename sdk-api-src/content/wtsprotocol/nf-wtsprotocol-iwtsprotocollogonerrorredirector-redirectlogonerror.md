@@ -4,10 +4,10 @@ title: IWTSProtocolLogonErrorRedirector::RedirectLogonError
 author: windows-sdk-content
 description: IWTSProtocolLogonErrorRedirector::RedirectLogonError is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectLogonError.
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectlogonerror.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 10cd07c3-9617-4ef8-9b30-541a3206e7e4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectLogonError method, IWTSProtocolLogonErrorRedirector.RedirectLogonError, IWTSProtocolLogonErrorRedirector::RedirectLogonError, RedirectLogonError, RedirectLogonError method [Remote Desktop Services], RedirectLogonError method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, STATUS_ACCOUNT_DISABLED, STATUS_ACCOUNT_RESTRICTION, STATUS_BAD_VALIDATION_CLASS, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_LOGON_FAILURE, STATUS_NO_LOGON_SERVERS, STATUS_NO_SUCH_PACKAGE, STATUS_PASSWORD_EXPIRED, STATUS_QUOTA_EXCEEDED, termserv.iwtsprotocollogonerrorredirector_redirectlogonerror, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectLogonError
 ms.prod: windows-hardware
 ms.technology: windows-devices

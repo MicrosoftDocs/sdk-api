@@ -7,7 +7,7 @@ old-location: p2p\peerenumgroups.htm
 tech.root: p2psdk
 ms.assetid: debb3c57-b5d2-440b-acf2-b6d8e712849b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerEnumGroups, PeerEnumGroups function [Peer Networking], p2p.peerenumgroups, p2p/PeerEnumGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

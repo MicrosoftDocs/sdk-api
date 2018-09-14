@@ -4,10 +4,10 @@ title: ID2D1VertexBuffer::Unmap
 author: windows-sdk-content
 description: Unmaps the vertex buffer.
 old-location: direct2d\id2d1vertexbuffer_unmap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: DD33E4D4-C020-4830-AD31-380E8E9217D0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID2D1VertexBuffer interface [Direct2D],Unmap method, ID2D1VertexBuffer.Unmap, ID2D1VertexBuffer::Unmap, Unmap, Unmap method [Direct2D], Unmap method [Direct2D],ID2D1VertexBuffer interface, d2d1effectauthor/ID2D1VertexBuffer::Unmap, direct2d.id2d1vertexbuffer_unmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

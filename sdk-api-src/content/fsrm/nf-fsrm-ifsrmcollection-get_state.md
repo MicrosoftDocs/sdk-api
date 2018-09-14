@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmcollection_state.htm
 tech.root: fsrm
 ms.assetid: c12c55c1-baff-4810-ad2a-453abb6af5b5
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],State property, IFsrmCollection.State, IFsrmCollection.get_State, IFsrmCollection::State, IFsrmCollection::get_State, State property [File Server Resource Manager], State property [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection_state, fsrm.ifsrmcollection_state, fsrm/IFsrmCollection::State, fsrm/IFsrmCollection::get_State, get_State
 ms.prod: windows-hardware
 ms.technology: windows-devices

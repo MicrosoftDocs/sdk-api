@@ -4,10 +4,10 @@ title: GetBestRoute function
 author: windows-sdk-content
 description: The GetBestRoute function retrieves the best route to the specified destination IP address.
 old-location: iphlp\getbestroute.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 5e507d14-f603-467d-9c37-bb048658d0b1
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetBestRoute, GetBestRoute function [IP Helper], _iphlp_getbestroute, iphlp.getbestroute, iphlpapi/GetBestRoute
 ms.prod: windows-hardware
 ms.technology: windows-devices

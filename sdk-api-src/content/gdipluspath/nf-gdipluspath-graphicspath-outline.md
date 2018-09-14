@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Outline_matrix_flatness_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\outline.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: GraphicsPath class [GDI+],Outline method, GraphicsPath.Outline, GraphicsPath::Outline, Outline, Outline method [GDI+], Outline method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Outline_matrix_flatness_, gdiplus._gdiplus_CLASS_GraphicsPath_Outline_matrix_flatness_
 ms.prod: windows-hardware
 ms.technology: windows-devices

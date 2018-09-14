@@ -7,7 +7,7 @@ old-location: appxpkg\getcurrentpackageid.htm
 tech.root: appxpkg
 ms.assetid: 4CFC707A-2A5A-41FE-BB5F-6FECACC99271
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: GetCurrentPackageId, GetCurrentPackageId function [App packaging and management], appmodel/GetCurrentPackageId, appxpkg.getcurrentpackageid
 ms.prod: windows-hardware
 ms.technology: windows-devices

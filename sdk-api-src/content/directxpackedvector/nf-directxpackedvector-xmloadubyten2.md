@@ -7,7 +7,7 @@ old-location: dxmath\xmloadubyten2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUByteN2(const XMUBYTEN2)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: DirectX::PackedVector.XMLoadUByteN2, XMLoadUByteN2, XMLoadUByteN2 method [DirectX Math Support APIs], dxmath.xmloadubyten2
 ms.prod: windows-hardware
 ms.technology: windows-devices

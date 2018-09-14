@@ -7,7 +7,7 @@ old-location: properties\PropVariantToDoubleVectorAlloc.htm
 tech.root: properties
 ms.assetid: 80f05530-a92b-4877-80fa-efac8e999510
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: PropVariantToDoubleVectorAlloc, PropVariantToDoubleVectorAlloc function [Windows Properties], _shell_PropVariantToDoubleVectorAlloc, properties.PropVariantToDoubleVectorAlloc, propvarutil/PropVariantToDoubleVectorAlloc, shell.PropVariantToDoubleVectorAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

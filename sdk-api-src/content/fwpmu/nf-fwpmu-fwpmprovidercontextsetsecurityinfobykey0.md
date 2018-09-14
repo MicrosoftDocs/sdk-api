@@ -4,10 +4,10 @@ title: FwpmProviderContextSetSecurityInfoByKey0 function
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a provider context object.
 old-location: fwp\fwpmprovidercontextsetsecurityinfobykey0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 08dd5867-7082-4c1e-88d0-98a382942454
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FwpmProviderContextSetSecurityInfoByKey0, FwpmProviderContextSetSecurityInfoByKey0 function [Filtering], fwp.fwpmprovidercontextsetsecurityinfobykey0_func, fwpmu/FwpmProviderContextSetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

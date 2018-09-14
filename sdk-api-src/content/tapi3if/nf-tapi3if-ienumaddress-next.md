@@ -4,10 +4,10 @@ title: IEnumAddress::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumaddress_next.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 14bc32c4-8b59-41ec-a7f6-1ed7f26ae62a
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: IEnumAddress interface [TAPI 2.2],Next method, IEnumAddress.Next, IEnumAddress::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumAddress interface, _tapi3_ienumaddress_next, tapi3.ienumaddress_next, tapi3if/IEnumAddress::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

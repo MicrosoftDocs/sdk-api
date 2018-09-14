@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_GdiplusStartupOutput.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\gdiplusstartupoutput.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: GdiplusStartupOutput, GdiplusStartupOutput structure [GDI+], _gdiplus_STRUC_GdiplusStartupOutput, gdiplus._gdiplus_STRUC_GdiplusStartupOutput, gdiplusinit/GdiplusStartupOutput
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Metafile_GetMetafileHeader_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafilegetmetafileheadermethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: GetMetafileHeader, GetMetafileHeader methods [GDI+], Metafile.GetMetafileHeader, Metafile.GetMetafileHeader(IN IStream,OUT MetafileHeader), Metafile::GetMetafileHeader, Metafile::GetMetafileHeader(IN IStream,OUT MetafileHeader), _gdiplus_CLASS_Metafile_GetMetafileHeader_Methods, gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_Methods, gdiplusheaders/GetMetafileHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

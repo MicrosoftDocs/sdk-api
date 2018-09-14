@@ -4,10 +4,10 @@ title: IDiskQuotaControl::FindUserSid
 author: windows-sdk-content
 description: Locates a specific user entry in the volume quota information.
 old-location: fs\idiskquotacontrol_findusersid.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a6ce8eb3-cfa3-43b4-80ee-6dbef41f99ac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, FindUserSid, FindUserSid method [Files], FindUserSid method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],FindUserSid method, IDiskQuotaControl.FindUserSid, IDiskQuotaControl::FindUserSid, _win32_idiskquotacontrol_findusersid, base.idiskquotacontrol_findusersid, dskquota/IDiskQuotaControl::FindUserSid, fs.idiskquotacontrol_findusersid
 ms.prod: windows-hardware
 ms.technology: windows-devices

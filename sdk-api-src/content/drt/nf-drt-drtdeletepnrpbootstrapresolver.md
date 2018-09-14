@@ -7,7 +7,7 @@ old-location: p2p\drtdeletepnrpbootstrapresolver.htm
 tech.root: p2psdk
 ms.assetid: 0ff7bcc6-548b-475a-8a83-1ca50dbe333d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: DrtDeletePnrpBootstrapResolver, DrtDeletePnrpBootstrapResolver function [Peer Networking], drt/DrtDeletePnrpBootstrapResolver, p2p.drtdeletepnrpbootstrapresolver
 ms.prod: windows-hardware
 ms.technology: windows-devices

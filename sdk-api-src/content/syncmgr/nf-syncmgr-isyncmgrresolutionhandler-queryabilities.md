@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrResolutionHandler_QueryAbilities.htm
 tech.root: shell
 ms.assetid: f178c4d9-0c83-4569-81fe-fe38ac13f0b5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],QueryAbilities method, ISyncMgrResolutionHandler.QueryAbilities, ISyncMgrResolutionHandler::QueryAbilities, QueryAbilities, QueryAbilities method [Windows Shell], QueryAbilities method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_QueryAbilities, shell.ISyncMgrResolutionHandler_QueryAbilities, syncmgr/ISyncMgrResolutionHandler::QueryAbilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

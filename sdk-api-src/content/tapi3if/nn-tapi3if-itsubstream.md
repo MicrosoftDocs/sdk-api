@@ -4,10 +4,10 @@ title: ITSubStream
 author: windows-sdk-content
 description: An ITSubStream is a component of an ITStream, and gives an application finer control over the media streaming.
 old-location: tapi3\itsubstream.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: fc495bc3-1172-4e39-b617-055b7ac95898
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITSubStream, ITSubStream interface [TAPI 2.2], ITSubStream interface [TAPI 2.2],described, _tapi3_itsubstream, tapi3.itsubstream, tapi3if/ITSubStream
 ms.prod: windows
 ms.technology: windows-sdk

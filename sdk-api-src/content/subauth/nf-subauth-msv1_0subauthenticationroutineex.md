@@ -4,10 +4,10 @@ title: Msv1_0SubAuthenticationRoutineEx function
 author: windows-sdk-content
 description: Performs Remote Access Service authentication when subauthentication is requested by calling the LogonUser function.
 old-location: security\msv1_0subauthenticationroutineex.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 063EC7B4-45AB-436B-9158-07C742BF3D98
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: MSV1_0_GUEST_LOGON, MSV1_0_PASSTHRU, Msv1_0SubAuthenticationRoutineEx, Msv1_0SubAuthenticationRoutineEx function [Security], security.msv1_0subauthenticationroutineex, subauth/Msv1_0SubAuthenticationRoutineEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

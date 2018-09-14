@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_clone.htm
 tech.root: printdocs
 ms.assetid: 66c7af1d-5e48-4a51-ad16-e92ada87942c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],Clone method, IXpsOMCoreProperties.Clone, IXpsOMCoreProperties::Clone, xps.ixpsomcoreproperties_clone, xpsobjectmodel/IXpsOMCoreProperties::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

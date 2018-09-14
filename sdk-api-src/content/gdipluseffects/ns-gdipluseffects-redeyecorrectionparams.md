@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_RedEyeCorrectionParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\redeyecorrectionparams.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: RedEyeCorrectionParams, RedEyeCorrectionParams structure [GDI+], _gdiplus_STRUC_RedEyeCorrectionParams, gdiplus._gdiplus_STRUC_RedEyeCorrectionParams, gdipluseffects/RedEyeCorrectionParams
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager2_classifyfiles.htm
 tech.root: fsrm
 ms.assetid: 1dee9185-f83c-4e49-bf29-143271445046
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: ClassifyFiles, ClassifyFiles method [File Server Resource Manager], ClassifyFiles method [File Server Resource Manager],FsrmClassificationManager class, ClassifyFiles method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassifyFiles method, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassifyFiles method, IFsrmClassificationManager2.ClassifyFiles, IFsrmClassificationManager2::ClassifyFiles, fs.ifsrmclassificationmanager2_classifyfiles, fsrm.ifsrmclassificationmanager2_classifyfiles, fsrmpipeline/IFsrmClassificationManager2::ClassifyFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

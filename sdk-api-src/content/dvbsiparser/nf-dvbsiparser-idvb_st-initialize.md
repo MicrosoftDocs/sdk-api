@@ -4,10 +4,10 @@ title: IDVB_ST::Initialize
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_st_initialize.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: eda69656-9e66-4366-84fe-e8ffecc93fc3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDVB_ST interface [Microsoft TV Technologies],Initialize method, IDVB_ST.Initialize, IDVB_ST::Initialize, IDVB_STInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_ST interface, dvbsiparser/IDVB_ST::Initialize, mstv.idvb_st_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: CStdAsyncStubBuffer_Connect function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Connect method and connects the server object to the stub.
 old-location: rpc\cstdasyncstubbuffer_connect.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: A181B325-7947-4E44-AA00-DE14DB569DB0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: CStdAsyncStubBuffer_Connect, CStdAsyncStubBuffer_Connect function [RPC], rpc.cstdasyncstubbuffer_connect, rpcproxy/CStdAsyncStubBuffer_Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

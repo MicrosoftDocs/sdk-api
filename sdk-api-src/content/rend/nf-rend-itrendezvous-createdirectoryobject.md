@@ -4,10 +4,10 @@ title: ITRendezvous::CreateDirectoryObject
 author: windows-sdk-content
 description: The CreateDirectoryObject method creates a new ITDirectoryObject object.
 old-location: tapi3\itrendezvous_createdirectoryobject.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: e3ad77cf-9112-4561-896c-2eba7e07eb19
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: CreateDirectoryObject, CreateDirectoryObject method [TAPI 2.2], CreateDirectoryObject method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],CreateDirectoryObject method, ITRendezvous.CreateDirectoryObject, ITRendezvous::CreateDirectoryObject, _tapi3_itrendezvous_createdirectoryobject, rend/ITRendezvous::CreateDirectoryObject, tapi3.itrendezvous_createdirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

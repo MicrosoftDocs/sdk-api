@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireoptionsdialog_savedata.htm
 tech.root: acquisition
 ms.assetid: 271c2bfb-67a9-4998-90d1-4ed61f89aa03
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IPhotoAcquireOptionsDialog interface [Picture Acquisition],SaveData method, IPhotoAcquireOptionsDialog.SaveData, IPhotoAcquireOptionsDialog::SaveData, IPhotoAcquireOptionsDialogSaveData, SaveData, SaveData method [Picture Acquisition], SaveData method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, photoacquire/IPhotoAcquireOptionsDialog::SaveData, picacq.iphotoacquireoptionsdialog_savedata
 ms.prod: windows-hardware
 ms.technology: windows-devices

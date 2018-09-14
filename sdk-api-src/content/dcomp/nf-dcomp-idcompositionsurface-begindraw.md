@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionsurface_begindraw.htm
 tech.root: directcomp
 ms.assetid: 0D7E90A1-90E4-44BE-A4DA-8DA300C81A35
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: BeginDraw, BeginDraw method [DirectComposition], BeginDraw method [DirectComposition],IDCompositionSurface interface, IDCompositionSurface interface [DirectComposition],BeginDraw method, IDCompositionSurface.BeginDraw, IDCompositionSurface::BeginDraw, dcomp/IDCompositionSurface::BeginDraw, directcomp.idcompositionsurface_begindraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

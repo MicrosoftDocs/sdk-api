@@ -7,7 +7,7 @@ old-location: base\setdisplayautorotationpreferences.htm
 tech.root: procthread
 ms.assetid: 99A92E92-7FED-468C-9A00-D8D4B212CBFF
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/13/2018
 ms.keywords: SetDisplayAutoRotationPreferences, SetDisplayAutoRotationPreferences function, base.setdisplayautorotationpreferences, winuser/SetDisplayAutoRotationPreferences
 ms.prod: windows-hardware
 ms.technology: windows-devices

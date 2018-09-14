@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITableProvider.htm
 tech.root: WinAuto
 ms.assetid: ae6be8be-78ea-4843-924f-2dc5d5286da2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/13/2018
 ms.keywords: ITableProvider, ITableProvider interface [Windows Accessibility], ITableProvider interface [Windows Accessibility],described, uiauto.uiauto_ITableProvider, uiauto_ITableProvider, uiautomationcore/ITableProvider, winauto.uiauto_ITableProvider
 ms.prod: windows
 ms.technology: windows-sdk

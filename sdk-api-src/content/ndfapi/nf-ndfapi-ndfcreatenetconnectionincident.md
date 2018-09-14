@@ -4,10 +4,10 @@ title: NdfCreateNetConnectionIncident function
 author: windows-sdk-content
 description: Diagnoses connectivity issues using the NetConnection helper class.
 old-location: ndf\ndfcreatenetconnectionincident.htm
-tech.root: ndf
+tech.root: NDF
 ms.assetid: EF682ED4-2AD5-4A5B-A308-C671A9E6EB10
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdfCreateNetConnectionIncident, NdfCreateNetConnectionIncident function [NDF], ndf.ndfcreatenetconnectionincident, ndfapi/NdfCreateNetConnectionIncident
 ms.prod: windows-hardware
 ms.technology: windows-devices

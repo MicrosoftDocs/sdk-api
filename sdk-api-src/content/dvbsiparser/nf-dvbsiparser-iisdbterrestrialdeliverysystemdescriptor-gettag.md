@@ -4,10 +4,10 @@ title: IIsdbTerrestrialDeliverySystemDescriptor::GetTag
 author: windows-sdk-content
 description: Gets the tag that identifies an Integrated Digital Services Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_gettag.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 15b70e2e-21e0-406c-9d7a-32031114d50b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbTerrestrialDeliverySystemDescriptor.GetTag, IIsdbTerrestrialDeliverySystemDescriptor::GetTag, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetTag, mstv.iisdbterrestrialdeliverysystemdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

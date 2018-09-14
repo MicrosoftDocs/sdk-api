@@ -7,7 +7,7 @@ old-location: wsw\wsmovereader.htm
 tech.root: wsw
 ms.assetid: 63d18407-f82b-4884-a162-2c8163e883e1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WsMoveReader, WsMoveReader function [Web Services for Windows], webservices/WsMoveReader, wsw.wsmovereader
 ms.prod: windows-hardware
 ms.technology: windows-devices

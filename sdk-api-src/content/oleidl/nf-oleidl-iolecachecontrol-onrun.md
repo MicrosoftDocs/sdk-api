@@ -7,7 +7,7 @@ old-location: com\iolecachecontrol_onrun.htm
 tech.root: com
 ms.assetid: 8d155c3f-115c-41fe-985f-ed60a565341f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IOleCacheControl interface [COM],OnRun method, IOleCacheControl.OnRun, IOleCacheControl::OnRun, OnRun, OnRun method [COM], OnRun method [COM],IOleCacheControl interface, _ole_iolecachecontrol_onrun, com.iolecachecontrol_onrun, oleidl/IOleCacheControl::OnRun
 ms.prod: windows-hardware
 ms.technology: windows-devices

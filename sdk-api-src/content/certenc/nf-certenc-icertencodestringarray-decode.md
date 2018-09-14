@@ -7,7 +7,7 @@ old-location: security\icertencodestringarray_decode.htm
 tech.root: seccrypto
 ms.assetid: 35799b54-2c04-4bb4-a227-d2902b2379ec
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CCertEncodeStringArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeStringArray object, Decode method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],Decode method, ICertEncodeStringArray.Decode, ICertEncodeStringArray::Decode, _certsrv_icertencodestringarray_decode, certenc/ICertEncodeStringArray::Decode, security.icertencodestringarray_decode
 ms.prod: windows-hardware
 ms.technology: windows-devices

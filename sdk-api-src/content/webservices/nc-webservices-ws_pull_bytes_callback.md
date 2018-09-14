@@ -7,7 +7,7 @@ old-location: wsw\ws_pull_bytes_callback.htm
 tech.root: wsw
 ms.assetid: 84634ecc-056f-4fcc-838e-93f0dfc06e8d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WS_PULL_BYTES_CALLBACK, WS_PULL_BYTES_CALLBACK callback, WS_PULL_BYTES_CALLBACK callback function [Web Services for Windows], webservices/WS_PULL_BYTES_CALLBACK, wsw.ws_pull_bytes_callback
 ms.prod: windows
 ms.technology: windows-sdk

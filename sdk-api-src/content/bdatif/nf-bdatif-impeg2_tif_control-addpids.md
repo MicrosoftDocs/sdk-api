@@ -4,10 +4,10 @@ title: IMPEG2_TIF_CONTROL::AddPIDs
 author: windows-sdk-content
 description: The AddPIDs method tells the Network Provider which PIDs the TIF should receive.
 old-location: mstv\impeg2_tif_control_addpids.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 27add7cc-1d77-4ac5-b63f-757f63f4c9b8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: AddPIDs, AddPIDs method [Microsoft TV Technologies], AddPIDs method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],AddPIDs method, IMPEG2_TIF_CONTROL.AddPIDs, IMPEG2_TIF_CONTROL::AddPIDs, IMPEG2_TIF_CONTROLAddPIDs, bdatif/IMPEG2_TIF_CONTROL::AddPIDs, mstv.impeg2_tif_control_addpids
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\deleteappcontainerprofile.htm
 tech.root: shell
 ms.assetid: ED79D661-D087-4E44-8C32-14705ACA9D40
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: DeleteAppContainerProfile, DeleteAppContainerProfile function [Windows Shell], shell.deleteappcontainerprofile, userenv/DeleteAppContainerProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

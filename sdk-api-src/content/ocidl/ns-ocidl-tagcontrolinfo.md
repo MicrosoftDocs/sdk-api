@@ -7,7 +7,7 @@ old-location: com\controlinfo.htm
 tech.root: com
 ms.assetid: 3f22dc1d-554a-4dd1-a79a-121117f65caf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: "*LPCONTROLINFO, CONTROLINFO, CONTROLINFO structure [COM], LPCONTROLINFO, LPCONTROLINFO structure pointer [COM], _ctrl_CONTROLINFO, com.controlinfo, ocidl/CONTROLINFO, ocidl/LPCONTROLINFO, tagCONTROLINFO"
 ms.prod: windows
 ms.technology: windows-sdk

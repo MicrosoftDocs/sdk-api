@@ -7,7 +7,7 @@ old-location: display\engmuldiv.htm
 tech.root: display
 ms.assetid: e1d9d790-4038-445c-a1ea-fe689cb0e694
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/13/2018
 ms.keywords: EngMulDiv, EngMulDiv function [Display Devices], display.engmuldiv, gdifncs_0d175bf5-b421-43e5-acc5-a11299b0d990.xml, winddi/EngMulDiv
 ms.prod: windows-hardware
 ms.technology: windows-devices

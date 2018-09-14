@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobjext.htm
 tech.root: ad
 ms.assetid: a9b98647-b801-4a2a-98a4-d57679c07d55
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: IDsAdminNewObjExt, IDsAdminNewObjExt interface [Active Directory], IDsAdminNewObjExt interface [Active Directory],described, _glines_idsadminnewobjext, ad.idsadminnewobjext, dsadmin/IDsAdminNewObjExt
 ms.prod: windows
 ms.technology: windows-sdk

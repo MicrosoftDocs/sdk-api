@@ -7,7 +7,7 @@ old-location: monitor\getnumberofphysicalmonitorsfromidirect3ddevice9.htm
 tech.root: Monitor
 ms.assetid: 1cb0f035-a429-4355-89b8-d8bcd89cb037
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetNumberOfPhysicalMonitorsFromIDirect3DDevice9, GetNumberOfPhysicalMonitorsFromIDirect3DDevice9 function [Monitor Configuration], monitor.getnumberofphysicalmonitorsfromidirect3ddevice9, physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromIDirect3DDevice9
 ms.prod: windows-hardware
 ms.technology: windows-devices

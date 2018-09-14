@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_setbreakonid.htm
 tech.root: direct3d12
 ms.assetid: 227ECD21-AE8F-41D1-BF56-A516F14BFCD0
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: ID3D12InfoQueue interface,SetBreakOnID method, ID3D12InfoQueue.SetBreakOnID, ID3D12InfoQueue::SetBreakOnID, SetBreakOnID, SetBreakOnID method, SetBreakOnID method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::SetBreakOnID, direct3d12.id3d12infoqueue_setbreakonid
 ms.prod: windows-hardware
 ms.technology: windows-devices

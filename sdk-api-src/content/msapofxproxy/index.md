@@ -2,7 +2,7 @@
 UID: NA:msapofxproxy
 ms.assetid: 7d1ccc83-8d8e-360f-8bcc-fee9ee400c97
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

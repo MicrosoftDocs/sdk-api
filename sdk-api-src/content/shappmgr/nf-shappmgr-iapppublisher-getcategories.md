@@ -7,7 +7,7 @@ old-location: shell\IAppPublisher_GetCategories.htm
 tech.root: shell
 ms.assetid: 139a5094-8bb3-4b5d-938d-ba4af5d52d94
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: GetCategories, GetCategories method [Windows Shell], GetCategories method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],GetCategories method, IAppPublisher.GetCategories, IAppPublisher::GetCategories, inet_IAppPublisher_GetCategories, shappmgr/IAppPublisher::GetCategories, shell.IAppPublisher_GetCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices

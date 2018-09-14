@@ -7,7 +7,7 @@ old-location: shell\IInputObject_UIActivateIO.htm
 tech.root: shell
 ms.assetid: a725863e-4814-4aa7-99c6-7e7141db214d
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: IInputObject interface [Windows Shell],UIActivateIO method, IInputObject.UIActivateIO, IInputObject::UIActivateIO, UIActivateIO, UIActivateIO method [Windows Shell], UIActivateIO method [Windows Shell],IInputObject interface, _win32_IInputObject_UIActivateIO, shell.IInputObject_UIActivateIO, shobjidl_core/IInputObject::UIActivateIO
 ms.prod: windows-hardware
 ms.technology: windows-devices

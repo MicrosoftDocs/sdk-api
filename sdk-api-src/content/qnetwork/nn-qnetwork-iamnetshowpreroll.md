@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowpreroll.htm
 tech.root: DirectShow
 ms.assetid: 13478678-00de-48e6-b9e7-fd47db423290
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IAMNetShowPreroll, IAMNetShowPreroll interface [DirectShow], IAMNetShowPreroll interface [DirectShow],described, IAMNetShowPrerollInterface, dshow.iamnetshowpreroll, qnetwork/IAMNetShowPreroll
 ms.prod: windows
 ms.technology: windows-sdk

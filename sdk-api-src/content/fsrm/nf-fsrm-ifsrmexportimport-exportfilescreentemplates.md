@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmexportimport_exportfilescreentemplates.htm
 tech.root: fsrm
 ms.assetid: 5804dece-7243-4f41-a949-e663852219e8
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: ExportFileScreenTemplates, ExportFileScreenTemplates method [File Server Resource Manager], ExportFileScreenTemplates method [File Server Resource Manager],FsrmExportImport class, ExportFileScreenTemplates method [File Server Resource Manager],IFsrmExportImport interface, FsrmExportImport class [File Server Resource Manager],ExportFileScreenTemplates method, IFsrmExportImport interface [File Server Resource Manager],ExportFileScreenTemplates method, IFsrmExportImport.ExportFileScreenTemplates, IFsrmExportImport::ExportFileScreenTemplates, fs.ifsrmexportimport_exportfilescreentemplates, fsrm.ifsrmexportimport_exportfilescreentemplates, fsrm/IFsrmExportImport::ExportFileScreenTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices

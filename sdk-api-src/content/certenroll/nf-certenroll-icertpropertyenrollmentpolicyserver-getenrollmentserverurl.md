@@ -4,10 +4,10 @@ title: ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerUrl
 author: windows-sdk-content
 description: Retrieves a string that contains the URL for the certificate enrollment server.
 old-location: security\icertpropertyenrollmentpolicyserver_getenrollmentserverurl.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 6d8e7f45-f7ff-48d0-95d8-4d426e122554
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetEnrollmentServerUrl, GetEnrollmentServerUrl method [Security], GetEnrollmentServerUrl method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetEnrollmentServerUrl method, ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerUrl, ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerUrl, certenroll/ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerUrl, security.icertpropertyenrollmentpolicyserver_getenrollmentserverurl
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: WdsTransportProviderCloseInstance function
 author: windows-sdk-content
 description: Closes an instance of a content provider specified by a handle.
 old-location: wds\wdstransportprovidercloseinstance.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 3eb0a931-ca5d-4db4-9c40-9c52f98be429
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WdsTransportProviderCloseInstance, WdsTransportProviderCloseInstance callback, WdsTransportProviderCloseInstance callback function [Windows Deployment Services], wds.wdstransportprovidercloseinstance, wdstpdi/WdsTransportProviderCloseInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

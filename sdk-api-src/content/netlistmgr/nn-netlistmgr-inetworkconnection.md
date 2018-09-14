@@ -4,10 +4,10 @@ title: INetworkConnection
 author: windows-sdk-content
 description: The INetworkConnection interface represents a single network connection.
 old-location: nla\inetworkconnection.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: 666761b5-0146-438d-9986-ecce3b45b5ff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: INetworkConnection, INetworkConnection interface [Network Awareness], INetworkConnection interface [Network Awareness],described, netlistmgr/INetworkConnection, nla.inetworkconnection
 ms.prod: windows
 ms.technology: windows-sdk

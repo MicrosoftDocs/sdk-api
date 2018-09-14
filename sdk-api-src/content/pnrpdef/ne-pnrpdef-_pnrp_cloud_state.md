@@ -7,7 +7,7 @@ old-location: p2p\pnrp_cloud_state.htm
 tech.root: p2psdk
 ms.assetid: 0263d742-f82b-4158-9343-86a8abf4cde1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PNRP_CLOUD_STATE, PNRP_CLOUD_STATE enumeration [Peer Networking], PNRP_CLOUD_STATE_ACTIVE, PNRP_CLOUD_STATE_ALONE, PNRP_CLOUD_STATE_DEAD, PNRP_CLOUD_STATE_DISABLED, PNRP_CLOUD_STATE_NO_NET, PNRP_CLOUD_STATE_SYNCHRONISING, PNRP_CLOUD_STATE_VIRTUAL, _PNRP_CLOUD_STATE, p2p.pnrp_cloud_state, pnrpdef/PNRP_CLOUD_STATE, pnrpdef/PNRP_CLOUD_STATE_ACTIVE, pnrpdef/PNRP_CLOUD_STATE_ALONE, pnrpdef/PNRP_CLOUD_STATE_DEAD, pnrpdef/PNRP_CLOUD_STATE_DISABLED, pnrpdef/PNRP_CLOUD_STATE_NO_NET, pnrpdef/PNRP_CLOUD_STATE_SYNCHRONISING, pnrpdef/PNRP_CLOUD_STATE_VIRTUAL
 ms.prod: windows
 ms.technology: windows-sdk

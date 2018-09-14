@@ -2,7 +2,7 @@
 UID: NA:printmanagerinterop
 ms.assetid: a7dd6937-534d-3b57-a486-d2bce92f7695
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

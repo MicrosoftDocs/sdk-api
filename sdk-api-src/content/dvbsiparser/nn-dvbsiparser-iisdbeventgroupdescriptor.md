@@ -4,10 +4,10 @@ title: IIsdbEventGroupDescriptor
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1e71f277-0296-4589-8099-dfae2a9dcfb0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IIsdbEventGroupDescriptor, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies], IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbEventGroupDescriptor, mstv.iisdbeventgroupdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

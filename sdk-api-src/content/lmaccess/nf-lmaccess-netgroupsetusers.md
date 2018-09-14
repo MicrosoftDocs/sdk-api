@@ -7,7 +7,7 @@ old-location: netmgmt\netgroupsetusers.htm
 tech.root: netmgmt
 ms.assetid: 4221f5c8-a71c-4368-9be4-9562063b6cfd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: 0, 1, NetGroupSetUsers, NetGroupSetUsers function [Network Management], _win32_netgroupsetusers, lmaccess/NetGroupSetUsers, netmgmt.netgroupsetusers
 ms.prod: windows-hardware
 ms.technology: windows-devices

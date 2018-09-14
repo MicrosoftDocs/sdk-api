@@ -7,7 +7,7 @@ old-location: p2p\peergetnextitem.htm
 tech.root: p2psdk
 ms.assetid: 015faeb3-82d9-49e5-a451-7394bf83240f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerGetNextItem, PeerGetNextItem function [Peer Networking], p2p.peergetnextitem, p2p/PeerGetNextItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: FwpmNetEventsGetSecurityInfo0 function
 author: windows-sdk-content
 description: The FwpmNetEventsGetSecurityInfo0 function retrieves a copy of the security descriptor for a network event object.
 old-location: fwp\fwpmneteventsgetsecurityinfo0.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 07bbf1e1-5945-41cf-8acd-9da983b9d56b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FwpmNetEventsGetSecurityInfo0, FwpmNetEventsGetSecurityInfo0 function [Filtering], fwp.fwpmneteventsgetsecurityinfo0, fwpmu/FwpmNetEventsGetSecurityInfo0
 ms.prod: windows-hardware
 ms.technology: windows-devices

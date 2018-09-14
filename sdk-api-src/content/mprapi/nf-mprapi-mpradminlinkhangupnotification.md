@@ -4,10 +4,10 @@ title: MprAdminLinkHangupNotification function
 author: windows-sdk-content
 description: RAS calls the MprAdminLinkHangupNotification function whenever a link for a particular connection is dismantled.
 old-location: rras\mpradminlinkhangupnotification.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 7f2b30e8-ba1d-4db3-843f-f9eafca47add
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MprAdminLinkHangupNotification, MprAdminLinkHangupNotification callback, MprAdminLinkHangupNotification callback function [RAS], _mpr_mpradminlinkhangupnotification, mprapi/MprAdminLinkHangupNotification, rras.mpradminlinkhangupnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

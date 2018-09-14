@@ -7,7 +7,7 @@ old-location: indexsrv\dbprobabilistic.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0vxf.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/30/2018
 ms.keywords: DBPROBABILISTIC, DBPROBABILISTIC structure [Indexing Service], _idxs_DBPROBABILISTIC, cmdtree/DBPROBABILISTIC, indexsrv.dbprobabilistic, tagDBPROBABILISTIC
 ms.prod: windows
 ms.technology: windows-sdk

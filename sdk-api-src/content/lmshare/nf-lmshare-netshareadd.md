@@ -4,10 +4,10 @@ title: NetShareAdd function
 author: windows-sdk-content
 description: Shares a server resource.
 old-location: fs\netshareadd.htm
-tech.root: netshare
+tech.root: NetShare
 ms.assetid: 8b51c155-24e8-4d39-b818-eb2d1bb0ee8b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 2, 502, 503, NetShareAdd, NetShareAdd function [Files], _win32_netshareadd, fs.netshareadd, lmshare/NetShareAdd, netmgmt.netshareadd
 ms.prod: windows-hardware
 ms.technology: windows-devices

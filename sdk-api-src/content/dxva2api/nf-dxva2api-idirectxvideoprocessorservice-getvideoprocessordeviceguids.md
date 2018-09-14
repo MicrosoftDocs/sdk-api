@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice_getvideoprocessordeviceguids.htm
 tech.root: medfound
 ms.assetid: 26b52407-7c75-4731-aff3-41376aa9ac3a
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 26b52407-7c75-4731-aff3-41376aa9ac3a, GetVideoProcessorDeviceGuids, GetVideoProcessorDeviceGuids method [Media Foundation], GetVideoProcessorDeviceGuids method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorDeviceGuids method, IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids, IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids, mf.idirectxvideoprocessorservice_getvideoprocessordeviceguids
 ms.prod: windows-hardware
 ms.technology: windows-devices

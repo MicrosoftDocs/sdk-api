@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_extractwithrectangle.htm
 tech.root: tablet
 ms.assetid: b32467a8-a677-4a80-8029-d364e6e372c6
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: ExtractWithRectangle, ExtractWithRectangle method [Tablet PC], ExtractWithRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ExtractWithRectangle method, IInkDisp.ExtractWithRectangle, IInkDisp::ExtractWithRectangle, b32467a8-a677-4a80-8029-d364e6e372c6, msinkaut/IInkDisp::ExtractWithRectangle, tablet.inkdisp_extractwithrectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

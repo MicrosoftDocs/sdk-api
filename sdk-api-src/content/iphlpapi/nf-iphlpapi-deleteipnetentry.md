@@ -4,10 +4,10 @@ title: DeleteIpNetEntry function
 author: windows-sdk-content
 description: The DeleteIpNetEntry function deletes an ARP entry from the ARP table on the local computer.
 old-location: iphlp\deleteipnetentry.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 0d338676-b66f-410c-8022-5576096954b4
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: DeleteIpNetEntry, DeleteIpNetEntry function [IP Helper], _iphlp_deleteipnetentry, iphlp.deleteipnetentry, iphlpapi/DeleteIpNetEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

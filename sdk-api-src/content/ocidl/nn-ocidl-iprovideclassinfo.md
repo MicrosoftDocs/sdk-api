@@ -7,7 +7,7 @@ old-location: com\iprovideclassinfo.htm
 tech.root: com
 ms.assetid: 867bfd3e-b2d8-4bbe-b1bf-2356fb992a7c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IProvideClassInfo, IProvideClassInfo interface [COM], IProvideClassInfo interface [COM],described, _com_iprovideclassinfo, com.iprovideclassinfo, ocidl/IProvideClassInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms2
 
 
 
-<a href="https://msdn.microsoft.com/2c636327-ad18-4087-b495-d1aa84a07f48">coclass</a>
+<a href="https://msdn.microsoft.com/">coclass</a>
  
 
  

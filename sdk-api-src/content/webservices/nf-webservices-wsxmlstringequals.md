@@ -7,7 +7,7 @@ old-location: wsw\wsxmlstringequals.htm
 tech.root: wsw
 ms.assetid: 4fcff6d7-b17c-4cd6-9671-1aff7b84fa98
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WsXmlStringEquals, WsXmlStringEquals function [Web Services for Windows], webservices/WsXmlStringEquals, wsw.wsxmlstringequals
 ms.prod: windows-hardware
 ms.technology: windows-devices

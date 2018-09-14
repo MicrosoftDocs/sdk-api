@@ -7,7 +7,7 @@ old-location: base\ispwrhibernateallowed.htm
 tech.root: power
 ms.assetid: fe9d06a8-c021-4cf4-9782-04519f370c5b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/13/2018
 ms.keywords: IsPwrHibernateAllowed, IsPwrHibernateAllowed function, _win32_ispwrhibernateallowed, base.ispwrhibernateallowed, powrprof/IsPwrHibernateAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices

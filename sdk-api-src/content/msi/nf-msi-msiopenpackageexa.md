@@ -7,7 +7,7 @@ old-location: setup\msiopenpackageex.htm
 tech.root: msi
 ms.assetid: 9e9550e9-9c10-4ef1-a172-dfacaaa37fd0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MSIOPENPACKAGEFLAGS_IGNOREMACHINESTATE, MsiOpenPackageEx, MsiOpenPackageEx function, MsiOpenPackageExA, MsiOpenPackageExW, _msi_msiopenpackageex, msi/MsiOpenPackageEx, msi/MsiOpenPackageExA, msi/MsiOpenPackageExW, setup.msiopenpackageex
 ms.prod: windows-hardware
 ms.technology: windows-devices

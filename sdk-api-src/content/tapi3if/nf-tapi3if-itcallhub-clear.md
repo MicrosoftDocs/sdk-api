@@ -4,10 +4,10 @@ title: ITCallHub::Clear
 author: windows-sdk-content
 description: The Clear method attempts to remove all calls and participants from CallHub. The application may not have the privileges required to disconnect every call.
 old-location: tapi3\itcallhub_clear.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 87799da3-73c3-469a-badf-884dcfe774e0
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: Clear, Clear method [TAPI 2.2], Clear method [TAPI 2.2],ITCallHub interface, ITCallHub interface [TAPI 2.2],Clear method, ITCallHub.Clear, ITCallHub::Clear, _tapi3_itcallhub_clear, tapi3.itcallhub_clear, tapi3if/ITCallHub::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

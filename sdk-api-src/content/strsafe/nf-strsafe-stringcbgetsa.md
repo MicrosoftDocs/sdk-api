@@ -7,7 +7,7 @@ old-location: menurc\stringcbgets.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbgets.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: StringCbGets, StringCbGets function [Menus and Other Resources], StringCbGetsA, StringCbGetsW, _shell_StringCbGets, _shell_stringcbgets_cpp, menurc.stringcbgets, strsafe/StringCbGets, strsafe/StringCbGetsA, strsafe/StringCbGetsW, winui._shell_stringcbgets
 ms.prod: windows-hardware
 ms.technology: windows-devices

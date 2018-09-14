@@ -7,7 +7,7 @@ old-location: base\ioctl_changer_move_medium.htm
 tech.root: devio
 ms.assetid: 73fa826c-ef7f-4341-838e-73e025d8d1c1
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IOCTL_CHANGER_MOVE_MEDIUM, IOCTL_CHANGER_MOVE_MEDIUM control, IOCTL_CHANGER_MOVE_MEDIUM control code, _win32_ioctl_changer_move_medium, base.ioctl_changer_move_medium, winioctl/IOCTL_CHANGER_MOVE_MEDIUM
 ms.prod: windows
 ms.technology: windows-sdk

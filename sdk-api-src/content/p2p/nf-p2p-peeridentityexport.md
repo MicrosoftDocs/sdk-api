@@ -7,7 +7,7 @@ old-location: p2p\peeridentityexport.htm
 tech.root: p2psdk
 ms.assetid: 2b7cfc46-77f6-49cb-966c-0a96830c96fd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerIdentityExport, PeerIdentityExport function [Peer Networking], p2p.peeridentityexport, p2p/PeerIdentityExport
 ms.prod: windows-hardware
 ms.technology: windows-devices

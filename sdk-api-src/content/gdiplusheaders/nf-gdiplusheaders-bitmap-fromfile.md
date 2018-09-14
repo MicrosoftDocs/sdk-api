@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromFile_filename_useEmbeddedColorMa
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromfile.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Bitmap class [GDI+],FromFile method, Bitmap.FromFile, Bitmap::FromFile, FromFile, FromFile method [GDI+], FromFile method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromFile_filename_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Bitmap_FromFile_filename_useEmbeddedColorManagement_
 ms.prod: windows-hardware
 ms.technology: windows-devices

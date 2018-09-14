@@ -7,7 +7,7 @@ old-location: htmlhelp\iitwordwheel_lookup1.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheellookupbuffer.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/30/2018
 ms.keywords: IITWordWheel interface [HTML Help Workshop],Lookup method, IITWordWheel.Lookup, IITWordWheel.Lookup(LPCVOID,BOOL,LONG), IITWordWheel::Lookup, IITWordWheel::Lookup(,LPVOID,DWORD), IITWordWheel::Lookup(LPCVOID,BOOL,LONG), Lookup, Lookup method [HTML Help Workshop], Lookup method [HTML Help Workshop],IITWordWheel interface, htmlhelp.iitwordwheel_lookup1, infotech/IITWordWheel::Lookup, refIITWordWheelLookupBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

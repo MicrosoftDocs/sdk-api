@@ -7,7 +7,7 @@ old-location: netmgmt\netlocalgroupenum.htm
 tech.root: netmgmt
 ms.assetid: fc27d7f1-bfbe-46d7-a154-f04eb9249248
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: 0, 1, NetLocalGroupEnum, NetLocalGroupEnum function [Network Management], _win32_netlocalgroupenum, lmaccess/NetLocalGroupEnum, netmgmt.netlocalgroupenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

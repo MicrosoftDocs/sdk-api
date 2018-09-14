@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmap.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Bitmap, Bitmap class [GDI+], Bitmap class [GDI+],described, _gdiplus_CLASS_Bitmap_Class, gdiplus._gdiplus_CLASS_Bitmap_Class, gdiplusheaders/Bitmap
 ms.prod: windows
 ms.technology: windows-sdk

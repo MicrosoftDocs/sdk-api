@@ -7,7 +7,7 @@ old-location: p2p\peerpnrpregister.htm
 tech.root: p2psdk
 ms.assetid: 18c26779-f50d-43bd-a772-763ceba25da8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerPnrpRegister, PeerPnrpRegister function [Peer Networking], p2p.peerpnrpregister, p2p/PeerPnrpRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices

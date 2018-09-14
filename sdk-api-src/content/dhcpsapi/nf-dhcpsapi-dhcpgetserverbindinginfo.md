@@ -4,10 +4,10 @@ title: DhcpGetServerBindingInfo function
 author: windows-sdk-content
 description: The DhcpGetServerBindingInfo function returns endpoint bindings set on the DHCP server.
 old-location: dhcp\dhcpgetserverbindinginfo.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: c0f5c9c1-d421-4977-aa26-1b8b7406802d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DHCP_ENDPOINT_FLAG_CANT_MODIFY, DhcpGetServerBindingInfo, DhcpGetServerBindingInfo function [DHCP], dhcp.dhcpgetserverbindinginfo, dhcpsapi/DhcpGetServerBindingInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

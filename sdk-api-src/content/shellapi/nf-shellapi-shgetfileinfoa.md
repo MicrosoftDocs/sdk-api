@@ -7,7 +7,7 @@ old-location: shell\SHGetFileInfo.htm
 tech.root: shell
 ms.assetid: d662bedf-4be0-4528-8121-e7923a42bc67
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: SHGFI_ADDOVERLAYS, SHGFI_ATTRIBUTES, SHGFI_ATTR_SPECIFIED, SHGFI_DISPLAYNAME, SHGFI_EXETYPE, SHGFI_ICON, SHGFI_ICONLOCATION, SHGFI_LARGEICON, SHGFI_LINKOVERLAY, SHGFI_OPENICON, SHGFI_OVERLAYINDEX, SHGFI_PIDL, SHGFI_SELECTED, SHGFI_SHELLICONSIZE, SHGFI_SMALLICON, SHGFI_SYSICONINDEX, SHGFI_TYPENAME, SHGFI_USEFILEATTRIBUTES, SHGetFileInfo, SHGetFileInfo function [Windows Shell], SHGetFileInfoA, SHGetFileInfoW, _win32_SHGetFileInfo, shell.SHGetFileInfo, shellapi/SHGetFileInfo, shellapi/SHGetFileInfoA, shellapi/SHGetFileInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

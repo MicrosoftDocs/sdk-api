@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_pin_stop.htm
 tech.root: devio
 ms.assetid: 33FACC32-5245-41F4-9AC0-55A349DD0AD9
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IOCTL_PWM_PIN_STOP, IOCTL_PWM_PIN_STOP control, IOCTL_PWM_PIN_STOP control code, base.ioctl_pwm_pin_stop, pwm/IOCTL_PWM_PIN_STOP
 ms.prod: windows
 ms.technology: windows-sdk

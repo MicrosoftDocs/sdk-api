@@ -7,7 +7,7 @@ old-location: devinst\setupdideletedeviceinfo.htm
 tech.root: devinst
 ms.assetid: f510c42d-8488-4aad-a3a4-662fc8138d28
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: SetupDiDeleteDeviceInfo, SetupDiDeleteDeviceInfo function [Device and Driver Installation], devinst.setupdideletedeviceinfo, di-rtns_9bc5c091-910a-4152-acdf-eae4d86cda05.xml, setupapi/SetupDiDeleteDeviceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginui_setproperty.htm
 tech.root: WMP
 ms.assetid: 33b36239-3bda-44d3-8f85-7826bd8d3376
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPPluginUI interface [Windows Media Player],SetProperty method, IWMPPluginUI.SetProperty, IWMPPluginUI::SetProperty, IWMPPluginUISetProperty, SetProperty, SetProperty method [Windows Media Player], SetProperty method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_setproperty, wmpplug/IWMPPluginUI::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

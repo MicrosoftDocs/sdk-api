@@ -7,7 +7,7 @@ old-location: mf\mfallocateserialworkqueue.htm
 tech.root: medfound
 ms.assetid: 45198662-C861-49A5-8962-DC256A671350
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: MFAllocateSerialWorkQueue, MFAllocateSerialWorkQueue function [Media Foundation], mf.mfallocateserialworkqueue, mfapi/MFAllocateSerialWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

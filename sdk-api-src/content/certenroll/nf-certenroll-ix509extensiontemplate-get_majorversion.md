@@ -4,10 +4,10 @@ title: IX509ExtensionTemplate::get_MajorVersion
 author: windows-sdk-content
 description: Retrieves the minimum major version number of the certificate template.
 old-location: security\ix509extensiontemplate_majorversion_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 35057dbc-4518-4f76-bf82-9d9a8abe5525
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],MajorVersion property, IX509ExtensionTemplate.MajorVersion, IX509ExtensionTemplate.get_MajorVersion, IX509ExtensionTemplate::MajorVersion, IX509ExtensionTemplate::get_MajorVersion, MajorVersion property [Security], MajorVersion property [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::MajorVersion, certenroll/IX509ExtensionTemplate::get_MajorVersion, get_MajorVersion, security.ix509extensiontemplate_majorversion_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

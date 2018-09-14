@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11classinstance_getinstancename.htm
 tech.root: direct3d11
 ms.assetid: 9e9c3410-6421-4300-b3a6-de4840a81117
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 52fdee2c-7566-954c-edad-a7d91948caac, GetInstanceName, GetInstanceName method [Direct3D 11], GetInstanceName method [Direct3D 11],ID3D11ClassInstance interface, ID3D11ClassInstance interface [Direct3D 11],GetInstanceName method, ID3D11ClassInstance.GetInstanceName, ID3D11ClassInstance::GetInstanceName, d3d11/ID3D11ClassInstance::GetInstanceName, direct3d11.id3d11classinstance_getinstancename
 ms.prod: windows-hardware
 ms.technology: windows-devices

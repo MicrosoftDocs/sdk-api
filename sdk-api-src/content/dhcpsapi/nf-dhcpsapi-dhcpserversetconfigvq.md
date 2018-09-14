@@ -4,10 +4,10 @@ title: DhcpServerSetConfigVQ function
 author: windows-sdk-content
 description: Sets or updates DHCP server settings.
 old-location: dhcp\dhcpserversetconfigvq.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 3498b674-5771-47b6-9dfa-a8e3e10bca40
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpServerSetConfigVQ, DhcpServerSetConfigVQ function [DHCP], dhcp.dhcpserversetconfigvq, dhcpsapi/DhcpServerSetConfigVQ
 ms.prod: windows-hardware
 ms.technology: windows-devices

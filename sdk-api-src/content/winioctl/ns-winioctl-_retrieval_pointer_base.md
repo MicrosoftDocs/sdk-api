@@ -4,10 +4,10 @@ title: "_RETRIEVAL_POINTER_BASE"
 author: windows-sdk-content
 description: Contains the output for the FSCTL_GET_RETRIEVAL_POINTER_BASE control code.
 old-location: fs\retrieval_pointer_base.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e0a779fb-6c46-4831-95dc-968e17f86a81
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRETRIEVAL_POINTER_BASE, PRETRIEVAL_POINTER_BASE, PRETRIEVAL_POINTER_BASE structure pointer [Files], RETRIEVAL_POINTER_BASE, RETRIEVAL_POINTER_BASE structure [Files], _RETRIEVAL_POINTER_BASE, fs.retrieval_pointer_base, winioctl/PRETRIEVAL_POINTER_BASE, winioctl/RETRIEVAL_POINTER_BASE"
 ms.prod: windows
 ms.technology: windows-sdk

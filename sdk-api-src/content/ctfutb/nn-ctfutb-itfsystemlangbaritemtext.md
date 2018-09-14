@@ -7,7 +7,7 @@ old-location: tsf\itfsystemlangbaritemtext.htm
 tech.root: TSF
 ms.assetid: f39ec024-1bdf-4451-9598-1953bffc9704
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITfSystemLangBarItemText, ITfSystemLangBarItemText interface [Text Services Framework], ITfSystemLangBarItemText interface [Text Services Framework],described, _tsf_itfsystemlangbaritemtext_ref, ctfutb/ITfSystemLangBarItemText, tsf.itfsystemlangbaritemtext
 ms.prod: windows
 ms.technology: windows-sdk

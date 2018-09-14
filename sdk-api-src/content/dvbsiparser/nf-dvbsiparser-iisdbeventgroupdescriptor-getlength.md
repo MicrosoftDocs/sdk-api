@@ -4,10 +4,10 @@ title: IIsdbEventGroupDescriptor::GetLength
 author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) event group descriptor, in bytes.
 old-location: mstv\iisdbeventgroupdescriptor_getlength.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 08e61ddb-15d5-40e3-9e37-7c45d1f18b4a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbEventGroupDescriptor.GetLength, IIsdbEventGroupDescriptor::GetLength, dvbsiparser/IIsdbEventGroupDescriptor::GetLength, mstv.iisdbeventgroupdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

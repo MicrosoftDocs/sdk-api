@@ -4,10 +4,10 @@ title: FWPM_LAYER_ENUM_TEMPLATE0_
 author: windows-sdk-content
 description: Used for enumerating layers.
 old-location: fwp\fwpm_layer_enum_template0_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 1e08ee29-8ade-491d-be17-d724d83d86a3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FWPM_LAYER_ENUM_TEMPLATE0, FWPM_LAYER_ENUM_TEMPLATE0 structure [Filtering], FWPM_LAYER_ENUM_TEMPLATE0_, fwp.fwpm_layer_enum_template0_struct, fwpmtypes/FWPM_LAYER_ENUM_TEMPLATE0
 ms.prod: windows
 ms.technology: windows-sdk

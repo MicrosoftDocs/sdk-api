@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrResolutionHandler_KeepOther.htm
 tech.root: shell
 ms.assetid: 6d3e3b01-447c-4f7b-8a63-5bd9084de00a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepOther method, ISyncMgrResolutionHandler.KeepOther, ISyncMgrResolutionHandler::KeepOther, KeepOther, KeepOther method [Windows Shell], KeepOther method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_KeepOther, shell.ISyncMgrResolutionHandler_KeepOther, syncmgr/ISyncMgrResolutionHandler::KeepOther
 ms.prod: windows-hardware
 ms.technology: windows-devices

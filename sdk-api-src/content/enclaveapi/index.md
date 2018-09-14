@@ -2,7 +2,7 @@
 UID: NA:enclaveapi
 ms.assetid: 91a0db05-9113-3f1e-987e-2ce774ff0b6f
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

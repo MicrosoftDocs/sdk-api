@@ -4,10 +4,10 @@ title: tagEapHostPeerMethodResultReason
 author: windows-sdk-content
 description: Defines the set of possible reasons that describe the results returned by an EAP method to a supplicant.
 old-location: eaphost\eaphostpeermethodresultreason.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: f43d2883-d23f-455b-bde0-244a88630d25
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EapHostPeerMethodResultAltSuccessReceived, EapHostPeerMethodResultFromMethod, EapHostPeerMethodResultReason, EapHostPeerMethodResultReason enumeration [EAPHost], EapHostPeerMethodResultTimeout, eaphost.eaphostpeermethodresultreason, eaphostpeertypes/EapHostPeerMethodResultAltSuccessReceived, eaphostpeertypes/EapHostPeerMethodResultFromMethod, eaphostpeertypes/EapHostPeerMethodResultReason, eaphostpeertypes/EapHostPeerMethodResultTimeout, tagEapHostPeerMethodResultReason
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: TP:security
 ms.assetid: b363e999-e030-3061-ae49-cc5ffd5ea84d
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -47,7 +47,6 @@ To develop Security and Identity, you need these headers:
  * [identitycommon.h](../identitycommon/index.md)
  * [identityprovider.h](../identityprovider/index.md)
  * [identitystore.h](../identitystore/index.md)
- * [infocard.h](../infocard/index.md)
  * [lsalookup.h](../lsalookup/index.md)
  * [mscat.h](../mscat/index.md)
  * [mssip.h](../mssip/index.md)

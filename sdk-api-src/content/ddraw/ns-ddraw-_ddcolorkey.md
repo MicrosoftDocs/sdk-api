@@ -7,7 +7,7 @@ old-location: directdraw\ddcolorkey.htm
 tech.root: directdraw
 ms.assetid: c520e649-86f9-4c4a-bb67-22d75aa3c8b0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPDDCOLORKEY, DDCOLORKEY, DDCOLORKEY structure [DirectDraw], LPDDCOLORKEY, LPDDCOLORKEY structure pointer [DirectDraw], _DDCOLORKEY, ddraw/DDCOLORKEY, ddraw/LPDDCOLORKEY, directdraw.ddcolorkey"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gpmc\igpmsecurityinfo.htm
 tech.root: GPMC
 ms.assetid: 1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GPMSecurityInfo, IGPMSecurityInfo, IGPMSecurityInfo interface [GPMC], IGPMSecurityInfo interface [GPMC],described, _win32_igpmsecurityinfo, gpmc.igpmsecurityinfo, gpmgmt/IGPMSecurityInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: adsi\iadsnametranslate_initex.htm
 tech.root: ADSI
 ms.assetid: 169e1e0d-26c0-484d-b461-8817d37d17b8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsNameTranslate interface [ADSI],InitEx method, IADsNameTranslate.InitEx, IADsNameTranslate::InitEx, InitEx, InitEx method [ADSI], InitEx method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_initex, adsi.iadsnametranslate__initex, adsi.iadsnametranslate_initex, iads/IADsNameTranslate::InitEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

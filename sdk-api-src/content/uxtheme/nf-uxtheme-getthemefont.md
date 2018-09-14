@@ -4,10 +4,10 @@ title: GetThemeFont function
 author: windows-sdk-content
 description: Retrieves the value of a font property.
 old-location: controls\GetThemeFont.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemefont.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetThemeFont, GetThemeFont function [Windows Controls], controls.GetThemeFont, controls.inet_GetThemeFont, inet_GetThemeFont, inet_GetThemeFont_cpp, uxtheme/GetThemeFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

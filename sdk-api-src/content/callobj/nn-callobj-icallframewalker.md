@@ -7,7 +7,7 @@ old-location: com\icallframewalker.htm
 tech.root: com
 ms.assetid: 1eeb00a3-d3c5-46f0-95a8-f694f802894b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: ICallFrameWalker, ICallFrameWalker interface [COM], ICallFrameWalker interface [COM],described, _com_icallframewalker, callobj/ICallFrameWalker, com.icallframewalker
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_createquery1.htm
 tech.root: direct3d11
 ms.assetid: 8D170F97-DA95-48FE-84F6-2BBB3E388BB4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CreateQuery1, CreateQuery1 method [Direct3D 11], CreateQuery1 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],CreateQuery1 method, ID3D11Device3.CreateQuery1, ID3D11Device3::CreateQuery1, d3d11_3/ID3D11Device3::CreateQuery1, direct3d11.id3d11device3_createquery1
 ms.prod: windows-hardware
 ms.technology: windows-devices

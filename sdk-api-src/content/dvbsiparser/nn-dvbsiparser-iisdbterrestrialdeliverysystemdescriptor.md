@@ -4,10 +4,10 @@ title: IIsdbTerrestrialDeliverySystemDescriptor
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 32bde3dd-05e0-466b-9f04-4b55b0d7f374
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IIsdbTerrestrialDeliverySystemDescriptor, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor, mstv.iisdbterrestrialdeliverysystemdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

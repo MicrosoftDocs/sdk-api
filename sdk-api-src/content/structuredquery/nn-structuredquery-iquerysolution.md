@@ -7,7 +7,7 @@ old-location: search\_search_IQuerySolution.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\iquerysolution.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: IQuerySolution, IQuerySolution interface [search], IQuerySolution interface [search],described, _search_IQuerySolution, search._search_IQuerySolution, structuredquery/IQuerySolution
 ms.prod: windows
 ms.technology: windows-sdk

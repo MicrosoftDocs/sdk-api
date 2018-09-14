@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofilesubstitutelayout.htm
 tech.root: TSF
 ms.assetid: e801ca27-4581-4369-886c-04b824d55013
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITfInputProcessorProfileSubstituteLayout, ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework], ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework],described, msctf/ITfInputProcessorProfileSubstituteLayout, tsf.itfinputprocessorprofilesubstitutelayout
 ms.prod: windows
 ms.technology: windows-sdk

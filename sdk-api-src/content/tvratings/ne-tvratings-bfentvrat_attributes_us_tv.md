@@ -4,10 +4,10 @@ title: BfEnTvRat_Attributes_US_TV
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\bfentvrat_attributes_us_tv.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 3ad1736f-d27f-4aba-ab68-e7aca407d182
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: BfEnTvRat_Attributes_US_TV, BfEnTvRat_Attributes_US_TV enumeration [Microsoft TV Technologies], US_TV_IsAdultLanguage, US_TV_IsBlocked, US_TV_IsSexualSituation, US_TV_IsSexuallySuggestiveDialog, US_TV_IsViolent, US_TV_ValidAttrSubmask, mstv.bfentvrat_attributes_us_tv, tvratings/BfEnTvRat_Attributes_US_TV, tvratings/US_TV_IsAdultLanguage, tvratings/US_TV_IsBlocked, tvratings/US_TV_IsSexualSituation, tvratings/US_TV_IsSexuallySuggestiveDialog, tvratings/US_TV_IsViolent, tvratings/US_TV_ValidAttrSubmask
 ms.prod: windows
 ms.technology: windows-sdk

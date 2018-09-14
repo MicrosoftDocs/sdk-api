@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::CacheMoved
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents_cachemoved.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 73d9bb7b-4844-4d7c-9e50-8d63727f5309
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CacheMoved, CacheMoved method [Offline Files], CacheMoved method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheMoved method, IOfflineFilesEvents.CacheMoved, IOfflineFilesEvents::CacheMoved, cscobj/IOfflineFilesEvents::CacheMoved, of.iofflinefilesevents_cachemoved
 ms.prod: windows-hardware
 ms.technology: windows-devices

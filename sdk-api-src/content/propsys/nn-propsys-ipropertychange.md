@@ -7,7 +7,7 @@ old-location: properties\IPropertyChange.htm
 tech.root: properties
 ms.assetid: 7bdc31d8-ba03-4010-8aa1-89701ebbf8cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: IPropertyChange, IPropertyChange interface [Windows Properties], IPropertyChange interface [Windows Properties],described, _shell_IPropertyChange, properties.IPropertyChange, propsys/IPropertyChange, shell.IPropertyChange
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattunregisterevent.htm
 tech.root: bltooth
 ms.assetid: 4E0E8D6C-DC12-4F15-9D29-B38AE680894B
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: BluetoothGATTUnregisterEvent, BluetoothGATTUnregisterEvent function [Bluetooth Devices], bltooth.bluetoothgattunregisterevent, bluetoothleapis/BluetoothGATTUnregisterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

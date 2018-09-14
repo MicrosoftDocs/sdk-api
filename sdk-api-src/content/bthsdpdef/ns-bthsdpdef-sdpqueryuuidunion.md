@@ -7,7 +7,7 @@ old-location: bluetooth\sdpqueryuuidunion.htm
 tech.root: bluetooth
 ms.assetid: 446b0337-ea83-4d8a-bee7-3cccf03e61a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: SdpQueryUuidUnion, SdpQueryUuidUnion structure [Bluetooth], bluetooth.sdpqueryuuidunion, bthsdpdef/SdpQueryUuidUnion
 ms.prod: windows
 ms.technology: windows-sdk

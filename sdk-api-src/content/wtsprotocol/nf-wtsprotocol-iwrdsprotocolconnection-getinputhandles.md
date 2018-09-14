@@ -4,10 +4,10 @@ title: IWRdsProtocolConnection::GetInputHandles
 author: windows-sdk-content
 description: Obtains the handles to input/output devices for the protocol.
 old-location: termserv\iwrdsprotocolconnection_getinputhandles.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 42f20dfc-e625-4b53-b055-750af4cbd3ec
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetInputHandles, GetInputHandles method [Remote Desktop Services], GetInputHandles method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetInputHandles method, IWRdsProtocolConnection.GetInputHandles, IWRdsProtocolConnection::GetInputHandles, termserv.iwrdsprotocolconnection_getinputhandles, wtsprotocol/IWRdsProtocolConnection::GetInputHandles
 ms.prod: windows-hardware
 ms.technology: windows-devices

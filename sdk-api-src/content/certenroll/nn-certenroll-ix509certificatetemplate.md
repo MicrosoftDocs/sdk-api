@@ -4,10 +4,10 @@ title: IX509CertificateTemplate
 author: windows-sdk-content
 description: The IX509CertificateTemplate interface represents a certificate request template. It can be used to initialize an IX509CertificateTemplateWritable interface.
 old-location: security\ix509certificatetemplate.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 56122d92-7e38-4eaa-b2f5-713adc81e68e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509CertificateTemplate, IX509CertificateTemplate interface [Security], IX509CertificateTemplate interface [Security],described, certenroll/IX509CertificateTemplate, security.ix509certificatetemplate
 ms.prod: windows
 ms.technology: windows-sdk

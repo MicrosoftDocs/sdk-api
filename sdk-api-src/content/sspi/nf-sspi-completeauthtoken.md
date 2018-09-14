@@ -4,10 +4,10 @@ title: CompleteAuthToken function
 author: windows-sdk-content
 description: Completes an authentication token.
 old-location: security\completeauthtoken.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: a404d0a3-d1ea-4708-87d7-2d216e9a5f5f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: CompleteAuthToken, CompleteAuthToken function [Security], _ssp_completeauthtoken, security.completeauthtoken, sspi/CompleteAuthToken
 ms.prod: windows-hardware
 ms.technology: windows-devices

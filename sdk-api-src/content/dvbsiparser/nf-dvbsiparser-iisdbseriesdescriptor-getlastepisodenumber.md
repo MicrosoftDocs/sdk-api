@@ -4,10 +4,10 @@ title: IIsdbSeriesDescriptor::GetLastEpisodeNumber
 author: windows-sdk-content
 description: Gets the number of the last episode of a series from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getlastepisodenumber.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 23cae82f-a40f-47c6-b9ee-0d91a87d9b70
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetLastEpisodeNumber, GetLastEpisodeNumber method [Microsoft TV Technologies], GetLastEpisodeNumber method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetLastEpisodeNumber method, IIsdbSeriesDescriptor.GetLastEpisodeNumber, IIsdbSeriesDescriptor::GetLastEpisodeNumber, dvbsiparser/IIsdbSeriesDescriptor::GetLastEpisodeNumber, mstv.iisdbseriesdescriptor_getlastepisodenumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

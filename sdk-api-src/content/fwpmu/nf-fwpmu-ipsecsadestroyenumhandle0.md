@@ -4,10 +4,10 @@ title: IPsecSaDestroyEnumHandle0 function
 author: windows-sdk-content
 description: Frees a handle returned by IPsecSaCreateEnumHandle0.
 old-location: fwp\ipsecsadestroyenumhandle0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: acd02e35-0bcb-4882-9b85-b29a558d34b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPsecSaDestroyEnumHandle0, IPsecSaDestroyEnumHandle0 function [Filtering], fwp.ipsecsadestroyenumhandle0_func, fwpmu/IPsecSaDestroyEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

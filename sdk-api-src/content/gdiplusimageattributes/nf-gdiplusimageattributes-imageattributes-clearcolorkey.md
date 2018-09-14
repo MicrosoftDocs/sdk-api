@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearColorKey_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearcolorkey.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: ClearColorKey, ClearColorKey method [GDI+], ClearColorKey method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearColorKey method, ImageAttributes.ClearColorKey, ImageAttributes::ClearColorKey, _gdiplus_CLASS_ImageAttributes_ClearColorKey_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearColorKey_type_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_DHCP_IP_CLUSTER"
 author: windows-sdk-content
 description: The DHCP_IP_CLUSTER structure defines the address and mast for a network cluster.
 old-location: dhcp\dhcp_ip_cluster.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 6dad62c3-c56f-4526-ae5c-dbb74cb13c8f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPDHCP_IP_CLUSTER, DHCP_IP_CLUSTER, DHCP_IP_CLUSTER structure [DHCP], LPDHCP_IP_CLUSTER, LPDHCP_IP_CLUSTER structure pointer [DHCP], _DHCP_IP_CLUSTER, dhcp.dhcp_ip_cluster, dhcpsapi/LPDHCP_IP_CLUSTER, dhcpsapi/_DHCP_IP_CLUSTER"
 ms.prod: windows
 ms.technology: windows-sdk

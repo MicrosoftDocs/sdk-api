@@ -4,10 +4,10 @@ title: IMSVidVideoRendererEvent2
 author: windows-sdk-content
 description: This interface is not implemented.
 old-location: mstv\imsvidvideorendererevent2.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: a73ab8f4-724f-4d61-909e-7d43a3e373e3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidVideoRendererEvent2, IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies], IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies],described, mstv.imsvidvideorendererevent2, segment/IMSVidVideoRendererEvent2
 ms.prod: windows
 ms.technology: windows-sdk

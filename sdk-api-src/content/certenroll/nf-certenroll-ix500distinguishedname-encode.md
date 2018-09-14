@@ -4,10 +4,10 @@ title: IX500DistinguishedName::Encode
 author: windows-sdk-content
 description: Initializes the object from a string that contains a distinguished name.
 old-location: security\ix500distinguishedname_encode_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: da0d4479-dc58-4719-886e-5ce610764305
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Encode, Encode method [Security], Encode method [Security],IX500DistinguishedName interface, IX500DistinguishedName interface [Security],Encode method, IX500DistinguishedName.Encode, IX500DistinguishedName::Encode, certenroll/IX500DistinguishedName::Encode, security.ix500distinguishedname_encode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

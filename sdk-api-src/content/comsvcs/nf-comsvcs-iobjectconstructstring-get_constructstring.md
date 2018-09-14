@@ -7,7 +7,7 @@ old-location: cos\iobjectconstructstring_get_constructstring.htm
 tech.root: cossdk
 ms.assetid: 154b7567-0f25-49c3-90b2-58c95f0ebfee
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IObjectConstructString interface [COM+],get_ConstructString method, IObjectConstructString.get_ConstructString, IObjectConstructString::get_ConstructString, _cos_IObjectConstructString_get_ConstructString, comsvcs/IObjectConstructString::get_ConstructString, cos.iobjectconstructstring_get_constructstring, get_ConstructString, get_ConstructString method [COM+], get_ConstructString method [COM+],IObjectConstructString interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

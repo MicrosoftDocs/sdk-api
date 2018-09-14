@@ -4,10 +4,10 @@ title: ID2D1SvgElement::ReplaceChild
 author: windows-sdk-content
 description: Replaces the oldChild element with the newChild.
 old-location: direct2d\id2d1svgelement_replacechild.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: BEF74F58-D218-46CA-AE02-F15DDAC48FB4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],ReplaceChild method, ID2D1SvgElement.ReplaceChild, ID2D1SvgElement::ReplaceChild, ReplaceChild, ReplaceChild method [Direct2D], ReplaceChild method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::ReplaceChild, direct2d.id2d1svgelement_replacechild
 ms.prod: windows-hardware
 ms.technology: windows-devices

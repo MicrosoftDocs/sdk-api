@@ -4,10 +4,10 @@ title: TabCtrl_GetRowCount macro
 author: windows-sdk-content
 description: Retrieves the current number of rows of tabs in a tab control. You can use this macro or send the TCM_GETROWCOUNT message explicitly.
 old-location: controls\TabCtrl_GetRowCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getrowcount.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: TabCtrl_GetRowCount, TabCtrl_GetRowCount macro [Windows Controls], _win32_TabCtrl_GetRowCount, _win32_TabCtrl_GetRowCount_cpp, commctrl/TabCtrl_GetRowCount, controls.TabCtrl_GetRowCount, controls._win32_TabCtrl_GetRowCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_HTTP_SERVICE_CONFIG_SSL_SNI_SET"
 author: windows-sdk-content
 description: Used to add a new Secure Sockets Layer (SSL) Server Name Indication (SNI) certificate record to the SSL SNI store or retrieve an existing record from it.
 old-location: http\http_service_config_ssl_sni_set.htm
-tech.root: http
+tech.root: Http
 ms.assetid: 382838B9-C15E-459F-AC40-ECA15EFC18B8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_SNI_SET, HTTP_SERVICE_CONFIG_SSL_SNI_SET, HTTP_SERVICE_CONFIG_SSL_SNI_SET structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_SNI_SET, PHTTP_SERVICE_CONFIG_SSL_SNI_SET structure pointer [HTTP], _HTTP_SERVICE_CONFIG_SSL_SNI_SET, http.http_service_config_ssl_sni_set, http/HTTP_SERVICE_CONFIG_SSL_SNI_SET, http/PHTTP_SERVICE_CONFIG_SSL_SNI_SET"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\clsidfromprogid.htm
 tech.root: com
 ms.assetid: 89fb20af-65bf-4ed4-9f71-eb707ee8eb09
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: CLSIDFromProgID, CLSIDFromProgID function [COM], _com_CLSIDFromProgID, com.clsidfromprogid, combaseapi/CLSIDFromProgID
 ms.prod: windows-hardware
 ms.technology: windows-devices

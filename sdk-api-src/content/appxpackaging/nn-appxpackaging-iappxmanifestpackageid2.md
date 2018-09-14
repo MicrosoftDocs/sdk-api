@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackageid2.htm
 tech.root: appxpkg
 ms.assetid: 27344514-B9B9-46EC-9A44-577C0C9361C8
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IAppxManifestPackageId2, IAppxManifestPackageId2 interface [App packaging and management], IAppxManifestPackageId2 interface [App packaging and management],described, appxpackaging/IAppxManifestPackageId2, appxpkg.iappxmanifestpackageid2
 ms.prod: windows
 ms.technology: windows-sdk

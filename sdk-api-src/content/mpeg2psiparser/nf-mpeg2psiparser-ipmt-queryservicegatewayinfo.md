@@ -4,10 +4,10 @@ title: IPMT::QueryServiceGatewayInfo
 author: windows-sdk-content
 description: The QueryServiceGatewayInfo method returns the DSM-CC service gateway information in the PMT, if any.
 old-location: mstv\ipmt_queryservicegatewayinfo.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: fead4140-5585-44eb-9d1f-7a686b79ac26
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],QueryServiceGatewayInfo method, IPMT.QueryServiceGatewayInfo, IPMT::QueryServiceGatewayInfo, IPMTQueryServiceGatewayInfo, QueryServiceGatewayInfo, QueryServiceGatewayInfo method [Microsoft TV Technologies], QueryServiceGatewayInfo method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::QueryServiceGatewayInfo, mstv.ipmt_queryservicegatewayinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDirect3DDevice9::CreateVertexBuffer
 author: windows-sdk-content
 description: Creates a vertex buffer.
 old-location: direct3d9\idirect3ddevice9__createvertexbuffer.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createvertexbuffer.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: CreateVertexBuffer, CreateVertexBuffer method [Direct3D 9], CreateVertexBuffer method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateVertexBuffer method, IDirect3DDevice9.CreateVertexBuffer, IDirect3DDevice9::CreateVertexBuffer, d3d9helper/IDirect3DDevice9::CreateVertexBuffer, direct3d9.idirect3ddevice9__createvertexbuffer, f6027373-8860-696b-558e-21f53073f7c8
 ms.prod: windows-hardware
 ms.technology: windows-devices

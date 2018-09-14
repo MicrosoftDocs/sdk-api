@@ -2,7 +2,7 @@
 UID: TP:qos
 ms.assetid: 226c23a3-f2d6-320b-87c9-2bb3973f6073
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,6 +18,7 @@ Overview of the Quality of Service (QOS) technology.
 
 To develop Quality of Service (QOS), you need these headers:
 
+ * [infocard.h](../infocard/index.md)
  * [lpmapi.h](../lpmapi/index.md)
  * [ntddpsch.h](../ntddpsch/index.md)
  * [qos.h](../qos/index.md)

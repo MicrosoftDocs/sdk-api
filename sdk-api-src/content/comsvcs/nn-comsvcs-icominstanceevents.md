@@ -7,7 +7,7 @@ old-location: cos\icominstanceevents.htm
 tech.root: cossdk
 ms.assetid: 11e4559e-04c5-4fa9-b618-458ca7daf00e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IComInstanceEvents, IComInstanceEvents interface [COM+], IComInstanceEvents interface [COM+],described, _dtc_IComInstanceEvents, comsvcs/IComInstanceEvents, cos.icominstanceevents
 ms.prod: windows
 ms.technology: windows-sdk

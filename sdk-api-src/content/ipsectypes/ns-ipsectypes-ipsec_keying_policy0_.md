@@ -4,10 +4,10 @@ title: IPSEC_KEYING_POLICY0_
 author: windows-sdk-content
 description: Defines an unordered set of keying modules that will be tried for IPsec.
 old-location: fwp\ipsec_keying_policy0_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 6eddafbf-ac57-419f-b2a0-f50a4ab31baf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPSEC_KEYING_POLICY0, IPSEC_KEYING_POLICY0 structure [Filtering], IPSEC_KEYING_POLICY0_, fwp.ipsec_keying_policy0_struct, ipsectypes/IPSEC_KEYING_POLICY0
 ms.prod: windows
 ms.technology: windows-sdk

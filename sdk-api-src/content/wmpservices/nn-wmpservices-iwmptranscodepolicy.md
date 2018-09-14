@@ -7,7 +7,7 @@ old-location: wmp\iwmptranscodepolicy.htm
 tech.root: WMP
 ms.assetid: b7dbd25f-6865-44fa-9d46-e77de393ce13
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPTranscodePolicy, IWMPTranscodePolicy interface [Windows Media Player], IWMPTranscodePolicy interface [Windows Media Player],described, IWMPTranscodePolicyInterface, wmp.iwmptranscodepolicy, wmpservices/IWMPTranscodePolicy
 ms.prod: windows
 ms.technology: windows-sdk

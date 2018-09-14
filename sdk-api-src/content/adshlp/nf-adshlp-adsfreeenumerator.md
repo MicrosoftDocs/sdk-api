@@ -7,7 +7,7 @@ old-location: adsi\adsfreeenumerator.htm
 tech.root: ADSI
 ms.assetid: 0ac13320-c0c2-45e3-b1c0-b4bf6c7e5315
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: ADsFreeEnumerator, ADsFreeEnumerator function [ADSI], _ds_adsfreeenumerator, adshlp/ADsFreeEnumerator, adsi.adsfreeenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_put_RootURL.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_rooturl.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: ISearchRoot interface [search],put_RootURL method, ISearchRoot.put_RootURL, ISearchRoot::put_RootURL, _search_ISearchRoot_put_RootURL, put_RootURL, put_RootURL method [search], put_RootURL method [search],ISearchRoot interface, search._search_ISearchRoot_put_RootURL, searchapi/ISearchRoot::put_RootURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

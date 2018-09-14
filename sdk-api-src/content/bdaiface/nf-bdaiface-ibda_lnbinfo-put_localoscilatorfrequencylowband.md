@@ -4,10 +4,10 @@ title: IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand
 author: windows-sdk-content
 description: The put_LocalOscilatorFrequencyLowBand method specifies the frequency of the local oscillator's low band.
 old-location: mstv\ibda_lnbinfo_put_localoscilatorfrequencylowband.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: e1ba4cf7-f9d4-4cac-921f-19f34fd968fe
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],put_LocalOscilatorFrequencyLowBand method, IBDA_LNBInfo.put_LocalOscilatorFrequencyLowBand, IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand, IBDA_LNBInfoput_LocalOscilatorFrequencyLowBand, bdaiface/IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand, mstv.ibda_lnbinfo_put_localoscilatorfrequencylowband, put_LocalOscilatorFrequencyLowBand, put_LocalOscilatorFrequencyLowBand method [Microsoft TV Technologies], put_LocalOscilatorFrequencyLowBand method [Microsoft TV Technologies],IBDA_LNBInfo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

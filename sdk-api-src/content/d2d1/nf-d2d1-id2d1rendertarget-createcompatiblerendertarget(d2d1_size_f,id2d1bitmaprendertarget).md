@@ -4,10 +4,10 @@ title: ID2D1RenderTarget::CreateCompatibleRenderTarget(D2D1_SIZE_F,ID2D1BitmapRe
 author: windows-sdk-content
 description: Creates a new bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target .
 old-location: direct2d\id2d1rendertarget_createcompatiblerendertarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4a799a7c-0d2f-460f-99f9-24c6cf7c4537
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CreateCompatibleRenderTarget, CreateCompatibleRenderTarget methods [Direct2D], ID2D1RenderTarget.CreateCompatibleRenderTarget, ID2D1RenderTarget.CreateCompatibleRenderTarget(D2D1_SIZE_F,ID2D1BitmapRenderTarget), ID2D1RenderTarget::CreateCompatibleRenderTarget, ID2D1RenderTarget::CreateCompatibleRenderTarget(D2D1_SIZE_F,ID2D1BitmapRenderTarget), d2d1/CreateCompatibleRenderTarget, direct2d.id2d1rendertarget_createcompatiblerendertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

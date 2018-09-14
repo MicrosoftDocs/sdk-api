@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontfacereference_enqueueglyphdownloadrequest.h
 tech.root: DirectWrite
 ms.assetid: 4e35c011-8d5b-0bb5-fea2-4034b8e379aa
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: EnqueueGlyphDownloadRequest, EnqueueGlyphDownloadRequest method [Direct Write], EnqueueGlyphDownloadRequest method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],EnqueueGlyphDownloadRequest method, IDWriteFontFaceReference.EnqueueGlyphDownloadRequest, IDWriteFontFaceReference::EnqueueGlyphDownloadRequest, directwrite.idwritefontfacereference_enqueueglyphdownloadrequest, dwrite_3/IDWriteFontFaceReference::EnqueueGlyphDownloadRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

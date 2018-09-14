@@ -4,10 +4,10 @@ title: INetFwRule::put_Enabled
 author: windows-sdk-content
 description: Enables or disables a rule.
 old-location: ics\inetfwrule_enabled.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 42533aca-3273-46fa-a9a1-add7f9fde351
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Enabled property, INetFwRule.Enabled, INetFwRule.put_Enabled, INetFwRule::Enabled, INetFwRule::get_Enabled, INetFwRule::put_Enabled, ics.inetfwrule_enabled, netfw/INetFwRule::Enabled, netfw/INetFwRule::get_Enabled, netfw/INetFwRule::put_Enabled, put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

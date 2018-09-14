@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createdepthstencilstate.htm
 tech.root: direct3d11
 ms.assetid: 7577604c-922c-408c-8eab-2361ebda17df
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CreateDepthStencilState, CreateDepthStencilState method [Direct3D 11], CreateDepthStencilState method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateDepthStencilState method, ID3D11Device.CreateDepthStencilState, ID3D11Device::CreateDepthStencilState, d3d11/ID3D11Device::CreateDepthStencilState, direct3d11.id3d11device_createdepthstencilstate, f09f7b38-23ad-f7a3-93dd-8500c90dc09c
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignatureenumerator_getcurrent.htm
 tech.root: OPC
 ms.assetid: 2e211822-9fd8-424c-bd0c-c5c81f9abc0b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcDigitalSignatureEnumerator interface, IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcDigitalSignatureEnumerator.GetCurrent, IOpcDigitalSignatureEnumerator::GetCurrent, msopc/IOpcDigitalSignatureEnumerator::GetCurrent, opc.iopcdigitalsignatureenumerator_getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalysissink.htm
 tech.root: DirectWrite
 ms.assetid: 1fd2ca46-006c-4b01-8258-6c24f4be1641
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: IDWriteTextAnalysisSink, IDWriteTextAnalysisSink interface [Direct Write], IDWriteTextAnalysisSink interface [Direct Write],described, directwrite.idwritetextanalysissink, dwrite/IDWriteTextAnalysisSink
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink3_getautoindexing.htm
 tech.root: wmformat
 ms.assetid: a6412ce4-03ac-4777-8eb2-ef9f265a6d6c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetAutoIndexing, GetAutoIndexing method [windows Media Format], GetAutoIndexing method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],GetAutoIndexing method, IWMWriterFileSink3.GetAutoIndexing, IWMWriterFileSink3::GetAutoIndexing, IWMWriterFileSink3GetAutoIndexing, wmformat.iwmwriterfilesink3_getautoindexing, wmsdkidl/IWMWriterFileSink3::GetAutoIndexing
 ms.prod: windows-hardware
 ms.technology: windows-devices

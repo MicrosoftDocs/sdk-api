@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmproperty_sources.htm
 tech.root: fsrm
 ms.assetid: fc29b42c-f2d7-4a13-a2f9-94416f8ef803
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmProperty interface [File Server Resource Manager],Sources property, IFsrmProperty.Sources, IFsrmProperty.get_Sources, IFsrmProperty::Sources, IFsrmProperty::get_Sources, Sources property [File Server Resource Manager], Sources property [File Server Resource Manager],IFsrmProperty interface, fs.ifsrmproperty_sources, fsrm.ifsrmproperty_sources, fsrmpipeline/IFsrmProperty::Sources, fsrmpipeline/IFsrmProperty::get_Sources, get_Sources
 ms.prod: windows-hardware
 ms.technology: windows-devices

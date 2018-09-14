@@ -7,7 +7,7 @@ old-location: tsf\itfcontextcomposition_takeownership.htm
 tech.root: TSF
 ms.assetid: 54182932-f749-4de0-a536-0f2f29d7664c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITfContextComposition interface [Text Services Framework],TakeOwnership method, ITfContextComposition.TakeOwnership, ITfContextComposition::TakeOwnership, TakeOwnership, TakeOwnership method [Text Services Framework], TakeOwnership method [Text Services Framework],ITfContextComposition interface, _tsf_itfcontextcomposition_takeownership_ref, msctf/ITfContextComposition::TakeOwnership, tsf.itfcontextcomposition_takeownership
 ms.prod: windows-hardware
 ms.technology: windows-devices

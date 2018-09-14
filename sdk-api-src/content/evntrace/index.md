@@ -2,7 +2,7 @@
 UID: NA:evntrace
 ms.assetid: fcc3998f-48cb-304e-b1db-f412543a8d72
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPie_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddpiemethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: AddPie, AddPie methods [GDI+], GraphicsPath.AddPie, GraphicsPath.AddPie(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), GraphicsPath::AddPie, GraphicsPath::AddPie(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddPie_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddPie_Methods, gdipluspath/AddPie
 ms.prod: windows-hardware
 ms.technology: windows-devices

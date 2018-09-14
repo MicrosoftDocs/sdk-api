@@ -7,7 +7,7 @@ old-location: menurc\getcaretpos.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\getcaretpos.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetCaretPos, GetCaretPos function [Menus and Other Resources], _win32_GetCaretPos, _win32_getcaretpos_cpp, menurc.getcaretpos, winui._win32_getcaretpos, winuser/GetCaretPos
 ms.prod: windows-hardware
 ms.technology: windows-devices

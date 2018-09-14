@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipset_relationshipexists.htm
 tech.root: OPC
 ms.assetid: 18c989e2-8def-492d-ac57-014f9b6fcb22
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IOpcRelationshipSet interface [Open Packaging Conventions],RelationshipExists method, IOpcRelationshipSet.RelationshipExists, IOpcRelationshipSet::RelationshipExists, RelationshipExists, RelationshipExists method [Open Packaging Conventions], RelationshipExists method [Open Packaging Conventions],IOpcRelationshipSet interface, msopc/IOpcRelationshipSet::RelationshipExists, opc.iopcrelationshipset_relationshipexists
 ms.prod: windows-hardware
 ms.technology: windows-devices

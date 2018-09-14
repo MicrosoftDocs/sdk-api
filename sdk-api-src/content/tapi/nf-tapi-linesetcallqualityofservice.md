@@ -4,10 +4,10 @@ title: lineSetCallQualityOfService function
 author: windows-sdk-content
 description: The lineSetCallQualityOfService function allows the application to attempt to change the quality of service parameters (reserved capacity and performance guarantees) for an existing call.
 old-location: tapi2\linesetcallqualityofservice.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 6a977dab-70f6-4462-a94f-78acdec7decf
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: "_tapi2_linesetcallqualityofservice, lineSetCallQualityOfService, lineSetCallQualityOfService function [TAPI 2.2], tapi/lineSetCallQualityOfService, tapi2.linesetcallqualityofservice"
 ms.prod: windows-hardware
 ms.technology: windows-devices

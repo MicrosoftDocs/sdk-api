@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrecipients_cpp_mfax_faxrecipients_count_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2cc4.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxRecipients interface, IFaxRecipients interface [Fax Service],Count property, IFaxRecipients.Count, IFaxRecipients.get_Count, IFaxRecipients::Count, IFaxRecipients::get_Count, _mfax_faxrecipients.count, fax._mfax_faxrecipients_count, fax._mfax_faxrecipients_cpp_mfax_faxrecipients_count_cpp, faxcomex/IFaxRecipients::Count, faxcomex/IFaxRecipients::get_Count, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

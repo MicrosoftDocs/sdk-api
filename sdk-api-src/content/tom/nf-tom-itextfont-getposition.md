@@ -4,10 +4,10 @@ title: ITextFont::GetPosition
 author: windows-sdk-content
 description: Gets the amount that characters are offset vertically relative to the baseline.
 old-location: controls\ITextFont_GetPosition.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getposition.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetPosition, GetPosition method [Windows Controls], GetPosition method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetPosition method, ITextFont.GetPosition, ITextFont::GetPosition, _win32_ITextFont_GetPosition, _win32_ITextFont_GetPosition_cpp, controls.ITextFont_GetPosition, controls._win32_ITextFont_GetPosition, tom/ITextFont::GetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

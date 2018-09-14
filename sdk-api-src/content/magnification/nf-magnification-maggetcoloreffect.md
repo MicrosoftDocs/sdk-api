@@ -7,7 +7,7 @@ old-location: magapi\magapi_MagGetColorEffect.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetcoloreffect.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MagGetColorEffect, MagGetColorEffect function [Magnification API], magapi.magapi_MagGetColorEffect, magapi_MagGetColorEffect, magnification/MagGetColorEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

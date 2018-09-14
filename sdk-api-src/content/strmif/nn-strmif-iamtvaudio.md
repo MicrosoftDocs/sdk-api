@@ -7,7 +7,7 @@ old-location: dshow\iamtvaudio.htm
 tech.root: DirectShow
 ms.assetid: de340594-4410-4896-b206-0f47d4035bc1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IAMTVAudio, IAMTVAudio interface [DirectShow], IAMTVAudio interface [DirectShow],described, IAMTVAudioInterface, dshow.iamtvaudio, strmif/IAMTVAudio
 ms.prod: windows
 ms.technology: windows-sdk

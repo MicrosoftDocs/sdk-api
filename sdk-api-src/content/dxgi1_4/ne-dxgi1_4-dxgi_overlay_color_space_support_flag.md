@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_overlay_color_space_support_flag.htm
 tech.root: direct3ddxgi
 ms.assetid: 3664CEBA-42A2-45FF-AA6F-286C1AECF535
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG, DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG enumeration [DXGI], DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG_PRESENT, direct3ddxgi.dxgi_overlay_color_space_support_flag, dxgi1_4/DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG, dxgi1_4/DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG_PRESENT
 ms.prod: windows
 ms.technology: windows-sdk

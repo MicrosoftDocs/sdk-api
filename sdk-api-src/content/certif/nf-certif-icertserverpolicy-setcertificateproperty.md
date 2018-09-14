@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_setcertificateproperty.htm
 tech.root: seccrypto
 ms.assetid: 1230aa79-d8b0-4f2b-ab10-412b8c530b0b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CCertServerPolicy object [Security],SetCertificateProperty method, CrossForest, GeneralFlags, ICertServerPolicy interface [Security],SetCertificateProperty method, ICertServerPolicy.SetCertificateProperty, ICertServerPolicy::SetCertificateProperty, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RequesterDN, RequesterSAMName, RequesterUPN, SetCertificateProperty, SetCertificateProperty method [Security], SetCertificateProperty method [Security],CCertServerPolicy object, SetCertificateProperty method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcertificateproperty, certif/ICertServerPolicy::SetCertificateProperty, security.icertserverpolicy_setcertificateproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

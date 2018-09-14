@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_Save.htm
 tech.root: shell
 ms.assetid: 2a7de829-f0bc-4ace-aed4-83d0611ae292
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: IShellLibrary interface [Windows Shell],Save method, IShellLibrary.Save, IShellLibrary::Save, Save, Save method [Windows Shell], Save method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_Save, shell.IShellLibrary_Save, shobjidl_core/IShellLibrary::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices

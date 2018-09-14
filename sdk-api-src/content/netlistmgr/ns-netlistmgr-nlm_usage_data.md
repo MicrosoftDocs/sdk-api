@@ -4,10 +4,10 @@ title: NLM_USAGE_DATA
 author: windows-sdk-content
 description: NLM_USAGE_DATA structure stores information that indicates the data usage of a plan.
 old-location: nla\nlm_usage_data.htm
-tech.root: nla
+tech.root: NLA
 ms.assetid: 1D917CD0-4D71-4780-9720-A1F3FDCBBB16
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NLM_USAGE_DATA, NLM_USAGE_DATA structure [Network Awareness], PNLM_USAGE_DATA, PNLM_USAGE_DATA structure pointer [Network Awareness], netlistmgr/NLM_USAGE_DATA, netlistmgr/PNLM_USAGE_DATA, nla.nlm_usage_data
 ms.prod: windows
 ms.technology: windows-sdk

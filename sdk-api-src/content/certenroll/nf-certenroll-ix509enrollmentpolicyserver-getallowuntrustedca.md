@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetAllowUnTrustedCA
 author: windows-sdk-content
 description: Retrieves a value that specifies whether to allow an untrusted certification authority certificate.
 old-location: security\ix509enrollmentpolicyserver_getallowuntrustedca.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 6b15a2ba-2e68-4c66-910d-20dd0f0581c2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetAllowUnTrustedCA, GetAllowUnTrustedCA method [Security], GetAllowUnTrustedCA method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetAllowUnTrustedCA method, IX509EnrollmentPolicyServer.GetAllowUnTrustedCA, IX509EnrollmentPolicyServer::GetAllowUnTrustedCA, certenroll/IX509EnrollmentPolicyServer::GetAllowUnTrustedCA, security.ix509enrollmentpolicyserver_getallowuntrustedca
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,98 @@
+---
+UID: NF:shobjidl_core.IShellLinkA.GetIconLocation
+title: IShellLinkA::GetIconLocation
+author: windows-sdk-content
+description: Gets the location (path and index) of the icon for a Shell link object.
+old-location: shell\IShellLink_GetIconLocation.htm
+tech.root: shell
+ms.assetid: ff7cc9be-a762-472a-9846-4dbd0ec94ad1
+ms.author: windowssdkdev
+ms.date: 09/13/2018
+ms.keywords: GetIconLocation, GetIconLocation method [Windows Shell], GetIconLocation method [Windows Shell],IShellLink interface, GetIconLocation method [Windows Shell],IShellLinkA interface, GetIconLocation method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetIconLocation method, IShellLink::GetIconLocation, IShellLinkA interface [Windows Shell],GetIconLocation method, IShellLinkA.GetIconLocation, IShellLinkA::GetIconLocation, IShellLinkW interface [Windows Shell],GetIconLocation method, IShellLinkW::GetIconLocation, _win32_IShellLink_GetIconLocation, shell.IShellLink_GetIconLocation, shobjidl_core/IShellLink::GetIconLocation, shobjidl_core/IShellLinkA::GetIconLocation, shobjidl_core/IShellLinkW::GetIconLocation
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellLink.GetIconLocation
+ - IShellLinkA.GetIconLocation
+ - IShellLinkW.GetIconLocation
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# IShellLinkA::GetIconLocation
+
+
+## -description
+
+
+Gets the location (path and index) of the icon for a Shell link object.
+
+
+## -parameters
+
+
+
+
+### -param pszIconPath
+
+Type: <b>LPTSTR</b>
+
+The address of a buffer that receives the path of the file containing the icon.
+
+
+### -param cch
+
+TBD
+
+
+### -param piIcon
+
+Type: <b>int*</b>
+
+The address of a value that receives the index of the icon.
+
+
+#### - cchIconPath
+
+Type: <b>int</b>
+
+The maximum number of characters to copy to the buffer pointed to by the <i>pszIconPath</i> parameter.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

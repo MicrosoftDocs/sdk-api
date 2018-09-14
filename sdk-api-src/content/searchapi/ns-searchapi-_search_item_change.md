@@ -7,7 +7,7 @@ old-location: search\_search_SEARCH_ITEM_CHANGE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_change.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: SEARCH_ITEM_CHANGE, SEARCH_ITEM_CHANGE structure [search], _SEARCH_ITEM_CHANGE, _search_SEARCH_ITEM_CHANGE, search._search_SEARCH_ITEM_CHANGE, searchapi/SEARCH_ITEM_CHANGE
 ms.prod: windows
 ms.technology: windows-sdk

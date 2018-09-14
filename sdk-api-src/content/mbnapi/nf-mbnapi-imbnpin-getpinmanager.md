@@ -7,7 +7,7 @@ old-location: mbn\imbnpin_getpinmanager.htm
 tech.root: mbn
 ms.assetid: 51957cb9-0204-4e07-aebf-1aaddb16b3c2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetPinManager, GetPinManager method [Microsoft Broadband Networks], GetPinManager method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],GetPinManager method, IMbnPin.GetPinManager, IMbnPin::GetPinManager, mbn.imbnpin_getpinmanager, mbnapi/IMbnPin::GetPinManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

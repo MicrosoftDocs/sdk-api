@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothisversionavailable.htm
 tech.root: bluetooth
 ms.assetid: 735a4c3f-1977-4600-afb2-272de3f4e7ba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: BluetoothIsVersionAvailable, BluetoothIsVersionAvailable function [Bluetooth], bluetooth.bluetoothisversionavailable, bluetoothapis/BluetoothIsVersionAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

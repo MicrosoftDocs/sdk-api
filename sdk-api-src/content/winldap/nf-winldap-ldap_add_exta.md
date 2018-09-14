@@ -4,10 +4,10 @@ title: ldap_add_extA function
 author: windows-sdk-content
 description: The ldap_add_ext function initiates an asynchronous add operation to a tree. The parent of the entry added must exist, or the parent must be empty (equal to the distinguished name of the root) for an add operation to succeed.
 old-location: ldap\ldap_add_ext.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: 13ad97e7-6d3c-43a6-b806-ec775abe303c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "_ldap_ldap_add_ext, ldap.ldap__add__ext, ldap.ldap_add_ext, ldap_add_ext, ldap_add_ext function [LDAP], ldap_add_extA, ldap_add_extW, winldap/ldap_add_ext, winldap/ldap_add_extA, winldap/ldap_add_extW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMSVidTuner
 author: windows-sdk-content
 description: The IMSVidTuner interface manages tuning devices.
 old-location: mstv\imsvidtuner.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: b11f3ac4-c351-4017-9801-98d8edec7449
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidTuner, IMSVidTuner interface [Microsoft TV Technologies], IMSVidTuner interface [Microsoft TV Technologies],described, IMSVidTunerInterface, mstv.imsvidtuner, segment/IMSVidTuner
 ms.prod: windows
 ms.technology: windows-sdk

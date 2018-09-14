@@ -7,7 +7,7 @@ old-location: mscs\clusterregsyncdatabase.htm
 tech.root: mscs
 ms.assetid: 90A66286-F17D-40AD-B0CB-6E02C1E1709A
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ClusterRegSyncDatabase, ClusterRegSyncDatabase function [Failover Cluster], PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, PCLUSAPI_CLUSTER_REG_SYNC_DATABASE function [Failover Cluster], clusapi/ClusterRegSyncDatabase, clusapi/PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, mscs.clusterregsyncdatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices

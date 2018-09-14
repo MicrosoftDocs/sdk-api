@@ -4,10 +4,10 @@ title: NetSessionGetInfo function
 author: windows-sdk-content
 description: Retrieves information about a session established between a particular server and workstation.
 old-location: fs\netsessiongetinfo.htm
-tech.root: netshare
+tech.root: NetShare
 ms.assetid: d44fb8d8-2b64-4268-8603-7784e2c5f2d5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, 1, 10, 2, NetSessionGetInfo, NetSessionGetInfo function [Files], _win32_netsessiongetinfo, fs.netsessiongetinfo, lmshare/NetSessionGetInfo, netmgmt.netsessiongetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

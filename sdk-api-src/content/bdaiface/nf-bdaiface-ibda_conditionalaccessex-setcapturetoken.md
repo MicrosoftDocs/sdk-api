@@ -4,10 +4,10 @@ title: IBDA_ConditionalAccessEx::SetCaptureToken
 author: windows-sdk-content
 description: Requests special events that are identified by a capture token.
 old-location: mstv\ibda_conditionalaccessex_setcapturetoken.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: b9e3d319-c76c-45df-aca3-d5447605b7c0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],SetCaptureToken method, IBDA_ConditionalAccessEx.SetCaptureToken, IBDA_ConditionalAccessEx::SetCaptureToken, SetCaptureToken, SetCaptureToken method [Microsoft TV Technologies], SetCaptureToken method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, bdaiface/IBDA_ConditionalAccessEx::SetCaptureToken, mstv.ibda_conditionalaccessex_setcapturetoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

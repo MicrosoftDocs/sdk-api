@@ -5,7 +5,6 @@
     "functiondiscoveryconstraints.h",
     "functiondiscoverykeys.h",
     "functiondiscoveryapi.h",
-    "functiondiscoverynotification.h",
     "functiondiscoveryprovider.h",
     "pnpxassoc.h",
     "wsdutil.h",

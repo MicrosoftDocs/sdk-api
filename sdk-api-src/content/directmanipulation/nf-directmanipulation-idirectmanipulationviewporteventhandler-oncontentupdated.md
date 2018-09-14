@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewporteventhandler_onconte
 tech.root: directmanipulation
 ms.assetid: 1b9a0f54-ccc7-4927-a34e-724652f6c2f0
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDirectManipulationViewportEventHandler interface [Direct Manipulation],OnContentUpdated method, IDirectManipulationViewportEventHandler.OnContentUpdated, IDirectManipulationViewportEventHandler::OnContentUpdated, OnContentUpdated, OnContentUpdated method [Direct Manipulation], OnContentUpdated method [Direct Manipulation],IDirectManipulationViewportEventHandler interface, directmanipulation.idirectmanipulationviewporteventhandler_oncontentupdated, directmanipulation/IDirectManipulationViewportEventHandler::OnContentUpdated
 ms.prod: windows-hardware
 ms.technology: windows-devices

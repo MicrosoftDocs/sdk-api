@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectsamplervariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectsamplervariable.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 5f4e0586-ee65-dc10-114c-2c07af8387a7, ID3D10EffectSamplerVariable, ID3D10EffectSamplerVariable interface [Direct3D 10], ID3D10EffectSamplerVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectSamplerVariable, direct3d10.id3d10effectsamplervariable
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_TranslateClip_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicstranslateclipmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Graphics.TranslateClip, Graphics.TranslateClip(IN INT,IN INT), Graphics::TranslateClip, Graphics::TranslateClip(IN INT,IN INT), TranslateClip, TranslateClip methods [GDI+], _gdiplus_CLASS_Graphics_TranslateClip_Methods, gdiplus._gdiplus_CLASS_Graphics_TranslateClip_Methods, gdiplusgraphics/TranslateClip
 ms.prod: windows-hardware
 ms.technology: windows-devices

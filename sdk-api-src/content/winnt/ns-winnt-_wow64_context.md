@@ -4,10 +4,10 @@ title: "_WOW64_CONTEXT"
 author: windows-sdk-content
 description: Represents a context frame on WOW64.
 old-location: base\wow64_context.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: b27205a2-2c33-4f45-8948-9919bcd2355a
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWOW64_CONTEXT, PWOW64_CONTEXT, PWOW64_CONTEXT structure pointer, WOW64_CONTEXT, WOW64_CONTEXT structure, _WOW64_CONTEXT, base.wow64_context, winnt/PWOW64_CONTEXT, winnt/WOW64_CONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk

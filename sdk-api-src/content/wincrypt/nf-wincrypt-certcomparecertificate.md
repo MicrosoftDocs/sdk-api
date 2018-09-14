@@ -7,7 +7,7 @@ old-location: security\certcomparecertificate.htm
 tech.root: seccrypto
 ms.assetid: b485fa81-b927-4f0c-bde1-075f36c76d9a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CertCompareCertificate, CertCompareCertificate function [Security], _crypto2_certcomparecertificate, security.certcomparecertificate, wincrypt/CertCompareCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

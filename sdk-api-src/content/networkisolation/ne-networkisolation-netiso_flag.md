@@ -4,10 +4,10 @@ title: NETISO_FLAG
 author: windows-sdk-content
 description: Specifies whether binaries should be returned for app containers.
 old-location: ics\netiso_flag.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 0e07c3ed-0561-453d-b92a-cd0db07ea5cf
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: NETISO_FLAG, NETISO_FLAG enumeration [ICS/ICF], NETISO_FLAG_FORCE_COMPUTE_BINARIES, NETISO_FLAG_MAX, ics.netiso_flag, networkisolation/NETISO_FLAG, networkisolation/NETISO_FLAG_FORCE_COMPUTE_BINARIES, networkisolation/NETISO_FLAG_MAX
 ms.prod: windows
 ms.technology: windows-sdk

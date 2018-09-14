@@ -4,10 +4,10 @@ title: "_MIB_ANYCASTIPADDRESS_ROW"
 author: windows-sdk-content
 description: Stores information about an anycast IP address.
 old-location: mib\mib_anycastipaddress_row.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: bdbe43b8-88aa-48af-aa6b-c88c4e8e404e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMIB_ANYCASTIPADDRESS_ROW, MIB_ANYCASTIPADDRESS_ROW, MIB_ANYCASTIPADDRESS_ROW structure [MIB], PMIB_ANYCASTIPADDRESS_ROW, PMIB_ANYCASTIPADDRESS_ROW structure pointer [MIB], _MIB_ANYCASTIPADDRESS_ROW, mib.mib_anycastipaddress_row, netioapi/MIB_ANYCASTIPADDRESS_ROW, netioapi/PMIB_ANYCASTIPADDRESS_ROW"
 ms.prod: windows
 ms.technology: windows-sdk

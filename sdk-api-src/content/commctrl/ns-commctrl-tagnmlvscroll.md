@@ -4,10 +4,10 @@ title: tagNMLVSCROLL
 author: windows-sdk-content
 description: Provides information about a scrolling operation.
 old-location: controls\NMLVSCROLL.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvscroll.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*LPNMLVSCROLL, LPNMLVSCROLL, LPNMLVSCROLL structure pointer [Windows Controls], NMLVSCROLL, NMLVSCROLL structure [Windows Controls], commctrl/LPNMLVSCROLL, commctrl/NMLVSCROLL, controls.NMLVSCROLL, controls.inet_NMLVSCROLL, inet_NMLVSCROLL, inet_NMLVSCROLL_cpp, tagNMLVSCROLL"
 ms.prod: windows
 ms.technology: windows-sdk

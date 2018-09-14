@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreenbase_createaction.htm
 tech.root: fsrm
 ms.assetid: 1d627e07-fa8c-4c22-acba-c08767b8ebaa
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: CreateAction, CreateAction method [File Server Resource Manager], CreateAction method [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],CreateAction method, IFsrmFileScreenBase.CreateAction, IFsrmFileScreenBase::CreateAction, fs.ifsrmfilescreenbase_createaction, fsrm.ifsrmfilescreenbase_createaction, fsrmscreen/IFsrmFileScreenBase::CreateAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

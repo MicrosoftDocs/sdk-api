@@ -4,10 +4,10 @@ title: D2D1_RENDERING_CONTROLS
 author: windows-sdk-content
 description: Describes limitations to be applied to an imaging effect renderer.
 old-location: direct2d\d2d1_rendering_controls.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e563cbb0-2ee0-43d8-978c-0bde1950a926
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D2D1_RENDERING_CONTROLS, D2D1_RENDERING_CONTROLS structure [Direct2D], PD2D1_RENDERING_CONTROLS, PD2D1_RENDERING_CONTROLS structure pointer [Direct2D], d2d1_1/D2D1_RENDERING_CONTROLS, d2d1_1/PD2D1_RENDERING_CONTROLS, direct2d.d2d1_rendering_controls
 ms.prod: windows
 ms.technology: windows-sdk

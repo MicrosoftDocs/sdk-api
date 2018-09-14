@@ -7,7 +7,7 @@ old-location: adsi\iadsdomain.htm
 tech.root: ADSI
 ms.assetid: 9d4b1e9c-93b1-4aee-b20d-a7693fd0a61b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsDomain, IADsDomain interface [ADSI], IADsDomain interface [ADSI],described, _ds_iadsdomain, adsi.iadsdomain, iads/IADsDomain
 ms.prod: windows
 ms.technology: windows-sdk

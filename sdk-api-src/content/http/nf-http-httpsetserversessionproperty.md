@@ -4,10 +4,10 @@ title: HttpSetServerSessionProperty function
 author: windows-sdk-content
 description: Sets a new server session property or modifies an existing property on the specified server session.
 old-location: http\httpsetserversessionproperty.htm
-tech.root: http
+tech.root: Http
 ms.assetid: d655832c-68a1-42d1-ac91-964884bf2dac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetServerSessionProperty, HttpSetServerSessionProperty function [HTTP], http.httpsetserversessionproperty, http/HttpSetServerSessionProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

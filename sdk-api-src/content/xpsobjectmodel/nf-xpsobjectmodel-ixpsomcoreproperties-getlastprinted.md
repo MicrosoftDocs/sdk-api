@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getlastprinted.htm
 tech.root: printdocs
 ms.assetid: c7e4b994-ec4f-415d-a340-813f00adba19
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetLastPrinted, GetLastPrinted method [XPS Documents and Packaging], GetLastPrinted method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetLastPrinted method, IXpsOMCoreProperties.GetLastPrinted, IXpsOMCoreProperties::GetLastPrinted, xps.ixpsomcoreproperties_getlastprinted, xpsobjectmodel/IXpsOMCoreProperties::GetLastPrinted
 ms.prod: windows-hardware
 ms.technology: windows-devices

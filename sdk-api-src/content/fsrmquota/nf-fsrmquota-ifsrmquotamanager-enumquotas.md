@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotamanager_enumquotas.htm
 tech.root: fsrm
 ms.assetid: 9977a519-4a6d-4b35-b973-4ef086e13e92
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: EnumQuotas, EnumQuotas method [File Server Resource Manager], EnumQuotas method [File Server Resource Manager],FsrmQuotaManager class, EnumQuotas method [File Server Resource Manager],IFsrmQuotaManager interface, EnumQuotas method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],EnumQuotas method, IFsrmQuotaManager interface [File Server Resource Manager],EnumQuotas method, IFsrmQuotaManager.EnumQuotas, IFsrmQuotaManager::EnumQuotas, IFsrmQuotaManagerEx interface [File Server Resource Manager],EnumQuotas method, IFsrmQuotaManagerEx::EnumQuotas, fs.ifsrmquotamanager_enumquotas, fsrm.ifsrmquotamanager_enumquotas, fsrmquota/IFsrmQuotaManager::EnumQuotas, fsrmquota/IFsrmQuotaManagerEx::EnumQuotas
 ms.prod: windows-hardware
 ms.technology: windows-devices

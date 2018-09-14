@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Intersect_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectintersectmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Intersect, Intersect methods [GDI+], Rect.Intersect, Rect.Intersect(IN const Rect &), Rect::Intersect, Rect::Intersect(IN const Rect &), _gdiplus_CLASS_Rect_Intersect_Methods, gdiplus._gdiplus_CLASS_Rect_Intersect_Methods, gdiplustypes/Intersect
 ms.prod: windows-hardware
 ms.technology: windows-devices

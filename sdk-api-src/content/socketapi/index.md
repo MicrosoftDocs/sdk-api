@@ -2,7 +2,7 @@
 UID: NA:socketapi
 ms.assetid: 22dea50b-6621-3997-8b6d-dd5df9778d77
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

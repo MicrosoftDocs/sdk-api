@@ -7,7 +7,7 @@ old-location: mf\itoc_getentrylistcount.htm
 tech.root: medfound
 ms.assetid: 38348080-e188-4d58-8d46-dc954da398e6
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: GetEntryListCount, GetEntryListCount method [Media Foundation], GetEntryListCount method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetEntryListCount method, IToc.GetEntryListCount, IToc::GetEntryListCount, codecapi.itoc_getentrylistcount, mf.itoc_getentrylistcount, wmcodecdsp/IToc::GetEntryListCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

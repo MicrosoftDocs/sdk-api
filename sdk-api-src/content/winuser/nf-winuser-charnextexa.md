@@ -7,7 +7,7 @@ old-location: menurc\charnextexa.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charnextexa.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CharNextExA, CharNextExA function [Menus and Other Resources], _win32_CharNextExA, _win32_charnextexa_cpp, menurc.charnextexa, winui._win32_charnextexa, winuser/CharNextExA
 ms.prod: windows-hardware
 ms.technology: windows-devices

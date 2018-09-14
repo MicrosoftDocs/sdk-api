@@ -4,10 +4,10 @@ title: IAudioDeviceEndpoint::GetEventDrivenCapable
 author: windows-sdk-content
 description: Indicates whether the device endpoint is event driven. The device endpoint controls the period of the audio engine by setting events that signal buffer availability.
 old-location: termserv\iaudiodeviceendpoint_geteventdrivencapable.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 56ed44ee-44dd-4a56-a4cc-2983d4802773
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetEventDrivenCapable, GetEventDrivenCapable method [Remote Desktop Services], GetEventDrivenCapable method [Remote Desktop Services],IAudioDeviceEndpoint interface, IAudioDeviceEndpoint interface [Remote Desktop Services],GetEventDrivenCapable method, IAudioDeviceEndpoint.GetEventDrivenCapable, IAudioDeviceEndpoint::GetEventDrivenCapable, audioengineendpoint/IAudioDeviceEndpoint::GetEventDrivenCapable, termserv.iaudiodeviceendpoint_geteventdrivencapable
 ms.prod: windows-hardware
 ms.technology: windows-devices

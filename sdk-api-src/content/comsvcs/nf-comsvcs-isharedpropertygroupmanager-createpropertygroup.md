@@ -7,7 +7,7 @@ old-location: cos\isharedpropertygroupmanager_createpropertygroup.htm
 tech.root: cossdk
 ms.assetid: 19c954cb-1a3b-4063-a09b-54906ae1613d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: CreatePropertyGroup, CreatePropertyGroup method [COM+], CreatePropertyGroup method [COM+],ISharedPropertyGroupManager interface, ISharedPropertyGroupManager interface [COM+],CreatePropertyGroup method, ISharedPropertyGroupManager.CreatePropertyGroup, ISharedPropertyGroupManager::CreatePropertyGroup, _cos_ISharedPropertyGroupManager_CreatePropertyGroup, comsvcs/ISharedPropertyGroupManager::CreatePropertyGroup, cos.isharedpropertygroupmanager_createpropertygroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

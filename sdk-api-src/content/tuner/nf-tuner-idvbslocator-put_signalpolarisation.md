@@ -4,10 +4,10 @@ title: IDVBSLocator::put_SignalPolarisation
 author: windows-sdk-content
 description: The put_SignalPolarisation method sets the signal polarisation.
 old-location: mstv\idvbslocator_put_signalpolarisation.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: cc94c956-6895-451a-8d1c-2001a6fbec63
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_SignalPolarisation method, IDVBSLocator.put_SignalPolarisation, IDVBSLocator::put_SignalPolarisation, IDVBSLocatorput_SignalPolarisation, mstv.idvbslocator_put_signalpolarisation, put_SignalPolarisation, put_SignalPolarisation method [Microsoft TV Technologies], put_SignalPolarisation method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_SignalPolarisation
 ms.prod: windows-hardware
 ms.technology: windows-devices

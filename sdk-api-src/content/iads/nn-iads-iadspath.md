@@ -7,7 +7,7 @@ old-location: adsi\iadspath.htm
 tech.root: ADSI
 ms.assetid: e588195c-eb4f-48d3-a2fa-777dd6dc2901
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsPath, IADsPath interface [ADSI], IADsPath interface [ADSI],described, _ds_iadspath, adsi.iadspath, iads/IADsPath
 ms.prod: windows
 ms.technology: windows-sdk

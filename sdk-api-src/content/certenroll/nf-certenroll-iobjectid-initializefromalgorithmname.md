@@ -4,10 +4,10 @@ title: IObjectId::InitializeFromAlgorithmName
 author: windows-sdk-content
 description: Initializes the object from an algorithm name or an object identifier.
 old-location: security\iobjectid_initializefromalgorithmname_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: ba8c1f11-9380-43a9-b444-b0fff114a176
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IObjectId interface [Security],InitializeFromAlgorithmName method, IObjectId.InitializeFromAlgorithmName, IObjectId::InitializeFromAlgorithmName, InitializeFromAlgorithmName, InitializeFromAlgorithmName method [Security], InitializeFromAlgorithmName method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromAlgorithmName, security.iobjectid_initializefromalgorithmname_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

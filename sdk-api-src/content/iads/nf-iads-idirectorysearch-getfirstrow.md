@@ -7,7 +7,7 @@ old-location: adsi\idirectorysearch_getfirstrow.htm
 tech.root: ADSI
 ms.assetid: 99ece6d1-3963-40bc-993e-f03aa9039c2d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetFirstRow, GetFirstRow method [ADSI], GetFirstRow method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetFirstRow method, IDirectorySearch.GetFirstRow, IDirectorySearch::GetFirstRow, _ds_idirectorysearch_getfirstrow, adsi.idirectorysearch__getfirstrow, adsi.idirectorysearch_getfirstrow, iads/IDirectorySearch::GetFirstRow
 ms.prod: windows-hardware
 ms.technology: windows-devices

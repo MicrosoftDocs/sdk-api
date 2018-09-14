@@ -7,7 +7,7 @@ old-location: p2p\peercollabregisterapplication.htm
 tech.root: p2psdk
 ms.assetid: 962982a6-171f-4c13-ae03-84698482dea4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerCollabRegisterApplication, PeerCollabRegisterApplication function [Peer Networking], p2p.peercollabregisterapplication, p2p/PeerCollabRegisterApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

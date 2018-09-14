@@ -7,7 +7,7 @@ old-location: base\rtwqjoinworkqueue.htm
 tech.root: procthread
 ms.assetid: c7762a10-269e-48c0-83da-7e040cf9d083
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 09/13/2018
 ms.keywords: RtwqJoinWorkQueue, RtwqJoinWorkQueue function, base.rtwqjoinworkqueue, rtworkq/RtwqJoinWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

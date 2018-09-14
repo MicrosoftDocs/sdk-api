@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioclient_getnativestaticobjecttypemask.htm
 tech.root: CoreAudio
 ms.assetid: 29963682-AD45-4CEC-81A0-4B834505F9D5
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetNativeStaticObjectTypeMask, GetNativeStaticObjectTypeMask method [Core Audio], GetNativeStaticObjectTypeMask method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetNativeStaticObjectTypeMask method, ISpatialAudioClient.GetNativeStaticObjectTypeMask, ISpatialAudioClient::GetNativeStaticObjectTypeMask, coreaudio.ispatialaudioclient_getnativestaticobjecttypemask, spatialaudioclient/ISpatialAudioClient::GetNativeStaticObjectTypeMask
 ms.prod: windows-hardware
 ms.technology: windows-devices

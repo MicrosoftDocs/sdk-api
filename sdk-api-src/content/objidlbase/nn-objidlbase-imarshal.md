@@ -7,7 +7,7 @@ old-location: com\imarshal.htm
 tech.root: com
 ms.assetid: e6f08949-f27d-4aba-adff-eaf9c356a928
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IMarshal, IMarshal interface [COM], IMarshal interface [COM],described, _com_imarshal, com.imarshal, objidlbase/IMarshal
 ms.prod: windows
 ms.technology: windows-sdk

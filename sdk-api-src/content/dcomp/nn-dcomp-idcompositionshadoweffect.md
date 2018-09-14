@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionshadoweffect.htm
 tech.root: directcomp
 ms.assetid: 115FD667-64D2-4538-9EB4-B133D5DCAF30
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionShadowEffect, IDCompositionShadowEffect interface [DirectComposition], IDCompositionShadowEffect interface [DirectComposition],described, dcomp/IDCompositionShadowEffect, directcomp.idcompositionshadoweffect
 ms.prod: windows
 ms.technology: windows-sdk

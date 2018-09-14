@@ -7,7 +7,7 @@ old-location: dedup\idedupreadfilecallback_previewcontainerread.htm
 tech.root: dedup
 ms.assetid: A3AFB530-ED97-4BEC-BF9D-668115E36A36
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],PreviewContainerRead method, IDedupReadFileCallback.PreviewContainerRead, IDedupReadFileCallback::PreviewContainerRead, PreviewContainerRead, PreviewContainerRead method [Data Deduplication API], PreviewContainerRead method [Data Deduplication API],IDedupReadFileCallback interface, ddpbackup/IDedupReadFileCallback::PreviewContainerRead, dedup.idedupreadfilecallback_previewcontainerread
 ms.prod: windows-hardware
 ms.technology: windows-devices

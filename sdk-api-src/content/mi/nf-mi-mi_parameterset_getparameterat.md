@@ -4,10 +4,10 @@ title: MI_ParameterSet_GetParameterAt function
 author: windows-sdk-content
 description: Gets a method's parameter information at the specified index.
 old-location: wmi_v2\mi_parameterset_getparameterat.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: fcfd7104-dd63-4a48-9a20-dcec0dc33242
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_ParameterSet_GetParameterAt, MI_ParameterSet_GetParameterAt function [Windows Management Infrastructure (MI)], mi/MI_ParameterSet_GetParameterAt, wmi_v2.mi_parameterset_getparameterat
 ms.prod: windows-hardware
 ms.technology: windows-devices

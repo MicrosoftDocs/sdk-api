@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothfindradioclose.htm
 tech.root: bluetooth
 ms.assetid: 859771b1-d06c-414b-81cb-bb3913fd0380
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: BluetoothFindRadioClose, BluetoothFindRadioClose function [Bluetooth], bluetooth.bluetoothfindradioclose, bluetoothapis/BluetoothFindRadioClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

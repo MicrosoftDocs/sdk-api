@@ -4,10 +4,10 @@ title: DhcpHlprIsV4PolicySingleUC function
 author: windows-sdk-content
 description: Verifies that a DHCP server policy is based on a single user class.
 old-location: dhcp\dhcphlprisv4policysingleuc.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 46c20727-0e7a-42cf-a571-c1198b124ed0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpHlprIsV4PolicySingleUC, DhcpHlprIsV4PolicySingleUC function [DHCP], dhcp.dhcphlprisv4policysingleuc, dhcpsapi/DhcpHlprIsV4PolicySingleUC
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IPSEC_TRAFFIC1_
 author: windows-sdk-content
 description: Specifies parameters to describe IPsec traffic.
 old-location: fwp\ipsec_traffic1_struct.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 2a3ad63f-9fa1-41c7-b628-5fe4e17ce7ac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPSEC_TRAFFIC1, IPSEC_TRAFFIC1 structure [Filtering], IPSEC_TRAFFIC1_, fwp.ipsec_traffic1_struct, ipsectypes/IPSEC_TRAFFIC1
 ms.prod: windows
 ms.technology: windows-sdk

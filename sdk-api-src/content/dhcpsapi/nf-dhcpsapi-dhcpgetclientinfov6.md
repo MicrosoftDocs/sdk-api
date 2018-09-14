@@ -4,10 +4,10 @@ title: DhcpGetClientInfoV6 function
 author: windows-sdk-content
 description: Retrieves IPv6 address lease information for a specific IPv6 client reservation from the DHCPv6 server.
 old-location: dhcp\dhcpgetclientinfov6.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 6ed68064-9f12-472e-8647-87cc50345199
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpGetClientInfoV6, DhcpGetClientInfoV6 function [DHCP], dhcp.dhcpgetclientinfov6, dhcpsapi/DhcpGetClientInfoV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_pauseapplicationinstances.htm
 tech.root: cossdk
 ms.assetid: 59771a5d-894b-46de-9874-ece4aca7232f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],PauseApplicationInstances method, ICOMAdminCatalog2.PauseApplicationInstances, ICOMAdminCatalog2::PauseApplicationInstances, PauseApplicationInstances, PauseApplicationInstances method [COM+], PauseApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_PauseApplicationInstances, comadmin/ICOMAdminCatalog2::PauseApplicationInstances, cos.icomadmincatalog2_pauseapplicationinstances
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: FwpmSubLayerGetByKey0 function
 author: windows-sdk-content
 description: Retrieves a sublayer by its key.
 old-location: fwp\fwpmsublayergetbykey0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: 3435b4fb-abea-43cc-b1a9-a8bea673d72e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FwpmSubLayerGetByKey0, FwpmSubLayerGetByKey0 function [Filtering], fwp.fwpmsublayergetbykey0_func, fwpmu/FwpmSubLayerGetByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

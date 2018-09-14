@@ -4,10 +4,10 @@ title: ITuner::get_TuneRequest
 author: windows-sdk-content
 description: The get_TuneRequest method gets the tune request currently in effect for the Network Provider.
 old-location: mstv\ituner_get_tunerequest.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 45967073-2e09-4490-967f-4ed3c9ed1d7e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_TuneRequest method, ITuner.get_TuneRequest, ITuner::get_TuneRequest, ITunerget_TuneRequest, get_TuneRequest, get_TuneRequest method [Microsoft TV Technologies], get_TuneRequest method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_tunerequest, tuner/ITuner::get_TuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

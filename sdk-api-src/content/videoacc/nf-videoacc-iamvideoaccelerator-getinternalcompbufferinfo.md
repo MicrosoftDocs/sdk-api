@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_getinternalcompbufferinfo.htm
 tech.root: DirectShow
 ms.assetid: b60c6bf7-6cb6-4a82-bec4-7f1662d4ee95
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: GetInternalCompBufferInfo, GetInternalCompBufferInfo method [DirectShow], GetInternalCompBufferInfo method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetInternalCompBufferInfo method, IAMVideoAccelerator.GetInternalCompBufferInfo, IAMVideoAccelerator::GetInternalCompBufferInfo, IAMVideoAcceleratorGetInternalCompBufferInfo, dshow.iamvideoaccelerator_getinternalcompbufferinfo, videoacc/IAMVideoAccelerator::GetInternalCompBufferInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

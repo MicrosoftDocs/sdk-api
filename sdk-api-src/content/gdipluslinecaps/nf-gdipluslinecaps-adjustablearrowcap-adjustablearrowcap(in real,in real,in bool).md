@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_heigh
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcap_91height_width_isfilled.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: AdjustableArrowCap, AdjustableArrowCap class [GDI+],AdjustableArrowCap constructor, AdjustableArrowCap constructor [GDI+], AdjustableArrowCap constructor [GDI+],AdjustableArrowCap class, AdjustableArrowCap.AdjustableArrowCap, AdjustableArrowCap.AdjustableArrowCap(IN REAL,IN REAL,IN BOOL), AdjustableArrowCap::AdjustableArrowCap, AdjustableArrowCap::AdjustableArrowCap(IN REAL,IN REAL,IN BOOL), _gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_height_width_isFilled_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_height_width_isFilled_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_WLAN_CONNECTION_ATTRIBUTES"
 author: windows-sdk-content
 description: Defines the attributes of a wireless connection.
 old-location: nwifi\wlan_connection_attributes.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 91b8058d-faf6-46ee-a03b-f762e9cdae4d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES structure pointer [NativeWIFI], WLAN_CONNECTION_ATTRIBUTES, WLAN_CONNECTION_ATTRIBUTES structure [NativeWIFI], _WLAN_CONNECTION_ATTRIBUTES, nwifi.wlan_connection_attributes, wlanapi/PWLAN_CONNECTION_ATTRIBUTES, wlanapi/WLAN_CONNECTION_ATTRIBUTES"
 ms.prod: windows
 ms.technology: windows-sdk

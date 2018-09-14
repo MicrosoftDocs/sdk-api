@@ -4,10 +4,10 @@ title: IIsdbSiParser2::GetEMM
 author: windows-sdk-content
 description: Gets the entitlement management message (EMM) table from an Integrated Services Digital Broadcast (ISDB) transport stream.
 old-location: mstv\iisdbsiparser2_getemm.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9dc2aaa9-50f0-4c72-a252-3757a1aa13b7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetEMM, GetEMM method [Microsoft TV Technologies], GetEMM method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetEMM method, IIsdbSiParser2.GetEMM, IIsdbSiParser2::GetEMM, dvbsiparser/IIsdbSiParser2::GetEMM, mstv.iisdbsiparser2_getemm
 ms.prod: windows-hardware
 ms.technology: windows-devices

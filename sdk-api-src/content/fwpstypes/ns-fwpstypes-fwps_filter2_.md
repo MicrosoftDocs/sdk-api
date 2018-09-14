@@ -4,10 +4,10 @@ title: FWPS_FILTER2_
 author: windows-sdk-content
 description: The FWPS_FILTER2 structure defines a run-time filter in the filter engine.Note  FWPS_FILTER2 is the specific version of FWPS_FILTER used in Windows 8 and later.
 old-location: netvista\fwps_filter2.htm
-tech.root: netvista
+tech.root: NetVista
 ms.assetid: 2be2c82b-5b7c-4027-b2a1-f43d2b27b860
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: FWPS_FILTER2, FWPS_FILTER2 structure [Network Drivers Starting with Windows Vista], FWPS_FILTER2_, FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT, FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED, fwpstypes/FWPS_FILTER2, netvista.fwps_filter2
 ms.prod: windows
 ms.technology: windows-sdk

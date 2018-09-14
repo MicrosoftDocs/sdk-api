@@ -7,7 +7,7 @@ old-location: automat\itypelib.htm
 tech.root: automat
 ms.assetid: c1e5d71f-6a4e-45f3-811d-f57024f81a55
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITypeLib, ITypeLib interface [Automation], ITypeLib interface [Automation],described, _oa96_ITypeLib_Interface, automat.itypelib, oaidl/ITypeLib
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devinst\busnumber_range.htm
 tech.root: devinst
 ms.assetid: 00b9bcd3-f1fe-4853-a6fb-0ac8b1fffa1b
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: "*PBUSNUMBER_RANGE, BUSNUMBER_RANGE, BUSNUMBER_RANGE structure [Device and Driver Installation], BusNumber_Range_s, PBUSNUMBER_RANGE, PBUSNUMBER_RANGE structure pointer [Device and Driver Installation], cfgmgr32/BUSNUMBER_RANGE, cfgmgr32/PBUSNUMBER_RANGE, cfgmgrst_6d1e1291-b14d-4eca-9647-014001edd50a.xml, devinst.busnumber_range"
 ms.prod: windows
 ms.technology: windows-sdk

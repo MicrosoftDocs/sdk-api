@@ -4,10 +4,10 @@ title: ITuneRequest
 author: windows-sdk-content
 description: The ITuneRequest interface is the base interface for all tune requests.
 old-location: mstv\itunerequest.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 34077b45-32b4-466b-b103-6a42fc869265
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ITuneRequest, ITuneRequest interface [Microsoft TV Technologies], ITuneRequest interface [Microsoft TV Technologies],described, ITuneRequestInterface, mstv.itunerequest, tuner/ITuneRequest
 ms.prod: windows
 ms.technology: windows-sdk

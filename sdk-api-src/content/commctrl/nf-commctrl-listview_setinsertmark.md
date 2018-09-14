@@ -4,10 +4,10 @@ title: ListView_SetInsertMark macro
 author: windows-sdk-content
 description: Sets the insertion point to the defined position. You can use this macro or send the LVM_SETINSERTMARK message explicitly.
 old-location: controls\ListView_SetInsertMark.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setinsertmark.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ListView_SetInsertMark, ListView_SetInsertMark macro [Windows Controls], _win32_ListView_SetInsertMark, _win32_ListView_SetInsertMark_cpp, commctrl/ListView_SetInsertMark, controls.ListView_SetInsertMark, controls._win32_ListView_SetInsertMark
 ms.prod: windows-hardware
 ms.technology: windows-devices

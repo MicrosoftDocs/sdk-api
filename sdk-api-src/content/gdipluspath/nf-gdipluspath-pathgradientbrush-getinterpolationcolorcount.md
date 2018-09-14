@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetInterpolationColorCoun
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getinterpolationcolorcount_80.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: GetInterpolationColorCount, GetInterpolationColorCount method [GDI+], GetInterpolationColorCount method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetInterpolationColorCount method, PathGradientBrush.GetInterpolationColorCount, PathGradientBrush::GetInterpolationColorCount, _gdiplus_CLASS_PathGradientBrush_GetInterpolationColorCount_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetInterpolationColorCount_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\mappingfreepropertybag.htm
 tech.root: Intl
 ms.assetid: 7e06e85d-109a-4c5f-be18-3750e25c4986
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/30/2018
 ms.keywords: MappingFreePropertyBag, MappingFreePropertyBag function [Internationalization for Windows Applications], elscore/MappingFreePropertyBag, intl.mappingfreepropertybag
 ms.prod: windows-hardware
 ms.technology: windows-devices

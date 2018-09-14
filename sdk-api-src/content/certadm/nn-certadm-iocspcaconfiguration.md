@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration.htm
 tech.root: seccrypto
 ms.assetid: 57900e1e-9c51-4c1b-aa42-634b6c3a9999
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], IOCSPCAConfiguration interface [Security],described, certadm/IOCSPCAConfiguration, security.iocspcaconfiguration
 ms.prod: windows
 ms.technology: windows-sdk

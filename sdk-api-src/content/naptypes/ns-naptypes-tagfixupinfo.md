@@ -4,10 +4,10 @@ title: tagFixupInfo
 author: windows-sdk-content
 description: Contains fix-up information for the Sysytem Health Agent (SHA).
 old-location: nap\fixupinfo_struct.htm
-tech.root: nap
+tech.root: NAP
 ms.assetid: 8f91534e-3281-4d5a-9af7-5f08eb0243f0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: FixupInfo, FixupInfo structure [NAP], nap.fixupinfo_struct, naptypes/FixupInfo, tagFixupInfo
 ms.prod: windows
 ms.technology: windows-sdk

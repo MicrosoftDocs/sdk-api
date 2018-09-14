@@ -7,7 +7,7 @@ old-location: mf\mfp_rate_set_event.htm
 tech.root: medfound
 ms.assetid: 19e3bcb0-340a-46dc-bfda-62890ec9a8ae
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: MFP_RATE_SET_EVENT, MFP_RATE_SET_EVENT structure [Media Foundation], mf.mfp_rate_set_event, mfplay/MFP_RATE_SET_EVENT
 ms.prod: windows
 ms.technology: windows-sdk

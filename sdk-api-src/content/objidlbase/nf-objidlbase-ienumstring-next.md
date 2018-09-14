@@ -7,7 +7,7 @@ old-location: com\ienumstring_next.htm
 tech.root: com
 ms.assetid: e08edeac-92c3-4947-9f55-224aab237453
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IEnumString interface [COM],Next method, IEnumString.Next, IEnumString::Next, Next, Next method [COM], Next method [COM],IEnumString interface, _com_ienumstring_next, com.ienumstring_next, objidlbase/IEnumString::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

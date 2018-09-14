@@ -7,7 +7,7 @@ old-location: inputdev\getactivewindow.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getactivewindow.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetActiveWindow, GetActiveWindow function [Keyboard and Mouse Input], _win32_GetActiveWindow, _win32_getactivewindow_cpp, inputdev.getactivewindow, winui._win32_getactivewindow, winuser/GetActiveWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

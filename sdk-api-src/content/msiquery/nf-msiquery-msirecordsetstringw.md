@@ -7,7 +7,7 @@ old-location: setup\msirecordsetstring.htm
 tech.root: msi
 ms.assetid: 225454be-b653-4679-ae77-2280bd3c8d69
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: MsiRecordSetString, MsiRecordSetString function, MsiRecordSetStringA, MsiRecordSetStringW, _msi_msirecordsetstring, msiquery/MsiRecordSetString, msiquery/MsiRecordSetStringA, msiquery/MsiRecordSetStringW, setup.msirecordsetstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

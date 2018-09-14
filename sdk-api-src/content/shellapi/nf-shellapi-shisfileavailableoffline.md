@@ -7,7 +7,7 @@ old-location: shell\SHIsFileAvailableOffline.htm
 tech.root: shell
 ms.assetid: 9acf212d-9309-42b0-ba96-faa0ecf0b865
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: OFFLINE_STATUS_INCOMPLETE, OFFLINE_STATUS_LOCAL, OFFLINE_STATUS_REMOTE, SHIsFileAvailableOffline, SHIsFileAvailableOffline function [Windows Shell], shell.SHIsFileAvailableOffline, shell_shisfileavailableoffline, shellapi/SHIsFileAvailableOffline
 ms.prod: windows-hardware
 ms.technology: windows-devices

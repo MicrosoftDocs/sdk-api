@@ -4,10 +4,10 @@ title: ICreatePropBagOnRegKey
 author: windows-sdk-content
 description: The ICreatePropBagOnRegKey interface creates a property bag that can store information in the system registry.Use this interface to store the default tune request in the registry.
 old-location: mstv\icreatepropbagonregkey.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: f634a04f-911f-4d53-be70-d5dbf2395ce5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ICreatePropBagOnRegKey, ICreatePropBagOnRegKey interface [Microsoft TV Technologies], ICreatePropBagOnRegKey interface [Microsoft TV Technologies],described, ICreatePropBagOnRegKeyInterface, mstv.icreatepropbagonregkey, regbag/ICreatePropBagOnRegKey
 ms.prod: windows
 ms.technology: windows-sdk

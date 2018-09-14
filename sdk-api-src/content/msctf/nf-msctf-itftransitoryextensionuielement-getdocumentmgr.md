@@ -7,7 +7,7 @@ old-location: tsf\itftransitoryextensionuielement_getdocumentmgr.htm
 tech.root: TSF
 ms.assetid: 199598fc-09e8-4d3b-b460-c76a1e4ee623
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework],ITfTransitoryExtensionUIElement interface, ITfTransitoryExtensionUIElement interface [Text Services Framework],GetDocumentMgr method, ITfTransitoryExtensionUIElement.GetDocumentMgr, ITfTransitoryExtensionUIElement::GetDocumentMgr, msctf/ITfTransitoryExtensionUIElement::GetDocumentMgr, tsf.itftransitoryextensionuielement_getdocumentmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices

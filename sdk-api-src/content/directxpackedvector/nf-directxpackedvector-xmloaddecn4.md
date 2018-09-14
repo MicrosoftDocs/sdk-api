@@ -7,7 +7,7 @@ old-location: dxmath\xmloaddecn4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadDecN4(const XMDECN4)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: DirectX::PackedVector.XMLoadDecN4, XMLoadDecN4, XMLoadDecN4 method [DirectX Math Support APIs], dxmath.xmloaddecn4
 ms.prod: windows-hardware
 ms.technology: windows-devices

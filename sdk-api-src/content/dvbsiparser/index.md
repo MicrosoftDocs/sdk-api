@@ -2,7 +2,7 @@
 UID: NA:dvbsiparser
 ms.assetid: 6023ac95-b3bf-3b01-93d7-5e8986099aff
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

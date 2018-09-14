@@ -7,7 +7,7 @@ old-location: netmgmt\user_modals_info_1_str.htm
 tech.root: netmgmt
 ms.assetid: 2cb7f310-c76e-42fd-892c-fead374af16c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: "*LPUSER_MODALS_INFO_1, *PUSER_MODALS_INFO_1, LPUSER_MODALS_INFO_1, LPUSER_MODALS_INFO_1 structure pointer [Network Management], PUSER_MODALS_INFO_1, PUSER_MODALS_INFO_1 structure pointer [Network Management], UAS_ROLE_BACKUP, UAS_ROLE_MEMBER, UAS_ROLE_PRIMARY, UAS_ROLE_STANDALONE, USER_MODALS_INFO_1, USER_MODALS_INFO_1 structure [Network Management], _USER_MODALS_INFO_1, _win32_user_modals_info_1_str, lmaccess/LPUSER_MODALS_INFO_1, lmaccess/PUSER_MODALS_INFO_1, lmaccess/USER_MODALS_INFO_1, netmgmt.user_modals_info_1_str"
 ms.prod: windows
 ms.technology: windows-sdk

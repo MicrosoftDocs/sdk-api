@@ -4,10 +4,10 @@ title: ICryptAttributes::Clear
 author: windows-sdk-content
 description: Removes all ICryptAttribute objects from the collection.
 old-location: security\icryptattributes_clear_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 00d6c72d-0170-4174-9274-5fe217156f28
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],Clear method, ICryptAttributes.Clear, ICryptAttributes::Clear, certenroll/ICryptAttributes::Clear, security.icryptattributes_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

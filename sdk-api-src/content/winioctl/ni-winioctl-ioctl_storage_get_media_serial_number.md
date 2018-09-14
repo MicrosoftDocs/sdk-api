@@ -7,7 +7,7 @@ old-location: base\ioctl_storage_get_media_serial_number.htm
 tech.root: devio
 ms.assetid: 379c236d-c6f5-4a12-8adc-aa6377e81e6c
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control code, _win32_ioctl_storage_get_media_serial_number, base.ioctl_storage_get_media_serial_number, winioctl/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
 ms.prod: windows
 ms.technology: windows-sdk

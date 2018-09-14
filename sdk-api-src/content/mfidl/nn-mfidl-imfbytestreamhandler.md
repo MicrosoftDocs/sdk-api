@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamhandler.htm
 tech.root: medfound
 ms.assetid: 80c402d4-8246-42ee-a981-69c8d605cb0f
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 80c402d4-8246-42ee-a981-69c8d605cb0f, IMFByteStreamHandler, IMFByteStreamHandler interface [Media Foundation], IMFByteStreamHandler interface [Media Foundation],described, mf.imfbytestreamhandler, mfidl/IMFByteStreamHandler
 ms.prod: windows
 ms.technology: windows-sdk

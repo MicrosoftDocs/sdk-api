@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccesscheck.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_76i3.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: FaxAccessCheckA, FaxAccessCheckW, PFAXACCESSCHECK, PFAXACCESSCHECK callback, PFAXACCESSCHECK callback function [Fax Service], _mfax_faxaccesscheck, fax._mfax_faxaccesscheck, winfax/FaxAccessCheckA, winfax/FaxAccessCheckW, winfax/PFAXACCESSCHECK
 ms.prod: windows
 ms.technology: windows-sdk

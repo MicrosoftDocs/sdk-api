@@ -4,10 +4,10 @@ title: GetProcessHeap function
 author: windows-sdk-content
 description: Retrieves a handle to the default heap of the calling process.
 old-location: base\getprocessheap.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: ecd716b2-df48-4914-9de4-47d8ad8ff9a2
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetProcessHeap, GetProcessHeap function, _win32_getprocessheap, base.getprocessheap, heapapi/GetProcessHeap, winbase/GetProcessHeap
 ms.prod: windows-hardware
 ms.technology: windows-devices

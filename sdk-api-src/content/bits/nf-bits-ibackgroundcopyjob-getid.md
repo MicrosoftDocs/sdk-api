@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetId
 author: windows-sdk-content
 description: Retrieves the identifier used to identify the job in the queue.
 old-location: bits\ibackgroundcopyjob_getid.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: bc214b2e-fbf3-446e-abce-56e515dcfadf
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetId, GetId method [BITS], GetId method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetId method, IBackgroundCopyJob.GetId, IBackgroundCopyJob::GetId, _drz_ibackgroundcopyjob_getid, bits.ibackgroundcopyjob_getid, bits/IBackgroundCopyJob::GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices

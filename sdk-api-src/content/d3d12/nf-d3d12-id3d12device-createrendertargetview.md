@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createrendertargetview.htm
 tech.root: direct3d12
 ms.assetid: B5BFAE54-4FAC-47E5-A7F1-3F9E78FED3B4
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: CreateRenderTargetView, CreateRenderTargetView method, CreateRenderTargetView method,ID3D12Device interface, ID3D12Device interface,CreateRenderTargetView method, ID3D12Device.CreateRenderTargetView, ID3D12Device::CreateRenderTargetView, d3d12/ID3D12Device::CreateRenderTargetView, direct3d12.id3d12device_createrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices

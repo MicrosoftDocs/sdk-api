@@ -4,10 +4,10 @@ title: INetFwService::get_IpVersion
 author: windows-sdk-content
 description: Specifies the firewall IP version for which the service is authorized.
 old-location: ics\inetfwservice_ipversion.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 992f39f6-ffb7-40c0-9227-6e626f226313
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: INetFwService interface [ICS/ICF],IpVersion property, INetFwService.IpVersion, INetFwService.get_IpVersion, INetFwService::IpVersion, INetFwService::get_IpVersion, INetFwService::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF],INetFwService interface, get_IpVersion, ics.inetfwservice_ipversion, netfw/INetFwService::IpVersion, netfw/INetFwService::get_IpVersion, netfw/INetFwService::put_IpVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

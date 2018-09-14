@@ -4,10 +4,10 @@ title: IBDA_DiseqCommand::put_DiseqLNBSource
 author: windows-sdk-content
 description: Sets the low-noise block (LNB) converter source.
 old-location: mstv\ibda_diseqcommand_put_diseqlnbsource.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 09ed3d1d-026a-43b3-863b-a77260e082d8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: 0, 1, 2, 3, IBDA_DiseqCommand interface [Microsoft TV Technologies],put_DiseqLNBSource method, IBDA_DiseqCommand.put_DiseqLNBSource, IBDA_DiseqCommand::put_DiseqLNBSource, bdaiface/IBDA_DiseqCommand::put_DiseqLNBSource, mstv.ibda_diseqcommand_put_diseqlnbsource, put_DiseqLNBSource, put_DiseqLNBSource method [Microsoft TV Technologies], put_DiseqLNBSource method [Microsoft TV Technologies],IBDA_DiseqCommand interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

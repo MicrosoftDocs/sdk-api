@@ -7,7 +7,7 @@ old-location: mf\mfendregisterworkqueuewithmmcss.htm
 tech.root: medfound
 ms.assetid: 42d71e1a-a538-45d3-bbf4-1835db15bff9
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 42d71e1a-a538-45d3-bbf4-1835db15bff9, MFEndRegisterWorkQueueWithMMCSS, MFEndRegisterWorkQueueWithMMCSS function [Media Foundation], mf.mfendregisterworkqueuewithmmcss, mfapi/MFEndRegisterWorkQueueWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices

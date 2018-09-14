@@ -4,10 +4,10 @@ title: tagHyphenateInfo
 author: windows-sdk-content
 description: Contains information about hyphenation in a Microsoft Rich Edit control.
 old-location: controls\HYPHENATEINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\hyphenateinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: HYPHENATEINFO, HYPHENATEINFO structure [Windows Controls], _win32_HYPHENATEINFO_str, _win32_HYPHENATEINFO_str_cpp, controls.HYPHENATEINFO, controls._win32_HYPHENATEINFO_str, richedit/HYPHENATEINFO, tagHyphenateInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dwm\dwm_blurbehind.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\dwm_blurbehind.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PDWM_BLURBEHIND, DWM_BLURBEHIND, DWM_BLURBEHIND structure [Desktop Window Manager], PDWM_BLURBEHIND, PDWM_BLURBEHIND structure pointer [Desktop Window Manager], _DWM_BLURBEHIND, _udwm_dwm_blurbehind, _udwm_dwm_blurbehind_cpp, dwm.dwm_blurbehind, dwmapi/DWM_BLURBEHIND, dwmapi/PDWM_BLURBEHIND, winui._udwm_dwm_blurbehind"
 ms.prod: windows
 ms.technology: windows-sdk

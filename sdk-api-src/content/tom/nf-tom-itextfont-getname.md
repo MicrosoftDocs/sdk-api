@@ -4,10 +4,10 @@ title: ITextFont::GetName
 author: windows-sdk-content
 description: Gets the font name.
 old-location: controls\ITextFont_GetName.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetname.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetName, GetName method [Windows Controls], GetName method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetName method, ITextFont.GetName, ITextFont::GetName, _win32_ITextFont_GetName, _win32_ITextFont_GetName_cpp, controls.ITextFont_GetName, controls._win32_ITextFont_GetName, tom/ITextFont::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices

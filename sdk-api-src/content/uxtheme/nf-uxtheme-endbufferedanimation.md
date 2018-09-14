@@ -4,10 +4,10 @@ title: EndBufferedAnimation function
 author: windows-sdk-content
 description: Renders the first frame of a buffered animation operation and starts the animation timer.
 old-location: controls\EndBufferedAnimation.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endbufferedanimation.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: EndBufferedAnimation, EndBufferedAnimation function [Windows Controls], _shell_EndBufferedAnimation, _shell_EndBufferedAnimation_cpp, controls.EndBufferedAnimation, controls._shell_EndBufferedAnimation, uxtheme/EndBufferedAnimation
 ms.prod: windows-hardware
 ms.technology: windows-devices

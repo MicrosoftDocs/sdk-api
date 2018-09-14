@@ -7,7 +7,7 @@ old-location: mf\imfimagesharingengineclassfactory.htm
 tech.root: medfound
 ms.assetid: 7D6385BC-4D9C-4026-9363-0F6917A62BDE
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IMFImageSharingEngineClassFactory, IMFImageSharingEngineClassFactory interface [Media Foundation], IMFImageSharingEngineClassFactory interface [Media Foundation],described, mf.imfimagesharingengineclassfactory, mfsharingengine/IMFImageSharingEngineClassFactory
 ms.prod: windows
 ms.technology: windows-sdk

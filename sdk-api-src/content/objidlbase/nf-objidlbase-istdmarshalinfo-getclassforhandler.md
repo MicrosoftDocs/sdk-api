@@ -7,7 +7,7 @@ old-location: com\istdmarshalinfo_getclassforhandler.htm
 tech.root: com
 ms.assetid: ab68f292-851d-4908-b545-4df2931fceae
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: GetClassForHandler, GetClassForHandler method [COM], GetClassForHandler method [COM],IStdMarshalInfo interface, IStdMarshalInfo interface [COM],GetClassForHandler method, IStdMarshalInfo.GetClassForHandler, IStdMarshalInfo::GetClassForHandler, _com_istdmarshalinfo_getclassforhandler, com.istdmarshalinfo_getclassforhandler, objidlbase/IStdMarshalInfo::GetClassForHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IWorkspaceResTypeRegistry
 author: windows-sdk-content
 description: Exposes methods that allow a plug-in to manage third-party file name extensions in RemoteApp and Desktop Connection runtime.
 old-location: termserv\iworkspacerestyperegistry.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: bea617a0-cd64-4c77-af27-b418178e3dad
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWorkspaceResTypeRegistry, IWorkspaceResTypeRegistry interface [Remote Desktop Services], IWorkspaceResTypeRegistry interface [Remote Desktop Services],described, termserv.iworkspacerestyperegistry, workspaceax/IWorkspaceResTypeRegistry
 ms.prod: windows
 ms.technology: windows-sdk

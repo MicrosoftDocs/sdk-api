@@ -4,10 +4,10 @@ title: NtCurrentTeb function
 author: windows-sdk-content
 description: The NtCurrentTeb routine returns a pointer to the Thread Environment Block (TEB) of the current thread.
 old-location: kernel\ntcurrentteb.htm
-tech.root: kernel
+tech.root: Kernel
 ms.assetid: EB68E76F-F838-40B7-AD23-5897321F354F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: NtCurrentTeb, NtCurrentTeb routine [Kernel-Mode Driver Architecture], kernel.ntcurrentteb, winnt/NtCurrentTeb
 ms.prod: windows-hardware
 ms.technology: windows-devices

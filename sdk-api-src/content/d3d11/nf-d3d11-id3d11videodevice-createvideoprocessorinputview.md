@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice_createvideoprocessorinputview.htm
 tech.root: medfound
 ms.assetid: 3245D2AF-74A1-4068-A0BC-577FD42B353E
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: CreateVideoProcessorInputView, CreateVideoProcessorInputView method [Media Foundation], CreateVideoProcessorInputView method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoProcessorInputView method, ID3D11VideoDevice.CreateVideoProcessorInputView, ID3D11VideoDevice::CreateVideoProcessorInputView, d3d11/ID3D11VideoDevice::CreateVideoProcessorInputView, mf.id3d11videodevice_createvideoprocessorinputview
 ms.prod: windows-hardware
 ms.technology: windows-devices

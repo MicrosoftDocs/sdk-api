@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParserManager.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\iqueryparsermanager.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: IQueryParserManager, IQueryParserManager interface [search], IQueryParserManager interface [search],described, _search_IQueryParserManager, search._search_IQueryParserManager, structuredquery/IQueryParserManager
 ms.prod: windows
 ms.technology: windows-sdk

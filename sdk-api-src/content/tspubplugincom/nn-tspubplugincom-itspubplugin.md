@@ -4,10 +4,10 @@ title: ItsPubPlugin
 author: windows-sdk-content
 description: Exposes properties and methods that provide information about resources available to users of RemoteApp and Desktop Connections.
 old-location: termserv\itspubplugin.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 37d33f27-a811-4c97-bc80-ff8a5b8fcb7c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ItsPubPlugin, ItsPubPlugin interface [Remote Desktop Services], ItsPubPlugin interface [Remote Desktop Services],described, termserv.itspubplugin, tspubplugincom/ItsPubPlugin
 ms.prod: windows
 ms.technology: windows-sdk

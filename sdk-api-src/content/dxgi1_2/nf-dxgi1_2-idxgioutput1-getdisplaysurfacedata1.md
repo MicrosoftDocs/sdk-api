@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput1_getdisplaysurfacedata1.htm
 tech.root: direct3ddxgi
 ms.assetid: 120BC7CD-A4B2-4688-9A11-0BD59761B5F1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: GetDisplaySurfaceData1, GetDisplaySurfaceData1 method [DXGI], GetDisplaySurfaceData1 method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],GetDisplaySurfaceData1 method, IDXGIOutput1.GetDisplaySurfaceData1, IDXGIOutput1::GetDisplaySurfaceData1, direct3ddxgi.idxgioutput1_getdisplaysurfacedata1, dxgi1_2/IDXGIOutput1::GetDisplaySurfaceData1
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage
 author: windows-sdk-content
 description: Retrieves a collection of key usage object identifiers (OIDs).
 old-location: security\ix509extensionenhancedkeyusage_enhancedkeyusage_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 17a92139-0f6c-4371-b6cb-44185752abce
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: EnhancedKeyUsage property [Security], EnhancedKeyUsage property [Security],IX509ExtensionEnhancedKeyUsage interface, IX509ExtensionEnhancedKeyUsage interface [Security],EnhancedKeyUsage property, IX509ExtensionEnhancedKeyUsage.EnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage.get_EnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage::EnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage, certenroll/IX509ExtensionEnhancedKeyUsage::EnhancedKeyUsage, certenroll/IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage, get_EnhancedKeyUsage, security.ix509extensionenhancedkeyusage_enhancedkeyusage_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

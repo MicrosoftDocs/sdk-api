@@ -7,7 +7,7 @@ old-location: com\idropsource_givefeedback.htm
 tech.root: com
 ms.assetid: dde37299-ad7c-4f59-af99-e75b72ad9188
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: GiveFeedback, GiveFeedback method [COM], GiveFeedback method [COM],IDropSource interface, IDropSource interface [COM],GiveFeedback method, IDropSource.GiveFeedback, IDropSource::GiveFeedback, _ole_idropsource_givefeedback, com.idropsource_givefeedback, oleidl/IDropSource::GiveFeedback
 ms.prod: windows-hardware
 ms.technology: windows-devices

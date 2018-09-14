@@ -7,7 +7,7 @@ old-location: wsw\wsfreemetadata.htm
 tech.root: wsw
 ms.assetid: 4e159619-3807-4e7f-9198-fb74962ae141
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WsFreeMetadata, WsFreeMetadata function [Web Services for Windows], webservices/WsFreeMetadata, wsw.wsfreemetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

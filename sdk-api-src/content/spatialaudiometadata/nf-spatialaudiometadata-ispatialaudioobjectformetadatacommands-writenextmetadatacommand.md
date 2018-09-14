@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectformetadatacommands_writenextmetadata
 tech.root: CoreAudio
 ms.assetid: 4880851E-C13F-49EC-BFC2-0F97F36D4D07
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: ISpatialAudioObjectForMetadataCommands interface [Core Audio],WriteNextMetadataCommand method, ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand, ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand, WriteNextMetadataCommand, WriteNextMetadataCommand method [Core Audio], WriteNextMetadataCommand method [Core Audio],ISpatialAudioObjectForMetadataCommands interface, coreaudio.ispatialaudioobjectformetadatacommands_writenextmetadatacommand, spatialaudiometadata/ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

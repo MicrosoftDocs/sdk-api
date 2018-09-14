@@ -7,7 +7,7 @@ old-location: appxpkg\appx_package_settings.htm
 tech.root: appxpkg
 ms.assetid: 85874BCD-44EF-4442-96B8-F22AC4247DB4
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: APPX_PACKAGE_SETTINGS, APPX_PACKAGE_SETTINGS structure [App packaging and management], appxpackaging/APPX_PACKAGE_SETTINGS, appxpkg.appx_package_settings
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: bluetooth\bth_query_service.htm
 tech.root: bluetooth
 ms.assetid: b208b7d6-305c-4acc-9c89-75721ff5dcb2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: "*PBTHNS_RESTRICTIONBLOB, *PBTH_QUERY_SERVICE, BTHNS_RESTRICTIONBLOB, BTH_QUERY_SERVICE, BTH_QUERY_SERVICE structure [Bluetooth], PBTH_QUERY_SERVICE, PBTH_QUERY_SERVICE structure pointer [Bluetooth], _BTH_QUERY_SERVICE, _bth_bth_query_service, bluetooth.bth_query_service, ws2bth/BTH_QUERY_SERVICE, ws2bth/PBTH_QUERY_SERVICE"
 ms.prod: windows
 ms.technology: windows-sdk

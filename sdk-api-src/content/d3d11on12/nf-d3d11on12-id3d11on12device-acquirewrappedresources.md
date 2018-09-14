@@ -7,7 +7,7 @@ old-location: direct3d12\id3d11on12device_acquirewrappedresources.htm
 tech.root: direct3d12
 ms.assetid: 123FC8D9-6411-4CB7-921B-CEB32F5A9AD9
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: AcquireWrappedResources, AcquireWrappedResources method, AcquireWrappedResources method,ID3D11On12Device interface, ID3D11On12Device interface,AcquireWrappedResources method, ID3D11On12Device.AcquireWrappedResources, ID3D11On12Device::AcquireWrappedResources, d3d11on12/ID3D11On12Device::AcquireWrappedResources, direct3d12.id3d11on12device_acquirewrappedresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

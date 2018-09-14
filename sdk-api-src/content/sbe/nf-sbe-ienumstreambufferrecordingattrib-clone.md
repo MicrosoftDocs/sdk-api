@@ -4,10 +4,10 @@ title: IEnumStreamBufferRecordingAttrib::Clone
 author: windows-sdk-content
 description: The Clone method makes a copy of the enumerator object. The returned object starts with the same enumeration state as the original.
 old-location: mstv\ienumstreambufferrecordingattrib_clone.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 542a8b5d-641a-4ffb-9c8b-7232b1723a07
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumStreamBufferRecordingAttrib interface, IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies],Clone method, IEnumStreamBufferRecordingAttrib.Clone, IEnumStreamBufferRecordingAttrib::Clone, IEnumStreamBufferRecordingAttribClone, mstv.ienumstreambufferrecordingattrib_clone, sbe/IEnumStreamBufferRecordingAttrib::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\iinkdivider.htm
 tech.root: tablet
 ms.assetid: 6DF54C8E-1E0D-4F9D-A6E4-AFE0E8894BE9
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 09/13/2018
 ms.keywords: IInkDivider, IInkDivider interface [Tablet PC], IInkDivider interface [Tablet PC],described, msinkaut15/IInkDivider, tablet.iinkdivider
 ms.prod: windows
 ms.technology: windows-sdk

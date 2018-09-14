@@ -7,7 +7,7 @@ old-location: shell\PathAddExtension.htm
 tech.root: shell
 ms.assetid: 2c113d11-11d5-4362-bad5-c859d65aca2a
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: PathAddExtension, PathAddExtension function [Windows Shell], PathAddExtensionA, PathAddExtensionW, _win32_PathAddExtension, shell.PathAddExtension, shlwapi/PathAddExtension, shlwapi/PathAddExtensionA, shlwapi/PathAddExtensionW
 ms.prod: windows-hardware
 ms.technology: windows-devices

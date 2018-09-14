@@ -7,7 +7,7 @@ old-location: xps\ixpssignature_getsigningtime.htm
 tech.root: printdocs
 ms.assetid: 47edfe80-2111-4e87-bb11-056cf939bdd9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetSigningTime, GetSigningTime method [XPS Documents and Packaging], GetSigningTime method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSigningTime method, IXpsSignature.GetSigningTime, IXpsSignature::GetSigningTime, xps.ixpssignature_getsigningtime, xpsdigitalsignature/IXpsSignature::GetSigningTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

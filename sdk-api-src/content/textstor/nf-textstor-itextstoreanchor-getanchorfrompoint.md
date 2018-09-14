@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getanchorfrompoint.htm
 tech.root: TSF
 ms.assetid: 5567b53e-540e-41ce-b890-f2e4c5b06c57
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetAnchorFromPoint, GetAnchorFromPoint method [Text Services Framework], GetAnchorFromPoint method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetAnchorFromPoint method, ITextStoreAnchor.GetAnchorFromPoint, ITextStoreAnchor::GetAnchorFromPoint, textstor/ITextStoreAnchor::GetAnchorFromPoint, tsf.itextstoreanchor_getanchorfrompoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

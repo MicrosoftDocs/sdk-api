@@ -4,10 +4,10 @@ title: ITunerCap::get_AuxInputCount
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itunercap_get_auxinputcount.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: a885d849-e6d8-477a-a629-1c1a6152bc9b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ITunerCap interface [Microsoft TV Technologies],get_AuxInputCount method, ITunerCap.get_AuxInputCount, ITunerCap::get_AuxInputCount, ITunerCapget_AuxInputCount, get_AuxInputCount, get_AuxInputCount method [Microsoft TV Technologies], get_AuxInputCount method [Microsoft TV Technologies],ITunerCap interface, mstv.itunercap_get_auxinputcount, tuner/ITunerCap::get_AuxInputCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

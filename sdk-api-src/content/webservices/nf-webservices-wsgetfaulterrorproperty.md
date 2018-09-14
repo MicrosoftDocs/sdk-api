@@ -7,7 +7,7 @@ old-location: wsw\wsgetfaulterrorproperty.htm
 tech.root: wsw
 ms.assetid: b59e6ac6-a3f1-4a72-a941-f588950ba85a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: WsGetFaultErrorProperty, WsGetFaultErrorProperty function [Web Services for Windows], webservices/WsGetFaultErrorProperty, wsw.wsgetfaulterrorproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

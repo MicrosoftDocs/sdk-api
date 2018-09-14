@@ -4,10 +4,10 @@ title: DestroyPropertySheetPage function
 author: windows-sdk-content
 description: Destroys a property sheet page. An application must call this function for pages that have not been passed to the PropertySheet function.
 old-location: controls\DestroyPropertySheetPage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\destroypropertysheetpage.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: DestroyPropertySheetPage, DestroyPropertySheetPage function [Windows Controls], _win32_DestroyPropertySheetPage, _win32_DestroyPropertySheetPage_cpp, controls.DestroyPropertySheetPage, controls._win32_DestroyPropertySheetPage, prsht/DestroyPropertySheetPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

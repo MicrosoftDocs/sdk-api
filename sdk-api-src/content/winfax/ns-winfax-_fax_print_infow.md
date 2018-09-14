@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_print_info_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_60he.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: "*PFAX_PRINT_INFOW, FAX_PRINT_INFO, FAX_PRINT_INFO structure [Fax Service], FAX_PRINT_INFOA, FAX_PRINT_INFOW, PFAX_PRINT_INFO, PFAX_PRINT_INFO structure pointer [Fax Service], _FAX_PRINT_INFOW, _mfax_fax_print_info_str, fax._mfax_fax_print_info_str, winfax/FAX_PRINT_INFO, winfax/FAX_PRINT_INFOA, winfax/FAX_PRINT_INFOW, winfax/PFAX_PRINT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

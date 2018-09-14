@@ -4,10 +4,10 @@ title: NetShareDel function
 author: windows-sdk-content
 description: Deletes a share name from a server's list of shared resources, disconnecting all connections to the shared resource.
 old-location: fs\netsharedel.htm
-tech.root: netshare
+tech.root: NetShare
 ms.assetid: 374b8f81-b3d6-4967-bd4a-ffd3fdc3cf7c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetShareDel, NetShareDel function [Files], _win32_netsharedel, fs.netsharedel, lmshare/NetShareDel, netmgmt.netsharedel
 ms.prod: windows-hardware
 ms.technology: windows-devices

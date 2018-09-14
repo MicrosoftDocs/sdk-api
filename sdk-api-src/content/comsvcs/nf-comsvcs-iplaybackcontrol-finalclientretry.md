@@ -7,7 +7,7 @@ old-location: cos\iplaybackcontrol_finalclientretry.htm
 tech.root: cossdk
 ms.assetid: 3fa51832-0e68-4e76-bbdb-ce54f76fbae6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: FinalClientRetry, FinalClientRetry method [COM+], FinalClientRetry method [COM+],IPlaybackControl interface, IPlaybackControl interface [COM+],FinalClientRetry method, IPlaybackControl.FinalClientRetry, IPlaybackControl::FinalClientRetry, _cos_IPlaybackControl_FinalClientRetry, comsvcs/IPlaybackControl::FinalClientRetry, cos.iplaybackcontrol_finalclientretry
 ms.prod: windows-hardware
 ms.technology: windows-devices

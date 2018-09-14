@@ -7,7 +7,7 @@ old-location: mmc\iextendcontrolbar_setcontrolbar.htm
 tech.root: mmc
 ms.assetid: 5088eff2-b7a0-4c16-a33c-3a82bc2e72af
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 09/04/2018
 ms.keywords: IExtendControlbar interface [MMC],SetControlbar method, IExtendControlbar.SetControlbar, IExtendControlbar::SetControlbar, SetControlbar, SetControlbar method [MMC], SetControlbar method [MMC],IExtendControlbar interface, _slate_iextendcontrolbar_setcontrolbar, mmc.iextendcontrolbar_setcontrolbar, mmc/IExtendControlbar::SetControlbar
 ms.prod: windows-hardware
 ms.technology: windows-devices

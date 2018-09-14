@@ -4,10 +4,10 @@ title: IDirect3DDevice9Ex
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DDevice9Ex interface to render primitives, create resources, work with system-level variables, adjust gamma ramp levels, work with palettes, and create shaders.
 old-location: direct3d9\idirect3ddevice9ex.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 6755c62f-1ee8-9783-0c97-7e582de29a4b, IDirect3DDevice9Ex, IDirect3DDevice9Ex interface [Direct3D 9], IDirect3DDevice9Ex interface [Direct3D 9],described, d3d9/IDirect3DDevice9Ex, direct3d9.idirect3ddevice9ex
 ms.prod: windows
 ms.technology: windows-sdk

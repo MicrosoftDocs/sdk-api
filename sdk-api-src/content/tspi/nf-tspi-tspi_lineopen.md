@@ -4,10 +4,10 @@ title: TSPI_lineOpen function
 author: windows-sdk-content
 description: The TSPI_lineOpen function opens the line device whose device identifier is given, returning the service provider's handle for the device.
 old-location: tspi\tspi_lineopen.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 97cde843-65bc-46ae-a6ae-724f2c9c5217
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: TSPI_lineOpen, TSPI_lineOpen function [TAPI 2.2], _tspi_tspi_lineopen, tspi.tspi_lineopen, tspi/TSPI_lineOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

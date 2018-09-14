@@ -4,10 +4,10 @@ title: "_MI_Operation"
 author: windows-sdk-content
 description: Represents a single operations execution. This object holds the internal function tables for carrying out actions on the operation.
 old-location: wmi_v2\mi_operation.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: a62b3656-c281-4f30-9690-de453df9f2db
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Operation, MI_Operation structure [Windows Management Infrastructure (MI)], _MI_Operation, mi/MI_Operation, wmi_v2.mi_operation
 ms.prod: windows
 ms.technology: windows-sdk

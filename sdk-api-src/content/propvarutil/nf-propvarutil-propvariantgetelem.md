@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetElem.htm
 tech.root: properties
 ms.assetid: 462eca81-1010-4518-ba55-0ac144297798
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: PropVariantGetElem, PropVariantGetElem function [Windows Properties], _shell_PropVariantGetElem, properties.PropVariantGetElem, propvarutil/PropVariantGetElem, shell.PropVariantGetElem
 ms.prod: windows-hardware
 ms.technology: windows-devices

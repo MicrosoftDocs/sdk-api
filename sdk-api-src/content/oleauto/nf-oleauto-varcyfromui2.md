@@ -7,7 +7,7 @@ old-location: automat\varcyfromui2.htm
 tech.root: automat
 ms.assetid: e9e688f6-a4e6-4e18-b3e4-6d378d99dea1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: VarCyFromUI2, VarCyFromUI2 function [Automation], _oa96_VarCyFromUI2, automat.varcyfromui2, oleauto/VarCyFromUI2
 ms.prod: windows-hardware
 ms.technology: windows-devices

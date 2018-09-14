@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSource::MaxRatingsLevel
 author: windows-sdk-content
 description: The MaxRatingsLevel method specifies the maximum ratings level the object is permitted to play.
 old-location: mstv\imsvidstreambuffersource_maxratingslevel.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 74dbb008-21c9-4651-8386-761626b7bf19
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],MaxRatingsLevel method, IMSVidStreamBufferSource.MaxRatingsLevel, IMSVidStreamBufferSource::MaxRatingsLevel, IMSVidStreamBufferSourceMaxRatingsLevel, MaxRatingsLevel, MaxRatingsLevel method [Microsoft TV Technologies], MaxRatingsLevel method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_maxratingslevel, segment/IMSVidStreamBufferSource::MaxRatingsLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

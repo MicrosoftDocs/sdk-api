@@ -4,10 +4,10 @@ title: IDot11AdHocNetwork::HasProfile
 author: windows-sdk-content
 description: Returns a boolean value that specifies whether there is a saved profile associated with the network.
 old-location: nwifi\idot11adhocnetwork_hasprofile.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 252f32ef-0a54-445f-94ca-113a67a3e6dd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HasProfile, HasProfile method [NativeWIFI], HasProfile method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],HasProfile method, IDot11AdHocNetwork.HasProfile, IDot11AdHocNetwork::HasProfile, adhoc/IDot11AdHocNetwork::HasProfile, nwifi.idot11adhocnetwork_hasprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dd_getmocompcompbuffdata.htm
 tech.root: display
 ms.assetid: 5510d430-834c-42ea-a113-c17b1b87ea52
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/13/2018
 ms.keywords: "*PDD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA structure [Display Devices], _DD_GETMOCOMPCOMPBUFFDATA, ddrawint/DD_GETMOCOMPCOMPBUFFDATA, ddstrcts_20d1802e-7979-4336-b730-a161f771c24a.xml, display.dd_getmocompcompbuffdata"
 ms.prod: windows
 ms.technology: windows-sdk

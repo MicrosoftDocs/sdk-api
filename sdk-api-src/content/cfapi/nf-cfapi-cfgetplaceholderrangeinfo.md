@@ -7,7 +7,7 @@ old-location: cloudapi\cfgetplaceholderrangeinfo.htm
 tech.root: cfApi
 ms.assetid: B7FE94BC-DC59-407D-85A6-9657E38975AB
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 08/29/2018
 ms.keywords: CfGetPlaceholderRangeInfo, CfGetPlaceholderRangeInfo function, cfapi/CfGetPlaceholderRangeInfo, cloudApi.cfgetplaceholderrangeinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

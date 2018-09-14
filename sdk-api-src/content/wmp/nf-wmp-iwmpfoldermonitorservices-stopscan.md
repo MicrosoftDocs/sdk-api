@@ -7,7 +7,7 @@ old-location: wmp\iwmpfoldermonitorservices_stopscan.htm
 tech.root: WMP
 ms.assetid: 9b85cefb-3118-4e7f-b6f7-2f387057895e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],stopScan method, IWMPFolderMonitorServices.stopScan, IWMPFolderMonitorServices::stopScan, IWMPFolderMonitorServicesstopScan, stopScan, stopScan method [Windows Media Player], stopScan method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_stopscan, wmp/IWMPFolderMonitorServices::stopScan
 ms.prod: windows-hardware
 ms.technology: windows-devices

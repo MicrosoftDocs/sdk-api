@@ -4,10 +4,10 @@ title: ILanguageComponentType::get_LangID
 author: windows-sdk-content
 description: The get_LangID method retrieves the LCID that identifies the language.
 old-location: mstv\ilanguagecomponenttype_get_langid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: f70dcc70-701a-4465-ad40-1ddc5e697f46
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: ILanguageComponentType interface [Microsoft TV Technologies],get_LangID method, ILanguageComponentType.get_LangID, ILanguageComponentType::get_LangID, ILanguageComponentTypeget_LangID, get_LangID, get_LangID method [Microsoft TV Technologies], get_LangID method [Microsoft TV Technologies],ILanguageComponentType interface, mstv.ilanguagecomponenttype_get_langid, tuner/ILanguageComponentType::get_LangID
 ms.prod: windows-hardware
 ms.technology: windows-devices

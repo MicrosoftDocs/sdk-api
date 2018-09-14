@@ -7,7 +7,7 @@ old-location: mf\imfpresentationtimesource.htm
 tech.root: medfound
 ms.assetid: e5fab6b7-0abc-4ad7-89a9-33c673e97ce2
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IMFPresentationTimeSource, IMFPresentationTimeSource interface [Media Foundation], IMFPresentationTimeSource interface [Media Foundation],described, e5fab6b7-0abc-4ad7-89a9-33c673e97ce2, mf.imfpresentationtimesource, mfidl/IMFPresentationTimeSource
 ms.prod: windows
 ms.technology: windows-sdk

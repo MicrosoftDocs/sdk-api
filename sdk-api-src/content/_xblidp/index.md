@@ -2,7 +2,7 @@
 UID: TP:xblidp
 ms.assetid: 171eec04-c9a1-34cd-9e47-c871eea2a356
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

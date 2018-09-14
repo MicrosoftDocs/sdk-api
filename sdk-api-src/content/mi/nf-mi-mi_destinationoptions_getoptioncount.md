@@ -4,10 +4,10 @@ title: MI_DestinationOptions_GetOptionCount function
 author: windows-sdk-content
 description: Gets the number of options previously added.
 old-location: wmi_v2\mi_destinationoptions_getoptioncount.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 8bfbd58d-3c9d-4828-9922-ba13033a6c96
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_DestinationOptions_GetOptionCount, MI_DestinationOptions_GetOptionCount function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetOptionCount, wmi_v2.mi_destinationoptions_getoptioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices

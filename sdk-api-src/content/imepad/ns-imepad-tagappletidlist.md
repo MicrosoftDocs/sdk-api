@@ -7,7 +7,7 @@ old-location: intl\appletidlist.htm
 tech.root: Intl
 ms.assetid: 6A93B726-1C35-4779-AF60-859DF3B18462
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/30/2018
 ms.keywords: "*LPAPPLETIDLIST, APPLETIDLIST, APPLETIDLIST structure [Internationalization for Windows Applications], PAPPLETIDLIST, PAPPLETIDLIST structure pointer [Internationalization for Windows Applications], imepad/APPLETIDLIST, imepad/PAPPLETIDLIST, intl.appletidlist, tagAPPLETIDLIST"
 ms.prod: windows
 ms.technology: windows-sdk

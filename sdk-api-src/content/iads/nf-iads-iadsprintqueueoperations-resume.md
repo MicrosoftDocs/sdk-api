@@ -7,7 +7,7 @@ old-location: adsi\iadsprintqueueoperations_resume.htm
 tech.root: ADSI
 ms.assetid: 4142af42-b01c-489b-ab13-2750c3ca0be6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsPrintQueueOperations interface [ADSI],Resume method, IADsPrintQueueOperations.Resume, IADsPrintQueueOperations::Resume, Resume, Resume method [ADSI], Resume method [ADSI],IADsPrintQueueOperations interface, _ds_iadsprintqueueoperations_resume, adsi.iadsprintqueueoperations__resume, adsi.iadsprintqueueoperations_resume, iads/IADsPrintQueueOperations::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices

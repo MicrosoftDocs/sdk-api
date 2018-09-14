@@ -7,7 +7,7 @@ old-location: mf\idirect3ddevicemanager9_resetdevice.htm
 tech.root: medfound
 ms.assetid: 01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33, IDirect3DDeviceManager9 interface [Media Foundation],ResetDevice method, IDirect3DDeviceManager9.ResetDevice, IDirect3DDeviceManager9::ResetDevice, ResetDevice, ResetDevice method [Media Foundation], ResetDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::ResetDevice, mf.idirect3ddevicemanager9_resetdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

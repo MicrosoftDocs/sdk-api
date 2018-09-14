@@ -7,7 +7,7 @@ old-location: netmgmt\netalertraiseex.htm
 tech.root: netmgmt
 ms.assetid: 9762f0d6-0022-4e05-b2d8-6223d7bbb2c8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, NetAlertRaiseEx, NetAlertRaiseEx function [Network Management], _win32_netalertraiseex, lmalert/NetAlertRaiseEx, netmgmt.netalertraiseex
 ms.prod: windows-hardware
 ms.technology: windows-devices

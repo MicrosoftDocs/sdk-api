@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUserArray.htm
 tech.root: shell
 ms.assetid: 50FC43C1-B148-4e42-AB38-3559BD056855
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 09/13/2018
 ms.keywords: ICredentialProviderUserArray, ICredentialProviderUserArray interface [Windows Shell], ICredentialProviderUserArray interface [Windows Shell],described, credentialprovider/ICredentialProviderUserArray, shell.ICredentialProviderUserArray
 ms.prod: windows
 ms.technology: windows-sdk

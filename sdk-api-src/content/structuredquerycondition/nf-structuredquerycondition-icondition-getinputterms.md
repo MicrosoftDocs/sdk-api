@@ -7,7 +7,7 @@ old-location: search\_search_ICondition_GetInputTerms.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getinputterms.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: GetInputTerms, GetInputTerms method [search], GetInputTerms method [search],ICondition interface, ICondition interface [search],GetInputTerms method, ICondition.GetInputTerms, ICondition::GetInputTerms, _search_ICondition_GetInputTerms, search._search_ICondition_GetInputTerms, structuredquerycondition/ICondition::GetInputTerms
 ms.prod: windows-hardware
 ms.technology: windows-devices

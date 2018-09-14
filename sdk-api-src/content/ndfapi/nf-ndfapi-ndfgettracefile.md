@@ -4,10 +4,10 @@ title: NdfGetTraceFile function
 author: windows-sdk-content
 description: Used to retrieve the path containing an Event Trace Log (ETL) file that contains Event Tracing for Windows (ETW) events from a diagnostic session.
 old-location: ndf\ndfgettracefile.htm
-tech.root: ndf
+tech.root: NDF
 ms.assetid: a9ce6471-20f3-4c53-92e5-6fd4f7bd10e3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdfGetTraceFile, NdfGetTraceFile function [NDF], ndf.ndfgettracefile, ndfapi/NdfGetTraceFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

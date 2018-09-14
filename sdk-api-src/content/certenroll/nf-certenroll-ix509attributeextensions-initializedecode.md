@@ -4,10 +4,10 @@ title: IX509AttributeExtensions::InitializeDecode
 author: windows-sdk-content
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the attribute value.
 old-location: security\ix509attributeextensions_initializedecode_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 194f8556-9e26-4fae-ac2b-6c3f07cb22c8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509AttributeExtensions interface [Security],InitializeDecode method, IX509AttributeExtensions.InitializeDecode, IX509AttributeExtensions::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeExtensions interface, certenroll/IX509AttributeExtensions::InitializeDecode, security.ix509attributeextensions_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

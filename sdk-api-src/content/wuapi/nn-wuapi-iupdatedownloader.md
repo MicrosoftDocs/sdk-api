@@ -4,10 +4,10 @@ title: IUpdateDownloader
 author: windows-sdk-content
 description: Downloads updates from the server.
 old-location: wua\iupdatedownloader.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 8f9f3430-fc78-46cb-9dc8-b97e9d35d91c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IUpdateDownloader, IUpdateDownloader interface [Windows Update Agent], IUpdateDownloader interface [Windows Update Agent],described, wua.iupdatedownloader, wuapi/IUpdateDownloader
 ms.prod: windows
 ms.technology: windows-sdk

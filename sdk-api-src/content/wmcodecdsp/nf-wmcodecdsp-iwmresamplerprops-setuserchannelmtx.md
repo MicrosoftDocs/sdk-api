@@ -7,7 +7,7 @@ old-location: mf\iwmresamplerpropssetuserchannelmtx.htm
 tech.root: medfound
 ms.assetid: d7f225a9-c63d-4b4e-b75a-ed6156e594a0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IWMResamplerProps interface [Media Foundation],SetUserChannelMtx method, IWMResamplerProps.SetUserChannelMtx, IWMResamplerProps::SetUserChannelMtx, SetUserChannelMtx, SetUserChannelMtx method [Media Foundation], SetUserChannelMtx method [Media Foundation],IWMResamplerProps interface, codecapi.iwmresamplerpropssetuserchannelmtx, mf.iwmresamplerpropssetuserchannelmtx, wmcodecdsp/IWMResamplerProps::SetUserChannelMtx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: NL_PREFIX_ORIGIN
 author: windows-sdk-content
 description: The IP_PREFIX_ORIGIN enumeration specifies the origin of an IPv4 or IPv6 address prefix, and is used with the IP_ADAPTER_UNICAST_ADDRESS structure.
 old-location: iphlp\ip_prefix_origin.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: fd7e7bbb-8596-4a72-ba63-d898f0048a11
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: IP_PREFIX_ORIGIN, IP_PREFIX_ORIGIN enumeration [IP Helper], IpPrefixOriginDhcp, IpPrefixOriginManual, IpPrefixOriginOther, IpPrefixOriginRouterAdvertisement, IpPrefixOriginUnchanged, IpPrefixOriginWellKnown, NL_PREFIX_ORIGIN, iphlp.ip_prefix_origin, iptypes/IP_PREFIX_ORIGIN, iptypes/IpPrefixOriginDhcp, iptypes/IpPrefixOriginManual, iptypes/IpPrefixOriginOther, iptypes/IpPrefixOriginRouterAdvertisement, iptypes/IpPrefixOriginUnchanged, iptypes/IpPrefixOriginWellKnown, nldef/IP_PREFIX_ORIGIN, nldef/IpPrefixOriginDhcp, nldef/IpPrefixOriginManual, nldef/IpPrefixOriginOther, nldef/IpPrefixOriginRouterAdvertisement, nldef/IpPrefixOriginUnchanged, nldef/IpPrefixOriginWellKnown
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DrawingStateDescription1 function
 author: windows-sdk-content
 description: Creates a D2D1_DRAWING_STATE_DESCRIPTION1 structure.
 old-location: direct2d\drawingstatedescription1.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9D2F5196-0C37-465E-AFCF-FAAC3C19D3C2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: DrawingStateDescription1, DrawingStateDescription1 function [Direct2D], d2d1_1helper/DrawingStateDescription1, direct2d.drawingstatedescription1
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_ENABLE_TRACE_PARAMETERS"
 author: windows-sdk-content
 description: Defines the information used to enable a provider.
 old-location: etw\enable_trace_parameters.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: bc7cf886-f763-428a-9e75-031e8df26554
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 08/29/2018
 ms.keywords: "*PENABLE_TRACE_PARAMETERS, ENABLE_TRACE_PARAMETERS, ENABLE_TRACE_PARAMETERS structure [ETW], EVENT_ENABLE_PROPERTY_EVENT_KEY, EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE, EVENT_ENABLE_PROPERTY_IGNORE_KEYWORD_0, EVENT_ENABLE_PROPERTY_PROCESS_START_KEY, EVENT_ENABLE_PROPERTY_PROVIDER_GROUP, EVENT_ENABLE_PROPERTY_SID, EVENT_ENABLE_PROPERTY_STACK_TRACE, EVENT_ENABLE_PROPERTY_TS_ID, PENABLE_TRACE_PARAMETERS, PENABLE_TRACE_PARAMETERS structure pointer [ETW], _ENABLE_TRACE_PARAMETERS, etw.enable_trace_parameters, evntrace/ENABLE_TRACE_PARAMETERS, evntrace/PENABLE_TRACE_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

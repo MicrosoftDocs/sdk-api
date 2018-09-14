@@ -7,7 +7,7 @@ old-location: com\ifont.htm
 tech.root: com
 ms.assetid: 3a04d2b7-b2eb-4c6c-8863-1e88321fa382
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IFont, IFont interface [COM], IFont interface [COM],described, _ctrl_ifont, com.ifont, ocidl/IFont
 ms.prod: windows
 ms.technology: windows-sdk

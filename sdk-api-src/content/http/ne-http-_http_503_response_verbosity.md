@@ -4,10 +4,10 @@ title: "_HTTP_503_RESPONSE_VERBOSITY"
 author: windows-sdk-content
 description: The HTTP_503_RESPONSE_VERBOSITY enumeration defines the verbosity levels for a 503, service unavailable, error responses.This structure must be used when setting or querying the HttpServer503ResponseProperty on a request queue.
 old-location: http\http_503_response_verbosity.htm
-tech.root: http
+tech.root: Http
 ms.assetid: e103bdf4-dc48-45ba-84dc-4161310ee3ff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PHTTP_503_RESPONSE_VERBOSITY, *PHTTP_503_RESPONSE_VERBOSITY enumeration [HTTP], HTTP_503_RESPONSE_VERBOSITY, HTTP_503_RESPONSE_VERBOSITY enumeration [HTTP], Http503ResponseVerbosityBasic, Http503ResponseVerbosityFull, Http503ResponseVerbosityLimited, _HTTP_503_RESPONSE_VERBOSITY, http.http_503_response_verbosity, http/*PHTTP_503_RESPONSE_VERBOSITY, http/HTTP_503_RESPONSE_VERBOSITY, http/Http503ResponseVerbosityBasic, http/Http503ResponseVerbosityFull, http/Http503ResponseVerbosityLimited"
 ms.prod: windows
 ms.technology: windows-sdk

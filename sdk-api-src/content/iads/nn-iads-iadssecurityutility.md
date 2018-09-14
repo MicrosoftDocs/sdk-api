@@ -7,7 +7,7 @@ old-location: adsi\iadssecurityutility.htm
 tech.root: ADSI
 ms.assetid: 781eda1e-1f13-4bb4-ae8e-c9bf4c08e125
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsSecurityUtility, IADsSecurityUtility interface [ADSI], IADsSecurityUtility interface [ADSI],described, _ds_iadssecurityutility, adsi.iadssecurityutility, iads/IADsSecurityUtility
 ms.prod: windows
 ms.technology: windows-sdk

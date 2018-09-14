@@ -4,10 +4,10 @@ title: DhcpV4FailoverEnumRelationship function
 author: windows-sdk-content
 description: Enumerates all failover relationships present on the server.
 old-location: dhcp\dhcpv4failoverenumrelationship.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: 81ef2af8-c1a9-44e7-857c-1591947609ed
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpV4FailoverEnumRelationship, DhcpV4FailoverEnumRelationship function [DHCP], dhcp.dhcpv4failoverenumrelationship, dhcpsapi/DhcpV4FailoverEnumRelationship
 ms.prod: windows-hardware
 ms.technology: windows-devices

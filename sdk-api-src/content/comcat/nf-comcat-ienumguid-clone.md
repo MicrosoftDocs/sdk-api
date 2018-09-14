@@ -7,7 +7,7 @@ old-location: com\ienumguid_clone.htm
 tech.root: com
 ms.assetid: 5b12adf2-c2fe-4499-ab2a-94af6337e4a2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumGUID interface, IEnumGUID interface [COM],Clone method, IEnumGUID.Clone, IEnumGUID::Clone, _com_ienumguid_clone, com.ienumguid_clone, comcat/IEnumGUID::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\iwmvideodecoderhurryupinterface.htm
 tech.root: medfound
 ms.assetid: 5e33be5f-5ce8-4f4f-94db-4be2dfcaeec0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: IWMVideoDecoderHurryup, IWMVideoDecoderHurryup interface [Media Foundation], IWMVideoDecoderHurryup interface [Media Foundation],described, codecapi.iwmvideodecoderhurryupinterface, mf.iwmvideodecoderhurryup, mf.iwmvideodecoderhurryupinterface, wmcodecdsp/IWMVideoDecoderHurryup
 ms.prod: windows
 ms.technology: windows-sdk

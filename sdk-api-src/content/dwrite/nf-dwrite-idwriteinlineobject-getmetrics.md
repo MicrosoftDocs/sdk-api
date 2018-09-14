@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteInlineObject_GetMetrics.htm
 tech.root: DirectWrite
 ms.assetid: 809a4e29-0423-40b2-9d40-105d30574fa1
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Direct Write],IDWriteInlineObject interface, IDWriteInlineObject interface [Direct Write],GetMetrics method, IDWriteInlineObject.GetMetrics, IDWriteInlineObject::GetMetrics, directwrite.IDWriteInlineObject_GetMetrics, dwrite/IDWriteInlineObject::GetMetrics
 ms.prod: windows-hardware
 ms.technology: windows-devices

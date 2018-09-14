@@ -4,10 +4,10 @@ title: BfEnTvRat_Attributes_CAE_TV
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\bfentvrat_attributes_cae_tv.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 8b66aa93-edd4-4955-a8f2-576e8a1544b9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: BfEnTvRat_Attributes_CAE_TV, BfEnTvRat_Attributes_CAE_TV enumeration [Microsoft TV Technologies], CAE_IsBlocked, CAE_ValidAttrSubmask, mstv.bfentvrat_attributes_cae_tv, tvratings/BfEnTvRat_Attributes_CAE_TV, tvratings/CAE_IsBlocked, tvratings/CAE_ValidAttrSubmask
 ms.prod: windows
 ms.technology: windows-sdk

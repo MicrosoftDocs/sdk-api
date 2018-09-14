@@ -4,10 +4,10 @@ title: ITextHost::TxSetTimer
 author: windows-sdk-content
 description: Requests the text host to create a timer with a specified time-out.
 old-location: controls\ITextHost_TxSetTimer.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsettimer.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetTimer method, ITextHost.TxSetTimer, ITextHost::TxSetTimer, TxSetTimer, TxSetTimer method [Windows Controls], TxSetTimer method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetTimer, _win32_ITextHost_TxSetTimer_cpp, controls.ITextHost_TxSetTimer, controls._win32_ITextHost_TxSetTimer, textserv/ITextHost::TxSetTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_gssetshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gssetshader.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: GSSetShader, GSSetShader method [Direct3D 10], GSSetShader method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSSetShader method, ID3D10Device.GSSetShader, ID3D10Device::GSSetShader, bec21328-0eb9-6e55-a154-2849f276da74, d3d10/ID3D10Device::GSSetShader, direct3d10.id3d10device_gssetshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

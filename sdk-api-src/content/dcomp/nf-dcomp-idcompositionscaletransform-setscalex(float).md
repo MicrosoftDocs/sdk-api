@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionscaletransform_setscalex_float.htm
 tech.root: directcomp
 ms.assetid: 4976851C-E711-4A31-8243-6CC10DF16717
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetScaleX method, IDCompositionScaleTransform.SetScaleX, IDCompositionScaleTransform.SetScaleX(float), IDCompositionScaleTransform::SetScaleX, IDCompositionScaleTransform::SetScaleX(float), SetScaleX, SetScaleX method [DirectComposition], SetScaleX method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetScaleX, directcomp.idcompositionscaletransform_setscalex_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

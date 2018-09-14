@@ -4,10 +4,10 @@ title: IETFilter
 author: windows-sdk-content
 description: The IETFilter interface is exposed by the Encrypter/Tagger filter. Most applications will not have to use this interface.
 old-location: mstv\ietfilter.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9fce6b33-394c-47d2-9d02-7b0dadaa1736
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IETFilter, IETFilter interface [Microsoft TV Technologies], IETFilter interface [Microsoft TV Technologies],described, IETFilterInterface, encdec/IETFilter, mstv.ietfilter
 ms.prod: windows
 ms.technology: windows-sdk

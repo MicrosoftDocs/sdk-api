@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_CompositingQuality.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\compositingquality.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: CompositingQuality, CompositingQuality enumeration [GDI+], CompositingQualityAssumeLinear, CompositingQualityDefault, CompositingQualityGammaCorrected, CompositingQualityHighQuality, CompositingQualityHighSpeed, _gdiplus_ENUM_CompositingQuality, gdiplus._gdiplus_ENUM_CompositingQuality, gdiplusenums/CompositingQuality, gdiplusenums/CompositingQualityAssumeLinear, gdiplusenums/CompositingQualityDefault, gdiplusenums/CompositingQualityGammaCorrected, gdiplusenums/CompositingQualityHighQuality, gdiplusenums/CompositingQualityHighSpeed
 ms.prod: windows
 ms.technology: windows-sdk

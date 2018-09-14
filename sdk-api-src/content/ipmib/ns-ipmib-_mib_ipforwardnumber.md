@@ -4,10 +4,10 @@ title: "_MIB_IPFORWARDNUMBER"
 author: windows-sdk-content
 description: Stores the number of routes in a particular IP routing table.
 old-location: mib\mib_ipforwardnumber.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: 71508d8e-3265-4c08-913c-248af2d8bbd6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER structure [MIB], PMIB_IPFORWARDNUMBER, PMIB_IPFORWARDNUMBER structure pointer [MIB], _MIB_IPFORWARDNUMBER, _mpr_mib_ipforwardnumber, ipmib/MIB_IPFORWARDNUMBER, ipmib/PMIB_IPFORWARDNUMBER, iprtrmib/MIB_IPFORWARDNUMBER, iprtrmib/PMIB_IPFORWARDNUMBER, mib.mib_ipforwardnumber, rras.mib_ipforwardnumber"
 ms.prod: windows
 ms.technology: windows-sdk

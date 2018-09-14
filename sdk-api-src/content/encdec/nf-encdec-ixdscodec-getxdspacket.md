@@ -4,10 +4,10 @@ title: IXDSCodec::GetXDSPacket
 author: windows-sdk-content
 description: The GetXDSPacket method retrieves the most recent XDS packet.
 old-location: mstv\ixdscodec_getxdspacket.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 44a74489-4ed7-42f0-b8d5-bf86e0f7072c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetXDSPacket, GetXDSPacket method [Microsoft TV Technologies], GetXDSPacket method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetXDSPacket method, IXDSCodec.GetXDSPacket, IXDSCodec::GetXDSPacket, IXDSCodecGetXDSPacket, encdec/IXDSCodec::GetXDSPacket, mstv.ixdscodec_getxdspacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

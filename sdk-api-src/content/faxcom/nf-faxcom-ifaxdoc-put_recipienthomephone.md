@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipienthomephone_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9m5h.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientHomePhone property, IFaxDoc.RecipientHomePhone, IFaxDoc.put_RecipientHomePhone, IFaxDoc::RecipientHomePhone, IFaxDoc::get_RecipientHomePhone, IFaxDoc::put_RecipientHomePhone, RecipientHomePhone property [Fax Service], RecipientHomePhone property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipienthomephone_cpp, faxcom/IFaxDoc::RecipientHomePhone, faxcom/IFaxDoc::get_RecipientHomePhone, faxcom/IFaxDoc::put_RecipientHomePhone, put_RecipientHomePhone
 ms.prod: windows-hardware
 ms.technology: windows-devices

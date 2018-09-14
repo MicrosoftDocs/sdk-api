@@ -4,10 +4,10 @@ title: FwpmProviderAdd0 function
 author: windows-sdk-content
 description: Adds a new provider to the system.
 old-location: fwp\fwpmprovideradd0_func.htm
-tech.root: fwp
+tech.root: FWP
 ms.assetid: e76f03e2-0853-465a-9f82-c29d35de32c9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FwpmProviderAdd0, FwpmProviderAdd0 function [Filtering], fwp.fwpmprovideradd0_func, fwpmu/FwpmProviderAdd0
 ms.prod: windows-hardware
 ms.technology: windows-devices

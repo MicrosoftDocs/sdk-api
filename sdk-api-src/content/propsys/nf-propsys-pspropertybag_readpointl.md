@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadPOINTL.htm
 tech.root: properties
 ms.assetid: B8F66DF9-A366-41a7-8311-B9E1CDE14ADB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: PSPropertyBag_ReadPOINTL, PSPropertyBag_ReadPOINTL function [Windows Properties], properties.PSPropertyBag_ReadPOINTL, propsys/PSPropertyBag_ReadPOINTL, shell.PSPropertyBag_ReadPOINTL, shell_PSPropertyBag_ReadPOINTL
 ms.prod: windows-hardware
 ms.technology: windows-devices

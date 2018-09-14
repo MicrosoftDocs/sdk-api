@@ -4,10 +4,10 @@ title: PxeProviderQueryIndex function
 author: windows-sdk-content
 description: Returns the index of the specified provider in the list of registered providers.
 old-location: wds\pxeproviderqueryindex.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 0b28c075-7f2e-4149-b851-21614773e942
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: PxeProviderQueryIndex, PxeProviderQueryIndex function [Windows Deployment Services], wds.pxeproviderqueryindex, wdspxe/PxeProviderQueryIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_lastreportpathwithoutextension.htm
 tech.root: fsrm
 ms.assetid: 404d45e0-621e-47d5-b987-0f9347242653
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],LastReportPathWithoutExtension property, IFsrmFileManagementJob.LastReportPathWithoutExtension, IFsrmFileManagementJob.get_LastReportPathWithoutExtension, IFsrmFileManagementJob::LastReportPathWithoutExtension, IFsrmFileManagementJob::get_LastReportPathWithoutExtension, LastReportPathWithoutExtension property [File Server Resource Manager], LastReportPathWithoutExtension property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_lastreportpathwithoutextension, fsrm.ifsrmfilemanagementjob_lastreportpathwithoutextension, fsrmreports/IFsrmFileManagementJob::LastReportPathWithoutExtension, fsrmreports/IFsrmFileManagementJob::get_LastReportPathWithoutExtension, get_LastReportPathWithoutExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

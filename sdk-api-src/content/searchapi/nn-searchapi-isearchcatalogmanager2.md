@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager2.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager2\isearchcatalogmanager2.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: ISearchCatalogManager2, ISearchCatalogManager2 interface [search], ISearchCatalogManager2 interface [search],described, _search_ISearchCatalogManager2, search._search_ISearchCatalogManager2, searchapi/ISearchCatalogManager2
 ms.prod: windows
 ms.technology: windows-sdk

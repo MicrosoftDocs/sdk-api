@@ -4,10 +4,10 @@ title: MI_Deserializer_DeserializeClass function
 author: windows-sdk-content
 description: Deserializes a serialized buffer into an MI_Class object.
 old-location: wmi_v2\mi_deserializer_deserializeclass.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 09ad196c-9940-4d10-8a4e-1e06acd5d677
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_Deserializer_DeserializeClass, MI_Deserializer_DeserializeClass function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_DeserializeClass, wmi_v2.mi_deserializer_deserializeclass
 ms.prod: windows-hardware
 ms.technology: windows-devices

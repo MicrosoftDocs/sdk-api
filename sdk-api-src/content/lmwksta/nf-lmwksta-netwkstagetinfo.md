@@ -7,7 +7,7 @@ old-location: netmgmt\netwkstagetinfo.htm
 tech.root: netmgmt
 ms.assetid: 08777069-1afd-4482-8090-c65ef0bec1ea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: 100, 101, 102, NetWkstaGetInfo, NetWkstaGetInfo function [Network Management], _win32_netwkstagetinfo, lmwksta/NetWkstaGetInfo, netmgmt.netwkstagetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

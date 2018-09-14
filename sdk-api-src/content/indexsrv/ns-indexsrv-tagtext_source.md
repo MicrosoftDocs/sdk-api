@@ -7,7 +7,7 @@ old-location: search\_search_TEXT_SOURCE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\text_source.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: TEXT_SOURCE, TEXT_SOURCE structure [search], _search_TEXT_SOURCE, indexsrv/TEXT_SOURCE, search._search_TEXT_SOURCE, tagTEXT_SOURCE
 ms.prod: windows
 ms.technology: windows-sdk

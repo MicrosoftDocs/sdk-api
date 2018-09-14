@@ -4,10 +4,10 @@ title: GetIpPathEntry function
 author: windows-sdk-content
 description: Retrieves information for a IP path entry on the local computer.
 old-location: iphlp\getippathentry.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 8ad43a1d-428a-41cc-bba8-5eec7f87c11f
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetIpPathEntry, GetIpPathEntry function [IP Helper], iphlp.getippathentry, netioapi/GetIpPathEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

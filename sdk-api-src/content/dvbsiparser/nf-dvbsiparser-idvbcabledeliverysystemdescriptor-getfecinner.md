@@ -4,10 +4,10 @@ title: IDvbCableDeliverySystemDescriptor::GetFECInner
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbcabledeliverysystemdescriptor_getfecinner.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 6b16b904-58aa-4f28-83aa-80dd625d387a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetFECInner, GetFECInner method [Microsoft TV Technologies], GetFECInner method [Microsoft TV Technologies],IDvbCableDeliverySystemDescriptor interface, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],GetFECInner method, IDvbCableDeliverySystemDescriptor.GetFECInner, IDvbCableDeliverySystemDescriptor::GetFECInner, IDvbCableDeliverySystemDescriptorGetFECInner, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetFECInner, mstv.idvbcabledeliverysystemdescriptor_getfecinner
 ms.prod: windows-hardware
 ms.technology: windows-devices

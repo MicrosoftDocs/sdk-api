@@ -4,10 +4,10 @@ title: IX509CertificateRequest::Initialize
 author: windows-sdk-content
 description: Initializes the request object for a user or a computer.
 old-location: security\ix509certificaterequest_initialize_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: be0e2cda-5481-49ab-9a12-6dc52981fd24
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequest interface [Security],Initialize method, IX509CertificateRequest.Initialize, IX509CertificateRequest::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::Initialize, security.ix509certificaterequest_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

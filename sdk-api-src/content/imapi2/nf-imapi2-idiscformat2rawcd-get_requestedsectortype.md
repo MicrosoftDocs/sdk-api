@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2rawcd__get_requestedsectortype_.htm
 tech.root: imapi
 ms.assetid: 7964e25e-43ed-4ed0-aeee-dac656700fea
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_RequestedSectorType method, IDiscFormat2RawCD.get_RequestedSectorType, IDiscFormat2RawCD::get_RequestedSectorType, get_RequestedSectorType, get_RequestedSectorType method [IMAPI], get_RequestedSectorType method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd__get_requestedsectortype_, imapi2/IDiscFormat2RawCD::get_RequestedSectorType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportjob_formats.htm
 tech.root: fsrm
 ms.assetid: 9d0f7a7f-ad25-4d44-bc11-67da7685142a
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: Formats property [File Server Resource Manager], Formats property [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],Formats property, IFsrmReportJob.Formats, IFsrmReportJob.put_Formats, IFsrmReportJob::Formats, IFsrmReportJob::get_Formats, IFsrmReportJob::put_Formats, fs.ifsrmreportjob_formats, fsrm.ifsrmreportjob_formats, fsrmreports/IFsrmReportJob::Formats, fsrmreports/IFsrmReportJob::get_Formats, fsrmreports/IFsrmReportJob::put_Formats, put_Formats
 ms.prod: windows-hardware
 ms.technology: windows-devices

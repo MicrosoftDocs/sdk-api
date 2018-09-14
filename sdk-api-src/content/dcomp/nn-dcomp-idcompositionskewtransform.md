@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionskewtransform.htm
 tech.root: directcomp
 ms.assetid: c1dbc11f-b8e3-487e-84f0-517ebaf65de8
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionSkewTransform, IDCompositionSkewTransform interface [DirectComposition], IDCompositionSkewTransform interface [DirectComposition],described, dcomp/IDCompositionSkewTransform, directcomp.idcompositionskewtransform
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\charupperbuff.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupperbuff.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: CharUpperBuff, CharUpperBuff function [Menus and Other Resources], CharUpperBuffA, CharUpperBuffW, _win32_CharUpperBuff, _win32_charupperbuff_cpp, menurc.charupperbuff, winui._win32_charupperbuff, winuser/CharUpperBuff, winuser/CharUpperBuffA, winuser/CharUpperBuffW
 ms.prod: windows-hardware
 ms.technology: windows-devices

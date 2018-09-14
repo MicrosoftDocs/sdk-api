@@ -7,7 +7,7 @@ old-location: dshow\iamcrossbar_route.htm
 tech.root: DirectShow
 ms.assetid: a3f6823d-e389-478a-b882-2556a3cbd821
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IAMCrossbar interface [DirectShow],Route method, IAMCrossbar.Route, IAMCrossbar::Route, IAMCrossbarRoute, Route, Route method [DirectShow], Route method [DirectShow],IAMCrossbar interface, dshow.iamcrossbar_route, strmif/IAMCrossbar::Route
 ms.prod: windows-hardware
 ms.technology: windows-devices

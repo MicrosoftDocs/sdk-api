@@ -7,7 +7,7 @@ old-location: search\_search_ICondition_GetValueNormalization.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getvaluenormalization.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: GetValueNormalization, GetValueNormalization method [search], GetValueNormalization method [search],ICondition interface, ICondition interface [search],GetValueNormalization method, ICondition.GetValueNormalization, ICondition::GetValueNormalization, _search_ICondition_GetValueNormalization, search._search_ICondition_GetValueNormalization, structuredquerycondition/ICondition::GetValueNormalization
 ms.prod: windows-hardware
 ms.technology: windows-devices

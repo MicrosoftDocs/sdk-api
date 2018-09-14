@@ -4,10 +4,10 @@ title: "_PERF_COUNTER_HEADER"
 author: windows-sdk-content
 description: Contains information about the PERF_COUNTER_HEADER block that contains the structure.
 old-location: perf\perf_counter_header.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: 8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPERF_COUNTER_HEADER, PERF_COUNTERSET, PERF_COUNTER_HEADER, PERF_COUNTER_HEADER structure [Perf], PERF_ERROR_RETURN, PERF_MULTIPLE_COUNTERS, PERF_MULTIPLE_INSTANCES, PERF_SINGLE_COUNTER, PPERF_COUNTER_HEADER, PPERF_COUNTER_HEADER structure pointer [Perf], _PERF_COUNTER_HEADER, perf.perf_counter_header, perflib/PERF_COUNTER_HEADER, perflib/PPERF_COUNTER_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

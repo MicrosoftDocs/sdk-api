@@ -4,10 +4,10 @@ title: FWPS_FILTER1_
 author: windows-sdk-content
 description: The FWPS_FILTER1 structure defines a run-time filter in the filter engine.Note  FWPS_FILTER1 is the specific version of FWPS_FILTER used in Windows 7 and later.
 old-location: netvista\fwps_filter1.htm
-tech.root: netvista
+tech.root: NetVista
 ms.assetid: 3a5f6f0a-0162-4e64-b3c1-60021ef2dd95
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: FWPS_FILTER1, FWPS_FILTER1 structure [Network Drivers Starting with Windows Vista], FWPS_FILTER1_, FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT, FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED, fwpstypes/FWPS_FILTER1, netvista.fwps_filter1, wfp_ref_3_struct_3_fwps_F-O_4091c3ca-8d86-4a94-a138-01a6ce09cca8.xml
 ms.prod: windows
 ms.technology: windows-sdk

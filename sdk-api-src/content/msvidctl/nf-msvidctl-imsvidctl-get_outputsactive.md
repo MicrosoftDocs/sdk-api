@@ -4,10 +4,10 @@ title: IMSVidCtl::get_OutputsActive
 author: windows-sdk-content
 description: The get_OutputsActive method retrieves the output devices that are currently active.
 old-location: mstv\imsvidctl_get_outputsactive.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 9465ff38-c524-47e1-8bc0-bd6b2e0dea8c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_OutputsActive method, IMSVidCtl.get_OutputsActive, IMSVidCtl::get_OutputsActive, IMSVidCtlget_OutputsActive, get_OutputsActive, get_OutputsActive method [Microsoft TV Technologies], get_OutputsActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_outputsactive, msvidctl/IMSVidCtl::get_OutputsActive
 ms.prod: windows-hardware
 ms.technology: windows-devices

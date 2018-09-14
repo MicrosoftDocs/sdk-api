@@ -7,7 +7,7 @@ old-location: appxpkg\appx_package_editor_update_package_option.htm
 tech.root: appxpkg
 ms.assetid: 62023009-97F6-40DF-ACB0-EA4D42CDB636
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION, APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION enumeration [App packaging and management], APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION_APPEND_DELTA, appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION, appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION_APPEND_DELTA, appxpkg.appx_package_editor_update_package_option
 ms.prod: windows
 ms.technology: windows-sdk

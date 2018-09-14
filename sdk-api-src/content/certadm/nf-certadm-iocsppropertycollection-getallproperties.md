@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection_getallproperties_method.htm
 tech.root: seccrypto
 ms.assetid: 46a20d55-a673-4f9b-9fb9-bfc631d70f99
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetAllProperties, GetAllProperties method [Security], GetAllProperties method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],GetAllProperties method, IOCSPPropertyCollection.GetAllProperties, IOCSPPropertyCollection::GetAllProperties, certadm/IOCSPPropertyCollection::GetAllProperties, security.iocsppropertycollection_getallproperties_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

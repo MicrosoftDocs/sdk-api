@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphics.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: Graphics, Graphics class [GDI+], Graphics class [GDI+],described, _gdiplus_CLASS_Graphics_Class, gdiplus._gdiplus_CLASS_Graphics_Class, gdiplusgraphics/Graphics
 ms.prod: windows
 ms.technology: windows-sdk

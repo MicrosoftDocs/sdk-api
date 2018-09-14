@@ -4,10 +4,10 @@ title: CStdAsyncStubBuffer_Disconnect function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Disconnect method and disconnects the server object from the stub.
 old-location: rpc\cstdasyncstubbuffer_disconnect.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: B8450473-1C2D-48F5-9B68-438A25ADB4DF
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: CStdAsyncStubBuffer_Disconnect, CStdAsyncStubBuffer_Disconnect function [RPC], rpc.cstdasyncstubbuffer_disconnect, rpcproxy/CStdAsyncStubBuffer_Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

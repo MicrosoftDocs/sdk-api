@@ -4,10 +4,10 @@ title: IX509PolicyServerUrl::SetStringProperty
 author: windows-sdk-content
 description: Specifies the certificate enrollment policy (CEP) server ID or the display name of the CEP server.
 old-location: security\ix509policyserverurl_setstringproperty.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: b02ca192-274a-4d15-8c16-4975134c92b4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509PolicyServerUrl interface [Security],SetStringProperty method, IX509PolicyServerUrl.SetStringProperty, IX509PolicyServerUrl::SetStringProperty, PsFriendlyName, PsPolicyID, SetStringProperty, SetStringProperty method [Security], SetStringProperty method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::SetStringProperty, security.ix509policyserverurl_setstringproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

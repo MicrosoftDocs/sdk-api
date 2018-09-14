@@ -7,7 +7,7 @@ old-location: automat\vari4fromcy.htm
 tech.root: automat
 ms.assetid: fb5905f1-af15-4ab6-8c7a-b316709f0870
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: VarI4FromCy, VarI4FromCy function [Automation], _oa96_VarI4FromCy, automat.vari4fromcy, oleauto/VarI4FromCy
 ms.prod: windows-hardware
 ms.technology: windows-devices

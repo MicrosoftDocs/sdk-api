@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_getcapture.htm
 tech.root: com
 ms.assetid: adbe9c66-d716-4489-b705-43a5317c7646
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: GetCapture, GetCapture method [COM], GetCapture method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetCapture method, IOleInPlaceSiteWindowless.GetCapture, IOleInPlaceSiteWindowless::GetCapture, _ole_ioleinplacesitewindowless_getcapture, com.ioleinplacesitewindowless_getcapture, ocidl/IOleInPlaceSiteWindowless::GetCapture
 ms.prod: windows-hardware
 ms.technology: windows-devices

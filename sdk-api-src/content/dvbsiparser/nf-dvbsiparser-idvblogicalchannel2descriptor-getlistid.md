@@ -4,10 +4,10 @@ title: IDvbLogicalChannel2Descriptor::GetListId
 author: windows-sdk-content
 description: Gets the identifier for a channel list from a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistid.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 39f97d38-d588-43d0-8aea-6ef4e1b3440b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetListId, GetListId method [Microsoft TV Technologies], GetListId method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListId method, IDvbLogicalChannel2Descriptor.GetListId, IDvbLogicalChannel2Descriptor::GetListId, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListId, mstv.idvblogicalchannel2descriptor_getlistid
 ms.prod: windows-hardware
 ms.technology: windows-devices

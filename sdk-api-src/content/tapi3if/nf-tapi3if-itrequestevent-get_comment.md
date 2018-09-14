@@ -4,10 +4,10 @@ title: ITRequestEvent::get_Comment
 author: windows-sdk-content
 description: The get_Comment method gets the comment.
 old-location: tapi3\itrequestevent_get_comment.htm
-tech.root: tapi
+tech.root: TAPI
 ms.assetid: 2150d521-cbd2-457f-b3c6-97761941a442
 ms.author: windowssdkdev
-ms.date: 07/31/2018
+ms.date: 08/30/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_Comment method, ITRequestEvent.get_Comment, ITRequestEvent::get_Comment, _tapi3_itrequestevent_get_comment, get_Comment, get_Comment method [TAPI 2.2], get_Comment method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_comment, tapi3if/ITRequestEvent::get_Comment
 ms.prod: windows-hardware
 ms.technology: windows-devices

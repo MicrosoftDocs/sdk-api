@@ -7,7 +7,7 @@ old-location: inputdev\enablewindow.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\enablewindow.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: EnableWindow, EnableWindow function [Keyboard and Mouse Input], _win32_EnableWindow, _win32_enablewindow_cpp, inputdev.enablewindow, winui._win32_enablewindow, winuser/EnableWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

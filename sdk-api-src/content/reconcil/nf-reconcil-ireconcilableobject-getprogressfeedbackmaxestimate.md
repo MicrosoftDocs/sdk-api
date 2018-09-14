@@ -7,7 +7,7 @@ old-location: lwef\ireconcilableobject_getprogressfeedbackmaxestimate.htm
 tech.root: lwef
 ms.assetid: fdaa7f59-3aba-4a9e-b394-a76029ddab13
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetProgressFeedbackMaxEstimate, GetProgressFeedbackMaxEstimate method [Legacy Windows Environment Features], GetProgressFeedbackMaxEstimate method [Legacy Windows Environment Features],IReconcilableObject interface, IReconcilableObject interface [Legacy Windows Environment Features],GetProgressFeedbackMaxEstimate method, IReconcilableObject.GetProgressFeedbackMaxEstimate, IReconcilableObject::GetProgressFeedbackMaxEstimate, _win32_IReconcilableObject_GetProgressFeedbackMaxEstimate, lwef.ireconcilableobject_getprogressfeedbackmaxestimate, reconcil/IReconcilableObject::GetProgressFeedbackMaxEstimate, shell.ireconcilableobject_getprogressfeedbackmaxestimate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ienroll4_enablet61dnencoding.htm
 tech.root: seccrypto
 ms.assetid: 7ed181d1-b06f-40f4-892a-80edf327bf40
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: EnableT61DNEncoding property [Security], EnableT61DNEncoding property [Security],IEnroll interface, IEnroll interface [Security],EnableT61DNEncoding property, IEnroll.EnableT61DNEncoding, IEnroll.put_EnableT61DNEncoding, IEnroll::EnableT61DNEncoding, IEnroll::get_EnableT61DNEncoding, IEnroll::put_EnableT61DNEncoding, put_EnableT61DNEncoding, security.ienroll4_enablet61dnencoding, xenroll/IEnroll::EnableT61DNEncoding, xenroll/IEnroll::get_EnableT61DNEncoding, xenroll/IEnroll::put_EnableT61DNEncoding
 ms.prod: windows-hardware
 ms.technology: windows-devices

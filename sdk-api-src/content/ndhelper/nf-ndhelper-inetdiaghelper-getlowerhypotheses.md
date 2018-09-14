@@ -4,10 +4,10 @@ title: INetDiagHelper::GetLowerHypotheses
 author: windows-sdk-content
 description: Generate hypotheses for possible causes of low health in the local components.
 old-location: ndf\inetdiaghelpe_getlowerhypotheses.htm
-tech.root: ndf
+tech.root: NDF
 ms.assetid: d17f5241-6efb-45a7-b355-8343e48b3261
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetLowerHypotheses, GetLowerHypotheses method [NDF], GetLowerHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetLowerHypotheses method, INetDiagHelper.GetLowerHypotheses, INetDiagHelper::GetLowerHypotheses, ndf.inetdiaghelpe_getlowerhypotheses, ndhelper/INetDiagHelper::GetLowerHypotheses
 ms.prod: windows-hardware
 ms.technology: windows-devices

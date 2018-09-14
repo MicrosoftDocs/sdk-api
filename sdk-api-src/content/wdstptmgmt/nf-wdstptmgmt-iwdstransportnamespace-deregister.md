@@ -4,10 +4,10 @@ title: IWdsTransportNamespace::Deregister
 author: windows-sdk-content
 description: Deregisters the namespace on the server.
 old-location: wds\iwdstransportnamespace_deregister.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 32881121-b5aa-4ccf-9884-431dbd283e4c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: Deregister, Deregister method [Windows Deployment Services], Deregister method [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Deregister method, IWdsTransportNamespace.Deregister, IWdsTransportNamespace::Deregister, wds.iwdstransportnamespace_deregister, wdstptmgmt/IWdsTransportNamespace::Deregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

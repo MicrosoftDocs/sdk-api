@@ -7,7 +7,7 @@ old-location: intl\mappingdoaction.htm
 tech.root: Intl
 ms.assetid: c3903d10-3429-4707-82b5-33efa6b2dc4c
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/30/2018
 ms.keywords: MappingDoAction, MappingDoAction function [Internationalization for Windows Applications], elscore/MappingDoAction, intl.mappingdoaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

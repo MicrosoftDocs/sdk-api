@@ -7,7 +7,7 @@ old-location: cos\iserviceiisintrinsicsconfig.htm
 tech.root: cossdk
 ms.assetid: fc4524b0-ef00-429d-ad27-cb81f8a5269f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IServiceIISIntrinsicsConfig, IServiceIISIntrinsicsConfig interface [COM+], IServiceIISIntrinsicsConfig interface [COM+],described, _cos_IServiceIISIntrinsicsConfig, comsvcs/IServiceIISIntrinsicsConfig, cos.iserviceiisintrinsicsconfig
 ms.prod: windows
 ms.technology: windows-sdk

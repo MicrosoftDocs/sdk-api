@@ -7,7 +7,7 @@ old-location: mf\dxva2_videoprimaries.htm
 tech.root: medfound
 ms.assetid: 4534a198-cf6c-4689-9fe4-0e5cdc7ce26a
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 4534a198-cf6c-4689-9fe4-0e5cdc7ce26a, DXVA2_VideoPrimaries, DXVA2_VideoPrimaries enumeration [Media Foundation], DXVA2_VideoPrimariesMask, DXVA2_VideoPrimaries_BT470_2_SysBG, DXVA2_VideoPrimaries_BT470_2_SysM, DXVA2_VideoPrimaries_BT709, DXVA2_VideoPrimaries_EBU3213, DXVA2_VideoPrimaries_SMPTE170M, DXVA2_VideoPrimaries_SMPTE240M, DXVA2_VideoPrimaries_SMPTE_C, DXVA2_VideoPrimaries_Unknown, DXVA2_VideoPrimaries_reserved, _DXVA2_VideoPrimaries, dxva2api/DXVA2_VideoPrimaries, dxva2api/DXVA2_VideoPrimariesMask, dxva2api/DXVA2_VideoPrimaries_BT470_2_SysBG, dxva2api/DXVA2_VideoPrimaries_BT470_2_SysM, dxva2api/DXVA2_VideoPrimaries_BT709, dxva2api/DXVA2_VideoPrimaries_EBU3213, dxva2api/DXVA2_VideoPrimaries_SMPTE170M, dxva2api/DXVA2_VideoPrimaries_SMPTE240M, dxva2api/DXVA2_VideoPrimaries_SMPTE_C, dxva2api/DXVA2_VideoPrimaries_Unknown, dxva2api/DXVA2_VideoPrimaries_reserved, mf.dxva2_videoprimaries
 ms.prod: windows
 ms.technology: windows-sdk

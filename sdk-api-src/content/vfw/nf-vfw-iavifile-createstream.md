@@ -7,7 +7,7 @@ old-location: multimedia\iavifile_createstream.htm
 tech.root: Multimedia
 ms.assetid: 5c922bb0-53ca-4285-861a-4701503b0445
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/31/2018
 ms.keywords: CreateStream, CreateStream method [Windows Multimedia], CreateStream method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],CreateStream method, IAVIFile.CreateStream, IAVIFile::CreateStream, _win32_IAVIFile_CreateStream, multimedia.iavifile_createstream, vfw/IAVIFile::CreateStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

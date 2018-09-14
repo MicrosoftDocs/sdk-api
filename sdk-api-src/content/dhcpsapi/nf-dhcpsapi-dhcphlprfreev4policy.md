@@ -4,10 +4,10 @@ title: DhcpHlprFreeV4Policy function
 author: windows-sdk-content
 description: Frees the memory of all the data structures within a DHCP server policy structure.
 old-location: dhcp\dhcphlprfreev4policy.htm
-tech.root: dhcp
+tech.root: DHCP
 ms.assetid: ace10974-784b-41f7-aee9-461c8d63b479
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DhcpHlprFreeV4Policy, DhcpHlprFreeV4Policy function [DHCP], dhcp.dhcphlprfreev4policy, dhcpsapi/DhcpHlprFreeV4Policy
 ms.prod: windows-hardware
 ms.technology: windows-devices

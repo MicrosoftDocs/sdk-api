@@ -4,10 +4,10 @@ title: TdhUnloadManifest function
 author: windows-sdk-content
 description: Unloads the manifest that was loaded by the TdhLoadManifest function.
 old-location: etw\tdhunloadmanifest.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: ce0dd781-04b2-4e0c-9e79-44864f53f176
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 08/29/2018
 ms.keywords: TdhUnloadManifest, TdhUnloadManifest function [ETW], etw.tdhunloadmanifest, tdh/TdhUnloadManifest
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamvideoprocamp_get.htm
 tech.root: DirectShow
 ms.assetid: 8924383e-23e1-4732-9eff-dc7c8d0e361a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: Get, Get method [DirectShow], Get method [DirectShow],IAMVideoProcAmp interface, IAMVideoProcAmp interface [DirectShow],Get method, IAMVideoProcAmp.Get, IAMVideoProcAmp::Get, IAMVideoProcAmpGet, dshow.iamvideoprocamp_get, strmif/IAMVideoProcAmp::Get
 ms.prod: windows-hardware
 ms.technology: windows-devices

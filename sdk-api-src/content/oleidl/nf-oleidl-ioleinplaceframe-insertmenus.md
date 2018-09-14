@@ -7,7 +7,7 @@ old-location: com\ioleinplaceframe_insertmenus.htm
 tech.root: com
 ms.assetid: 659ea109-c2c1-4146-aed2-60b1ce853d89
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IOleInPlaceFrame interface [COM],InsertMenus method, IOleInPlaceFrame.InsertMenus, IOleInPlaceFrame::InsertMenus, InsertMenus, InsertMenus method [COM], InsertMenus method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_insertmenus, com.ioleinplaceframe_insertmenus, oleidl/IOleInPlaceFrame::InsertMenus
 ms.prod: windows-hardware
 ms.technology: windows-devices

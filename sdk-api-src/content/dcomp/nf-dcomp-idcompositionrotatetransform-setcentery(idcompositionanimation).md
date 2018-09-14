@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform_setcentery_float.htm
 tech.root: directcomp
 ms.assetid: 7D4EF6C3-A0BA-42C4-841C-A40EEF5122F5
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionRotateTransform interface [DirectComposition],SetCenterY method, IDCompositionRotateTransform.SetCenterY, IDCompositionRotateTransform.SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform::SetCenterY, IDCompositionRotateTransform::SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionRotateTransform interface, dcomp/IDCompositionRotateTransform::SetCenterY, directcomp.idcompositionrotatetransform_setcentery_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

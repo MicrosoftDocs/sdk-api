@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_setvarhelpcontext.htm
 tech.root: automat
 ms.assetid: ab15e7fc-63fa-433f-9191-c7087143a7c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVarHelpContext method, ICreateTypeInfo.SetVarHelpContext, ICreateTypeInfo::SetVarHelpContext, SetVarHelpContext, SetVarHelpContext method [Automation], SetVarHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVarHelpContext, automat.icreatetypeinfo_setvarhelpcontext, oaidl/ICreateTypeInfo::SetVarHelpContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_PathPointType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\pathpointtype.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: PathPointType, PathPointType enumeration [GDI+], PathPointTypeBezier, PathPointTypeBezier3, PathPointTypeCloseSubpath, PathPointTypeLine, PathPointTypePathDashMode, PathPointTypePathMarker, PathPointTypePathTypeMask, PathPointTypeStart, _gdiplus_ENUM_PathPointType, gdiplus._gdiplus_ENUM_PathPointType, gdiplusenums/PathPointType, gdiplusenums/PathPointTypeBezier, gdiplusenums/PathPointTypeBezier3, gdiplusenums/PathPointTypeCloseSubpath, gdiplusenums/PathPointTypeLine, gdiplusenums/PathPointTypePathDashMode, gdiplusenums/PathPointTypePathMarker, gdiplusenums/PathPointTypePathTypeMask, gdiplusenums/PathPointTypeStart
 ms.prod: windows
 ms.technology: windows-sdk

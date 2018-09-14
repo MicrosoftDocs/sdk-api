@@ -4,10 +4,10 @@ title: GetAnycastIpAddressTable function
 author: windows-sdk-content
 description: Retrieves the anycast IP address table on the local computer.
 old-location: iphlp\getanycastipaddresstable.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 4eccae59-00be-4f9c-bb62-a507d7dad2e0
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetAnycastIpAddressTable, GetAnycastIpAddressTable function [IP Helper], iphlp.getanycastipaddresstable, netioapi/GetAnycastIpAddressTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

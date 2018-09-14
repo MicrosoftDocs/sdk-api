@@ -4,10 +4,10 @@ title: IAttributeSet
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IAttributeSet interface sets key/value pairs on an object, where the key is a GUID and the value is any binary data.
 old-location: mstv\iattributeset.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: ce10ae94-5bd5-4f97-a341-8d5f894bda59
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IAttributeSet, IAttributeSet interface [Microsoft TV Technologies], IAttributeSet interface [Microsoft TV Technologies],described, IAttributeSetInterface, dsattrib/IAttributeSet, mstv.iattributeset
 ms.prod: windows
 ms.technology: windows-sdk

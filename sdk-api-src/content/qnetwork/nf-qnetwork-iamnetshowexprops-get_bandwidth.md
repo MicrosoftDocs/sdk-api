@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_get_bandwidth.htm
 tech.root: DirectShow
 ms.assetid: 042ddea5-c17a-4cd6-a18d-9a3b65bf11b7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_Bandwidth method, IAMNetShowExProps.get_Bandwidth, IAMNetShowExProps::get_Bandwidth, IAMNetShowExPropsget_Bandwidth, dshow.iamnetshowexprops_get_bandwidth, get_Bandwidth, get_Bandwidth method [DirectShow], get_Bandwidth method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_Bandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

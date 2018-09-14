@@ -7,7 +7,7 @@ old-location: adsi\ads_security_info_enum.htm
 tech.root: ADSI
 ms.assetid: 9cd1bb86-313d-4499-97ae-0b53a13a804b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: ADS_SECURITY_INFO_DACL, ADS_SECURITY_INFO_ENUM, ADS_SECURITY_INFO_ENUM enumeration [ADSI], ADS_SECURITY_INFO_GROUP, ADS_SECURITY_INFO_OWNER, ADS_SECURITY_INFO_SACL, __MIDL___MIDL_itf_ads_0001_0077_0002, _ds_ads_security_info_enum, adsi.ads__security__info__enum, adsi.ads_security_info_enum, iads/ADS_SECURITY_INFO_DACL, iads/ADS_SECURITY_INFO_ENUM, iads/ADS_SECURITY_INFO_GROUP, iads/ADS_SECURITY_INFO_OWNER, iads/ADS_SECURITY_INFO_SACL
 ms.prod: windows
 ms.technology: windows-sdk

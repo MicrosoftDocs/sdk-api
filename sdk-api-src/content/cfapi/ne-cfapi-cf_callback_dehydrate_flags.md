@@ -7,7 +7,7 @@ old-location: cloudapi\cf_callback_dehydrate_flags.htm
 tech.root: cfApi
 ms.assetid: DCB085EA-1468-44FB-9D45-F5C89693CBE7
 ms.author: windowssdkdev
-ms.date: 02/27/2018
+ms.date: 08/29/2018
 ms.keywords: CF_CALLBACK_DEHYDRATE_FLAGS, CF_CALLBACK_DEHYDRATE_FLAGS enumeration, CF_CALLBACK_DEHYDRATE_FLAG_BACKGROUND, CF_CALLBACK_DEHYDRATE_FLAG_NONE, cfapi/CF_CALLBACK_DEHYDRATE_FLAGS, cfapi/CF_CALLBACK_DEHYDRATE_FLAG_BACKGROUND, cfapi/CF_CALLBACK_DEHYDRATE_FLAG_NONE, cloudApi.cf_callback_dehydrate_flags
 ms.prod: windows
 ms.technology: windows-sdk

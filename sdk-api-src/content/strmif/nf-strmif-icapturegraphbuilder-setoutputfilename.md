@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder_setoutputfilename.htm
 tech.root: DirectShow
 ms.assetid: f410465f-c560-49ab-9194-66d708274f77
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: ICaptureGraphBuilder interface [DirectShow],SetOutputFileName method, ICaptureGraphBuilder.SetOutputFileName, ICaptureGraphBuilder::SetOutputFileName, ICaptureGraphBuilderSetOutputFileName, SetOutputFileName, SetOutputFileName method [DirectShow], SetOutputFileName method [DirectShow],ICaptureGraphBuilder interface, dshow.icapturegraphbuilder_setoutputfilename, strmif/ICaptureGraphBuilder::SetOutputFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

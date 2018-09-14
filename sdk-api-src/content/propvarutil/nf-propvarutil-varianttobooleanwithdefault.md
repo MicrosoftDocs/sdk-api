@@ -7,7 +7,7 @@ old-location: properties\VariantToBooleanWithDefault.htm
 tech.root: properties
 ms.assetid: 523c6e75-a51c-4ef7-928c-0d228ab0d337
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: VariantToBooleanWithDefault, VariantToBooleanWithDefault function [Windows Properties], _shell_VariantToBooleanWithDefault, properties.VariantToBooleanWithDefault, propvarutil/VariantToBooleanWithDefault, shell.VariantToBooleanWithDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices

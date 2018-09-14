@@ -7,7 +7,7 @@ old-location: display\adapter.htm
 tech.root: display
 ms.assetid: c62c6aed-2593-4b5d-884f-99d20e269eb1
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/13/2018
 ms.keywords: Adapter, Adapter structure [Display Devices], TMM_Ref_6570c45d-9024-46c4-bcd4-848eb2d18955.xml, cloneviewhelper/Adapter, display.adapter, tagAdapter
 ms.prod: windows
 ms.technology: windows-sdk

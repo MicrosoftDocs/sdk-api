@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_installcomponent.htm
 tech.root: cossdk
 ms.assetid: 63af9aa4-a1f0-4277-bd36-8b4c64227b3f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallComponent method, ICOMAdminCatalog.InstallComponent, ICOMAdminCatalog::InstallComponent, InstallComponent, InstallComponent method [COM+], InstallComponent method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallComponent, comadmin/ICOMAdminCatalog::InstallComponent, cos.icomadmincatalog_installcomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices

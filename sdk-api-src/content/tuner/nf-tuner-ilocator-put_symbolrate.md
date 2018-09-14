@@ -4,10 +4,10 @@ title: ILocator::put_SymbolRate
 author: windows-sdk-content
 description: The put_SymbolRate method sets the QPSK symbol rate.
 old-location: mstv\ilocator_put_symbolrate.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 1eb91e22-b9b1-47dc-a2e4-cc64eeaacaaa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IDigitalLocatorput_SymbolRate, ILocator interface [Microsoft TV Technologies],put_SymbolRate method, ILocator.put_SymbolRate, ILocator::put_SymbolRate, mstv.ilocator_put_symbolrate, put_SymbolRate, put_SymbolRate method [Microsoft TV Technologies], put_SymbolRate method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_SymbolRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

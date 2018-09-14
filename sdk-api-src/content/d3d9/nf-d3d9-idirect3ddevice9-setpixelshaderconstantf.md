@@ -4,10 +4,10 @@ title: IDirect3DDevice9::SetPixelShaderConstantF
 author: windows-sdk-content
 description: Sets a floating-point shader constant.
 old-location: direct3d9\idirect3ddevice9__setpixelshaderconstantf.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setpixelshaderconstantf.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 4fc94dcb-1d4f-d3e3-578a-ca1fec85dd86, IDirect3DDevice9 interface [Direct3D 9],SetPixelShaderConstantF method, IDirect3DDevice9.SetPixelShaderConstantF, IDirect3DDevice9::SetPixelShaderConstantF, SetPixelShaderConstantF, SetPixelShaderConstantF method [Direct3D 9], SetPixelShaderConstantF method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetPixelShaderConstantF, direct3d9.idirect3ddevice9__setpixelshaderconstantf
 ms.prod: windows-hardware
 ms.technology: windows-devices

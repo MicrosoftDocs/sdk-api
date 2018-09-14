@@ -7,7 +7,7 @@ old-location: p2p\drtclose.htm
 tech.root: p2psdk
 ms.assetid: 37c0a579-64be-4ed6-b1b3-852013875361
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: DrtClose, DrtClose function [Peer Networking], drt/DrtClose, p2p.drtclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

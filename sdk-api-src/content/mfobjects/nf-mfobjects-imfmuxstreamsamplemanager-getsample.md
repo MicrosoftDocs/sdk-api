@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreamsamplemanager_getsample.htm
 tech.root: medfound
 ms.assetid: F52147C3-FF6D-4F8F-93BE-2A3237C5A827
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: GetSample, GetSample method [Media Foundation], GetSample method [Media Foundation],IMFMuxStreamSampleManager interface, IMFMuxStreamSampleManager interface [Media Foundation],GetSample method, IMFMuxStreamSampleManager.GetSample, IMFMuxStreamSampleManager::GetSample, mf.imfmuxstreamsamplemanager_getsample, mfobjects/IMFMuxStreamSampleManager::GetSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: adsi\iadspropertyvalue.htm
 tech.root: ADSI
 ms.assetid: 7cad4d04-80d4-4f9a-95b7-2f1809ddb8fb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsPropertyValue, IADsPropertyValue interface [ADSI], IADsPropertyValue interface [ADSI],described, PropertyValue, _ds_iadspropertyvalue, adsi.iadspropertyvalue, iads/IADsPropertyValue
 ms.prod: windows
 ms.technology: windows-sdk

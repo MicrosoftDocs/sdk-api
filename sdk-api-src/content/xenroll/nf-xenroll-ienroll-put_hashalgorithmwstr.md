@@ -7,7 +7,7 @@ old-location: security\ienroll4_hashalgorithmwstr.htm
 tech.root: seccrypto
 ms.assetid: c359c4c8-f53d-48f1-a2ac-9275751b48dc
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: HashAlgorithmWStr property [Security], HashAlgorithmWStr property [Security],IEnroll interface, IEnroll interface [Security],HashAlgorithmWStr property, IEnroll.HashAlgorithmWStr, IEnroll.put_HashAlgorithmWStr, IEnroll::HashAlgorithmWStr, IEnroll::get_HashAlgorithmWStr, IEnroll::put_HashAlgorithmWStr, put_HashAlgorithmWStr, security.ienroll4_hashalgorithmwstr, xenroll/IEnroll::HashAlgorithmWStr, xenroll/IEnroll::get_HashAlgorithmWStr, xenroll/IEnroll::put_HashAlgorithmWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

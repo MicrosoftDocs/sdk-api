@@ -4,10 +4,10 @@ title: DRMGetCertificateChainCount function
 author: windows-sdk-content
 description: Retrieves the number of certificates in a certificate chain.
 old-location: rm\drmgetcertificatechaincount.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: c19e7cfe-2a28-41d5-9075-3e159be1d9ab
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMGetCertificateChainCount, DRMGetCertificateChainCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetCertificateChainCount, rm.drmgetcertificatechaincount
 ms.prod: windows-hardware
 ms.technology: windows-devices

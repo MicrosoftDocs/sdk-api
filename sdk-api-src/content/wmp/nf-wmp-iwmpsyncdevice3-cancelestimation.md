@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice3_cancelestimation.htm
 tech.root: WMP
 ms.assetid: 82e87e44-0a38-43c0-bbed-011581ae8a85
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPSyncDevice3 interface [Windows Media Player],cancelEstimation method, IWMPSyncDevice3.cancelEstimation, IWMPSyncDevice3::cancelEstimation, cancelEstimation, cancelEstimation method [Windows Media Player], cancelEstimation method [Windows Media Player],IWMPSyncDevice3 interface, wmp.iwmpsyncdevice3_cancelestimation, wmp/IWMPSyncDevice3::cancelEstimation
 ms.prod: windows-hardware
 ms.technology: windows-devices

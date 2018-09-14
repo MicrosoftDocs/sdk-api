@@ -4,10 +4,10 @@ title: IBackgroundCopyJob3
 author: windows-sdk-content
 description: Use the IBackgroundCopyJob3 interface to download ranges of a file and change the prefix of a remote file name.
 old-location: bits\ibackgroundcopyjob3.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 46e115bb-2634-4b79-b307-45720d8cb2be
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBackgroundCopyJob3, IBackgroundCopyJob3 interface [BITS], IBackgroundCopyJob3 interface [BITS],described, bits.ibackgroundcopyjob3, bits2_0/IBackgroundCopyJob3
 ms.prod: windows
 ms.technology: windows-sdk

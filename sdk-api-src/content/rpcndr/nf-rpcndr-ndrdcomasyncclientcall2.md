@@ -4,10 +4,10 @@ title: NdrDcomAsyncClientCall2 function
 author: windows-sdk-content
 description: NdrDcomAsyncClientCall2 may be altered or unavailable.
 old-location: rpc\ndrdcomasyncclientcall2.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 87BA97F8-E905-44C7-BBC6-A62240216984
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: NdrDcomAsyncClientCall2, NdrDcomAsyncClientCall2 function [RPC], rpc.ndrdcomasyncclientcall2, rpcndr/NdrDcomAsyncClientCall2
 ms.prod: windows-hardware
 ms.technology: windows-devices

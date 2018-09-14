@@ -4,10 +4,10 @@ title: tagNMLVEMPTYMARKUP
 author: windows-sdk-content
 description: Contains information used with the LVN_GETEMPTYMARKUP notification code.
 old-location: controls\NMLVEMPTYMARKUP.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvemptymarkup.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: EMF_CENTERED, NMLVEMPTYMARKUP, NMLVEMPTYMARKUP structure [Windows Controls], commctrl/NMLVEMPTYMARKUP, controls.NMLVEMPTYMARKUP, controls.shell_NMLVEMPTYMARKUP, shell_NMLVEMPTYMARKUP, shell_NMLVEMPTYMARKUP_cpp, tagNMLVEMPTYMARKUP
 ms.prod: windows
 ms.technology: windows-sdk

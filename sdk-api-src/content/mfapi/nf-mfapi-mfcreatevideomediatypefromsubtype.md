@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideomediatypefromsubtype.htm
 tech.root: medfound
 ms.assetid: 3ae58096-fe11-4cc8-9887-2e13f56a958d
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 09/13/2018
 ms.keywords: 3ae58096-fe11-4cc8-9887-2e13f56a958d, MFCreateVideoMediaTypeFromSubtype, MFCreateVideoMediaTypeFromSubtype function [Media Foundation], mf.mfcreatevideomediatypefromsubtype, mfapi/MFCreateVideoMediaTypeFromSubtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: AlgorithmOperationFlags
 author: windows-sdk-content
 description: Specifies the operations that an algorithm can perform.
 old-location: security\algorithmoperationflags_enum.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 5fa7ee1e-f5ab-44c9-8ae4-a2940f0c6289
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: AlgorithmOperationFlags, AlgorithmOperationFlags enumeration [Security], XCN_NCRYPT_ANY_ASYMMETRIC_OPERATION, XCN_NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, XCN_NCRYPT_CIPHER_OPERATION, XCN_NCRYPT_EXACT_MATCH_OPERATION, XCN_NCRYPT_HASH_OPERATION, XCN_NCRYPT_NO_OPERATION, XCN_NCRYPT_PREFERENCE_MASK_OPERATION, XCN_NCRYPT_PREFER_NON_SIGNATURE_OPERATION, XCN_NCRYPT_PREFER_SIGNATURE_ONLY_OPERATION, XCN_NCRYPT_RNG_OPERATION, XCN_NCRYPT_SECRET_AGREEMENT_OPERATION, XCN_NCRYPT_SIGNATURE_OPERATION, certenroll/AlgorithmOperationFlags, certenroll/XCN_NCRYPT_ANY_ASYMMETRIC_OPERATION, certenroll/XCN_NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, certenroll/XCN_NCRYPT_CIPHER_OPERATION, certenroll/XCN_NCRYPT_EXACT_MATCH_OPERATION, certenroll/XCN_NCRYPT_HASH_OPERATION, certenroll/XCN_NCRYPT_NO_OPERATION, certenroll/XCN_NCRYPT_PREFERENCE_MASK_OPERATION, certenroll/XCN_NCRYPT_PREFER_NON_SIGNATURE_OPERATION, certenroll/XCN_NCRYPT_PREFER_SIGNATURE_ONLY_OPERATION, certenroll/XCN_NCRYPT_RNG_OPERATION, certenroll/XCN_NCRYPT_SECRET_AGREEMENT_OPERATION, certenroll/XCN_NCRYPT_SIGNATURE_OPERATION, security.algorithmoperationflags_enum
 ms.prod: windows
 ms.technology: windows-sdk

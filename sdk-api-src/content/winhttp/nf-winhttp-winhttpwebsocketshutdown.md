@@ -4,10 +4,10 @@ title: WinHttpWebSocketShutdown function
 author: windows-sdk-content
 description: Sends a close frame to a WebSocket server to close the send channel, but leaves the receive channel open.
 old-location: http\winhttpwebsocketshutdown.htm
-tech.root: WinHttp
+tech.root: winhttp
 ms.assetid: C98FDBE1-DDBC-45c7-81FA-CB7C5940E3B5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/11/2018
 ms.keywords: WinHttpWebSocketShutdown, WinHttpWebSocketShutdown function [WinHTTP], http.winhttpwebsocketshutdown, winhttp/WinHttpWebSocketShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

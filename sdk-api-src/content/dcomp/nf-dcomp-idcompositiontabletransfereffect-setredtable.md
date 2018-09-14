@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiontabletransfereffect_setredtable.htm
 tech.root: directcomp
 ms.assetid: 4113919E-84B9-402A-A2A1-64EB74D2CC59
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetRedTable method, IDCompositionTableTransferEffect.SetRedTable, IDCompositionTableTransferEffect::SetRedTable, SetRedTable, SetRedTable method [DirectComposition], SetRedTable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetRedTable, directcomp.idcompositiontabletransfereffect_setredtable
 ms.prod: windows-hardware
 ms.technology: windows-devices

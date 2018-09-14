@@ -7,7 +7,7 @@ old-location: cos\iserviceactivity_asynchronouscall.htm
 tech.root: cossdk
 ms.assetid: 1d81f2e6-9426-4733-bd1d-0b6ca087cc0a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: AsynchronousCall, AsynchronousCall method [COM+], AsynchronousCall method [COM+],IServiceActivity interface, IServiceActivity interface [COM+],AsynchronousCall method, IServiceActivity.AsynchronousCall, IServiceActivity::AsynchronousCall, _cos_IServiceActivity_AsynchronousCall, comsvcs/IServiceActivity::AsynchronousCall, cos.iserviceactivity_asynchronouscall
 ms.prod: windows-hardware
 ms.technology: windows-devices

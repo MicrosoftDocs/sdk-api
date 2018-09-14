@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertybag_addmessage.htm
 tech.root: fsrm
 ms.assetid: 2d9166fd-5211-4114-843f-2c6563941715
 ms.author: windowssdkdev
-ms.date: 08/01/2018
+ms.date: 09/07/2018
 ms.keywords: AddMessage, AddMessage method [File Server Resource Manager], AddMessage method [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],AddMessage method, IFsrmPropertyBag.AddMessage, IFsrmPropertyBag::AddMessage, fs.ifsrmpropertybag_addmessage, fsrm.ifsrmpropertybag_addmessage, fsrmpipeline/IFsrmPropertyBag::AddMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

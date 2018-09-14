@@ -4,10 +4,10 @@ title: IDirect3DBaseTexture9
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DBaseTexture9 interface to manipulate texture resources including cube and volume textures.
 old-location: direct3d9\idirect3dbasetexture9.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 9a51f87c-558e-0e06-6372-a3753ac70d17, IDirect3DBaseTexture9, IDirect3DBaseTexture9 interface [Direct3D 9], IDirect3DBaseTexture9 interface [Direct3D 9],described, d3d9helper/IDirect3DBaseTexture9, direct3d9.idirect3dbasetexture9
 ms.prod: windows
 ms.technology: windows-sdk

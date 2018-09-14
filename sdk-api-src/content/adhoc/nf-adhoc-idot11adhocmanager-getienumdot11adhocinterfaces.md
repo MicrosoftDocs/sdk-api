@@ -4,10 +4,10 @@ title: IDot11AdHocManager::GetIEnumDot11AdHocInterfaces
 author: windows-sdk-content
 description: Returns the set of wireless network interface cards (NICs) available on the machine.
 old-location: nwifi\idot11adhocmanager_getienumdot11adhocinterfaces.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 2e705533-3657-4997-ae84-e18defbbc02a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetIEnumDot11AdHocInterfaces, GetIEnumDot11AdHocInterfaces method [NativeWIFI], GetIEnumDot11AdHocInterfaces method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],GetIEnumDot11AdHocInterfaces method, IDot11AdHocManager.GetIEnumDot11AdHocInterfaces, IDot11AdHocManager::GetIEnumDot11AdHocInterfaces, adhoc/IDot11AdHocManager::GetIEnumDot11AdHocInterfaces, nwifi.idot11adhocmanager_getienumdot11adhocinterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

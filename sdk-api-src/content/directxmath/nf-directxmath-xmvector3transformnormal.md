@@ -7,7 +7,7 @@ old-location: dxmath\xmvector3transformnormal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3TransformNormal(XMVECTOR,XMMATRIX)
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/31/2018
 ms.keywords: Use DirectX..XMVector3TransformNormal, XMVector3TransformNormal, XMVector3TransformNormal method [DirectX Math Support APIs], dxmath.xmvector3transformnormal
 ms.prod: windows-hardware
 ms.technology: windows-devices

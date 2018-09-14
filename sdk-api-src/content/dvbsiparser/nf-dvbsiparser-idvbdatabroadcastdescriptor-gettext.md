@@ -4,10 +4,10 @@ title: IDvbDataBroadcastDescriptor::GetText
 author: windows-sdk-content
 description: Gets the text that describes the data from a Digital Video Broadcast (DVB) data broadcast descriptor.
 old-location: mstv\idvbdatabroadcastdescriptor_gettext.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 3b25a5fa-5829-4c7f-8858-59fdddccdc65
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetText, GetText method [Microsoft TV Technologies], GetText method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetText method, IDvbDataBroadcastDescriptor.GetText, IDvbDataBroadcastDescriptor::GetText, dvbsiparser/IDvbDataBroadcastDescriptor::GetText, mstv.idvbdatabroadcastdescriptor_gettext
 ms.prod: windows-hardware
 ms.technology: windows-devices

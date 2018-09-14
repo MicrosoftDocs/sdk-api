@@ -4,10 +4,10 @@ title: IDirect3DResource9::SetPriority
 author: windows-sdk-content
 description: Assigns the priority of a resource for scheduling purposes.
 old-location: direct3d9\idirect3dresource9__setpriority.htm
-tech.root: direct3d9
+tech.root: Direct3D9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__setpriority.htm
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/30/2018
 ms.keywords: 04209b19-79e0-1e86-73f2-4225b9102296, IDirect3DResource9 interface [Direct3D 9],SetPriority method, IDirect3DResource9.SetPriority, IDirect3DResource9::SetPriority, SetPriority, SetPriority method [Direct3D 9], SetPriority method [Direct3D 9],IDirect3DResource9 interface, d3d9helper/IDirect3DResource9::SetPriority, direct3d9.idirect3dresource9__setpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_job_extended_status_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3w6l.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: FAX_JOB_EXTENDED_STATUS_ENUM, FAX_JOB_EXTENDED_STATUS_ENUM enumeration [Fax Service], _mfax_fax_job_extended_status_enum, fax._mfax_fax_job_extended_status_enum, faxcomex/FAX_JOB_EXTENDED_STATUS_ENUM, faxcomex/fjesANSWERED, faxcomex/fjesBAD_ADDRESS, faxcomex/fjesBUSY, faxcomex/fjesCALL_ABORTED, faxcomex/fjesCALL_BLACKLISTED, faxcomex/fjesCALL_COMPLETED, faxcomex/fjesCALL_DELAYED, faxcomex/fjesDIALING, faxcomex/fjesDISCONNECTED, faxcomex/fjesFATAL_ERROR, faxcomex/fjesHANDLED, faxcomex/fjesINITIALIZING, faxcomex/fjesLINE_UNAVAILABLE, faxcomex/fjesNONE, faxcomex/fjesNOT_FAX_CALL, faxcomex/fjesNO_ANSWER, faxcomex/fjesNO_DIAL_TONE, faxcomex/fjesPARTIALLY_RECEIVED, faxcomex/fjesPROPRIETARY, faxcomex/fjesRECEIVING, faxcomex/fjesTRANSMITTING, fjesANSWERED, fjesBAD_ADDRESS, fjesBUSY, fjesCALL_ABORTED, fjesCALL_BLACKLISTED, fjesCALL_COMPLETED, fjesCALL_DELAYED, fjesDIALING, fjesDISCONNECTED, fjesFATAL_ERROR, fjesHANDLED, fjesINITIALIZING, fjesLINE_UNAVAILABLE, fjesNONE, fjesNOT_FAX_CALL, fjesNO_ANSWER, fjesNO_DIAL_TONE, fjesPARTIALLY_RECEIVED, fjesPROPRIETARY, fjesRECEIVING, fjesTRANSMITTING
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\ienumtfcandidates.htm
 tech.root: TSF
 ms.assetid: 4daef7e9-e5ab-4eb8-acb6-a475b84d4de6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: IEnumTfCandidates, IEnumTfCandidates interface [Text Services Framework], IEnumTfCandidates interface [Text Services Framework],described, _tsf_ienumtfcandidates_ref, ctffunc/IEnumTfCandidates, tsf.ienumtfcandidates
 ms.prod: windows
 ms.technology: windows-sdk

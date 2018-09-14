@@ -4,10 +4,10 @@ title: IOfflineFilesPinInfo
 author: windows-sdk-content
 description: Represents the pinned status of an item in the Offline Files cache.
 old-location: of\iofflinefilespininfo.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 529a529a-fbeb-4414-b4c9-46bfcca4aa7a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOfflineFilesPinInfo, IOfflineFilesPinInfo interface [Offline Files], IOfflineFilesPinInfo interface [Offline Files],described, cscobj/IOfflineFilesPinInfo, of.iofflinefilespininfo
 ms.prod: windows
 ms.technology: windows-sdk

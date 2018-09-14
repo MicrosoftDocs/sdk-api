@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiooutputselector_setselection.htm
 tech.root: CoreAudio
 ms.assetid: e81d54f4-1451-4bd0-be06-28ff01fb65ab
 ms.author: windowssdkdev
-ms.date: 08/24/2018
+ms.date: 08/29/2018
 ms.keywords: IAudioOutputSelector interface [Core Audio],SetSelection method, IAudioOutputSelector.SetSelection, IAudioOutputSelector::SetSelection, IAudioOutputSelectorSetSelection, SetSelection, SetSelection method [Core Audio], SetSelection method [Core Audio],IAudioOutputSelector interface, coreaudio.iaudiooutputselector_setselection, devicetopology/IAudioOutputSelector::SetSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: tagNMPGHOTITEM
 author: windows-sdk-content
 description: Contains information used with the PGN_HOTITEMCHANGE notification code.
 old-location: controls\NMPGHOTITEM.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\structures\nmpghotitem.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*LPNMPGHOTITEM, LPNMPGHOTITEM, LPNMPGHOTITEM structure pointer [Windows Controls], NMPGHOTITEM, NMPGHOTITEM structure [Windows Controls], commctrl/LPNMPGHOTITEM, commctrl/NMPGHOTITEM, controls.NMPGHOTITEM, controls.inet_NMPGHOTITEM, inet_NMPGHOTITEM, inet_NMPGHOTITEM_cpp, tagNMPGHOTITEM"
 ms.prod: windows
 ms.technology: windows-sdk

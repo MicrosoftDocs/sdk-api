@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_get_PortNumber.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_portnumber.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: ISearchManager interface [search],get_PortNumber method, ISearchManager.get_PortNumber, ISearchManager::get_PortNumber, _search_ISearchManager_get_PortNumber, get_PortNumber, get_PortNumber method [search], get_PortNumber method [search],ISearchManager interface, search._search_ISearchManager_get_PortNumber, searchapi/ISearchManager::get_PortNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

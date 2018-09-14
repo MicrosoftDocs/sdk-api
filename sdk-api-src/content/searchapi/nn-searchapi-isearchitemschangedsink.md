@@ -7,7 +7,7 @@ old-location: search\_search_ISearchItemsChangedSink.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitemschangedsink\isearchitemschangedsink.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: ISearchItemsChangedSink, ISearchItemsChangedSink interface [search], ISearchItemsChangedSink interface [search],described, _search_ISearchItemsChangedSink, search._search_ISearchItemsChangedSink, searchapi/ISearchItemsChangedSink
 ms.prod: windows
 ms.technology: windows-sdk

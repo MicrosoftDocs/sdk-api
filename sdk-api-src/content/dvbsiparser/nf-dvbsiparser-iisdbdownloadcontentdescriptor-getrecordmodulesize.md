@@ -4,10 +4,10 @@ title: IIsdbDownloadContentDescriptor::GetRecordModuleSize
 author: windows-sdk-content
 description: Gets the size of a module from an Integrated Services Digital Broadcasting (ISDB) download content descriptor, in bytes.
 old-location: mstv\iisdbdownloadcontentdescriptor_getrecordmodulesize.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 395264ee-63de-4de4-bd28-4d5c4634dcf3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetRecordModuleSize, GetRecordModuleSize method [Microsoft TV Technologies], GetRecordModuleSize method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetRecordModuleSize method, IIsdbDownloadContentDescriptor.GetRecordModuleSize, IIsdbDownloadContentDescriptor::GetRecordModuleSize, dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleSize, mstv.iisdbdownloadcontentdescriptor_getrecordmodulesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

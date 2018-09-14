@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapdecoderinfo_getpatterns.htm
 tech.root: wic
 ms.assetid: 6143a431-cea6-4ced-adf5-2aa4d90d622f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: GetPatterns, GetPatterns method [Windows Imaging Component], GetPatterns method [Windows Imaging Component],IWICBitmapDecoderInfo interface, IWICBitmapDecoderInfo interface [Windows Imaging Component],GetPatterns method, IWICBitmapDecoderInfo.GetPatterns, IWICBitmapDecoderInfo::GetPatterns, _wic_codec_iwicbitmapdecoderinfo_getpatterns, wic._wic_codec_iwicbitmapdecoderinfo_getpatterns, wincodec/IWICBitmapDecoderInfo::GetPatterns
 ms.prod: windows-hardware
 ms.technology: windows-devices

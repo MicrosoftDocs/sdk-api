@@ -7,7 +7,7 @@ old-location: directmanipulation\directmanipulation_motion_types.htm
 tech.root: directmanipulation
 ms.assetid: a0b4da55-3ebb-4281-a372-4bc6b91e6789
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: DIRECTMANIPULATION_MOTION_ALL, DIRECTMANIPULATION_MOTION_CENTERX, DIRECTMANIPULATION_MOTION_CENTERY, DIRECTMANIPULATION_MOTION_NONE, DIRECTMANIPULATION_MOTION_TRANSLATEX, DIRECTMANIPULATION_MOTION_TRANSLATEY, DIRECTMANIPULATION_MOTION_TYPES, DIRECTMANIPULATION_MOTION_TYPES enumeration [Direct Manipulation], DIRECTMANIPULATION_MOTION_ZOOM, directmanipulation.directmanipulation_motion_types, directmanipulation/DIRECTMANIPULATION_MOTION_ALL, directmanipulation/DIRECTMANIPULATION_MOTION_CENTERX, directmanipulation/DIRECTMANIPULATION_MOTION_CENTERY, directmanipulation/DIRECTMANIPULATION_MOTION_NONE, directmanipulation/DIRECTMANIPULATION_MOTION_TRANSLATEX, directmanipulation/DIRECTMANIPULATION_MOTION_TRANSLATEY, directmanipulation/DIRECTMANIPULATION_MOTION_TYPES, directmanipulation/DIRECTMANIPULATION_MOTION_ZOOM
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_FUNC_GdiplusShutdown_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\gdiplusshutdown.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: GdiplusShutdown, GdiplusShutdown function [GDI+], _gdiplus_FUNC_GdiplusShutdown_, gdiplus._gdiplus_FUNC_GdiplusShutdown_, gdiplusinit/GdiplusShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

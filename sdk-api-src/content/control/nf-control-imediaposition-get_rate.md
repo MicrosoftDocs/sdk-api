@@ -7,7 +7,7 @@ old-location: dshow\imediaposition_get_rate.htm
 tech.root: DirectShow
 ms.assetid: dbe18522-6adc-4a55-b74a-db05f619d40a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_Rate method, IMediaPosition.get_Rate, IMediaPosition::get_Rate, IMediaPositionget_Rate, control/IMediaPosition::get_Rate, dshow.imediaposition_get_rate, get_Rate, get_Rate method [DirectShow], get_Rate method [DirectShow],IMediaPosition interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

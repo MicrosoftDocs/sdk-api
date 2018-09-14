@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquiresettings_getgrouptag.htm
 tech.root: acquisition
 ms.assetid: 4e65c5b2-ea1c-4376-a4bb-afbad7efb5ed
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetGroupTag, GetGroupTag method [Picture Acquisition], GetGroupTag method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetGroupTag method, IPhotoAcquireSettings.GetGroupTag, IPhotoAcquireSettings::GetGroupTag, IPhotoAcquireSettingsGetGroupTag, photoacquire/IPhotoAcquireSettings::GetGroupTag, picacq.iphotoacquiresettings_getgrouptag
 ms.prod: windows-hardware
 ms.technology: windows-devices

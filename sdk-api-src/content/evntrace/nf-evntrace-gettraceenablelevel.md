@@ -4,10 +4,10 @@ title: GetTraceEnableLevel function
 author: windows-sdk-content
 description: The GetTraceEnableLevel function retrieves the severity level passed by the controller to indicate the level of logging the provider should perform. Providers can only call this function from their ControlCallback function.
 old-location: etw\gettraceenablelevel.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 22326fd9-c428-4430-8a92-978d005f6705
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 08/29/2018
 ms.keywords: GetTraceEnableLevel, GetTraceEnableLevel function [ETW], _evt_gettraceenablelevel, base.gettraceenablelevel, etw.gettraceenablelevel, evntrace/GetTraceEnableLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

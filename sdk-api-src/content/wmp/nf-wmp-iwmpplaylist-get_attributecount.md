@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylist_get_attributecount.htm
 tech.root: WMP
 ms.assetid: 32c18feb-4df2-41d6-9adf-49836b6b836d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/30/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_attributeCount method, IWMPPlaylist.get_attributeCount, IWMPPlaylist::get_attributeCount, IWMPPlaylistget_attributeCount, get_attributeCount, get_attributeCount method [Windows Media Player], get_attributeCount method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_attributecount, wmp/IWMPPlaylist::get_attributeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

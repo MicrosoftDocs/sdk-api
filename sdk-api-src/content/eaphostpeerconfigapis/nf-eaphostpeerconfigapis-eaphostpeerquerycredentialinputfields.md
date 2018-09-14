@@ -4,10 +4,10 @@ title: EapHostPeerQueryCredentialInputFields function
 author: windows-sdk-content
 description: Allows the user to determine what kind of credentials are required by the methods to perform authentication in a Single-Sign-On (SSO) scenario.
 old-location: eaphost\eaphostpeerquerycredentialinputfields.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: f71aad69-89f3-463b-afd7-9873d582d03b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EapHostPeerQueryCredentialInputFields, EapHostPeerQueryCredentialInputFields function [EAPHost], eaphost.eaphostpeerquerycredentialinputfields, eaphostpeerconfigapis/EapHostPeerQueryCredentialInputFields
 ms.prod: windows-hardware
 ms.technology: windows-devices

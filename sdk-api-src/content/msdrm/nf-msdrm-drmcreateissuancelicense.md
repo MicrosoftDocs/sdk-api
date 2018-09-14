@@ -4,10 +4,10 @@ title: DRMCreateIssuanceLicense function
 author: windows-sdk-content
 description: Creates an issuance license from scratch, from a template, or from a signed issuance license.
 old-location: rm\drmcreateissuancelicense.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: db2e9aa6-7021-4805-8fd7-94c8d02776b0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMCreateIssuanceLicense, DRMCreateIssuanceLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateIssuanceLicense, rm.drmcreateissuancelicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

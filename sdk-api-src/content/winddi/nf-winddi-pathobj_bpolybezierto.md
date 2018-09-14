@@ -7,7 +7,7 @@ old-location: display\pathobj_bpolybezierto.htm
 tech.root: display
 ms.assetid: 0937c816-b205-4c5d-b4b6-74c3e7fdb0ce
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 09/13/2018
 ms.keywords: PATHOBJ_bPolyBezierTo, PATHOBJ_bPolyBezierTo function [Display Devices], display.pathobj_bpolybezierto, gdifncs_787796de-11ca-457d-8084-8eb0af187eef.xml, winddi/PATHOBJ_bPolyBezierTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

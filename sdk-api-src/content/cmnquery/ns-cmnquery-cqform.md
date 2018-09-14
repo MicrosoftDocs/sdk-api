@@ -7,7 +7,7 @@ old-location: ad\cqform.htm
 tech.root: ad
 ms.assetid: 65cf2e9c-8f88-4e84-8bf2-2b0fd246a835
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: "*LPCQFORM, CQFF_ISOPTIONAL, CQFF_NOGLOBALPAGES, CQFORM, CQFORM structure [Active Directory], LPCQFORM, LPCQFORM structure pointer [Active Directory], _glines_cqform, ad.cqform, cmnquery/CQFORM, cmnquery/LPCQFORM"
 ms.prod: windows
 ms.technology: windows-sdk

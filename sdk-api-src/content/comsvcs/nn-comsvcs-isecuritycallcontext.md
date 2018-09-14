@@ -7,7 +7,7 @@ old-location: cos\isecuritycallcontext.htm
 tech.root: cossdk
 ms.assetid: cd96ef31-784f-40fa-beb5-92a88823326b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: ISecurityCallContext, ISecurityCallContext interface [COM+], ISecurityCallContext interface [COM+],described, _cos_ISecurityCallContext, comsvcs/ISecurityCallContext, cos.isecuritycallcontext
 ms.prod: windows
 ms.technology: windows-sdk

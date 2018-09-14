@@ -4,10 +4,10 @@ title: IEnumDot11AdHocSecuritySettings::Clone
 author: windows-sdk-content
 description: Creates a new enumeration interface.
 old-location: nwifi\ienumdot11adhocsecuritysettings_clone.htm
-tech.root: nativewifi
+tech.root: NativeWiFi
 ms.assetid: 27ef4cab-9aa5-4aa2-9e2e-fb16aae99045
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [NativeWIFI], Clone method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Clone method, IEnumDot11AdHocSecuritySettings.Clone, IEnumDot11AdHocSecuritySettings::Clone, adhoc/IEnumDot11AdHocSecuritySettings::Clone, nwifi.ienumdot11adhocsecuritysettings_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

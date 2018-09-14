@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetEncoderParameterListSize_clsidEnco
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getencoderparameterlistsize.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: GetEncoderParameterListSize, GetEncoderParameterListSize method [GDI+], GetEncoderParameterListSize method [GDI+],Image class, Image class [GDI+],GetEncoderParameterListSize method, Image.GetEncoderParameterListSize, Image::GetEncoderParameterListSize, _gdiplus_CLASS_Image_GetEncoderParameterListSize_clsidEncoder_, gdiplus._gdiplus_CLASS_Image_GetEncoderParameterListSize_clsidEncoder_
 ms.prod: windows-hardware
 ms.technology: windows-devices

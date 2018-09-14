@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_HatchBrush_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\hatchbrush.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 09/12/2018
 ms.keywords: HatchBrush, HatchBrush class [GDI+], HatchBrush class [GDI+],described, _gdiplus_CLASS_HatchBrush_Class, gdiplus._gdiplus_CLASS_HatchBrush_Class, gdiplusbrush/HatchBrush
 ms.prod: windows
 ms.technology: windows-sdk

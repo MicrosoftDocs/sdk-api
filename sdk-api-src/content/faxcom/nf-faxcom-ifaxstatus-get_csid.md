@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_csid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6k2s.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: Csid property [Fax Service], Csid property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],Csid property, IFaxStatus.Csid, IFaxStatus.get_Csid, IFaxStatus::Csid, IFaxStatus::get_Csid, _mfax_ifaxstatus_get_csid, fax._mfax_ifaxstatus_get_csid, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_csid_cpp, faxcom/IFaxStatus::Csid, faxcom/IFaxStatus::get_Csid, get_Csid
 ms.prod: windows-hardware
 ms.technology: windows-devices

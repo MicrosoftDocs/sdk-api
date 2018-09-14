@@ -7,7 +7,7 @@ old-location: gdi\createdc.htm
 tech.root: gdi
 ms.assetid: 6fc443c8-da97-4196-a9ed-179a4e583849
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CreateDC, CreateDC function [Windows GDI], CreateDCA, CreateDCW, _win32_CreateDC, gdi.createdc, wingdi/CreateDC, wingdi/CreateDCA, wingdi/CreateDCW
 ms.prod: windows-hardware
 ms.technology: windows-devices

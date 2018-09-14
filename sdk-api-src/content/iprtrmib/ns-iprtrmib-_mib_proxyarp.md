@@ -4,10 +4,10 @@ title: "_MIB_PROXYARP"
 author: windows-sdk-content
 description: Stores information for a Proxy Address Resolution Protocol (PARP) entry.
 old-location: mib\mib_proxyarp.htm
-tech.root: mib
+tech.root: MIB
 ms.assetid: 4f919bfb-733b-4b49-8550-505626779eac
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMIB_PROXYARP, MIB_PROXYARP, MIB_PROXYARP structure [MIB], PMIB_PROXYARP, PMIB_PROXYARP structure pointer [MIB], _MIB_PROXYARP, _mpr_mib_proxyarp, iprtrmib/MIB_PROXYARP, iprtrmib/PMIB_PROXYARP, mib.mib_proxyarp, rras.mib_proxyarp"
 ms.prod: windows
 ms.technology: windows-sdk

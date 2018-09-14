@@ -4,10 +4,10 @@ title: IOfflineFilesItemFilter::GetPatternFilter
 author: windows-sdk-content
 description: Provides a filter pattern string to limit enumerated items based on item name patterns.
 old-location: of\iofflinefilesitemfilter_getpatternfilter.htm
-tech.root: offlinefiles
+tech.root: OfflineFiles
 ms.assetid: 570cf25c-d4a4-42d6-8f33-bb660a7e99ab
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetPatternFilter, GetPatternFilter method [Offline Files], GetPatternFilter method [Offline Files],IOfflineFilesItemFilter interface, IOfflineFilesItemFilter interface [Offline Files],GetPatternFilter method, IOfflineFilesItemFilter.GetPatternFilter, IOfflineFilesItemFilter::GetPatternFilter, cscobj/IOfflineFilesItemFilter::GetPatternFilter, of.iofflinefilesitemfilter_getpatternfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

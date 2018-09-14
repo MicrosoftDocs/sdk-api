@@ -4,10 +4,10 @@ title: "_PERF_COUNTERSET_INFO"
 author: windows-sdk-content
 description: Defines information about a counter set that a provider uses. The CTRPP tool automatically generates this structure based on the schema you specify.
 old-location: perf\perf_counterset_info.htm
-tech.root: perfctrs
+tech.root: PerfCtrs
 ms.assetid: bf48dcdb-6fdd-4093-9006-a53690c3ed86
 ms.author: windowssdkdev
-ms.date: 08/08/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO structure [Perf], PERF_COUNTERSET_INFO,*PPERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO,*PPERF_COUNTERSET_INFO structure [Perf], PERF_COUNTERSET_INSTANCE_AGGREGATE, PERF_COUNTERSET_MULTI_AGGREGATE, PERF_COUNTERSET_MULTI_INSTANCES, PERF_COUNTERSET_SINGLE_AGGREGATE, PERF_COUNTERSET_SINGLE_AGGREGATE_HISTORY, PERF_COUNTERSET_SINGLE_INSTANCE, _PERF_COUNTERSET_INFO, base.perf_counterset_info, perf.perf_counterset_info, perflib/PERF_COUNTERSET_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

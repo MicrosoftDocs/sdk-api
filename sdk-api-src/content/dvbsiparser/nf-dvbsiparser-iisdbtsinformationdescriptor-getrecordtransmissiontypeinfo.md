@@ -4,10 +4,10 @@ title: IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo
 author: windows-sdk-content
 description: Gets the transmission_type_info field from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_getrecordtransmissiontypeinfo.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 992ef7de-ccf8-42a1-bb83-4b5f396164ce
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: GetRecordTransmissionTypeInfo, GetRecordTransmissionTypeInfo method [Microsoft TV Technologies], GetRecordTransmissionTypeInfo method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetRecordTransmissionTypeInfo method, IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo, IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo, dvbsiparser/IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo, mstv.iisdbtsinformationdescriptor_getrecordtransmissiontypeinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

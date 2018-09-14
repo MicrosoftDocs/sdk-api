@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_keyspec_method.htm
 tech.root: seccrypto
 ms.assetid: 86f1e52f-bce2-497c-98e7-848ffc3243a0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],KeySpec property, IOCSPCAConfiguration.KeySpec, IOCSPCAConfiguration.get_KeySpec, IOCSPCAConfiguration::KeySpec, IOCSPCAConfiguration::get_KeySpec, KeySpec property [Security], KeySpec property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::KeySpec, certadm/IOCSPCAConfiguration::get_KeySpec, get_KeySpec, security.iocspcaconfiguration_keyspec_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

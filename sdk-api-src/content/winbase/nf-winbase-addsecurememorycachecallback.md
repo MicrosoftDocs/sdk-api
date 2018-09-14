@@ -4,10 +4,10 @@ title: AddSecureMemoryCacheCallback function
 author: windows-sdk-content
 description: Registers a callback function to be called when a secured memory range is freed or its protections are changed.
 old-location: base\addsecurememorycachecallback.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 6c89d6f3-182e-4b10-931c-8d55d603c9dc
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AddSecureMemoryCacheCallback, AddSecureMemoryCacheCallback function, base.addsecurememorycachecallback, winbase/AddSecureMemoryCacheCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

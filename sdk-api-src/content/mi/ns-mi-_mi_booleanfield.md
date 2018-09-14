@@ -4,10 +4,10 @@ title: "_MI_BooleanField"
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_booleanfield.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 65af60f6-2814-44e2-97e5-2301e1021347
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_BooleanField, MI_BooleanField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_BooleanField, mi/MI_BooleanField, wmi._mi_booleanfield, wmi_v2.mi_booleanfield
 ms.prod: windows
 ms.technology: windows-sdk

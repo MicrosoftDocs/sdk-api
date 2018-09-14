@@ -7,7 +7,7 @@ old-location: dshow\imultimediastream_getmediastream.htm
 tech.root: DirectShow
 ms.assetid: d85cde4f-99f4-4641-b75f-13ca6dc7f21e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/30/2018
 ms.keywords: GetMediaStream, GetMediaStream method [DirectShow], GetMediaStream method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetMediaStream method, IMultiMediaStream.GetMediaStream, IMultiMediaStream::GetMediaStream, IMultiMediaStreamGetMediaStream, dshow.imultimediastream_getmediastream, mmstream/IMultiMediaStream::GetMediaStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

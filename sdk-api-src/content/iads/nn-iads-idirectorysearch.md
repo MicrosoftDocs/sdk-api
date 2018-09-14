@@ -7,7 +7,7 @@ old-location: adsi\idirectorysearch.htm
 tech.root: ADSI
 ms.assetid: e8989795-8f72-476a-a69e-c0e8800289ab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IDirectorySearch, IDirectorySearch interface [ADSI], IDirectorySearch interface [ADSI],described, _ds_idirectorysearch, adsi.idirectorysearch, iads/IDirectorySearch
 ms.prod: windows
 ms.technology: windows-sdk

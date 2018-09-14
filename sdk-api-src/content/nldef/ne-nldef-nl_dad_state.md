@@ -4,10 +4,10 @@ title: NL_DAD_STATE
 author: windows-sdk-content
 description: The IP_DAD_STATE enumeration specifies information about the duplicate address detection (DAD) state for an IPv4 or IPv6 address.
 old-location: iphlp\ip_dad_state.htm
-tech.root: iphlp
+tech.root: IpHlp
 ms.assetid: 2c67215c-6349-418e-9004-b869d6f5baef
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: IP_DAD_STATE, IP_DAD_STATE enumeration [IP Helper], IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, NL_DAD_STATE, iphlp.ip_dad_state, iptypes/IP_DAD_STATE, iptypes/IpDadStateDeprecated, iptypes/IpDadStateDuplicate, iptypes/IpDadStateInvalid, iptypes/IpDadStatePreferred, iptypes/IpDadStateTentative, nldef/IP_DAD_STATE, nldef/IpDadStateDeprecated, nldef/IpDadStateDuplicate, nldef/IpDadStateInvalid, nldef/IpDadStatePreferred, nldef/IpDadStateTentative
 ms.prod: windows
 ms.technology: windows-sdk

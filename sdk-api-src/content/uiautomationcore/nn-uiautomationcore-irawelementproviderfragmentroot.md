@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderFragmentRoot.htm
 tech.root: WinAuto
 ms.assetid: 16e51962-915e-40ea-a7a1-6f5a5809ba05
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/13/2018
 ms.keywords: IRawElementProviderFragmentRoot, IRawElementProviderFragmentRoot interface [Windows Accessibility], IRawElementProviderFragmentRoot interface [Windows Accessibility],described, uiauto.uiauto_IRawElementProviderFragmentRoot, uiauto_IRawElementProviderFragmentRoot, uiautomationcore/IRawElementProviderFragmentRoot, winauto.uiauto_IRawElementProviderFragmentRoot
 ms.prod: windows
 ms.technology: windows-sdk

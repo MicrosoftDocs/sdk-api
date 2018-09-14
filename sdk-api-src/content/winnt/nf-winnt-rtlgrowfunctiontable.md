@@ -4,10 +4,10 @@ title: RtlGrowFunctionTable function
 author: windows-sdk-content
 description: Reports that a dynamic function table has increased in size.
 old-location: base\rtlgrowfunctiontable.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: b917b732-4017-4365-b312-90bebfdd877b
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: RtlGrowFunctionTable, RtlGrowFunctionTable function, base.rtlgrowfunctiontable, winnt/RtlGrowFunctionTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: NetworkIsolationSetAppContainerConfig function
 author: windows-sdk-content
 description: Used to set the configuration of one or more app containers.
 old-location: ics\networkisolationsetappcontainerconfig.htm
-tech.root: ics
+tech.root: ICS
 ms.assetid: 88f97650-1896-43f9-acfa-f8411ded5cb8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: NetworkIsolationSetAppContainerConfig, NetworkIsolationSetAppContainerConfig function [ICS/ICF], ics.networkisolationsetappcontainerconfig, networkisolation/NetworkIsolationSetAppContainerConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

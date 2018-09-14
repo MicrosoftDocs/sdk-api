@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_setbottom_float.htm
 tech.root: directcomp
 ms.assetid: BE07DF2B-6588-4ACD-8FB6-E467C9943710
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetBottom method, IDCompositionRectangleClip.SetBottom, IDCompositionRectangleClip.SetBottom(IDCompositionAnimation), IDCompositionRectangleClip::SetBottom, IDCompositionRectangleClip::SetBottom(IDCompositionAnimation), IDCompositionRectangleClip::SetBottom(float), SetBottom, SetBottom method [DirectComposition], SetBottom method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetBottom, directcomp.idcompositionrectangleclip_setbottom_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

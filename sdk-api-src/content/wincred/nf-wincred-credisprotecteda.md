@@ -4,10 +4,10 @@ title: CredIsProtectedA function
 author: windows-sdk-content
 description: Specifies whether the specified credentials are encrypted by a previous call to the CredProtect function.
 old-location: security\credisprotected.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 3c38ecf5-1288-4a50-ad17-595e9ff4aaca
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: CredIsProtected, CredIsProtected function [Security], CredIsProtectedA, CredIsProtectedW, security.credisprotected, wincred/CredIsProtected, wincred/CredIsProtectedA, wincred/CredIsProtectedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

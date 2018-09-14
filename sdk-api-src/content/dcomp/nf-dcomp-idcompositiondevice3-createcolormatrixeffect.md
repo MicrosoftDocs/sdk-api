@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice3_createcolormatrixeffect.htm
 tech.root: directcomp
 ms.assetid: A286F5C1-764F-4FAF-B2D2-92820BD2E709
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: CreateColorMatrixEffect, CreateColorMatrixEffect method [DirectComposition], CreateColorMatrixEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateColorMatrixEffect method, IDCompositionDevice3.CreateColorMatrixEffect, IDCompositionDevice3::CreateColorMatrixEffect, dcomp/IDCompositionDevice3::CreateColorMatrixEffect, directcomp.idcompositiondevice3_createcolormatrixeffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

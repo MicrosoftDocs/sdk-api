@@ -7,7 +7,7 @@ old-location: com\ibindctx_releaseboundobjects.htm
 tech.root: com
 ms.assetid: 12107633-6e7f-4d41-8e5c-5739cff98552
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: IBindCtx interface [COM],ReleaseBoundObjects method, IBindCtx.ReleaseBoundObjects, IBindCtx::ReleaseBoundObjects, ReleaseBoundObjects, ReleaseBoundObjects method [COM], ReleaseBoundObjects method [COM],IBindCtx interface, _com_ibindctx_releaseboundobjects, com.ibindctx_releaseboundobjects, objidl/IBindCtx::ReleaseBoundObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

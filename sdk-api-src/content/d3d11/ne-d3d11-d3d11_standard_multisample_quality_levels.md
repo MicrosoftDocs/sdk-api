@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_standard_multisample_quality_levels.htm
 tech.root: direct3d11
 ms.assetid: 20c558ae-e9c3-4bab-8c11-264d626f2cff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: D3D11_CENTER_MULTISAMPLE_PATTERN, D3D11_STANDARD_MULTISAMPLE_PATTERN, D3D11_STANDARD_MULTISAMPLE_QUALITY_LEVELS, D3D11_STANDARD_MULTISAMPLE_QUALITY_LEVELS enumeration [Direct3D 11], d3d11/D3D11_CENTER_MULTISAMPLE_PATTERN, d3d11/D3D11_STANDARD_MULTISAMPLE_PATTERN, d3d11/D3D11_STANDARD_MULTISAMPLE_QUALITY_LEVELS, direct3d11.d3d11_standard_multisample_quality_levels, fb0a6e23-49e9-934e-53e2-2a05f3e76371
 ms.prod: windows
 ms.technology: windows-sdk

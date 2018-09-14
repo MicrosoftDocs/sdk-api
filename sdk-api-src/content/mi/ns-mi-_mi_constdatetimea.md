@@ -4,10 +4,10 @@ title: "_MI_ConstDatetimeA"
 author: windows-sdk-content
 description: Represents an array of MI_Datatime types.
 old-location: wmi_v2\mi_constdatetimea.htm
-tech.root: wmi_v2
+tech.root: WMI_v2
 ms.assetid: 2be1107f-9368-49cf-9d97-0834bbd06c59
 ms.author: windowssdkdev
-ms.date: 08/13/2018
+ms.date: 08/30/2018
 ms.keywords: MI_ConstDatetimeA, MI_ConstDatetimeA structure [Windows Management Infrastructure (MI)], _MI_ConstDatetimeA, mi/MI_ConstDatetimeA, wmi._mi_constdatetimea, wmi_v2.mi_constdatetimea
 ms.prod: windows
 ms.technology: windows-sdk

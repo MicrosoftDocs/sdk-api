@@ -4,10 +4,10 @@ title: DRMSetGlobalOptions function
 author: windows-sdk-content
 description: Sets the transport protocol to a specified value and optionally specifies whether the server lockbox is used.
 old-location: rm\drmsetglobaloptions.htm
-tech.root: adrms_sdk
+tech.root: AdRms_Sdk
 ms.assetid: fff0d503-e342-4f50-810c-bda4e9e14ad7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DRMSetGlobalOptions, DRMSetGlobalOptions function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetGlobalOptions, rm.drmsetglobaloptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

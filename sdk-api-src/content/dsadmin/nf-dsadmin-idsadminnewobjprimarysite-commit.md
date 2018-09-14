@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobjprimarysite_commit.htm
 tech.root: ad
 ms.assetid: a7e56a9b-bd3c-4229-9735-32ec9549856d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 09/07/2018
 ms.keywords: Commit, Commit method [Active Directory], Commit method [Active Directory],IDsAdminNewObjPrimarySite interface, IDsAdminNewObjPrimarySite interface [Active Directory],Commit method, IDsAdminNewObjPrimarySite.Commit, IDsAdminNewObjPrimarySite::Commit, _glines_idsadminnewobjprimarysite_commit, ad.idsadminnewobjprimarysite__commit, ad.idsadminnewobjprimarysite_commit, dsadmin/IDsAdminNewObjPrimarySite::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices

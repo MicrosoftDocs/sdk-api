@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::get_MixerBitmap
 author: windows-sdk-content
 description: The get_MixerBitmap method retrieves the static bitmap image, as an IPictureDisp type.
 old-location: mstv\imsvidvideorenderer_get_mixerbitmap.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: cfcfab14-7084-4716-8955-574168cd3506
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_MixerBitmap method, IMSVidVideoRenderer.get_MixerBitmap, IMSVidVideoRenderer::get_MixerBitmap, IMSVidVideoRendererget_MixerBitmap, get_MixerBitmap, get_MixerBitmap method [Microsoft TV Technologies], get_MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_mixerbitmap, segment/IMSVidVideoRenderer::get_MixerBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

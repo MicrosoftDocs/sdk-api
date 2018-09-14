@@ -7,7 +7,7 @@ old-location: indexsrv\ifilter_init.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2oc4.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/30/2018
 ms.keywords: IFilter interface [Indexing Service],Init method, IFilter.Init, IFilter::Init, Init, Init method [Indexing Service], Init method [Indexing Service],IFilter interface, _idxs_IFilter_Init, filter/IFilter::Init, indexsrv.ifilter_init
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SymFindDebugInfoFile function
 author: windows-sdk-content
 description: Locates a .dbg file in the process search path.
 old-location: base\symfinddebuginfofile.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: ea4879b2-edf8-4542-b16a-41777c0068cd
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: SymFindDebugInfoFile, SymFindDebugInfoFile function, SymFindDebugInfoFileW, base.symfinddebuginfofile, dbghelp/SymFindDebugInfoFile, dbghelp/SymFindDebugInfoFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

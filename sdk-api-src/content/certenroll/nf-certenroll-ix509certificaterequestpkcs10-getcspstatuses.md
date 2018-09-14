@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10::GetCspStatuses
 author: windows-sdk-content
 description: Retrieves an ICspStatuses collection that contains all provider/algorithm pairs consistent with the intended use of the private key as specified by the caller.
 old-location: security\ix509certificaterequestpkcs10_getcspstatuses_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 50dc8cc5-21ee-4347-a12a-0d6e62901fbb
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetCspStatuses, GetCspStatuses method [Security], GetCspStatuses method [Security],IX509CertificateRequestPkcs10 interface, IX509CertificateRequestPkcs10 interface [Security],GetCspStatuses method, IX509CertificateRequestPkcs10.GetCspStatuses, IX509CertificateRequestPkcs10::GetCspStatuses, XCN_AT_KEYEXCHANGE, XCN_AT_NONE, XCN_AT_SIGNATURE, certenroll/IX509CertificateRequestPkcs10::GetCspStatuses, security.ix509certificaterequestpkcs10_getcspstatuses_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

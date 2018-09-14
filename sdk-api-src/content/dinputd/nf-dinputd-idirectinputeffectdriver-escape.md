@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_escape.htm
 tech.root: hid
 ms.assetid: 23bef39d-0254-4b8e-9059-32665d35b5cf
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Escape, Escape method [Human Input Devices], Escape method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],Escape method, IDirectInputEffectDriver.Escape, IDirectInputEffectDriver::Escape, di_ref_14789995-a66d-4f0b-9ac4-de0852996da6.xml, dinputd/IDirectInputEffectDriver::Escape, hid.idirectinputeffectdriver_escape
 ms.prod: windows-hardware
 ms.technology: windows-devices

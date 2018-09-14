@@ -7,7 +7,7 @@ old-location: search\_search_ISearchScopeRule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\isearchscoperule.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 09/13/2018
 ms.keywords: ISearchScopeRule, ISearchScopeRule interface [search], ISearchScopeRule interface [search],described, _search_ISearchScopeRule, search._search_ISearchScopeRule, searchapi/ISearchScopeRule
 ms.prod: windows
 ms.technology: windows-sdk

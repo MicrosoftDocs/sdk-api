@@ -7,7 +7,7 @@ old-location: indexsrv\dbrelevantdocument.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_8ph0.htm
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/30/2018
 ms.keywords: DBRELEVANTDOCUMENT, DBRELEVANTDOCUMENT structure [Indexing Service], _idxs_DBRELEVANTDOCUMENT, cmdtree/DBRELEVANTDOCUMENT, indexsrv.dbrelevantdocument, tagDBRELEVANTDOCUMENT
 ms.prod: windows
 ms.technology: windows-sdk

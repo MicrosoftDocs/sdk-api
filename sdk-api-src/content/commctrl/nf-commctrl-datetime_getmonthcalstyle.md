@@ -4,10 +4,10 @@ title: DateTime_GetMonthCalStyle macro
 author: windows-sdk-content
 description: Gets the style of a specified date and time picker (DTP) control. Use this macro or send the DTM_GETMCSTYLE message explicitly.
 old-location: controls\DateTime_GetMonthCalStyle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalstyle.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: DateTime_GetMonthCalStyle, DateTime_GetMonthCalStyle macro [Windows Controls], _shell_DateTime_GetMonthCalStyle, _shell_DateTime_GetMonthCalStyle_cpp, commctrl/DateTime_GetMonthCalStyle, controls.DateTime_GetMonthCalStyle, controls._shell_DateTime_GetMonthCalStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

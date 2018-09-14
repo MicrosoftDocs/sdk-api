@@ -7,7 +7,7 @@ old-location: com\iolecontrolsite_getextendedcontrol.htm
 tech.root: com
 ms.assetid: 66cfdf22-db2b-41d2-9854-d6bf70fbe146
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: GetExtendedControl, GetExtendedControl method [COM], GetExtendedControl method [COM],IOleControlSite interface, IOleControlSite interface [COM],GetExtendedControl method, IOleControlSite.GetExtendedControl, IOleControlSite::GetExtendedControl, _ctrl_iolecontrolsite_getextendedcontrol, com.iolecontrolsite_getextendedcontrol, ocidl/IOleControlSite::GetExtendedControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_IMAGEHLP_SYMBOLW64"
 author: windows-sdk-content
 description: Contains symbol information.
 old-location: base\imagehlp_symbol64_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 7b39281a-c34b-47ae-a3ff-5f0a7a66a588
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: "*PIMAGEHLP_SYMBOLW64, IMAGEHLP_SYMBOL, IMAGEHLP_SYMBOL structure, IMAGEHLP_SYMBOL64, IMAGEHLP_SYMBOL64 structure, IMAGEHLP_SYMBOLW64, PIMAGEHLP_SYMBOL64, PIMAGEHLP_SYMBOL64 structure pointer, _IMAGEHLP_SYMBOL64, _IMAGEHLP_SYMBOLW64, _win32_imagehlp_symbol64_str, base.imagehlp_symbol64_str, dbghelp/IMAGEHLP_SYMBOL64, dbghelp/IMAGEHLP_SYMBOLW64, dbghelp/PIMAGEHLP_SYMBOL64"
 ms.prod: windows
 ms.technology: windows-sdk

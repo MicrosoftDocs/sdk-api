@@ -4,10 +4,10 @@ title: "_NAMESPROPERTIES"
 author: windows-sdk-content
 description: The values of the NAMESPROPERTIES enumeration type enumerate properties related to the name of the user requesting network access.
 old-location: nps\SDO_namesproperties.htm
-tech.root: nps
+tech.root: Nps
 ms.assetid: c7bf7a92-9945-4f54-bf01-31abcd97dd83
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NAMESPROPERTIES, NAMESPROPERTIES enumeration [Network Policy Server], PROPERTY_NAMES_REALMS, _NAMESPROPERTIES, _sdo_namesproperties, nps.SDO_namesproperties, sdo.namesproperties, sdoias/NAMESPROPERTIES, sdoias/PROPERTY_NAMES_REALMS
 ms.prod: windows
 ms.technology: windows-sdk

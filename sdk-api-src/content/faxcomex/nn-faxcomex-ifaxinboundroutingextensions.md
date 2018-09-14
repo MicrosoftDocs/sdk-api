@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingextensions_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1v1v_cpp.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/30/2018
 ms.keywords: IFaxInboundRoutingExtensions, IFaxInboundRoutingExtensions interface [Fax Service], IFaxInboundRoutingExtensions interface [Fax Service],described, _mfax_faxinboundroutingextensions_cpp, fax._mfax_faxinboundroutingextensions_cpp, faxcomex/IFaxInboundRoutingExtensions
 ms.prod: windows
 ms.technology: windows-sdk

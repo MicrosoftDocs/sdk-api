@@ -7,7 +7,7 @@ old-location: multimedia\capdrivergetversion.htm
 tech.root: Multimedia
 ms.assetid: 35afaef2-dc83-4b72-92e5-2fb9a75e90ba
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/31/2018
 ms.keywords: "_win32_capDriverGetVersion, capDriverGetVersion, capDriverGetVersion macro [Windows Multimedia], multimedia.capdrivergetversion, vfw/capDriverGetVersion"
 ms.prod: windows-hardware
 ms.technology: windows-devices

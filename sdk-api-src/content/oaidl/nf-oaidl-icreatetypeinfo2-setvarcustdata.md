@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo2_setvarcustdata.htm
 tech.root: automat
 ms.assetid: 7055ad6b-89d8-47d9-bdfa-26b323e53133
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetVarCustData method, ICreateTypeInfo2.SetVarCustData, ICreateTypeInfo2::SetVarCustData, SetVarCustData, SetVarCustData method [Automation], SetVarCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetVarCustData, automat.icreatetypeinfo2_setvarcustdata, oaidl/ICreateTypeInfo2::SetVarCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices

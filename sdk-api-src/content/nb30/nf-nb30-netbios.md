@@ -7,7 +7,7 @@ old-location: netbios\netbios.htm
 tech.root: NetBIOS
 ms.assetid: 3eadbfa7-53de-4c62-b61b-da84b9da58f7
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: Netbios, Netbios function [NetBIOS], nb30/Netbios, netbios.netbios
 ms.prod: windows-hardware
 ms.technology: windows-devices

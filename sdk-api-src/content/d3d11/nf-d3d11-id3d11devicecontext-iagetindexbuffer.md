@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_iagetindexbuffer.htm
 tech.root: direct3d11
 ms.assetid: 948a5cbd-8413-4aaa-b666-7b9adc4705da
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: 3fe40bcc-a76c-bfbf-97f0-0ee55d520b2d, IAGetIndexBuffer, IAGetIndexBuffer method [Direct3D 11], IAGetIndexBuffer method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IAGetIndexBuffer method, ID3D11DeviceContext.IAGetIndexBuffer, ID3D11DeviceContext::IAGetIndexBuffer, d3d11/ID3D11DeviceContext::IAGetIndexBuffer, direct3d11.id3d11devicecontext_iagetindexbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

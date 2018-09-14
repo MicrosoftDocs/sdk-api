@@ -4,10 +4,10 @@ title: tagTVDISPINFOEXW
 author: windows-sdk-content
 description: Contains information pertaining to extended TreeView notification information.
 old-location: controls\NMTVDISPINFOEX.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvdispinfoex.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: "*LPNMTVDISPINFOEXW, LPNMTVDISPINFOEX, LPNMTVDISPINFOEX structure pointer [Windows Controls], NMTVDISPINFOEX, NMTVDISPINFOEX structure [Windows Controls], NMTVDISPINFOEXA, NMTVDISPINFOEXW, _shell_NMTVDISPINFOEX, _shell_NMTVDISPINFOEX_cpp, commctrl/LPNMTVDISPINFOEX, commctrl/NMTVDISPINFOEX, commctrl/NMTVDISPINFOEXA, commctrl/NMTVDISPINFOEXW, controls.NMTVDISPINFOEX, controls._shell_NMTVDISPINFOEX, tagTVDISPINFOEXW"
 ms.prod: windows
 ms.technology: windows-sdk

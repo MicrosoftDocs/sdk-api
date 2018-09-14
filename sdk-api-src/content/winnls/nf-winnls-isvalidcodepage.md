@@ -7,7 +7,7 @@ old-location: intl\isvalidcodepage.htm
 tech.root: Intl
 ms.assetid: 7bd16f61-a534-4ada-ae27-d5deb47870a9
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/30/2018
 ms.keywords: IsValidCodePage, IsValidCodePage function [Internationalization for Windows Applications], _win32_IsValidCodePage, intl.isvalidcodepage, winnls/IsValidCodePage
 ms.prod: windows-hardware
 ms.technology: windows-devices

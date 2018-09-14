@@ -4,10 +4,10 @@ title: PxeDhcpInitialize function
 author: windows-sdk-content
 description: Initializes a response packet as a DHCP reply packet.
 old-location: wds\pxedhcpinitialize.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: b1bcd725-723c-47a3-a2b9-468f5f2e6596
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/13/2018
 ms.keywords: PxeDhcpInitialize, PxeDhcpInitialize function [Windows Deployment Services], wds.pxedhcpinitialize, wdspxe/PxeDhcpInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

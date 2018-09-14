@@ -2,7 +2,7 @@
 UID: NA:lzexpand
 ms.assetid: 7021a7ff-423b-338a-886b-85ba8e9c0516
 ms.author: windowssdkdev
-ms.date: 09/10/2018
+ms.date: 09/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: GetServerForPMP function
 author: windows-sdk-content
 description: Gets a COM server that has been registered for Protected Media Process (PMP) usage with previous call to RegisterServerForPMP.
 old-location: winprog\getserverforpmp.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 0E343396-A294-45E3-88E5-9B63EB8B10B9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: GetServerForPMP, GetServerForPMP function [Windows API], comppkgsup/GetServerForPMP, winprog.getserverforpmp
 ms.prod: windows-hardware
 ms.technology: windows-devices

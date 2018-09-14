@@ -4,10 +4,10 @@ title: ID2D1SvgElement::CreateChild
 author: windows-sdk-content
 description: Creates an element from a tag name. The element is appended to the list of children.
 old-location: direct2d\id2d1svgelement_createchild.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E8BD0808-D3A3-41BB-A7A3-2183C0E56396
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/30/2018
 ms.keywords: CreateChild, CreateChild method [Direct2D], CreateChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],CreateChild method, ID2D1SvgElement.CreateChild, ID2D1SvgElement::CreateChild, d2d1svg/ID2D1SvgElement::CreateChild, direct2d.id2d1svgelement_createchild
 ms.prod: windows-hardware
 ms.technology: windows-devices

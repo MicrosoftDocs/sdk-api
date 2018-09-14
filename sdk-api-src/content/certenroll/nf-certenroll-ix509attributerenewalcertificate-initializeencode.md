@@ -4,10 +4,10 @@ title: IX509AttributeRenewalCertificate::InitializeEncode
 author: windows-sdk-content
 description: Initializes the attribute by using the certificate to be renewed.
 old-location: security\ix509attributerenewalcertificate_initializeencode_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: a234755e-5b90-43f1-81f2-c2ebec9b55a4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 08/31/2018
 ms.keywords: IX509AttributeRenewalCertificate interface [Security],InitializeEncode method, IX509AttributeRenewalCertificate.InitializeEncode, IX509AttributeRenewalCertificate::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeRenewalCertificate interface, certenroll/IX509AttributeRenewalCertificate::InitializeEncode, security.ix509attributerenewalcertificate_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

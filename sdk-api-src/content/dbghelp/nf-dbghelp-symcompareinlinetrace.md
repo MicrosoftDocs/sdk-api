@@ -4,10 +4,10 @@ title: SymCompareInlineTrace function
 author: windows-sdk-content
 description: Compares two inline traces.
 old-location: base\symcompareinlinetrace.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 24daca16-834c-424a-8569-e448f515d76f
 ms.author: windowssdkdev
-ms.date: 08/28/2018
+ms.date: 08/29/2018
 ms.keywords: SymCompareInlineTrace, SymCompareInlineTrace function, base.symcompareinlinetrace, dbghelp/SymCompareInlineTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

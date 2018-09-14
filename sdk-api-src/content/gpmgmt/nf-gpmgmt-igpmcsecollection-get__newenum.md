@@ -7,7 +7,7 @@ old-location: gpmc\igpmcsecollection_get__newenum.htm
 tech.root: GPMC
 ms.assetid: 2c3b9e29-6c46-4ed1-9e60-2e71d8792020
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IGPMCSECollection interface [GPMC],get__NewEnum method, IGPMCSECollection.get__NewEnum, IGPMCSECollection::get__NewEnum, _win32_igpmcsecollection_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMCSECollection interface, gpmc.igpmcsecollection_get__newenum, gpmgmt/IGPMCSECollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

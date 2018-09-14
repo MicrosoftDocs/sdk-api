@@ -7,7 +7,7 @@ old-location: p2p\peergraphgeteventdata.htm
 tech.root: p2psdk
 ms.assetid: b64bb920-3fbc-4927-a1b1-39c99850bdd5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: PeerGraphGetEventData, PeerGraphGetEventData function [Peer Networking], p2p.peergraphgeteventdata, p2p/PeerGraphGetEventData
 ms.prod: windows-hardware
 ms.technology: windows-devices

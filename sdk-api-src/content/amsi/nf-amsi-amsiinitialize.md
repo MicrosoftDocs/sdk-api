@@ -7,7 +7,7 @@ old-location: amsi\amsiinitialize.htm
 tech.root: AMSI
 ms.assetid: 946FC79C-556C-404E-A559-323AA69B3EC6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AmsiInitialize, AmsiInitialize function [Antimalware Scan Interface], amsi.amsiinitialize, amsi/AmsiInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

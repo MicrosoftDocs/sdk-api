@@ -7,7 +7,7 @@ old-location: adsi\iadsprintjob.htm
 tech.root: ADSI
 ms.assetid: 82d61e39-4dbb-41c9-85d5-6f4e7ab7f66b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IADsPrintJob, IADsPrintJob interface [ADSI], IADsPrintJob interface [ADSI],described, _ds_iadsprintjob, adsi.iadsprintjob, iads/IADsPrintJob
 ms.prod: windows
 ms.technology: windows-sdk

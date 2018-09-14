@@ -7,7 +7,7 @@ old-location: p2p\drtendsearch.htm
 tech.root: p2psdk
 ms.assetid: 1a99476f-69ee-4aeb-8c9b-e06315ec095d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/31/2018
 ms.keywords: DrtEndSearch, DrtEndSearch function [Peer Networking], drt/DrtEndSearch, p2p.drtendsearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IAnalogTVTuningSpace::put_MaxChannel
 author: windows-sdk-content
 description: The put_MaxChannel method sets the highest channel number for this tuning space.
 old-location: mstv\ianalogtvtuningspace_put_maxchannel.htm
-tech.root: mstv
+tech.root: MSTV
 ms.assetid: 2a559069-0d8a-4904-b0de-0573b4c0d273
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/30/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],put_MaxChannel method, IAnalogTVTuningSpace.put_MaxChannel, IAnalogTVTuningSpace::put_MaxChannel, IAnalogTVTuningSpaceput_MaxChannel, mstv.ianalogtvtuningspace_put_maxchannel, put_MaxChannel, put_MaxChannel method [Microsoft TV Technologies], put_MaxChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, tuner/IAnalogTVTuningSpace::put_MaxChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
