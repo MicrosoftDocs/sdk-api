@@ -54,7 +54,7 @@ req.redist:
 
 
 Returns the 
-    current state of a <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>. The <b>PCLUSAPI_GET_CLUSTER_NODE_STATE</b> type defines a pointer to this function.
+    current state of a <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a>. The <b>PCLUSAPI_GET_CLUSTER_NODE_STATE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Handle to the node for which state information should be returned.
 
 
 The returned values are from the 
-       <a href="https://msdn.microsoft.com/25bc275e-8d9c-43b3-8f95-dd3fd2cbe3ce">CLUSTER_NODE_STATE</a> enumeration.
+       <a href="https://msdn.microsoft.com/en-us/library/Bb309157(v=VS.85).aspx">CLUSTER_NODE_STATE</a> enumeration.
 
 
 
@@ -93,10 +93,10 @@ The <b>ClusterNodeDown</b> state only indicates that a node is inactive; it does
 
 <ul>
 <li>The node is not running.</li>
-<li>The <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a> on the node is not 
+<li>The <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">Cluster service</a> on the node is not 
       running.</li>
 <li>The node cannot communicate with the node controlling the 
-      <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resource</a>.</li>
+      <a href="https://msdn.microsoft.com/en-us/library/Aa371819(v=VS.85).aspx">quorum resource</a>.</li>
 <li>The node is inactive for any other reason.</li>
 </ul>
 When a node is operating as an active member of a cluster but cannot host any resources or groups, it is in 
@@ -112,7 +112,7 @@ When a node is operating as an active member of a cluster but cannot host any re
 
 
 
-<a href="https://msdn.microsoft.com/25bc275e-8d9c-43b3-8f95-dd3fd2cbe3ce">CLUSTER_NODE_STATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309157(v=VS.85).aspx">CLUSTER_NODE_STATE</a>
 
 
 

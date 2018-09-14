@@ -61,9 +61,9 @@ Called by the search service to notify the client when the status of a particula
 
 ### -param sipStatus [in]
 
-Type: <b><a href="https://msdn.microsoft.com/fdd80abf-7362-45ca-96da-19824eb8d650">SEARCH_INDEXING_PHASE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965701(v=VS.85).aspx">SEARCH_INDEXING_PHASE</a></b>
 
-The <a href="https://msdn.microsoft.com/fdd80abf-7362-45ca-96da-19824eb8d650">SEARCH_INDEXING_PHASE</a> status of each document in the array being sent.
+The <a href="https://msdn.microsoft.com/en-us/library/Aa965701(v=VS.85).aspx">SEARCH_INDEXING_PHASE</a> status of each document in the array being sent.
                 
 
 
@@ -77,9 +77,9 @@ The number of entries in <i>rgItemStatusEntries</i>.
 
 ### -param rgItemStatusEntries [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c62790bf-1c96-4566-afcc-c03810677dfb">SEARCH_ITEM_INDEXING_STATUS</a>[]</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965372(v=VS.85).aspx">SEARCH_ITEM_INDEXING_STATUS</a>[]</b>
 
-An array of <a href="https://msdn.microsoft.com/c62790bf-1c96-4566-afcc-c03810677dfb">SEARCH_ITEM_INDEXING_STATUS</a> structures containing status update information.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Aa965372(v=VS.85).aspx">SEARCH_ITEM_INDEXING_STATUS</a> structures containing status update information.
                 
 
 
@@ -99,11 +99,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5837ccf6-1156-44a5-9135-3e3b47244f9d">ISearchNotifyInlineSite</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231458(v=VS.85).aspx">ISearchNotifyInlineSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/817550e2-a256-48d5-9fa6-1ea04f8b8589">Notifying the Index of Changes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
  
 
  

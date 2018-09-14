@@ -76,7 +76,7 @@ A handle to the window whose information is to be retrieved.
 
 Type: <b>PWINDOWINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/c905e2e4-2b8d-453f-9f81-85e67a0d381f">WINDOWINFO</a> structure to receive the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(WINDOWINFO)</code> before calling this function. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632610(v=VS.85).aspx">WINDOWINFO</a> structure to receive the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(WINDOWINFO)</code> before calling this function. 
 
 
 ## -returns
@@ -108,11 +108,11 @@ To get extended error information, call <a href="https://msdn.microsoft.com/d852
 
 
 
-<a href="https://msdn.microsoft.com/c905e2e4-2b8d-453f-9f81-85e67a0d381f">WINDOWINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632610(v=VS.85).aspx">WINDOWINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
  
 
  

@@ -61,9 +61,9 @@ Get the geometry shader currently set on the device.
 
 ### -param ppGeometryShader [out]
 
-Type: <b><a href="https://msdn.microsoft.com/ffe713b9-93d6-4e0a-9cf6-014ac6b8a692">ID3D10GeometryShader</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173774(v=VS.85).aspx">ID3D10GeometryShader</a>**</b>
 
-Address of a pointer to a geometry shader (see <a href="https://msdn.microsoft.com/ffe713b9-93d6-4e0a-9cf6-014ac6b8a692">ID3D10GeometryShader</a>) to be returned by the method.
+Address of a pointer to a geometry shader (see <a href="https://msdn.microsoft.com/en-us/library/Bb173774(v=VS.85).aspx">ID3D10GeometryShader</a>) to be returned by the method.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns nothing.
 
 
 
-Any returned interfaces will have their reference count incremented by one. Applications should call <a href="http://msdn.microsoft.com/en-us/library/ms682317(VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
+Any returned interfaces will have their reference count incremented by one. Applications should call <a href="https://msdn.microsoft.com/en-us/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
 
 
 
@@ -89,7 +89,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

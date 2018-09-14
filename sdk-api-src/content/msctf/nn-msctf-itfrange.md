@@ -347,7 +347,7 @@ A pointer to a current <b>ITfRange</b> object can be obtained from the &lt;range
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
 
 
 

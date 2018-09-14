@@ -63,10 +63,10 @@ Contains information used to process toolbar notification codes. This structure 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field iItem
@@ -78,10 +78,10 @@ Command identifier of the button associated with the notification code.
 
 ### -field tbButton
 
-Type: <b><a href="https://msdn.microsoft.com/c7dea982-d8b3-44e1-a4d2-3cca560c2096">TBBUTTON</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a></b>
 
 
-<a href="https://msdn.microsoft.com/c7dea982-d8b3-44e1-a4d2-3cca560c2096">TBBUTTON</a> structure that contains information about the toolbar button associated with the notification code. This member only contains valid information with the <a href="https://msdn.microsoft.com/d389fabb-16f6-43aa-a4b6-abb80723345b">TBN_QUERYINSERT</a> and <a href="https://msdn.microsoft.com/fa6a8fe4-a9a3-4c59-9237-d28bd34d664c">TBN_QUERYDELETE</a> notification codes. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structure that contains information about the toolbar button associated with the notification code. This member only contains valid information with the <a href="https://msdn.microsoft.com/en-us/library/Bb787280(v=VS.85).aspx">TBN_QUERYINSERT</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787278(v=VS.85).aspx">TBN_QUERYDELETE</a> notification codes. 
 
 
 ### -field cchText

@@ -159,7 +159,7 @@ void main()
 
 
 
-<a href="_com_iunknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
 
 
 

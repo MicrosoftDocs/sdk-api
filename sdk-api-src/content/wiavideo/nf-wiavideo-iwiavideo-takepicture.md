@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The path and directory where the image file is saved are specified by the <a href="https://msdn.microsoft.com/f7bff8d2-1cdd-4d32-877b-c61343888a26">IWiaVideo::ImagesDirectory</a> property.
+The path and directory where the image file is saved are specified by the <a href="https://msdn.microsoft.com/en-us/library/ms629895(v=VS.85).aspx">IWiaVideo::ImagesDirectory</a> property.
 
 
 

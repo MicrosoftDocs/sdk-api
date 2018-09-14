@@ -238,7 +238,7 @@ Sometimes an application will read data from the remote party, attempt to decryp
 
 
 
-<a href="authentication_functions.htm">SSPI Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
 
 
 

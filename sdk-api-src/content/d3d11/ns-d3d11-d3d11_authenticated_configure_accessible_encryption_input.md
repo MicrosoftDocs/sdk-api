@@ -60,7 +60,7 @@ Contains input data for a <b>D3D11_AUTHENTICATED_CONFIGURE_ENCRYPTION_WHEN_ACCES
 
 ### -field Parameters
 
-A <a href="https://msdn.microsoft.com/11FC071E-9B73-4960-B675-A43DDF75AA0B">D3D11_AUTHENTICATED_CONFIGURE_INPUT</a> structure that contains the command GUID and other data.
+A <a href="https://msdn.microsoft.com/en-us/library/Hh447603(v=VS.85).aspx">D3D11_AUTHENTICATED_CONFIGURE_INPUT</a> structure that contains the command GUID and other data.
 
 
 
@@ -75,7 +75,7 @@ A GUID that specifies the type of encryption to apply.
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
  
 
  

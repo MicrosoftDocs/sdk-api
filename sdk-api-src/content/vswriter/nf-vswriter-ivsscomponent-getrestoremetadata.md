@@ -153,7 +153,7 @@ The XML document is not valid. Check the event log for details. For more
 This method can be called at any time depending on the logic of a given writer.
 
 The caller should free the memory held by the <i>pbstrRestoreMetadata</i> parameter by calling 
-    <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
    
 
 If no backup metadata has been set, 

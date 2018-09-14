@@ -65,7 +65,7 @@ Retrieves the modem control-register values.
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="base.createfile">CreateFile</a> function returns this handle.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
 
 
 ### -param lpModemStat [out]
@@ -165,7 +165,7 @@ The function fails if the hardware does not support the control-register values.
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 

@@ -72,7 +72,7 @@ TBD
 
 ### -param eventStrings [in]
 
-Type: <b><a href="uiauto_WorkingWithSafeArrays.htm">SAFEARRAY</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ee684093(v=VS.85).aspx">SAFEARRAY</a>*</b>
 
 Event data passed by the event.
 
