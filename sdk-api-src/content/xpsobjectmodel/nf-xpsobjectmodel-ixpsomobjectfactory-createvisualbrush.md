@@ -130,13 +130,9 @@ The method succeeded.
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMVisualBrush        *newInterface;
 
 // Note the implicit requirement that CoInitializeEx 
@@ -147,27 +143,27 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreateVisualBrush (
-        &amp;viewBox,
-        &amp;viewPort,
-        &amp;newInterface);
+    hr = xpsFactory->CreateVisualBrush (
+        &viewBox,
+        &viewPort,
+        &newInterface);
 
     if (SUCCEEDED(hr))
     {
         // assign visual using one of the following:
-        newInterface-&gt;SetVisualLocal (localVisual);
+        newInterface->SetVisualLocal (localVisual);
         // or
-        newInterface-&gt;SetVisualLookup (visualLookupKey);
+        newInterface->SetVisualLookup (visualLookupKey);
         // use newInterface
 
-        newInterface-&gt;Release();
+        newInterface->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
@@ -175,13 +171,13 @@ else
 }
 // use newInterface
 
-newInterface-&gt;Release();
-xpsFactory-&gt;Release();
+newInterface->Release();
+xpsFactory->Release();
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

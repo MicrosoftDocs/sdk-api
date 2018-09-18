@@ -138,20 +138,16 @@ This method must be called before the dialog is shown and can only be called onc
 
 The following code example demonstrates the use of the array of <a href="https://msdn.microsoft.com/b5bb6777-a5b6-4d10-a8b8-79269fa5e2da">COMDLG_FILTERSPEC</a> structures in the context of this method. The example array consists of three <b>COMDLG_FILTERSPEC</b> structures. The first declares two patterns for the dialog filter, the second declares a single pattern, and the last shows files of all types. The variables szJPG, szBMP, and szAll are assumed to be previously declared strings that provide a friendly name for each filter.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>COMDLG_FILTERSPEC rgSpec[] =
+
+```cpp
+COMDLG_FILTERSPEC rgSpec[] =
 { 
     { szJPG, L"*.jpg;*.jpeg" },
     { szBMP, L"*.bmp" },
     { szAll, L"*.*" },
-};</pre>
-</td>
-</tr>
-</table></span></div>
+};
+```
+
+
 
 

@@ -492,14 +492,10 @@ The parent service must be present in the
 
 <b>Example</b>
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-            if (currGattChar-&gt;IsReadable) {
+
+```cpp
+
+            if (currGattChar->IsReadable) {
 ////////////////////////////////////////////////////////////////////////////
 // Determine Characteristic Value Buffer Size
 ////////////////////////////////////////////////////////////////////////////
@@ -509,7 +505,7 @@ The parent service must be present in the
                         currGattChar,
                         0,
                         NULL,
-                        &amp;charValueDataSize,
+                        &charValueDataSize,
                         BLUETOOTH_GATT_FLAG_NONE);
 
                 if (HRESULT_FROM_WIN32(ERROR_MORE_DATA) != hr) {
@@ -543,16 +539,16 @@ The parent service must be present in the
                     goto GetDescriptors; // Proceed to retrieving descriptors
                 }
 
-                PrintCharacteristicValue(pCharValueBuffer, 2, currGattChar-&gt;CharacteristicUuid);
+                PrintCharacteristicValue(pCharValueBuffer, 2, currGattChar->CharacteristicUuid);
 
                 // Free before going to next iteration, or memory leak.
                 free(pCharValueBuffer);
                 pCharValueBuffer = NULL;
             }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

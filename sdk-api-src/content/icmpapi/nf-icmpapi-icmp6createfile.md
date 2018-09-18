@@ -90,16 +90,12 @@ Note that the include directive for <i>Iphlpapi.h</i> header file must be placed
 
 The following example opens a handle on which IPv6 ICMP echo requests can be issued. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;iphlpapi.h&gt;
-#include &lt;icmpapi.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <iphlpapi.h>
+#include <icmpapi.h>
 #pragma comment(lib, "IPHLPAPI.lib")
 
 void main()
@@ -114,10 +110,10 @@ void main()
     else
       printf("\tHandle created.\n");
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

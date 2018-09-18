@@ -72,19 +72,15 @@ Handle to an open stream.
 
 The <b>AVIStreamStartTime</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define AVIStreamStartTime(pavi) \ 
     AVIStreamSampleToTime(pavi, AVIStreamStart(pavi)) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

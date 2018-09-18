@@ -168,13 +168,9 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 The following example declares the necessary variables, initializes COM, and creates an instance of the <b>CertAdmin</b> class. It then calls <b>GetCRL</b> and prints success or failure to the screen. Finally, it frees resources.
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    ICertAdmin * pCertAdmin = NULL;  // pointer to interface object
+
+```cpp
+    ICertAdmin * pCertAdmin = NULL;  // pointer to interface object
     BSTR bstrCA = NULL;              // variable for machine\CAName
     BSTR bstrCRL = NULL;             // variable to contain
                                      // the retrieved CRL
@@ -195,7 +191,7 @@ The following example declares the necessary variables, initializes COM, and cre
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICertAdmin,
-                           (void **)&amp;pCertAdmin);
+                           (void **)&pCertAdmin);
     if (FAILED(hr))
     {
         printf("Failed CoCreateInstance pCertAdmin [%x]\n", hr);
@@ -204,7 +200,7 @@ The following example declares the necessary variables, initializes COM, and cre
 
     //  Note the use of two backslashes (\\) 
    //  in C++ to produce one backslash (\).
-    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
+    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
     if (FAILED(hr))
     {
         printf("Failed to allocate memory for bstrCA\n");
@@ -212,7 +208,7 @@ The following example declares the necessary variables, initializes COM, and cre
     }
 
     //  Retrieve the CRL.
-    hr = pCertAdmin-&gt;GetCRL( bstrCA, CR_OUT_BINARY, &amp;bstrCRL );
+    hr = pCertAdmin->GetCRL( bstrCA, CR_OUT_BINARY, &bstrCRL );
     if (FAILED(hr))
     {
         printf("Failed GetCRL [%x]\n", hr);
@@ -235,14 +231,14 @@ error:
 
     //  Clean up object resources.
     if (NULL != pCertAdmin)
-        pCertAdmin-&gt;Release();
+        pCertAdmin->Release();
 
     //  Free COM resources.
     CoUninitialize();
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

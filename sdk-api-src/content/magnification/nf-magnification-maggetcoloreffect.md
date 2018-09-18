@@ -96,13 +96,9 @@ This function requires Windows Display Driver Model (WDDM)-capable video cards.
 
 The following example retrieves the color transformation matrix.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Description:
+
+```cpp
+// Description:
 //   Retrieves the color transformation matrix from a magnifier control.
 // Parameters:
 //   hwndMag - handle of the magnifier control.
@@ -111,7 +107,7 @@ BOOL GetMagnifierColorTransform(HWND hwndMag)
 {
     MAGCOLOREFFECT effect;
 
-    BOOL ret = MagGetColorEffect(hwndMag, &amp;effect);
+    BOOL ret = MagGetColorEffect(hwndMag, &effect);
 
     //
     // Do something with the color data.
@@ -119,10 +115,10 @@ BOOL GetMagnifierColorTransform(HWND hwndMag)
 
     return ret;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

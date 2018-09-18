@@ -104,13 +104,9 @@ The <b>ADsEncodeBinaryData</b> function does not encode byte values that represe
 
 The following code example shows how to use this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Test binary values in filters and use
+
+```cpp
+// Test binary values in filters and use
 // a binary filter instead of a string filter in ExecuteSearch.
 
 LPWSTR pszPrefix = L"objectSid=%s";
@@ -128,7 +124,7 @@ DWORD dwSize = sizeof(column)/sizeof(BYTE);
 hr = ADsEncodeBinaryData (
     column,
     dwSize,
-    &amp;pszDest
+    &pszDest
     );
 
 if(hr==S_OK)
@@ -147,10 +143,10 @@ else
 // Perform the search with the pszDest as the filter string. Code omitted.
 . . . 
 // Done with the search and free the converted string.
-FreeADsMem( pszDest );</pre>
-</td>
-</tr>
-</table></span></div>
+FreeADsMem( pszDest );
+```
+
+
 
 
 

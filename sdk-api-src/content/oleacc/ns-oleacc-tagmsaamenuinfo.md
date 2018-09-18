@@ -97,13 +97,9 @@ The <b>MSAAMENUINFO</b> structure cannot be a member in a class that contains vi
 
 The following code fragment shows the declaration of an application-specific owner-drawn menu information structure that includes <b>MSAAMENUINFO</b>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 // Application-specific owner-drawn menu info struct. Owner-drawn data 
 // is a pointer to one of these. MSAAMENUINFO must be the first 
 // member. 
@@ -115,10 +111,10 @@ struct MenuEntry
     int          m_CmdID;      // Menu command ID.
     int          m_IconIndex;  // Index of icon in bitmap.
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

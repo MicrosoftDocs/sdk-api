@@ -107,59 +107,47 @@ The Add Network Place Wizard allows the user to create a shortcut to network res
 
 The Windows Shell supplies a <a href="https://msdn.microsoft.com/e96a2721-0d00-4b83-8f78-46f6356f77e2">Publishing Wizard object</a> that implements <b>IPublishingWizard</b> and <a href="https://msdn.microsoft.com/f2d69f18-73de-44c1-9543-909e509b1c4f">IWizardExtension</a>. The methods of <b>IPublishingWizard</b> are used to initialize the type of the wizard, set certain attributes of the wizard, and retrieve a transfer manifest. The methods of <b>IWizardExtension</b> are used to retrieve the extension pages that make up the body of the selected wizard. To instantiate the <b>Publishing Wizard object</b>, call <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> and use the class identifier (CLSID) CLSID_PublishingWizard and IID_IPublishingWizard as the REFIID.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IPublishingWizard *pPublish = NULL;
+
+```cpp
+IPublishingWizard *pPublish = NULL;
 
 HRESULT hr = CoCreateInstance(CLSID_PublishingWizard, 
                               NULL,
                               CLSCTX_INPROC_SERVER, 
                               IID_IPublishingWizard, 
-                              (LPVOID*)&amp;pPublish);
-</pre>
-</td>
-</tr>
-</table></span></div>
+                              (LPVOID*)&pPublish);
+
+```
+
+
 Once the <a href="https://msdn.microsoft.com/e96a2721-0d00-4b83-8f78-46f6356f77e2">Publishing Wizard object</a> has been instantiated, call <a href="https://msdn.microsoft.com/8312bb2e-cc06-4440-a72c-cf153a5d61b6">IPublishingWizard::Initialize</a> to initialize the <b>Publishing Wizard object</b>.
 
 <div class="alert"><b>Note</b>  The examples below will not work on Windows Vista since the <b>IPublishingWizard</b> methods no longer support the Online Printing Wizard in Windows Vista.</div>
 <div> </div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Initializing the Online Print Wizard
+
+```cpp
+// Initializing the Online Print Wizard
                     
-hr = pPublish-&gt;Initialize(pDataObject,
+hr = pPublish->Initialize(pDataObject,
                           SHPWHF_NOFILESELECTOR,
                           L"InternetPhotoPrinting");
                           
 // pDataObject: A data object that represents files or folders to transfer.
 // SHPWHF_NOFILESELECTOR: This flag must be set.
 // L"InternetPhotoPrinting": Display the Online Print Wizard.
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Note that <a href="https://msdn.microsoft.com/8312bb2e-cc06-4440-a72c-cf153a5d61b6">IPublishingWizard::Initialize</a> does not actually display the wizard. In order to display the Online Print Wizard, you must create a <a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> structure and then modify its <i>phpage</i> member to include the array of <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> handles returned by <a href="https://msdn.microsoft.com/2d9a5012-3b5e-4e55-984b-70a932bab569">IWizardExtension::AddPages</a>. <b>IWizardExtension::AddPages</b> is implemented by the same <a href="https://msdn.microsoft.com/e96a2721-0d00-4b83-8f78-46f6356f77e2">Publishing Wizard object</a> that implements <b>IPublishingWizard</b>.
 
 If displaying the Online Print Wizard, the PSH_NOMARGIN flag should be set in the <i>dwFlags</i> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> structure that contains the extension pages.
 
 In addition to the extension pages retrieved from <a href="https://msdn.microsoft.com/2d9a5012-3b5e-4e55-984b-70a932bab569">IWizardExtension::AddPages</a>, the <i>phpage</i> array should include a start page, a cancel page, and a finish page, provided by your application. When the user backs out of or cancels the extension, or when the extension finishes displaying its pages, the extension then communicates to the wizard that it must navigate out of the stack of extension pages to one of these application-provided pages. Your application must supply an implementation of <a href="https://msdn.microsoft.com/4c366f9c-d774-4390-8f43-8c25f86e3c35">IWizardSite</a> that handles this communication. The <b>IPublishingWizard</b> object's site must be set to your <b>IWizardSite</b> implementation. The <a href="https://msdn.microsoft.com/66175435-f85b-4e26-b148-f4edb74cb41d">IUnknown_SetSite</a> function can be used to set the site. Once your application has specified the wizard settings using <a href="https://msdn.microsoft.com/8312bb2e-cc06-4440-a72c-cf153a5d61b6">IPublishingWizard::Initialize</a>, properly populated the <i>phpage</i> member of a <a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> structure, and set the site to an implementation of <b>IWizardSite</b>, the wizard may be displayed by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>/* This is example code demonstrating how to populate a PROPSHEETHEADER
+
+```cpp
+/* This is example code demonstrating how to populate a PROPSHEETHEADER
 structure and use it to display the Online Print Wizard.
 This sample assumes that the PublishingWizard object has already
 been instantiated and initialized elsewhere in the application. */
@@ -168,7 +156,7 @@ been instantiated and initialized elsewhere in the application. */
 // the Publishing Wizard object. 
 // The Online Print Wizard provides 6 predefined pages in Windows Vista,
 // but provided 9 in Windows XP. 
-#if NTDDI_VERSION &gt;= NTDDI_VISTA
+#if NTDDI_VERSION >= NTDDI_VISTA
 #define NUMPAGES 6  
 #else
 #define NUMPAGES 9
@@ -206,7 +194,7 @@ hr = IUnknown_SetSite(pIPublish, (IUnknown *)pWizSite);
 // Fill the hPropSheets array with the pages of the wizard.
 if SUCCEEDED(hr)
 {
-    hr = pIPublish-&gt;AddPages(&amp;hPropSheets[0], NUMPAGES, &amp;uCount);
+    hr = pIPublish->AddPages(&hPropSheets[0], NUMPAGES, &uCount);
 }        
 
 if SUCCEEDED(hr)
@@ -232,12 +220,12 @@ if SUCCEEDED(hr)
     psh.hInstance = NULL;
 
     // Display the wizard.
-    PropertySheet(&amp;psh);
+    PropertySheet(&psh);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

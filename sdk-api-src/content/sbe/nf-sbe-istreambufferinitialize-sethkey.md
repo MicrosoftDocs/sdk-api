@@ -129,47 +129,43 @@ The caller may release the registry key handle after calling this method.
 
 The following code shows how to configure the backing file directory. Error checking is omitted for brevity.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Create the StreamBufferConfig object.
-CComPtr&lt;IStreamBufferConfigure&gt; pConfig;
+CComPtr<IStreamBufferConfigure> pConfig;
 hr = pConfig.CoCreateInstance(CLSID_StreamBufferConfig);
 
 // Create a new registry key to hold our settings.
 HKEY hkey = 0;
 long lRes = RegCreateKey(HKEY_LOCAL_MACHINE,
-    TEXT("SOFTWARE\\MyStreamBufferKey"), &amp;hkey);
+    TEXT("SOFTWARE\\MyStreamBufferKey"), &hkey);
 
 // Set the registry key.
-CComPtr&lt;IStreamBufferInitialize&gt; pInit;
-hr = pConfig.QueryInterface(&amp;pInit);
-hr = pInit-&gt;SetHKEY(hkey);
+CComPtr<IStreamBufferInitialize> pInit;
+hr = pConfig.QueryInterface(&pInit);
+hr = pInit->SetHKEY(hkey);
 pInit.Release();
 
 // Set the backing file directory.
-hr = pConfig-&gt;SetDirectory(L"C:\\MyDirectory");
+hr = pConfig->SetDirectory(L"C:\\MyDirectory");
 
 // Create the Stream Buffer Sink filter and set the registry key.
-CComPtr&lt;IStreamBufferSink&gt; pSink;
+CComPtr<IStreamBufferSink> pSink;
 hr = pSink.CoCreateInstance(CLSID_StreamBufferSink);
-hr = pSink.QueryInterface(&amp;pInit);
-hr = pInit-&gt;SetHKEY(hkey);
+hr = pSink.QueryInterface(&pInit);
+hr = pInit->SetHKEY(hkey);
 pInit.Release();
 
 // Create the Stream Buffer Source filter and set the registry key.
-CComPtr&lt;IStreamBufferSource&gt; pSource;
+CComPtr<IStreamBufferSource> pSource;
 hr = pSource.CoCreateInstance(CLSID_StreamBufferSource);
-hr = pSource.QueryInterface(&amp;pInit);
-hr = pInit-&gt;SetHKEY(hkey);
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = pSource.QueryInterface(&pInit);
+hr = pInit->SetHKEY(hkey);
+
+```
+
+
 
 
 

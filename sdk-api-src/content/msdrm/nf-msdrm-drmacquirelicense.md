@@ -216,39 +216,35 @@ The retrieved license is added to the temporary or permanent license store, depe
 <div> </div>
 AD RMS allows an administrator to specify an extranet licensing  URL in addition to an internal (intranet) URL. Each  URL is copied into the license under a separate &lt;DISTRIBUTIONPOINT&gt; node with the internal URL appearing first. This is illustrated by the following example.
 
-<div class="code"><span codelanguage="XML"><table>
-<tr>
-<th>XML</th>
-</tr>
-<tr>
-<td>
-<pre>
-      &lt;DISTRIBUTIONPOINT&gt;
-      - &lt;OBJECT type="License-Acquisition-URL"&gt;
-          &lt;ID type="MS-GUID"&gt;
+
+```xml
+
+      <DISTRIBUTIONPOINT>
+      - <OBJECT type="License-Acquisition-URL">
+          <ID type="MS-GUID">
             {0F45FD50-383B-43EE-90A4-ED013CD0CFE5}
-          &lt;/ID&gt; 
-          &lt;NAME&gt;DRM Server Cluster&lt;/NAME&gt; 
-          &lt;ADDRESS type="URL"&gt;
+          </ID> 
+          <NAME>DRM Server Cluster</NAME> 
+          <ADDRESS type="URL">
             https://corprights/_wmcs/licensing
-          &lt;/ADDRESS&gt; 
-        &lt;/OBJECT&gt;
-      &lt;/DISTRIBUTIONPOINT&gt;
-      &lt;DISTRIBUTIONPOINT&gt;
-      - &lt;OBJECT type="Extranet-License-Acquisition-URL"&gt;
-          &lt;ID type="MS-GUID"&gt;
+          </ADDRESS> 
+        </OBJECT>
+      </DISTRIBUTIONPOINT>
+      <DISTRIBUTIONPOINT>
+      - <OBJECT type="Extranet-License-Acquisition-URL">
+          <ID type="MS-GUID">
             {94BF969A-CA04-44d6-AA96-51071281FAG2}
-          &lt;/ID&gt; 
-          &lt;NAME&gt;DRM Server Cluster&lt;/NAME&gt; 
-          &lt;ADDRESS type="URL"&gt;
+          </ID> 
+          <NAME>DRM Server Cluster</NAME> 
+          <ADDRESS type="URL">
             https://corprights.example.com/_wmcs/licensing
-          &lt;/ADDRESS&gt; 
-        &lt;/OBJECT&gt;
-      &lt;/DISTRIBUTIONPOINT&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+          </ADDRESS> 
+        </OBJECT>
+      </DISTRIBUTIONPOINT>
+
+```
+
+
 Multiple URLs are often specified so that  users can access protected content both at work and at home. The second URL provides a license acquisition point that does not require the user working at home to log on to the corporate network. The <b>DRMAcquireLicense</b> function, however, uses the first URL by default. Therefore, to allow the consumer to use an alternate URL, your application must parse the license.
 
 

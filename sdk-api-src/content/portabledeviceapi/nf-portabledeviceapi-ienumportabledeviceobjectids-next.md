@@ -128,13 +128,9 @@ If fewer than the requested number of elements remain in the sequence, this meth
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // This number controls how many object identifiers are requested during each call
 // to IEnumPortableDeviceObjectIDs::Next()
 #define NUM_OBJECTS_TO_REQUEST  10
@@ -156,7 +152,7 @@ void RecursiveEnumerate(LPCWSTR wszParentObjectID, IPortableDeviceContent* pCont
 
     // Get an IEnumPortableDeviceObjectIDs interface by calling EnumObjects with the
     // specified parent object identifier.
-    hr = pContent-&gt;EnumObjects(0, wszParentObjectID, NULL, &amp;pEnumObjectIDs);
+    hr = pContent->EnumObjects(0, wszParentObjectID, NULL, &pEnumObjectIDs);
     if (FAILED(hr))
     {
         // Failed to get IEnumPortableDeviceObjectIDs from IPortableDeviceContent
@@ -167,14 +163,14 @@ void RecursiveEnumerate(LPCWSTR wszParentObjectID, IPortableDeviceContent* pCont
     {
         DWORD  cFetched = 0;
         LPWSTR szObjectIDArray[NUM_OBJECTS_TO_REQUEST] = {0};
-        hr = pEnumObjectIDs-&gt;Next(NUM_OBJECTS_TO_REQUEST, // Number of objects to request on each NEXT call
+        hr = pEnumObjectIDs->Next(NUM_OBJECTS_TO_REQUEST, // Number of objects to request on each NEXT call
                                   szObjectIDArray,        // Array of LPWSTR array which will be populated on each NEXT call
-                                  &amp;cFetched);             // Number of objects written to the LPWSTR array
+                                  &cFetched);             // Number of objects written to the LPWSTR array
         if (SUCCEEDED(hr))
         {
             // Traverse the results of the Next() operation and recursively enumerate
             // Remember to free all returned object identifiers using CoTaskMemFree()
-            for (DWORD dwIndex = 0; dwIndex &lt; cFetched; dwIndex++)
+            for (DWORD dwIndex = 0; dwIndex < cFetched; dwIndex++)
             {
                 RecursiveEnumerate(szObjectIDArray[dwIndex],pContent);
 
@@ -188,14 +184,14 @@ void RecursiveEnumerate(LPCWSTR wszParentObjectID, IPortableDeviceContent* pCont
     // Release the IEnumPortableDeviceObjectIDs when finished
     if (pEnumObjectIDs != NULL)
     {
-        pEnumObjectIDs-&gt;Release();
+        pEnumObjectIDs->Release();
         pEnumObjectIDs = NULL;
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
