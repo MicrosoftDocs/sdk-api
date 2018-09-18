@@ -7,7 +7,7 @@ old-location: search\_search_IEnumSearchScopeRules_Clone.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\clone.htm
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],IEnumSearchScopeRules interface, IEnumSearchScopeRules interface [search],Clone method, IEnumSearchScopeRules.Clone, IEnumSearchScopeRules::Clone, _search_IEnumSearchScopeRules_Clone, search._search_IEnumSearchScopeRules_Clone, searchapi/IEnumSearchScopeRules::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a copy of this <a href="https://msdn.microsoft.com/en-us/library/Bb266499(v=VS.85).aspx">IEnumSearchScopeRules</a> object with the same contents and state as the current one.
+Creates a copy of this <a href="https://msdn.microsoft.com/9e285532-8f03-4572-b908-a67abd842268">IEnumSearchScopeRules</a> object with the same contents and state as the current one.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Creates a copy of this <a href="https://msdn.microsoft.com/en-us/library/Bb26649
 
 ### -param ppenum [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266499(v=VS.85).aspx">IEnumSearchScopeRules</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/9e285532-8f03-4572-b908-a67abd842268">IEnumSearchScopeRules</a>**</b>
 
-On return, contains a pointer to the cloned <a href="https://msdn.microsoft.com/en-us/library/Bb266499(v=VS.85).aspx">IEnumSearchScopeRules</a> object. The calling application must free the new object by calling its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+On return, contains a pointer to the cloned <a href="https://msdn.microsoft.com/9e285532-8f03-4572-b908-a67abd842268">IEnumSearchScopeRules</a> object. The calling application must free the new object by calling its <a href="_com_IUnknown_Release">IUnknown::Release</a> method.
 
 
 ## -returns

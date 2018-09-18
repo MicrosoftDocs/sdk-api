@@ -4,10 +4,10 @@ title: ITask::SetPriority
 author: windows-sdk-content
 description: This method sets the priority for the task.
 old-location: taskschd\itask_setpriority.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: f72e5fb8-761e-41bd-be64-b886ebc2c1e5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: ITask interface [Task Scheduler],SetPriority method, ITask.SetPriority, ITask::SetPriority, SetPriority, SetPriority method [Task Scheduler], SetPriority method [Task Scheduler],ITask interface, _msb_itask_setpriority, mstask/ITask::SetPriority, taskschd.itask_setpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method sets the priority for the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task</a>.
+This method sets the priority for the <a href="t.htm">task</a>.
 
 
 ## -parameters

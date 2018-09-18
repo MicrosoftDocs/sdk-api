@@ -101,16 +101,20 @@ Standard video stream handlers provide format information in a <b>BITMAPINFOHEAD
 
 For handlers written in C++, <b>ReadFormat</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT ReadFormat(LONG lPos, LPVOID lpFormat, 
     LONG *lpcbFormat) 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

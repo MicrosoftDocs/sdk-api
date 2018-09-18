@@ -60,7 +60,7 @@ The <b>CRYPT_XML_PROPERTY</b> structure contains information about a CryptXML pr
 
 ### -field dwPropId
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Dd433861(v=VS.85).aspx">CRYPT_XML_PROPERTY_ID</a> enumeration that specifies the property type.
+A value of the <a href="https://msdn.microsoft.com/7b396245-6dc5-4018-821e-a70db5f0d068">CRYPT_XML_PROPERTY_ID</a> enumeration that specifies the property type.
 
 
 ### -field pvValue

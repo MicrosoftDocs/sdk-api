@@ -179,17 +179,21 @@ If an application registers a <b>WinBio</b> event monitor and leaves that monito
 
 The callback routine must have the following signature:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID CALLBACK EventCallback(
 __in_opt PVOID EventCallbackContext,
 __in HRESULT OperationStatus,
 __in PWINBIO_EVENT Event
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 #### Examples
 
@@ -204,9 +208,13 @@ from the Windows biometric framework. Link to the Winbio.lib static library and 
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT RegisterSystemEventMonitor(BOOL bCancel)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT RegisterSystemEventMonitor(BOOL bCancel)
 {
     HRESULT hr = S_OK;
     WINBIO_SESSION_HANDLE sessionHandle = NULL;
@@ -220,7 +228,7 @@ HRESULT RegisterSystemEventMonitor(BOOL bCancel)
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -324,22 +332,22 @@ VOID CALLBACK EventMonitorCallback(
     if (Event != NULL)
     {
         wprintf_s(L"\n MonitorEvent: ");
-        switch (Event->Type)
+        switch (Event-&gt;Type)
         {
             case WINBIO_EVENT_FP_UNCLAIMED:
                 wprintf_s(L"WINBIO_EVENT_FP_UNCLAIMED");
                 wprintf_s(L"\n Unit ID: %d", 
-                          Event->Parameters.Unclaimed.UnitId);
+                          Event-&gt;Parameters.Unclaimed.UnitId);
                 wprintf_s(L"\n Reject detail: %d\n", 
-                          Event->Parameters.Unclaimed.RejectDetail);
+                          Event-&gt;Parameters.Unclaimed.RejectDetail);
                 break;
 
             case WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY:
                 wprintf_s(L"WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY");
                 wprintf_s(L"\n Unit ID: %d", 
-                          Event->Parameters.UnclaimedIdentify.UnitId);
+                          Event-&gt;Parameters.UnclaimedIdentify.UnitId);
                 wprintf_s(L"\n Reject detail: %d\n", 
-                          Event->Parameters.UnclaimedIdentify.RejectDetail);
+                          Event-&gt;Parameters.UnclaimedIdentify.RejectDetail);
                 break;
 
             case WINBIO_EVENT_ERROR:
@@ -347,7 +355,7 @@ VOID CALLBACK EventMonitorCallback(
                 break;
 
             default:
-                wprintf_s(L"(0x%08x - Invalid type)\n", Event->Type);
+                wprintf_s(L"(0x%08x - Invalid type)\n", Event-&gt;Type);
                 break;
         }
     }
@@ -362,10 +370,10 @@ e_Exit:
     }
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

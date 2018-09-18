@@ -7,7 +7,7 @@ old-location: shell\SHGetKnownFolderPath.htm
 tech.root: shell
 ms.assetid: 5434c744-484b-4c34-9a76-dddbcb81eb29
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: SHGetKnownFolderPath, SHGetKnownFolderPath function [Windows Shell], _shell_SHGetKnownFolderPath, shell.SHGetKnownFolderPath, shlobj_core/SHGetKnownFolderPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

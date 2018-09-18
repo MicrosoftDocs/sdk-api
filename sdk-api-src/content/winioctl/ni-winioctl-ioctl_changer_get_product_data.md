@@ -7,7 +7,7 @@ old-location: base\ioctl_changer_get_product_data.htm
 tech.root: devio
 ms.assetid: 60744666-fb37-4263-8f4a-e7e043e6b71e
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IOCTL_CHANGER_GET_PRODUCT_DATA, IOCTL_CHANGER_GET_PRODUCT_DATA control, IOCTL_CHANGER_GET_PRODUCT_DATA control code, _win32_ioctl_changer_get_product_data, base.ioctl_changer_get_product_data, winioctl/IOCTL_CHANGER_GET_PRODUCT_DATA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,18 +54,22 @@ Retrieves the product data for the specified device.
 
 To perform this operation, call the 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,               // handle to device
   IOCTL_CHANGER_GET_PRODUCT_DATA, // dwIoControlCodeNULL,                           // lpInBuffer0,                              // nInBufferSize(LPVOID) lpOutBuffer,           // output buffer
   (DWORD) nOutBufferSize,         // size of output buffer
   (LPDWORD) lpBytesReturned,      // number of bytes returned
   (LPOVERLAPPED) lpOverlapped     // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

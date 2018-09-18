@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IEnumWiaItem::Skip</b> method skips the specified number of items during an enumeration of available <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects.
+The <b>IEnumWiaItem::Skip</b> method skips the specified number of items during an enumeration of available <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> objects.
 
 
 ## -parameters

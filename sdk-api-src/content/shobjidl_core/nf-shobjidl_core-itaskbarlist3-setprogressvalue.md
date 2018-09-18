@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList3_SetProgressValue.htm
 tech.root: shell
 ms.assetid: 98646a68-d505-4d9b-b0f9-efda3da77005
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetProgressValue method, ITaskbarList3.SetProgressValue, ITaskbarList3::SetProgressValue, SetProgressValue, SetProgressValue method [Windows Shell], SetProgressValue method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetProgressValue, shell.ITaskbarList3_SetProgressValue, shobjidl_core/ITaskbarList3::SetProgressValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,35 +149,39 @@ If a window in the group has set <a href="https://msdn.microsoft.com/ffa5566c-a6
 
 Here is an example of how an application could use <a href="https://msdn.microsoft.com/a5eb4e5a-df17-4aca-96fb-d8475e266b92">ITaskbarList3</a> to display progress while it is performing operations.
 
-
-```cpp
-HRESULT CMyApp::ShowProgressInTaskbar(HWND hwnd, __in ITaskbarList3 *pTL)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CMyApp::ShowProgressInTaskbar(HWND hwnd, __in ITaskbarList3 *pTL)
 {
     // Set the progress state of the button to indeterminate while you calculate
     // the number of operations to be performed.
-    HRESULT hr = pTL->SetProgressState(hwnd, TBPF_INDETERMINATE);
+    HRESULT hr = pTL-&gt;SetProgressState(hwnd, TBPF_INDETERMINATE);
 
     // Calculate the number of operations to perform.
     int cTotalOperations = _CalculateNumberOfOperationsToPerform();
 
-    for (int i=0; i < cTotalOperations && SUCCEEDED(hr); i++)
+    for (int i=0; i &lt; cTotalOperations &amp;&amp; SUCCEEDED(hr); i++)
     {
         // Update the progress. This call to SetProgressValue cancels the
         // indeterminate state and puts the button into normal progress mode.
-        pTL->SetProgressValue(hwnd, i, cTotalOperations);
+        pTL-&gt;SetProgressValue(hwnd, i, cTotalOperations);
        
         // Do whatever operation your application needs to perform.
         hr = _PerformOperation(i);
     }
 
     // Tell the button that progress no longer needs to be displayed.
-    pTL->SetProgressState(hwnd, TBPF_NOPROGRESS);
+    pTL-&gt;SetProgressState(hwnd, TBPF_NOPROGRESS);
     
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: ITask::SetTaskFlags
 author: windows-sdk-content
 description: This method sets the flags that modify the behavior of a scheduled task.
 old-location: taskschd\itask_settaskflags.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 32231145-241a-46ff-9c49-94f5bf7cc532
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: ITask interface [Task Scheduler],SetTaskFlags method, ITask.SetTaskFlags, ITask::SetTaskFlags, SetTaskFlags, SetTaskFlags method [Task Scheduler], SetTaskFlags method [Task Scheduler],ITask interface, _msb_itask_settaskflags, mstask/ITask::SetTaskFlags, taskschd.itask_settaskflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method sets the flags that modify the behavior of a scheduled <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task</a>.
+This method sets the flags that modify the behavior of a scheduled <a href="t.htm">task</a>.
 
 
 ## -parameters

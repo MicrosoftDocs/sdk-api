@@ -7,7 +7,7 @@ old-location: wsw\ws_http_ssl_kerberos_apreq_policy_description.htm
 tech.root: wsw
 ms.assetid: ed6448d6-17b3-448b-a376-bd882e229ae1
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION, WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION, webservices/WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION, wsw.ws_http_ssl_kerberos_apreq_policy_description
 ms.prod: windows
 ms.technology: windows-sdk

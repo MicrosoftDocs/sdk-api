@@ -4,10 +4,10 @@ title: IEnumNetSharingPortMapping::Next
 author: windows-sdk-content
 description: The Next method retrieves the specified number of port mappings that start from the current enumeration position.
 old-location: ics\ienumnetsharingportmapping_next.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: bf90fca7-0c4f-474f-a856-7d6865ea8f03
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Next method, IEnumNetSharingPortMapping.Next, IEnumNetSharingPortMapping::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingPortMapping interface, _ics_ienumnetsharingportmapping_next, ics.ienumnetsharingportmapping_next, netcon/IEnumNetSharingPortMapping::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ Specifies the number of port mappings to retrieve.
 ### -param rgVar [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> variable for the port mapping. This variant contains a pointer to an 
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> variable for the port mapping. This variant contains a pointer to an 
 <a href="https://msdn.microsoft.com/236608c3-061e-4db0-96df-25d263b6463b">INetSharingPortMapping</a> interface.
 
 

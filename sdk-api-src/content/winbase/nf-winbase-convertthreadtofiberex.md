@@ -7,7 +7,7 @@ old-location: base\convertthreadtofiberex.htm
 tech.root: procthread
 ms.assetid: cb0473f8-bc49-44c9-a8b7-6d5b55aa37a5
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: ConvertThreadToFiberEx, ConvertThreadToFiberEx function, _win32_convertthreadtofiberex, base.convertthreadtofiberex, winbase/ConvertThreadToFiberEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\coregistermallocspy.htm
 tech.root: com
 ms.assetid: 28623c1f-e158-4cc5-8c7f-c13d7a65aa76
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: CoRegisterMallocSpy, CoRegisterMallocSpy function [COM], _com_CoRegisterMallocSpy, com.coregistermallocspy, objbase/CoRegisterMallocSpy
 ms.prod: windows-hardware
 ms.technology: windows-devices

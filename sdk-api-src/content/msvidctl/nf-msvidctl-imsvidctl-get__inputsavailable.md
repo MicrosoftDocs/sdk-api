@@ -117,30 +117,34 @@ This method returns a read-only collection of input devices. Use the returned <a
 
 The following example enumerates the available BDA-compatible tuners and retrieves their friendly names.
 
-
-```cpp
-
-CComPtr<IMSVidInputDevices> pInputs;
-hr = pVidControl->get__InputsAvailable(&KSCATEGORY_BDA_NETWORK_PROVIDER, &pInputs);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+CComPtr&lt;IMSVidInputDevices&gt; pInputs;
+hr = pVidControl-&gt;get__InputsAvailable(&amp;KSCATEGORY_BDA_NETWORK_PROVIDER, &amp;pInputs);
 if (SUCCEEDED(hr))
 {
     long lCount;
-    hr = pInputs->get_Count(&lCount);
-    for (long ix = 0; ix < lCount; ix++)
+    hr = pInputs-&gt;get_Count(&amp;lCount);
+    for (long ix = 0; ix &lt; lCount; ix++)
     {
         CComBSTR bstrName;
         CComVariant var(ix);
-        CComPtr<IMSVidInputDevice> pInput;
-        hr = pInputs->get_Item(var, &pInput);
-        hr = pInput->get_Name(&bstrName);
+        CComPtr&lt;IMSVidInputDevice&gt; pInput;
+        hr = pInputs-&gt;get_Item(var, &amp;pInput);
+        hr = pInput-&gt;get_Name(&amp;bstrName);
         // Display the name.
     }
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

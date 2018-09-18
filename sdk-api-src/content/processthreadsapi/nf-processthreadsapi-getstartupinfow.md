@@ -7,7 +7,7 @@ old-location: base\getstartupinfo.htm
 tech.root: procthread
 ms.assetid: 191ea201-dc86-4cde-a0cd-be8d2360b22e
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetStartupInfo, GetStartupInfo function, GetStartupInfoA, GetStartupInfoW, _win32_getstartupinfo, base.getstartupinfo, processthreadsapi/GetStartupInfo, processthreadsapi/GetStartupInfoA, processthreadsapi/GetStartupInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

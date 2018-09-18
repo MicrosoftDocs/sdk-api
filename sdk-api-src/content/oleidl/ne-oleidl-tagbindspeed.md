@@ -7,7 +7,7 @@ old-location: com\bindspeed.htm
 tech.root: com
 ms.assetid: d39f662b-60ef-4e84-ae62-14e360a57b4f
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: BINDSPEED, BINDSPEED enumeration [COM], BINDSPEED_IMMEDIATE, BINDSPEED_INDEFINITE, BINDSPEED_MODERATE, _com_BINDSPEED, com.bindspeed, oleidl/BINDSPEED, oleidl/BINDSPEED_IMMEDIATE, oleidl/BINDSPEED_INDEFINITE, oleidl/BINDSPEED_MODERATE, tagBINDSPEED
 ms.prod: windows
 ms.technology: windows-sdk

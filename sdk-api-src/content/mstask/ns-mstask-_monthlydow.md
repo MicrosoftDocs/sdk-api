@@ -4,10 +4,10 @@ title: "_MONTHLYDOW"
 author: windows-sdk-content
 description: Defines the date(s) that the task runs by month, week, and day of the week.
 old-location: taskschd\monthlydow.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 1f353611-0542-4534-91bf-4a76f41c9c9d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: MONTHLYDOW, MONTHLYDOW structure [Task Scheduler], TASK_APRIL, TASK_AUGUST, TASK_DECEMBER, TASK_FEBRUARY, TASK_FIRST_WEEK, TASK_FOURTH_WEEK, TASK_FRIDAY, TASK_JANUARY, TASK_JULY, TASK_JUNE, TASK_LAST_WEEK, TASK_MARCH, TASK_MAY, TASK_MONDAY, TASK_NOVEMBER, TASK_OCTOBER, TASK_SATURDAY, TASK_SECOND_WEEK, TASK_SEPTEMBER, TASK_SUNDAY, TASK_THIRD_WEEK, TASK_THURSDAY, TASK_TUESDAY, TASK_WEDNESDAY, _MONTHLYDOW, _msb_monthlydow, mstask/MONTHLYDOW, taskschd.monthlydow, triggers [Task Scheduler],structures,MONTHLYDOW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -353,15 +353,19 @@ The
 
 The following C++ example shows how to  combine these flags. The example runs a task on the Monday and the Friday of the third week of every third month.
 
-
-```cpp
-MONTHLYDOW example;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>MONTHLYDOW example;
 example.wWhichWeek = TASK_THIRD_WEEK;
 example.rgfDaysOfTheWeek = TASK_FRIDAY | TASK_MONDAY;
-example.rgfMonths = TASK_JANUARY | TASK_APRIL | TASK_JULY | TASK_OCTOBER;
-```
-
-
+example.rgfMonths = TASK_JANUARY | TASK_APRIL | TASK_JULY | TASK_OCTOBER;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

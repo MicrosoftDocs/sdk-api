@@ -7,7 +7,7 @@ old-location: wds\iwdstransportsession_masterclientid.htm
 tech.root: wds
 ms.assetid: 6259ee20-b5ed-47c0-853a-2d3cad19b387
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],MasterClientId property, IWdsTransportSession.MasterClientId, IWdsTransportSession.get_MasterClientId, IWdsTransportSession::MasterClientId, IWdsTransportSession::get_MasterClientId, MasterClientId property [Windows Deployment Services], MasterClientId property [Windows Deployment Services],IWdsTransportSession interface, get_MasterClientId, wds.iwdstransportsession_masterclientid, wdstptmgmt/IWdsTransportSession::MasterClientId, wdstptmgmt/IWdsTransportSession::get_MasterClientId
 ms.prod: windows-hardware
 ms.technology: windows-devices

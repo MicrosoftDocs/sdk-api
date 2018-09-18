@@ -7,7 +7,7 @@ old-location: display\drvstretchblt.htm
 tech.root: display
 ms.assetid: 3520533d-4e42-4abc-bc10-557c674caa33
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: DrvStretchBlt, DrvStretchBlt function [Display Devices], ddifncs_7df09cb9-b2df-4ec9-a207-0f1cc8f74536.xml, display.drvstretchblt, winddi/DrvStretchBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices

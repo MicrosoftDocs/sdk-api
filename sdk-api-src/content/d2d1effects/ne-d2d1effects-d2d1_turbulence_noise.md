@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The turbulence noise mode for the <a href="https://msdn.microsoft.com/en-us/library/Hh706378(v=VS.85).aspx">Turbulence effect</a>. 
+The turbulence noise mode for the <a href="https://msdn.microsoft.com/86C1990E-958C-46D7-840A-E4A17F1D1740">Turbulence effect</a>. 
         Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function. 
 
 

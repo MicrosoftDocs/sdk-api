@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_getstyluses.htm
 tech.root: tablet
 ms.assetid: 1e838591-ce9e-4f3f-9b5e-b8414faac6ba
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: 1e838591-ce9e-4f3f-9b5e-b8414faac6ba, GetStyluses, GetStyluses method [Tablet PC], GetStyluses method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStyluses method, IRealTimeStylus.GetStyluses, IRealTimeStylus::GetStyluses, rtscom/IRealTimeStylus::GetStyluses, tablet.irealtimestylus_getstyluses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,36 +92,40 @@ This method cannot be called unless it the <a href="https://msdn.microsoft.com/f
 
 The following C++ example code gets an array of the Stylus objects that the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object has encountered since it was last enabled. It then iterates through the array reporting the ID of each stylus in debug output.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IInkCursors *piInkCursors;
 
-```cpp
-IInkCursors *piInkCursors;
-
-if (SUCCEEDED(g_pRealTimeStylus->GetStyluses(&piInkCursors)))
+if (SUCCEEDED(g_pRealTimeStylus-&gt;GetStyluses(&amp;piInkCursors)))
 {
     long lCursorCount;
     
-    if (SUCCEEDED(piInkCursors->get_Count(&lCursorCount)))
+    if (SUCCEEDED(piInkCursors-&gt;get_Count(&amp;lCursorCount)))
     {
-        for (long l = 0; l < lCursorCount; l++)
+        for (long l = 0; l &lt; lCursorCount; l++)
         {
             LONG sid;
             IInkCursor *piInkCursor;
             IInkCursor *piInkCursorForId;
 
-            piInkCursors->Item(l, &piInkCursor);
-            piInkCursor->get_Id(&sid);
+            piInkCursors-&gt;Item(l, &amp;piInkCursor);
+            piInkCursor-&gt;get_Id(&amp;sid);
 
-            if (SUCCEEDED(g_pRealTimeStylus->GetStylusForId((STYLUS_ID)sid, &piInkCursorForId)))
+            if (SUCCEEDED(g_pRealTimeStylus-&gt;GetStylusForId((STYLUS_ID)sid, &amp;piInkCursorForId)))
             {
                 TRACE("Got stylus with ID %d\n", sid);
             }
         }
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

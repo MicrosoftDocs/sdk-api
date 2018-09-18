@@ -7,7 +7,7 @@ old-location: com\idataobject_getdatahere.htm
 tech.root: com
 ms.assetid: 802fc49a-21c2-4490-9b00-1359ce9c325f
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetDataHere, GetDataHere method [COM], GetDataHere method [COM],IDataObject interface, IDataObject interface [COM],GetDataHere method, IDataObject.GetDataHere, IDataObject::GetDataHere, _ole_idataobject_getdatahere, com.idataobject_getdatahere, objidl/IDataObject::GetDataHere
 ms.prod: windows-hardware
 ms.technology: windows-devices

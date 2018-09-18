@@ -4,10 +4,10 @@ title: IRegisteredTask
 author: windows-sdk-content
 description: Provides the methods that are used to run the task immediately, get any running instances of the task, get or set the credentials that are used to register the task, and the properties that describe the task.
 old-location: taskschd\iregisteredtask.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 3743d012-ad7c-402f-8859-939bb01ee447
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IRegisteredTask, IRegisteredTask interface [Task Scheduler], IRegisteredTask interface [Task Scheduler],described, taskschd.iregisteredtask, taskschd/IRegisteredTask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -312,7 +312,7 @@ Gets the XML-formatted registration information for the registered task.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

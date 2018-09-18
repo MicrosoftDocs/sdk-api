@@ -7,7 +7,7 @@ old-location: wds\iwdstransportserver2.htm
 tech.root: wds
 ms.assetid: 27BB5319-74F0-480A-9600-8940491FB7E0
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IWdsTransportServer2, IWdsTransportServer2 interface [Windows Deployment Services], IWdsTransportServer2 interface [Windows Deployment Services],described, wds.iwdstransportserver2, wdstptmgmt/IWdsTransportServer2
 ms.prod: windows
 ms.technology: windows-sdk

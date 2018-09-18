@@ -4,10 +4,10 @@ title: INetFwPolicy2::get_ExcludedInterfaces
 author: windows-sdk-content
 description: Specifies a list of interfaces on which firewall settings are excluded.
 old-location: ics\inetfwpolicy2_excludedinterfaces.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 0e8cbb09-c146-42e9-9b7c-002e6775bf19
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: ExcludedInterfaces property [ICS/ICF], ExcludedInterfaces property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],ExcludedInterfaces property, INetFwPolicy2.ExcludedInterfaces, INetFwPolicy2.get_ExcludedInterfaces, INetFwPolicy2::ExcludedInterfaces, INetFwPolicy2::get_ExcludedInterfaces, INetFwPolicy2::put_ExcludedInterfaces, get_ExcludedInterfaces, ics.inetfwpolicy2_excludedinterfaces, netfw/INetFwPolicy2::ExcludedInterfaces, netfw/INetFwPolicy2::get_ExcludedInterfaces, netfw/INetFwPolicy2::put_ExcludedInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

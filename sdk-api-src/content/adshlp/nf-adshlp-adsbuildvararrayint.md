@@ -98,19 +98,23 @@ For more information about other return values, see  <a href="https://msdn.micro
 
 Use the <b>ADsBuildVarArrayInt</b> function to convert the integer array into a variant array of the integers. The following code example shows how to do this.
 
-
-```cpp
-DWORD dwArray[]={0,1,2,3,4};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD dwArray[]={0,1,2,3,4};
 long nLength = sizeof(dwArray)/sizeof(DWORD);
 VARIANT varArray[nLength];
 HRESULT hr = ADsBuildVarArrayInt(dwArray, nLength, varArray);
 if (hr = E_FAIL) exit(1);
  
 // Resume work with the data in varArray.
-. . .
-```
-
-
+. . .</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

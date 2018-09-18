@@ -7,7 +7,7 @@ old-location: shell\IShellFolderBand_GetBandInfoSFB.htm
 tech.root: shell
 ms.assetid: 7a42ba12-987a-4b43-9d95-085a5e896245
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetBandInfoSFB, GetBandInfoSFB method [Windows Shell], GetBandInfoSFB method [Windows Shell],IShellFolderBand interface, IShellFolderBand interface [Windows Shell],GetBandInfoSFB method, IShellFolderBand.GetBandInfoSFB, IShellFolderBand::GetBandInfoSFB, _win32_IShellFolderBand_GetBandInfoSFB, shell.IShellFolderBand_GetBandInfoSFB, shlobj/IShellFolderBand::GetBandInfoSFB
 ms.prod: windows-hardware
 ms.technology: windows-devices

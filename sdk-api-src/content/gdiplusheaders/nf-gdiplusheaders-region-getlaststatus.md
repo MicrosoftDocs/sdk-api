@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Region::GetLastStatus</b> method returns a value that indicates the nature of this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>object's most recent method failure.
+			<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object's most recent method failure.
 
 
 ## -parameters
@@ -66,17 +66,17 @@ The <b>Region::GetLastStatus</b> method returns a value that indicates the natur
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 The <b>Region::GetLastStatus</b> method returns an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If no methods invoked on this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>object have failed since the previous call to <b>Region::GetLastStatus</b>, then <b>Region::GetLastStatus</b> returns <b>Ok</b>.
+						<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object have failed since the previous call to <b>Region::GetLastStatus</b>, then <b>Region::GetLastStatus</b> returns <b>Ok</b>.
 
 If at least one method invoked on this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>object has failed since the previous call to <b>Region::GetLastStatus</b>, then <b>Region::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
+						<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object has failed since the previous call to <b>Region::GetLastStatus</b>, then <b>Region::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
 
 
 
@@ -86,10 +86,10 @@ If at least one method invoked on this
 
 
 You can call <b>Region::GetLastStatus</b> immediately after constructing a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>object to determine whether the constructor succeeded.
+				<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object to determine whether the constructor succeeded.
 
 The first time you call the <b>Region::GetLastStatus</b> method of a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>object, it returns <b>Ok</b> if the constructor succeeded and all methods invoked so far on the 
+				<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object, it returns <b>Ok</b> if the constructor succeeded and all methods invoked so far on the 
 				<b>Region</b>object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
 
 
@@ -97,11 +97,15 @@ The first time you call the <b>Region::GetLastStatus</b> method of a
 
 
 
-The following example creates a region from a path. Next, the code calls <a href="https://msdn.microsoft.com/en-us/library/ms534776(v=VS.85).aspx">Region::GetBounds Methods</a>, followed by a call to <a href="https://msdn.microsoft.com/en-us/library/ms534766(v=VS.85).aspx">Region::GetDataSize</a>. The code then calls <b>Region::GetLastStatus</b>. If all method calls have been successful up to this point, <b>Region::GetLastStatus</b> returns <b>Ok</b>.
+The following example creates a region from a path. Next, the code calls <a href="https://msdn.microsoft.com/20e6f834-1f36-4de0-b574-b89ebce917de">Region::GetBounds Methods</a>, followed by a call to <a href="https://msdn.microsoft.com/748cbc1c-cf0c-461f-ac14-52cf882a33b4">Region::GetDataSize</a>. The code then calls <b>Region::GetLastStatus</b>. If all method calls have been successful up to this point, <b>Region::GetLastStatus</b> returns <b>Ok</b>.
 
-
-```cpp
-VOID Example_GetLastStatus(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetLastStatus(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -120,18 +124,18 @@ VOID Example_GetLastStatus(HDC hdc)
    path.AddClosedCurve(points, 6);
 
    // Create a region from a path.
-   Region pathRegion(&path);    
+   Region pathRegion(&amp;path);    
 
-   pathRegion.GetBounds(&rect, &graphics);
+   pathRegion.GetBounds(&amp;rect, &amp;graphics);
    size = pathRegion.GetDataSize();
 
    if(pathRegion.GetLastStatus() == Ok)
    {
        // All methods called thus far have been successful.
    }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

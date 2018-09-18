@@ -7,7 +7,7 @@ old-location: shell\ISuspensionDependencyManager_UngroupChildFromParent.htm
 tech.root: shell
 ms.assetid: 4635FCD2-C49F-45F1-8D48-6BA418EBDFD0
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: ISuspensionDependencyManager interface [Windows Shell],UngroupChildFromParent method, ISuspensionDependencyManager.UngroupChildFromParent, ISuspensionDependencyManager::UngroupChildFromParent, UngroupChildFromParent, UngroupChildFromParent method [Windows Shell], UngroupChildFromParent method [Windows Shell],ISuspensionDependencyManager interface, shell.ISuspensionDependencyManager_UngroupChildFromParent, shobjidl_core/ISuspensionDependencyManager::UngroupChildFromParent
 ms.prod: windows-hardware
 ms.technology: windows-devices

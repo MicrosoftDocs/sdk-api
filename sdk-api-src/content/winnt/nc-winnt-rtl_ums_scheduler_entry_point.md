@@ -7,7 +7,7 @@ old-location: base\umsschedulerproc.htm
 tech.root: procthread
 ms.assetid: 10de1c48-255d-45c3-acf0-25f8a564b585
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: 0, 1, RTL_UMS_SCHEDULER_ENTRY_POINT, RTL_UMS_SCHEDULER_ENTRY_POINT callback, UmsSchedulerProc, UmsSchedulerProc callback function, UmsSchedulerStartup, UmsSchedulerThreadBlocked, UmsSchedulerThreadYield, base.umsschedulerproc, winnt/UmsSchedulerProc
 ms.prod: windows
 ms.technology: windows-sdk

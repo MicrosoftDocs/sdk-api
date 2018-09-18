@@ -7,7 +7,7 @@ old-location: security\kerb_changepassword_request.htm
 tech.root: secauthn
 ms.assetid: 96463bac-0833-4a5e-b054-e32a29bc903d
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: "*PKERB_CHANGEPASSWORD_REQUEST, KERB_CHANGEPASSWORD_REQUEST, KERB_CHANGEPASSWORD_REQUEST structure [Security], PKERB_CHANGEPASSWORD_REQUEST, PKERB_CHANGEPASSWORD_REQUEST structure pointer [Security], _KERB_CHANGEPASSWORD_REQUEST, ntsecapi/KERB_CHANGEPASSWORD_REQUEST, ntsecapi/PKERB_CHANGEPASSWORD_REQUEST, security.kerb_changepassword_request"
 ms.prod: windows
 ms.technology: windows-sdk

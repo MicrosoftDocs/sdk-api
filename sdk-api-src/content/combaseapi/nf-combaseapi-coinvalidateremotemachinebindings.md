@@ -7,7 +7,7 @@ old-location: com\coinvalidateremotemachinebindings.htm
 tech.root: com
 ms.assetid: 6d0fa512-a9e9-44ff-929d-00b9c826da99
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: CoInvalidateRemoteMachineBindings, CoInvalidateRemoteMachineBindings function [COM], _com_CoInvalidateRemoteMachineBindings, com.coinvalidateremotemachinebindings, combaseapi/CoInvalidateRemoteMachineBindings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,7 +54,7 @@ req.redist:
 ## -description
 
 
-Tells the <a href="https://msdn.microsoft.com/en-us/library/ms685150(v=VS.85).aspx">service control manager</a> to flush any cached RPC binding handles for the specified computer.
+Tells the <a href="https://msdn.microsoft.com/56ad011d-17c4-4410-b598-6ef47fb3638f">service control manager</a> to flush any cached RPC binding handles for the specified computer.
 
 Only administrators may call this function.
 

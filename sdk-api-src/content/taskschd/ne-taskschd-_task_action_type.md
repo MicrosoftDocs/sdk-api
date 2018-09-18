@@ -4,10 +4,10 @@ title: "_TASK_ACTION_TYPE"
 author: windows-sdk-content
 description: Defines the type of actions that a task can perform.
 old-location: taskschd\task_action_type.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 931ea805-fc73-4717-ab40-c12767930df3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: TASK_ACTION_COM_HANDLER, TASK_ACTION_EXEC, TASK_ACTION_SEND_EMAIL, TASK_ACTION_SHOW_MESSAGE, TASK_ACTION_TYPE, TASK_ACTION_TYPE enumeration [Task Scheduler], _TASK_ACTION_TYPE, taskschd.actiontype, taskschd.task_action_type, taskschd/TASK_ACTION_COM_HANDLER, taskschd/TASK_ACTION_EXEC, taskschd/TASK_ACTION_SEND_EMAIL, taskschd/TASK_ACTION_SHOW_MESSAGE, taskschd/TASK_ACTION_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

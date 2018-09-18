@@ -2,13 +2,13 @@
 UID: NF:gdiplustypes.Size.Size(IN INT,IN INT)
 title: Size::Size(IN INT,IN INT)
 author: windows-sdk-content
-description: Creates a new Size object and initializes the members to zero. This is the default constructor.
-old-location: gdiplus\_gdiplus_CLASS_Size_Size_.htm
+description: Creates a Size object and initializes its Width and Height data members.
+old-location: gdiplus\_gdiplus_CLASS_Size_Size_width_height_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizeconstructors\size_20.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizeconstructors\size_21width_height.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: Size, Size class [GDI+],Size constructor, Size constructor [GDI+], Size constructor [GDI+],Size class, Size.Size, Size.Size(), Size.Size(IN INT,IN INT), Size::Size, Size::Size(IN INT,IN INT), _gdiplus_CLASS_Size_Size_, gdiplus._gdiplus_CLASS_Size_Size_
+ms.keywords: Size, Size class [GDI+],Size constructor, Size constructor [GDI+], Size constructor [GDI+],Size class, Size.Size, Size.Size(IN INT,IN INT), Size.Size(INT,INT), Size::Size, Size::Size(IN INT,IN INT), _gdiplus_CLASS_Size_Size_width_height_, gdiplus._gdiplus_CLASS_Size_Size_width_height_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,9 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object and initializes the members to zero. This is the default constructor.
+Creates a <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object and initializes its 
+			<b>Width</b> and 
+			<b>Height</b> data members.
 
 
 ## -parameters
@@ -59,16 +61,20 @@ Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85
 
 
 
-### -param width
+### -param width [in]
 
-TBD
+Type: <b>INT</b>
 
-
-### -param height
-
-TBD
+Integer that specifies the initial value of the 
+					<b>Width</b> data member. 
 
 
+### -param height [in]
+
+Type: <b>INT</b>
+
+Integer that specifies the initial value of the 
+					<b>Height</b> data member. 
 
 
 ## -see-also
@@ -76,11 +82,11 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a>
+<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534747(v=VS.85).aspx">Size Constructors</a>
+<a href="https://msdn.microsoft.com/8e3f7ddd-cac4-4e81-9764-40167ef7d9ef">Size Constructors</a>
  
 
  

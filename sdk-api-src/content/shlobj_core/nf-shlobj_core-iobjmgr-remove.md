@@ -7,7 +7,7 @@ old-location: shell\IObjMgr_Remove.htm
 tech.root: shell
 ms.assetid: 21f8cce6-0d48-4b8e-8f15-1f95b112892d
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IObjMgr interface [Windows Shell],Remove method, IObjMgr.Remove, IObjMgr::Remove, Remove, Remove method [Windows Shell], Remove method [Windows Shell],IObjMgr interface, _win32_IObjMgr_Remove, shell.IObjMgr_Remove, shlobj_core/IObjMgr::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

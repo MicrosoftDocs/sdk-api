@@ -3,20 +3,20 @@ UID: NF:d2d1.ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F)
 title: ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F)
 author: windows-sdk-content
 description: Sets the transformation applied to the brush.
-old-location: direct2d\id2d1brush_settransform.htm
+old-location: direct2d\ID2D1Brush_SetTransform_ref_D2D_MATRIX_3X2_F.htm
 tech.root: Direct2D
-ms.assetid: 57afadc1-88c9-4a5b-a83f-63c4c69182a7
+ms.assetid: 8feb644a-26ea-4718-abd4-6990ffd97a50
 ms.author: windowssdkdev
 ms.date: 08/30/2018
-ms.keywords: ID2D1Brush.SetTransform, ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F), ID2D1Brush::SetTransform, ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F), SetTransform, SetTransform methods [Direct2D], d2d1_1/SetTransform, direct2d.id2d1brush_settransform
+ms.keywords: ID2D1Brush interface [Direct2D],SetTransform method, ID2D1Brush.SetTransform, ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F), ID2D1Brush::SetTransform, ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F&), ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F), SetTransform, SetTransform method [Direct2D], SetTransform method [Direct2D],ID2D1Brush interface, d2d1/ID2D1Brush::SetTransform, direct2d.ID2D1Brush_SetTransform_ref_D2D_MATRIX_3X2_F
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
-req.include-header: D2d1.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,11 +33,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Brush::SetTransform
+ - ID2D1Brush.SetTransform
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -50,33 +50,28 @@ req.redist:
 ## -description
 
 
-<span>Sets the transformation applied to the brush.
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8feb644a-26ea-4718-abd4-6990ffd97a50">SetTransform(D2D1_MATRIX_3X2_F&)</a>
-</td>
-<td align="left" width="63%">
 Sets the transformation applied to the brush.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef9fdd4f-6338-498e-bbed-5fc676fc53b3">SetTransform(D2D1_MATRIX_3X2_F*)</a>
-</td>
-<td align="left" width="63%">
-Sets the transformation applied to the brush.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param transform [ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
+
+The transformation to apply to this brush.
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
 
 
 ## -remarks
@@ -87,7 +82,7 @@ When you paint with a brush, it paints in the coordinate space of the render tar
 
 You can "move" the gradient defined by an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a> to a target area by setting its start point and end point. Likewise, you can move the gradient defined by an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a> by changing its center and radii. 
 
-To align the content of an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a> to the area being painted, you can use the <b>SetTransform</b> method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target. 
+To align the content of an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a> to the area being painted, you can use the <a href="https://msdn.microsoft.com/57afadc1-88c9-4a5b-a83f-63c4c69182a7">SetTransform</a> method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target. 
 
 The following illustrations show the effect of using an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a> to fill a rectangle located at (100, 100). The illustration on the left illustration shows the result of filling the rectangle without transforming the brush: the bitmap is drawn at the render target's origin. As a result, only a portion of the bitmap appears in the rectangle.
 

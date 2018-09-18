@@ -7,7 +7,7 @@ old-location: wds\pxeproviderenumfirst.htm
 tech.root: wds
 ms.assetid: b810455b-219b-49da-a4eb-c1a170711c68
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: PxeProviderEnumFirst, PxeProviderEnumFirst function [Windows Deployment Services], wds.pxeproviderenumfirst, wdspxe/PxeProviderEnumFirst
 ms.prod: windows-hardware
 ms.technology: windows-devices

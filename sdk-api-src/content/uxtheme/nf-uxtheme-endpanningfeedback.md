@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Terminates any existing animation that was in process or set up by <a href="https://msdn.microsoft.com/en-us/library/Dd373383(v=VS.85).aspx">BeginPanningFeedback</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd373385(v=VS.85).aspx">UpdatePanningFeedback</a>. 
+Terminates any existing animation that was in process or set up by <a href="https://msdn.microsoft.com/b1da3ed7-68bd-4bf7-a951-ee85368ea1d3">BeginPanningFeedback</a> and <a href="https://msdn.microsoft.com/227631b3-33e8-4ade-a7ff-51b70aed9ec6">UpdatePanningFeedback</a>. 
 
 
 ## -parameters
@@ -87,7 +87,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-This function can only be called after a <a href="https://msdn.microsoft.com/en-us/library/Dd373383(v=VS.85).aspx">BeginPanningFeedback</a> call.
+This function can only be called after a <a href="https://msdn.microsoft.com/b1da3ed7-68bd-4bf7-a951-ee85368ea1d3">BeginPanningFeedback</a> call.
 
 
 

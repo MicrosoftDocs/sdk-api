@@ -7,7 +7,7 @@ old-location: security\npgetresourceparent.htm
 tech.root: secauthn
 ms.assetid: 48add326-7182-426a-b7b6-d56f4bfcfb2b
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: NPGetResourceParent, NPGetResourceParent function [Security], _mnp_npgetresourceparent, npapi/NPGetResourceParent, security.npgetresourceparent
 ms.prod: windows-hardware
 ms.technology: windows-devices

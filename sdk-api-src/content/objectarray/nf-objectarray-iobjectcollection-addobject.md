@@ -7,7 +7,7 @@ old-location: shell\IObjectCollection_AddObject.htm
 tech.root: shell
 ms.assetid: 0898160d-46e5-4b38-9fc9-f74bd6a0385b
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: AddObject, AddObject method [Windows Shell], AddObject method [Windows Shell],IObjectCollection interface, IObjectCollection interface [Windows Shell],AddObject method, IObjectCollection.AddObject, IObjectCollection::AddObject, _shell_IObjectCollection_AddObject, objectarray/IObjectCollection::AddObject, shell.IObjectCollection_AddObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

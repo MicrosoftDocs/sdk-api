@@ -7,7 +7,7 @@ old-location: search\_search_CONDITION_CREATION_OPTIONS.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\condition_creation_options.htm
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: CONDITION_CREATION_DEFAULT, CONDITION_CREATION_NONE, CONDITION_CREATION_OPTIONS, CONDITION_CREATION_OPTIONS enumeration [search], CONDITION_CREATION_SIMPLIFY, CONDITION_CREATION_USE_CONTENT_LOCALE, CONDITION_CREATION_VECTOR_AND, CONDITION_CREATION_VECTOR_LEAF, CONDITION_CREATION_VECTOR_OR, _search_CONDITION_CREATION_OPTIONS, search._search_CONDITION_CREATION_OPTIONS, structuredquery/CONDITION_CREATION_DEFAULT, structuredquery/CONDITION_CREATION_NONE, structuredquery/CONDITION_CREATION_OPTIONS, structuredquery/CONDITION_CREATION_SIMPLIFY, structuredquery/CONDITION_CREATION_USE_CONTENT_LOCALE, structuredquery/CONDITION_CREATION_VECTOR_AND, structuredquery/CONDITION_CREATION_VECTOR_LEAF, structuredquery/CONDITION_CREATION_VECTOR_OR
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,8 @@ req.redist:
 ## -description
 
 
-Provides a set of flags to be used with the following interfaces to indicate the type of condition tree node: <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>, 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742811(v=VS.85).aspx">ICondition2</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb231383(v=VS.85).aspx">IConditionFactory</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd742799(v=VS.85).aspx">IConditionFactory2</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a>.
+Provides a set of flags to be used with the following interfaces to indicate the type of condition tree node: <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>, 
+<a href="https://msdn.microsoft.com/32c68ff7-f0f3-40eb-801a-c5c21ec496fa">ICondition2</a>, <a href="https://msdn.microsoft.com/c678fa37-8673-4da7-9c23-9a7f478dc1b0">IConditionFactory</a>, <a href="https://msdn.microsoft.com/5ac0acb1-67f0-43f0-b1c1-2d8cf682a277">IConditionFactory2</a>, and <a href="https://msdn.microsoft.com/30fa2fb6-7dfd-41e1-ab4f-5fd80c8a81ec">IConditionGenerator</a>.
 
 
 ## -enum-fields
@@ -91,7 +91,7 @@ Indicates that you should allow the creation of a leaf condition with VT_VECTOR 
 
 ### -field CONDITION_CREATION_USE_CONTENT_LOCALE
 
-Indicates that you should ignore any specified locale and use the currently selected content locale <a href="https://msdn.microsoft.com/en-us/library/Dd742797(v=VS.85).aspx">IConditionFactory2::CreateStringLeaf</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd742802(v=VS.85).aspx">IConditionFactory2::CreateLeaf</a>.
+Indicates that you should ignore any specified locale and use the currently selected content locale <a href="https://msdn.microsoft.com/a59bf455-49cb-469a-860d-7ecd7dd94ec0">IConditionFactory2::CreateStringLeaf</a> and <a href="https://msdn.microsoft.com/e7cb9083-4ab9-4550-82e9-5c1da9c0f831">IConditionFactory2::CreateLeaf</a>.
 
 
 ## -remarks
@@ -116,11 +116,11 @@ However, if none of these flags is set, then attempting to create a leaf conditi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
+<a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
+<a href="https://msdn.microsoft.com/921cdcb0-2915-4bbe-af4b-3f62c3867ea4">CONDITION_TYPE</a>
 
 
 

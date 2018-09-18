@@ -7,7 +7,7 @@ old-location: mf\imfsensorstream_getmediatypecount.htm
 tech.root: medfound
 ms.assetid: DCC5645E-2E0C-4AA7-8790-3552AD343F90
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetMediaTypeCount, GetMediaTypeCount method [Media Foundation], GetMediaTypeCount method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],GetMediaTypeCount method, IMFSensorStream.GetMediaTypeCount, IMFSensorStream::GetMediaTypeCount, mf.imfsensorstream_getmediatypecount, mfidl/IMFSensorStream::GetMediaTypeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -84,7 +84,7 @@ Restricts access to the methods and properties of the object that implements thi
 
 
 
-The <b>IUpdateLockdown</b> interface is derived from <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>, not <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>. It cannot be accessed by using a script. This interface restricts access to the Windows Update  website.
+The <b>IUpdateLockdown</b> interface is derived from <a href="_com_iunknown">IUnknown</a>, not <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>. It cannot be accessed by using a script. This interface restricts access to the Windows Update  website.
 
 The following classes implement the <b>IUpdateLockdown</b> interface:
 

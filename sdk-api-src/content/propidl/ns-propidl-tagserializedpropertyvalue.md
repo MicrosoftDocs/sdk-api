@@ -7,7 +7,7 @@ old-location: shell\SERIALIZEDPROPERTYVALUE.htm
 tech.root: shell
 ms.assetid: ab64a16e-624d-427a-8f9c-5c8c4a9df625
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: SERIALIZEDPROPERTYVALUE, SERIALIZEDPROPERTYVALUE structure [Windows Shell], _shell_SERIALIZEDPROPERTYVALUE, propidl/SERIALIZEDPROPERTYVALUE, shell.SERIALIZEDPROPERTYVALUE, tagSERIALIZEDPROPERTYVALUE
 ms.prod: windows
 ms.technology: windows-sdk

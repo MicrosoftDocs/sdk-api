@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionVisual3.SetOffsetZ(IDCompositionAnimation)
 title: IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of OffsetZ property.
-old-location: directcomp\idcompositionvisual3_setoffsetz.htm
+description: Animates the value of the OffsetZ property.
+old-location: directcomp\idcompositionvisual3_setoffsetz_2.htm
 tech.root: directcomp
-ms.assetid: 21408127-9A6E-410B-BB75-759D9384DE4F
+ms.assetid: FDD7CFC9-61A4-41FD-9E91-A8D8606FAC3B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetOffsetZ method, IDCompositionVisual3.SetOffsetZ, IDCompositionVisual3.SetOffsetZ(IDCompositionAnimation), IDCompositionVisual3::SetOffsetZ, IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation), IDCompositionVisual3::SetOffsetZ(float), SetOffsetZ, SetOffsetZ method [DirectComposition], SetOffsetZ method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetOffsetZ, directcomp.idcompositionvisual3_setoffsetz
+ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetOffsetZ method, IDCompositionVisual3.SetOffsetZ, IDCompositionVisual3.SetOffsetZ(IDCompositionAnimation), IDCompositionVisual3::SetOffsetZ, IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation), IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation*), SetOffsetZ, SetOffsetZ method [DirectComposition], SetOffsetZ method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetOffsetZ, directcomp.idcompositionvisual3_setoffsetz_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of OffsetZ property.
+Animates the value of the OffsetZ property.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of OffsetZ property.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - offsetZ
-
-Type: <b>float</b>
-
-The new value.
+The animation to control the OffsetZ property.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wsw\wsfindattribute.htm
 tech.root: wsw
 ms.assetid: beb00382-6cc0-42c6-b835-4ebc94c5faa2
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WsFindAttribute, WsFindAttribute function [Web Services for Windows], webservices/WsFindAttribute, wsw.wsfindattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

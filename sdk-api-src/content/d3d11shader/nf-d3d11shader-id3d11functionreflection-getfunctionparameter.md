@@ -69,9 +69,9 @@ The zero-based index of the function parameter reflector to retrieve.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn280544(v=VS.85).aspx">ID3D11FunctionParameterReflection</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/EFF60EF7-C060-4148-916C-D971B65561F5">ID3D11FunctionParameterReflection</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280544(v=VS.85).aspx">ID3D11FunctionParameterReflection</a> interface that represents the function parameter reflector.
+A pointer to a <a href="https://msdn.microsoft.com/EFF60EF7-C060-4148-916C-D971B65561F5">ID3D11FunctionParameterReflection</a> interface that represents the function parameter reflector.
 
 
 
@@ -81,7 +81,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280544(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280546(v=VS.85).aspx">ID3D11FunctionReflection</a>
+<a href="https://msdn.microsoft.com/91A3B6E3-E1A7-43F9-AD18-93A25F13CFB4">ID3D11FunctionReflection</a>
  
 
  

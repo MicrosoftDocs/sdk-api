@@ -7,7 +7,7 @@ old-location: shell\SHRegSetValue.htm
 tech.root: shell
 ms.assetid: 64accb02-0d1f-47bf-bc3c-2db7688764f1
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHRegSetValue, SHRegSetValue function [Windows Shell], _shell_SHRegSetValue, shell.SHRegSetValue, shlwapi/SHRegSetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\iprocesslock.htm
 tech.root: com
 ms.assetid: 49ec5657-d54e-4af7-8c20-00de383ecf89
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IProcessLock, IProcessLock interface [COM], IProcessLock interface [COM],described, _com_iprocesslock, com.iprocesslock, objidl/IProcessLock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Used by <a href="https://msdn.microsoft.com/01773aa6-3eb5-43dd-8a10-d1351a07fe1f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProcessLock</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IProcessLock</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProcessLock</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IProcessLock</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

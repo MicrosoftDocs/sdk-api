@@ -7,7 +7,7 @@ old-location: display\drvalphablend.htm
 tech.root: display
 ms.assetid: fff3df30-cb29-4da3-97bc-dba5fbba1db5
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: DrvAlphaBlend, DrvAlphaBlend function [Display Devices], ddifncs_fc2d104a-d161-4f43-af15-ad088b5a2d3f.xml, display.drvalphablend, winddi/DrvAlphaBlend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -159,9 +159,6 @@ The driver will never be called with overlapping source and destination rectangl
 The three possible cases for the AC_SRC_OVER blend function are:
 
 <ul>
-<li>The source bitmap has no per-pixel alpha (AC_SRC_ALPHA is not set), so the blend is applied to the pixel's color channels based on the constant source alpha value specified in SourceConstantAlpha as follows:
-
-<div class="code"><span codelanguage=""><table>
 <li>The source bitmap has no per-pixel alpha (AC_SRC_ALPHA is not set), so the blend is applied to the pixel's color channels based on the constant source alpha value specified in SourceConstantAlpha as follows:<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -181,12 +178,7 @@ Dst.Alpha = Round(((Src.Alpha * SourceConstantAlpha) +
 </td>
 </tr>
 </table></span></div>
-
-
 </li>
-<li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is not used (it is set to 255). The blend is computed as follows:
-
-<div class="code"><span codelanguage=""><table>
 <li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is not used (it is set to 255). The blend is computed as follows:<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -206,12 +198,7 @@ Dst.Alpha = Src.Alpha +
 </td>
 </tr>
 </table></span></div>
-
-
 </li>
-<li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is used (it is not set to 255). The blend is computed as follows:
-
-<div class="code"><span codelanguage=""><table>
 <li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is used (it is not set to 255). The blend is computed as follows:<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -240,37 +227,47 @@ Dst.Alpha = Temp.Alpha +
 </td>
 </tr>
 </table></span></div>
-
-
 </li>
 </ul>
 The <b>Round(x)</b> function rounds to the nearest integer, computed as:
 
-
-```
-Trunc(x + 0.5);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Trunc(x + 0.5);</pre>
+</td>
+</tr>
+</table></span></div>
 <b>DrvAlphaBlend</b> can be optionally implemented in graphics drivers. It can be provided to handle some kinds of alpha blends, such as blends where the source and destination surfaces are the same format and do not contain an alpha channel.
 
 A hardware implementation can use floating point or fixed point in the blend operation. Compatibility tests will account for some numerical error in the results; please see <a href="https://msdn.microsoft.com/f44a89df-6412-442c-8491-3e2f2bbd826f">Special Effects in Display Drivers</a> for information about maximum permissible error. When using fixed point, an acceptable approximation to the term <i>x/255</i> is <i>(x*257)/65536</i>. Incorporating rounding, the expression:
 
-
-```
-((255 - Src.Alpha) * Dst.Red) / 255
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>((255 - Src.Alpha) * Dst.Red) / 255</pre>
+</td>
+</tr>
+</table></span></div>
 can then be approximated as:
 
-
-```
-temp = ((255 - Src.Alpha) * Dst.Red) + 128;
-result = (temp + (temp >> 8)) >> 8;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>temp = ((255 - Src.Alpha) * Dst.Red) + 128;
+result = (temp + (temp &gt;&gt; 8)) &gt;&gt; 8;</pre>
+</td>
+</tr>
+</table></span></div>
 The driver hooks <b>DrvAlphaBlend</b> by setting the HOOK_ALPHABLEND flag when it calls <a href="https://msdn.microsoft.com/8cb6d4bf-67bd-4bfb-9605-eeb954fc590c">EngAssociateSurface</a>. If the driver has hooked <b>DrvAlphaBlend</b> and is called to perform an operation that it does not support, the driver should have GDI handle the operation by punting the data in a call to <a href="https://msdn.microsoft.com/c8839271-0a75-4657-875f-114545f44777">EngAlphaBlend</a>.
 
 

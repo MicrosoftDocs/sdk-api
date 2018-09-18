@@ -101,33 +101,37 @@ There are two types of asynchronous deletions that can occur and cause errors in
 
 The following C++ code queries for the references of a storage (pStorage).
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Get references.
-CComQIPtr<IWMDMStorage4> pStorage4(pStorage);
+CComQIPtr&lt;IWMDMStorage4&gt; pStorage4(pStorage);
 if (pStorage4 != NULL)
 {
     WCHAR name[100];
     DWORD numRefs = 0;
     IWMDMStorage** parrReferences;
-    hr = pStorage4->GetReferences(&numRefs, &parrReferences);
-    for(int i = 0; i < numRefs; i++)
+    hr = pStorage4-&gt;GetReferences(&amp;numRefs, &amp;parrReferences);
+    for(int i = 0; i &lt; numRefs; i++)
     {
         ZeroMemory(name, sizeof(name));
-        hr = parrReferences[i]->GetName(name, (sizeof(name) / sizeof(WCHAR)) - 1);
+        hr = parrReferences[i]-&gt;GetName(name, (sizeof(name) / sizeof(WCHAR)) - 1);
         if (hr == S_OK)
             // TODO: Display the name.
-        parrReferences[i]->Release();
+        parrReferences[i]-&gt;Release();
     }
     // Free the memory.
     if (parrReferences != NULL)
         CoTaskMemFree(parrReferences);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

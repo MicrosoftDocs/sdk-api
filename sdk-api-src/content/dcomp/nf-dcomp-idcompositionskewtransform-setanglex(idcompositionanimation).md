@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionSkewTransform.SetAngleX(IDCompositionAnimation)
 title: IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the AngleX property of a 2D skew transform.
-old-location: directcomp\idcompositionskewtransform_setanglex_float.htm
+description: Animates the value of the AngleX property of a 2D skew transform.
+old-location: directcomp\idcompositionskewtransform_setanglex_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: FE38F14B-69EA-4129-A944-DBBF784B53DE
+ms.assetid: 27da99b3-038d-4c18-bb43-09f04dd58ff5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleX method, IDCompositionSkewTransform.SetAngleX, IDCompositionSkewTransform.SetAngleX(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleX, IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleX(float), SetAngleX, SetAngleX method [DirectComposition], SetAngleX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleX, directcomp.idcompositionskewtransform_setanglex_float
+ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleX method, IDCompositionSkewTransform.SetAngleX, IDCompositionSkewTransform.SetAngleX(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleX, IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation*), SetAngleX, SetAngleX method [DirectComposition], SetAngleX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleX, directcomp.idcompositionskewtransform_setanglex_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the AngleX property of a 2D skew transform.   The AngleX property specifies the skew angle along the x-axis.
+Animates the value of the AngleX property of a 2D skew transform. The AngleX property specifies the skew angle along the x-axis.
 
 
 ## -parameters
@@ -58,23 +58,18 @@ Changes the value of the AngleX property of a 2D skew transform.   The AngleX pr
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - angleX [in]
-
-Type: <b>float</b>
-
-The new skew angle of the x-axis, in degrees. A positive value creates a counterclockwise skew, and a negative value creates a clockwise skew. For values less than –360 or greater than 360, the values wrap around and are treated as if the mathematical operation mod(360) was applied.
+An animation object that represents how the value of the AngleX property changes over time. This parameter must not be NULL.
 
 
 ## -returns
 
 
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
 
@@ -85,11 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>angleX</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the AngleX property unless this method is called again. If the AngleX property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-If the AngleX property was previously animated, this method removes the animation and sets the AngleX property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

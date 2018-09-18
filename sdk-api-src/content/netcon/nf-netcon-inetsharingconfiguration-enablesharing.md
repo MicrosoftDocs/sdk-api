@@ -4,10 +4,10 @@ title: INetSharingConfiguration::EnableSharing
 author: windows-sdk-content
 description: The EnableSharing method enables sharing on this connection.
 old-location: ics\inetsharingconfiguration_enablesharing.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 40b2a2ff-50f4-484c-bf79-ae99a348644f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: EnableSharing, EnableSharing method [ICS/ICF], EnableSharing method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],EnableSharing method, INetSharingConfiguration.EnableSharing, INetSharingConfiguration::EnableSharing, _ics_inetsharingconfiguration_enablesharing, ics.inetsharingconfiguration_enablesharing, netcon/INetSharingConfiguration::EnableSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices

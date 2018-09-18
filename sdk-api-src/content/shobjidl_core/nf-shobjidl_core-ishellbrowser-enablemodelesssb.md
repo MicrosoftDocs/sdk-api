@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser_EnableModelessSB.htm
 tech.root: shell
 ms.assetid: 6bf39e3f-8b17-4307-ba57-7363c006c34b
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: EnableModelessSB, EnableModelessSB method [Windows Shell], EnableModelessSB method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],EnableModelessSB method, IShellBrowser.EnableModelessSB, IShellBrowser::EnableModelessSB, _win32_IShellBrowser_EnableModelessSB, shell.IShellBrowser_EnableModelessSB, shobjidl_core/IShellBrowser::EnableModelessSB
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,13 +2,13 @@
 UID: NF:gdipluscolor.Color.Color(IN ARGB)
 title: Color::Color(IN ARGB)
 author: windows-sdk-content
-description: Creates a Color::Color object and initializes it to opaque black. This is the default constructor.
-old-location: gdiplus\_gdiplus_CLASS_Color_Color_.htm
+description: Creates a Color::Color object by using an ARGB value.
+old-location: gdiplus\_gdiplus_CLASS_Color_Color_argb_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colorconstructors\color_31.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colorconstructors\color_63argb.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: Color, Color class [GDI+],Color constructor, Color constructor [GDI+], Color constructor [GDI+],Color class, Color.Color, Color.Color(), Color.Color(IN ARGB), Color::Color, Color::Color(IN ARGB), _gdiplus_CLASS_Color_Color_, gdiplus._gdiplus_CLASS_Color_Color_
+ms.keywords: Color, Color class [GDI+],Color constructor, Color constructor [GDI+], Color constructor [GDI+],Color class, Color.Color, Color.Color(ARGB), Color.Color(IN ARGB), Color::Color, Color::Color(IN ARGB), _gdiplus_CLASS_Color_Color_argb_, gdiplus._gdiplus_CLASS_Color_Color_argb_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,8 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <b>Color::Color</b> object and initializes it to opaque black. This is the default constructor.
+Creates a <b>Color::Color</b> object by using an 
+			<b>ARGB</b> value.
 
 
 ## -parameters
@@ -59,9 +60,20 @@ Creates a <b>Color::Color</b> object and initializes it to opaque black. This is
 
 
 
-### -param argb
+### -param argb [in]
 
-TBD
+Type: <b>ARGB</b>
+
+Value that specifies the alpha, red, green, and blue color components. 
+
+
+## -remarks
+
+
+
+An 
+				<b>ARGB</b> value is a <b>DWORD</b> that contains the alpha, red, green, and blue components of a color. 
+				<b>ARGB</b> is defined in Gdipluspixelformats.h.
 
 
 
@@ -71,11 +83,15 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536243(v=VS.85).aspx">Color Constructors</a>
+<a href="https://msdn.microsoft.com/ebd68c22-9b00-4a8e-9954-e8b0eda764f8">Color Constructors</a>
+
+
+
+<a href="https://msdn.microsoft.com/41befc00-c256-4f56-90c3-8fd5aa18bb49">Color::MakeARGB</a>
  
 
  

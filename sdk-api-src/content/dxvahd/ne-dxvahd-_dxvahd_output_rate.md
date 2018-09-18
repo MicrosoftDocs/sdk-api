@@ -7,7 +7,7 @@ old-location: mf\dxvahd_output_rate.htm
 tech.root: medfound
 ms.assetid: f96184d8-c5c2-4767-899f-323935fa9e89
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: DXVAHD_OUTPUT_RATE, DXVAHD_OUTPUT_RATE enumeration [Media Foundation], DXVAHD_OUTPUT_RATE_CUSTOM, DXVAHD_OUTPUT_RATE_HALF, DXVAHD_OUTPUT_RATE_NORMAL, _DXVAHD_OUTPUT_RATE, dxvahd/DXVAHD_OUTPUT_RATE, dxvahd/DXVAHD_OUTPUT_RATE_CUSTOM, dxvahd/DXVAHD_OUTPUT_RATE_HALF, dxvahd/DXVAHD_OUTPUT_RATE_NORMAL, mf.dxvahd_output_rate
 ms.prod: windows
 ms.technology: windows-sdk

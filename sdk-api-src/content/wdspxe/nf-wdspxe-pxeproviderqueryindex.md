@@ -7,7 +7,7 @@ old-location: wds\pxeproviderqueryindex.htm
 tech.root: wds
 ms.assetid: 0b28c075-7f2e-4149-b851-21614773e942
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: PxeProviderQueryIndex, PxeProviderQueryIndex function [Windows Deployment Services], wds.pxeproviderqueryindex, wdspxe/PxeProviderQueryIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,12 +89,16 @@ If a provider wants to insert itself in the list of registered providers in a sp
 
 #### Examples
 
-
-```cpp
-//
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//
 // Suppose Provider wants to handle requests after BINLSVC has rejected them.
 //
-dwError = PxeProviderQueryIndex(L"BINLSVC", &Index);
+dwError = PxeProviderQueryIndex(L"BINLSVC", &amp;Index);
 
 if (dwError == ERROR_SUCCESS)
 {
@@ -102,15 +106,15 @@ if (dwError == ERROR_SUCCESS)
                          L"C:\\MyDir\\MyProv.DLL",
                          PXE_REG_INDEX_BOTTOM,
                          Index + 1,              // Add after BINLSVC
-                         &hKey) != ERROR_SUCCESS)
+                         &amp;hKey) != ERROR_SUCCESS)
  {
   // Handle Error
  }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

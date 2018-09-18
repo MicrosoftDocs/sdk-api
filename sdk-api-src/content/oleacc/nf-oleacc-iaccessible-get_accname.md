@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accname.htm
 tech.root: WinAuto
 ms.assetid: 344e95e1-45a5-4951-b545-1a938bfc8a8c
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accName method, IAccessible.get_accName, IAccessible::get_accName, _msaa_IAccessible_get_accName, get_accName, get_accName method [Windows Accessibility], get_accName method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accname, oleacc/IAccessible::get_accName, winauto.iaccessible_iaccessible__get_accname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,9 +135,13 @@ Localize the string returned from this property.
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example shows a possible implementation of this method for a custom list box control that manages its own child elements.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // m_pStdAccessibleObject is the standard object returned by CreateStdAccessibleObject. 
 // m_pControl is the control object that provides this accessibility object. It maintains
 // a zero-based collection of child items. 
@@ -156,31 +160,35 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accName(
     // there is no caption, the text of any label. 
     if (varChild.lVal == CHILDID_SELF)
     {
-        return m_pStdAccessibleObject->get_accName(varChild, pszName);                  
+        return m_pStdAccessibleObject-&gt;get_accName(varChild, pszName);                  
     }
     
     // Else return the name of the item in the list. 
     else
     {
-        CustomListControlItem* pItem = m_pControl->GetItemAt(varChild.lVal - 1);
+        CustomListControlItem* pItem = m_pControl-&gt;GetItemAt(varChild.lVal - 1);
         if (pItem)
         {
-            *pszName = SysAllocString(pItem->GetName());        
+            *pszName = SysAllocString(pItem-&gt;GetName());        
        
         }
     }
     return S_OK;
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Client_Example"></a><a id="client_example"></a><a id="CLIENT_EXAMPLE"></a>Client Example</h3>
 The following example function displays the accessible name of a control.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT PrintName(IAccessible* pAcc, long childId)
 {
     if (pAcc == NULL)
@@ -191,15 +199,15 @@ HRESULT PrintName(IAccessible* pAcc, long childId)
     VARIANT varChild;
     varChild.vt = VT_I4;
     varChild.lVal = childId;
-    HRESULT hr = pAcc->get_accName(varChild, &bstrName);
+    HRESULT hr = pAcc-&gt;get_accName(varChild, &amp;bstrName);
     printf("Name: %S ", bstrName);
     SysFreeString(bstrName);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

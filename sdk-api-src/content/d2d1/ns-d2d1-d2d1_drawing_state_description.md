@@ -60,35 +60,35 @@ Describes the drawing state of a render target.
 
 ### -field antialiasMode
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368061(v=VS.85).aspx">D2D1_ANTIALIAS_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/3ca12155-6dd0-41bb-8778-3387422c4ffe">D2D1_ANTIALIAS_MODE</a></b>
 
 The antialiasing mode for subsequent nontext drawing operations. 
 
 
 ### -field textAntialiasMode
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368170(v=VS.85).aspx">D2D1_TEXT_ANTIALIAS_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/d2c829d7-9892-4cbb-9993-12bb7d77fc25">D2D1_TEXT_ANTIALIAS_MODE</a></b>
 
 The antialiasing mode for subsequent text and glyph drawing operations.
 
 
 ### -field tag1
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368168(v=VS.85).aspx">D2D1_TAG</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4f363295-f140-4149-ba78-3abbc56eebe8">D2D1_TAG</a></b>
 
 A label for subsequent drawing operations.
 
 
 ### -field tag2
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368168(v=VS.85).aspx">D2D1_TAG</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4f363295-f140-4149-ba78-3abbc56eebe8">D2D1_TAG</a></b>
 
 A label for subsequent drawing operations.
 
 
 ### -field transform
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
 The transformation to apply to subsequent drawing operations.
 

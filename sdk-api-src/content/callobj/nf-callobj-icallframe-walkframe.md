@@ -7,7 +7,7 @@ old-location: com\icallframe_walkframe.htm
 tech.root: com
 ms.assetid: 64e4967b-6b54-4416-ae10-04987f13d39a
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: ICallFrame interface [COM],WalkFrame method, ICallFrame.WalkFrame, ICallFrame::WalkFrame, WalkFrame, WalkFrame method [COM], WalkFrame method [COM],ICallFrame interface, _com_icallframe_walkframe, callobj/ICallFrame::WalkFrame, com.icallframe_walkframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,12 +60,12 @@ Searches for interface pointers that are reachable from [in], [in, out], or [out
 
 ### -param walkWhat [in]
 
-Flags from the <a href="https://msdn.microsoft.com/en-us/library/ms682455(v=VS.85).aspx">CALLFRAME_WALK</a> enumeration.
+Flags from the <a href="https://msdn.microsoft.com/52327707-43b0-4041-8fa1-62a9a62dc6b7">CALLFRAME_WALK</a> enumeration.
 
 
 ### -param pWalker [in]
 
-A pointer to an instance of the <a href="https://msdn.microsoft.com/en-us/library/ms679746(v=VS.85).aspx">ICallFrameWalker</a> interface. When specified, a call back is made for each interface pointer encountered. This parameter is optional.
+A pointer to an instance of the <a href="https://msdn.microsoft.com/1eeb00a3-d3c5-46f0-95a8-f694f802894b">ICallFrameWalker</a> interface. When specified, a call back is made for each interface pointer encountered. This parameter is optional.
 
 
 ## -returns
@@ -112,7 +112,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
  
 
  

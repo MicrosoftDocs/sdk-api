@@ -7,7 +7,7 @@ old-location: base\releasesemaphorewhencallbackreturns.htm
 tech.root: procthread
 ms.assetid: d5c8d6a0-6bb1-4ecb-aaba-665d81cb3d14
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: ReleaseSemaphoreWhenCallbackReturns, ReleaseSemaphoreWhenCallbackReturns function, base.releasesemaphorewhencallbackreturns, threadpoolapiset/ReleaseSemaphoreWhenCallbackReturns, winbase/ReleaseSemaphoreWhenCallbackReturns
 ms.prod: windows-hardware
 ms.technology: windows-devices

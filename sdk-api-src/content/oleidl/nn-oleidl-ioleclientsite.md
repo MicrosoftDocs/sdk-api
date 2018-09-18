@@ -7,7 +7,7 @@ old-location: com\ioleclientsite.htm
 tech.root: com
 ms.assetid: dafee149-926a-4d08-a43d-5847682db645
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IOleClientSite, IOleClientSite interface [COM], IOleClientSite interface [COM],described, _ole_ioleclientsite, com.ioleclientsite, oleidl/IOleClientSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Provides the primary means by which an embedded object obtains information about
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleClientSite</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleClientSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleClientSite</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleClientSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

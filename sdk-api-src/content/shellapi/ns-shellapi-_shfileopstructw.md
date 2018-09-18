@@ -7,7 +7,7 @@ old-location: shell\SHFILEOPSTRUCT.htm
 tech.root: shell
 ms.assetid: 590d87c2-0c75-44b9-a9b5-f7c37728512b
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: "*LPSHFILEOPSTRUCTW, FOF_ALLOWUNDO, FOF_CONFIRMMOUSE, FOF_FILESONLY, FOF_MULTIDESTFILES, FOF_NOCONFIRMATION, FOF_NOCONFIRMMKDIR, FOF_NOCOPYSECURITYATTRIBS, FOF_NOERRORUI, FOF_NORECURSEREPARSE, FOF_NORECURSION, FOF_NO_CONNECTED_ELEMENTS, FOF_NO_UI, FOF_RENAMEONCOLLISION, FOF_SILENT, FOF_SIMPLEPROGRESS, FOF_WANTMAPPINGHANDLE, FOF_WANTNUKEWARNING, FO_COPY, FO_DELETE, FO_MOVE, FO_RENAME, LPSHFILEOPSTRUCT, LPSHFILEOPSTRUCT structure pointer [Windows Shell], SHFILEOPSTRUCT, SHFILEOPSTRUCT structure [Windows Shell], SHFILEOPSTRUCTW, _SHFILEOPSTRUCTW, _win32_SHFILEOPSTRUCT, shell.SHFILEOPSTRUCT, shellapi/LPSHFILEOPSTRUCT, shellapi/SHFILEOPSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -396,17 +396,21 @@ Rename the file specified in <b>pFrom</b>. You cannot use this flag to rename mu
 
                 </div>
 <div> </div>
-
-```cpp
-// WRONG
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// WRONG
 LPTSTR pszSource = L"C:\\Windows\\*";
 
 // RIGHT
 LPTSTR pszSource = L"C:\\Windows\\*\0";
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 To account for the two terminating null characters, be sure to create buffers large enough to hold MAX_PATH (which normally includes the single terminating null character) plus 1.
 
 It cannot be overstated that your paths should always be full paths. If the <b>pFrom</b> or <b>pTo</b> members are unqualified names, the current directories are taken from the global current drive and directory settings as managed by the <a href="https://msdn.microsoft.com/1fbe6289-2ca8-4ca8-b004-ecf513f9b0bd">GetCurrentDirectory</a> and <a href="https://msdn.microsoft.com/02dd0a2b-8072-4ce5-99b4-ffa6dcbd46cd">SetCurrentDirectory</a> functions.
@@ -435,33 +439,41 @@ There are two versions of this structure, an ANSI version (SHFILEOPSTRUCTA) and 
 
 <a href="https://msdn.microsoft.com/c77f5ed6-3c7f-48dd-8bb6-33d6d3053238">SHNAMEMAPPING</a> has similar ANSI and Unicode versions. For ANSI applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of ANSI <b>SHNAMEMAPPING</b> structures. For Unicode applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of Unicode <b>SHNAMEMAPPING</b> structures. However, on Microsoft Windows NT 4.0 and later, <a href="https://msdn.microsoft.com/7807015f-52c5-46f5-9e90-4e3e60ddf705">SHFileOperation</a> <i>always</i> returns a handle to a Unicode set of <b>SHNAMEMAPPING</b> structures. If you want applications to be functional with all versions of Windows, the application must employ conditional code to deal with name mappings. For example:
 
-
-```cpp
-x = SHFileOperation(&shop);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>x = SHFileOperation(&amp;shop);
 
 if (fWin9x) 
     HandleAnsiNameMappings(shop.hNameMappings);
 else 
     HandleUnicodeNameMappings(shop.hNameMappings);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Treat <b>hNameMappings</b> as a pointer to a structure whose members are a <b>UINT</b> value followed by a pointer to an array of <a href="https://msdn.microsoft.com/c77f5ed6-3c7f-48dd-8bb6-33d6d3053238">SHNAMEMAPPING</a> structures, as seen in its declaration:
 
 				
 
-
-```cpp
-struct HANDLETOMAPPINGS 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>struct HANDLETOMAPPINGS 
 {
     UINT              uNumberOfMappings;  // Number of mappings in the array.
     LPSHNAMEMAPPING   lpSHNameMapping;    // Pointer to the array of mappings.
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>UINT</b> value indicates the number of <a href="https://msdn.microsoft.com/c77f5ed6-3c7f-48dd-8bb6-33d6d3053238">SHNAMEMAPPING</a> structures in the array. Each <b>SHNAMEMAPPING</b> structure contains the old and new path for one of the renamed files.
 
 <div class="alert"><b>Note</b>  The handle must be freed with <a href="https://msdn.microsoft.com/4552b2e0-9257-48f8-84cc-003217f1696f">SHFreeNameMappings</a>.</div>

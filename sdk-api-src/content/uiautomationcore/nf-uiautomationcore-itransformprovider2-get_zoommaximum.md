@@ -7,7 +7,7 @@ old-location: winauto\uiauto_itransformprovider2_zoommaximum.htm
 tech.root: WinAuto
 ms.assetid: 92C36184-ACFB-4120-B0E6-A0E615855567
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: ITransformProvider2 interface [Windows Accessibility],ZoomMaximum property, ITransformProvider2.ZoomMaximum, ITransformProvider2.get_ZoomMaximum, ITransformProvider2::ZoomMaximum, ITransformProvider2::get_ZoomMaximum, ZoomMaximum property [Windows Accessibility], ZoomMaximum property [Windows Accessibility],ITransformProvider2 interface, get_ZoomMaximum, uiautomationcore/ITransformProvider2::ZoomMaximum, uiautomationcore/ITransformProvider2::get_ZoomMaximum, winauto.uiauto_itransformprovider2_zoommaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices

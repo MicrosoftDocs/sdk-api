@@ -7,7 +7,7 @@ old-location: search\icolumnmapper_getpropinfofromname.htm
 tech.root: search
 ms.assetid: F9306234-7CCC-412E-AA8C-7E8A04A8132F
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetPropInfoFromName, GetPropInfoFromName method [search], GetPropInfoFromName method [search],IColumnMapper interface, IColumnMapper interface [search],GetPropInfoFromName method, IColumnMapper.GetPropInfoFromName, IColumnMapper::GetPropInfoFromName, indexsrv/IColumnMapper::GetPropInfoFromName, search.icolumnmapper_getpropinfofromname
 ms.prod: windows-hardware
 ms.technology: windows-devices

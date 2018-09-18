@@ -7,7 +7,7 @@ old-location: com\iblockinglock_unlock.htm
 tech.root: com
 ms.assetid: 152c2d72-fa49-4213-8916-81a6383900cc
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IBlockingLock interface [COM],Unlock method, IBlockingLock.Unlock, IBlockingLock::Unlock, Unlock, Unlock method [COM], Unlock method [COM],IBlockingLock interface, _com_iblockinglock_unlock, com.iblockinglock_unlock, objidl/IBlockingLock::Unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

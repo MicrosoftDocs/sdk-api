@@ -7,7 +7,7 @@ old-location: com\callframe_free.htm
 tech.root: com
 ms.assetid: 6a048133-7a89-4b55-afd3-5eb722d41914
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: CALLFRAME_FREE, CALLFRAME_FREE enumeration [COM], CALLFRAME_FREE_ALL, CALLFRAME_FREE_IN, CALLFRAME_FREE_INOUT, CALLFRAME_FREE_NONE, CALLFRAME_FREE_OUT, CALLFRAME_FREE_TOP_INOUT, CALLFRAME_FREE_TOP_OUT, _com_CALLFRAME_FREE, callobj/CALLFRAME_FREE, callobj/CALLFRAME_FREE_ALL, callobj/CALLFRAME_FREE_IN, callobj/CALLFRAME_FREE_INOUT, callobj/CALLFRAME_FREE_NONE, callobj/CALLFRAME_FREE_OUT, callobj/CALLFRAME_FREE_TOP_INOUT, callobj/CALLFRAME_FREE_TOP_OUT, com.callframe_free
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,11 +103,11 @@ All [in], [out], and [in, out] parameters are freed. This includes both top-leve
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690081(v=VS.85).aspx">ICallFrame::Free</a>
+<a href="https://msdn.microsoft.com/97261d93-40cf-4a27-9bee-677600c04699">ICallFrame::Free</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691313(v=VS.85).aspx">ICallFrame::FreeParam</a>
+<a href="https://msdn.microsoft.com/b141bfc4-de1b-4251-b88f-551d0805e9b6">ICallFrame::FreeParam</a>
  
 
  

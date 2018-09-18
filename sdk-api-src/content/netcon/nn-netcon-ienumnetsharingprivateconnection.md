@@ -4,10 +4,10 @@ title: IEnumNetSharingPrivateConnection
 author: windows-sdk-content
 description: The IEnumNetSharingPrivateConnection interface provides methods for enumerating the currently configured privately-shared connections.
 old-location: ics\ienumnetsharingprivateconnection.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 0e4cfa2e-8caa-4258-bd52-1f5a00403dfa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IEnumNetSharingPrivateConnection, IEnumNetSharingPrivateConnection interface [ICS/ICF], IEnumNetSharingPrivateConnection interface [ICS/ICF],described, _ics_ienumnetsharingprivateconnection, ics.ienumnetsharingprivateconnection, netcon/IEnumNetSharingPrivateConnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ Skips the specified number of private connections in this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
 
 
 

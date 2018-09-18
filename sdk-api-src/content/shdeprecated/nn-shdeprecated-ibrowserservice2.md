@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2.htm
 tech.root: shell
 ms.assetid: 5c100b60-ef2e-4044-9f06-c1d01bcd88d2
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], IBrowserService2 interface [Windows Shell],described, shdeprecated/IBrowserService2, shell.IBrowserService2, zone_IBrowserService2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -281,7 +281,7 @@ Deprecated. Saves the state of browser toolbars.
 <a href="https://msdn.microsoft.com/159516ce-1731-478a-8d84-85d0001f9c63">_SendChildren</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Allows the derived class to send a message through the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function directly instead of relying on the base class.
+Deprecated. Allows the derived class to send a message through the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function directly instead of relying on the base class.
 
 </td>
 </tr>
@@ -371,7 +371,7 @@ Deprecated. Coordinates the updating of state when creating a new browser view w
 <a href="https://msdn.microsoft.com/8db9fbf9-9132-47a4-a788-93c303598ba0">ForwardViewMsg</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Calls the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function with a message received by the view, using the <b>_hwndView</b> member of the <a href="https://msdn.microsoft.com/d56e42e8-a556-4470-82d9-466edd84214f">BASEBROWSERDATA</a> structure as the <b>SendMessage</b>
+Deprecated. Calls the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function with a message received by the view, using the <b>_hwndView</b> member of the <a href="https://msdn.microsoft.com/d56e42e8-a556-4470-82d9-466edd84214f">BASEBROWSERDATA</a> structure as the <b>SendMessage</b>
 <i>hWnd</i> parameter.
 
 </td>
@@ -454,7 +454,7 @@ Deprecated. Checks for and updates the browser's offline status, synchronzing th
 <a href="https://msdn.microsoft.com/2bffddc0-9e29-4d38-ae02-c9b1e5dc2c36">OnCommand</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a> message. The derived class handles the message.
 
 </td>
 </tr>
@@ -463,7 +463,7 @@ Deprecated. Calls the derived class from the base class on receipt of a <a href=
 <a href="https://msdn.microsoft.com/abfcb67a-c383-4480-9da9-788fb9cebf5e">OnCreate</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/d484d0fc-bad0-4fcb-bf4b-37cbc50846ee">WM_CREATE</a> message. The derived class handles the message.
 
 </td>
 </tr>
@@ -472,7 +472,7 @@ Deprecated. Calls the derived class from the base class on receipt of a <a href=
 <a href="https://msdn.microsoft.com/103456a8-d4d1-46f7-b002-a8daa166db29">OnDestroy</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/089c0645-199b-4a90-9cbc-740f0cf3267d">WM_DESTROY</a> message. The derived class handles the message.
 
 </td>
 </tr>
@@ -490,7 +490,7 @@ Deprecated. Calls the derived class from the base class in response to a subfram
 <a href="https://msdn.microsoft.com/666d76da-0891-4645-8852-fc963be75369">OnNotify</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/23ff9dc1-3d92-4e94-8df5-7a645039ce27">WM_NOTIFY</a> message. The derived class handles the message.
 
 </td>
 </tr>
@@ -499,7 +499,7 @@ Deprecated. Calls the derived class from the base class on receipt of a <a href=
 <a href="https://msdn.microsoft.com/107a2ce8-2914-423a-bda7-4aeb112965bc">OnSetFocus</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/en-us/library/ms646283(v=VS.85).aspx">WM_SETFOCUS</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/77180e4c-95a6-41a4-93d9-033381ae7543">WM_SETFOCUS</a> message. The derived class handles the message.
 
 </td>
 </tr>
@@ -508,7 +508,7 @@ Deprecated. Calls the derived class from the base class on receipt of a <a href=
 <a href="https://msdn.microsoft.com/082eabc4-6807-4d40-aa06-f7d230039073">OnSize</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/en-us/library/ms632646(v=VS.85).aspx">WM_SIZE</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/e3e14dcd-9236-48bd-a692-6985d8146f81">WM_SIZE</a> message. The derived class handles the message.
 
 </td>
 </tr>

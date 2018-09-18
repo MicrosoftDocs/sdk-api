@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandler_Synchronize.htm
 tech.root: shell
 ms.assetid: 6742f6a8-eda8-4ef0-8a11-dc70baefcc83
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: ISyncMgrHandler interface [Windows Shell],Synchronize method, ISyncMgrHandler.Synchronize, ISyncMgrHandler::Synchronize, Synchronize, Synchronize method [Windows Shell], Synchronize method [Windows Shell],ISyncMgrHandler interface, _shell_ISyncMgrHandler_Synchronize, shell.ISyncMgrHandler_Synchronize, syncmgr/ISyncMgrHandler::Synchronize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -141,9 +141,13 @@ Another difference between <b>ISyncMgrHandler::Synchronize</b> and <a href="http
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItemIDs,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItemIDs,
                               __in ULONG                   cItems,
                               __in HWND                    hwndOwner,
                               __in ISyncMgrSessionCreator *pCreator,
@@ -155,10 +159,10 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItem
     // this method.
     ISyncMgrSyncCallback *pCallback = NULL;
     
-    hr = pCreator->CreateSession(_szHandlerID, ppszItemIDs, cItems,&pCallback);
+    hr = pCreator-&gt;CreateSession(_szHandlerID, ppszItemIDs, cItems,&amp;pCallback);
     if (SUCCEEDED(hr))
     {
-        for (ULONG iItem = 0; iItem < cItems; iItem++)
+        for (ULONG iItem = 0; iItem &lt; cItems; iItem++)
         {
             SYNCMGR_CANCEL_REQUEST nCancelRequest = SYNCMGR_CR_NONE;
             ULONG   uCurrentStep = 1;
@@ -173,7 +177,7 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItem
             // specifics of how the handler has implemented its storage of 
             // its items. Its internal details can remain transparent as 
             // they have no bearing on this example.
-            hr = _FindItem(pszItemID, &pItem);
+            hr = _FindItem(pszItemID, &amp;pItem);
             if (FAILED(hr))
             {
                 // _ReportProgress is another private class function that loads
@@ -186,7 +190,7 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItem
                                 SYNCMGR_PS_FAILED, 
                                 0, 
                                 0, 
-                                &nCancelRequest);
+                                &amp;nCancelRequest);
 
                 if (nCancelRequest != SYNCMGR_CR_NONE)
                 {
@@ -202,9 +206,9 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItem
                             SYNCMGR_PS_UPDATING, 
                             uCurrentStep, 
                             cMaxSteps,
-                            &nCancelRequest);
+                            &amp;nCancelRequest);
 
-            for (; uCurrentStep < cMaxSteps; uCurrentStep++)
+            for (; uCurrentStep &lt; cMaxSteps; uCurrentStep++)
             {
                 if (nCancelRequest != SYNCMGR_CR_NONE)
                 {
@@ -218,12 +222,12 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItem
                                  uCurrentStep + 1, 
                                  cMaxSteps);
 
-                pCallback->ReportProgress(pszItemID, 
+                pCallback-&gt;ReportProgress(pszItemID, 
                                           szProgressText,
                                           SYNCMGR_PS_UPDATING,
                                           uCurrentStep, 
                                           cMaxSteps,
-                                          &nCancelRequest);
+                                          &amp;nCancelRequest);
 
                 // The code that accomplishes the synchronization goes here.
                 // This code depends entirely on the nature of the items
@@ -244,7 +248,7 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItem
                                 nStatus, 
                                 uCurrentStep - 1, 
                                 cMaxSteps, 
-                                &nCancelRequest);
+                                &amp;nCancelRequest);
             }
 
             hr = S_OK;
@@ -255,14 +259,14 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItem
             }
         }
 
-        pCallback->Release();
+        pCallback-&gt;Release();
     }
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

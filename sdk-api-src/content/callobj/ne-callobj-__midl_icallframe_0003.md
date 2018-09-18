@@ -7,7 +7,7 @@ old-location: com\callframe_copy.htm
 tech.root: com
 ms.assetid: 06c926ab-8e82-4291-b1ea-f4bfcd734b16
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: CALLFRAME_COPY, CALLFRAME_COPY enumeration [COM], CALLFRAME_COPY_INDEPENDENT, CALLFRAME_COPY_NESTED, __MIDL_ICallFrame_0003, _com_CALLFRAME_COPY, callobj/CALLFRAME_COPY, callobj/CALLFRAME_COPY_INDEPENDENT, callobj/CALLFRAME_COPY_NESTED, com.callframe_copy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ The copied call frame will have a lifetime independent from its parent.
 
 
 
-A consequence is that whichever of these <b>CALLFRAME_COPY</b> flags are passed to <a href="https://msdn.microsoft.com/en-us/library/ms692612(v=VS.85).aspx">ICallFrame::Copy</a>, the interface pointers can be modified without consequence of disturbing the interface pointers residing in the parent frame.
+A consequence is that whichever of these <b>CALLFRAME_COPY</b> flags are passed to <a href="https://msdn.microsoft.com/bf2d2e55-d9d1-48d6-817c-382c739d1acd">ICallFrame::Copy</a>, the interface pointers can be modified without consequence of disturbing the interface pointers residing in the parent frame.
 
 
 
@@ -85,7 +85,7 @@ A consequence is that whichever of these <b>CALLFRAME_COPY</b> flags are passed 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692612(v=VS.85).aspx">ICallFrame::Copy</a>
+<a href="https://msdn.microsoft.com/bf2d2e55-d9d1-48d6-817c-382c739d1acd">ICallFrame::Copy</a>
  
 
  

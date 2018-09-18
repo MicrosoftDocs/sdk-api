@@ -7,7 +7,7 @@ old-location: search\_search_ISearchItemsChangedSink.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitemschangedsink\isearchitemschangedsink.htm
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: ISearchItemsChangedSink, ISearchItemsChangedSink interface [search], ISearchItemsChangedSink interface [search],described, _search_ISearchItemsChangedSink, search._search_ISearchItemsChangedSink, searchapi/ISearchItemsChangedSink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>ISearchItemsChangedSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231462(v=VS.85).aspx">OnItemsChanged</a>
+<a href="https://msdn.microsoft.com/3f31ab2c-f788-4b22-9706-dbfcd3bfa3ae">OnItemsChanged</a>
 </td>
 <td align="left" width="63%">
    
@@ -82,7 +82,7 @@ The <b>ISearchItemsChangedSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231463(v=VS.85).aspx">StartedMonitoringScope</a>
+<a href="https://msdn.microsoft.com/6baf05fd-a487-4e42-a054-c7058188454b">StartedMonitoringScope</a>
 </td>
 <td align="left" width="63%">
 Permits an index-managed notification source to add itself to a list of "monitored scopes".
@@ -91,7 +91,7 @@ Permits an index-managed notification source to add itself to a list of "monitor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231464(v=VS.85).aspx">StoppedMonitoringScope</a>
+<a href="https://msdn.microsoft.com/5088bd59-115d-482c-b3cf-d6a38ff95287">StoppedMonitoringScope</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -106,7 +106,7 @@ Not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
+<a href="https://msdn.microsoft.com/817550e2-a256-48d5-9fa6-1ea04f8b8589">Notifying the Index of Changes</a>
  
 
  

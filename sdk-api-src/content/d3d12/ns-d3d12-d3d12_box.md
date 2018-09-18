@@ -92,7 +92,7 @@ The z position of the back of the box, plus 1. This means that <code>front - bac
 
 
 
-This structure is used by the methods <a href="https://msdn.microsoft.com/8781E2FE-8D82-41F5-B541-A96DA11CA290">WriteToSubresource</a>, <a href="https://msdn.microsoft.com/A1F61217-A383-49BF-B675-FBC7F6D015DB">ReadFromSubresource</a> and <a href="https://msdn.microsoft.com/en-us/library/Dn903862(v=VS.85).aspx">CopyTextureRegion</a>.
+This structure is used by the methods <a href="https://msdn.microsoft.com/8781E2FE-8D82-41F5-B541-A96DA11CA290">WriteToSubresource</a>, <a href="https://msdn.microsoft.com/A1F61217-A383-49BF-B675-FBC7F6D015DB">ReadFromSubresource</a> and <a href="https://msdn.microsoft.com/2EAFC6B9-376C-4801-8E53-BF0DB08943AA">CopyTextureRegion</a>.
       
 
 
@@ -103,11 +103,11 @@ This structure is used by the methods <a href="https://msdn.microsoft.com/8781E2
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt186563(v=VS.85).aspx">CD3DX12_BOX</a>
+<a href="https://msdn.microsoft.com/7E1A352C-D664-4538-BA78-91493980559D">CD3DX12_BOX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

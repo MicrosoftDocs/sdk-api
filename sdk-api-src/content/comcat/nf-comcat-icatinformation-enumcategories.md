@@ -7,7 +7,7 @@ old-location: com\icatinformation_enumcategories.htm
 tech.root: com
 ms.assetid: d8e744f0-6e50-4260-89df-e2cc59937398
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: EnumCategories, EnumCategories method [COM], EnumCategories method [COM],ICatInformation interface, ICatInformation interface [COM],EnumCategories method, ICatInformation.EnumCategories, ICatInformation::EnumCategories, _com_icatinformation_enumcategories, com.icatinformation_enumcategories, comcat/ICatInformation::EnumCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,12 +60,12 @@ Retrieves an enumerator for the component categories registered on the system.
 
 ### -param lcid [in]
 
-The requested locale for any return szDescription of the enumerated categories. Typically, the caller specifies the value returned from the <a href="https://msdn.microsoft.com/en-us/library/Dd318135(v=VS.85).aspx">GetUserDefaultLCID</a> function.
+The requested locale for any return szDescription of the enumerated categories. Typically, the caller specifies the value returned from the <a href="https://msdn.microsoft.com/bbf8399e-9034-4480-8d6e-030714f94e48">GetUserDefaultLCID</a> function.
 
 
 ### -param ppenumCategoryInfo [out]
 
-A pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd542656(v=VS.85).aspx">IEnumCATEGORYINFO</a> interface. This can be used to enumerate the CATIDs and localized description strings of the component categories registered with the system.
+A pointer to a pointer to an <a href="https://msdn.microsoft.com/87469ace-ae34-40e5-aab6-f26a4bc50b54">IEnumCATEGORYINFO</a> interface. This can be used to enumerate the CATIDs and localized description strings of the component categories registered with the system.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542655(v=VS.85).aspx">ICatInformation</a>
+<a href="https://msdn.microsoft.com/1fd68126-b512-4131-8e93-cea7c1c3e9c0">ICatInformation</a>
  
 
  

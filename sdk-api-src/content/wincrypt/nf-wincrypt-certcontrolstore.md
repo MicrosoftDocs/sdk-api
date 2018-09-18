@@ -224,9 +224,13 @@ CERT_STORE_CTRL_NOTIFY_CHANGE is supported on registry-based store providers by 
 The following example shows allowing an application to be notified when there is a difference between the contents of a cached store in use and the contents of that store as it is persisted to storage. For the full example including the complete context for this example, see 
 <a href="https://msdn.microsoft.com/9fb368c9-a0d7-4c5f-9a38-7ef8f7283354">Example C Program: Setting and Getting Certificate Store Properties</a>.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 //--------------------------------------------------------------------
 // Declare and initialize variables.
 
@@ -277,7 +281,7 @@ if(CertControlStore(
     hCertStore,                        //  The store to be controlled
     0,                                 //  Not used 
     CERT_STORE_CTRL_NOTIFY_CHANGE,     //  Control action type
-    &hEvent))                          //  Points to the event handle
+    &amp;hEvent))                          //  Points to the event handle
                            //  When a change is detected,
                            //  a signal is written to the 
                     //  memory location pointed to by
@@ -312,7 +316,7 @@ if (fSignal)
         hCertStore,             // The store to be controlled
         0,                      // Not used
         CERT_STORE_CTRL_RESYNC, // Control action type
-        &hEvent))               // The handle of the event 
+        &amp;hEvent))               // The handle of the event 
                                 // to be rearmed
 
     printf("Resynchronization worked. \n");
@@ -340,10 +344,10 @@ else
 {
         printf("An error occurred. The MY store was not closed. \n");
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -352,7 +356,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
 
 
 

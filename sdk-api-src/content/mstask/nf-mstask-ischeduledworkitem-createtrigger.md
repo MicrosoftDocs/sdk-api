@@ -4,10 +4,10 @@ title: IScheduledWorkItem::CreateTrigger
 author: windows-sdk-content
 description: Creates a trigger for the work item.
 old-location: taskschd\ischeduledworkitem_createtrigger.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: ff8c9c3b-697f-42f0-a5b5-6194e4c89096
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: CreateTrigger, CreateTrigger method [Task Scheduler], CreateTrigger method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],CreateTrigger method, IScheduledWorkItem.CreateTrigger, IScheduledWorkItem::CreateTrigger, _msb_ischeduledworkitem_createtrigger, mstask/IScheduledWorkItem::CreateTrigger, taskschd.ischeduledworkitem_createtrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Creates a trigger for the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>.
+Creates a trigger for the <a href="w.htm">work item</a>.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A pointer to the returned trigger index value of the new trigger. The trigger in
 ### -param ppTrigger [out]
 
 A pointer to a pointer to an 
-<a href="https://msdn.microsoft.com/990702f4-fb6f-47a7-b538-f6632f831a4e">ITaskTrigger</a> interface. Currently, the only supported work items are <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">tasks</a>.
+<a href="https://msdn.microsoft.com/990702f4-fb6f-47a7-b538-f6632f831a4e">ITaskTrigger</a> interface. Currently, the only supported work items are <a href="t.htm">tasks</a>.
 
 
 ## -returns
@@ -132,7 +132,7 @@ To set the criteria for the new trigger, call
 <a href="https://msdn.microsoft.com/2f445835-a409-4a03-b853-4e0b07ded1ea">ITaskTrigger::SetTrigger</a>.
 
 After creating a new trigger for a work item, applications must call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a> method to save the new trigger to disk.
+<a href="_com_ipersistfile_save">IPersistFile::Save</a> method to save the new trigger to disk.
 
 
 #### Examples
@@ -148,7 +148,7 @@ For an example of how to set the trigger criteria when creating a new trigger, s
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a>
+<a href="_com_ipersistfile_save">IPersistFile::Save</a>
 
 
 

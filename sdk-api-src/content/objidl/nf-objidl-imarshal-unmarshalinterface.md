@@ -7,7 +7,7 @@ old-location: com\imarshal_unmarshalinterface.htm
 tech.root: com
 ms.assetid: 5b496028-57db-447e-8c5c-76b7ea0fa4ee
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IMarshal interface [COM],UnmarshalInterface method, IMarshal.UnmarshalInterface, IMarshal::UnmarshalInterface, UnmarshalInterface, UnmarshalInterface method [COM], UnmarshalInterface method [COM],IMarshal interface, _com_imarshal_unmarshalinterface, com.imarshal_unmarshalinterface, objidlbase/IMarshal::UnmarshalInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

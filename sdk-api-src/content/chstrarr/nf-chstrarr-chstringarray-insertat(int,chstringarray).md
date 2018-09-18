@@ -2,13 +2,13 @@
 UID: NF:chstrarr.CHStringArray.InsertAt(int,CHStringArray)
 title: CHStringArray::InsertAt(int,CHStringArray)
 author: windows-sdk-content
-description: The InsertAt method inserts an element (or multiple copies of an element) or all the elements of another array at a specified index.
-old-location: wmi\insertat_method_in_class_chstringarray.htm
+description: The InsertAt method inserts all of the elements of another CHStringArray array at the index specified by nStartIndex.
+old-location: wmi\chstringarray_insertat_int__chstringarray__.htm
 tech.root: WmiSdk
-ms.assetid: 1d6355bc-7df2-4aa3-8e47-0239d726ed7d
+ms.assetid: 4aab5eb2-0b6d-4ffc-b627-a35c0696c7cc
 ms.author: windowssdkdev
 ms.date: 08/30/2018
-ms.keywords: CHStringArray.InsertAt, CHStringArray.InsertAt(int,CHStringArray), CHStringArray::InsertAt, CHStringArray::InsertAt methods [Windows Management Instrumentation], CHStringArray::InsertAt(int,CHStringArray), InsertAt, chstrarr/CHStringArray::InsertAt, wmi.insertat_method_in_class_chstringarray
+ms.keywords: CHStringArray interface [Windows Management Instrumentation],InsertAt(int,CHStringArray*) method, CHStringArray.InsertAt, CHStringArray.InsertAt(int,CHStringArray), CHStringArray::InsertAt, CHStringArray::InsertAt(int,CHStringArray), CHStringArray::InsertAt(int,CHStringArray*), InsertAt, InsertAt(int,CHStringArray*) method [Windows Management Instrumentation], InsertAt(int,CHStringArray*) method [Windows Management Instrumentation],CHStringArray interface, chstrarr/CHStringArray::InsertAt(int,CHStringArray*), wmi.chstringarray_insertat_int__chstringarray__
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -33,12 +33,12 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray::InsertAt
+ - CHStringArray.InsertAt(int, CHStringArray*)
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,38 +51,41 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/en-us/library/JJ152383(v=VS.85).aspx">MI APIs</a> should be used for all new 
+    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
-<span>The <b>InsertAt</b> method inserts an element (or multiple copies of an element) or all the elements of another array at a specified index.
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c8e519a-ace8-47ce-a538-138e8f9720a6">InsertAt(int,LPCWSTR,int)</a>
-</td>
-<td align="left" width="63%">
-Inserts one or more elements at a specified index in an array.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4aab5eb2-0b6d-4ffc-b627-a35c0696c7cc">InsertAt(int,CHStringArray*)</a>
-</td>
-<td align="left" width="63%">
-Inserts all the elements of another <a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a> at a specified index in an array.
+The <b>InsertAt</b> method inserts  all of the elements of another <a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a> array at the index specified by <i>nStartIndex</i>.
 
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param nStartIndex
+
+Type: <b>int</b>
+
+An integer index that can be greater than the value returned by <a href="https://msdn.microsoft.com/77c200f9-c63b-4842-881f-5c077e4618b8">GetUpperBound</a>.
+
+
+### -param pNewArray
+
+Type: <b>CHStringArray*</b>
+
+Pointer to another <a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a> that contains the elements to be inserted into this array.
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
 
 
 ## -see-also
@@ -90,7 +93,19 @@ Inserts all the elements of another <a href="https://msdn.microsoft.com/en-us/li
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a>
+<a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a>
+
+
+
+<a href="https://msdn.microsoft.com/f5a0b8e6-b40a-4dc7-bf36-ec629e2899db">CHStringArray::Add</a>
+
+
+
+<a href="https://msdn.microsoft.com/b7555074-4f9a-46be-b321-f16e00663c32">CHStringArray::RemoveAt</a>
+
+
+
+<a href="https://msdn.microsoft.com/709bed59-c154-4103-9d38-398945657ec6">CHStringArray::SetAt</a>
  
 
  

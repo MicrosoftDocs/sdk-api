@@ -7,7 +7,7 @@ old-location: wsw\wswritechars.htm
 tech.root: wsw
 ms.assetid: e435058f-62b5-4ae9-800e-e022033a9664
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WsWriteChars, WsWriteChars function [Web Services for Windows], webservices/WsWriteChars, wsw.wswritechars
 ms.prod: windows-hardware
 ms.technology: windows-devices

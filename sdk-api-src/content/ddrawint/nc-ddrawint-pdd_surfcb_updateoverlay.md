@@ -7,7 +7,7 @@ old-location: display\ddupdateoverlay.htm
 tech.root: display
 ms.assetid: e86b3b75-319a-4817-bcb1-59580c855ef9
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: DdUpdateOverlay, DdUpdateOverlay callback function [Display Devices], PDD_SURFCB_UPDATEOVERLAY, PDD_SURFCB_UPDATEOVERLAY callback, ddfncs_aa6e3770-06c5-4be1-b934-2eb58f909f30.xml, ddrawint/DdUpdateOverlay, display.ddupdateoverlay
 ms.prod: windows
 ms.technology: windows-sdk

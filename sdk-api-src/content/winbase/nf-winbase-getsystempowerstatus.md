@@ -7,7 +7,7 @@ old-location: base\getsystempowerstatus.htm
 tech.root: power
 ms.assetid: 6d440ef2-2b9d-4f7a-a445-2420f07f3784
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetSystemPowerStatus, GetSystemPowerStatus function, _win32_getsystempowerstatus, base.getsystempowerstatus, winbase/GetSystemPowerStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

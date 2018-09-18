@@ -7,7 +7,7 @@ old-location: shell\IntToInt8.htm
 tech.root: shell
 ms.assetid: 7d738df4-9e63-4480-857b-1fb86ed85667
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IntToInt8, IntToInt8 function [Windows Shell], intsafe/IntToInt8, shell.IntToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

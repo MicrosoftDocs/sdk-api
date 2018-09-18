@@ -7,7 +7,7 @@ old-location: shell\IEnumResources_Skip.htm
 tech.root: shell
 ms.assetid: d3dc94e7-5455-4afb-8743-05c993e1448b
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IEnumResources interface [Windows Shell],Skip method, IEnumResources.Skip, IEnumResources::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumResources interface, _shell_IEnumResources_Skip, shell.IEnumResources_Skip, shobjidl_core/IEnumResources::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

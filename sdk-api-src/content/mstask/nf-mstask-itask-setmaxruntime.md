@@ -4,10 +4,10 @@ title: ITask::SetMaxRunTime
 author: windows-sdk-content
 description: This method sets the maximum time the task can run, in milliseconds, before terminating.
 old-location: taskschd\itask_setmaxruntime.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: fb9012c6-be41-4ec6-bb1a-73bd7896738f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: ITask interface [Task Scheduler],SetMaxRunTime method, ITask.SetMaxRunTime, ITask::SetMaxRunTime, SetMaxRunTime, SetMaxRunTime method [Task Scheduler], SetMaxRunTime method [Task Scheduler],ITask interface, _msb_itask_setmaxruntime, mstask/ITask::SetMaxRunTime, taskschd.itask_setmaxruntime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method sets the maximum time the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task</a> can run, in milliseconds, before terminating.
+This method sets the maximum time the <a href="t.htm">task</a> can run, in milliseconds, before terminating.
 
 
 ## -parameters

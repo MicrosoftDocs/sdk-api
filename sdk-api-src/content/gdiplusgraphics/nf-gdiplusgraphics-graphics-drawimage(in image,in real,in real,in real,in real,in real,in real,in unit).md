@@ -2,21 +2,21 @@
 UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit)
 title: Graphics::DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit)
 author: windows-sdk-content
-description: This topic lists the DrawImage methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Methods.htm
+description: The Graphics::DrawImage method draws an image.
+old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destPoints_INT_count_REAL_srcx_REAL_srcy_REAL_s.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage_6imageimage_pointfdestpoints_intcount_re.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: DrawImage, DrawImage methods [GDI+], Graphics.DrawImage, Graphics.DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit), _gdiplus_CLASS_Graphics_DrawImage_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Methods, gdiplusgraphics/DrawImage
+ms.keywords: DrawImage, DrawImage method [GDI+], DrawImage method [GDI+],Graphics class, Graphics class [GDI+],DrawImage method, Graphics.DrawImage, Graphics.DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit), Graphics.DrawImage(Image*,const PointF*,INT,REAL,REAL,REAL,REAL,Unit,ImageAttributes*,DrawImageAbort,VOID*), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit), _gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destPoints_INT_count_REAL_srcx_REAL_srcy_REAL_s, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destPoints_INT_count_REAL_srcx_REAL_srcy_REAL_s
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusgraphics.h
+ - Gdiplus.dll
 api_name:
  - Graphics.DrawImage
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Graphics::DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit)
@@ -50,181 +51,233 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-DrawImage methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
-<b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>.
+The <b>Graphics::DrawImage</b> method draws an image.
 
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536051(v=VS.85).aspx">DrawImage(Image*,Rect&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536051(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536032(v=VS.85).aspx">DrawImage(Image*,Point&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536032(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536041(v=VS.85).aspx">DrawImage(Image*,RectF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536041(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536030(v=VS.85).aspx">DrawImage(Image*,INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536030(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image at a specified location.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536035(v=VS.85).aspx">DrawImage(Image*,PointF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536035(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536034(v=VS.85).aspx">DrawImage(Image*,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536034(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image at a specified location.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536028(v=VS.85).aspx">DrawImage(Image*,Point*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536028(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536037(v=VS.85).aspx">DrawImage(Image*,PointF*,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536037(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536042(v=VS.85).aspx">DrawImage(Image*,INT,INT,INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536042(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536049(v=VS.85).aspx">DrawImage(Image*,REAL,REAL,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536049(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536053(v=VS.85).aspx">DrawImage(Image*,INT,INT,INT,INT,INT,INT,Unit)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536053(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536039(v=VS.85).aspx">DrawImage(Image*,REAL,REAL,REAL,REAL,REAL,REAL,Unit)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536039(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536057(v=VS.85).aspx">DrawImage(Image*,RectF&,RectF&,Unit,ImageAttributes*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536057(v=VS.85).aspx">Graphics::DrawImage</a> method draws a specified portion of an image at a specified location.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">DrawImage(Image*,RectF*,Matrix*,Effect*,ImageAttributes*,Unit*)</a>
-</td>
-<td align="left" width="63%">
-The  method draws a portion of an image after applying a specified effect.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536045(v=VS.85).aspx">DrawImage(Image*,Rect&,INT,INT,INT,INT,Unit,ImageAttributes*,DrawImageAbort,VOID*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536045(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536047(v=VS.85).aspx">DrawImage(Image*,Point*,INT,INT,INT,INT,INT,Unit,ImageAttributes*,DrawImageAbort,VOID*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536047(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536056(v=VS.85).aspx">DrawImage(Image*,RectF&,REAL,REAL,REAL,REAL,Unit,ImageAttributes*,DrawImageAbort,VOID*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536056(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536044(v=VS.85).aspx">DrawImage(Image*,PointF*,INT,REAL,REAL,REAL,REAL,Unit,ImageAttributes*,DrawImageAbort,VOID*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536044(v=VS.85).aspx">Graphics::DrawImage</a> method draws an image.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param image [in]
+
+Type: <b><a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>*</b>
+
+Pointer to an <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object that specifies the source image. 
+
+
+### -param x
+
+TBD
+
+
+### -param y
+
+TBD
+
+
+#### - srcx [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the x-coordinate of the upper-left corner of the portion of the source image to be drawn. 
+
+
+#### - srcy [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the y-coordinate of the upper-left corner of the portion of the source image to be drawn. 
+
+
+#### - srcwidth [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the width of the portion of the source image to be drawn. 
+
+
+#### - srcheight [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the height of the portion of the source image to be drawn. 
+
+
+#### - srcUnit [in]
+
+Type: <b><a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">Unit</a></b>
+
+Element of the <a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">Unit</a> enumeration that specifies the unit of measure for the image. The default value is <b>UnitPixel</b>. 
+
+
+#### - callback [in]
+
+Type: <b>DrawImageAbort</b>
+
+Callback method used to cancel the drawing in progress. The default value is <b>NULL</b>. 
+
+
+#### - callbackData [in]
+
+Type: <b>VOID*</b>
+
+Pointer to additional data used by the method specified by the 
+					<i>callback</i> parameter. The default value is <b>NULL</b>. 
+
+
+#### - count [in]
+
+Type: <b>INT</b>
+
+Integer that specifies the number of elements in the 
+					<i>destPoints</i> array. 
+
+
+#### - destPoints [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>*</b>
+
+Pointer to an array of 
+					<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> objects that specify the area, in a parallelogram, in which to draw the image. 
+
+
+#### - imageAttributes [in]
+
+Type: <b><a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a>*</b>
+
+Pointer to an <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object that specifies the color and size attributes of the image to be drawn. The default value is <b>NULL</b>. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+</strong>
+
+If the method succeeds, it returns <b>Ok</b>, which is an element of the 
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the 
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+
+
+
+## -remarks
+
+
+
+The value of the 
+				<i>count</i> parameter must equal 3 to specify the coordinates of the upper-left corner, upper-right corner, and lower-left corner of the parallelogram. The coordinate of the lower-right corner is calculated using the three given coordinates, the width, and the height of the image. The portion of the source image to be drawn is scaled to fit the parallelogram.
+
+
+#### Examples
+
+
+
+The following example draws the original source image and then draws a portion of the image in a specified parallelogram.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawImage4(HDC hdc)
+
+{
+
+   Graphics graphics(hdc);
+
+   // Create an Image object.
+   Image image(L"pattern.png");
+
+   // Draw the original source image.
+   graphics.DrawImage(&amp;image, 10, 10);
+
+   // Define the portion of the image to draw.
+   REAL srcX = 70.0f;
+   REAL srcY = 20.0f;
+   REAL srcWidth = 100.0f;
+   REAL srcHeight = 100.0f;
+
+   // Create an array of Point objects that specify the destination of the cropped image.
+   PointF destPoints[3] = {
+   PointF(230.0f, 30.0f),
+   PointF(350.0f, 50.0f),
+   PointF(275.0f, 120.0f)};
+
+   Point* pdestPoints = destPoints; 
+
+   // Create an ImageAttributes object that specifies a recoloring from red to blue.
+   ImageAttributes remapAttributes;
+   ColorMap redToBlue;
+   redToBlue.oldColor = Color(255, 255, 0, 0);
+   redToBlue.newColor = Color(255, 0, 0, 255);
+   remapAttributes.SetRemapTable(1, &amp;redToBlue);
+
+   // Draw the cropped image.
+   graphics.DrawImage(
+   &amp;image,
+   pdestPoints,
+   3,
+   srcX,
+   srcY,
+   srcWidth,
+   srcHeight,
+   UnitPixel,
+   &amp;remapAttributes,
+   NULL,
+   NULL);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+The following illustration shows the output of the preceding code.
+
+<img alt="Illustration showing a multicolored checkerboard pattern, then an enlarged, two-toned subset of that pattern, sheared to a parallelogram" src="images/drawimage2.png"/>
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0ad2a132-6db6-4099-81a2-10e1cd1b1f61">Drawing, Positioning, and Cloning Images</a>
+
+
+
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+
+
+
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
+
+
+
+<a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/8c1a26d9-b640-4f38-8276-10c4464525f2">Loading and Displaying Bitmaps</a>
+
+
+
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+
+
+
+<a href="https://msdn.microsoft.com/87b63b0d-9071-4c7f-9ff6-14083092246a">SetRemapTable</a>
+
+
+
+<a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">Unit</a>
+ 
+
+ 
 

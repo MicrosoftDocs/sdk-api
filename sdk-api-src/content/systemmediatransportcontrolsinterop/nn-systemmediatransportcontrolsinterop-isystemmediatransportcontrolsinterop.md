@@ -7,7 +7,7 @@ old-location: mediatransport\isystemmediatransportcontrolsinterop.htm
 tech.root: mediatransport
 ms.assetid: 451A65AD-BF03-47F3-B2F1-30484A1B14F3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: ISystemMediaTransportControlsInterop, ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface,described, mediatransport.isystemmediatransportcontrolsinterop, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop
 ms.prod: windows
 ms.technology: windows-sdk

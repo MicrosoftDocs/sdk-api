@@ -7,7 +7,7 @@ old-location: shell\UrlHash.htm
 tech.root: shell
 ms.assetid: 9c0ce709-e097-4501-bee1-b24df9d4828d
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: UrlHash, UrlHash function [Windows Shell], UrlHashA, UrlHashW, _win32_UrlHash, shell.UrlHash, shlwapi/UrlHash, shlwapi/UrlHashA, shlwapi/UrlHashW
 ms.prod: windows-hardware
 ms.technology: windows-devices

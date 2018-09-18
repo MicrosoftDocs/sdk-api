@@ -7,7 +7,7 @@ old-location: wsw\ws_policy_constraints.htm
 tech.root: wsw
 ms.assetid: 2cf65426-336f-4148-ab3b-063a229db99f
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_POLICY_CONSTRAINTS, WS_POLICY_CONSTRAINTS structure [Web Services for Windows], _WS_POLICY_CONSTRAINTS, webservices/WS_POLICY_CONSTRAINTS, wsw.ws_policy_constraints
 ms.prod: windows
 ms.technology: windows-sdk

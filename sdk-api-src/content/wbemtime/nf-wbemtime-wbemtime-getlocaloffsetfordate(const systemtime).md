@@ -2,13 +2,13 @@
 UID: NF:wbemtime.WBEMTime.GetLocalOffsetForDate(const SYSTEMTIME)
 title: WBEMTime::GetLocalOffsetForDate(const SYSTEMTIME)
 author: windows-sdk-content
-description: The GetLocalOffsetForDate method returns the offset in minutes (+ or &#8211;) between GMT and local time for the FILETIME supplied in the argument.
-old-location: wmi\wbemtime_getlocaloffsetfordate_const_filetime__.htm
+description: The GetLocalOffsetForDate method returns the offset in minutes (+ or &#8211;) between GMT and local time for the SYSTEMTIME supplied in the argument.
+old-location: wmi\wbemtime_getlocaloffsetfordate_const_systemtime__.htm
 tech.root: WmiSdk
-ms.assetid: fd40907d-c4df-4eb0-8516-45def3d5d01f
+ms.assetid: efb25bb5-7a3e-4d80-ab5f-fd47cc5c83b7
 ms.author: windowssdkdev
 ms.date: 08/30/2018
-ms.keywords: GetLocalOffsetForDate, GetLocalOffsetForDate method [Windows Management Instrumentation], GetLocalOffsetForDate method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetLocalOffsetForDate method, WBEMTime.GetLocalOffsetForDate, WBEMTime.GetLocalOffsetForDate(const SYSTEMTIME), WBEMTime::GetLocalOffsetForDate, WBEMTime::GetLocalOffsetForDate(const FILETIME*), WBEMTime::GetLocalOffsetForDate(const SYSTEMTIME), wbemtime/WBEMTime::GetLocalOffsetForDate, wmi.wbemtime_getlocaloffsetfordate_const_filetime__
+ms.keywords: "?GetLocalOffsetForDate@WBEMTime@@SGJPBU_SYSTEMTIME@@@Z, GetLocalOffsetForDate, GetLocalOffsetForDate method [Windows Management Instrumentation], GetLocalOffsetForDate method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetLocalOffsetForDate method, WBEMTime.GetLocalOffsetForDate, WBEMTime.GetLocalOffsetForDate(const SYSTEMTIME), WBEMTime::GetLocalOffsetForDate, WBEMTime::GetLocalOffsetForDate(const SYSTEMTIME), WBEMTime::GetLocalOffsetForDate(const SYSTEMTIME*), wbemtime/WBEMTime::GetLocalOffsetForDate, wmi.wbemtime_getlocaloffsetfordate_const_systemtime__"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,6 +39,7 @@ api_location:
  - FrameDyn.dll
 api_name:
  - WBEMTime.GetLocalOffsetForDate
+ - ?GetLocalOffsetForDate@WBEMTime@@SGJPBU_SYSTEMTIME@@@Z
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -57,7 +58,7 @@ req.redist:
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-The <b>GetLocalOffsetForDate</b> method returns the offset in minutes (+ or –) between GMT and local time for the FILETIME supplied in the argument.
+The <b>GetLocalOffsetForDate</b> method returns the offset in minutes (+ or –) between GMT and local time for the <b>SYSTEMTIME</b> supplied in the argument.
 
 
 ## -parameters
@@ -67,14 +68,7 @@ The <b>GetLocalOffsetForDate</b> method returns the offset in minutes (+ or –)
 
 ### -param pst
 
-TBD
-
-
-
-
-#### - pft
-
-Pointer to a MFC <b>FILETIME</b> structure that represents the number of 100-nanosecond intervals since January 1, 1601 as a 64-bit value.
+Pointer to a MFC <b>SYSTEMTIME</b> structure that represents a date and time and using individual members for the month, day, year, weekday, hour, minute, second, and millisecond.
 
 
 ## -returns
@@ -90,7 +84,7 @@ Returns the offset in minutes (+ or -) between GMT and local time for the time s
 
 
 
-These are public static functions which permit their usage anywhere without having a <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> object.
+These are public static functions that  permit their usage anywhere without having a <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> object.
 
 
 

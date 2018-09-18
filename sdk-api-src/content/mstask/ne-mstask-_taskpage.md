@@ -4,10 +4,10 @@ title: "_TASKPAGE"
 author: windows-sdk-content
 description: Defines the type of task page to be retrieved.
 old-location: taskschd\taskpage.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 6c822d4c-9d42-48a2-b378-06670acc39cf
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: TASKPAGE, TASKPAGE enumeration [Task Scheduler], TASKPAGE_SCHEDULE, TASKPAGE_SETTINGS, TASKPAGE_TASK, _TASKPAGE, _msb_taskpage, mstask/TASKPAGE, mstask/TASKPAGE_SCHEDULE, mstask/TASKPAGE_SETTINGS, mstask/TASKPAGE_TASK, task page [Task Scheduler],enumerations,TASKPAGE, taskschd.taskpage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.redist:
 
 Defines the type of task page to be retrieved.
 
-Each property page can be used to define the properties of a <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task object</a>.
+Each property page can be used to define the properties of a <a href="t.htm">task object</a>.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ Specifies the Task page for the task. This page provides the following UI elemen
 <a href="https://msdn.microsoft.com/f533fcf6-8ece-442f-b6d5-3702321db9e9">Run</a>: This field specifies the name of the application associated with the task.</li>
 <li>This property can also be set programmatically by calling 
 <a href="https://msdn.microsoft.com/0bec25a9-e653-48b5-be41-8f513169fc8c">ITask::SetApplicationName</a>.</li>
-<li><b>Start in</b>: This field specifies the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">working directory</a> for the task.</li>
+<li><b>Start in</b>: This field specifies the <a href="w.htm">working directory</a> for the task.</li>
 <li>This property can also be set programmatically by calling 
 <a href="https://msdn.microsoft.com/df12d899-c254-4bbf-a49f-d89a2fcb0e28">ITask::SetWorkingDirectory</a>.</li>
 <li><b>Comments</b>: This field specifies any application-defined comments for the task.</li>
@@ -90,7 +90,7 @@ Specifies the Task page for the task. This page provides the following UI elemen
 
 ### -field TASKPAGE_SCHEDULE
 
-Specifies the Schedule page for the task. This page is used to manage the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">triggers</a> for the task. The user can create triggers, edit triggers, and delete triggers from this page. 
+Specifies the Schedule page for the task. This page is used to manage the <a href="t.htm">triggers</a> for the task. The user can create triggers, edit triggers, and delete triggers from this page. 
 
 
 
@@ -108,7 +108,7 @@ This page provides the following UI elements:
 
 ### -field TASKPAGE_SETTINGS
 
-Specifies the Settings page for the task. The user can specify what happens when the task is completed, <a href="https://msdn.microsoft.com/en-us/library/Aa446894(v=VS.85).aspx">idle conditions</a>, and power management properties for the task. 
+Specifies the Settings page for the task. The user can specify what happens when the task is completed, <a href="i.htm">idle conditions</a>, and power management properties for the task. 
 
 
 

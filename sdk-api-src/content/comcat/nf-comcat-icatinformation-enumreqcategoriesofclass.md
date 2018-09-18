@@ -7,7 +7,7 @@ old-location: com\icatinformation_enumreqcategoriesofclass.htm
 tech.root: com
 ms.assetid: 1bde9359-6d0e-4d8f-9c9b-ceabaf2da61f
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: EnumReqCategoriesOfClass, EnumReqCategoriesOfClass method [COM], EnumReqCategoriesOfClass method [COM],ICatInformation interface, ICatInformation interface [COM],EnumReqCategoriesOfClass method, ICatInformation.EnumReqCategoriesOfClass, ICatInformation::EnumReqCategoriesOfClass, _com_icatinformation_enumreqcategoriesofclass, com.icatinformation_enumreqcategoriesofclass, comcat/ICatInformation::EnumReqCategoriesOfClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The class identifier.
 
 ### -param ppenumCatid [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms682393(v=VS.85).aspx">IEnumCATID</a> interface pointer. This can be used to enumerate the CATIDs that are required by <i>rclsid</i>.
+A pointer to an <a href="https://msdn.microsoft.com/4f2e0f96-a471-4883-be41-d93806461020">IEnumCATID</a> interface pointer. This can be used to enumerate the CATIDs that are required by <i>rclsid</i>.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542655(v=VS.85).aspx">ICatInformation</a>
+<a href="https://msdn.microsoft.com/1fd68126-b512-4131-8e93-cea7c1c3e9c0">ICatInformation</a>
  
 
  

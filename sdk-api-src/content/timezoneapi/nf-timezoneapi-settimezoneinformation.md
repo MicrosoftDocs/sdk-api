@@ -1,0 +1,225 @@
+---
+UID: NF:timezoneapi.SetTimeZoneInformation
+title: SetTimeZoneInformation function
+author: windows-sdk-content
+description: Sets the current time zone settings. These settings control translations from Coordinated Universal Time (UTC) to local time.
+old-location: base\settimezoneinformation.htm
+tech.root: SysInfo
+ms.assetid: afb13501-3a87-433a-a05e-139103060109
+ms.author: windowssdkdev
+ms.date: 08/29/2018
+ms.keywords: SetTimeZoneInformation, SetTimeZoneInformation function, _win32_settimezoneinformation, base.settimezoneinformation, timezoneapi/SetTimeZoneInformation
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: timezoneapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-TimeZone-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetTimeZoneInformation
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# SetTimeZoneInformation function
+
+
+## -description
+
+
+Sets the current time zone settings. These settings control translations from Coordinated Universal Time (UTC) to local time.
+
+To support boundaries for daylight saving time that change from year to year, use the <a href="https://msdn.microsoft.com/98ad7b94-f649-4270-8348-0aba5b59a433">SetDynamicTimeZoneInformation</a> function.
+
+
+## -parameters
+
+
+
+
+### -param lpTimeZoneInformation [in]
+
+A pointer to a 
+<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a> structure that contains the new settings.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -remarks
+
+
+
+An application must have the SE_TIME_ZONE_NAME privilege for this function to succeed. This privilege is disabled by default. Use the 
+<a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a> function to enable the privilege before calling 
+<b>SetTimeZoneInformation</b>, and then to disable the privilege after the 
+<b>SetTimeZoneInformation</b> call. For more information, see 
+<a href="https://msdn.microsoft.com/b25db548-d5ab-4276-9b50-36d030909384">Running with Special Privileges</a>.
+
+<b>Windows Server 2003 and Windows XP/2000:  </b>The application must have the SE_SYSTEMTIME_NAME privilege.
+
+Specific to Windows 7 and Windows 8,  call  <a href="https://msdn.microsoft.com/98ad7b94-f649-4270-8348-0aba5b59a433">SetDynamicTimeZoneInformation</a> to set system time zone information instead of <b>SetTimeZoneInformation</b>. support provided for dynamic daylight savings time in. In a scenario where an application calls <b>SetTimeZoneInformation</b> instead, dynamic daylight saving time support is disabled for the calling application.
+
+To inform Explorer that the time zone has changed, send the 
+<a href="https://msdn.microsoft.com/77174e06-a25b-440a-9e9c-4fd5979c433c">WM_SETTINGCHANGE</a> message.
+
+All translations between UTC and local time are based on the following formula:
+
+UTC = local time + bias
+
+The bias is the difference, in minutes, between UTC and local time.
+
+
+#### Examples
+
+The following example displays the current time zone, then adjusts the time zone one zone west. The old and new  time zone names are displayed. You can also verify the changes using Date and Time in Control Panel. The new name is displayed on the <b>Date&amp;Time</b> tab as the <b>Current Time Zone</b>. The new time zone is displayed in the drop-down list on the <b>Time Zone</b> tab. To undo these changes, simply choose your old time zone from the drop-down list.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define UNICODE 1
+#define _UNICODE 1
+
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+#include &lt;strsafe.h&gt;
+
+int main()
+{
+   TIME_ZONE_INFORMATION tziOld, tziNew, tziTest;
+   DWORD dwRet;
+
+   // Enable the required privilege
+
+   HANDLE hToken;
+   TOKEN_PRIVILEGES tkp;
+
+   OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES|TOKEN_QUERY, &amp;hToken);
+   LookupPrivilegeValue(NULL, SE_TIME_ZONE_NAME, &amp;tkp.Privileges[0].Luid);
+   tkp.PrivilegeCount = 1;
+   tkp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;
+   AdjustTokenPrivileges(hToken, FALSE, &amp;tkp, 0, (PTOKEN_PRIVILEGES)NULL, 0);
+
+   // Retrieve the current time zone information
+
+   dwRet = GetTimeZoneInformation(&amp;tziOld);
+
+   if(dwRet == TIME_ZONE_ID_STANDARD || dwRet == TIME_ZONE_ID_UNKNOWN)    
+      wprintf(L"%s\n", tziOld.StandardName);
+   else if( dwRet == TIME_ZONE_ID_DAYLIGHT )
+      wprintf(L"%s\n", tziOld.DaylightName);
+   else
+   {
+      printf("GTZI failed (%d)\n", GetLastError());
+      return 0;
+   }
+
+   // Adjust the time zone information
+
+   ZeroMemory(&amp;tziNew, sizeof(tziNew));
+   tziNew.Bias = tziOld.Bias + 60;
+   StringCchCopy(tziNew.StandardName, 32, L"Test Standard Zone");
+   tziNew.StandardDate.wMonth = 10;
+   tziNew.StandardDate.wDayOfWeek = 0;
+   tziNew.StandardDate.wDay = 5;
+   tziNew.StandardDate.wHour = 2;
+
+   StringCchCopy(tziNew.DaylightName, 32, L"Test Daylight Zone");
+   tziNew.DaylightDate.wMonth = 4;
+   tziNew.DaylightDate.wDayOfWeek = 0;
+   tziNew.DaylightDate.wDay = 1;
+   tziNew.DaylightDate.wHour = 2;
+   tziNew.DaylightBias = -60;
+
+   if( !SetTimeZoneInformation( &amp;tziNew ) ) 
+   {
+      printf("STZI failed (%d)\n", GetLastError());
+      return 0;
+   }
+
+   // Retrieve and display the newly set time zone information
+
+   dwRet = GetTimeZoneInformation(&amp;tziTest);
+
+   if(dwRet == TIME_ZONE_ID_STANDARD || dwRet == TIME_ZONE_ID_UNKNOWN)    
+      wprintf(L"%s\n", tziTest.StandardName);
+   else if( dwRet == TIME_ZONE_ID_DAYLIGHT )
+      wprintf(L"%s\n", tziTest.DaylightName);
+   else printf("GTZI failed (%d)\n", GetLastError());
+
+   // Disable the privilege
+
+   tkp.Privileges[0].Attributes = 0; 
+   AdjustTokenPrivileges(hToken, FALSE, &amp;tkp, 0, (PTOKEN_PRIVILEGES) NULL, 0); 
+
+   return 1;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3d7601a5-6d22-4b1a-a222-9db46d21a3c7">GetTimeZoneInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/98ad7b94-f649-4270-8348-0aba5b59a433">SetDynamicTimeZoneInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/3733f611-c6a1-4d48-b21e-ada3490c5de1">Time Functions</a>
+ 
+
+ 
+

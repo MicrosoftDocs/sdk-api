@@ -7,7 +7,7 @@ old-location: shell\INamedPropertyStore_GetNameCount.htm
 tech.root: shell
 ms.assetid: 74bba1bf-e003-40bb-9118-4d647f78e409
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetNameCount, GetNameCount method [Windows Shell], GetNameCount method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNameCount method, INamedPropertyStore.GetNameCount, INamedPropertyStore::GetNameCount, _shell_INamedPropertyStore_GetNameCount, propsys/INamedPropertyStore::GetNameCount, shell.INamedPropertyStore_GetNameCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

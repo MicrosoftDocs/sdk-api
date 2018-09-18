@@ -7,7 +7,7 @@ old-location: mf\imfsequencersource_updatetopology.htm
 tech.root: medfound
 ms.assetid: 4ed6be6c-a031-4628-a3c5-7f0676cc0baf
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: 4ed6be6c-a031-4628-a3c5-7f0676cc0baf, IMFSequencerSource interface [Media Foundation],UpdateTopology method, IMFSequencerSource.UpdateTopology, IMFSequencerSource::UpdateTopology, UpdateTopology, UpdateTopology method [Media Foundation], UpdateTopology method [Media Foundation],IMFSequencerSource interface, mf.imfsequencersource_updatetopology, mfidl/IMFSequencerSource::UpdateTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

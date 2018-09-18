@@ -7,7 +7,7 @@ old-location: wds\iwdstransportserver2_tftpmanager.htm
 tech.root: wds
 ms.assetid: FD0D1B95-6964-43A0-94BF-F2BCFCDA8F99
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IWdsTransportServer2 interface [Windows Deployment Services],TftpManager property, IWdsTransportServer2.TftpManager, IWdsTransportServer2.get_TftpManager, IWdsTransportServer2::TftpManager, IWdsTransportServer2::get_TftpManager, TftpManager property [Windows Deployment Services], TftpManager property [Windows Deployment Services],IWdsTransportServer2 interface, get_TftpManager, wds.iwdstransportserver2_tftpmanager, wdstptmgmt/IWdsTransportServer2::TftpManager, wdstptmgmt/IWdsTransportServer2::get_TftpManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

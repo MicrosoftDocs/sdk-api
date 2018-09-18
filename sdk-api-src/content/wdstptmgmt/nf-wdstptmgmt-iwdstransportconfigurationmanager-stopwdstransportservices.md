@@ -7,7 +7,7 @@ old-location: wds\iwdstransportconfigurationmanager_stopwdstransportservices.htm
 tech.root: wds
 ms.assetid: 510dff2a-a459-4694-9c68-802d703ff716
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],StopWdsTransportServices method, IWdsTransportConfigurationManager.StopWdsTransportServices, IWdsTransportConfigurationManager::StopWdsTransportServices, StopWdsTransportServices, StopWdsTransportServices method [Windows Deployment Services], StopWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_stopwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::StopWdsTransportServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

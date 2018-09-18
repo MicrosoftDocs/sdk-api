@@ -7,7 +7,7 @@ old-location: com\icallframe_unmarshal.htm
 tech.root: com
 ms.assetid: 9f604366-0e1f-4e04-9843-13c77ea573ab
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: ICallFrame interface [COM],Unmarshal method, ICallFrame.Unmarshal, ICallFrame::Unmarshal, Unmarshal, Unmarshal method [COM], Unmarshal method [COM],ICallFrame interface, _com_icallframe_unmarshal, callobj/ICallFrame::Unmarshal, com.icallframe_unmarshal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,12 +70,12 @@ The size of the buffer, in bytes.
 
 ### -param dataRep [in]
 
-The NDR data representation with which the data was marshaled. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms686644(v=VS.85).aspx">IRpcChannelBuffer::GetBuffer</a>.
+The NDR data representation with which the data was marshaled. For more information, see <a href="https://msdn.microsoft.com/775a15df-8bcf-4c1b-a8b9-5c7c03106c09">IRpcChannelBuffer::GetBuffer</a>.
 
 
 ### -param pcontext [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms682388(v=VS.85).aspx">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how unmarshalling is carried out.
+A pointer to the <a href="https://msdn.microsoft.com/4ecc4646-db3f-4d0e-9c45-b78a288156e1">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how unmarshalling is carried out.
 
 
 ### -param pcbUnmarshalled [out]
@@ -126,7 +126,7 @@ An unexpected error has occurred.
 
 
 
-When unmarshalling, the [in] versions of [in, out] parameters are freed and interface pointers are released and replaced with there [out] versions. All the [in, out] and [out] parameters will always be set to reasonable [in], [in, out] values, [out] values successfully unmarshaled from the returned data, or a value explicitly initialized to <b>NULL</b>. On failure return, the caller will typically want to call <a href="https://msdn.microsoft.com/en-us/library/ms690081(v=VS.85).aspx">ICallFrame::Free</a> in order to clean up the values that are not <b>NULL</b>.
+When unmarshalling, the [in] versions of [in, out] parameters are freed and interface pointers are released and replaced with there [out] versions. All the [in, out] and [out] parameters will always be set to reasonable [in], [in, out] values, [out] values successfully unmarshaled from the returned data, or a value explicitly initialized to <b>NULL</b>. On failure return, the caller will typically want to call <a href="https://msdn.microsoft.com/97261d93-40cf-4a27-9bee-677600c04699">ICallFrame::Free</a> in order to clean up the values that are not <b>NULL</b>.
 
 
 
@@ -138,7 +138,7 @@ When unmarshalling, the [in] versions of [in, out] parameters are freed and inte
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
  
 
  

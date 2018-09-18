@@ -4,10 +4,10 @@ title: INetFwServices::Item
 author: windows-sdk-content
 description: Returns the specified service if it is in the collection.
 old-location: ics\inetfwservices_item.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: a13740cc-7d9a-4c1f-ae18-a31ca4d39b54
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: INetFwServices interface [ICS/ICF],Item method, INetFwServices.Item, INetFwServices::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwServices interface, ics.inetfwservices_item, netfw/INetFwServices::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,21 +2,21 @@
 UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(IN HMETAFILE,IN const WmfPlaceableFileHeader,OUT MetafileHeader)
 title: Metafile::GetMetafileHeader(IN HMETAFILE,IN const WmfPlaceableFileHeader,OUT MetafileHeader)
 author: windows-sdk-content
-description: This topic lists the GetMetafileHeader methods of the Metafile class. For a complete list of methods for the Metafile class, see Metafile Methods.
-old-location: gdiplus\_gdiplus_CLASS_Metafile_GetMetafileHeader_Methods.htm
+description: The Metafile::GetMetafileHeader method gets the metafile header of this metafile.
+old-location: gdiplus\_gdiplus_CLASS_Metafile_GetMetafileHeader_hWmf_wmfPlaceableFileHeader_header_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafilegetmetafileheadermethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafilegetmetafileheadermethods\getmetafileheader_58hwmf_wmfplaceablefileheader_header.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: GetMetafileHeader, GetMetafileHeader methods [GDI+], Metafile.GetMetafileHeader, Metafile.GetMetafileHeader(IN HMETAFILE,IN const WmfPlaceableFileHeader,OUT MetafileHeader), Metafile::GetMetafileHeader, Metafile::GetMetafileHeader(IN HMETAFILE,IN const WmfPlaceableFileHeader,OUT MetafileHeader), _gdiplus_CLASS_Metafile_GetMetafileHeader_Methods, gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_Methods, gdiplusheaders/GetMetafileHeader
+ms.keywords: GetMetafileHeader, GetMetafileHeader method [GDI+], GetMetafileHeader method [GDI+],Metafile class, Metafile class [GDI+],GetMetafileHeader method, Metafile.GetMetafileHeader, Metafile.GetMetafileHeader(HMETAFILE,const WmfPlaceableFileHeader*,MetafileHeader*), Metafile.GetMetafileHeader(IN HMETAFILE,IN const WmfPlaceableFileHeader,OUT MetafileHeader), Metafile::GetMetafileHeader, Metafile::GetMetafileHeader(IN HMETAFILE,IN const WmfPlaceableFileHeader,OUT MetafileHeader), _gdiplus_CLASS_Metafile_GetMetafileHeader_hWmf_wmfPlaceableFileHeader_header_, gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_hWmf_wmfPlaceableFileHeader_header_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusheaders.h
+ - Gdiplus.dll
 api_name:
  - Metafile.GetMetafileHeader
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Metafile::GetMetafileHeader(IN HMETAFILE,IN const WmfPlaceableFileHeader,OUT MetafileHeader)
@@ -50,61 +51,76 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-			GetMetafileHeader methods of the 
-			<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a> class. For a complete list of methods for the 
-			<b>Metafile</b> class, see <a href="https://msdn.microsoft.com/80a57b90-fa62-4cce-a658-f12dcbfd9d24">Metafile Methods</a>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47e66896-e5d4-4519-9cd9-d66128f49f5c">GetMetafileHeader(MetafileHeader*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/47e66896-e5d4-4519-9cd9-d66128f49f5c">Metafile::GetMetafileHeader</a> method gets the header.
+The <b>Metafile::GetMetafileHeader</b> method gets the metafile header of this metafile.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f831d8e-9ff9-48bc-97cc-115d8a50c071">GetMetafileHeader(WCHAR*,MetafileHeader*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/6f831d8e-9ff9-48bc-97cc-115d8a50c071">Metafile::GetMetafileHeader</a> method gets the header.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7f1f35d-f229-4053-b508-19ad00068195">GetMetafileHeader(IStream*,MetafileHeader*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/e7f1f35d-f229-4053-b508-19ad00068195">Metafile::GetMetafileHeader</a> method gets the header.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c5c95fc-21da-4e4a-92af-886ff00a65c7">GetMetafileHeader(HENHMETAFILE*,MetafileHeader*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/4c5c95fc-21da-4e4a-92af-886ff00a65c7">Metafile::GetMetafileHeader</a> method gets the header.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d12078c-4492-4bd1-a68b-8ff06dede784">GetMetafileHeader(HMETAFILE,WmfPlaceableFileHeader*,MetafileHeader*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/5d12078c-4492-4bd1-a68b-8ff06dede784">Metafile::GetMetafileHeader</a> method gets the metafile header of this metafile.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param hWmf [in]
+
+Type: <b>HMETAFILE</b>
+
+Window handle to a metafile. 
+
+
+### -param wmfPlaceableFileHeader [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/d8315d7d-b613-4175-b7cd-7a36cb411a12">WmfPlaceableFileHeader</a>*</b>
+
+Pointer to a placeable metafile header. 
+
+
+### -param header [out]
+
+Type: <b><a href="https://msdn.microsoft.com/4ea75699-c3c7-481e-b369-3bdc600b9713">MetafileHeader</a>*</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/4ea75699-c3c7-481e-b369-3bdc600b9713">MetafileHeader</a> object that receives the copy of the metafile header. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+</strong>
+
+If the method succeeds, it returns OK, which is an element of the 
+
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the 
+
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/79b8df1b-6fc5-455b-9d08-57d64bf6bffa">Loading and Displaying Metafiles</a>
+
+
+
+<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
+
+
+
+<a href="https://msdn.microsoft.com/73a6eb0d-5c49-4570-8df8-0fe7d07cf8c7">Metafile::Metafile</a>
+
+
+
+<a href="https://msdn.microsoft.com/4ea75699-c3c7-481e-b369-3bdc600b9713">MetafileHeader</a>
+
+
+
+<a href="https://msdn.microsoft.com/a9f9bac4-f3c7-44a1-9f0f-59ff1a27b077">Metafiles</a>
+ 
+
+ 
 

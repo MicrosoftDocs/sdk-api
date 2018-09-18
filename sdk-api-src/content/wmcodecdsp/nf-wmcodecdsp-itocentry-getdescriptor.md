@@ -7,7 +7,7 @@ old-location: mf\itocentry_getdescriptor.htm
 tech.root: medfound
 ms.assetid: bb685d4c-c5ec-413f-b279-25216b2bcee8
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetDescriptor, GetDescriptor method [Media Foundation], GetDescriptor method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetDescriptor method, ITocEntry.GetDescriptor, ITocEntry::GetDescriptor, codecapi.itocentry_getdescriptor, mf.itocentry_getdescriptor, wmcodecdsp/ITocEntry::GetDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

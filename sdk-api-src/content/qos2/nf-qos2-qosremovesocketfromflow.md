@@ -202,9 +202,13 @@ See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetD
 
 <div class="alert"><b>Note</b>  The winsock2.h header file must be included to use WSAGetLastError and other Winsock functions.</div>
 <div> </div>
-
-```cpp
-int CleanUpQos( HANDLE qosHandle, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>int CleanUpQos( HANDLE qosHandle, 
             SOCKET connSocket, 
             QOS_FLOWID qosFlowId, 
             DWORD qosFlags,
@@ -216,19 +220,19 @@ int CleanUpQos( HANDLE qosHandle,
  
     // The global variable gblClientTracking would be set on successful 
     // call to the QOSStartTrackingClient function.   
-    if(gblClientTracking == TRUE && qosHandle != NULL)
+    if(gblClientTracking == TRUE &amp;&amp; qosHandle != NULL)
     {
-        if(!QOSStopTrackingClient(qosHandle, (sockaddr*)ptrAdrinfo->ai_addr, 0))
+        if(!QOSStopTrackingClient(qosHandle, (sockaddr*)ptrAdrinfo-&gt;ai_addr, 0))
         {
             gblClientTracking = FALSE;
-            std::cerr << std::endl;
-            std::cerr << __FILE__ <<" Line: " << __LINE__ ;
-            std::cerr << " - QOSStartTrackingClient failed. Exception code: "; 
-            std::cerr << GetLastError() ;
+            std::cerr &lt;&lt; std::endl;
+            std::cerr &lt;&lt; __FILE__ &lt;&lt;" Line: " &lt;&lt; __LINE__ ;
+            std::cerr &lt;&lt; " - QOSStartTrackingClient failed. Exception code: "; 
+            std::cerr &lt;&lt; GetLastError() ;
         }
         else
         {
-            std::cout << "QoS client tracking stopped." << std::endl;
+            std::cout &lt;&lt; "QoS client tracking stopped." &lt;&lt; std::endl;
         }
     }
 
@@ -254,10 +258,10 @@ int CleanUpQos( HANDLE qosHandle,
     return(result);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

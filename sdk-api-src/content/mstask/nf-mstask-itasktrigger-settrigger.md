@@ -4,10 +4,10 @@ title: ITaskTrigger::SetTrigger
 author: windows-sdk-content
 description: The SetTrigger method sets the trigger criteria for a task trigger.
 old-location: taskschd\itasktrigger_settrigger.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 2f445835-a409-4a03-b853-4e0b07ded1ea
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: ITaskTrigger interface [Task Scheduler],SetTrigger method, ITaskTrigger.SetTrigger, ITaskTrigger::SetTrigger, SetTrigger, SetTrigger method [Task Scheduler], SetTrigger method [Task Scheduler],ITaskTrigger interface, _msb_itasktrigger_settrigger, mstask/ITaskTrigger::SetTrigger, taskschd.itasktrigger_settrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
-<b>SetTrigger</b> method sets the trigger criteria for a task <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">trigger</a>.
+<b>SetTrigger</b> method sets the trigger criteria for a task <a href="t.htm">trigger</a>.
 
 
 ## -parameters
@@ -128,7 +128,7 @@ The <b>wBeginDay</b>, <b>wBeginMonth</b>, and <b>wBeginYear</b> members of the
 A task can have any number of triggers associated with it. The times that the task will run are the union of all the triggers defined for that task.
 
 To update the task with these new trigger settings, applications must call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a> method after calling 
+<a href="_com_ipersistfile_save">IPersistFile::Save</a> method after calling 
 <b>SetTrigger</b>.
 
 
@@ -137,13 +137,17 @@ To update the task with these new trigger settings, applications must call the
 The following code shows the variable declaration and calling syntax for this method, including the required members of 
 <a href="https://msdn.microsoft.com/b4716e32-7c7a-40ab-baa1-4c7ebafc3d71">TASK_TRIGGER</a>. Setting the trigger criteria when creating a new trigger, see <a href="https://msdn.microsoft.com/c0f121ff-d0a5-4b6c-935c-6f47b4ea26d5">Creating a New Trigger</a>.
 
-
-```cpp
-HRESULT hr = S_OK;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = S_OK;
 
 TASK_TRIGGER Trigger;
 
-ZeroMemory(&Trigger, sizeof(TASK_TRIGGER));
+ZeroMemory(&amp;Trigger, sizeof(TASK_TRIGGER));
 
 Trigger.cbTriggerSize = sizeof(TASK_TRIGGER);
 Trigger.wBeginDay = 1;
@@ -151,16 +155,16 @@ Trigger.wBeginMonth = 1;
 Trigger.wBeginYear = 1999;
 
 // pITaskTrigger is a previously assigned ITaskTrigger pointer.
-hr = pITaskTrigger->SetTrigger(&Trigger);
+hr = pITaskTrigger-&gt;SetTrigger(&amp;Trigger);
 if (FAILED(hr))
 {
    printf("Failed SetTrigger\n");
    exit(1);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -169,7 +173,7 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a>
+<a href="_com_ipersistfile_save">IPersistFile::Save</a>
 
 
 

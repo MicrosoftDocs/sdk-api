@@ -7,7 +7,7 @@ old-location: com\iaccessibilitydockingservice_undockwindow.htm
 tech.root: com
 ms.assetid: 8A88D02C-E542-49F0-B423-771E755D506D
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IAccessibilityDockingService interface [COM],UndockWindow method, IAccessibilityDockingService.UndockWindow, IAccessibilityDockingService::UndockWindow, UndockWindow, UndockWindow method [COM], UndockWindow method [COM],IAccessibilityDockingService interface, com.iaccessibilitydockingservice_undockwindow, shobjidl/IAccessibilityDockingService::UndockWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,9 +129,13 @@ This method can only be used to undock windows that belong to the calling proces
 
 #### Examples
 
-
-```
-class CAccessibilityApplicationWindow : public IAccessibilityDockingServiceCallback
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>class CAccessibilityApplicationWindow : public IAccessibilityDockingServiceCallback
 {
 
     ....
@@ -139,15 +143,15 @@ class CAccessibilityApplicationWindow : public IAccessibilityDockingServiceCallb
 
     HRESULT _Undock()
     {
-        return _pDockingService->UndockWindow(_hwndMyApplication);
+        return _pDockingService-&gt;UndockWindow(_hwndMyApplication);
     }
 
     IAccessibilityDockingService *_pDockingService;
     HWND _hwndMyApplication;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

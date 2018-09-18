@@ -7,7 +7,7 @@ old-location: com\iolelink_bindifrunning.htm
 tech.root: com
 ms.assetid: 791fbb3c-6b73-490c-a69b-ba58fd386de4
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: BindIfRunning, BindIfRunning method [COM], BindIfRunning method [COM],IOleLink interface, IOleLink interface [COM],BindIfRunning method, IOleLink.BindIfRunning, IOleLink::BindIfRunning, _ole_iolelink_bindifrunning, com.iolelink_bindifrunning, oleidl/IOleLink::BindIfRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices

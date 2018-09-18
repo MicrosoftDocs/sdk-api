@@ -91,16 +91,20 @@ The object parameter is optional, so that the method can set just an ID.
 
 The following example shows the syntax for this method.
 
-
-```
-IUnknown* pUnk = ...;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IUnknown* pUnk = ...;
 UINT32 id = ...;
 
-HRESULT hr = pRegion->SetTag(pUnk, id);
-
-```
-
-
+HRESULT hr = pRegion-&gt;SetTag(pUnk, id);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

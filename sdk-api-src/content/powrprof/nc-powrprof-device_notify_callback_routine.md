@@ -7,7 +7,7 @@ old-location: base\device_notify_callback_routine.htm
 tech.root: power
 ms.assetid: 5734FDEE-E330-4115-AFA5-725114023A5A
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: DEVICE_NOTIFY_CALLBACK_ROUTINE, DEVICE_NOTIFY_CALLBACK_ROUTINE callback function, DeviceNotifyCallbackRoutine, DeviceNotifyCallbackRoutine callback, DeviceNotifyCallbackRoutine callback function, PDEVICE_NOTIFY_CALLBACK_ROUTINE, PDEVICE_NOTIFY_CALLBACK_ROUTINE callback function pointer, base.device_notify_callback_routine, powrprof/DeviceNotifyCallbackRoutine, powrprof/PDEVICE_NOTIFY_CALLBACK_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk

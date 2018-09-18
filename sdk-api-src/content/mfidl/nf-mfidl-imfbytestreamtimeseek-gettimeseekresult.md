@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamtimeseek_gettimeseekresult.htm
 tech.root: medfound
 ms.assetid: D56E1F06-AA05-430C-BF5C-30B38831B842
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetTimeSeekResult, GetTimeSeekResult method [Media Foundation], GetTimeSeekResult method [Media Foundation],IMFByteStreamTimeSeek interface, IMFByteStreamTimeSeek interface [Media Foundation],GetTimeSeekResult method, IMFByteStreamTimeSeek.GetTimeSeekResult, IMFByteStreamTimeSeek::GetTimeSeekResult, mf.imfbytestreamtimeseek_gettimeseekresult, mfidl/IMFByteStreamTimeSeek::GetTimeSeekResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

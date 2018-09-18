@@ -297,23 +297,27 @@ The specified context or function could not be found.
 
 Each cryptographic function has only one set of configuration information, so although the <i>ppBuffer</i> parameter appears to be a used as an array, this function treats this as an array with only one element. The following example helps clarify how this parameter is used.
 
-
-```cpp
-// Get the function configuration information.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Get the function configuration information.
 CRYPT_CONTEXT_FUNCTION_CONFIG FuncConfig;
 ULONG uSize = sizeof(FuncConfig);
-PCRYPT_CONTEXT_FUNCTION_CONFIG pFuncConfig = &FuncConfig;
+PCRYPT_CONTEXT_FUNCTION_CONFIG pFuncConfig = &amp;FuncConfig;
 status = BCryptQueryContextFunctionConfiguration(
     CRYPT_LOCAL, 
     pszContext, 
     NCRYPT_SCHANNEL_INTERFACE,
     pszFunction,
-    &uSize, 
-    &pFuncConfig);
-
-```
-
-
+    &amp;uSize, 
+    &amp;pFuncConfig);
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>BCryptQueryContextFunctionConfiguration</b> can be called only in user mode.
 
 

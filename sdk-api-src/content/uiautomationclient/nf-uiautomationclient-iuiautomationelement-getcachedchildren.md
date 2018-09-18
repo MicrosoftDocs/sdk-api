@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_GetCachedChildren.htm
 tech.root: WinAuto
 ms.assetid: dab24be3-0e0e-445f-a9cc-bb2733916cdc
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetCachedChildren, GetCachedChildren method [Windows Accessibility], GetCachedChildren method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCachedChildren method, IUIAutomationElement.GetCachedChildren, IUIAutomationElement::GetCachedChildren, uiauto.uiauto_IUIAutomationElement_GetCachedChildren, uiauto_IUIAutomationElement_GetCachedChildren, uiautomationclient/IUIAutomationElement::GetCachedChildren, winauto.uiauto_IUIAutomationElement_GetCachedChildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The view of the returned collection is determined by the TreeFilter property of the <a href="https://msdn.microsoft.com/8e5d7f6e-c4c7-4bb9-ba33-959e098ecd41">IUIAutomationCacheRequest</a> that was active when this element was obtained.
 
-Children are cached only if the scope of the cache request included <a href="https://msdn.microsoft.com/en-us/library/Ee671699(v=VS.85).aspx">TreeScope_Subtree</a>, <a href="https://msdn.microsoft.com/en-us/library/Ee671699(v=VS.85).aspx">TreeScope_Children</a>, or <a href="https://msdn.microsoft.com/en-us/library/Ee671699(v=VS.85).aspx">TreeScope_Descendants</a>.
+Children are cached only if the scope of the cache request included <a href="uiauto_TreeScopeEnum.htm">TreeScope_Subtree</a>, <a href="uiauto_TreeScopeEnum.htm">TreeScope_Children</a>, or <a href="uiauto_TreeScopeEnum.htm">TreeScope_Descendants</a>.
 
 If the cache request specified that children were to be cached at this level, but there are no children, the value of this property is 0. However, if no request was made to cache children at this level, an attempt to retrieve the property returns an error.
 

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706331(v=VS.85).aspx">Distant-diffuse lighting effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/981FD58B-0565-4D0E-957C-3ED81BA8A6EB">Distant-diffuse lighting effect</a>.
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: security\credspp_submit_type.htm
 tech.root: secauthn
 ms.assetid: d30e219b-ea39-41da-b714-3ceb13a5614d
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: CREDSPP_SUBMIT_TYPE, CREDSPP_SUBMIT_TYPE enumeration [Security], CredsspCertificateCreds, CredsspPasswordCreds, CredsspSchannelCreds, CredsspSubmitBufferBoth, CredsspSubmitBufferBothOld, _CREDSSP_SUBMIT_TYPE, credssp/CREDSPP_SUBMIT_TYPE, credssp/CredsspCertificateCreds, credssp/CredsspPasswordCreds, credssp/CredsspSchannelCreds, credssp/CredsspSubmitBufferBoth, credssp/CredsspSubmitBufferBothOld, security.credspp_submit_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CREDSPP_SUBMIT_TYPE</b> enumeration specifies the type of credentials specified by a <a href="https://msdn.microsoft.com/en-us/library/Aa965581(v=VS.85).aspx">CREDSSP_CRED</a> structure.
+The <b>CREDSPP_SUBMIT_TYPE</b> enumeration specifies the type of credentials specified by a <a href="https://msdn.microsoft.com/b22bd22c-e6e1-4817-b5cf-ab49f574e75f">CREDSSP_CRED</a> structure.
 
 
 ## -enum-fields
@@ -91,7 +91,7 @@ The credentials contain both certificate and Schannel credentials.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965581(v=VS.85).aspx">CREDSSP_CRED</a>
+<a href="https://msdn.microsoft.com/b22bd22c-e6e1-4817-b5cf-ab49f574e75f">CREDSSP_CRED</a>
  
 
  

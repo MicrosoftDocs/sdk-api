@@ -4,10 +4,10 @@ title: IEmailAction::get_Body
 author: windows-sdk-content
 description: Gets or sets the body of the email that contains the email message.
 old-location: taskschd\iemailaction_body.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: c2bc5924-8014-4463-9537-a115266776ee
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: Body property [Task Scheduler], Body property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Body property, IEmailAction.Body, IEmailAction.get_Body, IEmailAction::Body, IEmailAction::get_Body, IEmailAction::put_Body, get_Body, taskschd.iemailaction_body, taskschd/IEmailAction::Body, taskschd/IEmailAction::get_Body, taskschd/IEmailAction::put_Body
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://msdn.microsoft.com/library/Hh849925(v=WPS.620).aspx">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="796227F5-C9FF-402D-8A04-CDE9E0C180EE">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the body of the email that contains the email message.
 

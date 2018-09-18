@@ -7,7 +7,7 @@ old-location: winauto\msaamenuinfo.htm
 tech.root: WinAuto
 ms.assetid: e8cc9c5d-eb76-4dba-90ad-94d2fd86dc8b
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: "*LPMSAAMENUINFO, LPMSAAMENUINFO, LPMSAAMENUINFO structure pointer [Windows Accessibility], MSAAMENUINFO, MSAAMENUINFO structure [Windows Accessibility], _msaa_MSAAMENUINFO, msaa.msaamenuinfo, oleacc/LPMSAAMENUINFO, oleacc/MSAAMENUINFO, tagMSAAMENUINFO, winauto.msaamenuinfo"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ The text of the menu item, in Unicode, <b>including</b> the Unicode null-termina
 
 By associating the <b>MSAAMENUINFO</b> structure with owner-drawn menu item data, server developers can expose the menu items without having to implement <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>.
 
-The <b>MSAAMENUINFO</b> structure is the first member of the application-specific structure (or class) that contains the data for an owner-drawn menu item, which is pointed to by the <b>dwItemData</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms647578(v=VS.85).aspx">MENUITEMINFO</a> structure.
+The <b>MSAAMENUINFO</b> structure is the first member of the application-specific structure (or class) that contains the data for an owner-drawn menu item, which is pointed to by the <b>dwItemData</b> member of the <a href="winui._win32_MENUITEMINFO_str">MENUITEMINFO</a> structure.
 
 The <b>MSAAMENUINFO</b> structure cannot be a member in a class that contains virtual functions because the first member of the class is always a compiler-generated pointer to a table of the virtual functions. To work around this problem, you can implement a structure that contains the <b>MSAAMENUINFO</b> as the first member, and a pointer to the class with the virtual functions as a second member, which contains the owner-drawn item data.
 
@@ -97,9 +97,13 @@ The <b>MSAAMENUINFO</b> structure cannot be a member in a class that contains vi
 
 The following code fragment shows the declaration of an application-specific owner-drawn menu information structure that includes <b>MSAAMENUINFO</b>:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 // Application-specific owner-drawn menu info struct. Owner-drawn data 
 // is a pointer to one of these. MSAAMENUINFO must be the first 
 // member. 
@@ -111,10 +115,10 @@ struct MenuEntry
     int          m_CmdID;      // Menu command ID.
     int          m_IconIndex;  // Index of icon in bitmap.
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

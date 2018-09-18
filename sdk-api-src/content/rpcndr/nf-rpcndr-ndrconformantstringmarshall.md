@@ -7,7 +7,7 @@ old-location: rpc\ndrconformantstringmarshall.htm
 tech.root: rpc
 ms.assetid: d2e323fb-2bb2-4c6c-8f26-fc7e19c7fea7
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: NdrConformantStringMarshall, NdrConformantStringMarshall function [RPC], rpc.ndrconformantstringmarshall, rpcndr/NdrConformantStringMarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

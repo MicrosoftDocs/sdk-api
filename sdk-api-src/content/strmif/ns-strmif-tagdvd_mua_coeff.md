@@ -81,15 +81,19 @@ The information contained in this structure reflects the mixing coefficients as 
 
 The alpha coefficient is used to mix to audio channel 0 and the beta coefficient is used to mix to audio channel 1. In general, the following formula calculates the mixing coefficients.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 Audio channel 0 = coeff[0].alpha * value[0] + coeff[1].alpha * value[1] + ... 
 Audio channel 1 = coeff[0].beta * value[0]  + coeff[1].beta * value[1] + ... 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

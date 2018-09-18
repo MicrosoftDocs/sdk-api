@@ -7,7 +7,7 @@ old-location: com\icallindirect_getiid.htm
 tech.root: com
 ms.assetid: 096bd49e-2fad-4558-98c7-c95e0dc43a65
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetIID, GetIID method [COM], GetIID method [COM],ICallIndirect interface, ICallIndirect interface [COM],GetIID method, ICallIndirect.GetIID, ICallIndirect::GetIID, _com_icallindirect_getiid, callobj/ICallIndirect::GetIID, com.icallindirect_getiid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the interface id supported by this <a href="https://msdn.microsoft.com/en-us/library/ms691485(v=VS.85).aspx">ICallIndirect</a> implementation.
+Retrieves the interface id supported by this <a href="https://msdn.microsoft.com/b85585fd-5f44-4c07-91a4-145eb44a6bdd">ICallIndirect</a> implementation.
 
 
 ## -parameters
@@ -122,7 +122,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691485(v=VS.85).aspx">ICallIndirect</a>
+<a href="https://msdn.microsoft.com/b85585fd-5f44-4c07-91a4-145eb44a6bdd">ICallIndirect</a>
  
 
  

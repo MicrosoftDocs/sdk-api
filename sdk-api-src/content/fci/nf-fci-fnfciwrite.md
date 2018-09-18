@@ -92,15 +92,19 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNFCIWRITE(fnFileWrite)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCIWRITE(fnFileWrite)
 {
     DWORD dwBytesWritten = 0;
 
     UNREFERENCED_PARAMETER(pv);
 
-    if ( WriteFile((HANDLE)hf, memory, cb, &dwBytesWritten, NULL) == FALSE )
+    if ( WriteFile((HANDLE)hf, memory, cb, &amp;dwBytesWritten, NULL) == FALSE )
     {
         dwBytesWritten = (DWORD)-1;
         *err = GetLastError();
@@ -108,10 +112,10 @@ FNFCIWRITE(fnFileWrite)
 
     return dwBytesWritten;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

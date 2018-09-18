@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextProvider_GetSelection.htm
 tech.root: WinAuto
 ms.assetid: f5c0b2ed-e891-4856-8829-617a69d4708a
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetSelection, GetSelection method [Windows Accessibility], GetSelection method [Windows Accessibility],ITextProvider interface, ITextProvider interface [Windows Accessibility],GetSelection method, ITextProvider.GetSelection, ITextProvider::GetSelection, uiauto.uiauto_ITextProvider_GetSelection, uiauto_ITextProvider_GetSelection, uiautomationcore/ITextProvider::GetSelection, winauto.uiauto_ITextProvider_GetSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

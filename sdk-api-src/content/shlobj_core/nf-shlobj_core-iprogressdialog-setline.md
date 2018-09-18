@@ -7,7 +7,7 @@ old-location: shell\IProgressDialog_SetLine.htm
 tech.root: shell
 ms.assetid: 2c4441a8-3bb6-4cd8-8f96-423ee8d26113
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetLine method, IProgressDialog.SetLine, IProgressDialog::SetLine, SetLine, SetLine method [Windows Shell], SetLine method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetLine, shell.IProgressDialog_SetLine, shlobj_core/IProgressDialog::SetLine
 ms.prod: windows-hardware
 ms.technology: windows-devices

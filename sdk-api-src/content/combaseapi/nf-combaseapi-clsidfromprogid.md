@@ -7,7 +7,7 @@ old-location: com\clsidfromprogid.htm
 tech.root: com
 ms.assetid: 89fb20af-65bf-4ed4-9f71-eb707ee8eb09
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: CLSIDFromProgID, CLSIDFromProgID function [COM], _com_CLSIDFromProgID, com.clsidfromprogid, combaseapi/CLSIDFromProgID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,7 +128,7 @@ An error occurred writing the CLSID to the registry. See Remarks below.
 
 
 
-Given a ProgID, <b>CLSIDFromProgID</b> looks up its associated CLSID in the registry. If the ProgID cannot be found in the registry, <b>CLSIDFromProgID</b> creates an OLE 1 CLSID for the ProgID and a CLSID entry in the registry. Because of the restrictions placed on OLE 1 CLSID values, <b>CLSIDFromProgID</b> and <a href="https://msdn.microsoft.com/en-us/library/ms680589(v=VS.85).aspx">CLSIDFromString</a> are the only two functions that can be used to generate a CLSID for an OLE 1 object.
+Given a ProgID, <b>CLSIDFromProgID</b> looks up its associated CLSID in the registry. If the ProgID cannot be found in the registry, <b>CLSIDFromProgID</b> creates an OLE 1 CLSID for the ProgID and a CLSID entry in the registry. Because of the restrictions placed on OLE 1 CLSID values, <b>CLSIDFromProgID</b> and <a href="https://msdn.microsoft.com/36cc9037-480f-491f-a9bb-5aa1e707781e">CLSIDFromString</a> are the only two functions that can be used to generate a CLSID for an OLE 1 object.
 
 
 
@@ -138,11 +138,11 @@ Given a ProgID, <b>CLSIDFromProgID</b> looks up its associated CLSID in the regi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680113(v=VS.85).aspx">CLSIDFromProgIDEx</a>
+<a href="https://msdn.microsoft.com/2f937ac1-b214-482a-af4b-8cc8c0c585c3">CLSIDFromProgIDEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690567(v=VS.85).aspx">ProgIDFromCLSID</a>
+<a href="https://msdn.microsoft.com/a863cbc2-f8ab-468a-8254-b273077a6a2b">ProgIDFromCLSID</a>
  
 
  

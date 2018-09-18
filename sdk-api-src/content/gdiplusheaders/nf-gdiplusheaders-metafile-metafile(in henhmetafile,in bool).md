@@ -2,21 +2,21 @@
 UID: NF:gdiplusheaders.Metafile.Metafile(IN HENHMETAFILE,IN BOOL)
 title: Metafile::Metafile(IN HENHMETAFILE,IN BOOL)
 author: windows-sdk-content
-description: This topic lists the constructors of the Metafile class. For a complete class listing, see Metafile Class.
-old-location: gdiplus\_gdiplus_CLASS_Metafile_Constructors.htm
+description: Creates a Windows GDI+ Metafile::Metafile object for playback based on a Windows Graphics Device Interface (GDI) Enhanced Metafile (EMF) file.
+old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_hEmf_deleteEmf_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_91hemf_deleteemf.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: Metafile, Metafile constructors [GDI+], Metafile.Metafile, Metafile.Metafile(IN HENHMETAFILE,IN BOOL), Metafile::Metafile, Metafile::Metafile(IN HENHMETAFILE,IN BOOL), _gdiplus_CLASS_Metafile_Constructors, gdiplus._gdiplus_CLASS_Metafile_Constructors, gdiplusheaders/Metafile
+ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(HENHMETAFILE,BOOL), Metafile.Metafile(IN HENHMETAFILE,IN BOOL), Metafile::Metafile, Metafile::Metafile(IN HENHMETAFILE,IN BOOL), _gdiplus_CLASS_Metafile_Metafile_hEmf_deleteEmf_, gdiplus._gdiplus_CLASS_Metafile_Metafile_hEmf_deleteEmf_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdiplusheaders.h
+ - Gdiplus.dll
 api_name:
  - Metafile.Metafile
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # Metafile::Metafile(IN HENHMETAFILE,IN BOOL)
@@ -50,131 +51,60 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the constructors of the 
-		<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a> class. For a complete class listing, see <b>Metafile Class</b>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535285(v=VS.85).aspx">Metafile(WCHAR*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535285(v=VS.85).aspx">Metafile::Metafile</a> object for playback.
+Creates a Windows GDI+ <b>Metafile::Metafile</b> object for playback based on a Windows Graphics Device Interface (GDI) Enhanced Metafile (EMF) file.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535294(v=VS.85).aspx">Metafile(IStream*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535294(v=VS.85).aspx">Metafile::Metafile</a> object from an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface for playback.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535295(v=VS.85).aspx">Metafile(HENHMETAFILE,BOOL)</a>
-</td>
-<td align="left" width="63%">
-Creates a GDI+ <a href="https://msdn.microsoft.com/en-us/library/ms535295(v=VS.85).aspx">Metafile::Metafile</a> object for playback based on a GDI Enhanced Metafile (EMF) file.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535284(v=VS.85).aspx">Metafile(HDC,EmfType,WCHAR*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535284(v=VS.85).aspx">Metafile::Metafile</a> object for recording.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535293(v=VS.85).aspx">Metafile(WCHAR*,HDC,EmfType,WCHAR*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535293(v=VS.85).aspx">Metafile::Metafile</a> object for recording.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535290(v=VS.85).aspx">Metafile(IStream*,HDC,EmfType,WCHAR*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535290(v=VS.85).aspx">Metafile::Metafile</a> object for recording to an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535287(v=VS.85).aspx">Metafile(HMETAFILE,WmfPlaceableFileHeader*,BOOL)</a>
-</td>
-<td align="left" width="63%">
-Creates a GDI+<a href="https://msdn.microsoft.com/en-us/library/ms535287(v=VS.85).aspx">Metafile::Metafile</a> object for recording. The format will be placeable metafile.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535296(v=VS.85).aspx">Metafile(HDC,Rect&,MetafileFrameUnit,EmfType,WCHAR*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535296(v=VS.85).aspx">Metafile::Metafile</a> object for recording.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535286(v=VS.85).aspx">Metafile(HDC,RectF&,MetaFileFrameUnit,EmfType,WCHAR*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535286(v=VS.85).aspx">Metafile::Metafile</a> object for recording.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535288(v=VS.85).aspx">Metafile(WCHAR*,HDC,Rect&,MetaFileFrameUnit,EmfType,WCHAR*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535288(v=VS.85).aspx">Metafile::Metafile</a> object for recording.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535292(v=VS.85).aspx">Metafile(WCHAR*,HDC,RectF&,MetafileFrameUnit,EmfType,WCHAR*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535292(v=VS.85).aspx">Metafile::Metafile</a> object for recording.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535291(v=VS.85).aspx">Metafile(IStream*,HDC,Rect&,MetafileFrameUnit,EmfType,WCHAR*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535291(v=VS.85).aspx">Metafile::Metafile</a> object for recording to an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535289(v=VS.85).aspx">Metafile(IStream*,HDC,RectF&,MetafileFrameUnit,EmfType,WCHAR*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535289(v=VS.85).aspx">Metafile::Metafile</a> object for recording to an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param hEmf [in]
+
+Type: <b>HENHMETAFILE</b>
+
+Windows handle to a metafile. 
+
+
+### -param deleteEmf [in]
+
+Type: <b>BOOL</b>
+
+Optional. Boolean value that specifies whether the Windows handle to a metafile is deleted when the <b>Metafile::Metafile</b> object is deleted. <b>TRUE</b> specifies that the <i>hEmf</i> Windows handle is deleted, and <b>FALSE</b> specifies that the <i>hEmf</i> Windows handle is not deleted. The default value is <b>FALSE</b>. 
+
+
+## -remarks
+
+
+
+This constructor allows GDI+ to own the windows handle to the metafile, which should not be used by other portions of your code until the <b>Metafile::Metafile</b> object is deleted or goes out of scope.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/79b8df1b-6fc5-455b-9d08-57d64bf6bffa">Loading and Displaying Metafiles</a>
+
+
+
+<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
+
+
+
+<a href="https://msdn.microsoft.com/538d8376-8922-41ba-abbc-0242474ec4fb">Metafile::GetHENHMETAFILE</a>
+
+
+
+<a href="https://msdn.microsoft.com/a9f9bac4-f3c7-44a1-9f0f-59ff1a27b077">Metafiles</a>
+
+
+
+<a href="https://msdn.microsoft.com/062de6c2-9f82-415d-860e-2d1afd2ac027">Recording Metafiles</a>
+ 
+
+ 
 

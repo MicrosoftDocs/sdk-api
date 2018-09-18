@@ -7,7 +7,7 @@ old-location: mf\imfsourceresolver_cancelobjectcreation.htm
 tech.root: medfound
 ms.assetid: 6a30ac92-a281-4293-8975-987fa25a5318
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: 6a30ac92-a281-4293-8975-987fa25a5318, CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],CancelObjectCreation method, IMFSourceResolver.CancelObjectCreation, IMFSourceResolver::CancelObjectCreation, mf.imfsourceresolver_cancelobjectcreation, mfidl/IMFSourceResolver::CancelObjectCreation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IShellItemArray_GetItemAt.htm
 tech.root: shell
 ms.assetid: 58307102-1ae3-4249-81e0-25c1166500d0
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetItemAt, GetItemAt method [Windows Shell], GetItemAt method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetItemAt method, IShellItemArray.GetItemAt, IShellItemArray::GetItemAt, _shell_IShellItemArray_GetItemAt, shell.IShellItemArray_GetItemAt, shobjidl_core/IShellItemArray::GetItemAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

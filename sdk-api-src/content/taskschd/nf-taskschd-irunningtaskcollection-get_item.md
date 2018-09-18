@@ -4,10 +4,10 @@ title: IRunningTaskCollection::get_Item
 author: windows-sdk-content
 description: Gets the specified task from the collection.
 old-location: taskschd\irunningtaskcollection_item.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: e82e7e1b-a3bd-4456-85a9-e0005f954618
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IRunningTaskCollection interface [Task Scheduler],Item property, IRunningTaskCollection.Item, IRunningTaskCollection.get_Item, IRunningTaskCollection::Item, IRunningTaskCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],IRunningTaskCollection interface, get_Item, taskschd.irunningtaskcollection_item, taskschd/IRunningTaskCollection::Item, taskschd/IRunningTaskCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

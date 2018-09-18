@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionRectangleClip.SetTopRightRadiusY(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetTopRightRadiusY(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes or animates the value of the TopRightRadiusY property of this clip. The TopRightRadiusY property specifies the y radius of the ellipse that rounds the top-right corner of the clip.
-old-location: directcomp\idcompositionrectangleclip_settoprightradiusy.htm
+description: Animates the value of the TopRightRadiusY property of this clip. The TopRightRadiusY property specifies the y radius of the ellipse that rounds the top-right corner of the clip.
+old-location: directcomp\idcompositionrectangleclip_settoprightradiusy_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: CB0C1B66-F1AB-4440-8898-77107C1A2C42
+ms.assetid: 933F9687-4EDE-4244-82E2-6DD312464AD7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: IDCompositionRectangleClip.SetTopRightRadiusY, IDCompositionRectangleClip.SetTopRightRadiusY(IDCompositionAnimation), IDCompositionRectangleClip::SetTopRightRadiusY, IDCompositionRectangleClip::SetTopRightRadiusY(IDCompositionAnimation), SetTopRightRadiusY, SetTopRightRadiusY methods [DirectComposition], dcomp/SetTopRightRadiusY, directcomp.idcompositionrectangleclip_settoprightradiusy
+ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTopRightRadiusY method, IDCompositionRectangleClip.SetTopRightRadiusY, IDCompositionRectangleClip.SetTopRightRadiusY(IDCompositionAnimation), IDCompositionRectangleClip::SetTopRightRadiusY, IDCompositionRectangleClip::SetTopRightRadiusY(IDCompositionAnimation), IDCompositionRectangleClip::SetTopRightRadiusY(IDCompositionAnimation*), SetTopRightRadiusY, SetTopRightRadiusY method [DirectComposition], SetTopRightRadiusY method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTopRightRadiusY, directcomp.idcompositionrectangleclip_settoprightradiusy_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -33,11 +33,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionRectangleClip::SetTopRightRadiusY
+ - IDCompositionRectangleClip.SetTopRightRadiusY
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -50,33 +50,44 @@ req.redist:
 ## -description
 
 
-<span>Changes or animates the value of the TopRightRadiusY property of this clip. The TopRightRadiusY property  specifies the y radius of the ellipse that rounds the top-right corner of the clip.
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EA0BF105-B0CE-4F4A-8E88-6E5519225730">SetTopRightRadiusY(float)</a>
-</td>
-<td align="left" width="63%">
-Changes the value of the TopRightRadiusY property of this clip.
+Animates the value of the TopRightRadiusY property of this clip. The TopRightRadiusY property  specifies the y radius of the ellipse that rounds the top-right corner of the clip.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/933F9687-4EDE-4244-82E2-6DD312464AD7">SetTopRightRadiusY(IDCompositionAnimation*)</a>
-</td>
-<td align="left" width="63%">
-Animates the value of the TopRightRadiusY property of this clip.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param animation [in]
+
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
+
+An animation object that determines how the value of the y radius changes over time. This parameter must not be NULL.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+
+
+
+
+## -remarks
+
+
+
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the y radius unless this method is called again. If the y radius was previously animated, calling this method replaces the previous animation with the new animation. 
+
+
+
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+
+
+
 
 
 ## -see-also

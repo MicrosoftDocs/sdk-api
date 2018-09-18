@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_setmuted.htm
 tech.root: medfound
 ms.assetid: 330CB3CF-F649-4964-A24D-3C16E778BFD7
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetMuted method, IMFMediaEngine.SetMuted, IMFMediaEngine::SetMuted, SetMuted, SetMuted method [Media Foundation], SetMuted method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setmuted, mfmediaengine/IMFMediaEngine::SetMuted
 ms.prod: windows-hardware
 ms.technology: windows-devices

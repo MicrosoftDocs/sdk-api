@@ -4,10 +4,10 @@ title: ITaskSettings::get_Compatibility
 author: windows-sdk-content
 description: Gets or sets an integer value that indicates which version of Task Scheduler a task is compatible with.
 old-location: taskschd\itasksettings_compatibility.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 04f77d3c-44fa-4091-b99e-af062f067ef9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: Compatibility property [Task Scheduler], Compatibility property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],Compatibility property, ITaskSettings.Compatibility, ITaskSettings.get_Compatibility, ITaskSettings::Compatibility, ITaskSettings::get_Compatibility, ITaskSettings::put_Compatibility, TASK_COMPATIBILITY_AT, TASK_COMPATIBILITY_V1, TASK_COMPATIBILITY_V2, get_Compatibility, taskschd.itasksettings_compatibility, taskschd/ITaskSettings::Compatibility, taskschd/ITaskSettings::get_Compatibility, taskschd/ITaskSettings::put_Compatibility
 ms.prod: windows-hardware
 ms.technology: windows-devices

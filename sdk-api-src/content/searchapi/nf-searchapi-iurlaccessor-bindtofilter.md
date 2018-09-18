@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_BindToFilter.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\bindtofilter.htm
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: BindToFilter, BindToFilter method [search], BindToFilter method [search],IUrlAccessor interface, IUrlAccessor interface [search],BindToFilter method, IUrlAccessor.BindToFilter, IUrlAccessor::BindToFilter, _search_IUrlAccessor_BindToFilter, search._search_IUrlAccessor_BindToFilter, searchapi/IUrlAccessor::BindToFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Binds the item being processed to the appropriate <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>and retrieves a pointer to the <b>IFilter</b>.
+Binds the item being processed to the appropriate <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>and retrieves a pointer to the <b>IFilter</b>.
         
 
 
@@ -63,7 +63,7 @@ Binds the item being processed to the appropriate <a href="https://msdn.microsof
 
 Type: <b>IFilter**</b>
 
-Receives the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> that can return metadata about the item being processed.
+Receives the address of a pointer to the <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a> that can return metadata about the item being processed.
                 
 
 
@@ -82,10 +82,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method retrieves an <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> to enumerate the properties of the item associated with the specified URL, based on the protocol's information about that URL.
+This method retrieves an <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a> to enumerate the properties of the item associated with the specified URL, based on the protocol's information about that URL.
             
 
-If the URL's content is also accessible from the <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> returned by <a href="https://msdn.microsoft.com/en-us/library/Bb231415(v=VS.85).aspx">IUrlAccessor::BindToStream</a>, then a separate <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>is invoked on the IStream to retrieve additional properties.
+If the URL's content is also accessible from the <a href="_stg_istream">IStream</a> returned by <a href="https://msdn.microsoft.com/02dc13c0-01a4-416d-ba14-c0390b4c4aae">IUrlAccessor::BindToStream</a>, then a separate <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>is invoked on the IStream to retrieve additional properties.
             
 
 

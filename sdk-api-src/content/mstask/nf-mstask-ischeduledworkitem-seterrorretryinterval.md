@@ -4,10 +4,10 @@ title: IScheduledWorkItem::SetErrorRetryInterval
 author: windows-sdk-content
 description: Sets the time interval, in minutes, between Task Scheduler's attempts to run a work item after an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_seterrorretryinterval.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: e5923d76-50d0-4d1c-9d80-0b7cbd8ee3d7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetErrorRetryInterval method, IScheduledWorkItem.SetErrorRetryInterval, IScheduledWorkItem::SetErrorRetryInterval, SetErrorRetryInterval, SetErrorRetryInterval method [Task Scheduler], SetErrorRetryInterval method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_seterrorretryinterval, mstask/IScheduledWorkItem::SetErrorRetryInterval, taskschd.ischeduledworkitem_seterrorretryinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Sets the time interval, in minutes, between Task Scheduler's attempts to run a <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a> after an error occurs. This method is not implemented.
+Sets the time interval, in minutes, between Task Scheduler's attempts to run a <a href="w.htm">work item</a> after an error occurs. This method is not implemented.
 
 
 ## -parameters

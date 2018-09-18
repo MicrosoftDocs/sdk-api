@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionVisual3.SetOpacity(IDCompositionAnimation)
 title: IDCompositionVisual3::SetOpacity(IDCompositionAnimation)
 author: windows-sdk-content
-description: Sets the value of the visual's opacity property.
-old-location: directcomp\idcompositionvisual3_setopacity.htm
+description: Animates the value of the visual's opacity property.
+old-location: directcomp\idcompositionvisual3_setopacity_2.htm
 tech.root: directcomp
-ms.assetid: 7641B989-6D0F-4648-8C29-FF3B331CDF97
+ms.assetid: 84A9E6FD-8C30-4BBE-BEDD-D4C24BC6752C
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetOpacity method, IDCompositionVisual3.SetOpacity, IDCompositionVisual3.SetOpacity(IDCompositionAnimation), IDCompositionVisual3::SetOpacity, IDCompositionVisual3::SetOpacity(IDCompositionAnimation), IDCompositionVisual3::SetOpacity(float), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetOpacity, directcomp.idcompositionvisual3_setopacity
+ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetOpacity method, IDCompositionVisual3.SetOpacity, IDCompositionVisual3.SetOpacity(IDCompositionAnimation), IDCompositionVisual3::SetOpacity, IDCompositionVisual3::SetOpacity(IDCompositionAnimation), IDCompositionVisual3::SetOpacity(IDCompositionAnimation*), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetOpacity, directcomp.idcompositionvisual3_setopacity_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the value of the visual's opacity property.
+Animates the value of the visual's opacity property.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Sets the value of the visual's opacity property.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - opacity
-
-Type: <b>float</b>
-
-The new value for the opacity property.
+The animation that will be used to control the value of the opacity property.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: base\powerremovepowersetting.htm
 tech.root: power
 ms.assetid: f78e3dfa-549c-4536-a486-cafc43717ee9
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerRemovePowerSetting, PowerRemovePowerSetting function, base.powerremovepowersetting, powrprof/PowerRemovePowerSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices

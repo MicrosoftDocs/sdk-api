@@ -7,7 +7,7 @@ old-location: shell\AssocIsDangerous.htm
 tech.root: shell
 ms.assetid: 4e0bc3ce-f9d2-4766-8b19-c0954d71e890
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: AssocIsDangerous, AssocIsDangerous function [Windows Shell], _shell_AssocIsDangerous, shell.AssocIsDangerous, shlwapi/AssocIsDangerous
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ Returns <b>TRUE</b> if the file type is considered dangerous; otherwise, <b>FALS
 
 
 
-Files that are determined to be potentially dangerous, such as .exe files, should be handled with more care than other files. For example, Windows Internet Explorer version 6.01 or later uses <b>AssocIsDangerous</b> to determine whether it should issue stronger warning language in its download dialog box. <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> uses <b>AssocIsDangerous</b> to trigger zone checking using the methods of the <a href="https://msdn.microsoft.com/library/ms537130(v=VS.85).aspx">IInternetSecurityManager</a> interface in conjunction with the <a href="https://msdn.microsoft.com/library/ms537178(v=VS.85).aspx">URLACTION_SHELL_SHELLEXECUTE</a> flag.
+Files that are determined to be potentially dangerous, such as .exe files, should be handled with more care than other files. For example, Windows Internet Explorer version 6.01 or later uses <b>AssocIsDangerous</b> to determine whether it should issue stronger warning language in its download dialog box. <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> uses <b>AssocIsDangerous</b> to trigger zone checking using the methods of the <a href="ie.IInternetSecurityManager_Interface">IInternetSecurityManager</a> interface in conjunction with the <a href="ie.URL_Action_Flags">URLACTION_SHELL_SHELLEXECUTE</a> flag.
 
 The determination of a file's potential risk is made by checking its type against several sources, including a list of known dangerous types and the presence of the FTA_AlwaysUnsafe flag in the registry. On systems running Windows XPService Pack 1 (SP1) or later or Windows Server 2003, it also uses the <a href="https://msdn.microsoft.com/f122ceaa-65bb-4cfe-a760-adf4f910c487">SaferiIsExecutableFileType</a> function to determine whether a file type is executable.
 

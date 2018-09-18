@@ -7,7 +7,7 @@ old-location: com\corevokemallocspy.htm
 tech.root: com
 ms.assetid: e1e984a2-2aee-452c-840c-42201ef5ee96
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: CoRevokeMallocSpy, CoRevokeMallocSpy function [COM], _com_CoRevokeMallocSpy, com.corevokemallocspy, objbase/CoRevokeMallocSpy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\coinitialize.htm
 tech.root: com
 ms.assetid: 0f171cf4-87b9-43a6-97f2-80ed344fe376
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: CoInitialize, CoInitialize function [COM], _com_CoInitialize, com.coinitialize, objbase/CoInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

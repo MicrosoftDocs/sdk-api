@@ -7,7 +7,7 @@ old-location: wsw\ws_default_value.htm
 tech.root: wsw
 ms.assetid: 496b9ea6-2979-4245-ad07-9c62c396ebde
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_DEFAULT_VALUE, WS_DEFAULT_VALUE structure [Web Services for Windows], _WS_DEFAULT_VALUE, webservices/WS_DEFAULT_VALUE, wsw.ws_default_value
 ms.prod: windows
 ms.technology: windows-sdk

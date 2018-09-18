@@ -7,7 +7,7 @@ old-location: rpc\rpcserverregisterif3.htm
 tech.root: rpc
 ms.assetid: D685B7A6-7E22-419F-B476-F0372836D16A
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: RpcServerRegisterIf3, RpcServerRegisterIf3 function [RPC], rpc.rpcserverregisterif3, rpcdce/RpcServerRegisterIf3
 ms.prod: windows-hardware
 ms.technology: windows-devices

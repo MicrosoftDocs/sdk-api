@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/1dfe894e-bc5f-4bfd-a4ba-71fb3e4c9728">XMSHORTN4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).asp
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a> structure to load. This parameter must point to cached
+Address of the <a href="https://msdn.microsoft.com/1dfe894e-bc5f-4bfd-a4ba-71fb3e4c9728">XMSHORTN4</a> structure to load. This parameter must point to cached
         memory.
 
 
@@ -79,19 +79,23 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 The following pseudocode demonstrates the operation of the function.
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR vectorOut;
 
-```
-XMVECTOR vectorOut;
+vectorOut.x = (float)pSource-&gt;x / 32767.0f;
+vectorOut.y = (float)pSource-&gt;y / 32767.0f;
+vectorOut.z = (float)pSource-&gt;z / 32767.0f;
+vectorOut.w = (float)pSource-&gt;w / 32767.0f;
 
-vectorOut.x = (float)pSource->x / 32767.0f;
-vectorOut.y = (float)pSource->y / 32767.0f;
-vectorOut.z = (float)pSource->z / 32767.0f;
-vectorOut.w = (float)pSource->w / 32767.0f;
-
-return vectorOut;
-```
-
-
+return vectorOut;</pre>
+</td>
+</tr>
+</table></span></div>
 Note that both -32767 and -32768 map to -1.f.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

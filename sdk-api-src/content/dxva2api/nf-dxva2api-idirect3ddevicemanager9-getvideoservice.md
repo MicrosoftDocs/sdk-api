@@ -7,7 +7,7 @@ old-location: mf\idirect3ddevicemanager9_getvideoservice.htm
 tech.root: medfound
 ms.assetid: 2e62a750-3017-4dd7-9fbc-e2c641f6cf10
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: 2e62a750-3017-4dd7-9fbc-e2c641f6cf10, GetVideoService, GetVideoService method [Media Foundation], GetVideoService method [Media Foundation],IDirect3DDeviceManager9 interface, IDirect3DDeviceManager9 interface [Media Foundation],GetVideoService method, IDirect3DDeviceManager9.GetVideoService, IDirect3DDeviceManager9::GetVideoService, dxva2api/IDirect3DDeviceManager9::GetVideoService, mf.idirect3ddevicemanager9_getvideoservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -172,9 +172,13 @@ If the method returns <b>DXVA2_E_NEW_VIDEO_DEVICE</b>, call <a href="https://msd
 
 #### Examples
 
-
-```cpp
-HRESULT GetVideoProcessorService(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT GetVideoProcessorService(
     IDirect3DDeviceManager9 *pDeviceManager,
     IDirectXVideoProcessorService **ppVPService
     )
@@ -183,17 +187,17 @@ HRESULT GetVideoProcessorService(
 
     HANDLE hDevice;
 
-    HRESULT hr = pDeviceManager->OpenDeviceHandle(&hDevice);
+    HRESULT hr = pDeviceManager-&gt;OpenDeviceHandle(&amp;hDevice);
     if (SUCCEEDED(hr))
     {
         // Get the video processor service 
-        HRESULT hr2 = pDeviceManager->GetVideoService(
+        HRESULT hr2 = pDeviceManager-&gt;GetVideoService(
             hDevice, 
             IID_PPV_ARGS(ppVPService)
             );
 
         // Close the device handle.
-        hr = pDeviceManager->CloseDeviceHandle(hDevice);
+        hr = pDeviceManager-&gt;CloseDeviceHandle(hDevice);
 
         if (FAILED(hr2))
         {
@@ -208,10 +212,10 @@ HRESULT GetVideoProcessorService(
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

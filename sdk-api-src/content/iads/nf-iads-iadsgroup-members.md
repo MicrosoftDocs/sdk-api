@@ -83,9 +83,13 @@ The <a href="https://msdn.microsoft.com/889e8fc1-61a6-4a3a-82ac-85d41f664149">IA
 
 The following code example enumerates all members of a group.
 
-
-```vb
-Dim grp As IADsGroup
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim grp As IADsGroup
 Dim memberList As IADsMembers
 Dim member As IADs
 
@@ -95,28 +99,32 @@ Set grp = GetObject("WinNT://Microsoft/Administrators")
 Set memberList = grp.Members
 For Each m In memberList
     Set member = m
-    Debug.Print member.Name & "(" & member.Class & ")"
+    Debug.Print member.Name &amp; "(" &amp; member.Class &amp; ")"
 Next
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set grp = Nothing
     Set member = Nothing
-    Set memberList = Nothing
-```
-
-
+    Set memberList = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example enumerates all members of a group.
 
-
-```cpp
-HRESULT EnumerateGroupMembers(IADsGroup *pGroup)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT EnumerateGroupMembers(IADsGroup *pGroup)
 {
     IADsMembers *pMembers;
     HRESULT hr = S_OK;
-    hr = pGroup->Members(&pMembers);
+    hr = pGroup-&gt;Members(&amp;pMembers);
     if(FAILED(hr)){goto Cleanup;}
  
     hr = EnumMembers(pMembers);  // For more information and a code
@@ -125,13 +133,13 @@ HRESULT EnumerateGroupMembers(IADsGroup *pGroup)
 
 Cleanup:
     if(pMembers)
-        pMembers->Release();
+        pMembers-&gt;Release();
 
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

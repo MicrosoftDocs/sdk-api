@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionVisual.SetOffsetY(IDCompositionAnimation)
 title: IDCompositionVisual::SetOffsetY(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the OffsetY property of this visual.
-old-location: directcomp\idcompositionvisual_setoffsety_float.htm
+description: Animates the value of the OffsetY property of this visual.
+old-location: directcomp\idcompositionvisual_setoffsety_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: 7FF2433A-1741-4177-85C8-F5AE0D920EB4
+ms.assetid: 48B42D13-B41A-484E-B65E-BB4D56A963DA
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: IDCompositionVisual interface [DirectComposition],SetOffsetY method, IDCompositionVisual.SetOffsetY, IDCompositionVisual.SetOffsetY(IDCompositionAnimation), IDCompositionVisual::SetOffsetY, IDCompositionVisual::SetOffsetY(IDCompositionAnimation), IDCompositionVisual::SetOffsetY(float), SetOffsetY, SetOffsetY method [DirectComposition], SetOffsetY method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetOffsetY, directcomp.idcompositionvisual_setoffsety_float
+ms.keywords: IDCompositionVisual interface [DirectComposition],SetOffsetY method, IDCompositionVisual.SetOffsetY, IDCompositionVisual.SetOffsetY(IDCompositionAnimation), IDCompositionVisual::SetOffsetY, IDCompositionVisual::SetOffsetY(IDCompositionAnimation), IDCompositionVisual::SetOffsetY(IDCompositionAnimation*), SetOffsetY, SetOffsetY method [DirectComposition], SetOffsetY method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetOffsetY, directcomp.idcompositionvisual_setoffsety_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the OffsetY property of this visual.  The OffsetY property specifies the new offset of the visual along the y-axis, relative to the parent visual.
+Animates the value of the OffsetY property of this visual.  The OffsetY property specifies the new offset of the visual along the y-axis, relative to the parent visual.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of the OffsetY property of this visual.  The OffsetY property 
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - offsetY [in]
-
-Type: <b>float</b>
-
-The new offset of the visual along the y-axis, in pixels.
+An animation object that determines how the value of the OffsetY property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -87,27 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>offsetY</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the animation object referenced by the <i>animation</i> parameter is changed after this call, the change does not affect the OffsetY property unless this method is called again. If the OffsetY property was previously animated, this method replaces that animation with the new animation.
+
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface that created this visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
-
-Changing the OffsetY property transforms the coordinate system of the entire visual subtree that is rooted at this visual. If the Clip property of this visual is specified, the clip rectangle is also transformed.
-
-
-
-A transformation that is specified by the Transform property is applied after the OffsetY property.  In other words, the effect of setting the Transform property and the OffsetY property is the same as setting only the Transform property on a transform group object where the first member of the group is an <a href="https://msdn.microsoft.com/2215721e-a10d-4c9e-b5b7-1698afa547d8">IDCompositionTranslateTransform</a> object that has the same OffsetY value as <i>offsetY</i>. However, you should use  <b>IDCompositionVisual::SetOffsetY</b> whenever possible because it is slightly faster.
-
-If the OffsetX and OffsetY properties are set to 0, and the Transform property is set to NULL, the coordinate system of the visual is the same as that of its parent.
-
-If the OffsetY property was previously animated, this method removes the animation and sets the property to the specified static value.
-
-
-
-#### Examples
-
-For an example, see <a href="https://msdn.microsoft.com/86006C3C-67A8-4931-BE76-D0CA9DB19505">How to Build a Simple Visual Tree</a>.
-
-<div class="code"></div>
 
 
 

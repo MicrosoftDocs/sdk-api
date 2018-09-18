@@ -7,7 +7,7 @@ old-location: shell\DAD_DragEnterEx2.htm
 tech.root: shell
 ms.assetid: d9d902c5-c488-4e23-a749-bae42c6cb719
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: DAD_DragEnterEx2, DAD_DragEnterEx2 function [Windows Shell], _shell_DAD_DragEnterEx2, shell.DAD_DragEnterEx2, shlobj_core/DAD_DragEnterEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[<b>DAD_DragEnterEx2</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/en-us/library/Bb761526(v=VS.85).aspx">ImageList_DragEnter</a> instead.]
+<p class="CCE_Message">[<b>DAD_DragEnterEx2</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/e12d7dc5-75a0-4537-bfb7-071ff8dfe7d5">ImageList_DragEnter</a> instead.]
 
 Locks updates to the specified window during a drag-and-drop operation and displays the drag image at the specified position within the window.
 
@@ -103,7 +103,7 @@ Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761526(v=VS.85).aspx">ImageList_DragEnter</a>
+<a href="https://msdn.microsoft.com/e12d7dc5-75a0-4537-bfb7-071ff8dfe7d5">ImageList_DragEnter</a>
  
 
  

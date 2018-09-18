@@ -7,7 +7,7 @@ old-location: ncd\iproviderproperties.htm
 tech.root: fundisc
 ms.assetid: d6d3d1d1-d2fb-409c-be37-3cd286e325a3
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IProviderProperties, IProviderProperties interface, IProviderProperties interface,described, functiondiscoveryprovider/IProviderProperties, ncd.iproviderproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,7 +126,7 @@ at the time the instance is created or when the client calls <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>
+<a href="shell_IPropertyStore_cpp">IPropertyStore</a>
  
 
  

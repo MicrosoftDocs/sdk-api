@@ -7,7 +7,7 @@ old-location: security\msv1_0_logon_submit_type.htm
 tech.root: secauthn
 ms.assetid: 03bf43f0-44f4-40c6-8d5d-381f36ebdd0e
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: "*PMSV1_0_LOGON_SUBMIT_TYPE, MSV1_0_LOGON_SUBMIT_TYPE, MSV1_0_LOGON_SUBMIT_TYPE enumeration [Security], MsV1_0InteractiveLogon, MsV1_0Lm20Logon, MsV1_0NetworkLogon, MsV1_0NoElevationLogon, MsV1_0S4ULogon, MsV1_0SubAuthLogon, MsV1_0VirtualLogon, MsV1_0WorkstationUnlockLogon, PMSV1_0_LOGON_SUBMIT_TYPE, PMSV1_0_LOGON_SUBMIT_TYPE enumeration pointer [Security], _MSV1_0_LOGON_SUBMIT_TYPE, _lsa_msv1_0_logon_submit_type, ntsecapi/MSV1_0_LOGON_SUBMIT_TYPE, ntsecapi/MsV1_0InteractiveLogon, ntsecapi/MsV1_0Lm20Logon, ntsecapi/MsV1_0NetworkLogon, ntsecapi/MsV1_0NoElevationLogon, ntsecapi/MsV1_0S4ULogon, ntsecapi/MsV1_0SubAuthLogon, ntsecapi/MsV1_0VirtualLogon, ntsecapi/MsV1_0WorkstationUnlockLogon, ntsecapi/PMSV1_0_LOGON_SUBMIT_TYPE, security.msv1_0_logon_submit_type"
 ms.prod: windows
 ms.technology: windows-sdk

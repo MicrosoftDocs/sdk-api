@@ -7,7 +7,7 @@ old-location: search\_search_ISearchPersistentItemsChangedSink_OnItemsChanged.ht
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\onitemschanged.htm
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: ISearchPersistentItemsChangedSink interface [search],OnItemsChanged method, ISearchPersistentItemsChangedSink.OnItemsChanged, ISearchPersistentItemsChangedSink::OnItemsChanged, OnItemsChanged, OnItemsChanged method [search], OnItemsChanged method [search],ISearchPersistentItemsChangedSink interface, _search_ISearchPersistentItemsChangedSink_OnItemsChanged, search._search_ISearchPersistentItemsChangedSink_OnItemsChanged, searchapi/ISearchPersistentItemsChangedSink::OnItemsChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,9 +69,9 @@ The number of changes being reported.
 
 ### -param DataChangeEntries [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965373(v=VS.85).aspx">SEARCH_ITEM_PERSISTENT_CHANGE</a>[]</b>
+Type: <b><a href="https://msdn.microsoft.com/33b131fb-3565-4625-a6a9-6c7b4aef6860">SEARCH_ITEM_PERSISTENT_CHANGE</a>[]</b>
 
-An array of structures of type <a href="https://msdn.microsoft.com/en-us/library/Aa965373(v=VS.85).aspx">SEARCH_ITEM_PERSISTENT_CHANGE</a> identifying the details for each change.
+An array of structures of type <a href="https://msdn.microsoft.com/33b131fb-3565-4625-a6a9-6c7b4aef6860">SEARCH_ITEM_PERSISTENT_CHANGE</a> identifying the details for each change.
                 
 
 

@@ -3,12 +3,12 @@ UID: NF:d2d1_1.ID2D1Properties.GetValue(UINT32,D2D1_PROPERTY_TYPE,BYTE,UINT32)
 title: ID2D1Properties::GetValue(UINT32,D2D1_PROPERTY_TYPE,BYTE,UINT32)
 author: windows-sdk-content
 description: Gets the value of the specified property by index.
-old-location: direct2d\id2d1properties_getvalue.htm
+old-location: direct2d\id2d1properties_getvalue2.htm
 tech.root: Direct2D
-ms.assetid: 01678e13-df23-47bb-9af7-9f2ecaf03577
+ms.assetid: 2CBDFBC9-7C31-4D4C-8F70-8CB59B33D896
 ms.author: windowssdkdev
 ms.date: 08/30/2018
-ms.keywords: GetValue, GetValue method [Direct2D], GetValue method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValue method, ID2D1Properties.GetValue, ID2D1Properties.GetValue(UINT32,D2D1_PROPERTY_TYPE,BYTE,UINT32), ID2D1Properties::GetValue, ID2D1Properties::GetValue(UINT32,BYTE*,UINT32), ID2D1Properties::GetValue(UINT32,D2D1_PROPERTY_TYPE,BYTE,UINT32), d2d1_1/ID2D1Properties::GetValue, direct2d.id2d1properties_getvalue
+ms.keywords: GetValue, GetValue method [Direct2D], GetValue method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValue method, ID2D1Properties.GetValue, ID2D1Properties.GetValue(UINT32,D2D1_PROPERTY_TYPE,BYTE,UINT32), ID2D1Properties::GetValue, ID2D1Properties::GetValue(UINT32,D2D1_PROPERTY_TYPE,BYTE*,UINT32), ID2D1Properties::GetValue(UINT32,D2D1_PROPERTY_TYPE,BYTE,UINT32), d2d1_1/ID2D1Properties::GetValue, direct2d.id2d1properties_getvalue2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,17 +67,19 @@ The index of the property from which the data is to be obtained.
 
 ### -param type
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/6535d71a-c76c-462c-9972-4db7e4ef383d">D2D1_PROPERTY_TYPE</a></b>
+
+A <a href="https://msdn.microsoft.com/6535d71a-c76c-462c-9972-4db7e4ef383d">D2D1_PROPERTY_TYPE</a>-typed value that specifies the type of property to get.
 
 
-#### - data [out]
+### -param data [out]
 
 Type: <b>BYTE*</b>
 
 When this method returns, contains a pointer to the data requested.
 
 
-#### - dataSize
+### -param dataSize
 
 Type: <b>UINT32</b>
 

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Synchronizes the <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">Cluster Database</a> with a cluster.
+Synchronizes the <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">Cluster Database</a> with a cluster.
 
 
 ## -parameters
@@ -82,7 +82,7 @@ If the operation succeeds, returns <b>ERROR_SUCCESS</b> (0); otherwise, returns 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369128(v=VS.85).aspx">Cluster Registry Access Functions</a>
+<a href="https://msdn.microsoft.com/2bb0650f-ef9c-40bb-ae90-229bfa23838e">Cluster Registry Access Functions</a>
  
 
  

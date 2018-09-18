@@ -7,7 +7,7 @@ old-location: base\getpwrcapabilities.htm
 tech.root: power
 ms.assetid: bb5cec5f-8d45-4158-824a-023f92af9b69
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetPwrCapabilities, GetPwrCapabilities function, _win32_getpwrcapabilities, base.getpwrcapabilities, powerbase/GetPwrCapabilities, powrprof/GetPwrCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

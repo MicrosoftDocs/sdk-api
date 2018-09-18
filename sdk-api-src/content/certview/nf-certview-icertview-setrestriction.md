@@ -226,7 +226,7 @@ Specifies the data query qualifier applied to this column. This parameter, along
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -236,18 +236,22 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385414(v=VS.85).aspx">ICertView</a> object maintains an array of restrictions, allowing each column to contain any number of restrictions. After the column restrictions are established, a call to the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385435(v=VS.85).aspx">ICertView::OpenView</a> method will retrieve the data, with each column's restrictions used as part of the database query.
+<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a> object maintains an array of restrictions, allowing each column to contain any number of restrictions. After the column restrictions are established, a call to the 
+<a href="https://msdn.microsoft.com/d68a5463-f711-4737-b0ad-889f7e4855d5">ICertView::OpenView</a> method will retrieve the data, with each column's restrictions used as part of the database query.
 
 Before the <b>SetRestriction</b> method is called, it is necessary to establish a connection with the Certificate Service server by calling the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385432(v=VS.85).aspx">ICertView::OpenConnection</a> method.
+<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">ICertView::OpenConnection</a> method.
 
 
 #### Examples
 
-
-```cpp
-    // This example restricts the data
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    // This example restricts the data
     // to rows that have RequestIDs greater than five.
     // pCertView is a pointer to ICertView.
     HRESULT    hr;
@@ -256,7 +260,7 @@ Before the <b>SetRestriction</b> method is called, it is necessary to establish 
     BSTR       bstrCol = NULL;
 
     // Use one column in the result set.
-    hr = pCertView->SetResultColumnCount(1);
+    hr = pCertView-&gt;SetResultColumnCount(1);
     if (FAILED(hr))
     {
         printf("Failed SetResultColumnCount - %x\n", hr);
@@ -264,23 +268,23 @@ Before the <b>SetRestriction</b> method is called, it is necessary to establish 
     }
     // Determine the column index for RequestID column.
     bstrCol = SysAllocString(TEXT("RequestID"));
-    hr = pCertView->GetColumnIndex(FALSE, bstrCol, &nIndex);
+    hr = pCertView-&gt;GetColumnIndex(FALSE, bstrCol, &amp;nIndex);
     if (FAILED(hr))
     {
         printf("Failed GetColumnIndex - %x\n", hr);
         goto error;
     }
     // Place this column into the result set.
-    pCertView->SetResultColumn(nIndex);
+    pCertView-&gt;SetResultColumn(nIndex);
     // Set a restriction on this column.
-    VariantInit(&varRest);
+    VariantInit(&amp;varRest);
     varRest.vt = VT_I4;
     varRest.lVal = 5;
     // Restrict view to requests with ID greater than 5.
-    hr = pCertView->SetRestriction(nIndex,
+    hr = pCertView-&gt;SetRestriction(nIndex,
                                    CVR_SEEK_GT,
                                    CVR_SORT_NONE,
-                                   &varRest);
+                                   &amp;varRest);
     if (S_OK != hr)
         printf("Failed ICertView::SetRestriction - %x\n", hr);
     else
@@ -290,12 +294,12 @@ Before the <b>SetRestriction</b> method is called, it is necessary to establish 
 	}
 error:
     // Done processing, clear resources.
-    VariantClear(&varRest);
+    VariantClear(&amp;varRest);
     if (NULL != bstrCol)
-        SysFreeString(bstrCol);
-```
-
-
+        SysFreeString(bstrCol);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -304,27 +308,27 @@ error:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385414(v=VS.85).aspx">ICertView</a>
+<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385417(v=VS.85).aspx">ICertView2</a>
+<a href="https://msdn.microsoft.com/c29f1db3-0cdf-463e-a202-47fbba8e1c81">ICertView2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385432(v=VS.85).aspx">ICertView::OpenConnection</a>
+<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">ICertView::OpenConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385435(v=VS.85).aspx">ICertView::OpenView</a>
+<a href="https://msdn.microsoft.com/d68a5463-f711-4737-b0ad-889f7e4855d5">ICertView::OpenView</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385442(v=VS.85).aspx">ICertView::SetResultColumn</a>
+<a href="https://msdn.microsoft.com/c13bdc3a-e623-49df-bba0-34c4c178dc3b">ICertView::SetResultColumn</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386193(v=VS.85).aspx">IEnumCertViewColumn::IsIndexed</a>
+<a href="https://msdn.microsoft.com/7373c0c3-3a1d-4a32-90e6-0f0575a0b61b">IEnumCertViewColumn::IsIndexed</a>
  
 
  

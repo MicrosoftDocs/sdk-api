@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UIAutomationPropertyInfoStruct.htm
 tech.root: WinAuto
 ms.assetid: ea5b4cbe-5a39-407c-9c61-8e9ac4f3398f
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: UIAutomationPropertyInfo, UIAutomationPropertyInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationPropertyInfoStruct, uiauto_UIAutomationPropertyInfoStruct, uiautomationcore/UIAutomationPropertyInfo, winauto.uiauto_UIAutomationPropertyInfoStruct
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,12 +87,12 @@ A custom property must have one of the following data types specified by the <a 
 
 
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Bool</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Double</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Element</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Int</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Point</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_String</a></li>
+<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Bool</a></li>
+<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Double</a></li>
+<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Element</a></li>
+<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Int</a></li>
+<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Point</a></li>
+<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_String</a></li>
 </ul>
 
 

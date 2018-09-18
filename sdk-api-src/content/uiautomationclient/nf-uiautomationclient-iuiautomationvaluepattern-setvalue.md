@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationValuePattern_SetValue.htm
 tech.root: WinAuto
 ms.assetid: 9b4caa59-bda4-4cc6-b2d8-ff47ea292746
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IUIAutomationValuePattern interface [Windows Accessibility],SetValue method, IUIAutomationValuePattern.SetValue, IUIAutomationValuePattern::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IUIAutomationValuePattern interface, uiauto.uiauto_IUIAutomationValuePattern_SetValue, uiauto_IUIAutomationValuePattern_SetValue, uiautomationclient/IUIAutomationValuePattern::SetValue, winauto.uiauto_IUIAutomationValuePattern_SetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

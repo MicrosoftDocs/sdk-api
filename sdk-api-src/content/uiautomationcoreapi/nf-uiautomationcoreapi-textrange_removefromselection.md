@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_RemoveFromSelectionConPat.htm
 tech.root: WinAuto
 ms.assetid: c8de1889-82e8-4147-9c71-f77bf05c72a0
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: TextRange_RemoveFromSelection, TextRange_RemoveFromSelection function [Windows Accessibility], uiauto.uiauto_TextRange_RemoveFromSelectionConPat, uiauto_TextRange_RemoveFromSelectionConPat, uiautomationcoreapi/TextRange_RemoveFromSelection, winauto.uiauto_TextRange_RemoveFromSelectionConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

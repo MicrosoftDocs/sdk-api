@@ -7,7 +7,7 @@ old-location: wsw\ws_struct_options.htm
 tech.root: wsw
 ms.assetid: 0730f29d-15c5-467b-bb7e-32fde044802d
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_STRUCT_ABSTRACT, WS_STRUCT_IGNORE_TRAILING_ELEMENT_CONTENT, WS_STRUCT_IGNORE_UNHANDLED_ATTRIBUTES, WS_STRUCT_OPTIONS, WS_STRUCT_OPTIONS enumeration [Web Services for Windows], __unnamed_enum_9, webservices/WS_STRUCT_ABSTRACT, webservices/WS_STRUCT_IGNORE_TRAILING_ELEMENT_CONTENT, webservices/WS_STRUCT_IGNORE_UNHANDLED_ATTRIBUTES, webservices/WS_STRUCT_OPTIONS, wsw.ws_struct_options
 ms.prod: windows
 ms.technology: windows-sdk

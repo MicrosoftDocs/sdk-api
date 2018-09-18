@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_reader_stream_input.htm
 tech.root: wsw
 ms.assetid: 53537eb2-6b8d-443e-9453-4b39dfef1dd7
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_XML_READER_STREAM_INPUT, WS_XML_READER_STREAM_INPUT structure [Web Services for Windows], _WS_XML_READER_STREAM_INPUT, webservices/WS_XML_READER_STREAM_INPUT, wsw.ws_xml_reader_stream_input
 ms.prod: windows
 ms.technology: windows-sdk

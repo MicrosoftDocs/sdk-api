@@ -107,15 +107,19 @@ If the function fails, the return value is zero.
 
 The window extents are modified as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     xNewWE = (xOldWE * Xnum) / Xdenom 
     yNewWE = (yOldWE * Ynum) / Ydenom 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

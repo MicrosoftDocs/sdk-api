@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_filter_range.htm
 tech.root: medfound
 ms.assetid: 22B11763-717A-49D7-8F5B-2FD21C13F11E
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_FILTER_RANGE, D3D11_VIDEO_PROCESSOR_FILTER_RANGE structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_FILTER_RANGE, mf.d3d11_video_processor_filter_range
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,11 +111,11 @@ The device should use  a multiplier that can be represented exactly as a base-2 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447805(v=VS.85).aspx">ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange</a>
+<a href="https://msdn.microsoft.com/F43A01D7-A0FE-4509-B3B2-094B09A7F04A">ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange</a>
  
 
  

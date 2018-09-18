@@ -4,10 +4,10 @@ title: ILogonTrigger
 author: windows-sdk-content
 description: Represents a trigger that starts a task when a user logs on.
 old-location: taskschd\ilogontrigger.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: c0206a18-53f2-4def-8f54-2b175a0579f4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: ILogonTrigger, ILogonTrigger interface [Task Scheduler], ILogonTrigger interface [Task Scheduler],described, logon trigger [Task Scheduler],interface, taskschd.ilogontrigger, taskschd/ILogonTrigger
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ For more information and example code for this interface, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

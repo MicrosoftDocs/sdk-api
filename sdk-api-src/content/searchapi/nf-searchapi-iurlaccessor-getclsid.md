@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetCLSID.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getclsid.htm
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetCLSID, GetCLSID method [search], GetCLSID method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetCLSID method, IUrlAccessor.GetCLSID, IUrlAccessor::GetCLSID, _search_IUrlAccessor_GetCLSID, search._search_IUrlAccessor_GetCLSID, searchapi/IUrlAccessor::GetCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/en-us/library/ms688628(v=VS.85).aspx">CLSID</a> for the document type of the URL item being processed.
+Gets the <a href="_com_CLSID_Key">CLSID</a> for the document type of the URL item being processed.
         
 
 
@@ -63,7 +63,7 @@ Gets the <a href="https://msdn.microsoft.com/en-us/library/ms688628(v=VS.85).asp
 
 Type: <b>CLSID*</b>
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms688628(v=VS.85).aspx">CLSID</a> for the document type of the URL item being processed. 
+Receives a pointer to the <a href="_com_CLSID_Key">CLSID</a> for the document type of the URL item being processed. 
                 
 
 

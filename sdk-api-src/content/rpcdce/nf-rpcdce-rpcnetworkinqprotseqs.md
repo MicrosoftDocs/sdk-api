@@ -7,7 +7,7 @@ old-location: rpc\rpcnetworkinqprotseqs.htm
 tech.root: rpc
 ms.assetid: 7390e30a-9e29-417e-8d21-a045f1888036
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: RpcNetworkInqProtseqs, RpcNetworkInqProtseqs function [RPC], RpcNetworkInqProtseqsA, RpcNetworkInqProtseqsW, _rpc_rpcnetworkinqprotseqs, rpc.rpcnetworkinqprotseqs, rpcdce/RpcNetworkInqProtseqs, rpcdce/RpcNetworkInqProtseqsA, rpcdce/RpcNetworkInqProtseqsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

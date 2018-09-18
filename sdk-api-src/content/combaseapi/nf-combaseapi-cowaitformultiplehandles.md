@@ -7,7 +7,7 @@ old-location: com\cowaitformultiplehandles.htm
 tech.root: com
 ms.assetid: 3eeecd34-aa94-4a48-8b41-167a71b52860
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: CoWaitForMultipleHandles, CoWaitForMultipleHandles function [COM], _com_CoWaitForMultipleHandles, com.cowaitformultiplehandles, combaseapi/CoWaitForMultipleHandles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Waits for specified handles to be signaled or for a specified timeout period to 
 
 ### -param dwFlags [in]
 
-The wait options. Possible values are taken from the <a href="https://msdn.microsoft.com/en-us/library/ms693767(v=VS.85).aspx">COWAIT_FLAGS</a> enumeration. 
+The wait options. Possible values are taken from the <a href="https://msdn.microsoft.com/e6f8300c-f74b-4383-8ee5-519a0ed0b358">COWAIT_FLAGS</a> enumeration. 
 
 
 ### -param dwTimeout [in]
@@ -89,9 +89,9 @@ A pointer to a variable that, when the returned status is S_OK, receives a value
 
 If <i>pHandles</i> includes one or more handles to mutex objects, a value between WAIT_ABANDONED_0 and (WAIT_ABANDONED_0 + nCountâ€“ 1) indicates the index into <i>pHandles</i> for the mutex that was abandoned.
 
-If the <a href="https://msdn.microsoft.com/en-us/library/ms693767(v=VS.85).aspx">COWAIT_ALERTABLE</a> flag is set in <i>dwFlags</i>, a value of WAIT_IO_COMPLETION indicates the wait was ended by one or more user-mode asynchronous procedure calls (APC) queued to the thread.
+If the <a href="https://msdn.microsoft.com/e6f8300c-f74b-4383-8ee5-519a0ed0b358">COWAIT_ALERTABLE</a> flag is set in <i>dwFlags</i>, a value of WAIT_IO_COMPLETION indicates the wait was ended by one or more user-mode asynchronous procedure calls (APC) queued to the thread.
 
-See <a href="https://msdn.microsoft.com/en-us/library/ms687028(v=VS.85).aspx">WaitForMultipleObjectsEx</a> for more information.
+See <a href="https://msdn.microsoft.com/47a167fb-4714-4353-b924-a161f367673c">WaitForMultipleObjectsEx</a> for more information.
 
 
 ## -returns
@@ -100,7 +100,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/ms687028(v=VS.85).aspx">Wa
 
 This function can return the following values.
 
-<div class="alert"><b>Note</b>  The return value of <b>CoWaitForMultipleHandles</b> can be nondeterministic if the <a href="https://msdn.microsoft.com/en-us/library/ms693767(v=VS.85).aspx">COWAIT_ALERTABLE</a> flag is set in <i>dwFlags</i>, or if <i>pHandles</i> includes one or more handles to mutex objects. The recommended workaround is to call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError(ERROR_SUCCESS)</a> before <b>CoWaitForMultipleHandles</b>.</div>
+<div class="alert"><b>Note</b>  The return value of <b>CoWaitForMultipleHandles</b> can be nondeterministic if the <a href="https://msdn.microsoft.com/e6f8300c-f74b-4383-8ee5-519a0ed0b358">COWAIT_ALERTABLE</a> flag is set in <i>dwFlags</i>, or if <i>pHandles</i> includes one or more handles to mutex objects. The recommended workaround is to call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError(ERROR_SUCCESS)</a> before <b>CoWaitForMultipleHandles</b>.</div>
 <div> </div>
 <table>
 <tr>
@@ -125,7 +125,7 @@ The required handle or handles were signaled.
 </dl>
 </td>
 <td width="60%">
-<i>pHandles</i> was <b>NULL</b>, <i>lpdwindex</i> was <b>NULL</b>, or <i>dwFlags</i> was not a value from the <a href="https://msdn.microsoft.com/en-us/library/ms693767(v=VS.85).aspx">COWAIT_FLAGS</a> enumeration.
+<i>pHandles</i> was <b>NULL</b>, <i>lpdwindex</i> was <b>NULL</b>, or <i>dwFlags</i> was not a value from the <a href="https://msdn.microsoft.com/e6f8300c-f74b-4383-8ee5-519a0ed0b358">COWAIT_FLAGS</a> enumeration.
 
 </td>
 </tr>
@@ -167,12 +167,12 @@ Depending on which flags are set in the dwFlags parameter, <b>CoWaitForMultipleH
 
 <ul>
 <li>One or all of the handles is signaled. In the case of mutex objects, this condition is also satisfied by a mutex being abandoned.</li>
-<li>An asynchronous procedure call (APC) has been queued to the calling thread with a call to the <a href="https://msdn.microsoft.com/en-us/library/ms684954(v=VS.85).aspx">QueueUserAPC</a> function.</li>
+<li>An asynchronous procedure call (APC) has been queued to the calling thread with a call to the <a href="https://msdn.microsoft.com/5b141372-7c95-4eb2-987b-64fdf7d0783d">QueueUserAPC</a> function.</li>
 <li>The timeout period expires.</li>
 </ul>
 If the caller resides in a single-thread apartment, <b>CoWaitForMultipleHandles</b> enters the COM modal loop, and the thread's message loop will continue to dispatch messages using the thread's message filter. If no message filter is registered for the thread, the default COM message processing is used.
 
-If the calling thread resides in a multithread apartment (MTA), <b>CoWaitForMultipleHandles</b> calls the  <a href="https://msdn.microsoft.com/en-us/library/ms687028(v=VS.85).aspx">WaitForMultipleObjectsEx</a> function.
+If the calling thread resides in a multithread apartment (MTA), <b>CoWaitForMultipleHandles</b> calls the  <a href="https://msdn.microsoft.com/47a167fb-4714-4353-b924-a161f367673c">WaitForMultipleObjectsEx</a> function.
 
 
 
@@ -182,7 +182,7 @@ If the calling thread resides in a multithread apartment (MTA), <b>CoWaitForMult
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693767(v=VS.85).aspx">COWAIT_FLAGS</a>
+<a href="https://msdn.microsoft.com/e6f8300c-f74b-4383-8ee5-519a0ed0b358">COWAIT_FLAGS</a>
  
 
  

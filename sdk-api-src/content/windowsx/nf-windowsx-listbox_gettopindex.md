@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the index of the first visible item in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761317(v=VS.85).aspx">LB_GETTOPINDEX</a> message explicitly.
+Gets the index of the first visible item in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/c051cb34-c358-4696-80b0-28c627a0a862">LB_GETTOPINDEX</a> message explicitly.
 
 
 ## -parameters

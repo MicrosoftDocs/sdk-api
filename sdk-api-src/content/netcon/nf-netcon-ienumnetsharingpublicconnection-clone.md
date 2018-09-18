@@ -4,10 +4,10 @@ title: IEnumNetSharingPublicConnection::Clone
 author: windows-sdk-content
 description: The Clone method creates a new enumeration interface from this enumeration.
 old-location: ics\ienumnetsharingpublicconnection_clone.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 5343acd3-d148-442c-a1d7-226248556f17
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingPublicConnection interface, IEnumNetSharingPublicConnection interface [ICS/ICF],Clone method, IEnumNetSharingPublicConnection.Clone, IEnumNetSharingPublicConnection::Clone, _ics_ienumnetsharingpublicconnection_clone, ics.ienumnetsharingpublicconnection_clone, netcon/IEnumNetSharingPublicConnection::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

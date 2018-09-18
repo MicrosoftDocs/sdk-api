@@ -254,9 +254,13 @@ The following function calls <b>WinBioCaptureSample</b> to capture a biometric s
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT CaptureSample()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CaptureSample()
 {
     HRESULT hr = S_OK;
     WINBIO_SESSION_HANDLE sessionHandle = NULL;
@@ -273,7 +277,7 @@ HRESULT CaptureSample()
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             WINBIO_DB_DEFAULT,          // Default database
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -287,10 +291,10 @@ HRESULT CaptureSample()
             sessionHandle,
             WINBIO_NO_PURPOSE_AVAILABLE,
             WINBIO_DATA_FLAG_RAW,
-            &unitId,
-            &sample,
-            &sampleSize,
-            &rejectDetail
+            &amp;unitId,
+            &amp;sample,
+            &amp;sampleSize,
+            &amp;rejectDetail
             );
     if (FAILED(hr))
     {
@@ -328,10 +332,10 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

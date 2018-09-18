@@ -2,13 +2,13 @@
 UID: NF:instance.CInstance.SetWBEMINT64(LPCWSTR,const ULONGLONG)
 title: CInstance::SetWBEMINT64(LPCWSTR,const ULONGLONG)
 author: windows-sdk-content
-description: The SetWBEMINT64(LPCWSTR, const LONGLONG&) method sets a 64-bit integer value.
-old-location: wmi\cinstance_setwbemint64_lpcwstr__const_longlong_.htm
+description: The SetWBEMINT64(LPCWSTR, const ULONGLONG&) method sets a 64-bit integer property.
+old-location: wmi\cinstance_setwbemint64_lpcwstr__const_ulonglong_.htm
 tech.root: WmiSdk
-ms.assetid: dd06ecb9-0a7f-4487-8143-80418d28f3bb
+ms.assetid: f6d247b0-fe65-4fee-b887-6aae1944e936
 ms.author: windowssdkdev
 ms.date: 08/30/2018
-ms.keywords: CInstance interface [Windows Management Instrumentation],SetWBEMINT64 method, CInstance.SetWBEMINT64, CInstance.SetWBEMINT64(LPCWSTR,const ULONGLONG), CInstance::SetWBEMINT64, CInstance::SetWBEMINT64(LPCWSTR,const LONGLONG&), CInstance::SetWBEMINT64(LPCWSTR,const ULONGLONG), SetWBEMINT64, SetWBEMINT64 method [Windows Management Instrumentation], SetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetWBEMINT64, wmi.cinstance_setwbemint64_lpcwstr__const_longlong_
+ms.keywords: CInstance interface [Windows Management Instrumentation],SetWBEMINT64 method, CInstance.SetWBEMINT64, CInstance.SetWBEMINT64(LPCWSTR,const ULONGLONG), CInstance::SetWBEMINT64, CInstance::SetWBEMINT64(LPCWSTR,const ULONGLONG&), CInstance::SetWBEMINT64(LPCWSTR,const ULONGLONG), SetWBEMINT64, SetWBEMINT64 method [Windows Management Instrumentation], SetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetWBEMINT64, wmi.cinstance_setwbemint64_lpcwstr__const_ulonglong_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -57,7 +57,7 @@ req.redist:
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-The <b>SetWBEMINT64(LPCWSTR, const LONGLONG&amp;)</b> method sets a 64-bit integer value.
+The <b>SetWBEMINT64(LPCWSTR, const ULONGLONG&amp;)</b> method sets a 64-bit integer property.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ Returns <b>TRUE</b> if the operation is successful and <b>FALSE</b> if an attemp
 
 
 
-The provider framework currently uses a CHString type to set the 64-bit integer  rather than a WBEMINT64 type.
+The provider framework currently uses a CHString type to set the 64-bit integer rather than a WBEMINT64 type.
 
 
 

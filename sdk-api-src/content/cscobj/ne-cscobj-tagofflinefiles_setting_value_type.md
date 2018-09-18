@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifies the data type returned by the <a href="https://msdn.microsoft.com/en-us/library/Bb530609(v=VS.85).aspx">IOfflineFilesSetting::GetValueType</a> method.
+Identifies the data type returned by the <a href="https://msdn.microsoft.com/2b5567bf-a7c6-40b3-ac16-9da805ddb3b3">IOfflineFilesSetting::GetValueType</a> method.
 
 
 ## -enum-fields
@@ -88,7 +88,7 @@ A 2-dimensional array.  Each row is a <i>name,value</i> pair. Used to represent 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530609(v=VS.85).aspx">IOfflineFilesSetting::GetValueType</a>
+<a href="https://msdn.microsoft.com/2b5567bf-a7c6-40b3-ac16-9da805ddb3b3">IOfflineFilesSetting::GetValueType</a>
  
 
  

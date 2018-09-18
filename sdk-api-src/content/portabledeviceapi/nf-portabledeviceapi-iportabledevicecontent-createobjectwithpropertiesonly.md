@@ -122,7 +122,7 @@ Some objects are only a collection of properties—such as a folder, which is on
 This method is synchronous; when it returns, the new object should be present on the device.
       
 
-The object that the driver actually creates might be a properties-and-data object, depending on what type of object is most convenient for the driver. To check what kind of object the driver has created, request the <a href="https://msdn.microsoft.com/en-us/library/Dd375704(v=VS.85).aspx">WPD_OBJECT_FORMAT</a> property of the new object.
+The object that the driver actually creates might be a properties-and-data object, depending on what type of object is most convenient for the driver. To check what kind of object the driver has created, request the <a href="object_properties.htm">WPD_OBJECT_FORMAT</a> property of the new object.
       
 
 The object will be created on the device when this method returns.
@@ -142,7 +142,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
 
 
 

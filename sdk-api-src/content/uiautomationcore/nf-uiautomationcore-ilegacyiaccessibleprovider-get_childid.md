@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ILegacyIAccessibleProvider_ChildId.htm
 tech.root: WinAuto
 ms.assetid: 7dc1e5e8-050b-4a64-9a8e-cb0186878147
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: ChildId property [Windows Accessibility], ChildId property [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],ChildId property, ILegacyIAccessibleProvider.ChildId, ILegacyIAccessibleProvider.get_ChildId, ILegacyIAccessibleProvider::ChildId, ILegacyIAccessibleProvider::get_ChildId, get_ChildId, uiauto.uiauto_ILegacyIAccessibleProvider_ChildId, uiauto_ILegacyIAccessibleProvider_ChildId, uiautomationcore/ILegacyIAccessibleProvider::ChildId, uiautomationcore/ILegacyIAccessibleProvider::get_ChildId, winauto.uiauto_ILegacyIAccessibleProvider_ChildId
 ms.prod: windows-hardware
 ms.technology: windows-devices

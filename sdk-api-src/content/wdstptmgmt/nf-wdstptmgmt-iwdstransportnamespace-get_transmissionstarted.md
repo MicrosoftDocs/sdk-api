@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespace_transmissionstarted.htm
 tech.root: wds
 ms.assetid: abc395e5-aabe-478b-8232-48a107813da9
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],TransmissionStarted property, IWdsTransportNamespace.TransmissionStarted, IWdsTransportNamespace.get_TransmissionStarted, IWdsTransportNamespace::TransmissionStarted, IWdsTransportNamespace::get_TransmissionStarted, TransmissionStarted property [Windows Deployment Services], TransmissionStarted property [Windows Deployment Services],IWdsTransportNamespace interface, get_TransmissionStarted, wds.iwdstransportnamespace_transmissionstarted, wdstptmgmt/IWdsTransportNamespace::TransmissionStarted, wdstptmgmt/IWdsTransportNamespace::get_TransmissionStarted
 ms.prod: windows-hardware
 ms.technology: windows-devices

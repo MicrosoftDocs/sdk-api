@@ -7,7 +7,7 @@ old-location: base\setthreadexecutionstate.htm
 tech.root: power
 ms.assetid: 9214ea84-7636-4a78-91fd-a5a5da8199a1
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: ES_AWAYMODE_REQUIRED, ES_CONTINUOUS, ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, ES_USER_PRESENT, SetThreadExecutionState, SetThreadExecutionState function, _win32_setthreadexecutionstate, base.setthreadexecutionstate, winbase/SetThreadExecutionState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -166,9 +166,13 @@ This function does not  stop the screen saver from executing.
 
 #### Examples
 
-
-```cpp
-// Television recording is beginning. Enable away mode and prevent
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Television recording is beginning. Enable away mode and prevent
 // the sleep idle time-out.
 //
 SetThreadExecutionState(ES_CONTINUOUS | ES_SYSTEM_REQUIRED | ES_AWAYMODE_REQUIRED);
@@ -181,10 +185,10 @@ SetThreadExecutionState(ES_CONTINUOUS | ES_SYSTEM_REQUIRED | ES_AWAYMODE_REQUIRE
 // Clear EXECUTION_STATE flags to disable away mode and allow the system to idle to sleep normally.
 //
 SetThreadExecutionState(ES_CONTINUOUS);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

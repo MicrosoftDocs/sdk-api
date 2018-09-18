@@ -7,7 +7,7 @@ old-location: shell\LongToULongPtr.htm
 tech.root: shell
 ms.assetid: fe2669b2-6121-4348-ac7b-f89a0121b994
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: LongToDWordPtr, LongToSIZET, LongToULongPtr, LongToULongPtr function [Windows Shell], PtrdiffTToDWordPtr, _shell_LongToULongPtr, intsafe/LongToULongPtr, shell.LongToULongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

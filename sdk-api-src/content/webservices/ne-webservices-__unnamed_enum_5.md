@@ -7,7 +7,7 @@ old-location: wsw\ws_header_attributes.htm
 tech.root: wsw
 ms.assetid: 2796253d-3b8d-490d-987d-5bf7cd48c8ea
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WS_HEADER_ATTRIBUTES, WS_HEADER_ATTRIBUTES enumeration [Web Services for Windows], WS_MUST_UNDERSTAND_HEADER_ATTRIBUTE, WS_RELAY_HEADER_ATTRIBUTE, __unnamed_enum_5, webservices/WS_HEADER_ATTRIBUTES, webservices/WS_MUST_UNDERSTAND_HEADER_ATTRIBUTE, webservices/WS_RELAY_HEADER_ATTRIBUTE, wsw.ws_header_attributes
 ms.prod: windows
 ms.technology: windows-sdk

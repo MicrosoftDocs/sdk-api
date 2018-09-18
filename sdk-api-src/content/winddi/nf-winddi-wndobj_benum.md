@@ -7,7 +7,7 @@ old-location: display\wndobj_benum.htm
 tech.root: display
 ms.assetid: ad883ab5-6374-499e-9144-e5b85feaa471
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: WNDOBJ_bEnum, WNDOBJ_bEnum function [Display Devices], display.wndobj_benum, gdifncs_73e625c4-af7b-4e0e-aace-b930ca192444.xml, winddi/WNDOBJ_bEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,15 +72,19 @@ Specifies the size, in bytes, of the buffer pointed to by <i>pul</i>. GDI will n
 
 Pointer to the buffer in which a structure of the following form is to be written. In this structure, <b>c</b> is a count of the rectangles returned, and <b>arcl</b> is an array of rectangles:
 
-
-```
-typedef struct _ENUMRECTS{
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _ENUMRECTS{
     ULONG c;
     RECTL arcl[]
-} ENUMRECTS;
-```
-
-
+} ENUMRECTS;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -returns
 
@@ -99,17 +103,21 @@ The order of enumeration is determined by the call to <a href="https://msdn.micr
 
 A possible loop structure for calling this function follows.
 
-
-```
-do {
-    bMore = WNDOBJ_bEnum(pwo, sizeof(buffer), &buffer.c);
-    for (i = 0; i < buffer.c; i++) { 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>do {
+    bMore = WNDOBJ_bEnum(pwo, sizeof(buffer), &amp;buffer.c);
+    for (i = 0; i &lt; buffer.c; i++) { 
         //  Process the data
     }
-} while (bMore);
-```
-
-
+} while (bMore);</pre>
+</td>
+</tr>
+</table></span></div>
 <b>WNDOBJ_bEnum</b> should be called only by the callback function provided to GDI by the <a href="https://msdn.microsoft.com/14b1cced-32d0-4ba8-be7c-e626bef37e3f">EngCreateWnd</a> function, or by the graphics DDI functions that are given a WNDOBJ.
 
 

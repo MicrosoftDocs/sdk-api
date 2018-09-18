@@ -93,9 +93,13 @@ Applications do not need to call the <b>fIsAuthenticated</b> method, but service
 
 The following code shows a service provider's implementation of <a href="https://msdn.microsoft.com/88c935ad-dbf0-41bb-8676-ddafe9d1fe0e">IMDSPDevice::GetVersion</a>. This method verifies that a secure authenticated channel has been established before returning the version.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT CMyDevice::GetVersion(DWORD * pdwVersion)
 {
     HRESULT hr
@@ -104,17 +108,17 @@ HRESULT CMyDevice::GetVersion(DWORD * pdwVersion)
     if(g_pAppSCServer == NULL)
         return E_FAIL;
 
-    if (!(g_pAppSCServer->fIsAuthenticated()))
+    if (!(g_pAppSCServer-&gt;fIsAuthenticated()))
     {
         return WMDM_E_NOTCERTIFIED;
     }
     *pdwVersion = 1;
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

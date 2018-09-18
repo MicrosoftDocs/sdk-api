@@ -7,7 +7,7 @@ old-location: mf\mfcomparefulltopartialmediatype.htm
 tech.root: medfound
 ms.assetid: 5659cc69-46dc-4b08-96c4-e9ec787a310a
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: 5659cc69-46dc-4b08-96c4-e9ec787a310a, MFCompareFullToPartialMediaType, MFCompareFullToPartialMediaType function [Media Foundation], mf.mfcomparefulltopartialmediatype, mfapi/MFCompareFullToPartialMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

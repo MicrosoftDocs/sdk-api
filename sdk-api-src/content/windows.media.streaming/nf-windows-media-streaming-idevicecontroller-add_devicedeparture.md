@@ -7,7 +7,7 @@ old-location: mediastreaming\idevicecontroller_add_devicedeparture.htm
 tech.root: mediastreaming
 ms.assetid: 3DCE2BA9-1F94-45F2-97B7-64BD62B21578
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: IDeviceController interface [Media Streaming API],add_DeviceDeparture method, IDeviceController.add_DeviceDeparture, IDeviceController.streaming, IDeviceController::add_DeviceDeparture, IDeviceController::streaming, add_DeviceDeparture, add_DeviceDeparture method [Media Streaming API], add_DeviceDeparture method [Media Streaming API],IDeviceController interface, mediastreaming.idevicecontroller_add_devicedeparture, windows/IDeviceController::add_DeviceDeparture
 ms.prod: windows-hardware
 ms.technology: windows-devices

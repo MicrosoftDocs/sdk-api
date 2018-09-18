@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandler_QueryFocus.htm
 tech.root: shell
 ms.assetid: 8d21655b-ff0c-4396-a353-f968c28c4883
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],QueryFocus method, IPreviewHandler.QueryFocus, IPreviewHandler::QueryFocus, QueryFocus, QueryFocus method [Windows Shell], QueryFocus method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_QueryFocus, shell.IPreviewHandler_QueryFocus, shobjidl_core/IPreviewHandler::QueryFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Search 4 or later
 ## -description
 
 
-Directs the preview handler to return the <b>HWND</b> from calling the <a href="https://msdn.microsoft.com/en-us/library/ms646294(v=VS.85).aspx">GetFocus Function</a>.
+Directs the preview handler to return the <b>HWND</b> from calling the <a href="https://msdn.microsoft.com/3929771f-0402-4554-8e39-f945cd77b16d">GetFocus Function</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Directs the preview handler to return the <b>HWND</b> from calling the <a href="
 
 Type: <b>HWND*</b>
 
-When this method returns, contains a pointer to the HWND returned from calling the <a href="https://msdn.microsoft.com/en-us/library/ms646294(v=VS.85).aspx">GetFocus Function</a> from the preview handler's foreground thread.
+When this method returns, contains a pointer to the HWND returned from calling the <a href="https://msdn.microsoft.com/3929771f-0402-4554-8e39-f945cd77b16d">GetFocus Function</a> from the preview handler's foreground thread.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is necessary because <a href="https://msdn.microsoft.com/en-us/library/ms646294(v=VS.85).aspx">GetFocus Function</a> can only succeed if the focus is on a window created by the calling thread. This method is used by the host to manage the tabbing order and to support tabbing into and out of the preview handler's windows.
+This method is necessary because <a href="https://msdn.microsoft.com/3929771f-0402-4554-8e39-f945cd77b16d">GetFocus Function</a> can only succeed if the focus is on a window created by the calling thread. This method is used by the host to manage the tabbing order and to support tabbing into and out of the preview handler's windows.
 
 
 

@@ -82,23 +82,27 @@ The function accepts parameters similar to<a href="http://go.microsoft.com/fwlin
 
 #### Examples
 
-
-```cpp
-FNREAD(fnFileRead)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNREAD(fnFileRead)
 {
     DWORD dwBytesRead = 0;
 
-    if ( ReadFile((HANDLE)hf, pv, cb, &dwBytesRead, NULL) == FALSE )
+    if ( ReadFile((HANDLE)hf, pv, cb, &amp;dwBytesRead, NULL) == FALSE )
     {
         dwBytesRead = (DWORD)-1L;
     }
              
     return dwBytesRead;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: search\_search_IRelationship.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\irelationship.htm
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IRelationship, IRelationship interface [search], IRelationship interface [search],described, _search_IRelationship, search._search_IRelationship, structuredquery/IRelationship
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IRelationship</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231337(v=VS.85).aspx">DefaultPhrase</a>
+<a href="https://msdn.microsoft.com/8a2cc04a-40ca-4555-b2ea-471e3db8e69a">DefaultPhrase</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default phrase to use for this relationship in restatements.
@@ -81,17 +81,17 @@ Retrieves the default phrase to use for this relationship in restatements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231338(v=VS.85).aspx">Destination</a>
+<a href="https://msdn.microsoft.com/d538c98c-73bb-4173-b031-579f3e7270ac">Destination</a>
 </td>
 <td align="left" width="63%">
-Retrieves the destination <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a> object of the relationship. The destination of a relationshipo corresponds to the type of a property.
+Retrieves the destination <a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a> object of the relationship. The destination of a relationshipo corresponds to the type of a property.
       
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231340(v=VS.85).aspx">IsReal</a>
+<a href="https://msdn.microsoft.com/4a209437-a382-4a28-9e1c-9eea51669791">IsReal</a>
 </td>
 <td align="left" width="63%">
 Reports whether a relationship is real.
@@ -100,17 +100,17 @@ Reports whether a relationship is real.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231341(v=VS.85).aspx">MetaData</a>
+<a href="https://msdn.microsoft.com/b3322f0c-8929-4f0f-8d2d-44f063ff83db">MetaData</a>
 </td>
 <td align="left" width="63%">
-Retrieves an enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects for this relationship.
+Retrieves an enumeration of <a href="https://msdn.microsoft.com/2647af6d-af05-4f0d-8613-03248385abec">IMetaData</a> objects for this relationship.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231342(v=VS.85).aspx">Name</a>
+<a href="https://msdn.microsoft.com/3d1078d9-9f61-48ab-8317-f1be12027393">Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the relationship.

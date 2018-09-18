@@ -4,10 +4,10 @@ title: ITaskVariables::SetOutput
 author: windows-sdk-content
 description: Sets the output variables for a task.
 old-location: taskschd\itaskvariables_setoutput.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 989e61c8-f15e-42c6-ab90-c00cc90eb464
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: ITaskVariables interface [Task Scheduler],SetOutput method, ITaskVariables.SetOutput, ITaskVariables::SetOutput, SetOutput, SetOutput method [Task Scheduler], SetOutput method [Task Scheduler],ITaskVariables interface, taskschd.itaskvariables_setoutput, taskschd/ITaskVariables::SetOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

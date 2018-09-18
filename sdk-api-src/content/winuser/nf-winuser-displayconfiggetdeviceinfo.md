@@ -7,7 +7,7 @@ old-location: display\displayconfiggetdeviceinfo.htm
 tech.root: display
 ms.assetid: 249dcb1a-4ce3-4478-8331-fb81e91313b0
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: CCD_Functions_e8c6c762-da08-4b21-b016-e66bb44c248d.xml, DisplayConfigGetDeviceInfo, DisplayConfigGetDeviceInfo function [Display Devices], display.displayconfiggetdeviceinfo, winuser/DisplayConfigGetDeviceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ienumguid_next.htm
 tech.root: com
 ms.assetid: d32e02c7-1109-40cc-bf36-d224fa59fe20
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: IEnumGUID interface [COM],Next method, IEnumGUID.Next, IEnumGUID::Next, Next, Next method [COM], Next method [COM],IEnumGUID interface, _com_ienumguid_next, com.ienumguid_next, comcat/IEnumGUID::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ If the method retrieves the number of items requested, the return value is S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682393(v=VS.85).aspx">IEnumGUID</a>
+<a href="https://msdn.microsoft.com/4f2e0f96-a471-4883-be41-d93806461020">IEnumGUID</a>
  
 
  

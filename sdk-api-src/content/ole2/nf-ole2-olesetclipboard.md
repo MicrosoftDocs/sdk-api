@@ -7,7 +7,7 @@ old-location: com\olesetclipboard.htm
 tech.root: com
 ms.assetid: 741def10-d2b5-4395-8049-1eba2e29b0e8
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: OleSetClipboard, OleSetClipboard function [COM], _ole_OleSetClipboard, com.olesetclipboard, ole2/OleSetClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ This function returns S_OK on success. Other possible values include the followi
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms649048(v=VS.85).aspx">OpenClipboard</a> function used within <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> failed.
+The <a href="_win32_OpenClipboard_cpp">OpenClipboard</a> function used within <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> failed.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms649048(v=VS.85).aspx">Op
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms649037(v=VS.85).aspx">EmptyClipboard</a> function used within <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> failed.
+The <a href="_win32_EmptyClipboard_cpp">EmptyClipboard</a> function used within <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> failed.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms649037(v=VS.85).aspx">Em
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms649035(v=VS.85).aspx">CloseClipboard</a> function used within <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> failed.
+The <a href="_win32_CloseClipboard_cpp">CloseClipboard</a> function used within <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> failed.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms649035(v=VS.85).aspx">Cl
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms649051(v=VS.85).aspx">SetClipboardData</a> function used within <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> failed.
+The <a href="_win32_SetClipboardData_cpp">SetClipboardData</a> function used within <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> failed.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ The <b>OleSetClipboard</b> function assigns ownership of the clipboard to an int
 
 
 
-When an application opens the clipboard (either directly or indirectly by calling the <a href="https://msdn.microsoft.com/en-us/library/ms649048(v=VS.85).aspx">OpenClipboard</a> function), the clipboard cannot be used by any other application until it is closed. If the clipboard is currently open by another application, <b>OleSetClipboard</b> fails. The internal OLE window handle satisfies WM_RENDERFORMAT messages by delegating them to the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> implementation on the data object that is on the clipboard.
+When an application opens the clipboard (either directly or indirectly by calling the <a href="_win32_OpenClipboard_cpp">OpenClipboard</a> function), the clipboard cannot be used by any other application until it is closed. If the clipboard is currently open by another application, <b>OleSetClipboard</b> fails. The internal OLE window handle satisfies WM_RENDERFORMAT messages by delegating them to the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> implementation on the data object that is on the clipboard.
 
 Specifying <b>NULL</b> as the parameter value for <b>OleSetClipboard</b> empties the current clipboard. If the contents of the clipboard are the result of a previous <b>OleSetClipboard</b> call and the clipboard has been released, the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> pointer that was passed to the previous call is released. The clipboard owner should use this as a signal that the data it previously offered is no longer on the clipboard.
 

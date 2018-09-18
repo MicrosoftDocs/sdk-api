@@ -87,7 +87,7 @@ Resource is a 3D texture.
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Ff476586(v=VS.85).aspx">ID3D11Resource::GetType</a>. 
+This enumeration is used in <a href="https://msdn.microsoft.com/8358ab9b-acf3-41cd-8812-cc15862928da">ID3D11Resource::GetType</a>. 
 
 
 
@@ -97,7 +97,7 @@ This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Ff
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476170(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
  
 
  

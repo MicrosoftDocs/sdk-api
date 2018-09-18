@@ -7,7 +7,7 @@ old-location: setup\imsmmerge_extractcab.htm
 tech.root: msi
 ms.assetid: 3f794dac-6eeb-4c1e-8c23-c9d7384f650f
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/14/2018
 ms.keywords: ExtractCAB, ExtractCAB method, ExtractCAB method,IMsmMerge interface, IMsmMerge interface,ExtractCAB method, IMsmMerge.ExtractCAB, IMsmMerge::ExtractCAB, _msi_extractcab_function, mergemod/IMsmMerge::ExtractCAB, setup.imsmmerge_extractcab
 ms.prod: windows-hardware
 ms.technology: windows-devices

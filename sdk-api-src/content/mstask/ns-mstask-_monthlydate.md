@@ -4,10 +4,10 @@ title: "_MONTHLYDATE"
 author: windows-sdk-content
 description: Defines the day of the month the task will run.
 old-location: taskschd\monthlydate.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 51d010c9-4e16-49b7-8034-dfb27761c6a6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/14/2018
 ms.keywords: MONTHLYDATE, MONTHLYDATE structure [Task Scheduler], TASK_APRIL, TASK_AUGUST, TASK_DECEMBER, TASK_FEBRUARY, TASK_JANUARY, TASK_JULY, TASK_JUNE, TASK_MARCH, TASK_MAY, TASK_NOVEMBER, TASK_OCTOBER, TASK_SEPTEMBER, _MONTHLYDATE, _msb_monthlydate, mstask/MONTHLYDATE, taskschd.monthlydate, triggers [Task Scheduler],structures,MONTHLYDATE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -206,14 +206,18 @@ The task will run in December.
 
 The following C++ example shows how to combine the flags.  The example runs a task quarterly.
 
-
-```cpp
-MONTHLYDATE example;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>MONTHLYDATE example;
 example.rgfDays = 1;
-example.rgfMonths = TASK_JANUARY | TASK_APRIL | TASK_JULY | TASK_OCTOBER;
-```
-
-
+example.rgfMonths = TASK_JANUARY | TASK_APRIL | TASK_JULY | TASK_OCTOBER;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

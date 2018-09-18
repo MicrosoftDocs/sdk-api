@@ -137,9 +137,13 @@ The function should open the file using the file open function compatible with t
 
 #### Examples
 
-
-```cpp
-FNFCIGETOPENINFO(fnGetOpenInfo)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCIGETOPENINFO(fnGetOpenInfo)
 {
     HANDLE hFile;
     FILETIME fileTime;
@@ -149,12 +153,12 @@ FNFCIGETOPENINFO(fnGetOpenInfo)
 
     if ( hFile != (HANDLE)-1 )
     {
-        if( GetFileInformationByHandle(hFile, &fileInfo) 
-        &&  FileTimeToLocalFileTime(&fileInfo.ftCreationTime, &fileTime)
-        &&  FileTimeToDosDateTime(&fileTime, pdate, ptime) )
+        if( GetFileInformationByHandle(hFile, &amp;fileInfo) 
+        &amp;&amp;  FileTimeToLocalFileTime(&amp;fileInfo.ftCreationTime, &amp;fileTime)
+        &amp;&amp;  FileTimeToDosDateTime(&amp;fileTime, pdate, ptime) )
         {
             *pattribs = (USHORT)fileInfo.dwFileAttributes;
-            *pattribs &= ( _A_RDONLY | _A_HIDDEN | _A_SYSTEM | _A_ARCH );
+            *pattribs &amp;= ( _A_RDONLY | _A_HIDDEN | _A_SYSTEM | _A_ARCH );
         }
         else
         {
@@ -165,10 +169,10 @@ FNFCIGETOPENINFO(fnGetOpenInfo)
 
     return (INT_PTR)hFile;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

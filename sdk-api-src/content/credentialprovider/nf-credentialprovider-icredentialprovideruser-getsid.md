@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUser_GetSid.htm
 tech.root: shell
 ms.assetid: FDC5D586-D72B-4eb1-BE7C-CFD8E0B48F48
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetSid, GetSid method [Windows Shell], GetSid method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetSid method, ICredentialProviderUser.GetSid, ICredentialProviderUser::GetSid, credentialprovider/ICredentialProviderUser::GetSid, shell.ICredentialProviderUser_GetSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Retrieves the user's security identifier (SID).
 
 ### -param sid [out]
 
-The address of a pointer to a buffer that, when this method returns successfully, receives the user's SID. It is the responsibility of the caller to free this resource by calling the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function.
+The address of a pointer to a buffer that, when this method returns successfully, receives the user's SID. It is the responsibility of the caller to free this resource by calling the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function.
 
 
 ## -returns
@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This SID applies to both logon and credential UI.
 
-This value can also be retrieved as a <b>PROPVARIANT</b> through <a href="https://msdn.microsoft.com/en-us/library/Hh706931(v=VS.85).aspx">ICredentialProviderUser::GetValue</a>.
+This value can also be retrieved as a <b>PROPVARIANT</b> through <a href="https://msdn.microsoft.com/CA8CD897-127E-4113-A5A5-08110E0E6C17">ICredentialProviderUser::GetValue</a>.
 
 
 
@@ -88,11 +88,11 @@ This value can also be retrieved as a <b>PROPVARIANT</b> through <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706922(v=VS.85).aspx">ICredentialProviderUser</a>
+<a href="https://msdn.microsoft.com/8EE5FA54-E20E-4d24-AD73-2AE1F0090950">ICredentialProviderUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706931(v=VS.85).aspx">ICredentialProviderUser::GetValue</a>
+<a href="https://msdn.microsoft.com/CA8CD897-127E-4113-A5A5-08110E0E6C17">ICredentialProviderUser::GetValue</a>
  
 
  

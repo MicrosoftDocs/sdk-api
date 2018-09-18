@@ -50,5 +50,5 @@ req.redist:
 ## -description
 
 
-The <b>IX509CertificateTemplate</b> interface represents a certificate request template. It can be used to initialize an <a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX509CertificateTemplateWritable</a> interface.
+The <b>IX509CertificateTemplate</b> interface represents a certificate request template. It can be used to initialize an <a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a> interface.
 

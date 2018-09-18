@@ -7,7 +7,7 @@ old-location: rpc\ndrstubinitialize.htm
 tech.root: rpc
 ms.assetid: 078442d1-1e35-4679-b86d-0a9110977a7c
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: NdrStubInitialize, NdrStubInitialize function [RPC], rpc.ndrstubinitialize, rpcproxy/NdrStubInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,7 +93,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a>
+<a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a>
  
 
  

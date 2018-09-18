@@ -7,7 +7,7 @@ old-location: base\prevent_media_removal_str.htm
 tech.root: devio
 ms.assetid: a5f55555-5226-46a7-8869-df4d1c4e7352
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: "*PPREVENT_MEDIA_REMOVAL, PREVENT_MEDIA_REMOVAL, PREVENT_MEDIA_REMOVAL structure, _PREVENT_MEDIA_REMOVAL, _win32_prevent_media_removal_str, base.prevent_media_removal_str, winioctl/PREVENT_MEDIA_REMOVAL"
 ms.prod: windows
 ms.technology: windows-sdk

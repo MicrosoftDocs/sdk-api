@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_GetEditBoxText.htm
 tech.root: shell
 ms.assetid: 7c3db511-d357-48b4-9ac3-07f6b3d23a5f
 ms.author: windowssdkdev
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.keywords: GetEditBoxText, GetEditBoxText method [Windows Shell], GetEditBoxText method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetEditBoxText method, IFileDialogCustomize.GetEditBoxText, IFileDialogCustomize::GetEditBoxText, shell.IFileDialogCustomize_GetEditBoxText, shell_IFileDialogCustomize_GetEditBoxText, shobjidl_core/IFileDialogCustomize::GetEditBoxText
 ms.prod: windows-hardware
 ms.technology: windows-devices
