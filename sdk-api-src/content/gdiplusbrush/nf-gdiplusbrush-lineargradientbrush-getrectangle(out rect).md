@@ -104,7 +104,7 @@ The rectangle defines the boundaries of the gradient in the following ways: the 
 
 
 
-<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
 
 
 

@@ -55,7 +55,7 @@ The <b>IDsObjectPickerCredentials</b> interface
     object implementing this interface.
 
 To obtain an instance of this interface, call 
-    <a href="_com_iunknown_queryinterface">QueryInterface</a> with the 
+    <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> with the 
     <b>IID_IDsObjectPickerCredentials</b> interface identifier as shown below.
 
 

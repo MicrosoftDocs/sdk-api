@@ -63,14 +63,14 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/b0b45ea2-b682-4065-8624-08c34581b5ea">InitializeEncode</a> method or the  <a href="https://msdn.microsoft.com/7098ee8d-39e9-4463-97fe-309265c6baa7">InitializeDecode</a> method to initialize the <b>KeySpec</b> property. You can also call the following properties to retrieve raw data:
+Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377084(v=VS.85).aspx">InitializeEncode</a> method or the  <a href="https://msdn.microsoft.com/en-us/library/Aa377083(v=VS.85).aspx">InitializeDecode</a> method to initialize the <b>KeySpec</b> property. You can also call the following properties to retrieve raw data:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/4a62d1e4-4d00-416b-b44a-23a9cbc53a5b">ProviderName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377088(v=VS.85).aspx">ProviderName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/06245293-b331-4963-a0cf-b7c604580908">Signature</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377089(v=VS.85).aspx">Signature</a>
 </li>
 </ul>
 
@@ -81,7 +81,7 @@ Call the <a href="https://msdn.microsoft.com/b0b45ea2-b682-4065-8624-08c34581b5e
 
 
 
-<a href="https://msdn.microsoft.com/08954c87-f63b-4e1a-91b4-3773e392999b">IX509AttributeCspProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377082(v=VS.85).aspx">IX509AttributeCspProvider</a>
  
 
  

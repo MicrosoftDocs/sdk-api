@@ -60,7 +60,7 @@ Identifies how to view a buffer resource.
 
 ### -field D3D11_BUFFEREX_SRV_FLAG_RAW
 
-View the buffer as raw. For more info about raw viewing of buffers, see <a href="overviews_direct3d_11_resources_intro.htm">Raw Views of Buffers</a>.
+View the buffer as raw. For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/en-us/library/Ff476900(v=VS.85).aspx">Raw Views of Buffers</a>.
 
 
 ## -remarks

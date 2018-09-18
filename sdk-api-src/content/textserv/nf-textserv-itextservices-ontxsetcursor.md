@@ -187,13 +187,13 @@ One or more illegal parameters.
 
 
 
-The text services object may remeasure as a result of this call to determine the correct cursor. The correct cursor is set through <a href="https://msdn.microsoft.com/ab5b868e-816c-4122-99d2-4351f7ce3613">TxSetCursor</a>.
+The text services object may remeasure as a result of this call to determine the correct cursor. The correct cursor is set through <a href="https://msdn.microsoft.com/en-us/library/Bb787681(v=VS.85).aspx">TxSetCursor</a>.
 
-The <i>lprcClient</i> parameter is the client rectangle of the view of the control over which the mouse cursor is positioned. The <i>lprcClient</i> parameter is in device coordinates of the containing window in the same way the <a href="https://msdn.microsoft.com/e3e14dcd-9236-48bd-a692-6985d8146f81">WM_SIZE</a> message is. This may not be the view that was rendered last. Furthermore, if the control is in-place active, this may not be the current active view . As a consequence, the text services object should check this rectangle against its current cache's value and determine whether recalculating the lines is necessary or not. The zoom factor should be included in this computation. For a discussion of the zoom factor, see <a href="https://msdn.microsoft.com/03cf4acc-f70e-40a4-9050-6e6777867b2b">TxGetExtent</a>.
+The <i>lprcClient</i> parameter is the client rectangle of the view of the control over which the mouse cursor is positioned. The <i>lprcClient</i> parameter is in device coordinates of the containing window in the same way the <a href="https://msdn.microsoft.com/en-us/library/ms632646(v=VS.85).aspx">WM_SIZE</a> message is. This may not be the view that was rendered last. Furthermore, if the control is in-place active, this may not be the current active view . As a consequence, the text services object should check this rectangle against its current cache's value and determine whether recalculating the lines is necessary or not. The zoom factor should be included in this computation. For a discussion of the zoom factor, see <a href="https://msdn.microsoft.com/en-us/library/Bb787664(v=VS.85).aspx">TxGetExtent</a>.
 
 This method should be called only for screen views of the control. Therefore the device context (DC) is not passed in, but should be assumed to be a screen DC.
 
-For more information, see the Remarks in <a href="https://msdn.microsoft.com/5fb14a41-2e73-4760-ba77-f1bfd2a1184b">ITextServices::TxDraw</a>.
+For more information, see the Remarks in <a href="https://msdn.microsoft.com/en-us/library/Bb787690(v=VS.85).aspx">ITextServices::TxDraw</a>.
 
 
 
@@ -207,7 +207,7 @@ For more information, see the Remarks in <a href="https://msdn.microsoft.com/5fb
 
 
 
-<a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
 
 
 
@@ -219,23 +219,23 @@ For more information, see the Remarks in <a href="https://msdn.microsoft.com/5fb
 
 
 
-<a href="https://msdn.microsoft.com/5fb14a41-2e73-4760-ba77-f1bfd2a1184b">TxDraw</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787690(v=VS.85).aspx">TxDraw</a>
 
 
 
-<a href="https://msdn.microsoft.com/03cf4acc-f70e-40a4-9050-6e6777867b2b">TxGetExtent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787664(v=VS.85).aspx">TxGetExtent</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab5b868e-816c-4122-99d2-4351f7ce3613">TxSetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787681(v=VS.85).aspx">TxSetCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3e14dcd-9236-48bd-a692-6985d8146f81">WM_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632646(v=VS.85).aspx">WM_SIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

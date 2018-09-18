@@ -90,7 +90,7 @@ ClusAPI.h defines
 The following example shows how to use 
      <b>CLUSPROP_PROPERTY_NAME_DECLARE</b>. For 
      another example, see 
-     <a href="https://msdn.microsoft.com/003bc879-d526-4f7d-8f58-a9002f78819d">Creating Physical Disk Resources</a>.
+     <a href="https://msdn.microsoft.com/en-us/library/Aa369328(v=VS.85).aspx">Creating Physical Disk Resources</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

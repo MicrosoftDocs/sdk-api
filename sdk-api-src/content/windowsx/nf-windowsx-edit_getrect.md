@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the formatting rectangle of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/eef0150d-9b7a-4247-acbf-6fea2efd1dc3">EM_GETRECT</a> message explicitly.
+Gets the formatting rectangle of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761596(v=VS.85).aspx">EM_GETRECT</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf1
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/eef0150d-9b7a-4247-acbf-6fea2efd1dc3">EM_GETRECT</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761596(v=VS.85).aspx">EM_GETRECT</a>.
 
 
 

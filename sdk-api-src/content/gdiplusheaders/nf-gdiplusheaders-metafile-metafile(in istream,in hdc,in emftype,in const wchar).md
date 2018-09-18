@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <b>Metafile::Metafile</b> object for recording to an <a href="_stg_istream">IStream</a> interface.
+Creates a <b>Metafile::Metafile</b> object for recording to an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates a <b>Metafile::Metafile</b> object for recording to an <a href="_stg_ist
 
 ### -param stream [in]
 
-Type: <b><a href="_stg_istream">IStream</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a>*</b>
 
-Pointer to a COM <a href="_stg_istream">IStream</a> interface that points to a stream of data in a file. When the commands are recorded, they will be saved to this stream. 
+Pointer to a COM <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface that points to a stream of data in a file. When the commands are recorded, they will be saved to this stream. 
 
 
 #### - referenceHdc [in]
@@ -124,7 +124,7 @@ When recording to a file, the file must be writable, and Windows GDI+ must be ab
 
 
 
-<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
 
 
 

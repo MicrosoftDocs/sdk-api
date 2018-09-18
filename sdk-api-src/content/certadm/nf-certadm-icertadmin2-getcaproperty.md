@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>GetCAProperty</b> method retrieves a property value for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA). This method was first defined in the <a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a> interface.
+The <b>GetCAProperty</b> method retrieves a property value for the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA). This method was first defined in the <a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a> interface.
 
 
 ## -parameters
@@ -62,9 +62,9 @@ The <b>GetCAProperty</b> method retrieves a property value for the <a href="http
 ### -param strConfig [in]
 
 Represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>GetCAProperty</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>GetCAProperty</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param PropId [in]
@@ -98,7 +98,7 @@ Specifies whether the CA is running Advanced Server.
 <td width="60%">
 Data type of the property: Binary, indexed
 
-The CA's full, or base, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL).
+The CA's full, or base, <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL).
 
 </td>
 </tr>
@@ -600,7 +600,7 @@ Value specifying whether role separation is enabled.
 <td width="60%">
 Data type of the property: String
 
-The sanitized name of the CA. For a definition of a sanitized CA name, see <a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">ICertConfig2::GetConfig</a>.
+The sanitized name of the CA. For a definition of a sanitized CA name, see <a href="https://msdn.microsoft.com/en-us/library/Aa383274(v=VS.85).aspx">ICertConfig2::GetConfig</a>.
 
 </td>
 </tr>
@@ -613,7 +613,7 @@ The sanitized name of the CA. For a definition of a sanitized CA name, see <a hr
 <td width="60%">
 Data type of the property: String
 
-The sanitized short name of the CA. For a definition of a sanitized CA short name, see <a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">ICertConfig2::GetConfig</a>.
+The sanitized short name of the CA. For a definition of a sanitized CA short name, see <a href="https://msdn.microsoft.com/en-us/library/Aa383274(v=VS.85).aspx">ICertConfig2::GetConfig</a>.
 
 </td>
 </tr>
@@ -697,7 +697,7 @@ Binary data
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> string data
+<a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">Unicode</a> string data
 
 </td>
 </tr>
@@ -707,7 +707,7 @@ Binary data
 
 ### -param Flags [in]
 
-The following flags can be used to specify the format of the returned property value; these flags have meaning only for binary data (such as certificates, certificate chains or <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation lists</a>) and is ignored otherwise.
+The following flags can be used to specify the format of the returned property value; these flags have meaning only for binary data (such as certificates, certificate chains or <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation lists</a>) and is ignored otherwise.
 
 <table>
 <tr>
@@ -810,7 +810,7 @@ Hexadecimal string with ASCII and address/offset
 
 ### -param pvarPropertyValue [out]
 
-A pointer to a buffer that receives the requested property value. It is a caller's responsibility to free this resource when done by calling <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.
+A pointer to a buffer that receives the requested property value. It is a caller's responsibility to free this resource when done by calling <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>.
 
 
 ## -returns
@@ -888,12 +888,12 @@ The following values are returned when the property identifier is CR_PROP_BASECR
 </table>
  
 
-For an example of retrieving a CRL, see <a href="https://msdn.microsoft.com/b8fbffae-d968-453d-81f0-af9d60be5fa9">Retrieving a Certificate Revocation List</a>.
+For an example of retrieving a CRL, see <a href="https://msdn.microsoft.com/en-us/library/Aa387676(v=VS.85).aspx">Retrieving a Certificate Revocation List</a>.
 
 
 #### Examples
 
-The following example shows retrieving the signature certificate of the CA. The  example assumes the <a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin2</a> interface pointer is valid.
+The following example shows retrieving the signature certificate of the CA. The  example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin2</a> interface pointer is valid.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

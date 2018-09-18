@@ -97,11 +97,11 @@ This structure is passed into the following methods:
 
 
 
-<a href="https://msdn.microsoft.com/6E405AD6-D370-4B87-849A-C52D64C79BF7">CD3DX12_GPU_DESCRIPTOR_HANDLE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt186569(v=VS.85).aspx">CD3DX12_GPU_DESCRIPTOR_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
  
 
  

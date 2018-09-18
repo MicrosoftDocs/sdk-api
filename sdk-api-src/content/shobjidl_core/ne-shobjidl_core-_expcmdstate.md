@@ -93,7 +93,7 @@ The item is displayed with a check box and that check box is checked. <b>ECS_CHE
 
 
 
-<a href="https://msdn.microsoft.com/bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b">Button Types</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775947(v=VS.85).aspx">Button Types</a>
 
 
 

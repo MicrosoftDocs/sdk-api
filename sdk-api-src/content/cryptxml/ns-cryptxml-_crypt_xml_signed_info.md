@@ -70,12 +70,12 @@ Optional.  A pointer to a null-terminated Unicode string that contains the <b>Id
 
 ### -field Canonicalization
 
-A <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a> structure that specifies the canonicalization algorithm.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd433842(v=VS.85).aspx">CRYPT_XML_ALGORITHM</a> structure that specifies the canonicalization algorithm.
 
 
 ### -field SignatureMethod
 
-A <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a> structure that specifies the signature algorithm.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd433842(v=VS.85).aspx">CRYPT_XML_ALGORITHM</a> structure that specifies the signature algorithm.
 
 
 ### -field cReference
@@ -85,10 +85,10 @@ The number of elements in the array pointed to by the <b>rgpReference</b> member
 
 ### -field rgpReference
 
-A pointer to an array of pointers to <a href="https://msdn.microsoft.com/af16af5a-b1e5-4250-bdb1-f3fceb1830b9">CRYPT_XML_REFERENCE</a> structures   that contain information that is encoded in <b>Reference</b> elements.
+A pointer to an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/Dd433862(v=VS.85).aspx">CRYPT_XML_REFERENCE</a> structures   that contain information that is encoded in <b>Reference</b> elements.
 
 
 ### -field Encoded
 
-A  <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains the XML encoded <b>SignedInfo</b> element.
+A  <a href="https://msdn.microsoft.com/en-us/library/Dd433844(v=VS.85).aspx">CRYPT_XML_BLOB</a> structure that contains the XML encoded <b>SignedInfo</b> element.
 

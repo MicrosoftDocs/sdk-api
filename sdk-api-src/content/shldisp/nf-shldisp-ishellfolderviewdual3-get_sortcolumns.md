@@ -60,7 +60,7 @@ Gets the names of the columns used to sort the current folder.
 
 ### -param pbstrSortColumns [out]
 
-Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>*</b>
 
 A <b>BSTR</b> that contains the column names.
 

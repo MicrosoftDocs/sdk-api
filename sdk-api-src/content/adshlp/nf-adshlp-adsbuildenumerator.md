@@ -69,7 +69,7 @@ Pointer to the  <a href="https://msdn.microsoft.com/6c1d6c7c-e003-47f9-adfa-4a75
 
 Type: <b>IEnumVARIANT**</b>
 
-Pointer to an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface pointer that receives the enumerator object created for the specified container object.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface pointer that receives the enumerator object created for the specified container object.
 
 
 ## -returns
@@ -87,12 +87,12 @@ This method supports the standard <b>HRESULT</b> return values, including <b>S_O
 
 
 
-The <b>ADsBuildEnumerator</b> helper function wraps the calls used to retrieve the <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on the enumerator object.
+The <b>ADsBuildEnumerator</b> helper function wraps the calls used to retrieve the <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on the enumerator object.
 
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b> To enumerate the available objects in a container</b>
 
 <ol>
-<li>Call the <b>ADsBuildEnumerator</b> function to create an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> object that will enumerate the contents of the container.</li>
+<li>Call the <b>ADsBuildEnumerator</b> function to create an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> object that will enumerate the contents of the container.</li>
 <li>Call the <a href="https://msdn.microsoft.com/9bfc98a5-f4f0-4127-89c9-b8ed01bfde4e">ADsEnumerateNext</a> function as many times as necessary to retrieve the items from the enumerator object.</li>
 <li>Call the <a href="https://msdn.microsoft.com/0ac13320-c0c2-45e3-b1c0-b4bf6c7e5315">ADSFreeEnumerator</a> function to release the enumerator object when it is no longer required.</li>
 </ol>
@@ -197,7 +197,7 @@ The following code example shows how the <b>ADsBuildEnumerator</b>, <a href="htt
 
 
 
-<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
  
 
  

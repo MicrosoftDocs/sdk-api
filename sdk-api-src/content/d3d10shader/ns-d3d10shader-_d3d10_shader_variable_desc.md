@@ -83,7 +83,7 @@ Size of the variable (in bytes).
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Flags, which identify shader-variable properties (see <a href="https://msdn.microsoft.com/e9ec8a60-c580-4aeb-abd0-5647c72e2121">D3D10_SHADER_VARIABLE_FLAGS</a>).
+Flags, which identify shader-variable properties (see <a href="https://msdn.microsoft.com/en-us/library/Bb172442(v=VS.85).aspx">D3D10_SHADER_VARIABLE_FLAGS</a>).
 
 
 ### -field DefaultValue
@@ -97,7 +97,7 @@ The default value for initializing the variable.
 
 
 
-Get a shader-variable description using reflection, by calling <a href="https://msdn.microsoft.com/18e1d597-084b-4b20-95f5-dbfe77e32944">ID3D10ShaderReflectionVariable::GetDesc</a>.
+Get a shader-variable description using reflection, by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173846(v=VS.85).aspx">ID3D10ShaderReflectionVariable::GetDesc</a>.
 
 
 
@@ -107,7 +107,7 @@ Get a shader-variable description using reflection, by calling <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
  
 
  

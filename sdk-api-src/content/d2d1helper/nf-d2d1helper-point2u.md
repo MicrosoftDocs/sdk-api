@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/652c0dd7-c24d-4941-ae23-2be21b53af69">D2D1_POINT_2U</a> structure that contains the specified x-coordinates and y-coordinates.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368142(v=VS.85).aspx">D2D1_POINT_2U</a> structure that contains the specified x-coordinates and y-coordinates.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The y-coordinate of the point. The default value is 0.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/652c0dd7-c24d-4941-ae23-2be21b53af69">D2D1_POINT_2U</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368142(v=VS.85).aspx">D2D1_POINT_2U</a></b>
 
 The new point.
 

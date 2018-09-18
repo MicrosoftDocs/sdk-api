@@ -54,7 +54,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 Provides the methods for scheduling tasks.
 
-It is the primary interface of the <a href="t.htm">task scheduler object</a>. To create a task scheduler object, call <b>CoCreateInstance</b>.
+It is the primary interface of the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task scheduler object</a>. To create a task scheduler object, call <b>CoCreateInstance</b>.
 
 
 ## -inheritance
