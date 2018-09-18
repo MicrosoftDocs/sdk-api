@@ -2,7 +2,7 @@
 UID: TP:bltooth
 ms.assetid: a24d2124-fb4a-3c14-aeb8-83c46e9ed71c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: TP:wincontacts
 ms.assetid: e0e7bda2-6a92-33f7-a8e7-cf235874dd82
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

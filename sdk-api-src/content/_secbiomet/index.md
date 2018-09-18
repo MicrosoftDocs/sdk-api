@@ -2,7 +2,7 @@
 UID: TP:secbiomet
 ms.assetid: e8f9b75a-0dd8-3544-bc54-6d945c8b30fc
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

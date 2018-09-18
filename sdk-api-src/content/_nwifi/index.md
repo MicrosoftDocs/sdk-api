@@ -2,7 +2,7 @@
 UID: TP:nwifi
 ms.assetid: 227f4254-b09f-375a-9c76-7690364582b1
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
