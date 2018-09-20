@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetAngle(IDCompositionAnimation)
 title: IDCompositionRotateTransform3D::SetAngle(IDCompositionAnimation)
 author: windows-sdk-content
-description: Animates the value of the Angle property of a 3D rotation transform. The Angle property specifies the rotation angle. The default value is zero.
-old-location: directcomp\idcompositionrotatetransform3d_setangle_idcompositionanimation.htm
+description: Changes the value of the Angle property of a 3D rotation transform. The Angle property specifies the rotation angle. The default value is zero.
+old-location: directcomp\idcompositionrotatetransform3d_setangle_float.htm
 tech.root: directcomp
-ms.assetid: 71EBFC30-E148-416D-8BE3-9E65955388A1
+ms.assetid: A1C367E1-530C-4D4F-B93E-8C53C3DCF373
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAngle method, IDCompositionRotateTransform3D.SetAngle, IDCompositionRotateTransform3D.SetAngle(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAngle, IDCompositionRotateTransform3D::SetAngle(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAngle(IDCompositionAnimation*), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAngle, directcomp.idcompositionrotatetransform3d_setangle_idcompositionanimation
+ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAngle method, IDCompositionRotateTransform3D.SetAngle, IDCompositionRotateTransform3D.SetAngle(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAngle, IDCompositionRotateTransform3D::SetAngle(IDCompositionAnimation), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAngle, directcomp.idcompositionrotatetransform3d_setangle_float
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Animates the value of the Angle property of a 3D rotation transform. The Angle property specifies the rotation angle. The default value is zero.
+Changes the value of the Angle property of a 3D rotation transform. The Angle property specifies the rotation angle. The default value is zero.
 
 
 ## -parameters
@@ -58,11 +58,18 @@ Animates the value of the Angle property of a 3D rotation transform. The Angle p
 
 
 
-### -param animation [in]
+### -param animation
 
-Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
+TBD
 
-An animation object that determines how the value of the Angle property changes over time. This parameter must not be NULL.
+
+
+
+#### - angle [in]
+
+Type: <b>float</b>
+
+The new rotation angle, in degrees. Positive values are interpreted as the thumb-down (into the page), right hand rule where the thumb points in the Z direction and the fingers follow a clockwise direction.  Negative values are interpreted as the thumb-up (out of the page), right hand rule. For values less than -360 or greater than 360, the values wrap around and are treated as if the mathematical operation mod(360) was applied.
 
 
 ## -returns
@@ -80,11 +87,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the Angle property unless this method is called again. If the Angle property was previously animated, calling this method replaces the previous animation with the new animation. 
+This method fails if the <i>angle</i> parameter is NaN, positive infinity, or negative infinity.
 
 
 
-This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected 3D transform. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+If the Angle property was previously animated, this method removes the animation and sets the Angle property to the specified static value.
 
 
 

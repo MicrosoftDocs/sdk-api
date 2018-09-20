@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextProvider_SupportedTextSelection.htm
 tech.root: WinAuto
 ms.assetid: a1f91515-2bc8-4560-850d-34c880c78c43
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: ITextProvider interface [Windows Accessibility],SupportedTextSelection property, ITextProvider.SupportedTextSelection, ITextProvider.get_SupportedTextSelection, ITextProvider::SupportedTextSelection, ITextProvider::get_SupportedTextSelection, SupportedTextSelection property [Windows Accessibility], SupportedTextSelection property [Windows Accessibility],ITextProvider interface, get_SupportedTextSelection, uiauto.uiauto_ITextProvider_SupportedTextSelection, uiauto_ITextProvider_SupportedTextSelection, uiautomationcore/ITextProvider::SupportedTextSelection, uiautomationcore/ITextProvider::get_SupportedTextSelection, winauto.uiauto_ITextProvider_SupportedTextSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

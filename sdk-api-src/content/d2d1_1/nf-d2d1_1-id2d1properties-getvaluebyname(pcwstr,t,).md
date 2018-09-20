@@ -2,13 +2,13 @@
 UID: NF:d2d1_1.ID2D1Properties.GetValueByName(PCWSTR,T,)
 title: ID2D1Properties::GetValueByName(PCWSTR,T,)
 author: windows-sdk-content
-description: Gets the property value by name. This is a template overload. See Remarks.
-old-location: direct2d\id2d1properties_getvaluebyname3.htm
+description: Gets the property value by name.
+old-location: direct2d\id2d1properties_getvaluebyname.htm
 tech.root: Direct2D
-ms.assetid: C2BE652D-EC4F-49F4-A72E-AB2E68873D4F
+ms.assetid: 2dc60fad-9ce2-4951-85ea-647a828420a1
 ms.author: windowssdkdev
 ms.date: 08/30/2018
-ms.keywords: GetValueByName, GetValueByName method [Direct2D], GetValueByName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueByName method, ID2D1Properties.GetValueByName, ID2D1Properties.GetValueByName(PCWSTR,T,), ID2D1Properties::GetValueByName, ID2D1Properties::GetValueByName(PCWSTR,T*), ID2D1Properties::GetValueByName(PCWSTR,T,), d2d1_1/ID2D1Properties::GetValueByName, direct2d.id2d1properties_getvaluebyname3
+ms.keywords: GetValueByName, GetValueByName method [Direct2D], GetValueByName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueByName method, ID2D1Properties.GetValueByName, ID2D1Properties.GetValueByName(PCWSTR,T,), ID2D1Properties::GetValueByName, ID2D1Properties::GetValueByName(PCWSTR,BYTE*,UINT32), ID2D1Properties::GetValueByName(PCWSTR,T,), d2d1_1/ID2D1Properties::GetValueByName, direct2d.id2d1properties_getvaluebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the property value by name. This is a template overload. See Remarks.
+Gets the property value by name.
 
 
 ## -parameters
@@ -58,18 +58,14 @@ Gets the property value by name. This is a template overload. See Remarks.
 
 
 
-### -param propertyName [in]
+### -param propertyName
 
-Type: <b>PCWSTR</b>
-
-The property name to get.
+TBD
 
 
-### -param value [out]
+### -param value
 
-Type: <b>T*</b>
-
-When this method returns, contains the value.
+TBD
 
 
 ### -param arg1
@@ -77,6 +73,27 @@ When this method returns, contains the value.
 TBD
 
 
+
+
+#### - data [out]
+
+Type: <b>BYTE*</b>
+
+When this method returns, contains the buffer with  the data value.
+
+
+#### - dataSize
+
+Type: <b>UINT32</b>
+
+The number of bytes in the data to be retrieved.
+
+
+#### - name [in]
+
+Type: <b>PCWSTR</b>
+
+The property name to get.
 
 
 ## -returns
@@ -126,18 +143,9 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-If <i>propertyName</i> does not exist, no information is retrieved.
+If <i>name</i> does not exist, no information is retrieved.
 
 Any error not in the standard set returned by a property implementation will be mapped into the standard error range.
-
-
-<pre class="syntax">template&lt;typename T&gt;
-    HRESULT GetValueByName(
-        _In_ PCWSTR propertyName,
-        _Out_ T *value
-        ) const;
-</pre>
-
 
 
 

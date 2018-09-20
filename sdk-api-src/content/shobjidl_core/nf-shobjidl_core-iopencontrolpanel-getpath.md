@@ -7,7 +7,7 @@ old-location: shell\IOpenControlPanel_GetPath.htm
 tech.root: shell
 ms.assetid: 2043a56a-cc03-4b05-a746-de4d11ac02e7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GetPath, GetPath method [Windows Shell], GetPath method [Windows Shell],IOpenControlPanel interface, IOpenControlPanel interface [Windows Shell],GetPath method, IOpenControlPanel.GetPath, IOpenControlPanel::GetPath, _shell_IOpenControlPanel_GetPath, shell.IOpenControlPanel_GetPath, shobjidl_core/IOpenControlPanel::GetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,26 +98,34 @@ If <i>pszName</i> points to the item's canonical name or <b>GUID</b>, then the p
 
                 
 
-
-```cpp
-::{CLSID_ControlPanel}\::{item guid}
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>::{CLSID_ControlPanel}\::{item guid}
 ::{CLSID_ControlPanelCategory}\categoryId\::{item guid}
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 If <i>pszName</i> is <b>NULL</b> then one of these two values is returned:
 
                 
 
-
-```cpp
-::{CLSID_ControlPanel}
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>::{CLSID_ControlPanel}
 ::{CLSID_ControlPanelCategory}
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -126,7 +134,7 @@ If <i>pszName</i> is <b>NULL</b> then one of these two values is returned:
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb757044(v=MSDN.10).aspx">Developing for the Control Panel</a>
+<a href="ffd6c6de-2c65-4ab1-b1fa-27abe6a10342">Developing for the Control Panel</a>
 
 
 

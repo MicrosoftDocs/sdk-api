@@ -2,21 +2,21 @@
 UID: NF:gdipluspath.GraphicsPath.AddRectangles(IN const RectF,IN INT)
 title: GraphicsPath::AddRectangles(IN const RectF,IN INT)
 author: windows-sdk-content
-description: The GraphicsPath::AddRectangles method adds a sequence of rectangles to this path.
-old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddRectangles_RectF_rects_INT_count_.htm
+description: This topic lists the AddRectangles methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddRectangles_Methods.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddrectanglesmethods\addrectangles_41rectfrects_intcount.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddrectanglesmethods.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: AddRectangles, AddRectangles method [GDI+], AddRectangles method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddRectangles method, GraphicsPath.AddRectangles, GraphicsPath.AddRectangles(IN const RectF,IN INT), GraphicsPath.AddRectangles(const RectF*,INT), GraphicsPath::AddRectangles, GraphicsPath::AddRectangles(IN const RectF,IN INT), _gdiplus_CLASS_GraphicsPath_AddRectangles_RectF_rects_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangles_RectF_rects_INT_count_
+ms.keywords: AddRectangles, AddRectangles methods [GDI+], GraphicsPath.AddRectangles, GraphicsPath.AddRectangles(IN const RectF,IN INT), GraphicsPath::AddRectangles, GraphicsPath::AddRectangles(IN const RectF,IN INT), _gdiplus_CLASS_GraphicsPath_AddRectangles_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangles_Methods, gdipluspath/AddRectangles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
-req.include-header: Gdiplus.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,23 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - Gdiplus.dll
+ - gdipluspath.h
 api_name:
  - GraphicsPath.AddRectangles
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: GDI+ 1.0
 ---
 
 # GraphicsPath::AddRectangles(IN const RectF,IN INT)
@@ -51,85 +50,37 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>GraphicsPath::AddRectangles</b> method adds a sequence of rectangles to this path.
+<span>This topic lists the 
+AddRectangles methods of the 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> class. For a complete list of methods for the 
+<b>GraphicsPath</b> class, see 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>. 
 
+
+</span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/0aa4a23b-3041-4c65-b81e-bbe47ec35007">AddRectangles(Rect*,INT)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/0aa4a23b-3041-4c65-b81e-bbe47ec35007">GraphicsPath::AddRectangles</a> method adds a sequence of rectangles to this path
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/9f5e91b9-bf02-4f4b-bb33-7a2dae2e1306">AddRectangles(RectF*,INT)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/9f5e91b9-bf02-4f4b-bb33-7a2dae2e1306">GraphicsPath::AddRectangles</a> method adds a sequence of rectangles to this path.
+
+</td>
+</tr>
+</table>
 
 ## -parameters
-
-
-
-
-### -param rects [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>*</b>
-
-Pointer to an array of rectangles that will be added to the path. 
-
-
-### -param count [in]
-
-Type: <b>INT</b>
-
-Integer that specifies the number of elements in the <i>rects</i> array. 
-
-
-## -returns
-
-
-
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
-</strong>
-
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/b86c87c0-7d6b-4e9d-b276-a98ac9a33772">AddRectangle Methods</a>
-
-
-
-<a href="https://msdn.microsoft.com/467d4a61-8430-403c-90ed-f8c224ce3b61">AddRectangles Methods</a>
-
-
-
-<a href="https://msdn.microsoft.com/816a5845-ca03-46c6-bdda-e6a7d02ff614">Clipping with a Region</a>
-
-
-
-<a href="https://msdn.microsoft.com/dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4">Constructing and Drawing Paths</a>
-
-
-
-<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
-
-
-
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
-
-
-
-<a href="https://msdn.microsoft.com/88fea2ec-7b53-44bb-841d-486c5c879c68">Paths</a>
-
-
-
-<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
-
-
-
-<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
-
-
-
-<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
- 
-
- 
 

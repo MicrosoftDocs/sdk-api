@@ -7,7 +7,7 @@ old-location: security\certenumphysicalstore.htm
 tech.root: seccrypto
 ms.assetid: 5804d565-5129-4e6d-8b3d-9bd938807740
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: CertEnumPhysicalStore, CertEnumPhysicalStore function [Security], _crypto2_certenumphysicalstore, security.certenumphysicalstore, wincrypt/CertEnumPhysicalStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -156,7 +156,7 @@ See
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

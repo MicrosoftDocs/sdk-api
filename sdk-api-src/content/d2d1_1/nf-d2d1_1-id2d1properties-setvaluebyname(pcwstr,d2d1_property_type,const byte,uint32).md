@@ -3,12 +3,12 @@ UID: NF:d2d1_1.ID2D1Properties.SetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,const BY
 title: ID2D1Properties::SetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,const BYTE,UINT32)
 author: windows-sdk-content
 description: Sets the named property to the given value.
-old-location: direct2d\id2d1properties_setvaluebyname__pcwstr__d2d1_property_type__const_byte__datasize_.htm
+old-location: direct2d\id2d1properties_setvaluebyname.htm
 tech.root: Direct2D
-ms.assetid: 53C31C95-4273-4588-A264-90A431DAE3DE
+ms.assetid: 3faedf5e-9329-4502-a1c9-162fd7b00319
 ms.author: windowssdkdev
 ms.date: 08/30/2018
-ms.keywords: ID2D1Properties interface [Direct2D],SetValueByName method, ID2D1Properties.SetValueByName, ID2D1Properties.SetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,const BYTE,UINT32), ID2D1Properties::SetValueByName, ID2D1Properties::SetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,const BYTE*,UINT32), ID2D1Properties::SetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,const BYTE,UINT32), SetValueByName, SetValueByName method [Direct2D], SetValueByName method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValueByName, direct2d.id2d1properties_setvaluebyname__pcwstr__d2d1_property_type__const_byte__datasize_
+ms.keywords: ID2D1Properties interface [Direct2D],SetValueByName method, ID2D1Properties.SetValueByName, ID2D1Properties.SetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,const BYTE,UINT32), ID2D1Properties::SetValueByName, ID2D1Properties::SetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,const BYTE,UINT32), ID2D1Properties::SetValueByName(PCWSTR,const BYTE*,UINT32), SetValueByName, SetValueByName method [Direct2D], SetValueByName method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValueByName, direct2d.id2d1properties_setvaluebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,22 +58,28 @@ Sets the named property to the given value.
 
 
 
-### -param name [in]
+#### - name [in]
+
+Type: <b>PCWSTR</b>
 
 The name of the property to set.
 
 
 ### -param type
 
-The type of the property to set.
+TBD
 
 
-### -param data [in]
+#### - data [in]
+
+Type: <b>const BYTE*</b>
 
 The data to set.
 
 
-### -param dataSize
+#### - dataSize
+
+Type: <b>UINT32</b>
 
 The number of bytes in the data to set.
 
@@ -81,6 +87,8 @@ The number of bytes in the data to set.
 ## -returns
 
 
+
+Type: <b>HRESULT</b>
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,8 +127,23 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
+## -remarks
+
+
+
+If the property does not exist, the request is ignored and the method returns <b>D2DERR_INVALID_PROPERTY</b>.
+
+Any error not in the standard set returned by a property implementation will be mapped into the standard error range.
+
+
+
+
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/dfe587f9-e92f-4367-a503-edd446a91cb8">ID2D1DeviceContext::CreateEffect</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\openpersonaltrustdbdialog.htm
 tech.root: seccrypto
 ms.assetid: 25f1d012-0c82-4992-b924-b539d4c6dc5f
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: OpenPersonalTrustDBDialog, OpenPersonalTrustDBDialog function [Security], security.openpersonaltrustdbdialog, wintrust/OpenPersonalTrustDBDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

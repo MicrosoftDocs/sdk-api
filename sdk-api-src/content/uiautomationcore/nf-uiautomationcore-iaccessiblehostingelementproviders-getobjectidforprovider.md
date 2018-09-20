@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAccessibleHostingElementProviders_GetObjectIdForPr
 tech.root: WinAuto
 ms.assetid: 847F285F-F31D-486C-BBC7-DEED69505306
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GetObjectIdForProvider, GetObjectIdForProvider method [Windows Accessibility], GetObjectIdForProvider method [Windows Accessibility],IAccessibleHostingElementProviders interface, IAccessibleHostingElementProviders interface [Windows Accessibility],GetObjectIdForProvider method, IAccessibleHostingElementProviders.GetObjectIdForProvider, IAccessibleHostingElementProviders::GetObjectIdForProvider, uiautomationcore/IAccessibleHostingElementProviders::GetObjectIdForProvider, winauto.uiauto_IAccessibleHostingElementProviders_GetObjectIdForProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

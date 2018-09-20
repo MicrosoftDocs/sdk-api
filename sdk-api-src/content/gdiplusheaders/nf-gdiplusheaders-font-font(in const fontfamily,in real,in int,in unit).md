@@ -2,21 +2,21 @@
 UID: NF:gdiplusheaders.Font.Font(IN const FontFamily,IN REAL,IN INT,IN Unit)
 title: Font::Font(IN const FontFamily,IN REAL,IN INT,IN Unit)
 author: windows-sdk-content
-description: Creates a Font::Font object based on a FontFamily object, a size, a font style, and a unit of measurement.
-old-location: gdiplus\_gdiplus_CLASS_Font_Font_family_emSize_style_unit_.htm
+description: This topic lists the constructors of the Font class. For a complete class listing, see Font Class.
+old-location: gdiplus\_gdiplus_CLASS_Font_Constructors.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors\font_0family_emsize_style_unit.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: Font, Font class [GDI+],Font constructor, Font constructor [GDI+], Font constructor [GDI+],Font class, Font.Font, Font.Font(IN const FontFamily,IN REAL,IN INT,IN Unit), Font.Font(const FontFamily*,REAL,INT,Unit), Font::Font, Font::Font(IN const FontFamily,IN REAL,IN INT,IN Unit), _gdiplus_CLASS_Font_Font_family_emSize_style_unit_, gdiplus._gdiplus_CLASS_Font_Font_family_emSize_style_unit_
+ms.keywords: Font, Font constructors [GDI+], Font.Font, Font.Font(IN const FontFamily,IN REAL,IN INT,IN Unit), Font::Font, Font::Font(IN const FontFamily,IN REAL,IN INT,IN Unit), _gdiplus_CLASS_Font_Constructors, gdiplus._gdiplus_CLASS_Font_Constructors, gdiplusheaders/Font
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
-req.include-header: Gdiplus.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,23 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - Gdiplus.dll
+ - gdiplusheaders.h
 api_name:
  - Font.Font
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: GDI+ 1.0
 ---
 
 # Font::Font(IN const FontFamily,IN REAL,IN INT,IN Unit)
@@ -51,67 +50,71 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <b>Font::Font</b> object based on a <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object, a size, a font style, and a unit of measurement.
+<span>This topic lists the constructors of the 
+			<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> class. For a complete class listing, see <b>Font Class</b>. 
+</span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Constructor</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/72e0513d-867b-4ce4-8fc1-b9f2e755ec41">Font(HDC,HFONT)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/72e0513d-867b-4ce4-8fc1-b9f2e755ec41">Font::Font</a> object indirectly from a GDI logical font by using a handle to a GDI <b>LOGFONT</b> structure.
 
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/ce274648-bcde-47ff-9d4e-654a74f029ea">Font(HDC,LOGFONTA*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/ce274648-bcde-47ff-9d4e-654a74f029ea">Font::Font</a> object directly from a GDI logical font. The GDI logical font is a 
+			<b>LOGFONTA</b> structure, which is the one-byte character version of a logical font. This constructor is provided for compatibility with GDI.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/a8fada4f-7d7d-4737-8718-b1ef5fbae78b">Font(HDC,LOGFONTW*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/a8fada4f-7d7d-4737-8718-b1ef5fbae78b">Font::Font</a> object directly from a GDI logical font. The GDI logical font is a 
+			<b>LOGFONTW</b> structure, which is the wide character version of a logical font. This constructor is provided for compatibility with GDI.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/72190176-d116-4832-b723-fe2f9baca704">Font(FontFamily*,REAL,INT,Unit)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/72190176-d116-4832-b723-fe2f9baca704">Font::Font</a> object based on a <a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a> object, a size, a font style, and a unit of measurement.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/3f64bfd9-2ea9-45e6-a0be-2886d89c789e">Font(WCHAR*,REAL,INT,Unit,FontCollection*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/3f64bfd9-2ea9-45e6-a0be-2886d89c789e">Font::Font</a> object based on a font family, a size, a font style, a unit of measurement, and a 
+			<a href="https://msdn.microsoft.com/5e1336ea-cb29-4fa4-85d5-077498a69cb2">FontCollection</a> object.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/0dabb6fb-172f-4982-bc0d-bb2c122976f8">Font(HDC)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/0dabb6fb-172f-4982-bc0d-bb2c122976f8">Font::Font</a> object based on the GDI font object that is currently selected into a specified device context. This constructor is provided for compatibility with GDI. 
+
+</td>
+</tr>
+</table>
 
 ## -parameters
-
-
-
-
-### -param family [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>*</b>
-
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object that specifies information such as the string that identifies the font family and the font family's text metrics measured in design units. 
-
-
-### -param emSize [in]
-
-Type: <b>REAL</b>
-
-Real number that specifies the em size of the font measured in the units specified in the 
-					<i>unit</i> parameter. 
-
-
-### -param style [in]
-
-Type: <b>INT</b>
-
-Optional. Integer that specifies the style of the typeface. This value must be an element of the <a href="https://msdn.microsoft.com/de08c779-1f43-4740-b2b9-8d3906dc4432">FontStyle</a> enumeration or the result of a bitwise 
-					<b>OR</b> applied to two or more of these elements. For example, FontStyleBold | FontStyleUnderline | FontStyleStrikeout  sets the style as a combination of the three styles. The default value is FontStyleRegular. 
-
-
-### -param unit [in]
-
-Type: <b><a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">Unit</a></b>
-
-Optional. Element of the <a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">Unit</a> enumeration that specifies the unit of measurement for the font size. The default value is UnitPoint. 
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
-
-
-
-<a href="https://msdn.microsoft.com/de08c779-1f43-4740-b2b9-8d3906dc4432">FontStyle</a>
-
-
-
-<a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">Unit</a>
-
-
-
-<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
- 
-
- 
 

@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accfocus.htm
 tech.root: WinAuto
 ms.assetid: 42114c5d-8f28-458a-8d22-ac1531cd50d2
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accFocus method, IAccessible.get_accFocus, IAccessible::get_accFocus, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_get_accFocus, get_accFocus, get_accFocus method [Windows Accessibility], get_accFocus method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accfocus, oleacc/IAccessible::get_accFocus, winauto.iaccessible_iaccessible__get_accfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -178,9 +178,13 @@ As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows a possible implementation of this method for a custom single-selection list box. If the control does not have the focus, VT_EMPTY is returned in the variant by the standard accessible object for the HWND. If the control does have the focus, and an item is selected, the child ID of that item is returned; if there is no selection, CHILDID_SELF is returned.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // m_pControl is the control object that is served by this implementation. 
 // m_pStdAccessibleObject is the object returned by CreateStdAccessibleObject. 
 
@@ -188,31 +192,31 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accFocus(VARIANT *pvarChild)
 {
     FAIL_IF_NO_CONTROL;  // Macro that checks for existence of control. 
 
-    HRESULT hr = m_pStdAccessibleObject->get_accFocus(pvarChild);  
-    if (pvarChild->vt != VT_I4)
+    HRESULT hr = m_pStdAccessibleObject-&gt;get_accFocus(pvarChild);  
+    if (pvarChild-&gt;vt != VT_I4)
     {
         return hr;
     }
     else
     {
-        int index = m_pControl->GetSelectedIndex();
-        if (index <0)
+        int index = m_pControl-&gt;GetSelectedIndex();
+        if (index &lt;0)
         {
-            pvarChild->lVal = CHILDID_SELF;
+            pvarChild-&gt;lVal = CHILDID_SELF;
         }
         else
         {
             // Convert to 1-based index for child ID. 
-            pvarChild->lVal = index + 1;
+            pvarChild-&gt;lVal = index + 1;
         }
     }
     return S_OK;
 };
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

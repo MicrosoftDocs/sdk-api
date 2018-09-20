@@ -7,7 +7,7 @@ old-location: shell\IDesktopWallpaper_GetMonitorDevicePathCount.htm
 tech.root: shell
 ms.assetid: E7490E24-7BCE-4fbb-8512-998EAE045CE7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GetMonitorDevicePathCount, GetMonitorDevicePathCount method [Windows Shell], GetMonitorDevicePathCount method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetMonitorDevicePathCount method, IDesktopWallpaper.GetMonitorDevicePathCount, IDesktopWallpaper::GetMonitorDevicePathCount, shell.IDesktopWallpaper_GetMonitorDevicePathCount, shobjidl_core/IDesktopWallpaper::GetMonitorDevicePathCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

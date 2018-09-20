@@ -7,7 +7,7 @@ old-location: security\ienroll4_deleterequestcert.htm
 tech.root: seccrypto
 ms.assetid: 54b85347-cdc1-42e3-bc26-0b50bd58131a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: DeleteRequestCert property [Security], DeleteRequestCert property [Security],IEnroll interface, IEnroll interface [Security],DeleteRequestCert property, IEnroll.DeleteRequestCert, IEnroll.put_DeleteRequestCert, IEnroll::DeleteRequestCert, IEnroll::get_DeleteRequestCert, IEnroll::put_DeleteRequestCert, put_DeleteRequestCert, security.ienroll4_deleterequestcert, xenroll/IEnroll::DeleteRequestCert, xenroll/IEnroll::get_DeleteRequestCert, xenroll/IEnroll::put_DeleteRequestCert
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IUnknown_SetSite.htm
 tech.root: shell
 ms.assetid: 66175435-f85b-4e26-b148-f4edb74cb41d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: IUnknown_SetSite, IUnknown_SetSite function [Windows Shell], _win32_IUnknown_SetSite, shell.IUnknown_SetSite, shlwapi/IUnknown_SetSite
 ms.prod: windows-hardware
 ms.technology: windows-devices

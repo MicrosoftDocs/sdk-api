@@ -53,7 +53,7 @@ req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ## -description
 
 
-Generates the x offset from the left end or leading edge of a run to either the leading or trailing edge of a logical character <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">cluster</a>.
+Generates the x offset from the left end or leading edge of a run to either the leading or trailing edge of a logical character <a href="uniscribe_glossary.htm">cluster</a>.
 
 
 ## -parameters

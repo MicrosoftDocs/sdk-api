@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetAxisZ(IDCompositionAnimation)
 title: IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation)
 author: windows-sdk-content
-description: Animates the value of the AxisZ property of a 3D rotation transform. The AxisZ property specifies the z-coordinate for the axis vector of rotation. The default value is 1.0.
-old-location: directcomp\idcompositionrotatetransform3d_setaxisz_idcompositionanimation.htm
+description: Changes the value of the AxisZ property of a 3D rotation transform. The AxisZ property specifies the z-coordinate for the axis vector of rotation. The default value is 1.0.
+old-location: directcomp\idcompositionrotatetransform3d_setaxisz_float.htm
 tech.root: directcomp
-ms.assetid: 2264BB6F-D2B7-49A8-959A-FA5AA935F6CC
+ms.assetid: 2150E564-0E19-40E9-9D33-53EA17917A8F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAxisZ method, IDCompositionRotateTransform3D.SetAxisZ, IDCompositionRotateTransform3D.SetAxisZ(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisZ, IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation*), SetAxisZ, SetAxisZ method [DirectComposition], SetAxisZ method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAxisZ, directcomp.idcompositionrotatetransform3d_setaxisz_idcompositionanimation
+ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAxisZ method, IDCompositionRotateTransform3D.SetAxisZ, IDCompositionRotateTransform3D.SetAxisZ(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisZ, IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisZ(float), SetAxisZ, SetAxisZ method [DirectComposition], SetAxisZ method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAxisZ, directcomp.idcompositionrotatetransform3d_setaxisz_float
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Animates the value of the AxisZ property of a 3D rotation transform. The AxisZ property specifies the z-coordinate for the axis vector of rotation. The default value is 1.0.
+Changes the value of the AxisZ property of a 3D rotation transform. The AxisZ property specifies the z-coordinate for the axis vector of rotation. The default value is 1.0.
 
 
 ## -parameters
@@ -58,11 +58,18 @@ Animates the value of the AxisZ property of a 3D rotation transform. The AxisZ p
 
 
 
-### -param animation [in]
+### -param animation
 
-Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
+TBD
 
-An animation object that determines how the value of the AxisZ property changes over time. This parameter must not be NULL.
+
+
+
+#### - axisZ [in]
+
+Type: <b>float</b>
+
+The new z-coordinate for the axis vector of rotation. 
 
 
 ## -returns
@@ -82,14 +89,12 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 When setting the axis to a non-default value, you should always set all three axis properties (AxisX, AxisY, and AxisZ).
 
-This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the AxisZ property unless this method is called again. If the AxisZ property was previously animated, calling this method replaces the previous animation with the new animation. 
+This method fails if the <i>axisZ</i> parameter is NaN, positive infinity, or negative infinity.
 
 
 
-This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected 3D transform. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+If the AxisZ property was previously animated, this method removes the animation and sets the AxisX property to the specified static value.
 
-
-The default value is 0.
 
 
 

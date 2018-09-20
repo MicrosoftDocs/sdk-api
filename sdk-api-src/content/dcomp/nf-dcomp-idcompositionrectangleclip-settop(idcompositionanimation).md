@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionRectangleClip.SetTop(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetTop(IDCompositionAnimation)
 author: windows-sdk-content
-description: Animates the value of the Top property of a clip rectangle.
-old-location: directcomp\idcompositionrectangleclip_settop_idcompositionanimation.htm
+description: Changes the value of the Top property of a clip rectangle.
+old-location: directcomp\idcompositionrectangleclip_settop_float.htm
 tech.root: directcomp
-ms.assetid: EDA9C74C-A3B1-4D49-9A76-B95175EA2E91
+ms.assetid: 7D3AB5CC-7295-4160-9AAB-91C61A445B24
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTop method, IDCompositionRectangleClip.SetTop, IDCompositionRectangleClip.SetTop(IDCompositionAnimation), IDCompositionRectangleClip::SetTop, IDCompositionRectangleClip::SetTop(IDCompositionAnimation), IDCompositionRectangleClip::SetTop(IDCompositionAnimation*), SetTop, SetTop method [DirectComposition], SetTop method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTop, directcomp.idcompositionrectangleclip_settop_idcompositionanimation
+ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTop method, IDCompositionRectangleClip.SetTop, IDCompositionRectangleClip.SetTop(IDCompositionAnimation), IDCompositionRectangleClip::SetTop, IDCompositionRectangleClip::SetTop(IDCompositionAnimation), IDCompositionRectangleClip::SetTop(float), SetTop, SetTop method [DirectComposition], SetTop method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTop, directcomp.idcompositionrectangleclip_settop_float
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,8 @@ req.redist:
 ## -description
 
 
-Animates the value of the Top property of a clip rectangle. The Top property specifies the y-coordinate of the upper-left corner of the clip rectangle.
+Changes the value of the Top property of a clip rectangle. The Top property specifies the y-coordinate of the upper-left corner of the clip rectangle.
+      
 
 
 ## -parameters
@@ -58,11 +59,19 @@ Animates the value of the Top property of a clip rectangle. The Top property spe
 
 
 
-### -param animation [in]
+### -param animation
 
-Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
+TBD
 
-An animation object that determines how the value of the Top property changes over time. This parameter must not be NULL.
+
+
+
+#### - top [in]
+
+Type: <b>float</b>
+
+The new value of the Top property, in pixels. This parameter has a numerical limit of -2^21 to 2^21. 
+            The API accepts numbers outside of this range, but they are always clamped to this range.
 
 
 ## -returns
@@ -72,6 +81,7 @@ An animation object that determines how the value of the Top property changes ov
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+            
 
 
 
@@ -80,12 +90,12 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the Top property unless this method is called again. If the Top  property was previously animated, calling this method replaces the previous animation with the new animation. 
+This method fails if the <i>top</i> parameter is NaN, positive infinity, or negative infinity.
 
+      
 
-
-This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
-
+If the Top property was previously animated, this method removes the animation and sets the Top property to the specified static value.
+      
 
 
 

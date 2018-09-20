@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 7a52172c-76d9-4ab7-98db-c880b2d11f68
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GetLastChildElementBuildCache, GetLastChildElementBuildCache method [Windows Accessibility], GetLastChildElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetLastChildElementBuildCache method, IUIAutomationTreeWalker.GetLastChildElementBuildCache, IUIAutomationTreeWalker::GetLastChildElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache, uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetLastChildElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

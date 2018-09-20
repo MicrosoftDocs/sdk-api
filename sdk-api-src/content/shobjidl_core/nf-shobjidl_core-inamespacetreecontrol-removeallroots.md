@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControl_RemoveAllRoots.htm
 tech.root: shell
 ms.assetid: 9d2eb0c1-c90f-47fb-a322-4267d175df22
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],RemoveAllRoots method, INameSpaceTreeControl.RemoveAllRoots, INameSpaceTreeControl::RemoveAllRoots, RemoveAllRoots, RemoveAllRoots method [Windows Shell], RemoveAllRoots method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_RemoveAllRoots, shell.INameSpaceTreeControl_RemoveAllRoots, shobjidl_core/INameSpaceTreeControl::RemoveAllRoots
 ms.prod: windows-hardware
 ms.technology: windows-devices

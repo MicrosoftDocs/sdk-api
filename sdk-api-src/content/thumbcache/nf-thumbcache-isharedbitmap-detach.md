@@ -7,7 +7,7 @@ old-location: shell\ISharedBitmap_Detach.htm
 tech.root: shell
 ms.assetid: 1d68beca-c254-435e-a1cd-04e7aa462c84
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: Detach, Detach method [Windows Shell], Detach method [Windows Shell],ISharedBitmap interface, ISharedBitmap interface [Windows Shell],Detach method, ISharedBitmap.Detach, ISharedBitmap::Detach, _shell__Detach, shell.ISharedBitmap_Detach, thumbcache/ISharedBitmap::Detach
 ms.prod: windows-hardware
 ms.technology: windows-devices

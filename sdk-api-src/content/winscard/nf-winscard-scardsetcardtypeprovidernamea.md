@@ -164,7 +164,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -188,9 +188,13 @@ This function sets the provider name, while
 
 The following example  shows how to specify the card type provider name.
 
-
-```cpp
-LPTSTR            szNewProvName = _T("My Provider Name");
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPTSTR            szNewProvName = _T("My Provider Name");
 LPTSTR            szCardName = _T("WindowsCard");
 LONG              lReturn = SCARD_S_SUCCESS;
 
@@ -205,10 +209,10 @@ if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardSetCardTypeProviderName - %x\n", lReturn);
     exit(1);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

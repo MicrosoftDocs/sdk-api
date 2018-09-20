@@ -7,7 +7,7 @@ old-location: shell\IRunnableTask_IsRunning.htm
 tech.root: shell
 ms.assetid: 14117a47-d462-4be1-b440-8d422c938815
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: IRunnableTask interface [Windows Shell],IsRunning method, IRunnableTask.IsRunning, IRunnableTask::IsRunning, IsRunning, IsRunning method [Windows Shell], IsRunning method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_IsRunning, shell.IRunnableTask_IsRunning, shobjidl_core/IRunnableTask::IsRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices

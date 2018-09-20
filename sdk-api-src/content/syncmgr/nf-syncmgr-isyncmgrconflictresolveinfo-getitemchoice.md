@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflictResolveInfo_GetItemChoice.htm
 tech.root: shell
 ms.assetid: 3c857e53-756b-44c2-b3fa-6d57c21939e7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GetItemChoice, GetItemChoice method [Windows Shell], GetItemChoice method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetItemChoice method, ISyncMgrConflictResolveInfo.GetItemChoice, ISyncMgrConflictResolveInfo::GetItemChoice, _shell_ISyncMgrConflictResolveInfo_GetItemChoice, shell.ISyncMgrConflictResolveInfo_GetItemChoice, syncmgr/ISyncMgrConflictResolveInfo::GetItemChoice
 ms.prod: windows-hardware
 ms.technology: windows-devices

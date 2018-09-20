@@ -60,7 +60,7 @@ Adds a composite menu to the window frame containing the object being activated 
 
 ### -param hmenuShared [in]
 
-A handle to the composite menu constructed by calls to <a href="https://msdn.microsoft.com/659ea109-c2c1-4146-aed2-60b1ce853d89">IOleInPlaceFrame::InsertMenus</a> and the <a href="https://msdn.microsoft.com/en-us/library/ms647987(v=VS.85).aspx">InsertMenu</a> function.
+A handle to the composite menu constructed by calls to <a href="https://msdn.microsoft.com/659ea109-c2c1-4146-aed2-60b1ce853d89">IOleInPlaceFrame::InsertMenus</a> and the <a href="_win32_InsertMenu_cpp">InsertMenu</a> function.
 
 
 ### -param holemenu [in]
@@ -120,11 +120,11 @@ An unexpected error has occurred.
 The object calls <b>IOleInPlaceFrame::SetMenu</b> to ask the container to install the composite menu structure set up by calls to <a href="https://msdn.microsoft.com/659ea109-c2c1-4146-aed2-60b1ce853d89">IOleInPlaceFrame::InsertMenus</a>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-An SDI container's implementation of this method should call the <a href="https://msdn.microsoft.com/en-us/library/ms647995(v=VS.85).aspx">SetMenu</a> function. An MDI container should send a <a href="https://msdn.microsoft.com/en-us/library/ms644921(v=VS.85).aspx">WM_MDISETMENU</a> message, using <i>hmenuShared</i> as the menu to install. The container should call <a href="https://msdn.microsoft.com/c80fe36d-5093-4814-83a9-0c11c5a7cf5f">OleSetMenuDescriptor</a> to install the OLE dispatching code.
+An SDI container's implementation of this method should call the <a href="_win32_SetMenu_cpp">SetMenu</a> function. An MDI container should send a <a href="_win32_WM_MDISETMENU_cpp">WM_MDISETMENU</a> message, using <i>hmenuShared</i> as the menu to install. The container should call <a href="https://msdn.microsoft.com/c80fe36d-5093-4814-83a9-0c11c5a7cf5f">OleSetMenuDescriptor</a> to install the OLE dispatching code.
 
 When deactivating, the container must call <b>IOleInPlaceFrame::SetMenu</b>, specifying <b>NULL</b> to remove the shared menu. This is done to help minimize window repaints. The container should also call <a href="https://msdn.microsoft.com/c80fe36d-5093-4814-83a9-0c11c5a7cf5f">OleSetMenuDescriptor</a>, specifying <b>NULL</b> to unhook the dispatching code. Finally, the object application calls <a href="https://msdn.microsoft.com/dc347d39-a7bb-4bbf-8957-c3fbcff461bf">OleDestroyMenuDescriptor</a> to free the data structure.
 
-<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceFrame::SetMenu</b>, do not make calls to the <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceFrame::SetMenu</b>.</div>
+<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceFrame::SetMenu</b>, do not make calls to the <a href="_win32_PeekMessage_cpp">PeekMessage</a> or <a href="_win32_GetMessage_cpp">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceFrame::SetMenu</b>.</div>
 <div> </div>
 
 
@@ -142,7 +142,7 @@ When deactivating, the container must call <b>IOleInPlaceFrame::SetMenu</b>, spe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647987(v=VS.85).aspx">InsertMenu</a>
+<a href="_win32_InsertMenu_cpp">InsertMenu</a>
 
 
 

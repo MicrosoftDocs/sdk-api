@@ -4,10 +4,10 @@ title: IUpdateServiceManager2::put_ClientApplicationID
 author: windows-sdk-content
 description: Gets and sets the identifier of the current client application.
 old-location: wua\iupdateservicemanager2_clientapplicationid.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 6783b7fc-ebb7-4b68-b71c-23e65ef61504
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/19/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateServiceManager2 interface, IUpdateServiceManager2 interface [Windows Update Agent],ClientApplicationID property, IUpdateServiceManager2.ClientApplicationID, IUpdateServiceManager2.put_ClientApplicationID, IUpdateServiceManager2::ClientApplicationID, IUpdateServiceManager2::get_ClientApplicationID, IUpdateServiceManager2::put_ClientApplicationID, put_ClientApplicationID, wua.iupdateservicemanager2_clientapplicationid, wuapi/IUpdateServiceManager2::ClientApplicationID, wuapi/IUpdateServiceManager2::get_ClientApplicationID, wuapi/IUpdateServiceManager2::put_ClientApplicationID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -62,7 +62,7 @@ Contains information about a column in report view. This structure is used both 
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Variable specifying which members contain valid information. This member can be zero, or one or more of the following values:
 
@@ -118,7 +118,7 @@ The <b>iSubItem</b> member is valid.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.70</a>. The <b>iImage</b> member is valid.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. The <b>iImage</b> member is valid.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ The <b>iSubItem</b> member is valid.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.70</a>. The <b>iOrder</b> member is valid.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. The <b>iOrder</b> member is valid.
 
 </td>
 </tr>
@@ -228,7 +228,7 @@ A bitmask used to select those bits of <b>fmt</b> that control field justificati
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.70</a>. The item displays an image from an image list. 
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. The item displays an image from an image list. 
 
 </td>
 </tr>
@@ -239,7 +239,7 @@ A bitmask used to select those bits of <b>fmt</b> that control field justificati
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.70</a>. The bitmap appears to the right of text. This does not affect an image from an image list assigned to the header item.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. The bitmap appears to the right of text. This does not affect an image from an image list assigned to the header item.
 
 </td>
 </tr>
@@ -250,7 +250,7 @@ A bitmask used to select those bits of <b>fmt</b> that control field justificati
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.70</a>. The header item contains an image in the image list.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. The header item contains an image in the image list.
 
 </td>
 </tr>
@@ -335,7 +335,7 @@ Index of subitem associated with the column.
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.70</a>. Zero-based index of an image within the image list. The specified image will appear within the column.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. Zero-based index of an image within the image list. The specified image will appear within the column.
 
 
 ### -field iOrder
@@ -343,7 +343,7 @@ Type: <b>int</b>
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.70</a>. Zero-based column offset. Column offset is in left-to-right order. For example, zero indicates the leftmost column.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. Zero-based column offset. Column offset is in left-to-right order. For example, zero indicates the leftmost column.
 
 
 ### -field cxMin
@@ -381,19 +381,19 @@ If a column is added to a list-view control with index 0 (the leftmost column), 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774894(v=VS.85).aspx">LVM_DELETECOLUMN</a>
+<a href="https://msdn.microsoft.com/1748a70b-9a13-4753-ac23-55b5652164c2">LVM_DELETECOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774911(v=VS.85).aspx">LVM_GETCOLUMN</a>
+<a href="https://msdn.microsoft.com/59b4bbfc-6c38-4faa-8f2e-3ea5d24e55a6">LVM_GETCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761101(v=VS.85).aspx">LVM_INSERTCOLUMN</a>
+<a href="https://msdn.microsoft.com/1326e38e-bb45-4d0d-b5bc-ec684b3b92ef">LVM_INSERTCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761159(v=VS.85).aspx">LVM_SETCOLUMN</a>
+<a href="https://msdn.microsoft.com/8ca1c269-fd86-4561-940d-b75f8ca2b731">LVM_SETCOLUMN</a>
 
 
 

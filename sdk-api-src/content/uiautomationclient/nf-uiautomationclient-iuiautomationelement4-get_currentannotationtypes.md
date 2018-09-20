@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement4_CurrentAnnotationTypes.htm
 tech.root: WinAuto
 ms.assetid: 665297AC-AD49-44F4-A51C-16D3EC85B431
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: CurrentAnnotationTypes property [Windows Accessibility], CurrentAnnotationTypes property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentAnnotationTypes property, IUIAutomationElement4.CurrentAnnotationTypes, IUIAutomationElement4.get_CurrentAnnotationTypes, IUIAutomationElement4::CurrentAnnotationTypes, IUIAutomationElement4::get_CurrentAnnotationTypes, get_CurrentAnnotationTypes, uiautomationclient/IUIAutomationElement4::CurrentAnnotationTypes, uiautomationclient/IUIAutomationElement4::get_CurrentAnnotationTypes, winauto.uiauto_IUIAutomationElement4_CurrentAnnotationTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845692(v=VS.85).aspx">CachedAnnotationTypes</a>
+<a href="winauto.uiauto_IUIAutomationElement4_CachedAnnotationTypes">CachedAnnotationTypes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903677(v=VS.85).aspx">IUIAutomationElement4</a>
+<a href="winauto.iuiautomationelement4">IUIAutomationElement4</a>
  
 
  

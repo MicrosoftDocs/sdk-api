@@ -2,21 +2,21 @@
 UID: NF:gdipluspath.GraphicsPath.AddClosedCurve(IN const Point,IN INT)
 title: GraphicsPath::AddClosedCurve(IN const Point,IN INT)
 author: windows-sdk-content
-description: The GraphicsPath::AddClosedCurve method adds a closed cardinal spline to this path.
-old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddClosedCurve_PointF_points_INT_count_.htm
+description: This topic lists the AddClosedCurve methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddClosedCurve_Methods.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddclosedcurvemethods\addclosedcurve_78pointfpoints_intcount.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddclosedcurvemethods.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: AddClosedCurve, AddClosedCurve method [GDI+], AddClosedCurve method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddClosedCurve method, GraphicsPath.AddClosedCurve, GraphicsPath.AddClosedCurve(IN const Point,IN INT), GraphicsPath.AddClosedCurve(const PointF*,INT), GraphicsPath::AddClosedCurve, GraphicsPath::AddClosedCurve(IN const Point,IN INT), _gdiplus_CLASS_GraphicsPath_AddClosedCurve_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddClosedCurve_PointF_points_INT_count_
+ms.keywords: AddClosedCurve, AddClosedCurve methods [GDI+], GraphicsPath.AddClosedCurve, GraphicsPath.AddClosedCurve(IN const Point,IN INT), GraphicsPath::AddClosedCurve, GraphicsPath::AddClosedCurve(IN const Point,IN INT), _gdiplus_CLASS_GraphicsPath_AddClosedCurve_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddClosedCurve_Methods, gdipluspath/AddClosedCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
-req.include-header: Gdiplus.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,23 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - Gdiplus.dll
+ - gdipluspath.h
 api_name:
  - GraphicsPath.AddClosedCurve
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: GDI+ 1.0
 ---
 
 # GraphicsPath::AddClosedCurve(IN const Point,IN INT)
@@ -51,134 +50,55 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>GraphicsPath::AddClosedCurve</b> method adds a closed cardinal spline to this path.
+<span>This topic lists the 
+AddClosedCurve methods of the 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> class. For a complete list of methods for the 
+<b>GraphicsPath</b> class, see 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>. 
 
 
-## -parameters
-
-
-
-
-### -param points [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>*</b>
-
-Pointer to an array of points that define the cardinal spline. The cardinal spline is a curve that passes through each point in the array. 
-
-
-### -param count [in]
-
-Type: <b>INT</b>
-
-Integer that specifies the number of elements in the <i>points</i> array. 
-
-
-## -returns
-
-
-
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
-</strong>
-
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-
-
-
-## -remarks
-
-
-
-You should keep a copy of the <i>points</i> array if those points will be needed later. The <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object does not store the points passed to the <b>GraphicsPath::AddClosedCurve</b> method; instead, it converts the cardinal spline to a sequence of Bézier splines and stores the points that define those Bézier splines. You cannot retrieve the original array of points from the <b>GraphicsPath</b> object.
-
-
-#### Examples
-
-
-
-The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object <i>path</i>, adds a closed cardinal spline to <i>path</i>, and then draws <i>path</i>.
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+</span><h3>Overload list</h3><table>
 <tr>
-<th>C++</th>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
 </tr>
 <tr>
-<td>
-<pre>VOID Example_AddClosedCurve(HDC hdc)
-{
-   Graphics graphics(hdc); 
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/41dfe6f5-330c-4f72-9c54-10290e96aadc">AddClosedCurve(Point*,INT)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/41dfe6f5-330c-4f72-9c54-10290e96aadc">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
 
-   PointF pts[] = {PointF(50.0f,50.0f),
-                   PointF(60.0f,20.0f),
-                   PointF(70.0f,100.0f),
-                   PointF(80.0f,50.0f)};
-
-   GraphicsPath path;
-   path.AddClosedCurve(pts, 4);
-
-   // Draw the path.
-   Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawPath(&amp;pen, &amp;path);
-}</pre>
 </td>
 </tr>
-</table></span></div>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/cd2aaebd-da69-4664-ae8b-c559bb510913">AddClosedCurve(PointF*,INT)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/cd2aaebd-da69-4664-ae8b-c559bb510913">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
 
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/b90df0c1-6153-445a-8714-1a3c14565e62">AddClosedCurve(Point*,INT,REAL)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/b90df0c1-6153-445a-8714-1a3c14565e62">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
 
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/bcce3253-dbe0-4d71-ad5e-cfb514881d34">AddClosedCurve(PointF*,INT,REAL)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/bcce3253-dbe0-4d71-ad5e-cfb514881d34">GraphicsPath::AddClosedCurve</a> method adds a closed cardinal spline to this path.
 
-## -see-also
+</td>
+</tr>
+</table>
 
-
-
-
-<a href="https://msdn.microsoft.com/1c4f3d1b-1fdb-4fde-8f69-bcfac1a33663">AddBezier Methods</a>
-
-
-
-<a href="https://msdn.microsoft.com/fb754409-1867-41bd-a9d3-952e393490f8">AddBeziers Methods</a>
-
-
-
-<a href="https://msdn.microsoft.com/5a633a04-1de4-43f5-a898-d30245567e5d">AddClosedCurve Methods</a>
-
-
-
-<a href="https://msdn.microsoft.com/81f43f7e-a383-44f7-a3bd-2969d541b616">AddCurve Methods</a>
-
-
-
-<a href="https://msdn.microsoft.com/4fc62f00-7006-4ade-bfcc-091a3a97d889">Cardinal Splines</a>
-
-
-
-<a href="https://msdn.microsoft.com/816a5845-ca03-46c6-bdda-e6a7d02ff614">Clipping with a Region</a>
-
-
-
-<a href="https://msdn.microsoft.com/dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4">Constructing and Drawing Paths</a>
-
-
-
-<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
-
-
-
-<a href="https://msdn.microsoft.com/0bb84f55-18d0-4a4c-bc5b-7803aa807954">Drawing Cardinal Splines</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
-
-
-
-<a href="https://msdn.microsoft.com/88fea2ec-7b53-44bb-841d-486c5c879c68">Paths</a>
-
-
-
-<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
- 
-
- 
+## -parameters
 

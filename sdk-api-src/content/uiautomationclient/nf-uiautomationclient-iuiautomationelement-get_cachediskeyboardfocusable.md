@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedIsKeyboardFocusable.htm
 tech.root: WinAuto
 ms.assetid: ccb10e4f-9d44-452a-99dd-f29290fe720d
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: CachedIsKeyboardFocusable property [Windows Accessibility], CachedIsKeyboardFocusable property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsKeyboardFocusable property, IUIAutomationElement.CachedIsKeyboardFocusable, IUIAutomationElement.get_CachedIsKeyboardFocusable, IUIAutomationElement::CachedIsKeyboardFocusable, IUIAutomationElement::get_CachedIsKeyboardFocusable, get_CachedIsKeyboardFocusable, uiauto.uiauto_IUIAutomationElement_CachedIsKeyboardFocusable, uiauto_IUIAutomationElement_CachedIsKeyboardFocusable, uiautomationclient/IUIAutomationElement::CachedIsKeyboardFocusable, uiautomationclient/IUIAutomationElement::get_CachedIsKeyboardFocusable, winauto.uiauto_IUIAutomationElement_CachedIsKeyboardFocusable
 ms.prod: windows-hardware
 ms.technology: windows-devices

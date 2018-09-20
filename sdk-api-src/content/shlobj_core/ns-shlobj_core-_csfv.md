@@ -7,7 +7,7 @@ old-location: shell\CSFV.htm
 tech.root: shell
 ms.assetid: 9ec22fd4-1562-4ef0-b932-ebbf06082807
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: "*LPCSFV, CSFV, CSFV structure [Windows Shell], LPCSFV, LPCSFV structure pointer [Windows Shell], _CSFV, _win32_CSFV, shell.CSFV, shlobj_core/CSFV, shlobj_core/LPCSFV"
 ms.prod: windows
 ms.technology: windows-sdk

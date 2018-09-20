@@ -52,22 +52,22 @@ req.redist:
 
 
 Implement this interface to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363146(v=VS.85).aspx">receive notification</a> that a file has completed downloading. Instead of  polling for the download status of a file, clients use this interface.
+<a href="https://msdn.microsoft.com/29350ea4-f7a9-4a42-a531-2cf623fe247b">receive notification</a> that a file has completed downloading. Instead of  polling for the download status of a file, clients use this interface.
 			
 
 To receive notifications, call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363045(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> implementation. To specify which notifications you want to receive, call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363044(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyFlags</a> method.
+<a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your 
+<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> implementation. To specify which notifications you want to receive, call the 
+<a href="https://msdn.microsoft.com/24aa6445-d7bd-4825-9121-402e63ae6f69">IBackgroundCopyJob::SetNotifyFlags</a> method.
 
-You must implement all methods of this interface and the <a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> interface. For example, if you do not register for the file transferred callback, your <a href="https://msdn.microsoft.com/en-us/library/Aa362871(v=VS.85).aspx">FileTransferred</a> method must still return <b>S_OK</b>. If you do not want to receive the file transferred callback, you can simply implement the <b>IBackgroundCopyCallback</b> instead.
+You must implement all methods of this interface and the <a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> interface. For example, if you do not register for the file transferred callback, your <a href="https://msdn.microsoft.com/c7e22911-9c14-48ef-8283-f0787b089432">FileTransferred</a> method must still return <b>S_OK</b>. If you do not want to receive the file transferred callback, you can simply implement the <b>IBackgroundCopyCallback</b> instead.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyCallback2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a>. <b>IBackgroundCopyCallback2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyCallback2</b> interface inherits from <a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a>. <b>IBackgroundCopyCallback2</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -80,7 +80,7 @@ The <b>IBackgroundCopyCallback2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362871(v=VS.85).aspx">FileTransferred</a>
+<a href="https://msdn.microsoft.com/c7e22911-9c14-48ef-8283-f0787b089432">FileTransferred</a>
 </td>
 <td align="left" width="63%">
 Called when BITS successfully finishes transferring a file.
@@ -94,7 +94,7 @@ Called when BITS successfully finishes transferring a file.
 
 
 
-For more details on implementing this interface, see the <a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> interface.
+For more details on implementing this interface, see the <a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> interface.
 
 
 #### Examples
@@ -102,9 +102,13 @@ For more details on implementing this interface, see the <a href="https://msdn.m
 The following example shows an 
 <b>IBackgroundCopyCallback2</b> implementation. This example also shows how to handle reentrant calls in the <b>JobModification</b> callback for a single-threaded apartment model.
 
-
-```cpp
-#define TWO_GB 2147483648    // 2GB
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define TWO_GB 2147483648    // 2GB
 
 
 class CNotifyInterface : public IBackgroundCopyCallback2
@@ -149,12 +153,12 @@ HRESULT CNotifyInterface::QueryInterface(REFIID riid, LPVOID* ppvObj)
 
 ULONG CNotifyInterface::AddRef() 
 {
-  return InterlockedIncrement(&m_lRefCount);
+  return InterlockedIncrement(&amp;m_lRefCount);
 }
 
 ULONG CNotifyInterface::Release() 
 {
-  ULONG  ulCount = InterlockedDecrement(&m_lRefCount);
+  ULONG  ulCount = InterlockedDecrement(&amp;m_lRefCount);
 
   if(0 == ulCount) 
   {
@@ -172,7 +176,7 @@ HRESULT CNotifyInterface::JobTransferred(IBackgroundCopyJob* pJob)
   //extensive logic at this time, consider creating a separate thread to perform
   //the work.
 
-  hr = pJob->Complete();
+  hr = pJob-&gt;Complete();
   if (FAILED(hr))
   {
     //Handle error. BITS probably was unable to rename one or more of the 
@@ -200,7 +204,7 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
   //BG_JOB_CONTEXT_REMOTE_APPLICATION, the server application that received the 
   //upload file failed.
 
-  hr = pError->GetError(&Context, &ErrorCode);
+  hr = pError-&gt;GetError(&amp;Context, &amp;ErrorCode);
 
   //If the proxy or server does not support the Content-Range header or if
   //antivirus software removes the range requests, BITS returns BG_E_INSUFFICIENT_RANGE_SUPPORT.
@@ -208,13 +212,13 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
   //the content has a better chance of being successfully downloaded.
   if (BG_E_INSUFFICIENT_RANGE_SUPPORT == ErrorCode)
   {
-    hr = pError->GetFile(&pFile);
-    hr = pFile->GetProgress(&Progress);
+    hr = pError-&gt;GetFile(&amp;pFile);
+    hr = pFile-&gt;GetProgress(&amp;Progress);
     if (BG_SIZE_UNKNOWN == Progress.BytesTotal)
     {
       //The content is dynamic, do not change priority. Handle as an error.
     }
-    else if (Progress.BytesTotal > TWO_GB)
+    else if (Progress.BytesTotal &gt; TWO_GB)
     {
       //BITS does not use range requests if the content is less than 2 GB. 
       //However, if the content is greater than 2 GB, BITS
@@ -223,20 +227,20 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
     }
     else
     {
-      hr = pJob->SetPriority(BG_JOB_PRIORITY_FOREGROUND);
-      hr = pJob->Resume();
+      hr = pJob-&gt;SetPriority(BG_JOB_PRIORITY_FOREGROUND);
+      hr = pJob-&gt;Resume();
       IsError = FALSE;
     }
 
-    pFile->Release();
+    pFile-&gt;Release();
   }
 
   if (TRUE == IsError)
   {
-    hr = pJob->GetDisplayName(&pszJobName);
-    hr = pError->GetErrorDescription(LANGIDFROMLCID(GetThreadLocale()), &pszErrorDescription);
+    hr = pJob-&gt;GetDisplayName(&amp;pszJobName);
+    hr = pError-&gt;GetErrorDescription(LANGIDFROMLCID(GetThreadLocale()), &amp;pszErrorDescription);
 
-    if (pszJobName && pszErrorDescription)
+    if (pszJobName &amp;&amp; pszErrorDescription)
     {
       //Do something with the job name and description. 
     }
@@ -257,18 +261,18 @@ HRESULT CNotifyInterface::JobModification(IBackgroundCopyJob* pJob, DWORD dwRese
   BG_JOB_STATE State;
 
   //If you are already processing a callback, ignore this notification.
-  if (InterlockedCompareExchange(&m_PendingJobModificationCount, 1, 0) == 1)
+  if (InterlockedCompareExchange(&amp;m_PendingJobModificationCount, 1, 0) == 1)
   {
     return S_OK;
   }
 
-  hr = pJob->GetDisplayName(&pszJobName);
+  hr = pJob-&gt;GetDisplayName(&amp;pszJobName);
   if (SUCCEEDED(hr))
   {
-    hr = pJob->GetProgress(&Progress);
+    hr = pJob-&gt;GetProgress(&amp;Progress);
     if (SUCCEEDED(hr))
     {
-      hr = pJob->GetState(&State);
+      hr = pJob-&gt;GetState(&amp;State);
       if (SUCCEEDED(hr))
       {
         //Do something with the progress and state information.
@@ -291,25 +295,25 @@ HRESULT CNotifyInterface::FileTransferred(IBackgroundCopyJob* pJob, IBackgroundC
   IBackgroundCopyFile3* pFile3 = NULL;
   BOOL IsValid = FALSE;
 
-  hr = pFile->QueryInterface(__uuidof(IBackgroundCopyFile3), (void**)&pFile3);
+  hr = pFile-&gt;QueryInterface(__uuidof(IBackgroundCopyFile3), (void**)&amp;pFile3);
   if (SUCCEEDED(hr))
   {
     // Add code to validate downloaded content and set IsValid.
 
-    hr = pFile3->SetValidationState(IsValid);
+    hr = pFile3-&gt;SetValidationState(IsValid);
     if (FAILED(hr))
     {
       // Handle error
     }
 
-    pFile3->Release();
+    pFile3-&gt;Release();
   }
 
 	return S_OK;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -318,15 +322,15 @@ HRESULT CNotifyInterface::FileTransferred(IBackgroundCopyJob* pJob, IBackgroundC
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a>
+<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363044(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyFlags</a>
+<a href="https://msdn.microsoft.com/24aa6445-d7bd-4825-9121-402e63ae6f69">IBackgroundCopyJob::SetNotifyFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363045(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyInterface</a>
+<a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a>
  
 
  

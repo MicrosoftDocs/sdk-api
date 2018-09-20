@@ -7,7 +7,7 @@ old-location: security\icenroll4_enumpendingrequest.htm
 tech.root: seccrypto
 ms.assetid: 566974d1-79ec-4cbd-ae84-85e0a78edf58
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: CEnroll object [Security],enumPendingRequest method, ICEnroll4 interface [Security],enumPendingRequest method, ICEnroll4.enumPendingRequest, ICEnroll4::enumPendingRequest, XEPR_CADNS, XEPR_CAFRIENDLYNAME, XEPR_CANAME, XEPR_HASH, XEPR_REQUESTID, _xen_icenroll4_enumpendingrequest, enumPendingRequest, enumPendingRequest method [Security], enumPendingRequest method [Security],CEnroll object, enumPendingRequest method [Security],ICEnroll4 interface, security.icenroll4_enumpendingrequest, xenroll/ICEnroll4::enumPendingRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,7 +142,7 @@ A pointer to a <b>VARIANT</b> that receives the value of the retrieved property.
 
 
 
-When you have finished using the <b>VARIANT</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> function.
+When you have finished using the <b>VARIANT</b>, free it by calling the <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> function.
 
 
 ## -returns

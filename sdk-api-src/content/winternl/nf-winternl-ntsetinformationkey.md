@@ -7,7 +7,7 @@ old-location: winprog\ntsetinformationkey.htm
 tech.root: devnotes
 ms.assetid: 74772ebf-684b-4579-a28a-9b80afb4ccf9
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: NtSetInformationKey, NtSetInformationKey function [Windows API], base.ntsetinformationkey, winprog.ntsetinformationkey, winternl/NtSetInformationKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

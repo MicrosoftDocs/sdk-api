@@ -2,21 +2,21 @@
 UID: NF:gdipluspath.GraphicsPath.IsVisible(IN INT,IN INT,IN const Graphics)
 title: GraphicsPath::IsVisible(IN INT,IN INT,IN const Graphics)
 author: windows-sdk-content
-description: The GraphicsPath::IsVisible method determines whether a specified point lies in the area that is filled when this path is filled by a specified Graphicsobject.
-old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsVisible_INT_x_INT_y_Graphics_g_.htm
+description: This topic lists the IsVisible methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsVisible_Methods.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisvisiblemethods\isvisible_86intx_inty_graphicsg.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisvisiblemethods.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: GraphicsPath class [GDI+],IsVisible method, GraphicsPath.IsVisible, GraphicsPath.IsVisible(IN INT,IN INT,IN const Graphics), GraphicsPath.IsVisible(INT,INT,const Graphics*), GraphicsPath::IsVisible, GraphicsPath::IsVisible(IN INT,IN INT,IN const Graphics), IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_IsVisible_INT_x_INT_y_Graphics_g_, gdiplus._gdiplus_CLASS_GraphicsPath_IsVisible_INT_x_INT_y_Graphics_g_
+ms.keywords: GraphicsPath.IsVisible, GraphicsPath.IsVisible(IN INT,IN INT,IN const Graphics), GraphicsPath::IsVisible, GraphicsPath::IsVisible(IN INT,IN INT,IN const Graphics), IsVisible, IsVisible methods [GDI+], _gdiplus_CLASS_GraphicsPath_IsVisible_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_IsVisible_Methods, gdipluspath/IsVisible
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
-req.include-header: Gdiplus.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,23 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - Gdiplus.dll
+ - gdipluspath.h
 api_name:
  - GraphicsPath.IsVisible
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: GDI+ 1.0
 ---
 
 # GraphicsPath::IsVisible(IN INT,IN INT,IN const Graphics)
@@ -51,87 +50,57 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>GraphicsPath::IsVisible</b> method determines whether a specified point lies in the area that is filled when this path is filled by a specified 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>object.
+<span>This topic lists the 
+IsVisible methods of the 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> class. For a complete list of methods for the 
+<b>GraphicsPath</b> class, see 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>. 
 
+
+</span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/904dd7d4-5172-4f4c-b286-7929779d7f72">IsVisible(Point&,Graphics*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/904dd7d4-5172-4f4c-b286-7929779d7f72">GraphicsPath::IsVisible</a> method determines whether a specified point lies in the area that is filled when this path is filled by a specified <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/b624ddf3-f5d9-45d6-80ef-76379fef3bac">IsVisible(INT,INT,Graphics*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/b624ddf3-f5d9-45d6-80ef-76379fef3bac">GraphicsPath::IsVisible</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>object.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/0065e994-f6a0-47ea-a6c0-ab496f90f061">IsVisible(PointF&,Graphics*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/0065e994-f6a0-47ea-a6c0-ab496f90f061">GraphicsPath::IsVisible</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>object.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/a8ed8eaa-bc9b-4eac-b50a-ab882a363a38">IsVisible(REAL,REAL,Graphics*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/a8ed8eaa-bc9b-4eac-b50a-ab882a363a38">GraphicsPath::IsVisible</a> method determines whether a specified point lies in the area that is filled when this path is filled by a specified <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+
+</td>
+</tr>
+</table>
 
 ## -parameters
-
-
-
-
-### -param x [in]
-
-Type: <b>INT</b>
-
-Integer that specifies the x-coordinate of the point to be tested. 
-
-
-### -param y [in]
-
-Type: <b>INT</b>
-
-Integer that specifies the y-coordinate of the point to be tested. 
-
-
-### -param g [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>*</b>
-
-Optional. Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object that specifies a world-to-device transformation. If the value of this parameter is <b>NULL</b>, the test is done in world coordinates; otherwise, the test is done in device coordinates. The default value is <b>NULL</b>. 
-
-
-## -returns
-
-
-
-Type: <strong>Type: <b>BOOL</b>
-</strong>
-
-If the test point lies in the interior of this path, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/816a5845-ca03-46c6-bdda-e6a7d02ff614">Clipping with a Region</a>
-
-
-
-<a href="https://msdn.microsoft.com/dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4">Constructing and Drawing Paths</a>
-
-
-
-<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
-
-
-
-<a href="https://msdn.microsoft.com/4a6b7b5d-a74d-43be-b35c-54c49d742f89">IsOutlineVisible Methods</a>
-
-
-
-<a href="https://msdn.microsoft.com/d686ed98-9633-46f5-90f2-cb128b2b7e1c">IsVisible Methods</a>
-
-
-
-<a href="https://msdn.microsoft.com/88fea2ec-7b53-44bb-841d-486c5c879c68">Paths</a>
-
-
-
-<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
- 
-
- 
 

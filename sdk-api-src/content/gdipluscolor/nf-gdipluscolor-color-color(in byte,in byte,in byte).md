@@ -2,13 +2,13 @@
 UID: NF:gdipluscolor.Color.Color(IN BYTE,IN BYTE,IN BYTE)
 title: Color::Color(IN BYTE,IN BYTE,IN BYTE)
 author: windows-sdk-content
-description: Creates a Color::Color object by using specified values for the alpha, red, green, and blue components.
-old-location: gdiplus\_gdiplus_CLASS_Color_Color_a_r_g_b_.htm
+description: Creates a Color::Color object by using specified values for the red, green, and blue components. This constructor sets the alpha component to 255 (opaque).
+old-location: gdiplus\_gdiplus_CLASS_Color_Color_r_g_b_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colorconstructors\color_14a_r_g_b.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colorconstructors\color_56r_g_b.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: Color, Color class [GDI+],Color constructor, Color constructor [GDI+], Color constructor [GDI+],Color class, Color.Color, Color.Color(BYTE,BYTE,BYTE,BYTE), Color.Color(IN BYTE,IN BYTE,IN BYTE), Color::Color, Color::Color(IN BYTE,IN BYTE,IN BYTE), _gdiplus_CLASS_Color_Color_a_r_g_b_, gdiplus._gdiplus_CLASS_Color_Color_a_r_g_b_
+ms.keywords: Color, Color class [GDI+],Color constructor, Color constructor [GDI+], Color constructor [GDI+],Color class, Color.Color, Color.Color(BYTE,BYTE,BYTE), Color.Color(IN BYTE,IN BYTE,IN BYTE), Color::Color, Color::Color(IN BYTE,IN BYTE,IN BYTE), _gdiplus_CLASS_Color_Color_r_g_b_, gdiplus._gdiplus_CLASS_Color_Color_r_g_b_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <b>Color::Color</b> object by using specified values for the alpha, red, green, and blue components.
+Creates a <b>Color::Color</b> object by using specified values for the red, green, and blue components. This constructor sets the alpha component to 255 (opaque).
 
 
 ## -parameters
@@ -80,23 +80,16 @@ Type: <b>BYTE</b>
 Byte that specifies the blue component. 
 
 
-#### - a [in]
-
-Type: <b>BYTE</b>
-
-Byte that specifies the alpha component. 
-
-
 ## -see-also
 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536243(v=VS.85).aspx">Color Constructors</a>
+<a href="https://msdn.microsoft.com/ebd68c22-9b00-4a8e-9954-e8b0eda764f8">Color Constructors</a>
  
 
  

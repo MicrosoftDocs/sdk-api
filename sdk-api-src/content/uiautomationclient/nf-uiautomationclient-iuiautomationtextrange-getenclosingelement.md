@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_GetEnclosingElement.htm
 tech.root: WinAuto
 ms.assetid: 0120b4af-6f08-4bbd-b649-0f8e84cda3b9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GetEnclosingElement, GetEnclosingElement method [Windows Accessibility], GetEnclosingElement method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetEnclosingElement method, IUIAutomationTextRange.GetEnclosingElement, IUIAutomationTextRange::GetEnclosingElement, uiauto.uiauto_IUIAutomationTextRange_GetEnclosingElement, uiauto_IUIAutomationTextRange_GetEnclosingElement, uiautomationclient/IUIAutomationTextRange::GetEnclosingElement, winauto.uiauto_IUIAutomationTextRange_GetEnclosingElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

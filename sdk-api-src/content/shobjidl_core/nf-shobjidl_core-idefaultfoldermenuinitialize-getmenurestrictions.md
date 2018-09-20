@@ -7,7 +7,7 @@ old-location: shell\IDefaultFolderMenuInitialize_GetMenuRestrictions.htm
 tech.root: shell
 ms.assetid: 373240B8-E99E-4ff9-B47A-3B31B4F0B81E
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GetMenuRestrictions, GetMenuRestrictions method [Windows Shell], GetMenuRestrictions method [Windows Shell],IDefaultFolderMenuInitialize interface, IDefaultFolderMenuInitialize interface [Windows Shell],GetMenuRestrictions method, IDefaultFolderMenuInitialize.GetMenuRestrictions, IDefaultFolderMenuInitialize::GetMenuRestrictions, shell.IDefaultFolderMenuInitialize_GetMenuRestrictions, shobjidl_core/IDefaultFolderMenuInitialize::GetMenuRestrictions
 ms.prod: windows-hardware
 ms.technology: windows-devices

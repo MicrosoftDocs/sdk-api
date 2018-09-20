@@ -7,7 +7,7 @@ old-location: winprog\ifhconfigmgr_addremoveexcluderule.htm
 tech.root: devnotes
 ms.assetid: 8900944D-3B73-49AB-AE26-F0B2D5842B02
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: AddRemoveExcludeRule, AddRemoveExcludeRule method [Windows API], AddRemoveExcludeRule method [Windows API],FhConfigMgr class, AddRemoveExcludeRule method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],AddRemoveExcludeRule method, IFhConfigMgr interface [Windows API],AddRemoveExcludeRule method, IFhConfigMgr.AddRemoveExcludeRule, IFhConfigMgr::AddRemoveExcludeRule, fhcfg/IFhConfigMgr::AddRemoveExcludeRule, winprog.ifhconfigmgr_addremoveexcluderule
 ms.prod: windows-hardware
 ms.technology: windows-devices

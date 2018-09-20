@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The mode for the <a href="https://msdn.microsoft.com/en-us/library/Hh706364(v=VS.85).aspx">Morphology effect</a>.
+The mode for the <a href="https://msdn.microsoft.com/4B3CFC51-D556-4729-B433-7307C80291F4">Morphology effect</a>.
         
 
 

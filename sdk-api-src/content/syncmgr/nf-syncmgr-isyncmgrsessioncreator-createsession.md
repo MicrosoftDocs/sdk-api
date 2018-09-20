@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSessionCreator_CreateSession.htm
 tech.root: shell
 ms.assetid: d1df43b6-406c-4da0-89f0-a17e51101520
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: CreateSession, CreateSession method [Windows Shell], CreateSession method [Windows Shell],ISyncMgrSessionCreator interface, ISyncMgrSessionCreator interface [Windows Shell],CreateSession method, ISyncMgrSessionCreator.CreateSession, ISyncMgrSessionCreator::CreateSession, _shell_ISyncMgrSessionCreator_CreateSession, shell.ISyncMgrSessionCreator_CreateSession, syncmgr/ISyncMgrSessionCreator::CreateSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,14 +110,18 @@ Both <i>pszHandlerID</i> and <i>ppszItemIDs</i> must be specified.
 
 The following example shows the outline of an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::Synchronize(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::Synchronize(...)
 {
     ...
     ISyncMgrSyncCallback *pCallback = NULL;
 
-    hr = pCreator->CreateSession(_pszHandlerID, ppszItemIDs, cItems, &pCallback);
+    hr = pCreator-&gt;CreateSession(_pszHandlerID, ppszItemIDs, cItems, &amp;pCallback);
     if (SUCCEEDED(hr))
     {
         // Perform synchronization.
@@ -125,9 +129,9 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(...)
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: winprog\fdicabinetinfo.htm
 tech.root: devnotes
 ms.assetid: fde1a2ca-60cd-4a4d-9872-681e2f8f4fb1
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: "*PFDICABINETINFO, FDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO structure [Windows API], FDICABINETINFO structure [Windows API], fdi/FDICABINETINFO, winprog.fdicabinetinfo"
 ms.prod: windows
 ms.technology: windows-sdk

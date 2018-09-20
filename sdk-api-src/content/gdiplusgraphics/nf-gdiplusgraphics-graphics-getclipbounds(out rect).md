@@ -2,21 +2,21 @@
 UID: NF:gdiplusgraphics.Graphics.GetClipBounds(OUT Rect)
 title: Graphics::GetClipBounds(OUT Rect)
 author: windows-sdk-content
-description: The Graphics::GetClipBounds method gets a rectangle that encloses the clipping region of this Graphics object.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_GetClipBounds_RectF_rect_.htm
+description: This topic lists the GetClipBounds methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+old-location: gdiplus\_gdiplus_CLASS_Graphics_GetClipBounds_Methods.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsgetclipboundsmethods\getclipbounds_10rectfrect.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsgetclipboundsmethods.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: GetClipBounds, GetClipBounds method [GDI+], GetClipBounds method [GDI+],Graphics class, Graphics class [GDI+],GetClipBounds method, Graphics.GetClipBounds, Graphics.GetClipBounds(OUT Rect), Graphics.GetClipBounds(RectF*), Graphics::GetClipBounds, Graphics::GetClipBounds(OUT Rect), _gdiplus_CLASS_Graphics_GetClipBounds_RectF_rect_, gdiplus._gdiplus_CLASS_Graphics_GetClipBounds_RectF_rect_
+ms.keywords: GetClipBounds, GetClipBounds methods [GDI+], Graphics.GetClipBounds, Graphics.GetClipBounds(OUT Rect), Graphics::GetClipBounds, Graphics::GetClipBounds(OUT Rect), _gdiplus_CLASS_Graphics_GetClipBounds_Methods, gdiplus._gdiplus_CLASS_Graphics_GetClipBounds_Methods, gdiplusgraphics/GetClipBounds
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
-req.include-header: Gdiplus.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,23 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - Gdiplus.dll
+ - gdiplusgraphics.h
 api_name:
  - Graphics.GetClipBounds
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: GDI+ 1.0
 ---
 
 # Graphics::GetClipBounds(OUT Rect)
@@ -51,130 +50,38 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::GetClipBounds</b> method gets a rectangle that encloses the clipping region of this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+<span>This topic lists the 
+GetClipBounds methods of the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
+<b>Graphics</b> class, see 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
 
-## -parameters
-
-
-
-
-### -param rect [out]
-
-Type: <b>RectF*</b>
-
-Pointer to a <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> object that receives the rectangle that encloses the clipping region. 
-
-
-## -returns
-
-
-
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
-</strong>
-
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-
-
-
-## -remarks
-
-
-
-The world transformation is applied to the clipping region and then the enclosing rectangle is calculated.
-
-If you do not explicitly set the clipping region of a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, its clipping region is infinite. When the clipping region is infinite, <b>Graphics::GetClipBounds</b> returns a large rectangle. The 
-				<b>X</b> and 
-				<b>Y</b> data members of that rectangle are large negative numbers, and the 
-				<b>Width</b> and 
-				<b>Height</b> data members are large positive numbers.
-
-
-#### Examples
-
-
-
-The following example sets a clipping region, gets the rectangle that encloses the clipping region, and then fills the rectangle.
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+</span><h3>Overload list</h3><table>
 <tr>
-<th>C++</th>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
 </tr>
 <tr>
-<td>
-<pre>VOID Example_GetClipBounds2(HDC hdc)
-{
-   Graphics graphics(hdc);
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/2863cb71-8913-40a2-8aac-2ac40e975ab4">GetClipBounds(Rect*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/2863cb71-8913-40a2-8aac-2ac40e975ab4">Graphics::GetClipBounds</a> method gets a rectangle that encloses the clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
-   Region   myRegion(RectF(25.0f, 25.0f, 100.0f, 50.0f));
-   RectF    rect(40.0f, 60.0f, 100.0f, 50.0f);
-   Region   gRegion;
-   RectF    enclosingRect;
-
-   SolidBrush  blueBrush(Color(100, 0, 0, 255));
-   Pen         greenPen(Color(255, 0, 255, 0), 1.5f);
-
-   // Modify the region by using a rectangle.
-   myRegion.Union(rect);
-
-   // Set the clipping region of the graphics object.
-   graphics.SetClip(&amp;myRegion);
-
-   // Now, get the clipping region, and fill it
-   graphics.GetClip(&amp;gRegion);
-   graphics.FillRegion(&amp;blueBrush, &amp;gRegion);
-
-   // Get a rectangle that encloses the clipping region, and draw the enclosing
-   // rectangle.
-   graphics.GetClipBounds(&amp;enclosingRect);
-   graphics.ResetClip();
-   graphics.DrawRectangle(&amp;greenPen, enclosingRect);}</pre>
 </td>
 </tr>
-</table></span></div>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/e33964c8-d643-420c-87d7-91fc561bcd1d">GetClipBounds(RectF*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/e33964c8-d643-420c-87d7-91fc561bcd1d">Graphics::GetClipBounds</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
+</td>
+</tr>
+</table>
 
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/58cc052d-31af-4410-81b9-defbad08a1dc">Clipping</a>
-
-
-
-<a href="https://msdn.microsoft.com/816a5845-ca03-46c6-bdda-e6a7d02ff614">Clipping with a Region</a>
-
-
-
-<a href="https://msdn.microsoft.com/af7ed6de-00c3-46c8-b597-142bee9b02cc">GetVisibleClipBounds Methods</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
-
-
-
-<a href="https://msdn.microsoft.com/5a1f3e79-34c6-4974-a877-3cea75ecb9cc">Graphics::GetClip</a>
-
-
-
-<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
-
-
-
-<a href="https://msdn.microsoft.com/e8348373-da79-4d33-8bea-d594985493d4">SetClip Methods</a>
-
-
-
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
- 
-
- 
+## -parameters
 

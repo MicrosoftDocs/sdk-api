@@ -2,21 +2,21 @@
 UID: NF:gdiplusgraphics.Graphics.FillPolygon(IN const Brush,IN const Point,IN INT)
 title: Graphics::FillPolygon(IN const Brush,IN const Point,IN INT)
 author: windows-sdk-content
-description: The Graphics::FillPolygon method uses a brush to fill the interior of a polygon.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_PointF_points_INT_count_.htm
+description: This topic lists the FillPolygon methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPolygon_Methods.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpolygonmethods\fillpolygon_65brushbrush_pointfpoints_intcount.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpolygonmethods.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: FillPolygon, FillPolygon method [GDI+], FillPolygon method [GDI+],Graphics class, Graphics class [GDI+],FillPolygon method, Graphics.FillPolygon, Graphics.FillPolygon(IN const Brush,IN const Point,IN INT), Graphics.FillPolygon(const Brush*,const PointF*,INT), Graphics::FillPolygon, Graphics::FillPolygon(IN const Brush,IN const Point,IN INT), _gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_PointF_points_INT_count_
+ms.keywords: FillPolygon, FillPolygon methods [GDI+], Graphics.FillPolygon, Graphics.FillPolygon(IN const Brush,IN const Point,IN INT), Graphics::FillPolygon, Graphics::FillPolygon(IN const Brush,IN const Point,IN INT), _gdiplus_CLASS_Graphics_FillPolygon_Methods, gdiplus._gdiplus_CLASS_Graphics_FillPolygon_Methods, gdiplusgraphics/FillPolygon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
-req.include-header: Gdiplus.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,23 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - Gdiplus.dll
+ - gdiplusgraphics.h
 api_name:
  - Graphics.FillPolygon
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: GDI+ 1.0
 ---
 
 # Graphics::FillPolygon(IN const Brush,IN const Point,IN INT)
@@ -51,60 +50,55 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::FillPolygon</b> method uses a brush to fill the interior of a polygon. 
+<span>This topic lists the 
+FillPolygon methods of the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
+<b>Graphics</b> class, see 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
+
+</span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/fb69654e-4c2b-4837-8764-f4c0a45cf918">FillPolygon(Brush*,Point*,INT)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/fb69654e-4c2b-4837-8764-f4c0a45cf918">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/d5922fd8-b17d-4a1f-9e1b-3531f0b7d2d0">FillPolygon(Brush*,PointF*,INT)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/d5922fd8-b17d-4a1f-9e1b-3531f0b7d2d0">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/bd99273c-b79d-4025-b57b-953c4b2c8138">FillPolygon(Brush*,Point*,INT,FillMode)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/bd99273c-b79d-4025-b57b-953c4b2c8138">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/171f146a-5de2-45f6-b64c-a921f736756d">FillPolygon(Brush*,PointF*,INT,FillMode)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/171f146a-5de2-45f6-b64c-a921f736756d">Graphics::FillPolygon</a> method uses a brush to fill the interior of a polygon. 
+
+</td>
+</tr>
+</table>
 
 ## -parameters
-
-
-
-
-### -param brush [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a>*</b>
-
-Pointer to a <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a> object that is used to paint the interior of the polygon. 
-
-
-### -param points [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>*</b>
-
-Pointer to an array of points that make up the vertices of the polygon. The first two points in the array specify the first side of the polygon. Each additional point specifies a new side, the vertices of which include the point and the previous point. If the last point and the first point do not coincide, they specify the last side of the polygon. 
-
-
-### -param count [in]
-
-Type: <b>INT</b>
-
-Integer that specifies the number of points in the <i>points</i> array. 
-
-
-## -returns
-
-
-
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
-</strong>
-
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
-
-
-
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
- 
-
- 
 

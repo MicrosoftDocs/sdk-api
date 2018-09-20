@@ -7,7 +7,7 @@ old-location: winprog\fnfciopen.htm
 tech.root: devnotes
 ms.assetid: 72cf50cb-c895-4953-9c4d-f8ddaa294f2a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: FNFCIOPEN, FNFCIOPEN macro [Windows API], fci/FNFCIOPEN, winprog.fnfciopen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,9 +94,13 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNFCIOPEN(fnFileOpen)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCIOPEN(fnFileOpen)
 {
     HANDLE hFile = NULL;
     DWORD dwDesiredAccess = 0; 
@@ -105,11 +109,11 @@ FNFCIOPEN(fnFileOpen)
     UNREFERENCED_PARAMETER(pv);
     UNREFERENCED_PARAMETER(pmode);
 
-    if ( oflag & _O_RDWR )
+    if ( oflag &amp; _O_RDWR )
     {
         dwDesiredAccess = GENERIC_READ | GENERIC_WRITE;
     }
-    else if ( oflag & _O_WRONLY )
+    else if ( oflag &amp; _O_WRONLY )
     {
         dwDesiredAccess = GENERIC_WRITE;
     }
@@ -118,7 +122,7 @@ FNFCIOPEN(fnFileOpen)
         dwDesiredAccess = GENERIC_READ;
     }
 
-    if ( oflag & _O_CREAT )
+    if ( oflag &amp; _O_CREAT )
     {
         dwCreationDisposition = CREATE_ALWAYS;
     }
@@ -142,10 +146,10 @@ FNFCIOPEN(fnFileOpen)
 
     return (INT_PTR)hFile;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

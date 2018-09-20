@@ -7,7 +7,7 @@ old-location: shell\IApplicationAssociationRegistration_SetAppAsDefault.htm
 tech.root: shell
 ms.assetid: 30870adb-793f-404f-809c-1ec34a1f6b82
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],SetAppAsDefault method, IApplicationAssociationRegistration.SetAppAsDefault, IApplicationAssociationRegistration::SetAppAsDefault, SetAppAsDefault, SetAppAsDefault method [Windows Shell], SetAppAsDefault method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_SetAppAsDefault, shell.IApplicationAssociationRegistration_SetAppAsDefault, shobjidl_core/IApplicationAssociationRegistration::SetAppAsDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices

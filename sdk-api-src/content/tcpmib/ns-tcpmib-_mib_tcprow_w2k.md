@@ -264,7 +264,7 @@ The maximum size of an IP port number is 16 bits, so only the lower 16 bits shou
 
 The <a href="https://msdn.microsoft.com/e90c5aa0-3126-489b-af44-bf86cb45a6d1">GetTcpTable</a>function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a> structure. 
 
-An array of <b>MIB_TCPROW</b> structures are contained in the <b>MIB_TCPTABLE</b> structure. The <b>MIB_TCPROW</b> structure is also used by the <a href="https://msdn.microsoft.com/en-us/library/Aa366378(v=VS.85).aspx">SetTcpEntry</a> function.
+An array of <b>MIB_TCPROW</b> structures are contained in the <b>MIB_TCPTABLE</b> structure. The <b>MIB_TCPROW</b> structure is also used by the <a href="_iphlp_settcpentry">SetTcpEntry</a> function.
 
   The <b>dwState</b> member indicates the state of the TCP entry in a TCP state diagram. A TCP connection progresses through a series of states during its
   lifetime.  The states are:  LISTEN, SYN-SENT, SYN-RECEIVED,
@@ -319,12 +319,16 @@ On the Windows SDK released for Windows Vistaand later, the organization of hea
 
 The following example retrieves the TCP connection table and prints the state of each connection represented as a <b>MIB_TCPROW</b> structure.
 
-
-```cpp
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <iphlpapi.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
 
 // Need to link with Iphlpapi.lib and Ws2_32.lib
 #pragma comment(lib, "iphlpapi.lib")
@@ -359,7 +363,7 @@ int main()
     dwSize = sizeof (MIB_TCPTABLE);
 // Make an initial call to GetTcpTable to
 // get the necessary size into the dwSize variable
-    if ((dwRetVal = GetTcpTable(pTcpTable, &dwSize, TRUE)) ==
+    if ((dwRetVal = GetTcpTable(pTcpTable, &amp;dwSize, TRUE)) ==
         ERROR_INSUFFICIENT_BUFFER) {
         FREE(pTcpTable);
         pTcpTable = (MIB_TCPTABLE *) MALLOC(dwSize);
@@ -370,12 +374,12 @@ int main()
     }
 // Make a second call to GetTcpTable to get
 // the actual data we require
-    if ((dwRetVal = GetTcpTable(pTcpTable, &dwSize, TRUE)) == NO_ERROR) {
-        printf("\tNumber of entries: %d\n", (int) pTcpTable->dwNumEntries);
-        for (i = 0; i < (int) pTcpTable->dwNumEntries; i++) {
+    if ((dwRetVal = GetTcpTable(pTcpTable, &amp;dwSize, TRUE)) == NO_ERROR) {
+        printf("\tNumber of entries: %d\n", (int) pTcpTable-&gt;dwNumEntries);
+        for (i = 0; i &lt; (int) pTcpTable-&gt;dwNumEntries; i++) {
             printf("\n\tTCP[%d] State: %ld - ", i,
-                   pTcpTable->table[i].dwState);
-            switch (pTcpTable->table[i].dwState) {
+                   pTcpTable-&gt;table[i].dwState);
+            switch (pTcpTable-&gt;table[i].dwState) {
             case MIB_TCP_STATE_CLOSED:
                 printf("CLOSED\n");
                 break;
@@ -413,23 +417,23 @@ int main()
                 printf("DELETE-TCB\n");
                 break;
             default:
-                printf("UNKNOWN dwState value: %d\n", pTcpTable->table[i].dwState);
+                printf("UNKNOWN dwState value: %d\n", pTcpTable-&gt;table[i].dwState);
                 break;
             }
 
-            IpAddr.S_un.S_addr = (u_long) pTcpTable->table[i].dwLocalAddr;
+            IpAddr.S_un.S_addr = (u_long) pTcpTable-&gt;table[i].dwLocalAddr;
             strcpy_s(szLocalAddr, sizeof (szLocalAddr), inet_ntoa(IpAddr));
             printf("\tTCP[%d] Local Addr: %s\n", i, szLocalAddr);
 
             printf("\tTCP[%d] Local Port: %d \n", i,
-                   ntohs((u_short)pTcpTable->table[i].dwLocalPort));
+                   ntohs((u_short)pTcpTable-&gt;table[i].dwLocalPort));
 
-            IpAddr.S_un.S_addr = (u_long) pTcpTable->table[i].dwRemoteAddr;
+            IpAddr.S_un.S_addr = (u_long) pTcpTable-&gt;table[i].dwRemoteAddr;
             strcpy_s(szRemoteAddr, sizeof (szRemoteAddr), inet_ntoa(IpAddr));
             printf("\tTCP[%d] Remote Addr: %s\n", i, szRemoteAddr);
 
             printf("\tTCP[%d] Remote Port: %d\n", i,
-                   ntohs((u_short)pTcpTable->table[i].dwRemotePort));
+                   ntohs((u_short)pTcpTable-&gt;table[i].dwRemotePort));
         }
     } else {
         printf("\tGetTcpTable failed with %d\n", dwRetVal);
@@ -445,10 +449,10 @@ int main()
     return 0;    
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -509,7 +513,7 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366378(v=VS.85).aspx">SetTcpEntry</a>
+<a href="_iphlp_settcpentry">SetTcpEntry</a>
 
 
 

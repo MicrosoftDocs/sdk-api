@@ -57,18 +57,22 @@ To perform this operation, call the
 
 <b>IOCTL_DISK_SET_PARTITION_INFO</b> has been superseded by 
 <a href="https://msdn.microsoft.com/6feec7a9-5b57-406b-bbea-04cf9cdaf56b">IOCTL_DISK_SET_PARTITION_INFO_EX</a>, which retrieves layout information for AT and EFI (Extensible Firmware Interface) partitions.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,                // handle to device
   IOCTL_DISK_SET_PARTITION_INFO,   // dwIoControlCode(LPVOID) lpInBuffer,             // input buffer 
   (DWORD) nInBufferSize,           // size of input buffer 
   NULL,                            // lpOutBuffer0,                               // nOutBufferSize(LPDWORD) lpBytesReturned,       // number of bytes returned
   (LPOVERLAPPED) lpOverlapped      // OVERLAPPED structure
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 

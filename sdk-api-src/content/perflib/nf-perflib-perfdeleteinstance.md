@@ -4,10 +4,10 @@ title: PerfDeleteInstance function
 author: windows-sdk-content
 description: Deletes an instance of the counter set created by the PerfCreateInstance function.
 old-location: perf\perfdeleteinstance.htm
-tech.root: PerfCtrs
+tech.root: perfctrs
 ms.assetid: 8266e58c-c0a3-42dd-9f06-0d04dccfcf7c
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/19/2018
 ms.keywords: PerfDeleteInstance, PerfDeleteInstance function [Perf], base.perfdeleteinstance, perf.perfdeleteinstance, perflib/PerfDeleteInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

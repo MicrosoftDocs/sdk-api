@@ -3,12 +3,12 @@ UID: NF:infotech.IITResultSet.Add(PROPID,DWORD,PRIORITY)
 title: IITResultSet::Add(PROPID,DWORD,PRIORITY)
 author: windows-sdk-content
 description: Adds a column to the result set.
-old-location: htmlhelp\iitresultset_add2.htm
+old-location: htmlhelp\iitresultset_add4.htm
 tech.root: htmlhelp
-ms.assetid: VS|htmlhelp|~\html\refiitresultsetaddbuffer.htm
+ms.assetid: VS|htmlhelp|~\html\refiitresultsetadddword.htm
 ms.author: windowssdkdev
 ms.date: 08/30/2018
-ms.keywords: Add, Add method [HTML Help Workshop], Add method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Add method, IITResultSet.Add, IITResultSet.Add(PROPID,DWORD,PRIORITY), IITResultSet::Add, IITResultSet::Add(PROPID,DWORD,PRIORITY), IITResultSet::Add(PROPID,LPVOID,DWORD,PRIORITY), htmlhelp.iitresultset_add2, infotech/IITResultSet::Add, refIITResultSetAddBuffer
+ms.keywords: Add, Add method [HTML Help Workshop], Add method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Add method, IITResultSet.Add, IITResultSet.Add(PROPID,DWORD,PRIORITY), IITResultSet::Add, IITResultSet::Add(PROPID,DWORD,PRIORITY), htmlhelp.iitresultset_add4, infotech/IITResultSet::Add, refIITResultSetAddDWord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,9 +50,7 @@ req.redist:
 ## -description
 
 
-Adds a column to the result set.
-
-
+Adds a column to the result set. 
 
 
 ## -parameters
@@ -65,30 +63,16 @@ Adds a column to the result set.
 Property ID associated with column.
 
 
+### -param dwDefaultData [in]
+
+Default data value.
 
 
-### -param dwDefaultData
-
-TBD
 
 
 ### -param Priority [in]
 
-Download priority of column (PRIORITY_LOW, PRIORITY_NORMAL, or PRIORITY_HIGH).
-
-
-#### - cbData [in]
-
-Buffer size.
-
-
-
-
-#### - lpvDefaultData [in]
-
-Buffer containing default value of data.
-
-
+Download priority of column (PRIORITY_LOW, PRIORITY_NORMAL, or PRIORITY_HIGH). 
 
 
 ## -returns
@@ -136,7 +120,7 @@ Memory allocation failed.
 
 
 
-This method is used to add a column for pointer properties. 
+This method is used to add a column for numerical properties. 
 
 
 
@@ -148,7 +132,7 @@ This method is used to add a column for pointer properties.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670054(v=VS.85).aspx">IITResultSet</a>
+<a href="https://msdn.microsoft.com/e77b1489-a883-4f98-acb0-b998cbe3d46e">IITResultSet</a>
  
 
  

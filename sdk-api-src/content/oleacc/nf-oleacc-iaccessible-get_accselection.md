@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accselection.htm
 tech.root: WinAuto
 ms.assetid: 80df32de-a99f-4a5a-b354-f3e133f3e620
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accSelection method, IAccessible.get_accSelection, IAccessible::get_accSelection, VT_DISPATCH, VT_EMPTY, VT_I4, VT_UNKNOWN, _msaa_IAccessible_get_accSelection, get_accSelection, get_accSelection method [Windows Accessibility], get_accSelection method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accselection, oleacc/IAccessible::get_accSelection, winauto.iaccessible_iaccessible__get_accselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -161,32 +161,36 @@ As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows a possible implementation of this method for a custom single-selection list box. Its  <b>GetSelectedIndex</b> method returns -1 if no item is selected.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // m_pControl is the control that returns this accessible object. 
 
 HRESULT STDMETHODCALLTYPE AccServer::get_accSelection(VARIANT *pvarChildren)
 {
-    int childID = m_pControl->GetSelectedIndex() + 1; // Convert from 0-based. 
-    if (childID <= 0)
+    int childID = m_pControl-&gt;GetSelectedIndex() + 1; // Convert from 0-based. 
+    if (childID &lt;= 0)
     {
-        pvarChildren->vt = VT_EMPTY;
+        pvarChildren-&gt;vt = VT_EMPTY;
     }
     else 
     {
-        pvarChildren->vt = VT_I4;
-        pvarChildren->lVal = childID;
+        pvarChildren-&gt;vt = VT_I4;
+        pvarChildren-&gt;lVal = childID;
     }
     return S_OK;
 };
 
 
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\icertsrvsetupkeyinformation.htm
 tech.root: seccrypto
 ms.assetid: d27c9ba5-ddee-4c9c-b812-e61b974b515a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: ICertSrvSetupKeyInformation, ICertSrvSetupKeyInformation interface [Security], ICertSrvSetupKeyInformation interface [Security],described, casetup/ICertSrvSetupKeyInformation, security.icertsrvsetupkeyinformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>ICertSrvSetupKeyInformation</b> interface defines a set of <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> properties that are used for setup of <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) or Microsoft <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">Simple Certificate Enrollment Protocol</a> (SCEP) roles. The information describes either an existing private key or one that setup generates.
+The <b>ICertSrvSetupKeyInformation</b> interface defines a set of <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> properties that are used for setup of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) or Microsoft <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Simple Certificate Enrollment Protocol</a> (SCEP) roles. The information describes either an existing private key or one that setup generates.
 
 Microsoft provides an implementation of this interface in the <b>CCertSrvSetupKeyInformation</b> class.
 

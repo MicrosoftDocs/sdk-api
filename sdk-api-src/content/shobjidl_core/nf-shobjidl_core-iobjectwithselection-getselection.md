@@ -7,7 +7,7 @@ old-location: shell\IObjectWithSelection_GetSelection.htm
 tech.root: shell
 ms.assetid: cc0c2c79-a475-4384-8255-809dc8bdb869
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GetSelection, GetSelection method [Windows Shell], GetSelection method [Windows Shell],IObjectWithSelection interface, IObjectWithSelection interface [Windows Shell],GetSelection method, IObjectWithSelection.GetSelection, IObjectWithSelection::GetSelection, _shell_IObjectWithSelection_GetSelection, shell.IObjectWithSelection_GetSelection, shobjidl_core/IObjectWithSelection::GetSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IUpdate::get_RecommendedHardDiskSpace
 author: windows-sdk-content
 description: Gets the recommended free space that should be available on the hard disk before you install the update. The free space is specified in megabytes (MB).
 old-location: wua\iupdate_recommendedharddiskspace.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 958d3de3-b2e0-47e0-9a71-b12ff6669242
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/19/2018
 ms.keywords: IUpdate interface [Windows Update Agent],RecommendedHardDiskSpace property, IUpdate.RecommendedHardDiskSpace, IUpdate.get_RecommendedHardDiskSpace, IUpdate::RecommendedHardDiskSpace, IUpdate::get_RecommendedHardDiskSpace, RecommendedHardDiskSpace property [Windows Update Agent], RecommendedHardDiskSpace property [Windows Update Agent],IUpdate interface, get_RecommendedHardDiskSpace, wua.iupdate_recommendedharddiskspace, wuapi/IUpdate::RecommendedHardDiskSpace, wuapi/IUpdate::get_RecommendedHardDiskSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,13 +2,13 @@
 UID: NF:gdiplusheaders.Region.Region(IN const RectF &)
 title: Region::Region(IN const RectF &)
 author: windows-sdk-content
-description: Creates a region that is infinite. This is the default constructor.
-old-location: gdiplus\_gdiplus_CLASS_Region_Region_.htm
+description: Creates a region that is defined by a rectangle.
+old-location: gdiplus\_gdiplus_CLASS_Region_Region_RectF_rect_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_18.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_95rectfamprect.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(), Region.Region(IN const RectF &), Region::Region, Region::Region(IN const RectF &), _gdiplus_CLASS_Region_Region_, gdiplus._gdiplus_CLASS_Region_Region_
+ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(IN const RectF &), Region.Region(const RectF&), Region::Region, Region::Region(IN const RectF &), _gdiplus_CLASS_Region_Region_RectF_rect_, gdiplus._gdiplus_CLASS_Region_Region_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a region that is infinite. This is the default constructor. 
+Creates a region that is defined by a rectangle.
 
 
 ## -parameters
@@ -59,9 +59,24 @@ Creates a region that is infinite. This is the default constructor.
 
 
 
-### -param rect
+### -param rect [in, ref]
 
-TBD
+Type: <b>const <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a></b>
+
+Reference to a rectangle. 
 
 
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+
+
+
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
+ 
+
+ 
 

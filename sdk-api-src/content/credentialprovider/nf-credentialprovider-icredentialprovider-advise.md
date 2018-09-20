@@ -7,7 +7,7 @@ old-location: shell\ICredentialProvider_Advise.htm
 tech.root: shell
 ms.assetid: 5ca35c90-24a3-4ffe-abf7-ba3ce0ec83b9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],Advise method, ICredentialProvider.Advise, ICredentialProvider::Advise, credentialprovider/ICredentialProvider::Advise, shell.ICredentialProvider_Advise, shell_ICredentialProvider_Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Allows a credential provider to initiate events in the Logon UI or Credential UI
 
 ### -param pcpe [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb776007(v=VS.85).aspx">ICredentialProviderEvents</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/bf303b9d-2d6c-4de5-9bca-fc71d4f18903">ICredentialProviderEvents</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb776007(v=VS.85).aspx">ICredentialProviderEvents</a> callback interface to be used as the notification mechanism.
+A pointer to an <a href="https://msdn.microsoft.com/bf303b9d-2d6c-4de5-9bca-fc71d4f18903">ICredentialProviderEvents</a> callback interface to be used as the notification mechanism.
 
 
 ### -param upAdviseContext [in]
@@ -89,9 +89,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The method does not need to be implemented, and should return <b>E_NOTIMPL</b> if it doesn't. There might be no reason to call it, such as if the Logon UI or Credential UI never changes or updates.
 
-This method enables the Logon UI and the Credential UI to pass an <a href="https://msdn.microsoft.com/en-us/library/Bb776007(v=VS.85).aspx">ICredentialProviderEvents</a> pointer to the credential provider. This enables the credential provider to have asynchronous callback communication with the Logon or Credential UI. For example, a smart card provider might want to enumerate credentials again when a new smart card is inserted. In order to trigger the Logon UI to get credentials again,  the credential provider should call <a href="https://msdn.microsoft.com/en-us/library/Bb776006(v=VS.85).aspx">CredentialsChanged</a> providing the <i>upAdviseContext</i> identifier.
+This method enables the Logon UI and the Credential UI to pass an <a href="https://msdn.microsoft.com/bf303b9d-2d6c-4de5-9bca-fc71d4f18903">ICredentialProviderEvents</a> pointer to the credential provider. This enables the credential provider to have asynchronous callback communication with the Logon or Credential UI. For example, a smart card provider might want to enumerate credentials again when a new smart card is inserted. In order to trigger the Logon UI to get credentials again,  the credential provider should call <a href="https://msdn.microsoft.com/bff835ed-01b9-4620-a97c-c64a2445e02a">CredentialsChanged</a> providing the <i>upAdviseContext</i> identifier.
 
-Credential providers that implement this method have the responsibility of calling <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on the provided <a href="https://msdn.microsoft.com/en-us/library/Bb776007(v=VS.85).aspx">ICredentialProviderEvents</a>. Those credential providers also need to call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> during the <a href="https://msdn.microsoft.com/en-us/library/Bb776045(v=VS.85).aspx">UnAdvise</a> method.
+Credential providers that implement this method have the responsibility of calling <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> on the provided <a href="https://msdn.microsoft.com/bf303b9d-2d6c-4de5-9bca-fc71d4f18903">ICredentialProviderEvents</a>. Those credential providers also need to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> during the <a href="https://msdn.microsoft.com/d971c7be-f440-41ce-945d-4dbe51554e59">UnAdvise</a> method.
 
 
 
@@ -101,11 +101,11 @@ Credential providers that implement this method have the responsibility of calli
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776042(v=VS.85).aspx">ICredentialProvider</a>
+<a href="https://msdn.microsoft.com/7ce6cd61-16d1-414e-b9b3-4929a65c0cc6">ICredentialProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776045(v=VS.85).aspx">ICredentialProvider::UnAdvise</a>
+<a href="https://msdn.microsoft.com/d971c7be-f440-41ce-945d-4dbe51554e59">ICredentialProvider::UnAdvise</a>
  
 
  

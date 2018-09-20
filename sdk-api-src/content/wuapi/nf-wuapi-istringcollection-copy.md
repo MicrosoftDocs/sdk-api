@@ -4,10 +4,10 @@ title: IStringCollection::Copy
 author: windows-sdk-content
 description: Creates a deep read/write copy of the collection.
 old-location: wua\istringcollection_copy.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: e2f6d5c0-c92a-44e5-a322-f336a3ef64ce
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/19/2018
 ms.keywords: Copy, Copy method [Windows Update Agent], Copy method [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Copy method, IStringCollection.Copy, IStringCollection::Copy, wua.istringcollection_copy, wuapi/IStringCollection::Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices

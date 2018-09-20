@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentMinimum.htm
 tech.root: WinAuto
 ms.assetid: 1bb98417-750c-4b03-a4a2-d652d0c2fb6e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: CurrentMinimum property [Windows Accessibility], CurrentMinimum property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentMinimum property, IUIAutomationRangeValuePattern.CurrentMinimum, IUIAutomationRangeValuePattern.get_CurrentMinimum, IUIAutomationRangeValuePattern::CurrentMinimum, IUIAutomationRangeValuePattern::get_CurrentMinimum, get_CurrentMinimum, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentMinimum, uiauto_IUIAutomationRangeValuePattern_CurrentMinimum, uiautomationclient/IUIAutomationRangeValuePattern::CurrentMinimum, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentMinimum, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentMinimum
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItemInfo_GetLastSyncTime.htm
 tech.root: shell
 ms.assetid: ce6690fc-bc1b-4177-ad4a-76c51d36e908
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GetLastSyncTime, GetLastSyncTime method [Windows Shell], GetLastSyncTime method [Windows Shell],ISyncMgrSyncItemInfo interface, ISyncMgrSyncItemInfo interface [Windows Shell],GetLastSyncTime method, ISyncMgrSyncItemInfo.GetLastSyncTime, ISyncMgrSyncItemInfo::GetLastSyncTime, _shell_ISyncMgrSyncItemInfo_GetLastSyncTime, shell.ISyncMgrSyncItemInfo_GetLastSyncTime, syncmgr/ISyncMgrSyncItemInfo::GetLastSyncTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,16 +91,20 @@ Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/d
 
 The following example shows an implementation of this method that calls a private class function to retrieve the time and date.
 
-
-```cpp
-STDMETHODIMP CMyDeviceSyncItem::GetLastSyncTime(__out FILETIME *pftLastSync)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceSyncItem::GetLastSyncTime(__out FILETIME *pftLastSync)
 {
     *pftLastSync = _ftLastSync;
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetCenterY(IDCompositionAnimation)
 title: IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation)
 author: windows-sdk-content
-description: Animates the value of the CenterY property of a 3D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed. The default value is zero.
-old-location: directcomp\idcompositionrotatetransform3d_setcentery_idcompositionanimation.htm
+description: Changes the value of the CenterY property of a 3D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed. The default value is zero.
+old-location: directcomp\idcompositionrotatetransform3d_setcentery_float.htm
 tech.root: directcomp
-ms.assetid: 051E01E0-1A1B-4724-A8F2-F12F2EC27C4C
+ms.assetid: 3A7E562C-52ED-45A4-B473-6ACBF6A9C0E9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetCenterY method, IDCompositionRotateTransform3D.SetCenterY, IDCompositionRotateTransform3D.SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterY, IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation*), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetCenterY, directcomp.idcompositionrotatetransform3d_setcentery_idcompositionanimation
+ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetCenterY method, IDCompositionRotateTransform3D.SetCenterY, IDCompositionRotateTransform3D.SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterY, IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetCenterY, directcomp.idcompositionrotatetransform3d_setcentery_float
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Animates the value of the CenterY property of a 3D rotation transform.  The CenterY property specifies the y-coordinate of the point about which the rotation is performed. The default value is zero.
+Changes the value of the CenterY property of a 3D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed. The default value is zero.
 
 
 ## -parameters
@@ -58,11 +58,18 @@ Animates the value of the CenterY property of a 3D rotation transform.  The Cent
 
 
 
-### -param animation [in]
+### -param animation
 
-Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
+TBD
 
-An animation object that determines how the value of the CenterY property changes over time. This parameter must not be NULL.
+
+
+
+#### - centerY [in]
+
+Type: <b>float</b>
+
+The new y-coordinate of the center point.
 
 
 ## -returns
@@ -80,11 +87,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the CenterY property unless this method is called again. If the CenterY property was previously animated, calling this method replaces the previous animation with the new animation. 
+This method fails if the <i>centerY</i> parameter is NaN, positive infinity, or negative infinity.
 
 
 
-This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+If the CenterY property was previously animated, this method removes the animation and sets the CenterY property to the specified static value.
 
 
 
@@ -99,7 +106,7 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://msdn.microsoft.com/2E4924A5-64D0-4415-B345-0DE9A0900258">IDCompositionRotateTransform3D::SetCenterX</a>
+<a href="https://msdn.microsoft.com/D5CE4491-0A06-4824-BDE5-A839E0E60EA7">IDCompositionRotateTransform3D::SetCenterX</a>
 
 
 

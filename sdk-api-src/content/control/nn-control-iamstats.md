@@ -54,16 +54,16 @@ req.redist:
 
 The <code>IAMStats</code> interface retrieves performance data from the Filter Graph Manager. Filters can use this interface to record performance data.
 
-<b>Filter developers</b>: As with all Filter Graph Manager interfaces, a filter must not hold a reference count on this interface, or it will cause a circular reference count. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd389529(v=VS.85).aspx">IBaseFilter::JoinFilterGraph</a>.
+<b>Filter developers</b>: As with all Filter Graph Manager interfaces, a filter must not hold a reference count on this interface, or it will cause a circular reference count. For more information, see <a href="https://msdn.microsoft.com/1f01c71f-5c12-4bf3-937c-740168baf776">IBaseFilter::JoinFilterGraph</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStats</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAMStats</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStats</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAMStats</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -76,7 +76,7 @@ The <b>IAMStats</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319778(v=VS.85).aspx">AddValue</a>
+<a href="https://msdn.microsoft.com/a408b106-702c-4ecc-a424-b4b3588ea58f">AddValue</a>
 </td>
 <td align="left" width="63%">
 Records a new value.
@@ -85,7 +85,7 @@ Records a new value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319782(v=VS.85).aspx">get_Count</a>
+<a href="https://msdn.microsoft.com/48f2543a-7c93-4d4f-a568-b8066e9545fd">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of statistics.
@@ -112,7 +112,7 @@ Retrieves a statistic by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319781(v=VS.85).aspx">GetValueByName</a>
+<a href="https://msdn.microsoft.com/c380deb0-bd49-4191-8218-d05aef39cb15">GetValueByName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a statistic by name.
@@ -121,7 +121,7 @@ Retrieves a statistic by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319783(v=VS.85).aspx">Reset</a>
+<a href="https://msdn.microsoft.com/daa5f3c0-6785-46b6-987f-acef798b0ed9">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets all statistics to zero.
@@ -146,7 +146,7 @@ Each statistic is defined by a name and an index. Use the <b>GetIndex</b> method
 </tr>
 <tr>
 <td>RenderFile</td>
-<td>Measures the time taken by each call to <a href="https://msdn.microsoft.com/en-us/library/Dd390090(v=VS.85).aspx">IGraphBuilder::RenderFile</a>.</td>
+<td>Measures the time taken by each call to <a href="https://msdn.microsoft.com/449aec08-c03e-41d6-8c04-0e871e532d11">IGraphBuilder::RenderFile</a>.</td>
 </tr>
 <tr>
 <td>ConnectDirectInternal</td>
@@ -154,11 +154,11 @@ Each statistic is defined by a name and an index. Use the <b>GetIndex</b> method
 </tr>
 <tr>
 <td>Build Mapper Cache</td>
-<td>Measures the time taken to cache information about registered filters (used by the <a href="https://msdn.microsoft.com/en-us/library/Dd375788(v=VS.85).aspx">Filter Mapper</a> object).</td>
+<td>Measures the time taken to cache information about registered filters (used by the <a href="https://msdn.microsoft.com/cb8f25b3-a0f0-48fa-843f-88a5a5d17019">Filter Mapper</a> object).</td>
 </tr>
 <tr>
 <td>Process Category <i>CategoryName</i></td>
-<td>Measures the time taken to cache information about filters in a particular category, where <i>CategoryName</i> is the friendly name of the filter category. (See <a href="https://msdn.microsoft.com/en-us/library/Dd375655(v=VS.85).aspx">Filter Categories</a>.)</td>
+<td>Measures the time taken to cache information about filters in a particular category, where <i>CategoryName</i> is the friendly name of the filter category. (See <a href="https://msdn.microsoft.com/cab4e2c9-eab9-4836-adfc-870490ca5b6b">Filter Categories</a>.)</td>
 </tr>
 </table>
  
@@ -173,7 +173,7 @@ For each of these statistics, the values represent time in milliseconds.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

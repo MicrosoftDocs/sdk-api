@@ -7,7 +7,7 @@ old-location: shell\IEnumExtraSearch_Reset.htm
 tech.root: shell
 ms.assetid: c5b74037-1188-4979-8acf-6994ceb15719
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: IEnumExtraSearch interface [Windows Shell],Reset method, IEnumExtraSearch.Reset, IEnumExtraSearch::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumExtraSearch interface, _win32_IEnumExtraSearch_Reset, shell.IEnumExtraSearch_Reset, shobjidl_core/IEnumExtraSearch::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

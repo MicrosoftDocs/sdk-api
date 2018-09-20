@@ -7,7 +7,7 @@ old-location: shell\IShellItemArray_GetCount.htm
 tech.root: shell
 ms.assetid: 84d20695-bd51-4727-bd82-bd104de99067
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetCount method, IShellItemArray.GetCount, IShellItemArray::GetCount, _shell_IShellItemArray_GetCount, shell.IShellItemArray_GetCount, shobjidl_core/IShellItemArray::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

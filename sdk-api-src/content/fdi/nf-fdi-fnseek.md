@@ -7,7 +7,7 @@ old-location: winprog\fnseek.htm
 tech.root: devnotes
 ms.assetid: e49b5086-6b89-40ce-b6fa-905d21593dec
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: FNSEEK, FNSEEK macro [Windows API], fdi/FNSEEK, winprog.fnseek
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,16 +82,20 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNSEEK(fnFileSeek)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNSEEK(fnFileSeek)
 {
     return SetFilePointer((HANDLE)hf, dist, NULL, seektype);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

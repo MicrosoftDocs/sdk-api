@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderSimple_HostRawElementProvider.ht
 tech.root: WinAuto
 ms.assetid: fcbd3dc8-5bc7-48ae-bc21-009876b3e673
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: HostRawElementProvider property [Windows Accessibility], HostRawElementProvider property [Windows Accessibility],IRawElementProviderSimple interface, IRawElementProviderSimple interface [Windows Accessibility],HostRawElementProvider property, IRawElementProviderSimple.HostRawElementProvider, IRawElementProviderSimple.get_HostRawElementProvider, IRawElementProviderSimple::HostRawElementProvider, IRawElementProviderSimple::get_HostRawElementProvider, get_HostRawElementProvider, uiauto.uiauto_IRawElementProviderSimple_HostRawElementProvider, uiauto_IRawElementProviderSimple_HostRawElementProvider, uiautomationcore/IRawElementProviderSimple::HostRawElementProvider, uiautomationcore/IRawElementProviderSimple::get_HostRawElementProvider, winauto.uiauto_IRawElementProviderSimple_HostRawElementProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ This property is generally the Microsoft UI Automation provider for the window o
 			of the element is usually obtained from the host provider.
 
 A host provider must be returned in the following cases: when the element is a fragment root, 
-			when the element is a simple element (such as a push button), and when the provider is a repositioning placeholder (for more information, see <a href="https://msdn.microsoft.com/en-us/library/Ee671615(v=VS.85).aspx">Provider Repositioning</a>). 
+			when the element is a simple element (such as a push button), and when the provider is a repositioning placeholder (for more information, see <a href="uiauto_ServerSideProvider.htm">Provider Repositioning</a>). 
 			 In other cases, the property should be <b>NULL</b>.
 
 
@@ -78,16 +78,20 @@ The following example returns the host provider for the window that hosts the co
             this provider.
 			
 
-
-```cpp
-HRESULT STDMETHODCALLTYPE Provider::get_HostRawElementProvider(IRawElementProviderSimple** pRetVal)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT STDMETHODCALLTYPE Provider::get_HostRawElementProvider(IRawElementProviderSimple** pRetVal)
 {
     return UiaHostProviderFromHwnd(controlHWnd, pRetVal); 
 }
-            
-```
-
-
+            </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

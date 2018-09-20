@@ -51,7 +51,7 @@ req.redist:
 
 
 The SOCKADDR_IN structure specifies a transport address and port for the 
-  <a href="https://msdn.microsoft.com/library/Ff543744(v=VS.85).aspx">AF_INET</a> address family.
+  <a href="netvista.af_inet">AF_INET</a> address family.
 
 
 ## -struct-fields
@@ -96,7 +96,7 @@ All of the data in the SOCKADDR_IN structure, except for the address family, mus
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff543744(v=VS.85).aspx">AF_INET</a>
+<a href="netvista.af_inet">AF_INET</a>
 
 
 

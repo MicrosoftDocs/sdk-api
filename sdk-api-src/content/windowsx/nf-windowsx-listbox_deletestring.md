@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Deletes the item at the specified location in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775183(v=VS.85).aspx">LB_DELETESTRING</a> message explicitly.
+Deletes the item at the specified location in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/3f360e07-b70d-4bfc-89d4-18d3b18b0fcf">LB_DELETESTRING</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The zero-based index of the item to delete.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775183(v=VS.85).aspx">LB_DELETESTRING</a>
+For more information, see <a href="https://msdn.microsoft.com/3f360e07-b70d-4bfc-89d4-18d3b18b0fcf">LB_DELETESTRING</a>
 
 
 

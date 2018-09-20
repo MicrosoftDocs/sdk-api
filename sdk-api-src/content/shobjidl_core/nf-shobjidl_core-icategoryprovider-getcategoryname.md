@@ -7,7 +7,7 @@ old-location: shell\ICategoryProvider_GetCategoryName.htm
 tech.root: shell
 ms.assetid: 3730394a-8720-46cc-a9da-cd5cf0df7eeb
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GetCategoryName, GetCategoryName method [Windows Shell], GetCategoryName method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],GetCategoryName method, ICategoryProvider.GetCategoryName, ICategoryProvider::GetCategoryName, inet_ICategoryProvider_GetCategoryName, shell.ICategoryProvider_GetCategoryName, shobjidl_core/ICategoryProvider::GetCategoryName
 ms.prod: windows-hardware
 ms.technology: windows-devices

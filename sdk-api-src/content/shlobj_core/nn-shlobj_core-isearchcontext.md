@@ -7,7 +7,7 @@ old-location: shell\ISearchContext.htm
 tech.root: shell
 ms.assetid: 95ac188a-f27f-4e09-9de3-a822bbbd6e8e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: ISearchContext, ISearchContext interface [Windows Shell], ISearchContext interface [Windows Shell],described, _shell_ISearchContext, shell.ISearchContext, shlobj_core/ISearchContext
 ms.prod: windows
 ms.technology: windows-sdk

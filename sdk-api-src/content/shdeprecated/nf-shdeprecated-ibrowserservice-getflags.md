@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_GetFlags.htm
 tech.root: shell
 ms.assetid: 9de972ce-09fa-4da1-ad24-781c4640b92f
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: BSF_CANMAXIMIZE, BSF_DELEGATEDNAVIGATION, BSF_DONTSHOWNAVCANCELPAGE, BSF_FEEDNAVIGATION, BSF_FEEDSUBSCRIBED, BSF_HTMLNAVCANCELED, BSF_MERGEDMENUS, BSF_NAVNOHISTORY, BSF_NOLOCALFILEWARNING, BSF_REGISTERASDROPTARGET, BSF_RESIZABLE, BSF_SETNAVIGATABLECODEPAGE, BSF_THEATERMODE, BSF_TOPBROWSER, BSF_TRUSTEDFORACTIVEX, BSF_UISETBYAUTOMATION, GetFlags, GetFlags method [Windows Shell], GetFlags method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetFlags method, IBrowserService.GetFlags, IBrowserService::GetFlags, shdeprecated/IBrowserService::GetFlags, shell.IBrowserService_GetFlags, zone_IBrowserService_GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

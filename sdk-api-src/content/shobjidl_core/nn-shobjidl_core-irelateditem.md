@@ -7,7 +7,7 @@ old-location: shell\IRelatedItem.htm
 tech.root: shell
 ms.assetid: f42d218c-0251-45e0-b05a-f1ccdcaf036c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: IRelatedItem, IRelatedItem interface [Windows Shell], IRelatedItem interface [Windows Shell],described, _shell_IRelatedItem, shell.IRelatedItem, shobjidl_core/IRelatedItem
 ms.prod: windows
 ms.technology: windows-sdk

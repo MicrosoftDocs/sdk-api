@@ -2,21 +2,21 @@
 UID: NF:gdipluspath.GraphicsPath.AddLine(IN const Point &,IN const Point &)
 title: GraphicsPath::AddLine(IN const Point &,IN const Point &)
 author: windows-sdk-content
-description: This topic lists the AddLine methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
-old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_Methods.htm
+description: The GraphicsPath::AddLine method adds a line to the current figure of this path.
+old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_Point_pt1_Point_pt2_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinemethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinemethods\addline.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: AddLine, AddLine methods [GDI+], GraphicsPath.AddLine, GraphicsPath.AddLine(IN const Point &,IN const Point &), GraphicsPath::AddLine, GraphicsPath::AddLine(IN const Point &,IN const Point &), _gdiplus_CLASS_GraphicsPath_AddLine_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_Methods, gdipluspath/AddLine
+ms.keywords: AddLine, AddLine method [GDI+], AddLine method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddLine method, GraphicsPath.AddLine, GraphicsPath.AddLine(IN const Point &,IN const Point &), GraphicsPath.AddLine(const Point&,const Point&), GraphicsPath::AddLine, GraphicsPath::AddLine(IN const Point &,IN const Point &), _gdiplus_CLASS_GraphicsPath_AddLine_Point_pt1_Point_pt2_, gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_Point_pt1_Point_pt2_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdipluspath.h
+ - Gdiplus.dll
 api_name:
  - GraphicsPath.AddLine
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # GraphicsPath::AddLine(IN const Point &,IN const Point &)
@@ -50,55 +51,85 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-AddLine methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
-<b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
+The <b>GraphicsPath::AddLine</b> method adds a line to the current figure of this path.
 
-
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535601(v=VS.85).aspx">AddLine(Point&,Point&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535601(v=VS.85).aspx">GraphicsPath::AddLine</a> method adds a line to the current figure of this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535604(v=VS.85).aspx">AddLine(INT,INT,INT,INT)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535604(v=VS.85).aspx">GraphicsPath::AddLine</a> method adds a line to the current figure of this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535602(v=VS.85).aspx">AddLine(PointF&,PointF&)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535602(v=VS.85).aspx">GraphicsPath::AddLine</a> method adds a line to the current figure of this path.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535603(v=VS.85).aspx">AddLine(REAL,REAL,REAL,REAL)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535603(v=VS.85).aspx">GraphicsPath::AddLine</a> method adds a line to the current figure of this path.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param pt1 [in, ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a></b>
+
+Reference to a point at which to start the line. 
+
+
+### -param pt2 [in, ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a></b>
+
+Reference to a point at which to end the line. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+</strong>
+
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ff80b2a7-47a9-49dd-b2ea-9bd0453fac0b">AddLine Methods</a>
+
+
+
+<a href="https://msdn.microsoft.com/39055c59-6d88-4b46-bc4c-cf2a4a927d29">AddLines Methods</a>
+
+
+
+<a href="https://msdn.microsoft.com/816a5845-ca03-46c6-bdda-e6a7d02ff614">Clipping with a Region</a>
+
+
+
+<a href="https://msdn.microsoft.com/dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4">Constructing and Drawing Paths</a>
+
+
+
+<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
+
+
+
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
+
+
+
+<a href="https://msdn.microsoft.com/88fea2ec-7b53-44bb-841d-486c5c879c68">Paths</a>
+
+
+
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+
+
+
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+
+
+
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
+ 
+
+ 
 

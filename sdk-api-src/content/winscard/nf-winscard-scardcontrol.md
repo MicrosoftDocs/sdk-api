@@ -124,7 +124,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -146,9 +146,13 @@ The <b>SCardControl</b> function is a direct card access function. For more info
 
 The following example issues a control code. The example assumes that hCardHandle is a valid handle received from a previous call to <a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a> and that dwControlCode is a variable of type <b>DWORD</b> previously initialized to a valid control code. This particular control code requires no input data and expects no output data.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 lReturn = SCardControl( hCardHandle,
                         dwControlCode,
                         NULL,
@@ -158,10 +162,10 @@ lReturn = SCardControl( hCardHandle,
                         0 );
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardControl\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

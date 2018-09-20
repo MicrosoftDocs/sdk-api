@@ -7,7 +7,7 @@ old-location: shell\APPBARDATA.htm
 tech.root: shell
 ms.assetid: cf86fe15-4beb-49b7-b73e-2ad61cedc3f8
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: "*PAPPBARDATA, ABE_BOTTOM, ABE_LEFT, ABE_RIGHT, ABE_TOP, APPBARDATA, APPBARDATA structure [Windows Shell], PAPPBARDATA, PAPPBARDATA structure pointer [Windows Shell], _AppBarData, _win32_APPBARDATA, shell.APPBARDATA, shellapi/APPBARDATA, shellapi/PAPPBARDATA"
 ms.prod: windows
 ms.technology: windows-sdk

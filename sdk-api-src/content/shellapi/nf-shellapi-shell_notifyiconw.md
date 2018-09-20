@@ -7,7 +7,7 @@ old-location: shell\Shell_NotifyIcon.htm
 tech.root: shell
 ms.assetid: a316bc29-5f19-4a04-a32b-f4caeea0c029
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: NIM_ADD, NIM_DELETE, NIM_MODIFY, NIM_SETFOCUS, NIM_SETVERSION, Shell_NotifyIcon, Shell_NotifyIcon function [Windows Shell], Shell_NotifyIconA, Shell_NotifyIconW, _win32_Shell_NotifyIcon, shell.Shell_NotifyIcon, shellapi/Shell_NotifyIcon, shellapi/Shell_NotifyIconA, shellapi/Shell_NotifyIconW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -157,9 +157,9 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. If <i>dwMessage</i
 As of Windows 2000 (<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Shell32.dll version 5.0</a>), if you set the <b>uVersion</b> member of the <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> to NOTIFYICON_VERSION_4 or higher, <b>Shell_NotifyIcon</b> mouse and keyboard events are handled differently than in earlier versions of Windows. The differences include the following:
 
 <ul>
-<li>If a user selects a notify icon's shortcut menu with the keyboard, the Shell now sends the associated application a <a href="https://msdn.microsoft.com/en-us/library/ms647592(v=VS.85).aspx">WM_CONTEXTMENU</a> message. Earlier versions send <a href="https://msdn.microsoft.com/en-us/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646243(v=VS.85).aspx">WM_RBUTTONUP</a> messages.</li>
-<li>If a user selects a notify icon with the keyboard and activates it with the SPACEBAR or ENTER key, the version 5.0 Shell sends the associated application an NIN_KEYSELECT notification. Earlier versions send <a href="https://msdn.microsoft.com/en-us/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646243(v=VS.85).aspx">WM_RBUTTONUP</a> messages.</li>
-<li>If a user selects a notify icon with the mouse and activates it with the ENTER key, the Shell now sends the associated application an NIN_SELECT notification. Earlier versions send <a href="https://msdn.microsoft.com/en-us/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646243(v=VS.85).aspx">WM_RBUTTONUP</a> messages.</li>
+<li>If a user selects a notify icon's shortcut menu with the keyboard, the Shell now sends the associated application a <a href="https://msdn.microsoft.com/e607a61a-0f9b-4d11-b8c0-b01a2e7fb35b">WM_CONTEXTMENU</a> message. Earlier versions send <a href="https://msdn.microsoft.com/da1a7d7c-6e49-4097-8b43-dcee7bd5fb3f">WM_RBUTTONDOWN</a> and <a href="https://msdn.microsoft.com/12d148ba-9324-4db3-b537-b2cd4d0b8f32">WM_RBUTTONUP</a> messages.</li>
+<li>If a user selects a notify icon with the keyboard and activates it with the SPACEBAR or ENTER key, the version 5.0 Shell sends the associated application an NIN_KEYSELECT notification. Earlier versions send <a href="https://msdn.microsoft.com/da1a7d7c-6e49-4097-8b43-dcee7bd5fb3f">WM_RBUTTONDOWN</a> and <a href="https://msdn.microsoft.com/12d148ba-9324-4db3-b537-b2cd4d0b8f32">WM_RBUTTONUP</a> messages.</li>
+<li>If a user selects a notify icon with the mouse and activates it with the ENTER key, the Shell now sends the associated application an NIN_SELECT notification. Earlier versions send <a href="https://msdn.microsoft.com/da1a7d7c-6e49-4097-8b43-dcee7bd5fb3f">WM_RBUTTONDOWN</a> and <a href="https://msdn.microsoft.com/12d148ba-9324-4db3-b537-b2cd4d0b8f32">WM_RBUTTONUP</a> messages.</li>
 </ul>
 As of Windows XP (<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Shell32.dll version 6.0</a>), if a user passes the mouse pointer over an icon with which a balloon notification is associated, the Shell sends the following messages:
 

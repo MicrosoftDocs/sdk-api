@@ -2,13 +2,13 @@
 UID: NF:gdiplusheaders.Image.SaveAdd(IN Image,IN const EncoderParameters)
 title: Image::SaveAdd(IN Image,IN const EncoderParameters)
 author: windows-sdk-content
-description: The Image::SaveAdd method adds a frame to a file or stream specified in a previous call to the Save method.
-old-location: gdiplus\_gdiplus_CLASS_Image_SaveAdd_newImage_encoderParams_.htm
+description: This topic lists the SaveAdd methods of the Image class. For a complete list of methods for the Image class, see Image Methods.
+old-location: gdiplus\_gdiplus_CLASS_Image_SaveAdd_Methods.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesaveaddmethods\saveadd_17newimage_encoderparams.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesaveaddmethods.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: Image class [GDI+],SaveAdd method, Image.SaveAdd, Image.SaveAdd(IN Image,IN const EncoderParameters), Image.SaveAdd(Image*,const EncoderParameters*), Image::SaveAdd, Image::SaveAdd(IN Image,IN const EncoderParameters), SaveAdd, SaveAdd method [GDI+], SaveAdd method [GDI+],Image class, _gdiplus_CLASS_Image_SaveAdd_newImage_encoderParams_, gdiplus._gdiplus_CLASS_Image_SaveAdd_newImage_encoderParams_
+ms.keywords: Image.SaveAdd, Image.SaveAdd(IN Image,IN const EncoderParameters), Image::SaveAdd, Image::SaveAdd(IN Image,IN const EncoderParameters), SaveAdd, SaveAdd methods [GDI+], _gdiplus_CLASS_Image_SaveAdd_Methods, gdiplus._gdiplus_CLASS_Image_SaveAdd_Methods, gdiplusheaders/SaveAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -27,14 +27,15 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
+req.dll: 
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - LibDef
 api_location:
+ - Gdiplus.lib
  - Gdiplus.dll
 api_name:
  - Image.SaveAdd
@@ -51,81 +52,37 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Image::SaveAdd</b> method adds a frame to a file or stream specified in a previous call to the 
+<span>This topic lists the 
+			SaveAdd methods of the 
+			<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> class. For a complete list of methods for the 
+			<b>Image</b> class, see <a href="https://msdn.microsoft.com/70dbe346-790c-47e3-8e85-6154fc340982">Image Methods</a>.
+
+</span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/03ebcd9f-83c9-4970-bc89-cfed876de44b">SaveAdd(EncoderParameters*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/03ebcd9f-83c9-4970-bc89-cfed876de44b">Image::SaveAdd</a> method adds a frame to a file or stream specified in a previous call to the 
+			<b>Save</b> method. Use this method to save selected frames from a multiple-frame image to another multiple-frame image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/59fe2954-84aa-4e3d-954e-d329ee60585d">SaveAdd(Image*,EncoderParameters*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/59fe2954-84aa-4e3d-954e-d329ee60585d">Image::SaveAdd</a> method adds a frame to a file or stream specified in a previous call to the 
 			<b>Save</b> method.
 
+</td>
+</tr>
+</table>
 
 ## -parameters
-
-
-
-
-### -param newImage [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>*</b>
-
-Pointer to an 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object that holds the frame to be added. 
-
-
-### -param encoderParams [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/347275b5-22d2-47ad-9754-0bd213689bf0">EncoderParameters</a>*</b>
-
-Pointer to an <a href="https://msdn.microsoft.com/347275b5-22d2-47ad-9754-0bd213689bf0">EncoderParameters</a> object that contains parameters required by the image encoder used in the save-add operation. 
-
-
-## -returns
-
-
-
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
-</strong>
-
-If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/1ea22bdc-c519-466e-ad39-192910785f4b">EncoderParameter</a>
-
-
-
-<a href="https://msdn.microsoft.com/347275b5-22d2-47ad-9754-0bd213689bf0">EncoderParameters</a>
-
-
-
-<a href="https://msdn.microsoft.com/454d35be-ccb6-4a91-ba12-b07d55526f8e">GetImageEncoders</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
-
-
-
-<a href="https://msdn.microsoft.com/ea264188-3c39-4f00-84f3-114c81a5642e">Image::Save Methods</a>
-
-
-
-<a href="https://msdn.microsoft.com/e597f6e6-6e07-4afb-8905-26e4af961685">Image::SaveAdd Methods</a>
-
-
-
-<a href="https://msdn.microsoft.com/b9d62f6d-253e-423e-9dba-6b55b1a8391a">Image::SelectActiveFrame</a>
-
-
-
-<a href="https://msdn.microsoft.com/f9a5b4b1-4e25-42c8-a96b-a3104841e5f3">Using Image Encoders and Decoders</a>
- 
-
- 
 

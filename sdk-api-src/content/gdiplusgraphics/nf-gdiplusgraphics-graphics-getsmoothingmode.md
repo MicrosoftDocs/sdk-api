@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::GetSmoothingMode</b> method determines whether smoothing (antialiasing) is applied to the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 
 ## -parameters
@@ -66,13 +66,13 @@ The <b>Graphics::GetSmoothingMode</b> method determines whether smoothing (antia
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534173(v=VS.85).aspx">SmoothingMode</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/42b3fc67-2cdb-4e14-88a0-aac914e8336a">SmoothingMode</a></b>
 </strong>
 
 If smoothing (antialiasing) is applied to this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, this method returns SmoothingModeAntiAlias. If smoothing (antialiasing) is not applied to this 
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object, this method returns SmoothingModeAntiAlias. If smoothing (antialiasing) is not applied to this 
 						<b>Graphics</b> object, this method returns SmoothingModeNone. SmoothingModeAntiAlias and SmoothingModeNone are elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534173(v=VS.85).aspx">SmoothingMode</a> enumeration.
+						<a href="https://msdn.microsoft.com/42b3fc67-2cdb-4e14-88a0-aac914e8336a">SmoothingMode</a> enumeration.
 
 
 
@@ -82,7 +82,7 @@ If smoothing (antialiasing) is applied to this
 
 
 To get the rendering quality level for text, use the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms535728(v=VS.85).aspx">Graphics::GetTextRenderingHint</a> method.
+				<a href="https://msdn.microsoft.com/6525ac0e-bfd7-4471-bedb-df970b208222">Graphics::GetTextRenderingHint</a> method.
 
 
 #### Examples
@@ -91,9 +91,13 @@ To get the rendering quality level for text, use the
 
 The following example sets the smoothing mode to high speed and draws an ellipse. It then gets the smoothing mode, changes it to high quality, and draws a second ellipse to demonstrate the difference.
 
-
-```cpp
-VOID Example_GetSmoothingMode(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetSmoothingMode(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -101,7 +105,7 @@ VOID Example_GetSmoothingMode(HDC hdc)
    graphics.SetSmoothingMode(SmoothingModeHighSpeed);
 
    // Draw an ellipse.
-   graphics.DrawEllipse(&Pen(Color(255, 0, 0, 0), 3), Rect(10, 0, 200, 100));
+   graphics.DrawEllipse(&amp;Pen(Color(255, 0, 0, 0), 3), Rect(10, 0, 200, 100));
 
    // Get the smoothing mode.
    SmoothingMode mode = graphics.GetSmoothingMode();
@@ -114,11 +118,11 @@ VOID Example_GetSmoothingMode(HDC hdc)
    }
 
    // Draw an ellipse to demonstrate the difference.
-   graphics.DrawEllipse(&Pen(Color::Red, 3), Rect(220, 0, 200, 100));
-}
-```
-
-
+   graphics.DrawEllipse(&amp;Pen(Color::Red, 3), Rect(220, 0, 200, 100));
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -127,19 +131,19 @@ VOID Example_GetSmoothingMode(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536351(v=VS.85).aspx">Antialiasing with Lines and Curves</a>
+<a href="https://msdn.microsoft.com/7c4869c1-76ff-42d1-abf1-387121943b2a">Antialiasing with Lines and Curves</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533830(v=VS.85).aspx">Loading and Displaying Bitmaps</a>
+<a href="https://msdn.microsoft.com/8c1a26d9-b640-4f38-8276-10c4464525f2">Loading and Displaying Bitmaps</a>
  
 
  

@@ -132,7 +132,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -154,9 +154,13 @@ The <b>SCardSetAttrib</b> function is a direct card access function. For informa
 
 The following example  shows how to set an attribute.
 
-
-```cpp
-// Set the attribute.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Set the attribute.
 // hCardHandle was set by a previous call to SCardConnect.
 // dwAttrID is a DWORD value, specifying the attribute ID.
 // pbAttr points to the buffer of the new value.
@@ -167,10 +171,10 @@ lReturn = SCardSetAttrib(hCardHandle,
                          cByte);
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardSetAttrib\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

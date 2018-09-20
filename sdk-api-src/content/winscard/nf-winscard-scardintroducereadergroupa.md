@@ -153,7 +153,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -180,19 +180,23 @@ To remove a reader group, use
 
 The following example  shows introducing a smart card reader group.
 
-
-```cpp
-// Introduce the reader group.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Introduce the reader group.
 // lReturn is of type LONG.
 // hContext was set by a previous call to SCardEstablishContext.
 lReturn = SCardIntroduceReaderGroup(hContext, 
                                     L"MyReaderGroup");
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardIntroduceReaderGroup\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\FILETYPEATTRIBUTEFLAGS.htm
 tech.root: shell
 ms.assetid: 63b58659-9c4c-4b39-98d1-743724523dcd
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: FILETYPEATTRIBUTEFLAGS, FILETYPEATTRIBUTEFLAGS enumeration [Windows Shell], FTA_AlwaysUnsafe, FTA_AlwaysUseDirectInvoke, FTA_Exclude, FTA_HasExtension, FTA_NoDDE, FTA_NoEdit, FTA_NoEditDesc, FTA_NoEditDflt, FTA_NoEditIcon, FTA_NoEditMIME, FTA_NoEditVerb, FTA_NoEditVerbCmd, FTA_NoEditVerbExe, FTA_NoNewVerb, FTA_NoRecentDocs, FTA_NoRemove, FTA_NoRemoveVerb, FTA_None, FTA_OpenIsSafe, FTA_SafeForElevation, FTA_Show, shell.FILETYPEATTRIBUTEFLAGS, shell_FILETYPEATTRIBUTEFLAGS, shlwapi/FILETYPEATTRIBUTEFLAGS, shlwapi/FTA_AlwaysUnsafe, shlwapi/FTA_AlwaysUseDirectInvoke, shlwapi/FTA_Exclude, shlwapi/FTA_HasExtension, shlwapi/FTA_NoDDE, shlwapi/FTA_NoEdit, shlwapi/FTA_NoEditDesc, shlwapi/FTA_NoEditDflt, shlwapi/FTA_NoEditIcon, shlwapi/FTA_NoEditMIME, shlwapi/FTA_NoEditVerb, shlwapi/FTA_NoEditVerbCmd, shlwapi/FTA_NoEditVerbExe, shlwapi/FTA_NoNewVerb, shlwapi/FTA_NoRecentDocs, shlwapi/FTA_NoRemove, shlwapi/FTA_NoRemoveVerb, shlwapi/FTA_None, shlwapi/FTA_OpenIsSafe, shlwapi/FTA_SafeForElevation, shlwapi/FTA_Show
 ms.prod: windows
 ms.technology: windows-sdk
@@ -192,37 +192,41 @@ The following example demonstrates the use of <a href="https://msdn.microsoft.co
 
                 
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IQueryAssociations *passoc;
 
-```
-IQueryAssociations *passoc;
-
-HRESULT hr = AssocCreate(CLSID_QueryAssociations, IID_PPV_ARGS(&passoc));
+HRESULT hr = AssocCreate(CLSID_QueryAssociations, IID_PPV_ARGS(&amp;passoc));
 if (SUCCEEDED(hr))
 {
-    hr = passoc->Init(NULL, pszType, NULL, NULL);
+    hr = passoc-&gt;Init(NULL, pszType, NULL, NULL);
     if (SUCCEEDED(hr))
     {
         DWORD dwEditFlags;
         ULONG cb = sizeof(dwEditFlags);
         
-        hr = passoc->GetData(NULL, ASSOCDATA_EDITFLAGS, NULL, &dwEditFlags, &cb);
+        hr = passoc-&gt;GetData(NULL, ASSOCDATA_EDITFLAGS, NULL, &amp;dwEditFlags, &amp;cb);
         if (SUCCEEDED(hr))
         {
-            if (dwEditFlags & 0x00000010) // FTA_NoRemove
+            if (dwEditFlags &amp; 0x00000010) // FTA_NoRemove
             {
                 // ...
             }    
-            if (dwEditFlags & 0x00000020)  // FTA_NoNewVerb
+            if (dwEditFlags &amp; 0x00000020)  // FTA_NoNewVerb
             {
                 // ...
             }
         }
     }
-    passoc->Release();
-}
-```
-
-
+    passoc-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 To set an EditFlags attribute, you can use the <a href="https://msdn.microsoft.com/29b0e27c-4999-4e92-bd8b-bba74920bccc">RegSetValueEx</a> or <a href="https://msdn.microsoft.com/6cd5b7fd-8fb9-4c24-9670-20c23ca709bf">SHSetValue</a> functions. First use <a href="https://msdn.microsoft.com/7f21e564-97c6-4f9d-a4fa-160b78dbfc2f">IQueryAssociations::GetData</a> to retrieve the current set of attributes as shown in the example above, add the desired <b>FILETYPEATTRIBUTEFLAGS</b> to that value, then write that value back to the registry using one of the two set functions.
 
 

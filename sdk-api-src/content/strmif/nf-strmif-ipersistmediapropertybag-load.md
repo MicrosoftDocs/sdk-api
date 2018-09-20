@@ -141,9 +141,13 @@ Call this method on the <a href="https://msdn.microsoft.com/31d30c91-fc6a-45ec-a
 
 The following code example adds an IART (author name) INFO chunk to a file:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IPersistMediaPropertyBag *pPersist = NULL;
 IMediaPropertyBag *pBag = NULL;
 VARIANT val;
@@ -151,17 +155,17 @@ VARIANT val;
 // Query the AVI Mux filter for IPersistMediaPropertyBag (not shown).
 
 CoCreateInstance(CLSID_MediaPropertyBag, NULL, CLSCTX_INPROC,
-        IID_IMediaPropertyBag, (LPVOID *)&pBag);
+        IID_IMediaPropertyBag, (LPVOID *)&amp;pBag);
 
 val.vt = VT_BSTR;
 val.bstrVal = SysAllocString(OLESTR("Author Name"));
-pBag->Write(OLESTR("INFO/IART"), &val);
-pPersist->Load(pBag, NULL);
-VariantClear(&val);
-
-```
-
-
+pBag-&gt;Write(OLESTR("INFO/IART"), &amp;val);
+pPersist-&gt;Load(pBag, NULL);
+VariantClear(&amp;val);
+</pre>
+</td>
+</tr>
+</table></span></div>
 The <a href="https://msdn.microsoft.com/df3c7d11-7ecc-499a-af36-b74437e21999">AVI Splitter</a> filter and the <a href="https://msdn.microsoft.com/53a9538d-7a79-40bb-9468-d710eb238925">WAVE Parser</a> do not support this method.
 
 

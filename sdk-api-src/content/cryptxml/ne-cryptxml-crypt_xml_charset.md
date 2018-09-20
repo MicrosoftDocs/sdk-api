@@ -7,7 +7,7 @@ old-location: security\crypt_xml_charset.htm
 tech.root: seccrypto
 ms.assetid: 3f115ac1-a8ed-4151-b3f3-7ddb695802a0
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: CRYPT_XML_CHARSET, CRYPT_XML_CHARSET enumeration [Security], CRYPT_XML_CHARSET_AUTO, CRYPT_XML_CHARSET_UTF16BE, CRYPT_XML_CHARSET_UTF16LE, CRYPT_XML_CHARSET_UTF8, cryptxml/CRYPT_XML_CHARSET, cryptxml/CRYPT_XML_CHARSET_AUTO, cryptxml/CRYPT_XML_CHARSET_UTF16BE, cryptxml/CRYPT_XML_CHARSET_UTF16LE, cryptxml/CRYPT_XML_CHARSET_UTF8, security.crypt_xml_charset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ The <b>CRYPT_XML_CHARSET</b> enumeration is used to specify the character set us
 
 ### -field CRYPT_XML_CHARSET_AUTO
 
-This value is only supported in the <a href="https://msdn.microsoft.com/en-us/library/Dd433829(v=VS.85).aspx">CryptXmlOpenToDecode</a> function. The encoded XML character set is determined by the parser and is based on the XML declaration or the best guess on the characters.
+This value is only supported in the <a href="https://msdn.microsoft.com/b6a77d62-b92d-4b83-949f-14a0ce3ce025">CryptXmlOpenToDecode</a> function. The encoded XML character set is determined by the parser and is based on the XML declaration or the best guess on the characters.
 
 
 ### -field CRYPT_XML_CHARSET_UTF8

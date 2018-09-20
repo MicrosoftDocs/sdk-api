@@ -7,7 +7,7 @@ old-location: security\cryptgetsignercertificatecallback.htm
 tech.root: seccrypto
 ms.assetid: 557ebb26-cce0-4c41-b49c-769b2831cf35
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: CryptGetSignerCertificateCallback, CryptGetSignerCertificateCallback callback function [Security], PFN_CRYPT_GET_SIGNER_CERTIFICATE, PFN_CRYPT_GET_SIGNER_CERTIFICATE callback, security.cryptgetsignercertificatecallback, wincrypt/CryptGetSignerCertificateCallback
 ms.prod: windows
 ms.technology: windows-sdk

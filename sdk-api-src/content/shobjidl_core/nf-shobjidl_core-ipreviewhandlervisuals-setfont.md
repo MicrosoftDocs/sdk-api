@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandlerVisuals_SetFont.htm
 tech.root: shell
 ms.assetid: f329e2ad-ec79-4542-b7ef-ff38bda6e8cc
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: IPreviewHandlerVisuals interface [Windows Shell],SetFont method, IPreviewHandlerVisuals.SetFont, IPreviewHandlerVisuals::SetFont, SetFont, SetFont method [Windows Shell], SetFont method [Windows Shell],IPreviewHandlerVisuals interface, _shell_IPreviewHandlerVisuals_SetFont, shell.IPreviewHandlerVisuals_SetFont, shobjidl_core/IPreviewHandlerVisuals::SetFont
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Sets the font attributes to be used for text within the preview handler.
 
 Type: <b>const LOGFONTW*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Aa741231(v=VS.85).aspx">LOGFONTW Structure</a> containing the necessary attributes for the font to use.
+A pointer to a <a href="_inet_LOGFONTW_Structure">LOGFONTW Structure</a> containing the necessary attributes for the font to use.
 
 
 ## -returns

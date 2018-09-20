@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_Collapse.htm
 tech.root: WinAuto
 ms.assetid: 9337d2dd-08db-4af7-ad65-e113811dd7ba
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: Collapse, Collapse method [Windows Accessibility], Collapse method [Windows Accessibility],IUIAutomationExpandCollapsePattern interface, IUIAutomationExpandCollapsePattern interface [Windows Accessibility],Collapse method, IUIAutomationExpandCollapsePattern.Collapse, IUIAutomationExpandCollapsePattern::Collapse, uiauto.uiauto_IUIAutomationExpandCollapsePattern_Collapse, uiauto_IUIAutomationExpandCollapsePattern_Collapse, uiautomationclient/IUIAutomationExpandCollapsePattern::Collapse, winauto.uiauto_IUIAutomationExpandCollapsePattern_Collapse
 ms.prod: windows-hardware
 ms.technology: windows-devices

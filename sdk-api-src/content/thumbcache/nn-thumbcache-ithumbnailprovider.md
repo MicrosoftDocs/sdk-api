@@ -7,7 +7,7 @@ old-location: shell\IThumbnailProvider.htm
 tech.root: shell
 ms.assetid: 55c4739a-4835-4f53-a435-804ddf06ffcf
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: IThumbnailProvider, IThumbnailProvider interface [Windows Shell], IThumbnailProvider interface [Windows Shell],described, _shell_IThumbnailProvider, shell.IThumbnailProvider, thumbcache/IThumbnailProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,13 +89,17 @@ The Shell calls <a href="https://msdn.microsoft.com/5ea237fb-6b1c-4e87-a9f3-711f
 An implementation of this interface for photo thumbnails is supplied in Microsoft Windows as CLSID_PhotoThumbnailProvider. Applications that use the supplied implementation must define a constant CLSID identifier using the GUID {C7657C4A-9F68-40fa-A4DF-96BC08EB3551}.
 				
 
-
-```
-// {C7657C4A-9F68-40fa-A4DF-96BC08EB3551}
-const CLSID CLSID_PhotoThumbnailProvider = {0xC7657C4A, 0x9F68, 0x40fa, {0xA4, 0xDF, 0x96, 0xBC, 0x08, 0xEB, 0x35, 0x51}} ;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>// {C7657C4A-9F68-40fa-A4DF-96BC08EB3551}
+const CLSID CLSID_PhotoThumbnailProvider = {0xC7657C4A, 0x9F68, 0x40fa, {0xA4, 0xDF, 0x96, 0xBC, 0x08, 0xEB, 0x35, 0x51}} ;</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Initializing</b> The object that implements this interface must also implement <a href="https://msdn.microsoft.com/9050845d-1e70-4e85-8d2f-c8bbb382abe5">IInitializeWithStream</a>. The Shell calls <a href="https://msdn.microsoft.com/1e04c0a4-aa9b-4e2c-8307-525809ca903f">IInitializeWithStream::Initialize</a> with the stream of the item, and  <b>IInitializeWithStream</b> is the only initialization interface used when IThumbnailProvider instances are loaded out-of-proc (for isolation purposes).  This is the primary code path for Windows  for all IThumbnailCache code paths.
 
 It is possible for a thumbnail implementation to be initialized with <a href="https://msdn.microsoft.com/95f3917e-66ca-45de-a3ed-811680a179e7">IInitializeWithItem</a> or <a href="https://msdn.microsoft.com/323181ab-1dc2-4b2a-a91f-3eccd7968bcd">IInitializeWithFile</a> when the handler is request by a 3rd party without using the IThumbnailCache API, but this is uncommon.  If you implement <b>IInitializeWithItem</b>, the Shell calls <a href="https://msdn.microsoft.com/61abf5c8-2847-4788-9d99-65f3b1c821d6">IInitializeWithItem::Initialize</a> with the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> representation of the item. If you implement <b>IInitializeWithFile</b>, the Shell calls <a href="https://msdn.microsoft.com/7b7bb534-dff7-455b-baee-f573fb645cc3">IInitializeWithFile::Initialize</a> with the path of the file.

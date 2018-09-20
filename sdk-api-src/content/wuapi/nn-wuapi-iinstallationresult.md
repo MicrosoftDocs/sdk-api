@@ -4,10 +4,10 @@ title: IInstallationResult
 author: windows-sdk-content
 description: Represents the result of an installation or uninstallation.
 old-location: wua\iinstallationresult.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 453945d7-11a3-4237-b1c8-928194be558d
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/19/2018
 ms.keywords: IInstallationResult, IInstallationResult interface [Windows Update Agent], IInstallationResult interface [Windows Update Agent],described, wua.iinstallationresult, wuapi/IInstallationResult
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Represents the result of an installation or uninstallation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInstallationResult</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IInstallationResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInstallationResult</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IInstallationResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

@@ -66,7 +66,7 @@ Get a bitfield of flags that indicates which debug features are on or off.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Mask of feature-mask flags bitwise ORed together. If a flag is present, then that feature will be set to on, otherwise the feature will be set to off. See <a href="https://msdn.microsoft.com/en-us/library/Bb173520(v=VS.85).aspx">ID3D10Debug::SetFeatureMask</a> for a list of possible feature-mask flags.
+Mask of feature-mask flags bitwise ORed together. If a flag is present, then that feature will be set to on, otherwise the feature will be set to off. See <a href="https://msdn.microsoft.com/e9404531-fdf4-48e0-9ab5-f4e5b32ae077">ID3D10Debug::SetFeatureMask</a> for a list of possible feature-mask flags.
 
 
 
@@ -76,7 +76,7 @@ Mask of feature-mask flags bitwise ORed together. If a flag is present, then tha
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173516(v=VS.85).aspx">ID3D10Debug Interface</a>
+<a href="https://msdn.microsoft.com/2971189b-5df2-4d0a-ad7b-28dbfd6d0af3">ID3D10Debug Interface</a>
  
 
  

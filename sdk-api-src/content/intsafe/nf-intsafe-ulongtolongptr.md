@@ -7,7 +7,7 @@ old-location: shell\ULongToLongPtr.htm
 tech.root: shell
 ms.assetid: c2ea2b44-89c6-417b-b887-cbf5b4dedbb6
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: DWordToLongPtr, DWordToSSIZET, ULongToLongPtr, ULongToLongPtr function [Windows Shell], ULongToSSIZET, _shell_ULongToLongPtr, intsafe/ULongToLongPtr, shell.ULongToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

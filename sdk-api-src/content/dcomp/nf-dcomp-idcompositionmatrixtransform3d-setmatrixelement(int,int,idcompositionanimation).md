@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionMatrixTransform3D.SetMatrixElement(int,int,IDCompositionAnimation)
 title: IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation)
 author: windows-sdk-content
-description: Animates the value of one element of the matrix of this 3D transform.
-old-location: directcomp\idcompositionmatrixtransform3d_setmatrixelement_idcompositionanimation.htm
+description: Changes the value of one element of the matrix of this 3D transform.
+old-location: directcomp\idcompositionmatrixtransform3d_setmatrixelement_float.htm
 tech.root: directcomp
-ms.assetid: 099AB3AB-D0F8-4D25-B407-83C77810F34D
+ms.assetid: 5AB88C3B-7901-413E-929A-8A80EDD8962F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: IDCompositionMatrixTransform3D interface [DirectComposition],SetMatrixElement method, IDCompositionMatrixTransform3D.SetMatrixElement, IDCompositionMatrixTransform3D.SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform3D::SetMatrixElement, IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation*), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionMatrixTransform3D interface, dcomp/IDCompositionMatrixTransform3D::SetMatrixElement, directcomp.idcompositionmatrixtransform3d_setmatrixelement_idcompositionanimation
+ms.keywords: IDCompositionMatrixTransform3D interface [DirectComposition],SetMatrixElement method, IDCompositionMatrixTransform3D.SetMatrixElement, IDCompositionMatrixTransform3D.SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform3D::SetMatrixElement, IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform3D::SetMatrixElement(int,int,float), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionMatrixTransform3D interface, dcomp/IDCompositionMatrixTransform3D::SetMatrixElement, directcomp.idcompositionmatrixtransform3d_setmatrixelement_float
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Animates the value of one element of the matrix of this 3D transform.
+Changes the value of one element of the matrix of this 3D transform.
 
 
 ## -parameters
@@ -72,11 +72,18 @@ Type: <b>int</b>
 The column index of the element to change. This value must be between 0 and 3, inclusive.
 
 
-### -param animation [in]
+### -param animation
 
-Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
+TBD
 
-An animation that represents how the value of the specified element changes over time. This parameter must not be NULL.
+
+
+
+#### - value [in]
+
+Type: <b>float</b>
+
+The new value of the specified element.
 
 
 ## -returns
@@ -94,9 +101,9 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the specified element unless this method is called again. If the specified element was previously animated, calling this method replaces the previous animation with the new animation.
+This method fails if the <i>value</i> parameter is NaN, positive infinity, or negative infinity.
 
-This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected transform. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+If the specified element was previously animated, this method removes the animation and sets the element to the specified static value.
 
 
 

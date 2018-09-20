@@ -2,21 +2,21 @@
 UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN RectF,IN Matrix,IN Effect,IN ImageAttributes,IN Unit)
 title: Graphics::DrawImage(IN Image,IN RectF,IN Matrix,IN Effect,IN ImageAttributes,IN Unit)
 author: windows-sdk-content
-description: The method draws a portion of an image after applying a specified effect.
-old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_sourceRect_Matrix_xForm_.htm
+description: This topic lists the DrawImage methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Methods.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage_imageimage_rectfsourcerect_matrixxform.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: DrawImage, DrawImage method [GDI+], DrawImage method [GDI+],Graphics class, Graphics class [GDI+],DrawImage method, Graphics.DrawImage, Graphics.DrawImage(IN Image,IN RectF,IN Matrix,IN Effect,IN ImageAttributes,IN Unit), Graphics.DrawImage(Image*,RectF*,Matrix*,Effect*,ImageAttributes*,Unit*), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN RectF,IN Matrix,IN Effect,IN ImageAttributes,IN Unit), _gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_sourceRect_Matrix_xForm_, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_sourceRect_Matrix_xForm_
+ms.keywords: DrawImage, DrawImage methods [GDI+], Graphics.DrawImage, Graphics.DrawImage(IN Image,IN RectF,IN Matrix,IN Effect,IN ImageAttributes,IN Unit), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN RectF,IN Matrix,IN Effect,IN ImageAttributes,IN Unit), _gdiplus_CLASS_Graphics_DrawImage_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Methods, gdiplusgraphics/DrawImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
-req.include-header: Gdiplus.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,23 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - Gdiplus.dll
+ - gdiplusgraphics.h
 api_name:
  - Graphics.DrawImage
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: GDI+ 1.0
 ---
 
 # Graphics::DrawImage(IN Image,IN RectF,IN Matrix,IN Effect,IN ImageAttributes,IN Unit)
@@ -51,91 +50,181 @@ req.product: GDI+ 1.0
 ## -description
 
 
+<span>This topic lists the 
+DrawImage methods of the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
+<b>Graphics</b> class, see 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>.
+
+
+</span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/b1fb9602-97bb-4d62-aa09-8197006951a6">DrawImage(Image*,Rect&)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/b1fb9602-97bb-4d62-aa09-8197006951a6">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/d0aeb7d4-ea45-4b00-b044-a9d7e00294c2">DrawImage(Image*,Point&)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/d0aeb7d4-ea45-4b00-b044-a9d7e00294c2">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/da60e3d9-53e2-494b-a48c-7dd5d65a2c0c">DrawImage(Image*,RectF&)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/da60e3d9-53e2-494b-a48c-7dd5d65a2c0c">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/7864f9f6-40c0-428c-8867-2a37abed0505">DrawImage(Image*,INT,INT)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/7864f9f6-40c0-428c-8867-2a37abed0505">Graphics::DrawImage</a> method draws an image at a specified location.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/933bdaec-75a8-4437-b42a-0799c2925d66">DrawImage(Image*,PointF&)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/933bdaec-75a8-4437-b42a-0799c2925d66">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/e92c49b4-e1c9-4c80-b236-cd126b1a5726">DrawImage(Image*,REAL,REAL)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/e92c49b4-e1c9-4c80-b236-cd126b1a5726">Graphics::DrawImage</a> method draws an image at a specified location.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/8eaa8e63-a46c-4453-88a6-838785a55b9f">DrawImage(Image*,Point*,INT)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/8eaa8e63-a46c-4453-88a6-838785a55b9f">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/ec2eb9c8-e5f1-4f0d-968f-e4ac16d670d6">DrawImage(Image*,PointF*,INT)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/ec2eb9c8-e5f1-4f0d-968f-e4ac16d670d6">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/820249ba-0044-4ae4-9edc-744284516fd2">DrawImage(Image*,INT,INT,INT,INT)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/820249ba-0044-4ae4-9edc-744284516fd2">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/10228fb3-e279-4e81-ad19-2f7b1b7d36b9">DrawImage(Image*,REAL,REAL,REAL,REAL)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/10228fb3-e279-4e81-ad19-2f7b1b7d36b9">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/ecaff258-6239-4e36-abbb-935408c6e0f2">DrawImage(Image*,INT,INT,INT,INT,INT,INT,Unit)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/ecaff258-6239-4e36-abbb-935408c6e0f2">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/fff4142b-6922-4870-a752-e26bec4e6e62">DrawImage(Image*,REAL,REAL,REAL,REAL,REAL,REAL,Unit)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/fff4142b-6922-4870-a752-e26bec4e6e62">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/3f82e0bc-75ff-453f-92d6-2a76356c245f">DrawImage(Image*,RectF&,RectF&,Unit,ImageAttributes*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/3f82e0bc-75ff-453f-92d6-2a76356c245f">Graphics::DrawImage</a> method draws a specified portion of an image at a specified location.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/cb85a7ac-5af0-45c7-8035-d7bc2827af6a">DrawImage(Image*,RectF*,Matrix*,Effect*,ImageAttributes*,Unit*)</a>
+</td>
+<td align="left" width="63%">
 The  method draws a portion of an image after applying a specified effect.
 
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/d604d511-c8d7-4e3b-8d54-be06823dbd1f">DrawImage(Image*,Rect&,INT,INT,INT,INT,Unit,ImageAttributes*,DrawImageAbort,VOID*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/d604d511-c8d7-4e3b-8d54-be06823dbd1f">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/19e82e86-0f5f-4d34-86dc-e5ac74ab7fb8">DrawImage(Image*,Point*,INT,INT,INT,INT,INT,Unit,ImageAttributes*,DrawImageAbort,VOID*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/19e82e86-0f5f-4d34-86dc-e5ac74ab7fb8">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/b12bf8de-74fb-44fa-8efd-b1c747403cb2">DrawImage(Image*,RectF&,REAL,REAL,REAL,REAL,Unit,ImageAttributes*,DrawImageAbort,VOID*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/b12bf8de-74fb-44fa-8efd-b1c747403cb2">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/15048dea-2069-4285-938c-5f2340c8ed71">DrawImage(Image*,PointF*,INT,REAL,REAL,REAL,REAL,Unit,ImageAttributes*,DrawImageAbort,VOID*)</a>
+</td>
+<td align="left" width="63%">
+The <a href="https://msdn.microsoft.com/15048dea-2069-4285-938c-5f2340c8ed71">Graphics::DrawImage</a> method draws an image.
+
+</td>
+</tr>
+</table>
 
 ## -parameters
-
-
-
-
-### -param image [in]
-
-Type: <b><a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>*</b>
-
-Pointer to an <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object that specifies the image to be drawn. 
-
-
-### -param sourceRect [in]
-
-Type: <b><a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>*</b>
-
-Pointer to a <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> object that specifies the portion of the image to be drawn.
-
-
-### -param xForm [in]
-
-Type: <b><a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>*</b>
-
-Pointer to a <a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a> object that specifies the parallelogram in which the image portion is rendered. The destination parallelogram is calculated by applying the affine transformation stored in the matrix to the source rectangle.
-
-
-### -param effect [in]
-
-Type: <b><a href="https://msdn.microsoft.com/7b32aad2-ba44-46a6-8315-d55fed2d9391">Effect</a>*</b>
-
-Pointer to a instance of a descendant of the <a href="https://msdn.microsoft.com/7b32aad2-ba44-46a6-8315-d55fed2d9391">Effect</a> class. The descendant specifies an effect or adjustment (for example, a change in contrast) that is applied to the image before rendering. The image is not permanently altered by the effect.
-
-
-### -param imageAttributes [in]
-
-Type: <b><a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a>*</b>
-
-Pointer to an <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object that specifies color adjustments to be applied when the image is rendered. Can be <b>NULL</b>.
-
-
-### -param srcUnit [in]
-
-Type: <b><a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">Unit</a>*</b>
-
-Element of the <a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">Unit</a> enumeration that specifies the unit of measure for the source rectangle.
-
-
-## -returns
-
-
-
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
-</strong>
-
-If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/0ad2a132-6db6-4099-81a2-10e1cd1b1f61">Drawing, Positioning, and Cloning Images</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
-
-
-
-<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
-
-
-
-<a href="https://msdn.microsoft.com/8c1a26d9-b640-4f38-8276-10c4464525f2">Loading and Displaying Bitmaps</a>
- 
-
- 
 

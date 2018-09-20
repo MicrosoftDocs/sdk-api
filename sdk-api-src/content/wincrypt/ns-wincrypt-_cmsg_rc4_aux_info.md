@@ -7,7 +7,7 @@ old-location: security\cmsg_rc4_aux_info.htm
 tech.root: seccrypto
 ms.assetid: 8e456156-b84a-4ca7-9dc7-9f5da4a32a6c
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: "*PCMSG_RC4_AUX_INFO, CMSG_RC4_AUX_INFO, CMSG_RC4_AUX_INFO structure [Security], PCMSG_RC4_AUX_INFO, PCMSG_RC4_AUX_INFO structure pointer [Security], _CMSG_RC4_AUX_INFO, _crypto2_cmsg_rc4_aux_info, security.cmsg_rc4_aux_info, wincrypt/CMSG_RC4_AUX_INFO, wincrypt/PCMSG_RC4_AUX_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

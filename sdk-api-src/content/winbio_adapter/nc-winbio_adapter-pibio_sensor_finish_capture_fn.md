@@ -157,9 +157,13 @@ This is a blocking function that should return only after the sensor I/O operati
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // SensorAdapterFinishCapture
 //
@@ -197,11 +201,11 @@ SensorAdapterFinishCapture(
 
     // Retrieve the context from the pipeline.
     PWINBIO_SENSOR_CONTEXT sensorContext = 
-             (PWINBIO_SENSOR_CONTEXT)Pipeline->SensorContext;
+             (PWINBIO_SENSOR_CONTEXT)Pipeline-&gt;SensorContext;
 
     // Verify the state of the pipeline.
     if (sensorContext == NULL || 
-        Pipeline->SensorHandle == INVALID_HANDLE_VALUE)
+        Pipeline-&gt;SensorHandle == INVALID_HANDLE_VALUE)
     {
         return WINBIO_E_INVALID_DEVICE_STATE;
     }
@@ -215,9 +219,9 @@ SensorAdapterFinishCapture(
     SetLastError(ERROR_SUCCESS);
 
     result = GetOverlappedResult(
-                Pipeline->SensorHandle,
-                &sensorContext->Overlapped,
-                &bytesReturned,
+                Pipeline-&gt;SensorHandle,
+                &amp;sensorContext-&gt;Overlapped,
+                &amp;bytesReturned,
                 TRUE
                 );
     if (!result)
@@ -231,35 +235,35 @@ SensorAdapterFinishCapture(
         // The buffer is not large enough.  This can happen if a device needs a 
         // bigger buffer depending on the purpose. Allocate a larger buffer and 
         // force the caller to reissue their I/O request.
-        DWORD allocationSize = sensorContext->CaptureBuffer->PayloadSize;
+        DWORD allocationSize = sensorContext-&gt;CaptureBuffer-&gt;PayloadSize;
 
         // Allocate at least the minimum buffer size needed to retrieve the 
         // payload structure.
-        if (allocationSize < sizeof(WINBIO_CAPTURE_DATA))
+        if (allocationSize &lt; sizeof(WINBIO_CAPTURE_DATA))
         {
             allocationSize = sizeof(WINBIO_CAPTURE_DATA);
         }
 
         // Free the old buffer and allocate a new one.
-        _AdapterRelease(sensorContext->CaptureBuffer);
-        sensorContext->CaptureBuffer = NULL;
+        _AdapterRelease(sensorContext-&gt;CaptureBuffer);
+        sensorContext-&gt;CaptureBuffer = NULL;
 
-        sensorContext->CaptureBuffer = 
+        sensorContext-&gt;CaptureBuffer = 
             (PWINBIO_CAPTURE_DATA)_AdapterAlloc(allocationSize);
-        if (sensorContext->CaptureBuffer == NULL)
+        if (sensorContext-&gt;CaptureBuffer == NULL)
         {
-            sensorContext->CaptureBufferSize = 0;
+            sensorContext-&gt;CaptureBufferSize = 0;
             return E_OUTOFMEMORY;
         }
-        sensorContext->CaptureBufferSize = allocationSize;
+        sensorContext-&gt;CaptureBufferSize = allocationSize;
         return WINBIO_E_BAD_CAPTURE;
     }
 
     // Normalize the status value before sending it back to the biometric service.
-    if (sensorContext->CaptureBuffer != NULL &&
-        sensorContext->CaptureBufferSize >= sizeof (WINBIO_CAPTURE_DATA))
+    if (sensorContext-&gt;CaptureBuffer != NULL &amp;&amp;
+        sensorContext-&gt;CaptureBufferSize &gt;= sizeof (WINBIO_CAPTURE_DATA))
     {
-        switch (sensorContext->CaptureBuffer->SensorStatus)
+        switch (sensorContext-&gt;CaptureBuffer-&gt;SensorStatus)
         {
             case WINBIO_SENSOR_ACCEPT:
                 // The capture was acceptable.
@@ -268,13 +272,13 @@ SensorAdapterFinishCapture(
             case WINBIO_SENSOR_REJECT:
                 // The capture was not acceptable. Overwrite the WinBioHresult value
                 // in case it has not been properly set.
-                sensorContext->CaptureBuffer->WinBioHresult = WINBIO_E_BAD_CAPTURE;
+                sensorContext-&gt;CaptureBuffer-&gt;WinBioHresult = WINBIO_E_BAD_CAPTURE;
                 break;
 
             case WINBIO_SENSOR_BUSY:
                 // The device is busy. Reset the WinBioHresult value in case it 
                 // has not been properly set.
-                sensorContext->CaptureBuffer->WinBioHresult = WINBIO_E_DEVICE_BUSY;
+                sensorContext-&gt;CaptureBuffer-&gt;WinBioHresult = WINBIO_E_DEVICE_BUSY;
                 break;
 
             case WINBIO_SENSOR_READY:
@@ -283,12 +287,12 @@ SensorAdapterFinishCapture(
             default:
                 // There has been a device failure. Reset the WinBioHresult value
                 // in case it has not been properly set.
-                sensorContext->CaptureBuffer->WinBioHresult = WINBIO_E_INVALID_DEVICE_STATE;
+                sensorContext-&gt;CaptureBuffer-&gt;WinBioHresult = WINBIO_E_INVALID_DEVICE_STATE;
                 break;
         }
 
-        *RejectDetail = sensorContext->CaptureBuffer->RejectDetail;
-        hr = sensorContext->CaptureBuffer->WinBioHresult;
+        *RejectDetail = sensorContext-&gt;CaptureBuffer-&gt;RejectDetail;
+        hr = sensorContext-&gt;CaptureBuffer-&gt;WinBioHresult;
     }
     else
     {
@@ -297,10 +301,10 @@ SensorAdapterFinishCapture(
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

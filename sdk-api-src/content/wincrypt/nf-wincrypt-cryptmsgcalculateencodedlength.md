@@ -7,7 +7,7 @@ old-location: security\cryptmsgcalculateencodedlength.htm
 tech.root: seccrypto
 ms.assetid: 1c12003a-c2f3-4069-8bd6-b8f2875b0c98
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: CMSG_BARE_CONTENT_FLAG, CMSG_CMS_ENCAPSULATED_CONTENT_FLAG, CMSG_CONTENTS_OCTETS_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENCRYPTED, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgCalculateEncodedLength, CryptMsgCalculateEncodedLength function [Security], _crypto2_cryptmsgcalculateencodedlength, security.cryptmsgcalculateencodedlength, wincrypt/CryptMsgCalculateEncodedLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -299,11 +299,11 @@ One or more arguments are not valid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

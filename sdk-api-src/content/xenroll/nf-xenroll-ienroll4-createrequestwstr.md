@@ -7,7 +7,7 @@ old-location: security\ienroll4_createrequestwstr.htm
 tech.root: seccrypto
 ms.assetid: bc2b875c-96f8-453e-8f72-f9032d5aa773
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: IEnroll4 interface [Security],createRequestWStr method, IEnroll4.createRequestWStr, IEnroll4::createRequestWStr, XECR_CMC, XECR_PKCS10_V1_5, XECR_PKCS10_V2_0, XECR_PKCS7, createRequestWStr, createRequestWStr method [Security], createRequestWStr method [Security],IEnroll4 interface, security.ienroll4_createrequestwstr, xenroll/IEnroll4::createRequestWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

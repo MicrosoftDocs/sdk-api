@@ -7,7 +7,7 @@ old-location: security\crypt_xml_status.htm
 tech.root: seccrypto
 ms.assetid: 1d49429e-9c81-4bf0-92d8-4effe9795dc9
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: "*PCRYPT_XML_STATUS, CRYPT_XML_STATUS, CRYPT_XML_STATUS structure [Security], CRYPT_XML_STATUS_DIGESTING, CRYPT_XML_STATUS_DIGEST_VALID, CRYPT_XML_STATUS_ERROR_DIGEST_INVALID, CRYPT_XML_STATUS_ERROR_KEYINFO_NOT_PARSED, CRYPT_XML_STATUS_ERROR_NOT_RESOLVED, CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_ALGORITHM, CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_TRANSFORM, CRYPT_XML_STATUS_ERROR_SIGNATURE_INVALID, CRYPT_XML_STATUS_INTERNAL_REFERENCE, CRYPT_XML_STATUS_KEY_AVAILABLE, CRYPT_XML_STATUS_OPENED_TO_ENCODE, CRYPT_XML_STATUS_SIGNATURE_VALID, PCRYPT_XML_STATUS, PCRYPT_XML_STATUS structure pointer [Security], _CRYPT_XML_STATUS, cryptxml/CRYPT_XML_STATUS, cryptxml/PCRYPT_XML_STATUS, security.crypt_xml_status"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.redist:
 
 The <b>CRYPT_XML_STATUS</b> structure returns information about the signature validation status, 
   summary status information about a <b>SignedInfo</b> element, or summary status information 
-  about an array of <b>Reference</b> elements. The <b>CRYPT_XML_STATUS</b> structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dd433826(v=VS.85).aspx">CryptXmlGetStatus</a> function.
+  about an array of <b>Reference</b> elements. The <b>CRYPT_XML_STATUS</b> structure is used by the <a href="https://msdn.microsoft.com/685a87dc-36e9-464a-988e-de907d2dae41">CryptXmlGetStatus</a> function.
 
 
 ## -struct-fields

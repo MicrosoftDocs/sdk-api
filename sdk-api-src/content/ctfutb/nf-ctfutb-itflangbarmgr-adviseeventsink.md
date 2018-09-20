@@ -132,7 +132,7 @@ An unspecified error occurred.
 
 
 
-<i>pdwCookie</i> receives an identifier that should be passed to <a href="https://msdn.microsoft.com/en-us/library/ms628766(v=VS.85).aspx">ITfLangBarMgr::UnadviseEventSink</a> when the event sink is no longer required.
+<i>pdwCookie</i> receives an identifier that should be passed to <a href="https://msdn.microsoft.com/29dc5276-04fa-4219-a64d-10d775d73fdd">ITfLangBarMgr::UnadviseEventSink</a> when the event sink is no longer required.
 
 
 
@@ -142,7 +142,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628748(v=VS.85).aspx">ITfLangBarMgr</a>
+<a href="https://msdn.microsoft.com/60bd765f-0846-47f5-af1b-bc8e72720841">ITfLangBarMgr</a>
 
 
 
@@ -151,7 +151,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629195(v=VS.85).aspx">Thread Manager</a>
+<a href="https://msdn.microsoft.com/fd43b4c3-80bb-4118-a880-bdea07022c95">Thread Manager</a>
  
 
  

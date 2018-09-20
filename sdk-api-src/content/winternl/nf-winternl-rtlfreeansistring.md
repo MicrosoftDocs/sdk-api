@@ -7,7 +7,7 @@ old-location: winprog\rtlfreeansistring.htm
 tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlfreeansistring.htm
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: RtlFreeAnsiString, RtlFreeAnsiString function [Windows API], winprog.rtlfreeansistring, winternl/RtlFreeAnsiString, winui.rtlfreeansistring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Frees the string buffer allocated by <a href="https://msdn.microsoft.com/en-us/library/ms648421(v=VS.85).aspx">RtlUnicodeStringToAnsiString</a>.
+Frees the string buffer allocated by <a href="https://msdn.microsoft.com/4899c8b9-1572-4045-9298-eb2f6a3ff48d">RtlUnicodeStringToAnsiString</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Frees the string buffer allocated by <a href="https://msdn.microsoft.com/en-us/l
 
 ### -param AnsiString [in]
 
-A pointer to an ANSI string whose buffer was previously allocated by <a href="https://msdn.microsoft.com/en-us/library/ms648421(v=VS.85).aspx">RtlUnicodeStringToAnsiString</a>.
+A pointer to an ANSI string whose buffer was previously allocated by <a href="https://msdn.microsoft.com/4899c8b9-1572-4045-9298-eb2f6a3ff48d">RtlUnicodeStringToAnsiString</a>.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This function does not return a value.
 
 
 
-This routine does not release the Unicode string buffer passed to <a href="https://msdn.microsoft.com/en-us/library/ms648421(v=VS.85).aspx">RtlUnicodeStringToAnsiString</a>.
+This routine does not release the Unicode string buffer passed to <a href="https://msdn.microsoft.com/4899c8b9-1572-4045-9298-eb2f6a3ff48d">RtlUnicodeStringToAnsiString</a>.
 
 
 

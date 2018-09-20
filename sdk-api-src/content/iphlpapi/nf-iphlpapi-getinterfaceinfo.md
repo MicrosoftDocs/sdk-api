@@ -169,12 +169,16 @@ On Windows Vista and later, the <b>Name</b> member of the <a href="https://msdn
 
 The following example retrieves the list of network adapters with IPv4 enabled on the local system and prints various properties of the first network adapter.
 
-
-```cpp
-#include <winsock2.h>
-#include <ws2ipdef.h>
-#include <iphlpapi.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;winsock2.h&gt;
+#include &lt;ws2ipdef.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "iphlpapi.lib")
 
@@ -197,7 +201,7 @@ int main()
 
 // Make an initial call to GetInterfaceInfo to get
 // the necessary size in the ulOutBufLen variable
-    dwRetVal = GetInterfaceInfo(NULL, &ulOutBufLen);
+    dwRetVal = GetInterfaceInfo(NULL, &amp;ulOutBufLen);
     if (dwRetVal == ERROR_INSUFFICIENT_BUFFER) {
         pInfo = (IP_INTERFACE_INFO *) MALLOC(ulOutBufLen);
         if (pInfo == NULL) {
@@ -208,14 +212,14 @@ int main()
     }
 // Make a second call to GetInterfaceInfo to get
 // the actual data we need
-    dwRetVal = GetInterfaceInfo(pInfo, &ulOutBufLen);
+    dwRetVal = GetInterfaceInfo(pInfo, &amp;ulOutBufLen);
     if (dwRetVal == NO_ERROR) {
-        printf("Number of Adapters: %ld\n\n", pInfo->NumAdapters);
-        for (i = 0; i < pInfo->NumAdapters; i++) {
+        printf("Number of Adapters: %ld\n\n", pInfo-&gt;NumAdapters);
+        for (i = 0; i &lt; pInfo-&gt;NumAdapters; i++) {
             printf("Adapter Index[%d]: %ld\n", i,
-                   pInfo->Adapter[i].Index);
+                   pInfo-&gt;Adapter[i].Index);
             printf("Adapter Name[%d]: %ws\n\n", i,
-                   pInfo->Adapter[i].Name);
+                   pInfo-&gt;Adapter[i].Name);
         }
         iReturn = 0;
     } else if (dwRetVal == ERROR_NO_DATA) {
@@ -231,10 +235,10 @@ int main()
     return (iReturn);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

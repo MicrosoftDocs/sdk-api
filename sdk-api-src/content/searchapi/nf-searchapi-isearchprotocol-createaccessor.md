@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Creates and initializes an <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object.  
+Creates and initializes an <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object.  
         
 
 
@@ -69,33 +69,33 @@ Pointer to a null-terminated Unicode string containing the URL of the item being
 
 ### -param pAuthenticationInfo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965364(v=VS.85).aspx">AUTHENTICATION_INFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e982fcb2-9fc6-4f7b-bdb5-1e480fd98b0b">AUTHENTICATION_INFO</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa965364(v=VS.85).aspx">AUTHENTICATION_INFO</a> structure that contains authentication information necessary for accessing this item in the content source. 
+Pointer to an <a href="https://msdn.microsoft.com/e982fcb2-9fc6-4f7b-bdb5-1e480fd98b0b">AUTHENTICATION_INFO</a> structure that contains authentication information necessary for accessing this item in the content source. 
                 
 
 
 ### -param pIncrementalAccessInfo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965366(v=VS.85).aspx">INCREMENTAL_ACCESS_INFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/f6fb7519-e473-4ab9-b65b-18d4ac7ea158">INCREMENTAL_ACCESS_INFO</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa965366(v=VS.85).aspx">INCREMENTAL_ACCESS_INFO</a> structure that contains incremental access information, such as the last time the file was accessed by the gatherer. 
+Pointer to an <a href="https://msdn.microsoft.com/f6fb7519-e473-4ab9-b65b-18d4ac7ea158">INCREMENTAL_ACCESS_INFO</a> structure that contains incremental access information, such as the last time the file was accessed by the gatherer. 
                 
 
 
 ### -param pItemInfo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965368(v=VS.85).aspx">ITEM_INFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/08acc675-db1c-4856-a67b-25b4d83f4350">ITEM_INFO</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa965368(v=VS.85).aspx">ITEM_INFO</a> structure that contains information about the URL item, such as the name of the item's workspace catalog.
+Pointer to an <a href="https://msdn.microsoft.com/08acc675-db1c-4856-a67b-25b4d83f4350">ITEM_INFO</a> structure that contains information about the URL item, such as the name of the item's workspace catalog.
                 
 
 
 ### -param ppAccessor [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a>**</b>
 
-Receives the address of a pointer to the  <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object created by this method. This object contains information about the URL item, such as the item's file name.
+Receives the address of a pointer to the  <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object created by this method. This object contains information about the URL item, such as the item's file name.
                 
 
 
@@ -115,7 +115,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
  
-       The protocol host calls this method on the protocol handler once for every URL processed by the gatherer and retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object. This method creates and initializes an <b>IUrlAccessor</b> object to process an item currently being accessed by the gatherer.
+       The protocol host calls this method on the protocol handler once for every URL processed by the gatherer and retrieves a pointer to the <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object. This method creates and initializes an <b>IUrlAccessor</b> object to process an item currently being accessed by the gatherer.
       
 
 

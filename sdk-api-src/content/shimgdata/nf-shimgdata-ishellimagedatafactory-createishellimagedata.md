@@ -7,7 +7,7 @@ old-location: shell\IShellImageDataFactory_CreateIShellImageData.htm
 tech.root: shell
 ms.assetid: fdba8376-c878-4fc8-bedc-e73cfeef8b9b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: CreateIShellImageData, CreateIShellImageData method [Windows Shell], CreateIShellImageData method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateIShellImageData method, IShellImageDataFactory.CreateIShellImageData, IShellImageDataFactory::CreateIShellImageData, _shell_IShellImageDataFactory_CreateIShellImageData, shell.IShellImageDataFactory_CreateIShellImageData, shimgdata/IShellImageDataFactory::CreateIShellImageData
 ms.prod: windows-hardware
 ms.technology: windows-devices

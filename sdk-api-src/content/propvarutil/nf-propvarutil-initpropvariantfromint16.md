@@ -94,23 +94,27 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762297(v=VS.85).aspx">InitPropVariantFromInt16</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromInt16">InitPropVariantFromInt16</a>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PROPVARIANT propvar;
 
-```cpp
-PROPVARIANT propvar;
-
-HRESULT hr = InitPropVariantFromInt16(42, &propvar);
+HRESULT hr = InitPropVariantFromInt16(42, &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_I2.
  
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -119,19 +123,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>
+<a href="shell.InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762327(v=VS.85).aspx">InitVariantFromInt16</a>
+<a href="shell.InitVariantFromInt16">InitVariantFromInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776546(v=VS.85).aspx">PropVariantToInt16</a>
+<a href="shell.PropVariantToInt16">PropVariantToInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776549(v=VS.85).aspx">PropVariantToInt16WithDefault</a>
+<a href="shell.PropVariantToInt16WithDefault">PropVariantToInt16WithDefault</a>
  
 
  

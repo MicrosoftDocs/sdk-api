@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISpreadsheetItemProvider_GetAnnotationObjects.htm
 tech.root: WinAuto
 ms.assetid: 5B9BDAF8-A7A7-492B-97F7-8502E630203F
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GetAnnotationObjects, GetAnnotationObjects method [Windows Accessibility], GetAnnotationObjects method [Windows Accessibility],ISpreadsheetItemProvider interface, ISpreadsheetItemProvider interface [Windows Accessibility],GetAnnotationObjects method, ISpreadsheetItemProvider.GetAnnotationObjects, ISpreadsheetItemProvider::GetAnnotationObjects, uiautomationcore/ISpreadsheetItemProvider::GetAnnotationObjects, winauto.uiauto_ISpreadsheetItemProvider_GetAnnotationObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

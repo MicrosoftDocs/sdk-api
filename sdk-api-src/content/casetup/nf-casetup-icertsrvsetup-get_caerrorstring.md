@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_caerrorstring.htm
 tech.root: seccrypto
 ms.assetid: 154397f8-aa0e-4d74-b18e-b68b46fdfcdb
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: CAErrorString property [Security], CAErrorString property [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],CAErrorString property, ICertSrvSetup.CAErrorString, ICertSrvSetup.get_CAErrorString, ICertSrvSetup::CAErrorString, ICertSrvSetup::get_CAErrorString, casetup/ICertSrvSetup::CAErrorString, casetup/ICertSrvSetup::get_CAErrorString, get_CAErrorString, security.icertsrvsetup_caerrorstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>CAErrorString</b> property gets the string data for additional error information related to a failed <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) specification. Any method call on the parent object resets this property.
+The <b>CAErrorString</b> property gets the string data for additional error information related to a failed <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) specification. Any method call on the parent object resets this property.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
  
 
  

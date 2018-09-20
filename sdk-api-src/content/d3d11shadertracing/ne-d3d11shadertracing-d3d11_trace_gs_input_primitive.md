@@ -92,7 +92,7 @@ Identifies the geometry shader input primitive as an adjacent triangle.
 
 
 
-<b>D3D11_TRACE_GS_INPUT_PRIMITIVE</b> identifies the type of geometry shader input primitive in a <a href="https://msdn.microsoft.com/en-us/library/Hh404538(v=VS.85).aspx">D3D11_TRACE_STATS</a> structure.
+<b>D3D11_TRACE_GS_INPUT_PRIMITIVE</b> identifies the type of geometry shader input primitive in a <a href="https://msdn.microsoft.com/E4E44F7F-3760-490D-9BA3-677F63B93AA6">D3D11_TRACE_STATS</a> structure.
 
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
@@ -104,7 +104,7 @@ Identifies the geometry shader input primitive as an adjacent triangle.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476175(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/068ce652-8596-4492-992c-658d1fcf8a2c">Shader Enumerations</a>
  
 
  

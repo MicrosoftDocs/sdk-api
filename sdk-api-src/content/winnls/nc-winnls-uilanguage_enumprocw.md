@@ -104,16 +104,20 @@ identifiers that do not include the leading 0x, and will be 4 characters in leng
 be passed as "0409" and en as "0009".
 
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-
-```cpp
-delegate System.Boolean EnumUILanguagesProc(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>delegate System.Boolean EnumUILanguagesProc(
             System.IntPtr lpUILanguageString,
             System.IntPtr lParam
             );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

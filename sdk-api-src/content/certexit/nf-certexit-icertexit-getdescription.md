@@ -7,7 +7,7 @@ old-location: security\icertexit2_getdescription.htm
 tech.root: seccrypto
 ms.assetid: 362d67c7-54ab-482e-9b2b-05ba1b6e2a70
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: CCertExit object [Security],GetDescription method, GetDescription, GetDescription method [Security], GetDescription method [Security],CCertExit object, GetDescription method [Security],ICertExit interface, GetDescription method [Security],ICertExit2 interface, ICertExit interface [Security],GetDescription method, ICertExit.GetDescription, ICertExit2 interface [Security],GetDescription method, ICertExit2::GetDescription, ICertExit::GetDescription, _certsrv_icertexit_getdescription, certexit/ICertExit2::GetDescription, certexit/ICertExit::GetDescription, security.icertexit2_getdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>GetDescription</b> method returns a human-readable description of the exit module and its function. This method was first defined in the  <a href="https://msdn.microsoft.com/en-us/library/Aa385021(v=VS.85).aspx">ICertExit</a> interface.
+The <b>GetDescription</b> method returns a human-readable description of the exit module and its function. This method was first defined in the  <a href="https://msdn.microsoft.com/731c4f3c-20b4-4f3d-8241-a94cdf656fe5">ICertExit</a> interface.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ A pointer to the <b>BSTR</b> that describes the exit module.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  Returns a string that describes the exit module and its function.
@@ -89,9 +89,13 @@ When you write a custom exit module, implement this method.
 
 #### Examples
 
-
-```cpp
-STDMETHODIMP
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP
 CCertExit::GetDescription(
     /* [out, retval] */ BSTR __RPC_FAR *pstrDescription)
 {
@@ -115,10 +119,10 @@ CCertExit::GetDescription(
     }
     // Success
     return( S_OK );
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -127,11 +131,11 @@ CCertExit::GetDescription(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385021(v=VS.85).aspx">ICertExit</a>
+<a href="https://msdn.microsoft.com/731c4f3c-20b4-4f3d-8241-a94cdf656fe5">ICertExit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385022(v=VS.85).aspx">ICertExit2</a>
+<a href="https://msdn.microsoft.com/a9d66aeb-b596-4d50-9c07-b760cdf4f8c0">ICertExit2</a>
  
 
  

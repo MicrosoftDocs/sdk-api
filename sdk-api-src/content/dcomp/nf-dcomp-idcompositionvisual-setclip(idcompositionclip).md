@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionVisual.SetClip(IDCompositionClip)
 title: IDCompositionVisual::SetClip(IDCompositionClip)
 author: windows-sdk-content
-description: Sets the Clip property of this visual to the specified clip object.
-old-location: directcomp\idcompositionvisual_setclip_idcompositionclip.htm
+description: Sets the Clip property of this visual to the specified rectangle.
+old-location: directcomp\idcompositionvisual_setclip_const_d2d_rect_f_.htm
 tech.root: directcomp
-ms.assetid: 504938a1-2775-477d-a077-7afc4e333f36
+ms.assetid: 7F01EB25-3A44-416F-A926-D185F2FD44EC
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: IDCompositionVisual interface [DirectComposition],SetClip method, IDCompositionVisual.SetClip, IDCompositionVisual.SetClip(IDCompositionClip), IDCompositionVisual::SetClip, IDCompositionVisual::SetClip(IDCompositionClip), IDCompositionVisual::SetClip(IDCompositionClip*), SetClip, SetClip method [DirectComposition], SetClip method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetClip, directcomp.idcompositionvisual_setclip_idcompositionclip
+ms.keywords: IDCompositionVisual interface [DirectComposition],SetClip method, IDCompositionVisual.SetClip, IDCompositionVisual.SetClip(IDCompositionClip), IDCompositionVisual::SetClip, IDCompositionVisual::SetClip(IDCompositionClip), IDCompositionVisual::SetClip(const D2D_RECT_F&), SetClip, SetClip method [DirectComposition], SetClip method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetClip, directcomp.idcompositionvisual_setclip_const_d2d_rect_f_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,8 +50,8 @@ req.redist:
 ## -description
 
 
-Sets the Clip property of this visual to the specified clip object. The Clip property restricts the rendering of the visual subtree 
-        that is rooted at this visual to a rectangular region.
+Sets the Clip property of this visual to the specified rectangle. The Clip property restricts the rendering of the 
+        visual subtree that is rooted at this visual to the specified rectangular region.
       
 
 
@@ -60,13 +60,19 @@ Sets the Clip property of this visual to the specified clip object. The Clip pro
 
 
 
-### -param clip [in, optional]
+### -param clip
 
-Type: <b><a href="https://msdn.microsoft.com/647638f4-7eca-42bc-a083-3d9d15089648">IDCompositionClip</a>*</b>
+TBD
 
-The clip object to associate with this visual. This parameter can be NULL.  All float properties of IDCompositionRectangleClip have a numerical limit of -2^21 to 2^21.
-              The API accepts numbers outside of this range, but they are always clamped to this range.
-            
+
+
+
+#### - rect [in, ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/84bd7ab0-f273-46f8-b261-86cd1d7f3868">D2D_RECT_F</a></b>
+
+The rectangle to use to clip this visual. All properties of the rect parameter have a numerical limit of -2^21 to 2^21. 
+          The API accepts numbers outside of this range, but they are always clamped to this range.
 
 
 ## -returns
@@ -86,23 +92,17 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-Setting the Clip property clips this visual along with all visuals in the subtree that is rooted at this visual. The clip is transformed by the OffsetX, OffsetY,  and Transform properties.
+Setting the Clip property clips this visual along with all visuals in the subtree that is rooted at this visual. The clip is transformed by the OffsetX, OffsetY, and Transform properties. 
 
-If the Clip property previously specified a clip rectangle, the newly specified Clip object replaces the clip rectangle.
+If the Clip property previously specified a clip object, the newly specified clip rectangle replaces the clip object.
 
-This method fails if <i>clip</i> is an invalid pointer or if it was not created by the 
-        same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface that created this visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+This method fails if any members of the <i>rect</i> structure are NaN, positive infinity, or negative infinity.
+
       
 
-If <i>clip</i> is NULL, the visual is not clipped relative to its parent. However, the visual is clipped by the clip object of the parent visual, 
-        or by the closest ancestor visual that has a clip object. Setting <i>clip</i> to NULL is similar to specifying a clip object whose 
-        clip rectangle has the left and top sides set to negative infinity, and the right and bottom sides set to positive infinity. Using a NULL clip object results in slightly better performance.
-      
-
-If <i>clip</i> specifies a clip object that has an empty rectangle, the visual is fully clipped; that is, the visual is included in the visual tree, 
-        but it does not render anything. To exclude a particular visual from a composition, remove the visual from the visual tree instead of setting an empty clip rectangle. 
-        Removing the visual results in better performance.
-      
+If the clip rectangle is empty, the visual is fully clipped; that is, the visual is included in the visual tree, but it does not render anything. 
+      To exclude a particular visual from a composition, remove the visual from the visual tree instead of setting an empty clip rectangle. 
+      Removing the visual results in better performance. 
 
 
 

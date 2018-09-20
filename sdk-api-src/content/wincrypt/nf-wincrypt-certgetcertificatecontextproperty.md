@@ -7,7 +7,7 @@ old-location: security\certgetcertificatecontextproperty.htm
 tech.root: seccrypto
 ms.assetid: f766db64-3121-4f70-ac83-ce25ee634efa
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: CERT_ACCESS_STATE_PROP_ID, CERT_AIA_URL_RETRIEVED_PROP_ID, CERT_ARCHIVED_KEY_HASH_PROP_ID, CERT_ARCHIVED_PROP_ID, CERT_AUTHORITY_INFO_ACCESS_PROP_ID, CERT_AUTO_ENROLL_PROP_ID, CERT_AUTO_ENROLL_RETRY_PROP_ID, CERT_BACKED_UP_PROP_ID, CERT_CA_DISABLE_CRL_PROP_ID, CERT_CA_OCSP_AUTHORITY_INFO_ACCESS_PROP_ID, CERT_CROSS_CERT_DIST_POINTS_PROP_ID, CERT_CTL_USAGE_PROP_ID, CERT_DATE_STAMP_PROP_ID, CERT_DESCRIPTION_PROP_ID, CERT_EFS_PROP_ID, CERT_ENHKEY_USAGE_PROP_ID, CERT_ENROLLMENT_PROP_ID, CERT_EXTENDED_ERROR_INFO_PROP_ID, CERT_FORTEZZA_DATA_PROP_ID, CERT_FRIENDLY_NAME_PROP_ID, CERT_HASH_PROP_ID, CERT_HCRYPTPROV_OR_NCRYPT_KEY_HANDLE_PROP_ID, CERT_HCRYPTPROV_TRANSFER_PROP_ID, CERT_IE30_RESERVED_PROP_ID, CERT_ISSUER_PUBLIC_KEY_MD5_HASH_PROP_ID, CERT_ISSUER_SERIAL_NUMBER_MD5_HASH_PROP_ID, CERT_KEY_CONTEXT_PROP_ID, CERT_KEY_IDENTIFIER_PROP_ID, CERT_KEY_PROV_HANDLE_PROP_ID, CERT_KEY_PROV_INFO_PROP_ID, CERT_KEY_SPEC_PROP_ID, CERT_MD5_HASH_PROP_ID, CERT_NCRYPT_KEY_HANDLE_PROP_ID, CERT_NCRYPT_KEY_HANDLE_TRANSFER_PROP_ID, CERT_NEW_KEY_PROP_ID, CERT_NEXT_UPDATE_LOCATION_PROP_ID, CERT_NO_AUTO_EXPIRE_CHECK_PROP_ID, CERT_OCSP_CACHE_PREFIX_PROP_ID, CERT_OCSP_RESPONSE_PROP_ID, CERT_PUBKEY_ALG_PARA_PROP_ID, CERT_PUBKEY_HASH_RESERVED_PROP_ID, CERT_PUB_KEY_CNG_ALG_BIT_LENGTH_PROP_ID, CERT_PVK_FILE_PROP_ID, CERT_RENEWAL_PROP_ID, CERT_REQUEST_ORIGINATOR_PROP_ID, CERT_ROOT_PROGRAM_CERT_POLICIES_PROP_ID, CERT_ROOT_PROGRAM_NAME_CONSTRAINTS_PROP_ID, CERT_SHA1_HASH_PROP_ID, CERT_SIGNATURE_HASH_PROP_ID, CERT_SIGN_HASH_CNG_ALG_PROP_ID, CERT_SMART_CARD_DATA_PROP_ID, CERT_SMART_CARD_ROOT_INFO_PROP_ID, CERT_SOURCE_LOCATION_PROP_ID, CERT_SOURCE_URL_PROP_ID, CERT_SUBJECT_DISABLE_CRL_PROP_ID, CERT_SUBJECT_INFO_ACCESS_PROP_ID, CERT_SUBJECT_NAME_MD5_HASH_PROP_ID, CERT_SUBJECT_OCSP_AUTHORITY_INFO_ACCESS_PROP_ID, CERT_SUBJECT_PUBLIC_KEY_MD5_HASH_PROP_ID, CERT_SUBJECT_PUB_KEY_BIT_LENGTH_PROP_ID, CertGetCertificateContextProperty, CertGetCertificateContextProperty function [Security], _crypto2_certgetcertificatecontextproperty, security.certgetcertificatecontextproperty, wincrypt/CertGetCertificateContextProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -728,7 +728,7 @@ Errors from the called function
 
 Properties are not stored inside a certificate. Typically, they are associated with a certificate after the certificate response is received and then saved with the certificate in the store. For security reasons, we recommend that you validate property values before saving  them and that you save only informational properties such as the <b>CERT_FRIENDLY_NAME_PROP_ID</b> value in user stores. All other property types should be saved in local computer stores.
 
-Your code can use a macro to evaluate the class of hash for a certificate context. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa376573(v=VS.85).aspx">CertSetCertificateContextProperty</a>.
+Your code can use a macro to evaluate the class of hash for a certificate context. For more information, see <a href="certsetcertificatecontextproperty.htm">CertSetCertificateContextProperty</a>.
 
 
 #### Examples
@@ -766,7 +766,7 @@ For examples that use this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Extended Property Functions</a>
+<a href="cryptography_functions.htm">Extended Property Functions</a>
  
 
  

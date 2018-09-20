@@ -7,7 +7,7 @@ old-location: shell\SHGetPathFromIDListEx.htm
 tech.root: shell
 ms.assetid: 80270c59-275d-4b13-b16c-0c07bb79ed8e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GPFIDL_ALTNAME, GPFIDL_DEFAULT, GPFIDL_UNCPRINTER, SHGetPathFromIDListEx, SHGetPathFromIDListEx function [Windows Shell], _shell_SHGetPathFromIDListEx, shell.SHGetPathFromIDListEx, shlobj_core/SHGetPathFromIDListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

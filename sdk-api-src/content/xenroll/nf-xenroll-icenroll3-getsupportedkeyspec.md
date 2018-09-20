@@ -7,7 +7,7 @@ old-location: security\icenroll4_getsupportedkeyspec.htm
 tech.root: seccrypto
 ms.assetid: e225eddb-0c36-446a-9696-38653ff22511
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: CEnroll object [Security],GetSupportedKeySpec method, GetSupportedKeySpec, GetSupportedKeySpec method [Security], GetSupportedKeySpec method [Security],CEnroll object, GetSupportedKeySpec method [Security],ICEnroll3 interface, GetSupportedKeySpec method [Security],ICEnroll4 interface, ICEnroll3 interface [Security],GetSupportedKeySpec method, ICEnroll3.GetSupportedKeySpec, ICEnroll3::GetSupportedKeySpec, ICEnroll4 interface [Security],GetSupportedKeySpec method, ICEnroll4::GetSupportedKeySpec, security.icenroll4_getsupportedkeyspec, xenroll/ICEnroll3::GetSupportedKeySpec, xenroll/ICEnroll4::GetSupportedKeySpec
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,24 +97,28 @@ Call this method to determine whether the current CSP supports exchange keys, si
 
 #### Examples
 
-
-```cpp
-DWORD dwKeySpec;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD dwKeySpec;
 
 // Determine the supported key specifications.
 // hr is HRESULT variable.
-hr = pEnroll->GetSupportedKeySpec( &dwKeySpec );
+hr = pEnroll-&gt;GetSupportedKeySpec( &amp;dwKeySpec );
 if ( FAILED( hr ) )    
     printf("Failed GetSupportedKeySpec [%x]\n", hr);
 else
 {
     printf("Exchange keys are %s. Signature keys are %s.\n",
-           dwKeySpec & AT_KEYEXCHANGE ? "supported" : "not supported",
-           dwKeySpec & AT_SIGNATURE ? "supported" : "not supported" );
-}
-```
-
-
+           dwKeySpec &amp; AT_KEYEXCHANGE ? "supported" : "not supported",
+           dwKeySpec &amp; AT_SIGNATURE ? "supported" : "not supported" );
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

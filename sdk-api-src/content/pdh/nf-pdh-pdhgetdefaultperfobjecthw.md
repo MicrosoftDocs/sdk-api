@@ -4,10 +4,10 @@ title: PdhGetDefaultPerfObjectHW function
 author: windows-sdk-content
 description: Retrieves the name of the default object.
 old-location: perf\pdhgetdefaultperfobjecth.htm
-tech.root: PerfCtrs
+tech.root: perfctrs
 ms.assetid: 4950d5b7-3a6f-410d-830f-7868aa84f6d5
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/19/2018
 ms.keywords: PdhGetDefaultPerfObjectH, PdhGetDefaultPerfObjectH function [Perf], PdhGetDefaultPerfObjectHA, PdhGetDefaultPerfObjectHW, _win32_pdhgetdefaultperfobjecth, base.pdhgetdefaultperfobjecth, pdh/PdhGetDefaultPerfObjectH, pdh/PdhGetDefaultPerfObjectHA, pdh/PdhGetDefaultPerfObjectHW, perf.pdhgetdefaultperfobjecth
 ms.prod: windows-hardware
 ms.technology: windows-devices

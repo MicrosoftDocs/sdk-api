@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Returns the <a href="https://msdn.microsoft.com/en-us/library/Dn933680(v=VS.85).aspx">ID3D12ShaderReflectionConstantBuffer</a> of the present <a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable</a>.
+Returns the <a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a> of the present <a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable</a>.
         
 
 
@@ -65,9 +65,9 @@ Returns the <a href="https://msdn.microsoft.com/en-us/library/Dn933680(v=VS.85).
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933680(v=VS.85).aspx">ID3D12ShaderReflectionConstantBuffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a>*</b>
 
-Returns a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933680(v=VS.85).aspx">ID3D12ShaderReflectionConstantBuffer</a> of the present <a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable</a>.
+Returns a pointer to the <a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a> of the present <a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable</a>.
           
 
 

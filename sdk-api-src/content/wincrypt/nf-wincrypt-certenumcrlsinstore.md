@@ -7,7 +7,7 @@ old-location: security\certenumcrlsinstore.htm
 tech.root: seccrypto
 ms.assetid: fc25ca04-8520-4053-9591-afc81c88670c
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: CertEnumCRLsInStore, CertEnumCRLsInStore function [Security], _crypto2_certenumcrlsinstore, security.certenumcrlsinstore, wincrypt/CertEnumCRLsInStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,7 +151,7 @@ A duplicate of the CRL <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a5
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
 
 
 

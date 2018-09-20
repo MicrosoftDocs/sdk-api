@@ -67,12 +67,16 @@ Pointer to the driver resource that will be tracked by the DRIVEROBJ structure. 
 
 Pointer to a driver-supplied callback function that frees the resource pointed to by <b>pvObj</b>. This callback function has the following prototype:
 
-
-```
-BOOL (CALLBACK * FREEOBJPROC) (DRIVEROBJ * pDriverObj);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOL (CALLBACK * FREEOBJPROC) (DRIVEROBJ * pDriverObj);</pre>
+</td>
+</tr>
+</table></span></div>
 The callback function returns <b>TRUE</b> if it is able to free the resource, and <b>FALSE</b> otherwise.
 
 

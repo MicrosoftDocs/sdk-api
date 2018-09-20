@@ -7,7 +7,7 @@ old-location: winprog\getfeatureenabledstate.htm
 tech.root: devnotes
 ms.assetid: F07DFA37-6155-473F-A426-7D15F3ED46B1
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: GetFeatureEnabledState, GetFeatureEnabledState function [Windows API], featurestagingapi/GetFeatureEnabledState, winprog.getfeatureenabledstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

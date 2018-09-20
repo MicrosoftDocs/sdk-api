@@ -59,8 +59,8 @@ The
 A writer can call this method only during a backup operation.
 
 This method cannot be called while handling a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa384652(v=VS.85).aspx">BackupComplete</a> (<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>) or 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa384652(v=VS.85).aspx">BackupShutdown</a> (<a href="https://msdn.microsoft.com/4b6d5efe-703b-4245-81d8-e2fc7f650d4b">CVssWriter::OnBackupShutdown</a>) event.
+    <a href="vssgloss_b.htm">BackupComplete</a> (<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>) or 
+    <a href="vssgloss_b.htm">BackupShutdown</a> (<a href="https://msdn.microsoft.com/4b6d5efe-703b-4245-81d8-e2fc7f650d4b">CVssWriter::OnBackupShutdown</a>) event.
    
 
 

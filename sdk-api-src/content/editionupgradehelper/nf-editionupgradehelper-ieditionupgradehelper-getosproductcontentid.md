@@ -7,7 +7,7 @@ old-location: winprog\ieditionupgradehelper_getosproductcontentid.htm
 tech.root: devnotes
 ms.assetid: 79EEDFF2-FDF9-4BC9-968A-3543892AE870
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: GetOsProductContentId, GetOsProductContentId method [Windows API], GetOsProductContentId method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],GetOsProductContentId method, IEditionUpgradeHelper.GetOsProductContentId, IEditionUpgradeHelper::GetOsProductContentId, editionupgradehelper/IEditionUpgradeHelper::GetOsProductContentId, winprog.ieditionupgradehelper_getosproductcontentid
 ms.prod: windows-hardware
 ms.technology: windows-devices

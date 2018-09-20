@@ -7,7 +7,7 @@ old-location: security\crypt_xml_key_info_item.htm
 tech.root: seccrypto
 ms.assetid: 3fbb1623-d493-49f1-a004-74ec8d22520e
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: CRYPT_XML_KEYINFO_TYPE_CUSTOM, CRYPT_XML_KEYINFO_TYPE_KEYNAME, CRYPT_XML_KEYINFO_TYPE_KEYVALUE, CRYPT_XML_KEYINFO_TYPE_RETRIEVAL, CRYPT_XML_KEYINFO_TYPE_X509DATA, CRYPT_XML_KEY_INFO_ITEM, CRYPT_XML_KEY_INFO_ITEM structure [Security], _CRYPT_XML_KEY_INFO_ITEM, cryptxml/CRYPT_XML_KEY_INFO_ITEM, security.crypt_xml_key_info_item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,7 +113,7 @@ The structure specifies an XML encoded element that contains the key retrieval m
 </dl>
 </td>
 <td width="60%">
-The structure specifies <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx">X.509</a> data that  contains the key information.
+The structure specifies <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> data that  contains the key information.
 
 </td>
 </tr>
@@ -139,20 +139,20 @@ A pointer to a null-terminated wide character string that contains the name of t
 
 ### -field KeyValue
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433858(v=VS.85).aspx">CRYPT_XML_KEY_VALUE</a> structure that contains the key value.
+A <a href="https://msdn.microsoft.com/7aadd268-41bc-4ba3-babb-2ca7b13f378b">CRYPT_XML_KEY_VALUE</a> structure that contains the key value.
 
 
 ### -field RetrievalMethod
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433844(v=VS.85).aspx">CRYPT_XML_BLOB</a> structure that contains XML encoded information about the key retrieval method.
+A <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains XML encoded information about the key retrieval method.
 
 
 ### -field X509Data
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433869(v=VS.85).aspx">CRYPT_XML_X509DATA</a> structure that contains X.509 data that contains the key.
+A <a href="https://msdn.microsoft.com/4895a6e6-ffac-419f-af9b-f2062a1aecd4">CRYPT_XML_X509DATA</a> structure that contains X.509 data that contains the key.
 
 
 ### -field Custom
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433844(v=VS.85).aspx">CRYPT_XML_BLOB</a> structure that contains user defined key information.
+A <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains user defined key information.
 

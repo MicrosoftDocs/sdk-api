@@ -7,7 +7,7 @@ old-location: shell\SHChangeDWORDAsIDList.htm
 tech.root: shell
 ms.assetid: ebc05a9c-ed2b-41ff-93fb-9d8059fa360c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: "*LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList structure pointer [Windows Shell], SHChangeDWORDAsIDList, SHChangeDWORDAsIDList structure [Windows Shell], _SHChangeDWORDAsIDList, _shell_SHChangeDWORDAsIDList, shell.SHChangeDWORDAsIDList, shlobj_core/LPSHChangeDWORDAsIDList, shlobj_core/SHChangeDWORDAsIDList"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,9 +94,13 @@ This example demonstrates the use of <a href="https://msdn.microsoft.com/0aa99a6
 
                 
 
-
-```
-void MyUpdateImage(LPCWSTR pszHashItem, int iIndex, UINT uFlags, int iImageIndex)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>void MyUpdateImage(LPCWSTR pszHashItem, int iIndex, UINT uFlags, int iImageIndex)
 {
     SHChangeUpdateImageIDList rgPidl;
     SHChangeDWORDAsIDList rgDWord;
@@ -104,14 +108,14 @@ void MyUpdateImage(LPCWSTR pszHashItem, int iIndex, UINT uFlags, int iImageIndex
     USHORT *pcb;
 
     // Validate parameters: iImageIndex must be a valid system image list value.
-    if (iImageIndex < 0)
+    if (iImageIndex &lt; 0)
     {
         return;
     }
 
     // Validate parameters: pszHashItem must not exceed MAX_PATH in length
     cchLen = lstrlenW(pszHashItem);
-    if (cchLen >= MAX_PATH)
+    if (cchLen &gt;= MAX_PATH)
     {
         return;
     }
@@ -122,7 +126,7 @@ void MyUpdateImage(LPCWSTR pszHashItem, int iIndex, UINT uFlags, int iImageIndex
     rgPidl.iCurIndex = iImageIndex;
     rgPidl.uFlags = uFlags;
     lstrcpynW(rgPidl.szName, pszHashItem, MAX_PATH);
-    pcb = &rgPidl.szName[cchLen+1];
+    pcb = &amp;amp;rgPidl.szName[cchLen+1];
     
     // Set the size of the first element
     rgPidl.cb = (USHORT)((BYTE*)pcb - (BYTE*)rgPidl); 
@@ -137,11 +141,11 @@ void MyUpdateImage(LPCWSTR pszHashItem, int iIndex, UINT uFlags, int iImageIndex
     rgDWord.cbZero = 0;
 
     // Parameters are now in the form that SHCNE_UPDATEIMAGE can accept
-    SHChangeNotify(SHCNE_UPDATEIMAGE, SHCNF_IDLIST, &rgDWord, &rgPidl);
-}
-```
-
-
+    SHChangeNotify(SHCNE_UPDATEIMAGE, SHCNF_IDLIST, &amp;rgDWord, &amp;rgPidl);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

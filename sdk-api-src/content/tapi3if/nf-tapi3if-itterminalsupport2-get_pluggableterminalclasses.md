@@ -146,8 +146,8 @@ The <i>bstrTerminalSuperclass</i> or <i>pVariant</i> parameter is not a valid po
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/0f7190c4-c696-4749-82f2-20fdbc8651f4">ITPluggableTerminalClassInfo</a> interface returned by <b>ITTerminalSupport2::get_PluggableTerminalClasses</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/0f7190c4-c696-4749-82f2-20fdbc8651f4">ITPluggableTerminalClassInfo</a> interface returned by <b>ITTerminalSupport2::get_PluggableTerminalClasses</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>ITPluggableTerminalClassInfo</b> interface to free resources associated with it.
 
 

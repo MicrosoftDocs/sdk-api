@@ -92,13 +92,17 @@ The overloaded subscript (<a href="https://msdn.microsoft.com/9a0ba1f3-e862-4210
 
 The following code example shows the use of <b>CHString::GetAt</b>:
 
-
-```cpp
-CHString s( L"abcdef" );
-assert( s.GetAt(2) == 'c' );
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHString s( L"abcdef" );
+assert( s.GetAt(2) == 'c' );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

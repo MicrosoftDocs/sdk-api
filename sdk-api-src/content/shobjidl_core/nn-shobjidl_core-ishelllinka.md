@@ -7,7 +7,7 @@ old-location: shell\IShellLink.htm
 tech.root: shell
 ms.assetid: 67982d28-27ce-4482-b588-10fec8143750
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: IShellLink, IShellLink interface [Windows Shell], IShellLink interface [Windows Shell],described, IShellLinkA, IShellLinkW, _win32_IShellLink, _win32_IShellLink_cpp, shell.IShellLink, shobjidl_core/IShellLink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,10 +81,64 @@ Gets the command-line arguments associated with a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="https://msdn.microsoft.com/bd807387-1998-4b38-996f-6dbacefffa48">GetArguments</a>
+</td>
+<td align="left" width="63%">
+Gets the command-line arguments associated with a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/bd807387-1998-4b38-996f-6dbacefffa48">GetArguments</a>
+</td>
+<td align="left" width="63%">
+Gets the command-line arguments associated with a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/1f00a485-42b5-4f91-88e0-d2ce78273be1">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the description string for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/1f00a485-42b5-4f91-88e0-d2ce78273be1">GetDescription</a>
+</td>
+<td align="left" width="63%">
+Gets the description string for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/1f00a485-42b5-4f91-88e0-d2ce78273be1">GetDescription</a>
+</td>
+<td align="left" width="63%">
+Gets the description string for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/4e3572bf-8d68-4485-99e8-bf47192be821">GetHotkey</a>
+</td>
+<td align="left" width="63%">
+Gets the keyboard shortcut (hot key) for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/4e3572bf-8d68-4485-99e8-bf47192be821">GetHotkey</a>
+</td>
+<td align="left" width="63%">
+Gets the keyboard shortcut (hot key) for a Shell link object.
 
 </td>
 </tr>
@@ -135,10 +189,64 @@ Gets the list of item identifiers for the target of a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="https://msdn.microsoft.com/ae1ac1b0-bcaf-4e3b-831c-f843ae86779c">GetIDList</a>
+</td>
+<td align="left" width="63%">
+Gets the list of item identifiers for the target of a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/ae1ac1b0-bcaf-4e3b-831c-f843ae86779c">GetIDList</a>
+</td>
+<td align="left" width="63%">
+Gets the list of item identifiers for the target of a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/7c60f5a2-dc21-4b13-a201-1fab04c53bb4">GetPath</a>
 </td>
 <td align="left" width="63%">
 Gets the path and file name of the target of a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/7c60f5a2-dc21-4b13-a201-1fab04c53bb4">GetPath</a>
+</td>
+<td align="left" width="63%">
+Gets the path and file name of the target of a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/7c60f5a2-dc21-4b13-a201-1fab04c53bb4">GetPath</a>
+</td>
+<td align="left" width="63%">
+Gets the path and file name of the target of a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/cbd89c28-86e1-4a2c-b3ea-d934f263b59f">GetShowCmd</a>
+</td>
+<td align="left" width="63%">
+Gets the show command for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/cbd89c28-86e1-4a2c-b3ea-d934f263b59f">GetShowCmd</a>
+</td>
+<td align="left" width="63%">
+Gets the show command for a Shell link object.
 
 </td>
 </tr>
@@ -162,10 +270,64 @@ Gets the name of the working directory for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="https://msdn.microsoft.com/cae6b2fd-362b-43a2-b0cb-b42bd103f359">GetWorkingDirectory</a>
+</td>
+<td align="left" width="63%">
+Gets the name of the working directory for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/cae6b2fd-362b-43a2-b0cb-b42bd103f359">GetWorkingDirectory</a>
+</td>
+<td align="left" width="63%">
+Gets the name of the working directory for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/a31f1d6d-7b87-4777-89a8-a032b7629b7e">Resolve</a>
 </td>
 <td align="left" width="63%">
 Attempts to find the target of a Shell link, even if it has been moved or renamed.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/a31f1d6d-7b87-4777-89a8-a032b7629b7e">Resolve</a>
+</td>
+<td align="left" width="63%">
+Attempts to find the target of a Shell link, even if it has been moved or renamed.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/a31f1d6d-7b87-4777-89a8-a032b7629b7e">Resolve</a>
+</td>
+<td align="left" width="63%">
+Attempts to find the target of a Shell link, even if it has been moved or renamed.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/5ad5fabd-be12-40bc-a6b3-498bcde7223a">SetArguments</a>
+</td>
+<td align="left" width="63%">
+Sets the command-line arguments for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/5ad5fabd-be12-40bc-a6b3-498bcde7223a">SetArguments</a>
+</td>
+<td align="left" width="63%">
+Sets the command-line arguments for a Shell link object.
 
 </td>
 </tr>
@@ -189,10 +351,64 @@ Sets the description for a Shell link object. The description can be any applica
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="https://msdn.microsoft.com/4bec482e-04e6-4cde-ab8e-23c5a1463bdf">SetDescription</a>
+</td>
+<td align="left" width="63%">
+Sets the description for a Shell link object. The description can be any application-defined string.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/4bec482e-04e6-4cde-ab8e-23c5a1463bdf">SetDescription</a>
+</td>
+<td align="left" width="63%">
+Sets the description for a Shell link object. The description can be any application-defined string.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/82cc2af8-b872-4efc-bfe4-04a50df74e28">SetHotkey</a>
 </td>
 <td align="left" width="63%">
 Sets a keyboard shortcut (hot key) for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/82cc2af8-b872-4efc-bfe4-04a50df74e28">SetHotkey</a>
+</td>
+<td align="left" width="63%">
+Sets a keyboard shortcut (hot key) for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/82cc2af8-b872-4efc-bfe4-04a50df74e28">SetHotkey</a>
+</td>
+<td align="left" width="63%">
+Sets a keyboard shortcut (hot key) for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/1ba267f2-ae05-4a6d-be3c-382a89e17d92">SetIconLocation</a>
+</td>
+<td align="left" width="63%">
+Sets the location (path and index) of the icon for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/1ba267f2-ae05-4a6d-be3c-382a89e17d92">SetIconLocation</a>
+</td>
+<td align="left" width="63%">
+Sets the location (path and index) of the icon for a Shell link object.
 
 </td>
 </tr>
@@ -216,6 +432,42 @@ Sets the PIDL for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="https://msdn.microsoft.com/4c0571a5-1615-4c3f-b9a6-0667df07165b">SetIDList</a>
+</td>
+<td align="left" width="63%">
+Sets the PIDL for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/4c0571a5-1615-4c3f-b9a6-0667df07165b">SetIDList</a>
+</td>
+<td align="left" width="63%">
+Sets the PIDL for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/032610ba-d6ff-4200-8fd3-455460587dec">SetPath</a>
+</td>
+<td align="left" width="63%">
+Sets the path and file name for the target of a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/032610ba-d6ff-4200-8fd3-455460587dec">SetPath</a>
+</td>
+<td align="left" width="63%">
+Sets the path and file name for the target of a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/032610ba-d6ff-4200-8fd3-455460587dec">SetPath</a>
 </td>
 <td align="left" width="63%">
@@ -234,10 +486,64 @@ Sets the relative path to the Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="https://msdn.microsoft.com/f9cbd1db-253b-4ce8-a8ea-cfc48759c9d3">SetRelativePath</a>
+</td>
+<td align="left" width="63%">
+Sets the relative path to the Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/f9cbd1db-253b-4ce8-a8ea-cfc48759c9d3">SetRelativePath</a>
+</td>
+<td align="left" width="63%">
+Sets the relative path to the Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/9f40cd7d-04b5-4880-831f-5fb5cd52a2eb">SetShowCmd</a>
 </td>
 <td align="left" width="63%">
 Sets the show command for a Shell link object. The show command sets the initial show state of the window.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/9f40cd7d-04b5-4880-831f-5fb5cd52a2eb">SetShowCmd</a>
+</td>
+<td align="left" width="63%">
+Sets the show command for a Shell link object. The show command sets the initial show state of the window.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/9f40cd7d-04b5-4880-831f-5fb5cd52a2eb">SetShowCmd</a>
+</td>
+<td align="left" width="63%">
+Sets the show command for a Shell link object. The show command sets the initial show state of the window.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/03767add-766c-4970-935e-ffa5aa401a95">SetWorkingDirectory</a>
+</td>
+<td align="left" width="63%">
+Sets the name of the working directory for a Shell link object.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/03767add-766c-4970-935e-ffa5aa401a95">SetWorkingDirectory</a>
+</td>
+<td align="left" width="63%">
+Sets the name of the working directory for a Shell link object.
 
 </td>
 </tr>

@@ -2,21 +2,21 @@
 UID: NF:gdiplusheaders.Metafile.Metafile(IN const WCHAR,IN HDC,IN EmfType,IN const WCHAR)
 title: Metafile::Metafile(IN const WCHAR,IN HDC,IN EmfType,IN const WCHAR)
 author: windows-sdk-content
-description: Creates a Metafile::Metafile object for recording.
-old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_fileName_referenceHdc_type_description_.htm
+description: This topic lists the constructors of the Metafile class. For a complete class listing, see Metafile Class.
+old-location: gdiplus\_gdiplus_CLASS_Metafile_Constructors.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_59filename_referencehdc_type_description.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN const WCHAR,IN HDC,IN EmfType,IN const WCHAR), Metafile.Metafile(const WCHAR*,HDC,EmfType,const WCHAR*), Metafile::Metafile, Metafile::Metafile(IN const WCHAR,IN HDC,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_fileName_referenceHdc_type_description_, gdiplus._gdiplus_CLASS_Metafile_Metafile_fileName_referenceHdc_type_description_
+ms.keywords: Metafile, Metafile constructors [GDI+], Metafile.Metafile, Metafile.Metafile(IN const WCHAR,IN HDC,IN EmfType,IN const WCHAR), Metafile::Metafile, Metafile::Metafile(IN const WCHAR,IN HDC,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_Constructors, gdiplus._gdiplus_CLASS_Metafile_Constructors, gdiplusheaders/Metafile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
-req.include-header: Gdiplus.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,23 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - Gdiplus.dll
+ - gdiplusheaders.h
 api_name:
  - Metafile.Metafile
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: GDI+ 1.0
 ---
 
 # Metafile::Metafile(IN const WCHAR,IN HDC,IN EmfType,IN const WCHAR)
@@ -51,78 +50,131 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <b>Metafile::Metafile</b> object for recording.
+<span>This topic lists the constructors of the 
+		<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a> class. For a complete class listing, see <b>Metafile Class</b>. 
+</span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Constructor</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/1bccba1d-63e4-469d-a7b8-0f83ff7ebcc0">Metafile(WCHAR*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/1bccba1d-63e4-469d-a7b8-0f83ff7ebcc0">Metafile::Metafile</a> object for playback.
 
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/28d4fe40-b021-4b04-a6cb-55230aec4075">Metafile(IStream*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/28d4fe40-b021-4b04-a6cb-55230aec4075">Metafile::Metafile</a> object from an <a href="_stg_istream">IStream</a> interface for playback.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/843c1644-cf2e-4c46-afc3-17b51a2e9f70">Metafile(HENHMETAFILE,BOOL)</a>
+</td>
+<td align="left" width="63%">
+Creates a GDI+ <a href="https://msdn.microsoft.com/843c1644-cf2e-4c46-afc3-17b51a2e9f70">Metafile::Metafile</a> object for playback based on a GDI Enhanced Metafile (EMF) file.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/b6ea4143-4267-43a4-b0eb-86e063bc545b">Metafile(HDC,EmfType,WCHAR*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/b6ea4143-4267-43a4-b0eb-86e063bc545b">Metafile::Metafile</a> object for recording.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/7caf5e09-490c-4389-81a9-d495e56f8615">Metafile(WCHAR*,HDC,EmfType,WCHAR*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/7caf5e09-490c-4389-81a9-d495e56f8615">Metafile::Metafile</a> object for recording.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/82943279-26d5-4f42-af9b-c6007e5185ec">Metafile(IStream*,HDC,EmfType,WCHAR*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/82943279-26d5-4f42-af9b-c6007e5185ec">Metafile::Metafile</a> object for recording to an <a href="_stg_istream">IStream</a> interface.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/73a6eb0d-5c49-4570-8df8-0fe7d07cf8c7">Metafile(HMETAFILE,WmfPlaceableFileHeader*,BOOL)</a>
+</td>
+<td align="left" width="63%">
+Creates a GDI+<a href="https://msdn.microsoft.com/73a6eb0d-5c49-4570-8df8-0fe7d07cf8c7">Metafile::Metafile</a> object for recording. The format will be placeable metafile.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/ede9f8a8-a0a3-4ed8-a673-26e6a1b95f58">Metafile(HDC,Rect&,MetafileFrameUnit,EmfType,WCHAR*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/ede9f8a8-a0a3-4ed8-a673-26e6a1b95f58">Metafile::Metafile</a> object for recording.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/e1a5ee44-f4c5-4cde-a980-e8a3bfe1cddb">Metafile(HDC,RectF&,MetaFileFrameUnit,EmfType,WCHAR*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/e1a5ee44-f4c5-4cde-a980-e8a3bfe1cddb">Metafile::Metafile</a> object for recording.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/a5b62e57-17c3-47e1-ae91-dc196a6a458e">Metafile(WCHAR*,HDC,Rect&,MetaFileFrameUnit,EmfType,WCHAR*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/a5b62e57-17c3-47e1-ae91-dc196a6a458e">Metafile::Metafile</a> object for recording.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/7a59ca3d-7b74-4fc6-a9ea-c741578df650">Metafile(WCHAR*,HDC,RectF&,MetafileFrameUnit,EmfType,WCHAR*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/7a59ca3d-7b74-4fc6-a9ea-c741578df650">Metafile::Metafile</a> object for recording.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/0cef1deb-8f0e-460e-926d-f76a45a2016e">Metafile(IStream*,HDC,Rect&,MetafileFrameUnit,EmfType,WCHAR*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/0cef1deb-8f0e-460e-926d-f76a45a2016e">Metafile::Metafile</a> object for recording to an <a href="_stg_istream">IStream</a> interface.
+
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/df4a2083-50f8-4ffa-9dbf-bfbeb2f35cb8">Metafile(IStream*,HDC,RectF&,MetafileFrameUnit,EmfType,WCHAR*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/df4a2083-50f8-4ffa-9dbf-bfbeb2f35cb8">Metafile::Metafile</a> object for recording to an <a href="_stg_istream">IStream</a> interface.
+
+</td>
+</tr>
+</table>
 
 ## -parameters
-
-
-
-
-### -param fileName [in]
-
-Type: <b>const WCHAR*</b>
-
-Pointer to a wide-character string that specifies the name of the file in which the metafile will be saved. 
-
-
-### -param referenceHdc [in]
-
-Type: <b>HDC</b>
-
-Windows handle to a device context that contains attributes of a display device. 
-
-
-### -param type [in]
-
-Type: <b><a href="https://msdn.microsoft.com/985c412f-10ba-4ce9-b0e1-89f5b643c22a">EmfType</a></b>
-
-Optional. Element of the <a href="https://msdn.microsoft.com/985c412f-10ba-4ce9-b0e1-89f5b643c22a">EmfType</a> enumeration that specifies the type of metafile that will be recorded. The default value is <a href="https://msdn.microsoft.com/985c412f-10ba-4ce9-b0e1-89f5b643c22a">EmfTypeEmfPlusDual</a>. 
-
-
-### -param description [in]
-
-Type: <b>const WCHAR*</b>
-
-Optional. Pointer to a wide-character string that specifies the descriptive name of the metafile. The default value is <b>NULL</b>. 
-
-
-## -remarks
-
-
-
-When recording to a file, the file must be writable, and Windows GDI+ must be able to obtain an exclusive lock on the file.
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/985c412f-10ba-4ce9-b0e1-89f5b643c22a">EmfType</a>
-
-
-
-<a href="https://msdn.microsoft.com/79b8df1b-6fc5-455b-9d08-57d64bf6bffa">Loading and Displaying Metafiles</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
-
-
-
-<a href="https://msdn.microsoft.com/34b1a9cf-7979-4371-b5a8-db03ea5eb010">MetafileFrameUnit</a>
-
-
-
-<a href="https://msdn.microsoft.com/a9f9bac4-f3c7-44a1-9f0f-59ff1a27b077">Metafiles</a>
-
-
-
-<a href="https://msdn.microsoft.com/062de6c2-9f82-415d-860e-2d1afd2ac027">Recording Metafiles</a>
- 
-
- 
 

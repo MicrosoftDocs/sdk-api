@@ -7,7 +7,7 @@ old-location: security\icertview2_getcolumnindex.htm
 tech.root: seccrypto
 ms.assetid: 3d869db9-b4df-4fcd-85e7-19fe773b4262
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: CCertView object [Security],GetColumnIndex method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, GetColumnIndex, GetColumnIndex method [Security], GetColumnIndex method [Security],CCertView object, GetColumnIndex method [Security],ICertView interface, GetColumnIndex method [Security],ICertView2 interface, ICertView interface [Security],GetColumnIndex method, ICertView.GetColumnIndex, ICertView2 interface [Security],GetColumnIndex method, ICertView2::GetColumnIndex, ICertView::GetColumnIndex, certview/ICertView2::GetColumnIndex, certview/ICertView::GetColumnIndex, security.icertview2_getcolumnindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,7 +130,7 @@ The address of a variable that will contain the index of the column specified in
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the zero-based index of the column.
@@ -152,15 +152,15 @@ This method is used to determine the index of the column specified by the <i>str
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385414(v=VS.85).aspx">ICertView</a>
+<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385417(v=VS.85).aspx">ICertView2</a>
+<a href="https://msdn.microsoft.com/c29f1db3-0cdf-463e-a202-47fbba8e1c81">ICertView2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385439(v=VS.85).aspx">ICertView::SetRestriction</a>
+<a href="https://msdn.microsoft.com/a2dc8675-1d75-4c15-a9f7-971274ab044c">ICertView::SetRestriction</a>
  
 
  

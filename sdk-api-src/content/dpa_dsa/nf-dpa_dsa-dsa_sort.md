@@ -67,7 +67,7 @@ A handle to an existing DSA.
 
 ### -param pfnCompare [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775707(v=VS.85).aspx">PFNDACOMPARE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/be3c1ebd-4e22-42a5-afea-bd1bb9a86ed1">PFNDACOMPARE</a></b>
 
 A comparison function pointer. See <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a> for the comparison function prototype.
 

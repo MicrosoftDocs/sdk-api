@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionRectangleClip.SetTopRightRadiusX(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetTopRightRadiusX(IDCompositionAnimation)
 author: windows-sdk-content
-description: Animates the value of the TopRightRadiusX property of this clip. The TopRightRadiusX property specifies the x radius of the ellipse that rounds the top-right corner of the clip.
-old-location: directcomp\idcompositionrectangleclip_settoprightradiusx_idcompositionanimation.htm
+description: Changes or animates the value of the TopRightRadiusX property of this clip. The TopRightRadiusX property specifies the x radius of the ellipse that rounds the top-right corner of the clip.
+old-location: directcomp\idcompositionrectangleclip_settoprightradiusx.htm
 tech.root: directcomp
-ms.assetid: B147E2AD-D8BD-4DB6-9253-05CEEA22879C
+ms.assetid: 2FCE8558-2EED-4A44-93F3-796984C47AF0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTopRightRadiusX method, IDCompositionRectangleClip.SetTopRightRadiusX, IDCompositionRectangleClip.SetTopRightRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetTopRightRadiusX, IDCompositionRectangleClip::SetTopRightRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetTopRightRadiusX(IDCompositionAnimation*), SetTopRightRadiusX, SetTopRightRadiusX method [DirectComposition], SetTopRightRadiusX method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTopRightRadiusX, directcomp.idcompositionrectangleclip_settoprightradiusx_idcompositionanimation
+ms.keywords: IDCompositionRectangleClip.SetTopRightRadiusX, IDCompositionRectangleClip.SetTopRightRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetTopRightRadiusX, IDCompositionRectangleClip::SetTopRightRadiusX(IDCompositionAnimation), SetTopRightRadiusX, SetTopRightRadiusX methods [DirectComposition], dcomp/SetTopRightRadiusX, directcomp.idcompositionrectangleclip_settoprightradiusx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -33,11 +33,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - DllExport
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionRectangleClip.SetTopRightRadiusX
+ - IDCompositionRectangleClip::SetTopRightRadiusX
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -50,44 +50,33 @@ req.redist:
 ## -description
 
 
-Animates the value of the TopRightRadiusX property of this clip. The TopRightRadiusX property  specifies the x radius of the ellipse that rounds the top-right corner of the clip.
+<span>Changes or animates the value of the TopRightRadiusX property of this clip. The TopRightRadiusX property  specifies the x radius of the ellipse that rounds the top-right corner of the clip.
+</span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/7287E5A4-4294-4ECC-B1B7-98D7EA42E392">SetTopRightRadiusX(float)</a>
+</td>
+<td align="left" width="63%">
+Changes the value of the TopRightRadiusX property of this clip.
 
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/B147E2AD-D8BD-4DB6-9253-05CEEA22879C">SetTopRightRadiusX(IDCompositionAnimation*)</a>
+</td>
+<td align="left" width="63%">
+Animates the value of the TopRightRadiusX property of this clip.
+
+</td>
+</tr>
+</table>
 
 ## -parameters
-
-
-
-
-### -param animation [in]
-
-Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
-
-An animation object that determines how the value of the x radius changes over time. This parameter must not be NULL.
-
-
-## -returns
-
-
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
-
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
-
-
-
-
-## -remarks
-
-
-
-This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the x radius unless this method is called again. If the x radius was previously animated, calling this method replaces the previous animation with the new animation. 
-
-
-
-This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
-
-
-
 
 
 ## -see-also

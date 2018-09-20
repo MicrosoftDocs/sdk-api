@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accdescription.htm
 tech.root: WinAuto
 ms.assetid: ca70c5bc-ac20-41fe-a9fe-f4a7209c5958
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accDescription method, IAccessible.get_accDescription, IAccessible::get_accDescription, _msaa_IAccessible_get_accDescription, get_accDescription, get_accDescription method [Windows Accessibility], get_accDescription method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accdescription, oleacc/IAccessible::get_accDescription, winauto.iaccessible_iaccessible__get_accdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,9 +146,13 @@ This property provides a textual equivalent of the object for the user. The desc
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows one possible implementation of this method for a custom list box that maintains its own child elements. The example demonstrates the syntax, but remember that a real text-only list box would probably not need to support this property. For simplicity, the strings in the example are not localized.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT STDMETHODCALLTYPE AccServer::get_accDescription( 
     VARIANT varChild,
     BSTR *pszDescription)
@@ -170,23 +174,27 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accDescription(
     }
     return S_OK;
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Client_Example"></a><a id="client_example"></a><a id="CLIENT_EXAMPLE"></a>Client Example</h3>
 The following example function retrieves the description of the specified accessible object, or a child element, and displays it on the console.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT PrintDescription(IAccessible* pAcc, long child)
 {
     VARIANT varObject;
     varObject.vt = VT_I4;
     varObject.lVal = child;
     BSTR bstrDesc;
-    HRESULT hr = pAcc->get_accDescription(varObject, &bstrDesc);
+    HRESULT hr = pAcc-&gt;get_accDescription(varObject, &amp;bstrDesc);
     if (hr == S_OK)
     {
         printf("Description: %S\n", bstrDesc);
@@ -194,10 +202,10 @@ HRESULT PrintDescription(IAccessible* pAcc, long child)
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

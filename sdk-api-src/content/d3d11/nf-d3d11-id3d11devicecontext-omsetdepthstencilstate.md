@@ -86,7 +86,7 @@ Returns nothing.
 
 
 
-To create a depth-stencil state interface, call <a href="https://msdn.microsoft.com/en-us/library/Ff476506(v=VS.85).aspx">ID3D11Device::CreateDepthStencilState</a>.
+To create a depth-stencil state interface, call <a href="https://msdn.microsoft.com/7577604c-922c-408c-8eab-2361ebda17df">ID3D11Device::CreateDepthStencilState</a>.
 
 The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
@@ -99,7 +99,7 @@ The method will hold a reference to the interfaces passed in.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

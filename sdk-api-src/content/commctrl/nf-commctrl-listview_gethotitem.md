@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the index of the hot item. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774939(v=VS.85).aspx">LVM_GETHOTITEM</a> message explicitly. 
+Gets the index of the hot item. You can use this macro or send the <a href="https://msdn.microsoft.com/f80189da-6c8b-4faf-925a-0c33fedf8c4e">LVM_GETHOTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the index of the hot item. You can use this macro or send the <a href="http
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a list-view control. 
 

@@ -4,10 +4,10 @@ title: PdhRemoveCounter function
 author: windows-sdk-content
 description: Removes a counter from a query.
 old-location: perf\pdhremovecounter.htm
-tech.root: PerfCtrs
+tech.root: perfctrs
 ms.assetid: adf9c7bd-47d6-489a-88fc-954fdf127ce8
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/19/2018
 ms.keywords: PdhRemoveCounter, PdhRemoveCounter function [Perf], _win32_pdhremovecounter, base.pdhremovecounter, pdh/PdhRemoveCounter, perf.pdhremovecounter
 ms.prod: windows-hardware
 ms.technology: windows-devices

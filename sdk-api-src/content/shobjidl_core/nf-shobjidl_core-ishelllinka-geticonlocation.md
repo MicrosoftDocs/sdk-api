@@ -7,7 +7,7 @@ old-location: shell\IShellLink_GetIconLocation.htm
 tech.root: shell
 ms.assetid: ff7cc9be-a762-472a-9846-4dbd0ec94ad1
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: GetIconLocation, GetIconLocation method [Windows Shell], GetIconLocation method [Windows Shell],IShellLink interface, GetIconLocation method [Windows Shell],IShellLinkA interface, GetIconLocation method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetIconLocation method, IShellLink::GetIconLocation, IShellLinkA interface [Windows Shell],GetIconLocation method, IShellLinkA.GetIconLocation, IShellLinkA::GetIconLocation, IShellLinkW interface [Windows Shell],GetIconLocation method, IShellLinkW::GetIconLocation, _win32_IShellLink_GetIconLocation, shell.IShellLink_GetIconLocation, shobjidl_core/IShellLink::GetIconLocation, shobjidl_core/IShellLinkA::GetIconLocation, shobjidl_core/IShellLinkW::GetIconLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PerfQueryCounterSetRegistrationInfo function
 author: windows-sdk-content
 description: Gets information about a counter set on the specified system.
 old-location: perf\perfquerycountersetregistrationinfo.htm
-tech.root: PerfCtrs
+tech.root: perfctrs
 ms.assetid: E8E83E47-2445-42AE-855F-6710FC8F789E
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/19/2018
 ms.keywords: PerfQueryCounterSetRegistrationInfo, PerfQueryCounterSetRegistrationInfo function [Perf], perf.perfquerycountersetregistrationinfo, perflib/PerfQueryCounterSetRegistrationInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

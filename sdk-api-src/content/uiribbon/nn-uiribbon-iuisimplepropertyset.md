@@ -50,9 +50,9 @@ req.redist:
 ## -description
 
 
-<b>IUISimplePropertySet</b> is a read-only interface that defines a method for retrieving the value identified by a  property key. This interface is implemented by the Windows Ribbon framework and is also implemented by  the host application for each item in the <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a> object of an item gallery.
+<b>IUISimplePropertySet</b> is a read-only interface that defines a method for retrieving the value identified by a  property key. This interface is implemented by the Windows Ribbon framework and is also implemented by  the host application for each item in the <a href="https://msdn.microsoft.com/c239a724-9d7e-4204-933a-8e10581b4ecc">IUICollection</a> object of an item gallery.
 
-When implemented by the host application, the method defined by this interface is used to retrieve a property key  value for the selected item in the <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
+When implemented by the host application, the method defined by this interface is used to retrieve a property key  value for the selected item in the <a href="https://msdn.microsoft.com/c239a724-9d7e-4204-933a-8e10581b4ecc">IUICollection</a>.
 
 
 ## -inheritance
@@ -72,7 +72,7 @@ The <b>IUISimplePropertySet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371357(v=VS.85).aspx">GetValue</a>
+<a href="https://msdn.microsoft.com/6d62ce1c-58ac-47a0-8b06-57655e18c982">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value identified by a property key.
@@ -88,15 +88,15 @@ Retrieves the value identified by a property key.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371196(v=VS.85).aspx">Property Keys</a>
+<a href="https://msdn.microsoft.com/12bc7fda-ff69-4316-8baf-cc97e19a231c">Property Keys</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742868(v=VS.85).aspx">Working with Galleries</a>
+<a href="https://msdn.microsoft.com/447039f3-1428-4b6f-94cf-78cf81974041">Working with Galleries</a>
  
 
  

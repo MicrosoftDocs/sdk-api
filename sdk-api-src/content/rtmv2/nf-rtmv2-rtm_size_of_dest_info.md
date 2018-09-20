@@ -73,9 +73,13 @@ If the client  only uses one view per destination, the client can allocate an
 
 The macro is defined as follows:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define RTM_DEST_VIEW_INFO_SIZE                             \
     FIELD_OFFSET(RTM_DEST_INFO, ViewInfo)
@@ -86,9 +90,9 @@ The macro is defined as follows:
 #define RTM_BASIC_DEST_INFO_SIZE                            \
     (RTM_BASIC_DEST_INFO_SIZE + (NumViews) *                \
     RTM_DEST_VIEW_INFO_SIZE)
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

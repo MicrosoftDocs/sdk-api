@@ -7,7 +7,7 @@ old-location: shell\IShellItem_Compare.htm
 tech.root: shell
 ms.assetid: 737a93e0-2e27-466b-889c-04a25e52e883
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: Compare, Compare method [Windows Shell], Compare method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],Compare method, IShellItem.Compare, IShellItem::Compare, _win32_IShellItem_Compare, shell.IShellItem_Compare, shobjidl_core/IShellItem::Compare
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,12 +96,16 @@ Returns S_OK if the items are the same, S_FALSE if they are different, or an err
 
 The data type used in the second parameter, SICHINTF, is defined as: 
 
-
-```
-typedef DWORD SICHINTF;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef DWORD SICHINTF;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

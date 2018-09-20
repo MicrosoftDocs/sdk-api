@@ -159,9 +159,13 @@ Call the <a href="https://msdn.microsoft.com/c543b2ff-56be-48b5-8b44-3d7549c75df
 
 The following code example demonstrates how to use the <b>WindowsPreallocateStringBuffer</b> function.
 
-
-```cpp
-#include <WinrtString.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;WinrtString.h&gt;
 
 int main()
 {
@@ -169,19 +173,19 @@ int main()
     HSTRING_BUFFER hStringBuffer = NULL;
     PWSTR strBuffer = NULL;
 
-    HRESULT hr = WindowsPreallocateStringBuffer(10, &strBuffer, &hStringBuffer);
+    HRESULT hr = WindowsPreallocateStringBuffer(10, &amp;strBuffer, &amp;hStringBuffer);
 
     if (SUCCEEDED(hr))
     {
-        hr = WindowsPromoteStringBuffer(hStringBuffer, &hString);
+        hr = WindowsPromoteStringBuffer(hStringBuffer, &amp;hString);
     }
 
     WindowsDeleteString(hString);  
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

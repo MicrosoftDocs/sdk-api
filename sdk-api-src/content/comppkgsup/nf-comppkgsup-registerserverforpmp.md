@@ -7,7 +7,7 @@ old-location: winprog\registerserverforpmp.htm
 tech.root: devnotes
 ms.assetid: F18A5596-F21E-427B-8281-544DD7CA9E0B
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: RegisterServerForPMP, RegisterServerForPMP function [Windows API], comppkgsup/RegisterServerForPMP, winprog.registerserverforpmp
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ISuspensionDependencyManager_RegisterAsChild.htm
 tech.root: shell
 ms.assetid: DB9DDDA7-34AA-43D7-813B-C9A065383682
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: ISuspensionDependencyManager interface [Windows Shell],RegisterAsChild method, ISuspensionDependencyManager.RegisterAsChild, ISuspensionDependencyManager::RegisterAsChild, RegisterAsChild, RegisterAsChild method [Windows Shell], RegisterAsChild method [Windows Shell],ISuspensionDependencyManager interface, shell.ISuspensionDependencyManager_RegisterAsChild, shobjidl_core/ISuspensionDependencyManager::RegisterAsChild
 ms.prod: windows-hardware
 ms.technology: windows-devices

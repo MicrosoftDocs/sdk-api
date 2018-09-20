@@ -2,13 +2,13 @@
 UID: NF:gdiplusheaders.Region.Region(IN const BYTE,IN INT)
 title: Region::Region(IN const BYTE,IN INT)
 author: windows-sdk-content
-description: Creates a region that is defined by data obtained from another region.
-old-location: gdiplus\_gdiplus_CLASS_Region_Region_regionData_size_.htm
+description: Creates a region that is infinite. This is the default constructor.
+old-location: gdiplus\_gdiplus_CLASS_Region_Region_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_35regiondata_size.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_18.htm
 ms.author: windowssdkdev
 ms.date: 09/12/2018
-ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(IN const BYTE,IN INT), Region.Region(const BYTE*,INT), Region::Region, Region::Region(IN const BYTE,IN INT), _gdiplus_CLASS_Region_Region_regionData_size_, gdiplus._gdiplus_CLASS_Region_Region_regionData_size_
+ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(), Region.Region(IN const BYTE,IN INT), Region::Region, Region::Region(IN const BYTE,IN INT), _gdiplus_CLASS_Region_Region_, gdiplus._gdiplus_CLASS_Region_Region_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a region that is defined by data obtained from another region. 
+Creates a region that is infinite. This is the default constructor. 
 
 
 ## -parameters
@@ -59,18 +59,14 @@ Creates a region that is defined by data obtained from another region.
 
 
 
-### -param regionData [in]
+### -param regionData
 
-Type: <b>const BYTE*</b>
-
-Pointer to an array of bytes that specifies a region. The data contained in the bytes is obtained from another region by using the 
-					<a href="https://msdn.microsoft.com/36f30045-1307-4477-83e3-546c536a7f5e">Region::GetData</a> method. 
+TBD
 
 
-### -param size [in]
+### -param size
 
-Type: <b>INT</b>
+TBD
 
-Integer that specifies the number of bytes in the 
-					<i>regionData</i> array. 
+
 

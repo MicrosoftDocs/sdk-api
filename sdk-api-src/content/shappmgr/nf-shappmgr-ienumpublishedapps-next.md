@@ -7,7 +7,7 @@ old-location: shell\IEnumPublishedApps_Next.htm
 tech.root: shell
 ms.assetid: 78d18529-2eeb-4510-8703-457ffe998bc5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: IEnumPublishedApps interface [Windows Shell],Next method, IEnumPublishedApps.Next, IEnumPublishedApps::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumPublishedApps interface, inet_IEnumPublishedApps_Next, shappmgr/IEnumPublishedApps::Next, shell.IEnumPublishedApps_Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

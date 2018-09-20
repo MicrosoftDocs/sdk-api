@@ -265,13 +265,17 @@ If the <b>LogonUser</b> call is successful, the system notifies network provider
 
 You can generate a LocalService token by using the following code.
 
-
-```cpp
-LogonUser(L"LocalServer", L"NT AUTHORITY", NULL, LOGON32_LOGON_SERVICE, LOGON32_PROVIDER_DEFAULT, &hToken)
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LogonUser(L"LocalServer", L"NT AUTHORITY", NULL, LOGON32_LOGON_SERVICE, LOGON32_PROVIDER_DEFAULT, &amp;hToken)
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

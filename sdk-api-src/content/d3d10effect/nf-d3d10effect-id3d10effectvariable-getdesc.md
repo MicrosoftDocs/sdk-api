@@ -60,18 +60,18 @@ Get a description.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205056(v=VS.85).aspx">D3D10_EFFECT_VARIABLE_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/a66c054f-6e4f-4c9a-b083-223919c226ba">D3D10_EFFECT_VARIABLE_DESC</a>*</b>
 
-A pointer to an effect-variable description (see <a href="https://msdn.microsoft.com/en-us/library/Bb205056(v=VS.85).aspx">D3D10_EFFECT_VARIABLE_DESC</a>).
+A pointer to an effect-variable description (see <a href="https://msdn.microsoft.com/a66c054f-6e4f-4c9a-b083-223919c226ba">D3D10_EFFECT_VARIABLE_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -81,7 +81,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>
  
 
  

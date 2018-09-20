@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Sets a <a href="https://msdn.microsoft.com/en-us/library/Bb206335(v=VS.85).aspx">Vertex Declaration (Direct3D 9)</a>.
+Sets a <a href="https://msdn.microsoft.com/09dae498-3b33-4c33-bc7e-47f2bf784e4c">Vertex Declaration (Direct3D 9)</a>.
 
 
 ## -parameters
@@ -61,16 +61,16 @@ Sets a <a href="https://msdn.microsoft.com/en-us/library/Bb206335(v=VS.85).aspx"
 
 ### -param pDecl [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205919(v=VS.85).aspx">IDirect3DVertexDeclaration9</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3c4a18a5-5307-48d0-8a21-afb343d5d816">IDirect3DVertexDeclaration9</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb205919(v=VS.85).aspx">IDirect3DVertexDeclaration9</a> object, which contains the vertex declaration.
+Pointer to an <a href="https://msdn.microsoft.com/3c4a18a5-5307-48d0-8a21-afb343d5d816">IDirect3DVertexDeclaration9</a> object, which contains the vertex declaration.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK.
  The return value can be D3DERR_INVALIDCALL.
@@ -82,7 +82,7 @@ If the method succeeds, the return value is D3D_OK.
 
 
 
-A vertex declaration is an IDirect3DVertexDeclaration9 object that defines the data members of a vertex (i.e. texture coordinates, colors, normals, etc.). This data can be useful for implementing <a href="https://msdn.microsoft.com/en-us/library/Bb509635(v=VS.85).aspx">vertex shaders and pixel shaders</a>.
+A vertex declaration is an IDirect3DVertexDeclaration9 object that defines the data members of a vertex (i.e. texture coordinates, colors, normals, etc.). This data can be useful for implementing <a href="https://msdn.microsoft.com/4894e085-30e7-4cc5-8ae6-a84b601e4ce3">vertex shaders and pixel shaders</a>.
 
 
 
@@ -92,11 +92,11 @@ A vertex declaration is an IDirect3DVertexDeclaration9 object that defines the d
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174415(v=VS.85).aspx">IDirect3DDevice9::GetVertexDeclaration</a>
+<a href="https://msdn.microsoft.com/842f8b2f-cdfd-4d88-a114-7b129f09fd61">IDirect3DDevice9::GetVertexDeclaration</a>
  
 
  

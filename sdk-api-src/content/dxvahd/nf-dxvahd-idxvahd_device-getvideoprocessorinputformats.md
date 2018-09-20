@@ -86,13 +86,17 @@ The list of formats can include both <b>D3DFORMAT</b> values, such as <b>D3DFMT_
 
 #### Examples
 
-
-```cpp
-// Checks whether a DXVA-HD device supports a specified input format.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Checks whether a DXVA-HD device supports a specified input format.
 
 HRESULT CheckInputFormatSupport(
     IDXVAHD_Device          *pDXVAHD,
-    const DXVAHD_VPDEVCAPS& caps,
+    const DXVAHD_VPDEVCAPS&amp; caps,
     D3DFORMAT               d3dformat
     )
 {
@@ -102,7 +106,7 @@ HRESULT CheckInputFormatSupport(
         return E_OUTOFMEMORY;
     }
 
-    HRESULT hr = pDXVAHD->GetVideoProcessorInputFormats(
+    HRESULT hr = pDXVAHD-&gt;GetVideoProcessorInputFormats(
         caps.InputFormatCount, 
         pFormats
         );
@@ -113,7 +117,7 @@ HRESULT CheckInputFormatSupport(
     }
 
     UINT index;
-    for (index = 0; index < caps.InputFormatCount; index++)
+    for (index = 0; index &lt; caps.InputFormatCount; index++)
     {
         if (pFormats[index] == d3dformat)
         {
@@ -129,10 +133,10 @@ done:
     delete [] pFormats;
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

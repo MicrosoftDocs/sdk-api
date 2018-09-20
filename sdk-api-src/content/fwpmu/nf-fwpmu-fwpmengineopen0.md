@@ -180,9 +180,13 @@ The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b87
 
 The following C++ example uses <b>FwpmEngineOpen0</b> to open a filter session.
 
-
-```cpp
-// Open a session to the filter engine
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Open a session to the filter engine
         
 HANDLE    engineHandle = NULL;
 DWORD    result = ERROR_SUCCESS; 
@@ -194,17 +198,17 @@ result = FwpmEngineOpen0(
     RPC_C_AUTHN_WINNT, 
     NULL,
     NULL, 
-    &engineHandle );
+    &amp;engineHandle );
 
 if (result != ERROR_SUCCESS)
     printf("FwpmEngineOpen0 failed. Return value: %d.\n", result); 
 else
     printf("Filter engine opened successfully.\n");
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

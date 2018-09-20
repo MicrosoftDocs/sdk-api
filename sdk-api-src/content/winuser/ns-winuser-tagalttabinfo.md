@@ -130,7 +130,7 @@ The top-left corner of the first icon.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633501(v=VS.85).aspx">GetAltTabInfo</a>
+<a href="https://msdn.microsoft.com/ff708599-50ad-4c5c-bc6c-532f1e9e730c">GetAltTabInfo</a>
 
 
 
@@ -138,7 +138,7 @@ The top-left corner of the first icon.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

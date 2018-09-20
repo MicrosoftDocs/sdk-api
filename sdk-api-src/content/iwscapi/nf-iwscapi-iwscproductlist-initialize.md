@@ -7,7 +7,7 @@ old-location: winprog\iwscproductlist_initialize.htm
 tech.root: devnotes
 ms.assetid: 0D003510-BCFE-45E9-A34E-58036C382157
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: IWSCProductList interface [Windows API],Initialize method, IWSCProductList.Initialize, IWSCProductList::Initialize, Initialize, Initialize method [Windows API], Initialize method [Windows API],IWSCProductList interface, WSC_SECURITY_PROVIDER_ANTISPYWARE, WSC_SECURITY_PROVIDER_ANTIVIRUS, WSC_SECURITY_PROVIDER_FIREWALL, iwscapi/IWSCProductList::Initialize, winprog.iwscproductlist_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

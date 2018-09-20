@@ -4,10 +4,10 @@ title: "_PERF_INSTANCE_HEADER"
 author: windows-sdk-content
 description: Provides information about the PERF_INSTANCE_HEADER block that contains the structure.
 old-location: perf\perf_instance_header.htm
-tech.root: PerfCtrs
+tech.root: perfctrs
 ms.assetid: 58E4062A-0CE4-4FF7-A9B2-CA0947563C7B
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/19/2018
 ms.keywords: "*PPERF_INSTANCE_HEADER, PERF_INSTANCE_HEADER, PERF_INSTANCE_HEADER structure [Perf], PPERF_INSTANCE_HEADER, PPERF_INSTANCE_HEADER structure pointer [Perf], _PERF_INSTANCE_HEADER, perf.perf_instance_header, perflib/PERF_INSTANCE_HEADER, perflib/PPERF_INSTANCE_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

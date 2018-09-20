@@ -7,7 +7,7 @@ old-location: security\cert_or_crl_bundle.htm
 tech.root: seccrypto
 ms.assetid: a06e71b4-63c7-4d4a-820c-e5901015aaa6
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: "*PCERT_OR_CRL_BUNDLE, CERT_OR_CRL_BUNDLE, CERT_OR_CRL_BUNDLE structure [Security], PCERT_OR_CRL_BUNDLE, PCERT_OR_CRL_BUNDLE structure pointer [Security], _CERT_OR_CRL_BUNDLE, security.cert_or_crl_bundle, wincrypt/CERT_OR_CRL_BUNDLE, wincrypt/PCERT_OR_CRL_BUNDLE"
 ms.prod: windows
 ms.technology: windows-sdk

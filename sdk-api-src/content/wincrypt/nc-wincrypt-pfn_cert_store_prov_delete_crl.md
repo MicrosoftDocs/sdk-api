@@ -7,7 +7,7 @@ old-location: security\certstoreprovdeletecrlcallback.htm
 tech.root: seccrypto
 ms.assetid: aa93cfaf-238f-4d77-a1cd-433a856ed133
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/19/2018
 ms.keywords: CertStoreProvDeleteCRLCallback, PFN_CERT_STORE_PROV_DELETE_CRL, PFN_CERT_STORE_PROV_DELETE_CRL callback, PFN_CERT_STORE_PROV_DELETE_CRL callback function [Security], _crypto2_certstoreprovdeletecrlcallback, security.certstoreprovdeletecrlcallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CRL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ Returns <b>TRUE</b> if it is okay to delete from the store. Otherwise, returns <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
  
 
  

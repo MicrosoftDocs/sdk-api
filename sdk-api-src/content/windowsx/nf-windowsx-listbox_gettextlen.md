@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the length of a string in a list box.  You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761315(v=VS.85).aspx">LB_GETTEXTLEN</a> message explicitly.
+Gets the length of a string in a list box.  You can use this macro or send the <a href="https://msdn.microsoft.com/866730bc-ffd4-42fd-9cea-5d326e129189">LB_GETTEXTLEN</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The zero-based index of the item.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761315(v=VS.85).aspx">LB_GETTEXTLEN</a>.
+For more information, see <a href="https://msdn.microsoft.com/866730bc-ffd4-42fd-9cea-5d326e129189">LB_GETTEXTLEN</a>.
 	
 
 

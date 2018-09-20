@@ -7,7 +7,7 @@ old-location: shell\IDropTargetHelper_DragLeave.htm
 tech.root: shell
 ms.assetid: a14b56e2-3a90-4802-bb28-869467878c2b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/19/2018
 ms.keywords: DragLeave, DragLeave method [Windows Shell], DragLeave method [Windows Shell],IDropTargetHelper interface, IDropTargetHelper interface [Windows Shell],DragLeave method, IDropTargetHelper.DragLeave, IDropTargetHelper::DragLeave, _win32_IDropTargetHelper_DragLeave, shell.IDropTargetHelper_DragLeave, shobjidl_core/IDropTargetHelper::DragLeave
 ms.prod: windows-hardware
 ms.technology: windows-devices
