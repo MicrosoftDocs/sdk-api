@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/5A612002-2B1D-4FC3-B364-AACD9FD44BEC">Discrete transfer effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706329(v=VS.85).aspx">Discrete transfer effect</a>.
 
 
 ## -enum-fields

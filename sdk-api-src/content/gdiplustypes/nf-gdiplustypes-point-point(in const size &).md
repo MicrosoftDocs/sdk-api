@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object using a 
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object using a 
 			<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object to initialize the 
 			<b>X</b> and 
 			<b>Y</b> data members.
@@ -69,7 +69,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb
 Reference to a 
 					<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object whose 
 					<b>Width</b> data member specifies the 
-					<b>X</b> data member of this <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object, and whose 
+					<b>X</b> data member of this <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object, and whose 
 					<b>Height</b> data member specifies the 
 					<b>Y</b> data member of this <b>Point</b> object. 
 
@@ -79,15 +79,15 @@ Reference to a
 
 
 
-<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/27952618-cf2d-4a85-b271-b3950c293ece">Point Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535005(v=VS.85).aspx">Point Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
  
 
  

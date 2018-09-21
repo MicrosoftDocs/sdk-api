@@ -93,7 +93,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 When specified and combined with an asynchronous <i>FileHandle</i>, <i>Overlapped</i> allows the platform to perform the call asynchronously.  
 
-The caller must have initialized the overlapped structure with an event to wait on. If this returns HRESULT_FROM_WIN32(ERROR_IO_PENDING), the caller can then wait using <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>. If not specified, the platform will perform the API call synchronously, regardless of how the handle was created.
+The caller must have initialized the overlapped structure with an event to wait on. If this returns HRESULT_FROM_WIN32(ERROR_IO_PENDING), the caller can then wait using <a href="https://msdn.microsoft.com/en-us/library/ms683209(v=VS.85).aspx">GetOverlappedResult</a>. If not specified, the platform will perform the API call synchronously, regardless of how the handle was created.
 
 
 

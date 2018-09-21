@@ -85,12 +85,12 @@ Optional. A pointer to a null-terminated wide character string that contains the
 
 ### -field Manifest
 
-Optional. A <a href="https://msdn.microsoft.com/25414b2d-3283-4e2f-a23c-ccebff1409e2">CRYPT_XML_REFERENCES</a> structure that specifies an array of references.
+Optional. A <a href="https://msdn.microsoft.com/en-us/library/Dd433863(v=VS.85).aspx">CRYPT_XML_REFERENCES</a> structure that specifies an array of references.
 
 
 ### -field Encoded
 
-Optional. A <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains the XML part of the entire <b>Object</b> element.
+Optional. A <a href="https://msdn.microsoft.com/en-us/library/Dd433844(v=VS.85).aspx">CRYPT_XML_BLOB</a> structure that contains the XML part of the entire <b>Object</b> element.
 
 <div class="alert"><b>Note</b>  This field is empty when the <b>Object</b> element does not contain
     any elements.

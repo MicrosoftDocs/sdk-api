@@ -57,7 +57,7 @@ An <b>IDXGIDevice</b> interface implements a derived class for DXGI objects that
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDevice</b> interface inherits from <a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>. <b>IDXGIDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDevice</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>. <b>IDXGIDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDXGIDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0effc0a-0ec9-4350-ac44-c64c29984a02">CreateSurface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174530(v=VS.85).aspx">CreateSurface</a>
 </td>
 <td align="left" width="63%">
 Returns a surface. This method is used internally and you should not call it directly in your application.
@@ -81,7 +81,7 @@ Returns a surface. This method is used internally and you should not call it dir
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae113b36-47fd-4db1-b10c-ced22ec52435">GetAdapter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174531(v=VS.85).aspx">GetAdapter</a>
 </td>
 <td align="left" width="63%">
 Returns the adapter for the specified device.
@@ -90,7 +90,7 @@ Returns the adapter for the specified device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b9e00d10-df95-4c89-89b3-e9c534bff933">GetGPUThreadPriority</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174532(v=VS.85).aspx">GetGPUThreadPriority</a>
 </td>
 <td align="left" width="63%">
 Gets the GPU thread priority.
@@ -99,7 +99,7 @@ Gets the GPU thread priority.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a03af142-657b-459d-abba-fdee72e77db9">QueryResourceResidency</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174533(v=VS.85).aspx">QueryResourceResidency</a>
 </td>
 <td align="left" width="63%">
 Gets the residency status of an array of resources.
@@ -108,7 +108,7 @@ Gets the residency status of an array of resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe140ee8-59d0-4285-b541-bedc6d3c3898">SetGPUThreadPriority</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174534(v=VS.85).aspx">SetGPUThreadPriority</a>
 </td>
 <td align="left" width="63%">
 Sets the GPU thread priority.
@@ -158,7 +158,7 @@ hr = g_pd3dDevice-&gt;QueryInterface(__uuidof(IDXGIDevice), (void **)&amp;pDXGID
 
 
 
-<a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>
  
 
  

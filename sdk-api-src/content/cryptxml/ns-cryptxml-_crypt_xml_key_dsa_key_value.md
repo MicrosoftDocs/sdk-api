@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CRYPT_XML_KEY_DSA_KEY_VALUE</b> structure defines a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Digital Signature Algorithm</a> (DSA) key value.  The <b>CRYPT_XML_KEY_DSA_KEY_VALUE</b> structure is used as an element of the key value union  in the <a href="https://msdn.microsoft.com/7aadd268-41bc-4ba3-babb-2ca7b13f378b">CRYPT_XML_KEY_VALUE</a> structure.
+The <b>CRYPT_XML_KEY_DSA_KEY_VALUE</b> structure defines a <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Digital Signature Algorithm</a> (DSA) key value.  The <b>CRYPT_XML_KEY_DSA_KEY_VALUE</b> structure is used as an element of the key value union  in the <a href="https://msdn.microsoft.com/en-us/library/Dd433858(v=VS.85).aspx">CRYPT_XML_KEY_VALUE</a> structure.
 
 
 ## -struct-fields

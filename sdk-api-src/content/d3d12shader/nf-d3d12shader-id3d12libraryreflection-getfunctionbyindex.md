@@ -71,9 +71,9 @@ The zero-based index of the function reflector to retrieve.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/F0BF4AA9-66D7-4A33-A51C-B03C1D61F537">ID3D12FunctionReflection</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933668(v=VS.85).aspx">ID3D12FunctionReflection</a>*</b>
 
-The function reflector, as a pointer to <a href="https://msdn.microsoft.com/F0BF4AA9-66D7-4A33-A51C-B03C1D61F537">ID3D12FunctionReflection</a>.
+The function reflector, as a pointer to <a href="https://msdn.microsoft.com/en-us/library/Dn933668(v=VS.85).aspx">ID3D12FunctionReflection</a>.
           
 
 

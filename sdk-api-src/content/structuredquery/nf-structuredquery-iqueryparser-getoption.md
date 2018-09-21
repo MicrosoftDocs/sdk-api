@@ -60,17 +60,17 @@ Retrieves a specified simple option value for this query parser.
 
 ### -param option [in]
 
-Type: <b><a href="https://msdn.microsoft.com/2753f0ad-2648-4ec2-b53f-089caad8ec15">STRUCTURED_QUERY_SINGLE_OPTION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965708(v=VS.85).aspx">STRUCTURED_QUERY_SINGLE_OPTION</a></b>
 
-The <a href="https://msdn.microsoft.com/2753f0ad-2648-4ec2-b53f-089caad8ec15">STRUCTURED_QUERY_SINGLE_OPTION</a> enumerated type that specifies the option to be retrieved.
+The <a href="https://msdn.microsoft.com/en-us/library/Aa965708(v=VS.85).aspx">STRUCTURED_QUERY_SINGLE_OPTION</a> enumerated type that specifies the option to be retrieved.
         
 
 
 ### -param pOptionValue [out, retval]
 
-Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
 
-Receives a pointer to the specified option value. For more information, see <a href="https://msdn.microsoft.com/2753f0ad-2648-4ec2-b53f-089caad8ec15">STRUCTURED_QUERY_SINGLE_OPTION</a>.
+Receives a pointer to the specified option value. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa965708(v=VS.85).aspx">STRUCTURED_QUERY_SINGLE_OPTION</a>.
 
 
 ## -returns

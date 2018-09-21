@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/bd06118c-ea1b-46e4-b499-67039430a52e">IBDA_DRMService</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693316(v=VS.85).aspx">IBDA_DRMService</a>
  
 
  

@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object and copies the data from another <b>PointF</b> object.
+Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object and copies the data from another <b>PointF</b> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates a new <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea
 
 ### -param point [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object whose 
+Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object whose 
 					<b>X</b> and 
 					<b>Y</b> data members are copied into the 
 					<b>X</b> and 
@@ -75,15 +75,15 @@ Reference to a <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fe
 
 
 
-<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
 
 
 
-<a href="https://msdn.microsoft.com/693ff9c6-d201-4f37-8797-f6dfb50feabe">PointF Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534994(v=VS.85).aspx">PointF Constructors</a>
  
 
  

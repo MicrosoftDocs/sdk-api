@@ -86,7 +86,7 @@ The globally unique identifier (GUID) of the <a href="https://msdn.microsoft.com
 
 Type: <b>void**</b>
 
-            The address of an <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a> interface pointer to the adapter.
+            The address of an <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> interface pointer to the adapter.
             This parameter must not be NULL.
 
 
@@ -96,7 +96,7 @@ Type: <b>void**</b>
 
 Type: <b>HRESULT</b>
 
-Returns <b>S_OK</b> if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
+Returns <b>S_OK</b> if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
 
 
 

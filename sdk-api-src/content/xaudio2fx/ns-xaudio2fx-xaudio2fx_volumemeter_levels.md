@@ -77,11 +77,11 @@ Number of channels being processed.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/75CC5E5D-74B2-4972-9E1D-D6CB4A3034CD">XAudio2 IXAudio2Voice::GetEffectParameters</a> method.
+This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Ee418586(v=VS.85).aspx">XAudio2 IXAudio2Voice::GetEffectParameters</a> method.
 
 
 
-<i>pPeakLevels</i> and <i>pRMSLevels</i> are not returned by <a href="https://msdn.microsoft.com/75CC5E5D-74B2-4972-9E1D-D6CB4A3034CD">IXAudio2Voice::GetEffectParameters</a>, the arrays are only filled out if they are present. If <i>pPeakLevels</i> and <i>pRMSLevels</i> are used they must be allocated by the application. The application is responsible for freeing the arrays when they are no longer needed.
+<i>pPeakLevels</i> and <i>pRMSLevels</i> are not returned by <a href="https://msdn.microsoft.com/en-us/library/Ee418586(v=VS.85).aspx">IXAudio2Voice::GetEffectParameters</a>, the arrays are only filled out if they are present. If <i>pPeakLevels</i> and <i>pRMSLevels</i> are used they must be allocated by the application. The application is responsible for freeing the arrays when they are no longer needed.
 
 
 
@@ -102,7 +102,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/7A5217AE-D7D6-4D92-A14E-DA36854F4D3E">IXAudio2Voice::SetEffectParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418595(v=VS.85).aspx">IXAudio2Voice::SetEffectParameters</a>
 
 
 
@@ -114,7 +114,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/c997dfe5-2207-422c-968c-9a6acd818d50">XAudio2CreateVolumeMeter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419214(v=VS.85).aspx">XAudio2CreateVolumeMeter</a>
  
 
  

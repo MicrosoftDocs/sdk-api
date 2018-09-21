@@ -72,10 +72,10 @@ An application-defined argument that is passed to
 
 ### -field pfnRead
 
-A pointer to a <a href="https://msdn.microsoft.com/86c7003e-eee2-4adf-adf4-8f9d1acb5c45">PFN_CRYPT_XML_DATA_PROVIDER_READ</a> callback function used to read data.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd418876(v=VS.85).aspx">PFN_CRYPT_XML_DATA_PROVIDER_READ</a> callback function used to read data.
 
 
 ### -field pfnClose
 
-A pointer to a <a href="https://msdn.microsoft.com/886fbe92-f9ab-49d4-968a-afeadbf2f030">PFN_CRYPT_XML_DATA_PROVIDER_CLOSE</a> callback function used to release the data provider. When you have finished using the data provider, you must release it.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd418875(v=VS.85).aspx">PFN_CRYPT_XML_DATA_PROVIDER_CLOSE</a> callback function used to release the data provider. When you have finished using the data provider, you must release it.
 

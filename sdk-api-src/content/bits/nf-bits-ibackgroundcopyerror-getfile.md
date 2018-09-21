@@ -67,7 +67,7 @@ TBD
 
 #### - ppFile [out]
 
-An <a href="https://msdn.microsoft.com/fae9cf56-c211-445b-b962-9a9d7d67c59c">IBackgroundCopyFile</a> interface pointer whose methods you use to determine the local and remote file names associated with the error. The <i>ppFile</i> parameter is set to <b>NULL</b> if the error is not associated with the local or remote file. When done, release <i>ppFile</i>.
+An <a href="https://msdn.microsoft.com/en-us/library/Aa362881(v=VS.85).aspx">IBackgroundCopyFile</a> interface pointer whose methods you use to determine the local and remote file names associated with the error. The <i>ppFile</i> parameter is set to <b>NULL</b> if the error is not associated with the local or remote file. When done, release <i>ppFile</i>.
 
 
 ## -returns
@@ -114,15 +114,15 @@ The error is not associated with a local or remote file. The <i>ppFile</i> param
 
 
 
-<a href="https://msdn.microsoft.com/abdf115d-3ff2-4664-b053-f55872ad24ab">IBackgroundCopyError::GetError</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362876(v=VS.85).aspx">IBackgroundCopyError::GetError</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f5ae62-c171-4637-bebb-3a5c5aa546b3">IBackgroundCopyError::GetErrorContextDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362877(v=VS.85).aspx">IBackgroundCopyError::GetErrorContextDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/57323f38-c2e6-4e40-b357-7df758899f97">IBackgroundCopyError::GetErrorDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362878(v=VS.85).aspx">IBackgroundCopyError::GetErrorDescription</a>
  
 
  

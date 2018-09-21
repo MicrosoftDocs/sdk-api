@@ -57,7 +57,7 @@ req.redist:
 
 
 
-The <b>GetMarker</b> method returns the name and time of a <a href="wmformat_glossary.htm">marker</a>.
+The <b>GetMarker</b> method returns the name and time of a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a>.
 
 
 
