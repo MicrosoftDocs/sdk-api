@@ -2,13 +2,12 @@
 UID: NA:wabmem
 ms.assetid: f97965ec-f3dd-3f75-97da-e3b9af74b86a
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mapi
-archived: true
 ---
 
 # Wabmem.h header

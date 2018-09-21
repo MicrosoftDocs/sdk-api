@@ -2,7 +2,7 @@
 UID: NA:winnt
 ms.assetid: 800710c2-56cd-36a6-a445-b2520f403001
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

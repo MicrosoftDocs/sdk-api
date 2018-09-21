@@ -2,12 +2,11 @@
 UID: TP:qos
 ms.assetid: 226c23a3-f2d6-320b-87c9-2bb3973f6073
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # Quality of Service (QOS)
@@ -29,5 +28,5 @@ To develop Quality of Service (QOS), you need these headers:
  * [traffic.h](../traffic/index.md)
 
 For programming guidance for this technology, see:
-* [Quality of Service (QOS)](/previous-versions/windows/desktop/qos)
+* [Quality of Service (QOS)](/windows/desktop/qos)
 

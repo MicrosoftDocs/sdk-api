@@ -2,13 +2,12 @@
 UID: NA:lpmapi
 ms.assetid: 54aff8d3-0546-33cb-ad37-052164689bac
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: qos
-archived: true
 ---
 
 # Lpmapi.h header

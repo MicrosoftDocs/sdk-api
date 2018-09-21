@@ -2,7 +2,7 @@
 UID: NA:chptrarr
 ms.assetid: 67dda84e-7d7a-3ad1-bafd-c2cce3b60626
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

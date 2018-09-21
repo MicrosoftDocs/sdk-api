@@ -2,13 +2,12 @@
 UID: NA:mschapp
 ms.assetid: e31f3d03-846d-3fab-aaaa-517230a772e7
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mschap
-archived: true
 ---
 
 # Mschapp.h header

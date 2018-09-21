@@ -2,7 +2,7 @@
 UID: NA:wsdxml
 ms.assetid: b0551964-abaf-3e3b-84e4-5052f6b2c81a
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

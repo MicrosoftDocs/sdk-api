@@ -2,13 +2,12 @@
 UID: NA:eapmethodauthenticatorapis
 ms.assetid: 7fccf58f-472d-3712-a1fb-928d94acddbc
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: eaphost
-archived: true
 ---
 
 # Eapmethodauthenticatorapis.h header

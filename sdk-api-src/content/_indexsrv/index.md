@@ -2,12 +2,11 @@
 UID: TP:indexsrv
 ms.assetid: 45f6cbf9-5f8f-3f61-8756-c82b7e311782
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 ---
 
 # Indexing Service
@@ -22,5 +21,5 @@ To develop Indexing Service, you need these headers:
  * [oledbguid.h](../oledbguid/index.md)
 
 For programming guidance for this technology, see:
-* [Indexing Service](/previous-versions/windows/desktop/indexsrv)
+* [Indexing Service](/windows/desktop/indexsrv)
 

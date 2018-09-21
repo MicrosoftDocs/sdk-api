@@ -2,11 +2,12 @@
 UID: TP:dshow
 ms.assetid: b1546a05-da85-3ec0-b7d1-f1e3c27d19c5
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
+archived: true
 ---
 
 # DirectShow
@@ -64,5 +65,5 @@ To develop DirectShow, you need these headers:
  * [wmp.h](../wmp/index.md)
 
 For programming guidance for this technology, see:
-* [DirectShow](/windows/desktop/directshow)
+* [DirectShow](/previous-versions/windows/desktop/directshow)
 

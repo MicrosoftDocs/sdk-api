@@ -2,13 +2,12 @@
 UID: NA:ipmib
 ms.assetid: 3247e3ce-6e49-3f90-a529-f2f72b8e8391
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mib
-archived: true
 ---
 
 # Ipmib.h header

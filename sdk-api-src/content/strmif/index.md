@@ -2,12 +2,13 @@
 UID: NA:strmif
 ms.assetid: 43bd6226-7c92-3ebe-a75b-8b415939fac6
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dshow
+archived: true
 ---
 
 # Strmif.h header

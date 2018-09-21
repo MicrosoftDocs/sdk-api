@@ -2,7 +2,7 @@
 UID: NA:ws2bth
 ms.assetid: e69b0459-ba2c-358e-a9e5-48377f62889b
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

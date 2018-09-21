@@ -2,13 +2,12 @@
 UID: NA:ddpbackup
 ms.assetid: d497ed17-4414-3b69-8860-285cc60b5f53
 ms.author: windowssdkdev
-ms.date: 09/18/2018
+ms.date: 09/21/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dedup
-archived: true
 ---
 
 # Ddpbackup.h header
