@@ -151,13 +151,9 @@ If this function succeeds, the database must be left in the open state. The Wind
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>/////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterCreateDatabase
 //
@@ -226,11 +222,11 @@ StorageAdapterCreateDatabase(
 
     // Retrieve the context from the pipeline.
     PWINBIO_STORAGE_CONTEXT storageContext = 
-           (PWINBIO_STORAGE_CONTEXT)Pipeline-&gt;StorageContext;
+           (PWINBIO_STORAGE_CONTEXT)Pipeline->StorageContext;
 
     // Verify the pipeline state.
     if (storageContext == NULL ||
-        Pipeline-&gt;StorageHandle != INVALID_HANDLE_VALUE)
+        Pipeline->StorageHandle != INVALID_HANDLE_VALUE)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -244,7 +240,7 @@ StorageAdapterCreateDatabase(
             Factor,
             Format,
             IndexElementCount,
-            &amp;fileHeader
+            &fileHeader
             );
     if (FAILED(hr))
     {
@@ -259,10 +255,10 @@ StorageAdapterCreateDatabase(
     // saved in the protected data area of the file. We recommend that you
     // encrypt the key by using the Data Protection API (DPAPI).
     hr = _CreateDatabase(
-            &amp;fileHeader,
+            &fileHeader,
             FilePath,
-            &amp;fileHandle,
-            &amp;protectedData
+            &fileHandle,
+            &protectedData
             );
     if (FAILED(hr))
     {
@@ -277,8 +273,8 @@ StorageAdapterCreateDatabase(
     // algorithms. This function should associate the CNG cryptography handles 
     // with the storage context.
     hr = _InitializeCryptoContext(
-            &amp;protectedData,
-            &amp;storageContext-&gt;CryptoContext
+            &protectedData,
+            &storageContext->CryptoContext
             );
     if (FAILED(hr))
     {
@@ -287,7 +283,7 @@ StorageAdapterCreateDatabase(
     }
 
     // Attach the database file handle to the pipeline.
-    Pipeline-&gt;StorageHandle = fileHandle;
+    Pipeline->StorageHandle = fileHandle;
     fileHandle = INVALID_HANDLE_VALUE;
 
     // Copy various database parameters to the storage context. The following 
@@ -298,24 +294,24 @@ StorageAdapterCreateDatabase(
     //      - Template format
     //      - Database ID 
     //      - Database file path
-    storageContext-&gt;IndexElementCount = IndexElementCount;
+    storageContext->IndexElementCount = IndexElementCount;
 
     CopyMemory( 
-        &amp;storageContext-&gt;TemplateFormat, 
-        &amp;fileHeader.TemplateFormat, 
+        &storageContext->TemplateFormat, 
+        &fileHeader.TemplateFormat, 
         sizeof(WINBIO_UUID)
         );
 
-    storageContext-&gt;Version = fileHeader.Version;
+    storageContext->Version = fileHeader.Version;
 
     CopyMemory(
-        &amp;storageContext-&gt;DatabaseId,
+        &storageContext->DatabaseId,
         DatabaseId,
         sizeof(WINBIO_UUID)
         );
 
     wcsncpy_s(
-        storageContext-&gt;FilePath,
+        storageContext->FilePath,
         MAX_PATH+1,
         FilePath,
         MAX_PATH
@@ -327,7 +323,7 @@ cleanup:
 
     if (FAILED(hr))
     {
-        _CleanupCryptoContext(&amp;storageContext-&gt;CryptoContext);
+        _CleanupCryptoContext(&storageContext->CryptoContext);
 
         if (fileOpen)
         {
@@ -338,14 +334,14 @@ cleanup:
 
     // Call the SecureZeroMemory function to overwrite the template encryption key 
     // on the stack.
-    SecureZeroMemory( &amp;protectedData, sizeof(struct _MY_ADAPTER_DPAPI_DATA));
+    SecureZeroMemory( &protectedData, sizeof(struct _MY_ADAPTER_DPAPI_DATA));
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

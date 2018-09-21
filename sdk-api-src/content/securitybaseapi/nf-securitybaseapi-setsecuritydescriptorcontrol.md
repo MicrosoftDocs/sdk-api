@@ -106,32 +106,24 @@ The <b>SetSecurityDescriptorControl</b> function specifies the control bit or bi
 
 The following example marks the DACL on the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> as protected.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    SetSecurityDescriptorControl( &amp;SecDesc,
+
+```cpp
+    SetSecurityDescriptorControl( &SecDesc,
             SE_DACL_PROTECTED, SE_DACL_PROTECTED );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following example marks the DACL as not protected.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    SetSecurityDescriptorControl( &amp;SecDesc,
+
+```cpp
+    SetSecurityDescriptorControl( &SecDesc,
             SE_DACL_PROTECTED, 0 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

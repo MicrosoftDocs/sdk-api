@@ -120,13 +120,9 @@ The value returned by the <i>SampleHint</i> parameter specifies the number of co
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterQuerySampleHint
 //
@@ -166,10 +162,10 @@ cleanup:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

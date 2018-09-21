@@ -86,24 +86,20 @@ The policy module must call the <b>SetContext</b> method first, before calls to 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Set the context. The value nContext (long) would be the same
+
+```cpp
+// Set the context. The value nContext (long) would be the same
 // as the context parameter in ICertPolicy::VerifyRequest.
 // hr is defined as an HRESULT.
-hr = pCertServerPolicy-&gt;SetContext( nContext );
+hr = pCertServerPolicy->SetContext( nContext );
 if (FAILED(hr))
 {
     printf("Failed SetContext [%x]\n", hr);
     goto error;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

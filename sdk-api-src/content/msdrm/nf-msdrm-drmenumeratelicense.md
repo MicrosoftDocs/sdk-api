@@ -324,24 +324,20 @@ Perform the following steps to enumerate revocation lists:<ol>
 
 You must call <b>DRMEnumerateLicense</b> twice to retrieve one license. Set the <i>wszCertificateData</i> to <b>NULL</b> on the first call to retrieve the required buffer size. Allocate memory and call <b>DRMEnumerateLicense</b> again. This is illustrated by the following example.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Call DRMEnumerateLicense with the wszCertificateData parameter set
+
+```cpp
+// Call DRMEnumerateLicense with the wszCertificateData parameter set
 // to NULL.
 hr = DRMEnumerateLicense( 
          hClient,                          // Client session handle
          DRM_EL_SPECIFIED_CLIENTLICENSOR,  // Flags
          0,                                // Index
-         &amp;fShared,                         // Shared license
-         &amp;uiClientLicensorCertLength,      // Certificate length
+         &fShared,                         // Shared license
+         &uiClientLicensorCertLength,      // Certificate length
          NULL                              // Certificate
          );
 
-if ( FAILED( hr ) &amp;&amp; ( E_DRM_NO_MORE_DATA != hr ) )
+if ( FAILED( hr ) && ( E_DRM_NO_MORE_DATA != hr ) )
 {
    goto e_Exit;
 }
@@ -368,8 +364,8 @@ else
          hClient,                          // Client session handle
          DRM_EL_SPECIFIED_CLIENTLICENSOR,  // Flags
          0,                                // Index
-         &amp;fShared,                         // Shared license
-         &amp;uiClientLicensorCertLength,      // Certificate length
+         &fShared,                         // Shared license
+         &uiClientLicensorCertLength,      // Certificate length
          wszClientLicensorCert             // Certificate
          );
 
@@ -404,10 +400,10 @@ e_Exit:
 
     return hr;
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -126,24 +126,20 @@ We recommend that you use the IID_PPV_ARGS macro defined in Objbase.h to package
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762082(v=VS.85).aspx">PSGetPropertySystem</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IPropertySystem *pSystem;
 
-HRESULT hr = PSGetPropertySystem(IID_PPV_ARGS(&amp;pSystem));
+```cpp
+IPropertySystem *pSystem;
+
+HRESULT hr = PSGetPropertySystem(IID_PPV_ARGS(&pSystem));
 
 if (SUCCEEDED(hr))
 {
     // pSystem is now valid.
  
-    pSystem-&gt;Release();
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    pSystem->Release();
+}
+```
+
+
 
 

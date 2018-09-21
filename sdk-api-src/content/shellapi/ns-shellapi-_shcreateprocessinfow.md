@@ -227,16 +227,12 @@ A pointer to a <a href="https://msdn.microsoft.com/78d84499-7e56-4ff7-a8cd-1cf1b
 
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>sei.lpParameters = "An example: \"\"\"quoted text\"\"\"";</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+sei.lpParameters = "An example: \"\"\"quoted text\"\"\"";
+```
+
+
 In this case, the application receives three parameters: <i>An, example:, and "quoted text"</i>.
 
 

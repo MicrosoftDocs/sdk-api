@@ -94,13 +94,9 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNFCIOPEN(fnFileOpen)
+
+```cpp
+FNFCIOPEN(fnFileOpen)
 {
     HANDLE hFile = NULL;
     DWORD dwDesiredAccess = 0; 
@@ -109,11 +105,11 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
     UNREFERENCED_PARAMETER(pv);
     UNREFERENCED_PARAMETER(pmode);
 
-    if ( oflag &amp; _O_RDWR )
+    if ( oflag & _O_RDWR )
     {
         dwDesiredAccess = GENERIC_READ | GENERIC_WRITE;
     }
-    else if ( oflag &amp; _O_WRONLY )
+    else if ( oflag & _O_WRONLY )
     {
         dwDesiredAccess = GENERIC_WRITE;
     }
@@ -122,7 +118,7 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
         dwDesiredAccess = GENERIC_READ;
     }
 
-    if ( oflag &amp; _O_CREAT )
+    if ( oflag & _O_CREAT )
     {
         dwCreationDisposition = CREATE_ALWAYS;
     }
@@ -146,10 +142,10 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
     return (INT_PTR)hFile;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

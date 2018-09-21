@@ -153,29 +153,25 @@ Use the methods of this interface to test your Windows Store app under various s
 
 This example shows the methods of this interface in use.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IApplicationDesignModeSettings *pDesignModeSettings;
 
 // CoCreate the design mode settings object
-HRESULT hr = CoCreateInstance(CLSID_ApplicationDesignModeSettings, nullptr, CLSCTX_INPROC, IID_PPV_ARGS(&amp;pDesignModeSettings));
+HRESULT hr = CoCreateInstance(CLSID_ApplicationDesignModeSettings, nullptr, CLSCTX_INPROC, IID_PPV_ARGS(&pDesignModeSettings));
 if (SUCCEEDED(hr))
 {
     IInitializeWithWindow *pInitializeWithWindow;
-    hr = pDesignModeSettings-&gt;QueryInterface(IID_PPV_ARGS(&amp;pInitializeWithWindow);
+    hr = pDesignModeSettings->QueryInterface(IID_PPV_ARGS(&pInitializeWithWindow);
     if (SUCCEEDED(hr))
     {
         // Before we spoof any state, we must first initialize the design
         // mode settings object with a proxy core window. Since apps
         // running in design mode don't have an actual core window, we must
         // supply an HWND that can be used as a proxy.
-        hr = pInitializeWithWindow-&gt;Initialize(hwndProxyCoreWindow);
-        pInitializeWithWindow-&gt;Release();
+        hr = pInitializeWithWindow->Initialize(hwndProxyCoreWindow);
+        pInitializeWithWindow->Release();
     }
 
     if (SUCCEEDED(hr))
@@ -185,27 +181,27 @@ if (SUCCEEDED(hr))
         SCALE_FACTOR scaleFactor = SCALE_100_PERCENT;
         APPLICATION_VIEW_STATE viewState = AVS_FULLSCREEN_LANDSCAPE;
         BOOL fSupported;
-        hr = pDesignModeSettings-&gt;IsApplicationViewStateSupported(viewState,
+        hr = pDesignModeSettings->IsApplicationViewStateSupported(viewState,
                                                                   sizeNativeDisplay,
                                                                   scaleFactor,
-                                                                  &amp;fSupported);
+                                                                  &fSupported);
     }
 
-    if (SUCCEEDED(hr) &amp;&amp; fSupported))
+    if (SUCCEEDED(hr) && fSupported))
     {
         // Set the spoofed native display size.
-        hr = pDesignModeSettings-&gt;SetNativeDisplaySize(sizeNativeDisplay);
+        hr = pDesignModeSettings->SetNativeDisplaySize(sizeNativeDisplay);
 
         if (SUCCEEDED(hr))
         {
             // Set the spoofed scale factor to 100%.
-            hr = pDesignModeSettings-&gt;SetScaleFactor(SCALE_100_PERCENT);
+            hr = pDesignModeSettings->SetScaleFactor(SCALE_100_PERCENT);
         }
 
         if (SUCCEEDED(hr))
         {
             // Set the spoofed application view state to full-screen landscape.
-            hr = pDesignModeSettings-&gt;SetApplicationViewState(AVS_FULLSCREEN_LANDSCAPE);
+            hr = pDesignModeSettings->SetApplicationViewState(AVS_FULLSCREEN_LANDSCAPE);
         }
 
         if (SUCCEEDED(hr))
@@ -213,14 +209,14 @@ if (SUCCEEDED(hr))
             // Now that all the necessary state has been spoofed, calculate
             // the size that the app should occupy.
             SIZE sizeApplication;
-            hr = pDesignModeSettings-&gt;ComputeApplicationSize(&amp;sizeApplication);
+            hr = pDesignModeSettings->ComputeApplicationSize(&sizeApplication);
         }
     }
 
-    pDesignModeSettings-&gt;Release();
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    pDesignModeSettings->Release();
+}
+```
+
+
 
 

@@ -94,16 +94,12 @@ The Add/Remove Programs Control Panel Application passes the ID returned for a c
 
 The following example shows how to calculate the size of the array of <a href="https://msdn.microsoft.com/7a0e61cb-97f8-4ca2-a85a-889e671099d0">APPCATEGORYINFO</a> structures that is returned by <b>IAppPublisher::GetCategories</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>size_t CategoryListArraySize = sizeof(APPCATEGORYINFO) * pInfoList-&gt;cCategory;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+size_t CategoryListArraySize = sizeof(APPCATEGORYINFO) * pInfoList->cCategory;
+```
+
+
 
 
 

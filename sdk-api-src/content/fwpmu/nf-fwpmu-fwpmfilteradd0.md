@@ -219,24 +219,20 @@ By default filters that reference callouts that have been added but have not yet
 The following C++ example shows how to initialize and add a filter using <b>FwpmFilterAdd0</b> that 	   
 specifically blocks traffic on IP V4 for all applications.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Add filter to block traffic on IP V4 for all applications. 
 //
 FWPM_FILTER0      fwpFilter;
 FWPM_SUBLAYER0    fwpFilterSubLayer;  
 
-RtlZeroMemory(&amp;fwpFilter, sizeof(FWPM_FILTER0));
+RtlZeroMemory(&fwpFilter, sizeof(FWPM_FILTER0));
 
 fwpFilter.layerKey = FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4;
 fwpFilter.action.type = FWP_ACTION_BLOCK;
 
-if (&amp;fwpFilterSubLayer.subLayerKey != NULL)
+if (&fwpFilterSubLayer.subLayerKey != NULL)
     fwpFilter.subLayerKey = fwpFilterSubLayer.subLayerKey;
 
 fwpFilter.weight.type = FWP_EMPTY; // auto-weight.
@@ -245,16 +241,16 @@ fwpFilter.displayData.name = L"Receive/Accept Layer Block";
 fwpFilter.displayData.description = L"Filter to block all inbound connections.";
        
 printf("Adding filter to block all inbound connections.\n");
-result = FwpmFilterAdd0(engineHandle, &amp;fwpFilter, NULL, NULL);
+result = FwpmFilterAdd0(engineHandle, &fwpFilter, NULL, NULL);
         
 if (result != ERROR_SUCCESS)
     printf("FwpmFilterAdd0 failed. Return value: %d.\n", result);
 else
     printf("Filter added successfully.\n");
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

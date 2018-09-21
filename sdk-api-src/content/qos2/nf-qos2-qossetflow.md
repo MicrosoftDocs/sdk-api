@@ -358,47 +358,43 @@ Other QoS function examples that show initialization of parameters include <a hr
 
 See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetDs\GQos\Qos2
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>if( QOSSetFlow( QOSHandle,
+
+```cpp
+if( QOSSetFlow( QOSHandle,
         FlowId,
         QOSSetOutgoingRate,           // Operation 
         sizeof(QoSOutgoingFlowrate),  // Size
-        &amp;QoSOutgoingFlowrate,         // Buffer
+        &QoSOutgoingFlowrate,         // Buffer
         0,                            // Flags (Must be set to 0 with QoS Version 1.0)
         NULL)                         // Overlapped
         == 0 )
 {
     if( ERROR_INVALID_PARAMETER == GetLastError())
     {
-        std::cerr &lt;&lt; __FILE__ &lt;&lt;" Line: " &lt;&lt; __LINE__ ;
-        std::cerr &lt;&lt; " - QOSSetFlow failed. Exception code: "; 
-        std::cerr &lt;&lt; GetLastError() &lt;&lt; " - Invalid parameter"; 
-        std::cerr &lt;&lt; std::endl;
+        std::cerr << __FILE__ <<" Line: " << __LINE__ ;
+        std::cerr << " - QOSSetFlow failed. Exception code: "; 
+        std::cerr << GetLastError() << " - Invalid parameter"; 
+        std::cerr << std::endl;
     }
     else
     {
-        std::cerr &lt;&lt; __FILE__ &lt;&lt;" Line: " &lt;&lt; __LINE__ ;
-        std::cerr &lt;&lt; " - QOSSetFlow failed. Exception code: "; 
-        std::cerr &lt;&lt; GetLastError() &lt;&lt; std::endl;
+        std::cerr << __FILE__ <<" Line: " << __LINE__ ;
+        std::cerr << " - QOSSetFlow failed. Exception code: "; 
+        std::cerr << GetLastError() << std::endl;
     }
     
 }
 else
 {
-    std::cout &lt;&lt; "QOSSetFlow set outgoing flowrate bandwidth to "; 
-    std::cout &lt;&lt; QoSOutgoingFlowrate.Bandwidth;
-    std::cerr &lt;&lt; std::endl;
+    std::cout << "QOSSetFlow set outgoing flowrate bandwidth to "; 
+    std::cout << QoSOutgoingFlowrate.Bandwidth;
+    std::cerr << std::endl;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

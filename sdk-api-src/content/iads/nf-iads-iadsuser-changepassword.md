@@ -90,13 +90,9 @@ In Active Directory, the caller must have the <a href="https://msdn.microsoft.co
 
 The following code example shows how to change a user password.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim usr As IADsUser
+
+```vb
+Dim usr As IADsUser
 Dim szOldPass As String
 Dim szNewPass As String
 
@@ -108,36 +104,32 @@ Set usr = GetObject("WinNT://Fabrikam/JeffSmith,user")
 usr.ChangePassword szOldPass, szNewPass
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
-    Set usr = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+    Set usr = Nothing
+```
+
+
 The following code example shows how to change a user  password.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT ChangePassword(
+
+```cpp
+HRESULT ChangePassword(
     IADsUser *pUser, 
     LPWSTR oldPasswd, 
     LPWSTR newPasswd)
 {
     HRESULT hr=S_OK;
     if(!pUser) { return E_FAIL;}
-    hr = pUser-&gt;ChangePassword(oldPasswd, newPasswd);
+    hr = pUser->ChangePassword(oldPasswd, newPasswd);
     printf("User password has been changed");
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

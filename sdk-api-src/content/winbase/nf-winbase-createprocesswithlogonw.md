@@ -425,16 +425,12 @@ CreateProcessWithLogonW(..., szCmdline, ...)</code></pre>
 
 The following example demonstrates how to call this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;userenv.h&gt;
+
+```cpp
+
+#include <windows.h>
+#include <stdio.h>
+#include <userenv.h>
 
 void DisplayError(LPWSTR pszAPI)
 {
@@ -444,7 +440,7 @@ void DisplayError(LPWSTR pszAPI)
         FORMAT_MESSAGE_FROM_SYSTEM,
         NULL, GetLastError(), 
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), 
-        (LPWSTR)&amp;lpvMessageBuffer, 0, NULL);
+        (LPWSTR)&lpvMessageBuffer, 0, NULL);
 
     //
     //... now display this string
@@ -483,15 +479,15 @@ void wmain(int argc, WCHAR *argv[])
     // TO DO: change NULL to '.' to use local account database
     //
     if (!LogonUser(argv[1], NULL, argv[2], LOGON32_LOGON_INTERACTIVE, 
-            LOGON32_PROVIDER_DEFAULT, &amp;hToken))
+            LOGON32_PROVIDER_DEFAULT, &hToken))
         DisplayError(L"LogonUser");
 
-    if (!CreateEnvironmentBlock(&amp;lpvEnv, hToken, TRUE))
+    if (!CreateEnvironmentBlock(&lpvEnv, hToken, TRUE))
         DisplayError(L"CreateEnvironmentBlock");
 
     dwSize = sizeof(szUserProfile)/sizeof(WCHAR);
 
-    if (!GetUserProfileDirectory(hToken, szUserProfile, &amp;dwSize))
+    if (!GetUserProfileDirectory(hToken, szUserProfile, &dwSize))
         DisplayError(L"GetUserProfileDirectory");
 
     //
@@ -500,7 +496,7 @@ void wmain(int argc, WCHAR *argv[])
     if (!CreateProcessWithLogonW(argv[1], NULL, argv[2], 
             LOGON_WITH_PROFILE, NULL, argv[3], 
             CREATE_UNICODE_ENVIRONMENT, lpvEnv, szUserProfile, 
-            &amp;si, &amp;pi))
+            &si, &pi))
         DisplayError(L"CreateProcessWithLogonW");
 
     if (!DestroyEnvironmentBlock(lpvEnv))
@@ -510,10 +506,10 @@ void wmain(int argc, WCHAR *argv[])
     CloseHandle(pi.hProcess);
     CloseHandle(pi.hThread);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

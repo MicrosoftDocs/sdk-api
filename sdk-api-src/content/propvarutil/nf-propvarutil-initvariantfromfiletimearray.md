@@ -101,26 +101,22 @@ Creates a VT_ARRAY | VT_DATE variant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762324(v=VS.85).aspx">InitVariantFromFileTimeArray</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// FILETIME rgFileTimes[3];
+
+```cpp
+// FILETIME rgFileTimes[3];
 // Assume variable rgFileTimes is initialized and valid.
 VARIANT var;
 
-HRESULT hr = InitVariantFromFileTimeArray(rgFileTimes, ARRAYSIZE(rgFileTimes), &amp;var);
+HRESULT hr = InitVariantFromFileTimeArray(rgFileTimes, ARRAYSIZE(rgFileTimes), &var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_ARRAY | VT_DATE.
-    VariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&propvar);
+}
+```
+
+
 
 
 
