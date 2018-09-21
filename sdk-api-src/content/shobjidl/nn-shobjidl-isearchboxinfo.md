@@ -97,7 +97,7 @@ The search box is shown here in an Windows Explorer window frame.
 
 
 
-<img alt="Screen shot of upper-right corner of explorer frame showing search box" src="images/searchbox.jpg"/>
+<img alt="Screen shot of upper-right corner of explorer frame showing search box" src="./images/searchbox.jpg"/>
 The frame that contains the search box might also be hosted in another window or in the common file dialog box.
 
 To access the search dialog, use <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> using SID_SSearchBoxInfo on a site pointer within the Windows Explorer window.
