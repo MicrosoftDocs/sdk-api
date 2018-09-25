@@ -4,10 +4,10 @@ title: ID2D1CommandSink3::DrawSpriteBatch
 author: windows-sdk-content
 description: Renders part or all of the given sprite batch to the device context using the specified drawing options.
 old-location: direct2d\id2d1commandsink3_drawspritebatch.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 9227A78E-B53A-4191-87F8-BA239E0CF8ED
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: DrawSpriteBatch, DrawSpriteBatch method [Direct2D], DrawSpriteBatch method [Direct2D],ID2D1CommandSink3 interface, ID2D1CommandSink3 interface [Direct2D],DrawSpriteBatch method, ID2D1CommandSink3.DrawSpriteBatch, ID2D1CommandSink3::DrawSpriteBatch, d2d1_3/ID2D1CommandSink3::DrawSpriteBatch, direct2d.id2d1commandsink3_drawspritebatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

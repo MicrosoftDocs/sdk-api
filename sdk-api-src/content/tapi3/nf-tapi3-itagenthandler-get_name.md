@@ -4,10 +4,10 @@ title: ITAgentHandler::get_Name
 author: windows-sdk-content
 description: The get_Name method gets the agent handler name.
 old-location: tapi3\itagenthandler_get_name.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 18596742-9a0e-44c1-97e1-1d13d84cc10c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_Name method, ITAgentHandler.get_Name, ITAgentHandler::get_Name, _tapi3_itagenthandler_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_name, tapi3cc/ITAgentHandler::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,7 +119,7 @@ The <i>ppName</i> parameter is not a valid pointer.
 
 
 The application must free the memory allocated for the <i>ppName</i> parameter through 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when the variable is no longer needed.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when the variable is no longer needed.
 
 
 

@@ -7,7 +7,7 @@ old-location: winprog\fnfree.htm
 tech.root: devnotes
 ms.assetid: 646a0cb4-1f3a-42a1-a508-12d80bdb4a01
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: FNFREE, FNFREE macro [Windows API], fdi/FNFREE, winprog.fnfree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,16 +72,20 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNFREE(fnMemFree)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFREE(fnMemFree)
 {
     free(pv);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

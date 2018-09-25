@@ -4,10 +4,10 @@ title: ID2D1Device5
 author: windows-sdk-content
 description: Represents a resource domain whose objects and device contexts can be used together. This interface performs all the same functions as the ID2D1Device4 interface. It also enables the creation of ID2D1DeviceContext5 objects.
 old-location: direct2d\id2d1device5.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 3C436C9F-461B-4B18-B537-6724609D825F
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ID2D1Device5, ID2D1Device5 interface [Direct2D], ID2D1Device5 interface [Direct2D],described, d2d1_3/ID2D1Device5, direct2d.id2d1device5
 ms.prod: windows
 ms.technology: windows-sdk

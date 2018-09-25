@@ -92,19 +92,23 @@ Calling this method advances the animation manager to <i>timeNow</i>, changing s
 
 The following example updates the animation manager with the current time. For additional examples, see <a href="https://msdn.microsoft.com/c4f746c3-e47c-4b82-a41b-e2c0d177d097">Update the Animation Manager and Draw Frames</a>.
 
-
-```cpp
-// Update the animation manager with the current time
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Update the animation manager with the current time
 UI_ANIMATION_SECONDS secondsNow;
-hr = m_pAnimationTimer->GetTime(
-    &secondsNow
+hr = m_pAnimationTimer-&gt;GetTime(
+    &amp;secondsNow
     );
 if (SUCCEEDED(hr))
 {
     UI_ANIMATION_UPDATE_RESULT updateResult;
-    hr = m_pAnimationManager->Update(
+    hr = m_pAnimationManager-&gt;Update(
         secondsNow,
-        &updateResult
+        &amp;updateResult
         );
     if (SUCCEEDED(hr))
     {
@@ -113,10 +117,10 @@ if (SUCCEEDED(hr))
             ...
         }
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

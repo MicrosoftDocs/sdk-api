@@ -7,7 +7,7 @@ old-location: wua\iupdateservicemanager_addscanpackageservice.htm
 tech.root: wua_sdk
 ms.assetid: 5b0677bb-9f19-4bb4-9942-8ca3da18b29a
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: AddScanPackageService, AddScanPackageService method [Windows Update Agent], AddScanPackageService method [Windows Update Agent],IUpdateServiceManager interface, IUpdateServiceManager interface [Windows Update Agent],AddScanPackageService method, IUpdateServiceManager.AddScanPackageService, IUpdateServiceManager::AddScanPackageService, wua.iupdateservicemanager_addscanpackageservice, wuapi/IUpdateServiceManager::AddScanPackageService
 ms.prod: windows-hardware
 ms.technology: windows-devices

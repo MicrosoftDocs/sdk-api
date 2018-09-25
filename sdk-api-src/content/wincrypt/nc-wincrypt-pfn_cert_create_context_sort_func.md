@@ -7,7 +7,7 @@ old-location: security\pfn_cert_create_context_sort_func.htm
 tech.root: seccrypto
 ms.assetid: 5ad79970-d076-4e97-bf56-d6aad4b46eaa
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: PFN_CERT_CREATE_CONTEXT_SORT_FUNC, PFN_CERT_CREATE_CONTEXT_SORT_FUNC callback, PFN_CERT_CREATE_CONTEXT_SORT_FUNC callback function [Security], security.pfn_cert_create_context_sort_func, wincrypt/PFN_CERT_CREATE_CONTEXT_SORT_FUNC
 ms.prod: windows
 ms.technology: windows-sdk

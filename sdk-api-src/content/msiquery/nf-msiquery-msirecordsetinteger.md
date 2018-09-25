@@ -91,9 +91,13 @@ This function returns UINT.
 In the 
 <b>MsiRecordSetInteger</b> function, attempting to store a value in a nonexistent field causes an error. Note that the following code returns <b>ERROR_INVALID_PARAMETER</b>.
 
-
-```cpp
-MSIHANDLE hRecord;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>MSIHANDLE hRecord;
 UINT lReturn;  
 
 //create an msirecord with no fields
@@ -101,10 +105,10 @@ hRecord = MsiCreateRecord(0);
 
 //attempting to set the first field's value gives you ERROR_INVALID_PARAMETER 
 lReturn = MsiRecordSetInteger(hRecord, 1, 0);  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 To set a record integer field to <b>NULL_INTEGER</b>, set <i>iValue</i> to <b>MSI_NULL_INTEGER</b>.
 
 
@@ -115,7 +119,7 @@ To set a record integer field to <b>NULL_INTEGER</b>, set <i>iValue</i> to <b>MS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="database_functions.htm">Record Processing Functions</a>
  
 
  

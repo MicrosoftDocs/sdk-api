@@ -4,10 +4,10 @@ title: ITPluggableTerminalInitialization::InitializeDynamic
 author: windows-sdk-content
 description: The InitializeDynamic method performs primary terminal object creation for the pluggable terminal.
 old-location: tapi3\itpluggableterminalinitialization_initializedynamic.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 4cda6540-0c27-4234-8b7e-ffff117903b8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ITPluggableTerminalInitialization interface [TAPI 2.2],InitializeDynamic method, ITPluggableTerminalInitialization.InitializeDynamic, ITPluggableTerminalInitialization::InitializeDynamic, InitializeDynamic, InitializeDynamic method [TAPI 2.2], InitializeDynamic method [TAPI 2.2],ITPluggableTerminalInitialization interface, _tapi3_itpluggableterminalinitialization_initializedynamic, tapi3.itpluggableterminalinitialization_initializedynamic, termmgr/ITPluggableTerminalInitialization::InitializeDynamic
 ms.prod: windows-hardware
 ms.technology: windows-devices

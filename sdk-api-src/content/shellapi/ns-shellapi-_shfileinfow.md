@@ -7,7 +7,7 @@ old-location: shell\SHFILEINFO.htm
 tech.root: shell
 ms.assetid: 9dbf873a-b447-4579-961e-20f2a64c87fe
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: SHFILEINFO, SHFILEINFO structure [Windows Shell], SHFILEINFOW, _SHFILEINFOW, _win32_SHFILEINFO, shell.SHFILEINFO, shellapi/SHFILEINFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Contains information about a file object.
 
 Type: <b>HICON</b>
 
-A handle to the icon that represents the file. You are responsible for destroying this handle with <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> when you no longer need it.
+A handle to the icon that represents the file. You are responsible for destroying this handle with <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> when you no longer need it.
 
 
 ### -field iIcon

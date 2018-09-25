@@ -7,7 +7,7 @@ old-location: wua\updateserviceregistrationstate.htm
 tech.root: wua_sdk
 ms.assetid: 798d1392-a8dc-4063-b33d-159a507161f1
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: UpdateServiceRegistrationState, UpdateServiceRegistrationState enumeration [Windows Update Agent], tagUpdateServiceRegistrationState, usrsNotRegistered, usrsRegistered, usrsRegistrationPending, wua.updateserviceregistrationstate, wuapi/UpdateServiceRegistrationState, wuapi/usrsNotRegistered, wuapi/usrsRegistered, wuapi/usrsRegistrationPending
 ms.prod: windows
 ms.technology: windows-sdk

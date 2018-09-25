@@ -7,7 +7,7 @@ old-location: ad\idsbrowsedomaintree.htm
 tech.root: ad
 ms.assetid: f50caa34-d29e-4ad1-98b0-ef5c1f5550bf
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/21/2018
 ms.keywords: IDsBrowseDomainTree, IDsBrowseDomainTree interface [Active Directory], IDsBrowseDomainTree interface [Active Directory],described, _glines_idsbrowsedomaintree, ad.idsbrowsedomaintree, dsclient/IDsBrowseDomainTree
 ms.prod: windows
 ms.technology: windows-sdk

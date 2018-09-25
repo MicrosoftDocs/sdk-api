@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetfilename.htm
 tech.root: Multimedia
 ms.assetid: 4118b9fe-4252-4591-862d-a1cc48fa3cff
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: MCIWndGetFileName, MCIWndGetFileName macro [Windows Multimedia], _win32_MCIWndGetFileName, multimedia.mciwndgetfilename, vfw/MCIWndGetFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

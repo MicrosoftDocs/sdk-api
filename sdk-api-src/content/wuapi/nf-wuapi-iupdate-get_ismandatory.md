@@ -7,7 +7,7 @@ old-location: wua\iupdate_ismandatory.htm
 tech.root: wua_sdk
 ms.assetid: 5052914f-7b92-4637-b188-dce4a8e15328
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsMandatory property, IUpdate.IsMandatory, IUpdate.get_IsMandatory, IUpdate::IsMandatory, IUpdate::get_IsMandatory, IsMandatory property [Windows Update Agent], IsMandatory property [Windows Update Agent],IUpdate interface, get_IsMandatory, wua.iupdate_ismandatory, wuapi/IUpdate::IsMandatory, wuapi/IUpdate::get_IsMandatory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winprog\fnfcidelete.htm
 tech.root: devnotes
 ms.assetid: 5c85ad86-2794-4f7c-8c10-18fea3519b11
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: FNFCIDELETE, FNFCIDELETE macro [Windows API], fci/FNFCIDELETE, winprog.fnfcidelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,9 +82,13 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNFCIDELETE(fnFileDelete)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCIDELETE(fnFileDelete)
 {
     INT iResult = 0;
 
@@ -99,10 +103,10 @@ FNFCIDELETE(fnFileDelete)
     return iResult;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: multimedia\icsetstatusproc.htm
 tech.root: Multimedia
 ms.assetid: 1e59a5ae-ac59-45fd-b80a-1908f1bf0d5e
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: ICSetStatusProc, ICSetStatusProc function [Windows Multimedia], _win32_ICSetStatusProc, multimedia.icsetstatusproc, vfw/ICSetStatusProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

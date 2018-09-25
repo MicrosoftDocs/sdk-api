@@ -118,14 +118,18 @@ The SAC interface is the <b>IComponentAuthenticate</b> interface. Applications u
 
 The following C++ code authenticates the Windows Media Device Manager session and acquires the root object.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Authenticates the WMDM, and acquires an interface to the top-level object.
 HRESULT MyClass::Authenticate()
 {
     HRESULT hr;
-    CComPtr<IComponentAuthenticate> pAuth;
+    CComPtr&lt;IComponentAuthenticate&gt; pAuth;
 
     // Create the WMDM object and acquire 
     // its authentication interface.
@@ -134,7 +138,7 @@ HRESULT MyClass::Authenticate()
         NULL,
         CLSCTX_INPROC_SERVER,
         __uuidof(IComponentAuthenticate),
-        (void**)&pAuth);
+        (void**)&amp;pAuth);
 
     if (hr != S_OK)
         return hr;
@@ -149,7 +153,7 @@ HRESULT MyClass::Authenticate()
 
     // Send the application's transfer certificate and the associated 
     // private key to the secure channel client.
-    hr = m_pSAC->SetCertificate(
+    hr = m_pSAC-&gt;SetCertificate(
         SAC_CERT_V1,
         (BYTE *)abCert, sizeof(abCert),
         (BYTE *)abPVK,  sizeof(abPVK));
@@ -158,22 +162,22 @@ HRESULT MyClass::Authenticate()
             
     // Send the authentication interface we created to the secure channel 
     // client and try authenticating the application with the V1 protocol.
-    m_pSAC->SetInterface(pAuth);
-    hr = m_pSAC->Authenticate(SAC_PROTOCOL_V1);
+    m_pSAC-&gt;SetInterface(pAuth);
+    hr = m_pSAC-&gt;Authenticate(SAC_PROTOCOL_V1);
     if (hr != S_OK)
         return hr;
 
     // Authenticated succeeded, so we can use the WMDM.
     // Acquire an interface to the top-level WMDM interface.
-    hr = pAuth->QueryInterface(__uuidof(IWMDeviceManager), (void**)&m_IWMDeviceMgr);
+    hr = pAuth-&gt;QueryInterface(__uuidof(IWMDeviceManager), (void**)&amp;m_IWMDeviceMgr);
 
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

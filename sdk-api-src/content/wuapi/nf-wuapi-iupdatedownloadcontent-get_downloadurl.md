@@ -7,7 +7,7 @@ old-location: wua\iupdatedownloadcontent_downloadurl.htm
 tech.root: wua_sdk
 ms.assetid: bcdc751c-6af6-49f0-93da-c73b2091d7f6
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: DownloadUrl property [Windows Update Agent], DownloadUrl property [Windows Update Agent],IUpdateDownloadContent interface, IUpdateDownloadContent interface [Windows Update Agent],DownloadUrl property, IUpdateDownloadContent.DownloadUrl, IUpdateDownloadContent.get_DownloadUrl, IUpdateDownloadContent::DownloadUrl, IUpdateDownloadContent::get_DownloadUrl, get_DownloadUrl, wua.iupdatedownloadcontent_downloadurl, wuapi/IUpdateDownloadContent::DownloadUrl, wuapi/IUpdateDownloadContent::get_DownloadUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

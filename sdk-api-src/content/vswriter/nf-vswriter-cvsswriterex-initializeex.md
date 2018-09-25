@@ -99,7 +99,7 @@ A
 ### -param nLevel [in]
 
 A 
-      <a href="https://msdn.microsoft.com/fc7fbaee-d223-4557-987d-2c09f3877ec2">VSS_APPLICATION_LEVEL</a> enumeration value that indicates the application level at which the writer receives a <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">Freeze</a> event notification. 
+      <a href="https://msdn.microsoft.com/fc7fbaee-d223-4557-987d-2c09f3877ec2">VSS_APPLICATION_LEVEL</a> enumeration value that indicates the application level at which the writer receives a <a href="vssgloss_f.htm">Freeze</a> event notification. 
 
 
 
@@ -109,7 +109,7 @@ The default value for this parameter is VSS_APP_FRONT_END.
 
 ### -param dwTimeoutFreeze [in]
 
-The maximum permitted time, in milliseconds, between the writer's  receipt of a <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">Freeze</a> event notification and its receipt of a matching <a href="https://msdn.microsoft.com/en-us/library/Aa384668(v=VS.85).aspx">Thaw</a> event notification from VSS. After the time-out expires, the writer's 
+The maximum permitted time, in milliseconds, between the writer's  receipt of a <a href="vssgloss_f.htm">Freeze</a> event notification and its receipt of a matching <a href="vssgloss_t.htm">Thaw</a> event notification from VSS. After the time-out expires, the writer's 
 <a href="https://msdn.microsoft.com/56ba5f08-4803-4137-9edd-ce05bc19773b">OnAbort</a> method is called automatically. 
 
 

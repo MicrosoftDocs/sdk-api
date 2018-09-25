@@ -7,7 +7,7 @@ old-location: security\ienumcertviewextension_clone.htm
 tech.root: seccrypto
 ms.assetid: 2b8e19e4-459f-45f0-abb6-e1e0e115e0f5
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],Clone method, IEnumCERTVIEWEXTENSION.Clone, IEnumCERTVIEWEXTENSION::Clone, _certsrv_ienumcertviewextension_clone, certview/IEnumCERTVIEWEXTENSION::Clone, security.ienumcertviewextension_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa386203(v=VS.85).aspx">Clone</a> method creates a copy of the extension-enumeration sequence.
+The <a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f-aa9e-97ba052b1b34">Clone</a> method creates a copy of the extension-enumeration sequence.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Aa386203(v=VS.85).aspx">Cl
 
 ### -param ppenum [out]
 
-A pointer to a pointer of <a href="https://msdn.microsoft.com/en-us/library/Aa386203(v=VS.85).aspx">IEnumCERTVIEWEXTENSION</a> type. This method will fail if the <i>ppenum</i> parameter is <b>NULL</b>.
+A pointer to a pointer of <a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f-aa9e-97ba052b1b34">IEnumCERTVIEWEXTENSION</a> type. This method will fail if the <i>ppenum</i> parameter is <b>NULL</b>.
 
 
 ## -returns
@@ -71,7 +71,7 @@ A pointer to a pointer of <a href="https://msdn.microsoft.com/en-us/library/Aa38
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a cloned extension-enumeration sequence object.
@@ -83,18 +83,22 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-The extension-enumeration sequence object is obtained by a call to the <a href="https://msdn.microsoft.com/en-us/library/Aa386242(v=VS.85).aspx">IEnumCERTVIEWROW::EnumCertViewExtension</a> method.
+The extension-enumeration sequence object is obtained by a call to the <a href="https://msdn.microsoft.com/41028000-fa87-4ad0-93fc-314c5d3870f9">IEnumCERTVIEWROW::EnumCertViewExtension</a> method.
 
 
 #### Examples
 
-
-```cpp
-IEnumCERTVIEWEXTENSION * pEnumExt2 = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IEnumCERTVIEWEXTENSION * pEnumExt2 = NULL;
 HRESULT                  hr;
 
 // pEnumExt is previously instantiated IEnumCERTVIEWEXTENSION object
-hr = pEnumExt->Clone(&pEnumExt2);
+hr = pEnumExt-&gt;Clone(&amp;pEnumExt2);
 if (S_OK != hr)
     printf("Unable to clone IEnumCERTVIEWEXTENSION\n");
 else
@@ -104,10 +108,10 @@ else
 }
 // done using cloned object, free memory
 if (NULL != pEnumExt2)
-    pEnumExt2->Release();
-```
-
-
+    pEnumExt2-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -116,7 +120,7 @@ if (NULL != pEnumExt2)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386203(v=VS.85).aspx">IEnumCERTVIEWEXTENSION</a>
+<a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f-aa9e-97ba052b1b34">IEnumCERTVIEWEXTENSION</a>
  
 
  

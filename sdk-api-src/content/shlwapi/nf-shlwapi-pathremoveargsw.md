@@ -7,7 +7,7 @@ old-location: shell\PathRemoveArgs.htm
 tech.root: shell
 ms.assetid: 430072bc-4ddc-4b3d-bf32-fb60d7b56faf
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: PathRemoveArgs, PathRemoveArgs function [Windows Shell], PathRemoveArgsA, PathRemoveArgsW, _win32_PathRemoveArgs, shell.PathRemoveArgs, shlwapi/PathRemoveArgs, shlwapi/PathRemoveArgsA, shlwapi/PathRemoveArgsW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,10 +87,14 @@ This function should not be used on generic command path templates (from users o
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <iostream.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;iostream.h&gt;
 #include "Shlwapi.h"
 
 void main( void )
@@ -101,21 +105,21 @@ void main( void )
     lpStr1 = buffer_1;
     
     // Path before "PathRemoveArgs".
-    cout << "Path before calling \"PathRemoveArgs\": " << lpStr1 << endl;
+    cout &lt;&lt; "Path before calling \"PathRemoveArgs\": " &lt;&lt; lpStr1 &lt;&lt; endl;
     
     // Call function "PathRemoveArgs".
     PathRemoveArgs(lpStr1);
     
     // Path after "PathRemoveArgs".
-    cout << "Path after calling \"PathRemoveArgs\": " << lpStr1 << endl;
+    cout &lt;&lt; "Path after calling \"PathRemoveArgs\": " &lt;&lt; lpStr1 &lt;&lt; endl;
 }
 
 OUTPUT:
 ==================
 Path before calling "PathRemoveArgs": c:\a\b\FileA Arg1 Arg2
-Path after calling "PathRemoveArgs": c:\a\b\FileA
-```
-
-
+Path after calling "PathRemoveArgs": c:\a\b\FileA</pre>
+</td>
+</tr>
+</table></span></div>
 
 

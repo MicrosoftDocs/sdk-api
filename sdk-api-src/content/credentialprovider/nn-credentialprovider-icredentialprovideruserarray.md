@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUserArray.htm
 tech.root: shell
 ms.assetid: 50FC43C1-B148-4e42-AB38-3559BD056855
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: ICredentialProviderUserArray, ICredentialProviderUserArray interface [Windows Shell], ICredentialProviderUserArray interface [Windows Shell],described, credentialprovider/ICredentialProviderUserArray, shell.ICredentialProviderUserArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,9 +55,9 @@ Represents the set of users that will appear in the logon or credential UI. This
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderUserArray</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICredentialProviderUserArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderUserArray</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICredentialProviderUserArray</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ICredentialProviderUserArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh706924(v=VS.85).aspx">GetAccountOptions</a>
+<a href="https://msdn.microsoft.com/A274F799-FB0C-40a7-AB9E-9525F6079C9A">GetAccountOptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates whether the "Other user" tile for local or Microsoft accounts is shown in the logon or credential UI. This information can be used by a credential provider to show the same behavior as the password or Microsoft account provider.
@@ -79,7 +79,7 @@ Retrieves a value that indicates whether the "Other user" tile for local or Micr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh706925(v=VS.85).aspx">GetAt</a>
+<a href="https://msdn.microsoft.com/E768CC54-4392-4d5f-BB90-4AA91E5D8B00">GetAt</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified user from the array.
@@ -88,16 +88,16 @@ Retrieves a specified user from the array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh706926(v=VS.85).aspx">GetCount</a>
+<a href="https://msdn.microsoft.com/524A9FA1-5106-42d2-A4B6-5D3B83E3A6BA">GetCount</a>
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Hh706922(v=VS.85).aspx">ICredentialProviderUser</a> objects in the user array.
+Retrieves the number of <a href="https://msdn.microsoft.com/8EE5FA54-E20E-4d24-AD73-2AE1F0090950">ICredentialProviderUser</a> objects in the user array.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh706927(v=VS.85).aspx">SetProviderFilter</a>
+<a href="https://msdn.microsoft.com/86FC48BF-FEEA-40c4-91CA-21FFAC210CFA">SetProviderFilter</a>
 </td>
 <td align="left" width="63%">
 Limits the set of users in the array to either local accounts or Microsoft accounts.
@@ -111,7 +111,7 @@ Limits the set of users in the array to either local accounts or Microsoft accou
 
 
 
-This object is provided by the Windows credential provider framework to your credential provider through the <a href="https://msdn.microsoft.com/en-us/library/Hh706921(v=VS.85).aspx">ICredentialProviderSetUserArray::SetUserArray</a> method. Ownership of this object remains with the credential provider framework.
+This object is provided by the Windows credential provider framework to your credential provider through the <a href="https://msdn.microsoft.com/14A9DFBD-7B44-4983-8B02-5880017B9B04">ICredentialProviderSetUserArray::SetUserArray</a> method. Ownership of this object remains with the credential provider framework.
 
 <h3><a id="When_to_implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to implement</h3>
 Third-parties do not implement this interface. An implementation is included with Windows.
@@ -121,37 +121,41 @@ Third-parties do not implement this interface. An implementation is included wit
 
 The following example demonstrates a scenario that uses some of the methods of this interface. The <code>pcpua</code> variable represents a previously declared <b>ICredentialProviderUserArray</b> object.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 DWORD dwCount = 0;
 
-HRESULT hr = pcpua->GetCount(&dwCount);
+HRESULT hr = pcpua-&gt;GetCount(&amp;dwCount);
 
 if (SUCCEEDED(hr))
 {
-    for (DWORD i = 0; i < dwCount; i++)
+    for (DWORD i = 0; i &lt; dwCount; i++)
     {
         ICredentialProviderUser *pcpu = NULL;
-        hr = pcpua->GetAt(i, &pcpu);
+        hr = pcpua-&gt;GetAt(i, &amp;pcpu);
 
         if (SUCCEEDED(hr))
         {
             PWSTR pszName = NULL;
-            hr = pcpu->GetStringValue(PKEY_Identity_UserName, &pszName);
+            hr = pcpu-&gt;GetStringValue(PKEY_Identity_UserName, &amp;pszName);
 
             if (SUCCEEDED(hr))
             {
                 // Do something with the string
                 CoTaskMemFree(pszName);
             }
-            pcpu->Release();
+            pcpu-&gt;Release();
         }
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -164,15 +168,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706920(v=VS.85).aspx">ICredentialProviderSetUserArray</a>
+<a href="https://msdn.microsoft.com/85422EF5-8A8E-4e14-BD32-953C31A9D401">ICredentialProviderSetUserArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706922(v=VS.85).aspx">ICredentialProviderUser</a>
+<a href="https://msdn.microsoft.com/8EE5FA54-E20E-4d24-AD73-2AE1F0090950">ICredentialProviderUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
  
 
  

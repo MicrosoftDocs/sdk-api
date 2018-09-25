@@ -146,7 +146,7 @@ Pointer to the caller's implementation of
 <b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. Windows Management Instrumentation (WMI) calls 
 <a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> with the objects any number of times, followed by a single call to <a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> to indicate the final status.
 
-WMI only calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> to the pointer when <b>WBEM_S_NO_ERROR</b> returns. When an error code returns, the reference count is the same as on entry. For a detailed explanation of asynchronous calling methods, see 
+WMI only calls <a href="_com_iunknown_addref">AddRef</a> to the pointer when <b>WBEM_S_NO_ERROR</b> returns. When an error code returns, the reference count is the same as on entry. For a detailed explanation of asynchronous calling methods, see 
 <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
 
 
@@ -193,9 +193,13 @@ Because the call-back might not be returned at the same authentication level as 
 
 For more information, see <a href="https://msdn.microsoft.com/8cb4a42b-f8ae-4a6f-884c-fa808b11dc8a">IWbemServices::ExecQuery</a> and <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
 
-
-```cpp
-HRESULT CStdProvider::ExecQueryAsync( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CStdProvider::ExecQueryAsync( 
             /* [in] */ BSTR strQueryLanguage,
             /* [in] */ BSTR strQuery,
             /* [in] */ long lFlags,
@@ -212,7 +216,7 @@ HRESULT CStdProvider::ExecQueryAsync(
 // Assume there is an IWbemServices pointer (m_pSvc) available to 
 // retrieve the class definition.
     
-    HRESULT hRes = m_pSvc->GetObject(L"ClassName", 0, NULL, &pClass, 0);
+    HRESULT hRes = m_pSvc-&gt;GetObject(L"ClassName", 0, NULL, &amp;pClass, 0);
     if (FAILED(hRes))
         return hRes;
 
@@ -222,58 +226,66 @@ HRESULT CStdProvider::ExecQueryAsync(
 
 // Now loop through the private source and create each   
 // instance which is part of the result set of the query.
-    for (int iCnt = 0 ; iCnt < iNumInst ; iCnt++)
+    for (int iCnt = 0 ; iCnt &lt; iNumInst ; iCnt++)
     {
 // Prepare an empty object to receive the class definition.
          IWbemClassObject *pNextInst = 0;
-         hRes = pClass->SpawnInstance(0, &pNextInst);
+         hRes = pClass-&gt;SpawnInstance(0, &amp;pNextInst);
 
 // Create the instance.
 //   You must implement FillInst().
          /*FillInst(pNextInst, iCnt);*/ 
 
 // Deliver the class to WMI.
-         pResponseHandler->Indicate(1, &pNextInst);
-         pNextInst->Release( );
+         pResponseHandler-&gt;Indicate(1, &amp;pNextInst);
+         pNextInst-&gt;Release( );
     }
 
 // Clean up memory
-    pClass->Release();
+    pClass-&gt;Release();
   
 // Send finish message to WMI.
 
-    pResponseHandler->SetStatus(0, hRes, 0, 0);
+    pResponseHandler-&gt;SetStatus(0, hRes, 0, 0);
 
     return hRes;
-}
-```
-
-
-In the previous example, the instance provider acquires a thread from WMI to perform the necessary synching operations. You can call the sink <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on how long the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
+}</pre>
+</td>
+</tr>
+</table></span></div>
+In the previous example, the instance provider acquires a thread from WMI to perform the necessary synching operations. You can call the sink <a href="_com_iunknown_addref">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on how long the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
 
 <div class="alert"><b>Note</b>  When providers implement 
 <b>ExecQueryAsync</b>, they are expected by default to return the correct result set based on the query. If a provider cannot return the correct result set easily, it may return a superset of the results and request that WMI do post-filtering before delivering the objects to the client to ensure that the result set is correct. To do this, the provider calls 
 <a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> on the sink provided to its 
 <b>ExecQueryAsync</b> implementation, with the following flags.</div>
 <div> </div>
-
-```cpp
-// The pSink variable is of type IWbemObjectSink*
-pSink->SetStatus(WBEM_STATUS_REQUIREMENTS,
-    WBEM_REQUIREMENTS_START_POSTFILTER, 0, 0);
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The pSink variable is of type IWbemObjectSink*
+pSink-&gt;SetStatus(WBEM_STATUS_REQUIREMENTS,
+    WBEM_REQUIREMENTS_START_POSTFILTER, 0, 0);</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  Any objects subsequently sent to the WMI service are filtered. The provider can turn off post-filtering in mid-stream by using the following call.</div>
 <div> </div>
-
-```cpp
-// The pSink variable is of type IWbemObjectSink*
-pSink->SetStatus(WBEM_STATUS_REQUIREMENTS, 
-    WBEM_REQUIREMENTS_STOP_POSTFILTER, 0, 0);
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The pSink variable is of type IWbemObjectSink*
+pSink-&gt;SetStatus(WBEM_STATUS_REQUIREMENTS, 
+    WBEM_REQUIREMENTS_STOP_POSTFILTER, 0, 0);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

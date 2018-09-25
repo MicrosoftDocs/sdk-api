@@ -7,7 +7,7 @@ old-location: shell\SHAddFolderPathToLibrary.htm
 tech.root: shell
 ms.assetid: 308e7905-dfa1-438f-9e7e-f895517e7adb
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: SHAddFolderPathToLibrary, SHAddFolderPathToLibrary function [Windows Shell], _shell_SHAddFolderPathToLibrary, shell.SHAddFolderPathToLibrary, shobjidl_core/SHAddFolderPathToLibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices

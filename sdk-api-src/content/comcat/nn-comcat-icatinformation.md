@@ -7,7 +7,7 @@ old-location: com\icatinformation.htm
 tech.root: com
 ms.assetid: 1fd68126-b512-4131-8e93-cea7c1c3e9c0
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: ICatInformation, ICatInformation interface [COM], ICatInformation interface [COM],described, _com_icatinformation, com.icatinformation, comcat/ICatInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,9 @@ Obtains information about the categories implemented or required by a certain cl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatInformation</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICatInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatInformation</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>ICatInformation</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ICatInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms693458(v=VS.85).aspx">EnumCategories</a>
+<a href="https://msdn.microsoft.com/d8e744f0-6e50-4260-89df-e2cc59937398">EnumCategories</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the component categories registered on the system.
@@ -80,7 +80,7 @@ Retrieves an enumerator for the component categories registered on the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679677(v=VS.85).aspx">EnumClassesOfCategories</a>
+<a href="https://msdn.microsoft.com/13d470ff-77e6-4a17-b2c9-c53676e21fba">EnumClassesOfCategories</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the classes that implement one or more specified category identifiers.
@@ -89,7 +89,7 @@ Retrieves an enumerator for the classes that implement one or more specified cat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687278(v=VS.85).aspx">EnumImplCategoriesOfClass</a>
+<a href="https://msdn.microsoft.com/82d938b0-c05d-4bd9-b33f-c7944ed1399b">EnumImplCategoriesOfClass</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the CATIDs implemented by the specified class.
@@ -98,7 +98,7 @@ Retrieves an enumerator for the CATIDs implemented by the specified class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679728(v=VS.85).aspx">EnumReqCategoriesOfClass</a>
+<a href="https://msdn.microsoft.com/1bde9359-6d0e-4d8f-9c9b-ceabaf2da61f">EnumReqCategoriesOfClass</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the CATIDs required by the specified class.
@@ -107,7 +107,7 @@ Retrieves an enumerator for the CATIDs required by the specified class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684042(v=VS.85).aspx">GetCategoryDesc</a>
+<a href="https://msdn.microsoft.com/66f004c2-2616-441e-8bb7-f56eb062bb35">GetCategoryDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves the localized description string for a specific category ID.
@@ -116,7 +116,7 @@ Retrieves the localized description string for a specific category ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686642(v=VS.85).aspx">IsClassOfCategories</a>
+<a href="https://msdn.microsoft.com/772d4d75-2076-4922-bf47-2e6e41a5687d">IsClassOfCategories</a>
 </td>
 <td align="left" width="63%">
 Determines whether a class implements one or more categories.
@@ -131,7 +131,7 @@ Determines whether a class implements one or more categories.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680737(v=VS.85).aspx">ICatRegister</a>
+<a href="https://msdn.microsoft.com/3f4f9beb-51db-407f-91ea-6e32ff5796ce">ICatRegister</a>
  
 
  

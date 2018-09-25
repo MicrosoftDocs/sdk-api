@@ -7,7 +7,7 @@ old-location: wua\iupdatecollection_copy.htm
 tech.root: wua_sdk
 ms.assetid: 78a024a4-7aab-4bcb-bd3f-a79ef5580e1b
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: Copy, Copy method [Windows Update Agent], Copy method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Copy method, IUpdateCollection.Copy, IUpdateCollection::Copy, wua.iupdatecollection_copy, wuapi/IUpdateCollection::Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices

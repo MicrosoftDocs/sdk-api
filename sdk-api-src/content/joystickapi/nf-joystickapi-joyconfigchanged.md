@@ -7,7 +7,7 @@ old-location: multimedia\joyconfigchanged.htm
 tech.root: Multimedia
 ms.assetid: 3cdc7888-2d66-4fb9-abad-86e891f4ebe4
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: "_win32_joyConfigChanged, joyConfigChanged, joyConfigChanged function [Windows Multimedia], joystickapi/joyConfigChanged, multimedia.joyconfigchanged"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,14 +83,18 @@ Returns JOYERR_NOERROR if successful. Returns JOYERR_PARMS if the parameter is n
 
 This function causes a window message to be sent to all top-level windows. This message may be defined by applications that need to respond to changes in joystick calibration by using <b>RegisterWindowMessage</b> with the following message ID:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define JOY_CONFIGCHANGED_MSGSTRING     "MSJSTICK_VJOYD_MSGSTR"
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

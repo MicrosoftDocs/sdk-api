@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetdeviceid.htm
 tech.root: Multimedia
 ms.assetid: 07477a6a-fe75-47b6-9771-c3a649523e2a
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: MCIWndGetDeviceID, MCIWndGetDeviceID macro [Windows Multimedia], _win32_MCIWndGetDeviceID, multimedia.mciwndgetdeviceid, vfw/MCIWndGetDeviceID
 ms.prod: windows-hardware
 ms.technology: windows-devices

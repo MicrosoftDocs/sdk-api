@@ -7,7 +7,7 @@ old-location: security\cryptprotectdata.htm
 tech.root: seccrypto
 ms.assetid: 765a68fd-f105-49fc-a738-4a8129eb0770
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: CRYPTPROTECT_AUDIT, CRYPTPROTECT_LOCAL_MACHINE, CRYPTPROTECT_UI_FORBIDDEN, CryptProtectData, CryptProtectData function [Security], _crypto2_cryptprotectdata, dpapi/CryptProtectData, security.cryptprotectdata, wincrypt/CryptProtectData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -170,9 +170,13 @@ To encrypt memory for temporary use in the same process or across processes, cal
 The following example shows encryption of the data in a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">DATA_BLOB</a> structure. The <b>CryptProtectData</b> function does the encryption by using a session key that the function creates by using the user's logon credentials. For another example that uses this function, see 
 <a href="https://msdn.microsoft.com/51607aad-9fa8-4db6-bd2a-3821dce619e7">Example C Program: Using CryptProtectData</a>.
 
-
-```cpp
-// Encrypt data from DATA_BLOB DataIn to DATA_BLOB DataOut.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Encrypt data from DATA_BLOB DataIn to DATA_BLOB DataOut.
 
 //--------------------------------------------------------------------
 // Declare and initialize variables.
@@ -193,7 +197,7 @@ DataIn.cbData = cbDataInput;
 //  by the function and is not passed.
 
 if(CryptProtectData(
-     &DataIn,
+     &amp;DataIn,
      L"This is the description string.", // A description string
                                          // to be included with the
                                          // encrypted data. 
@@ -202,7 +206,7 @@ if(CryptProtectData(
      NULL,                               // Pass NULL for the 
                                          // prompt structure.
      0,
-     &DataOut))
+     &amp;DataOut))
 {
      printf("The encryption phase worked.\n");
 }
@@ -210,10 +214,10 @@ else
 {
     printf("Encryption error using CryptProtectData.\n");
     exit(1); 
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -230,7 +234,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Encryption and Decryption Functions</a>
+<a href="cryptography_functions.htm">Data Encryption and Decryption Functions</a>
 
 
 

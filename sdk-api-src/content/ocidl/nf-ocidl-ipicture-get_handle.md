@@ -7,7 +7,7 @@ old-location: com\ipicture_get_handle.htm
 tech.root: com
 ms.assetid: 196b911b-a685-44d5-a772-a71767f957f5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: IPicture interface [COM],get_Handle method, IPicture.get_Handle, IPicture::get_Handle, _ctrl_ipicture_get_handle, com.ipicture_get_handle, get_Handle, get_Handle method [COM], get_Handle method [COM],IPicture interface, ocidl/IPicture::get_Handle
 ms.prod: windows-hardware
 ms.technology: windows-devices

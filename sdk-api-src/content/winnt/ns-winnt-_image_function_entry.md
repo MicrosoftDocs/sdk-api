@@ -79,19 +79,23 @@ The image address of the end of the prologue code.
 
 The following definition exists for 64-bit support.
 
-
-```cpp
-typedef struct _IMAGE_FUNCTION_ENTRY64 {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _IMAGE_FUNCTION_ENTRY64 {
     ULONGLONG   StartingAddress;
     ULONGLONG   EndingAddress;
     union {
         ULONGLONG   EndOfPrologue;
         ULONGLONG   UnwindInfoAddress;
     };
-} IMAGE_FUNCTION_ENTRY64, *PIMAGE_FUNCTION_ENTRY64;
-```
-
-
+} IMAGE_FUNCTION_ENTRY64, *PIMAGE_FUNCTION_ENTRY64;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

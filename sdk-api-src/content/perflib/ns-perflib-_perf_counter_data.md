@@ -7,7 +7,7 @@ old-location: perf\perf_counter_data.htm
 tech.root: perfctrs
 ms.assetid: 19D65E98-182E-45CC-946F-F1924CB78029
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: "*PPERF_COUNTER_DATA, PERF_COUNTER_DATA, PERF_COUNTER_DATA structure [Perf], PPERF_COUNTER_DATA, PPERF_COUNTER_DATA structure pointer [Perf], _PERF_COUNTER_DATA, perf.perf_counter_data, perflib/PERF_COUNTER_DATA, perflib/PPERF_COUNTER_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

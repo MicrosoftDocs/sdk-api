@@ -7,7 +7,7 @@ old-location: wua\iupdatecollection_insert.htm
 tech.root: wua_sdk
 ms.assetid: 165f251e-9171-4464-8608-8f365b6598b3
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],Insert method, IUpdateCollection.Insert, IUpdateCollection::Insert, Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent],IUpdateCollection interface, wua.iupdatecollection_insert, wuapi/IUpdateCollection::Insert
 ms.prod: windows-hardware
 ms.technology: windows-devices

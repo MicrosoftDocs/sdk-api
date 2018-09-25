@@ -7,7 +7,7 @@ old-location: shell\AssocQueryString.htm
 tech.root: shell
 ms.assetid: 026b841d-b831-475e-a788-2c79801e20b8
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: AssocQueryString, AssocQueryString function [Windows Shell], AssocQueryStringA, AssocQueryStringW, CLSID, Executable name, File name extension, ProgID, _win32_AssocQueryString, shell.AssocQueryString, shlwapi/AssocQueryString, shlwapi/AssocQueryStringA, shlwapi/AssocQueryStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices

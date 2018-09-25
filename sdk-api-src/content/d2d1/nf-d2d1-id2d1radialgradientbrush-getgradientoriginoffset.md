@@ -4,10 +4,10 @@ title: ID2D1RadialGradientBrush::GetGradientOriginOffset
 author: windows-sdk-content
 description: Retrieves the offset of the gradient origin relative to the gradient ellipse's center.
 old-location: direct2d\ID2D1RadialGradientBrush_GetGradientOriginOffset.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 535041d0-bb68-41cc-ab43-cb03fb1907a7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: GetGradientOriginOffset, GetGradientOriginOffset method [Direct2D], GetGradientOriginOffset method [Direct2D],ID2D1RadialGradientBrush interface, ID2D1RadialGradientBrush interface [Direct2D],GetGradientOriginOffset method, ID2D1RadialGradientBrush.GetGradientOriginOffset, ID2D1RadialGradientBrush::GetGradientOriginOffset, d2d1/ID2D1RadialGradientBrush::GetGradientOriginOffset, direct2d.ID2D1RadialGradientBrush_GetGradientOriginOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

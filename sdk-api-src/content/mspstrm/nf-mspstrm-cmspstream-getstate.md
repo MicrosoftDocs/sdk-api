@@ -4,10 +4,10 @@ title: CMSPStream::GetState
 author: windows-sdk-content
 description: The GetState method is called by the MSPCall object. It returns the current status of the stream. The default implementation returns E_NOTIMPL.
 old-location: tapi3\cmspstream_getstate.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 03fc3801-8bd4-432a-b0ca-f6506bd8c788
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],GetState method, CMSPStream.GetState, CMSPStream::GetState, GetState, GetState method [TAPI 2.2], GetState method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_getstate, mspstrm/CMSPStream::GetState, tapi3.cmspstream_getstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

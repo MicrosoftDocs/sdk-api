@@ -7,7 +7,7 @@ old-location: com\icancelmethodcalls_cancel.htm
 tech.root: com
 ms.assetid: 3c3fdcec-10f1-4fbf-af93-582e7390decf
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: Cancel, Cancel method [COM], Cancel method [COM],ICancelMethodCalls interface, ICancelMethodCalls interface [COM],Cancel method, ICancelMethodCalls.Cancel, ICancelMethodCalls::Cancel, _com_icancelmethodcalls_cancel, com.icancelmethodcalls_cancel, objidlbase/ICancelMethodCalls::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextPattern.htm
 tech.root: WinAuto
 ms.assetid: ddcf7ecd-7ed2-4b57-82a7-c7e1608dbfa1
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IUIAutomationTextPattern, IUIAutomationTextPattern interface [Windows Accessibility], IUIAutomationTextPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTextPattern, uiauto_IUIAutomationTextPattern, uiautomationclient/IUIAutomationTextPattern, winauto.uiauto_IUIAutomationTextPattern
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ID2D1TransformedImageSource
 author: windows-sdk-content
 description: Represents an image source which shares resources with an original image source.
 old-location: direct2d\id2d1transformedimagesource.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 5645429B-110E-4AEC-9A2E-87D0942FA993
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ID2D1TransformedImageSource, ID2D1TransformedImageSource interface [Direct2D], ID2D1TransformedImageSource interface [Direct2D],described, d2d1_3/ID2D1TransformedImageSource, direct2d.id2d1transformedimagesource
 ms.prod: windows
 ms.technology: windows-sdk

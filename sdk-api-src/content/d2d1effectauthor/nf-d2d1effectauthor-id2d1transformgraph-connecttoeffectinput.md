@@ -4,10 +4,10 @@ title: ID2D1TransformGraph::ConnectToEffectInput
 author: windows-sdk-content
 description: Connects a transform node inside the graph to the corresponding effect input of the encapsulating effect.
 old-location: direct2d\id2d1transformgraph_connecttoeffectinput.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 5190B887-4F3C-4304-A582-77585B438317
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ConnectToEffectInput, ConnectToEffectInput method [Direct2D], ConnectToEffectInput method [Direct2D],ID2D1TransformGraph interface, ID2D1TransformGraph interface [Direct2D],ConnectToEffectInput method, ID2D1TransformGraph.ConnectToEffectInput, ID2D1TransformGraph::ConnectToEffectInput, d2d1effectauthor/ID2D1TransformGraph::ConnectToEffectInput, direct2d.id2d1transformgraph_connecttoeffectinput
 ms.prod: windows-hardware
 ms.technology: windows-devices

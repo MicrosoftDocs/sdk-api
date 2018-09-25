@@ -7,7 +7,7 @@ old-location: security\cert_selectui_input.htm
 tech.root: seccrypto
 ms.assetid: 8953cddd-86b6-4781-8dca-b5fd3d298bc8
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCERT_SELECTUI_INPUT, CERT_SELECTUI_INPUT, CERT_SELECTUI_INPUT structure [Security], PCERT_SELECTUI_INPUT, PCERT_SELECTUI_INPUT structure pointer [Security], cryptuiapi/CERT_SELECTUI_INPUT, cryptuiapi/PCERT_SELECTUI_INPUT, security.cert_selectui_input"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CERT_SELECTUI_INPUT</b> structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Ff394769(v=VS.85).aspx">CertSelectionGetSerializedBlob</a> function to serialize the certificates contained in a store or an array of certificate chains. The returned serialized <a href="https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx">BLOB</a> can be passed to the <a href="https://msdn.microsoft.com/en-us/library/Aa375178(v=VS.85).aspx">CredUIPromptForWindowsCredentials</a> function.
+The <b>CERT_SELECTUI_INPUT</b> structure is used by the <a href="https://msdn.microsoft.com/6c3240f7-5121-401d-a4d4-df3055cb301a">CertSelectionGetSerializedBlob</a> function to serialize the certificates contained in a store or an array of certificate chains. The returned serialized <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> can be passed to the <a href="https://msdn.microsoft.com/946ac279-d30a-4a6c-a76d-d93597121427">CredUIPromptForWindowsCredentials</a> function.
 
 
 ## -struct-fields
@@ -65,10 +65,10 @@ The  handle of a certificate store created by the caller. The store contains the
 
 ### -field prgpChain
 
-An array of pointers to <a href="https://msdn.microsoft.com/en-us/library/Aa377182(v=VS.85).aspx">CERT_CHAIN_CONTEXT</a> structures. Applications provision this array by preselecting certificate chains using the <a href="https://msdn.microsoft.com/en-us/library/Dd433797(v=VS.85).aspx">CertSelectCertificateChains</a> function.
+An array of pointers to <a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CERT_CHAIN_CONTEXT</a> structures. Applications provision this array by preselecting certificate chains using the <a href="https://msdn.microsoft.com/b740772b-d25b-4b3d-9acb-03f7018750d6">CertSelectCertificateChains</a> function.
 
 
 ### -field cChain
 
-The number of <a href="https://msdn.microsoft.com/en-us/library/Aa377182(v=VS.85).aspx">CERT_CHAIN_CONTEXT</a> structures that are in the array pointed to by the <b>prgpChain</b> member.
+The number of <a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CERT_CHAIN_CONTEXT</a> structures that are in the array pointed to by the <b>prgpChain</b> member.
 

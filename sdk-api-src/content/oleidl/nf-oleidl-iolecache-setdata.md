@@ -7,7 +7,7 @@ old-location: com\iolecache_setdata.htm
 tech.root: com
 ms.assetid: b826411d-6e00-44ba-8603-85db40c4a55f
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: IOleCache interface [COM],SetData method, IOleCache.SetData, IOleCache::SetData, SetData, SetData method [COM], SetData method [COM],IOleCache interface, _ole_iolecache_setdata, com.iolecache_setdata, oleidl/IOleCache::SetData
 ms.prod: windows-hardware
 ms.technology: windows-devices

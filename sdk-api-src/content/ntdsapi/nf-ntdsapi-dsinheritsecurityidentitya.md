@@ -7,7 +7,7 @@ old-location: ad\dsinheritsecurityidentity.htm
 tech.root: ad
 ms.assetid: ea467069-f886-4e22-896c-16e6e01f3968
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/21/2018
 ms.keywords: DsInheritSecurityIdentity, DsInheritSecurityIdentity function [Active Directory], DsInheritSecurityIdentityA, DsInheritSecurityIdentityW, _glines_dsinheritsecurityidentity, ad.dsinheritsecurityidentity, ntdsapi/DsInheritSecurityIdentity, ntdsapi/DsInheritSecurityIdentityA, ntdsapi/DsInheritSecurityIdentityW
 ms.prod: windows-hardware
 ms.technology: windows-devices

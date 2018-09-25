@@ -7,7 +7,7 @@ old-location: ad\idsdisplayspecifier_isclasscontainer.htm
 tech.root: ad
 ms.assetid: 1717200a-353b-413e-97a2-0742a95056d8
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/21/2018
 ms.keywords: DSICCF_IGNORETREATASLEAF, IDsDisplaySpecifier interface [Active Directory],IsClassContainer method, IDsDisplaySpecifier.IsClassContainer, IDsDisplaySpecifier::IsClassContainer, IsClassContainer, IsClassContainer method [Active Directory], IsClassContainer method [Active Directory],IDsDisplaySpecifier interface, _glines_idsdisplayspecifier_isclasscontainer, ad.idsdisplayspecifier__isclasscontainer, ad.idsdisplayspecifier_isclasscontainer, dsclient/IDsDisplaySpecifier::IsClassContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\iupdate_language.htm
 tech.root: wua_sdk
 ms.assetid: 788942cc-5cfa-4ce3-bcf6-05c78a817ec8
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Languages property, IUpdate.Languages, IUpdate.get_Languages, IUpdate::Languages, IUpdate::get_Languages, Languages property [Windows Update Agent], Languages property [Windows Update Agent],IUpdate interface, get_Languages, wua.iupdate_language, wuapi/IUpdate::Languages, wuapi/IUpdate::get_Languages
 ms.prod: windows-hardware
 ms.technology: windows-devices

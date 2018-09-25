@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_delete.htm
 tech.root: Multimedia
 ms.assetid: 0872023e-a760-4080-99da-df2941b84611
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: Delete, Delete method [Windows Multimedia], Delete method [Windows Multimedia],IAVIStream interface, IAVIStream interface [Windows Multimedia],Delete method, IAVIStream.Delete, IAVIStream::Delete, _win32_IAVIStream_Delete, multimedia.iavistream_delete, vfw/IAVIStream::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,15 +92,19 @@ Returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>Delete</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Delete(LONG lStart, LONG lSamples); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

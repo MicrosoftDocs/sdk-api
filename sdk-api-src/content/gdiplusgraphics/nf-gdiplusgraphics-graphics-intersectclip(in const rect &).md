@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::IntersectClip</b> method updates the clipping region of this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object to the portion of the specified rectangle that intersects with the current clipping region of this 
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to the portion of the specified rectangle that intersects with the current clipping region of this 
 			<b>Graphics</b> object.
 
 
@@ -99,7 +99,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

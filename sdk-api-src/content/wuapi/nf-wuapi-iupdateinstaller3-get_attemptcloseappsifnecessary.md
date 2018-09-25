@@ -7,7 +7,7 @@ old-location: wua\iupdateinstaller3_get_attemptcloseappsifnecessary.htm
 tech.root: wua_sdk
 ms.assetid: ACC9EBDD-E050-41B7-82EF-186094750DCA
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdateInstaller3 interface [Windows Update Agent],get_AttemptCloseAppsIfNecessary method, IUpdateInstaller3.get_AttemptCloseAppsIfNecessary, IUpdateInstaller3::get_AttemptCloseAppsIfNecessary, get_AttemptCloseAppsIfNecessary, get_AttemptCloseAppsIfNecessary method [Windows Update Agent], get_AttemptCloseAppsIfNecessary method [Windows Update Agent],IUpdateInstaller3 interface, wua.iupdateinstaller3_get_attemptcloseappsifnecessary, wuapi/IUpdateInstaller3::get_AttemptCloseAppsIfNecessary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ Returns S_OK on success.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt829692(v=VS.85).aspx">IUpdateInstaller3</a>
+<a href="wua.iupdateinstaller3">IUpdateInstaller3</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\UnloadUserProfile.htm
 tech.root: shell
 ms.assetid: 7ecb8a3f-c041-4133-b23a-101de8884882
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: UnloadUserProfile, UnloadUserProfile function [Windows Shell], _shell_UnloadUserProfile, shell.UnloadUserProfile, userenv/UnloadUserProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

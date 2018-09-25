@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronize_gethandlerinfo.htm
 tech.root: shell
 ms.assetid: bae3ead8-632c-45bf-a24e-bf07922039bd
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: GetHandlerInfo, GetHandlerInfo method [Windows Shell], GetHandlerInfo method [Windows Shell],ISyncMgrSynchronize interface, ISyncMgrSynchronize interface [Windows Shell],GetHandlerInfo method, ISyncMgrSynchronize.GetHandlerInfo, ISyncMgrSynchronize::GetHandlerInfo, mobsync/ISyncMgrSynchronize::GetHandlerInfo, shell.syncmgr_isyncmgrsynchronize_gethandlerinfo, syncmgr.isyncmgrsynchronize_gethandlerinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

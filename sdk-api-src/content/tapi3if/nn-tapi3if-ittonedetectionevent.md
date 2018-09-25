@@ -4,10 +4,10 @@ title: ITToneDetectionEvent
 author: windows-sdk-content
 description: The ITToneDetectionEvent interface exposes methods that allow an application to retrieve information about a tone detection event.
 old-location: tapi3\ittonedetectionevent.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 1e0f71a2-1aae-46b7-9147-7bf9da4d9503
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ITToneDetectionEvent, ITToneDetectionEvent interface [TAPI 2.2], ITToneDetectionEvent interface [TAPI 2.2],described, _tapi3_ittonedetectionevent, tapi3.ittonedetectionevent, tapi3if/ITToneDetectionEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITToneDetectionEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITToneDetectionEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITToneDetectionEvent</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITToneDetectionEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

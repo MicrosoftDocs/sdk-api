@@ -73,11 +73,11 @@ Represents the status of a Distributed Network Name (DNN) resource for a Scale-O
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn622926(v=VS.85).aspx">CLUS_DNN_SODAFS_CLONE_STATUS</a>
+<a href="https://msdn.microsoft.com/3FD9AC64-3A7D-44C8-8066-AC1E7FB415DB">CLUS_DNN_SODAFS_CLONE_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data structures</a>
  
 
  

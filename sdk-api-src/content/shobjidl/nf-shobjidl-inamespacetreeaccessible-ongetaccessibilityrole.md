@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeAccessible_OnGetAccessibilityRole.htm
 tech.root: shell
 ms.assetid: 9de27a09-dc11-46a6-a233-696ccf35aa87
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: INameSpaceTreeAccessible interface [Windows Shell],OnGetAccessibilityRole method, INameSpaceTreeAccessible.OnGetAccessibilityRole, INameSpaceTreeAccessible::OnGetAccessibilityRole, OnGetAccessibilityRole, OnGetAccessibilityRole method [Windows Shell], OnGetAccessibilityRole method [Windows Shell],INameSpaceTreeAccessible interface, _shell_INameSpaceTreeAccessible_OnGetAccessibilityRole, shell.INameSpaceTreeAccessible_OnGetAccessibilityRole, shobjidl/INameSpaceTreeAccessible::OnGetAccessibilityRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ Pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736
 
 Type: <b>VARIANT*</b>
 
-When this method returns, contains a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> that specifies the role.
+When this method returns, contains a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> that specifies the role.
 
 
 ## -returns

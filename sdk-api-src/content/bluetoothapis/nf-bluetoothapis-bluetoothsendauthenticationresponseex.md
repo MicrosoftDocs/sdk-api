@@ -68,7 +68,7 @@ A handle of the Bluetooth radio device to specify local service information for.
 
 ### -param pauthResponse [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd392287(v=VS.85).aspx">BLUETOOTH_AUTHENTICATE_RESPONSE</a> structure containing the response to the <b>BTH_REMOTE_AUTHENTICATE_REQUEST</b> event.
+Pointer to a <a href="https://msdn.microsoft.com/fc7eda84-3e7b-49e9-a1a6-e1759c894e1a">BLUETOOTH_AUTHENTICATE_RESPONSE</a> structure containing the response to the <b>BTH_REMOTE_AUTHENTICATE_REQUEST</b> event.
 
 
 ## -returns
@@ -114,7 +114,7 @@ The device returned a failure code during authentication.
 
 
 
-Callers can only use this function to respond to a pending authentication request.  Applications should register with <a href="https://msdn.microsoft.com/en-us/library/Aa362883(v=VS.85).aspx">BluetoothRegisterForAuthenticationEx</a> in order to be notified of incoming authentication requests.  
+Callers can only use this function to respond to a pending authentication request.  Applications should register with <a href="https://msdn.microsoft.com/f85dd076-9062-413f-863f-9d3baba322ad">BluetoothRegisterForAuthenticationEx</a> in order to be notified of incoming authentication requests.  
 
 Only the <b>BLUETOOTH_AUTHENTICATION_METHOD_LEGACY</b>, <b>BLUETOOTH_AUTHENTICATION_METHOD_NUMERIC_COMPARISON</b> and <b>BLUETOOTH_AUTHENTICATION_METHOD_PASSKEY_NOTIFICATION</b> response types are valid.
 
@@ -126,7 +126,7 @@ Only the <b>BLUETOOTH_AUTHENTICATION_METHOD_LEGACY</b>, <b>BLUETOOTH_AUTHENTICAT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362893(v=VS.85).aspx">BluetoothSendAuthenticationResponse</a>
+<a href="https://msdn.microsoft.com/4483f04e-09a2-4bd4-879c-c3a263c685de">BluetoothSendAuthenticationResponse</a>
  
 
  

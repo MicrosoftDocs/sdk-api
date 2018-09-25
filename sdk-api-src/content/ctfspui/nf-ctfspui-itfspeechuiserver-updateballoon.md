@@ -59,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param style [in]
 
-Contains a <a href="https://msdn.microsoft.com/en-us/library/ms629054(v=VS.85).aspx">TfLBBalloonStyle</a> element that specifies the balloon style.
+Contains a <a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-821f3706446d">TfLBBalloonStyle</a> element that specifies the balloon style.
 
 
 ### -param pch [in]

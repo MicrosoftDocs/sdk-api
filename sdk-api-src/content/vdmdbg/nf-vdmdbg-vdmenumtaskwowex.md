@@ -7,7 +7,7 @@ old-location: winprog\vdmenumtaskwowex.htm
 tech.root: devnotes
 ms.assetid: c09c5d80-9de6-424b-bd57-bf6a450221e4
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: VDMEnumTaskWOWEx, VDMEnumTaskWOWEx function [Windows API], vdmdbg/VDMEnumTaskWOWEx, winprog.vdmenumtaskwowex
 ms.prod: windows-hardware
 ms.technology: windows-devices

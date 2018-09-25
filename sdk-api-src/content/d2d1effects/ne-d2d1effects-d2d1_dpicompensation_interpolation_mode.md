@@ -4,10 +4,10 @@ title: D2D1_DPICOMPENSATION_INTERPOLATION_MODE
 author: windows-sdk-content
 description: The interpolation mode the DPI compensation effect uses to scale the image.
 old-location: direct2d\d2d1_dpicompensation_interpolation_mode.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: D47BE47D-09E3-46A5-8D89-884102EDEA9A
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: D2D1_DPICOMPENSATION_INTERPOLATION_MODE, D2D1_DPICOMPENSATION_INTERPOLATION_MODE enumeration [Direct2D], D2D1_DPICOMPENSATION_INTERPOLATION_MODE_ANISOTROPIC, D2D1_DPICOMPENSATION_INTERPOLATION_MODE_CUBIC, D2D1_DPICOMPENSATION_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, D2D1_DPICOMPENSATION_INTERPOLATION_MODE_LINEAR, D2D1_DPICOMPENSATION_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, D2D1_DPICOMPENSATION_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_DPICOMPENSATION_INTERPOLATION_MODE, d2d1effects/D2D1_DPICOMPENSATION_INTERPOLATION_MODE_ANISOTROPIC, d2d1effects/D2D1_DPICOMPENSATION_INTERPOLATION_MODE_CUBIC, d2d1effects/D2D1_DPICOMPENSATION_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, d2d1effects/D2D1_DPICOMPENSATION_INTERPOLATION_MODE_LINEAR, d2d1effects/D2D1_DPICOMPENSATION_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, d2d1effects/D2D1_DPICOMPENSATION_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_dpicompensation_interpolation_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/en-us/library/Hh780341(v=VS.85).aspx">DPI compensation effect</a> uses to scale the image.
+The interpolation mode the <a href="https://msdn.microsoft.com/EA8AD89B-A710-468F-A6F3-474DA29586F1">DPI compensation effect</a> uses to scale the image.
         
 
 

@@ -7,7 +7,7 @@ old-location: ad\dsop_init_info.htm
 tech.root: ad
 ms.assetid: 6d070185-e0b6-4c24-9941-95bca2f33192
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/21/2018
 ms.keywords: "*PDSOP_INIT_INFO, DSOP_FLAG_MULTISELECT, DSOP_FLAG_SKIP_TARGET_COMPUTER_DC_CHECK, DSOP_INIT_INFO, DSOP_INIT_INFO structure [Active Directory], PDSOP_INIT_INFO, PDSOP_INIT_INFO structure pointer [Active Directory], _DSOP_INIT_INFO, _glines_dsop_init_info, ad.dsop__init__info, ad.dsop_init_info, objsel/DSOP_INIT_INFO, objsel/PDSOP_INIT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wua\downloadpriority.htm
 tech.root: wua_sdk
 ms.assetid: 6e70c513-861b-4a7f-a613-09ba2ef64bf1
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: DownloadPriority, DownloadPriority enumeration [Windows Update Agent], dpHigh, dpLow, dpNormal, tagDownloadPriority, wua.downloadpriority, wuapi/DownloadPriority, wuapi/dpHigh, wuapi/dpLow, wuapi/dpNormal
 ms.prod: windows
 ms.technology: windows-sdk

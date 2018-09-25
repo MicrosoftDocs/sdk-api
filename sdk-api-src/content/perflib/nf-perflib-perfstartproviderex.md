@@ -7,7 +7,7 @@ old-location: perf\perfstartproviderex.htm
 tech.root: perfctrs
 ms.assetid: 9f3aefbf-0836-46fc-8a53-858c3c94cef9
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: PerfStartProviderEx, PerfStartProviderEx function [Perf], perf.perfstartproviderex, perflib/PerfStartProviderEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

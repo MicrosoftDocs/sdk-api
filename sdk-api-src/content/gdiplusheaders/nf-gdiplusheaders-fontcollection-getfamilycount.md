@@ -84,12 +84,16 @@ A font family consists of a single font type with related styles. An example of 
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> object, gets the number of 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> objects contained within the collection, and outputs that number.
+The following example creates a <a href="https://msdn.microsoft.com/b53cc1cd-9dc8-4e93-9f92-7ebed7d034b6">PrivateFontCollection</a> object, gets the number of 
+						<a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a> objects contained within the collection, and outputs that number.
 
-
-```cpp
-VOID Example_GetFamilyCount(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetFamilyCount(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -108,11 +112,11 @@ VOID Example_GetFamilyCount(HDC hdc)
    WCHAR      string[256];
    swprintf_s(string, L"There are %i families in fontCollection.", numFamilies);
    graphics.DrawString(string,
-                       wcslen(string), &font, PointF(0, 0), &solidbrush);
-}
-```
-
-
+                       wcslen(string), &amp;font, PointF(0, 0), &amp;solidbrush);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -121,15 +125,15 @@ VOID Example_GetFamilyCount(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a>
+<a href="https://msdn.microsoft.com/5e1336ea-cb29-4fa4-85d5-077498a69cb2">FontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a>
+<a href="https://msdn.microsoft.com/b53cc1cd-9dc8-4e93-9f92-7ebed7d034b6">PrivateFontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
  
 
  

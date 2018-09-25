@@ -4,10 +4,10 @@ title: D2D1_BITMAPSOURCE_INTERPOLATION_MODE
 author: windows-sdk-content
 description: The interpolation mode used to scale the image in the Bitmap source effect.
 old-location: direct2d\d2d1_bitmapsource_interpolation_mode.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 2912E2FA-4B1D-43FF-9684-22C3B2720395
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: D2D1_BITMAPSOURCE_INTERPOLATION_MODE, D2D1_BITMAPSOURCE_INTERPOLATION_MODE enumeration [Direct2D], D2D1_BITMAPSOURCE_INTERPOLATION_MODE_CUBIC, D2D1_BITMAPSOURCE_INTERPOLATION_MODE_FANT, D2D1_BITMAPSOURCE_INTERPOLATION_MODE_LINEAR, D2D1_BITMAPSOURCE_INTERPOLATION_MODE_MIPMAP_LINEAR, D2D1_BITMAPSOURCE_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_BITMAPSOURCE_INTERPOLATION_MODE, d2d1effects/D2D1_BITMAPSOURCE_INTERPOLATION_MODE_CUBIC, d2d1effects/D2D1_BITMAPSOURCE_INTERPOLATION_MODE_FANT, d2d1effects/D2D1_BITMAPSOURCE_INTERPOLATION_MODE_LINEAR, d2d1effects/D2D1_BITMAPSOURCE_INTERPOLATION_MODE_MIPMAP_LINEAR, d2d1effects/D2D1_BITMAPSOURCE_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_bitmapsource_interpolation_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The interpolation mode used to scale the image in the <a href="https://msdn.microsoft.com/en-us/library/Hh706312(v=VS.85).aspx">Bitmap source effect</a>.If the mode disables the mipmap, then BitmapSouce will cache the image at the resolution determined by the Scale and EnableDPICorrection properties.
+The interpolation mode used to scale the image in the <a href="https://msdn.microsoft.com/86646111-208A-4E6D-A28C-7B23A1742D24">Bitmap source effect</a>.If the mode disables the mipmap, then BitmapSouce will cache the image at the resolution determined by the Scale and EnableDPICorrection properties.
       
 
 

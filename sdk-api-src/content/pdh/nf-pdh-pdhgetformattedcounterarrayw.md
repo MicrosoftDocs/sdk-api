@@ -7,7 +7,7 @@ old-location: perf\pdhgetformattedcounterarray.htm
 tech.root: perfctrs
 ms.assetid: 0f388c7e-d0c8-461d-908c-48af92166996
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhGetFormattedCounterArray, PdhGetFormattedCounterArray function [Perf], PdhGetFormattedCounterArrayA, PdhGetFormattedCounterArrayW, _win32_pdhgetformattedcounterarray, base.pdhgetformattedcounterarray, pdh/PdhGetFormattedCounterArray, pdh/PdhGetFormattedCounterArrayA, pdh/PdhGetFormattedCounterArrayW, perf.pdhgetformattedcounterarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -237,13 +237,17 @@ The data for the counter is locked for the duration of the call to
 
 The following example shows how to use this function.
 
-
-```cpp
-
-#include <windows.h>
-#include <stdio.h>
-#include <pdh.h>
-#include <pdhmsg.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;pdh.h&gt;
+#include &lt;pdhmsg.h&gt;
 
 #pragma comment(lib, "pdh.lib")
 
@@ -259,14 +263,14 @@ void main()
     DWORD dwItemCount = 0;          // Number of items in the pItems buffer
     PDH_FMT_COUNTERVALUE_ITEM *pItems = NULL;  // Array of PDH_FMT_COUNTERVALUE_ITEM structures
 
-    if (status = PdhOpenQuery(NULL, 0, &hQuery))
+    if (status = PdhOpenQuery(NULL, 0, &amp;hQuery))
     {
         wprintf(L"PdhOpenQuery failed with 0x%x.\n", status);
         goto cleanup;
     }
 
     // Specify a counter object with a wildcard for the instance.
-    if (status = PdhAddCounter(hQuery, COUNTER_PATH, 0, &hCounter))
+    if (status = PdhAddCounter(hQuery, COUNTER_PATH, 0, &amp;hCounter))
     {
         wprintf(L"PdhAddCounter failed with 0x%x.\n", status);
         goto cleanup;
@@ -280,7 +284,7 @@ void main()
         goto cleanup;
     }
 
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i &lt; 10; i++)
     {
         Sleep(SAMPLE_INTERVAL_MS);
 
@@ -291,17 +295,17 @@ void main()
         }
 
         // Get the required size of the pItems buffer.
-        status = PdhGetFormattedCounterArray(hCounter, PDH_FMT_DOUBLE, &dwBufferSize, &dwItemCount, pItems);
+        status = PdhGetFormattedCounterArray(hCounter, PDH_FMT_DOUBLE, &amp;dwBufferSize, &amp;dwItemCount, pItems);
         if (PDH_MORE_DATA == status)
         {
             pItems = (PDH_FMT_COUNTERVALUE_ITEM *) malloc(dwBufferSize);
             if (pItems)
             {
-                status = PdhGetFormattedCounterArray(hCounter, PDH_FMT_DOUBLE, &dwBufferSize, &dwItemCount, pItems);
+                status = PdhGetFormattedCounterArray(hCounter, PDH_FMT_DOUBLE, &amp;dwBufferSize, &amp;dwItemCount, pItems);
                 if (ERROR_SUCCESS == status)
                 {
                     // Loop through the array and print the instance name and counter value.
-                    for (DWORD i = 0; i < dwItemCount; i++)
+                    for (DWORD i = 0; i &lt; dwItemCount; i++)
                     {
                         wprintf(L"counter: %s, value %.20g\n", pItems[i].szName, pItems[i].FmtValue.doubleValue);
                     }
@@ -337,10 +341,10 @@ cleanup:
     if (hQuery)
         PdhCloseQuery(hQuery); // Closes all counter handles and the query handle
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -62,9 +62,7 @@ The
 
 
 
-
-
-#### - dwEventFlags [in]
+### -param dwEventFlags [in]
 
 A bit mask (or bitwise OR) of 
 <a href="https://msdn.microsoft.com/4aa3afe4-98da-4376-b795-75bf404aaed9">VSS_SUBSCRIBE_MASK</a> values indicating the events that VSS should notify the writer about. 

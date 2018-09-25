@@ -7,7 +7,7 @@ old-location: com\iaccesscontrol_setowner.htm
 tech.root: com
 ms.assetid: 92406043-f4a4-43e4-9b17-087066823ce4
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: IAccessControl interface [COM],SetOwner method, IAccessControl.SetOwner, IAccessControl::SetOwner, SetOwner, SetOwner method [COM], SetOwner method [COM],IAccessControl interface, _com_iaccesscontrol_setowner, com.iaccesscontrol_setowner, iaccess/IAccessControl::SetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices

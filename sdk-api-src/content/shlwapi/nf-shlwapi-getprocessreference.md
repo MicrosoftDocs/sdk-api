@@ -7,7 +7,7 @@ old-location: shell\GetProcessReference.htm
 tech.root: shell
 ms.assetid: C46468A6-684D-494c-8261-87F16485B97B
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: GetProcessReference, GetProcessReference function [Windows Shell], shell.GetProcessReference, shlwapi/GetProcessReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

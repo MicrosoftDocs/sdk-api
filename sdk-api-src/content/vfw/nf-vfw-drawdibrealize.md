@@ -7,7 +7,7 @@ old-location: multimedia\drawdibrealize.htm
 tech.root: Multimedia
 ms.assetid: 4723c8a4-36af-4543-b6df-d51f68a3e94d
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: DrawDibRealize, DrawDibRealize function [Windows Multimedia], _win32_DrawDibRealize, multimedia.drawdibrealize, vfw/DrawDibRealize
 ms.prod: windows-hardware
 ms.technology: windows-devices

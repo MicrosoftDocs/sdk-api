@@ -7,7 +7,7 @@ old-location: perf\pdh_counter_path_elements_str.htm
 tech.root: perfctrs
 ms.assetid: ffa2a076-7267-406b-8eed-4a49504a7ad6
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: "*PPDH_COUNTER_PATH_ELEMENTS_A, PDH_COUNTER_PATH_ELEMENTS, PDH_COUNTER_PATH_ELEMENTS structure [Perf], PDH_COUNTER_PATH_ELEMENTS_A, PDH_COUNTER_PATH_ELEMENTS_W, PPDH_COUNTER_PATH_ELEMENTS, PPDH_COUNTER_PATH_ELEMENTS structure pointer [Perf], _PDH_COUNTER_PATH_ELEMENTS_A, _win32_pdh_counter_path_elements_str, base.pdh_counter_path_elements_str, pdh/PDH_COUNTER_PATH_ELEMENTS, pdh/PDH_COUNTER_PATH_ELEMENTS_A, pdh/PDH_COUNTER_PATH_ELEMENTS_W, pdh/PPDH_COUNTER_PATH_ELEMENTS, perf.pdh_counter_path_elements_str"
 ms.prod: windows
 ms.technology: windows-sdk

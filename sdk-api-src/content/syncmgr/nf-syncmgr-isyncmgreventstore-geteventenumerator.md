@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEventStore_GetEventEnumerator.htm
 tech.root: shell
 ms.assetid: 8b634811-cb6d-47b2-b534-1baea23a5297
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: GetEventEnumerator, GetEventEnumerator method [Windows Shell], GetEventEnumerator method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEventEnumerator method, ISyncMgrEventStore.GetEventEnumerator, ISyncMgrEventStore::GetEventEnumerator, _shell_ISyncMgrEventStore_GetEventEnumerator, shell.ISyncMgrEventStore_GetEventEnumerator, syncmgr/ISyncMgrEventStore::GetEventEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,17 +89,21 @@ This method is called by Sync Center when the user navigates to the Sync Results
 
 The following example shows an implementation of <b>ISyncMgrEventStore::GetEventEnumerator</b>.
 
-
-```cpp
-STDMETHODIMP CMyDeviceEventStore::GetEventEnumerator(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceEventStore::GetEventEnumerator(
                                 __out IEnumSyncMgrEvents **ppenum)
 {
     HRESULT hr = CEnumMyDeviceSyncMgrEvents_Create(ppenum);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

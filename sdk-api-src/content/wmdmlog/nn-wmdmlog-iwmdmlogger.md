@@ -55,15 +55,19 @@ The <b>IWMDMLogger</b> interface is used by Windows Media Device Manager applica
 
 This interface is exposed by a COM object that must be created using the class ID CLSID_WMDMLogger, as shown here:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IWMDMLogger* m_pLogger = NULL;
-CoCreateInstance(CLSID_WMDMLogger, NULL, CLSCTX_ALL, __uuidof(IWMDMLogger), (void**)&m_pLogger);
-
-```
-
-
+CoCreateInstance(CLSID_WMDMLogger, NULL, CLSCTX_ALL, __uuidof(IWMDMLogger), (void**)&amp;m_pLogger);
+</pre>
+</td>
+</tr>
+</table></span></div>
 This interface GUID is not properly defined in mssachlp.lib; therefore, to get the proper definitions when implementing this interface, you must #include both mswmdm.h and wmdmlog_i.c from wmdmlog.idl.
 
 

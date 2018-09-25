@@ -7,7 +7,7 @@ old-location: security\wlxqueryterminalservicesdata.htm
 tech.root: secauthn
 ms.assetid: a7b81d76-74de-44a8-92ad-765ad1f7013e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: PWLX_QUERY_TERMINAL_SERVICES_DATA, PWLX_QUERY_TERMINAL_SERVICES_DATA callback, WlxQueryTerminalServicesData, WlxQueryTerminalServicesData callback function [Security], _gina_wlxqueryterminalservicesdata, security.wlxqueryterminalservicesdata, winwlx/WlxQueryTerminalServicesData
 ms.prod: windows
 ms.technology: windows-sdk

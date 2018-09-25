@@ -7,7 +7,7 @@ old-location: wua\iupdateinstallationresult_hresult.htm
 tech.root: wua_sdk
 ms.assetid: 0db7d280-b703-4cfb-8332-d33f9fc89a55
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IUpdateInstallationResult interface, IUpdateInstallationResult interface [Windows Update Agent],HResult property, IUpdateInstallationResult.HResult, IUpdateInstallationResult.get_HResult, IUpdateInstallationResult::HResult, IUpdateInstallationResult::get_HResult, get_HResult, wua.iupdateinstallationresult_hresult, wuapi/IUpdateInstallationResult::HResult, wuapi/IUpdateInstallationResult::get_HResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

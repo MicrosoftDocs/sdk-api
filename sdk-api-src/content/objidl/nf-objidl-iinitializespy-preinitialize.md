@@ -7,7 +7,7 @@ old-location: com\iinitializespy_preinitialize.htm
 tech.root: com
 ms.assetid: f5b345d1-ab37-401a-9cb4-b01ef7254fc8
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: IInitializeSpy interface [COM],PreInitialize method, IInitializeSpy.PreInitialize, IInitializeSpy::PreInitialize, PreInitialize, PreInitialize method [COM], PreInitialize method [COM],IInitializeSpy interface, _com_iinitializespy_preinitialize, com.iinitializespy_preinitialize, objidl/IInitializeSpy::PreInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

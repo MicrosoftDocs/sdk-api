@@ -7,7 +7,7 @@ old-location: multimedia\igetframe_setformat.htm
 tech.root: Multimedia
 ms.assetid: 96a2afa5-af90-47e0-949a-a1498ed7f82e
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: IGetFrame interface [Windows Multimedia],SetFormat method, IGetFrame.SetFormat, IGetFrame::SetFormat, SetFormat, SetFormat method [Windows Multimedia], SetFormat method [Windows Multimedia],IGetFrame interface, _win32_IGetFrame_SetFormat, multimedia.igetframe_setformat, vfw/IGetFrame::SetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,16 +114,20 @@ The <i>x</i>, <i>y</i>, <i>dx</i>, and <i>dy</i> parameters identify the portion
 
 For handlers written in C++, <b>SetFormat</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT SetFormat(LPBITMAPINFOHEADER lpbi, LPVOID lpBits, int x, 
     int y, int dx, int dy); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

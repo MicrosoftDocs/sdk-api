@@ -7,13 +7,13 @@ old-location: com\iunknown_release.htm
 tech.root: com
 ms.assetid: 4b494c6f-f0ee-4c35-ae45-ed956f40dc7a
 ms.author: windowssdkdev
-ms.date: 09/14/2018
-ms.keywords: IUnknown interface [COM],Release method, IUnknown.Release, IUnknown::Release, Release, Release method [COM], Release method [COM],IUnknown interface, _com_iunknown_release, com.iunknown_release, unknwnbase/IUnknown::Release
+ms.date: 09/21/2018
+ms.keywords: IUnknown interface [COM],Release method, IUnknown.Release, IUnknown::Release, Release, Release method [COM], Release method [COM],IUnknown interface, _com_iunknown_release, com.iunknown_release, unknwn/IUnknown::Release
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: unknwn.h
-req.include-header: Unknwn.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - unknwnbase.h
+ - Unknwn.h
 api_name:
  - IUnknown.Release
 product: Windows

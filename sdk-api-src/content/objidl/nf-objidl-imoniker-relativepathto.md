@@ -7,7 +7,7 @@ old-location: com\imoniker_relativepathto.htm
 tech.root: com
 ms.assetid: 92e2e7d7-043e-4e95-8540-5a895b5a54f9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: IMoniker interface [COM],RelativePathTo method, IMoniker.RelativePathTo, IMoniker::RelativePathTo, RelativePathTo, RelativePathTo method [COM], RelativePathTo method [COM],IMoniker interface, _com_imoniker_relativepathto, com.imoniker_relativepathto, objidl/IMoniker::RelativePathTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

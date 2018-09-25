@@ -1211,9 +1211,6 @@ See <a href="https://msdn.microsoft.com/C51FDDBC-5E32-4950-9A1E-64843F184172">CL
 ### -field CLCTL_SCALEOUT_GET_CLUSTERS
 
 
-### -field CLCTL_RELOAD_AUTOLOGGER_CONFIG
-
-
 ### -field CLCTL_DELETE
 
 See <a href="https://msdn.microsoft.com/00dfa8d6-2ba0-499e-b510-d4df4d2d748f">CLUSCTL_RESOURCE_DELETE</a>.

@@ -7,7 +7,7 @@ old-location: winprog\fciflushfolder.htm
 tech.root: devnotes
 ms.assetid: dc9c226e-e309-48c3-9edb-3f0a040c0c18
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: FCIFlushFolder, FCIFlushFolder function [Windows API], fci/FCIFlushFolder, winprog.fciflushfolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

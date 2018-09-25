@@ -7,7 +7,7 @@ old-location: com\iolecache_uncache.htm
 tech.root: com
 ms.assetid: a6a57bdd-190f-485b-9b46-cbfc1a1d29a6
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: IOleCache interface [COM],Uncache method, IOleCache.Uncache, IOleCache::Uncache, Uncache, Uncache method [COM], Uncache method [COM],IOleCache interface, _ole_iolecache_uncache, com.iolecache_uncache, oleidl/IOleCache::Uncache
 ms.prod: windows-hardware
 ms.technology: windows-devices

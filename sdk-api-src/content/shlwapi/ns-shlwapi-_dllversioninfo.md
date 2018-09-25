@@ -7,7 +7,7 @@ old-location: shell\DLLVERSIONINFO_0rjh.htm
 tech.root: shell
 ms.assetid: bc6d856c-027f-43df-9bbc-a76f560dddb0
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: DLLVERSIONINFO, DLLVERSIONINFO structure [Windows Shell], DLLVER_PLATFORM_NT, DLLVER_PLATFORM_WINDOWS, _DLLVERSIONINFO, _win32_DLLVERSIONINFO_0rjh, shell.DLLVERSIONINFO_0rjh, shlwapi/DLLVERSIONINFO
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ID2D1DrawingStateBlock::GetDescription
 author: windows-sdk-content
 description: Retrieves the antialiasing mode, transform, and tags portion of the drawing state.
 old-location: direct2d\ID2D1DrawingStateBlock_GetDescription.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 41c80a2d-0a20-4515-88b0-1878ba6aa945
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: GetDescription, GetDescription method [Direct2D], GetDescription method [Direct2D],ID2D1DrawingStateBlock interface, ID2D1DrawingStateBlock interface [Direct2D],GetDescription method, ID2D1DrawingStateBlock.GetDescription, ID2D1DrawingStateBlock::GetDescription, d2d1/ID2D1DrawingStateBlock::GetDescription, direct2d.ID2D1DrawingStateBlock_GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

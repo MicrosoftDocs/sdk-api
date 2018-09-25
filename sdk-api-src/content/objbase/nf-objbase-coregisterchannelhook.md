@@ -7,7 +7,7 @@ old-location: com\coregisterchannelhook.htm
 tech.root: com
 ms.assetid: 90281427-D0A3-4556-AF41-95DE7D000320
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: CoRegisterChannelHook, CoRegisterChannelHook function [COM], com.coregisterchannelhook, objbase/CoRegisterChannelHook
 ms.prod: windows-hardware
 ms.technology: windows-devices

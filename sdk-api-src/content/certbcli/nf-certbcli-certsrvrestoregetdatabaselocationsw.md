@@ -7,7 +7,7 @@ old-location: security\certsrvrestoregetdatabaselocations.htm
 tech.root: seccrypto
 ms.assetid: 02355bd7-6788-4c32-940e-b89e47619aa0
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CSBFT_CHECKPOINT_DIR, CSBFT_LOG_DIR, CertSrvRestoreGetDatabaseLocations, CertSrvRestoreGetDatabaseLocations function [Security], CertSrvRestoreGetDatabaseLocationsW, _certsrv_certsrvrestoregetdatabaselocations, certbcli/CertSrvRestoreGetDatabaseLocations, certbcli/CertSrvRestoreGetDatabaseLocationsW, security.certsrvrestoregetdatabaselocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ A handle to a Certificate Services backup or restore context.
 
 ### -param ppwszzDatabaseLocationList [out]
 
-A pointer to a <b>WCHAR</b> pointer to receive the list of null-terminated database location names, log directory name, and system (or checkpoint) directory name. There is a null character after every name and an extra null character at the end of the list. The location name will be in the UNC form "## \\<i>Server</i>\<i>SharePoint</i>\…<i>Path</i>…\<i>FileName</i>.ext". The directory names will have the same form but without the trailing "\<i>FileName</i>.ext". The text "##" denotes a Certificate Services Backup file type (CSBFT_*) and is stored as a single non-null <a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">Unicode</a> character prefixed onto each UNC path. The type tag is defined in Certbcli.h and can be one of the following values for this function.
+A pointer to a <b>WCHAR</b> pointer to receive the list of null-terminated database location names, log directory name, and system (or checkpoint) directory name. There is a null character after every name and an extra null character at the end of the list. The location name will be in the UNC form "## \\<i>Server</i>\<i>SharePoint</i>\…<i>Path</i>…\<i>FileName</i>.ext". The directory names will have the same form but without the trailing "\<i>FileName</i>.ext". The text "##" denotes a Certificate Services Backup file type (CSBFT_*) and is stored as a single non-null <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> character prefixed onto each UNC path. The type tag is defined in Certbcli.h and can be one of the following values for this function.
 
 <table>
 <tr>
@@ -106,7 +106,7 @@ Certificate Services database log directory.
 </table>
  
 
-You must free this allocated memory when done by calling <a href="https://msdn.microsoft.com/en-us/library/Aa376580(v=VS.85).aspx">CertSrvBackupFree</a>.
+You must free this allocated memory when done by calling <a href="https://msdn.microsoft.com/dbfac3fc-3156-4253-812a-8b0647719096">CertSrvBackupFree</a>.
 
 Setting *<i>ppwszzDatabaseLocationList</i> to <b>NULL</b> before calling this function is optional.
 
@@ -137,9 +137,13 @@ This function's name in Certadm.dll is <b>CertSrvRestoreGetDatabaseLocationsW</b
 
 #### Examples
 
-
-```cpp
-FNCERTSRVRESTOREGETDATABASELOCATIONSW* pfnGetDBLocs;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVRESTOREGETDATABASELOCATIONSW* pfnGetDBLocs;
 char *  szGetDBLocsFunc = "CertSrvRestoreGetDatabaseLocationsW";
 WCHAR * pwszzDBLocs;
 DWORD   nListBytes=0;
@@ -159,7 +163,7 @@ if ( NULL == pfnGetDBLocs )
 
 // Determine the names of the database locations.
 // hCSBC was set by an earlier call to CertSrvRestorePrepare.
-hr = pfnGetDBLocs(hCSBC, &pwszzDBLocs, &nListBytes);
+hr = pfnGetDBLocs(hCSBC, &amp;pwszzDBLocs, &amp;nListBytes);
 if (FAILED(hr))
 {
     printf("Failed pfnGetDBLocs call [%x]\n", hr);
@@ -174,7 +178,7 @@ else
     {
         // Use the file name referenced by pwszFile.
         // Here it is merely displayed.
-        printf("%02x: %ws\n", *pwszFile, &pwszFile[1]);
+        printf("%02x: %ws\n", *pwszFile, &amp;pwszFile[1]);
         // Move to the next database file name.
         // + 1 moves past the null terminator.
         pwszFile+=(wcslen(pwszFile)) + 1; 
@@ -183,10 +187,10 @@ else
     // pfnBackupFree is the address of the 
     // CertSrvBackupFree function.
     pfnBackupFree(pwszzDBLocs);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -195,11 +199,11 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376580(v=VS.85).aspx">CertSrvBackupFree</a>
+<a href="https://msdn.microsoft.com/dbfac3fc-3156-4253-812a-8b0647719096">CertSrvBackupFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

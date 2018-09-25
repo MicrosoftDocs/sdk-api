@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdate_driverhardwareid.htm
 tech.root: wua_sdk
 ms.assetid: 330c37a6-d4bb-44ab-bfbf-cfe02e9abb22
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: DriverHardwareID property [Windows Update Agent], DriverHardwareID property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DriverHardwareID property, IWindowsDriverUpdate.DriverHardwareID, IWindowsDriverUpdate.get_DriverHardwareID, IWindowsDriverUpdate::DriverHardwareID, IWindowsDriverUpdate::get_DriverHardwareID, get_DriverHardwareID, wua.iwindowsdriverupdate_driverhardwareid, wuapi/IWindowsDriverUpdate::DriverHardwareID, wuapi/IWindowsDriverUpdate::get_DriverHardwareID
 ms.prod: windows-hardware
 ms.technology: windows-devices

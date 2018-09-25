@@ -7,7 +7,7 @@ old-location: perf\pdh_data_item_path_elements_str.htm
 tech.root: perfctrs
 ms.assetid: 7d80d9ac-0123-4743-93a2-fa9d609d81b2
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: "*PPDH_DATA_ITEM_PATH_ELEMENTS_W, PDH_DATA_ITEM_PATH_ELEMENTS, PDH_DATA_ITEM_PATH_ELEMENTS structure [Perf], PDH_DATA_ITEM_PATH_ELEMENTS_A, PDH_DATA_ITEM_PATH_ELEMENTS_W, _PDH_DATA_ITEM_PATH_ELEMENTS_W, _win32_pdh_data_item_path_elements_str, base.pdh_data_item_path_elements_str, pdh/PDH_DATA_ITEM_PATH_ELEMENTS, pdh/PDH_DATA_ITEM_PATH_ELEMENTS_A, pdh/PDH_DATA_ITEM_PATH_ELEMENTS_W, perf.pdh_data_item_path_elements_str"
 ms.prod: windows
 ms.technology: windows-sdk

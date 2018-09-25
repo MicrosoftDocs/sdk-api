@@ -7,7 +7,7 @@ old-location: shell\IShellFolderView_AddObject.htm
 tech.root: shell
 ms.assetid: 50f07c12-7c66-40a0-b710-a4240fde859a
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: AddObject, AddObject method [Windows Shell], AddObject method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],AddObject method, IShellFolderView.AddObject, IShellFolderView::AddObject, _shell_IShellFolderView_AddObject, shell.IShellFolderView_AddObject, shlobj_core/IShellFolderView::AddObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

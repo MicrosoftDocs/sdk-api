@@ -273,17 +273,21 @@ The size of the buffer pointed to by the <i>lpBuffer</i> parameter and specified
 The following code sample illustrates how to use the 
 <b>WNetGetUniversalName</b> function to retrieve the universal UNC name strings associated with drive-based path for a network resource.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "mpr.lib")
 
-#include <windows.h>
-#include <tchar.h>
-#include <stdio.h>
-#include <Winnetwk.h>
+#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Winnetwk.h&gt;
 
 int wmain(int argc, wchar_t * argv[])
 {
@@ -297,15 +301,15 @@ int wmain(int argc, wchar_t * argv[])
     
     wprintf(L"Calling WNetGetUniversalName with Local Path = %s\n", argv[1]);
 
-    unameinfo = (UNIVERSAL_NAME_INFO *) &Buffer;
-    dwRetVal = WNetGetUniversalName(argv[1], UNIVERSAL_NAME_INFO_LEVEL, (LPVOID) unameinfo, &dwBufferLength );
+    unameinfo = (UNIVERSAL_NAME_INFO *) &amp;Buffer;
+    dwRetVal = WNetGetUniversalName(argv[1], UNIVERSAL_NAME_INFO_LEVEL, (LPVOID) unameinfo, &amp;dwBufferLength );
     //
     // If the call succeeds, print the user information.
     //
     if (dwRetVal == NO_ERROR) {
 
         wprintf(L"WNetGetUniversalName returned success for InfoLevel=UNIVERSAL_NAME_INFO_LEVEL\n");
-        wprintf(L"\tUniversal name = %s\n", unameinfo->lpUniversalName);
+        wprintf(L"\tUniversal name = %s\n", unameinfo-&gt;lpUniversalName);
     }
 
     else {
@@ -313,18 +317,18 @@ int wmain(int argc, wchar_t * argv[])
     }
 
 
-    remotenameinfo = (REMOTE_NAME_INFO *) &Buffer;
+    remotenameinfo = (REMOTE_NAME_INFO *) &amp;Buffer;
     dwRetVal = WNetGetUniversalName(argv[1], REMOTE_NAME_INFO_LEVEL, 
-        (LPVOID) remotenameinfo, &dwBufferLength );
+        (LPVOID) remotenameinfo, &amp;dwBufferLength );
     //
     // If the call succeeds, print the user information.
     //
     if (dwRetVal == NO_ERROR) {
 
         wprintf(L"WNetGetUniversalName returned success for InfoLevel=REMOTE_NAME_INFO_LEVEL\n");
-        wprintf(L"\tUniversal name = %s\n", remotenameinfo->lpUniversalName);
-        wprintf(L"\tConnection name = %s\n", remotenameinfo->lpConnectionName);
-        wprintf(L"\tRemaining path = %s\n", remotenameinfo->lpRemainingPath);
+        wprintf(L"\tUniversal name = %s\n", remotenameinfo-&gt;lpUniversalName);
+        wprintf(L"\tConnection name = %s\n", remotenameinfo-&gt;lpConnectionName);
+        wprintf(L"\tRemaining path = %s\n", remotenameinfo-&gt;lpRemainingPath);
     }
 
     else {
@@ -332,10 +336,10 @@ int wmain(int argc, wchar_t * argv[])
     }
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

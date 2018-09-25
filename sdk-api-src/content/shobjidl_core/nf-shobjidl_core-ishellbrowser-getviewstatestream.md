@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser_GetViewStateStream.htm
 tech.root: shell
 ms.assetid: 887ebe9f-8bde-46dd-a7a2-7b2ca66bf905
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: GetViewStateStream, GetViewStateStream method [Windows Shell], GetViewStateStream method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],GetViewStateStream method, IShellBrowser.GetViewStateStream, IShellBrowser::GetViewStateStream, STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_IShellBrowser_GetViewStateStream, shell.IShellBrowser_GetViewStateStream, shobjidl_core/IShellBrowser::GetViewStateStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\LongPtrToChar.htm
 tech.root: shell
 ms.assetid: 661b7a6f-5524-44e5-9999-61c9df8e7cd3
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: LongPtrToChar, LongPtrToChar function [Windows Shell], intsafe/LongPtrToChar, shell.LongPtrToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

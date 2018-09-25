@@ -7,7 +7,7 @@ old-location: security\icenroll4_getkeylenex.htm
 tech.root: seccrypto
 ms.assetid: 4e54926f-f600-4795-b6d8-efb146edcda2
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: CEnroll object [Security],GetKeyLenEx method, GetKeyLenEx, GetKeyLenEx method [Security], GetKeyLenEx method [Security],CEnroll object, GetKeyLenEx method [Security],ICEnroll4 interface, ICEnroll4 interface [Security],GetKeyLenEx method, ICEnroll4.GetKeyLenEx, ICEnroll4::GetKeyLenEx, XEKL_KEYSIZE_INC, XEKL_KEYSIZE_MAX, XEKL_KEYSIZE_MIN, XEKL_KEYSPEC_KEYX, XEKL_KEYSPEC_SIG, _xen_icenroll4_getkeylenex, security.icenroll4_getkeylenex, xenroll/ICEnroll4::GetKeyLenEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -171,47 +171,51 @@ For more information about the XEKL_KEYSIZE_INC value, see PP_SIG_KEYSIZE_INC us
 
 #### Examples
 
-
-```cpp
-DWORD dwExchMin, dwExchMax, dwSignDef, dwSignInc;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD dwExchMin, dwExchMax, dwSignDef, dwSignInc;
 
 // Determine the minimum and maximum key length values.
 // hr is HRESULT variable.
-hr = pEnroll4->GetKeyLenEx( XEKL_KEYSIZE_MIN,
+hr = pEnroll4-&gt;GetKeyLenEx( XEKL_KEYSIZE_MIN,
                             XEKL_KEYSPEC_KEYX,
-                            &dwExchMin );
+                            &amp;dwExchMin );
 if ( FAILED( hr ) )    
     printf("Failed GetKeyLenEx for Exchange Minimum [%x]\n", hr);
 else
     printf("Exchange key Min: %d\n", dwExchMin);
 
-hr = pEnroll4->GetKeyLenEx( XEKL_KEYSIZE_MAX,
+hr = pEnroll4-&gt;GetKeyLenEx( XEKL_KEYSIZE_MAX,
                             XEKL_KEYSPEC_KEYX,
-                            &dwExchMax );
+                            &amp;dwExchMax );
 if ( FAILED( hr ) )
     printf("Failed GetKeyLenEx for Exchange Maximum [%x]\n", hr);
 else
     printf("Exchange key Max: %d\n", dwExchMax );
 
-hr = pEnroll4->GetKeyLenEx( XEKL_KEYSIZE_DEFAULT,
+hr = pEnroll4-&gt;GetKeyLenEx( XEKL_KEYSIZE_DEFAULT,
                             XEKL_KEYSPEC_SIG,
-                            &dwSignDef );
+                            &amp;dwSignDef );
 if ( FAILED( hr ) )
     printf("Failed GetKeyLenEx for Signature Default "
    "Key size [%x]\n", hr);
 else
     printf("Signature key default size: %d\n", dwSignDef );
 
-hr = pEnroll4->GetKeyLenEx( XEKL_KEYSIZE_INC,
+hr = pEnroll4-&gt;GetKeyLenEx( XEKL_KEYSIZE_INC,
                             XEKL_KEYSPEC_SIG,
-                            &dwSignInc );
+                            &amp;dwSignInc );
 if ( FAILED( hr ) )    
     printf("Failed GetKeyLenEx for Signature "
    "Key Size Increment [%x]\n", hr);
 else
-    printf("Signature key increment size: %d\n", dwSignInc );
-```
-
-
+    printf("Signature key increment size: %d\n", dwSignInc );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

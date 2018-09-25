@@ -7,7 +7,7 @@ old-location: security\iocspadmin_setsecurity.htm
 tech.root: seccrypto
 ms.assetid: 7ff94496-4347-4c08-8c71-0c53af902d9d
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IOCSPAdmin interface [Security],SetSecurity method, IOCSPAdmin.SetSecurity, IOCSPAdmin::SetSecurity, SetSecurity, SetSecurity method [Security], SetSecurity method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::SetSecurity, security.iocspadmin_setsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ A string that contains the security descriptor information to assign to the resp
 
 
 
-This method calls the <a href="https://msdn.microsoft.com/en-us/library/Aa376401(v=VS.85).aspx">ConvertStringSecurityDescriptorToSecurityDescriptor</a> function to create a security descriptor from a string in <a href="https://msdn.microsoft.com/en-us/library/Aa379570(v=VS.85).aspx">Security Descriptor String Format</a>.
+This method calls the <a href="https://msdn.microsoft.com/c5654148-fb4c-436d-9378-a1168fc82607">ConvertStringSecurityDescriptorToSecurityDescriptor</a> function to create a security descriptor from a string in <a href="https://msdn.microsoft.com/0a226629-084c-40c5-bdd4-ad7355c807cf">Security Descriptor String Format</a>.
 
 
 
@@ -82,7 +82,7 @@ This method calls the <a href="https://msdn.microsoft.com/en-us/library/Aa376401
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386313(v=VS.85).aspx">IOCSPAdmin</a>
+<a href="https://msdn.microsoft.com/cf76e934-07a2-46de-b2cf-7f6d3e274d71">IOCSPAdmin</a>
  
 
  

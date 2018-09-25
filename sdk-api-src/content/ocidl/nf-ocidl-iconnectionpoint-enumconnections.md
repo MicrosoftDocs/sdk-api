@@ -7,7 +7,7 @@ old-location: com\iconnectionpoint_enumconnections.htm
 tech.root: com
 ms.assetid: 424aab99-990e-4b45-9b58-ac22b2cee87c
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: EnumConnections, EnumConnections method [COM], EnumConnections method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],EnumConnections method, IConnectionPoint.EnumConnections, IConnectionPoint::EnumConnections, _com_iconnectionpoint_enumconnections, com.iconnectionpoint_enumconnections, ocidl/IConnectionPoint::EnumConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices

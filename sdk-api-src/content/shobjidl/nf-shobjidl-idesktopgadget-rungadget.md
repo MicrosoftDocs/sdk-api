@@ -7,7 +7,7 @@ old-location: shell\IDesktopGadget_RunGadget.htm
 tech.root: shell
 ms.assetid: 9243fd88-122f-40be-ab71-66c52fa99168
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IDesktopGadget interface [Windows Shell],RunGadget method, IDesktopGadget.RunGadget, IDesktopGadget::RunGadget, RunGadget, RunGadget method [Windows Shell], RunGadget method [Windows Shell],IDesktopGadget interface, _shell_IDesktopGadget_RunGadget, shell.IDesktopGadget_RunGadget, shobjidl/IDesktopGadget::RunGadget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,26 +143,30 @@ Per-user applications should install their gadgets per-user. Per-machine applica
 
 The following example shows <b>IDesktopGadget::RunGadget</b> in use.
 
-
-```cpp
-HRESULT RunMyGadget(PCWSTR pszGadgetPath)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT RunMyGadget(PCWSTR pszGadgetPath)
 {
     IDesktopGadget *pDG;
 
     HRESULT hr = CoCreateInstance(CLSID_DesktopGadget, 
                                   NULL, 
                                   CLSCTX_INPROC_SERVER, 
-                                  IID_PPV_ARGS(&pDG));
+                                  IID_PPV_ARGS(&amp;pDG));
     if (SUCCEEDED(hr))
     {
-        hr = pDG->RunGadget(pszGadgetPath);
-        pDG->Release();
+        hr = pDG-&gt;RunGadget(pszGadgetPath);
+        pDG-&gt;Release();
     }
 
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

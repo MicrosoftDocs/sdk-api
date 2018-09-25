@@ -164,13 +164,17 @@ You can use the LPDIRECTDRAWCLIPPER data type to declare a variable that contain
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct IDirectDrawClipper    FAR *LPDIRECTDRAWCLIPPER;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: security\ctl_entry.htm
 tech.root: seccrypto
 ms.assetid: ebc63847-b641-4205-b15c-7b32c1426c21
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCTL_ENTRY, CTL_ENTRY, CTL_ENTRY structure [Security], PCTL_ENTRY, PCTL_ENTRY structure pointer [Security], _CTL_ENTRY, _crypto2_ctl_entry, security.ctl_entry, wincrypt/CTL_ENTRY, wincrypt/PCTL_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk

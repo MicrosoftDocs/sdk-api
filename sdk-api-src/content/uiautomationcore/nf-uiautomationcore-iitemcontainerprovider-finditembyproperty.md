@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IItemContainerProvider_FindItemByProperty.htm
 tech.root: WinAuto
 ms.assetid: f2873bbb-5bb4-4eaa-b0bd-60061fc06f53
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: FindItemByProperty, FindItemByProperty method [Windows Accessibility], FindItemByProperty method [Windows Accessibility],IItemContainerProvider interface, IItemContainerProvider interface [Windows Accessibility],FindItemByProperty method, IItemContainerProvider.FindItemByProperty, IItemContainerProvider::FindItemByProperty, uiauto.uiauto_IItemContainerProvider_FindItemByProperty, uiauto_IItemContainerProvider_FindItemByProperty, uiautomationcore/IItemContainerProvider::FindItemByProperty, winauto.uiauto_IItemContainerProvider_FindItemByProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,7 +103,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 For virtual lists, the element returned may be a placeholder. <a href="https://msdn.microsoft.com/ec69f0d2-a643-4f1b-892a-0d90f79afe72">IVirtualizedItemProvider::Realize</a> can then be used to make the item fully available.
 
-The method returns E_INVALIDARG if searching by the specified property is not supported. Most containers should support <a href="https://msdn.microsoft.com/en-us/library/Ee684017(v=VS.85).aspx">UIA_NamePropertyId</a> and, if appropriate, <a href="https://msdn.microsoft.com/en-us/library/Ee684017(v=VS.85).aspx">UIA_AutomationIdPropertyId</a> and <a href="https://msdn.microsoft.com/en-us/library/Ee671200(v=VS.85).aspx">UIA_SelectionItemIsSelectedPropertyId</a>.
+The method returns E_INVALIDARG if searching by the specified property is not supported. Most containers should support <a href="uiauto_automation_element_propids.htm">UIA_NamePropertyId</a> and, if appropriate, <a href="uiauto_automation_element_propids.htm">UIA_AutomationIdPropertyId</a> and <a href="uiauto_control_pattern_propids.htm">UIA_SelectionItemIsSelectedPropertyId</a>.
 
 If <i>propertyId</i> is 0, all items are a match. This value can be  used
 with <i>pStartAfter</i> equalling <b>NULL</b> to get the first item, and then to get successive

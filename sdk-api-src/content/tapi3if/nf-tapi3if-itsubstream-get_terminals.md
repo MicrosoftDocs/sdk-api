@@ -4,10 +4,10 @@ title: ITSubStream::get_Terminals
 author: windows-sdk-content
 description: The get_Terminals method creates a collection of terminals associated with the current substream. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateTerminals method.
 old-location: tapi3\itsubstream_get_terminals.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 100854aa-78de-4395-9081-3b1f845c254c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],get_Terminals method, ITSubStream.get_Terminals, ITSubStream::get_Terminals, _tapi3_itsubstream_get_terminals, get_Terminals, get_Terminals method [TAPI 2.2], get_Terminals method [TAPI 2.2],ITSubStream interface, tapi3.itsubstream_get_terminals, tapi3if/ITSubStream::get_Terminals
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,8 +123,8 @@ Insufficient memory exists to perform the operation.
 
 This method returns only the terminals selected on the substream. Other terminals may be selected on the stream or on other substreams within the stream; those terminals are not returned.
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> interface returned by <b>ITSubStream::get_Terminals</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> interface returned by <b>ITSubStream::get_Terminals</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>ITTerminal</b> interface to free resources associated with it.
 
 

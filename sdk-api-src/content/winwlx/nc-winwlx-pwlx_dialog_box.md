@@ -7,7 +7,7 @@ old-location: security\wlxdialogbox.htm
 tech.root: secauthn
 ms.assetid: a16313ea-ae76-4d9b-80b3-3fb12af803c7
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: PWLX_DIALOG_BOX, PWLX_DIALOG_BOX callback, WlxDialogBox, WlxDialogBox callback function [Security], _gina_wlxdialogbox, security.wlxdialogbox, winwlx/WlxDialogBox
 ms.prod: windows
 ms.technology: windows-sdk

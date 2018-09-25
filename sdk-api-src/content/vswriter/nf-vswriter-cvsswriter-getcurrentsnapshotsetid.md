@@ -80,7 +80,7 @@ If <b>GetCurrentSnapshotSetId</b> is called as part of a backup sequence—for e
 <a href="https://msdn.microsoft.com/2aff5e87-4053-46a0-a7fb-7411e76166ba">CVssWriter::OnFreeze</a>, <a href="https://msdn.microsoft.com/36028e9f-f7a7-41f1-a570-48f943e9ab83">CVssWriter::OnThaw</a>, or <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>—the VSS infrastructure guarantees that the <a href="https://msdn.microsoft.com/e64b36d6-4f10-42bd-9ad4-00aba90e9715">VSS_ID</a> value returned is that of the shadow copy supporting the current backup operation.
 
 However, this cannot be said for calls to <b>GetCurrentSnapshotSetId</b> from within the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384652(v=VS.85).aspx">BackupShutdown</a> event handler 
+<a href="vssgloss_b.htm">BackupShutdown</a> event handler 
 <a href="https://msdn.microsoft.com/4b6d5efe-703b-4245-81d8-e2fc7f650d4b">CVssWriter::OnBackupShutdown</a>. If a <i>BackupShutdown</i> event is called because of an abrupt shutdown of a requester, the <a href="https://msdn.microsoft.com/e64b36d6-4f10-42bd-9ad4-00aba90e9715">VSS_ID</a> returned could be that of another backup operation the writer was participating in.
 
 <b>GetCurrentSnapshotSetId</b> cannot be called after <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a> returns.

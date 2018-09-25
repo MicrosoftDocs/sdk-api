@@ -7,7 +7,7 @@ old-location: com\olelockrunning.htm
 tech.root: com
 ms.assetid: 84941a59-6880-4824-b4b9-cd1b52d2bffb
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: OleLockRunning, OleLockRunning function [COM], _ole_OleLockRunning, com.olelockrunning, ole2/OleLockRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices

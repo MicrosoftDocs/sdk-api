@@ -4,10 +4,10 @@ title: D2D1_MAPPED_RECT
 author: windows-sdk-content
 description: Describes mapped memory from the ID2D1Bitmap1::Map API.
 old-location: direct2d\d2d1_mapped_rect.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 1cd81f1a-c39b-4975-a801-aa9444dde172
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: D2D1_MAPPED_RECT, D2D1_MAPPED_RECT structure [Direct2D], PD2D1_MAPPED_RECT, PD2D1_MAPPED_RECT structure pointer [Direct2D], d2d1_1/D2D1_MAPPED_RECT, d2d1_1/PD2D1_MAPPED_RECT, direct2d.d2d1_mapped_rect
 ms.prod: windows
 ms.technology: windows-sdk

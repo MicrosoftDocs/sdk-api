@@ -7,7 +7,7 @@ old-location: wua\iinstallationprogress_getupdateresult.htm
 tech.root: wua_sdk
 ms.assetid: a0cb92f4-6c97-42be-abf1-e1662e213a7d
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: GetUpdateResult, GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent],IInstallationProgress interface, IInstallationProgress interface [Windows Update Agent],GetUpdateResult method, IInstallationProgress.GetUpdateResult, IInstallationProgress::GetUpdateResult, wua.iinstallationprogress_getupdateresult, wuapi/IInstallationProgress::GetUpdateResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

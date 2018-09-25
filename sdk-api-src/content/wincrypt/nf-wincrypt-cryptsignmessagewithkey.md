@@ -7,7 +7,7 @@ old-location: security\cryptsignmessagewithkey.htm
 tech.root: seccrypto
 ms.assetid: d31024bf-7022-440b-8134-a02578510357
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: CryptSignMessageWithKey, CryptSignMessageWithKey function [Security], security.cryptsignmessagewithkey, wincrypt/CryptSignMessageWithKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

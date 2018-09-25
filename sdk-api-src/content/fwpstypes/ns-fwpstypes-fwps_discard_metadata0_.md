@@ -70,7 +70,7 @@ An
 
 A UINT32 value that specifies why the data was discarded. For a description of the discard reason
      identifiers for each type of module, see 
-     <a href="https://msdn.microsoft.com/library/Ff546441(v=VS.85).aspx">Discard Reason Identifiers</a>.
+     <a href="netvista.discard_reason_identifiers">Discard Reason Identifiers</a>.
 
 
 ### -field filterId

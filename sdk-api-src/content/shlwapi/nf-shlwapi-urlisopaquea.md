@@ -7,7 +7,7 @@ old-location: shell\UrlIsOpaque.htm
 tech.root: shell
 ms.assetid: 460f4d41-2796-496d-9199-f2d1cd6e4a24
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: UrlIsOpaque, UrlIsOpaque function [Windows Shell], UrlIsOpaqueA, UrlIsOpaqueW, _win32_UrlIsOpaque, shell.UrlIsOpaque, shlwapi/UrlIsOpaque, shlwapi/UrlIsOpaqueA, shlwapi/UrlIsOpaqueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

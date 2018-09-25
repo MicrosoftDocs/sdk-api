@@ -4,10 +4,10 @@ title: ID2D1BitmapBrush1::SetInterpolationMode1
 author: windows-sdk-content
 description: Sets the interpolation mode for the brush.
 old-location: direct2d\id2d1bitmapbrush1_setinterpolationmode1.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 55CBCA8D-5155-4D26-B868-41571A2DB640
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ID2D1BitmapBrush1 interface [Direct2D],SetInterpolationMode1 method, ID2D1BitmapBrush1.SetInterpolationMode1, ID2D1BitmapBrush1::SetInterpolationMode1, SetInterpolationMode1, SetInterpolationMode1 method [Direct2D], SetInterpolationMode1 method [Direct2D],ID2D1BitmapBrush1 interface, d2d1_1/ID2D1BitmapBrush1::SetInterpolationMode1, direct2d.id2d1bitmapbrush1_setinterpolationmode1
 ms.prod: windows-hardware
 ms.technology: windows-devices

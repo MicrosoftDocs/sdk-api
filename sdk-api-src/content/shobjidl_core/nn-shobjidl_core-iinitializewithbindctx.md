@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithBindCtx.htm
 tech.root: shell
 ms.assetid: 0741c172-cd5a-4170-837f-774049fcab9d
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IInitializeWithBindCtx, IInitializeWithBindCtx interface [Windows Shell], IInitializeWithBindCtx interface [Windows Shell],described, _shell_IInitializeWithBindCtx, shell.IInitializeWithBindCtx, shobjidl_core/IInitializeWithBindCtx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\wlxdisplaystatusmessage.htm
 tech.root: secauthn
 ms.assetid: 07df61ff-f5fa-44ab-b3ca-ed7f4338e471
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: WlxDisplayStatusMessage, WlxDisplayStatusMessage function [Security], _gina_wlxdisplaystatusmessage, security.wlxdisplaystatusmessage, winwlx/WlxDisplayStatusMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

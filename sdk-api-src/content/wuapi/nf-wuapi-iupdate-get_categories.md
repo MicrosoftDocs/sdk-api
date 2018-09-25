@@ -7,7 +7,7 @@ old-location: wua\iupdate_categories.htm
 tech.root: wua_sdk
 ms.assetid: 25620fc2-25f2-4626-9e41-b44c305c505c
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: Categories property [Windows Update Agent], Categories property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],Categories property, IUpdate.Categories, IUpdate.get_Categories, IUpdate::Categories, IUpdate::get_Categories, get_Categories, wua.iupdate_categories, wuapi/IUpdate::Categories, wuapi/IUpdate::get_Categories
 ms.prod: windows-hardware
 ms.technology: windows-devices

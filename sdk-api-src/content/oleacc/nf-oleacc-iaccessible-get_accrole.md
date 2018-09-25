@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accrole.htm
 tech.root: WinAuto
 ms.assetid: 38800c5e-12a5-4825-a4c4-825a159c67f1
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accRole method, IAccessible.get_accRole, IAccessible::get_accRole, _msaa_IAccessible_get_accRole, get_accRole, get_accRole method [Windows Accessibility], get_accRole method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accrole, oleacc/IAccessible::get_accRole, winauto.iaccessible_iaccessible__get_accrole
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,41 +121,49 @@ Clients call <a href="https://msdn.microsoft.com/58436001-92d7-4afa-af07-169c8bb
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code is a possible implementation of this method for a custom list box that maintains its own list items.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT STDMETHODCALLTYPE AccServer::get_accRole( 
     VARIANT varChild,
     VARIANT *pvarRole)
 {
     if (varChild.vt != VT_I4)
     {
-        pvarRole->vt = VT_EMPTY;
+        pvarRole-&gt;vt = VT_EMPTY;
         return E_INVALIDARG;
     }
 
-    pvarRole->vt = VT_I4;
+    pvarRole-&gt;vt = VT_I4;
 
     if (varChild.lVal == CHILDID_SELF)
     {
-        pvarRole->lVal = ROLE_SYSTEM_LIST;
+        pvarRole-&gt;lVal = ROLE_SYSTEM_LIST;
     }
     else
     {
-        pvarRole->lVal = ROLE_SYSTEM_LISTITEM;
+        pvarRole-&gt;lVal = ROLE_SYSTEM_LISTITEM;
     }
     return S_OK;
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Client_Example"></a><a id="client_example"></a><a id="CLIENT_EXAMPLE"></a>Client Example</h3>
 The following example function displays the role of an accessible object or child element.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT PrintRole(IAccessible* pAcc, long childId)
 {
     DWORD roleId;
@@ -167,8 +175,8 @@ HRESULT PrintRole(IAccessible* pAcc, long childId)
     varChild.vt = VT_I4;
     varChild.lVal = childId;
     VARIANT varResult;
-    HRESULT hr = pAcc->get_accRole(varChild, &varResult);
-    if ((hr == S_OK) && (varResult.vt == VT_I4))
+    HRESULT hr = pAcc-&gt;get_accRole(varChild, &amp;varResult);
+    if ((hr == S_OK) &amp;&amp; (varResult.vt == VT_I4))
     {
         roleId = varResult.lVal;
         UINT   roleLength;
@@ -200,10 +208,10 @@ HRESULT PrintRole(IAccessible* pAcc, long childId)
     }
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

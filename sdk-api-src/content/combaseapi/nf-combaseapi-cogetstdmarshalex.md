@@ -7,7 +7,7 @@ old-location: com\cogetstdmarshalex.htm
 tech.root: com
 ms.assetid: 405c5ff3-8702-48b3-9be9-df4a9461696e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: CoGetStdMarshalEx, CoGetStdMarshalEx function [COM], SMEXF_HANDLER, SMEXF_SERVER, _com_CoGetStdMarshalEx, com.cogetstdmarshalex, combaseapi/CoGetStdMarshalEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Creates an aggregated standard marshaler for use with lightweight client-side ha
 
 ### -param pUnkOuter [in]
 
-A pointer to the controlling <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>.
+A pointer to the controlling <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>.
 
 
 ### -param smexflags [in]
@@ -107,7 +107,7 @@ Indicates a client-side (handler) aggregated standard marshaler.
 
 ### -param ppUnkInner [out]
 
-On successful return, address of pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms692713(v=VS.85).aspx">IUnknown</a> interface on the newly-created aggregated standard marshaler. If an error occurs, this value is <b>NULL</b>.
+On successful return, address of pointer to the <a href="https://msdn.microsoft.com/c45f0947-6020-4aa1-9250-561603a46a68">IUnknown</a> interface on the newly-created aggregated standard marshaler. If an error occurs, this value is <b>NULL</b>.
 
 
 ## -returns
@@ -123,7 +123,7 @@ This function returns S_OK.
 
 
 
-The server calls <b>CoGetStdMarshalEx</b> passing in the flag SMEXF_SERVER. This creates a server side standard marshaler (known as a stub manager). The handler calls <b>CoGetStdMarshalEx</b> passing in the flag SMEXF_HANDLER. This creates a client side standard marshaler (known as a proxy manager). Note that when calling this function, the handler must pass the original controlling unknown that was passed to the handler when the handler was created. This will be the system implemented controlling unknown. Failure to pass the correct <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> results in an error returned. On success, the ppUnkInner returned is the controlling unknown of the inner object. The server and handler must keep this pointer, and may use it to call <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> for the <a href="https://msdn.microsoft.com/en-us/library/Dd542707(v=VS.85).aspx">IMarshal</a> interface.
+The server calls <b>CoGetStdMarshalEx</b> passing in the flag SMEXF_SERVER. This creates a server side standard marshaler (known as a stub manager). The handler calls <b>CoGetStdMarshalEx</b> passing in the flag SMEXF_HANDLER. This creates a client side standard marshaler (known as a proxy manager). Note that when calling this function, the handler must pass the original controlling unknown that was passed to the handler when the handler was created. This will be the system implemented controlling unknown. Failure to pass the correct <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> results in an error returned. On success, the ppUnkInner returned is the controlling unknown of the inner object. The server and handler must keep this pointer, and may use it to call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> for the <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a> interface.
 
 
 
@@ -134,15 +134,15 @@ The server calls <b>CoGetStdMarshalEx</b> passing in the flag SMEXF_SERVER. This
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542707(v=VS.85).aspx">IMarshal</a>
+<a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms694324(v=VS.85).aspx">IStdMarshalInfo</a>
+<a href="https://msdn.microsoft.com/f034436f-e24e-4b99-9fb9-b0400d3ebb72">IStdMarshalInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691460(v=VS.85).aspx">The Lightweight Client-Side Handler</a>
+<a href="https://msdn.microsoft.com/b712237c-55d7-4f52-9cf6-19c6e5fb3182">The Lightweight Client-Side Handler</a>
  
 
  

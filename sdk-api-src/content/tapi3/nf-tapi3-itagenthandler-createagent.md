@@ -4,10 +4,10 @@ title: ITAgentHandler::CreateAgent
 author: windows-sdk-content
 description: The CreateAgent method creates an Agent object.
 old-location: tapi3\itagenthandler_createagent.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: f3242013-59a6-40f9-9bb1-0bc30f27311c
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: CreateAgent, CreateAgent method [TAPI 2.2], CreateAgent method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],CreateAgent method, ITAgentHandler.CreateAgent, ITAgentHandler::CreateAgent, _tapi3_itagenthandler_createagent, tapi3.itagenthandler_createagent, tapi3cc/ITAgentHandler::CreateAgent
 ms.prod: windows-hardware
 ms.technology: windows-devices

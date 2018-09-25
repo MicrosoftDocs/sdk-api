@@ -7,7 +7,7 @@ old-location: security\cmsg_ctrl_del_signer_unauth_attr_para.htm
 tech.root: seccrypto
 ms.assetid: 729fbbe0-40c6-41e7-851f-6f93f47e8f4d
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA structure [Security], PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA structure pointer [Security], _CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, _crypto2_cmsg_ctrl_del_signer_unauth_attr_para, security.cmsg_ctrl_del_signer_unauth_attr_para, wincrypt/CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA, wincrypt/PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

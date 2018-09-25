@@ -7,7 +7,7 @@ old-location: wua\iupdate_uninstallationnotes.htm
 tech.root: wua_sdk
 ms.assetid: e5a84291-2c50-4ede-b69b-07d5a4226164
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdate interface [Windows Update Agent],UninstallationNotes property, IUpdate.UninstallationNotes, IUpdate.get_UninstallationNotes, IUpdate::UninstallationNotes, IUpdate::get_UninstallationNotes, UninstallationNotes property [Windows Update Agent], UninstallationNotes property [Windows Update Agent],IUpdate interface, get_UninstallationNotes, wua.iupdate_uninstallationnotes, wuapi/IUpdate::UninstallationNotes, wuapi/IUpdate::get_UninstallationNotes
 ms.prod: windows-hardware
 ms.technology: windows-devices

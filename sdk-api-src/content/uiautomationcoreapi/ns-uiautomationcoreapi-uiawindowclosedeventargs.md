@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaWindowClosedEventArgsStruct.htm
 tech.root: WinAuto
 ms.assetid: e15b2e58-5eba-4804-9f4a-6bba4afa2051
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: UiaWindowClosedEventArgs, UiaWindowClosedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaWindowClosedEventArgsStruct, uiauto_UiaWindowClosedEventArgsStruct, uiautomationcoreapi/UiaWindowClosedEventArgs, winauto.uiauto_UiaWindowClosedEventArgsStruct
 ms.prod: windows
 ms.technology: windows-sdk

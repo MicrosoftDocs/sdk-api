@@ -7,7 +7,7 @@ old-location: security\scardreconnect.htm
 tech.root: secauthn
 ms.assetid: c79e5810-c2be-4184-8ac7-c058ccb9308e
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: SCARD_LEAVE_CARD, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_RESET_CARD, SCARD_SHARE_EXCLUSIVE, SCARD_SHARE_SHARED, SCARD_UNPOWER_CARD, SCardReconnect, SCardReconnect function [Security], _smart_scardreconnect, security.scardreconnect, winscard/SCardReconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -241,7 +241,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -263,9 +263,13 @@ An error code. For more information, see
 
 The following example  shows reestablishing a connection.
 
-
-```cpp
-DWORD     dwAP;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD     dwAP;
 LONG      lReturn;
 
 // Reconnect.
@@ -274,13 +278,13 @@ lReturn = SCardReconnect(hCardHandle,
                          SCARD_SHARE_SHARED,
                          SCARD_PROTOCOL_T0 | SCARD_PROTOCOL_T1,
                          SCARD_LEAVE_CARD,
-                         &dwAP );
+                         &amp;dwAP );
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardReconnect\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

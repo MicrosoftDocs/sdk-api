@@ -7,7 +7,7 @@ old-location: shell\IShellItemResources_GetTimes.htm
 tech.root: shell
 ms.assetid: 4857b824-2b58-4c26-bbab-8a799d20f584
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: GetTimes, GetTimes method [Windows Shell], GetTimes method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetTimes method, IShellItemResources.GetTimes, IShellItemResources::GetTimes, _shell_IShellItemResources_GetTimes, shell.IShellItemResources_GetTimes, shobjidl_core/IShellItemResources::GetTimes
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_STRING_TYPE,
 author: windows-sdk-content
 description: Sets an attribute of this element using a string.
 old-location: direct2d\id2d1svgelement_setattributevalue.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 56796F1B-5DC2-4E9C-A80E-40EA791E6784
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_STRING_TYPE,PCWSTR), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_STRING_TYPE,PCWSTR), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

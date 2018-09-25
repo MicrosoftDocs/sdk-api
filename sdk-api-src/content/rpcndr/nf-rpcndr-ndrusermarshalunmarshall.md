@@ -7,7 +7,7 @@ old-location: winprog\ndrusermarshalunmarshall.htm
 tech.root: devnotes
 ms.assetid: 8012973b-a41f-4729-a04a-8a1afb29cebe
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: NdrUserMarshalUnmarshall, NdrUserMarshalUnmarshall function [Windows API], rpcndr/NdrUserMarshalUnmarshall, winprog.ndrusermarshalunmarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -119,7 +119,7 @@ This function does not return a value.
 
 
 
-After you set the flags, send a <a href="https://msdn.microsoft.com/en-us/library/ms632650(v=VS.85).aspx">WM_THEMECHANGED</a> message to your application's main window for the changes to take effect. 
+After you set the flags, send a <a href="https://msdn.microsoft.com/1a4051ac-cc6e-4520-ab66-d0a41a8a4c73">WM_THEMECHANGED</a> message to your application's main window for the changes to take effect. 
 
 
 
@@ -127,15 +127,19 @@ After you set the flags, send a <a href="https://msdn.microsoft.com/en-us/librar
 
 This example combines flags and calls this function as shown.
 
-
-```cpp
-DWORD dwFlags = (STAP_ALLOW_NONCLIENT | 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD dwFlags = (STAP_ALLOW_NONCLIENT | 
         STAP_ALLOW_CONTROLS | STAP_ALLOW_WEBCONTENT);
 SetThemeAppProperties(dwFlags);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -144,7 +148,7 @@ SetThemeAppProperties(dwFlags);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773369(v=VS.85).aspx">GetThemeAppProperties</a>
+<a href="https://msdn.microsoft.com/33d93013-fba8-4282-b2d8-50bae2468fb6">GetThemeAppProperties</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\PathAppend.htm
 tech.root: shell
 ms.assetid: 896737ef-a05c-4f0f-b8b0-56355ae9c2d9
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: PathAppend, PathAppend function [Windows Shell], PathAppendA, PathAppendW, _win32_PathAppend, shell.PathAppend, shlwapi/PathAppend, shlwapi/PathAppendA, shlwapi/PathAppendW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,11 +104,15 @@ The path supplied in <i>pszPath</i> cannot begin with "..\\" or ".\\" to produce
 
 
 
-
-```cpp
-
-#include <windows.h>
-#include <iostream>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;iostream&gt;
 #include "Shlwapi.h"
 
 using namespace std;
@@ -125,19 +129,19 @@ int main( void )
 	char *lpStr2;
 	lpStr2 = buffer_2;
 
-	cout << "The original path string is    " << lpStr1 << endl;
-	cout << "The part to append to end is   " << lpStr2 << endl;
+	cout &lt;&lt; "The original path string is    " &lt;&lt; lpStr1 &lt;&lt; endl;
+	cout &lt;&lt; "The part to append to end is   " &lt;&lt; lpStr2 &lt;&lt; endl;
 	bool ret = PathAppend(lpStr1,lpStr2);
-	cout << "The appended path string is    " << lpStr1 << endl;
+	cout &lt;&lt; "The appended path string is    " &lt;&lt; lpStr1 &lt;&lt; endl;
 }
 
 OUTPUT:
 --------- 
 The original path string is    name_1\name_2
 The part to append to end is   name_3
-The appended path string is    name_1\name_2\name_3
-```
-
-
+The appended path string is    name_1\name_2\name_3</pre>
+</td>
+</tr>
+</table></span></div>
 
 

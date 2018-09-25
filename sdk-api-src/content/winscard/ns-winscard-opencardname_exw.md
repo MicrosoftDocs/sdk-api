@@ -7,7 +7,7 @@ old-location: security\opencardname_ex.htm
 tech.root: secauthn
 ms.assetid: fb9e64a9-441a-4c7b-b404-79682778c694
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: "*LPOPENCARDNAME_EXW, *POPENCARDNAME_EXW, LPOPENCARDNAME_EX, LPOPENCARDNAME_EX structure pointer [Security], OPENCARDNAME_EX, OPENCARDNAME_EX structure [Security], OPENCARDNAME_EXA, OPENCARDNAME_EXW, POPENCARDNAME_EX, POPENCARDNAME_EX structure pointer [Security], SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname_ex, security.opencardname_ex, winscard/LPOPENCARDNAME_EX, winscard/OPENCARDNAME_EX, winscard/OPENCARDNAME_EXA, winscard/OPENCARDNAME_EXW, winscard/POPENCARDNAME_EX"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,19 +151,23 @@ A pointer to the caller's card connect routine. If the caller needs to perform a
 
 The prototype for the connect routine is as follows.
 
-
-```cpp
-Connect(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Connect(
   hSCardContext,  // the card context passed in the parameter block
   szReader,       // the name of the reader
   mszCards,       // multiple string that contains the possible 
                   //  card names in the reader
   pvUserData      // pointer to user data passed in parameter block
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field pvUserData
 
@@ -234,7 +238,7 @@ A handle of the connected card (either through an internal dialog box connect or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>
+<a href="authentication_return_values.htm">Smart Card Return Values</a>
  
 
  

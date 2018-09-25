@@ -4,10 +4,10 @@ title: ITSubStream::get_Stream
 author: windows-sdk-content
 description: The get_Stream method retrieves the pointer to the ITStream interface for the current substream.
 old-location: tapi3\itsubstream_get_stream.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: ec97e621-3789-46a4-b6b6-96639c5e7d4f
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],get_Stream method, ITSubStream.get_Stream, ITSubStream::get_Stream, _tapi3_itsubstream_get_stream, get_Stream, get_Stream method [TAPI 2.2], get_Stream method [TAPI 2.2],ITSubStream interface, tapi3.itsubstream_get_stream, tapi3if/ITSubStream::get_Stream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,8 +120,8 @@ Insufficient memory exists to perform the operation.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> interface returned by <b>ITSubStream::get_Stream</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> interface returned by <b>ITSubStream::get_Stream</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> interface to free resources associated with it.
 
 

@@ -7,7 +7,7 @@ old-location: security\opencard_search_criteria.htm
 tech.root: secauthn
 ms.assetid: f20874ca-a714-45b7-abcb-85bedc4e6245
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: "*LPOPENCARD_SEARCH_CRITERIAW, *POPENCARD_SEARCH_CRITERIAW, LPOPENCARD_SEARCH_CRITERIA, LPOPENCARD_SEARCH_CRITERIA structure pointer [Security], OPENCARD_SEARCH_CRITERIA, OPENCARD_SEARCH_CRITERIA structure [Security], OPENCARD_SEARCH_CRITERIAA, OPENCARD_SEARCH_CRITERIAW, POPENCARD_SEARCH_CRITERIA, POPENCARD_SEARCH_CRITERIA structure pointer [Security], _smart_opencard_search_criteria, security.opencard_search_criteria, winscard/LPOPENCARD_SEARCH_CRITERIA, winscard/OPENCARD_SEARCH_CRITERIA, winscard/OPENCARD_SEARCH_CRITERIAA, winscard/OPENCARD_SEARCH_CRITERIAW, winscard/POPENCARD_SEARCH_CRITERIA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,17 +105,21 @@ A pointer to the caller's card verify routine. If no special card verification i
 
 The prototype for the check routine is as follows.
 
-
-```cpp
-Boolean Check(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Boolean Check(
   hSCardContext, // the card context passed in the parameter block
   hCard,         // card handle
   pvUserData     // pointer to user data passed in the parameter block
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnConnect
 
@@ -126,19 +130,23 @@ A pointer to the caller's card connect routine. If the caller needs to perform a
 
 The prototype for the connect routine is as follows.
 
-
-```cpp
-Connect(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Connect(
   hSCardContext, // the card context passed in the parameter block
   szReader,      // the name of the reader
   mszCards,      // multiple string that contains
                  //    the possible card names in the reader
   pvUserData     // pointer to user data passed in parameter block
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnDisconnect
 
@@ -149,17 +157,21 @@ A pointer to the caller's card disconnect routine.
 
 The prototype for the disconnect routine is as follows.
 
-
-```cpp
-Disconnect(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Disconnect(
   hSCardContext, // the card context passed in the parameter block
   hCard,         // card handle
   pvUserData     // pointer to user data passed in the parameter block
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  When you use <b>lpfnConnect</b>, <b>lpfnCheck</b>, and <b>lpfnDisconnect</b>, all three callback procedures should be present. Using these callbacks allows further verification that the calling application has found the appropriate card. This is the best way to ensure the appropriate card is selected. However, when using a value that is not <b>NULL</b> for <b>lpfnCheck</b>, either both <b>lpfnConnect</b> and <b>lpfnDisconnect</b> must not be <b>NULL</b> (and <b>pvUserData</b> should also be provided), or <b>dwShareMode</b> and <b>dwPreferredProtocols</b> must both be set.</div>
 <div> </div>
 

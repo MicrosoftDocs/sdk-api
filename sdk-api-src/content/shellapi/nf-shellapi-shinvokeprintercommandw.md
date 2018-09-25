@@ -7,7 +7,7 @@ old-location: shell\SHInvokePrinterCommand.htm
 tech.root: shell
 ms.assetid: 32a5802f-cef7-4dbd-affd-82285fe97a8c
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: PRINTACTION_DOCUMENTDEFAULTS, PRINTACTION_NETINSTALL, PRINTACTION_NETINSTALLLINK, PRINTACTION_OPEN, PRINTACTION_OPENNETPRN, PRINTACTION_PROPERTIES, PRINTACTION_SERVERPROPERTIES, PRINTACTION_TESTPAGE, SHInvokePrinterCommand, SHInvokePrinterCommand function [Windows Shell], SHInvokePrinterCommandA, SHInvokePrinterCommandW, _win32_SHInvokePrinterCommand, shell.SHInvokePrinterCommand, shellapi/SHInvokePrinterCommand, shellapi/SHInvokePrinterCommandA, shellapi/SHInvokePrinterCommandW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -204,12 +204,16 @@ Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 
 When a printer name is specified by <i>lpBuf1</i>, the name can either be the name of a local printer or the server and share name of a network printer. When specifying a network printer name, the name must be specified in this format: 
 
-
-```
-"\\<server><shared printer name>"
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>"\\&amp;lt;server&amp;gt;&amp;lt;shared printer name&amp;gt;"</pre>
+</td>
+</tr>
+</table></span></div>
 This function is implemented in <a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Shell versions 4.71</a> and later. In order to maintain backward compatibility with previous Shell versions, this function should not be used explicitly. Instead, the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions should be used to obtain the function address.
 
 

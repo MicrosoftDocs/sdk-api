@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrUIOperation.htm
 tech.root: shell
 ms.assetid: 6fa4b0ac-3c75-4cda-b20d-582a3e18fb28
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: ISyncMgrUIOperation, ISyncMgrUIOperation interface [Windows Shell], ISyncMgrUIOperation interface [Windows Shell],described, _shell_ISyncMgrUIOperation, shell.ISyncMgrUIOperation, syncmgr/ISyncMgrUIOperation
 ms.prod: windows
 ms.technology: windows-sdk

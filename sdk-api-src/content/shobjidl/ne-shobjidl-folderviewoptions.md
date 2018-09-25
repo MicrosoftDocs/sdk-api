@@ -7,7 +7,7 @@ old-location: shell\FOLDERVIEWOPTIONS.htm
 tech.root: shell
 ms.assetid: ab0ebc82-e917-4e3a-864b-fc3bb6280a48
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: FOLDERVIEWOPTIONS, FOLDERVIEWOPTIONS enumeration [Windows Shell], FVO_CUSTOMORDERING, FVO_CUSTOMPOSITION, FVO_DEFAULT, FVO_NOANIMATIONS, FVO_NOSCROLLTIPS, FVO_SUPPORTHYPERLINKS, FVO_VISTALAYOUT, _shell_FOLDERVIEWOPTIONS, shell.FOLDERVIEWOPTIONS, shobjidl/FOLDERVIEWOPTIONS, shobjidl/FVO_CUSTOMORDERING, shobjidl/FVO_CUSTOMPOSITION, shobjidl/FVO_DEFAULT, shobjidl/FVO_NOANIMATIONS, shobjidl/FVO_NOSCROLLTIPS, shobjidl/FVO_SUPPORTHYPERLINKS, shobjidl/FVO_VISTALAYOUT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,5 +96,5 @@ Used by methods of the <a href="https://msdn.microsoft.com/4831e62c-45e4-435d-b9
 
 A scroll tip displays the names of files as they are scrolled past, as a visual clue to your location in the list. An example is shown here.
 
-<img alt="Screen shot of a Scroll tip displaying the name of the Shell32.dll file in the System32 folder." src="./images/scrolltip.jpg"/>
+<img alt="Screen shot of a Scroll tip displaying the name of the Shell32.dll file in the System32 folder." src="images/scrolltip.jpg"/>
 

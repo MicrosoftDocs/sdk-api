@@ -7,7 +7,7 @@ old-location: security\encrypted_credentialw.htm
 tech.root: secauthn
 ms.assetid: b350ef3d-5ed5-4355-ae3a-f03fafff2f52
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: "*PENCRYPTED_CREDENTIALW, ENCRYPTED_CREDENTIALW, ENCRYPTED_CREDENTIALW structure [Security], PENCRYPTED_CREDENTIALW, PENCRYPTED_CREDENTIALW structure pointer [Security], _ENCRYPTED_CREDENTIALW, ntsecpkg/ENCRYPTED_CREDENTIALW, ntsecpkg/PENCRYPTED_CREDENTIALW, security.encrypted_credentialw"
 ms.prod: windows
 ms.technology: windows-sdk

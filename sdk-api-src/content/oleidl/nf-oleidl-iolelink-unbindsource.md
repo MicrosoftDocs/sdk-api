@@ -7,7 +7,7 @@ old-location: com\iolelink_unbindsource.htm
 tech.root: com
 ms.assetid: 3a678944-b4ba-47d8-9a89-470762efc6f9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: IOleLink interface [COM],UnbindSource method, IOleLink.UnbindSource, IOleLink::UnbindSource, UnbindSource, UnbindSource method [COM], UnbindSource method [COM],IOleLink interface, _ole_iolelink_unbindsource, com.iolelink_unbindsource, oleidl/IOleLink::UnbindSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

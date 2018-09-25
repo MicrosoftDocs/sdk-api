@@ -7,7 +7,7 @@ old-location: com\imarshal.htm
 tech.root: com
 ms.assetid: e6f08949-f27d-4aba-adff-eaf9c356a928
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: IMarshal, IMarshal interface [COM], IMarshal interface [COM],described, _com_imarshal, com.imarshal, objidlbase/IMarshal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Enables a COM object to define and manage the marshaling of its interface pointe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMarshal</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IMarshal</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMarshal</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IMarshal</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

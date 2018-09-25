@@ -7,7 +7,7 @@ old-location: shell\IDestinationStreamFactory_GetDestinationStream.htm
 tech.root: shell
 ms.assetid: 4903a3a1-12b7-4094-aac8-6e8525998c3c
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: GetDestinationStream, GetDestinationStream method [Windows Shell], GetDestinationStream method [Windows Shell],IDestinationStreamFactory interface, IDestinationStreamFactory interface [Windows Shell],GetDestinationStream method, IDestinationStreamFactory.GetDestinationStream, IDestinationStreamFactory::GetDestinationStream, shell.IDestinationStreamFactory_GetDestinationStream, shell_IDestinationStreamFactory_GetDestinationStream, shobjidl_core/IDestinationStreamFactory::GetDestinationStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

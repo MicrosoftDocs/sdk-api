@@ -7,7 +7,7 @@ old-location: wua\iupdateidentity.htm
 tech.root: wua_sdk
 ms.assetid: 2086a120-3a9a-48c9-bf8a-ec86624f960c
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdateIdentity, IUpdateIdentity interface [Windows Update Agent], IUpdateIdentity interface [Windows Update Agent],described, wua.iupdateidentity, wuapi/IUpdateIdentity
 ms.prod: windows
 ms.technology: windows-sdk

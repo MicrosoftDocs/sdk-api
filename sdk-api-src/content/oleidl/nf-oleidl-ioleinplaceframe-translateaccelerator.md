@@ -7,7 +7,7 @@ old-location: com\ioleinplaceframe_translateaccelerator.htm
 tech.root: com
 ms.assetid: f755b919-b810-4b66-b3c2-bf38bd525d60
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: IOleInPlaceFrame interface [COM],TranslateAccelerator method, IOleInPlaceFrame.TranslateAccelerator, IOleInPlaceFrame::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_translateaccelerator, com.ioleinplaceframe_translateaccelerator, oleidl/IOleInPlaceFrame::TranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Translates accelerator keystrokes intended for the container's frame while an ob
 
 ### -param lpmsg [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure that contains the keystroke message.
+A pointer to the <a href="_win32_MSG_str_cpp">MSG</a> structure that contains the keystroke message.
 
 
 ### -param wID [in]
@@ -126,9 +126,9 @@ An unexpected error occurred.
 The <b>IOleInPlaceFrame::TranslateAccelerator</b> method is called indirectly by <a href="https://msdn.microsoft.com/c590efef-7f03-4ae6-a35f-eff2fc4da3d9">OleTranslateAccelerator</a> when a keystroke accelerator intended for the container (frame) is received.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-The container application should perform its usual accelerator processing, or use <i>wID</i> directly, and then return, indicating whether the keystroke accelerator was processed. If the container is an MDI application and the <a href="https://msdn.microsoft.com/en-us/library/Dd368768(v=VS.85).aspx">TranslateAccelerator</a> function fails, the container can call the <a href="https://msdn.microsoft.com/en-us/library/ms644926(v=VS.85).aspx">TranslateMDISysAccel</a> function, just as it does for its usual message processing.
+The container application should perform its usual accelerator processing, or use <i>wID</i> directly, and then return, indicating whether the keystroke accelerator was processed. If the container is an MDI application and the <a href="_win32_TranslateAccelerator_cpp">TranslateAccelerator</a> function fails, the container can call the <a href="_win32_TranslateMDISysAccel_cpp">TranslateMDISysAccel</a> function, just as it does for its usual message processing.
 
-In-place objects should be given first chance at translating accelerator messages. However, because objects implemented by DLL object applications do not have their own message pump, they receive their messages from the container's message queue. To ensure that the object has first chance at translating messages, a container should always call <b>IOleInPlaceFrame::TranslateAccelerator</b> before doing its own accelerator translation. Conversely, an executable object application should call <a href="https://msdn.microsoft.com/c590efef-7f03-4ae6-a35f-eff2fc4da3d9">OleTranslateAccelerator</a> after calling <a href="https://msdn.microsoft.com/en-us/library/Dd368768(v=VS.85).aspx">TranslateAccelerator</a>, calling <a href="https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx">TranslateMessage</a> and <a href="https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx">DispatchMessage</a> only if both translation functions fail.
+In-place objects should be given first chance at translating accelerator messages. However, because objects implemented by DLL object applications do not have their own message pump, they receive their messages from the container's message queue. To ensure that the object has first chance at translating messages, a container should always call <b>IOleInPlaceFrame::TranslateAccelerator</b> before doing its own accelerator translation. Conversely, an executable object application should call <a href="https://msdn.microsoft.com/c590efef-7f03-4ae6-a35f-eff2fc4da3d9">OleTranslateAccelerator</a> after calling <a href="_win32_TranslateAccelerator_cpp">TranslateAccelerator</a>, calling <a href="_win32_TranslateMessage_cpp">TranslateMessage</a> and <a href="_win32_DispatchMessage_cpp">DispatchMessage</a> only if both translation functions fail.
 
 You should define accelerator tables for containers so they will work properly with object applications that do their own accelerator keystroke translations. Tables should be defined as follows.
 
@@ -155,11 +155,11 @@ This is the most common way to describe keyboard accelerators. Failure to do so 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368768(v=VS.85).aspx">TranslateAccelerator</a>
+<a href="_win32_TranslateAccelerator_cpp">TranslateAccelerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644926(v=VS.85).aspx">TranslateMDISysAccel</a>
+<a href="_win32_TranslateMDISysAccel_cpp">TranslateMDISysAccel</a>
  
 
  

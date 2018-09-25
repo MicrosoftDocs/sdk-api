@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterPattern.htm
 tech.root: WinAuto
 ms.assetid: 6aa61295-e035-4a51-9157-7cf9cfaee37a
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IUIAutomationRegistrar interface [Windows Accessibility],RegisterPattern method, IUIAutomationRegistrar.RegisterPattern, IUIAutomationRegistrar::RegisterPattern, RegisterPattern, RegisterPattern method [Windows Accessibility], RegisterPattern method [Windows Accessibility],IUIAutomationRegistrar interface, uiauto.uiauto_IUIAutomationRegistrar_RegisterPattern, uiauto_IUIAutomationRegistrar_RegisterPattern, uiautomationcore/IUIAutomationRegistrar::RegisterPattern, winauto.uiauto_IUIAutomationRegistrar_RegisterPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ TBD
 
 Type: <b>PROPERTYID*</b>
 
-Receives the property identifier for the pattern.  This value can be used with UI Automation client methods to determine whether the element supports the new pattern. This is equivalent to values such as <a href="https://msdn.microsoft.com/en-us/library/Ee671199(v=VS.85).aspx">UIA_IsInvokePatternAvailablePropertyId</a>.
+Receives the property identifier for the pattern.  This value can be used with UI Automation client methods to determine whether the element supports the new pattern. This is equivalent to values such as <a href="uiauto_control_pattern_availability_propids.htm">UIA_IsInvokePatternAvailablePropertyId</a>.
 
 
 ### -param propertyIdCount [in]

@@ -7,7 +7,7 @@ old-location: com\coregistersurrogate.htm
 tech.root: com
 ms.assetid: 4d1c6ca6-ab21-429c-9433-7c95d9e757b5
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: CoRegisterSurrogate, CoRegisterSurrogate function [COM], _com_CoRegisterSurrogate, com.coregistersurrogate, combaseapi/CoRegisterSurrogate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,7 +54,7 @@ req.redist:
 ## -description
 
 
-Registers the surrogate process through its <a href="https://msdn.microsoft.com/en-us/library/ms695062(v=VS.85).aspx">ISurrogate</a> interface pointer.
+Registers the surrogate process through its <a href="https://msdn.microsoft.com/fbed0514-3646-4744-aa7a-4a98f1a12cc0">ISurrogate</a> interface pointer.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Registers the surrogate process through its <a href="https://msdn.microsoft.com/
 
 ### -param pSurrogate [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms695062(v=VS.85).aspx">ISurrogate</a> interface on the surrogate process to be registered.
+A pointer to the <a href="https://msdn.microsoft.com/fbed0514-3646-4744-aa7a-4a98f1a12cc0">ISurrogate</a> interface on the surrogate process to be registered.
 
 
 ## -returns
@@ -80,7 +80,7 @@ This function returns S_OK to indicate that the surrogate process was registered
 
 
 
-The <b>CoRegisterSurrogate</b> function sets a global interface pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms695062(v=VS.85).aspx">ISurrogate</a> interface implemented on the surrogate process. This pointer is set in the ole32 DLL loaded in the surrogate process. COM uses this global pointer in ole32 to call the methods of <b>ISurrogate</b>. This function is usually called by the surrogate implementation when it is launched.
+The <b>CoRegisterSurrogate</b> function sets a global interface pointer to the <a href="https://msdn.microsoft.com/fbed0514-3646-4744-aa7a-4a98f1a12cc0">ISurrogate</a> interface implemented on the surrogate process. This pointer is set in the ole32 DLL loaded in the surrogate process. COM uses this global pointer in ole32 to call the methods of <b>ISurrogate</b>. This function is usually called by the surrogate implementation when it is launched.
 
 
 
@@ -94,11 +94,11 @@ As of Windows Server 2003, if a COM object application is registered as a servi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms695062(v=VS.85).aspx">ISurrogate</a>
+<a href="https://msdn.microsoft.com/fbed0514-3646-4744-aa7a-4a98f1a12cc0">ISurrogate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682432(v=VS.85).aspx">Writing a Custom Surrogate</a>
+<a href="https://msdn.microsoft.com/510e38e5-1965-46f4-b09c-6fa585cff993">Writing a Custom Surrogate</a>
  
 
  

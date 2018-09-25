@@ -4,10 +4,10 @@ title: lineagentlist_tag
 author: windows-sdk-content
 description: The LINEAGENTLIST structure describes a list of ACD agents. This structure can contain an array of LINEAGENTENTRY structures.
 old-location: tapi2\lineagentlist.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 176beb90-a9aa-4d40-9f84-e6ea9f84b5a2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: "*LPLINEAGENTLIST, LINEAGENTLIST, LINEAGENTLIST structure [TAPI 2.2], LPLINEAGENTLIST, LPLINEAGENTLIST structure pointer [TAPI 2.2], _tapi2_lineagentlist, lineagentlist_tag, tapi/LINEAGENTLIST, tapi/LPLINEAGENTLIST, tapi2.lineagentlist"
 ms.prod: windows
 ms.technology: windows-sdk

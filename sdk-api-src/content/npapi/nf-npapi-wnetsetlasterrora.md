@@ -7,7 +7,7 @@ old-location: security\wnetsetlasterror.htm
 tech.root: secauthn
 ms.assetid: ee472f01-de44-4c47-9ae5-8bbac74de78b
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: WNetSetLastError, WNetSetLastError function [Security], WNetSetLastErrorA, _mnp_wnetsetlasterror, npapi/WNetSetLastError, npapi/WNetSetLastErrorA, security.wnetsetlasterror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,28 +97,36 @@ A provider should use this function to report errors that contain provider-speci
 
 The recommended way for a provider function to handle general errors is to use the following statement.
 
-
-```cpp
-return(providerError);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>return(providerError);
+</pre>
+</td>
+</tr>
+</table></span></div>
 In this statement, providerError is a Windows error code, such as one of the return codes listed for the provider API in this document.
 
 For provider-specific errors, a provider should do the following.
 
-
-```cpp
-//  Set up lpErrorString to be the error to be reported.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//  Set up lpErrorString to be the error to be reported.
 WNetSetLastError(providerError,
 lpErrorString,
 lpProviderName) ;
 return(ERROR_EXTENDED_ERROR) ;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 In this case, providerError is the provider-specific error code.
 
 Providers do not need to call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> before returning from a provider function. The MPR calls <b>SetLastError</b> to set the Windows error returned from a provider when necessary to satisfy applications.

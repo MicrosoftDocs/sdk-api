@@ -4,10 +4,10 @@ title: ITLocationInfo::get_CancelCallWaitingCode
 author: windows-sdk-content
 description: The get_CancelCallWaitingCode method gets the dial digits and modifier characters that must be prefixed to a dialable string to cancel call waiting.
 old-location: tapi3\itlocationinfo_get_cancelcallwaitingcode.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 49137921-7354-4080-8684-148beb919f01
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_CancelCallWaitingCode method, ITLocationInfo.get_CancelCallWaitingCode, ITLocationInfo::get_CancelCallWaitingCode, _tapi3_itlocationinfo_get_cancelcallwaitingcode, get_CancelCallWaitingCode, get_CancelCallWaitingCode method [TAPI 2.2], get_CancelCallWaitingCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_cancelcallwaitingcode, tapi3if/ITLocationInfo::get_CancelCallWaitingCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,7 +119,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppCode</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppCode</i> parameter.
 			
 
 The value that this method returns corresponds to the <b>dwCancelCallWaitingSize</b> and <b>dwCancelCallWaitingOffset</b> members of TAPI 2's 

@@ -7,7 +7,7 @@ old-location: wua\iupdatedownloadcontentcollection_count.htm
 tech.root: wua_sdk
 ms.assetid: fbe4e702-644c-4eee-beea-a91bad9cb1be
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateDownloadContentCollection interface, IUpdateDownloadContentCollection interface [Windows Update Agent],Count property, IUpdateDownloadContentCollection.Count, IUpdateDownloadContentCollection.get_Count, IUpdateDownloadContentCollection::Count, IUpdateDownloadContentCollection::get_Count, get_Count, wua.iupdatedownloadcontentcollection_count, wuapi/IUpdateDownloadContentCollection::Count, wuapi/IUpdateDownloadContentCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

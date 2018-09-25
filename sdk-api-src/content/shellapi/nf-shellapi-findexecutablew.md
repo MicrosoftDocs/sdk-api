@@ -7,7 +7,7 @@ old-location: shell\FindExecutable.htm
 tech.root: shell
 ms.assetid: 969edbd9-164e-457f-ab0a-dc4d069bf16b
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: FindExecutable, FindExecutable function [Windows Shell], FindExecutableA, FindExecutableW, _win32_FindExecutable, shell.FindExecutable, shellapi/FindExecutable, shellapi/FindExecutableA, shellapi/FindExecutableW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -172,17 +172,21 @@ Use <b>FindExecutable</b> for documents. If you want to retrieve the path of an 
 
 				
 
-
-```
-AssocQueryString(ASSOCF_OPEN_BYEXENAME,
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>AssocQueryString(ASSOCF_OPEN_BYEXENAME,
                  ASSOCSTR_EXECUTABLE,
                  pszExecutableName,
                  NULL,
                  pszPath,
-                 pcchOut);
-```
-
-
+                 pcchOut);</pre>
+</td>
+</tr>
+</table></span></div>
 Here, <i>pszExecutableName</i> is a pointer to a <b>null</b>-terminated string that specifies the name of the executable file, <i>pszPath</i> is a pointer to the <b>null</b>-terminated string buffer that receives the path to the executable file, and <i>pcchOut</i> is a pointer to a <b>DWORD</b> that specifies the number of characters in the <i>pszPath</i> buffer. When the function returns, <i>pcchOut</i> is set to the number of characters actually placed in the buffer. See <a href="https://msdn.microsoft.com/026b841d-b831-475e-a788-2c79801e20b8">AssocQueryString</a> for more information.
 
 When <b>FindExecutable</b> returns, the <i>lpResult</i> parameter may contain the path to the Dynamic Data Exchange (DDE) server started if a server does not respond to a request to initiate a DDE conversation with the DDE client application.

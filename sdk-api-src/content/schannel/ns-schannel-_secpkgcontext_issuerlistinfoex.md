@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_issuerlistinfoex.htm
 tech.root: secauthn
 ms.assetid: cf1ccd40-36bf-4597-b34f-d26cef63d800
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: "*PSecPkgContext_IssuerListInfoEx, PSecPkgContext_IssuerListInfoEx, PSecPkgContext_IssuerListInfoEx structure pointer [Security], SecPkgContext_IssuerListInfoEx, SecPkgContext_IssuerListInfoEx structure [Security], _SecPkgContext_IssuerListInfoEx, _ssp_secpkgcontext_issuerlistinfoex, schannel/PSecPkgContext_IssuerListInfoEx, schannel/SecPkgContext_IssuerListInfoEx, security.secpkgcontext_issuerlistinfoex"
 ms.prod: windows
 ms.technology: windows-sdk

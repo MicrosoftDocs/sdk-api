@@ -7,7 +7,7 @@ old-location: security\wlx_desktop.htm
 tech.root: secauthn
 ms.assetid: 3cde1b9e-5109-400d-a67f-1e263f2283d1
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: "*PWLX_DESKTOP, PWLX_DESKTOP, PWLX_DESKTOP structure pointer [Security], WLX_DESKTOP, WLX_DESKTOP structure [Security], WLX_DESKTOP_HANDLE, WLX_DESKTOP_NAME, _WLX_DESKTOP, _gina_wlx_desktop, security.wlx_desktop, winwlx/PWLX_DESKTOP, winwlx/WLX_DESKTOP"
 ms.prod: windows
 ms.technology: windows-sdk

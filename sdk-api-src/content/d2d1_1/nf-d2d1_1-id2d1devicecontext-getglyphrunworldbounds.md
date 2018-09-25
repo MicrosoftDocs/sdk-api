@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::GetGlyphRunWorldBounds
 author: windows-sdk-content
 description: Gets the world-space bounds in DIPs of the glyph run using the device context DPI.
 old-location: direct2d\id2d1devicecontext_getglyphrunworldbounds.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 1196095A-4B26-4E71-A7F4-86F23B79E1F6
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: GetGlyphRunWorldBounds, GetGlyphRunWorldBounds method [Direct2D], GetGlyphRunWorldBounds method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetGlyphRunWorldBounds method, ID2D1DeviceContext.GetGlyphRunWorldBounds, ID2D1DeviceContext::GetGlyphRunWorldBounds, d2d1_1/ID2D1DeviceContext::GetGlyphRunWorldBounds, direct2d.id2d1devicecontext_getglyphrunworldbounds
 ms.prod: windows-hardware
 ms.technology: windows-devices

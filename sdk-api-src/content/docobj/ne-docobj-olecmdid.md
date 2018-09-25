@@ -7,7 +7,7 @@ old-location: com\olecmdid.htm
 tech.root: com
 ms.assetid: ae1592b6-2afd-4379-a18e-d46b226bc9e2
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: OLECMDID, OLECMDID enumeration [COM], OLECMDID_ACTIVEXINSTALLSCOPE, OLECMDID_ADDTRAVELENTRY, OLECMDID_ALLOWUILESSSAVEAS, OLECMDID_CLEARSELECTION, OLECMDID_CLOSE, OLECMDID_COPY, OLECMDID_CUT, OLECMDID_DELETE, OLECMDID_DONTDOWNLOADCSS, OLECMDID_ENABLE_INTERACTION, OLECMDID_FIND, OLECMDID_FOCUSVIEWCONTROLS, OLECMDID_FOCUSVIEWCONTROLSQUERY, OLECMDID_GETPRINTTEMPLATE, OLECMDID_GETZOOMRANGE, OLECMDID_HIDETOOLBARS, OLECMDID_HTTPEQUIV, OLECMDID_HTTPEQUIV_DONE, OLECMDID_NEW, OLECMDID_ONTOOLBARACTIVATED, OLECMDID_ONUNLOAD, OLECMDID_OPEN, OLECMDID_OPTICAL_GETZOOMRANGE, OLECMDID_OPTICAL_ZOOM, OLECMDID_PAGEACTIONBLOCKED, OLECMDID_PAGEACTIONUIQUERY, OLECMDID_PAGESETUP, OLECMDID_PASTE, OLECMDID_PASTESPECIAL, OLECMDID_PREREFRESH, OLECMDID_PRINT, OLECMDID_PRINT2, OLECMDID_PRINTPREVIEW, OLECMDID_PRINTPREVIEW2, OLECMDID_PROPERTIES, OLECMDID_PROPERTYBAG2, OLECMDID_REDO, OLECMDID_REFRESH, OLECMDID_SAVE, OLECMDID_SAVEAS, OLECMDID_SAVECOPYAS, OLECMDID_SELECTALL, OLECMDID_SETDOWNLOADSTATE, OLECMDID_SETPRINTTEMPLATE, OLECMDID_SETPROGRESSMAX, OLECMDID_SETPROGRESSPOS, OLECMDID_SETPROGRESSTEXT, OLECMDID_SETTITLE, OLECMDID_SHOWFIND, OLECMDID_SHOWMESSAGE, OLECMDID_SHOWPAGEACTIONMENU, OLECMDID_SHOWPAGESETUP, OLECMDID_SHOWPRINT, OLECMDID_SHOWSCRIPTERROR, OLECMDID_SPELL, OLECMDID_STOP, OLECMDID_STOPDOWNLOAD, OLECMDID_UNDO, OLECMDID_UPDATEBACKFORWARDSTATE, OLECMDID_UPDATECOMMANDS, OLECMDID_UPDATEPAGESTATUS, OLECMDID_UPDATETRAVELENTRY, OLECMDID_UPDATETRAVELENTRY_DATARECOVERY, OLECMDID_WINDOWSTATECHANGED, OLECMDID_ZOOM, _ole_OLECMDID, com.olecmdid, docobj/OLECMDID, docobj/OLECMDID_ACTIVEXINSTALLSCOPE, docobj/OLECMDID_ADDTRAVELENTRY, docobj/OLECMDID_ALLOWUILESSSAVEAS, docobj/OLECMDID_CLEARSELECTION, docobj/OLECMDID_CLOSE, docobj/OLECMDID_COPY, docobj/OLECMDID_CUT, docobj/OLECMDID_DELETE, docobj/OLECMDID_DONTDOWNLOADCSS, docobj/OLECMDID_ENABLE_INTERACTION, docobj/OLECMDID_FIND, docobj/OLECMDID_FOCUSVIEWCONTROLS, docobj/OLECMDID_FOCUSVIEWCONTROLSQUERY, docobj/OLECMDID_GETPRINTTEMPLATE, docobj/OLECMDID_GETZOOMRANGE, docobj/OLECMDID_HIDETOOLBARS, docobj/OLECMDID_HTTPEQUIV, docobj/OLECMDID_HTTPEQUIV_DONE, docobj/OLECMDID_NEW, docobj/OLECMDID_ONTOOLBARACTIVATED, docobj/OLECMDID_ONUNLOAD, docobj/OLECMDID_OPEN, docobj/OLECMDID_OPTICAL_GETZOOMRANGE, docobj/OLECMDID_OPTICAL_ZOOM, docobj/OLECMDID_PAGEACTIONBLOCKED, docobj/OLECMDID_PAGEACTIONUIQUERY, docobj/OLECMDID_PAGESETUP, docobj/OLECMDID_PASTE, docobj/OLECMDID_PASTESPECIAL, docobj/OLECMDID_PREREFRESH, docobj/OLECMDID_PRINT, docobj/OLECMDID_PRINT2, docobj/OLECMDID_PRINTPREVIEW, docobj/OLECMDID_PRINTPREVIEW2, docobj/OLECMDID_PROPERTIES, docobj/OLECMDID_PROPERTYBAG2, docobj/OLECMDID_REDO, docobj/OLECMDID_REFRESH, docobj/OLECMDID_SAVE, docobj/OLECMDID_SAVEAS, docobj/OLECMDID_SAVECOPYAS, docobj/OLECMDID_SELECTALL, docobj/OLECMDID_SETDOWNLOADSTATE, docobj/OLECMDID_SETPRINTTEMPLATE, docobj/OLECMDID_SETPROGRESSMAX, docobj/OLECMDID_SETPROGRESSPOS, docobj/OLECMDID_SETPROGRESSTEXT, docobj/OLECMDID_SETTITLE, docobj/OLECMDID_SHOWFIND, docobj/OLECMDID_SHOWMESSAGE, docobj/OLECMDID_SHOWPAGEACTIONMENU, docobj/OLECMDID_SHOWPAGESETUP, docobj/OLECMDID_SHOWPRINT, docobj/OLECMDID_SHOWSCRIPTERROR, docobj/OLECMDID_SPELL, docobj/OLECMDID_STOP, docobj/OLECMDID_STOPDOWNLOAD, docobj/OLECMDID_UNDO, docobj/OLECMDID_UPDATEBACKFORWARDSTATE, docobj/OLECMDID_UPDATECOMMANDS, docobj/OLECMDID_UPDATEPAGESTATUS, docobj/OLECMDID_UPDATETRAVELENTRY, docobj/OLECMDID_UPDATETRAVELENTRY_DATARECOVERY, docobj/OLECMDID_WINDOWSTATECHANGED, docobj/OLECMDID_ZOOM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -260,7 +260,7 @@ Tells the receiver to display the script error message.
 
 ### -field OLECMDID_SHOWMESSAGE
 
-This command takes an <a href="https://msdn.microsoft.com/library/Hh773930(v=VS.85).aspx">IHTMLEventObj</a> input parameter that  contains a  message that the receiver shows.
+This command takes an <a href="ie.IHTMLEventObj2">IHTMLEventObj</a> input parameter that  contains a  message that the receiver shows.
 
 
 ### -field OLECMDID_SHOWFIND
@@ -270,12 +270,12 @@ Tells the receiver to show the Find dialog box. It takes a <b>VT_DISPATCH</b> in
 
 ### -field OLECMDID_SHOWPAGESETUP
 
-Tells the receiver to show the Page Setup dialog box. It takes an <a href="https://msdn.microsoft.com/library/Hh773930(v=VS.85).aspx">IHTMLEventObj2</a>  input parameter.
+Tells the receiver to show the Page Setup dialog box. It takes an <a href="ie.IHTMLEventObj2">IHTMLEventObj2</a>  input parameter.
 
 
 ### -field OLECMDID_SHOWPRINT
 
-Tells the receiver to show the Print dialog box. It takes an <a href="https://msdn.microsoft.com/library/Hh773930(v=VS.85).aspx">IHTMLEventObj2</a>  input parameter.
+Tells the receiver to show the Print dialog box. It takes an <a href="ie.IHTMLEventObj2">IHTMLEventObj2</a>  input parameter.
 
 
 ### -field OLECMDID_CLOSE
@@ -380,7 +380,7 @@ Windows Internet Explorer 8 with Windows Vista. Has no effect with Windows Inte
 
 ### -field OLECMDID_UPDATETRAVELENTRY_DATARECOVERY
 
-Internet Explorer 8. Unlike OLECMDID_UPDATETRAVELENTRY, this updates a Travel Log entry that is not initialized from a previous Docobject state. While this command is not called from <a href="https://msdn.microsoft.com/library/Aa768216(v=VS.85).aspx">IPersistHistory::LoadHistory</a>, it can be called separately to save browser state that can be used later to recover from a crash.
+Internet Explorer 8. Unlike OLECMDID_UPDATETRAVELENTRY, this updates a Travel Log entry that is not initialized from a previous Docobject state. While this command is not called from <a href="_inet_IPersistHistory_LoadHistory_Method">IPersistHistory::LoadHistory</a>, it can be called separately to save browser state that can be used later to recover from a crash.
 
 
 ### -field OLECMDID_SHOWTASKDLG
@@ -505,18 +505,22 @@ The Install Scope must be one of the following values.
 
 The following is an example use of the OLECMDID_ACTIVEXINSTALLSCOPE command.
 
-
-```cpp
-IOleCommandTarget::Exec(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IOleCommandTarget::Exec(
 NULL, // Pointer to command group
 OLECMDARGINDEX_ACTIVEXINSTALL_INSTALLSCOPE, // ID of command to execute
 NULL, // Options
-&varArgs, // pvain pointer to input arguments
+&amp;varArgs, // pvain pointer to input arguments
 NULL) // pointer to command output
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

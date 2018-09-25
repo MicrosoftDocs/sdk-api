@@ -7,7 +7,7 @@ old-location: com\iolecontrolsite_lockinplaceactive.htm
 tech.root: com
 ms.assetid: abd9a6c6-1551-4423-b1d6-f735159f6df4
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: IOleControlSite interface [COM],LockInPlaceActive method, IOleControlSite.LockInPlaceActive, IOleControlSite::LockInPlaceActive, LockInPlaceActive, LockInPlaceActive method [COM], LockInPlaceActive method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_lockinplaceactive, com.iolecontrolsite_lockinplaceactive, ocidl/IOleControlSite::LockInPlaceActive
 ms.prod: windows-hardware
 ms.technology: windows-devices

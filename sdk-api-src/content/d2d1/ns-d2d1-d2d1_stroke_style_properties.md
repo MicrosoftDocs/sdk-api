@@ -4,10 +4,10 @@ title: D2D1_STROKE_STYLE_PROPERTIES
 author: windows-sdk-content
 description: Describes the stroke that outlines a shape.
 old-location: direct2d\D2D1_STROKE_STYLE_PROPERTIES.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 67f3701f-febd-4afe-803e-c5d9dbcd1b21
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: D2D1_STROKE_STYLE_PROPERTIES, D2D1_STROKE_STYLE_PROPERTIES structure [Direct2D], d2d1/D2D1_STROKE_STYLE_PROPERTIES, direct2d.D2D1_STROKE_STYLE_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,28 +61,28 @@ Describes the stroke that outlines a shape.
 
 ### -field startCap
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368079(v=VS.85).aspx">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/acf4365e-b9df-459e-a746-016339cd09ac">D2D1_CAP_STYLE</a></b>
 
 The cap applied to the start of all the open figures in a stroked geometry.
 
 
 ### -field endCap
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368079(v=VS.85).aspx">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/acf4365e-b9df-459e-a746-016339cd09ac">D2D1_CAP_STYLE</a></b>
 
 The cap applied to the end of all the open figures in a stroked geometry.
 
 
 ### -field dashCap
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368079(v=VS.85).aspx">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/acf4365e-b9df-459e-a746-016339cd09ac">D2D1_CAP_STYLE</a></b>
 
 The shape  at either end of each dash segment.
 
 
 ### -field lineJoin
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368130(v=VS.85).aspx">D2D1_LINE_JOIN</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4368e93e-af69-4555-ac2b-c9c576c81372">D2D1_LINE_JOIN</a></b>
 
 A value that describes how segments are joined. This value is ignored for a vertex if the segment flags specify that the segment should have a smooth join. 
 
@@ -98,7 +98,7 @@ The limit of the thickness of the join on a mitered corner. This value is always
 
 ### -field dashStyle
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368087(v=VS.85).aspx">D2D1_DASH_STYLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c1807e3-51e6-440a-bd80-9b43ed7a39f5">D2D1_DASH_STYLE</a></b>
 
 A value that specifies whether the stroke has a dash pattern and, if so, the dash style. 
 
@@ -116,7 +116,7 @@ A value that specifies an offset in the dash sequence.   A positive dash offset 
 
 The following illustration shows different <i>dashOffset</i> values for the same custom dash style.
 
-<img alt="Illustration of four dashes with the same style and different dashOffset values" src="./images/StrokeStyle_DashOffset.png"/>
+<img alt="Illustration of four dashes with the same style and different dashOffset values" src="images/StrokeStyle_DashOffset.png"/>
 
 
 

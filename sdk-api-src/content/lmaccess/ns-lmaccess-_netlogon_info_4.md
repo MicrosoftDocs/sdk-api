@@ -7,7 +7,7 @@ old-location: winprog\netlogon_info_4.htm
 tech.root: devnotes
 ms.assetid: 6a0ffd68-149f-4d5d-8a8a-69f429ca135a
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: "*PNETLOGON_INFO_4, NETLOGON_INFO_4, NETLOGON_INFO_4 structure [Windows API], PNETLOGON_INFO_4, PNETLOGON_INFO_4 structure pointer [Windows API], _NETLOGON_INFO_4, lmaccess/NETLOGON_INFO_4, lmaccess/PNETLOGON_INFO_4, winprog.netlogon_info_4"
 ms.prod: windows
 ms.technology: windows-sdk

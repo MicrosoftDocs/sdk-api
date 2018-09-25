@@ -4,10 +4,10 @@ title: ITQueue::get_MeasurementPeriod
 author: windows-sdk-content
 description: The get_MeasurementPeriod method gets the measurement period (in seconds) for which the switch and/or implementation stores and calculates information.
 old-location: tapi3\itqueue_get_measurementperiod.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 931fb7dd-8c9b-4b1e-9296-6335e5a7e164
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_MeasurementPeriod method, ITQueue.get_MeasurementPeriod, ITQueue::get_MeasurementPeriod, _tapi3_itqueue_get_measurementperiod, get_MeasurementPeriod, get_MeasurementPeriod method [TAPI 2.2], get_MeasurementPeriod method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_measurementperiod, tapi3cc/ITQueue::get_MeasurementPeriod
 ms.prod: windows-hardware
 ms.technology: windows-devices

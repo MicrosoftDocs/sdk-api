@@ -123,27 +123,31 @@ If the Microsoft Distributed Transaction Coordinator is not running and the obje
 
 #### Examples
 
-
-```cpp
-ITransactionContextEx* pTransactionContext = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ITransactionContextEx* pTransactionContext = NULL;
 IMyObject* pMyObject = NULL;
 HRESULT hr;
 
 // Get TransactionContextEx.
 hr = CoCreateInstance(CLSID_TransactionContextEx, 
   NULL, CLSCTX_INPROC, IID_ITransactionContextEx, 
-  (void**)&pTransactionContext);
+  (void**)&amp;pTransactionContext);
 if (FAILED(hr)) throw(hr);
 
 // Create an instance of MyObject.
-hr = pTransactionContext->CreateInstance(CLSID_CMyObject, 
-  IID_IMyObject, (void**)&pMyObject);
+hr = pTransactionContext-&gt;CreateInstance(CLSID_CMyObject, 
+  IID_IMyObject, (void**)&amp;pMyObject);
 if (FAILED(hr)) throw(hr);
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

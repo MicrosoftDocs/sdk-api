@@ -7,7 +7,7 @@ old-location: winprog\ntopenfile.htm
 tech.root: devnotes
 ms.assetid: b77a85d1-7d2d-4834-b5d9-9baf68804369
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: NtOpenFile, NtOpenFile function [Windows API], winprog.ntopenfile, winternl/NtOpenFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

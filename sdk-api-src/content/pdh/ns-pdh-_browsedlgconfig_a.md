@@ -7,7 +7,7 @@ old-location: perf\pdh_browse_dlg_config_str.htm
 tech.root: perfctrs
 ms.assetid: 8e045e0b-c157-4527-902c-6096c7922642
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: "*PPDH_BROWSE_DLG_CONFIG_A, PDH_BROWSE_DLG_CONFIG, PDH_BROWSE_DLG_CONFIG structure [Perf], PDH_BROWSE_DLG_CONFIG_A, PDH_BROWSE_DLG_CONFIG_W, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PPDH_BROWSE_DLG_CONFIG, PPDH_BROWSE_DLG_CONFIG structure pointer [Perf], _BrowseDlgConfig_A, _win32_pdh_browse_dlg_config_str, base.pdh_browse_dlg_config_str, pdh/PDH_BROWSE_DLG_CONFIG, pdh/PDH_BROWSE_DLG_CONFIG_A, pdh/PDH_BROWSE_DLG_CONFIG_W, pdh/PPDH_BROWSE_DLG_CONFIG, perf.pdh_browse_dlg_config_str"
 ms.prod: windows
 ms.technology: windows-sdk

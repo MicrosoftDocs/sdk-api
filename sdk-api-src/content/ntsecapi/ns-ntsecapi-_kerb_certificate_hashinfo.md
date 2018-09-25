@@ -7,7 +7,7 @@ old-location: security\kerb_certificate_hashinfo.htm
 tech.root: secauthn
 ms.assetid: 09D78E91-5873-481D-A5FC-B7F39F8F9BB8
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: "*PKERB_CERTIFICATE_HASHINFO, KERB_CERTIFICATE_HASHINFO, KERB_CERTIFICATE_HASHINFO structure [Security], PKERB_CERTIFICATE_HASHINFO, PKERB_CERTIFICATE_HASHINFO structure pointer [Security], _KERB_CERTIFICATE_HASHINFO, ntsecapi/KERB_CERTIFICATE_HASHINFO, ntsecapi/PKERB_CERTIFICATE_HASHINFO, security.kerb_certificate_hashinfo"
 ms.prod: windows
 ms.technology: windows-sdk

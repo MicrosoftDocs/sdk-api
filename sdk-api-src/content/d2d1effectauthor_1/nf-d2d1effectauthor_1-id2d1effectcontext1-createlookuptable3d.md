@@ -4,10 +4,10 @@ title: ID2D1EffectContext1::CreateLookupTable3D
 author: windows-sdk-content
 description: Creates a 3D lookup table for mapping a 3-channel input to a 3-channel output. The table data must be provided in 4-channel format.
 old-location: direct2d\id2d1effectcontext1_createlookuptable3d.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 410D6785-944D-4A64-887A-0BD4511127DF
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: CreateLookupTable3D, CreateLookupTable3D method [Direct2D], CreateLookupTable3D method [Direct2D],ID2D1EffectContext1 interface, ID2D1EffectContext1 interface [Direct2D],CreateLookupTable3D method, ID2D1EffectContext1.CreateLookupTable3D, ID2D1EffectContext1::CreateLookupTable3D, d2d1effectauthor_1/ID2D1EffectContext1::CreateLookupTable3D, direct2d.id2d1effectcontext1_createlookuptable3d
 ms.prod: windows-hardware
 ms.technology: windows-devices

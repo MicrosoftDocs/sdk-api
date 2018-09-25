@@ -7,7 +7,7 @@ old-location: security\icenroll4_limitexchangekeytoencipherment.htm
 tech.root: seccrypto
 ms.assetid: d8ed3663-bbda-4052-9c72-b00543ca73ab
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: CEnroll object [Security],LimitExchangeKeyToEncipherment property, ICEnroll3 interface [Security],LimitExchangeKeyToEncipherment property, ICEnroll3.LimitExchangeKeyToEncipherment, ICEnroll3.get_LimitExchangeKeyToEncipherment, ICEnroll3::get_LimitExchangeKeyToEncipherment, ICEnroll3::put_LimitExchangeKeyToEncipherment, ICEnroll4 interface [Security],LimitExchangeKeyToEncipherment property, ICEnroll4.LimitExchangeKeyToEncipherment, ICEnroll4::LimitExchangeKeyToEncipherment, ICEnroll4::get_LimitExchangeKeyToEncipherment, ICEnroll4::put_LimitExchangeKeyToEncipherment, LimitExchangeKeyToEncipherment property [Security], LimitExchangeKeyToEncipherment property [Security],CEnroll object, LimitExchangeKeyToEncipherment property [Security],ICEnroll3 interface, LimitExchangeKeyToEncipherment property [Security],ICEnroll4 interface, get_LimitExchangeKeyToEncipherment, security.icenroll4_limitexchangekeytoencipherment, xenroll/ICEnroll3::LimitExchangeKeyToEncipherment, xenroll/ICEnroll3::get_LimitExchangeKeyToEncipherment, xenroll/ICEnroll3::put_LimitExchangeKeyToEncipherment, xenroll/ICEnroll4::LimitExchangeKeyToEncipherment, xenroll/ICEnroll4::get_LimitExchangeKeyToEncipherment, xenroll/ICEnroll4::put_LimitExchangeKeyToEncipherment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,13 +97,17 @@ If the value for this property is true, an AT_KEYEXCHANGE request will contain t
 
 #### Examples
 
-
-```cpp
-// Get the LimitExchangeKeyToEncipherment value.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Get the LimitExchangeKeyToEncipherment value.
 BOOL       bLimitKey;
 HRESULT    hr;
 // pEnroll is previously instantiated ICEnroll interface pointer.
-hr = pEnroll->get_LimitExchangeKeyToEncipherment(&bLimitKey);
+hr = pEnroll-&gt;get_LimitExchangeKeyToEncipherment(&amp;bLimitKey);
 if (FAILED(hr))
     printf("Failed get_LimitExchangeKeyToEncipherment - %x\n", hr );
 else
@@ -111,14 +115,14 @@ else
           ( bLimitKey ? "TRUE" : "FALSE"));
 
 // Set the LimitExchangeKeyToEncipherment value.
-hr = pEnroll->put_LimitExchangeKeyToEncipherment( TRUE );
+hr = pEnroll-&gt;put_LimitExchangeKeyToEncipherment( TRUE );
 if ( FAILED ( hr ) )
     printf("Failed put_LimitExchangeKeyToEncipherment - %x\n", hr );
 else
-    printf( "LimitExchangeKeyToEncipherment was set to TRUE\n" );
-```
-
-
+    printf( "LimitExchangeKeyToEncipherment was set to TRUE\n" );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

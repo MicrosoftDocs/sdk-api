@@ -4,10 +4,10 @@ title: ITTAPI::get_PrivateTAPIObjects
 author: windows-sdk-content
 description: The get_PrivateTAPIObjects method of the ITTAPI interface is not implemented and will return E_NOTIMPL.
 old-location: tapi3\ittapi_get_privatetapiobjects.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: a196e6cc-d8a3-49a2-8bda-e99675806dd7
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_PrivateTAPIObjects method, ITTAPI.get_PrivateTAPIObjects, ITTAPI::get_PrivateTAPIObjects, _tapi3_ittapi_get_privatetapiobjects, get_PrivateTAPIObjects, get_PrivateTAPIObjects method [TAPI 2.2], get_PrivateTAPIObjects method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_privatetapiobjects, tapi3if/ITTAPI::get_PrivateTAPIObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

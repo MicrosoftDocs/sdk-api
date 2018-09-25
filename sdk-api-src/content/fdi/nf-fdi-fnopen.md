@@ -7,7 +7,7 @@ old-location: winprog\fnopen.htm
 tech.root: devnotes
 ms.assetid: 45bd2d23-1f6d-42a6-8afb-86227da6118f
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: FNOPEN, FNOPEN macro [Windows API], fdi/FNOPEN, winprog.fnopen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,9 +82,13 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNOPEN(fnFileOpen)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNOPEN(fnFileOpen)
 {
     HANDLE hFile = NULL;
     DWORD dwDesiredAccess = 0; 
@@ -92,11 +96,11 @@ FNOPEN(fnFileOpen)
 
     UNREFERENCED_PARAMETER(pmode);
 
-    if ( oflag & _O_RDWR )
+    if ( oflag &amp; _O_RDWR )
     {
         dwDesiredAccess = GENERIC_READ | GENERIC_WRITE;
     }
-    else if ( oflag & _O_WRONLY )
+    else if ( oflag &amp; _O_WRONLY )
     {
         dwDesiredAccess = GENERIC_WRITE;
     }
@@ -105,7 +109,7 @@ FNOPEN(fnFileOpen)
         dwDesiredAccess = GENERIC_READ;
     }
 
-    if ( oflag & _O_CREAT )
+    if ( oflag &amp; _O_CREAT )
     {
         dwCreationDisposition = CREATE_ALWAYS;
     }
@@ -124,10 +128,10 @@ FNOPEN(fnFileOpen)
 
     return (INT_PTR)hFile;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

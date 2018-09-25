@@ -4,10 +4,10 @@ title: ITFileTrack::get_ControllingTerminal
 author: windows-sdk-content
 description: The get_ControllingTerminal method returns the multitrack terminal that controls the current track.
 old-location: tapi3\itfiletrack_get_controllingterminal.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: a3a2c5e7-0134-4dad-b192-7a6c71dabe54
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],get_ControllingTerminal method, ITFileTrack.get_ControllingTerminal, ITFileTrack::get_ControllingTerminal, _tapi3_itfiletrack_get_controllingterminal, get_ControllingTerminal, get_ControllingTerminal method [TAPI 2.2], get_ControllingTerminal method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_get_controllingterminal, tapi3if/ITFileTrack::get_ControllingTerminal
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_FindAll.htm
 tech.root: WinAuto
 ms.assetid: ead73c6d-7fb8-4e00-b027-5d747268af08
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: FindAll, FindAll method [Windows Accessibility], FindAll method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindAll method, IUIAutomationElement.FindAll, IUIAutomationElement::FindAll, uiauto.uiauto_IUIAutomationElement_FindAll, uiauto_IUIAutomationElement_FindAll, uiautomationclient/IUIAutomationElement::FindAll, winauto.uiauto_IUIAutomationElement_FindAll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,9 +101,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The scope of the search is relative to the element on which the method is called. Elements are returned in the order in which they are encountered in the tree.
 
-This function cannot search for ancestor elements in the Microsoft UI Automation tree; that is, <a href="https://msdn.microsoft.com/en-us/library/Ee671699(v=VS.85).aspx">TreeScope_Ancestors</a>  is not a valid value for the <i>scope</i> parameter.
+This function cannot search for ancestor elements in the Microsoft UI Automation tree; that is, <a href="uiauto_TreeScopeEnum.htm">TreeScope_Ancestors</a>  is not a valid value for the <i>scope</i> parameter.
 
-When searching for top-level windows on the desktop, be sure to specify <a href="https://msdn.microsoft.com/en-us/library/Ee671699(v=VS.85).aspx">TreeScope_Children</a> in the <i>scope</i> parameter, not <a href="https://msdn.microsoft.com/en-us/library/Ee671699(v=VS.85).aspx">TreeScope_Descendants</a>. A search through the entire subtree of the desktop could iterate through thousands of items and lead to a stack overflow.
+When searching for top-level windows on the desktop, be sure to specify <a href="uiauto_TreeScopeEnum.htm">TreeScope_Children</a> in the <i>scope</i> parameter, not <a href="uiauto_TreeScopeEnum.htm">TreeScope_Descendants</a>. A search through the entire subtree of the desktop could iterate through thousands of items and lead to a stack overflow.
 
 If your client application might try to find elements in its own user interface, you must make all UI Automation calls on a separate thread.
 			

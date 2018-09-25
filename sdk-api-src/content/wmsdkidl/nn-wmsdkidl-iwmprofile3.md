@@ -123,7 +123,7 @@ Retrieves the number of bandwidth sharing objects that exist in the profile.
 <a href="https://msdn.microsoft.com/ddab3735-06a1-4e03-9abc-0fca635ef759">GetExpectedPacketCount</a>
 </td>
 <td align="left" width="63%">
-Retrieves the expected number of <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packets</a> for a specified duration.
+Retrieves the expected number of <a href="wmformat_glossary.htm">packets</a> for a specified duration.
 
 </td>
 </tr>

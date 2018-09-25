@@ -7,7 +7,7 @@ old-location: wua\autodownloadmode.htm
 tech.root: wua_sdk
 ms.assetid: cabf21b8-790b-401b-9de2-0d8c5fa858e1
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: AutoDownloadMode, AutoDownloadMode enumeration [Windows Update Agent], adAlwaysAutoDownload, adLetWindowsUpdateDecide, adNeverAutoDownload, tagAutoDownloadMode, wua.autodownloadmode, wuapi/AutoDownloadMode, wuapi/adAlwaysAutoDownload, wuapi/adLetWindowsUpdateDecide, wuapi/adNeverAutoDownload
 ms.prod: windows
 ms.technology: windows-sdk

@@ -112,9 +112,7 @@ For information on traversing over mounted folders, see
 TBD
 
 
-
-
-#### - dwBackupTypeMask [in]
+### -param dwBackupTypeMask [in]
 
 A bitmask of 
 <a href="https://msdn.microsoft.com/41ba60f7-d621-478a-a24a-202d326ebf2c">VSS_FILE_SPEC_BACKUP_TYPE</a> enumeration values to indicate if a writer should evaluate the file for participation in a certain type of backup operations. 

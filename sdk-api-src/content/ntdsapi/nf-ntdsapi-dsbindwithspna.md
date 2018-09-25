@@ -7,7 +7,7 @@ old-location: ad\dsbindwithspn.htm
 tech.root: ad
 ms.assetid: 9a149654-fd94-4b0c-b712-07fb827bef2f
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/21/2018
 ms.keywords: DsBindWithSpn, DsBindWithSpn function [Active Directory], DsBindWithSpnA, DsBindWithSpnW, _glines_dsbindwithspn, ad.dsbindwithspn, ntdsapi/DsBindWithSpn, ntdsapi/DsBindWithSpnA, ntdsapi/DsBindWithSpnW
 ms.prod: windows-hardware
 ms.technology: windows-devices

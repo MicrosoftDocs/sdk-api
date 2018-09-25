@@ -7,7 +7,7 @@ old-location: wua\iupdate_uninstallationsteps.htm
 tech.root: wua_sdk
 ms.assetid: f112ce5b-9f94-4fdc-96d8-1f216e3729d0
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IUpdate interface [Windows Update Agent],UninstallationSteps property, IUpdate.UninstallationSteps, IUpdate.get_UninstallationSteps, IUpdate::UninstallationSteps, IUpdate::get_UninstallationSteps, UninstallationSteps property [Windows Update Agent], UninstallationSteps property [Windows Update Agent],IUpdate interface, get_UninstallationSteps, wua.iupdate_uninstallationsteps, wuapi/IUpdate::UninstallationSteps, wuapi/IUpdate::get_UninstallationSteps
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -73,15 +73,15 @@ The existing contents of the resource are undefined and can be discarded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476152(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404604(v=VS.85).aspx">ID3D11DeviceContext1::CopySubresourceRegion1</a>
+<a href="https://msdn.microsoft.com/1963011F-C3E2-428D-B667-195A4976510B">ID3D11DeviceContext1::CopySubresourceRegion1</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446790(v=VS.85).aspx">ID3D11DeviceContext1::UpdateSubresource1</a>
+<a href="https://msdn.microsoft.com/7D89591C-F3F7-4A4F-A91A-AC67D9A573AF">ID3D11DeviceContext1::UpdateSubresource1</a>
  
 
  

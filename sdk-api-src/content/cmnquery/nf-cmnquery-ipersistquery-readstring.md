@@ -7,7 +7,7 @@ old-location: ad\ipersistquery_readstring.htm
 tech.root: ad
 ms.assetid: 5d96234f-080e-49c6-ae31-c4eb672ecf04
 ms.author: windowssdkdev
-ms.date: 09/07/2018
+ms.date: 09/21/2018
 ms.keywords: IPersistQuery interface [Active Directory],ReadString method, IPersistQuery.ReadString, IPersistQuery::ReadString, ReadString, ReadString method [Active Directory], ReadString method [Active Directory],IPersistQuery interface, _glines_ipersistquery_readstring, ad.ipersistquery__readstring, ad.ipersistquery_readstring, cmnquery/IPersistQuery::ReadString
 ms.prod: windows-hardware
 ms.technology: windows-devices

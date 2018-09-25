@@ -4,10 +4,10 @@ title: D2D1_BUFFER_PRECISION
 author: windows-sdk-content
 description: Represents the bit depth of the imaging pipeline in Direct2D.
 old-location: direct2d\__d2d1_buffer_precision.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: a2a4b4fd-685d-4068-b1f5-609e6ab024e2
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: D2D1_BUFFER_PRECISION, D2D1_BUFFER_PRECISION enumeration [Direct2D], D2D1_BUFFER_PRECISION_16BPC_FLOAT, D2D1_BUFFER_PRECISION_16BPC_UNORM, D2D1_BUFFER_PRECISION_32BPC_FLOAT, D2D1_BUFFER_PRECISION_8BPC_UNORM, D2D1_BUFFER_PRECISION_8BPC_UNORM_SRGB, D2D1_BUFFER_PRECISION_FORCE_DWORD, D2D1_BUFFER_PRECISION_UNKNOWN, d2d1_1/D2D1_BUFFER_PRECISION, d2d1_1/D2D1_BUFFER_PRECISION_16BPC_FLOAT, d2d1_1/D2D1_BUFFER_PRECISION_16BPC_UNORM, d2d1_1/D2D1_BUFFER_PRECISION_32BPC_FLOAT, d2d1_1/D2D1_BUFFER_PRECISION_8BPC_UNORM, d2d1_1/D2D1_BUFFER_PRECISION_8BPC_UNORM_SRGB, d2d1_1/D2D1_BUFFER_PRECISION_FORCE_DWORD, d2d1_1/D2D1_BUFFER_PRECISION_UNKNOWN, direct2d.__d2d1_buffer_precision
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ Do not use this value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404322(v=VS.85).aspx">D2D1_RENDERING_CONTROLS</a>
+<a href="https://msdn.microsoft.com/e563cbb0-2ee0-43d8-978c-0bde1950a926">D2D1_RENDERING_CONTROLS</a>
 
 
 

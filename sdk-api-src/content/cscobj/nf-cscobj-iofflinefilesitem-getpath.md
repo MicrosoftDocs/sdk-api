@@ -61,7 +61,7 @@ Retrieves the fully qualified UNC path string for an item in the Offline Files c
 
 ### -param ppszPath [out]
 
-Receives the fully qualified UNC path of the item.  The caller is responsible for freeing the path buffer by using the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function.
+Receives the fully qualified UNC path of the item.  The caller is responsible for freeing the path buffer by using the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a>
+<a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a>
  
 
  

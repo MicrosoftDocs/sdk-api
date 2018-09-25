@@ -7,7 +7,7 @@ old-location: shell\IFileDialogEvents.htm
 tech.root: shell
 ms.assetid: c55107a3-ae0a-4b46-80a3-8a731b47976c
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: IFileDialogEvents, IFileDialogEvents interface [Windows Shell], IFileDialogEvents interface [Windows Shell],described, shell.IFileDialogEvents, shell_IFileDialogEvents, shobjidl_core/IFileDialogEvents
 ms.prod: windows
 ms.technology: windows-sdk

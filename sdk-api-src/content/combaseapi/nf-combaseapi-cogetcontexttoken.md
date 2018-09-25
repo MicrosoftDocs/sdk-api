@@ -7,7 +7,7 @@ old-location: com\cogetcontexttoken.htm
 tech.root: com
 ms.assetid: 1218d928-ca3f-4bdc-9a00-ea4c214175a9
 ms.author: windowssdkdev
-ms.date: 09/14/2018
+ms.date: 09/21/2018
 ms.keywords: CoGetContextToken, CoGetContextToken function [COM], _com_CoGetContextToken, com.cogetcontexttoken, combaseapi/CoGetContextToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,7 +54,7 @@ req.redist:
 ## -description
 
 
-Returns a pointer to an implementation of <a href="https://msdn.microsoft.com/en-us/library/ms690097(v=VS.85).aspx">IObjContext</a> for the current context.
+Returns a pointer to an implementation of <a href="https://msdn.microsoft.com/983615a1-cfa2-4137-8c7e-42e2ef6923a8">IObjContext</a> for the current context.
 
 
 
@@ -66,7 +66,7 @@ Returns a pointer to an implementation of <a href="https://msdn.microsoft.com/en
 
 ### -param pToken [out]
 
-A pointer to an implementation of <a href="https://msdn.microsoft.com/en-us/library/ms690097(v=VS.85).aspx">IObjContext</a> for the current context.
+A pointer to an implementation of <a href="https://msdn.microsoft.com/983615a1-cfa2-4137-8c7e-42e2ef6923a8">IObjContext</a> for the current context.
 
 
 ## -returns
@@ -125,11 +125,11 @@ The caller is not in an initialized apartment.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688368(v=VS.85).aspx">IContext</a>
+<a href="https://msdn.microsoft.com/89c41d9c-186c-4927-990d-92aa501f7d35">IContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690097(v=VS.85).aspx">IObjContext</a>
+<a href="https://msdn.microsoft.com/983615a1-cfa2-4137-8c7e-42e2ef6923a8">IObjContext</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: multimedia\avifileendrecord.htm
 tech.root: Multimedia
 ms.assetid: 0f04c384-7702-43d4-9c7e-e9e74d6f2796
 ms.author: windowssdkdev
-ms.date: 08/31/2018
+ms.date: 09/21/2018
 ms.keywords: AVIFileEndRecord, AVIFileEndRecord function [Windows Multimedia], _win32_AVIFileEndRecord, multimedia.avifileendrecord, vfw/AVIFileEndRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

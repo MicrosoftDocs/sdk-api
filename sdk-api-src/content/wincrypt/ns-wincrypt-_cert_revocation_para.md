@@ -7,7 +7,7 @@ old-location: security\cert_revocation_para.htm
 tech.root: seccrypto
 ms.assetid: 730db593-c55f-4ecf-bcac-5de54ab90db6
 ms.author: windowssdkdev
-ms.date: 09/19/2018
+ms.date: 09/21/2018
 ms.keywords: "*PCERT_REVOCATION_PARA, CERT_REVOCATION_PARA, CERT_REVOCATION_PARA structure [Security], PCERT_REVOCATION_PARA, PCERT_REVOCATION_PARA structure pointer [Security], _CERT_REVOCATION_PARA, _crypto2_cert_revocation_para, security.cert_revocation_para, wincrypt/CERT_REVOCATION_PARA, wincrypt/PCERT_REVOCATION_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

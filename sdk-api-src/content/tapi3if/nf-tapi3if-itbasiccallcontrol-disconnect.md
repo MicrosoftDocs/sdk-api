@@ -4,10 +4,10 @@ title: ITBasicCallControl::Disconnect
 author: windows-sdk-content
 description: The Disconnect method disconnects the call. The call state will transition to CS_DISCONNECTED after the method completes successfully.
 old-location: tapi3\itbasiccallcontrol_disconnect.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: b7d556fd-d3f5-4b93-96a9-cc5c58fb8a95
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/21/2018
 ms.keywords: Disconnect, Disconnect method [TAPI 2.2], Disconnect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Disconnect method, ITBasicCallControl.Disconnect, ITBasicCallControl::Disconnect, _tapi3_itbasiccallcontrol_disconnect, tapi3.itbasiccallcontrol_disconnect, tapi3if/ITBasicCallControl::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
