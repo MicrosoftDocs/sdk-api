@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/E8973EBE-764C-4220-BB1E-3BFD4853582D">2D affine transform effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706309(v=VS.85).aspx">2D affine transform effect</a>.
 
 
 ## -enum-fields
@@ -63,7 +63,7 @@ Identifiers for properties of the <a href="https://msdn.microsoft.com/E8973EBE-7
 The interpolation mode used to scale the image. There are 6 scale modes that range in quality and speed.
             
 
-Type is <a href="https://msdn.microsoft.com/FCD3A8BA-6628-4E81-9488-35A4A1B23DDF">D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE</a>.
+Type is <a href="https://msdn.microsoft.com/en-us/library/Dn934205(v=VS.85).aspx">D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE</a>.
 
 Default value is D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE_LINEAR.
 
@@ -73,7 +73,7 @@ Default value is D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE_LINEAR.
 The mode used to calculate the border of the image, soft or hard.
             
 
-Type is <a href="https://msdn.microsoft.com/093C7028-9C0E-4BB5-9769-C456B7A23B6F">D2D1_BORDER_MODE</a>.
+Type is <a href="https://msdn.microsoft.com/en-us/library/Dn934220(v=VS.85).aspx">D2D1_BORDER_MODE</a>.
 
 Default value is D2D1_BORDER_MODE_SOFT.
 
@@ -83,7 +83,7 @@ Default value is D2D1_BORDER_MODE_SOFT.
 The 3x2 matrix to transform the image using the Direct2D matrix transform.
             
 
-Type is <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>.
+Type is <a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a>.
 
 Default value is Matrix3x2F::Identity().
 

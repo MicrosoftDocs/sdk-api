@@ -134,7 +134,7 @@ If the objects are not stored using this pattern, you must call the methods sepa
 
 
 <h3><a id="URL_Moniker_Notes"></a><a id="url_moniker_notes"></a><a id="URL_MONIKER_NOTES"></a>URL Moniker Notes</h3>
-Initializes an URL moniker from data within a stream, usually stored there previously using its <a href="https://msdn.microsoft.com/b748b4f9-ef9c-486b-bdc4-4d23c4640ff7">IPersistStream::Save</a> (using <a href="https://msdn.microsoft.com/0085c6a8-1a94-4379-9937-c8d792d130da">OleSaveToStream</a>). The binary format of the URL moniker is its URL string in Unicode (may be a full or partial URL string, see <a href="inet_CreateURLMonikerEx">CreateURLMonikerEx</a> for details). This is represented as a <b>ULONG</b> count of characters followed by that many Unicode characters.
+Initializes an URL moniker from data within a stream, usually stored there previously using its <a href="https://msdn.microsoft.com/b748b4f9-ef9c-486b-bdc4-4d23c4640ff7">IPersistStream::Save</a> (using <a href="https://msdn.microsoft.com/0085c6a8-1a94-4379-9937-c8d792d130da">OleSaveToStream</a>). The binary format of the URL moniker is its URL string in Unicode (may be a full or partial URL string, see <a href="https://msdn.microsoft.com/library/ms775103(v=VS.85).aspx">CreateURLMonikerEx</a> for details). This is represented as a <b>ULONG</b> count of characters followed by that many Unicode characters.
 
 
 

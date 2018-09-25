@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure based on a string resource imbedded in an executable file.
+Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure based on a string resource imbedded in an executable file.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Integer identifier of the string to be loaded.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ## -returns
@@ -99,7 +99,7 @@ Creates a VT_BSTR variant. If the resource does not exist, this function initial
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromResource">InitVariantFromResource</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762334(v=VS.85).aspx">InitVariantFromResource</a>.
 
 
 ```cpp
@@ -126,23 +126,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromResource">InitPropVariantFromResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762304(v=VS.85).aspx">InitPropVariantFromResource</a>
 
 
 
-<a href="shell.InitVariantFromString">InitVariantFromString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762335(v=VS.85).aspx">InitVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d878af7-a7b1-4d24-89ff-c567e4a8accd">LoadString</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>
 
 
 
-<a href="shell.VariantToString">VariantToString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776617(v=VS.85).aspx">VariantToString</a>
 
 
 
-<a href="shell.VariantToStringWithDefault">VariantToStringWithDefault</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776621(v=VS.85).aspx">VariantToStringWithDefault</a>
  
 
  

@@ -141,7 +141,7 @@ If a <b>BSTR</b> in the source <a href="https://msdn.microsoft.com/e86cc279-826d
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToStringVectorAlloc">PropVariantToStringVectorAlloc</a> to access a string vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776562(v=VS.85).aspx">PropVariantToStringVectorAlloc</a> to access a string vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 
 ```cpp
@@ -182,23 +182,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762307(v=VS.85).aspx">InitPropVariantFromStringVector</a>
 
 
 
-<a href="shell.PropVariantGetStringElem">PropVariantGetStringElem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776527(v=VS.85).aspx">PropVariantGetStringElem</a>
 
 
 
-<a href="shell.PropVariantToString">PropVariantToString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
 
 
 
-<a href="shell.PropVariantToStringVector">PropVariantToStringVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776561(v=VS.85).aspx">PropVariantToStringVector</a>
 
 
 
-<a href="shell.VariantToStringArray">VariantToStringArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776619(v=VS.85).aspx">VariantToStringArray</a>
  
 
  

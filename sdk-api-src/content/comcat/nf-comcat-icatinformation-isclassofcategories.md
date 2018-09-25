@@ -100,7 +100,7 @@ If the class ID is of one of the specified categories, the return value is S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/1fd68126-b512-4131-8e93-cea7c1c3e9c0">ICatInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd542655(v=VS.85).aspx">ICatInformation</a>
  
 
  

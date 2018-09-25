@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/f7bb5c65-f406-f947-c05d-2756cff99d21">Chroma-key effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn890715(v=VS.85).aspx">Chroma-key effect</a>.
 
 
 ## -enum-fields

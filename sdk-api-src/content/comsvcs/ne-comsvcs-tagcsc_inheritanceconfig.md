@@ -74,7 +74,7 @@ The new context is created from the default context.
 
 The different values of this enumeration can be used to establish the default configurations for the various services provided through <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a>. The default inheritance configuration for <b>CServiceConfig</b> is CSC_Ignore. It is often useful to use CSC_Ignore when calling <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>, while CSC_Inherit is useful when augmenting an existing context, such as when calling <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>.
 
-Calling <a href="https://msdn.microsoft.com/05009c50-1d39-46f7-b549-281342d07f5b">IServiceInheritanceConfig::ContainingContextTreatment</a> overwrites any previous configuration settings of the <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> object with the following defaults.
+Calling <a href="https://msdn.microsoft.com/en-us/library/ms678878(v=VS.85).aspx">IServiceInheritanceConfig::ContainingContextTreatment</a> overwrites any previous configuration settings of the <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> object with the following defaults.
 
 <h3><a id="For_CSC_InheritanceConfig_set_to_CSC_Inherit"></a><a id="for_csc_inheritanceconfig_set_to_csc_inherit"></a><a id="FOR_CSC_INHERITANCECONFIG_SET_TO_CSC_INHERIT"></a>For CSC_InheritanceConfig set to CSC_Inherit</h3>
 <table>
@@ -198,7 +198,7 @@ Calling <a href="https://msdn.microsoft.com/05009c50-1d39-46f7-b549-281342d07f5b
 
 
 
-<a href="https://msdn.microsoft.com/05009c50-1d39-46f7-b549-281342d07f5b">IServiceInheritanceConfig::ContainingContextTreatment</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms678878(v=VS.85).aspx">IServiceInheritanceConfig::ContainingContextTreatment</a>
  
 
  

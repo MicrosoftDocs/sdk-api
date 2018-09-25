@@ -68,7 +68,7 @@ TBD
 #### - pTimes [out]
 
 Contains job-related time stamps. For available time stamps, see the 
-<a href="https://msdn.microsoft.com/d7ee63f7-e2d1-451d-b200-cccb86816f21">BG_JOB_TIMES</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa362810(v=VS.85).aspx">BG_JOB_TIMES</a> structure.
 
 
 ## -returns
@@ -115,7 +115,7 @@ The <i>pTimes</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/d7ee63f7-e2d1-451d-b200-cccb86816f21">BG_JOB_TIMES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362810(v=VS.85).aspx">BG_JOB_TIMES</a>
  
 
  

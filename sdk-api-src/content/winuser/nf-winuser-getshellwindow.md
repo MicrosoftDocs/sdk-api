@@ -90,11 +90,11 @@ The return value is the handle of the Shell's desktop window. If no Shell proces
 
 
 
-<a href="https://msdn.microsoft.com/0a87f941-a1aa-4e97-b509-912373f6d629">GetDesktopWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633504(v=VS.85).aspx">GetDesktopWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/837f8d99-abc5-4c7c-a363-3d178e71aea2">GetWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633515(v=VS.85).aspx">GetWindow</a>
 
 
 
@@ -102,7 +102,7 @@ The return value is the handle of the Shell's desktop window. If no Shell proces
 
 
 
-<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
  
 
  

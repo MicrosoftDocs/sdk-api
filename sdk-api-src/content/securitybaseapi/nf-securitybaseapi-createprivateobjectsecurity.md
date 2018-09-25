@@ -142,7 +142,7 @@ If a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">s
 
 
 
-<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
 
 
 

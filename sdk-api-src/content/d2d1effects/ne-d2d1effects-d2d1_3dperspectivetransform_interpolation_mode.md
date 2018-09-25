@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/0E1A940E-2DCA-4772-BB68-7E5EF5CEF833">3D perspective transform effect</a> uses on the image.
+The interpolation mode the <a href="https://msdn.microsoft.com/en-us/library/Hh706310(v=VS.85).aspx">3D perspective transform effect</a> uses on the image.
           There are 5 scale modes that range in quality and speed.
         
 

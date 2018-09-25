@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/D9C23AC4-0090-4F16-AC59-B952FB616FA9">Convolve matrix effect</a> uses to scale the image to the corresponding kernel unit length.  There are six scale modes that range in quality and speed.
+The interpolation mode the <a href="https://msdn.microsoft.com/en-us/library/Hh706323(v=VS.85).aspx">Convolve matrix effect</a> uses to scale the image to the corresponding kernel unit length.  There are six scale modes that range in quality and speed.
 
 
 ## -enum-fields

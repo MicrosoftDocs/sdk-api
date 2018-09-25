@@ -90,7 +90,7 @@ See the
 
 The 
 <b>SetConvertStg</b> function determines the status of the convert bit in a contained object. It is called by both the container application and the server in the process of converting an object from one class to another. When a user specifies through a <b>Convert To</b> dialog (which the container produces with a call to the 
-<a href="_ole_oleuiconvert">OleUIConvert</a> function) that an object is to be converted, the container must take the following steps:
+<a href="https://msdn.microsoft.com/en-us/library/ms680694(v=VS.85).aspx">OleUIConvert</a> function) that an object is to be converted, the container must take the following steps:
 
 <ol>
 <li>Unload the object if it is currently loaded.</li>
@@ -101,8 +101,8 @@ The
 <li>Call 
 <b>SetConvertStg</b> with the <i>fConvert</i> parameter set to <b>TRUE</b> to indicate that the object has been tagged for conversion to a new class the next time it is loaded.</li>
 <li>Just before the object is loaded, call 
-<a href="_com_oledoautoconvert">OleDoAutoConvert</a> to handle any needed object conversion, unless you call 
-<a href="_ole_oleload">OleLoad</a>, which calls it internally.</li>
+<a href="https://msdn.microsoft.com/en-us/library/ms695230(v=VS.85).aspx">OleDoAutoConvert</a> to handle any needed object conversion, unless you call 
+<a href="https://msdn.microsoft.com/en-us/library/ms694338(v=VS.85).aspx">OleLoad</a>, which calls it internally.</li>
 </ol>
 When an object is initialized from a storage object and the server is the destination of a convert-to operation, the object server should do the following:
 

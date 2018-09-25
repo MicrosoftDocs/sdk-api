@@ -56,7 +56,7 @@ An effect-scalar-variable interface accesses scalar values.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectScalarVariable</b> interface inherits from <a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>. <b>ID3D10EffectScalarVariable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectScalarVariable</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>. <b>ID3D10EffectScalarVariable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D10EffectScalarVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86f4952f-f6c5-4e81-b078-613123ae1fe1">GetBool</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173681(v=VS.85).aspx">GetBool</a>
 </td>
 <td align="left" width="63%">
 Get a boolean variable.
@@ -80,7 +80,7 @@ Get a boolean variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e59123e1-8265-4665-aebf-b1706a507345">GetBoolArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173682(v=VS.85).aspx">GetBoolArray</a>
 </td>
 <td align="left" width="63%">
 Get an array of boolean variables.
@@ -89,7 +89,7 @@ Get an array of boolean variables.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/caff93dc-b44a-46a9-85b5-65eeb37e3f9d">GetFloat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173683(v=VS.85).aspx">GetFloat</a>
 </td>
 <td align="left" width="63%">
 Get a floating-point variable.
@@ -98,7 +98,7 @@ Get a floating-point variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f6e0b61-2e0f-49b2-a344-9c37f50e1f8f">GetFloatArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173684(v=VS.85).aspx">GetFloatArray</a>
 </td>
 <td align="left" width="63%">
 Get an array of floating-point variables.
@@ -107,7 +107,7 @@ Get an array of floating-point variables.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4197198c-c41d-4c31-b5a6-4ba6024fad6e">GetInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173685(v=VS.85).aspx">GetInt</a>
 </td>
 <td align="left" width="63%">
 Get an integer variable.
@@ -116,7 +116,7 @@ Get an integer variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88ce0ecf-15d0-4f1e-b921-f31c3cef2b4f">GetIntArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173686(v=VS.85).aspx">GetIntArray</a>
 </td>
 <td align="left" width="63%">
 Get an array of integer variables.
@@ -125,7 +125,7 @@ Get an array of integer variables.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/83a5056c-08cd-4199-a150-d5403bdbf4b1">SetBool</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173687(v=VS.85).aspx">SetBool</a>
 </td>
 <td align="left" width="63%">
 Set a boolean variable.
@@ -134,7 +134,7 @@ Set a boolean variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/18caabd8-5d7d-4888-9c5c-3a49fef3ab07">SetBoolArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173688(v=VS.85).aspx">SetBoolArray</a>
 </td>
 <td align="left" width="63%">
 Set an array of boolean variables.
@@ -143,7 +143,7 @@ Set an array of boolean variables.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88db92e6-42f8-4bcf-9520-d70c1902ab3c">SetFloat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173689(v=VS.85).aspx">SetFloat</a>
 </td>
 <td align="left" width="63%">
 Set a floating-point variable.
@@ -152,7 +152,7 @@ Set a floating-point variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a83f139b-e6be-456f-b132-b0aef03e1918">SetFloatArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173690(v=VS.85).aspx">SetFloatArray</a>
 </td>
 <td align="left" width="63%">
 Set an array of floating-point variables.
@@ -161,7 +161,7 @@ Set an array of floating-point variables.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57c421f5-a7a3-49e7-9010-2abccbf6ae70">SetInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173691(v=VS.85).aspx">SetInt</a>
 </td>
 <td align="left" width="63%">
 Set an integer variable.
@@ -170,7 +170,7 @@ Set an integer variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59b7699e-b108-4e61-8774-98a04785ca5d">SetIntArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173692(v=VS.85).aspx">SetIntArray</a>
 </td>
 <td align="left" width="63%">
 Set an array of integer variables.
@@ -185,11 +185,11 @@ Set an array of integer variables.
 
 
 
-<a href="https://msdn.microsoft.com/ebe0afc7-6261-4c96-a54e-9b491e240c03">Effect Interfaces (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
 
 
 
-<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>
  
 
  

@@ -62,7 +62,7 @@ Describes an effect shader.
 
 Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a>*</b>
 
-Passed into CreateInputLayout. Only valid on a vertex shader or geometry shader. See <a href="https://msdn.microsoft.com/61516e1a-f588-4dcb-9ada-9b483fe7cc99">ID3D10Device_CreateInputLayout</a>.
+Passed into CreateInputLayout. Only valid on a vertex shader or geometry shader. See <a href="https://msdn.microsoft.com/en-us/library/Bb173550(v=VS.85).aspx">ID3D10Device_CreateInputLayout</a>.
 
 
 ### -field IsInline
@@ -90,7 +90,7 @@ The length of pBytecode.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
 
-A string that constains a declaration of the <a href="https://msdn.microsoft.com/3ead6c7c-c7cc-48f1-81d5-b4b67326d610">stream output </a> from a geometry shader.
+A string that constains a declaration of the <a href="https://msdn.microsoft.com/en-us/library/Bb205123(v=VS.85).aspx">stream output </a> from a geometry shader.
 
 
 ### -field NumInputSignatureEntries
@@ -111,7 +111,7 @@ The number of entries in the output signature.
 
 
 
-To get an effect-shader description, call <a href="https://msdn.microsoft.com/5655273a-fc95-4ced-a76f-df622a70745c">ID3D10EffectShaderVariable::GetShaderDesc</a>.
+To get an effect-shader description, call <a href="https://msdn.microsoft.com/en-us/library/Bb173703(v=VS.85).aspx">ID3D10EffectShaderVariable::GetShaderDesc</a>.
 
 
 
@@ -121,7 +121,7 @@ To get an effect-shader description, call <a href="https://msdn.microsoft.com/56
 
 
 
-<a href="https://msdn.microsoft.com/bbd69b4b-d2f4-471f-a607-328f5fc603b5">Effect Structures (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205180(v=VS.85).aspx">Effect Structures (Direct3D 10)</a>
  
 
  

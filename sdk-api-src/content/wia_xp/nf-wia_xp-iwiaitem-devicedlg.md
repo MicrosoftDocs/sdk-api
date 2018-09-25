@@ -99,7 +99,7 @@ Specifies a set of flags that control the dialog box's operation. Can be set to 
 
 Type: <b>LONG</b>
 
-Specifies what type of data the image is intended to represent. For a list of image intent values, see <a href="https://msdn.microsoft.com/171228d9-a619-49aa-964e-f72a7f294a9d">Image Intent Constants</a>.
+Specifies what type of data the image is intended to represent. For a list of image intent values, see <a href="https://msdn.microsoft.com/en-us/library/ms630190(v=VS.85).aspx">Image Intent Constants</a>.
 
 
 
@@ -118,7 +118,7 @@ Receives the number of items in the array indicated by the <i>ppIWiaItem</i> par
 
 Type: <b>IWiaItem***</b>
 
-Receives the address of an array of pointers to <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> interfaces. 
+Receives the address of an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> interfaces. 
 
 
 ## -returns
@@ -138,7 +138,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method displays a dialog box to the user that an application uses to gather all the information required for image acquisition. For instance, this dialog box enables the user to select images to download from a camera. When using a scanner, it is also used to specify image scan properties such as brightness and contrast.
 
-After this method returns, the application can use the <a href="https://msdn.microsoft.com/565e48b7-30c5-4c8b-ae4a-071c2e90b2f9">IWiaDataTransfer</a> interface to acquire the image.
+After this method returns, the application can use the <a href="https://msdn.microsoft.com/en-us/library/ms630155(v=VS.85).aspx">IWiaDataTransfer</a> interface to acquire the image.
 
 Applications must call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method for each element in the array of interface pointers they receive through the <i>ppIWiaItem</i> parameter. Applications must also free the array using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
 

@@ -94,7 +94,7 @@ Sends out the original font resources without subsetting along with the page tha
 
 
 
-<a href="https://msdn.microsoft.com/5A4D4DDC-4161-44A2-9EB6-E4C14696B810">D2D1_PRINT_CONTROL_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh847949(v=VS.85).aspx">D2D1_PRINT_CONTROL_PROPERTIES</a>
  
 
  
