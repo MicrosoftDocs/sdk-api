@@ -100,23 +100,19 @@ If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is of t
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToDoubleWithDefault">VariantToDoubleWithDefault</a> to access a <b>DOUBLE</b> value stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// VARIANT var;
+
+```cpp
+// VARIANT var;
 // Assume variable var is initialized and valid.
 // The application expects var to hold a DOUBLE value.
 
 // The application wants to treat VT_EMPTY as 3.1415.
 DOUBLE dblValue = VariantToDoubleWithDefault(var, 3.1415);
 
-// dblValue is now valid.</pre>
-</td>
-</tr>
-</table></span></div>
+// dblValue is now valid.
+```
+
+
 
 
 

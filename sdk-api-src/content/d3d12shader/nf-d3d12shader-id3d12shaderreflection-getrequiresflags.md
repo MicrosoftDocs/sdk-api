@@ -166,13 +166,9 @@ A value that contains a combination of one or more shader requirements #define f
 Here is how the D3D12Shader.h header defines the shader requirements flags:
         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define D3D_SHADER_REQUIRES_DOUBLES                                                         0x00000001
+
+```cpp
+#define D3D_SHADER_REQUIRES_DOUBLES                                                         0x00000001
 #define D3D_SHADER_REQUIRES_EARLY_DEPTH_STENCIL                                             0x00000002
 #define D3D_SHADER_REQUIRES_UAVS_AT_EVERY_STAGE                                             0x00000004
 #define D3D_SHADER_REQUIRES_64_UAVS                                                         0x00000008
@@ -186,10 +182,10 @@ Here is how the D3D12Shader.h header defines the shader requirements flags:
 #define D3D_SHADER_REQUIRES_TYPED_UAV_LOAD_ADDITIONAL_FORMATS                               0x00000800
 #define D3D_SHADER_REQUIRES_ROVS                                                            0x00001000
 #define D3D_SHADER_REQUIRES_VIEWPORT_AND_RT_ARRAY_INDEX_FROM_ANY_SHADER_FEEDING_RASTERIZER  0x00002000
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -110,38 +110,34 @@ The following example creates an
 						<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object based on a JPEG file. The code calls the <b>Image::GetPropertyIdList</b> method of that 
 						<b>Image</b> object to find out what types of metadata are stored in the image.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;gdiplus.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <gdiplus.h>
+#include <stdio.h>
 using namespace Gdiplus;
 
 INT main()
 {
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    UINT count = 0; 
    Image* image = new Image(L"FakePhoto.jpg");
 
    // How many types of metadata are in the image?
-   count = image-&gt;GetPropertyCount();
+   count = image->GetPropertyCount();
    if(count == 0)
       return 0;
 
    // Allocate a buffer to receive an array of PROPIDs.
    PROPID* propIDs = new PROPID[count];
 
-   image-&gt;GetPropertyIdList(count, propIDs);
+   image->GetPropertyIdList(count, propIDs);
 
    // List the retrieved IDs.
-   for(UINT j = 0; j &lt; count; ++j)
+   for(UINT j = 0; j < count; ++j)
       printf("%x\n", propIDs[j]);
 
    delete [] propIDs;
@@ -149,28 +145,24 @@ INT main()
   
    GdiplusShutdown(gdiplusToken);
    return 0;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The preceding code, along with a particular file, FakePhoto.jpg, produced the following output:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>320
+
+```cpp
+320
 10f
 110
 9003
 829a
 5090
-5091</pre>
-</td>
-</tr>
-</table></span></div>
+5091
+```
+
+
 The preceding output shows the hexadecimal value of each property identifier. You can look up those numbers in Gdiplusimaging.h and find out that they represent the following property tags.
 
 

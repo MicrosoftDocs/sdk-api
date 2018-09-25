@@ -100,13 +100,9 @@ A <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">Grap
 
 The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object and calls the <a href="https://msdn.microsoft.com/41dfe6f5-330c-4f72-9c54-10290e96aadc">GraphicsPath::AddClosedCurve</a> method to add a closed cardinal spline to the path. The code calls the <a href="https://msdn.microsoft.com/e8351fb1-b11f-4da7-9cc4-dc3ab685f29d">GraphicsPath::Widen</a> method to widen the path and then draws the path. Next, the code calls the path's <b>Outline</b> method. The code calls the <a href="https://msdn.microsoft.com/99b51fb7-b1de-421f-9743-bf6a5ec758ef">TranslateTransform</a> method of a Graphics object so that the outlined path drawn by the subsequent call to <a href="https://msdn.microsoft.com/fffed788-ee5c-4c15-9480-dbedb7caa614">DrawPath</a> sits to the right of the first path.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID OutlineExample(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -123,18 +119,18 @@ VOID OutlineExample(HDC hdc)
    GraphicsPath path;
    path.AddClosedCurve(points, 4);
 
-   path.Widen(&amp;greenPen);
-   graphics.DrawPath(&amp;bluePen, &amp;path);
+   path.Widen(&greenPen);
+   graphics.DrawPath(&bluePen, &path);
 
    path.Outline();
 
    graphics.TranslateTransform(180.0f, 0.0f);
-   graphics.DrawPath(&amp;bluePen, &amp;path);
+   graphics.DrawPath(&bluePen, &path);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

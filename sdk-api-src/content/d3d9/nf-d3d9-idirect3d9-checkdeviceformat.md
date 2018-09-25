@@ -126,16 +126,12 @@ Here are some examples using <b>CheckDeviceFormat</b> to check for hardware supp
 <li>An off-screen plain surface format - Specify Usage = 0 and RType = D3DRTYPE_SURFACE.</li>
 <li>A depth-stencil format - The following snippet tests for the passed in depth-stencil format:
     
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 BOOL IsDepthFormatExisting( D3DFORMAT DepthFormat, D3DFORMAT AdapterFormat ) 
 {
-    HRESULT hr = pD3D-&gt;CheckDeviceFormat( D3DADAPTER_DEFAULT,
+    HRESULT hr = pD3D->CheckDeviceFormat( D3DADAPTER_DEFAULT,
                                           D3DDEVTYPE_HAL,
                                           AdapterFormat,
                                           D3DUSAGE_DEPTHSTENCIL,
@@ -143,10 +139,10 @@ BOOL IsDepthFormatExisting( D3DFORMAT DepthFormat, D3DFORMAT AdapterFormat )
                                           DepthFormat);
     
     return SUCCEEDED( hr );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 See <a href="https://msdn.microsoft.com/d140b90c-3a20-49f4-883b-662b6c05dcea">Selecting a Device (Direct3D 9)</a> for more detail on the enumeration process.
 
 </li>
@@ -154,16 +150,12 @@ See <a href="https://msdn.microsoft.com/d140b90c-3a20-49f4-883b-662b6c05dcea">Se
     
     
     
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 BOOL IsTextureFormatOk( D3DFORMAT TextureFormat, D3DFORMAT AdapterFormat ) 
 {
-    HRESULT hr = pD3D-&gt;CheckDeviceFormat( D3DADAPTER_DEFAULT,
+    HRESULT hr = pD3D->CheckDeviceFormat( D3DADAPTER_DEFAULT,
                                           D3DDEVTYPE_HAL,
                                           AdapterFormat,
                                           0,
@@ -171,10 +163,10 @@ BOOL IsTextureFormatOk( D3DFORMAT TextureFormat, D3DFORMAT AdapterFormat )
                                           TextureFormat);
     
     return SUCCEEDED( hr );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 </li>
 <li>Alpha blending in a pixel shader - Set Usage to <a href="https://msdn.microsoft.com/c8823c39-8f17-441c-a42b-de3d7ec02f75">D3DUSAGE_QUERY_POSTPIXELSHADER_BLENDING</a>. Expect this to fail for all floating-point render targets.</li>
 <li>Autogeneration of mipmaps - Set Usage to <a href="https://msdn.microsoft.com/c8823c39-8f17-441c-a42b-de3d7ec02f75">D3DUSAGE_AUTOGENMIPMAP</a>. If the mipmap automatic generation fails, the application will get a non-mipmapped texture. Calling this method is considered a hint, so this method can return D3DOK_NOAUTOGEN (a valid success code) if the only thing that fails is the mipmap generation. For more information about mipmap generation, see <a href="https://msdn.microsoft.com/ae5955f9-e52a-41d7-a199-800e37a3e936">Automatic Generation of Mipmaps (Direct3D 9)</a>.</li>

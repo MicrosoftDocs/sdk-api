@@ -82,27 +82,23 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNWRITE(fnFileWrite)
+
+```cpp
+FNWRITE(fnFileWrite)
 {
     DWORD dwBytesWritten = 0;
 
-    if ( WriteFile((HANDLE)hf, pv, cb, &amp;dwBytesWritten, NULL) == FALSE )
+    if ( WriteFile((HANDLE)hf, pv, cb, &dwBytesWritten, NULL) == FALSE )
     {
         dwBytesWritten = (DWORD)-1;
     }
 
     return dwBytesWritten;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

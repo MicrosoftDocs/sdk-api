@@ -127,13 +127,9 @@ An error code. For more information, see
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 szDeviceInstanceIdcchReaderNameLONG     lReturn, lReturn2;
 
 LPTSTR   pmszReaders = NULL;
@@ -146,8 +142,8 @@ DWORD    cchReaderName = SCARD_AUTOALLOCATE;
 // szDeviceInstanceId was obtained by calling SetupDiGetDeviceInstanceId
 lReturn = SCardListReadersWithDeviceInstanceId (hContext,
                          szDeviceInstanceId,
-                         (LPTSTR)&amp;pmszReaders,
-                         &amp;cchReaderName);
+                         (LPTSTR)&pmszReaders,
+                         &cchReaderName);
 
 switch( lReturn )
 {
@@ -182,9 +178,9 @@ default:
         // ...
         break;
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

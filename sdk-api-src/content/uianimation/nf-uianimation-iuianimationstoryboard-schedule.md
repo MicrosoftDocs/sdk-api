@@ -107,23 +107,19 @@ It is possible reuse a storyboard by calling <b>Schedule</b> again after its sta
 
 The following example gets the current time and schedules the storyboard. For an additional example, see <a href="https://msdn.microsoft.com/f3c8fe34-8bca-4421-a390-9e0ba9af27b4">Schedule a Storyboard</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Get the current time and schedule the storyboard
+
+```cpp
+// Get the current time and schedule the storyboard
 UI_ANIMATION_SECONDS secondsNow;
-hr = m_pAnimationTimer-&gt;GetTime(
-    &amp;secondsNow
+hr = m_pAnimationTimer->GetTime(
+    &secondsNow
     );
 if (SUCCEEDED(hr))
 {
     UI_ANIMATION_SCHEDULING_RESULT schedulingResult;
-    hr = pStoryboard-&gt;Schedule(
+    hr = pStoryboard->Schedule(
         secondsNow,
-        &amp;schedulingResult
+        &schedulingResult
         );
     if (SUCCEEDED(hr))
     {
@@ -136,10 +132,10 @@ if (SUCCEEDED(hr))
             ...
         }
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

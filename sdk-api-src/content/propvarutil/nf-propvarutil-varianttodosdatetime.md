@@ -107,28 +107,24 @@ See <a href="61b029cb-8b60-400a-a6bb-a3f6839dc9d2">DosDateTimeToVariantTime</a> 
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToDosDateTime">VariantToDosDateTime</a> to access a datetime value in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// VARIANT var;
+
+```cpp
+// VARIANT var;
 // Assume variable var is initialize and valid.
 // The application expects var to hold a VT_DATE value.
 
 WORD wDate;
 WORD wTime;
 
-HRESULT hr = VariantToDosDateTime(var, &amp;wDate, &amp;wTime);
+HRESULT hr = VariantToDosDateTime(var, &wDate, &wTime);
 
 if (SUCCEEDED(hr))
 {
     // wDate and wTime are now valid.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

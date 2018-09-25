@@ -96,23 +96,19 @@ This function succeeds for any valid property key string, even if the property d
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSPropertyKeyFromString">PSPropertyKeyFromString</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PROPERTYKEY key;
 
-HRESULT hr = PSPropertyKeyFromString(L"{F29F85E0-4FF9-1068-AB91-08002B27B3D9} 2", &amp;key);
+```cpp
+PROPERTYKEY key;
+
+HRESULT hr = PSPropertyKeyFromString(L"{F29F85E0-4FF9-1068-AB91-08002B27B3D9} 2", &key);
 
 if (SUCCEEDED(hr))
 {
     // The key variable is now valid.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

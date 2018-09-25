@@ -125,13 +125,9 @@ If the caller sets the <i>fDeleteOnRelease</i> parameter to <b>FALSE</b>, then t
 
 The memory handle passed as the <i>hGlobal</i> parameter must be allocated as movable and nondiscardable, as shown in the following example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HGLOBAL	hMem = ::GlobalAlloc(GMEM_MOVEABLE,iSize);
+
+```cpp
+HGLOBAL	hMem = ::GlobalAlloc(GMEM_MOVEABLE,iSize);
 if (!hMem)
     AfxThrowMemoryException();
 
@@ -139,11 +135,11 @@ LPVOID pImage = ::GlobalLock(hMem);
 ... // Fill memory
 ::GlobalUnlock(hMem);
 
-CComPtr&lt;IStream&gt; spStream;
-HRESULT hr = ::CreateStreamOnHGlobal(hMem,FALSE,&amp;spStream);</pre>
-</td>
-</tr>
-</table></span></div>
+CComPtr<IStream> spStream;
+HRESULT hr = ::CreateStreamOnHGlobal(hMem,FALSE,&spStream);
+```
+
+
 <b>CreateStreamOnHGlobal</b> will accept a memory handle allocated with <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GMEM_FIXED</a>, but this usage is not recommended. HGLOBALs allocated with <b>GMEM_FIXED</b> are not really handles and their value can change when they are reallocated. If the memory handle was allocated with <b>GMEM_FIXED</b> and <i>fDeleteOnRelease</i> is <b>FALSE</b>,  the caller must call <a href="https://msdn.microsoft.com/79e39345-7a20-4b0f-bceb-f62de13d3260">GetHGlobalFromStream</a> to get the correct handle in order to free it.
 
 Prior to Windows 7 and Windows Server 2008 R2, this implementation did not zero memory when calling <a href="https://msdn.microsoft.com/2439b16a-f27d-4e95-bc9e-6f1e563933c9">GlobalReAlloc</a> to grow the memory block. Increasing the size of the stream with <a href="https://msdn.microsoft.com/05627db5-067b-4a1a-a7ed-c83314f8bd8d">IStream::SetSize</a> or by writing to a location past the current end of the stream may leave portions of the newly allocated memory uninitialized.

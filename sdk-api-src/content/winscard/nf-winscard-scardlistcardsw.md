@@ -159,13 +159,9 @@ Calling this function should be done outside of a transaction. If an application
 
 The following example  shows listing of the smart cards.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPTSTR pmszCards = NULL;
+
+```cpp
+LPTSTR pmszCards = NULL;
 LPTSTR pCard;
 LONG lReturn;
 DWORD cch = SCARD_AUTOALLOCATE;
@@ -175,8 +171,8 @@ lReturn = SCardListCards(NULL,
                          NULL,
                          NULL,
                          NULL,
-                         (LPTSTR)&amp;pmszCards,
-                         &amp;cch );
+                         (LPTSTR)&pmszCards,
+                         &cch );
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardListCards\n");
@@ -196,10 +192,10 @@ while ( '\0' != *pCard )
 
 // Remember to free pmszCards (by calling SCardFreeMemory).
 // ...
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

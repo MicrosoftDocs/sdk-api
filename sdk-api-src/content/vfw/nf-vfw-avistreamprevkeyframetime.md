@@ -79,20 +79,16 @@ The search performed by this macro includes the frame that corresponds to the sp
 
 The <b>AVIStreamPrevKeyFrameTime</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define AVIStreamPrevKeyFrameTime(pavi, time) \ 
     AVIStreamSampleToTime(pavi, AVIStreamPrevKeyFrame(pavi, 
     AVIStreamTimeToSample(pavi, time))) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

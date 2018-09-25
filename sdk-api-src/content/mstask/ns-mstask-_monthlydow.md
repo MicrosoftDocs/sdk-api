@@ -353,19 +353,15 @@ The
 
 The following C++ example shows how to  combine these flags. The example runs a task on the Monday and the Friday of the third week of every third month.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>MONTHLYDOW example;
+
+```cpp
+MONTHLYDOW example;
 example.wWhichWeek = TASK_THIRD_WEEK;
 example.rgfDaysOfTheWeek = TASK_FRIDAY | TASK_MONDAY;
-example.rgfMonths = TASK_JANUARY | TASK_APRIL | TASK_JULY | TASK_OCTOBER;</pre>
-</td>
-</tr>
-</table></span></div>
+example.rgfMonths = TASK_JANUARY | TASK_APRIL | TASK_JULY | TASK_OCTOBER;
+```
+
+
 
 
 

@@ -148,25 +148,21 @@ For more information about the preceding return values, see <a href="https://msd
 </ul>
 Applications must cast the void pData pointer to the appropriate type to meaningfully access the underlying subresource data. For example, the following code demonstrates how to read each texel of a 1D subresource. It is assumed that the texture was created using <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R32G32B32A32_FLOAT</a> and that pData is the pointer to the texture resource data output from a successful call to this method.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 FLOAT* pTexels = (FLOAT*)pData;
-for( UINT col = 0; col &lt; width; col++ )
+for( UINT col = 0; col < width; col++ )
 {
   pTexels[col*4 + 0]; // Alpha
   pTexels[col*4 + 1]; // Blue
   pTexels[col*4 + 2]; // Green
   pTexels[col*4 + 3]; // Red
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <table>
 <tr>
 <td>

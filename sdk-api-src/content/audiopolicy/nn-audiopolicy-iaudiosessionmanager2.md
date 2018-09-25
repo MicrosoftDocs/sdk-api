@@ -152,13 +152,9 @@ An application that manages the media streams and wants to provide a custom duck
 
 The following example code shows how to get a reference to the <b>IAudioSessionManager2</b> interface of the audio device.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CreateSessionManager(IAudioSessionManager2** ppSessionManager)
+
+```cpp
+HRESULT CreateSessionManager(IAudioSessionManager2** ppSessionManager)
 {
  
     HRESULT hr = S_OK;
@@ -173,20 +169,20 @@ The following example code shows how to get a reference to the <b>IAudioSessionM
         __uuidof(MMDeviceEnumerator), 
         NULL, CLSCTX_ALL, 
         __uuidof(IMMDeviceEnumerator), 
-        (void**)&amp;pEnumerator));
+        (void**)&pEnumerator));
 
     // Get the default audio device.
-    CHECK_HR( hr = pEnumerator-&gt;GetDefaultAudioEndpoint(
-                    eRender, eConsole, &amp;pDevice));
+    CHECK_HR( hr = pEnumerator->GetDefaultAudioEndpoint(
+                    eRender, eConsole, &pDevice));
 
     // Get the session manager.
-    CHECK_HR( hr = pDevice-&gt;Activate(
+    CHECK_HR( hr = pDevice->Activate(
         __uuidof(IAudioSessionManager2), CLSCTX_ALL,
-        NULL, (void**)&amp;pSessionManager));
+        NULL, (void**)&pSessionManager));
 
     // Return the pointer to the caller.
     *(ppSessionManager) = pSessionManager;
-    (*ppSessionManager)-&gt;AddRef();
+    (*ppSessionManager)->AddRef();
 
 done:
 
@@ -196,10 +192,10 @@ done:
     SAFE_RELEASE(pDevice);
 
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

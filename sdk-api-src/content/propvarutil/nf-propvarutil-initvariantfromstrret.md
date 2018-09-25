@@ -103,27 +103,23 @@ Creates a VT_BSTR variant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromStrRet">InitVariantFromStrRet</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// STRRET strret;
+
+```cpp
+// STRRET strret;
 // PCUITEMID_CHILD pidl;
 // Assume variables strret and pidl are initialized and valid.
 VARIANT var;
 
-HRESULT hr = InitVariantFromStrRet(strret, pidl, &amp;var);
+HRESULT hr = InitVariantFromStrRet(strret, pidl, &var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_BSTR.
-    VariantClear(&amp;var);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&var);
+}
+```
+
+
 
 
 

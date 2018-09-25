@@ -84,22 +84,18 @@ This method is called by various interfaces to indicate that an operation is end
 
 The following C++ code is an implementation of the <b>End</b> method
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT End()
 {
     // TODO: Display the message: "IWMDMProgress::End called."
     return S_OK; // Unnecessary, since this is ignored.
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -72,20 +72,16 @@ For example, if a client supplies the <i>Len</i> 24, the mask 255.255.255.255 is
 
 The macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
+
+```cpp
+#include <windows.h>
 
 #define RTM_IPV4_MASK_FROM_LEN(Len)                         \
-        ((Len) ? htonl(~0 &lt;&lt; (32 - (Len))): 0);             \       
-</pre>
-</td>
-</tr>
-</table></span></div>
+        ((Len) ? htonl(~0 << (32 - (Len))): 0);             \       
+
+```
+
+
 
 
 

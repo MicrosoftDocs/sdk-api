@@ -199,13 +199,9 @@ The following example shows how to use the <b>RegisterHotKey</b> function with t
      the thread will receive a <a href="https://msdn.microsoft.com/28d87c2f-b2bb-4176-910b-0addea6beb93">WM_HOTKEY</a> message, which will get picked up in the <a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a> call. 
      Because this example uses <b>MOD_ALT</b> with the <b>MOD_NOREPEAT</b> value for <i>fsModifiers</i>, the thread will only receive another <b>WM_HOTKEY</b> message when the 'b' key is released and then pressed again while the 'ALT' key is being pressed down.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #include "stdafx.h"
 
 int _cdecl _tmain (
@@ -222,7 +218,7 @@ int _cdecl _tmain (
     }
  
     MSG msg = {0};
-    while (GetMessage(&amp;msg, NULL, 0, 0) != 0)
+    while (GetMessage(&msg, NULL, 0, 0) != 0)
     {
         if (msg.message == WM_HOTKEY)
         {
@@ -232,10 +228,10 @@ int _cdecl _tmain (
  
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

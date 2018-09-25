@@ -94,13 +94,9 @@ This interface was available in Windows Vista with Service Pack 1 (SP1), but i
                 
                 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>object,
+
+```cpp
+object,
     uuid(321a6a6a-d61f-4bf3-97ae-14be2986bb36),
     pointer_default(unique)
 ]
@@ -108,20 +104,16 @@ interface IObjectWithBackReferences : IUnknown
 {
     HRESULT RemoveBackReferences();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following C++ fragment can be used to enable access to this interface.
                 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>struct 
+
+```cpp
+struct 
     __declspec(uuid("321a6a6a-d61f-4bf3-97ae-14be2986bb36")) 
     __declspec(novtable)
 IObjectWithBackReferences : public IUnknown
@@ -129,9 +121,9 @@ IObjectWithBackReferences : public IUnknown
     public:
         virtual HRESULT __stdcall RemoveBackReferences() = 0;
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

@@ -119,18 +119,14 @@ This function creates a file, copies stream data into the file, closes the file,
 
 A callback function (referenced by using <i>lpfnCallback</i>) can display status information and let the user cancel the save operation. The callback function uses the following format:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 LONG PASCAL SaveCallback(int nPercent)  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The <i>nPercent</i> parameter specifies the percentage of the file saved.
 
 The callback function should return AVIERR_OK if the operation should continue and AVIERR_USERABORT if the user wishes to abort the save operation.
