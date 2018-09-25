@@ -2,7 +2,7 @@
 UID: TP:shell
 ms.assetid: 2827809d-7ca5-313d-944e-507165c995d8
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,6 @@ To develop The Windows Shell, you need these headers:
  * [intsafe.h](../intsafe/index.md)
  * [intshcut.h](../intshcut/index.md)
  * [mobsync.h](../mobsync/index.md)
- * [ntquery.h](../ntquery/index.md)
  * [objectarray.h](../objectarray/index.md)
  * [pathcch.h](../pathcch/index.md)
  * [profinfo.h](../profinfo/index.md)

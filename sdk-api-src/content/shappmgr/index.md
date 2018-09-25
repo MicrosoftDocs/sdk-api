@@ -2,7 +2,7 @@
 UID: NA:shappmgr
 ms.assetid: cc580f07-bf14-3d06-993c-5fe0ecc4bfb9
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

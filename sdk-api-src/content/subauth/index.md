@@ -2,7 +2,7 @@
 UID: NA:subauth
 ms.assetid: 9c39c148-90de-38f5-9692-43d80ffd4b1b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

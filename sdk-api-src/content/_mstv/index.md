@@ -2,7 +2,7 @@
 UID: TP:mstv
 ms.assetid: c2a5b070-2d31-379e-bb1b-8084848a387c
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,6 +19,7 @@ Overview of the Microsoft TV Technologies technology.
 To develop Microsoft TV Technologies, you need these headers:
 
  * [atscpsipparser.h](../atscpsipparser/index.md)
+ * [bdaiface.h](../bdaiface/index.md)
  * [bdaiface_enums.h](../bdaiface_enums/index.md)
  * [bdatif.h](../bdatif/index.md)
  * [dsattrib.h](../dsattrib/index.md)
@@ -26,10 +27,13 @@ To develop Microsoft TV Technologies, you need these headers:
  * [encdec.h](../encdec/index.md)
  * [mpeg2bits.h](../mpeg2bits/index.md)
  * [mpeg2data.h](../mpeg2data/index.md)
+ * [mpeg2psiparser.h](../mpeg2psiparser/index.md)
  * [mpeg2structs.h](../mpeg2structs/index.md)
  * [msvidctl.h](../msvidctl/index.md)
  * [regbag.h](../regbag/index.md)
  * [sbe.h](../sbe/index.md)
+ * [segment.h](../segment/index.md)
+ * [strmif.h](../strmif/index.md)
  * [tuner.h](../tuner/index.md)
  * [tvratings.h](../tvratings/index.md)
 

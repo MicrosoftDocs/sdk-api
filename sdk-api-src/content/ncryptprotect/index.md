@@ -2,7 +2,7 @@
 UID: NA:ncryptprotect
 ms.assetid: 47b92e44-e7e5-337a-aa66-31b792346c0a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

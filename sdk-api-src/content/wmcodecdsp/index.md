@@ -2,12 +2,12 @@
 UID: NA:wmcodecdsp
 ms.assetid: 75f67bd6-f134-3f81-8b6c-463ec552fd28
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: dshow
+tech.root: mf
 ---
 
 # Wmcodecdsp.h header
@@ -16,6 +16,6 @@ tech.root: dshow
 ## -description
 
 
-This header is used by DirectShow. For more information, see:
+This header is used by Microsoft Media Foundation. For more information, see:
 
-- [DirectShow](../_dshow)
+- [Microsoft Media Foundation](../_mf)

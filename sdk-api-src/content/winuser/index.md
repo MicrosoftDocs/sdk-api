@@ -2,7 +2,7 @@
 UID: NA:winuser
 ms.assetid: 36ab57e8-bfcf-33fc-918e-fb2ddcf2a90b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:cryptuiapi
 ms.assetid: 38d27bdd-650c-370d-be6a-e2db65976a33
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

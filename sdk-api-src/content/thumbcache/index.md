@@ -2,7 +2,7 @@
 UID: NA:thumbcache
 ms.assetid: 8ab62ddf-7c37-31b1-b54d-3b6b8bbf5a87
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

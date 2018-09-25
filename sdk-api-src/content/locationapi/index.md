@@ -2,7 +2,7 @@
 UID: NA:locationapi
 ms.assetid: bad5cac7-9346-349c-87c7-57bca80e3c48
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: TP:winsync
 ms.assetid: ee92abfb-a568-3036-bd81-7498365db57b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

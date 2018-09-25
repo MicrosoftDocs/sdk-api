@@ -2,7 +2,7 @@
 UID: NA:edpwin32
 ms.assetid: d4453729-6c25-3e95-aaa2-455b92b22394
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

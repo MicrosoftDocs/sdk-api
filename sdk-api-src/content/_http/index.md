@@ -2,7 +2,7 @@
 UID: TP:http
 ms.assetid: cfab313a-3f98-3ef1-aa82-fdcc1fc87df9
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
