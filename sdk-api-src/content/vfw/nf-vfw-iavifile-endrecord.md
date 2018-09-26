@@ -7,7 +7,7 @@ old-location: multimedia\iavifile_endrecord.htm
 tech.root: Multimedia
 ms.assetid: 43c4edbf-d736-4d85-9726-123f92145134
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: EndRecord, EndRecord method [Windows Multimedia], EndRecord method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],EndRecord method, IAVIFile.EndRecord, IAVIFile::EndRecord, _win32_IAVIFile_EndRecord, multimedia.iavifile_endrecord, vfw/IAVIFile::EndRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,15 +86,19 @@ This file handler method is typically not used.
 
 For handlers written in C++, <b>EndRecord</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT EndRecord(VOID); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

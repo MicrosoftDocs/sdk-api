@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample_setmediatype.htm
 tech.root: DirectShow
 ms.assetid: 13c065b4-9a46-42bd-aef9-dd2a87a355df
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetMediaType method, IAMMediaTypeSample.SetMediaType, IAMMediaTypeSample::SetMediaType, IAMMediaTypeSampleSetMediaType, SetMediaType, SetMediaType method [DirectShow], SetMediaType method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetMediaType, dshow.iammediatypesample_setmediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices

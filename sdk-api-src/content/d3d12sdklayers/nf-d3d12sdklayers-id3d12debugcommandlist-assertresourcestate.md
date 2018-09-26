@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandlist_assertresourcestate.htm
 tech.root: direct3d12
 ms.assetid: 9190760D-B624-4E3E-8C33-B5D888895499
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: AssertResourceState, AssertResourceState method, AssertResourceState method,ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,AssertResourceState method, ID3D12DebugCommandList.AssertResourceState, ID3D12DebugCommandList::AssertResourceState, d3d12sdklayers/ID3D12DebugCommandList::AssertResourceState, direct3d12.id3d12debugcommandlist_assertresourcestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Checks whether a resource, or subresource, is in a specified state, or not.
 
 Type: <b>ID3D12Resource*</b>
 
-Specifies the  <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a> to check.
+Specifies the  <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> to check.
 
 
 ### -param Subresource
@@ -95,7 +95,7 @@ This method returns true if the resource or subresource is in the specified stat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950154(v=VS.85).aspx">ID3D12DebugCommandList</a>
+<a href="https://msdn.microsoft.com/EDE527F0-4091-4B03-9030-6F693FE901BE">ID3D12DebugCommandList</a>
  
 
  

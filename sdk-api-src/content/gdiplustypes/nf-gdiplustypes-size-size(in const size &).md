@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object and initializes its members by copying the members of another <b>Size</b> object.
+Creates a <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object and initializes its members by copying the members of another <b>Size</b> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).as
 
 ### -param size [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object that is used to initialize this <b>Size</b> object. 
+Reference to a <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object that is used to initialize this <b>Size</b> object. 
 
 
 ## -see-also
@@ -71,11 +71,11 @@ Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a>
+<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534747(v=VS.85).aspx">Size Constructors</a>
+<a href="https://msdn.microsoft.com/8e3f7ddd-cac4-4e81-9764-40167ef7d9ef">Size Constructors</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: winprog\ifhconfigmgr.htm
 tech.root: devnotes
 ms.assetid: CDE8A011-6E78-49DF-A5E1-8E968355BA11
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IFhConfigMgr, IFhConfigMgr interface [Windows API], IFhConfigMgr interface [Windows API],described, fhcfg/IFhConfigMgr, winprog.ifhconfigmgr
 ms.prod: windows
 ms.technology: windows-sdk

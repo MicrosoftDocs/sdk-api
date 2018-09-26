@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_get_avgtimeperframe.htm
 tech.root: DirectShow
 ms.assetid: a32a1a46-cde3-401a-b933-c72e399e9ea1
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_AvgTimePerFrame method, IBasicVideo.get_AvgTimePerFrame, IBasicVideo::get_AvgTimePerFrame, IBasicVideoget_AvgTimePerFrame, control/IBasicVideo::get_AvgTimePerFrame, dshow.ibasicvideo_get_avgtimeperframe, get_AvgTimePerFrame, get_AvgTimePerFrame method [DirectShow], get_AvgTimePerFrame method [DirectShow],IBasicVideo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ Returns an <b>HRESULT</b> value.
 
 This method returns the authored time per frame. This value is typically set by the source filter, which obtains it from information in the video stream itself. This value is not necessarily equal to the actual time per frame at which the video is rendered.
 
-To retrieve the actual frame rate during playback, use the <a href="https://msdn.microsoft.com/en-us/library/Dd376916(v=VS.85).aspx">IQualProp::get_AvgFrameRate</a>. For more information on actual versus authored frame rates, see the Remarks section for the <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure.
+To retrieve the actual frame rate during playback, use the <a href="https://msdn.microsoft.com/31e326e2-56de-4c7c-b26a-836c9fc76342">IQualProp::get_AvgFrameRate</a>. For more information on actual versus authored frame rates, see the Remarks section for the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure.
 
 
 
@@ -92,11 +92,11 @@ To retrieve the actual frame rate during playback, use the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
  
 
  

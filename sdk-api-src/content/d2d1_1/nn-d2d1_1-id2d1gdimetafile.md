@@ -7,7 +7,7 @@ old-location: direct2d\id2d1gdimetafile.htm
 tech.root: direct2d
 ms.assetid: 36A454EC-7DE0-4610-B49C-7FBBD21C425C
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1GdiMetafile, ID2D1GdiMetafile interface [Direct2D], ID2D1GdiMetafile interface [Direct2D],described, d2d1_1/ID2D1GdiMetafile, direct2d.id2d1gdimetafile
 ms.prod: windows
 ms.technology: windows-sdk

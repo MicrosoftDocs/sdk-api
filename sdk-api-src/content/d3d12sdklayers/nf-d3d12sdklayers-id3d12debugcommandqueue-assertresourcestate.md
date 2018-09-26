@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandqueue_assertresourcestate.htm
 tech.root: direct3d12
 ms.assetid: D96DE885-D3B3-4EE5-A119-54F4261D7056
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: AssertResourceState, AssertResourceState method, AssertResourceState method,ID3D12DebugCommandQueue interface, ID3D12DebugCommandQueue interface,AssertResourceState method, ID3D12DebugCommandQueue.AssertResourceState, ID3D12DebugCommandQueue::AssertResourceState, d3d12sdklayers/ID3D12DebugCommandQueue::AssertResourceState, direct3d12.id3d12debugcommandqueue_assertresourcestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Checks whether a resource, or subresource, is in a specified state, or not.
 
 Type: <b>ID3D12Resource*</b>
 
-Specifies the  <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a> to check.
+Specifies the  <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> to check.
 
 
 ### -param Subresource
@@ -96,7 +96,7 @@ This method returns true if the resource or subresource is in the specified stat
 
 
 
-This method is very similar to <a href="https://msdn.microsoft.com/en-us/library/Dn950155(v=VS.85).aspx">ID3D12DebugCommandList::AssertResourceState</a>, however there are methods on the command queue that work directly with resources that might need to be monitored (for example <a href="https://msdn.microsoft.com/en-us/library/Dn788629(v=VS.85).aspx">ID3D13CommandQueue::CopyTileMappings</a>).
+This method is very similar to <a href="https://msdn.microsoft.com/9190760D-B624-4E3E-8C33-B5D888895499">ID3D12DebugCommandList::AssertResourceState</a>, however there are methods on the command queue that work directly with resources that might need to be monitored (for example <a href="https://msdn.microsoft.com/FAFA4B5C-EA3C-4209-AB8E-75F3B90F3745">ID3D13CommandQueue::CopyTileMappings</a>).
 
 
 
@@ -106,7 +106,7 @@ This method is very similar to <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950158(v=VS.85).aspx">ID3D12DebugCommandQueue</a>
+<a href="https://msdn.microsoft.com/383F3B25-10C6-464C-AB79-D35F6FD3E879">ID3D12DebugCommandQueue</a>
  
 
  

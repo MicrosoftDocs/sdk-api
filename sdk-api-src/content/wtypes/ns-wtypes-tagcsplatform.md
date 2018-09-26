@@ -7,7 +7,7 @@ old-location: com\csplatform.htm
 tech.root: com
 ms.assetid: e9ffa8ba-98a2-431c-a069-20ed4a45e6f8
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: CSPLATFORM, CSPLATFORM structure [COM], _com_CSPLATFORM, com.csplatform, tagCSPLATFORM, wtypes/tagCSPLATFORM
 ms.prod: windows
 ms.technology: windows-sdk

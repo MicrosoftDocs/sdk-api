@@ -7,7 +7,7 @@ old-location: direct2d\id2d1spritebatch_clear.htm
 tech.root: direct2d
 ms.assetid: 01CCF4B6-C3CA-4E59-8436-AAE633C7A5FD
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: Clear, Clear method [Direct2D], Clear method [Direct2D],ID2D1SpriteBatch interface, ID2D1SpriteBatch interface [Direct2D],Clear method, ID2D1SpriteBatch.Clear, ID2D1SpriteBatch::Clear, d2d1_3/ID2D1SpriteBatch::Clear, direct2d.id2d1spritebatch_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

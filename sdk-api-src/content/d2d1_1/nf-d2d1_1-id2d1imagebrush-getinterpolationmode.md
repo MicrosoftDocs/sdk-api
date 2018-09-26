@@ -7,7 +7,7 @@ old-location: direct2d\id2d1imagebrush_getinterpolationmode.htm
 tech.root: direct2d
 ms.assetid: 74f708eb-e860-4186-822f-8c5296a4b3ba
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: GetInterpolationMode, GetInterpolationMode method [Direct2D], GetInterpolationMode method [Direct2D],ID2D1ImageBrush interface, ID2D1ImageBrush interface [Direct2D],GetInterpolationMode method, ID2D1ImageBrush.GetInterpolationMode, ID2D1ImageBrush::GetInterpolationMode, d2d1_1/ID2D1ImageBrush::GetInterpolationMode, direct2d.id2d1imagebrush_getinterpolationmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

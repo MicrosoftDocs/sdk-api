@@ -7,7 +7,7 @@ old-location: dshow\vmrmode.htm
 tech.root: DirectShow
 ms.assetid: cc924b1a-561f-4d62-8cc8-03ba5e5e8d5b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: VMRMode, VMRMode enumeration [DirectShow], VMRModeEnumeration, VMRMode_Mask, VMRMode_Renderless, VMRMode_Windowed, VMRMode_Windowless, dshow.vmrmode, strmif/VMRMode, strmif/VMRMode_Mask, strmif/VMRMode_Renderless, strmif/VMRMode_Windowed, strmif/VMRMode_Windowless
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugdevice.htm
 tech.root: direct3d12
 ms.assetid: 6FD77F14-E260-4DBB-8434-664DE1F6DE39
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: ID3D12DebugDevice, ID3D12DebugDevice interface, ID3D12DebugDevice interface,described, d3d12sdklayers/ID3D12DebugDevice, direct3d12.id3d12debugdevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,9 @@ This interface represents a graphics device for debugging.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12DebugDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D12DebugDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12DebugDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D12DebugDevice</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ID3D12DebugDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn986874(v=VS.85).aspx">GetFeatureMask</a>
+<a href="https://msdn.microsoft.com/E4ECE63F-6738-4856-9912-93C3AAEE7E3B">GetFeatureMask</a>
 </td>
 <td align="left" width="63%">
 Gets a bit field of flags that indicates which debug features are on or off.
@@ -81,7 +81,7 @@ Gets a bit field of flags that indicates which debug features are on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn986875(v=VS.85).aspx">ReportLiveDeviceObjects</a>
+<a href="https://msdn.microsoft.com/37771598-DC2E-42FA-B17D-A187164A3314">ReportLiveDeviceObjects</a>
 </td>
 <td align="left" width="63%">
 Reports information about a device object's lifetime.
@@ -91,7 +91,7 @@ Reports information about a device object's lifetime.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn986876(v=VS.85).aspx">SetFeatureMask</a>
+<a href="https://msdn.microsoft.com/12232AB8-BBEA-4663-BEB2-7E296851FE5E">SetFeatureMask</a>
 </td>
 <td align="left" width="63%">
 Set a bit field of flags that will turn debug features on and off.
@@ -107,11 +107,11 @@ Set a bit field of flags that will turn debug features on and off.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950150(v=VS.85).aspx">Debug Layer Interfaces</a>
+<a href="https://msdn.microsoft.com/9BD5910A-8FF2-4540-BB8E-8EA5C10528CE">Debug Layer Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
  
 
  

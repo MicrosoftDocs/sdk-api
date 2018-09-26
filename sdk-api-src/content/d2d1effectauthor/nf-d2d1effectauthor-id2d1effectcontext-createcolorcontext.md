@@ -7,7 +7,7 @@ old-location: direct2d\id2d1contextinternal_createcolorcontext.htm
 tech.root: direct2d
 ms.assetid: FB06917B-091A-4429-83BA-DAEF26F654BE
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: CreateColorContext, CreateColorContext method [Direct2D], CreateColorContext method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateColorContext method, ID2D1EffectContext.CreateColorContext, ID2D1EffectContext::CreateColorContext, d2d1effectauthor/ID2D1EffectContext::CreateColorContext, direct2d.id2d1contextinternal_createcolorcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

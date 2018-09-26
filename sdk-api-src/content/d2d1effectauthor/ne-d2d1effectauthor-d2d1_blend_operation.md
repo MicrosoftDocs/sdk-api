@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_blend_operation.htm
 tech.root: direct2d
 ms.assetid: 54977cf3-cca3-4a1e-a039-1ee4a8d44686
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1_BLEND_OPERATION, D2D1_BLEND_OPERATION enumeration [Direct2D], D2D1_BLEND_OPERATION_ADD, D2D1_BLEND_OPERATION_MAX, D2D1_BLEND_OPERATION_MIN, D2D1_BLEND_OPERATION_REV_SUBSTRACT, D2D1_BLEND_OPERATION_SUBTRACT, d2d1effectauthor/D2D1_BLEND_OPERATION, d2d1effectauthor/D2D1_BLEND_OPERATION_ADD, d2d1effectauthor/D2D1_BLEND_OPERATION_MAX, d2d1effectauthor/D2D1_BLEND_OPERATION_MIN, d2d1effectauthor/D2D1_BLEND_OPERATION_REV_SUBSTRACT, d2d1effectauthor/D2D1_BLEND_OPERATION_SUBTRACT, direct2d.d2d1_blend_operation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ Subtract source 2 from source 1.
 
 
 
-This enumeration has the same numeric values as <a href="https://msdn.microsoft.com/en-us/library/Bb204894(v=VS.85).aspx">D3D10_BLEND_OP</a>.
+This enumeration has the same numeric values as <a href="https://msdn.microsoft.com/2d23109a-4d0e-4001-a693-185a942900c0">D3D10_BLEND_OP</a>.
 
 
 
@@ -106,7 +106,7 @@ This enumeration has the same numeric values as <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404277(v=VS.85).aspx">D2D1_BLEND_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/5f4c7248-9303-4451-92f1-4b230efd627a">D2D1_BLEND_DESCRIPTION</a>
 
 
 

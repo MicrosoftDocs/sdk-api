@@ -7,7 +7,7 @@ old-location: dshow\iipdvdec.htm
 tech.root: DirectShow
 ms.assetid: 0e40841a-e297-4c05-aefa-7131de9c6a97
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IIPDVDec, IIPDVDec interface [DirectShow], IIPDVDec interface [DirectShow],described, IIPDVDecInterface, dshow.iipdvdec, strmif/IIPDVDec
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_put_sourceleft.htm
 tech.root: DirectShow
 ms.assetid: 0388d5fe-5434-41b9-b005-c0e4bf36bb27
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_SourceLeft method, IBasicVideo.put_SourceLeft, IBasicVideo::put_SourceLeft, IBasicVideoput_SourceLeft, control/IBasicVideo::put_SourceLeft, dshow.ibasicvideo_put_sourceleft, put_SourceLeft, put_SourceLeft method [DirectShow], put_SourceLeft method [DirectShow],IBasicVideo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,11 +131,11 @@ This method moves the entire source rectangle to the left or right. It does not 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
  
 
  

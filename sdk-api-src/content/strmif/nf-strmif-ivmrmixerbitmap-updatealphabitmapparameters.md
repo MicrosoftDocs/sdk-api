@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixerbitmap_updatealphabitmapparameters.htm
 tech.root: DirectShow
 ms.assetid: 039cb675-c384-4909-b06d-b331cc281df6
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IVMRMixerBitmap interface [DirectShow],UpdateAlphaBitmapParameters method, IVMRMixerBitmap.UpdateAlphaBitmapParameters, IVMRMixerBitmap::UpdateAlphaBitmapParameters, IVMRMixerBitmapUpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters method [DirectShow], UpdateAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap interface, dshow.ivmrmixerbitmap_updatealphabitmapparameters, strmif/IVMRMixerBitmap::UpdateAlphaBitmapParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

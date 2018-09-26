@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>NMLINK</b> Contains notification information. Send this structure with the <a href="https://msdn.microsoft.com/en-us/library/Bb760714(v=VS.85).aspx">NM_CLICK</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775562(v=VS.85).aspx">NM_RETURN</a> messages.
+The <b>NMLINK</b> Contains notification information. Send this structure with the <a href="https://msdn.microsoft.com/e92d7c92-f2c6-44aa-bce5-3bb07c184e7d">NM_CLICK</a> or <a href="https://msdn.microsoft.com/2c4839bc-6b23-469b-978f-cdf5f7bc0549">NM_RETURN</a> messages.
 
 
 ## -struct-fields
@@ -60,18 +60,18 @@ The <b>NMLINK</b> Contains notification information. Send this structure with th
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification.
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification.
 
 
 ### -field item
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760710(v=VS.85).aspx">LITEM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/c3d62876-b92a-43b0-bc23-8b006847a474">LITEM</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760710(v=VS.85).aspx">LITEM</a> structure that contains information about the link item.
+<a href="https://msdn.microsoft.com/c3d62876-b92a-43b0-bc23-8b006847a474">LITEM</a> structure that contains information about the link item.
 
 
 ## -see-also
@@ -79,15 +79,15 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760710(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760710(v=VS.85).aspx">LITEM</a>
+<a href="https://msdn.microsoft.com/c3d62876-b92a-43b0-bc23-8b006847a474">LITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a>
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760714(v=VS.85).aspx">NM_CLICK (syslink)</a>
+<a href="https://msdn.microsoft.com/e92d7c92-f2c6-44aa-bce5-3bb07c184e7d">NM_CLICK (syslink)</a>
 
 
 

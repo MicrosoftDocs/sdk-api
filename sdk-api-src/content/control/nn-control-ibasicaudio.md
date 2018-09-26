@@ -7,7 +7,7 @@ old-location: dshow\ibasicaudio.htm
 tech.root: DirectShow
 ms.assetid: 0335b263-8d32-4690-a606-ba2b3e382680
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IBasicAudio, IBasicAudio interface [DirectShow], IBasicAudio interface [DirectShow],described, IBasicAudioInterface, control/IBasicAudio, dshow.ibasicaudio
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,16 +54,16 @@ req.redist:
 
 The <code>IBasicAudio</code> interface controls the volume and balance of the audio stream.
 
-This interface is implemented on the <a href="https://msdn.microsoft.com/en-us/library/Dd317589(v=VS.85).aspx">Audio Renderer (WaveOut)</a> filter and the <a href="https://msdn.microsoft.com/en-us/library/Dd375473(v=VS.85).aspx">DirectSound Renderer</a> filter, but is exposed to applications through the Filter Graph Manager. Applications should always retrieve this interface from the Filter Graph Manager.
+This interface is implemented on the <a href="https://msdn.microsoft.com/a3f2776b-974b-4886-82a3-38e00b607a07">Audio Renderer (WaveOut)</a> filter and the <a href="https://msdn.microsoft.com/ec6cc790-8c1f-4de4-a7ca-a7073894380e">DirectSound Renderer</a> filter, but is exposed to applications through the Filter Graph Manager. Applications should always retrieve this interface from the Filter Graph Manager.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicAudio</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IBasicAudio</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicAudio</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IBasicAudio</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -76,7 +76,7 @@ The <b>IBasicAudio</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389534(v=VS.85).aspx">get_Balance</a>
+<a href="https://msdn.microsoft.com/bb9796c5-0dd2-496a-b5b4-a6614d7770c1">get_Balance</a>
 </td>
 <td align="left" width="63%">
 Retrieves the balance for the audio signal.
@@ -85,7 +85,7 @@ Retrieves the balance for the audio signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389535(v=VS.85).aspx">get_Volume</a>
+<a href="https://msdn.microsoft.com/3258da5a-ab44-4c8a-813b-79a0c28693a3">get_Volume</a>
 </td>
 <td align="left" width="63%">
 Retrieves the volume (amplitude) of the audio signal.
@@ -94,7 +94,7 @@ Retrieves the volume (amplitude) of the audio signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389537(v=VS.85).aspx">put_Balance</a>
+<a href="https://msdn.microsoft.com/88cf4639-8f32-424f-a097-272c44592f6f">put_Balance</a>
 </td>
 <td align="left" width="63%">
 Sets the balance for the audio signal.
@@ -103,7 +103,7 @@ Sets the balance for the audio signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389538(v=VS.85).aspx">put_Volume</a>
+<a href="https://msdn.microsoft.com/95171b87-e558-450b-8a48-f43a19069218">put_Volume</a>
 </td>
 <td align="left" width="63%">
 Sets the volume (amplitude) of the audio signal.
@@ -118,7 +118,7 @@ Sets the volume (amplitude) of the audio signal.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

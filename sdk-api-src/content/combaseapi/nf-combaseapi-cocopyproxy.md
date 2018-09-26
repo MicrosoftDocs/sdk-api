@@ -7,7 +7,7 @@ old-location: com\cocopyproxy.htm
 tech.root: com
 ms.assetid: 26de7bac-8745-40c0-be0a-dcec88a3ecaf
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: CoCopyProxy, CoCopyProxy function [COM], _com_CoCopyProxy, com.cocopyproxy, combaseapi/CoCopyProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Makes a private copy of the specified proxy.
 
 ### -param pProxy [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on the proxy to be copied. This parameter cannot be <b>NULL</b>.
+A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface on the proxy to be copied. This parameter cannot be <b>NULL</b>.
 
 
 ### -param ppCopy [out]
@@ -116,7 +116,7 @@ One or more arguments are invalid.
 
 
 
-<b>CoCopyProxy</b> makes a private copy of the specified proxy. Typically, this function is called when a client needs to change the authentication information of its proxy through a call to either <a href="https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx">CoSetProxyBlanket</a> or <a href="https://msdn.microsoft.com/en-us/library/ms691255(v=VS.85).aspx">IClientSecurity::SetBlanket</a> without changing this information for other clients. <b>CoSetProxyBlanket</b> affects all the users of an instance of a proxy, so creating a private copy of the proxy through a call to <b>CoCopyProxy</b> and then calling <b>CoSetProxyBlanket</b> (or <b>IClientSecurity::SetBlanket</b>) using the copy eliminates the problem.
+<b>CoCopyProxy</b> makes a private copy of the specified proxy. Typically, this function is called when a client needs to change the authentication information of its proxy through a call to either <a href="https://msdn.microsoft.com/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf">CoSetProxyBlanket</a> or <a href="https://msdn.microsoft.com/adb35089-2846-4782-8c96-d3d1e14beed9">IClientSecurity::SetBlanket</a> without changing this information for other clients. <b>CoSetProxyBlanket</b> affects all the users of an instance of a proxy, so creating a private copy of the proxy through a call to <b>CoCopyProxy</b> and then calling <b>CoSetProxyBlanket</b> (or <b>IClientSecurity::SetBlanket</b>) using the copy eliminates the problem.
 
 This helper function encapsulates the following sequence of common calls (error handling excluded):
 
@@ -126,9 +126,9 @@ This helper function encapsulates the following sequence of common calls (error 
     pcs-&gt;CopyProxy(punkProxy, ppunkCopy);
     pcs-&gt;Release();
 </code></pre>
-Local interfaces may not be copied. <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> and <a href="https://msdn.microsoft.com/en-us/library/ms683964(v=VS.85).aspx">IClientSecurity</a> are examples of existing local interfaces.
+Local interfaces may not be copied. <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> and <a href="https://msdn.microsoft.com/65066913-f9d8-48c7-bcb5-68c8ddc4a009">IClientSecurity</a> are examples of existing local interfaces.
 
-Copies of the same proxy have a special relationship with respect to <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a>. Given a proxy, a, of the IA interface of a remote object, suppose a copy of a is created, called b. In this case, calling <b>QueryInterface</b> from the b proxy for IID_IA will not retrieve the IA interface on b, but the one on a, the original proxy with the "default" security settings for the IA interface.
+Copies of the same proxy have a special relationship with respect to <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a>. Given a proxy, a, of the IA interface of a remote object, suppose a copy of a is created, called b. In this case, calling <b>QueryInterface</b> from the b proxy for IID_IA will not retrieve the IA interface on b, but the one on a, the original proxy with the "default" security settings for the IA interface.
 
 
 
@@ -138,15 +138,15 @@ Copies of the same proxy have a special relationship with respect to <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx">CoSetProxyBlanket</a>
+<a href="https://msdn.microsoft.com/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf">CoSetProxyBlanket</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691255(v=VS.85).aspx">IClientSecurity::SetBlanket</a>
+<a href="https://msdn.microsoft.com/adb35089-2846-4782-8c96-d3d1e14beed9">IClientSecurity::SetBlanket</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693319(v=VS.85).aspx">Security in COM</a>
+<a href="https://msdn.microsoft.com/c9f6d06c-da24-48ea-908a-2462c33f7ee3">Security in COM</a>
  
 
  

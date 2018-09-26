@@ -80,22 +80,30 @@ If the LDAP provider is used to bind to the <a href="https://msdn.microsoft.com/
 
 You can use a SID in the ADsPath to remove a security principal from the group through the WinNT provider. For example, suppose the SID of a user, "Fabrikam\jeffsmith", is S-1-5-21-35135249072896, the following statement:
 
-
-```vb
-Dim group As IADsGroup
-group.Remove("WinNT://S-1-5-21-35135249072896")
-```
-
-
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim group As IADsGroup
+group.Remove("WinNT://S-1-5-21-35135249072896")</pre>
+</td>
+</tr>
+</table></span></div>
 is equivalent to
 
-
-```vb
-Dim group As IADsGroup
-group.Remove("WinNT://Fabrikam/jeffsmith")
-```
-
-
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim group As IADsGroup
+group.Remove("WinNT://Fabrikam/jeffsmith")</pre>
+</td>
+</tr>
+</table></span></div>
 Removing a member using its SID through the WinNT provider is a new feature in Windows 2000 and the DSCLIENT package.
 
 
@@ -103,43 +111,51 @@ Removing a member using its SID through the WinNT provider is a new feature in W
 
 The following code example removes a user account from a group.
 
-
-```vb
-Dim grp As IADsGroup
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim grp As IADsGroup
 On Error GoTo Cleanup
 
 Set grp = GetObject("WinNT://Fabrikam/Administrators")
 grp.Remove ("WinNT://Fabrikam/jeffsmith")
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
-    Set grp = Nothing
-```
-
-
+    Set grp = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example removes a user from a group.
 
-
-```cpp
-IADsGroup *pGroup = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsGroup *pGroup = NULL;
 HRESULT hr = S_OK;
 LPWSTR usrPath = L"WinNT://Fabrikam/jeffsmith";
 LPWSTR grpPath = L"WinNT://Fabrikam/Administrators";
 
-hr = ADsGetObject(grpPath, IID_IADsGroup, (void**)&pGroup);
+hr = ADsGetObject(grpPath, IID_IADsGroup, (void**)&amp;pGroup);
 if(FAILED(hr)){goto Cleanup;}
 
-hr = pGroup->Remove(CComBSTR(usrPath));
+hr = pGroup-&gt;Remove(CComBSTR(usrPath));
 if(FAILED(hr)){goto Cleanup;}
 
 Cleanup:
     if(pGroup)
-        pGroup->Release();
-```
-
-
+        pGroup-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

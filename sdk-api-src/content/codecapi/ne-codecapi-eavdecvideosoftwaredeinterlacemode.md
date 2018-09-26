@@ -7,7 +7,7 @@ old-location: dshow\eavdecvideosoftwaredeinterlacemode.htm
 tech.root: DirectShow
 ms.assetid: 3c72e714-1252-4c8b-9371-58f995e5b163
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: codecapi/eAVDecVideoSoftwareDeinterlaceMode, codecapi/eAVDecVideoSoftwareDeinterlaceMode_BOBDeinterlacing, codecapi/eAVDecVideoSoftwareDeinterlaceMode_NoDeinterlacing, codecapi/eAVDecVideoSoftwareDeinterlaceMode_ProgressiveDeinterlacing, codecapi/eAVDecVideoSoftwareDeinterlaceMode_SmartBOBDeinterlacing, dshow.eavdecvideosoftwaredeinterlacemode, eAVDecVideoSoftwareDeinterlaceMode, eAVDecVideoSoftwareDeinterlaceMode enumeration [DirectShow], eAVDecVideoSoftwareDeinterlaceMode_BOBDeinterlacing, eAVDecVideoSoftwareDeinterlaceMode_NoDeinterlacing, eAVDecVideoSoftwareDeinterlaceMode_ProgressiveDeinterlacing, eAVDecVideoSoftwareDeinterlaceMode_SmartBOBDeinterlacing
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ Bob deinterlacing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
  
 
  

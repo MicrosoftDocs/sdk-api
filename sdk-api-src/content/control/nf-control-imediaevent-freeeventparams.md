@@ -7,7 +7,7 @@ old-location: dshow\imediaevent_freeeventparams.htm
 tech.root: DirectShow
 ms.assetid: d98f37a4-3482-4cf7-bede-c7e7be70652a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: FreeEventParams, FreeEventParams method [DirectShow], FreeEventParams method [DirectShow],IMediaEvent interface, FreeEventParams method [DirectShow],IMediaEventEx interface, IMediaEvent interface [DirectShow],FreeEventParams method, IMediaEvent.FreeEventParams, IMediaEvent::FreeEventParams, IMediaEventEx interface [DirectShow],FreeEventParams method, IMediaEventEx::FreeEventParams, IMediaEventFreeEventParams, control/IMediaEvent::FreeEventParams, control/IMediaEventEx::FreeEventParams, dshow.imediaevent_freeeventparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,21 +96,25 @@ Returns S_OK.
 
 
 
-After you call the <a href="https://msdn.microsoft.com/en-us/library/Dd406907(v=VS.85).aspx">IMediaEvent::GetEvent</a> method to retrieve an event notification, you must call <code>FreeEventParams</code>. This method frees any resources that were allocated for the event parameters. Pass in the same variables used for the <b>GetEvent</b> call.
+After you call the <a href="https://msdn.microsoft.com/d7cbbf6d-c741-416f-b8dd-d9ca012d309a">IMediaEvent::GetEvent</a> method to retrieve an event notification, you must call <code>FreeEventParams</code>. This method frees any resources that were allocated for the event parameters. Pass in the same variables used for the <b>GetEvent</b> call.
 
 
 #### Examples
 
-
-```cpp
-
-hr = pEvent->GetEvent(&evCode, &param1, &param2, 0);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+hr = pEvent-&gt;GetEvent(&amp;evCode, &amp;param1, &amp;param2, 0);
 // Handle the event (not shown). 
-hr = pEvent->FreeEventParams(evCode, param1, param2);
-
-```
-
-
+hr = pEvent-&gt;FreeEventParams(evCode, param1, param2);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -119,15 +123,15 @@ hr = pEvent->FreeEventParams(evCode, param1, param2);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent Interface</a>
+<a href="https://msdn.microsoft.com/651561d1-4e7e-48de-9cba-769ddb553e63">IMediaEvent Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406897(v=VS.85).aspx">IMediaEventEx</a>
+<a href="https://msdn.microsoft.com/9d367b0a-c7ec-49d4-a41e-045ac81d2c51">IMediaEventEx</a>
  
 
  

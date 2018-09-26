@@ -7,7 +7,7 @@ old-location: multimedia\avistreamiskeyframe.htm
 tech.root: Multimedia
 ms.assetid: 615ca0be-44d3-4dc4-9dc1-c14e8b50e835
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: AVIStreamIsKeyFrame, AVIStreamIsKeyFrame macro [Windows Multimedia], _win32_AVIStreamIsKeyFrame, multimedia.avistreamiskeyframe, vfw/AVIStreamIsKeyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,15 +77,19 @@ Position to search in the stream.
 
 The <b>AVIStreamIsKeyFrame</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamIsKeyFrame(pavi, lPos) \ 
     (AVIStreamNearestKeyFrame(pavi, lPos) == 1) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -112,9 +112,13 @@ For convenience, <a href="https://msdn.microsoft.com/953b209b-fd18-49d0-84d3-ad9
 
 The following code example shows the helper function <a href="https://msdn.microsoft.com/953b209b-fd18-49d0-84d3-ad9b815f2a3a">SHSaveLibraryInFolderPath</a>, which wraps this method.
 
-
-```cpp
-//
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//
 // from shobjidl.h
 //
 __inline HRESULT SHSaveLibraryInFolderPath(
@@ -134,30 +138,30 @@ __inline HRESULT SHSaveLibraryInFolderPath(
     HRESULT hr = SHCreateItemFromParsingName(
       pszFolderPath, 
       NULL, 
-      IID_PPV_ARGS(&psiFolder));
+      IID_PPV_ARGS(&amp;psiFolder));
 
     if (SUCCEEDED(hr))
     {
         IShellItem *psiSavedTo;
-        hr = plib->Save(psiFolder, pszLibraryName, lsf, &psiSavedTo);
+        hr = plib-&gt;Save(psiFolder, pszLibraryName, lsf, &amp;psiSavedTo);
 
         if (SUCCEEDED(hr))
         {
             if (ppszSavedToPath)
             {
-                hr = psiSavedTo->GetDisplayName(
+                hr = psiSavedTo-&gt;GetDisplayName(
                   SIGDN_DESKTOPABSOLUTEPARSING, 
                   ppszSavedToPath);
             }
-            psiSavedTo->Release();
+            psiSavedTo-&gt;Release();
         }
-        psiFolder->Release();
+        psiFolder-&gt;Release();
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

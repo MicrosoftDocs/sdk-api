@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_descriptor_range.htm
 tech.root: direct3d12
 ms.assetid: 6F1C4D05-3E08-4353-B5B9-4C4270FC1403
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: D3D12_DESCRIPTOR_RANGE, D3D12_DESCRIPTOR_RANGE structure, d3d12/D3D12_DESCRIPTOR_RANGE, direct3d12.d3d12_descriptor_range
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Describes a descriptor range.
 
 ### -field RangeType
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn859381(v=VS.85).aspx">D3D12_DESCRIPTOR_RANGE_TYPE</a>-typed value that specifies the type of descriptor range.
+A <a href="https://msdn.microsoft.com/A72AAEA7-D812-41D0-B9AD-8A219EC9A88A">D3D12_DESCRIPTOR_RANGE_TYPE</a>-typed value that specifies the type of descriptor range.
           
 
 
@@ -92,7 +92,7 @@ The offset in descriptors from the start of the root signature. This value can b
 
 
 
-This structure is a member of the <a href="https://msdn.microsoft.com/en-us/library/Dn859382(v=VS.85).aspx">D3D12_ROOT_DESCRIPTOR_TABLE</a> structure.
+This structure is a member of the <a href="https://msdn.microsoft.com/5A0A04AB-2053-40E0-9CD5-E344BFE9001E">D3D12_ROOT_DESCRIPTOR_TABLE</a> structure.
       
 
 
@@ -103,11 +103,11 @@ This structure is a member of the <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt186568(v=VS.85).aspx">CD3DX12_DESCRIPTOR_RANGE</a>
+<a href="https://msdn.microsoft.com/F066ECA5-5E52-4483-B773-B43C5F12809B">CD3DX12_DESCRIPTOR_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

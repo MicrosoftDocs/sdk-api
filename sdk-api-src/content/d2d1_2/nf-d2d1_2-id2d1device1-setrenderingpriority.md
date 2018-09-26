@@ -7,7 +7,7 @@ old-location: direct2d\id2d1device1_setrenderingpriority.htm
 tech.root: direct2d
 ms.assetid: 520B4D0D-8D54-4599-9BA3-A03DBF35BCFF
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1Device1 interface [Direct2D],SetRenderingPriority method, ID2D1Device1.SetRenderingPriority, ID2D1Device1::SetRenderingPriority, SetRenderingPriority, SetRenderingPriority method [Direct2D], SetRenderingPriority method [Direct2D],ID2D1Device1 interface, d2d1_2/ID2D1Device1::SetRenderingPriority, direct2d.id2d1device1_setrenderingpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

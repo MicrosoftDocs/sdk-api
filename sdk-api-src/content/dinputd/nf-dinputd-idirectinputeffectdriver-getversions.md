@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_getversions.htm
 tech.root: hid
 ms.assetid: eda284d2-3e9c-436f-ad28-6397ff75d8ca
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: GetVersions, GetVersions method [Human Input Devices], GetVersions method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],GetVersions method, IDirectInputEffectDriver.GetVersions, IDirectInputEffectDriver::GetVersions, di_ref_edc7dd85-8838-4835-9987-54458f3c0bd6.xml, dinputd/IDirectInputEffectDriver::GetVersions, hid.idirectinputeffectdriver_getversions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winprog\_win32_string.htm
 tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\string.htm
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: "*PSTRING, ANSI_STRING, OEM_STRING, OEM_STRING structure [Windows API], PSTRING, PSTRING structure pointer [Windows API], STRING, STRING structure [Windows API], _STRING, _win32_STRING, winprog._win32_string, winternl/OEM_STRING, winternl/PSTRING, winternl/STRING, winui._win32_string"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Used with the <a href="https://msdn.microsoft.com/en-us/library/ms648422(v=VS.85).aspx">RtlUnicodeStringToOemString</a> function. 
+Used with the <a href="https://msdn.microsoft.com/3f42aef1-6c32-4f54-a19e-1161ebede29b">RtlUnicodeStringToOemString</a> function. 
 
 
 ## -struct-fields
@@ -77,7 +77,7 @@ The address of the buffer.
 
 
 
-The data type used in the <b>DestinationString</b> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms648422(v=VS.85).aspx">RtlUnicodeStringToOemString</a> function, <code> POEM_STRING</code>, is defined as:
+The data type used in the <b>DestinationString</b> parameter of the <a href="https://msdn.microsoft.com/3f42aef1-6c32-4f54-a19e-1161ebede29b">RtlUnicodeStringToOemString</a> function, <code> POEM_STRING</code>, is defined as:
 		
                 
 

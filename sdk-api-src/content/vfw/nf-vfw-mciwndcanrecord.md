@@ -7,7 +7,7 @@ old-location: multimedia\mciwndcanrecord.htm
 tech.root: Multimedia
 ms.assetid: 836747de-9306-4219-b462-e2c8efd42666
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: MCIWndCanRecord, MCIWndCanRecord macro [Windows Multimedia], _win32_MCIWndCanRecord, multimedia.mciwndcanrecord, vfw/MCIWndCanRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

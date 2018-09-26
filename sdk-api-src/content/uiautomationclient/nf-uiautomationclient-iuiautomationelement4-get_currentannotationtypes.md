@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845692(v=VS.85).aspx">CachedAnnotationTypes</a>
+<a href="winauto.uiauto_IUIAutomationElement4_CachedAnnotationTypes">CachedAnnotationTypes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903677(v=VS.85).aspx">IUIAutomationElement4</a>
+<a href="winauto.iuiautomationelement4">IUIAutomationElement4</a>
  
 
  

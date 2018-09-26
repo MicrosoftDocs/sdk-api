@@ -2,13 +2,13 @@
 UID: NI:ntddkbd.IOCTL_KEYBOARD_SET_TYPEMATIC
 title: IOCTL_KEYBOARD_SET_TYPEMATIC
 author: windows-sdk-content
-description: The IOCTL_KEYBOARD_SET_TYPEMATIC request sets the typematic parameters.
-old-location: hid\ioctl_keyboard_set_typematic.htm
+description: The IOCTL_KEYBOARD_SET_TYPEMATIC request sets the keyboard typematic settings.
+old-location: hid\ioctl_keyboard_set_typematic2.htm
 tech.root: hid
-ms.assetid: 27c538dd-19e2-4b5a-9605-0efb0f78e008
+ms.assetid: bcd2c72a-b1fd-4df4-8f65-0fe32eab00ef
 ms.author: windowssdkdev
-ms.date: 08/29/2018
-ms.keywords: IOCTL_KEYBOARD_SET_TYPEMATIC, IOCTL_KEYBOARD_SET_TYPEMATIC control, IOCTL_KEYBOARD_SET_TYPEMATIC control code [Human Input Devices], hid.ioctl_keyboard_set_typematic, kref_1ef2189f-4cae-4a7d-b91d-9725a6ea6cba.xml, ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC
+ms.date: 09/25/2018
+ms.keywords: IOCTL_KEYBOARD_SET_TYPEMATIC, IOCTL_KEYBOARD_SET_TYPEMATIC control, IOCTL_KEYBOARD_SET_TYPEMATIC control code [Human Input Devices], hid.ioctl_keyboard_set_typematic2, i8042ref_1df6c763-6fbd-4a76-810a-7b0e6f624e9f.xml, ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: ioctl
@@ -50,12 +50,7 @@ req.redist:
 ## -description
 
 
-The IOCTL_KEYBOARD_SET_TYPEMATIC request sets the typematic parameters.
-    
-
-Kbdclass copies the current stack location, sets the <b>MajorFunction</b> member of the new stack location to <a href="https://msdn.microsoft.com/fb3d4534-9c6f-4956-b702-5752f9798600">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>, and sends this request down the device stack.
-
-Note that if there is a grandmaster device, Kbdclass normally sets the typematic settings of all the subordinate class devices to the same global setting. This operation is controlled by the grandmaster's registry entry value <b>SendOutputToAllPorts</b> under the key <b>HKLM\Services\CurrentControlSet\Kbdclass\Parameters</b>. 
+The IOCTL_KEYBOARD_SET_TYPEMATIC request sets the keyboard typematic settings.
 
 
 ## -ioctlparameters
@@ -65,9 +60,9 @@ Note that if there is a grandmaster device, Kbdclass normally sets the typematic
 
 ### -input-buffer
 
-The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to a value greater than or equal to the size, in bytes, of a <a href="https://msdn.microsoft.com/4bbf1699-1ba9-4569-97ac-156a91405586">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
+<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer to input a <a href="https://msdn.microsoft.com/4bbf1699-1ba9-4569-97ac-156a91405586">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure. The client sets the typematic parameters in this structure.
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated KEYBOARD_TYPEMATIC_PARAMETERS structure. The client sets the <b>UnitId</b>, <b>Rate</b>, and <b>Delay</b> member values. 
+<b>Parameters.DeviceIoControl.InputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="https://msdn.microsoft.com/4bbf1699-1ba9-4569-97ac-156a91405586">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
 
 
 ### -input-buffer-length
@@ -112,19 +107,19 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+#### -STATUS_DEVICE_NOT_READY
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of a KEYBOARD_TYPEMATIC_PARAMETERS structure.
+The keyboard interrupt is not initialized.
 
 
 #### -STATUS_INVALID_PARAMETER
 
-The <b>UnitId</b> value is invalid.
+<b>Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of a KEYBOARD_TYPEMATIC_PARAMETERS structure, or the specified typematic settings are invalid.
 
 
 #### -STATUS_IO_TIMEOUT
 
-The operation timed out.
+The request timed out.
 
 
 #### -STATUS_SUCCESS
@@ -134,22 +129,6 @@ The request completed successfully.
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/6119ca39-f740-4c8a-a7f1-eb6f30624093">IOCTL_KEYBOARD_QUERY_ATTRIBUTES</a>
-
-
-
-<a href="https://msdn.microsoft.com/3d70b34c-e201-40fc-99dd-cd05bdeec5f8">IOCTL_KEYBOARD_QUERY_INDICATORS</a>
-
-
-
-<a href="https://msdn.microsoft.com/84006453-cf73-44f2-ac8b-ea03382e113d">IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/0c19670b-0440-4a7a-ad87-a97d3da28e74">IOCTL_KEYBOARD_QUERY_TYPEMATIC</a>
 
 
 

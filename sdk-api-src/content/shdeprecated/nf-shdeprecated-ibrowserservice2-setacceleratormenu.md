@@ -63,7 +63,7 @@ Deprecated. Implemented by a derived class to define menu accelerators that can 
 
 Type: <b>HACCEL</b>
 
-A handle to an array of <a href="https://msdn.microsoft.com/en-us/library/ms646340(v=VS.85).aspx">ACCEL</a> structures, each structure describing a keyboard mnemonic.
+A handle to an array of <a href="https://msdn.microsoft.com/9995bfc3-adc5-4a6d-b834-a96e1ceb6ea0">ACCEL</a> structures, each structure describing a keyboard mnemonic.
         
 
 

@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_digitalmultiplier.htm
 tech.root: DirectShow
 ms.assetid: 0b7ab1a3-193c-4682-af35-ae0cc5f28f45
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_DigitalMultiplier method, IVideoProcAmp.get_DigitalMultiplier, IVideoProcAmp::get_DigitalMultiplier, IVideoProcAmpget_DigitalMultiplier, dshow.ivideoprocamp_get_digitalmultiplier, get_DigitalMultiplier, get_DigitalMultiplier method [DirectShow], get_DigitalMultiplier method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_DigitalMultiplier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,14 +83,18 @@ Returns an <b>HRESULT</b> value.
 
 Digital zoom is applied after the image is captured. The effect of digital zoom is to multiply the optical magnification by a factor <i>m</i>, which can be calculated as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 m = ( (Z'cur - Z'min) * (m-max - 1) ) / (Z'max - Z'min) ) + 1
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 where
 
 <ul>

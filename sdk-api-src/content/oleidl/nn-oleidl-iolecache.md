@@ -7,7 +7,7 @@ old-location: com\iolecache.htm
 tech.root: com
 ms.assetid: b5ef85d0-b54e-4831-87f1-ac6763179181
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IOleCache, IOleCache interface [COM], IOleCache interface [COM],described, _ole_iolecache, com.iolecache, oleidl/IOleCache
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Provides control of the presentation data that gets cached inside of an object. 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCache</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleCache</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCache</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleCache</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

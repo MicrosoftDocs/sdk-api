@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgdocument_getviewportsize.htm
 tech.root: direct2d
 ms.assetid: 3CE19841-86BD-4122-B2B0-F4F3A530523D
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: GetViewportSize, GetViewportSize method [Direct2D], GetViewportSize method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],GetViewportSize method, ID2D1SvgDocument.GetViewportSize, ID2D1SvgDocument::GetViewportSize, d2d1svg/ID2D1SvgDocument::GetViewportSize, direct2d.id2d1svgdocument_getviewportsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

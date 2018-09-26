@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_selectbutton.htm
 tech.root: DirectShow
 ms.assetid: b2903a76-2888-4f0e-b23e-36d7488c837b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectButton method, IDvdControl2.SelectButton, IDvdControl2::SelectButton, IDvdControl2SelectButton, SelectButton, SelectButton method [DirectShow], SelectButton method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectbutton, strmif/IDvdControl2::SelectButton
 ms.prod: windows-hardware
 ms.technology: windows-devices

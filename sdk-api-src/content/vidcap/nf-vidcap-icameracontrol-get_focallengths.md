@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_focallengths.htm
 tech.root: DirectShow
 ms.assetid: de566705-1f4b-4ffa-932d-a52521e6963b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: ICameraControl interface [DirectShow],get_FocalLengths method, ICameraControl.get_FocalLengths, ICameraControl::get_FocalLengths, ICameraControlget_FocalLengths, dshow.icameracontrol_get_focallengths, get_FocalLengths, get_FocalLengths method [DirectShow], get_FocalLengths method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_FocalLengths
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,14 +91,18 @@ In a two-lens camera, the objective lens is closer to the subject, and the ocula
 
 If the camera supports optical zooming, the current zoom level is expressed as integer values between a range <i>Zmin</i> and <i>Zmax</i>. The objective focal length can then be calculated as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 Lcur = ( ( (Zcur - Zmin) * (Lmax - Lmin) ) / (Zmax - Zmin) ) + Lmin
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 where:
 
 <ul>
@@ -111,9 +115,6 @@ where:
 <li>
             Zmin, Zmax = Minimum and maximum zoom setting. See <a href="https://msdn.microsoft.com/93a81b65-4b63-45c9-b065-f4aa5cf2e4ae">ICameraControl::getRange_Zoom</a>.</li>
 </ul>
-From 
-
-<div class="code"><span codelanguage=""><table>
 From <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -123,9 +124,7 @@ From <div class="code"><span codelanguage=""><table>
 <pre>Lcur</pre>
 </td>
 </tr>
-</table></span></div>
-
-, you can calculate the magnification.
+</table></span></div>, you can calculate the magnification.
 
 
 

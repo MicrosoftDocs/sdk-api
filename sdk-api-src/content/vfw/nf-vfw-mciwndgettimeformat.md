@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgettimeformat.htm
 tech.root: Multimedia
 ms.assetid: 91d212b5-1c30-4470-9f94-f704ed53a615
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: MCIWndGetTimeFormat, MCIWndGetTimeFormat macro [Windows Multimedia], _win32_MCIWndGetTimeFormat, multimedia.mciwndgettimeformat, vfw/MCIWndGetTimeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

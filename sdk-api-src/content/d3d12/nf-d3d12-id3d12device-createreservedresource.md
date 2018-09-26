@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createreservedresource.htm
 tech.root: direct3d12
 ms.assetid: 37E74129-1B5C-4997-A584-D7E9F92342EA
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: CreateReservedResource, CreateReservedResource method, CreateReservedResource method,ID3D12Device interface, ID3D12Device interface,CreateReservedResource method, ID3D12Device.CreateReservedResource, ID3D12Device::CreateReservedResource, d3d12/ID3D12Device::CreateReservedResource, direct3d12.id3d12device_createreservedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,10 +119,10 @@ A pointer to a memory block that receives a pointer to the resource.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the resource.
-            See <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a> for other possible return values.
+            See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
           
 
 
@@ -134,7 +134,7 @@ This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to crea
 
 <b>CreateReservedResource</b> is equivalent to D3D11_RESOURCE_MISC_TILED in D3D11.
         It creates a resource with virtual memory only, no backing store.
-        The resource must be mapped to physical memory (that is, heaps) using <a href="https://msdn.microsoft.com/en-us/library/Dn788629(v=VS.85).aspx">CopyTileMappings</a> and <a href="https://msdn.microsoft.com/en-us/library/Dn788641(v=VS.85).aspx">UpdateTileMappings</a>.
+        The resource must be mapped to physical memory (that is, heaps) using <a href="https://msdn.microsoft.com/FAFA4B5C-EA3C-4209-AB8E-75F3B90F3745">CopyTileMappings</a> and <a href="https://msdn.microsoft.com/8A8017E5-AB55-4660-855B-D6F93F69CB52">UpdateTileMappings</a>.
       
 
 These resource types can only be created when the adapter supports tiled resource tier 1 or greater.
@@ -149,15 +149,15 @@ These resource types can only be created when the adapter supports tiled resourc
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899178(v=VS.85).aspx">CreateCommittedResource</a>
+<a href="https://msdn.microsoft.com/FF9E8F11-F2C5-4A96-8E25-140870D15DA9">CreateCommittedResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899180(v=VS.85).aspx">CreatePlacedResource</a>
+<a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">CreatePlacedResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>
+<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
  
 
  

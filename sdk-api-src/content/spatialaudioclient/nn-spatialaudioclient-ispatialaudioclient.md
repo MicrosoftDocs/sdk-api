@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioclient.htm
 tech.root: CoreAudio
 ms.assetid: 950778D4-79FE-4222-951F-5A456A633124
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: ISpatialAudioClient, ISpatialAudioClient interface [Core Audio], ISpatialAudioClient interface [Core Audio],described, coreaudio.ispatialaudioclient, spatialaudioclient/ISpatialAudioClient
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,25 +150,29 @@ When successful, gets a value indicating whether the currently active spatial re
 
 Get an instance of this interface by calling <a href="https://msdn.microsoft.com/7BAFD9DB-DCD7-4093-A24B-9A8556C6C45B">ActivateAudioInterfaceAsync</a>, using the  <a href="https://msdn.microsoft.com/en-us/library/zaah6a61.aspx">__uuidof</a> operator to get the class ID of the <b>ISpatialAudioClient</b> interface. The following example code shows how to initialize this interface.
 
-
-```cpp
-PROPVARIANT var; 
-PropVariantInit(&var);  
-auto p = reinterpret_cast<SpatialAudioClientActivationParams *>(CoTaskMemAlloc(sizeof(SpatialAudioClientActivationParams)));  
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PROPVARIANT var; 
+PropVariantInit(&amp;var);  
+auto p = reinterpret_cast&lt;SpatialAudioClientActivationParams *&gt;(CoTaskMemAlloc(sizeof(SpatialAudioClientActivationParams)));  
 if (nullptr == p) { ... } 
-p->tracingContextId = /* context identifier */;  
-p->appId = /* app identifier */;  
-p->majorVersion = /* app version info */;  
-p->majorVersionN = /* app version info */;
+p-&gt;tracingContextId = /* context identifier */;  
+p-&gt;appId = /* app identifier */;  
+p-&gt;majorVersion = /* app version info */;  
+p-&gt;majorVersionN = /* app version info */;
 var.vt = VT_BLOB;
 var.blob.cbSize = sizeof(*p);
-var.blob.pBlobData = reinterpret_cast<BYTE *>(p); 
-hr = ActivateAudioInterfaceAsync(device, __uuidof(ISpatialAudioClient), &var, ...);
+var.blob.pBlobData = reinterpret_cast&lt;BYTE *&gt;(p); 
+hr = ActivateAudioInterfaceAsync(device, __uuidof(ISpatialAudioClient), &amp;var, ...);
 // ...
-ropVariantClear(&var);
-```
-
-
+ropVariantClear(&amp;var);</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  When using the <b>ISpatialAudioClient</b> interfaces on an Xbox One Development Kit (XDK) title, you must first call <b>EnableSpatialAudio</b> before calling <a href="https://msdn.microsoft.com/ebdd2dcd-82c5-423f-a85d-04388f5078ec">IMMDeviceEnumerator::EnumAudioEndpoints</a> or <a href="https://msdn.microsoft.com/96776d2a-27b7-490a-b3a8-04782ec34f91">IMMDeviceEnumerator::GetDefaultAudioEndpoint</a>. Failure to do so will result in an E_NOINTERFACE error being returned from the call to Activate. <b>EnableSpatialAudio</b> is only available for XDK titles, and does not need to be called for Universal Windows Platform apps running on Xbox One, nor for any non-Xbox One devices.</div>
 <div> </div>
 To access the <b>ActivateAudioIntefaceAsync</b>, you will need to link to mmdevapi.lib.

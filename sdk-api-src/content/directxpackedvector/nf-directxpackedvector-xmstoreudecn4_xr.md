@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Stores an extended range <a href="https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx">XMUDECN4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>. This type stores a 10:10:10:2 normalized GPU format using the Extended Range (XR) with the color bias set to match DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM.
+Stores an extended range <a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>. This type stores a 10:10:10:2 normalized GPU format using the Extended Range (XR) with the color bias set to match DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM.
 
 
 ## -parameters
@@ -83,9 +83,13 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-XMVECTOR N; 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR N; 
 static const XMVECTOR Scale = {510.0f, 510.0f, 510.0f, 3.0f};
 static const XMVECTOR Bias = { 384.0f, 384.0f, 384.0f, 0.0f };
 static const XMVECTOR C = { 1023.f, 1023.f, 1023.f, 3.f };
@@ -95,13 +99,13 @@ assert(pDestination);
 N = XMVectorMultiplyAdd( V, Scale, Bias );
 N = XMVectorClamp( V, XMVectorZero(), C );
 
-pDestination->v = ((uint32_t)N.v[3] << 30) |
-(((uint32_t)N.v[2] & 0x3FF) << 20) |
-(((uint32_t)N.v[1] & 0x3FF) << 10) |
-(((uint32_t)N.v[0] & 0x3FF));
-```
-
-
+pDestination-&gt;v = ((uint32_t)N.v[3] &lt;&lt; 30) |
+(((uint32_t)N.v[2] &amp; 0x3FF) &lt;&lt; 20) |
+(((uint32_t)N.v[1] &amp; 0x3FF) &lt;&lt; 10) |
+(((uint32_t)N.v[0] &amp; 0x3FF));</pre>
+</td>
+</tr>
+</table></span></div>
 For more details on the Extended Range (XR) with Bias conversion, see <a href="https://msdn.microsoft.com/B3014241-A86A-4B6E-BC9D-50057B924D98">XR_BIAS Color Channel Conversion Rules</a>. 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

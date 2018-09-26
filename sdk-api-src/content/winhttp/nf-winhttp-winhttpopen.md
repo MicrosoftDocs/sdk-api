@@ -60,7 +60,7 @@ The <b>WinHttpOpen</b> function initializes, for an application, the use of WinH
 
 ### -param pszAgentW [in, optional]
 
-A pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions. This name is used as the <a href="https://msdn.microsoft.com/en-us/library/Aa383870(v=VS.85).aspx">user agent</a> in the HTTP protocol.
+A pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions. This name is used as the <a href="glossary.htm">user agent</a> in the HTTP protocol.
 
 
 ### -param dwAccessType [in]
@@ -238,9 +238,13 @@ After the calling application has finished using the
 
 The following example code shows how to retrieve the default connection time-out value.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     DWORD data;
     DWORD dwSize = sizeof(DWORD);
 
@@ -256,7 +260,7 @@ The following example code shows how to retrieve the default connection time-out
         // Use WinHttpQueryOption to retrieve internet options.
         if (WinHttpQueryOption( hSession, 
                                 WINHTTP_OPTION_CONNECT_TIMEOUT, 
-                                &data, &dwSize))
+                                &amp;data, &amp;dwSize))
         {
             printf("Connection timeout: %u ms\n\n",data);
         }
@@ -273,10 +277,10 @@ The following example code shows how to retrieve the default connection time-out
     {
         printf("Error %u in WinHttpOpen.\n", GetLastError());
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

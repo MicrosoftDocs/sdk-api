@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol2_getprocessid.htm
 tech.root: CoreAudio
 ms.assetid: 17ae85ad-e2ef-4a87-9d0f-58baa080ff98
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: GetProcessId, GetProcessId method [Core Audio], GetProcessId method [Core Audio],IAudioSessionControl2 interface, IAudioSessionControl2 interface [Core Audio],GetProcessId method, IAudioSessionControl2.GetProcessId, IAudioSessionControl2::GetProcessId, audiopolicy/IAudioSessionControl2::GetProcessId, coreaudio.iaudiosessioncontrol2_getprocessid
 ms.prod: windows-hardware
 ms.technology: windows-devices

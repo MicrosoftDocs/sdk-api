@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</b> structure contains information about the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate store</a> used by the digital signature wizard.
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</b> structure contains information about the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> used by the digital signature wizard.
 
 
 ## -struct-fields

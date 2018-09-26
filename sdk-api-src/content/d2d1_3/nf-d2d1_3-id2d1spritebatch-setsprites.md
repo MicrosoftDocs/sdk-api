@@ -7,7 +7,7 @@ old-location: direct2d\id2d1spritebatch_setsprites.htm
 tech.root: direct2d
 ms.assetid: 6BC5740F-520D-47EA-A90A-973E158F2AC2
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1SpriteBatch interface [Direct2D],SetSprites method, ID2D1SpriteBatch.SetSprites, ID2D1SpriteBatch::SetSprites, SetSprites, SetSprites method [Direct2D], SetSprites method [Direct2D],ID2D1SpriteBatch interface, d2d1_3/ID2D1SpriteBatch::SetSprites, direct2d.id2d1spritebatch_setsprites
 ms.prod: windows-hardware
 ms.technology: windows-devices

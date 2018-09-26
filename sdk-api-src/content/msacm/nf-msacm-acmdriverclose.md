@@ -7,7 +7,7 @@ old-location: multimedia\acmdriverclose.htm
 tech.root: Multimedia
 ms.assetid: f756c11d-54a7-4238-8a99-4263a6c36109
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: "_win32_acmDriverClose, acmDriverClose, acmDriverClose function [Windows Multimedia], msacm/acmDriverClose, multimedia.acmdriverclose"
 ms.prod: windows-hardware
 ms.technology: windows-devices

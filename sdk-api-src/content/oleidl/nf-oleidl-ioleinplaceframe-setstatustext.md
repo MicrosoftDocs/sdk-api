@@ -7,7 +7,7 @@ old-location: com\ioleinplaceframe_setstatustext.htm
 tech.root: com
 ms.assetid: e857bdbe-5510-4e35-ba73-d52b239e5b77
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IOleInPlaceFrame interface [COM],SetStatusText method, IOleInPlaceFrame.SetStatusText, IOleInPlaceFrame::SetStatusText, SetStatusText, SetStatusText method [COM], SetStatusText method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_setstatustext, com.ioleinplaceframe_setstatustext, oleidl/IOleInPlaceFrame::SetStatusText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -134,9 +134,9 @@ You should call <b>IOleInPlaceFrame::SetStatusText</b> when you need to ask the 
 When switching between menus owned by the container and the in-place active object, the status bar text is not reflected properly if the object does not call the container's <b>IOleInPlaceFrame::SetStatusText</b> method. For example, if, during an in-place session, the user were to select the <b>File</b> menu, the status bar would reflect the action that would occur if the user selected this menu. If the user then selects the <b>Edit</b> menu (which is owned by the in-place object), the status bar text would not change unless the <b>IOleInPlaceFrame::SetStatusText</b> happened to be called. This is because there is no way for the container to recognize that one of the object's menus has been made active because all the messages that the container would trap are now going to the object.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-To avoid potential problems, all objects being activated in place should process the <a href="https://msdn.microsoft.com/en-us/library/ms646352(v=VS.85).aspx">WM_MENUSELECT</a> message and call <b>IOleInPlaceFrame::SetStatusText</b>â€”even if the object does not usually provide status information (in which case the object can just pass a <b>NULL</b> string for the requested status text).
+To avoid potential problems, all objects being activated in place should process the <a href="_win32_WM_MENUSELECT_cpp">WM_MENUSELECT</a> message and call <b>IOleInPlaceFrame::SetStatusText</b>â€”even if the object does not usually provide status information (in which case the object can just pass a <b>NULL</b> string for the requested status text).
 
-<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceFrame::SetStatusText</b>, do not make calls to the <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <a href="https://msdn.microsoft.com/9ee9970a-b937-4538-b3b8-460647086db1">IOleInPlaceUIWindow::GetBorder</a>.</div>
+<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceFrame::SetStatusText</b>, do not make calls to the <a href="_win32_PeekMessage_cpp">PeekMessage</a> or <a href="_win32_GetMessage_cpp">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <a href="https://msdn.microsoft.com/9ee9970a-b937-4538-b3b8-460647086db1">IOleInPlaceUIWindow::GetBorder</a>.</div>
 <div> </div>
 
 
@@ -146,7 +146,7 @@ To avoid potential problems, all objects being activated in place should process
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a>
+<a href="_win32_GetMessage_cpp">GetMessage</a>
 
 
 
@@ -154,7 +154,7 @@ To avoid potential problems, all objects being activated in place should process
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="_win32_PeekMessage_cpp">PeekMessage</a>
  
 
  

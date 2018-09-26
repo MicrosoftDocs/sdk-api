@@ -123,7 +123,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -135,7 +135,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -146,7 +146,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -158,7 +158,7 @@ The requested address is a broadcast address, but the appropriate flag was not s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINTR</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -170,7 +170,7 @@ A blocking Windows Sockets 1.1 call was canceled through
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -181,7 +181,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -192,7 +192,7 @@ The <i>buf</i> parameter is not completely contained in a valid part of the user
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETRESET</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -203,7 +203,7 @@ The connection has been broken due to the keep-alive activity detecting a failur
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -214,7 +214,7 @@ No buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTCONN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -225,7 +225,7 @@ The socket is not connected.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -236,7 +236,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -247,7 +247,7 @@ MSG_OOB was specified, but the socket is not stream-style such as type SOCK_STRE
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAESHUTDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAESHUTDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -259,7 +259,7 @@ The socket has been shut down; it is not possible to send on a socket after
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -270,7 +270,7 @@ The socket is marked as nonblocking and the requested operation would block.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEMSGSIZE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -281,7 +281,7 @@ The socket is message oriented, and the message is larger than the maximum suppo
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEHOSTUNREACH</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEHOSTUNREACH</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -292,7 +292,7 @@ The remote host cannot be reached from this host at this time.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -304,7 +304,7 @@ The socket has not been bound with
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNABORTED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNABORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -315,7 +315,7 @@ The virtual circuit was terminated due to a time-out or other failure. The appli
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -326,7 +326,7 @@ The virtual circuit was reset by the remote side executing a hard or abortive cl
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAETIMEDOUT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAETIMEDOUT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -348,7 +348,7 @@ The
 <b>send</b> function is used to write outgoing data on a connected socket. 
 
 For message-oriented sockets (address family of <b>AF_INET</b> or <b>AF_INET6</b>, type of <b>SOCK_DGRAM</b>, and protocol of <b>IPPROTO_UDP</b>, for example), care must be taken not to exceed the maximum packet size of the underlying provider. The maximum message packet size for a provider can be obtained by calling <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a> with the <i>optname</i> parameter set to <b>SO_MAX_MSG_SIZE</b> to retrieve the value of socket option. If the data is too long to pass atomically through the underlying protocol, the error 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a> is returned, and no data is transmitted.
+<a href="windows_sockets_error_codes_2.htm">WSAEMSGSIZE</a> is returned, and no data is transmitted.
 
 The successful completion of a 
 <b>send</b> function does not indicate that the data was successfully delivered and received to the recipient. This function only indicates the data was successfully sent. 
@@ -372,17 +372,21 @@ The order of calls made to <b>send</b> is also the order in which the buffers ar
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>send</b> function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <winsock2.h>
-#include <Ws2tcpip.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;Ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -406,7 +410,7 @@ int main() {
 
     //----------------------
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2,2), &amp;wsaData);
     if (iResult != NO_ERROR) {
         wprintf(L"WSAStartup failed with error: %d\n", iResult);
         return 1;
@@ -430,7 +434,7 @@ int main() {
 
     //----------------------
     // Connect to server.
-    iResult = connect( ConnectSocket, (SOCKADDR*) &clientService, sizeof(clientService) );
+    iResult = connect( ConnectSocket, (SOCKADDR*) &amp;clientService, sizeof(clientService) );
     if (iResult == SOCKET_ERROR) {
         wprintf(L"connect failed with error: %d\n", WSAGetLastError() );
         closesocket(ConnectSocket);
@@ -463,14 +467,14 @@ int main() {
     do {
 
         iResult = recv(ConnectSocket, recvbuf, recvbuflen, 0);
-        if ( iResult > 0 )
+        if ( iResult &gt; 0 )
             wprintf(L"Bytes received: %d\n", iResult);
         else if ( iResult == 0 )
             wprintf(L"Connection closed\n");
         else
             wprintf(L"recv failed with error: %d\n", WSAGetLastError());
 
-    } while( iResult > 0 );
+    } while( iResult &gt; 0 );
 
 
     // close the socket
@@ -484,10 +488,10 @@ int main() {
     WSACleanup();
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 For a another example that uses the <b>send</b> function, see <a href="https://msdn.microsoft.com/905cd5bc-44af-4d3f-841a-9e9a2700a785">Getting Started With Winsock</a>.
 

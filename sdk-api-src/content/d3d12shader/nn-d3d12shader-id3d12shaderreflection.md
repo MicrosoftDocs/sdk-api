@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection.htm
 tech.root: direct3d12
 ms.assetid: 145F2CCB-C076-42BE-8AF4-74349CDF6B02
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: ID3D12ShaderReflection, ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,described, d3d12shader/ID3D12ShaderReflection, direct3d12.id3d12shaderreflection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -267,7 +267,7 @@ Indicates whether a shader is a sample frequency shader.
 
 
 An <b>ID3D12ShaderReflection</b> interface can be retrieved for a shader by using 
-				<a href="https://msdn.microsoft.com/en-us/library/Dd607334(v=VS.85).aspx">D3DReflect</a>.  
+				<a href="https://msdn.microsoft.com/601cc907-2878-4c9b-bc48-0575fd4479e8">D3DReflect</a>.  
           
 
 

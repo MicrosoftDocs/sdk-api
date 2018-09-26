@@ -7,7 +7,7 @@ old-location: dshow\idistributornotify_stop.htm
 tech.root: DirectShow
 ms.assetid: 21312954-bc48-402b-a03c-954c01b53231
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Stop method, IDistributorNotify.Stop, IDistributorNotify::Stop, IDistributorNotifyStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_stop, strmif/IDistributorNotify::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

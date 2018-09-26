@@ -89,17 +89,21 @@ This method is called by Sync Center when the user navigates to the Sync Results
 
 The following example shows an implementation of <b>ISyncMgrEventStore::GetEventEnumerator</b>.
 
-
-```cpp
-STDMETHODIMP CMyDeviceEventStore::GetEventEnumerator(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceEventStore::GetEventEnumerator(
                                 __out IEnumSyncMgrEvents **ppenum)
 {
     HRESULT hr = CEnumMyDeviceSyncMgrEvents_Create(ppenum);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

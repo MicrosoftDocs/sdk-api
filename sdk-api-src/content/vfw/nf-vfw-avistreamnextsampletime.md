@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnextsampletime.htm
 tech.root: Multimedia
 ms.assetid: 0421f082-9281-4cdb-8b33-2a90c14404dc
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: AVIStreamNextSampleTime, AVIStreamNextSampleTime macro [Windows Multimedia], _win32_AVIStreamNextSampleTime, multimedia.avistreamnextsampletime, vfw/AVIStreamNextSampleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,17 +77,21 @@ Position information of the sample in the stream.
 
 The <b>AVIStreamNextSampleTime</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamNextSampleTime(pavi, time) \ 
     AVIStreamSampleToTime(pavi, \ 
     AVIStreamNextSample(pavi, \ 
     AVIStreamTimeToSample(pavi, t))) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

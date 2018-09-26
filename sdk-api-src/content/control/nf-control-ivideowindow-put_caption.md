@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_caption.htm
 tech.root: DirectShow
 ms.assetid: d16dca01-95ba-4573-b9c4-ab996dcf21e4
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Caption method, IVideoWindow.put_Caption, IVideoWindow::put_Caption, IVideoWindowput_Caption, control/IVideoWindow::put_Caption, dshow.ivideowindow_put_caption, put_Caption, put_Caption method [DirectShow], put_Caption method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,15 +123,15 @@ The video renderer filter is not connected.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377293(v=VS.85).aspx">IVideoWindow::get_Caption</a>
+<a href="https://msdn.microsoft.com/fbb42e55-1be1-4931-869b-9e8d4af5e6df">IVideoWindow::get_Caption</a>
  
 
  

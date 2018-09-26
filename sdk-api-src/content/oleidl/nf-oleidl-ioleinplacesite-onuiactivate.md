@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_onuiactivate.htm
 tech.root: com
 ms.assetid: d863805c-58c1-4e35-84b5-72f01a4ba205
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnUIActivate method, IOleInPlaceSite.OnUIActivate, IOleInPlaceSite::OnUIActivate, OnUIActivate, OnUIActivate method [COM], OnUIActivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_onuiactivate, com.ioleinplacesite_onuiactivate, oleidl/IOleInPlaceSite::OnUIActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

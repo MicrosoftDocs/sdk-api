@@ -7,7 +7,7 @@ old-location: multimedia\capgetaudioformatsize.htm
 tech.root: Multimedia
 ms.assetid: 6f2dbedb-bece-4082-aa68-c2390c75b4d7
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: "_win32_capGetAudioFormatSize, capGetAudioFormatSize, capGetAudioFormatSize macro [Windows Multimedia], multimedia.capgetaudioformatsize, vfw/capGetAudioFormatSize"
 ms.prod: windows-hardware
 ms.technology: windows-devices

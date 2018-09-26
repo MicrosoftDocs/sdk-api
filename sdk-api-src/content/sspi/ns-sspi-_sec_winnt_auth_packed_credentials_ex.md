@@ -7,7 +7,7 @@ old-location: security\sec_winnt_auth_packed_credentials_ex.htm
 tech.root: secauthn
 ms.assetid: 33e42e35-e34c-4e89-90c7-8aee5176ae1b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: "*PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX structure pointer [Security], SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX structure [Security], _SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, security.sec_winnt_auth_packed_credentials_ex, sspi/PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, sspi/SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX"
 ms.prod: windows
 ms.technology: windows-sdk

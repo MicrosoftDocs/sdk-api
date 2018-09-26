@@ -7,7 +7,7 @@ old-location: winprog\rtlunicodestringtoansistring.htm
 tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlunicodestringtoansistring.htm
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: FALSE, RtlUnicodeStringToAnsiString, RtlUnicodeStringToAnsiString function [Windows API], TRUE, winprog.rtlunicodestringtoansistring, winternl/RtlUnicodeStringToAnsiString, winui.rtlunicodestringtoansistring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ Controls allocation of the buffer space for the <i>DestinationString</i>.
 
 #### TRUE
 
-Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://msdn.microsoft.com/en-us/library/ms648416(v=VS.85).aspx">RtlFreeAnsiString</a>.
+Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://msdn.microsoft.com/b0feaf20-cca7-4f3e-b2f0-7cd972c2df36">RtlFreeAnsiString</a>.
 
 
 

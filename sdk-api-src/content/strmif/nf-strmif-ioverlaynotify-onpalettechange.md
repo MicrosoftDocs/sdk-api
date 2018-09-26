@@ -7,7 +7,7 @@ old-location: dshow\ioverlaynotify_onpalettechange.htm
 tech.root: DirectShow
 ms.assetid: 128e3834-d561-46d3-b32b-5bfd290f0995
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IOverlayNotify interface [DirectShow],OnPaletteChange method, IOverlayNotify.OnPaletteChange, IOverlayNotify::OnPaletteChange, IOverlayNotifyOnPaletteChange, OnPaletteChange, OnPaletteChange method [DirectShow], OnPaletteChange method [DirectShow],IOverlayNotify interface, dshow.ioverlaynotify_onpalettechange, strmif/IOverlayNotify::OnPaletteChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

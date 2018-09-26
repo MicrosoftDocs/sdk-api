@@ -7,7 +7,7 @@ old-location: com\ivbformat.htm
 tech.root: com
 ms.assetid: 6b05c0c7-6f38-42cf-bf7b-2a54a4302b68
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IVBFormat, IVBFormat interface [COM], IVBFormat interface [COM],described, _com_IVBFormat, com.ivbformat, vbinterf/IVBFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Provides formatting support for controls on a Visual Basic container.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVBFormat</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IVBFormat</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVBFormat</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IVBFormat</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

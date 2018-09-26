@@ -7,7 +7,7 @@ old-location: multimedia\icopen_struct.htm
 tech.root: Multimedia
 ms.assetid: 6c29961c-7f9c-49e5-84aa-a5f4ff1cbbd1
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: ICMODE_COMPRESS, ICMODE_DECOMPRESS, ICMODE_DRAW, ICMODE_QUERY, ICOPEN, ICOPEN structure [Windows Multimedia], multimedia.icopen_COLLISION563, multimedia.icopen_struct, vfw/ICOPEN
 ms.prod: windows
 ms.technology: windows-sdk

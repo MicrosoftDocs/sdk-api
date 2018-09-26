@@ -7,7 +7,7 @@ old-location: com\iolelink.htm
 tech.root: com
 ms.assetid: 4a34a90d-df1b-4bbf-8365-9d741c18ff74
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IOleLink, IOleLink interface [COM], IOleLink interface [COM],described, _ole_iolelink, com.iolelink, oleidl/IOleLink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ A container application can distinguish between embedded objects and linked obje
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleLink</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleLink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleLink</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleLink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

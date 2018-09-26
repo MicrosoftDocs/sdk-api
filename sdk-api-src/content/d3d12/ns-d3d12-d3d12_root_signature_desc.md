@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_root_signature_desc.htm
 tech.root: direct3d12
 ms.assetid: D74D9D3B-96AB-489A-A91C-4F68AC3D05EE
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: D3D12_ROOT_SIGNATURE_DESC, D3D12_ROOT_SIGNATURE_DESC structure, d3d12/D3D12_ROOT_SIGNATURE_DESC, direct3d12.d3d12_root_signature_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ The number of slots in the root signature. This number is also the number of ele
 
 ### -field pParameters
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Dn879477(v=VS.85).aspx">D3D12_ROOT_PARAMETER</a> structures for the slots in the root signature.
+An array of <a href="https://msdn.microsoft.com/CC1DFE85-7F83-4551-86C6-1AFDF746FC92">D3D12_ROOT_PARAMETER</a> structures for the slots in the root signature.
           
 
 
@@ -78,13 +78,13 @@ Specifies the number of static samplers.
 
 ### -field pStaticSamplers
 
-Pointer to one or more <a href="https://msdn.microsoft.com/en-us/library/Dn986748(v=VS.85).aspx">D3D12_STATIC_SAMPLER_DESC</a> structures.
+Pointer to one or more <a href="https://msdn.microsoft.com/35553C1C-3661-4778-8BC5-F2E6775DF96D">D3D12_STATIC_SAMPLER_DESC</a> structures.
           
 
 
 ### -field Flags
 
-A combination of <a href="https://msdn.microsoft.com/en-us/library/Dn879480(v=VS.85).aspx">D3D12_ROOT_SIGNATURE_FLAGS</a>-typed values that are combined by using a bitwise OR operation.
+A combination of <a href="https://msdn.microsoft.com/C3118E58-2006-459F-B2D6-4EC84F2BC058">D3D12_ROOT_SIGNATURE_FLAGS</a>-typed values that are combined by using a bitwise OR operation.
             The resulting value specifies options for the root signature layout.
           
 
@@ -93,8 +93,8 @@ A combination of <a href="https://msdn.microsoft.com/en-us/library/Dn879480(v=VS
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn859363(v=VS.85).aspx">D3D12SerializeRootSignature</a> function
-        and is returned by the <a href="https://msdn.microsoft.com/en-us/library/Dn986887(v=VS.85).aspx">ID3D12RootSignatureDeserializer::GetRootSignatureDesc</a> method.
+This structure is used by the <a href="https://msdn.microsoft.com/ACC46F5E-1074-41B3-8D13-9FD4352DBF66">D3D12SerializeRootSignature</a> function
+        and is returned by the <a href="https://msdn.microsoft.com/A13FB848-A5C1-4B9B-9009-B0166A3A1C8D">ID3D12RootSignatureDeserializer::GetRootSignatureDesc</a> method.
       
 
 There is one graphics root signature, and one compute root signature.
@@ -108,31 +108,31 @@ There is one graphics root signature, and one compute root signature.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt186582(v=VS.85).aspx">CD3DX12_ROOT_SIGNATURE_DESC</a>
+<a href="https://msdn.microsoft.com/A3B820C1-51E8-4E35-A67F-2C4BE82A6B7F">CD3DX12_ROOT_SIGNATURE_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn859357(v=VS.85).aspx">Creating a Root Signature</a>
+<a href="https://msdn.microsoft.com/565B28C1-DBD1-42B6-87F9-70743E4A2E4A">Creating a Root Signature</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn879478(v=VS.85).aspx">D3D12_ROOT_PARAMETER_TYPE</a>
+<a href="https://msdn.microsoft.com/1AC2D29E-3F94-4362-83B8-E9BE2175E42F">D3D12_ROOT_PARAMETER_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt709124(v=VS.85).aspx">D3D12_ROOT_SIGNATURE_DESC1</a>
+<a href="https://msdn.microsoft.com/F085D077-1DA8-41A1-9FA3-4423EA003345">D3D12_ROOT_SIGNATURE_DESC1</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899219(v=VS.85).aspx">Using constants directly in the root signature</a>
+<a href="https://msdn.microsoft.com/F9A2640F-D1FA-481C-BDF1-B15372E3C512">Using constants directly in the root signature</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899223(v=VS.85).aspx">Using descriptors directly in the root signature</a>
+<a href="https://msdn.microsoft.com/033E3D8F-3003-42F7-BF77-68A7D62802E5">Using descriptors directly in the root signature</a>
  
 
  

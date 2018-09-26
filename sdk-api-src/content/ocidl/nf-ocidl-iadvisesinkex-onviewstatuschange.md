@@ -7,7 +7,7 @@ old-location: com\iadvisesinkex_onviewstatuschange.htm
 tech.root: com
 ms.assetid: 9d5129aa-341c-4c69-8c0c-b7c3e62a57c1
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IAdviseSinkEx interface [COM],OnViewStatusChange method, IAdviseSinkEx.OnViewStatusChange, IAdviseSinkEx::OnViewStatusChange, OnViewStatusChange, OnViewStatusChange method [COM], OnViewStatusChange method [COM],IAdviseSinkEx interface, _ole_iadvisesinkex_onviewstatuschange, com.iadvisesinkex_onviewstatuschange, ocidl/IAdviseSinkEx::OnViewStatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

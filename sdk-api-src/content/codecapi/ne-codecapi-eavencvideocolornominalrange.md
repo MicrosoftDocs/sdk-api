@@ -7,7 +7,7 @@ old-location: dshow\eavencvideocolornominalrange.htm
 tech.root: DirectShow
 ms.assetid: e3f49d42-b683-463b-8e09-9497a9bfad25
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: codecapi/eAVEncVideoColorNominalRange, codecapi/eAVEncVideoColorNominalRange_0_255, codecapi/eAVEncVideoColorNominalRange_16_235, codecapi/eAVEncVideoColorNominalRange_48_208, codecapi/eAVEncVideoColorNominalRange_SameAsSource, dshow.eavencvideocolornominalrange, eAVEncVideoColorNominalRange, eAVEncVideoColorNominalRange enumeration [DirectShow], eAVEncVideoColorNominalRangeEnumeration, eAVEncVideoColorNominalRange_0_255, eAVEncVideoColorNominalRange_16_235, eAVEncVideoColorNominalRange_48_208, eAVEncVideoColorNominalRange_SameAsSource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,11 +88,11 @@ The normalized range [0..1] maps to [48...208] for 8-bit samples.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd387884(v=VS.85).aspx">Codec API Enumerations</a>
+<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
  
 
  

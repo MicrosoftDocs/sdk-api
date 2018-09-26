@@ -7,7 +7,7 @@ old-location: dshow\eavencvideochromasubsampling.htm
 tech.root: DirectShow
 ms.assetid: d3308308-4bdd-46b4-a3fa-f253d552428b
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: codecapi/eAVEncVideoChromaSubsampling, codecapi/eAVEncVideoChromaSubsamplingFormat_Horizontally_Cosited, codecapi/eAVEncVideoChromaSubsamplingFormat_ProgressiveChroma, codecapi/eAVEncVideoChromaSubsamplingFormat_SameAsSource, codecapi/eAVEncVideoChromaSubsamplingFormat_Vertically_AlignedChromaPlanes, codecapi/eAVEncVideoChromaSubsamplingFormat_Vertically_Cosited, dshow.eavencvideochromasubsampling, eAVEncVideoChromaSubsampling, eAVEncVideoChromaSubsampling enumeration [DirectShow], eAVEncVideoChromaSubsamplingEnumeration, eAVEncVideoChromaSubsamplingFormat_Horizontally_Cosited, eAVEncVideoChromaSubsamplingFormat_ProgressiveChroma, eAVEncVideoChromaSubsamplingFormat_SameAsSource, eAVEncVideoChromaSubsamplingFormat_Vertically_AlignedChromaPlanes, eAVEncVideoChromaSubsamplingFormat_Vertically_Cosited
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,11 +91,11 @@ The chroma planes have the same phase alignment. It is not valid to omit this fl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd387884(v=VS.85).aspx">Codec API Enumerations</a>
+<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
  
 
  

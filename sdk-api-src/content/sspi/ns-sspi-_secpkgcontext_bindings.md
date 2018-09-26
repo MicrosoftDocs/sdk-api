@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_bindings.htm
 tech.root: secauthn
 ms.assetid: 6823cc31-acd3-4d67-92c6-65ff4d1c6aed
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: "*PSecPkgContext_Bindings, PSecPkgContext_Bindings, PSecPkgContext_Bindings structure pointer [Security], SecPkgContext_Bindings, SecPkgContext_Bindings structure [Security], _SecPkgContext_Bindings, security.secpkgcontext_bindings, sspi/PSecPkgContext_Bindings, sspi/SecPkgContext_Bindings"
 ms.prod: windows
 ms.technology: windows-sdk

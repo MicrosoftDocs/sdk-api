@@ -7,7 +7,7 @@ old-location: dshow\igraphbuilder_renderfile.htm
 tech.root: DirectShow
 ms.assetid: 449aec08-c03e-41d6-8c04-0e871e532d11
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IGraphBuilder interface [DirectShow],RenderFile method, IGraphBuilder.RenderFile, IGraphBuilder::RenderFile, IGraphBuilderRenderFile, RenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_renderfile, strmif/IGraphBuilder::RenderFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -303,24 +303,32 @@ Note that the <code>RenderFile</code> method does not remove any filters from th
 
 The following example renders an AVI file for default playback:
 
-
-```cpp
-
-hr = pGraph->RenderFile(L"C:\\Media\\Example.avi", 0);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+hr = pGraph-&gt;RenderFile(L"C:\\Media\\Example.avi", 0);
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following example downloads an AVI file over HTTP, using the <a href="https://msdn.microsoft.com/405fd6ea-aa17-4d11-8f07-067468cb090b">File Source (URL)</a> filter:
 
-
-```cpp
-
-hr = pGraph->RenderFile(L"http://example.microsoft.com/Example.avi", 0);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+hr = pGraph-&gt;RenderFile(L"http://example.microsoft.com/Example.avi", 0);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

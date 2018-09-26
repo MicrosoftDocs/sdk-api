@@ -7,7 +7,7 @@ old-location: com\progidfromclsid.htm
 tech.root: com
 ms.assetid: a863cbc2-f8ab-468a-8254-b273077a6a2b
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: ProgIDFromCLSID, ProgIDFromCLSID function [COM], _com_ProgIDFromCLSID, com.progidfromclsid, combaseapi/ProgIDFromCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,11 +135,11 @@ Every OLE object class listed in the <b>Insert Object</b> dialog box must have a
 
 The ProgID string must be different than the class name of any OLE 1 application, including the OLE 1 version of the same application, if there is one. In addition, a ProgID string must not contain more than 39 characters, start with a digit, or, except for a single period, contain any punctuation (including underscores).
 
-The ProgID must never be shown to the user in the user interface. If you need a short displayable string for an object, call <a href="https://msdn.microsoft.com/en-us/library/ms682271(v=VS.85).aspx">IOleObject::GetUserType</a>.
+The ProgID must never be shown to the user in the user interface. If you need a short displayable string for an object, call <a href="https://msdn.microsoft.com/492a4084-494e-4d78-8f3a-853ec486a2d6">IOleObject::GetUserType</a>.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/ms688386(v=VS.85).aspx">CLSIDFromProgID</a> function to find the CLSID associated with a given ProgID. Be sure to free the returned ProgID  when you are finished with it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function.
+Call the <a href="https://msdn.microsoft.com/89fb20af-65bf-4ed4-9f71-eb707ee8eb09">CLSIDFromProgID</a> function to find the CLSID associated with a given ProgID. Be sure to free the returned ProgID  when you are finished with it by calling the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function.
 
 
 
@@ -149,7 +149,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/ms688386(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688386(v=VS.85).aspx">CLSIDFromProgID</a>
+<a href="https://msdn.microsoft.com/89fb20af-65bf-4ed4-9f71-eb707ee8eb09">CLSIDFromProgID</a>
  
 
  

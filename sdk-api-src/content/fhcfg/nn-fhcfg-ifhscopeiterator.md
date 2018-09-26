@@ -7,7 +7,7 @@ old-location: winprog\ifhscopeiterator.htm
 tech.root: devnotes
 ms.assetid: E8F993BD-CB53-474A-926D-AED0F5A17073
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IFhScopeIterator, IFhScopeIterator interface [Windows API], IFhScopeIterator interface [Windows API],described, fhcfg/IFhScopeIterator, winprog.ifhscopeiterator
 ms.prod: windows
 ms.technology: windows-sdk

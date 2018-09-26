@@ -7,7 +7,7 @@ old-location: direct2d\matrix3x2f_skew.htm
 tech.root: direct2d
 ms.assetid: 7d53aaff-3a6f-4949-9835-a30027d247dd
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1.Matrix3x2F.Skew, D2D1::Matrix3x2F::Skew, Matrix3x2F interface [Direct2D],Skew method, Matrix3x2F.Skew, Matrix3x2F::Skew, Skew, Skew method [Direct2D], Skew method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Skew, direct2d.matrix3x2f_skew
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,7 +81,7 @@ TBD
 
 #### - centerPoint
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The point about which the skew is performed.
 
@@ -105,11 +105,11 @@ The typical y-axis skew means skews the angle in degrees counterclockwise from t
 
 For example, the following illustration shows the rectangle skewed with y-axis skew angle of 30 degrees.  Notice that the angle is 30 degrees clockwise from the x-axis. 
 
-<img alt="Illustration of a rectangle that is skewed along the y-axis for 30 degrees" src="./images/skewy.png"/>
+<img alt="Illustration of a rectangle that is skewed along the y-axis for 30 degrees" src="images/skewy.png"/>
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/Dd756689(v=VS.85).aspx">How to Skew an Object</a>.
+For an example, see <a href="https://msdn.microsoft.com/bdc12ca3-eb0d-49ab-8ef7-f42f24fef7ff">How to Skew an Object</a>.
 
 <div class="code"></div>
 

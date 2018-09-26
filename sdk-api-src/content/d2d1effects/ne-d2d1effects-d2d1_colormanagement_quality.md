@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_colormanagement_quality.htm
 tech.root: direct2d
 ms.assetid: 99BB95AE-E5C6-4D56-9EB9-740DD7D0EFEF
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1_COLORMANAGEMENT_QUALITY, D2D1_COLORMANAGEMENT_QUALITY enumeration [Direct2D], D2D1_COLORMANAGEMENT_QUALITY_BEST, D2D1_COLORMANAGEMENT_QUALITY_NORMAL, D2D1_COLORMANAGEMENT_QUALITY_PROOF, d2d1effects/D2D1_COLORMANAGEMENT_QUALITY, d2d1effects/D2D1_COLORMANAGEMENT_QUALITY_BEST, d2d1effects/D2D1_COLORMANAGEMENT_QUALITY_NORMAL, d2d1effects/D2D1_COLORMANAGEMENT_QUALITY_PROOF, direct2d.d2d1_colormanagement_quality
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The quality level of the transform for the <a href="https://msdn.microsoft.com/en-us/library/Hh706318(v=VS.85).aspx">Color management effect</a>. 
+The quality level of the transform for the <a href="https://msdn.microsoft.com/7351C4B4-F289-4236-BB42-1B3BD8753248">Color management effect</a>. 
 
 
 ## -enum-fields

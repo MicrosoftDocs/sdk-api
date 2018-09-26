@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RadialGradientBrush_SetCenter.htm
 tech.root: direct2d
 ms.assetid: f601f3e8-fc93-4076-825c-534f1cf3a8cf
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1RadialGradientBrush interface [Direct2D],SetCenter method, ID2D1RadialGradientBrush.SetCenter, ID2D1RadialGradientBrush::SetCenter, SetCenter, SetCenter method [Direct2D], SetCenter method [Direct2D],ID2D1RadialGradientBrush interface, d2d1/ID2D1RadialGradientBrush::SetCenter, direct2d.ID2D1RadialGradientBrush_SetCenter
 ms.prod: windows-hardware
 ms.technology: windows-devices

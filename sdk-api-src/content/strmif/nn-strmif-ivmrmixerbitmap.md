@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixerbitmap.htm
 tech.root: DirectShow
 ms.assetid: ac7da3f9-2c17-4517-bb64-6b56257a65c3
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IVMRMixerBitmap, IVMRMixerBitmap interface [DirectShow], IVMRMixerBitmap interface [DirectShow],described, IVMRMixerBitmapInterface, dshow.ivmrmixerbitmap, strmif/IVMRMixerBitmap
 ms.prod: windows
 ms.technology: windows-sdk

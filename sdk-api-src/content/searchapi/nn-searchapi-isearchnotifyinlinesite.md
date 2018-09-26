@@ -71,7 +71,7 @@ The <b>ISearchNotifyInlineSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231459(v=VS.85).aspx">OnCatalogStatusChange</a>
+<a href="https://msdn.microsoft.com/972ff36b-774d-4790-9fd4-2e3fe83014bc">OnCatalogStatusChange</a>
 </td>
 <td align="left" width="63%">
 Called by the search service to notify a client when the status of the catalog changes.
@@ -81,7 +81,7 @@ Called by the search service to notify a client when the status of the catalog c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231460(v=VS.85).aspx">OnItemIndexedStatusChange</a>
+<a href="https://msdn.microsoft.com/292ef97e-0069-4fb7-a618-375e169b7798">OnItemIndexedStatusChange</a>
 </td>
 <td align="left" width="63%">
 Called by the search service to notify the client when the status of a particular document or item changes.
@@ -101,11 +101,11 @@ Called by the search service to notify the client when the status of a particula
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
+<a href="https://msdn.microsoft.com/817550e2-a256-48d5-9fa6-1ea04f8b8589">Notifying the Index of Changes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/cfba12eb-4123-4b57-8311-d4fc8f9f514e">The Indexing Process</a>
  
 
  

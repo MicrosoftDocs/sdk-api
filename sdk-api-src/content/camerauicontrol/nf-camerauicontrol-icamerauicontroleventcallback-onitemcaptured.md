@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontroleventcallback_onitemcaptured.htm
 tech.root: devnotes
 ms.assetid: 4f202b68-48e2-4ae7-ade6-2180c05eec4a
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnItemCaptured method, ICameraUIControlEventCallback.OnItemCaptured, ICameraUIControlEventCallback::OnItemCaptured, OnItemCaptured, OnItemCaptured method [Windows API], OnItemCaptured method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnItemCaptured, winprog.icamerauicontroleventcallback_onitemcaptured
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh802718(v=VS.85).aspx">ICameraUIControlEventCallback</a>
+<a href="https://msdn.microsoft.com/f870557e-0e01-4f5c-81be-c709e397e5fd">ICameraUIControlEventCallback</a>
  
 
  

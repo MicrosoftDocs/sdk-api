@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnextkeyframe.htm
 tech.root: Multimedia
 ms.assetid: 928b5deb-2f68-4fed-98cf-8130379c8622
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: AVIStreamNextKeyFrame, AVIStreamNextKeyFrame macro [Windows Multimedia], _win32_AVIStreamNextKeyFrame, multimedia.avistreamnextkeyframe, vfw/AVIStreamNextKeyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,15 +79,19 @@ The search performed by this macro does not include the frame at the specified p
 
 The <b>AVIStreamNextKeyFrame</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamNextKeyFrame(pavi, lPos) \ 
     AVIStreamFindSample(pavi, lPos + 1, FIND_NEXT | FIND_KEY) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

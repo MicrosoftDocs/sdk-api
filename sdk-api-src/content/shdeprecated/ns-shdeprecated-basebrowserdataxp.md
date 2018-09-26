@@ -75,9 +75,9 @@ A pointer to the browser's <a href="https://msdn.microsoft.com/820869aa-ca93-4bb
 
 ### -field _phlf
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa767938(v=VS.85).aspx">IHlinkFrame</a>*</b>
+Type: <b><a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>*</b>
 
-A pointer to the browser's <a href="https://msdn.microsoft.com/library/Aa767938(v=VS.85).aspx">IHlinkFrame</a>.
+A pointer to the browser's <a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>.
     
                         
 
@@ -86,9 +86,9 @@ A pointer to the browser's <a href="https://msdn.microsoft.com/library/Aa767938(
 
 ### -field _pautoWB2
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a>*</b>
 
-A pointer to the browser's <a href="https://msdn.microsoft.com/en-us/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a> object.
+A pointer to the browser's <a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a> object.
 
 
 ### -field _pautoEDS

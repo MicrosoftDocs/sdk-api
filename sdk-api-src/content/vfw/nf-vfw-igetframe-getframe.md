@@ -7,7 +7,7 @@ old-location: multimedia\igetframe_getframe.htm
 tech.root: Multimedia
 ms.assetid: e2b76aad-e2db-4e04-be54-b697830e8644
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: GetFrame, GetFrame method [Windows Multimedia], GetFrame method [Windows Multimedia],IGetFrame interface, IGetFrame interface [Windows Multimedia],GetFrame method, IGetFrame.GetFrame, IGetFrame::GetFrame, _win32_IGetFrame_GetFrame, multimedia.igetframe_getframe, vfw/IGetFrame::GetFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,15 +87,19 @@ Returns the address of the decompressed frame data.
 
 For handlers written in C++, <b>GetFrame</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 LPVOID GetFrame(LONG lPos); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

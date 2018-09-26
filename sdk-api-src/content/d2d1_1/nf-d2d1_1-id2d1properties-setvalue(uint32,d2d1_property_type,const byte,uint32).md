@@ -7,7 +7,7 @@ old-location: direct2d\id2d1properties_setvalue.htm
 tech.root: direct2d
 ms.assetid: 7b21bcc0-b76e-4802-a8c4-ffba5ac8fa19
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1Properties interface [Direct2D],SetValue method, ID2D1Properties.SetValue, ID2D1Properties.SetValue(UINT32,D2D1_PROPERTY_TYPE,const BYTE,UINT32), ID2D1Properties::SetValue, ID2D1Properties::SetValue(UINT32,D2D1_PROPERTY_TYPE,const BYTE,UINT32), ID2D1Properties::SetValue(UINT32,const BYTE*,UINT32), SetValue, SetValue method [Direct2D], SetValue method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValue, direct2d.id2d1properties_setvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

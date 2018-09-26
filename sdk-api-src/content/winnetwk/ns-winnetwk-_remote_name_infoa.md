@@ -7,7 +7,7 @@ old-location: security\remote_name_info.htm
 tech.root: secauthn
 ms.assetid: 5dec0c40-757e-4c3b-8442-23f6d0f0e670
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: "*LPREMOTE_NAME_INFOA, LPREMOTE_NAME_INFO, LPREMOTE_NAME_INFO structure pointer [Security], REMOTE_NAME_INFO, REMOTE_NAME_INFO structure [Security], REMOTE_NAME_INFOA, REMOTE_NAME_INFOW, _REMOTE_NAME_INFOA, _mnp_remote_name_info, security.remote_name_info, winnetwk/LPREMOTE_NAME_INFO, winnetwk/REMOTE_NAME_INFO, winnetwk/REMOTE_NAME_INFOA, winnetwk/REMOTE_NAME_INFOW"
 ms.prod: windows
 ms.technology: windows-sdk

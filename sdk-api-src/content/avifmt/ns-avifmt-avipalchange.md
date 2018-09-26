@@ -7,7 +7,7 @@ old-location: dshow\avipalchange.htm
 tech.root: DirectShow
 ms.assetid: f8f38fe0-f506-4cf8-9a6d-381cf46b51a4
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: AVIPALCHANGE, AVIPALCHANGE structure [DirectShow], AVIPALCHANGEStructure, _AVIPALchange, avifmt/AVIPALCHANGE, dshow.avipalchange
 ms.prod: windows
 ms.technology: windows-sdk

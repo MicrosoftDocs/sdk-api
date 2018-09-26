@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_getdc.htm
 tech.root: com
 ms.assetid: 232587a8-ed88-4339-9e28-6e34be263a51
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: GetDC, GetDC method [COM], GetDC method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetDC method, IOleInPlaceSiteWindowless.GetDC, IOleInPlaceSiteWindowless::GetDC, _ole_ioleinplacesitewindowless_getdc, com.ioleinplacesitewindowless_getdc, ocidl/IOleInPlaceSiteWindowless::GetDC
 ms.prod: windows-hardware
 ms.technology: windows-devices

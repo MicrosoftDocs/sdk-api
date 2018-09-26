@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_getrenderingcontrols.htm
 tech.root: direct2d
 ms.assetid: b1d15530-a525-42ba-bc58-f8f429cdd2a8
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: GetRenderingControls, GetRenderingControls method [Direct2D], GetRenderingControls method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetRenderingControls method, ID2D1DeviceContext.GetRenderingControls, ID2D1DeviceContext::GetRenderingControls, d2d1_1/ID2D1DeviceContext::GetRenderingControls, direct2d.id2d1devicecontext_getrenderingcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices

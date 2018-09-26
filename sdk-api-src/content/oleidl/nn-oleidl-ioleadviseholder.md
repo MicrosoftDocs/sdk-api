@@ -7,7 +7,7 @@ old-location: com\ioleadviseholder.htm
 tech.root: com
 ms.assetid: 680afee7-2bee-4d54-ae0b-3e4e0deb622f
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], IOleAdviseHolder interface [COM],described, _ole_ioleadviseholder, com.ioleadviseholder, oleidl/IOleAdviseHolder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Manages advisory connections and compound document notifications in an object se
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleAdviseHolder</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleAdviseHolder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleAdviseHolder</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleAdviseHolder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

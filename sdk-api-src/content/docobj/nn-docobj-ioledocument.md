@@ -7,7 +7,7 @@ old-location: com\ioledocument.htm
 tech.root: com
 ms.assetid: 7a15d6ef-900c-4a0b-8b85-60dc66ca03a3
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IOleDocument, IOleDocument interface [COM], IOleDocument interface [COM],described, _ole_ioledocument, com.ioledocument, docobj/IOleDocument
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Enables a document object to communicate to containers its ability to create vie
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleDocument</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleDocument</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleDocument</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleDocument</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

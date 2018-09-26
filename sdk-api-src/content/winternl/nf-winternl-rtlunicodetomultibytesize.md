@@ -7,7 +7,7 @@ old-location: winprog\rtlunicodetomultibytesize.htm
 tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlunicodetomultibytesize.htm
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: RtlUnicodeToMultiByteSize, RtlUnicodeToMultiByteSize function [Windows API], winprog.rtlunicodetomultibytesize, winternl/RtlUnicodeToMultiByteSize, winui.rtlunicodetomultibytesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

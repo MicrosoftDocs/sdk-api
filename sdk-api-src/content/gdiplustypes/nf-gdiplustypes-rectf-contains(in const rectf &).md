@@ -99,7 +99,7 @@ If the rectangle is inside this rectangle, this method returns <b>TRUE</b>; othe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
 
 
 

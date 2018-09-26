@@ -115,11 +115,11 @@ When one or more adapters are present on the system, <b>GetAdapterIndex</b>  ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375858(v=VS.85).aspx">MprConfigGetFriendlyName</a>
+<a href="_mpr_mprconfiggetfriendlyname">MprConfigGetFriendlyName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375859(v=VS.85).aspx">MprConfigGetGuidName</a>
+<a href="_mpr_mprconfiggetguidname">MprConfigGetGuidName</a>
 
 
 

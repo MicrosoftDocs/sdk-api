@@ -7,7 +7,7 @@ old-location: com\coinit.htm
 tech.root: com
 ms.assetid: 0ac4a809-05f8-46d7-8e79-9d4e88b487f4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: COINIT, COINIT enumeration [COM], COINIT_APARTMENTTHREADED, COINIT_DISABLE_OLE1DDE, COINIT_MULTITHREADED, COINIT_SPEED_OVER_MEMORY, _com_COINIT, com.coinit, objbase/COINIT, objbase/COINIT_APARTMENTTHREADED, objbase/COINIT_DISABLE_OLE1DDE, objbase/COINIT_MULTITHREADED, objbase/COINIT_SPEED_OVER_MEMORY, tagCOINIT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Increase memory usage in an attempt to increase performance.
 
 When a thread is initialized through a call to <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a>, you choose whether to initialize it as apartment-threaded or multithreaded by designating one of the members of <b>COINIT</b> as its second parameter. This designates how incoming calls to any object created by that thread are handled, that is, the object's concurrency.
 
-Apartment-threading, while allowing for multiple threads of execution, serializes all incoming calls by requiring that calls to methods of objects created by this thread always run on the same thread â€“ the apartment/thread that created them. In addition, calls can arrive only at message-queue boundaries. Because of this serialization, it is not typically necessary to write concurrency control into the code for the object, other than to avoid calls to <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> and <a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a> during processing that must not be interrupted by other method invocations or calls to other objects in the same apartment/thread.
+Apartment-threading, while allowing for multiple threads of execution, serializes all incoming calls by requiring that calls to methods of objects created by this thread always run on the same thread â€“ the apartment/thread that created them. In addition, calls can arrive only at message-queue boundaries. Because of this serialization, it is not typically necessary to write concurrency control into the code for the object, other than to avoid calls to <a href="_win32_PeekMessage_cpp">PeekMessage</a> and <a href="_win32_SendMessage_cpp">SendMessage</a> during processing that must not be interrupted by other method invocations or calls to other objects in the same apartment/thread.
 
 
 

@@ -102,9 +102,13 @@ Your implementation of the <b>SensorAdapterClearContext</b> function should clea
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // SensorAdapterClearContext
 //
@@ -132,7 +136,7 @@ SensorAdapterClearContext(
 
     // Retrieve the context from the pipeline.
     PWINBIO_SENSOR_CONTEXT sensorContext = 
-        (PWINBIO_SENSOR_CONTEXT)Pipeline->SensorContext;
+        (PWINBIO_SENSOR_CONTEXT)Pipeline-&gt;SensorContext;
 
     // Validate the current state of the sensor.
     if (sensorContext == NULL)
@@ -146,42 +150,42 @@ SensorAdapterClearContext(
     // assumes that your sensor adapter context contains a ULONG data member 
     // and pointers to a capture buffer and an attributes buffer.
 
-    sensorContext->SomeField = 0L;
+    sensorContext-&gt;SomeField = 0L;
 
-    if (sensorContext->CaptureBuffer != NULL)
+    if (sensorContext-&gt;CaptureBuffer != NULL)
     {
         // Zero the capture buffer.
         SecureZeroMemory(
-            sensorContext->CaptureBuffer,
-            sensorContext->CaptureBufferSize);
+            sensorContext-&gt;CaptureBuffer,
+            sensorContext-&gt;CaptureBufferSize);
 
         // Release the capture buffer.
-        _AdapterRelease(sensorContext->CaptureBuffer);
-        sensorContext->CaptureBuffer = NULL;
-        sensorContext->CaptureBufferSize = 0;
+        _AdapterRelease(sensorContext-&gt;CaptureBuffer);
+        sensorContext-&gt;CaptureBuffer = NULL;
+        sensorContext-&gt;CaptureBufferSize = 0;
     }
 
-    if (sensorContext->AttributesBuffer != NULL)
+    if (sensorContext-&gt;AttributesBuffer != NULL)
     {
         // Zero the attributes buffer.
         SecureZeroMemory(
-            sensorContext->AttributesBuffer,
-            sensorContext->AttributesBufferSize);
+            sensorContext-&gt;AttributesBuffer,
+            sensorContext-&gt;AttributesBufferSize);
 
         // Release the attributes buffer.
-        _AdapterRelease(sensorContext->AttributesBuffer);
-        sensorContext->AttributesBuffer = NULL;
-        sensorContext->AttributesBufferSize = 0;
+        _AdapterRelease(sensorContext-&gt;AttributesBuffer);
+        sensorContext-&gt;AttributesBuffer = NULL;
+        sensorContext-&gt;AttributesBufferSize = 0;
     }
 
     // TODO: Perform any other work required to clear the sensor context.
 
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

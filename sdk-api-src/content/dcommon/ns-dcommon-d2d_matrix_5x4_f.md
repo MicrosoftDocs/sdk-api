@@ -7,7 +7,7 @@ old-location: direct2d\d2d_matrix_5x4_f.htm
 tech.root: direct2d
 ms.assetid: E7161468-82F4-4DAC-B376-FFB96293F634
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: D2D_MATRIX_5X4_F, D2D_MATRIX_5X4_F structure [Direct2D], dcommon/D2D_MATRIX_5X4_F, direct2d.d2d_matrix_5x4_f
 ms.prod: windows
 ms.technology: windows-sdk

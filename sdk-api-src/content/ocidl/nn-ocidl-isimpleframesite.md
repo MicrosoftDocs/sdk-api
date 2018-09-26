@@ -7,7 +7,7 @@ old-location: com\isimpleframesite.htm
 tech.root: com
 ms.assetid: ccddeae4-14fc-47df-a612-83d48a479b48
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: ISimpleFrameSite, ISimpleFrameSite interface [COM], ISimpleFrameSite interface [COM],described, _ctrl_isimpleframesite, com.isimpleframesite, ocidl/ISimpleFrameSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ An example of a simple frame control is a group box that only needs to capture a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimpleFrameSite</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ISimpleFrameSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimpleFrameSite</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>ISimpleFrameSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

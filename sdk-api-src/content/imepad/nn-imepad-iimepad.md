@@ -7,7 +7,7 @@ old-location: intl\iimepad.htm
 tech.root: Intl
 ms.assetid: 6604112A-5BD5-4B2C-AECC-D09180B04D7F
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IImePad, IImePad interface [Internationalization for Windows Applications], IImePad interface [Internationalization for Windows Applications],described, imepad/IImePad, intl.iimepad
 ms.prod: windows
 ms.technology: windows-sdk

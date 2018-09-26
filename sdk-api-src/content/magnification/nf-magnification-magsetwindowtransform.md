@@ -67,7 +67,7 @@ The magnification window.
 
 ### -param pTransform [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692385(v=VS.85).aspx">PMAGTRANSFORM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/f07e64de-2fc8-4010-a5f1-b1ed29d06997">PMAGTRANSFORM</a></b>
 
 A transformation matrix.
 
@@ -94,9 +94,13 @@ The transformation matrix specifies the magnification factor that the magnifier 
 
 The following example shows how to set the magnification factor for a magnifier control.
 
-
-```cpp
-// Description:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Description:
 //   Sets the magnification factor for a magnifier control.
 // Parameters:
 //   hwndMag - Handle of the magnifier control.
@@ -105,17 +109,17 @@ The following example shows how to set the magnification factor for a magnifier 
 BOOL SetMagnificationFactor(HWND hwndMag, float magFactor)
 {
     MAGTRANSFORM matrix;
-    memset(&matrix, 0, sizeof(matrix));
+    memset(&amp;matrix, 0, sizeof(matrix));
     matrix.v[0][0] = magFactor;
     matrix.v[1][1] = magFactor;
     matrix.v[2][2] = 1.0f;
 
-    return MagSetWindowTransform(hwndMag, &matrix);  
+    return MagSetWindowTransform(hwndMag, &amp;matrix);  
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -124,7 +128,7 @@ BOOL SetMagnificationFactor(HWND hwndMag, float magFactor)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692391(v=VS.85).aspx">MagGetWindowTransform</a>
+<a href="https://msdn.microsoft.com/54fc86bc-283d-44ba-85ee-a0e370d3b64c">MagGetWindowTransform</a>
  
 
  

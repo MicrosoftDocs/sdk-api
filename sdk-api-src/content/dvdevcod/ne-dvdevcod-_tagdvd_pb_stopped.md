@@ -7,7 +7,7 @@ old-location: dshow\dvd_pb_stopped.htm
 tech.root: DirectShow
 ms.assetid: 7f095629-9d44-4666-b14a-932122959f4e
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: DVD_PB_STOPPED, DVD_PB_STOPPED , DVD_PB_STOPPED enumeration [DirectShow], DVD_PB_STOPPEDEnumeration, DVD_PB_STOPPED_CopyProtectFailure, DVD_PB_STOPPED_CopyProtectOutputFailure, DVD_PB_STOPPED_CopyProtectOutputNotSupported, DVD_PB_STOPPED_DiscEjected, DVD_PB_STOPPED_DiscReadError, DVD_PB_STOPPED_IllegalNavCommand, DVD_PB_STOPPED_MacrovisionFailure, DVD_PB_STOPPED_NoBranch, DVD_PB_STOPPED_NoFirstPlayDomain, DVD_PB_STOPPED_Other, DVD_PB_STOPPED_ParentalFailure, DVD_PB_STOPPED_PlayChapterAutoStop, DVD_PB_STOPPED_PlayPeriodAutoStop, DVD_PB_STOPPED_RegionFailure, DVD_PB_STOPPED_Reset, DVD_PB_STOPPED_StopCommand, _tagDVD_PB_STOPPED, dshow.dvd_pb_stopped, dvdevcod/DVD_PB_STOPPED, dvdevcod/DVD_PB_STOPPED_CopyProtectFailure, dvdevcod/DVD_PB_STOPPED_CopyProtectOutputFailure, dvdevcod/DVD_PB_STOPPED_CopyProtectOutputNotSupported, dvdevcod/DVD_PB_STOPPED_DiscEjected, dvdevcod/DVD_PB_STOPPED_DiscReadError, dvdevcod/DVD_PB_STOPPED_IllegalNavCommand, dvdevcod/DVD_PB_STOPPED_MacrovisionFailure, dvdevcod/DVD_PB_STOPPED_NoBranch, dvdevcod/DVD_PB_STOPPED_NoFirstPlayDomain, dvdevcod/DVD_PB_STOPPED_Other, dvdevcod/DVD_PB_STOPPED_ParentalFailure, dvdevcod/DVD_PB_STOPPED_PlayChapterAutoStop, dvdevcod/DVD_PB_STOPPED_PlayPeriodAutoStop, dvdevcod/DVD_PB_STOPPED_RegionFailure, dvdevcod/DVD_PB_STOPPED_Reset, dvdevcod/DVD_PB_STOPPED_StopCommand
 ms.prod: windows
 ms.technology: windows-sdk

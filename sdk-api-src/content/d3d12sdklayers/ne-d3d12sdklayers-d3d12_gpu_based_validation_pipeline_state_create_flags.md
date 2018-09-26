@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_gpu_based_validation_pipeline_state_create_flags.
 tech.root: direct3d12
 ms.assetid: B3D0ABD0-E7CE-4853-AC7C-228398B4588C
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS enumeration, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS_VALID_MASK, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_GUARDED_VALIDATION_SHADERS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_TRACKING_ONLY_SHADERS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_UNGUARDED_VALIDATION_SHADERS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_NONE, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS_VALID_MASK, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_GUARDED_VALIDATION_SHADERS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_TRACKING_ONLY_SHADERS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_UNGUARDED_VALIDATION_SHADERS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_NONE, direct3d12.d3d12_gpu_based_validation_pipeline_state_create_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Specifies how GPU-Based Validation handles patched pipeline states during <a href="https://msdn.microsoft.com/en-us/library/Dn788663(v=VS.85).aspx">ID3D12Device::CreateGraphicsPipelineState</a> and <a href="https://msdn.microsoft.com/en-us/library/Dn788658(v=VS.85).aspx">ID3D12Device::CreateComputePipelineState</a>.
+Specifies how GPU-Based Validation handles patched pipeline states during <a href="https://msdn.microsoft.com/E35FCC4A-7527-4A6C-8569-0801A06AA427">ID3D12Device::CreateGraphicsPipelineState</a> and <a href="https://msdn.microsoft.com/FFA361B2-D8FA-4F5A-8D0C-022C2AA76B57">ID3D12Device::CreateComputePipelineState</a>.
 
 
 ## -enum-fields
@@ -89,7 +89,7 @@ Internal use only.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Mt762981(v=VS.85).aspx">D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS</a> structure.
+This enum is used by the <a href="https://msdn.microsoft.com/2C4E7A8D-CC42-4C2E-848E-7DA3ECA24391">D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS</a> structure.
 
 Generally speaking most application developers are likely to leave this parameter unchanged.  However, if the overhead of deferring patched PSO creation is suspected to be too much of a performance problem, then developers should consider changing this setting.
 
@@ -101,11 +101,11 @@ Generally speaking most application developers are likely to leave this paramete
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950149(v=VS.85).aspx">Debug Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/6E76C857-128E-4F0E-9711-72C4CF6C835C">Debug Layer Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt490477(v=VS.85).aspx">Using D3D12 Debug Layer GPU-Based Validation</a>
+<a href="https://msdn.microsoft.com/01D1F94F-4DD4-4781-86EF-6C639E8B1069">Using D3D12 Debug Layer GPU-Based Validation</a>
  
 
  

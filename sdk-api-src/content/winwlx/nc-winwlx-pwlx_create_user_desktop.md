@@ -7,7 +7,7 @@ old-location: security\wlxcreateuserdesktop.htm
 tech.root: secauthn
 ms.assetid: 6985e858-f914-426a-91b4-cf8c3f604318
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: PWLX_CREATE_USER_DESKTOP, PWLX_CREATE_USER_DESKTOP callback, WLX_CREATE_INSTANCE_ONLY, WLX_CREATE_USER, WlxCreateUserDesktop, WlxCreateUserDesktop callback function [Security], _gina_wlxcreateuserdesktop, security.wlxcreateuserdesktop, winwlx/WlxCreateUserDesktop
 ms.prod: windows
 ms.technology: windows-sdk

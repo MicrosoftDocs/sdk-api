@@ -7,7 +7,7 @@ old-location: com\imalloc_alloc.htm
 tech.root: com
 ms.assetid: c9c9bdac-965f-4b18-9338-28a025930480
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: Alloc, Alloc method [COM], Alloc method [COM],IMalloc interface, IMalloc interface [COM],Alloc method, IMalloc.Alloc, IMalloc::Alloc, _com_imalloc_alloc, com.imalloc_alloc, objidl/IMalloc::Alloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

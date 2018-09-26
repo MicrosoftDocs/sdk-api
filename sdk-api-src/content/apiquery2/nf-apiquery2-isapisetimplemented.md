@@ -7,7 +7,7 @@ old-location: winprog\isapisetimplemented.htm
 tech.root: devnotes
 ms.assetid: DF177716-9F33-4E39-BD63-D1B8E39CD67C
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IsApiSetImplemented, IsApiSetImplemented function [Windows API], apiquery2/IsApiSetImplemented, winprog.isapisetimplemented
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ The <b>IsApiSetImplemented</b> function tests if a specified API set is present 
 
 ### -param Contract
 
-Specifies the name of the API set to query.
+Specifies the name of the API set to query.  For more info, see the Remarks section.
 
 
 ## -returns
@@ -81,13 +81,13 @@ Otherwise, this function returns <b>FALSE</b>.
 
 
 
-When writing code that targets OneCore platforms, you can only call the subset of APIs that is available on OneCore. If your code calls APIs that are not available on OneCore, you may see ApiValidator errors during compilation, and then at runtime your code may not behave as expected.
+On OneCore, APIs are organized into functional groups called API sets. Depending on applicability, a given API set may be unavailable on the target platform.
 
+When writing code that targets OneCore and Desktop platforms,  you may see ApiValidator errors during compilation if your code calls APIs from API sets not present on the computer.
 
+To fix this problem, wrap the API call in <b>IsApiSetImplemented</b>.  This function tests at runtime if the specified API set is present on the target platform.
 
-
-
-   To fix this problem, you can wrap the API call in <b>IsApiSetImplemented</b>. For more information and examples of usage, see <a href="https://docs.microsoft.com/windows-hardware/drivers/develop/building-for-onecore">Building for OneCore</a>.
+To determine the API set for a given API, find the API name on the <a href="https://docs.microsoft.com/windows/desktop/apiindex/umbrella-lib-onecoreuap">OneCoreUap umbrella library</a> page and remove the <code>.dll</code> suffix from the requirements entry.
 
 By making use of <b>IsApiSetImplemented</b>, you can target OneCore and Desktop systems with a single binary.
 
@@ -98,6 +98,8 @@ By making use of <b>IsApiSetImplemented</b>, you can target OneCore and Desktop 
 You don't need to call <b>IsApiSetImplemented</b> for universal APIs because they are by definition present on both OneCore and Desktop versions of Windows.
 
  See the corresponding API reference documentation pages to determine if a given API is universally available. Look for the <b>Target Platform</b> line in the requirements block of the documentation page.
+
+ For more information and examples of usage, see <a href="https://docs.microsoft.com/windows-hardware/drivers/develop/building-for-onecore">Building for OneCore</a>.
 
 
 

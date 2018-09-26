@@ -7,7 +7,7 @@ old-location: intl\immrequestmessage.htm
 tech.root: Intl
 ms.assetid: 70c90851-b6a4-41ce-a048-c828adcd4ed8
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: ImmRequestMessage, ImmRequestMessage function [Internationalization for Windows Applications], ImmRequestMessageA, ImmRequestMessageW, immdev/ImmRequestMessage, immdev/ImmRequestMessageA, immdev/ImmRequestMessageW, intl.immrequestmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ Returns an operation-specific value if successful, or 0 otherwise.
 
 
 
-IME must use this function instead of sending the <a href="https://msdn.microsoft.com/c5e9f256-eed2-46cb-bb33-0e640a975f1f">WM_IME_REQUEST</a> message to the application in a call to <a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a>.
+IME must use this function instead of sending the <a href="https://msdn.microsoft.com/c5e9f256-eed2-46cb-bb33-0e640a975f1f">WM_IME_REQUEST</a> message to the application in a call to <a href="_win32_SendMessage_cpp">SendMessage</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1bitmap1_getsurface.htm
 tech.root: direct2d
 ms.assetid: f9cb3830-7c1a-4254-a3fd-f1c056bec0c0
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: GetSurface, GetSurface method [Direct2D], GetSurface method [Direct2D],ID2D1Bitmap1 interface, ID2D1Bitmap1 interface [Direct2D],GetSurface method, ID2D1Bitmap1.GetSurface, ID2D1Bitmap1::GetSurface, d2d1_1/ID2D1Bitmap1::GetSurface, direct2d.id2d1bitmap1_getsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

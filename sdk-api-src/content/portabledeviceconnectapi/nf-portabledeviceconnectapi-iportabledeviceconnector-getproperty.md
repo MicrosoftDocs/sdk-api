@@ -133,10 +133,14 @@ Once the application no longer needs the property data specified by the <i>ppDat
 
 The following example shows how to read the DEVPKEY_MTPBTH_IsConnected property for a paired MTP/Bluetooth device.
 
-
-```cpp
-#include <devpkey.h>
-#include <PortableDeviceConnectAPI.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;devpkey.h&gt;
+#include &lt;PortableDeviceConnectAPI.h&gt;
 HRESULT IsDeviceConnected(
 __in  IPortableDeviceConnector* pDevice, 
 __out BOOL* pIsConnected)
@@ -145,10 +149,10 @@ __out BOOL* pIsConnected)
     BYTE*           pDataGet;
     UINT32          cbDataGet;
     *pbIsConnected = FALSE; 
-    HRESULT hr = pDevice ->GetProperty(&DEVPKEY_MTPBTH_IsConnected,
-                                       &typeGet,
-                                       &pDataGet,
-                                       &cbDataGet);
+    HRESULT hr = pDevice -&gt;GetProperty(&amp;DEVPKEY_MTPBTH_IsConnected,
+                                       &amp;typeGet,
+                                       &amp;pDataGet,
+                                       &amp;cbDataGet);
     if (SUCCEEDED(hr))
     {
         DEVPROP_BOOLEAN bIsConnected = *((DEVPROP_BOOLEAN*)pDataGet);
@@ -160,10 +164,10 @@ __out BOOL* pIsConnected)
         CoTaskMemFree(pDataGet);
     }  
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

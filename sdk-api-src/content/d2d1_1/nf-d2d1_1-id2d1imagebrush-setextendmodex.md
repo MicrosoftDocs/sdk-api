@@ -7,7 +7,7 @@ old-location: direct2d\id2d1imagebrush_setextendmodex.htm
 tech.root: direct2d
 ms.assetid: 8ac7ee07-84da-4f0e-9fa8-2455ee1d5acc
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1ImageBrush interface [Direct2D],SetExtendModeX method, ID2D1ImageBrush.SetExtendModeX, ID2D1ImageBrush::SetExtendModeX, SetExtendModeX, SetExtendModeX method [Direct2D], SetExtendModeX method [Direct2D],ID2D1ImageBrush interface, d2d1_1/ID2D1ImageBrush::SetExtendModeX, direct2d.id2d1imagebrush_setextendmodex
 ms.prod: windows-hardware
 ms.technology: windows-devices

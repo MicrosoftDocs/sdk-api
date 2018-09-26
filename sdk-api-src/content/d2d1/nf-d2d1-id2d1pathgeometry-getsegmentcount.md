@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1PathGeometry_GetSegmentCount.htm
 tech.root: direct2d
 ms.assetid: 53a80fec-5851-4b62-aa9b-fb7f8b15b0e7
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: GetSegmentCount, GetSegmentCount method [Direct2D], GetSegmentCount method [Direct2D],ID2D1PathGeometry interface, ID2D1PathGeometry interface [Direct2D],GetSegmentCount method, ID2D1PathGeometry.GetSegmentCount, ID2D1PathGeometry::GetSegmentCount, d2d1/ID2D1PathGeometry::GetSegmentCount, direct2d.ID2D1PathGeometry_GetSegmentCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

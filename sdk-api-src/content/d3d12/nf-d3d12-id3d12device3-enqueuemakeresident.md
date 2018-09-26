@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device3_enqueuemakeresident.htm
 tech.root: direct3d12
 ms.assetid: A9F8D656-C09D-47D5-9D97-3C2A60422E96
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: EnqueueMakeResident, EnqueueMakeResident method, EnqueueMakeResident method,ID3D12Device3 interface, ID3D12Device3 interface,EnqueueMakeResident method, ID3D12Device3.EnqueueMakeResident, ID3D12Device3::EnqueueMakeResident, d3d12/ID3D12Device3::EnqueueMakeResident, direct3d12.id3d12device3_enqueuemakeresident
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,7 +108,7 @@ An unsigned 64-bit value signaled to the fence when the work is done.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           

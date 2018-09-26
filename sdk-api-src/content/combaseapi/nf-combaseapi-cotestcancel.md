@@ -7,7 +7,7 @@ old-location: com\cotestcancel.htm
 tech.root: com
 ms.assetid: 9432621a-be31-4b8b-83b6-069539ba06b4
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: CoTestCancel, CoTestCancel function [COM], _com_CoTestCancel, com.cotestcancel, combaseapi/CoTestCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ The call has been canceled by the client.
 
 Server objects should call <b>CoTestCancel</b> at least once before returning to detect client cancellation requests. Doing so can save the server unnecessary work if the client has issued a cancellation request, and it can reduce the client's wait time if it has set the cancel timeout as RPC_C_CANCEL_INFINITE_TIMEOUT. Furthermore, if the server object detects a cancellation request before returning from a pending call, it can clean up any memory, marshaled interfaces, or handles it has created or obtained. 
 
-<b>CoTestCancel</b> calls <a href="https://msdn.microsoft.com/en-us/library/ms691483(v=VS.85).aspx">CoGetCallContext</a> to obtain the <a href="https://msdn.microsoft.com/en-us/library/ms683860(v=VS.85).aspx">ICancelMethodCalls</a> interface on the current cancel object and then calls <a href="https://msdn.microsoft.com/en-us/library/ms680121(v=VS.85).aspx">ICancelMethodCalls::TestCancel</a>. Objects that implement custom marshaling should first call <a href="https://msdn.microsoft.com/en-us/library/ms679683(v=VS.85).aspx">CoSwitchCallContext</a> to install the appropriate call context object.
+<b>CoTestCancel</b> calls <a href="https://msdn.microsoft.com/b82e32c0-840d-402e-90d5-ff678c51faf1">CoGetCallContext</a> to obtain the <a href="https://msdn.microsoft.com/5e31f706-1c9c-4510-845c-4e47093780a1">ICancelMethodCalls</a> interface on the current cancel object and then calls <a href="https://msdn.microsoft.com/31141d97-241e-4717-b707-e37d86c2267d">ICancelMethodCalls::TestCancel</a>. Objects that implement custom marshaling should first call <a href="https://msdn.microsoft.com/146855a2-97ec-4e71-88dc-316eaa1a24a0">CoSwitchCallContext</a> to install the appropriate call context object.
 
 This function does not test cancellation for asynchronous calls.
 
@@ -121,7 +121,7 @@ This function does not test cancellation for asynchronous calls.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683860(v=VS.85).aspx">ICancelMethodCalls</a>
+<a href="https://msdn.microsoft.com/5e31f706-1c9c-4510-845c-4e47093780a1">ICancelMethodCalls</a>
  
 
  

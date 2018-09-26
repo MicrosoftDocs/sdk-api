@@ -53,7 +53,7 @@ req.redist:
 ## -description
 
 
-Opens a failover cluster <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> and returns a handle to 
+Opens a failover cluster <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> and returns a handle to 
     it.
 
 
@@ -91,7 +91,7 @@ If the operation was successful,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369686(v=VS.85).aspx">Group Management Functions</a>
+<a href="https://msdn.microsoft.com/a2336594-ac24-476e-94e8-460a31c1f643">Group Management Functions</a>
 
 
 

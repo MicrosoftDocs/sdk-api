@@ -7,7 +7,7 @@ old-location: security\sspigetcreduicontext.htm
 tech.root: secauthn
 ms.assetid: 9da39bc4-ece8-493f-b9fd-5f8ba9ed288e
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SspiGetCredUIContext, SspiGetCredUIContext function [Security], security.sspigetcreduicontext, sspi/SspiGetCredUIContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

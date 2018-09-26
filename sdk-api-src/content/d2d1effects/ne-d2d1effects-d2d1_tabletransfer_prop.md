@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_tabletransfer_prop.htm
 tech.root: direct2d
 ms.assetid: C4623CD1-1EA2-4CA4-BF28-755BE1BA401E
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1_TABLETRANSFER_PROP, D2D1_TABLETRANSFER_PROP enumeration [Direct2D], D2D1_TABLETRANSFER_PROP_ALPHA_DISABLE, D2D1_TABLETRANSFER_PROP_ALPHA_TABLE, D2D1_TABLETRANSFER_PROP_BLUE_DISABLE, D2D1_TABLETRANSFER_PROP_BLUE_TABLE, D2D1_TABLETRANSFER_PROP_CLAMP_OUTPUT, D2D1_TABLETRANSFER_PROP_GREEN_DISABLE, D2D1_TABLETRANSFER_PROP_GREEN_TABLE, D2D1_TABLETRANSFER_PROP_RED_DISABLE, D2D1_TABLETRANSFER_PROP_RED_TABLE, d2d1effects/D2D1_TABLETRANSFER_PROP, d2d1effects/D2D1_TABLETRANSFER_PROP_ALPHA_DISABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_ALPHA_TABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_BLUE_DISABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_BLUE_TABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_CLAMP_OUTPUT, d2d1effects/D2D1_TABLETRANSFER_PROP_GREEN_DISABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_GREEN_TABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_RED_DISABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_RED_TABLE, direct2d.d2d1_tabletransfer_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706373(v=VS.85).aspx">Table transfer effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/FB426909-3C91-4709-9E3A-E45C7AE345A3">Table transfer effect</a>.
         
 
 

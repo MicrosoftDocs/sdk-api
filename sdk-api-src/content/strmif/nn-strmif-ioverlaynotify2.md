@@ -7,7 +7,7 @@ old-location: dshow\ioverlaynotify2.htm
 tech.root: DirectShow
 ms.assetid: 439b3939-84da-48f5-b2a5-47f68fedef06
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IOverlayNotify2, IOverlayNotify2 interface [DirectShow], IOverlayNotify2 interface [DirectShow],described, IOverlayNotify2Interface, dshow.ioverlaynotify2, strmif/IOverlayNotify2
 ms.prod: windows
 ms.technology: windows-sdk

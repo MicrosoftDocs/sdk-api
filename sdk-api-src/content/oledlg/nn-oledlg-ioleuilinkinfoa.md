@@ -7,7 +7,7 @@ old-location: com\ioleuilinkinfo.htm
 tech.root: com
 ms.assetid: aadac00b-47bb-42eb-8458-b23867f6b975
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IOleUILinkInfo, IOleUILinkInfo interface [COM], IOleUILinkInfo interface [COM],described, IOleUILinkInfoA, IOleUILinkInfoW, _ole_IOleUILinkInfo, com.ioleuilinkinfo, oledlg/IOleUILinkInfo
 ms.prod: windows
 ms.technology: windows-sdk

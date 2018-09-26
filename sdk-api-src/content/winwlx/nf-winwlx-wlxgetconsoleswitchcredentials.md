@@ -7,7 +7,7 @@ old-location: security\wlxgetconsoleswitchcredentials.htm
 tech.root: secauthn
 ms.assetid: ee6b3d03-11c9-4eb3-8c76-7041dddc755d
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: WlxGetConsoleSwitchCredentials, WlxGetConsoleSwitchCredentials function [Security], _gina_wlxgetconsoleswitchcredentials, security.wlxgetconsoleswitchcredentials, winwlx/WlxGetConsoleSwitchCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\dvaspectinfoflag.htm
 tech.root: com
 ms.assetid: 639871a6-85ab-41e2-92fa-7f1e72e9cb38
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: DVASPECTINFOFLAG, DVASPECTINFOFLAG enumeration [COM], DVASPECTINFOFLAG_CANOPTIMIZE, _ole_DVASPECTINFOFLAG, com.dvaspectinfoflag, ocidl/DVASPECTINFOFLAG, ocidl/DVASPECTINFOFLAG_CANOPTIMIZE, tagAspectInfoFlag
 ms.prod: windows
 ms.technology: windows-sdk

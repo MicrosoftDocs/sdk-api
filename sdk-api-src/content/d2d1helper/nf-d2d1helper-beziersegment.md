@@ -7,7 +7,7 @@ old-location: direct2d\beziersegment.htm
 tech.root: direct2d
 ms.assetid: 50938354-f9b7-40a9-807d-708f6a065912
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: BezierSegment, BezierSegment function [Direct2D], d2d1helper/BezierSegment, direct2d.beziersegment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368070(v=VS.85).aspx">D2D1_BEZIER_SEGMENT</a> structure.
+Creates a <a href="https://msdn.microsoft.com/cf8df7d2-c4fe-4a46-a4b2-7e0eed67df2a">D2D1_BEZIER_SEGMENT</a> structure.
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368070(v=VS.85).as
 
 ### -param point1 [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The first control point for the Bezier segment.
 
 
 ### -param point2 [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The second control point for the Bezier segment.
 
@@ -76,7 +76,7 @@ The second control point for the Bezier segment.
 
 ### -param point3 [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The end point for the Bezier segment.
 
@@ -87,7 +87,7 @@ The end point for the Bezier segment.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368070(v=VS.85).aspx">D2D1_BEZIER_SEGMENT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/cf8df7d2-c4fe-4a46-a4b2-7e0eed67df2a">D2D1_BEZIER_SEGMENT</a></b>
 
 The new Bezier segment.
 

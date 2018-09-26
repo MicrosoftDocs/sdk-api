@@ -175,9 +175,13 @@ The item can implement the requested interface on its handler or it can implemen
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceSyncItem::GetObject(__in REFGUID   rguidObjectID,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceSyncItem::GetObject(__in REFGUID   rguidObjectID,
                                           __in REFIID    riid,
                                           __out void   **ppv)
 {
@@ -195,9 +199,9 @@ STDMETHODIMP CMyDeviceSyncItem::GetObject(__in REFGUID   rguidObjectID,
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

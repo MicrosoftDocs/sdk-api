@@ -7,7 +7,7 @@ old-location: com\icomthreadinginfo.htm
 tech.root: com
 ms.assetid: fa4c7d82-ec5d-43d6-914e-bba60ad19aa2
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IComThreadingInfo, IComThreadingInfo interface [COM], IComThreadingInfo interface [COM],described, _com_icomthreadinginfo_interface, com.icomthreadinginfo, objidlbase/IComThreadingInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Enables you to obtain the following information about the apartment and thread t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComThreadingInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IComThreadingInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComThreadingInfo</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IComThreadingInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

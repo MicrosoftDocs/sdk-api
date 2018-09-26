@@ -7,7 +7,7 @@ old-location: direct2d\id2d1drawinfo_setvertexprocessing.htm
 tech.root: direct2d
 ms.assetid: 23DB679B-33E4-4FB1-B356-BBB1BA95E0EB
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1DrawInfo interface [Direct2D],SetVertexProcessing method, ID2D1DrawInfo.SetVertexProcessing, ID2D1DrawInfo::SetVertexProcessing, SetVertexProcessing, SetVertexProcessing method [Direct2D], SetVertexProcessing method [Direct2D],ID2D1DrawInfo interface, d2d1effectauthor/ID2D1DrawInfo::SetVertexProcessing, direct2d.id2d1drawinfo_setvertexprocessing
 ms.prod: windows-hardware
 ms.technology: windows-devices

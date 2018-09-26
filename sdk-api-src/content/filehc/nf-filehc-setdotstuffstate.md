@@ -7,7 +7,7 @@ old-location: winprog\_setdotstuffstate.htm
 tech.root: devnotes
 ms.assetid: 3acfaf74-ec36-4afb-b358-425bd5062153
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: SetDotStuffState, SetDotStuffState function [Windows API], filehc/SetDotStuffState, winprog._setdotstuffstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

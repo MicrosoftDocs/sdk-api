@@ -7,7 +7,7 @@ old-location: winprog\ntrenamekey.htm
 tech.root: devnotes
 ms.assetid: fecd46f6-bcef-4cb4-8d53-3fb7ebe4cc53
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: NtRenameKey, NtRenameKey function [Windows API], base.ntrenamekey, winprog.ntrenamekey, winternl/NtRenameKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

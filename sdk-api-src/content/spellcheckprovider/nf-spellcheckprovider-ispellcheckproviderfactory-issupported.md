@@ -7,7 +7,7 @@ old-location: intl\ispellcheckproviderfactory_issupported.htm
 tech.root: Intl
 ms.assetid: 88689384-E95E-4D56-BAD4-9889816F76EB
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: ISpellCheckProviderFactory interface [Internationalization for Windows Applications],IsSupported method, ISpellCheckProviderFactory.IsSupported, ISpellCheckProviderFactory::IsSupported, IsSupported, IsSupported method [Internationalization for Windows Applications], IsSupported method [Internationalization for Windows Applications],ISpellCheckProviderFactory interface, intl.ispellcheckproviderfactory_issupported, spellcheckprovider/ISpellCheckProviderFactory::IsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

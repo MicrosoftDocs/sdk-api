@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_popstoragefilter.htm
 tech.root: direct3d12
 ms.assetid: C90952B6-7556-4214-8D08-694C593C9183
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: ID3D12InfoQueue interface,PopStorageFilter method, ID3D12InfoQueue.PopStorageFilter, ID3D12InfoQueue::PopStorageFilter, PopStorageFilter, PopStorageFilter method, PopStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PopStorageFilter, direct3d12.id3d12infoqueue_popstoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
  
 
  

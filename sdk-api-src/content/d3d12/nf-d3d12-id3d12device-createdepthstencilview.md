@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createdepthstencilview.htm
 tech.root: direct3d12
 ms.assetid: 57C0CA35-CFBE-4D79-B8D7-BD01CEBEA144
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: CreateDepthStencilView, CreateDepthStencilView method, CreateDepthStencilView method,ID3D12Device interface, ID3D12Device interface,CreateDepthStencilView method, ID3D12Device.CreateDepthStencilView, ID3D12Device::CreateDepthStencilView, d3d12/ID3D12Device::CreateDepthStencilView, direct3d12.id3d12device_createdepthstencilview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Creates a depth-stencil view for accessing resource data.
 
 ### -param pResource [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a> object that represents the depth stencil.
+A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> object that represents the depth stencil.
           
 
 At least one of <i>pResource</i> or <i>pDesc</i>  must be provided.
@@ -72,9 +72,9 @@ A null <i>pResource</i> is used to initialize a null descriptor, which guarantee
 
 ### -param pDesc [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn770357(v=VS.85).aspx">D3D12_DEPTH_STENCIL_VIEW_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/53161933-5B3B-4B38-AC70-46A4164AE072">D3D12_DEPTH_STENCIL_VIEW_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn770357(v=VS.85).aspx">D3D12_DEPTH_STENCIL_VIEW_DESC</a> structure that describes the depth-stencil view.
+A pointer to a <a href="https://msdn.microsoft.com/53161933-5B3B-4B38-AC70-46A4164AE072">D3D12_DEPTH_STENCIL_VIEW_DESC</a> structure that describes the depth-stencil view.
           
 
 A null <i>pDesc</i> is used to initialize a default descriptor, if possible. This behavior is identical to the D3D11 null descriptor behavior, where defaults are filled in. This behavior inherits the resource format and dimension (if not typeless) and DSVs target the  first mip and all array slices. Not all resources support null descriptor initialization.
@@ -82,7 +82,7 @@ A null <i>pDesc</i> is used to initialize a default descriptor, if possible. Thi
 
 ### -param DestDescriptor [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn859369(v=VS.85).aspx">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 Describes the CPU descriptor handle that represents the start of the heap that holds the depth-stencil view.
 
@@ -101,7 +101,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>
+<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
  
 
  

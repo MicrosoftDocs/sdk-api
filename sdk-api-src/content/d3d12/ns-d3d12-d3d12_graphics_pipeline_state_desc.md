@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_graphics_pipeline_state_desc.htm
 tech.root: direct3d12
 ms.assetid: 35D10150-A633-4D38-B684-3E2DF357FFC0
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: D3D12_GRAPHICS_PIPELINE_STATE_DESC, D3D12_GRAPHICS_PIPELINE_STATE_DESC structure, d3d12/D3D12_GRAPHICS_PIPELINE_STATE_DESC, direct3d12.d3d12_graphics_pipeline_state_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ The sample mask for the blend state.
 
 ### -field RasterizerState
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn770387(v=VS.85).aspx">D3D12_RASTERIZER_DESC</a> structure that describes the rasterizer state.
+A <a href="https://msdn.microsoft.com/52ECF841-72BE-44B7-BFB1-305B6981C1F4">D3D12_RASTERIZER_DESC</a> structure that describes the rasterizer state.
           
 
 
@@ -151,19 +151,19 @@ The number of render target formats in the  <b>RTVFormats</b> member.
 
 ### -field RTVFormats
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed values for the render target formats.
+An array of <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed values for the render target formats.
           
 
 
 ### -field DSVFormat
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the depth-stencil format.
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value for the depth-stencil format.
           
 
 
 ### -field SampleDesc
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure that specifies multisampling parameters.
+A <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a> structure that specifies multisampling parameters.
           
 
 
@@ -181,7 +181,7 @@ A cached pipeline state object, as a <a href="https://msdn.microsoft.com/82A0CF7
 
 ### -field Flags
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn986737(v=VS.85).aspx">D3D12_PIPELINE_STATE_FLAGS</a> enumeration constant such as for "tool debug".
+A <a href="https://msdn.microsoft.com/DAE5C06B-ED1F-4B35-812E-31E26B51704C">D3D12_PIPELINE_STATE_FLAGS</a> enumeration constant such as for "tool debug".
           
 
 
@@ -189,7 +189,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Dn986737(v=VS.85).aspx">D3D1
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn788663(v=VS.85).aspx">CreateGraphicsPipelineState</a> method.
+This structure is used by the <a href="https://msdn.microsoft.com/E35FCC4A-7527-4A6C-8569-0801A06AA427">CreateGraphicsPipelineState</a> method.
       
 
 The runtime validates:
@@ -198,14 +198,14 @@ The runtime validates:
 <ul>
 <li>Whether the linkage between the shader stages is correct.
           </li>
-<li>If the <b>HS</b> and <b>DS</b> members are specified, the <b>PrimitiveTopologyType</b> member for topology type must be set to <a href="https://msdn.microsoft.com/en-us/library/Dn770385(v=VS.85).aspx">D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH</a>.
+<li>If the <b>HS</b> and <b>DS</b> members are specified, the <b>PrimitiveTopologyType</b> member for topology type must be set to <a href="d3d12_primitive_topology_type.htm">D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH</a>.
           </li>
 <li>Whether sample frequency execution isn't allowed with the center multi-sample anti-aliasing (MSAA) pattern.
           </li>
 <li>Whether anti-aliasing lines aren't allowed with the center MSAA pattern.
           </li>
 <li>
-If the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/en-us/library/Dn770387(v=VS.85).aspx">D3D12_RASTERIZER_DESC</a> that <b>RasterizerState</b> specifies isn't zero:
+If the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/52ECF841-72BE-44B7-BFB1-305B6981C1F4">D3D12_RASTERIZER_DESC</a> that <b>RasterizerState</b> specifies isn't zero:
               
 
 <ul>
@@ -237,15 +237,15 @@ If the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903791(v=VS.85).aspx">Conservative Rasterization</a>
+<a href="https://msdn.microsoft.com/081199AD-1702-4EC8-95AD-B1148C676199">Conservative Rasterization</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903929(v=VS.85).aspx">Rasterizer Ordered Views</a>
+<a href="https://msdn.microsoft.com/D308BF3E-8CBE-4DF0-B020-4D202E858D99">Rasterizer Ordered Views</a>
  
 
  

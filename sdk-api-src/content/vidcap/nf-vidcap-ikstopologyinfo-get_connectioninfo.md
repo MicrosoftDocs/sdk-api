@@ -7,7 +7,7 @@ old-location: dshow\ikstopologyinfo_get_connectioninfo.htm
 tech.root: DirectShow
 ms.assetid: ef062e0f-0866-48ca-bd27-26000cd4983a
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_ConnectionInfo method, IKsTopologyInfo.get_ConnectionInfo, IKsTopologyInfo::get_ConnectionInfo, IKsTopologyInfoget_ConnectionInfo, dshow.ikstopologyinfo_get_connectioninfo, get_ConnectionInfo, get_ConnectionInfo method [DirectShow], get_ConnectionInfo method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_ConnectionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

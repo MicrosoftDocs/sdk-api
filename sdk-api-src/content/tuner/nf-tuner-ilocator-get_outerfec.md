@@ -84,15 +84,15 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693580(v=VS.85).aspx">get_InnerFEC</a>
+<a href="mstv.idigitallocator_get_innerfec">get_InnerFEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693583(v=VS.85).aspx">get_OuterFECRate</a>
+<a href="mstv.idigitallocator_get_outerfecrate">get_OuterFECRate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693587(v=VS.85).aspx">put_OuterFEC</a>
+<a href="mstv.idigitallocator_put_outerfec">put_OuterFEC</a>
  
 
  

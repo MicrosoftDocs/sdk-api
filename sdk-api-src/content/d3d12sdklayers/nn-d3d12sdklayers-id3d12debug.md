@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debug.htm
 tech.root: direct3d12
 ms.assetid: 6CFAE096-EE09-4DD0-ADA3-A700FD9FDCB9
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: ID3D12Debug, ID3D12Debug interface, ID3D12Debug interface,described, d3d12sdklayers/ID3D12Debug, direct3d12.id3d12debug
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,9 +57,9 @@ A debug interface controls debug settings and validates pipeline state. It can o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Debug</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D12Debug</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Debug</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D12Debug</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>ID3D12Debug</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn986877(v=VS.85).aspx">EnableDebugLayer</a>
+<a href="https://msdn.microsoft.com/4C30C7C6-6071-4D69-BAB9-4CF6FED5B7D4">EnableDebugLayer</a>
 </td>
 <td align="left" width="63%">
 Enables the debug layer.
@@ -87,7 +87,7 @@ Enables the debug layer.
 
 
 
-This interface is obtained by querying it from the <a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a> using <code>IUnknown::QueryInterface</code>. 
+This interface is obtained by querying it from the <a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a> using <code>IUnknown::QueryInterface</code>. 
 
  
 
@@ -99,11 +99,11 @@ This interface is obtained by querying it from the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950150(v=VS.85).aspx">Debug Layer Interfaces</a>
+<a href="https://msdn.microsoft.com/9BD5910A-8FF2-4540-BB8E-8EA5C10528CE">Debug Layer Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
  
 
  

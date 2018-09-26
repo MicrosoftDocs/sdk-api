@@ -7,7 +7,7 @@ old-location: com\ioleparentundounit.htm
 tech.root: com
 ms.assetid: 4407d673-286a-4221-ae35-09b9865161f8
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: IOleParentUndoUnit, IOleParentUndoUnit interface [COM], IOleParentUndoUnit interface [COM],described, _ole_ioleparentundounit, com.ioleparentundounit, ocidl/IOleParentUndoUnit
 ms.prod: windows
 ms.technology: windows-sdk

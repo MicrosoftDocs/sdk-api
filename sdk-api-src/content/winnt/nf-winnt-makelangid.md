@@ -7,7 +7,7 @@ old-location: intl\makelangid.htm
 tech.root: Intl
 ms.assetid: cdf6424a-bf2b-4c14-8bc7-8b5f04c29ed3
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: MAKELANGID, MAKELANGID macro [Internationalization for Windows Applications], _win32_MAKELANGID, intl.makelangid, winnt/MAKELANGID
 ms.prod: windows-hardware
 ms.technology: windows-devices

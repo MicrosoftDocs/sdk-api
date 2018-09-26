@@ -71,7 +71,7 @@ Receives the result of the operation for the item.  Contains S_OK if the operati
 
 ### -param pResponse [out]
 
-Set this parameter to a value from the <a href="https://msdn.microsoft.com/en-us/library/Bb530650(v=VS.85).aspx">OFFLINEFILES_OP_RESPONSE</a> enumeration that indicates how the operation is to proceed.
+Set this parameter to a value from the <a href="https://msdn.microsoft.com/a4b16256-7f6a-4e26-8cf2-3ef7c59ac3af">OFFLINEFILES_OP_RESPONSE</a> enumeration that indicates how the operation is to proceed.
 
 
 ## -returns
@@ -88,7 +88,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530616(v=VS.85).aspx">IOfflineFilesSimpleProgress</a>
+<a href="https://msdn.microsoft.com/490f0958-125b-4c09-8ca4-07532ed8d4d4">IOfflineFilesSimpleProgress</a>
  
 
  

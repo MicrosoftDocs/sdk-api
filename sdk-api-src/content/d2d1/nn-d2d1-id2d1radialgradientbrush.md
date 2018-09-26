@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RadialGradientBrush.htm
 tech.root: direct2d
 ms.assetid: 21ed2286-e4df-4b77-ba31-e5d5927e16f5
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: ID2D1RadialGradientBrush, ID2D1RadialGradientBrush interface [Direct2D], ID2D1RadialGradientBrush interface [Direct2D],described, d2d1/ID2D1RadialGradientBrush, direct2d.ID2D1RadialGradientBrush
 ms.prod: windows
 ms.technology: windows-sdk

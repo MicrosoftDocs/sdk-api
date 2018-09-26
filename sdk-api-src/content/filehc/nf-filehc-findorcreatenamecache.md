@@ -7,7 +7,7 @@ old-location: winprog\_findorcreatenamecache.htm
 tech.root: devnotes
 ms.assetid: c10a501c-cc25-4586-a62a-7c7be207cbd9
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: FindOrCreateNameCache, FindOrCreateNameCache function [Windows API], filehc/FindOrCreateNameCache, winprog._findorcreatenamecache
 ms.prod: windows-hardware
 ms.technology: windows-devices

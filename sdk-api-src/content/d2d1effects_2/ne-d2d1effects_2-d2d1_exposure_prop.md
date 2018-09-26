@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_exposure_prop.htm
 tech.root: direct2d
 ms.assetid: 0C294B8B-2E18-48B7-AB81-602AB7949131
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: D2D1_EXPOSURE_PROP, D2D1_EXPOSURE_PROP enumeration [Direct2D], D2D1_EXPOSURE_PROP_EXPOSURE_VALUE, d2d1effects_2/D2D1_EXPOSURE_PROP, d2d1effects_2/D2D1_EXPOSURE_PROP_EXPOSURE_VALUE, direct2d.d2d1_exposure_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn890768(v=VS.85).aspx">Exposure effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/d384f539-5c19-53c7-e52b-bf833e221449">Exposure effect</a>.
 
 
 ## -enum-fields

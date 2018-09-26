@@ -7,7 +7,7 @@ old-location: winprog\subscribefeaturestatechangenotification.htm
 tech.root: devnotes
 ms.assetid: 92FABC45-752D-4265-AA21-6A13A15CB64B
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: SubscribeFeatureStateChangeNotification, SubscribeFeatureStateChangeNotification function [Windows API], featurestagingapi/SubscribeFeatureStateChangeNotification, winprog.subscribefeaturestatechangenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

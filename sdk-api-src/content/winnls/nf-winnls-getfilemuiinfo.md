@@ -7,7 +7,7 @@ old-location: intl\getfilemuiinfo.htm
 tech.root: Intl
 ms.assetid: df1eee13-012a-47e6-a6de-8ddb8ecc6036
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: GetFileMUIInfo, GetFileMUIInfo function [Internationalization for Windows Applications], MUI_QUERY_CHECKSUM, MUI_QUERY_LANGUAGE_NAME, MUI_QUERY_RESOURCE_TYPES, MUI_QUERY_TYPE, _win32_GetFileMUIInfo, intl.getfilemuiinfo, winnls/GetFileMUIInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,15 +163,19 @@ For the MUI_QUERY_LANGUAGE_NAME flag, this function retrieves an offset, in byte
 
 The following is sample code that accesses the language name associated with the input file:
 
-
-```cpp
-LPWSTR lpszLang = reinterpret_cast<LPWSTR>(
-        reinterpret_cast<BYTE*>(pFileMUIInfo) +
-        pFileMUIInfo->dwLanguageNameOffset);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPWSTR lpszLang = reinterpret_cast&lt;LPWSTR&gt;(
+        reinterpret_cast&lt;BYTE*&gt;(pFileMUIInfo) +
+        pFileMUIInfo-&gt;dwLanguageNameOffset);
+</pre>
+</td>
+</tr>
+</table></span></div>
 For the MUI_QUERY_RESOURCE_TYPES flag, this function retrieves language-specific resource file information in the following <a href="https://msdn.microsoft.com/4c757d19-ac66-4ba4-a691-f575f61961be">FILEMUIINFO</a> members:
 
 <ul>
@@ -188,57 +192,73 @@ If the input file is an LN file, the function fills in all the above structure m
 </ul>
 The following is sample code that accesses the array of resource identifiers in the LN file.
 
-
-```cpp
-DWORD *pdwTypeID = reinterpret_cast<DWORD *>(
-        reinterpret_cast<BYTE*>(pFileMUIInfo) +
-        pFileMUIInfo->dwTypeIDMainOffset);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD *pdwTypeID = reinterpret_cast&lt;DWORD *&gt;(
+        reinterpret_cast&lt;BYTE*&gt;(pFileMUIInfo) +
+        pFileMUIInfo-&gt;dwTypeIDMainOffset);
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  The lists of language-specific resources are accessed in the same way.</div>
 <div> </div>
 The following is sample code to access the multistring array of resource names in the LN file.
 
-
-```cpp
-LPWSTR lpszNames = reinterpret_cast<LPWSTR>(
-        reinterpret_cast<BYTE*>(pFileMUIInfo) +
-        pFileMUIInfo->dwTypeNameMainOffset);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPWSTR lpszNames = reinterpret_cast&lt;LPWSTR&gt;(
+        reinterpret_cast&lt;BYTE*&gt;(pFileMUIInfo) +
+        pFileMUIInfo-&gt;dwTypeNameMainOffset);
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  The lists of language-specific resources are accessed in the same way.</div>
 <div> </div>
 Each of the code samples uses two reinterpret casts. First the code casts to BYTE* so that the pointer arithmetic for the offset is done in bytes. Then the code casts the resulting pointer to the desired type.
 
 Another approach is to write the following instead of the code shown in the samples. The effect is the same and the choice is strictly one of style.
 
-
-```cpp
-DWORD ix = pFileMUIInfo->dwLanguageNameOffset - 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD ix = pFileMUIInfo-&gt;dwLanguageNameOffset - 
         offsetof(struct _FILEMUIINFO, abBuffer);
-LPWSTR lpszLang = reinterpret_cast<LPWSTR>(&(pFileMUIInfo->abBuffer[ix]));
-
-```
-
-
+LPWSTR lpszLang = reinterpret_cast&lt;LPWSTR&gt;(&amp;(pFileMUIInfo-&gt;abBuffer[ix]));
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-
-```cpp
-[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.Boolean GetFileMUIInfo(
             System.UInt32 dwFlags,
             System.String pcwszFilePath,
             ref FILEMUIINFO pFileMUIInfo,
             ref System.UInt32 pcbFileMUIInfo
             );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

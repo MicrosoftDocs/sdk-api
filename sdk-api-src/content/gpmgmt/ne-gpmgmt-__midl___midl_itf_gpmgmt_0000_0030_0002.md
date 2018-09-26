@@ -53,15 +53,19 @@ req.redist:
 <b>GPMStarterGPOType</b> defines if  the Starter Group Policy object is a system  Starter Group Policy object or a custom Starter Group Policy object.
 
 <b>GPMStarterGPOType</b> defines if   the Starter Group Policy object is a system  Starter Group Policy object or a custom Starter Group Policy object.
-
-```cpp
-typedef enum {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef enum {
         typeSystem = 0,
         typeCustom
-} GPMStarterGPOType;
-```
-
-
+} GPMStarterGPOType;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -enum-fields
 

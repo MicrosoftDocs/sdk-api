@@ -7,7 +7,7 @@ old-location: winprog\_lread.htm
 tech.root: devnotes
 ms.assetid: A5374B2B-12EC-4130-8D21-1801D1D72524
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: "_lread, _lread function [Windows API], winbase/_lread, winprog._lread"
 ms.prod: windows-hardware
 ms.technology: windows-devices

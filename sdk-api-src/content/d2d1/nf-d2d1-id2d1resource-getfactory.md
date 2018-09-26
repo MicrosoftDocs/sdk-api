@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Resource_GetFactory.htm
 tech.root: direct2d
 ms.assetid: 93afc187-d1ef-46f8-98b0-efe31345ae98
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: GetFactory, GetFactory method [Direct2D], GetFactory method [Direct2D],ID2D1Resource interface, ID2D1Resource interface [Direct2D],GetFactory method, ID2D1Resource.GetFactory, ID2D1Resource::GetFactory, d2d1/ID2D1Resource::GetFactory, direct2d.ID2D1Resource_GetFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

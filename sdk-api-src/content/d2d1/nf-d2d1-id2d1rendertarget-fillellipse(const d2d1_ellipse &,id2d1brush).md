@@ -7,7 +7,7 @@ old-location: direct2d\id2d1rendertarget_fillellipse.htm
 tech.root: direct2d
 ms.assetid: 149fb303-d2e8-416c-b28f-8bc5f1482ba6
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: FillEllipse, FillEllipse methods [Direct2D], ID2D1RenderTarget.FillEllipse, ID2D1RenderTarget.FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush), ID2D1RenderTarget::FillEllipse, ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush), d2d1/FillEllipse, direct2d.id2d1rendertarget_fillellipse
 ms.prod: windows-hardware
 ms.technology: windows-devices

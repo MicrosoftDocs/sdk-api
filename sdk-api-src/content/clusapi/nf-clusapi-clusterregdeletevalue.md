@@ -53,7 +53,7 @@ req.redist:
 
 
 Removes a 
-    named value from a <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">cluster database</a> key.
+    named value from a <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> key.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ Pointer to a null-terminated Unicode string containing the name of the value to 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 
@@ -92,24 +92,24 @@ Do not call <b>ClusterRegDeleteValue</b> from the
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367196(v=VS.85).aspx">Close</a>
+<a href="https://msdn.microsoft.com/c7c74440-c98a-4440-8bf4-10ebd1a68608">Close</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa371767(v=VS.85).aspx">Offline</a>
+<a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa371770(v=VS.85).aspx">Online</a>
+<a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa371773(v=VS.85).aspx">Open</a>
+<a href="https://msdn.microsoft.com/0a5c10c5-0380-4638-b49d-396be3b3c0dd">Open</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa372939(v=VS.85).aspx">Terminate</a>
+<a href="https://msdn.microsoft.com/b53ab7db-ed17-4386-8a5f-5d0b0d1cb1b3">Terminate</a>
 </li>
 </ul>
 <b>ClusterRegDeleteValue</b> can be safely called 
      from any other resource DLL entry point function or from a worker thread. For more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -119,7 +119,7 @@ Do not call <b>ClusterRegDeleteValue</b> from the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369004(v=VS.85).aspx">ClusterRegOpenKey</a>
+<a href="https://msdn.microsoft.com/f2cf204e-d02d-40b9-86d7-0262b8cc4db1">ClusterRegOpenKey</a>
  
 
  

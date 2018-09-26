@@ -107,13 +107,17 @@ The output primitive type determines how the tessellator output data is organize
 
 The <b>D3D11_TESSELLATOR_OUTPUT_PRIMITIVE</b>     enumeration is type defined in the  D3D11Shader.h header file as a <a href="https://msdn.microsoft.com/5fdaa41f-0612-4d2e-bb3e-60222f92bc96">D3D_TESSELLATOR_OUTPUT_PRIMITIVE</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
-
-```
-
-typedef D3D_TESSELLATOR_OUTPUT_PRIMITIVE D3D11_TESSELLATOR_OUTPUT_PRIMITIVE;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+typedef D3D_TESSELLATOR_OUTPUT_PRIMITIVE D3D11_TESSELLATOR_OUTPUT_PRIMITIVE;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

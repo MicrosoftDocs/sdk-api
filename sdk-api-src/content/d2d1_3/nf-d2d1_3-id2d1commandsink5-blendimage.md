@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink5_blendimage.htm
 tech.root: direct2d
 ms.assetid: 634027BB-A463-4261-B546-CB6289249BAF
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: BlendImage, BlendImage method [Direct2D], BlendImage method [Direct2D],ID2D1CommandSink5 interface, ID2D1CommandSink5 interface [Direct2D],BlendImage method, ID2D1CommandSink5.BlendImage, ID2D1CommandSink5::BlendImage, d2d1_3/ID2D1CommandSink5::BlendImage, direct2d.id2d1commandsink5_blendimage
 ms.prod: windows-hardware
 ms.technology: windows-devices

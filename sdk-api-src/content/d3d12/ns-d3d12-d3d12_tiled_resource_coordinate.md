@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tiled_resource_coordinate.htm
 tech.root: direct3d12
 ms.assetid: B7C51C7A-8500-4570-99C1-AE51D6A88529
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.keywords: D3D12_TILED_RESOURCE_COORDINATE, D3D12_TILED_RESOURCE_COORDINATE structure, d3d12/D3D12_TILED_RESOURCE_COORDINATE, direct3d12.d3d12_tiled_resource_coordinate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/F770CE6B-DD70-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

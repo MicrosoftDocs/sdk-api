@@ -163,9 +163,13 @@ The <a href="https://msdn.microsoft.com/bdafc4a4-5f3c-4dd5-ba9b-4f6045a82652">Ge
 
 The following example retrieves a unicast IP address entry specified on the command line and prints some values from the retrieved <a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e111229c90">MIB_UNICASTIPADDRESS_ROW</a> structure.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #ifndef UNICODE
 #define UNICODE
 #endif
@@ -174,13 +178,13 @@ The following example retrieves a unicast IP address entry specified on the comm
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include <Windows.h.>
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <ws2ipdef.h>
-#include <iphlpapi.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include &lt;Windows.h.&gt;
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;ws2ipdef.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 // Need to link with Iphlpapi.lib and Ws2_32.lib
 #pragma comment (lib, "iphlpapi.lib")
@@ -205,8 +209,8 @@ int __cdecl wmain(int argc, WCHAR **argv)
     MIB_UNICASTIPADDRESS_ROW ipRow = {0};
     
     // Validate the parameters
-    if (argc < 4) {
-        wprintf(L"usage: %s <AddressFamily> <IPAddress> <InterfaceIndex>\n", argv[0]);
+    if (argc &lt; 4) {
+        wprintf(L"usage: %s &lt;AddressFamily&gt; &lt;IPAddress&gt; &lt;InterfaceIndex&gt;\n", argv[0]);
         wprintf(L"   Gets the UnicastIpAddressEntry for an AddressFamily,\n");
         wprintf(L"     Interface Index, and IP address\n");
         wprintf(L"   Examples\n");
@@ -219,13 +223,13 @@ int __cdecl wmain(int argc, WCHAR **argv)
 
     if (_wtoi(argv[1]) == 4) {
         addressFamily = AF_INET;
-        if (InetPtonW(addressFamily, argv[2], &Ipv4Addr) != 1) {
+        if (InetPtonW(addressFamily, argv[2], &amp;Ipv4Addr) != 1) {
             wprintf(L"Unable to parse IPv4 address string: %s\n", argv[3]);
             exit(1);
         }
     } else if (_wtoi(argv[1]) == 6) {
         addressFamily = AF_INET6;
-        if (InetPton(addressFamily, argv[2], &Ipv6Addr) != 1) {
+        if (InetPton(addressFamily, argv[2], &amp;Ipv6Addr) != 1) {
             wprintf(L"Unable to parse IPv6 address string: %s\n", argv[3]);
             exit(1);
         }
@@ -238,19 +242,19 @@ int __cdecl wmain(int argc, WCHAR **argv)
 
     if (addressFamily == AF_INET) {
         ipRow.Address.si_family = AF_INET;
-        memcpy(&ipRow.Address.Ipv4.sin_addr, &Ipv4Addr, sizeof (IN_ADDR));
+        memcpy(&amp;ipRow.Address.Ipv4.sin_addr, &amp;Ipv4Addr, sizeof (IN_ADDR));
     }
     if (addressFamily == AF_INET6) {
         ipRow.Address.si_family = AF_INET6;
-        memcpy(&ipRow.Address.Ipv6.sin6_addr, &Ipv6Addr, sizeof (IN6_ADDR));
+        memcpy(&amp;ipRow.Address.Ipv6.sin6_addr, &amp;Ipv6Addr, sizeof (IN6_ADDR));
     }
 
-    Result = GetUnicastIpAddressEntry(&ipRow);
+    Result = GetUnicastIpAddressEntry(&amp;ipRow);
     if (Result != NO_ERROR) {
         wprintf(L"GetUnicastIpAddressEntry returned error: %lu\n", Result);
         exit(1);
     }
-    PrintUnicastIpAddress(&ipRow);
+    PrintUnicastIpAddress(&amp;ipRow);
     
     exit(0);
 }
@@ -263,28 +267,28 @@ void PrintUnicastIpAddress(PMIB_UNICASTIPADDRESS_ROW pipRow)
 
     // Print some variables from the rows in the table
     wprintf(L"AddressFamily:\t\t\t ");
-    switch (pipRow->Address.si_family) {
+    switch (pipRow-&gt;Address.si_family) {
     case AF_INET:
         wprintf(L"IPv4\n");
-        if (InetNtop(AF_INET, &pipRow->Address.Ipv4.sin_addr, Ipv4String, 16) !=
+        if (InetNtop(AF_INET, &amp;pipRow-&gt;Address.Ipv4.sin_addr, Ipv4String, 16) !=
             NULL)
             wprintf(L"IPv4 Address:\t\t\t %ws\n", Ipv4String);
         break;
     case AF_INET6:
         wprintf(L"IPv6\n");
-        if (InetNtop(AF_INET6, &pipRow->Address.Ipv6.sin6_addr, Ipv6String, 46)
+        if (InetNtop(AF_INET6, &amp;pipRow-&gt;Address.Ipv6.sin6_addr, Ipv6String, 46)
             != NULL)
             wprintf(L"IPv6 Address:\t\t\t %s\n", Ipv6String);
         break;
     default:
-        wprintf(L"Other: %d\n", pipRow->Address.si_family);
+        wprintf(L"Other: %d\n", pipRow-&gt;Address.si_family);
         break;
     }
 
     wprintf(L"Interface LUID NetLuidIndex:\t %lu\n",
-           pipRow->InterfaceLuid.Info.NetLuidIndex);
+           pipRow-&gt;InterfaceLuid.Info.NetLuidIndex);
     wprintf(L"Interface LUID IfType:\t\t ");
-    switch (pipRow->InterfaceLuid.Info.IfType) {
+    switch (pipRow-&gt;InterfaceLuid.Info.IfType) {
     case IF_TYPE_OTHER:
         wprintf(L"Other\n");
         break;
@@ -313,14 +317,14 @@ void PrintUnicastIpAddress(PMIB_UNICASTIPADDRESS_ROW pipRow)
         wprintf(L"IEEE 1394 (Firewire)\n");
         break;
     default:
-        wprintf(L"Unknown: %d\n", pipRow->InterfaceLuid.Info.IfType);
+        wprintf(L"Unknown: %d\n", pipRow-&gt;InterfaceLuid.Info.IfType);
         break;
     }
 
-    wprintf(L"Interface Index:\t\t %lu\n", pipRow->InterfaceIndex);
+    wprintf(L"Interface Index:\t\t %lu\n", pipRow-&gt;InterfaceIndex);
 
     wprintf(L"Prefix Origin:\t\t\t ");
-    switch (pipRow->PrefixOrigin) {
+    switch (pipRow-&gt;PrefixOrigin) {
     case IpPrefixOriginOther:
         wprintf(L"IpPrefixOriginOther\n");
         break;
@@ -340,12 +344,12 @@ void PrintUnicastIpAddress(PMIB_UNICASTIPADDRESS_ROW pipRow)
         wprintf(L"IpPrefixOriginUnchanged\n");
         break;
     default:
-        wprintf(L"Unknown: %d\n", pipRow->PrefixOrigin);
+        wprintf(L"Unknown: %d\n", pipRow-&gt;PrefixOrigin);
         break;
     }
 
     wprintf(L"Suffix Origin:\t\t\t ");
-    switch (pipRow->SuffixOrigin) {
+    switch (pipRow-&gt;SuffixOrigin) {
     case IpSuffixOriginOther:
         wprintf(L"IpSuffixOriginOther\n");
         break;
@@ -368,26 +372,26 @@ void PrintUnicastIpAddress(PMIB_UNICASTIPADDRESS_ROW pipRow)
         wprintf(L"IpSuffixOriginUnchanged\n");
         break;
     default:
-        wprintf(L"Unknown: %d\n", pipRow->SuffixOrigin);
+        wprintf(L"Unknown: %d\n", pipRow-&gt;SuffixOrigin);
         break;
     }
 
     wprintf(L"Valid Lifetime:\t\t\t 0x%x (%u)\n",
-           pipRow->ValidLifetime, pipRow->ValidLifetime);
+           pipRow-&gt;ValidLifetime, pipRow-&gt;ValidLifetime);
 
     wprintf(L"Preferred Lifetime:\t\t 0x%x (%u)\n",
-           pipRow->PreferredLifetime, pipRow->PreferredLifetime);
+           pipRow-&gt;PreferredLifetime, pipRow-&gt;PreferredLifetime);
 
-    wprintf(L"OnLink PrefixLength:\t\t %lu\n", pipRow->OnLinkPrefixLength);
+    wprintf(L"OnLink PrefixLength:\t\t %lu\n", pipRow-&gt;OnLinkPrefixLength);
 
     wprintf(L"Skip As Source:\t\t\t ");
-    if (pipRow->SkipAsSource)
+    if (pipRow-&gt;SkipAsSource)
         wprintf(L"Yes\n");
     else
         wprintf(L"No\n");
 
     wprintf(L"Dad State:\t\t\t ");
-    switch (pipRow->DadState) {
+    switch (pipRow-&gt;DadState) {
     case IpDadStateInvalid:
         wprintf(L"IpDadStateInvalid\n");
         break;
@@ -404,17 +408,17 @@ void PrintUnicastIpAddress(PMIB_UNICASTIPADDRESS_ROW pipRow)
         wprintf(L"IpDadStatePreferred\n");
         break;
     default:
-        wprintf(L"Unknown: %d\n", pipRow->DadState);
+        wprintf(L"Unknown: %d\n", pipRow-&gt;DadState);
         break;
     }
 
     wprintf(L"\n");
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

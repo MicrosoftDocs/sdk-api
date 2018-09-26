@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_put_destinationtop.htm
 tech.root: DirectShow
 ms.assetid: 254fb104-c080-411d-9795-edcd4da41bdc
 ms.author: windowssdkdev
-ms.date: 08/30/2018
+ms.date: 09/25/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_DestinationTop method, IBasicVideo.put_DestinationTop, IBasicVideo::put_DestinationTop, IBasicVideoput_DestinationTop, control/IBasicVideo::put_DestinationTop, dshow.ibasicvideo_put_destinationtop, put_DestinationTop, put_DestinationTop method [DirectShow], put_DestinationTop method [DirectShow],IBasicVideo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,11 +81,11 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: multimedia\avistreamsampletotime.htm
 tech.root: Multimedia
 ms.assetid: 376819cb-f803-4610-a9e8-29dc7059f203
 ms.author: windowssdkdev
-ms.date: 09/21/2018
+ms.date: 09/25/2018
 ms.keywords: AVIStreamSampleToTime, AVIStreamSampleToTime function [Windows Multimedia], _win32_AVIStreamSampleToTime, multimedia.avistreamsampletotime, vfw/AVIStreamSampleToTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
