@@ -2,7 +2,7 @@
 UID: NA:gdipluscolormatrix
 ms.assetid: 86e3da6b-07f6-3277-ac31-5f9e4617774b
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

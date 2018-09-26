@@ -2,7 +2,7 @@
 UID: TP:inputmsg
 ms.assetid: 815352f7-9437-3a64-b091-0fb601b3368d
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

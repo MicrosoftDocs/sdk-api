@@ -2,7 +2,7 @@
 UID: TP:windowsribbon
 ms.assetid: 4cd0882b-8e17-315a-8b08-7f07ef01a8d7
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:gdipluslinecaps
 ms.assetid: a6576ae2-4880-3293-920e-419821fb5fe2
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

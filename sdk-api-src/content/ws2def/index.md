@@ -2,7 +2,7 @@
 UID: NA:ws2def
 ms.assetid: f1975944-a570-3105-94f3-ebc68542e2f3
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

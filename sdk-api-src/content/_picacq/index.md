@@ -2,7 +2,7 @@
 UID: TP:picacq
 ms.assetid: 86a76f0e-8064-3a99-8f1b-7963c2adaaea
 ms.author: windowssdkdev
-ms.date: 09/25/2018
+ms.date: 09/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
