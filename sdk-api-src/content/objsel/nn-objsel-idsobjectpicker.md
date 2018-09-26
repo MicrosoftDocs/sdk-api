@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IDsObjectPicker</b> interface is used by an application to initialize and display an object picker dialog box. To create an  instance of this interface, call <a href="_com_cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsObjectPicker</b> class identifier as shown below.
+The <b>IDsObjectPicker</b> interface is used by an application to initialize and display an object picker dialog box. To create an  instance of this interface, call <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the <b>CLSID_DsObjectPicker</b> class identifier as shown below.
 
 ```cpp
 HRESULT hr = S_OK;
@@ -117,7 +117,7 @@ calls to <a href="https://msdn.microsoft.com/76192a35-10e1-46e3-8724-7637d47d8ec
 
 
 
-<a href="_com_cocreateinstance">CoCreateInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
 
 
 

@@ -122,7 +122,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/1eeb00a3-d3c5-46f0-95a8-f694f802894b">ICallFrameWalker</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679746(v=VS.85).aspx">ICallFrameWalker</a>
  
 
  

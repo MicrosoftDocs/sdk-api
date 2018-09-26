@@ -79,7 +79,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/4f2e0f96-a471-4883-be41-d93806461020">IEnumGUID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms682393(v=VS.85).aspx">IEnumGUID</a>
  
 
  

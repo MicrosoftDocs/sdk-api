@@ -99,7 +99,7 @@ Creates a VT_VECTOR | VT_I4 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromInt32Vector">InitPropVariantFromInt32Vector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762300(v=VS.85).aspx">InitPropVariantFromInt32Vector</a>.
 
 
 ```cpp
@@ -125,15 +125,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromInt32">InitPropVariantFromInt32</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762299(v=VS.85).aspx">InitPropVariantFromInt32</a>
 
 
 
-<a href="shell.InitVariantFromInt32">InitVariantFromInt32</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762329(v=VS.85).aspx">InitVariantFromInt32</a>
 
 
 
-<a href="shell.PropVariantToInt32Vector">PropVariantToInt32Vector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776551(v=VS.85).aspx">PropVariantToInt32Vector</a>
  
 
  

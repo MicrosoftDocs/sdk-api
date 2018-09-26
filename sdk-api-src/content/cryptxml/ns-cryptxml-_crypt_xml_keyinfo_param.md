@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CRYPT_XML_KEYINFO_PARAM</b> structure is used by the <a href="https://msdn.microsoft.com/38bd365e-bc63-498c-a650-471429f09d37">CryptXmlSign</a> function to specify the members of the <b>KeyInfo</b> element to be encoded.
+The <b>CRYPT_XML_KEYINFO_PARAM</b> structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dd433832(v=VS.85).aspx">CryptXmlSign</a> function to specify the members of the <b>KeyInfo</b> element to be encoded.
 
 
 ## -struct-fields
@@ -70,7 +70,7 @@ A pointer to a null-terminated wide character string that contains the value in 
 
 ### -field SKI
 
-A <a href="https://msdn.microsoft.com/1c2a07b8-f702-47f3-8d4c-6ac0cbc63f0f">CERT_BLOB</a> structure that contains the value of the <b>X509SKI</b> element.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa380238(v=VS.85).aspx">CERT_BLOB</a> structure that contains the value of the <b>X509SKI</b> element.
 
 
 ### -field wszSubjectName
@@ -85,7 +85,7 @@ The number of elements in the array pointed to by the <b>rgCertificate</b> membe
 
 ### -field rgCertificate
 
-A pointer to an array of <a href="https://msdn.microsoft.com/1c2a07b8-f702-47f3-8d4c-6ac0cbc63f0f">CERT_BLOB</a> structures that are used to populate the <b>X509Certificate</b> elements.
+A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Aa380238(v=VS.85).aspx">CERT_BLOB</a> structures that are used to populate the <b>X509Certificate</b> elements.
 
 
 ### -field cCRL
@@ -95,5 +95,5 @@ The number of elements in the array pointed to by the <b>rgCRL</b> member.
 
 ### -field rgCRL
 
-A pointer to an array of <a href="https://msdn.microsoft.com/1c2a07b8-f702-47f3-8d4c-6ac0cbc63f0f">CERT_BLOB</a> structures that are used to populate the <b>X509CRL</b> elements.
+A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Aa380238(v=VS.85).aspx">CERT_BLOB</a> structures that are used to populate the <b>X509CRL</b> elements.
 

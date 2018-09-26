@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Creates a new instance of a <a href="https://msdn.microsoft.com/f022464d-9db6-42c8-a3fb-12c31ec48756">IQueryParser</a> interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
+Creates a new instance of a <a href="https://msdn.microsoft.com/en-us/library/Bb231353(v=VS.85).aspx">IQueryParser</a> interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
 
 
 ## -parameters
@@ -77,14 +77,14 @@ The <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">LA
 
 Type: <b>REFIID</b>
 
-The IID of the <a href="https://msdn.microsoft.com/f022464d-9db6-42c8-a3fb-12c31ec48756">IQueryParser</a> interface implementation.
+The IID of the <a href="https://msdn.microsoft.com/en-us/library/Bb231353(v=VS.85).aspx">IQueryParser</a> interface implementation.
 
 
 ### -param ppQueryParser [out, retval]
 
 Type: <b>void**</b>
 
-Receives a pointer to the newly created parser. The calling application must release it by calling its <a href="_com_IUnknown_Release">IUnknown::Release</a> method.
+Receives a pointer to the newly created parser. The calling application must release it by calling its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
         
 
 
@@ -103,7 +103,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If %LOCALAPPDATA% is not available, then this method fails. You should call <a href="https://msdn.microsoft.com/54cb5501-bb53-4be5-8b0b-a2ea754c778a">IQueryParserManager::SetOption</a> to point to a different folder like %ProgramData%.
+If %LOCALAPPDATA% is not available, then this method fails. You should call <a href="https://msdn.microsoft.com/en-us/library/Bb231350(v=VS.85).aspx">IQueryParserManager::SetOption</a> to point to a different folder like %ProgramData%.
 
 
 

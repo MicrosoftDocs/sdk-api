@@ -79,7 +79,7 @@ This method can return one of these values.
 The description should be limited to four lines of text to fit the description windows on the Snap-in Manager property pages.
 
 Memory for out parameters must be allocated using the COM API function 
-<a href="_com_cotaskmemalloc">CoTaskMemAlloc</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>.
 
 
 

@@ -53,7 +53,7 @@ req.redist:
 ## -description
 
 
-Releases the increment made by a previous call to the <a href="https://msdn.microsoft.com/EFE6E66A-96A3-4B51-92DD-1CE84B1F0185">CoIncrementMTAUsage</a> function.
+Releases the increment made by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/JJ151607(v=VS.85).aspx">CoIncrementMTAUsage</a> function.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Releases the increment made by a previous call to the <a href="https://msdn.micr
 
 ### -param Cookie [in]
 
-A <b>PVOID</b> variable that was set by a previous call to the <a href="https://msdn.microsoft.com/EFE6E66A-96A3-4B51-92DD-1CE84B1F0185">CoIncrementMTAUsage</a> function.
+A <b>PVOID</b> variable that was set by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/JJ151607(v=VS.85).aspx">CoIncrementMTAUsage</a> function.
 
 
 ## -returns
@@ -79,9 +79,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<i>Cookie</i> must be a valid value returned by a successful previous call to the  <a href="https://msdn.microsoft.com/EFE6E66A-96A3-4B51-92DD-1CE84B1F0185">CoIncrementMTAUsage</a> function. If the overall count of MTA usage reaches 0, including both through this API and through the <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a> and <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a> functions, the system frees resources related to MTA support.
+<i>Cookie</i> must be a valid value returned by a successful previous call to the  <a href="https://msdn.microsoft.com/en-us/library/JJ151607(v=VS.85).aspx">CoIncrementMTAUsage</a> function. If the overall count of MTA usage reaches 0, including both through this API and through the <a href="https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx">CoInitializeEx</a> and <a href="https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx">CoUninitialize</a> functions, the system frees resources related to MTA support.
 
-You can call <a href="https://msdn.microsoft.com/EFE6E66A-96A3-4B51-92DD-1CE84B1F0185">CoIncrementMTAUsage</a> from one thread and <b>CoDecrementMTAUsage</b> from another as long as a cookie previously returned by <b>CoIncrementMTAUsage</b> is passed to <b>CoDecrementMTAUsage</b>. 
+You can call <a href="https://msdn.microsoft.com/en-us/library/JJ151607(v=VS.85).aspx">CoIncrementMTAUsage</a> from one thread and <b>CoDecrementMTAUsage</b> from another as long as a cookie previously returned by <b>CoIncrementMTAUsage</b> is passed to <b>CoDecrementMTAUsage</b>. 
 
 Don't call <b>CoDecrementMTAUsage</b> during process shutdown or inside dllmain. You can call <b>CoDecrementMTAUsage</b> before the call to start the shutdown process.
 
@@ -93,7 +93,7 @@ Don't call <b>CoDecrementMTAUsage</b> during process shutdown or inside dllmain.
 
 
 
-<a href="https://msdn.microsoft.com/EFE6E66A-96A3-4B51-92DD-1CE84B1F0185">CoIncrementMTAUsage</a>
+<a href="https://msdn.microsoft.com/en-us/library/JJ151607(v=VS.85).aspx">CoIncrementMTAUsage</a>
  
 
  

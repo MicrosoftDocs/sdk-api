@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The alpha mode of the output of the <a href="https://msdn.microsoft.com/093EEEF1-8C38-414E-8261-58A6C3DD930D">Color matrix effect</a>.
+The alpha mode of the output of the <a href="https://msdn.microsoft.com/en-us/library/Hh706319(v=VS.85).aspx">Color matrix effect</a>.
 
 
 ## -enum-fields

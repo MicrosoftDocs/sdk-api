@@ -57,7 +57,7 @@ req.redist:
 
 Creates a single uninitialized object of the class associated with a specified CLSID.
 
-Call <b>CoCreateInstance</b> when you want to create only one object on the local system. To create a single object on a remote system, call the <a href="https://msdn.microsoft.com/3b414b95-e8d2-42e8-b4f2-5cc5189a3d08">CoCreateInstanceEx</a> function. To create multiple objects based on a single CLSID, call the <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a> function.
+Call <b>CoCreateInstance</b> when you want to create only one object on the local system. To create a single object on a remote system, call the <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. To create multiple objects based on a single CLSID, call the <a href="https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx">CoGetClassObject</a> function.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ The CLSID associated with the data and code that will be used to create the obje
 
 ### -param pUnkOuter [in]
 
-If <b>NULL</b>, indicates that the object is not being created as part of an aggregate. If non-<b>NULL</b>, pointer to the aggregate object's <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface (the controlling <b>IUnknown</b>).
+If <b>NULL</b>, indicates that the object is not being created as part of an aggregate. If non-<b>NULL</b>, pointer to the aggregate object's <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface (the controlling <b>IUnknown</b>).
 
 
 ### -param dwClsContext [in]
@@ -141,7 +141,7 @@ This class cannot be created as part of an aggregate.
 </dl>
 </td>
 <td width="60%">
-The specified class does not implement the requested interface, or the controlling <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> does not expose the requested interface.
+The specified class does not implement the requested interface, or the controlling <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> does not expose the requested interface.
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ The <b>CoCreateInstance</b> function provides a convenient shortcut by connectin
 hresult = pCF-&gt;CreateInstance(pUnkOuter, riid, ppvObj) 
 pCF-&gt;Release(); 
 </code></pre>
-It is convenient to use <b>CoCreateInstance</b> when you need to create only a single instance of an object on the local machine. If you are creating an instance on remote computer, call <a href="https://msdn.microsoft.com/3b414b95-e8d2-42e8-b4f2-5cc5189a3d08">CoCreateInstanceEx</a>. When you are creating multiple instances, it is more efficient to obtain a pointer to the class object's <a href="https://msdn.microsoft.com/f624f833-2b69-43bc-92cd-c4ecbe6051c5">IClassFactory</a> interface and use its methods as needed. In the latter case, you should use the <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a> function.
+It is convenient to use <b>CoCreateInstance</b> when you need to create only a single instance of an object on the local machine. If you are creating an instance on remote computer, call <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a>. When you are creating multiple instances, it is more efficient to obtain a pointer to the class object's <a href="https://msdn.microsoft.com/en-us/library/ms694364(v=VS.85).aspx">IClassFactory</a> interface and use its methods as needed. In the latter case, you should use the <a href="https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx">CoGetClassObject</a> function.
 
 In the <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a> enumeration, you can specify the type of server used to manage the object. The constants can be CLSCTX_INPROC_SERVER, CLSCTX_INPROC_HANDLER, CLSCTX_LOCAL_SERVER, CLSCTX_REMOTE_SERVER or any combination of these values. The constant CLSCTX_ALL is defined as the combination of all four. For more information about the use of one or a combination of these constants, see <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a>.
 
@@ -184,19 +184,19 @@ In the <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e"
 
 
 
-<a href="https://msdn.microsoft.com/3b414b95-e8d2-42e8-b4f2-5cc5189a3d08">CoCreateInstanceEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx">CoGetClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/45d34150-9e0b-4a76-a784-c81434ec73b8">IClassFactory::CreateInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms682215(v=VS.85).aspx">IClassFactory::CreateInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b9b7bcf-f0f0-42c4-945e-63a532640d4b">Instance Creation Helper Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms678507(v=VS.85).aspx">Instance Creation Helper Functions</a>
  
 
  

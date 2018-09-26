@@ -89,12 +89,12 @@ Returns nothing.
 
 All scissor rects must be set atomically as one operation. Any scissor rects not defined by the call are disabled.
 
-The scissor rectangles will only be used if ScissorEnable is set to true in the rasterizer state (see <a href="https://msdn.microsoft.com/53252fef-f557-46d1-b6a7-ccc8a059752a">D3D11_RASTERIZER_DESC</a>).
+The scissor rectangles will only be used if ScissorEnable is set to true in the rasterizer state (see <a href="https://msdn.microsoft.com/en-us/library/Ff476198(v=VS.85).aspx">D3D11_RASTERIZER_DESC</a>).
         
 
 Which scissor rectangle to use is determined by the SV_ViewportArrayIndex semantic output by a geometry shader (see shader semantic syntax). If a geometry shader does not make use of the SV_ViewportArrayIndex semantic then Direct3D will use the first scissor rectangle in the array.
 
-Each scissor rectangle in the array corresponds to a viewport in an array of viewports (see <a href="https://msdn.microsoft.com/7326e9a8-edfa-4e5a-a29e-fe7c54a055f5">ID3D11DeviceContext::RSSetViewports</a>).
+Each scissor rectangle in the array corresponds to a viewport in an array of viewports (see <a href="https://msdn.microsoft.com/en-us/library/Ff476480(v=VS.85).aspx">ID3D11DeviceContext::RSSetViewports</a>).
         
 
 <b>Windows Phone 8:
@@ -109,7 +109,7 @@ Each scissor rectangle in the array corresponds to a viewport in an array of vie
 
 
 
-<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
  
 
  
