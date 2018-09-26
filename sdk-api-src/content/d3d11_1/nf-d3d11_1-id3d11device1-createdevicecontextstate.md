@@ -86,13 +86,9 @@ A pointer to an array of <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-
               Unlike <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a>, you can't set <i>pFeatureLevels</i> to <b>NULL</b> because  there is no default feature level array.
             
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>{
+
+```
+{
     D3D_FEATURE_LEVEL_11_1,
     D3D_FEATURE_LEVEL_11_0,
     D3D_FEATURE_LEVEL_10_1,
@@ -101,10 +97,10 @@ A pointer to an array of <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-
     D3D_FEATURE_LEVEL_9_2,
     D3D_FEATURE_LEVEL_9_1,
 };
-          </pre>
-</td>
-</tr>
-</table></span></div>
+          
+```
+
+
 
 ### -param FeatureLevels
 

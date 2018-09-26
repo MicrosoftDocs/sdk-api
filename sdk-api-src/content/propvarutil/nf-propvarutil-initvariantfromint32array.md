@@ -101,25 +101,21 @@ Creates a VT_ARRAY | VT_I4 variant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromInt32Array">InitVariantFromInt32Array</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LONG rgLongs[] = {4, 2};
+
+```cpp
+LONG rgLongs[] = {4, 2};
 VARIANT var;
 
-HRESULT hr = InitVariantFromInt32Array(rgLongs, ARRAYSIZE(rgLongs), &amp;var);
+HRESULT hr = InitVariantFromInt32Array(rgLongs, ARRAYSIZE(rgLongs), &var);
 
 if (SUCCEEDED(hr))                            
 {
     // var now is valid and has type VT_ARRAY | VT_I4.
-    VariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&propvar);
+}
+```
+
+
 
 
 

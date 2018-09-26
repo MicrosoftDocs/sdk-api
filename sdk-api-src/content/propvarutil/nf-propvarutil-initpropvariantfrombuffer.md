@@ -101,29 +101,25 @@ Creates a VT_VECTOR | VT_UI1 propvariant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromBuffer">InitPropVariantFromBuffer</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// void *pv;
+
+```cpp
+// void *pv;
 // UINT cb;
 // Assume variable pv and cb are initialized and valid. pv points to a buffer  
 // and cb contains the size of the buffer in bytes.
 PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromBuffer(pv, cb, &amp;propvar);
+HRESULT hr = InitPropVariantFromBuffer(pv, cb, &propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_VECTOR | VT_UI1.
  
-    PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    PropVariantClear(&propvar);
+}
+```
+
+
 
 
 

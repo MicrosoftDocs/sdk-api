@@ -130,13 +130,9 @@ If there is an error during the creation and initialization of storage adapter r
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>/////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterAttach
 //
@@ -163,8 +159,8 @@ StorageAdapterAttach(
         goto cleanup;
     }
 
-    if (Pipeline-&gt;StorageContext != NULL ||
-        Pipeline-&gt;StorageHandle != INVALID_HANDLE_VALUE)
+    if (Pipeline->StorageContext != NULL ||
+        Pipeline->StorageHandle != INVALID_HANDLE_VALUE)
     { 
         // The pipeline state is not valid. This function should never
         // be called if the pipeline already contains a storage context
@@ -188,7 +184,7 @@ StorageAdapterAttach(
     // in a known state.
     // The result set is attached to the storage context so that it can persist from
     // one storage adapter call to the next.  
-    hr = _ResultSetInitialize(&amp;newContext-&gt;ResultSet);
+    hr = _ResultSetInitialize(&newContext->ResultSet);
     if (FAILED(hr))
     {
         goto cleanup;
@@ -199,23 +195,23 @@ StorageAdapterAttach(
 
     // If initialization completes successfully, attach the context to the 
     // processing pipeline of the biometric unit.
-    Pipeline-&gt;StorageContext = newContext;
+    Pipeline->StorageContext = newContext;
     newContext = NULL;
 
 cleanup:
 
-    if (FAILED(hr) &amp;&amp; newContext != NULL)
+    if (FAILED(hr) && newContext != NULL)
     {
-        _ResultSetCleanup(&amp;newContext-&gt;ResultSet);
+        _ResultSetCleanup(&newContext->ResultSet);
         _AdapterRelease( newContext );
         newContext = NULL;
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

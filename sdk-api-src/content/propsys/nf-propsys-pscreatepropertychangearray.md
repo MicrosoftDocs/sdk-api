@@ -131,23 +131,19 @@ The parameters are tied together by their index value. For instance, for propert
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSCreatePropertyChangeArray">PSCreatePropertyChangeArray</a> to set the <a href="shell.props_System_Comment">Comment</a> property to "Fun" and <a href="shell.props_System_Rating">Rating</a> to 4 on one or more files.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// IFileOperation *pfo;
+
+```cpp
+// IFileOperation *pfo;
 // Assume variable pfo has been initialized by calling SetOperationFlags, 
 // ApplyPropertiesToItems, and SetProgressMessage as appropriate.
  
 PROPVARIANT rgpropvar[2] = {0};
 
-HRESULT hr = InitPropVariantFromString(L"Fun", &amp;rgpropvar[0]);
+HRESULT hr = InitPropVariantFromString(L"Fun", &rgpropvar[0]);
 
 if (SUCCEEDED(hr))
 {
-    hr = InitPropVariantFromUInt32(RATING_FOUR_STARS_SET, &amp;rgpropvar[1]);
+    hr = InitPropVariantFromUInt32(RATING_FOUR_STARS_SET, &rgpropvar[1]);
 
     if (SUCCEEDED(hr))
     {
@@ -155,24 +151,24 @@ if (SUCCEEDED(hr))
         PKA_FLAGS rgflags[2] = {PKA_SET, PKA_SET};
         IPropertyChangeArray *pChangeArray;
 
-        hr = PSCreatePropertyChangeArray(rgkey, rgflags, rgpropvar, 2, IID_PPV_ARGS(&amp;pChangeArray));
+        hr = PSCreatePropertyChangeArray(rgkey, rgflags, rgpropvar, 2, IID_PPV_ARGS(&pChangeArray));
 
         if (SUCCEEDED(hr))
         {
-            hr = pfo-&gt;SetProperties(pChangeArray);
+            hr = pfo->SetProperties(pChangeArray);
 
             if (SUCCEEDED(hr))
             {
-                hr = pfo-&gt;PerformOperations();
+                hr = pfo->PerformOperations();
             }
-            pChangeArray-&gt;Release();
+            pChangeArray->Release();
         }
     }
     ClearPropVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

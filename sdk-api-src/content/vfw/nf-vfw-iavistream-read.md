@@ -112,21 +112,17 @@ Returns AVIERR_OK if successful or AVIERR_BUFFERTOOSMALL if the buffer is not la
 
 For handlers written in C++, <b>Read</b> has the following syntax:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT Read(LONG lStart, LONG lSamples, 
     LPVOID lpBuffer, LONG cbBuffer, 
     LONG *plBytes, LONG *plSamples); 
  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

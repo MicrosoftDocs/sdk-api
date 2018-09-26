@@ -127,13 +127,9 @@ The icon should be 256 × 256 pixels with no alpha channel.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PBYTE    pbIcon = NULL;
+
+```cpp
+PBYTE    pbIcon = NULL;
 DWORD    cbIcon = SCARD_AUTOALLOCATE;
 DWORD    i;
 LONG     lReturn;
@@ -143,8 +139,8 @@ LPTSTR   szReaderName = "USB Smart Card Reader 0";
 // hContext was set by a previous call to SCardEstablishContext.
 lReturn = SCardGetReaderIcon(hContext,
                          szReaderName,
-                         (PBYTE)&amp;pbIcon,
-                         &amp;cbIcon);
+                         (PBYTE)&pbIcon,
+                         &cbIcon);
 
 if ( SCARD_S_SUCCESS != lReturn )
 {
@@ -156,9 +152,9 @@ else
     // Free the memory when done. 
     lReturn = SCardFreeMemory(hContext, pbIcon);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

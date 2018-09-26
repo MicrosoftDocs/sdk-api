@@ -54,22 +54,18 @@ Retrieves the geometry information for the device.
 
 To perform this operation, call the 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
+
+```cpp
+BOOL DeviceIoControl(
   (HANDLE) hDevice,                // handle to device
   IOCTL_STORAGE_GET_MEDIA_TYPES,   // dwIoControlCodeNULL,                            // lpInBuffer0,                               // nInBufferSize(LPVOID) lpOutBuffer,            // output buffer
   (DWORD) nOutBufferSize,          // size of output buffer
   (LPDWORD) lpBytesReturned,       // number of bytes returned
   (LPOVERLAPPED) lpOverlapped      // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
+
 
 ## -ioctlparameters
 

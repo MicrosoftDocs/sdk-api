@@ -73,16 +73,12 @@ The semantic index for the element. A semantic index modifies a semantic, with a
         case where there is more than one element with the same semantic. For example, a 4x4 matrix would have four components each with the semantic 
         name 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>matrix</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+matrix
+```
+
+
 , however each of the four component would have different semantic indices (0, 1, 2, and 3).
 
 

@@ -89,13 +89,9 @@ Graphics apps can use the DXGI API to retrieve an accurate set of graphics memor
 <li>
 Graphics driver model determination —Because DXGI is only available on systems with WDDM drivers, the app must first confirm the driver model by using the following API.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 HasWDDMDriver()
 {
     LPDIRECT3DCREATE9EX pD3D9Create9Ex = NULL;
@@ -115,33 +111,29 @@ HasWDDMDriver()
 
     return pD3D9Create9Ex != NULL;
 }
-      </pre>
-</td>
-</tr>
-</table></span></div>
+      
+```
+
+
 </li>
 <li>
 Retrieval of graphics memory values.—After the app determines the driver model to be WDDM, the app can use the Direct3D 10 or later API and DXGI to get the amount of graphics memory. 
       After you create a Direct3D device, use this code to obtain 
       a <a href="https://msdn.microsoft.com/df39ce37-e1ed-40f3-bfb0-3f7eddf4ec19">DXGI_ADAPTER_DESC</a> structure that contains the amount of available graphics memory.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 IDXGIDevice * pDXGIDevice;
-hr = g_pd3dDevice-&gt;QueryInterface(__uuidof(IDXGIDevice), (void **)&amp;pDXGIDevice);
+hr = g_pd3dDevice->QueryInterface(__uuidof(IDXGIDevice), (void **)&pDXGIDevice);
 IDXGIAdapter * pDXGIAdapter;
-pDXGIDevice-&gt;GetAdapter(&amp;pDXGIAdapter);
+pDXGIDevice->GetAdapter(&pDXGIAdapter);
 DXGI_ADAPTER_DESC adapterDesc;
-pDXGIAdapter-&gt;GetDesc(&amp;adapterDesc);
-      </pre>
-</td>
-</tr>
-</table></span></div>
+pDXGIAdapter->GetDesc(&adapterDesc);
+      
+```
+
+
 </li>
 </ul>
 

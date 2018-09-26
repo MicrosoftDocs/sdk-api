@@ -159,13 +159,9 @@ To remove a smart card, use
 
 The following example shows how to introduce a card type. The example assumes that hContext is a valid handle obtained from a previous call to the <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>GUID  MyGuid = { 0xABCDEF00,
+
+```cpp
+GUID  MyGuid = { 0xABCDEF00,
                  0xABCD,
                  0xABCD,
                  0xAA, 0xBB, 0xCC, 0xDD,
@@ -178,7 +174,7 @@ LONG            lReturn;
 
 lReturn = SCardIntroduceCardType(hContext, 
                                  L"MyCardName",
-                                 &amp;MyGuid,
+                                 &MyGuid,
                                  NULL,    // No interface array
                                  0,       // Interface count = 0
                                  MyATR,
@@ -186,10 +182,10 @@ lReturn = SCardIntroduceCardType(hContext,
                                  sizeof(MyATR));
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardIntroduceCardType\n");
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

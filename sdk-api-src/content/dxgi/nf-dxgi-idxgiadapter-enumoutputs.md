@@ -106,25 +106,21 @@ Enumerating Outputs
 
 Here is an example of how to use <b>EnumOutputs</b> to enumerate all the outputs on an adapter:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 UINT i = 0;
 IDXGIOutput * pOutput;
-std::vector&lt;IDXGIOutput*&gt; vOutputs;
-while(pAdapter-&gt;EnumOutputs(i, &amp;pOutput) != DXGI_ERROR_NOT_FOUND)
+std::vector<IDXGIOutput*> vOutputs;
+while(pAdapter->EnumOutputs(i, &pOutput) != DXGI_ERROR_NOT_FOUND)
 {
     vOutputs.push_back(pOutput);
     ++i;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <div class="code"></div>
 
 

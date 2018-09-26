@@ -82,28 +82,24 @@ You can call <b>GetStatus</b> to determine whether your application is running u
 The following code shows how to use <b>GetStatus</b>.
           
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 #ifdef DEVELOPMENT_BUILD
-    if ( pPerf-&gt;GetStatus() )
+    if ( pPerf->GetStatus() )
         m_MakeD3DAnnotationCalls = true;
 #endif
 
 …
 
    if ( m_ MakeD3DAnnotationCalls )
-        pPerf-&gt;BeginEvent(L“Drawing Ocean”);
+        pPerf->BeginEvent(L“Drawing Ocean”);
    MyDrawOceanRoutine();
 
-          </pre>
-</td>
-</tr>
-</table></span></div>
+          
+```
+
+
 <div class="code"></div>
 
 

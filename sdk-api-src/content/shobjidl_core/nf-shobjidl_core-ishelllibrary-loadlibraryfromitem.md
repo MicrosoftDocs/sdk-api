@@ -96,13 +96,9 @@ If there is no existing library object, <a href="https://msdn.microsoft.com/9692
 
 The following code example shows the helper function <a href="https://msdn.microsoft.com/9692f9d1-1504-43d0-9eb1-3759a8e2b42d">SHLoadLibraryFromItem</a>, which wraps this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 // from shobjidl.h
 //
 __inline HRESULT SHLoadLibraryFromItem(
@@ -119,32 +115,28 @@ __inline HRESULT SHLoadLibraryFromItem(
       CLSID_ShellLibrary, 
       NULL, 
       CLSCTX_INPROC_SERVER, 
-      IID_PPV_ARGS(&amp;plib));
+      IID_PPV_ARGS(&plib));
 
     if (SUCCEEDED(hr))
     {
-        hr = plib-&gt;LoadLibraryFromItem (psiLibrary, grfMode);
+        hr = plib->LoadLibraryFromItem (psiLibrary, grfMode);
         if (SUCCEEDED(hr))
         {
-            hr = plib-&gt;QueryInterface (riid, ppv);
+            hr = plib->QueryInterface (riid, ppv);
         }
-        plib-&gt;Release();
+        plib->Release();
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following code example shows the helper function <a href="https://msdn.microsoft.com/49433938-d31e-49f8-9dc7-3df5fb3bfcad">SHLoadLibraryFromParsingName</a>, which wraps this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 // from shobjidl.h
 //
 __inline HRESULT SHLoadLibraryFromParsingName(
@@ -159,19 +151,19 @@ __inline HRESULT SHLoadLibraryFromParsingName(
     HRESULT hr = SHCreateItemFromParsingName (
       pszParsingName, 
       NULL, 
-      IID_PPV_ARGS(&amp;psiLibrary));
+      IID_PPV_ARGS(&psiLibrary));
 
     if (SUCCEEDED(hr))
     {
         hr = SHLoadLibraryFromItem (psiLibrary, grfMode, riid, ppv);
-        psiLibrary-&gt;Release();
+        psiLibrary->Release();
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

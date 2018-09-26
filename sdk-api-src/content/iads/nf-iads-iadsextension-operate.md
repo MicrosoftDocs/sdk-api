@@ -106,13 +106,9 @@ The aggregator will ignore the <b>E_FAIL</b> and <b>E_NOTIMPL</b> return values.
 
 The following C/C++ code example shows a generic implementation.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHOD(Operate)(ULONG dwCode, VARIANT varData1, VARIANT varData2, VARIANT varData3)
+
+```cpp
+STDMETHOD(Operate)(ULONG dwCode, VARIANT varData1, VARIANT varData2, VARIANT varData3)
 {
    HRESULT hr = S_OK;
    switch (dwCode) 
@@ -127,10 +123,10 @@ The following C/C++ code example shows a generic implementation.
       break;
     }        
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

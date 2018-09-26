@@ -103,29 +103,25 @@ Creates a VT_LPWSTR propvariant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromStrRet">InitPropVariantFromStrRet</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// STRRET strret;
+
+```cpp
+// STRRET strret;
 // PCUITEMID_CHILD pidl;
 // Assume variables strret and pidl are initialized and valid.
 PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromStrRet(strret, pidl, &amp;propvar);
+HRESULT hr = InitPropVariantFromStrRet(strret, pidl, &propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_LPWSTR.
-    PropVariantClear(&amp;propvar);
+    PropVariantClear(&propvar);
     
     // Any allocated memory associated with strret has been freed.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -120,21 +120,17 @@ When using the HTML Help API, set the stack size of the hosting executable to at
 
 The following example calls the <a href="https://msdn.microsoft.com/EE933BFD-0C55-47ef-B90B-30250A096CEF">HH_DISPLAY_TOPIC</a> command to open the help file named Help.chm and display its default topic in the help window named Mainwin. Generally, the help window specified in this command is a standard <a href="https://msdn.microsoft.com/9865D3D7-351D-4df6-B1BC-DAF2D725D298">HTML Help Viewer</a>. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HWND hwnd =
+
+```
+HWND hwnd =
    HtmlHelp(
             GetDesktopWindow(),
-            "c:\\Help.chm::/Intro.htm&gt;Mainwin",
+            "c:\\Help.chm::/Intro.htm>Mainwin",
             HH_DISPLAY_TOPIC,
-            NULL) ;</pre>
-</td>
-</tr>
-</table></span></div>
+            NULL) ;
+```
+
+
 
 
 

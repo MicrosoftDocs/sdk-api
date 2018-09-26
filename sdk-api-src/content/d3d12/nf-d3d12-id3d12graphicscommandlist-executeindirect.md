@@ -197,84 +197,76 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
          
         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Data structure to match the command signature used for ExecuteIndirect.
+
+```cpp
+// Data structure to match the command signature used for ExecuteIndirect.
 struct IndirectCommand
 {
     D3D12_GPU_VIRTUAL_ADDRESS cbv;
     D3D12_DRAW_ARGUMENTS drawArguments;
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The call to <b>ExecuteIndirect</b> is near the end of this listing, below the comment "Draw the triangles that have not been culled."
         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Fill the command list with all the render commands and dependent state.
+
+```cpp
+// Fill the command list with all the render commands and dependent state.
 void D3D12ExecuteIndirect::PopulateCommandLists()
 {
     // Command list allocators can only be reset when the associated 
     // command lists have finished execution on the GPU; apps should use 
     // fences to determine GPU execution progress.
-    ThrowIfFailed(m_computeCommandAllocators[m_frameIndex]-&gt;Reset());
-    ThrowIfFailed(m_commandAllocators[m_frameIndex]-&gt;Reset());
+    ThrowIfFailed(m_computeCommandAllocators[m_frameIndex]->Reset());
+    ThrowIfFailed(m_commandAllocators[m_frameIndex]->Reset());
 
     // However, when ExecuteCommandList() is called on a particular command 
     // list, that command list can then be reset at any time and must be before 
     // re-recording.
-    ThrowIfFailed(m_computeCommandList-&gt;Reset(m_computeCommandAllocators[m_frameIndex].Get(), m_computeState.Get()));
-    ThrowIfFailed(m_commandList-&gt;Reset(m_commandAllocators[m_frameIndex].Get(), m_pipelineState.Get()));
+    ThrowIfFailed(m_computeCommandList->Reset(m_computeCommandAllocators[m_frameIndex].Get(), m_computeState.Get()));
+    ThrowIfFailed(m_commandList->Reset(m_commandAllocators[m_frameIndex].Get(), m_pipelineState.Get()));
 
     // Record the compute commands that will cull triangles and prevent them from being processed by the vertex shader.
     if (m_enableCulling)
     {
         UINT frameDescriptorOffset = m_frameIndex * CbvSrvUavDescriptorCountPerFrame;
-        D3D12_GPU_DESCRIPTOR_HANDLE cbvSrvUavHandle = m_cbvSrvUavHeap-&gt;GetGPUDescriptorHandleForHeapStart();
+        D3D12_GPU_DESCRIPTOR_HANDLE cbvSrvUavHandle = m_cbvSrvUavHeap->GetGPUDescriptorHandleForHeapStart();
 
-        m_computeCommandList-&gt;SetComputeRootSignature(m_computeRootSignature.Get());
+        m_computeCommandList->SetComputeRootSignature(m_computeRootSignature.Get());
 
         ID3D12DescriptorHeap* ppHeaps[] = { m_cbvSrvUavHeap.Get() };
-        m_computeCommandList-&gt;SetDescriptorHeaps(_countof(ppHeaps), ppHeaps);
+        m_computeCommandList->SetDescriptorHeaps(_countof(ppHeaps), ppHeaps);
 
-        m_computeCommandList-&gt;SetComputeRootDescriptorTable(
+        m_computeCommandList->SetComputeRootDescriptorTable(
             SrvUavTable,
             CD3DX12_GPU_DESCRIPTOR_HANDLE(cbvSrvUavHandle, CbvSrvOffset + frameDescriptorOffset, m_cbvSrvUavDescriptorSize));
 
-        m_computeCommandList-&gt;SetComputeRoot32BitConstants(RootConstants, 4, reinterpret_cast&lt;void*&gt;(&amp;m_csRootConstants), 0);
+        m_computeCommandList->SetComputeRoot32BitConstants(RootConstants, 4, reinterpret_cast<void*>(&m_csRootConstants), 0);
 
         // Reset the UAV counter for this frame.
-        m_computeCommandList-&gt;CopyBufferRegion(m_processedCommandBuffers[m_frameIndex].Get(), CommandBufferSizePerFrame, m_processedCommandBufferCounterReset.Get(), 0, sizeof(UINT));
+        m_computeCommandList->CopyBufferRegion(m_processedCommandBuffers[m_frameIndex].Get(), CommandBufferSizePerFrame, m_processedCommandBufferCounterReset.Get(), 0, sizeof(UINT));
 
         D3D12_RESOURCE_BARRIER barrier = CD3DX12_RESOURCE_BARRIER::Transition(m_processedCommandBuffers[m_frameIndex].Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_UNORDERED_ACCESS);
-        m_computeCommandList-&gt;ResourceBarrier(1, &amp;barrier);
+        m_computeCommandList->ResourceBarrier(1, &barrier);
 
-        m_computeCommandList-&gt;Dispatch(static_cast&lt;UINT&gt;(ceil(TriangleCount / float(ComputeThreadBlockSize))), 1, 1);
+        m_computeCommandList->Dispatch(static_cast<UINT>(ceil(TriangleCount / float(ComputeThreadBlockSize))), 1, 1);
     }
 
-    ThrowIfFailed(m_computeCommandList-&gt;Close());
+    ThrowIfFailed(m_computeCommandList->Close());
 
     // Record the rendering commands.
     {
         // Set necessary state.
-        m_commandList-&gt;SetGraphicsRootSignature(m_rootSignature.Get());
+        m_commandList->SetGraphicsRootSignature(m_rootSignature.Get());
 
         ID3D12DescriptorHeap* ppHeaps[] = { m_cbvSrvUavHeap.Get() };
-        m_commandList-&gt;SetDescriptorHeaps(_countof(ppHeaps), ppHeaps);
+        m_commandList->SetDescriptorHeaps(_countof(ppHeaps), ppHeaps);
 
-        m_commandList-&gt;RSSetViewports(1, &amp;m_viewport);
-        m_commandList-&gt;RSSetScissorRects(1, m_enableCulling ? &amp;m_cullingScissorRect : &amp;m_scissorRect);
+        m_commandList->RSSetViewports(1, &m_viewport);
+        m_commandList->RSSetScissorRects(1, m_enableCulling ? &m_cullingScissorRect : &m_scissorRect);
 
         // Indicate that the command buffer will be used for indirect drawing
         // and that the back buffer will be used as a render target.
@@ -289,24 +281,24 @@ void D3D12ExecuteIndirect::PopulateCommandLists()
                 D3D12_RESOURCE_STATE_RENDER_TARGET)
         };
 
-        m_commandList-&gt;ResourceBarrier(_countof(barriers), barriers);
+        m_commandList->ResourceBarrier(_countof(barriers), barriers);
 
-        CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap-&gt;GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
-        CD3DX12_CPU_DESCRIPTOR_HANDLE dsvHandle(m_dsvHeap-&gt;GetCPUDescriptorHandleForHeapStart());
-        m_commandList-&gt;OMSetRenderTargets(1, &amp;rtvHandle, FALSE, &amp;dsvHandle);
+        CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap->GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
+        CD3DX12_CPU_DESCRIPTOR_HANDLE dsvHandle(m_dsvHeap->GetCPUDescriptorHandleForHeapStart());
+        m_commandList->OMSetRenderTargets(1, &rtvHandle, FALSE, &dsvHandle);
 
         // Record commands.
         const float clearColor[] = { 0.0f, 0.2f, 0.4f, 1.0f };
-        m_commandList-&gt;ClearRenderTargetView(rtvHandle, clearColor, 0, nullptr);
-        m_commandList-&gt;ClearDepthStencilView(dsvHandle, D3D12_CLEAR_FLAG_DEPTH, 1.0f, 0, 0, nullptr);
+        m_commandList->ClearRenderTargetView(rtvHandle, clearColor, 0, nullptr);
+        m_commandList->ClearDepthStencilView(dsvHandle, D3D12_CLEAR_FLAG_DEPTH, 1.0f, 0, 0, nullptr);
 
-        m_commandList-&gt;IASetPrimitiveTopology(D3D_PRIMITIVE_TOPOLOGY_TRIANGLESTRIP);
-        m_commandList-&gt;IASetVertexBuffers(0, 1, &amp;m_vertexBufferView);
+        m_commandList->IASetPrimitiveTopology(D3D_PRIMITIVE_TOPOLOGY_TRIANGLESTRIP);
+        m_commandList->IASetVertexBuffers(0, 1, &m_vertexBufferView);
 
         if (m_enableCulling)
         {
             // Draw the triangles that have not been culled.
-            m_commandList-&gt;ExecuteIndirect(
+            m_commandList->ExecuteIndirect(
                 m_commandSignature.Get(),
                 TriangleCount,
                 m_processedCommandBuffers[m_frameIndex].Get(),
@@ -317,7 +309,7 @@ void D3D12ExecuteIndirect::PopulateCommandLists()
         else
         {
             // Draw all of the triangles.
-            m_commandList-&gt;ExecuteIndirect(
+            m_commandList->ExecuteIndirect(
                 m_commandSignature.Get(),
                 TriangleCount,
                 m_commandBuffer.Get(),
@@ -333,15 +325,15 @@ void D3D12ExecuteIndirect::PopulateCommandLists()
         barriers[1].Transition.StateBefore = D3D12_RESOURCE_STATE_RENDER_TARGET;
         barriers[1].Transition.StateAfter = D3D12_RESOURCE_STATE_PRESENT;
 
-        m_commandList-&gt;ResourceBarrier(_countof(barriers), barriers);
+        m_commandList->ResourceBarrier(_countof(barriers), barriers);
 
-        ThrowIfFailed(m_commandList-&gt;Close());
+        ThrowIfFailed(m_commandList->Close());
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 

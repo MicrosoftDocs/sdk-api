@@ -163,19 +163,15 @@ For the MUI_QUERY_LANGUAGE_NAME flag, this function retrieves an offset, in byte
 
 The following is sample code that accesses the language name associated with the input file:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPWSTR lpszLang = reinterpret_cast&lt;LPWSTR&gt;(
-        reinterpret_cast&lt;BYTE*&gt;(pFileMUIInfo) +
-        pFileMUIInfo-&gt;dwLanguageNameOffset);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+LPWSTR lpszLang = reinterpret_cast<LPWSTR>(
+        reinterpret_cast<BYTE*>(pFileMUIInfo) +
+        pFileMUIInfo->dwLanguageNameOffset);
+
+```
+
+
 For the MUI_QUERY_RESOURCE_TYPES flag, this function retrieves language-specific resource file information in the following <a href="https://msdn.microsoft.com/4c757d19-ac66-4ba4-a691-f575f61961be">FILEMUIINFO</a> members:
 
 <ul>
@@ -192,73 +188,57 @@ If the input file is an LN file, the function fills in all the above structure m
 </ul>
 The following is sample code that accesses the array of resource identifiers in the LN file.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD *pdwTypeID = reinterpret_cast&lt;DWORD *&gt;(
-        reinterpret_cast&lt;BYTE*&gt;(pFileMUIInfo) +
-        pFileMUIInfo-&gt;dwTypeIDMainOffset);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+DWORD *pdwTypeID = reinterpret_cast<DWORD *>(
+        reinterpret_cast<BYTE*>(pFileMUIInfo) +
+        pFileMUIInfo->dwTypeIDMainOffset);
+
+```
+
+
 <div class="alert"><b>Note</b>  The lists of language-specific resources are accessed in the same way.</div>
 <div> </div>
 The following is sample code to access the multistring array of resource names in the LN file.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPWSTR lpszNames = reinterpret_cast&lt;LPWSTR&gt;(
-        reinterpret_cast&lt;BYTE*&gt;(pFileMUIInfo) +
-        pFileMUIInfo-&gt;dwTypeNameMainOffset);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+LPWSTR lpszNames = reinterpret_cast<LPWSTR>(
+        reinterpret_cast<BYTE*>(pFileMUIInfo) +
+        pFileMUIInfo->dwTypeNameMainOffset);
+
+```
+
+
 <div class="alert"><b>Note</b>  The lists of language-specific resources are accessed in the same way.</div>
 <div> </div>
 Each of the code samples uses two reinterpret casts. First the code casts to BYTE* so that the pointer arithmetic for the offset is done in bytes. Then the code casts the resulting pointer to the desired type.
 
 Another approach is to write the following instead of the code shown in the samples. The effect is the same and the choice is strictly one of style.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD ix = pFileMUIInfo-&gt;dwLanguageNameOffset - 
+
+```cpp
+DWORD ix = pFileMUIInfo->dwLanguageNameOffset - 
         offsetof(struct _FILEMUIINFO, abBuffer);
-LPWSTR lpszLang = reinterpret_cast&lt;LPWSTR&gt;(&amp;(pFileMUIInfo-&gt;abBuffer[ix]));
-</pre>
-</td>
-</tr>
-</table></span></div>
+LPWSTR lpszLang = reinterpret_cast<LPWSTR>(&(pFileMUIInfo->abBuffer[ix]));
+
+```
+
+
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+
+```cpp
+[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.Boolean GetFileMUIInfo(
             System.UInt32 dwFlags,
             System.String pcwszFilePath,
             ref FILEMUIINFO pFileMUIInfo,
             ref System.UInt32 pcbFileMUIInfo
             );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

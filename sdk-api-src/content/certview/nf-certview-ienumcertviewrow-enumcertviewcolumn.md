@@ -99,25 +99,21 @@ To reference a different row, call one of the following methods to navigate thro
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW
+
+```cpp
+// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW
 HRESULT               hr;
 LONG                  Index;
 IEnumCERTVIEWCOLUMN * pEnumCol = NULL;
 // obtain enumerator for columns
-hr = pEnumRow-&gt;EnumCertViewColumn(&amp;pEnumCol);
+hr = pEnumRow->EnumCertViewColumn(&pEnumCol);
 if ( FAILED( hr ))
 {
     printf("Failed EnumCertViewColumn - %x\n", hr );
     goto error;
 }
 // enumerate each column
-while (S_OK == pEnumCol-&gt;Next(&amp;Index))
+while (S_OK == pEnumCol->Next(&Index))
 {
     // Use this column as needed.
 }
@@ -125,10 +121,10 @@ error:
 
 // Free resources.
 if ( NULL != pEnumCol )
-    pEnumCol-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+    pEnumCol->Release();
+```
+
+
 
 
 

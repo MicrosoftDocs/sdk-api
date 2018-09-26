@@ -130,13 +130,9 @@ For more information about graphics containers, see <a href="https://msdn.micros
 The following example calls the <b>Graphics::BeginContainer</b> method to create a graphics container. The code specifies a transformation for the container by passing two rectangles to the <b>Graphics::BeginContainer</b> method. The code calls 
 						<a href="https://msdn.microsoft.com/77f8e3d0-56f4-4fd5-b18c-b4734e98a987">Graphics::FillEllipse</a> twice: once inside the container and once outside the container (after the call to <a href="https://msdn.microsoft.com/431f2d85-ae7e-49e5-9240-00dd242b7390">Graphics::EndContainer</a>).
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_BeginContainer2(HDC hdc)
+
+```cpp
+VOID Example_BeginContainer2(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -151,18 +147,18 @@ The following example calls the <b>Graphics::BeginContainer</b> method to create
 
    // Fill an ellipse in the container.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillEllipse(&amp;redBrush, 0, 0, 100, 60);
+   graphics.FillEllipse(&redBrush, 0, 0, 100, 60);
 
    // End the container.
    graphics.EndContainer(container);
 
    // Fill the same ellipse outside the container.
    SolidBrush blueBrush(Color(255, 0, 0, 255));
-   graphics.FillEllipse(&amp;blueBrush, 0, 0, 100, 60);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillEllipse(&blueBrush, 0, 0, 100, 60);
+}
+```
+
+
 
 
 

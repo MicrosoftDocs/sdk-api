@@ -142,18 +142,14 @@ If the <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> contains more 
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToDoubleArray">VariantToDoubleArray</a> to access a <b>DOUBLE</b> array stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// VARIANT var;
+
+```cpp
+// VARIANT var;
 // Assume variable var is initialized and valid.
 DOUBLE rgDoubles[4]; // The application expects var to hold 4 DOUBLEs in an array.
 ULONG cDoubles;
 
-HRESULT hr = VariantToDoubleArray(var, rgDoubles, ARRAYSIZE(rgDoubles), &amp;cFlags);
+HRESULT hr = VariantToDoubleArray(var, rgDoubles, ARRAYSIZE(rgDoubles), &cFlags);
 
 if (SUCCEEDED(hr))
 {
@@ -166,10 +162,10 @@ if (SUCCEEDED(hr))
         // The application got *pcElem DOUBLEs which are stored in the first 
         // *pcElem elements of rgDoubles.
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

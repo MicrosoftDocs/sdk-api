@@ -208,13 +208,9 @@ For more information about using methods semisynchronously, see
 The following code example describes a simple implementation of 
 <b>PutClassAsync</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CStdProvider::PutClassAsync( 
+
+```cpp
+HRESULT CStdProvider::PutClassAsync( 
             /* [in] */ IWbemClassObject __RPC_FAR *pObject,
             /* [in] */ long lFlags,
             /* [in] */ IWbemContext __RPC_FAR *pCtx,
@@ -229,10 +225,10 @@ The following code example describes a simple implementation of
    }
 
    return WBEM_E_PROVIDER_NOT_CAPABLE;   
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

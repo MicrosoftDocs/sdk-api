@@ -108,29 +108,25 @@ The flags for the mixing preferences are divided into three groups: decimation, 
 </ul>
 You must specify a valid flag for each group. If you want to change a single flag, you can get the current preferences, remove the flag you don't want, and add the flag you want. For example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Get the current mixing preferences.
 DWORD dwPrefs;
-pMixControl-&gt;GetMixingPrefs(&amp;dwPrefs);  
+pMixControl->GetMixingPrefs(&dwPrefs);  
 
 // Remove the current render target flag.
-dwPrefs &amp;= ~MixerPref_RenderTargetMask; 
+dwPrefs &= ~MixerPref_RenderTargetMask; 
 
 // Add the render target flag that we want.
 dwPrefs |= MixerPref_RenderTargetYUV;
 
 // Set the new flags.
-pMixControl-&gt;SetMixingPrefs(dwPrefs);
-</pre>
-</td>
-</tr>
-</table></span></div>
+pMixControl->SetMixingPrefs(dwPrefs);
+
+```
+
+
 If the VMR is in renderless mode, you must set the allocator-presenter before calling <code>SetMixingPrefs</code>. Otherwise, the VMR cannot determine the capabilities of the Direct3D device.
 
 Include DShow.h and D3d9.h before Vmr9.h.

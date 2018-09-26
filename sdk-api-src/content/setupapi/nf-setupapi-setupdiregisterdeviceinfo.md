@@ -88,21 +88,17 @@ If the caller supplies <i>CompareProc</i>, the caller must also set this flag.
 
 A pointer to a comparison callback function to use in duplicate detection. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, the callback function is called for each device instance that is of the same class as the device instance that is being registered. The prototype of the callback function is as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef  DWORD (CALLBACK* PSP_DETSIG_CMPPROC) (
+
+```
+typedef  DWORD (CALLBACK* PSP_DETSIG_CMPPROC) (
     IN HDEVINFO  DeviceInfoSet,
     IN PSP_DEVINFO_DATA  NewDeviceData,
     IN PSP_DEVINFO_DATA  ExistingDeviceData,
     IN PVOID  CompareContextOPTIONAL
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
+
 The compare function must return ERROR_DUPLICATE_FOUND if it finds that the two devices are duplicates. Otherwise, it should return NO_ERROR. If some other error is encountered, the callback function should return the appropriate ERROR_* code to indicate the failure.
 
 If <i>CompareProc</i> is not specified and duplication detection is requested, a default comparison behavior is used. The default is to compare the new device's detect signature with the detect signature of all other devices in the class. The detect signature is contained in the class-specific resource descriptor of the device's boot log configuration.
