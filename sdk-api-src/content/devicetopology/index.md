@@ -2,7 +2,7 @@
 UID: NA:devicetopology
 ms.assetid: 4d8d6287-231f-3d16-841d-4c06f9ff36df
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

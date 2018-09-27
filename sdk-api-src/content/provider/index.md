@@ -2,7 +2,7 @@
 UID: NA:provider
 ms.assetid: 09eb144e-543b-3fbc-978b-78648fe423f5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:wmsdkidl
 ms.assetid: f732d6ec-d386-38ff-849d-e5228583a928
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

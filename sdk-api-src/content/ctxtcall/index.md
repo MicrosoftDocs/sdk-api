@@ -2,7 +2,7 @@
 UID: NA:ctxtcall
 ms.assetid: 45ad8c7e-d66e-32f5-a6ff-d215154f9744
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

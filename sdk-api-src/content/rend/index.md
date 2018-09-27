@@ -2,7 +2,7 @@
 UID: NA:rend
 ms.assetid: c1afc144-3799-37a1-9287-ce110baa1159
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:genericusbfnioctl
 ms.assetid: b457291b-e7cf-39db-9412-32cd4e08f8da
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:comppkgsup
 ms.assetid: d9229a96-75e9-36c1-984c-3471f9f9c49b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

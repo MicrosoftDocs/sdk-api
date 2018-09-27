@@ -2,7 +2,7 @@
 UID: TP:direct3d9
 ms.assetid: e1922644-f233-3eab-8912-7b4d2f26d8ec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

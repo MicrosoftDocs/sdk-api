@@ -2,7 +2,7 @@
 UID: NA:gdipluspath
 ms.assetid: 05d037fc-c743-306b-891f-a0aa51f67d67
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

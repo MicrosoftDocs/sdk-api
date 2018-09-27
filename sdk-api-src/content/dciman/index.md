@@ -2,7 +2,7 @@
 UID: NA:dciman
 ms.assetid: bd676d3c-636f-3d67-9081-41926146aed2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

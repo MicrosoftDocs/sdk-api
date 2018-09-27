@@ -2,7 +2,7 @@
 UID: NA:wtshintapi
 ms.assetid: 4d9a39cc-3c75-346a-aec9-3d79d787f384
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

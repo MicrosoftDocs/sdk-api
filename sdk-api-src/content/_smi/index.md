@@ -2,7 +2,7 @@
 UID: TP:smi
 ms.assetid: b1cdcf64-e5d8-3c70-974f-c11fa9c6d21f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

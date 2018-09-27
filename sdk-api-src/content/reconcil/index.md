@@ -2,7 +2,7 @@
 UID: NA:reconcil
 ms.assetid: bbd65572-de86-37bf-8745-cf2ab27304c6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

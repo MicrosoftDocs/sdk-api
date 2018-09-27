@@ -2,7 +2,7 @@
 UID: NA:combaseapi
 ms.assetid: e62ae5e8-bef8-3cc9-8ea3-abd486b1c7cb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

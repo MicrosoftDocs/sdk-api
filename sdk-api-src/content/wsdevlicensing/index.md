@@ -2,7 +2,7 @@
 UID: NA:wsdevlicensing
 ms.assetid: 9d35a75a-05d2-332f-aca6-77f462433962
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

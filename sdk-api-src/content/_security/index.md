@@ -2,7 +2,7 @@
 UID: TP:security
 ms.assetid: b363e999-e030-3061-ae49-cc5ffd5ea84d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

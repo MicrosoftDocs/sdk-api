@@ -2,7 +2,7 @@
 UID: NA:lmmsg
 ms.assetid: d50d291c-e6c2-3d55-968a-d8c760d06b00
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
