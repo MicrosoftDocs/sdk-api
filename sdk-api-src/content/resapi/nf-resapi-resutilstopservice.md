@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Stops a <a href="s_gly.htm">service</a> identified by a handle. The <b>PRESUTIL_STOP_SERVICE</b> type defines a pointer to this function.
+Stops a <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">service</a> identified by a handle. The <b>PRESUTIL_STOP_SERVICE</b> type defines a pointer to this function.
 
 
 ## -parameters

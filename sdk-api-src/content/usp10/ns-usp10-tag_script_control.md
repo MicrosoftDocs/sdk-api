@@ -101,7 +101,7 @@ Choose national digits according to the value of the <b>uDefaultLanguage</b> mem
 
 ### -field fInvertPreBoundDir
 
-Value indicating if the initial context is set to the opposite of the base embedding level, or to the base embedding level itself. Possible values are defined in the following table. The application sets this member to indicate that text at the start of the string defaults to being laid out as if it follows a strong left-to-right character if the base <a href="uniscribe_glossary.htm">embedding level</a> is 0, and as if it follows a strong right-to-left character if the base embedding level is 1. This member is used for <a href="https://msdn.microsoft.com/80d3f4b3-503b-4abb-826c-e5c09972ba2f">GetCharacterPlacement</a> legacy support.
+Value indicating if the initial context is set to the opposite of the base embedding level, or to the base embedding level itself. Possible values are defined in the following table. The application sets this member to indicate that text at the start of the string defaults to being laid out as if it follows a strong left-to-right character if the base <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">embedding level</a> is 0, and as if it follows a strong right-to-left character if the base embedding level is 1. This member is used for <a href="https://msdn.microsoft.com/80d3f4b3-503b-4abb-826c-e5c09972ba2f">GetCharacterPlacement</a> legacy support.
 
 <table>
 <tr>

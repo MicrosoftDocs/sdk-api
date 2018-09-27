@@ -63,23 +63,23 @@ Creates a <b>HatchBrush::HatchBrush</b> object based on a hatch style, a foregro
 
 #### - backColor [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a></b>
 
-Optional. Reference to a color to use for the background. The default value is <b>Color</b>()(a <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object created by the default <b>Color</b> constructor). 
+Optional. Reference to a color to use for the background. The default value is <b>Color</b>()(a <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object created by the default <b>Color</b> constructor). 
 
 
 #### - foreColor [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a></b>
 
 Reference to a color to use for the hatch lines. 
 
 
 #### - hatchStyle [in]
 
-Type: <b><a href="https://msdn.microsoft.com/6321a75f-99cf-4e63-b498-168d4a8bb950">HatchStyle</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534127(v=VS.85).aspx">HatchStyle</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/6321a75f-99cf-4e63-b498-168d4a8bb950">HatchStyle</a> enumeration that specifies the pattern of hatch lines that will be used. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534127(v=VS.85).aspx">HatchStyle</a> enumeration that specifies the pattern of hatch lines that will be used. 
 
 
 ## -see-also
@@ -87,23 +87,23 @@ Element of the <a href="https://msdn.microsoft.com/6321a75f-99cf-4e63-b498-168d4
 
 
 
-<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e633cb2-8b0f-4b6a-95d8-f494d5f972eb">HatchBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534459(v=VS.85).aspx">HatchBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/6321a75f-99cf-4e63-b498-168d4a8bb950">HatchStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534127(v=VS.85).aspx">HatchStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ccf2c4a-6f99-465f-8adf-0f7fcd002f79">Using a Brush to Fill Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533811(v=VS.85).aspx">Using a Brush to Fill Shapes</a>
  
 
  

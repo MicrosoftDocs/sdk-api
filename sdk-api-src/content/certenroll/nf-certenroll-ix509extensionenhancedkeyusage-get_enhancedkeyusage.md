@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>EnhancedKeyUsage</b> property retrieves a collection of key usage <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifiers</a> (OIDs).
+The <b>EnhancedKeyUsage</b> property retrieves a collection of key usage <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifiers</a> (OIDs).
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/6cb12736-db5d-4d65-b32f-4bd11ceea01d">InitializeEncode</a> method or the <a href="https://msdn.microsoft.com/e83d0577-8eb9-4a59-8f52-ce1d9ab7f58a">InitializeDecode</a> method to initialize the collection.  You can also call the <a href="https://msdn.microsoft.com/b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072">Critical</a> property to specify and retrieve a Boolean value that identifies whether the extension is critical, and you can call the <a href="https://msdn.microsoft.com/d3508bfe-e323-4075-9c82-d9b53b8f54aa">ObjectId</a> property to retrieve the OID associated with the extension.
+Call the <a href="https://msdn.microsoft.com/en-us/library/Aa378138(v=VS.85).aspx">InitializeEncode</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa378135(v=VS.85).aspx">InitializeDecode</a> method to initialize the collection.  You can also call the <a href="https://msdn.microsoft.com/en-us/library/Aa378409(v=VS.85).aspx">Critical</a> property to specify and retrieve a Boolean value that identifies whether the extension is critical, and you can call the <a href="https://msdn.microsoft.com/en-us/library/Aa378518(v=VS.85).aspx">ObjectId</a> property to retrieve the OID associated with the extension.
 
 
 
@@ -73,7 +73,7 @@ Call the <a href="https://msdn.microsoft.com/6cb12736-db5d-4d65-b32f-4bd11ceea01
 
 
 
-<a href="https://msdn.microsoft.com/0b9606d0-351c-4d2d-b876-545a9c2cf916">IX509ExtensionEnhancedKeyUsage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378132(v=VS.85).aspx">IX509ExtensionEnhancedKeyUsage</a>
  
 
  

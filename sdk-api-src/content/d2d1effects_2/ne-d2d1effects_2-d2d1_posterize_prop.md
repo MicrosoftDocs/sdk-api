@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/e6686998-1246-b3b7-6f4f-212568c3191c">Posterize effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn900458(v=VS.85).aspx">Posterize effect</a>.
 
 
 ## -enum-fields

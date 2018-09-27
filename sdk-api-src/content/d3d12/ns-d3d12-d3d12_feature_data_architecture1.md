@@ -51,7 +51,7 @@ req.redist:
 
 
 Provide detail about the adapter architecture, helping applications better optimize for certain adapter properties.
-<div class="alert"><b>Note</b>  This structure, introduced in the Windows 10 Creators Update, is the latest version of the <a href="https://msdn.microsoft.com/FA16A260-3CC9-4F32-A97B-8A561A01C138">D3D12_FEATURE_DATA_ARCHITECTURE</a> structure. Applications targetting Windows 10 Creators Update should use this structre instead of <b>D3D12_FEATURE_DATA_ARCHITECTURE</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  This structure, introduced in the Windows 10 Creators Update, is the latest version of the <a href="https://msdn.microsoft.com/en-us/library/Dn859384(v=VS.85).aspx">D3D12_FEATURE_DATA_ARCHITECTURE</a> structure. Applications targetting Windows 10 Creators Update should use this structre instead of <b>D3D12_FEATURE_DATA_ARCHITECTURE</b>.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,8 +61,8 @@ Provide detail about the adapter architecture, helping applications better optim
 ### -field NodeIndex
 
 In multi-adapter operation, this indicates which physical adapter of the device is relevant.
-            See <a href="https://msdn.microsoft.com/CC4C6594-D48F-40C1-93EE-9F98532BC038">Multi-Adapter</a>.
-            <b>NodeIndex</b> is filled out by the application before calling <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a>, as the application can retrieve details about the architecture of each adapter.
+            See <a href="https://msdn.microsoft.com/en-us/library/Dn933253(v=VS.85).aspx">Multi-Adapter</a>.
+            <b>NodeIndex</b> is filled out by the application before calling <a href="https://msdn.microsoft.com/en-us/library/Dn788653(v=VS.85).aspx">CheckFeatureSupport</a>, as the application can retrieve details about the architecture of each adapter.
           
 
 
@@ -92,7 +92,7 @@ Specifies whether the hardware and driver support cache-coherent UMA.
 <a href="https://msdn.microsoft.com/en-us/library/jj159528.aspx">SAL</a>: <code>_Out_</code>
 
 Specifies whether the hardware and driver support isolated Memory Management Unit (MMU).
-            The runtime sets this member to <b>TRUE</b> if the GPU honors CPU page table properties like <b>MEM_WRITE_WATCH</b> (for more information, see <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>) and <b>PAGE_READONLY</b> (for more information, see <a href="https://msdn.microsoft.com/09839db7-2118-4a7d-a707-a08c92bd600c">Memory Protection Constants</a>).
+            The runtime sets this member to <b>TRUE</b> if the GPU honors CPU page table properties like <b>MEM_WRITE_WATCH</b> (for more information, see <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>) and <b>PAGE_READONLY</b> (for more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa366786(v=VS.85).aspx">Memory Protection Constants</a>).
 
 If <b>TRUE</b>, the application must take care to no use memory with these page table properties with the GPU, as the GPU might trigger these page table properties in unexpected ways. For example, GPU write operations might be coarser than the application expects, particularly writes from within shaders. Certain write-watch pages migth appear dirty, even when it isn't obvious how GPU writes may have affected them. GPU operations associated with upload and readback heap usage scenarios work well with write-watch pages, but might occasionally generate false positives that can be safely ignored.
 
@@ -103,8 +103,8 @@ If <b>TRUE</b>, the application must take care to no use memory with these page 
 
 <h3><a id="How_to_use_UMA_and_CacheCoherentUMA"></a><a id="how_to_use_uma_and_cachecoherentuma"></a><a id="HOW_TO_USE_UMA_AND_CACHECOHERENTUMA"></a>How to use UMA and CacheCoherentUMA</h3>
 D3D12 apps should be concerned about managing memory residency and providing the optimal heap properties.
-            D3D12 apps can stay simplified and run reasonably well across many GPU architectures by only managing the residency for resources in <a href="https://msdn.microsoft.com/5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4">D3D12_HEAP_TYPE</a>_DEFAULT heaps.
-            Those apps only need to call <a href="https://msdn.microsoft.com/A2F95FE5-CF8D-4F17-8CC8-62AAA40B71FC">IDXGIAdapter3::QueryVideoMemoryInfo</a> for DXGI_MEMORY_SEGMENT_GROUP_LOCAL, 
+            D3D12 apps can stay simplified and run reasonably well across many GPU architectures by only managing the residency for resources in <a href="https://msdn.microsoft.com/en-us/library/Dn770374(v=VS.85).aspx">D3D12_HEAP_TYPE</a>_DEFAULT heaps.
+            Those apps only need to call <a href="https://msdn.microsoft.com/en-us/library/Dn933223(v=VS.85).aspx">IDXGIAdapter3::QueryVideoMemoryInfo</a> for DXGI_MEMORY_SEGMENT_GROUP_LOCAL, 
             and they must be tolerant that D3D12_HEAP_TYPE_UPLOAD and D3D12_HEAP_TYPE_READBACK come from that same memory segment group.
           
 
@@ -132,7 +132,7 @@ When <b>CacheCoherentUMA</b> is <b>false</b>, a single residency budget is avail
             The feasibility of success is likely dependent on how often each processor either reads or writes the data, the size and locality of data accesses, etc.
             For advanced developers: when <b>UMA</b> is true and <b>CacheCoherentUMA</b> is <b>false</b>, the most unique characteristic for these adapters is that upload heaps are still write-combined.
             However, some UMA adapters benefit from both the no-CPU-access and write-combine properties of default and upload heaps.
-            See <a href="https://msdn.microsoft.com/FD1A7C77-24C3-49D5-8F20-01D5FF7FC895">GetCustomHeapProperties</a> for more details.
+            See <a href="https://msdn.microsoft.com/en-us/library/Mt427783(v=VS.85).aspx">GetCustomHeapProperties</a> for more details.
           
 
 When <b>CacheCoherentUMA</b> is true, applications can more strongly entertain abandoning the attribution of heaps and using the custom heap equivalent of upload heaps everywhere.
@@ -158,11 +158,11 @@ The low-level details should be ignored by a vast majority of single-adapter app
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770363(v=VS.85).aspx">D3D12_FEATURE</a>
  
 
  

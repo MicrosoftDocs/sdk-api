@@ -61,7 +61,7 @@ The <b>SetupDiOpenDeviceInterface</b> function retrieves information about a dev
 
 ### -param DeviceInfoSet [in]
 
-A pointer to a <a href="devinst.device_information_sets">device information set</a> that contains, or will contain, a device information element that represents the device that supports the interface to open.
+A pointer to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains, or will contain, a device information element that represents the device that supports the interface to open.
 
 
 ### -param DevicePath [in]
@@ -79,7 +79,7 @@ Flags that determine how the device interface element is to be opened. The only 
 
 #### DIODI_NO_ADD
 
-Specifies that the device information element for the underlying device will not be created if that element is not already present in the specified <a href="devinst.device_information_sets">device information set</a>. For more information, see the following <b>Remarks</b> section. 
+Specifies that the device information element for the underlying device will not be created if that element is not already present in the specified <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a>. For more information, see the following <b>Remarks</b> section. 
 
 
 ### -param DeviceInterfaceData [out, optional]
@@ -106,7 +106,7 @@ If the function successfully opens the new device interface but the caller did n
 
 If the new device interface is successfully opened, but the caller-supplied <i>DeviceInterfaceData</i> buffer is invalid, this function returns <b>FALSE</b> and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_INVALID_USER_BUFFER. The caller's buffer error does not prevent the interface from being opened.
 
-If the DIODI_NO_ADD flag is specified for the <i>OpenFlags</i> parameter, and a device information element for the underlying device is not already present in the specified <a href="devinst.device_information_sets">device information set</a>, this function returns <b>FALSE</b> and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_NO_SUCH_DEVICE_INTERFACE. 
+If the DIODI_NO_ADD flag is specified for the <i>OpenFlags</i> parameter, and a device information element for the underlying device is not already present in the specified <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a>, this function returns <b>FALSE</b> and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_NO_SUCH_DEVICE_INTERFACE. 
 
 When the application has finished using the information that <b>SetupDiOpenDeviceInterface</b> retrieved<b>,</b> the application must call <a href="https://msdn.microsoft.com/20c9fe5b-ed88-4e2c-bca5-eba62f919fe6">SetupDiDeleteDeviceInterfaceData</a>.
 

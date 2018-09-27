@@ -123,7 +123,7 @@ The authenticode policy return code.
 
 
 
-<a href="https://msdn.microsoft.com/b86a8f39-73a1-4e17-ac83-9ed095de4922">DownloadJavaEX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb432249(v=VS.85).aspx">DownloadJavaEX</a>
 
 
 

@@ -61,13 +61,13 @@ Describes the subresource from a 2D texture to use in a shader-resource view.
 ### -field MostDetailedMip
 
 Index of the most detailed mipmap level to use; this number is between 0 and (<b>MipLevels</b> (from the original Texture2D for which 
-            <a href="https://msdn.microsoft.com/50E072F2-EC3E-4BED-A230-5447ECD1E7D6">ID3D11Device3::CreateShaderResourceView1</a>creates a view) - 1 ).
+            <a href="https://msdn.microsoft.com/en-us/library/Dn899227(v=VS.85).aspx">ID3D11Device3::CreateShaderResourceView1</a>creates a view) - 1 ).
           
 
 
 ### -field MipLevels
 
-The maximum number of mipmap levels for the view of the texture. See the remarks in <a href="https://msdn.microsoft.com/255e97ac-e978-4a70-a908-f4537337dfeb">D3D11_TEX1D_SRV</a>.
+The maximum number of mipmap levels for the view of the texture. See the remarks in <a href="https://msdn.microsoft.com/en-us/library/Ff476231(v=VS.85).aspx">D3D11_TEX1D_SRV</a>.
             
 
 Set to -1 to indicate all the mipmap levels from <b>MostDetailedMip</b> on down to least detailed.
@@ -84,7 +84,7 @@ The index (plane slice number) of the plane to use in the texture.
 
 
 
-<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
  
 
  

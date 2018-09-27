@@ -57,7 +57,7 @@ req.redist:
 
 
 
-The <b>GetMarkerCount</b> method returns the number of <a href="wmformat_glossary.htm">markers</a> currently in the header section of the ASF file.
+The <b>GetMarkerCount</b> method returns the number of <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">markers</a> currently in the header section of the ASF file.
 
 
 
